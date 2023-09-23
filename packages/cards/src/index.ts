@@ -353,7 +353,7 @@ Hyper Drivers you control get **Crank**.`,
     defaultImage: "EVO010_V2",
     name: "Singularity",
     printings: [{
-      
+      foiling: Foiling.C,
       identifier: "EVO010",
       image: "EVO010_V2",
       set: Release.BrightLights,
@@ -388,6 +388,52 @@ Hyper Drivers you control get **Crank**.`,
     
     
     specializations: [Hero.Teklovossen],
+    
+    
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "hyper-x",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO011_v2",
+    name: "Hyper-X3",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO011",
+      image: "EVO011_v2",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO011"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO011_v2",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `Whenever you banish a Hyper Driver from **boosting**, put it under this.
+
+Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
     
     
   },{
@@ -1877,6 +1923,50 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
     
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "hyper-scrapper-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO100",
+    name: "Hyper Scrapper",
+    printings: [{
+      
+      identifier: "EVO100",
+      image: "EVO100",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO100"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO100",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish X items from your graveyard.
+
+When this attacks it gets +X{p}. If 3 or more Hyper Drivers were banished to play this, gain {r}{r}{r} {r}{r}{r} and this gets **go again**.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    specialCost: "X",
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Anastasia Balakchina"],
     cardIdentifier: "scrap-trader-red",
     classes: [Class.Mechanologist],
@@ -2495,6 +2585,50 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     
     
   },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "meganetic-lockwave-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO143",
+    name: "Meganetic Lockwave",
+    printings: [{
+      
+      identifier: "EVO143",
+      image: "EVO143",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO143"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO143",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    defense: 3,
+    functionalText: `Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. 
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    specialCost: "XXX",
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Olga Tereshenko"],
     cardIdentifier: "system-failure-yellow",
     classes: [Class.Mechanologist],
@@ -2575,6 +2709,92 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "smash-and-grab-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO155",
+    name: "Smash and Grab",
+    printings: [{
+      
+      identifier: "EVO155",
+      image: "EVO155",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO155"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO155",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p} and "When this hits a hero, gain control of an item they control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rev-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO183",
+    name: "Rev Up",
+    printings: [{
+      
+      identifier: "EVO183",
+      image: "EVO183",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO183"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO183",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    
     
     
     
@@ -33979,7 +34199,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Vito Vivodka"],
     cardIdentifier: "consuming-aftermath-blue",
     classes: [Class.NotClassed],
@@ -34225,8 +34446,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "convection-amplifier-red",
     classes: [Class.Mechanologist],
@@ -70693,7 +70913,8 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano-dracai-of-aether",
     classes: [Class.Wizard],
@@ -70941,8 +71162,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "katsu-the-wanderer",
     classes: [Class.Ninja],
@@ -107042,7 +107262,8 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "searing-touch-red",
     classes: [Class.NotClassed],
@@ -107144,8 +107365,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Inkognit"],
     cardIdentifier: "second-swing-red",
     classes: [Class.Warrior],

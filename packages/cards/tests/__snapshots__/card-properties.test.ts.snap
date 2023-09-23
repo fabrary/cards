@@ -127685,6 +127685,7 @@ exports[`Check for unintentional updates Singularity (singularity-red) vs snapsh
   "pitch": 1,
   "printings": [
     {
+      "foiling": "Cold",
       "identifier": "EVO010",
       "image": "EVO010_V2",
       "set": "Bright Lights",
@@ -142418,6 +142419,52 @@ exports[`Check for unintentional updates Swing Fist, Think Later (swing-fist-thi
     "Attack",
   ],
   "typeText": "Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates System Failure (system-failure-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Olga Tereshenko",
+  ],
+  "cardIdentifier": "system-failure-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO144",
+  "defense": 2,
+  "functionalText": "Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler.",
+  "name": "System Failure",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO144",
+      "image": "EVO144",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO144",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO144",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
   "types": [
     "Action",
   ],
