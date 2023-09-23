@@ -295,6 +295,58 @@ Hyper Drivers you control get **Crank**.`,
     
     young: true
   },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "teklo-leveler",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO009",
+    name: "Teklo Leveler",
+    printings: [{
+      
+      identifier: "EVO009",
+      image: "EVO009",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS190",
+      image: "LGS190.width-10000",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS190","EVO009"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO009",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    functionalText: `If you have 1 or more Evos equipped, this gets "**Once per Turn Action** - {r}{r}{r}: **Attack**,"
+
+* 2 or more, this costs {r}{r} less to activate,
+* 3 or more, this gets **go again**,
+* 4 or more, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "singularity-red",
     classes: [Class.Mechanologist],
@@ -3965,52 +4017,6 @@ You may pitch 2 red cards. If you don't, banish your hand.
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "teklo-leveler",
-    classes: [Class.Mechanologist],
-    defaultImage: "LGS190.width-10000",
-    name: "Teklo Leveler",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "LGS190",
-      image: "LGS190.width-10000",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS190"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS190.width-10000",
-    subtypes: [Subtype.TwoHanded,Subtype.Gun],
-    types: [Type.Weapon],
-    typeText: "Mechanologist Weapon - Gun (2H)",
-
-    
-    
-    functionalText: `If you have 1 or more Evos equipped, this gets "**Once per Turn Action** - {r}{r}{r}: **Attack**,"
-
-* 2 or more, this costs {r}{r} less to activate,
-* 3 or more, this gets **go again**,
-* 4 or more, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    power: 2,
     
     
     

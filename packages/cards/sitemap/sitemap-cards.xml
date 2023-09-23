@@ -31,6 +31,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/teklo-leveler</loc>
+    <lastmod>2023-09-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/singularity-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -418,11 +423,6 @@
   <url>
     <loc>https://fabrary.net/cards/quicken</loc>
     <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/teklo-leveler</loc>
-    <lastmod>2023-09-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

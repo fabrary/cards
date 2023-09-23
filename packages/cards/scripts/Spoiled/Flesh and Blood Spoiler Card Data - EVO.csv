@@ -16,7 +16,11 @@ EVO007,EVO,"Teklovossen, Esteemed Magnate",,,,,40,4,"Mechanologist, Hero",,Once 
 EVO008,EVO,Teklovossen,,,,,20,4,"Mechanologist, Hero, Young",,Once per Turn Instant,,,,,"You may play Evos from your banished zone.
 
 **Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",Mechanologist Hero - Young,,,No,,T,S,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO008.width-450.format-webp.webp,,,,,,
-EVO009,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"LGS190, EVO009","LGS, EVO",Teklo Leveler,,,2,,,,"Mechanologist, Weapon, Gun, 2H",,Once per Turn Action,"Attack, Go again",,,,"If you have 1 or more Evos equipped, this gets ""**Once per Turn Action** - {r}{r}{r}: **Attack**,""
+
+* 2 or more, this costs {r}{r} less to activate,
+* 3 or more, this gets **go again**,
+* 4 or more, this gets +1{p}.",Mechanologist Weapon - Gun (2H),,,,,P,C,,Joseph Qiu,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS190.width-10000.png,T,,,Joseph Qiu,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO009.png
 EVO010,EVO,Singularity,1,6,,3,,,"Mechanologist, Action, Construct","Transform, Legendary, Teklovossen Specialization",,,,,,"**Legendary Teklovossen Specialization**
 
 **Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]",Mechanologist Action - Construct,,,,No,V,CF,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png,,,,,,
@@ -401,8 +405,3 @@ EVO247,EVO,Warband of Bellona,,,,2,,,"Light, Warrior, Equipment, Head",Temper,Ac
 EVO248,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO249,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO250,EVO,Quicken,,,,,,,"Generic, Token, Aura",Go again,,,,,,"When you play an attack action card or activate a weapon attack, destroy this and the attack gets **go again**.",Generic Token - Aura,,,,,T,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO250.png,,,,,,
-LGS190,"LGS, EVO",Teklo Leveler,,,2,,,,"Mechanologist, Weapon, Gun, 2H",,Once per Turn Action,"Attack, Go again",,,,"If you have 1 or more Evos equipped, this gets ""**Once per Turn Action** - {r}{r}{r}: **Attack**,""
-
-* 2 or more, this costs {r}{r} less to activate,
-* 3 or more, this gets **go again**,
-* 4 or more, this gets +1{p}.",Mechanologist Weapon - Gun (2H),,,,,P,C,,Joseph Qiu,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS190.width-10000.png,,,,,,

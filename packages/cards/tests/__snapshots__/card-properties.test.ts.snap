@@ -145004,7 +145004,7 @@ exports[`Check for unintentional updates Teklo Leveler (teklo-leveler) vs snapsh
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "LGS190.width-10000",
+  "defaultImage": "EVO009",
   "functionalText": "If you have 1 or more Evos equipped, this gets "**Once per Turn Action** - {r}{r}{r}: **Attack**,"
 
 * 2 or more, this costs {r}{r} less to activate,
@@ -145017,6 +145017,11 @@ exports[`Check for unintentional updates Teklo Leveler (teklo-leveler) vs snapsh
   "power": 2,
   "printings": [
     {
+      "identifier": "EVO009",
+      "image": "EVO009",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "LGS190",
       "image": "LGS190.width-10000",
@@ -145025,16 +145030,18 @@ exports[`Check for unintentional updates Teklo Leveler (teklo-leveler) vs snapsh
   ],
   "rarities": [
     "Promo",
+    "Token",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
     "LGS190",
+    "EVO009",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS190.width-10000",
+  "specialImage": "EVO009",
   "subtypes": [
     "2H",
     "Gun",
