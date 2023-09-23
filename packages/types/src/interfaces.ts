@@ -234,6 +234,7 @@ export enum Subtype {
   Staff = "Staff",
   Sword = "Sword",
   Trap = "Trap",
+  Wrench = "Wrench",
   Young = "Young",
 }
 

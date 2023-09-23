@@ -163,6 +163,50 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     young: true
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "maxx-the-hype-nitro",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO004",
+    name: "Maxx 'The Hype' Nitro",
+    printings: [{
+      
+      identifier: "EVO004",
+      image: "EVO004",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO004"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO004",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+
+Hyper Drivers you control get **Crank**.`,
+    
+    hero: Hero.Maxx,
+    intellect: 4,
+    
+    keywords: [Keyword.Crank],
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateus Manhanini"],
     cardIdentifier: "maxx-nitro",
     classes: [Class.Mechanologist],
@@ -206,6 +250,52 @@ Hyper Drivers you control get **Crank**.`,
     
     
     young: true
+  },{
+    artists: ["Mateus Manhanini"],
+    cardIdentifier: "banksy",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO006",
+    name: "Banksy",
+    printings: [{
+      
+      identifier: "EVO006",
+      image: "EVO006",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO006"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO006",
+    subtypes: [Subtype.TwoHanded,Subtype.Wrench],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Wrench (2H)",
+
+    
+    
+    functionalText: `**Maxx Specialization**
+
+**Once per Turn Action** - {r}: **Attack**. Activate this ability only if you've **cranked** this turn.
+
+When this hits a hero, put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    power: 3,
+    
+    
+    
+    
+    
+    specializations: [Hero.Maxx],
+    
+    
   },{
     artists: ["Simon Dominic"],
     cardIdentifier: "teklovossen-esteemed-magnate",
@@ -2631,6 +2721,52 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     
     
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "moonshot-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO140",
+    name: "Moonshot",
+    printings: [{
+      
+      identifier: "EVO140",
+      image: "EVO140",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO140"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO140",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    defense: 3,
+    functionalText: `Play this only if you've **boosted** this turn. As an additional cost to play this, destroy X Hyper Drivers you control.
+
+When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
+
+If this has 10 or more {p}, it gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    specialCost: "XX",
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "meganetic-lockwave-blue",
     classes: [Class.Mechanologist],
@@ -2763,6 +2899,50 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     
     
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-a-leak-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO150",
+    name: "Spring a Leak",
+    printings: [{
+      
+      identifier: "EVO150",
+      image: "EVO150",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO150"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO150",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "smash-and-grab-red",
     classes: [Class.Mechanologist],
@@ -2795,8 +2975,52 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     
     
     pitch: 1,
-    power: 6,
+    power: 5,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "big-bertha-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO179",
+    name: "Big Bertha",
+    printings: [{
+      
+      identifier: "EVO179",
+      image: "EVO179",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO179"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO179",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 4,
+    
     
     
     
@@ -3673,7 +3897,7 @@ The next attack you **boost** this turn gets +4{p}.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -34005,7 +34229,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "concealed-blade-blue",
     classes: [Class.Assassin,Class.Ninja],
@@ -34231,8 +34456,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Vito Vivodka"],
     cardIdentifier: "consuming-aftermath-yellow",
     classes: [Class.NotClassed],
@@ -70839,7 +71063,8 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-yellow",
     classes: [Class.Mechanologist],
@@ -70939,8 +71164,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "kano",
     classes: [Class.Wizard],
@@ -107288,7 +107512,8 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-blue",
     classes: [Class.Ranger],
@@ -107354,8 +107579,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "searing-touch-red",
     classes: [Class.NotClassed],

@@ -103189,6 +103189,56 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Quickfire (quickfire-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alief Rusdiatama",
+  ],
+  "cardIdentifier": "quickfire-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO225",
+  "defense": 2,
+  "functionalText": "This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Quickfire",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO225",
+      "image": "EVO225",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO225",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO225",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Quicksilver Dagger (quicksilver-dagger) vs snapshot 1`] = `
 {
   "artists": [
@@ -130184,7 +130234,7 @@ exports[`Check for unintentional updates Smash and Grab (smash-and-grab-red) vs 
   "functionalText": "If you've **boosted** 2 or more times this turn, this gets +2{p} and "When this hits a hero, gain control of an item they control."",
   "name": "Smash and Grab",
   "pitch": 1,
-  "power": 6,
+  "power": 5,
   "printings": [
     {
       "identifier": "EVO155",

@@ -5,11 +5,17 @@ EVO002,EVO,"Dash, Database",,,,,18,4,"Mechanologist, Hero, Young",,,,,,,"You may
 
 Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",Mechanologist Hero - Young,,,No,,T,,,Sam Yang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO002.png,,,,,,
 EVO003,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO004,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO005,EVO,Maxx Nitro,,,,,20,4,"Mechanologist, Hero, Young",Crank,,,,,,"**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+EVO004,EVO,Maxx 'The Hype' Nitro,,,,,40,4,"Mechanologist, Hero",,Once Per Turn Action,,Crank,,Boost,"**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+
+Hyper Drivers you control get **Crank**.",Mechanologist Hero,,No,,No,M,,,Jessada Sutthi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO004.png,,,,,,
+EVO005,EVO,Maxx Nitro,,,,,20,4,"Mechanologist, Hero, Young",,Once Per Turn Action,,Crank,,Boost,"**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
 
 Hyper Drivers you control get **Crank**.",Mechanologist Hero - Young,,,No,,T,,,Mateus Manhanini,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO005.png,,,,,,
-EVO006,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO006,EVO,Banksy,,,3,,,,"Mechanologist, Weapon, Wrench, 2H",Maxx Specialization,Once per Turn Action,Attack,,,Crank,"**Maxx Specialization**
+
+**Once per Turn Action** - {r}: **Attack**. Activate this ability only if you've **cranked** this turn.
+
+When this hits a hero, put a steam counter on an item you control with **crank**.",Mechanologist Weapon - Wrench (2H),,,,,T,,,Mateus Manhanini,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO006.png,,,,,,
 EVO007,EVO,"Teklovossen, Esteemed Magnate",,,,,40,4,"Mechanologist, Hero",,Once per Turn Instant,,,,,"You may play Evos from your banished zone.
 
 **Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.",Mechanologist Hero,,No,,No,M,S,,Simon Dominic,,https://dhhim4ltzu1pj.cloudfront.net/media/images/EVO007.width-450.format-webp.webp,,,,,,
@@ -243,7 +249,11 @@ EVO138,EVO,Heist,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.",Mechanologist Action - Attack,,,,No,M,,,Marco González,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO138.png,,,,,,
 EVO139,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO140,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO140,EVO,Moonshot,2,XX,3,3,,,"Mechanologist, Action, Attack",Overpower,,,,,Boost,"Play this only if you've **boosted** this turn. As an additional cost to play this, destroy X Hyper Drivers you control.
+
+When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
+
+If this has 10 or more {p}, it gets **overpower**.",Mechanologist Action - Attack,,,,No,M,,,Jessada Sutthi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO140.png,,,,,,
 EVO141,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO142,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO143,EVO,Meganetic Lockwave,3,XXX,,3,,,"Mechanologist, Action",Go Again,,,,,,"Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. 
@@ -259,12 +269,14 @@ EVO146,EVO,Fabricate,1,0,,,,,"Mechanologist, Instant",,,,,,,"Choose 2;
 EVO147,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO148,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO149,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO150,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO150,EVO,Spring a Leak,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",Mechanologist Action - Attack,,,,No,R,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO150.png,,,,,,
 EVO151,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO152,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO153,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO154,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO155,EVO,Smash and Grab,1,3,6,3,,,"Mechanologist, Action, Attack",,,,,,Boost,"If you've **boosted** 2 or more times this turn, this gets +2{p} and ""When this hits a hero, gain control of an item they control.""",Mechanologist Action - Attack,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO155.png,,,,,,
+EVO155,EVO,Smash and Grab,1,3,5,3,,,"Mechanologist, Action, Attack",,,,,,Boost,"If you've **boosted** 2 or more times this turn, this gets +2{p} and ""When this hits a hero, gain control of an item they control.""",Mechanologist Action - Attack,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO155.png,,,,,,
 EVO156,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO157,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO158,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -288,7 +300,9 @@ EVO175,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO176,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO177,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO178,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO179,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO179,EVO,Big Bertha,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,Boost,"**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO179.png,,,,,,
 EVO180,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO181,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO182,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -372,7 +386,7 @@ EVO221,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO222,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO223,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO224,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO225,EVO,Quickfire,1,2,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"This costs {r} less to play for each Hyper Driver you control.
+EVO225,EVO,Quickfire,1,2,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"This costs {r} less to play for each Hyper Driver you control.
 
 The next attack you **boost** this turn gets +4{p}.
 
