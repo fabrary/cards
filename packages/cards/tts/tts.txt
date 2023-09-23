@@ -1922,6 +1922,7 @@ OSCCardDB = {
   ["EVO213"] = { name = "Panel Beater (1)", text = "**Boost**\n\nThis gets +X{p}, where X is the number of equipment defending it.", keywords = "Boost", types = "Action"},
   ["EVO214"] = { name = "Panel Beater (2)", text = "**Boost**\n\nThis gets +X{p}, where X is the number of equipment defending it.", keywords = "Boost", types = "Action"},
   ["EVO215"] = { name = "Panel Beater (3)", text = "**Boost**\n\nThis gets +X{p}, where X is the number of equipment defending it.", keywords = "Boost", types = "Action"},
+  ["EVO222"] = { name = "Gas Up (1)", text = "The next attack you **boost** this turn gets +4{p}.\n\nYou may put a Hyper Driver from your banished zone into the arena.\n\n**Go again**", keywords = "Boost,Go again", types = "Action"},
   ["EVO225"] = { name = "Quickfire (1)", text = "This costs {r} less to play for each Hyper Driver you control.\n\nThe next attack you **boost** this turn gets +4{p}.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["EVO231"] = { name = "Teklonetic Force Field (1)", text = "When this defends an attack with **overpower**, this gets +2{d}.", keywords = "", types = "Block"},
   ["EVO232"] = { name = "Teklonetic Force Field (2)", text = "When this defends an attack with **overpower**, this gets +2{d}.", keywords = "", types = "Block"},

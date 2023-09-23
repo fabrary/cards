@@ -403,7 +403,11 @@ EVO218,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO219,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO220,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO221,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO222,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO222,EVO,Gas Up,1,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"The next attack you **boost** this turn gets +4{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**",Mechanologist Action,,,,,C,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO222.png,,,,,,
 EVO223,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO224,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO225,EVO,Quickfire,1,2,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"This costs {r} less to play for each Hyper Driver you control.

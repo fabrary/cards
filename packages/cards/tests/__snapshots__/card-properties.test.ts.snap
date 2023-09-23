@@ -61071,6 +61071,56 @@ The next time you hit a hero this turn, destroy a non-token aura they own with c
 }
 `;
 
+exports[`Check for unintentional updates Hadron Collider (hadron-collider-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "hadron-collider-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO092",
+  "functionalText": "**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Hadron Collider",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO092",
+      "image": "EVO092",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO092",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO092",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Hadron Collider (hadron-collider-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -61110,6 +61160,56 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
     "Bright Lights",
   ],
   "specialImage": "EVO090",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hadron Collider (hadron-collider-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "hadron-collider-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO091",
+  "functionalText": "**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Hadron Collider",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO091",
+      "image": "EVO091",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO091",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO091",
   "subtypes": [
     "Item",
     "Non-Attack",

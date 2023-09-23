@@ -4095,6 +4095,52 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     
     
   },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "gas-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO222",
+    name: "Gas Up",
+    printings: [{
+      
+      identifier: "EVO222",
+      image: "EVO222",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO222"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO222",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `The next attack you **boost** this turn gets +4{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "quickfire-red",
     classes: [Class.Mechanologist],
