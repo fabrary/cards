@@ -237,7 +237,7 @@ EVO140,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO141,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO142,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO143,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO144,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO144,EVO,System Failure,2,1,,2,,,"Mechanologist, Action",,,,,,,"Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler.",Mechanologist Action,,,,No,M,,,Olga Tereshenko,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO144.png,,,,,,
 EVO145,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO146,EVO,Fabricate,1,0,,,,,"Mechanologist, Instant",,,,,,,"Choose 2;
 - Equip a base equipment with Proto in its name from your inventory.

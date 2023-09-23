@@ -2495,6 +2495,48 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     
     
   },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "system-failure-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO144",
+    name: "System Failure",
+    printings: [{
+      
+      identifier: "EVO144",
+      image: "EVO144",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO144"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO144",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "fabricate-red",
     classes: [Class.Mechanologist],
@@ -34183,7 +34225,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Cristián Huerta"],
     cardIdentifier: "convection-amplifier-red",
     classes: [Class.Mechanologist],
@@ -34251,8 +34294,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "convulsions-from-the-bellows-of-hell-red",
     classes: [Class.Brute],
