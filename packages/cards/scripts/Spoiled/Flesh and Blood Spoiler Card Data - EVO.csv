@@ -176,8 +176,16 @@ EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**C
 This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO090.png,,,,,,
-EVO091,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO092,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO091,EVO,Hadron Collider,2,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO091.png,,,,,,
+EVO092,EVO,Hadron Collider,3,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO092.png,,,,,,
 EVO093,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO094,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO095,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

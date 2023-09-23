@@ -349,6 +349,59 @@ exports[`Check for unintentional updates Achilles Accelerator (achilles-accelera
 }
 `;
 
+exports[`Check for unintentional updates Adaptive Plating (adaptive-plating) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "adaptive-plating",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO013",
+  "defense": 1,
+  "functionalText": "**Modular**
+
+**Action** - 0: Equip this to another equipment zone.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d} until end of turn.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Galvanize",
+    "Modular",
+  ],
+  "name": "Adaptive Plating",
+  "printings": [
+    {
+      "identifier": "EVO013",
+      "image": "EVO013",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+  ],
+  "rarity": "Legendary",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO013",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO013",
+  "subtypes": [],
+  "typeText": "Mechanologist Equipment",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Adrenaline Rush (adrenaline-rush-blue) vs snapshot 1`] = `
 {
   "artists": [

@@ -2067,6 +2067,98 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
     
     
   },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "hadron-collider-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO091",
+    name: "Hadron Collider",
+    printings: [{
+      
+      identifier: "EVO091",
+      image: "EVO091",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO091"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO091",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "hadron-collider-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO092",
+    name: "Hadron Collider",
+    printings: [{
+      
+      identifier: "EVO092",
+      image: "EVO092",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO092"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO092",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-red",
     classes: [Class.Mechanologist],
@@ -34067,7 +34159,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     classes: [Class.Generic],
@@ -34215,8 +34308,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-blue",
     classes: [Class.Generic],
@@ -71031,7 +71123,8 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     talents: [Talent.Elemental,Talent.Ice],
     young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "iyslander-stormbind",
     classes: [Class.Wizard],
@@ -71095,8 +71188,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     talents: [Talent.Elemental,Talent.Ice],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "jubeel-spellbane",
     classes: [Class.Warrior],
@@ -107512,7 +107604,8 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-red",
     classes: [Class.Ranger],
@@ -107584,8 +107677,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-yellow",
     classes: [Class.Ranger],
