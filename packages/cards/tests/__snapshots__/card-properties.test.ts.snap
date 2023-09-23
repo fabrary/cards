@@ -58254,6 +58254,57 @@ exports[`Check for unintentional updates Gambler's Gloves (gamblers-gloves) vs s
 }
 `;
 
+exports[`Check for unintentional updates Gas Up (gas-up-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Giacobino",
+  ],
+  "cardIdentifier": "gas-up-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO222",
+  "defense": 2,
+  "functionalText": "The next attack you **boost** this turn gets +4{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Gas Up",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO222",
+      "image": "EVO222",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO222",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO222",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Gavel of Natural Order (gavel-of-natural-order) vs snapshot 1`] = `
 {
   "artists": [

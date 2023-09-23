@@ -43,10 +43,18 @@ EVO013,EVO,Adaptive Plating,,,,1,,,"Mechanologist, Equipment","Modular, Galvaniz
 **Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d} until end of turn.
 
 **Blade Break**",Mechanologist Equipment,,,,No,L,,,Carlos Cruchaga,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO013.png,,,,,,
-EVO014,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO015,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO016,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO017,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO014,EVO,Cogwerx Base Head,,,,,,,"Mechanologist, Equipment, Base Head",,,,,,,"When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Head,,,,,C,,,Maxim Nikiforov,,/733ebdf6-6f68-4686-a309-df626d5340e2.webp,,,,,,
+EVO015,EVO,Cogwerx Base Chest,,,,,,,"Mechanologist, Equipment, Base Chest",,,,,,,"When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Chest,,,,,C,,,Irina Si,,/82550f56-83a8-4681-b9ab-827572706ceb.webp,,,,,,
+EVO016,EVO,Cogwerx Base Arms,,,,,,,"Mechanologist, Equipment, Base Arms",,,,,,,"When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Arms,,,,,C,,,Elizaveta Alipatova,,/21a864c3-5125-42dd-ae01-deb1dc18a009.webp,,,,,,
+EVO017,EVO,Cogwerx Base Legs,,,,,,,"Mechanologist, Equipment, Base Legs",,,,,,,"When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Legs,,,,,C,,,Irina Si,,/86379047-06c3-4933-8f8b-23b6fef35bef.webp,,,,,,
 "LGS186, EVO018","LGS, EVO",Teklo Base Head,,,,1,,,"Mechanologist, Equipment, Base, Head",Blade Break,,,,,,**Blade Break**,Mechanologist Equipment - Base Head,,,,,P,C,,Alief Rusdiatama,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS186.width-450.format-webp.webp,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO018.png
 "LGS187, EVO019","LGS, EVO",Teklo Base Chest,,,,1,,,"Mechanologist, Equipment, Base, Chest",Blade Break,,,,,,**Blade Break**,Mechanologist Equipment - Base Chest,,,,,P,C,,Septimius Ferdian,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS187.width-450.format-webp.webp,C,,,Septimius Ferdian,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO019.png
 "LGS188, EVO020","LGS, EVO",Teklo Base Arms,,,,1,,,"Mechanologist, Equipment, Base, Arms",Blade Break,,,,,,**Blade Break**,Mechanologist Equipment - Base Arms,,,,,P,C,,Lizhe Liang,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS188.width-450.format-webp.webp,C,,,Lizhe Liang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO020.png

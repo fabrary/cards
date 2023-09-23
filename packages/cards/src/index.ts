@@ -575,6 +575,182 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     
     
   },{
+    artists: ["Maxim Nikiforov"],
+    cardIdentifier: "cogwerx-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "733ebdf6-6f68-4686-a309-df626d5340e2",
+    name: "Cogwerx Base Head",
+    printings: [{
+      
+      identifier: "EVO014",
+      image: "733ebdf6-6f68-4686-a309-df626d5340e2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO014"],
+    sets: [Release.BrightLights],
+    specialImage: "733ebdf6-6f68-4686-a309-df626d5340e2",
+    subtypes: [],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Head",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "cogwerx-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "82550f56-83a8-4681-b9ab-827572706ceb",
+    name: "Cogwerx Base Chest",
+    printings: [{
+      
+      identifier: "EVO015",
+      image: "82550f56-83a8-4681-b9ab-827572706ceb",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO015"],
+    sets: [Release.BrightLights],
+    specialImage: "82550f56-83a8-4681-b9ab-827572706ceb",
+    subtypes: [],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Chest",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Elizaveta Alipatova"],
+    cardIdentifier: "cogwerx-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "21a864c3-5125-42dd-ae01-deb1dc18a009",
+    name: "Cogwerx Base Arms",
+    printings: [{
+      
+      identifier: "EVO016",
+      image: "21a864c3-5125-42dd-ae01-deb1dc18a009",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO016"],
+    sets: [Release.BrightLights],
+    specialImage: "21a864c3-5125-42dd-ae01-deb1dc18a009",
+    subtypes: [],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Arms",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "cogwerx-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "86379047-06c3-4933-8f8b-23b6fef35bef",
+    name: "Cogwerx Base Legs",
+    printings: [{
+      
+      identifier: "EVO017",
+      image: "86379047-06c3-4933-8f8b-23b6fef35bef",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO017"],
+    sets: [Release.BrightLights],
+    specialImage: "86379047-06c3-4933-8f8b-23b6fef35bef",
+    subtypes: [],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Legs",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "teklo-base-head",
     classes: [Class.Mechanologist],
@@ -34019,7 +34195,8 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Hendry Iwanaga"],
     cardIdentifier: "combustible-courier-yellow",
     classes: [Class.Mechanologist],
@@ -34205,8 +34382,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-red",
     classes: [Class.Generic],
@@ -71037,7 +71213,8 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Shen Fei"],
     cardIdentifier: "isolate-blue",
     classes: [Class.Assassin],
@@ -71169,8 +71346,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     talents: [Talent.Elemental,Talent.Ice],
     young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "iyslander-stormbind",
     classes: [Class.Wizard],
@@ -107602,7 +107778,8 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Edward Chee"],
     cardIdentifier: "searing-ray-blue",
     classes: [Class.NotClassed],
@@ -107650,8 +107827,7 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     talents: [Talent.Light],
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Vadim Kalabukh"],
     cardIdentifier: "searing-shot-red",
     classes: [Class.Ranger],
