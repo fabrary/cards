@@ -527,6 +527,54 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "adaptive-plating",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO013",
+    name: "Adaptive Plating",
+    printings: [{
+      
+      identifier: "EVO013",
+      image: "EVO013",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO013"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO013",
+    subtypes: [],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment",
+
+    
+    defense: 1,
+    functionalText: `**Modular**
+
+**Action** - 0: Equip this to another equipment zone.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d} until end of turn.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Galvanize,Keyword.Modular],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "teklo-base-head",
     classes: [Class.Mechanologist],
@@ -34167,7 +34215,8 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Andrey Savchuk"],
     cardIdentifier: "come-to-fight-blue",
     classes: [Class.Generic],
@@ -34247,8 +34296,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Fajareka Setiawan","Othon Nikolaidis"],
     cardIdentifier: "command-and-conquer-red",
     classes: [Class.Generic],
@@ -71047,7 +71095,8 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     talents: [Talent.Elemental,Talent.Ice],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Andy Aslamov"],
     cardIdentifier: "jubeel-spellbane",
     classes: [Class.Warrior],
@@ -71103,8 +71152,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Amelia Tan"],
     cardIdentifier: "jump-start-red",
     classes: [Class.Mechanologist],

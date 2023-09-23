@@ -22305,6 +22305,59 @@ exports[`Check for unintentional updates Buckling Blow (buckling-blow-yellow) vs
 }
 `;
 
+exports[`Check for unintentional updates Bull Bar (bull-bar-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Faizal Fikri",
+  ],
+  "cardIdentifier": "bull-bar-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO147",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.",
+  "keywords": [
+    "Boost",
+    "Overpower",
+  ],
+  "name": "Bull Bar",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO147",
+      "image": "EVO147",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO147",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO147",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bull's Eye Bracers (bulls-eye-bracers) vs snapshot 1`] = `
 {
   "artists": [
@@ -60959,6 +61012,56 @@ The next time you hit a hero this turn, destroy a non-token aura they own with c
     "Non-Attack",
   ],
   "typeText": "Generic Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Hadron Collider (hadron-collider-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "hadron-collider-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO090",
+  "functionalText": "**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Hadron Collider",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO090",
+      "image": "EVO090",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO090",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO090",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
   "types": [
     "Action",
   ],
