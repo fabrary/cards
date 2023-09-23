@@ -4282,7 +4282,7 @@ exports[`Check for unintentional updates Annihilator Engine (annihilator-engine-
     {
       "foiling": "Rainbow",
       "identifier": "EVO054",
-      "image": "EVO054_EA",
+      "image": "EVO054_V2",
       "set": "Bright Lights",
       "treatment": "Extended Art",
     },
@@ -4300,7 +4300,7 @@ exports[`Check for unintentional updates Annihilator Engine (annihilator-engine-
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "EVO054_EA",
+  "specialImage": "EVO054_V2",
   "subtypes": [
     "Attack",
   ],
@@ -40673,6 +40673,52 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
 }
 `;
 
+exports[`Check for unintentional updates Dumpster Dive (dumpster-dive-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "dumpster-dive-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO197",
+  "defense": 3,
+  "functionalText": "**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.",
+  "name": "Dumpster Dive",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO197",
+      "image": "EVO197",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO197",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO197",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dumpster Dive (dumpster-dive-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -40709,6 +40755,52 @@ If an item or equipment was banished from boosting this, this gets +1{p}.",
     "Bright Lights",
   ],
   "specialImage": "EVO195",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dumpster Dive (dumpster-dive-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Shen Fei",
+  ],
+  "cardIdentifier": "dumpster-dive-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO196",
+  "defense": 3,
+  "functionalText": "**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.",
+  "name": "Dumpster Dive",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO196",
+      "image": "EVO196",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO196",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO196",
   "subtypes": [
     "Attack",
   ],
@@ -92222,6 +92314,55 @@ exports[`Check for unintentional updates Pack Hunt (pack-hunt-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Panel Beater (panel-beater-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Balakchina",
+  ],
+  "cardIdentifier": "panel-beater-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO215",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Panel Beater",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO215",
+      "image": "EVO215",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO215",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO215",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Panel Beater (panel-beater-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -92261,6 +92402,55 @@ This gets +X{p}, where X is the number of equipment defending it.",
     "Bright Lights",
   ],
   "specialImage": "EVO213",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Panel Beater (panel-beater-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Anastasia Balakchina",
+  ],
+  "cardIdentifier": "panel-beater-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO214",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Panel Beater",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO214",
+      "image": "EVO214",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO214",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO214",
   "subtypes": [
     "Attack",
   ],
@@ -119160,6 +119350,153 @@ When this attacks, if it scrapped a card, you may play your next Evo this turn a
 }
 `;
 
+exports[`Check for unintentional updates Scrap Compactor (scrap-compactor-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yugin Maffioli",
+  ],
+  "cardIdentifier": "scrap-compactor-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO129",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Compactor",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO129",
+      "image": "EVO129",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO129",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO129",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scrap Compactor (scrap-compactor-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yugin Maffioli",
+  ],
+  "cardIdentifier": "scrap-compactor-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO130",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, you may play your next Evo this turn as though it were an instant.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Compactor",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO130",
+      "image": "EVO130",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO130",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO130",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scrap Harvester (scrap-harvester-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sandeep Karunakaran",
+  ],
+  "cardIdentifier": "scrap-harvester-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO134",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Harvester",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO134",
+      "image": "EVO134",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO134",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO134",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Scrap Harvester (scrap-harvester-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -119199,6 +119536,55 @@ When this attacks, if it scrapped a card, put a steam counter on an item you con
     "Bright Lights",
   ],
   "specialImage": "EVO132",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scrap Harvester (scrap-harvester-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sandeep Karunakaran",
+  ],
+  "cardIdentifier": "scrap-harvester-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO133",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, put a steam counter on an item you control with crank.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Harvester",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO133",
+      "image": "EVO133",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO133",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO133",
   "subtypes": [
     "Attack",
   ],
@@ -119251,6 +119637,110 @@ When this attacks, if it scrapped a card, create a Quicken token.",
     "Bright Lights",
   ],
   "specialImage": "EVO110",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scrap Hopper (scrap-hopper-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "scrap-hopper-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO108",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, create a Quicken token.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Hopper",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO108",
+      "image": "EVO108",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO108",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO108",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Scrap Hopper (scrap-hopper-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "scrap-hopper-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO109",
+  "defense": 3,
+  "functionalText": "**Scrap**
+
+When this attacks, if it scrapped a card, create a Quicken token.",
+  "keywords": [
+    "Scrap",
+  ],
+  "name": "Scrap Hopper",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO109",
+      "image": "EVO109",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO109",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO109",
   "subtypes": [
     "Attack",
   ],
@@ -136538,6 +137028,55 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
 }
 `;
 
+exports[`Check for unintentional updates Sprocket Rocket (sprocket-rocket-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Veto Zomer",
+  ],
+  "cardIdentifier": "sprocket-rocket-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO194",
+  "defense": 3,
+  "functionalText": "**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Sprocket Rocket",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "EVO194",
+      "image": "EVO194",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO194",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO194",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Sprocket Rocket (sprocket-rocket-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -136574,6 +137113,55 @@ If an item or equipment was banished from boosting this, this gets +1{p}.",
     "Bright Lights",
   ],
   "specialImage": "EVO192",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Sprocket Rocket (sprocket-rocket-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Veto Zomer",
+  ],
+  "cardIdentifier": "sprocket-rocket-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO193",
+  "defense": 3,
+  "functionalText": "**Boost**
+ 
+If an item or equipment was banished from boosting this, this gets +1{p}.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Sprocket Rocket",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO193",
+      "image": "EVO193",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO193",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO193",
   "subtypes": [
     "Attack",
   ],
@@ -156195,7 +156783,7 @@ exports[`Check for unintentional updates War Machine (war-machine-red) vs snapsh
     {
       "foiling": "Rainbow",
       "identifier": "EVO056",
-      "image": "EVO056_EA",
+      "image": "EVO056_V2",
       "set": "Bright Lights",
       "treatment": "Extended Art",
     },
@@ -156213,7 +156801,7 @@ exports[`Check for unintentional updates War Machine (war-machine-red) vs snapsh
   "sets": [
     "Bright Lights",
   ],
-  "specialImage": "EVO056_EA",
+  "specialImage": "EVO056_V2",
   "subtypes": [
     "Attack",
   ],
