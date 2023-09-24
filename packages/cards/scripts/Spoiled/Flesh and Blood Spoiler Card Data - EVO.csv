@@ -158,7 +158,7 @@ EVO069,EVO,Mechanical Strength,3,3,3,3,,,"Mechanologist, Action, Attack",Evo Upg
 EVO070,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO071,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO072,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO073,EVO,Stasis Cell,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.
+EVO073,EVO,Stasis Cell,3,0,,,,,"Mechanologist, Action, Item",Crank,Action,Go again,,,,"When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.
 
 **Action** - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. **Go again**",Mechanologist Action - Item,,,,No,M,,,Saad Irfan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO073.png,,,,,,
 EVO074,EVO,Tick Tock Clock,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
@@ -168,7 +168,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 When a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.",Mechanologist Action - Item,,,,No,M,,,MJ Fetesio,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO074.png,,,,,,
 EVO075,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO076,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO077,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO077,EVO,Steam Canister,3,0,,,,,"Mechanologist, Action, Item",,,,,,Crank,**Instant** - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with **crank**.,Mechanologist Action - Item,,,,No,R,,,Mariusz Gandzel,"""This city of dreams was built on steam!"" - Cogwerx Slogan",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO077.png,,,,,,
 EVO078,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO079,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO080,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -223,12 +223,12 @@ EVO095,EVO,Mini Forcefield,3,1,,,,,"Mechanologist, Action, Item","Crank, Ward",,
 This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 **Ward X**, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO095.png,,,,,,
-EVO096,EVO,Overload Script,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+EVO096,EVO,Overload Script,1,0,,,,,"Mechanologist, Action, Item",Crank,,,Overpower,,,"**Crank**
 
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 Your Mechanologist attack action cards get **overpower**.",Mechanologist Action - Item,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO096.png,,,,,,
-EVO097,EVO,MHz Script,2,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+EVO097,EVO,MHz Script,2,0,,,,,"Mechanologist, Action, Item",Crank,,,Go again,,,"**Crank**
 
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
 

@@ -2187,7 +2187,7 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     
     
-    keywords: [Keyword.Crank],
+    keywords: [Keyword.Crank,Keyword.GoAgain],
     
     
     pitch: 3,
@@ -2237,6 +2237,48 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
     pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "steam-canister-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO077",
+    name: "Steam Canister",
+    printings: [{
+      
+      identifier: "EVO077",
+      image: "EVO077",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO077"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO077",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Instant** - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -2693,7 +2735,7 @@ Your Mechanologist attack action cards get **overpower**.`,
     
     
     
-    keywords: [Keyword.Crank],
+    keywords: [Keyword.Crank,Keyword.Overpower],
     
     
     pitch: 1,
@@ -2739,7 +2781,7 @@ Your Mechanologist attack action cards get **go again**.`,
     
     
     
-    keywords: [Keyword.Crank],
+    keywords: [Keyword.Crank,Keyword.GoAgain],
     
     
     pitch: 2,
@@ -34209,7 +34251,8 @@ Destroy target yellow aura.`,
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-blue",
     classes: [Class.NotClassed],
@@ -34259,8 +34302,7 @@ Destroy target blue aura.`,
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "clearing-bellow-blue",
     classes: [Class.Brute],

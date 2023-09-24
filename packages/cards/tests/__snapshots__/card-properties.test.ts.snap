@@ -82749,6 +82749,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 Your Mechanologist attack action cards get **go again**.",
   "keywords": [
     "Crank",
+    "Go again",
   ],
   "name": "MHz Script",
   "pitch": 2,
@@ -93416,6 +93417,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 Your Mechanologist attack action cards get **overpower**.",
   "keywords": [
     "Crank",
+    "Overpower",
   ],
   "name": "Overload Script",
   "pitch": 1,
@@ -139736,6 +139738,58 @@ exports[`Check for unintentional updates Star Struck (star-struck-yellow) vs sna
     "Attack",
   ],
   "typeText": "Guardian Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Stasis Cell (stasis-cell-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Saad Irfan",
+  ],
+  "cardIdentifier": "stasis-cell-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO073",
+  "functionalText": "When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.
+
+**Action** - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. **Go again**",
+  "keywords": [
+    "Crank",
+    "Go again",
+  ],
+  "name": "Stasis Cell",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO073",
+      "image": "EVO073",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO073",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO073",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
   "types": [
     "Action",
   ],
