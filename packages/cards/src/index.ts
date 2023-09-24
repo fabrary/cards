@@ -3765,6 +3765,52 @@ If this has 10 or more {p}, it gets **overpower**.`,
     
     
   },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "steel-street-hoons-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO141",
+    name: "Steel Street Hoons",
+    printings: [{
+      
+      identifier: "EVO141",
+      image: "EVO141",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO141"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO141",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Boost**
+
+If an item you control has been destroyed this turn, this gets +2{p}.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "meganetic-lockwave-blue",
     classes: [Class.Mechanologist],

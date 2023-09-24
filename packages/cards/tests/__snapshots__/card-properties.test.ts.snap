@@ -49701,6 +49701,55 @@ exports[`Check for unintentional updates Evo Thruster (evo-thruster-yellow) vs s
 }
 `;
 
+exports[`Check for unintentional updates Expedite (expedite-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kyxarie Peralta",
+  ],
+  "cardIdentifier": "expedite-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO198",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Expedite",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO198",
+      "image": "EVO198",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO198",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO198",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Expendable Limbs (expendable-limbs-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -86044,6 +86093,55 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
   "typeText": "Warrior Weapon - Axe (2H)",
   "types": [
     "Weapon",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates MetEx (metex-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "metex-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO201",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "MetEx",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO201",
+      "image": "EVO201",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO201",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO201",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;

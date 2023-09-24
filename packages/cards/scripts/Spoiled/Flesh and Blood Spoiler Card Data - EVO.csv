@@ -322,7 +322,11 @@ EVO140,EVO,Moonshot,2,XX,3,3,,,"Mechanologist, Action, Attack",Overpower,,,,,Boo
 When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
 
 If this has 10 or more {p}, it gets **overpower**.",Mechanologist Action - Attack,,,,No,M,,,Jessada Sutthi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO140.png,,,,,,
-EVO141,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO141,EVO,Steel Street Hoons,3,3,3,2,,,"Mechanologist, Action, Attack","Boost, Galvanize",,,,,,"**Boost**
+
+If an item you control has been destroyed this turn, this gets +2{p}.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,M,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO141.png,,,,,,
 EVO142,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO143,EVO,Meganetic Lockwave,3,XXX,,3,,,"Mechanologist, Action",Go Again,,,,,,"Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. 
 
