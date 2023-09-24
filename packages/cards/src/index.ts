@@ -2157,6 +2157,50 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     
   },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "stasis-cell-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO073",
+    name: "Stasis Cell",
+    printings: [{
+      
+      identifier: "EVO073",
+      image: "EVO073",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO073"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO073",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.
+
+**Action** - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["MJ Fetesio"],
     cardIdentifier: "tick-tock-clock-red",
     classes: [Class.Mechanologist],
@@ -34215,7 +34259,8 @@ Destroy target blue aura.`,
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "clearing-bellow-blue",
     classes: [Class.Brute],
@@ -34265,8 +34310,7 @@ Destroy target blue aura.`,
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "cleave-red",
     classes: [Class.Warrior],
@@ -71437,7 +71481,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "ironrot-legs",
     classes: [Class.Generic],
@@ -71545,8 +71590,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Gorshkov Stanislav"],
     cardIdentifier: "ironrot-plate",
     classes: [Class.Generic],

@@ -50,7 +50,7 @@ class Search {
         { name: "setIdentifiers", weight: 2 },
         { name: "typeText", weight: 6 },
       ],
-      threshold: 0.1,
+      threshold: 0.15,
       useExtendedSearch: true,
     };
 

@@ -158,7 +158,9 @@ EVO069,EVO,Mechanical Strength,3,3,3,3,,,"Mechanologist, Action, Attack",Evo Upg
 EVO070,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO071,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO072,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO073,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO073,EVO,Stasis Cell,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.
+
+**Action** - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. **Go again**",Mechanologist Action - Item,,,,No,M,,,Saad Irfan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO073.png,,,,,,
 EVO074,EVO,Tick Tock Clock,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
 
 This enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.

@@ -5963,6 +5963,56 @@ exports[`Check for unintentional updates Ash (ash) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Autosave Script (autosave-script-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "autosave-script-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO098",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get "When this hits, put it on the bottom of its owner's deck."",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Autosave Script",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO098",
+      "image": "EVO098",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO098",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO098",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Autumn's Touch (autumns-touch-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -18825,6 +18875,56 @@ exports[`Check for unintentional updates Boneyard Marauder (boneyard-marauder-ye
 }
 `;
 
+exports[`Check for unintentional updates Boom Grenade (boom-grenade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "boom-grenade-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO086",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 2 damage to them.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Boom Grenade",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO086",
+      "image": "EVO086",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO086",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO086",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Boom Grenade (boom-grenade-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -18864,6 +18964,56 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     "Bright Lights",
   ],
   "specialImage": "EVO084",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Boom Grenade (boom-grenade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "boom-grenade-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO085",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 3 damage to them.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Boom Grenade",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO085",
+      "image": "EVO085",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO085",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO085",
   "subtypes": [
     "Item",
     "Non-Attack",
@@ -82581,6 +82731,56 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
 }
 `;
 
+exports[`Check for unintentional updates MHz Script (mhz-script-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "mhz-script-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO097",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **go again**.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "MHz Script",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO097",
+      "image": "EVO097",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO097",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO097",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Macho Grande (macho-grande-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -86124,6 +86324,159 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
   "typeText": "Warrior Mentor",
   "types": [
     "Mentor",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mini Forcefield (mini-forcefield-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "mini-forcefield-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO095",
+  "functionalText": "**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.",
+  "keywords": [
+    "Crank",
+    "Ward",
+  ],
+  "name": "Mini Forcefield",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO095",
+      "image": "EVO095",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO095",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO095",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mini Forcefield (mini-forcefield-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "mini-forcefield-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO093",
+  "functionalText": "**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.",
+  "keywords": [
+    "Crank",
+    "Ward",
+  ],
+  "name": "Mini Forcefield",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO093",
+      "image": "EVO093",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO093",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO093",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Mini Forcefield (mini-forcefield-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "mini-forcefield-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO094",
+  "functionalText": "**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.",
+  "keywords": [
+    "Crank",
+    "Ward",
+  ],
+  "name": "Mini Forcefield",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO094",
+      "image": "EVO094",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO094",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO094",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -93039,6 +93392,56 @@ If Overload hits, it gains **go again**.",
     "Attack",
   ],
   "typeText": "Generic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Overload Script (overload-script-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "overload-script-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO096",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **overpower**.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Overload Script",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO096",
+      "image": "EVO096",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO096",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO096",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
   "types": [
     "Action",
   ],

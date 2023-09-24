@@ -204,6 +204,7 @@ describe("Card search", () => {
   });
 
   const hasQuantity = [
+    ["overloop"],
     ['t:"demi-hero"'],
     ["!pitch"],
     ["artist:delmiro"],
