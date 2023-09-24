@@ -7523,7 +7523,9 @@ exports[`Check for unintentional updates Backup Protocol: YEL (backup-protocol-y
   "cost": 0,
   "defaultImage": "EVO082",
   "functionalText": "**Crank**
+
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
 **Instant** - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.",
   "keywords": [
     "Crank",
@@ -96639,6 +96641,59 @@ exports[`Check for unintentional updates Pendulum Trap (pendulum-trap-yellow) vs
 }
 `;
 
+exports[`Check for unintentional updates Penetration Script (penetration-script-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Riordan Delmiro",
+  ],
+  "cardIdentifier": "penetration-script-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO079",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get +1{p}.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Penetration Script",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO079",
+      "image": "EVO079",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO079",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO079",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Perch Grapplers (perch-grapplers) vs snapshot 1`] = `
 {
   "artists": [
@@ -100016,6 +100071,59 @@ Deal 3 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     "Elemental",
   ],
   "typeText": "Elemental Wizard Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Polarity Reversal Script (polarity-reversal-script-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "polarity-reversal-script-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO078",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Action cards get -1{d} while defending your Mechanologist attack action cards.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Polarity Reversal Script",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO078",
+      "image": "EVO078",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO078",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO078",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
   "types": [
     "Action",
   ],
@@ -124166,6 +124274,59 @@ exports[`Check for unintentional updates Second Swing (second-swing-yellow) vs s
     "Non-Attack",
   ],
   "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Security Script (security-script-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluisio Cervelle",
+  ],
+  "cardIdentifier": "security-script-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO080",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get +1{d}.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Security Script",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO080",
+      "image": "EVO080",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO080",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO080",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
   "types": [
     "Action",
   ],

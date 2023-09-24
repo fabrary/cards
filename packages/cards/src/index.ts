@@ -2587,6 +2587,52 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
   },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "quantum-processor-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO072",
+    name: "Quantum Processor",
+    printings: [{
+      
+      identifier: "EVO072",
+      image: "EVO072",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO072"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO072",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Once per Turn Instant** - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "stasis-cell-blue",
     classes: [Class.Mechanologist],
@@ -3011,7 +3057,9 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     cost: 0,
     
     functionalText: `**Crank**
+
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
 **Instant** - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.`,
     
     
@@ -34169,7 +34217,8 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "chain-lightning-yellow",
     classes: [Class.Wizard],
@@ -34237,8 +34286,7 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "chains-of-eminence-red",
     classes: [Class.Generic],
@@ -72089,7 +72137,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-blue",
     classes: [Class.NotClassed],
@@ -72149,8 +72198,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-azvolai-red",
     classes: [Class.Illusionist],
@@ -109768,7 +109816,8 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-yellow",
     classes: [Class.Generic],
@@ -109840,8 +109889,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-blue",
     classes: [Class.Generic],
