@@ -2677,6 +2677,48 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "fuel-injector-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO075",
+    name: "Fuel Injector",
+    printings: [{
+      
+      identifier: "EVO075",
+      image: "EVO075",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO075"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO075",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Instant** - Put this on the bottom of its owner's deck: Gain {r}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Rachel Alderson"],
     cardIdentifier: "medkit-blue",
     classes: [Class.Mechanologist],
@@ -34183,7 +34225,8 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "chill-to-the-bone-blue",
     classes: [Class.NotClassed],
@@ -34245,8 +34288,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     talents: [Talent.Ice],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-red",
     classes: [Class.Ranger],
@@ -71717,7 +71759,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "invoke-themai-red",
     classes: [Class.Illusionist],
@@ -71765,8 +71808,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-tomeltai-red",
     classes: [Class.Illusionist],
@@ -109194,7 +109236,8 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-yellow",
     classes: [Class.Generic],
@@ -109256,8 +109299,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-blue",
     classes: [Class.Generic],

@@ -7411,6 +7411,154 @@ Defense reactions can't be played to Back Stab's chain link.",
 }
 `;
 
+exports[`Check for unintentional updates Backup Protocol: BLU (backup-protocol-blu-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rachel Alderson",
+  ],
+  "cardIdentifier": "backup-protocol-blu-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO083",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a blue Mechanologist attack action card from your graveyard to your hand.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Backup Protocol: BLU",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO083",
+      "image": "EVO083",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO083",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO083",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Backup Protocol: RED (backup-protocol-red-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rachel Alderson",
+  ],
+  "cardIdentifier": "backup-protocol-red-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO081",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a red Mechanologist attack action card from your graveyard to your hand.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Backup Protocol: RED",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO081",
+      "image": "EVO081",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO081",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO081",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Backup Protocol: YEL (backup-protocol-yel-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rachel Alderson",
+  ],
+  "cardIdentifier": "backup-protocol-yel-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO082",
+  "functionalText": "**Crank**
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+**Instant** - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Backup Protocol: YEL",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO082",
+      "image": "EVO082",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO082",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO082",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bad Beats (bad-beats-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -49041,6 +49189,114 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
 }
 `;
 
+exports[`Check for unintentional updates Evo Battery Pack (evo-battery-pack-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ramza Ardyputra",
+  ],
+  "cardIdentifier": "evo-battery-pack-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO047",
+  "defense": 2,
+  "functionalText": "If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put a steam counter on an item you control with crank.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Battery Pack",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO047",
+      "image": "EVO047",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO047",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO047",
+  "subtypes": [
+    "Chest",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Chest",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Charging Rods (evo-charging-rods-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ramza Ardyputra",
+  ],
+  "cardIdentifier": "evo-charging-rods-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO049",
+  "defense": 2,
+  "functionalText": "If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Create a Quicken token.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Charging Rods",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO049",
+      "image": "EVO049",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO049",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO049",
+  "subtypes": [
+    "Evo",
+    "Legs",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Legs",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Evo Circut Breaker (evo-circut-breaker-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -49098,6 +49354,60 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
 }
 `;
 
+exports[`Check for unintentional updates Evo Cogspitter (evo-cogspitter-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ramza Ardyputra",
+  ],
+  "cardIdentifier": "evo-cogspitter-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO048",
+  "defense": 2,
+  "functionalText": "If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Cogspitter",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO048",
+      "image": "EVO048",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO048",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO048",
+  "subtypes": [
+    "Arms",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Arms",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Evo Command Center (evo-command-center-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -49142,6 +49452,60 @@ exports[`Check for unintentional updates Evo Command Center (evo-command-center-
     "Bright Lights",
   ],
   "specialImage": "EVO034",
+  "subtypes": [
+    "Evo",
+    "Head",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Head",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Data Mine (evo-data-mine-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Ramza Ardyputra",
+  ],
+  "cardIdentifier": "evo-data-mine-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO046",
+  "defense": 2,
+  "functionalText": "If you have a base head equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Transform",
+  ],
+  "name": "Evo Data Mine",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO046",
+      "image": "EVO046",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO046",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO046",
   "subtypes": [
     "Evo",
     "Head",
