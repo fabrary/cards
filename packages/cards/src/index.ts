@@ -4775,6 +4775,50 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
     
     
   },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "metex-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO201",
+    name: "MetEx",
+    printings: [{
+      
+      identifier: "EVO201",
+      image: "EVO201",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO201"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO201",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "out-pace-red",
     classes: [Class.Mechanologist],
@@ -34179,7 +34223,8 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Reza Afshar"],
     cardIdentifier: "cintari-saber",
     classes: [Class.Warrior],
@@ -34277,8 +34322,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "clarity-potion-blue",
     classes: [Class.Generic],
@@ -71457,7 +71501,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Regina Krivolapova"],
     cardIdentifier: "ironhide-plate",
     classes: [Class.Generic],
@@ -71517,8 +71562,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Gorshkov Stanislav"],
     cardIdentifier: "ironrot-gauntlet",
     classes: [Class.Generic],
@@ -108716,7 +108760,8 @@ The next attack action card you play from arsenal this turn gains +2{p}.
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-blue",
     classes: [Class.Generic],
@@ -108774,8 +108819,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "scowling-flesh-bag",
     classes: [Class.Brute],

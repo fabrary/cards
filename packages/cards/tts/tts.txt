@@ -1937,6 +1937,7 @@ OSCCardDB = {
   ["EVO196"] = { name = "Dumpster Dive (2)", text = "**Boost**\n \nIf an item or equipment was banished from **boosting** this, this gets +1{p}.", keywords = "Boost", types = "Action"},
   ["EVO197"] = { name = "Dumpster Dive (3)", text = "**Boost**\n \nIf an item or equipment was banished from **boosting** this, this gets +1{p}.", keywords = "Boost", types = "Action"},
   ["EVO198"] = { name = "Expedite (1)", text = "**Boost**\n\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.", keywords = "Boost", types = "Action"},
+  ["EVO201"] = { name = "MetEx (1)", text = "**Boost**\n\nWhen this hits, you may put an item with cost 0 or 1 from your hand into the arena.", keywords = "Boost", types = "Action"},
   ["EVO204"] = { name = "Out Pace (1)", text = "**Boost**\n\nThis can't be defended by equipment.", keywords = "Boost", types = "Action"},
   ["EVO205"] = { name = "Out Pace (2)", text = "**Boost**\n\nThis can't be defended by equipment.", keywords = "Boost", types = "Action"},
   ["EVO206"] = { name = "Out Pace (3)", text = "**Boost**\n\nThis can't be defended by equipment.", keywords = "Boost", types = "Action"},
