@@ -3124,6 +3124,52 @@ This enters the arena with 3 steam counters. At the start of your turn, destroy 
     
   },{
     artists: ["Nikolay Moskvin"],
+    cardIdentifier: "dissolving-shield-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO088",
+    name: "Dissolving Shield",
+    printings: [{
+      
+      identifier: "EVO088",
+      image: "EVO088",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO088"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO088",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
     cardIdentifier: "dissolving-shield-blue",
     classes: [Class.Mechanologist],
     defaultImage: "EVO089",
@@ -34171,7 +34217,8 @@ If a hero would draw a card during an action phase, instead they banish the top 
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Federico Musetti"],
     cardIdentifier: "chane",
     classes: [Class.Runeblade],
@@ -34231,8 +34278,7 @@ If a hero would draw a card during an action phase, instead they banish the top 
     
     talents: [Talent.Shadow],
     young: true
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "chane-bound-by-shadow",
     classes: [Class.Runeblade],
@@ -72013,7 +72059,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Asur Misoa"],
     cardIdentifier: "invoke-cromai-red",
     classes: [Class.Illusionist],
@@ -72061,8 +72108,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Steve Argyle"],
     cardIdentifier: "invoke-dominia-red",
     classes: [Class.Illusionist],
@@ -109656,7 +109702,8 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-blue",
     classes: [Class.Generic],
@@ -109728,8 +109775,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "scepter-of-pain",
     classes: [Class.Runeblade],

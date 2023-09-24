@@ -233,16 +233,16 @@ EVO087,EVO,Dissolving Shield,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"*
 This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 **Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",Mechanologist Action - Item,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO087.png,,,,,,
+EVO088,EVO,Dissolving Shield,2,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",Mechanologist Action - Item,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO088.png,,,,,,
 EVO089,EVO,Dissolving Shield,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
 
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 **Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",Mechanologist Action - Item,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO089.png,,,,,,
-EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
-
-This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO090.png,,,,,,
 EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,Boost,"**Crank**
 
 This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
