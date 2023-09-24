@@ -366,7 +366,17 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/soup-up-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/infuse-alloy-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/infuse-titanium-red</loc>
     <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
   </url>

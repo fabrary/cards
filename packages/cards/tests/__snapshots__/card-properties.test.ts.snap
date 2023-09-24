@@ -61888,6 +61888,59 @@ exports[`Check for unintentional updates Grimoire of the Haunt (grimoire-of-the-
 }
 `;
 
+exports[`Check for unintentional updates Grinding Gears (grinding-gears-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "grinding-gears-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO070",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Action** - 0: Target hero destroys the top card of their deck.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Grinding Gears",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO070",
+      "image": "EVO070",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO070",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO070",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Growl (growl-red) vs snapshot 1`] = `
 {
   "artists": [

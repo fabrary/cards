@@ -3483,6 +3483,50 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     
   },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "soup-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO111",
+    name: "Soup Up",
+    printings: [{
+      
+      identifier: "EVO111",
+      image: "EVO111",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO111"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO111",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "infuse-alloy-red",
     classes: [Class.Mechanologist],
@@ -3516,6 +3560,48 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffoli"],
+    cardIdentifier: "infuse-titanium-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO123",
+    name: "Infuse Titanium",
+    printings: [{
+      
+      identifier: "EVO123",
+      image: "EVO123",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO123"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO123",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 1,
+    power: 7,
     
     
     
@@ -34149,7 +34235,8 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     specializations: [Hero.Dorinthea],
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-red",
     classes: [Class.Wizard],
@@ -34289,8 +34376,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-blue",
     classes: [Class.Wizard],
@@ -71505,7 +71591,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Jessada Sutthi","Madeline Boni"],
     cardIdentifier: "iris-of-reality",
     classes: [Class.Illusionist],
@@ -71577,8 +71664,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Daniil Goncharov"],
     cardIdentifier: "ironhide-gauntlet",
     classes: [Class.Generic],
@@ -108930,7 +109016,8 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-red",
     classes: [Class.Generic],
@@ -108994,8 +109081,7 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-yellow",
     classes: [Class.Generic],
