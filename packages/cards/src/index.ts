@@ -3191,6 +3191,48 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     
   },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "infuse-alloy-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO120",
+    name: "Infuse Alloy",
+    printings: [{
+      
+      identifier: "EVO120",
+      image: "EVO120",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO120"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO120",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "junkyard-dogg-red",
     classes: [Class.Mechanologist],

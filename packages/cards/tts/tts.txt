@@ -1901,6 +1901,7 @@ OSCCardDB = {
   ["EVO108"] = { name = "Scrap Hopper (1)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, create a Quicken token.", keywords = "Scrap", types = "Action"},
   ["EVO109"] = { name = "Scrap Hopper (2)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, create a Quicken token.", keywords = "Scrap", types = "Action"},
   ["EVO110"] = { name = "Scrap Hopper (3)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, create a Quicken token.", keywords = "Scrap", types = "Action"},
+  ["EVO120"] = { name = "Infuse Alloy (1)", text = "**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.", keywords = "Galvanize", types = "Action"},
   ["EVO126"] = { name = "Junkyard Dogg (1)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, this gets +1{p}.", keywords = "Scrap", types = "Action"},
   ["EVO127"] = { name = "Junkyard Dogg (2)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, this gets +1{p}.", keywords = "Scrap", types = "Action"},
   ["EVO128"] = { name = "Junkyard Dogg (3)", text = "**Scrap**\n\nWhen this attacks, if it **scrapped** a card, this gets +1{p}.", keywords = "Scrap", types = "Action"},

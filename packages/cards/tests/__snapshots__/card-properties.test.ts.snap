@@ -85285,6 +85285,52 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
 }
 `;
 
+exports[`Check for unintentional updates Medkit (medkit-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rachel Alderson",
+  ],
+  "cardIdentifier": "medkit-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO076",
+  "functionalText": "**Action** - Put this on the bottom of its owner's deck: Gain 2{h}",
+  "name": "Medkit",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO076",
+      "image": "EVO076",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO076",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO076",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Meganetic Lockwave (meganetic-lockwave-blue) vs snapshot 1`] = `
 {
   "artists": [
