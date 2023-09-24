@@ -1390,7 +1390,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1440,7 +1440,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1490,7 +1490,7 @@ Whenever you **boost** an attack action card, you may destroy a card under this.
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1540,7 +1540,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
     
     pitch: 1,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -2790,6 +2790,144 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
     
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "polarity-reversal-script-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO078",
+    name: "Polarity Reversal Script",
+    printings: [{
+      
+      identifier: "EVO078",
+      image: "EVO078",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO078"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO078",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Action cards get -1{d} while defending your Mechanologist attack action cards.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "penetration-script-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO079",
+    name: "Penetration Script",
+    printings: [{
+      
+      identifier: "EVO079",
+      image: "EVO079",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO079"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO079",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "security-script-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO080",
+    name: "Security Script",
+    printings: [{
+      
+      identifier: "EVO080",
+      image: "EVO080",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO080"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO080",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
     
     
     pitch: 3,
@@ -34099,7 +34237,8 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "chains-of-eminence-red",
     classes: [Class.Generic],
@@ -34217,8 +34356,7 @@ If a hero would draw a card during an action phase, instead they banish the top 
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "chane",
     classes: [Class.Runeblade],
@@ -72011,7 +72149,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-azvolai-red",
     classes: [Class.Illusionist],
@@ -72059,8 +72198,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "invoke-cromai-red",
     classes: [Class.Illusionist],

@@ -39273,6 +39273,56 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.",
 }
 `;
 
+exports[`Check for unintentional updates Dissolving Shield (dissolving-shield-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "dissolving-shield-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO089",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Dissolving Shield",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO089",
+      "image": "EVO089",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO089",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO089",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dissolving Shield (dissolving-shield-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -39312,6 +39362,56 @@ This enters the arena with 3 steam counters. At the start of your turn, destroy 
     "Bright Lights",
   ],
   "specialImage": "EVO087",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dissolving Shield (dissolving-shield-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "dissolving-shield-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO088",
+  "functionalText": "**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Dissolving Shield",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO088",
+      "image": "EVO088",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO088",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO088",
   "subtypes": [
     "Item",
     "Non-Attack",
@@ -49170,6 +49270,9 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
     "Marvel",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO031",
   ],
@@ -49335,6 +49438,9 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
     "Marvel",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO030",
   ],
@@ -49671,6 +49777,9 @@ Whenever you **boost** an attack action card, you may destroy a card under this.
     "Marvel",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO032",
   ],
@@ -49728,6 +49837,9 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
     "Marvel",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO033",
   ],
@@ -50293,6 +50405,55 @@ exports[`Check for unintentional updates Evo Thruster (evo-thruster-yellow) vs s
 }
 `;
 
+exports[`Check for unintentional updates Expedite (expedite-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kyxarie Peralta",
+  ],
+  "cardIdentifier": "expedite-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO200",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Expedite",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "EVO200",
+      "image": "EVO200",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO200",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO200",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Expedite (expedite-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -50332,6 +50493,55 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
     "Bright Lights",
   ],
   "specialImage": "EVO198",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Expedite (expedite-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kyxarie Peralta",
+  ],
+  "cardIdentifier": "expedite-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO199",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Expedite",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO199",
+      "image": "EVO199",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO199",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO199",
   "subtypes": [
     "Attack",
   ],
@@ -73661,6 +73871,53 @@ exports[`Check for unintentional updates Inflame (inflame-red) vs snapshot 1`] =
 }
 `;
 
+exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "infuse-alloy-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO122",
+  "defense": 2,
+  "functionalText": "**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+  ],
+  "name": "Infuse Alloy",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO122",
+      "image": "EVO122",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO122",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO122",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -73708,6 +73965,100 @@ exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-red) vs snap
 }
 `;
 
+exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "infuse-alloy-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO121",
+  "defense": 2,
+  "functionalText": "**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+  ],
+  "name": "Infuse Alloy",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO121",
+      "image": "EVO121",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO121",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO121",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yugin Maffioli",
+  ],
+  "cardIdentifier": "infuse-titanium-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO125",
+  "defense": 2,
+  "functionalText": "**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+  ],
+  "name": "Infuse Titanium",
+  "pitch": 3,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO125",
+      "image": "EVO125",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO125",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO125",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -73745,6 +74096,53 @@ exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-red) v
     "Bright Lights",
   ],
   "specialImage": "EVO123",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yugin Maffioli",
+  ],
+  "cardIdentifier": "infuse-titanium-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO124",
+  "defense": 2,
+  "functionalText": "**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+  ],
+  "name": "Infuse Titanium",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO124",
+      "image": "EVO124",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO124",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO124",
   "subtypes": [
     "Attack",
   ],
@@ -86835,6 +87233,55 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
 }
 `;
 
+exports[`Check for unintentional updates MetEx (metex-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "metex-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO203",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "MetEx",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO203",
+      "image": "EVO203",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO203",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO203",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates MetEx (metex-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -86874,6 +87321,55 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
     "Bright Lights",
   ],
   "specialImage": "EVO201",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates MetEx (metex-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "metex-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO202",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "MetEx",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO202",
+      "image": "EVO202",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO202",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO202",
   "subtypes": [
     "Attack",
   ],
@@ -136445,6 +136941,59 @@ The first time you would be dealt damage each turn, if you've **charged** this t
 }
 `;
 
+exports[`Check for unintentional updates Soup Up (soup-up-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "soup-up-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO113",
+  "defense": 2,
+  "functionalText": "If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+    "Go again",
+  ],
+  "name": "Soup Up",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO113",
+      "image": "EVO113",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO113",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO113",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Soup Up (soup-up-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -136488,6 +137037,59 @@ exports[`Check for unintentional updates Soup Up (soup-up-red) vs snapshot 1`] =
     "Bright Lights",
   ],
   "specialImage": "EVO111",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Soup Up (soup-up-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "soup-up-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO112",
+  "defense": 2,
+  "functionalText": "If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+    "Go again",
+  ],
+  "name": "Soup Up",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO112",
+      "image": "EVO112",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO112",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO112",
   "subtypes": [
     "Attack",
   ],
@@ -145904,6 +146506,52 @@ exports[`Check for unintentional updates System Failure (system-failure-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates System Reset (system-reset-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Olga Tereshenko",
+  ],
+  "cardIdentifier": "system-reset-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO145",
+  "defense": 3,
+  "functionalText": "Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control.",
+  "name": "System Reset",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO145",
+      "image": "EVO145",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO145",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialCost": "X",
+  "specialImage": "EVO145",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates T-Bone (t-bone-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -152295,6 +152943,165 @@ exports[`Check for unintentional updates Tomeltai (tomeltai) vs snapshot 1`] = `
   ],
   "typeText": "Draconic Illusionist - Dragon Ally",
   "types": [],
+}
+`;
+
+exports[`Check for unintentional updates Torque Tuned (torque-tuned-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "torque-tuned-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO116",
+  "defense": 2,
+  "functionalText": "If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+    "Overpower",
+  ],
+  "name": "Torque Tuned",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO116",
+      "image": "EVO116",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO116",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO116",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Torque Tuned (torque-tuned-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "torque-tuned-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO114",
+  "defense": 2,
+  "functionalText": "If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+    "Overpower",
+  ],
+  "name": "Torque Tuned",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO114",
+      "image": "EVO114",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO114",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO114",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Torque Tuned (torque-tuned-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "torque-tuned-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO115",
+  "defense": 2,
+  "functionalText": "If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+    "Overpower",
+  ],
+  "name": "Torque Tuned",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO115",
+      "image": "EVO115",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO115",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO115",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
 }
 `;
 
