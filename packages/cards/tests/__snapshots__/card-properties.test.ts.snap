@@ -48984,6 +48984,120 @@ exports[`Check for unintentional updates Evergreen (evergreen-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Evo Atom Breaker (evo-atom-breaker-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "evo-atom-breaker-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO031",
+  "defense": 0,
+  "functionalText": "If you have a base chest equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r}.",
+  "keywords": [
+    "Transform",
+  ],
+  "name": "Evo Atom Breaker",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO031",
+      "image": "EVO031",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO031",
+      "image": "EVO031_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "EVO031",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO031_V2",
+  "subtypes": [
+    "Chest",
+    "Evo",
+  ],
+  "typeText": "Mechanologist Instant Equipment - Evo Chest",
+  "types": [
+    "Equipment",
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Circut Breaker (evo-circut-breaker-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "evo-circut-breaker-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO030",
+  "defense": 0,
+  "functionalText": "If you have a base head equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.",
+  "keywords": [
+    "Transform",
+  ],
+  "name": "Evo Circut Breaker",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO030",
+      "image": "EVO030",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO030",
+      "image": "EVO030_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "EVO030",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO030_V2",
+  "subtypes": [
+    "Evo",
+    "Head",
+  ],
+  "typeText": "Mechanologist Instant Equipment - Evo Head",
+  "types": [
+    "Equipment",
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Evo Command Center (evo-command-center-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -49151,6 +49265,120 @@ exports[`Check for unintentional updates Evo Engine Room (evo-engine-room-yellow
   "types": [
     "Action",
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Face Breaker (evo-face-breaker-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "evo-face-breaker-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO032",
+  "defense": 0,
+  "functionalText": "If you have a base arms equipped, **transforms** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost** an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.",
+  "keywords": [
+    "Transform",
+  ],
+  "name": "Evo Face Breaker",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO032",
+      "image": "EVO032",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO032",
+      "image": "EVO032_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "EVO032",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO032_V2",
+  "subtypes": [
+    "Arms",
+    "Evo",
+  ],
+  "typeText": "Mechanologist Instant Equipment - Evo Arms",
+  "types": [
+    "Equipment",
+    "Instant",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Mach Breaker (evo-mach-breaker-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "evo-mach-breaker-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO033",
+  "defense": 0,
+  "functionalText": "If you have a base legs equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, create a Quicken token.",
+  "keywords": [
+    "Transform",
+  ],
+  "name": "Evo Mach Breaker",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO033",
+      "image": "EVO033",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO033",
+      "image": "EVO033_V2",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+    "Marvel",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "EVO033",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO033_V2",
+  "subtypes": [
+    "Evo",
+    "Legs",
+  ],
+  "typeText": "Mechanologist Instant Equipment - Evo Legs",
+  "types": [
+    "Equipment",
+    "Instant",
   ],
 }
 `;

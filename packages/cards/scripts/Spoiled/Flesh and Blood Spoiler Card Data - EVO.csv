@@ -92,7 +92,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
 EVO032,EVO,Evo Face Breaker,1,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Arms",Transform,,,,,Boost,"If you have a base arms equipped, **transforms** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
 
 Whenever you **boost** an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.",Mechanologist Instant Equipment - Evo Arms,,,,,M,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO032.png,V,C,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO032_V2.png
-EVO033,EVO,Evo Mach Breaker,1,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Lets",Transform,,,,,Boost,"If you have a base legs equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+EVO033,EVO,Evo Mach Breaker,1,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Legs",Transform,,,,,Boost,"If you have a base legs equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
 
 Whenever you **boost**, you may destroy a card under this. If you do, create a Quicken token.",Mechanologist Instant Equipment - Evo Legs,,,,,M,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO033.png,V,C,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO033_V2.png
 EVO034,EVO,Evo Command Center,2,3,,3,,,"Mechanologist, Action, Equipment, Evo, Head","Transform, Blade Break",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
@@ -163,7 +163,11 @@ EVO066,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO067,EVO,Mechanical Strength,1,3,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,"""We are the apex predators here. Is it not the law of nature that we should devour the weak?"" - Executive Smyte, Centennial Consumables",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO067.png,,,,,,
 EVO068,EVO,Mechanical Strength,2,3,4,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,"""We are the apex predators here. Is it not the law of nature that we should devour the weak?"" - Executive Smyte, Centennial Consumables",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO068.png,,,,,,
 EVO069,EVO,Mechanical Strength,3,3,3,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,"""We are the apex predators here. Is it not the law of nature that we should devour the weak?"" - Executive Smyte, Centennial Consumables",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO069.png,,,,,,
-EVO070,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO070,EVO,Grinding Gears,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Action** - 0: Target hero destroys the top card of their deck.",Mechanologist Action - Item,,,,No,M,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO070.png,,,,,,
 EVO071,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO072,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO073,EVO,Stasis Cell,3,0,,,,,"Mechanologist, Action, Item",Crank,Action,Go again,,,,"When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.

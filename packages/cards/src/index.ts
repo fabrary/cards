@@ -1522,7 +1522,7 @@ Whenever you **boost** an attack action card, you may destroy a card under this.
     setIdentifiers: ["EVO033"],
     sets: [Release.BrightLights],
     specialImage: "EVO033_V2",
-    subtypes: [Subtype.Evo],
+    subtypes: [Subtype.Evo,Subtype.Legs],
     types: [Type.Equipment,Type.Instant],
     typeText: "Mechanologist Instant Equipment - Evo Legs",
 
@@ -2348,6 +2348,52 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
     
     pitch: 3,
     power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "grinding-gears-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO070",
+    name: "Grinding Gears",
+    printings: [{
+      
+      identifier: "EVO070",
+      image: "EVO070",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO070"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO070",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Action** - 0: Target hero destroys the top card of their deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
     restrictedFormats: [Format.Commoner],
     
     
@@ -34243,7 +34289,8 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-blue",
     classes: [Class.Wizard],
@@ -34313,8 +34360,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Athiwut B."],
     cardIdentifier: "cinderskin-devotion-red",
     classes: [Class.Ninja],
@@ -71531,7 +71577,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Daniil Goncharov"],
     cardIdentifier: "ironhide-gauntlet",
     classes: [Class.Generic],
@@ -71597,8 +71644,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Alsu Nurieva"],
     cardIdentifier: "ironhide-helm",
     classes: [Class.Generic],
