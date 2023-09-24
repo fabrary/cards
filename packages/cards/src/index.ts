@@ -2249,6 +2249,98 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
   },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "boom-grenade-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO085",
+    name: "Boom Grenade",
+    printings: [{
+      
+      identifier: "EVO085",
+      image: "EVO085",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO085"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO085",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 3 damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "boom-grenade-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO086",
+    name: "Boom Grenade",
+    printings: [{
+      
+      identifier: "EVO086",
+      image: "EVO086",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO086"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO086",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 2 damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "hadron-collider-red",
     classes: [Class.Mechanologist],
@@ -2369,6 +2461,282 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
 This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "mini-forcefield-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO093",
+    name: "Mini Forcefield",
+    printings: [{
+      
+      identifier: "EVO093",
+      image: "EVO093",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO093"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO093",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Ward],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "mini-forcefield-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO094",
+    name: "Mini Forcefield",
+    printings: [{
+      
+      identifier: "EVO094",
+      image: "EVO094",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO094"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO094",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Ward],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "mini-forcefield-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO095",
+    name: "Mini Forcefield",
+    printings: [{
+      
+      identifier: "EVO095",
+      image: "EVO095",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO095"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO095",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Ward],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "overload-script-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO096",
+    name: "Overload Script",
+    printings: [{
+      
+      identifier: "EVO096",
+      image: "EVO096",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO096"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO096",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "mhz-script-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO097",
+    name: "MHz Script",
+    printings: [{
+      
+      identifier: "EVO097",
+      image: "EVO097",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO097"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO097",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "autosave-script-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO098",
+    name: "Autosave Script",
+    printings: [{
+      
+      identifier: "EVO098",
+      image: "EVO098",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO098"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO098",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get "When this hits, put it on the bottom of its owner's deck."`,
     
     
     
@@ -4707,7 +5075,7 @@ You may put a Hyper Driver from your banished zone into the arena.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -4753,7 +5121,7 @@ You may put a Hyper Driver from your banished zone into the arena.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -4799,7 +5167,7 @@ You may put a Hyper Driver from your banished zone into the arena.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -4891,7 +5259,7 @@ The next attack you **boost** this turn gets +3{p}.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -4937,7 +5305,7 @@ The next attack you **boost** this turn gets +2{p}.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -4983,7 +5351,7 @@ The next attack you **boost** this turn gets +4{p}.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 1,
@@ -5029,7 +5397,7 @@ The next attack you **boost** this turn gets +3{p}.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 2,
@@ -5075,7 +5443,7 @@ The next attack you **boost** this turn gets +2{p}.
     
     
     
-    keywords: [Keyword.Boost,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -33897,7 +34265,8 @@ Destroy target blue aura.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "cleave-red",
     classes: [Class.Warrior],
@@ -34219,8 +34588,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     talents: [Talent.Ice],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
     cardIdentifier: "codex-of-bloodrot-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -71177,7 +71545,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Gorshkov Stanislav"],
     cardIdentifier: "ironrot-plate",
     classes: [Class.Generic],
@@ -71465,8 +71834,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-yellow",
     classes: [Class.Warrior],
@@ -108202,7 +108570,8 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-red",
     classes: [Class.Mechanologist],
@@ -108302,8 +108671,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-blue",
     classes: [Class.Mechanologist],

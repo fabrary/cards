@@ -18825,6 +18825,56 @@ exports[`Check for unintentional updates Boneyard Marauder (boneyard-marauder-ye
 }
 `;
 
+exports[`Check for unintentional updates Boom Grenade (boom-grenade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Szmyd",
+  ],
+  "cardIdentifier": "boom-grenade-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO084",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Boom Grenade",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO084",
+      "image": "EVO084",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO084",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO084",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Boulder Drop (boulder-drop-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -58648,7 +58698,6 @@ You may put a Hyper Driver from your banished zone into the arena.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Gas Up",
@@ -58699,7 +58748,6 @@ You may put a Hyper Driver from your banished zone into the arena.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Gas Up",
@@ -58750,7 +58798,6 @@ You may put a Hyper Driver from your banished zone into the arena.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Gas Up",
@@ -104203,7 +104250,6 @@ The next attack you **boost** this turn gets +2{p}.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Quickfire",
@@ -104304,7 +104350,6 @@ The next attack you **boost** this turn gets +3{p}.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Quickfire",
@@ -106998,7 +107043,6 @@ The next attack you **boost** this turn gets +2{p}.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Re-Charge!",
@@ -107049,7 +107093,6 @@ The next attack you **boost** this turn gets +4{p}.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Re-Charge!",
@@ -107100,7 +107143,6 @@ The next attack you **boost** this turn gets +3{p}.
 
 **Go again**",
   "keywords": [
-    "Boost",
     "Go again",
   ],
   "name": "Re-Charge!",

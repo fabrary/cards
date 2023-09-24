@@ -236,6 +236,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/boom-grenade-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/boom-grenade-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hadron-collider-red</loc>
     <lastmod>2023-09-23</lastmod>
     <priority>0.5</priority>
@@ -248,6 +258,36 @@
   <url>
     <loc>https://fabrary.net/cards/hadron-collider-blue</loc>
     <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mini-forcefield-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mini-forcefield-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mini-forcefield-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/overload-script-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mhz-script-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/autosave-script-blue</loc>
+    <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

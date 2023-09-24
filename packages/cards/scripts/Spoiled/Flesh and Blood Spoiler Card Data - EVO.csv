@@ -36,23 +36,23 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
 
 **Battleworn**",Mechanologist Equipment - Head,,,,No,L,C,EA,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_V2.png,L,R,,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011.png
 EVO012,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO013,EVO,Adaptive Plating,,,,1,,,"Mechanologist, Equipment","Modular, Galvanize, Blade Break",,,,,,"**Modular**
+EVO013,EVO,Adaptive Plating,,,,1,,,"Mechanologist, Equipment","Modular, Galvanize, Blade Break",Action,,,,,"**Modular**
 
 **Action** - 0: Equip this to another equipment zone.
 
 **Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d} until end of turn.
 
 **Blade Break**",Mechanologist Equipment,,,,No,L,,,Carlos Cruchaga,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO013.png,,,,,,
-EVO014,EVO,Cogwerx Base Head,,,,,,,"Mechanologist, Equipment, Base, Head",,,,,,,"When this is equipped, put a steam counter on it.
+EVO014,EVO,Cogwerx Base Head,,,,,,,"Mechanologist, Equipment, Base, Head",,Once per Turn Instant,,,,Boost,"When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Head,,,,,C,,,Maxim Nikiforov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO014.png,,,,,,
-EVO015,EVO,Cogwerx Base Chest,,,,,,,"Mechanologist, Equipment, Base, Chest",,,,,,,"When this is equipped, put a steam counter on it.
+EVO015,EVO,Cogwerx Base Chest,,,,,,,"Mechanologist, Equipment, Base, Chest",,Once per Turn Instant,,,,Boost,"When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Chest,,,,,C,,,Irina Si,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO015.png,,,,,,
-EVO016,EVO,Cogwerx Base Arms,,,,,,,"Mechanologist, Equipment, Base, Arms",,,,,,,"When this is equipped, put a steam counter on it.
+EVO016,EVO,Cogwerx Base Arms,,,,,,,"Mechanologist, Equipment, Base, Arms",,Once per Turn Instant,,,,Boost,"When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Arms,,,,,C,,,Elizaveta Alipatova,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO016.png,,,,,,
-EVO017,EVO,Cogwerx Base Legs,,,,,,,"Mechanologist, Equipment, Base, Legs",,,,,,,"When this is equipped, put a steam counter on it.
+EVO017,EVO,Cogwerx Base Legs,,,,,,,"Mechanologist, Equipment, Base, Legs",,Once per Turn Instant,,,,Boost,"When this is equipped, put a steam counter on it.
 
 **Once per turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.",Mechanologist Equipment - Base Legs,,,,,C,,,Irina Si,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO017.png,,,,,,
 "LGS186, EVO018","LGS, EVO",Teklo Base Head,,,,1,,,"Mechanologist, Equipment, Base, Head",Blade Break,,,,,,**Blade Break**,Mechanologist Equipment - Base Head,,,,,P,C,,Alief Rusdiatama,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS186.width-450.format-webp.webp,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO018.png
@@ -178,32 +178,64 @@ EVO084,EVO,Boom Grenade,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Cran
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 When a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.",Mechanologist Action - Item,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO084.png,,,,,,
-EVO085,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO086,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO085,EVO,Boom Grenade,2,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 3 damage to them.",Mechanologist Action - Item,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO085.png,,,,,,
+EVO086,EVO,Boom Grenade,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 2 damage to them.",Mechanologist Action - Item,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO086.png,,,,,,
 EVO087,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO088,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO089,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,Boost,"**Crank**
 
 This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO090.png,,,,,,
-EVO091,EVO,Hadron Collider,2,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+EVO091,EVO,Hadron Collider,2,1,,,,,"Mechanologist, Action, Item",Crank,,,,,Boost,"**Crank**
 
 This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO091.png,,,,,,
-EVO092,EVO,Hadron Collider,3,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+EVO092,EVO,Hadron Collider,3,1,,,,,"Mechanologist, Action, Item",Crank,,,,,Boost,"**Crank**
 
 This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO092.png,,,,,,
-EVO093,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO094,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO095,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO096,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO097,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO098,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO093,EVO,Mini Forcefield,1,1,,,,,"Mechanologist, Action, Item","Crank, Ward",,,,,,"**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO093.png,,,,,,
+EVO094,EVO,Mini Forcefield,2,1,,,,,"Mechanologist, Action, Item","Crank, Ward",,,,,,"**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO094.png,,,,,,
+EVO095,EVO,Mini Forcefield,3,1,,,,,"Mechanologist, Action, Item","Crank, Ward",,,,,,"**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO095.png,,,,,,
+EVO096,EVO,Overload Script,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **overpower**.",Mechanologist Action - Item,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO096.png,,,,,,
+EVO097,EVO,MHz Script,2,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **go again**.",Mechanologist Action - Item,,,,,C,,,Carlos Cruchaga,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO097.png,,,,,,
+EVO098,EVO,Autosave Script,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get ""When this hits, put it on the bottom of its owner's deck.""",Mechanologist Action - Item,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO098.png,,,,,,
 EVO099,EVO,Hyper Driver,1,1,,,,,"Mechanologist, Action, Item",Boost,,,,,,"This enters the arena with 3 steam counters. When it has none, destroy it.
 
 Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.",Mechanologist Action - Item,,,,,C,,,Alexander Mokhov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO099.png,,,,,,
@@ -338,10 +370,10 @@ EVO173,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO174,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO175,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO176,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO177,EVO,Big Bertha,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+EVO177,EVO,Big Bertha,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,Boost,"**Boost**
 
 When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO177.png,,,,,,
-EVO178,EVO,Big Bertha,2,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+EVO178,EVO,Big Bertha,2,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,Boost,"**Boost**
 
 When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO178.png,,,,,,
 EVO179,EVO,Big Bertha,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,Boost,"**Boost**
@@ -431,17 +463,17 @@ EVO218,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO219,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO220,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO221,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO222,EVO,Gas Up,1,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"The next attack you **boost** this turn gets +4{p}.
+EVO222,EVO,Gas Up,1,1,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"The next attack you **boost** this turn gets +4{p}.
 
 You may put a Hyper Driver from your banished zone into the arena.
 
 **Go again**",Mechanologist Action,,,,,C,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO222.png,,,,,,
-EVO223,EVO,Gas Up,2,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"The next attack you **boost** this turn gets +3{p}.
+EVO223,EVO,Gas Up,2,1,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"The next attack you **boost** this turn gets +3{p}.
 
 You may put a Hyper Driver from your banished zone into the arena.
 
 **Go again**",Mechanologist Action,,,,,C,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO223.png,,,,,,
-EVO224,EVO,Gas Up,3,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"The next attack you **boost** this turn gets +2{p}.
+EVO224,EVO,Gas Up,3,1,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"The next attack you **boost** this turn gets +2{p}.
 
 You may put a Hyper Driver from your banished zone into the arena.
 
@@ -451,27 +483,27 @@ EVO225,EVO,Quickfire,1,2,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"This c
 The next attack you **boost** this turn gets +4{p}.
 
 **Go again**",Mechanologist Action,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO225.png,,,,,,
-EVO226,EVO,Quickfire,2,2,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"This costs {r} less to play for each Hyper Driver you control.
+EVO226,EVO,Quickfire,2,2,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"This costs {r} less to play for each Hyper Driver you control.
 
 The next attack you **boost** this turn gets +3{p}.
 
 **Go again**",Mechanologist Action,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO226.png,,,,,,
-EVO227,EVO,Quickfire,3,2,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"This costs {r} less to play for each Hyper Driver you control.
+EVO227,EVO,Quickfire,3,2,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"This costs {r} less to play for each Hyper Driver you control.
 
 The next attack you **boost** this turn gets +2{p}.
 
 **Go again**",Mechanologist Action,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO227.png,,,,,,
-EVO228,EVO,Re-Charge!,1,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"Put a steam counter on a Hyper Driver you control.
+EVO228,EVO,Re-Charge!,1,1,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"Put a steam counter on a Hyper Driver you control.
 
 The next attack you **boost** this turn gets +4{p}.
 
 **Go again**",Mechanologist Action,,,,,C,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO228.png,,,,,,
-EVO229,EVO,Re-Charge!,2,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"Put a steam counter on a Hyper Driver you control.
+EVO229,EVO,Re-Charge!,2,1,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"Put a steam counter on a Hyper Driver you control.
 
 The next attack you **boost** this turn gets +3{p}.
 
 **Go again**",Mechanologist Action,,,,,C,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO229.png,,,,,,
-EVO230,EVO,Re-Charge!,3,1,,2,,,"Mechanologist, Action","Boost, Go again",,,,,,"Put a steam counter on a Hyper Driver you control.
+EVO230,EVO,Re-Charge!,3,1,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"Put a steam counter on a Hyper Driver you control.
 
 The next attack you **boost** this turn gets +2{p}.
 

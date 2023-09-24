@@ -7,9 +7,9 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "esbuild src/index.ts --outdir=dist --external:*.test.ts --external:fab-cards --bundle --minify --platform=node --target=es6",
-    "postbuild": "tsc --declaration",
+    "postbuild": "tsc --declaration && npm test",
     "test": "jest",
-    "full": "npm run build && npm test"
+    "full": "npm run build"
   },
   "dependencies": {
     "@flesh-and-blood/types": "^0.0.52",
