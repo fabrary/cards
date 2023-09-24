@@ -28353,7 +28353,10 @@ exports[`Check for unintentional updates Cogwerx Base Arms (cogwerx-base-arms) v
     "Bright Lights",
   ],
   "specialImage": "EVO016",
-  "subtypes": [],
+  "subtypes": [
+    "Arms",
+    "Base",
+  ],
   "typeText": "Mechanologist Equipment - Base Arms",
   "types": [
     "Equipment",
@@ -28393,7 +28396,10 @@ exports[`Check for unintentional updates Cogwerx Base Chest (cogwerx-base-chest)
     "Bright Lights",
   ],
   "specialImage": "EVO015",
-  "subtypes": [],
+  "subtypes": [
+    "Base",
+    "Chest",
+  ],
   "typeText": "Mechanologist Equipment - Base Chest",
   "types": [
     "Equipment",
@@ -28433,7 +28439,10 @@ exports[`Check for unintentional updates Cogwerx Base Head (cogwerx-base-head) v
     "Bright Lights",
   ],
   "specialImage": "EVO014",
-  "subtypes": [],
+  "subtypes": [
+    "Base",
+    "Head",
+  ],
   "typeText": "Mechanologist Equipment - Base Head",
   "types": [
     "Equipment",
@@ -28473,7 +28482,10 @@ exports[`Check for unintentional updates Cogwerx Base Legs (cogwerx-base-legs) v
     "Bright Lights",
   ],
   "specialImage": "EVO017",
-  "subtypes": [],
+  "subtypes": [
+    "Base",
+    "Legs",
+  ],
   "typeText": "Mechanologist Equipment - Base Legs",
   "types": [
     "Equipment",

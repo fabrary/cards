@@ -598,7 +598,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     setIdentifiers: ["EVO014"],
     sets: [Release.BrightLights],
     specialImage: "EVO014",
-    subtypes: [],
+    subtypes: [Subtype.Base,Subtype.Head],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Head",
 
@@ -642,7 +642,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     setIdentifiers: ["EVO015"],
     sets: [Release.BrightLights],
     specialImage: "EVO015",
-    subtypes: [],
+    subtypes: [Subtype.Base,Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Chest",
 
@@ -686,7 +686,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     setIdentifiers: ["EVO016"],
     sets: [Release.BrightLights],
     specialImage: "EVO016",
-    subtypes: [],
+    subtypes: [Subtype.Arms,Subtype.Base],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Arms",
 
@@ -730,7 +730,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     setIdentifiers: ["EVO017"],
     sets: [Release.BrightLights],
     specialImage: "EVO017",
-    subtypes: [],
+    subtypes: [Subtype.Base,Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Legs",
 
