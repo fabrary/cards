@@ -173,7 +173,11 @@ EVO080,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO081,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO082,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO083,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO084,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO084,EVO,Boom Grenade,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.",Mechanologist Action - Item,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO084.png,,,,,,
 EVO085,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO086,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO087,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

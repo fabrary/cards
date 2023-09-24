@@ -106980,6 +106980,57 @@ exports[`Check for unintentional updates Razor's Edge (razors-edge-yellow) vs sn
 }
 `;
 
+exports[`Check for unintentional updates Re-Charge! (re-charge-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "re-charge-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO230",
+  "defense": 2,
+  "functionalText": "Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Re-Charge!",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO230",
+      "image": "EVO230",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO230",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO230",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Re-Charge! (re-charge-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -107021,6 +107072,57 @@ The next attack you **boost** this turn gets +4{p}.
     "Bright Lights",
   ],
   "specialImage": "EVO228",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Re-Charge! (re-charge-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "re-charge-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO229",
+  "defense": 2,
+  "functionalText": "Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**",
+  "keywords": [
+    "Boost",
+    "Go again",
+  ],
+  "name": "Re-Charge!",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO229",
+      "image": "EVO229",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO229",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO229",
   "subtypes": [
     "Non-Attack",
   ],

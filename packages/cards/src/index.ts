@@ -2203,6 +2203,52 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
   },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "boom-grenade-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO084",
+    name: "Boom Grenade",
+    printings: [{
+      
+      identifier: "EVO084",
+      image: "EVO084",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO084"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO084",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "hadron-collider-red",
     classes: [Class.Mechanologist],
