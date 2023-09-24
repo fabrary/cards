@@ -4731,6 +4731,50 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
   },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "expedite-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO198",
+    name: "Expedite",
+    printings: [{
+      
+      identifier: "EVO198",
+      image: "EVO198",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO198"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO198",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Eilene Cherie"],
     cardIdentifier: "out-pace-red",
     classes: [Class.Mechanologist],
@@ -34233,7 +34277,8 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "clarity-potion-blue",
     classes: [Class.Generic],
@@ -34281,8 +34326,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-red",
     classes: [Class.NotClassed],

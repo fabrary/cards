@@ -39125,6 +39125,56 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.",
 }
 `;
 
+exports[`Check for unintentional updates Dissolving Shield (dissolving-shield-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Nikolay Moskvin",
+  ],
+  "cardIdentifier": "dissolving-shield-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO087",
+  "functionalText": "**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Dissolving Shield",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO087",
+      "image": "EVO087",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO087",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO087",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dodge (dodge-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -72865,6 +72915,53 @@ exports[`Check for unintentional updates Inflame (inflame-red) vs snapshot 1`] =
     "Draconic",
   ],
   "typeText": "Draconic Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mateusz Wiśniewski",
+  ],
+  "cardIdentifier": "infuse-alloy-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO120",
+  "defense": 2,
+  "functionalText": "**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+  ],
+  "name": "Infuse Alloy",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO120",
+      "image": "EVO120",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO120",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO120",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
   "types": [
     "Action",
   ],

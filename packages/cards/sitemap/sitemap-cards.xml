@@ -511,6 +511,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/expedite-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/out-pace-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
