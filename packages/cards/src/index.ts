@@ -1349,6 +1349,206 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
     
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-circut-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO030",
+    name: "Evo Circut Breaker",
+    printings: [{
+      
+      identifier: "EVO030",
+      image: "EVO030",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO030",
+      image: "EVO030_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO030"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO030_V2",
+    subtypes: [Subtype.Evo,Subtype.Head],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Head",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base head equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-atom-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO031",
+    name: "Evo Atom Breaker",
+    printings: [{
+      
+      identifier: "EVO031",
+      image: "EVO031",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO031",
+      image: "EVO031_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO031"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO031_V2",
+    subtypes: [Subtype.Chest,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Chest",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base chest equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-face-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO032",
+    name: "Evo Face Breaker",
+    printings: [{
+      
+      identifier: "EVO032",
+      image: "EVO032",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO032",
+      image: "EVO032_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO032"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO032_V2",
+    subtypes: [Subtype.Arms,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Arms",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base arms equipped, **transforms** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost** an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-mach-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO033",
+    name: "Evo Mach Breaker",
+    printings: [{
+      
+      identifier: "EVO033",
+      image: "EVO033",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO033",
+      image: "EVO033_V2",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO033"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO033_V2",
+    subtypes: [Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Legs",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base legs equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Marco González"],
     cardIdentifier: "evo-command-center-yellow",
     classes: [Class.Mechanologist],
@@ -3792,7 +3992,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
 
 If an item you control has been destroyed this turn, this gets +2{p}.
 
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d).`,
     
     
     
@@ -34113,7 +34313,8 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Athiwut B."],
     cardIdentifier: "cinderskin-devotion-red",
     classes: [Class.Ninja],
@@ -34269,8 +34470,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "cintari-saber",
     classes: [Class.Warrior],
@@ -71397,7 +71597,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Alsu Nurieva"],
     cardIdentifier: "ironhide-helm",
     classes: [Class.Generic],
@@ -71547,8 +71748,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Regina Krivolapova"],
     cardIdentifier: "ironhide-plate",
     classes: [Class.Generic],
@@ -108748,7 +108948,8 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-yellow",
     classes: [Class.Generic],
@@ -108806,8 +109007,7 @@ The next attack action card you play from arsenal this turn gains +2{p}.
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-blue",
     classes: [Class.Generic],

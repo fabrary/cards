@@ -140496,6 +140496,61 @@ exports[`Check for unintentional updates Steel Street Enforcement (steel-street-
 }
 `;
 
+exports[`Check for unintentional updates Steel Street Hoons (steel-street-hoons-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Giacobino",
+  ],
+  "cardIdentifier": "steel-street-hoons-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO141",
+  "defense": 2,
+  "functionalText": "**Boost**
+
+If an item you control has been destroyed this turn, this gets +2{p}.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d).",
+  "keywords": [
+    "Boost",
+    "Galvanize",
+  ],
+  "name": "Steel Street Hoons",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO141",
+      "image": "EVO141",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO141",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO141",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-blue) vs snapshot 1`] = `
 {
   "artists": [
