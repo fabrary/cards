@@ -4951,6 +4951,98 @@ The next attack you **boost** this turn gets +4{p}.
     
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO229",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO229",
+      image: "EVO229",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO229"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO229",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO230",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO230",
+      image: "EVO230",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO230"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO230",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "teklonetic-force-field-red",
     classes: [Class.Mechanologist],
@@ -34081,7 +34173,8 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
     cardIdentifier: "codex-of-bloodrot-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -34197,8 +34290,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Carlos Cruchaga","Isuardi Therianto"],
     cardIdentifier: "codex-of-inertia-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -71327,7 +71419,8 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-yellow",
     classes: [Class.Warrior],
@@ -71399,8 +71492,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy Ir
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-blue",
     classes: [Class.Warrior],
@@ -108164,7 +108256,8 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-blue",
     classes: [Class.Mechanologist],
@@ -108214,8 +108307,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Enmoire"],
     cardIdentifier: "searing-emberblade",
     classes: [Class.Ninja],
