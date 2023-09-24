@@ -2469,6 +2469,52 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "dissolving-shield-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO087",
+    name: "Dissolving Shield",
+    printings: [{
+      
+      identifier: "EVO087",
+      image: "EVO087",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO087"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO087",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "hadron-collider-red",
     classes: [Class.Mechanologist],
@@ -34235,7 +34281,8 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-red",
     classes: [Class.NotClassed],
@@ -34285,8 +34332,7 @@ Destroy target red aura.`,
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-yellow",
     classes: [Class.NotClassed],
@@ -71427,7 +71473,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Gorshkov Stanislav"],
     cardIdentifier: "ironrot-gauntlet",
     classes: [Class.Generic],
@@ -71517,8 +71564,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "ironrot-helm",
     classes: [Class.Generic],
