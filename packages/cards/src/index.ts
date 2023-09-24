@@ -2247,6 +2247,48 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
   },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "medkit-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO076",
+    name: "Medkit",
+    printings: [{
+      
+      identifier: "EVO076",
+      image: "EVO076",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO076"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO076",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Put this on the bottom of its owner's deck: Gain 2{h}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "steam-canister-blue",
     classes: [Class.Mechanologist],
@@ -34201,7 +34243,8 @@ Destroy target red aura.`,
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-yellow",
     classes: [Class.NotClassed],
@@ -34251,8 +34294,7 @@ Destroy target yellow aura.`,
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-blue",
     classes: [Class.NotClassed],
@@ -71433,7 +71475,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "ironrot-helm",
     classes: [Class.Generic],
@@ -71523,8 +71566,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "ironrot-legs",
     classes: [Class.Generic],
@@ -108600,7 +108642,8 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "scowling-flesh-bag",
     classes: [Class.Brute],
@@ -108656,8 +108699,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scramble-pulse-red",
     classes: [Class.Mechanologist],

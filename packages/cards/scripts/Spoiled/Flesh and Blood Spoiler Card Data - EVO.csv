@@ -167,8 +167,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
 When a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.",Mechanologist Action - Item,,,,No,M,,,MJ Fetesio,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO074.png,,,,,,
 EVO075,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO076,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO077,EVO,Steam Canister,3,0,,,,,"Mechanologist, Action, Item",,,,,,Crank,**Instant** - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with **crank**.,Mechanologist Action - Item,,,,No,R,,,Mariusz Gandzel,"""This city of dreams was built on steam!"" - Cogwerx Slogan",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO077.png,,,,,,
+EVO076,EVO,Medkit,3,0,,,,,"Mechanologist, Action, Item",,Action,,,,,**Action** - Put this on the bottom of its owner's deck: Gain 2{h},Mechanologist Action - Item,,,,No,R,,,Rachel Alderson,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO076.png,,,,,,
+EVO077,EVO,Steam Canister,3,0,,,,,"Mechanologist, Action, Item",,Instant,,,,Crank,**Instant** - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with **crank**.,Mechanologist Action - Item,,,,No,R,,,Mariusz Gandzel,"""This city of dreams was built on steam!"" - Cogwerx Slogan",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO077.png,,,,,,
 EVO078,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO079,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO080,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

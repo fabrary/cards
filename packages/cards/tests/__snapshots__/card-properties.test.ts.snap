@@ -140163,6 +140163,52 @@ exports[`Check for unintentional updates Steadfast (steadfast-yellow) vs snapsho
 }
 `;
 
+exports[`Check for unintentional updates Steam Canister (steam-canister-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "steam-canister-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO077",
+  "functionalText": "**Instant** - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with **crank**.",
+  "name": "Steam Canister",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO077",
+      "image": "EVO077",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO077",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO077",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Steel Street Enforcement (steel-street-enforcement-blue) vs snapshot 1`] = `
 {
   "artists": [
