@@ -123,10 +123,26 @@ EVO042,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO043,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO044,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO045,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO046,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO047,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO048,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO049,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO046,EVO,Evo Data Mine,2,0,,2,,,"Mechanologist, Action, Equipment, Evo, Head","Transform, Blade Break",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.
+
+**Blade Break**",Mechanologist Action Equipment - Evo Head,,,,,C,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO046.png,,,,,,
+EVO047,EVO,Evo Battery Pack,2,0,,2,,,"Mechanologist, Action, Equipment, Evo, Chest","Transform, Blade Break",,,,,,"If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put a steam counter on an item you control with crank.
+
+**Blade Break**",Mechanologist Action Equipment - Evo Chest,,,,,C,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO047.png,,,,,,
+EVO048,EVO,Evo Cogspitter,2,0,,2,,,"Mechanologist, Action, Equipment, Evo, Arms","Transform, Blade Break",,,,,,"If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.
+
+**Blade Break**",Mechanologist Action Equipment - Evo Arms,,,,,C,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO048.png,,,,,,
+EVO049,EVO,Evo Charging Rods,2,0,,2,,,"Mechanologist, Action, Equipment, Evo, Legs","Transform, Blade Break",,,,,,"If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Create a Quicken token.
+
+**Blade Break**",Mechanologist Action Equipment - Evo Legs,,,,,C,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO049.png,,,,,,
 EVO050,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO051,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO052,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -184,9 +200,19 @@ EVO077,EVO,Steam Canister,3,0,,,,,"Mechanologist, Action, Item",,Instant,,,,Cran
 EVO078,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO079,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO080,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO081,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO082,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO083,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO081,EVO,Backup Protocol: RED,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a red Mechanologist attack action card from your graveyard to your hand.",Mechanologist Action - Item,,,,,C,,,Rachel Alderson,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO081.png,,,,,,
+EVO082,EVO,Backup Protocol: YEL,2,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+**Instant** - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.",Mechanologist Action - Item,,,,,C,,,Rachel Alderson,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO082.png,,,,,,
+EVO083,EVO,Backup Protocol: BLU,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a blue Mechanologist attack action card from your graveyard to your hand.",Mechanologist Action - Item,,,,,C,,,Rachel Alderson,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO083.png,,,,,,
 EVO084,EVO,Boom Grenade,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
 
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.

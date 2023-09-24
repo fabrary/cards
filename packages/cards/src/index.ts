@@ -1733,6 +1733,190 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
     
     
   },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-data-mine-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO046",
+    name: "Evo Data Mine",
+    printings: [{
+      
+      identifier: "EVO046",
+      image: "EVO046",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO046"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO046",
+    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Head",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-battery-pack-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO047",
+    name: "Evo Battery Pack",
+    printings: [{
+      
+      identifier: "EVO047",
+      image: "EVO047",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO047"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO047",
+    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Chest",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put a steam counter on an item you control with crank.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-cogspitter-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO048",
+    name: "Evo Cogspitter",
+    printings: [{
+      
+      identifier: "EVO048",
+      image: "EVO048",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO048"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO048",
+    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Arms",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-charging-rods-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO049",
+    name: "Evo Charging Rods",
+    printings: [{
+      
+      identifier: "EVO049",
+      image: "EVO049",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO049"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO049",
+    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Legs",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Create a Quicken token.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "annihilator-engine-red",
     classes: [Class.Mechanologist],
@@ -2569,6 +2753,142 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "backup-protocol-red-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO081",
+    name: "Backup Protocol: RED",
+    printings: [{
+      
+      identifier: "EVO081",
+      image: "EVO081",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO081"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO081",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a red Mechanologist attack action card from your graveyard to your hand.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "backup-protocol-yel-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO082",
+    name: "Backup Protocol: YEL",
+    printings: [{
+      
+      identifier: "EVO082",
+      image: "EVO082",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO082"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO082",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+**Instant** - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "backup-protocol-blu-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO083",
+    name: "Backup Protocol: BLU",
+    printings: [{
+      
+      identifier: "EVO083",
+      image: "EVO083",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO083"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO083",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a blue Mechanologist attack action card from your graveyard to your hand.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
     
     
     
@@ -33925,7 +34245,8 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "chilling-icevein-red",
     classes: [Class.Ranger],
@@ -34235,8 +34556,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     specializations: [Hero.Dorinthea],
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "cindering-foresight-red",
     classes: [Class.Wizard],
@@ -71445,7 +71765,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Federico Musetti"],
     cardIdentifier: "invoke-tomeltai-red",
     classes: [Class.Illusionist],
@@ -71591,8 +71912,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Jessada Sutthi","Madeline Boni"],
     cardIdentifier: "iris-of-reality",
     classes: [Class.Illusionist],
@@ -108936,7 +109256,8 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-blue",
     classes: [Class.Generic],
@@ -109016,8 +109337,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "scout-the-periphery-red",
     classes: [Class.Generic],

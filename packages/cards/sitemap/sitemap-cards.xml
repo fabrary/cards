@@ -181,6 +181,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/evo-data-mine-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-battery-pack-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-cogspitter-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-charging-rods-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/annihilator-engine-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -267,6 +287,21 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/steam-canister-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/backup-protocol-red-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/backup-protocol-yel-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/backup-protocol-blu-blue</loc>
     <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
   </url>

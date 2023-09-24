@@ -73298,6 +73298,53 @@ exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-red) vs snap
 }
 `;
 
+exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yugin Maffoli",
+  ],
+  "cardIdentifier": "infuse-titanium-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO123",
+  "defense": 2,
+  "functionalText": "**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+  ],
+  "name": "Infuse Titanium",
+  "pitch": 1,
+  "power": 7,
+  "printings": [
+    {
+      "identifier": "EVO123",
+      "image": "EVO123",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO123",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO123",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Insidious Chill (insidious-chill-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -135984,6 +136031,59 @@ The first time you would be dealt damage each turn, if you've **charged** this t
   "typeText": "Light Warrior Equipment - Chest",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Soup Up (soup-up-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "soup-up-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO111",
+  "defense": 2,
+  "functionalText": "If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",
+  "keywords": [
+    "Galvanize",
+    "Go again",
+  ],
+  "name": "Soup Up",
+  "pitch": 1,
+  "power": 4,
+  "printings": [
+    {
+      "identifier": "EVO111",
+      "image": "EVO111",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO111",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO111",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
