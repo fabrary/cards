@@ -233,8 +233,16 @@ EVO087,EVO,Dissolving Shield,1,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"*
 This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 **Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",Mechanologist Action - Item,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO087.png,,,,,,
-EVO088,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO089,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO089,EVO,Dissolving Shield,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.",Mechanologist Action - Item,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO089.png,,,,,,
+EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.",Mechanologist Action - Item,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO090.png,,,,,,
 EVO090,EVO,Hadron Collider,1,1,,,,,"Mechanologist, Action, Item",Crank,,,,,Boost,"**Crank**
 
 This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
@@ -309,20 +317,30 @@ When this attacks, if it **scrapped** a card, create a Quicken token.",Mechanolo
 EVO111,EVO,Soup Up,1,0,4,2,,,"Mechanologist, Action, Attack","Go again, Galvanize",,,,,,"If an item you control has been destroyed this turn, this gets **go again**.
 
 **Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Aluísio Cervelle,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO111.png,,,,,,
-EVO112,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO113,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO114,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO115,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO116,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO112,EVO,Soup Up,2,0,3,2,,,"Mechanologist, Action, Attack","Go again, Galvanize",,,,,,"If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Aluísio Cervelle,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO112.png,,,,,,
+EVO113,EVO,Soup Up,3,0,2,2,,,"Mechanologist, Action, Attack","Go again, Galvanize",,,,,,"If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Aluísio Cervelle,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO113.png,,,,,,
+EVO114,EVO,Torque Tuned,1,2,6,2,,,"Mechanologist, Action, Attack","Overpower, Galvanize",,,,,,"If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO114.png,,,,,,
+EVO115,EVO,Torque Tuned,2,2,5,2,,,"Mechanologist, Action, Attack","Overpower, Galvanize",,,,,,"If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO115.png,,,,,,
+EVO116,EVO,Torque Tuned,3,2,4,2,,,"Mechanologist, Action, Attack","Overpower, Galvanize",,,,,,"If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO116.png,,,,,,
 EVO117,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO118,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO119,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO120,EVO,Infuse Alloy,1,0,4,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO120.png,,,,,,
-EVO121,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO122,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO121,EVO,Infuse Alloy,2,0,3,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO121.png,,,,,,
+EVO122,EVO,Infuse Alloy,3,0,2,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO122.png,,,,,,
 EVO123,EVO,Infuse Titanium,1,3,7,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Yugin Maffoli,"""Waddaja mean junk? There's riches here in the Sprawl, if ja willing to get yer hands dirty"" - Kyle",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO123.png,,,,,,
-EVO124,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO125,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO124,EVO,Infuse Titanium,2,3,6,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Yugin Maffioli,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO124.png,,,,,,
+EVO125,EVO,Infuse Titanium,3,3,5,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Yugin Maffioli,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO125.png,,,,,,
 EVO126,EVO,Junkyard Dogg,1,3,6,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
 
 When this attacks, if it **scrapped** a card, this gets +1{p}.",Mechanologist Action - Attack,,,,,C,S,,Marco González,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO126.png,,,,,,
@@ -372,7 +390,7 @@ EVO143,EVO,Meganetic Lockwave,3,XXX,,3,,,"Mechanologist, Action",Go Again,,,,,,"
 
 **Go again**",Mechanologist Action,,,,No,M,,,Asur Misoa,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO143.png,,,,,,
 EVO144,EVO,System Failure,2,1,,2,,,"Mechanologist, Action",,,,,,,"Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler.",Mechanologist Action,,,,No,M,,,Olga Tereshenko,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO144.png,,,,,,
-EVO145,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO145,EVO,System Reset,2,X,,3,,,"Mechanologist, Action",,,,,,,"Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control.",Mechanologist Action,,,,No,M,,,Olga Tereshenko,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO145.png,,,,,,
 EVO146,EVO,Fabricate,1,0,,,,,"Mechanologist, Instant",,,,,,,"Choose 2;
 - Equip a base equipment with Proto in its name from your inventory.
 - Evo permanents you control get +1{d} this turn.
@@ -468,13 +486,21 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.",M
 EVO198,EVO,Expedite,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",Mechanologist Action - Attack,,,,,C,,,Kyxarie Peralta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO198.png,,,,,,
-EVO199,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO200,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO199,EVO,Expedite,2,0,2,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",Mechanologist Action - Attack,,,,,C,,,Kyxarie Peralta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO199.png,,,,,,
+EVO200,EVO,Expedite,3,0,1,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",Mechanologist Action - Attack,,,,,C,,,Kyxarie Peralta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO200.png,,,,,,
 EVO201,EVO,MetEx,1,1,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",Mechanologist Action - Attack,,,,,C,,,Muhammad Fajri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO201.png,,,,,,
-EVO202,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO203,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO202,EVO,MetEx,2,1,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",Mechanologist Action - Attack,,,,,C,,,Muhammad Fajri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO202.png,,,,,,
+EVO203,EVO,MetEx,3,1,2,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.",Mechanologist Action - Attack,,,,,C,,,Muhammad Fajri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO203.png,,,,,,
 EVO204,EVO,Out Pace,1,1,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 This can't be defended by equipment.",Mechanologist Action - Attack,,,,,C,,,Eilene Cherie,"""It's quick or be dead in the ole Rust and Dust."" - Sandy Shoo",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO204.png,,,,,,

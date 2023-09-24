@@ -3123,6 +3123,52 @@ This enters the arena with 3 steam counters. At the start of your turn, destroy 
     
     
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "dissolving-shield-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO089",
+    name: "Dissolving Shield",
+    printings: [{
+      
+      identifier: "EVO089",
+      image: "EVO089",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO089"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO089",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "hadron-collider-red",
     classes: [Class.Mechanologist],
@@ -3889,6 +3935,226 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     
   },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "soup-up-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO112",
+    name: "Soup Up",
+    printings: [{
+      
+      identifier: "EVO112",
+      image: "EVO112",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO112"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO112",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "soup-up-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO113",
+    name: "Soup Up",
+    printings: [{
+      
+      identifier: "EVO113",
+      image: "EVO113",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO113"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO113",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "torque-tuned-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO114",
+    name: "Torque Tuned",
+    printings: [{
+      
+      identifier: "EVO114",
+      image: "EVO114",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO114"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO114",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "torque-tuned-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO115",
+    name: "Torque Tuned",
+    printings: [{
+      
+      identifier: "EVO115",
+      image: "EVO115",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO115"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO115",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.Overpower],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "torque-tuned-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO116",
+    name: "Torque Tuned",
+    printings: [{
+      
+      identifier: "EVO116",
+      image: "EVO116",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO116"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO116",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.Overpower],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "infuse-alloy-red",
     classes: [Class.Mechanologist],
@@ -3931,6 +4197,90 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     
   },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "infuse-alloy-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO121",
+    name: "Infuse Alloy",
+    printings: [{
+      
+      identifier: "EVO121",
+      image: "EVO121",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO121"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO121",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "infuse-alloy-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO122",
+    name: "Infuse Alloy",
+    printings: [{
+      
+      identifier: "EVO122",
+      image: "EVO122",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO122"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO122",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Yugin Maffoli"],
     cardIdentifier: "infuse-titanium-red",
     classes: [Class.Mechanologist],
@@ -3964,6 +4314,90 @@ When this attacks, if it **scrapped** a card, create a Quicken token.`,
     
     pitch: 1,
     power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "infuse-titanium-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO124",
+    name: "Infuse Titanium",
+    printings: [{
+      
+      identifier: "EVO124",
+      image: "EVO124",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO124"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO124",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "infuse-titanium-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO125",
+    name: "Infuse Titanium",
+    printings: [{
+      
+      identifier: "EVO125",
+      image: "EVO125",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO125"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO125",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    power: 5,
     
     
     
@@ -4584,6 +5018,48 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     
     restrictedFormats: [Format.Commoner],
     
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "system-reset-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO145",
+    name: "System Reset",
+    printings: [{
+      
+      identifier: "EVO145",
+      image: "EVO145",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO145"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO145",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    defense: 3,
+    functionalText: `Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    specialCost: "X",
     
     
     
@@ -5515,6 +5991,94 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
     
     
   },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "expedite-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO199",
+    name: "Expedite",
+    printings: [{
+      
+      identifier: "EVO199",
+      image: "EVO199",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO199"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO199",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "expedite-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO200",
+    name: "Expedite",
+    printings: [{
+      
+      identifier: "EVO200",
+      image: "EVO200",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO200"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO200",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "metex-red",
     classes: [Class.Mechanologist],
@@ -5550,6 +6114,94 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "metex-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO202",
+    name: "MetEx",
+    printings: [{
+      
+      identifier: "EVO202",
+      image: "EVO202",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO202"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO202",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "metex-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO203",
+    name: "MetEx",
+    printings: [{
+      
+      identifier: "EVO203",
+      image: "EVO203",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO203"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO203",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
     
     
     
@@ -33579,7 +34231,8 @@ If a hero would draw a card during an action phase, instead they banish the top 
     
     talents: [Talent.Shadow],
     young: true
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Federico Musetti"],
     cardIdentifier: "chane-bound-by-shadow",
     classes: [Class.Runeblade],
@@ -34225,8 +34878,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     
     talents: [Talent.Ice],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "chill-to-the-bone-blue",
     classes: [Class.NotClassed],
@@ -71409,7 +72061,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Steve Argyle"],
     cardIdentifier: "invoke-dominia-red",
     classes: [Class.Illusionist],
@@ -71759,8 +72412,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "invoke-themai-red",
     classes: [Class.Illusionist],
@@ -109076,7 +109728,8 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "scepter-of-pain",
     classes: [Class.Runeblade],
@@ -109236,8 +109889,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "scour-the-battlescape-yellow",
     classes: [Class.Generic],

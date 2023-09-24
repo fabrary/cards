@@ -331,6 +331,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/dissolving-shield-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hadron-collider-red</loc>
     <lastmod>2023-09-23</lastmod>
     <priority>0.5</priority>
@@ -411,12 +416,57 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/soup-up-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/soup-up-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/torque-tuned-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/torque-tuned-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/torque-tuned-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/infuse-alloy-red</loc>
     <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/infuse-alloy-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/infuse-alloy-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/infuse-titanium-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/infuse-titanium-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/infuse-titanium-blue</loc>
     <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
   </url>
@@ -488,6 +538,11 @@
   <url>
     <loc>https://fabrary.net/cards/system-failure-yellow</loc>
     <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/system-reset-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -596,7 +651,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/expedite-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/expedite-blue</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/metex-red</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/metex-yellow</loc>
+    <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/metex-blue</loc>
     <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
   </url>
