@@ -6,7 +6,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
 EVO002,EVO,"Dash, Database",,,,,18,4,"Mechanologist, Hero, Young",,,,,,,"You may look at the top card of your deck at any time.
 
 Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",Mechanologist Hero - Young,,,No,,T,,,Sam Yang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO002.png,,,,,,
-EVO003,EVO,Symbiosis Shot,,,2,,,,"Mechanologist, Weapon, Gun, 2H",Dash Specialization,,,,,,"**Dash Specialization**
+EVO003,EVO,Symbiosis Shot,,,2,,,,"Mechanologist, Weapon, Gun, 2H",Dash Specialization,Action,Attack,,,,"**Dash Specialization**
 
 **Action** - Remove a steam counter from this: **Attack**
 
@@ -500,13 +500,21 @@ EVO185,EVO,Rev Up,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you c
 EVO186,EVO,Data Link,1,0,3,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**
 
 When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,"""The wonders of Eidolon await your. Electric worlds for the electric mind!"" - Synthea Teklo",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO186.png,,,,,,
-EVO187,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO188,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO187,EVO,Data Link,2,0,2,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO187.png,,,,,,
+EVO188,EVO,Data Link,3,0,1,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO188.png,,,,,,
 EVO189,EVO,Dive Through Data,1,2,4,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**
 
 When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Aluisio Cervelle,"""Eidolon. The city's vast knowledge at your fingertips."" - Mendacity Media",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO189.png,,,,,,
-EVO190,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO191,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO190,EVO,Dive Through Data,2,1,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Aluísio Cervelle,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO190.png,,,,,,
+EVO191,EVO,Dive Through Data,3,1,2,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Aluísio Cervelle,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO191.png,,,,,,
 EVO192,EVO,Sprocket Rocket,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
  
 If an item or equipment was banished from **boosting** this, this gets +1{p}.",Mechanologist Action - Attack,,,,,C,,,Veto Zomer,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO192.png,,,,,,

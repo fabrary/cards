@@ -686,7 +686,27 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/data-link-yellow</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/data-link-blue</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/dive-through-data-red</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dive-through-data-yellow</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dive-through-data-blue</loc>
     <lastmod>2023-09-25</lastmod>
     <priority>0.5</priority>
   </url>

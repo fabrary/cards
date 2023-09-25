@@ -34877,6 +34877,53 @@ exports[`Check for unintentional updates Dash (dash) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Dash I/O (dash-io) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "dash-io",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO001",
+  "functionalText": "You may look at the top card of your deck at any time.
+
+Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",
+  "hero": "Dash",
+  "intellect": 4,
+  "life": 36,
+  "name": "Dash I/O",
+  "printings": [
+    {
+      "identifier": "EVO001",
+      "image": "EVO001",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Blitz",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO001",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO001",
+  "subtypes": [],
+  "typeText": "Mechanologist Hero",
+  "types": [
+    "Hero",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dash, Database (dash-database) vs snapshot 1`] = `
 {
   "artists": [
@@ -147035,6 +147082,58 @@ exports[`Check for unintentional updates Swing Fist, Think Later (swing-fist-thi
   "typeText": "Brute Action - Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Symbiosis Shot (symbiosis-shot) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sam Yang",
+  ],
+  "cardIdentifier": "symbiosis-shot",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO003",
+  "functionalText": "**Dash Specialization**
+
+**Action** - Remove a steam counter from this: **Attack**
+
+Whenever a Mechanologist item enters the arena under your control, if this has fewer than 6 steam counters, you may put a steam counter on this.",
+  "keywords": [
+    "Specialization",
+  ],
+  "name": "Symbiosis Shot",
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO003",
+      "image": "EVO003",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "EVO003",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO003",
+  "specializations": [
+    "Dash",
+  ],
+  "subtypes": [
+    "2H",
+    "Gun",
+  ],
+  "typeText": "Mechanologist Weapon - Gun (2H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;

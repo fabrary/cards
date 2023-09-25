@@ -6315,6 +6315,94 @@ When this hits, **opt 1**.`,
     
     
   },{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "data-link-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO187",
+    name: "Data Link",
+    printings: [{
+      
+      identifier: "EVO187",
+      image: "EVO187",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO187"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO187",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "data-link-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO188",
+    name: "Data Link",
+    printings: [{
+      
+      identifier: "EVO188",
+      image: "EVO188",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO188"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO188",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Aluisio Cervelle"],
     cardIdentifier: "dive-through-data-red",
     classes: [Class.Mechanologist],
@@ -6350,6 +6438,94 @@ When this hits, **opt 1**.`,
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "dive-through-data-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO190",
+    name: "Dive Through Data",
+    printings: [{
+      
+      identifier: "EVO190",
+      image: "EVO190",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO190"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO190",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "dive-through-data-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO191",
+    name: "Dive Through Data",
+    printings: [{
+      
+      identifier: "EVO191",
+      image: "EVO191",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO191"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO191",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
     
     
     
@@ -34155,7 +34331,8 @@ Draw 2 cards.
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "cash-out-blue",
     classes: [Class.Generic],
@@ -34325,8 +34502,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "celestial-reprimand-red",
     classes: [Class.Illusionist],
@@ -72125,7 +72301,8 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-blue",
     classes: [Class.Runeblade],
@@ -72251,8 +72428,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Shadow],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "invigorate-red",
     classes: [Class.NotClassed],
@@ -110022,7 +110198,8 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-blue",
     classes: [Class.Wizard],
@@ -110088,8 +110265,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "scale-peeler",
     classes: [Class.Assassin],
