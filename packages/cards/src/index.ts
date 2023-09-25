@@ -1733,6 +1733,182 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
     
     
   },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-head-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO042",
+    name: "Evo Sentry Base Head",
+    printings: [{
+      
+      identifier: "EVO042",
+      image: "EVO042",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO042"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO042",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Head",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-chest-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO043",
+    name: "Evo Sentry Base Chest",
+    printings: [{
+      
+      identifier: "EVO043",
+      image: "EVO043",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO043"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO043",
+    subtypes: [Subtype.Base,Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Chest",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-arms-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO044",
+    name: "Evo Sentry Base Arms",
+    printings: [{
+      
+      identifier: "EVO044",
+      image: "EVO044",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO044"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO044",
+    subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Arms",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-legs-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO045",
+    name: "Evo Sentry Base Legs",
+    printings: [{
+      
+      identifier: "EVO045",
+      image: "EVO045",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO045"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO045",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Legs",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "evo-data-mine-yellow",
     classes: [Class.Mechanologist],
@@ -6035,7 +6211,7 @@ When this hits, **opt 1**.`,
     
     
     
-    keywords: [Keyword.Boost],
+    keywords: [Keyword.Boost,Keyword.Opt],
     
     
     pitch: 1,
@@ -34107,7 +34283,8 @@ Create a Silver token for each permanent destroyed this way.
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "celestial-reprimand-yellow",
     classes: [Class.Illusionist],
@@ -34251,8 +34428,7 @@ Create a Silver token for each permanent destroyed this way.
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Jen Santos"],
     cardIdentifier: "celestial-resolve-yellow",
     classes: [Class.Illusionist],
@@ -72053,7 +72229,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "invigorate-yellow",
     classes: [Class.NotClassed],
@@ -72189,8 +72366,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-red",
     classes: [Class.NotClassed],
@@ -109822,7 +109998,8 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Federico Musetti"],
     cardIdentifier: "scale-peeler",
     classes: [Class.Assassin],
@@ -109898,8 +110075,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Agri Karuniawan","Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-red",
     classes: [Class.Generic],

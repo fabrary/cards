@@ -181,6 +181,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/evo-sentry-base-head-red</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-sentry-base-chest-red</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-sentry-base-arms-red</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-sentry-base-legs-red</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/evo-data-mine-yellow</loc>
     <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>

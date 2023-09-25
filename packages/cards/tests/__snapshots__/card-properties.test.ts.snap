@@ -35124,6 +35124,7 @@ exports[`Check for unintentional updates Data Link (data-link-red) vs snapshot 1
 When this hits, **opt 1**.",
   "keywords": [
     "Boost",
+    "Opt",
   ],
   "name": "Data Link",
   "pitch": 1,

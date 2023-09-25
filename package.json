@@ -6,7 +6,7 @@
   ],
   "scripts": {
     "build": "lerna run build",
-    "prefull2": "npm run update:dependencies",
+    "prefull": "npm run update:dependencies",
     "full": "lerna run full",
     "ncu": "lerna exec ncu",
     "publish": "lerna publish",

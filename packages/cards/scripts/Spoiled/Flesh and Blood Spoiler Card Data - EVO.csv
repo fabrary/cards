@@ -119,10 +119,18 @@ EVO038,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO039,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO040,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO041,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO042,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO043,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO044,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO045,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO042,EVO,Evo Sentry Base Head,1,2,,2,,,"Mechanologist, Action, Equipment, Evo, Base, Head","Transform, Battleworn",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Base Head,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO042.png,,,,,,
+EVO043,EVO,Evo Sentry Base Chest,1,2,,2,,,"Mechanologist, Action, Equipment, Evo, Base, Chest","Transform, Battleworn",,,,,,"If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Base Chest,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO043.png,,,,,,
+EVO044,EVO,Evo Sentry Base Arms,1,2,,2,,,"Mechanologist, Action, Equipment, Evo, Base, Arms","Transform, Battleworn",,,,,,"If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Base Arms,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO044.png,,,,,,
+EVO045,EVO,Evo Sentry Base Legs,1,2,,2,,,"Mechanologist, Action, Equipment, Evo, Base, Legs","Transform, Battleworn",,,,,,"If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Base Legs,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO045.png,,,,,,
 EVO046,EVO,Evo Data Mine,2,0,,2,,,"Mechanologist, Action, Equipment, Evo, Head","Transform, Blade Break",Once per Turn Instant,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
 
 **Once per Turn Instant** - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.
@@ -483,14 +491,14 @@ EVO184,EVO,Rev Up,2,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you c
 EVO185,EVO,Rev Up,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
 
 **Boost**",Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO185.png,,,,,,
-EVO186,EVO,Data Link,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+EVO186,EVO,Data Link,1,0,3,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**
 
 When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,"""The wonders of Eidolon await your. Electric worlds for the electric mind!"" - Synthea Teklo",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO186.png,,,,,,
 EVO187,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO188,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO189,EVO,Dive Through Data,1,2,4,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**
 
-When this hits, **opt 1**.",Mechanologist Action - Attack,,,,Yes,C,,,Aluisio Cervelle,"""Eidolon. The city's vast knowledge at your fingertips."" - Mendacity Media",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO189.png,,,,,,
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Aluisio Cervelle,"""Eidolon. The city's vast knowledge at your fingertips."" - Mendacity Media",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO189.png,,,,,,
 EVO190,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO191,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO192,EVO,Sprocket Rocket,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
