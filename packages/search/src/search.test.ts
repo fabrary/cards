@@ -204,6 +204,7 @@ describe("Card search", () => {
   });
 
   const hasQuantity = [
+    ["Qi Unbound"],
     ["overloop"],
     ['t:"demi-hero"'],
     ["!pitch"],
