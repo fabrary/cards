@@ -13062,7 +13062,7 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gets +2{p}.`,
+    functionalText: `If this is played as chain link 3 or higher, it gets +2{p}.`,
     
     
     
@@ -13300,21 +13300,33 @@ If you have a Chivalray in your pitch zone, this gets +1{p}.`,
     
   },{
     artists: ["Narendra B Adi"],
-    cardIdentifier: "qi-unbound-red",
+    cardIdentifier: "qi-unleashed-red",
     classes: [Class.Ninja],
-    defaultImage: "TCC090",
-    name: "Qi Unbound",
+    defaultImage: "DYN059",
+    name: "Qi Unleashed",
     printings: [{
       
       identifier: "TCC090",
       image: "TCC090",
       set: Release.RoundTheTable,
       
+    },{
+      
+      identifier: "DYN059",
+      image: "DYN059",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN059",
+      image: "DYN059",
+      set: Release.Dynasty,
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["TCC090"],
-    sets: [Release.RoundTheTable],
+    setIdentifiers: ["DYN059","TCC090"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
     specialImage: "TCC090",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -96782,54 +96794,6 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     pitch: 3,
     
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "qi-unleashed-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN059",
-    name: "Qi Unleashed",
-    printings: [{
-      
-      identifier: "DYN059",
-      image: "DYN059",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN059",
-      image: "DYN059",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN059"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN059",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Qi Unleashed has +4{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 1,
-    power: 3,
     
     
     

@@ -147,14 +147,14 @@ TCC083,TCC,Bittering Thorns,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,"Whe
 TCC084,TCC,Flex Claws,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
 
 **Go again**",Ninja Action - Attack,,,,No,R,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC084.png,,,,,,
-TCC085,TCC,Flying Kick,1,2,5,3,,,"Ninja, Action, Attack",,,,,,,"If Flying Kick is played as chain link 3 or higher, it gets +2{p}.",Ninja Action - Attack,,,,Yes,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC085.png,,,,,,
+TCC085,TCC,Flying Kick,1,2,5,3,,,"Ninja, Action, Attack",,,,,,,"If this is played as chain link 3 or higher, it gets +2{p}.",Ninja Action - Attack,,,,Yes,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC085.png,,,,,,
 TCC086,TCC,Growl,1,0,3,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
 
 **Go again**",Ninja Action - Attack,,,,No,R,,,Vito Vivodka,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC086.png,,,,,,
 TCC087,TCC,Leg Tap,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,**Go again**,Ninja Action - Attack,,,,Yes,C,,,Le Vuong,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC087.png,,,,,,
 TCC088,TCC,Mauling Qi,1,1,5,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.",Ninja Action - Attack,,,,No,M,,,Jessketchin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC088.png,,,,,,
 TCC089,TCC,Pouncing Qi,1,0,3,3,,,"Ninja, Action, Attack",Combo,,,Go again,,,"**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.",Ninja Action - Attack,,,,Yes,C,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC089.png,,,,,,
-TCC090,TCC,Qi Unbound,1,2,3,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4 {p}.",Ninja Action - Attack,,,,Yes,C,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC090.png,,,,,,
+TCC090,TCC,Qi Unleashed,1,2,3,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4 {p}.",Ninja Action - Attack,,,,Yes,C,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC090.png,,,,,,
 TCC091,TCC,Blessing of Qi,1,1,,3,,,"Ninja, Action, Aura",,,,,,,"At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +3{p} and you may play it this turn.",Ninja Action - Aura,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-TCC/EN/TCC091.png,,,,,,
 TCC092,TCC,Bittering Thorns,2,1,3,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, your next attack this turn gets +1{p}.
 
