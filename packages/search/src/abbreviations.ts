@@ -253,6 +253,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Take the Tempo",
   },
   {
+    abbreviations: ["Ultron"],
+    card: "Teklovossen, the Mechropotent",
+  },
+  {
     abbreviations: ["ZTS"],
     card: "Zero to Sixty",
   },
