@@ -155783,6 +155783,58 @@ If Turn Timber was **fused**, it gains +2{d}.",
 }
 `;
 
+exports[`Check for unintentional updates Twin Drive (twin-drive-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Simon Dominic",
+  ],
+  "cardIdentifier": "twin-drive-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO142",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+**Boost**",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Twin Drive",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "identifier": "EVO142",
+      "image": "EVO142",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO142",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO142",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Twin Twisters (twin-twisters-blue) vs snapshot 1`] = `
 {
   "artists": [
