@@ -36,6 +36,15 @@ EVO008,EVO,Teklovossen,,,,,20,4,"Mechanologist, Hero, Young",,Once per Turn Inst
 EVO010,EVO,Singularity,1,6,,3,,,"Mechanologist, Action, Construct","Transform, Legendary, Teklovossen Specialization",,,,,,"**Legendary Teklovossen Specialization**
 
 **Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]",Mechanologist Action - Construct,,,,No,V,C,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png,,,,,,
+EVO010,EVO,"Teklovossen, the Mechropotent",,,6,6,*,3,"Shadow, Mechanologist, Demi-Hero, Equipment, Evo","Battleworn, Go again",,,,,,"**Action** - {r}{r}{r}, banish 2 cards from your soul: Attack
+
+Whenever this attacks a hero, they discard a card.
+
+Your Mechanologist attack action cards get **go again**.
+
+This counts as having 4 Evos equipped.
+
+**Battleworn**",Shadow Mechanologist Demi-Hero Equipment - Evo,,,,No,V,V,EA,Billy Christian,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_BACK_V2.png,,,,,,
 EVO011,EVO,Hyper-X3,,,,1,,,"Mechanologist, Equipment, Head",Battleworn,,,,,Boost,"Whenever you banish a Hyper Driver from **boosting**, put it under this.
 
 Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.

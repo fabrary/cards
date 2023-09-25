@@ -559,7 +559,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
     
     keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Transform],
     
-    
+    oppositeSideCardIdentifier: `teklovossen-the-mechropotent`,
     pitch: 1,
     
     restrictedFormats: [Format.Commoner],
@@ -569,6 +569,56 @@ When this hits a hero, put a steam counter on an item you control with **crank**
     
     specializations: [Hero.Teklovossen],
     
+    
+  },{
+    artists: ["Billy Christian"],
+    cardIdentifier: "teklovossen-the-mechropotent",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO010_BACK_V2",
+    name: "Teklovossen, the Mechropotent",
+    printings: [{
+      
+      identifier: "EVO010",
+      image: "EVO010_BACK_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["EVO010"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO010_BACK_V2",
+    subtypes: [Subtype.Evo],
+    types: [Type.DemiHero,Type.Equipment],
+    typeText: "Shadow Mechanologist Demi-Hero Equipment - Evo",
+
+    
+    defense: 6,
+    functionalText: `**Action** - {r}{r}{r}, banish 2 cards from your soul: Attack
+
+Whenever this attacks a hero, they discard a card.
+
+Your Mechanologist attack action cards get **go again**.
+
+This counts as having 4 Evos equipped.
+
+**Battleworn**`,
+    
+    
+    intellect: 3,
+    isCardBack: true,
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
+    
+    oppositeSideCardIdentifier: `singularity-red`,
+    
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    specialLife: "*",
+    
+    
+    talents: [Talent.Shadow],
     
   },{
     artists: ["soyameii"],
@@ -34239,7 +34289,8 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mike Dalzell"],
     cardIdentifier: "cartilage-crush-red",
     classes: [Class.Guardian],
@@ -34311,8 +34362,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mike Dalzell"],
     cardIdentifier: "cartilage-crush-yellow",
     classes: [Class.Guardian],
@@ -72315,7 +72365,8 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Mark Poole"],
     cardIdentifier: "insidious-chill-blue",
     classes: [Class.NotClassed],
@@ -72365,8 +72416,7 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-red",
     classes: [Class.Runeblade],

@@ -132185,6 +132185,7 @@ exports[`Check for unintentional updates Singularity (singularity-red) vs snapsh
     "Transform",
   ],
   "name": "Singularity",
+  "oppositeSideCardIdentifier": "teklovossen-the-mechropotent",
   "pitch": 1,
   "printings": [
     {
