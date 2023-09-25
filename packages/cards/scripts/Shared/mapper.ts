@@ -55,6 +55,10 @@ const orderedFullSetBlackBorderIdentifiers = Object.keys(fullSetIdentifiers)
   .reverse()
   .map((set) => set.toUpperCase());
 
+const excludedImages: { [key: string]: string[] } = {
+  "Qi Unleashed": ["TCC090"],
+};
+
 const defaultImagePrintingOverrides: {
   [key: string]: { setIdentifier: string };
 } = {
@@ -79,6 +83,8 @@ export const getDefaultImage = (
   const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
     ([name]) => cardName === name
   );
+  const excludedSetIdentifierForCard = excludedImages[cardName] || [];
+
   if (matchingOverride) {
     const [_, { setIdentifier }] = matchingOverride;
     const matchingPrint = printings.find(
@@ -86,7 +92,11 @@ export const getDefaultImage = (
     );
     return matchingPrint?.image || "";
   } else {
-    const reversedPrintings = [...printings];
+    const reversedPrintings = [...printings].filter(({ identifier }) => {
+      const isPrintingExcluded =
+        excludedSetIdentifierForCard.includes(identifier);
+      return !isPrintingExcluded;
+    });
 
     let newestBlackBorderStandard;
     let newestBlackBorder;
@@ -196,6 +206,8 @@ export const getSpecialImage = (
   const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
     ([name]) => cardName === name
   );
+  const excludedSetIdentifierForCard = excludedImages[cardName] || [];
+
   if (matchingOverride) {
     const [_, { setIdentifier }] = matchingOverride;
     const matchingPrint = printings.find(
@@ -203,37 +215,45 @@ export const getSpecialImage = (
     );
     return matchingPrint?.image || "";
   } else {
-    const alternativeArt = printings.find(
+    const printingsToUse = [...printings].filter(({ identifier }) => {
+      const isPrintingExcluded =
+        excludedSetIdentifierForCard.includes(identifier);
+      return !isPrintingExcluded;
+    });
+
+    const alternativeArt = printingsToUse.find(
       (printing) => printing.treatment === Treatment.AA
     );
-    const fullArt = printings.find(
+    const fullArt = printingsToUse.find(
       (printing) => printing.treatment === Treatment.FA
     );
-    const extendedArt = printings.find(
+    const extendedArt = printingsToUse.find(
       (printing) => printing.treatment === Treatment.EA
     );
-    const alternateBorder = printings.find(
+    const alternateBorder = printingsToUse.find(
       (printing) => printing.treatment === Treatment.AB
     );
-    const alternateText = printings.find(
+    const alternateText = printingsToUse.find(
       (printing) => printing.treatment === Treatment.AT
     );
-    const doubleSided = printings.find(
+    const doubleSided = printingsToUse.find(
       (printing) => printing.treatment === Treatment.DS
     );
 
-    const marvel = printings.find((printing) => printing.image.includes("_V2"));
-    const firstEdition = printings.find(
+    const marvel = printingsToUse.find((printing) =>
+      printing.image.includes("_V2")
+    );
+    const firstEdition = printingsToUse.find(
       (printing) => printing.edition === ReleaseEdition.First
     );
-    const alphaEdition = printings.find(
+    const alphaEdition = printingsToUse.find(
       (printing) => printing.edition === ReleaseEdition.Alpha
     );
-    const unlimitedEdition = printings.find(
+    const unlimitedEdition = printingsToUse.find(
       (printing) => printing.edition === ReleaseEdition.Unlimited
     );
     let image =
-      printings.length > 0
+      printingsToUse.length > 0
         ? fullArt?.image ||
           extendedArt?.image ||
           alternateBorder?.image ||
@@ -244,7 +264,7 @@ export const getSpecialImage = (
           firstEdition?.image ||
           alphaEdition?.image ||
           unlimitedEdition?.image ||
-          printings.find(({ image }) => !!image)?.image ||
+          printingsToUse.find(({ image }) => !!image)?.image ||
           ""
         : "";
     if (!image) {
