@@ -157,10 +157,18 @@ EVO049,EVO,Evo Charging Rods,2,0,,2,,,"Mechanologist, Action, Equipment, Evo, Le
 **Once per Turn Instant** - Destroy a card under this: Create a Quicken token.
 
 **Blade Break**",Mechanologist Action Equipment - Evo Legs,,,,,C,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO049.png,,,,,,
-EVO050,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO051,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO052,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO053,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO050,EVO,Evo Zoom Call,2,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Head",Transform,,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
+
+When this is equipped, you may banish a card from you hand. If you do, draw a card.",Mechanologist Instant Equipment - Evo Head,,,,,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO050.png,,,,,,
+EVO051,EVO,Evo Buzz Hive,2,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Chest",Transform,,,,,,"If you have a base chest equipped, **transform** it into this, then equip this.
+
+When this is equipped, gain {r}.",Mechanologist Instant Equipment - Evo Chest,,,,,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO051.png,,,,,,
+EVO052,EVO,Evo Whizz Bang,2,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Arms",Transform,,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
+
+When this is equipped, up to 1 target attack gets +1{p}.",Mechanologist Instant Equipment - Evo Arms,,,,,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO052.png,,,,,,
+EVO053,EVO,Evo Zip Line,2,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Legs",Transform,,,Go again,,,"If you have a base legs equipped, **transform** it into this, then equip this.
+
+When this is equipped, up to 1 target attack gets **go again**.",Mechanologist Instant Equipment - Evo Legs,,,,,C,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO053.png,,,,,,
 EVO054,EVO,Annihilator Engine,1,6,6,3,,,"Mechanologist, Action, Attack",Overpower,,,,,,"If you have 1 or more Evos equipped, this gets ""When this hits a hero, destroy all cards defending this,"" 
 
 - 2 or more, this costs {r}{r}{r} less to play,

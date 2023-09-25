@@ -2183,6 +2183,182 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
     
     
   },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-zoom-call-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO050",
+    name: "Evo Zoom Call",
+    printings: [{
+      
+      identifier: "EVO050",
+      image: "EVO050",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO050"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO050",
+    subtypes: [Subtype.Evo,Subtype.Head],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Head",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+When this is equipped, you may banish a card from you hand. If you do, draw a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-buzz-hive-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO051",
+    name: "Evo Buzz Hive",
+    printings: [{
+      
+      identifier: "EVO051",
+      image: "EVO051",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO051"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO051",
+    subtypes: [Subtype.Chest,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Chest",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+When this is equipped, gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-whizz-bang-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO052",
+    name: "Evo Whizz Bang",
+    printings: [{
+      
+      identifier: "EVO052",
+      image: "EVO052",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO052"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO052",
+    subtypes: [Subtype.Arms,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Arms",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+When this is equipped, up to 1 target attack gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-zip-line-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO053",
+    name: "Evo Zip Line",
+    printings: [{
+      
+      identifier: "EVO053",
+      image: "EVO053",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO053"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO053",
+    subtypes: [Subtype.Evo,Subtype.Legs],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Legs",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+When this is equipped, up to 1 target attack gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "annihilator-engine-red",
     classes: [Class.Mechanologist],
@@ -34123,7 +34299,8 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mike Dalzell"],
     cardIdentifier: "cartilage-crush-yellow",
     classes: [Class.Guardian],
@@ -34331,8 +34508,7 @@ Draw 2 cards.
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "cash-out-blue",
     classes: [Class.Generic],
@@ -72177,7 +72353,8 @@ Whenever you **Ice Fuse**, remove a frost counter from Insidious Chill. If you d
     
     talents: [Talent.Ice],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-red",
     classes: [Class.Runeblade],
@@ -72301,8 +72478,7 @@ If Inspire Lightning was **fused**, deal 2 arcane damage to target hero.`,
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Jen Santos"],
     cardIdentifier: "inspire-lightning-blue",
     classes: [Class.Runeblade],
@@ -110132,7 +110308,8 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-yellow",
     classes: [Class.Wizard],
@@ -110198,8 +110375,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Igor Heras"],
     cardIdentifier: "scalding-rain-blue",
     classes: [Class.Wizard],

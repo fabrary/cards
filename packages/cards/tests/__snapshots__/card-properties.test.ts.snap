@@ -35154,6 +35154,55 @@ exports[`Check for unintentional updates Data Doll MKII (data-doll-mkii) vs snap
 }
 `;
 
+exports[`Check for unintentional updates Data Link (data-link-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Samuel Perin",
+  ],
+  "cardIdentifier": "data-link-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO188",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, **opt 1**.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Data Link",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "identifier": "EVO188",
+      "image": "EVO188",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO188",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO188",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Data Link (data-link-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -35194,6 +35243,55 @@ When this hits, **opt 1**.",
     "Bright Lights",
   ],
   "specialImage": "EVO186",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Data Link (data-link-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Samuel Perin",
+  ],
+  "cardIdentifier": "data-link-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO187",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, **opt 1**.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Data Link",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO187",
+      "image": "EVO187",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO187",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO187",
   "subtypes": [
     "Attack",
   ],
@@ -39522,6 +39620,55 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
 }
 `;
 
+exports[`Check for unintentional updates Dive Through Data (dive-through-data-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "dive-through-data-blue",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO191",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, **opt 1**.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Dive Through Data",
+  "pitch": 3,
+  "power": 2,
+  "printings": [
+    {
+      "identifier": "EVO191",
+      "image": "EVO191",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO191",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO191",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dive Through Data (dive-through-data-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -39562,6 +39709,55 @@ When this hits, **opt 1**.",
     "Bright Lights",
   ],
   "specialImage": "EVO189",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Dive Through Data (dive-through-data-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Aluísio Cervelle",
+  ],
+  "cardIdentifier": "dive-through-data-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO190",
+  "defense": 3,
+  "functionalText": "**Boost**
+
+When this hits, **opt 1**.",
+  "keywords": [
+    "Boost",
+  ],
+  "name": "Dive Through Data",
+  "pitch": 2,
+  "power": 3,
+  "printings": [
+    {
+      "identifier": "EVO190",
+      "image": "EVO190",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO190",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO190",
   "subtypes": [
     "Attack",
   ],
