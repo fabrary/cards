@@ -2587,6 +2587,52 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
   },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "prismatic-lens-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO071",
+    name: "Prismatic Lens",
+    printings: [{
+      
+      identifier: "EVO071",
+      image: "EVO071",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO071"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO071",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Once per Turn Instant** - 0: Reveal the top card of your deck. Put a Mechanologist item of the same color from your banished zone on top of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "quantum-processor-yellow",
     classes: [Class.Mechanologist],

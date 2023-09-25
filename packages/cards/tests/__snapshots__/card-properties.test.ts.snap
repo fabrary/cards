@@ -105898,6 +105898,59 @@ exports[`Check for unintentional updates Qi Unleashed (qi-unleashed-yellow) vs s
 }
 `;
 
+exports[`Check for unintentional updates Quantum Processor (quantum-processor-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Reza Afshar",
+  ],
+  "cardIdentifier": "quantum-processor-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO072",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Once per Turn Instant** - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Quantum Processor",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO072",
+      "image": "EVO072",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO072",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO072",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Quelling Robe (quelling-robe) vs snapshot 1`] = `
 {
   "artists": [

@@ -184,8 +184,12 @@ EVO070,EVO,Grinding Gears,3,0,,,,,"Mechanologist, Action, Item",Crank,Action,,,,
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
 
 **Action** - 0: Target hero destroys the top card of their deck.",Mechanologist Action - Item,,,,No,M,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO070.png,,,,,,
-EVO071,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO072,EVO,Quantum Processor,2,1,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+EVO071,EVO,Prismatic Lens,2,1,,,,,"Mechanologist, Action, Item",Crank,Once per Turn Instant,,,,,"**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Once per Turn Instant** - 0: Reveal the top card of your deck. Put a Mechanologist item of the same color from your banished zone on top of your deck.",Mechanologist Action - Item,,,,No,M,,,Alexis Susani,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO071.png,,,,,,
+EVO072,EVO,Quantum Processor,2,1,,,,,"Mechanologist, Action, Item",Crank,Once per Turn Instant,,,,,"**Crank**
 
 This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
 
