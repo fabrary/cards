@@ -50076,6 +50076,218 @@ Your Teklo Blaster attacks gets +1{p} for each opposing hero.
 }
 `;
 
+exports[`Check for unintentional updates Evo Sentry Base Arms (evo-sentry-base-arms-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "evo-sentry-base-arms-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO044",
+  "defense": 2,
+  "functionalText": "If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+    "Transform",
+  ],
+  "name": "Evo Sentry Base Arms",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO044",
+      "image": "EVO044",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO044",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO044",
+  "subtypes": [
+    "Arms",
+    "Base",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Arms",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Sentry Base Chest (evo-sentry-base-chest-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "evo-sentry-base-chest-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO043",
+  "defense": 2,
+  "functionalText": "If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+    "Transform",
+  ],
+  "name": "Evo Sentry Base Chest",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO043",
+      "image": "EVO043",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO043",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO043",
+  "subtypes": [
+    "Base",
+    "Chest",
+    "Evo",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Chest",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Sentry Base Head (evo-sentry-base-head-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "evo-sentry-base-head-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO042",
+  "defense": 2,
+  "functionalText": "If you have a base head equipped, **transform** it into this, then equip this.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+    "Transform",
+  ],
+  "name": "Evo Sentry Base Head",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO042",
+      "image": "EVO042",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO042",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO042",
+  "subtypes": [
+    "Base",
+    "Evo",
+    "Head",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Head",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Evo Sentry Base Legs (evo-sentry-base-legs-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Federico Musetti",
+  ],
+  "cardIdentifier": "evo-sentry-base-legs-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 2,
+  "defaultImage": "EVO045",
+  "defense": 2,
+  "functionalText": "If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+    "Transform",
+  ],
+  "name": "Evo Sentry Base Legs",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "EVO045",
+      "image": "EVO045",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "EVO045",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO045",
+  "subtypes": [
+    "Base",
+    "Evo",
+    "Legs",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action Equipment - Evo Base Legs",
+  "types": [
+    "Action",
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Evo Smoothbore (evo-smoothbore-yellow) vs snapshot 1`] = `
 {
   "artists": [

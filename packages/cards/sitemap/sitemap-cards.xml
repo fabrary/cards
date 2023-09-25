@@ -11,8 +11,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/dash-io</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/dash-database</loc>
     <lastmod>2023-09-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/symbiosis-shot</loc>
+    <lastmod>2023-09-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

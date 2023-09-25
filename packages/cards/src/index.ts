@@ -120,6 +120,50 @@
     
   },{
     artists: ["Sam Yang"],
+    cardIdentifier: "dash-io",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO001",
+    name: "Dash I/O",
+    printings: [{
+      
+      identifier: "EVO001",
+      image: "EVO001",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO001"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO001",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero",
+
+    
+    
+    functionalText: `You may look at the top card of your deck at any time.
+
+Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.`,
+    
+    hero: Hero.Dash,
+    intellect: 4,
+    
+    
+    life: 36,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sam Yang"],
     cardIdentifier: "dash-database",
     classes: [Class.Mechanologist],
     defaultImage: "EVO002",
@@ -162,6 +206,52 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     young: true
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "symbiosis-shot",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO003",
+    name: "Symbiosis Shot",
+    printings: [{
+      
+      identifier: "EVO003",
+      image: "EVO003",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO003"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO003",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    functionalText: `**Dash Specialization**
+
+**Action** - Remove a steam counter from this: **Attack**
+
+Whenever a Mechanologist item enters the arena under your control, if this has fewer than 6 steam counters, you may put a steam counter on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    specializations: [Hero.Dash],
+    
+    
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "maxx-the-hype-nitro",
@@ -34235,7 +34325,8 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "celestial-reprimand-red",
     classes: [Class.Illusionist],
@@ -34283,8 +34374,7 @@ Create a Silver token for each permanent destroyed this way.
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "celestial-reprimand-yellow",
     classes: [Class.Illusionist],
@@ -72161,7 +72251,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Shadow],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "invigorate-red",
     classes: [Class.NotClassed],
@@ -72229,8 +72320,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Elemental],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "invigorate-yellow",
     classes: [Class.NotClassed],
