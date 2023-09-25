@@ -102522,6 +102522,59 @@ exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-scu
 }
 `;
 
+exports[`Check for unintentional updates Prismatic Lens (prismatic-lens-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alexis Susani",
+  ],
+  "cardIdentifier": "prismatic-lens-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 1,
+  "defaultImage": "EVO071",
+  "functionalText": "**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Once per Turn Instant** - 0: Reveal the top card of your deck. Put a Mechanologist item of the same color from your banished zone on top of your deck.",
+  "keywords": [
+    "Crank",
+  ],
+  "name": "Prismatic Lens",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "EVO071",
+      "image": "EVO071",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO071",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO071",
+  "subtypes": [
+    "Item",
+    "Non-Attack",
+  ],
+  "typeText": "Mechanologist Action - Item",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Prismatic Shield (prismatic-shield-blue) vs snapshot 1`] = `
 {
   "artists": [

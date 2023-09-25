@@ -646,6 +646,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/data-link-red</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dive-through-data-red</loc>
+    <lastmod>2023-09-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/sprocket-rocket-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>

@@ -481,10 +481,14 @@ EVO184,EVO,Rev Up,2,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you c
 EVO185,EVO,Rev Up,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
 
 **Boost**",Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO185.png,,,,,,
-EVO186,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO186,EVO,Data Link,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO186.png,,,,,,
 EVO187,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO188,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO189,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO189,EVO,Dive Through Data,1,2,4,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**
+
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,Yes,C,,,Aluisio Cervelle,"""Eidolon. The city's vast knowledge at your fingertips."" - Mendacity Media",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO189.png,,,,,,
 EVO190,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO191,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO192,EVO,Sprocket Rocket,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**

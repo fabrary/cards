@@ -5961,6 +5961,94 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
     
     
   },{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "data-link-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO186",
+    name: "Data Link",
+    printings: [{
+      
+      identifier: "EVO186",
+      image: "EVO186",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO186"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO186",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "dive-through-data-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO189",
+    name: "Dive Through Data",
+    printings: [{
+      
+      identifier: "EVO189",
+      image: "EVO189",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO189"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO189",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Opt],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Veto Zomer"],
     cardIdentifier: "sprocket-rocket-red",
     classes: [Class.Mechanologist],
@@ -34167,7 +34255,8 @@ Create a Silver token for each permanent destroyed this way.
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Jen Santos"],
     cardIdentifier: "celestial-resolve-blue",
     classes: [Class.Illusionist],
@@ -34263,8 +34352,7 @@ Create a Silver token for each permanent destroyed this way.
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "chain-lightning-yellow",
     classes: [Class.Wizard],
@@ -72123,7 +72211,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-yellow",
     classes: [Class.NotClassed],
@@ -72183,8 +72272,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-blue",
     classes: [Class.NotClassed],
