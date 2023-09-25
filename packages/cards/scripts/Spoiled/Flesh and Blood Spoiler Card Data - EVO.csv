@@ -407,7 +407,9 @@ EVO141,EVO,Steel Street Hoons,3,3,3,2,,,"Mechanologist, Action, Attack","Boost, 
 If an item you control has been destroyed this turn, this gets +2{p}.
 
 **Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d).",Mechanologist Action - Attack,,,,No,M,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO141.png,,,,,,
-EVO142,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO142,EVO,Twin Drive,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+**Boost**",Mechanologist Action - Attack,,,,No,M,,,Simon Dominic,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO142.png,,,,,,
 EVO143,EVO,Meganetic Lockwave,3,XXX,,3,,,"Mechanologist, Action",Go Again,,,,,,"Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. 
 
 **Go again**",Mechanologist Action,,,,No,M,,,Asur Misoa,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO143.png,,,,,,
@@ -483,7 +485,7 @@ EVO185,EVO,Rev Up,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you c
 **Boost**",Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO185.png,,,,,,
 EVO186,EVO,Data Link,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
-When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO186.png,,,,,,
+When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,"""The wonders of Eidolon await your. Electric worlds for the electric mind!"" - Synthea Teklo",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO186.png,,,,,,
 EVO187,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO188,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO189,EVO,Dive Through Data,1,2,4,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**

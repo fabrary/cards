@@ -5217,6 +5217,50 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     
     
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "twin-drive-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO142",
+    name: "Twin Drive",
+    printings: [{
+      
+      identifier: "EVO142",
+      image: "EVO142",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO142"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO142",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "meganetic-lockwave-blue",
     classes: [Class.Mechanologist],
@@ -34207,7 +34251,8 @@ Create a Silver token for each permanent destroyed this way.
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Jen Santos"],
     cardIdentifier: "celestial-resolve-yellow",
     classes: [Class.Illusionist],
@@ -34255,8 +34300,7 @@ Create a Silver token for each permanent destroyed this way.
     
     talents: [Talent.Light],
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Jen Santos"],
     cardIdentifier: "celestial-resolve-blue",
     classes: [Class.Illusionist],
@@ -72145,7 +72189,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Elemental],
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-red",
     classes: [Class.NotClassed],
@@ -72211,8 +72256,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Light],
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["MJ Fetesio"],
     cardIdentifier: "invigorating-light-yellow",
     classes: [Class.NotClassed],
@@ -109854,7 +109898,8 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Agri Karuniawan","Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-red",
     classes: [Class.Generic],
@@ -109950,8 +109995,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "scar-for-a-scar-yellow",
     classes: [Class.Generic],
