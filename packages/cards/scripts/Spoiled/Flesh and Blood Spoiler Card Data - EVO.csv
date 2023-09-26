@@ -36,7 +36,7 @@ EVO008,EVO,Teklovossen,,,,,20,4,"Mechanologist, Hero, Young",,Once per Turn Inst
 EVO010,EVO,Singularity,1,6,,3,,,"Mechanologist, Action, Construct","Transform, Legendary, Teklovossen Specialization",,,,,,"**Legendary Teklovossen Specialization**
 
 **Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]",Mechanologist Action - Construct,,,,No,V,C,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png,,,,,,
-EVO010,EVO,"Teklovossen, the Mechropotent",,,6,6,*,3,"Shadow, Mechanologist, Demi-Hero, Equipment, Evo","Battleworn, Go again",,,,,,"**Action** - {r}{r}{r}, banish 2 cards from your soul: Attack
+EVO010,EVO,"Teklovossen, the Mechropotent",,,6,6,*,3,"Shadow, Mechanologist, Demi-Hero, Equipment, Evo","Battleworn, Go again",Action,Attack,,,,"**Action** - {r}{r}{r}, banish 2 cards from your soul: **Attack**
 
 Whenever this attacks a hero, they discard a card.
 
@@ -44,7 +44,7 @@ Your Mechanologist attack action cards get **go again**.
 
 This counts as having 4 Evos equipped.
 
-**Battleworn**",Shadow Mechanologist Demi-Hero Equipment - Evo,,,,No,V,V,EA,Billy Christian,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_BACK_V2.png,,,,,,
+**Battleworn**",Shadow Mechanologist Demi-Hero Equipment - Evo,,,,No,V,C,EA,Billy Christian,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_BACK_V2.png,,,,,,
 EVO011,EVO,Hyper-X3,,,,1,,,"Mechanologist, Equipment, Head",Battleworn,,,,,Boost,"Whenever you banish a Hyper Driver from **boosting**, put it under this.
 
 Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
@@ -130,10 +130,26 @@ EVO037,EVO,Evo Thruster,2,3,,3,,,"Mechanologist, Action, Equipment, Evo, Legs","
 **Once per Turn Instant** - Destroy a card under this: You may attack an additional time with target weapon this turn.
 
 **Blade Break**",Mechanologist Action Equipment - Evo Legs,,,,No,R,,,Marco González,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO037.png,,,,,,
-EVO038,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO039,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO040,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO041,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO038,EVO,Evo Tekloscope,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Head","Transform, Battleworn",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks can target any opposing hero.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Head,,,,,R,,,Revazashvili E.,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO038.png,R,C,,Revazashvili E.,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO038.png
+EVO039,EVO,Evo Energy Matrix,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Chest","Transform, Battleworn",,,,,,"If you have a base chest equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster costs {r} less to activate for each opposing hero.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Chest,,,,,R,,,Elena Bakulina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO039.png,R,C,,Elena Bakulina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO039.png
+EVO040,EVO,Evo Scatter Shot,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Arms","Transform, Battleworn",,,,,,"If you have a base arms equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster gets +1{p} for each opposing hero.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Arms,,,,,R,,,Anastasia Pronina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO040.png,R,C,,Anastasia Pronina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO040.png
+EVO041,EVO,Evo Rapid Fire,3,3,,2,,,"Mechanologist, Action, Equipment, Evo, Legs","Transform, Battleworn",,,,,,"If you have a base legs equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks get **go again**.
+
+**Battleworn**",Mechanologist Action Equipment - Evo Legs,,,,,R,,,Irina Si,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO041.png,R,C,,Irina Si,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO041.png
 EVO042,EVO,Evo Sentry Base Head,1,2,,2,,,"Mechanologist, Action, Equipment, Evo, Base, Head","Transform, Battleworn",,,,,,"If you have a base head equipped, **transform** it into this, then equip this.
 
 **Battleworn**",Mechanologist Action Equipment - Evo Base Head,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO042.png,,,,,,
@@ -204,9 +220,9 @@ hand."" - Enforcer Eesha",https://storage.googleapis.com/fabmaster/cardfaces/202
 "LGS191, EVO061","LGS, EVO",Heavy Artillery,1,3,6,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,P,R,EA,Tanapon Wachirakul,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS191.width-10000.png,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO061.png
 "LGS192, EVO062","LGS, EVO",Heavy Artillery,2,3,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,P,R,EA,Tanapon Wachirakul,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS192.width-10000.png,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO062.png
 "LGS193, EVO063","LGS, EVO",Heavy Artillery,3,3,4,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,P,R,EA,Tanapon Wachirakul,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS193.width-10000.png,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO063.png
-EVO064,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO065,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO066,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO064,EVO,Liquid-Cooled Mayhem,1,4,6,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.,Mechanologist Action - Attack,,,,No,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO064.png,,,,,,
+EVO065,EVO,Liquid-Cooled Mayhem,2,4,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.,Mechanologist Action - Attack,,,,No,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO065.png,,,,,,
+EVO066,EVO,Liquid-Cooled Mayhem,3,4,4,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.,Mechanologist Action - Attack,,,,No,R,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO066.png,,,,,,
 EVO067,EVO,Mechanical Strength,1,3,5,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,"""We are the apex predators here. Is it not the law of nature that we should devour the weak?"" - Executive Smyte, Centennial Consumables",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO067.png,,,,,,
 EVO068,EVO,Mechanical Strength,2,3,4,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,"""We are the apex predators here. Is it not the law of nature that we should devour the weak?"" - Executive Smyte, Centennial Consumables",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO068.png,,,,,,
 EVO069,EVO,Mechanical Strength,3,3,3,3,,,"Mechanologist, Action, Attack",Evo Upgrade,,,,,,"**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.",Mechanologist Action - Attack,,,,No,R,,,Tomasz Jedruszek,"""We are the apex predators here. Is it not the law of nature that we should devour the weak?"" - Executive Smyte, Centennial Consumables",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO069.png,,,,,,
@@ -352,12 +368,24 @@ EVO101,EVO,Scrap Trader,1,0,,2,,,"Mechanologist, Action",Scrap,,,,,,"**Scrap**
 **Scrap**
 
 Gain {r}{r} for each card this **scrapped**.",Mechanologist Action,,,,No,M,,,Anastasia Balakchina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO101.png,,,,,,
-EVO102,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO103,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO104,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO105,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO106,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO107,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO102,EVO,Hydraulic Press,1,3,6,3,,,"Mechanologist, Action, Attack","Scrap, Overpower",,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, this gets **overpower**.",Mechanologist Action - Attack,,,,No,R,,,Raphael Pinna,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO102.png,,,,,,
+EVO103,EVO,Hydraulic Press,2,3,5,3,,,"Mechanologist, Action, Attack","Scrap, Overpower",,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, this gets **overpower**.",Mechanologist Action - Attack,,,,No,R,,,Raphael Pinna,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO103.png,,,,,,
+EVO104,EVO,Hydraulic Press,3,3,4,3,,,"Mechanologist, Action, Attack","Scrap, Overpower",,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, this gets **overpower**.",Mechanologist Action - Attack,,,,No,R,,,Raphael Pinna,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO104.png,,,,,,
+EVO105,EVO,Ratchet Up,1,1,5,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO105.png,,,,,,
+EVO106,EVO,Ratchet Up,2,1,4,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO106.png,,,,,,
+EVO107,EVO,Ratchet Up,3,1,3,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO107.png,,,,,,
 EVO108,EVO,Scrap Hopper,1,0,3,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
 
 When this attacks, if it **scrapped** a card, create a Quicken token.",Mechanologist Action - Attack,,,,No,R,,,Carlos Cruchaga,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO108.png,,,,,,
@@ -385,9 +413,9 @@ EVO115,EVO,Torque Tuned,2,2,5,2,,,"Mechanologist, Action, Attack","Overpower, Ga
 EVO116,EVO,Torque Tuned,3,2,4,2,,,"Mechanologist, Action, Attack","Overpower, Galvanize",,,,,,"If an item you control has been destroyed this turn, this gets **overpower**.
 
 **Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,No,R,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO116.png,,,,,,
-EVO117,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO118,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO119,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO117,EVO,Cognition Field,1,,,3,,,"Mechanologist, Block",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Block,,,,No,R,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO117.png,,,,,,
+EVO118,EVO,Cognition Field,2,,,2,,,"Mechanologist, Block",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Block,,,,No,R,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO118.png,,,,,,
+EVO119,EVO,Cognition Field,3,,,1,,,"Mechanologist, Block",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Block,,,,No,R,,,Rio Sabda,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO119.png,,,,,,
 EVO120,EVO,Infuse Alloy,1,0,4,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO120.png,,,,,,
 EVO121,EVO,Infuse Alloy,2,0,3,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO121.png,,,,,,
 EVO122,EVO,Infuse Alloy,3,0,2,2,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO122.png,,,,,,
@@ -421,9 +449,15 @@ When this attacks, if it **scrapped** a card, put a steam counter on an item you
 EVO134,EVO,Scrap Harvester,3,3,4,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
 
 When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.",Mechanologist Action - Attack,,,,,C,,,Sandeep Karunakaran,"""What, this? It's the Sprawl. Don't worry bout it! T's a small price to pay for prosperity!"" - Prospector Cogmire",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO134.png,,,,,,
-EVO135,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO136,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO137,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO135,EVO,Scrap Prospector,1,0,3,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, gain {r}.",Mechanologist Action - Attack,,,,,C,,,Yugin Maffioli,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO135.png,,,,,,
+EVO136,EVO,Scrap Prospector,2,0,2,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, gain {r}.",Mechanologist Action - Attack,,,,,C,,,Yugin Maffioli,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO136.png,,,,,,
+EVO137,EVO,Scrap Prospector,3,0,1,3,,,"Mechanologist, Action, Attack",Scrap,,,,,,"**Scrap**
+
+When this attacks, if it scrapped a card, gain {r}.",Mechanologist Action - Attack,,,,,C,,,Yugin Maffioli,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO137.png,,,,,,
 EVO138,EVO,Heist,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.",Mechanologist Action - Attack,,,,No,M,,,Marco González,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO138.png,,,,,,
@@ -470,29 +504,41 @@ EVO152,EVO,Spring a Leak,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"*
 
 When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",Mechanologist Action - Attack,,,,No,R,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO152.png,,,,,,
 EVO153,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO154,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO154,EVO,Burn Rubber,1,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you've **boosted** 2 or more times this turn, this gets +2{p} and can't be defended by equipment.",Mechanologist Action - Attack,,,,No,R,,,Maerel Hibadita,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO154.png,,,,,,
 EVO155,EVO,Smash and Grab,1,3,5,3,,,"Mechanologist, Action, Attack",,,,,,Boost,"If you've **boosted** 2 or more times this turn, this gets +2{p} and ""When this hits a hero, gain control of an item they control.""",Mechanologist Action - Attack,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO155.png,,,,,,
-EVO156,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO157,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO158,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO159,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO160,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO161,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO162,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO163,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO164,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO165,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO166,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO167,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO168,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO169,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO170,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO171,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO172,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO173,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO174,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO175,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO176,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO156,EVO,Gigawatt,1,1,,2,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +4{p}.
+
+**Go again**",Mechanologist Action,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO156.png,,,,,,
+EVO157,EVO,Gigawatt,2,1,,2,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +3{p}.
+
+**Go again**",Mechanologist Action,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO157.png,,,,,,
+EVO158,EVO,Gigawatt,3,1,,2,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +2{p}.
+
+**Go again**",Mechanologist Action,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO158.png,,,,,,
+EVO159,EVO,Firewall,1,,,4,,,"Mechanologist, Block",,,,,,,"When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",Mechanologist Block,,,,No,R,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO159.png,,,,,,
+EVO160,EVO,Firewall,2,,,3,,,"Mechanologist, Block",,,,,,,"When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",Mechanologist Block,,,,No,R,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO160.png,,,,,,
+EVO161,EVO,Firewall,3,,,2,,,"Mechanologist, Block",,,,,,,"When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",Mechanologist Block,,,,No,R,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO161.png,,,,,,
+EVO162,EVO,Zero to Fifty,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO162.png,,,,,,
+EVO163,EVO,Zero to Fifty,2,0,2,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO163.png,,,,,,
+EVO164,EVO,Zero to Fifty,3,0,1,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Riordan Delmiro,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO164.png,,,,,,
+EVO165,EVO,Razzle Dazzle,1,1,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO165.png,,,,,,
+EVO166,EVO,Razzle Dazzle,2,1,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO166.png,,,,,,
+EVO167,EVO,Razzle Dazzle,3,1,2,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO167.png,,,,,,
+EVO168,EVO,Full Tilt,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO168.png,,,,,,
+EVO169,EVO,Full Tilt,2,2,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO169.png,,,,,,
+EVO170,EVO,Full Tilt,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO170.png,,,,,,
+EVO171,EVO,Gas Guzzler,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO171.png,,,,,,
+EVO172,EVO,Gas Guzzler,2,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO172.png,,,,,,
+EVO173,EVO,Gas Guzzler,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO173.png,,,,,,
+EVO174,EVO,Crankshaft,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO174.png,,,,,,
+EVO175,EVO,Crankshaft,2,2,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO175.png,,,,,,
+EVO176,EVO,Crankshaft,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Mateusz Wiśniewski,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO176.png,,,,,,
 EVO177,EVO,Big Bertha,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,Boost,"**Boost**
 
 When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO177.png,,,,,,
@@ -502,9 +548,15 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
 EVO179,EVO,Big Bertha,3,3,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,Boost,"**Boost**
 
 When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",Mechanologist Action - Attack,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO179.png,,,,,,
-EVO180,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO181,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO182,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO180,EVO,Jump Start,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",Mechanologist Action - Attack,,,,,C,,,Amelia Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO180.png,,,,,,
+EVO181,EVO,Jump Start,2,2,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",Mechanologist Action - Attack,,,,,C,,,Amelia Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO181.png,,,,,,
+EVO182,EVO,Jump Start,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**",Mechanologist Action - Attack,,,,,C,,,Amelia Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO182.png,,,,,,
 EVO183,EVO,Rev Up,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you control a Hyper Driver, this costs {r} less to play.
 
 **Boost**",Mechanologist Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO183.png,,,,,,
@@ -523,7 +575,7 @@ When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,,
 EVO188,EVO,Data Link,3,0,1,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Samuel Perin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO188.png,,,,,,
-EVO189,EVO,Dive Through Data,1,2,4,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**
+EVO189,EVO,Dive Through Data,1,1,4,3,,,"Mechanologist, Action, Attack","Boost, Opt 1",,,,,,"**Boost**
 
 When this hits, **opt 1**.",Mechanologist Action - Attack,,,,,C,,,Aluisio Cervelle,"""Eidolon. The city's vast knowledge at your fingertips."" - Mendacity Media",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO189.png,,,,,,
 EVO190,EVO,Dive Through Data,2,1,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
@@ -604,12 +656,24 @@ This gets +X{p}, where X is the number of equipment defending it.",Mechanologist
 EVO215,EVO,Panel Beater,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 This gets +X{p}, where X is the number of equipment defending it.",Mechanologist Action - Attack,,,,,C,,,Anastasia Balakchina,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO215.png,,,,,,
-EVO216,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO217,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO218,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO219,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO220,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-EVO221,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO216,EVO,Under Loop,1,1,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,,C,,,Artur Treffner,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO216.png,,,,,,
+EVO217,EVO,Under Loop,2,1,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,,C,,,Artur Treffner,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO217.png,,,,,,
+EVO218,EVO,Under Loop,3,1,2,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,,C,,,Artur Treffner,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO218.png,,,,,,
+EVO219,EVO,Over Loop,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,,C,,,Mikhail Babkin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO219.png,,,,,,
+EVO220,EVO,Over Loop,2,2,4,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,,C,,,Mikhail Babkin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO220.png,,,,,,
+EVO221,EVO,Over Loop,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+When this hits, put it on the bottom of its owner's deck.",Mechanologist Action - Attack,,,,,C,,,Mikhail Babkin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO221.png,,,,,,
 EVO222,EVO,Gas Up,1,1,,2,,,"Mechanologist, Action",Go again,,,,,Boost,"The next attack you **boost** this turn gets +4{p}.
 
 You may put a Hyper Driver from your banished zone into the arena.
@@ -692,10 +756,10 @@ EVO245,EVO,Tome of Imperial Flame,1,0,,,,,"Draconic, Action",Go again,,,,,,"Draw
 You may pitch 2 red cards. If you don't, banish your hand.
 
 **Go again**",Draconic Action,,,,No,M,,,Mateusz Wiśniewski,,/EVO245.webp,,,,,,
-EVO246,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO246,EVO,Dust from the Chrome Caverns,1,0,,3,,,"Draconic, Action, Ash",Material,,,,,,"**Material** - While this is under a permanent other than Cromai, that permanent has phantasm.",Draconic Action - Ash,,,,No,M,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO246.png,,,,,,
 EVO247,EVO,Warband of Bellona,,,,2,,,"Light, Warrior, Equipment, Head",Temper,Action,"Go again, Charge",,,,"**Action** - {r}{r}, destroy this: The next time you attack this turn, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card. **Go again**
 
 **Temper**",Light Warrior Equipment - Head,,,,No,L,R,,soyameii,,/EVO247.webp,L,C,EA,soyameii,,/EVO247_V2.webp
-EVO248,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO248,EVO,Slay,1,0,,,,,"Shadow, Instant",,,,,,,Destroy target angel ally.,Shadow Instant,,,,No,M,,,Othon Nikolaidis,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO248.png,,,,,,
 EVO249,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 EVO250,EVO,Quicken,,,,,,,"Generic, Token, Aura",Go again,,,,,,"When you play an attack action card or activate a weapon attack, destroy this and the attack gets **go again**.",Generic Token - Aura,,,,,T,,,Tomasz Jedruszek,"Metrix. City of Industry. Where the streets are paved with opportunity, and progress waits for no one!",https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO250.png,,,,,,
