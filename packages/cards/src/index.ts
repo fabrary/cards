@@ -155,7 +155,7 @@ When this is pitched, you may put a steam counter on an item you control with **
     
     
     
-    keywords: [Keyword.Crank,Keyword.Legendary],
+    keywords: [Keyword.Legendary],
     
     
     pitch: 2,
@@ -624,16 +624,22 @@ When this hits a hero, put a steam counter on an item you control with **crank**
     artists: ["Billy Christian"],
     cardIdentifier: "teklovossen-the-mechropotent",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO010_BACK_V2",
+    defaultImage: "EVO010_BACK",
     name: "Teklovossen, the Mechropotent",
     printings: [{
+      
+      identifier: "EVO010",
+      image: "EVO010_BACK",
+      set: Release.BrightLights,
+      
+    },{
       foiling: Foiling.C,
       identifier: "EVO010",
       image: "EVO010_BACK_V2",
       set: Release.BrightLights,
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Marvel],
+    rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Marvel,
     setIdentifiers: ["EVO010"],
     sets: [Release.BrightLights],
@@ -7161,7 +7167,7 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
     
     
     
-    keywords: [Keyword.Boost],
+    
     
     
     pitch: 1,
@@ -7203,7 +7209,7 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
     
     
     
-    keywords: [Keyword.Boost],
+    
     
     
     pitch: 1,
@@ -11106,7 +11112,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.Commoner],
     specialCost: "X",
     
     

@@ -11702,6 +11702,53 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
 }
 `;
 
+exports[`Check for unintentional updates Big Shot (big-shot-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sandeep Karunakaran",
+  ],
+  "cardIdentifier": "big-shot-red",
+  "classes": [
+    "Mechanologist",
+  ],
+  "cost": 3,
+  "defaultImage": "EVO153",
+  "defense": 3,
+  "functionalText": "If you've **boosted** 2 or more times this turn, this gets +2{p}.",
+  "name": "Big Shot",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "identifier": "EVO153",
+      "image": "EVO153",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO153",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO153",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Mechanologist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Billowing Mirage (billowing-mirage-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -23421,9 +23468,6 @@ exports[`Check for unintentional updates Burn Rubber (burn-rubber-red) vs snapsh
   "defaultImage": "EVO154",
   "defense": 3,
   "functionalText": "If you've **boosted** 2 or more times this turn, this gets +2{p} and can't be defended by equipment.",
-  "keywords": [
-    "Boost",
-  ],
   "name": "Burn Rubber",
   "pitch": 1,
   "power": 5,
@@ -87468,6 +87512,62 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
 }
 `;
 
+exports[`Check for unintentional updates Master Cog (master-cog-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "master-cog-yellow",
+  "classes": [
+    "Mechanologist",
+  ],
+  "defaultImage": "EVO000",
+  "functionalText": "**Legendary**
+
+When this is pitched, you may put a steam counter on an item you control with **crank**.",
+  "keywords": [
+    "Legendary",
+  ],
+  "name": "Master Cog",
+  "pitch": 2,
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "EVO000",
+      "image": "EVO000",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO000",
+      "image": "EVO000",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Fabled",
+  ],
+  "rarity": "Fabled",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO000",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO000",
+  "subtypes": [
+    "Gem",
+  ],
+  "typeText": "Mechanologist Resource - Gem",
+  "types": [
+    "Resource",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Mauling Qi (mauling-qi-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -151326,6 +151426,57 @@ exports[`Check for unintentional updates Tectonic Plating (tectonic-plating) vs 
 }
 `;
 
+exports[`Check for unintentional updates Tectonic Rift (tectonic-rift-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "tectonic-rift-blue",
+  "classes": [
+    "Guardian",
+  ],
+  "defaultImage": "EVO238",
+  "defense": 2,
+  "functionalText": "Create X Seismic Surge tokens.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Tectonic Rift",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO238",
+      "image": "EVO238",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO238",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialCost": "X",
+  "specialImage": "EVO238",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Guardian Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs snapshot 1`] = `
 {
   "artists": [
@@ -152379,7 +152530,7 @@ exports[`Check for unintentional updates Teklovossen, the Mechropotent (teklovos
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "EVO010_BACK_V2",
+  "defaultImage": "EVO010_BACK",
   "defense": 6,
   "functionalText": "**Action** - {r}{r}{r}, banish 2 cards from your soul: **Attack**
 
@@ -152401,6 +152552,11 @@ This counts as having 4 Evos equipped.
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO010",
+      "image": "EVO010_BACK",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "EVO010",
       "image": "EVO010_BACK_V2",
@@ -152409,6 +152565,7 @@ This counts as having 4 Evos equipped.
     },
   ],
   "rarities": [
+    "Legendary",
     "Marvel",
   ],
   "rarity": "Marvel",
