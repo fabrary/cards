@@ -119,6 +119,56 @@
     
     
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "master-cog-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO000",
+    name: "Master Cog",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO000",
+      image: "EVO000",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO000",
+      image: "EVO000",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["EVO000"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO000",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Mechanologist Resource - Gem",
+
+    
+    
+    functionalText: `**Legendary**
+
+When this is pitched, you may put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Legendary],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "dash-io",
     classes: [Class.Mechanologist],
@@ -7083,6 +7133,48 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
     
     
   },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "big-shot-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO153",
+    name: "Big Shot",
+    printings: [{
+      
+      identifier: "EVO153",
+      image: "EVO153",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO153"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO153",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "burn-rubber-red",
     classes: [Class.Mechanologist],
@@ -10972,6 +11064,50 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     power: 6,
     restrictedFormats: [Format.Commoner],
     
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "tectonic-rift-blue",
+    classes: [Class.Guardian],
+    defaultImage: "EVO238",
+    name: "Tectonic Rift",
+    printings: [{
+      
+      identifier: "EVO238",
+      image: "EVO238",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO238"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO238",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action",
+
+    
+    defense: 2,
+    functionalText: `Create X Seismic Surge tokens.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    specialCost: "X",
     
     
     
@@ -34163,7 +34299,8 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Leony Tobing"],
     cardIdentifier: "breeze-rider-boots",
     classes: [Class.Ninja],
@@ -34307,8 +34444,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     talents: [Talent.Earth,Talent.Elemental,Talent.Lightning],
     young: true
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "briar-warden-of-thorns",
     classes: [Class.Runeblade],
@@ -72877,7 +73013,8 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Bramasta Aji","Phu Thieu"],
     cardIdentifier: "in-the-swing-red",
     classes: [Class.Warrior],
@@ -72989,8 +73126,7 @@ Target weapon attack gains +2{p}.`,
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Bramasta Aji"],
     cardIdentifier: "in-the-swing-blue",
     classes: [Class.Warrior],
@@ -111274,7 +111410,8 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     talents: [Talent.Draconic],
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "savage-beatdown-red",
     classes: [Class.Brute],
@@ -111326,8 +111463,7 @@ If the discarded card has 6 or more {p}, Savage Beatdown has +6{p}.`,
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Vladimir Shatunov"],
     cardIdentifier: "savage-feast-red",
     classes: [Class.Brute],

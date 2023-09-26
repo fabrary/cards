@@ -1,5 +1,7 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2
-EVO000,EVO,,,,,,,,,,,,,,,,,,,,,F,,,,,,,,,,,
+EVO000,EVO,Master Cog,2,,,,,,"Mechanologist, Resource, Gem","Legendary, Crank",,,,,,"**Legendary**
+
+When this is pitched, you may put a steam counter on an item you control with **crank**.",Mechanologist Resource - Gem,,,,No,F,R,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO000.png,F,C,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO000.png
 EVO001,EVO,Dash I/O,,,,,36,4,"Mechanologist, Hero",,,,,,,"You may look at the top card of your deck at any time.
 
 Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.",Mechanologist Hero,,No,,No,M,,,Sam Yang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO001.png,,,,,,
@@ -503,7 +505,7 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
 EVO152,EVO,Spring a Leak,3,2,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.",Mechanologist Action - Attack,,,,No,R,,,Narendra B Adi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO152.png,,,,,,
-EVO153,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO153,EVO,Big Shot,1,3,6,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you've **boosted** 2 or more times this turn, this gets +2{p}.",Mechanologist Action - Attack,,,,No,R,,,Sandeep Karunakaran,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO153.png,,,,,,
 EVO154,EVO,Burn Rubber,1,3,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"If you've **boosted** 2 or more times this turn, this gets +2{p} and can't be defended by equipment.",Mechanologist Action - Attack,,,,No,R,,,Maerel Hibadita,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO154.png,,,,,,
 EVO155,EVO,Smash and Grab,1,3,5,3,,,"Mechanologist, Action, Attack",,,,,,Boost,"If you've **boosted** 2 or more times this turn, this gets +2{p} and ""When this hits a hero, gain control of an item they control.""",Mechanologist Action - Attack,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO155.png,,,,,,
 EVO156,EVO,Gigawatt,1,1,,2,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +4{p}.
@@ -734,7 +736,9 @@ EVO236,EVO,Already Dead,1,2,6,3,,,"Assassin, Action, Attack",Contract,,,,,,"**Co
 
 When this hits a hero, banish the top card of their deck and a defending card.",Assassin Action - Attack,,,,No,M,S,,Alexander Mokhov,,/EVO236.webp,,,,,,
 EVO237,EVO,Smashing Performance,2,3,6,,,,"Brute, Action, Attack",,,,,,,"When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.",Brute Action - Attack,,,,No,M,,,Henrique Lindner,,/EVO237.webp,,,,,,
-EVO238,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO238,EVO,Tectonic Rift,3,X,,2,,,"Guardian, Action",Go again,,,,,,"Create X Seismic Surge tokens.
+
+**Go again**",Guardian Action,,,,,M,,,Asur Misoa,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO238.png,,,,,,
 EVO239,EVO,Wax Off,3,0,,2,,,"Ninja, Defense Reaction",,,,,,,"If you've played Wax On this turn, create a Zen State token.",Ninja Defense Reaction,,,,No,M,,,Nathaniel Himawan,,/EVO239.webp,,,,,,
 EVO240,EVO,Emboldened Blade,3,0,,3,,,"Warrior, Action",Go again,,,,,,"Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.
 
