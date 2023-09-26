@@ -32014,11 +32014,11 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-blue) vs snapsho
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "DYN103",
+  "defaultImage": "EVO176",
   "defense": 3,
-  "functionalText": "When Crankshaft is banished to pay for a **boost** cost, put a steam counter on a Hyper Driver you control.
+  "functionalText": "**Boost**
 
-**Boost**",
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",
   "keywords": [
     "Boost",
   ],
@@ -32026,6 +32026,11 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-blue) vs snapsho
   "pitch": 3,
   "power": 3,
   "printings": [
+    {
+      "identifier": "EVO176",
+      "image": "EVO176",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "DYN103",
       "image": "DYN103",
@@ -32044,11 +32049,13 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-blue) vs snapsho
   "rarity": "Common",
   "setIdentifiers": [
     "DYN103",
+    "EVO176",
   ],
   "sets": [
+    "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "DYN103",
+  "specialImage": "EVO176",
   "subtypes": [
     "Attack",
   ],
@@ -32069,11 +32076,11 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-red) vs snapshot
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "DYN101",
+  "defaultImage": "EVO174",
   "defense": 3,
-  "functionalText": "When Crankshaft is banished to pay for a **boost** cost, put a steam counter on a Hyper Driver you control.
+  "functionalText": "**Boost**
 
-**Boost**",
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",
   "keywords": [
     "Boost",
   ],
@@ -32081,6 +32088,11 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-red) vs snapshot
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "identifier": "EVO174",
+      "image": "EVO174",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "DYN101",
       "image": "DYN101",
@@ -32099,11 +32111,13 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-red) vs snapshot
   "rarity": "Common",
   "setIdentifiers": [
     "DYN101",
+    "EVO174",
   ],
   "sets": [
+    "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "DYN101",
+  "specialImage": "EVO174",
   "subtypes": [
     "Attack",
   ],
@@ -32124,11 +32138,11 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-yellow) vs snaps
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "DYN102",
+  "defaultImage": "EVO175",
   "defense": 3,
-  "functionalText": "When Crankshaft is banished to pay for a **boost** cost, put a steam counter on a Hyper Driver you control.
+  "functionalText": "**Boost**
 
-**Boost**",
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.",
   "keywords": [
     "Boost",
   ],
@@ -32136,6 +32150,11 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-yellow) vs snaps
   "pitch": 2,
   "power": 4,
   "printings": [
+    {
+      "identifier": "EVO175",
+      "image": "EVO175",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "DYN102",
       "image": "DYN102",
@@ -32154,11 +32173,13 @@ exports[`Check for unintentional updates Crankshaft (crankshaft-yellow) vs snaps
   "rarity": "Common",
   "setIdentifiers": [
     "DYN102",
+    "EVO175",
   ],
   "sets": [
+    "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "DYN102",
+  "specialImage": "EVO175",
   "subtypes": [
     "Attack",
   ],
@@ -39678,7 +39699,7 @@ exports[`Check for unintentional updates Dive Through Data (dive-through-data-re
   "classes": [
     "Mechanologist",
   ],
-  "cost": 2,
+  "cost": 1,
   "defaultImage": "EVO189",
   "defense": 3,
   "functionalText": "**Boost**
@@ -50030,11 +50051,11 @@ exports[`Check for unintentional updates Evo Energy Matrix (evo-energy-matrix-bl
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "TCC008",
+  "defaultImage": "EVO039",
   "defense": 2,
   "functionalText": "If you have a base chest equipped, **transform** it into this, then equip this.
 
-Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
+Your Teklo Blaster costs {r} less to activate for each opposing hero.
 
 **Battleworn**",
   "keywords": [
@@ -50045,6 +50066,17 @@ Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO039",
+      "image": "EVO039",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO039",
+      "image": "EVO039",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC008",
       "image": "TCC008",
       "set": "Round the Table",
@@ -50054,16 +50086,15 @@ Your Teklo Blaster attacks cost {r} less to activate for each opposing hero.
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
+    "EVO039",
     "TCC008",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC008",
+  "specialImage": "EVO039",
   "subtypes": [
     "Chest",
     "Evo",
@@ -50264,21 +50295,31 @@ exports[`Check for unintentional updates Evo Rapid Fire (evo-rapid-fire-blue) vs
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "TCC010",
+  "defaultImage": "EVO041",
   "defense": 2,
-  "functionalText": ""If you have a base legs equipped, **transform** it into this, then equip this.
+  "functionalText": "If you have a base legs equipped, **transform** it into this, then equip this.
 
-Your Teklo Blaster attacks gets **go again**.
+Your Teklo Blaster attacks get **go again**.
 
-**Battleworn**"",
+**Battleworn**",
   "keywords": [
     "Battleworn",
-    "Go again",
     "Transform",
   ],
   "name": "Evo Rapid Fire",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "EVO041",
+      "image": "EVO041",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO041",
+      "image": "EVO041",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC010",
       "image": "TCC010",
@@ -50289,16 +50330,15 @@ Your Teklo Blaster attacks gets **go again**.
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
+    "EVO041",
     "TCC010",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC010",
+  "specialImage": "EVO041",
   "subtypes": [
     "Evo",
     "Legs",
@@ -50322,11 +50362,11 @@ exports[`Check for unintentional updates Evo Scatter Shot (evo-scatter-shot-blue
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "TCC009",
+  "defaultImage": "EVO040",
   "defense": 2,
   "functionalText": "If you have a base arms equipped, **transform** it into this, then equip this.
 
-Your Teklo Blaster attacks gets +1{p} for each opposing hero.
+Your Teklo Blaster gets +1{p} for each opposing hero.
 
 **Battleworn**",
   "keywords": [
@@ -50337,6 +50377,17 @@ Your Teklo Blaster attacks gets +1{p} for each opposing hero.
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO040",
+      "image": "EVO040",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO040",
+      "image": "EVO040",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC009",
       "image": "TCC009",
       "set": "Round the Table",
@@ -50346,16 +50397,15 @@ Your Teklo Blaster attacks gets +1{p} for each opposing hero.
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
+    "EVO040",
     "TCC009",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC009",
+  "specialImage": "EVO040",
   "subtypes": [
     "Arms",
     "Evo",
@@ -50908,7 +50958,7 @@ exports[`Check for unintentional updates Evo Tekloscope (evo-tekloscope-blue) vs
     "Mechanologist",
   ],
   "cost": 3,
-  "defaultImage": "TCC007",
+  "defaultImage": "EVO038",
   "defense": 2,
   "functionalText": "If you have a base head equipped, **transform** it into this, then equip this.
 
@@ -50923,6 +50973,17 @@ Your Teklo Blaster attacks can target any opposing hero.
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO038",
+      "image": "EVO038",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO038",
+      "image": "EVO038",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC007",
       "image": "TCC007",
       "set": "Round the Table",
@@ -50932,16 +50993,15 @@ Your Teklo Blaster attacks can target any opposing hero.
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
+    "EVO038",
     "TCC007",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC007",
+  "specialImage": "EVO038",
   "subtypes": [
     "Evo",
     "Head",
@@ -54301,18 +54361,23 @@ exports[`Check for unintentional updates Firebreathing (firebreathing-red) vs sn
 exports[`Check for unintentional updates Firewall (firewall-blue) vs snapshot 1`] = `
 {
   "artists": [
-    "Ricordan Delmiro",
+    "Riordan Delmiro",
   ],
   "cardIdentifier": "firewall-blue",
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "TCC026",
+  "defaultImage": "EVO161",
   "defense": 2,
   "functionalText": "When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",
   "name": "Firewall",
   "pitch": 3,
   "printings": [
+    {
+      "identifier": "EVO161",
+      "image": "EVO161",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC026",
       "image": "TCC026",
@@ -54327,12 +54392,14 @@ exports[`Check for unintentional updates Firewall (firewall-blue) vs snapshot 1`
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO161",
     "TCC026",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC026",
+  "specialImage": "EVO161",
   "subtypes": [],
   "typeText": "Mechanologist Block",
   "types": [
@@ -54344,18 +54411,23 @@ exports[`Check for unintentional updates Firewall (firewall-blue) vs snapshot 1`
 exports[`Check for unintentional updates Firewall (firewall-red) vs snapshot 1`] = `
 {
   "artists": [
-    "Ricordan Delmiro",
+    "Riordan Delmiro",
   ],
   "cardIdentifier": "firewall-red",
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "TCC019",
+  "defaultImage": "EVO159",
   "defense": 4,
   "functionalText": "When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",
   "name": "Firewall",
   "pitch": 1,
   "printings": [
+    {
+      "identifier": "EVO159",
+      "image": "EVO159",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC019",
       "image": "TCC019",
@@ -54370,12 +54442,14 @@ exports[`Check for unintentional updates Firewall (firewall-red) vs snapshot 1`]
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO159",
     "TCC019",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC019",
+  "specialImage": "EVO159",
   "subtypes": [],
   "typeText": "Mechanologist Block",
   "types": [
@@ -54387,18 +54461,23 @@ exports[`Check for unintentional updates Firewall (firewall-red) vs snapshot 1`]
 exports[`Check for unintentional updates Firewall (firewall-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "Ricordan Delmiro",
+    "Riordan Delmiro",
   ],
   "cardIdentifier": "firewall-yellow",
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "TCC022",
+  "defaultImage": "EVO160",
   "defense": 3,
   "functionalText": "When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.",
   "name": "Firewall",
   "pitch": 2,
   "printings": [
+    {
+      "identifier": "EVO160",
+      "image": "EVO160",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC022",
       "image": "TCC022",
@@ -54413,12 +54492,14 @@ exports[`Check for unintentional updates Firewall (firewall-yellow) vs snapshot 
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO160",
     "TCC022",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC022",
+  "specialImage": "EVO160",
   "subtypes": [],
   "typeText": "Mechanologist Block",
   "types": [
@@ -78785,9 +78866,9 @@ exports[`Check for unintentional updates Jump Start (jump-start-blue) vs snapsho
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "DYN106",
+  "defaultImage": "EVO182",
   "defense": 3,
-  "functionalText": "If you control a Hyper Driver, Jump Start costs {r} less to play.
+  "functionalText": "If you control a Hyper Driver, this costs {r} less to play.
 
 **Boost**",
   "keywords": [
@@ -78797,6 +78878,11 @@ exports[`Check for unintentional updates Jump Start (jump-start-blue) vs snapsho
   "pitch": 3,
   "power": 3,
   "printings": [
+    {
+      "identifier": "EVO182",
+      "image": "EVO182",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "DYN106",
       "image": "DYN106",
@@ -78815,11 +78901,13 @@ exports[`Check for unintentional updates Jump Start (jump-start-blue) vs snapsho
   "rarity": "Common",
   "setIdentifiers": [
     "DYN106",
+    "EVO182",
   ],
   "sets": [
+    "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "DYN106",
+  "specialImage": "EVO182",
   "subtypes": [
     "Attack",
   ],
@@ -78840,9 +78928,9 @@ exports[`Check for unintentional updates Jump Start (jump-start-red) vs snapshot
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "DYN104",
+  "defaultImage": "EVO180",
   "defense": 3,
-  "functionalText": "If you control a Hyper Driver, Jump Start costs {r} less to play.
+  "functionalText": "If you control a Hyper Driver, this costs {r} less to play.
 
 **Boost**",
   "keywords": [
@@ -78852,6 +78940,11 @@ exports[`Check for unintentional updates Jump Start (jump-start-red) vs snapshot
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "identifier": "EVO180",
+      "image": "EVO180",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "DYN104",
       "image": "DYN104",
@@ -78870,11 +78963,13 @@ exports[`Check for unintentional updates Jump Start (jump-start-red) vs snapshot
   "rarity": "Common",
   "setIdentifiers": [
     "DYN104",
+    "EVO180",
   ],
   "sets": [
+    "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "DYN104",
+  "specialImage": "EVO180",
   "subtypes": [
     "Attack",
   ],
@@ -78895,9 +78990,9 @@ exports[`Check for unintentional updates Jump Start (jump-start-yellow) vs snaps
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "DYN105",
+  "defaultImage": "EVO181",
   "defense": 3,
-  "functionalText": "If you control a Hyper Driver, Jump Start costs {r} less to play.
+  "functionalText": "If you control a Hyper Driver, this costs {r} less to play.
 
 **Boost**",
   "keywords": [
@@ -78907,6 +79002,11 @@ exports[`Check for unintentional updates Jump Start (jump-start-yellow) vs snaps
   "pitch": 2,
   "power": 4,
   "printings": [
+    {
+      "identifier": "EVO181",
+      "image": "EVO181",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "DYN105",
       "image": "DYN105",
@@ -78925,11 +79025,13 @@ exports[`Check for unintentional updates Jump Start (jump-start-yellow) vs snaps
   "rarity": "Common",
   "setIdentifiers": [
     "DYN105",
+    "EVO181",
   ],
   "sets": [
+    "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "DYN105",
+  "specialImage": "EVO181",
   "subtypes": [
     "Attack",
   ],
@@ -83277,9 +83379,9 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
     "Mechanologist",
   ],
   "cost": 4,
-  "defaultImage": "TCC023",
+  "defaultImage": "EVO066",
   "defense": 3,
-  "functionalText": "**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.",
+  "functionalText": "**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.",
   "keywords": [
     "Evo Upgrade",
   ],
@@ -83287,6 +83389,11 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
   "pitch": 3,
   "power": 4,
   "printings": [
+    {
+      "identifier": "EVO066",
+      "image": "EVO066",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC023",
       "image": "TCC023",
@@ -83301,12 +83408,14 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO066",
     "TCC023",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC023",
+  "specialImage": "EVO066",
   "subtypes": [
     "Attack",
   ],
@@ -83327,9 +83436,9 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
     "Mechanologist",
   ],
   "cost": 4,
-  "defaultImage": "TCC012",
+  "defaultImage": "EVO064",
   "defense": 3,
-  "functionalText": "**Evo Upgrade** - This costs 1 {r} less to play for each Evo you have equipped.",
+  "functionalText": "**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.",
   "keywords": [
     "Evo Upgrade",
   ],
@@ -83337,6 +83446,11 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
   "pitch": 1,
   "power": 6,
   "printings": [
+    {
+      "identifier": "EVO064",
+      "image": "EVO064",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC012",
       "image": "TCC012",
@@ -83351,12 +83465,14 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
     "Commoner",
   ],
   "setIdentifiers": [
+    "EVO064",
     "TCC012",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC012",
+  "specialImage": "EVO064",
   "subtypes": [
     "Attack",
   ],
@@ -94956,11 +95072,11 @@ exports[`Check for unintentional updates Over Loop (over-loop-blue) vs snapshot 
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "ARC022",
+  "defaultImage": "EVO221",
   "defense": 3,
-  "functionalText": "When this hits, put it on the bottom of its owner's deck.
+  "functionalText": "**Boost**
 
-**Boost**",
+When this hits, put it on the bottom of its owner's deck.",
   "keywords": [
     "Boost",
   ],
@@ -94968,6 +95084,11 @@ exports[`Check for unintentional updates Over Loop (over-loop-blue) vs snapshot 
   "pitch": 3,
   "power": 3,
   "printings": [
+    {
+      "identifier": "EVO221",
+      "image": "EVO221",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "1HP207",
       "image": "1HP207.width-450",
@@ -95016,10 +95137,12 @@ exports[`Check for unintentional updates Over Loop (over-loop-blue) vs snapshot 
   "setIdentifiers": [
     "1HP207",
     "ARC022",
+    "EVO221",
     "LGS034",
   ],
   "sets": [
     "Arcane Rising",
+    "Bright Lights",
     "History Pack 1",
     "Promos",
   ],
@@ -95044,7 +95167,7 @@ exports[`Check for unintentional updates Over Loop (over-loop-red) vs snapshot 1
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "ARC020",
+  "defaultImage": "EVO219",
   "defense": 3,
   "functionalText": "**Boost**
 
@@ -95056,6 +95179,11 @@ When this hits, put it on the bottom of its owner's deck.",
   "pitch": 1,
   "power": 5,
   "printings": [
+    {
+      "identifier": "EVO219",
+      "image": "EVO219",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "TCC014",
       "image": "TCC014",
@@ -95115,12 +95243,14 @@ When this hits, put it on the bottom of its owner's deck.",
   "setIdentifiers": [
     "1HP205",
     "ARC020",
+    "EVO219",
     "LGS013",
     "LGS032",
     "TCC014",
   ],
   "sets": [
     "Arcane Rising",
+    "Bright Lights",
     "History Pack 1",
     "Promos",
     "Round the Table",
@@ -95146,11 +95276,11 @@ exports[`Check for unintentional updates Over Loop (over-loop-yellow) vs snapsho
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "ARC021",
+  "defaultImage": "EVO220",
   "defense": 3,
-  "functionalText": "When this hits, put it on the bottom of its owner's deck.
+  "functionalText": "**Boost**
 
-**Boost**",
+When this hits, put it on the bottom of its owner's deck.",
   "keywords": [
     "Boost",
   ],
@@ -95158,6 +95288,11 @@ exports[`Check for unintentional updates Over Loop (over-loop-yellow) vs snapsho
   "pitch": 2,
   "power": 4,
   "printings": [
+    {
+      "identifier": "EVO220",
+      "image": "EVO220",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "1HP206",
       "image": "1HP206.width-450",
@@ -95206,10 +95341,12 @@ exports[`Check for unintentional updates Over Loop (over-loop-yellow) vs snapsho
   "setIdentifiers": [
     "1HP206",
     "ARC021",
+    "EVO220",
     "LGS033",
   ],
   "sets": [
     "Arcane Rising",
+    "Bright Lights",
     "History Pack 1",
     "Promos",
   ],
@@ -150869,7 +151006,7 @@ exports[`Check for unintentional updates Teklovossen, the Mechropotent (teklovos
   ],
   "defaultImage": "EVO010_BACK_V2",
   "defense": 6,
-  "functionalText": "**Action** - {r}{r}{r}, banish 2 cards from your soul: Attack
+  "functionalText": "**Action** - {r}{r}{r}, banish 2 cards from your soul: **Attack**
 
 Whenever this attacks a hero, they discard a card.
 
@@ -150889,6 +151026,7 @@ This counts as having 4 Evos equipped.
   "power": 6,
   "printings": [
     {
+      "foiling": "Cold",
       "identifier": "EVO010",
       "image": "EVO010_BACK_V2",
       "set": "Bright Lights",
@@ -156877,7 +157015,7 @@ exports[`Check for unintentional updates Under Loop (under-loop-red) vs snapshot
     "Mechanologist",
   ],
   "cost": 1,
-  "defaultImage": "TCC016",
+  "defaultImage": "EVO216",
   "defense": 3,
   "functionalText": "**Boost**
 
@@ -156890,6 +157028,11 @@ When this hits, put it on the bottom of its owner's deck.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO216",
+      "image": "EVO216",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC016",
       "image": "TCC016",
       "set": "Round the Table",
@@ -156900,12 +157043,14 @@ When this hits, put it on the bottom of its owner's deck.",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "EVO216",
     "TCC016",
   ],
   "sets": [
+    "Bright Lights",
     "Round the Table",
   ],
-  "specialImage": "TCC016",
+  "specialImage": "EVO216",
   "subtypes": [
     "Attack",
   ],
