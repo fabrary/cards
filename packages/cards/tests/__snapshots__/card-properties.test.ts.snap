@@ -8197,6 +8197,9 @@ exports[`Check for unintentional updates Banneret of Protection (banneret-of-pro
     "Promo",
   ],
   "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "DTD050",
     "FAB163",
@@ -8263,6 +8266,9 @@ exports[`Check for unintentional updates Banneret of Resilience (banneret-of-res
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "DTD054",
     "LGS179",
@@ -8329,6 +8335,9 @@ exports[`Check for unintentional updates Banneret of Salvation (banneret-of-salv
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "DTD055",
     "LGS180",
@@ -8395,6 +8404,9 @@ exports[`Check for unintentional updates Banneret of Vigor (banneret-of-vigor-ye
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "DTD056",
     "LGS181",
@@ -50351,11 +50363,6 @@ Your Teklo Blaster costs {r} less to activate for each opposing hero.
   "pitch": 3,
   "printings": [
     {
-      "identifier": "EVO039",
-      "image": "EVO039",
-      "set": "Bright Lights",
-    },
-    {
       "foiling": "Cold",
       "identifier": "EVO039",
       "image": "EVO039",
@@ -50371,6 +50378,9 @@ Your Teklo Blaster costs {r} less to activate for each opposing hero.
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO039",
     "TCC008",
@@ -50595,11 +50605,6 @@ Your Teklo Blaster attacks get **go again**.
   "pitch": 3,
   "printings": [
     {
-      "identifier": "EVO041",
-      "image": "EVO041",
-      "set": "Bright Lights",
-    },
-    {
       "foiling": "Cold",
       "identifier": "EVO041",
       "image": "EVO041",
@@ -50615,6 +50620,9 @@ Your Teklo Blaster attacks get **go again**.
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO041",
     "TCC010",
@@ -50662,11 +50670,6 @@ Your Teklo Blaster gets +1{p} for each opposing hero.
   "pitch": 3,
   "printings": [
     {
-      "identifier": "EVO040",
-      "image": "EVO040",
-      "set": "Bright Lights",
-    },
-    {
       "foiling": "Cold",
       "identifier": "EVO040",
       "image": "EVO040",
@@ -50682,6 +50685,9 @@ Your Teklo Blaster gets +1{p} for each opposing hero.
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO040",
     "TCC009",
@@ -51258,11 +51264,6 @@ Your Teklo Blaster attacks can target any opposing hero.
   "pitch": 3,
   "printings": [
     {
-      "identifier": "EVO038",
-      "image": "EVO038",
-      "set": "Bright Lights",
-    },
-    {
       "foiling": "Cold",
       "identifier": "EVO038",
       "image": "EVO038",
@@ -51278,6 +51279,9 @@ Your Teklo Blaster attacks can target any opposing hero.
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "EVO038",
     "TCC007",

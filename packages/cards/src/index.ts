@@ -1935,12 +1935,6 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
     defaultImage: "EVO038",
     name: "Evo Tekloscope",
     printings: [{
-      
-      identifier: "EVO038",
-      image: "EVO038",
-      set: Release.BrightLights,
-      
-    },{
       foiling: Foiling.C,
       identifier: "EVO038",
       image: "EVO038",
@@ -1978,7 +1972,7 @@ Your Teklo Blaster attacks can target any opposing hero.
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -1993,12 +1987,6 @@ Your Teklo Blaster attacks can target any opposing hero.
     defaultImage: "EVO039",
     name: "Evo Energy Matrix",
     printings: [{
-      
-      identifier: "EVO039",
-      image: "EVO039",
-      set: Release.BrightLights,
-      
-    },{
       foiling: Foiling.C,
       identifier: "EVO039",
       image: "EVO039",
@@ -2036,7 +2024,7 @@ Your Teklo Blaster costs {r} less to activate for each opposing hero.
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -2051,12 +2039,6 @@ Your Teklo Blaster costs {r} less to activate for each opposing hero.
     defaultImage: "EVO040",
     name: "Evo Scatter Shot",
     printings: [{
-      
-      identifier: "EVO040",
-      image: "EVO040",
-      set: Release.BrightLights,
-      
-    },{
       foiling: Foiling.C,
       identifier: "EVO040",
       image: "EVO040",
@@ -2094,7 +2076,7 @@ Your Teklo Blaster gets +1{p} for each opposing hero.
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -2109,12 +2091,6 @@ Your Teklo Blaster gets +1{p} for each opposing hero.
     defaultImage: "EVO041",
     name: "Evo Rapid Fire",
     printings: [{
-      
-      identifier: "EVO041",
-      image: "EVO041",
-      set: Release.BrightLights,
-      
-    },{
       foiling: Foiling.C,
       identifier: "EVO041",
       image: "EVO041",
@@ -2152,7 +2128,7 @@ Your Teklo Blaster attacks get **go again**.
     
     pitch: 3,
     
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -23283,7 +23259,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 2,
     power: 4,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -23337,7 +23313,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 2,
     power: 3,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -23391,7 +23367,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 2,
     power: 3,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -23445,7 +23421,7 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     pitch: 2,
     power: 3,
-    
+    restrictedFormats: [Format.Commoner],
     
     
     
