@@ -87872,13 +87872,18 @@ exports[`Check for unintentional updates Maximum Velocity (maximum-velocity-red)
     "Mechanologist",
   ],
   "cost": 2,
-  "defaultImage": "ARC008",
+  "defaultImage": "EVO139",
   "defense": 3,
-  "functionalText": "Play Maximum Velocity only if you have **boosted** 3 or more times this turn.",
+  "functionalText": "Play this only if you've **boosted** 3 or more times this turn.",
   "name": "Maximum Velocity",
   "pitch": 1,
   "power": 10,
   "printings": [
+    {
+      "identifier": "EVO139",
+      "image": "EVO139",
+      "set": "Bright Lights",
+    },
     {
       "edition": "First",
       "identifier": "ARC008",
@@ -87907,17 +87912,20 @@ exports[`Check for unintentional updates Maximum Velocity (maximum-velocity-red)
     },
   ],
   "rarities": [
+    "Majestic",
     "Super Rare",
   ],
-  "rarity": "Super Rare",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
     "ARC008",
+    "EVO139",
   ],
   "sets": [
     "Arcane Rising",
+    "Bright Lights",
   ],
   "specialImage": "ARC008",
   "subtypes": [
@@ -133744,11 +133752,11 @@ exports[`Check for unintentional updates Singularity (singularity-red) vs snapsh
     "Mechanologist",
   ],
   "cost": 6,
-  "defaultImage": "EVO010_V2",
+  "defaultImage": "EVO010",
   "defense": 3,
   "functionalText": "**Legendary Teklovossen Specialization**
 
-**Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]",
+**Transform** your hero, your weapon, and 4 Evos you have equipped into Teklovossen, the Mechropotent. It enters the arena with {h} equal to the hero it transformed from.",
   "keywords": [
     "Legendary",
     "Specialization",
@@ -133759,6 +133767,11 @@ exports[`Check for unintentional updates Singularity (singularity-red) vs snapsh
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO010",
+      "image": "EVO010",
+      "set": "Bright Lights",
+    },
+    {
       "foiling": "Cold",
       "identifier": "EVO010",
       "image": "EVO010_V2",
@@ -133766,6 +133779,7 @@ exports[`Check for unintentional updates Singularity (singularity-red) vs snapsh
     },
   ],
   "rarities": [
+    "Legendary",
     "Marvel",
   ],
   "rarity": "Marvel",
@@ -151833,9 +151847,9 @@ exports[`Check for unintentional updates Teklo Foundry Heart (teklo-foundry-hear
   "classes": [
     "Mechanologist",
   ],
-  "defaultImage": "ARC004",
+  "defaultImage": "EVO012",
   "defense": 2,
-  "functionalText": "**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you have **boosted** this turn. **Go again**
+  "functionalText": "**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you've **boosted** this turn. **Go again**
 
 **Battleworn**",
   "keywords": [
@@ -151844,6 +151858,11 @@ exports[`Check for unintentional updates Teklo Foundry Heart (teklo-foundry-hear
   ],
   "name": "Teklo Foundry Heart",
   "printings": [
+    {
+      "identifier": "EVO012",
+      "image": "EVO012",
+      "set": "Bright Lights",
+    },
     {
       "identifier": "1HP185",
       "image": "1HP185.width-450",
@@ -151881,10 +151900,12 @@ exports[`Check for unintentional updates Teklo Foundry Heart (teklo-foundry-hear
   "setIdentifiers": [
     "1HP185",
     "ARC004",
+    "EVO012",
     "FAB008",
   ],
   "sets": [
     "Arcane Rising",
+    "Bright Lights",
     "History Pack 1",
     "Promos",
   ],

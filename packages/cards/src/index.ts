@@ -580,16 +580,22 @@ When this hits a hero, put a steam counter on an item you control with **crank**
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "singularity-red",
     classes: [Class.Mechanologist],
-    defaultImage: "EVO010_V2",
+    defaultImage: "EVO010",
     name: "Singularity",
     printings: [{
+      
+      identifier: "EVO010",
+      image: "EVO010",
+      set: Release.BrightLights,
+      
+    },{
       foiling: Foiling.C,
       identifier: "EVO010",
       image: "EVO010_V2",
       set: Release.BrightLights,
       
     },],
-    rarities: [Rarity.Marvel],
+    rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Marvel,
     setIdentifiers: ["EVO010"],
     sets: [Release.BrightLights],
@@ -602,7 +608,7 @@ When this hits a hero, put a steam counter on an item you control with **crank**
     defense: 3,
     functionalText: `**Legendary Teklovossen Specialization**
 
-**Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]`,
+**Transform** your hero, your weapon, and 4 Evos you have equipped into Teklovossen, the Mechropotent. It enters the arena with {h} equal to the hero it transformed from.`,
     
     
     
@@ -716,6 +722,74 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
     
     
     keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Pavel Chuvin"],
+    cardIdentifier: "teklo-foundry-heart",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO012",
+    name: "Teklo Foundry Heart",
+    printings: [{
+      
+      identifier: "EVO012",
+      image: "EVO012",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "1HP185",
+      image: "1HP185.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "ARC004",
+      image: "ARC004",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC004",
+      image: "U-ARC004",
+      set: Release.ArcaneRising,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB008",
+      image: "FAB008",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Promo],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["1HP185","ARC004","EVO012","FAB008"],
+    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos],
+    specialImage: "ARC004",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Chest",
+
+    
+    defense: 2,
+    functionalText: `**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you've **boosted** this turn. **Go again**
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
     
@@ -6541,6 +6615,72 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     
     
   },{
+    artists: ["Nikolai Maslakov"],
+    cardIdentifier: "maximum-velocity-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO139",
+    name: "Maximum Velocity",
+    printings: [{
+      
+      identifier: "EVO139",
+      image: "EVO139",
+      set: Release.BrightLights,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC008",
+      image: "ARC008",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC008",
+      image: "ARC008",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC008",
+      image: "U-ARC008",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC008",
+      image: "U-ARC008",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["ARC008","EVO139"],
+    sets: [Release.ArcaneRising,Release.BrightLights],
+    specialImage: "ARC008",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `Play this only if you've **boosted** 3 or more times this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 10,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "moonshot-yellow",
     classes: [Class.Mechanologist],
@@ -11304,6 +11444,52 @@ At the start of your turn, destroy this.`,
     
     
     
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "phantom-tidemaw-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "EVO244",
+    name: "Phantom Tidemaw",
+    printings: [{
+      
+      identifier: "EVO244",
+      image: "EVO244",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO244"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO244",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Illusionist Instant - Aura",
+
+    cost: 0,
+    
+    functionalText: `Whenever an Illusionist card you control is destroyed, put a +1{p} counter on this.
+
+**Phantasm**
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm,Keyword.Ward],
     
     
     pitch: 3,
@@ -34071,7 +34257,8 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "breakneck-battery-red",
     classes: [Class.Brute],
@@ -34281,8 +34468,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Leony Tobing"],
     cardIdentifier: "breeze-rider-boots",
     classes: [Class.Ninja],
@@ -72889,7 +73075,8 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "imperial-warhorn-red",
     classes: [Class.Generic],
@@ -72995,8 +73182,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Bramasta Aji","Phu Thieu"],
     cardIdentifier: "in-the-swing-red",
     classes: [Class.Warrior],
@@ -83318,66 +83504,6 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     
     pitch: 3,
     
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolai Maslakov"],
-    cardIdentifier: "maximum-velocity-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC008",
-    name: "Maximum Velocity",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "ARC008",
-      image: "ARC008",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC008",
-      image: "ARC008",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC008",
-      image: "U-ARC008",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC008",
-      image: "U-ARC008",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.SuperRare],
-    rarity: Rarity.SuperRare,
-    setIdentifiers: ["ARC008"],
-    sets: [Release.ArcaneRising],
-    specialImage: "ARC008",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `Play Maximum Velocity only if you have **boosted** 3 or more times this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 10,
     restrictedFormats: [Format.Commoner],
     
     
@@ -111332,7 +111458,8 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Lizhe Liang"],
     cardIdentifier: "sash-of-sandikai",
     classes: [Class.NotClassed],
@@ -111392,8 +111519,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     talents: [Talent.Draconic],
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Yugin Maffioli"],
     cardIdentifier: "savage-beatdown-red",
     classes: [Class.Brute],
@@ -134227,68 +134353,6 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     
     
     specializations: [Hero.Dash],
-    
-    
-  },{
-    artists: ["Pavel Chuvin"],
-    cardIdentifier: "teklo-foundry-heart",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC004",
-    name: "Teklo Foundry Heart",
-    printings: [{
-      
-      identifier: "1HP185",
-      image: "1HP185.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.C,
-      identifier: "ARC004",
-      image: "ARC004",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC004",
-      image: "U-ARC004",
-      set: Release.ArcaneRising,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "FAB008",
-      image: "FAB008",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Legendary,Rarity.Promo],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["1HP185","ARC004","FAB008"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
-    specialImage: "ARC004",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Chest",
-
-    
-    defense: 2,
-    functionalText: `**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you have **boosted** this turn. **Go again**
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.GoAgain],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
     
     
   },{

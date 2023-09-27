@@ -37,7 +37,7 @@ EVO008,EVO,Teklovossen,,,,,20,4,"Mechanologist, Hero, Young",,Once per Turn Inst
 * 4 or more, this gets +1{p}.",Mechanologist Weapon - Gun (2H),,,,,P,C,,Joseph Qiu,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS190.width-10000.png,T,,,Joseph Qiu,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO009.png
 EVO010,EVO,Singularity,1,6,,3,,,"Mechanologist, Action, Construct","Transform, Legendary, Teklovossen Specialization",,,,,,"**Legendary Teklovossen Specialization**
 
-**Transform** your hero, your weapon, and 4 Evos you have equiped into [REDACTED]",Mechanologist Action - Construct,,,,No,V,C,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png,,,,,,
+**Transform** your hero, your weapon, and 4 Evos you have equipped into Teklovossen, the Mechropotent. It enters the arena with {h} equal to the hero it transformed from.",Mechanologist Action - Construct,,,,No,V,C,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010_V2.png,L,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO010.png
 EVO010,EVO,"Teklovossen, the Mechropotent",,,6,6,*,3,"Shadow, Mechanologist, Demi-Hero, Equipment, Evo","Battleworn, Go again",Action,Attack,,,,"**Action** - {r}{r}{r}, banish 2 cards from your soul: **Attack**
 
 Whenever this attacks a hero, they discard a card.
@@ -52,7 +52,9 @@ EVO011,EVO,Hyper-X3,,,,1,,,"Mechanologist, Equipment, Head",Battleworn,,,,,Boost
 Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
 
 **Battleworn**",Mechanologist Equipment - Head,,,,No,L,C,EA,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011_V2.png,L,R,,soyameii,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO011.png
-EVO012,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO012,EVO,Teklo Foundry Heart,,,,2,,,"Mechanologist, Equipment, Chest","Battleworn, Go again",Once per Turn Action,,,,Boost,"**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you've **boosted** this turn. **Go again**
+
+**Battleworn**",Mechanologist Equipment - Chest,,,,No,L,,,Pavel Chuvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO012.png,,,,,,
 EVO013,EVO,Adaptive Plating,,,,1,,,"Mechanologist, Equipment","Modular, Galvanize, Blade Break",Action,,,,,"**Modular**
 
 **Action** - 0: Equip this to another equipment zone.
@@ -463,7 +465,7 @@ When this attacks, if it scrapped a card, gain {r}.",Mechanologist Action - Atta
 EVO138,EVO,Heist,1,2,5,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
 
 When this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.",Mechanologist Action - Attack,,,,No,M,,,Marco González,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO138.png,,,,,,
-EVO139,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO139,EVO,Maximum Velocity,1,2,10,3,,,"Mechanologist, Action, Attack",,,,,,Boost,Play this only if you've **boosted** 3 or more times this turn.,Mechanologist Action - Attack,,,,No,M,,,Nikolai Maslakov,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO139.png,,,,,,
 EVO140,EVO,Moonshot,2,XX,3,3,,,"Mechanologist, Action, Attack",Overpower,,,,,Boost,"Play this only if you've **boosted** this turn. As an additional cost to play this, destroy X Hyper Drivers you control.
 
 When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
@@ -754,7 +756,11 @@ If X is 6 or greater, target hero discards 3 random cards.",Runeblade Action,,,,
 EVO243,EVO,Contest the Mindfield,3,2,,2,,,"Wizard, Action, Aura",,,,,,,"All heroes get -1{i}.
 
 At the start of your turn, destroy this.",Wizard Action - Aura,,,,No,M,,,Olga Tereshenko,,/EVO243.webp,,,,,,
-EVO244,EVO,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+EVO244,EVO,Phantom Tidemaw,3,0,,,,,"Illusionist, Instant, Aura","Phantasm, Ward 1",,,,,,"Whenever an Illusionist card you control is destroyed, put a +1{p} counter on this.
+
+**Phantasm**
+
+**Ward 1**",Illusionist Instant - Aura,,,,No,M,,,Daria Khlebnikova,,https://storage.googleapis.com/fabmaster/cardfaces/2023-EVO/EN/EVO244.png,,,,,,
 EVO245,EVO,Tome of Imperial Flame,1,0,,,,,"Draconic, Action",Go again,,,,,,"Draw a card. If you are Royal, instead draw 2 cards.
 
 You may pitch 2 red cards. If you don't, banish your hand.
