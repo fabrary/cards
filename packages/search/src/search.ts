@@ -1,5 +1,6 @@
 import {
   Card,
+  DoubleSidedCard,
   Foiling,
   Format,
   Hero,
@@ -21,17 +22,17 @@ import {
 import { memes } from "./memes";
 import { clashSpecializationOverrides } from ".";
 
-export interface SearchCard extends Card {
+export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
 }
 
 class Search {
-  private cards: Card[];
+  private cards: DoubleSidedCard[];
   private fuse: Fuse<Card>;
 
-  constructor(cards: Card[]) {
+  constructor(cards: DoubleSidedCard[]) {
     const searchOptions = {
-      getFn: (obj: Card, path) => {
+      getFn: (obj: DoubleSidedCard, path) => {
         // Use the default `get` function
         const value = Fuse.config.getFn(obj, path);
         if (!value) {
@@ -71,7 +72,7 @@ class Search {
     };
     searchResults: SearchCard[];
   } => {
-    let searchResults: Card[];
+    let searchResults: DoubleSidedCard[];
 
     const { appliedFilters, attributes, keywords, specialConditions } =
       getKeywordsAndAppliedFiltersFromText(text, this.cards);

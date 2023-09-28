@@ -36,6 +36,10 @@ export interface Card {
   young?: boolean;
 }
 
+export interface DoubleSidedCard extends Card {
+  oppositeSideCard?: Card;
+}
+
 export interface Printing {
   edition?: ReleaseEdition;
   foiling?: Foiling;
