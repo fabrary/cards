@@ -1,4 +1,4 @@
-import { Card } from "@flesh-and-blood/types";
+import { Card, Hero } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants";
 
 const nameOverrides: { [key: string]: string } = {
@@ -93,13 +93,18 @@ export const getRelatedCards = (
 
 export const getTokensReferencedByCards = (
   cards: Card[],
-  tokens: Card[]
+  tokens: Card[],
+  hero?: Hero
 ): Card[] => {
   const referencedTokens: Set<Card> = new Set<Card>();
 
   for (const card of cards) {
     const { references } = getRelatedCards(card, tokens);
-    for (const token of references) {
+    for (const token of references.filter((token) => {
+      const isHyperDriver = token.name === "Hyper Driver";
+      const isMaxx = hero === Hero.Maxx;
+      return !isHyperDriver || isMaxx;
+    })) {
       referencedTokens.add(token);
     }
   }

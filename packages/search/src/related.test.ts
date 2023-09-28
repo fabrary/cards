@@ -1,4 +1,4 @@
-import { Card, Type } from "@flesh-and-blood/types";
+import { Card, Hero, Type } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import { getRelatedCards, getTokensReferencedByCards } from "./related";
 
@@ -85,6 +85,34 @@ describe("Related cards", () => {
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
         allTokens
+      );
+
+      expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
+        (expectedTokens as unknown as string[]).sort()
+      );
+    }
+  );
+
+  const heroSpecificTokens: string[][][] = [
+    [["Jump Start"], [Hero.Maxx], ["Hyper Driver"]],
+    [["Jump Start"], [Hero.Dash], []],
+    [["Jump Start"], [], []],
+  ];
+
+  it.each(heroSpecificTokens)(
+    "Gets referenced tokens when there are hero limits",
+    (referencingCardNames, heroes, expectedTokens) => {
+      const referencingCards = cards.filter(({ name }) =>
+        (referencingCardNames as unknown as string[]).includes(name)
+      );
+      const allTokens = cards.filter(({ types }) => types.includes(Type.Token));
+
+      const hero = heroes.length > 0 ? (heroes[0] as Hero) : undefined;
+
+      const referencedTokens = getTokensReferencedByCards(
+        referencingCards,
+        allTokens,
+        hero
       );
 
       expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
