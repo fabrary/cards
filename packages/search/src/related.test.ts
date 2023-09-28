@@ -1,6 +1,6 @@
-import { Card } from "@flesh-and-blood/types";
+import { Card, Type } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import { getRelatedCards } from "./related";
+import { getRelatedCards, getTokensReferencedByCards } from "./related";
 
 const toCardIdentifier = ({ cardIdentifier }: Card) => cardIdentifier;
 
@@ -41,6 +41,55 @@ describe("Related cards", () => {
       expect(otherPitches.length).toEqual(otherPitchesCount);
       expect(referencedBy.length).toEqual(referencedByCount);
       expect(references.length).toEqual(referencesCount);
+    }
+  );
+
+  const tokens: string[][][] = [
+    [["Swing Big", "Civic Steps"], ["Quicken"]],
+    [
+      ["Arctic Incarceration", "Civic Duty"],
+      ["Frostbite", "Vigor"],
+    ],
+    [
+      ["Jinglewood, Smash Hit", "Spoils of War"],
+      ["Copper", "Might", "Quicken", "Vigor"],
+    ],
+    [
+      ["Tales of Adventure"],
+      [
+        "Aether Ashwing",
+        "Embodiment of Earth",
+        "Embodiment of Lightning",
+        "Ponder",
+        "Quicken",
+        "Runechant",
+        "Seismic Surge",
+        "Soul Shackle",
+        "Spectral Shield",
+        "Zen State",
+        "Copper",
+        "Silver",
+        "Gold",
+      ],
+    ],
+  ];
+
+  it.each(tokens)(
+    "Gets referenced tokens",
+    (referencingCardNames, expectedTokens) => {
+      const referencingCards = cards.filter(({ name }) =>
+        (referencingCardNames as unknown as string[]).includes(name)
+      );
+      const allTokens = cards.filter(({ types }) => types.includes(Type.Token));
+
+      const referencedTokens = getTokensReferencedByCards(
+        referencingCards,
+        allTokens
+      );
+
+      expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
+        (expectedTokens as unknown as string[]).sort()
+      );
     }
   );
 });

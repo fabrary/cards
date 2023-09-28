@@ -90,3 +90,19 @@ export const getRelatedCards = (
 
   return { otherPitches, referencedBy, references };
 };
+
+export const getTokensReferencedByCards = (
+  cards: Card[],
+  tokens: Card[]
+): Card[] => {
+  const referencedTokens: Set<Card> = new Set<Card>();
+
+  for (const card of cards) {
+    const { references } = getRelatedCards(card, tokens);
+    for (const token of references) {
+      referencedTokens.add(token);
+    }
+  }
+
+  return Array.from(referencedTokens);
+};

@@ -99286,6 +99286,59 @@ exports[`Check for unintentional updates Phantasmify (phantasmify-yellow) vs sna
 }
 `;
 
+exports[`Check for unintentional updates Phantom Tidemaw (phantom-tidemaw-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Daria Khlebnikova",
+  ],
+  "cardIdentifier": "phantom-tidemaw-blue",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 0,
+  "defaultImage": "EVO244",
+  "functionalText": "Whenever an Illusionist card you control is destroyed, put a +1{p} counter on this.
+
+**Phantasm**
+
+**Ward 1**",
+  "keywords": [
+    "Phantasm",
+    "Ward",
+  ],
+  "name": "Phantom Tidemaw",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "EVO244",
+      "image": "EVO244",
+      "set": "Bright Lights",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "restrictedFormats": [
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "EVO244",
+  ],
+  "sets": [
+    "Bright Lights",
+  ],
+  "specialImage": "EVO244",
+  "subtypes": [
+    "Aura",
+  ],
+  "typeText": "Illusionist Instant - Aura",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Phoenix Flame (phoenix-flame-red) vs snapshot 1`] = `
 {
   "artists": [
