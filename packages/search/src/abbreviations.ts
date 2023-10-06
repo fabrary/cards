@@ -241,6 +241,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Swing Fist, Think Later",
   },
   {
+    abbreviations: ["Thanos", "Infinity Gauntlet"],
+    card: "Polarity Reversal Script",
+  },
+  {
     abbreviations: ["TAYG"],
     card: "That All You Got?",
   },

@@ -1,6 +1,24 @@
-import { Foiling, Rarity, Release, Treatment } from "@flesh-and-blood/types";
+import {
+  DoubleSidedCard,
+  Foiling,
+  Rarity,
+  Release,
+  Treatment,
+} from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import Search from "./search";
+
+const doubleSidedCards: DoubleSidedCard[] = cards.map((card) => {
+  if (card.oppositeSideCardIdentifier) {
+    const oppositeSideCard = cards.find(
+      ({ cardIdentifier }) => cardIdentifier === card.oppositeSideCardIdentifier
+    );
+    if (oppositeSideCard) {
+      (card as DoubleSidedCard).oppositeSideCard = oppositeSideCard;
+    }
+  }
+  return card;
+});
 
 const exactSearches = [
   // Abbreviations & shorthands
@@ -80,7 +98,7 @@ const exactSearches = [
 ];
 
 describe("Card search", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(doubleSidedCards);
 
   it.each(exactSearches)(
     "Gets %i cards for %s",
@@ -279,7 +297,7 @@ const randomizeCapitalization = (str: string) =>
   );
 
 describe("Sorts results by set when included", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(doubleSidedCards);
 
   it("Outsiders", () => {
     const { searchResults } = cardSearch.search("set:out");
@@ -288,7 +306,7 @@ describe("Sorts results by set when included", () => {
 });
 
 describe("Returns set when included", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(doubleSidedCards);
 
   it("Outsiders", () => {
     const {
@@ -308,7 +326,7 @@ describe("Returns set when included", () => {
 });
 
 describe("Returns foiling when included", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(doubleSidedCards);
 
   it("Rainbow foil", () => {
     const {
@@ -328,7 +346,7 @@ describe("Returns foiling when included", () => {
 });
 
 describe("Returns matching prints when release or foiling included", () => {
-  const cardSearch = new Search(cards);
+  const cardSearch = new Search(doubleSidedCards);
 
   it("Matching printing from foil", () => {
     const { searchResults } = cardSearch.search("foil:g");

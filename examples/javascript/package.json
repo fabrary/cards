@@ -1,0 +1,19 @@
+{
+  "name": "javascript-example",
+  "version": "1.0.0",
+  "description": "Example for using the @flesh-and-blood/cards package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@flesh-and-blood/cards": "^0.0.91"
+  },
+  "devDependencies": {
+    "@flesh-and-blood/types": "^0.0.91",
+    "chalk": "^4.1.2"
+  }
+}

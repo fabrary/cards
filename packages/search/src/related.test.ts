@@ -94,6 +94,7 @@ describe("Related cards", () => {
   );
 
   const heroSpecificTokens: string[][][] = [
+    [["Maxx Nitro"], [Hero.Maxx], ["Hyper Driver"]],
     [["Jump Start"], [Hero.Maxx], ["Hyper Driver"]],
     [["Jump Start"], [Hero.Dash], []],
     [["Jump Start"], [], []],
