@@ -375,13 +375,27 @@ exports[`Check for unintentional updates Adaptive Plating (adaptive-plating) vs 
   "name": "Adaptive Plating",
   "printings": [
     {
+      "foiling": "Cold",
       "identifier": "EVO013",
       "image": "EVO013",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO013",
+      "image": "EVO013",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Gold",
+      "identifier": "FAB169",
+      "image": "FAB169",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
@@ -389,9 +403,11 @@ exports[`Check for unintentional updates Adaptive Plating (adaptive-plating) vs 
   ],
   "setIdentifiers": [
     "EVO013",
+    "FAB169",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO013",
   "subtypes": [],
@@ -2639,6 +2655,12 @@ When this hits a hero, banish the top card of their deck and a defending card.",
       "image": "EVO236",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO236",
+      "image": "EVO236",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -4315,7 +4337,7 @@ exports[`Check for unintentional updates Annihilator Engine (annihilator-engine-
   "cost": 6,
   "defaultImage": "EVO054",
   "defense": 3,
-  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards defending this," 
+  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards defending this,"
 
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
@@ -4328,6 +4350,12 @@ exports[`Check for unintentional updates Annihilator Engine (annihilator-engine-
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO054",
+      "image": "EVO054",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO054",
       "image": "EVO054",
       "set": "Bright Lights",
@@ -4557,6 +4585,13 @@ exports[`Check for unintentional updates Apocalypse Automaton (apocalypse-automa
   "power": 6,
   "printings": [
     {
+      "foiling": "Cold",
+      "identifier": "FAB175",
+      "image": "FAB175",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "TCC011",
       "image": "TCC011",
       "set": "Round the Table",
@@ -4564,18 +4599,21 @@ exports[`Check for unintentional updates Apocalypse Automaton (apocalypse-automa
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
+    "FAB175",
     "TCC011",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
-  "specialImage": "TCC011",
+  "specialImage": "FAB175",
   "subtypes": [
     "Attack",
   ],
@@ -4681,7 +4719,7 @@ exports[`Check for unintentional updates Arakni, Huntsman (arakni-huntsman) vs s
     {
       "foiling": "Gold",
       "identifier": "WIN020",
-      "image": "",
+      "image": "WIN020",
       "set": "Promos",
     },
   ],
@@ -5990,6 +6028,12 @@ Your Mechanologist attack action cards get "When this hits, put it on the bottom
       "image": "EVO098",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO098",
+      "image": "EVO098",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -6773,7 +6817,7 @@ exports[`Check for unintentional updates Azalea, Ace in the Hole (azalea-ace-in-
     {
       "foiling": "Gold",
       "identifier": "WIN006",
-      "image": "",
+      "image": "WIN006",
       "set": "Promos",
     },
   ],
@@ -7438,6 +7482,12 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       "image": "EVO083",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO083",
+      "image": "EVO083",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -7488,6 +7538,12 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       "image": "EVO081",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO081",
+      "image": "EVO081",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -7534,6 +7590,12 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO082",
+      "image": "EVO082",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO082",
       "image": "EVO082",
       "set": "Bright Lights",
@@ -10341,16 +10403,25 @@ If a yellow card has been put into your hero's soul this turn, this gets +5{p}."
       "image": "DTD046",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "LGS168",
+      "image": "LGS168",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "DTD046",
+    "LGS168",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
   "specialImage": "DTD046",
   "subtypes": [
@@ -11594,6 +11665,12 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
       "image": "EVO179",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO179",
+      "image": "EVO179",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -11639,6 +11716,12 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO177",
+      "image": "EVO177",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO177",
       "image": "EVO177",
       "set": "Bright Lights",
@@ -11692,6 +11775,12 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
       "image": "EVO178",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO178",
+      "image": "EVO178",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -11732,6 +11821,12 @@ exports[`Check for unintentional updates Big Shot (big-shot-red) vs snapshot 1`]
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO153",
+      "image": "EVO153",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO153",
       "image": "EVO153",
       "set": "Bright Lights",
@@ -12524,7 +12619,7 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-red)
   "cost": 1,
   "defaultImage": "TCC083",
   "defense": 2,
-  "functionalText": "When this hits, your next attack this turn gets +1{p}.
+  "functionalText": "When this hits, your next attack this turn gains +1{p}.
 
 **Go again**",
   "keywords": [
@@ -12573,7 +12668,7 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
   "cost": 1,
   "defaultImage": "CRU072",
   "defense": 2,
-  "functionalText": "When this hits, your next attack this turn gets +1{p}.
+  "functionalText": "When this hits, your next attack this turn gains +1{p}.
 
 **Go again**",
   "keywords": [
@@ -12583,11 +12678,6 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
   "pitch": 2,
   "power": 3,
   "printings": [
-    {
-      "identifier": "TCC092",
-      "image": "TCC092",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP134",
       "image": "1HP134.width-450",
@@ -12623,6 +12713,11 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
       "identifier": "IRA005",
       "image": "IRA005-P_YAgf1In.width-450",
       "set": "Ira Welcome Deck",
+    },
+    {
+      "identifier": "TCC092",
+      "image": "TCC092",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -12955,7 +13050,7 @@ exports[`Check for unintentional updates Blacktek Whisperers (blacktek-whisperer
   "subtypes": [
     "Legs",
   ],
-  "typeText": "Assassin Equipment - Leg",
+  "typeText": "Assassin Equipment - Legs",
   "types": [
     "Equipment",
   ],
@@ -14920,15 +15015,10 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-blue) vs
   "cost": 1,
   "defaultImage": "DYN055",
   "defense": 3,
-  "functionalText": "At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +1{p} and you may play it this turn.",
+  "functionalText": "At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gains +1{p} and you may play it this turn.",
   "name": "Blessing of Qi",
   "pitch": 3,
   "printings": [
-    {
-      "identifier": "TCC100",
-      "image": "TCC100",
-      "set": "Round the Table",
-    },
     {
       "identifier": "DYN055",
       "image": "DYN055",
@@ -14939,6 +15029,11 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-blue) vs
       "identifier": "DYN055",
       "image": "DYN055",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "TCC100",
+      "image": "TCC100",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -14956,7 +15051,7 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-blue) vs
     "Dynasty",
     "Round the Table",
   ],
-  "specialImage": "TCC100",
+  "specialImage": "DYN055",
   "subtypes": [
     "Aura",
     "Non-Attack",
@@ -14980,15 +15075,10 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-red) vs 
   "cost": 1,
   "defaultImage": "DYN053",
   "defense": 3,
-  "functionalText": "At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +3{p} and you may play it this turn.",
+  "functionalText": "At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gains +3{p} and you may play it this turn.",
   "name": "Blessing of Qi",
   "pitch": 1,
   "printings": [
-    {
-      "identifier": "TCC091",
-      "image": "TCC091",
-      "set": "Round the Table",
-    },
     {
       "identifier": "DYN053",
       "image": "DYN053",
@@ -14999,6 +15089,11 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-red) vs 
       "identifier": "DYN053",
       "image": "DYN053",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "TCC091",
+      "image": "TCC091",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -15016,7 +15111,7 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-red) vs 
     "Dynasty",
     "Round the Table",
   ],
-  "specialImage": "TCC091",
+  "specialImage": "DYN053",
   "subtypes": [
     "Aura",
     "Non-Attack",
@@ -15040,7 +15135,7 @@ exports[`Check for unintentional updates Blessing of Qi (blessing-of-qi-yellow) 
   "cost": 1,
   "defaultImage": "DYN054",
   "defense": 3,
-  "functionalText": "At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +2{p} and you may play it this turn.",
+  "functionalText": "At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gains +2{p} and you may play it this turn.",
   "name": "Blessing of Qi",
   "pitch": 2,
   "printings": [
@@ -16685,7 +16780,6 @@ Your Brute and Shadow attacks get +X{p} this turn where X is the number of cards
 
 **Go again**",
   "keywords": [
-    "Blood Debt",
     "Go again",
   ],
   "name": "Blood Dripping Frenzy",
@@ -16803,7 +16897,7 @@ exports[`Check for unintentional updates Blood Scent (blood-scent) vs snapshot 1
   ],
   "defaultImage": "TCC080",
   "defense": 1,
-  "functionalText": "**Instant** - Destroy this: Gain {r}. Activate this only if you've attacked with a Crouching Tiget this turn.
+  "functionalText": "**Instant** - Destroy this: Gain {r}. Activate this only if you've attacked with a Crouching Tiger this turn.
 
 **Battleworn**",
   "keywords": [
@@ -16821,6 +16915,9 @@ exports[`Check for unintentional updates Blood Scent (blood-scent) vs snapshot 1
     "Rare",
   ],
   "rarity": "Rare",
+  "restrictedFormats": [
+    "Commoner",
+  ],
   "setIdentifiers": [
     "TCC080",
   ],
@@ -19111,6 +19208,12 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
       "image": "EVO086",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO086",
+      "image": "EVO086",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -19161,6 +19264,12 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
       "image": "EVO084",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO084",
+      "image": "EVO084",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -19207,6 +19316,12 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO085",
+      "image": "EVO085",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO085",
       "image": "EVO085",
       "set": "Bright Lights",
@@ -20809,7 +20924,7 @@ exports[`Check for unintentional updates Bravo, Showstopper (bravo-showstopper) 
     {
       "foiling": "Gold",
       "identifier": "WIN002",
-      "image": "",
+      "image": "WIN002",
       "set": "Promos",
     },
     {
@@ -20900,14 +21015,14 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       "edition": "First",
       "foiling": "Cold",
       "identifier": "EVR017",
-      "image": "",
+      "image": "EVR017-BACK",
       "set": "Everfest",
       "treatment": "Alternate Art",
     },
     {
       "foiling": "Gold",
       "identifier": "WIN016",
-      "image": "",
+      "image": "WIN016",
       "set": "Promos",
     },
   ],
@@ -20929,7 +21044,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     "Everfest",
     "Promos",
   ],
-  "specialImage": "EVR017.width-450",
+  "specialImage": "EVR017-BACK",
   "subtypes": [],
   "talents": [
     "Earth",
@@ -21240,18 +21355,28 @@ exports[`Check for unintentional updates Break of Dawn (break-of-dawn-blue) vs s
       "image": "DTD102",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS171",
+      "image": "LGS171",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "DTD102",
+    "LGS171",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD102",
+  "specialImage": "LGS171",
   "subtypes": [],
   "talents": [
     "Light",
@@ -21289,18 +21414,28 @@ exports[`Check for unintentional updates Break of Dawn (break-of-dawn-red) vs sn
       "image": "DTD100",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS169",
+      "image": "LGS169",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "DTD100",
+    "LGS169",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD100",
+  "specialImage": "LGS169",
   "subtypes": [],
   "talents": [
     "Light",
@@ -21338,18 +21473,28 @@ exports[`Check for unintentional updates Break of Dawn (break-of-dawn-yellow) vs
       "image": "DTD101",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS170",
+      "image": "LGS170",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "DTD101",
+    "LGS170",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD101",
+  "specialImage": "LGS170",
   "subtypes": [],
   "talents": [
     "Light",
@@ -21855,6 +22000,7 @@ Whenever you **protect** another hero, create a Might token.",
   "name": "Brevant, Civic Protector",
   "printings": [
     {
+      "foiling": "Rainbow",
       "identifier": "TCC027",
       "image": "TCC027",
       "set": "Round the Table",
@@ -22039,7 +22185,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     {
       "foiling": "Gold",
       "identifier": "WIN015",
-      "image": "",
+      "image": "WIN015",
       "set": "Promos",
     },
     {
@@ -22893,6 +23039,12 @@ If you control a Hyper Driver, this gets **overpower**.",
       "image": "EVO149",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO149",
+      "image": "EVO149",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -22946,6 +23098,12 @@ If you control a Hyper Driver, this gets **overpower**.",
       "image": "EVO147",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO147",
+      "image": "EVO147",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -22995,6 +23153,12 @@ If you control a Hyper Driver, this gets **overpower**.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO148",
+      "image": "EVO148",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO148",
       "image": "EVO148",
       "set": "Bright Lights",
@@ -23485,6 +23649,12 @@ exports[`Check for unintentional updates Burn Rubber (burn-rubber-red) vs snapsh
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO154",
+      "image": "EVO154",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO154",
       "image": "EVO154",
       "set": "Bright Lights",
@@ -25659,7 +25829,7 @@ exports[`Check for unintentional updates Chane, Bound by Shadow (chane-bound-by-
     {
       "foiling": "Gold",
       "identifier": "WIN012",
-      "image": "",
+      "image": "WIN012",
       "set": "Promos",
     },
   ],
@@ -26748,7 +26918,7 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-blue) vs snapshot 
   "cost": 4,
   "defaultImage": "CRU037",
   "defense": 3,
-  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, their attack action cards can't gain {p} during their next action phase.",
   "keywords": [
     "Crush",
   ],
@@ -26756,11 +26926,6 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-blue) vs snapshot 
   "pitch": 3,
   "power": 6,
   "printings": [
-    {
-      "identifier": "TCC045",
-      "image": "TCC045",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP072",
       "image": "1HP072.width-450",
@@ -26791,6 +26956,11 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-blue) vs snapshot 
       "identifier": "CRU037",
       "image": "U-CRU037",
       "set": "Crucible of War",
+    },
+    {
+      "identifier": "TCC045",
+      "image": "TCC045",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -26830,7 +27000,7 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-red) vs snapshot 1
   "cost": 4,
   "defaultImage": "CRU035",
   "defense": 3,
-  "functionalText": "**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, their attack action cards can't gain {p} during their next action phase.",
   "keywords": [
     "Crush",
   ],
@@ -26905,7 +27075,7 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-yellow) vs snapsho
   "cost": 4,
   "defaultImage": "CRU036",
   "defense": 3,
-  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, their attack action cards can't gain {p} during their next action phase.",
   "keywords": [
     "Crush",
   ],
@@ -26913,11 +27083,6 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-yellow) vs snapsho
   "pitch": 2,
   "power": 7,
   "printings": [
-    {
-      "identifier": "TCC040",
-      "image": "TCC040",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP071",
       "image": "1HP071.width-450",
@@ -26948,6 +27113,11 @@ exports[`Check for unintentional updates Chokeslam (chokeslam-yellow) vs snapsho
       "identifier": "CRU036",
       "image": "U-CRU036",
       "set": "Crucible of War",
+    },
+    {
+      "identifier": "TCC040",
+      "image": "TCC040",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -28427,11 +28597,6 @@ exports[`Check for unintentional updates Coax a Commotion (coax-a-commotion-red)
   "power": 4,
   "printings": [
     {
-      "identifier": "TCC055",
-      "image": "TCC055",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP359",
       "image": "1HP359.width-450",
       "set": "History Pack 1",
@@ -28461,6 +28626,11 @@ exports[`Check for unintentional updates Coax a Commotion (coax-a-commotion-red)
       "identifier": "CRU180",
       "image": "U-CRU180",
       "set": "Crucible of War",
+    },
+    {
+      "identifier": "TCC055",
+      "image": "TCC055",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -28721,6 +28891,12 @@ exports[`Check for unintentional updates Cognition Field (cognition-field-blue) 
       "image": "EVO119",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO119",
+      "image": "EVO119",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -28767,6 +28943,12 @@ exports[`Check for unintentional updates Cognition Field (cognition-field-red) v
       "image": "EVO117",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO117",
+      "image": "EVO117",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -28809,6 +28991,12 @@ exports[`Check for unintentional updates Cognition Field (cognition-field-yellow
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO118",
+      "image": "EVO118",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO118",
       "image": "EVO118",
       "set": "Bright Lights",
@@ -28927,10 +29115,16 @@ exports[`Check for unintentional updates Cogwerx Base Arms (cogwerx-base-arms) v
   "defaultImage": "EVO016",
   "functionalText": "When this is equipped, put a steam counter on it.
 
-**Once per turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.",
+**Once per Turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.",
   "name": "Cogwerx Base Arms",
   "printings": [
     {
+      "identifier": "EVO016",
+      "image": "EVO016",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO016",
       "image": "EVO016",
       "set": "Bright Lights",
@@ -28970,10 +29164,16 @@ exports[`Check for unintentional updates Cogwerx Base Chest (cogwerx-base-chest)
   "defaultImage": "EVO015",
   "functionalText": "When this is equipped, put a steam counter on it.
 
-**Once per turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.",
+**Once per Turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.",
   "name": "Cogwerx Base Chest",
   "printings": [
     {
+      "identifier": "EVO015",
+      "image": "EVO015",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO015",
       "image": "EVO015",
       "set": "Bright Lights",
@@ -29013,10 +29213,16 @@ exports[`Check for unintentional updates Cogwerx Base Head (cogwerx-base-head) v
   "defaultImage": "EVO014",
   "functionalText": "When this is equipped, put a steam counter on it.
 
-**Once per turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.",
+**Once per Turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.",
   "name": "Cogwerx Base Head",
   "printings": [
     {
+      "identifier": "EVO014",
+      "image": "EVO014",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO014",
       "image": "EVO014",
       "set": "Bright Lights",
@@ -29056,10 +29262,16 @@ exports[`Check for unintentional updates Cogwerx Base Legs (cogwerx-base-legs) v
   "defaultImage": "EVO017",
   "functionalText": "When this is equipped, put a steam counter on it.
 
-**Once per turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.",
+**Once per Turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.",
   "name": "Cogwerx Base Legs",
   "printings": [
     {
+      "identifier": "EVO017",
+      "image": "EVO017",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO017",
       "image": "EVO017",
       "set": "Bright Lights",
@@ -30887,6 +31099,12 @@ At the start of your turn, destroy this.",
       "image": "EVO243",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO243",
+      "image": "EVO243",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -31252,16 +31470,6 @@ exports[`Check for unintentional updates Copper (copper) vs snapshot 1`] = `
   "name": "Copper",
   "printings": [
     {
-      "identifier": "TCC103",
-      "image": "TCC103",
-      "set": "Round the Table",
-    },
-    {
-      "identifier": "TCC108",
-      "image": "TCC108",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP426",
       "image": "1HP426.width-450",
       "set": "History Pack 1",
@@ -31303,6 +31511,16 @@ exports[`Check for unintentional updates Copper (copper) vs snapshot 1`] = `
       "identifier": "FAB055",
       "image": "FAB055",
       "set": "Promos",
+    },
+    {
+      "identifier": "TCC103",
+      "image": "TCC103",
+      "set": "Round the Table",
+    },
+    {
+      "identifier": "TCC108",
+      "image": "TCC108",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -31423,18 +31641,28 @@ exports[`Check for unintentional updates Courage (courage) vs snapshot 1`] = `
       "image": "DTD232",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "FAB153",
+      "image": "FAB153",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "DTD232",
+    "FAB153",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD232",
+  "specialImage": "FAB153",
   "subtypes": [
     "Aura",
   ],
@@ -32181,7 +32409,7 @@ exports[`Check for unintentional updates Cranial Crush (cranial-crush-blue) vs s
   "cost": 6,
   "defaultImage": "WTR045",
   "defense": 3,
-  "functionalText": "**Crush** - If this  deals 4 or more damage to a hero, they can't draw cards during their next action phase",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, they can't draw cards during their next action phase",
   "keywords": [
     "Crush",
   ],
@@ -32271,11 +32499,6 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
   "power": 3,
   "printings": [
     {
-      "identifier": "EVO176",
-      "image": "EVO176",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "DYN103",
       "image": "DYN103",
       "set": "Dynasty",
@@ -32285,6 +32508,11 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
       "identifier": "DYN103",
       "image": "DYN103",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "EVO176",
+      "image": "EVO176",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -32299,7 +32527,7 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
     "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "EVO176",
+  "specialImage": "DYN103",
   "subtypes": [
     "Attack",
   ],
@@ -32333,11 +32561,6 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
   "power": 5,
   "printings": [
     {
-      "identifier": "EVO174",
-      "image": "EVO174",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "DYN101",
       "image": "DYN101",
       "set": "Dynasty",
@@ -32347,6 +32570,11 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
       "identifier": "DYN101",
       "image": "DYN101",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "EVO174",
+      "image": "EVO174",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -32361,7 +32589,7 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
     "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "EVO174",
+  "specialImage": "DYN101",
   "subtypes": [
     "Attack",
   ],
@@ -32395,11 +32623,6 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
   "power": 4,
   "printings": [
     {
-      "identifier": "EVO175",
-      "image": "EVO175",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "DYN102",
       "image": "DYN102",
       "set": "Dynasty",
@@ -32409,6 +32632,11 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
       "identifier": "DYN102",
       "image": "DYN102",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "EVO175",
+      "image": "EVO175",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -32423,7 +32651,7 @@ When this is banished from **boosting**, put a steam counter on a Hyper Driver y
     "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "EVO175",
+  "specialImage": "DYN102",
   "subtypes": [
     "Attack",
   ],
@@ -32624,18 +32852,13 @@ exports[`Check for unintentional updates Crazy Brew (crazy-brew-blue) vs snapsho
 
 - 1 or 2 - Lose 2{h}. **Go again**
 - 3 or 4 - Gain 2{h}. **Go again**
-- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gets +2{p}.",
+- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gains +2{p}.",
   "keywords": [
     "Go again",
   ],
   "name": "Crazy Brew",
   "pitch": 3,
   "printings": [
-    {
-      "identifier": "TCC070",
-      "image": "TCC070",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP363",
       "image": "1HP363.width-450",
@@ -32646,6 +32869,11 @@ exports[`Check for unintentional updates Crazy Brew (crazy-brew-blue) vs snapsho
       "identifier": "FAB016",
       "image": "FAB016",
       "set": "Promos",
+    },
+    {
+      "identifier": "TCC070",
+      "image": "TCC070",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -33251,11 +33479,6 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) vs sn
   "power": 0,
   "printings": [
     {
-      "identifier": "TCC104",
-      "image": "TCC104",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "DYN065",
       "image": "DYN065",
       "set": "Dynasty",
@@ -33272,6 +33495,11 @@ exports[`Check for unintentional updates Crouching Tiger (crouching-tiger) vs sn
       "identifier": "DYN065",
       "image": "DYN065",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "TCC104",
+      "image": "TCC104",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -35165,9 +35393,16 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
       "image": "EVO001",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Gold",
+      "identifier": "WIN025",
+      "image": "",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -35176,9 +35411,11 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
   ],
   "setIdentifiers": [
     "EVO001",
+    "WIN025",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO001",
   "subtypes": [],
@@ -35212,8 +35449,15 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
       "image": "EVO002",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "HER097",
+      "image": "HER097",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
@@ -35222,9 +35466,11 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
   ],
   "setIdentifiers": [
     "EVO002",
+    "HER097",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO002",
   "subtypes": [
@@ -35298,7 +35544,7 @@ exports[`Check for unintentional updates Dash, Inventor Extraordinaire (dash-inv
     {
       "foiling": "Gold",
       "identifier": "WIN005",
-      "image": "",
+      "image": "WIN005",
       "set": "Promos",
     },
   ],
@@ -35436,12 +35682,19 @@ exports[`Check for unintentional updates Data Link (data-link-blue) vs snapshot 
 When this hits, **opt 1**.",
   "keywords": [
     "Boost",
+    "Opt",
   ],
   "name": "Data Link",
   "pitch": 3,
   "power": 1,
   "printings": [
     {
+      "identifier": "EVO188",
+      "image": "EVO188",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO188",
       "image": "EVO188",
       "set": "Bright Lights",
@@ -35496,6 +35749,12 @@ When this hits, **opt 1**.",
       "image": "EVO186",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO186",
+      "image": "EVO186",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -35535,12 +35794,19 @@ exports[`Check for unintentional updates Data Link (data-link-yellow) vs snapsho
 When this hits, **opt 1**.",
   "keywords": [
     "Boost",
+    "Opt",
   ],
   "name": "Data Link",
   "pitch": 2,
   "power": 2,
   "printings": [
     {
+      "identifier": "EVO187",
+      "image": "EVO187",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO187",
       "image": "EVO187",
       "set": "Bright Lights",
@@ -38301,8 +38567,14 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
     },
     {
       "foiling": "Rainbow",
+      "identifier": "EVO057",
+      "image": "EVO057",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "FAB174",
-      "image": "FAB174",
+      "image": "",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -38311,19 +38583,19 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
     "Majestic",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
-    "FAB174",
     "EVO057",
+    "FAB174",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "FAB174",
+  "specialImage": "EVO057",
   "subtypes": [
     "Attack",
   ],
@@ -38704,9 +38976,17 @@ exports[`Check for unintentional updates Diabolic Offering (diabolic-offering-bl
       "image": "DTD107",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "FAB164",
+      "image": "FAB164",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -38714,12 +38994,14 @@ exports[`Check for unintentional updates Diabolic Offering (diabolic-offering-bl
   ],
   "setIdentifiers": [
     "DTD107",
+    "FAB164",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
   "specialDefense": "*",
-  "specialImage": "DTD107",
+  "specialImage": "FAB164",
   "specialPower": "*",
   "subtypes": [
     "Attack",
@@ -39294,7 +39576,7 @@ exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] 
   "cost": 5,
   "defaultImage": "WTR050",
   "defense": 3,
-  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
   "keywords": [
     "Crush",
   ],
@@ -39302,11 +39584,6 @@ exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] 
   "pitch": 3,
   "power": 7,
   "printings": [
-    {
-      "identifier": "TCC047",
-      "image": "TCC047",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP057",
       "image": "1HP057.width-450",
@@ -39316,6 +39593,11 @@ exports[`Check for unintentional updates Disable (disable-blue) vs snapshot 1`] 
       "identifier": "BVO019",
       "image": "BVO19.width-450",
       "set": "Bravo Blitz Deck",
+    },
+    {
+      "identifier": "TCC047",
+      "image": "TCC047",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -39386,7 +39668,7 @@ exports[`Check for unintentional updates Disable (disable-red) vs snapshot 1`] =
   "cost": 5,
   "defaultImage": "WTR048",
   "defense": 3,
-  "functionalText": "**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
   "keywords": [
     "Crush",
   ],
@@ -39471,7 +39753,7 @@ exports[`Check for unintentional updates Disable (disable-yellow) vs snapshot 1`
   "cost": 5,
   "defaultImage": "WTR049",
   "defense": 3,
-  "functionalText": "**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.",
   "keywords": [
     "Crush",
   ],
@@ -39480,14 +39762,14 @@ exports[`Check for unintentional updates Disable (disable-yellow) vs snapshot 1`
   "power": 8,
   "printings": [
     {
-      "identifier": "TCC041",
-      "image": "TCC041",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP056",
       "image": "1HP056.width-450",
       "set": "History Pack 1",
+    },
+    {
+      "identifier": "TCC041",
+      "image": "TCC041",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -39762,6 +40044,12 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       "image": "EVO089",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO089",
+      "image": "EVO089",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -39808,6 +40096,12 @@ This enters the arena with 3 steam counters. At the start of your turn, destroy 
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO087",
+      "image": "EVO087",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO087",
       "image": "EVO087",
       "set": "Bright Lights",
@@ -39862,6 +40156,12 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       "image": "EVO088",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO088",
+      "image": "EVO088",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -39912,6 +40212,12 @@ When this hits, **opt 1**.",
       "image": "EVO191",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO191",
+      "image": "EVO191",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -39937,7 +40243,7 @@ When this hits, **opt 1**.",
 exports[`Check for unintentional updates Dive Through Data (dive-through-data-red) vs snapshot 1`] = `
 {
   "artists": [
-    "Aluisio Cervelle",
+    "Aluísio Cervelle",
   ],
   "cardIdentifier": "dive-through-data-red",
   "classes": [
@@ -39958,6 +40264,12 @@ When this hits, **opt 1**.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO189",
+      "image": "EVO189",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO189",
       "image": "EVO189",
       "set": "Bright Lights",
@@ -40007,6 +40319,12 @@ When this hits, **opt 1**.",
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO190",
+      "image": "EVO190",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO190",
       "image": "EVO190",
       "set": "Bright Lights",
@@ -40340,7 +40658,7 @@ exports[`Check for unintentional updates Dorinthea Ironsong (dorinthea-ironsong)
     {
       "foiling": "Gold",
       "identifier": "WIN004",
-      "image": "",
+      "image": "WIN004",
       "set": "Promos",
     },
     {
@@ -41937,7 +42255,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     {
       "foiling": "Gold",
       "identifier": "WIN018",
-      "image": "",
+      "image": "WIN018",
       "set": "Promos",
     },
   ],
@@ -42394,6 +42712,12 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.",
       "image": "EVO197",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO197",
+      "image": "EVO197",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -42443,6 +42767,12 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.",
       "image": "EVO195",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO195",
+      "image": "EVO195",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -42488,6 +42818,12 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.",
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO196",
+      "image": "EVO196",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO196",
       "image": "EVO196",
       "set": "Bright Lights",
@@ -43223,14 +43559,21 @@ exports[`Check for unintentional updates Dust from the Chrome Caverns (dust-from
   "cost": 0,
   "defaultImage": "EVO246",
   "defense": 3,
-  "functionalText": "**Material** - While this is under a permanent other than Cromai, that permanent has phantasm.",
+  "functionalText": "**Material** - While this is under a permanent other than Cromai, that permanent has **phantasm**.",
   "keywords": [
     "Material",
+    "Phantasm",
   ],
   "name": "Dust from the Chrome Caverns",
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO246",
+      "image": "EVO246",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO246",
       "image": "EVO246",
       "set": "Bright Lights",
@@ -43257,7 +43600,7 @@ exports[`Check for unintentional updates Dust from the Chrome Caverns (dust-from
   "talents": [
     "Draconic",
   ],
-  "typeText": "Draconic Action - Ash",
+  "typeText": "Draconic Illusionist Action - Ash",
   "types": [
     "Action",
   ],
@@ -44337,11 +44680,6 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
   "power": 1,
   "printings": [
     {
-      "identifier": "TCC078",
-      "image": "TCC078",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP090",
       "image": "1HP090.width-450",
       "set": "History Pack 1",
@@ -44376,6 +44714,12 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
       "identifier": "IRA002",
       "image": "IRA002-P_03Jc6pa.width-450",
       "set": "Ira Welcome Deck",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "TCC078",
+      "image": "TCC078",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -45516,6 +45860,12 @@ exports[`Check for unintentional updates Emboldened Blade (emboldened-blade-blue
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO240",
+      "image": "EVO240",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO240",
       "image": "EVO240",
       "set": "Bright Lights",
@@ -47415,11 +47765,6 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
   "pitch": 3,
   "printings": [
     {
-      "identifier": "TCC071",
-      "image": "TCC071",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP381",
       "image": "1HP381.width-450",
       "set": "History Pack 1",
@@ -47434,6 +47779,11 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
       "identifier": "KSU029",
       "image": "KSU29.width-450",
       "set": "Katsu Hero Deck",
+    },
+    {
+      "identifier": "TCC071",
+      "image": "TCC071",
+      "set": "Round the Table",
     },
     {
       "identifier": "TEA028",
@@ -49907,7 +50257,7 @@ exports[`Check for unintentional updates Evo Atom Breaker (evo-atom-breaker-red)
   "cost": 0,
   "defaultImage": "EVO031",
   "defense": 0,
-  "functionalText": "If you have a base chest equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+  "functionalText": "If you have a base chest equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
 
 Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r}.",
   "keywords": [
@@ -49926,6 +50276,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
       "identifier": "EVO031",
       "image": "EVO031_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
@@ -49984,6 +50335,12 @@ exports[`Check for unintentional updates Evo Battery Pack (evo-battery-pack-yell
       "image": "EVO047",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO047",
+      "image": "EVO047",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -50031,6 +50388,12 @@ When this is equipped, gain {r}.",
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO051",
+      "image": "EVO051",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO051",
       "image": "EVO051",
       "set": "Bright Lights",
@@ -50088,6 +50451,12 @@ exports[`Check for unintentional updates Evo Charging Rods (evo-charging-rods-ye
       "image": "EVO049",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO049",
+      "image": "EVO049",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -50125,7 +50494,7 @@ exports[`Check for unintentional updates Evo Circut Breaker (evo-circut-breaker-
   "cost": 0,
   "defaultImage": "EVO030",
   "defense": 0,
-  "functionalText": "If you have a base head equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+  "functionalText": "If you have a base head equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
 
 Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.",
   "keywords": [
@@ -50144,6 +50513,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
       "identifier": "EVO030",
       "image": "EVO030_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
@@ -50202,6 +50572,12 @@ exports[`Check for unintentional updates Evo Cogspitter (evo-cogspitter-yellow) 
       "image": "EVO048",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO048",
+      "image": "EVO048",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -50252,6 +50628,12 @@ exports[`Check for unintentional updates Evo Command Center (evo-command-center-
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO034",
+      "image": "EVO034",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO034",
       "image": "EVO034",
       "set": "Bright Lights",
@@ -50309,6 +50691,12 @@ exports[`Check for unintentional updates Evo Data Mine (evo-data-mine-yellow) vs
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO046",
+      "image": "EVO046",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO046",
       "image": "EVO046",
       "set": "Bright Lights",
@@ -50432,6 +50820,12 @@ exports[`Check for unintentional updates Evo Engine Room (evo-engine-room-yellow
       "image": "EVO035",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO035",
+      "image": "EVO035",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -50472,7 +50866,7 @@ exports[`Check for unintentional updates Evo Face Breaker (evo-face-breaker-red)
   "cost": 0,
   "defaultImage": "EVO032",
   "defense": 0,
-  "functionalText": "If you have a base arms equipped, **transforms** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+  "functionalText": "If you have a base arms equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
 
 Whenever you **boost** an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.",
   "keywords": [
@@ -50491,6 +50885,7 @@ Whenever you **boost** an attack action card, you may destroy a card under this.
       "identifier": "EVO032",
       "image": "EVO032_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
@@ -50532,7 +50927,7 @@ exports[`Check for unintentional updates Evo Mach Breaker (evo-mach-breaker-red)
   "cost": 0,
   "defaultImage": "EVO033",
   "defense": 0,
-  "functionalText": "If you have a base legs equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+  "functionalText": "If you have a base legs equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
 
 Whenever you **boost**, you may destroy a card under this. If you do, create a Quicken token.",
   "keywords": [
@@ -50551,6 +50946,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
       "identifier": "EVO033",
       "image": "EVO033_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
@@ -50599,6 +50995,7 @@ Your Teklo Blaster attacks get **go again**.
 **Battleworn**",
   "keywords": [
     "Battleworn",
+    "Go again",
     "Transform",
   ],
   "name": "Evo Rapid Fire",
@@ -50737,6 +51134,12 @@ exports[`Check for unintentional updates Evo Sentry Base Arms (evo-sentry-base-a
       "image": "EVO044",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO044",
+      "image": "EVO044",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -50786,6 +51189,12 @@ exports[`Check for unintentional updates Evo Sentry Base Chest (evo-sentry-base-
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO043",
+      "image": "EVO043",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO043",
       "image": "EVO043",
       "set": "Bright Lights",
@@ -50843,6 +51252,12 @@ exports[`Check for unintentional updates Evo Sentry Base Head (evo-sentry-base-h
       "image": "EVO042",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO042",
+      "image": "EVO042",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -50892,6 +51307,12 @@ exports[`Check for unintentional updates Evo Sentry Base Legs (evo-sentry-base-l
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO045",
+      "image": "EVO045",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO045",
       "image": "EVO045",
       "set": "Bright Lights",
@@ -50947,6 +51368,12 @@ exports[`Check for unintentional updates Evo Smoothbore (evo-smoothbore-yellow) 
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO036",
+      "image": "EVO036",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO036",
       "image": "EVO036",
       "set": "Bright Lights",
@@ -51013,13 +51440,14 @@ When this **transforms** from or into an Evo with a different name, you may put 
       "identifier": "EVO028",
       "image": "EVO028_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
     "Majestic",
     "Marvel",
   ],
-  "rarity": "Marvel",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -51078,13 +51506,14 @@ When this **transforms** from or into an Evo with a different name, your hero ge
       "identifier": "EVO026",
       "image": "EVO026_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
     "Majestic",
     "Marvel",
   ],
-  "rarity": "Marvel",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -51143,13 +51572,14 @@ When this **transforms** from or into an Evo with a different name, gain {r}{r}{
       "identifier": "EVO027",
       "image": "EVO027_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
     "Majestic",
     "Marvel",
   ],
-  "rarity": "Marvel",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -51208,13 +51638,14 @@ When this **transforms** from or into an Evo with a different name, gain 1 actio
       "identifier": "EVO029",
       "image": "EVO029_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
     "Majestic",
     "Marvel",
   ],
-  "rarity": "Marvel",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -51333,6 +51764,12 @@ exports[`Check for unintentional updates Evo Thruster (evo-thruster-yellow) vs s
       "image": "EVO037",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO037",
+      "image": "EVO037",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -51383,6 +51820,12 @@ When this is equipped, up to 1 target attack gets +1{p}.",
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO052",
+      "image": "EVO052",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO052",
       "image": "EVO052",
       "set": "Bright Lights",
@@ -51438,6 +51881,12 @@ When this is equipped, up to 1 target attack gets **go again**.",
       "image": "EVO053",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "EVO053",
+      "image": "EVO053",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -51484,6 +51933,12 @@ When this is equipped, you may banish a card from you hand. If you do, draw a ca
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO050",
+      "image": "EVO050",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "EVO050",
       "image": "EVO050",
       "set": "Bright Lights",
@@ -51539,6 +51994,12 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
       "image": "EVO200",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO200",
+      "image": "EVO200",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -51588,6 +52049,12 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
       "image": "EVO198",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO198",
+      "image": "EVO198",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -51633,6 +52100,12 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
   "power": 2,
   "printings": [
     {
+      "identifier": "EVO199",
+      "image": "EVO199",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO199",
       "image": "EVO199",
       "set": "Bright Lights",
@@ -52410,6 +52883,7 @@ exports[`Check for unintentional updates Fabricate (fabricate-red) vs snapshot 1
   "cost": 0,
   "defaultImage": "EVO146",
   "functionalText": "Choose 2;
+
 - Equip a base equipment with Proto in its name from your inventory.
 - Evo permanents you control get +1{d} this turn.
 - Put this under an Evo permanent you control.
@@ -52418,6 +52892,12 @@ exports[`Check for unintentional updates Fabricate (fabricate-red) vs snapshot 1
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO146",
+      "image": "EVO146",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO146",
       "image": "EVO146",
       "set": "Bright Lights",
@@ -52553,7 +53033,7 @@ exports[`Check for unintentional updates Fai, Rising Rebellion (fai-rising-rebel
     {
       "foiling": "Gold",
       "identifier": "WIN017",
-      "image": "",
+      "image": "WIN017",
       "set": "Promos",
     },
   ],
@@ -53588,6 +54068,12 @@ This gets +X{p}, where X is the number of equipment defending it.",
       "image": "EVO212",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO212",
+      "image": "EVO212",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -53637,6 +54123,12 @@ This gets +X{p}, where X is the number of equipment defending it.",
       "image": "EVO210",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO210",
+      "image": "EVO210",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -53682,6 +54174,12 @@ This gets +X{p}, where X is the number of equipment defending it.",
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO211",
+      "image": "EVO211",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO211",
       "image": "EVO211",
       "set": "Bright Lights",
@@ -53941,12 +54439,19 @@ exports[`Check for unintentional updates Fiddle-dee (fiddle-dee) vs snapshot 1`]
   "name": "Fiddle-dee",
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS215",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC053",
       "image": "TCC053",
       "set": "Round the Table",
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -53954,9 +54459,11 @@ exports[`Check for unintentional updates Fiddle-dee (fiddle-dee) vs snapshot 1`]
     "Commoner",
   ],
   "setIdentifiers": [
+    "LGS215",
     "TCC053",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC053",
@@ -53973,7 +54480,7 @@ exports[`Check for unintentional updates Fiddle-dee (fiddle-dee) vs snapshot 1`]
 exports[`Check for unintentional updates Figment of Erudition (figment-of-erudition-yellow) vs snapshot 1`] = `
 {
   "artists": [
-    "Asur Misoa",
+    "Daria Khlebnikova",
   ],
   "cardIdentifier": "figment-of-erudition-yellow",
   "classes": [
@@ -54668,6 +55175,12 @@ exports[`Check for unintentional updates Firewall (firewall-blue) vs snapshot 1`
       "set": "Bright Lights",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "EVO161",
+      "image": "EVO161",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC026",
       "image": "TCC026",
       "set": "Round the Table",
@@ -54718,6 +55231,12 @@ exports[`Check for unintentional updates Firewall (firewall-red) vs snapshot 1`]
       "set": "Bright Lights",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "EVO159",
+      "image": "EVO159",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC019",
       "image": "TCC019",
       "set": "Round the Table",
@@ -54763,6 +55282,12 @@ exports[`Check for unintentional updates Firewall (firewall-yellow) vs snapshot 
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO160",
+      "image": "EVO160",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO160",
       "image": "EVO160",
       "set": "Bright Lights",
@@ -54897,6 +55422,12 @@ When this hits, create a Runechant token.",
       "set": "Dusk till Dawn",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "FAB167",
+      "image": "FAB167",
+      "set": "Promos",
+    },
+    {
       "foiling": "Cold",
       "identifier": "LGS156",
       "image": "LGS156",
@@ -54910,6 +55441,7 @@ When this hits, create a Runechant token.",
   "rarity": "Rare",
   "setIdentifiers": [
     "DTD135",
+    "FAB167",
     "LGS156",
   ],
   "sets": [
@@ -56348,11 +56880,6 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-red) vs snapshot
   "power": 4,
   "printings": [
     {
-      "identifier": "TCC084",
-      "image": "TCC084",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "DYN050",
       "image": "DYN050",
       "set": "Dynasty",
@@ -56362,6 +56889,11 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-red) vs snapshot
       "identifier": "DYN050",
       "image": "DYN050",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "TCC084",
+      "image": "TCC084",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -56379,7 +56911,7 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-red) vs snapshot
     "Dynasty",
     "Round the Table",
   ],
-  "specialImage": "TCC084",
+  "specialImage": "DYN050",
   "subtypes": [
     "Attack",
   ],
@@ -56413,11 +56945,6 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-yellow) vs snaps
   "power": 3,
   "printings": [
     {
-      "identifier": "TCC093",
-      "image": "TCC093",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "DYN051",
       "image": "DYN051",
       "set": "Dynasty",
@@ -56427,6 +56954,11 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-yellow) vs snaps
       "identifier": "DYN051",
       "image": "DYN051",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "TCC093",
+      "image": "TCC093",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -56444,7 +56976,7 @@ exports[`Check for unintentional updates Flex Claws (flex-claws-yellow) vs snaps
     "Dynasty",
     "Round the Table",
   ],
-  "specialImage": "TCC093",
+  "specialImage": "DYN051",
   "subtypes": [
     "Attack",
   ],
@@ -57448,41 +57980,41 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-blue) vs snaps
   "cost": 2,
   "defaultImage": "CRU065",
   "defense": 3,
-  "functionalText": "If Flying Kick is played as chain link 3 or higher, it gets +2{p}.",
+  "functionalText": "When this is played as chain link 3 or higher, it gains +2{p}.",
   "name": "Flying Kick",
   "pitch": 3,
   "power": 3,
   "printings": [
     {
+      "edition": "First",
+      "identifier": "CRU065",
+      "image": "CRU065",
+      "set": "Crucible of War",
+    },
+    {
+      "edition": "First",
+      "foiling": "Rainbow",
+      "identifier": "CRU065",
+      "image": "CRU065",
+      "set": "Crucible of War",
+    },
+    {
+      "edition": "Unlimited",
+      "identifier": "CRU065",
+      "image": "U-CRU065",
+      "set": "Crucible of War",
+    },
+    {
+      "edition": "Unlimited",
+      "foiling": "Rainbow",
+      "identifier": "CRU065",
+      "image": "U-CRU065",
+      "set": "Crucible of War",
+    },
+    {
       "identifier": "TCC099",
       "image": "TCC099",
       "set": "Round the Table",
-    },
-    {
-      "edition": "First",
-      "identifier": "CRU065",
-      "image": "CRU065",
-      "set": "Crucible of War",
-    },
-    {
-      "edition": "First",
-      "foiling": "Rainbow",
-      "identifier": "CRU065",
-      "image": "CRU065",
-      "set": "Crucible of War",
-    },
-    {
-      "edition": "Unlimited",
-      "identifier": "CRU065",
-      "image": "U-CRU065",
-      "set": "Crucible of War",
-    },
-    {
-      "edition": "Unlimited",
-      "foiling": "Rainbow",
-      "identifier": "CRU065",
-      "image": "U-CRU065",
-      "set": "Crucible of War",
     },
   ],
   "rarities": [
@@ -57520,16 +58052,11 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
   "cost": 2,
   "defaultImage": "CRU063",
   "defense": 3,
-  "functionalText": "If this is played as chain link 3 or higher, it gets +2{p}.",
+  "functionalText": "When this is played as chain link 3 or higher, it gains +2{p}.",
   "name": "Flying Kick",
   "pitch": 1,
   "power": 5,
   "printings": [
-    {
-      "identifier": "TCC085",
-      "image": "TCC085",
-      "set": "Round the Table",
-    },
     {
       "edition": "First",
       "identifier": "CRU063",
@@ -57560,6 +58087,11 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
       "identifier": "IRA007",
       "image": "IRA007-P_9qjDnLM.width-450",
       "set": "Ira Welcome Deck",
+    },
+    {
+      "identifier": "TCC085",
+      "image": "TCC085",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -57600,7 +58132,7 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-yellow) vs sna
   "cost": 2,
   "defaultImage": "CRU064",
   "defense": 3,
-  "functionalText": "If Flying Kick is played as chain link 3 or higher, it gains +2{p}.",
+  "functionalText": "When this is played as chain link 3 or higher, it gains +2{p}.",
   "name": "Flying Kick",
   "pitch": 2,
   "power": 4,
@@ -60159,6 +60691,12 @@ exports[`Check for unintentional updates Fuel Injector (fuel-injector-blue) vs s
       "image": "EVO075",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO075",
+      "image": "EVO075",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -60210,6 +60748,12 @@ exports[`Check for unintentional updates Full Tilt (full-tilt-blue) vs snapshot 
       "image": "EVO170",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO170",
+      "image": "EVO170",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -60257,6 +60801,12 @@ exports[`Check for unintentional updates Full Tilt (full-tilt-red) vs snapshot 1
       "image": "EVO168",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO168",
+      "image": "EVO168",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -60300,6 +60850,12 @@ exports[`Check for unintentional updates Full Tilt (full-tilt-yellow) vs snapsho
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO169",
+      "image": "EVO169",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO169",
       "image": "EVO169",
       "set": "Bright Lights",
@@ -60644,9 +61200,9 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
   ],
   "defaultImage": "EVO249",
   "defense": 1,
-  "functionalText": "At the start of your turn, if Fyendal's Spring Tunic has less than 3 energy counters, you may put an energy counter on it.
+  "functionalText": "At the start of your turn, if this has fewer than 3 energy counters, you may put an energy counter on it.
 
-**Instant** - Remove 3 energy counters from Fyendal's Spring Tunic: Gain {r}
+**Instant** - Remove 3 energy counters from this: Gain {r}
 
 **Blade Break**",
   "keywords": [
@@ -60714,9 +61270,9 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
     "Commoner",
   ],
   "setIdentifiers": [
-    "EVO249",
     "1HP341",
     "CRU178",
+    "EVO249",
     "FAB001",
     "FAB002",
     "WTR150",
@@ -61071,6 +61627,12 @@ exports[`Check for unintentional updates Gas Guzzler (gas-guzzler-blue) vs snaps
       "image": "EVO173",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO173",
+      "image": "EVO173",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -61118,6 +61680,12 @@ exports[`Check for unintentional updates Gas Guzzler (gas-guzzler-red) vs snapsh
       "image": "EVO171",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO171",
+      "image": "EVO171",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -61161,6 +61729,12 @@ exports[`Check for unintentional updates Gas Guzzler (gas-guzzler-yellow) vs sna
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO172",
+      "image": "EVO172",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO172",
       "image": "EVO172",
       "set": "Bright Lights",
@@ -61215,6 +61789,12 @@ You may put a Hyper Driver from your banished zone into the arena.
       "image": "EVO224",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO224",
+      "image": "EVO224",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -61265,6 +61845,12 @@ You may put a Hyper Driver from your banished zone into the arena.
       "image": "EVO222",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO222",
+      "image": "EVO222",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -61311,6 +61897,12 @@ You may put a Hyper Driver from your banished zone into the arena.
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO223",
+      "image": "EVO223",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO223",
       "image": "EVO223",
       "set": "Bright Lights",
@@ -61962,6 +62554,12 @@ exports[`Check for unintentional updates Gigawatt (gigawatt-blue) vs snapshot 1`
       "image": "EVO158",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO158",
+      "image": "EVO158",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -62013,6 +62611,12 @@ exports[`Check for unintentional updates Gigawatt (gigawatt-red) vs snapshot 1`]
       "image": "EVO156",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO156",
+      "image": "EVO156",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -62060,6 +62664,12 @@ exports[`Check for unintentional updates Gigawatt (gigawatt-yellow) vs snapshot 
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO157",
+      "image": "EVO157",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO157",
       "image": "EVO157",
       "set": "Bright Lights",
@@ -63880,7 +64490,7 @@ Gain 1{h}
   "talents": [
     "Shadow",
   ],
-  "typeText": "Grim Feast",
+  "typeText": "Shadow Action",
   "types": [
     "Action",
   ],
@@ -63942,7 +64552,7 @@ Gain 3{h}
   "talents": [
     "Shadow",
   ],
-  "typeText": "Grim Feast",
+  "typeText": "Shadow Action",
   "types": [
     "Action",
   ],
@@ -64004,7 +64614,7 @@ Gain 2{h}
   "talents": [
     "Shadow",
   ],
-  "typeText": "Grim Feast",
+  "typeText": "Shadow Action",
   "types": [
     "Action",
   ],
@@ -64094,6 +64704,12 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO070",
+      "image": "EVO070",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO070",
       "image": "EVO070",
       "set": "Bright Lights",
@@ -64387,6 +65003,12 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
       "image": "EVO092",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO092",
+      "image": "EVO092",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -64437,6 +65059,12 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
       "image": "EVO090",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO090",
+      "image": "EVO090",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -64483,6 +65111,12 @@ When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, wh
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO091",
+      "image": "EVO091",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO091",
       "image": "EVO091",
       "set": "Bright Lights",
@@ -64672,11 +65306,12 @@ exports[`Check for unintentional updates Hammer of Havenhold (hammer-of-havenhol
   "defaultImage": "TCC028",
   "functionalText": "**Once per Turn Action** - {r}{r}{r}: **Attack**
 
-If you have a Chivalray in your pitch zone, this gets +1{p}.",
+If you have a Chivalry in your pitch zone, this gets +1{p}.",
   "name": "Hammer of Havenhold",
   "power": 3,
   "printings": [
     {
+      "foiling": "Cold",
       "identifier": "TCC028",
       "image": "TCC028",
       "set": "Round the Table",
@@ -66104,11 +66739,6 @@ exports[`Check for unintentional updates Healing Potion (healing-potion-blue) vs
   "pitch": 3,
   "printings": [
     {
-      "identifier": "TCC072",
-      "image": "TCC072",
-      "set": "Round the Table",
-    },
-    {
       "edition": "First",
       "identifier": "EVR183",
       "image": "EVR183.width-450",
@@ -66120,6 +66750,11 @@ exports[`Check for unintentional updates Healing Potion (healing-potion-blue) vs
       "identifier": "EVR183",
       "image": "EVR183.width-450",
       "set": "Everfest",
+    },
+    {
+      "identifier": "TCC072",
+      "image": "TCC072",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -66298,12 +66933,19 @@ exports[`Check for unintentional updates Heart-throb (heart-throb) vs snapshot 1
   "name": "Heart-throb",
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS214",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC052",
       "image": "TCC052",
       "set": "Round the Table",
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -66311,9 +66953,11 @@ exports[`Check for unintentional updates Heart-throb (heart-throb) vs snapshot 1
     "Commoner",
   ],
   "setIdentifiers": [
+    "LGS214",
     "TCC052",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC052",
@@ -66796,8 +67440,14 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-blue) 
     },
     {
       "foiling": "Rainbow",
+      "identifier": "EVO063",
+      "image": "EVO063",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "LGS193",
-      "image": "LGS193.width-10000",
+      "image": "LGS193",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -66806,19 +67456,19 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-blue) 
     "Promo",
     "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
-    "LGS193",
     "EVO063",
+    "LGS193",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS193.width-10000",
+  "specialImage": "LGS193",
   "subtypes": [
     "Attack",
   ],
@@ -66856,8 +67506,14 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-red) v
     },
     {
       "foiling": "Rainbow",
+      "identifier": "EVO061",
+      "image": "EVO061",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "LGS191",
-      "image": "LGS191.width-10000",
+      "image": "LGS191",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -66866,19 +67522,19 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-red) v
     "Promo",
     "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
-    "LGS191",
     "EVO061",
+    "LGS191",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS191.width-10000",
+  "specialImage": "LGS191",
   "subtypes": [
     "Attack",
   ],
@@ -66916,8 +67572,14 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-yellow
     },
     {
       "foiling": "Rainbow",
+      "identifier": "EVO062",
+      "image": "EVO062",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "LGS192",
-      "image": "LGS192.width-10000",
+      "image": "LGS192",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -66926,19 +67588,19 @@ exports[`Check for unintentional updates Heavy Artillery (heavy-artillery-yellow
     "Promo",
     "Rare",
   ],
-  "rarity": "Promo",
+  "rarity": "Rare",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
-    "LGS192",
     "EVO062",
+    "LGS192",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "LGS192.width-10000",
+  "specialImage": "LGS192",
   "subtypes": [
     "Attack",
   ],
@@ -66972,6 +67634,12 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO138",
+      "image": "EVO138",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO138",
       "image": "EVO138",
       "set": "Bright Lights",
@@ -67086,16 +67754,25 @@ When the combat chain closes, if this attacked, banish it.
       "image": "DTD105",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "LGS164",
+      "image": "LGS164",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "DTD105",
+    "LGS164",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
   "specialImage": "DTD105",
   "subtypes": [
@@ -68841,6 +69518,13 @@ When this hits, put it into your hero's soul.
       "treatment": "Extended Art",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "FAB160",
+      "image": "FAB160",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON010",
       "image": "MON010.width-450",
@@ -68868,6 +69552,7 @@ When this hits, put it into your hero's soul.
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -68876,11 +69561,13 @@ When this hits, put it into your hero's soul.
   ],
   "setIdentifiers": [
     "DTD028",
+    "FAB160",
     "MON010",
   ],
   "sets": [
     "Dusk till Dawn",
     "Monarch",
+    "Promos",
   ],
   "specialImage": "DTD028",
   "subtypes": [
@@ -68927,6 +69614,13 @@ When this hits, put it into your hero's soul.
       "treatment": "Extended Art",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "FAB158",
+      "image": "FAB158",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON008",
       "image": "MON008.width-450",
@@ -68954,6 +69648,7 @@ When this hits, put it into your hero's soul.
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -68962,11 +69657,13 @@ When this hits, put it into your hero's soul.
   ],
   "setIdentifiers": [
     "DTD026",
+    "FAB158",
     "MON008",
   ],
   "sets": [
     "Dusk till Dawn",
     "Monarch",
+    "Promos",
   ],
   "specialImage": "DTD026",
   "subtypes": [
@@ -69013,6 +69710,13 @@ When this hits, put it into your hero's soul.
       "treatment": "Extended Art",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "FAB159",
+      "image": "FAB159",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "edition": "First",
       "identifier": "MON009",
       "image": "MON009.width-450",
@@ -69040,6 +69744,7 @@ When this hits, put it into your hero's soul.
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -69048,11 +69753,13 @@ When this hits, put it into your hero's soul.
   ],
   "setIdentifiers": [
     "DTD027",
+    "FAB159",
     "MON009",
   ],
   "sets": [
     "Dusk till Dawn",
     "Monarch",
+    "Promos",
   ],
   "specialImage": "DTD027",
   "subtypes": [
@@ -71225,8 +71932,16 @@ When this hits a hero, banish a card from their soul.
       "image": "DTD174",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS167",
+      "image": "LGS167",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -71235,11 +71950,13 @@ When this hits a hero, banish a card from their soul.
   ],
   "setIdentifiers": [
     "DTD174",
+    "LGS167",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD174",
+  "specialImage": "LGS167",
   "subtypes": [
     "Attack",
   ],
@@ -71288,8 +72005,16 @@ When this hits a hero, banish a card from their soul.
       "image": "DTD172",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS165",
+      "image": "LGS165",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -71298,11 +72023,13 @@ When this hits a hero, banish a card from their soul.
   ],
   "setIdentifiers": [
     "DTD172",
+    "LGS165",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD172",
+  "specialImage": "LGS165",
   "subtypes": [
     "Attack",
   ],
@@ -71351,8 +72078,16 @@ When this hits a hero, banish a card from their soul.
       "image": "DTD173",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS166",
+      "image": "LGS166",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -71361,11 +72096,13 @@ When this hits a hero, banish a card from their soul.
   ],
   "setIdentifiers": [
     "DTD173",
+    "LGS166",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD173",
+  "specialImage": "LGS166",
   "subtypes": [
     "Attack",
   ],
@@ -71896,6 +72633,12 @@ When this attacks, if it scrapped a card, this gets **overpower**.",
       "image": "EVO104",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO104",
+      "image": "EVO104",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -71949,6 +72692,12 @@ When this attacks, if it scrapped a card, this gets **overpower**.",
       "image": "EVO102",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO102",
+      "image": "EVO102",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -71998,6 +72747,12 @@ When this attacks, if it scrapped a card, this gets **overpower**.",
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO103",
+      "image": "EVO103",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO103",
       "image": "EVO103",
       "set": "Bright Lights",
@@ -72058,10 +72813,10 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
     "Promo",
     "Token",
   ],
-  "rarity": "Promo",
+  "rarity": "Token",
   "setIdentifiers": [
-    "FAB176",
     "EVO234",
+    "FAB176",
   ],
   "sets": [
     "Bright Lights",
@@ -72149,17 +72904,9 @@ exports[`Check for unintentional updates Hyper Driver (hyper-driver-red) vs snap
   "functionalText": "This enters the arena with 3 steam counters. When it has none, destroy it.
 
 Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.",
-  "keywords": [
-    "Boost",
-  ],
   "name": "Hyper Driver",
   "pitch": 1,
   "printings": [
-    {
-      "identifier": "EVO099",
-      "image": "EVO099",
-      "set": "Bright Lights",
-    },
     {
       "identifier": "1HP218",
       "image": "1HP218.width-450",
@@ -72201,6 +72948,11 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
       "identifier": "DYN110",
       "image": "DYN110",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "EVO099",
+      "image": "EVO099",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -72311,6 +73063,12 @@ When this attacks it gets +X{p}. If 3 or more Hyper Drivers were banished to pla
       "image": "EVO100",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO100",
+      "image": "EVO100",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -72371,9 +73129,16 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
       "image": "EVO011",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Gold",
+      "identifier": "FAB170",
+      "image": "FAB170",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
@@ -72381,9 +73146,11 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
   ],
   "setIdentifiers": [
     "EVO011",
+    "FAB170",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO011_V2",
   "subtypes": [
@@ -75618,6 +76385,12 @@ exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-blue) vs sna
       "image": "EVO122",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO122",
+      "image": "EVO122",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -75661,6 +76434,12 @@ exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-red) vs snap
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO120",
+      "image": "EVO120",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO120",
       "image": "EVO120",
       "set": "Bright Lights",
@@ -75712,6 +76491,12 @@ exports[`Check for unintentional updates Infuse Alloy (infuse-alloy-yellow) vs s
       "image": "EVO121",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO121",
+      "image": "EVO121",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -75759,6 +76544,12 @@ exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-blue) 
       "image": "EVO125",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO125",
+      "image": "EVO125",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -75784,7 +76575,7 @@ exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-blue) 
 exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-red) vs snapshot 1`] = `
 {
   "artists": [
-    "Yugin Maffoli",
+    "Yugin Maffioli",
   ],
   "cardIdentifier": "infuse-titanium-red",
   "classes": [
@@ -75802,6 +76593,12 @@ exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-red) v
   "power": 7,
   "printings": [
     {
+      "identifier": "EVO123",
+      "image": "EVO123",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO123",
       "image": "EVO123",
       "set": "Bright Lights",
@@ -75849,6 +76646,12 @@ exports[`Check for unintentional updates Infuse Titanium (infuse-titanium-yellow
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO124",
+      "image": "EVO124",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO124",
       "image": "EVO124",
       "set": "Bright Lights",
@@ -76301,6 +77104,12 @@ When this hits a hero, they create a Courage and Quicken token.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO241",
+      "image": "EVO241",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO241",
       "image": "EVO241",
       "set": "Bright Lights",
@@ -77724,17 +78533,12 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
     "Ninja",
   ],
   "defaultImage": "CRU046",
-  "functionalText": "Your second attack each turn gets +1{p}.",
+  "functionalText": "Your second attack each turn gains +1{p}.",
   "hero": "Ira",
   "intellect": 4,
   "life": 20,
   "name": "Ira, Crimson Haze",
   "printings": [
-    {
-      "identifier": "TCC077",
-      "image": "TCC077",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP089",
       "image": "1HP089.width-450",
@@ -77776,6 +78580,12 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
       "identifier": "IRA001",
       "image": "IRA001-P_EUmBrk0.width-450",
       "set": "Ira Welcome Deck",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "TCC077",
+      "image": "TCC077",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -79594,7 +80404,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     {
       "foiling": "Gold",
       "identifier": "WIN019",
-      "image": "",
+      "image": "WIN019",
       "set": "Promos",
     },
   ],
@@ -79642,7 +80452,7 @@ exports[`Check for unintentional updates Jinglewood, Smash Hit (jinglewood-smash
   "defaultImage": "TCC050",
   "functionalText": "**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
 
-**Action** - 0: **Attack**.  When this hits, destroy it.",
+**Action** - 0: **Attack**. When this hits, destroy it.",
   "keywords": [
     "Go again",
   ],
@@ -79650,19 +80460,29 @@ exports[`Check for unintentional updates Jinglewood, Smash Hit (jinglewood-smash
   "power": 2,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS212",
+      "image": "",
+      "set": "Promos",
+    },
+    {
+      "foiling": "Cold",
       "identifier": "TCC050",
       "image": "TCC050",
       "set": "Round the Table",
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "LGS212",
     "TCC050",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC050",
@@ -79762,11 +80582,6 @@ exports[`Check for unintentional updates Jump Start (jump-start-blue) vs snapsho
   "power": 3,
   "printings": [
     {
-      "identifier": "EVO182",
-      "image": "EVO182",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "DYN106",
       "image": "DYN106",
       "set": "Dynasty",
@@ -79776,6 +80591,11 @@ exports[`Check for unintentional updates Jump Start (jump-start-blue) vs snapsho
       "identifier": "DYN106",
       "image": "DYN106",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "EVO182",
+      "image": "EVO182",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -79790,7 +80610,7 @@ exports[`Check for unintentional updates Jump Start (jump-start-blue) vs snapsho
     "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "EVO182",
+  "specialImage": "DYN106",
   "subtypes": [
     "Attack",
   ],
@@ -79824,11 +80644,6 @@ exports[`Check for unintentional updates Jump Start (jump-start-red) vs snapshot
   "power": 5,
   "printings": [
     {
-      "identifier": "EVO180",
-      "image": "EVO180",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "DYN104",
       "image": "DYN104",
       "set": "Dynasty",
@@ -79838,6 +80653,11 @@ exports[`Check for unintentional updates Jump Start (jump-start-red) vs snapshot
       "identifier": "DYN104",
       "image": "DYN104",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "EVO180",
+      "image": "EVO180",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -79852,7 +80672,7 @@ exports[`Check for unintentional updates Jump Start (jump-start-red) vs snapshot
     "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "EVO180",
+  "specialImage": "DYN104",
   "subtypes": [
     "Attack",
   ],
@@ -79886,11 +80706,6 @@ exports[`Check for unintentional updates Jump Start (jump-start-yellow) vs snaps
   "power": 4,
   "printings": [
     {
-      "identifier": "EVO181",
-      "image": "EVO181",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "DYN105",
       "image": "DYN105",
       "set": "Dynasty",
@@ -79900,6 +80715,11 @@ exports[`Check for unintentional updates Jump Start (jump-start-yellow) vs snaps
       "identifier": "DYN105",
       "image": "DYN105",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "EVO181",
+      "image": "EVO181",
+      "set": "Bright Lights",
     },
   ],
   "rarities": [
@@ -79914,7 +80734,7 @@ exports[`Check for unintentional updates Jump Start (jump-start-yellow) vs snaps
     "Bright Lights",
     "Dynasty",
   ],
-  "specialImage": "EVO181",
+  "specialImage": "DYN105",
   "subtypes": [
     "Attack",
   ],
@@ -79948,6 +80768,12 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO128",
+      "image": "EVO128",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO128",
       "image": "EVO128",
       "set": "Bright Lights",
@@ -80001,6 +80827,12 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.",
       "image": "EVO126",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO126",
+      "image": "EVO126",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -80046,6 +80878,12 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.",
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO127",
+      "image": "EVO127",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO127",
       "image": "EVO127",
       "set": "Bright Lights",
@@ -80210,7 +81048,7 @@ exports[`Check for unintentional updates Kano, Dracai of Aether (kano-dracai-of-
     {
       "foiling": "Gold",
       "identifier": "WIN008",
-      "image": "",
+      "image": "WIN008",
       "set": "Promos",
     },
   ],
@@ -80497,7 +81335,7 @@ exports[`Check for unintentional updates Katsu, the Wanderer (katsu-the-wanderer
     {
       "foiling": "Gold",
       "identifier": "WIN003",
-      "image": "",
+      "image": "WIN003",
       "set": "Promos",
     },
     {
@@ -81677,6 +82515,12 @@ This can't be defended by equipment.",
       "image": "EVO209",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO209",
+      "image": "EVO209",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -81726,6 +82570,12 @@ This can't be defended by equipment.",
       "image": "EVO207",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO207",
+      "image": "EVO207",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -81771,6 +82621,12 @@ This can't be defended by equipment.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO208",
+      "image": "EVO208",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO208",
       "image": "EVO208",
       "set": "Bright Lights",
@@ -82332,11 +83188,6 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-red) vs snapshot 1`] =
   "power": 4,
   "printings": [
     {
-      "identifier": "TCC087",
-      "image": "TCC087",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP116",
       "image": "1HP116.width-450",
       "set": "History Pack 1",
@@ -82345,6 +83196,11 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-red) vs snapshot 1`] =
       "identifier": "KSU012",
       "image": "KSU12.width-450",
       "set": "Katsu Hero Deck",
+    },
+    {
+      "identifier": "TCC087",
+      "image": "TCC087",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -82421,11 +83277,6 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-yellow) vs snapshot 1`
   "power": 3,
   "printings": [
     {
-      "identifier": "TCC095",
-      "image": "TCC095",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP117",
       "image": "1HP117.width-450",
       "set": "History Pack 1",
@@ -82434,6 +83285,11 @@ exports[`Check for unintentional updates Leg Tap (leg-tap-yellow) vs snapshot 1`
       "identifier": "KSU018",
       "image": "KSU18.width-450",
       "set": "Katsu Hero Deck",
+    },
+    {
+      "identifier": "TCC095",
+      "image": "TCC095",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -82684,17 +83540,16 @@ Cards you own lose **blood debt**.",
   "oppositeSideCardIdentifier": "blasmophet-levia-consumed",
   "printings": [
     {
+      "identifier": "DTD164",
+      "image": "DTD164",
+      "set": "Dusk till Dawn",
+    },
+    {
       "foiling": "Cold",
       "identifier": "DTD164",
       "image": "DTD164_V2",
       "set": "Dusk till Dawn",
       "treatment": "Alternate Border",
-    },
-    {
-      "foiling": "Rainbow",
-      "identifier": "DTD164",
-      "image": "DTD164",
-      "set": "Dusk till Dawn",
     },
   ],
   "rarities": [
@@ -82774,7 +83629,7 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
     {
       "foiling": "Gold",
       "identifier": "WIN011",
-      "image": "",
+      "image": "WIN011",
       "set": "Promos",
     },
   ],
@@ -82944,7 +83799,7 @@ exports[`Check for unintentional updates Lexi, Livewire (lexi-livewire) vs snaps
     {
       "foiling": "Gold",
       "identifier": "WIN014",
-      "image": "",
+      "image": "WIN014",
       "set": "Promos",
     },
   ],
@@ -83235,9 +84090,9 @@ exports[`Check for unintentional updates Life of the Party (life-of-the-party-bl
   "defense": 2,
   "functionalText": "You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
 
-- Life of the Party gains "When this hits, gain life 2{h}."
-- Life of the Party gains +2{p}.
-- Life of the Party gains **go again**.",
+- This gets "When this hits, gain life 2{h}."
+- This gets +2{p}.
+- This gets **go again**.",
   "keywords": [
     "Go again",
   ],
@@ -83307,9 +84162,9 @@ exports[`Check for unintentional updates Life of the Party (life-of-the-party-re
   "defense": 2,
   "functionalText": "You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
 
-- Life of the Party gains "When this hits, gain life 2{h}."
-- Life of the Party gains +2{p}.
-- Life of the Party gains **go again**.",
+- This gets "When this hits, gain life 2{h}."
+- This gets +2{p}.
+- This gets **go again**.",
   "keywords": [
     "Go again",
   ],
@@ -83317,11 +84172,6 @@ exports[`Check for unintentional updates Life of the Party (life-of-the-party-re
   "pitch": 1,
   "power": 4,
   "printings": [
-    {
-      "identifier": "TCC056",
-      "image": "TCC056",
-      "set": "Round the Table",
-    },
     {
       "edition": "First",
       "identifier": "EVR161",
@@ -83341,6 +84191,11 @@ exports[`Check for unintentional updates Life of the Party (life-of-the-party-re
       "image": "LGS084",
       "set": "Promos",
       "treatment": "Extended Art",
+    },
+    {
+      "identifier": "TCC056",
+      "image": "TCC056",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -83386,9 +84241,9 @@ exports[`Check for unintentional updates Life of the Party (life-of-the-party-ye
   "defense": 2,
   "functionalText": "You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
 
-- Life of the Party gains "When this hits, gain life 2{h}."
-- Life of the Party gains +2{p}.
-- Life of the Party gains **go again**.",
+- This gets "When this hits, gain life 2{h}."
+- This gets +2{p}.
+- This gets **go again**.",
   "keywords": [
     "Go again",
   ],
@@ -84278,6 +85133,12 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
       "set": "Bright Lights",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "EVO066",
+      "image": "EVO066",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC023",
       "image": "TCC023",
       "set": "Round the Table",
@@ -84335,6 +85196,12 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
       "set": "Bright Lights",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "EVO064",
+      "image": "EVO064",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "TCC012",
       "image": "TCC012",
       "set": "Round the Table",
@@ -84387,6 +85254,12 @@ exports[`Check for unintentional updates Liquid-Cooled Mayhem (liquid-cooled-may
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO065",
+      "image": "EVO065",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO065",
       "image": "EVO065",
       "set": "Bright Lights",
@@ -84988,7 +85861,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     {
       "foiling": "Rainbow",
       "identifier": "DYN175",
-      "image": "",
+      "image": "DYN175_Special",
       "set": "Dynasty",
       "treatment": "Extended Art",
     },
@@ -85006,7 +85879,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
   "sets": [
     "Dynasty",
   ],
-  "specialImage": "DYN175",
+  "specialImage": "DYN175_Special",
   "subtypes": [
     "Aura",
     "Non-Attack",
@@ -85844,6 +86717,12 @@ Your Mechanologist attack action cards get **go again**.",
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO097",
+      "image": "EVO097",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO097",
       "image": "EVO097",
       "set": "Bright Lights",
@@ -87880,35 +88759,35 @@ exports[`Check for unintentional updates Maximum Velocity (maximum-velocity-red)
   "power": 10,
   "printings": [
     {
+      "edition": "First",
+      "identifier": "ARC008",
+      "image": "ARC008",
+      "set": "Arcane Rising",
+    },
+    {
+      "edition": "First",
+      "foiling": "Rainbow",
+      "identifier": "ARC008",
+      "image": "ARC008",
+      "set": "Arcane Rising",
+    },
+    {
+      "edition": "Unlimited",
+      "identifier": "ARC008",
+      "image": "U-ARC008",
+      "set": "Arcane Rising",
+    },
+    {
+      "edition": "Unlimited",
+      "foiling": "Rainbow",
+      "identifier": "ARC008",
+      "image": "U-ARC008",
+      "set": "Arcane Rising",
+    },
+    {
       "identifier": "EVO139",
       "image": "EVO139",
       "set": "Bright Lights",
-    },
-    {
-      "edition": "First",
-      "identifier": "ARC008",
-      "image": "ARC008",
-      "set": "Arcane Rising",
-    },
-    {
-      "edition": "First",
-      "foiling": "Rainbow",
-      "identifier": "ARC008",
-      "image": "ARC008",
-      "set": "Arcane Rising",
-    },
-    {
-      "edition": "Unlimited",
-      "identifier": "ARC008",
-      "image": "U-ARC008",
-      "set": "Arcane Rising",
-    },
-    {
-      "edition": "Unlimited",
-      "foiling": "Rainbow",
-      "identifier": "ARC008",
-      "image": "U-ARC008",
-      "set": "Arcane Rising",
     },
   ],
   "rarities": [
@@ -87950,7 +88829,7 @@ exports[`Check for unintentional updates Maxx 'The Hype' Nitro (maxx-the-hype-ni
   "defaultImage": "EVO004",
   "functionalText": "**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
 
-Hyper Drivers you control get **Crank**.",
+Hyper Drivers you control get **crank**.",
   "hero": "Maxx",
   "intellect": 4,
   "keywords": [
@@ -87964,9 +88843,16 @@ Hyper Drivers you control get **Crank**.",
       "image": "EVO004",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Gold",
+      "identifier": "WIN026",
+      "image": "",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -87975,9 +88861,11 @@ Hyper Drivers you control get **Crank**.",
   ],
   "setIdentifiers": [
     "EVO004",
+    "WIN026",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO004",
   "subtypes": [],
@@ -88000,7 +88888,7 @@ exports[`Check for unintentional updates Maxx Nitro (maxx-nitro) vs snapshot 1`]
   "defaultImage": "EVO005",
   "functionalText": "**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
 
-Hyper Drivers you control get **Crank**.",
+Hyper Drivers you control get **crank**.",
   "hero": "Maxx",
   "intellect": 4,
   "keywords": [
@@ -88014,8 +88902,15 @@ Hyper Drivers you control get **Crank**.",
       "image": "EVO005",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "HER098",
+      "image": "HER098",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
@@ -88024,9 +88919,11 @@ Hyper Drivers you control get **Crank**.",
   ],
   "setIdentifiers": [
     "EVO005",
+    "HER098",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO005",
   "subtypes": [
@@ -88300,12 +89197,26 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
       "set": "Bright Lights",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "EVO069",
+      "image": "EVO069",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS226",
+      "image": "",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "TCC024",
       "image": "TCC024",
       "set": "Round the Table",
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -88314,10 +89225,12 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
   ],
   "setIdentifiers": [
     "EVO069",
+    "LGS226",
     "TCC024",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "EVO069",
@@ -88357,12 +89270,26 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
       "set": "Bright Lights",
     },
     {
+      "foiling": "Rainbow",
+      "identifier": "EVO067",
+      "image": "EVO067",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS224",
+      "image": "LGS224",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
       "identifier": "TCC013",
       "image": "TCC013",
       "set": "Round the Table",
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -88371,13 +89298,15 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
   ],
   "setIdentifiers": [
     "EVO067",
+    "LGS224",
     "TCC013",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
     "Round the Table",
   ],
-  "specialImage": "EVO067",
+  "specialImage": "LGS224",
   "subtypes": [
     "Attack",
   ],
@@ -88413,8 +89342,22 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
       "image": "EVO068",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO068",
+      "image": "EVO068",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS225",
+      "image": "LGS225",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -88423,11 +89366,13 @@ exports[`Check for unintentional updates Mechanical Strength (mechanical-strengt
   ],
   "setIdentifiers": [
     "EVO068",
+    "LGS225",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
-  "specialImage": "EVO068",
+  "specialImage": "LGS225",
   "subtypes": [
     "Attack",
   ],
@@ -88454,6 +89399,12 @@ exports[`Check for unintentional updates Medkit (medkit-blue) vs snapshot 1`] = 
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO076",
+      "image": "EVO076",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO076",
       "image": "EVO076",
       "set": "Bright Lights",
@@ -88502,6 +89453,12 @@ exports[`Check for unintentional updates Meganetic Lockwave (meganetic-lockwave-
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO143",
+      "image": "EVO143",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO143",
       "image": "EVO143",
       "set": "Bright Lights",
@@ -88559,8 +89516,14 @@ exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-
     },
     {
       "foiling": "Rainbow",
+      "identifier": "EVO059",
+      "image": "EVO059",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "FAB172",
-      "image": "FAB172",
+      "image": "",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -88569,19 +89532,19 @@ exports[`Check for unintentional updates Meganetic Protocol (meganetic-protocol-
     "Majestic",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
-    "FAB172",
     "EVO059",
+    "FAB172",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "FAB172",
+  "specialImage": "EVO059",
   "subtypes": [
     "Attack",
   ],
@@ -88673,10 +89636,20 @@ exports[`Check for unintentional updates Melody, Sing-along (melody-sing-along) 
   "functionalText": "Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.",
   "hero": "Melody",
   "intellect": 4,
+  "keywords": [
+    "Go again",
+  ],
   "life": 20,
   "name": "Melody, Sing-along",
   "printings": [
     {
+      "foiling": "Cold",
+      "identifier": "HER103",
+      "image": "",
+      "set": "Promos",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "TCC049",
       "image": "TCC049",
       "set": "Round the Table",
@@ -88684,6 +89657,7 @@ exports[`Check for unintentional updates Melody, Sing-along (melody-sing-along) 
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -88691,9 +89665,11 @@ exports[`Check for unintentional updates Melody, Sing-along (melody-sing-along) 
     "Commoner",
   ],
   "setIdentifiers": [
+    "HER103",
     "TCC049",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC049",
@@ -89131,6 +90107,12 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
       "image": "EVO203",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO203",
+      "image": "EVO203",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -89180,6 +90162,12 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
       "image": "EVO201",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO201",
+      "image": "EVO201",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -89225,6 +90213,12 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO202",
+      "image": "EVO202",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO202",
       "image": "EVO202",
       "set": "Bright Lights",
@@ -89703,6 +90697,12 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       "image": "EVO095",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO095",
+      "image": "EVO095",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -89754,6 +90754,12 @@ This enters the arena with 4 steam counters. At the start of your turn, destroy 
       "image": "EVO093",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO093",
+      "image": "EVO093",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -89801,6 +90807,12 @@ This enters the arena with 3 steam counters. At the start of your turn, destroy 
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO094",
+      "image": "EVO094",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO094",
       "image": "EVO094",
       "set": "Bright Lights",
@@ -90435,6 +91447,12 @@ If this has 10 or more {p}, it gets **overpower**.",
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO140",
+      "image": "EVO140",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO140",
       "image": "EVO140",
       "set": "Bright Lights",
@@ -91410,7 +92428,7 @@ exports[`Check for unintentional updates Nasreth, the Soul Harrower (nasreth-the
   "defaultImage": "DTD193",
   "functionalText": "**Once per Turn Action - 0: Attack**
 
-When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.",
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{h}.",
   "life": 6,
   "name": "Nasreth, the Soul Harrower",
   "power": 6,
@@ -92939,12 +93957,19 @@ exports[`Check for unintentional updates Nom de Plume (nom-de-plume) vs snapshot
   "name": "Nom de Plume",
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS213",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC051",
       "image": "TCC051",
       "set": "Round the Table",
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -92952,9 +93977,11 @@ exports[`Check for unintentional updates Nom de Plume (nom-de-plume) vs snapshot
     "Commoner",
   ],
   "setIdentifiers": [
+    "LGS213",
     "TCC051",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC051",
@@ -94303,7 +95330,7 @@ exports[`Check for unintentional updates Oldhim, Grandfather of Eternity (oldhim
     {
       "foiling": "Gold",
       "identifier": "WIN013",
-      "image": "",
+      "image": "WIN013",
       "set": "Promos",
     },
   ],
@@ -95253,6 +96280,12 @@ This can't be defended by equipment.",
       "image": "EVO206",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO206",
+      "image": "EVO206",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -95302,6 +96335,12 @@ This can't be defended by equipment.",
       "image": "EVO204",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO204",
+      "image": "EVO204",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -95347,6 +96386,12 @@ This can't be defended by equipment.",
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO205",
+      "image": "EVO205",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO205",
       "image": "EVO205",
       "set": "Bright Lights",
@@ -96082,11 +97127,6 @@ When this hits, put it on the bottom of its owner's deck.",
   "power": 3,
   "printings": [
     {
-      "identifier": "EVO221",
-      "image": "EVO221",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "1HP207",
       "image": "1HP207.width-450",
       "set": "History Pack 1",
@@ -96117,6 +97157,11 @@ When this hits, put it on the bottom of its owner's deck.",
       "identifier": "ARC022",
       "image": "ARC022_Over_Loop.width-10000",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "EVO221",
+      "image": "EVO221",
+      "set": "Bright Lights",
     },
     {
       "foiling": "Rainbow",
@@ -96177,16 +97222,6 @@ When this hits, put it on the bottom of its owner's deck.",
   "power": 5,
   "printings": [
     {
-      "identifier": "EVO219",
-      "image": "EVO219",
-      "set": "Bright Lights",
-    },
-    {
-      "identifier": "TCC014",
-      "image": "TCC014",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP205",
       "image": "1HP205.width-450",
       "set": "History Pack 1",
@@ -96219,6 +97254,11 @@ When this hits, put it on the bottom of its owner's deck.",
       "set": "Arcane Rising",
     },
     {
+      "identifier": "EVO219",
+      "image": "EVO219",
+      "set": "Bright Lights",
+    },
+    {
       "identifier": "LGS013",
       "image": "LGS013",
       "set": "Promos",
@@ -96230,6 +97270,11 @@ When this hits, put it on the bottom of its owner's deck.",
       "image": "LGS032",
       "set": "Promos",
       "treatment": "Extended Art",
+    },
+    {
+      "identifier": "TCC014",
+      "image": "TCC014",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -96286,11 +97331,6 @@ When this hits, put it on the bottom of its owner's deck.",
   "power": 4,
   "printings": [
     {
-      "identifier": "EVO220",
-      "image": "EVO220",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "1HP206",
       "image": "1HP206.width-450",
       "set": "History Pack 1",
@@ -96321,6 +97361,11 @@ When this hits, put it on the bottom of its owner's deck.",
       "identifier": "ARC021",
       "image": "ARC021_Over_Loop.width-10000",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "EVO220",
+      "image": "EVO220",
+      "set": "Bright Lights",
     },
     {
       "foiling": "Rainbow",
@@ -96790,6 +97835,12 @@ Your Mechanologist attack action cards get **overpower**.",
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO096",
+      "image": "EVO096",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO096",
       "image": "EVO096",
       "set": "Bright Lights",
@@ -97368,6 +98419,12 @@ This gets +X{p}, where X is the number of equipment defending it.",
       "image": "EVO215",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO215",
+      "image": "EVO215",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -97417,6 +98474,12 @@ This gets +X{p}, where X is the number of equipment defending it.",
       "image": "EVO213",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO213",
+      "image": "EVO213",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -97462,6 +98525,12 @@ This gets +X{p}, where X is the number of equipment defending it.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO214",
+      "image": "EVO214",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO214",
       "image": "EVO214",
       "set": "Bright Lights",
@@ -98558,6 +99627,12 @@ Your Mechanologist attack action cards get +1{p}.",
       "image": "EVO079",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO079",
+      "image": "EVO079",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -99310,6 +100385,12 @@ exports[`Check for unintentional updates Phantom Tidemaw (phantom-tidemaw-blue) 
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO244",
+      "image": "EVO244",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO244",
       "image": "EVO244",
       "set": "Bright Lights",
@@ -102047,6 +103128,12 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.",
       "image": "EVO078",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO078",
+      "image": "EVO078",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -102370,18 +103457,13 @@ exports[`Check for unintentional updates Potion of Strength (potion-of-strength-
   ],
   "cost": 0,
   "defaultImage": "WTR171",
-  "functionalText": "**Action** - Destroy this: Your next attack this turn gets +2{p}. **Go again**",
+  "functionalText": "**Action** - Destroy this: Your next attack this turn gains +2{p}. **Go again**",
   "keywords": [
     "Go again",
   ],
   "name": "Potion of Strength",
   "pitch": 3,
   "printings": [
-    {
-      "identifier": "TCC073",
-      "image": "TCC073",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP382",
       "image": "1HP382.width-450",
@@ -102397,6 +103479,11 @@ exports[`Check for unintentional updates Potion of Strength (potion-of-strength-
       "identifier": "FAB013",
       "image": "FAB013",
       "set": "Promos",
+    },
+    {
+      "identifier": "TCC073",
+      "image": "TCC073",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -102517,7 +103604,7 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-blue) vs snaps
   "cost": 0,
   "defaultImage": "DYN058",
   "defense": 3,
-  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.",
+  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.",
   "keywords": [
     "Combo",
     "Go again",
@@ -102581,11 +103668,6 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-red) vs snapsh
   "power": 3,
   "printings": [
     {
-      "identifier": "TCC089",
-      "image": "TCC089",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "DYN056",
       "image": "DYN056",
       "set": "Dynasty",
@@ -102595,6 +103677,11 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-red) vs snapsh
       "identifier": "DYN056",
       "image": "DYN056",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "TCC089",
+      "image": "TCC089",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -102609,7 +103696,7 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-red) vs snapsh
     "Dynasty",
     "Round the Table",
   ],
-  "specialImage": "TCC089",
+  "specialImage": "DYN056",
   "subtypes": [
     "Attack",
   ],
@@ -102632,7 +103719,7 @@ exports[`Check for unintentional updates Pouncing Qi (pouncing-qi-yellow) vs sna
   "cost": 0,
   "defaultImage": "DYN057",
   "defense": 3,
-  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.",
+  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.",
   "keywords": [
     "Combo",
     "Go again",
@@ -103243,7 +104330,7 @@ exports[`Check for unintentional updates Prayer of Bellona (prayer-of-bellona-ye
   "defense": 3,
   "functionalText": "Your next attack this turn gets +2{p}.
 
-Reveal the top card of your deck. If it's yellow, put it into your hand, then **charge** you hero's soul.
+Reveal the top card of your deck. If it's yellow, put it into your hand, then **charge** your hero's soul.
 
 **Go again**",
   "keywords": [
@@ -103695,11 +104782,6 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-blue
   "pitch": 3,
   "printings": [
     {
-      "identifier": "TCC101",
-      "image": "TCC101",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "DYN064",
       "image": "DYN064",
       "set": "Dynasty",
@@ -103716,6 +104798,11 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-blue
       "image": "LGS124",
       "set": "Promos",
       "treatment": "Extended Art",
+    },
+    {
+      "identifier": "TCC101",
+      "image": "TCC101",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -103830,11 +104917,6 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-yell
   "pitch": 2,
   "printings": [
     {
-      "identifier": "TCC097",
-      "image": "TCC097",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "DYN063",
       "image": "DYN063",
       "set": "Dynasty",
@@ -103851,6 +104933,11 @@ exports[`Check for unintentional updates Predatory Streak (predatory-streak-yell
       "image": "LGS123",
       "set": "Promos",
       "treatment": "Extended Art",
+    },
+    {
+      "identifier": "TCC097",
+      "image": "TCC097",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -104345,9 +105432,22 @@ exports[`Check for unintentional updates Prism, Awakener of Sol (prism-awakener-
       "image": "DTD001",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "HER086",
+      "image": "HER086",
+      "set": "Promos",
+    },
+    {
+      "foiling": "Gold",
+      "identifier": "WIN023",
+      "image": "WIN023",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -104356,9 +105456,12 @@ exports[`Check for unintentional updates Prism, Awakener of Sol (prism-awakener-
   ],
   "setIdentifiers": [
     "DTD001",
+    "HER086",
+    "WIN023",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
   "specialImage": "DTD001",
   "subtypes": [],
@@ -104428,7 +105531,7 @@ exports[`Check for unintentional updates Prism, Sculptor of Arc Light (prism-scu
     {
       "foiling": "Gold",
       "identifier": "WIN009",
-      "image": "",
+      "image": "WIN009",
       "set": "Promos",
     },
   ],
@@ -104488,6 +105591,12 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO071",
+      "image": "EVO071",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO071",
       "image": "EVO071",
       "set": "Bright Lights",
@@ -104726,7 +105835,7 @@ exports[`Check for unintentional updates Proclamation of Abundance (proclamation
   "classes": [
     "Adjudicator",
   ],
-  "defaultImage": "JDG009",
+  "defaultImage": "JDG010",
   "functionalText": "**Action** - {r}{r}{r}, destroy this: Each hero draws up to their {i}.",
   "name": "Proclamation of Abundance",
   "printings": [
@@ -104746,6 +105855,12 @@ exports[`Check for unintentional updates Proclamation of Abundance (proclamation
       "foiling": "Cold",
       "identifier": "JDG009",
       "image": "JDG009",
+      "set": "Promos",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "JDG010",
+      "image": "JDG010",
       "set": "Promos",
     },
   ],
@@ -104848,6 +105963,7 @@ You may play Evos from your banished zone.",
   "name": "Professor Teklovossen",
   "printings": [
     {
+      "foiling": "Rainbow",
       "identifier": "TCC001",
       "image": "TCC001",
       "set": "Round the Table",
@@ -105267,7 +106383,6 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
 {
   "artists": [
     "Grigoriy Parshakov",
-    "Vlas Tashkinov",
   ],
   "cardIdentifier": "proto-base-arms",
   "classes": [
@@ -105282,8 +106397,8 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
       "set": "Bright Lights",
     },
     {
-      "identifier": "TCC003",
-      "image": "TCC003",
+      "identifier": "TCC005",
+      "image": "TCC005",
       "set": "Round the Table",
     },
   ],
@@ -105294,7 +106409,7 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
   "rarity": "Token",
   "setIdentifiers": [
     "EVO024",
-    "TCC003",
+    "TCC005",
   ],
   "sets": [
     "Bright Lights",
@@ -105316,7 +106431,6 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
 {
   "artists": [
     "Dmitriy Semyonov",
-    "Dmitry Semyonov",
   ],
   "cardIdentifier": "proto-base-chest",
   "classes": [
@@ -105364,7 +106478,6 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
 exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs snapshot 1`] = `
 {
   "artists": [
-    "Grigoriy Parshakov",
     "Vlad Tashkinov",
   ],
   "cardIdentifier": "proto-base-head",
@@ -105380,8 +106493,8 @@ exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs sn
       "set": "Bright Lights",
     },
     {
-      "identifier": "TCC005",
-      "image": "TCC005",
+      "identifier": "TCC003",
+      "image": "TCC003",
       "set": "Round the Table",
     },
   ],
@@ -105392,7 +106505,7 @@ exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs sn
   "rarity": "Token",
   "setIdentifiers": [
     "EVO022",
-    "TCC005",
+    "TCC003",
   ],
   "sets": [
     "Bright Lights",
@@ -106370,8 +107483,14 @@ exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-
     },
     {
       "foiling": "Rainbow",
+      "identifier": "EVO058",
+      "image": "EVO058",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "FAB173",
-      "image": "FAB173",
+      "image": "",
       "set": "Promos",
       "treatment": "Extended Art",
     },
@@ -106380,19 +107499,19 @@ exports[`Check for unintentional updates Pulsewave Protocol (pulsewave-protocol-
     "Majestic",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
   "restrictedFormats": [
     "Commoner",
   ],
   "setIdentifiers": [
-    "FAB173",
     "EVO058",
+    "FAB173",
   ],
   "sets": [
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "FAB173",
+  "specialImage": "EVO058",
   "subtypes": [
     "Attack",
   ],
@@ -107753,7 +108872,7 @@ exports[`Check for unintentional updates Qi Unleashed (qi-unleashed-red) vs snap
   "cost": 2,
   "defaultImage": "DYN059",
   "defense": 3,
-  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4 {p}.",
+  "functionalText": "**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4{p}.",
   "keywords": [
     "Combo",
   ],
@@ -107761,11 +108880,6 @@ exports[`Check for unintentional updates Qi Unleashed (qi-unleashed-red) vs snap
   "pitch": 1,
   "power": 3,
   "printings": [
-    {
-      "identifier": "TCC090",
-      "image": "TCC090",
-      "set": "Round the Table",
-    },
     {
       "identifier": "DYN059",
       "image": "DYN059",
@@ -107776,6 +108890,11 @@ exports[`Check for unintentional updates Qi Unleashed (qi-unleashed-red) vs snap
       "identifier": "DYN059",
       "image": "DYN059",
       "set": "Dynasty",
+    },
+    {
+      "identifier": "TCC090",
+      "image": "TCC090",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -107877,6 +108996,12 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO072",
+      "image": "EVO072",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO072",
       "image": "EVO072",
       "set": "Bright Lights",
@@ -108107,22 +109232,12 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "Generic",
   ],
   "defaultImage": "EVO250",
-  "functionalText": "When you play an attack action card or activate a weapon attack, destroy this and the attack gets **go again**.",
+  "functionalText": "When you play an attack action card or activate a weapon attack, destroy this and the attack gains **go again**.",
   "keywords": [
     "Go again",
   ],
   "name": "Quicken",
   "printings": [
-    {
-      "identifier": "EVO250",
-      "image": "EVO250",
-      "set": "Bright Lights",
-    },
-    {
-      "identifier": "TCC106",
-      "image": "TCC106",
-      "set": "Round the Table",
-    },
     {
       "identifier": "1HP427",
       "image": "1HP427_Quicken.width-10000",
@@ -108153,6 +109268,11 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
       "set": "Classic Battles: Rhinar vs Dorinthea",
     },
     {
+      "identifier": "EVO250",
+      "image": "EVO250",
+      "set": "Bright Lights",
+    },
+    {
       "edition": "First",
       "identifier": "EVR196",
       "image": "EVR196.width-450",
@@ -108162,6 +109282,11 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
       "identifier": "RNR031",
       "image": "RNR31.width-450",
       "set": "Rhinar Hero Deck",
+    },
+    {
+      "identifier": "TCC106",
+      "image": "TCC106",
+      "set": "Round the Table",
     },
     {
       "identifier": "TEA030",
@@ -108196,9 +109321,9 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "1HP427",
     "CRU196",
     "DTD234",
+    "EVR196",
     "DVR028",
     "EVO250",
-    "EVR196",
     "RNR031",
     "TCC106",
     "TEA030",
@@ -108257,6 +109382,12 @@ The next attack you **boost** this turn gets +2{p}.
       "image": "EVO227",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO227",
+      "image": "EVO227",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -108307,6 +109438,12 @@ The next attack you **boost** this turn gets +4{p}.
       "image": "EVO225",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO225",
+      "image": "EVO225",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -108353,6 +109490,12 @@ The next attack you **boost** this turn gets +3{p}.
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO226",
+      "image": "EVO226",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO226",
       "image": "EVO226",
       "set": "Bright Lights",
@@ -108476,12 +109619,19 @@ exports[`Check for unintentional updates Quickstep (quickstep) vs snapshot 1`] =
   "name": "Quickstep",
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS216",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC054",
       "image": "TCC054",
       "set": "Round the Table",
     },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -108489,9 +109639,11 @@ exports[`Check for unintentional updates Quickstep (quickstep) vs snapshot 1`] =
     "Commoner",
   ],
   "setIdentifiers": [
+    "LGS216",
     "TCC054",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC054",
@@ -110094,6 +111246,12 @@ exports[`Check for unintentional updates Ratchet Up (ratchet-up-blue) vs snapsho
       "image": "EVO107",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO107",
+      "image": "EVO107",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -110146,6 +111304,12 @@ exports[`Check for unintentional updates Ratchet Up (ratchet-up-red) vs snapshot
       "image": "EVO105",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO105",
+      "image": "EVO105",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -110194,6 +111358,12 @@ exports[`Check for unintentional updates Ratchet Up (ratchet-up-yellow) vs snaps
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO106",
+      "image": "EVO106",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO106",
       "image": "EVO106",
       "set": "Bright Lights",
@@ -111203,6 +112373,12 @@ exports[`Check for unintentional updates Razzle Dazzle (razzle-dazzle-blue) vs s
       "image": "EVO167",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO167",
+      "image": "EVO167",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -111250,6 +112426,12 @@ exports[`Check for unintentional updates Razzle Dazzle (razzle-dazzle-red) vs sn
       "image": "EVO165",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO165",
+      "image": "EVO165",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -111293,6 +112475,12 @@ exports[`Check for unintentional updates Razzle Dazzle (razzle-dazzle-yellow) vs
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO166",
+      "image": "EVO166",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO166",
       "image": "EVO166",
       "set": "Bright Lights",
@@ -111347,6 +112535,12 @@ The next attack you **boost** this turn gets +2{p}.
       "image": "EVO230",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO230",
+      "image": "EVO230",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -111397,6 +112591,12 @@ The next attack you **boost** this turn gets +4{p}.
       "image": "EVO228",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO228",
+      "image": "EVO228",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -111443,6 +112643,12 @@ The next attack you **boost** this turn gets +3{p}.
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO229",
+      "image": "EVO229",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO229",
       "image": "EVO229",
       "set": "Bright Lights",
@@ -112115,7 +113321,7 @@ exports[`Check for unintentional updates Reality Refractor (reality-refractor) v
       "set": "Dusk till Dawn",
     },
     {
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "DTD216",
       "image": "DTD216",
       "set": "Dusk till Dawn",
@@ -113495,7 +114701,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     {
       "foiling": "Rainbow",
       "identifier": "DYN121",
-      "image": "",
+      "image": "DYN121_Special",
       "set": "Dynasty",
       "treatment": "Extended Art",
     },
@@ -113523,7 +114729,7 @@ Regicide can't be defended by cards with the same name as cards in the defending
     "Dynasty",
     "Promos",
   ],
-  "specialImage": "FAB122",
+  "specialImage": "DYN121_Special",
   "specializations": [
     "Arakni",
   ],
@@ -115044,6 +116250,12 @@ exports[`Check for unintentional updates Rev Up (rev-up-blue) vs snapshot 1`] = 
       "image": "EVO185",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO185",
+      "image": "EVO185",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -115093,6 +116305,12 @@ exports[`Check for unintentional updates Rev Up (rev-up-red) vs snapshot 1`] = `
       "image": "EVO183",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO183",
+      "image": "EVO183",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -115138,6 +116356,12 @@ exports[`Check for unintentional updates Rev Up (rev-up-yellow) vs snapshot 1`] 
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO184",
+      "image": "EVO184",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO184",
       "image": "EVO184",
       "set": "Bright Lights",
@@ -115662,7 +116886,7 @@ exports[`Check for unintentional updates Rhinar, Reckless Rampage (rhinar-reckle
     {
       "foiling": "Gold",
       "identifier": "WIN001",
-      "image": "",
+      "image": "WIN001",
       "set": "Promos",
     },
     {
@@ -117518,7 +118742,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
     {
       "foiling": "Rainbow",
       "identifier": "HER081",
-      "image": "",
+      "image": "HER081",
       "set": "Promos",
     },
     {
@@ -117593,7 +118817,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.",
     {
       "foiling": "Gold",
       "identifier": "WIN022",
-      "image": "",
+      "image": "WIN022",
       "set": "Promos",
     },
   ],
@@ -122478,11 +123702,6 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
   "power": 2,
   "printings": [
     {
-      "identifier": "TCC096",
-      "image": "TCC096",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP135",
       "image": "1HP135.width-450",
       "set": "History Pack 1",
@@ -122522,6 +123741,11 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
       "identifier": "IRA004",
       "image": "IRA004-P_c88KAnK.width-450",
       "set": "Ira Welcome Deck",
+    },
+    {
+      "identifier": "TCC096",
+      "image": "TCC096",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -125327,6 +126551,12 @@ When this attacks, if it **scrapped** a card, you may play your next Evo this tu
       "image": "EVO131",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO131",
+      "image": "EVO131",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -125372,6 +126602,12 @@ When this attacks, if it **scrapped** a card, you may play your next Evo this tu
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO129",
+      "image": "EVO129",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO129",
       "image": "EVO129",
       "set": "Bright Lights",
@@ -125425,6 +126661,12 @@ When this attacks, if it **scrapped** a card, you may play your next Evo this tu
       "image": "EVO130",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO130",
+      "image": "EVO130",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -125470,6 +126712,12 @@ When this attacks, if it **scrapped** a card, put a steam counter on an item you
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO134",
+      "image": "EVO134",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO134",
       "image": "EVO134",
       "set": "Bright Lights",
@@ -125523,6 +126771,12 @@ When this attacks, if it **scrapped** a card, put a steam counter on an item you
       "image": "EVO132",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO132",
+      "image": "EVO132",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -125572,6 +126826,12 @@ When this attacks, if it **scrapped** a card, put a steam counter on an item you
       "image": "EVO133",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO133",
+      "image": "EVO133",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -125617,6 +126877,12 @@ When this attacks, if it **scrapped** a card, create a Quicken token.",
   "power": 1,
   "printings": [
     {
+      "identifier": "EVO110",
+      "image": "EVO110",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO110",
       "image": "EVO110",
       "set": "Bright Lights",
@@ -125673,6 +126939,12 @@ When this attacks, if it **scrapped** a card, create a Quicken token.",
       "image": "EVO108",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO108",
+      "image": "EVO108",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -125721,6 +126993,12 @@ When this attacks, if it **scrapped** a card, create a Quicken token.",
   "power": 2,
   "printings": [
     {
+      "identifier": "EVO109",
+      "image": "EVO109",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO109",
       "image": "EVO109",
       "set": "Bright Lights",
@@ -125777,6 +127055,12 @@ When this attacks, if it scrapped a card, gain {r}.",
       "image": "EVO137",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO137",
+      "image": "EVO137",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -125822,6 +127106,12 @@ When this attacks, if it scrapped a card, gain {r}.",
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO135",
+      "image": "EVO135",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO135",
       "image": "EVO135",
       "set": "Bright Lights",
@@ -125875,6 +127165,12 @@ When this attacks, if it scrapped a card, gain {r}.",
       "image": "EVO136",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO136",
+      "image": "EVO136",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -125921,6 +127217,12 @@ Gain {r}{r} for each card this **scrapped**.",
   "pitch": 1,
   "printings": [
     {
+      "identifier": "EVO101",
+      "image": "EVO101",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO101",
       "image": "EVO101",
       "set": "Bright Lights",
@@ -126736,7 +128038,7 @@ exports[`Check for unintentional updates Second Swing (second-swing-yellow) vs s
 exports[`Check for unintentional updates Security Script (security-script-blue) vs snapshot 1`] = `
 {
   "artists": [
-    "Aluisio Cervelle",
+    "Aluísio Cervelle",
   ],
   "cardIdentifier": "security-script-blue",
   "classes": [
@@ -126756,6 +128058,12 @@ Your Mechanologist attack action cards get +1{d}.",
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO080",
+      "image": "EVO080",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO080",
       "image": "EVO080",
       "set": "Bright Lights",
@@ -128925,7 +130233,7 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
     {
       "foiling": "Gold",
       "identifier": "WIN010",
-      "image": "",
+      "image": "WIN010",
       "set": "Promos",
     },
   ],
@@ -131195,9 +132503,22 @@ exports[`Check for unintentional updates Shriek Razors (shriek-razors) vs snapsh
       "image": "EVO235",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO235",
+      "image": "EVO235",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Gold",
+      "identifier": "FAB168",
+      "image": "FAB168",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
@@ -131205,9 +132526,11 @@ exports[`Check for unintentional updates Shriek Razors (shriek-razors) vs snapsh
   ],
   "setIdentifiers": [
     "EVO235",
+    "FAB168",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO235",
   "subtypes": [
@@ -132373,11 +133696,6 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
   "pitch": 1,
   "printings": [
     {
-      "identifier": "TCC059",
-      "image": "TCC059",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP387",
       "image": "1HP387.width-450",
       "set": "History Pack 1",
@@ -132389,8 +133707,13 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     },
     {
       "identifier": "FAB136",
-      "image": "",
+      "image": "FAB136",
       "set": "Promos",
+    },
+    {
+      "identifier": "TCC059",
+      "image": "TCC059",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -133829,13 +135152,14 @@ exports[`Check for unintentional updates Singularity (singularity-red) vs snapsh
       "identifier": "EVO010",
       "image": "EVO010_V2",
       "set": "Bright Lights",
+      "treatment": "Alternate Border",
     },
   ],
   "rarities": [
     "Legendary",
     "Marvel",
   ],
-  "rarity": "Marvel",
+  "rarity": "Legendary",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -134866,6 +136190,12 @@ exports[`Check for unintentional updates Slay (slay-red) vs snapshot 1`] = `
       "image": "EVO248",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO248",
+      "image": "EVO248",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -135864,7 +137194,7 @@ exports[`Check for unintentional updates Sloggism (sloggism-yellow) vs snapshot 
 exports[`Check for unintentional updates Smack of Reality (smack-of-reality-red) vs snapshot 1`] = `
 {
   "artists": [
-    "Alief Rudiatama",
+    "Alief Rusdiatama",
   ],
   "cardIdentifier": "smack-of-reality-red",
   "classes": [
@@ -136175,6 +137505,12 @@ exports[`Check for unintentional updates Smash and Grab (smash-and-grab-red) vs 
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO155",
+      "image": "EVO155",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO155",
       "image": "EVO155",
       "set": "Bright Lights",
@@ -136614,6 +137950,12 @@ exports[`Check for unintentional updates Smashing Performance (smashing-performa
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO237",
+      "image": "EVO237",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO237",
       "image": "EVO237",
       "set": "Bright Lights",
@@ -138202,6 +139544,12 @@ If X is 6 or greater, target hero discards 3 random cards.",
       "image": "EVO242",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO242",
+      "image": "EVO242",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -138248,6 +139596,12 @@ exports[`Check for unintentional updates Song of Jack-be-Quick (song-of-jack-be-
   "pitch": 3,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS217",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC064",
       "image": "TCC064",
       "set": "Round the Table",
@@ -138255,12 +139609,15 @@ exports[`Check for unintentional updates Song of Jack-be-Quick (song-of-jack-be-
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "LGS217",
     "TCC064",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC064",
@@ -138287,10 +139644,16 @@ exports[`Check for unintentional updates Song of Sweet Nectar (song-of-sweet-nec
   "cost": 0,
   "defaultImage": "TCC065",
   "defense": 3,
-  "functionalText": "Each other hero gains 1{l}.",
+  "functionalText": "Each other hero gains 1{h}.",
   "name": "Song of Sweet Nectar",
   "pitch": 3,
   "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS220",
+      "image": "",
+      "set": "Promos",
+    },
     {
       "identifier": "TCC065",
       "image": "TCC065",
@@ -138299,12 +139662,15 @@ exports[`Check for unintentional updates Song of Sweet Nectar (song-of-sweet-nec
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "LGS220",
     "TCC065",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC065",
@@ -138331,10 +139697,16 @@ exports[`Check for unintentional updates Song of Yesteryears (song-of-yesteryear
   "cost": 0,
   "defaultImage": "TCC069",
   "defense": 3,
-  "functionalText": "Each other hero puts an attack action card from their graveyard on the. bottom of their deck.",
+  "functionalText": "Each other hero puts an attack action card from their graveyard on the bottom of their deck.",
   "name": "Song of Yesteryears",
   "pitch": 3,
   "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS222",
+      "image": "",
+      "set": "Promos",
+    },
     {
       "identifier": "TCC069",
       "image": "TCC069",
@@ -138343,12 +139715,15 @@ exports[`Check for unintentional updates Song of Yesteryears (song-of-yesteryear
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "LGS222",
     "TCC069",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC069",
@@ -138380,6 +139755,12 @@ exports[`Check for unintentional updates Song of the Rosen Matador (song-of-the-
   "pitch": 3,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS218",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC066",
       "image": "TCC066",
       "set": "Round the Table",
@@ -138387,12 +139768,15 @@ exports[`Check for unintentional updates Song of the Rosen Matador (song-of-the-
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "LGS218",
     "TCC066",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC066",
@@ -138424,6 +139808,12 @@ exports[`Check for unintentional updates Song of the Shining Knight (song-of-the
   "pitch": 3,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS219",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC067",
       "image": "TCC067",
       "set": "Round the Table",
@@ -138431,12 +139821,15 @@ exports[`Check for unintentional updates Song of the Shining Knight (song-of-the
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "LGS219",
     "TCC067",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC067",
@@ -138468,6 +139861,12 @@ exports[`Check for unintentional updates Song of the Wandering Mind (song-of-the
   "pitch": 3,
   "printings": [
     {
+      "foiling": "Rainbow",
+      "identifier": "LGS221",
+      "image": "",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC068",
       "image": "TCC068",
       "set": "Round the Table",
@@ -138475,12 +139874,15 @@ exports[`Check for unintentional updates Song of the Wandering Mind (song-of-the
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "LGS221",
     "TCC068",
   ],
   "sets": [
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "TCC068",
@@ -139636,6 +141038,12 @@ exports[`Check for unintentional updates Soup Up (soup-up-blue) vs snapshot 1`] 
       "image": "EVO113",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO113",
+      "image": "EVO113",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -139689,6 +141097,12 @@ exports[`Check for unintentional updates Soup Up (soup-up-red) vs snapshot 1`] =
       "image": "EVO111",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO111",
+      "image": "EVO111",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -139738,6 +141152,12 @@ exports[`Check for unintentional updates Soup Up (soup-up-yellow) vs snapshot 1`
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO112",
+      "image": "EVO112",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO112",
       "image": "EVO112",
       "set": "Bright Lights",
@@ -141090,18 +142510,27 @@ exports[`Check for unintentional updates Spellbane Aegis (spellbane-aegis) vs sn
       "image": "DYN246",
       "set": "Dynasty",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "FAB155",
+      "image": "FAB155",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "DTD235",
     "DYN246",
+    "FAB155",
   ],
   "sets": [
     "Dusk till Dawn",
     "Dynasty",
+    "Promos",
   ],
   "specialImage": "DTD235",
   "subtypes": [
@@ -143411,6 +144840,12 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
       "image": "EVO152",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO152",
+      "image": "EVO152",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -143463,6 +144898,12 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
       "image": "EVO150",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO150",
+      "image": "EVO150",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -143511,6 +144952,12 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO151",
+      "image": "EVO151",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO151",
       "image": "EVO151",
       "set": "Bright Lights",
@@ -143673,6 +145120,12 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.",
       "image": "EVO194",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO194",
+      "image": "EVO194",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -143722,6 +145175,12 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.",
       "image": "EVO192",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO192",
+      "image": "EVO192",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -143767,6 +145226,12 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.",
   "power": 2,
   "printings": [
     {
+      "identifier": "EVO193",
+      "image": "EVO193",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO193",
       "image": "EVO193",
       "set": "Bright Lights",
@@ -144060,13 +145525,18 @@ exports[`Check for unintentional updates Stasis Cell (stasis-cell-blue) vs snaps
 
 **Action** - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. **Go again**",
   "keywords": [
-    "Crank",
     "Go again",
   ],
   "name": "Stasis Cell",
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO073",
+      "image": "EVO073",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO073",
       "image": "EVO073",
       "set": "Bright Lights",
@@ -144484,6 +145954,12 @@ exports[`Check for unintentional updates Steam Canister (steam-canister-blue) vs
       "image": "EVO077",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO077",
+      "image": "EVO077",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -144521,7 +145997,7 @@ exports[`Check for unintentional updates Steel Street Enforcement (steel-street-
   ],
   "defaultImage": "EVO060",
   "defense": 1,
-  "functionalText": "**Evo Upgrade** - While this is defending, it gets +X{d} where X is the number of Evos you have equipped.",
+  "functionalText": "**Evo Upgrade** - While this is defending, it gets +X{d}, where X is the number of Evos you have equipped.",
   "keywords": [
     "Evo Upgrade",
   ],
@@ -144529,6 +146005,12 @@ exports[`Check for unintentional updates Steel Street Enforcement (steel-street-
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO060",
+      "image": "EVO060",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO060",
       "image": "EVO060",
       "set": "Bright Lights",
@@ -144582,6 +146064,12 @@ If an item you control has been destroyed this turn, this gets +2{p}.
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO141",
+      "image": "EVO141",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO141",
       "image": "EVO141",
       "set": "Bright Lights",
@@ -149200,6 +150688,12 @@ exports[`Check for unintentional updates System Failure (system-failure-yellow) 
       "image": "EVO144",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO144",
+      "image": "EVO144",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -149241,6 +150735,12 @@ exports[`Check for unintentional updates System Reset (system-reset-yellow) vs s
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO145",
+      "image": "EVO145",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO145",
       "image": "EVO145",
       "set": "Bright Lights",
@@ -151369,7 +152869,7 @@ exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapsh
   ],
   "defaultImage": "DYN046",
   "defense": 1,
-  "functionalText": "**Instant** - Destroy this: The next Crouching Tiger you play this turn gets +2{p}.
+  "functionalText": "**Instant** - Destroy this: The next Crouching Tiger you play this turn gains +2{p}.
 
 **Battleworn**",
   "keywords": [
@@ -151377,11 +152877,6 @@ exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapsh
   ],
   "name": "Tearing Shuko",
   "printings": [
-    {
-      "identifier": "TCC081",
-      "image": "TCC081",
-      "set": "Round the Table",
-    },
     {
       "identifier": "DYN046",
       "image": "DYN046",
@@ -151399,6 +152894,11 @@ exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapsh
       "image": "DYN046",
       "set": "Dynasty",
     },
+    {
+      "identifier": "TCC081",
+      "image": "TCC081",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
     "Rare",
@@ -151412,7 +152912,7 @@ exports[`Check for unintentional updates Tearing Shuko (tearing-shuko) vs snapsh
     "Dynasty",
     "Round the Table",
   ],
-  "specialImage": "TCC081",
+  "specialImage": "DYN046",
   "subtypes": [
     "Arms",
   ],
@@ -151522,6 +153022,12 @@ exports[`Check for unintentional updates Tectonic Rift (tectonic-rift-blue) vs s
       "image": "EVO238",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO238",
+      "image": "EVO238",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -151581,10 +153087,10 @@ exports[`Check for unintentional updates Teklo Base Arms (teklo-base-arms) vs sn
     "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
-    "LGS188",
     "EVO020",
+    "LGS188",
   ],
   "sets": [
     "Bright Lights",
@@ -151635,10 +153141,10 @@ exports[`Check for unintentional updates Teklo Base Chest (teklo-base-chest) vs 
     "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
-    "LGS187",
     "EVO019",
+    "LGS187",
   ],
   "sets": [
     "Bright Lights",
@@ -151689,10 +153195,10 @@ exports[`Check for unintentional updates Teklo Base Head (teklo-base-head) vs sn
     "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
-    "LGS186",
     "EVO018",
+    "LGS186",
   ],
   "sets": [
     "Bright Lights",
@@ -151743,10 +153249,10 @@ exports[`Check for unintentional updates Teklo Base Legs (teklo-base-legs) vs sn
     "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
-    "LGS189",
     "EVO021",
+    "LGS189",
   ],
   "sets": [
     "Bright Lights",
@@ -151779,6 +153285,7 @@ exports[`Check for unintentional updates Teklo Blaster (teklo-blaster) vs snapsh
   "power": 2,
   "printings": [
     {
+      "foiling": "Cold",
       "identifier": "TCC002",
       "image": "TCC002",
       "set": "Round the Table",
@@ -151860,9 +153367,16 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
       "image": "U-ARC007",
       "set": "Arcane Rising",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "LGS223",
+      "image": "LGS223",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -151871,10 +153385,12 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
   "setIdentifiers": [
     "1HP192",
     "ARC007",
+    "LGS223",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Promos",
   ],
   "specialImage": "ARC007-RF",
   "specializations": [
@@ -151912,11 +153428,6 @@ exports[`Check for unintentional updates Teklo Foundry Heart (teklo-foundry-hear
   "name": "Teklo Foundry Heart",
   "printings": [
     {
-      "identifier": "EVO012",
-      "image": "EVO012",
-      "set": "Bright Lights",
-    },
-    {
       "identifier": "1HP185",
       "image": "1HP185.width-450",
       "set": "History Pack 1",
@@ -151934,6 +153445,11 @@ exports[`Check for unintentional updates Teklo Foundry Heart (teklo-foundry-hear
       "identifier": "ARC004",
       "image": "U-ARC004",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "EVO012",
+      "image": "EVO012",
+      "set": "Bright Lights",
     },
     {
       "foiling": "Gold",
@@ -152002,7 +153518,7 @@ exports[`Check for unintentional updates Teklo Leveler (teklo-leveler) vs snapsh
     {
       "foiling": "Cold",
       "identifier": "LGS190",
-      "image": "LGS190.width-10000",
+      "image": "LGS190",
       "set": "Promos",
     },
   ],
@@ -152010,10 +153526,10 @@ exports[`Check for unintentional updates Teklo Leveler (teklo-leveler) vs snapsh
     "Promo",
     "Token",
   ],
-  "rarity": "Promo",
+  "rarity": "Token",
   "setIdentifiers": [
-    "LGS190",
     "EVO009",
+    "LGS190",
   ],
   "sets": [
     "Bright Lights",
@@ -152193,6 +153709,12 @@ exports[`Check for unintentional updates Teklonetic Force Field (teklonetic-forc
       "image": "EVO233",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO233",
+      "image": "EVO233",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -152233,6 +153755,12 @@ exports[`Check for unintentional updates Teklonetic Force Field (teklonetic-forc
       "image": "EVO231",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO231",
+      "image": "EVO231",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -152269,6 +153797,12 @@ exports[`Check for unintentional updates Teklonetic Force Field (teklonetic-forc
   "pitch": 2,
   "printings": [
     {
+      "identifier": "EVO232",
+      "image": "EVO232",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO232",
       "image": "EVO232",
       "set": "Bright Lights",
@@ -152316,8 +153850,15 @@ exports[`Check for unintentional updates Teklovossen (teklovossen) vs snapshot 1
       "image": "EVO008",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "HER099",
+      "image": "HER099",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
@@ -152326,9 +153867,11 @@ exports[`Check for unintentional updates Teklovossen (teklovossen) vs snapshot 1
   ],
   "setIdentifiers": [
     "EVO008",
+    "HER099",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO008",
   "subtypes": [
@@ -152575,9 +154118,16 @@ exports[`Check for unintentional updates Teklovossen, Esteemed Magnate (teklovos
       "image": "EVO007",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Gold",
+      "identifier": "WIN027",
+      "image": "",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -152586,9 +154136,11 @@ exports[`Check for unintentional updates Teklovossen, Esteemed Magnate (teklovos
   ],
   "setIdentifiers": [
     "EVO007",
+    "WIN027",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO007",
   "subtypes": [],
@@ -152639,14 +154191,14 @@ This counts as having 4 Evos equipped.
       "identifier": "EVO010",
       "image": "EVO010_BACK_V2",
       "set": "Bright Lights",
-      "treatment": "Extended Art",
+      "treatment": "Full Art",
     },
   ],
   "rarities": [
     "Legendary",
     "Marvel",
   ],
-  "rarity": "Marvel",
+  "rarity": "Legendary",
   "restrictedFormats": [
     "Commoner",
   ],
@@ -152846,8 +154398,7 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
   "cost": 6,
   "defaultImage": "EVO055",
   "defense": 3,
-  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card," 
-
+  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card,"
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
 - 4 or more, this gets +3{p}.",
@@ -152859,6 +154410,12 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO055",
+      "image": "EVO055",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO055",
       "image": "EVO055",
       "set": "Bright Lights",
@@ -153467,11 +155024,6 @@ exports[`Check for unintentional updates Throttle (throttle-blue) vs snapshot 1`
   "power": 4,
   "printings": [
     {
-      "identifier": "TCC025",
-      "image": "TCC025",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP210",
       "image": "1HP210.width-450",
       "set": "History Pack 1",
@@ -153502,6 +155054,11 @@ exports[`Check for unintentional updates Throttle (throttle-blue) vs snapshot 1`
       "identifier": "ARC025",
       "image": "U-ARC025",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "TCC025",
+      "image": "TCC025",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -153550,11 +155107,6 @@ exports[`Check for unintentional updates Throttle (throttle-red) vs snapshot 1`]
   "power": 6,
   "printings": [
     {
-      "identifier": "TCC015",
-      "image": "TCC015",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP208",
       "image": "1HP208.width-450",
       "set": "History Pack 1",
@@ -153585,6 +155137,11 @@ exports[`Check for unintentional updates Throttle (throttle-red) vs snapshot 1`]
       "identifier": "ARC023",
       "image": "U-ARC023",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "TCC015",
+      "image": "TCC015",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -153633,11 +155190,6 @@ exports[`Check for unintentional updates Throttle (throttle-yellow) vs snapshot 
   "power": 5,
   "printings": [
     {
-      "identifier": "TCC020",
-      "image": "TCC020",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP209",
       "image": "1HP209.width-450",
       "set": "History Pack 1",
@@ -153668,6 +155220,11 @@ exports[`Check for unintentional updates Throttle (throttle-yellow) vs snapshot 
       "identifier": "ARC024",
       "image": "U-ARC024",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "TCC020",
+      "image": "TCC020",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -154179,6 +155736,12 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
       "image": "EVO074",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO074",
+      "image": "EVO074",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -154277,7 +155840,7 @@ exports[`Check for unintentional updates Tiger Eye Reflex (tiger-eye-reflex-blue
   "defense": 2,
   "functionalText": "**Ambush**
 
-When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn",
+When this defends, create a Crouching Tiger in your banished zone. You may play it during your next turn.",
   "keywords": [
     "Ambush",
   ],
@@ -154325,7 +155888,7 @@ exports[`Check for unintentional updates Tiger Eye Reflex (tiger-eye-reflex-yell
   "defense": 3,
   "functionalText": "**Ambush**
 
-When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn",
+When this defends, create a Crouching Tiger in your banished zone. You may play it during your next turn.",
   "keywords": [
     "Ambush",
   ],
@@ -154719,11 +156282,6 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
   "pitch": 3,
   "printings": [
     {
-      "identifier": "TCC074",
-      "image": "TCC074",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP383",
       "image": "1HP383.width-450",
       "set": "History Pack 1",
@@ -154738,6 +156296,11 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
       "identifier": "RNR029",
       "image": "RNR29.width-450",
       "set": "Rhinar Hero Deck",
+    },
+    {
+      "identifier": "TCC074",
+      "image": "TCC074",
+      "set": "Round the Table",
     },
     {
       "edition": "Alpha",
@@ -155563,6 +157126,12 @@ You may pitch 2 red cards. If you don't, banish your hand.
       "image": "EVO245",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO245",
+      "image": "EVO245",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -155824,6 +157393,12 @@ exports[`Check for unintentional updates Torque Tuned (torque-tuned-blue) vs sna
       "image": "EVO116",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO116",
+      "image": "EVO116",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -155877,6 +157452,12 @@ exports[`Check for unintentional updates Torque Tuned (torque-tuned-red) vs snap
       "image": "EVO114",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO114",
+      "image": "EVO114",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Rare",
@@ -155926,6 +157507,12 @@ exports[`Check for unintentional updates Torque Tuned (torque-tuned-yellow) vs s
   "power": 5,
   "printings": [
     {
+      "identifier": "EVO115",
+      "image": "EVO115",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO115",
       "image": "EVO115",
       "set": "Bright Lights",
@@ -158294,6 +159881,12 @@ exports[`Check for unintentional updates Twin Drive (twin-drive-red) vs snapshot
       "image": "EVO142",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO142",
+      "image": "EVO142",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -158642,6 +160235,12 @@ When this hits, put it on the bottom of its owner's deck.",
       "image": "EVO218",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO218",
+      "image": "EVO218",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -158687,6 +160286,12 @@ When this hits, put it on the bottom of its owner's deck.",
   "power": 4,
   "printings": [
     {
+      "identifier": "EVO216",
+      "image": "EVO216",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO216",
       "image": "EVO216",
       "set": "Bright Lights",
@@ -158743,6 +160348,12 @@ When this hits, put it on the bottom of its owner's deck.",
   "power": 3,
   "printings": [
     {
+      "identifier": "EVO217",
+      "image": "EVO217",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO217",
       "image": "EVO217",
       "set": "Bright Lights",
@@ -159973,7 +161584,7 @@ exports[`Check for unintentional updates Uzuri, Switchblade (uzuri-switchblade) 
     {
       "foiling": "Gold",
       "identifier": "WIN021",
-      "image": "",
+      "image": "WIN021",
       "set": "Promos",
     },
   ],
@@ -162001,7 +163612,7 @@ exports[`Check for unintentional updates Vigor (vigor) vs snapshot 1`] = `
     "Generic",
   ],
   "defaultImage": "TCC107",
-  "functionalText": "At the start of your turn, destroy this and gain {h}.",
+  "functionalText": "At the start of your turn, destroy this and gain {r}.",
   "name": "Vigor",
   "printings": [
     {
@@ -162753,7 +164364,6 @@ exports[`Check for unintentional updates Viserai, Rune Blood (viserai-rune-blood
     },
     {
       "edition": "Unlimited",
-      "foiling": "Rainbow",
       "identifier": "CRU138",
       "image": "U-CRU138",
       "set": "Crucible of War",
@@ -162773,7 +164383,7 @@ exports[`Check for unintentional updates Viserai, Rune Blood (viserai-rune-blood
     {
       "foiling": "Gold",
       "identifier": "WIN007",
-      "image": "",
+      "image": "WIN007",
       "set": "Promos",
     },
   ],
@@ -163647,7 +165257,7 @@ exports[`Check for unintentional updates Voltic Bolt (voltic-bolt-yellow) vs sna
   "printings": [
     {
       "identifier": "1HP336",
-      "image": "",
+      "image": "1HP336.width-450",
       "set": "History Pack 1",
     },
     {
@@ -163794,9 +165404,16 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       "image": "DTD133",
       "set": "Dusk till Dawn",
     },
+    {
+      "foiling": "Gold",
+      "identifier": "WIN024",
+      "image": "WIN024",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "restrictedFormats": [
@@ -163805,9 +165422,11 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
   ],
   "setIdentifiers": [
     "DTD133",
+    "WIN024",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
   "specialImage": "DTD133",
   "subtypes": [],
@@ -164190,7 +165809,7 @@ exports[`Check for unintentional updates War Machine (war-machine-red) vs snapsh
   "cost": 6,
   "defaultImage": "EVO056",
   "defense": 3,
-  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards in their arsenal," 
+  "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards in their arsenal,""
 
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
@@ -164203,6 +165822,12 @@ exports[`Check for unintentional updates War Machine (war-machine-red) vs snapsh
   "power": 6,
   "printings": [
     {
+      "identifier": "EVO056",
+      "image": "EVO056",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO056",
       "image": "EVO056",
       "set": "Bright Lights",
@@ -164273,9 +165898,16 @@ exports[`Check for unintentional updates Warband of Bellona (warband-of-bellona)
       "image": "EVO247",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Gold",
+      "identifier": "FAB171",
+      "image": "FAB171",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "restrictedFormats": [
@@ -164283,9 +165915,11 @@ exports[`Check for unintentional updates Warband of Bellona (warband-of-bellona)
   ],
   "setIdentifiers": [
     "EVO247",
+    "FAB171",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO247_V2",
   "subtypes": [
@@ -165362,6 +166996,12 @@ exports[`Check for unintentional updates Wax Off (wax-off-blue) vs snapshot 1`] 
   "pitch": 3,
   "printings": [
     {
+      "identifier": "EVO239",
+      "image": "EVO239",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO239",
       "image": "EVO239",
       "set": "Bright Lights",
@@ -170764,6 +172404,12 @@ exports[`Check for unintentional updates Zero to Fifty (zero-to-fifty-blue) vs s
       "image": "EVO164",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO164",
+      "image": "EVO164",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -170811,6 +172457,12 @@ exports[`Check for unintentional updates Zero to Fifty (zero-to-fifty-red) vs sn
       "image": "EVO162",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "EVO162",
+      "image": "EVO162",
+      "set": "Bright Lights",
+    },
   ],
   "rarities": [
     "Common",
@@ -170854,6 +172506,12 @@ exports[`Check for unintentional updates Zero to Fifty (zero-to-fifty-yellow) vs
   "power": 2,
   "printings": [
     {
+      "identifier": "EVO163",
+      "image": "EVO163",
+      "set": "Bright Lights",
+    },
+    {
+      "foiling": "Rainbow",
       "identifier": "EVO163",
       "image": "EVO163",
       "set": "Bright Lights",
@@ -170977,11 +172635,6 @@ exports[`Check for unintentional updates Zero to Sixty (zero-to-sixty-red) vs sn
   "power": 4,
   "printings": [
     {
-      "identifier": "TCC017",
-      "image": "TCC017",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP211",
       "image": "1HP211.width-450",
       "set": "History Pack 1",
@@ -171013,19 +172666,34 @@ exports[`Check for unintentional updates Zero to Sixty (zero-to-sixty-red) vs sn
       "image": "U-ARC026",
       "set": "Arcane Rising",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB177",
+      "image": "",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+    },
+    {
+      "identifier": "TCC017",
+      "image": "TCC017",
+      "set": "Round the Table",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "1HP211",
     "ARC026",
+    "FAB177",
     "TCC017",
   ],
   "sets": [
     "Arcane Rising",
     "History Pack 1",
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "ARC026-RF",
@@ -171212,11 +172880,6 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-red) vs snapshot
   "power": 5,
   "printings": [
     {
-      "identifier": "TCC018",
-      "image": "TCC018",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP214",
       "image": "1HP214.width-450",
       "set": "History Pack 1",
@@ -171247,6 +172910,11 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-red) vs snapshot
       "identifier": "ARC029",
       "image": "U-ARC029",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "TCC018",
+      "image": "TCC018",
+      "set": "Round the Table",
     },
   ],
   "rarities": [
@@ -171295,11 +172963,6 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-yellow) vs snaps
   "power": 4,
   "printings": [
     {
-      "identifier": "TCC021",
-      "image": "TCC021",
-      "set": "Round the Table",
-    },
-    {
       "identifier": "1HP215",
       "image": "1HP215.width-450",
       "set": "History Pack 1",
@@ -171330,6 +172993,11 @@ exports[`Check for unintentional updates Zipper Hit (zipper-hit-yellow) vs snaps
       "identifier": "ARC030",
       "image": "U-ARC030",
       "set": "Arcane Rising",
+    },
+    {
+      "identifier": "TCC021",
+      "image": "TCC021",
+      "set": "Round the Table",
     },
   ],
   "rarities": [

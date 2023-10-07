@@ -68,7 +68,7 @@
     artists: ["Kanadekana"],
     cardIdentifier: "proclamation-of-abundance",
     classes: [Class.Adjudicator],
-    defaultImage: "JDG009",
+    defaultImage: "JDG010",
     name: "Proclamation of Abundance",
     printings: [{
       foiling: Foiling.R,
@@ -86,6 +86,12 @@
       foiling: Foiling.C,
       identifier: "JDG009",
       image: "JDG009",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "JDG010",
+      image: "JDG010",
       set: Release.Promos,
       
     },],
@@ -111,16558 +117,6 @@
     
     
     restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "master-cog-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO000",
-    name: "Master Cog",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO000",
-      image: "EVO000",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "EVO000",
-      image: "EVO000",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Fabled],
-    rarity: Rarity.Fabled,
-    setIdentifiers: ["EVO000"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO000",
-    subtypes: [Subtype.Gem],
-    types: [Type.Resource],
-    typeText: "Mechanologist Resource - Gem",
-
-    
-    
-    functionalText: `**Legendary**
-
-When this is pitched, you may put a steam counter on an item you control with **crank**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Legendary],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "dash-io",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO001",
-    name: "Dash I/O",
-    printings: [{
-      
-      identifier: "EVO001",
-      image: "EVO001",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO001"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO001",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Mechanologist Hero",
-
-    
-    
-    functionalText: `You may look at the top card of your deck at any time.
-
-Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.`,
-    
-    hero: Hero.Dash,
-    intellect: 4,
-    
-    
-    life: 36,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "dash-database",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO002",
-    name: "Dash, Database",
-    printings: [{
-      
-      identifier: "EVO002",
-      image: "EVO002",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO002"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO002",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Mechanologist Hero - Young",
-
-    
-    
-    functionalText: `You may look at the top card of your deck at any time.
-
-Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.`,
-    
-    hero: Hero.Dash,
-    intellect: 4,
-    
-    
-    life: 18,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "symbiosis-shot",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO003",
-    name: "Symbiosis Shot",
-    printings: [{
-      
-      identifier: "EVO003",
-      image: "EVO003",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO003"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO003",
-    subtypes: [Subtype.TwoHanded,Subtype.Gun],
-    types: [Type.Weapon],
-    typeText: "Mechanologist Weapon - Gun (2H)",
-
-    
-    
-    functionalText: `**Dash Specialization**
-
-**Action** - Remove a steam counter from this: **Attack**
-
-Whenever a Mechanologist item enters the arena under your control, if this has fewer than 6 steam counters, you may put a steam counter on this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    
-    power: 2,
-    
-    
-    
-    
-    
-    specializations: [Hero.Dash],
-    
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "maxx-the-hype-nitro",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO004",
-    name: "Maxx 'The Hype' Nitro",
-    printings: [{
-      
-      identifier: "EVO004",
-      image: "EVO004",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO004"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO004",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Mechanologist Hero",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
-
-Hyper Drivers you control get **Crank**.`,
-    
-    hero: Hero.Maxx,
-    intellect: 4,
-    
-    keywords: [Keyword.Crank],
-    life: 40,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateus Manhanini"],
-    cardIdentifier: "maxx-nitro",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO005",
-    name: "Maxx Nitro",
-    printings: [{
-      
-      identifier: "EVO005",
-      image: "EVO005",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO005"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO005",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Mechanologist Hero - Young",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
-
-Hyper Drivers you control get **Crank**.`,
-    
-    hero: Hero.Maxx,
-    intellect: 4,
-    
-    keywords: [Keyword.Crank],
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Mateus Manhanini"],
-    cardIdentifier: "banksy",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO006",
-    name: "Banksy",
-    printings: [{
-      
-      identifier: "EVO006",
-      image: "EVO006",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO006"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO006",
-    subtypes: [Subtype.TwoHanded,Subtype.Wrench],
-    types: [Type.Weapon],
-    typeText: "Mechanologist Weapon - Wrench (2H)",
-
-    
-    
-    functionalText: `**Maxx Specialization**
-
-**Once per Turn Action** - {r}: **Attack**. Activate this ability only if you've **cranked** this turn.
-
-When this hits a hero, put a steam counter on an item you control with **crank**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    
-    power: 3,
-    
-    
-    
-    
-    
-    specializations: [Hero.Maxx],
-    
-    
-  },{
-    artists: ["Simon Dominic"],
-    cardIdentifier: "teklovossen-esteemed-magnate",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO007",
-    name: "Teklovossen, Esteemed Magnate",
-    printings: [{
-      
-      identifier: "EVO007",
-      image: "EVO007",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO007"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO007",
-    subtypes: [],
-    types: [Type.Hero],
-    typeText: "Mechanologist Hero",
-
-    
-    
-    functionalText: `You may play Evos from your banished zone.
-
-**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.`,
-    
-    hero: Hero.Teklovossen,
-    intellect: 4,
-    
-    
-    life: 40,
-    
-    
-    
-    restrictedFormats: [Format.Blitz,Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Simon Dominic"],
-    cardIdentifier: "teklovossen",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO008",
-    name: "Teklovossen",
-    printings: [{
-      
-      identifier: "EVO008",
-      image: "EVO008",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO008"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO008",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Mechanologist Hero - Young",
-
-    
-    
-    functionalText: `You may play Evos from your banished zone.
-
-**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.`,
-    
-    hero: Hero.Teklovossen,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "teklo-leveler",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO009",
-    name: "Teklo Leveler",
-    printings: [{
-      
-      identifier: "EVO009",
-      image: "EVO009",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS190",
-      image: "LGS190.width-10000",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS190","EVO009"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "EVO009",
-    subtypes: [Subtype.TwoHanded,Subtype.Gun],
-    types: [Type.Weapon],
-    typeText: "Mechanologist Weapon - Gun (2H)",
-
-    
-    
-    functionalText: `If you have 1 or more Evos equipped, this gets "**Once per Turn Action** - {r}{r}{r}: **Attack**,"
-
-* 2 or more, this costs {r}{r} less to activate,
-* 3 or more, this gets **go again**,
-* 4 or more, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "singularity-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO010",
-    name: "Singularity",
-    printings: [{
-      
-      identifier: "EVO010",
-      image: "EVO010",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO010",
-      image: "EVO010_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Legendary,Rarity.Marvel],
-    rarity: Rarity.Marvel,
-    setIdentifiers: ["EVO010"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO010_V2",
-    subtypes: [Subtype.Construct,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Construct",
-
-    cost: 6,
-    defense: 3,
-    functionalText: `**Legendary Teklovossen Specialization**
-
-**Transform** your hero, your weapon, and 4 Evos you have equipped into Teklovossen, the Mechropotent. It enters the arena with {h} equal to the hero it transformed from.`,
-    
-    
-    
-    
-    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Transform],
-    
-    oppositeSideCardIdentifier: `teklovossen-the-mechropotent`,
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    specializations: [Hero.Teklovossen],
-    
-    
-  },{
-    artists: ["Billy Christian"],
-    cardIdentifier: "teklovossen-the-mechropotent",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO010_BACK",
-    name: "Teklovossen, the Mechropotent",
-    printings: [{
-      
-      identifier: "EVO010",
-      image: "EVO010_BACK",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO010",
-      image: "EVO010_BACK_V2",
-      set: Release.BrightLights,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Legendary,Rarity.Marvel],
-    rarity: Rarity.Marvel,
-    setIdentifiers: ["EVO010"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO010_BACK_V2",
-    subtypes: [Subtype.Evo],
-    types: [Type.DemiHero,Type.Equipment],
-    typeText: "Shadow Mechanologist Demi-Hero Equipment - Evo",
-
-    
-    defense: 6,
-    functionalText: `**Action** - {r}{r}{r}, banish 2 cards from your soul: **Attack**
-
-Whenever this attacks a hero, they discard a card.
-
-Your Mechanologist attack action cards get **go again**.
-
-This counts as having 4 Evos equipped.
-
-**Battleworn**`,
-    
-    
-    intellect: 3,
-    isCardBack: true,
-    keywords: [Keyword.Battleworn,Keyword.GoAgain],
-    
-    oppositeSideCardIdentifier: `singularity-red`,
-    
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    specialLife: "*",
-    
-    
-    talents: [Talent.Shadow],
-    
-  },{
-    artists: ["soyameii"],
-    cardIdentifier: "hyper-x",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO011",
-    name: "Hyper-X3",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO011",
-      image: "EVO011_V2",
-      set: Release.BrightLights,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "EVO011",
-      image: "EVO011",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["EVO011"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO011_V2",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Head",
-
-    
-    defense: 1,
-    functionalText: `Whenever you banish a Hyper Driver from **boosting**, put it under this.
-
-Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Pavel Chuvin"],
-    cardIdentifier: "teklo-foundry-heart",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO012",
-    name: "Teklo Foundry Heart",
-    printings: [{
-      
-      identifier: "EVO012",
-      image: "EVO012",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "1HP185",
-      image: "1HP185.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.C,
-      identifier: "ARC004",
-      image: "ARC004",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC004",
-      image: "U-ARC004",
-      set: Release.ArcaneRising,
-      
-    },{
-      foiling: Foiling.G,
-      identifier: "FAB008",
-      image: "FAB008",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Legendary,Rarity.Promo],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["1HP185","ARC004","EVO012","FAB008"],
-    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos],
-    specialImage: "ARC004",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Chest",
-
-    
-    defense: 2,
-    functionalText: `**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you've **boosted** this turn. **Go again**
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.GoAgain],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "adaptive-plating",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO013",
-    name: "Adaptive Plating",
-    printings: [{
-      
-      identifier: "EVO013",
-      image: "EVO013",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["EVO013"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO013",
-    subtypes: [],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment",
-
-    
-    defense: 1,
-    functionalText: `**Modular**
-
-**Action** - 0: Equip this to another equipment zone.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d} until end of turn.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Galvanize,Keyword.Modular],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maxim Nikiforov"],
-    cardIdentifier: "cogwerx-base-head",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO014",
-    name: "Cogwerx Base Head",
-    printings: [{
-      
-      identifier: "EVO014",
-      image: "EVO014",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO014"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO014",
-    subtypes: [Subtype.Base,Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Head",
-
-    
-    
-    functionalText: `When this is equipped, put a steam counter on it.
-
-**Once per turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Irina Si"],
-    cardIdentifier: "cogwerx-base-chest",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO015",
-    name: "Cogwerx Base Chest",
-    printings: [{
-      
-      identifier: "EVO015",
-      image: "EVO015",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO015"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO015",
-    subtypes: [Subtype.Base,Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Chest",
-
-    
-    
-    functionalText: `When this is equipped, put a steam counter on it.
-
-**Once per turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Elizaveta Alipatova"],
-    cardIdentifier: "cogwerx-base-arms",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO016",
-    name: "Cogwerx Base Arms",
-    printings: [{
-      
-      identifier: "EVO016",
-      image: "EVO016",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO016"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO016",
-    subtypes: [Subtype.Arms,Subtype.Base],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Arms",
-
-    
-    
-    functionalText: `When this is equipped, put a steam counter on it.
-
-**Once per turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Irina Si"],
-    cardIdentifier: "cogwerx-base-legs",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO017",
-    name: "Cogwerx Base Legs",
-    printings: [{
-      
-      identifier: "EVO017",
-      image: "EVO017",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO017"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO017",
-    subtypes: [Subtype.Base,Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Legs",
-
-    
-    
-    functionalText: `When this is equipped, put a steam counter on it.
-
-**Once per turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "teklo-base-head",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO018",
-    name: "Teklo Base Head",
-    printings: [{
-      
-      identifier: "EVO018",
-      image: "EVO018",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS186",
-      image: "LGS186",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS186","EVO018"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "EVO018",
-    subtypes: [Subtype.Base,Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Head",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Septimius Ferdian"],
-    cardIdentifier: "teklo-base-chest",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO019",
-    name: "Teklo Base Chest",
-    printings: [{
-      
-      identifier: "EVO019",
-      image: "EVO019",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS187",
-      image: "LGS187",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS187","EVO019"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "EVO019",
-    subtypes: [Subtype.Base,Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Chest",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Lizhe Liang"],
-    cardIdentifier: "teklo-base-arms",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO020",
-    name: "Teklo Base Arms",
-    printings: [{
-      
-      identifier: "EVO020",
-      image: "EVO020",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS188",
-      image: "LGS188",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS188","EVO020"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "EVO020",
-    subtypes: [Subtype.Arms,Subtype.Base],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Arms",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Erick Efata"],
-    cardIdentifier: "teklo-base-legs",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO021",
-    name: "Teklo Base Legs",
-    printings: [{
-      
-      identifier: "EVO021",
-      image: "EVO021",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS189",
-      image: "LGS189",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS189","EVO021"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "EVO021",
-    subtypes: [Subtype.Base,Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Legs",
-
-    
-    defense: 1,
-    functionalText: `**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Grigoriy Parshakov","Vlad Tashkinov"],
-    cardIdentifier: "proto-base-head",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO022",
-    name: "Proto Base Head",
-    printings: [{
-      
-      identifier: "EVO022",
-      image: "EVO022",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC005",
-      image: "TCC005",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO022","TCC005"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO022",
-    subtypes: [Subtype.Base,Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Head",
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Dmitriy Semyonov","Dmitry Semyonov"],
-    cardIdentifier: "proto-base-chest",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO023",
-    name: "Proto Base Chest",
-    printings: [{
-      
-      identifier: "EVO023",
-      image: "EVO023",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC004",
-      image: "TCC004",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO023","TCC004"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO023",
-    subtypes: [Subtype.Base,Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Chest",
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Grigoriy Parshakov","Vlas Tashkinov"],
-    cardIdentifier: "proto-base-arms",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO024",
-    name: "Proto Base Arms",
-    printings: [{
-      
-      identifier: "EVO024",
-      image: "EVO024",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC003",
-      image: "TCC003",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO024","TCC003"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO024",
-    subtypes: [Subtype.Arms,Subtype.Base],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Arms",
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Revazashvili E."],
-    cardIdentifier: "proto-base-legs",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO025",
-    name: "Proto Base Legs",
-    printings: [{
-      
-      identifier: "EVO025",
-      image: "EVO025",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC006",
-      image: "TCC006",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["EVO025","TCC006"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO025",
-    subtypes: [Subtype.Base,Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Mechanologist Equipment - Base Legs",
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kimberly Pantoni"],
-    cardIdentifier: "evo-steel-soul-memory-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO026",
-    name: "Evo Steel Soul Memory",
-    printings: [{
-      
-      identifier: "EVO026",
-      image: "EVO026",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO026",
-      image: "EVO026_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Marvel,
-    setIdentifiers: ["EVO026"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO026_V2",
-    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Head",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
-
-When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. If that Evo is a hero, instead this triggers twice.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "evo-steel-soul-processor-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO027",
-    name: "Evo Steel Soul Processor",
-    printings: [{
-      
-      identifier: "EVO027",
-      image: "EVO027",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO027",
-      image: "EVO027_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Marvel,
-    setIdentifiers: ["EVO027"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO027_V2",
-    subtypes: [Subtype.Base,Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Chest",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
-
-When this **transforms** from or into an Evo with a different name, gain {r}{r}{r}. If that Evo is a hero, instead this triggers twice.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "evo-steel-soul-controller-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO028",
-    name: "Evo Steel Soul Controller",
-    printings: [{
-      
-      identifier: "EVO028",
-      image: "EVO028",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO028",
-      image: "EVO028_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Marvel,
-    setIdentifiers: ["EVO028"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO028_V2",
-    subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Arms",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `If you have base arms equipped, **transform** it into this, then equip this.
-
-When this **transforms** from or into an Evo with a different name, you may put an attack action card with 6{p} from your graveyard into your deck fifth from the top. If that Evo is a hero, instead this triggers twice.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kimberly Pantoni"],
-    cardIdentifier: "evo-steel-soul-tower-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO029",
-    name: "Evo Steel Soul Tower",
-    printings: [{
-      
-      identifier: "EVO029",
-      image: "EVO029",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO029",
-      image: "EVO029_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Marvel,
-    setIdentifiers: ["EVO029"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO029_V2",
-    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Legs",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
-
-When this **transforms** from or into an Evo with a different name, gain 1 action point. If that Evo is a hero, instead this triggers twice.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "evo-circut-breaker-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO030",
-    name: "Evo Circut Breaker",
-    printings: [{
-      
-      identifier: "EVO030",
-      image: "EVO030",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO030",
-      image: "EVO030_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO030"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO030_V2",
-    subtypes: [Subtype.Evo,Subtype.Head],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Head",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base head equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
-
-Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "evo-atom-breaker-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO031",
-    name: "Evo Atom Breaker",
-    printings: [{
-      
-      identifier: "EVO031",
-      image: "EVO031",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO031",
-      image: "EVO031_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO031"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO031_V2",
-    subtypes: [Subtype.Chest,Subtype.Evo],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Chest",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base chest equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
-
-Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "evo-face-breaker-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO032",
-    name: "Evo Face Breaker",
-    printings: [{
-      
-      identifier: "EVO032",
-      image: "EVO032",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO032",
-      image: "EVO032_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO032"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO032_V2",
-    subtypes: [Subtype.Arms,Subtype.Evo],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Arms",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base arms equipped, **transforms** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
-
-Whenever you **boost** an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "evo-mach-breaker-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO033",
-    name: "Evo Mach Breaker",
-    printings: [{
-      
-      identifier: "EVO033",
-      image: "EVO033",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "EVO033",
-      image: "EVO033_V2",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO033"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO033_V2",
-    subtypes: [Subtype.Evo,Subtype.Legs],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Legs",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base legs equiped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
-
-Whenever you **boost**, you may destroy a card under this. If you do, create a Quicken token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "evo-command-center-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO034",
-    name: "Evo Command Center",
-    printings: [{
-      
-      identifier: "EVO034",
-      image: "EVO034",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO034"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO034",
-    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Head",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets "When this hits, draw a card."
- 
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "evo-engine-room-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO035",
-    name: "Evo Engine Room",
-    printings: [{
-      
-      identifier: "EVO035",
-      image: "EVO035",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO035"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO035",
-    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Chest",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn costs {r} less to activate.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "evo-smoothbore-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO036",
-    name: "Evo Smoothbore",
-    printings: [{
-      
-      identifier: "EVO036",
-      image: "EVO036",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO036"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO036",
-    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Arms",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets +1{p}.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "evo-thruster-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO037",
-    name: "Evo Thruster",
-    printings: [{
-      
-      identifier: "EVO037",
-      image: "EVO037",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO037"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO037",
-    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Legs",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: You may attack an additional time with target weapon this turn.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Revazashvili E."],
-    cardIdentifier: "evo-tekloscope-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO038",
-    name: "Evo Tekloscope",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO038",
-      image: "EVO038",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC007",
-      image: "TCC007",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO038","TCC007"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO038",
-    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Head",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
-
-Your Teklo Blaster attacks can target any opposing hero.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Elena Bakulina"],
-    cardIdentifier: "evo-energy-matrix-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO039",
-    name: "Evo Energy Matrix",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO039",
-      image: "EVO039",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC008",
-      image: "TCC008",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO039","TCC008"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO039",
-    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Chest",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
-
-Your Teklo Blaster costs {r} less to activate for each opposing hero.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Anastasia Pronina"],
-    cardIdentifier: "evo-scatter-shot-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO040",
-    name: "Evo Scatter Shot",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO040",
-      image: "EVO040",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC009",
-      image: "TCC009",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO040","TCC009"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO040",
-    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Arms",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
-
-Your Teklo Blaster gets +1{p} for each opposing hero.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Irina Si"],
-    cardIdentifier: "evo-rapid-fire-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO041",
-    name: "Evo Rapid Fire",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO041",
-      image: "EVO041",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC010",
-      image: "TCC010",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO041","TCC010"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO041",
-    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Legs",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
-
-Your Teklo Blaster attacks get **go again**.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "evo-sentry-base-head-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO042",
-    name: "Evo Sentry Base Head",
-    printings: [{
-      
-      identifier: "EVO042",
-      image: "EVO042",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO042"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO042",
-    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Head",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "evo-sentry-base-chest-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO043",
-    name: "Evo Sentry Base Chest",
-    printings: [{
-      
-      identifier: "EVO043",
-      image: "EVO043",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO043"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO043",
-    subtypes: [Subtype.Base,Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Chest",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "evo-sentry-base-arms-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO044",
-    name: "Evo Sentry Base Arms",
-    printings: [{
-      
-      identifier: "EVO044",
-      image: "EVO044",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO044"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO044",
-    subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Arms",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "evo-sentry-base-legs-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO045",
-    name: "Evo Sentry Base Legs",
-    printings: [{
-      
-      identifier: "EVO045",
-      image: "EVO045",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO045"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO045",
-    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Base Legs",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn,Keyword.Transform],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ramza Ardyputra"],
-    cardIdentifier: "evo-data-mine-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO046",
-    name: "Evo Data Mine",
-    printings: [{
-      
-      identifier: "EVO046",
-      image: "EVO046",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO046"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO046",
-    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Head",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ramza Ardyputra"],
-    cardIdentifier: "evo-battery-pack-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO047",
-    name: "Evo Battery Pack",
-    printings: [{
-      
-      identifier: "EVO047",
-      image: "EVO047",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO047"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO047",
-    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Chest",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: Put a steam counter on an item you control with crank.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ramza Ardyputra"],
-    cardIdentifier: "evo-cogspitter-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO048",
-    name: "Evo Cogspitter",
-    printings: [{
-      
-      identifier: "EVO048",
-      image: "EVO048",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO048"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO048",
-    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Arms",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ramza Ardyputra"],
-    cardIdentifier: "evo-charging-rods-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO049",
-    name: "Evo Charging Rods",
-    printings: [{
-      
-      identifier: "EVO049",
-      image: "EVO049",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO049"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO049",
-    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
-    types: [Type.Action,Type.Equipment],
-    typeText: "Mechanologist Action Equipment - Evo Legs",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
-
-**Once per Turn Instant** - Destroy a card under this: Create a Quicken token.
-
-**Blade Break**`,
-    
-    
-    
-    
-    keywords: [Keyword.BladeBreak,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "evo-zoom-call-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO050",
-    name: "Evo Zoom Call",
-    printings: [{
-      
-      identifier: "EVO050",
-      image: "EVO050",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO050"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO050",
-    subtypes: [Subtype.Evo,Subtype.Head],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Head",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
-
-When this is equipped, you may banish a card from you hand. If you do, draw a card.`,
-    
-    
-    
-    
-    keywords: [Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "evo-buzz-hive-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO051",
-    name: "Evo Buzz Hive",
-    printings: [{
-      
-      identifier: "EVO051",
-      image: "EVO051",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO051"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO051",
-    subtypes: [Subtype.Chest,Subtype.Evo],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Chest",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
-
-When this is equipped, gain {r}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "evo-whizz-bang-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO052",
-    name: "Evo Whizz Bang",
-    printings: [{
-      
-      identifier: "EVO052",
-      image: "EVO052",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO052"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO052",
-    subtypes: [Subtype.Arms,Subtype.Evo],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Arms",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
-
-When this is equipped, up to 1 target attack gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "evo-zip-line-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO053",
-    name: "Evo Zip Line",
-    printings: [{
-      
-      identifier: "EVO053",
-      image: "EVO053",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO053"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO053",
-    subtypes: [Subtype.Evo,Subtype.Legs],
-    types: [Type.Equipment,Type.Instant],
-    typeText: "Mechanologist Instant Equipment - Evo Legs",
-
-    cost: 0,
-    defense: 0,
-    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
-
-When this is equipped, up to 1 target attack gets **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain,Keyword.Transform],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "annihilator-engine-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO054",
-    name: "Annihilator Engine",
-    printings: [{
-      
-      identifier: "EVO054",
-      image: "EVO054",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "EVO054",
-      image: "EVO054_V2",
-      set: Release.BrightLights,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO054"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO054_V2",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 6,
-    defense: 3,
-    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards defending this," 
-
-- 2 or more, this costs {r}{r}{r} less to play,
-- 3 or more, this gets **overpower**,
-- 4 or more, this gets +3{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Overpower],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Simon Dominic"],
-    cardIdentifier: "terminator-tank-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO055",
-    name: "Terminator Tank",
-    printings: [{
-      
-      identifier: "EVO055",
-      image: "EVO055",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "EVO055",
-      image: "EVO055_V2",
-      set: Release.BrightLights,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO055"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO055_V2",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 6,
-    defense: 3,
-    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card," 
-
-- 2 or more, this costs {r}{r}{r} less to play,
-- 3 or more, this gets **overpower**,
-- 4 or more, this gets +3{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Overpower],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Federico Musetti"],
-    cardIdentifier: "war-machine-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO056",
-    name: "War Machine",
-    printings: [{
-      
-      identifier: "EVO056",
-      image: "EVO056",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "EVO056",
-      image: "EVO056_V2",
-      set: Release.BrightLights,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO056"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO056_V2",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 6,
-    defense: 3,
-    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards in their arsenal," 
-
-- 2 or more, this costs {r}{r}{r} less to play,
-- 3 or more, this gets **overpower**,
-- 4 or more, this gets +3{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Overpower],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "demolition-protocol-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO057",
-    name: "Demolition Protocol",
-    printings: [{
-      
-      identifier: "EVO057",
-      image: "EVO057",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "FAB174",
-      image: "FAB174",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB174","EVO057"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "FAB174",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 7,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Asur Misoa"],
-    cardIdentifier: "pulsewave-protocol-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO058",
-    name: "Pulsewave Protocol",
-    printings: [{
-      
-      identifier: "EVO058",
-      image: "EVO058",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "FAB173",
-      image: "FAB173",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB173","EVO058"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "FAB173",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 2,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "meganetic-protocol-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO059",
-    name: "Meganetic Protocol",
-    printings: [{
-      
-      identifier: "EVO059",
-      image: "EVO059",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "FAB172",
-      image: "FAB172",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB172","EVO059"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "FAB172",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "steel-street-enforcement-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO060",
-    name: "Steel Street Enforcement",
-    printings: [{
-      
-      identifier: "EVO060",
-      image: "EVO060",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO060"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO060",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 1,
-    functionalText: `**Evo Upgrade** - While this is defending, it gets +X{d} where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "heavy-artillery-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO061",
-    name: "Heavy Artillery",
-    printings: [{
-      
-      identifier: "EVO061",
-      image: "EVO061",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS191",
-      image: "LGS191.width-10000",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS191","EVO061"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS191.width-10000",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "heavy-artillery-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO062",
-    name: "Heavy Artillery",
-    printings: [{
-      
-      identifier: "EVO062",
-      image: "EVO062",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS192",
-      image: "LGS192.width-10000",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS192","EVO062"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS192.width-10000",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "heavy-artillery-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO063",
-    name: "Heavy Artillery",
-    printings: [{
-      
-      identifier: "EVO063",
-      image: "EVO063",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS193",
-      image: "LGS193.width-10000",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS193","EVO063"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "LGS193.width-10000",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "liquid-cooled-mayhem-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO064",
-    name: "Liquid-Cooled Mayhem",
-    printings: [{
-      
-      identifier: "EVO064",
-      image: "EVO064",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC012",
-      image: "TCC012",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO064","TCC012"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO064",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "liquid-cooled-mayhem-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO065",
-    name: "Liquid-Cooled Mayhem",
-    printings: [{
-      
-      identifier: "EVO065",
-      image: "EVO065",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO065"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO065",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tanapon Wachirakul"],
-    cardIdentifier: "liquid-cooled-mayhem-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO066",
-    name: "Liquid-Cooled Mayhem",
-    printings: [{
-      
-      identifier: "EVO066",
-      image: "EVO066",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC023",
-      image: "TCC023",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO066","TCC023"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO066",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "mechanical-strength-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO067",
-    name: "Mechanical Strength",
-    printings: [{
-      
-      identifier: "EVO067",
-      image: "EVO067",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC013",
-      image: "TCC013",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO067","TCC013"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO067",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "mechanical-strength-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO068",
-    name: "Mechanical Strength",
-    printings: [{
-      
-      identifier: "EVO068",
-      image: "EVO068",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO068"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO068",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 2,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "mechanical-strength-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO069",
-    name: "Mechanical Strength",
-    printings: [{
-      
-      identifier: "EVO069",
-      image: "EVO069",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC024",
-      image: "TCC024",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO069","TCC024"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO069",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 3,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "grinding-gears-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO070",
-    name: "Grinding Gears",
-    printings: [{
-      
-      identifier: "EVO070",
-      image: "EVO070",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO070"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO070",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Action** - 0: Target hero destroys the top card of their deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexis Susani"],
-    cardIdentifier: "prismatic-lens-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO071",
-    name: "Prismatic Lens",
-    printings: [{
-      
-      identifier: "EVO071",
-      image: "EVO071",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO071"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO071",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Once per Turn Instant** - 0: Reveal the top card of your deck. Put a Mechanologist item of the same color from your banished zone on top of your deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Reza Afshar"],
-    cardIdentifier: "quantum-processor-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO072",
-    name: "Quantum Processor",
-    printings: [{
-      
-      identifier: "EVO072",
-      image: "EVO072",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO072"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO072",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Once per Turn Instant** - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "stasis-cell-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO073",
-    name: "Stasis Cell",
-    printings: [{
-      
-      identifier: "EVO073",
-      image: "EVO073",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO073"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO073",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.
-
-**Action** - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank,Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["MJ Fetesio"],
-    cardIdentifier: "tick-tock-clock-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO074",
-    name: "Tick Tock Clock",
-    printings: [{
-      
-      identifier: "EVO074",
-      image: "EVO074",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO074"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO074",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.
-
-When a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "fuel-injector-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO075",
-    name: "Fuel Injector",
-    printings: [{
-      
-      identifier: "EVO075",
-      image: "EVO075",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO075"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO075",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Instant** - Put this on the bottom of its owner's deck: Gain {r}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rachel Alderson"],
-    cardIdentifier: "medkit-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO076",
-    name: "Medkit",
-    printings: [{
-      
-      identifier: "EVO076",
-      image: "EVO076",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO076"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO076",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Put this on the bottom of its owner's deck: Gain 2{h}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "steam-canister-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO077",
-    name: "Steam Canister",
-    printings: [{
-      
-      identifier: "EVO077",
-      image: "EVO077",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO077"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO077",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Instant** - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with **crank**.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "polarity-reversal-script-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO078",
-    name: "Polarity Reversal Script",
-    printings: [{
-      
-      identifier: "EVO078",
-      image: "EVO078",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO078"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO078",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-Action cards get -1{d} while defending your Mechanologist attack action cards.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "penetration-script-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO079",
-    name: "Penetration Script",
-    printings: [{
-      
-      identifier: "EVO079",
-      image: "EVO079",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO079"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO079",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-Your Mechanologist attack action cards get +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Aluisio Cervelle"],
-    cardIdentifier: "security-script-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO080",
-    name: "Security Script",
-    printings: [{
-      
-      identifier: "EVO080",
-      image: "EVO080",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO080"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO080",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-Your Mechanologist attack action cards get +1{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rachel Alderson"],
-    cardIdentifier: "backup-protocol-red-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO081",
-    name: "Backup Protocol: RED",
-    printings: [{
-      
-      identifier: "EVO081",
-      image: "EVO081",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO081"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO081",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Instant** - {r}{r}, destroy this: Return a red Mechanologist attack action card from your graveyard to your hand.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rachel Alderson"],
-    cardIdentifier: "backup-protocol-yel-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO082",
-    name: "Backup Protocol: YEL",
-    printings: [{
-      
-      identifier: "EVO082",
-      image: "EVO082",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO082"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO082",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Instant** - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rachel Alderson"],
-    cardIdentifier: "backup-protocol-blu-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO083",
-    name: "Backup Protocol: BLU",
-    printings: [{
-      
-      identifier: "EVO083",
-      image: "EVO083",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO083"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO083",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Instant** - {r}{r}, destroy this: Return a blue Mechanologist attack action card from your graveyard to your hand.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "boom-grenade-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO084",
-    name: "Boom Grenade",
-    printings: [{
-      
-      identifier: "EVO084",
-      image: "EVO084",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO084"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO084",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-When a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "boom-grenade-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO085",
-    name: "Boom Grenade",
-    printings: [{
-      
-      identifier: "EVO085",
-      image: "EVO085",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO085"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO085",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-When a Mechanologist attack action card you control hits a hero, destroy this and deal 3 damage to them.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "boom-grenade-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO086",
-    name: "Boom Grenade",
-    printings: [{
-      
-      identifier: "EVO086",
-      image: "EVO086",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO086"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO086",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-When a Mechanologist attack action card you control hits a hero, destroy this and deal 2 damage to them.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "dissolving-shield-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO087",
-    name: "Dissolving Shield",
-    printings: [{
-      
-      identifier: "EVO087",
-      image: "EVO087",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO087"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO087",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "dissolving-shield-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO088",
-    name: "Dissolving Shield",
-    printings: [{
-      
-      identifier: "EVO088",
-      image: "EVO088",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO088"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO088",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "dissolving-shield-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO089",
-    name: "Dissolving Shield",
-    printings: [{
-      
-      identifier: "EVO089",
-      image: "EVO089",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO089"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO089",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "hadron-collider-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO090",
-    name: "Hadron Collider",
-    printings: [{
-      
-      identifier: "EVO090",
-      image: "EVO090",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO090"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO090",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "hadron-collider-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO091",
-    name: "Hadron Collider",
-    printings: [{
-      
-      identifier: "EVO091",
-      image: "EVO091",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO091"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO091",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "hadron-collider-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO092",
-    name: "Hadron Collider",
-    printings: [{
-      
-      identifier: "EVO092",
-      image: "EVO092",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO092"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO092",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "mini-forcefield-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO093",
-    name: "Mini Forcefield",
-    printings: [{
-      
-      identifier: "EVO093",
-      image: "EVO093",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO093"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO093",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Ward X**, where X is the number of steam counters on this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank,Keyword.Ward],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "mini-forcefield-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO094",
-    name: "Mini Forcefield",
-    printings: [{
-      
-      identifier: "EVO094",
-      image: "EVO094",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO094"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO094",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Ward X**, where X is the number of steam counters on this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank,Keyword.Ward],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "mini-forcefield-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO095",
-    name: "Mini Forcefield",
-    printings: [{
-      
-      identifier: "EVO095",
-      image: "EVO095",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO095"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO095",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `**Crank**
-
-This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-**Ward X**, where X is the number of steam counters on this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank,Keyword.Ward],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "overload-script-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO096",
-    name: "Overload Script",
-    printings: [{
-      
-      identifier: "EVO096",
-      image: "EVO096",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO096"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO096",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-Your Mechanologist attack action cards get **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank,Keyword.Overpower],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "mhz-script-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO097",
-    name: "MHz Script",
-    printings: [{
-      
-      identifier: "EVO097",
-      image: "EVO097",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO097"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO097",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-Your Mechanologist attack action cards get **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank,Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "autosave-script-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO098",
-    name: "Autosave Script",
-    printings: [{
-      
-      identifier: "EVO098",
-      image: "EVO098",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO098"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO098",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Crank**
-
-This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
-
-Your Mechanologist attack action cards get "When this hits, put it on the bottom of its owner's deck."`,
-    
-    
-    
-    
-    keywords: [Keyword.Crank],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexander Mokhov"],
-    cardIdentifier: "hyper-driver-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO099",
-    name: "Hyper Driver",
-    printings: [{
-      
-      identifier: "EVO099",
-      image: "EVO099",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "1HP218",
-      image: "1HP218.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC036",
-      image: "ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC036",
-      image: "ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC036",
-      image: "U-ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC036",
-      image: "U-ARC036",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "DYN110",
-      image: "DYN110",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN110",
-      image: "DYN110",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP218","ARC036","DYN110","EVO099"],
-    sets: [Release.ArcaneRising,Release.BrightLights,Release.Dynasty,Release.HistoryPack1],
-    specialImage: "ARC036",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Item",
-
-    cost: 1,
-    
-    functionalText: `This enters the arena with 3 steam counters. When it has none, destroy it.
-
-Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "hyper-scrapper-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO100",
-    name: "Hyper Scrapper",
-    printings: [{
-      
-      identifier: "EVO100",
-      image: "EVO100",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO100"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO100",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    
-    defense: 3,
-    functionalText: `As an additional cost to play this, banish X items from your graveyard.
-
-When this attacks it gets +X{p}. If 3 or more Hyper Drivers were banished to play this, gain {r}{r}{r} {r}{r}{r} and this gets **go again**.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    specialCost: "X",
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Anastasia Balakchina"],
-    cardIdentifier: "scrap-trader-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO101",
-    name: "Scrap Trader",
-    printings: [{
-      
-      identifier: "EVO101",
-      image: "EVO101",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO101"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO101",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `**Scrap**
-
-**Scrap**
-
-Gain {r}{r} for each card this **scrapped**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "hydraulic-press-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO102",
-    name: "Hydraulic Press",
-    printings: [{
-      
-      identifier: "EVO102",
-      image: "EVO102",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO102"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO102",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it scrapped a card, this gets **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Overpower,Keyword.Scrap],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "hydraulic-press-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO103",
-    name: "Hydraulic Press",
-    printings: [{
-      
-      identifier: "EVO103",
-      image: "EVO103",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO103"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO103",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it scrapped a card, this gets **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Overpower,Keyword.Scrap],
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "hydraulic-press-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO104",
-    name: "Hydraulic Press",
-    printings: [{
-      
-      identifier: "EVO104",
-      image: "EVO104",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO104"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO104",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it scrapped a card, this gets **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Overpower,Keyword.Scrap],
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "ratchet-up-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO105",
-    name: "Ratchet Up",
-    printings: [{
-      
-      identifier: "EVO105",
-      image: "EVO105",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO105"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO105",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "ratchet-up-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO106",
-    name: "Ratchet Up",
-    printings: [{
-      
-      identifier: "EVO106",
-      image: "EVO106",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO106"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO106",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 2,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "ratchet-up-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO107",
-    name: "Ratchet Up",
-    printings: [{
-      
-      identifier: "EVO107",
-      image: "EVO107",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO107"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO107",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 3,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "scrap-hopper-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO108",
-    name: "Scrap Hopper",
-    printings: [{
-      
-      identifier: "EVO108",
-      image: "EVO108",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO108"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO108",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, create a Quicken token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "scrap-hopper-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO109",
-    name: "Scrap Hopper",
-    printings: [{
-      
-      identifier: "EVO109",
-      image: "EVO109",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO109"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO109",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, create a Quicken token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "scrap-hopper-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO110",
-    name: "Scrap Hopper",
-    printings: [{
-      
-      identifier: "EVO110",
-      image: "EVO110",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO110"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO110",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, create a Quicken token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 3,
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Aluísio Cervelle"],
-    cardIdentifier: "soup-up-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO111",
-    name: "Soup Up",
-    printings: [{
-      
-      identifier: "EVO111",
-      image: "EVO111",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO111"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO111",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Aluísio Cervelle"],
-    cardIdentifier: "soup-up-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO112",
-    name: "Soup Up",
-    printings: [{
-      
-      identifier: "EVO112",
-      image: "EVO112",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO112"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO112",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize,Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Aluísio Cervelle"],
-    cardIdentifier: "soup-up-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO113",
-    name: "Soup Up",
-    printings: [{
-      
-      identifier: "EVO113",
-      image: "EVO113",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO113"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO113",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize,Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "torque-tuned-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO114",
-    name: "Torque Tuned",
-    printings: [{
-      
-      identifier: "EVO114",
-      image: "EVO114",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO114"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO114",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize,Keyword.Overpower],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "torque-tuned-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO115",
-    name: "Torque Tuned",
-    printings: [{
-      
-      identifier: "EVO115",
-      image: "EVO115",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO115"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO115",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize,Keyword.Overpower],
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "torque-tuned-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO116",
-    name: "Torque Tuned",
-    printings: [{
-      
-      identifier: "EVO116",
-      image: "EVO116",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO116"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO116",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize,Keyword.Overpower],
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "cognition-field-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO117",
-    name: "Cognition Field",
-    printings: [{
-      
-      identifier: "EVO117",
-      image: "EVO117",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO117"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO117",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 3,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "cognition-field-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO118",
-    name: "Cognition Field",
-    printings: [{
-      
-      identifier: "EVO118",
-      image: "EVO118",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO118"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO118",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 2,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "cognition-field-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO119",
-    name: "Cognition Field",
-    printings: [{
-      
-      identifier: "EVO119",
-      image: "EVO119",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO119"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO119",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 1,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "infuse-alloy-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO120",
-    name: "Infuse Alloy",
-    printings: [{
-      
-      identifier: "EVO120",
-      image: "EVO120",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO120"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO120",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "infuse-alloy-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO121",
-    name: "Infuse Alloy",
-    printings: [{
-      
-      identifier: "EVO121",
-      image: "EVO121",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO121"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO121",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "infuse-alloy-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO122",
-    name: "Infuse Alloy",
-    printings: [{
-      
-      identifier: "EVO122",
-      image: "EVO122",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO122"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO122",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffoli"],
-    cardIdentifier: "infuse-titanium-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO123",
-    name: "Infuse Titanium",
-    printings: [{
-      
-      identifier: "EVO123",
-      image: "EVO123",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO123"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO123",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 1,
-    power: 7,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "infuse-titanium-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO124",
-    name: "Infuse Titanium",
-    printings: [{
-      
-      identifier: "EVO124",
-      image: "EVO124",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO124"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO124",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 2,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "infuse-titanium-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO125",
-    name: "Infuse Titanium",
-    printings: [{
-      
-      identifier: "EVO125",
-      image: "EVO125",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO125"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO125",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Galvanize],
-    
-    
-    pitch: 3,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "junkyard-dogg-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO126",
-    name: "Junkyard Dogg",
-    printings: [{
-      
-      identifier: "EVO126",
-      image: "EVO126",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO126"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO126",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "junkyard-dogg-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO127",
-    name: "Junkyard Dogg",
-    printings: [{
-      
-      identifier: "EVO127",
-      image: "EVO127",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO127"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO127",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "junkyard-dogg-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO128",
-    name: "Junkyard Dogg",
-    printings: [{
-      
-      identifier: "EVO128",
-      image: "EVO128",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO128"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO128",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "scrap-compactor-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO129",
-    name: "Scrap Compactor",
-    printings: [{
-      
-      identifier: "EVO129",
-      image: "EVO129",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO129"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO129",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "scrap-compactor-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO130",
-    name: "Scrap Compactor",
-    printings: [{
-      
-      identifier: "EVO130",
-      image: "EVO130",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO130"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO130",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "scrap-compactor-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO131",
-    name: "Scrap Compactor",
-    printings: [{
-      
-      identifier: "EVO131",
-      image: "EVO131",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO131"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO131",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sandeep Karunakaran"],
-    cardIdentifier: "scrap-harvester-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO132",
-    name: "Scrap Harvester",
-    printings: [{
-      
-      identifier: "EVO132",
-      image: "EVO132",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO132"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO132",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sandeep Karunakaran"],
-    cardIdentifier: "scrap-harvester-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO133",
-    name: "Scrap Harvester",
-    printings: [{
-      
-      identifier: "EVO133",
-      image: "EVO133",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO133"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO133",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sandeep Karunakaran"],
-    cardIdentifier: "scrap-harvester-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO134",
-    name: "Scrap Harvester",
-    printings: [{
-      
-      identifier: "EVO134",
-      image: "EVO134",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO134"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO134",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "scrap-prospector-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO135",
-    name: "Scrap Prospector",
-    printings: [{
-      
-      identifier: "EVO135",
-      image: "EVO135",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO135"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO135",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it scrapped a card, gain {r}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "scrap-prospector-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO136",
-    name: "Scrap Prospector",
-    printings: [{
-      
-      identifier: "EVO136",
-      image: "EVO136",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO136"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO136",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it scrapped a card, gain {r}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yugin Maffioli"],
-    cardIdentifier: "scrap-prospector-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO137",
-    name: "Scrap Prospector",
-    printings: [{
-      
-      identifier: "EVO137",
-      image: "EVO137",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO137"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO137",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Scrap**
-
-When this attacks, if it scrapped a card, gain {r}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Scrap],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "heist-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO138",
-    name: "Heist",
-    printings: [{
-      
-      identifier: "EVO138",
-      image: "EVO138",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO138"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO138",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolai Maslakov"],
-    cardIdentifier: "maximum-velocity-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO139",
-    name: "Maximum Velocity",
-    printings: [{
-      
-      identifier: "EVO139",
-      image: "EVO139",
-      set: Release.BrightLights,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC008",
-      image: "ARC008",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC008",
-      image: "ARC008",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC008",
-      image: "U-ARC008",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC008",
-      image: "U-ARC008",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.SuperRare],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["ARC008","EVO139"],
-    sets: [Release.ArcaneRising,Release.BrightLights],
-    specialImage: "ARC008",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `Play this only if you've **boosted** 3 or more times this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 10,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "moonshot-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO140",
-    name: "Moonshot",
-    printings: [{
-      
-      identifier: "EVO140",
-      image: "EVO140",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO140"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO140",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    
-    defense: 3,
-    functionalText: `Play this only if you've **boosted** this turn. As an additional cost to play this, destroy X Hyper Drivers you control.
-
-When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
-
-If this has 10 or more {p}, it gets **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Overpower],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    specialCost: "XX",
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Giacobino"],
-    cardIdentifier: "steel-street-hoons-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO141",
-    name: "Steel Street Hoons",
-    printings: [{
-      
-      identifier: "EVO141",
-      image: "EVO141",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO141"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO141",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `**Boost**
-
-If an item you control has been destroyed this turn, this gets +2{p}.
-
-**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d).`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.Galvanize],
-    
-    
-    pitch: 3,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Simon Dominic"],
-    cardIdentifier: "twin-drive-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO142",
-    name: "Twin Drive",
-    printings: [{
-      
-      identifier: "EVO142",
-      image: "EVO142",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO142"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO142",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Asur Misoa"],
-    cardIdentifier: "meganetic-lockwave-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO143",
-    name: "Meganetic Lockwave",
-    printings: [{
-      
-      identifier: "EVO143",
-      image: "EVO143",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO143"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO143",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    
-    defense: 3,
-    functionalText: `Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. 
-
-**Go again**`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    specialCost: "XXX",
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Olga Tereshenko"],
-    cardIdentifier: "system-failure-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO144",
-    name: "System Failure",
-    printings: [{
-      
-      identifier: "EVO144",
-      image: "EVO144",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO144"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO144",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Olga Tereshenko"],
-    cardIdentifier: "system-reset-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO145",
-    name: "System Reset",
-    printings: [{
-      
-      identifier: "EVO145",
-      image: "EVO145",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO145"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO145",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    
-    defense: 3,
-    functionalText: `Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    specialCost: "X",
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ausonia"],
-    cardIdentifier: "fabricate-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO146",
-    name: "Fabricate",
-    printings: [{
-      
-      identifier: "EVO146",
-      image: "EVO146",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO146"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO146",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Mechanologist Instant",
-
-    cost: 0,
-    
-    functionalText: `Choose 2;
-- Equip a base equipment with Proto in its name from your inventory.
-- Evo permanents you control get +1{d} this turn.
-- Put this under an Evo permanent you control.
-- You may banish an Evo from your hand. If you do, draw a card.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "bull-bar-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO147",
-    name: "Bull Bar",
-    printings: [{
-      
-      identifier: "EVO147",
-      image: "EVO147",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO147"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO147",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-If you control a Hyper Driver, this gets **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.Overpower],
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "bull-bar-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO148",
-    name: "Bull Bar",
-    printings: [{
-      
-      identifier: "EVO148",
-      image: "EVO148",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO148"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO148",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-If you control a Hyper Driver, this gets **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.Overpower],
-    
-    
-    pitch: 2,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "bull-bar-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO149",
-    name: "Bull Bar",
-    printings: [{
-      
-      identifier: "EVO149",
-      image: "EVO149",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO149"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO149",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-If you control a Hyper Driver, this gets **overpower**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.Overpower],
-    
-    
-    pitch: 3,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "spring-a-leak-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO150",
-    name: "Spring a Leak",
-    printings: [{
-      
-      identifier: "EVO150",
-      image: "EVO150",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO150"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO150",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "spring-a-leak-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO151",
-    name: "Spring a Leak",
-    printings: [{
-      
-      identifier: "EVO151",
-      image: "EVO151",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO151"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO151",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "spring-a-leak-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO152",
-    name: "Spring a Leak",
-    printings: [{
-      
-      identifier: "EVO152",
-      image: "EVO152",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO152"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO152",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sandeep Karunakaran"],
-    cardIdentifier: "big-shot-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO153",
-    name: "Big Shot",
-    printings: [{
-      
-      identifier: "EVO153",
-      image: "EVO153",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO153"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO153",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maerel Hibadita"],
-    cardIdentifier: "burn-rubber-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO154",
-    name: "Burn Rubber",
-    printings: [{
-      
-      identifier: "EVO154",
-      image: "EVO154",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO154"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO154",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p} and can't be defended by equipment.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "smash-and-grab-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO155",
-    name: "Smash and Grab",
-    printings: [{
-      
-      identifier: "EVO155",
-      image: "EVO155",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO155"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO155",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p} and "When this hits a hero, gain control of an item they control."`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "gigawatt-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO156",
-    name: "Gigawatt",
-    printings: [{
-      
-      identifier: "EVO156",
-      image: "EVO156",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO156"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO156",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Your next Mechanologist attack this turn gets +4{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "gigawatt-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO157",
-    name: "Gigawatt",
-    printings: [{
-      
-      identifier: "EVO157",
-      image: "EVO157",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO157"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO157",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Your next Mechanologist attack this turn gets +3{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "gigawatt-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO158",
-    name: "Gigawatt",
-    printings: [{
-      
-      identifier: "EVO158",
-      image: "EVO158",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO158"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO158",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Your next Mechanologist attack this turn gets +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "firewall-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO159",
-    name: "Firewall",
-    printings: [{
-      
-      identifier: "EVO159",
-      image: "EVO159",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC019",
-      image: "TCC019",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO159","TCC019"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO159",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 4,
-    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "firewall-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO160",
-    name: "Firewall",
-    printings: [{
-      
-      identifier: "EVO160",
-      image: "EVO160",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC022",
-      image: "TCC022",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO160","TCC022"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO160",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 3,
-    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "firewall-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO161",
-    name: "Firewall",
-    printings: [{
-      
-      identifier: "EVO161",
-      image: "EVO161",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC026",
-      image: "TCC026",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVO161","TCC026"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO161",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 2,
-    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "zero-to-fifty-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO162",
-    name: "Zero to Fifty",
-    printings: [{
-      
-      identifier: "EVO162",
-      image: "EVO162",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO162"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO162",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "zero-to-fifty-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO163",
-    name: "Zero to Fifty",
-    printings: [{
-      
-      identifier: "EVO163",
-      image: "EVO163",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO163"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO163",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "zero-to-fifty-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO164",
-    name: "Zero to Fifty",
-    printings: [{
-      
-      identifier: "EVO164",
-      image: "EVO164",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO164"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO164",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "razzle-dazzle-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO165",
-    name: "Razzle Dazzle",
-    printings: [{
-      
-      identifier: "EVO165",
-      image: "EVO165",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO165"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO165",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "razzle-dazzle-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO166",
-    name: "Razzle Dazzle",
-    printings: [{
-      
-      identifier: "EVO166",
-      image: "EVO166",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO166"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO166",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mariusz Gandzel"],
-    cardIdentifier: "razzle-dazzle-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO167",
-    name: "Razzle Dazzle",
-    printings: [{
-      
-      identifier: "EVO167",
-      image: "EVO167",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO167"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO167",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "full-tilt-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO168",
-    name: "Full Tilt",
-    printings: [{
-      
-      identifier: "EVO168",
-      image: "EVO168",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO168"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO168",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "full-tilt-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO169",
-    name: "Full Tilt",
-    printings: [{
-      
-      identifier: "EVO169",
-      image: "EVO169",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO169"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO169",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "full-tilt-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO170",
-    name: "Full Tilt",
-    printings: [{
-      
-      identifier: "EVO170",
-      image: "EVO170",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO170"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO170",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "gas-guzzler-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO171",
-    name: "Gas Guzzler",
-    printings: [{
-      
-      identifier: "EVO171",
-      image: "EVO171",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO171"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO171",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "gas-guzzler-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO172",
-    name: "Gas Guzzler",
-    printings: [{
-      
-      identifier: "EVO172",
-      image: "EVO172",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO172"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO172",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "gas-guzzler-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO173",
-    name: "Gas Guzzler",
-    printings: [{
-      
-      identifier: "EVO173",
-      image: "EVO173",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO173"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO173",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "crankshaft-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO174",
-    name: "Crankshaft",
-    printings: [{
-      
-      identifier: "EVO174",
-      image: "EVO174",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "DYN101",
-      image: "DYN101",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN101",
-      image: "DYN101",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN101","EVO174"],
-    sets: [Release.BrightLights,Release.Dynasty],
-    specialImage: "EVO174",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "crankshaft-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO175",
-    name: "Crankshaft",
-    printings: [{
-      
-      identifier: "EVO175",
-      image: "EVO175",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "DYN102",
-      image: "DYN102",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN102",
-      image: "DYN102",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN102","EVO175"],
-    sets: [Release.BrightLights,Release.Dynasty],
-    specialImage: "EVO175",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "crankshaft-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO176",
-    name: "Crankshaft",
-    printings: [{
-      
-      identifier: "EVO176",
-      image: "EVO176",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "DYN103",
-      image: "DYN103",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN103",
-      image: "DYN103",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN103","EVO176"],
-    sets: [Release.BrightLights,Release.Dynasty],
-    specialImage: "EVO176",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ausonia"],
-    cardIdentifier: "big-bertha-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO177",
-    name: "Big Bertha",
-    printings: [{
-      
-      identifier: "EVO177",
-      image: "EVO177",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO177"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO177",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ausonia"],
-    cardIdentifier: "big-bertha-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO178",
-    name: "Big Bertha",
-    printings: [{
-      
-      identifier: "EVO178",
-      image: "EVO178",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO178"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO178",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ausonia"],
-    cardIdentifier: "big-bertha-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO179",
-    name: "Big Bertha",
-    printings: [{
-      
-      identifier: "EVO179",
-      image: "EVO179",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO179"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO179",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Amelia Tan"],
-    cardIdentifier: "jump-start-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO180",
-    name: "Jump Start",
-    printings: [{
-      
-      identifier: "EVO180",
-      image: "EVO180",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "DYN104",
-      image: "DYN104",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN104",
-      image: "DYN104",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN104","EVO180"],
-    sets: [Release.BrightLights,Release.Dynasty],
-    specialImage: "EVO180",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Amelia Tan"],
-    cardIdentifier: "jump-start-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO181",
-    name: "Jump Start",
-    printings: [{
-      
-      identifier: "EVO181",
-      image: "EVO181",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "DYN105",
-      image: "DYN105",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN105",
-      image: "DYN105",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN105","EVO181"],
-    sets: [Release.BrightLights,Release.Dynasty],
-    specialImage: "EVO181",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Amelia Tan"],
-    cardIdentifier: "jump-start-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO182",
-    name: "Jump Start",
-    printings: [{
-      
-      identifier: "EVO182",
-      image: "EVO182",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "DYN106",
-      image: "DYN106",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN106",
-      image: "DYN106",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN106","EVO182"],
-    sets: [Release.BrightLights,Release.Dynasty],
-    specialImage: "EVO182",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "rev-up-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO183",
-    name: "Rev Up",
-    printings: [{
-      
-      identifier: "EVO183",
-      image: "EVO183",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO183"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO183",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "rev-up-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO184",
-    name: "Rev Up",
-    printings: [{
-      
-      identifier: "EVO184",
-      image: "EVO184",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO184"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO184",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "rev-up-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO185",
-    name: "Rev Up",
-    printings: [{
-      
-      identifier: "EVO185",
-      image: "EVO185",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO185"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO185",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
-
-**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Samuel Perin"],
-    cardIdentifier: "data-link-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO186",
-    name: "Data Link",
-    printings: [{
-      
-      identifier: "EVO186",
-      image: "EVO186",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO186"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO186",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, **opt 1**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.Opt],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Samuel Perin"],
-    cardIdentifier: "data-link-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO187",
-    name: "Data Link",
-    printings: [{
-      
-      identifier: "EVO187",
-      image: "EVO187",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO187"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO187",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, **opt 1**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Samuel Perin"],
-    cardIdentifier: "data-link-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO188",
-    name: "Data Link",
-    printings: [{
-      
-      identifier: "EVO188",
-      image: "EVO188",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO188"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO188",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, **opt 1**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Aluisio Cervelle"],
-    cardIdentifier: "dive-through-data-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO189",
-    name: "Dive Through Data",
-    printings: [{
-      
-      identifier: "EVO189",
-      image: "EVO189",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO189"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO189",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, **opt 1**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost,Keyword.Opt],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Aluísio Cervelle"],
-    cardIdentifier: "dive-through-data-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO190",
-    name: "Dive Through Data",
-    printings: [{
-      
-      identifier: "EVO190",
-      image: "EVO190",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO190"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO190",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, **opt 1**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Aluísio Cervelle"],
-    cardIdentifier: "dive-through-data-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO191",
-    name: "Dive Through Data",
-    printings: [{
-      
-      identifier: "EVO191",
-      image: "EVO191",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO191"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO191",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, **opt 1**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Veto Zomer"],
-    cardIdentifier: "sprocket-rocket-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO192",
-    name: "Sprocket Rocket",
-    printings: [{
-      
-      identifier: "EVO192",
-      image: "EVO192",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO192"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO192",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
- 
-If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Veto Zomer"],
-    cardIdentifier: "sprocket-rocket-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO193",
-    name: "Sprocket Rocket",
-    printings: [{
-      
-      identifier: "EVO193",
-      image: "EVO193",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO193"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO193",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
- 
-If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Veto Zomer"],
-    cardIdentifier: "sprocket-rocket-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO194",
-    name: "Sprocket Rocket",
-    printings: [{
-      
-      identifier: "EVO194",
-      image: "EVO194",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO194"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO194",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
- 
-If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "dumpster-dive-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO195",
-    name: "Dumpster Dive",
-    printings: [{
-      
-      identifier: "EVO195",
-      image: "EVO195",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO195"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO195",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
- 
-If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "dumpster-dive-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO196",
-    name: "Dumpster Dive",
-    printings: [{
-      
-      identifier: "EVO196",
-      image: "EVO196",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO196"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO196",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
- 
-If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "dumpster-dive-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO197",
-    name: "Dumpster Dive",
-    printings: [{
-      
-      identifier: "EVO197",
-      image: "EVO197",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO197"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO197",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
- 
-If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kyxarie Peralta"],
-    cardIdentifier: "expedite-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO198",
-    name: "Expedite",
-    printings: [{
-      
-      identifier: "EVO198",
-      image: "EVO198",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO198"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO198",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kyxarie Peralta"],
-    cardIdentifier: "expedite-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO199",
-    name: "Expedite",
-    printings: [{
-      
-      identifier: "EVO199",
-      image: "EVO199",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO199"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO199",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kyxarie Peralta"],
-    cardIdentifier: "expedite-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO200",
-    name: "Expedite",
-    printings: [{
-      
-      identifier: "EVO200",
-      image: "EVO200",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO200"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO200",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "metex-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO201",
-    name: "MetEx",
-    printings: [{
-      
-      identifier: "EVO201",
-      image: "EVO201",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO201"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO201",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "metex-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO202",
-    name: "MetEx",
-    printings: [{
-      
-      identifier: "EVO202",
-      image: "EVO202",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO202"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO202",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "metex-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO203",
-    name: "MetEx",
-    printings: [{
-      
-      identifier: "EVO203",
-      image: "EVO203",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO203"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO203",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Eilene Cherie"],
-    cardIdentifier: "out-pace-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO204",
-    name: "Out Pace",
-    printings: [{
-      
-      identifier: "EVO204",
-      image: "EVO204",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO204"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO204",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-This can't be defended by equipment.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Eilene Cherie"],
-    cardIdentifier: "out-pace-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO205",
-    name: "Out Pace",
-    printings: [{
-      
-      identifier: "EVO205",
-      image: "EVO205",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO205"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO205",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-This can't be defended by equipment.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Eilene Cherie"],
-    cardIdentifier: "out-pace-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO206",
-    name: "Out Pace",
-    printings: [{
-      
-      identifier: "EVO206",
-      image: "EVO206",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO206"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO206",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-This can't be defended by equipment.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "lay-waste-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO207",
-    name: "Lay Waste",
-    printings: [{
-      
-      identifier: "EVO207",
-      image: "EVO207",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO207"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO207",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-This can't be defended by equipment.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "lay-waste-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO208",
-    name: "Lay Waste",
-    printings: [{
-      
-      identifier: "EVO208",
-      image: "EVO208",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO208"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO208",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-This can't be defended by equipment.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "lay-waste-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO209",
-    name: "Lay Waste",
-    printings: [{
-      
-      identifier: "EVO209",
-      image: "EVO209",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO209"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO209",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-This can't be defended by equipment.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "fender-bender-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO210",
-    name: "Fender Bender",
-    printings: [{
-      
-      identifier: "EVO210",
-      image: "EVO210",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO210"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO210",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-This gets +X{p}, where X is the number of equipment defending it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "fender-bender-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO211",
-    name: "Fender Bender",
-    printings: [{
-      
-      identifier: "EVO211",
-      image: "EVO211",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO211"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO211",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-This gets +X{p}, where X is the number of equipment defending it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "fender-bender-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO212",
-    name: "Fender Bender",
-    printings: [{
-      
-      identifier: "EVO212",
-      image: "EVO212",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO212"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO212",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-This gets +X{p}, where X is the number of equipment defending it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Anastasia Balakchina"],
-    cardIdentifier: "panel-beater-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO213",
-    name: "Panel Beater",
-    printings: [{
-      
-      identifier: "EVO213",
-      image: "EVO213",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO213"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO213",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-This gets +X{p}, where X is the number of equipment defending it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Anastasia Balakchina"],
-    cardIdentifier: "panel-beater-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO214",
-    name: "Panel Beater",
-    printings: [{
-      
-      identifier: "EVO214",
-      image: "EVO214",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO214"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO214",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-This gets +X{p}, where X is the number of equipment defending it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Anastasia Balakchina"],
-    cardIdentifier: "panel-beater-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO215",
-    name: "Panel Beater",
-    printings: [{
-      
-      identifier: "EVO215",
-      image: "EVO215",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO215"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO215",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-This gets +X{p}, where X is the number of equipment defending it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Artur Treffner"],
-    cardIdentifier: "under-loop-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO216",
-    name: "Under Loop",
-    printings: [{
-      
-      identifier: "EVO216",
-      image: "EVO216",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC016",
-      image: "TCC016",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO216","TCC016"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
-    specialImage: "EVO216",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, put it on the bottom of its owner's deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Artur Treffner"],
-    cardIdentifier: "under-loop-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO217",
-    name: "Under Loop",
-    printings: [{
-      
-      identifier: "EVO217",
-      image: "EVO217",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO217"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO217",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, put it on the bottom of its owner's deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Artur Treffner"],
-    cardIdentifier: "under-loop-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO218",
-    name: "Under Loop",
-    printings: [{
-      
-      identifier: "EVO218",
-      image: "EVO218",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO218"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO218",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, put it on the bottom of its owner's deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mikhail Babkin"],
-    cardIdentifier: "over-loop-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO219",
-    name: "Over Loop",
-    printings: [{
-      
-      identifier: "EVO219",
-      image: "EVO219",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC014",
-      image: "TCC014",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP205",
-      image: "1HP205.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC020",
-      image: "ARC020",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC020",
-      image: "ARC020-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC020",
-      image: "ARC020_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC020",
-      image: "ARC020_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      
-      identifier: "LGS013",
-      image: "LGS013",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS032",
-      image: "LGS032",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP205","ARC020","EVO219","LGS013","LGS032","TCC014"],
-    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
-    specialImage: "LGS013",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, put it on the bottom of its owner's deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mikhail Babkin"],
-    cardIdentifier: "over-loop-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO220",
-    name: "Over Loop",
-    printings: [{
-      
-      identifier: "EVO220",
-      image: "EVO220",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "1HP206",
-      image: "1HP206.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC021",
-      image: "ARC021",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC021",
-      image: "ARC021-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC021",
-      image: "ARC021_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC021",
-      image: "ARC021_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS033",
-      image: "LGS033",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP206","ARC021","EVO220","LGS033"],
-    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos],
-    specialImage: "LGS033",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, put it on the bottom of its owner's deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mikhail Babkin"],
-    cardIdentifier: "over-loop-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO221",
-    name: "Over Loop",
-    printings: [{
-      
-      identifier: "EVO221",
-      image: "EVO221",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "1HP207",
-      image: "1HP207.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC022",
-      image: "ARC022",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC022",
-      image: "ARC022-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC022",
-      image: "ARC022_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC022",
-      image: "ARC022_Over_Loop.width-10000",
-      set: Release.ArcaneRising,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS034",
-      image: "LGS034",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP207","ARC022","EVO221","LGS034"],
-    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos],
-    specialImage: "LGS034",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**
-
-When this hits, put it on the bottom of its owner's deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Giacobino"],
-    cardIdentifier: "gas-up-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO222",
-    name: "Gas Up",
-    printings: [{
-      
-      identifier: "EVO222",
-      image: "EVO222",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO222"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO222",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `The next attack you **boost** this turn gets +4{p}.
-
-You may put a Hyper Driver from your banished zone into the arena.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Giacobino"],
-    cardIdentifier: "gas-up-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO223",
-    name: "Gas Up",
-    printings: [{
-      
-      identifier: "EVO223",
-      image: "EVO223",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO223"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO223",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `The next attack you **boost** this turn gets +3{p}.
-
-You may put a Hyper Driver from your banished zone into the arena.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Giacobino"],
-    cardIdentifier: "gas-up-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO224",
-    name: "Gas Up",
-    printings: [{
-      
-      identifier: "EVO224",
-      image: "EVO224",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO224"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO224",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `The next attack you **boost** this turn gets +2{p}.
-
-You may put a Hyper Driver from your banished zone into the arena.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "quickfire-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO225",
-    name: "Quickfire",
-    printings: [{
-      
-      identifier: "EVO225",
-      image: "EVO225",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO225"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO225",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `This costs {r} less to play for each Hyper Driver you control.
-
-The next attack you **boost** this turn gets +4{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "quickfire-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO226",
-    name: "Quickfire",
-    printings: [{
-      
-      identifier: "EVO226",
-      image: "EVO226",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO226"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO226",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `This costs {r} less to play for each Hyper Driver you control.
-
-The next attack you **boost** this turn gets +3{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "quickfire-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO227",
-    name: "Quickfire",
-    printings: [{
-      
-      identifier: "EVO227",
-      image: "EVO227",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO227"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO227",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `This costs {r} less to play for each Hyper Driver you control.
-
-The next attack you **boost** this turn gets +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "re-charge-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO228",
-    name: "Re-Charge!",
-    printings: [{
-      
-      identifier: "EVO228",
-      image: "EVO228",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO228"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO228",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Put a steam counter on a Hyper Driver you control.
-
-The next attack you **boost** this turn gets +4{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "re-charge-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO229",
-    name: "Re-Charge!",
-    printings: [{
-      
-      identifier: "EVO229",
-      image: "EVO229",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO229"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO229",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Put a steam counter on a Hyper Driver you control.
-
-The next attack you **boost** this turn gets +3{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Tomasz Jedruszek"],
-    cardIdentifier: "re-charge-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO230",
-    name: "Re-Charge!",
-    printings: [{
-      
-      identifier: "EVO230",
-      image: "EVO230",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO230"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO230",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Put a steam counter on a Hyper Driver you control.
-
-The next attack you **boost** this turn gets +2{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "teklonetic-force-field-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO231",
-    name: "Teklonetic Force Field",
-    printings: [{
-      
-      identifier: "EVO231",
-      image: "EVO231",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO231"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO231",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 3,
-    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "teklonetic-force-field-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO232",
-    name: "Teklonetic Force Field",
-    printings: [{
-      
-      identifier: "EVO232",
-      image: "EVO232",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO232"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO232",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 2,
-    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Riordan Delmiro"],
-    cardIdentifier: "teklonetic-force-field-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO233",
-    name: "Teklonetic Force Field",
-    printings: [{
-      
-      identifier: "EVO233",
-      image: "EVO233",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["EVO233"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO233",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Mechanologist Block",
-
-    
-    defense: 1,
-    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexander Mokhov"],
-    cardIdentifier: "hyper-driver",
-    classes: [Class.Mechanologist],
-    defaultImage: "EVO234",
-    name: "Hyper Driver",
-    printings: [{
-      
-      identifier: "EVO234",
-      image: "EVO234",
-      set: Release.BrightLights,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB176",
-      image: "FAB176",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["FAB176","EVO234"],
-    sets: [Release.BrightLights,Release.Promos],
-    specialImage: "EVO234",
-    subtypes: [Subtype.Item],
-    types: [Type.Token],
-    typeText: "Mechanologist Token - Item",
-
-    
-    
-    functionalText: `When this has no steam counters, destroy it.
-
-Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Athiwut B."],
-    cardIdentifier: "shriek-razors",
-    classes: [Class.Assassin],
-    defaultImage: "EVO235",
-    name: "Shriek Razors",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO235",
-      image: "EVO235",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["EVO235"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO235",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Assassin Equipment - Arms",
-
-    
-    defense: 1,
-    functionalText: `While this is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip this.
-
-**Attack Reaction** - {r}{r}, destroy this: Target attack action card defending an Assassin attack gets -1{d}.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alexander Mokhov"],
-    cardIdentifier: "already-dead-red",
-    classes: [Class.Assassin],
-    defaultImage: "EVO236",
-    name: "Already Dead",
-    printings: [{
-      
-      identifier: "EVO236",
-      image: "EVO236",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO236"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO236",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Contract** - You are contracted to banish opponents' non-action cards. Whenever you complete this contract, create a Silver token.
-
-When this hits a hero, banish the top card of their deck and a defending card.`,
-    
-    
-    
-    
-    keywords: [Keyword.Contract],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "smashing-performance-yellow",
-    classes: [Class.Brute],
-    defaultImage: "EVO237",
-    name: "Smashing Performance",
-    printings: [{
-      
-      identifier: "EVO237",
-      image: "EVO237",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO237"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO237",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Brute Action - Attack",
-
-    cost: 3,
-    
-    functionalText: `When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Asur Misoa"],
-    cardIdentifier: "tectonic-rift-blue",
-    classes: [Class.Guardian],
-    defaultImage: "EVO238",
-    name: "Tectonic Rift",
-    printings: [{
-      
-      identifier: "EVO238",
-      image: "EVO238",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO238"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO238",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Guardian Action",
-
-    
-    defense: 2,
-    functionalText: `Create X Seismic Surge tokens.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    specialCost: "X",
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "wax-off-blue",
-    classes: [Class.Ninja],
-    defaultImage: "EVO239",
-    name: "Wax Off",
-    printings: [{
-      
-      identifier: "EVO239",
-      image: "EVO239",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO239"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO239",
-    subtypes: [],
-    types: [Type.DefenseReaction],
-    typeText: "Ninja Defense Reaction",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `If you've played Wax On this turn, create a Zen State token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Bastien Jez"],
-    cardIdentifier: "emboldened-blade-blue",
-    classes: [Class.Warrior],
-    defaultImage: "EVO240",
-    name: "Emboldened Blade",
-    printings: [{
-      
-      identifier: "EVO240",
-      image: "EVO240",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO240"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO240",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Warrior Action",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "intoxicating-shot-blue",
-    classes: [Class.Ranger],
-    defaultImage: "EVO241",
-    name: "Intoxicating Shot",
-    printings: [{
-      
-      identifier: "EVO241",
-      image: "EVO241",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO241"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO241",
-    subtypes: [Subtype.Arrow,Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Riptide Specialization**
-
-When this hits a hero, they create a Courage and Quicken token.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    specializations: [Hero.Riptide],
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "sonata-fantasmia-blue",
-    classes: [Class.Runeblade],
-    defaultImage: "EVO242",
-    name: "Sonata Fantasmia",
-    printings: [{
-      
-      identifier: "EVO242",
-      image: "EVO242",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO242"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO242",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Runeblade Action",
-
-    
-    defense: 3,
-    functionalText: `**Viserai Specialization**
-
-Create X Runechant tokens.
-
-If X is 6 or greater, target hero discards 3 random cards.`,
-    
-    
-    
-    
-    keywords: [Keyword.Specialization],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    specialCost: "XX",
-    
-    
-    
-    specializations: [Hero.Viserai],
-    
-    
-  },{
-    artists: ["Olga Tereshenko"],
-    cardIdentifier: "contest-the-mindfield-blue",
-    classes: [Class.Wizard],
-    defaultImage: "EVO243",
-    name: "Contest the Mindfield",
-    printings: [{
-      
-      identifier: "EVO243",
-      image: "EVO243",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO243"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO243",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Wizard Action - Aura",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `All heroes get -1{i}.
-
-At the start of your turn, destroy this.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daria Khlebnikova"],
-    cardIdentifier: "phantom-tidemaw-blue",
-    classes: [Class.Illusionist],
-    defaultImage: "EVO244",
-    name: "Phantom Tidemaw",
-    printings: [{
-      
-      identifier: "EVO244",
-      image: "EVO244",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO244"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO244",
-    subtypes: [Subtype.Aura],
-    types: [Type.Instant],
-    typeText: "Illusionist Instant - Aura",
-
-    cost: 0,
-    
-    functionalText: `Whenever an Illusionist card you control is destroyed, put a +1{p} counter on this.
-
-**Phantasm**
-
-**Ward 1**`,
-    
-    
-    
-    
-    keywords: [Keyword.Phantasm,Keyword.Ward],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "tome-of-imperial-flame-red",
-    classes: [Class.NotClassed],
-    defaultImage: "EVO245",
-    name: "Tome of Imperial Flame",
-    printings: [{
-      
-      identifier: "EVO245",
-      image: "EVO245",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO245"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO245",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Draconic Action",
-
-    cost: 0,
-    
-    functionalText: `Draw a card. If you are Royal, instead draw 2 cards.
-
-You may pitch 2 red cards. If you don't, banish your hand.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Draconic],
-    
-  },{
-    artists: ["Ausonia"],
-    cardIdentifier: "dust-from-the-chrome-caverns-red",
-    classes: [Class.NotClassed],
-    defaultImage: "EVO246",
-    name: "Dust from the Chrome Caverns",
-    printings: [{
-      
-      identifier: "EVO246",
-      image: "EVO246",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO246"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO246",
-    subtypes: [Subtype.Ash,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Draconic Action - Ash",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Material** - While this is under a permanent other than Cromai, that permanent has phantasm.`,
-    
-    
-    
-    
-    keywords: [Keyword.Material],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Draconic],
-    
-  },{
-    artists: ["soyameii"],
-    cardIdentifier: "warband-of-bellona",
-    classes: [Class.Warrior],
-    defaultImage: "EVO247",
-    name: "Warband of Bellona",
-    printings: [{
-      foiling: Foiling.C,
-      identifier: "EVO247",
-      image: "EVO247_V2",
-      set: Release.BrightLights,
-      treatment: Treatment.EA,
-    },{
-      foiling: Foiling.R,
-      identifier: "EVO247",
-      image: "EVO247",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Legendary],
-    rarity: Rarity.Legendary,
-    setIdentifiers: ["EVO247"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO247_V2",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Light Warrior Equipment - Head",
-
-    
-    defense: 2,
-    functionalText: `**Action** - {r}{r}, destroy this: The next time you attack this turn, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card. **Go again**
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Charge,Keyword.GoAgain,Keyword.Temper],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "slay-red",
-    classes: [Class.NotClassed],
-    defaultImage: "EVO248",
-    name: "Slay",
-    printings: [{
-      
-      identifier: "EVO248",
-      image: "EVO248",
-      set: Release.BrightLights,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVO248"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO248",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Shadow Instant",
-
-    cost: 0,
-    
-    functionalText: `Destroy target angel ally.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Shadow],
-    
-  },{
-    artists: ["King Fung Ng","Tomasz Jedruszek"],
-    cardIdentifier: "quicken",
-    classes: [Class.Generic],
-    defaultImage: "EVO250",
-    name: "Quicken",
-    printings: [{
-      
-      identifier: "EVO250",
-      image: "EVO250",
-      set: Release.BrightLights,
-      
-    },{
-      
-      identifier: "TCC106",
-      image: "TCC106",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP427",
-      image: "1HP427_Quicken.width-10000",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU196",
-      image: "CRU196",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU196",
-      image: "U-CRU196",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "DTD234",
-      image: "DTD234",
-      set: Release.DuskTillDawn,
-      
-    },{
-      
-      identifier: "DVR028",
-      image: "DVR028.width-450",
-      set: Release.ClassicBattlesRhinarDorinthea,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR196",
-      image: "EVR196.width-450",
-      set: Release.Everfest,
-      
-    },{
-      
-      identifier: "RNR031",
-      image: "RNR31.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      
-      identifier: "TEA030",
-      image: "TEA30.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR225",
-      image: "WTR225",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR225",
-      image: "U-WTR225",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      
-      identifier: "XXX009",
-      image: "XXX009",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["1HP427","CRU196","DTD234","DVR028","EVO250","EVR196","RNR031","TCC106","TEA030","WTR225","XXX009"],
-    sets: [Release.BrightLights,Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "CRU196",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `When you play an attack action card or activate a weapon attack, destroy this and the attack gets **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Simon Dominic"],
-    cardIdentifier: "professor-teklovossen",
-    classes: [Class.Mechanologist],
-    defaultImage: "TCC001",
-    name: "Professor Teklovossen",
-    printings: [{
-      
-      identifier: "TCC001",
-      image: "TCC001",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["TCC001"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC001",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Mechanologist Hero - Young",
-
-    
-    
-    functionalText: `Evos cost {r} less to play for each opposing hero.
-
-You may play Evos from your banished zone.`,
-    
-    hero: Hero.Teklovossen,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Irina Si"],
-    cardIdentifier: "teklo-blaster",
-    classes: [Class.Mechanologist],
-    defaultImage: "TCC002",
-    name: "Teklo Blaster",
-    printings: [{
-      
-      identifier: "TCC002",
-      image: "TCC002",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC002"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC002",
-    subtypes: [Subtype.TwoHanded,Subtype.Gun],
-    types: [Type.Weapon],
-    typeText: "Mechanologist Weapon - Gun (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**`,
-    
-    
-    
-    
-    
-    
-    
-    
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Simon Dominic"],
-    cardIdentifier: "apocalypse-automaton-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "TCC011",
-    name: "Apocalypse Automaton",
-    printings: [{
-      
-      identifier: "TCC011",
-      image: "TCC011",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["TCC011"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC011",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `Play this only if you have 1 or more Evos equipped.
-
-**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.`,
-    
-    
-    
-    
-    keywords: [Keyword.EvoUpgrade],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "throttle-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC023",
-    name: "Throttle",
-    printings: [{
-      
-      identifier: "TCC015",
-      image: "TCC015",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP208",
-      image: "1HP208.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC023",
-      image: "ARC023",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC023",
-      image: "ARC023-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC023",
-      image: "U-ARC023",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC023",
-      image: "U-ARC023",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP208","ARC023","TCC015"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "ARC023-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Fedor Barkhatov"],
-    cardIdentifier: "zero-to-sixty-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC026",
-    name: "Zero to Sixty",
-    printings: [{
-      
-      identifier: "TCC017",
-      image: "TCC017",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP211",
-      image: "1HP211.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC026",
-      image: "ARC026",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC026",
-      image: "ARC026-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC026",
-      image: "U-ARC026",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC026",
-      image: "U-ARC026",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP211","ARC026","TCC017"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "ARC026-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sergey Gurskiy"],
-    cardIdentifier: "zipper-hit-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC029",
-    name: "Zipper Hit",
-    printings: [{
-      
-      identifier: "TCC018",
-      image: "TCC018",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP214",
-      image: "1HP214.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC029",
-      image: "ARC029",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC029",
-      image: "ARC029-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC029",
-      image: "U-ARC029",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC029",
-      image: "U-ARC029",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP214","ARC029","TCC018"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "ARC029-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "throttle-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC024",
-    name: "Throttle",
-    printings: [{
-      
-      identifier: "TCC020",
-      image: "TCC020",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP209",
-      image: "1HP209.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC024",
-      image: "ARC024",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC024",
-      image: "ARC024-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC024",
-      image: "U-ARC024",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC024",
-      image: "U-ARC024",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP209","ARC024","TCC020"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "ARC024-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sergey Gurskiy"],
-    cardIdentifier: "zipper-hit-yellow",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC030",
-    name: "Zipper Hit",
-    printings: [{
-      
-      identifier: "TCC021",
-      image: "TCC021",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP215",
-      image: "1HP215.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC030",
-      image: "ARC030",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC030",
-      image: "ARC030-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC030",
-      image: "U-ARC030",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC030",
-      image: "U-ARC030",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP215","ARC030","TCC021"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "ARC030-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "throttle-blue",
-    classes: [Class.Mechanologist],
-    defaultImage: "ARC025",
-    name: "Throttle",
-    printings: [{
-      
-      identifier: "TCC025",
-      image: "TCC025",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP210",
-      image: "1HP210.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "ARC025",
-      image: "ARC025",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC025",
-      image: "ARC025-RF",
-      set: Release.ArcaneRising,
-      treatment: Treatment.AT,
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC025",
-      image: "U-ARC025",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC025",
-      image: "U-ARC025",
-      set: Release.ArcaneRising,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP210","ARC025","TCC025"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "ARC025-RF",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Boost**`,
-    
-    
-    
-    
-    keywords: [Keyword.Boost],
-    
-    
-    pitch: 3,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "brevant-civic-protector",
-    classes: [Class.Guardian],
-    defaultImage: "TCC027",
-    name: "Brevant, Civic Protector",
-    printings: [{
-      
-      identifier: "TCC027",
-      image: "TCC027",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["TCC027"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC027",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Guardian Hero - Young",
-
-    
-    
-    functionalText: `You may have any number of Chivalry in your deck.
-
-Whenever you **protect** another hero, create a Might token.`,
-    
-    hero: Hero.Brevant,
-    intellect: 4,
-    
-    keywords: [Keyword.Protect],
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Junaidi Lim"],
-    cardIdentifier: "hammer-of-havenhold",
-    classes: [Class.Guardian],
-    defaultImage: "TCC028",
-    name: "Hammer of Havenhold",
-    printings: [{
-      
-      identifier: "TCC028",
-      image: "TCC028",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC028"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC028",
-    subtypes: [Subtype.OneHanded,Subtype.Hammer],
-    types: [Type.Weapon],
-    typeText: "Guardian Weapon - Hammer (1H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
-
-If you have a Chivalray in your pitch zone, this gets +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Jessketchin"],
-    cardIdentifier: "bastion-of-duty",
-    classes: [Class.Guardian],
-    defaultImage: "TCC029",
-    name: "Bastion of Duty",
-    printings: [{
-      
-      identifier: "TCC029",
-      image: "TCC029",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC029"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC029",
-    subtypes: [Subtype.OffHand],
-    types: [Type.Equipment],
-    typeText: "Guardian Equipment - Off-Hand",
-
-    
-    defense: 2,
-    functionalText: `**Protect**
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Protect,Keyword.Temper],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "civic-peak",
-    classes: [Class.Guardian],
-    defaultImage: "TCC030",
-    name: "Civic Peak",
-    printings: [{
-      
-      identifier: "TCC030",
-      image: "TCC030",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC030"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC030",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Guardian Equipment - Head",
-
-    
-    defense: 2,
-    functionalText: `Whenever this defends, another target hero draws a card.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "civic-duty",
-    classes: [Class.Guardian],
-    defaultImage: "TCC031",
-    name: "Civic Duty",
-    printings: [{
-      
-      identifier: "TCC031",
-      image: "TCC031",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC031"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC031",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Guardian Equipment - Chest",
-
-    
-    defense: 2,
-    functionalText: `Whenever this defends, create a Vigor token under another hero's control.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "civic-guide",
-    classes: [Class.Guardian],
-    defaultImage: "TCC032",
-    name: "Civic Guide",
-    printings: [{
-      
-      identifier: "TCC032",
-      image: "TCC032",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC032"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC032",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Guardian Equipment - Arms",
-
-    
-    defense: 2,
-    functionalText: `Whenever this defends, create a Might token under another hero's control.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Wisnu Tan"],
-    cardIdentifier: "civic-steps",
-    classes: [Class.Guardian],
-    defaultImage: "TCC033",
-    name: "Civic Steps",
-    printings: [{
-      
-      identifier: "TCC033",
-      image: "TCC033",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC033"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC033",
-    subtypes: [Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Guardian Equipment - Legs",
-
-    
-    defense: 2,
-    functionalText: `Whenever this defends, create a Quicken token under another hero's control.
-
-**Temper**`,
-    
-    
-    
-    
-    keywords: [Keyword.Temper],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Vito Vivodka"],
-    cardIdentifier: "colossal-bearing-red",
-    classes: [Class.Guardian],
-    defaultImage: "TCC034",
-    name: "Colossal Bearing",
-    printings: [{
-      
-      identifier: "TCC034",
-      image: "TCC034",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC034"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC034",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy an equipment they control with 1 or less {d}."`,
-    
-    
-    
-    
-    keywords: [Keyword.Tower],
-    
-    
-    pitch: 1,
-    power: 8,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco Wulfr"],
-    cardIdentifier: "lay-down-the-law-red",
-    classes: [Class.Guardian],
-    defaultImage: "TCC035",
-    name: "Lay Down the Law",
-    printings: [{
-      
-      identifier: "TCC035",
-      image: "TCC035",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC035"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC035",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Tower** - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.`,
-    
-    
-    
-    
-    keywords: [Keyword.Tower],
-    
-    
-    pitch: 1,
-    power: 7,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Alief Rudiatama"],
-    cardIdentifier: "smack-of-reality-red",
-    classes: [Class.Guardian],
-    defaultImage: "TCC036",
-    name: "Smack of Reality",
-    printings: [{
-      
-      identifier: "TCC036",
-      image: "TCC036",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC036"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC036",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 5,
-    defense: 3,
-    functionalText: `**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy all aura tokens they control."`,
-    
-    
-    
-    
-    keywords: [Keyword.Tower],
-    
-    
-    pitch: 1,
-    power: 9,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Edward Chee"],
-    cardIdentifier: "crash-down-red",
-    classes: [Class.Guardian],
-    defaultImage: "TCC037",
-    name: "Crash Down",
-    printings: [{
-      
-      identifier: "TCC037",
-      image: "TCC037",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC037"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC037",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Aura",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +6{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "earthlore-empowerment-red",
-    classes: [Class.Guardian],
-    defaultImage: "TCC038",
-    name: "Earthlore Empowerment",
-    printings: [{
-      
-      identifier: "TCC038",
-      image: "TCC038",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC038"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC038",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Aura",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "boulder-drop-yellow",
-    classes: [Class.Guardian],
-    defaultImage: "TCC039",
-    name: "Boulder Drop",
-    printings: [{
-      
-      identifier: "TCC039",
-      image: "TCC039",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC039"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC039",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 2,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Emilis Emka"],
-    cardIdentifier: "chokeslam-yellow",
-    classes: [Class.Guardian],
-    defaultImage: "CRU036",
-    name: "Chokeslam",
-    printings: [{
-      
-      identifier: "TCC040",
-      image: "TCC040",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP071",
-      image: "1HP071.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU036",
-      image: "CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU036",
-      image: "CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU036",
-      image: "U-CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU036",
-      image: "U-CRU036",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP071","CRU036","TCC040"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "CRU036",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 2,
-    power: 7,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "disable-yellow",
-    classes: [Class.Guardian],
-    defaultImage: "WTR049",
-    name: "Disable",
-    printings: [{
-      
-      identifier: "TCC041",
-      image: "TCC041",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP056",
-      image: "1HP056.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR049",
-      image: "WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR049",
-      image: "WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR049",
-      image: "U-WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR049",
-      image: "U-WTR049",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP056","TCC041","WTR049"],
-    sets: [Release.HistoryPack1,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR049",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 5,
-    defense: 3,
-    functionalText: `**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 2,
-    power: 8,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Edward Chee"],
-    cardIdentifier: "crash-down-yellow",
-    classes: [Class.Guardian],
-    defaultImage: "TCC042",
-    name: "Crash Down",
-    printings: [{
-      
-      identifier: "TCC042",
-      image: "TCC042",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC042"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC042",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Aura",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Phu Thieu"],
-    cardIdentifier: "earthlore-empowerment-yellow",
-    classes: [Class.Guardian],
-    defaultImage: "TCC043",
-    name: "Earthlore Empowerment",
-    printings: [{
-      
-      identifier: "TCC043",
-      image: "TCC043",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC043"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC043",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Aura",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +4{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "boulder-drop-blue",
-    classes: [Class.Guardian],
-    defaultImage: "TCC044",
-    name: "Boulder Drop",
-    printings: [{
-      
-      identifier: "TCC044",
-      image: "TCC044",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC044"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC044",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 3,
-    defense: 3,
-    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 3,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Emilis Emka"],
-    cardIdentifier: "chokeslam-blue",
-    classes: [Class.Guardian],
-    defaultImage: "CRU037",
-    name: "Chokeslam",
-    printings: [{
-      
-      identifier: "TCC045",
-      image: "TCC045",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP072",
-      image: "1HP072.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU037",
-      image: "CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU037",
-      image: "CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU037",
-      image: "U-CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU037",
-      image: "U-CRU037",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP072","CRU037","TCC045"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "CRU037",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 4,
-    defense: 3,
-    functionalText: `**Crush** - If this deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 3,
-    power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Ksenia Belova"],
-    cardIdentifier: "cranial-crush-blue",
-    classes: [Class.Guardian],
-    defaultImage: "WTR045",
-    name: "Cranial Crush",
-    printings: [{
-      
-      identifier: "TCC046",
-      image: "TCC046",
-      set: Release.RoundTheTable,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR045",
-      image: "WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR045",
-      image: "WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR045",
-      image: "U-WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR045",
-      image: "U-WTR045",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.SuperRare],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["TCC046","WTR045"],
-    sets: [Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR045",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 6,
-    defense: 3,
-    functionalText: `**Crush** - If this  deals 4 or more damage to a hero, they can't draw cards during their next action phase`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 3,
-    power: 8,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Nathaniel Himawan"],
-    cardIdentifier: "disable-blue",
-    classes: [Class.Guardian],
-    defaultImage: "WTR050",
-    name: "Disable",
-    printings: [{
-      
-      identifier: "TCC047",
-      image: "TCC047",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP057",
-      image: "1HP057.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "BVO019",
-      image: "BVO19.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR050",
-      image: "WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR050",
-      image: "WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR050",
-      image: "U-WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR050",
-      image: "U-WTR050",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP057","BVO019","TCC047","WTR050"],
-    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR050",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Guardian Action - Attack",
-
-    cost: 5,
-    defense: 3,
-    functionalText: `**Crush** - If this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
-    
-    
-    
-    
-    keywords: [Keyword.Crush],
-    
-    
-    pitch: 3,
-    power: 7,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Bastien Jez"],
-    cardIdentifier: "chivalry-blue",
-    classes: [Class.Guardian],
-    defaultImage: "TCC048",
-    name: "Chivalry",
-    printings: [{
-      
-      identifier: "TCC048",
-      image: "TCC048",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC048"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC048",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Guardian Block",
-
-    
-    defense: 3,
-    functionalText: `**Protect**`,
-    
-    
-    
-    
-    keywords: [Keyword.Protect],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Andy Aslamov"],
-    cardIdentifier: "melody-sing-along",
-    classes: [Class.Bard],
-    defaultImage: "TCC049",
-    name: "Melody, Sing-along",
-    printings: [{
-      
-      identifier: "TCC049",
-      image: "TCC049",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["TCC049"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC049",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Bard Hero - Young",
-
-    
-    
-    functionalText: `Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.`,
-    
-    hero: Hero.Melody,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Brian Adriel"],
-    cardIdentifier: "jinglewood-smash-hit",
-    classes: [Class.Bard],
-    defaultImage: "TCC050",
-    name: "Jinglewood, Smash Hit",
-    printings: [{
-      
-      identifier: "TCC050",
-      image: "TCC050",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC050"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC050",
-    subtypes: [Subtype.TwoHanded,Subtype.Fiddle],
-    types: [Type.Weapon],
-    typeText: "Bard Weapon - Fiddle (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
-
-**Action** - 0: **Attack**.  When this hits, destroy it.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "nom-de-plume",
-    classes: [Class.Bard],
-    defaultImage: "TCC051",
-    name: "Nom de Plume",
-    printings: [{
-      
-      identifier: "TCC051",
-      image: "TCC051",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC051"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC051",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Bard Equipment - Head",
-
-    
-    
-    functionalText: `**Action** - Destroy this: Each hero draws a card.  **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "heart-throb",
-    classes: [Class.Bard],
-    defaultImage: "TCC052",
-    name: "Heart-throb",
-    printings: [{
-      
-      identifier: "TCC052",
-      image: "TCC052",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC052"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC052",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Bard Equipment - Chest",
-
-    
-    
-    functionalText: `**Action** - Destroy this: Each hero creates a Vigor token.  **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "fiddle-dee",
-    classes: [Class.Bard],
-    defaultImage: "TCC053",
-    name: "Fiddle-dee",
-    printings: [{
-      
-      identifier: "TCC053",
-      image: "TCC053",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC053"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC053",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Bard Equipment - Arms",
-
-    
-    
-    functionalText: `**Action** - Destroy this: Each hero creates a Might token.  **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Shen Fei"],
-    cardIdentifier: "quickstep",
-    classes: [Class.Bard],
-    defaultImage: "TCC054",
-    name: "Quickstep",
-    printings: [{
-      
-      identifier: "TCC054",
-      image: "TCC054",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC054"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC054",
-    subtypes: [Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Bard Equipment - Legs",
-
-    
-    
-    functionalText: `**Action** - Destroy this: Each hero creates a Quicken token.  **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "coax-a-commotion-red",
-    classes: [Class.Generic],
-    defaultImage: "CRU180",
-    name: "Coax a Commotion",
-    printings: [{
-      
-      identifier: "TCC055",
-      image: "TCC055",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP359",
-      image: "1HP359.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU180",
-      image: "CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU180",
-      image: "CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU180",
-      image: "U-CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU180",
-      image: "U-CRU180",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP359","CRU180","TCC055"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
-    specialImage: "CRU180",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this hits, choose any number:
-
-- Each hero creates a Quicken token.
-- Each hero draws a card.
-- Each hero gains 1{h}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sam Yang"],
-    cardIdentifier: "life-of-the-party-red",
-    classes: [Class.Generic],
-    defaultImage: "EVR161.width-450",
-    name: "Life of the Party",
-    printings: [{
-      
-      identifier: "TCC056",
-      image: "TCC056",
-      set: Release.RoundTheTable,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR161",
-      image: "EVR161.width-450",
-      set: Release.Everfest,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "EVR161",
-      image: "EVR161.width-450",
-      set: Release.Everfest,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS084",
-      image: "LGS084",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVR161","LGS084","TCC056"],
-    sets: [Release.Everfest,Release.Promos,Release.RoundTheTable],
-    specialImage: "LGS084",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 2,
-    defense: 2,
-    functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
-
-- Life of the Party gains "When this hits, gain life 2{h}."
-- Life of the Party gains +2{p}.
-- Life of the Party gains **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "final-act-red",
-    classes: [Class.Bard],
-    defaultImage: "TCC057",
-    name: "Final Act",
-    printings: [{
-      
-      identifier: "TCC057",
-      image: "TCC057",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["TCC057"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC057",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Bard Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 1,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Veto Zomer"],
-    cardIdentifier: "interlude-red",
-    classes: [Class.Bard],
-    defaultImage: "TCC058",
-    name: "Interlude",
-    printings: [{
-      
-      identifier: "TCC058",
-      image: "TCC058",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC058"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC058",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Bard Instant",
-
-    cost: 0,
-    
-    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Adolfo Navarro","Asur Misoa"],
-    cardIdentifier: "sigil-of-solace-red",
-    classes: [Class.Generic],
-    defaultImage: "WTR173",
-    name: "Sigil of Solace",
-    printings: [{
-      
-      identifier: "TCC059",
-      image: "TCC059",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP387",
-      image: "1HP387.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "DRO026",
-      image: "DRO026.width-450",
-      set: Release.DromaiBlitzDeck,
-      
-    },{
-      
-      identifier: "FAB136",
-      image: "",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR173",
-      image: "WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR173",
-      image: "WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR173",
-      image: "U-WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR173",
-      image: "U-WTR173",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP387","DRO026","FAB136","TCC059","WTR173"],
-    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR173",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Generic Instant",
-
-    cost: 0,
-    
-    functionalText: `Gain 3{h}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "crowd-control-red",
-    classes: [Class.Bard],
-    defaultImage: "TCC060",
-    name: "Crowd Control",
-    printings: [{
-      
-      identifier: "TCC060",
-      image: "TCC060",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC060"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC060",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Bard Block",
-
-    
-    defense: 4,
-    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Giacobino"],
-    cardIdentifier: "encore-yellow",
-    classes: [Class.Bard],
-    defaultImage: "TCC061",
-    name: "Encore",
-    printings: [{
-      
-      identifier: "TCC061",
-      image: "TCC061",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC061"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC061",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Bard Action",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `Return a Bard attack action card from your graveyard to your hand.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Veto Zomer"],
-    cardIdentifier: "interlude-yellow",
-    classes: [Class.Bard],
-    defaultImage: "TCC062",
-    name: "Interlude",
-    printings: [{
-      
-      identifier: "TCC062",
-      image: "TCC062",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC062"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC062",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Bard Instant",
-
-    cost: 0,
-    
-    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 2 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "crowd-control-yellow",
-    classes: [Class.Bard],
-    defaultImage: "TCC063",
-    name: "Crowd Control",
-    printings: [{
-      
-      identifier: "TCC063",
-      image: "TCC063",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC063"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC063",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Bard Block",
-
-    
-    defense: 3,
-    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Giacobino"],
-    cardIdentifier: "song-of-jack-be-quick-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC064",
-    name: "Song of Jack-be-Quick",
-    printings: [{
-      
-      identifier: "TCC064",
-      image: "TCC064",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC064"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC064",
-    subtypes: [Subtype.NonAttack,Subtype.Song],
-    types: [Type.Action],
-    typeText: "Bard Action - Song",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Create a Quicken token under each other hero's control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "song-of-sweet-nectar-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC065",
-    name: "Song of Sweet Nectar",
-    printings: [{
-      
-      identifier: "TCC065",
-      image: "TCC065",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC065"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC065",
-    subtypes: [Subtype.NonAttack,Subtype.Song],
-    types: [Type.Action],
-    typeText: "Bard Action - Song",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Each other hero gains 1{l}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "song-of-the-rosen-matador-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC066",
-    name: "Song of the Rosen Matador",
-    printings: [{
-      
-      identifier: "TCC066",
-      image: "TCC066",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC066"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC066",
-    subtypes: [Subtype.NonAttack,Subtype.Song],
-    types: [Type.Action],
-    typeText: "Bard Action - Song",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Create a Vigor token under each other hero's control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Saad Irfan"],
-    cardIdentifier: "song-of-the-shining-knight-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC067",
-    name: "Song of the Shining Knight",
-    printings: [{
-      
-      identifier: "TCC067",
-      image: "TCC067",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC067"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC067",
-    subtypes: [Subtype.NonAttack,Subtype.Song],
-    types: [Type.Action],
-    typeText: "Bard Action - Song",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Create a Might token under each other hero's control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Artur Treffner"],
-    cardIdentifier: "song-of-the-wandering-mind-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC068",
-    name: "Song of the Wandering Mind",
-    printings: [{
-      
-      identifier: "TCC068",
-      image: "TCC068",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC068"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC068",
-    subtypes: [Subtype.NonAttack,Subtype.Song],
-    types: [Type.Action],
-    typeText: "Bard Action - Song",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Each other hero draws a card.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Mateusz Wiśniewski"],
-    cardIdentifier: "song-of-yesteryears-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC069",
-    name: "Song of Yesteryears",
-    printings: [{
-      
-      identifier: "TCC069",
-      image: "TCC069",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC069"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC069",
-    subtypes: [Subtype.NonAttack,Subtype.Song],
-    types: [Type.Action],
-    typeText: "Bard Action - Song",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `Each other hero puts an attack action card from their graveyard on the. bottom of their deck.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daniel Jiménez"],
-    cardIdentifier: "crazy-brew-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR162",
-    name: "Crazy Brew",
-    printings: [{
-      
-      identifier: "TCC070",
-      image: "TCC070",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP363",
-      image: "1HP363.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB016",
-      image: "FAB016",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR162",
-      image: "WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR162",
-      image: "WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR162",
-      image: "U-WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR162",
-      image: "U-WTR162",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Promo,Rarity.SuperRare],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP363","FAB016","TCC070","WTR162"],
-    sets: [Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR162",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy this: Roll a 6 sided die. On;
-
-- 1 or 2 - Lose 2{h}. **Go again**
-- 3 or 4 - Gain 2{h}. **Go again**
-- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gets +2{p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daniel Jiménez"],
-    cardIdentifier: "energy-potion-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR170",
-    name: "Energy Potion",
-    printings: [{
-      
-      identifier: "TCC071",
-      image: "TCC071",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP381",
-      image: "1HP381.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB012",
-      image: "FAB012",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "KSU029",
-      image: "KSU29.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      
-      identifier: "TEA028",
-      image: "TEA28.width-450",
-      set: Release.DorintheaHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR170",
-      image: "WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR170",
-      image: "WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR170",
-      image: "U-WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR170",
-      image: "U-WTR170",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP381","FAB012","KSU029","TCC071","TEA028","WTR170"],
-    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR170",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Instant** - Destroy this: Gain {r}{r}`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Simon Wong"],
-    cardIdentifier: "healing-potion-blue",
-    classes: [Class.Generic],
-    defaultImage: "EVR183.width-450",
-    name: "Healing Potion",
-    printings: [{
-      
-      identifier: "TCC072",
-      image: "TCC072",
-      set: Release.RoundTheTable,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR183",
-      image: "EVR183.width-450",
-      set: Release.Everfest,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.C,
-      identifier: "EVR183",
-      image: "EVR183.width-450",
-      set: Release.Everfest,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["EVR183","TCC072"],
-    sets: [Release.Everfest,Release.RoundTheTable],
-    specialImage: "EVR183.width-450",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy this: Gain 2{h}. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Panji Bagus P"],
-    cardIdentifier: "potion-of-strength-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR171",
-    name: "Potion of Strength",
-    printings: [{
-      
-      identifier: "TCC073",
-      image: "TCC073",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP382",
-      image: "1HP382.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "BVO028",
-      image: "BVO28.width-450",
-      set: Release.BravoBlitzDeck,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB013",
-      image: "FAB013",
-      set: Release.Promos,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR171",
-      image: "WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR171",
-      image: "WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR171",
-      image: "U-WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR171",
-      image: "U-WTR171",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP382","BVO028","FAB013","TCC073","WTR171"],
-    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR171",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy this: Your next attack this turn gets +2{p}. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Daniel Jiménez"],
-    cardIdentifier: "timesnap-potion-blue",
-    classes: [Class.Generic],
-    defaultImage: "WTR172",
-    name: "Timesnap Potion",
-    printings: [{
-      
-      identifier: "TCC074",
-      image: "TCC074",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP383",
-      image: "1HP383.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB014",
-      image: "FAB014",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "RNR029",
-      image: "RNR29.width-450",
-      set: Release.RhinarHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR172",
-      image: "WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR172",
-      image: "WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR172",
-      image: "U-WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR172",
-      image: "U-WTR172",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP383","FAB014","RNR029","TCC074","WTR172"],
-    sets: [Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR172",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    cost: 0,
-    
-    functionalText: `**Action** - Destroy this: Gain 2 action points.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Veto Zomer"],
-    cardIdentifier: "interlude-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC075",
-    name: "Interlude",
-    printings: [{
-      
-      identifier: "TCC075",
-      image: "TCC075",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC075"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC075",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Bard Instant",
-
-    cost: 0,
-    
-    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 1 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Sebastian Szmyd"],
-    cardIdentifier: "crowd-control-blue",
-    classes: [Class.Bard],
-    defaultImage: "TCC076",
-    name: "Crowd Control",
-    printings: [{
-      
-      identifier: "TCC076",
-      image: "TCC076",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC076"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC076",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Bard Block",
-
-    
-    defense: 2,
-    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "ira-crimson-haze",
-    classes: [Class.Ninja],
-    defaultImage: "CRU046",
-    name: "Ira, Crimson Haze",
-    printings: [{
-      
-      identifier: "TCC077",
-      image: "TCC077",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP089",
-      image: "1HP089.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU046",
-      image: "CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU046",
-      image: "CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU046",
-      image: "U-CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU046",
-      image: "U-CRU046",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "HER000",
-      image: "HER000",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "IRA001",
-      image: "IRA001-P_EUmBrk0.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP089","CRU046","HER000","IRA001","TCC077"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos,Release.RoundTheTable],
-    specialImage: "CRU046",
-    subtypes: [Subtype.Young],
-    types: [Type.Hero],
-    typeText: "Ninja Hero - Young",
-
-    
-    
-    functionalText: `Your second attack each turn gets +1{p}.`,
-    
-    hero: Hero.Ira,
-    intellect: 4,
-    
-    
-    life: 20,
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed],
-    
-    
-    
-    
-    
-    
-    young: true
-  },{
-    artists: ["Fajareka Setiawan"],
-    cardIdentifier: "edge-of-autumn",
-    classes: [Class.Ninja],
-    defaultImage: "CRU050",
-    name: "Edge of Autumn",
-    printings: [{
-      
-      identifier: "TCC078",
-      image: "TCC078",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP090",
-      image: "1HP090.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU050",
-      image: "CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.C,
-      identifier: "CRU050",
-      image: "CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU050",
-      image: "U-CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU050",
-      image: "U-CRU050",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA002",
-      image: "IRA002-P_03Jc6pa.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP090","CRU050","IRA002","TCC078"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
-    specialImage: "CRU050",
-    subtypes: [Subtype.TwoHanded,Subtype.Sword],
-    types: [Type.Weapon],
-    typeText: "Ninja Weapon - Sword (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - {r}: **Attack**. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    power: 1,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kimberly Pantoni"],
-    cardIdentifier: "mask-of-three-tails",
-    classes: [Class.Ninja],
-    defaultImage: "TCC079",
-    name: "Mask of Three Tails",
-    printings: [{
-      
-      identifier: "TCC079",
-      image: "TCC079",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC079"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC079",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Ninja Equipment - Head",
-
-    
-    defense: 0,
-    functionalText: `**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kimberly Pantoni"],
-    cardIdentifier: "blood-scent",
-    classes: [Class.Ninja],
-    defaultImage: "TCC080",
-    name: "Blood Scent",
-    printings: [{
-      
-      identifier: "TCC080",
-      image: "TCC080",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC080"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC080",
-    subtypes: [Subtype.Chest],
-    types: [Type.Equipment],
-    typeText: "Ninja Equipment - Chest",
-
-    
-    defense: 1,
-    functionalText: `**Instant** - Destroy this: Gain {r}. Activate this only if you've attacked with a Crouching Tiget this turn.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Enmoire"],
-    cardIdentifier: "tearing-shuko",
-    classes: [Class.Ninja],
-    defaultImage: "DYN046",
-    name: "Tearing Shuko",
-    printings: [{
-      
-      identifier: "TCC081",
-      image: "TCC081",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN046",
-      image: "DYN046",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN046",
-      image: "DYN046",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN046",
-      image: "DYN046",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN046","TCC081"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "TCC081",
-    subtypes: [Subtype.Arms],
-    types: [Type.Equipment],
-    typeText: "Ninja Equipment - Arms",
-
-    
-    defense: 1,
-    functionalText: `**Instant** - Destroy this: The next Crouching Tiger you play this turn gets +2{p}.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kimberly Pantoni"],
-    cardIdentifier: "pouncing-paws",
-    classes: [Class.Ninja],
-    defaultImage: "TCC082",
-    name: "Pouncing Paws",
-    printings: [{
-      
-      identifier: "TCC082",
-      image: "TCC082",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC082"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC082",
-    subtypes: [Subtype.Legs],
-    types: [Type.Equipment],
-    typeText: "Ninja Equipment - Legs",
-
-    
-    defense: 1,
-    functionalText: `**Instant** - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.
-
-**Battleworn**`,
-    
-    
-    
-    
-    keywords: [Keyword.Battleworn],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maerel Hibadita"],
-    cardIdentifier: "bittering-thorns-red",
-    classes: [Class.Ninja],
-    defaultImage: "TCC083",
-    name: "Bittering Thorns",
-    printings: [{
-      
-      identifier: "TCC083",
-      image: "TCC083",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["TCC083"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC083",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, your next attack this turn gets +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "flex-claws-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN050",
-    name: "Flex Claws",
-    printings: [{
-      
-      identifier: "TCC084",
-      image: "TCC084",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN050",
-      image: "DYN050",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN050",
-      image: "DYN050",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN050","TCC084"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "TCC084",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "flying-kick-red",
-    classes: [Class.Ninja],
-    defaultImage: "CRU063",
-    name: "Flying Kick",
-    printings: [{
-      
-      identifier: "TCC085",
-      image: "TCC085",
-      set: Release.RoundTheTable,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU063",
-      image: "CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU063",
-      image: "CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU063",
-      image: "U-CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU063",
-      image: "U-CRU063",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA007",
-      image: "IRA007-P_9qjDnLM.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["CRU063","IRA007","TCC085"],
-    sets: [Release.CrucibleOfWar,Release.IraWelcomeDeck,Release.RoundTheTable],
-    specialImage: "CRU063",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `If this is played as chain link 3 or higher, it gets +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    power: 5,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Vito Vivodka"],
-    cardIdentifier: "growl-red",
-    classes: [Class.Ninja],
-    defaultImage: "TCC086",
-    name: "Growl",
-    printings: [{
-      
-      identifier: "TCC086",
-      image: "TCC086",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC086"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC086",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "leg-tap-red",
-    classes: [Class.Ninja],
-    defaultImage: "WTR101",
-    name: "Leg Tap",
-    printings: [{
-      
-      identifier: "TCC087",
-      image: "TCC087",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP116",
-      image: "1HP116.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "KSU012",
-      image: "KSU12.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR101",
-      image: "WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR101",
-      image: "WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR101",
-      image: "U-WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR101",
-      image: "U-WTR101",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP116","KSU012","TCC087","WTR101"],
-    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR101",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Jessketchin"],
-    cardIdentifier: "mauling-qi-red",
-    classes: [Class.Ninja],
-    defaultImage: "TCC088",
-    name: "Mauling Qi",
-    printings: [{
-      
-      identifier: "TCC088",
-      image: "TCC088",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["TCC088"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC088",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 1,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "pouncing-qi-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN056",
-    name: "Pouncing Qi",
-    printings: [{
-      
-      identifier: "TCC089",
-      image: "TCC089",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN056",
-      image: "DYN056",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN056",
-      image: "DYN056",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN056","TCC089"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "TCC089",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo,Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Narendra B Adi"],
-    cardIdentifier: "qi-unleashed-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN059",
-    name: "Qi Unleashed",
-    printings: [{
-      
-      identifier: "TCC090",
-      image: "TCC090",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN059",
-      image: "DYN059",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN059",
-      image: "DYN059",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN059","TCC090"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "DYN059",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4 {p}.`,
-    
-    
-    
-    
-    keywords: [Keyword.Combo],
-    
-    
-    pitch: 1,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "blessing-of-qi-red",
-    classes: [Class.Ninja],
-    defaultImage: "DYN053",
-    name: "Blessing of Qi",
-    printings: [{
-      
-      identifier: "TCC091",
-      image: "TCC091",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN053",
-      image: "DYN053",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN053",
-      image: "DYN053",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN053","TCC091"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "TCC091",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Aura",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +3{p} and you may play it this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Maerel Hibadita"],
-    cardIdentifier: "bittering-thorns-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "CRU072",
-    name: "Bittering Thorns",
-    printings: [{
-      
-      identifier: "TCC092",
-      image: "TCC092",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP134",
-      image: "1HP134.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU072",
-      image: "CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU072",
-      image: "CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU072",
-      image: "U-CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU072",
-      image: "U-CRU072",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA005",
-      image: "IRA005-P_YAgf1In.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP134","CRU072","IRA005","TCC092"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
-    specialImage: "CRU072",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, your next attack this turn gets +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "flex-claws-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "DYN051",
-    name: "Flex Claws",
-    printings: [{
-      
-      identifier: "TCC093",
-      image: "TCC093",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN051",
-      image: "DYN051",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN051",
-      image: "DYN051",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN051","TCC093"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "TCC093",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Vito Vivodka"],
-    cardIdentifier: "growl-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "TCC094",
-    name: "Growl",
-    printings: [{
-      
-      identifier: "TCC094",
-      image: "TCC094",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC094"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC094",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Le Vuong"],
-    cardIdentifier: "leg-tap-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "WTR102",
-    name: "Leg Tap",
-    printings: [{
-      
-      identifier: "TCC095",
-      image: "TCC095",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP117",
-      image: "1HP117.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "KSU018",
-      image: "KSU18.width-450",
-      set: Release.KatsuHeroDeck,
-      
-    },{
-      edition: ReleaseEdition.Alpha,
-      identifier: "WTR102",
-      image: "WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
-      identifier: "WTR102",
-      image: "WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "WTR102",
-      image: "U-WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "WTR102",
-      image: "U-WTR102",
-      set: Release.WelcomeToRathe,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP117","KSU018","TCC095","WTR102"],
-    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
-    specialImage: "WTR102",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Yulia Litvinova"],
-    cardIdentifier: "salt-the-wound-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "CRU073",
-    name: "Salt the Wound",
-    printings: [{
-      
-      identifier: "TCC096",
-      image: "TCC096",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP135",
-      image: "1HP135.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      
-      identifier: "BEN020",
-      image: "",
-      set: Release.BenjiBlitzDeck,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU073",
-      image: "CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU073",
-      image: "CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU073",
-      image: "U-CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU073",
-      image: "U-CRU073",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      
-      identifier: "IRA004",
-      image: "IRA004-P_c88KAnK.width-450",
-      set: Release.IraWelcomeDeck,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["1HP135","BEN020","CRU073","IRA004","TCC096"],
-    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
-    specialImage: "CRU073",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `This gets +1{p} for each attack that has hit this combat chain.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Immanuela Crovius"],
-    cardIdentifier: "predatory-streak-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "DYN063",
-    name: "Predatory Streak",
-    printings: [{
-      
-      identifier: "TCC097",
-      image: "TCC097",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN063",
-      image: "DYN063",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN063",
-      image: "DYN063",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS123",
-      image: "LGS123",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN063","LGS123","TCC097"],
-    sets: [Release.Dynasty,Release.Promos,Release.RoundTheTable],
-    specialImage: "LGS123",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Create 2 Crouching Tigers in your banished zone. You may play them this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "tiger-eye-reflex-yellow",
-    classes: [Class.Ninja],
-    defaultImage: "TCC098",
-    name: "Tiger Eye Reflex",
-    printings: [{
-      
-      identifier: "TCC098",
-      image: "TCC098",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC098"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC098",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Ninja Block",
-
-    
-    defense: 3,
-    functionalText: `**Ambush**
-
-When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn`,
-    
-    
-    
-    
-    keywords: [Keyword.Ambush],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "flying-kick-blue",
-    classes: [Class.Ninja],
-    defaultImage: "CRU065",
-    name: "Flying Kick",
-    printings: [{
-      
-      identifier: "TCC099",
-      image: "TCC099",
-      set: Release.RoundTheTable,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU065",
-      image: "CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU065",
-      image: "CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU065",
-      image: "U-CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU065",
-      image: "U-CRU065",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["CRU065","TCC099"],
-    sets: [Release.CrucibleOfWar,Release.RoundTheTable],
-    specialImage: "CRU065",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 2,
-    defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gets +2{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Faizal Fikri"],
-    cardIdentifier: "blessing-of-qi-blue",
-    classes: [Class.Ninja],
-    defaultImage: "DYN055",
-    name: "Blessing of Qi",
-    printings: [{
-      
-      identifier: "TCC100",
-      image: "TCC100",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN055",
-      image: "DYN055",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN055",
-      image: "DYN055",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["DYN055","TCC100"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "TCC100",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Aura",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `At the start of your turn, destroy this then create a Crouching Tiger in your banished zone. It gets +1{p} and you may play it this turn.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Immanuela Crovius"],
-    cardIdentifier: "predatory-streak-blue",
-    classes: [Class.Ninja],
-    defaultImage: "DYN064",
-    name: "Predatory Streak",
-    printings: [{
-      
-      identifier: "TCC101",
-      image: "TCC101",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN064",
-      image: "DYN064",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN064",
-      image: "DYN064",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS124",
-      image: "LGS124",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },],
-    rarities: [Rarity.Common,Rarity.Promo],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DYN064","LGS124","TCC101"],
-    sets: [Release.Dynasty,Release.Promos,Release.RoundTheTable],
-    specialImage: "LGS124",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ninja Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Create a Crouching Tiger in your banished zone. You may play it this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "tiger-eye-reflex-blue",
-    classes: [Class.Ninja],
-    defaultImage: "TCC102",
-    name: "Tiger Eye Reflex",
-    printings: [{
-      
-      identifier: "TCC102",
-      image: "TCC102",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["TCC102"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC102",
-    subtypes: [],
-    types: [Type.Block],
-    typeText: "Ninja Block",
-
-    
-    defense: 2,
-    functionalText: `**Ambush**
-
-When this defends, create a Crouching Tiger in your Banished Zone. You may play it during your next turn`,
-    
-    
-    
-    
-    keywords: [Keyword.Ambush],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Anastasiya Grintsova"],
-    cardIdentifier: "copper",
-    classes: [Class.Generic],
-    defaultImage: "EVR194.width-450",
-    name: "Copper",
-    printings: [{
-      
-      identifier: "TCC103",
-      image: "TCC103",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "TCC108",
-      image: "TCC108",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "1HP426",
-      image: "1HP426.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU197",
-      image: "CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "CRU197",
-      image: "CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU197",
-      image: "U-CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU197",
-      image: "U-CRU197",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "EVR194",
-      image: "EVR194.width-450",
-      set: Release.Everfest,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "FAB055",
-      image: "FAB055",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["1HP426","CRU197","EVR194","FAB055","TCC103","TCC108"],
-    sets: [Release.CrucibleOfWar,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
-    specialImage: "CRU197",
-    subtypes: [Subtype.Item],
-    types: [Type.Token],
-    typeText: "Generic Token - Item",
-
-    
-    
-    functionalText: `**Action** - {r}{r}{r}{r}, destroy this: Draw a card. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "crouching-tiger",
-    classes: [Class.Ninja],
-    defaultImage: "DYN065",
-    name: "Crouching Tiger",
-    printings: [{
-      
-      identifier: "TCC104",
-      image: "TCC104",
-      set: Release.RoundTheTable,
-      
-    },{
-      
-      identifier: "DYN065",
-      image: "DYN065",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "DYN065",
-      image: "DYN065_Marvel",
-      set: Release.Dynasty,
-      treatment: Treatment.AA,
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN065",
-      image: "DYN065",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["DYN065","TCC104"],
-    sets: [Release.Dynasty,Release.RoundTheTable],
-    specialImage: "DYN065_Marvel",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ninja Action - Attack",
-
-    cost: 0,
-    
-    functionalText: `**Ephemeral**
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.Ephemeral,Keyword.GoAgain],
-    
-    
-    
-    power: 0,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Henrique Lindner"],
-    cardIdentifier: "might",
-    classes: [Class.Generic],
-    defaultImage: "TCC105",
-    name: "Might",
-    printings: [{
-      
-      identifier: "TCC105",
-      image: "TCC105",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["TCC105"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC105",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `At the start of your turn, destroy this, then your next attack this turn gets +1{p}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Rio Sabda"],
-    cardIdentifier: "vigor",
-    classes: [Class.Generic],
-    defaultImage: "TCC107",
-    name: "Vigor",
-    printings: [{
-      
-      identifier: "TCC107",
-      image: "TCC107",
-      set: Release.RoundTheTable,
-      
-    },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["TCC107"],
-    sets: [Release.RoundTheTable],
-    specialImage: "TCC107",
-    subtypes: [Subtype.Aura],
-    types: [Type.Token],
-    typeText: "Generic Token - Aura",
-
-    
-    
-    functionalText: `At the start of your turn, destroy this and gain {h}.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
@@ -16981,6 +435,66 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "adaptive-plating",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO013",
+    name: "Adaptive Plating",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO013",
+      image: "EVO013",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO013",
+      image: "EVO013",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB169",
+      image: "FAB169",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Promo],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO013","FAB169"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO013",
+    subtypes: [],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment",
+
+    
+    defense: 1,
+    functionalText: `**Modular**
+
+**Action** - 0: Equip this to another equipment zone.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d} until end of turn.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Galvanize,Keyword.Modular],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -18945,6 +2459,56 @@ When you attack with Alpha Rampage, **intimidate**.`,
     
     
   },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "already-dead-red",
+    classes: [Class.Assassin],
+    defaultImage: "EVO236",
+    name: "Already Dead",
+    printings: [{
+      
+      identifier: "EVO236",
+      image: "EVO236",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO236",
+      image: "EVO236",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO236"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO236",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Contract** - You are contracted to banish opponents' non-action cards. Whenever you complete this contract, create a Silver token.
+
+When this hits a hero, banish the top card of their deck and a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Contract],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "amethyst-tiara",
     classes: [Class.Runeblade],
@@ -20401,6 +3965,64 @@ When this hits a hero, banish the top card of their deck.`,
     
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "annihilator-engine-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO054",
+    name: "Annihilator Engine",
+    printings: [{
+      
+      identifier: "EVO054",
+      image: "EVO054",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO054",
+      image: "EVO054",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO054",
+      image: "EVO054_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO054"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO054_V2",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards defending this,"
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "anothos",
     classes: [Class.Guardian],
@@ -20545,6 +4167,56 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     talents: [Talent.Earth],
     
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "apocalypse-automaton-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC011",
+    name: "Apocalypse Automaton",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "FAB175",
+      image: "FAB175",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "TCC011",
+      image: "TCC011",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["FAB175","TCC011"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "FAB175",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `Play this only if you have 1 or more Evos equipped.
+
+**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "arakni",
     classes: [Class.Assassin],
@@ -20625,7 +4297,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     },{
       foiling: Foiling.G,
       identifier: "WIN020",
-      image: "",
+      image: "WIN020",
       set: Release.Promos,
       
     },],
@@ -21736,6 +5408,58 @@ When you pitch Arknight Shard, create a Runechant token.`,
     talents: [Talent.Draconic],
     
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "autosave-script-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO098",
+    name: "Autosave Script",
+    printings: [{
+      
+      identifier: "EVO098",
+      image: "EVO098",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO098",
+      image: "EVO098",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO098"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO098",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get "When this hits, put it on the bottom of its owner's deck."`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "autumns-touch-red",
     classes: [Class.NotClassed],
@@ -22388,7 +6112,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     },{
       foiling: Foiling.G,
       identifier: "WIN006",
-      image: "",
+      image: "WIN006",
       set: Release.Promos,
       
     },],
@@ -22956,6 +6680,162 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
   },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "backup-protocol-blu-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO083",
+    name: "Backup Protocol: BLU",
+    printings: [{
+      
+      identifier: "EVO083",
+      image: "EVO083",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO083",
+      image: "EVO083",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO083"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO083",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a blue Mechanologist attack action card from your graveyard to your hand.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "backup-protocol-red-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO081",
+    name: "Backup Protocol: RED",
+    printings: [{
+      
+      identifier: "EVO081",
+      image: "EVO081",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO081",
+      image: "EVO081",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO081"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO081",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a red Mechanologist attack action card from your graveyard to your hand.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "backup-protocol-yel-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO082",
+    name: "Backup Protocol: YEL",
+    printings: [{
+      
+      identifier: "EVO082",
+      image: "EVO082",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO082",
+      image: "EVO082",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO082"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO082",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - {r}{r}, destroy this: Return a yellow Mechanologist attack action card from your graveyard to your hand.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["bimawithpencil"],
     cardIdentifier: "bad-beats-red",
     classes: [Class.Brute],
@@ -23290,6 +7170,52 @@ Defense reactions can't be played to Back Stab's chain link.`,
     
     
     talents: [Talent.Lightning],
+    
+  },{
+    artists: ["Mateus Manhanini"],
+    cardIdentifier: "banksy",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO006",
+    name: "Banksy",
+    printings: [{
+      
+      identifier: "EVO006",
+      image: "EVO006",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO006"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO006",
+    subtypes: [Subtype.TwoHanded,Subtype.Wrench],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Wrench (2H)",
+
+    
+    
+    functionalText: `**Maxx Specialization**
+
+**Once per Turn Action** - {r}: **Attack**. Activate this ability only if you've **cranked** this turn.
+
+When this hits a hero, put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    power: 3,
+    
+    
+    
+    
+    
+    specializations: [Hero.Maxx],
+    
     
   },{
     artists: ["Jessada Sutthi"],
@@ -24556,6 +8482,50 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
   },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "bastion-of-duty",
+    classes: [Class.Guardian],
+    defaultImage: "TCC029",
+    name: "Bastion of Duty",
+    printings: [{
+      
+      identifier: "TCC029",
+      image: "TCC029",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC029"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC029",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Off-Hand",
+
+    
+    defense: 2,
+    functionalText: `**Protect**
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Protect,Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Kanadekana"],
     cardIdentifier: "bastion-of-unity",
     classes: [Class.Warrior],
@@ -25245,11 +9215,17 @@ If you've **charged** this turn, search your deck for an action card with cost X
       image: "DTD046",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS168",
+      image: "LGS168",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD046"],
-    sets: [Release.DuskTillDawn],
+    setIdentifiers: ["DTD046","LGS168"],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "DTD046",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
@@ -26294,6 +10270,204 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Ausonia"],
+    cardIdentifier: "big-bertha-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO177",
+    name: "Big Bertha",
+    printings: [{
+      
+      identifier: "EVO177",
+      image: "EVO177",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO177",
+      image: "EVO177",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO177"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO177",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "big-bertha-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO178",
+    name: "Big Bertha",
+    printings: [{
+      
+      identifier: "EVO178",
+      image: "EVO178",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO178",
+      image: "EVO178",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO178"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO178",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "big-bertha-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO179",
+    name: "Big Bertha",
+    printings: [{
+      
+      identifier: "EVO179",
+      image: "EVO179",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO179",
+      image: "EVO179",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO179"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO179",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "big-shot-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO153",
+    name: "Big Shot",
+    printings: [{
+      
+      identifier: "EVO153",
+      image: "EVO153",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO153",
+      image: "EVO153",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO153"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO153",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Hoàng Lập"],
     cardIdentifier: "billowing-mirage-red",
     classes: [Class.Illusionist],
@@ -26940,6 +11114,130 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     talents: [Talent.Elemental],
     
   },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "bittering-thorns-red",
+    classes: [Class.Ninja],
+    defaultImage: "TCC083",
+    name: "Bittering Thorns",
+    printings: [{
+      
+      identifier: "TCC083",
+      image: "TCC083",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC083"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC083",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, your next attack this turn gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "bittering-thorns-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "CRU072",
+    name: "Bittering Thorns",
+    printings: [{
+      
+      identifier: "1HP134",
+      image: "1HP134.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU072",
+      image: "CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU072",
+      image: "CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU072",
+      image: "U-CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU072",
+      image: "U-CRU072",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA005",
+      image: "IRA005-P_YAgf1In.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },{
+      
+      identifier: "TCC092",
+      image: "TCC092",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP134","CRU072","IRA005","TCC092"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU072",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, your next attack this turn gains +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Carlos Jose Camus"],
     cardIdentifier: "blackout-kick-red",
     classes: [Class.Ninja],
@@ -27175,7 +11473,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     specialImage: "DYN117",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
-    typeText: "Assassin Equipment - Leg",
+    typeText: "Assassin Equipment - Legs",
 
     
     defense: 1,
@@ -28889,6 +13187,60 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
   },{
     artists: ["Faizal Fikri"],
+    cardIdentifier: "blessing-of-qi-red",
+    classes: [Class.Ninja],
+    defaultImage: "DYN053",
+    name: "Blessing of Qi",
+    printings: [{
+      
+      identifier: "DYN053",
+      image: "DYN053",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN053",
+      image: "DYN053",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC091",
+      image: "TCC091",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN053","TCC091"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN053",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Aura",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gains +3{p} and you may play it this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
     cardIdentifier: "blessing-of-qi-yellow",
     classes: [Class.Ninja],
     defaultImage: "DYN054",
@@ -28917,7 +13269,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
 
     cost: 1,
     defense: 3,
-    functionalText: `At the start of your turn, destroy Blessing of Qi then create a Crouching Tiger in your banished zone. It gains +2{p} and you may play it this turn.`,
+    functionalText: `At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gains +2{p} and you may play it this turn.`,
     
     
     
@@ -28926,6 +13278,60 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "blessing-of-qi-blue",
+    classes: [Class.Ninja],
+    defaultImage: "DYN055",
+    name: "Blessing of Qi",
+    printings: [{
+      
+      identifier: "DYN055",
+      image: "DYN055",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN055",
+      image: "DYN055",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC100",
+      image: "TCC100",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN055","TCC100"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN055",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Aura",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then create a Crouching Tiger in your banished zone. It gains +1{p} and you may play it this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -30386,7 +14792,7 @@ Your Brute and Shadow attacks get +X{p} this turn where X is the number of cards
     
     
     
-    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    keywords: [Keyword.GoAgain],
     
     
     pitch: 3,
@@ -30460,46 +14866,40 @@ Your Brute and Shadow attacks get +X{p} this turn where X is the number of cards
     
     
   },{
-    artists: ["Steve Argyle"],
-    cardIdentifier: "blood-of-the-dracai-red",
-    classes: [Class.NotClassed],
-    defaultImage: "UPR000",
-    name: "Blood of the Dracai",
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "blood-scent",
+    classes: [Class.Ninja],
+    defaultImage: "TCC080",
+    name: "Blood Scent",
     printings: [{
-      foiling: Foiling.C,
-      identifier: "UPR000",
-      image: "UPR000",
-      set: Release.Uprising,
       
-    },{
-      foiling: Foiling.R,
-      identifier: "UPR000",
-      image: "UPR000",
-      set: Release.Uprising,
+      identifier: "TCC080",
+      image: "TCC080",
+      set: Release.RoundTheTable,
       
     },],
-    rarities: [Rarity.Fabled],
-    rarity: Rarity.Fabled,
-    setIdentifiers: ["UPR000"],
-    sets: [Release.Uprising],
-    specialImage: "UPR000",
-    subtypes: [Subtype.Gem],
-    types: [Type.Resource],
-    typeText: "Draconic Resource - Gem",
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC080"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC080",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Chest",
 
     
-    
-    functionalText: `**Legendary**
+    defense: 1,
+    functionalText: `**Instant** - Destroy this: Gain {r}. Activate this only if you've attacked with a Crouching Tiger this turn.
 
-When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn cost {r} less.`,
+**Battleworn**`,
     
     
     
     
-    keywords: [Keyword.Legendary],
+    keywords: [Keyword.Battleworn],
     
     
-    pitch: 1,
+    
     
     restrictedFormats: [Format.Commoner],
     
@@ -30507,62 +14907,6 @@ When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn
     
     
     
-    talents: [Talent.Draconic],
-    
-  },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "blood-on-her-hands-yellow",
-    classes: [Class.Warrior],
-    defaultImage: "EVR055.width-450",
-    name: "Blood on Her Hands",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "EVR055",
-      image: "EVR055.width-450",
-      set: Release.Everfest,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "EVR055",
-      image: "EVR055.width-450",
-      set: Release.Everfest,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["EVR055"],
-    sets: [Release.Everfest],
-    specialImage: "EVR055.width-450",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Warrior Action",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Kassai Specialization**
-
-As an additional cost to play Blood on Her Hands, destroy any number of Copper you control. For each Copper destroyed this way choose a mode. You may choose each mode twice;
-
-- Target 1H weapon has +1{p}  while attacking this turn.
-- Target 1H weapon has **go again** while attacking this turn.
-- Target 1H weapon may attack twice this turn.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain,Keyword.Specialization],
-    
-    
-    pitch: 2,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    specializations: [Hero.Kassai],
     
     
   },{
@@ -30750,6 +15094,112 @@ As an additional cost to play Blood on Her Hands, destroy any number of Copper y
     
     
     talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Steve Argyle"],
+    cardIdentifier: "blood-of-the-dracai-red",
+    classes: [Class.NotClassed],
+    defaultImage: "UPR000",
+    name: "Blood of the Dracai",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "UPR000",
+      image: "UPR000",
+      set: Release.Uprising,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR000",
+      image: "UPR000",
+      set: Release.Uprising,
+      
+    },],
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["UPR000"],
+    sets: [Release.Uprising],
+    specialImage: "UPR000",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Draconic Resource - Gem",
+
+    
+    
+    functionalText: `**Legendary**
+
+When you pitch Blood of the Dracai, the next 3 Draconic cards you play this turn cost {r} less.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "blood-on-her-hands-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "EVR055.width-450",
+    name: "Blood on Her Hands",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "EVR055",
+      image: "EVR055.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "EVR055",
+      image: "EVR055.width-450",
+      set: Release.Everfest,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVR055"],
+    sets: [Release.Everfest],
+    specialImage: "EVR055.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Kassai Specialization**
+
+As an additional cost to play Blood on Her Hands, destroy any number of Copper you control. For each Copper destroyed this way choose a mode. You may choose each mode twice;
+
+- Target 1H weapon has +1{p}  while attacking this turn.
+- Target 1H weapon has **go again** while attacking this turn.
+- Target 1H weapon may attack twice this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    specializations: [Hero.Kassai],
+    
     
   },{
     artists: ["Carlos Cruchaga"],
@@ -32386,6 +16836,246 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "boom-grenade-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO084",
+    name: "Boom Grenade",
+    printings: [{
+      
+      identifier: "EVO084",
+      image: "EVO084",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO084",
+      image: "EVO084",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO084"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO084",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 4 damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "boom-grenade-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO085",
+    name: "Boom Grenade",
+    printings: [{
+      
+      identifier: "EVO085",
+      image: "EVO085",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO085",
+      image: "EVO085",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO085"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO085",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 3 damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "boom-grenade-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO086",
+    name: "Boom Grenade",
+    printings: [{
+      
+      identifier: "EVO086",
+      image: "EVO086",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO086",
+      image: "EVO086",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO086"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO086",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and deal 2 damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "boulder-drop-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "TCC039",
+    name: "Boulder Drop",
+    printings: [{
+      
+      identifier: "TCC039",
+      image: "TCC039",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC039"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC039",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 2,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "boulder-drop-blue",
+    classes: [Class.Guardian],
+    defaultImage: "TCC044",
+    name: "Boulder Drop",
+    printings: [{
+      
+      identifier: "TCC044",
+      image: "TCC044",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC044"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC044",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "boulder-trap-yellow",
     classes: [Class.Ranger],
@@ -33644,7 +18334,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     },{
       foiling: Foiling.G,
       identifier: "WIN002",
-      image: "",
+      image: "WIN002",
       set: Release.Promos,
       
     },{
@@ -33710,13 +18400,13 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     },{
       edition: ReleaseEdition.First,foiling: Foiling.C,
       identifier: "EVR017",
-      image: "",
+      image: "EVR017-BACK",
       set: Release.Everfest,
       treatment: Treatment.AA,
     },{
       foiling: Foiling.G,
       identifier: "WIN016",
-      image: "",
+      image: "WIN016",
       set: Release.Promos,
       
     },],
@@ -33724,7 +18414,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR017","WIN016"],
     sets: [Release.Everfest,Release.Promos],
-    specialImage: "EVR017.width-450",
+    specialImage: "EVR017-BACK",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Elemental Guardian Hero",
@@ -33938,150 +18628,6 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     talents: [Talent.Earth],
     
   },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "break-of-dawn-red",
-    classes: [Class.NotClassed],
-    defaultImage: "DTD100",
-    name: "Break of Dawn",
-    printings: [{
-      
-      identifier: "DTD100",
-      image: "DTD100",
-      set: Release.DuskTillDawn,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DTD100",
-      image: "DTD100",
-      set: Release.DuskTillDawn,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DTD100"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD100",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Light Instant",
-
-    cost: 0,
-    
-    functionalText: `The next time a Shadow source would deal damage this turn, prevent 4 of that damage.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 1,
-    
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "break-of-dawn-yellow",
-    classes: [Class.NotClassed],
-    defaultImage: "DTD101",
-    name: "Break of Dawn",
-    printings: [{
-      
-      identifier: "DTD101",
-      image: "DTD101",
-      set: Release.DuskTillDawn,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DTD101",
-      image: "DTD101",
-      set: Release.DuskTillDawn,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DTD101"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD101",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Light Instant",
-
-    cost: 0,
-    
-    functionalText: `The next time a Shadow source would deal damage this turn, prevent 3 of that damage.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "break-of-dawn-blue",
-    classes: [Class.NotClassed],
-    defaultImage: "DTD102",
-    name: "Break of Dawn",
-    printings: [{
-      
-      identifier: "DTD102",
-      image: "DTD102",
-      set: Release.DuskTillDawn,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DTD102",
-      image: "DTD102",
-      set: Release.DuskTillDawn,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["DTD102"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD102",
-    subtypes: [],
-    types: [Type.Instant],
-    typeText: "Light Instant",
-
-    cost: 0,
-    
-    functionalText: `The next time a Shadow source would deal damage this turn, prevent 2 of that damage.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Light],
-    
-  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "break-tide-yellow",
     classes: [Class.Ninja],
@@ -34128,6 +18674,168 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "break-of-dawn-red",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD100",
+    name: "Break of Dawn",
+    printings: [{
+      
+      identifier: "DTD100",
+      image: "DTD100",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD100",
+      image: "DTD100",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS169",
+      image: "LGS169",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD100","LGS169"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "LGS169",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time a Shadow source would deal damage this turn, prevent 4 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "break-of-dawn-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD101",
+    name: "Break of Dawn",
+    printings: [{
+      
+      identifier: "DTD101",
+      image: "DTD101",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD101",
+      image: "DTD101",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS170",
+      image: "LGS170",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD101","LGS170"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "LGS170",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time a Shadow source would deal damage this turn, prevent 3 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "break-of-dawn-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "DTD102",
+    name: "Break of Dawn",
+    printings: [{
+      
+      identifier: "DTD102",
+      image: "DTD102",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DTD102",
+      image: "DTD102",
+      set: Release.DuskTillDawn,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS171",
+      image: "LGS171",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DTD102","LGS171"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "LGS171",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Light Instant",
+
+    cost: 0,
+    
+    functionalText: `The next time a Shadow source would deal damage this turn, prevent 2 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
     
   },{
     artists: ["Henrique Lindner"],
@@ -34257,8 +18965,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "breakneck-battery-red",
     classes: [Class.Brute],
@@ -34537,6 +19244,50 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "brevant-civic-protector",
+    classes: [Class.Guardian],
+    defaultImage: "TCC027",
+    name: "Brevant, Civic Protector",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "TCC027",
+      image: "TCC027",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC027"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC027",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Guardian Hero - Young",
+
+    
+    
+    functionalText: `You may have any number of Chivalry in your deck.
+
+Whenever you **protect** another hero, create a Might token.`,
+    
+    hero: Hero.Brevant,
+    intellect: 4,
+    
+    keywords: [Keyword.Protect],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "briar",
     classes: [Class.Runeblade],
@@ -34651,7 +19402,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     },{
       foiling: Foiling.G,
       identifier: "WIN015",
-      image: "",
+      image: "WIN015",
       set: Release.Promos,
       
     },{
@@ -35423,6 +20174,156 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     
     
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bull-bar-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO147",
+    name: "Bull Bar",
+    printings: [{
+      
+      identifier: "EVO147",
+      image: "EVO147",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO147",
+      image: "EVO147",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO147"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO147",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bull-bar-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO148",
+    name: "Bull Bar",
+    printings: [{
+      
+      identifier: "EVO148",
+      image: "EVO148",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO148",
+      image: "EVO148",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO148"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO148",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Overpower],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "bull-bar-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO149",
+    name: "Bull Bar",
+    printings: [{
+      
+      identifier: "EVO149",
+      image: "EVO149",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO149",
+      image: "EVO149",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO149"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO149",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+If you control a Hyper Driver, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Overpower],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Wírawan Pranoto"],
     cardIdentifier: "bulls-eye-bracers",
     classes: [Class.Ranger],
@@ -35799,6 +20700,54 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     
     
     talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "burn-rubber-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO154",
+    name: "Burn Rubber",
+    printings: [{
+      
+      identifier: "EVO154",
+      image: "EVO154",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO154",
+      image: "EVO154",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO154"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO154",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p} and can't be defended by equipment.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Riordan Delmiro"],
@@ -37659,7 +22608,7 @@ If a hero would draw a card during an action phase, instead they banish the top 
     },{
       foiling: Foiling.G,
       identifier: "WIN012",
-      image: "",
+      image: "WIN012",
       set: Release.Promos,
       
     },],
@@ -37827,58 +22776,6 @@ Attack action cards you control have +3{p}.
     talents: [Talent.Earth],
     
   },{
-    artists: ["Mihail Spil-Haufter"],
-    cardIdentifier: "channel-the-bleak-expanse-blue",
-    classes: [Class.NotClassed],
-    defaultImage: "UPR138",
-    name: "Channel the Bleak Expanse",
-    printings: [{
-      
-      identifier: "UPR138",
-      image: "UPR138",
-      set: Release.Uprising,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "UPR138",
-      image: "UPR138",
-      set: Release.Uprising,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["UPR138"],
-    sets: [Release.Uprising],
-    specialImage: "UPR138",
-    subtypes: [Subtype.Aura,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ice Action - Aura",
-
-    cost: 1,
-    defense: 2,
-    functionalText: `**Go again**
-
-Heroes can't reveal cards, search decks, or draw cards from effects.
-
-**Channel Ice** - At the beginning of your end phase, put a flow counter on Channel the Bleak Expanse then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.`,
-    
-    
-    
-    
-    keywords: [Keyword.Channel,Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Ice],
-    
-  },{
     artists: ["Mark Poole"],
     cardIdentifier: "channel-thunder-steppe-yellow",
     classes: [Class.NotClassed],
@@ -37941,6 +22838,58 @@ Whenever you play an action card, you may pay {r}. If you do, it gains **go agai
     
     
     talents: [Talent.Lightning],
+    
+  },{
+    artists: ["Mihail Spil-Haufter"],
+    cardIdentifier: "channel-the-bleak-expanse-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "UPR138",
+    name: "Channel the Bleak Expanse",
+    printings: [{
+      
+      identifier: "UPR138",
+      image: "UPR138",
+      set: Release.Uprising,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR138",
+      image: "UPR138",
+      set: Release.Uprising,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["UPR138"],
+    sets: [Release.Uprising],
+    specialImage: "UPR138",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ice Action - Aura",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Go again**
+
+Heroes can't reveal cards, search decks, or draw cards from effects.
+
+**Channel Ice** - At the beginning of your end phase, put a flow counter on Channel the Bleak Expanse then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Channel,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Ice],
     
   },{
     artists: ["Erick Efata"],
@@ -38527,6 +23476,48 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     talents: [Talent.Elemental],
     
   },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "chivalry-blue",
+    classes: [Class.Guardian],
+    defaultImage: "TCC048",
+    name: "Chivalry",
+    printings: [{
+      
+      identifier: "TCC048",
+      image: "TCC048",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC048"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC048",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Guardian Block",
+
+    
+    defense: 3,
+    functionalText: `**Protect**`,
+    
+    
+    
+    
+    keywords: [Keyword.Protect],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Emilis Emka"],
     cardIdentifier: "chokeslam-red",
     classes: [Class.Guardian],
@@ -38574,7 +23565,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
 
     cost: 4,
     defense: 3,
-    functionalText: `**Crush** - If Chokeslam deals 4 or more damage to a hero, attack action cards they control can't gain {p} during their next action phase.`,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, their attack action cards can't gain {p} during their next action phase.`,
     
     
     
@@ -38584,6 +23575,150 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     
     pitch: 1,
     power: 8,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Emilis Emka"],
+    cardIdentifier: "chokeslam-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "CRU036",
+    name: "Chokeslam",
+    printings: [{
+      
+      identifier: "1HP071",
+      image: "1HP071.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU036",
+      image: "CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU036",
+      image: "CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU036",
+      image: "U-CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU036",
+      image: "U-CRU036",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "TCC040",
+      image: "TCC040",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP071","CRU036","TCC040"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "CRU036",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, their attack action cards can't gain {p} during their next action phase.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 2,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Emilis Emka"],
+    cardIdentifier: "chokeslam-blue",
+    classes: [Class.Guardian],
+    defaultImage: "CRU037",
+    name: "Chokeslam",
+    printings: [{
+      
+      identifier: "1HP072",
+      image: "1HP072.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU037",
+      image: "CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU037",
+      image: "CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU037",
+      image: "U-CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU037",
+      image: "U-CRU037",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "TCC045",
+      image: "TCC045",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP072","CRU037","TCC045"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "CRU037",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, their attack action cards can't gain {p} during their next action phase.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
+    power: 6,
     
     
     
@@ -39100,6 +24235,182 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-duty",
+    classes: [Class.Guardian],
+    defaultImage: "TCC031",
+    name: "Civic Duty",
+    printings: [{
+      
+      identifier: "TCC031",
+      image: "TCC031",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC031"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC031",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Chest",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, create a Vigor token under another hero's control.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-guide",
+    classes: [Class.Guardian],
+    defaultImage: "TCC032",
+    name: "Civic Guide",
+    printings: [{
+      
+      identifier: "TCC032",
+      image: "TCC032",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC032"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC032",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Arms",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, create a Might token under another hero's control.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-peak",
+    classes: [Class.Guardian],
+    defaultImage: "TCC030",
+    name: "Civic Peak",
+    printings: [{
+      
+      identifier: "TCC030",
+      image: "TCC030",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC030"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC030",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Head",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, another target hero draws a card.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "civic-steps",
+    classes: [Class.Guardian],
+    defaultImage: "TCC033",
+    name: "Civic Steps",
+    printings: [{
+      
+      identifier: "TCC033",
+      image: "TCC033",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC033"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC033",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Legs",
+
+    
+    defense: 2,
+    functionalText: `Whenever this defends, create a Quicken token under another hero's control.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+    
     
     
     
@@ -39679,6 +24990,82 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     talents: [Talent.Ice],
     
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "coax-a-commotion-red",
+    classes: [Class.Generic],
+    defaultImage: "CRU180",
+    name: "Coax a Commotion",
+    printings: [{
+      
+      identifier: "1HP359",
+      image: "1HP359.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU180",
+      image: "CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU180",
+      image: "CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU180",
+      image: "U-CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU180",
+      image: "U-CRU180",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "TCC055",
+      image: "TCC055",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["1HP359","CRU180","TCC055"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "CRU180",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this hits, choose any number:
+
+- Each hero creates a Quicken token.
+- Each hero draws a card.
+- Each hero gains 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Carlos Cruchaga","Mateusz Wiśniewski"],
     cardIdentifier: "codex-of-bloodrot-yellow",
     classes: [Class.Assassin,Class.Ranger],
@@ -39853,6 +25240,150 @@ Create a Ponder token under your control and an Inertia token under each opponen
     
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "cognition-field-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO117",
+    name: "Cognition Field",
+    printings: [{
+      
+      identifier: "EVO117",
+      image: "EVO117",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO117",
+      image: "EVO117",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO117"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO117",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 3,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "cognition-field-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO118",
+    name: "Cognition Field",
+    printings: [{
+      
+      identifier: "EVO118",
+      image: "EVO118",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO118",
+      image: "EVO118",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO118"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO118",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "cognition-field-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO119",
+    name: "Cognition Field",
+    printings: [{
+      
+      identifier: "EVO119",
+      image: "EVO119",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO119",
+      image: "EVO119",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO119"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO119",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 1,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Asep Ariyanto"],
     cardIdentifier: "cognition-nodes-blue",
     classes: [Class.Mechanologist],
@@ -39913,6 +25444,206 @@ Create a Ponder token under your control and an Inertia token under each opponen
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Elizaveta Alipatova"],
+    cardIdentifier: "cogwerx-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO016",
+    name: "Cogwerx Base Arms",
+    printings: [{
+      
+      identifier: "EVO016",
+      image: "EVO016",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO016",
+      image: "EVO016",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO016"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO016",
+    subtypes: [Subtype.Arms,Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Arms",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per Turn Instant** - {r}, remove a steam counter from this: Your next Mechanologist attack this turn gets +1{p}. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "cogwerx-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO015",
+    name: "Cogwerx Base Chest",
+    printings: [{
+      
+      identifier: "EVO015",
+      image: "EVO015",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO015",
+      image: "EVO015",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO015"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO015",
+    subtypes: [Subtype.Base,Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Chest",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per Turn Instant** - {r}, remove a steam counter from this: Gain {r}{r}. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Maxim Nikiforov"],
+    cardIdentifier: "cogwerx-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO014",
+    name: "Cogwerx Base Head",
+    printings: [{
+      
+      identifier: "EVO014",
+      image: "EVO014",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO014",
+      image: "EVO014",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO014"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO014",
+    subtypes: [Subtype.Base,Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Head",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per Turn Instant** - {r}, remove a steam counter from this: Shuffle a Mechanologist attack action card from your banished zone into your deck. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "cogwerx-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO017",
+    name: "Cogwerx Base Legs",
+    printings: [{
+      
+      identifier: "EVO017",
+      image: "EVO017",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO017",
+      image: "EVO017",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO017"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO017",
+    subtypes: [Subtype.Base,Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Legs",
+
+    
+    
+    functionalText: `When this is equipped, put a steam counter on it.
+
+**Once per Turn Instant** - {r}, remove a steam counter from this: Gain 1 action point. Activate this ability only if you've **boosted** this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -40310,6 +26041,48 @@ When this defends an attack with **go again**, the attacking hero discards their
     
     
     specializations: [Hero.Riptide],
+    
+    
+  },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "colossal-bearing-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC034",
+    name: "Colossal Bearing",
+    printings: [{
+      
+      identifier: "TCC034",
+      image: "TCC034",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC034"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC034",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy an equipment they control with 1 or less {d}."`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    pitch: 1,
+    power: 8,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
     
     
   },{
@@ -41399,6 +27172,56 @@ You may banish a non-equipment defending card with {d} less than the number of D
     
     
   },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "contest-the-mindfield-blue",
+    classes: [Class.Wizard],
+    defaultImage: "EVO243",
+    name: "Contest the Mindfield",
+    printings: [{
+      
+      identifier: "EVO243",
+      image: "EVO243",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO243",
+      image: "EVO243",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO243"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO243",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Wizard Action - Aura",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `All heroes get -1{i}.
+
+At the start of your turn, destroy this.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Cristián Huerta"],
     cardIdentifier: "convection-amplifier-red",
     classes: [Class.Mechanologist],
@@ -41665,6 +27488,96 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Anastasiya Grintsova"],
+    cardIdentifier: "copper",
+    classes: [Class.Generic],
+    defaultImage: "EVR194.width-450",
+    name: "Copper",
+    printings: [{
+      
+      identifier: "1HP426",
+      image: "1HP426.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU197",
+      image: "CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU197",
+      image: "CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU197",
+      image: "U-CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU197",
+      image: "U-CRU197",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR194",
+      image: "EVR194.width-450",
+      set: Release.Everfest,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB055",
+      image: "FAB055",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC103",
+      image: "TCC103",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "TCC108",
+      image: "TCC108",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["1HP426","CRU197","EVR194","FAB055","TCC103","TCC108"],
+    sets: [Release.CrucibleOfWar,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
+    specialImage: "CRU197",
+    subtypes: [Subtype.Item],
+    types: [Type.Token],
+    typeText: "Generic Token - Item",
+
+    
+    
+    functionalText: `**Action** - {r}{r}{r}{r}, destroy this: Draw a card. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["soyameii"],
     cardIdentifier: "coronet-peak",
     classes: [Class.NotClassed],
@@ -41732,12 +27645,18 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
       image: "DTD232",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB153",
+      image: "FAB153",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["DTD232"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD232",
+    setIdentifiers: ["DTD232","FAB153"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "FAB153",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Generic Token - Aura",
@@ -42401,6 +28320,324 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
   },{
+    artists: ["Ksenia Belova"],
+    cardIdentifier: "cranial-crush-blue",
+    classes: [Class.Guardian],
+    defaultImage: "WTR045",
+    name: "Cranial Crush",
+    printings: [{
+      
+      identifier: "TCC046",
+      image: "TCC046",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR045",
+      image: "WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR045",
+      image: "WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR045",
+      image: "U-WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR045",
+      image: "U-WTR045",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC046","WTR045"],
+    sets: [Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR045",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they can't draw cards during their next action phase`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
+    power: 8,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "crankshaft-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO174",
+    name: "Crankshaft",
+    printings: [{
+      
+      identifier: "DYN101",
+      image: "DYN101",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN101",
+      image: "DYN101",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "EVO174",
+      image: "EVO174",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN101","EVO174"],
+    sets: [Release.BrightLights,Release.Dynasty],
+    specialImage: "DYN101",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "crankshaft-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO175",
+    name: "Crankshaft",
+    printings: [{
+      
+      identifier: "DYN102",
+      image: "DYN102",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN102",
+      image: "DYN102",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "EVO175",
+      image: "EVO175",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN102","EVO175"],
+    sets: [Release.BrightLights,Release.Dynasty],
+    specialImage: "DYN102",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "crankshaft-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO176",
+    name: "Crankshaft",
+    printings: [{
+      
+      identifier: "DYN103",
+      image: "DYN103",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN103",
+      image: "DYN103",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "EVO176",
+      image: "EVO176",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN103","EVO176"],
+    sets: [Release.BrightLights,Release.Dynasty],
+    specialImage: "DYN103",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this is banished from **boosting**, put a steam counter on a Hyper Driver you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "crash-down-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC037",
+    name: "Crash Down",
+    printings: [{
+      
+      identifier: "TCC037",
+      image: "TCC037",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC037"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC037",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +6{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "crash-down-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "TCC042",
+    name: "Crash Down",
+    printings: [{
+      
+      identifier: "TCC042",
+      image: "TCC042",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC042"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC042",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +5{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "crater-fist",
     classes: [Class.Guardian],
@@ -42465,6 +28702,88 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
     
     
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "crazy-brew-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR162",
+    name: "Crazy Brew",
+    printings: [{
+      
+      identifier: "1HP363",
+      image: "1HP363.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB016",
+      image: "FAB016",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC070",
+      image: "TCC070",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR162",
+      image: "WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR162",
+      image: "WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR162",
+      image: "U-WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR162",
+      image: "U-WTR162",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo,Rarity.SuperRare],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["1HP363","FAB016","TCC070","WTR162"],
+    sets: [Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR162",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Roll a 6 sided die. On;
+
+- 1 or 2 - Lose 2{h}. **Go again**
+- 3 or 4 - Gain 2{h}. **Go again**
+- 5 or 6 - Gain {r}{r}, gain 2 action points, and your next attack this turn gains +2{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
     
     restrictedFormats: [Format.Commoner],
     
@@ -42934,6 +29253,68 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     
   },{
     artists: ["Carlos Cruchaga"],
+    cardIdentifier: "crouching-tiger",
+    classes: [Class.Ninja],
+    defaultImage: "DYN065",
+    name: "Crouching Tiger",
+    printings: [{
+      
+      identifier: "DYN065",
+      image: "DYN065",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN065",
+      image: "DYN065_Marvel",
+      set: Release.Dynasty,
+      treatment: Treatment.AA,
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN065",
+      image: "DYN065",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC104",
+      image: "TCC104",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["DYN065","TCC104"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN065_Marvel",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    
+    functionalText: `**Ephemeral**
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ephemeral,Keyword.GoAgain],
+    
+    
+    
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
     cardIdentifier: "crows-nest",
     classes: [Class.Ranger],
     defaultImage: "OUT097.width-450",
@@ -42986,6 +29367,132 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     
     
     specializations: [Hero.Azalea],
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "crowd-control-red",
+    classes: [Class.Bard],
+    defaultImage: "TCC060",
+    name: "Crowd Control",
+    printings: [{
+      
+      identifier: "TCC060",
+      image: "TCC060",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC060"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC060",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Bard Block",
+
+    
+    defense: 4,
+    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "crowd-control-yellow",
+    classes: [Class.Bard],
+    defaultImage: "TCC063",
+    name: "Crowd Control",
+    printings: [{
+      
+      identifier: "TCC063",
+      image: "TCC063",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC063"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC063",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Bard Block",
+
+    
+    defense: 3,
+    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "crowd-control-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC076",
+    name: "Crowd Control",
+    printings: [{
+      
+      identifier: "TCC076",
+      image: "TCC076",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC076"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC076",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Bard Block",
+
+    
+    defense: 2,
+    functionalText: `When this defends, you may pay {r}{r}{r}. If you do, it gets +1{d} for each opposing hero.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
     
     
   },{
@@ -44478,6 +30985,106 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     young: true
   },{
     artists: ["Sam Yang"],
+    cardIdentifier: "dash-io",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO001",
+    name: "Dash I/O",
+    printings: [{
+      
+      identifier: "EVO001",
+      image: "EVO001",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN025",
+      image: "",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO001","WIN025"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO001",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero",
+
+    
+    
+    functionalText: `You may look at the top card of your deck at any time.
+
+Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.`,
+    
+    hero: Hero.Dash,
+    intellect: 4,
+    
+    
+    life: 36,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "dash-database",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO002",
+    name: "Dash, Database",
+    printings: [{
+      
+      identifier: "EVO002",
+      image: "EVO002",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER097",
+      image: "HER097",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO002","HER097"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO002",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero - Young",
+
+    
+    
+    functionalText: `You may look at the top card of your deck at any time.
+
+Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top of your deck as though it were an instant. It costs an additional {r} to play.`,
+    
+    hero: Hero.Dash,
+    intellect: 4,
+    
+    
+    life: 18,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
+    artists: ["Sam Yang"],
     cardIdentifier: "dash-inventor-extraordinaire",
     classes: [Class.Mechanologist],
     defaultImage: "CRU098",
@@ -44527,7 +31134,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     },{
       foiling: Foiling.G,
       identifier: "WIN005",
-      image: "",
+      image: "WIN005",
       set: Release.Promos,
       
     },],
@@ -44632,6 +31239,156 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     young: true
+  },{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "data-link-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO186",
+    name: "Data Link",
+    printings: [{
+      
+      identifier: "EVO186",
+      image: "EVO186",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO186",
+      image: "EVO186",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO186"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO186",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Opt],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "data-link-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO187",
+    name: "Data Link",
+    printings: [{
+      
+      identifier: "EVO187",
+      image: "EVO187",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO187",
+      image: "EVO187",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO187"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO187",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Opt],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "data-link-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO188",
+    name: "Data Link",
+    printings: [{
+      
+      identifier: "EVO188",
+      image: "EVO188",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO188",
+      image: "EVO188",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO188"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO188",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Opt],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
   },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dauntless-red",
@@ -46981,6 +33738,60 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "demolition-protocol-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO057",
+    name: "Demolition Protocol",
+    printings: [{
+      
+      identifier: "EVO057",
+      image: "EVO057",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO057",
+      image: "EVO057",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB174",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO057","FAB174"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO057",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - When this attacks a hero, remove all steam counters from up to X equipment, items, and/or weapons they control, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 7,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "descendent-gustwave-red",
     classes: [Class.Ninja],
@@ -47310,12 +34121,18 @@ The first time this is defended by a non-equipment card each turn, halve the bas
       image: "DTD107",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB164",
+      image: "FAB164",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["DTD107"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD107",
+    setIdentifiers: ["DTD107","FAB164"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "FAB164",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -47441,6 +34258,48 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
     
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "diamond",
+    classes: [Class.Generic],
+    defaultImage: "FAB165",
+    name: "Diamond",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "FAB165",
+      image: "FAB165",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB165"],
+    sets: [Release.Promos],
+    specialImage: "FAB165",
+    subtypes: [Subtype.Item],
+    types: [Type.Token],
+    typeText: "Generic Token - Item",
+
+    
+    
+    functionalText: `**Action** - Destroy Diamond: Draw a card. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
     
     
     
@@ -47860,7 +34719,7 @@ Each hero banishes a card from their arsenal.
 
     cost: 5,
     defense: 3,
-    functionalText: `**Crush** - If Disable deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
     
     
     
@@ -47870,6 +34729,156 @@ Each hero banishes a card from their arsenal.
     
     pitch: 1,
     power: 9,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "disable-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "WTR049",
+    name: "Disable",
+    printings: [{
+      
+      identifier: "1HP056",
+      image: "1HP056.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "TCC041",
+      image: "TCC041",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR049",
+      image: "WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR049",
+      image: "WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR049",
+      image: "U-WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR049",
+      image: "U-WTR049",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP056","TCC041","WTR049"],
+    sets: [Release.HistoryPack1,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR049",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 5,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 2,
+    power: 8,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "disable-blue",
+    classes: [Class.Guardian],
+    defaultImage: "WTR050",
+    name: "Disable",
+    printings: [{
+      
+      identifier: "1HP057",
+      image: "1HP057.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO019",
+      image: "BVO19.width-450",
+      set: Release.BravoBlitzDeck,
+      
+    },{
+      
+      identifier: "TCC047",
+      image: "TCC047",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR050",
+      image: "WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR050",
+      image: "WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR050",
+      image: "U-WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR050",
+      image: "U-WTR050",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP057","BVO019","TCC047","WTR050"],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR050",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 5,
+    defense: 3,
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, put a card from their arsenal on the bottom of its owner deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    pitch: 3,
+    power: 7,
     restrictedFormats: [Format.Commoner],
     
     
@@ -48043,6 +35052,312 @@ Whenever your hero would be dealt exactly 1 damage, prevent it.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "dissolving-shield-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO087",
+    name: "Dissolving Shield",
+    printings: [{
+      
+      identifier: "EVO087",
+      image: "EVO087",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO087",
+      image: "EVO087",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO087"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO087",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "dissolving-shield-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO088",
+    name: "Dissolving Shield",
+    printings: [{
+      
+      identifier: "EVO088",
+      image: "EVO088",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO088",
+      image: "EVO088",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO088"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO088",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "dissolving-shield-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO089",
+    name: "Dissolving Shield",
+    printings: [{
+      
+      identifier: "EVO089",
+      image: "EVO089",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO089",
+      image: "EVO089",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO089"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO089",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Instant** - Remove a steam counter from this: Prevent the next 1 damage that would be dealt to you this turn. If this has no steam counters, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "dive-through-data-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO189",
+    name: "Dive Through Data",
+    printings: [{
+      
+      identifier: "EVO189",
+      image: "EVO189",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO189",
+      image: "EVO189",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO189"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO189",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Opt],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "dive-through-data-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO190",
+    name: "Dive Through Data",
+    printings: [{
+      
+      identifier: "EVO190",
+      image: "EVO190",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO190",
+      image: "EVO190",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO190"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO190",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "dive-through-data-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO191",
+    name: "Dive Through Data",
+    printings: [{
+      
+      identifier: "EVO191",
+      image: "EVO191",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO191",
+      image: "EVO191",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO191"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO191",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
     
     
     
@@ -48315,7 +35630,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     },{
       foiling: Foiling.G,
       identifier: "WIN004",
-      image: "",
+      image: "WIN004",
       set: Release.Promos,
       
     },{
@@ -49701,7 +37016,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     },{
       foiling: Foiling.G,
       identifier: "WIN018",
-      image: "",
+      image: "WIN018",
       set: Release.Promos,
       
     },],
@@ -50079,6 +37394,157 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     
     
   },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "dumpster-dive-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO195",
+    name: "Dumpster Dive",
+    printings: [{
+      
+      identifier: "EVO195",
+      image: "EVO195",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO195",
+      image: "EVO195",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO195"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO195",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "dumpster-dive-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO196",
+    name: "Dumpster Dive",
+    printings: [{
+      
+      identifier: "EVO196",
+      image: "EVO196",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO196",
+      image: "EVO196",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO196"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO196",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "dumpster-dive-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO197",
+    name: "Dumpster Dive",
+    printings: [{
+      
+      identifier: "EVO197",
+      image: "EVO197",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO197",
+      image: "EVO197",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO197"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO197",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  }];
+  const cards2: Card[] =  [{
     artists: ["Rio Sabda"],
     cardIdentifier: "dunebreaker-cenipai-red",
     classes: [Class.Illusionist],
@@ -50515,150 +37981,6 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
   },{
-    artists: ["Asur Misoa"],
-    cardIdentifier: "dust-from-the-golden-plains-red",
-    classes: [Class.Illusionist],
-    defaultImage: "DYN002",
-    name: "Dust from the Golden Plains",
-    printings: [{
-      
-      identifier: "DYN002",
-      image: "DYN002",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN002",
-      image: "DYN002",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["DYN002"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN002",
-    subtypes: [Subtype.Ash,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Draconic Illusionist Action - Ash",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Material** - While this is under a permanent other than Themai, that permanent has **phantasm**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Material,Keyword.Phantasm],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Draconic],
-    
-  },{
-    artists: ["Carlos Cruchaga"],
-    cardIdentifier: "dust-from-the-red-desert-red",
-    classes: [Class.Illusionist],
-    defaultImage: "DYN003",
-    name: "Dust from the Red Desert",
-    printings: [{
-      
-      identifier: "DYN003",
-      image: "DYN003",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN003",
-      image: "DYN003",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["DYN003"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN003",
-    subtypes: [Subtype.Ash,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Draconic Illusionist Action - Ash",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Material** - While this is under a permanent other than Vynserakai, that permanent has **phantasm**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Material,Keyword.Phantasm],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Draconic],
-    
-  },{
-    artists: ["Nikita Bondarev"],
-    cardIdentifier: "dust-from-the-shadow-crypts-red",
-    classes: [Class.Illusionist],
-    defaultImage: "DYN004",
-    name: "Dust from the Shadow Crypts",
-    printings: [{
-      
-      identifier: "DYN004",
-      image: "DYN004",
-      set: Release.Dynasty,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "DYN004",
-      image: "DYN004",
-      set: Release.Dynasty,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["DYN004"],
-    sets: [Release.Dynasty],
-    specialImage: "DYN004",
-    subtypes: [Subtype.Ash,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Draconic Illusionist Action - Ash",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Material** - While this is under a permanent other than Nekria, that permanent has **phantasm**.`,
-    
-    
-    
-    
-    keywords: [Keyword.Material,Keyword.Phantasm],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Draconic],
-    
-  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "dust-runner-outlaw-red",
     classes: [Class.Ninja],
@@ -50807,6 +38129,198 @@ At the beginning of your end phase, if you haven't played an attack action card 
     pitch: 3,
     power: 2,
     
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "dust-from-the-chrome-caverns-red",
+    classes: [Class.NotClassed],
+    defaultImage: "EVO246",
+    name: "Dust from the Chrome Caverns",
+    printings: [{
+      
+      identifier: "EVO246",
+      image: "EVO246",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO246",
+      image: "EVO246",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO246"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO246",
+    subtypes: [Subtype.Ash,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Draconic Illusionist Action - Ash",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Material** - While this is under a permanent other than Cromai, that permanent has **phantasm**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "dust-from-the-golden-plains-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DYN002",
+    name: "Dust from the Golden Plains",
+    printings: [{
+      
+      identifier: "DYN002",
+      image: "DYN002",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN002",
+      image: "DYN002",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DYN002"],
+    sets: [Release.Dynasty],
+    specialImage: "DYN002",
+    subtypes: [Subtype.Ash,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Draconic Illusionist Action - Ash",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Material** - While this is under a permanent other than Themai, that permanent has **phantasm**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "dust-from-the-red-desert-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DYN003",
+    name: "Dust from the Red Desert",
+    printings: [{
+      
+      identifier: "DYN003",
+      image: "DYN003",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN003",
+      image: "DYN003",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DYN003"],
+    sets: [Release.Dynasty],
+    specialImage: "DYN003",
+    subtypes: [Subtype.Ash,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Draconic Illusionist Action - Ash",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Material** - While this is under a permanent other than Vynserakai, that permanent has **phantasm**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Nikita Bondarev"],
+    cardIdentifier: "dust-from-the-shadow-crypts-red",
+    classes: [Class.Illusionist],
+    defaultImage: "DYN004",
+    name: "Dust from the Shadow Crypts",
+    printings: [{
+      
+      identifier: "DYN004",
+      image: "DYN004",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN004",
+      image: "DYN004",
+      set: Release.Dynasty,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DYN004"],
+    sets: [Release.Dynasty],
+    specialImage: "DYN004",
+    subtypes: [Subtype.Ash,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Draconic Illusionist Action - Ash",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Material** - While this is under a permanent other than Nekria, that permanent has **phantasm**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Material,Keyword.Phantasm],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -51075,6 +38589,90 @@ At the beginning of your end phase, if you haven't played an attack action card 
     
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "earthlore-empowerment-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC038",
+    name: "Earthlore Empowerment",
+    printings: [{
+      
+      identifier: "TCC038",
+      image: "TCC038",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC038"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC038",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +5{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "earthlore-empowerment-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "TCC043",
+    name: "Earthlore Empowerment",
+    printings: [{
+      
+      identifier: "TCC043",
+      image: "TCC043",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC043"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC043",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Aura",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `At the start of your turn, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play and gets +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
     
     
     
@@ -51485,6 +39083,84 @@ If you have more {h} than an opposing Light hero, you may banish an action card 
     
     
     talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Fajareka Setiawan"],
+    cardIdentifier: "edge-of-autumn",
+    classes: [Class.Ninja],
+    defaultImage: "CRU050",
+    name: "Edge of Autumn",
+    printings: [{
+      
+      identifier: "1HP090",
+      image: "1HP090.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU050",
+      image: "CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "CRU050",
+      image: "CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU050",
+      image: "U-CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU050",
+      image: "U-CRU050",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA002",
+      image: "IRA002-P_03Jc6pa.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "TCC078",
+      image: "TCC078",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP090","CRU050","IRA002","TCC078"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU050",
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
+    types: [Type.Weapon],
+    typeText: "Ninja Weapon - Sword (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}: **Attack**. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Reza Afshar"],
@@ -52419,6 +40095,56 @@ At the beginning of your action phase, destroy Embolden then the next Guardian a
 When Embolden enters the arena, if you control another non-token aura, draw a card.
 
 At the beginning of your action phase, destroy Embolden then the next Guardian attack action card you play this turn gains +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "emboldened-blade-blue",
+    classes: [Class.Warrior],
+    defaultImage: "EVO240",
+    name: "Emboldened Blade",
+    printings: [{
+      
+      identifier: "EVO240",
+      image: "EVO240",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO240",
+      image: "EVO240",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO240"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO240",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Turn a face-down card in any arsenal face-up. If it's a defense reaction, destroy it and your next weapon attack this turn gets +1{p}.
+
+**Go again**`,
     
     
     
@@ -53621,6 +41347,50 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
   },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "encore-yellow",
+    classes: [Class.Bard],
+    defaultImage: "TCC061",
+    name: "Encore",
+    printings: [{
+      
+      identifier: "TCC061",
+      image: "TCC061",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC061"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC061",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Bard Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Return a Bard attack action card from your graveyard to your hand.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Igor Heras"],
     cardIdentifier: "endless-arrow-red",
     classes: [Class.Ranger],
@@ -53949,6 +41719,96 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     
     specializations: [Hero.Oldhim],
     talents: [Talent.Elemental],
+    
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "energy-potion-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR170",
+    name: "Energy Potion",
+    printings: [{
+      
+      identifier: "1HP381",
+      image: "1HP381.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB012",
+      image: "FAB012",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "KSU029",
+      image: "KSU29.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "TCC071",
+      image: "TCC071",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "TEA028",
+      image: "TEA28.width-450",
+      set: Release.DorintheaHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR170",
+      image: "WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR170",
+      image: "WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR170",
+      image: "U-WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR170",
+      image: "U-WTR170",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP381","FAB012","KSU029","TCC071","TEA028","WTR170"],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR170",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Instant** - Destroy this: Gain {r}{r}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["bimawithpencil"],
@@ -55950,6 +43810,1588 @@ When this hits a hero, banish the top X cards of their deck, where X is the dama
     talents: [Talent.Earth],
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-atom-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO031",
+    name: "Evo Atom Breaker",
+    printings: [{
+      
+      identifier: "EVO031",
+      image: "EVO031",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO031",
+      image: "EVO031_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO031"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO031_V2",
+    subtypes: [Subtype.Chest,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Chest",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base chest equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-battery-pack-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO047",
+    name: "Evo Battery Pack",
+    printings: [{
+      
+      identifier: "EVO047",
+      image: "EVO047",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO047",
+      image: "EVO047",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO047"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO047",
+    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Chest",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put a steam counter on an item you control with crank.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-buzz-hive-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO051",
+    name: "Evo Buzz Hive",
+    printings: [{
+      
+      identifier: "EVO051",
+      image: "EVO051",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO051",
+      image: "EVO051",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO051"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO051",
+    subtypes: [Subtype.Chest,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Chest",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+When this is equipped, gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-charging-rods-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO049",
+    name: "Evo Charging Rods",
+    printings: [{
+      
+      identifier: "EVO049",
+      image: "EVO049",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO049",
+      image: "EVO049",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO049"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO049",
+    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Legs",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Create a Quicken token.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-circut-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO030",
+    name: "Evo Circut Breaker",
+    printings: [{
+      
+      identifier: "EVO030",
+      image: "EVO030",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO030",
+      image: "EVO030_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO030"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO030_V2",
+    subtypes: [Subtype.Evo,Subtype.Head],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Head",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base head equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-cogspitter-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO048",
+    name: "Evo Cogspitter",
+    printings: [{
+      
+      identifier: "EVO048",
+      image: "EVO048",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO048",
+      image: "EVO048",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO048"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO048",
+    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Arms",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Put an item with cost 0 or 1 from your hand into the arena.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-command-center-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO034",
+    name: "Evo Command Center",
+    printings: [{
+      
+      identifier: "EVO034",
+      image: "EVO034",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO034",
+      image: "EVO034",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO034"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO034",
+    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Head",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets "When this hits, draw a card."
+ 
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "evo-data-mine-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO046",
+    name: "Evo Data Mine",
+    printings: [{
+      
+      identifier: "EVO046",
+      image: "EVO046",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO046",
+      image: "EVO046",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO046"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO046",
+    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Head",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Draw a card, then put a card from your hand on top of your deck.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Elena Bakulina"],
+    cardIdentifier: "evo-energy-matrix-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO039",
+    name: "Evo Energy Matrix",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO039",
+      image: "EVO039",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC008",
+      image: "TCC008",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO039","TCC008"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO039",
+    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Chest",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster costs {r} less to activate for each opposing hero.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-engine-room-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO035",
+    name: "Evo Engine Room",
+    printings: [{
+      
+      identifier: "EVO035",
+      image: "EVO035",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO035",
+      image: "EVO035",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO035"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO035",
+    subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Chest",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn costs {r} less to activate.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-face-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO032",
+    name: "Evo Face Breaker",
+    printings: [{
+      
+      identifier: "EVO032",
+      image: "EVO032",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO032",
+      image: "EVO032_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO032"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO032_V2",
+    subtypes: [Subtype.Arms,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Arms",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base arms equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost** an attack action card, you may destroy a card under this. If you do, the attack gets +2{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "evo-mach-breaker-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO033",
+    name: "Evo Mach Breaker",
+    printings: [{
+      
+      identifier: "EVO033",
+      image: "EVO033",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO033",
+      image: "EVO033_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO033"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO033_V2",
+    subtypes: [Subtype.Evo,Subtype.Legs],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Legs",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base legs equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
+
+Whenever you **boost**, you may destroy a card under this. If you do, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "evo-rapid-fire-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO041",
+    name: "Evo Rapid Fire",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO041",
+      image: "EVO041",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC010",
+      image: "TCC010",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO041","TCC010"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO041",
+    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Legs",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks get **go again**.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.GoAgain,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Pronina"],
+    cardIdentifier: "evo-scatter-shot-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO040",
+    name: "Evo Scatter Shot",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO040",
+      image: "EVO040",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC009",
+      image: "TCC009",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO040","TCC009"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO040",
+    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Arms",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster gets +1{p} for each opposing hero.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-arms-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO044",
+    name: "Evo Sentry Base Arms",
+    printings: [{
+      
+      identifier: "EVO044",
+      image: "EVO044",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO044",
+      image: "EVO044",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO044"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO044",
+    subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Arms",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-chest-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO043",
+    name: "Evo Sentry Base Chest",
+    printings: [{
+      
+      identifier: "EVO043",
+      image: "EVO043",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO043",
+      image: "EVO043",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO043"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO043",
+    subtypes: [Subtype.Base,Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Chest",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-head-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO042",
+    name: "Evo Sentry Base Head",
+    printings: [{
+      
+      identifier: "EVO042",
+      image: "EVO042",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO042",
+      image: "EVO042",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO042"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO042",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Head",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "evo-sentry-base-legs-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO045",
+    name: "Evo Sentry Base Legs",
+    printings: [{
+      
+      identifier: "EVO045",
+      image: "EVO045",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO045",
+      image: "EVO045",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO045"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO045",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Legs",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-smoothbore-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO036",
+    name: "Evo Smoothbore",
+    printings: [{
+      
+      identifier: "EVO036",
+      image: "EVO036",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO036",
+      image: "EVO036",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO036"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO036",
+    subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Arms",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: Your next weapon attack this turn gets +1{p}.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "evo-steel-soul-controller-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO028",
+    name: "Evo Steel Soul Controller",
+    printings: [{
+      
+      identifier: "EVO028",
+      image: "EVO028",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO028",
+      image: "EVO028_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO028"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO028_V2",
+    subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Arms",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have base arms equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, you may put an attack action card with 6{p} from your graveyard into your deck fifth from the top. If that Evo is a hero, instead this triggers twice.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "evo-steel-soul-memory-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO026",
+    name: "Evo Steel Soul Memory",
+    printings: [{
+      
+      identifier: "EVO026",
+      image: "EVO026",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO026",
+      image: "EVO026_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO026"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO026_V2",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Head",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, your hero gets +1{i} until end of turn. If that Evo is a hero, instead this triggers twice.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "evo-steel-soul-processor-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO027",
+    name: "Evo Steel Soul Processor",
+    printings: [{
+      
+      identifier: "EVO027",
+      image: "EVO027",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO027",
+      image: "EVO027_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO027"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO027_V2",
+    subtypes: [Subtype.Base,Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Chest",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have a base chest equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain {r}{r}{r}. If that Evo is a hero, instead this triggers twice.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "evo-steel-soul-tower-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO029",
+    name: "Evo Steel Soul Tower",
+    printings: [{
+      
+      identifier: "EVO029",
+      image: "EVO029",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO029",
+      image: "EVO029_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO029"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO029_V2",
+    subtypes: [Subtype.Base,Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Base Legs",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+When this **transforms** from or into an Evo with a different name, gain 1 action point. If that Evo is a hero, instead this triggers twice.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Revazashvili E."],
+    cardIdentifier: "evo-tekloscope-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO038",
+    name: "Evo Tekloscope",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO038",
+      image: "EVO038",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC007",
+      image: "TCC007",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO038","TCC007"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO038",
+    subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Head",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+Your Teklo Blaster attacks can target any opposing hero.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Transform],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "evo-thruster-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO037",
+    name: "Evo Thruster",
+    printings: [{
+      
+      identifier: "EVO037",
+      image: "EVO037",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO037",
+      image: "EVO037",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO037"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO037",
+    subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
+    types: [Type.Action,Type.Equipment],
+    typeText: "Mechanologist Action Equipment - Evo Legs",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+**Once per Turn Instant** - Destroy a card under this: You may attack an additional time with target weapon this turn.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-whizz-bang-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO052",
+    name: "Evo Whizz Bang",
+    printings: [{
+      
+      identifier: "EVO052",
+      image: "EVO052",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO052",
+      image: "EVO052",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO052"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO052",
+    subtypes: [Subtype.Arms,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Arms",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+When this is equipped, up to 1 target attack gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-zip-line-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO053",
+    name: "Evo Zip Line",
+    printings: [{
+      
+      identifier: "EVO053",
+      image: "EVO053",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO053",
+      image: "EVO053",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO053"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO053",
+    subtypes: [Subtype.Evo,Subtype.Legs],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Legs",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base legs equipped, **transform** it into this, then equip this.
+
+When this is equipped, up to 1 target attack gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "evo-zoom-call-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO050",
+    name: "Evo Zoom Call",
+    printings: [{
+      
+      identifier: "EVO050",
+      image: "EVO050",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO050",
+      image: "EVO050",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO050"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO050",
+    subtypes: [Subtype.Evo,Subtype.Head],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Head",
+
+    cost: 0,
+    defense: 0,
+    functionalText: `If you have a base head equipped, **transform** it into this, then equip this.
+
+When this is equipped, you may banish a card from you hand. If you do, draw a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Transform],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "expedite-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO198",
+    name: "Expedite",
+    printings: [{
+      
+      identifier: "EVO198",
+      image: "EVO198",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO198",
+      image: "EVO198",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO198"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO198",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "expedite-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO199",
+    name: "Expedite",
+    printings: [{
+      
+      identifier: "EVO199",
+      image: "EVO199",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO199",
+      image: "EVO199",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO199"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO199",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "expedite-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO200",
+    name: "Expedite",
+    printings: [{
+      
+      identifier: "EVO200",
+      image: "EVO200",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO200",
+      image: "EVO200",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO200"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO200",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "expendable-limbs-blue",
     classes: [Class.Brute],
@@ -56566,6 +46008,59 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     
     
   },{
+    artists: ["Ausonia"],
+    cardIdentifier: "fabricate-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO146",
+    name: "Fabricate",
+    printings: [{
+      
+      identifier: "EVO146",
+      image: "EVO146",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO146",
+      image: "EVO146",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO146"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO146",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Mechanologist Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose 2;
+
+- Equip a base equipment with Proto in its name from your inventory.
+- Evo permanents you control get +1{d} this turn.
+- Put this under an Evo permanent you control.
+- You may banish an Evo from your hand. If you do, draw a card.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "fai",
     classes: [Class.Ninja],
@@ -56648,7 +46143,7 @@ When you pitch Eye of Ophidia, **opt 2**.`,
     },{
       foiling: Foiling.G,
       identifier: "WIN017",
-      image: "",
+      image: "WIN017",
       set: Release.Promos,
       
     },],
@@ -57574,6 +47069,156 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "fender-bender-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO210",
+    name: "Fender Bender",
+    printings: [{
+      
+      identifier: "EVO210",
+      image: "EVO210",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO210",
+      image: "EVO210",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO210"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO210",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "fender-bender-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO211",
+    name: "Fender Bender",
+    printings: [{
+      
+      identifier: "EVO211",
+      image: "EVO211",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO211",
+      image: "EVO211",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO211"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO211",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "fender-bender-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO212",
+    name: "Fender Bender",
+    printings: [{
+      
+      identifier: "EVO212",
+      image: "EVO212",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO212",
+      image: "EVO212",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO212"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO212",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-red",
     classes: [Class.Generic],
@@ -57760,7 +47405,55 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
   },{
-    artists: ["Asur Misoa"],
+    artists: ["Shen Fei"],
+    cardIdentifier: "fiddle-dee",
+    classes: [Class.Bard],
+    defaultImage: "TCC053",
+    name: "Fiddle-dee",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS215",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC053",
+      image: "TCC053",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS215","TCC053"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC053",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Arms",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero creates a Might token.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
     cardIdentifier: "figment-of-erudition-yellow",
     classes: [Class.Illusionist],
     defaultImage: "DTD005",
@@ -58160,6 +47853,48 @@ When this enters the arena, create a Courage token.`,
     talents: [Talent.Light],
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "final-act-red",
+    classes: [Class.Bard],
+    defaultImage: "TCC057",
+    name: "Final Act",
+    printings: [{
+      
+      identifier: "TCC057",
+      image: "TCC057",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC057"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC057",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Bard Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `When this attacks, it gets +X{p}, where X is twice the number of cards in all pitch zones.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "find-center-blue",
     classes: [Class.Ninja],
@@ -58274,6 +48009,168 @@ When this enters the arena, create a Courage token.`,
     
     
   },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "firewall-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO159",
+    name: "Firewall",
+    printings: [{
+      
+      identifier: "EVO159",
+      image: "EVO159",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO159",
+      image: "EVO159",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC019",
+      image: "TCC019",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO159","TCC019"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO159",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 4,
+    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "firewall-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO160",
+    name: "Firewall",
+    printings: [{
+      
+      identifier: "EVO160",
+      image: "EVO160",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO160",
+      image: "EVO160",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC022",
+      image: "TCC022",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO160","TCC022"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO160",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 3,
+    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "firewall-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO161",
+    name: "Firewall",
+    printings: [{
+      
+      identifier: "EVO161",
+      image: "EVO161",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO161",
+      image: "EVO161",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC026",
+      image: "TCC026",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO161","TCC026"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO161",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 2,
+    functionalText: `When this defends, reveal the top card of your deck. If it's an Evo, put it on top of your deck. Otherwise, put it on the bottom.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Maria Mishina"],
     cardIdentifier: "fisticuffs",
     classes: [Class.Generic],
@@ -58358,6 +48255,12 @@ When this enters the arena, create a Courage token.`,
       set: Release.DuskTillDawn,
       
     },{
+      foiling: Foiling.R,
+      identifier: "FAB167",
+      image: "FAB167",
+      set: Release.Promos,
+      
+    },{
       foiling: Foiling.C,
       identifier: "LGS156",
       image: "LGS156",
@@ -58366,7 +48269,7 @@ When this enters the arena, create a Courage token.`,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD135","LGS156"],
+    setIdentifiers: ["DTD135","FAB167","LGS156"],
     sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "DTD135",
     subtypes: [Subtype.OneHanded,Subtype.Flail],
@@ -59539,6 +49442,118 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
   },{
     artists: ["Isuardi Therianto"],
+    cardIdentifier: "flex-claws-red",
+    classes: [Class.Ninja],
+    defaultImage: "DYN050",
+    name: "Flex Claws",
+    printings: [{
+      
+      identifier: "DYN050",
+      image: "DYN050",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN050",
+      image: "DYN050",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC084",
+      image: "TCC084",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN050","TCC084"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN050",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "flex-claws-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "DYN051",
+    name: "Flex Claws",
+    printings: [{
+      
+      identifier: "DYN051",
+      image: "DYN051",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN051",
+      image: "DYN051",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC093",
+      image: "TCC093",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN051","TCC093"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN051",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
     cardIdentifier: "flex-claws-blue",
     classes: [Class.Ninja],
     defaultImage: "DYN052",
@@ -60449,6 +50464,78 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
   },{
     artists: ["Kevin Sidharta"],
+    cardIdentifier: "flying-kick-red",
+    classes: [Class.Ninja],
+    defaultImage: "CRU063",
+    name: "Flying Kick",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "CRU063",
+      image: "CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU063",
+      image: "CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU063",
+      image: "U-CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU063",
+      image: "U-CRU063",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA007",
+      image: "IRA007-P_9qjDnLM.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },{
+      
+      identifier: "TCC085",
+      image: "TCC085",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["CRU063","IRA007","TCC085"],
+    sets: [Release.CrucibleOfWar,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU063",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `When this is played as chain link 3 or higher, it gains +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
     cardIdentifier: "flying-kick-yellow",
     classes: [Class.Ninja],
     defaultImage: "CRU064",
@@ -60489,7 +50576,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
 
     cost: 2,
     defense: 3,
-    functionalText: `If Flying Kick is played as chain link 3 or higher, it gains +2{p}.`,
+    functionalText: `When this is played as chain link 3 or higher, it gains +2{p}.`,
     
     
     
@@ -60499,6 +50586,72 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     pitch: 2,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "flying-kick-blue",
+    classes: [Class.Ninja],
+    defaultImage: "CRU065",
+    name: "Flying Kick",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "CRU065",
+      image: "CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU065",
+      image: "CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU065",
+      image: "U-CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU065",
+      image: "U-CRU065",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "TCC099",
+      image: "TCC099",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["CRU065","TCC099"],
+    sets: [Release.CrucibleOfWar,Release.RoundTheTable],
+    specialImage: "CRU065",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `When this is played as chain link 3 or higher, it gains +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
     
     
     
@@ -60556,74 +50709,6 @@ At the beginning of your action phase, destroy Fog Down.`,
     
     
     
-    
-  },{
-    artists: ["Isuardi Therianto"],
-    cardIdentifier: "force-of-nature-blue",
-    classes: [Class.Runeblade],
-    defaultImage: "ELE066.width-450",
-    name: "Force of Nature",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "ELE066",
-      image: "ELE066.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ELE066",
-      image: "ELE066.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE066",
-      image: "U-ELE066.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ELE066",
-      image: "U-ELE066.width-450",
-      set: Release.TalesOfAria,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["ELE066"],
-    sets: [Release.TalesOfAria],
-    specialImage: "ELE066.width-450",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Elemental Runeblade Action",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Briar Specialization**
-
-**Earth Fusion**
-
-Whenever an attack action card you control hits this turn, if its {p} is greater than its base {p}, draw a card.
-
-If Force of Nature was fused, your next attack this turn gains +1{p}.
-
-**Go again**`,
-    fusions: [Fusion.Earth],
-    
-    
-    
-    keywords: [Keyword.Fusion,Keyword.GoAgain,Keyword.Specialization],
-    
-    
-    pitch: 3,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    specializations: [Hero.Briar],
-    talents: [Talent.Elemental],
     
   },{
     artists: ["Le Vuong"],
@@ -60816,6 +50901,74 @@ If Force Sight is played from arsenal, **opt 2**.
     
     
     
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "force-of-nature-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "ELE066.width-450",
+    name: "Force of Nature",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "ELE066",
+      image: "ELE066.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ELE066",
+      image: "ELE066.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE066",
+      image: "U-ELE066.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ELE066",
+      image: "U-ELE066.width-450",
+      set: Release.TalesOfAria,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["ELE066"],
+    sets: [Release.TalesOfAria],
+    specialImage: "ELE066.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Elemental Runeblade Action",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Briar Specialization**
+
+**Earth Fusion**
+
+Whenever an attack action card you control hits this turn, if its {p} is greater than its base {p}, draw a card.
+
+If Force of Nature was fused, your next attack this turn gains +1{p}.
+
+**Go again**`,
+    fusions: [Fusion.Earth],
+    
+    
+    
+    keywords: [Keyword.Fusion,Keyword.GoAgain,Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    specializations: [Hero.Briar],
+    talents: [Talent.Elemental],
     
   },{
     artists: ["Jsraphael"],
@@ -62684,6 +52837,198 @@ At the beginning of your end phase or when you play a card or activate an abilit
     talents: [Talent.Ice],
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "fuel-injector-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO075",
+    name: "Fuel Injector",
+    printings: [{
+      
+      identifier: "EVO075",
+      image: "EVO075",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO075",
+      image: "EVO075",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO075"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO075",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Instant** - Put this on the bottom of its owner's deck: Gain {r}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "full-tilt-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO168",
+    name: "Full Tilt",
+    printings: [{
+      
+      identifier: "EVO168",
+      image: "EVO168",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO168",
+      image: "EVO168",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO168"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO168",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "full-tilt-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO169",
+    name: "Full Tilt",
+    printings: [{
+      
+      identifier: "EVO169",
+      image: "EVO169",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO169",
+      image: "EVO169",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO169"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO169",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "full-tilt-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO170",
+    name: "Full Tilt",
+    printings: [{
+      
+      identifier: "EVO170",
+      image: "EVO170",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO170",
+      image: "EVO170",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO170"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO170",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "fulminate-yellow",
     classes: [Class.NotClassed],
@@ -63004,7 +53349,7 @@ Create a Runechant token.
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["EVO249","1HP341","CRU178","FAB001","FAB002","WTR150"],
+    setIdentifiers: ["1HP341","CRU178","EVO249","FAB001","FAB002","WTR150"],
     sets: [Release.BrightLights,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
     specialImage: "FAB001",
     subtypes: [Subtype.Chest],
@@ -63013,9 +53358,9 @@ Create a Runechant token.
 
     
     defense: 1,
-    functionalText: `At the start of your turn, if Fyendal's Spring Tunic has less than 3 energy counters, you may put an energy counter on it.
+    functionalText: `At the start of your turn, if this has fewer than 3 energy counters, you may put an energy counter on it.
 
-**Instant** - Remove 3 energy counters from Fyendal's Spring Tunic: Gain {r}
+**Instant** - Remove 3 energy counters from this: Gain {r}
 
 **Blade Break**`,
     
@@ -63300,6 +53645,306 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "gas-guzzler-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO171",
+    name: "Gas Guzzler",
+    printings: [{
+      
+      identifier: "EVO171",
+      image: "EVO171",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO171",
+      image: "EVO171",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO171"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO171",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "gas-guzzler-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO172",
+    name: "Gas Guzzler",
+    printings: [{
+      
+      identifier: "EVO172",
+      image: "EVO172",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO172",
+      image: "EVO172",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO172"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO172",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "gas-guzzler-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO173",
+    name: "Gas Guzzler",
+    printings: [{
+      
+      identifier: "EVO173",
+      image: "EVO173",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO173",
+      image: "EVO173",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO173"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO173",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "gas-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO222",
+    name: "Gas Up",
+    printings: [{
+      
+      identifier: "EVO222",
+      image: "EVO222",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO222",
+      image: "EVO222",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO222"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO222",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `The next attack you **boost** this turn gets +4{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "gas-up-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO223",
+    name: "Gas Up",
+    printings: [{
+      
+      identifier: "EVO223",
+      image: "EVO223",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO223",
+      image: "EVO223",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO223"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO223",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `The next attack you **boost** this turn gets +3{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "gas-up-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO224",
+    name: "Gas Up",
+    printings: [{
+      
+      identifier: "EVO224",
+      image: "EVO224",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO224",
+      image: "EVO224",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO224"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO224",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `The next attack you **boost** this turn gets +2{p}.
+
+You may put a Hyper Driver from your banished zone into the arena.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
     
     
     
@@ -63802,6 +54447,156 @@ If you have played another Wizard 'non-attack' action card this turn, put Gaze t
     
     
     talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "gigawatt-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO156",
+    name: "Gigawatt",
+    printings: [{
+      
+      identifier: "EVO156",
+      image: "EVO156",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO156",
+      image: "EVO156",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO156"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO156",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next Mechanologist attack this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "gigawatt-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO157",
+    name: "Gigawatt",
+    printings: [{
+      
+      identifier: "EVO157",
+      image: "EVO157",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO157",
+      image: "EVO157",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO157"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO157",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next Mechanologist attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "gigawatt-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO158",
+    name: "Gigawatt",
+    printings: [{
+      
+      identifier: "EVO158",
+      image: "EVO158",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO158",
+      image: "EVO158",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO158"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO158",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Your next Mechanologist attack this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Federico Musetti"],
@@ -65325,7 +56120,7 @@ At the beginning of each end phase, if a hero has 2 or more cards with yellow co
     specialImage: "DTD175",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Grim Feast",
+    typeText: "Shadow Action",
 
     cost: 3,
     defense: 2,
@@ -65377,7 +56172,7 @@ Gain 3{h}
     specialImage: "DTD176",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Grim Feast",
+    typeText: "Shadow Action",
 
     cost: 3,
     defense: 2,
@@ -65429,7 +56224,7 @@ Gain 2{h}
     specialImage: "DTD177",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Grim Feast",
+    typeText: "Shadow Action",
 
     cost: 3,
     defense: 2,
@@ -65506,6 +56301,146 @@ Gain 1{h}
     
     
     talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "grinding-gears-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO070",
+    name: "Grinding Gears",
+    printings: [{
+      
+      identifier: "EVO070",
+      image: "EVO070",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO070",
+      image: "EVO070",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO070"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO070",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Action** - 0: Target hero destroys the top card of their deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "growl-red",
+    classes: [Class.Ninja],
+    defaultImage: "TCC086",
+    name: "Growl",
+    printings: [{
+      
+      identifier: "TCC086",
+      image: "TCC086",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC086"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC086",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "growl-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "TCC094",
+    name: "Growl",
+    printings: [{
+      
+      identifier: "TCC094",
+      image: "TCC094",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC094"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC094",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Nathaniel Himawan"],
@@ -65614,6 +56549,162 @@ The next time you hit a hero this turn, destroy a non-token aura they own with c
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "hadron-collider-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO090",
+    name: "Hadron Collider",
+    printings: [{
+      
+      identifier: "EVO090",
+      image: "EVO090",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO090",
+      image: "EVO090",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO090"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO090",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "hadron-collider-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO091",
+    name: "Hadron Collider",
+    printings: [{
+      
+      identifier: "EVO091",
+      image: "EVO091",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO091",
+      image: "EVO091",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO091"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO091",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "hadron-collider-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO092",
+    name: "Hadron Collider",
+    printings: [{
+      
+      identifier: "EVO092",
+      image: "EVO092",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO092",
+      image: "EVO092",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO092"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO092",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When you **boost** an attack, destroy this. If you do, the attack gets +X{p}, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    
     
     
     
@@ -65750,6 +56841,50 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     
     
     talents: [Talent.Light],
+    
+  },{
+    artists: ["Junaidi Lim"],
+    cardIdentifier: "hammer-of-havenhold",
+    classes: [Class.Guardian],
+    defaultImage: "TCC028",
+    name: "Hammer of Havenhold",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "TCC028",
+      image: "TCC028",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC028"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC028",
+    subtypes: [Subtype.OneHanded,Subtype.Hammer],
+    types: [Type.Weapon],
+    typeText: "Guardian Weapon - Hammer (1H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+If you have a Chivalry in your pitch zone, this gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Anastasiya Grintsova"],
@@ -66978,6 +58113,60 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
   },{
+    artists: ["Simon Wong"],
+    cardIdentifier: "healing-potion-blue",
+    classes: [Class.Generic],
+    defaultImage: "EVR183.width-450",
+    name: "Healing Potion",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "EVR183",
+      image: "EVR183.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "EVR183",
+      image: "EVR183.width-450",
+      set: Release.Everfest,
+      
+    },{
+      
+      identifier: "TCC072",
+      image: "TCC072",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVR183","TCC072"],
+    sets: [Release.Everfest,Release.RoundTheTable],
+    specialImage: "EVR183.width-450",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Gain 2{h}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "heart-of-fyendal-blue",
     classes: [Class.Generic],
@@ -67084,6 +58273,54 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     
     
     talents: [Talent.Ice],
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "heart-throb",
+    classes: [Class.Bard],
+    defaultImage: "TCC052",
+    name: "Heart-throb",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS214",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC052",
+      image: "TCC052",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS214","TCC052"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC052",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Chest",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero creates a Vigor token.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Nikolai Maslakov"],
@@ -67478,6 +58715,218 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
     talents: [Talent.Lightning],
     
   },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO061",
+    name: "Heavy Artillery",
+    printings: [{
+      
+      identifier: "EVO061",
+      image: "EVO061",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO061",
+      image: "EVO061",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS191",
+      image: "LGS191",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO061","LGS191"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS191",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO062",
+    name: "Heavy Artillery",
+    printings: [{
+      
+      identifier: "EVO062",
+      image: "EVO062",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO062",
+      image: "EVO062",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS192",
+      image: "LGS192",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO062","LGS192"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS192",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "heavy-artillery-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO063",
+    name: "Heavy Artillery",
+    printings: [{
+      
+      identifier: "EVO063",
+      image: "EVO063",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO063",
+      image: "EVO063",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS193",
+      image: "LGS193",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO063","LGS193"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS193",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero can't defend this with attack action cards with cost less than X, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "heist-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO138",
+    name: "Heist",
+    printings: [{
+      
+      identifier: "EVO138",
+      image: "EVO138",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO138",
+      image: "EVO138",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO138"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO138",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, you may put an item with cost 0 or 1 from any banished zone into the arena under your control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "helios-mitre",
     classes: [Class.Generic],
@@ -67545,11 +58994,17 @@ When you pitch Heart of Fyendal, if you have less {h} than an opposing hero, gai
       image: "DTD105",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS164",
+      image: "LGS164",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD105"],
-    sets: [Release.DuskTillDawn],
+    setIdentifiers: ["DTD105","LGS164"],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "DTD105",
     subtypes: [Subtype.TwoHanded,Subtype.Hammer],
     types: [Type.Weapon],
@@ -68984,6 +60439,12 @@ When this hits, put it into your hero's soul.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
+      foiling: Foiling.R,
+      identifier: "FAB158",
+      image: "FAB158",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON008",
       image: "MON008.width-450",
@@ -69008,10 +60469,10 @@ When this hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD026","MON008"],
-    sets: [Release.DuskTillDawn,Release.Monarch],
+    setIdentifiers: ["DTD026","FAB158","MON008"],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "DTD026",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -69054,6 +60515,12 @@ When this hits, put it into your hero's soul.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
+      foiling: Foiling.R,
+      identifier: "FAB159",
+      image: "FAB159",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON009",
       image: "MON009.width-450",
@@ -69078,10 +60545,10 @@ When this hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD027","MON009"],
-    sets: [Release.DuskTillDawn,Release.Monarch],
+    setIdentifiers: ["DTD027","FAB159","MON009"],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "DTD027",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -69124,6 +60591,12 @@ When this hits, put it into your hero's soul.
       set: Release.DuskTillDawn,
       treatment: Treatment.EA,
     },{
+      foiling: Foiling.R,
+      identifier: "FAB160",
+      image: "FAB160",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
       edition: ReleaseEdition.First,
       identifier: "MON010",
       image: "MON010.width-450",
@@ -69148,10 +60621,10 @@ When this hits, put it into your hero's soul.
       set: Release.Monarch,
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD028","MON010"],
-    sets: [Release.DuskTillDawn,Release.Monarch],
+    setIdentifiers: ["DTD028","FAB160","MON010"],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
     specialImage: "DTD028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -71033,12 +62506,18 @@ The next attack action card you play this turn gains +1{p}.
       image: "DTD172",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS165",
+      image: "LGS165",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD172"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD172",
+    setIdentifiers: ["DTD172","LGS165"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "LGS165",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",
@@ -71085,12 +62564,18 @@ When this hits a hero, banish a card from their soul.
       image: "DTD173",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS166",
+      image: "LGS166",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD173"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD173",
+    setIdentifiers: ["DTD173","LGS166"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "LGS166",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",
@@ -71137,12 +62622,18 @@ When this hits a hero, banish a card from their soul.
       image: "DTD174",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS167",
+      image: "LGS167",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD174"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD174",
+    setIdentifiers: ["DTD174","LGS167"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "LGS167",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",
@@ -71586,6 +63077,242 @@ When this hits a hero, banish a card from their soul.
     
     
   },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "hydraulic-press-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO102",
+    name: "Hydraulic Press",
+    printings: [{
+      
+      identifier: "EVO102",
+      image: "EVO102",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO102",
+      image: "EVO102",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO102"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO102",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower,Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "hydraulic-press-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO103",
+    name: "Hydraulic Press",
+    printings: [{
+      
+      identifier: "EVO103",
+      image: "EVO103",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO103",
+      image: "EVO103",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO103"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO103",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower,Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "hydraulic-press-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO104",
+    name: "Hydraulic Press",
+    printings: [{
+      
+      identifier: "EVO104",
+      image: "EVO104",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO104",
+      image: "EVO104",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO104"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO104",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, this gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower,Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "hyper-driver-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO099",
+    name: "Hyper Driver",
+    printings: [{
+      
+      identifier: "1HP218",
+      image: "1HP218.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC036",
+      image: "ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC036",
+      image: "ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC036",
+      image: "U-ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC036",
+      image: "U-ARC036",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "DYN110",
+      image: "DYN110",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN110",
+      image: "DYN110",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "EVO099",
+      image: "EVO099",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP218","ARC036","DYN110","EVO099"],
+    sets: [Release.ArcaneRising,Release.BrightLights,Release.Dynasty,Release.HistoryPack1],
+    specialImage: "ARC036",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `This enters the arena with 3 steam counters. When it has none, destroy it.
+
+Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "hyper-driver-yellow",
     classes: [Class.Mechanologist],
@@ -71690,6 +63417,164 @@ Once per turn, when you **boost** a card, remove a steam counter from Hyper Driv
     pitch: 3,
     
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "hyper-driver",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO234",
+    name: "Hyper Driver",
+    printings: [{
+      
+      identifier: "EVO234",
+      image: "EVO234",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB176",
+      image: "FAB176",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO234","FAB176"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO234",
+    subtypes: [Subtype.Item],
+    types: [Type.Token],
+    typeText: "Mechanologist Token - Item",
+
+    
+    
+    functionalText: `When this has no steam counters, destroy it.
+
+Once per turn, when you **boost** a card, remove a steam counter from this and gain {r}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "hyper-scrapper-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO100",
+    name: "Hyper Scrapper",
+    printings: [{
+      
+      identifier: "EVO100",
+      image: "EVO100",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO100",
+      image: "EVO100",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO100"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO100",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    defense: 3,
+    functionalText: `As an additional cost to play this, banish X items from your graveyard.
+
+When this attacks it gets +X{p}. If 3 or more Hyper Drivers were banished to play this, gain {r}{r}{r} {r}{r}{r} and this gets **go again**.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    specialCost: "X",
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "hyper-x",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO011",
+    name: "Hyper-X3",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO011",
+      image: "EVO011_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO011",
+      image: "EVO011",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB170",
+      image: "FAB170",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Promo],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO011","FAB170"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO011_V2",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Head",
+
+    
+    defense: 1,
+    functionalText: `Whenever you banish a Hyper Driver from **boosting**, put it under this.
+
+Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyper Drivers under this, draw a card.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -73075,8 +64960,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "imperial-warhorn-red",
     classes: [Class.Generic],
@@ -73917,6 +65801,102 @@ Target weapon attack gains +1{p}.`,
     
     
   },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "infuse-alloy-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO120",
+    name: "Infuse Alloy",
+    printings: [{
+      
+      identifier: "EVO120",
+      image: "EVO120",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO120",
+      image: "EVO120",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO120"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO120",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "infuse-titanium-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO123",
+    name: "Infuse Titanium",
+    printings: [{
+      
+      identifier: "EVO123",
+      image: "EVO123",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO123",
+      image: "EVO123",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO123"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO123",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "infect-red",
     classes: [Class.Assassin],
@@ -73970,130 +65950,6 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     pitch: 1,
     power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "infect-yellow",
-    classes: [Class.Assassin],
-    defaultImage: "OUT025.width-450",
-    name: "Infect",
-    printings: [{
-      
-      identifier: "ARA020",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
-      identifier: "OUT025",
-      image: "OUT025.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT025",
-      image: "OUT025.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "UZU017",
-      image: "",
-      set: Release.UzuriBlitzDeck,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["ARA020","OUT025","UZU017"],
-    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "OUT025.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Stealth],
-    
-    
-    pitch: 2,
-    power: 2,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Muhammad Fajri"],
-    cardIdentifier: "infect-blue",
-    classes: [Class.Assassin],
-    defaultImage: "OUT026.width-450",
-    name: "Infect",
-    printings: [{
-      
-      identifier: "ARA022",
-      image: "",
-      set: Release.ArakniBlitzDeck,
-      
-    },{
-      
-      identifier: "OUT026",
-      image: "OUT026.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT026",
-      image: "OUT026.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "UZU021",
-      image: "",
-      set: Release.UzuriBlitzDeck,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["ARA022","OUT026","UZU021"],
-    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
-    specialImage: "OUT026.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Assassin Action - Attack",
-
-    cost: 0,
-    defense: 3,
-    functionalText: `**Stealth**
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Stealth],
-    
-    
-    pitch: 3,
-    power: 1,
     
     
     
@@ -74159,112 +66015,6 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
   },{
-    artists: ["Kalashnikova N."],
-    cardIdentifier: "infecting-shot-yellow",
-    classes: [Class.Ranger],
-    defaultImage: "OUT119.width-450",
-    name: "Infecting Shot",
-    printings: [{
-      
-      identifier: "OUT119",
-      image: "OUT119.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT119",
-      image: "OUT119.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      
-      identifier: "RIP025",
-      image: "",
-      set: Release.RiptideBlitzDeck,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT119","RIP025"],
-    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
-    specialImage: "OUT119.width-450",
-    subtypes: [Subtype.Arrow,Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 4,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Kalashnikova N."],
-    cardIdentifier: "infecting-shot-blue",
-    classes: [Class.Ranger],
-    defaultImage: "OUT120.width-450",
-    name: "Infecting Shot",
-    printings: [{
-      
-      identifier: "OUT120",
-      image: "OUT120.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT120",
-      image: "OUT120.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["OUT120"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT120.width-450",
-    subtypes: [Subtype.Arrow,Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Ranger Action - Arrow Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
-
-When this hits a hero, create a Bloodrot Pox token under their control.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Joseph Qiu"],
     cardIdentifier: "infectious-host-red",
     classes: [Class.Generic],
@@ -74304,102 +66054,6 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     pitch: 1,
     power: 4,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "infectious-host-yellow",
-    classes: [Class.Generic],
-    defaultImage: "OUT193.width-450",
-    name: "Infectious Host",
-    printings: [{
-      
-      identifier: "OUT193",
-      image: "OUT193.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT193",
-      image: "OUT193.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT193"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT193.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 2,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Joseph Qiu"],
-    cardIdentifier: "infectious-host-blue",
-    classes: [Class.Generic],
-    defaultImage: "OUT194.width-450",
-    name: "Infectious Host",
-    printings: [{
-      
-      identifier: "OUT194",
-      image: "OUT194.width-450",
-      set: Release.Outsiders,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "OUT194",
-      image: "OUT194.width-450",
-      set: Release.Outsiders,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["OUT194"],
-    sets: [Release.Outsiders],
-    specialImage: "OUT194.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
-    
-    
-    
-    
-    
-    
-    
-    pitch: 3,
-    power: 2,
     restrictedFormats: [Format.Commoner],
     
     
@@ -74519,6 +66173,524 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     
     
     talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "infuse-alloy-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO121",
+    name: "Infuse Alloy",
+    printings: [{
+      
+      identifier: "EVO121",
+      image: "EVO121",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO121",
+      image: "EVO121",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO121"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO121",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "infuse-titanium-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO124",
+    name: "Infuse Titanium",
+    printings: [{
+      
+      identifier: "EVO124",
+      image: "EVO124",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO124",
+      image: "EVO124",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO124"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO124",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "infect-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "OUT025.width-450",
+    name: "Infect",
+    printings: [{
+      
+      identifier: "ARA020",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "OUT025",
+      image: "OUT025.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT025",
+      image: "OUT025.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "UZU017",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["ARA020","OUT025","UZU017"],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
+    specialImage: "OUT025.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kalashnikova N."],
+    cardIdentifier: "infecting-shot-yellow",
+    classes: [Class.Ranger],
+    defaultImage: "OUT119.width-450",
+    name: "Infecting Shot",
+    printings: [{
+      
+      identifier: "OUT119",
+      image: "OUT119.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT119",
+      image: "OUT119.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "RIP025",
+      image: "",
+      set: Release.RiptideBlitzDeck,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT119","RIP025"],
+    sets: [Release.Outsiders,Release.RiptideBlitzDeck],
+    specialImage: "OUT119.width-450",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "infectious-host-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OUT193.width-450",
+    name: "Infectious Host",
+    printings: [{
+      
+      identifier: "OUT193",
+      image: "OUT193.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT193",
+      image: "OUT193.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT193"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT193.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "infuse-alloy-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO122",
+    name: "Infuse Alloy",
+    printings: [{
+      
+      identifier: "EVO122",
+      image: "EVO122",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO122",
+      image: "EVO122",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO122"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO122",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "infuse-titanium-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO125",
+    name: "Infuse Titanium",
+    printings: [{
+      
+      identifier: "EVO125",
+      image: "EVO125",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO125",
+      image: "EVO125",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO125"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO125",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "infect-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OUT026.width-450",
+    name: "Infect",
+    printings: [{
+      
+      identifier: "ARA022",
+      image: "",
+      set: Release.ArakniBlitzDeck,
+      
+    },{
+      
+      identifier: "OUT026",
+      image: "OUT026.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT026",
+      image: "OUT026.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      
+      identifier: "UZU021",
+      image: "",
+      set: Release.UzuriBlitzDeck,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["ARA022","OUT026","UZU021"],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.UzuriBlitzDeck],
+    specialImage: "OUT026.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Stealth**
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kalashnikova N."],
+    cardIdentifier: "infecting-shot-blue",
+    classes: [Class.Ranger],
+    defaultImage: "OUT120.width-450",
+    name: "Infecting Shot",
+    printings: [{
+      
+      identifier: "OUT120",
+      image: "OUT120.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT120",
+      image: "OUT120.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OUT120"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT120.width-450",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `If Infecting Shot has an aim counter, it has +1{p}.
+
+When this hits a hero, create a Bloodrot Pox token under their control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "infectious-host-blue",
+    classes: [Class.Generic],
+    defaultImage: "OUT194.width-450",
+    name: "Infectious Host",
+    printings: [{
+      
+      identifier: "OUT194",
+      image: "OUT194.width-450",
+      set: Release.Outsiders,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "OUT194",
+      image: "OUT194.width-450",
+      set: Release.Outsiders,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OUT194"],
+    sets: [Release.Outsiders],
+    specialImage: "OUT194.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `When this attacks a hero, if you control a Frailty token, create a Frailty token under their control, then repeat for Inertia and Bloodrot Pox.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Mark Poole"],
@@ -74755,6 +66927,182 @@ If Inspire Lightning was **fused**, deal 1 arcane damage to target hero.`,
     
     
     talents: [Talent.Elemental],
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "interlude-red",
+    classes: [Class.Bard],
+    defaultImage: "TCC058",
+    name: "Interlude",
+    printings: [{
+      
+      identifier: "TCC058",
+      image: "TCC058",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC058"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC058",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Bard Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 3 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "interlude-yellow",
+    classes: [Class.Bard],
+    defaultImage: "TCC062",
+    name: "Interlude",
+    printings: [{
+      
+      identifier: "TCC062",
+      image: "TCC062",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC062"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC062",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Bard Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 2 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "interlude-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC075",
+    name: "Interlude",
+    printings: [{
+      
+      identifier: "TCC075",
+      image: "TCC075",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["TCC075"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC075",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Bard Instant",
+
+    cost: 0,
+    
+    functionalText: `Choose a hero. The next time they would be dealt damage this turn, prevent 1 of that damage. If you prevent damage to another hero this way, create a Copper token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "intoxicating-shot-blue",
+    classes: [Class.Ranger],
+    defaultImage: "EVO241",
+    name: "Intoxicating Shot",
+    printings: [{
+      
+      identifier: "EVO241",
+      image: "EVO241",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO241",
+      image: "EVO241",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO241"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO241",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Riptide Specialization**
+
+When this hits a hero, they create a Courage and Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
     
   },{
     artists: ["Federico Musetti"],
@@ -75850,6 +68198,90 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     talents: [Talent.Draconic],
     
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "ira-crimson-haze",
+    classes: [Class.Ninja],
+    defaultImage: "CRU046",
+    name: "Ira, Crimson Haze",
+    printings: [{
+      
+      identifier: "1HP089",
+      image: "1HP089.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU046",
+      image: "CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU046",
+      image: "CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU046",
+      image: "U-CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU046",
+      image: "U-CRU046",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "HER000",
+      image: "HER000",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "IRA001",
+      image: "IRA001-P_EUmBrk0.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "TCC077",
+      image: "TCC077",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP089","CRU046","HER000","IRA001","TCC077"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos,Release.RoundTheTable],
+    specialImage: "CRU046",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Ninja Hero - Young",
+
+    
+    
+    functionalText: `Your second attack each turn gains +1{p}.`,
+    
+    hero: Hero.Ira,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    
+    young: true
   },{
     artists: ["Jessada Sutthi","Madeline Boni"],
     cardIdentifier: "iris-of-reality",
@@ -77407,7 +69839,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     },{
       foiling: Foiling.G,
       identifier: "WIN019",
-      image: "",
+      image: "WIN019",
       set: Release.Promos,
       
     },],
@@ -77443,6 +69875,56 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     
     
     talents: [Talent.Elemental,Talent.Ice],
+    
+  },{
+    artists: ["Brian Adriel"],
+    cardIdentifier: "jinglewood-smash-hit",
+    classes: [Class.Bard],
+    defaultImage: "TCC050",
+    name: "Jinglewood, Smash Hit",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS212",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "TCC050",
+      image: "TCC050",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS212","TCC050"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC050",
+    subtypes: [Subtype.TwoHanded,Subtype.Fiddle],
+    types: [Type.Weapon],
+    typeText: "Bard Weapon - Fiddle (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: Target opposing hero chooses and creates a Might, Quicken, or Vigor token. You create a Copper token. **Go again**
+
+**Action** - 0: **Attack**. When this hits, destroy it.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Andy Aslamov"],
@@ -77493,6 +69975,324 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     
     power: 3,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Amelia Tan"],
+    cardIdentifier: "jump-start-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO180",
+    name: "Jump Start",
+    printings: [{
+      
+      identifier: "DYN104",
+      image: "DYN104",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN104",
+      image: "DYN104",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "EVO180",
+      image: "EVO180",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN104","EVO180"],
+    sets: [Release.BrightLights,Release.Dynasty],
+    specialImage: "DYN104",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Amelia Tan"],
+    cardIdentifier: "jump-start-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO181",
+    name: "Jump Start",
+    printings: [{
+      
+      identifier: "DYN105",
+      image: "DYN105",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN105",
+      image: "DYN105",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "EVO181",
+      image: "EVO181",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN105","EVO181"],
+    sets: [Release.BrightLights,Release.Dynasty],
+    specialImage: "DYN105",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Amelia Tan"],
+    cardIdentifier: "jump-start-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO182",
+    name: "Jump Start",
+    printings: [{
+      
+      identifier: "DYN106",
+      image: "DYN106",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN106",
+      image: "DYN106",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "EVO182",
+      image: "EVO182",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN106","EVO182"],
+    sets: [Release.BrightLights,Release.Dynasty],
+    specialImage: "DYN106",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "junkyard-dogg-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO126",
+    name: "Junkyard Dogg",
+    printings: [{
+      
+      identifier: "EVO126",
+      image: "EVO126",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO126",
+      image: "EVO126",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO126"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO126",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "junkyard-dogg-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO127",
+    name: "Junkyard Dogg",
+    printings: [{
+      
+      identifier: "EVO127",
+      image: "EVO127",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO127",
+      image: "EVO127",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO127"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO127",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "junkyard-dogg-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO128",
+    name: "Junkyard Dogg",
+    printings: [{
+      
+      identifier: "EVO128",
+      image: "EVO128",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO128",
+      image: "EVO128",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO128"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO128",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 4,
+    
     
     
     
@@ -77617,7 +70417,7 @@ Whenever this hits a hero and you don't control a Spellbane Aegis, create a Spel
     },{
       foiling: Foiling.G,
       identifier: "WIN008",
-      image: "",
+      image: "WIN008",
       set: Release.Promos,
       
     },],
@@ -77865,7 +70665,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     },{
       foiling: Foiling.G,
       identifier: "WIN003",
-      image: "",
+      image: "WIN003",
       set: Release.Promos,
       
     },{
@@ -78807,6 +71607,198 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     talents: [Talent.Draconic],
     
   },{
+    artists: ["Marco Wulfr"],
+    cardIdentifier: "lay-down-the-law-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC035",
+    name: "Lay Down the Law",
+    printings: [{
+      
+      identifier: "TCC035",
+      image: "TCC035",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC035"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC035",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Tower** - If this has 13 or more {p}, non-equipment cards get -1{d} while defending this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    pitch: 1,
+    power: 7,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lay-waste-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO207",
+    name: "Lay Waste",
+    printings: [{
+      
+      identifier: "EVO207",
+      image: "EVO207",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO207",
+      image: "EVO207",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO207"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO207",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lay-waste-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO208",
+    name: "Lay Waste",
+    printings: [{
+      
+      identifier: "EVO208",
+      image: "EVO208",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO208",
+      image: "EVO208",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO208"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO208",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "lay-waste-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO209",
+    name: "Lay Waste",
+    printings: [{
+      
+      identifier: "EVO209",
+      image: "EVO209",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO209",
+      image: "EVO209",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO209"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO209",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lay-to-rest-red",
     classes: [Class.NotClassed],
@@ -79194,6 +72186,162 @@ When this hits a hero, banish the top card of their deck and up to 1 card in the
     
   },{
     artists: ["Le Vuong"],
+    cardIdentifier: "leg-tap-red",
+    classes: [Class.Ninja],
+    defaultImage: "WTR101",
+    name: "Leg Tap",
+    printings: [{
+      
+      identifier: "1HP116",
+      image: "1HP116.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU012",
+      image: "KSU12.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "TCC087",
+      image: "TCC087",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR101",
+      image: "WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR101",
+      image: "WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR101",
+      image: "U-WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR101",
+      image: "U-WTR101",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP116","KSU012","TCC087","WTR101"],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR101",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
+    cardIdentifier: "leg-tap-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "WTR102",
+    name: "Leg Tap",
+    printings: [{
+      
+      identifier: "1HP117",
+      image: "1HP117.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "KSU018",
+      image: "KSU18.width-450",
+      set: Release.KatsuHeroDeck,
+      
+    },{
+      
+      identifier: "TCC095",
+      image: "TCC095",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR102",
+      image: "WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR102",
+      image: "WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR102",
+      image: "U-WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR102",
+      image: "U-WTR102",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP117","KSU018","TCC095","WTR102"],
+    sets: [Release.HistoryPack1,Release.KatsuHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR102",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Le Vuong"],
     cardIdentifier: "leg-tap-blue",
     classes: [Class.Ninja],
     defaultImage: "WTR103",
@@ -79401,17 +72549,17 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     defaultImage: "DTD164",
     name: "Levia, Redeemed",
     printings: [{
+      
+      identifier: "DTD164",
+      image: "DTD164",
+      set: Release.DuskTillDawn,
+      
+    },{
       foiling: Foiling.C,
       identifier: "DTD164",
       image: "DTD164_V2",
       set: Release.DuskTillDawn,
       treatment: Treatment.AB,
-    },{
-      foiling: Foiling.R,
-      identifier: "DTD164",
-      image: "DTD164",
-      set: Release.DuskTillDawn,
-      
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -79485,7 +72633,7 @@ Cards you own lose **blood debt**.`,
     },{
       foiling: Foiling.G,
       identifier: "WIN011",
-      image: "",
+      image: "WIN011",
       set: Release.Promos,
       
     },],
@@ -79613,7 +72761,7 @@ Cards you own lose **blood debt**.`,
     },{
       foiling: Foiling.G,
       identifier: "WIN014",
-      image: "",
+      image: "WIN014",
       set: Release.Promos,
       
     },],
@@ -79854,6 +73002,70 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     
   },{
     artists: ["Sam Yang"],
+    cardIdentifier: "life-of-the-party-red",
+    classes: [Class.Generic],
+    defaultImage: "EVR161.width-450",
+    name: "Life of the Party",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "EVR161",
+      image: "EVR161.width-450",
+      set: Release.Everfest,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "EVR161",
+      image: "EVR161.width-450",
+      set: Release.Everfest,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS084",
+      image: "LGS084",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "TCC056",
+      image: "TCC056",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVR161","LGS084","TCC056"],
+    sets: [Release.Everfest,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS084",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
+
+- This gets "When this hits, gain life 2{h}."
+- This gets +2{p}.
+- This gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sam Yang"],
     cardIdentifier: "life-of-the-party-yellow",
     classes: [Class.Generic],
     defaultImage: "EVR162.width-450",
@@ -79890,9 +73102,9 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     defense: 2,
     functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
 
-- Life of the Party gains "When this hits, gain life 2{h}."
-- Life of the Party gains +2{p}.
-- Life of the Party gains **go again**.`,
+- This gets "When this hits, gain life 2{h}."
+- This gets +2{p}.
+- This gets **go again**.`,
     
     
     
@@ -79948,9 +73160,9 @@ When you play Life for a Life, if you have less {h} than an opposing hero, it ga
     defense: 2,
     functionalText: `You may discard or destroy a card you control named Crazy Brew rather than pay Life of the Party's {r} cost. If you do, choose all modes, otherwise choose 1 at random;
 
-- Life of the Party gains "When this hits, gain life 2{h}."
-- Life of the Party gains +2{p}.
-- Life of the Party gains **go again**.`,
+- This gets "When this hits, gain life 2{h}."
+- This gets +2{p}.
+- This gets **go again**.`,
     
     
     
@@ -80655,6 +73867,162 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     talents: [Talent.Draconic],
     
   },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "liquid-cooled-mayhem-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO064",
+    name: "Liquid-Cooled Mayhem",
+    printings: [{
+      
+      identifier: "EVO064",
+      image: "EVO064",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO064",
+      image: "EVO064",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC012",
+      image: "TCC012",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO064","TCC012"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO064",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "liquid-cooled-mayhem-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO065",
+    name: "Liquid-Cooled Mayhem",
+    printings: [{
+      
+      identifier: "EVO065",
+      image: "EVO065",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO065",
+      image: "EVO065",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO065"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO065",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "liquid-cooled-mayhem-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO066",
+    name: "Liquid-Cooled Mayhem",
+    printings: [{
+      
+      identifier: "EVO066",
+      image: "EVO066",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO066",
+      image: "EVO066",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC023",
+      image: "TCC023",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO066","TCC023"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO066",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 4,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This costs {r} less to play for each Evo you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Leony Tobing"],
     cardIdentifier: "locked-and-loaded-red",
     classes: [Class.Mechanologist],
@@ -81155,7 +74523,7 @@ If you have **boosted** this turn, **opt 1**.
     },{
       foiling: Foiling.R,
       identifier: "DYN175",
-      image: "",
+      image: "DYN175_Special",
       set: Release.Dynasty,
       treatment: Treatment.EA,
     },],
@@ -81163,7 +74531,7 @@ If you have **boosted** this turn, **opt 1**.
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN175"],
     sets: [Release.Dynasty],
-    specialImage: "DYN175",
+    specialImage: "DYN175_Special",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Runeblade Action - Aura",
@@ -81183,6 +74551,56 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     pitch: 3,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["bimawithpencil"],
+    cardIdentifier: "lord-sutcliffe",
+    classes: [Class.Runeblade],
+    defaultImage: "CHN002_Lord_Sutcliffe.width-10000",
+    name: "Lord Sutcliffe",
+    printings: [{
+      
+      identifier: "CHN002",
+      image: "CHN002_Lord_Sutcliffe.width-10000",
+      set: Release.ChaneBlitzDeck,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB046",
+      image: "FAB046",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["CHN002","FAB046"],
+    sets: [Release.ChaneBlitzDeck,Release.Promos],
+    specialImage: "CHN002_Lord_Sutcliffe.width-10000",
+    subtypes: [],
+    types: [Type.Mentor],
+    typeText: "Runeblade Mentor",
+
+    
+    defense: 3,
+    functionalText: `While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.
+
+While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on him, banish him, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
     
     
     
@@ -81256,56 +74674,6 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     
     
     specializations: [Hero.Katsu],
-    
-    
-  },{
-    artists: ["bimawithpencil"],
-    cardIdentifier: "lord-sutcliffe",
-    classes: [Class.Runeblade],
-    defaultImage: "CHN002_Lord_Sutcliffe.width-10000",
-    name: "Lord Sutcliffe",
-    printings: [{
-      
-      identifier: "CHN002",
-      image: "CHN002_Lord_Sutcliffe.width-10000",
-      set: Release.ChaneBlitzDeck,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "FAB046",
-      image: "FAB046",
-      set: Release.Promos,
-      
-    },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["CHN002","FAB046"],
-    sets: [Release.ChaneBlitzDeck,Release.Promos],
-    specialImage: "CHN002_Lord_Sutcliffe.width-10000",
-    subtypes: [],
-    types: [Type.Mentor],
-    typeText: "Runeblade Mentor",
-
-    
-    defense: 3,
-    functionalText: `While Sutcliffe is face down in arsenal, at the start of your turn, you may turn him face up.
-
-While Sutcliffe is face up in arsenal, whenever you play a 'non-attack' action card, deal 1 arcane damage to each hero and put a lesson counter on Sutcliffe for each damage dealt this way. Then if there are 3 or more lesson counters on him, banish him, search your deck for a **specialization** card, put it face up into arsenal, and shuffle.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
-    
-    
-    
-    
-    
     
     
   },{
@@ -81881,6 +75249,58 @@ While there is a card with a yellow color strip in your pitch zone, Illusionist 
     
     
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "mhz-script-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO097",
+    name: "MHz Script",
+    printings: [{
+      
+      identifier: "EVO097",
+      image: "EVO097",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO097",
+      image: "EVO097",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO097"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO097",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Andy Aslamov"],
     cardIdentifier: "macho-grande-red",
     classes: [Class.Guardian],
@@ -82192,7 +75612,8 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "madcap-muscle-red",
     classes: [Class.Brute],
@@ -83185,6 +76606,48 @@ If you have discarded a card with 6 or more {p} this turn, Mandible Claw gains *
     
     
   },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "mask-of-three-tails",
+    classes: [Class.Ninja],
+    defaultImage: "TCC079",
+    name: "Mask of Three Tails",
+    printings: [{
+      
+      identifier: "TCC079",
+      image: "TCC079",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC079"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC079",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Head",
+
+    
+    defense: 0,
+    functionalText: `**Instant** - Destroy this: Draw a card. Activate this ability only if you've hit 3 or more times this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "mask-of-the-pouncing-lynx",
     classes: [Class.Ninja],
@@ -83300,6 +76763,98 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     
     pitch: 1,
     power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "master-cog-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO000",
+    name: "Master Cog",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO000",
+      image: "EVO000",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO000",
+      image: "EVO000",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["EVO000"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO000",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Mechanologist Resource - Gem",
+
+    
+    
+    functionalText: `**Legendary**
+
+When this is pitched, you may put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "mauling-qi-red",
+    classes: [Class.Ninja],
+    defaultImage: "TCC088",
+    name: "Mauling Qi",
+    printings: [{
+      
+      identifier: "TCC088",
+      image: "TCC088",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC088"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC088",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Combo** - When this hits, if Crouching Tiger was the last attack this combat chain, deal 1 damage to each opposing hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 5,
     restrictedFormats: [Format.Commoner],
     
     
@@ -83513,6 +77068,172 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     
     
   },{
+    artists: ["Nikolai Maslakov"],
+    cardIdentifier: "maximum-velocity-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO139",
+    name: "Maximum Velocity",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "ARC008",
+      image: "ARC008",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC008",
+      image: "ARC008",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC008",
+      image: "U-ARC008",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC008",
+      image: "U-ARC008",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "EVO139",
+      image: "EVO139",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.SuperRare],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["ARC008","EVO139"],
+    sets: [Release.ArcaneRising,Release.BrightLights],
+    specialImage: "ARC008",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `Play this only if you've **boosted** 3 or more times this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 10,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "maxx-the-hype-nitro",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO004",
+    name: "Maxx 'The Hype' Nitro",
+    printings: [{
+      
+      identifier: "EVO004",
+      image: "EVO004",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN026",
+      image: "",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO004","WIN026"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO004",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+
+Hyper Drivers you control get **crank**.`,
+    
+    hero: Hero.Maxx,
+    intellect: 4,
+    
+    keywords: [Keyword.Crank],
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateus Manhanini"],
+    cardIdentifier: "maxx-nitro",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO005",
+    name: "Maxx Nitro",
+    printings: [{
+      
+      identifier: "EVO005",
+      image: "EVO005",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER098",
+      image: "HER098",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO005","HER098"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO005",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero - Young",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: Create a Hyper Driver token with 2 steam counters.  Activate this ability only if you've **boosted** this turn.
+
+Hyper Drivers you control get **crank**.`,
+    
+    hero: Hero.Maxx,
+    intellect: 4,
+    
+    keywords: [Keyword.Crank],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    
+    young: true
+  },{
     artists: ["Immanuela Crovius"],
     cardIdentifier: "meat-and-greet-red",
     classes: [Class.Runeblade],
@@ -83717,6 +77438,332 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO067",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "EVO067",
+      image: "EVO067",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO067",
+      image: "EVO067",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS224",
+      image: "LGS224",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "TCC013",
+      image: "TCC013",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO067","LGS224","TCC013"],
+    sets: [Release.BrightLights,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS224",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO068",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "EVO068",
+      image: "EVO068",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO068",
+      image: "EVO068",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS225",
+      image: "LGS225",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO068","LGS225"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS225",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "mechanical-strength-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO069",
+    name: "Mechanical Strength",
+    printings: [{
+      
+      identifier: "EVO069",
+      image: "EVO069",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO069",
+      image: "EVO069",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS226",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "TCC024",
+      image: "TCC024",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO069","LGS226","TCC024"],
+    sets: [Release.BrightLights,Release.Promos,Release.RoundTheTable],
+    specialImage: "EVO069",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - This gets +X{p}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rachel Alderson"],
+    cardIdentifier: "medkit-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO076",
+    name: "Medkit",
+    printings: [{
+      
+      identifier: "EVO076",
+      image: "EVO076",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO076",
+      image: "EVO076",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO076"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO076",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Put this on the bottom of its owner's deck: Gain 2{h}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "meganetic-lockwave-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO143",
+    name: "Meganetic Lockwave",
+    printings: [{
+      
+      identifier: "EVO143",
+      image: "EVO143",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO143",
+      image: "EVO143",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO143"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO143",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    defense: 3,
+    functionalText: `Target hero chooses X equipment they control, then you choose 1 from among them. That hero must defend your attacks this turn with that equipment if able. 
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    specialCost: "XXX",
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "meganetic-protocol-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO059",
+    name: "Meganetic Protocol",
+    printings: [{
+      
+      identifier: "EVO059",
+      image: "EVO059",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO059",
+      image: "EVO059",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB172",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO059","FAB172"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO059",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - The defending hero must defend this with X equipment they control with -1{d} counters if able, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "meganetic-shockwave-blue",
     classes: [Class.Mechanologist],
@@ -83776,6 +77823,54 @@ If you have dealt arcane damage to an opposing hero this turn, Meat and Greet ga
     
     
     
+  },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "melody-sing-along",
+    classes: [Class.Bard],
+    defaultImage: "TCC049",
+    name: "Melody, Sing-along",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "HER103",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "TCC049",
+      image: "TCC049",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HER103","TCC049"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC049",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Bard Hero - Young",
+
+    
+    
+    functionalText: `Whenever you play a song, create Copper tokens equal to the number of other heroes in the game.`,
+    
+    hero: Hero.Melody,
+    intellect: 4,
+    
+    keywords: [Keyword.GoAgain],
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    young: true
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "melting-point-red",
@@ -84139,6 +78234,156 @@ Whenever Merciless Battleaxe attacks, if its {p} is greater than twice its base 
     
     
   },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "metex-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO201",
+    name: "MetEx",
+    printings: [{
+      
+      identifier: "EVO201",
+      image: "EVO201",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO201",
+      image: "EVO201",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO201"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO201",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "metex-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO202",
+    name: "MetEx",
+    printings: [{
+      
+      identifier: "EVO202",
+      image: "EVO202",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO202",
+      image: "EVO202",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO202"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO202",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "metex-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO203",
+    name: "MetEx",
+    printings: [{
+      
+      identifier: "EVO203",
+      image: "EVO203",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO203",
+      image: "EVO203",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO203"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO203",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, you may put an item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "metacarpus-node",
     classes: [Class.Wizard],
@@ -84321,6 +78566,48 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "might",
+    classes: [Class.Generic],
+    defaultImage: "TCC105",
+    name: "Might",
+    printings: [{
+      
+      identifier: "TCC105",
+      image: "TCC105",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["TCC105"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC105",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the start of your turn, destroy this, then your next attack this turn gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "mind-warp-yellow",
     classes: [Class.Wizard],
@@ -84461,6 +78748,162 @@ While Minerva is face up in arsenal, 1H weapons you control have +1{p}. Whenever
     
     
     restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "mini-forcefield-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO093",
+    name: "Mini Forcefield",
+    printings: [{
+      
+      identifier: "EVO093",
+      image: "EVO093",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO093",
+      image: "EVO093",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO093"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO093",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 4 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Ward],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "mini-forcefield-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO094",
+    name: "Mini Forcefield",
+    printings: [{
+      
+      identifier: "EVO094",
+      image: "EVO094",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO094",
+      image: "EVO094",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO094"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO094",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 3 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Ward],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "mini-forcefield-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO095",
+    name: "Mini Forcefield",
+    printings: [{
+      
+      identifier: "EVO095",
+      image: "EVO095",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO095",
+      image: "EVO095",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO095"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO095",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Ward X**, where X is the number of steam counters on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Ward],
+    
+    
+    pitch: 3,
+    
+    
     
     
     
@@ -84982,6 +79425,58 @@ If Moon Wish hits, search your deck for a card named Sun Kiss, reveal it, put it
     power: 3,
     
     
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "moonshot-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO140",
+    name: "Moonshot",
+    printings: [{
+      
+      identifier: "EVO140",
+      image: "EVO140",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO140",
+      image: "EVO140",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO140"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO140",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    defense: 3,
+    functionalText: `Play this only if you've **boosted** this turn. As an additional cost to play this, destroy X Hyper Drivers you control.
+
+When this attacks, it gets +3{p} for each Hyper Driver destroyed this way.
+
+If this has 10 or more {p}, it gets **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    specialCost: "XX",
     
     
     
@@ -85820,7 +80315,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     
     functionalText: `**Once per Turn Action - 0: Attack**
 
-When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.`,
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{h}.`,
     
     
     
@@ -87137,6 +81632,54 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     
     
   },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "nom-de-plume",
+    classes: [Class.Bard],
+    defaultImage: "TCC051",
+    name: "Nom de Plume",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS213",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC051",
+      image: "TCC051",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS213","TCC051"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC051",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Head",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero draws a card.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "northern-winds-blue",
     classes: [Class.NotClassed],
@@ -88281,7 +82824,7 @@ Illusionist attack action cards you control have **go again**.
     },{
       foiling: Foiling.G,
       identifier: "WIN013",
-      image: "",
+      image: "WIN013",
       set: Release.Promos,
       
     },],
@@ -88919,6 +83462,336 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "out-muscle-red",
+    classes: [Class.Generic],
+    defaultImage: "MON248.width-450",
+    name: "Out Muscle",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "MON248",
+      image: "MON248.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "MON248",
+      image: "MON248.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON248",
+      image: "U-MON248.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "MON248",
+      image: "U-MON248.width-450",
+      set: Release.Monarch,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MON248"],
+    sets: [Release.Monarch],
+    specialImage: "MON248.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "out-muscle-yellow",
+    classes: [Class.Generic],
+    defaultImage: "MON249.width-450",
+    name: "Out Muscle",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "MON249",
+      image: "MON249.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "MON249",
+      image: "MON249.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON249",
+      image: "U-MON249.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "MON249",
+      image: "U-MON249.width-450",
+      set: Release.Monarch,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MON249"],
+    sets: [Release.Monarch],
+    specialImage: "MON249.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "out-muscle-blue",
+    classes: [Class.Generic],
+    defaultImage: "MON250.width-450",
+    name: "Out Muscle",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "MON250",
+      image: "MON250.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "MON250",
+      image: "MON250.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON250",
+      image: "U-MON250.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "MON250",
+      image: "U-MON250.width-450",
+      set: Release.Monarch,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MON250"],
+    sets: [Release.Monarch],
+    specialImage: "MON250.width-450",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "out-pace-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO204",
+    name: "Out Pace",
+    printings: [{
+      
+      identifier: "EVO204",
+      image: "EVO204",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO204",
+      image: "EVO204",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO204"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO204",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "out-pace-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO205",
+    name: "Out Pace",
+    printings: [{
+      
+      identifier: "EVO205",
+      image: "EVO205",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO205",
+      image: "EVO205",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO205"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO205",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Eilene Cherie"],
+    cardIdentifier: "out-pace-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO206",
+    name: "Out Pace",
+    printings: [{
+      
+      identifier: "EVO206",
+      image: "EVO206",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO206",
+      image: "EVO206",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO206"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO206",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+This can't be defended by equipment.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "out-for-blood-red",
     classes: [Class.Warrior],
@@ -89121,186 +83994,6 @@ When this hits a hero, the next time they defend with 1 or more 'non-attack' act
     pitch: 3,
     
     
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "out-muscle-red",
-    classes: [Class.Generic],
-    defaultImage: "MON248.width-450",
-    name: "Out Muscle",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "MON248",
-      image: "MON248.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "MON248",
-      image: "MON248.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON248",
-      image: "U-MON248.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "MON248",
-      image: "U-MON248.width-450",
-      set: Release.Monarch,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["MON248"],
-    sets: [Release.Monarch],
-    specialImage: "MON248.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    power: 6,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "out-muscle-yellow",
-    classes: [Class.Generic],
-    defaultImage: "MON249.width-450",
-    name: "Out Muscle",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "MON249",
-      image: "MON249.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "MON249",
-      image: "MON249.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON249",
-      image: "U-MON249.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "MON249",
-      image: "U-MON249.width-450",
-      set: Release.Monarch,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["MON249"],
-    sets: [Release.Monarch],
-    specialImage: "MON249.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 2,
-    power: 5,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "out-muscle-blue",
-    classes: [Class.Generic],
-    defaultImage: "MON250.width-450",
-    name: "Out Muscle",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "MON250",
-      image: "MON250.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "MON250",
-      image: "MON250.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON250",
-      image: "U-MON250.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "MON250",
-      image: "U-MON250.width-450",
-      set: Release.Monarch,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["MON250"],
-    sets: [Release.Monarch],
-    specialImage: "MON250.width-450",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Generic Action - Attack",
-
-    cost: 3,
-    defense: 2,
-    functionalText: `While Out Muscle isn't defended by a card with equal or greater {p}, it has **go again**.`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 3,
-    power: 4,
-    restrictedFormats: [Format.Commoner],
     
     
     
@@ -89711,6 +84404,258 @@ The next time a weapon hits this turn, create a Copper token.
     
     
   },{
+    artists: ["Mikhail Babkin"],
+    cardIdentifier: "over-loop-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO219",
+    name: "Over Loop",
+    printings: [{
+      
+      identifier: "1HP205",
+      image: "1HP205.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC020",
+      image: "ARC020",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC020",
+      image: "ARC020-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC020",
+      image: "ARC020_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC020",
+      image: "ARC020_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "EVO219",
+      image: "EVO219",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "LGS013",
+      image: "LGS013",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS032",
+      image: "LGS032",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "TCC014",
+      image: "TCC014",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP205","ARC020","EVO219","LGS013","LGS032","TCC014"],
+    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS013",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mikhail Babkin"],
+    cardIdentifier: "over-loop-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO220",
+    name: "Over Loop",
+    printings: [{
+      
+      identifier: "1HP206",
+      image: "1HP206.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC021",
+      image: "ARC021",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC021",
+      image: "ARC021-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC021",
+      image: "ARC021_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC021",
+      image: "ARC021_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "EVO220",
+      image: "EVO220",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS033",
+      image: "LGS033",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP206","ARC021","EVO220","LGS033"],
+    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos],
+    specialImage: "LGS033",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mikhail Babkin"],
+    cardIdentifier: "over-loop-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO221",
+    name: "Over Loop",
+    printings: [{
+      
+      identifier: "1HP207",
+      image: "1HP207.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC022",
+      image: "ARC022",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC022",
+      image: "ARC022-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC022",
+      image: "ARC022_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC022",
+      image: "ARC022_Over_Loop.width-10000",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "EVO221",
+      image: "EVO221",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS034",
+      image: "LGS034",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP207","ARC022","EVO221","LGS034"],
+    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos],
+    specialImage: "LGS034",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Henry Leung"],
     cardIdentifier: "overblast-red",
     classes: [Class.Mechanologist],
@@ -90068,6 +85013,58 @@ If Overload hits, it gains **go again**.`,
     
     pitch: 3,
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "overload-script-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO096",
+    name: "Overload Script",
+    printings: [{
+      
+      identifier: "EVO096",
+      image: "EVO096",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO096",
+      image: "EVO096",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO096"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO096",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get **overpower**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Overpower],
+    
+    
+    pitch: 1,
+    
     
     
     
@@ -90530,6 +85527,156 @@ If Overload hits, it gains **go again**.`,
     
     pitch: 3,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "panel-beater-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO213",
+    name: "Panel Beater",
+    printings: [{
+      
+      identifier: "EVO213",
+      image: "EVO213",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO213",
+      image: "EVO213",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO213"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO213",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "panel-beater-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO214",
+    name: "Panel Beater",
+    printings: [{
+      
+      identifier: "EVO214",
+      image: "EVO214",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO214",
+      image: "EVO214",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO214"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO214",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "panel-beater-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO215",
+    name: "Panel Beater",
+    printings: [{
+      
+      identifier: "EVO215",
+      image: "EVO215",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO215",
+      image: "EVO215",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO215"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO215",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+This gets +X{p}, where X is the number of equipment defending it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
     
     
     
@@ -91461,6 +86608,58 @@ Create a Ponder token.`,
     
     
   },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "penetration-script-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO079",
+    name: "Penetration Script",
+    printings: [{
+      
+      identifier: "EVO079",
+      image: "EVO079",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO079",
+      image: "EVO079",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO079"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO079",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Andrew Chou"],
     cardIdentifier: "perch-grapplers",
     classes: [Class.Ranger],
@@ -92046,6 +87245,58 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "phantom-tidemaw-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "EVO244",
+    name: "Phantom Tidemaw",
+    printings: [{
+      
+      identifier: "EVO244",
+      image: "EVO244",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO244",
+      image: "EVO244",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO244"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO244",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Illusionist Instant - Aura",
+
+    cost: 0,
+    
+    functionalText: `Whenever an Illusionist card you control is destroyed, put a +1{p} counter on this.
+
+**Phantasm**
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm,Keyword.Ward],
     
     
     pitch: 3,
@@ -94369,6 +89620,58 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     talents: [Talent.Elemental],
     
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "polarity-reversal-script-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO078",
+    name: "Polarity Reversal Script",
+    printings: [{
+      
+      identifier: "EVO078",
+      image: "EVO078",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO078",
+      image: "EVO078",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO078"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO078",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Action cards get -1{d} while defending your Mechanologist attack action cards.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "ponder",
     classes: [Class.Generic],
@@ -94627,6 +89930,188 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     
     
   },{
+    artists: ["Panji Bagus P"],
+    cardIdentifier: "potion-of-strength-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR171",
+    name: "Potion of Strength",
+    printings: [{
+      
+      identifier: "1HP382",
+      image: "1HP382.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BVO028",
+      image: "BVO28.width-450",
+      set: Release.BravoBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB013",
+      image: "FAB013",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC073",
+      image: "TCC073",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR171",
+      image: "WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR171",
+      image: "WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR171",
+      image: "U-WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR171",
+      image: "U-WTR171",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP382","BVO028","FAB013","TCC073","WTR171"],
+    sets: [Release.BravoBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR171",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Your next attack this turn gains +2{p}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "pouncing-paws",
+    classes: [Class.Ninja],
+    defaultImage: "TCC082",
+    name: "Pouncing Paws",
+    printings: [{
+      
+      identifier: "TCC082",
+      image: "TCC082",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC082"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC082",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Legs",
+
+    
+    defense: 1,
+    functionalText: `**Instant** - Destroy this: Create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "pouncing-qi-red",
+    classes: [Class.Ninja],
+    defaultImage: "DYN056",
+    name: "Pouncing Qi",
+    printings: [{
+      
+      identifier: "DYN056",
+      image: "DYN056",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN056",
+      image: "DYN056",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC089",
+      image: "TCC089",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN056","TCC089"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN056",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "pouncing-qi-yellow",
     classes: [Class.Ninja],
@@ -94656,7 +90141,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.`,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.`,
     
     
     
@@ -94704,7 +90189,7 @@ Deal 2 arcane damage to any target. If Polar Cap was **fused** and deals damage 
 
     cost: 0,
     defense: 3,
-    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, Pouncing Qi has +1{p} and **go again**.`,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +1{p} and **go again**.`,
     
     
     
@@ -95240,7 +90725,7 @@ If you have **boosted** this turn, put a steam counter on it.
     defense: 3,
     functionalText: `Your next attack this turn gets +2{p}.
 
-Reveal the top card of your deck. If it's yellow, put it into your hand, then **charge** you hero's soul.
+Reveal the top card of your deck. If it's yellow, put it into your hand, then **charge** your hero's soul.
 
 **Go again**`,
     
@@ -95647,6 +91132,130 @@ Reveal the top card of your deck. If it's yellow, put it into your hand, then **
     
     
   },{
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "DYN063",
+    name: "Predatory Streak",
+    printings: [{
+      
+      identifier: "DYN063",
+      image: "DYN063",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN063",
+      image: "DYN063",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS123",
+      image: "LGS123",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "TCC097",
+      image: "TCC097",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN063","LGS123","TCC097"],
+    sets: [Release.Dynasty,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS123",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Create 2 Crouching Tigers in your banished zone. You may play them this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "predatory-streak-blue",
+    classes: [Class.Ninja],
+    defaultImage: "DYN064",
+    name: "Predatory Streak",
+    printings: [{
+      
+      identifier: "DYN064",
+      image: "DYN064",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN064",
+      image: "DYN064",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS124",
+      image: "LGS124",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "TCC101",
+      image: "TCC101",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN064","LGS124","TCC101"],
+    sets: [Release.Dynasty,Release.Promos,Release.RoundTheTable],
+    specialImage: "LGS124",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ninja Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Create a Crouching Tiger in your banished zone. You may play it this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "premeditate-red",
     classes: [Class.Generic],
@@ -96036,11 +91645,23 @@ Your next Brute attack this turn gains +3{p}.
       image: "DTD001",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "HER086",
+      image: "HER086",
+      set: Release.Promos,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN023",
+      image: "WIN023",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["DTD001"],
-    sets: [Release.DuskTillDawn],
+    setIdentifiers: ["DTD001","HER086","WIN023"],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "DTD001",
     subtypes: [],
     types: [Type.Hero],
@@ -96113,7 +91734,7 @@ Your next Brute attack this turn gains +3{p}.
     },{
       foiling: Foiling.G,
       identifier: "WIN009",
-      image: "",
+      image: "WIN009",
       set: Release.Promos,
       
     },],
@@ -96145,6 +91766,58 @@ Your next Brute attack this turn gains +3{p}.
     
     
     talents: [Talent.Light],
+    
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "prismatic-lens-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO071",
+    name: "Prismatic Lens",
+    printings: [{
+      
+      identifier: "EVO071",
+      image: "EVO071",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO071",
+      image: "EVO071",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO071"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO071",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Once per Turn Instant** - 0: Reveal the top card of your deck. Put a Mechanologist item of the same color from your banished zone on top of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Jessada Sutthi"],
@@ -96380,6 +92053,50 @@ Your next Brute attack this turn gains +3{p}.
     
     
     
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "professor-teklovossen",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC001",
+    name: "Professor Teklovossen",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "TCC001",
+      image: "TCC001",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["TCC001"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC001",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero - Young",
+
+    
+    
+    functionalText: `Evos cost {r} less to play for each opposing hero.
+
+You may play Evos from your banished zone.`,
+    
+    hero: Hero.Teklovossen,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    young: true
   },{
     artists: ["Riordan Delmiro"],
     cardIdentifier: "prognosticate-red",
@@ -96709,6 +92426,198 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
     pitch: 3,
     power: 1,
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Grigoriy Parshakov"],
+    cardIdentifier: "proto-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO024",
+    name: "Proto Base Arms",
+    printings: [{
+      
+      identifier: "EVO024",
+      image: "EVO024",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC005",
+      image: "TCC005",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO024","TCC005"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO024",
+    subtypes: [Subtype.Arms,Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Arms",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Dmitriy Semyonov"],
+    cardIdentifier: "proto-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO023",
+    name: "Proto Base Chest",
+    printings: [{
+      
+      identifier: "EVO023",
+      image: "EVO023",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC004",
+      image: "TCC004",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO023","TCC004"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO023",
+    subtypes: [Subtype.Base,Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Chest",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Vlad Tashkinov"],
+    cardIdentifier: "proto-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO022",
+    name: "Proto Base Head",
+    printings: [{
+      
+      identifier: "EVO022",
+      image: "EVO022",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC003",
+      image: "TCC003",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO022","TCC003"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO022",
+    subtypes: [Subtype.Base,Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Head",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Revazashvili E."],
+    cardIdentifier: "proto-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO025",
+    name: "Proto Base Legs",
+    printings: [{
+      
+      identifier: "EVO025",
+      image: "EVO025",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC006",
+      image: "TCC006",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO025","TCC006"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO025",
+    subtypes: [Subtype.Base,Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Legs",
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -97474,6 +93383,60 @@ Your next Ice, Lightning, or Elemental attack this turn gains +4{p}.`,
     
     pitch: 1,
     power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "pulsewave-protocol-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO058",
+    name: "Pulsewave Protocol",
+    printings: [{
+      
+      identifier: "EVO058",
+      image: "EVO058",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO058",
+      image: "EVO058",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB173",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO058","FAB173"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO058",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Evo Upgrade** - When this attacks a hero, they reveal X cards from their hand, where X is the number of Evos you have equipped. Choose an action card with {d} less than X, then add it to this chain link as a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 2,
+    power: 6,
     restrictedFormats: [Format.Commoner],
     
     
@@ -98650,6 +94613,60 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
   },{
     artists: ["Narendra B Adi"],
+    cardIdentifier: "qi-unleashed-red",
+    classes: [Class.Ninja],
+    defaultImage: "DYN059",
+    name: "Qi Unleashed",
+    printings: [{
+      
+      identifier: "DYN059",
+      image: "DYN059",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN059",
+      image: "DYN059",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC090",
+      image: "TCC090",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["DYN059","TCC090"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN059",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Combo** - If Crouching Tiger was the last attack this combat chain, this gets +4{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
     cardIdentifier: "qi-unleashed-yellow",
     classes: [Class.Ninja],
     defaultImage: "DYN060",
@@ -98737,6 +94754,58 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     pitch: 3,
     power: 1,
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "quantum-processor-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO072",
+    name: "Quantum Processor",
+    printings: [{
+      
+      identifier: "EVO072",
+      image: "EVO072",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO072",
+      image: "EVO072",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO072"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO072",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+**Once per Turn Instant** - 0: Put a Mechanologist item with cost 0 or 1 from your hand into the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -98925,6 +94994,276 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
   },{
+    artists: ["King Fung Ng","Tomasz Jedruszek"],
+    cardIdentifier: "quicken",
+    classes: [Class.Generic],
+    defaultImage: "EVO250",
+    name: "Quicken",
+    printings: [{
+      
+      identifier: "1HP427",
+      image: "1HP427_Quicken.width-10000",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU196",
+      image: "CRU196",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU196",
+      image: "U-CRU196",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "DTD234",
+      image: "DTD234",
+      set: Release.DuskTillDawn,
+      
+    },{
+      
+      identifier: "DVR028",
+      image: "DVR028.width-450",
+      set: Release.ClassicBattlesRhinarDorinthea,
+      
+    },{
+      
+      identifier: "EVO250",
+      image: "EVO250",
+      set: Release.BrightLights,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "EVR196",
+      image: "EVR196.width-450",
+      set: Release.Everfest,
+      
+    },{
+      
+      identifier: "RNR031",
+      image: "RNR31.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      
+      identifier: "TCC106",
+      image: "TCC106",
+      set: Release.RoundTheTable,
+      
+    },{
+      
+      identifier: "TEA030",
+      image: "TEA30.width-450",
+      set: Release.DorintheaHeroDeck,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR225",
+      image: "WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR225",
+      image: "U-WTR225",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      
+      identifier: "XXX009",
+      image: "XXX009",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["1HP427","CRU196","DTD234","EVR196","DVR028","EVO250","RNR031","TCC106","TEA030","WTR225","XXX009"],
+    sets: [Release.BrightLights,Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "CRU196",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `When you play an attack action card or activate a weapon attack, destroy this and the attack gains **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "quickfire-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO225",
+    name: "Quickfire",
+    printings: [{
+      
+      identifier: "EVO225",
+      image: "EVO225",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO225",
+      image: "EVO225",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO225"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO225",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "quickfire-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO226",
+    name: "Quickfire",
+    printings: [{
+      
+      identifier: "EVO226",
+      image: "EVO226",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO226",
+      image: "EVO226",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO226"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO226",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "quickfire-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO227",
+    name: "Quickfire",
+    printings: [{
+      
+      identifier: "EVO227",
+      image: "EVO227",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO227",
+      image: "EVO227",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO227"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO227",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `This costs {r} less to play for each Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "quicksilver-dagger",
     classes: [Class.Warrior],
@@ -98991,6 +95330,54 @@ If another weapon you control has gained **go again** this turn, Quicksilver Dag
     
     power: 1,
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "quickstep",
+    classes: [Class.Bard],
+    defaultImage: "TCC054",
+    name: "Quickstep",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS216",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC054",
+      image: "TCC054",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["LGS216","TCC054"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC054",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Bard Equipment - Legs",
+
+    
+    
+    functionalText: `**Action** - Destroy this: Each hero creates a Quicken token.  **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -100421,6 +96808,156 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "ratchet-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO105",
+    name: "Ratchet Up",
+    printings: [{
+      
+      identifier: "EVO105",
+      image: "EVO105",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO105",
+      image: "EVO105",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO105"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO105",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "ratchet-up-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO106",
+    name: "Ratchet Up",
+    printings: [{
+      
+      identifier: "EVO106",
+      image: "EVO106",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO106",
+      image: "EVO106",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO106"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO106",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "ratchet-up-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO107",
+    name: "Ratchet Up",
+    printings: [{
+      
+      identifier: "EVO107",
+      image: "EVO107",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO107",
+      image: "EVO107",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO107"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO107",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, action cards get -1{d} while defending this.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Maxim Kostin"],
     cardIdentifier: "rattle-bones-red",
     classes: [Class.Runeblade],
@@ -101289,6 +97826,306 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "razzle-dazzle-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO165",
+    name: "Razzle Dazzle",
+    printings: [{
+      
+      identifier: "EVO165",
+      image: "EVO165",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO165",
+      image: "EVO165",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO165"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO165",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "razzle-dazzle-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO166",
+    name: "Razzle Dazzle",
+    printings: [{
+      
+      identifier: "EVO166",
+      image: "EVO166",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO166",
+      image: "EVO166",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO166"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO166",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "razzle-dazzle-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO167",
+    name: "Razzle Dazzle",
+    printings: [{
+      
+      identifier: "EVO167",
+      image: "EVO167",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO167",
+      image: "EVO167",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO167"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO167",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO228",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO228",
+      image: "EVO228",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO228",
+      image: "EVO228",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO228"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO228",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO229",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO229",
+      image: "EVO229",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO229",
+      image: "EVO229",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO229"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO229",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "re-charge-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO230",
+    name: "Re-Charge!",
+    printings: [{
+      
+      identifier: "EVO230",
+      image: "EVO230",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO230",
+      image: "EVO230",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO230"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO230",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Put a steam counter on a Hyper Driver you control.
+
+The next attack you **boost** this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Patchanee Treedet"],
     cardIdentifier: "read-the-glide-path-red",
     classes: [Class.Ranger],
@@ -101857,7 +98694,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
       set: Release.DuskTillDawn,
       
     },{
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "DTD216",
       image: "DTD216",
       set: Release.DuskTillDawn,
@@ -102391,6 +99228,72 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     talents: [Talent.Draconic],
     
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "red-liner",
+    classes: [Class.Ranger],
+    defaultImage: "CRU121",
+    name: "Red Liner",
+    printings: [{
+      
+      identifier: "1HP224",
+      image: "1HP224.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU121",
+      image: "CRU121",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "CRU121",
+      image: "CRU121",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU121",
+      image: "U-CRU121",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU121",
+      image: "U-CRU121",
+      set: Release.CrucibleOfWar,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP224","CRU121"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
+    specialImage: "CRU121",
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
+    types: [Type.Weapon],
+    typeText: "Ranger Weapon - Bow (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - 0: If you have no cards in your arsenal, put an arrow card from your hand face up into your arsenal. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Yolanda Felicia"],
     cardIdentifier: "red-in-the-ledger-red",
     classes: [Class.Ranger],
@@ -102456,72 +99359,6 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     
     
     specializations: [Hero.Azalea],
-    
-    
-  },{
-    artists: ["Nikolay Moskvin"],
-    cardIdentifier: "red-liner",
-    classes: [Class.Ranger],
-    defaultImage: "CRU121",
-    name: "Red Liner",
-    printings: [{
-      
-      identifier: "1HP224",
-      image: "1HP224.width-450",
-      set: Release.HistoryPack1,
-      
-    },{
-      edition: ReleaseEdition.First,
-      identifier: "CRU121",
-      image: "CRU121",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.C,
-      identifier: "CRU121",
-      image: "CRU121",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "CRU121",
-      image: "U-CRU121",
-      set: Release.CrucibleOfWar,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "CRU121",
-      image: "U-CRU121",
-      set: Release.CrucibleOfWar,
-      
-    },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["1HP224","CRU121"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
-    specialImage: "CRU121",
-    subtypes: [Subtype.TwoHanded,Subtype.Bow],
-    types: [Type.Weapon],
-    typeText: "Ranger Weapon - Bow (2H)",
-
-    
-    
-    functionalText: `**Once per Turn Action** - 0: If you have no cards in your arsenal, put an arrow card from your hand face up into your arsenal. **Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
   },{
@@ -103055,7 +99892,7 @@ Create a Runechant token.`,
     },{
       foiling: Foiling.R,
       identifier: "DYN121",
-      image: "",
+      image: "DYN121_Special",
       set: Release.Dynasty,
       treatment: Treatment.EA,
     },{
@@ -103069,7 +99906,7 @@ Create a Runechant token.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["DYN121","FAB122"],
     sets: [Release.Dynasty,Release.Promos],
-    specialImage: "FAB122",
+    specialImage: "DYN121_Special",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Assassin Action - Attack",
@@ -104438,6 +101275,156 @@ If you've **charged** this turn, create a Courage token.`,
     
   },{
     artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rev-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO183",
+    name: "Rev Up",
+    printings: [{
+      
+      identifier: "EVO183",
+      image: "EVO183",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO183",
+      image: "EVO183",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO183"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO183",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rev-up-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO184",
+    name: "Rev Up",
+    printings: [{
+      
+      identifier: "EVO184",
+      image: "EVO184",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO184",
+      image: "EVO184",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO184"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO184",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "rev-up-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO185",
+    name: "Rev Up",
+    printings: [{
+      
+      identifier: "EVO185",
+      image: "EVO185",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO185",
+      image: "EVO185",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO185"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO185",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you control a Hyper Driver, this costs {r} less to play.
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nikolay Moskvin"],
     cardIdentifier: "revel-in-runeblood-red",
     classes: [Class.Runeblade],
     defaultImage: "EVR106.width-450",
@@ -104875,7 +101862,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     },{
       foiling: Foiling.G,
       identifier: "WIN001",
-      image: "",
+      image: "WIN001",
       set: Release.Promos,
       
     },{
@@ -106477,7 +103464,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     },{
       foiling: Foiling.R,
       identifier: "HER081",
-      image: "",
+      image: "HER081",
       set: Release.Promos,
       
     },{
@@ -106545,7 +103532,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     },{
       foiling: Foiling.G,
       identifier: "WIN022",
-      image: "",
+      image: "WIN022",
       set: Release.Promos,
       
     },],
@@ -106762,6 +103749,68 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
   },{
     artists: ["Jessada Sutthi"],
+    cardIdentifier: "rise-up-red",
+    classes: [Class.NotClassed],
+    defaultImage: "UPR091",
+    name: "Rise Up",
+    printings: [{
+      
+      identifier: "FAI007",
+      image: "",
+      set: Release.FaiBlitzDeck,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS106",
+      image: "LGS106",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },{
+      
+      identifier: "UPR091",
+      image: "UPR091",
+      set: Release.Uprising,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "UPR091",
+      image: "UPR091",
+      set: Release.Uprising,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAI007","LGS106","UPR091"],
+    sets: [Release.FaiBlitzDeck,Release.Promos,Release.Uprising],
+    specialImage: "LGS106",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Dromai or Fai Specialization**
+
+**Rupture** - If Rise Up is played as chain link 4 or higher, it has **dominate** and +X{p}, where X is twice the number of Phoenix Flames you control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate,Keyword.Rupture,Keyword.Specialization],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    specializations: [Hero.Dromai,Hero.Fai],
+    talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Jessada Sutthi"],
     cardIdentifier: "rise-from-the-ashes-red",
     classes: [Class.Ninja],
     defaultImage: "UPR057",
@@ -106920,68 +103969,6 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    talents: [Talent.Draconic],
-    
-  },{
-    artists: ["Jessada Sutthi"],
-    cardIdentifier: "rise-up-red",
-    classes: [Class.NotClassed],
-    defaultImage: "UPR091",
-    name: "Rise Up",
-    printings: [{
-      
-      identifier: "FAI007",
-      image: "",
-      set: Release.FaiBlitzDeck,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "LGS106",
-      image: "LGS106",
-      set: Release.Promos,
-      treatment: Treatment.EA,
-    },{
-      
-      identifier: "UPR091",
-      image: "UPR091",
-      set: Release.Uprising,
-      
-    },{
-      foiling: Foiling.R,
-      identifier: "UPR091",
-      image: "UPR091",
-      set: Release.Uprising,
-      
-    },],
-    rarities: [Rarity.Promo,Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["FAI007","LGS106","UPR091"],
-    sets: [Release.FaiBlitzDeck,Release.Promos,Release.Uprising],
-    specialImage: "LGS106",
-    subtypes: [Subtype.Attack],
-    types: [Type.Action],
-    typeText: "Draconic Action - Attack",
-
-    cost: 1,
-    defense: 3,
-    functionalText: `**Dromai or Fai Specialization**
-
-**Rupture** - If Rise Up is played as chain link 4 or higher, it has **dominate** and +X{p}, where X is twice the number of Phoenix Flames you control.`,
-    
-    
-    
-    
-    keywords: [Keyword.Dominate,Keyword.Rupture,Keyword.Specialization],
-    
-    
-    pitch: 1,
-    power: 3,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    specializations: [Hero.Dromai,Hero.Fai],
     talents: [Talent.Draconic],
     
   },{
@@ -110805,6 +107792,90 @@ When this hits a hero, banish the top card of their deck.`,
     
     
   },{
+    artists: ["Yulia Litvinova"],
+    cardIdentifier: "salt-the-wound-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "CRU073",
+    name: "Salt the Wound",
+    printings: [{
+      
+      identifier: "1HP135",
+      image: "1HP135.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "BEN020",
+      image: "",
+      set: Release.BenjiBlitzDeck,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "CRU073",
+      image: "CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "CRU073",
+      image: "CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "CRU073",
+      image: "U-CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "CRU073",
+      image: "U-CRU073",
+      set: Release.CrucibleOfWar,
+      
+    },{
+      
+      identifier: "IRA004",
+      image: "IRA004-P_c88KAnK.width-450",
+      set: Release.IraWelcomeDeck,
+      
+    },{
+      
+      identifier: "TCC096",
+      image: "TCC096",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP135","BEN020","CRU073","IRA004","TCC096"],
+    sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
+    specialImage: "CRU073",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `This gets +1{p} for each attack that has hit this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Rachel Alderson"],
     cardIdentifier: "salvage-shot-red",
     classes: [Class.Ranger],
@@ -111458,8 +108529,7 @@ Whenever an arrow is put face up in arsenal from your deck, put an aim counter o
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Lizhe Liang"],
     cardIdentifier: "sash-of-sandikai",
     classes: [Class.NotClassed],
@@ -113256,6 +110326,658 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     
     
   },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-compactor-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO129",
+    name: "Scrap Compactor",
+    printings: [{
+      
+      identifier: "EVO129",
+      image: "EVO129",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO129",
+      image: "EVO129",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO129"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO129",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-compactor-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO130",
+    name: "Scrap Compactor",
+    printings: [{
+      
+      identifier: "EVO130",
+      image: "EVO130",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO130",
+      image: "EVO130",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO130"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO130",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-compactor-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO131",
+    name: "Scrap Compactor",
+    printings: [{
+      
+      identifier: "EVO131",
+      image: "EVO131",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO131",
+      image: "EVO131",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO131"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO131",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, you may play your next Evo this turn as though it were an instant.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "scrap-harvester-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO132",
+    name: "Scrap Harvester",
+    printings: [{
+      
+      identifier: "EVO132",
+      image: "EVO132",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO132",
+      image: "EVO132",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO132"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "scrap-harvester-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO133",
+    name: "Scrap Harvester",
+    printings: [{
+      
+      identifier: "EVO133",
+      image: "EVO133",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO133",
+      image: "EVO133",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO133"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO133",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sandeep Karunakaran"],
+    cardIdentifier: "scrap-harvester-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO134",
+    name: "Scrap Harvester",
+    printings: [{
+      
+      identifier: "EVO134",
+      image: "EVO134",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO134",
+      image: "EVO134",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO134"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO134",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "scrap-hopper-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO108",
+    name: "Scrap Hopper",
+    printings: [{
+      
+      identifier: "EVO108",
+      image: "EVO108",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO108",
+      image: "EVO108",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO108"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO108",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "scrap-hopper-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO109",
+    name: "Scrap Hopper",
+    printings: [{
+      
+      identifier: "EVO109",
+      image: "EVO109",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO109",
+      image: "EVO109",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO109"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO109",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "scrap-hopper-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO110",
+    name: "Scrap Hopper",
+    printings: [{
+      
+      identifier: "EVO110",
+      image: "EVO110",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO110",
+      image: "EVO110",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO110"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO110",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it **scrapped** a card, create a Quicken token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 1,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-prospector-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO135",
+    name: "Scrap Prospector",
+    printings: [{
+      
+      identifier: "EVO135",
+      image: "EVO135",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO135",
+      image: "EVO135",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO135"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO135",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-prospector-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO136",
+    name: "Scrap Prospector",
+    printings: [{
+      
+      identifier: "EVO136",
+      image: "EVO136",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO136",
+      image: "EVO136",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO136"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO136",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Yugin Maffioli"],
+    cardIdentifier: "scrap-prospector-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO137",
+    name: "Scrap Prospector",
+    printings: [{
+      
+      identifier: "EVO137",
+      image: "EVO137",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO137",
+      image: "EVO137",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO137"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO137",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, gain {r}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Anastasia Balakchina"],
+    cardIdentifier: "scrap-trader-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO101",
+    name: "Scrap Trader",
+    printings: [{
+      
+      identifier: "EVO101",
+      image: "EVO101",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO101",
+      image: "EVO101",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO101"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO101",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `**Scrap**
+
+**Scrap**
+
+Gain {r}{r} for each card this **scrapped**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Scrap],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Enmoire"],
     cardIdentifier: "searing-emberblade",
     classes: [Class.Ninja],
@@ -113954,6 +111676,58 @@ If you control 2 or more Draconic chain links, Searing Emberblade has **go again
     
     
   },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "security-script-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO080",
+    name: "Security Script",
+    printings: [{
+      
+      identifier: "EVO080",
+      image: "EVO080",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO080",
+      image: "EVO080",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO080"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO080",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 1,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+Your Mechanologist attack action cards get +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "sedate-red",
     classes: [Class.Assassin],
@@ -114518,68 +112292,6 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     talents: [Talent.Shadow],
     
   },{
-    artists: ["Kevin Sidharta"],
-    cardIdentifier: "seek-and-destroy-red",
-    classes: [Class.Ranger],
-    defaultImage: "ELE215.width-450",
-    name: "Seek and Destroy",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "ELE215",
-      image: "ELE215.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ELE215",
-      image: "ELE215.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ELE215",
-      image: "U-ELE215.width-450",
-      set: Release.TalesOfAria,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ELE215",
-      image: "U-ELE215.width-450",
-      set: Release.TalesOfAria,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["ELE215"],
-    sets: [Release.TalesOfAria],
-    specialImage: "ELE215.width-450",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Ranger Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `Your next arrow attack this turn gains +3{p} and "If this hits a hero, at the beginning of their next end phase, they discard all cards in their hand and destroy all cards in their arsenal."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    
-    
-  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "seek-enlightenment-red",
     classes: [Class.NotClassed],
@@ -114974,6 +112686,68 @@ The next attack action card with cost 0 or less you play this turn gains "When y
     pitch: 3,
     power: 2,
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "seek-and-destroy-red",
+    classes: [Class.Ranger],
+    defaultImage: "ELE215.width-450",
+    name: "Seek and Destroy",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "ELE215",
+      image: "ELE215.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ELE215",
+      image: "ELE215.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ELE215",
+      image: "U-ELE215.width-450",
+      set: Release.TalesOfAria,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ELE215",
+      image: "U-ELE215.width-450",
+      set: Release.TalesOfAria,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["ELE215"],
+    sets: [Release.TalesOfAria],
+    specialImage: "ELE215.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Your next arrow attack this turn gains +3{p} and "If this hits a hero, at the beginning of their next end phase, they discard all cards in their hand and destroy all cards in their arsenal."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -115840,7 +113614,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     },{
       foiling: Foiling.G,
       identifier: "WIN010",
-      image: "",
+      image: "WIN010",
       set: Release.Promos,
       
     },],
@@ -115875,7 +113649,8 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Ausonia"],
     cardIdentifier: "shaden-death-hydra-yellow",
     classes: [Class.Brute],
@@ -116232,6 +114007,68 @@ Your next Brute or Shadow attack this turn gets +3{p}.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Marco González"],
+    cardIdentifier: "shadow-puppetry-red",
+    classes: [Class.NotClassed],
+    defaultImage: "MON193.width-450",
+    name: "Shadow Puppetry",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "MON193",
+      image: "MON193.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "MON193",
+      image: "MON193.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "MON193",
+      image: "U-MON193.width-450",
+      set: Release.Monarch,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "MON193",
+      image: "U-MON193.width-450",
+      set: Release.Monarch,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MON193"],
+    sets: [Release.Monarch],
+    specialImage: "MON193.width-450",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `The next attack action card you play this turn gains +1 {p}, **go again** and "If this attack hits, look at the top card of your deck. You may banish it."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "shadow-of-blasmophet-red",
     classes: [Class.Brute],
@@ -116349,68 +114186,6 @@ As an additional cost to play Shadow of Ursur, you may banish a card with blood 
     
     pitch: 3,
     power: 2,
-    restrictedFormats: [Format.Commoner],
-    
-    
-    
-    
-    
-    talents: [Talent.Shadow],
-    
-  },{
-    artists: ["Marco González"],
-    cardIdentifier: "shadow-puppetry-red",
-    classes: [Class.NotClassed],
-    defaultImage: "MON193.width-450",
-    name: "Shadow Puppetry",
-    printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "MON193",
-      image: "MON193.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "MON193",
-      image: "MON193.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "MON193",
-      image: "U-MON193.width-450",
-      set: Release.Monarch,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "MON193",
-      image: "U-MON193.width-450",
-      set: Release.Monarch,
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["MON193"],
-    sets: [Release.Monarch],
-    specialImage: "MON193.width-450",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Shadow Action",
-
-    cost: 0,
-    defense: 2,
-    functionalText: `The next attack action card you play this turn gains +1 {p}, **go again** and "If this attack hits, look at the top card of your deck. You may banish it."
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    pitch: 1,
-    
     restrictedFormats: [Format.Commoner],
     
     
@@ -117833,6 +115608,64 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
   },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "shriek-razors",
+    classes: [Class.Assassin],
+    defaultImage: "EVO235",
+    name: "Shriek Razors",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO235",
+      image: "EVO235",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO235",
+      image: "EVO235",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB168",
+      image: "FAB168",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Promo],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO235","FAB168"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO235",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `While this is in your graveyard, at the start of your turn, you may destroy 2 Silvers you control. If you do, equip this.
+
+**Attack Reaction** - {r}{r}, destroy this: Target attack action card defending an Assassin attack gets -1{d}.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Mihail Spil-Haufter"],
     cardIdentifier: "shrill-of-skullform-red",
     classes: [Class.Runeblade],
@@ -118747,6 +116580,90 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     
     
   },{
+    artists: ["Adolfo Navarro","Asur Misoa"],
+    cardIdentifier: "sigil-of-solace-red",
+    classes: [Class.Generic],
+    defaultImage: "WTR173",
+    name: "Sigil of Solace",
+    printings: [{
+      
+      identifier: "1HP387",
+      image: "1HP387.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      
+      identifier: "DRO026",
+      image: "DRO026.width-450",
+      set: Release.DromaiBlitzDeck,
+      
+    },{
+      
+      identifier: "FAB136",
+      image: "FAB136",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC059",
+      image: "TCC059",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR173",
+      image: "WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR173",
+      image: "WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR173",
+      image: "U-WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR173",
+      image: "U-WTR173",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP387","DRO026","FAB136","TCC059","WTR173"],
+    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR173",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    cost: 0,
+    
+    functionalText: `Gain 3{h}`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "sigil-of-solace-yellow",
     classes: [Class.Generic],
@@ -119615,6 +117532,48 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
   },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "silversheen-needle",
+    classes: [Class.Generic],
+    defaultImage: "LSS009",
+    name: "Silversheen Needle",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LSS009",
+      image: "LSS009",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LSS009"],
+    sets: [Release.Promos],
+    specialImage: "LSS009",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Off-Hand",
+
+    
+    
+    functionalText: `Your constructs with Fabric in their name gain **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "silverwind-shuriken-blue",
     classes: [Class.Ninja],
@@ -120060,6 +118019,56 @@ Target weapon attack gains +1{p}.
     
     
     specializations: [Hero.Dorinthea],
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "singularity-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO010",
+    name: "Singularity",
+    printings: [{
+      
+      identifier: "EVO010",
+      image: "EVO010",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO010",
+      image: "EVO010_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.AB,
+    },],
+    rarities: [Rarity.Legendary,Rarity.Marvel],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO010"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO010_V2",
+    subtypes: [Subtype.Construct,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Construct",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `**Legendary Teklovossen Specialization**
+
+**Transform** your hero, your weapon, and 4 Evos you have equipped into Teklovossen, the Mechropotent. It enters the arena with {h} equal to the hero it transformed from.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Transform],
+    
+    oppositeSideCardIdentifier: `teklovossen-the-mechropotent`,
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    specializations: [Hero.Teklovossen],
     
     
   },{
@@ -120955,6 +118964,54 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
   },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "slay-red",
+    classes: [Class.NotClassed],
+    defaultImage: "EVO248",
+    name: "Slay",
+    printings: [{
+      
+      identifier: "EVO248",
+      image: "EVO248",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO248",
+      image: "EVO248",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO248"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO248",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Shadow Instant",
+
+    cost: 0,
+    
+    functionalText: `Destroy target angel ally.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "slay-the-scholars-red",
     classes: [Class.Assassin],
@@ -121812,6 +119869,48 @@ When this hits a hero, banish the top card of their deck.`,
     
     
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "smack-of-reality-red",
+    classes: [Class.Guardian],
+    defaultImage: "TCC036",
+    name: "Smack of Reality",
+    printings: [{
+      
+      identifier: "TCC036",
+      image: "TCC036",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC036"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC036",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    cost: 5,
+    defense: 3,
+    functionalText: `**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, destroy all aura tokens they control."`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    pitch: 1,
+    power: 9,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Olga Khariton"],
     cardIdentifier: "smash-instinct-red",
     classes: [Class.Brute],
@@ -122020,6 +120119,54 @@ When this hits a hero, banish the top card of their deck.`,
     pitch: 3,
     power: 5,
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "smash-and-grab-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO155",
+    name: "Smash and Grab",
+    printings: [{
+      
+      identifier: "EVO155",
+      image: "EVO155",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO155",
+      image: "EVO155",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO155"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO155",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 3,
+    functionalText: `If you've **boosted** 2 or more times this turn, this gets +2{p} and "When this hits a hero, gain control of an item they control."`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -122373,6 +120520,54 @@ If Smashing Good Time is played from arsenal, the next attack action card you pl
     
     pitch: 3,
     
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "smashing-performance-yellow",
+    classes: [Class.Brute],
+    defaultImage: "EVO237",
+    name: "Smashing Performance",
+    printings: [{
+      
+      identifier: "EVO237",
+      image: "EVO237",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO237",
+      image: "EVO237",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO237"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO237",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    cost: 3,
+    
+    functionalText: `When this attacks draw a card, then discard a random card. If a card with 6 or more {p} is discarded this way, destroy a random item in the arena.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 6,
     restrictedFormats: [Format.Commoner],
     
     
@@ -123696,6 +121891,346 @@ Shuffle your deck. Banish Sonata Arcanix.
     
     
   },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "sonata-fantasmia-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "EVO242",
+    name: "Sonata Fantasmia",
+    printings: [{
+      
+      identifier: "EVO242",
+      image: "EVO242",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO242",
+      image: "EVO242",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO242"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO242",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Runeblade Action",
+
+    
+    defense: 3,
+    functionalText: `**Viserai Specialization**
+
+Create X Runechant tokens.
+
+If X is 6 or greater, target hero discards 3 random cards.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    specialCost: "XX",
+    
+    
+    
+    specializations: [Hero.Viserai],
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "song-of-jack-be-quick-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC064",
+    name: "Song of Jack-be-Quick",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS217",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC064",
+      image: "TCC064",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS217","TCC064"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC064",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Create a Quicken token under each other hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "song-of-sweet-nectar-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC065",
+    name: "Song of Sweet Nectar",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS220",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC065",
+      image: "TCC065",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS220","TCC065"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC065",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Each other hero gains 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "song-of-yesteryears-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC069",
+    name: "Song of Yesteryears",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS222",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC069",
+      image: "TCC069",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS222","TCC069"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC069",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Each other hero puts an attack action card from their graveyard on the bottom of their deck.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "song-of-the-rosen-matador-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC066",
+    name: "Song of the Rosen Matador",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS218",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC066",
+      image: "TCC066",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS218","TCC066"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC066",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Create a Vigor token under each other hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "song-of-the-shining-knight-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC067",
+    name: "Song of the Shining Knight",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS219",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC067",
+      image: "TCC067",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS219","TCC067"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC067",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Create a Might token under each other hero's control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Artur Treffner"],
+    cardIdentifier: "song-of-the-wandering-mind-blue",
+    classes: [Class.Bard],
+    defaultImage: "TCC068",
+    name: "Song of the Wandering Mind",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "LGS221",
+      image: "",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "TCC068",
+      image: "TCC068",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS221","TCC068"],
+    sets: [Release.Promos,Release.RoundTheTable],
+    specialImage: "TCC068",
+    subtypes: [Subtype.NonAttack,Subtype.Song],
+    types: [Type.Action],
+    typeText: "Bard Action - Song",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `Each other hero draws a card.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "sonic-boom-yellow",
     classes: [Class.Wizard],
@@ -124644,6 +123179,156 @@ The first time you would be dealt damage each turn, if you've **charged** this t
     
     
     talents: [Talent.Light],
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "soup-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO111",
+    name: "Soup Up",
+    printings: [{
+      
+      identifier: "EVO111",
+      image: "EVO111",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO111",
+      image: "EVO111",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO111"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO111",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "soup-up-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO112",
+    name: "Soup Up",
+    printings: [{
+      
+      identifier: "EVO112",
+      image: "EVO112",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO112",
+      image: "EVO112",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO112"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO112",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Aluísio Cervelle"],
+    cardIdentifier: "soup-up-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO113",
+    name: "Soup Up",
+    printings: [{
+      
+      identifier: "EVO113",
+      image: "EVO113",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO113",
+      image: "EVO113",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO113"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO113",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **go again**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    power: 2,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Carlos Cruchaga"],
@@ -125815,11 +124500,17 @@ If you have **boosted** this turn, draw a card.`,
       image: "DYN246",
       set: Release.Dynasty,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB155",
+      image: "FAB155",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["DTD235","DYN246"],
-    sets: [Release.DuskTillDawn,Release.Dynasty],
+    setIdentifiers: ["DTD235","DYN246","FAB155"],
+    sets: [Release.DuskTillDawn,Release.Dynasty,Release.Promos],
     specialImage: "DTD235",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -127830,6 +126521,156 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-a-leak-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO150",
+    name: "Spring a Leak",
+    printings: [{
+      
+      identifier: "EVO150",
+      image: "EVO150",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO150",
+      image: "EVO150",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO150"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO150",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-a-leak-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO151",
+    name: "Spring a Leak",
+    printings: [{
+      
+      identifier: "EVO151",
+      image: "EVO151",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO151",
+      image: "EVO151",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO151"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO151",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "spring-a-leak-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO152",
+    name: "Spring a Leak",
+    printings: [{
+      
+      identifier: "EVO152",
+      image: "EVO152",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO152",
+      image: "EVO152",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO152"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO152",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits a hero, remove all steam counters from an equipment, item, or weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "springboard-somersault-yellow",
     classes: [Class.Generic],
@@ -127917,6 +126758,156 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     pitch: 2,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "sprocket-rocket-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO192",
+    name: "Sprocket Rocket",
+    printings: [{
+      
+      identifier: "EVO192",
+      image: "EVO192",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO192",
+      image: "EVO192",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO192"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO192",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "sprocket-rocket-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO193",
+    name: "Sprocket Rocket",
+    printings: [{
+      
+      identifier: "EVO193",
+      image: "EVO193",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO193",
+      image: "EVO193",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO193"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO193",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Veto Zomer"],
+    cardIdentifier: "sprocket-rocket-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO194",
+    name: "Sprocket Rocket",
+    printings: [{
+      
+      identifier: "EVO194",
+      image: "EVO194",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO194",
+      image: "EVO194",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO194"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO194",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**
+ 
+If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 1,
     
     
     
@@ -128135,6 +127126,56 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     
     
     specializations: [Hero.Bravo],
+    
+    
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "stasis-cell-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO073",
+    name: "Stasis Cell",
+    printings: [{
+      
+      identifier: "EVO073",
+      image: "EVO073",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO073",
+      image: "EVO073",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO073"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO073",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `When this enters or leaves the arena, activated abilities of target equipment can't be activated until the end of its controller's next turn.
+
+**Action** - Put this on the bottom of its owner's deck: Choose an equipment. It can't defend this turn. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
     
     
   },{
@@ -128478,6 +127519,154 @@ At the beginning of your action phase, destroy Stamp Authority.`,
     pitch: 3,
     
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "steam-canister-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO077",
+    name: "Steam Canister",
+    printings: [{
+      
+      identifier: "EVO077",
+      image: "EVO077",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO077",
+      image: "EVO077",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO077"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO077",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Instant** - Put this on the bottom of its owner's deck: Put a steam counter on an item you control with **crank**.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "steel-street-enforcement-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO060",
+    name: "Steel Street Enforcement",
+    printings: [{
+      
+      identifier: "EVO060",
+      image: "EVO060",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO060",
+      image: "EVO060",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO060"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO060",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 1,
+    functionalText: `**Evo Upgrade** - While this is defending, it gets +X{d}, where X is the number of Evos you have equipped.`,
+    
+    
+    
+    
+    keywords: [Keyword.EvoUpgrade],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "steel-street-hoons-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO141",
+    name: "Steel Street Hoons",
+    printings: [{
+      
+      identifier: "EVO141",
+      image: "EVO141",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO141",
+      image: "EVO141",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO141"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO141",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 3,
+    defense: 2,
+    functionalText: `**Boost**
+
+If an item you control has been destroyed this turn, this gets +2{p}.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d).`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost,Keyword.Galvanize],
+    
+    
+    pitch: 3,
+    power: 3,
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -129742,60 +128931,6 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
   },{
-    artists: ["Othon Nikolaidis"],
-    cardIdentifier: "storm-of-sandikai",
-    classes: [Class.Illusionist],
-    defaultImage: "UPR003",
-    name: "Storm of Sandikai",
-    printings: [{
-      
-      identifier: "DRO004",
-      image: "DRO004.width-450",
-      set: Release.DromaiBlitzDeck,
-      
-    },{
-      foiling: Foiling.C,
-      identifier: "LGS107",
-      image: "LGS107",
-      set: Release.Promos,
-      
-    },{
-      
-      identifier: "UPR003",
-      image: "UPR003",
-      set: Release.Uprising,
-      
-    },],
-    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
-    setIdentifiers: ["DRO004","LGS107","UPR003"],
-    sets: [Release.DromaiBlitzDeck,Release.Promos,Release.Uprising],
-    specialImage: "DRO004.width-450",
-    subtypes: [Subtype.TwoHanded,Subtype.Scepter],
-    types: [Type.Weapon],
-    typeText: "Draconic Illusionist Weapon - Scepter (2H)",
-
-    
-    
-    functionalText: `Dragon allies you control have "**Once per Turn Action** - 0: **Attack**".`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    talents: [Talent.Draconic],
-    
-  },{
     artists: ["Anna Kharitonova"],
     cardIdentifier: "storm-striders",
     classes: [Class.Wizard],
@@ -129856,6 +128991,60 @@ At the beginning of your action phase, destroy Stonewall Confidence.`,
     
     
     
+    
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "storm-of-sandikai",
+    classes: [Class.Illusionist],
+    defaultImage: "UPR003",
+    name: "Storm of Sandikai",
+    printings: [{
+      
+      identifier: "DRO004",
+      image: "DRO004.width-450",
+      set: Release.DromaiBlitzDeck,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS107",
+      image: "LGS107",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "UPR003",
+      image: "UPR003",
+      set: Release.Uprising,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["DRO004","LGS107","UPR003"],
+    sets: [Release.DromaiBlitzDeck,Release.Promos,Release.Uprising],
+    specialImage: "DRO004.width-450",
+    subtypes: [Subtype.TwoHanded,Subtype.Scepter],
+    types: [Type.Weapon],
+    typeText: "Draconic Illusionist Weapon - Scepter (2H)",
+
+    
+    
+    functionalText: `Dragon allies you control have "**Once per Turn Action** - 0: **Attack**".`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
     
   },{
     artists: ["Peyeyo"],
@@ -132428,6 +131617,148 @@ When this hits a hero, banish the top card of their deck, then look at their han
     
     
   },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "symbiosis-shot",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO003",
+    name: "Symbiosis Shot",
+    printings: [{
+      
+      identifier: "EVO003",
+      image: "EVO003",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO003"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO003",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    functionalText: `**Dash Specialization**
+
+**Action** - Remove a steam counter from this: **Attack**
+
+Whenever a Mechanologist item enters the arena under your control, if this has fewer than 6 steam counters, you may put a steam counter on this.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    specializations: [Hero.Dash],
+    
+    
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "system-failure-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO144",
+    name: "System Failure",
+    printings: [{
+      
+      identifier: "EVO144",
+      image: "EVO144",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO144",
+      image: "EVO144",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO144"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO144",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Remove all steam counters from target equipment, item, or weapon. If 2 or more steam counters are removed this way, deal 2 damage to its controler.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "system-reset-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO145",
+    name: "System Reset",
+    printings: [{
+      
+      identifier: "EVO145",
+      image: "EVO145",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO145",
+      image: "EVO145",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO145"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO145",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    defense: 3,
+    functionalText: `Banish X Mechanologist items you control with cost 0 or 1, then return them to the arena under their owners' control.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    specialCost: "X",
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "t-bone-red",
     classes: [Class.Mechanologist],
@@ -134224,6 +133555,68 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Enmoire"],
+    cardIdentifier: "tearing-shuko",
+    classes: [Class.Ninja],
+    defaultImage: "DYN046",
+    name: "Tearing Shuko",
+    printings: [{
+      
+      identifier: "DYN046",
+      image: "DYN046",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "DYN046",
+      image: "DYN046",
+      set: Release.Dynasty,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "DYN046",
+      image: "DYN046",
+      set: Release.Dynasty,
+      
+    },{
+      
+      identifier: "TCC081",
+      image: "TCC081",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN046","TCC081"],
+    sets: [Release.Dynasty,Release.RoundTheTable],
+    specialImage: "DYN046",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Ninja Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Instant** - Destroy this: The next Crouching Tiger you play this turn gains +2{p}.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "tectonic-plating",
     classes: [Class.Guardian],
@@ -134286,6 +133679,290 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     
     
   },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "tectonic-rift-blue",
+    classes: [Class.Guardian],
+    defaultImage: "EVO238",
+    name: "Tectonic Rift",
+    printings: [{
+      
+      identifier: "EVO238",
+      image: "EVO238",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO238",
+      image: "EVO238",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO238"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO238",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian Action",
+
+    
+    defense: 2,
+    functionalText: `Create X Seismic Surge tokens.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    specialCost: "X",
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "teklo-base-arms",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO020",
+    name: "Teklo Base Arms",
+    printings: [{
+      
+      identifier: "EVO020",
+      image: "EVO020",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS188",
+      image: "LGS188",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO020","LGS188"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO020",
+    subtypes: [Subtype.Arms,Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Arms",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Septimius Ferdian"],
+    cardIdentifier: "teklo-base-chest",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO019",
+    name: "Teklo Base Chest",
+    printings: [{
+      
+      identifier: "EVO019",
+      image: "EVO019",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS187",
+      image: "LGS187",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO019","LGS187"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO019",
+    subtypes: [Subtype.Base,Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Chest",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "teklo-base-head",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO018",
+    name: "Teklo Base Head",
+    printings: [{
+      
+      identifier: "EVO018",
+      image: "EVO018",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS186",
+      image: "LGS186",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO018","LGS186"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO018",
+    subtypes: [Subtype.Base,Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Head",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Erick Efata"],
+    cardIdentifier: "teklo-base-legs",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO021",
+    name: "Teklo Base Legs",
+    printings: [{
+      
+      identifier: "EVO021",
+      image: "EVO021",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS189",
+      image: "LGS189",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO021","LGS189"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO021",
+    subtypes: [Subtype.Base,Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base Legs",
+
+    
+    defense: 1,
+    functionalText: `**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Irina Si"],
+    cardIdentifier: "teklo-blaster",
+    classes: [Class.Mechanologist],
+    defaultImage: "TCC002",
+    name: "Teklo Blaster",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "TCC002",
+      image: "TCC002",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC002"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC002",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}{r}: **Attack**`,
+    
+    
+    
+    
+    
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "teklo-core-blue",
     classes: [Class.Mechanologist],
@@ -134321,11 +133998,17 @@ At the start of your turn, you may banish an equipment you control. If you do, e
       image: "U-ARC007",
       set: Release.ArcaneRising,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS223",
+      image: "LGS223",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP192","ARC007"],
-    sets: [Release.ArcaneRising,Release.HistoryPack1],
+    setIdentifiers: ["1HP192","ARC007","LGS223"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos],
     specialImage: "ARC007-RF",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -134353,6 +134036,126 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     
     
     specializations: [Hero.Dash],
+    
+    
+  },{
+    artists: ["Pavel Chuvin"],
+    cardIdentifier: "teklo-foundry-heart",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO012",
+    name: "Teklo Foundry Heart",
+    printings: [{
+      
+      identifier: "1HP185",
+      image: "1HP185.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.C,
+      identifier: "ARC004",
+      image: "ARC004",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC004",
+      image: "U-ARC004",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "EVO012",
+      image: "EVO012",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB008",
+      image: "FAB008",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Promo],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["1HP185","ARC004","EVO012","FAB008"],
+    sets: [Release.ArcaneRising,Release.BrightLights,Release.HistoryPack1,Release.Promos],
+    specialImage: "ARC004",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Chest",
+
+    
+    defense: 2,
+    functionalText: `**Once per Turn Action** - {r}: Banish the top 2 cards of your deck. Gain {r} for each Mechanologist card banished this way. Activate this ability only if you've **boosted** this turn. **Go again**
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "teklo-leveler",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO009",
+    name: "Teklo Leveler",
+    printings: [{
+      
+      identifier: "EVO009",
+      image: "EVO009",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS190",
+      image: "LGS190",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO009","LGS190"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO009",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    functionalText: `If you have 1 or more Evos equipped, this gets "**Once per Turn Action** - {r}{r}{r}: **Attack**,"
+
+* 2 or more, this costs {r}{r} less to activate,
+* 3 or more, this gets **go again**,
+* 4 or more, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
     
     
   },{
@@ -134479,6 +134282,200 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     
     
     
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "teklonetic-force-field-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO231",
+    name: "Teklonetic Force Field",
+    printings: [{
+      
+      identifier: "EVO231",
+      image: "EVO231",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO231",
+      image: "EVO231",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO231"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO231",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 3,
+    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "teklonetic-force-field-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO232",
+    name: "Teklonetic Force Field",
+    printings: [{
+      
+      identifier: "EVO232",
+      image: "EVO232",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO232",
+      image: "EVO232",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO232"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO232",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 2,
+    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "teklonetic-force-field-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO233",
+    name: "Teklonetic Force Field",
+    printings: [{
+      
+      identifier: "EVO233",
+      image: "EVO233",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO233",
+      image: "EVO233",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO233"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO233",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Mechanologist Block",
+
+    
+    defense: 1,
+    functionalText: `When this defends an attack with **overpower**, this gets +2{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "teklovossen",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO008",
+    name: "Teklovossen",
+    printings: [{
+      
+      identifier: "EVO008",
+      image: "EVO008",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "HER099",
+      image: "HER099",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["EVO008","HER099"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO008",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero - Young",
+
+    
+    
+    functionalText: `You may play Evos from your banished zone.
+
+**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.`,
+    
+    hero: Hero.Teklovossen,
+    intellect: 4,
+    
+    
+    life: 20,
+    
+    
+    
+    restrictedFormats: [Format.ClassicConstructed],
+    
+    
+    
+    
+    
+    
+    young: true
   },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "teklovossens-workshop-red",
@@ -134666,6 +134663,112 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     
     
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "teklovossen-esteemed-magnate",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO007",
+    name: "Teklovossen, Esteemed Magnate",
+    printings: [{
+      
+      identifier: "EVO007",
+      image: "EVO007",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN027",
+      image: "",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO007","WIN027"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO007",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Mechanologist Hero",
+
+    
+    
+    functionalText: `You may play Evos from your banished zone.
+
+**Once per Turn Instant** - {r}{r}{r}: You may play your next Evo this turn as though it were an instant. When you do, draw a card.`,
+    
+    hero: Hero.Teklovossen,
+    intellect: 4,
+    
+    
+    life: 40,
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Billy Christian"],
+    cardIdentifier: "teklovossen-the-mechropotent",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO010_BACK",
+    name: "Teklovossen, the Mechropotent",
+    printings: [{
+      
+      identifier: "EVO010",
+      image: "EVO010_BACK",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "EVO010",
+      image: "EVO010_BACK_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Legendary,Rarity.Marvel],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO010"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO010_BACK_V2",
+    subtypes: [Subtype.Evo],
+    types: [Type.DemiHero,Type.Equipment],
+    typeText: "Shadow Mechanologist Demi-Hero Equipment - Evo",
+
+    
+    defense: 6,
+    functionalText: `**Action** - {r}{r}{r}, banish 2 cards from your soul: **Attack**
+
+Whenever this attacks a hero, they discard a card.
+
+Your Mechanologist attack action cards get **go again**.
+
+This counts as having 4 Evos equipped.
+
+**Battleworn**`,
+    
+    
+    intellect: 3,
+    isCardBack: true,
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
+    
+    oppositeSideCardIdentifier: `singularity-red`,
+    
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    specialLife: "*",
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "tempest-aurora-red",
     classes: [Class.Wizard],
@@ -134808,6 +134911,63 @@ Reveal the top card of your deck. If it's a Mechanologist item card with cost 0,
     pitch: 3,
     
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "terminator-tank-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO055",
+    name: "Terminator Tank",
+    printings: [{
+      
+      identifier: "EVO055",
+      image: "EVO055",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO055",
+      image: "EVO055",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO055",
+      image: "EVO055_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO055"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO055_V2",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card,"
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -135252,6 +135412,222 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
   },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "throttle-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC023",
+    name: "Throttle",
+    printings: [{
+      
+      identifier: "1HP208",
+      image: "1HP208.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC023",
+      image: "ARC023",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC023",
+      image: "ARC023-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC023",
+      image: "U-ARC023",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC023",
+      image: "U-ARC023",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "TCC015",
+      image: "TCC015",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP208","ARC023","TCC015"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC023-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "throttle-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC024",
+    name: "Throttle",
+    printings: [{
+      
+      identifier: "1HP209",
+      image: "1HP209.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC024",
+      image: "ARC024",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC024",
+      image: "ARC024-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC024",
+      image: "U-ARC024",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC024",
+      image: "U-ARC024",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "TCC020",
+      image: "TCC020",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP209","ARC024","TCC020"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC024-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "throttle-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC025",
+    name: "Throttle",
+    printings: [{
+      
+      identifier: "1HP210",
+      image: "1HP210.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC025",
+      image: "ARC025",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC025",
+      image: "ARC025-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC025",
+      image: "U-ARC025",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC025",
+      image: "U-ARC025",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "TCC025",
+      image: "TCC025",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP210","ARC025","TCC025"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC025-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "thrust-red",
     classes: [Class.Generic],
@@ -135648,6 +136024,58 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
   },{
+    artists: ["MJ Fetesio"],
+    cardIdentifier: "tick-tock-clock-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO074",
+    name: "Tick Tock Clock",
+    printings: [{
+      
+      identifier: "EVO074",
+      image: "EVO074",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO074",
+      image: "EVO074",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO074"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO074",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Crank**
+
+This enters the arena with a steam counter. At the start of your turn, destroy this and it deals 1 damage to you unless you remove a steam counter from it.
+
+When a Mechanologist attack action card you control hits a hero, destroy this and up to 2 other items in the arena. Then deal X damage to them, where X is the number of items destroyed this way.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    
+    pitch: 1,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Enmoire"],
     cardIdentifier: "tide-flippers",
     classes: [Class.Ninja],
@@ -135696,6 +136124,94 @@ Until the start of your next turn, attacks that target you have -1{p}.
     
     
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "tiger-eye-reflex-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "TCC098",
+    name: "Tiger Eye Reflex",
+    printings: [{
+      
+      identifier: "TCC098",
+      image: "TCC098",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC098"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC098",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Ninja Block",
+
+    
+    defense: 3,
+    functionalText: `**Ambush**
+
+When this defends, create a Crouching Tiger in your banished zone. You may play it during your next turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush],
+    
+    
+    pitch: 2,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "tiger-eye-reflex-blue",
+    classes: [Class.Ninja],
+    defaultImage: "TCC102",
+    name: "Tiger Eye Reflex",
+    printings: [{
+      
+      identifier: "TCC102",
+      image: "TCC102",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["TCC102"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC102",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Ninja Block",
+
+    
+    defense: 2,
+    functionalText: `**Ambush**
+
+When this defends, create a Crouching Tiger in your banished zone. You may play it during your next turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -136010,6 +136526,90 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     pitch: 3,
     
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "timesnap-potion-blue",
+    classes: [Class.Generic],
+    defaultImage: "WTR172",
+    name: "Timesnap Potion",
+    printings: [{
+      
+      identifier: "1HP383",
+      image: "1HP383.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      foiling: Foiling.C,
+      identifier: "FAB014",
+      image: "FAB014",
+      set: Release.Promos,
+      
+    },{
+      
+      identifier: "RNR029",
+      image: "RNR29.width-450",
+      set: Release.RhinarHeroDeck,
+      
+    },{
+      
+      identifier: "TCC074",
+      image: "TCC074",
+      set: Release.RoundTheTable,
+      
+    },{
+      edition: ReleaseEdition.Alpha,
+      identifier: "WTR172",
+      image: "WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Alpha,foiling: Foiling.R,
+      identifier: "WTR172",
+      image: "WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "WTR172",
+      image: "U-WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "WTR172",
+      image: "U-WTR172",
+      set: Release.WelcomeToRathe,
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP383","FAB014","RNR029","TCC074","WTR172"],
+    sets: [Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    specialImage: "WTR172",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    cost: 0,
+    
+    functionalText: `**Action** - Destroy this: Gain 2 action points.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -136683,48 +137283,38 @@ Draw 3 cards.
     talents: [Talent.Earth],
     
   },{
-    artists: ["Daniel Jiménez"],
-    cardIdentifier: "tome-of-the-arknight-blue",
-    classes: [Class.Runeblade],
-    defaultImage: "ARC084",
-    name: "Tome of the Arknight",
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "tome-of-imperial-flame-red",
+    classes: [Class.NotClassed],
+    defaultImage: "EVO245",
+    name: "Tome of Imperial Flame",
     printings: [{
-      edition: ReleaseEdition.First,
-      identifier: "ARC084",
-      image: "ARC084",
-      set: Release.ArcaneRising,
+      
+      identifier: "EVO245",
+      image: "EVO245",
+      set: Release.BrightLights,
       
     },{
-      edition: ReleaseEdition.First,foiling: Foiling.R,
-      identifier: "ARC084",
-      image: "ARC084",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,
-      identifier: "ARC084",
-      image: "U-ARC084",
-      set: Release.ArcaneRising,
-      
-    },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
-      identifier: "ARC084",
-      image: "U-ARC084",
-      set: Release.ArcaneRising,
+      foiling: Foiling.R,
+      identifier: "EVO245",
+      image: "EVO245",
+      set: Release.BrightLights,
       
     },],
-    rarities: [Rarity.SuperRare],
-    rarity: Rarity.SuperRare,
-    setIdentifiers: ["ARC084"],
-    sets: [Release.ArcaneRising],
-    specialImage: "ARC084",
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO245"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO245",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Runeblade Action",
+    typeText: "Draconic Action",
 
-    cost: 1,
-    defense: 2,
-    functionalText: `Reveal the top 2 cards of your deck. If you reveal an attack action card and a 'non-attack' action card this way, put them into your hand.
+    cost: 0,
+    
+    functionalText: `Draw a card. If you are Royal, instead draw 2 cards.
+
+You may pitch 2 red cards. If you don't, banish your hand.
 
 **Go again**`,
     
@@ -136734,7 +137324,7 @@ Draw 3 cards.
     keywords: [Keyword.GoAgain],
     
     
-    pitch: 3,
+    pitch: 1,
     
     restrictedFormats: [Format.Commoner],
     
@@ -136742,7 +137332,7 @@ Draw 3 cards.
     
     
     
-    
+    talents: [Talent.Draconic],
     
   },{
     artists: ["Carlos Cruchaga"],
@@ -136809,6 +137399,68 @@ Draw a card.
     talents: [Talent.Shadow],
     
   },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "tome-of-the-arknight-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "ARC084",
+    name: "Tome of the Arknight",
+    printings: [{
+      edition: ReleaseEdition.First,
+      identifier: "ARC084",
+      image: "ARC084",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC084",
+      image: "ARC084",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC084",
+      image: "U-ARC084",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC084",
+      image: "U-ARC084",
+      set: Release.ArcaneRising,
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["ARC084"],
+    sets: [Release.ArcaneRising],
+    specialImage: "ARC084",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Runeblade Action",
+
+    cost: 1,
+    defense: 2,
+    functionalText: `Reveal the top 2 cards of your deck. If you reveal an attack action card and a 'non-attack' action card this way, put them into your hand.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "tomeltai",
     classes: [Class.Illusionist],
@@ -136855,6 +137507,156 @@ Draw a card.
     
     
     talents: [Talent.Draconic],
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "torque-tuned-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO114",
+    name: "Torque Tuned",
+    printings: [{
+      
+      identifier: "EVO114",
+      image: "EVO114",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO114",
+      image: "EVO114",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO114"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO114",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "torque-tuned-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO115",
+    name: "Torque Tuned",
+    printings: [{
+      
+      identifier: "EVO115",
+      image: "EVO115",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO115",
+      image: "EVO115",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO115"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO115",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.Overpower],
+    
+    
+    pitch: 2,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sebastian Szmyd"],
+    cardIdentifier: "torque-tuned-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO116",
+    name: "Torque Tuned",
+    printings: [{
+      
+      identifier: "EVO116",
+      image: "EVO116",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO116",
+      image: "EVO116",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["EVO116"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO116",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 2,
+    functionalText: `If an item you control has been destroyed this turn, this gets **overpower**.
+
+**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Galvanize,Keyword.Overpower],
+    
+    
+    pitch: 3,
+    power: 4,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
     
   },{
     artists: ["Asep Ariyanto"],
@@ -138865,6 +139667,56 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     talents: [Talent.Elemental],
     
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "twin-drive-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO142",
+    name: "Twin Drive",
+    printings: [{
+      
+      identifier: "EVO142",
+      image: "EVO142",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO142",
+      image: "EVO142",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO142"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO142",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `**Boost**
+
+**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "twin-twisters-red",
     classes: [Class.Ninja],
@@ -139118,6 +139970,162 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     pitch: 2,
     
     restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Artur Treffner"],
+    cardIdentifier: "under-loop-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO216",
+    name: "Under Loop",
+    printings: [{
+      
+      identifier: "EVO216",
+      image: "EVO216",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO216",
+      image: "EVO216",
+      set: Release.BrightLights,
+      
+    },{
+      
+      identifier: "TCC016",
+      image: "TCC016",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO216","TCC016"],
+    sets: [Release.BrightLights,Release.RoundTheTable],
+    specialImage: "EVO216",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Artur Treffner"],
+    cardIdentifier: "under-loop-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO217",
+    name: "Under Loop",
+    printings: [{
+      
+      identifier: "EVO217",
+      image: "EVO217",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO217",
+      image: "EVO217",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO217"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO217",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Artur Treffner"],
+    cardIdentifier: "under-loop-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO218",
+    name: "Under Loop",
+    printings: [{
+      
+      identifier: "EVO218",
+      image: "EVO218",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO218",
+      image: "EVO218",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO218"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO218",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**
+
+When this hits, put it on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 2,
+    
     
     
     
@@ -140178,7 +141186,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     },{
       foiling: Foiling.G,
       identifier: "WIN021",
-      image: "",
+      image: "WIN021",
       set: Release.Promos,
       
     },],
@@ -141874,6 +142882,48 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     talents: [Talent.Light],
     
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "vigor",
+    classes: [Class.Generic],
+    defaultImage: "TCC107",
+    name: "Vigor",
+    printings: [{
+      
+      identifier: "TCC107",
+      image: "TCC107",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["TCC107"],
+    sets: [Release.RoundTheTable],
+    specialImage: "TCC107",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the start of your turn, destroy this and gain {r}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "vigor-rush-red",
     classes: [Class.Generic],
@@ -142504,7 +143554,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
       set: Release.CrucibleOfWar,
       
     },{
-      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      edition: ReleaseEdition.Unlimited,
       identifier: "CRU138",
       image: "U-CRU138",
       set: Release.CrucibleOfWar,
@@ -142524,7 +143574,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     },{
       foiling: Foiling.G,
       identifier: "WIN007",
-      image: "",
+      image: "WIN007",
       set: Release.Promos,
       
     },],
@@ -143211,7 +144261,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
     printings: [{
       
       identifier: "1HP336",
-      image: "",
+      image: "1HP336.width-450",
       set: Release.HistoryPack1,
       
     },{
@@ -143408,11 +144458,17 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       image: "DTD133",
       set: Release.DuskTillDawn,
       
+    },{
+      foiling: Foiling.G,
+      identifier: "WIN024",
+      image: "WIN024",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["DTD133"],
-    sets: [Release.DuskTillDawn],
+    setIdentifiers: ["DTD133","WIN024"],
+    sets: [Release.DuskTillDawn,Release.Promos],
     specialImage: "DTD133",
     subtypes: [],
     types: [Type.Hero],
@@ -143737,6 +144793,120 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     
     
     
+    
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "war-machine-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO056",
+    name: "War Machine",
+    printings: [{
+      
+      identifier: "EVO056",
+      image: "EVO056",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO056",
+      image: "EVO056",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO056",
+      image: "EVO056_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO056"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO056_V2",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 6,
+    defense: 3,
+    functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, destroy all cards in their arsenal,""
+
+- 2 or more, this costs {r}{r}{r} less to play,
+- 3 or more, this gets **overpower**,
+- 4 or more, this gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Overpower],
+    
+    
+    pitch: 1,
+    power: 6,
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "warband-of-bellona",
+    classes: [Class.Warrior],
+    defaultImage: "EVO247",
+    name: "Warband of Bellona",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "EVO247",
+      image: "EVO247_V2",
+      set: Release.BrightLights,
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO247",
+      image: "EVO247",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.G,
+      identifier: "FAB171",
+      image: "FAB171",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Promo],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["EVO247","FAB171"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "EVO247_V2",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Light Warrior Equipment - Head",
+
+    
+    defense: 2,
+    functionalText: `**Action** - {r}{r}, destroy this: The next time you attack this turn, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card. **Go again**
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Charge,Keyword.GoAgain,Keyword.Temper],
+    
+    
+    
+    
+    restrictedFormats: [Format.Commoner],
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
     
   },{
     artists: ["Carlos Cruchaga"],
@@ -144643,6 +145813,54 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "wax-off-blue",
+    classes: [Class.Ninja],
+    defaultImage: "EVO239",
+    name: "Wax Off",
+    printings: [{
+      
+      identifier: "EVO239",
+      image: "EVO239",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO239",
+      image: "EVO239",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["EVO239"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO239",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Ninja Defense Reaction",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `If you've played Wax On this turn, create a Zen State token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    restrictedFormats: [Format.Commoner],
     
     
     
@@ -149375,6 +150593,228 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     
   },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "zero-to-fifty-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO162",
+    name: "Zero to Fifty",
+    printings: [{
+      
+      identifier: "EVO162",
+      image: "EVO162",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO162",
+      image: "EVO162",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO162"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO162",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "zero-to-fifty-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO163",
+    name: "Zero to Fifty",
+    printings: [{
+      
+      identifier: "EVO163",
+      image: "EVO163",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO163",
+      image: "EVO163",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO163"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO163",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Riordan Delmiro"],
+    cardIdentifier: "zero-to-fifty-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "EVO164",
+    name: "Zero to Fifty",
+    printings: [{
+      
+      identifier: "EVO164",
+      image: "EVO164",
+      set: Release.BrightLights,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "EVO164",
+      image: "EVO164",
+      set: Release.BrightLights,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["EVO164"],
+    sets: [Release.BrightLights],
+    specialImage: "EVO164",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Fedor Barkhatov"],
+    cardIdentifier: "zero-to-sixty-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC026",
+    name: "Zero to Sixty",
+    printings: [{
+      
+      identifier: "1HP211",
+      image: "1HP211.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC026",
+      image: "ARC026",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC026",
+      image: "ARC026-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC026",
+      image: "U-ARC026",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC026",
+      image: "U-ARC026",
+      set: Release.ArcaneRising,
+      
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB177",
+      image: "",
+      set: Release.Promos,
+      treatment: Treatment.AA,
+    },{
+      
+      identifier: "TCC017",
+      image: "TCC017",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP211","ARC026","FAB177","TCC017"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos,Release.RoundTheTable],
+    specialImage: "ARC026-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 0,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "zero-to-sixty-yellow",
     classes: [Class.Mechanologist],
@@ -149498,6 +150938,150 @@ When Zephyr Needle is defended by a card with {d} greater than Zephyr Needle's {
     
     pitch: 3,
     power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sergey Gurskiy"],
+    cardIdentifier: "zipper-hit-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC029",
+    name: "Zipper Hit",
+    printings: [{
+      
+      identifier: "1HP214",
+      image: "1HP214.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC029",
+      image: "ARC029",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC029",
+      image: "ARC029-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC029",
+      image: "U-ARC029",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC029",
+      image: "U-ARC029",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "TCC018",
+      image: "TCC018",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP214","ARC029","TCC018"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC029-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Sergey Gurskiy"],
+    cardIdentifier: "zipper-hit-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "ARC030",
+    name: "Zipper Hit",
+    printings: [{
+      
+      identifier: "1HP215",
+      image: "1HP215.width-450",
+      set: Release.HistoryPack1,
+      
+    },{
+      edition: ReleaseEdition.First,
+      identifier: "ARC030",
+      image: "ARC030",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.First,foiling: Foiling.R,
+      identifier: "ARC030",
+      image: "ARC030-RF",
+      set: Release.ArcaneRising,
+      treatment: Treatment.AT,
+    },{
+      edition: ReleaseEdition.Unlimited,
+      identifier: "ARC030",
+      image: "U-ARC030",
+      set: Release.ArcaneRising,
+      
+    },{
+      edition: ReleaseEdition.Unlimited,foiling: Foiling.R,
+      identifier: "ARC030",
+      image: "U-ARC030",
+      set: Release.ArcaneRising,
+      
+    },{
+      
+      identifier: "TCC021",
+      image: "TCC021",
+      set: Release.RoundTheTable,
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP215","ARC030","TCC021"],
+    sets: [Release.ArcaneRising,Release.HistoryPack1,Release.RoundTheTable],
+    specialImage: "ARC030-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    cost: 1,
+    defense: 3,
+    functionalText: `**Boost**`,
+    
+    
+    
+    
+    keywords: [Keyword.Boost],
+    
+    
+    pitch: 2,
+    power: 4,
     
     
     
