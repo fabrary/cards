@@ -38139,7 +38139,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   },{
     artists: ["Ausonia"],
     cardIdentifier: "dust-from-the-chrome-caverns-red",
-    classes: [Class.NotClassed],
+    classes: [Class.Illusionist],
     defaultImage: "EVO246",
     name: "Dust from the Chrome Caverns",
     printings: [{

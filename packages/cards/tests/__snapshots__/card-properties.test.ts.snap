@@ -39135,6 +39135,50 @@ exports[`Check for unintentional updates Diadem of Dreamstate (diadem-of-dreamst
 }
 `;
 
+exports[`Check for unintentional updates Diamond (diamond) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "diamond",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "FAB165",
+  "functionalText": "**Action** - Destroy Diamond: Draw a card. **Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Diamond",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "FAB165",
+      "image": "FAB165",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB165",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "FAB165",
+  "subtypes": [
+    "Item",
+  ],
+  "typeText": "Generic Token - Item",
+  "types": [
+    "Token",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dig Up Dinner (dig-up-dinner-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -43554,7 +43598,7 @@ exports[`Check for unintentional updates Dust from the Chrome Caverns (dust-from
   ],
   "cardIdentifier": "dust-from-the-chrome-caverns-red",
   "classes": [
-    "NotClassed",
+    "Illusionist",
   ],
   "cost": 0,
   "defaultImage": "EVO246",
@@ -134629,6 +134673,55 @@ exports[`Check for unintentional updates Silver the Tip (silver-the-tip-yellow) 
   "typeText": "Ranger Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Silversheen Needle (silversheen-needle) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jessketchin",
+  ],
+  "cardIdentifier": "silversheen-needle",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "LSS009",
+  "functionalText": "Your constructs with Fabric in their name gain **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Silversheen Needle",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "LSS009",
+      "image": "LSS009",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "LSS009",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "LSS009",
+  "subtypes": [
+    "Off-Hand",
+  ],
+  "typeText": "Generic Equipment - Off-Hand",
+  "types": [
+    "Equipment",
   ],
 }
 `;
