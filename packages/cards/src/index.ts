@@ -44015,10 +44015,10 @@ When this is equipped, gain {r}.`,
     
   },{
     artists: ["Isuardi Therianto"],
-    cardIdentifier: "evo-circut-breaker-red",
+    cardIdentifier: "evo-circuit-breaker-red",
     classes: [Class.Mechanologist],
     defaultImage: "EVO030",
-    name: "Evo Circut Breaker",
+    name: "Evo Circuit Breaker",
     printings: [{
       
       identifier: "EVO030",

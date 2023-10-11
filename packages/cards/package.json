@@ -31,10 +31,11 @@
     "esbuild-jest": "^0.5.0",
     "fast-xml-parser": "4.2.7",
     "jest": "^29.7.0",
-    "latest-cards": "npm:@flesh-and-blood/cards@^0.0.92",
+    "latest-cards": "npm:@flesh-and-blood/cards@^0.0.93",
     "papaparse": "5.3.2",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "typo-js": "^1.2.3"
   },
   "files": [
     "/dist"

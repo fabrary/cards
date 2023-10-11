@@ -50526,67 +50526,6 @@ exports[`Check for unintentional updates Evo Charging Rods (evo-charging-rods-ye
 }
 `;
 
-exports[`Check for unintentional updates Evo Circut Breaker (evo-circut-breaker-red) vs snapshot 1`] = `
-{
-  "artists": [
-    "Isuardi Therianto",
-  ],
-  "cardIdentifier": "evo-circut-breaker-red",
-  "classes": [
-    "Mechanologist",
-  ],
-  "cost": 0,
-  "defaultImage": "EVO030",
-  "defense": 0,
-  "functionalText": "If you have a base head equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
-
-Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 attack action cards from your banished zone into your deck.",
-  "keywords": [
-    "Transform",
-  ],
-  "name": "Evo Circut Breaker",
-  "pitch": 1,
-  "printings": [
-    {
-      "identifier": "EVO030",
-      "image": "EVO030",
-      "set": "Bright Lights",
-    },
-    {
-      "foiling": "Cold",
-      "identifier": "EVO030",
-      "image": "EVO030_V2",
-      "set": "Bright Lights",
-      "treatment": "Alternate Border",
-    },
-  ],
-  "rarities": [
-    "Majestic",
-    "Marvel",
-  ],
-  "rarity": "Majestic",
-  "restrictedFormats": [
-    "Commoner",
-  ],
-  "setIdentifiers": [
-    "EVO030",
-  ],
-  "sets": [
-    "Bright Lights",
-  ],
-  "specialImage": "EVO030_V2",
-  "subtypes": [
-    "Evo",
-    "Head",
-  ],
-  "typeText": "Mechanologist Instant Equipment - Evo Head",
-  "types": [
-    "Equipment",
-    "Instant",
-  ],
-}
-`;
-
 exports[`Check for unintentional updates Evo Cogspitter (evo-cogspitter-yellow) vs snapshot 1`] = `
 {
   "artists": [

@@ -4,11 +4,11 @@
     "esModuleInterop": true,
     "declaration": true,
     "isolatedModules": true,
+    "lib": ["ES2021"],
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
     "outDir": "dist",
     "skipLibCheck": true,
-    "target": "ES6",
-    "module": "NodeNext",
-    "moduleResolution": "nodenext"
-  },
-  "include": ["src"]
+    "target": "ES6"
+  }
 }
