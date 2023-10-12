@@ -1,6 +1,6 @@
 module.exports = {
   expand: true,
-  silent: true,
+  // silent: true,
   testEnvironment: "node",
   testMatch: ["<rootDir>/tests/**.test.ts"],
   transform: {

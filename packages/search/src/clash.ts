@@ -1,9 +1,21 @@
 import { Hero } from "@flesh-and-blood/types";
 
+export const clashRestrictedCards = [
+  "Ball Lightning",
+  "Belittle",
+  "Drone of Brutality",
+  "Duskblade",
+  "Rosetta Thorn",
+];
+
 export const clashSpecializationOverrides: {
   heroes: string[];
   cardIdentifiers: string[];
 }[] = [
+  {
+    heroes: [Hero.Briar],
+    cardIdentifiers: ["rosetta-thorn"],
+  },
   {
     heroes: [Hero.Emperor],
     cardIdentifiers: ["command-and-conquer-red"],

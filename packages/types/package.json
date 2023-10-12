@@ -10,7 +10,7 @@
     "build": "esbuild ./src/index.ts --outdir=dist --bundle --minify --platform=node --target=es6",
     "postbuild": "tsc --declaration",
     "test": "jest",
-    "full": "npm run test && npm run build",
+    "full": "npm run build && npm test",
     "prepublish": "npm run full"
   },
   "devDependencies": {

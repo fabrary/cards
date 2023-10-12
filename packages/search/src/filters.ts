@@ -358,6 +358,7 @@ export interface SpecialConditions {
 }
 
 const specialConditionHeroes = [
+  Hero.Briar,
   Hero.Emperor,
   Hero.Prism,
   Hero.Shiyana,

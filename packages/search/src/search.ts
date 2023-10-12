@@ -12,7 +12,7 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
-import { clashRestrictedCards } from "./formats";
+import { clashRestrictedCards } from "./clash";
 import { PUNCTUATION } from "./constants";
 import {
   AppliedFilter,
@@ -263,6 +263,15 @@ export const filterCard = (
       if (isRestrictedInClash) {
         doesCardMatchFilter = false;
       }
+    }
+
+    // TODO clean this up and combine with Clash code above
+    if (
+      specialConditions.isClash &&
+      specialConditions.heroes.includes(Hero.Briar) &&
+      card.name === "Rosetta Thorn"
+    ) {
+      doesCardMatchFilter = true;
     }
 
     const shouldCheckFilterForShiyana =

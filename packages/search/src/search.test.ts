@@ -253,6 +253,7 @@ describe("Card search", () => {
       'legal:benji power:<=2 keyword:"go again"',
       'l:benji pow:<=2 k:"go again"',
     ],
+    ["legal:briar,clash rosetta thorn"],
   ];
   it.each(hasQuantity)("Gets cards for %s", (...searchTerms) => {
     for (const searchTerm of searchTerms) {
@@ -270,6 +271,8 @@ describe("Card search", () => {
       "legal:shiyana,clash cnc",
       "legal:prism,commoner figment of erudition",
       "legal:prism,clash dread scythe",
+      "legal:chane,clash rosetta thorn",
+      "legal:shiyana,clash rosetta thorn",
     ],
   ];
   it.each(hasNoQuantity)("Gets zero cards for %s", (...searchTerms) => {
