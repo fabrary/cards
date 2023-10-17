@@ -14901,7 +14901,7 @@ Your Brute and Shadow attacks get +X{p} this turn where X is the number of cards
     
     
     
-    restrictedFormats: [Format.Commoner],
+    
     
     
     
@@ -19274,7 +19274,7 @@ Whenever you **protect** another hero, create a Might token.`,
     hero: Hero.Brevant,
     intellect: 4,
     
-    keywords: [Keyword.Protect],
+    
     life: 20,
     
     
@@ -34305,6 +34305,52 @@ If a 'non-attack' action card was pitched to play Diabolic Ultimatum, each hero 
     
     
     
+    
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "diamond-hands",
+    classes: [Class.Merchant],
+    defaultImage: "LSS008",
+    name: "Diamond Hands",
+    printings: [{
+      foiling: Foiling.C,
+      identifier: "LSS008",
+      image: "LSS008",
+      set: Release.Promos,
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LSS008"],
+    sets: [Release.Promos],
+    specialImage: "LSS008",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Merchant Equipment - Arms",
+
+    
+    defense: 1,
+    functionalText: `**Ruu'di Specialization**
+
+At the beginning of your end phase, if you have 4 or more cards in hand, create a Diamond token.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Specialization],
+    
+    
+    
+    
+    restrictedFormats: [Format.Blitz,Format.ClassicConstructed,Format.Commoner],
+    
+    
+    
+    
+    specializations: [],
     
     
   },{
@@ -69877,6 +69923,132 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     talents: [Talent.Elemental,Talent.Ice],
     
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "jack-o-lantern-red",
+    classes: [Class.Runeblade],
+    defaultImage: "LGS176",
+    name: "Jack-o'-lantern",
+    printings: [{
+      
+      identifier: "LGS176",
+      image: "LGS176",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS176"],
+    sets: [Release.Promos],
+    specialImage: "LGS176",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Banish the top card of your deck. If it's red, create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "jack-o-lantern-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "LGS177",
+    name: "Jack-o'-lantern",
+    printings: [{
+      
+      identifier: "LGS177",
+      image: "LGS177",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS177"],
+    sets: [Release.Promos],
+    specialImage: "LGS177",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Banish the top card of your deck. If it's yellow, create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "jack-o-lantern-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "LGS178",
+    name: "Jack-o'-lantern",
+    printings: [{
+      
+      identifier: "LGS178",
+      image: "LGS178",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["LGS178"],
+    sets: [Release.Promos],
+    specialImage: "LGS178",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    cost: 0,
+    defense: 2,
+    functionalText: `Banish the top card of your deck. If it's blue, create a Runechant token.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+    
+  },{
     artists: ["Brian Adriel"],
     cardIdentifier: "jinglewood-smash-hit",
     classes: [Class.Bard],
@@ -75512,7 +75684,8 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "madcap-charger-yellow",
     classes: [Class.Brute],
@@ -75612,8 +75785,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "madcap-muscle-red",
     classes: [Class.Brute],
@@ -80315,7 +80487,7 @@ Mutated Mass's {p} and {d} is equal to twice the number of cards in your pitch z
     
     functionalText: `**Once per Turn Action - 0: Attack**
 
-When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{h}.`,
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.`,
     
     
     
@@ -95080,7 +95252,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["1HP427","CRU196","DTD234","EVR196","DVR028","EVO250","RNR031","TCC106","TEA030","WTR225","XXX009"],
+    setIdentifiers: ["1HP427","CRU196","DTD234","DVR028","EVO250","EVR196","RNR031","TCC106","TEA030","WTR225","XXX009"],
     sets: [Release.BrightLights,Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaHeroDeck,Release.DuskTillDawn,Release.Everfest,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
     specialImage: "CRU196",
     subtypes: [Subtype.Aura],
@@ -113575,7 +113747,8 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "ser-boltyn-breaker-of-dawn",
     classes: [Class.Warrior],
@@ -113649,8 +113822,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Light],
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "shaden-death-hydra-yellow",
     classes: [Class.Brute],
@@ -123198,12 +123370,18 @@ The first time you would be dealt damage each turn, if you've **charged** this t
       image: "EVO111",
       set: Release.BrightLights,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS195",
+      image: "LGS195.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["EVO111"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO111",
+    setIdentifiers: ["EVO111","LGS195"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS195.width-10000",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action - Attack",
@@ -123248,12 +123426,18 @@ The first time you would be dealt damage each turn, if you've **charged** this t
       image: "EVO112",
       set: Release.BrightLights,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS196",
+      image: "LGS196.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["EVO112"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO112",
+    setIdentifiers: ["EVO112","LGS196"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS196.width-10000",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action - Attack",
@@ -123298,12 +123482,18 @@ The first time you would be dealt damage each turn, if you've **charged** this t
       image: "EVO113",
       set: Release.BrightLights,
       
+    },{
+      foiling: Foiling.R,
+      identifier: "LGS197",
+      image: "LGS197.width-10000",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["EVO113"],
-    sets: [Release.BrightLights],
-    specialImage: "EVO113",
+    setIdentifiers: ["EVO113","LGS197"],
+    sets: [Release.BrightLights,Release.Promos],
+    specialImage: "LGS197.width-10000",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action - Attack",
@@ -131628,11 +131818,17 @@ When this hits a hero, banish the top card of their deck, then look at their han
       image: "EVO003",
       set: Release.BrightLights,
       
+    },{
+      foiling: Foiling.C,
+      identifier: "LGS194",
+      image: "LGS194.width-10000",
+      set: Release.Promos,
+      
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO003"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO003","LGS194"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO003",
     subtypes: [Subtype.TwoHanded,Subtype.Gun],
     types: [Type.Weapon],
@@ -134955,6 +135151,7 @@ This counts as having 4 Evos equipped.
     cost: 6,
     defense: 3,
     functionalText: `If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card,"
+
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
 - 4 or more, this gets +3{p}.`,

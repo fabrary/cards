@@ -150,6 +150,7 @@ export const fabDictionary = [
   "isenloft",
   "iyslander",
   "jackbequick",
+  "jackolantern",
   "jammer",
   "jax",
   "jinglewood",

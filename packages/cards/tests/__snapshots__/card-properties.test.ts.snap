@@ -16915,9 +16915,6 @@ exports[`Check for unintentional updates Blood Scent (blood-scent) vs snapshot 1
     "Rare",
   ],
   "rarity": "Rare",
-  "restrictedFormats": [
-    "Commoner",
-  ],
   "setIdentifiers": [
     "TCC080",
   ],
@@ -21993,9 +21990,6 @@ exports[`Check for unintentional updates Brevant, Civic Protector (brevant-civic
 Whenever you **protect** another hero, create a Might token.",
   "hero": "Brevant",
   "intellect": 4,
-  "keywords": [
-    "Protect",
-  ],
   "life": 20,
   "name": "Brevant, Civic Protector",
   "printings": [
@@ -92472,7 +92466,7 @@ exports[`Check for unintentional updates Nasreth, the Soul Harrower (nasreth-the
   "defaultImage": "DTD193",
   "functionalText": "**Once per Turn Action - 0: Attack**
 
-When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{h}.",
+When Nasreth hits a hero, banish a card from their soul. If a Light card is banished this way, gain 1{l}.",
   "life": 6,
   "name": "Nasreth, the Soul Harrower",
   "power": 6,
@@ -109365,9 +109359,9 @@ exports[`Check for unintentional updates Quicken (quicken) vs snapshot 1`] = `
     "1HP427",
     "CRU196",
     "DTD234",
-    "EVR196",
     "DVR028",
     "EVO250",
+    "EVR196",
     "RNR031",
     "TCC106",
     "TEA030",
@@ -141137,8 +141131,16 @@ exports[`Check for unintentional updates Soup Up (soup-up-blue) vs snapshot 1`] 
       "image": "EVO113",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS197",
+      "image": "LGS197.width-10000",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -141147,11 +141149,13 @@ exports[`Check for unintentional updates Soup Up (soup-up-blue) vs snapshot 1`] 
   ],
   "setIdentifiers": [
     "EVO113",
+    "LGS197",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
-  "specialImage": "EVO113",
+  "specialImage": "LGS197.width-10000",
   "subtypes": [
     "Attack",
   ],
@@ -141196,8 +141200,16 @@ exports[`Check for unintentional updates Soup Up (soup-up-red) vs snapshot 1`] =
       "image": "EVO111",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS195",
+      "image": "LGS195.width-10000",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -141206,11 +141218,13 @@ exports[`Check for unintentional updates Soup Up (soup-up-red) vs snapshot 1`] =
   ],
   "setIdentifiers": [
     "EVO111",
+    "LGS195",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
-  "specialImage": "EVO111",
+  "specialImage": "LGS195.width-10000",
   "subtypes": [
     "Attack",
   ],
@@ -141255,8 +141269,16 @@ exports[`Check for unintentional updates Soup Up (soup-up-yellow) vs snapshot 1`
       "image": "EVO112",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Rainbow",
+      "identifier": "LGS196",
+      "image": "LGS196.width-10000",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -141265,11 +141287,13 @@ exports[`Check for unintentional updates Soup Up (soup-up-yellow) vs snapshot 1`
   ],
   "setIdentifiers": [
     "EVO112",
+    "LGS196",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
-  "specialImage": "EVO112",
+  "specialImage": "LGS196.width-10000",
   "subtypes": [
     "Attack",
   ],
@@ -150734,16 +150758,25 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
       "image": "EVO003",
       "set": "Bright Lights",
     },
+    {
+      "foiling": "Cold",
+      "identifier": "LGS194",
+      "image": "LGS194.width-10000",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO003",
+    "LGS194",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO003",
   "specializations": [
@@ -154492,6 +154525,7 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
   "defaultImage": "EVO055",
   "defense": 3,
   "functionalText": "If you have 1 or more Evos equipped, this gets "When this hits a hero, they discard a card,"
+
 - 2 or more, this costs {r}{r}{r} less to play,
 - 3 or more, this gets **overpower**,
 - 4 or more, this gets +3{p}.",

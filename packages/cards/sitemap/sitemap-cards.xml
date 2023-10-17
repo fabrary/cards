@@ -2951,6 +2951,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/diamond-hands</loc>
+    <lastmod>2023-10-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/dig-up-dinner-blue</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -5953,6 +5958,21 @@
   <url>
     <loc>https://fabrary.net/cards/iyslander-stormbind</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/jack-o-lantern-red</loc>
+    <lastmod>2023-10-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/jack-o-lantern-yellow</loc>
+    <lastmod>2023-10-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/jack-o-lantern-blue</loc>
+    <lastmod>2023-10-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
