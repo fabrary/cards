@@ -92618,16 +92618,22 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       set: Release.BrightLights,
       
     },{
+      foiling: Foiling.C,
+      identifier: "LGS184",
+      image: "LGS184",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "TCC005",
       image: "TCC005",
       set: Release.RoundTheTable,
       
     },],
-    rarities: [Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO024","TCC005"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
+    setIdentifiers: ["EVO024","TCC005","LGS184"],
+    sets: [Release.BrightLights,Release.Promos,Release.RoundTheTable],
     specialImage: "EVO024",
     subtypes: [Subtype.Arms,Subtype.Base],
     types: [Type.Equipment],
@@ -92666,16 +92672,22 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       set: Release.BrightLights,
       
     },{
+      foiling: Foiling.C,
+      identifier: "LGS183",
+      image: "LGS183",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "TCC004",
       image: "TCC004",
       set: Release.RoundTheTable,
       
     },],
-    rarities: [Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO023","TCC004"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
+    setIdentifiers: ["EVO023","TCC004","LGS183"],
+    sets: [Release.BrightLights,Release.Promos,Release.RoundTheTable],
     specialImage: "EVO023",
     subtypes: [Subtype.Base,Subtype.Chest],
     types: [Type.Equipment],
@@ -92714,16 +92726,22 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       set: Release.BrightLights,
       
     },{
+      foiling: Foiling.C,
+      identifier: "LGS182",
+      image: "LGS182",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "TCC003",
       image: "TCC003",
       set: Release.RoundTheTable,
       
     },],
-    rarities: [Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO022","TCC003"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
+    setIdentifiers: ["EVO022","TCC003","LGS182"],
+    sets: [Release.BrightLights,Release.Promos,Release.RoundTheTable],
     specialImage: "EVO022",
     subtypes: [Subtype.Base,Subtype.Head],
     types: [Type.Equipment],
@@ -92762,16 +92780,22 @@ If Promise of Plenty is played from arsenal, it gains **go again**.`,
       set: Release.BrightLights,
       
     },{
+      foiling: Foiling.C,
+      identifier: "LGS185",
+      image: "LGS185",
+      set: Release.Promos,
+      
+    },{
       
       identifier: "TCC006",
       image: "TCC006",
       set: Release.RoundTheTable,
       
     },],
-    rarities: [Rarity.Common,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["EVO025","TCC006"],
-    sets: [Release.BrightLights,Release.RoundTheTable],
+    setIdentifiers: ["EVO025","TCC006","LGS185"],
+    sets: [Release.BrightLights,Release.Promos,Release.RoundTheTable],
     specialImage: "EVO025",
     subtypes: [Subtype.Base,Subtype.Legs],
     types: [Type.Equipment],

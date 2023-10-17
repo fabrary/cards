@@ -39173,6 +39173,62 @@ exports[`Check for unintentional updates Diamond (diamond) vs snapshot 1`] = `
 }
 `;
 
+exports[`Check for unintentional updates Diamond Hands (diamond-hands) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "diamond-hands",
+  "classes": [
+    "Merchant",
+  ],
+  "defaultImage": "LSS008",
+  "defense": 1,
+  "functionalText": "**Ruu'di Specialization**
+
+At the beginning of your end phase, if you have 4 or more cards in hand, create a Diamond token.
+
+**Blade Break**",
+  "keywords": [
+    "Blade Break",
+    "Specialization",
+  ],
+  "name": "Diamond Hands",
+  "printings": [
+    {
+      "foiling": "Cold",
+      "identifier": "LSS008",
+      "image": "LSS008",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "restrictedFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Commoner",
+  ],
+  "setIdentifiers": [
+    "LSS008",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "LSS008",
+  "specializations": [],
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Merchant Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Dig Up Dinner (dig-up-dinner-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -80474,6 +80530,156 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
   "typeText": "Elemental Wizard Hero",
   "types": [
     "Hero",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Jack-o'-lantern (jack-o-lantern-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "jack-o-lantern-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS178",
+  "defense": 2,
+  "functionalText": "Banish the top card of your deck. If it's blue, create a Runechant token.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Jack-o'-lantern",
+  "pitch": 3,
+  "printings": [
+    {
+      "identifier": "LGS178",
+      "image": "LGS178",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS178",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "LGS178",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Jack-o'-lantern (jack-o-lantern-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "jack-o-lantern-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS176",
+  "defense": 2,
+  "functionalText": "Banish the top card of your deck. If it's red, create a Runechant token.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Jack-o'-lantern",
+  "pitch": 1,
+  "printings": [
+    {
+      "identifier": "LGS176",
+      "image": "LGS176",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS176",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "LGS176",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Jack-o'-lantern (jack-o-lantern-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Isuardi Therianto",
+  ],
+  "cardIdentifier": "jack-o-lantern-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "LGS177",
+  "defense": 2,
+  "functionalText": "Banish the top card of your deck. If it's yellow, create a Runechant token.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Jack-o'-lantern",
+  "pitch": 2,
+  "printings": [
+    {
+      "identifier": "LGS177",
+      "image": "LGS177",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "LGS177",
+  ],
+  "sets": [
+    "Promos",
+  ],
+  "specialImage": "LGS177",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
   ],
 }
 `;
