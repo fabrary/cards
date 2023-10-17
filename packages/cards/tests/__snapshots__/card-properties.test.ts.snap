@@ -106641,6 +106641,12 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
       "set": "Bright Lights",
     },
     {
+      "foiling": "Cold",
+      "identifier": "LGS184",
+      "image": "LGS184",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC005",
       "image": "TCC005",
       "set": "Round the Table",
@@ -106648,15 +106654,18 @@ exports[`Check for unintentional updates Proto Base Arms (proto-base-arms) vs sn
   ],
   "rarities": [
     "Common",
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO024",
     "TCC005",
+    "LGS184",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "EVO024",
@@ -106689,6 +106698,12 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
       "set": "Bright Lights",
     },
     {
+      "foiling": "Cold",
+      "identifier": "LGS183",
+      "image": "LGS183",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC004",
       "image": "TCC004",
       "set": "Round the Table",
@@ -106696,15 +106711,18 @@ exports[`Check for unintentional updates Proto Base Chest (proto-base-chest) vs 
   ],
   "rarities": [
     "Common",
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO023",
     "TCC004",
+    "LGS183",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "EVO023",
@@ -106737,6 +106755,12 @@ exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs sn
       "set": "Bright Lights",
     },
     {
+      "foiling": "Cold",
+      "identifier": "LGS182",
+      "image": "LGS182",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC003",
       "image": "TCC003",
       "set": "Round the Table",
@@ -106744,15 +106768,18 @@ exports[`Check for unintentional updates Proto Base Head (proto-base-head) vs sn
   ],
   "rarities": [
     "Common",
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO022",
     "TCC003",
+    "LGS182",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "EVO022",
@@ -106785,6 +106812,12 @@ exports[`Check for unintentional updates Proto Base Legs (proto-base-legs) vs sn
       "set": "Bright Lights",
     },
     {
+      "foiling": "Cold",
+      "identifier": "LGS185",
+      "image": "LGS185",
+      "set": "Promos",
+    },
+    {
       "identifier": "TCC006",
       "image": "TCC006",
       "set": "Round the Table",
@@ -106792,15 +106825,18 @@ exports[`Check for unintentional updates Proto Base Legs (proto-base-legs) vs sn
   ],
   "rarities": [
     "Common",
+    "Promo",
     "Token",
   ],
   "rarity": "Token",
   "setIdentifiers": [
     "EVO025",
     "TCC006",
+    "LGS185",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
     "Round the Table",
   ],
   "specialImage": "EVO025",
