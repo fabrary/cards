@@ -67,7 +67,11 @@ spoiledCards1.forEach((card) => {
       }
     });
     const defaultImage = getDefaultImage(card.name, deduplicatedPrintings);
-    const specialImage = getSpecialImage(card.name, deduplicatedPrintings);
+    const specialImage = getSpecialImage(
+      card.name,
+      card.cardIdentifier,
+      deduplicatedPrintings
+    );
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();
@@ -112,7 +116,11 @@ spoiledCards2.forEach((card) => {
       }
     });
     const defaultImage = getDefaultImage(card.name, deduplicatedPrintings);
-    const specialImage = getSpecialImage(card.name, deduplicatedPrintings);
+    const specialImage = getSpecialImage(
+      card.name,
+      card.cardIdentifier,
+      deduplicatedPrintings
+    );
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();

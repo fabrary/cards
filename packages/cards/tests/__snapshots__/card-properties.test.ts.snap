@@ -30446,7 +30446,7 @@ exports[`Check for unintentional updates Command and Conquer (command-and-conque
     "Dynasty",
     "History Pack 1",
   ],
-  "specialImage": "ARC159",
+  "specialImage": "DYN000",
   "subtypes": [
     "Attack",
   ],
@@ -53503,7 +53503,7 @@ exports[`Check for unintentional updates Fate Foreseen (fate-foreseen-red) vs sn
     "History Pack 1",
     "Promos",
   ],
-  "specialImage": "ARC200",
+  "specialImage": "FAB024",
   "subtypes": [],
   "typeText": "Generic Defense Reaction",
   "types": [
@@ -134044,7 +134044,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     "Round the Table",
     "Welcome to Rathe",
   ],
-  "specialImage": "WTR173",
+  "specialImage": "FAB136",
   "subtypes": [],
   "typeText": "Generic Instant",
   "types": [

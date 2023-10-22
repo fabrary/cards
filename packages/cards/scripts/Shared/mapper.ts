@@ -185,26 +185,36 @@ export const getDefaultImage = (
 const specialImagePrintingOverrides: {
   [key: string]: { setIdentifier: string };
 } = {
-  "Pitfall Trap": {
+  "command-and-conquer-red": {
+    setIdentifier: "DYN000",
+  },
+  "fate-foreseen-red": {
+    setIdentifier: "FAB024",
+  },
+  "pitfall-trap-yellow": {
     setIdentifier: "LGS151",
   },
-  "Rockslide Trap": {
+  "rockslide-trap-blue": {
     setIdentifier: "LGS152",
   },
-  "Spectral Shield": {
+  "sigil-of-solace-red": {
+    setIdentifier: "FAB136",
+  },
+  "spectral-shield": {
     setIdentifier: "DYN233",
   },
-  "Tripwire Trap": {
+  "tripwire-trap-red": {
     setIdentifier: "LGS150",
   },
 };
 
 export const getSpecialImage = (
   cardName: string,
+  cardIdentifer: string,
   printings: Printing[]
 ): string => {
-  const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
-    ([name]) => cardName === name
+  const matchingOverride = Object.entries(specialImagePrintingOverrides).find(
+    ([identifier]) => identifier === cardIdentifer
   );
   const excludedSetIdentifierForCard = excludedImages[cardName] || [];
 

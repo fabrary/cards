@@ -335,7 +335,7 @@ const getCardData = (card: ParsedCard): Card => {
     rarity: getRarity(card) as Rarity,
     setIdentifiers: card.setIdentifiers,
     sets: getSets(card),
-    specialImage: getSpecialImage(card.name, printings),
+    specialImage: getSpecialImage(card.name, getIdentifier(card), printings),
     subtypes,
     types,
     typeText: card.typeText,

@@ -213,6 +213,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Peace of Mind",
   },
   {
+    abbreviations: ["Pumpkin"],
+    card: "Jack-o'-lantern",
+  },
+  {
     abbreviations: ["Qi Unbound"],
     card: "Qi Unleashed",
   },
