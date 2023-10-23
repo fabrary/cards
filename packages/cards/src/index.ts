@@ -116794,11 +116794,17 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
       set: Release.DromaiBlitzDeck,
       
     },{
-      
+      foiling: Foiling.R,
       identifier: "FAB136",
       image: "FAB136",
       set: Release.Promos,
-      
+      treatment: Treatment.EA,
+    },{
+      foiling: Foiling.R,
+      identifier: "FAB186",
+      image: "FAB186",
+      set: Release.Promos,
+      treatment: Treatment.EA,
     },{
       
       identifier: "TCC059",
@@ -116832,7 +116838,7 @@ At the beginning of your action phase, destroy Sigil of Protection.`,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP387","DRO026","FAB136","TCC059","WTR173"],
+    setIdentifiers: ["1HP387","DRO026","FAB136","FAB186","TCC059","WTR173"],
     sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
     specialImage: "FAB136",
     subtypes: [],

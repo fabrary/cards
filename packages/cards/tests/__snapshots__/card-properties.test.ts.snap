@@ -133986,9 +133986,18 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
       "set": "Dromai Blitz Deck",
     },
     {
+      "foiling": "Rainbow",
       "identifier": "FAB136",
       "image": "FAB136",
       "set": "Promos",
+      "treatment": "Extended Art",
+    },
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB186",
+      "image": "FAB186",
+      "set": "Promos",
+      "treatment": "Extended Art",
     },
     {
       "identifier": "TCC059",
@@ -134034,6 +134043,7 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
     "1HP387",
     "DRO026",
     "FAB136",
+    "FAB186",
     "TCC059",
     "WTR173",
   ],

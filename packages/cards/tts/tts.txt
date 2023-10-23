@@ -2451,6 +2451,7 @@ OSCCardDB = {
   ["FAB175"] = { name = "Apocalypse Automaton (1)", text = "Play this only if you have 1 or more Evos equipped.\n\n**Evo Upgrade** - This attacks up to X target opposing heroes, where X is the number of Evos you have equipped.", keywords = "Evo Upgrade", types = "Action"},
   ["FAB176"] = { name = "Hyper Driver", text = "When this has no steam counters, destroy it.\n\nOnce per turn, when you **boost** a card, remove a steam counter from this and gain {r}.", keywords = "", types = "Token"},
   ["FAB177"] = { name = "Zero to Sixty (1)", text = "**Boost**", keywords = "Boost", types = "Action"},
+  ["FAB186"] = { name = "Sigil of Solace (1)", text = "Gain 3{h}", keywords = "", types = "Instant"},
   ["FAI001"] = { name = "Fai", text = "You may start the game with a Phoenix Flame in your graveyard.\n\n**Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.", keywords = "", types = "Hero"},
   ["FAI002"] = { name = "Searing Emberblade", text = "**Once per Turn Action** - {r}{r}: **Attack**\n\nIf you control 2 or more Draconic chain links, Searing Emberblade has **go again**.", keywords = "Go again", types = "Weapon"},
   ["FAI003"] = { name = "Hope Merchant's Hood", text = "**Instant** - Destroy Hope Merchant's Hood: Shuffle any number of cards from your hand into your deck, then draw that many cards.", keywords = "", types = "Equipment"},
