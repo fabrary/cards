@@ -125,6 +125,174 @@
     
     
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "agility",
+    classes: [Class.Generic],
+    defaultImage: "HVY240",
+    name: "Agility",
+    printings: [{
+      
+      identifier: "HVY240",
+      image: "HVY240",
+      set: Release.HeavyHitters,
+      
+    },],
+    rarities: [Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["HVY240"],
+    sets: [Release.HeavyHitters],
+    specialImage: "HVY240",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    functionalText: `At the start of your turn, destroy this, then your next attack this turn gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "runner-runner-red",
+    classes: [Class.Brute,Class.Warrior],
+    defaultImage: "FAB193",
+    name: "Runner Runner",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB193",
+      image: "FAB193",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB193"],
+    sets: [Release.HeavyHitters,Release.Promos],
+    specialImage: "FAB193",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute / Warrior Action",
+
+    cost: 2,
+    defense: 3,
+    functionalText: `When this attacks, if it has **go again**, create an Agility token.`,
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "double-down-red",
+    classes: [Class.Guardian,Class.Warrior],
+    defaultImage: "FAB194",
+    name: "Double Down",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB194",
+      image: "FAB194",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB194"],
+    sets: [Release.HeavyHitters,Release.Promos],
+    specialImage: "FAB194",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian / Warrior Action",
+
+    cost: 2,
+    defense: 3,
+    
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "talk-a-big-game-blue",
+    classes: [Class.Brute,Class.Guardian],
+    defaultImage: "FAB195",
+    name: "Talk a Big Game",
+    printings: [{
+      foiling: Foiling.R,
+      identifier: "FAB195",
+      image: "FAB195",
+      set: Release.Promos,
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["FAB195"],
+    sets: [Release.HeavyHitters,Release.Promos],
+    specialImage: "FAB195",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute / Guardian Action",
+
+    cost: 0,
+    defense: 3,
+    
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  },{
     artists: ["Daria Cherkashina"],
     cardIdentifier: "absorb-in-aether-red",
     classes: [Class.Wizard],
@@ -37439,7 +37607,8 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     
     
     
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Shen Fei"],
     cardIdentifier: "dumpster-dive-red",
     classes: [Class.Mechanologist],
@@ -37589,8 +37758,7 @@ If an item or equipment was banished from **boosting** this, this gets +1{p}.`,
     
     
     
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "dunebreaker-cenipai-red",
     classes: [Class.Illusionist],
@@ -75580,7 +75748,8 @@ Your Mechanologist attack action cards get **go again**.`,
     
     
     
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Andy Aslamov"],
     cardIdentifier: "macho-grande-blue",
     classes: [Class.Guardian],
@@ -75684,8 +75853,7 @@ If the discarded card has 6 or more {p}, Madcap Charger has **go again**.`,
     
     
     
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "madcap-charger-yellow",
     classes: [Class.Brute],
@@ -113723,7 +113891,8 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     talents: [Talent.Light],
     
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Asur Misoa"],
     cardIdentifier: "semblance-blue",
     classes: [Class.Illusionist],
@@ -113771,8 +113940,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     
     
     
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "ser-boltyn-breaker-of-dawn",
     classes: [Class.Warrior],

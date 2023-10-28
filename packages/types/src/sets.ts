@@ -14,6 +14,7 @@ export const fullSetIdentifiers = {
   out: Release.Outsiders,
   dtd: Release.DuskTillDawn,
   evo: Release.BrightLights,
+  hvy: Release.HeavyHitters,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {

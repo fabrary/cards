@@ -122,7 +122,7 @@ export enum Release {
   DuskTillDawn = "Dusk till Dawn",
   Dynasty = "Dynasty",
   Everfest = "Everfest",
-  // HeavyHitters = "Heavy Hitters",
+  HeavyHitters = "Heavy Hitters",
   HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
   Outsiders = "Outsiders",

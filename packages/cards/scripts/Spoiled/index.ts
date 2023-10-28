@@ -8,8 +8,8 @@ import {
 } from "../Shared";
 import { Card } from "@flesh-and-blood/types";
 
-const spoiledCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - EVO.csv`;
-const spoiledCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - TCC.csv`;
+const spoiledCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - HVY.csv`;
+const spoiledCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
