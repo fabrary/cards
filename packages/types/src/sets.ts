@@ -1,6 +1,6 @@
 import { Release } from "./interfaces";
 
-export const fullSetIdentifiers = {
+export const fullSetIdentifiers: { [key: string]: Release } = {
   wtr: Release.WelcomeToRathe,
   arc: Release.ArcaneRising,
   cru: Release.CrucibleOfWar,

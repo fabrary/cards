@@ -91,6 +91,8 @@ export const getRelatedCards = (
   return { otherPitches, referencedBy, references };
 };
 
+const CARD_IDENTIFIERS_TO_SKIP: string[] = ["cash-in-yellow"];
+
 export const getTokensReferencedByCards = (
   cards: Card[],
   tokens: Card[],
@@ -98,7 +100,9 @@ export const getTokensReferencedByCards = (
 ): Card[] => {
   const referencedTokens: Set<Card> = new Set<Card>();
 
-  for (const card of cards) {
+  for (const card of cards.filter(
+    ({ cardIdentifier }) => !CARD_IDENTIFIERS_TO_SKIP.includes(cardIdentifier)
+  )) {
     const { references } = getRelatedCards(card, tokens);
     for (const token of references.filter((token) => {
       const isHyperDriver = token.name === "Hyper Driver";

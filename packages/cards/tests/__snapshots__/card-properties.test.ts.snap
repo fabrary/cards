@@ -2404,6 +2404,49 @@ exports[`Check for unintentional updates Aetherize (aetherize-blue) vs snapshot 
 }
 `;
 
+exports[`Check for unintentional updates Agility (agility) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "agility",
+  "classes": [
+    "Generic",
+  ],
+  "defaultImage": "HVY240",
+  "functionalText": "At the start of your turn, destroy this, then your next attack this turn gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Agility",
+  "printings": [
+    {
+      "identifier": "HVY240",
+      "image": "HVY240",
+      "set": "Heavy Hitters",
+    },
+  ],
+  "rarities": [
+    "Token",
+  ],
+  "rarity": "Token",
+  "setIdentifiers": [
+    "HVY240",
+  ],
+  "sets": [
+    "Heavy Hitters",
+  ],
+  "specialImage": "HVY240",
+  "subtypes": [
+    "Aura",
+  ],
+  "typeText": "Generic Token - Aura",
+  "types": [
+    "Token",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Alluring Inducement (alluring-inducement-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -40849,6 +40892,56 @@ exports[`Check for unintentional updates Dorinthea, Quicksilver Prodigy (dorinth
     "Hero",
   ],
   "young": true,
+}
+`;
+
+exports[`Check for unintentional updates Double Down (double-down-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "double-down-red",
+  "classes": [
+    "Guardian",
+    "Warrior",
+  ],
+  "cost": 2,
+  "defaultImage": "FAB194",
+  "defense": 3,
+  "keywords": [
+    "Go again",
+    "Overpower",
+  ],
+  "name": "Double Down",
+  "pitch": 1,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB194",
+      "image": "FAB194",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB194",
+  ],
+  "sets": [
+    "Heavy Hitters",
+    "Promos",
+  ],
+  "specialImage": "FAB194",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Guardian / Warrior Action",
+  "types": [
+    "Action",
+  ],
 }
 `;
 
@@ -123442,6 +123535,54 @@ exports[`Check for unintentional updates Runic Reclamation (runic-reclamation-re
 }
 `;
 
+exports[`Check for unintentional updates Runner Runner (runner-runner-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Narendra B Adi",
+  ],
+  "cardIdentifier": "runner-runner-red",
+  "classes": [
+    "Brute",
+    "Warrior",
+  ],
+  "cost": 2,
+  "defaultImage": "FAB193",
+  "defense": 3,
+  "functionalText": "When this attacks, if it has **go again**, create an Agility token.",
+  "name": "Runner Runner",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB193",
+      "image": "FAB193",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB193",
+  ],
+  "sets": [
+    "Heavy Hitters",
+    "Promos",
+  ],
+  "specialImage": "FAB193",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Brute / Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Rushing River (rushing-river-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -152789,6 +152930,55 @@ exports[`Check for unintentional updates Talismanic Lens (talismanic-lens) vs sn
   "typeText": "Generic Equipment - Head",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Talk a Big Game (talk-a-big-game-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "talk-a-big-game-blue",
+  "classes": [
+    "Brute",
+    "Guardian",
+  ],
+  "cost": 0,
+  "defaultImage": "FAB195",
+  "defense": 3,
+  "keywords": [
+    "Go again",
+  ],
+  "name": "Talk a Big Game",
+  "pitch": 3,
+  "printings": [
+    {
+      "foiling": "Rainbow",
+      "identifier": "FAB195",
+      "image": "FAB195",
+      "set": "Promos",
+      "treatment": "Extended Art",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "FAB195",
+  ],
+  "sets": [
+    "Heavy Hitters",
+    "Promos",
+  ],
+  "specialImage": "FAB195",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Brute / Guardian Action",
+  "types": [
+    "Action",
   ],
 }
 `;

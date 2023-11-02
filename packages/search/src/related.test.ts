@@ -72,6 +72,8 @@ describe("Related cards", () => {
         "Gold",
       ],
     ],
+    [["Cash In"], []],
+    [["Cash In", "Crown of Dominion"], ["Gold"]],
   ];
 
   it.each(tokens)(
