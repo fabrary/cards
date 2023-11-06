@@ -101,6 +101,50 @@ const getIdentifier = (card: ParsedCard): string => {
   return color ? `${name}-${color}` : name;
 };
 
+interface PrintingInput {
+  foilingString?: string;
+  identifier: string;
+  imageUrl?: string;
+  setString: string;
+  treatmentString?: string;
+}
+const getPrinting = ({
+  foilingString,
+  identifier,
+  imageUrl,
+  setString,
+  treatmentString,
+}: PrintingInput): Printing => {
+  const foiling = foilingString ? Foiling[foilingString] : undefined;
+  const treatment = treatmentString ? Treatment[treatmentString] : undefined;
+  const print = getPrint({ identifier, foiling, treatment });
+
+  let image;
+  if (imageUrl) {
+    const parsedUrl = imageUrl
+      .replace(".format-webp", "")
+      .replace(".width-450", "")
+      .replace("_yajPa8R", "");
+    image = parsedUrl.substring(
+      parsedUrl.lastIndexOf("/") + 1,
+      parsedUrl.lastIndexOf(".")
+    );
+  } else {
+    image = identifier;
+  }
+
+  const set = setIdentifierToSetMappings[setString.toLowerCase()];
+
+  return {
+    ...(foiling ? { foiling } : {}),
+    identifier,
+    image,
+    print,
+    set,
+    ...(treatment ? { treatment } : {}),
+  };
+};
+
 const getPrintings = (card: ParsedCard): Printing[] => {
   const printings: Printing[] = [];
 
@@ -116,56 +160,29 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     treatment2,
   } = card;
 
-  const printing1: Printing = {
+  const printing1 = getPrinting({
+    foilingString: foiling,
     identifier: identifiers[0],
-    image: "",
-    set: setIdentifierToSetMappings[setIdentifiers[0].toLowerCase()],
-  };
-  if (treatment) {
-    printing1.treatment = Treatment[treatment];
-  }
-  if (foiling) {
-    printing1.foiling = Foiling[foiling];
-  }
-  if (imageUrl) {
-    const truncatedImageUrl = imageUrl
-      .replace(".format-webp", "")
-      .replace(".width-450", "")
-      .replace("_yajPa8R", "");
-    printing1.image = truncatedImageUrl.substring(
-      truncatedImageUrl.lastIndexOf("/") + 1,
-      truncatedImageUrl.lastIndexOf(".")
-    );
-  }
+    setString: setIdentifiers[0],
+    imageUrl,
+    treatmentString: treatment,
+  });
   printings.push(printing1);
 
   if (rarity2) {
     const identifier = identifiers.length > 1 ? identifiers[1] : identifiers[0];
     const setIdentifier =
       setIdentifiers.length > 1 ? setIdentifiers[1] : setIdentifiers[0];
-    const printing2: Printing = {
+    const printing2 = getPrinting({
+      foilingString: foiling2,
       identifier,
-      image: "",
-      set: setIdentifierToSetMappings[setIdentifier.toLowerCase()],
-    };
-    if (treatment2) {
-      printing2.treatment = Treatment[treatment2];
-    }
-    if (foiling2) {
-      printing2.foiling = Foiling[foiling2];
-    }
-    if (imageUrl2) {
-      const truncatedImageUrl = imageUrl2
-        .replace(".format-webp", "")
-        .replace(".width-450", "")
-        .replace("_yajPa8R", "");
-      printing2.image = truncatedImageUrl.substring(
-        truncatedImageUrl.lastIndexOf("/") + 1,
-        truncatedImageUrl.lastIndexOf(".")
-      );
-    }
+      imageUrl: imageUrl2,
+      setString: setIdentifier,
+      treatmentString: treatment2,
+    });
     printings.push(printing2);
   }
+
   printings.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
   return printings;
 };

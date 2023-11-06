@@ -127,11 +127,13 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     //   });
     // }
     const foiling = Foiling[rawFoiling];
+    const print = getPrint({ identifier, edition, foiling, treatment });
     images.push({
       ...(edition ? { edition } : {}),
       ...(foiling ? { foiling } : {}),
       identifier,
       image,
+      print,
       set,
       ...(treatment ? { treatment } : {}),
     });

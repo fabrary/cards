@@ -23,11 +23,13 @@ const fangsALot: Card = {
     {
       identifier: "FNG000",
       image: "FNG000",
+      print: "FNG000",
       set: Release.Promos,
     },
     {
       identifier: "FNG000",
       image: "FNG000_Marvel",
+      print: `FNG000-${Treatment.FA}`,
       set: Release.Promos,
       treatment: Treatment.FA,
     },

@@ -36,7 +36,10 @@ const getEnumValue = (value: any, enumName: string, enm: any) => {
 
 const getPrintings = (printings: Printing[]) => {
   return printings.reduce(
-    (printings, { edition, foiling, identifier, set, treatment, image }) =>
+    (
+      printings,
+      { edition, foiling, identifier, print, set, treatment, image }
+    ) =>
       (printings += `{
       ${
         edition
@@ -51,6 +54,7 @@ const getPrintings = (printings: Printing[]) => {
       }
       identifier: "${identifier}",
       image: "${image}",
+      print: "${print}",
       set: ${getEnumValue(set, "Release", Release)},
       ${
         treatment
