@@ -284,6 +284,16 @@ describe("Card search", () => {
     }
   });
 
+  const firstCards = [["lightning press", "lightning-press-red"]];
+  it.each(firstCards)(
+    "Gets first card first",
+    (criteria, firstCardIdentifier) => {
+      const { searchResults } = cardSearch.search(criteria);
+
+      expect(searchResults[0].cardIdentifier).toEqual(firstCardIdentifier);
+    }
+  );
+
   it("Excludes rarities correctly", () => {
     const { searchResults } = cardSearch.search("!r:common, set:out");
 

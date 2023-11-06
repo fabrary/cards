@@ -152,6 +152,23 @@ class Search {
             : c1.name.localeCompare(c2.name)
         );
       }
+    } else {
+      const nameMatches: DoubleSidedCard[] = [];
+      const nonMatches: DoubleSidedCard[] = [];
+
+      const potentialCardName = keywords
+        .map((keyword) => keyword.toLowerCase().replace(PUNCTUATION, ""))
+        .join(" ");
+      for (const card of searchResults) {
+        if (
+          card.name.toLowerCase().replace(PUNCTUATION, "") === potentialCardName
+        ) {
+          nameMatches.push(card);
+        } else {
+          nonMatches.push(card);
+        }
+      }
+      searchResults = [...nameMatches, ...nonMatches];
     }
 
     let searchResultsWithMatchingPrinting: SearchCard[];

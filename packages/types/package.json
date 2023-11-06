@@ -14,13 +14,13 @@
     "prepublish": "npm run full"
   },
   "devDependencies": {
-    "@types/jest": "^29.5.4",
-    "@types/node": "^20.6.0",
-    "@types/papaparse": "5.3.8",
+    "@types/jest": "^29.5.7",
+    "@types/node": "^20.8.10",
+    "@types/papaparse": "5.3.10",
     "chalk": "^4.1.2",
-    "esbuild": "^0.19.2",
+    "esbuild": "^0.19.5",
     "esbuild-jest": "^0.5.0",
-    "fast-xml-parser": "^4.2.7",
+    "fast-xml-parser": "^4.3.2",
     "jest": "^29.7.0",
     "papaparse": "5.3.2",
     "ts-node": "^10.9.1",
