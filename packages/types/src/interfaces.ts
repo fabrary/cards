@@ -47,6 +47,10 @@ export interface Printing {
   image: string;
   print: string;
   set: Release;
+  tcgplayer?: {
+    productId: string;
+    url: string;
+  };
   treatment?: Treatment;
 }
 

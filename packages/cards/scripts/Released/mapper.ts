@@ -104,6 +104,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     foiling: rawFoiling,
     setIdentifier: identifier,
     set: rawSet,
+    tcgplayer,
   } of printings) {
     const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
     const edition = setEditionMapping[rawEdition];
@@ -115,17 +116,6 @@ const getPrintings = (card: ParsedCard): Printing[] => {
           .replace(".format-webp", "")
       : "";
 
-    // for (const rawFoiling of foilings) {
-    //   const foiling = Foiling[rawFoiling];
-    //   images.push({
-    //     ...(edition ? { edition } : {}),
-    //     ...(foiling ? { foiling } : {}),
-    //     identifier,
-    //     image,
-    //     set,
-    //     ...(treatment ? { treatment } : {}),
-    //   });
-    // }
     const foiling = Foiling[rawFoiling];
     const print = getPrint({ identifier, edition, foiling, treatment });
     images.push({
@@ -135,6 +125,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       image,
       print,
       set,
+      ...(tcgplayer ? { tcgplayer } : {}),
       ...(treatment ? { treatment } : {}),
     });
   }

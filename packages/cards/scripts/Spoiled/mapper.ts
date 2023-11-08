@@ -45,7 +45,7 @@ const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
   const { types } = card;
   for (const [klass, value] of Object.entries(Class)) {
-    if (types.includes(value)) {
+    if (types.includes(value as string)) {
       classes.push(Class[klass]);
     }
   }
@@ -63,7 +63,7 @@ const getHero = (card: ParsedCard): Hero | null => {
   const { types, name } = card;
   if (types.includes("Hero")) {
     for (const [hero, value] of Object.entries(Hero)) {
-      if (name.includes(value)) {
+      if (name.includes(value as string)) {
         return Hero[hero];
       }
     }
@@ -194,7 +194,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   [...cardKeywords, ...grantedKeywords, ...abilityAndEffectKeywords].forEach(
     (keyword) => {
       for (const [key, value] of Object.entries(Keyword)) {
-        if (keyword.includes(value)) {
+        if (keyword.includes(value as string)) {
           const keyword = Keyword[key];
           if (!keywords.includes(keyword)) {
             keywords.push(keyword);
@@ -278,7 +278,7 @@ const getTalents = (card: ParsedCard): Talent[] => {
 
   const talents = new Set<Talent>();
   for (const [talent, value] of Object.entries(Talent)) {
-    if (types.includes(value)) {
+    if (types.includes(value as string)) {
       talents.add(Talent[talent]);
     }
     if (types.includes(Type.Hero)) {
@@ -306,7 +306,7 @@ const getTypeAndSubType = (
   const { types: rawTypes } = card;
   const types: Type[] = [];
   for (const [typeKey, typeValue] of Object.entries(Type)) {
-    if (rawTypes.includes(typeValue)) {
+    if (rawTypes.includes(typeValue as string)) {
       types.push(Type[typeKey]);
     }
   }
@@ -316,7 +316,7 @@ const getTypeAndSubType = (
     for (const [subtypeEnumKey, subTypeEnumValue] of Object.entries(
       subtypeEnum
     ).reverse()) {
-      if (rawTypes.includes(subTypeEnumValue)) {
+      if (rawTypes.includes(subTypeEnumValue as string)) {
         subtypes.push(subtypeEnum[subtypeEnumKey]);
       }
     }

@@ -5,11 +5,14 @@ export interface Printing {
   set: string;
   edition: string;
   foiling: string;
-  // foilings: string[];
   rarity: string;
   artist: string;
   artVariation: string;
   imageUrl: string;
+  tcgplayer?: {
+    productId: string;
+    url: string;
+  };
 }
 
 export interface ParsedCard {
@@ -83,6 +86,8 @@ interface SourcePrinting {
   artist: string;
   art_variation: string;
   image_url: string;
+  tcgplayer_product_id?: string;
+  tcgplayer_url?: string;
 }
 
 interface SourceJSONCard {
@@ -165,7 +170,14 @@ export const parseJSON = (json): ParsedCard[] => {
           image_url,
           rarity,
           set_id,
+          tcgplayer_product_id,
+          tcgplayer_url,
         }) => {
+          const tcgplayer =
+            !!tcgplayer_product_id && !!tcgplayer_url
+              ? { productId: tcgplayer_product_id, url: tcgplayer_url }
+              : undefined;
+
           return {
             artist,
             artVariation: art_variation,
@@ -176,6 +188,7 @@ export const parseJSON = (json): ParsedCard[] => {
             rarity,
             set: set_id,
             setIdentifier: id.trim(),
+            tcgplayer,
           };
         }
       );

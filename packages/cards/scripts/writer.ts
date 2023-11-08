@@ -38,7 +38,7 @@ const getPrintings = (printings: Printing[]) => {
   return printings.reduce(
     (
       printings,
-      { edition, foiling, identifier, print, set, treatment, image }
+      { edition, foiling, identifier, print, set, tcgplayer, treatment, image }
     ) =>
       (printings += `{
       ${
@@ -56,6 +56,14 @@ const getPrintings = (printings: Printing[]) => {
       image: "${image}",
       print: "${print}",
       set: ${getEnumValue(set, "Release", Release)},
+      ${
+        tcgplayer
+          ? `tcgplayer: {
+            productId: "${tcgplayer.productId}",
+            url: "${tcgplayer.url}"
+          },`
+          : ``
+      }
       ${
         treatment
           ? `treatment: ${getEnumValue(treatment, "Treatment", Treatment)},`
