@@ -1,7 +1,7 @@
 import { cards } from "../dist/index";
 import { fabDictionary, fabDictionaryIgnore } from "./spelling-additions";
 
-const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`{|}~]/g;
+const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`|~]/g;
 
 const Typo = require("typo-js");
 

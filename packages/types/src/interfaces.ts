@@ -48,8 +48,8 @@ export interface Printing {
   print: string;
   set: Release;
   tcgplayer?: {
-    productId: string;
-    url: string;
+    productId?: string;
+    url?: string;
   };
   treatment?: Treatment;
 }
