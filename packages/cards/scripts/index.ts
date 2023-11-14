@@ -1,4 +1,4 @@
-import { Card } from "@flesh-and-blood/types";
+import { Card, Rarity } from "@flesh-and-blood/types";
 import { writeFiles } from "./writer";
 import { spoiledCards } from "./Spoiled";
 import { releasedCards } from "./Released";
@@ -49,6 +49,8 @@ releasedCards.forEach((card) => {
     duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
     duplicate.printings = deduplicatedPrintings;
+    duplicate.rarity =
+      card.rarity === Rarity.Promo ? duplicate.rarity : card.rarity;
     duplicate.rarities = rarities;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;

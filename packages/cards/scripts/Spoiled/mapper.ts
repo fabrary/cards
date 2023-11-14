@@ -77,7 +77,8 @@ const getIdentifier = (card: ParsedCard): string => {
     .toLowerCase()
     .replace(/ /g, "-")
     .replace("í", "i")
-    .replace(/[^a-z-]/g, "");
+    .replace(/[^a-z-]/g, "")
+    .replace(/--/, "-");
   // .replace("!", "")
   // .replace(".", "")
   // .replace("?", "")
@@ -107,6 +108,10 @@ interface PrintingInput {
   imageUrl?: string;
   setString: string;
   treatmentString?: string;
+  tcgplayer?: {
+    productId: string;
+    url: string;
+  };
 }
 const getPrinting = ({
   foilingString,
@@ -114,6 +119,7 @@ const getPrinting = ({
   imageUrl,
   setString,
   treatmentString,
+  tcgplayer,
 }: PrintingInput): Printing => {
   const foiling = foilingString ? Foiling[foilingString] : undefined;
   const treatment = treatmentString ? Treatment[treatmentString] : undefined;
@@ -142,6 +148,7 @@ const getPrinting = ({
     print,
     set,
     ...(treatment ? { treatment } : {}),
+    ...(tcgplayer ? { tcgplayer } : {}),
   };
 };
 
@@ -154,10 +161,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     foiling,
     imageUrl,
     treatment,
+    tcgplayerProductId,
+    tcgplayerUrl,
     foiling2,
     imageUrl2,
     rarity2,
     treatment2,
+    tcgplayerProductId2,
+    tcgplayerUrl2,
   } = card;
 
   const printing1 = getPrinting({
@@ -166,6 +177,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     setString: setIdentifiers[0],
     imageUrl,
     treatmentString: treatment,
+    ...(tcgplayerProductId && tcgplayerUrl
+      ? {
+          tcgplayer: {
+            productId: tcgplayerProductId,
+            url: tcgplayerUrl,
+          },
+        }
+      : {}),
   });
   printings.push(printing1);
 
@@ -179,6 +198,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       imageUrl: imageUrl2,
       setString: setIdentifier,
       treatmentString: treatment2,
+      ...(tcgplayerProductId2 && tcgplayerUrl2
+        ? {
+            tcgplayer: {
+              productId: tcgplayerProductId2,
+              url: tcgplayerUrl2,
+            },
+          }
+        : {}),
     });
     printings.push(printing2);
   }

@@ -6,7 +6,7 @@ import {
   getPrint,
   getSpecialImage,
 } from "../Shared";
-import { Card } from "@flesh-and-blood/types";
+import { Card, Rarity } from "@flesh-and-blood/types";
 
 const spoiledCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - HVY.csv`;
 const spoiledCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
@@ -83,6 +83,8 @@ spoiledCards1.forEach((card) => {
     duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
     duplicate.printings = deduplicatedPrintings;
+    duplicate.rarity =
+      card.rarity === Rarity.Promo ? duplicate.rarity : card.rarity;
     duplicate.rarities = rarities;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
@@ -132,6 +134,8 @@ spoiledCards2.forEach((card) => {
     duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
     duplicate.printings = deduplicatedPrintings;
+    duplicate.rarity =
+      card.rarity === Rarity.Promo ? duplicate.rarity : card.rarity;
     duplicate.rarities = rarities;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;

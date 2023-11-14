@@ -64,7 +64,8 @@ const getIdentifier = (card: ParsedCard): string => {
     .toLowerCase()
     .replace(/ /g, "-")
     .replace("í", "i")
-    .replace(/[^a-z-]/g, "");
+    .replace(/[^a-z-]/g, "")
+    .replace(/--/, "-");
   // .replace("!", "")
   // .replace(".", "")
   // .replace("?", "")
