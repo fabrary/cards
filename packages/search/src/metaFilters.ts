@@ -305,6 +305,11 @@ const shiyana: AppliedFilter[] = [
   },
 ];
 
+const squizzy: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Merchant]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Squizzy),
+];
+
 const starvo: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Guardian], EARTH_AND_ICE_AND_LIGHTNING),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Bravo),
@@ -547,6 +552,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   riptide,
   ruudi,
   shiyana,
+  squizzy,
   starvo,
   taipanis,
   taylor,
