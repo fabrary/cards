@@ -188,6 +188,9 @@ const specialImagePrintingOverrides: {
   "command-and-conquer-red": {
     setIdentifier: "DYN000",
   },
+  "cracked-bauble-yellow": {
+    setIdentifier: "LGS083",
+  },
   "fate-foreseen-red": {
     setIdentifier: "FAB024",
   },

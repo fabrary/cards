@@ -107,6 +107,8 @@ export const getTokensReferencedByCards = (
     for (const token of references.filter((token) => {
       const isHyperDriver = token.name === "Hyper Driver";
       const isMaxx = hero === Hero.Maxx;
+      // Return Hyper Driver card for Max
+
       return !isHyperDriver || isMaxx;
     })) {
       referencedTokens.add(token);

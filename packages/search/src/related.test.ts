@@ -1,6 +1,7 @@
 import { Card, Hero, Type } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import { getRelatedCards, getTokensReferencedByCards } from "./related";
+import { Keyword } from "@flesh-and-blood/types";
 
 const toCardIdentifier = ({ cardIdentifier }: Card) => cardIdentifier;
 
@@ -74,6 +75,8 @@ describe("Related cards", () => {
     ],
     [["Cash In"], []],
     [["Cash In", "Crown of Dominion"], ["Gold"]],
+    [["Squizzy & Floof"], ["Cracked Bauble", "Gold"]],
+    [["Shitty Xmas Present"], ["Cracked Bauble"]],
   ];
 
   it.each(tokens)(
@@ -82,7 +85,13 @@ describe("Related cards", () => {
       const referencingCards = cards.filter(({ name }) =>
         (referencingCardNames as unknown as string[]).includes(name)
       );
-      const allTokens = cards.filter(({ types }) => types.includes(Type.Token));
+      const allTokens = cards.filter(({ cardIdentifier, keywords, types }) => {
+        const isCrackedBauble = cardIdentifier === "cracked-bauble-yellow";
+        const isEphemeral = keywords?.includes(Keyword.Ephemeral);
+        const isToken = types.includes(Type.Token);
+
+        return isCrackedBauble || isEphemeral || isToken;
+      });
 
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
