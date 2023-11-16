@@ -20,7 +20,7 @@
     "prepublish": "npm run full"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "^0.0.115"
+    "@flesh-and-blood/types": "file:../types"
   },
   "devDependencies": {
     "@types/jest": "^29.5.7",
@@ -31,7 +31,7 @@
     "esbuild-jest": "^0.5.0",
     "fast-xml-parser": "4.2.7",
     "jest": "^29.7.0",
-    "latest-cards": "npm:@flesh-and-blood/cards@^0.0.114",
+    "latest-cards": "npm:@flesh-and-blood/cards@^0.0.115",
     "papaparse": "5.3.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
