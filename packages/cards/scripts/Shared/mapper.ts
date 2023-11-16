@@ -201,7 +201,7 @@ const specialImagePrintingOverrides: {
     setIdentifier: "LGS152",
   },
   "sigil-of-solace-red": {
-    setIdentifier: "FAB136",
+    setIdentifier: "FAB178",
   },
   "spectral-shield": {
     setIdentifier: "DYN233",
@@ -324,7 +324,7 @@ export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
   cardKeywords.forEach((keyword) => {
     if (keyword.includes("Fusion")) {
       for (const [fusion, value] of Object.entries(Fusion)) {
-        if (keyword.includes(value)) {
+        if (keyword.includes(value as string)) {
           fusions.add(Fusion[fusion]);
         }
       }
