@@ -304,6 +304,7 @@ export enum Keyword {
   Boost = "Boost",
   Channel = "Channel",
   Charge = "Charge",
+  Clash = "Clash",
   Combo = "Combo",
   Contract = "Contract",
   Crank = "Crank",
@@ -346,5 +347,6 @@ export enum Keyword {
   Transform = "Transform",
   Unfreeze = "Unfreeze",
   Unity = "Unity",
+  Wager = "Wager",
   Ward = "Ward",
 }

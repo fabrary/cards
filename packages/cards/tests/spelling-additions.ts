@@ -164,6 +164,7 @@ export const fabDictionary = [
   "korshem",
   "kraken",
   "kyloria",
+  "legplates",
   "levia",
   "liquidcooled",
   "livewire",
