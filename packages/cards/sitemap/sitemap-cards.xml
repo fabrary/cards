@@ -91,6 +91,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/graven-call</loc>
+    <lastmod>2023-11-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/coercive-tendency-blue</loc>
+    <lastmod>2023-11-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/starting-stake-yellow</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>

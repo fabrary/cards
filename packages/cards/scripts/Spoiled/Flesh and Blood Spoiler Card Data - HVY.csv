@@ -89,10 +89,10 @@ HVY086,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY087,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY088,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY089,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY090,HVY,Kassai of the Golden Sand,,,,,40,4,"Warrior, Hero",Go again,,,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
+HVY090,HVY,Kassai of the Golden Sand,,,,,40,4,"Warrior, Hero",,Once per Turn Action,Go again,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
 
 **Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero,,No,,No,M,,,Alexander Mokhov,,/HVY090.png,,,,,,
-HVY091,HVY,Kassai,,,,,20,4,"Warrior, Hero, Young",Go again,,,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
+HVY091,HVY,Kassai,,,,,20,4,"Warrior, Hero, Young",,Once per Turn Action,Go again,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
 
 **Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero - Young,,,No,,T,,,soyameii,,/HVY091.png,,,,,,
 HVY092,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -141,13 +141,13 @@ HVY126,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY127,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY128,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY129,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY130,HVY,Hold 'em,1,1,,3,,,"Warrior, Action","Wager, Go again",,,,,,"Your next Warrior attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Vigor token with them.""
+HVY130,HVY,Hold 'em,1,1,,3,,,"Warrior, Action",Go again,,,Wager,,,"Your next Warrior attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Vigor token with them.""
 
 **Go again**",Warrior Action,,,,,C,S,,Isuardi Therianto,,/HVY130.png,,,,,,
 HVY131,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY132,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY133,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY134,HVY,Cintari Sellsword,,,,,2,,"Warrior, Token, Mercenary, Ally",Go again,,,,,,"**Once per Turn Action** - {r}: **Attack**. **Go again**
+HVY134,HVY,Cintari Sellsword,,,3,,2,,"Warrior, Token, Mercenary, Ally",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. **Go again**
 
 Cintari Sellsword can only attack if you've attacked with a weapon this turn.",Warrior Token - Mercenary Ally,,,,,T,S,,Sebastian Szmyd,,/HVY134.png,,,,,,
 HVY135,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -217,19 +217,19 @@ HVY198,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY199,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY200,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY201,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY202,HVY,Headliner Helm,,,,*,,,"Generic, Equipment, Head",Blade Break,,,,,,"Headliner Helm's {d} is equal to the number of opposing heroes with greater {l} than you.
+HVY202,HVY,Headliner Helm,,,,*,,,"Generic, Equipment, Head",Blade Break,,,,,,"Headliner Helm's {d} is equal to the number of opposing heroes with greater {h} than you.
 
 **Blade Break**",Generic Equipment - Head,,,,,C,S,,Erick Efata,,/HVY202.png,,,,,,
-HVY203,HVY,Stadium Centerpiece,,,,*,,,"Generic, Equipment, Chest",Blade Break,,,,,,"Stadium Centerpiece's {d} is equal to the number of opposing heroes with greater {l} than you.
+HVY203,HVY,Stadium Centerpiece,,,,*,,,"Generic, Equipment, Chest",Blade Break,,,,,,"Stadium Centerpiece's {d} is equal to the number of opposing heroes with greater {h} than you.
 
 **Blade Break**",Generic Equipment - Chest,,,,,C,S,,Mace Tan,,/HVY203.png,,,,,,
-HVY204,HVY,Ticket Puncher,,,,*,,,"Generic, Equipment, Arms",Blade Break,,,,,,"Ticket Puncher's {d} is equal to the number of opposing heroes with greater {l} than you.
+HVY204,HVY,Ticket Puncher,,,,*,,,"Generic, Equipment, Arms",Blade Break,,,,,,"Ticket Puncher's {d} is equal to the number of opposing heroes with greater {h} than you.
 
 **Blade Break**",Generic Equipment - Arms,,,,,C,S,,Lizhe Liang,,/HVY204.png,,,,,,
-HVY205,HVY,Grandstand Legplates,,,,*,,,"Generic, Equipment, Legs",Blade Break,,,,,,"Grandstand Legplate's {d} is equal to the number of opposing heroes with greater {l} than you.
+HVY205,HVY,Grandstand Legplates,,,,*,,,"Generic, Equipment, Legs",Blade Break,,,,,,"Grandstand Legplates' {d} is equal to the number of opposing heroes with greater {h} than you.
 
 **Blade Break**",Generic Equipment - Legs,,,,,C,S,,Kimberly Pantoni,,/HVY205.png,,,,,,
-HVY206,HVY,Bloodied Oval,,,,*,,,"Generic, Equipment, Off-Hand",Blade Break,,,,,,"Bloodied Oval's {d} is equal to the number of opposing heroes with greater {l} than you.
+HVY206,HVY,Bloodied Oval,,,,*,,,"Generic, Equipment, Off-Hand",Blade Break,,,,,,"Bloodied Oval's {d} is equal to the number of opposing heroes with greater {h} than you.
 
 **Blade Break**",Generic Equipment - Off-Hand,,,,,C,S,,Mariusz Gandzel,,/HVY206.png,,,,,,
 HVY207,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -260,7 +260,7 @@ HVY231,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY232,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY233,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY234,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY235,HVY,Money Where Ya Mouth Is,1,1,,2,,,"Generic, Action","Wager, Go again",,,,,,"Your next attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,S,,Athiwut B.,,/HVY235.png,,,,,,
+HVY235,HVY,Money Where Ya Mouth Is,1,1,,2,,,"Generic, Action",Go again,,,Wager,,,"Your next attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,S,,Athiwut B.,,/HVY235.png,,,,,,
 HVY236,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY237,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY238,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -270,8 +270,16 @@ HVY241,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY242,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY243,HVY,Gold,,,,,,,"Generic, Token, Item",Go again,,,,,,"**Action** - {r}{r}, destroy this: Draw a card. **Go again**",Generic Token - Item,,,,,T,S,,Stormy Elia Fanggidae,,/HVY243.png,,,,,,
 HVY244,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY245,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY246,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY245,HVY,Graven Call,,,1,,,,"Assassin, Weapon, Dagger, 1H",Piercing 1,"Once per Turn Action, Instant","Attack, Go again",,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+**Piercing 1**
+
+**Instant** - Destroy 2 Silver you control: Equip this with a +1{p} counter. Activate this ability only while this is in your graveyard.",Assassin Weapon - Dagger (1H),,,,No,M,S,,Jessketchin,,/HVY245.png,,,,,,
+HVY246,HVY,Coercive Tendency,3,0,,3,,,"Assassin, Attack Reaction",Arakni Specialization,,,Go again,,Contract,"**Arakni Specialization**
+
+Look at the top 3 cards of the defending hero's deck. Put them back in any order, then banish the top card of their deck.
+
+If you complete a **contract** this way, your Assassin attacks get **go again** this combat chain.",Assassin Attack Reaction,,,,No,M,S,,Mark Poole,,/HVY246.png,,,,,,
 HVY247,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY248,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY249,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
