@@ -173,19 +173,36 @@ class Search {
     }
 
     let searchResultsWithMatchingPrinting: SearchCard[];
-    const { foilings, releases, treatments } = attributes;
-    if (foilings.length > 0 || releases.length > 0 || treatments.length > 0) {
+    const { artists, foilings, releases, treatments } = attributes;
+    if (
+      artists.length > 0 ||
+      foilings.length > 0 ||
+      releases.length > 0 ||
+      treatments.length > 0
+    ) {
       searchResultsWithMatchingPrinting = searchResults.map((card) => {
         const matchingPrintings = card.printings.filter((printing) => {
+          const hasImage = !!printing.image;
+          const matchesArtist =
+            artists.length === 0 ||
+            artists.some((artist) =>
+              printing.artist
+                .replace(PUNCTUATION, "")
+                .toLowerCase()
+                .includes(artist)
+            );
           const matchesFoiling =
             foilings.length === 0 || foilings.includes(printing.foiling);
           const matchesReleases =
             releases.length === 0 || releases.includes(printing.set);
           const matchesTreatment =
             treatments.length === 0 || treatments.includes(printing.treatment);
-          const hasImage = !!printing.image;
           return (
-            hasImage && matchesFoiling && matchesReleases && matchesTreatment
+            hasImage &&
+            matchesArtist &&
+            matchesFoiling &&
+            matchesReleases &&
+            matchesTreatment
           );
         });
         return {
