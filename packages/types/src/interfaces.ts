@@ -26,6 +26,7 @@ export interface Card {
   oppositeSideCardIdentifier?: string;
   pitch?: number;
   power?: number;
+  bannedAndSuspendedFormats?: Format[];
   restrictedFormats?: Format[];
   specialCost?: string;
   specialDefense?: string;
@@ -41,6 +42,7 @@ export interface DoubleSidedCard extends Card {
 }
 
 export interface Printing {
+  artist: string;
   edition?: ReleaseEdition;
   foiling?: Foiling;
   identifier: string;

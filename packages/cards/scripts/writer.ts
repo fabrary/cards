@@ -38,9 +38,20 @@ const getPrintings = (printings: Printing[]) => {
   return printings.reduce(
     (
       printings,
-      { edition, foiling, identifier, print, set, tcgplayer, treatment, image }
+      {
+        artist,
+        edition,
+        foiling,
+        identifier,
+        print,
+        set,
+        tcgplayer,
+        treatment,
+        image,
+      }
     ) =>
       (printings += `{
+        artist: "${artist}",
       ${
         edition
           ? `edition: ${getEnumValue(

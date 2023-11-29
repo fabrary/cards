@@ -371,6 +371,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
 ): {
   appliedFilters: AppliedFilter[];
   attributes: {
+    artists: string[];
     foilings: Foiling[];
     releases: Release[];
     treatments: Treatment[];
@@ -390,6 +391,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   }
 
   let appliedFilters: AppliedFilter[] = [];
+  let artists: string[] = [];
   let keywords: string[] = [];
   let foilings: Foiling[] = [];
   let releases: Release[] = [];
@@ -500,6 +502,8 @@ export const getKeywordsAndAppliedFiltersFromText = (
               );
             }
           }
+        } else if (["art", "artist"].includes(filterKey)) {
+          artists = values;
         } else if (["foiling", "foil"].includes(filterKey)) {
           foilings = getFoilingValuesFromText(values);
           values = foilings.map((f) => f.toLowerCase());
@@ -542,7 +546,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   }
   return {
     appliedFilters,
-    attributes: { foilings, releases, treatments },
+    attributes: { artists, foilings, releases, treatments },
     keywords,
     specialConditions,
   };

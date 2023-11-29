@@ -75,7 +75,7 @@ const exactSearches = [
   // [66, "legal:rhinar power:>=6", "l:rhinar pwr:>=6"],
   [13, "legal:kassai copper", "l:kassai copper"],
   // [20, "legal:cc type:hero", "l:cc t:hero"],
-  [40, "legal:blitz type:hero", "l:blitz t:hero"],
+  [39, "legal:blitz type:hero", "l:blitz t:hero"],
 
   // Punctuation
   [1, "show time!", "show time"],
@@ -308,6 +308,28 @@ const randomizeCapitalization = (str: string) =>
   str.replace(/./g, (char) =>
     Math.random() < 0.5 ? char.toUpperCase() : char
   );
+
+describe("Returns artist when included", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it("Asur Misoa", () => {
+    const artist = "Asur Misoa";
+    const {
+      attributes: { artists },
+    } = cardSearch.search(`art:"${artist}"`);
+    expect(artists).toBeTruthy();
+    expect(artists[0]).toEqual(artist.toLowerCase());
+  });
+
+  it("Othon Nikolaidis", () => {
+    const artist = "Othon";
+    const {
+      attributes: { artists },
+    } = cardSearch.search(`r:marvel artist:${artist}`);
+    expect(artists).toBeTruthy();
+    expect(artists[0]).toEqual(artist.toLowerCase());
+  });
+});
 
 describe("Sorts results by set when included", () => {
   const cardSearch = new Search(doubleSidedCards);

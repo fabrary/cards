@@ -66,6 +66,7 @@ class Search {
     appliedFilters: AppliedFilter[];
     keywords: string[];
     attributes: {
+      artists: string[];
       foilings: Foiling[];
       releases: Release[];
       treatments: Treatment[];

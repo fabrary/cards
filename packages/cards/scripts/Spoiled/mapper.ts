@@ -103,6 +103,7 @@ const getIdentifier = (card: ParsedCard): string => {
 };
 
 interface PrintingInput {
+  artist?: string;
   foilingString?: string;
   identifier: string;
   imageUrl?: string;
@@ -114,6 +115,7 @@ interface PrintingInput {
   };
 }
 const getPrinting = ({
+  artist,
   foilingString,
   identifier,
   imageUrl,
@@ -142,6 +144,7 @@ const getPrinting = ({
   const set = setIdentifierToSetMappings[setString.toLowerCase()];
 
   return {
+    artist,
     ...(foiling ? { foiling } : {}),
     identifier,
     image,
@@ -158,11 +161,13 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   const {
     identifiers,
     setIdentifiers,
+    artist,
     foiling,
     imageUrl,
     treatment,
     tcgplayerProductId,
     tcgplayerUrl,
+    artist2,
     foiling2,
     imageUrl2,
     rarity2,
@@ -172,6 +177,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   } = card;
 
   const printing1 = getPrinting({
+    artist,
     foilingString: foiling,
     identifier: identifiers[0],
     setString: setIdentifiers[0],
@@ -193,6 +199,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const setIdentifier =
       setIdentifiers.length > 1 ? setIdentifiers[1] : setIdentifiers[0];
     const printing2 = getPrinting({
+      artist: artist2,
       foilingString: foiling2,
       identifier,
       imageUrl: imageUrl2,
