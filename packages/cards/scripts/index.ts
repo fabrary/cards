@@ -41,6 +41,7 @@ releasedCards.forEach((card) => {
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();
+    const restrictedFormats = card.restrictedFormats;
     const setIdentifiers = Array.from(
       new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
     ).sort();
@@ -52,6 +53,7 @@ releasedCards.forEach((card) => {
     duplicate.rarity =
       card.rarity === Rarity.Promo ? duplicate.rarity : card.rarity;
     duplicate.rarities = rarities;
+    duplicate.restrictedFormats = restrictedFormats;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;

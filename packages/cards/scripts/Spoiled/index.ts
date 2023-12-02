@@ -75,6 +75,7 @@ spoiledCards1.forEach((card) => {
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();
+    const restrictedFormats = duplicate.restrictedFormats;
     const setIdentifiers = Array.from(
       new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
     ).sort();
@@ -86,6 +87,7 @@ spoiledCards1.forEach((card) => {
     duplicate.rarity =
       card.rarity === Rarity.Promo ? duplicate.rarity : card.rarity;
     duplicate.rarities = rarities;
+    duplicate.restrictedFormats = restrictedFormats;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
@@ -126,6 +128,7 @@ spoiledCards2.forEach((card) => {
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();
+    const restrictedFormats = duplicate.restrictedFormats;
     const setIdentifiers = Array.from(
       new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
     ).sort();
@@ -137,6 +140,7 @@ spoiledCards2.forEach((card) => {
     duplicate.rarity =
       card.rarity === Rarity.Promo ? duplicate.rarity : card.rarity;
     duplicate.rarities = rarities;
+    duplicate.restrictedFormats = restrictedFormats;
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
