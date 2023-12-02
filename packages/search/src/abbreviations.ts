@@ -205,10 +205,6 @@ export const abbreviations: Abbreviation[] = [
     card: "Premeditate",
   },
   {
-    abbreviations: ["Pox Malone", "Post Malone"],
-    card: "Virulent Touch",
-  },
-  {
     abbreviations: ["PF", "🔥"],
     card: "Phoenix Flame",
   },
@@ -263,6 +259,10 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["Ultron"],
     card: "Teklovossen, the Mechropotent",
+  },
+  {
+    abbreviations: ["Pox Malone", "Post Malone"],
+    card: "Virulent Touch",
   },
   {
     abbreviations: ["ZTS"],

@@ -20,7 +20,7 @@
     "prepublish": "npm run full"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "file:../types"
+    "@flesh-and-blood/types": "^0.0.124"
   },
   "devDependencies": {
     "@types/jest": "^29.5.7",
@@ -58,5 +58,5 @@
     "FAB",
     "FABTCG"
   ],
-  "gitHead": "b10e8238875501c66af8ffe01b3e74a6177320e4"
+  "gitHead": "9e131355fb53c060c6d1993541bcb4a59f192b37"
 }
