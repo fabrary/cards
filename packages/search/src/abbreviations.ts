@@ -37,6 +37,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Barraging Beatdown",
   },
   {
+    abbreviations: ["Starvo"],
+    card: "Bravo, Star of the Show",
+  },
+  {
     abbreviations: ["BEB"],
     card: "Bull's Eye Bracers",
   },
@@ -231,10 +235,6 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["SWK"],
     card: "Spinning Wheel Kick",
-  },
-  {
-    abbreviations: ["Starvo"],
-    card: "Bravo, Star of the Show",
   },
   {
     abbreviations: ["SSP"],
