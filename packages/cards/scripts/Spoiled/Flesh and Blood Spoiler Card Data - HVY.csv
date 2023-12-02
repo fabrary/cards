@@ -282,8 +282,12 @@ Look at the top 3 cards of the defending hero's deck. Put them back in any order
 If you complete a **contract** this way, your Assassin attacks get **go again** this combat chain.",Assassin Attack Reaction,,,,No,M,S,,Mark Poole,,/HVY246.png,,,,,,
 HVY247,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY248,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY249,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY250,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY249,HVY,"Judge, Jury, Executioner",1,1,5,3,,,"Ranger, Action, Arrow, Attack","Legendary, Azalea Specialization",,,,,,"**Legendary Azalea Specialization**
+
+If this has an aim counter, it gets ""When this hits a hero, they discard all but 1 card from their hand.""",Ranger Action - Arrow Attack,,,,No,M,,,Jessada Sutthi,,/HVY249.png,,,,,,
+HVY250,HVY,Reel In,3,X,,,,,"Ranger, Instant",,Reload,,,,,"Look at the top X+1 cards of your deck. Choose up to 4 traps, reveal them, put them into your hand, then shuffle.
+
+**Reload**",Ranger Instant,,,,No,M,,,Kimberly Pantoni,,/HVY250.png,,,,,,
 HVY251,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY252,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY253,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
