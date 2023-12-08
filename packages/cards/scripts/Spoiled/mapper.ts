@@ -2,6 +2,7 @@ import {
   addOppositeSideCardIdentifiers,
   getDefaultImage,
   getFusions,
+  getIdentifier,
   getNumberOrUndefined,
   getPrint,
   getSpecialImage,
@@ -71,39 +72,8 @@ const getHero = (card: ParsedCard): Hero | null => {
   return null;
 };
 
-const getIdentifier = (card: ParsedCard): string => {
-  const { types, name: unformattedName, pitch } = card;
-  const name = unformattedName
-    .toLowerCase()
-    .replace(/ /g, "-")
-    .replace("í", "i")
-    .replace(/[^a-z-]/g, "")
-    .replace(/--/, "-");
-  // .replace("!", "")
-  // .replace(".", "")
-  // .replace("?", "")
-  // .replace("'", "")
-  // .replace(/,/g, "")
-  // .replace(/’/g, "");
-  let color;
-  switch (pitch) {
-    case "1":
-      color = "red";
-      break;
-    case "2":
-      color = "yellow";
-      break;
-    case "3":
-      color = "blue";
-      break;
-    default:
-      color = "";
-  }
-  return color ? `${name}-${color}` : name;
-};
-
 interface PrintingInput {
-  artist?: string;
+  artist: string;
   foilingString?: string;
   identifier: string;
   imageUrl?: string;
@@ -194,7 +164,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   });
   printings.push(printing1);
 
-  if (rarity2) {
+  if (rarity2 && artist2) {
     const identifier = identifiers.length > 1 ? identifiers[1] : identifiers[0];
     const setIdentifier =
       setIdentifiers.length > 1 ? setIdentifiers[1] : setIdentifiers[0];

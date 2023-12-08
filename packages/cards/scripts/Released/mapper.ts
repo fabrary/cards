@@ -19,6 +19,7 @@ import {
   addOppositeSideCardIdentifiers,
   getDefaultImage,
   getFusions,
+  getIdentifier,
   getNumberOrUndefined,
   getPrint,
   getRarities,
@@ -56,37 +57,6 @@ const getHero = (card: ParsedCard): Hero | null => {
     }
   }
   return null;
-};
-
-const getIdentifier = (card: ParsedCard): string => {
-  const { types, name: unformattedName, pitch } = card;
-  const name = unformattedName
-    .toLowerCase()
-    .replace(/ /g, "-")
-    .replace("í", "i")
-    .replace(/[^a-z-]/g, "")
-    .replace(/--/, "-");
-  // .replace("!", "")
-  // .replace(".", "")
-  // .replace("?", "")
-  // .replace("'", "")
-  // .replace(/,/g, "")
-  // .replace(/’/g, "");
-  let color;
-  switch (pitch) {
-    case "1":
-      color = "red";
-      break;
-    case "2":
-      color = "yellow";
-      break;
-    case "3":
-      color = "blue";
-      break;
-    default:
-      color = "";
-  }
-  return color ? `${name}-${color}` : name;
 };
 
 const setEditionMapping = {

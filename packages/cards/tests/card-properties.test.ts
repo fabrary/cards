@@ -37,7 +37,9 @@ describe("No special characters in cardIdentifier", () => {
   it.each(cardsToPublish.map(({ cardIdentifier }) => cardIdentifier))(
     "%s",
     (cardIdentifier) => {
-      expect(cardIdentifier.replace(/-/g, "").match(/^[a-z]+$/)).toBeTruthy();
+      expect(
+        cardIdentifier.replace(/-/g, "").match(/^[a-z0-9]+$/)
+      ).toBeTruthy();
     }
   );
 });
