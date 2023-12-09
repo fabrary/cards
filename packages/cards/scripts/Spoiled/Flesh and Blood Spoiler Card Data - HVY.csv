@@ -177,7 +177,7 @@ HVY158,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY159,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY160,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY161,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY162,HVY,Test of Agility,1,,,4,,,"Brute, Warrior, Block",Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner creates an Agility token.",Brute / Warrior Block,,,,,R,S,,Rio Sabda,,/HVY162.png,,,,,,
+HVY162,HVY,Test of Agility,1,,,4,,,"Brute, Warrior, Block",Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner creates an Agility token.",Brute / Warrior Block,,,,No,R,S,,Rio Sabda,,/HVY162.png,,,,,,
 HVY163,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY164,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY165,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -285,13 +285,15 @@ HVY248,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY249,HVY,"Judge, Jury, Executioner",1,1,5,3,,,"Ranger, Action, Arrow, Attack","Legendary, Azalea Specialization",,,,,,"**Legendary Azalea Specialization**
 
 If this has an aim counter, it gets ""When this hits a hero, they discard all but 1 card from their hand.""",Ranger Action - Arrow Attack,,,,No,M,,,Jessada Sutthi,,/HVY249.png,,,,,,
-HVY250,HVY,Reel In,3,X,,,,,"Ranger, Instant",,Reload,,,,,"Look at the top X+1 cards of your deck. Choose up to 4 traps, reveal them, put them into your hand, then shuffle.
+HVY250,HVY,Reel In,3,X,,,,,"Ranger, Instant",Reload,,,,,,"Look at the top X+1 cards of your deck. Choose up to 4 traps, reveal them, put them into your hand, then shuffle.
 
 **Reload**",Ranger Instant,,,,No,M,,,Kimberly Pantoni,,/HVY250.png,,,,,,
 HVY251,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY252,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY253,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY254,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY253,HVY,Dissolve Reality,2,0,,3,,,"Illusionist, Action",Go again,,,,,,"Each hero puts all cards in their arsenal on the bottom of their deck and creates a Ponder token.
+
+**Go again**",Illusionist Action,,,,No,M,,,Carlos Cruchaga,,/HVY253.png,,,,,,
+HVY254,HVY,"Luminaris, Angel's Glow",,,,,,,"Light, Illusionist, Weapon, Scepter, 2H",,,,,,,"If there is a yellow card in your pitch zone, the first attack action card with Herald in its name you play each turn and your first angel attack each turn get **go again**.",Light Illusionist Weapon - Scepter (2H),,,,No,M,,,Asur Misoa,,/HVY254.png,,,,,,
 HVY255,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY256,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY257,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
