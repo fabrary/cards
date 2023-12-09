@@ -26,6 +26,7 @@ const exactSearches = [
   [2, "cnc"],
   // [174, "poppers"],
   [1, "newminaris"],
+  [1, "twominaris"],
 
   // Sets
   [237, "set:uprising", "set:upr", "s:uprising", "s:upr"],

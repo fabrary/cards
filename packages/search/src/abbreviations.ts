@@ -153,6 +153,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Knick Knack Bric-a-brac",
   },
   {
+    abbreviations: ["LAG", "Twominaris"],
+    card: "Luminaris, Angel's Glow",
+  },
+  {
     abbreviations: ["LCF", "Newminaris"],
     card: "Luminaris, Celestial Fury",
   },
