@@ -118,6 +118,7 @@ export const fabDictionary = [
   "frontline",
   "frostburn",
   "fyendal",
+  "galaxia",
   "galaxxi",
   "garde",
   "genis",
