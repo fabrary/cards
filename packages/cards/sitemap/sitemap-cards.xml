@@ -11,6 +11,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/smashback-alehorn-blue</loc>
+    <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pint-of-strong-and-stout-blue</loc>
+    <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/kassai-of-the-golden-sand</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>
@@ -36,13 +46,33 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/goblet-of-bloodrun-wine-blue</loc>
+    <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cintari-sellsword</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/wage-might-red</loc>
+    <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/test-of-agility-red</loc>
     <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wager-agility-red</loc>
+    <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wage-vigor-red</loc>
+    <lastmod>2023-12-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -68,6 +98,11 @@
   <url>
     <loc>https://fabrary.net/cards/bloodied-oval</loc>
     <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wage-gold-red</loc>
+    <lastmod>2023-12-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
