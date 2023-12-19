@@ -38,6 +38,14 @@ export interface ParsedCard {
   treatment2?: string;
   tcgplayerProductId2?: string;
   tcgplayerUrl2?: string;
+  // 3rd printing
+  artist3?: string;
+  foiling3?: string;
+  imageUrl3?: string;
+  rarity3?: string;
+  treatment3?: string;
+  tcgplayerProductId3?: string;
+  tcgplayerUrl3?: string;
 }
 
 // Make fields that should be lists actually lists instead of a string (which is how CSVs store it)
@@ -106,6 +114,14 @@ const headerMappings = {
   "Rarity 2": "rarity2",
   "TCGPlayer Product Id 2": "tcgplayerProductId2",
   "TCGPlayer Url 2": "tcgplayerUrl2",
+  // Printing 3
+  "Artist 3": "artist3",
+  "Art Variation 3": "treatment3",
+  "Foiling 3": "foiling3",
+  "Image URL 3": "imageUrl3",
+  "Rarity 3": "rarity3",
+  "TCGPlayer Product Id 3": "tcgplayerProductId3",
+  "TCGPlayer Url 3": "tcgplayerUrl3",
 };
 const transformHeader = (original: string, index: number) =>
   headerMappings[original];

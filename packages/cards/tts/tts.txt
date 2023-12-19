@@ -2938,6 +2938,7 @@ OSCCardDB = {
   ["LSS009"] = { name = "Silversheen Needle", text = "Your constructs with Fabric in their name gain **go again**.", keywords = "Go again", types = "Equipment"},
   ["LSS014"] = { name = "Popped Collar Polo", text = "**Action** - Destroy this: Gain {r}. **Go again**", keywords = "Go again", types = "Equipment"},
   ["LSS015"] = { name = "Popped Collar Polo", text = "**Action** - Destroy this: Gain {r}. **Go again**", keywords = "Go again", types = "Equipment"},
+  ["LSS016"] = { name = "Popped Collar Polo", text = "**Action** - Destroy this: Gain {r}. **Go again**", keywords = "Go again", types = "Equipment"},
   ["LXI001"] = { name = "Lexi", text = "**Essence of Ice and Lightning**\n\n**Once per Turn Action** - Turn a face down card in your arsenal face up: If it's a Lightning card, your next attack this turn gains **go again**. If it's an Ice card, create a Frostbite token under target hero's control. **Go again**", keywords = "Essence,Go again", types = "Hero"},
   ["LXI002"] = { name = "Shiver", text = "**Once per Turn Instant** - {r}: You may put an arrow card from your hand face up into an empty arsenal zone you control. If you do, choose 1;\n\n- It gains +1{p} until end of turn.\n- It gains **dominate** until end of turn.", keywords = "Dominate", types = "Weapon"},
   ["LXI003"] = { name = "Honing Hood", text = "**Instant** - Destroy Honing Hood: Return all cards in your arsenal to your hand, then put a card from your hand face down into your arsenal.", keywords = "", types = "Equipment"},
