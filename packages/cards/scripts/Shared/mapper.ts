@@ -1,5 +1,6 @@
 import {
   Card,
+  Format,
   Fusion,
   Hero,
   Printing,
@@ -320,6 +321,27 @@ export const getSpecialImage = (
     }
     return image;
   }
+};
+
+const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
+  Awakening: [Format.ClassicConstructedLivingLegend],
+  "Channel Lake Frigid": [Format.ClassicConstructedLivingLegend],
+  "Crippling Crush": [Format.ClassicConstructedLivingLegend],
+  Hypothermia: [Format.ClassicConstructedLivingLegend],
+  "Oaken Old": [Format.ClassicConstructedLivingLegend],
+  "Star Struck": [Format.ClassicConstructedLivingLegend],
+  "Warmonger's Diplomacy": [Format.ClassicConstructedLivingLegend],
+};
+export const getRestrictedFormats = ({
+  name,
+}: {
+  name: string;
+}): Format[] | undefined => {
+  const restrictedFormats = cardsWithRestrictedFormats[name];
+  if (restrictedFormats) {
+    restrictedFormats.sort();
+  }
+  return restrictedFormats;
 };
 
 export const getSpecializations = (card: {

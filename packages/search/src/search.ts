@@ -251,7 +251,7 @@ export const filterCard = (
 
     const shouldCheckForClash =
       specialConditions.isClash &&
-      ["rarities", "restrictedFormats"].includes(property);
+      ["rarities", "bannedFormats"].includes(property);
     // if (card.cardIdentifier === "command-and-conquer-red") {
     //   console.log(shouldCheckForClash, specialConditions, property);
     // }

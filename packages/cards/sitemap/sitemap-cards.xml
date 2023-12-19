@@ -106,6 +106,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/wage-gold-yellow</loc>
+    <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wage-gold-blue</loc>
+    <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/money-where-ya-mouth-is-red</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>

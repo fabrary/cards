@@ -23,6 +23,7 @@ import {
   getNumberOrUndefined,
   getPrint,
   getRarities,
+  getRestrictedFormats,
   getSpecialImage,
   getSpecializations,
   getStringIfNotNumber,
@@ -149,7 +150,7 @@ const getRarity = (card: ParsedCard): Rarity | undefined => {
   }
 };
 
-const getRestrictedFormats = (card: ParsedCard): Format[] => {
+const getBannedFormats = (card: ParsedCard): Format[] => {
   const {
     blitzLegal,
     blitzBanned,
@@ -164,10 +165,10 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     commonerSuspended,
   } = card;
 
-  const restrictedFormats: Format[] = [];
+  const bannedFormats: Format[] = [];
 
   if (!blitzLegal || blitzLivingLegend || blitzBanned || blitzSuspended) {
-    restrictedFormats.push(Format.Blitz);
+    bannedFormats.push(Format.Blitz);
   }
   if (
     !classicConstructedLegal ||
@@ -175,13 +176,13 @@ const getRestrictedFormats = (card: ParsedCard): Format[] => {
     classicConstructedBanned ||
     classicConstructedSuspended
   ) {
-    restrictedFormats.push(Format.ClassicConstructed);
+    bannedFormats.push(Format.ClassicConstructed);
   }
   if (!commonerLegal || commonerBanned || commonerSuspended) {
-    restrictedFormats.push(Format.Commoner);
+    bannedFormats.push(Format.Commoner);
   }
-  restrictedFormats.sort();
-  return restrictedFormats;
+  bannedFormats.sort();
+  return bannedFormats;
 };
 
 const getSets = (card: ParsedCard): Release[] => {
@@ -288,7 +289,7 @@ const getCardData = (card: ParsedCard): Card => {
     types,
     typeText: card.typeText,
 
-    bannedFormats: getRestrictedFormats(card),
+    bannedFormats: getBannedFormats(card),
     cost: getNumberOrUndefined(card.cost),
     defense: getNumberOrUndefined(card.defense) as number,
     functionalText: card.functionalText,

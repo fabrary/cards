@@ -5,6 +5,7 @@ import {
   getIdentifier,
   getNumberOrUndefined,
   getPrint,
+  getRestrictedFormats,
   getSpecialImage,
   getSpecializations,
   getStringIfNotNumber,
@@ -257,23 +258,23 @@ export const getRarities = (card: ParsedCard): Rarity[] => {
   return Array.from(new Set(rarities));
 };
 
-const getRestrictedFormats = (card: ParsedCard): Format[] => {
+const getBannedFormats = (card: ParsedCard): Format[] => {
   const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
 
-  const restrictedFormats: Format[] = [];
+  const bannedFormats: Format[] = [];
 
   const ILLEGAL_IN_FORMAT_FLAG = "No";
   if (blitzLegal === ILLEGAL_IN_FORMAT_FLAG) {
-    restrictedFormats.push(Format.Blitz);
+    bannedFormats.push(Format.Blitz);
   }
   if (classicConstructedLegal === ILLEGAL_IN_FORMAT_FLAG) {
-    restrictedFormats.push(Format.ClassicConstructed);
+    bannedFormats.push(Format.ClassicConstructed);
   }
   if (commonerLegal === ILLEGAL_IN_FORMAT_FLAG) {
-    restrictedFormats.push(Format.Commoner);
+    bannedFormats.push(Format.Commoner);
   }
-  restrictedFormats.sort();
-  return restrictedFormats;
+  bannedFormats.sort();
+  return bannedFormats;
 };
 
 const getSets = ({ setIdentifiers }: ParsedCard): Release[] => {
@@ -373,7 +374,7 @@ const getCardData = (card: ParsedCard): Card => {
     types,
     typeText: card.typeText,
 
-    bannedFormats: getRestrictedFormats(card),
+    bannedFormats: getBannedFormats(card),
     cost: getNumberOrUndefined(card.cost),
     defense: getNumberOrUndefined(card.defense) as number,
     functionalText: card.functionalText,

@@ -368,7 +368,7 @@ const yoji: AppliedFilter[] = [
 const legalInBlitz: AppliedFilter[] = [
   {
     filterToPropertyMapping: {
-      property: "restrictedFormats",
+      property: "bannedFormats",
       isArray: true,
     },
     values: ["blitz"],
@@ -387,7 +387,7 @@ const legalInBlitz: AppliedFilter[] = [
 const legalInBlitzLivingLegend = [
   {
     filterToPropertyMapping: {
-      property: "restrictedFormats",
+      property: "bannedFormats",
       isArray: true,
     },
     values: ["blitz (living legend)"],
@@ -426,7 +426,7 @@ const legalInClash: AppliedFilter[] = [
 const legalInClassicConstructed: AppliedFilter[] = [
   {
     filterToPropertyMapping: {
-      property: "restrictedFormats",
+      property: "bannedFormats",
       isArray: true,
     },
     values: ["classic constructed"],
@@ -446,7 +446,7 @@ const legalInClassicConstructed: AppliedFilter[] = [
 const legalInClassicConstructedLivingLegend: AppliedFilter[] = [
   {
     filterToPropertyMapping: {
-      property: "restrictedFormats",
+      property: "bannedFormats",
       isArray: true,
     },
     values: ["classic constructed (living legend)"],
@@ -466,7 +466,7 @@ const legalInClassicConstructedLivingLegend: AppliedFilter[] = [
 const legalInCommoner: AppliedFilter[] = [
   {
     filterToPropertyMapping: {
-      property: "restrictedFormats",
+      property: "bannedFormats",
       isArray: true,
     },
     values: ["commoner"],
