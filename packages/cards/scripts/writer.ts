@@ -102,6 +102,15 @@ const generateCardTypeScript = (card: Card): String => {
     types: [${getEnumValues(card.types, "Type", Type)}],
     typeText: "${card.typeText}",
 
+    ${
+      card.bannedFormats && card.bannedFormats.length > 0
+        ? `bannedFormats: [${getEnumValues(
+            card.bannedFormats,
+            "Format",
+            Format
+          )}],`
+        : ``
+    }
     ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
     ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${card.functionalText ? `functionalText: \`${card.functionalText}\`,` : ``}

@@ -288,6 +288,7 @@ const getCardData = (card: ParsedCard): Card => {
     types,
     typeText: card.typeText,
 
+    bannedFormats: getRestrictedFormats(card),
     cost: getNumberOrUndefined(card.cost),
     defense: getNumberOrUndefined(card.defense) as number,
     functionalText: card.functionalText,

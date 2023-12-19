@@ -14,6 +14,7 @@ export interface Card {
   types: Type[];
   typeText: string;
 
+  bannedFormats?: Format[];
   cost?: number;
   defense?: number;
   functionalText?: string;
@@ -26,7 +27,6 @@ export interface Card {
   oppositeSideCardIdentifier?: string;
   pitch?: number;
   power?: number;
-  bannedAndSuspendedFormats?: Format[];
   restrictedFormats?: Format[];
   specialCost?: string;
   specialDefense?: string;
