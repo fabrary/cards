@@ -1,6 +1,7 @@
 import {
   Card,
   Fusion,
+  Hero,
   Printing,
   Rarity,
   Release,
@@ -319,6 +320,27 @@ export const getSpecialImage = (
     }
     return image;
   }
+};
+
+export const getSpecializations = (card: {
+  cardKeywords: string[];
+}): Hero[] => {
+  const { cardKeywords } = card;
+
+  const specializations: Hero[] = [];
+  cardKeywords.forEach((keyword) => {
+    if (keyword.includes("Specialization")) {
+      const [oneOrMoreHeroes] = keyword.split(" Specialization");
+      const heroes = oneOrMoreHeroes.split(" or ");
+      for (const hero of heroes) {
+        specializations.push(Hero[hero.replace(" ", "").replace("'", "")]);
+      }
+    }
+  });
+
+  specializations.sort();
+
+  return specializations;
 };
 
 export const getPrint = (printing: {

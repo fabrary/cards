@@ -24,6 +24,7 @@ import {
   getPrint,
   getRarities,
   getSpecialImage,
+  getSpecializations,
   getStringIfNotNumber,
 } from "../Shared";
 import { overrides } from "../Shared/artist-overrides";
@@ -195,25 +196,6 @@ const getSets = (card: ParsedCard): Release[] => {
   arr.sort();
 
   return arr;
-};
-
-const getSpecializations = (card: ParsedCard): Hero[] => {
-  const { cardKeywords } = card;
-
-  const specializations: Hero[] = [];
-  cardKeywords.forEach((keyword) => {
-    if (keyword.includes("Specialization")) {
-      const [oneOrMoreHeroes] = keyword.split(" Specialization");
-      const heroes = oneOrMoreHeroes.split(" or ");
-      for (const hero of heroes) {
-        specializations.push(Hero[hero.replace(" ", "")]);
-      }
-    }
-  });
-
-  specializations.sort();
-
-  return specializations;
 };
 
 const getTalents = (card: ParsedCard): Talent[] => {

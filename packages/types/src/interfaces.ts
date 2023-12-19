@@ -281,7 +281,7 @@ export enum Hero {
   Prism = "Prism",
   Rhinar = "Rhinar",
   Riptide = "Riptide",
-  Ruudi = "Ruu’di",
+  Ruudi = "Ruu'di",
   Shiyana = "Shiyana",
   Squizzy = "Squizzy",
   Taipanis = "Taipanis",
