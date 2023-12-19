@@ -2585,7 +2585,7 @@ OSCCardDB = {
   ["HVY134"] = { name = "Cintari Sellsword", text = "**Once per Turn Action** - {r}: **Attack**. **Go again**\n\nCintari Sellsword can only attack if you've attacked with a weapon this turn.", keywords = "Go again", types = "Token"},
   ["HVY149"] = { name = "Wage Might (1)", text = "When this attacks a hero, you may **wager** a Might token with them.", keywords = "Wager", types = "Action"},
   ["HVY162"] = { name = "Test of Agility (1)", text = "When this defends, **clash** with the attacking hero. The winner creates an Agility token.", keywords = "Clash", types = "Block"},
-  ["HVY169"] = { name = "Wager Agility (1)", text = "When this attacks a hero, you may **wager** an Agility token with them.", keywords = "", types = "Action"},
+  ["HVY169"] = { name = "Wage Agility (1)", text = "When this attacks a hero, you may **wager** an Agility token with them.", keywords = "", types = "Action"},
   ["HVY189"] = { name = "Wage Vigor (1)", text = "When this attacks a hero, you may **wager** a Vigot token with them.", keywords = "Wager", types = "Action"},
   ["HVY202"] = { name = "Headliner Helm", text = "Headliner Helm's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["HVY203"] = { name = "Stadium Centerpiece", text = "Stadium Centerpiece's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
