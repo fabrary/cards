@@ -2592,7 +2592,7 @@ OSCCardDB = {
   ["HVY204"] = { name = "Ticket Puncher", text = "Ticket Puncher's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["HVY205"] = { name = "Grandstand Legplates", text = "Grandstand Legplates' {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["HVY206"] = { name = "Bloodied Oval", text = "Bloodied Oval's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
-  ["HVY216"] = { name = "Wage Gold (1)", text = "**Univeral**\n\nWhen this attacks a hero, you may **wager** a Gold token with them.", keywords = "Wager", types = "Action"},
+  ["HVY216"] = { name = "Wage Gold (1)", text = "**Universal**\n\nWhen this attacks a hero, you may **wager** a Gold token with them.", keywords = "Universal,Wager", types = "Action"},
   ["HVY235"] = { name = "Money Where Ya Mouth Is (1)", text = "Your next attack this turn gets +3{p} and \"When this attacks a hero, you may **wager** a Gold token with them.\"", keywords = "Go again,Wager", types = "Action"},
   ["HVY239"] = { name = "Test of Strength (1)", text = "When this defends, **clash** with the attacking hero. The winner creates a Gold token.", keywords = "Clash", types = "Block"},
   ["HVY240"] = { name = "Agility", text = "At the start of your turn, destroy this, then your next attack this turn gets **go again**.", keywords = "Go again", types = "Token"},
