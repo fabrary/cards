@@ -120,6 +120,11 @@ const benji: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Benji),
 ];
 
+const betsy: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Guardian]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Betsy),
+];
+
 const boltyn: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Warrior], LIGHT),
   {
@@ -518,6 +523,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   arakni,
   azalea,
   benji,
+  betsy,
   boltyn,
   bravo,
   brevant,
