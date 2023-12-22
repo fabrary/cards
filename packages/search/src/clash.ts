@@ -1,11 +1,13 @@
 import { Hero } from "@flesh-and-blood/types";
 
-export const clashRestrictedCards = [
+export const clashBannedCards = [
+  "Amulet of Ice",
   "Ball Lightning",
   "Belittle",
   "Drone of Brutality",
   "Duskblade",
   "Rosetta Thorn",
+  "Stubby Hammerers",
 ];
 
 export const clashSpecializationOverrides: {

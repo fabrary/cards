@@ -15,6 +15,6 @@
     "update:snapshots": "lerna run update:snapshots"
   },
   "devDependencies": {
-    "lerna": "^7.4.2"
+    "lerna": "^8.0.1"
   }
 }

@@ -27,7 +27,7 @@ const NO_OTHER_HEROES_OR_SPECIALIZATIONS = (
 ) => {
   const values = Object.values(Hero)
     .filter((h) => h !== hero && !sharedSpecializationHeroes.includes(h))
-    .map((hero) => hero.toLowerCase());
+    .map((hero: string) => hero.toLowerCase());
 
   return [
     {
@@ -54,7 +54,7 @@ const NO_OTHER_HEROES_OR_SPECIALIZATIONS = (
 const filterOutTalents = (talents: Talent[]) => {
   const values = Object.values(Talent)
     .filter((talent) => !talents.includes(talent))
-    .map((talent) => talent.toLowerCase());
+    .map((talent: string) => talent.toLowerCase());
 
   return {
     filterToPropertyMapping: {
@@ -802,7 +802,7 @@ const noTalents: AppliedFilter[] = [
       isArray: true,
     },
     excluded: true,
-    values: Object.values(Talent).map((talent) => talent.toLowerCase()),
+    values: Object.values(Talent).map((talent: string) => talent.toLowerCase()),
   },
 ];
 

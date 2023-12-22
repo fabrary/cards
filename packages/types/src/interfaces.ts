@@ -279,6 +279,7 @@ export enum Hero {
   Maxx = "Maxx",
   Melody = "Melody",
   Oldhim = "Oldhim",
+  Olympia = "Olympia",
   Prism = "Prism",
   Rhinar = "Rhinar",
   Riptide = "Riptide",

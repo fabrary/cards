@@ -12,7 +12,7 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
-import { clashRestrictedCards } from "./clash";
+import { clashBannedCards } from "./clash";
 import { PUNCTUATION } from "./constants";
 import {
   AppliedFilter,
@@ -285,17 +285,17 @@ export const filterCard = (
       const isMentorOrWeapon = [Type.Mentor, Type.Weapon].some((type) =>
         card.types.includes(type)
       );
-      const isRestrictedInClash = clashRestrictedCards.includes(card.name);
+      const isBannedInClash = clashBannedCards.includes(card.name);
 
       if (
         !doesCardMatchFilter &&
-        !isRestrictedInClash &&
+        !isBannedInClash &&
         (isSpecializationCard || isMentorOrWeapon) &&
         isSuperRarePlus
       ) {
         doesCardMatchFilter = true;
       }
-      if (isRestrictedInClash) {
+      if (isBannedInClash) {
         doesCardMatchFilter = false;
       }
     }

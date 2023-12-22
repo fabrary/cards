@@ -101,8 +101,8 @@ HVY090,HVY,Kassai of the Golden Sand,,,,,40,4,"Warrior, Hero",,Once per Turn Act
 HVY091,HVY,Kassai,,,,,20,4,"Warrior, Hero, Young",,Once per Turn Action,Go again,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
 
 **Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero - Young,,,No,,T,,,soyameii,,/HVY091.png,,,,,,,,,,,,
-HVY092,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY093,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY092,HVY,"Olympia, Prized Fighter",,,,,40,4,"Warrior, Hero",Wager,,,,,,"The first time each of your attacks wins a **wager**, create a Gold token.",Warrior Hero,,No,,No,M,,,Joseph Qiu,,/HVY092.png,,,,,,,,,,,,
+HVY093,HVY,Olympia,,,,,20,4,"Warrior, Hero, Young",Wager,,,,,,"The first time each of your attacks wins a **wager**, create a Gold token.",Warrior Hero - Young,,,No,,T,,,Joseph Qiu,,/HVY093.png,,,,,,,,,,,,
 HVY094,HVY,Cintari Saber,,,2,,,,"Warrior, Weapon, Sword, 1H",,,,,,,"**Once per Turn Action** - {r}: **Attack**
 
 When this is defended by 1 or more attack action cards, this gets +1{p} until end of turn.",Warrior Weapon - Sword (1H),,,,,T,,,Reza Afshar,,/HVY094.png,,,,,,,,,,,,
@@ -114,7 +114,13 @@ HVY099,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY100,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY101,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY102,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY103,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY103,HVY,Up the Ante,3,X,,3,,,"Warrior, Attack Reaction","Olympia Specialization, wager",,,,,,"**Olympia Specialization**
+
+Choose X+1;
+- Target attack **wagers** an Agility token with the defending hero.
+- Target attack **wagers** a Gold token with the defending hero.
+- Target attack **wagers** a Vigor token with the defending hero.
+- Target attack gets +Y{p}, where Y is the number of times it has **wagered**.",Warrior Attack Reaction,,,,No,M,,,Federico Musetti,,/HVY103.png,,,,,,,,,,,,
 HVY104,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY105,HVY,Raise an Army,2,0,,3,,,"Warrior, Action","Kassai Specialization, Go again",,,,,,"**Kassai Specialization**
 
@@ -129,7 +135,9 @@ HVY108,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY109,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY110,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY111,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY112,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY112,HVY,Take the Upper Hand,1,0,,3,,,"Warrior, Attack Reaction",Wager,,,,,,"Play this only if you've **wagered** this chain link.
+
+Target attack gets +3{p}.",Warrior Attack Reaction,,,,No,R,,,Faizal Fikri,,/HVY112.png,,,,,,,,,,,,
 HVY113,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY114,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY115,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

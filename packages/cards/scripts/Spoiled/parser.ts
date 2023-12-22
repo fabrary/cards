@@ -135,6 +135,6 @@ export const parseCSV = (file: string): ParsedCard[] => {
     transform,
     transformHeader,
   });
-  // console.log(cards.data.find((card) => card.name === "Frost Hex"));
+  console.log(file, JSON.stringify(cards, null, 2));
   return cards.data;
 };

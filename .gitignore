@@ -105,3 +105,6 @@ dist
 
 .DS_Store
 .~lock*
+
+# nx/lerna
+.nx/cache

@@ -61,13 +61,33 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/olympia-prized-fighter</loc>
+    <lastmod>2023-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/olympia</loc>
+    <lastmod>2023-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cintari-saber</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/up-the-ante-blue</loc>
+    <lastmod>2023-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/raise-an-army-yellow</loc>
     <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/take-the-upper-hand-red</loc>
+    <lastmod>2023-12-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
