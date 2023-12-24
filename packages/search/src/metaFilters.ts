@@ -279,6 +279,11 @@ const oldhim: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Oldhim),
 ];
 
+const olympia: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Warrior]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Olympia),
+];
+
 const prism: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Illusionist], LIGHT),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Prism),
@@ -553,6 +558,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   maxx,
   melody,
   oldhim,
+  olympia,
   prism,
   rhinar,
   riptide,
