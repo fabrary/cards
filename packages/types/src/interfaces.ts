@@ -303,6 +303,7 @@ export enum Keyword {
   ArcaneBarrier = "Arcane Barrier",
   Awaken = "Awaken",
   Battleworn = "Battleworn",
+  BeatChest = "Beat Chest",
   BladeBreak = "Blade Break",
   BloodDebt = "Blood Debt",
   Boost = "Boost",
