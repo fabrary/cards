@@ -1,7 +1,15 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Image URL 3
 HVY000,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY001,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY002,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY001,HVY,"Kayo, Armed and Dangerous",,,,,40,4,"Brute, Hero",,,,,,,"You have 1 weapon zone.
+
+Attack action cards you own get +1{p} while they are in any zone other than the combat chain.
+
+The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero,,No,,No,M,,,Jessada Sutthi,,/HVY001.png,,,,,,,,,,,,
+HVY002,HVY,Kayo,,,,,20,4,"Brute, Hero, Young",,,,,,,"You have 1 weapon zone.
+
+Attack action cards you own get +1{p} while they are in any zone other than the combat chain.
+
+The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero - Young,,,No,,T,,,Jessada Sutthi,,/HVY002.png,,,,,,,,,,,,
 HVY003,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY004,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY005,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -128,7 +136,7 @@ As an additional cost to play this, destroy X Gold you control.
 
 Create X Cintari Sellsword tokens.
 
-**Go again**",Warrior Action,,,,No,M,S,,Jessada Sutthi,,/HVY105.png,,,,,,,,,,,,
+**Go again**",Warrior Action,,,,No,M,S,,Jessada Sutthi,,/HVY105.png,P,R,EA,Jessada Sutthi,,/FAB192.png,,,,,,
 HVY106,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY107,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY108,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -165,7 +173,7 @@ HVY133,HVY,Goblet of Bloodrun Wine,3,0,,2,,,"Warrior, Action",Go again,,,,,,"Cre
 **Go again**",Warrior Action,,,,,C,,,Ausonia,,/HVY133.png,,,,,,,,,,,,
 HVY134,HVY,Cintari Sellsword,,,3,,2,,"Warrior, Token, Mercenary, Ally",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. **Go again**
 
-Cintari Sellsword can only attack if you've attacked with a weapon this turn.",Warrior Token - Mercenary Ally,,,,,T,S,,Sebastian Szmyd,,/HVY134.png,,,,,,,,,,,,
+Cintari Sellsword can only attack if you've attacked with a weapon this turn.",Warrior Token - Mercenary Ally,,,,,T,S,,Sebastian Szmyd,,/HVY134.png,P,C,EA,Sebastian Szmyd,,/FAB191.png,,,,,,
 HVY135,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY136,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY137,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
