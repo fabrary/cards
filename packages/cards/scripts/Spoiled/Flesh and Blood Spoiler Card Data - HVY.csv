@@ -4,12 +4,12 @@ HVY001,HVY,"Kayo, Armed and Dangerous",,,,,40,4,"Brute, Hero",,,,,,,"You have 1 
 
 Attack action cards you own get +1{p} while they are in any zone other than the combat chain.
 
-The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero,,No,,No,M,,,Jessada Sutthi,,/HVY001.png,,,,,,,,,,,,
+The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero,,No,,No,M,,,Jessada Sutthi,,/HVY001.png,V,C,,Jessada Sutthi,,,V,C,FA,Jessada Sutthi,,
 HVY002,HVY,Kayo,,,,,20,4,"Brute, Hero, Young",,,,,,,"You have 1 weapon zone.
 
 Attack action cards you own get +1{p} while they are in any zone other than the combat chain.
 
-The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero - Young,,,No,,T,,,Jessada Sutthi,,/HVY002.png,,,,,,,,,,,,
+The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero - Young,,,No,,T,,,Jessada Sutthi,,/HVY002.png,V,C,,Jessada Sutthi,,,V,C,FA,Jessada Sutthi,,
 HVY003,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY004,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY005,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -23,7 +23,9 @@ HVY012,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY013,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY014,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY015,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY016,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY016,HVY,No Fear,1,0,,,,,"Brute, Instant",,,,,,,"As an additional cost to play this, banish any number of cards with 6 or more {p} from your hand. At the beginning of the end phase, return them to your hand.
+
+The next time you would be dealt damage this turn, prevent X of that damage, where X is 2 plus the number of cards banished to play this.",Brute Instant,,,,No,M,,,Eilene Cherie,,/HVY016.png,,,,,,,,,,,,
 HVY017,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY018,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY019,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -184,7 +186,7 @@ HVY141,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY142,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY143,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY144,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY145,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY145,HVY,Mighty Windup,3,3,5,2,,,"Brute, Guardian, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create a Might token.,Brute / Guardian Action - Attack,,,,,C,,,Federico Musetti,,/HVY145.png,,,,,,,,,,,,
 HVY146,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY147,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY148,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -204,7 +206,7 @@ HVY161,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY162,HVY,Test of Agility,1,,,4,,,"Brute, Warrior, Block",Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner creates an Agility token.",Brute / Warrior Block,,,,No,R,S,,Rio Sabda,,/HVY162.png,,,,,,,,,,,,
 HVY163,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY164,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY165,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY165,HVY,Agile Windup,3,3,5,2,,,"Brute, Warrior, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create an Agility token.,Brute / Warrior Action - Attack,,,,,C,,,Federico Musetti,,/HVY165.png,,,,,,,,,,,,
 HVY166,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY167,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY168,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
