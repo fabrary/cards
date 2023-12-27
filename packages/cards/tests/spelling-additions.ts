@@ -53,6 +53,7 @@ export const fabDictionary = [
   "bolters",
   "boltn",
   "boltyn",
+  "bonebreaker",
   "boneyard",
   "bracers",
   "braveforge",

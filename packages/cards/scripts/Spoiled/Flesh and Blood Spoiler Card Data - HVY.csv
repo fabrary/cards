@@ -4,12 +4,12 @@ HVY001,HVY,"Kayo, Armed and Dangerous",,,,,40,4,"Brute, Hero",,,,,,,"You have 1 
 
 Attack action cards you own get +1{p} while they are in any zone other than the combat chain.
 
-The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero,,No,,No,M,,,Jessada Sutthi,,/HVY001.png,V,C,,Jessada Sutthi,,,V,C,FA,Jessada Sutthi,,
+The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero,,No,,No,M,,,Jessada Sutthi,,/HVY001.png,V,C,,Jessada Sutthi,,/HVY001_M.png,V,C,FA,Jessada Sutthi,,/HVY001_M_Back.png
 HVY002,HVY,Kayo,,,,,20,4,"Brute, Hero, Young",,,,,,,"You have 1 weapon zone.
 
 Attack action cards you own get +1{p} while they are in any zone other than the combat chain.
 
-The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero - Young,,,No,,T,,,Jessada Sutthi,,/HVY002.png,V,C,,Jessada Sutthi,,,V,C,FA,Jessada Sutthi,,
+The first time you discard a card with 6 or more {p} during each of your action phases, create a Might token.",Brute Hero - Young,,,No,,T,,,Jessada Sutthi,,/HVY002.png,V,C,,Jessada Sutthi,,/HVY002_M.png,V,C,FA,Jessada Sutthi,,/HVY002_M_Back.png
 HVY003,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY004,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY005,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -50,7 +50,11 @@ HVY037,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY038,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY039,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY040,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY041,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY041,HVY,Bonebreaker Bellow,1,1,,3,,,"Brute, Action","Beat Chest, Go again",,,,,Beat Chest,"**Beat Chest**
+
+Your next Brute attack this turn gains +3{p}. If you've **beaten chest** this turn, instead it gains +5{p}.
+
+**Go again**",Brute Action,,,,,C,,,Anastasia Balakchina,,/HVY041.png,,,,,,,,,,,,
 HVY042,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY043,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY044,HVY,Smashback Alehorn,3,0,,2,,,"Brute, Action",Go again,,,,,,"Create an Agility and a Might token.
@@ -184,7 +188,7 @@ HVY139,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY140,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY141,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY142,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY143,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY143,HVY,Mighty Windup,1,3,7,2,,,"Brute, Guardian, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create a Might token.,Brute / Guardian Action - Attack,,,,,C,,,Federico Musetti,,/HVY143.png,,,,,,,,,,,,
 HVY144,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY145,HVY,Mighty Windup,3,3,5,2,,,"Brute, Guardian, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create a Might token.,Brute / Guardian Action - Attack,,,,,C,,,Federico Musetti,,/HVY145.png,,,,,,,,,,,,
 HVY146,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -204,7 +208,7 @@ HVY159,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY160,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY161,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY162,HVY,Test of Agility,1,,,4,,,"Brute, Warrior, Block",Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner creates an Agility token.",Brute / Warrior Block,,,,No,R,S,,Rio Sabda,,/HVY162.png,,,,,,,,,,,,
-HVY163,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY163,HVY,Agile Windup,1,3,7,2,,,"Brute, Warrior, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create an Agility token.,Brute / Warrior Action - Attack,,,,,C,,,Federico Musetti,,/HVY163.png,,,,,,,,,,,,
 HVY164,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY165,HVY,Agile Windup,3,3,5,2,,,"Brute, Warrior, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create an Agility token.,Brute / Warrior Action - Attack,,,,,C,,,Federico Musetti,,/HVY165.png,,,,,,,,,,,,
 HVY166,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -267,13 +271,13 @@ HVY212,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY213,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY214,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY215,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"HVY216, FAB196","HVY, FAB",Wage Gold,1,3,7,1,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
+"HVY216, FAB196","HVY, FAB",Wage Gold,1,3,7,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
 
 When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,,R,,,Tanapon Wachirakul,,/HVY216.png,R,R,EA,Tanapon Wachirakul,,/FAB196.png,,,,,,
-"HVY217, FAB197","HVY, FAB",Wage Gold,2,3,6,1,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
+"HVY217, FAB197","HVY, FAB",Wage Gold,2,3,6,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
 
 When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,,R,,,Tanapon Wachirakul,,/HVY217.png,R,R,EA,Tanapon Wachirakul,,/FAB197.png,,,,,,
-"HVY218, FAB198","HVY, FAB",Wage Gold,3,3,5,1,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
+"HVY218, FAB198","HVY, FAB",Wage Gold,3,3,5,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
 
 When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,,R,,,Tanapon Wachirakul,,/HVY218.png,R,R,EA,Tanapon Wachirakul,,/FAB198.png,,,,,,
 HVY219,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
