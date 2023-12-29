@@ -21,13 +21,53 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/rhinar-reckless-rampage</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rhinar</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/show-no-mercy-red</loc>
+    <lastmod>2023-12-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/no-fear-red</loc>
     <lastmod>2023-12-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/rawhide-rumble-red</loc>
+    <lastmod>2023-12-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rawhide-rumble-yellow</loc>
+    <lastmod>2023-12-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rawhide-rumble-blue</loc>
+    <lastmod>2023-12-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bonebreaker-bellow-red</loc>
     <lastmod>2023-12-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bonebreaker-bellow-yellow</loc>
+    <lastmod>2023-12-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bonebreaker-bellow-blue</loc>
+    <lastmod>2023-12-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8967,16 +9007,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/rewind-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/rhinar</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/rhinar-reckless-rampage</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
