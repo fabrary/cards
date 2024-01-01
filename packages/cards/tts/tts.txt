@@ -2453,6 +2453,8 @@ OSCCardDB = {
   ["FAB176"] = { name = "Hyper Driver", text = "When this has no steam counters, destroy it.\n\nOnce per turn, when you **boost** a card, remove a steam counter from this and gain {r}.", keywords = "", types = "Token"},
   ["FAB177"] = { name = "Zero to Sixty (1)", text = "**Boost**", keywords = "Boost", types = "Action"},
   ["FAB178"] = { name = "Sigil of Solace (1)", text = "Gain 3{h}", keywords = "", types = "Instant"},
+  ["FAB190"] = { name = "Ravenous Rabble (1)", text = "When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.\n\n**Go again**", keywords = "Go again", types = "Action"},
+  ["FAB191"] = { name = "Cintari Sellsword", text = "**Once per Turn Action** - {r}: **Attack**. **Go again**\n\nCintari Sellsword can only attack if you've attacked with a weapon this turn.", keywords = "Go again", types = "Token"},
   ["FAB193"] = { name = "Runner Runner (1)", text = "When this attacks, if it has **go again**, create an Agility token.", keywords = "", types = "Action"},
   ["FAB194"] = { name = "Double Down (1)", text = "You may destroy a Gold you control rather than pay Double Down's {r} cost.\n\nThe next attack that **wagers** this turn gets +3{p} and **overpower**.\n\nIf a hero would create 1 or more tokens from a **wager** this turn, instead they create that many plus 1 of each of those tokens.\n\n**Go again**", keywords = "Go again,Overpower", types = "Action"},
   ["FAB195"] = { name = "Talk a Big Game (3)", text = "Choose a number. The next time you deal that much or more {p} damage to a hero this turn, create that many Might tokens.\n\n**Go again**", keywords = "Go again", types = "Action"},

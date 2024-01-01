@@ -311,6 +311,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/ravenous-rabble-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/runner-runner-red</loc>
     <lastmod>2023-10-28</lastmod>
     <priority>0.5</priority>
@@ -8607,11 +8612,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/ravenous-meataxe</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/ravenous-rabble-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>

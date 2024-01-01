@@ -195,7 +195,7 @@ HVY132,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY133,HVY,Goblet of Bloodrun Wine,3,0,,2,,,"Warrior, Action",Go again,,,,,,"Create an Agility and a Vigor token.
 
 **Go again**",Warrior Action,,,,,C,,,Ausonia,,/HVY133.png,,,,,,,,,,,,
-HVY134,HVY,Cintari Sellsword,,,3,,2,,"Warrior, Token, Mercenary, Ally",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. **Go again**
+"HVY134, FAB191","HVY, FAB",Cintari Sellsword,,,3,,2,,"Warrior, Token, Mercenary, Ally",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. **Go again**
 
 Cintari Sellsword can only attack if you've attacked with a weapon this turn.",Warrior Token - Mercenary Ally,,,,,T,S,,Sebastian Szmyd,,/HVY134.png,P,C,EA,Sebastian Szmyd,,/FAB191.png,,,,,,
 HVY135,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
