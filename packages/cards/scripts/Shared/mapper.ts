@@ -233,6 +233,9 @@ const specialImagePrintingOverrides: {
   "pitfall-trap-yellow": {
     setIdentifier: "LGS151",
   },
+  "ravenous-rabble-red": {
+    setIdentifier: "FAB190",
+  },
   "rockslide-trap-blue": {
     setIdentifier: "LGS152",
   },
