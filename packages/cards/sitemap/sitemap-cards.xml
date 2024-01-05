@@ -91,11 +91,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/pint-of-strong-and-stout-blue</loc>
-    <lastmod>2023-12-19</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/bigger-than-big-red</loc>
     <lastmod>2023-12-20</lastmod>
     <priority>0.5</priority>
@@ -108,6 +103,11 @@
   <url>
     <loc>https://fabrary.net/cards/bigger-than-big-blue</loc>
     <lastmod>2023-12-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pint-of-strong-and-stout-blue</loc>
+    <lastmod>2023-12-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

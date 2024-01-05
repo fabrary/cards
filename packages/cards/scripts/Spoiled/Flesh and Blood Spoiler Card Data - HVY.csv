@@ -104,9 +104,7 @@ HVY065,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY066,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY067,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY068,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY069,HVY,Pint of Strong and Stout,3,0,,2,,,"Guardian, Action",Go again,,,,,,"Create a Might and a Vigor token.
-
-**Go again**",Guardian Action,,,,,C,,,Mariusz Gandzel,,/HVY069.png,,,,,,,,,,,,
+HVY069,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY070,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY071,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY072,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -126,7 +124,9 @@ HVY085,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY086,HVY,Bigger Than Big,1,3,,2,,,"Guardian, Action, Aura",Wager,,,,,,"At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and ""When this attacks a hero, you may **wager** a Might token with them.""",Guardian Action - Aura,,,,,C,,,Tomasz Jedruszek,,/HVY086.png,,,,,,,,,,,,
 HVY087,HVY,Bigger Than Big,2,3,,2,,,"Guardian, Action, Aura",Wager,,,,,,"At the start of your turn, destroy this, then your next Guardian attack this turn gets +4{p} and ""When this attacks a hero, you may **wager** a Might token with them.""",Guardian Action - Aura,,,,,C,,,Tomasz Jedruszek,,/HVY087.png,,,,,,,,,,,,
 HVY088,HVY,Bigger Than Big,3,3,,2,,,"Guardian, Action, Aura",Wager,,,,,,"At the start of your turn, destroy this, then your next Guardian attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Might token with them.""",Guardian Action - Aura,,,,,C,,,Tomasz Jedruszek,,/HVY088.png,,,,,,,,,,,,
-HVY089,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY089,HVY,Pint of Strong and Stout,3,0,,2,,,"Guardian, Action",Go again,,,,,,"Create a Might and a Vigor token.
+
+**Go again**",Guardian Action,,,,,C,,,Mariusz Gandzel,,/HVY089.png,,,,,,,,,,,,
 HVY090,HVY,Kassai of the Golden Sand,,,,,40,4,"Warrior, Hero",,Once per Turn Action,Go again,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
 
 **Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero,,No,,No,M,,,Alexander Mokhov,,/HVY090.png,,,,,,,,,,,,
