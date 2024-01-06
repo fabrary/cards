@@ -355,6 +355,11 @@ const valda: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Valda),
 ];
 
+const victor: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Guardian]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Victor),
+];
+
 const viserai: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Runeblade]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Viserai),
@@ -572,6 +577,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   theryon,
   uzuri,
   valda,
+  victor,
   viserai,
   vynnset,
   yorick,

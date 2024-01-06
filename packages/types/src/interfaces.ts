@@ -292,6 +292,7 @@ export enum Hero {
   Theryon = "Theryon",
   Uzuri = "Uzuri",
   Valda = "Valda",
+  Victor = "Victor",
   Vynnset = "Vynnset",
   Viserai = "Viserai",
   Yorick = "Yorick",
