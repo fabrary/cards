@@ -80,10 +80,16 @@ HVY044,HVY,Smashback Alehorn,3,0,,2,,,"Brute, Action",Go again,,,,,,"Create an A
 **Go again**",Brute Action,,,,,C,,,Carlos Cruchaga,,/HVY044.png,,,,,,,,,,,,
 HVY045,HVY,"Betsy, Skin in the Game",,,,,40,4,"Guardian, Hero",Overpower,,,,,,"Whenever an attack you control **wagers**, you may pay {r}{r}. If you do, the attack gets +1{p} and **overpower**.",Guardian Hero,,No,,No,M,,,Simon Dominic,,/HVY045.png,V,C,,Simon Dominic,,,V,C,FA,Simon Dominic,,/HVY045_M_Back.png
 HVY046,HVY,Betsy,,,,,20,4,"Guardian, Hero, Young",Overpower,,,,,,"Whenever an attack you control **wagers**, you may pay {r}{r}. If you do, the attack gets +1{p} and **overpower**.",Guardian Hero - Young,,,No,,T,,,Simon Dominic,,/HVY046.png,V,C,,Simon Dominic,,,V,C,FA,Simon Dominic,,/HVY046_M_Back.png
-HVY047,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY048,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY047,HVY,"Victor Goldmane, High and Mighty",,,,,40,4,"Guardian, Hero",Clash,,,,,Clash,"The first time each turn you create a Gold token from an effect you control, draw a card.
+
+The first time each turn you would fail to win a **clash**, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then **clash** again.",Guardian Hero,,No,,No,M,,,Billy Christian,,/HVY047.png,,,,,,,,,,,,
+HVY048,HVY,Victor Goldmane,,,,,20,4,"Guardian, Hero, Young",Clash,,,,,Clash,"The first time each turn you create a Gold token from an effect you control, draw a card.
+
+The first time each turn you would fail to win a **clash**, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then **clash** again.",Guardian Hero,,,No,,T,,,Billy Christian,,/HVY048.png,,,,,,,,,,,,
 HVY049,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY050,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY050,HVY,Miller's Grindstone,,,4,,,,"Guardian, Weapon, Hammer, 1H",Clash,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+When this hits a hero, **clash** with them. If you win, destroy the top card of their deck. If they win, put a -1{p} counter on this.",Guardian Weapon - Hammer (1H),,,,,R,,,Marcus Reyno,,/HVY050.png,,,,,,,,,,,,
 HVY051,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY052,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY053,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -94,8 +100,12 @@ HVY057,HVY,Bet Big,1,4,8,3,,,"Guardian, Action, Attack","Betsy Specialization, W
 
 When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with them.",Guardian Action - Attack,,,,No,M,,,Faizal Fikri,,/HVY057.png,,,,,,,,,,,,
 HVY058,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY059,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY060,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY059,HVY,The Golden Son,2,4,7,3,,,"Guardian, Action, Attack","Victor Specialization, Overpower",,,,,Clash,"**Victor Specialization**
+
+As an additional cost to play this, you may destroy a Gold you control. If you do, this gets +3{p} and **overpower**.
+
+When you win a **clash** revealing this, create a Gold token.",Guardian Action - Attack,,,,No,M,,,Bastien Jez,"""Why wait for divine intervention, when gold can pave the way?"" - Victor Goldmane",/HVY059.png,,,,,,,,,,,,
+HVY060,HVY,Boast,3,,,3,,,"Guardian, Block",,,,,,Clash,"This gets +X{d} while defending, where X is twice the number of **clashes** you've won this turn.",Guardian Block,,,,No,M,,,Henrique Lindner,,/HVY060.png,,,,,,,,,,,,
 HVY061,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY062,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY063,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -103,9 +113,21 @@ HVY064,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY065,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY066,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY067,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY068,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY069,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY070,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY068,HVY,Stacked in Your Favor,1,2,,2,,,"Guardian, Action, Aura",Go again,,,,,,"**Go again**
+
+Your attack action cards get +3{d} while defending.
+
+At the start of your turn, destroy this, draw a card, then put a card from your hand on top of your deck.",Guardian Action - Aura,,,,No,R,,,Mariusz Gandzel,,/HVY068.png,,,,,,,,,,,,
+HVY069,HVY,Stacked in Your Favor,2,2,,2,,,"Guardian, Action, Aura",Go again,,,,,,"**Go again**
+
+Your attack action cards get +2{d} while defending.
+
+At the start of your turn, destroy this, draw a card, then put a card from your hand on top of your deck.",Guardian Action - Aura,,,,No,R,,,Mariusz Gandzel,,/HVY069.png,,,,,,,,,,,,
+HVY070,HVY,Stacked in Your Favor,3,2,,2,,,"Guardian, Action, Aura",Go again,,,,,,"**Go again**
+
+Your attack action cards get +1{d} while defending.
+
+At the start of your turn, destroy this, draw a card, then put a card from your hand on top of your deck.",Guardian Action - Aura,,,,No,R,,,Mariusz Gandzel,,/HVY070.png,,,,,,,,,,,,
 HVY071,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY072,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY073,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

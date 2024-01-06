@@ -129,6 +129,7 @@ export const fabDictionary = [
   "gilet",
   "gloomveil",
   "goldenhelm",
+  "goldmane",
   "gorganian",
   "grande",
   "grapplers",
