@@ -2461,6 +2461,7 @@ OSCCardDB = {
   ["FAB196"] = { name = "Wage Gold (1)", text = "**Universal**\n\nWhen this attacks a hero, you may **wager** a Gold token with them.", keywords = "Universal,Wager", types = "Action"},
   ["FAB197"] = { name = "Wage Gold (2)", text = "**Universal**\n\nWhen this attacks a hero, you may **wager** a Gold token with them.", keywords = "Universal,Wager", types = "Action"},
   ["FAB198"] = { name = "Wage Gold (3)", text = "**Universal**\n\nWhen this attacks a hero, you may **wager** a Gold token with them.", keywords = "Universal,Wager", types = "Action"},
+  ["FAB223"] = { name = "Energy Potion (3)", text = "**Instant** - Destroy this: Gain {r}{r}", keywords = "", types = "Action"},
   ["FAI001"] = { name = "Fai", text = "You may start the game with a Phoenix Flame in your graveyard.\n\n**Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.", keywords = "", types = "Hero"},
   ["FAI002"] = { name = "Searing Emberblade", text = "**Once per Turn Action** - {r}{r}: **Attack**\n\nIf you control 2 or more Draconic chain links, Searing Emberblade has **go again**.", keywords = "Go again", types = "Weapon"},
   ["FAI003"] = { name = "Hope Merchant's Hood", text = "**Instant** - Destroy Hope Merchant's Hood: Shuffle any number of cards from your hand into your deck, then draw that many cards.", keywords = "", types = "Equipment"},

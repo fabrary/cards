@@ -1,5 +1,6 @@
 import { Card, Hero } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants";
+import { Keyword } from "@flesh-and-blood/types";
 
 const nameOverrides: { [key: string]: string } = {
   "Dawnblade, Resplendent": "Dawnblade",
@@ -46,6 +47,11 @@ export const getRelatedCards = (
       if (sameName && differentPitch) {
         otherPitches.push(other);
       } else if (!sameName) {
+        const isCardSeismicSurge = card.name === "Seismic Surge";
+        const isOtherCardHeaved = other.keywords?.includes(Keyword.Heave);
+        const isOtherCardHeaveOverride =
+          isCardSeismicSurge && isOtherCardHeaved;
+
         const otherFunctionalText =
           getFunctionalTextWithoutSelfReferences(other);
         const cardIsInOtherFunctionalText =
@@ -57,14 +63,19 @@ export const getRelatedCards = (
         //   other.types.includes(Type.Hero) &&
         //   (card.name.includes(other.name) || other.name.includes(card.name));
         if (
-          cardIsInOtherFunctionalText
+          cardIsInOtherFunctionalText ||
+          isOtherCardHeaveOverride
           // && !isHeroNameSubset
           // && !other.types.includes(Type.Hero)
           // && !other.keywords?.includes(card.name as Keyword)
         ) {
           initialReferencedBy.push(other);
         }
-        if (otherCardIsInFunctionalText) {
+
+        const isOtherCardSeismicSurge = other.name === "Seismic Surge";
+        const isCardHeaved = card.keywords?.includes(Keyword.Heave);
+        const isCardHeaveOverride = isOtherCardSeismicSurge && isCardHeaved;
+        if (otherCardIsInFunctionalText || isCardHeaveOverride) {
           initialReferences.push(other);
         }
       }
@@ -107,7 +118,6 @@ export const getTokensReferencedByCards = (
     for (const token of references.filter((token) => {
       const isHyperDriver = token.name === "Hyper Driver";
       const isMaxx = hero === Hero.Maxx;
-      // Return Hyper Driver card for Max
 
       return !isHyperDriver || isMaxx;
     })) {

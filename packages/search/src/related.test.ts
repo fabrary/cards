@@ -20,6 +20,7 @@ describe("Related cards", () => {
     ["Runechant", 0, 88, 0],
     ["Spectral Shield", 0, 33, 0],
     ["Tales of Adventure", 0, 0, 13],
+    ["Seismic Surge", 0, 19, 0],
   ];
 
   it.each(related)(
@@ -77,6 +78,7 @@ describe("Related cards", () => {
     [["Cash In", "Crown of Dominion"], ["Gold"]],
     [["Squizzy & Floof"], ["Cracked Bauble", "Gold"]],
     [["Shitty Xmas Present"], ["Cracked Bauble"]],
+    [["Pulverize"], ["Seismic Surge"]],
   ];
 
   it.each(tokens)(
