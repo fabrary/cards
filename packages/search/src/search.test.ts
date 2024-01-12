@@ -304,6 +304,18 @@ describe("Card search", () => {
       .map(({ name }) => name);
     expect(cardsWithCommonRarity).toEqual([]);
   });
+
+  const punctuationCards = ["power:*", "{r}", "{p}"];
+
+  it.each(punctuationCards)(
+    "Handles punctuation correctly for %s",
+    (criteria) => {
+      const { searchResults } = cardSearch.search(criteria);
+
+      expect(searchResults.length).toBeGreaterThan(0);
+      expect(searchResults.length).toBeLessThan(Math.round(cards.length / 2));
+    }
+  );
 });
 
 const randomizeCapitalization = (str: string) =>

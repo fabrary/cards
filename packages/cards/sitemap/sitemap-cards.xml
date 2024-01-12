@@ -191,8 +191,28 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/take-the-upper-hand-yellow</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/take-the-upper-hand-blue</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hold-em-red</loc>
     <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hold-em-yellow</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hold-em-blue</loc>
+    <lastmod>2024-01-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -226,6 +246,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/wage-might-yellow</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wage-might-blue</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/test-of-agility-red</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>
@@ -251,8 +281,28 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/wage-agility-yellow</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wage-agility-blue</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/wage-vigor-red</loc>
     <lastmod>2023-12-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wage-vigor-yellow</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wage-vigor-blue</loc>
+    <lastmod>2024-01-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -301,6 +351,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/money-where-ya-mouth-is-yellow</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/money-where-ya-mouth-is-blue</loc>
+    <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/starting-stake-yellow</loc>
+    <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/test-of-strength-red</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>
@@ -311,8 +376,23 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/might</loc>
+    <lastmod>2023-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vigor</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/gold</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cracked-bauble</loc>
+    <lastmod>2024-01-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -348,11 +428,6 @@
   <url>
     <loc>https://fabrary.net/cards/luminaris-angels-glow</loc>
     <lastmod>2023-12-09</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/starting-stake-yellow</loc>
-    <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -7081,11 +7156,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/might</loc>
-    <lastmod>2023-09-06</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/mind-warp-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -12558,11 +12628,6 @@
   <url>
     <loc>https://fabrary.net/cards/victoria-archangel-of-triumph</loc>
     <lastmod>2023-06-30</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/vigor</loc>
-    <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

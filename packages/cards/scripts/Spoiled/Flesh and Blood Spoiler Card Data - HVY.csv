@@ -192,8 +192,12 @@ HVY111,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY112,HVY,Take the Upper Hand,1,0,,3,,,"Warrior, Attack Reaction",Wager,,,,,,"Play this only if you've **wagered** this chain link.
 
 Target attack gets +3{p}.",Warrior Attack Reaction,,,,No,R,,,Faizal Fikri,,/HVY112.png,,,,,,,,,,,,
-HVY113,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY114,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY113,HVY,Take the Upper Hand,2,0,,3,,,"Warrior, Attack Reaction",Wager,,,,,,"Play this only if you've **wagered** this chain link.
+
+Target attack gets +2{p}.",Warrior Attack Reaction,,,,No,R,,,Faizal Fikri,,/HVY113.png,,,,,,,,,,,,
+HVY114,HVY,Take the Upper Hand,3,0,,3,,,"Warrior, Attack Reaction",Wager,,,,,,"Play this only if you've **wagered** this chain link.
+
+Target attack gets +1{p}.",Warrior Attack Reaction,,,,No,R,,,Faizal Fikri,,/HVY114.png,,,,,,,,,,,,
 HVY115,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY116,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY117,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -209,11 +213,15 @@ HVY126,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY127,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY128,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY129,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY130,HVY,Hold 'em,1,1,,3,,,"Warrior, Action",Go again,,,Wager,,,"Your next Warrior attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Vigor token with them.""
+HVY130,HVY,Hold 'em,1,1,,3,,,"Warrior, Action","Go again, Wager",,,Wager,,,"Your next Warrior attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Vigor token with them.""
 
 **Go again**",Warrior Action,,,,,C,S,,Isuardi Therianto,,/HVY130.png,,,,,,,,,,,,
-HVY131,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY132,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY131,HVY,Hold 'em,2,1,,3,,,"Warrior, Action","Go again, Wager",,,,,,"Your next Warrior attack this turn gets +2{p} and ""When this attacks a hero, you may **wager** a Vigor token with them.""
+
+**Go again**",Warrior Action,,,,,C,,,Isuardi Therianto,,/HVY131.png,,,,,,,,,,,,
+HVY132,HVY,Hold 'em,3,1,,3,,,"Warrior, Action","Go again, Wager",,,,,,"Your next Warrior attack this turn gets +1{p} and ""When this attacks a hero, you may **wager** a Vigor token with them.""
+
+**Go again**",Warrior Action,,,,,C,,,Isuardi Therianto,,/HVY132.png,,,,,,,,,,,,
 HVY133,HVY,Goblet of Bloodrun Wine,3,0,,2,,,"Warrior, Action",Go again,,,,,,"Create an Agility and a Vigor token.
 
 **Go again**",Warrior Action,,,,,C,,,Ausonia,,/HVY133.png,,,,,,,,,,,,
@@ -235,8 +243,8 @@ HVY146,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY147,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY148,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY149,HVY,Wage Might,1,3,7,2,,,"Brute, Guardian, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Might token with them.",Brute / Guardian Action - Attack,,,,,C,,,Septimius Ferdian,,/HVY149.png,,,,,,,,,,,,
-HVY150,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY151,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY150,HVY,Wage Might,2,3,6,2,,,"Brute, Guardian, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Might token with them.",Brute / Guardian Action - Attack,,,,,C,,,Septimius Ferdian,,/HVY150.png,,,,,,,,,,,,
+HVY151,HVY,Wage Might,3,3,5,2,,,"Brute, Guardian, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Might token with them.",Brute / Guardian Action - Attack,,,,,C,,,Septimius Ferdian,,/HVY151.png,,,,,,,,,,,,
 HVY152,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY153,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY154,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -254,9 +262,9 @@ HVY165,HVY,Agile Windup,3,3,5,2,,,"Brute, Warrior, Action, Attack",,Instant,,,,,
 HVY166,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY167,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY168,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY169,HVY,Wage Agility,1,3,7,2,,,"Brute, Warrior, Action, Attack",,,,,,,"When this attacks a hero, you may **wager** an Agility token with them.",Brute / Warrior Action - Attack,,,,,C,,,Marco Gonalez,,/HVY169.png,,,,,,,,,,,,
-HVY170,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY171,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY169,HVY,Wage Agility,1,3,7,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** an Agility token with them.",Brute / Warrior Action - Attack,,,,,C,,,Marco Gonalez,,/HVY169.png,,,,,,,,,,,,
+HVY170,HVY,Wage Agility,2,3,6,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** an Agility token with them.",Brute / Warrior Action - Attack,,,,,C,,,Marco Gonalez,,/HVY170.png,,,,,,,,,,,,
+HVY171,HVY,Wage Agility,3,3,5,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** an Agility token with them.",Brute / Warrior Action - Attack,,,,,C,,,Marco Gonalez,,/HVY171.png,,,,,,,,,,,,
 HVY172,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY173,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY174,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -274,9 +282,9 @@ HVY185,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY186,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY187,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY188,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY189,HVY,Wage Vigor,1,3,7,2,,,"Guardian, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Vigot token with them.",Guardian / Warrior Action - Attack,,,,,C,,,Mariusz Gandzel,,/HVY189.png,,,,,,,,,,,,
-HVY190,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY191,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY189,HVY,Wage Vigor,1,3,7,2,,,"Guardian, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Vigor token with them.",Guardian / Warrior Action - Attack,,,,,C,,,Mariusz Gandzel,,/HVY189.png,,,,,,,,,,,,
+HVY190,HVY,Wage Vigor,2,3,6,2,,,"Guardian, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Vigor token with them.",Guardian / Warrior Action - Attack,,,,,C,,,Mariusz Gandzel,,/HVY190.png,,,,,,,,,,,,
+HVY191,HVY,Wage Vigor,3,3,5,2,,,"Guardian, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Vigor token with them.",Guardian / Warrior Action - Attack,,,,,C,,,Mariusz Gandzel,,/HVY191.png,,,,,,,,,,,,
 HVY192,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY193,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY194,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -337,15 +345,15 @@ HVY232,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY233,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY234,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY235,HVY,Money Where Ya Mouth Is,1,1,,2,,,"Generic, Action",Go again,,,Wager,,,"Your next attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,S,,Athiwut B.,,/HVY235.png,,,,,,,,,,,,
-HVY236,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY237,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY238,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY236,HVY,Money Where Ya Mouth Is,2,1,,2,,,"Generic, Action",Go again,,,Wager,,,"Your next attack this turn gets +2{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,,,Athiwut B.,,/HVY236.png,,,,,,,,,,,,
+HVY237,HVY,Money Where Ya Mouth Is,3,1,,2,,,"Generic, Action",Go again,,,Wager,,,"Your next attack this turn gets +1{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,,,Athiwut B.,,/HVY237.png,,,,,,,,,,,,
+"HVY238, LGS228","HVY, LGS",Starting Stake,2,0,,3,,,"Generic, Action",,,,,,,"If you control no Gold tokens, create a Gold token.",Generic Action,,,,,C,,,Isuardi Therianto,,/HVY238.png,P,S,,Isuardi Therianto,,/LGS228.png,,,,,,
 HVY239,HVY,Test of Strength,1,,,4,,,"Generic, Block",Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner creates a Gold token.",Generic Block,,,,,C,S,,Carlos Cruchaga,,/HVY239.png,,,,,,,,,,,,
 HVY240,HVY,Agility,,,,,,,"Generic, Token, Aura",,,,Go again,,,"At the start of your turn, destroy this, then your next attack this turn gets **go again**.",Generic Token - Aura,,,,,T,S,,Tomasz Jedruszek,,/HVY240.png,,,,,,,,,,,,
-HVY241,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY242,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY241,HVY,Might,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",Generic Token - Aura,,,,,T,,,Henrique Lindner,,/HVY241.png,,,,,,,,,,,,
+HVY242,HVY,Vigor,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then gain {r}.",Generic Token - Aura,,,,,T,,,Rio Sabda,,/HVY242.png,,,,,,,,,,,,
 HVY243,HVY,Gold,,,,,,,"Generic, Token, Item",Go again,,,,,,"**Action** - {r}{r}, destroy this: Draw a card. **Go again**",Generic Token - Item,,,,,T,S,,Stormy Elia Fanggidae,,/HVY243.png,,,,,,,,,,,,
-HVY244,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY244,HVY,Cracked Bauble,,,,,,,"Generic, Resource",,,,,,,,Generic Resource,,,,,T,,,Sam Yang,,/HVY244.png,,,,,,,,,,,,
 HVY245,HVY,Graven Call,,,1,,,,"Assassin, Weapon, Dagger, 1H",Piercing 1,"Once per Turn Action, Instant","Attack, Go again",,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 **Piercing 1**
