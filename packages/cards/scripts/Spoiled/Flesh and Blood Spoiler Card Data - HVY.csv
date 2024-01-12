@@ -82,10 +82,10 @@ HVY045,HVY,"Betsy, Skin in the Game",,,,,40,4,"Guardian, Hero",Overpower,,,,,,"W
 HVY046,HVY,Betsy,,,,,20,4,"Guardian, Hero, Young",Overpower,,,,,,"Whenever an attack you control **wagers**, you may pay {r}{r}. If you do, the attack gets +1{p} and **overpower**.",Guardian Hero - Young,,,No,,T,,,Simon Dominic,,/HVY046.png,V,C,,Simon Dominic,,,V,C,FA,Simon Dominic,,/HVY046_M_Back.png
 HVY047,HVY,"Victor Goldmane, High and Mighty",,,,,40,4,"Guardian, Hero",Clash,,,,,Clash,"The first time each turn you create a Gold token from an effect you control, draw a card.
 
-The first time each turn you would fail to win a **clash**, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then **clash** again.",Guardian Hero,,No,,No,M,,,Billy Christian,,/HVY047.png,,,,,,,,,,,,
+The first time each turn you would fail to win a **clash**, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then **clash** again.",Guardian Hero,,No,,No,M,,,Billy Christian,,/HVY047.png,V,C,,Billy Christian,,/HVY047_M.png,V,C,FA,Billy Christian,,/HVY047_M_Back.png
 HVY048,HVY,Victor Goldmane,,,,,20,4,"Guardian, Hero, Young",Clash,,,,,Clash,"The first time each turn you create a Gold token from an effect you control, draw a card.
 
-The first time each turn you would fail to win a **clash**, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then **clash** again.",Guardian Hero,,,No,,T,,,Billy Christian,,/HVY048.png,,,,,,,,,,,,
+The first time each turn you would fail to win a **clash**, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then **clash** again.",Guardian Hero,,,No,,T,,,Billy Christian,,/HVY048.png,V,C,,Billy Christian,,/HVY048_M.png,V,C,FA,Billy Christian,,/HVY048_M_Back.png
 HVY049,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY050,HVY,Miller's Grindstone,,,4,,,,"Guardian, Weapon, Hammer, 1H",Clash,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
@@ -151,12 +151,12 @@ HVY089,HVY,Pint of Strong and Stout,3,0,,2,,,"Guardian, Action",Go again,,,,,,"C
 **Go again**",Guardian Action,,,,,C,,,Mariusz Gandzel,,/HVY089.png,,,,,,,,,,,,
 HVY090,HVY,Kassai of the Golden Sand,,,,,40,4,"Warrior, Hero",,Once per Turn Action,Go again,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
 
-**Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero,,No,,No,M,,,Alexander Mokhov,,/HVY090.png,,,,,,,,,,,,
+**Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero,,No,,No,M,,,Alexander Mokhov,,/HVY090.png,V,C,,Alexander Mokhov,,/HVY090_M.png,V,C,FA,Alexander Mokhov,,/HVY090_M_Back.png
 HVY091,HVY,Kassai,,,,,20,4,"Warrior, Hero, Young",,Once per Turn Action,Go again,,,,"If you've drawn a card this turn, your sword attacks cost {r} less to activate.
 
-**Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero - Young,,,No,,T,,,soyameii,,/HVY091.png,,,,,,,,,,,,
-HVY092,HVY,"Olympia, Prized Fighter",,,,,40,4,"Warrior, Hero",Wager,,,,,,"The first time each of your attacks wins a **wager**, create a Gold token.",Warrior Hero,,No,,No,M,,,Joseph Qiu,,/HVY092.png,,,,,,,,,,,,
-HVY093,HVY,Olympia,,,,,20,4,"Warrior, Hero, Young",Wager,,,,,,"The first time each of your attacks wins a **wager**, create a Gold token.",Warrior Hero - Young,,,No,,T,,,Joseph Qiu,,/HVY093.png,,,,,,,,,,,,
+**Once per Turn Action** - Banish 2 red and 2 yellow cards from your graveyard: The next time a weapon you control hits a hero this turn, create a Gold token. **Go again**",Warrior Hero - Young,,,No,,T,,,soyameii,,/HVY091.png,V,C,,soyameii,,/HVY091_M.png,V,C,FA,soyameii,,/HVY091_M_Back.png
+HVY092,HVY,"Olympia, Prized Fighter",,,,,40,4,"Warrior, Hero",Wager,,,,,,"The first time each of your attacks wins a **wager**, create a Gold token.",Warrior Hero,,No,,No,M,,,Joseph Qiu,,/HVY092.png,V,C,,Joseph Qiu,,/HVY092_M.png,V,C,FA,Joseph Qiu,,/HVY092_M_Back.png
+HVY093,HVY,Olympia,,,,,20,4,"Warrior, Hero, Young",Wager,,,,,,"The first time each of your attacks wins a **wager**, create a Gold token.",Warrior Hero - Young,,,No,,T,,,Joseph Qiu,,/HVY093.png,V,C,,Joseph Qiu,,/HVY093_M.png,V,C,FA,Joseph Qiu,,/HVY093_M_Back.png
 HVY094,HVY,Cintari Saber,,,2,,,,"Warrior, Weapon, Sword, 1H",,,,,,,"**Once per Turn Action** - {r}: **Attack**
 
 When this is defended by 1 or more attack action cards, this gets +1{p} until end of turn.",Warrior Weapon - Sword (1H),,,,,T,,,Reza Afshar,,/HVY094.png,,,,,,,,,,,,
