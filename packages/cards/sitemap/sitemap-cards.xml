@@ -391,8 +391,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/cracked-bauble</loc>
-    <lastmod>2024-01-12</lastmod>
+    <loc>https://fabrary.net/cards/cracked-bauble-yellow</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -2847,11 +2847,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/courageous-steelhand-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/cracked-bauble-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>

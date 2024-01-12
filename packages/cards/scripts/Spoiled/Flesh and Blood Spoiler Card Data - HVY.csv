@@ -353,7 +353,7 @@ HVY240,HVY,Agility,,,,,,,"Generic, Token, Aura",,,,Go again,,,"At the start of y
 HVY241,HVY,Might,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",Generic Token - Aura,,,,,T,,,Henrique Lindner,,/HVY241.png,,,,,,,,,,,,
 HVY242,HVY,Vigor,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then gain {r}.",Generic Token - Aura,,,,,T,,,Rio Sabda,,/HVY242.png,,,,,,,,,,,,
 HVY243,HVY,Gold,,,,,,,"Generic, Token, Item",Go again,,,,,,"**Action** - {r}{r}, destroy this: Draw a card. **Go again**",Generic Token - Item,,,,,T,S,,Stormy Elia Fanggidae,,/HVY243.png,,,,,,,,,,,,
-HVY244,HVY,Cracked Bauble,,,,,,,"Generic, Resource",,,,,,,,Generic Resource,,,,,T,,,Sam Yang,,/HVY244.png,,,,,,,,,,,,
+HVY244,HVY,Cracked Bauble,2,,,,,,"Generic, Resource",,,,,,,,Generic Resource,,,,,T,,,Sam Yang,,/HVY244.png,,,,,,,,,,,,
 HVY245,HVY,Graven Call,,,1,,,,"Assassin, Weapon, Dagger, 1H",Piercing 1,"Once per Turn Action, Instant","Attack, Go again",,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 **Piercing 1**
