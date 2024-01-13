@@ -15,5 +15,6 @@ If a hero would create 1 or more tokens from a **wager** this turn, instead they
 FAB195,"FAB, HVY",Talk a Big Game,3,0,,3,,,"Brute, Guardian, Action",Go again,,,,,,"Choose a number. The next time you deal that much or more {p} damage to a hero this turn, create that many Might tokens.
 
 **Go again**",Brute / Guardian Action,,,,,P,R,EA,Tomasz Jedruszek,,/FAB195.png,,,,,,,,,,,,,,
+FAB200,FAB,Wrecker Romp,3,2,6,3,,,"Brute, Action, Attack",,,,,,,"As an additional cost to play this, discard a random card.",Brute Action - Attack,,,,,P,R,,BWusagi,,/FAB200.png,,,,,,,,,,,,,,
 FAB223,FAB,Energy Potion,3,0,,,,,"Generic, Action, Item",Instant,,,,,,**Instant** - Destroy this: Gain {r}{r},Generic Action - Item,,,,No,P,C,EA,Alexis Susani,,/FAB223.png,,,,,,,,,,,,,,
 "LSS014, LSS015, LSS016",LSS,Popped Collar Polo,,,,0,,,"Generic, Equipment, Chest",,Action,Go again,,,,**Action** - Destroy this: Gain {r}. **Go again**,Generic Equipment - Chest,,No,No,No,P,C,,Jessketchin,,/LSS014.png,,,P,C,,Jessketchin,,/LSS015.png,P,C,,Jessketchin,,/LSS016.png
