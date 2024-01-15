@@ -101,7 +101,11 @@ HVY052,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY053,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY054,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY055,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY056,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY056,HVY,Stand Ground,,,,0,,,"Guardian, Equipment, Legs",Temper,,,,,,"If you control a Might token, this gets +1{d}.
+
+If you control a Vigor token, this gets +1{d}.
+
+**Temper**",Guardian Equipment - Legs,,,,,C,,,Vera Rudichenko,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY056.png,,,,,,,,,,,,
 HVY057,HVY,Bet Big,1,4,8,3,,,"Guardian, Action, Attack","Betsy Specialization, Wager",,,,,,"**Betsy Specialization**
 
 When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with them.",Guardian Action - Attack,,,,No,M,,,Faizal Fikri,,/HVY057.png,,,,,,,,,,,,
@@ -301,7 +305,7 @@ HVY192,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY193,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY194,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY195,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY196,HVY,Glory Seeker,,,,,,,"Generic, Equipment, Head",,,,,,,"**Instant** - {r}{r}{r}, destroy this: Draw a card.",Generic Equipment - Head,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png,,,,,,,,,,,,
+HVY196,HVY,Glory Seeker,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: Draw a card.",Generic Equipment - Head,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png,,,,,,,,,,,,
 HVY197,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY198,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY199,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

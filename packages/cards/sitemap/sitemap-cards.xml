@@ -116,6 +116,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/stand-ground</loc>
+    <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bet-big-red</loc>
     <lastmod>2023-12-20</lastmod>
     <priority>0.5</priority>
