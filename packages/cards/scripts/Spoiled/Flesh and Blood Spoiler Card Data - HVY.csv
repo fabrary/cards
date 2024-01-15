@@ -19,7 +19,9 @@ If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.",Brute
 HVY007,HVY,Mini Meataxe,,,3,,,,"Brute, Weapon, Axe, 1H",,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**
 
 When this attacks, draw a card then discard a random card.",Brute Weapon - Axe (1H),,,,,R,,,,,/HVY007.png,,,,,,,,,,,,
-HVY008,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY008,HVY,Apex Bonebreaker,,,,2,,,"Brute, Equipment, Arms",Temper,,,,,,"When this defends together with a card with 6 or more {p}, create a Might token.
+
+**Temper**",Brute Equipment - Arms,,,,No,L,,,Nuttapong Thanawiwitaporn,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY008.png,,,,,,,,,,,,
 HVY009,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY010,HVY,Monstrous Veil,,,,1,,,"Brute, Equipment, Head","Rhinar Specialization, Battleworn, Go again",,,,,,"**Rhinar Specialization**
 
