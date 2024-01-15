@@ -310,7 +310,9 @@ HVY191,HVY,Wage Vigor,3,3,5,2,,,"Guardian, Warrior, Action, Attack",Wager,,,,,,"
 HVY192,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY193,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY194,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY195,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY195,HVY,Balance of Justice,,,,2,,,"Generic, Equipment, Head",Guardwell,,,,,,"**Instant** - Destroy this: Draw a card. Activate this ability only if an opponent has drawn 2 or more cards this turn.
+
+**Guardwell**",Generic Equipment - Head,,,,No,L,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png,,,,,,,,,,,,
 HVY196,HVY,Glory Seeker,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: Draw a card.",Generic Equipment - Head,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png,,,,,,,,,,,,
 HVY197,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY198,HVY,Face Adversity,,,,2,,,"Generic, Equipment, Head",Blade Break,,,,,,"This may only defend an attack if the attack's controller has drawn a card this turn.

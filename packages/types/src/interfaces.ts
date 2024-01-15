@@ -323,6 +323,7 @@ export enum Keyword {
   Fusion = "Fusion",
   Galvanize = "Galvanize",
   GoAgain = "Go again",
+  Guardwell = "Guardwell",
   Heave = "Heave",
   Intimidate = "Intimidate",
   Legendary = "Legendary",
