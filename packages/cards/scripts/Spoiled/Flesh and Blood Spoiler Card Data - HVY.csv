@@ -100,7 +100,7 @@ If you've drawn a card this turn, this gets +1{p}.",Guardian Weapon - Hammer (1H
 HVY050,HVY,Miller's Grindstone,,,4,,,,"Guardian, Weapon, Hammer, 1H",Clash,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
 When this hits a hero, **clash** with them. If you win, destroy the top card of their deck. If they win, put a -1{p} counter on this.",Guardian Weapon - Hammer (1H),,,,,R,,,Marcus Reyno,,/HVY050.png,,,,,,,,,,,,
-HVY051,HVY,Aurum Aegis,,,,2,,,"Guardian, Equipment, Off-Hand","Victor Specialization, Temper",,,,,,"Victor Specialization
+HVY051,HVY,Aurum Aegis,,,,2,,,"Guardian, Equipment, Off-Hand","Victor Specialization, Temper",,,,,,"**Victor Specialization**
 
 This counts as a Gold.
 
@@ -188,7 +188,9 @@ HVY096,HVY,Parry Blade,,,2,0,,,"Warrior, Weapon, Equipment, Sword, 1H",Blade Bre
 This gets +2{d} while defending a weapon attack.
 
 **Blade Break**",Warror Weapon Equipment - Sword (1H),,,,,R,,,,,/HVY096.png,,,,,,,,,,,,
-HVY097,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY097,HVY,Grains of Bloodspill,,,,2,,,"Warrior, Equipment, Chest",Temper,,,,,,"Whenever a weapon attack you control hits, you may pay {r}. If you do, create a Vigor token. 
+
+**Temper**",Warrior Equipment - Chest,,,,No,L,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY097.png,,,,,,,,,,,,
 HVY098,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY099,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY100,HVY,Beckon Applause,,,,0,,,"Warrior, Equipment, Arms",Temper,,,,,,"If you control an Agility token, this gets +1{d}.
