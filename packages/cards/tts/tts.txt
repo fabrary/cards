@@ -2645,6 +2645,7 @@ OSCCardDB = {
   ["HVY189"] = { name = "Wage Vigor (1)", text = "When this attacks a hero, you may **wager** a Vigor token with them.", keywords = "Wager", types = "Action"},
   ["HVY190"] = { name = "Wage Vigor (2)", text = "When this attacks a hero, you may **wager** a Vigor token with them.", keywords = "Wager", types = "Action"},
   ["HVY191"] = { name = "Wage Vigor (3)", text = "When this attacks a hero, you may **wager** a Vigor token with them.", keywords = "Wager", types = "Action"},
+  ["HVY196"] = { name = "Glory Seeker", text = "**Instant** - {r}{r}{r}, destroy this: Draw a card.", keywords = "", types = "Equipment"},
   ["HVY202"] = { name = "Headliner Helm", text = "Headliner Helm's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["HVY203"] = { name = "Stadium Centerpiece", text = "Stadium Centerpiece's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["HVY204"] = { name = "Ticket Puncher", text = "Ticket Puncher's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
