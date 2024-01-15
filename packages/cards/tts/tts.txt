@@ -2630,6 +2630,7 @@ OSCCardDB = {
   ["HVY132"] = { name = "Hold 'em (3)", text = "Your next Warrior attack this turn gets +1{p} and \"When this attacks a hero, you may **wager** a Vigor token with them.\"\n\n**Go again**", keywords = "Go again,Wager", types = "Action"},
   ["HVY133"] = { name = "Goblet of Bloodrun Wine (3)", text = "Create an Agility and a Vigor token.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["HVY134"] = { name = "Cintari Sellsword", text = "**Once per Turn Action** - {r}: **Attack**. **Go again**\n\nCintari Sellsword can only attack if you've attacked with a weapon this turn.", keywords = "Go again", types = "Token"},
+  ["HVY135"] = { name = "Gauntlet of Might", text = "Action - Destroy this: Create a Might token. **Go again**\n\n**Blade Break**", keywords = "Blade Break,Go again", types = "Equipment"},
   ["HVY143"] = { name = "Mighty Windup (1)", text = "**Instant** - Discard this: Create a Might token.", keywords = "", types = "Action"},
   ["HVY144"] = { name = "Mighty Windup (2)", text = "**Instant** - Discard this: Create a Might token.", keywords = "", types = "Action"},
   ["HVY145"] = { name = "Mighty Windup (3)", text = "**Instant** - Discard this: Create a Might token.", keywords = "", types = "Action"},

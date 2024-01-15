@@ -244,7 +244,9 @@ HVY133,HVY,Goblet of Bloodrun Wine,3,0,,2,,,"Warrior, Action",Go again,,,,,,"Cre
 "HVY134, FAB191","HVY, FAB",Cintari Sellsword,,,3,,2,,"Warrior, Token, Mercenary, Ally",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. **Go again**
 
 Cintari Sellsword can only attack if you've attacked with a weapon this turn.",Warrior Token - Mercenary Ally,,,,,T,S,,Sebastian Szmyd,,/HVY134.png,P,C,EA,Sebastian Szmyd,,/FAB191.png,,,,,,
-HVY135,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY135,HVY,Gauntlet of Might,,,,1,,,"Brute, Guardian, Equipment, Arms","Go again, Blade Break",,,,,,"Action - Destroy this: Create a Might token. **Go again**
+
+**Blade Break**",Brute / Guardian Equipment - Arms,,,,,C,,,Alifka Hammam Nugroho,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY135.png,,,,,,,,,,,,
 HVY136,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY137,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY138,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
