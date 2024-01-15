@@ -29,6 +29,7 @@ export const fabDictionary = [
   "argh…",
   "arknight",
   "ashwing",
+  "aurum",
   "autosave",
   "azvolai",
   "blu",

@@ -41,6 +41,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/monstrous-veil</loc>
+    <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/show-no-mercy-red</loc>
     <lastmod>2023-12-29</lastmod>
     <priority>0.5</priority>
@@ -113,6 +118,11 @@
   <url>
     <loc>https://fabrary.net/cards/millers-grindstone</loc>
     <lastmod>2024-01-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/aurum-aegis</loc>
+    <lastmod>2024-01-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
