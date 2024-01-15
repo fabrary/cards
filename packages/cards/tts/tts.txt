@@ -2645,6 +2645,7 @@ OSCCardDB = {
   ["HVY169"] = { name = "Wage Agility (1)", text = "When this attacks a hero, you may **wager** an Agility token with them.", keywords = "Wager", types = "Action"},
   ["HVY170"] = { name = "Wage Agility (2)", text = "When this attacks a hero, you may **wager** an Agility token with them.", keywords = "Wager", types = "Action"},
   ["HVY171"] = { name = "Wage Agility (3)", text = "When this attacks a hero, you may **wager** an Agility token with them.", keywords = "Wager", types = "Action"},
+  ["HVY175"] = { name = "Vigor Girth", text = "Action - Destroy this: Create a Vigor token. **Go again**\n\n**Blade Break**", keywords = "Blade Break,Go again", types = "Equipment"},
   ["HVY189"] = { name = "Wage Vigor (1)", text = "When this attacks a hero, you may **wager** a Vigor token with them.", keywords = "Wager", types = "Action"},
   ["HVY190"] = { name = "Wage Vigor (2)", text = "When this attacks a hero, you may **wager** a Vigor token with them.", keywords = "Wager", types = "Action"},
   ["HVY191"] = { name = "Wage Vigor (3)", text = "When this attacks a hero, you may **wager** a Vigor token with them.", keywords = "Wager", types = "Action"},

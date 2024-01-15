@@ -290,7 +290,9 @@ HVY171,HVY,Wage Agility,3,3,5,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"W
 HVY172,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY173,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY174,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY175,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY175,HVY,Vigor Girth,,,,1,,,"Guardian, Warrior, Equipment, Chest","Go again, Blade Break",,,,,,"Action - Destroy this: Create a Vigor token. **Go again**
+
+**Blade Break**",Guardian / Warrior Equipment - Chest,,,,,C,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY175.png,,,,,,,,,,,,
 HVY176,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY177,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY178,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
