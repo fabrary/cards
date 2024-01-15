@@ -313,10 +313,18 @@ HVY194,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY195,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY196,HVY,Glory Seeker,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: Draw a card.",Generic Equipment - Head,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png,,,,,,,,,,,,
 HVY197,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY198,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY199,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY200,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY201,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY198,HVY,Face Adversity,,,,2,,,"Generic, Equipment, Head",Blade Break,,,,,,"This may only defend an attack if the attack's controller has drawn a card this turn.
+
+**Blade Break**",Generic Equipment - Head,,,,,C,,,Arif Wijaya,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY198.png,,,,,,,,,,,,
+HVY199,HVY,Confront Adversity,,,,2,,,"Generic, Equipment, Chest",Blade Break,,,,,,"This may only defend an attack if the attack's controller has destroyed a Vigor token this turn.
+
+**Blade Break**",Generic Equipment - Chest,,,,,C,,,Felicia Liang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY199.png,,,,,,,,,,,,
+HVY200,HVY,Embrace Adversity,,,,2,,,"Generic, Equipment, Arms",Blade Break,,,,,,"This may only defend an attack if the attack's controller has destroyed a Might token this turn.
+
+**Blade Break**",Generic Equipment - Arms,,,,,C,,,Arif Wijaya,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY200.png,,,,,,,,,,,,
+HVY201,HVY,Overcome Adversity,,,,2,,,"Generic, Equipment, Legs",Blade Break,,,,,,"This may only defend an attack if the attack's controller has destroyed an Agility token this turn.
+
+**Blade Break**",Generic Equipment - Legs,,,,,C,,,Felicia Liang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY201.png,,,,,,,,,,,,
 HVY202,HVY,Headliner Helm,,,,*,,,"Generic, Equipment, Head",Blade Break,,,,,,"Headliner Helm's {d} is equal to the number of opposing heroes with greater {h} than you.
 
 **Blade Break**",Generic Equipment - Head,,,,,C,S,,Erick Efata,,/HVY202.png,,,,,,,,,,,,
