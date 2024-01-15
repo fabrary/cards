@@ -181,7 +181,11 @@ This gets +2{d} while defending a weapon attack.
 HVY097,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY098,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY099,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY100,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY100,HVY,Beckon Applause,,,,0,,,"Warrior, Equipment, Arms",Temper,,,,,,"If you control an Agility token, this gets +1{d}.
+
+If you control a Vigor token, this gets +1{d}.
+
+**Temper**",Warrior Equipment - Arms,,,,,C,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY100.png,,,,,,,,,,,,
 HVY101,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY102,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY103,HVY,Up the Ante,3,X,,3,,,"Warrior, Attack Reaction","Olympia Specialization, wager",,,,,,"**Olympia Specialization**
