@@ -63,7 +63,9 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
 HVY025,HVY,Rawhide Rumble,3,2,4,3,,,"Brute, Action, Attack","Beat Chest, Intimidate",,,,,Beat Chest,"**Beat Chest**
 
 When this attacks a hero, if you've **beaten chest** this turn, **intimidate** them.",Brute Action - Attack,,,,No,R,,,Othon Nikolaidis,,/HVY025.png,,,,,,,,,,,,
-HVY026,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY026,HVY,Assault and Battery,1,3,7,3,,,"Brute, Action, Attack",Beat Chest,,,,,,"**Beat Chest**
+
+When this attacks, if you've beaten chest this turn, create an Agility token.",Brute Action - Attack,,,,,C,,,Muhammad Fajri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY026.png,,,,,,,,,,,,
 HVY027,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY028,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY029,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -72,7 +74,9 @@ HVY031,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY032,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY033,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY034,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY035,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY035,HVY,Pound Town,1,3,7,3,,,"Brute, Action, Attack",Beat Chest,,,,,,"**Beat Chest**
+
+When this attacks, if you've beaten chest this turn, create a Might token.",Brute Action - Attack,,,,,C,,,Joseph Qiu,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY035.png,,,,,,,,,,,,
 HVY036,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY037,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY038,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -248,7 +252,7 @@ Target attack gets +2{p}.",Warrior Attack Reaction,,,,No,R,,,Faizal Fikri,,/HVY1
 HVY114,HVY,Take the Upper Hand,3,0,,3,,,"Warrior, Attack Reaction",Wager,,,,,,"Play this only if you've **wagered** this chain link.
 
 Target attack gets +1{p}.",Warrior Attack Reaction,,,,No,R,,,Faizal Fikri,,/HVY114.png,,,,,,,,,,,,
-HVY115,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY115,HVY,Agile Engagement,1,1,,2,,,"Warrior, Attack Reaction",,,,,,,"Target Warrior attack gets +3{p}. If it's defended by an attack action card, create an Agility token.",Warrior Attack Reaction,,,,,C,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY115.png,,,,,,,,,,,,
 HVY116,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY117,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY118,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
