@@ -13,17 +13,21 @@ The first time you discard a card with 6 or more {p} during each of your action 
 HVY003,HVY,"Rhinar, Reckless Rampage",,,,,40,4,"Brute, Hero",Intimidate,,,,,,"Whenever you discard a card with 6 or more {p} during your action phase, **intimidate**.",Brute Hero,,No,,No,M,,,Wisnu Tan,,/HVY003.png,,,,,,,,,,,,
 HVY004,HVY,Rhinar,,,,,20,4,"Brute, Hero, Young",Intimidate,,,,,,"Whenever you discard a card with 6 or more {p} during your action phase, **intimidate**.",Brute Hero - Young,,,No,,T,,,Wisnu Tan,,/HVY004.png,,,,,,,,,,,,
 HVY005,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY006,HVY,Ball Breaker,,,3,,,,"Brute, Weapon, Flail, 1H",,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**
+HVY006,HVY,Ball Breaker,,,3,,,,"Brute, Weapon, Flail, 1H",,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}: **Attack**
 
-If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.",Brute Weapon - Flail (1H),,,,,R,,,,,/HVY006.png,,,,,,,,,,,,
-HVY007,HVY,Mini Meataxe,,,3,,,,"Brute, Weapon, Axe, 1H",,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**
+If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.",Brute Weapon - Flail (1H),,,,,R,,,Ismatulloh,,/HVY006.png,,,,,,,,,,,,
+HVY007,HVY,Mini Meataxe,,,3,,,,"Brute, Weapon, Axe, 1H",,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}: **Attack**
 
-When this attacks, draw a card then discard a random card.",Brute Weapon - Axe (1H),,,,,R,,,,,/HVY007.png,,,,,,,,,,,,
+When this attacks, draw a card then discard a random card.",Brute Weapon - Axe (1H),,,,,R,,,Raphael Pinna,,/HVY007.png,,,,,,,,,,,,
 HVY008,HVY,Apex Bonebreaker,,,,2,,,"Brute, Equipment, Arms",Temper,,,,,,"When this defends together with a card with 6 or more {p}, create a Might token.
 
 **Temper**",Brute Equipment - Arms,,,,No,L,,,Nuttapong Thanawiwitaporn,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY008.png,,,,,,,,,,,,
-HVY009,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY010,HVY,Monstrous Veil,,,,1,,,"Brute, Equipment, Head","Rhinar Specialization, Battleworn, Go again",,,,,,"**Rhinar Specialization**
+HVY009,HVY,Knucklehead,,,,2,,,"Brute, Equipment, Head","Kayo Specialization, Temper",Action,,,,,"**Kayo Specialization** 
+
+Action - Destroy this: Roll a 6-sided die. Until end of turn, your base {i} is the number rolled.
+
+**Temper**",Brute Equipment - Head,,,,,R,,,Wisnu Tan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY009.png,,,,,,,,,,,,
+HVY010,HVY,Monstrous Veil,,,,1,,,"Brute, Equipment, Head","Rhinar Specialization, Battleworn",Action,Go again,,,,"**Rhinar Specialization**
 
 Action - Destroy this: Draw a card then discard a random card. **Go again**
 
@@ -107,7 +111,7 @@ HVY051,HVY,Aurum Aegis,,,,2,,,"Guardian, Equipment, Off-Hand","Victor Specializa
 This counts as a Gold.
 
 **Temper**",Guardian Equipment - Off-Hand,,,,No,L,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY051.png,,,,,,,,,,,,
-HVY052,HVY,Stonewall Impasse,,,,1,,,"Guardian, Equipment, Off-Hand",Temper,,,,,,"When this defends, **clash** with the attacking hero. If you win, this gets +1{d} until end of turn.
+HVY052,HVY,Stonewall Impasse,,,,1,,,"Guardian, Equipment, Off-Hand","Temper, Clash",,,,,,"When this defends, **clash** with the attacking hero. If you win, this gets +1{d} until end of turn.
 
 **Temper**",Guardian Equipment - Off-Hand,,,,,R,,,Viktoria Belyaeva,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY052.png,,,,,,,,,,,,
 HVY053,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -330,7 +334,7 @@ HVY195,HVY,Balance of Justice,,,,2,,,"Generic, Equipment, Head",Guardwell,,,,,,"
 
 **Guardwell**",Generic Equipment - Head,,,,No,L,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png,,,,,,,,,,,,
 HVY196,HVY,Glory Seeker,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: Draw a card.",Generic Equipment - Head,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png,,,,,,,,,,,,
-HVY197,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY197,HVY,Sheltered Cove,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: The next time you would be dealt damage this turn, prevent 2 of that damage",Generic Equipment - Head,,,,,C,,,Nikko Wahyudi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY197.png,,,,,,,,,,,,
 HVY198,HVY,Face Adversity,,,,2,,,"Generic, Equipment, Head",Blade Break,,,,,,"This may only defend an attack if the attack's controller has drawn a card this turn.
 
 **Blade Break**",Generic Equipment - Head,,,,,C,,,Arif Wijaya,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY198.png,,,,,,,,,,,,
