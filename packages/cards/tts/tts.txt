@@ -2687,6 +2687,7 @@ OSCCardDB = {
   ["HVY206"] = { name = "Bloodied Oval", text = "Bloodied Oval's {d} is equal to the number of opposing heroes with greater {h} than you.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["HVY207"] = { name = "Nasty Surprise (3)", text = "When an opponent's effect puts this into your graveyard from anywhere, create an Agility, Might, and Vigor token.", keywords = "", types = "Action"},
   ["HVY208"] = { name = "Pay Up (1)", text = "If defending hero controls a Gold, this gets **overpower**.\n\nWhen this hits a hero, gain control of a Gold token they control. If you don't, deal 1 damage to them.", keywords = "Overpower", types = "Action"},
+  ["HVY211"] = { name = "Tenacity (2)", text = "When this attacks, it gets +X{p}, where X is the number of defending cards on the combat chain.", keywords = "", types = "Action"},
   ["HVY212"] = { name = "Seduce Secrets (2)", text = "Look at target hero's hand and the top card of their deck.\n\nIf this was played from arsenal, draw a card.", keywords = "", types = "Instant"},
   ["HVY213"] = { name = "Down But Not Out (1)", text = "When this attacks a hero, if you have less {g} and control fewer equipment and tokens than them, this gets +3{p}, overpower, and \"When this hits, create an Agility, Might, and Vigor token.\"", keywords = "", types = "Action"},
   ["HVY216"] = { name = "Wage Gold (1)", text = "**Universal**\n\nWhen this attacks a hero, you may **wager** a Gold token with them.", keywords = "Universal,Wager", types = "Action"},
