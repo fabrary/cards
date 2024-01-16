@@ -326,6 +326,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/draw-swords-red</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hold-em-red</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>
@@ -353,6 +358,11 @@
   <url>
     <loc>https://fabrary.net/cards/gauntlet-of-might</loc>
     <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clash-of-might-red</loc>
+    <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -387,6 +397,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/flat-trackers</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clash-of-agility-red</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
