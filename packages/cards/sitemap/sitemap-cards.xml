@@ -56,6 +56,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/raw-meat</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/show-no-mercy-red</loc>
     <lastmod>2023-12-29</lastmod>
     <priority>0.5</priority>
@@ -138,6 +143,11 @@
   <url>
     <loc>https://fabrary.net/cards/stonewall-impasse</loc>
     <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/golden-glare</loc>
+    <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -236,6 +246,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/hood-of-red-sand</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/beckon-applause</loc>
     <lastmod>2024-01-15</lastmod>
     <priority>0.5</priority>
@@ -323,6 +338,11 @@
   <url>
     <loc>https://fabrary.net/cards/wage-might-blue</loc>
     <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flat-trackers</loc>
+    <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -438,6 +458,11 @@
   <url>
     <loc>https://fabrary.net/cards/bloodied-oval</loc>
     <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/nasty-surprise-blue</loc>
+    <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

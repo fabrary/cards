@@ -32,7 +32,11 @@ HVY010,HVY,Monstrous Veil,,,,1,,,"Brute, Equipment, Head","Rhinar Specialization
 Action - Destroy this: Draw a card then discard a random card. **Go again**
 
 **Battleworn**",Brute Equipment - Head,,,,,R,,,Nailsen Ivanderlie,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY010.png,,,,,,,,,,,,
-HVY011,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY011,HVY,Raw Meat,,,,0,,,"Brute, Equipment, Chest",Temper,,,,,,"If you control an Agility token, this gets +1{d}.
+
+If you control a Might token, this gets +1{d}.
+
+**Temper**",Brute Equipment - Chest,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY011.png,,,,,,,,,,,,
 HVY012,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY013,HVY,Show No Mercy,1,3,6,3,,,"Brute, Action, Attack","Rhinar Specialization, Intimidate",,,,,,"**Rhinar Specialization**
 
@@ -115,7 +119,11 @@ HVY052,HVY,Stonewall Impasse,,,,1,,,"Guardian, Equipment, Off-Hand","Temper, Cla
 
 **Temper**",Guardian Equipment - Off-Hand,,,,,R,,,Viktoria Belyaeva,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY052.png,,,,,,,,,,,,
 HVY053,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY054,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY054,HVY,Golden Glare,,,,2,,,"Guardian, Equipment, Head","Victor Specialization, Blade Break",,,,,,"**Victor Specialization**
+
+When this defends together with 2 or more yellow cards, create a Gold token.
+
+**Blade Break**",Guardian Equipment - Head,,,,,R,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY054.png,,,,,,,,,,,,
 HVY055,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY056,HVY,Stand Ground,,,,0,,,"Guardian, Equipment, Legs",Temper,,,,,,"If you control a Might token, this gets +1{d}.
 
@@ -186,19 +194,23 @@ HVY093,HVY,Olympia,,,,,20,4,"Warrior, Hero, Young",Wager,,,,,,"The first time ea
 HVY094,HVY,Cintari Saber,,,2,,,,"Warrior, Weapon, Sword, 1H",,,,,,,"**Once per Turn Action** - {r}: **Attack**
 
 When this is defended by 1 or more attack action cards, this gets +1{p} until end of turn.",Warrior Weapon - Sword (1H),,,,,T,,,Reza Afshar,,/HVY094.png,,,,,,,,,,,,
-HVY095,HVY,Hot Streak,,,2,,,,"Warrior, Weapon, Sword, 1H",Go again,,,,,,"**Once per Turn Action** - {r}: **Attack**
+HVY095,HVY,Hot Streak,,,2,,,,"Warrior, Weapon, Sword, 1H",Go again,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}: **Attack**
 
-When this is defended by 1 or more attack action cards, Hot Streak's attacks get **go again** this turn.",Warrior Weapon - Sword (1H),,,,No,R,,,,,/HVY095.png,,,,,,,,,,,,
-HVY096,HVY,Parry Blade,,,2,0,,,"Warrior, Weapon, Equipment, Sword, 1H",Blade Break,,,,,,"**Once per Turn Action** - {r}: **Attack**
+When this is defended by 1 or more attack action cards, Hot Streak's attacks get **go again** this turn.",Warrior Weapon - Sword (1H),,,,,R,,,Angelina Tyshchik,,/HVY095.png,,,,,,,,,,,,
+HVY096,HVY,Parry Blade,,,2,0,,,"Warrior, Weapon, Equipment, Sword, 1H",Blade Break,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}: **Attack**
 
 This gets +2{d} while defending a weapon attack.
 
-**Blade Break**",Warror Weapon Equipment - Sword (1H),,,,,R,,,,,/HVY096.png,,,,,,,,,,,,
+**Blade Break**",Warror Weapon Equipment - Sword (1H),,,,,R,,,Raphael Pinna,,/HVY096.png,,,,,,,,,,,,
 HVY097,HVY,Grains of Bloodspill,,,,2,,,"Warrior, Equipment, Chest",Temper,,,,,,"Whenever a weapon attack you control hits, you may pay {r}. If you do, create a Vigor token. 
 
 **Temper**",Warrior Equipment - Chest,,,,No,L,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY097.png,,,,,,,,,,,,
 HVY098,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY099,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY099,HVY,Hood of Red Sand,,,,1,,,"Warrior, Equipment, Head","Kassai Specialization, Battleworn",,,,,,"**Kassai Specialization**
+
+**Attack Reaction** - {r}, banish a red and a yellow card from your graveyard, destroy this: Target sword attack gets ""When this hits, draw a card.""
+
+**Battleworn**",Warrior Equipment - Head,,,,,R,,,Andrew Chou,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY099.png,,,,,,,,,,,,
 HVY100,HVY,Beckon Applause,,,,0,,,"Warrior, Equipment, Arms",Temper,,,,,,"If you control an Agility token, this gets +1{d}.
 
 If you control a Vigor token, this gets +1{d}.
@@ -266,7 +278,7 @@ HVY133,HVY,Goblet of Bloodrun Wine,3,0,,2,,,"Warrior, Action",Go again,,,,,,"Cre
 "HVY134, FAB191","HVY, FAB",Cintari Sellsword,,,3,,2,,"Warrior, Token, Mercenary, Ally",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. **Go again**
 
 Cintari Sellsword can only attack if you've attacked with a weapon this turn.",Warrior Token - Mercenary Ally,,,,,T,S,,Sebastian Szmyd,,/HVY134.png,P,C,EA,Sebastian Szmyd,,/FAB191.png,,,,,,
-HVY135,HVY,Gauntlet of Might,,,,1,,,"Brute, Guardian, Equipment, Arms","Go again, Blade Break",,,,,,"Action - Destroy this: Create a Might token. **Go again**
+HVY135,HVY,Gauntlet of Might,,,,1,,,"Brute, Guardian, Equipment, Arms",Blade Break,Action,Go again,,,,"Action - Destroy this: Create a Might token. **Go again**
 
 **Blade Break**",Brute / Guardian Equipment - Arms,,,,,C,,,Alifka Hammam Nugroho,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY135.png,,,,,,,,,,,,
 HVY136,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -288,7 +300,9 @@ HVY151,HVY,Wage Might,3,3,5,2,,,"Brute, Guardian, Action, Attack",Wager,,,,,,"Wh
 HVY152,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY153,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY154,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY155,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY155,HVY,Flat Trackers,,,,1,,,"Brute, Warrior, Equipment, Legs","Go again, Blade Break",,,,,,"Action - Destroy this: Create an Agility token. **Go again**
+
+**Blade Break**",Brute / Warrior Equipment - Legs,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY155.png,,,,,,,,,,,,
 HVY156,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY157,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY158,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -308,7 +322,7 @@ HVY171,HVY,Wage Agility,3,3,5,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"W
 HVY172,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY173,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY174,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY175,HVY,Vigor Girth,,,,1,,,"Guardian, Warrior, Equipment, Chest","Go again, Blade Break",,,,,,"Action - Destroy this: Create a Vigor token. **Go again**
+HVY175,HVY,Vigor Girth,,,,1,,,"Guardian, Warrior, Equipment, Chest",Blade Break,Action,Go again,,,,"Action - Destroy this: Create a Vigor token. **Go again**
 
 **Blade Break**",Guardian / Warrior Equipment - Chest,,,,,C,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY175.png,,,,,,,,,,,,
 HVY176,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -330,7 +344,7 @@ HVY191,HVY,Wage Vigor,3,3,5,2,,,"Guardian, Warrior, Action, Attack",Wager,,,,,,"
 HVY192,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY193,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY194,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY195,HVY,Balance of Justice,,,,2,,,"Generic, Equipment, Head",Guardwell,,,,,,"**Instant** - Destroy this: Draw a card. Activate this ability only if an opponent has drawn 2 or more cards this turn.
+HVY195,HVY,Balance of Justice,,,,2,,,"Generic, Equipment, Head",Guardwell,Instant,,,,,"**Instant** - Destroy this: Draw a card. Activate this ability only if an opponent has drawn 2 or more cards this turn.
 
 **Guardwell**",Generic Equipment - Head,,,,No,L,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png,,,,,,,,,,,,
 HVY196,HVY,Glory Seeker,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: Draw a card.",Generic Equipment - Head,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png,,,,,,,,,,,,
@@ -362,7 +376,7 @@ HVY205,HVY,Grandstand Legplates,,,,*,,,"Generic, Equipment, Legs",Blade Break,,,
 HVY206,HVY,Bloodied Oval,,,,*,,,"Generic, Equipment, Off-Hand",Blade Break,,,,,,"Bloodied Oval's {d} is equal to the number of opposing heroes with greater {h} than you.
 
 **Blade Break**",Generic Equipment - Off-Hand,,,,,C,S,,Mariusz Gandzel,,/HVY206.png,,,,,,,,,,,,
-HVY207,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY207,HVY,Nasty Surprise,3,0,2,3,,,"Generic, Action, Attack",,,,,,,"When an opponent's effect puts this into your graveyard from anywhere, create an Agility, Might, and Vigor token.",Generic Action - Attack,,,,No,M,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY207.png,,,,,,,,,,,,
 HVY208,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY209,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY210,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
