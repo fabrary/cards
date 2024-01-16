@@ -137,7 +137,9 @@ If you control a Vigor token, this gets +1{d}.
 HVY057,HVY,Bet Big,1,4,8,3,,,"Guardian, Action, Attack","Betsy Specialization, Wager",,,,,,"**Betsy Specialization**
 
 When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with them.",Guardian Action - Attack,,,,No,M,,,Faizal Fikri,,/HVY057.png,,,,,,,,,,,,
-HVY058,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY058,HVY,Primed to Fight,1,5,9,3,,,"Guardian, Action, Attack",,,,,,,"If you've controlled a Vigor token this turn, this costs {r} less to play.
+
+If you've controlled a Might token this turn, this gets +1{p}.",Guardian Action - Attack,,,,No,M,,,Bastien Jez,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY058.png,,,,,,,,,,,,
 HVY059,HVY,The Golden Son,2,4,7,3,,,"Guardian, Action, Attack","Victor Specialization, Overpower",,,,,Clash,"**Victor Specialization**
 
 As an additional cost to play this, you may destroy a Gold you control. If you do, this gets +3{p} and **overpower**.
@@ -178,7 +180,7 @@ HVY079,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY080,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY081,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY082,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY083,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY083,HVY,Big Bop,1,3,,2,,,"Guardian, Action, Aura",Wager,,,,,,"At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and ""When this attacks a hero, you may **wager** a Vigor token with them.""",Guardian Action - Aura,,,,,C,,,Sandeep Karunakaran,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY083.png,,,,,,,,,,,,
 HVY084,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY085,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY086,HVY,Bigger Than Big,1,3,,2,,,"Guardian, Action, Aura",Wager,,,,,,"At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and ""When this attacks a hero, you may **wager** a Might token with them.""",Guardian Action - Aura,,,,,C,,,Tomasz Jedruszek,,/HVY086.png,,,,,,,,,,,,
@@ -221,7 +223,9 @@ If you control a Vigor token, this gets +1{d}.
 
 **Temper**",Warrior Equipment - Arms,,,,,C,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY100.png,,,,,,,,,,,,
 HVY101,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY102,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY102,HVY,Shift the Tide of Battle,2,0,,3,,,"Warrior, Attack Reaction",Go again,,,,,,"Target Warrior attack with {p} greater than its base gets **Go again**.
+
+The next time an opposing hero is dealt damage this turn, create an Agility token.",Warrior Attack Reaction,,,,No,M,,,Ina Wong,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY102.png,,,,,,,,,,,,
 HVY103,HVY,Up the Ante,3,X,,3,,,"Warrior, Attack Reaction","Olympia Specialization, wager",,,,,,"**Olympia Specialization**
 
 Choose X+1;
@@ -229,7 +233,11 @@ Choose X+1;
 - Target attack **wagers** a Gold token with the defending hero.
 - Target attack **wagers** a Vigor token with the defending hero.
 - Target attack gets +Y{p}, where Y is the number of times it has **wagered**.",Warrior Attack Reaction,,,,No,M,,,Federico Musetti,,/HVY103.png,,,,,,,,,,,,
-HVY104,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY104,HVY,Commanding Performance,1,1,,3,,,"Warrior, Action",Go again,,,,,,"Your next Warrior attack this turn gets +3{p}. 
+
+Until end of turn, your Warrior attacks get ""When this is defended by 1 or more attack action cards, destroy a card in the defending hero's arsenal.""
+
+**Go again**",Warrior Action,,,,No,M,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY104.png,,,,,,,,,,,,
 HVY105,HVY,Raise an Army,2,0,,3,,,"Warrior, Action","Kassai Specialization, Go again",,,,,,"**Kassai Specialization**
 
 As an additional cost to play this, destroy X Gold you control.
@@ -255,7 +263,7 @@ Target attack gets +1{p}.",Warrior Attack Reaction,,,,No,R,,,Faizal Fikri,,/HVY1
 HVY115,HVY,Agile Engagement,1,1,,2,,,"Warrior, Attack Reaction",,,,,,,"Target Warrior attack gets +3{p}. If it's defended by an attack action card, create an Agility token.",Warrior Attack Reaction,,,,,C,,,Tomasz Jedruszek,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY115.png,,,,,,,,,,,,
 HVY116,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY117,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY118,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY118,HVY,Vigorous Engagement,1,1,,2,,,"Warrior, Attack Reaction",,,,,,,"Target Warrior attack gets +3{p}. If it's defended by an attack action card, create a Vigor token.",Warrior Attack Reaction,,,,,C,,,Sebastian Szmyd,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY118.png,,,,,,,,,,,,
 HVY119,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY120,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY121,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -381,12 +389,16 @@ HVY206,HVY,Bloodied Oval,,,,*,,,"Generic, Equipment, Off-Hand",Blade Break,,,,,,
 
 **Blade Break**",Generic Equipment - Off-Hand,,,,,C,S,,Mariusz Gandzel,,/HVY206.png,,,,,,,,,,,,
 HVY207,HVY,Nasty Surprise,3,0,2,3,,,"Generic, Action, Attack",,,,,,,"When an opponent's effect puts this into your graveyard from anywhere, create an Agility, Might, and Vigor token.",Generic Action - Attack,,,,No,M,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY207.png,,,,,,,,,,,,
-HVY208,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY208,HVY,Pay Up,1,3,6,3,,,"Generic, Action, Attack",Overpower,,,,,,"If defending hero controls a Gold, this gets **overpower**.
+
+When this hits a hero, gain control of a Gold token they control. If you don't, deal 1 damage to them.",Generic Action - Attack,,,,No,M,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY208.png,,,,,,,,,,,,
 HVY209,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY210,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY211,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY212,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY213,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY212,HVY,Seduce Secrets,2,0,,,,,"Generic, Instant",,,,,,,"Look at target hero's hand and the top card of their deck.
+
+If this was played from arsenal, draw a card.",Generic Instant,,,,No,M,,,Sam Yang,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY212.png,,,,,,,,,,,,
+HVY213,HVY,Down But Not Out,1,3,5,3,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, if you have less {g} and control fewer equipment and tokens than them, this gets +3{p}, overpower, and ""When this hits, create an Agility, Might, and Vigor token.""",Generic Action - Attack,,,,No,R,,,Eilene Cherie,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY213.png,,,,,,,,,,,,
 HVY214,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY215,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HVY216, FAB196","HVY, FAB",Wage Gold,1,3,7,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**

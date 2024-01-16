@@ -171,6 +171,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/primed-to-fight-red</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/the-golden-son-yellow</loc>
     <lastmod>2024-01-06</lastmod>
     <priority>0.5</priority>
@@ -198,6 +203,11 @@
   <url>
     <loc>https://fabrary.net/cards/stacked-in-your-favor-blue</loc>
     <lastmod>2024-01-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/big-bop-red</loc>
+    <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -271,8 +281,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/shift-the-tide-of-battle-yellow</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/up-the-ante-blue</loc>
     <lastmod>2023-12-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/commanding-performance-red</loc>
+    <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -297,6 +317,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/agile-engagement-red</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vigorous-engagement-red</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
@@ -482,6 +507,21 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/nasty-surprise-blue</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pay-up-red</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/seduce-secrets-yellow</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/down-but-not-out-red</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
