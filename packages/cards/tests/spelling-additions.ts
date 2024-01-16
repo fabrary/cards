@@ -124,6 +124,7 @@ export const fabDictionary = [
   "fyendal",
   "galaxia",
   "galaxxi",
+  "galea",
   "garde",
   "genis",
   "gi",

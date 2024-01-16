@@ -271,6 +271,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/prized-galea</loc>
+    <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hood-of-red-sand</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
@@ -443,6 +448,11 @@
   <url>
     <loc>https://fabrary.net/cards/vigor-girth</loc>
     <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clash-of-vigor-red</loc>
+    <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
