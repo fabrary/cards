@@ -128,7 +128,11 @@ HVY054,HVY,Golden Glare,,,,2,,,"Guardian, Equipment, Head","Victor Specializatio
 When this defends together with 2 or more yellow cards, create a Gold token.
 
 **Blade Break**",Guardian Equipment - Head,,,,,R,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY054.png,,,,,,,,,,,,
-HVY055,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY055,HVY,Good Time Chapeau,,,,2,,,"Guardian, Equipment, Head","Betsy Specialization, Go again, Temper",,,,,,"**Betsy Specialization**
+
+**Action** - Destroy a Gold you control: Your next attack this turn gets ""When this attacks a hero, **wager** a Might and a Vigor token with them."" **Go again**
+
+**Temper**",Guardian Equipment - Head,,,,,R,,,Nikko Wahyudi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY055.png,,,,,,,,,,,,
 HVY056,HVY,Stand Ground,,,,0,,,"Guardian, Equipment, Legs",Temper,,,,,,"If you control a Might token, this gets +1{d}.
 
 If you control a Vigor token, this gets +1{d}.
