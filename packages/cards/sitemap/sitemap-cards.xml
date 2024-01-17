@@ -71,6 +71,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/cast-bones-red</loc>
+    <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/no-fear-red</loc>
     <lastmod>2023-12-27</lastmod>
     <priority>0.5</priority>
@@ -116,6 +121,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/assault-and-battery-yellow</loc>
+    <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/assault-and-battery-blue</loc>
+    <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bare-fangs-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -138,6 +153,16 @@
   <url>
     <loc>https://fabrary.net/cards/pound-town-red</loc>
     <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pound-town-yellow</loc>
+    <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pound-town-blue</loc>
+    <lastmod>2024-01-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -307,6 +332,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/thunk-yellow</loc>
+    <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/thunk-blue</loc>
     <lastmod>2024-01-17</lastmod>
     <priority>0.5</priority>
   </url>
