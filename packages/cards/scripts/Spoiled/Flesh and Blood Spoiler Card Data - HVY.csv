@@ -14,7 +14,7 @@ HVY003,HVY,"Rhinar, Reckless Rampage",,,,,40,4,"Brute, Hero",Intimidate,,,,,,"Wh
 HVY004,HVY,Rhinar,,,,,20,4,"Brute, Hero, Young",Intimidate,,,,,,"Whenever you discard a card with 6 or more {p} during your action phase, **intimidate**.",Brute Hero - Young,,,No,,T,,,Wisnu Tan,,/HVY004.png,,,,,,,,,,,,
 HVY005,HVY,Mandible Claw,,,3,,,,"Brute, Weapon, Claw, 1H",,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**
 
-If you've discarded a card with 6 or more {p} this turn, Mandible Claw's attacks get **Go again**.",Brute Weapon - Claw (1H),,,,,T,,,Jessada Sutthi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY005.png,,,,,,,,,,,,
+If you've discarded a card with 6 or more {p} this turn, Mandible Claw's attacks get **go again**.",Brute Weapon - Claw (1H),,,,,T,,,Jessada Sutthi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY005.png,,,,,,,,,,,,
 HVY006,HVY,Ball Breaker,,,3,,,,"Brute, Weapon, Flail, 1H",,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}: **Attack**
 
 If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.",Brute Weapon - Flail (1H),,,,,R,,,Ismatulloh,,/HVY006.png,,,,,,,,,,,,
@@ -53,9 +53,9 @@ The next time you would be dealt damage this turn, prevent X of that damage, whe
 HVY017,HVY,Beast Mode,1,3,6,3,,,"Brute, Action, Attack",Intimidate,,,,,,"If you've **intimidated** this turn, this gets +2{p}.",Brute Action - Attack,,,,No,R,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY017.png,,,,,,,,,,,,
 HVY018,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY019,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY020,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY021,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY022,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY020,HVY,Pack Call,1,3,7,3,,,"Brute, Action, Attack",,,,,,,"When this defends, reveal the top card of your deck. If it has 6 or more {p}, put it on top. Otherwise, put it on the bottom.",Brute Action - Attack,,,,No,R,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY020.png,,,,,,,,,,,,
+HVY021,HVY,Pack Call,2,3,6,3,,,"Brute, Action, Attack",,,,,,,"When this defends, reveal the top card of your deck. If it has 6 or more {p}, put it on top. Otherwise, put it on the bottom.",Brute Action - Attack,,,,No,R,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY021.png,,,,,,,,,,,,
+HVY022,HVY,Pack Call,3,3,5,3,,,"Brute, Action, Attack",,,,,,,"When this defends, reveal the top card of your deck. If it has 6 or more {p}, put it on top. Otherwise, put it on the bottom.",Brute Action - Attack,,,,No,R,,,Kevin Sidharta,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY022.png,,,,,,,,,,,,
 HVY023,HVY,Rawhide Rumble,1,2,6,3,,,"Brute, Action, Attack","Beat Chest, Intimidate",,,,,Beat Chest,"**Beat Chest**
 
 When this attacks a hero, if you've **beaten chest** this turn, **intimidate** them.",Brute Action - Attack,,,,No,R,,,Othon Nikolaidis,,/HVY023.png,,,,,,,,,,,,
@@ -73,17 +73,17 @@ HVY028,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY029,HVY,Bare Fangs,1,2,6,,,,"Brute, Action, Attack",,,,,,,"When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, this gets +2{p}.",Brute Action - Attack,,,,,C,,,Yugin Maffioli,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY029.png,,,,,,,,,,,,
 HVY030,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY031,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY032,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY033,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY034,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY032,HVY,Pack Hunt,1,2,6,3,,,"Brute, Action, Attack",Intimidate,,,,,,"When this attacks, **intimidate**.",Brute Action - Attack,,,,,C,,,Olga Khariton,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY032.png,,,,,,,,,,,,
+HVY033,HVY,Pack Hunt,2,2,5,3,,,"Brute, Action, Attack",Intimidate,,,,,,"When this attacks, **intimidate**.",Brute Action - Attack,,,,,C,,,Olga Khariton,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY033.png,,,,,,,,,,,,
+HVY034,HVY,Pack Hunt,3,2,4,3,,,"Brute, Action, Attack",Intimidate,,,,,,"When this attacks, **intimidate**.",Brute Action - Attack,,,,,C,,,Olga Khariton,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY034.png,,,,,,,,,,,,
 HVY035,HVY,Pound Town,1,3,7,3,,,"Brute, Action, Attack",Beat Chest,,,,,Beat Chest,"**Beat Chest**
 
 When this attacks, if you've **beaten chest** this turn, create a Might token.",Brute Action - Attack,,,,,C,,,Joseph Qiu,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY035.png,,,,,,,,,,,,
 HVY036,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY037,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY038,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY039,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY040,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY038,HVY,Wild Ride,1,2,6,,,,"Brute, Action, Attack",Go again,,,,,,"When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, this gets **Go again**.",Brute Action - Attack,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY038.png,,,,,,,,,,,,
+HVY039,HVY,Wild Ride,2,2,5,,,,"Brute, Action, Attack",Go again,,,,,,"When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, this gets **Go again**.",Brute Action - Attack,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY039.png,,,,,,,,,,,,
+HVY040,HVY,Wild Ride,3,2,4,,,,"Brute, Action, Attack",Go again,,,,,,"When this attacks, draw a card then discard a random card. If a card with 6 or more {p} is discarded this way, this gets **Go again**.",Brute Action - Attack,,,,,C,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY040.png,,,,,,,,,,,,
 HVY041,HVY,Bonebreaker Bellow,1,1,,3,,,"Brute, Action","Beat Chest, Go again",,,,,Beat Chest,"**Beat Chest**
 
 Your next Brute attack this turn gains +3{p}. If you've **beaten chest** this turn, instead it gains +5{p}.
@@ -112,7 +112,7 @@ HVY048,HVY,Victor Goldmane,,,,,20,4,"Guardian, Hero, Young",Clash,,,,,Clash,"The
 The first time each turn you would fail to win a **clash**, instead you may destroy a Gold you control. If you do, put 1 of the revealed cards on the bottom of its owner's deck, then **clash** again.",Guardian Hero,,,No,,T,,,Billy Christian,,/HVY048.png,V,C,,Billy Christian,,/HVY048_M.png,V,C,FA,Billy Christian,,/HVY048_M_Back.png
 HVY049,HVY,High Riser,,,3,,,,"Guardian, Weapon, Hammer, 1H",,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
-If you've drawn a card this turn, this gets +1{p}.",Guardian Weapon - Hammer (1H),,,,,C,,,,,/HVY049.png,,,,,,,,,,,,
+If you've drawn a card this turn, this gets +1{p}.",Guardian Weapon - Hammer (1H),,,,,C,,,Brian Adriel,,/HVY049.png,,,,,,,,,,,,
 HVY050,HVY,Miller's Grindstone,,,4,,,,"Guardian, Weapon, Hammer, 1H",Clash,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}{r}: **Attack**
 
 When this hits a hero, **clash** with them. If you win, destroy the top card of their deck. If they win, put a -1{p} counter on this.",Guardian Weapon - Hammer (1H),,,,,R,,,Marcus Reyno,,/HVY050.png,,,,,,,,,,,,
@@ -157,7 +157,7 @@ HVY061,HVY,Trounce,1,,,3,,,"Guardian, Block",Clash,,,,,,"When this defends, **cl
 If a hero wins both **clashes**, they create a Gold, Might, and Vigor token.",Guardian Block,,,,No,M,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY061.png,,,,,,,,,,,,
 HVY062,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY063,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY064,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY064,HVY,Smack of Reality,1,5,9,3,,,"Guardian, Action, Attack",Tower,,,,,,"**Tower** - If this has 13 or more {p}, it gets ""When this hits a hero, destroy all aura tokens they control.""",Guardian Action - Attack,,,,No,R,,,Alief Rudiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY064.png,,,,,,,,,,,,
 HVY065,HVY,Over the Top,1,3,6,3,,,"Guardian, Action, Attack",Overpower,,,,,,"If this has {p} greater than its base, it gets **overpower**.",Guardian Action - Attack,,,,No,R,,,Simon Dominic,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY065.png,,,,,,,,,,,,
 HVY066,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY067,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -180,8 +180,8 @@ HVY071,HVY,Command Respect,1,3,6,3,,,"Guardian, Action, Attack",,,,,,,"When this
 HVY072,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY073,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY074,HVY,Concuss,1,3,6,3,,,"Guardian, Action, Attack",,,,,,,"When this hits a hero, if this has {p} greater than its base, they discard a card.",Guardian Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY074.png,,,,,,,,,,,,
-HVY075,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY076,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY075,HVY,Concuss,2,3,5,3,,,"Guardian, Action, Attack",,,,,,,"When this hits a hero, if this has {p} greater than its base, they discard a card. (This has 5 base {p}.)",Guardian Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY075.png,,,,,,,,,,,,
+HVY076,HVY,Concuss,3,3,4,3,,,"Guardian, Action, Attack",,,,,,,"When this hits a hero, if this has {p} greater than its base, they discard a card.",Guardian Action - Attack,,,,,C,,,Nikolay Moskvin,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY076.png,,,,,,,,,,,,
 HVY077,HVY,Thunk,1,5,8,3,,,"Guardian, Action, Attack",Clash,,,,,,"When you win a **clash** revealing this, create a Might token.",Guardian Action - Attack,,,,,C,,,Junaidi Lim,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY077.png,,,,,,,,,,,,
 HVY078,HVY,Thunk,2,5,7,3,,,"Guardian, Action, Attack",Clash,,,,,,"When you win a **clash** revealing this, create a Might token.",Guardian Action - Attack,,,,,C,,,Junaidi Lim,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY078.png,,,,,,,,,,,,
 HVY079,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -319,7 +319,7 @@ HVY142,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY143,HVY,Mighty Windup,1,3,7,2,,,"Brute, Guardian, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create a Might token.,Brute / Guardian Action - Attack,,,,,C,,,Federico Musetti,,/HVY143.png,,,,,,,,,,,,
 HVY144,HVY,Mighty Windup,2,3,6,2,,,"Brute, Guardian, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create a Might token.,Brute / Guardian Action - Attack,,,,,C,,,Federico Musetti,,/HVY144.png,,,,,,,,,,,,
 HVY145,HVY,Mighty Windup,3,3,5,2,,,"Brute, Guardian, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create a Might token.,Brute / Guardian Action - Attack,,,,,C,,,Federico Musetti,,/HVY145.png,,,,,,,,,,,,
-HVY146,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY146,HVY,Rising Power,1,2,6,2,,,"Brute, Guardian, Action, Attack",,,,,,,"If you've drawn a card this turn, this gets +1{p}.",Brute / Guardian Action - Attack,,,,,C,,,Ambang Tegar Prakoso,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY146.png,,,,,,,,,,,,
 HVY147,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY148,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY149,HVY,Wage Might,1,3,7,2,,,"Brute, Guardian, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Might token with them.",Brute / Guardian Action - Attack,,,,,C,,,Septimius Ferdian,,/HVY149.png,,,,,,,,,,,,
@@ -327,7 +327,11 @@ HVY150,HVY,Wage Might,2,3,6,2,,,"Brute, Guardian, Action, Attack",Wager,,,,,,"Wh
 HVY151,HVY,Wage Might,3,3,5,2,,,"Brute, Guardian, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** a Might token with them.",Brute / Guardian Action - Attack,,,,,C,,,Septimius Ferdian,,/HVY151.png,,,,,,,,,,,,
 HVY152,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY153,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY154,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY154,HVY,Lead with Power,3,1,,2,,,"Brute, Guardian, Action",Go again,,,,,,"Your next Brute or Guardian attack this turn gets +1{p}.
+
+Create a Might token.
+
+**Go again**",Brute / Guardian Action,,,,,C,,,Erick Efata,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY154.png,,,,,,,,,,,,
 HVY155,HVY,Flat Trackers,,,,1,,,"Brute, Warrior, Equipment, Legs",Blade Break,Action,Go again,,,,"Action - Destroy this: Create an Agility token. **Go again**
 
 **Blade Break**",Brute / Warrior Equipment - Legs,,,,,C,,,Alief Rusdiatama,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY155.png,,,,,,,,,,,,
@@ -335,7 +339,7 @@ HVY156,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY157,HVY,Clash of Agility,1,2,6,3,,,"Brute, Warrior, Action, Attack",Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner creates an Agility token.",Brute / Warrior Action - Attack,,,,No,R,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY157.png,,,,,,,,,,,,
 HVY158,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY159,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY160,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY160,HVY,Take it on the Chin,1,0,,,,,"Brute, Warrior, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 2 of that damage. If you do, create an Agility token.",Brute / Warrior Instant,,,,No,R,,,Joseph Qiu,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY160.png,,,,,,,,,,,,
 HVY161,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY162,HVY,Test of Agility,1,,,4,,,"Brute, Warrior, Block",Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner creates an Agility token.",Brute / Warrior Block,,,,No,R,S,,Rio Sabda,,/HVY162.png,,,,,,,,,,,,
 HVY163,HVY,Agile Windup,1,3,7,2,,,"Brute, Warrior, Action, Attack",,Instant,,,,,**Instant** - Discard this: Create an Agility token.,Brute / Warrior Action - Attack,,,,,C,,,Federico Musetti,,/HVY163.png,,,,,,,,,,,,
@@ -347,9 +351,21 @@ HVY168,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY169,HVY,Wage Agility,1,3,7,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** an Agility token with them.",Brute / Warrior Action - Attack,,,,,C,,,Marco Gonalez,,/HVY169.png,,,,,,,,,,,,
 HVY170,HVY,Wage Agility,2,3,6,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** an Agility token with them.",Brute / Warrior Action - Attack,,,,,C,,,Marco Gonalez,,/HVY170.png,,,,,,,,,,,,
 HVY171,HVY,Wage Agility,3,3,5,2,,,"Brute, Warrior, Action, Attack",Wager,,,,,,"When this attacks a hero, you may **wager** an Agility token with them.",Brute / Warrior Action - Attack,,,,,C,,,Marco Gonalez,,/HVY171.png,,,,,,,,,,,,
-HVY172,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY173,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY174,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY172,HVY,Lead with Speed,1,1,,2,,,"Brute, Warrior, Action",Go again,,,,,,"Your next Brute or Warrior attack this turn gets +3{p}.
+
+Create an Agility token.
+
+**Go again**",Brute / Warrior Action,,,,,C,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY172.png,,,,,,,,,,,,
+HVY173,HVY,Lead with Speed,2,1,,2,,,"Brute, Warrior, Action",Go again,,,,,,"Your next Brute or Warrior attack this turn gets +2{p}.
+
+Create an Agility token.
+
+**Go again**",Brute / Warrior Action,,,,,C,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY173.png,,,,,,,,,,,,
+HVY174,HVY,Lead with Speed,3,1,,2,,,"Brute, Warrior, Action",Go again,,,,,,"Your next Brute or Warrior attack this turn gets +1{p}.
+
+Create an Agility token.
+
+**Go again**",Brute / Warrior Action,,,,,C,,,Faizal Fikri,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY174.png,,,,,,,,,,,,
 HVY175,HVY,Vigor Girth,,,,1,,,"Guardian, Warrior, Equipment, Chest",Blade Break,Action,Go again,,,,"Action - Destroy this: Create a Vigor token. **Go again**
 
 **Blade Break**",Guardian / Warrior Equipment - Chest,,,,,C,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY175.png,,,,,,,,,,,,
@@ -419,13 +435,13 @@ HVY214,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY215,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HVY216, FAB196","HVY, FAB",Wage Gold,1,3,7,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
 
-When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,,R,,,Tanapon Wachirakul,,/HVY216.png,R,R,EA,Tanapon Wachirakul,,/FAB196.png,,,,,,
+When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,No,R,,,Tanapon Wachirakul,,/HVY216.png,R,R,EA,Tanapon Wachirakul,,/FAB196.png,,,,,,
 "HVY217, FAB197","HVY, FAB",Wage Gold,2,3,6,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
 
-When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,,R,,,Tanapon Wachirakul,,/HVY217.png,R,R,EA,Tanapon Wachirakul,,/FAB197.png,,,,,,
+When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,No,R,,,Tanapon Wachirakul,,/HVY217.png,R,R,EA,Tanapon Wachirakul,,/FAB197.png,,,,,,
 "HVY218, FAB198","HVY, FAB",Wage Gold,3,3,5,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
 
-When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,,R,,,Tanapon Wachirakul,,/HVY218.png,R,R,EA,Tanapon Wachirakul,,/FAB198.png,,,,,,
+When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,No,R,,,Tanapon Wachirakul,,/HVY218.png,R,R,EA,Tanapon Wachirakul,,/FAB198.png,,,,,,
 HVY219,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY220,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY221,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -436,13 +452,19 @@ HVY225,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HVY226,HVY,Performance Bonus,2,0,2,2,,,"Generic, Action, Attack",,,,,,,"When this hits, create a Gold token.
 If this was played from arsenal, it gets **Go again**.",Generic Action - Attack,,,,,C,,,Saad Irfan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY226.png,,,,,,,,,,,,
 HVY227,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY228,HVY,Rally the Rearguard,1,2,6,2,,,"Generic, Action, Attack",,,,,,,Once per Turn **Instant** - Discard a card: This gets +3{d}. Activate this ability only while this is defending.,Generic Action - Attack,,,,,C,,,Peyeyo,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY228.png,,,,,,,,,,,,
-HVY229,HVY,Rally the Rearguard,2,2,5,2,,,"Generic, Action, Attack",,,,,,,Once per Turn **Instant** - Discard a card: This gets +3{d}. Activate this ability only while this is defending.,Generic Action - Attack,,,,,C,,,Peyeyo,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY229.png,,,,,,,,,,,,
-HVY230,HVY,Rally the Rearguard,3,2,4,2,,,"Generic, Action, Attack",,,,,,,Once per Turn **Instant** - Discard a card: This gets +3{d}. Activate this ability only while this is defending.,Generic Action - Attack,,,,,C,,,Peyeyo,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY230.png,,,,,,,,,,,,
-HVY231,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY232,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY233,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY234,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY228,HVY,Rally the Rearguard,1,2,6,2,,,"Generic, Action, Attack",,,,,,,**Once per Turn Instant** - Discard a card: This gets +3{d}. Activate this ability only while this is defending.,Generic Action - Attack,,,,,C,,,Peyeyo,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY228.png,,,,,,,,,,,,
+HVY229,HVY,Rally the Rearguard,2,2,5,2,,,"Generic, Action, Attack",,,,,,,**Once per Turn Instant** - Discard a card: This gets +3{d}. Activate this ability only while this is defending.,Generic Action - Attack,,,,,C,,,Peyeyo,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY229.png,,,,,,,,,,,,
+HVY230,HVY,Rally the Rearguard,3,2,4,2,,,"Generic, Action, Attack",,,,,,,**Once per Turn Instant** - Discard a card: This gets +3{d}. Activate this ability only while this is defending.,Generic Action - Attack,,,,,C,,,Peyeyo,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY230.png,,,,,,,,,,,,
+HVY231,HVY,Trade In,1,0,3,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, you may discard a card. If you do, draw a card.
+
+If this was played from arsenal, it gets **Go again**.",Generic Action - Attack,,,,,C,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY231.png,,,,,,,,,,,,
+HVY232,HVY,Trade In,2,0,2,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, you may discard a card. If you do, draw a card.
+
+If this was played from arsenal, it gets **Go again**.",Generic Action - Attack,,,,,C,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY232.png,,,,,,,,,,,,
+HVY233,HVY,Trade In,3,0,1,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, you may discard a card. If you do, draw a card.
+
+If this was played from arsenal, it gets **Go again**.",Generic Action - Attack,,,,,C,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY233.png,,,,,,,,,,,,
+HVY234,HVY,Lunging Press,3,0,,2,,,"Generic, Attack Reaction",,,,,,,Target attack action card gets +1{p}.,Generic Attack Reaction,,,,,C,,,Sergey Gurskiy,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY234.png,,,,,,,,,,,,
 HVY235,HVY,Money Where Ya Mouth Is,1,1,,2,,,"Generic, Action",Go again,,,Wager,,,"Your next attack this turn gets +3{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,S,,Athiwut B.,,/HVY235.png,,,,,,,,,,,,
 HVY236,HVY,Money Where Ya Mouth Is,2,1,,2,,,"Generic, Action",Go again,,,Wager,,,"Your next attack this turn gets +2{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,,,Athiwut B.,,/HVY236.png,,,,,,,,,,,,
 HVY237,HVY,Money Where Ya Mouth Is,3,1,,2,,,"Generic, Action",Go again,,,Wager,,,"Your next attack this turn gets +1{p} and ""When this attacks a hero, you may **wager** a Gold token with them.""",Generic Action,,,,,C,,,Athiwut B.,,/HVY237.png,,,,,,,,,,,,
