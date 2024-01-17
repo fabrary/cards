@@ -286,6 +286,7 @@ export const fabDictionary = [
   "suraya",
   "surgent",
   "sutcliffe",
+  "swiftblade",
   "tbone",
   "taipanis",
   "talishar",
