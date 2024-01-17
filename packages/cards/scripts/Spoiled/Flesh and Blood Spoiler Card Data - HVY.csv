@@ -134,7 +134,9 @@ This counts as a Gold.
 HVY052,HVY,Stonewall Impasse,,,,1,,,"Guardian, Equipment, Off-Hand","Temper, Clash",,,,,,"When this defends, **clash** with the attacking hero. If you win, this gets +1{d} until end of turn.
 
 **Temper**",Guardian Equipment - Off-Hand,,,,,R,,,Viktoria Belyaeva,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY052.png,,,,,,,,,,,,
-HVY053,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY053,HVY,Gauntlets of Iron Will,,,,2,,,"Guardian, Equipment, Arms",Temper,,,,,,"When this defends, the next time an attack would gain {p} this chain link, instead it gains that much minus 1.
+
+**Temper**",Guardian Equipment - Arms,,,,No,L,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY053.png,,,,,,,,,,,,
 HVY054,HVY,Golden Glare,,,,2,,,"Guardian, Equipment, Head","Victor Specialization, Blade Break",,,,,,"**Victor Specialization**
 
 When this defends together with 2 or more yellow cards, create a Gold token.
