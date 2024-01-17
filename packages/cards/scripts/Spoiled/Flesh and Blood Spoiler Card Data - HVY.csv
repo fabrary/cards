@@ -39,7 +39,7 @@ HVY011,HVY,Raw Meat,,,,0,,,"Brute, Equipment, Chest",Temper,,,,,,"If you control
 If you control a Might token, this gets +1{d}.
 
 **Temper**",Brute Equipment - Chest,,,,,C,,,Ausonia,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY011.png,,,,,,,,,,,,
-HVY012,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY012,HVY,Send Packing,2,3,6,3,,,"Brute, Action, Attack",,,,,,,"When this attacks a hero, banish a card from their arsenal. When the chain link resolves, if this didn't hit, return the banished card to its owner's hand. (It's banished face-up.)",Brute Action - Attack,,,,No,M,,,Athiwut B.,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY012.png,,,,,,,,,,,,
 HVY013,HVY,Show No Mercy,1,3,6,3,,,"Brute, Action, Attack","Rhinar Specialization, Intimidate",,,,,,"**Rhinar Specialization**
 
 When this attacks a hero, **intimidate** them.
