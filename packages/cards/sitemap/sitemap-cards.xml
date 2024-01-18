@@ -1096,6 +1096,36 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/reinforce-the-line-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/reinforce-the-line-yellow</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/reinforce-the-line-blue</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/adrenaline-rush-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/adrenaline-rush-yellow</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/adrenaline-rush-blue</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/performance-bonus-red</loc>
     <lastmod>2024-01-17</lastmod>
     <priority>0.5</priority>
@@ -1293,21 +1323,6 @@
   <url>
     <loc>https://fabrary.net/cards/adaptive-plating</loc>
     <lastmod>2023-09-23</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/adrenaline-rush-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/adrenaline-rush-yellow</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/adrenaline-rush-blue</loc>
-    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9732,21 +9747,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/reinforce-steel-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/reinforce-the-line-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/reinforce-the-line-yellow</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/reinforce-the-line-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>

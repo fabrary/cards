@@ -510,12 +510,12 @@ When this attacks a hero, you may **wager** a Gold token with them.",Generic Act
 "HVY218, FAB198","HVY, FAB",Wage Gold,3,3,5,2,,,"Generic, Action, Attack","Universal, Wager",,,,,,"**Universal**
 
 When this attacks a hero, you may **wager** a Gold token with them.",Generic Action - Attack,,,,No,R,,,Tanapon Wachirakul,,/HVY218.png,R,R,EA,Tanapon Wachirakul,,/FAB198.png,,,,,,
-HVY219,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY220,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY221,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY222,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY223,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY224,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY219,HVY,Reinforce the Line,1,0,,,,,"Generic, Instant",,,,,,,Target defending attack action card gets +4{d}.,Generic Instant,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY219.png,,,,,,,,,,,,
+HVY220,HVY,Reinforce the Line,2,0,,,,,"Generic, Instant",,,,,,,Target defending attack action card gets +3{d}.,Generic Instant,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY220.png,,,,,,,,,,,,
+HVY221,HVY,Reinforce the Line,3,0,,,,,"Generic, Instant",,,,,,,Target defending attack action card gets +2{d}.,Generic Instant,,,,No,R,,,Shen Fei,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY221.png,,,,,,,,,,,,
+HVY222,HVY,Adrenaline Rush,1,2,4,2,,,"Generic, Action, Attack",,,,,,,"When you play this, if you have less {g} than an opposing hero, this gets +3{p}.",Generic Action - Attack,,,,,C,,,Silvia Meiliani,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY222.png,,,,,,,,,,,,
+HVY223,HVY,Adrenaline Rush,2,2,3,2,,,"Generic, Action, Attack",,,,,,,"When you play this, if you have less {g} than an opposing hero, this gets +3{p}.",Generic Action - Attack,,,,,C,,,Silvia Meiliani,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY223.png,,,,,,,,,,,,
+HVY224,HVY,Adrenaline Rush,3,2,2,2,,,"Generic, Action, Attack",,,,,,,"When you play this, if you have less {g} than an opposing hero, this gets +3{p}.",Generic Action - Attack,,,,,C,,,Silvia Meiliani,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY224.png,,,,,,,,,,,,
 HVY225,HVY,Performance Bonus,1,0,3,2,,,"Generic, Action, Attack",,,,,,,"When this hits, create a Gold token.
 If this was played from arsenal, it gets **Go again**.",Generic Action - Attack,,,,,C,,,Saad Irfan,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY225.png,,,,,,,,,,,,
 HVY226,HVY,Performance Bonus,2,0,2,2,,,"Generic, Action, Attack",,,,,,,"When this hits, create a Gold token.
