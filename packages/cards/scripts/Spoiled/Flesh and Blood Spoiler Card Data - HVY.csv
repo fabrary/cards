@@ -556,7 +556,11 @@ Look at the top 3 cards of the defending hero's deck. Put them back in any order
 
 If you complete a **contract** this way, your Assassin attacks get **go again** this combat chain.",Assassin Attack Reaction,,,,No,M,S,,Mark Poole,,/HVY246.png,,,,,,,,,,,,
 HVY247,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HVY248,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY248,HVY,Evo Magneto,3,1,,2,,,"Mechanologist, Action, Equipment, Evo, Arms",Temper,,,,,,"If you have a base arms equipped, transform it into this, then equip this.
+
+When this defends, you may destroy a card under it. If you do, gain control of target item with cost 0 or 1 controlled by the attacking hero.
+
+**Temper**",Mechanologist Action Equipment - Evo Arms,,,,No,M,,,Mateus Manhanini,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY248.png,,,,,,,,,,,,
 HVY249,HVY,"Judge, Jury, Executioner",1,1,5,3,,,"Ranger, Action, Arrow, Attack","Legendary, Azalea Specialization",,,,,,"**Legendary Azalea Specialization**
 
 If this has an aim counter, it gets ""When this hits a hero, they discard all but 1 card from their hand.""",Ranger Action - Arrow Attack,,,,No,M,,,Jessada Sutthi,,/HVY249.png,,,,,,,,,,,,
