@@ -265,6 +265,7 @@ export const fabDictionary = [
   "skullform",
   "skullhorn",
   "skybound",
+  "slapHappy",
   "slaughterbeast",
   "sloggism",
   "smashback",

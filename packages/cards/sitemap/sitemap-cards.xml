@@ -311,6 +311,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/colossal-bearing-red</loc>
+    <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lay-down-the-law-red</loc>
+    <lastmod>2023-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/smack-of-reality-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -496,6 +506,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/blade-flurry-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/shift-the-tide-of-battle-yellow</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
@@ -666,6 +681,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/talk-a-big-game-blue</loc>
+    <lastmod>2023-10-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/clash-of-might-red</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
@@ -681,8 +701,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/battered-not-broken-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/test-of-might-red</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wall-of-meat-and-muscle-red</loc>
+    <lastmod>2024-01-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -776,6 +806,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/run-into-trouble-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/test-of-agility-red</loc>
     <lastmod>2023-11-16</lastmod>
     <priority>0.5</priority>
@@ -793,6 +828,21 @@
   <url>
     <loc>https://fabrary.net/cards/agile-windup-blue</loc>
     <lastmod>2023-12-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rising-speed-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rising-speed-yellow</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rising-speed-blue</loc>
+    <lastmod>2024-01-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -851,8 +901,48 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/slap-happy-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hearty-block-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/test-of-vigor-red</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rising-energy-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rising-energy-yellow</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rising-energy-blue</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vigorous-windup-red</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vigorous-windup-yellow</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vigorous-windup-blue</loc>
+    <lastmod>2024-01-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -1148,11 +1238,6 @@
   <url>
     <loc>https://fabrary.net/cards/ravenous-rabble-red</loc>
     <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/talk-a-big-game-blue</loc>
-    <lastmod>2023-10-28</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -3383,11 +3468,6 @@
   <url>
     <loc>https://fabrary.net/cards/collapsing-trap-blue</loc>
     <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/colossal-bearing-red</loc>
-    <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -7238,11 +7318,6 @@
   <url>
     <loc>https://fabrary.net/cards/lava-vein-loyalty-blue</loc>
     <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/lay-down-the-law-red</loc>
-    <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
