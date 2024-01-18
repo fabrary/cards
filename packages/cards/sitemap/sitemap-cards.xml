@@ -81,6 +81,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/reckless-charge-blue</loc>
+    <lastmod>2024-01-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/no-fear-red</loc>
     <lastmod>2023-12-27</lastmod>
     <priority>0.5</priority>
@@ -1233,6 +1238,11 @@
   <url>
     <loc>https://fabrary.net/cards/coercive-tendency-blue</loc>
     <lastmod>2023-11-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/ancestral-harmony-blue</loc>
+    <lastmod>2024-01-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
