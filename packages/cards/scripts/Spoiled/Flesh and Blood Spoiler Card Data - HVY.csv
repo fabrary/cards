@@ -572,7 +572,9 @@ HVY251,HVY,Sonata Galaxia,1,XX,,2,,,"Runeblade, Action",Go again,,,,,,"This cost
 Search your deck for a Runeblade aura with cost X or less, put it into the arena, then shuffle.
 
 If X is 2 or more, this gets **go again**.",Runeblade Action,,,,No,M,,,Olga Tereshenko,,/HVY251.png,,,,,,,,,,,,
-HVY252,HVY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HVY252,HVY,Aether Arc,3,0,,3,,,"Wizard, Action",,,,,,,"Deal 1 arcane damage to each opposing hero.
+
+Create a Ponder token for each hero dealt damage this way.",Wizard Action,,,,No,M,,,Ramza Ardyputra,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY252.png,,,,,,,,,,,,
 HVY253,HVY,Dissolve Reality,2,0,,3,,,"Illusionist, Action",Go again,,,,,,"Each hero puts all cards in their arsenal on the bottom of their deck and creates a Ponder token.
 
 **Go again**",Illusionist Action,,,,No,M,,,Carlos Cruchaga,,/HVY253.png,,,,,,,,,,,,
