@@ -78,6 +78,7 @@ export const fabDictionary = [
   "cromai",
   "crosswrap",
   "dawnblade",
+  "deathmatch",
   "deathwhistle",
   "de",
   "decimator",
