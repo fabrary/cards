@@ -29,7 +29,7 @@ HVY007,HVY,Mini Meataxe,,,3,,,,"Brute, Weapon, Axe, 1H",,Once per Turn Action,At
 When this attacks, draw a card then discard a random card.",Brute Weapon - Axe (1H),,,,,R,,,Raphael Pinna,,/HVY007.png,,,,,,,,,,,,
 HVY008,HVY,Apex Bonebreaker,,,,2,,,"Brute, Equipment, Arms",Temper,,,,,,"When this defends together with a card with 6 or more {p}, create a Might token.
 
-**Temper**",Brute Equipment - Arms,,,,No,L,,,Nuttapong Thanawiwitaporn,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY008.png,,,,,,,,,,,,
+**Temper**",Brute Equipment - Arms,,,,No,L,R,,Nuttapong Thanawiwitaporn,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY008.png,L,C,,Nuttapong Thanawiwitaporn,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY008.png,,,,,,
 HVY009,HVY,Knucklehead,,,,2,,,"Brute, Equipment, Head","Kayo Specialization, Temper",Action,,,,,"**Kayo Specialization** 
 
 Action - Destroy this: Roll a 6-sided die. Until end of turn, your base {i} is the number rolled.
@@ -140,13 +140,13 @@ HVY051,HVY,Aurum Aegis,,,,2,,,"Guardian, Equipment, Off-Hand","Victor Specializa
 
 This counts as a Gold.
 
-**Temper**",Guardian Equipment - Off-Hand,,,,No,L,,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY051.png,,,,,,,,,,,,
+**Temper**",Guardian Equipment - Off-Hand,,,,No,L,R,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY051.png,L,C,,Tanapon Wachirakul,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY051.png,,,,,,
 HVY052,HVY,Stonewall Impasse,,,,1,,,"Guardian, Equipment, Off-Hand","Temper, Clash",,,,,,"When this defends, **clash** with the attacking hero. If you win, this gets +1{d} until end of turn.
 
 **Temper**",Guardian Equipment - Off-Hand,,,,,R,,,Viktoria Belyaeva,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY052.png,,,,,,,,,,,,
 HVY053,HVY,Gauntlets of Iron Will,,,,2,,,"Guardian, Equipment, Arms",Temper,,,,,,"When this defends, the next time an attack would gain {p} this chain link, instead it gains that much minus 1.
 
-**Temper**",Guardian Equipment - Arms,,,,No,L,,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY053.png,,,,,,,,,,,,
+**Temper**",Guardian Equipment - Arms,,,,No,L,R,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY053.png,L,C,,Federico Musetti,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY053.png,,,,,,
 HVY054,HVY,Golden Glare,,,,2,,,"Guardian, Equipment, Head","Victor Specialization, Blade Break",,,,,,"**Victor Specialization**
 
 When this defends together with 2 or more yellow cards, create a Gold token.
@@ -240,7 +240,7 @@ This gets +2{d} while defending a weapon attack.
 **Blade Break**",Warror Weapon Equipment - Sword (1H),,,,,R,,,Raphael Pinna,,/HVY096.png,,,,,,,,,,,,
 HVY097,HVY,Grains of Bloodspill,,,,2,,,"Warrior, Equipment, Chest",Temper,,,,,,"Whenever a weapon attack you control hits, you may pay {r}. If you do, create a Vigor token. 
 
-**Temper**",Warrior Equipment - Chest,,,,No,L,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY097.png,,,,,,,,,,,,
+**Temper**",Warrior Equipment - Chest,,,,No,L,R,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY097.png,L,C,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY097.png,,,,,,
 HVY098,HVY,Prized Galea,,,,2,,,"Warrior, Equipment, Head","Olympia Specialization, Temper",Attack Reaction,,,,,"**Olympia Specialization**
 
 **Attack Reaction** - {r}, destroy this: Target weapon attack you control **wagers** a Gold token with the defending hero.
@@ -468,7 +468,7 @@ Create a Vigor token.
 **Go again**",Guardian / Warrior Action,,,,,C,,,Isuardi Therianto,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY194.png,,,,,,,,,,,,
 HVY195,HVY,Balance of Justice,,,,2,,,"Generic, Equipment, Head",Guardwell,Instant,,,,,"**Instant** - Destroy this: Draw a card. Activate this ability only if an opponent has drawn 2 or more cards this turn.
 
-**Guardwell**",Generic Equipment - Head,,,,No,L,,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png,,,,,,,,,,,,
+**Guardwell**",Generic Equipment - Head,,,,No,L,R,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png,L,C,,Sebastian Giacobino,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY195.png,,,,,,
 HVY196,HVY,Glory Seeker,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: Draw a card.",Generic Equipment - Head,,,,,C,,,Mariusz Gandzel,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY196.png,,,,,,,,,,,,
 HVY197,HVY,Sheltered Cove,,,,,,,"Generic, Equipment, Head",,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: The next time you would be dealt damage this turn, prevent 2 of that damage",Generic Equipment - Head,,,,,C,,,Nikko Wahyudi,,https://storage.googleapis.com/fabmaster/cardfaces/2023-HVY/EN/HVY197.png,,,,,,,,,,,,
 HVY198,HVY,Face Adversity,,,,2,,,"Generic, Equipment, Head",Blade Break,,,,,,"This may only defend an attack if the attack's controller has drawn a card this turn.

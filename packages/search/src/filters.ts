@@ -70,6 +70,7 @@ export type Filter =
   | "specializations"
   | "st"
   | "subtype"
+  | "text"
   | "t"
   | "type"
   | "tal"
