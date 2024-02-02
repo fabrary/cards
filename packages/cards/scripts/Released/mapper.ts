@@ -317,9 +317,13 @@ export const mapJSON = (parsedCards: ParsedCard[]): Card[] => {
   });
 
   const isBackOverrides = ["Blasmophet, Levia Consumed"];
+  const removeBack = ["Blossom of Spring", "Fyendal's Spring Tunic"];
   return addOppositeSideCardIdentifiers(cards).map((card) => {
     if (isBackOverrides.includes(card.name)) {
       card.isCardBack = true;
+    } else if (removeBack.includes(card.name)) {
+      delete card.isCardBack;
+      delete card.oppositeSideCardIdentifier;
     }
     return card;
   });

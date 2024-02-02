@@ -304,6 +304,9 @@ export const getSpecialImage = (
     const unlimitedEdition = printingsToUse.find(
       (printing) => printing.edition === ReleaseEdition.Unlimited
     );
+    const promoEdition = printingsToUse.find(
+      (printing) => printing.set === Release.Promos
+    );
     let image =
       printingsToUse.length > 0
         ? fullArt?.image ||
@@ -315,8 +318,19 @@ export const getSpecialImage = (
           marvel?.image ||
           firstEdition?.image ||
           alphaEdition?.image ||
+          promoEdition?.image ||
           unlimitedEdition?.image ||
-          printingsToUse.find(({ image }) => !!image)?.image ||
+          printingsToUse.find(({ set, image }) => {
+            const hasImage = !!image;
+            const isFullSet = Object.values(fullSetIdentifiers).includes(set);
+
+            return hasImage && isFullSet;
+          })?.image ||
+          printingsToUse.find(({ image }) => {
+            const hasImage = !!image;
+
+            return hasImage;
+          })?.image ||
           ""
         : "";
     if (!image) {
