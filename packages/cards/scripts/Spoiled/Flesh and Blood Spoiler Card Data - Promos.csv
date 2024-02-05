@@ -4,7 +4,7 @@ HER100,HER,Squizzy & Floof,,,,,20,4,"Merchant, Hero, Young",,,,,,,"At the start 
 FAB190,FAB,Ravenous Rabble,1,0,5,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.
 
 **Go again**",Generic Action - Attack,,,,,P,RF,EA,Isuardi Therianto,,/FAB190.png,,,,,,,,,,,,,,
-FAB193,"FAB, HVY",Runner Runner,1,2,6,3,,,"Brute, Warrior, Action",,,,,,Go again,"When this attacks, if it has **go again**, create an Agility token.",Brute / Warrior Action,,,,,P,R,EA,Narendra B Adi,,/FAB193.png,,,,,,,,,,,,,,
+FAB193,"FAB, HVY",Runner Runner,1,2,6,3,,,"Brute, Warrior, Action, Attack",,,,,,Go again,"When this attacks, if it has **go again**, create an Agility token.",Brute / Warrior Action - Attack,,,,,P,R,EA,Narendra B Adi,,/FAB193.png,,,,,,,,,,,,,,
 FAB194,"FAB, HVY",Double Down,1,2,,3,,,"Guardian, Warrior, Action",Go again,,,Overpower,,Wager,"You may destroy a Gold you control rather than pay Double Down's {r} cost.
 
 The next attack that **wagers** this turn gets +3{p} and **overpower**.
