@@ -21,6 +21,7 @@ import {
 } from "./filters";
 import { memes } from "./memes";
 import { clashSpecializationOverrides } from ".";
+import { Keyword } from "@flesh-and-blood/types";
 
 export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
@@ -309,20 +310,30 @@ export const filterCard = (
       doesCardMatchFilter = true;
     }
 
+    // Brutus
+    const shouldCheckFilterForBrutus =
+      !doesCardMatchFilter && specialConditions.heroes.includes(Hero.Brutus);
+    if (shouldCheckFilterForBrutus) {
+      const isSpecializationCard = card.specializations?.length > 0;
+      const isClashCard = card.keywords.includes(Keyword.Clash);
+      if (isClashCard && !isSpecializationCard) {
+        doesCardMatchFilter = true;
+      }
+    }
+
+    // Shiyana
     const shouldCheckFilterForShiyana =
       !doesCardMatchFilter &&
       specialConditions.heroes.includes(Hero.Shiyana) &&
       ["classes"].includes(property);
     if (shouldCheckFilterForShiyana) {
-      const isSpecializationCard =
-        !!card.specializations &&
-        // @ts-ignore
-        (card as ActionCard).specializations.length > 0;
+      const isSpecializationCard = card.specializations?.length > 0;
       if (isSpecializationCard) {
         doesCardMatchFilter = true;
       }
     }
 
+    // Taylor
     const isEquipmentCard = card.types.includes(Type.Equipment);
     const shouldCheckFilterForTaylor =
       !doesCardMatchFilter &&

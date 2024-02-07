@@ -360,6 +360,7 @@ export interface SpecialConditions {
 
 const specialConditionHeroes = [
   Hero.Briar,
+  Hero.Brutus,
   Hero.Emperor,
   Hero.Prism,
   Hero.Shiyana,

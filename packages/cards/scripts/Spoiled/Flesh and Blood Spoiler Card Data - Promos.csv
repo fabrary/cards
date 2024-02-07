@@ -4,17 +4,17 @@ HER100,HER,Squizzy & Floof,,,,,20,4,"Merchant, Hero, Young",,,,,,,"At the start 
 FAB190,FAB,Ravenous Rabble,1,0,5,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.
 
 **Go again**",Generic Action - Attack,,,,,P,RF,EA,Isuardi Therianto,,/FAB190.png,,,,,,,,,,,,,,
-FAB193,"FAB, HVY",Runner Runner,1,2,6,3,,,"Brute, Warrior, Action, Attack",,,,,,Go again,"When this attacks, if it has **go again**, create an Agility token.",Brute / Warrior Action - Attack,,,,,P,R,EA,Narendra B Adi,,/FAB193.png,,,,,,,,,,,,,,
+FAB193,"FAB, HVY",Runner Runner,1,2,6,3,,,"Brute, Warrior, Action, Attack",,,,,,Go again,"When this attacks, if it has **go again**, create an Agility token.",Brute / Warrior Action - Attack,,,,No,P,R,EA,Narendra B Adi,,/FAB193.png,,,,,,,,,,,,,,
 FAB194,"FAB, HVY",Double Down,1,2,,3,,,"Guardian, Warrior, Action",Go again,,,Overpower,,Wager,"You may destroy a Gold you control rather than pay Double Down's {r} cost.
 
 The next attack that **wagers** this turn gets +3{p} and **overpower**.
 
 If a hero would create 1 or more tokens from a **wager** this turn, instead they create that many plus 1 of each of those tokens.
 
-**Go again**",Guardian / Warrior Action,,,,,P,R,EA,Tomasz Jedruszek,,/FAB194.png,,,,,,,,,,,,,,
+**Go again**",Guardian / Warrior Action,,,,No,P,R,EA,Tomasz Jedruszek,,/FAB194.png,,,,,,,,,,,,,,
 FAB195,"FAB, HVY",Talk a Big Game,3,0,,3,,,"Brute, Guardian, Action",Go again,,,,,,"Choose a number. The next time you deal that much or more {p} damage to a hero this turn, create that many Might tokens.
 
-**Go again**",Brute / Guardian Action,,,,,P,R,EA,Tomasz Jedruszek,,/FAB195.png,,,,,,,,,,,,,,
+**Go again**",Brute / Guardian Action,,,,No,P,R,EA,Tomasz Jedruszek,,/FAB195.png,,,,,,,,,,,,,,
 FAB200,FAB,Wrecker Romp,3,2,6,3,,,"Brute, Action, Attack",,,,,,,"As an additional cost to play this, discard a random card.",Brute Action - Attack,,,,,P,R,,BWusagi,,/FAB200.png,,,,,,,,,,,,,,
 FAB203,FAB,Seismic Surge,,,,,,,"Guardian, Token, Aura",,,,,,,"At the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play.",Guardian Token - Aura,,,,,P,C,,Anastasiya Grintsova,,/FAB203.png,,,,,,,,,,,,,,
 FAB204,FAB,Agility,,,,,,,"Generic, Token, Aura",,,,Go again,,,"At the start of your turn, destroy this, then your next attack this turn gets **go again**.",Generic Token - Aura,,,,,P,C,,Tomasz Jedruszek,,/FAB204.png,,,,,,,,,,,,,,
@@ -22,6 +22,9 @@ FAB205,FAB,Might,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, 
 FAB206,FAB,Vigor,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then gain {r}.",Generic Token - Aura,,,,,P,C,,Rio Sabda,,/FAB206.png,,,,,,,,,,,,,,
 FAB223,FAB,Energy Potion,3,0,,,,,"Generic, Action, Item",Instant,,,,,,**Instant** - Destroy this: Gain {r}{r},Generic Action - Item,,,,No,P,C,EA,Alexis Susani,,/FAB223.png,,,,,,,,,,,,,,
 "LSS014, LSS015, LSS016",LSS,Popped Collar Polo,,,,0,,,"Generic, Equipment, Chest",,Action,Go again,,,,**Action** - Destroy this: Gain {r}. **Go again**,Generic Equipment - Chest,,No,No,No,P,C,,Jessketchin,,/LSS014.png,,,P,C,,Jessketchin,,/LSS015.png,P,C,,Jessketchin,,/LSS016.png
-LGS250,LGS,Wall of Meat and Muscle,1,,,3,,,"Brute, Guardian, Block",,,,,,,"When this defends, if you control a Might token, you may put an attack action card from your graveyard on top of your deck.",Brute / Guardian Block,,,,,P,R,EA,Sebastian Giacobino,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS250.width-10000.format-webp.webp,,,,,,,,,,,,,,
-LGS251,LGS,Run into Trouble,1,,,3,,,"Brute, Warrior, Block",,,,,,,"When this defends, if you control an Agility token, deal damage to the attacking hero.",Brute / Warrior Block,,,,,P,R,EA,Rio Sabda,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS251.width-10000.format-webp.webp,,,,,,,,,,,,,,
-LGS252,LGS,Hearty Block,1,,,3,,,"Guardian, Warrior, Block",,,,,,,"When this defends, if you control a Vigor token, gain 1{h}.",Guardian / Warrior Block,,,,,P,R,EA,Carlos Cruchaga,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS252.width-10000.format-webp.webp,,,,,,,,,,,,,,
+LGS250,LGS,Wall of Meat and Muscle,1,,,3,,,"Brute, Guardian, Block",,,,,,,"When this defends, if you control a Might token, you may put an attack action card from your graveyard on top of your deck.",Brute / Guardian Block,,,,No,P,R,EA,Sebastian Giacobino,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS250.width-10000.format-webp.webp,,,,,,,,,,,,,,
+LGS251,LGS,Run into Trouble,1,,,3,,,"Brute, Warrior, Block",,,,,,,"When this defends, if you control an Agility token, deal damage to the attacking hero.",Brute / Warrior Block,,,,No,P,R,EA,Rio Sabda,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS251.width-10000.format-webp.webp,,,,,,,,,,,,,,
+LGS252,LGS,Hearty Block,1,,,3,,,"Guardian, Warrior, Block",,,,,,,"When this defends, if you control a Vigor token, gain 1{h}.",Guardian / Warrior Block,,,,No,P,R,EA,Carlos Cruchaga,,https://dhhim4ltzu1pj.cloudfront.net/media/images/LGS252.width-10000.format-webp.webp,,,,,,,,,,,,,,
+JDG024,JDG,"Brutus, Summa Rudis",,,,,20,4,"Adjudicator, Hero",,,,,,Clash,"You may have cards with **clash** of any class or talent in your deck.
+
+If all heroes in a **clash** would fail to win, instead choose which hero wins the clash.",Adjudicator Hero,,No,No,No,P,C,,Billy Christian,,/JDG024.png,,,,,,,,,,,,,,

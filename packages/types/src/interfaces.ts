@@ -265,6 +265,7 @@ export enum Hero {
   Bravo = "Bravo",
   Brevant = "Brevant",
   Briar = "Briar",
+  Brutus = "Brutus",
   Chane = "Chane",
   Dash = "Dash",
   DataDoll = "Data Doll",

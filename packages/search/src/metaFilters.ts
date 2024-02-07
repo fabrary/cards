@@ -155,6 +155,11 @@ const briar: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Briar),
 ];
 
+const brutus: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Adjudicator]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Brutus),
+];
+
 const chane: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Chane),
@@ -538,6 +543,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   bravo,
   brevant,
   briar,
+  brutus,
   chane,
   dash,
   data: dataDoll,
