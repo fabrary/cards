@@ -273,6 +273,9 @@ const getCardData = (card: ParsedCard): Card => {
     return matchingOverride ? matchingOverride.override : artist;
   });
 
+  const setIdentifiers = [...card.setIdentifiers];
+  setIdentifiers.sort();
+
   return {
     artists,
     cardIdentifier: getIdentifier(card),
@@ -282,7 +285,7 @@ const getCardData = (card: ParsedCard): Card => {
     printings,
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
-    setIdentifiers: card.setIdentifiers,
+    setIdentifiers,
     sets: getSets(card),
     specialImage: getSpecialImage(card.name, getIdentifier(card), printings),
     subtypes,

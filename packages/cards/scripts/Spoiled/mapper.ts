@@ -358,6 +358,9 @@ const getCardData = (card: ParsedCard): Card => {
   const { types, subtypes } = getTypeAndSubType(card);
   const printings = getPrintings(card);
 
+  const setIdentifiers = [...card.identifiers];
+  setIdentifiers.sort();
+
   return {
     artists: getArtists(card),
     cardIdentifier: getIdentifier(card),
@@ -367,7 +370,7 @@ const getCardData = (card: ParsedCard): Card => {
     name: card.name,
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
-    setIdentifiers: card.identifiers,
+    setIdentifiers,
     sets: getSets(card),
     specialImage: getSpecialImage(card.name, getIdentifier(card), printings),
     subtypes,

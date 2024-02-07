@@ -1,6 +1,7 @@
 import {
   DoubleSidedCard,
   Foiling,
+  Hero,
   Rarity,
   Release,
   Treatment,
@@ -222,7 +223,10 @@ describe("Card search", () => {
     }
   });
 
-  const hasQuantity = [
+  const heroFilters = Object.values(Hero).map((hero) => [`l:"${hero}"`]);
+
+  const hasQuantity: string[][] = [
+    ...heroFilters,
     ["Qi Unbound"],
     ["Ultron"],
     ["overloop"],
@@ -256,6 +260,7 @@ describe("Card search", () => {
       'l:benji pow:<=2 k:"go again"',
     ],
     ["legal:briar,clash rosetta thorn"],
+    ,
   ];
   it.each(hasQuantity)("Gets cards for %s", (...searchTerms) => {
     for (const searchTerm of searchTerms) {

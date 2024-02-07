@@ -315,7 +315,7 @@ export const filterCard = (
       !doesCardMatchFilter && specialConditions.heroes.includes(Hero.Brutus);
     if (shouldCheckFilterForBrutus) {
       const isSpecializationCard = card.specializations?.length > 0;
-      const isClashCard = card.keywords.includes(Keyword.Clash);
+      const isClashCard = card.keywords?.includes(Keyword.Clash);
       if (isClashCard && !isSpecializationCard) {
         doesCardMatchFilter = true;
       }
