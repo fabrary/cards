@@ -327,8 +327,12 @@ export const filterCard = (
       specialConditions.heroes.includes(Hero.Shiyana) &&
       ["classes"].includes(property);
     if (shouldCheckFilterForShiyana) {
-      const isSpecializationCard = card.specializations?.length > 0;
-      if (isSpecializationCard) {
+      const isSpecialization = card.specializations?.length > 0;
+      const isToken = card.types.includes(Type.Token);
+      const isCrackedBauble = card.cardIdentifier === "cracked-bauble-yellow";
+      const isEphemeral = card.keywords?.includes(Keyword.Ephemeral);
+
+      if (isSpecialization || isToken || isCrackedBauble || isEphemeral) {
         doesCardMatchFilter = true;
       }
     }

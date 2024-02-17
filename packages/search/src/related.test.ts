@@ -2,6 +2,7 @@ import { Card, Hero, Type } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import { getRelatedCards, getTokensReferencedByCards } from "./related";
 import { Keyword } from "@flesh-and-blood/types";
+import Search from "./search";
 
 const toCardIdentifier = ({ cardIdentifier }: Card) => cardIdentifier;
 
@@ -79,6 +80,7 @@ describe("Related cards", () => {
     [["Squizzy & Floof"], ["Cracked Bauble", "Gold"]],
     [["Shitty Xmas Present"], ["Cracked Bauble"]],
     [["Pulverize"], ["Seismic Surge"]],
+    [["Star Struck"], ["Seismic Surge"]],
   ];
 
   it.each(tokens)(
@@ -105,6 +107,41 @@ describe("Related cards", () => {
       );
     }
   );
+
+  const shiyanaTokens = [
+    "Embodiment of Lightning",
+    "Seismic Surge",
+    "Spellbane Aegis",
+  ];
+  it("Gets all tokens for Shiyana", () => {
+    const cardSearch = new Search(cards);
+
+    const { searchResults } = cardSearch.search(`l:shiyana`);
+    const tokens = searchResults.filter(
+      ({ cardIdentifier, keywords, types }) => {
+        const isCrackedBauble = cardIdentifier === "cracked-bauble-yellow";
+        const isEphemeral = keywords?.includes(Keyword.Ephemeral);
+        const isToken = types.includes(Type.Token);
+
+        return isCrackedBauble || isEphemeral || isToken;
+      }
+    );
+
+    const referencingCards = searchResults.filter(
+      ({ specializations }) => !!specializations && specializations.length > 0
+    );
+
+    const referencedTokens = getTokensReferencedByCards(
+      referencingCards,
+      tokens
+    );
+
+    const referencedTokenNames = referencedTokens.map(({ name }) => name);
+
+    for (const expectedToken of shiyanaTokens) {
+      expect(referencedTokenNames).toContain(expectedToken);
+    }
+  });
 
   const heroSpecificTokens: string[][][] = [
     [["Maxx Nitro"], [Hero.Maxx], ["Hyper Driver"]],

@@ -253,6 +253,10 @@ export const abbreviations: Abbreviation[] = [
     card: "That All You Got?",
   },
   {
+    abbreviations: ["ToS"],
+    card: "Test of Strength",
+  },
+  {
     abbreviations: ["TROM"],
     card: "This Round's on Me",
   },
