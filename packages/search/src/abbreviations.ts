@@ -49,6 +49,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Be Like Water",
   },
   {
+    abbreviations: ["BoJ"],
+    card: "Balance of Justice",
+  },
+  {
     abbreviations: ["BOHH"],
     card: "Blood on Her Hands",
   },

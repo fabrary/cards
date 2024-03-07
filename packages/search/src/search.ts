@@ -27,6 +27,18 @@ export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
 }
 
+export interface SearchResults {
+  appliedFilters: AppliedFilter[];
+  keywords: string[];
+  attributes: {
+    artists: string[];
+    foilings: Foiling[];
+    releases: Release[];
+    treatments: Treatment[];
+  };
+  searchResults: SearchCard[];
+}
+
 class Search {
   private cards: DoubleSidedCard[];
   private fuse: Fuse<Card>;
@@ -60,20 +72,7 @@ class Search {
     this.fuse = new Fuse([...cards], searchOptions);
   }
 
-  search = (
-    text: string,
-    includeMemes?: boolean
-  ): {
-    appliedFilters: AppliedFilter[];
-    keywords: string[];
-    attributes: {
-      artists: string[];
-      foilings: Foiling[];
-      releases: Release[];
-      treatments: Treatment[];
-    };
-    searchResults: SearchCard[];
-  } => {
+  search = (text: string, includeMemes?: boolean): SearchResults => {
     let searchResults: DoubleSidedCard[];
 
     const { appliedFilters, attributes, keywords, specialConditions } =
