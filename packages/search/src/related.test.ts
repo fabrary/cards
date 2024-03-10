@@ -143,6 +143,48 @@ describe("Related cards", () => {
     }
   });
 
+  const yorickTokens = [
+    "Aether Ashwing",
+    "Embodiment of Earth",
+    "Embodiment of Lightning",
+    "Ponder",
+    "Quicken",
+    "Runechant",
+    "Seismic Surge",
+    "Soul Shackle",
+    "Spectral Shield",
+    "Zen State",
+  ];
+  it("Gets all tokens for Yorick", () => {
+    const cardSearch = new Search(cards);
+
+    const { searchResults } = cardSearch.search(`l:yorick`);
+    const tokens = searchResults.filter(
+      ({ cardIdentifier, keywords, types }) => {
+        const isCrackedBauble = cardIdentifier === "cracked-bauble-yellow";
+        const isEphemeral = keywords?.includes(Keyword.Ephemeral);
+        const isToken = types.includes(Type.Token);
+
+        return isCrackedBauble || isEphemeral || isToken;
+      }
+    );
+
+    const referencingCards = searchResults.filter(
+      ({ specializations }) => !!specializations && specializations.length > 0
+    );
+
+    const referencedTokens = getTokensReferencedByCards(
+      referencingCards,
+      tokens
+    );
+
+    const referencedTokenNames = referencedTokens.map(({ name }) => name);
+
+    for (const expectedToken of yorickTokens) {
+      expect(referencedTokenNames).toContain(expectedToken);
+    }
+  });
+
   const heroSpecificTokens: string[][][] = [
     [["Maxx Nitro"], [Hero.Maxx], ["Hyper Driver"]],
     [["Jump Start"], [Hero.Maxx], ["Hyper Driver"]],

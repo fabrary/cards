@@ -365,6 +365,7 @@ const specialConditionHeroes = [
   Hero.Prism,
   Hero.Shiyana,
   Hero.Taylor,
+  Hero.Yorick,
 ];
 
 export const getKeywordsAndAppliedFiltersFromText = (

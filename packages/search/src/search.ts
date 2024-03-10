@@ -347,6 +347,20 @@ export const filterCard = (
         doesCardMatchFilter = true;
       }
     }
+
+    // Yorick
+    const shouldCheckFilterForYorick =
+      !doesCardMatchFilter &&
+      specialConditions.heroes.includes(Hero.Yorick) &&
+      (["classes"].includes(property) || ["talents"].includes(property));
+    if (shouldCheckFilterForYorick) {
+      const isToken = card.types.includes(Type.Token);
+
+      if (isToken) {
+        doesCardMatchFilter = true;
+      }
+    }
+
     if (!doesCardMatchFilter) {
       break;
     }
