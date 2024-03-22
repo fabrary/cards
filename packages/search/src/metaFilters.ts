@@ -286,7 +286,7 @@ const melody: AppliedFilter[] = [
 ];
 
 const nuu: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Illusionist], MYSTIC),
+  ...CLASSES_AND_TALENTS([Class.Assassin], MYSTIC),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Nuu),
 ];
 
@@ -397,7 +397,7 @@ const yoji: AppliedFilter[] = [
 ];
 
 const zen: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Illusionist], MYSTIC),
+  ...CLASSES_AND_TALENTS([Class.Ninja], MYSTIC),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Zen),
 ];
 
