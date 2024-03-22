@@ -19,7 +19,7 @@ describe("Related cards", () => {
     ["Open the Center", 2, 4, 3],
     ["Prismatic Shield", 2, 0, 1],
     ["Runechant", 0, 88, 0],
-    ["Spectral Shield", 0, 33, 0],
+    ["Spectral Shield", 0, 35, 0],
     ["Tales of Adventure", 0, 0, 13],
     ["Seismic Surge", 0, 19, 0],
   ];
@@ -169,14 +169,7 @@ describe("Related cards", () => {
       }
     );
 
-    const referencingCards = searchResults.filter(
-      ({ specializations }) => !!specializations && specializations.length > 0
-    );
-
-    const referencedTokens = getTokensReferencedByCards(
-      referencingCards,
-      tokens
-    );
+    const referencedTokens = getTokensReferencedByCards(searchResults, tokens);
 
     const referencedTokenNames = referencedTokens.map(({ name }) => name);
 

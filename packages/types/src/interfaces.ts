@@ -133,6 +133,7 @@ export enum Release {
   HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
   Outsiders = "Outsiders",
+  PartTheMistveil = "Part the Mistveil",
   TalesOfAria = "Tales of Aria",
   Uprising = "Uprising",
   WelcomeToRathe = "Welcome to Rathe",
@@ -179,13 +180,14 @@ export enum ReleaseEdition {
 }
 
 export enum Talent {
-  Royal = "Royal",
   Draconic = "Draconic",
   Earth = "Earth",
   Elemental = "Elemental",
   Ice = "Ice",
   Light = "Light",
   Lightning = "Lightning",
+  Mystic = "Mystic",
+  Royal = "Royal",
   Shadow = "Shadow",
 }
 
@@ -272,6 +274,7 @@ export enum Hero {
   Dorinthea = "Dorinthea",
   Dromai = "Dromai",
   Emperor = "Emperor",
+  Enigma = "Enigma",
   Fai = "Fai",
   GenisWotchuneed = "Genis Wotchuneed",
   Ira = "Ira",
@@ -285,6 +288,7 @@ export enum Hero {
   Lexi = "Lexi",
   Maxx = "Maxx",
   Melody = "Melody",
+  Nuu = "Nuu",
   Oldhim = "Oldhim",
   Olympia = "Olympia",
   Prism = "Prism",
@@ -304,6 +308,7 @@ export enum Hero {
   Viserai = "Viserai",
   Yorick = "Yorick",
   Yoji = "Yoji",
+  Zen = "Zen",
 }
 
 export enum Keyword {

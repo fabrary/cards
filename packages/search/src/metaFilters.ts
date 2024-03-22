@@ -78,6 +78,7 @@ const EARTH_AND_LIGHTNING = [Talent.Elemental, Talent.Earth, Talent.Lightning];
 const ICE = [Talent.Elemental, Talent.Ice];
 const ICE_AND_LIGHTNING = [Talent.Elemental, Talent.Ice, Talent.Lightning];
 const LIGHT = [Talent.Light];
+const MYSTIC = [Talent.Mystic];
 const SHADOW = [Talent.Shadow];
 
 interface AppliedFilter {
@@ -217,6 +218,11 @@ const emperor: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Emperor),
 ];
 
+const enigma: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Illusionist], MYSTIC),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Enigma),
+];
+
 const fai: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Ninja], DRACONIC),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Fai, [Hero.Dromai]),
@@ -277,6 +283,11 @@ const maxx: AppliedFilter[] = [
 const melody: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Bard]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Melody),
+];
+
+const nuu: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Illusionist], MYSTIC),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Nuu),
 ];
 
 const oldhim: AppliedFilter[] = [
@@ -383,6 +394,11 @@ const yorick: AppliedFilter[] = [
 const yoji: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Guardian]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Yoji),
+];
+
+const zen: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Illusionist], MYSTIC),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Zen),
 ];
 
 const legalInBlitz: AppliedFilter[] = [
@@ -553,6 +569,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   dorinthea,
   dromai,
   emperor,
+  enigma,
   fai,
   genis,
   geniswotchuneed: genis,
@@ -568,6 +585,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   lexi,
   maxx,
   melody,
+  nuu,
   oldhim,
   olympia,
   prism,
@@ -588,6 +606,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   vynnset,
   yorick,
   yoji,
+  zen,
 };
 
 const rankedRarity = [

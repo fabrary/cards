@@ -11,8 +11,33 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/deathmatch-arena</loc>
-    <lastmod>2024-01-19</lastmod>
+    <loc>https://fabrary.net/cards/nuu-alluring-desire</loc>
+    <lastmod>2024-03-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/nuu</loc>
+    <lastmod>2024-03-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/enigma-ledger-of-ancestry</loc>
+    <lastmod>2024-03-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/enigma</loc>
+    <lastmod>2024-03-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/zen-tamer-of-purpose</loc>
+    <lastmod>2024-03-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/zen</loc>
+    <lastmod>2024-03-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -3208,6 +3233,11 @@
   <url>
     <loc>https://fabrary.net/cards/deathly-wail-blue</loc>
     <lastmod>2023-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/deathmatch-arena</loc>
+    <lastmod>2024-01-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
