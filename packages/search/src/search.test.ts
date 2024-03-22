@@ -250,6 +250,7 @@ describe("Card search", () => {
     ["legal:iyslander"],
     ["legal:dromai"],
     ["legal:fai"],
+    ["legal:zen class:ninja"],
     ["legal:boltyn keyword:charge", "l:boltyn k:charge"],
     [
       'legal:iyslander pitch:3 type:action,instant !type:reaction !subtype:attack !keyword:"go again"',
