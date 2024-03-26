@@ -8,6 +8,7 @@ import {
 } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import Search from "./search";
+import { getHeroBreakdown } from ".";
 
 const doubleSidedCards: DoubleSidedCard[] = cards.map((card) => {
   if (card.oppositeSideCardIdentifier) {
@@ -250,6 +251,7 @@ describe("Card search", () => {
     ["legal:iyslander"],
     ["legal:dromai"],
     ["legal:fai"],
+    ["legal:nuu class:assassin"],
     ["legal:zen class:ninja"],
     ["legal:boltyn keyword:charge", "l:boltyn k:charge"],
     [
@@ -270,6 +272,18 @@ describe("Card search", () => {
       );
       expect(searchResults.length).toBeGreaterThan(0);
     }
+  });
+
+  const { all } = getHeroBreakdown(cards);
+
+  const heroAndFirstClassFilters: string[] = all.map(
+    ({ classes, hero }) => `l:"${hero}" c:"${classes[0]}"`
+  );
+  it.each(heroAndFirstClassFilters)("Gets cards for %s", (searchTerm) => {
+    const { searchResults } = cardSearch.search(
+      randomizeCapitalization(searchTerm as string)
+    );
+    expect(searchResults.length).toBeGreaterThan(0);
   });
 
   const hasNoQuantity = [
