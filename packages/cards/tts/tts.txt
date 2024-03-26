@@ -2510,6 +2510,8 @@ OSCCardDB = {
   ["FAB205"] = { name = "Might", text = "At the start of your turn, destroy this, then your next attack this turn gets +1{p}.", keywords = "", types = "Token"},
   ["FAB206"] = { name = "Vigor", text = "At the start of your turn, destroy this, then gain {r}.", keywords = "", types = "Token"},
   ["FAB223"] = { name = "Energy Potion (3)", text = "**Instant** - Destroy this: Gain {r}{r}", keywords = "", types = "Action"},
+  ["FAB238"] = { name = "Big Blue Sky (3)", text = "This gets +1 {d} for each blue card you've pitched this turn.", keywords = "", types = "Defense Reaction"},
+  ["FAB239"] = { name = "Wide Blue Yonder (3)", text = "Target attack gets +1 {p} for each blue card you've pitched this turn.", keywords = "", types = "Attack Reaction"},
   ["FAI001"] = { name = "Fai", text = "You may start the game with a Phoenix Flame in your graveyard.\n\n**Once per Turn Instant** - {r}{r}{r}: Return a Phoenix Flame from your graveyard to your hand. This ability costs {r} less for each Draconic chain link you control.", keywords = "", types = "Hero"},
   ["FAI002"] = { name = "Searing Emberblade", text = "**Once per Turn Action** - {r}{r}: **Attack**\n\nIf you control 2 or more Draconic chain links, Searing Emberblade has **go again**.", keywords = "Go again", types = "Weapon"},
   ["FAI003"] = { name = "Hope Merchant's Hood", text = "**Instant** - Destroy Hope Merchant's Hood: Shuffle any number of cards from your hand into your deck, then draw that many cards.", keywords = "", types = "Equipment"},

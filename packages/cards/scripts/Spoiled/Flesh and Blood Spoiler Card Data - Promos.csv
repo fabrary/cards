@@ -1,9 +1,11 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Image URL 3
+FAB238,"FAB, MST",Big Blue Sky,3,0,,2,,,"Mystic, Defense Reaction",,,,,,,This gets +1 {d} for each blue card you've pitched this turn.,Mystic Defense Reaction,,,,,P,R,EA,Reza Afshar,,/FAB238.png,,,,,,,,,,,,,,
+FAB239,"FAB, MST",Wide Blue Yonder,3,0,,2,,,"Mystic, Attack Reaction",,,,,,,Target attack gets +1 {p} for each blue card you've pitched this turn.,Mystic Attack Reaction,,,,,P,R,EA,Sebastian Giacobino,,/FAB239.png,,,,,,,,,,,,,,
 FAB121,FAB,Gold,,,,,,,"Generic, Token, Item",Go again,,,,,,"**Action** - {r}{r}, destroy Gold: Draw a card. **Go again**",Generic Token - Item,,,,,P,C,,Nikolay Moskvin,,/FAB121.png,501429,https://www.tcgplayer.com/product/501429?Language=all&Printing=Cold+Foil,,,,,,,,,,,,
 HER100,HER,Squizzy & Floof,,,,,20,4,"Merchant, Hero, Young",,,,,,,"At the start of each opposing hero's turn, they may create a Cracked Bauble in their hand. If they do, you create a Gold token.",Merchant Hero - Young,,No,No,No,P,C,,Carlos Cruchaga,,/HER100.png,,,P,R,,Carlos Cruchaga,,/HER100.png,,,,,,
 FAB190,FAB,Ravenous Rabble,1,0,5,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. This gets -X{p}, where X is the pitch value of the card revealed this way.
 
-**Go again**",Generic Action - Attack,,,,,P,RF,EA,Isuardi Therianto,,/FAB190.png,,,,,,,,,,,,,,
+**Go again**",Generic Action - Attack,,,,,P,R,EA,Isuardi Therianto,,/FAB190.png,,,,,,,,,,,,,,
 FAB193,"FAB, HVY",Runner Runner,1,2,6,3,,,"Brute, Warrior, Action, Attack",,,,,,Go again,"When this attacks, if it has **go again**, create an Agility token.",Brute / Warrior Action - Attack,,,,No,P,R,EA,Narendra B Adi,,/FAB193.png,,,,,,,,,,,,,,
 FAB194,"FAB, HVY",Double Down,1,2,,3,,,"Guardian, Warrior, Action",Go again,,,Overpower,,Wager,"You may destroy a Gold you control rather than pay Double Down's {r} cost.
 
