@@ -633,21 +633,27 @@ const getFoilingValuesFromText = (rawValues: string[]) => {
 };
 
 const treatmentValuesMapping: { [key: string]: Treatment } = {
-  aa: Treatment.AA,
-  alt: Treatment.AA,
-  "alt art": Treatment.AA,
-  ab: Treatment.AB,
-  "alt border": Treatment.AB,
-  at: Treatment.AT,
-  "alt text": Treatment.AT,
-  ds: Treatment.DS,
-  "double sided": Treatment.DS,
-  ea: Treatment.EA,
-  extended: Treatment.EA,
-  "extended art": Treatment.EA,
-  fa: Treatment.FA,
-  full: Treatment.FA,
-  "full art": Treatment.FA,
+  ...Object.values(Treatment).reduce((obj, treatment) => {
+    obj[treatment.toLowerCase()] = treatment;
+    return obj;
+  }, {}),
+  ...{
+    aa: Treatment.AA,
+    alt: Treatment.AA,
+    "alt art": Treatment.AA,
+    ab: Treatment.AB,
+    "alt border": Treatment.AB,
+    at: Treatment.AT,
+    "alt text": Treatment.AT,
+    // ds: Treatment.DS,
+    // "double sided": Treatment.DS,
+    ea: Treatment.EA,
+    extended: Treatment.EA,
+    "extended art": Treatment.EA,
+    fa: Treatment.FA,
+    full: Treatment.FA,
+    "full art": Treatment.FA,
+  },
 };
 const getTreatmentValuesFromText = (rawValues: string[]) => {
   const values: Treatment[] = [];

@@ -288,9 +288,9 @@ export const getSpecialImage = (
     const alternateText = printingsToUse.find(
       (printing) => printing.treatment === Treatment.AT
     );
-    const doubleSided = printingsToUse.find(
-      (printing) => printing.treatment === Treatment.DS
-    );
+    // const doubleSided = printingsToUse.find(
+    //   (printing) => printing.treatment === Treatment.DS
+    // );
 
     const marvel = printingsToUse.find((printing) =>
       printing.image.includes("_V2")
@@ -312,7 +312,7 @@ export const getSpecialImage = (
         ? fullArt?.image ||
           extendedArt?.image ||
           alternateBorder?.image ||
-          doubleSided?.image ||
+          // doubleSided?.image ||
           alternativeArt?.image ||
           alternateText?.image ||
           marvel?.image ||

@@ -286,6 +286,16 @@ describe("Card search", () => {
     expect(searchResults.length).toBeGreaterThan(0);
   });
 
+  const artTreatmentFilters: string[] = Object.values(Treatment).map(
+    (treatment) => `treatment:"${treatment}"`
+  );
+  it.each(artTreatmentFilters)("Gets cards for %s", (searchTerm) => {
+    const { searchResults, appliedFilters } = cardSearch.search(
+      randomizeCapitalization(searchTerm as string)
+    );
+    expect(searchResults.length).toBeGreaterThan(0);
+  });
+
   const hasNoQuantity = [
     [
       "legal:shiyana,commoner cnc",
