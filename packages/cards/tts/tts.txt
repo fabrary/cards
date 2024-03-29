@@ -426,6 +426,8 @@ OSCCardDB = {
   ["1HP425"] = { name = "Whisper of the Oracle (3)", text = "**Opt 2**\n\n**Go again**", keywords = "Go again,Opt", types = "Action"},
   ["1HP426"] = { name = "Copper", text = "**Action** - {r}{r}{r}{r}, destroy this: Draw a card. **Go again**", keywords = "Go again", types = "Token"},
   ["1HP427"] = { name = "Quicken", text = "When you play an attack action card or activate a weapon attack, destroy this and the attack gains **go again**.", keywords = "Go again", types = "Token"},
+  ["AKO004"] = { name = "Savage Sash", text = "**Action** - Destroy this: Attack action cards with 6 or more {p} cost you {r} less to play this turn. **Go again**\n\n**Temper**", keywords = "Go again,Temper", types = "Equipment"},
+  ["AKO024"] = { name = "Run Roughshod (3)", text = "Play this only if you've discarded a card with 6 or more {p} this turn.", keywords = "", types = "Action"},
   ["ARA001"] = { name = "Arakni, Solitary Confinement", text = "Your first attack with **stealth** each turn has **go again**.", keywords = "Go again", types = "Hero"},
   ["ARA002"] = { name = "Spider's Bite", text = "**Once per Turn Action** - {r}{r}: **Attack**. **Go again**\n\n**Piercing 1**\n\nWhen this hits a hero, the next time they defend with 1 or more attack action cards this turn, those cards have -1{d} while defending.", keywords = "Go again,Piercing", types = "Weapon"},
   ["ARA003"] = { name = "Mask of Malicious Manifestations", text = "**Action** - {r}, put a card from your hand or arsenal on the bottom of your deck, destroy Mask of Malicious Manifestations: Reveal cards from the top of your deck until you reveal an attack action card. Put it into your hand, then shuffle. **Go again**\n\n**Blade break**", keywords = "Go again", types = "Equipment"},
