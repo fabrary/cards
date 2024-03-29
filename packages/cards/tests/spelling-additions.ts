@@ -315,6 +315,7 @@ export const fabDictionary = [
   "valda",
   "vambrace",
   "vantom",
+  "venomback",
   "vipox",
   "viserai",
   "viziertronic",

@@ -5906,8 +5906,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/hummingbird-adventurers-call</loc>
-    <lastmod>2023-05-13</lastmod>
+    <loc>https://fabrary.net/cards/hummingbird-call-of-adventure</loc>
+    <lastmod>2024-03-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8668,6 +8668,16 @@
   <url>
     <loc>https://fabrary.net/cards/prized-galea</loc>
     <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/proclamation-of-combat</loc>
+    <lastmod>2024-03-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/proclamation-of-production</loc>
+    <lastmod>2024-03-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

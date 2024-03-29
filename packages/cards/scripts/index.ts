@@ -2,7 +2,8 @@ import { Card, Rarity } from "@flesh-and-blood/types";
 import { writeFiles } from "./writer";
 import { spoiledCards } from "./Spoiled";
 import { releasedCards } from "./Released";
-import { getDefaultImage, getPrint, getSpecialImage } from "./Shared";
+import { getDefaultImage, getSpecialImage } from "./Shared";
+import { getPrint } from "@flesh-and-blood/types";
 
 const outputDirectory = "src";
 

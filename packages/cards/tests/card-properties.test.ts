@@ -1,7 +1,6 @@
 import { cards as cardsToPublish } from "../dist/index";
 import { cards as publishedCards } from "latest-cards";
-import { Card } from "@flesh-and-blood/types";
-import { getPrint } from "../scripts/Shared";
+import { Card, getPrint } from "@flesh-and-blood/types";
 
 interface UpdatedComparison {
   toPublish: Card;
@@ -98,5 +97,30 @@ describe("No duplicate identifiers", () => {
     }
 
     expect(duplicatePrintIdentifiers).toEqual([]);
+  });
+
+  it("Duplicate images", () => {
+    const duplicateImages: string[] = [];
+    const images: { [key: string]: string } = {};
+
+    for (const { cardIdentifier, isCardBack, printings } of cardsToPublish) {
+      if (!isCardBack) {
+        for (const { image } of printings) {
+          if (image) {
+            const matching = images[image];
+            if (matching) {
+              const isSameCard = matching === cardIdentifier;
+              if (!isSameCard) {
+                duplicateImages.push(image);
+              }
+            } else {
+              images[image] = cardIdentifier;
+            }
+          }
+        }
+      }
+    }
+
+    expect(duplicateImages).toEqual([]);
   });
 });

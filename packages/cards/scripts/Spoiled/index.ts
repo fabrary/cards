@@ -3,10 +3,10 @@ import { parseCSV } from "./parser";
 import {
   filterOutUnwantedCards,
   getDefaultImage,
-  getPrint,
   getSpecialImage,
 } from "../Shared";
 import { Card, Rarity } from "@flesh-and-blood/types";
+import { getPrint } from "@flesh-and-blood/types";
 
 const spoiledCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
 const spoiledCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;

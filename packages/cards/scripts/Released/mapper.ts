@@ -21,7 +21,6 @@ import {
   getFusions,
   getIdentifier,
   getNumberOrUndefined,
-  getPrint,
   getRarities,
   getRestrictedFormats,
   getSpecialImage,
@@ -30,6 +29,7 @@ import {
 } from "../Shared";
 import { overrides } from "../Shared/artist-overrides";
 import { ParsedCard } from "./parser";
+import { getPrint } from "@flesh-and-blood/types";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -61,6 +61,8 @@ const getHero = (card: ParsedCard): Hero | null => {
   return null;
 };
 
+const excludedPrintings: string[] = ["LGS229-Rainbow", "LGS230-Rainbow"];
+
 const setEditionMapping = {
   A: ReleaseEdition.Alpha,
   F: ReleaseEdition.First,
@@ -77,10 +79,10 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     // foilings,
     foiling: rawFoiling,
     setIdentifier: identifier,
-    set: rawSet,
+    set,
     tcgplayer,
   } of printings) {
-    const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
+    // const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
     const edition = setEditionMapping[rawEdition];
 
     const treatment = Treatment[artVariation];
@@ -91,18 +93,23 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       : "";
 
     const foiling = Foiling[rawFoiling];
-    const print = getPrint({ identifier, edition, foiling, treatment });
-    images.push({
-      artist,
-      ...(edition ? { edition } : {}),
-      ...(foiling ? { foiling } : {}),
-      identifier,
-      image,
-      print,
-      set,
-      ...(tcgplayer ? { tcgplayer } : {}),
-      ...(treatment ? { treatment } : {}),
-    });
+    const print = getPrint({ identifier, edition, foiling, set, treatment });
+
+    const isPrintExcluded = excludedPrintings.includes(print);
+
+    if (!isPrintExcluded) {
+      images.push({
+        artist,
+        ...(edition ? { edition } : {}),
+        ...(foiling ? { foiling } : {}),
+        identifier,
+        image,
+        print,
+        set,
+        ...(tcgplayer ? { tcgplayer } : {}),
+        ...(treatment ? { treatment } : {}),
+      });
+    }
   }
   images.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
   return images;
@@ -185,15 +192,9 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
   return bannedFormats;
 };
 
-const getSets = (card: ParsedCard): Release[] => {
-  const sets = card.setIdentifiers
-    .map(
-      (setIdentifier) =>
-        setIdentifierToSetMappings[setIdentifier.substring(0, 3).toLowerCase()]
-    )
-    .filter((set) => !!set);
-  const printingSets = getPrintings(card).map(({ set }) => set);
-  const arr = Array.from(new Set([...sets, ...printingSets]));
+const getSets = (printings: Printing[]): Release[] => {
+  const printingSets = printings.map(({ set }) => set);
+  const arr = Array.from(new Set(printingSets));
   arr.sort();
 
   return arr;
@@ -270,7 +271,7 @@ const getCardData = (card: ParsedCard): Card => {
     const matchingOverride = overrides.find(
       ({ original }) => artist === original
     );
-    return matchingOverride ? matchingOverride.override : artist;
+    return matchingOverride ? matchingOverride.override.trim() : artist.trim();
   });
 
   const setIdentifiers = [...card.setIdentifiers];
@@ -286,7 +287,7 @@ const getCardData = (card: ParsedCard): Card => {
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,
     setIdentifiers,
-    sets: getSets(card),
+    sets: getSets(printings),
     specialImage: getSpecialImage(card.name, getIdentifier(card), printings),
     subtypes,
     types,
@@ -320,7 +321,12 @@ export const mapJSON = (parsedCards: ParsedCard[]): Card[] => {
   });
 
   const isBackOverrides = ["Blasmophet, Levia Consumed"];
-  const removeBack = ["Blossom of Spring", "Fyendal's Spring Tunic"];
+  const removeBack = [
+    "Blossom of Spring",
+    "Fyendal's Spring Tunic",
+    "Scabskin Leathers",
+    "Snapdragon Scalers",
+  ];
   return addOppositeSideCardIdentifiers(cards).map((card) => {
     if (isBackOverrides.includes(card.name)) {
       card.isCardBack = true;

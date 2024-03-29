@@ -4,7 +4,6 @@ import {
   getFusions,
   getIdentifier,
   getNumberOrUndefined,
-  getPrint,
   getRestrictedFormats,
   getSpecialImage,
   getSpecializations,
@@ -29,6 +28,7 @@ import {
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 import { ParsedCard } from "./parser";
+import { getPrint } from "@flesh-and-blood/types";
 
 const getArtists = (card: ParsedCard): string[] => {
   const { artist, artist2 } = card;
@@ -40,7 +40,7 @@ const getArtists = (card: ParsedCard): string[] => {
     const matchingOverride = overrides.find(
       ({ original }) => artist === original
     );
-    return matchingOverride ? matchingOverride.override : artist;
+    return matchingOverride ? matchingOverride.override.trim() : artist.trim();
   });
 };
 
@@ -95,9 +95,11 @@ const getPrinting = ({
   treatmentString,
   tcgplayer,
 }: PrintingInput): Printing => {
+  const set = setIdentifierToSetMappings[setString.toLowerCase()];
+
   const foiling = foilingString ? Foiling[foilingString] : undefined;
   const treatment = treatmentString ? Treatment[treatmentString] : undefined;
-  const print = getPrint({ identifier, foiling, treatment });
+  const print = getPrint({ identifier, foiling, set, treatment });
 
   let image;
   if (imageUrl) {
@@ -112,8 +114,6 @@ const getPrinting = ({
   } else {
     image = identifier;
   }
-
-  const set = setIdentifierToSetMappings[setString.toLowerCase()];
 
   return {
     artist,

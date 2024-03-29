@@ -382,19 +382,6 @@ export const getSpecializations = (card: {
   return specializations;
 };
 
-export const getPrint = (printing: {
-  identifier: string;
-  edition?: string;
-  foiling?: string;
-  treatment?: string;
-}) => {
-  const identifier = printing.identifier;
-  const edition = printing.edition ? `-${printing.edition}` : ``;
-  const foiling = printing.foiling ? `-${printing.foiling}` : ``;
-  const treatment = printing.treatment ? `-${printing.treatment}` : ``;
-  return `${identifier}${edition}${foiling}${treatment}`;
-};
-
 export const getSets = ({
   setIdentifiers,
 }: {

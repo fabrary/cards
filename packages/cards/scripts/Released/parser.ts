@@ -1,8 +1,13 @@
+import {
+  Release,
+  setIdentifierToSetMappings,
+  setToSetIdentifierMappings,
+} from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
 
 export interface Printing {
   setIdentifier: string;
-  set: string;
+  set: Release;
   edition: string;
   foiling: string;
   rarity: string;
@@ -86,6 +91,7 @@ interface SourcePrinting {
   artist: string;
   art_variation: string;
   image_url: string;
+  set_printing_unique_id: string;
   tcgplayer_product_id?: string;
   tcgplayer_url?: string;
 }
@@ -121,8 +127,22 @@ interface SourceJSONCard {
   printings: SourcePrinting[];
 }
 
-export const parseJSON = (json): ParsedCard[] => {
-  const jsonCards = JSON.parse(readFileSync(json, "utf-8")) as SourceJSONCard[];
+interface SourceJSONSet {
+  unique_id: string;
+  id: string;
+  name: string;
+  printings: {
+    unique_id: string;
+  }[];
+}
+
+export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
+  const jsonCards = JSON.parse(
+    readFileSync(cardJSON, "utf-8")
+  ) as SourceJSONCard[];
+  const jsonSets = JSON.parse(
+    readFileSync(setJSON, "utf-8")
+  ) as SourceJSONSet[];
 
   return jsonCards.map(
     ({
@@ -170,6 +190,7 @@ export const parseJSON = (json): ParsedCard[] => {
           image_url,
           rarity,
           set_id,
+          set_printing_unique_id,
           tcgplayer_product_id,
           tcgplayer_url,
         }) => {
@@ -178,6 +199,29 @@ export const parseJSON = (json): ParsedCard[] => {
               ? { productId: tcgplayer_product_id, url: tcgplayer_url }
               : undefined;
 
+          const matchingSet = jsonSets.find(({ printings }) =>
+            printings.some(
+              ({ unique_id }) => unique_id === set_printing_unique_id
+            )
+          );
+          let set: Release = Release.Promos;
+
+          if (!matchingSet) {
+            throw new Error(
+              `No set found for ${set_id} ${set_printing_unique_id}`
+            );
+          } else {
+            const validSets = Object.keys(setToSetIdentifierMappings);
+
+            const matchingValidSet = validSets.find(
+              (setName) => setName === matchingSet.name
+            );
+            if (matchingValidSet) {
+              set = matchingValidSet as Release;
+            } else {
+              set = setIdentifierToSetMappings[set_id.toLowerCase()];
+            }
+          }
           return {
             artist,
             artVariation: art_variation,
@@ -186,7 +230,7 @@ export const parseJSON = (json): ParsedCard[] => {
             // foilings,
             imageUrl: image_url,
             rarity,
-            set: set_id,
+            set,
             setIdentifier: id.trim(),
             tcgplayer,
           };
