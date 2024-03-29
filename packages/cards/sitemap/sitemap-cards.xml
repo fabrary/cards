@@ -41,6 +41,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/oasis-respite-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/big-blue-sky-blue</loc>
     <lastmod>2024-03-26</lastmod>
     <priority>0.5</priority>
@@ -7697,11 +7702,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/oaken-old-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/oasis-respite-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>

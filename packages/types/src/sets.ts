@@ -21,6 +21,9 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
 export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ...fullSetIdentifiers,
 
+  // Armory decks
+  ako: Release.ArmoryDeckKayo,
+
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
   azl: Release.AzaleaBlitzDeck,

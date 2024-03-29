@@ -138,7 +138,10 @@ export enum Release {
   Uprising = "Uprising",
   WelcomeToRathe = "Welcome to Rathe",
 
-  // Hero/blitz decks
+  // Hero/blitz/armory decks
+  ArmoryDeckKayo = "Armory Deck Kayo",
+
+  // Blitz decks
   ArakniBlitzDeck = "Arakni Blitz Deck",
   AzaleaBlitzDeck = "Azalea Blitz Deck",
   BenjiBlitzDeck = "Benji Blitz Deck",
@@ -147,14 +150,10 @@ export enum Release {
   BriarBlitzDeck = "Briar Blitz Deck",
   BravoBlitzDeck = "Bravo Blitz Deck",
   ChaneBlitzDeck = "Chane Blitz Deck",
-  ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
   DromaiBlitzDeck = "Dromai Blitz Deck",
-  DorintheaHeroDeck = "Dorinthea Hero Deck",
   FaiBlitzDeck = "Fai Blitz Deck",
-  IraWelcomeDeck = "Ira Welcome Deck",
   KassaiBlitzDeck = "Kassai Blitz Deck",
   KatsuBlitzDeck = "Katsu Blitz Deck",
-  KatsuHeroDeck = "Katsu Hero Deck",
   KayoBlitzDeck = "Kayo Blitz Deck",
   LeviaBlitzDeck = "Levia Blitz Deck",
   LexiBlitzDeck = "Lexi Blitz Deck",
@@ -162,11 +161,19 @@ export enum Release {
   OlympiaBlitzDeck = "Olympia Blitz Deck",
   PrismBlitzDeck = "Prism Blitz Deck",
   RhinarBlitzDeck = "Rhinar Blitz Deck",
-  RhinarHeroDeck = "Rhinar Hero Deck",
   RiptideBlitzDeck = "Riptide Blitz Deck",
-  RoundTheTable = "Round the Table",
   UzuriBlitzDeck = "Uzuri Blitz Deck",
   VictorBlitzDeck = "Victor Blitz Deck",
+
+  // Hero decks
+  DorintheaHeroDeck = "Dorinthea Hero Deck",
+  KatsuHeroDeck = "Katsu Hero Deck",
+  RhinarHeroDeck = "Rhinar Hero Deck",
+
+  // Other decks
+  ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
+  IraWelcomeDeck = "Ira Welcome Deck",
+  RoundTheTable = "Round the Table",
 
   // One-offs
   Promos = "Promos",

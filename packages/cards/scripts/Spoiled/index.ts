@@ -8,8 +8,9 @@ import {
 import { Card, Rarity } from "@flesh-and-blood/types";
 import { getPrint } from "@flesh-and-blood/types";
 
-const spoiledCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
-const spoiledCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
+const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
+const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
+const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
@@ -17,7 +18,10 @@ const parsedOverrideCards = parseCSV(overrideCardsFile)
   .filter(filterOutUnwantedCards);
 const overrideCards = mapCSV(parsedOverrideCards);
 
-const parsedSpoiledCards1 = parseCSV(spoiledCardsFile1)
+const parsedSpoiledSetCards = [
+  ...parseCSV(spoiledSetCardsFile1),
+  ...parseCSV(spoiledSetCardsFile2),
+]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
   .filter((card) => {
@@ -27,9 +31,9 @@ const parsedSpoiledCards1 = parseCSV(spoiledCardsFile1)
     );
     return !matchingOverride;
   });
-const spoiledCards1 = mapCSV(parsedSpoiledCards1);
+const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
-const parsedSpoiledCards2 = parseCSV(spoiledCardsFile2)
+const parsedSpoiledPromoCards = parseCSV(spoiledPromoCardsFile)
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
   .filter((card) => {
@@ -39,11 +43,11 @@ const parsedSpoiledCards2 = parseCSV(spoiledCardsFile2)
     );
     return !matchingOverride;
   });
-const spoiledCards2 = mapCSV(parsedSpoiledCards2);
+const spoiledPromoCards = mapCSV(parsedSpoiledPromoCards);
 
 const deduplicatedCards: Card[] = [...overrideCards];
 
-spoiledCards1.forEach((card) => {
+spoiledSetCards.forEach((card) => {
   const duplicate = deduplicatedCards.find(
     ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier
   );
@@ -96,7 +100,7 @@ spoiledCards1.forEach((card) => {
   }
 });
 
-spoiledCards2.forEach((card) => {
+spoiledPromoCards.forEach((card) => {
   const duplicate = deduplicatedCards.find(
     ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier
   );
