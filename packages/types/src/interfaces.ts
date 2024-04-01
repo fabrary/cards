@@ -371,6 +371,7 @@ export enum Keyword {
   Temper = "Temper",
   Tower = "Tower",
   Transform = "Transform",
+  Transcend = "Transcend",
   Universal = "Universal",
   Unfreeze = "Unfreeze",
   Unity = "Unity",

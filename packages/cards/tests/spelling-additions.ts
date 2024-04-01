@@ -67,6 +67,7 @@ export const fabDictionary = [
   "buzzsaw",
   "candlehold",
   "cenipai",
+  "chakra",
   "chokeslam",
   "cinderclaw",
   "cinderskin",
