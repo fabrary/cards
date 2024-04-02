@@ -135,12 +135,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     setIdentifiers,
     artist,
     foiling,
+    identifier,
     imageUrl,
     treatment,
     tcgplayerProductId,
     tcgplayerUrl,
     artist2,
     foiling2,
+    identifier2,
     imageUrl2,
     rarity2,
     treatment2,
@@ -148,6 +150,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayerUrl2,
     artist3,
     foiling3,
+    identifier3,
     imageUrl3,
     rarity3,
     treatment3,
@@ -158,7 +161,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   const printing1 = getPrinting({
     artist,
     foilingString: foiling,
-    identifier: identifiers[0],
+    identifier: identifier || identifiers[0],
     setString: setIdentifiers[0],
     imageUrl,
     treatmentString: treatment,
@@ -174,13 +177,16 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   printings.push(printing1);
 
   if (rarity2 && artist2) {
-    const identifier = identifiers.length > 1 ? identifiers[1] : identifiers[0];
-    const setIdentifier =
-      setIdentifiers.length > 1 ? setIdentifiers[1] : setIdentifiers[0];
+    const identifierFor2 = identifier2
+      ? identifier2
+      : identifiers.length > 1
+      ? identifiers[1]
+      : identifiers[0];
+    const setIdentifier = identifierFor2.slice(0, 3);
     const printing2 = getPrinting({
       artist: artist2,
       foilingString: foiling2,
-      identifier,
+      identifier: identifierFor2,
       imageUrl: imageUrl2,
       setString: setIdentifier,
       treatmentString: treatment2,
@@ -197,13 +203,16 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   }
 
   if (rarity3 && artist3) {
-    const identifier = identifiers.length > 2 ? identifiers[2] : identifiers[0];
-    const setIdentifier =
-      setIdentifiers.length > 2 ? setIdentifiers[2] : setIdentifiers[0];
+    const identifierFor3 = identifier3
+      ? identifier3
+      : identifiers.length > 2
+      ? identifiers[2]
+      : identifiers[0];
+    const setIdentifier = identifierFor3.slice(0, 3);
     const printing3 = getPrinting({
       artist: artist3,
       foilingString: foiling3,
-      identifier,
+      identifier: identifierFor3,
       imageUrl: imageUrl3,
       setString: setIdentifier,
       treatmentString: treatment3,
@@ -366,7 +375,7 @@ const getCardData = (card: ParsedCard): Card => {
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
     defaultImage: getDefaultImage(card.name, printings),
-    printings: getPrintings(card),
+    printings,
     name: card.name,
     rarities: getRarities(card),
     rarity: getRarity(card) as Rarity,

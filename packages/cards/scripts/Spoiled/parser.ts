@@ -25,6 +25,7 @@ export interface ParsedCard {
   // Printings
   artist: string;
   foiling?: string;
+  identifier?: string;
   imageUrl: string;
   rarity: string;
   treatment?: string;
@@ -33,6 +34,7 @@ export interface ParsedCard {
   // 2nd printing
   artist2?: string;
   foiling2?: string;
+  identifier2?: string;
   imageUrl2?: string;
   rarity2?: string;
   treatment2?: string;
@@ -41,6 +43,7 @@ export interface ParsedCard {
   // 3rd printing
   artist3?: string;
   foiling3?: string;
+  identifier3?: string;
   imageUrl3?: string;
   rarity3?: string;
   treatment3?: string;
@@ -102,6 +105,7 @@ const headerMappings = {
   Artist: "artist",
   "Art Variation": "treatment",
   Foiling: "foiling",
+  Identifier: "identifier",
   "Image URL": "imageUrl",
   Rarity: "rarity",
   "TCGPlayer Product Id": "tcgplayerProductId",
@@ -110,6 +114,7 @@ const headerMappings = {
   "Artist 2": "artist2",
   "Art Variation 2": "treatment2",
   "Foiling 2": "foiling2",
+  "Identifier 2": "identifier2",
   "Image URL 2": "imageUrl2",
   "Rarity 2": "rarity2",
   "TCGPlayer Product Id 2": "tcgplayerProductId2",
@@ -118,6 +123,7 @@ const headerMappings = {
   "Artist 3": "artist3",
   "Art Variation 3": "treatment3",
   "Foiling 3": "foiling3",
+  "Identifier 3": "identifier3",
   "Image URL 3": "imageUrl3",
   "Rarity 3": "rarity3",
   "TCGPlayer Product Id 3": "tcgplayerProductId3",
