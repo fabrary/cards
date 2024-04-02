@@ -2,8 +2,8 @@ Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Type
 MST000,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this.""
 
-**Instant** - {b}{b}{b}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,/MST001_Back_V2.png,,,,,,
-MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {b}{b}{b}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,/MST002_Back_V2.png,,,,,,
+**Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,/MST001_Back_V2.png,,,,,,
+MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,/MST002_Back_V2.png,,,,,,
 MST003,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST004,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST005,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -26,10 +26,10 @@ MST021,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST022,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST023,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST024,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST025,MST,"Enigma, Ledger of Ancestry",,,,,40,4,"Mystic, Illusionist, Hero",,Once per Turn Instant,,,,,"Your first Spectral Shield attack each turn costs {r} less to activate.
+MST025,"MST, HER","Enigma, Ledger of Ancestry",,,,,40,4,"Mystic, Illusionist, Hero",,Once per Turn Instant,,,,,"Your first Spectral Shield attack each turn costs {r} less to activate.
 
-**Once per Turn Instant** - {b}{b}{b}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,V,C,FA,Asur Misoa,,/MST025_Back_V2.png,,,,,,
-MST026,MST,Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,Once per Turn Instant,,,,,Your first Spectral Shield attack each turn costs {r} less to activate. **Once per Turn Instant** - {b}{b}{b}: Create a Spectral Shield token with a +1{p} counter.,Mystic Illusionist Hero - Young,,,No,,V,C,,Asur Misoa,,/MST026_V2.png,V,C,FA,Asur Misoa,,/MST026_Back_V2.png,,,,,,
+**Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,V,C,FA,Asur Misoa,,/MST025_Back_V2.png,P,R,,Kanadekana,,/HER116.png
+MST026,MST,Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,Once per Turn Instant,,,,,Your first Spectral Shield attack each turn costs {r} less to activate. **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.,Mystic Illusionist Hero - Young,,,No,,V,C,,Asur Misoa,,/MST026_V2.png,V,C,FA,Asur Misoa,,/MST026_Back_V2.png,,,,,,
 MST027,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST028,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST029,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -49,8 +49,8 @@ MST042,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST043,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST044,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST045,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {b}{b}{b}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,/MST046_Back_V2.png,,,,,,
-MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {b}{b}{b}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,/MST047_V2.png,V,C,FA,Lius Lasahido,,/MST047_Back_V2.png,,,,,,
+MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,/MST046_Back_V2.png,,,,,,
+MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,/MST047_V2.png,V,C,FA,Lius Lasahido,,/MST047_Back_V2.png,,,,,,
 MST048,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST049,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST050,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

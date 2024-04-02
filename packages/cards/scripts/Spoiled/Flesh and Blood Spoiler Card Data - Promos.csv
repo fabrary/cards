@@ -1,5 +1,23 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Image URL 3
 FAB231,FAB,Oasis Respite,1,1,,,,,"Generic, Instant",,,,,,,"Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less {h} than each other hero, they may gain 1{h}.",Generic Instant,,,,,P,R,EA,Mariusz Gandzel,,/FAB231.png,,,,,,,,,,,,,,
+FAB232,"FAB, MST",Sacred Art: Undercurrent Desires,3,3,,,,,"Mystic, Assassin, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+If you've played another blue card this turn, choose 3. Otherwise, choose 1;
+- Create a Fang Strike and Slither in your hand.
+- Banish up to 2 cards in an opposing hero's graveyard.
+- **Transcend**",Mystic Assassin Instant,,,,No,P,R,EA,Mario Wibisono,,/FAB232.png,,,,,,,,,,,,,,
+FAB233,"FAB, MST",Sacred Art: Jade Tiger Domain,3,3,,,,,"Mystic, Ninja, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+If you've played another blue card this turn, choose 3. Otherwise, choose 1;
+- Create 2 Crouching Tigers in your hand.
+- Your Crouching Tigers get +1{p} this turn.
+- **Transcend**",Mystic Ninja Instant,,,,No,P,R,EA,Wisnu Tan,,/FAB233.png,,,,,,,,,,,,,,
+FAB234,"FAB, MST",Sacred Art: Immortal Lunar Shine,3,3,,,,,"Mystic, Illusionist, Instant","Legendary, Transcend",,,,,Ward,"**Legendary**
+
+If you've played another blue card this turn, choose 3. Otherwise, choose 1;
+- Create 2 Spectral Shield tokens.
+- Put a +1{p} counter on each aura with **ward** you control.
+- **Transcend**",Mystic Illusionist Instant,,,,No,P,R,EA,Ina Wong,,/FAB234.png,,,,,,,,,,,,,,
 FAB238,"FAB, MST",Big Blue Sky,3,0,,2,,,"Mystic, Defense Reaction",,,,,,,This gets +1 {d} for each blue card you've pitched this turn.,Mystic Defense Reaction,,,,,P,R,EA,Reza Afshar,,/FAB238.png,,,,,,,,,,,,,,
 FAB239,"FAB, MST",Wide Blue Yonder,3,0,,2,,,"Mystic, Attack Reaction",,,,,,,Target attack gets +1 {p} for each blue card you've pitched this turn.,Mystic Attack Reaction,,,,,P,R,EA,Sebastian Giacobino,,/FAB239.png,,,,,,,,,,,,,,
 LGS263,"LGS, MST",Moon Chakra,1,0,,,,,"Mystic, Illusionist, Instant",,,,,,Transcend,"The next time you would be dealt damage this turn, prevent 3 of that damage. If you've **transcended** this turn, instead prevent 5.",Mystic Illusionist Instant,,,,,P,C,,Edward Chee,,/LGS263.png,,,,,,,,,,,,,,
