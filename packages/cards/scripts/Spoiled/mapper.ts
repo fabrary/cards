@@ -413,7 +413,7 @@ export const mapCSV = (parsedCards: ParsedCard[]): Card[] => {
   const cards = parsedCards.map((parsedCard) => {
     return getCardData(parsedCard);
   });
-  const isBackOverrides = ["Blasmophet, Levia Consumed"];
+  const isBackOverrides = ["Blasmophet, Levia Consumed", "Inner Chi"];
   return addOppositeSideCardIdentifiers(cards).map((card) => {
     if (isBackOverrides.includes(card.name)) {
       card.isCardBack = true;
