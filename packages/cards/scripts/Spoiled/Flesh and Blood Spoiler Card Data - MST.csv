@@ -17,7 +17,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create a Fang Strike and Slither in your hand.
 - Banish up to 2 cards in an opposing hero's graveyard.
 - **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_M.png,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,,,,,,,
-MST010,MST,Inner Chi,,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_M_BACK.png,,,,,,,,,,,,,,
+"MST010, MST032, MST053",MST,Inner Chi,,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_M_BACK.png,V,C,FA,Carlos Cruchaga,,MST032,/MST032_M_BACK.png,V,C,FA,Carlos Cruchaga,,MST053,/MST053_M_BACK.png
 MST011,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST012,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST013,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -41,7 +41,12 @@ MST028,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST029,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST030,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST031,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST032,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"MST032, FAB234","MST, FAB",Sacred Art: Immortal Lunar Shrine,3,3,,,,,"Mystic, Illusionist, Instant","Legendary, Transcend",,,,,Ward,"**Legendary**
+
+If you've played another blue card this turn, choose 3. Otherwise, choose 1;
+- Create 2 Spectral Shield tokens.
+- Put a +1{p} counter on each aura with **ward** you control.
+- **Transcend**",Mystic Illusionist Instant,,,,No,V,C,FA,Ina Wong,,MST032,/MST032_M.png,P,R,EA,Ina Wong,,,/FAB234.png,,,,,,,
 MST033,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST034,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST035,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -62,7 +67,12 @@ MST049,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST050,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST051,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST052,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST053,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"MST053, FAB233","MST, FAB",Sacred Art: Jade Tiger Domain,3,3,,,,,"Mystic, Ninja, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+If you've played another blue card this turn, choose 3. Otherwise, choose 1;
+- Create 2 Crouching Tigers in your hand.
+- Your Crouching Tigers get +1{p} this turn.
+- **Transcend**",Mystic Ninja Instant,,,,No,V,C,FA,Wisnu Tan,,MST053,/MST053_M.png,P,R,EA,Wisnu Tan,,,/FAB233.png,,,,,,,
 MST054,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST055,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST056,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

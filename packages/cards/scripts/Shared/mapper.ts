@@ -28,16 +28,31 @@ export const getStringIfNotNumber = (value?: string): string | undefined => {
   }
 };
 
+const OPPOSITE_SIDE_CARD_OVERRIDES: { [key: string]: string } = {
+  "sacred-art-undercurrent-desires-blue": "inner-chi",
+  "sacred-art-jade-tiger-domain-blue": "inner-chi",
+  "sacred-art-immortal-lunar-shrine-blue": "inner-chi",
+};
+
 export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   return cards.map((card) => {
-    const oppositeSide = cards.find((otherCard) => {
-      return (
-        otherCard.name !== card.name &&
-        otherCard.setIdentifiers.every((otherIdentifier) =>
-          card.setIdentifiers.includes(otherIdentifier)
+    const oppositeSideOverrideIdentifier =
+      OPPOSITE_SIDE_CARD_OVERRIDES[card.cardIdentifier];
+
+    const oppositeSide = oppositeSideOverrideIdentifier
+      ? cards.find(
+          ({ cardIdentifier }) =>
+            cardIdentifier === oppositeSideOverrideIdentifier
         )
-      );
-    });
+      : cards.find((otherCard) => {
+          return (
+            otherCard.name !== card.name &&
+            otherCard.setIdentifiers.every((otherIdentifier) =>
+              card.setIdentifiers.includes(otherIdentifier)
+            )
+          );
+        });
+
     const isCardBack =
       oppositeSide &&
       (oppositeSide.subtypes.includes(Subtype.Invocation) ||
