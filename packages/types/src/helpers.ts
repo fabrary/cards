@@ -6,6 +6,7 @@ const identifierExtensionMapping: { [key: string]: string } = {
 
 export const getPrint = (printing: {
   identifier: string;
+  image?: string;
   edition?: string;
   foiling?: string;
   set: string;
@@ -18,5 +19,7 @@ export const getPrint = (printing: {
   const foiling = printing.foiling ? `-${printing.foiling}` : ``;
   const treatment = printing.treatment ? `-${printing.treatment}` : ``;
 
-  return `${identifier}${edition}${foiling}${treatment}`;
+  const back = printing.image?.toLowerCase().includes("back") ? `-Back` : ``;
+
+  return `${identifier}${edition}${foiling}${treatment}${back}`;
 };

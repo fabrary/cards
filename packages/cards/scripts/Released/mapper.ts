@@ -61,7 +61,7 @@ const getHero = (card: ParsedCard): Hero | null => {
   return null;
 };
 
-const excludedPrintings: string[] = ["LGS229-Rainbow", "LGS230-Rainbow"];
+const excludedPrintings: string[] = [];
 
 const setEditionMapping = {
   A: ReleaseEdition.Alpha,
@@ -93,7 +93,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       : "";
 
     const foiling = Foiling[rawFoiling];
-    const print = getPrint({ identifier, edition, foiling, set, treatment });
+    const print = getPrint({
+      identifier,
+      image,
+      edition,
+      foiling,
+      set,
+      treatment,
+    });
 
     const isPrintExcluded = excludedPrintings.includes(print);
 

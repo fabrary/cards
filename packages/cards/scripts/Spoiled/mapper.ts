@@ -99,7 +99,6 @@ const getPrinting = ({
 
   const foiling = foilingString ? Foiling[foilingString] : undefined;
   const treatment = treatmentString ? Treatment[treatmentString] : undefined;
-  const print = getPrint({ identifier, foiling, set, treatment });
 
   let image;
   if (imageUrl) {
@@ -114,6 +113,8 @@ const getPrinting = ({
   } else {
     image = identifier;
   }
+
+  const print = getPrint({ identifier, image, foiling, set, treatment });
 
   return {
     artist,

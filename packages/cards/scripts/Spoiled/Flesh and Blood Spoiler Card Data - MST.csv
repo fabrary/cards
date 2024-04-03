@@ -11,7 +11,13 @@ MST006,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST007,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST008,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST009,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST010,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"MST010, FAB232","MST, FAB",Sacred Art: Undercurrent Desires,3,3,,,,,"Mystic, Assassin, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+If you've played another blue card this turn, choose 3. Otherwise, choose 1;
+- Create a Fang Strike and Slither in your hand.
+- Banish up to 2 cards in an opposing hero's graveyard.
+- **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_M.png,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,,,,,,,
+MST010,MST,Inner Chi,,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_M_BACK.png,,,,,,,,,,,,,,
 MST011,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST012,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST013,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

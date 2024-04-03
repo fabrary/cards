@@ -3,6 +3,7 @@ import {
   Format,
   Fusion,
   Hero,
+  Keyword,
   Printing,
   Rarity,
   Release,
@@ -41,7 +42,8 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
       oppositeSide &&
       (oppositeSide.subtypes.includes(Subtype.Invocation) ||
         oppositeSide.subtypes.includes(Subtype.Construct) ||
-        oppositeSide.subtypes.includes(Subtype.Figment));
+        oppositeSide.subtypes.includes(Subtype.Figment) ||
+        oppositeSide.keywords.includes(Keyword.Transcend));
     return {
       ...card,
       ...(oppositeSide
