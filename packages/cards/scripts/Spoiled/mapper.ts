@@ -157,6 +157,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     treatment3,
     tcgplayerProductId3,
     tcgplayerUrl3,
+    artist4,
+    foiling4,
+    identifier4,
+    imageUrl4,
+    rarity4,
+    treatment4,
+    tcgplayerProductId4,
+    tcgplayerUrl4,
   } = card;
 
   const printing1 = getPrinting({
@@ -227,6 +235,32 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         : {}),
     });
     printings.push(printing3);
+  }
+
+  if (rarity4 && artist4) {
+    const identifierFor4 = identifier4
+      ? identifier4
+      : identifiers.length > 3
+      ? identifiers[3]
+      : identifiers[0];
+    const setIdentifier = identifierFor4.slice(0, 3);
+    const printing4 = getPrinting({
+      artist: artist4,
+      foilingString: foiling4,
+      identifier: identifierFor4,
+      imageUrl: imageUrl4,
+      setString: setIdentifier,
+      treatmentString: treatment4,
+      ...(tcgplayerProductId4 && tcgplayerUrl4
+        ? {
+            tcgplayer: {
+              productId: tcgplayerProductId4,
+              url: tcgplayerUrl4,
+            },
+          }
+        : {}),
+    });
+    printings.push(printing4);
   }
 
   printings.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
