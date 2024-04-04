@@ -29,6 +29,7 @@ export const getStringIfNotNumber = (value?: string): string | undefined => {
 };
 
 const OPPOSITE_SIDE_CARD_OVERRIDES: { [key: string]: string } = {
+  "preserve-tradition-blue": "inner-chi-blue",
   "sacred-art-undercurrent-desires-blue": "inner-chi-blue",
   "sacred-art-jade-tiger-domain-blue": "inner-chi-blue",
   "sacred-art-immortal-lunar-shrine-blue": "inner-chi-blue",
