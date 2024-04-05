@@ -116,7 +116,11 @@ MST093,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST094,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST095,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST096,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST097,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST097,MST,Pass Over,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+Banish target card from an opposing hero's graveyard.
+
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_M.png,,,,,,,,,,,,,,,,,,,,,
 MST098,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST099,MST,Preserve Tradition,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
