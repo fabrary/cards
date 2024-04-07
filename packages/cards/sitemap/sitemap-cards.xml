@@ -51,6 +51,26 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/droplet-blue</loc>
+    <lastmod>2024-04-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rising-tide-blue</loc>
+    <lastmod>2024-04-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/spillover-blue</loc>
+    <lastmod>2024-04-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tidal-surge-blue</loc>
+    <lastmod>2024-04-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/pass-over-blue</loc>
     <lastmod>2024-04-05</lastmod>
     <priority>0.5</priority>
@@ -58,6 +78,11 @@
   <url>
     <loc>https://fabrary.net/cards/preserve-tradition-blue</loc>
     <lastmod>2024-04-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stir-the-pot-blue</loc>
+    <lastmod>2024-04-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

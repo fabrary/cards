@@ -106,10 +106,10 @@ MST083,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST084,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST085,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST086,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST087,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST088,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST089,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST090,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST087,MST,Droplet,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Faizal Fikri,,MST087,/MST087.png,,,,,,,,,,,,,,,,,,,,,
+MST088,MST,Rising Tide,3,1,3,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Marco González,,MST088,/MST088.png,,,,,,,,,,,,,,,,,,,,,
+MST089,MST,Spillover,3,2,4,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Marcellino Tan,,MST089,/MST089.png,,,,,,,,,,,,,,,,,,,,,
+MST090,MST,Tidal Surge,3,3,5,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Nathaniel Himawan,,MST090,/MST090.png,,,,,,,,,,,,,,,,,,,,,
 MST091,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST092,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST093,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -128,7 +128,11 @@ Put target action card from your graveyard on the bottom of your deck.
 
 If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,C,,,Murilo Amgarten,,MST099,/MST099.png,,,,,,,,,,,,,,,,,,,,,
 MST100,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST101,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST101,MST,Stir the Pot,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+Shuffle.
+
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hiro Suda,,MST101,/MST101_M.png,,,,,,,,,,,,,,,,,,,,,
 MST102,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST103,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST104,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
