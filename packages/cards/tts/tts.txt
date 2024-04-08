@@ -3729,6 +3729,7 @@ OSCCardDB = {
   ["MST088"] = { name = "Rising Tide (3)", text = "If you've played another blue card this turn, this gets +2{p}.", keywords = "", types = "Action"},
   ["MST089"] = { name = "Spillover (3)", text = "If you've played another blue card this turn, this gets +2{p}.", keywords = "", types = "Action"},
   ["MST090"] = { name = "Tidal Surge (3)", text = "If you've played another blue card this turn, this gets +2{p}.", keywords = "", types = "Action"},
+  ["MST096"] = { name = "Homage to Ancestors (3)", text = "**Legendary**\n\nGain 1{h}\n\nIf you've played another blue card this turn, **transcend**.", keywords = "Legendary,Transcend", types = "Instant"},
   ["MST097"] = { name = "Pass Over (3)", text = "**Legendary**\n\nBanish target card from an opposing hero's graveyard.\n\nIf you've played another blue card this turn, **transcend**.", keywords = "Legendary,Transcend", types = "Instant"},
   ["MST098"] = { name = "Path Well Traveled (3)", text = "**Legendary**\n\nTarget attack gets **go again**.\n\nIf you've played another blue card this turn, **transcend**.", keywords = "Go again,Legendary,Transcend", types = "Instant"},
   ["MST099-BACK"] = { name = "Inner Chi (3)", text = "", keywords = "", types = "Resource"},

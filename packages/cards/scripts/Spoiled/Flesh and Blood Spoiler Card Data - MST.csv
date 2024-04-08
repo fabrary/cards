@@ -117,7 +117,11 @@ MST092,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST093,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST094,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST095,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST096,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST096,MST,Homage to Ancestors,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+Gain 1{h}
+
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST096,/MST096_M.png,,,,,,,,,,,,,,,,,,,,,
 MST097,MST,Pass Over,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Banish target card from an opposing hero's graveyard.

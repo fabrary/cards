@@ -229,6 +229,7 @@ export enum Subtype {
   Book = "Book",
   Bow = "Bow",
   Chest = "Chest",
+  Chi = "Chi",
   Claw = "Claw",
   Club = "Club",
   Construct = "Construct",
