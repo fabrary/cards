@@ -212,6 +212,7 @@ export const fabDictionary = [
   "nullrune",
   "numbskull",
   "nuu",
+  "orihon",
   "oldhim",
   "onetwo",
   "ophidia",

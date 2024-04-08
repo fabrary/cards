@@ -99,7 +99,9 @@ MST076,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST077,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST078,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST079,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST080,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
+
+Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080_M.png,,,,,,,,,,,,,,,,,,,,,
 MST081,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST082,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST083,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -121,7 +123,11 @@ MST097,MST,Pass Over,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Le
 Banish target card from an opposing hero's graveyard.
 
 If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_M.png,,,,,,,,,,,,,,,,,,,,,
-MST098,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST098,MST,Path Well Traveled,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,Go again,,,"**Legendary**
+
+Target attack gets **go again**.
+
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Shiro Yayoi,,MST098,/MST098_M.png,,,,,,,,,,,,,,,,,,,,,
 MST099,MST,Preserve Tradition,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Put target action card from your graveyard on the bottom of your deck.
@@ -132,7 +138,7 @@ MST101,MST,Stir the Pot,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"*
 
 Shuffle.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hiro Suda,,MST101,/MST101_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_M.png,,,,,,,,,,,,,,,,,,,,,
 MST102,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST103,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST104,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
