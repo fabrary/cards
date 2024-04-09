@@ -36,6 +36,7 @@ const OPPOSITE_SIDE_CARD_OVERRIDES: { back: string; fronts: string[] }[] = [
       "pass-over-blue",
       "path-well-traveled-blue",
       "preserve-tradition-blue",
+      "rising-sun-setting-moon-blue",
       "sacred-art-undercurrent-desires-blue",
       "sacred-art-jade-tiger-domain-blue",
       "sacred-art-immortal-lunar-shrine-blue",
