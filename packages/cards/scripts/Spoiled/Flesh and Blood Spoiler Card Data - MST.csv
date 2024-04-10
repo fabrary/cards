@@ -147,7 +147,11 @@ MST101,MST,Stir the Pot,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"*
 Shuffle.
 
 If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_M.png,,,,,,,,,,,,,,,,,,,,,
-MST102,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST102,MST,The Grain that Tips the Scale,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
+
+Target attack gets +1{p}.
+
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_M.png,,,,,,,,,,,,,,,,,,,,,
 MST103,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST104,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST105,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
