@@ -32,6 +32,7 @@ const OPPOSITE_SIDE_CARD_OVERRIDES: { back: string; fronts: string[] }[] = [
   {
     back: "inner-chi-blue",
     fronts: [
+      "a-drop-in-the-ocean-blue",
       "homage-to-ancestors-blue",
       "pass-over-blue",
       "path-well-traveled-blue",
