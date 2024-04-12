@@ -278,8 +278,16 @@ MST221,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST222,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST223,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST224,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST225,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST226,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST225,MST,Visit Goldmane Estate,3,1,,3,,,"Guardian, Action","Victor Specialization, Go again",,,,,,"**Victor Specialization**
+
+Create a Gold token. Then if you control 3 or more Gold, create that many Might tokens.
+
+**Go again**",Guardian Action,,,,No,M,,,Joseph Qui,,MST225,/MST225.png,,,,,,,,,,,,,,,,,,,,,
+MST226,MST,Visit the Golden Anvil,3,0,,3,,,"Warrior, Action",Olympia Specialization,,,,,,"**Olympia Specialization**
+
+As an additional cost to play this, destroy X Gold you control.
+
+Equip X weapons and/or equipment from your inventory.",Warrior Action,,,,No,M,,,Simon Dominic,,MST226,/MST226.png,,,,,,,,,,,,,,,,,,,,,
 MST227,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST228,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST229,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -3747,6 +3747,8 @@ OSCCardDB = {
   ["MST101"] = { name = "Stir the Pot (3)", text = "**Legendary**\n\nShuffle.\n\nIf you've played another blue card this turn, **transcend**.", keywords = "Legendary,Transcend", types = "Instant"},
   ["MST102-BACK"] = { name = "Inner Chi (3)", text = "", keywords = "", types = "Resource"},
   ["MST102"] = { name = "The Grain that Tips the Scale (3)", text = "**Legendary**\n\nTarget attack gets +1{p}.\n\nIf you've played another blue card this turn, **transcend**.", keywords = "Legendary,Transcend", types = "Instant"},
+  ["MST225"] = { name = "Visit Goldmane Estate (3)", text = "**Victor Specialization**\n\nCreate a Gold token. Then if you control 3 or more Gold, create that many Might tokens.\n\n**Go again**", keywords = "Go again,Specialization", types = "Action"},
+  ["MST226"] = { name = "Visit the Golden Anvil (3)", text = "**Olympia Specialization**\n\nAs an additional cost to play this, destroy X Gold you control.\n\nEquip X weapons and/or equipment from your inventory.", keywords = "Specialization", types = "Action"},
   ["OLA001"] = { name = "Olympia", text = "The first time each of your attacks wins a **wager**, create a Gold token.", keywords = "", types = "Hero"},
   ["OLA002"] = { name = "Cintari Saber", text = "**Once per Turn Action** - {r}: **Attack**\n\nWhenever Cintari Saber is defended by 1 or more attack action cards, it gains +1{p} until end of turn.", keywords = "", types = "Weapon"},
   ["OLA003"] = { name = "Parry Blade", text = "**Once per Turn Action** - {r}: **Attack**\n\nThis gets +2{d} while defending a weapon attack.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment,Weapon"},
