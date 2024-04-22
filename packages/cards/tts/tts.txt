@@ -3747,6 +3747,8 @@ OSCCardDB = {
   ["MST101"] = { name = "Stir the Pot (3)", text = "**Legendary**\n\nShuffle.\n\nIf you've played another blue card this turn, **transcend**.", keywords = "Legendary,Transcend", types = "Instant"},
   ["MST102-BACK"] = { name = "Inner Chi (3)", text = "", keywords = "", types = "Resource"},
   ["MST102"] = { name = "The Grain that Tips the Scale (3)", text = "**Legendary**\n\nTarget attack gets +1{p}.\n\nIf you've played another blue card this turn, **transcend**.", keywords = "Legendary,Transcend", types = "Instant"},
+  ["MST158"] = { name = "Spectral Shield", text = "**Ward 1**", keywords = "Ward", types = "Token"},
+  ["MST188"] = { name = "Crouching Tiger", text = "**Ephemeral**\n\n**Go again**", keywords = "Ephemeral,Go again", types = "Action"},
   ["MST225"] = { name = "Visit Goldmane Estate (3)", text = "**Victor Specialization**\n\nCreate a Gold token. Then if you control 3 or more Gold, create that many Might tokens.\n\n**Go again**", keywords = "Go again,Specialization", types = "Action"},
   ["MST226"] = { name = "Visit the Golden Anvil (3)", text = "**Olympia Specialization**\n\nAs an additional cost to play this, destroy X Gold you control.\n\nEquip X weapons and/or equipment from your inventory.", keywords = "Specialization", types = "Action"},
   ["MST232"] = { name = "Longdraw Half-glove", text = "**Instant** - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.\n\n**Battleworn**", keywords = "Battleworn", types = "Equipment"},
