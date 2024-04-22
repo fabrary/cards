@@ -296,7 +296,11 @@ MST231,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST232,MST,Longdraw Half-glove,,,,1,,,"Ranger, Equipment, Arms","Instant, Battleworn",,,,,,"**Instant** - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.
 
 **Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Maerel Hibadita,,MST232,/MST232.png,,,,,,,,,,,,,,,,,,,,,
-MST233,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST233,MST,Murky Water,1,2,6,3,,,"Ranger, Action, Arrow, Attack",Riptide Specialization,,,Dominate,,,"**Riptide Specialization**
+
+If this has an aim counter, it gets +1{p} and **dominate**.
+
+When this hits, you may banish face-down 3 traps from your graveyard. If you do, choose one at random and put it into your arsenal.",Ranger Action - Arrow Attack,,,,No,M,,,Joseph Qiu,,MST233,/MST233.png,,,,,,,,,,,,,,,,,,,,,
 MST234,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST235,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST236,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
