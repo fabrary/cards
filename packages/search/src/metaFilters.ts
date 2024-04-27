@@ -193,7 +193,7 @@ const emperor: AppliedFilter[] = [
       property: "pitch",
       isNumber: true,
     },
-    values: ["0", "2", "3"],
+    values: [undefined, "0", "2", "3"],
     cardTypes: [
       Type.Action,
       Type.AttackReaction,

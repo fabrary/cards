@@ -1,6 +1,7 @@
 import { Hero } from "@flesh-and-blood/types";
 import { getMetaFilters } from "./metaFilters";
-import { PUNCTUATION } from ".";
+import Search, { PUNCTUATION } from ".";
+import { cards } from "@flesh-and-blood/cards";
 
 describe("Every hero has a legal filter", () => {
   it.each(Object.values(Hero))("%s has a filter", (hero: string) => {
@@ -11,5 +12,18 @@ describe("Every hero has a legal filter", () => {
 
     const filters = getMetaFilters(false, "l", [heroFilter], "");
     expect(filters.length).toBeGreaterThan(0);
+  });
+});
+
+describe("Edge case conditions are handled", () => {
+  const cardSearch = new Search(cards);
+
+  it("Gorganian Tome in Emperor", () => {
+    const { searchResults } = cardSearch.search("l:emperor");
+
+    const gorganianTome = searchResults.find(
+      ({ name }) => name === "Gorganian Tome"
+    );
+    expect(gorganianTome).toBeUndefined();
   });
 });

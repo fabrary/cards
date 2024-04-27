@@ -305,8 +305,16 @@ If this has an aim counter, it gets +1{p} and **dominate**.
 When this hits, you may banish face-down 3 traps from your graveyard. If you do, choose one at random and put it into your arsenal.",Ranger Action - Arrow Attack,,,,No,M,,,Joseph Qiu,,MST233,/MST233.png,,,,,,,,,,,,,,,,,,,,,
 MST234,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST235,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST236,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST237,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST236,MST,Shadowrealm Horror,1,2,6,3,,,"Shadow, Brute, Action, Attack",Blood Debt,,,,,,"As an additional cost to play this, banish 3 random cards in your graveyard.
+
+If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 or more, this gets **go again**. 3 or more, you may play a card banished this way this turn.
+
+**Blood Debt**",Shadow Brute Action - Attack,,,,No,M,,,Ausonia,,MST236,/MST236.png,,,,,,,,,,,,,,,,,,,,,
+MST237,MST,Eloquent Eulogy,1,1,4,3,,,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
+
+When the combat chain closes, if a hero has lost {h} this turn, create an Eloquence token.
+
+**Blood Debt**",Shadow Runeblade Action - Attack,,,,No,M,,,Federico Musetti,,MST237,/MST237.png,,,,,,,,,,,,,,,,,,,,,
 MST238,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST239,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST240,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
