@@ -55,9 +55,9 @@ const getClasses = (card: ParsedCard): Class[] => {
   if (classes.length === 0 && getTalents(card)?.length) {
     classes.push(Class.NotClassed);
   }
-  if (classes.length === 0) {
-    classes.push(Class.Generic);
-  }
+  // if (classes.length === 0) {
+  //   classes.push(Class.Generic);
+  // }
   classes.sort();
   return classes;
 };

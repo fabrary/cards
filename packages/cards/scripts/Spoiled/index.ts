@@ -7,6 +7,7 @@ import {
 } from "../Shared";
 import { Card, Rarity } from "@flesh-and-blood/types";
 import { getPrint } from "@flesh-and-blood/types";
+import { addMissingFields } from "../Shared/missing-fields";
 
 const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
@@ -95,8 +96,18 @@ spoiledSetCards.forEach((card) => {
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
+
+    if (card.cardIdentifier === "wrecker-romp-blue") {
+      console.log({ card, duplicate });
+    }
+
+    addMissingFields(card, duplicate);
   } else {
     deduplicatedCards.push(card);
+
+    if (card.cardIdentifier === "wrecker-romp-blue") {
+      console.log({ card, duplicate });
+    }
   }
 });
 
@@ -148,6 +159,8 @@ spoiledPromoCards.forEach((card) => {
     duplicate.setIdentifiers = setIdentifiers;
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
+
+    addMissingFields(card, duplicate);
   } else {
     deduplicatedCards.push(card);
   }
