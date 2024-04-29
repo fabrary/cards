@@ -1,9 +1,6 @@
 import { Card } from "@flesh-and-blood/types";
 
 export const addMissingFields = (card: Card, duplicate: Card) => {
-  if (card.cardIdentifier === "wrecker-romp-blue") {
-    console.log({ card, duplicate });
-  }
   const valueFieldsToFillIfMissing = [
     "cost",
     "defense",
@@ -40,8 +37,5 @@ export const addMissingFields = (card: Card, duplicate: Card) => {
     if (fieldIsMissingOnDuplicate && fieldIsPresentOnCard) {
       duplicate[field] = card[field];
     }
-  }
-  if (card.cardIdentifier === "wrecker-romp-blue") {
-    console.log({ card, duplicate });
   }
 };

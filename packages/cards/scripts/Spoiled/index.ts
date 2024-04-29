@@ -97,17 +97,9 @@ spoiledSetCards.forEach((card) => {
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
 
-    if (card.cardIdentifier === "wrecker-romp-blue") {
-      console.log({ card, duplicate });
-    }
-
     addMissingFields(card, duplicate);
   } else {
     deduplicatedCards.push(card);
-
-    if (card.cardIdentifier === "wrecker-romp-blue") {
-      console.log({ card, duplicate });
-    }
   }
 });
 
