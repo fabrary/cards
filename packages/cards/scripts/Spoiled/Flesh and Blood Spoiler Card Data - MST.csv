@@ -2,7 +2,7 @@ Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Type
 MST000,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this.""
 
-**Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_Back_V2.png,,,,,,,,,,,,,,
+**Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_Back_V2.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
 MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,,/MST002_Back_V2.png,C,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,
 MST003,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST004,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -16,7 +16,7 @@ MST009,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create a Fang Strike and Slither in your hand.
 - Banish up to 2 cards in an opposing hero's graveyard.
-- **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_M.png,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,,,,,,,,,,,,,,
+- **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_M.png,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,M,,,Mario Wibisono,,MST010,/MST010.png,,,,,,,
 "MST010, MST032, MST053, MST096, MST097, MST098, MST099, MST100, MST101, MST102",MST,Inner Chi,3,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_M_BACK.png,V,C,FA,Carlos Cruchaga,,MST032,/MST032_M_BACK.png,V,C,FA,Carlos Cruchaga,,MST053,/MST053_M_BACK.png,C,,,Carlos Cruchaga,,MST099,/MST099_BACK.png
 MST011,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST012,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -34,7 +34,7 @@ MST023,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST024,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "MST025, HER116","MST, HER","Enigma, Ledger of Ancestry",,,,,40,4,"Mystic, Illusionist, Hero",,Once per Turn Instant,,,,,"Your first Spectral Shield attack each turn costs {r} less to activate.
 
-**Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,MST025,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,V,C,FA,Asur Misoa,,MST025,/MST025_Back_V2.png,P,R,,Kanadekana,,HER116,/HER116.png,,,,,,,
+**Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,MST025,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,V,C,FA,Asur Misoa,,MST025,/MST025_Back_V2.png,P,R,,Kanadekana,,HER116,/HER116.png,M,,,Asur Misoa,,MST025,/MST025.png
 MST026,MST,Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,Once per Turn Instant,,,,,Your first Spectral Shield attack each turn costs {r} less to activate. **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.,Mystic Illusionist Hero - Young,,,No,,V,C,,Asur Misoa,,,/MST026_V2.png,V,C,FA,Asur Misoa,,,/MST026_Back_V2.png,T,,,Asur Misoa,,MST026,/MST026.png,,,,,,,
 MST027,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST028,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -46,7 +46,7 @@ MST031,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create 2 Spectral Shield tokens.
 - Put a +1{p} counter on each aura with **ward** you control.
-- **Transcend**",Mystic Illusionist Instant,,,,No,V,C,FA,Ina Wong,,MST032,/MST032_M.png,P,R,EA,Ina Wong,,,/FAB234.png,,,,,,,,,,,,,,
+- **Transcend**",Mystic Illusionist Instant,,,,No,V,C,FA,Ina Wong,,MST032,/MST032_M.png,P,R,EA,Ina Wong,,,/FAB234.png,M,,,Ina Wong,,MST032,/MST032.png,,,,,,,
 MST033,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST034,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST035,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -60,7 +60,7 @@ MST042,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST043,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST044,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST045,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,,/MST046_Back_V2.png,,,,,,,,,,,,,,
+MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,,/MST046_Back_V2.png,M,,,Lius Lasahido,,MST046,/MST046.png,,,,,,,
 MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,,/MST047_V2.png,V,C,FA,Lius Lasahido,,,/MST047_Back_V2.png,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,
 MST048,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST049,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -72,7 +72,7 @@ MST052,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create 2 Crouching Tigers in your hand.
 - Your Crouching Tigers get +1{p} this turn.
-- **Transcend**",Mystic Ninja Instant,,,,No,V,C,FA,Wisnu Tan,,MST053,/MST053_M.png,P,R,EA,Wisnu Tan,,,/FAB233.png,,,,,,,,,,,,,,
+- **Transcend**",Mystic Ninja Instant,,,,No,V,C,FA,Wisnu Tan,,MST053,/MST053_M.png,P,R,EA,Wisnu Tan,,,/FAB233.png,M,,,Wisnu Tan,,MST053,/MST053.png,,,,,,,
 MST054,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST055,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST056,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -101,7 +101,7 @@ MST078,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST079,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
 
-Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080_M.png,,,,,,,,,,,,,,,,,,,,,
+Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,
 MST081,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST082,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST083,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -120,42 +120,42 @@ MST095,MST,A Drop in the Ocean,3,0,,,,,"Mystic, Instant","Legendary, Transcend",
 
 Target attack gets -1{p}.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,AOJI Maiko,,MST095,/MST095_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,AOJI Maiko,,MST095,/MST095_M.png,C,,,AOJI Maiko,,MST095,/MST095.png,,,,,,,,,,,,,,
 MST096,MST,Homage to Ancestors,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Gain 1{h}
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST096,/MST096_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST096,/MST096_M.png,C,,, 寿多浩 / Hiro Suda,,MST096,/MST096.png,,,,,,,,,,,,,,
 MST097,MST,Pass Over,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Banish target card from an opposing hero's graveyard.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_M.png,C,,,Hatori Kyoka,,MST097,/MST097.png,,,,,,,,,,,,,,
 MST098,MST,Path Well Traveled,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,Go again,,,"**Legendary**
 
 Target attack gets **go again**.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Shiro Yayoi,,MST098,/MST098_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Shiro Yayoi,,MST098,/MST098_M.png,C,,,Shiro Yayoi,,MST098,/MST098.png,,,,,,,,,,,,,,
 MST099,MST,Preserve Tradition,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Put target action card from your graveyard on the bottom of your deck.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,C,,,Murilo Amgarten,,MST099,/MST099.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Murilo Amgarten,,MST099,/MST099_M.png,C,,,Murilo Amgarten,,MST099,/MST099.png,,,,,,,,,,,,,,
 MST100,MST,"Rising Sun, Setting Moon",3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Draw a card, then put a card from your hand on the bottom of your deck.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Daken,,MST100,/MST100_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Daken,,MST100,/MST100_M.png,C,,,Daken,,MST100,/MST100.png,,,,,,,,,,,,,,
 MST101,MST,Stir the Pot,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Shuffle.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_M.png,C,,, 寿多浩 / Hiro Suda,,MST101,/MST101.png,,,,,,,,,,,,,,
 MST102,MST,The Grain that Tips the Scale,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Target attack gets +1{p}.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_M.png,,,,,,,,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_M.png,C,,,romiy,,MST102,/MST102.png,,,,,,,,,,,,,,
 MST103,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST104,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST105,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
