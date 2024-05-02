@@ -72,7 +72,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
       (oppositeSide.subtypes.includes(Subtype.Invocation) ||
         oppositeSide.subtypes.includes(Subtype.Construct) ||
         oppositeSide.subtypes.includes(Subtype.Figment) ||
-        oppositeSide.keywords.includes(Keyword.Transcend));
+        oppositeSide.keywords?.includes(Keyword.Transcend));
     return {
       ...card,
       ...(oppositeSide

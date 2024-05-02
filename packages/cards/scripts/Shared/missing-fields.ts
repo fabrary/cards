@@ -14,7 +14,7 @@ export const addMissingFields = (card: Card, duplicate: Card) => {
   ];
   for (const field of valueFieldsToFillIfMissing) {
     const fieldIsMissingOnDuplicate = !duplicate[field];
-    const fieldIsPresentOnCard = card[field];
+    const fieldIsPresentOnCard = card[field] || card[field] === 0;
 
     if (fieldIsMissingOnDuplicate && fieldIsPresentOnCard) {
       duplicate[field] = card[field];

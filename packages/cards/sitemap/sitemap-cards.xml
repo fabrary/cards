@@ -156,6 +156,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/warpath-of-winged-grace</loc>
+    <lastmod>2024-05-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/saving-grace-yellow</loc>
+    <lastmod>2024-05-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/kayo-armed-and-dangerous</loc>
     <lastmod>2023-12-27</lastmod>
     <priority>0.5</priority>
@@ -293,6 +303,11 @@
   <url>
     <loc>https://fabrary.net/cards/might</loc>
     <lastmod>2023-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/timesnap-potion-blue</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -12877,11 +12892,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/timekeepers-whim-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/timesnap-potion-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>

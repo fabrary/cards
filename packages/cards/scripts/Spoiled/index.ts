@@ -10,7 +10,8 @@ import { getPrint } from "@flesh-and-blood/types";
 import { addMissingFields } from "../Shared/missing-fields";
 
 const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
-const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
+const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
+const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
@@ -22,6 +23,7 @@ const overrideCards = mapCSV(parsedOverrideCards);
 const parsedSpoiledSetCards = [
   ...parseCSV(spoiledSetCardsFile1),
   ...parseCSV(spoiledSetCardsFile2),
+  ...parseCSV(spoiledSetCardsFile3),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)

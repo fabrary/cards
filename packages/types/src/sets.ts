@@ -23,6 +23,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
 
   // Armory decks
   ako: Release.ArmoryDeckKayo,
+  asb: Release.ArmoryDeckBoltyn,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
