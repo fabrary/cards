@@ -332,6 +332,7 @@ export enum Keyword {
   Channel = "Channel",
   Charge = "Charge",
   Clash = "Clash",
+  Cloaked = "Cloaked",
   Combo = "Combo",
   Contract = "Contract",
   Crank = "Crank",
