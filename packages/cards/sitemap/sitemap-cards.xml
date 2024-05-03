@@ -51,26 +51,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/skycrest-keikoi</loc>
-    <lastmod>2024-05-03</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/skybody-keikoi</loc>
-    <lastmod>2024-05-03</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/skyhold-keikoi</loc>
-    <lastmod>2024-05-03</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/skywalker-keikoi</loc>
-    <lastmod>2024-05-03</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/aqua-seeing-shell</loc>
     <lastmod>2024-05-03</lastmod>
     <priority>0.5</priority>
@@ -87,6 +67,26 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/aqua-laps</loc>
+    <lastmod>2024-05-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/skycrest-keikoi</loc>
+    <lastmod>2024-05-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/skybody-keikoi</loc>
+    <lastmod>2024-05-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/skyhold-keikoi</loc>
+    <lastmod>2024-05-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/skywalker-keikoi</loc>
     <lastmod>2024-05-03</lastmod>
     <priority>0.5</priority>
   </url>

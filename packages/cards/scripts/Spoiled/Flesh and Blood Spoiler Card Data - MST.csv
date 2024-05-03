@@ -86,10 +86,26 @@ MST063,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST064,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST065,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST066,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST067,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST068,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST069,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST070,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST067,MST,Aqua Seeing Shell,,,,1,,,"Mystic, Equipment, Head","Cloaked, Instant",,,,,,"**Cloaked**
+
+**Instant** - {r}{r}{r}, turn this face-up: Draw a card.
+
+At the start of your turn, destroy this.",Mystic Equipment - Head,,,,,C,,,,,MST067,/MST067.png,,,,,,,,,,,,,,,,,,,,,
+MST068,MST,Koi Blessed Kimono,,,,,,,"Mystic, Equipment, Chest",Cloaked,,,,,,"**Cloaked**
+
+While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
+
+When this is turned face-up, destroy it. Search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.",Mystic Equipment - Chest,,,,,C,,,,,MST068,/MST068.png,,,,,,,,,,,,,,,,,,,,,
+MST069,MST,Waves of Aqua Marine,,,,1,,,"Mystic, Equipment, Arms","Cloaked, Attack Reaction",,,,,,"**Cloaked**
+
+**Attack Reaction** - {r}, turn this face-up: Target attack gets +1{p}.
+
+At the start of your turn, destroy this.",Mystic Equipment - Arms,,,,,C,,,,,MST069,/MST069.png,,,,,,,,,,,,,,,,,,,,,
+MST070,MST,Aqua Laps,,,,1,,,"Mystic, Equipment, Legs","Cloaked, Attack Reaction",,,,,,"**Cloaked**
+
+**Attack Reaction** - {r}, turn this face up: Target attack gets **go again**.
+
+At the start of your turn, destroy this.",Mystic Equipment - Legs,,,,,C,,,,,MST070,/MST070.png,,,,,,,,,,,,,,,,,,,,,
 MST071,MST,Skycrest Keikoi,,,,,,,"Mystic, Equipment, Head","Cloaked, Instant",,,,,,"**Cloaked**
 
 **Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Head,,,,,C,,,,,MST071,/MST071.png,,,,,,,,,,,,,,,,,,,,,
@@ -102,26 +118,10 @@ MST073,MST,Skyhold Keikoi,,,,,,,"Mystic, Equipment, Arms","Cloaked, Instant",,,,
 MST074,MST,Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs","Cloaked, Instant",,,,,,"**Cloaked**
 
 **Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,
-MST075,MST,Aqua Seeing Shell,,,,1,,,"Mystic, Equipment, Head","Cloaked, Instant",,,,,,"**Cloaked**
-
-**Instant** - {r}{r}{r}, turn this face-up: Draw a card.
-
-At the start of your turn, destroy this.",Mystic Equipment - Head,,,,,C,,,,,MST075,/MST075.png,,,,,,,,,,,,,,,,,,,,,
-MST076,MST,Koi Blessed Kimono,,,,1,,,"Mystic, Equipment, Chest",Cloaked,,,,,,"**Cloaked**
-
-While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
-
-When this is turned face-up, destroy it. Search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.",Mystic Equipment - Chest,,,,,C,,,,,MST076,/MST076.png,,,,,,,,,,,,,,,,,,,,,
-MST077,MST,Waves of Aqua Marine,,,,1,,,"Mystic, Equipment, Arms","Cloaked, Attack Reaction",,,,,,"**Cloaked**
-
-**Attack Reaction** - {r}, turn this face-up: Target attack gets +1{p}.
-
-At the start of your turn, destroy this.",Mystic Equipment - Arms,,,,,C,,,,,MST077,/MST077.png,,,,,,,,,,,,,,,,,,,,,
-MST078,MST,Aqua Laps,,,,1,,,"Mystic, Equipment, Legs","Cloaked, Attack Reaction",,,,,,"**Cloaked**
-
-**Attack Reaction** - {r}, turn this face up: Target attack gets **go again**.
-
-At the start of your turn, destroy this.",Mystic Equipment - Legs,,,,,C,,,,,MST078,/MST078.png,,,,,,,,,,,,,,,,,,,,,
+MST075,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST076,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST077,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST078,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST079,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
 
