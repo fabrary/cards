@@ -90,17 +90,17 @@ MST067,MST,Aqua Seeing Shell,,,,1,,,"Mystic, Equipment, Head","Cloaked, Instant"
 
 **Instant** - {r}{r}{r}, turn this face-up: Draw a card.
 
-At the start of your turn, destroy this.",Mystic Equipment - Head,,,,,C,,,,,MST067,/MST067.png,,,,,,,,,,,,,,,,,,,,,
+At the start of your turn, destroy this.",Mystic Equipment - Head,,,,,C,,,Nikko Wahyudi,,MST067,/MST067.png,,,,,,,,,,,,,,,,,,,,,
 MST068,MST,Koi Blessed Kimono,,,,,,,"Mystic, Equipment, Chest",Cloaked,,,,,,"**Cloaked**
 
 While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
 
-When this is turned face-up, destroy it. Search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.",Mystic Equipment - Chest,,,,,C,,,,,MST068,/MST068.png,,,,,,,,,,,,,,,,,,,,,
+When this is turned face-up, destroy it. Search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.",Mystic Equipment - Chest,,,,,C,,,Asur Misoa,,MST068,/MST068.png,,,,,,,,,,,,,,,,,,,,,
 MST069,MST,Waves of Aqua Marine,,,,1,,,"Mystic, Equipment, Arms","Cloaked, Attack Reaction",,,,,,"**Cloaked**
 
 **Attack Reaction** - {r}, turn this face-up: Target attack gets +1{p}.
 
-At the start of your turn, destroy this.",Mystic Equipment - Arms,,,,,C,,,,,MST069,/MST069.png,,,,,,,,,,,,,,,,,,,,,
+At the start of your turn, destroy this.",Mystic Equipment - Arms,,,,,C,,,Wisnu Tan,,MST069,/MST069.png,,,,,,,,,,,,,,,,,,,,,
 MST070,MST,Aqua Laps,,,,1,,,"Mystic, Equipment, Legs","Cloaked, Attack Reaction",,,,,,"**Cloaked**
 
 **Attack Reaction** - {r}, turn this face up: Target attack gets **go again**.
@@ -108,16 +108,16 @@ MST070,MST,Aqua Laps,,,,1,,,"Mystic, Equipment, Legs","Cloaked, Attack Reaction"
 At the start of your turn, destroy this.",Mystic Equipment - Legs,,,,,C,,,,,MST070,/MST070.png,,,,,,,,,,,,,,,,,,,,,
 MST071,MST,Skycrest Keikoi,,,,,,,"Mystic, Equipment, Head","Cloaked, Instant",,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Head,,,,,C,,,,,MST071,/MST071.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Head,,,,,C,,,Felicia Lang,,MST071,/MST071.png,,,,,,,,,,,,,,,,,,,,,
 MST072,MST,Skybody Keikoi,,,,,,,"Mystic, Equipment, Chest","Cloaked, Instant",,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Chest,,,,,C,,,,,MST072,/MST072.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Chest,,,,,C,,,Vito Vivodka,,MST072,/MST072.png,,,,,,,,,,,,,,,,,,,,,
 MST073,MST,Skyhold Keikoi,,,,,,,"Mystic, Equipment, Arms","Cloaked, Instant",,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Arms,,,,,C,,,,,MST073,/MST073.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Arms,,,,,C,,,Kimberly Pantoni,,MST073,/MST073.png,,,,,,,,,,,,,,,,,,,,,
 MST074,MST,Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs","Cloaked, Instant",,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,Alief Rusdiatama,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,
 MST075,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST076,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST077,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -327,7 +327,9 @@ MST233,MST,Murky Water,1,2,6,3,,,"Ranger, Action, Arrow, Attack","Riptide Specia
 If this has an aim counter, it gets +1{p} and **dominate**.
 
 When this hits, you may banish face-down 3 traps from your graveyard. If you do, choose one at random and put it into your arsenal.",Ranger Action - Arrow Attack,,,,No,M,,,Joseph Qiu,,MST233,/MST233.png,,,,,,,,,,,,,,,,,,,,,
-MST234,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST234,MST,Kindle,1,0,,,,,"Wizard, Instant",Amp 1,,,,,,"**Amp 1**
+
+If you have no cards in hand, draw a card.",Wiziard Instant,,,,No,M,,,Reza Afshar,,MST234,/MST234.png,,,,,,,,,,,,,,,,,,,,,
 MST235,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST236,MST,Shadowrealm Horror,1,2,6,3,,,"Shadow, Brute, Action, Attack","Go again, Blood Debt",,,,,,"As an additional cost to play this, banish 3 random cards in your graveyard.
 

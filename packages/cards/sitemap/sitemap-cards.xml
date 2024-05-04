@@ -186,6 +186,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/kindle-red</loc>
+    <lastmod>2024-05-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/shadowrealm-horror-red</loc>
     <lastmod>2024-04-27</lastmod>
     <priority>0.5</priority>
@@ -373,6 +378,16 @@
   <url>
     <loc>https://fabrary.net/cards/wide-blue-yonder-blue</loc>
     <lastmod>2024-03-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flic-flak-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/whelming-gustwave-red</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -5027,11 +5042,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/flex-claws-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/flic-flak-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -13932,11 +13942,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/weave-lightning-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/whelming-gustwave-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
