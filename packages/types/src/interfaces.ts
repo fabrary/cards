@@ -322,6 +322,7 @@ export enum Hero {
 
 export enum Keyword {
   Ambush = "Ambush",
+  Amp = "Amp",
   ArcaneBarrier = "Arcane Barrier",
   Awaken = "Awaken",
   Battleworn = "Battleworn",
