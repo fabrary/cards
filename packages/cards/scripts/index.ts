@@ -4,7 +4,7 @@ import { spoiledCards } from "./Spoiled";
 import { releasedCards } from "./Released";
 import { getDefaultImage, getSpecialImage } from "./Shared";
 import { getPrint } from "@flesh-and-blood/types";
-import { addMissingFields } from "./Shared/missing-fields";
+import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
 
 const outputDirectory = "src";
 
@@ -60,7 +60,7 @@ releasedCards.forEach((card) => {
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
 
-    addMissingFields(card, duplicate);
+    combineAndAddMissingFields(card, duplicate);
   } else {
     deduplicatedCards.push(card);
   }

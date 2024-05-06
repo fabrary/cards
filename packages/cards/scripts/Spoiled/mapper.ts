@@ -4,6 +4,7 @@ import {
   getFusions,
   getIdentifier,
   getNumberOrUndefined,
+  getRarities,
   getRestrictedFormats,
   getSpecialImage,
   getSpecializations,
@@ -288,18 +289,15 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   return keywords;
 };
 
-const getRarity = (card: ParsedCard): Rarity | undefined => {
-  return rarityStringMapping[card.rarity];
-};
-
-export const getRarities = (card: ParsedCard): Rarity[] => {
+export const getParsedRarities = (
+  card: ParsedCard
+): { rarities: Rarity[]; rarity: Rarity } => {
   const { rarity, rarity2, rarity3, rarity4 } = card;
 
   const rarities = [rarity, rarity2, rarity3, rarity4]
     .filter((rarity) => !!rarity)
-    .map((rarity) => rarityStringMapping[rarity as string])
-    .sort();
-  return Array.from(new Set(rarities));
+    .sort() as string[];
+  return getRarities({ rarities });
 };
 
 const getBannedFormats = (card: ParsedCard): Format[] => {
@@ -405,6 +403,8 @@ const getCardData = (card: ParsedCard): Card => {
   const setIdentifiers = [...card.identifiers];
   setIdentifiers.sort();
 
+  const { rarities, rarity } = getParsedRarities(card);
+
   return {
     artists: getArtists(card),
     cardIdentifier: getIdentifier(card),
@@ -412,8 +412,8 @@ const getCardData = (card: ParsedCard): Card => {
     defaultImage: getDefaultImage(card.name, printings),
     printings,
     name: card.name,
-    rarities: getRarities(card),
-    rarity: getRarity(card) as Rarity,
+    rarities,
+    rarity,
     setIdentifiers,
     sets: getSets(card),
     specialImage: getSpecialImage(card.name, getIdentifier(card), printings),

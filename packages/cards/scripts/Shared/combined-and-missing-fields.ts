@@ -1,6 +1,7 @@
 import { Card } from "@flesh-and-blood/types";
+import { getRarity } from "./mapper";
 
-export const addMissingFields = (card: Card, duplicate: Card) => {
+export const combineAndAddMissingFields = (card: Card, duplicate: Card) => {
   const valueFieldsToFillIfMissing = [
     "cost",
     "defense",
@@ -21,16 +22,17 @@ export const addMissingFields = (card: Card, duplicate: Card) => {
     }
   }
 
-  const arrayFieldsToFillIfMissign = [
+  const arrayFieldsToFillIfMissing = [
     "bannedFormats",
     "classes",
     "keywords",
+    "rarities",
     "specializations",
     "subtypes",
     "talents",
     "types",
   ];
-  for (const field of arrayFieldsToFillIfMissign) {
+  for (const field of arrayFieldsToFillIfMissing) {
     const fieldIsMissingOnDuplicate =
       !duplicate[field] || duplicate[field].length === 0;
     const fieldIsPresentOnCard = card[field] && card[field].length > 0;
@@ -39,4 +41,14 @@ export const addMissingFields = (card: Card, duplicate: Card) => {
       duplicate[field] = card[field];
     }
   }
+
+  const arrayFieldsToCombine = ["rarities"];
+  for (const field of arrayFieldsToCombine) {
+    const duplicateValues = duplicate[field] || [];
+    const cardValues = card[field] || [];
+
+    duplicate[field] = Array.from(new Set([...duplicateValues, ...cardValues]));
+  }
+
+  duplicate.rarity = getRarity(duplicate.rarities);
 };

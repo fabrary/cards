@@ -461,10 +461,38 @@ export const rarityStringMapping: { [key: string]: Rarity } = {
   P: Rarity.Promo,
 };
 
-export const getRarities = (card: { rarity: string[] }): Rarity[] => {
-  const { rarity } = card;
+export const getRarity = (rarities: Rarity[]): Rarity => {
+  let rarity: Rarity;
+
+  if (rarities.some((rarity) => rarity === Rarity.Token)) {
+    rarity = Rarity.Token;
+  } else if (rarities.some((rarity) => rarity === Rarity.Common)) {
+    rarity = Rarity.Common;
+  } else if (rarities.some((rarity) => rarity === Rarity.Rare)) {
+    rarity = Rarity.Rare;
+  } else if (rarities.some((rarity) => rarity === Rarity.Majestic)) {
+    rarity = Rarity.Majestic;
+  } else if (rarities.some((rarity) => rarity === Rarity.Legendary)) {
+    rarity = Rarity.Legendary;
+  } else if (rarities.some((rarity) => rarity === Rarity.Fabled)) {
+    rarity = Rarity.Fabled;
+  } else if (rarities.some((rarity) => rarity === Rarity.SuperRare)) {
+    rarity = Rarity.SuperRare;
+  } else if (rarities.some((rarity) => rarity === Rarity.Promo)) {
+    rarity = Rarity.Promo;
+  } else if (rarities.some((rarity) => rarity === Rarity.Marvel)) {
+    rarity = Rarity.Marvel;
+  }
+
+  return rarity;
+};
+
+export const getRarities = (card: {
+  rarities: string[];
+}): { rarity: Rarity; rarities: Rarity[] } => {
   const rarities: Rarity[] = [];
-  rarity.forEach((rawRarity) => {
+
+  card.rarities.forEach((rawRarity) => {
     const rarityString = rawRarity.split(" - ")[0];
     const rarity = rarityStringMapping[rarityString];
     if (!rarity) {
@@ -475,5 +503,8 @@ export const getRarities = (card: { rarity: string[] }): Rarity[] => {
     }
   });
   rarities.sort();
-  return rarities;
+
+  const rarity = getRarity(rarities);
+
+  return { rarity, rarities };
 };

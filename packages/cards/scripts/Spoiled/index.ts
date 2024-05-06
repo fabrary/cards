@@ -7,7 +7,7 @@ import {
 } from "../Shared";
 import { Card, Rarity } from "@flesh-and-blood/types";
 import { getPrint } from "@flesh-and-blood/types";
-import { addMissingFields } from "../Shared/missing-fields";
+import { combineAndAddMissingFields } from "../Shared/combined-and-missing-fields";
 
 const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
@@ -101,7 +101,7 @@ spoiledSetCards.forEach((card) => {
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
 
-    addMissingFields(card, duplicate);
+    combineAndAddMissingFields(card, duplicate);
   } else {
     deduplicatedCards.push(card);
   }
@@ -156,7 +156,7 @@ spoiledPromoCards.forEach((card) => {
     duplicate.sets = sets;
     duplicate.specialImage = specialImage;
 
-    addMissingFields(card, duplicate);
+    combineAndAddMissingFields(card, duplicate);
   } else {
     deduplicatedCards.push(card);
   }

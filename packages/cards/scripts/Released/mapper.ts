@@ -143,27 +143,6 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   return keywords;
 };
 
-const getRarity = (card: ParsedCard): Rarity | undefined => {
-  const { rarity: rarities } = card;
-  if (rarities.some((rarity) => rarity.startsWith("T"))) {
-    return Rarity.Token;
-  } else if (rarities.some((rarity) => rarity.startsWith("F"))) {
-    return Rarity.Fabled;
-  } else if (rarities.some((rarity) => rarity.startsWith("L"))) {
-    return Rarity.Legendary;
-  } else if (rarities.some((rarity) => rarity.startsWith("M"))) {
-    return Rarity.Majestic;
-  } else if (rarities.some((rarity) => rarity.startsWith("S"))) {
-    return Rarity.SuperRare;
-  } else if (rarities.some((rarity) => rarity.startsWith("C"))) {
-    return Rarity.Common;
-  } else if (rarities.some((rarity) => rarity.startsWith("R"))) {
-    return Rarity.Rare;
-  } else if (rarities.some((rarity) => rarity.startsWith("P"))) {
-    return Rarity.Promo;
-  }
-};
-
 const getBannedFormats = (card: ParsedCard): Format[] => {
   const {
     blitzLegal,
@@ -284,6 +263,8 @@ const getCardData = (card: ParsedCard): Card => {
   const setIdentifiers = [...card.setIdentifiers];
   setIdentifiers.sort();
 
+  const { rarity, rarities } = getRarities(card);
+
   return {
     artists,
     cardIdentifier: getIdentifier(card),
@@ -291,8 +272,8 @@ const getCardData = (card: ParsedCard): Card => {
     defaultImage: getDefaultImage(card.name, printings),
     name: card.name,
     printings,
-    rarities: getRarities(card),
-    rarity: getRarity(card) as Rarity,
+    rarities,
+    rarity,
     setIdentifiers,
     sets: getSets(printings),
     specialImage: getSpecialImage(card.name, getIdentifier(card), printings),

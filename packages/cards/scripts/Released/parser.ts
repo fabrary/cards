@@ -37,7 +37,7 @@ export interface ParsedCard {
   name: string;
   pitch?: string;
   printings: Printing[];
-  rarity: string[];
+  rarities: string[];
   setIdentifiers: string[];
   sets: string[];
   types: string[];
@@ -240,7 +240,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
       const artists: string[] = Array.from(
         new Set(printings.map(({ artist }) => artist))
       );
-      const rarity: string[] = Array.from(
+      const rarities: string[] = Array.from(
         new Set(printings.map(({ rarity }) => rarity.trim()))
       );
       const setIdentifiers: string[] = Array.from(
@@ -267,7 +267,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         name,
         pitch,
         printings,
-        rarity,
+        rarities,
         setIdentifiers,
         sets,
         types,
