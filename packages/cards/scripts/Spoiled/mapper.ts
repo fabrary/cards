@@ -293,9 +293,9 @@ const getRarity = (card: ParsedCard): Rarity | undefined => {
 };
 
 export const getRarities = (card: ParsedCard): Rarity[] => {
-  const { rarity, rarity2 } = card;
+  const { rarity, rarity2, rarity3, rarity4 } = card;
 
-  const rarities = [rarity, rarity2]
+  const rarities = [rarity, rarity2, rarity3, rarity4]
     .filter((rarity) => !!rarity)
     .map((rarity) => rarityStringMapping[rarity as string])
     .sort();

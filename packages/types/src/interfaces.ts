@@ -152,12 +152,14 @@ export enum Release {
   BravoBlitzDeck = "Bravo Blitz Deck",
   ChaneBlitzDeck = "Chane Blitz Deck",
   DromaiBlitzDeck = "Dromai Blitz Deck",
+  EnigmaBlitzDeck = "Enigma Blitz Deck",
   FaiBlitzDeck = "Fai Blitz Deck",
   KassaiBlitzDeck = "Kassai Blitz Deck",
   KatsuBlitzDeck = "Katsu Blitz Deck",
   KayoBlitzDeck = "Kayo Blitz Deck",
   LeviaBlitzDeck = "Levia Blitz Deck",
   LexiBlitzDeck = "Lexi Blitz Deck",
+  NuuBlitzDeck = "Nuu Blitz Deck",
   OldhimBlitzDeck = "Oldhim Blitz Deck",
   OlympiaBlitzDeck = "Olympia Blitz Deck",
   PrismBlitzDeck = "Prism Blitz Deck",
@@ -165,6 +167,7 @@ export enum Release {
   RiptideBlitzDeck = "Riptide Blitz Deck",
   UzuriBlitzDeck = "Uzuri Blitz Deck",
   VictorBlitzDeck = "Victor Blitz Deck",
+  ZenBlitzDeck = "Zen Blitz Deck",
 
   // Hero decks
   DorintheaHeroDeck = "Dorinthea Hero Deck",

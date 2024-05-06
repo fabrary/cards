@@ -35,12 +35,14 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   bvo: Release.BravoBlitzDeck,
   chn: Release.ChaneBlitzDeck,
   dro: Release.DromaiBlitzDeck,
+  eng: Release.EnigmaBlitzDeck,
   fai: Release.FaiBlitzDeck,
   kat: Release.KatsuBlitzDeck,
   ksi: Release.KassaiBlitzDeck,
   kyo: Release.KayoBlitzDeck,
   lev: Release.LeviaBlitzDeck,
   lxi: Release.LexiBlitzDeck,
+  nuu: Release.NuuBlitzDeck,
   old: Release.OldhimBlitzDeck,
   ola: Release.OlympiaBlitzDeck,
   psm: Release.PrismBlitzDeck,
@@ -48,6 +50,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   rnr: Release.RhinarBlitzDeck,
   uzu: Release.UzuriBlitzDeck,
   vic: Release.VictorBlitzDeck,
+  zen: Release.ZenBlitzDeck,
 
   // Starter decks
   dvr: Release.ClassicBattlesRhinarDorinthea,

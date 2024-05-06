@@ -27,6 +27,7 @@ export const addMissingFields = (card: Card, duplicate: Card) => {
     "keywords",
     "specializations",
     "subtypes",
+    "talents",
     "types",
   ];
   for (const field of arrayFieldsToFillIfMissign) {
