@@ -5,7 +5,7 @@ ENG001,"ENG, MST",Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,,,,,,"Your
 ENG002,"ENG, MST","Cosmo, Scroll of Ancestral Tapestry",,,,,,,"Illusionist, Weapon, Scroll, 2H",,,,,,,"During your turn, auras you control with **ward** are weapons with base {p} equal to their **ward** and **Once per Turn Action - {r}: Attack""
 
 Your aura attacks with one or more +1{p} counters get **go again**.",Illusionist Weapon - Scroll (2H),,,,,C,,,Asur Misoa,,ENG002,/ENG002.png,,,,,,,,,,,,,,,,,,,,,
-ENG003,"ENG, MST",Truths Retold,,,,,,,"Mystic, Illusionist, Equipment, Head","Cloaked, Instant, Ward 1",,,,,,"**Cloaked**
+ENG003,"ENG, MST",Truths Retold,,,,,,,"Mystic, Illusionist, Equipment, Head","Cloaked, Ward 1",Instant,,,,,"**Cloaked**
 
 **Instant** - {r}, turn this face-up: Put an aura from your graveyard on the bottom of your deck.
 
@@ -15,12 +15,12 @@ ENG004,"ENG, MST",Heirloom of Rabbit Hide,,,,,,,"Mystic, Illusionist, Equipment,
 While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
 
 **Ward 4**",Mystic Illusionist Equipment - Chest,,,,,R,,,Septimius Ferdian,,ENG004,/ENG004.png,,,,,,,,,,,,,,,,,,,,,
-ENG005,"ENG, MST",Uphold Tradition,,,,,,,"Mystic, Illusionist, Equipment, Arms","Cloaked, Instant, Ward 1",,,,,,"**Cloaked**
+ENG005,"ENG, MST",Uphold Tradition,,,,,,,"Mystic, Illusionist, Equipment, Arms","Cloaked, Ward 1",Instant,,,,,"**Cloaked**
 
 **Instant** - {r}, turn this face-up: Put a +1{p} counter on an aura you control with **ward**.
 
 **Ward 1**",Mystic Illusionist Equipment - Arms,,,,,C,,,Kelvin Jauwri,,ENG005,/ENG005.png,,,,,,,,,,,,,,,,,,,,,
-ENG006,"ENG, MST",Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs","Cloaked, Instant",,,,,,"**Cloaked**
+ENG006,"ENG, MST",Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs",Cloaked,Instant,,,,,"**Cloaked**
 
 **Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,Alief Rusdiatama,,ENG006,/ENG006.png,,,,,,,,,,,,,,,,,,,,,
 ENG007,"ENG, MST",Battlefront Bastion,1,3,7,2,,,"Generic, Action, Attack",,,,,,,"When this defends alone, prevent the next 1 damage that would be dealt to you this turn.",Generic Action - Attack,,,,,C,,,Bastien Jez,,ENG007,/ENG007.png,,,,,,,,,,,,,,,,,,,,,
@@ -132,7 +132,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.",Mystic 
 NUU014,"NUU, MST",Venomous Bite,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +3{p}.
 
 If you've pitched a blue card this turn, create a Fang Strike in your hand.",Mystic Assassin Attack Reaction,,,,,C,,,Ramza Ardyputra,,NUU014,/NUU014.png,,,,,,,,,,,,,,,,,,,,,
-NUU015,"NUU, MST",Hiss,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +2{p}.
+NUU015,"NUU, MST",Hiss,2,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +2{p}.
 
 If you've pitched a blue card this turn, create a Slither in your hand.",Mystic Assassin Attack Reaction,,,,,C,,EA,Isuardi Therianto,,NUU015,/NUU015.png,,,,,,,,,,,,,,,,,,,,,
 NUU016,"NUU, MST",Bonds of Attraction,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
