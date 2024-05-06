@@ -261,6 +261,7 @@ export enum Subtype {
   Rock = "Rock",
   Shuriken = "Shuriken",
   Scepter = "Scepter",
+  Scroll = "Scroll",
   Scythe = "Scythe",
   Song = "Song",
   Staff = "Staff",
