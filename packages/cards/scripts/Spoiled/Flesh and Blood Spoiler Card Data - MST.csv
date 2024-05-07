@@ -9,7 +9,9 @@ MST004,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST005,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST006,MST,Arousing Wave,,,,,,,,,,,,,,,,,,,,C,,,Junaidi Lim,,MST006,/MST006.png,,,,,,,,,,,,,,,,,,,,,
 MST007,MST,Undertow Stilettos,,,,,,,,,,,,,,,,,,,,C,,,Firaz M. Rasyid,,MST007,/MST007.png,,,,,,,,,,,,,,,,,,,,,
-MST008,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST008,MST,Gorgon's Gaze,2,2,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Create a Slither in your hand.
+
+Banish all defending attack action cards on the combat chain. If a Chi was pitched to play this, you may play the banished cards this combat chain without paying their {r} cost.",Mystic Assassin Attack Reaction,,,,No,M,,,Milivoj Ćeran,,MST008,/MST008.png,,,,,,,,,,,,,,,,,,,,,
 MST009,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "MST010, FAB232","MST, FAB",Sacred Art: Undercurrent Desires,3,3,,,,,"Mystic, Assassin, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
@@ -341,13 +343,13 @@ MST142,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST142,,,,,,,,,,,,,,,,,,,,,,
 MST143,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST143,,,,,,,,,,,,,,,,,,,,,,
 MST144,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST144,,,,,,,,,,,,,,,,,,,,,,
 MST145,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST145,,,,,,,,,,,,,,,,,,,,,,
-MST146,MST,Single Minded Determination,1,2,,,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put three +1{p} counter on this.
+MST146,MST,Single Minded Determination,1,2,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put three +1{p} counter on this.
 
 **Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST146,/MST146.png,,,,,,,,,,,,,,,,,,,,,
-MST147,MST,Single Minded Determination,2,2,,,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put two +1{p} counter on this.
+MST147,MST,Single Minded Determination,2,2,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put two +1{p} counter on this.
 
 **Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST147,/MST147.png,,,,,,,,,,,,,,,,,,,,,
-MST148,MST,Single Minded Determination,3,2,,,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put a +1{p} counter on this.
+MST148,MST,Single Minded Determination,3,2,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put a +1{p} counter on this.
 
 **Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST148,/MST148.png,,,,,,,,,,,,,,,,,,,,,
 MST149,MST,Solitary Companion,1,0,,2,,,"Illusionist, Action, Aura",Ward 3,,,,,,"When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
@@ -368,7 +370,7 @@ MST153,MST,Spectral Manifestations,2,2,,2,,,"Illusionist, Action",Go again,,,,,,
 MST154,MST,Spectral Manifestations,3,2,,2,,,"Illusionist, Action",Go again,,,,,,"Create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
 
 **Go again**",Illusionist Action,,,,,C,,,Carlos Cruchaga,,MST154,/MST154.png,,,,,,,,,,,,,,,,,,,,,
-MST155,MST,Vengeful Apparition,1,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 2 this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
+MST155,MST,Vengeful Apparition,1,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 2 or less this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
 **Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST155,/MST155.png,,,,,,,,,,,,,,,,,,,,,
 MST156,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST156,,,,,,,,,,,,,,,,,,,,,,
