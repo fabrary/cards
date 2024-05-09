@@ -373,10 +373,12 @@ MST154,MST,Spectral Manifestations,3,2,,2,,,"Illusionist, Action",Go again,,,,,,
 MST155,MST,Vengeful Apparition,1,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 2 or less this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
 **Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST155,/MST155.png,,,,,,,,,,,,,,,,,,,,,
-MST156,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST156,,,,,,,,,,,,,,,,,,,,,,
+MST156,MST,Vengeful Apparition,2,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 1 or less this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
+
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST156,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST156.png,,,,,,,,,,,,,,,,,,,,,
 MST157,MST,Vengeful Apparition,3,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 0 this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
-**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST157,/MST156.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST157,/MST157.png,,,,,,,,,,,,,,,,,,,,,
 MST158,MST,Spectral Shield,,,,,,,"Illusionist, Token, Aura",Ward 1,,,,,,**Ward 1**,Illusionist Token - Aura,,,,,T,,,Asur Misoa,,MST158,/MST158.png,,,,,,,,,,,,,,,,,,,,,
 MST159,MST,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,T,,,Joseph Qiu,,MST159,/MST159.png,,,,,,,,,,,,,,,,,,,,,
 MST160,MST,Mask of Wizened Whiskers,,,,,,,,,,,,,,,,,,,,C,,,Daniel Jiménez,,MST160,/MST160.png,,,,,,,,,,,,,,,,,,,,,
@@ -386,9 +388,9 @@ MST163,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST163,,,,,,,,,,,,,,,,,,,,,,
 MST164,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST164,,,,,,,,,,,,,,,,,,,,,,
 MST165,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST165,,,,,,,,,,,,,,,,,,,,,,
 MST166,MST,Aspect of Tiger: Mind,3,0,1,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a blue attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST166,/MST166.png,,,,,,,,,,,,,,,,,,,,,
-MST167,MST,Qi Unleashed,1,,,,,,,,,,,,,,,,,,No,R,,,Narendra B Adi,,MST167,/MST167.png,,,,,,,,,,,,,,,,,,,,,
-MST168,MST,Qi Unleashed,2,,,,,,,,,,,,,,,,,,No,R,,,Narendra B Adi,,MST168,/MST168.png,,,,,,,,,,,,,,,,,,,,,
-MST169,MST,Qi Unleashed,3,,,,,,,,,,,,,,,,,,No,R,,,Narendra B Adi,,MST169,/MST169.png,,,,,,,,,,,,,,,,,,,,,
+MST167,MST,Qi Unleashed,1,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST167,/MST167.png,,,,,,,,,,,,,,,,,,,,,
+MST168,MST,Qi Unleashed,2,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST168,/MST168.png,,,,,,,,,,,,,,,,,,,,,
+MST169,MST,Qi Unleashed,3,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST169,/MST169.png,,,,,,,,,,,,,,,,,,,,,
 MST170,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST170,,,,,,,,,,,,,,,,,,,,,,
 MST171,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST171,,,,,,,,,,,,,,,,,,,,,,
 MST172,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST172,,,,,,,,,,,,,,,,,,,,,,
