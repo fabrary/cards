@@ -270,7 +270,7 @@ const getCardData = (card: ParsedCard): Card => {
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
     defaultImage: getDefaultImage(card.name, printings),
-    name: card.name,
+    name: card.name.trim(),
     printings,
     rarities,
     rarity,

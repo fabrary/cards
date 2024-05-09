@@ -305,6 +305,8 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
 
   const bannedFormats: Format[] = [];
 
+  const { rarity } = getParsedRarities(card);
+
   const ILLEGAL_IN_FORMAT_FLAG = "No";
   if (blitzLegal === ILLEGAL_IN_FORMAT_FLAG) {
     bannedFormats.push(Format.Blitz);
@@ -411,7 +413,7 @@ const getCardData = (card: ParsedCard): Card => {
     classes: getClasses(card),
     defaultImage: getDefaultImage(card.name, printings),
     printings,
-    name: card.name,
+    name: card.name.trim(),
     rarities,
     rarity,
     setIdentifiers,

@@ -95,6 +95,9 @@ export const getIdentifier = (card: {
   const { name: unformattedName, pitch } = card;
   const name = unformattedName
     .toLowerCase()
+    // .replace("Kāṣāya", "kasaya")
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
     .replace(/ /g, "-")
     .replace("í", "i")
     .replace(/[^a-z0-9 -]/g, "")
