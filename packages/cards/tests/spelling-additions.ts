@@ -266,6 +266,7 @@ export const fabDictionary = [
   "shadowrealm",
   "shiyana",
   "shockwave",
+  "shortcircuit",
   "showstopper",
   "shuko",
   "shuriken",

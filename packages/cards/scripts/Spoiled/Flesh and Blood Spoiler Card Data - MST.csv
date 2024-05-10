@@ -485,7 +485,11 @@ MST229,MST,Evo Heartdrive,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Ches
 When this is equipped, the next attack action card you play this turn costs {r} less to play.
 
 Arcane Barrier 1",Mechanologist Instant Equipment - Evo Chest,,,,No,M,,,Federico Musetti,,MST229,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST229.png,,,,,,,,,,,,,,,,,,,,,
-MST230,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST230,,,,,,,,,,,,,,,,,,,,,,
+MST230,MST,Evo Shortcircuit,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Arms",Arcane Barrier 1,,,,,,"If you have a base arms equipped, transform it into this, then equip this.
+
+When this is equipped, deal 1 damage to any target.
+
+Arcane Barrier 1",Mechanologist Instant Equipment - Evo Arms,,,,No,M,,,Federico Musetti,,MST230,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST230.png,,,,,,,,,,,,,,,,,,,,,
 MST231,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST231,,,,,,,,,,,,,,,,,,,,,,
 MST232,MST,Longdraw Half-glove,,,,1,,,"Ranger, Equipment, Arms",Battleworn,Instant,,,,,"**Instant** - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.
 
