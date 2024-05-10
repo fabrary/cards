@@ -401,6 +401,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bonds-of-agony-blue</loc>
+    <lastmod>2024-05-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/art-of-desire-body-red</loc>
     <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>
@@ -593,6 +598,11 @@
   <url>
     <loc>https://fabrary.net/cards/mask-of-wizened-whiskers</loc>
     <lastmod>2024-05-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/chase-the-tail-red</loc>
+    <lastmod>2024-05-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

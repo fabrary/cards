@@ -224,7 +224,9 @@ MST102,MST,The Grain that Tips the Scale,3,0,,,,,"Mystic, Instant","Legendary, T
 Target attack gets +1{p}.
 
 If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_M.png,C,,,romiy,,MST102,/MST102.png,,,,,,,,,,,,,,
-MST103,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST103,,,,,,,,,,,,,,,,,,,,,,
+MST103,MST,Bonds of Agony,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+If you've played or activated 3 or more attack reactions this chain link, this gets +3{p} and ""When this hits a hero, look at their hand and choose a card. Search their hand, deck, and graveyard and banish up to 3 cards with the same name as the chosen card. They shuffle.""",Assassin Action - Attack,,,,No,M,,,Fajareka Setiawan,,MST103,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST103.png,,,,,,,,,,,,,,,,,,,,,
 MST104,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST104,,,,,,,,,,,,,,,,,,,,,,
 MST105,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST105,,,,,,,,,,,,,,,,,,,,,,
 MST106,MST,Art of Desire: Body,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
@@ -382,7 +384,7 @@ MST157,MST,Vengeful Apparition,3,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,
 MST158,MST,Spectral Shield,,,,,,,"Illusionist, Token, Aura",Ward 1,,,,,,**Ward 1**,Illusionist Token - Aura,,,,,T,,,Asur Misoa,,MST158,/MST158.png,,,,,,,,,,,,,,,,,,,,,
 MST159,MST,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,T,,,Joseph Qiu,,MST159,/MST159.png,,,,,,,,,,,,,,,,,,,,,
 MST160,MST,Mask of Wizened Whiskers,,,,,,,,,,,,,,,,,,,,C,,,Daniel Jiménez,,MST160,/MST160.png,,,,,,,,,,,,,,,,,,,,,
-MST161,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST161,,,,,,,,,,,,,,,,,,,,,,
+MST161,MST,Chase the Tail,1,1,4,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and the next Crouching Tiger you play this combat chain gets +3{p}.",Ninja Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST161,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png,,,,,,,,,,,,,,,,,,,,,
 MST162,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST162,,,,,,,,,,,,,,,,,,,,,,
 MST163,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST163,,,,,,,,,,,,,,,,,,,,,,
 MST164,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST164,,,,,,,,,,,,,,,,,,,,,,
