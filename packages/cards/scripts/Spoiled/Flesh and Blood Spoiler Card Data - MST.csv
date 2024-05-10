@@ -470,9 +470,21 @@ MST226,MST,Visit the Golden Anvil,3,0,,3,,,"Warrior, Action",Olympia Specializat
 As an additional cost to play this, destroy X Gold you control.
 
 Equip X weapons and/or equipment from your inventory.",Warrior Action,,,,No,M,,,Simon Dominic,,MST226,/MST226.png,,,,,,,,,,,,,,,,,,,,,
-MST227,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST227,,,,,,,,,,,,,,,,,,,,,,
-MST228,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST228,,,,,,,,,,,,,,,,,,,,,,
-MST229,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST229,,,,,,,,,,,,,,,,,,,,,,
+MST227,MST,Supercell,3,X,,2,,,"Mechanologist, Action",,,,,,,"Put X steam counters on X target Hyper Drivers you control.
+
+Create a Hyper Driver token with X steam counters.
+
+If X is 3 or greater, you may shuffle a Construct Nitro Mechanoid from your banished zone into your deck.",Mechanologist Action,,,,No,M,,,Mariusz Gandzel,,MST227,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST227.png,,,,,,,,,,,,,,,,,,,,,
+MST228,MST,Evo Recall,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Head",Arcane Barrier 1,,,,,,"If you have a base head equipped, transform it into this, then equip this.
+
+When this is equipped, put up to 1 Mechanologist action card from your banished zone on top of your deck.
+
+Arcane Barrier 1",Mechanologist Instant Equipment - Evo Head,,,,No,M,,,Federico Musetti,,MST228,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST228.png,,,,,,,,,,,,,,,,,,,,,
+MST229,MST,Evo Heartdrive,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Chest",Arcane Barrier 1,,,,,,"If you have a base chest equipped, transform it into this, then equip this.
+
+When this is equipped, the next attack action card you play this turn costs {r} less to play.
+
+Arcane Barrier 1",Mechanologist Instant Equipment - Evo Chest,,,,No,M,,,Federico Musetti,,MST229,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST229.png,,,,,,,,,,,,,,,,,,,,,
 MST230,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST230,,,,,,,,,,,,,,,,,,,,,,
 MST231,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST231,,,,,,,,,,,,,,,,,,,,,,
 MST232,MST,Longdraw Half-glove,,,,1,,,"Ranger, Equipment, Arms",Battleworn,Instant,,,,,"**Instant** - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.
