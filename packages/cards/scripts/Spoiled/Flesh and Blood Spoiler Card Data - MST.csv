@@ -423,7 +423,7 @@ MST188,MST,Crouching Tiger,,0,0,,,,"Ninja, Action, Attack","Ephemeral, Go again"
 MST189,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST189,,,,,,,,,,,,,,,,,,,,,,
 MST190,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST190,,,,,,,,,,,,,,,,,,,,,,
 MST191,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST191,,,,,,,,,,,,,,,,,,,,,,
-MST192,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST192,,,,,,,,,,,,,,,,,,,,,,
+MST192,MST,The Weakest Link,1,2,6,3,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card.",Generic Action - Attack,,,,No,M,,,Federico Musetti,,MST192,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png,,,,,,,,,,,,,,,,,,,,,
 MST193,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST193,,,,,,,,,,,,,,,,,,,,,,
 MST194,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST194,,,,,,,,,,,,,,,,,,,,,,
 MST195,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST195,,,,,,,,,,,,,,,,,,,,,,
