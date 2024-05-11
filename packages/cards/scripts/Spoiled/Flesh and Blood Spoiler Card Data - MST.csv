@@ -335,8 +335,12 @@ Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - A
 MST127,MST,Pick to Pieces,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST127,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST127.png,,,,,,,,,,,,,,,,,,,,,
-MST128,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST128,,,,,,,,,,,,,,,,,,,,,,
-MST129,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST129,,,,,,,,,,,,,,,,,,,,,,
+MST128,MST,Pick to Pieces,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST128,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST128.png,,,,,,,,,,,,,,,,,,,,,
+MST129,MST,Pick to Pieces,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST129,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST129.png,,,,,,,,,,,,,,,,,,,,,
 MST130,MST,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,T,,,Asur Misoa,,MST130,/MST130.png,,,,,,,,,,,,,,,,,,,,,
 MST131,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST131,,,,,,,,,,,,,,,,,,,,,,
 MST132,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST132,,,,,,,,,,,,,,,,,,,,,,
