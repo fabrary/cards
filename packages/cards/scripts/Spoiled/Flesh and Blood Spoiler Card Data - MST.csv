@@ -182,7 +182,9 @@ MST089,MST,Spillover,3,2,4,2,,,"Mystic, Action, Attack",,,,,,,"If you've played 
 MST090,MST,Tidal Surge,3,3,5,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Nathaniel Himawan,,MST090,/MST090.png,,,,,,,,,,,,,,,,,,,,,
 MST091,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST091,,,,,,,,,,,,,,,,,,,,,,
 MST092,MST,First Tenet of Chi: Moon,3,,,,,,,,,,,,,,,,,,,C,,,Carlos Cruchaga,,MST092,/MST092.png,,,,,,,,,,,,,,,,,,,,,
-MST093,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST093,,,,,,,,,,,,,,,,,,,,,,
+MST093,MST,First Tenet of Chi: Tide,3,0,,3,,,"Mystic, Action",Go again,,,,,,"Your next blue attack this turn gets +2{p}.
+
+**Go again**",Mystic Action,,,,,C,,,Tomasz Jedruszek,,MST093,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST093.png,,,,,,,,,,,,,,,,,,,,,
 MST094,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST094,,,,,,,,,,,,,,,,,,,,,,
 MST095,MST,A Drop in the Ocean,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
