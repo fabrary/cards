@@ -3,11 +3,11 @@ MST000,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this.""
 
 **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_Back.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
-MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,,/MST002_Back.png,C,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,
+MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,,/MST002_Back.png,T,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,
 MST003,MST,Beckoning Mistblade,,,,,,,,,,,,,,,,,,,,T,,,Jessketchin,,MST003,/MST003.png,,,,,,,,,,,,,,,,,,,,,
 MST004,MST,Mask of Recurring Nightmares,,,,2,,,"Mystic, Asassin, Equipment, Head",Blade Break,Once per Turn Attack Reaction,,,,,"**Once per Turn Attack Reaction** - {c}{c}{c}: Target defending hero banishes a card from their hand.
 
-**Blade Break**",Mystic Assassin Equipment - Head,,,,No,L,R,,Isuardi Therianto,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Mystic Assassin Equipment - Head,,,,No,L,R,,Isuardi Therianto,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png,L,C,EA,Isuardi Therianto,,MST004,/MST004-CF.png,,,,,,,,,,,,,,
 MST005,MST,Heirloom of Snake Hide,,,,2,,,"Mystic, Asassin, Equipment, Chest","Cloaked, Battleworn",,,,,,"**Cloaked**
 
 While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
@@ -32,8 +32,12 @@ MST013,MST,Tide Chakra,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Targe
 MST014,MST,Hiss,1,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST014,/MST014.png,,,,,,,,,,,,,,,,,,,,,
 MST015,MST,Hiss,2,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST015,/MST015.png,,,,,,,,,,,,,,,,,,,,,
 MST016,MST,Hiss,3,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST016,/MST016.png,,,,,,,,,,,,,,,,,,,,,
-MST017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MST018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST017,MST,Intimate Inducement,1,0,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
+
+Look at the top 4 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST017,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST017.png,,,,,,,,,,,,,,,,,,,,,
+MST018,MST,Intimate Inducement,2,0,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
+
+Look at the top 3 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST018,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST018.png,,,,,,,,,,,,,,,,,,,,,
 MST019,MST,Intimate Inducement,3,0,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
 
 Look at the top 2 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST019,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST019.png,,,,,,,,,,,,,,,,,,,,,
@@ -246,11 +250,9 @@ MST104,MST,Persuasive Prognosis,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,
 When this hits a hero, banish the top card of their deck. Then look at their hand and banish a card with the same color as the banished card.
 
 Whenever this banishes an action card, gain 1{h}.",Assassin Action - Attack,,,,No,M,,,Mario Wibisono,,MST104,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST104.png,,,,,,,,,,,,,,,,,,,,,
-MST105,MST,Just a Nick,1,0,,3,,,"Assassin, Attack Reaction",Stealth,,,,,,"Choose 1 or both;
-
+MST105,MST,Just a Nick,1,0,,3,,,"Assassin, Attack Reaction",,,,,,Stealth,"Choose 1 or both;
 - Target attack action card with 1 or less base {p} gets +5{p}.
-
-- Target attack with stealth gets ""When this hits a hero, banish the top card of their deck.""",Assassin Attack Reaction,,,,No,M,,,Fajareka Setiawan,,MST105,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST105.png,,,,,,,,,,,,,,,,,,,,,
+- Target attack with **stealth** gets ""When this hits a hero, banish the top card of their deck.""",Assassin Attack Reaction,,,,No,M,,,Fajareka Setiawan,,MST105,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST105.png,,,,,,,,,,,,,,,,,,,,,
 MST106,MST,Art of Desire: Body,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
