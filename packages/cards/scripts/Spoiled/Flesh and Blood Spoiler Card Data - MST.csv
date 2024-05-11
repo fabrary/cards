@@ -5,7 +5,9 @@ MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,
 **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_Back.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
 MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,,/MST002_Back.png,C,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,
 MST003,MST,Beckoning Mistblade,,,,,,,,,,,,,,,,,,,,T,,,Jessketchin,,MST003,/MST003.png,,,,,,,,,,,,,,,,,,,,,
-MST004,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST004,MST,Mask of Recurring Nightmares,,,,2,,,"Mystic, Asassin, Equipment, Head",Blade Break,,,,,,"**Once per Turn Attack Reaction** - {c}{c}{c}: Target defending hero banishes a card from their hand.
+
+**Blade Break**",Mystic Assassin Equipment - Head,,,,No,L,R,,Isuardi Therianto,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png,,,,,,,,,,,,,,,,,,,,,
 MST005,MST,Heirloom of Snake Hide,,,,2,,,"Mystic, Asassin, Equipment, Chest","Cloaked, Battleworn",,,,,,"**Cloaked (Equip this face-down.)
 While this is equipped face-down, at the start of your turn, if you have exactly 1{g}, you may turn this face-up.
 Battleworn (When the combat chain closes, if this defended, put a -1{d} counter on it.)",Mystic Assassin Equipment - Chest,,,,,R,,,Nikko Wahyudi,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST005.png,,,,,,,,,,,,,,,,,,,,,
