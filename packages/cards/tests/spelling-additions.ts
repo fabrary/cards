@@ -292,6 +292,7 @@ export const fabDictionary = [
   "solartide",
   "soulbead",
   "soulbond",
+  "speedslip",
   "spellbane",
   "spellblade",
   "spellfire",

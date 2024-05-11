@@ -311,6 +311,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/attune-with-cosmic-vibrations-blue</loc>
+    <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/orihon-of-mystic-tenets-blue</loc>
     <lastmod>2024-04-08</lastmod>
     <priority>0.5</priority>
@@ -406,8 +411,23 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/just-a-nick-red</loc>
+    <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/art-of-desire-body-red</loc>
     <lastmod>2024-05-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/art-of-desire-soul-yellow</loc>
+    <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/art-of-desire-mind-blue</loc>
+    <lastmod>2024-05-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -521,6 +541,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/essence-of-ancestry-body-red</loc>
+    <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/essence-of-ancestry-soul-yellow</loc>
+    <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/essence-of-ancestry-mind-blue</loc>
     <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>
@@ -603,6 +633,16 @@
   <url>
     <loc>https://fabrary.net/cards/chase-the-tail-red</loc>
     <lastmod>2024-05-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/aspect-of-tiger-body-red</loc>
+    <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/aspect-of-tiger-soul-yellow</loc>
+    <lastmod>2024-05-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -691,6 +731,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/rowdy-locals-blue</loc>
+    <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/the-weakest-link-red</loc>
     <lastmod>2024-05-10</lastmod>
     <priority>0.5</priority>
@@ -773,6 +818,11 @@
   <url>
     <loc>https://fabrary.net/cards/evo-shortcircuit-blue</loc>
     <lastmod>2024-05-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/evo-speedslip-blue</loc>
+    <lastmod>2024-05-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

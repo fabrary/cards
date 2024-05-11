@@ -162,7 +162,7 @@ MST073,MST,Skyhold Keikoi,,,,,,,"Mystic, Equipment, Arms",Cloaked,Instant,,,,,"*
 MST074,MST,Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs",Cloaked,Instant,,,,,"**Cloaked**
 
 **Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,Alief Rusdiatama,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,
-MST075,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST075,,,,,,,,,,,,,,,,,,,,,,
+MST075,MST,Attune with Cosmic Vibrations,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.",Mystic Action - Attack,,,,No,M,,,Carlos Cruchaga,,MST075,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png,,,,,,,,,,,,,,,,,,,,,
 MST076,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST076,,,,,,,,,,,,,,,,,,,,,,
 MST077,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST077,,,,,,,,,,,,,,,,,,,,,,
 MST078,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST078,,,,,,,,,,,,,,,,,,,,,,
@@ -228,14 +228,26 @@ MST103,MST,Bonds of Agony,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**S
 
 If you've played or activated 3 or more attack reactions this chain link, this gets +3{p} and ""When this hits a hero, look at their hand and choose a card. Search their hand, deck, and graveyard and banish up to 3 cards with the same name as the chosen card. They shuffle.""",Assassin Action - Attack,,,,No,M,,,Fajareka Setiawan,,MST103,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST103.png,,,,,,,,,,,,,,,,,,,,,
 MST104,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST104,,,,,,,,,,,,,,,,,,,,,,
-MST105,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST105,,,,,,,,,,,,,,,,,,,,,,
+MST105,MST,Just a Nick,1,0,,3,,,"Assassin, Attack Reaction",Stealth,,,,,,"Choose 1 or both;
+
+- Target attack action card with 1 or less base {p} gets +5{p}.
+
+- Target attack with stealth gets ""When this hits a hero, banish the top card of their deck.""",Assassin Attack Reaction,,,,No,M,,,Fajareka Setiawan,,MST105,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST105.png,,,,,,,,,,,,,,,,,,,,,
 MST106,MST,Art of Desire: Body,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
 Whenever this banishes a red card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST106,/MST106.png,,,,,,,,,,,,,,,,,,,,,
-MST107,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST107,,,,,,,,,,,,,,,,,,,,,,
-MST108,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST108,,,,,,,,,,,,,,,,,,,,,,
+MST107,MST,Art of Desire: Soul,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a hero, banish the top card of their deck.
+
+Whenever this banishes a yellow card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST107,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST107.png,,,,,,,,,,,,,,,,,,,,,
+MST108,MST,Art of Desire: Mind,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a hero, banish the top card of their deck.
+
+Whenever this banishes a blue card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST108,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST108.png,,,,,,,,,,,,,,,,,,,,,
 MST109,MST,Bonds of Attraction,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
@@ -336,8 +348,12 @@ If you control a Spectral Shield, you may play this as though it were an instant
 MST136,MST,Astral Etchings,3,1,,3,,,"Illusionist, Action",,,,,,,"Put a +1{p} counter on target aura with **ward** you control.
 
 If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,MST136,/MST136.png,,,,,,,,,,,,,,,,,,,,,
-MST137,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST137,,,,,,,,,,,,,,,,,,,,,,
-MST138,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST138,,,,,,,,,,,,,,,,,,,,,,
+MST137,MST,Essence of Ancestry: Body,1,0,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a red source this turn, prevent it.
+
+**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,MST137,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST137.png,,,,,,,,,,,,,,,,,,,,,
+MST138,MST,Essence of Ancestry: Soul,2,0,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a yellow source this turn, prevent it.
+
+**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,MST138,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST138.png,,,,,,,,,,,,,,,,,,,,,
 MST139,MST,Essence of Ancestry: Mind,3,,,,,,,,,,,,,,,,,,No,R,,,Andrew Chou,,MST139,/MST139.png,,,,,,,,,,,,,,,,,,,,,
 MST140,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST140,,,,,,,,,,,,,,,,,,,,,,
 MST141,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST141,,,,,,,,,,,,,,,,,,,,,,
@@ -387,8 +403,8 @@ MST160,MST,Mask of Wizened Whiskers,,,,,,,,,,,,,,,,,,,,C,,,Daniel Jiménez,,MST1
 MST161,MST,Chase the Tail,1,1,4,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and the next Crouching Tiger you play this combat chain gets +3{p}.",Ninja Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST161,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png,,,,,,,,,,,,,,,,,,,,,
 MST162,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST162,,,,,,,,,,,,,,,,,,,,,,
 MST163,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST163,,,,,,,,,,,,,,,,,,,,,,
-MST164,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST164,,,,,,,,,,,,,,,,,,,,,,
-MST165,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST165,,,,,,,,,,,,,,,,,,,,,,
+MST164,MST,Aspect of Tiger: Body,1,0,3,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a red attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST164,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST164.png,,,,,,,,,,,,,,,,,,,,,
+MST165,MST,Aspect of Tiger: Soul,2,0,2,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a yellow attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST165,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST165.png,,,,,,,,,,,,,,,,,,,,,
 MST166,MST,Aspect of Tiger: Mind,3,0,1,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a blue attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST166,/MST166.png,,,,,,,,,,,,,,,,,,,,,
 MST167,MST,Qi Unleashed,1,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST167,/MST167.png,,,,,,,,,,,,,,,,,,,,,
 MST168,MST,Qi Unleashed,2,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST168,/MST168.png,,,,,,,,,,,,,,,,,,,,,
@@ -422,7 +438,9 @@ MST188,MST,Crouching Tiger,,0,0,,,,"Ninja, Action, Attack","Ephemeral, Go again"
 **Go again**",Ninja Action - Attack,,,,,T,,,Carlos Cruchaga,,MST188,/MST188.png,,,,,,,,,,,,,,,,,,,,,
 MST189,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST189,,,,,,,,,,,,,,,,,,,,,,
 MST190,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST190,,,,,,,,,,,,,,,,,,,,,,
-MST191,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST191,,,,,,,,,,,,,,,,,,,,,,
+MST191,MST,Rowdy Locals,3,0,2,3,,,"Generic, Action, Attack",,,,,,,"If this is defended by an action card, this gets +2{p}.
+
+When this hits a hero, discard a card. If you do, they discard a card.",Generic Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST191,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png,,,,,,,,,,,,,,,,,,,,,
 MST192,MST,The Weakest Link,1,2,6,3,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card.",Generic Action - Attack,,,,No,M,,,Federico Musetti,,MST192,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png,,,,,,,,,,,,,,,,,,,,,
 MST193,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST193,,,,,,,,,,,,,,,,,,,,,,
 MST194,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST194,,,,,,,,,,,,,,,,,,,,,,
@@ -481,18 +499,22 @@ MST228,MST,Evo Recall,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Head",Ar
 
 When this is equipped, put up to 1 Mechanologist action card from your banished zone on top of your deck.
 
-Arcane Barrier 1",Mechanologist Instant Equipment - Evo Head,,,,No,M,,,Federico Musetti,,MST228,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST228.png,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Head,,,,No,M,,,Federico Musetti,,MST228,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST228.png,,,,,,,,,,,,,,,,,,,,,
 MST229,MST,Evo Heartdrive,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Chest",Arcane Barrier 1,,,,,,"If you have a base chest equipped, transform it into this, then equip this.
 
 When this is equipped, the next attack action card you play this turn costs {r} less to play.
 
-Arcane Barrier 1",Mechanologist Instant Equipment - Evo Chest,,,,No,M,,,Federico Musetti,,MST229,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST229.png,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Chest,,,,No,M,,,Federico Musetti,,MST229,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST229.png,,,,,,,,,,,,,,,,,,,,,
 MST230,MST,Evo Shortcircuit,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Arms",Arcane Barrier 1,,,,,,"If you have a base arms equipped, transform it into this, then equip this.
 
 When this is equipped, deal 1 damage to any target.
 
-Arcane Barrier 1",Mechanologist Instant Equipment - Evo Arms,,,,No,M,,,Federico Musetti,,MST230,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST230.png,,,,,,,,,,,,,,,,,,,,,
-MST231,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST231,,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Arms,,,,No,M,,,Federico Musetti,,MST230,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST230.png,,,,,,,,,,,,,,,,,,,,,
+MST231,MST,Evo Speedslip,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Legs",Arcane Barrier 1,,,,,,"If you have a base legs equipped, transform it into this, then equip this.
+
+When this is equipped, the next attack action card you play this turn gets boost.
+
+Arcane Barrier 1",Mechanologist Instant Equipment - Evo Legs,,,,No,M,,,Federico Musetti,,MST231,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST231.png,,,,,,,,,,,,,,,,,,,,,
 MST232,MST,Longdraw Half-glove,,,,1,,,"Ranger, Equipment, Arms",Battleworn,Instant,,,,,"**Instant** - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.
 
 **Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Maerel Hibadita,,MST232,/MST232.png,,,,,,,,,,,,,,,,,,,,,
