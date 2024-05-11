@@ -332,7 +332,9 @@ MST126,MST,Mind's Desire,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**St
 When this hits a hero, banish the top card of their deck.
 
 Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST126,/MST126.png,,,,,,,,,,,,,,,,,,,,,
-MST127,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST127,,,,,,,,,,,,,,,,,,,,,,
+MST127,MST,Pick to Pieces,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST127,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST127.png,,,,,,,,,,,,,,,,,,,,,
 MST128,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST128,,,,,,,,,,,,,,,,,,,,,,
 MST129,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST129,,,,,,,,,,,,,,,,,,,,,,
 MST130,MST,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,T,,,Asur Misoa,,MST130,/MST130.png,,,,,,,,,,,,,,,,,,,,,
@@ -514,7 +516,7 @@ MST231,MST,Evo Speedslip,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Legs"
 
 When this is equipped, the next attack action card you play this turn gets boost.
 
-Arcane Barrier 1",Mechanologist Instant Equipment - Evo Legs,,,,No,M,,,Federico Musetti,,MST231,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST231.png,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Legs,,,,No,M,,,Federico Musetti,,MST231,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST231.png,,,,,,,,,,,,,,,,,,,,,
 MST232,MST,Longdraw Half-glove,,,,1,,,"Ranger, Equipment, Arms",Battleworn,Instant,,,,,"**Instant** - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.
 
 **Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Maerel Hibadita,,MST232,/MST232.png,,,,,,,,,,,,,,,,,,,,,
