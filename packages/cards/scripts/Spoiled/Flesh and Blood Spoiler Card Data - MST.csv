@@ -88,9 +88,9 @@ MST045,MST,Waxing Specter,3,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward 1,,,
 **Ward 1**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST045,/MST045.png,,,,,,,,,,,,,,,,,,,,,
 MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,MST046,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,,/MST046_Back.png,M,,,Lius Lasahido,,MST046,/MST046.png,,,,,,,
 MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,MST047,/MST047_V2.png,V,C,FA,Lius Lasahido,,,/MST047_Back.png,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,
-MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blade Break,,,,,,"Whenever you transcend, you may gain {r}.
+MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blade Break,Instant,,,,Transcend,"Whenever you **transcend**, you may gain {r}.
 
-**Instant** - {c}{c}{c}, destroy this: Create a Zen State token.
+**Instant** - {b}{b}{b}, destroy this: Create a Zen State token.
 
 **Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,,,,,,,,,,,,,,,,,,,,,
 MST049,MST,Heirloom of Tiger Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,
@@ -195,7 +195,7 @@ MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**L
 Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,
 MST081,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST081,,,,,,,,,,,,,,,,,,,,,,
 MST082,MST,Second Tenet of Chi: Tide,3,,,,,,,,,,,,,,,,,,No,R,,,Tomasz Jedruszek,,MST082,/MST082.png,,,,,,,,,,,,,,,,,,,,,
-MST083,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST083,,,,,,,,,,,,,,,,,,,,,,
+MST083,MST,Second Tenet of Chi: Wind,3,3,5,3,,,"Mystic, Action, Attack","Transcend, Go again",,,,,,"If you've **transcended** this turn, this gets **go again**.",Mystic Action - Attack,,,,No,R,,,Rio Sabda,,MST083,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png,,,,,,,,,,,,,,,,,,,,,
 MST084,MST,Deep Blue Sea,3,,,,,,,,,,,,,,,,,,No,R,,,Carlos Cruchaga,,MST084,/MST084.png,,,,,,,,,,,,,,,,,,,,,
 MST085,MST,Wide Blue Yonder,3,,,,,,,,,,,,,,,,,,No,R,,,Sebastian Giacobino,,MST085,/MST085.png,,,,,,,,,,,,,,,,,,,,,
 MST086,MST,Big Blue Sky,3,,,,,,,,,,,,,,,,,,No,R,,,Reza Afshar,,MST086,/MST086.png,,,,,,,,,,,,,,,,,,,,,
