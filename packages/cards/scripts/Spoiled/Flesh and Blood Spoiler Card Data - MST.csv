@@ -1,5 +1,5 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Identifier 3,Image URL 3,Rarity 4,Foiling 4,Art Variation 4,Artist 4,Flavor Text 4,Identifier 4,Image URL 4
-MST000,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST000,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST000,,,,,,,,,,,,,,,,,,,,,,
 MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this.""
 
 **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_Back.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
@@ -91,7 +91,7 @@ MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,C
 MST048,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST048,,,,,,,,,,,,,,,,,,,,,,
 MST049,MST,Heirloom of Tiger Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,
 MST050,MST,Stride of Reprisal,,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,MST050,/MST050.png,,,,,,,,,,,,,,,,,,,,,
-MST051,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST051,,,,,,,,,,,,,,,,,,,,,,
+MST051,MST,Tooth and Claw,1,0,4,3,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets **go again**. 2 or more, this gets +1{p}. 3 or more, draw a card.",Mystic Ninja Action - Attack,,,,No,M,,,Sam Yang,,MST051,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png,,,,,,,,,,,,,,,,,,,,,
 MST052,MST,Shifting Winds of the Mystic Beast,3,1,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"Whenever you play a Crouching Tiger this turn, name a card. It gets that name.
 
 If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
