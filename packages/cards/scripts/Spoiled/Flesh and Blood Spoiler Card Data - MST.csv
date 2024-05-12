@@ -208,7 +208,9 @@ MST092,MST,First Tenet of Chi: Moon,3,,,,,,,,,,,,,,,,,,,C,,,Carlos Cruchaga,,MST
 MST093,MST,First Tenet of Chi: Tide,3,0,,3,,,"Mystic, Action",Go again,,,,,,"Your next blue attack this turn gets +2{p}.
 
 **Go again**",Mystic Action,,,,,C,,,Tomasz Jedruszek,,MST093,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST093.png,,,,,,,,,,,,,,,,,,,,,
-MST094,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST094,,,,,,,,,,,,,,,,,,,,,,
+MST094,MST,First Tenet of Chi: Wind,3,0,,3,,,"Mystic, Action",Go again,,,,,,"The next blue action card you play this turn gets **go again**.
+
+Go again",Mystic Action,,,,,C,,,Rio Sabda,,MST094,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST094.png,,,,,,,,,,,,,,,,,,,,,
 MST095,MST,A Drop in the Ocean,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Target attack gets -1{p}.
