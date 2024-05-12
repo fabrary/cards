@@ -89,8 +89,8 @@ export const abbreviations: Abbreviation[] = [
     card: "Celestial Cataclysm",
   },
   {
-    abbreviations: ["CtW"],
-    card: "Crush the Weak",
+    abbreviations: ["Cat", "Kitty"],
+    card: "Crouching Tiger",
   },
   {
     abbreviations: ["CoD"],
@@ -99,6 +99,10 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["CoP"],
     card: "Crown of Providence",
+  },
+  {
+    abbreviations: ["CtW"],
+    card: "Crush the Weak",
   },
   {
     abbreviations: ["DD"],
@@ -235,6 +239,10 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["SFaF", "S4aS"],
     card: "Scar for a Scar",
+  },
+  {
+    abbreviations: ["SWOMB"],
+    card: "Shifting Winds of the Mystic Beast",
   },
   {
     abbreviations: ["SWK"],
