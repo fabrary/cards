@@ -180,7 +180,10 @@ MST074,MST,Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs",Cloaked,Instant,,,,,
 **Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,Alief Rusdiatama,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,
 MST075,MST,Attune with Cosmic Vibrations,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.",Mystic Action - Attack,,,,No,M,,,Carlos Cruchaga,,MST075,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png,,,,,,,,,,,,,,,,,,,,,
 MST076,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST076,,,,,,,,,,,,,,,,,,,,,,
-MST077,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST077,,,,,,,,,,,,,,,,,,,,,,
+MST077,MST,Levels of Enlightenment,3,1,3,3,,,"Mystic, Action, Attack",Go again,,,,,,"When this attacks, choose 1 for each blue card you've pitched this turn;
+- Draw a card.
+- This gets +2{p}.
+- This gets **go again**.",Mystic Action - Attack,,,,No,M,,,Daria Khlebnikova,,MST077,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png,,,,,,,,,,,,,,,,,,,,,
 MST078,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST078,,,,,,,,,,,,,,,,,,,,,,
 MST079,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST079,,,,,,,,,,,,,,,,,,,,,,
 MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
@@ -444,7 +447,7 @@ MST172,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST172,,,,,,,,,,,,,,,,,,,,,,
 MST173,MST,Biting Breeze,1,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST173,/MST173.png,,,,,,,,,,,,,,,,,,,,,
 MST174,MST,Biting Breeze,2,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST174,/MST174.png,,,,,,,,,,,,,,,,,,,,,
 MST175,MST,Biting Breeze,3,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST175,/MST175.png,,,,,,,,,,,,,,,,,,,,,
-MST176,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST176,,,,,,,,,,,,,,,,,,,,,,
+MST176,MST,Breed Anger,1,1,4,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,C,,,Marco González,,MST176,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST176.png,,,,,,,,,,,,,,,,,,,,,
 MST177,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST177,,,,,,,,,,,,,,,,,,,,,,
 MST178,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST178,,,,,,,,,,,,,,,,,,,,,,
 MST179,MST,Flex Claws,1,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST179,/MST179.png,,,,,,,,,,,,,,,,,,,,,
