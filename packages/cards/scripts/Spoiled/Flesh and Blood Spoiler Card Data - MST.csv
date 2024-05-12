@@ -88,7 +88,11 @@ MST045,MST,Waxing Specter,3,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward 1,,,
 **Ward 1**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST045,/MST045.png,,,,,,,,,,,,,,,,,,,,,
 MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,MST046,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,,/MST046_Back.png,M,,,Lius Lasahido,,MST046,/MST046.png,,,,,,,
 MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,MST047,/MST047_V2.png,V,C,FA,Lius Lasahido,,,/MST047_Back.png,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,
-MST048,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST048,,,,,,,,,,,,,,,,,,,,,,
+MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blade Break,,,,,,"Whenever you transcend, you may gain {r}.
+
+**Instant** - {c}{c}{c}, destroy this: Create a Zen State token.
+
+**Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,,,,,,,,,,,,,,,,,,,,,
 MST049,MST,Heirloom of Tiger Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,
 MST050,MST,Stride of Reprisal,,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,MST050,/MST050.png,,,,,,,,,,,,,,,,,,,,,
 MST051,MST,Tooth and Claw,1,0,4,3,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets **go again**. 2 or more, this gets +1{p}. 3 or more, draw a card.",Mystic Ninja Action - Attack,,,,No,M,,,Sam Yang,,MST051,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png,,,,,,,,,,,,,,,,,,,,,
@@ -431,7 +435,6 @@ MST159,MST,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,T,,,Joseph Qiu,,MST159,/MST1
 MST160,MST,Mask of Wizened Whiskers,,,,,,,,,,,,,,,,,,,,C,,,Daniel Jiménez,,MST160,/MST160.png,,,,,,,,,,,,,,,,,,,,,
 MST161,MST,Chase the Tail,1,1,4,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and the next Crouching Tiger you play this combat chain gets +3{p}.",Ninja Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST161,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png,,,,,,,,,,,,,,,,,,,,,
 MST162,MST,Maul,2,0,,3,,,"Ninja, Attack Reaction",,,,,,,"Choose 1 or both;
-
 - Target attack action card with 1 or less base {p} gets +3{p}.
 - Target Crouching Tiger gets ""When this hits, create 2 Crouching Tigers in your banished zone. You may play them this turn.""",Ninja Attack Reaction,,,,No,M,,,Faizal Fikri,,MST162,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST162.png,,,,,,,,,,,,,,,,,,,,,
 MST163,MST,Territorial Domain,3,0,,2,,,"Ninja, Defense Reaction",,,,,,,"While this is defending, if you've created a Crouching Tiger this turn, this gets +3{d}.",Ninja Defense Reaction,,,,No,M,,,Tomasz Jedruszek,,MST163,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST163.png,,,,,,,,,,,,,,,,,,,,,
