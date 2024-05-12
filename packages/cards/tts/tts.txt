@@ -3949,6 +3949,7 @@ OSCCardDB = {
   ["MST188"] = { name = "Crouching Tiger", text = "**Ephemeral**\n\n**Go again**", keywords = "Ephemeral,Go again", types = "Action"},
   ["MST191"] = { name = "Rowdy Locals (3)", text = "If this is defended by an action card, this gets +2{p}.\n\nWhen this hits a hero, discard a card. If you do, they discard a card.", keywords = "", types = "Action"},
   ["MST192"] = { name = "The Weakest Link (1)", text = "When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card.", keywords = "", types = "Action"},
+  ["MST199"] = { name = "Emissary of Wind (1)", text = "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets **go again**.", keywords = "Go again", types = "Action"},
   ["MST200"] = { name = "Gravekeeping (1)", text = "When this attacks a hero, you may banish a card from their graveyard.", keywords = "", types = "Action"},
   ["MST201"] = { name = "Gravekeeping (2)", text = "When this attacks a hero, you may banish a card from their graveyard.", keywords = "", types = "Action"},
   ["MST202"] = { name = "Gravekeeping (3)", text = "When this attacks a hero, you may banish a card from their graveyard.", keywords = "", types = "Action"},
