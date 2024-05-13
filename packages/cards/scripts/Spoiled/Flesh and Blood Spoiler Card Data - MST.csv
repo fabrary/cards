@@ -92,7 +92,7 @@ MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blad
 
 **Instant** - {b}{b}{b}, destroy this: Create a Zen State token.
 
-**Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,L,C,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,,,,,,,,,,,,,,
 MST049,MST,Heirloom of Tiger Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,
 MST050,MST,Stride of Reprisal,,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,MST050,/MST050.png,,,,,,,,,,,,,,,,,,,,,
 MST051,MST,Tooth and Claw,1,0,4,3,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets **go again**. 2 or more, this gets +1{p}. 3 or more, draw a card.",Mystic Ninja Action - Attack,,,,No,M,,,Sam Yang,,MST051,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png,,,,,,,,,,,,,,,,,,,,,
@@ -483,7 +483,7 @@ MST193,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST193,,,,,,,,,,,,,,,,,,,,,,
 MST194,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST194,,,,,,,,,,,,,,,,,,,,,,
 MST195,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST195,,,,,,,,,,,,,,,,,,,,,,
 MST196,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST196,,,,,,,,,,,,,,,,,,,,,,
-MST197,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST197,,,,,,,,,,,,,,,,,,,,,,
+MST197,MST,Emissary of Moon,1,0,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",Generic Action - Attack,,,,No,R,,,Isuardi Therianto,,MST197,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png,,,,,,,,,,,,,,,,,,,,,
 MST198,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST198,,,,,,,,,,,,,,,,,,,,,,
 MST199,MST,Emissary of Wind,1,0,4,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets **go again**.",Generic Action - Attack,,,,No,R,,,soyameii,,MST199,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png,,,,,,,,,,,,,,,,,,,,,
 MST200,MST,Gravekeeping,1,1,5,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,MST200,/MST200.png,,,,,,,,,,,,,,,,,,,,,
