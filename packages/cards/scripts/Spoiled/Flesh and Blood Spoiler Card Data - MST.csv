@@ -195,7 +195,7 @@ MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**L
 Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,
 MST081,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST081,,,,,,,,,,,,,,,,,,,,,,
 MST082,MST,Second Tenet of Chi: Tide,3,,,,,,,,,,,,,,,,,,No,R,,,Tomasz Jedruszek,,MST082,/MST082.png,,,,,,,,,,,,,,,,,,,,,
-MST083,MST,Second Tenet of Chi: Wind,3,3,5,3,,,"Mystic, Action, Attack","Transcend, Go again",,,,,,"If you've **transcended** this turn, this gets **go again**.",Mystic Action - Attack,,,,No,R,,,Rio Sabda,,MST083,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png,,,,,,,,,,,,,,,,,,,,,
+MST083,MST,Second Tenet of Chi: Wind,3,3,5,3,,,"Mystic, Action, Attack",Go again,,,,,Transcend,"If you've **transcended** this turn, this gets **go again**.",Mystic Action - Attack,,,,No,R,,,Rio Sabda,,MST083,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png,,,,,,,,,,,,,,,,,,,,,
 MST084,MST,Deep Blue Sea,3,,,,,,,,,,,,,,,,,,No,R,,,Carlos Cruchaga,,MST084,/MST084.png,,,,,,,,,,,,,,,,,,,,,
 MST085,MST,Wide Blue Yonder,3,,,,,,,,,,,,,,,,,,No,R,,,Sebastian Giacobino,,MST085,/MST085.png,,,,,,,,,,,,,,,,,,,,,
 MST086,MST,Big Blue Sky,3,,,,,,,,,,,,,,,,,,No,R,,,Reza Afshar,,MST086,/MST086.png,,,,,,,,,,,,,,,,,,,,,
@@ -208,7 +208,7 @@ MST092,MST,First Tenet of Chi: Moon,3,,,,,,,,,,,,,,,,,,,C,,,Carlos Cruchaga,,MST
 MST093,MST,First Tenet of Chi: Tide,3,0,,3,,,"Mystic, Action",Go again,,,,,,"Your next blue attack this turn gets +2{p}.
 
 **Go again**",Mystic Action,,,,,C,,,Tomasz Jedruszek,,MST093,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST093.png,,,,,,,,,,,,,,,,,,,,,
-MST094,MST,First Tenet of Chi: Wind,3,0,,3,,,"Mystic, Action",Go again,,,,,,"The next blue action card you play this turn gets **go again**.
+MST094,MST,First Tenet of Chi: Wind,3,0,,3,,,"Mystic, Action",Go again,,,Go again,,,"The next blue action card you play this turn gets **go again**.
 
 Go again",Mystic Action,,,,,C,,,Rio Sabda,,MST094,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST094.png,,,,,,,,,,,,,,,,,,,,,
 MST095,MST,A Drop in the Ocean,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
@@ -371,8 +371,10 @@ MST129,MST,Pick to Pieces,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**S
 
 If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST129,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST129.png,,,,,,,,,,,,,,,,,,,,,
 MST130,MST,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,T,,,Asur Misoa,,MST130,/MST130.png,,,,,,,,,,,,,,,,,,,,,
-MST131,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST131,,,,,,,,,,,,,,,,,,,,,,
-MST132,MST,Rage Specter,3,2,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this enters the arena, if you control no other Illusionist auras, gain 1 action point.
+MST131,MST,"10,000 Year Reunion",1,8,,3,,,"Illusionist, Action, Aura",Ward 10,,,,,,"You may remove three +1{p} counters from among auras you control rather than pay 10,000 Year Reunion's {r} cost.
+
+**Ward 10**",Illusionist Action - Aura,,,,No,M,,,Faizal Fikri,,MST131,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST131.png,,,,,,,,,,,,,,,,,,,,,
+MST132,MST,Rage Specter,3,2,,3,,,"Illusionist, Action, Aura","Ward 1, Ward 6",,,,,,"When this enters the arena, if you control no other Illusionist auras, gain 1 action point.
 
 During your turn, this has **ward 6**. Otherwise, this has **ward 1**.",Illusionist Action - Aura,,,,No,M,,,Simon Dominic,,MST132,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST132.png,,,,,,,,,,,,,,,,,,,,,
 MST133,MST,Restless Coalescence,2,0,,,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, move any number of +1{p} counters from auras you control onto this.
@@ -482,7 +484,7 @@ MST188,MST,Crouching Tiger,,0,0,,,,"Ninja, Action, Attack","Ephemeral, Go again"
 MST189,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST189,,,,,,,,,,,,,,,,,,,,,,
 MST190,MST,Stonewall Gauntlet,,,,1,,,"Generic, Equipment, Arms",Blade Break,,,,,,"When this defends an attack with {p} greater than its base, opposing attacks get -1{p} this combat chain.
 
-**Blade Break**",Generic Equipment - Arms,,,,No,L,,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Generic Equipment - Arms,,,,No,L,R,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,L,C,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,,,,,,,,,,,,,,
 MST191,MST,Rowdy Locals,3,0,2,3,,,"Generic, Action, Attack",,,,,,,"If this is defended by an action card, this gets +2{p}.
 
 When this hits a hero, discard a card. If you do, they discard a card.",Generic Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST191,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png,,,,,,,,,,,,,,,,,,,,,

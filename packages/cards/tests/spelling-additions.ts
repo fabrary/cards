@@ -10,6 +10,7 @@ export const fabDictionaryIgnore = [
 ];
 
 export const fabDictionary = [
+  "10000",
   "aeo",
   "aesir",
   "aetherize",
