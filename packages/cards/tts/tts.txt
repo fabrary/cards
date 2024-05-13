@@ -3855,6 +3855,7 @@ OSCCardDB = {
   ["MST074"] = { name = "Skywalker Keikoi", text = "**Cloaked**\n\n**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.", keywords = "Cloaked", types = "Equipment"},
   ["MST075"] = { name = "Attune with Cosmic Vibrations (3)", text = "When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.", keywords = "", types = "Action"},
   ["MST077"] = { name = "Levels of Enlightenment (3)", text = "When this attacks, choose 1 for each blue card you've pitched this turn;\n- Draw a card.\n- This gets +2{p}.\n- This gets **go again**.", keywords = "Go again", types = "Action"},
+  ["MST078"] = { name = "Unravel Aggression (3)", text = "If a Chi was pitched to play this, draw a card.", keywords = "", types = "Defense Reaction"},
   ["MST080"] = { name = "Orihon of Mystic Tenets (3)", text = "**Legendary**\n\nDraw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.", keywords = "Legendary", types = "Instant"},
   ["MST082"] = { name = "Second Tenet of Chi: Tide (3)", text = "If you've **transcended** this turn, this gets +2{p}.", keywords = "Transcend", types = "Action"},
   ["MST083"] = { name = "Second Tenet of Chi: Wind (3)", text = "If you've **transcended** this turn, this gets **go again**.", keywords = "Go again", types = "Action"},

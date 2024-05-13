@@ -21,6 +21,10 @@ export const getAbbreviationByCard = (c: Card): Abbreviation | undefined => {
 
 export const abbreviations: Abbreviation[] = [
   {
+    abbreviations: ["10k"],
+    card: "10,000 Year Reunion",
+  },
+  {
     abbreviations: ["3oak"],
     card: "Three of a Kind",
   },
