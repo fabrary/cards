@@ -56,7 +56,9 @@ MST024,MST,Slither,,,,,,,,,,,,,,,,,,,,T,,,Mario Wibisono,,MST024,/MST024.png,,,,
 
 **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,MST025,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,V,C,FA,Asur Misoa,,MST025,/MST025_Back.png,P,R,,Kanadekana,,HER116,/HER116.png,M,,,Asur Misoa,,MST025,/MST025.png
 MST026,MST,Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,Once per Turn Instant,,,,,Your first Spectral Shield attack each turn costs {r} less to activate. **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.,Mystic Illusionist Hero - Young,,,No,,V,C,,Asur Misoa,,MST026,/MST026_V2.png,V,C,FA,Asur Misoa,,,/MST026_Back.png,T,,,Asur Misoa,,MST026,/MST026.png,,,,,,,
-MST027,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST027,,,,,,,,,,,,,,,,,,,,,,
+MST027,MST,Meridian Pathway,,,,,,,"Mystic, Illusionist, Equipment, Legs",Ward 3,,,,,,"**Instant** - {c}{c}{c}: You may play auras this turn as though they were instants.
+
+Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.",Mystic Illusionist Equipment - Legs,,,,No,L,R,,Mario Wibisono,,MST027,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST027.png,,,,,,,,,,,,,,,,,,,,,
 MST028,MST,Heirloom of Rabbit Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST028,/MST028.png,,,,,,,,,,,,,,,,,,,,,
 MST029,MST,Truths Retold,,,,,,,,,,,,,,,,,,,,C,,,MJ Fetesio,,MST029,/MST029.png,,,,,,,,,,,,,,,,,,,,,
 MST030,MST,Uphold Tradition,,,,,,,,,,,,,,,,,,,,C,,,Kelvin Jauwri,,MST030,/MST030.png,,,,,,,,,,,,,,,,,,,,,
@@ -94,7 +96,7 @@ MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blad
 
 **Instant** - {b}{b}{b}, destroy this: Create a Zen State token.
 
-**Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,L,C,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,,,,,,,,,,,,,,
+**Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,L,C,EA,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048_V2.png,,,,,,,,,,,,,,
 MST049,MST,Heirloom of Tiger Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,
 MST050,MST,Stride of Reprisal,,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,MST050,/MST050.png,,,,,,,,,,,,,,,,,,,,,
 MST051,MST,Tooth and Claw,1,0,4,3,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets **go again**. 2 or more, this gets +1{p}. 3 or more, draw a card.",Mystic Ninja Action - Attack,,,,No,M,,,Sam Yang,,MST051,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png,,,,,,,,,,,,,,,,,,,,,
