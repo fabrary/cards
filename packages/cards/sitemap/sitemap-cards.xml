@@ -391,6 +391,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/second-tenet-of-chi-moon-blue</loc>
+    <lastmod>2024-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/second-tenet-of-chi-tide-blue</loc>
     <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>
@@ -872,6 +877,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/crouching-tiger</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/zen-state</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -14957,11 +14967,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/zealous-belting-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/zen-state</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>

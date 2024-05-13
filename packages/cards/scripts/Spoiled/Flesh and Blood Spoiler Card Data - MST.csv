@@ -197,7 +197,7 @@ MST079,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST079,,,,,,,,,,,,,,,,,,,,,,
 MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
 
 Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,
-MST081,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST081,,,,,,,,,,,,,,,,,,,,,,
+MST081,MST,Second Tenet of Chi: Moon,3,3,5,3,,,"Mystic, Action, Attack",Transcend,,,,,,"If you've **transcended** this turn, this gets ""When this chain link resolves, draw a card.""",Mystic Action - Attack,,,,No,R,,,Carlos Cruchaga,,MST081,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST081.png,,,,,,,,,,,,,,,,,,,,,
 MST082,MST,Second Tenet of Chi: Tide,3,,,,,,,,,,,,,,,,,,No,R,,,Tomasz Jedruszek,,MST082,/MST082.png,,,,,,,,,,,,,,,,,,,,,
 MST083,MST,Second Tenet of Chi: Wind,3,3,5,3,,,"Mystic, Action, Attack",Go again,,,,,Transcend,"If you've **transcended** this turn, this gets **go again**.",Mystic Action - Attack,,,,No,R,,,Rio Sabda,,MST083,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png,,,,,,,,,,,,,,,,,,,,,
 MST084,MST,Deep Blue Sea,3,,,,,,,,,,,,,,,,,,No,R,,,Carlos Cruchaga,,MST084,/MST084.png,,,,,,,,,,,,,,,,,,,,,
@@ -485,7 +485,7 @@ MST187,MST,Untamed,3,1,2,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this at
 MST188,MST,Crouching Tiger,,0,0,,,,"Ninja, Action, Attack","Ephemeral, Go again",,,,,,"**Ephemeral**
 
 **Go again**",Ninja Action - Attack,,,,,T,,,Carlos Cruchaga,,MST188,/MST188.png,,,,,,,,,,,,,,,,,,,,,
-MST189,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST189,,,,,,,,,,,,,,,,,,,,,,
+MST189,MST,Zen State,,,,,,,,,,,,,,,,,,,,T,,,Jessada Sutthi,,MST189,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST189.png,,,,,,,,,,,,,,,,,,,,,
 MST190,MST,Stonewall Gauntlet,,,,1,,,"Generic, Equipment, Arms",Blade Break,,,,,,"When this defends an attack with {p} greater than its base, opposing attacks get -1{p} this combat chain.
 
 **Blade Break**",Generic Equipment - Arms,,,,No,L,R,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,L,C,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,,,,,,,,,,,,,,
