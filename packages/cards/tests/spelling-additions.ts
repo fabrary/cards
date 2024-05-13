@@ -183,6 +183,7 @@ export const fabDictionary = [
   "kyloria",
   "legplates",
   "levia",
+  "leyline",
   "liquidcooled",
   "livewire",
   "lockwave",
