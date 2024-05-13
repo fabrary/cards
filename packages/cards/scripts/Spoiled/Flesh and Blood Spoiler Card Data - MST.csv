@@ -60,7 +60,9 @@ MST027,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST027,,,,,,,,,,,,,,,,,,,,,,
 MST028,MST,Heirloom of Rabbit Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST028,/MST028.png,,,,,,,,,,,,,,,,,,,,,
 MST029,MST,Truths Retold,,,,,,,,,,,,,,,,,,,,C,,,MJ Fetesio,,MST029,/MST029.png,,,,,,,,,,,,,,,,,,,,,
 MST030,MST,Uphold Tradition,,,,,,,,,,,,,,,,,,,,C,,,Kelvin Jauwri,,MST030,/MST030.png,,,,,,,,,,,,,,,,,,,,,
-MST031,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST031,,,,,,,,,,,,,,,,,,,,,,
+MST031,MST,Manifestation of Miragai,3,3,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"This enters the arena with two +1{p} counters. If a Chi was pitched to play this, instead this enters the arena with four +1{p} counters.
+
+**Ward X**, where X is the number of +1{p} counters on this.",Mystic Illusionist Instant - Aura,,,,No,M,,,Carlos Cruchaga,,MST031,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031.png,,,,,,,,,,,,,,,,,,,,,
 "MST032, FAB234","MST, FAB",Sacred Art: Immortal Lunar Shrine,3,3,,,,,"Mystic, Illusionist, Instant","Legendary, Transcend",,,,,Ward,"**Legendary**
 
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
