@@ -480,7 +480,9 @@ MST188,MST,Crouching Tiger,,0,0,,,,"Ninja, Action, Attack","Ephemeral, Go again"
 
 **Go again**",Ninja Action - Attack,,,,,T,,,Carlos Cruchaga,,MST188,/MST188.png,,,,,,,,,,,,,,,,,,,,,
 MST189,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST189,,,,,,,,,,,,,,,,,,,,,,
-MST190,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST190,,,,,,,,,,,,,,,,,,,,,,
+MST190,MST,Stonewall Gauntlet,,,,1,,,"Generic, Equipment, Arms",Blade Break,,,,,,"When this defends an attack with {p} greater than its base, opposing attacks get -1{p} this combat chain.
+
+**Blade Break**",Generic Equipment - Arms,,,,No,L,,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,,,,,,,,,,,,,,,,,,,,,
 MST191,MST,Rowdy Locals,3,0,2,3,,,"Generic, Action, Attack",,,,,,,"If this is defended by an action card, this gets +2{p}.
 
 When this hits a hero, discard a card. If you do, they discard a card.",Generic Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST191,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png,,,,,,,,,,,,,,,,,,,,,

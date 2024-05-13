@@ -3958,6 +3958,7 @@ OSCCardDB = {
   ["MST186"] = { name = "Untamed (2)", text = "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["MST187"] = { name = "Untamed (3)", text = "When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["MST188"] = { name = "Crouching Tiger", text = "**Ephemeral**\n\n**Go again**", keywords = "Ephemeral,Go again", types = "Action"},
+  ["MST190"] = { name = "Stonewall Gauntlet", text = "When this defends an attack with {p} greater than its base, opposing attacks get -1{p} this combat chain.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["MST191"] = { name = "Rowdy Locals (3)", text = "If this is defended by an action card, this gets +2{p}.\n\nWhen this hits a hero, discard a card. If you do, they discard a card.", keywords = "", types = "Action"},
   ["MST192"] = { name = "The Weakest Link (1)", text = "When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card.", keywords = "", types = "Action"},
   ["MST197"] = { name = "Emissary of Moon (1)", text = "When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card.", keywords = "", types = "Action"},
