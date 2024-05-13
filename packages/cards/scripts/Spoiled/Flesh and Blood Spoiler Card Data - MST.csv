@@ -372,7 +372,9 @@ MST129,MST,Pick to Pieces,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**S
 If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST129,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST129.png,,,,,,,,,,,,,,,,,,,,,
 MST130,MST,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,T,,,Asur Misoa,,MST130,/MST130.png,,,,,,,,,,,,,,,,,,,,,
 MST131,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST131,,,,,,,,,,,,,,,,,,,,,,
-MST132,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST132,,,,,,,,,,,,,,,,,,,,,,
+MST132,MST,Rage Specter,3,2,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this enters the arena, if you control no other Illusionist auras, gain 1 action point.
+
+During your turn, this has **ward 6**. Otherwise, this has **ward 1**.",Illusionist Action - Aura,,,,No,M,,,Simon Dominic,,MST132,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST132.png,,,,,,,,,,,,,,,,,,,,,
 MST133,MST,Restless Coalescence,2,0,,,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, move any number of +1{p} counters from auras you control onto this.
 
 **Once per Turn Instant** - Remove a +1{p} counter from this: Create a Spectral Shield token.
