@@ -187,7 +187,11 @@ MST074,MST,Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs",Cloaked,Instant,,,,,
 
 **Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,Alief Rusdiatama,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,
 MST075,MST,Attune with Cosmic Vibrations,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.",Mystic Action - Attack,,,,No,M,,,Carlos Cruchaga,,MST075,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png,,,,,,,,,,,,,,,,,,,,,
-MST076,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST076,,,,,,,,,,,,,,,,,,,,,,
+MST076,MST,Cosmic Awakening,3,9,*,3,,,"Mystic, Action, Attack",,,,,,,"If 1 Chi was pitched to play this, Cosmic Awakening's {p} is 10.
+
+If 2 Chi were pitched to play this, Cosmic Awakening's {p} is 15.
+
+If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.",Mystic Action - Attack,,,,No,M,,,Olga Tereshenko,,MST076,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST076.png,,,,,,,,,,,,,,,,,,,,,
 MST077,MST,Levels of Enlightenment,3,1,3,3,,,"Mystic, Action, Attack",Go again,,,,,,"When this attacks, choose 1 for each blue card you've pitched this turn;
 - Draw a card.
 - This gets +2{p}.
