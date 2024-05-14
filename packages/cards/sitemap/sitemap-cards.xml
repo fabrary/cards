@@ -686,6 +686,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/haunting-specter-red</loc>
+    <lastmod>2024-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/haunting-specter-yellow</loc>
+    <lastmod>2024-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/haunting-specter-blue</loc>
+    <lastmod>2024-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/single-minded-determination-red</loc>
     <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>

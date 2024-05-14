@@ -19,7 +19,7 @@ describe("Related cards", () => {
     ["Open the Center", 2, 4, 3],
     ["Prismatic Shield", 2, 0, 1],
     ["Runechant", 0, 88, 0],
-    ["Spectral Shield", 0, 49, 0],
+    ["Spectral Shield", 0, 52, 0],
     ["Tales of Adventure", 0, 0, 13],
     ["Seismic Surge", 0, 19, 0],
   ];

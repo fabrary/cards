@@ -56,7 +56,7 @@ MST024,MST,Slither,,,,,,,,,,,,,,,,,,,,T,,,Mario Wibisono,,MST024,/MST024.png,,,,
 
 **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,MST025,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,V,C,FA,Asur Misoa,,MST025,/MST025_Back.png,P,R,,Kanadekana,,HER116,/HER116.png,M,,,Asur Misoa,,MST025,/MST025.png
 MST026,MST,Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,Once per Turn Instant,,,,,Your first Spectral Shield attack each turn costs {r} less to activate. **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.,Mystic Illusionist Hero - Young,,,No,,V,C,,Asur Misoa,,MST026,/MST026_V2.png,V,C,FA,Asur Misoa,,,/MST026_Back.png,T,,,Asur Misoa,,MST026,/MST026.png,,,,,,,
-MST027,MST,Meridian Pathway,,,,,,,"Mystic, Illusionist, Equipment, Legs",Ward 3,,,,,,"**Instant** - {c}{c}{c}: You may play auras this turn as though they were instants.
+MST027,MST,Meridian Pathway,,,,,,,"Mystic, Illusionist, Equipment, Legs",Ward 3,Instant,,,,,"**Instant** - {c}{c}{c}: You may play auras this turn as though they were instants.
 
 Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.",Mystic Illusionist Equipment - Legs,,,,No,L,R,,Mario Wibisono,,MST027,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST027.png,,,,,,,,,,,,,,,,,,,,,
 MST028,MST,Heirloom of Rabbit Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST028,/MST028.png,,,,,,,,,,,,,,,,,,,,,
@@ -94,7 +94,7 @@ MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn
 MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,MST047,/MST047_V2.png,V,C,FA,Lius Lasahido,,,/MST047_Back.png,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,
 MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blade Break,Instant,,,,Transcend,"Whenever you **transcend**, you may gain {r}.
 
-**Instant** - {b}{b}{b}, destroy this: Create a Zen State token.
+**Instant** - {c}{c}{c}, destroy this: Create a Zen State token.
 
 **Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,L,C,EA,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048_V2.png,,,,,,,,,,,,,,
 MST049,MST,Heirloom of Tiger Hide,,,,,,,,,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,
@@ -201,7 +201,7 @@ MST079,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST079,,,,,,,,,,,,,,,,,,,,,,
 MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
 
 Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,
-MST081,MST,Second Tenet of Chi: Moon,3,3,5,3,,,"Mystic, Action, Attack",Transcend,,,,,,"If you've **transcended** this turn, this gets ""When this chain link resolves, draw a card.""",Mystic Action - Attack,,,,No,R,,,Carlos Cruchaga,,MST081,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST081.png,,,,,,,,,,,,,,,,,,,,,
+MST081,MST,Second Tenet of Chi: Moon,3,3,5,3,,,"Mystic, Action, Attack",,,,,,Transcend,"If you've **transcended** this turn, this gets ""When this chain link resolves, draw a card.""",Mystic Action - Attack,,,,No,R,,,Carlos Cruchaga,,MST081,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST081.png,,,,,,,,,,,,,,,,,,,,,
 MST082,MST,Second Tenet of Chi: Tide,3,,,,,,,,,,,,,,,,,,No,R,,,Tomasz Jedruszek,,MST082,/MST082.png,,,,,,,,,,,,,,,,,,,,,
 MST083,MST,Second Tenet of Chi: Wind,3,3,5,3,,,"Mystic, Action, Attack",Go again,,,,,Transcend,"If you've **transcended** this turn, this gets **go again**.",Mystic Action - Attack,,,,No,R,,,Rio Sabda,,MST083,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png,,,,,,,,,,,,,,,,,,,,,
 MST084,MST,Deep Blue Sea,3,,,,,,,,,,,,,,,,,,No,R,,,Carlos Cruchaga,,MST084,/MST084.png,,,,,,,,,,,,,,,,,,,,,
@@ -406,9 +406,15 @@ MST138,MST,Essence of Ancestry: Soul,2,0,,3,,,"Illusionist, Action, Aura",Ward 2
 
 **Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,MST138,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST138.png,,,,,,,,,,,,,,,,,,,,,
 MST139,MST,Essence of Ancestry: Mind,3,,,,,,,,,,,,,,,,,,No,R,,,Andrew Chou,,MST139,/MST139.png,,,,,,,,,,,,,,,,,,,,,
-MST140,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST140,,,,,,,,,,,,,,,,,,,,,,
-MST141,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST141,,,,,,,,,,,,,,,,,,,,,,
-MST142,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST142,,,,,,,,,,,,,,,,,,,,,,
+MST140,MST,Haunting Specter,1,2,,2,,,"Illusionist, Action, Aura",Ward 4,,,,,,"When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
+
+**Ward 4**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST140,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST140.png,,,,,,,,,,,,,,,,,,,,,
+MST141,MST,Haunting Specter,2,2,,2,,,"Illusionist, Action, Aura",Ward 3,,,,,,"When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
+
+**Ward 3**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST141,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST141.png,,,,,,,,,,,,,,,,,,,,,
+MST142,MST,Haunting Specter,3,2,,2,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
+
+**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST142,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST142.png,,,,,,,,,,,,,,,,,,,,,
 MST143,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST143,,,,,,,,,,,,,,,,,,,,,,
 MST144,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST144,,,,,,,,,,,,,,,,,,,,,,
 MST145,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST145,,,,,,,,,,,,,,,,,,,,,,
