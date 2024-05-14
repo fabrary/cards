@@ -415,9 +415,15 @@ MST141,MST,Haunting Specter,2,2,,2,,,"Illusionist, Action, Aura",Ward 3,,,,,,"Wh
 MST142,MST,Haunting Specter,3,2,,2,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
 
 **Ward 2**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST142,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST142.png,,,,,,,,,,,,,,,,,,,,,
-MST143,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST143,,,,,,,,,,,,,,,,,,,,,,
-MST144,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST144,,,,,,,,,,,,,,,,,,,,,,
-MST145,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST145,,,,,,,,,,,,,,,,,,,,,,
+MST143,MST,Sigil of Solitude,1,0,,2,,,"Illusionist, Action, Aura",Ward 4,,,,,,"At the start of your turn, if you control another Illusionist aura, destroy this.
+
+**Ward 4**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST143,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST143.png,,,,,,,,,,,,,,,,,,,,,
+MST144,MST,Sigil of Solitude,2,0,,2,,,"Illusionist, Action, Aura",Ward 3,,,,,,"At the start of your turn, if you control another Illusionist aura, destroy this.
+
+**Ward 3**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST144,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST144.png,,,,,,,,,,,,,,,,,,,,,
+MST145,MST,Sigil of Solitude,3,0,,2,,,"Illusionist, Action, Aura",Ward 2,,,,,,"At the start of your turn, if you control another Illusionist aura, destroy this.
+
+**Ward 2**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST145,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST145.png,,,,,,,,,,,,,,,,,,,,,
 MST146,MST,Single Minded Determination,1,2,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put three +1{p} counter on this.
 
 **Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST146,/MST146.png,,,,,,,,,,,,,,,,,,,,,
@@ -468,9 +474,9 @@ MST166,MST,Aspect of Tiger: Mind,3,0,1,3,,,"Ninja, Action, Attack","Combo, Go ag
 MST167,MST,Qi Unleashed,1,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST167,/MST167.png,,,,,,,,,,,,,,,,,,,,,
 MST168,MST,Qi Unleashed,2,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST168,/MST168.png,,,,,,,,,,,,,,,,,,,,,
 MST169,MST,Qi Unleashed,3,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST169,/MST169.png,,,,,,,,,,,,,,,,,,,,,
-MST170,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST170,,,,,,,,,,,,,,,,,,,,,,
-MST171,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST171,,,,,,,,,,,,,,,,,,,,,,
-MST172,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST172,,,,,,,,,,,,,,,,,,,,,,
+MST170,MST,Blessing of Qi,1,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST170,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST170.png,,,,,,,,,,,,,,,,,,,,,
+MST171,MST,Blessing of Qi,2,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST171,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST171.png,,,,,,,,,,,,,,,,,,,,,
+MST172,MST,Blessing of Qi,3,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST172,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST172.png,,,,,,,,,,,,,,,,,,,,,
 MST173,MST,Biting Breeze,1,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST173,/MST173.png,,,,,,,,,,,,,,,,,,,,,
 MST174,MST,Biting Breeze,2,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST174,/MST174.png,,,,,,,,,,,,,,,,,,,,,
 MST175,MST,Biting Breeze,3,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST175,/MST175.png,,,,,,,,,,,,,,,,,,,,,
@@ -506,9 +512,9 @@ MST192,MST,The Weakest Link,1,2,6,3,,,"Generic, Action, Attack",,,,,,,"When this
 MST193,MST,Prismatic Leyline,2,0,,3,,,"Generic, Action",Go again,,,,,,"Your next red attack this turn gets +1{p}, your next yellow gets +2{p}, and your next blue gets +3{p}.
 
 **Go again**",Generic Action,,,,No,M,,,Andrew Chou,,MST193,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST193.png,,,,,,,,,,,,,,,,,,,,,
-MST194,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST194,,,,,,,,,,,,,,,,,,,,,,
-MST195,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST195,,,,,,,,,,,,,,,,,,,,,,
-MST196,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST196,,,,,,,,,,,,,,,,,,,,,,
+MST194,MST,Blanch,1,3,7,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST194,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST194.png,,,,,,,,,,,,,,,,,,,,,
+MST195,MST,Blanch,2,3,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST195,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST195.png,,,,,,,,,,,,,,,,,,,,,
+MST196,MST,Blanch,3,3,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST196,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST196.png,,,,,,,,,,,,,,,,,,,,,
 MST197,MST,Emissary of Moon,1,0,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",Generic Action - Attack,,,,No,R,,,Isuardi Therianto,,MST197,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png,,,,,,,,,,,,,,,,,,,,,
 MST198,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST198,,,,,,,,,,,,,,,,,,,,,,
 MST199,MST,Emissary of Wind,1,0,4,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets **go again**.",Generic Action - Attack,,,,No,R,,,soyameii,,MST199,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png,,,,,,,,,,,,,,,,,,,,,
@@ -518,12 +524,12 @@ MST202,MST,Gravekeeping,3,1,3,2,,,"Generic, Action, Attack",,,,,,,"When this att
 MST203,MST,Battlefront Bastion,1,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST203,/MST203.png,,,,,,,,,,,,,,,,,,,,,
 MST204,MST,Battlefront Bastion,2,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST204,/MST204.png,,,,,,,,,,,,,,,,,,,,,
 MST205,MST,Battlefront Bastion,3,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST205,/MST205.png,,,,,,,,,,,,,,,,,,,,,
-MST206,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST206,,,,,,,,,,,,,,,,,,,,,,
-MST207,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST207,,,,,,,,,,,,,,,,,,,,,,
-MST208,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST208,,,,,,,,,,,,,,,,,,,,,,
-MST209,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST209,,,,,,,,,,,,,,,,,,,,,,
-MST210,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST210,,,,,,,,,,,,,,,,,,,,,,
-MST211,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST211,,,,,,,,,,,,,,,,,,,,,,
+MST206,MST,Fact-Finding Mission,1,2,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST206,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST206.png,,,,,,,,,,,,,,,,,,,,,
+MST207,MST,Fact-Finding Mission,2,2,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST207,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST207.png,,,,,,,,,,,,,,,,,,,,,
+MST208,MST,Fact-Finding Mission,3,2,4,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST208,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST208.png,,,,,,,,,,,,,,,,,,,,,
+MST209,MST,Nimble Strike,1,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST209,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST209.png,,,,,,,,,,,,,,,,,,,,,
+MST210,MST,Nimble Strike,2,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST210,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST210.png,,,,,,,,,,,,,,,,,,,,,
+MST211,MST,Nimble Strike,3,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST211,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST211.png,,,,,,,,,,,,,,,,,,,,,
 MST212,MST,Water the Seeds,1,1,3,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, your next attack this combat chain with 1 or less base {p} gets +1{p}.
 
 **Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST212,/MST212.png,,,,,,,,,,,,,,,,,,,,,
@@ -533,15 +539,15 @@ MST213,MST,Water the Seeds,2,1,2,2,,,"Generic, Action, Attack",Go again,,,,,,"Wh
 MST214,MST,Water the Seeds,3,1,1,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, your next attack this combat chain with 1 or less base {p} gets +1{p}.
 
 **Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST214,/MST214.png,,,,,,,,,,,,,,,,,,,,,
-MST215,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST215,,,,,,,,,,,,,,,,,,,,,,
-MST216,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST216,,,,,,,,,,,,,,,,,,,,,,
-MST217,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST217,,,,,,,,,,,,,,,,,,,,,,
-MST218,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST218,,,,,,,,,,,,,,,,,,,,,,
-MST219,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST219,,,,,,,,,,,,,,,,,,,,,,
-MST220,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST220,,,,,,,,,,,,,,,,,,,,,,
-MST221,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST221,,,,,,,,,,,,,,,,,,,,,,
-MST222,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST222,,,,,,,,,,,,,,,,,,,,,,
-MST223,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST223,,,,,,,,,,,,,,,,,,,,,,
+MST215,MST,Wounding Blow,1,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST215,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST215.png,,,,,,,,,,,,,,,,,,,,,
+MST216,MST,Wounding Blow,2,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST216,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST216.png,,,,,,,,,,,,,,,,,,,,,
+MST217,MST,Wounding Blow,3,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST217,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST217.png,,,,,,,,,,,,,,,,,,,,,
+MST218,MST,Evasive Leap,1,0,,3,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST218,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST218.png,,,,,,,,,,,,,,,,,,,,,
+MST219,MST,Evasive Leap,2,0,,2,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST219,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST219.png,,,,,,,,,,,,,,,,,,,,,
+MST220,MST,Evasive Leap,3,0,,1,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST220,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST220.png,,,,,,,,,,,,,,,,,,,,,
+MST221,MST,Nimblism,1,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST221,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST221.png,,,,,,,,,,,,,,,,,,,,,
+MST222,MST,Nimblism,2,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST222,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST222.png,,,,,,,,,,,,,,,,,,,,,
+MST223,MST,Nimblism,3,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST223,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST223.png,,,,,,,,,,,,,,,,,,,,,
 MST224,MST,Cracked Bauble,2,,,,,,,,,,,,,,,,,,,T,,,Sam Yang,,MST224,/MST224.png,,,,,,,,,,,,,,,,,,,,,
 MST225,MST,Visit Goldmane Estate,3,1,,3,,,"Guardian, Action","Victor Specialization, Go again",,,,,,"**Victor Specialization**
 
@@ -600,3 +606,4 @@ MST237,MST,Eloquent Eulogy,1,1,4,3,,,"Shadow, Runeblade, Action, Attack","Rune G
 When the combat chain closes, if a hero has lost {h} this turn, create an Eloquence token.
 
 **Blood Debt**",Shadow Runeblade Action - Attack,,,,No,M,,,Federico Musetti,,MST237,/MST237.png,,,,,,,,,,,,,,,,,,,,,
+MST238,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

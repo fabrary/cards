@@ -110,6 +110,7 @@ export const fabDictionary = [
   "evo",
   "extraordinaire",
   "fai",
+  "FactFinding",
   "fantasmia",
   "featherfoot",
   "fiddledee",
