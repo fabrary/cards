@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
+    <loc>https://fabrary.net/cards/mistcloak-gully</loc>
+    <lastmod>2024-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/nuu-alluring-desire</loc>
     <lastmod>2024-03-22</lastmod>
     <priority>0.5</priority>
@@ -1192,6 +1197,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/enigma-new-moon</loc>
+    <lastmod>2024-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/blaze-firemind</loc>
     <lastmod>2024-05-15</lastmod>
     <priority>0.5</priority>
   </url>

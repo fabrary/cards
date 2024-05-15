@@ -126,6 +126,11 @@ const betsy: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Betsy),
 ];
 
+const blaze: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Wizard]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Blaze),
+];
+
 const boltyn: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Warrior], LIGHT),
   {
@@ -243,7 +248,10 @@ const iyslander: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Iyslander),
 ];
 
-const kano: AppliedFilter[] = [...CLASSES_AND_TALENTS([Class.Wizard])];
+const kano: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Wizard]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Kano),
+];
 
 const kassai: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Warrior]),
@@ -555,6 +563,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   azalea,
   benji,
   betsy,
+  blaze,
   boltyn,
   bravo,
   brevant,

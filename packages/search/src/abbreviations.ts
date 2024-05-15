@@ -125,6 +125,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Even Bigger Than That!",
   },
   {
+    abbreviations: ["NewNigma"],
+    card: "Enigma, New Moon",
+  },
+  {
     abbreviations: ["EPot", "E Pot"],
     card: "Energy Potion",
   },

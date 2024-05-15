@@ -34,6 +34,7 @@ const OPPOSITE_SIDE_CARD_OVERRIDES: { back: string; fronts: string[] }[] = [
     fronts: [
       "a-drop-in-the-ocean-blue",
       "homage-to-ancestors-blue",
+      "mistcloak-gully",
       "pass-over-blue",
       "path-well-traveled-blue",
       "preserve-tradition-blue",

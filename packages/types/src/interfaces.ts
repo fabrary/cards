@@ -276,6 +276,7 @@ export enum Hero {
   Azalea = "Azalea",
   Benji = "Benji",
   Betsy = "Betsy",
+  Blaze = "Blaze",
   Boltyn = "Boltyn",
   Bravo = "Bravo",
   Brevant = "Brevant",
