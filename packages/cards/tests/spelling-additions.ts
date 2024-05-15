@@ -304,6 +304,7 @@ export const fabDictionary = [
   "steelblade",
   "steelbraid",
   "steelhand",
+  "stillwater",
   "stormbind",
   "striders",
   "summa",
