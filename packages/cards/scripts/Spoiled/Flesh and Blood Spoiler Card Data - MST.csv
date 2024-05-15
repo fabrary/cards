@@ -155,7 +155,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 **Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,MST065,/MST065.png,,,,,,,,,,,,,,,,,,,,,
 MST066,MST,Traverse the Universe,,,,2,,,"Mystic, Equipment, Head",Blade Break,,,,,,"When this defends, search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.
 
-**Blade Break**",Mystic Equipment - Head,,,,No,L,R,,Olga Tereshenko,,MST066,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066.png,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Mystic Equipment - Head,,,,No,L,R,,Olga Tereshenko,,MST066,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066.png,L,C,EA,Olga Tereshenko,,MST066,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066_V2.png,,,,,,,,,,,,,,
 MST067,MST,Aqua Seeing Shell,,,,1,,,"Mystic, Equipment, Head",Cloaked,Instant,,,,,"**Cloaked**
 
 **Instant** - {r}{r}{r}, turn this face-up: Draw a card.
@@ -464,7 +464,7 @@ MST156,MST,Vengeful Apparition,2,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,
 MST157,MST,Vengeful Apparition,3,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 0 this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
 **Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST157,/MST157.png,,,,,,,,,,,,,,,,,,,,,
-MST158,MST,Spectral Shield,,,,,,,"Illusionist, Token, Aura",Ward 1,,,,,,**Ward 1**,Illusionist Token - Aura,,,,,T,,,Asur Misoa,,MST158,/MST158.png,,,,,,,,,,,,,,,,,,,,,
+MST158,MST,Spectral Shield,,,,,,,"Illusionist, Token, Aura",Ward 1,,,,,,**Ward 1**,Illusionist Token - Aura,,,,,T,,,Asur Misoa,,MST158,/MST158.png,T,,AA,Asur Misoa,,MST158,/MST158_V2.png,,,,,,,,,,,,,,
 MST159,MST,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,T,,,Joseph Qiu,,MST159,/MST159.png,,,,,,,,,,,,,,,,,,,,,
 MST160,MST,Mask of Wizened Whiskers,,,,,,,,,,,,,,,,,,,,C,,,Daniel Jiménez,,MST160,/MST160.png,,,,,,,,,,,,,,,,,,,,,
 MST161,MST,Chase the Tail,1,1,4,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and the next Crouching Tiger you play this combat chain gets +3{p}.",Ninja Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST161,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png,,,,,,,,,,,,,,,,,,,,,
@@ -610,4 +610,7 @@ MST237,MST,Eloquent Eulogy,1,1,4,3,,,"Shadow, Runeblade, Action, Attack","Rune G
 When the combat chain closes, if a hero has lost {h} this turn, create an Eloquence token.
 
 **Blood Debt**",Shadow Runeblade Action - Attack,,,,No,M,,,Federico Musetti,,MST237,/MST237.png,,,,,,,,,,,,,,,,,,,,,
-MST238,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST238,MST,"Enigma, New Moon",,,,,20,4,"Mystic, Illusionist, Hero, Young",,,,,,,"Equipment you own gets **cloaked**
+
+**Instant** - {c}{c}{c}, Turn target face-down equipment you have equipped face-up. If it has **ward**, create 3 Spectral Shield tokens.",Mystic Illusionist Hero - Young,,,No,No,L,R,EA,Livia Prime,,MST238,/MST238.png,,,,,,,,,,,,,,,,,,,,,
+MST239,MST,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
