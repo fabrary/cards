@@ -21,5 +21,7 @@ export const getPrint = (printing: {
 
   const back = printing.image?.toLowerCase().includes("back") ? `-Back` : ``;
 
-  return `${identifier}${edition}${foiling}${treatment}${back}`;
+  const v3 = printing.image?.toLowerCase().includes("_v3") ? `-V3` : ``;
+
+  return `${identifier}${edition}${foiling}${treatment}${back}${v3}`;
 };
