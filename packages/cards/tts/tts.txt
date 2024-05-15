@@ -3860,6 +3860,7 @@ OSCCardDB = {
   ["MST076"] = { name = "Cosmic Awakening (3)", text = "If 1 Chi was pitched to play this, Cosmic Awakening's {p} is 10.\n\nIf 2 Chi were pitched to play this, Cosmic Awakening's {p} is 15.\n\nIf 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.", keywords = "", types = "Action"},
   ["MST077"] = { name = "Levels of Enlightenment (3)", text = "When this attacks, choose 1 for each blue card you've pitched this turn;\n- Draw a card.\n- This gets +2{p}.\n- This gets **go again**.", keywords = "Go again", types = "Action"},
   ["MST078"] = { name = "Unravel Aggression (3)", text = "If a Chi was pitched to play this, draw a card.", keywords = "", types = "Defense Reaction"},
+  ["MST079"] = { name = "Dense Blue Mist (3)", text = "Attacks that target you this turn get -1{p}.\n\nIf a Chi was pitched to play this, effects don't trigger if an attack hits you this turn.", keywords = "", types = "Instant"},
   ["MST080"] = { name = "Orihon of Mystic Tenets (3)", text = "**Legendary**\n\nDraw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.", keywords = "Legendary", types = "Instant"},
   ["MST081"] = { name = "Second Tenet of Chi: Moon (3)", text = "If you've **transcended** this turn, this gets \"When this chain link resolves, draw a card.\"", keywords = "", types = "Action"},
   ["MST082"] = { name = "Second Tenet of Chi: Tide (3)", text = "If you've **transcended** this turn, this gets +2{p}.", keywords = "Transcend", types = "Action"},

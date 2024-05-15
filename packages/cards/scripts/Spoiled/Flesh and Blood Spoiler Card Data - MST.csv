@@ -199,7 +199,9 @@ MST077,MST,Levels of Enlightenment,3,1,3,3,,,"Mystic, Action, Attack",Go again,,
 - This gets +2{p}.
 - This gets **go again**.",Mystic Action - Attack,,,,No,M,,,Daria Khlebnikova,,MST077,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png,,,,,,,,,,,,,,,,,,,,,
 MST078,MST,Unravel Aggression,3,3,,5,,,"Mystic, Defense Reaction",,,,,,,"If a Chi was pitched to play this, draw a card.",Mystic Defense Reaction,,,,No,M,,,Tanapon Wachirakul,,MST078,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST078.png,,,,,,,,,,,,,,,,,,,,,
-MST079,MST,,,,,,,,,,,,,,,,,,,,,,,,,,MST079,,,,,,,,,,,,,,,,,,,,,,
+MST079,MST,Dense Blue Mist,3,1,,,,,"Mystic, Instant",,,,,,,"Attacks that target you this turn get -1{p}.
+
+If a Chi was pitched to play this, effects don't trigger if an attack hits you this turn.",Mystic Instant,,,,No,M,,,Elizaveta Alipatova,,MST079,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST079.png,,,,,,,,,,,,,,,,,,,,,
 MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
 
 Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,
