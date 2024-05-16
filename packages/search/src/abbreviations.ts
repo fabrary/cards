@@ -169,6 +169,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Knick Knack Bric-a-brac",
   },
   {
+    abbreviations: ["BStrike"],
+    card: "Levels of Enlightenment",
+  },
+  {
     abbreviations: ["LAG", "Twominaris"],
     card: "Luminaris, Angel's Glow",
   },

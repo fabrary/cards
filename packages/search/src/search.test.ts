@@ -228,6 +228,7 @@ describe("Card search", () => {
 
   const hasQuantity: string[][] = [
     ...heroFilters,
+    ["Kasaya"],
     ["Qi Unbound"],
     ["Ultron"],
     ["overloop"],
@@ -267,9 +268,10 @@ describe("Card search", () => {
   ];
   it.each(hasQuantity)("Gets cards for %s", (...searchTerms) => {
     for (const searchTerm of searchTerms) {
-      const { searchResults } = cardSearch.search(
+      const { keywords, searchResults } = cardSearch.search(
         randomizeCapitalization(searchTerm as string)
       );
+      console.log(keywords);
       expect(searchResults.length).toBeGreaterThan(0);
     }
   });

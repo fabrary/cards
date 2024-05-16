@@ -20,7 +20,7 @@ import {
   SpecialConditions,
 } from "./filters";
 import { memes } from "./memes";
-import { clashSpecializationOverrides } from ".";
+import { clashSpecializationOverrides, getNormalizedText } from ".";
 import { Keyword } from "@flesh-and-blood/types";
 
 export interface SearchCard extends DoubleSidedCard {
@@ -51,9 +51,11 @@ class Search {
         if (!value) {
           return value;
         } else if (Array.isArray(value)) {
-          return value.map((val) => val.replace(PUNCTUATION, ""));
+          return value.map((val) =>
+            getNormalizedText(val.replace(PUNCTUATION, ""))
+          );
         } else {
-          return (value as string).replace(PUNCTUATION, "");
+          return getNormalizedText(value as string).replace(PUNCTUATION, "");
         }
       },
       ignoreLocation: true,
