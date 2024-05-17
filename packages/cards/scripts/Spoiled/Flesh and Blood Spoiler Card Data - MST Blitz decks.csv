@@ -1,8 +1,8 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Identifier 3,Image URL 3,Rarity 4,Foiling 4,Art Variation 4,Artist 4,Flavor Text 4,Identifier 4,Image URL 4
 ENG001,"ENG, MST",Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,,,,,,"Your first Spectral Shield attack each turn costs {r} less to activate.
 
-**Once per Turn Instant** - {b}{b}{b}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero - Young,,,,,R,R,,Asur Misoa,,ENG001,/ENG001.png,,,,,,,,,,,,,,,,,,,,,
-ENG002,"ENG, MST","Cosmo, Scroll of Ancestral Tapestry",,,,,,,"Illusionist, Weapon, Scroll, 2H",,,,,,,"During your turn, auras you control with **ward** are weapons with base {p} equal to their **ward** and **Once per Turn Action - {r}: Attack""
+**Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero - Young,,,,,R,R,,Asur Misoa,,ENG001,/ENG001.png,,,,,,,,,,,,,,,,,,,,,
+ENG002,"ENG, MST","Cosmo, Scroll of Ancestral Tapestry",,,,,,,"Illusionist, Weapon, Scroll, 2H",,,,,,Ward,"During your turn, auras you control with **ward** are weapons with base {p} equal to their **ward** and **Once per Turn Action - {r}: Attack""
 
 Your aura attacks with one or more +1{p} counters get **go again**.",Illusionist Weapon - Scroll (2H),,,,,C,,,Asur Misoa,,ENG002,/ENG002.png,,,,,,,,,,,,,,,,,,,,,
 ENG003,"ENG, MST",Truths Retold,,,,,,,"Mystic, Illusionist, Equipment, Head","Cloaked, Ward 1",Instant,,,,,"**Cloaked**
@@ -39,29 +39,27 @@ ENG013,"ENG, MST",Waning Vengeance,2,1,,,,,"Mystic, Illusionist, Instant, Aura",
 
 **Ward 2**",Mystic Illusionist Instant - Aura,,,,,C,,EA,Rio Sabda,,ENG013,/ENG013.png,,,,,,,,,,,,,,,,,,,,,
 ENG014,"ENG, MST",Spillover,3,2,4,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,,,Marcellino Tan,,ENG014,/ENG014.png,,,,,,,,,,,,,,,,,,,,,
-ENG015,"ENG, MST",Big Blue Sky,3,0,,2,,,"Mystic, Defense, Reaction",,,,,,,This gets +1{d} for each blue card you've pitched this turn.,Mystic Defense Reaction,,,,,R,,,Reza Afshar,,ENG015,/ENG015.png,,,,,,,,,,,,,,,,,,,,,
-ENG016,"ENG, MST",Astral Etchings,3,1,,3,,,"Illusionist, Action",,,,,,,"Put a +1{p} counter on target aura with **ward** you control.
+ENG015,"ENG, MST",Big Blue Sky,3,0,,2,,,"Mystic, Defense, Reaction",,,,,,,This gets +1{d} for each blue card you've pitched this turn.,Mystic Defense Reaction,,,,No,R,,,Reza Afshar,,ENG015,/ENG015.png,,,,,,,,,,,,,,,,,,,,,
+ENG016,"ENG, MST",Astral Etchings,3,1,,3,,,"Illusionist, Action",,,,,,Ward,"Put a +1{p} counter on target aura with **ward** you control.
 
-If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,,R,,,Reza Afshar,,ENG016,/ENG016.png,,,,,,,,,,,,,,,,,,,,,
+If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,ENG016,/ENG016.png,,,,,,,,,,,,,,,,,,,,,
 ENG017,"ENG, MST",Essence of Ancestry: Mind,3,0,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a blue source this turn, prevent it.
 
-**Ward 2**",Illusionist Action - Aura,,,,,R,,,Andrew Chou,,ENG017,/ENG017.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,ENG017,/ENG017.png,,,,,,,,,,,,,,,,,,,,,
 ENG018,"ENG, MST",First Tenet of Chi: Moon,3,0,,3,,,"Mystic, Action",Go again,,,,,,"Your next blue attack this turn gets ""When this attacks, draw a card.""
 
 **Go again**",Mystic Action,,,,,C,,,Carlos Cruchaga,,ENG018,/ENG018.png,,,,,,,,,,,,,,,,,,,,,
-ENG019,"ENG, MST",Second Tenet of Chi: Tide,3,3,5,3,,,"Mystic, Action, Attack",Transcend,,,,,,"If you've **transcended** this turn, this gets +2{p}.",Mystic Action - Attack,,,,,R,,,Tomasz Jedruszek,,ENG019,/ENG019.png,,,,,,,,,,,,,,,,,,,,,
+ENG019,"ENG, MST",Second Tenet of Chi: Tide,3,3,5,3,,,"Mystic, Action, Attack",,,,,,Transcend,"If you've **transcended** this turn, this gets +2{p}.",Mystic Action - Attack,,,,No,R,,,Tomasz Jedruszek,,ENG019,/ENG019.png,,,,,,,,,,,,,,,,,,,,,
 ENG020,"ENG, MST",Single Minded Determination,3,2,,,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put a +1{p} counter on this.
 
 **Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,ENG020,/ENG020.png,,,,,,,,,,,,,,,,,,,,,
 ENG021,"ENG, MST",Solitary Companion,3,0,,2,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
 
-**Ward 1**
-
-**Ward 2**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,ENG021,/ENG021.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,ENG021,/ENG021.png,,,,,,,,,,,,,,,,,,,,,
 ENG022,"ENG, MST",Vengeful Apparition,3,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 0 this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
 **Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,ENG022,/ENG022.png,,,,,,,,,,,,,,,,,,,,,
-ENG023,"ENG, MST",Moon Chakra,3,0,,,,,"Mystic, Illusionist, Instant",Transcend,,,,,,"The next time you would be dealt damage this turn, prevent 1 of that damage. If you've **transcended** this turn, instead prevent 3.",Mystic Illusionist Instant,,,,,R,,,Edward Chee,,ENG023,/ENG023.png,,,,,,,,,,,,,,,,,,,,,
+ENG023,"ENG, MST",Moon Chakra,3,0,,,,,"Mystic, Illusionist, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 1 of that damage. If you've **transcended** this turn, instead prevent 3.",Mystic Illusionist Instant,,,,No,R,,,Edward Chee,,ENG023,/ENG023.png,,,,,,,,,,,,,,,,,,,,,
 ENG024,"ENG, MST",Waning Vengeance,3,1,,,,,"Mystic, Illusionist, Instant, Aura",Ward 1,,,,,,"When this leaves the arena, if you've pitched a blue card this turn, create a Spectral Shield token.
 
 **Ward 1**",Mystic Illusionist Instant - Aura,,,,,C,,,Rio Sabda,,ENG024,/ENG024.png,,,,,,,,,,,,,,,,,,,,,
@@ -87,22 +85,22 @@ Draw a card, then put a card from your hand on the bottom of your deck.
 If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,C,,,Daken,,ENG028,/ENG028.png,,,,,,,,,,,,,,,,,,,,,
 ENG029,"ENG, MST",Spectral Shield,,,,,,,,,,,,,,,,,,,,T,,,Asur Misoa,,ENG029,/ENG029.png,,,,,,,,,,,,,,,,,,,,,
 NUU001,"NUU, MST",Nuu,,,,,,,,,,,,,,,,,,,,R,,,Jessada Sutthi,,NUU001,/NUU001.png,,,,,,,,,,,,,,,,,,,,,
-NUU002,"NUU, MST",Beckoning Mistblade,,,1,,,,"Mystic, Assassin, Weapon, Dagger, 1H",Go again,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+NUU002,"NUU, MST",Beckoning Mistblade,,,1,,,,"Mystic, Assassin, Weapon, Dagger, 1H",,Once per Turn Action,"Attack, Go again",Go again,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 When this hits, your next blue attack this turn gets +1{p} and **go again**.",Mystic Assassin Weapon - Dagger (1H),,,,,C,,,Jessketchin,,NUU002,/NUU002.png,,,,,,,,,,,,,,,,,,,,,
 NUU003,"NUU, MST",Aqua Seeing Shell,,,,,,,,,,,,,,,,,,,,C,,,Nikko Wahyudi,,NUU003,/NUU003.png,,,,,,,,,,,,,,,,,,,,,
 NUU004,"NUU, MST",Koi Blessed Kimono,,,,,,,,,,,,,,,,,,,,C,,,Asur Misoa,,NUU004,/NUU004.png,,,,,,,,,,,,,,,,,,,,,
-NUU005,"NUU, MST",Arousing Wave,,,,1,,,"Mystic, Assassin, Equipment, Arms","Attack Reaction, Battleworn",,,,,,"**Attack Reaction** - {r}, destroy this: Create a Fang Strike in your hand.
+NUU005,"NUU, MST",Arousing Wave,,,,1,,,"Mystic, Assassin, Equipment, Arms",Battleworn,Attack Reaction,,,,,"**Attack Reaction** - {r}, destroy this: Create a Fang Strike in your hand.
 
 **Battleworn**",Mystic Assassin Equipment - Arms,,,,,C,,,Junaidi Lim,,NUU005,/NUU005.png,,,,,,,,,,,,,,,,,,,,,
-NUU006,"NUU, MST",Undertow Stilettos,,,,1,,,"Mystic, Assassin, Equipment, Legs","Attack Reaction, Battleworn",,,,,,"**Attack Reaction** - {r}, destroy this: Create a Slither in your hand.
+NUU006,"NUU, MST",Undertow Stilettos,,,,1,,,"Mystic, Assassin, Equipment, Legs",Battleworn,Attack Reaction,,,,,"**Attack Reaction** - {r}, destroy this: Create a Slither in your hand.
 
 **Battleworn**",Mystic Assassin Equipment - Legs,,,,,C,,,Firaz M. Rasyid,,NUU006,/NUU006.png,,,,,,,,,,,,,,,,,,,,,
 NUU007,"NUU, MST",Art of Desire: Body,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a red card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,,R,,,Henrique Lindner,,NUU007,/NUU007.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a red card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,NUU007,/NUU007.png,,,,,,,,,,,,,,,,,,,,,
 NUU008,"NUU, MST",Bonds of Memory,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
@@ -115,7 +113,7 @@ When this hits a hero, banish the top card of their deck.
 Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,NUU009,/NUU009.png,,,,,,,,,,,,,,,,,,,,,
 NUU010,"NUU, MST",Double Trouble,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,,R,,,Isuardi Therianto,,NUU010,/NUU010.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,No,R,,,Isuardi Therianto,,NUU010,/NUU010.png,,,,,,,,,,,,,,,,,,,,,
 NUU011,"NUU, MST",Impulsive Desire,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
@@ -139,19 +137,19 @@ NUU016,"NUU, MST",Bonds of Attraction,3,0,1,3,,,"Assassin, Action, Attack",Steal
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
-Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,,R,,,Anastasia Balakchina,,NUU016,/NUU016.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Anastasia Balakchina,,NUU016,/NUU016.png,,,,,,,,,,,,,,,,,,,,,
 NUU017,"NUU, MST",Bonds of Memory,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
 Whenever this banishes a card, if this has banished another card with the same name, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Anastasia Pronina,,NUU017,/NUU017.png,,,,,,,,,,,,,,,,,,,,,
-NUU018,"NUU, MST",Deep Blue Sea,3,4,5,2,,,"Mystic, Action, Attack",,,,,,,This gets +1{p} for each blue card you've pitched this turn.,Mystic Action - Attack,,,,,R,,,Carlos Cruchaga,,NUU018,/NUU018.png,,,,,,,,,,,,,,,,,,,,,
+NUU018,"NUU, MST",Deep Blue Sea,3,4,5,2,,,"Mystic, Action, Attack",,,,,,,This gets +1{p} for each blue card you've pitched this turn.,Mystic Action - Attack,,,,No,R,,,Carlos Cruchaga,,NUU018,/NUU018.png,,,,,,,,,,,,,,,,,,,,,
 NUU019,"NUU, MST",Desires of Flesh,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
 Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,NUU019,/NUU019.png,,,,,,,,,,,,,,,,,,,,,
-NUU020,"NUU, MST",Gravekeeping,3,1,3,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,,R,,,Sebastian Giacobino,,NUU020,/NUU020.png,,,,,,,,,,,,,,,,,,,,,
+NUU020,"NUU, MST",Gravekeeping,3,1,3,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,NUU020,/NUU020.png,,,,,,,,,,,,,,,,,,,,,
 NUU021,"NUU, MST",Impulsive Desire,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
@@ -166,7 +164,7 @@ NUU023,"NUU, MST",Rising Tide,3,,,,,,,,,,,,,,,,,,,C,,,Marco González,,NUU023,/N
 NUU024,"NUU, MST",Hiss,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
 
 If you've pitched a blue card this turn, create a Slither in your hand.",Mystic Assassin Attack Reaction,,,,,C,,EA,Isuardi Therianto,,NUU024,/NUU024.png,,,,,,,,,,,,,,,,,,,,,
-NUU025,"NUU, MST",Tide Chakra,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}. If you've **transcended** this turn, instead it gets +3{p}.",Mystic Assassin Attack Reaction,,,,,R,,,Faizal Fikri,,NUU025,/NUU025.png,,,,,,,,,,,,,,,,,,,,,
+NUU025,"NUU, MST",Tide Chakra,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}. If you've **transcended** this turn, instead it gets +3{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,NUU025,/NUU025.png,,,,,,,,,,,,,,,,,,,,,
 NUU026,"NUU, MST",Pass Over,3,,,,,,,,,,,,,,,,,,,C,,,Hatori Kyoka,,NUU026,/NUU026.png,,,,,,,,,,,,,,,,,,,,,
 NUU027,"NUU, MST",Path Well Traveled,3,,,,,,,,,,,,,,,,,,,C,,,Shiro Yayoi,,NUU027,/NUU027.png,,,,,,,,,,,,,,,,,,,,,
 NUU028,"NUU, MST",Fang Strike,,0,,,,,"Mystic, Assassin, Attack Reaction",Ephemeral,,,,,,"**Ephemeral**
@@ -176,10 +174,10 @@ NUU029,"NUU, MST",Slither,,0,,,,,"Mystic, Assassin, Attack Reaction",Ephemeral,,
 
 Target attack action card gets **go again**.",Mystic Assassin Attack Reaction,,,,,T,,,Mario Wibisono,,NUU029,/NUU029.png,,,,,,,,,,,,,,,,,,,,,
 ZEN001,"ZEN, MST",Zen,,,,,,,,,,,,,,,,,,,,R,,,Lius Lasahido,,ZEN001,/ZEN001.png,,,,,,,,,,,,,,,,,,,,,
-ZEN002,"ZEN, MST",Tiger Taming Khakkara,,,2,,,,"Ninja, Weapon, Staff, 2H",Go again,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+ZEN002,"ZEN, MST",Tiger Taming Khakkara,,,2,,,,"Ninja, Weapon, Staff, 2H",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.",Ninja Weapon - Staff (2H),,,,,C,,,Joseph Qiu,,ZEN002,/ZEN002.png,,,,,,,,,,,,,,,,,,,,,
-ZEN003,"ZEN, MST",Mask of Wizened Whiskers,,,,1,,,"Ninja, Equipment, Head",Blade Break,,,,,,"When this defends, put a card with **combo** from your graveyard on the bottom of your deck.
+ZEN003,"ZEN, MST",Mask of Wizened Whiskers,,,,1,,,"Ninja, Equipment, Head",Blade Break,,,,,Combo,"When this defends, put a card with **combo** from your graveyard on the bottom of your deck.
 
 **Blade Break**",Ninja Equipment - Head,,,,,C,,,Daniel Jiménez,,ZEN003,/ZEN003.png,,,,,,,,,,,,,,,,,,,,,
 ZEN004,"ZEN, MST",Heirloom of Tiger Hide,,,,3,,,"Mystic, Ninja, Equipment, Chest","Cloaked, Blade Break",,,,,,"**Cloaked**
@@ -216,7 +214,7 @@ ZEN015,"ZEN, MST",Tiger Form Incantation,1,1,,3,,,"Mystic, Ninja, Action",Go aga
 If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
 **Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,ZEN015,/ZEN015.png,,,,,,,,,,,,,,,,,,,,,
-ZEN016,"ZEN, MST",Wind Chakra,1,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,ZEN016,/ZEN016.png,,,,,,,,,,,,,,,,,,,,,
+ZEN016,"ZEN, MST",Wind Chakra,1,,,,,,,,,,,,,,,,,,No,R,,,Narendra B Adi,,ZEN016,/ZEN016.png,,,,,,,,,,,,,,,,,,,,,
 ZEN017,"ZEN, MST",Biting Breeze,2,0,2,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
 
 **Go again**",Ninja Action - Attack,,,,,C,,EA,Eilene Cherie,,ZEN017,/ZEN017.png,,,,,,,,,,,,,,,,,,,,,
@@ -225,7 +223,7 @@ ZEN018,"ZEN, MST",Tiger Form Incantation,2,1,,3,,,"Mystic, Ninja, Action",Go aga
 If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
 **Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,ZEN018,/ZEN018.png,,,,,,,,,,,,,,,,,,,,,
-ZEN019,"ZEN, MST",Aspect of Tiger: Mind,3,0,1,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a blue attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,R,,,Tomasz Jedruszek,,ZEN019,/ZEN019.png,,,,,,,,,,,,,,,,,,,,,
+ZEN019,"ZEN, MST",Aspect of Tiger: Mind,3,0,1,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a blue attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,ZEN019,/ZEN019.png,,,,,,,,,,,,,,,,,,,,,
 ZEN020,"ZEN, MST",Biting Breeze,3,0,1,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, create a Crouching Tiger in your banished zone. You may play it this turn.
 
 **Go again**",Ninja Action - Attack,,,,,C,,EA,Eilene Cherie,,ZEN020,/ZEN020.png,,,,,,,,,,,,,,,,,,,,,
