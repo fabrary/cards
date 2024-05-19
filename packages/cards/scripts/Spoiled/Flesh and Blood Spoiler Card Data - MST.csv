@@ -393,7 +393,7 @@ MST131,MST,"10,000 Year Reunion",1,8,,3,,,"Illusionist, Action, Aura",Ward 10,,,
 MST132,MST,Rage Specter,3,2,,3,,,"Illusionist, Action, Aura","Ward 1, Ward 6",,,,,,"When this enters the arena, if you control no other Illusionist auras, gain 1 action point.
 
 During your turn, this has **ward 6**. Otherwise, this has **ward 1**.",Illusionist Action - Aura,,,,No,M,,,Simon Dominic,,MST132,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST132.png,,,,,,,,,,,,,,,,,,,,,
-MST133,MST,Restless Coalescence,2,0,,,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, move any number of +1{p} counters from auras you control onto this.
+MST133,MST,Restless Coalescence,2,0,,,,,"Illusionist, Instant, Aura",Ward 2,,,,,,"When this enters the arena, move any number of +1{p} counters from auras you control onto this.
 
 **Once per Turn Instant** - Remove a +1{p} counter from this: Create a Spectral Shield token.
 
