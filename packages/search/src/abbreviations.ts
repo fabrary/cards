@@ -41,6 +41,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Barraging Beatdown",
   },
   {
+    abbreviations: ["BBS"],
+    card: "Big Blue Sky",
+  },
+  {
     abbreviations: ["Starvo"],
     card: "Bravo, Star of the Show",
   },

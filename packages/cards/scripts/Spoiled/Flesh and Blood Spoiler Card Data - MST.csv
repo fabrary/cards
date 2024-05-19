@@ -1,9 +1,9 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Identifier 3,Image URL 3,Rarity 4,Foiling 4,Art Variation 4,Artist 4,Flavor Text 4,Identifier 4,Image URL 4
-MST000,MST,Mistcloak Gully,,0,,,,,"Mystic, Instant, Landmark","Legendary, Transcend",,,,,,"**Legendary**
+MST000,MST,Mistcloak Gully,,1,,,,,"Mystic, Instant, Landmark","Legendary, Transcend",,,,,,"**Legendary**
 
 The first attack that targets you each turn gets -1{p}.
 
-At the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, **transcend**.",Mystic Instant,,,,No,F,R,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,,,,,,,,,,,,,,,,,,,,,
+At the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, **transcend**.",Mystic Instant - Landmark,,,,No,F,R,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,,,,,,,,,,,,,,,,,,,,,
 MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this.""
 
 **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_Back.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
@@ -603,7 +603,7 @@ When this hits, you may banish face-down 3 traps from your graveyard. If you do,
 MST234,MST,Kindle,1,0,,,,,"Wizard, Instant",Amp 1,,,,,,"**Amp 1**
 
 If you have no cards in hand, draw a card.",Wizard Instant,,,,No,M,,,Reza Afshar,,MST234,/MST234.png,,,,,,,,,,,,,,,,,,,,,
-MST235,MST,Dust from Stillwater Shrine,1,0,,3,,,"Draconic, Illusionist, Action, Ash","Material, Phantasm",,,,,,"**Material** - While this is under a permanent other than Miragai, that permanent has **phantasm**.",Draconic Illusionist Action - Ash,,,,No,M,,,Saad Irfan,,MST235,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST235.png,,,,,,,,,,,,,,,,,,,,,
+MST235,MST,Dust from Stillwater Shrine,1,0,,3,,,"Draconic, Illusionist, Action, Ash",Material,,,Phantasm,,,"**Material** - While this is under a permanent other than Miragai, that permanent has **phantasm**.",Draconic Illusionist Action - Ash,,,,No,M,,,Saad Irfan,,MST235,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST235.png,,,,,,,,,,,,,,,,,,,,,
 MST236,MST,Shadowrealm Horror,1,2,6,3,,,"Shadow, Brute, Action, Attack","Go again, Blood Debt",,,,,,"As an additional cost to play this, banish 3 random cards in your graveyard.
 
 If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 or more, this gets **go again**. 3 or more, you may play a card banished this way this turn.
@@ -614,9 +614,9 @@ MST237,MST,Eloquent Eulogy,1,1,4,3,,,"Shadow, Runeblade, Action, Attack","Rune G
 When the combat chain closes, if a hero has lost {h} this turn, create an Eloquence token.
 
 **Blood Debt**",Shadow Runeblade Action - Attack,,,,No,M,,,Federico Musetti,,MST237,/MST237.png,,,,,,,,,,,,,,,,,,,,,
-MST238,MST,"Enigma, New Moon",,,,,20,4,"Mystic, Illusionist, Hero, Young",,,,,,,"Equipment you own gets **cloaked**
+MST238,MST,"Enigma, New Moon",,,,,20,4,"Mystic, Illusionist, Hero, Young",,Instant,,Cloaked,,Ward,"Equipment you own gets **cloaked**
 
-**Instant** - {c}{c}{c}, Turn target face-down equipment you have equipped face-up. If it has **ward**, create 3 Spectral Shield tokens.",Mystic Illusionist Hero - Young,,,No,No,L,R,EA,Livia Prime,,MST238,/MST238.png,,,,,,,,,,,,,,,,,,,,,
-HER117,HER,"Blaze, Firemind",,,,,17,4,"Wizard, Hero, Young",,,,,,,"Whenever you **opt**, put energy counters on Blaze equal to the number of cards looked at this way.
+**Instant** - {c}{c}{c}, Turn target face-down equipment you have equipped face-up. If it has **ward**, create 3 Spectral Shield tokens.",Mystic Illusionist Hero - Young,,,No,No,L,R,,Livia Prima,,MST238,/MST238.png,V,C,,Livia Prima,,MST238,/MST238_V2.png,V,C,FA,Livia Prima,,MST238,/MST238_V2_BACK.png,,,,,,,
+HER117,HER,"Blaze, Firemind",,,,,17,4,"Wizard, Hero, Young",,Once per Turn Instant,,,,Opt,"Whenever you **opt**, put energy counters on Blaze equal to the number of cards looked at this way.
 
 **Once per Turn Instant** - Remove X energy counters from Blaze: Banish a Wizard non-attack action card from your hand with an effect that deals arcane damage equal to X. You may play it this turn as though it were an instant.",Wizard Hero - Young,,,No,No,P,R,,Isuardi Therianto,,HER117,/HER117.png,,,,,,,,,,,,,,,,,,,,,
