@@ -253,6 +253,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Red in the Ledger",
   },
   {
+    abbreviations: ["Cats"],
+    card: "Restless Coalescence",
+  },
+  {
     abbreviations: ["SFaF", "S4aS"],
     card: "Scar for a Scar",
   },
