@@ -77,7 +77,7 @@ export const abbreviations: Abbreviation[] = [
     card: "Burn Them All",
   },
   {
-    abbreviations: ["🎂", "Cake"],
+    abbreviations: ["Cake", "🎂"],
     card: "Ninth Blade of the Blood Oath",
   },
   {
@@ -89,7 +89,7 @@ export const abbreviations: Abbreviation[] = [
     card: "Channel Mount Heroic",
   },
   {
-    abbreviations: ["C&C", "CnC"],
+    abbreviations: ["CnC", "C&C"],
     card: "Command and Conquer",
   },
   {
@@ -225,7 +225,7 @@ export const abbreviations: Abbreviation[] = [
     card: "Mask of Momentum",
   },
   {
-    abbreviations: ["PJs", "Pajamas"],
+    abbreviations: ["Pajamas", "PJs"],
     card: "Alluvion Constellas",
   },
   {

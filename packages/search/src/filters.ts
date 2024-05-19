@@ -27,6 +27,7 @@ export type Filter =
   | "art"
   | "artist"
   | "attack"
+  | "banned"
   | "b"
   | "block"
   | "c"
@@ -61,8 +62,6 @@ export type Filter =
   | "rarity"
   | "referencedby"
   | "references"
-  | "rf"
-  | "restricted"
   | "s"
   | "set"
   | "sp"
@@ -102,6 +101,12 @@ export interface FilterToPropertyMapping {
 
 const artistFilter: FilterToPropertyMapping = {
   property: "artists",
+  isArray: true,
+  partialMatch: true,
+};
+
+const bannedFilter: FilterToPropertyMapping = {
+  property: "bannedFormats",
   isArray: true,
   partialMatch: true,
 };
@@ -191,12 +196,6 @@ const referencesFilter: FilterToPropertyMapping = {
   property: "n/a",
 };
 
-const restrictedFilter: FilterToPropertyMapping = {
-  property: "restrictedFormats",
-  isArray: true,
-  partialMatch: true,
-};
-
 const setFilter: FilterToPropertyMapping = {
   property: "sets",
   isArray: true,
@@ -249,6 +248,7 @@ export const filtersToCardPropertyMappings = {
   attack: powerFilter,
   b: defenseFilter,
   block: defenseFilter,
+  banned: bannedFilter,
   c: classFilter,
   class: classFilter,
   chain: chainFilter,
@@ -282,8 +282,7 @@ export const filtersToCardPropertyMappings = {
   rarity: rarityFilter,
   referencedby: referencedByFilter,
   references: referencesFilter,
-  rf: restrictedFilter,
-  restricted: restrictedFilter,
+  rf: bannedFilter,
   s: setFilter,
   set: setFilter,
   sp: specializationsFilter,
