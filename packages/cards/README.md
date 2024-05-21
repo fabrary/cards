@@ -19,12 +19,12 @@
 
 A library of all Flesh and Blood cards, available as a bundled TypeScript file with matching interfaces. Source data comes from the amazing [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards) repository maintained by [Tyler Luce](https://github.com/luceleaftea) - all credit goes to him, and all errors are probably added by me in this project 😅.
 
-To install run `npm i --save fab-cards`.
+To install run `npm i --save @flesh-and-blood/cards`.
 
 Access the card data in your project:
 
 ```ts
-import { cards } from "fab-cards";
+import { cards } from "@flesh-and-blood/cards";
 
 cards.forEach((card) => {
   // do stuff with the card data
@@ -49,7 +49,7 @@ cards.forEach((card) => {
 | setIdentifiers | `string` array       | `[ "1HP009", "CRU006" ]`                   |
 | sets           | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`  |
 | specialImage   | `string`             | `"1HP001.width-450"`                       |
-| subtypes       | `Subtype` enum array | `["OneHanded", "Dagger"]`, `["Aura"]`      |
+| subtypes       | `Subtype` enum array | `["1H", "Dagger"]`, `["Aura"]`             |
 | types          | `Type` enum array    | `["Action"]`, `["Hero"]`                   |
 | typeText       | `string`             | `"Elemental Ranger Action – Arrow Attack"` |
 

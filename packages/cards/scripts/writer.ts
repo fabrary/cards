@@ -48,6 +48,7 @@ const getPrintings = (printings: Printing[]) => {
         tcgplayer,
         treatment,
         image,
+        oppositeImage,
       }
     ) =>
       (printings += `{
@@ -65,6 +66,7 @@ const getPrintings = (printings: Printing[]) => {
       }
       identifier: "${identifier}",
       image: "${image}",
+      ${oppositeImage ? `oppositeImage: "${oppositeImage}",` : ``}
       print: "${print}",
       set: ${getEnumValue(set, "Release", Release)},
       ${
@@ -132,7 +134,13 @@ const generateCardTypeScript = (card: Card): String => {
       card.oppositeSideCardIdentifier
         ? `oppositeSideCardIdentifier: \`${card.oppositeSideCardIdentifier}\`,`
         : ``
-    }
+    }${
+    card.oppositeSideCardIdentifiers?.length
+      ? `oppositeSideCardIdentifiers: [${card.oppositeSideCardIdentifiers.map(
+          (id) => `"${id}"`
+        )}],`
+      : ``
+  }
     ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
     ${card.power || card.power === 0 ? `power: ${card.power},` : ``}
     ${

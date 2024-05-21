@@ -129,6 +129,138 @@ const getPrinting = ({
   };
 };
 
+const innerChiPrintings: {
+  identifier: string;
+  setString: string;
+  properties: {
+    foilingString?: string;
+    imageSuffix?: string;
+    treatmentString?: string;
+  }[];
+}[] = [
+  {
+    identifier: "MST000",
+    setString: "MST",
+    properties: [
+      { foilingString: "R", imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST010",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST032",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST053",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST095",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST096",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST097",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST098",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST099",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST100",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST101",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "MST102",
+    setString: "MST",
+    properties: [
+      { imageSuffix: "" },
+      { foilingString: "C", imageSuffix: "_V2", treatmentString: "FA" },
+    ],
+  },
+  {
+    identifier: "FAB232",
+    setString: "FAB",
+    properties: [{ foilingString: "R", imageSuffix: "" }],
+  },
+  {
+    identifier: "FAB233",
+    setString: "FAB",
+    properties: [{ foilingString: "R", imageSuffix: "" }],
+  },
+  {
+    identifier: "FAB234",
+    setString: "FAB",
+    properties: [{ foilingString: "R", imageSuffix: "" }],
+  },
+  { identifier: "ENG025", setString: "ENG", properties: [{}] },
+  { identifier: "ENG026", setString: "ENG", properties: [{}] },
+  { identifier: "ENG027", setString: "ENG", properties: [{}] },
+  { identifier: "ENG028", setString: "ENG", properties: [{}] },
+  { identifier: "NUU026", setString: "NUU", properties: [{}] },
+  { identifier: "NUU027", setString: "NUU", properties: [{}] },
+  { identifier: "ZEN025", setString: "ZEN", properties: [{}] },
+  { identifier: "ZEN026", setString: "ZEN", properties: [{}] },
+  { identifier: "ZEN027", setString: "ZEN", properties: [{}] },
+  { identifier: "ZEN028", setString: "ZEN", properties: [{}] },
+];
+
 const getPrintings = (card: ParsedCard): Printing[] => {
   const printings: Printing[] = [];
 
@@ -265,7 +397,33 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   }
 
   printings.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
-  return printings;
+
+  const printingsOverride: Printing[] = [];
+  if (card.name === "Inner Chi") {
+    for (const { identifier, setString, properties } of innerChiPrintings) {
+      const basePrinting = {
+        artist: "Carlos Cruchaga",
+        identifier,
+        setString,
+      };
+
+      for (const {
+        foilingString,
+        imageSuffix,
+        treatmentString,
+      } of properties) {
+        const printing: Printing = getPrinting({
+          ...basePrinting,
+          imageUrl: `${identifier}_BACK${imageSuffix || ""}.png`,
+          ...(foilingString ? { foilingString } : {}),
+          ...(treatmentString ? { treatmentString } : {}),
+        });
+        printing.oppositeImage = `${identifier}${imageSuffix || ""}.png`;
+        printingsOverride.push(printing);
+      }
+    }
+  }
+  return printingsOverride.length ? printingsOverride : printings;
 };
 
 const getKeywords = (card: ParsedCard): Keyword[] => {

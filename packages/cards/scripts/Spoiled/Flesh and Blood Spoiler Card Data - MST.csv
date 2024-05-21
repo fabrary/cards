@@ -3,15 +3,15 @@ MST000,MST,Mistcloak Gully,,1,,,,,"Mystic, Instant, Landmark","Legendary, Transc
 
 The first attack that targets you each turn gets -1{p}.
 
-At the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, **transcend**.",Mystic Instant - Landmark,,,,No,F,R,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,,,,,,,,,,,,,,,,,,,,,
+At the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, **transcend**.",Mystic Instant - Landmark,,,,No,F,R,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,F,C,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,,,,,,,,,,,,,,
 MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this.""
 
-**Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_Back.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
-MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,,/MST002_Back.png,T,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,
+**Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_BACK_V2.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
+MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,,/MST002_BACK_V2.png,T,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,
 MST003,MST,Beckoning Mistblade,,,,,,,,,,,,,,,,,,,,T,,,Jessketchin,,MST003,/MST003.png,,,,,,,,,,,,,,,,,,,,,
 MST004,MST,Mask of Recurring Nightmares,,,,2,,,"Mystic, Assassin, Equipment, Head",Blade Break,Once per Turn Attack Reaction,,,,,"**Once per Turn Attack Reaction** - {c}{c}{c}: Target defending hero banishes a card from their hand.
 
-**Blade Break**",Mystic Assassin Equipment - Head,,,,No,L,R,,Isuardi Therianto,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png,L,C,EA,Isuardi Therianto,,MST004,/MST004-CF.png,,,,,,,,,,,,,,
+**Blade Break**",Mystic Assassin Equipment - Head,,,,No,L,R,,Isuardi Therianto,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png,L,C,EA,Isuardi Therianto,,MST004,/MST004_V2.png,,,,,,,,,,,,,,
 MST005,MST,Heirloom of Snake Hide,,,,2,,,"Mystic, Assassin, Equipment, Chest","Cloaked, Battleworn",,,,,,"**Cloaked**
 
 While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
@@ -28,8 +28,8 @@ MST009,MST,Siren's Call,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Look
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create a Fang Strike and Slither in your hand.
 - Banish up to 2 cards in an opposing hero's graveyard.
-- **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_M.png,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,M,,,Mario Wibisono,,MST010,/MST010.png,,,,,,,
-"MST010, MST032, MST053, MST096, MST097, MST098, MST099, MST100, MST101, MST102",MST,Inner Chi,3,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_M_BACK.png,V,C,FA,Carlos Cruchaga,,MST032,/MST032_M_BACK.png,V,C,FA,Carlos Cruchaga,,MST053,/MST053_M_BACK.png,C,,,Carlos Cruchaga,,MST099,/MST099_BACK.png
+- **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_V2.png,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,M,,,Mario Wibisono,,MST010,/MST010.png,,,,,,,
+"MST010, MST032, MST053, MST096, MST097, MST098, MST099, MST100, MST101, MST102",MST,Inner Chi,3,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_BACK_V2.png,V,C,FA,Carlos Cruchaga,,MST032,/MST032_BACK_V2.png,V,C,FA,Carlos Cruchaga,,MST053,/MST053_BACK_V2.png,C,,,Carlos Cruchaga,,MST099,/MST099_BACK.png
 MST011,MST,Tide Chakra,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +3{p}. If you've **transcended** this turn, instead it gets +5{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST011,/MST011.png,,,,,,,,,,,,,,,,,,,,,
 MST012,MST,Tide Chakra,2,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +2{p}. If you've **transcended** this turn, instead it gets +4{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST012,/MST012.png,,,,,,,,,,,,,,,,,,,,,
 MST013,MST,Tide Chakra,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}. If you've **transcended** this turn, instead it gets +3{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST013,/MST013.png,,,,,,,,,,,,,,,,,,,,,
@@ -94,8 +94,8 @@ MST044,MST,Waxing Specter,2,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward 2,,,
 MST045,MST,Waxing Specter,3,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward 1,,,,,,"If you've pitched a blue card this turn, this enters the arena with a +1{p} counter.
 
 **Ward 1**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST045,/MST045.png,,,,,,,,,,,,,,,,,,,,,
-MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,MST046,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,,/MST046_Back.png,M,,,Lius Lasahido,,MST046,/MST046.png,,,,,,,
-MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,MST047,/MST047_V2.png,V,C,FA,Lius Lasahido,,,/MST047_Back.png,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,
+MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,MST046,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,,/MST046_BACK.png,M,,,Lius Lasahido,,MST046,/MST046.png,,,,,,,
+MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,MST047,/MST047_V2.png,V,C,FA,Lius Lasahido,,,/MST047_BACK.png,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,
 MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blade Break,Instant,,,,Transcend,"Whenever you **transcend**, you may gain {r}.
 
 **Instant** - {c}{c}{c}, destroy this: Create a Zen State token.
@@ -114,7 +114,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create 2 Crouching Tigers in your hand.
 - Your Crouching Tigers get +1{p} this turn.
-- **Transcend**",Mystic Ninja Instant,,,,No,V,C,FA,Wisnu Tan,,MST053,/MST053_M.png,P,R,EA,Wisnu Tan,,,/FAB233.png,M,,,Wisnu Tan,,MST053,/MST053.png,,,,,,,
+- **Transcend**",Mystic Ninja Instant,,,,No,V,C,FA,Wisnu Tan,,MST053,/MST053_V2.png,P,R,EA,Wisnu Tan,,,/FAB233.png,M,,,Wisnu Tan,,MST053,/MST053.png,,,,,,,
 MST054,MST,Wind Chakra,1,0,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"The next Crouching Tiger you play this turn gets +3{p}. If you've **transcended** this turn, instead it gets +5{p}.
 
 **Go again**",Mystic Ninja Action,,,,No,R,,,Narendra B Adi,,MST054,/MST054.png,,,,,,,,,,,,,,,,,,,,,
@@ -231,42 +231,42 @@ MST095,MST,A Drop in the Ocean,3,0,,,,,"Mystic, Instant","Legendary, Transcend",
 
 Target attack gets -1{p}.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,AOJI Maiko,,MST095,/MST095_M.png,C,,,AOJI Maiko,,MST095,/MST095.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,AOJI Maiko,,MST095,/MST095_V2.png,C,,,AOJI Maiko,,MST095,/MST095.png,,,,,,,,,,,,,,
 MST096,MST,Homage to Ancestors,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Gain 1{h}
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST096,/MST096_M.png,C,,, 寿多浩 / Hiro Suda,,MST096,/MST096.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST096,/MST096_V2.png,C,,, 寿多浩 / Hiro Suda,,MST096,/MST096.png,,,,,,,,,,,,,,
 MST097,MST,Pass Over,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Banish target card from an opposing hero's graveyard.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_M.png,C,,,Hatori Kyoka,,MST097,/MST097.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_V2.png,C,,,Hatori Kyoka,,MST097,/MST097.png,,,,,,,,,,,,,,
 MST098,MST,Path Well Traveled,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,Go again,,,"**Legendary**
 
 Target attack gets **go again**.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Shiro Yayoi,,MST098,/MST098_M.png,C,,,Shiro Yayoi,,MST098,/MST098.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Shiro Yayoi,,MST098,/MST098_V2.png,C,,,Shiro Yayoi,,MST098,/MST098.png,,,,,,,,,,,,,,
 MST099,MST,Preserve Tradition,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Put target action card from your graveyard on the bottom of your deck.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Murilo Amgarten,,MST099,/MST099_M.png,C,,,Murilo Amgarten,,MST099,/MST099.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Murilo Amgarten,,MST099,/MST099_V2.png,C,,,Murilo Amgarten,,MST099,/MST099.png,,,,,,,,,,,,,,
 MST100,MST,"Rising Sun, Setting Moon",3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Draw a card, then put a card from your hand on the bottom of your deck.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Daken,,MST100,/MST100_M.png,C,,,Daken,,MST100,/MST100.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Daken,,MST100,/MST100_V2.png,C,,,Daken,,MST100,/MST100.png,,,,,,,,,,,,,,
 MST101,MST,Stir the Pot,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Shuffle.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_M.png,C,,, 寿多浩 / Hiro Suda,,MST101,/MST101.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_V2.png,C,,, 寿多浩 / Hiro Suda,,MST101,/MST101.png,,,,,,,,,,,,,,
 MST102,MST,The Grain that Tips the Scale,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Target attack gets +1{p}.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_M.png,C,,,romiy,,MST102,/MST102.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_V2.png,C,,,romiy,,MST102,/MST102.png,,,,,,,,,,,,,,
 MST103,MST,Bonds of Agony,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 If you've played or activated 3 or more attack reactions this chain link, this gets +3{p} and ""When this hits a hero, look at their hand and choose a card. Search their hand, deck, and graveyard and banish up to 3 cards with the same name as the chosen card. They shuffle.""",Assassin Action - Attack,,,,No,M,,,Fajareka Setiawan,,MST103,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST103.png,,,,,,,,,,,,,,,,,,,,,

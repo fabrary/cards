@@ -25,6 +25,7 @@ export interface Card {
   isCardBack?: boolean;
   keywords?: Keyword[];
   oppositeSideCardIdentifier?: string;
+  oppositeSideCardIdentifiers?: string[];
   pitch?: number;
   power?: number;
   restrictedFormats?: Format[];
@@ -47,6 +48,7 @@ export interface Printing {
   foiling?: Foiling;
   identifier: string;
   image: string;
+  oppositeImage?: string;
   print: string;
   set: Release;
   tcgplayer?: {

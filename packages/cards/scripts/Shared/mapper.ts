@@ -11,6 +11,7 @@ import {
   Subtype,
   Treatment,
   fullSetIdentifiers,
+  getPrint,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 
@@ -27,6 +28,13 @@ export const getStringIfNotNumber = (value?: string): string | undefined => {
     return isNaN(parsed) ? value : undefined;
   }
 };
+
+export const ignoreOppositeSides = [
+  "Blossom of Spring",
+  "Fyendal's Spring Tunic",
+  "Scabskin Leathers",
+  "Snapdragon Scalers",
+];
 
 const OPPOSITE_SIDE_CARD_OVERRIDES: { back: string; fronts: string[] }[] = [
   {
@@ -53,6 +61,10 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
     const oppositeSideOverrideIdentifier = OPPOSITE_SIDE_CARD_OVERRIDES.find(
       ({ fronts }) => fronts.includes(card.cardIdentifier)
     )?.back;
+    const oppositeSideOverrideIdentifiers =
+      OPPOSITE_SIDE_CARD_OVERRIDES.find(
+        ({ back }) => back === card.cardIdentifier
+      )?.fronts || [];
 
     const oppositeSide = oppositeSideOverrideIdentifier
       ? cards.find(
@@ -69,15 +81,77 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
         });
 
     const isCardBack =
-      oppositeSide &&
-      (oppositeSide.subtypes.includes(Subtype.Invocation) ||
-        oppositeSide.subtypes.includes(Subtype.Construct) ||
-        oppositeSide.subtypes.includes(Subtype.Figment) ||
-        oppositeSide.keywords?.includes(Keyword.Transcend));
+      oppositeSideOverrideIdentifiers.length > 0 ||
+      (oppositeSide &&
+        (oppositeSide.subtypes.includes(Subtype.Invocation) ||
+          oppositeSide.subtypes.includes(Subtype.Construct) ||
+          oppositeSide.subtypes.includes(Subtype.Figment) ||
+          oppositeSide.keywords?.includes(Keyword.Transcend)));
+
+    if (oppositeSide && oppositeSideOverrideIdentifiers.length === 0) {
+      const printingsWithOppositeSide: Printing[] = card.printings.map(
+        (printing) => {
+          const oppositeImageFullMatch = oppositeSide.printings.find(
+            ({ edition, identifier, foiling, treatment }) => {
+              const editionsMatch = edition === printing.edition;
+              const identifiersMatch = identifier === printing.identifier;
+              const foilingsMatch = foiling === printing.foiling;
+              const treatmentsMatch = treatment === printing.treatment;
+
+              return (
+                editionsMatch &&
+                identifiersMatch &&
+                foilingsMatch &&
+                treatmentsMatch
+              );
+            }
+          )?.image;
+          const oppositeImagePartialMatchBothHaveTreatment =
+            oppositeSide.printings.find(
+              ({ edition, identifier, foiling, treatment }) => {
+                const editionsMatch = edition === printing.edition;
+                const identifiersMatch = identifier === printing.identifier;
+                const foilingsMatch = foiling === printing.foiling;
+                const bothHaveTreatments = !!treatment && !!printing.treatment;
+
+                return (
+                  editionsMatch &&
+                  identifiersMatch &&
+                  foilingsMatch &&
+                  bothHaveTreatments
+                );
+              }
+            )?.image;
+          const oppositeImagePartialMatch = oppositeSide.printings.find(
+            ({ edition, identifier, foiling }) => {
+              const editionsMatch = edition === printing.edition;
+              const identifiersMatch = identifier === printing.identifier;
+              const foilingsMatch = foiling === printing.foiling;
+
+              return editionsMatch && identifiersMatch && foilingsMatch;
+            }
+          )?.image;
+
+          const oppositeImage =
+            oppositeImageFullMatch ||
+            oppositeImagePartialMatchBothHaveTreatment ||
+            oppositeImagePartialMatch;
+
+          return { ...printing, oppositeImage };
+        }
+      );
+      card.printings = printingsWithOppositeSide;
+    }
+
     return {
       ...card,
       ...(oppositeSide
-        ? { oppositeSideCardIdentifier: oppositeSide.cardIdentifier }
+        ? {
+            oppositeSideCardIdentifier: oppositeSide.cardIdentifier,
+            oppositeSideCardIdentifiers: oppositeSideOverrideIdentifiers.length
+              ? oppositeSideOverrideIdentifiers
+              : [oppositeSide.cardIdentifier],
+          }
         : {}),
       ...(isCardBack ? { isCardBack } : {}),
     };
