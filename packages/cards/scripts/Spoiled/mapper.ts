@@ -418,7 +418,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
           ...(foilingString ? { foilingString } : {}),
           ...(treatmentString ? { treatmentString } : {}),
         });
-        printing.oppositeImage = `${identifier}${imageSuffix || ""}.png`;
+        printing.oppositeImage = `${identifier}${imageSuffix || ""}`;
         printingsOverride.push(printing);
       }
     }
