@@ -5,11 +5,11 @@ import Search from "./search";
 describe("Shorthands", () => {
   const cardSearch = new Search(cards);
 
-  it.each(shorthands.map(({ filters }) => [filters]))(
+  it.each(shorthands.map(({ shorthands }) => [shorthands]))(
     "Gets matching cards for %s",
-    (filters) => {
-      for (const filter of filters) {
-        const { searchResults } = cardSearch.search(filter);
+    (shorthands) => {
+      for (const shorthand of shorthands) {
+        const { searchResults } = cardSearch.search(shorthand);
         expect(searchResults.length).toBeGreaterThanOrEqual(1);
       }
     }

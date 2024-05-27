@@ -385,7 +385,9 @@ export const getKeywordsAndAppliedFiltersFromText = (
   const searchCriteria: string[] = [];
   for (const criteria of rawSearchCriteria) {
     const expanded = shorthands.find(({ shorthands }) =>
-      shorthands.includes(criteria)
+      shorthands
+        .map((shorthand) => shorthand.toLowerCase())
+        .includes(criteria.toLowerCase())
     );
     if (expanded) {
       searchCriteria.push(...expanded.filters);

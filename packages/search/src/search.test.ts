@@ -271,7 +271,6 @@ describe("Card search", () => {
       const { keywords, searchResults } = cardSearch.search(
         randomizeCapitalization(searchTerm as string)
       );
-      console.log(keywords);
       expect(searchResults.length).toBeGreaterThan(0);
     }
   });
