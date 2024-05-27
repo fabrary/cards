@@ -23,7 +23,7 @@ export const shorthands: {
     filters: ['t:"defense reaction"'],
     shorthands: ["DR"],
   },
-  { description: "Go again", filters: ['k:"go again"'], shorthands: ["ga"] },
+  { description: "Go again", filters: ['k:"go again"'], shorthands: ["GA"] },
   {
     description: "Non-attack actions",
     filters: ["t:action", "st:nonattack"],
@@ -33,8 +33,8 @@ export const shorthands: {
     description: "Plus defense",
     filters: ["+ {d}"],
     shorthands: [
-      "Pump defense",
       "Pumps defense",
+      "Pump defense",
       "Buff defense",
       "Buffs defense",
     ],
@@ -43,8 +43,8 @@ export const shorthands: {
     description: "Plus power",
     filters: ["+ {p}"],
     shorthands: [
-      "Pump",
       "Pumps",
+      "Pump",
       "Buff",
       "Buffs",
       "Pump attack",
