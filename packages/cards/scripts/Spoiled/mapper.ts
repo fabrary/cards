@@ -1,3 +1,4 @@
+import { releasedCards } from "../Released";
 import {
   addOppositeSideCardIdentifiers,
   getDefaultImage,
@@ -318,6 +319,50 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   });
   printings.push(printing1);
 
+  if (!rarity2 && !artist2) {
+    const { rarity } = getParsedRarities(card);
+    const { types } = getTypeAndSubType(card);
+    const setIdentifier = (identifier || identifiers[0]).slice(0, 3);
+    const cardIdentifier = getIdentifier(card);
+
+    const isMST = setIdentifier === "MST";
+    const isCommonRareOrMajestic = [
+      Rarity.Common,
+      Rarity.Rare,
+      Rarity.Majestic,
+    ].includes(rarity);
+    const isEquipment = types.includes(Type.Equipment);
+    const isNotReprint = !releasedCards.find(
+      (released) => released.cardIdentifier === cardIdentifier
+    );
+
+    const shouldAddRainbowPrinting =
+      isMST && isCommonRareOrMajestic && !isEquipment && isNotReprint;
+    if (shouldAddRainbowPrinting) {
+      const rainbowPrinting = getPrinting({
+        artist,
+        foilingString: "R",
+        identifier: identifier || identifiers[0],
+        setString: setIdentifiers[0],
+        imageUrl,
+      });
+      printings.push(rainbowPrinting);
+    }
+
+    const shouldAddColdPrinting =
+      isMST && isCommonRareOrMajestic && isEquipment && isNotReprint;
+    if (shouldAddColdPrinting) {
+      const coldPrinting = getPrinting({
+        artist,
+        foilingString: "C",
+        identifier: identifier || identifiers[0],
+        setString: setIdentifiers[0],
+        imageUrl,
+      });
+      printings.push(coldPrinting);
+    }
+  }
+
   if (rarity2 && artist2) {
     const identifierFor2 = identifier2
       ? identifier2
@@ -423,6 +468,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       }
     }
   }
+
   return printingsOverride.length ? printingsOverride : printings;
 };
 
