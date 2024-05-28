@@ -9,7 +9,11 @@ import {
 } from "@flesh-and-blood/types";
 import { getAbbreviation } from "./abbreviations";
 import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters";
-import { shorthands } from "./shorthands";
+import {
+  multiWordShorthands,
+  shorthands,
+  singleWordShorthands,
+} from "./shorthands";
 import { PUNCTUATION } from "./constants";
 import { getCardByName, getRelatedCardsByName } from ".";
 
@@ -381,13 +385,20 @@ export const getKeywordsAndAppliedFiltersFromText = (
   keywords: string[];
   specialConditions?: SpecialConditions;
 } => {
-  const rawSearchCriteria = getSearchCriteria(text);
+  let expandedText = text;
+  for (const { filters, shorthands } of multiWordShorthands) {
+    for (const shorthand of shorthands) {
+      if (expandedText.includes(shorthand)) {
+        expandedText = expandedText.replace(shorthand, filters.join(" "));
+        break;
+      }
+    }
+  }
+  const rawSearchCriteria = getSearchCriteria(expandedText);
   const searchCriteria: string[] = [];
   for (const criteria of rawSearchCriteria) {
-    const expanded = shorthands.find(({ shorthands }) =>
-      shorthands
-        .map((shorthand) => shorthand.toLowerCase())
-        .includes(criteria.toLowerCase())
+    const expanded = singleWordShorthands.find(({ shorthands }) =>
+      shorthands.includes(criteria)
     );
     if (expanded) {
       searchCriteria.push(...expanded.filters);

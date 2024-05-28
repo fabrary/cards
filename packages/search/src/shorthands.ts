@@ -31,6 +31,16 @@ export const shorthands: {
     shorthands: ["NAA"],
   },
   {
+    description: "Plus defense",
+    filters: ["+ {d}"],
+    shorthands: [
+      "Pump defense",
+      "Pumps defense",
+      "Buff defense",
+      "Buffs defense",
+    ],
+  },
+  {
     description: "Plus power",
     filters: ["+ {p}"],
     shorthands: [
@@ -57,3 +67,25 @@ export const shorthands: {
   },
   { description: "Spellvoid", filters: ['k:"spellvoid"'], shorthands: ["SV"] },
 ];
+
+export const multiWordShorthands = shorthands
+  .filter(({ shorthands }) =>
+    shorthands.some((shorthand) => shorthand.includes(" "))
+  )
+  .map((shorthand) => ({
+    ...shorthand,
+    shorthands: shorthand.shorthands
+      .filter((shorthand) => shorthand.includes(" "))
+      .map((shorthand) => shorthand.toLowerCase()),
+  }));
+
+export const singleWordShorthands = shorthands
+  .filter(({ shorthands }) =>
+    shorthands.some((shorthand) => !shorthand.includes(" "))
+  )
+  .map((shorthand) => ({
+    ...shorthand,
+    shorthands: shorthand.shorthands
+      .filter((shorthand) => !shorthand.includes(" "))
+      .map((shorthand) => shorthand.toLowerCase()),
+  }));
