@@ -56,6 +56,10 @@ export const shorthands: {
       "Buff attacks",
       "Buffs attack",
       "Buffs attacks",
+      "Pump power",
+      "Pumps power",
+      "Buff power",
+      "Buffs power",
     ],
   },
   {
