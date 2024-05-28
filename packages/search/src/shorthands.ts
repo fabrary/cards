@@ -76,7 +76,8 @@ export const multiWordShorthands = shorthands
     ...shorthand,
     shorthands: shorthand.shorthands
       .filter((shorthand) => shorthand.includes(" "))
-      .map((shorthand) => shorthand.toLowerCase()),
+      .map((shorthand) => shorthand.toLowerCase())
+      .sort((s1, s2) => s2.length - s1.length),
   }));
 
 export const singleWordShorthands = shorthands
@@ -87,5 +88,6 @@ export const singleWordShorthands = shorthands
     ...shorthand,
     shorthands: shorthand.shorthands
       .filter((shorthand) => !shorthand.includes(" "))
-      .map((shorthand) => shorthand.toLowerCase()),
+      .map((shorthand) => shorthand.toLowerCase())
+      .sort((s1, s2) => s2.length - s1.length),
   }));

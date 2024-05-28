@@ -318,7 +318,7 @@ const punctuationOverrides = [
 ];
 const getSearchCriteria = (text: string): string[] => {
   const searchCriteria: string[] = [];
-  let rawSearchCriteria = text.trim().toLowerCase();
+  let rawSearchCriteria = text;
   for (const { text, override } of punctuationOverrides) {
     if (rawSearchCriteria.includes(text)) {
       rawSearchCriteria = rawSearchCriteria.replace(text, override);
@@ -385,7 +385,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   keywords: string[];
   specialConditions?: SpecialConditions;
 } => {
-  let expandedText = text;
+  let expandedText = text.trim().toLowerCase();
   for (const { filters, shorthands } of multiWordShorthands) {
     for (const shorthand of shorthands) {
       if (expandedText.includes(shorthand)) {

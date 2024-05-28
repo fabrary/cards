@@ -1,12 +1,12 @@
 import { cards } from "@flesh-and-blood/cards";
-import { shorthands } from "./shorthands";
+import { multiWordShorthands, shorthands } from "./shorthands";
 import Search from "./search";
 
 describe("Shorthands", () => {
   const cardSearch = new Search(cards);
 
   it("Buff defenses doesn't include buff powers", () => {
-    const { searchResults } = cardSearch.search("buff defense");
+    const { searchResults } = cardSearch.search("Pump defense");
     expect(searchResults.length).toBeGreaterThanOrEqual(1);
     const increaseTheTension = searchResults.find(
       ({ name }) => name === "Increase the Tension"
@@ -14,13 +14,15 @@ describe("Shorthands", () => {
     expect(increaseTheTension).toBeFalsy();
   });
 
-  it.each(shorthands.map(({ shorthands }) => [shorthands]))(
+  it.each(shorthands.flatMap(({ shorthands }) => shorthands))(
     "Gets matching cards for %s",
-    (shorthands) => {
-      for (const shorthand of shorthands) {
-        const { searchResults } = cardSearch.search(shorthand);
-        expect(searchResults.length).toBeGreaterThanOrEqual(1);
-      }
+    (shorthand) => {
+      // for (const shorthand of shorthands) {
+      const { searchResults } = cardSearch.search(shorthand);
+      expect(searchResults.length).toBeGreaterThanOrEqual(1);
+      // }
     }
   );
+
+  console.log(JSON.stringify(multiWordShorthands), null, 2);
 });
