@@ -1,6 +1,7 @@
 export const shorthands: {
   description: string;
   filters: string[];
+  helper?: string;
   shorthands: string[];
 }[] = [
   {
@@ -30,16 +31,6 @@ export const shorthands: {
     shorthands: ["NAA"],
   },
   {
-    description: "Plus defense",
-    filters: ["+ {d}"],
-    shorthands: [
-      "Pumps defense",
-      "Pump defense",
-      "Buff defense",
-      "Buffs defense",
-    ],
-  },
-  {
     description: "Plus power",
     filters: ["+ {p}"],
     shorthands: [
@@ -60,6 +51,8 @@ export const shorthands: {
   {
     description: "Poppers",
     filters: ["!c:illusionist", "st:attack", "pwr:>=6", "def:>=0"],
+    helper:
+      '6+ power non-Illusionist attacks that can "pop" phantasm attacks when defending',
     shorthands: ["Poppers", "Popper"],
   },
   { description: "Spellvoid", filters: ['k:"spellvoid"'], shorthands: ["SV"] },
