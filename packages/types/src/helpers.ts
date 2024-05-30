@@ -256,12 +256,12 @@ export const getDefaultPrinting = (
       }
     }
 
-    if (card.name === "Wrecking Ball") {
-      console.log(firstImage, nonPromoImage);
-    }
-    if (card.name === "The Librarian") {
-      console.log(firstImage, nonPromoImage);
-    }
+    // if (card.name === "Wrecking Ball") {
+    //   console.log(firstImage, nonPromoImage);
+    // }
+    // if (card.name === "The Librarian") {
+    //   console.log(firstImage, nonPromoImage);
+    // }
     return nonPromoImage || firstImage || printings[0];
   }
 };
