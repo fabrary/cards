@@ -2,9 +2,13 @@ import { Card, Rarity } from "@flesh-and-blood/types";
 import { writeFiles } from "./writer";
 import { spoiledCards } from "./Spoiled";
 import { releasedCards } from "./Released";
-import { getDefaultImage, getSpecialImage } from "./Shared";
-import { getPrint } from "@flesh-and-blood/types";
+import {
+  getDefaultPrinting,
+  getPrint,
+  getSpecialPrinting,
+} from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
+import { sortPrintingsByReleaseOrder } from "./Shared";
 
 const outputDirectory = "src";
 
@@ -33,13 +37,10 @@ releasedCards.forEach((card) => {
         deduplicatedPrintings.push(printing);
       }
     });
+    deduplicatedPrintings.sort(sortPrintingsByReleaseOrder);
 
-    const defaultImage = getDefaultImage(card.name, deduplicatedPrintings);
-    const specialImage = getSpecialImage(
-      card.name,
-      card.cardIdentifier,
-      deduplicatedPrintings
-    );
+    const defaultImage = getDefaultPrinting(card, deduplicatedPrintings).image;
+    const specialImage = getSpecialPrinting(card, deduplicatedPrintings).image;
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();

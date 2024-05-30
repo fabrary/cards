@@ -17,20 +17,23 @@ import {
 } from "@flesh-and-blood/types";
 import {
   addOppositeSideCardIdentifiers,
-  getDefaultImage,
   getFusions,
   getIdentifier,
   getNumberOrUndefined,
   getRarities,
   getRestrictedFormats,
-  getSpecialImage,
   getSpecializations,
   getStringIfNotNumber,
   ignoreOppositeSides,
+  sortPrintingsByReleaseOrder,
 } from "../Shared";
 import { overrides } from "../Shared/artist-overrides";
 import { ParsedCard } from "./parser";
-import { getPrint } from "@flesh-and-blood/types";
+import {
+  getDefaultPrinting,
+  getPrint,
+  getSpecialPrinting,
+} from "@flesh-and-blood/types";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -119,7 +122,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       });
     }
   }
-  images.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
+  images.sort(sortPrintingsByReleaseOrder);
+
   return images;
 };
 
@@ -270,14 +274,20 @@ const getCardData = (card: ParsedCard): Card => {
     artists,
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
-    defaultImage: getDefaultImage(card.name, printings),
+    defaultImage: getDefaultPrinting(
+      { name: card.name, cardIdentifier: getIdentifier(card) },
+      printings
+    ).image,
     name: card.name.trim(),
     printings,
     rarities,
     rarity,
     setIdentifiers,
     sets: getSets(printings),
-    specialImage: getSpecialImage(card.name, getIdentifier(card), printings),
+    specialImage: getSpecialPrinting(
+      { name: card.name, cardIdentifier: getIdentifier(card) },
+      printings
+    ).image,
     subtypes,
     types,
     typeText: card.typeText,

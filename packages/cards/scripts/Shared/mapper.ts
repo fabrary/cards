@@ -12,6 +12,7 @@ import {
   Treatment,
   fullSetIdentifiers,
   getPrint,
+  orderedFullSetBlackBorderIdentifiers,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 
@@ -158,11 +159,6 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   });
 };
 
-const orderedFullSetBlackBorderIdentifiers = Object.keys(fullSetIdentifiers)
-  .filter((set) => set !== "1hp")
-  .reverse()
-  .map((set) => set.toUpperCase());
-
 export const getIdentifier = (card: {
   name: string;
   pitch?: string;
@@ -199,132 +195,149 @@ export const getIdentifier = (card: {
   return color ? `${name}-${color}` : name;
 };
 
-const excludedImages: { [key: string]: string[] } = {
-  "Qi Unleashed": ["TCC090"],
-};
-
-const defaultImagePrintingOverrides: {
-  [key: string]: { setIdentifier: string };
-} = {
-  "Pitfall Trap": {
-    setIdentifier: "LGS151",
-  },
-  "Rockslide Trap": {
-    setIdentifier: "LGS152",
-  },
-  "Spectral Shield": {
-    setIdentifier: "DYN233",
-  },
-  "Tripwire Trap": {
-    setIdentifier: "LGS150",
-  },
-};
-
-export const getDefaultImage = (
-  cardName: string,
-  printings: Printing[]
-): string => {
-  const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
-    ([name]) => cardName === name
+const getPrintReleaseOrder = (printing: Printing): number => {
+  const index = orderedFullSetBlackBorderIdentifiers.findIndex(
+    (setIdentifier) => {
+      const printingSetIdentifier = printing.identifier.slice(0, 3);
+      return printingSetIdentifier === setIdentifier;
+    }
   );
-  const excludedSetIdentifierForCard = excludedImages[cardName] || [];
 
-  if (matchingOverride) {
-    const [_, { setIdentifier }] = matchingOverride;
-    const matchingPrint = printings.find(
-      ({ identifier }) => identifier === setIdentifier
-    );
-    return matchingPrint?.image || "";
-  } else {
-    const reversedPrintings = [...printings].filter(({ identifier }) => {
-      const isPrintingExcluded =
-        excludedSetIdentifierForCard.includes(identifier);
-      return !isPrintingExcluded;
-    });
-
-    let newestBlackBorderStandard;
-    let newestBlackBorder;
-    for (const set of orderedFullSetBlackBorderIdentifiers) {
-      const matchingPrintings = printings.filter((printing) => {
-        const setIdentifier = printing.identifier.slice(0, 3);
-        return set === setIdentifier;
-      });
-      for (const matchingPrinting of matchingPrintings) {
-        if (
-          !newestBlackBorderStandard &&
-          !matchingPrinting.foiling &&
-          !matchingPrinting.treatment &&
-          !!matchingPrinting.image
-        ) {
-          newestBlackBorderStandard = matchingPrinting;
-        }
-        if (
-          !newestBlackBorderStandard &&
-          !matchingPrinting.treatment &&
-          !!matchingPrinting.image &&
-          !matchingPrinting.identifier.includes("000")
-        ) {
-          newestBlackBorderStandard = matchingPrinting;
-        }
-        if (!newestBlackBorder && !!matchingPrinting.image) {
-          newestBlackBorder = matchingPrinting;
-        }
-      }
-    }
-
-    const firstEdition = reversedPrintings.find(
-      (printing) => printing.edition === ReleaseEdition.First
-    );
-    const alphaEdition = reversedPrintings.find(
-      (printing) => printing.edition === ReleaseEdition.Alpha
-    );
-    const unlimitedEdition = reversedPrintings.find(
-      (printing) => printing.edition === ReleaseEdition.Unlimited
-    );
-    const nonPromoEdition = reversedPrintings.find(
-      (printing) => printing.set !== Release.Promos
-    );
-    const standardBlackBorder = reversedPrintings.find((printing) => {
-      const setIdentifier = printing.identifier.slice(0, 3);
-      const isFullSet = !!fullSetIdentifiers[setIdentifier];
-      const isBlackBorder = setIdentifier !== "1HP";
-      return (
-        !printing.foiling &&
-        !printing.treatment &&
-        !!printing.image &&
-        isFullSet &&
-        isBlackBorder
-      );
-    });
-
-    const blackBorder = reversedPrintings.find((printing) => {
-      const setIdentifier = printing.identifier.slice(0, 3);
-      const isFullSet = !!fullSetIdentifiers[setIdentifier];
-      const isBlackBorder = setIdentifier !== "1HP";
-      return (
-        !printing.treatment && !!printing.image && isFullSet && isBlackBorder
-      );
-    });
-
-    const image =
-      reversedPrintings.length > 0
-        ? newestBlackBorderStandard?.image ||
-          newestBlackBorder?.image ||
-          standardBlackBorder?.image ||
-          blackBorder?.image ||
-          nonPromoEdition?.image ||
-          unlimitedEdition?.image ||
-          firstEdition?.image ||
-          alphaEdition?.image ||
-          reversedPrintings.reverse().find(({ image }) => !!image)?.image ||
-          ""
-        : "";
-    if (!image) {
-      console.log(`Missing images for ${cardName}`);
-    }
-    return image;
-  }
+  return index > -1 ? index : 200;
 };
+export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
+  const p1Order = getPrintReleaseOrder(p1);
+  const p2Order = getPrintReleaseOrder(p2);
+
+  return p1Order - p2Order;
+};
+
+// const excludedImages: { [key: string]: string[] } = {
+//   "Qi Unleashed": ["TCC090"],
+// };
+
+// const defaultImagePrintingOverrides: {
+//   [key: string]: { setIdentifier: string };
+// } = {
+//   "Pitfall Trap": {
+//     setIdentifier: "LGS151",
+//   },
+//   "Rockslide Trap": {
+//     setIdentifier: "LGS152",
+//   },
+//   "Spectral Shield": {
+//     setIdentifier: "DYN233",
+//   },
+//   "Tripwire Trap": {
+//     setIdentifier: "LGS150",
+//   },
+// };
+
+// export const getDefaultImage = (
+//   cardName: string,
+//   printings: Printing[]
+// ): string => {
+//   const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
+//     ([name]) => cardName === name
+//   );
+//   const excludedSetIdentifierForCard = excludedImages[cardName] || [];
+
+//   if (matchingOverride) {
+//     const [_, { setIdentifier }] = matchingOverride;
+//     const matchingPrint = printings.find(
+//       ({ identifier }) => identifier === setIdentifier
+//     );
+//     return matchingPrint?.image || "";
+//   } else {
+//     const reversedPrintings = [...printings].filter(({ identifier }) => {
+//       const isPrintingExcluded =
+//         excludedSetIdentifierForCard.includes(identifier);
+//       return !isPrintingExcluded;
+//     });
+
+//     let newestBlackBorderStandard;
+//     let newestBlackBorder;
+//     for (const set of orderedFullSetBlackBorderIdentifiers) {
+//       const matchingPrintings = printings.filter((printing) => {
+//         const setIdentifier = printing.identifier.slice(0, 3);
+//         return set === setIdentifier;
+//       });
+//       for (const matchingPrinting of matchingPrintings) {
+//         if (
+//           !newestBlackBorderStandard &&
+//           !matchingPrinting.foiling &&
+//           !matchingPrinting.treatment &&
+//           !!matchingPrinting.image
+//         ) {
+//           newestBlackBorderStandard = matchingPrinting;
+//         }
+//         if (
+//           !newestBlackBorderStandard &&
+//           !matchingPrinting.treatment &&
+//           !!matchingPrinting.image &&
+//           !matchingPrinting.identifier.includes("000")
+//         ) {
+//           newestBlackBorderStandard = matchingPrinting;
+//         }
+//         if (!newestBlackBorder && !!matchingPrinting.image) {
+//           newestBlackBorder = matchingPrinting;
+//         }
+//       }
+//     }
+
+//     const firstEdition = reversedPrintings.find(
+//       (printing) => printing.edition === ReleaseEdition.First
+//     );
+//     const alphaEdition = reversedPrintings.find(
+//       (printing) => printing.edition === ReleaseEdition.Alpha
+//     );
+//     const unlimitedEdition = reversedPrintings.find(
+//       (printing) => printing.edition === ReleaseEdition.Unlimited
+//     );
+//     const nonPromoEdition = reversedPrintings.find(
+//       (printing) => printing.set !== Release.Promos
+//     );
+//     const standardBlackBorder = reversedPrintings.find((printing) => {
+//       const setIdentifier = printing.identifier.slice(0, 3);
+//       const isFullSet = !!fullSetIdentifiers[setIdentifier];
+//       const isBlackBorder = setIdentifier !== "1HP";
+//       return (
+//         !printing.foiling &&
+//         !printing.treatment &&
+//         !!printing.image &&
+//         isFullSet &&
+//         isBlackBorder
+//       );
+//     });
+
+//     const blackBorder = reversedPrintings.find((printing) => {
+//       const setIdentifier = printing.identifier.slice(0, 3);
+//       const isFullSet = !!fullSetIdentifiers[setIdentifier];
+//       const isBlackBorder = setIdentifier !== "1HP";
+//       return (
+//         !printing.treatment && !!printing.image && isFullSet && isBlackBorder
+//       );
+//     });
+
+//     const image =
+//       reversedPrintings.length > 0
+//         ? newestBlackBorderStandard?.image ||
+//           newestBlackBorder?.image ||
+//           standardBlackBorder?.image ||
+//           blackBorder?.image ||
+//           nonPromoEdition?.image ||
+//           unlimitedEdition?.image ||
+//           firstEdition?.image ||
+//           alphaEdition?.image ||
+//           reversedPrintings.reverse().find(({ image }) => !!image)?.image ||
+//           ""
+//         : "";
+//     if (!image) {
+//       console.log(`Missing images for ${cardName}`);
+//     }
+//     return image;
+//   }
+// };
 
 const specialImagePrintingOverrides: {
   [key: string]: { setIdentifier: string };
@@ -358,95 +371,95 @@ const specialImagePrintingOverrides: {
   },
 };
 
-export const getSpecialImage = (
-  cardName: string,
-  cardIdentifer: string,
-  printings: Printing[]
-): string => {
-  const matchingOverride = Object.entries(specialImagePrintingOverrides).find(
-    ([identifier]) => identifier === cardIdentifer
-  );
-  const excludedSetIdentifierForCard = excludedImages[cardName] || [];
+// export const getSpecialImage = (
+//   cardName: string,
+//   cardIdentifer: string,
+//   printings: Printing[]
+// ): string => {
+//   const matchingOverride = Object.entries(specialImagePrintingOverrides).find(
+//     ([identifier]) => identifier === cardIdentifer
+//   );
+//   const excludedSetIdentifierForCard = excludedImages[cardName] || [];
 
-  if (matchingOverride) {
-    const [_, { setIdentifier }] = matchingOverride;
-    const matchingPrint = printings.find(
-      ({ identifier }) => identifier === setIdentifier
-    );
-    return matchingPrint?.image || "";
-  } else {
-    const printingsToUse = [...printings].filter(({ identifier }) => {
-      const isPrintingExcluded =
-        excludedSetIdentifierForCard.includes(identifier);
-      return !isPrintingExcluded;
-    });
+//   if (matchingOverride) {
+//     const [_, { setIdentifier }] = matchingOverride;
+//     const matchingPrint = printings.find(
+//       ({ identifier }) => identifier === setIdentifier
+//     );
+//     return matchingPrint?.image || "";
+//   } else {
+//     const printingsToUse = [...printings].filter(({ identifier }) => {
+//       const isPrintingExcluded =
+//         excludedSetIdentifierForCard.includes(identifier);
+//       return !isPrintingExcluded;
+//     });
 
-    const alternativeArt = printingsToUse.find(
-      (printing) => printing.treatment === Treatment.AA
-    );
-    const fullArt = printingsToUse.find(
-      (printing) => printing.treatment === Treatment.FA
-    );
-    const extendedArt = printingsToUse.find(
-      (printing) => printing.treatment === Treatment.EA
-    );
-    const alternateBorder = printingsToUse.find(
-      (printing) => printing.treatment === Treatment.AB
-    );
-    const alternateText = printingsToUse.find(
-      (printing) => printing.treatment === Treatment.AT
-    );
-    // const doubleSided = printingsToUse.find(
-    //   (printing) => printing.treatment === Treatment.DS
-    // );
+//     const alternativeArt = printingsToUse.find(
+//       (printing) => printing.treatment === Treatment.AA
+//     );
+//     const fullArt = printingsToUse.find(
+//       (printing) => printing.treatment === Treatment.FA
+//     );
+//     const extendedArt = printingsToUse.find(
+//       (printing) => printing.treatment === Treatment.EA
+//     );
+//     const alternateBorder = printingsToUse.find(
+//       (printing) => printing.treatment === Treatment.AB
+//     );
+//     const alternateText = printingsToUse.find(
+//       (printing) => printing.treatment === Treatment.AT
+//     );
+//     // const doubleSided = printingsToUse.find(
+//     //   (printing) => printing.treatment === Treatment.DS
+//     // );
 
-    const marvel = printingsToUse.find((printing) =>
-      printing.image.includes("_V2")
-    );
-    const firstEdition = printingsToUse.find(
-      (printing) => printing.edition === ReleaseEdition.First
-    );
-    const alphaEdition = printingsToUse.find(
-      (printing) => printing.edition === ReleaseEdition.Alpha
-    );
-    const unlimitedEdition = printingsToUse.find(
-      (printing) => printing.edition === ReleaseEdition.Unlimited
-    );
-    const promoEdition = printingsToUse.find(
-      (printing) => printing.set === Release.Promos
-    );
-    let image =
-      printingsToUse.length > 0
-        ? fullArt?.image ||
-          extendedArt?.image ||
-          alternateBorder?.image ||
-          // doubleSided?.image ||
-          alternativeArt?.image ||
-          alternateText?.image ||
-          marvel?.image ||
-          firstEdition?.image ||
-          alphaEdition?.image ||
-          promoEdition?.image ||
-          unlimitedEdition?.image ||
-          printingsToUse.find(({ set, image }) => {
-            const hasImage = !!image;
-            const isFullSet = Object.values(fullSetIdentifiers).includes(set);
+//     const marvel = printingsToUse.find((printing) =>
+//       printing.image.includes("_V2")
+//     );
+//     const firstEdition = printingsToUse.find(
+//       (printing) => printing.edition === ReleaseEdition.First
+//     );
+//     const alphaEdition = printingsToUse.find(
+//       (printing) => printing.edition === ReleaseEdition.Alpha
+//     );
+//     const unlimitedEdition = printingsToUse.find(
+//       (printing) => printing.edition === ReleaseEdition.Unlimited
+//     );
+//     const promoEdition = printingsToUse.find(
+//       (printing) => printing.set === Release.Promos
+//     );
+//     let image =
+//       printingsToUse.length > 0
+//         ? fullArt?.image ||
+//           extendedArt?.image ||
+//           alternateBorder?.image ||
+//           // doubleSided?.image ||
+//           alternativeArt?.image ||
+//           alternateText?.image ||
+//           marvel?.image ||
+//           firstEdition?.image ||
+//           alphaEdition?.image ||
+//           promoEdition?.image ||
+//           unlimitedEdition?.image ||
+//           printingsToUse.find(({ set, image }) => {
+//             const hasImage = !!image;
+//             const isFullSet = Object.values(fullSetIdentifiers).includes(set);
 
-            return hasImage && isFullSet;
-          })?.image ||
-          printingsToUse.find(({ image }) => {
-            const hasImage = !!image;
+//             return hasImage && isFullSet;
+//           })?.image ||
+//           printingsToUse.find(({ image }) => {
+//             const hasImage = !!image;
 
-            return hasImage;
-          })?.image ||
-          ""
-        : "";
-    if (!image) {
-      console.log(`Missing images for ${cardName}`);
-    }
-    return image;
-  }
-};
+//             return hasImage;
+//           })?.image ||
+//           ""
+//         : "";
+//     if (!image) {
+//       console.log(`Missing images for ${cardName}`);
+//     }
+//     return image;
+//   }
+// };
 
 const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
   Awakening: [Format.ClassicConstructedLivingLegend],

@@ -1,1 +1,1 @@
-export const PUNCTUATION = /[!"#$%&'’()+,-./:;<=>?@[\]^_`|~]/g;
+export const PUNCTUATION = /[!"#$%&'’(),./:;<=>?@[\]^_`|~]/g;

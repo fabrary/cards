@@ -24,10 +24,15 @@ export const shorthands: {
     filters: ['t:"defense reaction"'],
     shorthands: ["DR"],
   },
+  {
+    description: "Gain life",
+    filters: ["+ {h}"],
+    shorthands: ["Gain life", "Gains life"],
+  },
   { description: "Go again", filters: ['k:"go again"'], shorthands: ["GA"] },
   {
     description: "Non-attack actions",
-    filters: ["t:action", "st:nonattack"],
+    filters: ["t:action", "st:non-attack"],
     shorthands: ["NAA"],
   },
   {

@@ -318,7 +318,7 @@ const punctuationOverrides = [
 ];
 const getSearchCriteria = (text: string): string[] => {
   const searchCriteria: string[] = [];
-  let rawSearchCriteria = text;
+  let rawSearchCriteria = text.replaceAll("”", '"');
   for (const { text, override } of punctuationOverrides) {
     if (rawSearchCriteria.includes(text)) {
       rawSearchCriteria = rawSearchCriteria.replace(text, override);

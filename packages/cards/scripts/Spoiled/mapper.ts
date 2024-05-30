@@ -1,16 +1,15 @@
 import { releasedCards } from "../Released";
 import {
   addOppositeSideCardIdentifiers,
-  getDefaultImage,
   getFusions,
   getIdentifier,
   getNumberOrUndefined,
   getRarities,
   getRestrictedFormats,
-  getSpecialImage,
   getSpecializations,
   getStringIfNotNumber,
   rarityStringMapping,
+  sortPrintingsByReleaseOrder,
 } from "../Shared";
 import { overrides } from "../Shared/artist-overrides";
 import {
@@ -30,7 +29,11 @@ import {
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 import { ParsedCard } from "./parser";
-import { getPrint } from "@flesh-and-blood/types";
+import {
+  getDefaultPrinting,
+  getPrint,
+  getSpecialPrinting,
+} from "@flesh-and-blood/types";
 
 const getArtists = (card: ParsedCard): string[] => {
   const { artist, artist2 } = card;
@@ -441,7 +444,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     printings.push(printing4);
   }
 
-  printings.sort((i1, i2) => getPrint(i1).localeCompare(getPrint(i2)));
+  printings.sort(sortPrintingsByReleaseOrder);
 
   const printingsOverride: Printing[] = [];
   if (card.name === "Inner Chi") {
@@ -615,14 +618,20 @@ const getCardData = (card: ParsedCard): Card => {
     artists: getArtists(card),
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
-    defaultImage: getDefaultImage(card.name, printings),
+    defaultImage: getDefaultPrinting(
+      { name: card.name, cardIdentifier: getIdentifier(card) },
+      printings
+    ).image,
     printings,
     name: card.name.trim(),
     rarities,
     rarity,
     setIdentifiers,
     sets: getSets(card),
-    specialImage: getSpecialImage(card.name, getIdentifier(card), printings),
+    specialImage: getSpecialPrinting(
+      { name: card.name, cardIdentifier: getIdentifier(card) },
+      printings
+    ).image,
     subtypes,
     types,
     typeText: card.typeText,

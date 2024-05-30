@@ -23,6 +23,4 @@ describe("Shorthands", () => {
       // }
     }
   );
-
-  console.log(JSON.stringify(multiWordShorthands), null, 2);
 });

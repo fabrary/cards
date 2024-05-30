@@ -1,13 +1,11 @@
 import { mapCSV } from "./mapper";
 import { parseCSV } from "./parser";
-import {
-  filterOutUnwantedCards,
-  getDefaultImage,
-  getSpecialImage,
-} from "../Shared";
+import { filterOutUnwantedCards } from "../Shared";
 import { Card, Rarity } from "@flesh-and-blood/types";
 import { getPrint } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "../Shared/combined-and-missing-fields";
+import { getDefaultPrinting } from "@flesh-and-blood/types";
+import { getSpecialPrinting } from "@flesh-and-blood/types";
 
 const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
@@ -75,12 +73,8 @@ spoiledSetCards.forEach((card) => {
         deduplicatedPrintings.push(printing);
       }
     });
-    const defaultImage = getDefaultImage(card.name, deduplicatedPrintings);
-    const specialImage = getSpecialImage(
-      card.name,
-      card.cardIdentifier,
-      deduplicatedPrintings
-    );
+    const defaultImage = getDefaultPrinting(card, deduplicatedPrintings).image;
+    const specialImage = getSpecialPrinting(card, deduplicatedPrintings).image;
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();
@@ -130,12 +124,8 @@ spoiledPromoCards.forEach((card) => {
         deduplicatedPrintings.push(printing);
       }
     });
-    const defaultImage = getDefaultImage(card.name, deduplicatedPrintings);
-    const specialImage = getSpecialImage(
-      card.name,
-      card.cardIdentifier,
-      deduplicatedPrintings
-    );
+    const defaultImage = getDefaultPrinting(card, deduplicatedPrintings).image;
+    const specialImage = getSpecialPrinting(card, deduplicatedPrintings).image;
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();
