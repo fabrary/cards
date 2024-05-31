@@ -111,7 +111,13 @@ const getTCGplayerInfo = (
 
     if (matchingCard) {
       const matchingPrinting = matchingCard.printings.find(
-        ({ foiling, id, art_variation }) => {
+        ({
+          foiling,
+          id,
+          art_variation,
+          tcgplayer_product_id,
+          tcgplayer_url,
+        }) => {
           const foilingOverride = foiling === "S" ? undefined : foiling;
           const sameFoiling =
             (!foilingString && !foilingOverride) ||
@@ -122,7 +128,18 @@ const getTCGplayerInfo = (
             (!treatmentString && !art_variation) ||
             treatmentString === art_variation;
 
-          return sameFoiling && sameSetIdentifier && sameTreatment;
+          const tcgplayerInfoFormattedCorrectly =
+            !!tcgplayer_product_id &&
+            !!tcgplayer_url &&
+            !tcgplayer_product_id.includes(".png") &&
+            !tcgplayer_url.includes(".png");
+
+          return (
+            sameFoiling &&
+            sameSetIdentifier &&
+            sameTreatment &&
+            tcgplayerInfoFormattedCorrectly
+          );
         }
       );
 
