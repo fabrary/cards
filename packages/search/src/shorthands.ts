@@ -26,7 +26,7 @@ export const shorthands: {
   },
   {
     description: "Gain life",
-    filters: ["+ {h}"],
+    filters: ["gain {h}"],
     shorthands: ["Gain life", "Gains life"],
   },
   { description: "Go again", filters: ['k:"go again"'], shorthands: ["GA"] },

@@ -79,9 +79,8 @@ enum SourceFoiling {
   G = "Gold Cold Foil",
 }
 
-interface SourcePrinting {
+export interface SourcePrinting {
   unique_id: string;
-  set_edition_unique_id: string;
   id: string;
   set_id: string;
   edition: string;
@@ -96,7 +95,7 @@ interface SourcePrinting {
   tcgplayer_url?: string;
 }
 
-interface SourceJSONCard {
+export interface SourceJSONCard {
   unique_id: string;
   name: string;
   pitch: string;

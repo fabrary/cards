@@ -8,6 +8,7 @@
     "module": "NodeNext",
     "moduleResolution": "nodenext",
     "outDir": "dist",
+    "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "ES6"
   },

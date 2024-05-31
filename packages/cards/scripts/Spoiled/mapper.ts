@@ -35,6 +35,10 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 
+import tcgplayerProductFile from "./tcgplayer.json";
+import { SourceJSONCard } from "../Released/parser";
+const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
+
 const getArtists = (card: ParsedCard): string[] => {
   const { artist, artist2 } = card;
 
@@ -79,6 +83,65 @@ const getHero = (card: ParsedCard): Hero | null => {
   return null;
 };
 
+interface TCGplayer {
+  productId: string;
+  url: string;
+}
+const getTCGplayerInfo = (
+  card: ParsedCard,
+  {
+    foilingString,
+    identifier,
+    treatmentString,
+    tcgplayerProductId,
+    tcgplayerUrl,
+  }: PrintingInput
+): TCGplayer | undefined => {
+  let tcgplayer: TCGplayer | undefined;
+
+  if (tcgplayerProductId && tcgplayerUrl) {
+    tcgplayer = { productId: tcgplayerProductId, url: tcgplayerUrl };
+  } else {
+    const matchingCard = tcgplayerProductInfo.find(({ name, pitch }) => {
+      const sameName = card.name === name;
+      const samePitch = (!card.pitch && !pitch) || card.pitch === pitch;
+
+      return sameName && samePitch;
+    });
+
+    if (matchingCard) {
+      const matchingPrinting = matchingCard.printings.find(
+        ({ foiling, id, art_variation }) => {
+          const foilingOverride = foiling === "S" ? undefined : foiling;
+          const sameFoiling =
+            (!foilingString && !foilingOverride) ||
+            foilingString === foilingOverride;
+
+          const sameSetIdentifier = identifier === id;
+          const sameTreatment =
+            (!treatmentString && !art_variation) ||
+            treatmentString === art_variation;
+
+          return sameFoiling && sameSetIdentifier && sameTreatment;
+        }
+      );
+
+      if (
+        matchingPrinting &&
+        matchingPrinting.tcgplayer_product_id &&
+        matchingPrinting.tcgplayer_url
+      ) {
+        tcgplayer = {
+          productId: matchingPrinting.tcgplayer_product_id,
+          url: matchingPrinting.tcgplayer_url,
+        };
+      }
+    }
+  }
+
+  return tcgplayer;
+};
+
 interface PrintingInput {
   artist: string;
   foilingString?: string;
@@ -86,24 +149,24 @@ interface PrintingInput {
   imageUrl?: string;
   setString: string;
   treatmentString?: string;
-  tcgplayer?: {
-    productId: string;
-    url: string;
-  };
+  tcgplayerProductId?: string;
+  tcgplayerUrl?: string;
 }
-const getPrinting = ({
-  artist,
-  foilingString,
-  identifier,
-  imageUrl,
-  setString,
-  treatmentString,
-  tcgplayer,
-}: PrintingInput): Printing => {
+const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
+  const {
+    artist,
+    foilingString,
+    identifier,
+    imageUrl,
+    setString,
+    treatmentString,
+  } = input;
   const set = setIdentifierToSetMappings[setString.toLowerCase()];
 
   const foiling = foilingString ? Foiling[foilingString] : undefined;
   const treatment = treatmentString ? Treatment[treatmentString] : undefined;
+
+  const tcgplayer = getTCGplayerInfo(card, input);
 
   let image;
   if (imageUrl) {
@@ -304,7 +367,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayerUrl4,
   } = card;
 
-  const printing1 = getPrinting({
+  const printing1 = getPrinting(card, {
     artist,
     foilingString: foiling,
     identifier: identifier || identifiers[0],
@@ -342,7 +405,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const shouldAddRainbowPrinting =
       isMST && isCommonRareOrMajestic && !isEquipment && isNotReprint;
     if (shouldAddRainbowPrinting) {
-      const rainbowPrinting = getPrinting({
+      const rainbowPrinting = getPrinting(card, {
         artist,
         foilingString: "R",
         identifier: identifier || identifiers[0],
@@ -355,7 +418,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const shouldAddColdPrinting =
       isMST && isCommonRareOrMajestic && isEquipment && isNotReprint;
     if (shouldAddColdPrinting) {
-      const coldPrinting = getPrinting({
+      const coldPrinting = getPrinting(card, {
         artist,
         foilingString: "C",
         identifier: identifier || identifiers[0],
@@ -373,7 +436,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       ? identifiers[1]
       : identifiers[0];
     const setIdentifier = identifierFor2.slice(0, 3);
-    const printing2 = getPrinting({
+    const printing2 = getPrinting(card, {
       artist: artist2,
       foilingString: foiling2,
       identifier: identifierFor2,
@@ -399,7 +462,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       ? identifiers[2]
       : identifiers[0];
     const setIdentifier = identifierFor3.slice(0, 3);
-    const printing3 = getPrinting({
+    const printing3 = getPrinting(card, {
       artist: artist3,
       foilingString: foiling3,
       identifier: identifierFor3,
@@ -425,7 +488,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       ? identifiers[3]
       : identifiers[0];
     const setIdentifier = identifierFor4.slice(0, 3);
-    const printing4 = getPrinting({
+    const printing4 = getPrinting(card, {
       artist: artist4,
       foilingString: foiling4,
       identifier: identifierFor4,
@@ -460,7 +523,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         imageSuffix,
         treatmentString,
       } of properties) {
-        const printing: Printing = getPrinting({
+        const printing: Printing = getPrinting(card, {
           ...basePrinting,
           imageUrl: `${identifier}_BACK${imageSuffix || ""}.png`,
           ...(foilingString ? { foilingString } : {}),
