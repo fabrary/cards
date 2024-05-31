@@ -1,622 +1,622 @@
-Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Identifier 3,Image URL 3,Rarity 4,Foiling 4,Art Variation 4,Artist 4,Flavor Text 4,Identifier 4,Image URL 4
+Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variation 4,Artist 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4
 MST000,MST,Mistcloak Gully,,1,,,,,"Mystic, Instant, Landmark","Legendary, Transcend",,,,,,"**Legendary**
 
 The first attack that targets you each turn gets -1{p}.
 
-At the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, **transcend**.",Mystic Instant - Landmark,,,,No,F,R,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,F,C,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,,,,,,,,,,,,,,
+At the beginning of each end phase, destroy this unless you've pitched, played, or defended with a blue card this turn. If you've pitched, played, and defended with a blue card this turn, **transcend**.",Mystic Instant - Landmark,,,,No,F,R,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,,,F,C,,Anton Bezrukov,,MST000,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST000.png,,,,,,,,,,,,,,,,,,,,
 MST001,MST,"Nuu, Alluring Desire",,,,,40,4,"Mystic, Assassin, Hero",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this.""
 
-**Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,V,C,FA,Jessada Sutthi,,,/MST001_BACK.png,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,
-MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,V,C,FA,Jessada Sutthi,,,/MST002_BACK.png,T,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,
-MST003,MST,Beckoning Mistblade,,,,,,,,,,,,,,,,,,,,T,,,Jessketchin,,MST003,/MST003.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero,,No,,No,V,C,,Jessada Sutthi,,,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST001_V2.width-450.format-webp.webp,,,V,C,FA,Jessada Sutthi,,,/MST001_BACK.png,,,M,,,Jessada Sutthi,,MST001,/MST001.png,,,,,,,,,,,
+MST002,MST,Nuu,,,,,20,4,"Mystic, Assassin, Hero, Young",,Instant,,,,Stealth,"Your attacks with **stealth** get ""When this chain link resolves, banish all action cards defending this."" **Instant** - {c}{c}{c}: Look at the top card of an opposing hero's deck. If it's blue, you may banish it. Until end of turn, you may play blue cards from that hero's banished zone without paying their {r} cost.",Mystic Assassin Hero - Young,,,No,,V,C,,Jessada Sutthi,,,/MST002_V2.png,,,V,C,FA,Jessada Sutthi,,,/MST002_BACK.png,,,T,,,Jessada Sutthi,,MST002,/MST002.png,,,,,,,,,,,
+MST003,MST,Beckoning Mistblade,,,,,,,,,,,,,,,,,,,,T,,,Jessketchin,,MST003,/MST003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST004,MST,Mask of Recurring Nightmares,,,,2,,,"Mystic, Assassin, Equipment, Head",Blade Break,Once per Turn Attack Reaction,,,,,"**Once per Turn Attack Reaction** - {c}{c}{c}: Target defending hero banishes a card from their hand.
 
-**Blade Break**",Mystic Assassin Equipment - Head,,,,No,L,R,,Isuardi Therianto,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png,L,C,EA,Isuardi Therianto,,MST004,/MST004_V2.png,,,,,,,,,,,,,,
+**Blade Break**",Mystic Assassin Equipment - Head,,,,No,L,R,,Isuardi Therianto,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST004.png,,,L,C,EA,Isuardi Therianto,,MST004,/MST004_V2.png,,,,,,,,,,,,,,,,,,,,
 MST005,MST,Heirloom of Snake Hide,,,,2,,,"Mystic, Assassin, Equipment, Chest","Cloaked, Battleworn",,,,,,"**Cloaked**
 
 While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
 
-**Battleworn**",Mystic Assassin Equipment - Chest,,,,,R,,,Nikko Wahyudi,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST005.png,,,,,,,,,,,,,,,,,,,,,
-MST006,MST,Arousing Wave,,,,,,,"Mystic, Assassin, Equipment, Arms",,,,,,,,,,,,,C,,,Junaidi Lim,,MST006,/MST006.png,,,,,,,,,,,,,,,,,,,,,
-MST007,MST,Undertow Stilettos,,,,,,,"Mystic, Assassin, Equipment, Legs",,,,,,,,,,,,,C,,,Firaz M. Rasyid,,MST007,/MST007.png,,,,,,,,,,,,,,,,,,,,,
+**Battleworn**",Mystic Assassin Equipment - Chest,,,,,R,,,Nikko Wahyudi,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST006,MST,Arousing Wave,,,,,,,"Mystic, Assassin, Equipment, Arms",,,,,,,,,,,,,C,,,Junaidi Lim,,MST006,/MST006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST007,MST,Undertow Stilettos,,,,,,,"Mystic, Assassin, Equipment, Legs",,,,,,,,,,,,,C,,,Firaz M. Rasyid,,MST007,/MST007.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST008,MST,Gorgon's Gaze,2,2,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Create a Slither in your hand.
 
-Banish all defending attack action cards on the combat chain. If a Chi was pitched to play this, you may play the banished cards this combat chain without paying their {r} cost.",Mystic Assassin Attack Reaction,,,,No,M,,,Milivoj Ćeran,,MST008,/MST008.png,,,,,,,,,,,,,,,,,,,,,
-MST009,MST,Siren's Call,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Look at the defending hero's hand and choose a blue card. Add it to this chain link as a defending card. If you do, draw a card.",Mystic Assassin Attack Reaction,,,,No,M,,,Athiwut B.,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST009.png,,,,,,,,,,,,,,,,,,,,,
+Banish all defending attack action cards on the combat chain. If a Chi was pitched to play this, you may play the banished cards this combat chain without paying their {r} cost.",Mystic Assassin Attack Reaction,,,,No,M,,,Milivoj Ćeran,,MST008,/MST008.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST009,MST,Siren's Call,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Look at the defending hero's hand and choose a blue card. Add it to this chain link as a defending card. If you do, draw a card.",Mystic Assassin Attack Reaction,,,,No,M,,,Athiwut B.,,,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "MST010, FAB232","MST, FAB",Sacred Art: Undercurrent Desires,3,3,,,,,"Mystic, Assassin, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create a Fang Strike and Slither in your hand.
 - Banish up to 2 cards in an opposing hero's graveyard.
-- **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_V2.png,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,M,,,Mario Wibisono,,MST010,/MST010.png,,,,,,,
-"MST010, MST032, MST053, MST096, MST097, MST098, MST099, MST100, MST101, MST102",MST,Inner Chi,3,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_BACK_V2.png,V,C,FA,Carlos Cruchaga,,MST032,/MST032_BACK_V2.png,V,C,FA,Carlos Cruchaga,,MST053,/MST053_BACK_V2.png,C,,,Carlos Cruchaga,,MST099,/MST099_BACK.png
-MST011,MST,Tide Chakra,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +3{p}. If you've **transcended** this turn, instead it gets +5{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST011,/MST011.png,,,,,,,,,,,,,,,,,,,,,
-MST012,MST,Tide Chakra,2,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +2{p}. If you've **transcended** this turn, instead it gets +4{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST012,/MST012.png,,,,,,,,,,,,,,,,,,,,,
-MST013,MST,Tide Chakra,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}. If you've **transcended** this turn, instead it gets +3{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST013,/MST013.png,,,,,,,,,,,,,,,,,,,,,
-MST014,MST,Hiss,1,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST014,/MST014.png,,,,,,,,,,,,,,,,,,,,,
-MST015,MST,Hiss,2,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST015,/MST015.png,,,,,,,,,,,,,,,,,,,,,
-MST016,MST,Hiss,3,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST016,/MST016.png,,,,,,,,,,,,,,,,,,,,,
+- **Transcend**",Mystic Assassin Instant,,,,No,V,C,FA,Mario Wibisono,,MST010,/MST010_V2.png,,,P,R,EA,Mario Wibisono,,FAB232,/FAB232.png,,,M,,,Mario Wibisono,,MST010,/MST010.png,,,,,,,,,,,
+"MST010, MST032, MST053, MST096, MST097, MST098, MST099, MST100, MST101, MST102",MST,Inner Chi,3,,,,,,"Mystic, Resource, Chi",,,,,,,,Mystic Resource - Chi,,,,,V,C,FA,Carlos Cruchaga,,MST010,/MST010_BACK_V2.png,,,V,C,FA,Carlos Cruchaga,,MST032,/MST032_BACK_V2.png,,,V,C,FA,Carlos Cruchaga,,MST053,/MST053_BACK_V2.png,,,C,,,Carlos Cruchaga,,MST099,/MST099_BACK.png,,
+MST011,MST,Tide Chakra,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +3{p}. If you've **transcended** this turn, instead it gets +5{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST011,/MST011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST012,MST,Tide Chakra,2,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +2{p}. If you've **transcended** this turn, instead it gets +4{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST012,/MST012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST013,MST,Tide Chakra,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}. If you've **transcended** this turn, instead it gets +3{p}.",Mystic Assassin Attack Reaction,,,,No,R,,,Faizal Fikri,,MST013,/MST013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST014,MST,Hiss,1,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST014,/MST014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST015,MST,Hiss,2,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST015,/MST015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST016,MST,Hiss,3,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST016,/MST016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST017,MST,Intimate Inducement,1,0,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
 
-Look at the top 4 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST017,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST017.png,,,,,,,,,,,,,,,,,,,,,
+Look at the top 4 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST017,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST018,MST,Intimate Inducement,2,0,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
 
-Look at the top 3 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST018,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST018.png,,,,,,,,,,,,,,,,,,,,,
+Look at the top 3 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST018,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST019,MST,Intimate Inducement,3,0,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
 
-Look at the top 2 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST019,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST019.png,,,,,,,,,,,,,,,,,,,,,
+Look at the top 2 cards of the defending hero's deck and choose a card. If it's blue, it has 0 base {d}. Put the chosen card onto the active chain link as a defending card and the rest on top in any order.",Mystic Assassin Attack Reaction,,,,,C,,,Wisnu Tan,,MST019,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST020,MST,Venomous Bite,1,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +3{p}.
 
-If you've pitched a blue card this turn, create a Fang Strike in your hand.",Mystic Assassin Attack Reaction,,,,,C,,,Ramza Ardyputra,,MST020,/MST020.png,,,,,,,,,,,,,,,,,,,,,
+If you've pitched a blue card this turn, create a Fang Strike in your hand.",Mystic Assassin Attack Reaction,,,,,C,,,Ramza Ardyputra,,MST020,/MST020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST021,MST,Venomous Bite,2,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +2{p}.
 
-If you've pitched a blue card this turn, create a Fang Strike in your hand.",Mystic Assassin Attack Reaction,,,,,C,,,Ramza Ardyputra,,MST021,/MST021.png,,,,,,,,,,,,,,,,,,,,,
+If you've pitched a blue card this turn, create a Fang Strike in your hand.",Mystic Assassin Attack Reaction,,,,,C,,,Ramza Ardyputra,,MST021,/MST021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST022,MST,Venomous Bite,3,1,,3,,,"Mystic, Assassin, Attack Reaction",,,,,,,"Target Assassin or Mystic attack action card gets +1{p}.
 
-If you've pitched a blue card this turn, create a Fang Strike in your hand.",Mystic Assassin Attack Reaction,,,,,C,,,Ramza Ardyputra,,MST022,/MST022.png,,,,,,,,,,,,,,,,,,,,,
-MST023,MST,Fang Strike,,,,,,,,,,,,,,,,,,,,T,,,Edward Chee,,MST023,/MST023.png,,,,,,,,,,,,,,,,,,,,,
-MST024,MST,Slither,,,,,,,,,,,,,,,,,,,,T,,,Mario Wibisono,,MST024,/MST024.png,,,,,,,,,,,,,,,,,,,,,
+If you've pitched a blue card this turn, create a Fang Strike in your hand.",Mystic Assassin Attack Reaction,,,,,C,,,Ramza Ardyputra,,MST022,/MST022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST023,MST,Fang Strike,,,,,,,,,,,,,,,,,,,,T,,,Edward Chee,,MST023,/MST023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST024,MST,Slither,,,,,,,,,,,,,,,,,,,,T,,,Mario Wibisono,,MST024,/MST024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "MST025, HER116","MST, HER","Enigma, Ledger of Ancestry",,,,,40,4,"Mystic, Illusionist, Hero",,Once per Turn Instant,,,,,"Your first Spectral Shield attack each turn costs {r} less to activate.
 
-**Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,MST025,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,V,C,FA,Asur Misoa,,MST025,/MST025_BACK.png,P,R,,Kanadekana,,HER116,/HER116.png,M,,,Asur Misoa,,MST025,/MST025.png
-MST026,MST,Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,Once per Turn Instant,,,,,Your first Spectral Shield attack each turn costs {r} less to activate. **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.,Mystic Illusionist Hero - Young,,,No,,V,C,,Asur Misoa,,MST026,/MST026_V2.png,V,C,FA,Asur Misoa,,,/MST026_BACK.png,T,,,Asur Misoa,,MST026,/MST026.png,,,,,,,
+**Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.",Mystic Illusionist Hero,,No,,No,V,C,,Asur Misoa,,MST025,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST025_V2.width-450.format-webp.webp,,,V,C,FA,Asur Misoa,,MST025,/MST025_BACK.png,,,P,R,,Kanadekana,,HER116,/HER116.png,,,M,,,Asur Misoa,,MST025,/MST025.png,,
+MST026,MST,Enigma,,,,,20,4,"Mystic, Illusionist, Hero, Young",,Once per Turn Instant,,,,,Your first Spectral Shield attack each turn costs {r} less to activate. **Once per Turn Instant** - {c}{c}{c}: Create a Spectral Shield token with a +1{p} counter.,Mystic Illusionist Hero - Young,,,No,,V,C,,Asur Misoa,,MST026,/MST026_V2.png,,,V,C,FA,Asur Misoa,,,/MST026_BACK.png,,,T,,,Asur Misoa,,MST026,/MST026.png,,,,,,,,,,,
 MST027,MST,Meridian Pathway,,,,,,,"Mystic, Illusionist, Equipment, Legs",Ward 3,Instant,,,,,"**Instant** - {c}{c}{c}: You may play auras this turn as though they were instants.
 
-Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.",Mystic Illusionist Equipment - Legs,,,,No,L,R,,Mario Wibisono,,MST027,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST027.png,,,,,,,,,,,,,,,,,,,,,
-MST028,MST,Heirloom of Rabbit Hide,,,,,,,"Mystic, Illusionist, Equipment, Chest",,,,,,,,,,,,,R,,,Septimius Ferdian,,MST028,/MST028.png,,,,,,,,,,,,,,,,,,,,,
-MST029,MST,Truths Retold,,,,,,,,,,,,,,,,,,,,C,,,MJ Fetesio,,MST029,/MST029.png,,,,,,,,,,,,,,,,,,,,,
-MST030,MST,Uphold Tradition,,,,,,,,,,,,,,,,,,,,C,,,Kelvin Jauwri,,MST030,/MST030.png,,,,,,,,,,,,,,,,,,,,,
+Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.",Mystic Illusionist Equipment - Legs,,,,No,L,R,,Mario Wibisono,,MST027,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST027.png,,,L,C,,Mario Wibisono,,MST027,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST027.png,,,,,,,,,,,,,,,,,,,,
+MST028,MST,Heirloom of Rabbit Hide,,,,,,,"Mystic, Illusionist, Equipment, Chest",,,,,,,,,,,,,R,,,Septimius Ferdian,,MST028,/MST028.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST029,MST,Truths Retold,,,,,,,,,,,,,,,,,,,,C,,,MJ Fetesio,,MST029,/MST029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST030,MST,Uphold Tradition,,,,,,,,,,,,,,,,,,,,C,,,Kelvin Jauwri,,MST030,/MST030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST031,MST,Manifestation of Miragai,3,3,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"This enters the arena with two +1{p} counters. If a Chi was pitched to play this, instead this enters the arena with four +1{p} counters.
 
-**Ward X**, where X is the number of +1{p} counters on this.",Mystic Illusionist Instant - Aura,,,,No,M,,,Carlos Cruchaga,,MST031,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031.png,M,R,EA,Carlos Cruchaga,,MST031,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031_V2.png,,,,,,,,,,,,,,
+**Ward X**, where X is the number of +1{p} counters on this.",Mystic Illusionist Instant - Aura,,,,No,M,,,Carlos Cruchaga,,MST031,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031.png,,,M,R,EA,Carlos Cruchaga,,MST031,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST031_V2.png,,,,,,,,,,,,,,,,,,,,
 "MST032, FAB234","MST, FAB",Sacred Art: Immortal Lunar Shrine,3,3,,,,,"Mystic, Illusionist, Instant","Legendary, Transcend",,,,,Ward,"**Legendary**
 
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create 2 Spectral Shield tokens.
 - Put a +1{p} counter on each aura with **ward** you control.
-- **Transcend**",Mystic Illusionist Instant,,,,No,V,C,FA,Ina Wong,,MST032,/MST032_M.png,P,R,EA,Ina Wong,,,/FAB234.png,M,,,Ina Wong,,MST032,/MST032.png,,,,,,,
-MST033,MST,Three Visits,1,3,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is three times the number of blue cards you've pitched this turn.",Mystic Illusionist Instant - Aura,,,,No,M,,,Tanapon Wachirakul,,MST033,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST033.png,,,,,,,,,,,,,,,,,,,,,
-MST034,MST,Moon Chakra,1,0,,,,,"Mystic, Illusionist, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 3 of that damage. If you've **transcended** this turn, instead prevent 5.",Mystic Illusionist Instant,,,,No,R,,,Edward Chee,,MST034,/MST034.png,,,,,,,,,,,,,,,,,,,,,
-MST035,MST,Moon Chakra,2,0,,,,,"Mystic, Illusionist, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 2 of that damage. If you've **transcended** this turn, instead prevent 4.",Mystic Illusionist Instant,,,,No,R,,,Edward Chee,,MST035,/MST035.png,,,,,,,,,,,,,,,,,,,,,
-MST036,MST,Moon Chakra,3,0,,,,,"Mystic, Illusionist, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 1 of that damage. If you've **transcended** this turn, instead prevent 3.",Mystic Illusionist Instant,,,,No,R,,,Edward Chee,,MST036,/MST036.png,,,,,,,,,,,,,,,,,,,,,
-MST037,MST,Haze Shelter,1,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is 4 if you've pitched a blue card this turn, otherwise X is 1.",Mystic Illusionist Instant - Aura,,,,,C,,,Andrew Chou,,MST037,/MST037.png,,,,,,,,,,,,,,,,,,,,,
-MST038,MST,Haze Shelter,2,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is 3 if you've pitched a blue card this turn, otherwise X is 1.",Mystic Illusionist Instant - Aura,,,,,C,,,Andrew Chou,,MST038,/MST038.png,,,,,,,,,,,,,,,,,,,,,
-MST039,MST,Haze Shelter,3,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is 2 if you've pitched a blue card this turn, otherwise X is 1.",Mystic Illusionist Instant - Aura,,,,,C,,,Andrew Chou,,MST039,/MST039.png,,,,,,,,,,,,,,,,,,,,,
-MST040,MST,Waning Vengeance,1,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST040,/MST040.png,,,,,,,,,,,,,,,,,,,,,
-MST041,MST,Waning Vengeance,2,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST041,/MST041.png,,,,,,,,,,,,,,,,,,,,,
-MST042,MST,Waning Vengeance,3,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST042,/MST042.png,,,,,,,,,,,,,,,,,,,,,
+- **Transcend**",Mystic Illusionist Instant,,,,No,V,C,FA,Ina Wong,,MST032,/MST032_M.png,,,P,R,EA,Ina Wong,,,/FAB234.png,,,M,,,Ina Wong,,MST032,/MST032.png,,,,,,,,,,,
+MST033,MST,Three Visits,1,3,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is three times the number of blue cards you've pitched this turn.",Mystic Illusionist Instant - Aura,,,,No,M,,,Tanapon Wachirakul,,MST033,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST034,MST,Moon Chakra,1,0,,,,,"Mystic, Illusionist, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 3 of that damage. If you've **transcended** this turn, instead prevent 5.",Mystic Illusionist Instant,,,,No,R,,,Edward Chee,,MST034,/MST034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST035,MST,Moon Chakra,2,0,,,,,"Mystic, Illusionist, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 2 of that damage. If you've **transcended** this turn, instead prevent 4.",Mystic Illusionist Instant,,,,No,R,,,Edward Chee,,MST035,/MST035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST036,MST,Moon Chakra,3,0,,,,,"Mystic, Illusionist, Instant",,,,,,,"The next time you would be dealt damage this turn, prevent 1 of that damage. If you've **transcended** this turn, instead prevent 3.",Mystic Illusionist Instant,,,,No,R,,,Edward Chee,,MST036,/MST036.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST037,MST,Haze Shelter,1,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is 4 if you've pitched a blue card this turn, otherwise X is 1.",Mystic Illusionist Instant - Aura,,,,,C,,,Andrew Chou,,MST037,/MST037.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST038,MST,Haze Shelter,2,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is 3 if you've pitched a blue card this turn, otherwise X is 1.",Mystic Illusionist Instant - Aura,,,,,C,,,Andrew Chou,,MST038,/MST038.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST039,MST,Haze Shelter,3,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward X,,,,,,"**Ward X**, where X is 2 if you've pitched a blue card this turn, otherwise X is 1.",Mystic Illusionist Instant - Aura,,,,,C,,,Andrew Chou,,MST039,/MST039.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST040,MST,Waning Vengeance,1,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST040,/MST040.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST041,MST,Waning Vengeance,2,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST041,/MST041.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST042,MST,Waning Vengeance,3,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST042,/MST042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST043,MST,Waxing Specter,1,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward 3,,,,,,"If you've pitched a blue card this turn, this enters the arena with a +1{p} counter.
 
-**Ward 3**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST043,/MST043.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 3**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST043,/MST043.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST044,MST,Waxing Specter,2,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward 2,,,,,,"If you've pitched a blue card this turn, this enters the arena with a +1{p} counter.
 
-**Ward 2**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST044,/MST044.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST044,/MST044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST045,MST,Waxing Specter,3,2,,,,,"Mystic, Illusionist, Instant, Aura",Ward 1,,,,,,"If you've pitched a blue card this turn, this enters the arena with a +1{p} counter.
 
-**Ward 1**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST045,/MST045.png,,,,,,,,,,,,,,,,,,,,,
-MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,MST046,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,V,C,FA,Lius Lasahido,,,/MST046_BACK.png,M,,,Lius Lasahido,,MST046,/MST046.png,,,,,,,
-MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,MST047,/MST047_V2.png,V,C,FA,Lius Lasahido,,,/MST047_BACK.png,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,
+**Ward 1**",Mystic Illusionist Instant - Aura,,,,,C,,,Marco Gonzalez,,MST045,/MST045.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST046,MST,"Zen, Tamer of Purpose",,,,,40,4,"Mystic, Ninja, Hero",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero,,No,,No,V,C,,Lius Lasahido,,MST046,https://dhhim4ltzu1pj.cloudfront.net/media/images/MST046_V2.width-450.format-webp.webp,,,V,C,FA,Lius Lasahido,,,/MST046_BACK.png,,,M,,,Lius Lasahido,,MST046,/MST046.png,,,,,,,,,,,
+MST047,MST,Zen,,,,,20,4,"Mystic, Ninja, Hero, Young",,Once per Turn Instant,,,,Combo,"**Once per Turn Instant** - {c}{c}{c}: Create a Crouching Tiger in your hand. Search your deck for a card with **combo**, banish it, then shuffle. You may play it this turn.",Mystic Ninja Hero - Young,,,No,,V,C,,Lius Lasahido,,MST047,/MST047_V2.png,,,V,C,FA,Lius Lasahido,,,/MST047_BACK.png,,,T,,,Lius Lasahido,,MST047,/MST047.png,,,,,,,,,,,
 MST048,MST,Twelve Petal Kāṣāya,,,,2,,,"Mystic, Ninja, Equipment, Chest",Blade Break,Instant,,,,Transcend,"Whenever you **transcend**, you may gain {r}.
 
 **Instant** - {c}{c}{c}, destroy this: Create a Zen State token.
 
-**Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,L,C,EA,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048_V2.png,,,,,,,,,,,,,,
-MST049,MST,Heirloom of Tiger Hide,,,,,,,"Mystic, Ninja, Equipment, Chest",,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,
-MST050,MST,Stride of Reprisal,,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,MST050,/MST050.png,,,,,,,,,,,,,,,,,,,,,
-MST051,MST,Tooth and Claw,1,0,4,3,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets **go again**. 2 or more, this gets +1{p}. 3 or more, draw a card.",Mystic Ninja Action - Attack,,,,No,M,,,Sam Yang,,MST051,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Mystic Ninja Equipment - Chest,,,,No,L,R,,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048.png,,,L,C,EA,Billy Christian,,MST048,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST048_V2.png,,,,,,,,,,,,,,,,,,,,
+MST049,MST,Heirloom of Tiger Hide,,,,,,,"Mystic, Ninja, Equipment, Chest",,,,,,,,,,,,,R,,,Septimius Ferdian,,MST049,/MST049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST050,MST,Stride of Reprisal,,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,MST050,/MST050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST051,MST,Tooth and Claw,1,0,4,3,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, you may reveal any number of Crouching Tigers from your hand. If you reveal 1 or more, this gets **go again**. 2 or more, this gets +1{p}. 3 or more, draw a card.",Mystic Ninja Action - Attack,,,,No,M,,,Sam Yang,,MST051,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST052,MST,Shifting Winds of the Mystic Beast,3,1,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"Whenever you play a Crouching Tiger this turn, name a card. It gets that name.
 
 If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
 
-**Go again**",Mystic Ninja Action,,,,No,M,,,Athiwut B.,,MST052,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST052.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action,,,,No,M,,,Athiwut B.,,MST052,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "MST053, FAB233","MST, FAB",Sacred Art: Jade Tiger Domain,3,3,,,,,"Mystic, Ninja, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 If you've played another blue card this turn, choose 3. Otherwise, choose 1;
 - Create 2 Crouching Tigers in your hand.
 - Your Crouching Tigers get +1{p} this turn.
-- **Transcend**",Mystic Ninja Instant,,,,No,V,C,FA,Wisnu Tan,,MST053,/MST053_V2.png,P,R,EA,Wisnu Tan,,,/FAB233.png,M,,,Wisnu Tan,,MST053,/MST053.png,,,,,,,
+- **Transcend**",Mystic Ninja Instant,,,,No,V,C,FA,Wisnu Tan,,MST053,/MST053_V2.png,,,P,R,EA,Wisnu Tan,,,/FAB233.png,,,M,,,Wisnu Tan,,MST053,/MST053.png,,,,,,,,,,,
 MST054,MST,Wind Chakra,1,0,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"The next Crouching Tiger you play this turn gets +3{p}. If you've **transcended** this turn, instead it gets +5{p}.
 
-**Go again**",Mystic Ninja Action,,,,No,R,,,Narendra B Adi,,MST054,/MST054.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action,,,,No,R,,,Narendra B Adi,,MST054,/MST054.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST055,MST,Wind Chakra,2,0,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"The next Crouching Tiger you play this turn gets +2{p}. If you've **transcended** this turn, instead it gets +4{p}.
 
-**Go again**",Mystic Ninja Action,,,,No,R,,,Narendra B Adi,,MST055,/MST055.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action,,,,No,R,,,Narendra B Adi,,MST055,/MST055.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST056,MST,Wind Chakra,3,0,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"The next Crouching Tiger you play this turn gets +2{p}. If you've **transcended** this turn, instead it gets +4{p}.
 
-**Go again**",Mystic Ninja Action,,,,No,R,,,Narendra B Adi,,MST056,/MST056.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action,,,,No,R,,,Narendra B Adi,,MST056,/MST056.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST057,MST,Companion of the Claw,1,2,4,2,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Narendra B Adi,,MST057,/MST057.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Narendra B Adi,,MST057,/MST057.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST058,MST,Companion of the Claw,2,2,3,2,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Narendra B Adi,,MST058,/MST058.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Narendra B Adi,,MST058,/MST058.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST059,MST,Companion of the Claw,3,2,2,2,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Narendra B Adi,,MST059,/MST059.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Narendra B Adi,,MST059,/MST059.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST060,MST,Harmony of the Hunt,1,1,3,2,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Kevin Sidharta,,MST060,/MST060.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Kevin Sidharta,,MST060,/MST060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST061,MST,Harmony of the Hunt,2,1,2,2,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Kevin Sidharta,,MST061,/MST061.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Kevin Sidharta,,MST061,/MST061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST062,MST,Harmony of the Hunt,3,1,1,2,,,"Mystic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, if you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Kevin Sidharta,,MST062,/MST062.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action - Attack,,,,,C,,,Kevin Sidharta,,MST062,/MST062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST063,MST,Tiger Form Incantation,1,1,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"The next Crouching Tiger you play this turn gets +3{p}.
 
 If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,MST063,/MST063.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,MST063,/MST063.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST064,MST,Tiger Form Incantation,2,1,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"The next Crouching Tiger you play this turn gets +2{p}.
 
 If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,MST064,/MST064.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,MST064,/MST064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST065,MST,Tiger Form Incantation,3,1,,3,,,"Mystic, Ninja, Action",Go again,,,,,,"The next Crouching Tiger you play this turn gets +1{p}.
 
 If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
 
-**Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,MST065,/MST065.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Ninja Action,,,,,C,,,Wisnu Tan,,MST065,/MST065.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST066,MST,Traverse the Universe,,,,2,,,"Mystic, Equipment, Head",Blade Break,,,,,,"When this defends, search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.
 
-**Blade Break**",Mystic Equipment - Head,,,,No,L,R,,Olga Tereshenko,,MST066,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066.png,L,C,EA,Olga Tereshenko,,MST066,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066_V2.png,,,,,,,,,,,,,,
+**Blade Break**",Mystic Equipment - Head,,,,No,L,R,,Olga Tereshenko,,MST066,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066.png,,,L,C,EA,Olga Tereshenko,,MST066,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST066_V2.png,,,,,,,,,,,,,,,,,,,,
 MST067,MST,Aqua Seeing Shell,,,,1,,,"Mystic, Equipment, Head",Cloaked,Instant,,,,,"**Cloaked**
 
 **Instant** - {r}{r}{r}, turn this face-up: Draw a card.
 
-At the start of your turn, destroy this.",Mystic Equipment - Head,,,,,C,,,Nikko Wahyudi,,MST067,/MST067.png,,,,,,,,,,,,,,,,,,,,,
+At the start of your turn, destroy this.",Mystic Equipment - Head,,,,,C,,,Nikko Wahyudi,,MST067,/MST067.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST068,MST,Koi Blessed Kimono,,,,,,,"Mystic, Equipment, Chest",Cloaked,,,,,,"**Cloaked**
 
 While this is equipped face-down, at the start of your turn, if you have exactly 1{h}, you may turn this face-up.
 
-When this is turned face-up, destroy it. Search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.",Mystic Equipment - Chest,,,,,C,,,Asur Misoa,,MST068,/MST068.png,C,C,EA,Asur Misoa,,MST068,/MST068_V2.png,,,,,,,,,,,,,,
+When this is turned face-up, destroy it. Search your deck for an Inner Chi, reveal it, put it into your hand, then shuffle.",Mystic Equipment - Chest,,,,,C,,,Asur Misoa,,MST068,/MST068.png,,,C,C,EA,Asur Misoa,,MST068,/MST068_V2.png,,,,,,,,,,,,,,,,,,,,
 MST069,MST,Waves of Aqua Marine,,,,1,,,"Mystic, Equipment, Arms",Cloaked,Attack Reaction,,,,,"**Cloaked**
 
 **Attack Reaction** - {r}, turn this face-up: Target attack gets +1{p}.
 
-At the start of your turn, destroy this.",Mystic Equipment - Arms,,,,,C,,,Wisnu Tan,,MST069,/MST069.png,,,,,,,,,,,,,,,,,,,,,
+At the start of your turn, destroy this.",Mystic Equipment - Arms,,,,,C,,,Wisnu Tan,,MST069,/MST069.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST070,MST,Aqua Laps,,,,1,,,"Mystic, Equipment, Legs",Cloaked,Attack Reaction,,,,,"**Cloaked**
 
 **Attack Reaction** - {r}, turn this face up: Target attack gets **go again**.
 
-At the start of your turn, destroy this.",Mystic Equipment - Legs,,,,,C,,,Nailsen Ivanderlie,,MST070,/MST070.png,,,,,,,,,,,,,,,,,,,,,
+At the start of your turn, destroy this.",Mystic Equipment - Legs,,,,,C,,,Nailsen Ivanderlie,,MST070,/MST070.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST071,MST,Skycrest Keikoi,,,,,,,"Mystic, Equipment, Head",Cloaked,Instant,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Head,,,,,C,,,Felicia Liang,,MST071,/MST071.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Head,,,,,C,,,Felicia Liang,,MST071,/MST071.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST072,MST,Skybody Keikoi,,,,,,,"Mystic, Equipment, Chest",Cloaked,Instant,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Chest,,,,,C,,,Vito Vivodka,,MST072,/MST072.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Chest,,,,,C,,,Vito Vivodka,,MST072,/MST072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST073,MST,Skyhold Keikoi,,,,,,,"Mystic, Equipment, Arms",Cloaked,Instant,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Arms,,,,,C,,,Kimberly Pantoni,,MST073,/MST073.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Arms,,,,,C,,,Kimberly Pantoni,,MST073,/MST073.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST074,MST,Skywalker Keikoi,,,,,,,"Mystic, Equipment, Legs",Cloaked,Instant,,,,,"**Cloaked**
 
-**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,Alief Rusdiatama,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,
-MST075,MST,Attune with Cosmic Vibrations,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.",Mystic Action - Attack,,,,No,M,,,Carlos Cruchaga,,MST075,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png,,,,,,,,,,,,,,,,,,,,,
+**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this ability only while this is face-down.",Mystic Equipment - Legs,,,,,C,,,Alief Rusdiatama,,MST074,/MST074.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST075,MST,Attune with Cosmic Vibrations,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"When this attacks a hero or defends a hero's attack, reveal the top card of their deck. If the revealed card is blue, this gets +3{p} and +3{d}.",Mystic Action - Attack,,,,No,M,,,Carlos Cruchaga,,MST075,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST076,MST,Cosmic Awakening,3,9,*,3,,,"Mystic, Action, Attack",,,,,,,"If 1 Chi was pitched to play this, Cosmic Awakening's {p} is 10.
 
 If 2 Chi were pitched to play this, Cosmic Awakening's {p} is 15.
 
-If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.",Mystic Action - Attack,,,,No,M,,,Olga Tereshenko,,MST076,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST076.png,,,,,,,,,,,,,,,,,,,,,
+If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.",Mystic Action - Attack,,,,No,M,,,Olga Tereshenko,,MST076,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST076.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST077,MST,Levels of Enlightenment,3,1,3,3,,,"Mystic, Action, Attack",Go again,,,,,,"When this attacks, choose 1 for each blue card you've pitched this turn;
 - Draw a card.
 - This gets +2{p}.
-- This gets **go again**.",Mystic Action - Attack,,,,No,M,,,Daria Khlebnikova,,MST077,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png,M,R,EA,Daria Khlebnikova,,MST077,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077_V2.png,,,,,,,,,,,,,,
-MST078,MST,Unravel Aggression,3,3,,5,,,"Mystic, Defense Reaction",,,,,,,"If a Chi was pitched to play this, draw a card.",Mystic Defense Reaction,,,,No,M,,,Tanapon Wachirakul,,MST078,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST078.png,,,,,,,,,,,,,,,,,,,,,
+- This gets **go again**.",Mystic Action - Attack,,,,No,M,,,Daria Khlebnikova,,MST077,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077.png,,,M,R,EA,Daria Khlebnikova,,MST077,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST077_V2.png,,,,,,,,,,,,,,,,,,,,
+MST078,MST,Unravel Aggression,3,3,,5,,,"Mystic, Defense Reaction",,,,,,,"If a Chi was pitched to play this, draw a card.",Mystic Defense Reaction,,,,No,M,,,Tanapon Wachirakul,,MST078,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST078.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST079,MST,Dense Blue Mist,3,1,,,,,"Mystic, Instant",,,,,,,"Attacks that target you this turn get -1{p}.
 
-If a Chi was pitched to play this, effects don't trigger if an attack hits you this turn.",Mystic Instant,,,,No,M,,,Elizaveta Alipatova,,MST079,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST079.png,,,,,,,,,,,,,,,,,,,,,
+If a Chi was pitched to play this, effects don't trigger if an attack hits you this turn.",Mystic Instant,,,,No,M,,,Elizaveta Alipatova,,MST079,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST080,MST,Orihon of Mystic Tenets,3,4,,,,,"Mystic, Instant",Legendary,,,,,,"**Legendary**
 
-Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,
-MST081,MST,Second Tenet of Chi: Moon,3,3,5,3,,,"Mystic, Action, Attack",,,,,,Transcend,"If you've **transcended** this turn, this gets ""When this chain link resolves, draw a card.""",Mystic Action - Attack,,,,No,R,,,Carlos Cruchaga,,MST081,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST081.png,,,,,,,,,,,,,,,,,,,,,
-MST082,MST,Second Tenet of Chi: Tide,3,,,,,,,,,,,,,,,,,,No,R,,,Tomasz Jedruszek,,MST082,/MST082.png,,,,,,,,,,,,,,,,,,,,,
-MST083,MST,Second Tenet of Chi: Wind,3,3,5,3,,,"Mystic, Action, Attack",Go again,,,,,Transcend,"If you've **transcended** this turn, this gets **go again**.",Mystic Action - Attack,,,,No,R,,,Rio Sabda,,MST083,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png,,,,,,,,,,,,,,,,,,,,,
-MST084,MST,Deep Blue Sea,3,,,,,,,,,,,,,,,,,,No,R,,,Carlos Cruchaga,,MST084,/MST084.png,,,,,,,,,,,,,,,,,,,,,
-MST085,MST,Wide Blue Yonder,3,,,,,,,,,,,,,,,,,,No,R,,,Sebastian Giacobino,,MST085,/MST085.png,,,,,,,,,,,,,,,,,,,,,
-MST086,MST,Big Blue Sky,3,,,,,,,,,,,,,,,,,,No,R,,,Reza Afshar,,MST086,/MST086.png,,,,,,,,,,,,,,,,,,,,,
-MST087,MST,Droplet,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Faizal Fikri,,MST087,/MST087.png,,,,,,,,,,,,,,,,,,,,,
-MST088,MST,Rising Tide,3,1,3,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Marco González,,MST088,/MST088.png,,,,,,,,,,,,,,,,,,,,,
-MST089,MST,Spillover,3,2,4,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Marcellino Tan,,MST089,/MST089.png,,,,,,,,,,,,,,,,,,,,,
-MST090,MST,Tidal Surge,3,3,5,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Nathaniel Himawan,,MST090,/MST090.png,,,,,,,,,,,,,,,,,,,,,
-MST091,MST,Wash Away,3,2,,3,,,"Mystic, Defense Reaction",,,,,,,"If you've played another blue card this turn, this gets +2{d}.",Mystic Defense Reaction,,,,,C,,,Edward Chee,,MST091,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST091.png,,,,,,,,,,,,,,,,,,,,,
-MST092,MST,First Tenet of Chi: Moon,3,,,,,,,,,,,,,,,,,,,C,,,Carlos Cruchaga,,MST092,/MST092.png,,,,,,,,,,,,,,,,,,,,,
+Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.",Mystic Instant,,,,No,M,S,,Milivoj Ćeran,"""Each page, a life once lived, memories of a lesson well-learned."" - Tohiro, Eternal Scribe",MST080,/MST080.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST081,MST,Second Tenet of Chi: Moon,3,3,5,3,,,"Mystic, Action, Attack",,,,,,Transcend,"If you've **transcended** this turn, this gets ""When this chain link resolves, draw a card.""",Mystic Action - Attack,,,,No,R,,,Carlos Cruchaga,,MST081,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST081.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST082,MST,Second Tenet of Chi: Tide,3,,,,,,,,,,,,,,,,,,No,R,,,Tomasz Jedruszek,,MST082,/MST082.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST083,MST,Second Tenet of Chi: Wind,3,3,5,3,,,"Mystic, Action, Attack",Go again,,,,,Transcend,"If you've **transcended** this turn, this gets **go again**.",Mystic Action - Attack,,,,No,R,,,Rio Sabda,,MST083,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST084,MST,Deep Blue Sea,3,,,,,,,,,,,,,,,,,,No,R,,,Carlos Cruchaga,,MST084,/MST084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST085,MST,Wide Blue Yonder,3,,,,,,,,,,,,,,,,,,No,R,,,Sebastian Giacobino,,MST085,/MST085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST086,MST,Big Blue Sky,3,,,,,,,,,,,,,,,,,,No,R,,,Reza Afshar,,MST086,/MST086.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST087,MST,Droplet,3,0,2,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Faizal Fikri,,MST087,/MST087.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST088,MST,Rising Tide,3,1,3,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Marco González,,MST088,/MST088.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST089,MST,Spillover,3,2,4,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Marcellino Tan,,MST089,/MST089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST090,MST,Tidal Surge,3,3,5,2,,,"Mystic, Action, Attack",,,,,,,"If you've played another blue card this turn, this gets +2{p}.",Mystic Action - Attack,,,,,C,S,,Nathaniel Himawan,,MST090,/MST090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST091,MST,Wash Away,3,2,,3,,,"Mystic, Defense Reaction",,,,,,,"If you've played another blue card this turn, this gets +2{d}.",Mystic Defense Reaction,,,,,C,,,Edward Chee,,MST091,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST092,MST,First Tenet of Chi: Moon,3,,,,,,,,,,,,,,,,,,,C,,,Carlos Cruchaga,,MST092,/MST092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST093,MST,First Tenet of Chi: Tide,3,0,,3,,,"Mystic, Action",Go again,,,,,,"Your next blue attack this turn gets +2{p}.
 
-**Go again**",Mystic Action,,,,,C,,,Tomasz Jedruszek,,MST093,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST093.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Mystic Action,,,,,C,,,Tomasz Jedruszek,,MST093,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST094,MST,First Tenet of Chi: Wind,3,0,,3,,,"Mystic, Action",Go again,,,Go again,,,"The next blue action card you play this turn gets **go again**.
 
-Go again",Mystic Action,,,,,C,,,Rio Sabda,,MST094,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST094.png,,,,,,,,,,,,,,,,,,,,,
+Go again",Mystic Action,,,,,C,,,Rio Sabda,,MST094,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST095,MST,A Drop in the Ocean,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Target attack gets -1{p}.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,AOJI Maiko,,MST095,/MST095_V2.png,C,,,AOJI Maiko,,MST095,/MST095.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,AOJI Maiko,,MST095,/MST095_V2.png,,,C,,,AOJI Maiko,,MST095,/MST095.png,,,,,,,,,,,,,,,,,,,,
 MST096,MST,Homage to Ancestors,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Gain 1{h}
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST096,/MST096_V2.png,C,,, 寿多浩 / Hiro Suda,,MST096,/MST096.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST096,/MST096_V2.png,,,C,,, 寿多浩 / Hiro Suda,,MST096,/MST096.png,,,,,,,,,,,,,,,,,,,,
 MST097,MST,Pass Over,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Banish target card from an opposing hero's graveyard.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_V2.png,C,,,Hatori Kyoka,,MST097,/MST097.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Hatori Kyoka,,MST097,/MST097_V2.png,,,C,,,Hatori Kyoka,,MST097,/MST097.png,,,,,,,,,,,,,,,,,,,,
 MST098,MST,Path Well Traveled,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,Go again,,,"**Legendary**
 
 Target attack gets **go again**.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Shiro Yayoi,,MST098,/MST098_V2.png,C,,,Shiro Yayoi,,MST098,/MST098.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Shiro Yayoi,,MST098,/MST098_V2.png,,,C,,,Shiro Yayoi,,MST098,/MST098.png,,,,,,,,,,,,,,,,,,,,
 MST099,MST,Preserve Tradition,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Put target action card from your graveyard on the bottom of your deck.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Murilo Amgarten,,MST099,/MST099_V2.png,C,,,Murilo Amgarten,,MST099,/MST099.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Murilo Amgarten,,MST099,/MST099_V2.png,,,C,,,Murilo Amgarten,,MST099,/MST099.png,,,,,,,,,,,,,,,,,,,,
 MST100,MST,"Rising Sun, Setting Moon",3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Draw a card, then put a card from your hand on the bottom of your deck.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Daken,,MST100,/MST100_V2.png,C,,,Daken,,MST100,/MST100.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,Daken,,MST100,/MST100_V2.png,,,C,,,Daken,,MST100,/MST100.png,,,,,,,,,,,,,,,,,,,,
 MST101,MST,Stir the Pot,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Shuffle.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_V2.png,C,,, 寿多浩 / Hiro Suda,,MST101,/MST101.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA, 寿多浩 / Hiro Suda,,MST101,/MST101_V2.png,,,C,,, 寿多浩 / Hiro Suda,,MST101,/MST101.png,,,,,,,,,,,,,,,,,,,,
 MST102,MST,The Grain that Tips the Scale,3,0,,,,,"Mystic, Instant","Legendary, Transcend",,,,,,"**Legendary**
 
 Target attack gets +1{p}.
 
-If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_V2.png,C,,,romiy,,MST102,/MST102.png,,,,,,,,,,,,,,
+If you've played another blue card this turn, **transcend**.",Mystic Instant,,,,,V,C,FA,romiy,,MST102,/MST102_V2.png,,,C,,,romiy,,MST102,/MST102.png,,,,,,,,,,,,,,,,,,,,
 MST103,MST,Bonds of Agony,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated 3 or more attack reactions this chain link, this gets +3{p} and ""When this hits a hero, look at their hand and choose a card. Search their hand, deck, and graveyard and banish up to 3 cards with the same name as the chosen card. They shuffle.""",Assassin Action - Attack,,,,No,M,,,Fajareka Setiawan,,MST103,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST103.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated 3 or more attack reactions this chain link, this gets +3{p} and ""When this hits a hero, look at their hand and choose a card. Search their hand, deck, and graveyard and banish up to 3 cards with the same name as the chosen card. They shuffle.""",Assassin Action - Attack,,,,No,M,,,Fajareka Setiawan,,MST103,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST104,MST,Persuasive Prognosis,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck. Then look at their hand and banish a card with the same color as the banished card.
 
-Whenever this banishes an action card, gain 1{h}.",Assassin Action - Attack,,,,No,M,,,Mario Wibisono,,MST104,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST104.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes an action card, gain 1{h}.",Assassin Action - Attack,,,,No,M,,,Mario Wibisono,,MST104,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST105,MST,Just a Nick,1,0,,3,,,"Assassin, Attack Reaction",,,,,,Stealth,"Choose 1 or both;
 - Target attack action card with 1 or less base {p} gets +5{p}.
-- Target attack with **stealth** gets ""When this hits a hero, banish the top card of their deck.""",Assassin Attack Reaction,,,,No,M,,,Fajareka Setiawan,,MST105,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST105.png,,,,,,,,,,,,,,,,,,,,,
+- Target attack with **stealth** gets ""When this hits a hero, banish the top card of their deck.""",Assassin Attack Reaction,,,,No,M,,,Fajareka Setiawan,,MST105,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST106,MST,Art of Desire: Body,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a red card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST106,/MST106.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a red card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST106,/MST106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST107,MST,Art of Desire: Soul,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a yellow card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST107,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST107.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a yellow card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST107,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST107.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST108,MST,Art of Desire: Mind,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a blue card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST108,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST108.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a blue card, draw a card and gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Henrique Lindner,,MST108,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST108.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST109,MST,Bonds of Attraction,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
-Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Anastasia Balakchina,,MST109,/MST109.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Anastasia Balakchina,,MST109,/MST109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST110,MST,Bonds of Attraction,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
-Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Anastasia Balakchina,,MST110,/MST110.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Anastasia Balakchina,,MST110,/MST110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST111,MST,Bonds of Attraction,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
-Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Anastasia Balakchina,,MST111,/MST111.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a card, if this has banished another card with the same color, gain 1{h}.",Assassin Action - Attack,,,,No,R,,,Anastasia Balakchina,,MST111,/MST111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST112,MST,Double Trouble,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,No,R,,,Isuardi Therianto,,MST112,/MST112.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,No,R,,,Isuardi Therianto,,MST112,/MST112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST113,MST,Double Trouble,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,No,R,,,Isuardi Therianto,,MST113,/MST113.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,No,R,,,Isuardi Therianto,,MST113,/MST113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST114,MST,Double Trouble,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,No,R,,,Isuardi Therianto,,MST114,/MST114.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated 2 or more attack reactions this chain link, this gets +2{p} and ""When this hits a hero, banish the top 2 cards of their deck.""",Assassin Action - Attack,,,,No,R,,,Isuardi Therianto,,MST114,/MST114.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST115,MST,Bonds of Memory,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
-Whenever this banishes a card, if this has banished another card with the same name, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Anastasia Pronina,,MST115,/MST115.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a card, if this has banished another card with the same name, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Anastasia Pronina,,MST115,/MST115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST116,MST,Bonds of Memory,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
-Whenever this banishes a card, if this has banished another card with the same name, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Anastasia Pronina,,MST116,/MST116.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a card, if this has banished another card with the same name, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Anastasia Pronina,,MST116,/MST116.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST117,MST,Bonds of Memory,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck, then banish a card from their graveyard.
 
-Whenever this banishes a card, if this has banished another card with the same name, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Anastasia Pronina,,MST117,/MST117.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a card, if this has banished another card with the same name, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Anastasia Pronina,,MST117,/MST117.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST118,MST,Desires of Flesh,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST118,/MST118.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST118,/MST118.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST119,MST,Desires of Flesh,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST119,/MST119.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST119,/MST119.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST120,MST,Desires of Flesh,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST120,/MST120.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes an attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST120,/MST120.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST121,MST,Impulsive Desire,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a reaction or instant card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Nikolay Moskvin,,MST121,/MST121.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a reaction or instant card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Nikolay Moskvin,,MST121,/MST121.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST122,MST,Impulsive Desire,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a reaction or instant card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Nikolay Moskvin,,MST122,/MST122.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a reaction or instant card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Nikolay Moskvin,,MST122,/MST122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST123,MST,Impulsive Desire,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a reaction or instant card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Nikolay Moskvin,,MST123,/MST123.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a reaction or instant card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Nikolay Moskvin,,MST123,/MST123.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST124,MST,Mind's Desire,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST124,/MST124.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST124,/MST124.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST125,MST,Mind's Desire,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST125,/MST125.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST125,/MST125.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST126,MST,Mind's Desire,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, banish the top card of their deck.
 
-Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST126,/MST126.png,,,,,,,,,,,,,,,,,,,,,
+Whenever this banishes a non-attack action card, gain 1{h}.",Assassin Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST126,/MST126.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST127,MST,Pick to Pieces,1,0,3,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST127,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST127.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST127,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST127.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST128,MST,Pick to Pieces,2,0,2,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST128,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST128.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST128,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST129,MST,Pick to Pieces,3,0,1,3,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
-If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST129,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST129.png,,,,,,,,,,,,,,,,,,,,,
-MST130,MST,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,T,,,Asur Misoa,,MST130,/MST130.png,,,,,,,,,,,,,,,,,,,,,
+If you've played or activated an attack reaction this chain link, this gets +1{p} and ""Damage that would be dealt by this can't be prevented.""",Assassin Action - Attack,,,,,C,,,Camille Alquier,,MST129,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST130,MST,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,T,,,Asur Misoa,,MST130,/MST130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST131,MST,"10,000 Year Reunion",1,8,,3,,,"Illusionist, Action, Aura",Ward 10,,,,,,"You may remove three +1{p} counters from among auras you control rather than pay 10,000 Year Reunion's {r} cost.
 
-**Ward 10**",Illusionist Action - Aura,,,,No,M,,,Faizal Fikri,,MST131,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST131.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 10**",Illusionist Action - Aura,,,,No,M,,,Faizal Fikri,,MST131,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST131.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST132,MST,Rage Specter,3,2,,3,,,"Illusionist, Action, Aura","Ward 1, Ward 6",,,,,,"When this enters the arena, if you control no other Illusionist auras, gain 1 action point.
 
-During your turn, this has **ward 6**. Otherwise, this has **ward 1**.",Illusionist Action - Aura,,,,No,M,,,Simon Dominic,,MST132,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST132.png,,,,,,,,,,,,,,,,,,,,,
+During your turn, this has **ward 6**. Otherwise, this has **ward 1**.",Illusionist Action - Aura,,,,No,M,,,Simon Dominic,,MST132,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST133,MST,Restless Coalescence,2,0,,,,,"Illusionist, Instant, Aura",Ward 2,,,,,,"When this enters the arena, move any number of +1{p} counters from auras you control onto this.
 
 **Once per Turn Instant** - Remove a +1{p} counter from this: Create a Spectral Shield token.
 
-**Ward 2**",Illusionist Action - Aura,,,,No,M,,,Isuardi Therianto,,MST133,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST133.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,No,M,,,Isuardi Therianto,,MST133,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST133.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST134,MST,Astral Etchings,1,1,,3,,,"Illusionist, Action",,,,,,,"Put three +1{p} counters on target aura with **ward** you control.
 
-If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,MST134,/MST134.png,,,,,,,,,,,,,,,,,,,,,
+If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,MST134,/MST134.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST135,MST,Astral Etchings,2,1,,3,,,"Illusionist, Action",,,,,,,"Put two +1{p} counters on target aura with **ward** you control.
 
-If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,MST135,/MST135.png,,,,,,,,,,,,,,,,,,,,,
+If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,MST135,/MST135.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST136,MST,Astral Etchings,3,1,,3,,,"Illusionist, Action",,,,,,,"Put a +1{p} counter on target aura with **ward** you control.
 
-If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,MST136,/MST136.png,,,,,,,,,,,,,,,,,,,,,
+If you control a Spectral Shield, you may play this as though it were an instant.",Illusionist Action,,,,No,R,,,Reza Afshar,,MST136,/MST136.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST137,MST,Essence of Ancestry: Body,1,0,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a red source this turn, prevent it.
 
-**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,MST137,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST137.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,MST137,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST137.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST138,MST,Essence of Ancestry: Soul,2,0,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, if you control no Illusionist auras, the next time you would be dealt damage by a yellow source this turn, prevent it.
 
-**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,MST138,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST138.png,,,,,,,,,,,,,,,,,,,,,
-MST139,MST,Essence of Ancestry: Mind,3,,,,,,,,,,,,,,,,,,No,R,,,Andrew Chou,,MST139,/MST139.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Andrew Chou,,MST138,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST138.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST139,MST,Essence of Ancestry: Mind,3,,,,,,,,,,,,,,,,,,No,R,,,Andrew Chou,,MST139,/MST139.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST140,MST,Haunting Specter,1,2,,2,,,"Illusionist, Action, Aura",Ward 4,,,,,,"When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
 
-**Ward 4**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST140,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST140.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 4**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST140,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST140.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST141,MST,Haunting Specter,2,2,,2,,,"Illusionist, Action, Aura",Ward 3,,,,,,"When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
 
-**Ward 3**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST141,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST141.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 3**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST141,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST142,MST,Haunting Specter,3,2,,2,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this leaves the arena, create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
 
-**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST142,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST142.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,No,R,,,Muhammad Fajri,,MST142,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST143,MST,Sigil of Solitude,1,0,,2,,,"Illusionist, Action, Aura",Ward 4,,,,,,"At the start of your turn, if you control another Illusionist aura, destroy this.
 
-**Ward 4**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST143,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST143.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 4**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST143,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST144,MST,Sigil of Solitude,2,0,,2,,,"Illusionist, Action, Aura",Ward 3,,,,,,"At the start of your turn, if you control another Illusionist aura, destroy this.
 
-**Ward 3**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST144,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST144.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 3**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST144,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST144.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST145,MST,Sigil of Solitude,3,0,,2,,,"Illusionist, Action, Aura",Ward 2,,,,,,"At the start of your turn, if you control another Illusionist aura, destroy this.
 
-**Ward 2**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST145,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST145.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,,C,,,Prisca Ardiana,,MST145,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST146,MST,Single Minded Determination,1,2,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put three +1{p} counter on this.
 
-**Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST146,/MST146.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST146,/MST146.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST147,MST,Single Minded Determination,2,2,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put two +1{p} counter on this.
 
-**Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST147,/MST147.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST147,/MST147.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST148,MST,Single Minded Determination,3,2,,3,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, put a +1{p} counter on this.
 
-**Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST148,/MST148.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 2**",Illusionist Action - Aura,,,,,C,,,Edward Chee,,MST148,/MST148.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST149,MST,Solitary Companion,1,0,,2,,,"Illusionist, Action, Aura",Ward 3,,,,,,"When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
 
-**Ward 1**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,MST149,/MST149.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,MST149,/MST149.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST150,MST,Solitary Companion,2,0,,2,,,"Illusionist, Action, Aura",Ward 2,,,,,,"When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
 
-**Ward 1**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,MST150,/MST150.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,MST150,/MST150.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST151,MST,Solitary Companion,3,0,,2,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this enters the arena, if you control no other Illusionist auras, create a Spectral Shield token.
 
-**Ward 1**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,MST151,/MST151.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Narendra B Adi,,MST151,/MST151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST152,MST,Spectral Manifestations,1,2,,2,,,"Illusionist, Action",Go again,,,,,,"Create a Spectral Shield token, then if you control no other Illusionist auras, put three +1{p} counters on it.
 
-**Go again**",Illusionist Action,,,,,C,,,Carlos Cruchaga,,MST152,/MST152.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Illusionist Action,,,,,C,,,Carlos Cruchaga,,MST152,/MST152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST153,MST,Spectral Manifestations,2,2,,2,,,"Illusionist, Action",Go again,,,,,,"Create a Spectral Shield token, then if you control no other Illusionist auras, put two +1{p} counters on it.
 
-**Go again**",Illusionist Action,,,,,C,,,Carlos Cruchaga,,MST153,/MST153.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Illusionist Action,,,,,C,,,Carlos Cruchaga,,MST153,/MST153.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST154,MST,Spectral Manifestations,3,2,,2,,,"Illusionist, Action",Go again,,,,,,"Create a Spectral Shield token, then if you control no other Illusionist auras, put a +1{p} counter on it.
 
-**Go again**",Illusionist Action,,,,,C,,,Carlos Cruchaga,,MST154,/MST154.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Illusionist Action,,,,,C,,,Carlos Cruchaga,,MST154,/MST154.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST155,MST,Vengeful Apparition,1,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 2 or less this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
-**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST155,/MST155.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST155,/MST155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST156,MST,Vengeful Apparition,2,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 1 or less this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
-**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST156,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST156.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST156,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST157,MST,Vengeful Apparition,3,0,,3,,,"Illusionist, Action, Aura",Ward 1,,,,,,"When this leaves the arena, if you control no Illusionist auras, you may play your next aura with cost 0 this turn as though it were an instant. If you do, it enters the arena with a +1{p} counter.
 
-**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST157,/MST157.png,,,,,,,,,,,,,,,,,,,,,
-MST158,MST,Spectral Shield,,,,,,,"Illusionist, Token, Aura",Ward 1,,,,,,**Ward 1**,Illusionist Token - Aura,,,,,T,,,Asur Misoa,,MST158,/MST158.png,T,,AA,Asur Misoa,,MST158,/MST158_V2.png,T,,AA,Asur Misoa,,MST158,/MST158_V3.png,,,,,,,
-MST159,MST,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,T,,,Joseph Qiu,,MST159,/MST159.png,,,,,,,,,,,,,,,,,,,,,
-MST160,MST,Mask of Wizened Whiskers,,,,,,,"Ninja, Equipment, Head",,,,,,,,,,,,,C,,,Daniel Jiménez,,MST160,/MST160.png,,,,,,,,,,,,,,,,,,,,,
-MST161,MST,Chase the Tail,1,1,4,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and the next Crouching Tiger you play this combat chain gets +3{p}.",Ninja Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST161,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png,,,,,,,,,,,,,,,,,,,,,
+**Ward 1**",Illusionist Action - Aura,,,,,C,,,Arif Wijaya,,MST157,/MST157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST158,MST,Spectral Shield,,,,,,,"Illusionist, Token, Aura",Ward 1,,,,,,**Ward 1**,Illusionist Token - Aura,,,,,T,,,Asur Misoa,,MST158,/MST158.png,,,T,,AA,Asur Misoa,,MST158,/MST158_V2.png,,,T,,AA,Asur Misoa,,MST158,/MST158_V3.png,,,,,,,,,,,
+MST159,MST,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,T,,,Joseph Qiu,,MST159,/MST159.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST160,MST,Mask of Wizened Whiskers,,,,,,,"Ninja, Equipment, Head",,,,,,,,,,,,,C,,,Daniel Jiménez,,MST160,/MST160.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST161,MST,Chase the Tail,1,1,4,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets go again and the next Crouching Tiger you play this combat chain gets +3{p}.",Ninja Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST161,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST161.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST162,MST,Maul,2,0,,3,,,"Ninja, Attack Reaction",,,,,,,"Choose 1 or both;
 - Target attack action card with 1 or less base {p} gets +3{p}.
-- Target Crouching Tiger gets ""When this hits, create 2 Crouching Tigers in your banished zone. You may play them this turn.""",Ninja Attack Reaction,,,,No,M,,,Faizal Fikri,,MST162,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST162.png,,,,,,,,,,,,,,,,,,,,,
-MST163,MST,Territorial Domain,3,0,,2,,,"Ninja, Defense Reaction",,,,,,,"While this is defending, if you've created a Crouching Tiger this turn, this gets +3{d}.",Ninja Defense Reaction,,,,No,M,,,Tomasz Jedruszek,,MST163,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST163.png,,,,,,,,,,,,,,,,,,,,,
-MST164,MST,Aspect of Tiger: Body,1,0,3,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a red attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST164,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST164.png,,,,,,,,,,,,,,,,,,,,,
-MST165,MST,Aspect of Tiger: Soul,2,0,2,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a yellow attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST165,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST165.png,,,,,,,,,,,,,,,,,,,,,
-MST166,MST,Aspect of Tiger: Mind,3,0,1,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a blue attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST166,/MST166.png,,,,,,,,,,,,,,,,,,,,,
-MST167,MST,Qi Unleashed,1,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST167,/MST167.png,,,,,,,,,,,,,,,,,,,,,
-MST168,MST,Qi Unleashed,2,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST168,/MST168.png,,,,,,,,,,,,,,,,,,,,,
-MST169,MST,Qi Unleashed,3,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST169,/MST169.png,,,,,,,,,,,,,,,,,,,,,
-MST170,MST,Blessing of Qi,1,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST170,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST170.png,,,,,,,,,,,,,,,,,,,,,
-MST171,MST,Blessing of Qi,2,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST171,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST171.png,,,,,,,,,,,,,,,,,,,,,
-MST172,MST,Blessing of Qi,3,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST172,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST172.png,,,,,,,,,,,,,,,,,,,,,
-MST173,MST,Biting Breeze,1,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST173,/MST173.png,,,,,,,,,,,,,,,,,,,,,
-MST174,MST,Biting Breeze,2,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST174,/MST174.png,,,,,,,,,,,,,,,,,,,,,
-MST175,MST,Biting Breeze,3,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST175,/MST175.png,,,,,,,,,,,,,,,,,,,,,
-MST176,MST,Breed Anger,1,1,4,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,C,,,Marco González,,MST176,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST176.png,,,,,,,,,,,,,,,,,,,,,
-MST177,MST,Breed Anger,2,1,3,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,C,,,Marco González,,MST177,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST177.png,,,,,,,,,,,,,,,,,,,,,
-MST178,MST,Breed Anger,3,1,2,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,C,,,Marco González,,MST178,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST178.png,,,,,,,,,,,,,,,,,,,,,
-MST179,MST,Flex Claws,1,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST179,/MST179.png,,,,,,,,,,,,,,,,,,,,,
-MST180,MST,Flex Claws,2,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST180,/MST180.png,,,,,,,,,,,,,,,,,,,,,
-MST181,MST,Flex Claws,3,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST181,/MST181.png,,,,,,,,,,,,,,,,,,,,,
-MST182,MST,Pouncing Qi,1,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST182,/MST182.png,,,,,,,,,,,,,,,,,,,,,
-MST183,MST,Pouncing Qi,2,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST183,/MST183.png,,,,,,,,,,,,,,,,,,,,,
-MST184,MST,Pouncing Qi,3,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST184,/MST184.png,,,,,,,,,,,,,,,,,,,,,
+- Target Crouching Tiger gets ""When this hits, create 2 Crouching Tigers in your banished zone. You may play them this turn.""",Ninja Attack Reaction,,,,No,M,,,Faizal Fikri,,MST162,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST162.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST163,MST,Territorial Domain,3,0,,2,,,"Ninja, Defense Reaction",,,,,,,"While this is defending, if you've created a Crouching Tiger this turn, this gets +3{d}.",Ninja Defense Reaction,,,,No,M,,,Tomasz Jedruszek,,MST163,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST163.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST164,MST,Aspect of Tiger: Body,1,0,3,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a red attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST164,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST165,MST,Aspect of Tiger: Soul,2,0,2,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a yellow attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST165,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST166,MST,Aspect of Tiger: Mind,3,0,1,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if a blue attack action card was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,No,R,,,Tomasz Jedruszek,,MST166,/MST166.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST167,MST,Qi Unleashed,1,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST167,/MST167.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST168,MST,Qi Unleashed,2,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST168,/MST168.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST169,MST,Qi Unleashed,3,,,,,,,,,,,,,,,,,,,R,,,Narendra B Adi,,MST169,/MST169.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST170,MST,Blessing of Qi,1,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST170,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST171,MST,Blessing of Qi,2,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST171,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST171.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST172,MST,Blessing of Qi,3,,,,,,,,,,,,,,,,,,,R,,,Faizal Fikri,,MST172,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST173,MST,Biting Breeze,1,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST173,/MST173.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST174,MST,Biting Breeze,2,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST174,/MST174.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST175,MST,Biting Breeze,3,,,,,,,,,,,,,,,,,,,C,,,Eilene Cherie,,MST175,/MST175.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST176,MST,Breed Anger,1,1,4,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,C,,,Marco González,,MST176,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST177,MST,Breed Anger,2,1,3,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,C,,,Marco González,,MST177,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST177.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST178,MST,Breed Anger,3,1,2,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - When this attacks, if Crouching Tiger was the last attack this combat chain, this gets **go again** and create a Crouching Tiger in your banished zone. You may play it this turn.",Ninja Action - Attack,,,,,C,,,Marco González,,MST178,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST179,MST,Flex Claws,1,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST179,/MST179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST180,MST,Flex Claws,2,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST180,/MST180.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST181,MST,Flex Claws,3,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,MST181,/MST181.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST182,MST,Pouncing Qi,1,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST182,/MST182.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST183,MST,Pouncing Qi,2,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST183,/MST183.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST184,MST,Pouncing Qi,3,,,,,,,,,,,,,,,,,,,C,,,Rio Sabda,,MST184,/MST184.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST185,MST,Untamed,1,1,4,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
 
-**Go again**",Ninja Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST185,/MST185.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Ninja Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST185,/MST185.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST186,MST,Untamed,2,1,3,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
 
-**Go again**",Ninja Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST186,/MST186.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Ninja Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST186,/MST186.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST187,MST,Untamed,3,1,2,2,,,"Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Crouching Tiger you play this combat chain gets +1{p}.
 
-**Go again**",Ninja Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST187,/MST187.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Ninja Action - Attack,,,,,C,,,Tomasz Jedruszek,,MST187,/MST187.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST188,MST,Crouching Tiger,,0,0,,,,"Ninja, Action, Attack","Ephemeral, Go again",,,,,,"**Ephemeral**
 
-**Go again**",Ninja Action - Attack,,,,,T,,,Carlos Cruchaga,,MST188,/MST188.png,,,,,,,,,,,,,,,,,,,,,
-MST189,MST,Zen State,,,,,,,,,,,,,,,,,,,,T,,,Jessada Sutthi,,MST189,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST189.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Ninja Action - Attack,,,,,T,,,Carlos Cruchaga,,MST188,/MST188.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST189,MST,Zen State,,,,,,,,,,,,,,,,,,,,T,,,Jessada Sutthi,,MST189,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST189.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST190,MST,Stonewall Gauntlet,,,,1,,,"Generic, Equipment, Arms",Blade Break,,,,,,"When this defends an attack with {p} greater than its base, opposing attacks get -1{p} this combat chain.
 
-**Blade Break**",Generic Equipment - Arms,,,,No,L,R,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,L,C,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,,,,,,,,,,,,,,
+**Blade Break**",Generic Equipment - Arms,,,,No,L,R,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,,,L,C,,Andy Aslamov,,MST190,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST190.png,,,,,,,,,,,,,,,,,,,,
 MST191,MST,Rowdy Locals,3,0,2,3,,,"Generic, Action, Attack",,,,,,,"If this is defended by an action card, this gets +2{p}.
 
-When this hits a hero, discard a card. If you do, they discard a card.",Generic Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST191,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png,,,,,,,,,,,,,,,,,,,,,
-MST192,MST,The Weakest Link,1,2,6,3,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card.",Generic Action - Attack,,,,No,M,,,Federico Musetti,,MST192,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png,,,,,,,,,,,,,,,,,,,,,
+When this hits a hero, discard a card. If you do, they discard a card.",Generic Action - Attack,,,,No,M,,,Sebastian Giacobino,,MST191,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST191.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST192,MST,The Weakest Link,1,2,6,3,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, look at their hand and choose a card without base {d}. If you do, they discard it and you draw a card.",Generic Action - Attack,,,,No,M,,,Federico Musetti,,MST192,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST193,MST,Prismatic Leyline,2,0,,3,,,"Generic, Action",Go again,,,,,,"Your next red attack this turn gets +1{p}, your next yellow gets +2{p}, and your next blue gets +3{p}.
 
-**Go again**",Generic Action,,,,No,M,,,Andrew Chou,,MST193,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST193.png,,,,,,,,,,,,,,,,,,,,,
-MST194,MST,Blanch,1,3,7,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST194,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST194.png,,,,,,,,,,,,,,,,,,,,,
-MST195,MST,Blanch,2,3,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST195,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST195.png,,,,,,,,,,,,,,,,,,,,,
-MST196,MST,Blanch,3,3,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST196,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST196.png,,,,,,,,,,,,,,,,,,,,,
-MST197,MST,Emissary of Moon,1,0,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",Generic Action - Attack,,,,No,R,,,Isuardi Therianto,,MST197,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png,,,,,,,,,,,,,,,,,,,,,
-MST198,MST,Emissary of Tides,1,0,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets +2{p}.",Generic Action - Attack,,,,No,R,,,Ramza Ardyputra,,MST198,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST198.png,,,,,,,,,,,,,,,,,,,,,
-MST199,MST,Emissary of Wind,1,0,4,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets **go again**.",Generic Action - Attack,,,,No,R,,,soyameii,,MST199,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png,,,,,,,,,,,,,,,,,,,,,
-MST200,MST,Gravekeeping,1,1,5,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,MST200,/MST200.png,,,,,,,,,,,,,,,,,,,,,
-MST201,MST,Gravekeeping,2,1,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,MST201,/MST201.png,,,,,,,,,,,,,,,,,,,,,
-MST202,MST,Gravekeeping,3,1,3,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,MST202,/MST202.png,,,,,,,,,,,,,,,,,,,,,
-MST203,MST,Battlefront Bastion,1,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST203,/MST203.png,,,,,,,,,,,,,,,,,,,,,
-MST204,MST,Battlefront Bastion,2,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST204,/MST204.png,,,,,,,,,,,,,,,,,,,,,
-MST205,MST,Battlefront Bastion,3,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST205,/MST205.png,,,,,,,,,,,,,,,,,,,,,
-MST206,MST,Fact-Finding Mission,1,2,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST206,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST206.png,,,,,,,,,,,,,,,,,,,,,
-MST207,MST,Fact-Finding Mission,2,2,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST207,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST207.png,,,,,,,,,,,,,,,,,,,,,
-MST208,MST,Fact-Finding Mission,3,2,4,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST208,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST208.png,,,,,,,,,,,,,,,,,,,,,
-MST209,MST,Nimble Strike,1,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST209,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST209.png,,,,,,,,,,,,,,,,,,,,,
-MST210,MST,Nimble Strike,2,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST210,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST210.png,,,,,,,,,,,,,,,,,,,,,
-MST211,MST,Nimble Strike,3,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST211,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST211.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Generic Action,,,,No,M,,,Andrew Chou,,MST193,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST194,MST,Blanch,1,3,7,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST194,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST195,MST,Blanch,2,3,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST195,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST195.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST196,MST,Blanch,3,3,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, cards they own lose all colors until the end of their next turn.",Generic Action - Attack,,,,No,R,,,Mark Poole,,MST196,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST196.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST197,MST,Emissary of Moon,1,0,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, draw a card.",Generic Action - Attack,,,,No,R,,,Isuardi Therianto,,MST197,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST197.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST198,MST,Emissary of Tides,1,0,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets +2{p}.",Generic Action - Attack,,,,No,R,,,Ramza Ardyputra,,MST198,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST198.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST199,MST,Emissary of Wind,1,0,4,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, you may put a card from your hand on the bottom of your deck. If you do, this gets **go again**.",Generic Action - Attack,,,,No,R,,,soyameii,,MST199,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST199.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST200,MST,Gravekeeping,1,1,5,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,MST200,/MST200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST201,MST,Gravekeeping,2,1,4,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,MST201,/MST201.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST202,MST,Gravekeeping,3,1,3,2,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, you may banish a card from their graveyard.",Generic Action - Attack,,,,No,R,,,Sebastian Giacobino,,MST202,/MST202.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST203,MST,Battlefront Bastion,1,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST203,/MST203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST204,MST,Battlefront Bastion,2,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST204,/MST204.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST205,MST,Battlefront Bastion,3,,,,,,,,,,,,,,,,,,,C,,,Bastien Jez,,MST205,/MST205.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST206,MST,Fact-Finding Mission,1,2,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST206,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST207,MST,Fact-Finding Mission,2,2,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST207,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST207.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST208,MST,Fact-Finding Mission,3,2,4,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, you may look at a face-down card in their arsenal or equipment zones.",Generic Action - Attack,,,,,C,,,Erick Efata,,MST208,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST208.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST209,MST,Nimble Strike,1,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST209,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST209.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST210,MST,Nimble Strike,2,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST210,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST210.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST211,MST,Nimble Strike,3,,,,,,,,,,,,,,,,,,,C,,,Anastasiya Grintsova,,MST211,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST211.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST212,MST,Water the Seeds,1,1,3,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, your next attack this combat chain with 1 or less base {p} gets +1{p}.
 
-**Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST212,/MST212.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST212,/MST212.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST213,MST,Water the Seeds,2,1,2,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, your next attack this combat chain with 1 or less base {p} gets +1{p}.
 
-**Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST213,/MST213.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST213,/MST213.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST214,MST,Water the Seeds,3,1,1,2,,,"Generic, Action, Attack",Go again,,,,,,"When this attacks, your next attack this combat chain with 1 or less base {p} gets +1{p}.
 
-**Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST214,/MST214.png,,,,,,,,,,,,,,,,,,,,,
-MST215,MST,Wounding Blow,1,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST215,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST215.png,,,,,,,,,,,,,,,,,,,,,
-MST216,MST,Wounding Blow,2,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST216,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST216.png,,,,,,,,,,,,,,,,,,,,,
-MST217,MST,Wounding Blow,3,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST217,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST217.png,,,,,,,,,,,,,,,,,,,,,
-MST218,MST,Evasive Leap,1,0,,3,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST218,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST218.png,,,,,,,,,,,,,,,,,,,,,
-MST219,MST,Evasive Leap,2,0,,2,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST219,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST219.png,,,,,,,,,,,,,,,,,,,,,
-MST220,MST,Evasive Leap,3,0,,1,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST220,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST220.png,,,,,,,,,,,,,,,,,,,,,
-MST221,MST,Nimblism,1,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST221,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST221.png,,,,,,,,,,,,,,,,,,,,,
-MST222,MST,Nimblism,2,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST222,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST222.png,,,,,,,,,,,,,,,,,,,,,
-MST223,MST,Nimblism,3,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST223,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST223.png,,,,,,,,,,,,,,,,,,,,,
-MST224,MST,Cracked Bauble,2,,,,,,,,,,,,,,,,,,,T,,,Sam Yang,,MST224,/MST224.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Generic Action - Attack,,,,,C,,,Rio Sabda,,MST214,/MST214.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST215,MST,Wounding Blow,1,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST215,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST216,MST,Wounding Blow,2,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST216,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST216.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST217,MST,Wounding Blow,3,,,,,,,,,,,,,,,,,,,C,,,Sonia Sandoval,,MST217,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST218,MST,Evasive Leap,1,0,,3,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST218,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST218.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST219,MST,Evasive Leap,2,0,,2,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST219,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST219.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST220,MST,Evasive Leap,3,0,,1,,,"Generic, Defense Reaction",,,,,,,,Generic Defense Reaction,,,,,C,,,Nikolay Moskvin,,MST220,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST220.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST221,MST,Nimblism,1,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST221,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST221.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST222,MST,Nimblism,2,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST222,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST222.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST223,MST,Nimblism,3,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,MST223,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST223.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST224,MST,Cracked Bauble,2,,,,,,,,,,,,,,,,,,,T,,,Sam Yang,,MST224,/MST224.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST225,MST,Visit Goldmane Estate,3,1,,3,,,"Guardian, Action","Victor Specialization, Go again",,,,,,"**Victor Specialization**
 
 Create a Gold token. Then if you control 3 or more Gold, create that many Might tokens.
 
-**Go again**",Guardian Action,,,,No,M,,,Joseph Qiu,,MST225,/MST225.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Guardian Action,,,,No,M,,,Joseph Qiu,,MST225,/MST225.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST226,MST,Visit the Golden Anvil,3,0,,3,,,"Warrior, Action",Olympia Specialization,,,,,,"**Olympia Specialization**
 
 As an additional cost to play this, destroy X Gold you control.
 
-Equip X weapons and/or equipment from your inventory.",Warrior Action,,,,No,M,,,Simon Dominic,,MST226,/MST226.png,,,,,,,,,,,,,,,,,,,,,
+Equip X weapons and/or equipment from your inventory.",Warrior Action,,,,No,M,,,Simon Dominic,,MST226,/MST226.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST227,MST,Supercell,3,X,,2,,,"Mechanologist, Action",,,,,,,"Put X steam counters on X target Hyper Drivers you control.
 
 Create a Hyper Driver token with X steam counters.
 
-If X is 3 or greater, you may shuffle a Construct Nitro Mechanoid from your banished zone into your deck.",Mechanologist Action,,,,No,M,,,Mariusz Gandzel,,MST227,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST227.png,,,,,,,,,,,,,,,,,,,,,
+If X is 3 or greater, you may shuffle a Construct Nitro Mechanoid from your banished zone into your deck.",Mechanologist Action,,,,No,M,,,Mariusz Gandzel,,MST227,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST227.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST228,MST,Evo Recall,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Head",Arcane Barrier 1,,,,,,"If you have a base head equipped, transform it into this, then equip this.
 
 When this is equipped, put up to 1 Mechanologist action card from your banished zone on top of your deck.
 
-**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Head,,,,No,M,,,Federico Musetti,,MST228,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST228.png,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Head,,,,No,M,,,Federico Musetti,,MST228,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST228.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST229,MST,Evo Heartdrive,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Chest",Arcane Barrier 1,,,,,,"If you have a base chest equipped, transform it into this, then equip this.
 
 When this is equipped, the next attack action card you play this turn costs {r} less to play.
 
-**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Chest,,,,No,M,,,Federico Musetti,,MST229,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST229.png,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Chest,,,,No,M,,,Federico Musetti,,MST229,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST229.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST230,MST,Evo Shortcircuit,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Arms",Arcane Barrier 1,,,,,,"If you have a base arms equipped, transform it into this, then equip this.
 
 When this is equipped, deal 1 damage to any target.
 
-**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Arms,,,,No,M,,,Federico Musetti,,MST230,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST230.png,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Arms,,,,No,M,,,Federico Musetti,,MST230,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST230.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST231,MST,Evo Speedslip,3,0,,0,,,"Mechanologist, Instant, Equipment, Evo, Legs",Arcane Barrier 1,,,Boost,,,"If you have a base legs equipped, transform it into this, then equip this.
 
 When this is equipped, the next attack action card you play this turn gets boost.
 
-**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Legs,,,,No,M,,,Federico Musetti,,MST231,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST231.png,,,,,,,,,,,,,,,,,,,,,
+**Arcane Barrier 1**",Mechanologist Instant Equipment - Evo Legs,,,,No,M,,,Federico Musetti,,MST231,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST231.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST232,MST,Longdraw Half-glove,,,,1,,,"Ranger, Equipment, Arms",Battleworn,Instant,,,,,"**Instant** - Destroy this, put 2 cards from your hand and/or arsenal on the bottom of your deck: Your next arrow attack this turn gets +4{p}.
 
-**Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Maerel Hibadita,,MST232,/MST232.png,,,,,,,,,,,,,,,,,,,,,
+**Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Maerel Hibadita,,MST232,/MST232.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST233,MST,Murky Water,1,2,6,3,,,"Ranger, Action, Arrow, Attack","Riptide Specialization, Dominate",,,,,,"**Riptide Specialization**
 
 If this has an aim counter, it gets +1{p} and **dominate**.
 
-When this hits, you may banish face-down 3 traps from your graveyard. If you do, choose one at random and put it into your arsenal.",Ranger Action - Arrow Attack,,,,No,M,,,Joseph Qiu,,MST233,/MST233.png,,,,,,,,,,,,,,,,,,,,,
+When this hits, you may banish face-down 3 traps from your graveyard. If you do, choose one at random and put it into your arsenal.",Ranger Action - Arrow Attack,,,,No,M,,,Joseph Qiu,,MST233,/MST233.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST234,MST,Kindle,1,0,,,,,"Wizard, Instant",Amp 1,,,,,,"**Amp 1**
 
-If you have no cards in hand, draw a card.",Wizard Instant,,,,No,M,,,Reza Afshar,,MST234,/MST234.png,,,,,,,,,,,,,,,,,,,,,
-MST235,MST,Dust from Stillwater Shrine,1,0,,3,,,"Draconic, Illusionist, Action, Ash",Material,,,Phantasm,,,"**Material** - While this is under a permanent other than Miragai, that permanent has **phantasm**.",Draconic Illusionist Action - Ash,,,,No,M,,,Saad Irfan,,MST235,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST235.png,,,,,,,,,,,,,,,,,,,,,
+If you have no cards in hand, draw a card.",Wizard Instant,,,,No,M,,,Reza Afshar,,MST234,/MST234.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MST235,MST,Dust from Stillwater Shrine,1,0,,3,,,"Draconic, Illusionist, Action, Ash",Material,,,Phantasm,,,"**Material** - While this is under a permanent other than Miragai, that permanent has **phantasm**.",Draconic Illusionist Action - Ash,,,,No,M,,,Saad Irfan,,MST235,https://storage.googleapis.com/fabmaster/cardfaces/2024-MST/EN/MST235.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST236,MST,Shadowrealm Horror,1,2,6,3,,,"Shadow, Brute, Action, Attack","Go again, Blood Debt",,,,,,"As an additional cost to play this, banish 3 random cards in your graveyard.
 
 If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 or more, this gets **go again**. 3 or more, you may play a card banished this way this turn.
 
-**Blood Debt**",Shadow Brute Action - Attack,,,,No,M,,,Ausonia,,MST236,/MST236.png,,,,,,,,,,,,,,,,,,,,,
+**Blood Debt**",Shadow Brute Action - Attack,,,,No,M,,,Ausonia,,MST236,/MST236.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST237,MST,Eloquent Eulogy,1,1,4,3,,,"Shadow, Runeblade, Action, Attack","Rune Gate, Blood Debt",,,,,,"**Rune Gate**
 
 When the combat chain closes, if a hero has lost {h} this turn, create an Eloquence token.
 
-**Blood Debt**",Shadow Runeblade Action - Attack,,,,No,M,,,Federico Musetti,,MST237,/MST237.png,,,,,,,,,,,,,,,,,,,,,
+**Blood Debt**",Shadow Runeblade Action - Attack,,,,No,M,,,Federico Musetti,,MST237,/MST237.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MST238,MST,"Enigma, New Moon",,,,,20,4,"Mystic, Illusionist, Hero, Young",,Instant,,Cloaked,,Ward,"Equipment you own gets **cloaked**
 
-**Instant** - {c}{c}{c}, Turn target face-down equipment you have equipped face-up. If it has **ward**, create 3 Spectral Shield tokens.",Mystic Illusionist Hero - Young,,,No,No,L,R,,Livia Prima,,MST238,/MST238.png,V,C,,Livia Prima,,MST238,/MST238_V2.png,V,C,FA,Livia Prima,,MST238,/MST238_V2_BACK.png,,,,,,,
+**Instant** - {c}{c}{c}, Turn target face-down equipment you have equipped face-up. If it has **ward**, create 3 Spectral Shield tokens.",Mystic Illusionist Hero - Young,,,No,No,L,R,,Livia Prima,,MST238,/MST238.png,,,V,C,,Livia Prima,,MST238,/MST238_V2.png,,,V,C,FA,Livia Prima,,MST238,/MST238_V2_BACK.png,,,,,,,,,,,
 HER117,HER,"Blaze, Firemind",,,,,17,4,"Wizard, Hero, Young",,Once per Turn Instant,,,,Opt,"Whenever you **opt**, put energy counters on Blaze equal to the number of cards looked at this way.
 
-**Once per Turn Instant** - Remove X energy counters from Blaze: Banish a Wizard non-attack action card from your hand with an effect that deals arcane damage equal to X. You may play it this turn as though it were an instant.",Wizard Hero - Young,,,No,No,P,R,,Isuardi Therianto,,HER117,/HER117.png,,,,,,,,,,,,,,,,,,,,,
+**Once per Turn Instant** - Remove X energy counters from Blaze: Banish a Wizard non-attack action card from your hand with an effect that deals arcane damage equal to X. You may play it this turn as though it were an instant.",Wizard Hero - Young,,,No,No,P,R,,Isuardi Therianto,,HER117,/HER117.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
