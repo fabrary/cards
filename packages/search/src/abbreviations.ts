@@ -305,6 +305,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Virulent Touch",
   },
   {
+    abbreviations: ["Cast Homes"],
+    card: "Visit Goldmane Estate",
+  },
+  {
     abbreviations: ["ZTS"],
     card: "Zero to Sixty",
   },
