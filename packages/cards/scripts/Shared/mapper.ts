@@ -30,113 +30,125 @@ export const getStringIfNotNumber = (value?: string): string | undefined => {
   }
 };
 
-export const ignoreOppositeSides = [
+export const IGNORE_OPPOSITE_SIDES = [
   "Blossom of Spring",
   "Fyendal's Spring Tunic",
   "Scabskin Leathers",
   "Snapdragon Scalers",
 ];
 
-const OPPOSITE_SIDE_CARD_OVERRIDES: { back: string; fronts: string[] }[] = [
-  {
-    back: "inner-chi-blue",
-    fronts: [
-      "a-drop-in-the-ocean-blue",
-      "homage-to-ancestors-blue",
-      "mistcloak-gully",
-      "pass-over-blue",
-      "path-well-traveled-blue",
-      "preserve-tradition-blue",
-      "rising-sun-setting-moon-blue",
-      "sacred-art-undercurrent-desires-blue",
-      "sacred-art-jade-tiger-domain-blue",
-      "sacred-art-immortal-lunar-shrine-blue",
-      "stir-the-pot-blue",
-      "the-grain-that-tips-the-scale-blue",
-    ],
-  },
-];
+export const CARD_BACKS_OVERRIDES = ["Inner Chi"];
 
 export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   return cards.map((card) => {
-    const oppositeSideOverrideIdentifier = OPPOSITE_SIDE_CARD_OVERRIDES.find(
-      ({ fronts }) => fronts.includes(card.cardIdentifier)
-    )?.back;
-    const oppositeSideOverrideIdentifiers =
-      OPPOSITE_SIDE_CARD_OVERRIDES.find(
-        ({ back }) => back === card.cardIdentifier
-      )?.fronts || [];
+    const oppositeSideCards = cards.filter((otherCard) => {
+      const notTheSameCard = card.name !== otherCard.name;
+      // LSS used the same RNR prefix for two different sets - Rhinar Blitz deck and Rhinar CC deck
+      const notARNRCard =
+        !otherCard.printings.some(
+          ({ set }) => set === Release.RhinarBlitzDeck
+        ) && !card.printings.some(({ set }) => set === Release.RhinarBlitzDeck);
 
-    const oppositeSide = oppositeSideOverrideIdentifier
-      ? cards.find(
-          ({ cardIdentifier }) =>
-            cardIdentifier === oppositeSideOverrideIdentifier
-        )
-      : cards.find((otherCard) => {
-          return (
-            otherCard.name !== card.name &&
-            otherCard.setIdentifiers.every((otherIdentifier) =>
-              card.setIdentifiers.includes(otherIdentifier)
-            )
-          );
-        });
+      const cardHasSameSetIdentifier = otherCard.printings.some(
+        (otherPrinting) =>
+          card.printings.some(
+            ({ identifier }) => identifier === otherPrinting.identifier
+          )
+      );
 
-    const isCardBack =
-      oppositeSideOverrideIdentifiers.length > 0 ||
-      (oppositeSide &&
-        (oppositeSide.subtypes.includes(Subtype.Invocation) ||
-          oppositeSide.subtypes.includes(Subtype.Construct) ||
-          oppositeSide.subtypes.includes(Subtype.Figment) ||
-          oppositeSide.keywords?.includes(Keyword.Transcend)));
+      return notARNRCard && notTheSameCard && cardHasSameSetIdentifier;
+    });
 
-    if (oppositeSide && oppositeSideOverrideIdentifiers.length === 0) {
+    const isOppositeSideCardFront = oppositeSideCards.some(
+      ({ keywords, subtypes }) => {
+        const isConstruct = subtypes.includes(Subtype.Construct);
+        const isFigment = subtypes.includes(Subtype.Figment);
+        const isInvocation = subtypes.includes(Subtype.Invocation);
+        const isTranscend = keywords?.includes(Keyword.Transcend);
+
+        return isConstruct || isFigment || isInvocation || isTranscend;
+      }
+    );
+
+    const isCardBackOverride = CARD_BACKS_OVERRIDES.includes(card.name);
+    const isCardBack = isCardBackOverride || isOppositeSideCardFront;
+
+    if (oppositeSideCards.length > 0) {
       const printingsWithOppositeSide: Printing[] = card.printings.map(
         (printing) => {
-          const oppositeImageFullMatch = oppositeSide.printings.find(
-            ({ edition, identifier, foiling, treatment }) => {
-              const editionsMatch = edition === printing.edition;
-              const identifiersMatch = identifier === printing.identifier;
-              const foilingsMatch = foiling === printing.foiling;
-              const treatmentsMatch = treatment === printing.treatment;
+          let oppositeImageFullMatch: string | undefined;
+          let oppositeImagePartialMatchBothHaveTreatment: string | undefined;
+          let oppositeImagePartialMatch: string | undefined;
+          let setIdentifierMatch: string | undefined;
 
-              return (
-                editionsMatch &&
-                identifiersMatch &&
-                foilingsMatch &&
-                treatmentsMatch
-              );
+          for (const oppositeSideCard of oppositeSideCards) {
+            if (!oppositeImageFullMatch) {
+              oppositeImageFullMatch = oppositeSideCard.printings.find(
+                ({ edition, identifier, foiling, treatment }) => {
+                  const editionsMatch = edition === printing.edition;
+                  const identifiersMatch = identifier === printing.identifier;
+                  const foilingsMatch = foiling === printing.foiling;
+                  const treatmentsMatch = treatment === printing.treatment;
+
+                  return (
+                    editionsMatch &&
+                    identifiersMatch &&
+                    foilingsMatch &&
+                    treatmentsMatch
+                  );
+                }
+              )?.image;
             }
-          )?.image;
-          const oppositeImagePartialMatchBothHaveTreatment =
-            oppositeSide.printings.find(
-              ({ edition, identifier, foiling, treatment }) => {
-                const editionsMatch = edition === printing.edition;
-                const identifiersMatch = identifier === printing.identifier;
-                const foilingsMatch = foiling === printing.foiling;
-                const bothHaveTreatments = !!treatment && !!printing.treatment;
 
-                return (
-                  editionsMatch &&
-                  identifiersMatch &&
-                  foilingsMatch &&
-                  bothHaveTreatments
-                );
-              }
-            )?.image;
-          const oppositeImagePartialMatch = oppositeSide.printings.find(
-            ({ edition, identifier, foiling }) => {
-              const editionsMatch = edition === printing.edition;
-              const identifiersMatch = identifier === printing.identifier;
-              const foilingsMatch = foiling === printing.foiling;
+            if (!oppositeImagePartialMatchBothHaveTreatment) {
+              oppositeImagePartialMatchBothHaveTreatment =
+                oppositeSideCard.printings.find(
+                  ({ edition, identifier, foiling, treatment }) => {
+                    const editionsMatch = edition === printing.edition;
+                    const identifiersMatch = identifier === printing.identifier;
+                    const foilingsMatch = foiling === printing.foiling;
+                    const bothHaveTreatments =
+                      !!treatment && !!printing.treatment;
 
-              return editionsMatch && identifiersMatch && foilingsMatch;
+                    return (
+                      editionsMatch &&
+                      identifiersMatch &&
+                      foilingsMatch &&
+                      bothHaveTreatments
+                    );
+                  }
+                )?.image;
             }
-          )?.image;
+
+            if (!oppositeImagePartialMatch) {
+              oppositeImagePartialMatch = oppositeSideCard.printings.find(
+                ({ edition, identifier, foiling }) => {
+                  const editionsMatch = edition === printing.edition;
+                  const identifiersMatch = identifier === printing.identifier;
+                  const foilingsMatch = foiling === printing.foiling;
+
+                  return editionsMatch && identifiersMatch && foilingsMatch;
+                }
+              )?.image;
+            }
+
+            if (!setIdentifierMatch) {
+              setIdentifierMatch = oppositeSideCard.printings.find(
+                ({ edition, identifier }) => {
+                  const editionsMatch = edition === printing.edition;
+                  const identifiersMatch = identifier === printing.identifier;
+
+                  return editionsMatch && identifiersMatch;
+                }
+              )?.image;
+            }
+          }
 
           const oppositeImage =
             oppositeImageFullMatch ||
             oppositeImagePartialMatchBothHaveTreatment ||
-            oppositeImagePartialMatch;
+            oppositeImagePartialMatch ||
+            setIdentifierMatch;
 
           return { ...printing, oppositeImage };
         }
@@ -146,12 +158,12 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
 
     return {
       ...card,
-      ...(oppositeSide
+      ...(oppositeSideCards.length
         ? {
-            oppositeSideCardIdentifier: oppositeSide.cardIdentifier,
-            oppositeSideCardIdentifiers: oppositeSideOverrideIdentifiers.length
-              ? oppositeSideOverrideIdentifiers
-              : [oppositeSide.cardIdentifier],
+            oppositeSideCardIdentifier: oppositeSideCards[0].cardIdentifier,
+            oppositeSideCardIdentifiers: oppositeSideCards.map(
+              ({ cardIdentifier }) => cardIdentifier
+            ),
           }
         : {}),
       ...(isCardBack ? { isCardBack } : {}),

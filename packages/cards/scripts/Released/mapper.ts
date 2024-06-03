@@ -24,7 +24,7 @@ import {
   getRestrictedFormats,
   getSpecializations,
   getStringIfNotNumber,
-  ignoreOppositeSides,
+  IGNORE_OPPOSITE_SIDES,
   sortPrintingsByReleaseOrder,
 } from "../Shared";
 import { overrides } from "../Shared/artist-overrides";
@@ -110,7 +110,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     if (!isPrintExcluded) {
       images.push({
-        artist,
+        artist: artist.trim(),
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
         identifier,
@@ -270,24 +270,34 @@ const getCardData = (card: ParsedCard): Card => {
 
   const { rarity, rarities } = getRarities(card);
 
+  const defaultPrinting = getDefaultPrinting(
+    { name: card.name, cardIdentifier: getIdentifier(card) },
+    printings
+  );
+  const specialPrinting = getSpecialPrinting(
+    { name: card.name, cardIdentifier: getIdentifier(card) },
+    printings
+  );
+
+  // if (!defaultPrinting) {
+  //   console.error(`No default printing`, card);
+  // }
+  // if (!specialPrinting) {
+  //   console.error(`No special printing`, card);
+  // }
+
   return {
     artists,
     cardIdentifier: getIdentifier(card),
     classes: getClasses(card),
-    defaultImage: getDefaultPrinting(
-      { name: card.name, cardIdentifier: getIdentifier(card) },
-      printings
-    ).image,
+    defaultImage: defaultPrinting?.image,
     name: card.name.trim(),
     printings,
     rarities,
     rarity,
     setIdentifiers,
     sets: getSets(printings),
-    specialImage: getSpecialPrinting(
-      { name: card.name, cardIdentifier: getIdentifier(card) },
-      printings
-    ).image,
+    specialImage: specialPrinting?.image,
     subtypes,
     types,
     typeText: card.typeText,
@@ -323,7 +333,7 @@ export const mapJSON = (parsedCards: ParsedCard[]): Card[] => {
   return addOppositeSideCardIdentifiers(cards).map((card) => {
     if (isBackOverrides.includes(card.name)) {
       card.isCardBack = true;
-    } else if (ignoreOppositeSides.includes(card.name)) {
+    } else if (IGNORE_OPPOSITE_SIDES.includes(card.name)) {
       delete card.isCardBack;
       delete card.oppositeSideCardIdentifier;
       delete card.oppositeSideCardIdentifiers;

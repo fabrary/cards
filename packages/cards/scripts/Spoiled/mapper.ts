@@ -202,7 +202,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
   const print = getPrint({ identifier, image, foiling, set, treatment });
 
   return {
-    artist,
+    artist: artist.trim(),
     ...(foiling ? { foiling } : {}),
     identifier,
     image,

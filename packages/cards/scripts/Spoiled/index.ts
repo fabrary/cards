@@ -7,11 +7,11 @@ import { combineAndAddMissingFields } from "../Shared/combined-and-missing-field
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
-const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
+// const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
-const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
-const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST Blitz decks.csv`;
-const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
+// const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
+// const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST Blitz decks.csv`;
+// const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
@@ -20,10 +20,10 @@ const parsedOverrideCards = parseCSV(overrideCardsFile)
 const overrideCards = mapCSV(parsedOverrideCards);
 
 const parsedSpoiledSetCards = [
-  ...parseCSV(spoiledSetCardsFile1),
+  // ...parseCSV(spoiledSetCardsFile1),
   ...parseCSV(spoiledSetCardsFile2),
-  ...parseCSV(spoiledSetCardsFile3),
-  ...parseCSV(spoiledSetCardsFile4),
+  // ...parseCSV(spoiledSetCardsFile3),
+  // ...parseCSV(spoiledSetCardsFile4),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
@@ -36,17 +36,18 @@ const parsedSpoiledSetCards = [
   });
 const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
-const parsedSpoiledPromoCards = parseCSV(spoiledPromoCardsFile)
-  .filter((card) => !!card.name)
-  .filter(filterOutUnwantedCards)
-  .filter((card) => {
-    const matchingOverride = parsedOverrideCards.some(
-      (overrideCard) =>
-        card.name === overrideCard.name && card.pitch === overrideCard.pitch
-    );
-    return !matchingOverride;
-  });
-const spoiledPromoCards = mapCSV(parsedSpoiledPromoCards);
+// const parsedSpoiledPromoCards = parseCSV(spoiledPromoCardsFile)
+//   .filter((card) => !!card.name)
+//   .filter(filterOutUnwantedCards)
+//   .filter((card) => {
+//     const matchingOverride = parsedOverrideCards.some(
+//       (overrideCard) =>
+//         card.name === overrideCard.name && card.pitch === overrideCard.pitch
+//     );
+//     return !matchingOverride;
+//   });
+// const spoiledPromoCards: Card[] = mapCSV(parsedSpoiledPromoCards);
+const spoiledPromoCards: Card[] = [];
 
 const deduplicatedCards: Card[] = [...overrideCards];
 
