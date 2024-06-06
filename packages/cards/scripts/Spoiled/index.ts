@@ -11,7 +11,7 @@ import { getSpecialPrinting } from "@flesh-and-blood/types";
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
 // const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
 // const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST Blitz decks.csv`;
-// const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
+const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
@@ -36,18 +36,17 @@ const parsedSpoiledSetCards = [
   });
 const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
-// const parsedSpoiledPromoCards = parseCSV(spoiledPromoCardsFile)
-//   .filter((card) => !!card.name)
-//   .filter(filterOutUnwantedCards)
-//   .filter((card) => {
-//     const matchingOverride = parsedOverrideCards.some(
-//       (overrideCard) =>
-//         card.name === overrideCard.name && card.pitch === overrideCard.pitch
-//     );
-//     return !matchingOverride;
-//   });
-// const spoiledPromoCards: Card[] = mapCSV(parsedSpoiledPromoCards);
-const spoiledPromoCards: Card[] = [];
+const parsedSpoiledPromoCards = parseCSV(spoiledPromoCardsFile)
+  .filter((card) => !!card.name)
+  .filter(filterOutUnwantedCards)
+  .filter((card) => {
+    const matchingOverride = parsedOverrideCards.some(
+      (overrideCard) =>
+        card.name === overrideCard.name && card.pitch === overrideCard.pitch
+    );
+    return !matchingOverride;
+  });
+const spoiledPromoCards: Card[] = mapCSV(parsedSpoiledPromoCards);
 
 const deduplicatedCards: Card[] = [...overrideCards];
 

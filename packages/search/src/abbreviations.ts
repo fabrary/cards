@@ -253,7 +253,7 @@ export const abbreviations: Abbreviation[] = [
     card: "Red in the Ledger",
   },
   {
-    abbreviations: ["Cats"],
+    abbreviations: ["Cats", "Ghost cat", "Ghost cats"],
     card: "Restless Coalescence",
   },
   {
