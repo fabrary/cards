@@ -205,16 +205,19 @@ export const getSpecialPrinting = (
 const defaultImagePrintingOverrides: {
   [key: string]: { print: string };
 } = {
-  "Pitfall Trap": {
+  "command-and-conquer-red": {
+    print: "ARC159-Unlimited",
+  },
+  "pitfall-trap-yellow": {
     print: "LGS151-Rainbow",
   },
-  "Rockslide Trap": {
+  "rockslide-trap-blue": {
     print: "LGS152-Rainbow",
   },
-  "Spectral Shield": {
+  "spectral-shield": {
     print: "MST158",
   },
-  "Tripwire Trap": {
+  "tripwire-trap-red": {
     print: "LGS150-Rainbow",
   },
 };
@@ -223,8 +226,9 @@ export const getDefaultPrinting = (
   card: { cardIdentifier: string; name: string },
   printings: Printing[]
 ): Printing => {
+  const { cardIdentifier } = card;
   const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
-    ([name]) => card.name === name
+    ([identifier]) => identifier === cardIdentifier
   );
 
   if (matchingOverride) {
@@ -238,7 +242,7 @@ export const getDefaultPrinting = (
     let nonPromoImage: Printing | undefined;
 
     for (const printing of printings) {
-      const { edition, image } = printing;
+      const { edition, image, treatment } = printing;
       const hasImage = !!image;
 
       if (hasImage) {
