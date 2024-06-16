@@ -116,7 +116,7 @@ const arakni: AppliedFilter[] = [
 
 const aurora: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Runeblade], LIGHTNING),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Briar),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Aurora),
 ];
 
 const azalea: AppliedFilter[] = [
@@ -243,6 +243,7 @@ const fai: AppliedFilter[] = [
 
 const florian: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Runeblade], EARTH),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Florian),
 ];
 
 const genis: AppliedFilter[] = [
@@ -322,6 +323,7 @@ const olympia: AppliedFilter[] = [
 
 const oscilio: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Wizard], [Talent.Elemental]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Oscilio),
 ];
 
 const prism: AppliedFilter[] = [
@@ -397,6 +399,7 @@ const valda: AppliedFilter[] = [
 
 const verdance: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Wizard], [Talent.Elemental]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Verdance),
 ];
 
 const victor: AppliedFilter[] = [

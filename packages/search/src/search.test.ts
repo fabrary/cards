@@ -9,6 +9,7 @@ import {
 import { cards } from "@flesh-and-blood/cards";
 import Search from "./search";
 import { getHeroBreakdown } from ".";
+import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 
 const doubleSidedCards: DoubleSidedCard[] = cards.map((card) => {
   if (card.oppositeSideCardIdentifier) {
@@ -403,6 +404,27 @@ describe("Returns set when included", () => {
     expect(releases).toBeTruthy();
     expect(releases[0]).toEqual(Release.TalesOfAria);
   });
+});
+
+describe("Every set has results", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it.each(Object.values(Release))("%s has results", (set: string) => {
+    const { searchResults } = cardSearch.search(`s:"${set}"`);
+    expect(searchResults.length).toBeGreaterThan(0);
+  });
+
+  it.each(Object.values(Release))(
+    "%s has results from abbreviated set",
+    (set: string) => {
+      const abbreviations = setToSetIdentifierMappings[set] as string[];
+
+      for (const abbreviation of abbreviations) {
+        const { searchResults } = cardSearch.search(`s:${abbreviation}`);
+        expect(searchResults.length).toBeGreaterThan(0);
+      }
+    }
+  );
 });
 
 describe("Returns foiling when included", () => {
