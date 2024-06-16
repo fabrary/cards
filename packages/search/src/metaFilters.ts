@@ -73,10 +73,12 @@ const EARTH_AND_ICE_AND_LIGHTNING = [
   Talent.Ice,
   Talent.Lightning,
 ];
+const EARTH = [Talent.Elemental, Talent.Earth];
 const EARTH_AND_ICE = [Talent.Elemental, Talent.Earth, Talent.Ice];
 const EARTH_AND_LIGHTNING = [Talent.Elemental, Talent.Earth, Talent.Lightning];
 const ICE = [Talent.Elemental, Talent.Ice];
 const ICE_AND_LIGHTNING = [Talent.Elemental, Talent.Ice, Talent.Lightning];
+const LIGHTNING = [Talent.Elemental, Talent.Lightning];
 const LIGHT = [Talent.Light];
 const MYSTIC = [Talent.Mystic];
 const SHADOW = [Talent.Shadow];
@@ -111,6 +113,12 @@ const arakni: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Assassin]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Arakni),
 ];
+
+const aurora: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Runeblade], LIGHTNING),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Briar),
+];
+
 const azalea: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Ranger]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Azalea),
@@ -233,6 +241,10 @@ const fai: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Fai, [Hero.Dromai]),
 ];
 
+const florian: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Runeblade], EARTH),
+];
+
 const genis: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Merchant]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.GenisWotchuneed),
@@ -308,6 +320,10 @@ const olympia: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Olympia),
 ];
 
+const oscilio: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Wizard], [Talent.Elemental]),
+];
+
 const prism: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Illusionist], LIGHT),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Prism),
@@ -377,6 +393,10 @@ const uzuri: AppliedFilter[] = [
 const valda: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Guardian]),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Valda),
+];
+
+const verdance: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Wizard], [Talent.Elemental]),
 ];
 
 const victor: AppliedFilter[] = [
@@ -560,6 +580,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
 
   // heroes
   arakni,
+  aurora,
   azalea,
   benji,
   betsy,
@@ -580,6 +601,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   emperor,
   enigma,
   fai,
+  florian,
   genis,
   geniswotchuneed: genis,
   ira,
@@ -597,6 +619,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   nuu,
   oldhim,
   olympia,
+  oscilio,
   prism,
   rhinar,
   riptide,
@@ -610,6 +633,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   theryon,
   uzuri,
   valda,
+  verdance,
   victor,
   viserai,
   vynnset,

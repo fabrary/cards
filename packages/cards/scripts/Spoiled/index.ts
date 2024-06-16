@@ -7,7 +7,7 @@ import { combineAndAddMissingFields } from "../Shared/combined-and-missing-field
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
-// const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST.csv`;
+const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - ROS.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
 // const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AKO.csv`;
 // const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - MST Blitz decks.csv`;
@@ -20,7 +20,7 @@ const parsedOverrideCards = parseCSV(overrideCardsFile)
 const overrideCards = mapCSV(parsedOverrideCards);
 
 const parsedSpoiledSetCards = [
-  // ...parseCSV(spoiledSetCardsFile1),
+  ...parseCSV(spoiledSetCardsFile1),
   ...parseCSV(spoiledSetCardsFile2),
   // ...parseCSV(spoiledSetCardsFile3),
   // ...parseCSV(spoiledSetCardsFile4),

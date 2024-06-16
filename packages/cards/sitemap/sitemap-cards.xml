@@ -1,6 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
+    <loc>https://fabrary.net/cards/florian</loc>
+    <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/germinate-blue</loc>
+    <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/aurora</loc>
+    <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/heartbeat-of-candlehold-blue</loc>
+    <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/felling-of-the-crown-red</loc>
+    <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/channel-the-millennium-tree-red</loc>
+    <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/channel-lightning-valley-yellow</loc>
+    <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/helm-of-halos-grace</loc>
     <lastmod>2024-05-09</lastmod>
     <priority>0.5</priority>
@@ -18,6 +53,11 @@
   <url>
     <loc>https://fabrary.net/cards/cosmo-scroll-of-ancestral-tapestry</loc>
     <lastmod>2024-05-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10677,11 +10717,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/runeblood-incantation-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/runechant</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
