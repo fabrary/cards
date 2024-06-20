@@ -269,6 +269,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Spinning Wheel Kick",
   },
   {
+    abbreviations: ["SSGB"],
+    card: "Sandscour Greatbow",
+  },
+  {
     abbreviations: ["SSP"],
     card: "Sand Sketched Plan",
   },
