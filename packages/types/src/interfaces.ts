@@ -144,6 +144,7 @@ export enum Release {
   // Hero/blitz/armory decks
   ArmoryDeckKayo = "Armory Deck: Kayo",
   ArmoryDeckBoltyn = "Armory Deck: Boltyn",
+  ArmoryDeckAzalea = "Armory Deck: Azalea",
 
   // Blitz decks
   ArakniBlitzDeck = "Arakni Blitz Deck",
@@ -171,6 +172,10 @@ export enum Release {
   UzuriBlitzDeck = "Uzuri Blitz Deck",
   VictorBlitzDeck = "Victor Blitz Deck",
   ZenBlitzDeck = "Zen Blitz Deck",
+
+  // 1st strike decks
+  FirstStrikeAurora = "1st Strike: Aurora",
+  FirstStrikeTerra = "1st Strike: Terra",
 
   // Hero decks
   DorintheaHeroDeck = "Dorinthea Hero Deck",

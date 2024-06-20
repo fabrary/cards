@@ -51,6 +51,31 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/target-totalizer</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/line-it-up-yellow</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/embodiment-of-lightning</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/terra</loc>
+    <lastmod>2024-06-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/might</loc>
+    <lastmod>2023-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cosmo-scroll-of-ancestral-tapestry</loc>
     <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>
@@ -4096,11 +4121,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/embodiment-of-lightning</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/embolden-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -7918,11 +7938,6 @@
   <url>
     <loc>https://fabrary.net/cards/micro-processor-blue</loc>
     <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/might</loc>
-    <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -1,0 +1,29 @@
+Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Image URL 3
+AAZ001,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ001,,,,,,,,,,,,,,
+AAZ002,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ002,,,,,,,,,,,,,,
+AAZ003,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ003,,,,,,,,,,,,,,
+AAZ004,AAZ,Target Totalizer,,,,,,,"Ranger, Equipment, Head",,Action,Go again,,,,"**Action** - Destroy this: Whenever an arrow with an aim counter hits this turn, draw a card. **Go again**",Ranger Equipment - Head,,,,No,M,,,Mateus Manhanini,,AAZ004,/AAZ004.png,,,,,,,,,,,,,
+AAZ005,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ005,,,,,,,,,,,,,,
+AAZ006,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ006,,,,,,,,,,,,,,
+AAZ007,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ007,,,,,,,,,,,,,,
+AAZ008,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ008,,,,,,,,,,,,,,
+AAZ009,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ009,,,,,,,,,,,,,,
+AAZ010,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ010,,,,,,,,,,,,,,
+AAZ011,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ011,,,,,,,,,,,,,,
+AAZ012,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ012,,,,,,,,,,,,,,
+AAZ013,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ013,,,,,,,,,,,,,,
+AAZ014,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ014,,,,,,,,,,,,,,
+AAZ015,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ015,,,,,,,,,,,,,,
+AAZ016,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ016,,,,,,,,,,,,,,
+AAZ017,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ017,,,,,,,,,,,,,,
+AAZ018,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ018,,,,,,,,,,,,,,
+AAZ019,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ019,,,,,,,,,,,,,,
+AAZ020,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ020,,,,,,,,,,,,,,
+AAZ021,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ021,,,,,,,,,,,,,,
+AAZ022,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ022,,,,,,,,,,,,,,
+AAZ023,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ023,,,,,,,,,,,,,,
+AAZ024,AAZ,Line It Up,2,1,,3,,,"Ranger, Action",Go again,,,,,,"Your next arrow attack this turn gets +3{p}.
+
+You may turn a face-down arrow in your arsenal face-up. If you do, put an aim counter on it.
+
+**Go again**",Ranger Action,,,,No,M,S,,Sebastian Giacobino,,AAZ024,/AAZ024.png,,,,,,,,,,,,,

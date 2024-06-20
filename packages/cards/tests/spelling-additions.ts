@@ -332,6 +332,7 @@ export const fabDictionary = [
   "timesnap",
   "tock",
   "tomeltai",
+  "totalizer",
   "trishot",
   "ursur",
   "uzuri",

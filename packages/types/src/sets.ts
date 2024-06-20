@@ -25,6 +25,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   // Armory decks
   ako: Release.ArmoryDeckKayo,
   asb: Release.ArmoryDeckBoltyn,
+  aaz: Release.ArmoryDeckAzalea,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
@@ -52,6 +53,10 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   uzu: Release.UzuriBlitzDeck,
   vic: Release.VictorBlitzDeck,
   zen: Release.ZenBlitzDeck,
+
+  // 1st strike decks
+  aur: Release.FirstStrikeAurora,
+  ter: Release.FirstStrikeTerra,
 
   // Starter decks
   dvr: Release.ClassicBattlesRhinarDorinthea,
