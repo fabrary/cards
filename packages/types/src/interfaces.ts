@@ -325,6 +325,7 @@ export enum Hero {
   Taipanis = "Taipanis",
   Taylor = "Taylor",
   Teklovossen = "Teklovossen",
+  Terra = "Terra",
   Theryon = "Theryon",
   Uzuri = "Uzuri",
   Valda = "Valda",

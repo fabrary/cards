@@ -382,6 +382,11 @@ const teklovossen: AppliedFilter[] = [
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Teklovossen),
 ];
 
+const terra: AppliedFilter[] = [
+  ...CLASSES_AND_TALENTS([Class.Guardian], [Talent.Elemental, Talent.Earth]),
+  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Terra),
+];
+
 const theryon: AppliedFilter[] = [
   ...CLASSES_AND_TALENTS([Class.Adjudicator], LIGHT),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Theryon),
@@ -633,6 +638,7 @@ const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
   taipanis,
   taylor,
   teklovossen,
+  terra,
   theryon,
   uzuri,
   valda,
