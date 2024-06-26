@@ -1,16 +1,16 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Image URL 3
-AAZ001,AAZ,"Azalea, Ace in the Hole",,,,,,,,,,,,,,,,,,,,R,,,Maxim Kostin,,AAZ001,/AZA001.png,,,,,,,,,,,,,
+AAZ001,AAZ,"Azalea, Ace in the Hole",,,,,,,,,,,,,,,,,,,,R,,,Maxim Kostin,,AAZ001,/AAZ001.png,,,,,,,,,,,,,
 AAZ002,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ002,,,,,,,,,,,,,,
 AAZ003,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ003,,,,,,,,,,,,,,
 AAZ004,AAZ,Target Totalizer,,,,,,,"Ranger, Equipment, Head",,Action,Go again,,,,"**Action** - Destroy this: Whenever an arrow with an aim counter hits this turn, draw a card. **Go again**",Ranger Equipment - Head,,,,No,M,,,Mateus Manhanini,,AAZ004,/AAZ004.png,,,,,,,,,,,,,
 AAZ005,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ005,,,,,,,,,,,,,,
 AAZ006,AAZ,Sharp Shooter,,,,1,,,"Ranger, Equipment, Arms","Go again, Battleworn",,,,,,"**Action** - Destroy this: Put an arrow from your hand face-up into your arsenal with an aim counter. **Go again**
 
-**Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Carlos Cruchaga,,AAZ006,/AZA006.png,,,,,,,,,,,,,
+**Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Carlos Cruchaga,,AAZ006,/AAZ006.png,,,,,,,,,,,,,
 AAZ007,AAZ,Flight Path,,,,1,,,"Ranger, Equipment, Legs","Attack Reaction, Go again, Battleworn",,,,,,"**Attack Reaction** - Destroy this: Target arrow attack with an aim counter gets **go again**.
 
 **Battleworn**",Ranger Equipment - Legs,,,,No,M,,,"
-Nikko Wahyudi",,AAZ007,/AZA007.png,,,,,,,,,,,,,
+Nikko Wahyudi",,AAZ007,/AAZ007.png,,,,,,,,,,,,,
 AAZ008,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ008,,,,,,,,,,,,,,
 AAZ009,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ009,,,,,,,,,,,,,,
 AAZ010,AAZ,,,,,,,,,,,,,,,,,,,,,,,,,,AAZ010,,,,,,,,,,,,,,
