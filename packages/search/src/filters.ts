@@ -6,6 +6,7 @@ import {
   Treatment,
   Type,
   setIdentifierToSetMappings,
+  setToSetIdentifierMappings,
 } from "@flesh-and-blood/types";
 import { getAbbreviation } from "./abbreviations";
 import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters";
@@ -392,6 +393,13 @@ export const getKeywordsAndAppliedFiltersFromText = (
         expandedText = expandedText.replace(shorthand, filters.join(" "));
         break;
       }
+    }
+  }
+  for (const [set, setIdentifiers] of Object.entries(
+    setToSetIdentifierMappings
+  )) {
+    if (expandedText.includes(set.toLowerCase())) {
+      expandedText = expandedText.replace(set.toLowerCase(), setIdentifiers[0]);
     }
   }
   const rawSearchCriteria = getSearchCriteria(expandedText);

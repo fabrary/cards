@@ -427,6 +427,25 @@ describe("Every set has results", () => {
   );
 });
 
+describe("Armory decks are distinct", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it.each(
+    Object.values(Release).filter((release) =>
+      release.toUpperCase().includes("ARMORY DECK")
+    )
+  )("%s has distinct results", (set: string) => {
+    const { searchResults, keywords, appliedFilters } = cardSearch.search(
+      `s:"${set}"`
+    );
+    console.log(JSON.stringify({ keywords, appliedFilters }, null, 2));
+    const cardsNotInSet = searchResults.filter(
+      ({ sets }) => !sets.includes(set as Release)
+    );
+    expect(cardsNotInSet.length).toBe(0);
+  });
+});
+
 describe("Returns foiling when included", () => {
   const cardSearch = new Search(doubleSidedCards);
 
