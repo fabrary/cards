@@ -346,6 +346,7 @@ export const fabDictionary = [
   "viziertronic",
   "volthaven",
   "voltic",
+  "volzar",
   "vu",
   "vynnset",
   "vynserakai",

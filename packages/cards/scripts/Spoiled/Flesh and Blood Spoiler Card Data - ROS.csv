@@ -5,7 +5,7 @@ ROS002,ROS,Florian,,,,,20,4,"Elemental, Runeblade, Hero, Young",Essence of Earth
 
 **Essence of Earth**",Elemental Runeblade Hero - Young,,,No,,T,,,Jessada Sutthi,,ROS002,/ROS002.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS003,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS004,ROS,Germinate,3,XX,,3,,,"Earth, Runeblade, Action",Florian Specialization,,,,,,"**Florian Specialiazation**
+ROS004,ROS,Germinate,3,XX,,3,,,"Earth, Runeblade, Action",Florian Specialization,,,,,,"**Florian Specialization**
 
 Create a Runechant or Embodiment of Earth token. Repeat this process X more times.
 
@@ -32,7 +32,9 @@ ROS017,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS018,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS019,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS020,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS021,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS021,ROS,"Volzar, the Lightning Rod",,,,,,,"Lightning, Wizard, Weapon, Staff, 2H",Amp X,,,,,,"If you control an aura permanent with Sigil in its name, this costs {r} less to activate.
+
+**Once per Turn Instant** - {r}: **Amp X**, where X is the number of Lightning cards you've played this turn.",Lightning Wizard Weapon - Staff (2H),,,,,T,,,Federico Musetti,,ROS021,/ROS021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS022,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS023,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS024,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
