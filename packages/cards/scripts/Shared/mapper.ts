@@ -475,7 +475,6 @@ const specialImagePrintingOverrides: {
 
 const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
   Awakening: [Format.ClassicConstructedLivingLegend],
-  "Channel Lake Frigid": [Format.ClassicConstructedLivingLegend],
   "Crippling Crush": [Format.ClassicConstructedLivingLegend],
   Hypothermia: [Format.ClassicConstructedLivingLegend],
   "Oaken Old": [Format.ClassicConstructedLivingLegend],
