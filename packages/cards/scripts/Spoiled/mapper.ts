@@ -393,10 +393,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     treatmentString: treatment,
     ...(tcgplayerProductId && tcgplayerUrl
       ? {
-          tcgplayer: {
-            productId: tcgplayerProductId,
-            url: tcgplayerUrl,
-          },
+          tcgplayerProductId,
+          tcgplayerUrl,
         }
       : {}),
   });
@@ -462,10 +460,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       treatmentString: treatment2,
       ...(tcgplayerProductId2 && tcgplayerUrl2
         ? {
-            tcgplayer: {
-              productId: tcgplayerProductId2,
-              url: tcgplayerUrl2,
-            },
+            tcgplayerProductId: tcgplayerProductId2,
+            tcgplayerUrl: tcgplayerUrl2,
           }
         : {}),
     });
