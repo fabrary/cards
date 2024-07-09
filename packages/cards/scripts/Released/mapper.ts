@@ -13,12 +13,12 @@ import {
   Talent,
   Treatment,
   Type,
+  getCardIdentifier,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 import {
   addOppositeSideCardIdentifiers,
   getFusions,
-  getIdentifier,
   getNumberOrUndefined,
   getRarities,
   getRestrictedFormats,
@@ -270,12 +270,14 @@ const getCardData = (card: ParsedCard): Card => {
 
   const { rarity, rarities } = getRarities(card);
 
+  const cardIdentifier = getCardIdentifier(card);
+
   const defaultPrinting = getDefaultPrinting(
-    { name: card.name, cardIdentifier: getIdentifier(card) },
+    { name: card.name, cardIdentifier },
     printings
   );
   const specialPrinting = getSpecialPrinting(
-    { name: card.name, cardIdentifier: getIdentifier(card) },
+    { name: card.name, cardIdentifier },
     printings
   );
 
@@ -288,7 +290,7 @@ const getCardData = (card: ParsedCard): Card => {
 
   return {
     artists,
-    cardIdentifier: getIdentifier(card),
+    cardIdentifier,
     classes: getClasses(card),
     defaultImage: defaultPrinting?.image,
     name: card.name.trim(),

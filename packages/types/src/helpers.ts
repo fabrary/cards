@@ -7,6 +7,41 @@ import {
 } from "./interfaces";
 import { fullSetIdentifiers } from "./sets";
 
+export const getCardIdentifier = (
+  card: {
+    name: string;
+    pitch?: string | number;
+  },
+  useNumber?: boolean
+): string => {
+  const { name: unformattedName, pitch } = card;
+  const name = unformattedName
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .replace(/ /g, "-")
+    .replace("í", "i")
+    .replace(/[^a-z0-9 -]/g, "")
+    .replace(/--/, "-");
+
+  let suffix: string = "";
+  switch (pitch) {
+    case "1":
+    case 1:
+      suffix = useNumber ? "-1" : "-red";
+      break;
+    case "2":
+    case 2:
+      suffix = useNumber ? "-2" : "-yellow";
+      break;
+    case "3":
+    case 3:
+      suffix = useNumber ? "-3" : "-blue";
+      break;
+  }
+  return `${name}${suffix}`;
+};
+
 const identifierExtensionMapping: { [key: string]: string } = {
   [Release.RhinarBlitzDeck]: "-Blitz",
 };

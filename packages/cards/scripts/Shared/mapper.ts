@@ -171,42 +171,6 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   });
 };
 
-export const getIdentifier = (card: {
-  name: string;
-  pitch?: string;
-}): string => {
-  const { name: unformattedName, pitch } = card;
-  const name = unformattedName
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/\p{Diacritic}/gu, "")
-    .replace(/ /g, "-")
-    .replace("í", "i")
-    .replace(/[^a-z0-9 -]/g, "")
-    .replace(/--/, "-");
-  // .replace("!", "")
-  // .replace(".", "")
-  // .replace("?", "")
-  // .replace("'", "")
-  // .replace(/,/g, "")
-  // .replace(/’/g, "");
-  let color;
-  switch (pitch) {
-    case "1":
-      color = "red";
-      break;
-    case "2":
-      color = "yellow";
-      break;
-    case "3":
-      color = "blue";
-      break;
-    default:
-      color = "";
-  }
-  return color ? `${name}-${color}` : name;
-};
-
 const getPrintReleaseOrder = (printing: Printing): number => {
   const index = orderedFullSetBlackBorderIdentifiers.findIndex(
     (setIdentifier) => {

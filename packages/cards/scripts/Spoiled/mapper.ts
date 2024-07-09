@@ -2,7 +2,6 @@ import { releasedCards } from "../Released";
 import {
   addOppositeSideCardIdentifiers,
   getFusions,
-  getIdentifier,
   getNumberOrUndefined,
   getRarities,
   getRestrictedFormats,
@@ -26,6 +25,7 @@ import {
   Talent,
   Treatment,
   Type,
+  getCardIdentifier,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 import { ParsedCard } from "./parser";
@@ -404,7 +404,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const { rarity } = getParsedRarities(card);
     const { types } = getTypeAndSubType(card);
     const setIdentifier = (identifier || identifiers[0]).slice(0, 3);
-    const cardIdentifier = getIdentifier(card);
+    const cardIdentifier = getCardIdentifier(card);
 
     const isMST = setIdentifier === "MST";
     const isCommonRareOrMajestic = [
@@ -690,12 +690,14 @@ const getCardData = (card: ParsedCard): Card => {
 
   const { rarities, rarity } = getParsedRarities(card);
 
+  const cardIdentifier = getCardIdentifier(card);
+
   return {
     artists: getArtists(card),
-    cardIdentifier: getIdentifier(card),
+    cardIdentifier,
     classes: getClasses(card),
     defaultImage: getDefaultPrinting(
-      { name: card.name, cardIdentifier: getIdentifier(card) },
+      { name: card.name, cardIdentifier },
       printings
     ).image,
     printings,
@@ -705,7 +707,7 @@ const getCardData = (card: ParsedCard): Card => {
     setIdentifiers,
     sets: getSets(card),
     specialImage: getSpecialPrinting(
-      { name: card.name, cardIdentifier: getIdentifier(card) },
+      { name: card.name, cardIdentifier },
       printings
     ).image,
     subtypes,
