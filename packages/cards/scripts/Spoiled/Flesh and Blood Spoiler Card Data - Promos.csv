@@ -2,8 +2,8 @@ Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Type
 LGS298,LGS,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,P,C,,Asur Misoa,,LGS298,https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS298.png,555758,https://www.tcgplayer.com/product/555758?Language=English&Printing=Cold+Foil,,,,,,,,,,,,,,,
 "LGS293, LGS294","LGS, LGS",Beckoning Mistblade,,,,,,,,,,,,,,,,,,,,P,C,,Jessketchin,,LGS293,/LGS293.png,557724,https://www.tcgplayer.com/product/557724?Language=English&Printing=Cold+Foil,P,C,,Jessketchin,,LGS294,/LGS294.png,557725,https://www.tcgplayer.com/product/557725?Language=English&Printing=Cold+Foil,,,,,,
 LGS302,LGS,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,P,C,,Joseph Qiu,,LGS302,/LGS302.png,,,,,,,,,,,,,,,,,
-LGS307,LGS,Earth Form,1,3,7,2,,,"Earth, Action, Attack",,,,,,,"When this hits, create an Embodiment of Earth token.",Earth Action - Attack,,,,,P,R,EA,Saad Irfan,,LGS307,/LGS307.png,,,,,,,,,,,,,,,,,
-LGS308,LGS,Lightning Form,1,3,5,2,,,"Lightning, Action, Attack",,,,,,,"When this hits, create an Embodiment of Lightning token.",Lightning Action - Attack,,,,,P,R,EA,Edward Chee,,LGS308,/LGS308.png,,,,,,,,,,,,,,,,,
+LGS307,"LGS, ROS",Earth Form,1,3,7,2,,,"Earth, Action, Attack",,,,,,,"When this hits, create an Embodiment of Earth token.",Earth Action - Attack,,,,,P,R,EA,Saad Irfan,,LGS307,/LGS307.png,,,,,,,,,,,,,,,,,
+LGS308,"LGS, ROS",Lightning Form,1,3,5,2,,,"Lightning, Action, Attack",,,,,,,"When this hits, create an Embodiment of Lightning token.",Lightning Action - Attack,,,,,P,R,EA,Edward Chee,,LGS308,/LGS308.png,,,,,,,,,,,,,,,,,
 FAB265,FAB,Runechant,,,,,,,,,,,,,,,,,,,,P,R,AA,Jessketchin,,FAB265,/FAB265.png,,,,,,,,,,,,,,,,,
 FAB266,FAB,Runechant,,,,,,,,,,,,,,,,,,,,P,R,AA,Jessketchin,,FAB266,/FAB266.png,,,,,,,,,,,,,,,,,
 FAB244,FAB,Zen State,,,,,,,,,,,,,,"This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.
