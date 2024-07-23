@@ -32,7 +32,7 @@ ROS017,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS018,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS019,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS020,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS021,ROS,"Volzar, the Lightning Rod",,,,,,,"Lightning, Wizard, Weapon, Staff, 2H",Amp X,,,,,,"If you control an aura permanent with Sigil in its name, this costs {r} less to activate.
+ROS021,ROS,"Volzar, the Lightning Rod",,,,,,,"Lightning, Wizard, Weapon, Staff, 2H",,Once per Turn Instant,Amp X,,,,"If you control an aura permanent with Sigil in its name, this costs {r} less to activate.
 
 **Once per Turn Instant** - {r}: **Amp X**, where X is the number of Lightning cards you've played this turn.",Lightning Wizard Weapon - Staff (2H),,,,,T,,,Federico Musetti,,ROS021,/ROS021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS022,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -183,7 +183,7 @@ ROS158,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS159,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS160,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS161,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS162,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS162,ROS,Runechant,,,,,,,,,,,,,,,,,,,,T,,AA,Jessketchin,,ROS162,/ROS162.png,,,T,,AA,Jessketchin,,ROS162,/ROS162_V2.png,,,,,,,,,,,,,,,,,,,,
 ROS163,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS164,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS165,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

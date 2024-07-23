@@ -41,6 +41,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/runechant</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/ser-boltyn-breaker-of-dawn</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -231,8 +236,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/runechant</loc>
-    <lastmod>2023-05-13</lastmod>
+    <loc>https://fabrary.net/cards/tiger-taming-khakkara</loc>
+    <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -13668,11 +13673,6 @@
   <url>
     <loc>https://fabrary.net/cards/tiger-swipe-red</loc>
     <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/tiger-taming-khakkara</loc>
-    <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -10,6 +10,8 @@ export const clashBannedCards = [
   "Stubby Hammerers",
 ];
 
+export const clashLegalCards = [];
+
 export const clashSpecializationOverrides: {
   heroes: string[];
   cardIdentifiers: string[];
