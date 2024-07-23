@@ -191,8 +191,23 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/death-dealer</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/crows-nest</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/target-totalizer</loc>
     <lastmod>2024-06-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hidden-agenda</loc>
+    <lastmod>2024-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -206,8 +221,128 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/barbed-undertow-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/boltn-shot-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/drill-shot-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/infecting-shot-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/ravenous-rabble-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/red-in-the-ledger-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sedation-shot-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sleep-dart-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stone-rain-red</loc>
+    <lastmod>2024-07-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lace-with-bloodrot-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lace-with-frailty-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lace-with-inertia-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/point-the-tip-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/read-the-glide-path-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/scout-the-periphery-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/spire-sniping-yellow</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/line-it-up-yellow</loc>
     <lastmod>2024-06-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/read-the-glide-path-yellow</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/memorial-ground-yellow</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/infecting-shot-blue</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/spire-sniping-blue</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/nock-the-deathwhistle-blue</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bloodrot-pox</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/frailty</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/inertia</loc>
+    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -1041,11 +1176,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/barbed-undertow-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/bare-fangs-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -1831,11 +1961,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/bloodrot-pox</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/bloodrot-trap-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -1882,11 +2007,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/bolt-of-courage-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/boltn-shot-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -3191,11 +3311,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/crows-nest</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/crowd-control-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -3462,11 +3577,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/deadwood-rumbler-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/death-dealer</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -3922,11 +4032,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/driftwood-quiver</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/drill-shot-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -5386,11 +5491,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/frailty</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/frailty-trap-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6786,11 +6886,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/inertia</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/inertia-trap-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6811,17 +6906,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/infecting-shot-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/infecting-shot-yellow</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/infecting-shot-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -7317,21 +7402,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/kyloria</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/lace-with-bloodrot-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/lace-with-frailty-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/lace-with-inertia-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -7981,11 +8051,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/memorial-ground-yellow</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/memorial-ground-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -8383,11 +8448,6 @@
   <url>
     <loc>https://fabrary.net/cards/no-fear-red</loc>
     <lastmod>2023-12-27</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/nock-the-deathwhistle-blue</loc>
-    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9112,11 +9172,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/plunge-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/point-the-tip-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -9886,11 +9941,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/ravenous-rabble-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/ravenous-rabble-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -9983,16 +10033,6 @@
   <url>
     <loc>https://fabrary.net/cards/re-charge-blue</loc>
     <lastmod>2023-09-24</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/read-the-glide-path-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/read-the-glide-path-yellow</loc>
-    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10092,11 +10132,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/red-liner</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/red-in-the-ledger-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -11071,11 +11106,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/scout-the-periphery-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/scout-the-periphery-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -11262,11 +11292,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/sedate-blue</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/sedation-shot-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
@@ -11991,11 +12016,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/sleep-dart-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/sleep-dart-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -12587,16 +12607,6 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/spire-sniping-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/spire-sniping-yellow</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/spire-sniping-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
