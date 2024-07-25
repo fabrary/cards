@@ -50,11 +50,12 @@ describe("All required fields present", () => {
       card,
     ])
   )("%s", (_, card) => {
-    const { defaultImage, printings, specialImage, subtypes, types } =
+    const { defaultImage, printings, specialImage, subtypes, types, typeText } =
       card as unknown as Card;
     expect(defaultImage).toBeTruthy();
     expect(specialImage).toBeTruthy();
     expect(types.length || subtypes.length).toBeGreaterThan(0);
+    expect(typeText).toBeTruthy();
     expect(printings.length).toBeGreaterThan(0);
   });
 });

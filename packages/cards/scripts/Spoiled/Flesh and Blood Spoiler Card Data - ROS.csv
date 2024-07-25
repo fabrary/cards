@@ -37,7 +37,7 @@ The next time an attack you control hits a hero this turn, deal 4 arcane damage 
 
 //
 
-Deal 1 arcane damage to any target.",,,,,No,R,,,Faizal Fikri / Olga Tereshenko,,ROS012,/ROS012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Runeblade Action / Lightning Instant,,,,No,R,,,Faizal Fikri / Olga Tereshenko,,ROS012,/ROS012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS013,ROS,"Verdance, Thorn of the Rose",,,,,40,4,"Elemental, Wizard, Hero",Essence of Earth,,,,,,"If there are 8 or more Earth cards in your banished zone, Verdance gets ""Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.""
 
 **Essence of Earth**",Elemental Wizard Hero,,No,,No,M,,,Lius Lasahido,,ROS013,/ROS013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -285,9 +285,9 @@ ROS216,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS217,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS218,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS219,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS220,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS221,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS222,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS220, FAB271","ROS, FAB",Hand Behind the Pen,1,2,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, turn a card in their arsenal face-up, then banish a non-attack action card from their arsenal.",Generic Action - Attack,,,,No,R,,,Pavel Rtishchev (Klaher),,ROS220,/ROS220.png,,,P,R,,Pavel Rtishchev (Klaher),,FAB271,/FAB271.png,,,,,,,,,,,,,,,,,,,,
+"ROS221, FAB272","ROS, FAB",Smash Up,1,1,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, turn a card in their arsenal face-up, then banish an attack action card from their arsenal.",Generic Action - Attack,,,,No,R,,,Arif Wijaya,,ROS221,/ROS221.png,,,P,R,,Arif Wijaya,,FAB272,/FAB272.png,,,,,,,,,,,,,,,,,,,,
+"ROS222, FAB273","ROS, FAB",Tongue Tied,1,3,7,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, turn a card in their arsenal face-up, then banish an instant card from their arsenal.",Generic Action - Attack,,,,No,R,,,Ausonia,,ROS222,/ROS222.png,,,P,R,,Ausonia,,FAB273,/FAB273.png,,,,,,,,,,,,,,,,,,,,
 ROS223,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS224,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS225,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
