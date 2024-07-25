@@ -96,13 +96,58 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/earth-form-red</loc>
+    <lastmod>2024-07-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/earth-form-yellow</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/earth-form-blue</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/channel-lightning-valley-yellow</loc>
     <lastmod>2024-06-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/lightning-form-red</loc>
+    <lastmod>2024-07-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lightning-form-yellow</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lightning-form-blue</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/runechant</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hand-behind-the-pen-red</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/smash-up-red</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tongue-tied-red</loc>
+    <lastmod>2024-07-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -436,33 +481,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/earth-form-red</loc>
-    <lastmod>2024-07-23</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/lightning-form-red</loc>
-    <lastmod>2024-07-23</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/zen-state</loc>
     <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/hand-behind-the-pen-red</loc>
-    <lastmod>2024-07-25</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/smash-up-red</loc>
-    <lastmod>2024-07-25</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/tongue-tied-red</loc>
-    <lastmod>2024-07-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
