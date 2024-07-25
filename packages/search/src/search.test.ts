@@ -438,7 +438,6 @@ describe("Armory decks are distinct", () => {
     const { searchResults, keywords, appliedFilters } = cardSearch.search(
       `s:"${set}"`
     );
-    console.log(JSON.stringify({ keywords, appliedFilters }, null, 2));
     const cardsNotInSet = searchResults.filter(
       ({ sets }) => !sets.includes(set as Release)
     );

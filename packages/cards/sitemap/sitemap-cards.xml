@@ -1,6 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
+    <loc>https://fabrary.net/cards/florian-rotwood-harbinger</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/florian</loc>
     <lastmod>2024-06-16</lastmod>
     <priority>0.5</priority>
@@ -11,8 +16,33 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/thistle-bloom-life-yellow</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/aurora-shooting-star</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/aurora</loc>
     <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/burn-up-shock-red</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/verdance-thorn-of-the-rose</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/verdance</loc>
+    <lastmod>2024-07-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -21,8 +51,38 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/pulsing-aether-life-red</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/oscilio-constella-intelligence</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/oscilio</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/volzar-the-lightning-rod</loc>
     <lastmod>2024-07-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/null-shock-yellow</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/comet-storm-shock-red</loc>
+    <lastmod>2024-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sanctuary-of-aria</loc>
+    <lastmod>2024-07-25</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

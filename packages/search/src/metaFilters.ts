@@ -322,7 +322,7 @@ const olympia: AppliedFilter[] = [
 ];
 
 const oscilio: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Wizard], [Talent.Elemental]),
+  ...CLASSES_AND_TALENTS([Class.Wizard], LIGHTNING),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Oscilio),
 ];
 
@@ -403,7 +403,7 @@ const valda: AppliedFilter[] = [
 ];
 
 const verdance: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Wizard], [Talent.Elemental]),
+  ...CLASSES_AND_TALENTS([Class.Wizard], EARTH),
   ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Verdance),
 ];
 

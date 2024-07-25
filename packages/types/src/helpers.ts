@@ -1,9 +1,11 @@
 import {
   Foiling,
+  Keyword,
   Printing,
   Release,
   ReleaseEdition,
   Treatment,
+  Type,
 } from "./interfaces";
 import { fullSetIdentifiers } from "./sets";
 
@@ -308,4 +310,37 @@ export const getDefaultPrinting = (
     // }
     return nonPromoImage || firstImage || printings[0];
   }
+};
+
+export const getIsArenaCard = (types: Type[], keywords?: Keyword[]) => {
+  const isDeckCard = getIsDeckCard(types, keywords);
+
+  const isInventoryCard = [Type.DemiHero, Type.Equipment, Type.Weapon].some(
+    (type) => types.includes(type)
+  );
+
+  return !isDeckCard && isInventoryCard;
+};
+
+export const getIsDeckCard = (types: Type[], keywords?: Keyword[]) => {
+  const isDeckCardType = [
+    Type.Action,
+    Type.AttackReaction,
+    Type.Block,
+    Type.DefenseReaction,
+    Type.Instant,
+    Type.Mentor,
+    Type.Resource,
+  ].some((type) => types.includes(type));
+
+  const isNotEphemeral = !keywords || !keywords.includes(Keyword.Ephemeral);
+
+  return isDeckCardType && isNotEphemeral;
+};
+
+export const getCanAddToDeck = (types: Type[], keywords?: Keyword[]) => {
+  const isArenaCard = getIsArenaCard(types, keywords);
+  const isDeckCard = getIsDeckCard(types, keywords);
+
+  return isArenaCard || isDeckCard;
 };
