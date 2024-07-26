@@ -188,10 +188,9 @@ class Search {
           const matchesArtist =
             artists.length === 0 ||
             artists.some((artist) =>
-              printing.artist
-                .replace(PUNCTUATION, "")
-                .toLowerCase()
-                .includes(artist)
+              printing.artists.find((artist) =>
+                artist.replace(PUNCTUATION, "").toLowerCase().includes(artist)
+              )
             );
           const matchesFoiling =
             foilings.length === 0 || foilings.includes(printing.foiling);

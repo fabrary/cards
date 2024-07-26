@@ -39,7 +39,7 @@ const getPrintings = (printings: Printing[]) => {
     (
       printings,
       {
-        artist,
+        artists,
         edition,
         foiling,
         identifier,
@@ -52,7 +52,7 @@ const getPrintings = (printings: Printing[]) => {
       }
     ) =>
       (printings += `{
-        artist: "${artist}",
+        artists: [${artists.map((artist) => `"${artist}"`)}],
       ${
         edition
           ? `edition: ${getEnumValue(

@@ -43,7 +43,7 @@ export interface DoubleSidedCard extends Card {
 }
 
 export interface Printing {
-  artist: string;
+  artists: string[];
   edition?: ReleaseEdition;
   foiling?: Foiling;
   identifier: string;

@@ -23,7 +23,7 @@ export interface ParsedCard {
   classicConstructedLegal: string;
   commonerLegal: string;
   // Printings
-  artist: string;
+  artists: string[];
   foiling?: string;
   identifier?: string;
   imageUrl: string;
@@ -32,7 +32,7 @@ export interface ParsedCard {
   tcgplayerProductId?: string;
   tcgplayerUrl?: string;
   // 2nd printing
-  artist2?: string;
+  artists2?: string[];
   foiling2?: string;
   identifier2?: string;
   imageUrl2?: string;
@@ -41,7 +41,7 @@ export interface ParsedCard {
   tcgplayerProductId2?: string;
   tcgplayerUrl2?: string;
   // 3rd printing
-  artist3?: string;
+  artists3?: string[];
   foiling3?: string;
   identifier3?: string;
   imageUrl3?: string;
@@ -50,7 +50,7 @@ export interface ParsedCard {
   tcgplayerProductId3?: string;
   tcgplayerUrl3?: string;
   // 4th printing
-  artist4?: string;
+  artists4?: string[];
   foiling4?: string;
   identifier4?: string;
   imageUrl4?: string;
@@ -62,6 +62,10 @@ export interface ParsedCard {
 
 // Make fields that should be lists actually lists instead of a string (which is how CSVs store it)
 const fieldsWithListValues = [
+  "artists",
+  "artists2",
+  "artists3",
+  "artists4",
   "abilitiesAndEffects",
   "abilityAndEffectKeywords",
   "cardKeywords",
@@ -111,7 +115,7 @@ const headerMappings = {
   "CC Legal": "classicConstructedLegal",
   "Commoner Legal": "commonerLegal",
   // Printing
-  Artist: "artist",
+  Artists: "artists",
   "Art Variation": "treatment",
   Foiling: "foiling",
   Identifier: "identifier",
@@ -120,7 +124,7 @@ const headerMappings = {
   "TCGPlayer Product Id": "tcgplayerProductId",
   "TCGPlayer Url": "tcgplayerUrl",
   // Printing 2
-  "Artist 2": "artist2",
+  "Artists 2": "artists2",
   "Art Variation 2": "treatment2",
   "Foiling 2": "foiling2",
   "Identifier 2": "identifier2",
@@ -129,7 +133,7 @@ const headerMappings = {
   "TCGPlayer Product Id 2": "tcgplayerProductId2",
   "TCGPlayer Url 2": "tcgplayerUrl2",
   // Printing 3
-  "Artist 3": "artist3",
+  "Artists 3": "artists3",
   "Art Variation 3": "treatment3",
   "Foiling 3": "foiling3",
   "Identifier 3": "identifier3",
@@ -138,7 +142,7 @@ const headerMappings = {
   "TCGPlayer Product Id 3": "tcgplayerProductId3",
   "TCGPlayer Url 3": "tcgplayerUrl3",
   // Printing 4
-  "Artist 4": "artist4",
+  "Artists 4": "artists4",
   "Art Variation 4": "treatment4",
   "Foiling 4": "foiling4",
   "Identifier 4": "identifier4",

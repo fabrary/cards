@@ -1,4 +1,4 @@
-Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artist,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artist 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variation 3,Artist 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variation 4,Artist 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4
+Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artists,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artists 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variation 3,Artists 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variation 4,Artists 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4
 ROS000,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS001,ROS,"Florian, Rotwood Harbinger",,,,,40,4,"Elemental, Runeblade, Hero",Essence of Earth,,,,,,"If there are 8 or more Earth cards in your banished zone, Florian gets ""If you would create 1 or more aura tokens, instead create that many plus 1 of each of those tokens.""
 
@@ -18,7 +18,7 @@ Create X Runechant tokens, where X is the total {h} you've gained this turn.
 
 //
 
-Gain 1 {h}",Runeblade Action / Earth Instant,,,,No,M,,,Mark Poole / Olga Tereshenko,,ROS005,/ROS005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gain 1 {h}",Runeblade Action / Earth Instant,,,,No,M,,,"Mark Poole, Olga Tereshenko",,ROS005,/ROS005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS006,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS007,ROS,"Aurora, Shooting Star",,,,,40,4,"Elemental, Runeblade, Hero",Essence of Lightning,,,,,,"**Once per Turn Instant** - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.
 
@@ -37,7 +37,7 @@ The next time an attack you control hits a hero this turn, deal 4 arcane damage 
 
 //
 
-Deal 1 arcane damage to any target.",Runeblade Action / Lightning Instant,,,,No,R,,,Faizal Fikri / Olga Tereshenko,,ROS012,/ROS012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Runeblade Action / Lightning Instant,,,,No,R,,,"Faizal Fikri, Olga Tereshenko",,ROS012,/ROS012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS013,ROS,"Verdance, Thorn of the Rose",,,,,40,4,"Elemental, Wizard, Hero",Essence of Earth,,,,,,"If there are 8 or more Earth cards in your banished zone, Verdance gets ""Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.""
 
 **Essence of Earth**",Elemental Wizard Hero,,No,,No,M,,,Lius Lasahido,,ROS013,/ROS013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -57,7 +57,7 @@ Deal 4 arcande damage to any target.
 
 //
 
-Gain 1 {h}",Wizard Action / Earth Instant,,,,No,R,,,Saad Irfan / Olga Tereshenko,,ROS018,/ROS018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gain 1 {h}",Wizard Action / Earth Instant,,,,No,R,,,"Saad Irfan, Olga Tereshenko",,ROS018,/ROS018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS019,ROS,"Oscilio, Constella Intelligence",,,,,36,4,"Elemental, Wizard, Hero",Essence of Lightning,Once per Turn Instant,,,,,"**Once per Turn Instant** - Discard an instant: Draw a card.
 
 **Essence of Lightning**",Elemental Wizard Hero,,No,,No,M,,,Federico Musetti,,ROS019,/ROS019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -74,14 +74,14 @@ If target instant card has cost less than the total arcane damage you've dealt t
 
 //
 
-Deal 1 arcane damage to any target.",Wizard Instant / Lightning Instant,,,,No,M,,,Saad Irfan / Olga Tereshenko,,ROS023,/ROS023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Wizard Instant / Lightning Instant,,,,No,M,,,"Saad Irfan, Olga Tereshenko",,ROS023,/ROS023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS024,ROS,Comet Storm // Shock,1,2,,3,,,"Wizard, Action, Lightning, Instant",Meld,,,,,,"**Meld**
 
 Deal 5 arcane damage to any target.
 
 //
 
-Deal 1 arcane damage to any target.",Wizard Action / Lightning Instant,,,,No,R,,,Simon Dominic / Olga Tereshenko,,ROS024,/ROS024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Wizard Action / Lightning Instant,,,,No,R,,,"Simon Dominic, Olga Tereshenko",,ROS024,/ROS024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS025,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS026,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS027,ROS,Sanctuary of Aria,,,,,,,"Rosetta, Macro",Instant,,,,,,**Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to you this turn by a source of your choice. Destroy this at the beginning of the end phase.,Rosetta Macro,,,,,T,,,Carlos Cruchaga,,ROS027,/ROS027.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

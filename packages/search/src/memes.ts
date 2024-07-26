@@ -21,14 +21,14 @@ const fangsALot: Card = {
   functionalText: `If Fangs A Lot is put into your banished zone from your graveyard, instead put it into your hand.`,
   printings: [
     {
-      artist: "Hoodwill",
+      artists: ["Hoodwill"],
       identifier: "FNG000",
       image: "FNG000",
       print: "FNG000",
       set: Release.Promos,
     },
     {
-      artist: "Hoodwill",
+      artists: ["Hoodwill"],
       identifier: "FNG000",
       image: "FNG000_Marvel",
       print: `FNG000-${Treatment.FA}`,

@@ -110,7 +110,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     if (!isPrintExcluded) {
       images.push({
-        artist: artist.trim(),
+        artists: [artist],
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
         identifier,
