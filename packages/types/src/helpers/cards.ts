@@ -1,4 +1,4 @@
-import { Type, Keyword } from "../interfaces";
+import { Type, Keyword, Subtype } from "../interfaces";
 
 export const getCardIdentifier = (
   card: {
@@ -68,3 +68,11 @@ export const getCanAddToDeck = (types: Type[], keywords?: Keyword[]) => {
 
   return isArenaCard || isDeckCard;
 };
+
+export const getShouldRotateCardImage = (card: {
+  keywords?: Keyword[];
+  subtypes?: Subtype[];
+}): boolean =>
+  card.keywords?.includes(Keyword.Meld) ||
+  card.subtypes?.includes(Subtype.Landmark) ||
+  false;
