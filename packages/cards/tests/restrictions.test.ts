@@ -16,13 +16,21 @@ describe("Restrictions seem reasonable", () => {
         (card) => card.cardIdentifier === cardIdentifier
       ) as Card;
 
+      const isTokenOrCommon =
+        rarities.includes(Rarity.Token) || rarities.includes(Rarity.Common);
       const isSuperRareOrHigher =
-        rarities.includes(Rarity.Fable) ||
+        rarities.includes(Rarity.Fabled) ||
         rarities.includes(Rarity.Legendary) ||
-        rarities.includes(rarity.Majestic) ||
-        rarities.includes(rarity.SuperRare);
+        rarities.includes(Rarity.Majestic) ||
+        rarities.includes(Rarity.SuperRare);
+      const raritySuggestsNoCommoner = isSuperRareOrHigher && !isTokenOrCommon;
+
       const isAdult = !!hero && !young;
-      if (bannedInCommoner.includes(name) || isSuperRareOrHigher || isAdult) {
+      if (
+        bannedInCommoner.includes(name) ||
+        raritySuggestsNoCommoner ||
+        isAdult
+      ) {
         const commoner = bannedFormats?.find(
           (format) => format === Format.Commoner
         );
