@@ -486,6 +486,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fyendals-fighting-spirit-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lightning-press-red</loc>
+    <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/10000-year-reunion-red</loc>
     <lastmod>2024-05-13</lastmod>
     <priority>0.5</priority>
@@ -5741,11 +5751,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/fyendals-fighting-spirit-red</loc>
-    <lastmod>2023-05-13</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/fyendals-fighting-spirit-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -7728,11 +7733,6 @@
   <url>
     <loc>https://fabrary.net/cards/light-the-way-blue</loc>
     <lastmod>2023-06-30</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://fabrary.net/cards/lightning-press-red</loc>
-    <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -2668,6 +2668,8 @@ OSCCardDB = {
   ["FAB247"] = { name = "Nullrune Gloves", text = "**Arcane Barrier 1**", keywords = "Arcane Barrier", types = "Equipment"},
   ["FAB248"] = { name = "Nullrune Boots", text = "**Arcane Barrier 1**", keywords = "Arcane Barrier", types = "Equipment"},
   ["FAB249"] = { name = "Whelming Gustwave (1)", text = "**Combo** - If Surging Strike was the last attack this combat chain, Whelming Gustwave gains +1{p}, **go again**, and \"If this hits, draw a card.\"", keywords = "Combo,Go again", types = "Action"},
+  ["FAB261"] = { name = "Fyendal's Fighting Spirit (1)", text = "When you attack or defend with Fyendal's Fighting Spirit, if you have less {h} than an opposing hero, gain 1{h}.", keywords = "", types = "Action"},
+  ["FAB262"] = { name = "Lightning Press (1)", text = "Target attack action card with cost 1 or less gains +3{p}.", keywords = "", types = "Instant"},
   ["FAB265"] = { name = "Runechant", text = "When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.", keywords = "", types = "Token"},
   ["FAB266"] = { name = "Runechant", text = "When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.", keywords = "", types = "Token"},
   ["FAB271"] = { name = "Hand Behind the Pen (1)", text = "When this hits a hero, turn a card in their arsenal face-up, then banish a non-attack action card from their arsenal.", keywords = "", types = "Action"},
