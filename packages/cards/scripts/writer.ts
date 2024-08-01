@@ -1,7 +1,9 @@
 import { existsSync, mkdirSync, writeFileSync } from "fs";
 import {
+  Bond,
   Card,
   Class,
+  Flow,
   Foiling,
   Format,
   Fusion,
@@ -112,9 +114,18 @@ const generateCardTypeScript = (card: Card): String => {
             Format
           )}],`
         : ``
-    }
+    }${
+    card.bonds && card.bonds.length > 0
+      ? `bonds: [${getEnumValues(card.bonds, "Bond", Bond)}],`
+      : ``
+  }
     ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
     ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
+    ${
+      card.flows && card.flows.length > 0
+        ? `flows: [${getEnumValues(card.flows, "Flow", Flow)}],`
+        : ``
+    }
     ${card.functionalText ? `functionalText: \`${card.functionalText}\`,` : ``}
     ${
       card.fusions && card.fusions.length > 0
@@ -174,7 +185,14 @@ const generateCardTypeScript = (card: Card): String => {
   }`;
 };
 
+const sortAlphabetically = (c1: Card, c2: Card): number => {
+  const c1Name = `${c1.name}${c1.pitch || ""}`;
+  const c2Name = `${c2.name}${c2.pitch || ""}`;
+  return c1Name.localeCompare(c2Name);
+};
+
 const generateTS = (cards: Card[]): string => {
+  cards.sort(sortAlphabetically);
   const cards1 = cards.slice(0, Math.ceil(cards.length / 4));
   const cards2 = cards.slice(
     Math.ceil(cards.length / 4),
@@ -187,8 +205,10 @@ const generateTS = (cards: Card[]): string => {
   const cards4 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
   const ts = `
   import {
+    Bond,
     Card,
     Class,
+    Flow,
     Foiling,
     Format,
     Fusion,

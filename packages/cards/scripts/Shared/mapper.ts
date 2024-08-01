@@ -1,5 +1,7 @@
 import {
+  Bond,
   Card,
+  Flow,
   Format,
   Fusion,
   Hero,
@@ -491,6 +493,42 @@ export const getSets = ({
     }
   }
   const arr = Array.from(sets);
+  arr.sort();
+
+  return arr;
+};
+
+export const getBonds = (card: { cardKeywords: string[] }): Bond[] => {
+  const { cardKeywords } = card;
+  const bonds = new Set<Bond>();
+  cardKeywords.forEach((keyword) => {
+    if (keyword.includes("Bond")) {
+      for (const [bond, value] of Object.entries(Bond)) {
+        if (keyword.includes(value as string)) {
+          bonds.add(Bond[bond]);
+        }
+      }
+    }
+  });
+  const arr = Array.from(bonds);
+  arr.sort();
+
+  return arr;
+};
+
+export const getFlows = (card: { cardKeywords: string[] }): Flow[] => {
+  const { cardKeywords } = card;
+  const flows = new Set<Flow>();
+  cardKeywords.forEach((keyword) => {
+    if (keyword.includes("Flow")) {
+      for (const [flow, value] of Object.entries(Flow)) {
+        if (keyword.includes(value as string)) {
+          flows.add(Flow[flow]);
+        }
+      }
+    }
+  });
+  const arr = Array.from(flows);
   arr.sort();
 
   return arr;

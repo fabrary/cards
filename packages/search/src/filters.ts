@@ -116,6 +116,11 @@ const bannedFilter: FilterToPropertyMapping = {
   partialMatch: true,
 };
 
+const bondFilter: FilterToPropertyMapping = {
+  property: "bonds",
+  isArray: true,
+};
+
 const chainFilter: FilterToPropertyMapping = {
   property: "n/a",
 };
@@ -137,6 +142,11 @@ const defenseFilter: FilterToPropertyMapping = {
   property: "defense",
   specialProperty: "specialDefense",
   isNumber: true,
+};
+
+const flowFilter: FilterToPropertyMapping = {
+  property: "flows",
+  isArray: true,
 };
 
 const foilFilter: FilterToPropertyMapping = {
@@ -254,6 +264,8 @@ export const filtersToCardPropertyMappings = {
   b: defenseFilter,
   block: defenseFilter,
   banned: bannedFilter,
+  bond: bondFilter,
+  bonds: bondFilter,
   c: classFilter,
   class: classFilter,
   chain: chainFilter,
@@ -263,6 +275,8 @@ export const filtersToCardPropertyMappings = {
   d: defenseFilter,
   def: defenseFilter,
   defense: defenseFilter,
+  flow: flowFilter,
+  flows: flowFilter,
   f: fuseFilter,
   fusion: fuseFilter,
   foil: foilFilter,

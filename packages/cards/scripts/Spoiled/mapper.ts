@@ -1,6 +1,8 @@
 import { releasedCards } from "../Released";
 import {
   addOppositeSideCardIdentifiers,
+  getBonds,
+  getFlows,
   getFusions,
   getNumberOrUndefined,
   getRarities,
@@ -718,8 +720,10 @@ const getCardData = (card: ParsedCard): Card => {
     typeText: card.typeText,
 
     bannedFormats: getBannedFormats(card),
+    bonds: getBonds(card),
     cost: getNumberOrUndefined(card.cost),
     defense: getNumberOrUndefined(card.defense) as number,
+    flows: getFlows(card),
     functionalText: card.functionalText,
     fusions: getFusions(card),
     hero: getHero(card) as Hero,

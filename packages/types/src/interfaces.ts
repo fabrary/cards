@@ -15,8 +15,10 @@ export interface Card {
   typeText: string;
 
   bannedFormats?: Format[];
+  bonds?: Bond[];
   cost?: number;
   defense?: number;
+  flows?: Flow[];
   functionalText?: string;
   fusions?: Fusion[];
   life?: number;
@@ -90,6 +92,14 @@ export enum Class {
   Shapeshifter = "Shapeshifter",
   Warrior = "Warrior",
   Wizard = "Wizard",
+}
+
+export enum Bond {
+  Earth = "Earth",
+}
+
+export enum Flow {
+  Lightning = "Lightning",
 }
 
 export enum Format {
@@ -362,6 +372,7 @@ export enum Keyword {
   Ephemeral = "Ephemeral",
   Essence = "Essence",
   EvoUpgrade = "Evo Upgrade",
+  Flow = "Flow",
   Freeze = "Freeze",
   Fusion = "Fusion",
   Galvanize = "Galvanize",
