@@ -359,6 +359,7 @@ export enum Keyword {
   BladeBreak = "Blade Break",
   BloodDebt = "Blood Debt",
   Boost = "Boost",
+  Bond = "Bond",
   Channel = "Channel",
   Charge = "Charge",
   Clash = "Clash",
