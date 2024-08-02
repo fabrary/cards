@@ -11,14 +11,14 @@ ROS004,ROS,Germinate,3,XX,,3,,,"Earth, Runeblade, Action",Florian Specialization
 
 Create a Runechant or Embodiment of Earth token. Repeat this process X more times.
 
-Gain X+1 {h}",Earth Runeblade Action,,,,No,M,,,Carlos Cruchaga,,ROS004,/ROS004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gain X+1{h}",Earth Runeblade Action,,,,No,M,,,Carlos Cruchaga,,ROS004,/ROS004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS005,ROS,Thistle Bloom // Life,2,0,,3,,,"Runeblade, Action, Earth, Instant",Meld,,,,,,"**Meld**
 
 Create X Runechant tokens, where X is the total {h} you've gained this turn.
 
 //
 
-Gain 1 {h}",Runeblade Action / Earth Instant,,,,No,M,,,"Mark Poole, Olga Tereshenko",,ROS005,/ROS005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gain 1{h}",Runeblade Action // Earth Instant,,,,No,M,,,"Mark Poole, Olga Tereshenko",,ROS005,/ROS005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS006,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS007,ROS,"Aurora, Shooting Star",,,,,40,4,"Elemental, Runeblade, Hero",Essence of Lightning,,,,,,"**Once per Turn Instant** - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.
 
@@ -26,7 +26,7 @@ ROS007,ROS,"Aurora, Shooting Star",,,,,40,4,"Elemental, Runeblade, Hero",Essence
 ROS008,ROS,Aurora,,,,,20,4,"Elemental, Runeblade, Hero, Young",Essence of Lightning,,,,,,"**Once per Turn Instant** - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.
 
 **Essence of Lightning**",Elemental Runeblade Hero - Young,,,No,,T,,,Ramza Ardyputra,,ROS008,/ROS008.png,,,V,C,,Ramza Ardyputra,,ROS008,/ROS008_V2.png,,,V,C,FA,Ramza Ardyputra,,ROS008,/ROS008_BACK_V2.png,,,,,,,,,,,
-ROS009,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS009,ROS,Star Fall,,,,,,,,,,,,,,,,,,,,T,,,Ramza Ardyputra,,ROS009,/ROS009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS010,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS011,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS012,ROS,Burn Up // Shock,1,0,,3,,,"Runeblade, Action, Lightning, Instant","Go again, Meld",,,,,,"**Meld**
@@ -37,7 +37,7 @@ The next time an attack you control hits a hero this turn, deal 4 arcane damage 
 
 //
 
-Deal 1 arcane damage to any target.",Runeblade Action / Lightning Instant,,,,No,R,,,"Faizal Fikri, Olga Tereshenko",,ROS012,/ROS012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Runeblade Action // Lightning Instant,,,,No,R,,,"Faizal Fikri, Olga Tereshenko",,ROS012,/ROS012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS013,ROS,"Verdance, Thorn of the Rose",,,,,40,4,"Elemental, Wizard, Hero",Essence of Earth,,,,,,"If there are 8 or more Earth cards in your banished zone, Verdance gets ""Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.""
 
 **Essence of Earth**",Elemental Wizard Hero,,No,,No,M,,,Lius Lasahido,,ROS013,/ROS013.png,,,V,C,,Lius Lasahido,,ROS013,/ROS013_V2.png,,,V,C,FA,Lius Lasahido,,ROS013,/ROS013_BACK_V2.png,,,,,,,,,,,
@@ -53,11 +53,11 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
 ROS017,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS018,ROS,Pulsing Aether // Life,1,1,,3,,,"Wizard, Action, Earth, Instant",Meld,,,,,,"**Meld**
 
-Deal 4 arcande damage to any target.
+Deal 4 arcane damage to any target.
 
 //
 
-Gain 1 {h}",Wizard Action / Earth Instant,,,,No,R,,,"Saad Irfan, Olga Tereshenko",,ROS018,/ROS018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gain 1{h}",Wizard Action // Earth Instant,,,,No,R,,,"Saad Irfan, Olga Tereshenko",,ROS018,/ROS018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS019,ROS,"Oscilio, Constella Intelligence",,,,,36,4,"Elemental, Wizard, Hero",Essence of Lightning,Once per Turn Instant,,,,,"**Once per Turn Instant** - Discard an instant: Draw a card.
 
 **Essence of Lightning**",Elemental Wizard Hero,,No,,No,M,,,Federico Musetti,,ROS019,/ROS019.png,,,V,C,,Federico Musetti,,ROS019,/ROS019_V2.png,,,V,C,FA,Federico Musetti,,ROS019,/ROS019_BACK_V2.png,,,,,,,,,,,
@@ -68,22 +68,22 @@ ROS021,ROS,"Volzar, the Lightning Rod",,,,,,,"Lightning, Wizard, Weapon, Staff, 
 
 **Once per Turn Instant** - {r}: **Amp X**, where X is the number of Lightning cards you've played this turn.",Lightning Wizard Weapon - Staff (2H),,,,,T,,,Federico Musetti,,ROS021,/ROS021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS022,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS023,ROS,Null // Shock,2,1,,,,,"Wizard, Instant, Lightning, Instant","Negate, Meld",,,,,,"**Meld**
+ROS023,ROS,Null // Shock,2,1,,,,,"Wizard, Instant, Lightning, Instant","Meld, Negate",,,,,,"**Meld**
 
 If target instant card has cost less than the total arcane damage you've dealt to opposing heroes this turn, **negate** it.
 
 //
 
-Deal 1 arcane damage to any target.",Wizard Instant / Lightning Instant,,,,No,M,,,"Saad Irfan, Olga Tereshenko",,ROS023,/ROS023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Wizard Instant // Lightning Instant,,,,No,M,,,"Saad Irfan, Olga Tereshenko",,ROS023,/ROS023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS024,ROS,Comet Storm // Shock,1,2,,3,,,"Wizard, Action, Lightning, Instant",Meld,,,,,,"**Meld**
 
 Deal 5 arcane damage to any target.
 
 //
 
-Deal 1 arcane damage to any target.",Wizard Action / Lightning Instant,,,,No,R,,,"Simon Dominic, Olga Tereshenko",,ROS024,/ROS024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Wizard Action // Lightning Instant,,,,No,R,,,"Simon Dominic, Olga Tereshenko",,ROS024,/ROS024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS025,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS026,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS026,ROS,Embodiment of Lightning,,,,,,,,,,,,,,,,,,,,T,,,Nikolay Moskvin,,ROS026,/ROS026.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS027,ROS,Sanctuary of Aria,,,,,,,"Rosetta, Macro",Instant,,,,,,**Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to you this turn by a source of your choice. Destroy this at the beginning of the end phase.,Rosetta Macro,,,,,T,,,Carlos Cruchaga,,ROS027,/ROS027.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS028,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS029,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -157,9 +157,9 @@ ROS088,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS089,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS090,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS091,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS092,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS093,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS094,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS092,ROS,Fry,1,,,,,,,,,,,,,,,,,,,C,,,Edward Chee,,ROS092,/ROS092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS093,ROS,Fry,2,,,,,,,,,,,,,,,,,,,C,,,Edward Chee,,ROS093,/ROS093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS094,ROS,Fry,3,0,1,0,,,"Lightning, Action, Attack",Go again,,,,,,**Go again**,Lightning Action - Attack,,,,,C,,,Edward Chee,,ROS094,/ROS094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS095,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS096,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS097,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
