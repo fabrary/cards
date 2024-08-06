@@ -311,8 +311,14 @@ ROS242,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS243,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS244,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS245,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS246,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS247,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS246,ROS,Adaptive Dissolver,,,,,,,"Mechanologist, Equipment, Base","Modular, Arcane Barrier 1",Action,,,,,"**Modular**
+
+**Action** - 0: Equip this to another equipment zone.
+
+**Arcane Barrier 1**",Mechanologist Equipment - Base,,,,No,M,,,Carlos Cruchaga,,ROS246,/ROS246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS247,ROS,Plan for the Worst,3,0,,3,,,"Ranger, Action",,,,,,,"Look at target hero's hand and arsenal. At the beginning of their next end phase, they discard all cards in their hand and destroy all cards in their arsenal.
+
+Search your deck for up to 3 traps, reveal them, put them into your hand, then shuffle 2 cards from your hand into your deck.",Ranger Action,,,,No,M,,,Chris Cold,,ROS247,/ROS247.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS248,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS249,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS250,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
