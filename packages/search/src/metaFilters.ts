@@ -1,87 +1,7 @@
-import { Class, Format, Hero, Talent, Type } from "@flesh-and-blood/types";
+import { Format, Hero, Talent } from "@flesh-and-blood/types";
+import { PUNCTUATION } from "./constants";
 
 const oneToFifty = Array.from(Array(50).keys()).map((value) => `${value}`);
-
-const CLASSES_AND_TALENTS = (classes: Class[], talents: Talent[] = []) => {
-  const values = [...classes, Class.Generic];
-  if (talents.length > 0) {
-    values.push(Class.NotClassed);
-  }
-
-  return [
-    {
-      filterToPropertyMapping: {
-        property: "classes",
-        isArray: true,
-      },
-      values: values.map((value) => value.toLowerCase()),
-      isOr: true,
-    },
-    filterOutTalents(talents),
-  ];
-};
-
-const NO_OTHER_HEROES_OR_SPECIALIZATIONS = (
-  hero: Hero,
-  sharedSpecializationHeroes: Hero[] = []
-) => {
-  const values = Object.values(Hero)
-    .filter((h) => h !== hero && !sharedSpecializationHeroes.includes(h))
-    .map((hero: string) => hero.toLowerCase());
-
-  return [
-    {
-      filterToPropertyMapping: {
-        property: "hero",
-        isString: true,
-      },
-      values,
-      excluded: true,
-      isOr: true,
-    },
-    {
-      filterToPropertyMapping: {
-        property: "specializations",
-        isArray: true,
-      },
-      values,
-      excluded: true,
-      isOr: true,
-    },
-  ];
-};
-
-const filterOutTalents = (talents: Talent[]) => {
-  const values = Object.values(Talent)
-    .filter((talent) => !talents.includes(talent))
-    .map((talent: string) => talent.toLowerCase());
-
-  return {
-    filterToPropertyMapping: {
-      property: "talents",
-      isArray: true,
-    },
-    values: values,
-    excluded: true,
-  };
-};
-
-const DRACONIC = [Talent.Draconic];
-const EARTH_AND_ICE_AND_LIGHTNING = [
-  Talent.Elemental,
-  Talent.Earth,
-  Talent.Ice,
-  Talent.Lightning,
-];
-const EARTH = [Talent.Elemental, Talent.Earth];
-const EARTH_AND_ICE = [Talent.Elemental, Talent.Earth, Talent.Ice];
-const EARTH_AND_LIGHTNING = [Talent.Elemental, Talent.Earth, Talent.Lightning];
-const ICE = [Talent.Elemental, Talent.Ice];
-const ICE_AND_LIGHTNING = [Talent.Elemental, Talent.Ice, Talent.Lightning];
-const LIGHTNING = [Talent.Elemental, Talent.Lightning];
-const LIGHT = [Talent.Light];
-const MYSTIC = [Talent.Mystic];
-const SHADOW = [Talent.Shadow];
 
 interface AppliedFilter {
   filterToPropertyMapping: FilterToPropertyMapping;
@@ -108,334 +28,6 @@ interface FilterToPropertyMapping {
 
 type Exclusion = "!" | "-";
 type Modifier = ">=" | ">" | "<=" | "<";
-
-const arakni: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Assassin]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Arakni),
-];
-
-const aurora: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Runeblade], LIGHTNING),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Aurora),
-];
-
-const azalea: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ranger]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Azalea),
-];
-
-const benji: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ninja]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Benji),
-];
-
-const betsy: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Betsy),
-];
-
-const blaze: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Wizard]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Blaze),
-];
-
-const boltyn: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Warrior], LIGHT),
-  {
-    filterToPropertyMapping: {
-      property: "subtypes",
-      isArray: true,
-      partialMatch: true,
-    },
-    values: ["angel"],
-    excluded: true,
-    isOr: true,
-  },
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Boltyn),
-];
-
-const bravo: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Bravo),
-];
-
-const brevant: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Brevant),
-];
-
-const briar: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Runeblade], EARTH_AND_LIGHTNING),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Briar),
-];
-
-const brutus: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Adjudicator]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Brutus),
-];
-
-const chane: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Chane),
-];
-
-const dash: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Dash),
-];
-
-const dataDoll: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.DataDoll),
-];
-
-const dorinthea: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Warrior]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Dorinthea),
-];
-
-const dromai: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Illusionist], DRACONIC),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Dromai, [Hero.Fai]),
-];
-
-const emperor: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Warrior, Class.Wizard], DRACONIC),
-  {
-    filterToPropertyMapping: {
-      property: "pitch",
-      isNumber: true,
-    },
-    values: [undefined, "0", "2", "3"],
-    cardTypes: [
-      Type.Action,
-      Type.AttackReaction,
-      Type.DefenseReaction,
-      Type.Instant,
-      Type.Mentor,
-      Type.Resource,
-    ],
-    excluded: true,
-    isOr: true,
-  },
-  {
-    filterToPropertyMapping: {
-      property: "types",
-      isArray: true,
-      partialMatch: true,
-    },
-    values: ["hero", "mentor"],
-    excluded: true,
-    isOr: true,
-  },
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Emperor),
-];
-
-const enigma: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Illusionist], MYSTIC),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Enigma),
-];
-
-const fai: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ninja], DRACONIC),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Fai, [Hero.Dromai]),
-];
-
-const florian: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Runeblade], EARTH),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Florian),
-];
-
-const genis: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Merchant]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.GenisWotchuneed),
-];
-
-const ira: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ninja]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Ira),
-];
-
-const iyslander: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Wizard], ICE),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Iyslander),
-];
-
-const kano: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Wizard]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Kano),
-];
-
-const kassai: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Warrior]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Kassai),
-];
-
-const katsu: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ninja]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Katsu),
-];
-
-const kavdaen: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Merchant]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Kavdaen),
-];
-
-const kayo: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Brute]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Kayo),
-];
-
-const levia: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Brute], SHADOW),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Levia),
-];
-
-const lexi: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ranger], ICE_AND_LIGHTNING),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Lexi),
-];
-
-const maxx: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Maxx),
-];
-
-const melody: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Bard]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Melody),
-];
-
-const nuu: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Assassin], MYSTIC),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Nuu),
-];
-
-const oldhim: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian], EARTH_AND_ICE),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Oldhim),
-];
-
-const olympia: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Warrior]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Olympia),
-];
-
-const oscilio: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Wizard], LIGHTNING),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Oscilio),
-];
-
-const prism: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Illusionist], LIGHT),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Prism),
-];
-
-const rhinar: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Brute]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Rhinar),
-];
-
-const riptide: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ranger]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Riptide),
-];
-
-const ruudi: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Merchant]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Ruudi),
-];
-
-const shiyana: AppliedFilter[] = [
-  {
-    filterToPropertyMapping: {
-      property: "classes",
-      isArray: true,
-    },
-    values: ["generic"],
-    isOr: true,
-  },
-];
-
-const squizzy: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Merchant]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Squizzy),
-];
-
-const starvo: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian], EARTH_AND_ICE_AND_LIGHTNING),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Bravo),
-];
-
-const taipanis: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Adjudicator], DRACONIC),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Taipanis),
-];
-
-const taylor: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Taylor),
-];
-
-const teklovossen: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Teklovossen),
-];
-
-const terra: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian], [Talent.Elemental, Talent.Earth]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Terra),
-];
-
-const theryon: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Adjudicator], LIGHT),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Theryon),
-];
-
-const uzuri: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Assassin]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Uzuri),
-];
-
-const valda: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Valda),
-];
-
-const verdance: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Wizard], EARTH),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Verdance),
-];
-
-const victor: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Victor),
-];
-
-const viserai: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Runeblade]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Viserai),
-];
-
-const vynnset: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Vynnset),
-];
-
-const yorick: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Bard]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Yorick),
-];
-
-const yoji: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Yoji),
-];
-
-const zen: AppliedFilter[] = [
-  ...CLASSES_AND_TALENTS([Class.Ninja], MYSTIC),
-  ...NO_OTHER_HEROES_OR_SPECIALIZATIONS(Hero.Zen),
-];
 
 const legalInBlitz: AppliedFilter[] = [
   {
@@ -565,91 +157,82 @@ const legalInUltimatePitFight: AppliedFilter[] = [
   },
 ];
 
-const legalFiltersMappings: { [key: string]: AppliedFilter[] } = {
-  // formats
-  blitz: legalInBlitz,
-  "blitz ll": legalInBlitzLivingLegend,
-  "blitz living legend": legalInBlitzLivingLegend,
-  clash: legalInClash,
-  cc: legalInClassicConstructed,
-  classic: legalInClassicConstructed,
-  "classic constructed": legalInClassicConstructed,
-  ll: legalInClassicConstructedLivingLegend,
-  "living legend": legalInClassicConstructedLivingLegend,
-  "cc ll": legalInClassicConstructedLivingLegend,
-  "ll cc": legalInClassicConstructedLivingLegend,
-  "classic constructed ll": legalInClassicConstructedLivingLegend,
-  "classic constructed living legend": legalInClassicConstructedLivingLegend,
-  constructed: legalInClassicConstructed,
-  commoner: legalInCommoner,
-  upf: legalInUltimatePitFight,
-  ultimate: legalInUltimatePitFight,
-  "ultimate pit fight": legalInUltimatePitFight,
+const formatFilterMappings: {
+  filters: AppliedFilter[];
+  format: Format;
+  nicknames?: string[];
+}[] = [
+  {
+    filters: legalInBlitz,
+    format: Format.Blitz,
+  },
+  {
+    filters: legalInBlitzLivingLegend,
+    format: Format.BlitzLivingLegend,
+    nicknames: ["blitz ll"],
+  },
+  {
+    filters: legalInClash,
+    format: Format.Clash,
+  },
+  {
+    filters: legalInClassicConstructed,
+    format: Format.ClassicConstructed,
+    nicknames: ["cc", "classic"],
+  },
+  {
+    filters: legalInClassicConstructedLivingLegend,
+    format: Format.ClassicConstructedLivingLegend,
+    nicknames: [
+      "cc ll",
+      "classic constructed ll",
+      "ll cc",
+      "ll",
+      "living legend",
+    ],
+  },
+  {
+    filters: legalInCommoner,
+    format: Format.Commoner,
+  },
+  {
+    filters: legalInUltimatePitFight,
+    format: Format.UltimatePitFight,
+    nicknames: ["upf"],
+  },
+];
 
-  // heroes
-  arakni,
-  aurora,
-  azalea,
-  benji,
-  betsy,
-  blaze,
-  boltyn,
-  bravo,
-  brevant,
-  briar,
-  brutus,
-  chane,
-  dash,
-  data: dataDoll,
-  "data doll": dataDoll,
-  datadoll: dataDoll,
-  dori: dorinthea,
-  dorinthea,
-  dromai,
-  emperor,
-  enigma,
-  fai,
-  florian,
-  genis,
-  geniswotchuneed: genis,
-  ira,
-  iyslander,
-  islander: iyslander,
-  kano,
-  kassai,
-  katsu,
-  kavdaen,
-  kayo,
-  levia,
-  lexi,
-  maxx,
-  melody,
-  nuu,
-  oldhim,
-  olympia,
-  oscilio,
-  prism,
-  rhinar,
-  riptide,
-  ruudi,
-  shiyana,
-  squizzy,
-  starvo,
-  taipanis,
-  taylor,
-  teklovossen,
-  terra,
-  theryon,
-  uzuri,
-  valda,
-  verdance,
-  victor,
-  viserai,
-  vynnset,
-  yorick,
-  yoji,
-  zen,
-};
+const nicknameHeroMappings: { hero: Hero; nicknames: string[] }[] = [
+  {
+    hero: Hero.DataDoll,
+    nicknames: ["data", "datadoll"],
+  },
+  {
+    hero: Hero.Dorinthea,
+    nicknames: ["dori"],
+  },
+  {
+    hero: Hero.GenisWotchuneed,
+    nicknames: ["genis"],
+  },
+  {
+    hero: Hero.Iyslander,
+    nicknames: ["islander"],
+  },
+];
+
+const heroMappings: { hero: string; nicknames?: string[] }[] = Object.values(
+  Hero
+).map((hero) => {
+  const withNicknames = nicknameHeroMappings.find(
+    ({ hero: nicknameHero }) => nicknameHero === hero
+  );
+  const cleanHero = hero.toLowerCase().replaceAll(PUNCTUATION, "");
+
+  return withNicknames
+    ? { ...withNicknames, hero: cleanHero }
+    : { hero: cleanHero };
+});
 
 const rankedRarity = [
   "common",
@@ -731,9 +314,21 @@ const getRarityFilter = (
 
 const getLegalFilters = (values: string[], excluded: boolean) => {
   const filters: AppliedFilter[] = [];
+
+  const heroes: string[] = [];
+
   for (const value of values) {
-    if (legalFiltersMappings[value]) {
-      const metaFilters = legalFiltersMappings[value];
+    const matchingFormat = formatFilterMappings.find(
+      ({ format, nicknames }) => {
+        const isAMatch =
+          format.toLowerCase().replaceAll(PUNCTUATION, "") === value ||
+          (!!nicknames && nicknames.includes(value));
+
+        return isAMatch;
+      }
+    );
+    if (matchingFormat) {
+      const metaFilters = matchingFormat.filters;
       for (const filter of metaFilters) {
         let newFilter = { ...filter };
         if (excluded && !filter.filterToPropertyMapping.isString) {
@@ -741,8 +336,30 @@ const getLegalFilters = (values: string[], excluded: boolean) => {
         }
         filters.push(newFilter);
       }
+    } else {
+      const matchingHero = heroMappings.find(({ hero, nicknames }) => {
+        const isAMatch =
+          hero === value || (!!nicknames && nicknames.includes(value));
+
+        return isAMatch;
+      });
+      if (matchingHero) {
+        heroes.push(matchingHero.hero);
+      }
     }
   }
+
+  if (heroes.length > 0) {
+    filters.push({
+      filterToPropertyMapping: {
+        property: "legalHeroes",
+        isArray: true,
+      },
+      values: heroes,
+      isOr: true,
+    });
+  }
+
   return filters;
 };
 
@@ -928,19 +545,6 @@ export const getExcludedMetaFilters = (filterKey: string) => {
   }
   return filters;
 };
-
-export const getDeckFilters = (
-  hero: Hero,
-  format?: Format
-): AppliedFilter[] => {
-  return [
-    ...legalFiltersMappings[hero.toLowerCase()],
-    ...(format ? legalFiltersMappings[format.toLowerCase()] : []),
-  ];
-};
-
-export const heroHasFilters = (hero: Hero): boolean =>
-  legalFiltersMappings[hero.toLowerCase().split(" ")[0]]?.length > 0;
 
 const legalFilters = ["l", "legal", "hero"];
 const isLegalFilter = (filterKey: string) => legalFilters.includes(filterKey);

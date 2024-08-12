@@ -39,6 +39,7 @@ import {
 
 import tcgplayerProductFile from "./tcgplayer.json";
 import { SourceJSONCard } from "../Released/parser";
+import { getLegalHeroes } from "../Shared/legality";
 const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
 
 const getArtists = (card: ParsedCard): string[] => {
@@ -696,17 +697,31 @@ const getCardData = (card: ParsedCard): Card => {
   const { rarities, rarity } = getParsedRarities(card);
 
   const cardIdentifier = getCardIdentifier(card);
+  const classes = getClasses(card);
+  const name = card.name.trim();
+  const pitch = getNumberOrUndefined(card.pitch);
+  const specializations = getSpecializations(card);
+  const talents = getTalents(card);
 
   return {
     artists: getArtists(card),
     cardIdentifier,
-    classes: getClasses(card),
+    classes,
     defaultImage: getDefaultPrinting(
       { name: card.name, cardIdentifier },
       printings
     ).image,
+    legalHeroes: getLegalHeroes({
+      classes,
+      name,
+      pitch,
+      specializations,
+      subtypes,
+      talents,
+      types,
+    }),
+    name,
     printings,
-    name: card.name.trim(),
     rarities,
     rarity,
     setIdentifiers,
@@ -730,15 +745,15 @@ const getCardData = (card: ParsedCard): Card => {
     intellect: getNumberOrUndefined(card.intellect),
     keywords: getKeywords(card),
     life: getNumberOrUndefined(card.life),
-    pitch: getNumberOrUndefined(card.pitch),
+    pitch,
     power: getNumberOrUndefined(card.power) as number,
     restrictedFormats: getRestrictedFormats(card),
     specialCost: getStringIfNotNumber(card.cost) as string,
     specialDefense: getStringIfNotNumber(card.defense) as string,
     specialLife: getStringIfNotNumber(card.life) as string,
     specialPower: getStringIfNotNumber(card.power) as string,
-    specializations: getSpecializations(card),
-    talents: getTalents(card),
+    specializations,
+    talents,
     young: getYoung(card) as boolean,
   };
 };

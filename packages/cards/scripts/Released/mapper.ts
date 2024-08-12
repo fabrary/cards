@@ -36,6 +36,7 @@ import {
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
+import { getLegalHeroes } from "../Shared/legality";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -290,12 +291,27 @@ const getCardData = (card: ParsedCard): Card => {
   //   console.error(`No special printing`, card);
   // }
 
+  const classes = getClasses(card);
+  const name = card.name.trim();
+  const pitch = getNumberOrUndefined(card.pitch);
+  const specializations = getSpecializations(card);
+  const talents = getTalents(card);
+
   return {
     artists,
     cardIdentifier,
-    classes: getClasses(card),
+    classes,
     defaultImage: defaultPrinting?.image,
-    name: card.name.trim(),
+    legalHeroes: getLegalHeroes({
+      classes,
+      name,
+      pitch,
+      specializations,
+      subtypes,
+      talents,
+      types,
+    }),
+    name,
     printings,
     rarities,
     rarity,
@@ -317,15 +333,15 @@ const getCardData = (card: ParsedCard): Card => {
     intellect: getNumberOrUndefined(card.intellect),
     keywords: getKeywords(card),
     life: getNumberOrUndefined(card.life),
-    pitch: getNumberOrUndefined(card.pitch),
+    pitch,
     power: getNumberOrUndefined(card.power) as number,
     restrictedFormats: getRestrictedFormats(card),
     specialCost: getStringIfNotNumber(card.cost) as string,
     specialDefense: getStringIfNotNumber(card.defense) as string,
     specialLife: getStringIfNotNumber(card.life) as string,
     specialPower: getStringIfNotNumber(card.power) as string,
-    specializations: getSpecializations(card),
-    talents: getTalents(card),
+    specializations,
+    talents,
     young: getYoung(card) as boolean,
   };
 };

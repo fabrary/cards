@@ -1,6 +1,7 @@
 import {
   Card,
   Class,
+  Hero,
   Rarity,
   Release,
   Subtype,
@@ -19,6 +20,7 @@ const fangsALot: Card = {
   classes: [Class.Generic],
   defaultImage: "FNG000",
   functionalText: `If Fangs A Lot is put into your banished zone from your graveyard, instead put it into your hand.`,
+  legalHeroes: [Hero.Kayo, Hero.Levia, Hero.Rhinar],
   printings: [
     {
       artists: ["Hoodwill"],

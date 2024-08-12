@@ -337,6 +337,22 @@ describe("Card search", () => {
     expect(cardsWithCommonRarity).toEqual([]);
   });
 
+  it("Searches dromai correctly", () => {
+    const { searchResults, appliedFilters, keywords } = cardSearch.search(
+      "l:Dromai c:Illusionist"
+    );
+
+    expect(searchResults.length).toBeGreaterThan(0);
+  });
+
+  it("Combines heroes correctly", () => {
+    const { searchResults, appliedFilters } = cardSearch.search(
+      "l:zen,nuu s:mst r:t,c,r"
+    );
+
+    expect(searchResults.length).toEqual(148);
+  });
+
   const punctuationCards = ["power:*", "{r}", "{p}"];
 
   it.each(punctuationCards)(

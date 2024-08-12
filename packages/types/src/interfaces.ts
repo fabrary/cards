@@ -3,6 +3,7 @@ export interface Card {
   cardIdentifier: string;
   classes: Class[];
   defaultImage: string;
+  legalHeroes: Hero[];
   name: string;
   printings: Printing[];
   rarities: Rarity[];
@@ -333,6 +334,7 @@ export enum Hero {
   Ruudi = "Ruu'di",
   Shiyana = "Shiyana",
   Squizzy = "Squizzy",
+  Starvo = "Starvo",
   Taipanis = "Taipanis",
   Taylor = "Taylor",
   Teklovossen = "Teklovossen",

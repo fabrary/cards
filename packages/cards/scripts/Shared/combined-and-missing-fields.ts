@@ -26,6 +26,7 @@ export const combineAndAddMissingFields = (card: Card, duplicate: Card) => {
     "bannedFormats",
     "classes",
     "keywords",
+    "legalHeroes",
     "rarities",
     "specializations",
     "subtypes",
