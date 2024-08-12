@@ -29,160 +29,34 @@ interface FilterToPropertyMapping {
 type Exclusion = "!" | "-";
 type Modifier = ">=" | ">" | "<=" | "<";
 
-const legalInBlitz: AppliedFilter[] = [
-  {
-    filterToPropertyMapping: {
-      property: "bannedFormats",
-      isArray: true,
-    },
-    values: ["blitz"],
-    excluded: true,
-  },
-  {
-    filterToPropertyMapping: {
-      property: "young",
-      isBoolean: true,
-    },
-    values: [],
-    cardTypes: ["hero"],
-  },
-];
-
-const legalInBlitzLivingLegend = [
-  {
-    filterToPropertyMapping: {
-      property: "bannedFormats",
-      isArray: true,
-    },
-    values: ["blitz (living legend)"],
-    excluded: true,
-  },
-  {
-    filterToPropertyMapping: {
-      property: "young",
-      isBoolean: true,
-    },
-    values: [],
-    cardTypes: ["hero"],
-  },
-];
-
-const legalInClash: AppliedFilter[] = [
-  {
-    filterToPropertyMapping: {
-      property: "rarities",
-      isArray: true,
-    },
-    values: ["super rare", "majestic", "legendary", "fabled"],
-    excluded: true,
-  },
-  {
-    filterToPropertyMapping: {
-      property: "young",
-      isBoolean: true,
-    },
-    values: [],
-    cardTypes: ["hero"],
-  },
-];
-
-// TODO why not working
-const legalInClassicConstructed: AppliedFilter[] = [
-  {
-    filterToPropertyMapping: {
-      property: "bannedFormats",
-      isArray: true,
-    },
-    values: ["classic constructed"],
-    excluded: true,
-  },
-  {
-    filterToPropertyMapping: {
-      property: "young",
-      isBoolean: true,
-    },
-    values: [],
-    cardTypes: ["hero"],
-    excluded: true,
-  },
-];
-
-const legalInClassicConstructedLivingLegend: AppliedFilter[] = [
-  {
-    filterToPropertyMapping: {
-      property: "bannedFormats",
-      isArray: true,
-    },
-    values: ["classic constructed (living legend)"],
-    excluded: true,
-  },
-  {
-    filterToPropertyMapping: {
-      property: "young",
-      isBoolean: true,
-    },
-    values: [],
-    cardTypes: ["hero"],
-    excluded: true,
-  },
-];
-
-const legalInCommoner: AppliedFilter[] = [
-  {
-    filterToPropertyMapping: {
-      property: "bannedFormats",
-      isArray: true,
-    },
-    values: ["commoner"],
-    excluded: true,
-  },
-  {
-    filterToPropertyMapping: {
-      property: "young",
-      isBoolean: true,
-    },
-    values: [],
-    cardTypes: ["hero"],
-  },
-];
-
-const legalInUltimatePitFight: AppliedFilter[] = [
-  {
-    filterToPropertyMapping: {
-      property: "young",
-      isBoolean: true,
-    },
-    values: [],
-    cardTypes: ["hero"],
-  },
-];
-
 const formatFilterMappings: {
-  filters: AppliedFilter[];
-  format: Format;
+  format: string;
   nicknames?: string[];
 }[] = [
   {
-    filters: legalInBlitz,
-    format: Format.Blitz,
+    // filters: legalInBlitz,
+    format: Format.Blitz.toLowerCase().replaceAll(PUNCTUATION, ""),
   },
   {
-    filters: legalInBlitzLivingLegend,
-    format: Format.BlitzLivingLegend,
+    // filters: legalInBlitzLivingLegend,
+    format: Format.BlitzLivingLegend.toLowerCase().replaceAll(PUNCTUATION, ""),
     nicknames: ["blitz ll"],
   },
   {
-    filters: legalInClash,
-    format: Format.Clash,
+    // filters: legalInClash,
+    format: Format.Clash.toLowerCase().replaceAll(PUNCTUATION, ""),
   },
   {
-    filters: legalInClassicConstructed,
-    format: Format.ClassicConstructed,
+    // filters: legalInClassicConstructed,
+    format: Format.ClassicConstructed.toLowerCase().replaceAll(PUNCTUATION, ""),
     nicknames: ["cc", "classic"],
   },
   {
-    filters: legalInClassicConstructedLivingLegend,
-    format: Format.ClassicConstructedLivingLegend,
+    // filters: legalInClassicConstructedLivingLegend,
+    format: Format.ClassicConstructedLivingLegend.toLowerCase().replaceAll(
+      PUNCTUATION,
+      ""
+    ),
     nicknames: [
       "cc ll",
       "classic constructed ll",
@@ -192,12 +66,12 @@ const formatFilterMappings: {
     ],
   },
   {
-    filters: legalInCommoner,
-    format: Format.Commoner,
+    // filters: legalInCommoner,
+    format: Format.Commoner.toLowerCase().replaceAll(PUNCTUATION, ""),
   },
   {
-    filters: legalInUltimatePitFight,
-    format: Format.UltimatePitFight,
+    // filters: legalInUltimatePitFight,
+    format: Format.UltimatePitFight.toLowerCase().replaceAll(PUNCTUATION, ""),
     nicknames: ["upf"],
   },
 ];
@@ -315,27 +189,28 @@ const getRarityFilter = (
 const getLegalFilters = (values: string[], excluded: boolean) => {
   const filters: AppliedFilter[] = [];
 
+  const formats: string[] = [];
   const heroes: string[] = [];
 
   for (const value of values) {
     const matchingFormat = formatFilterMappings.find(
       ({ format, nicknames }) => {
         const isAMatch =
-          format.toLowerCase().replaceAll(PUNCTUATION, "") === value ||
-          (!!nicknames && nicknames.includes(value));
+          format === value || (!!nicknames && nicknames.includes(value));
 
         return isAMatch;
       }
     );
     if (matchingFormat) {
-      const metaFilters = matchingFormat.filters;
-      for (const filter of metaFilters) {
-        let newFilter = { ...filter };
-        if (excluded && !filter.filterToPropertyMapping.isString) {
-          newFilter.excluded = !filter.excluded;
-        }
-        filters.push(newFilter);
-      }
+      formats.push(matchingFormat.format);
+      // const metaFilters = matchingFormat.filters;
+      // for (const filter of metaFilters) {
+      //   let newFilter = { ...filter };
+      //   if (excluded && !filter.filterToPropertyMapping.isString) {
+      //     newFilter.excluded = !filter.excluded;
+      //   }
+      //   filters.push(newFilter);
+      // }
     } else {
       const matchingHero = heroMappings.find(({ hero, nicknames }) => {
         const isAMatch =
@@ -349,6 +224,15 @@ const getLegalFilters = (values: string[], excluded: boolean) => {
     }
   }
 
+  if (formats.length > 0) {
+    filters.push({
+      filterToPropertyMapping: { property: "legalFormats", isArray: true },
+      values: formats,
+      isOr: true,
+      excluded,
+    });
+  }
+
   if (heroes.length > 0) {
     filters.push({
       filterToPropertyMapping: {
@@ -357,6 +241,7 @@ const getLegalFilters = (values: string[], excluded: boolean) => {
       },
       values: heroes,
       isOr: true,
+      excluded,
     });
   }
 

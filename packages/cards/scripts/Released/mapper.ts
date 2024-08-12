@@ -293,9 +293,11 @@ const getCardData = (card: ParsedCard): Card => {
   const bannedFormats = getBannedFormats(card);
   const classes = getClasses(card);
   const hero = getHero(card) as Hero;
+  const keywords = getKeywords(card);
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);
   const restrictedFormats = getRestrictedFormats(card);
+  const sets = getSets(printings);
   const specializations = getSpecializations(card);
   const talents = getTalents(card);
 
@@ -308,13 +310,17 @@ const getCardData = (card: ParsedCard): Card => {
       bannedFormats,
       card,
       classes,
+      keywords,
       rarities,
+      sets,
       subtypes,
       types
     ),
     legalHeroes: getLegalHeroes({
+      cardIdentifier,
       classes,
       hero,
+      keywords,
       name,
       pitch,
       specializations,
@@ -327,7 +333,7 @@ const getCardData = (card: ParsedCard): Card => {
     rarities,
     rarity,
     setIdentifiers,
-    sets: getSets(printings),
+    sets,
     specialImage: specialPrinting?.image,
     subtypes,
     types,
@@ -342,7 +348,7 @@ const getCardData = (card: ParsedCard): Card => {
     fusions: getFusions(card),
     hero,
     intellect: getNumberOrUndefined(card.intellect),
-    keywords: getKeywords(card),
+    keywords,
     life: getNumberOrUndefined(card.life),
     pitch,
     power: getNumberOrUndefined(card.power) as number,

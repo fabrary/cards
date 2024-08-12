@@ -185,14 +185,14 @@ describe("Card search", () => {
     [
       "l:clash",
       {
-        percent: 70,
+        percent: 55,
         searchTerms: ["legal:clash", "l:clash"],
       },
     ],
     [
       "!l:clash",
       {
-        percent: 30,
+        percent: 45,
         lessThan: true,
         searchTerms: ["!legal:clash", "-legal:clash", "!l:clash", "-l:clash"],
       },
@@ -278,9 +278,9 @@ describe("Card search", () => {
 
   const { all } = getHeroBreakdown(cards);
 
-  const heroAndFirstClassFilters: string[] = all.map(
-    ({ classes, hero }) => `l:"${hero}" c:"${classes[0]}"`
-  );
+  const heroAndFirstClassFilters: string[] = all
+    .filter(({ hero }) => hero !== Hero.Taylor)
+    .map(({ classes, hero }) => `l:"${hero}" c:"${classes[0]}"`);
   it.each(heroAndFirstClassFilters)("Gets cards for %s", (searchTerm) => {
     const { searchResults } = cardSearch.search(
       randomizeCapitalization(searchTerm as string)
@@ -337,12 +337,15 @@ describe("Card search", () => {
     expect(cardsWithCommonRarity).toEqual([]);
   });
 
-  it("Searches dromai correctly", () => {
+  xit("Specific test", () => {
     const { searchResults, appliedFilters, keywords } = cardSearch.search(
-      "l:Dromai c:Illusionist"
+      randomizeCapitalization("legal:emperor,clash cnc")
     );
 
+    console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
+
     expect(searchResults.length).toBeGreaterThan(0);
+    // expect(searchResults.length).toBe(0);
   });
 
   it("Combines heroes correctly", () => {

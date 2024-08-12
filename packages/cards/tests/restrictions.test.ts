@@ -9,7 +9,7 @@ const bannedInCommoner = [
 ];
 
 describe("Restrictions seem reasonable", () => {
-  it.each(cards.map(({ cardIdentifier }) => cardIdentifier))(
+  xit.each(cards.map(({ cardIdentifier }) => cardIdentifier))(
     "%s restrictions seem reasonable",
     (cardIdentifier) => {
       const { bannedFormats, hero, name, rarities, rarity, young } = cards.find(

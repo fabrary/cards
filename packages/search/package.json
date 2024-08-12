@@ -9,7 +9,7 @@
     "build": "esbuild src/index.ts --outdir=dist --external:*.test.ts --external:fab-cards --bundle --minify --platform=node --target=es6",
     "postbuild": "tsc --declaration && npm test",
     "test": "jest",
-    "test:specific": "jest -t 'Searches dromai correctly'",
+    "test:specific": "jest -t 'Specific test'",
     "full": "npm run build"
   },
   "dependencies": {

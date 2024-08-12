@@ -20,8 +20,8 @@ import {
   SpecialConditions,
 } from "./filters";
 import { memes } from "./memes";
-import { clashSpecializationOverrides, getNormalizedText } from ".";
-import { Keyword } from "@flesh-and-blood/types";
+import { clashSpecializationOverrides } from "./clash";
+import { getNormalizedText } from "./helpers";
 
 export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
@@ -96,31 +96,31 @@ class Search {
       searchResults = searchResults.filter(
         (card) => card && filterCard(card, appliedFilters, specialConditions)
       );
-      if (
-        // If searching for illegal in CC, don't include young heroes
-        appliedFilters.some(
-          ({ excluded, values }) =>
-            !excluded &&
-            values.includes(Format.ClassicConstructed.toLowerCase())
-        )
-      ) {
-        searchResults = searchResults.filter((card) => !card.young);
-      }
-      if (
-        // If searching for illegal in Blitz or Commoner, don't include adult heroes
-        appliedFilters.some(
-          ({ excluded, values }) =>
-            !excluded &&
-            (values.includes(Format.Blitz.toLowerCase()) ||
-              values.includes(Format.Commoner.toLowerCase()))
-        )
-      ) {
-        searchResults = searchResults.filter((card) => {
-          const { types, young } = card;
-          const isAdult = types.includes(Type.Hero) && !young;
-          return !isAdult;
-        });
-      }
+      // if (
+      //   // If searching for illegal in CC, don't include young heroes
+      //   appliedFilters.some(
+      //     ({ excluded, values }) =>
+      //       !excluded &&
+      //       values.includes(Format.ClassicConstructed.toLowerCase())
+      //   )
+      // ) {
+      //   searchResults = searchResults.filter((card) => !card.young);
+      // }
+      // if (
+      //   // If searching for illegal in Blitz or Commoner, don't include adult heroes
+      //   appliedFilters.some(
+      //     ({ excluded, values }) =>
+      //       !excluded &&
+      //       (values.includes(Format.Blitz.toLowerCase()) ||
+      //         values.includes(Format.Commoner.toLowerCase()))
+      //   )
+      // ) {
+      //   searchResults = searchResults.filter((card) => {
+      //     const { types, young } = card;
+      //     const isAdult = types.includes(Type.Hero) && !young;
+      //     return !isAdult;
+      //   });
+      // }
     }
 
     if (keywords.length === 0) {
@@ -252,7 +252,7 @@ export const filterCard = (
 
     const shouldCheckForClash =
       specialConditions.isClash &&
-      ["rarities", "bannedFormats"].includes(property);
+      ["rarities", "bannedFormats", "legalFormats"].includes(property);
     // if (card.cardIdentifier === "command-and-conquer-red") {
     //   console.log(shouldCheckForClash, specialConditions, property);
     // }
@@ -308,58 +308,6 @@ export const filterCard = (
       card.name === "Rosetta Thorn"
     ) {
       doesCardMatchFilter = true;
-    }
-
-    // Brutus
-    const shouldCheckFilterForBrutus =
-      !doesCardMatchFilter && specialConditions.heroes.includes(Hero.Brutus);
-    if (shouldCheckFilterForBrutus) {
-      const isSpecializationCard = card.specializations?.length > 0;
-      const isClashCard = card.keywords?.includes(Keyword.Clash);
-      if (isClashCard && !isSpecializationCard) {
-        doesCardMatchFilter = true;
-      }
-    }
-
-    // Shiyana
-    const shouldCheckFilterForShiyana =
-      !doesCardMatchFilter &&
-      specialConditions.heroes.includes(Hero.Shiyana) &&
-      ["classes"].includes(property);
-    if (shouldCheckFilterForShiyana) {
-      const isSpecialization = card.specializations?.length > 0;
-      const isToken = card.types.includes(Type.Token);
-      const isCrackedBauble = card.cardIdentifier === "cracked-bauble-yellow";
-      const isEphemeral = card.keywords?.includes(Keyword.Ephemeral);
-
-      if (isSpecialization || isToken || isCrackedBauble || isEphemeral) {
-        doesCardMatchFilter = true;
-      }
-    }
-
-    // Taylor
-    const isEquipmentCard = card.types.includes(Type.Equipment);
-    const shouldCheckFilterForTaylor =
-      !doesCardMatchFilter &&
-      specialConditions.heroes.includes(Hero.Taylor) &&
-      isEquipmentCard;
-    if (shouldCheckFilterForTaylor) {
-      if (isEquipmentCard) {
-        doesCardMatchFilter = true;
-      }
-    }
-
-    // Yorick
-    const shouldCheckFilterForYorick =
-      !doesCardMatchFilter &&
-      specialConditions.heroes.includes(Hero.Yorick) &&
-      (["classes"].includes(property) || ["talents"].includes(property));
-    if (shouldCheckFilterForYorick) {
-      const isToken = card.types.includes(Type.Token);
-
-      if (isToken) {
-        doesCardMatchFilter = true;
-      }
     }
 
     if (!doesCardMatchFilter) {
