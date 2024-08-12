@@ -95,6 +95,7 @@ const generateCardTypeScript = (card: Card): String => {
     cardIdentifier: "${card.cardIdentifier}",
     classes: [${getEnumValues(card.classes, "Class", Class)}],
     defaultImage: "${card.defaultImage}",
+    legalFormats: [${getEnumValues(card.legalFormats, "Format", Format)}],
     legalHeroes: [${getEnumValues(card.legalHeroes, "Hero", Hero)}],
     name: "${card.name}",
     printings: [${getPrintings(card.printings)}],

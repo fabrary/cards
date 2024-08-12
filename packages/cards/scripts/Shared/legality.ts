@@ -1,7 +1,9 @@
 import {
   Card,
   Class,
+  Format,
   Hero,
+  Rarity,
   Subtype,
   Talent,
   Type,
@@ -278,6 +280,7 @@ const CARD_TO_LOG = "";
 
 export const getLegalHeroes = (card: {
   classes: Class[];
+  hero?: Hero;
   name: string;
   pitch?: number;
   specializations?: Hero[];
@@ -296,8 +299,9 @@ export const getLegalHeroes = (card: {
         classes.includes(cardClass)
       );
 
-      let matchesPitches = true;
+      const matchesHero = !card.hero || card.hero === hero;
 
+      let matchesPitches = true;
       if (
         excludedPitches &&
         hero === Hero.Emperor &&
@@ -330,6 +334,7 @@ export const getLegalHeroes = (card: {
 
       let matches =
         matchesClass &&
+        matchesHero &&
         matchesPitches &&
         matchesSpecializations &&
         matchesSubtypes &&
@@ -382,5 +387,87 @@ export const getLegalHeroes = (card: {
     console.log(JSON.stringify({ card, legalHeroes }, null, 2));
   }
 
+  legalHeroes.sort();
+
   return legalHeroes;
+};
+
+const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
+  (format) => format !== Format.Open
+);
+
+export const getLegalFormats = (
+  bannedFormats: Format[],
+  card: {
+    blitzLegal: boolean;
+    classicConstructedLegal: boolean;
+    commonerLegal: boolean;
+  },
+  classes: Class[],
+  rarities: Rarity[],
+  subtypes: Subtype[],
+  types: Type[]
+): Format[] => {
+  const legalFormats: Format[] = [Format.Open];
+
+  const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
+
+  const isHero = types.includes(Type.Hero);
+  const isYoung =
+    subtypes.includes(Subtype.Young) || classes.includes(Class.Adjudicator);
+  const isYoungHero = isYoung && isHero;
+
+  for (const format of FORMATS_TO_CHECK) {
+    let isLegalPerFormat = true;
+
+    const isBlitzFormat = [Format.Blitz, Format.BlitzLivingLegend].includes(
+      format
+    );
+    if (isBlitzFormat && !blitzLegal) {
+      isLegalPerFormat = false;
+    }
+
+    const isCCFormat = [
+      Format.ClassicConstructed,
+      Format.ClassicConstructedLivingLegend,
+    ].includes(format);
+    if (isCCFormat && !classicConstructedLegal) {
+      isLegalPerFormat = false;
+    }
+
+    const isCommonerFormat = format === Format.Commoner;
+    if (isCommonerFormat && !commonerLegal) {
+      isLegalPerFormat = false;
+    }
+
+    const isLimitedFormat = [Format.Draft, Format.Sealed].includes(format);
+    if (isLimitedFormat && isHero) {
+      const isToken = rarities.some((rarity) => rarity === Rarity.Token);
+
+      if (!isToken) {
+        isLegalPerFormat = false;
+      }
+    }
+
+    const heroMatchesFormat = isYoungHero
+      ? ![
+          Format.ClassicConstructed,
+          Format.ClassicConstructedLivingLegend,
+        ].includes(format)
+      : [
+          Format.ClassicConstructed,
+          Format.ClassicConstructedLivingLegend,
+        ].includes(format);
+    const isLegalPerHeroAge = !isHero || heroMatchesFormat;
+
+    const isNotBanned = !bannedFormats || !bannedFormats.includes(format);
+
+    if (isLegalPerFormat && isNotBanned && isLegalPerHeroAge) {
+      legalFormats.push(format);
+    }
+  }
+
+  legalFormats.sort();
+
+  return legalFormats;
 };

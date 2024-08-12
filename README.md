@@ -50,8 +50,9 @@ cards.forEach((card) => {
 | cardIdentifier | `string`             | `"snatch-red"`, `"aether-wildfire-red"`    |
 | classes        | `Class` enum array   | `["Generic"]`, `["Warrior","Wizard"]`      |
 | defaultImage   | `string`             | `"1HP001.width-450"`                       |
-| printings      | `Printing` array     | see **`Printing`**                         |
+| legalHeroes    | `Hero` enum array    | `["Arakni"]`,`["Dromai","Fai"]`            |
 | name           | `string`             | `"Rain Razors"`, `"Pummel"`                |
+| printings      | `Printing` array     | see **`Printing`**                         |
 | rarities       | `Rarity` enum array  | `["Super Rare"]`, `["Token", "Majestic"]`  |
 | setIdentifiers | `string` array       | `[ "1HP009", "CRU006" ]`                   |
 | sets           | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`  |

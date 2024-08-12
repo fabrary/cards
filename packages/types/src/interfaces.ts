@@ -3,6 +3,7 @@ export interface Card {
   cardIdentifier: string;
   classes: Class[];
   defaultImage: string;
+  legalFormats: Format[];
   legalHeroes: Hero[];
   name: string;
   printings: Printing[];

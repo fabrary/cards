@@ -36,7 +36,7 @@ import {
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import { getLegalHeroes } from "../Shared/legality";
+import { getLegalFormats, getLegalHeroes } from "../Shared/legality";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -168,18 +168,17 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
 
   const bannedFormats: Format[] = [];
 
-  if (!blitzLegal || blitzLivingLegend || blitzBanned || blitzSuspended) {
+  if (blitzLivingLegend || blitzBanned || blitzSuspended) {
     bannedFormats.push(Format.Blitz);
   }
   if (
-    !classicConstructedLegal ||
     classicConstructedLivingLegend ||
     classicConstructedBanned ||
     classicConstructedSuspended
   ) {
     bannedFormats.push(Format.ClassicConstructed);
   }
-  if (!commonerLegal || commonerBanned || commonerSuspended) {
+  if (commonerBanned || commonerSuspended) {
     bannedFormats.push(Format.Commoner);
   }
   bannedFormats.sort();
@@ -291,9 +290,12 @@ const getCardData = (card: ParsedCard): Card => {
   //   console.error(`No special printing`, card);
   // }
 
+  const bannedFormats = getBannedFormats(card);
   const classes = getClasses(card);
+  const hero = getHero(card) as Hero;
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);
+  const restrictedFormats = getRestrictedFormats(card);
   const specializations = getSpecializations(card);
   const talents = getTalents(card);
 
@@ -302,8 +304,17 @@ const getCardData = (card: ParsedCard): Card => {
     cardIdentifier,
     classes,
     defaultImage: defaultPrinting?.image,
+    legalFormats: getLegalFormats(
+      bannedFormats,
+      card,
+      classes,
+      rarities,
+      subtypes,
+      types
+    ),
     legalHeroes: getLegalHeroes({
       classes,
+      hero,
       name,
       pitch,
       specializations,
@@ -322,20 +333,20 @@ const getCardData = (card: ParsedCard): Card => {
     types,
     typeText: card.typeText,
 
-    bannedFormats: getBannedFormats(card),
+    bannedFormats,
     bonds: getBonds(card),
     cost: getNumberOrUndefined(card.cost),
     defense: getNumberOrUndefined(card.defense) as number,
     flows: getFlows(card),
     functionalText: card.functionalText,
     fusions: getFusions(card),
-    hero: getHero(card) as Hero,
+    hero,
     intellect: getNumberOrUndefined(card.intellect),
     keywords: getKeywords(card),
     life: getNumberOrUndefined(card.life),
     pitch,
     power: getNumberOrUndefined(card.power) as number,
-    restrictedFormats: getRestrictedFormats(card),
+    restrictedFormats,
     specialCost: getStringIfNotNumber(card.cost) as string,
     specialDefense: getStringIfNotNumber(card.defense) as string,
     specialLife: getStringIfNotNumber(card.life) as string,

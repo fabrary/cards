@@ -19,9 +19,9 @@ export interface ParsedCard {
   types: string[];
   typeText: string;
   // Format restrictions
-  blitzLegal: string;
-  classicConstructedLegal: string;
-  commonerLegal: string;
+  blitzLegal: boolean;
+  classicConstructedLegal: boolean;
+  commonerLegal: boolean;
   // Printings
   artists: string[];
   foiling?: string;
@@ -75,6 +75,11 @@ const fieldsWithListValues = [
   "setIdentifiers",
   "types",
 ];
+const fieldsWithStringToBooleanValues = [
+  "blitzLegal",
+  "classicConstructedLegal",
+  "commonerLegal",
+];
 const transform = (value: any, field: string) => {
   if (fieldsWithListValues.includes(field)) {
     value = value
@@ -88,6 +93,9 @@ const transform = (value: any, field: string) => {
           ),
         ]
       : [];
+  }
+  if (fieldsWithStringToBooleanValues.includes(field)) {
+    value = value === "No" ? false : true;
   }
   return value;
 };
