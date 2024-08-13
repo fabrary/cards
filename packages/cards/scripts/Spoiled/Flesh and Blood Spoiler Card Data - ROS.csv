@@ -108,7 +108,9 @@ ROS041,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS042,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS043,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS044,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS045,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS045, LGS323","ROS, LGS",Sigil of Sanctuary,3,0,,,,,"Earth, Instant, Aura",Arcane Shelter 1,,,,,,"**Arcane Shelter 1**
+
+When this leaves the arena, create an Embodiment of Earth token.",Earth Instant - Aura,,,,No,R,,,Saad Irfan,,ROS045,/ROS045.png,,,P,R,AA,Daniel Jiménez,,LGS323,/LGS323.png,,,,,,,,,,,,,,,,,,,,
 ROS046,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS047,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS048,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -226,7 +228,11 @@ ROS157,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS158,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS159,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS160,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS161,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS161, LGS326","ROS, LGS",Sigil of Deadwood,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create a Runechant token.",Runeblade Action - Aura,,,,,C,,,Saad Irfan,,ROS161,/ROS161.png,,,P,R,AA,Daniel Jiménez,,LGS326,/LGS326.png,,,,,,,,,,,,,,,,,,,,
 ROS162,ROS,Runechant,,,,,,,,,,,,,,,,,,,,T,,AA,Jessketchin,,ROS162,/ROS162.png,,,T,,AA,Jessketchin,,ROS162,/ROS162_V2.png,,,,,,,,,,,,,,,,,,,,
 ROS163,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS164,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -291,11 +297,19 @@ ROS219,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS223,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS224,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS225,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS226,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS226, LGS329","ROS, LGS",Sigil of Cycles,3,0,,2,,,"Generic, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this.
+
+When this leaves the arena, discard a card then draw a card.",Generic Action - Aura,,,,No,R,,,Flora Silve,,ROS226,/ROS226.png,,,P,R,AA,Daniel Jiménez,,LGS329,/LGS329.png,,,,,,,,,,,,,,,,,,,,
 ROS227,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS228,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS229,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS230,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS230, LGS330","ROS, LGS",Sigil of Fyendal,3,0,,2,,,"Generic, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this.
+
+When this leaves the arena, gain 1{h}.",Generic Action - Aura,,,,,C,,,Flora Silve,,ROS230,/ROS230.png,,,P,R,AA,Daniel Jiménez,,LGS330,/LGS330.png,,,,,,,,,,,,,,,,,,,,
 ROS231,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS232,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS233,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

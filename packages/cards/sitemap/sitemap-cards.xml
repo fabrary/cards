@@ -11806,6 +11806,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sigil-of-cycles-blue</loc>
+    <lastmod>2024-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sigil-of-deadwood-blue</loc>
+    <lastmod>2024-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sigil-of-fyendal-blue</loc>
+    <lastmod>2024-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/sigil-of-parapets-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -11838,6 +11853,11 @@
   <url>
     <loc>https://fabrary.net/cards/sigil-of-protection-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sigil-of-sanctuary-blue</loc>
+    <lastmod>2024-08-13</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
