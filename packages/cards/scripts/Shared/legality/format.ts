@@ -78,7 +78,11 @@ export const getLegalFormats = (
       const isAllowed =
         isOverrideAllowed ||
         (!isBanned &&
-          (isNotTooRare || isMentor || isSpecialization || isWeapon));
+          (isNotTooRare ||
+            isMentor ||
+            isSpecialization ||
+            isWeapon ||
+            isYoungHero));
       if (!isAllowed) {
         isLegalPerFormat = false;
       }

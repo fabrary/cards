@@ -203,14 +203,6 @@ const getLegalFilters = (values: string[], excluded: boolean) => {
     );
     if (matchingFormat) {
       formats.push(matchingFormat.format);
-      // const metaFilters = matchingFormat.filters;
-      // for (const filter of metaFilters) {
-      //   let newFilter = { ...filter };
-      //   if (excluded && !filter.filterToPropertyMapping.isString) {
-      //     newFilter.excluded = !filter.excluded;
-      //   }
-      //   filters.push(newFilter);
-      // }
     } else {
       const matchingHero = heroMappings.find(({ hero, nicknames }) => {
         const isAMatch =
