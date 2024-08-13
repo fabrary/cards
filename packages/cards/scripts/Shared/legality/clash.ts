@@ -10,17 +10,6 @@ export const clashBannedCards = [
   "Stubby Hammerers",
 ];
 
-// Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
-export const clashLegalOverrideCards = [
-  "Beckoning Mistblade",
-  "Cosmo, Scroll of Ancestral Tapestry",
-  "Fyendal's Fighting Spirit",
-  "Lightning Press",
-  "Runechant",
-  "Tiger Taming Khakkara",
-  "Zen State",
-];
-
 export const clashLegalCards = [];
 
 export const clashSpecializationOverrides: {

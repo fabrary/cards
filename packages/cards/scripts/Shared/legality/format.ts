@@ -7,7 +7,18 @@ import {
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
-import { clashBannedCards, clashLegalOverrideCards } from "./clash";
+import { clashBannedCards } from "./clash";
+
+// Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
+const clashAndLimitedLegalOverrideCards = [
+  "Beckoning Mistblade",
+  "Cosmo, Scroll of Ancestral Tapestry",
+  "Fyendal's Fighting Spirit",
+  "Lightning Press",
+  "Runechant",
+  "Tiger Taming Khakkara",
+  "Zen State",
+];
 
 const commonerBannedCards = [
   "Amulet of Ice",
@@ -64,7 +75,9 @@ export const getLegalFormats = (
 
     const isClashFormat = format === Format.Clash;
     if (isClashFormat) {
-      const isOverrideAllowed = clashLegalOverrideCards.includes(card.name);
+      const isOverrideAllowed = clashAndLimitedLegalOverrideCards.includes(
+        card.name
+      );
       const isBanned =
         commonerBannedCards.includes(card.name) ||
         clashBannedCards.includes(card.name);
@@ -103,8 +116,12 @@ export const getLegalFormats = (
         }
       }
 
+      const isOverrideAllowed = clashAndLimitedLegalOverrideCards.includes(
+        card.name
+      );
+
       const isOnlyPromo = sets.every((release) => release === Release.Promos);
-      if (isOnlyPromo) {
+      if (isOnlyPromo && !isOverrideAllowed) {
         isLegalPerFormat = false;
       }
     }
