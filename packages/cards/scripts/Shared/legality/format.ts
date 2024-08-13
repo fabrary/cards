@@ -7,9 +7,9 @@ import {
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
-import { clashBannedCards } from "./clash";
+import { clashBannedCards, clashLegalOverrideCards } from "./clash";
 
-const bannedInCommoner = [
+const commonerBannedCards = [
   "Amulet of Ice",
   "Ball Lightning",
   "Belittle",
@@ -64,12 +64,21 @@ export const getLegalFormats = (
 
     const isClashFormat = format === Format.Clash;
     if (isClashFormat) {
-      const isBanned = !commonerLegal || clashBannedCards.includes(card.name);
+      const isOverrideAllowed = clashLegalOverrideCards.includes(card.name);
+      const isBanned =
+        commonerBannedCards.includes(card.name) ||
+        clashBannedCards.includes(card.name);
+      const isNotTooRare = rarities.some((rarity) =>
+        [Rarity.Token, Rarity.Common, Rarity.Rare].includes(rarity)
+      );
       const isMentor = types.includes(Type.Mentor);
       const isSpecialization = keywords.includes(Keyword.Specialization);
       const isWeapon = types.includes(Type.Weapon);
 
-      const isAllowed = !isBanned || isMentor || isSpecialization || isWeapon;
+      const isAllowed =
+        isOverrideAllowed ||
+        (!isBanned &&
+          (isNotTooRare || isMentor || isSpecialization || isWeapon));
       if (!isAllowed) {
         isLegalPerFormat = false;
       }

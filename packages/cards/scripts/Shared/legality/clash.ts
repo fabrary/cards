@@ -10,6 +10,9 @@ export const clashBannedCards = [
   "Stubby Hammerers",
 ];
 
+// Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
+export const clashLegalOverrideCards = ["Runechant", "Zen State"];
+
 export const clashLegalCards = [];
 
 export const clashSpecializationOverrides: {
