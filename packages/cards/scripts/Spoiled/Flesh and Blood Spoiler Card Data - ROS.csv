@@ -82,7 +82,7 @@ Deal 5 arcane damage to any target.
 //
 
 Deal 1 arcane damage to any target.",Wizard Action // Lightning Instant,,,,No,R,,,"Simon Dominic, Olga Tereshenko",,ROS024,/ROS024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS025,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS025,ROS,Embodiment of Earth,,,,,,,,,,,,,,,,,,,,T,,,Othon Nikolaidis,,ROS025,/ROS025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS026,ROS,Embodiment of Lightning,,,,,,,,,,,,,,,,,,,,T,,,Nikolay Moskvin,,ROS026,/ROS026.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS027,ROS,Sanctuary of Aria,,,,,,,"Rosetta, Macro",Instant,,,,,,**Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to you this turn by a source of your choice. Destroy this at the beginning of the end phase.,Rosetta Macro,,,,,T,,,Carlos Cruchaga,,ROS027,/ROS027.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS028,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

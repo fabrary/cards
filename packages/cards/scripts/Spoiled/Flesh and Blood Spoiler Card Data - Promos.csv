@@ -10,3 +10,17 @@ If you would be dealt damage, prevent 1 of that damage.",,,,,,P,C,,Jessada Sutth
 FAB261,FAB,Fyendal's Fighting Spirit,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Nathaniel Himawan,,FAB261,/FAB261.png,,,,,,,,,,,,,,,,,
 FAB262,FAB,Lightning Press,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Orson CaptainSass,,FAB262,/FAB262.png,,,,,,,,,,,,,,,,,
 FAB278,FAB,Command and Conquer,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Joseph Qiu,,FAB278,/FAB278.png,,,,,,,,,,,,,,,,,
+LGS324,"LGS, ROS",Sigil of Conductivity,3,0,,2,,,"Lightning, Instant, Aura",Arcane Shelter 1,,,,,,"**Arcane Shelter 1**
+
+When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,No,P,R,AA,Daniel Jiménez,,LGS324,/LGS324.png,,,,,,,,,,,,,,,,,
+LGS325,"LGS, ROS",Sigil of the Arknight,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this.
+
+When this leaves the arena, reveal the top card of your deck. If it's an attack action card, put it into your hand.",Runeblade Action - Aura,,,,No,P,R,AA,Daniel Jiménez,,LGS325,/LGS325.png,,,,,,,,,,,,,,,,,
+LGS327,"LGS, ROS",Sigil of Foresight,3,0,,2,,,"Wizard, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create a Ponder token.",Wizard Instant - Aura,,,,No,P,R,AA,Daniel Jiménez,,LGS327,/LGS327.png,,,,,,,,,,,,,,,,,
+LGS328,"LGS, ROS",Sigil of Temporal Manipulation,3,0,,2,,,"Wizard, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
+
+When this leaves the arena, banish the top card of your deck. If it's a non-attack action card, you may play it this turn as though it were an instant.",Wizard Instant - Aura,,,,No,P,R,AA,Daniel Jiménez,,LGS328,/LGS328.png,,,,,,,,,,,,,,,,,
