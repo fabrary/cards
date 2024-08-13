@@ -9,12 +9,20 @@ const bannedInCommoner = [
 ];
 
 describe("Restrictions seem reasonable", () => {
-  xit.each(cards.map(({ cardIdentifier }) => cardIdentifier))(
+  const isCommoner = (format: Format) => format === Format.Commoner;
+
+  it.each(cards.map(({ cardIdentifier }) => cardIdentifier))(
     "%s restrictions seem reasonable",
     (cardIdentifier) => {
-      const { bannedFormats, hero, name, rarities, rarity, young } = cards.find(
-        (card) => card.cardIdentifier === cardIdentifier
-      ) as Card;
+      const {
+        bannedFormats,
+        hero,
+        legalFormats,
+        name,
+        rarities,
+        rarity,
+        young,
+      } = cards.find((card) => card.cardIdentifier === cardIdentifier) as Card;
 
       const isTokenOrCommon =
         rarities.includes(Rarity.Token) || rarities.includes(Rarity.Common);
@@ -26,24 +34,21 @@ describe("Restrictions seem reasonable", () => {
       const raritySuggestsNoCommoner = isSuperRareOrHigher && !isTokenOrCommon;
 
       const isAdult = !!hero && !young;
-      if (
-        bannedInCommoner.includes(name) ||
-        raritySuggestsNoCommoner ||
-        isAdult
-      ) {
-        const commoner = bannedFormats?.find(
-          (format) => format === Format.Commoner
-        );
-        expect(commoner).toBeTruthy();
+
+      const shouldNotBeLegalInCommoner =
+        isAdult || raritySuggestsNoCommoner || bannedInCommoner.includes(name);
+
+      const isBannedOrNotLegal =
+        bannedFormats?.some(isCommoner) || !legalFormats?.some(isCommoner);
+
+      if (shouldNotBeLegalInCommoner) {
+        expect(isBannedOrNotLegal).toBeTruthy();
       } else {
         if (
           rarities.includes(Rarity.Common) ||
           rarities.includes(Rarity.Token)
         ) {
-          const commoner = bannedFormats?.find(
-            (format) => format === Format.Commoner
-          );
-          expect(commoner).toBeFalsy();
+          expect(isBannedOrNotLegal).toBeFalsy();
         }
       }
     }

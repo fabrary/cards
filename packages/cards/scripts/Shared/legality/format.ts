@@ -9,6 +9,13 @@ import {
 } from "@flesh-and-blood/types";
 import { clashBannedCards } from "./clash";
 
+const bannedInCommoner = [
+  "Amulet of Ice",
+  "Ball Lightning",
+  "Belittle",
+  "Stubby Hammerers",
+];
+
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open
 );
@@ -102,7 +109,28 @@ export const getLegalFormats = (
 
     const isNotBanned = !bannedFormats || !bannedFormats.includes(format);
 
-    if (isLegalPerFormat && isNotBanned && isLegalPerHeroAge) {
+    const shouldAddToFormat =
+      isLegalPerFormat && isNotBanned && isLegalPerHeroAge;
+
+    // if (card.name === "Ser Boltyn, Breaker of Dawn") {
+    //   console.log(
+    //     JSON.stringify(
+    //       {
+    //         heroMatchesFormat,
+    //         isLegalPerHeroAge,
+    //         isLegalPerFormat,
+    //         isNotBanned,
+    //         isHero,
+    //         format,
+    //         shouldAddToFormat,
+    //       },
+    //       null,
+    //       2
+    //     )
+    //   );
+    // }
+
+    if (shouldAddToFormat) {
       legalFormats.push(format);
     }
   }

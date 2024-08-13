@@ -598,15 +598,7 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
   const { rarity } = getParsedRarities(card);
 
   const ILLEGAL_IN_FORMAT_FLAG = "No";
-  if (!blitzLegal) {
-    bannedFormats.push(Format.Blitz);
-  }
-  if (!classicConstructedLegal) {
-    bannedFormats.push(Format.ClassicConstructed);
-  }
-  if (!commonerLegal) {
-    bannedFormats.push(Format.Commoner);
-  }
+
   bannedFormats.sort();
   return bannedFormats;
 };
