@@ -29,34 +29,20 @@ interface FilterToPropertyMapping {
 type Exclusion = "!" | "-";
 type Modifier = ">=" | ">" | "<=" | "<";
 
-const formatFilterMappings: {
-  format: string;
+const nicknameFormatMappings: {
+  format: Format;
   nicknames?: string[];
 }[] = [
   {
-    // filters: legalInBlitz,
-    format: Format.Blitz.toLowerCase().replaceAll(PUNCTUATION, ""),
-  },
-  {
-    // filters: legalInBlitzLivingLegend,
-    format: Format.BlitzLivingLegend.toLowerCase().replaceAll(PUNCTUATION, ""),
+    format: Format.BlitzLivingLegend,
     nicknames: ["blitz ll"],
   },
   {
-    // filters: legalInClash,
-    format: Format.Clash.toLowerCase().replaceAll(PUNCTUATION, ""),
-  },
-  {
-    // filters: legalInClassicConstructed,
-    format: Format.ClassicConstructed.toLowerCase().replaceAll(PUNCTUATION, ""),
+    format: Format.ClassicConstructed,
     nicknames: ["cc", "classic"],
   },
   {
-    // filters: legalInClassicConstructedLivingLegend,
-    format: Format.ClassicConstructedLivingLegend.toLowerCase().replaceAll(
-      PUNCTUATION,
-      ""
-    ),
+    format: Format.ClassicConstructedLivingLegend,
     nicknames: [
       "cc ll",
       "classic constructed ll",
@@ -66,15 +52,22 @@ const formatFilterMappings: {
     ],
   },
   {
-    // filters: legalInCommoner,
-    format: Format.Commoner.toLowerCase().replaceAll(PUNCTUATION, ""),
-  },
-  {
-    // filters: legalInUltimatePitFight,
-    format: Format.UltimatePitFight.toLowerCase().replaceAll(PUNCTUATION, ""),
+    format: Format.UltimatePitFight,
     nicknames: ["upf"],
   },
 ];
+
+const formatMappings: { format: string; nicknames?: string[] }[] =
+  Object.values(Format).map((format) => {
+    const withNicknames = nicknameFormatMappings.find(
+      ({ format: nicknameFormat }) => nicknameFormat === format
+    );
+    const cleanFormat = format.toLowerCase().replaceAll(PUNCTUATION, "");
+
+    return withNicknames
+      ? { ...withNicknames, format: cleanFormat }
+      : { format: cleanFormat };
+  });
 
 const nicknameHeroMappings: { hero: Hero; nicknames: string[] }[] = [
   {
@@ -193,14 +186,12 @@ const getLegalFilters = (values: string[], excluded: boolean) => {
   const heroes: string[] = [];
 
   for (const value of values) {
-    const matchingFormat = formatFilterMappings.find(
-      ({ format, nicknames }) => {
-        const isAMatch =
-          format === value || (!!nicknames && nicknames.includes(value));
+    const matchingFormat = formatMappings.find(({ format, nicknames }) => {
+      const isAMatch =
+        format === value || (!!nicknames && nicknames.includes(value));
 
-        return isAMatch;
-      }
-    );
+      return isAMatch;
+    });
     if (matchingFormat) {
       formats.push(matchingFormat.format);
     } else {

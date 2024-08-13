@@ -339,7 +339,7 @@ describe("Card search", () => {
 
   xit("Specific test", () => {
     const { searchResults, appliedFilters, keywords } = cardSearch.search(
-      randomizeCapitalization("legal:emperor,clash cnc")
+      randomizeCapitalization("s:ros l:draft")
     );
 
     console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
