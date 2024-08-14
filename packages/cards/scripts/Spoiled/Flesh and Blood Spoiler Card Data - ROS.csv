@@ -155,7 +155,9 @@ ROS084,ROS,Lightning Form,3,1,3,2,,,"Lightning, Action, Attack",,,,,,,"When this
 ROS085,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS086,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS087,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS088,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS088, LGS324","ROS, LGS",Sigil of Conductivity,3,0,,,,,"Lightning, Instant, Aura",Arcane Shelter 1,,,,,,"**Arcane Shelter 1**
+
+When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,No,R,,,Simon Wang,,ROS088,/ROS088.png,,,P,R,AA,Daniel Jiménez,,LGS324,/LGS324.png,,,,,,,,,,,,,,,,,,,,
 ROS089,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS090,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS091,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -200,7 +202,11 @@ ROS129,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS130,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS131,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS132,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS133,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS133, LGS325","ROS, LGS",Sigil of the Arknight,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this.
+
+When this leaves the arena, reveal the top card of your deck. If it's an attack action card, put it into your hand.",Runeblade Action - Aura,,,,No,R,,,Flora Silve,,ROS133,/ROS133.png,,,P,R,AA,Daniel Jiménez,,LGS325,/LGS325.png,,,,,,,,,,,,,,,,,,,,
 ROS134,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS135,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS136,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -253,7 +259,9 @@ ROS178,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS179,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS180,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS181,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS182,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS182, LGS328","ROS, LGS",Sigil of Temporal Manipulation,3,0,,,,,"Wizard, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
+
+When this leaves the arena, banish the top card of your deck. If it's a non-attack action card, you may play it this turn as though it were an instant.",Wizard Instant - Aura,,,,No,R,,,Mario Wibisono,,ROS182,/ROS182.png,,,P,R,AA,Daniel Jiménez,,LGS328,/LGS328.png,,,,,,,,,,,,,,,,,,,,
 ROS183,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS184,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS185,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -281,7 +289,9 @@ ROS206,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS207,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS208,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS209,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS210,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS210, LGS327","ROS, LGS",Sigil of Forethought,3,0,,,,,"Wizard, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create a Ponder token.",Wizard Instant - Aura,,,,,C,,,Mario Wibisono,,ROS210,/ROS210.png,,,P,R,AA,Daniel Jiménez,,LGS327,/LGS327.png,,,,,,,,,,,,,,,,,,,,
 ROS211,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS212,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS213,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
