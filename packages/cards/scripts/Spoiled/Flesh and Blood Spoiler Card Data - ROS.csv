@@ -28,8 +28,14 @@ ROS008,ROS,Aurora,,,,,20,4,"Elemental, Runeblade, Hero, Young",Essence of Lightn
 **Essence of Lightning**",Elemental Runeblade Hero - Young,,,No,,T,,,Ramza Ardyputra,,ROS008,/ROS008.png,,,V,C,,Ramza Ardyputra,,ROS008,/ROS008_V2.png,,,V,C,FA,Ramza Ardyputra,,ROS008,/ROS008_BACK_V2.png,,,,,,,,,,,
 ROS009,ROS,Star Fall,,,,,,,,,,,,,,,,,,,,T,,,Ramza Ardyputra,,ROS009,/ROS009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS010,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS011,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS012,ROS,Burn Up // Shock,1,0,,3,,,"Runeblade, Action, Lightning, Instant","Go again, Meld",,,,,,"**Meld**
+"ROS011, LGS346","ROS, LGS",Vaporize // Shock,2,0,,,,,"Runeblade, Instant, Lightning, Instant",Meld,,,,,,"**Meld**
+
+Destroy an aura permanent with cost X or less and/or up to X aura tokens, where X is the total arcane damage you've dealt to opposing heroes this turn.
+
+//
+
+Deal 1 arcane damage to any target.",Runeblade Instant // Lightning Instant,,,,No,M,,,"Faizal Fikri, Olga Tereshenko",,ROS011,/ROS011.png,,,P,C,,"Faizal Fikri, Olga Tereshenko",,LGS346,/LGS346.png,,,,,,,,,,,,,,,,,,,,
+"ROS012, LGS345",ROS,Burn Up // Shock,1,0,,3,,,"Runeblade, Action, Lightning, Instant","Go again, Meld",,,,,,"**Meld**
 
 The next time an attack you control hits a hero this turn, deal 4 arcane damage to them.
 
@@ -37,7 +43,7 @@ The next time an attack you control hits a hero this turn, deal 4 arcane damage 
 
 //
 
-Deal 1 arcane damage to any target.",Runeblade Action // Lightning Instant,,,,No,R,,,"Faizal Fikri, Olga Tereshenko",,ROS012,/ROS012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deal 1 arcane damage to any target.",Runeblade Action // Lightning Instant,,,,No,R,,,"Faizal Fikri, Olga Tereshenko",,ROS012,/ROS012.png,,,P,C,,"Faizal Fikri, Olga Tereshenko",,LGS345,/LGS345.png,,,,,,,,,,,,,,,,,,,,
 ROS013,ROS,"Verdance, Thorn of the Rose",,,,,40,4,"Elemental, Wizard, Hero",Essence of Earth,,,,,,"If there are 8 or more Earth cards in your banished zone, Verdance gets ""Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.""
 
 **Essence of Earth**",Elemental Wizard Hero,,No,,No,M,,,Lius Lasahido,,ROS013,/ROS013.png,,,V,C,,Lius Lasahido,,ROS013,/ROS013_V2.png,,,V,C,FA,Lius Lasahido,,ROS013,/ROS013_BACK_V2.png,,,,,,,,,,,
@@ -157,7 +163,7 @@ ROS086,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS087,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS088, LGS324","ROS, LGS",Sigil of Conductivity,3,0,,,,,"Lightning, Instant, Aura",Arcane Shelter 1,,,,,,"**Arcane Shelter 1**
 
-When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,No,R,,,Simon Wang,,ROS088,/ROS088.png,,,P,R,AA,Daniel Jiménez,,LGS324,/LGS324.png,,,,,,,,,,,,,,,,,,,,
+When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,No,R,,,Simon Wong,,ROS088,/ROS088.png,,,P,R,AA,Daniel Jiménez,,LGS324,/LGS324.png,,,,,,,,,,,,,,,,,,,,
 ROS089,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS090,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS091,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -179,9 +185,9 @@ ROS106,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS107,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS108,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS109,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS110,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS111,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS112,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS110, LGS347","ROS, LGS",Electrostatic Discharge,1,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +3{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,ROS110,/ROS110.png,,,P,R,EA,Alief Rusdiatama,,LGS347,/LGS347.png,,,,,,,,,,,,,,,,,,,,
+"ROS111, LGS348","ROS, LGS",Electrostatic Discharge,2,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +2{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,ROS111,/ROS111.png,,,P,R,EA,Alief Rusdiatama,,LGS348,/LGS348.png,,,,,,,,,,,,,,,,,,,,
+"ROS112, LGS349","ROS, LGS",Electrostatic Discharge,3,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +1{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,ROS112,/ROS112.png,,,P,R,EA,Alief Rusdiatama,,LGS349,/LGS349.png,,,,,,,,,,,,,,,,,,,,
 ROS113,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS114,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS115,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

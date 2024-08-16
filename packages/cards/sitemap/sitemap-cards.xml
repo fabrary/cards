@@ -4101,6 +4101,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/electrostatic-discharge-red</loc>
+    <lastmod>2024-08-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electrostatic-discharge-yellow</loc>
+    <lastmod>2024-08-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electrostatic-discharge-blue</loc>
+    <lastmod>2024-08-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/eloquence</loc>
     <lastmod>2023-05-22</lastmod>
     <priority>0.5</priority>
@@ -14548,6 +14563,11 @@
   <url>
     <loc>https://fabrary.net/cards/vantom-wraith-blue</loc>
     <lastmod>2023-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vaporize--shock-yellow</loc>
+    <lastmod>2024-08-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

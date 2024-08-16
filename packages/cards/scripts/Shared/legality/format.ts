@@ -1,5 +1,6 @@
 import {
   Class,
+  coreSetIdentifiers,
   Format,
   Keyword,
   Rarity,
@@ -26,6 +27,8 @@ const commonerBannedCards = [
   "Belittle",
   "Stubby Hammerers",
 ];
+
+const LIMITED_SETS = Object.values(coreSetIdentifiers);
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open
@@ -124,6 +127,13 @@ export const getLegalFormats = (
       if (isOnlyPromo && !isOverrideAllowed) {
         isLegalPerFormat = false;
       }
+
+      // const isInALimitedSet = sets.some((release) =>
+      //   LIMITED_SETS.includes(release)
+      // );
+      // if (!isInALimitedSet) {
+      //   isLegalPerFormat = false;
+      // }
     }
 
     const heroMatchesFormat = isYoungHero

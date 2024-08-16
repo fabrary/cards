@@ -1,5 +1,116 @@
 import { Release } from "./interfaces";
 
+enum ReleaseType {
+  Core = "Core",
+  Preconstructed = "Preconstructed",
+  Reprint = "Reprint",
+  Supplemental = "Supplumental",
+}
+
+export const coreSetIdentifiers: { [key: string]: Release } = {
+  wtr: Release.WelcomeToRathe,
+  arc: Release.ArcaneRising,
+  mon: Release.Monarch,
+  ele: Release.TalesOfAria,
+  upr: Release.Uprising,
+  out: Release.Outsiders,
+  evo: Release.BrightLights,
+  hvy: Release.HeavyHitters,
+  mst: Release.PartTheMistveil,
+  ros: Release.Rosetta,
+};
+
+export const supplementalSetIdentifiers: { [key: string]: Release } = {
+  cru: Release.CrucibleOfWar,
+  evr: Release.Everfest,
+  "1hp": Release.HistoryPack1,
+  hp1: Release.HistoryPack1,
+  dyn: Release.Dynasty,
+  dtd: Release.DuskTillDawn,
+};
+
+const releases: {
+  release: Release;
+  releaseType: ReleaseType;
+  setIdentifiers: string[];
+}[] = [
+  {
+    release: Release.WelcomeToRathe,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["wtr"],
+  },
+  {
+    release: Release.ArcaneRising,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["arc"],
+  },
+  {
+    release: Release.CrucibleOfWar,
+    releaseType: ReleaseType.Supplemental,
+    setIdentifiers: ["arc"],
+  },
+  {
+    release: Release.Monarch,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["mon"],
+  },
+  {
+    release: Release.TalesOfAria,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["ele"],
+  },
+  {
+    release: Release.Everfest,
+    releaseType: ReleaseType.Supplemental,
+    setIdentifiers: ["evr"],
+  },
+  {
+    release: Release.HistoryPack1,
+    releaseType: ReleaseType.Reprint,
+    setIdentifiers: ["1hp", "hp1"],
+  },
+  {
+    release: Release.Uprising,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["upr"],
+  },
+  {
+    release: Release.Dynasty,
+    releaseType: ReleaseType.Supplemental,
+    setIdentifiers: ["dyn"],
+  },
+  {
+    release: Release.Outsiders,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["out"],
+  },
+  {
+    release: Release.DuskTillDawn,
+    releaseType: ReleaseType.Supplemental,
+    setIdentifiers: ["dtd"],
+  },
+  {
+    release: Release.BrightLights,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["evo"],
+  },
+  {
+    release: Release.HeavyHitters,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["hvy"],
+  },
+  {
+    release: Release.PartTheMistveil,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["mst"],
+  },
+  {
+    release: Release.Rosetta,
+    releaseType: ReleaseType.Core,
+    setIdentifiers: ["ros"],
+  },
+];
+
 export const fullSetIdentifiers: { [key: string]: Release } = {
   wtr: Release.WelcomeToRathe,
   arc: Release.ArcaneRising,
