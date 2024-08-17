@@ -14,7 +14,6 @@ import {
   Treatment,
   Type,
   getCardIdentifier,
-  setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 import {
   addOppositeSideCardIdentifiers,

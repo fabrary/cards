@@ -11821,6 +11821,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sigil-of-brilliance-yellow</loc>
+    <lastmod>2024-08-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/sigil-of-conductivity-blue</loc>
     <lastmod>2024-08-13</lastmod>
     <priority>0.5</priority>
@@ -14408,6 +14413,11 @@
   <url>
     <loc>https://fabrary.net/cards/unravel-aggression-blue</loc>
     <lastmod>2024-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/unsheathed-red</loc>
+    <lastmod>2024-08-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

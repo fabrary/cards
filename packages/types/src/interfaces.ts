@@ -197,7 +197,7 @@ export enum Release {
   // Other decks
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
   IraWelcomeDeck = "Ira Welcome Deck",
-  RoundTheTable = "Round the Table",
+  RoundTheTable = "Round the Table: TCC x LSS",
 
   // One-offs
   Promos = "Promos",

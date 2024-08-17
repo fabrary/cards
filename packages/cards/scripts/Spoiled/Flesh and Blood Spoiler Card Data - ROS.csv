@@ -73,7 +73,11 @@ ROS020,ROS,Oscilio,,,,,18,4,"Elemental, Wizard, Hero, Young",Essence of Lightnin
 ROS021,ROS,"Volzar, the Lightning Rod",,,,,,,"Lightning, Wizard, Weapon, Staff, 2H",,Once per Turn Instant,Amp X,,,,"If you control an aura permanent with Sigil in its name, this costs {r} less to activate.
 
 **Once per Turn Instant** - {r}: **Amp X**, where X is the number of Lightning cards you've played this turn.",Lightning Wizard Weapon - Staff (2H),,,,,T,,,Federico Musetti,,ROS021,/ROS021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS022,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"ROS022, FAB270","ROS, FAB",Sigil of Brilliance,2,0,,,,,"Lightning, Wizard, Instant, Aura",Oscilio Specialization,,,,,,"**Oscilio Specialization**
+
+At the beginning of your action phase, destroy this.
+
+When this leaves the arena, draw a card.",Lightning Wizard Instant - Aura,,,,No,M,,,Simon Wong,,ROS022,/ROS022.png,,,P,R,AA,Daniel Jiménez,,FAB270,/FAB270.png,,,,,,,,,,,,,,,,,,,,
 ROS023,ROS,Null // Shock,2,1,,,,,"Wizard, Instant, Lightning, Instant","Meld, Negate",,,,,,"**Meld**
 
 If target instant card has cost less than the total arcane damage you've dealt to opposing heroes this turn, **negate** it.
@@ -349,7 +353,9 @@ ROS246,ROS,Adaptive Dissolver,,,,,,,"Mechanologist, Equipment, Base","Modular, A
 ROS247,ROS,Plan for the Worst,3,0,,3,,,"Ranger, Action",,,,,,,"Look at target hero's hand and arsenal. At the beginning of their next end phase, they discard all cards in their hand and destroy all cards in their arsenal.
 
 Search your deck for up to 3 traps, reveal them, put them into your hand, then shuffle 2 cards from your hand into your deck.",Ranger Action,,,,No,M,,,Chris Cold,,ROS247,/ROS247.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS248,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS248,ROS,Unsheathed,1,0,,3,,,"Warrior, Action",Go again,,,,,,"Your next sword attack this turn gets +3{p} and ""When this attacks, if its {p} is greater than twice its base, it gets **go again**.""
+
+**Go again**",Warrior Action,,,,No,M,,,soyameii,,ROS248,/ROS248.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS249,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS250,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS251,ROS,Fluttersteps,,,,,,,"Illusionist, Equipment, Legs",Ward 1,,,,,,"When this is destroyed, you may play your next aura this turn as though it were an instant.
