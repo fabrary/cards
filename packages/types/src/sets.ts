@@ -914,7 +914,6 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   bet: Release.BetsyBlitzDeck,
   bol: Release.BoltynBlitzDeck,
   bri: Release.BriarBlitzDeck,
-  bvo: Release.BravoBlitzDeck,
   chn: Release.ChaneBlitzDeck,
   dro: Release.DromaiBlitzDeck,
   eng: Release.EnigmaBlitzDeck,
@@ -947,6 +946,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   tcc: Release.RoundTheTable,
 
   // Hero decks
+  bvo: Release.BravoHeroDeck,
   tea: Release.DorintheaHeroDeck,
   ksu: Release.KatsuHeroDeck,
   rnr2: Release.RhinarHeroDeck,

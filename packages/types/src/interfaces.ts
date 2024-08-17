@@ -165,7 +165,6 @@ export enum Release {
   BetsyBlitzDeck = "Betsy Blitz Deck",
   BoltynBlitzDeck = "Boltyn Blitz Deck",
   BriarBlitzDeck = "Briar Blitz Deck",
-  BravoBlitzDeck = "Bravo Blitz Deck",
   ChaneBlitzDeck = "Chane Blitz Deck",
   DromaiBlitzDeck = "Dromai Blitz Deck",
   EnigmaBlitzDeck = "Enigma Blitz Deck",
@@ -190,6 +189,7 @@ export enum Release {
   FirstStrikeTerra = "1st Strike: Terra",
 
   // Hero decks
+  BravoHeroDeck = "Bravo Hero Deck",
   DorintheaHeroDeck = "Dorinthea Hero Deck",
   KatsuHeroDeck = "Katsu Hero Deck",
   RhinarHeroDeck = "Rhinar Hero Deck",

@@ -1,5 +1,9 @@
 import { Release } from "../src/interfaces";
-import { releases, setToSetIdentifierMappings } from "../src/sets";
+import {
+  releases,
+  setIdentifierToSetMappings,
+  setToSetIdentifierMappings,
+} from "../src/sets";
 
 describe("Check for set identifiers", () => {
   it.each(Object.values(Release))("%s has set identifiers", (release) => {
@@ -11,7 +15,7 @@ describe("Check for set identifiers", () => {
 
 const RELEASES_TO_EXCLUDE = [
   Release.Promos,
-  Release.BravoBlitzDeck,
+  Release.BravoHeroDeck,
   Release.RhinarHeroDeck,
   Release.KatsuHeroDeck,
   Release.DorintheaHeroDeck,
@@ -32,6 +36,9 @@ describe("Completeness of set data", () => {
 
       for (const setIdentifier of releaseInfo.setIdentifiers) {
         expect(setIdentifier).toHaveLength(3);
+
+        const matchingFromExisting = setIdentifierToSetMappings[setIdentifier];
+        expect(matchingFromExisting).toEqual(release);
       }
     }
   });

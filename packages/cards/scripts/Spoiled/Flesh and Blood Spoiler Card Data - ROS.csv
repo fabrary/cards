@@ -344,7 +344,7 @@ ROS241,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS242,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS243,ROS,Splatter Skull,1,2,6,3,,,"Brute, Action, Attack",,,,,,,"When this hits a hero, choose a face-down card in their banished zone that was banished by **intimidate** this turn. Put it into their graveyard.",Brute Action - Attack,,,,No,M,,,Arif Wijaya,,ROS243,/ROS243.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS244,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS245,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS245,ROS,Gustwave of the Second Wind,1,0,4,3,,,"Ninja, Action, Attack",Combo,,,,,,"**Combo** - If Surging Strike was the last attack this combat chain, this gets **go again**.",Ninja Action - Attack,,,,No,M,,,Edward Chee,,ROS245,/ROS245.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS246,ROS,Adaptive Dissolver,,,,,,,"Mechanologist, Equipment, Base","Modular, Arcane Barrier 1",Action,,,,,"**Modular**
 
 **Action** - 0: Equip this to another equipment zone.
