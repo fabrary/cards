@@ -1,4 +1,10 @@
-import { Card, Rarity } from "@flesh-and-blood/types";
+import {
+  Card,
+  Format,
+  Rarity,
+  releases,
+  ReleaseType,
+} from "@flesh-and-blood/types";
 import { writeFiles } from "./writer";
 import { spoiledCards } from "./Spoiled";
 import { releasedCards } from "./Released";
@@ -67,4 +73,26 @@ releasedCards.forEach((card) => {
   }
 });
 
-writeFiles(deduplicatedCards, outputDirectory);
+const releasesForLimitedFormat = releases
+  .filter(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
+  .map(({ release }) => release);
+
+const cardsWithLegalFormats = deduplicatedCards.map((card) => {
+  const legalFormats = card.legalFormats.filter((format) => {
+    let isConfirmedLegal = true;
+
+    const isLimited = [Format.Draft, Format.Sealed].includes(format);
+    if (isLimited) {
+      const cardIsInAtLeastOneLimitedSet = card.sets.some((release) =>
+        releasesForLimitedFormat.includes(release)
+      );
+      isConfirmedLegal = cardIsInAtLeastOneLimitedSet;
+    }
+
+    return isConfirmedLegal;
+  });
+
+  return { ...card, legalFormats };
+});
+
+writeFiles(cardsWithLegalFormats, outputDirectory);
