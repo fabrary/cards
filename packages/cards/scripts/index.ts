@@ -73,9 +73,9 @@ releasedCards.forEach((card) => {
   }
 });
 
-const releasesForLimitedFormat = releases
-  .filter(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
-  .map(({ release }) => release);
+const releasesForLimitedFormat = releases.filter(
+  ({ releaseType }) => releaseType === ReleaseType.StandaloneBooster
+);
 
 const cardsWithLegalFormats = deduplicatedCards.map((card) => {
   const legalFormats = card.legalFormats.filter((format) => {
@@ -83,10 +83,50 @@ const cardsWithLegalFormats = deduplicatedCards.map((card) => {
 
     const isLimited = [Format.Draft, Format.Sealed].includes(format);
     if (isLimited) {
-      const cardIsInAtLeastOneLimitedSet = card.sets.some((release) =>
-        releasesForLimitedFormat.includes(release)
+      const coreSetsCardIsIn = releasesForLimitedFormat.filter(({ release }) =>
+        card.sets.includes(release)
       );
-      isConfirmedLegal = cardIsInAtLeastOneLimitedSet;
+
+      isConfirmedLegal = coreSetsCardIsIn.length > 0;
+      if (isConfirmedLegal) {
+        const rarityRestrictionsFromSets = coreSetsCardIsIn.map(
+          ({ raritiesExcludedInLimited }) => raritiesExcludedInLimited
+        );
+
+        if (rarityRestrictionsFromSets.length > 0) {
+          let rarityRestrictionsAreEqual = true;
+          const firstRarityRestrictions = rarityRestrictionsFromSets[0]
+            ?.sort()
+            .join() as string;
+          for (const rarityRestrictions of rarityRestrictionsFromSets) {
+            if (rarityRestrictions) {
+              const matches =
+                firstRarityRestrictions === rarityRestrictions.sort().join();
+              if (!matches) {
+                rarityRestrictionsAreEqual = false;
+                break;
+              }
+            } else {
+              rarityRestrictionsAreEqual = false;
+              break;
+            }
+          }
+
+          if (rarityRestrictionsAreEqual) {
+            // check that matches rarity restrictions
+            const cardViolatesRarityRestrictions = card.rarities
+              .filter(
+                (rarity) => ![Rarity.Promo, Rarity.Marvel].includes(rarity)
+              )
+              .every((rarity) =>
+                rarityRestrictionsFromSets[0]?.includes(rarity)
+              );
+            if (cardViolatesRarityRestrictions) {
+              isConfirmedLegal = false;
+            }
+          }
+        }
+      }
     }
 
     return isConfirmedLegal;
