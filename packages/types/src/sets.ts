@@ -87,7 +87,7 @@ export const promoSetIdentifiers = [
   "win",
 ];
 
-export const releases: {
+export interface ReleaseInfo {
   cards: number;
   classes: Class[];
   format?: Format;
@@ -99,7 +99,9 @@ export const releases: {
   releaseType: ReleaseType;
   setIdentifiers: string[];
   talents: Talent[];
-}[] = [
+}
+
+export const releases: ReleaseInfo[] = [
   {
     cards: 30,
     classes: [Class.Ninja],
