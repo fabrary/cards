@@ -389,6 +389,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     treatment4,
     tcgplayerProductId4,
     tcgplayerUrl4,
+    artists5,
+    foiling5,
+    identifier5,
+    imageUrl5,
+    rarity5,
+    treatment5,
+    tcgplayerProductId5,
+    tcgplayerUrl5,
   } = card;
 
   const printing1 = getPrinting(card, {
@@ -525,6 +533,32 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         : {}),
     });
     printings.push(printing4);
+  }
+
+  if (rarity5 && artists5) {
+    const identifierFor5 = identifier5
+      ? identifier5
+      : identifiers.length > 4
+      ? identifiers[4]
+      : identifiers[0];
+    const setIdentifier = identifierFor5.slice(0, 3);
+    const printing5 = getPrinting(card, {
+      artists: artists5,
+      foilingString: foiling5,
+      identifier: identifierFor5,
+      imageUrl: imageUrl5,
+      setString: setIdentifier,
+      treatmentString: treatment5,
+      ...(tcgplayerProductId5 && tcgplayerUrl5
+        ? {
+            tcgplayer: {
+              productId: tcgplayerProductId5,
+              url: tcgplayerUrl5,
+            },
+          }
+        : {}),
+    });
+    printings.push(printing5);
   }
 
   printings.sort(sortPrintingsByReleaseOrder);

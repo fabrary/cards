@@ -14,6 +14,7 @@ const identifierExtensionMapping: { [key: string]: string } = {
 const suffixOverrides: { [key: string]: string } = {
   MST158_V3: "-V3",
   ROS162_V2: "-V2",
+  ROS008_BACK_V3: "-V3",
 };
 
 export const getPrint = (printing: {
@@ -106,6 +107,7 @@ export const getSpecialPrinting = (
     let alternateText: Printing | undefined;
     let coldExtendedArt: Printing | undefined;
     let coldFullArt: Printing | undefined;
+    let coldFullArt2: Printing | undefined;
     let extendedArt: Printing | undefined;
     let fullArt: Printing | undefined;
     let nonFoilExtendedArt: Printing | undefined;
@@ -155,8 +157,11 @@ export const getSpecialPrinting = (
           fullArt = printing;
           if (foiling === Foiling.C) {
             coldFullArt = printing;
+            if (image.includes("_V3")) {
+              coldFullArt2 = printing;
+              break;
+            }
           }
-          break;
         }
 
         if (image && image.includes("_V2")) {
@@ -185,6 +190,7 @@ export const getSpecialPrinting = (
     }
 
     return (
+      coldFullArt2 ||
       coldFullArt ||
       fullArt ||
       coldExtendedArt ||
