@@ -880,6 +880,22 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["ros"],
     talents: [Talent.Elemental, Talent.Earth, Talent.Lightning],
   },
+  {
+    cards: 66,
+    classes: [Class.Mechanologist],
+    heroes: [Hero.Dash],
+    languages: [
+      Language.English,
+      Language.French,
+      Language.Italian,
+      Language.Japanese,
+    ],
+    release: Release.ArmoryDeckDash,
+    releaseDate: new Date(),
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["aio"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -908,6 +924,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ako: Release.ArmoryDeckKayo,
   asb: Release.ArmoryDeckBoltyn,
   aaz: Release.ArmoryDeckAzalea,
+  aio: Release.ArmoryDeckDash,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

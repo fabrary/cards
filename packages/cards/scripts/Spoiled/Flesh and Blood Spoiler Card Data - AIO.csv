@@ -1,0 +1,39 @@
+Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artists,Flavor Text,Identifier,Image URL,Rarity 2,Foiling 2,Art Variation 2,Artists 2,Flavor Text 2,Identifier 2,Image URL 2,Rarity 3,Foiling 3,Art Variation 3,Artists 3,Flavor Text 3,Image URL 3
+AIO001,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO001,/AIO001.png,,,,,,,,,,,,,
+AIO002,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO002,/AIO002.png,,,,,,,,,,,,,
+AIO003,AIO,Heavy Industry Surveillance,,,,1,,,"Mechanologist, Equipment, Head",Temper,,,,,,"When this defends, you may banish the top card of your deck. If it's a Mechanologist card, this gets +1{d} until end of turn.
+
+**Temper**",Mechanologist Equipment - Head,,,,No,M,,,Simon Dominic,,AIO003,/AIO003.png,,,,,,,,,,,,,
+AIO004,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO004,/AIO004.png,,,,,,,,,,,,,
+AIO005,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO005,/AIO005.png,,,,,,,,,,,,,
+AIO006,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO006,/AIO006.png,,,,,,,,,,,,,
+AIO007,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO007,/AIO007.png,,,,,,,,,,,,,
+AIO008,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO008,/AIO008.png,,,,,,,,,,,,,
+AIO009,AIO,Fast and Furious,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,,"**Boost**
+
+If you've **cranked** this turn, this gets +1{p}.
+
+When this is banished from **boosting**, put a steam counter on an item you control with **crank**.",Mechanologist Action - Attack,,,,No,M,,,Sam Yang,,AIO009,/AIO009.png,,,,,,,,,,,,,
+AIO010,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO010,/AIO010.png,,,,,,,,,,,,,
+AIO011,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO011,/AIO011.png,,,,,,,,,,,,,
+AIO012,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO012,/AIO012.png,,,,,,,,,,,,,
+AIO013,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO013,/AIO013.png,,,,,,,,,,,,,
+AIO014,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO014,/AIO014.png,,,,,,,,,,,,,
+AIO015,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO015,/AIO015.png,,,,,,,,,,,,,
+AIO016,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO016,/AIO016.png,,,,,,,,,,,,,
+AIO017,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO017,/AIO017.png,,,,,,,,,,,,,
+AIO018,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO018,/AIO018.png,,,,,,,,,,,,,
+AIO019,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO019,/AIO019.png,,,,,,,,,,,,,
+AIO020,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO020,/AIO020.png,,,,,,,,,,,,,
+AIO021,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO021,/AIO021.png,,,,,,,,,,,,,
+AIO022,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO022,/AIO022.png,,,,,,,,,,,,,
+AIO023,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO023,/AIO023.png,,,,,,,,,,,,,
+AIO024,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO024,/AIO024.png,,,,,,,,,,,,,
+AIO025,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO025,/AIO025.png,,,,,,,,,,,,,
+AIO026,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO026,/AIO026.png,,,,,,,,,,,,,
+AIO027,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO027,/AIO027.png,,,,,,,,,,,,,
+AIO028,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO028,/AIO028.png,,,,,,,,,,,,,
+AIO029,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO029,/AIO029.png,,,,,,,,,,,,,
+AIO030,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO030,/AIO030.png,,,,,,,,,,,,,
+AIO031,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO031,/AIO031.png,,,,,,,,,,,,,
+AIO032,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO032,/AIO032.png,,,,,,,,,,,,,
