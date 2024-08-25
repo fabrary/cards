@@ -891,7 +891,7 @@ export const releases: ReleaseInfo[] = [
       Language.Japanese,
     ],
     release: Release.ArmoryDeckDash,
-    releaseDate: new Date(),
+    releaseDate: new Date("2024-10-18T00:00:00.000Z"),
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["aio"],
     talents: [],
