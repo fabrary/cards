@@ -4676,6 +4676,8 @@ OSCCardDB = {
   ["ROS037"] = { name = "Earth Form (2)", text = "When this hits, create an Embodiment of Earth token.", keywords = "", types = "Action"},
   ["ROS038"] = { name = "Earth Form (3)", text = "When this hits, create an Embodiment of Earth token.", keywords = "", types = "Action"},
   ["ROS045"] = { name = "Sigil of Sanctuary (3)", text = "**Arcane Shelter 1**\n\nWhen this leaves the arena, create an Embodiment of Earth token.", keywords = "Arcane Shelter", types = "Instant"},
+  ["ROS055"] = { name = "Fruits of the Forest (1)", text = "**Instant** - Discard this: Gain 2{h}", keywords = "", types = "Action"},
+  ["ROS056"] = { name = "Fruits of the Forest (2)", text = "**Instant** - Discard this: Gain 2{h}", keywords = "", types = "Action"},
   ["ROS057"] = { name = "Fruits of the Forest (3)", text = "**Instant** - Discard this: Gain 2{h}", keywords = "", types = "Action"},
   ["ROS077"] = { name = "Channel Lightning Valley (2)", text = "The first time you deal damage to an opposing hero each turn, draw a card.\n\n**Channel Lightning** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.", keywords = "Channel", types = "Instant"},
   ["ROS082"] = { name = "Lightning Form (1)", text = "When this hits, create an Embodiment of Lightning token.", keywords = "", types = "Action"},
