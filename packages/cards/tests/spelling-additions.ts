@@ -52,6 +52,7 @@ export const fabDictionary = [
   "bloodrush",
   "bloodsheath",
   "bloodspill",
+  "bloodtorn",
   "bolters",
   "boltn",
   "boltyn",
