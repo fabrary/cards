@@ -259,6 +259,7 @@ export const fabDictionary = [
   "rockslide",
   "rok",
   "ronin",
+  "rootbound",
   "rotwood",
   "rudis",
   "rukutan",
