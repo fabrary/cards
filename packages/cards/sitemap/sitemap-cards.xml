@@ -2876,6 +2876,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/condemn-to-slaughter-red</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/condemn-to-slaughter-yellow</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/condemn-to-slaughter-blue</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/conduit-of-frostburn</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -10966,6 +10981,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/rotwood-reaper</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/rouse-the-ancients-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -11608,6 +11628,11 @@
   <url>
     <loc>https://fabrary.net/cards/seeds-of-strength-blue</loc>
     <lastmod>2024-08-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/seeds-of-tomorrow-blue</loc>
+    <lastmod>2024-08-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -13033,6 +13058,21 @@
   <url>
     <loc>https://fabrary.net/cards/splatter-skull-red</loc>
     <lastmod>2024-08-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/splintering-deadwood-red</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/splintering-deadwood-yellow</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/splintering-deadwood-blue</loc>
+    <lastmod>2024-08-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
