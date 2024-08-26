@@ -180,12 +180,12 @@ ROS097,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS098,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS099,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS100,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS101,ROS,Second Strike,1,0,3,2,,,"Lightning, Action, Attack",,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS101,/ROS101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS102,ROS,Second Strike,2,0,2,2,,,"Lightning, Action, Attack",,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS102,/ROS102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS103,ROS,Second Strike,3,0,1,2,,,"Lightning, Action, Attack",,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS103,/ROS103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS104,ROS,Trip the Light Fantastic,1,1,5,2,,,"Lightning, Action, Attack",,,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS104,/ROS104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS105,ROS,Trip the Light Fantastic,2,1,4,2,,,"Lightning, Action, Attack",,,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS105,/ROS105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS106,ROS,Trip the Light Fantastic,3,1,3,2,,,"Lightning, Action, Attack",,,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS106,/ROS106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS101,ROS,Second Strike,1,0,3,2,,,"Lightning, Action, Attack",Go again,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS101,/ROS101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS102,ROS,Second Strike,2,0,2,2,,,"Lightning, Action, Attack",Go again,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS102,/ROS102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS103,ROS,Second Strike,3,0,1,2,,,"Lightning, Action, Attack",Go again,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS103,/ROS103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS104,ROS,Trip the Light Fantastic,1,1,5,2,,,"Lightning, Action, Attack",,Instant,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS104,/ROS104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS105,ROS,Trip the Light Fantastic,2,1,4,2,,,"Lightning, Action, Attack",,Instant,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS105,/ROS105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS106,ROS,Trip the Light Fantastic,3,1,3,2,,,"Lightning, Action, Attack",,Instant,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS106,/ROS106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS107,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS108,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS109,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -194,9 +194,9 @@ ROS109,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS112, LGS349","ROS, LGS",Electrostatic Discharge,3,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +1{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,,ROS112,/ROS112.png,,,P,R,EA,Alief Rusdiatama,,LGS349,/LGS349.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS113,ROS,Sigil of Lightning,3,0,,,,,"Lightning, Instant",,,,,,,"At the beginning of your action phase, destroy this.
 
-When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,,C,,,Simon Wang,,,ROS113,/ROS113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,,C,,,Simon Wong,,,ROS113,/ROS113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS114,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS115,ROS,Bloodtorn Bodice,,,,0,,,"Runeblade, Equipment, Chest",Go again,,,,,,**Action** - Destroy this and an aura you control: Gain {r}. **Go again**,Runeblade Equipment - Chest,,,,,C,,,Michal Makowski,,,ROS115,/ROS115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS115,ROS,Bloodtorn Bodice,,,,0,,,"Runeblade, Equipment, Chest",,Action,Go again,,,,**Action** - Destroy this and an aura you control: Gain {r}. **Go again**,Runeblade Equipment - Chest,,,,,C,,,Michal Makowski,,,ROS115,/ROS115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS116,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS117,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS118,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -213,17 +213,17 @@ ROS128,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS129,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS130,ROS,Malefic Incantation,1,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
 
-This enteres the arena with 3 verse counters. When it has none, destroy it.
+This enters the arena with 3 verse counters. When it has none, destroy it.
 
 Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS130,/ROS130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS131,ROS,Malefic Incantation,2,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
 
-This enteres the arena with 2 verse counters. When it has none, destroy it.
+This enters the arena with 2 verse counters. When it has none, destroy it.
 
 Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS131,/ROS131.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS132,ROS,Malefic Incantation,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
 
-This enteres the arena with 1 verse counters. When it has none, destroy it.
+This enters the arena with 1 verse counters. When it has none, destroy it.
 
 Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS132,/ROS132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS133, LGS325","ROS, LGS",Sigil of the Arknight,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
@@ -249,9 +249,21 @@ ROS148,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS149,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS150,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS151,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS152,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS153,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS154,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS152,ROS,Arcane Cussing,1,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+When you deal or are dealt damage, destroy this.
+
+When this leaves the arena during your turn, create 3 Runechant tokens.",Runeblade Action - Aura,,,,,C,,,Marco González,,,ROS152,/ROS152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS153,ROS,Arcane Cussing,2,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+When you deal or are dealt damage, destroy this.
+
+When this leaves the arena during your turn, create 2 Runechant tokens.",Runeblade Action - Aura,,,,,C,,,Marco González,,,ROS153,/ROS153.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS154,ROS,Arcane Cussing,3,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+When you deal or are dealt damage, destroy this.
+
+When this leaves the arena during your turn, create a Runechant token.",Runeblade Action - Aura,,,,,C,,,Marco González,,,ROS154,/ROS154.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS155,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS156,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS157,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
