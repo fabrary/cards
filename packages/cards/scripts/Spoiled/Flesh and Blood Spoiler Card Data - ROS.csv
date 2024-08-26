@@ -376,7 +376,13 @@ ROS251,ROS,Fluttersteps,,,,,,,"Illusionist, Equipment, Legs",Ward 1,,,,,,"When t
 
 **Ward 1**",Illusionist Equipment - Legs,,,,No,M,,,Thomas Ressuge,Yes,,ROS251,/ROS251.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS252,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS253,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS253,ROS,Regrowth // Shock,3,0,,3,,,"Earth, Runeblade, Action, Lightning, Instant","Meld, Go again",,,,,,"**Meld**
+
+Return an attack action card with cost less than X from your graveyard to your hand, where X is the total arcane damage you've dealt to opposing heroes this turn. **Go again**
+
+//
+
+Deal 1 arcane damage to any target.",Earth Runeblade Action // Lightning Instant,,,,No,M,,,"Orson CaptainSass, Olga Tereshenko",,,ROS253,/ROS253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS254,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS255,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS256,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
