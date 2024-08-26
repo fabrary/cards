@@ -237,18 +237,18 @@ ROS136,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS137,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS138,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS139,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS140,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS141,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS142,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS140,ROS,Hit the High Notes,1,1,4,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets +2{p}.",Runeblade Action - Attack,,,,,C,,,Pabel Rtishchev (Klaher),,,ROS140,/ROS140.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS141,ROS,Hit the High Notes,2,1,3,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets +2{p}.",Runeblade Action - Attack,,,,,C,,,Pabel Rtishchev (Klaher),,,ROS141,/ROS141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS142,ROS,Hit the High Notes,3,1,2,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets +2{p}.",Runeblade Action - Attack,,,,,C,,,Pabel Rtishchev (Klaher),,,ROS142,/ROS142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS143,ROS,Hocus Pocus,1,0,3,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks, create a Runechant token.",Runeblade Action - Attack,,,,,C,,,Mateusz Wiśniewski,,,ROS143,/ROS143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS144,ROS,Hocus Pocus,2,0,2,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks, create a Runechant token.",Runeblade Action - Attack,,,,,C,,,Mateusz Wiśniewski,,,ROS144,/ROS144.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS145,ROS,Hocus Pocus,3,0,1,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks, create a Runechant token.",Runeblade Action - Attack,,,,,C,,,Mateusz Wiśniewski,,,ROS145,/ROS145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS146,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS147,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS148,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS149,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS150,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS151,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS149,ROS,Runerager Swarm,1,0,3,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets **go again**.",Runeblade Action - Attack,,,,,C,,,Sandeep Karunakaran,,,ROS149,/ROS149.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS150,ROS,Runerager Swarm,2,0,2,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets **go again**.",Runeblade Action - Attack,,,,,C,,,Sandeep Karunakaran,,,ROS150,/ROS150.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS151,ROS,Runerager Swarm,3,0,1,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets **go again**.",Runeblade Action - Attack,,,,,C,,,Sandeep Karunakaran,,,ROS151,/ROS151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS152,ROS,Arcane Cussing,1,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
 
 When you deal or are dealt damage, destroy this.
@@ -264,9 +264,15 @@ ROS154,ROS,Arcane Cussing,3,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go
 When you deal or are dealt damage, destroy this.
 
 When this leaves the arena during your turn, create a Runechant token.",Runeblade Action - Aura,,,,,C,,,Marco González,,,ROS154,/ROS154.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS155,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS156,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS157,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS155,ROS,Deadwood Dirge,1,0,,2,,,"Runeblade, Action",Go again,,,,,,"Destroy an aura you control. If you do, create 3 Runechant tokens.
+
+**Go again**",Runeblade Action,,,,,C,,,Rio Sabda,,,ROS155,/ROS155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS156,ROS,Deadwood Dirge,2,0,,2,,,"Runeblade, Action",Go again,,,,,,"Destroy an aura you control. If you do, create 2 Runechant tokens.
+
+**Go again**",Runeblade Action,,,,,C,,,Rio Sabda,,,ROS156,/ROS156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS157,ROS,Deadwood Dirge,3,0,,2,,,"Runeblade, Action",Go again,,,,,,"Destroy an aura you control. If you do, create a Runechant token.
+
+**Go again**",Runeblade Action,,,,,C,,,Rio Sabda,,,ROS157,/ROS157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS158,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS159,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS160,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
