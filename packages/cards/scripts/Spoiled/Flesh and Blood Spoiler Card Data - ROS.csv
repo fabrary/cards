@@ -192,7 +192,9 @@ ROS109,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS110, LGS347","ROS, LGS",Electrostatic Discharge,1,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +3{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,,ROS110,/ROS110.png,,,P,R,EA,Alief Rusdiatama,,LGS347,/LGS347.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS111, LGS348","ROS, LGS",Electrostatic Discharge,2,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +2{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,,ROS111,/ROS111.png,,,P,R,EA,Alief Rusdiatama,,LGS348,/LGS348.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS112, LGS349","ROS, LGS",Electrostatic Discharge,3,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +1{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,,ROS112,/ROS112.png,,,P,R,EA,Alief Rusdiatama,,LGS349,/LGS349.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS113,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS113,ROS,Sigil of Lightning,3,0,,,,,"Lightning, Instant",,,,,,,"At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,,C,,,Simon Wang,,,ROS113,/ROS113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS114,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS115,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS116,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -209,9 +211,21 @@ ROS126,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS127,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS128,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS129,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS130,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS131,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS132,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS130,ROS,Malefic Incantation,1,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+This enteres the arena with 3 verse counters. When it has none, destroy it.
+
+Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS130,/ROS130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS131,ROS,Malefic Incantation,2,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+This enteres the arena with 2 verse counters. When it has none, destroy it.
+
+Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS131,/ROS131.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS132,ROS,Malefic Incantation,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
+
+This enteres the arena with 1 verse counters. When it has none, destroy it.
+
+Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS132,/ROS132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS133, LGS325","ROS, LGS",Sigil of the Arknight,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
 
 At the beginning of your action phase, destroy this.

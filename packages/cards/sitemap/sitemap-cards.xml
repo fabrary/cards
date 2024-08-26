@@ -7861,6 +7861,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/malefic-incantation-red</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/malefic-incantation-yellow</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/malefic-incantation-blue</loc>
+    <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/malign-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -11878,6 +11893,11 @@
   <url>
     <loc>https://fabrary.net/cards/sigil-of-fyendal-blue</loc>
     <lastmod>2024-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sigil-of-lightning-blue</loc>
+    <lastmod>2024-08-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

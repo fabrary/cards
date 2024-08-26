@@ -18,7 +18,7 @@ describe("Related cards", () => {
     ["Muscle Mutt", 0, 0, 0],
     ["Open the Center", 2, 4, 3],
     ["Prismatic Shield", 2, 0, 1],
-    ["Runechant", 0, 91, 0],
+    ["Runechant", 0, 94, 0],
     ["Spectral Shield", 0, 53, 0],
     ["Tales of Adventure", 0, 0, 13],
     ["Seismic Surge", 0, 19, 0],
