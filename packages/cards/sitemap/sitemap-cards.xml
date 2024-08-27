@@ -476,6 +476,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/arcane-seeds--life-red</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/arcanic-crackle-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6336,6 +6341,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/helm-of-lignum-vitae</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/helm-of-sharp-eye</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -11146,6 +11156,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/runehold-release</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/runerager-swarm-red</loc>
     <lastmod>2024-08-26</lastmod>
     <priority>0.5</priority>
@@ -13516,6 +13531,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/strong-yield-red</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/strong-yield-yellow</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/strong-yield-blue</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/stubby-hammerers</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -14823,6 +14853,21 @@
   <url>
     <loc>https://fabrary.net/cards/vambrace-of-determination</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vantage-point-red</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vantage-point-yellow</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vantage-point-blue</loc>
+    <lastmod>2024-08-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

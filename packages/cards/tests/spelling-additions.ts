@@ -266,6 +266,7 @@ export const fabDictionary = [
   "rukutan",
   "runeblood",
   "runechant",
+  "runehold",
   "runerager",
   "ruudi",
   "sandikai",
