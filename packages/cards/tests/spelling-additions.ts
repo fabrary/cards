@@ -13,6 +13,7 @@ export const fabDictionary = [
   "10000",
   "aeo",
   "aesir",
+  "aetherbloom",
   "aetherize",
   "aethertide",
   "aethervein",

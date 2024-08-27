@@ -374,9 +374,15 @@ ROS199,ROS,Overflow the Aetherwell,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 
 ROS200,ROS,Overflow the Aetherwell,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
 
 **Surge** - If this deals more than 1 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wang,,,ROS200,/ROS200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS201,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS202,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS203,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS201,ROS,Perennial Aetherbloom,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
+
+**Surge** - If this deals more than 3 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS201,/ROS201.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS202,ROS,Perennial Aetherbloom,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to target hero.
+
+**Surge** - If this deals more than 2 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS202,/ROS202.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS203,ROS,Perennial Aetherbloom,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
+
+**Surge** - If this deals more than 1 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS203,/ROS203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS204,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS205,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS206,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
