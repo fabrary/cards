@@ -17,6 +17,7 @@ export const fabDictionary = [
   "aethertide",
   "aethervein",
   "aetherweave",
+  "aetherwell",
   "aetherwind",
   "aetherwinds",
   "alehorn",

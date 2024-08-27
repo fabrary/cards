@@ -365,9 +365,15 @@ ROS194,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS195,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS196,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS197,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS198,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS199,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS200,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS198,ROS,Overflow the Aetherwell,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
+
+**Surge** - If this deals more than 3 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wang,,,ROS198,/ROS198.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS199,ROS,Overflow the Aetherwell,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to target hero.
+
+**Surge** - If this deals more than 2 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wang,,,ROS199,/ROS199.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS200,ROS,Overflow the Aetherwell,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
+
+**Surge** - If this deals more than 1 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wang,,,ROS200,/ROS200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS201,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS202,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS203,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
