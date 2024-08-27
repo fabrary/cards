@@ -124,6 +124,7 @@ export const fabDictionary = [
   "flamewave",
   "flashfreeze",
   "flic",
+  "flittering",
   "floof",
   "fluttersteps",
   "frightmare",

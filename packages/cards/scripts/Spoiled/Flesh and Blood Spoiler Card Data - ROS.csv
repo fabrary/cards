@@ -151,7 +151,9 @@ ROS068,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS069,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS070,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS071,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS072,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS072,ROS,Flash of Brilliance,,,,1,,,"Lightning, Equipment, Head",Blade Break,,,,,,"When this defends, you may discard a Lightning card. If you do, return an aura you control to its owner's hand.
+
+**Blade Break**",Lightning Equipment - Head,,,,,C,,,Lizhe Liang,,,ROS072,/ROS072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS073,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS074,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS075,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -172,9 +174,9 @@ ROS087,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS088, LGS324","ROS, LGS",Sigil of Conductivity,3,0,,,,,"Lightning, Instant, Aura",Arcane Shelter 1,,,,,,"**Arcane Shelter 1**
 
 When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,No,R,,,Simon Wong,,,ROS088,/ROS088.png,,,P,R,AA,Daniel Jiménez,,LGS324,/LGS324.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS089,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS090,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS091,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS089,ROS,Flittering Charge,1,0,4,2,,,"Lightning, Action, Attack",,,,,,,"If you've played an instant card this chain link, this gets **go again**.",Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS089,/ROS089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS090,ROS,Flittering Charge,2,0,3,2,,,"Lightning, Action, Attack",,,,,,,"If you've played an instant card this chain link, this gets **go again**.",Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS090,/ROS090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS091,ROS,Flittering Charge,3,0,2,2,,,"Lightning, Action, Attack",,,,,,,"If you've played an instant card this chain link, this gets **go again**.",Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS091,/ROS091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS092,ROS,Fry,1,,,,,,,,,,,,,,,,,,,C,,,Edward Chee,,,ROS092,/ROS092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS093,ROS,Fry,2,,,,,,,,,,,,,,,,,,,C,,,Edward Chee,,,ROS093,/ROS093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS094,ROS,Fry,3,0,1,0,,,"Lightning, Action, Attack",Go again,,,,,,**Go again**,Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS094,/ROS094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

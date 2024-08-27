@@ -5181,6 +5181,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/flash-of-brilliance</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/flash-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -5303,6 +5308,21 @@
   <url>
     <loc>https://fabrary.net/cards/flight-path</loc>
     <lastmod>2024-06-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flittering-charge-red</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flittering-charge-yellow</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flittering-charge-blue</loc>
+    <lastmod>2024-08-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
