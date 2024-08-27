@@ -1711,6 +1711,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/blossoming-decay-red</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/blossoming-decay-yellow</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/blossoming-decay-blue</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/blossoming-spellblade-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6116,6 +6131,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/harvest-season-red</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/harvest-season-yellow</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/harvest-season-blue</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hatchet-of-body</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6598,6 +6628,11 @@
   <url>
     <loc>https://fabrary.net/cards/hold-em-blue</loc>
     <lastmod>2024-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hold-focus</loc>
+    <lastmod>2024-08-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9463,6 +9498,21 @@
   <url>
     <loc>https://fabrary.net/cards/ponder</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pop-the-bubble-red</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pop-the-bubble-yellow</loc>
+    <lastmod>2024-08-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pop-the-bubble-blue</loc>
+    <lastmod>2024-08-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

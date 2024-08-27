@@ -138,9 +138,9 @@ When this leaves the arena, create an Embodiment of Earth token.",Earth Instant 
 ROS046,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS047,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS048,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS049,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS050,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS051,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS049,ROS,Blossoming Decay,1,2,5,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, gain 1{h}.",Earth Action - Attack,,,,,C,,,Othon Nikolaidis,,,ROS049,/ROS049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS050,ROS,Blossoming Decay,2,2,4,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, gain 1{h}.",Earth Action - Attack,,,,,C,,,Othon Nikolaidis,,,ROS050,/ROS050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS051,ROS,Blossoming Decay,3,2,3,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, gain 1{h}.",Earth Action - Attack,,,,,C,,,Othon Nikolaidis,,,ROS051,/ROS051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS052,ROS,Cadaverous Tilling,1,3,6,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}.",Earth Action - Attack,,,,,C,,,Mark Poole,,,ROS052,/ROS052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS053,ROS,Cadaverous Tilling,2,3,5,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}.",Earth Action - Attack,,,,,C,,,Mark Poole,,,ROS053,/ROS053.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS054,ROS,Cadaverous Tilling,3,3,4,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}.",Earth Action - Attack,,,,,C,,,Mark Poole,,,ROS054,/ROS054.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -150,9 +150,15 @@ ROS057,ROS,Fruits of the Forest,3,3,5,2,,,"Earth, Action, Attack",,,,,,,**Instan
 ROS058,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS059,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS060,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS061,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS062,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS063,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS061,ROS,Harvest Season,1,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this, then gain 3{h}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS061,/ROS061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS062,ROS,Harvest Season,2,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this, then gain 2{h}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS062,/ROS062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS063,ROS,Harvest Season,3,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this, then gain 1{h}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS063,/ROS063.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS064,ROS,Strong Yield,1,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
 
 At the beginning of your action phase, destroy this, then your next attack this turn gets +3{p}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS064,/ROS064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -318,7 +324,7 @@ When this leaves the arena, create a Runechant token.",Runeblade Action - Aura,,
 ROS162,ROS,Runechant,,,,,,,,,,,,,,,,,,,,T,,AA,Jessketchin,,,ROS162,/ROS162.png,,,T,,AA,Jessketchin,,ROS162,/ROS162_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS163,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS164,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS165,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS165,ROS,Hold Focus,,,,0,,,"Wizard, Equipment, Arms","Amp 1, Go again",,,,,,**Action** - Destroy this: **Amp 1**. **Go again**,Wizard Equipment - Arms,,,,,C,,,Kyxarie Peralta,,,ROS165,/ROS165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS166,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS167,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS168,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -329,9 +335,15 @@ ROS172,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS173,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS174,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS175,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS176,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS177,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS178,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS176,ROS,Pop the Bubble,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to any target.
+
+**Surge** - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",Wizard Action,,,,No,R,,,Faizal Fikri,,,ROS176,/ROS176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS177,ROS,Pop the Bubble,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to any target.
+
+**Surge** - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",Wizard Action,,,,No,R,,,Faizal Fikri,,,ROS177,/ROS177.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS178,ROS,Pop the Bubble,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to any target.
+
+**Surge** - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",Wizard Action,,,,No,R,,,Faizal Fikri,,,ROS178,/ROS178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS179,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS180,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS181,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
