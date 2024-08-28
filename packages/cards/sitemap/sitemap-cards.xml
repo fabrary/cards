@@ -481,6 +481,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/arcane-twining-red</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/arcane-twining-yellow</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/arcane-twining-blue</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/arcanic-crackle-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -2128,6 +2143,11 @@
   <url>
     <loc>https://fabrary.net/cards/brothers-in-arms-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bruised-leather</loc>
+    <lastmod>2024-08-28</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -13326,6 +13346,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/staff-of-verdant-shoots</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/stalagmite-bastion-of-isenloft</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -13643,6 +13668,21 @@
   <url>
     <loc>https://fabrary.net/cards/succumb-to-winter-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/summers-fall-red</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/summers-fall-yellow</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/summers-fall-blue</loc>
+    <lastmod>2024-08-28</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
