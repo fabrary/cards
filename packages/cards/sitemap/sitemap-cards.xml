@@ -9391,6 +9391,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/photon-splicing-red</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/photon-splicing-yellow</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/photon-splicing-blue</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/pick-a-card-any-card-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>

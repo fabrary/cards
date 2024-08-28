@@ -421,9 +421,15 @@ ROS202,ROS,Perennial Aetherbloom,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 ar
 ROS203,ROS,Perennial Aetherbloom,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
 
 **Surge** - If this deals more than 1 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS203,/ROS203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS204,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS205,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS206,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS204,ROS,Photon Splicing,1,1,,3,,,"Wizard, Action",Amp 1,,,,,,"Deal 4 arcane damage to any target.
+
+**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Septimius Ferdian,,,ROS204,/ROS204.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS205,ROS,Photon Splicing,2,1,,3,,,"Wizard, Action",Amp 1,,,,,,"Deal 3 arcane damage to any target.
+
+**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Septimius Ferdian,,,ROS205,/ROS205.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS206,ROS,Photon Splicing,3,1,,3,,,"Wizard, Action",Amp 1,,,,,,"Deal 2 arcane damage to any target.
+
+**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Septimius Ferdian,,,ROS206,/ROS206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS207,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS208,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS209,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
