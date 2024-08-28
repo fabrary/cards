@@ -184,7 +184,7 @@ ROS071,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS072,ROS,Flash of Brilliance,,,,1,,,"Lightning, Equipment, Head",Blade Break,,,,,,"When this defends, you may discard a Lightning card. If you do, return an aura you control to its owner's hand.
 
 **Blade Break**",Lightning Equipment - Head,,,,,C,,,Lizhe Liang,,,ROS072,/ROS072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS073,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS073,ROS,Twinkle Toes,,,,0,,,"Lightning, Equipment, Legs",,,,,,,**Instant** - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if you've played an instant card this turn.,Lightning Equipment - Legs,,,,,C,,,Brian Madya Narendra,,,ROS073,/ROS073.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS074,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS075,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS076,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -343,9 +343,15 @@ ROS166,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS167,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS168,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS169,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS170,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS171,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS172,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS170,ROS,Chorus of the Amphitheater,1,2,,2,,,"Wizard, Action",,,,,,,"Deal 4 arcane damage to any target.
+
+**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.",Wizard Action,,,,No,R,,,Marco González,,,ROS170,/ROS170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS171,ROS,Chorus of the Amphitheater,2,2,,2,,,"Wizard, Action",,,,,,,"Deal 3 arcane damage to any target.
+
+**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.",Wizard Action,,,,No,R,,,Marco González,,,ROS171,/ROS171.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS172,ROS,Chorus of the Amphitheater,3,2,,2,,,"Wizard, Action",,,,,,,"Deal 2 arcane damage to any target.
+
+**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.",Wizard Action,,,,No,R,,,Marco González,,,ROS172,/ROS172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS173,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS174,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS175,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -385,21 +391,27 @@ ROS190,ROS,Etchings of Arcana,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcan
 ROS191,ROS,Etchings of Arcana,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
 
 **Surge** - If this deals more than 1 damage, you may return an aura with Sigil in its name from your graveyard to your hand.",Wizard Action,,,,,C,,,Rio Sabda,,,ROS191,/ROS191.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS192,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS193,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS194,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS192,ROS,Exploding Aether,1,2,,2,,,"Wizard, Action","Amp 3, Go again",,,,,,"**Amp 3**
+
+**Go again**",Wizard Action,,,,,C,,,Jefrey Yonathan,,,ROS192,/ROS192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS193,ROS,Exploding Aether,2,2,,2,,,"Wizard, Action","Amp 2, Go again",,,,,,"**Amp 2**
+
+**Go again**",Wizard Action,,,,,C,,,Jefrey Yonathan,,,ROS193,/ROS193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS194,ROS,Exploding Aether,3,2,,2,,,"Wizard, Action","Amp 1, Go again",,,,,,"**Amp 1**
+
+**Go again**",Wizard Action,,,,,C,,,Jefrey Yonathan,,,ROS194,/ROS194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS195,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS196,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS197,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS198,ROS,Overflow the Aetherwell,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
 
-**Surge** - If this deals more than 3 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wang,,,ROS198,/ROS198.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Surge** - If this deals more than 3 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wong,,,ROS198,/ROS198.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS199,ROS,Overflow the Aetherwell,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to target hero.
 
-**Surge** - If this deals more than 2 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wang,,,ROS199,/ROS199.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Surge** - If this deals more than 2 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wong,,,ROS199,/ROS199.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS200,ROS,Overflow the Aetherwell,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
 
-**Surge** - If this deals more than 1 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wang,,,ROS200,/ROS200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Surge** - If this deals more than 1 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wong,,,ROS200,/ROS200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS201,ROS,Perennial Aetherbloom,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
 
 **Surge** - If this deals more than 3 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS201,/ROS201.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

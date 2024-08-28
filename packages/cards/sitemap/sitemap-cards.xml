@@ -2561,6 +2561,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/chorus-of-the-amphitheater-red</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/chorus-of-the-amphitheater-yellow</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/chorus-of-the-amphitheater-blue</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cindering-foresight-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -4868,6 +4883,21 @@
   <url>
     <loc>https://fabrary.net/cards/expendable-limbs-blue</loc>
     <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/exploding-aether-red</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/exploding-aether-yellow</loc>
+    <lastmod>2024-08-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/exploding-aether-blue</loc>
+    <lastmod>2024-08-28</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -14803,6 +14833,11 @@
   <url>
     <loc>https://fabrary.net/cards/twin-twisters-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/twinkle-toes</loc>
+    <lastmod>2024-08-28</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

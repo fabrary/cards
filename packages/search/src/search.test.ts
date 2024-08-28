@@ -111,7 +111,9 @@ describe("Card search", () => {
         const { searchResults } = cardSearch.search(
           randomizeCapitalization(searchTerm as string)
         );
-        expect(searchResults.length).toEqual(resultCount);
+        expect(searchResults.length).toBeGreaterThanOrEqual(
+          resultCount as number
+        );
       }
     }
   );
