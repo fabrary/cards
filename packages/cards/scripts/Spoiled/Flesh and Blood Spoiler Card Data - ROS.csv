@@ -436,9 +436,15 @@ ROS205,ROS,Photon Splicing,2,1,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 3 a
 ROS206,ROS,Photon Splicing,3,1,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 2 arcane damage to any target.
 
 **Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Septimius Ferdian,,,ROS206,/ROS206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS207,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS208,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS209,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS207,ROS,Trailblazing Aether,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
+
+**Surge** - If this deals more than 3 damage, it gets **go again**.",Wizard Action,,,,,C,,,Pascal Quidault,,,ROS207,/ROS207.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS208,ROS,Trailblazing Aether,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to target hero.
+
+**Surge** - If this deals more than 2 damage, it gets **go again**.",Wizard Action,,,,,C,,,Pascal Quidault,,,ROS208,/ROS208.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS209,ROS,Trailblazing Aether,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
+
+**Surge** - If this deals more than 1 damage, it gets **go again**.",Wizard Action,,,,,C,,,Pascal Quidault,,,ROS209,/ROS209.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ROS210, LGS327","ROS, LGS",Sigil of Forethought,3,0,,,,,"Wizard, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
 
 When this leaves the arena, create a Ponder token.",Wizard Instant - Aura,,,,,C,,,Mario Wibisono,,,ROS210,/ROS210.png,,,P,R,AA,Daniel Jiménez,,LGS327,/LGS327.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
