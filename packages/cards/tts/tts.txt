@@ -4782,6 +4782,7 @@ OSCCardDB = {
   ["ROS160"] = { name = "Oath of the Arknight (3)", text = "Your next Runeblade attack this turn gains +1{p}.\n\nCreate a Runechant token.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["ROS161"] = { name = "Sigil of Deadwood (3)", text = "**Go again**\n\nAt the beginning of your action phase, destroy this.\n\nWhen this leaves the arena, create a Runechant token.", keywords = "Go again", types = "Action"},
   ["ROS162"] = { name = "Runechant", text = "When you play an attack action card or activate a weapon attack, destroy Runechant and deal 1 arcane damage to target opposing hero.", keywords = "", types = "Token"},
+  ["ROS164"] = { name = "Ink-lined Cloak", text = "**Instant** - Destroy this: Gain {r}. Activate this only if you control an aura permanent with Sigil in its name.", keywords = "", types = "Equipment"},
   ["ROS165"] = { name = "Hold Focus", text = "**Action** - Destroy this: **Amp 1**. **Go again**", keywords = "Amp,Go again", types = "Equipment"},
   ["ROS170"] = { name = "Chorus of the Amphitheater (1)", text = "Deal 4 arcane damage to any target.\n\n**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.", keywords = "", types = "Action"},
   ["ROS171"] = { name = "Chorus of the Amphitheater (2)", text = "Deal 3 arcane damage to any target.\n\n**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.", keywords = "", types = "Action"},
