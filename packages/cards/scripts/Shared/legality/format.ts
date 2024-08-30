@@ -8,7 +8,7 @@ import {
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
-import { clashBannedCards } from "./clash";
+import { clashBannedCards, clashLegalOverrideCards } from "./clash";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
 const clashAndLimitedLegalOverrideCards = [
@@ -78,9 +78,9 @@ export const getLegalFormats = (
 
     const isClashFormat = format === Format.Clash;
     if (isClashFormat) {
-      const isOverrideAllowed = clashAndLimitedLegalOverrideCards.includes(
-        card.name
-      );
+      const isOverrideAllowed =
+        clashAndLimitedLegalOverrideCards.includes(card.name) ||
+        clashLegalOverrideCards.includes(card.name);
       const isBanned =
         commonerBannedCards.includes(card.name) ||
         clashBannedCards.includes(card.name);

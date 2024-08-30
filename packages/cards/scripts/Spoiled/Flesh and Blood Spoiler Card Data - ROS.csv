@@ -179,7 +179,11 @@ If there are 4 or more Earth cards in your banished zone, instead gain 4{h}.",Ea
 ROS069,ROS,Fertile Ground,3,2,,,,,"Earth, Instant",,,,,,,"Gain 2{h}
 
 If there are 4 or more Earth cards in your banished zone, instead gain 3{h}.",Earth Instant,,,,,C,,,Marco Gonzalez,,,ROS069,/ROS069.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS070,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS070,ROS,Sigil of Earth,3,0,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
+
+At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create an Embodiment of Earth token.",Earth Action - Aura,,,,,C,,,Saad Irfan,,,ROS070,/ROS070.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS071,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS072,ROS,Flash of Brilliance,,,,1,,,"Lightning, Equipment, Head",Blade Break,,,,,,"When this defends, you may discard a Lightning card. If you do, return an aura you control to its owner's hand.
 
@@ -337,7 +341,7 @@ At the beginning of your action phase, destroy this.
 When this leaves the arena, create a Runechant token.",Runeblade Action - Aura,,,,,C,,,Saad Irfan,,,ROS161,/ROS161.png,,,P,R,AA,Daniel Jiménez,,LGS326,/LGS326.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS162,ROS,Runechant,,,,,,,,,,,,,,,,,,,,T,,AA,Jessketchin,,,ROS162,/ROS162.png,,,T,,AA,Jessketchin,,ROS162,/ROS162_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS163,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS164,ROS,Ink-lined Cloak,,,,0,,,"Wizard, Equipment, Chest",,,,,,,**Instant** - Destroy this: Gain {r}. Activate this only if you control an aura permanent with Sigil in its name.,Wizard Equipment - Chest,,,,,C,,,Arghawana Rim,,,ROS164,/ROS164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS164,ROS,Ink-lined Cloak,,,,0,,,"Wizard, Equipment, Chest",,Instant,,,,,**Instant** - Destroy this: Gain {r}. Activate this only if you control an aura permanent with Sigil in its name.,Wizard Equipment - Chest,,,,,C,,,Arghawana Rim,,,ROS164,/ROS164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS165,ROS,Hold Focus,,,,0,,,"Wizard, Equipment, Arms",,Action,"Amp 1, Go again",,,,**Action** - Destroy this: **Amp 1**. **Go again**,Wizard Equipment - Arms,,,,,C,,,Kyxarie Peralta,,,ROS165,/ROS165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS166,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS167,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
