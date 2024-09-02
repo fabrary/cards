@@ -48,6 +48,9 @@ const getClasses = (card: ParsedCard): Class[] => {
   if (classes.length === 0 && getTalents(card)?.length) {
     classes.push(Class.NotClassed);
   }
+  if (classes.length === 0 && card.types.includes("Macro")) {
+    classes.push(Class.NotClassed);
+  }
   if (classes.length === 0) {
     classes.push(Class.Generic);
   }
@@ -92,9 +95,19 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const edition = setEditionMapping[rawEdition];
 
     const treatment = Treatment[artVariation];
-    const image = !!imageUrl
+
+    let imageUrlClean = imageUrl
       ? imageUrl
-          .substring(imageUrl.lastIndexOf("/") + 1, imageUrl.lastIndexOf("."))
+          .replace("-RF.webp", ".webp")
+          .replace("-CF.webp", ".webp")
+          .replace(".original.webp", ".webp")
+      : "";
+    const image = !!imageUrlClean
+      ? imageUrlClean
+          .substring(
+            imageUrlClean.lastIndexOf("/") + 1,
+            imageUrlClean.lastIndexOf(".")
+          )
           .replace(".format-webp", "")
       : "";
 
@@ -112,7 +125,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     if (!isPrintExcluded) {
       images.push({
-        artists: [artist],
+        artists: artist.split(" // "),
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
         identifier,
@@ -259,12 +272,17 @@ const getCardData = (card: ParsedCard): Card => {
   const { subtypes, types } = getTypeAndSubType(card);
   const printings = getPrintings(card);
 
-  const artists = card.artists.sort().map((artist) => {
-    const matchingOverride = overrides.find(
-      ({ original }) => artist === original
-    );
-    return matchingOverride ? matchingOverride.override.trim() : artist.trim();
-  });
+  const artists = card.artists
+    .sort()
+    .flatMap((artist) => {
+      const matchingOverride = overrides.find(
+        ({ original }) => artist === original
+      );
+      return matchingOverride
+        ? matchingOverride.override.trim().split(" // ")
+        : artist.trim().split(" // ");
+    })
+    .sort();
 
   const setIdentifiers = [...card.setIdentifiers];
   setIdentifiers.sort();

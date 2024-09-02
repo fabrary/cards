@@ -3,19 +3,19 @@ AIO001,AIO,Dash I/O,,,,,,,"Mechanologist, Hero",,,,,,,,,,No,,No,M,,,Sam Yang,,AI
 AIO002,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO002,/AIO002.png,,,,,,,,,,,,,
 AIO003,AIO,Heavy Industry Surveillance,,,,1,,,"Mechanologist, Equipment, Head",Temper,,,,,,"When this defends, you may banish the top card of your deck. If it's a Mechanologist card, this gets +1{d} until end of turn.
 
-**Temper**",Mechanologist Equipment - Head,,,,No,M,,,Simon Dominic,,AIO003,/AIO003.png,,,,,,,,,,,,,
+**Temper**",Mechanologist Equipment - Head,,,,No,M,R,,Simon Dominic,,AIO003,/AIO003.png,,,,,,,,,,,,,
 AIO004,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO004,/AIO004.png,,,,,,,,,,,,,
 AIO005,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO005,/AIO005.png,,,,,,,,,,,,,
-AIO006,AIO,Heavy Industry Gear Shift,,,,1,,,"Mechanologist, Equipment, Legs",Battleworn,,,,,,"**Action** - Destroy this: Banish the top 2 cards of your deck. Gain 1 action point for each Mechanologist card banished this way.
+AIO006,AIO,Heavy Industry Gear Shift,,,,1,,,"Mechanologist, Equipment, Legs",Battleworn,Action,,,,,"**Action** - Destroy this: Banish the top 2 cards of your deck. Gain 1 action point for each Mechanologist card banished this way.
 
-**Battleworn**",Mechanologist Equipment - Legs,,,,No,M,,,Simon Dominic,,AIO006,/AIO006.png,,,,,,,,,,,,,
+**Battleworn**",Mechanologist Equipment - Legs,,,,No,M,R,,Simon Dominic,,AIO006,/AIO006.png,,,,,,,,,,,,,
 AIO007,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO007,/AIO007.png,,,,,,,,,,,,,
 AIO008,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO008,/AIO008.png,,,,,,,,,,,,,
 AIO009,AIO,Fast and Furious,1,0,3,3,,,"Mechanologist, Action, Attack",Boost,,,,,"Crank, Boost","**Boost**
 
 If you've **cranked** this turn, this gets +1{p}.
 
-When this is banished from **boosting**, put a steam counter on an item you control with **crank**.",Mechanologist Action - Attack,,,,No,M,,,Sam Yang,,AIO009,/AIO009.png,,,,,,,,,,,,,
+When this is banished from **boosting**, put a steam counter on an item you control with **crank**.",Mechanologist Action - Attack,,,,No,M,R,,Sam Yang,,AIO009,/AIO009.png,M,,,Sam Yang,,AIO009,/AIO009.png,,,,,,
 AIO010,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO010,/AIO010.png,,,,,,,,,,,,,
 AIO011,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO011,/AIO011.png,,,,,,,,,,,,,
 AIO012,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO012,/AIO012.png,,,,,,,,,,,,,
@@ -32,7 +32,7 @@ AIO022,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO022,/AIO022.png,,,,,,,,,,,,,
 AIO023,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO023,/AIO023.png,,,,,,,,,,,,,
 AIO024,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO024,/AIO024.png,,,,,,,,,,,,,
 AIO025,AIO,,,,,,,,,,,,,,,,,,,,,,,,,,AIO025,/AIO025.png,,,,,,,,,,,,,
-AIO026,AIO,Cerebellum Processor,3,0,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+AIO026,AIO,Cerebellum Processor,3,0,,,,,"Mechanologist, Action, Item",Crank,Once per Turn Action,,,,,"**Crank**
 
 This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
 

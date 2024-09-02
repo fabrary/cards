@@ -2,16 +2,6 @@ Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Type
 AAZ001,AAZ,"Azalea, Ace in the Hole",,,,,,,Hero,,,,,,,,,,,,No,R,,,Maxim Kostin,,AAZ001,/AAZ001.png,,,,,,,,,,,,,
 AAZ002,AAZ,Death Dealer,,,,,,,,,,,,,,,,,,,,C,,,Maxim Kostin,,AAZ002,/AAZ002.png,,,,,,,,,,,,,
 AAZ003,AAZ,Crow's Nest,,,,,,,,,,,,,,,,,,,,C,,,Carlos Cruchaga,,AAZ003,/AAZ003.png,,,,,,,,,,,,,
-AAZ004,AAZ,Target Totalizer,,,,,,,"Ranger, Equipment, Head",,Action,Go again,,,,"**Action** - Destroy this: Whenever an arrow with an aim counter hits this turn, draw a card. **Go again**",Ranger Equipment - Head,,,,No,M,,,Mateus Manhanini,,AAZ004,/AAZ004.png,,,,,,,,,,,,,
-AAZ005,AAZ,Hidden Agenda,,,,,,,"Ranger, Equipment, Chest",Arcane Barrier 1,,,,,,"**Instant** - Turn a face-down arrow in your arsenal face-up: Gain {r}. At the beginning of the end phase, destroy this.
-
-**Arcane Barrier 1**",Ranger Equipment - Chest,,,,No,M,,,Mario Wibisono,,AAZ005,/AAZ005.png,,,,,,,,,,,,,
-AAZ006,AAZ,Sharp Shooters,,,,1,,,"Ranger, Equipment, Arms","Go again, Battleworn",,,,,,"**Action** - Destroy this: Put an arrow from your hand face-up into your arsenal with an aim counter. **Go again**
-
-**Battleworn**",Ranger Equipment - Arms,,,,No,M,,,Carlos Cruchaga,,AAZ006,/AAZ006.png,,,,,,,,,,,,,
-AAZ007,AAZ,Flight Path,,,,1,,,"Ranger, Equipment, Legs","Attack Reaction, Go again, Battleworn",,,,,,"**Attack Reaction** - Destroy this: Target arrow attack with an aim counter gets **go again**.
-
-**Battleworn**",Ranger Equipment - Legs,,,,No,M,,,Nikko Wahyudi,,AAZ007,/AAZ007.png,,,,,,,,,,,,,
 AAZ008,AAZ,Barbed Undertow,1,,,,,,,,,,,,,,,,,,No,M,,,Junaidi Lim,,AAZ008,/AAZ008.png,,,,,,,,,,,,,
 AAZ009,AAZ,Bolt'n' Shot,1,,,,,,,,,,,,,,,,,,No,R,,,Cristián Huerta,,AAZ009,/AAZ009.png,,,,,,,,,,,,,
 AAZ010,AAZ,Drill Shot,1,,,,,,,,,,,,,,,,,,No,R,,,Maria Mishina,,AAZ010,/AAZ010.png,,,,,,,,,,,,,
@@ -20,7 +10,6 @@ AAZ012,AAZ,Ravenous Rabble,1,,,,,,,,,,,,,,,,,,,C,,,Maxim Kostin,,AAZ012,/AAZ012.
 AAZ013,AAZ,Red in the Ledger,1,,,,,,,,,,,,,,,,,,No,M,,,Yolanda Felicia,,AAZ013,/AAZ013.png,,,,,,,,,,,,,
 AAZ014,AAZ,Sedation Shot,1,,,,,,,,,,,,,,,,,,,C,,,Elena Bakulina,,AAZ014,/AAZ014.png,,,,,,,,,,,,,
 AAZ015,AAZ,Sleep Dart,1,,,,,,,,,,,,,,,,,,,C,,,Marco González,,AAZ015,/AAZ015.png,,,,,,,,,,,,,
-AAZ016,AAZ,Stone Rain,1,0,4,3,,,"Ranger, Action, Arrow, Attack",Dominate,,,,,,"If this has an aim counter, it gets **dominate** and ""When this hits a hero, they banish face-down a card from their hand. At the beginning of their next end phase, they return it to their hand.""",Ranger Action - Arrow Attack,,,,No,M,,,Mateusz Wiśniewski,,AAZ016,/AAZ016.png,,,,,,,,,,,,,
 AAZ017,AAZ,Lace with Bloodrot,1,,,,,,,,,,,,,,,,,,No,R,,,Phu Thieu,,AAZ017,/AAZ017.png,,,,,,,,,,,,,
 AAZ018,AAZ,Lace with Frailty,1,,,,,,,,,,,,,,,,,,No,R,,,Marco González,,AAZ018,/AAZ018.png,,,,,,,,,,,,,
 AAZ019,AAZ,Lace with Inertia,1,,,,,,,,,,,,,,,,,,No,R,,,Shen Fei,,AAZ019,/AAZ019.png,,,,,,,,,,,,,
@@ -28,11 +17,6 @@ AAZ020,AAZ,Point the Tip,1,,,,,,,,,,,,,,,,,,,C,,,Nikolay Moskvin,,AAZ020,/AAZ020
 AAZ021,AAZ,Read the Glide Path,1,,,,,,,,,,,,,,,,,,,C,,,Patchanee Treedet,,AAZ021,/AAZ021.png,,,,,,,,,,,,,
 AAZ022,AAZ,Scout the Periphery,1,,,,,,,,,,,,,,,,,,,C,,,Raphael Pinna,,AAZ022,/AAZ022.png,,,,,,,,,,,,,
 AAZ023,AAZ,Spire Sniping,2,,,,,,,,,,,,,,,,,,,C,,,Muhammad Fajri,,AAZ023,/AAZ023.png,,,,,,,,,,,,,
-AAZ024,AAZ,Line It Up,2,1,,3,,,"Ranger, Action",Go again,,,,,,"Your next arrow attack this turn gets +3{p}.
-
-You may turn a face-down arrow in your arsenal face-up. If you do, put an aim counter on it.
-
-**Go again**",Ranger Action,,,,No,M,S,,Sebastian Giacobino,,AAZ024,/AAZ024.png,,,,,,,,,,,,,
 AAZ025,AAZ,Read the Glide Path,2,,,,,,,,,,,,,,,,,,,C,,,Patchanee Treedet,,AAZ025,/AAZ025.png,,,,,,,,,,,,,
 AAZ026,AAZ,Memorial Ground,2,,,,,,,,,,,,,,,,,,,C,,,Dmitry Isakevitch,,AAZ026,/AAZ026.png,,,,,,,,,,,,,
 AAZ027,AAZ,Infecting Shot,3,,,,,,,,,,,,,,,,,,,C,,,Kalashnikova N.,,AAZ027,/AAZ027.png,,,,,,,,,,,,,

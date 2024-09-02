@@ -1,524 +1,67 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artists 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variation 3,Artists 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variation 4,Artists 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4,Rarity 5,Foiling 5,Art Variation 5,Artists 5,Flavor Text 5,Identifier 5,Image URL 5,TCGPlayer Product Id 5,TCGPlayer Url 5
 ROS000,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS001,ROS,"Florian, Rotwood Harbinger",,,,,40,4,"Elemental, Runeblade, Hero",Essence of Earth,,,,,,"If there are 8 or more Earth cards in your banished zone, Florian gets ""If you would create 1 or more aura tokens, instead create that many plus 1 of each of those tokens.""
-
-**Essence of Earth**",Elemental Runeblade Hero,,No,,No,M,,,Jessada Sutthi,,,ROS001,/ROS001.png,,,V,C,,Jessada Sutthi,,ROS001,/ROS001-MV.png,,,V,C,FA,Jessada Sutthi,,ROS001,/ROS001-MV_BACK.png,,,,,,,,,,,,,,,,,,,,
-ROS002,ROS,Florian,,,,,20,4,"Elemental, Runeblade, Hero, Young",Essence of Earth,,,,,,"If there are 4 or more Earth cards in your banished zone, Florian gets ""If you would create 1 or more aura tokens, instead create that many plus 1 of each of those tokens.""
-
-**Essence of Earth**",Elemental Runeblade Hero - Young,,,No,,T,,,Jessada Sutthi,,,ROS002,/ROS002.png,,,V,C,,Jessada Sutthi,,ROS002,/ROS002-MV.png,,,V,C,FA,Jessada Sutthi,,ROS002,/ROS002-MV_BACK.png,,,,,,,,,,,,,,,,,,,,
-ROS003,ROS,Rotwood Reaper,,,2,,,,"Earth, Runeblade, Weapon, Sword, 2H",,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}: **Attack**
-
-If you've played or created an aura this turn, this gets +2{p}.",Earth Runeblade Weapon - Sword (2H),,,,,T,,,Marcus Reyno,,,ROS003,/ROS003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS004,ROS,Germinate,3,XX,,3,,,"Earth, Runeblade, Action",Florian Specialization,,,,,,"**Florian Specialization**
-
-Create a Runechant or Embodiment of Earth token. Repeat this process X more times.
-
-Gain X+1{h}",Earth Runeblade Action,,,,No,M,,,Carlos Cruchaga,,,ROS004,/ROS004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS005,ROS,Thistle Bloom // Life,2,0,,3,,,"Runeblade, Action, Earth, Instant",Meld,,,,,,"**Meld**
-
-Create X Runechant tokens, where X is the total {h} you've gained this turn.
-
-//
-
-Gain 1{h}",Runeblade Action // Earth Instant,,,,No,M,,,"Mark Poole, Olga Tereshenko",,,ROS005,/ROS005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS006,ROS,Arcane Seeds // Life,1,0,,3,,,"Runeblade, Action, Earth, Instant","Meld, Go again",,,,,,"**Meld**
-
-Create a Runechant token. Create a Runechant token.
-
-**Go again**
-
-//
-
-Gain 1{h}",Runeblade Action // Earth Instant,,,,No,R,,,"Mark Poole, Olga Tereshenko",,,ROS006,/ROS006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS007,ROS,"Aurora, Shooting Star",,,,,40,4,"Elemental, Runeblade, Hero",Essence of Lightning,,,,,,"**Once per Turn Instant** - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.
-
-**Essence of Lightning**",Elemental Runeblade Hero,,No,,No,M,,,Asur Misoa,,,ROS007,/ROS007.png,,,V,C,,Asur Misoa,,ROS007,/ROS007-MV.png,,,V,C,FA,Asur Misoa,,ROS007,/ROS007-MV_BACK.png,,,,,,,,,,,,,,,,,,,,
-ROS008,ROS,Aurora,,,,,20,4,"Elemental, Runeblade, Hero, Young",Essence of Lightning,,,,,,"**Once per Turn Instant** - {r}{r}: Create an Embodiment of Lightning token. Activate this only if you've played a Lightning card this turn.
-
-**Essence of Lightning**",Elemental Runeblade Hero - Young,,,No,,T,,,Ramza Ardyputra,,,ROS008,/ROS008.png,,,V,C,,Ramza Ardyputra,,ROS008,/ROS008-MV.png,,,V,C,FA,Ramza Ardyputra,,ROS008,/ROS008-MV_BACK.png,,,V,C,AA,Asur Misoa,,ROS008,/ROS008-MV_V2.png,,,V,C,FA,Asur Misoa,,ROS008,/ROS008-MV_V2_BACK.png,,
-ROS009,ROS,Star Fall,,,,,,,,,,,,,,,,,,,,T,,,Ramza Ardyputra,,,ROS009,/ROS009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS010,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS011, LGS346","ROS, LGS",Vaporize // Shock,2,0,,,,,"Runeblade, Instant, Lightning, Instant",Meld,,,,,,"**Meld**
-
-Destroy an aura permanent with cost X or less and/or up to X aura tokens, where X is the total arcane damage you've dealt to opposing heroes this turn.
-
-//
-
-Deal 1 arcane damage to any target.",Runeblade Instant // Lightning Instant,,,,No,M,,,"Faizal Fikri, Olga Tereshenko",,,ROS011,/ROS011.png,,,P,C,,"Faizal Fikri, Olga Tereshenko",,LGS346,/LGS346.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS012, LGS345",ROS,Burn Up // Shock,1,0,,3,,,"Runeblade, Action, Lightning, Instant","Go again, Meld",,,,,,"**Meld**
-
-The next time an attack you control hits a hero this turn, deal 4 arcane damage to them.
-
-**Go again**
-
-//
-
-Deal 1 arcane damage to any target.",Runeblade Action // Lightning Instant,,,,No,R,,,"Faizal Fikri, Olga Tereshenko",,,ROS012,/ROS012.png,,,P,C,,"Faizal Fikri, Olga Tereshenko",,LGS345,/LGS345.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS013,ROS,"Verdance, Thorn of the Rose",,,,,40,4,"Elemental, Wizard, Hero",Essence of Earth,,,,,,"If there are 8 or more Earth cards in your banished zone, Verdance gets ""Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.""
-
-**Essence of Earth**",Elemental Wizard Hero,,No,,No,M,,,Lius Lasahido,,,ROS013,/ROS013.png,,,V,C,,Lius Lasahido,,ROS013,/ROS013_V2.png,,,V,C,FA,Lius Lasahido,,ROS013,/ROS013-MV_BACK.png,,,,,,,,,,,,,,,,,,,,
-ROS014,ROS,Verdance,,,,,20,4,"Elemental, Wizard, Hero, Young",Essence of Earth,,,,,,"If there are 4 or more Earth cards in your banished zone, Verdance gets ""Whenever you gain {h} during your turn, you may deal 1 arcane damage to any opposing target.""
-
-**Essence of Earth**",Elemental Wizard Hero - Young,,,No,,T,,,Lius Lasahido,,,ROS014,/ROS014.png,,,V,C,,Lius Lasahido,,ROS014,/ROS014_V2.png,,,V,C,FA,Lius Lasahido,,ROS014,/ROS014-MV_BACK.png,,,,,,,,,,,,,,,,,,,,
-ROS015,ROS,Staff of Verdant Shoots,,,,,,,"Earth, Wizard, Weapon, Staff, 2H",,Once per Turn Action,"Amp 1, Go again",,,,"**Once per Turn Action** - {r}{r}{r}: **Amp 1**. **Go again**
-
-When one or more Earth cards are pitched this way, the next time you deal arcane damage this turn, create an Embodiment of Earth token.",Earth Wizard Weapon - Staff (2H),,,,,T,,,Carlos Cruchaga,,,ROS015,/ROS015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS016,ROS,Heartbeat of Candlehold,3,1,,3,,,"Earth, Wizard, Action","Verdance Specialization, Go again",,,,,,"**Verdance Specialization**
-
-Gain 1{h}. Gain 1{h}. Gain 1{h}.
-
-**Go again**",Earth Wizard Action,,,,No,M,,,Mario Wibisono,,,ROS016,/ROS016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS017,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS018,ROS,Pulsing Aether // Life,1,1,,3,,,"Wizard, Action, Earth, Instant",Meld,,,,,,"**Meld**
-
-Deal 4 arcane damage to any target.
-
-//
-
-Gain 1{h}",Wizard Action // Earth Instant,,,,No,R,,,"Saad Irfan, Olga Tereshenko",,,ROS018,/ROS018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS019,ROS,"Oscilio, Constella Intelligence",,,,,36,4,"Elemental, Wizard, Hero",Essence of Lightning,Once per Turn Instant,,,,,"**Once per Turn Instant** - Discard an instant: Draw a card.
-
-**Essence of Lightning**",Elemental Wizard Hero,,No,,No,M,,,Federico Musetti,,,ROS019,/ROS019.png,,,V,C,,Federico Musetti,,ROS019,/ROS019_V2.png,,,V,C,FA,Federico Musetti,,ROS019,/ROS019-MV_BACK.png,,,,,,,,,,,,,,,,,,,,
-ROS020,ROS,Oscilio,,,,,18,4,"Elemental, Wizard, Hero, Young",Essence of Lightning,Once per Turn Instant,,,,,"**Once per Turn Instant** - Discard an instant: Draw a card.
-
-**Essence of Lightning**",Elemental Wizard Hero - Young,,,No,,T,,,Federico Musetti,,,ROS020,/ROS020.png,,,V,C,,Federico Musetti,,ROS020,/ROS020_V2.png,,,V,C,FA,Federico Musetti,,ROS020,/ROS020-MV_BACK.png,,,,,,,,,,,,,,,,,,,,
-ROS021,ROS,"Volzar, the Lightning Rod",,,,,,,"Lightning, Wizard, Weapon, Staff, 2H",,Once per Turn Instant,Amp X,,,,"If you control an aura permanent with Sigil in its name, this costs {r} less to activate.
-
-**Once per Turn Instant** - {r}: **Amp X**, where X is the number of Lightning cards you've played this turn.",Lightning Wizard Weapon - Staff (2H),,,,,T,,,Federico Musetti,,,ROS021,/ROS021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS022, FAB270","ROS, FAB",Sigil of Brilliance,2,0,,,,,"Lightning, Wizard, Instant, Aura",Oscilio Specialization,,,,,,"**Oscilio Specialization**
-
-At the beginning of your action phase, destroy this.
-
-When this leaves the arena, draw a card.",Lightning Wizard Instant - Aura,,,,No,M,,,Simon Wong,,,ROS022,/ROS022.png,,,P,R,AA,Daniel Jiménez,,FAB270,/FAB270.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS023,ROS,Null // Shock,2,1,,,,,"Wizard, Instant, Lightning, Instant","Meld, Negate",,,,,,"**Meld**
-
-If target instant card has cost less than the total arcane damage you've dealt to opposing heroes this turn, **negate** it.
-
-//
-
-Deal 1 arcane damage to any target.",Wizard Instant // Lightning Instant,,,,No,M,,,"Saad Irfan, Olga Tereshenko",,,ROS023,/ROS023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS024,ROS,Comet Storm // Shock,1,2,,3,,,"Wizard, Action, Lightning, Instant",Meld,,,,,,"**Meld**
-
-Deal 5 arcane damage to any target.
-
-//
-
-Deal 1 arcane damage to any target.",Wizard Action // Lightning Instant,,,,No,R,,,"Simon Dominic, Olga Tereshenko",,,ROS024,/ROS024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS025,ROS,Embodiment of Earth,,,,,,,,,,,,,,,,,,,,T,,,Othon Nikolaidis,,,ROS025,/ROS025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS026,ROS,Embodiment of Lightning,,,,,,,,,,,,,,,,,,,,T,,,Nikolay Moskvin,,,ROS026,/ROS026.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS027,ROS,Sanctuary of Aria,,,,,,,"Rosetta, Macro",,Instant,,,,,**Instant** - {r}{r}: Prevent the next 1 damage that would be dealt to you this turn by a source of your choice. Destroy this at the beginning of the end phase.,Rosetta Macro,,,,,T,,,Carlos Cruchaga,,,ROS027,/ROS027.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS028,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS029,ROS,Helm of Lignum Vitae,,,,1,,,"Earth, Equipment, Head",Blade Break,,,,,,"If there are 4 or more Earth cards in your banished zone, this gets +1{d}.
-
-**Blade Break**",Earth Equipment - Head,,,,,C,,,Esty Swandana,,,ROS029,/ROS029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS030,ROS,Well Grounded,,,,0,,,"Earth, Equipment, Legs",,Instant,,,,,**Instant** - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if there are 4 or more Earth cards in your banished zone.,Earth Equipment - Legs,,,,,C,,,Vito Febrianno,,,ROS030,/ROS030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS031,ROS,Felling of the Crown,1,3,4,3,,,"Earth, Action, Attack",Decompose,,,,,,"If there are 4 or more Earth cards in your banished zone, this gets +4{p}.
-
-**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, each hero puts a card from their hand on the bottom of their deck.",Earth Action - Attack,,,,No,M,,,Dominik Mayer,,,ROS031,/ROS031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS032,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS033,ROS,Channel the Millennium Tree,1,3,,3,,,"Earth, Action, Aura","Go again, Channel Earth, Amp 3",,,,,,"**Go again**
-
-When this enters the arena and at the beginning of your action phase, **amp 3**.
-
-**Channel Earth** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.",Earth Action - Aura,,,,No,M,,,Milivoj Ćeran,,,ROS033,/ROS033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS034,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS035,ROS,Seeds of Tomorrow,3,0,,,,,"Earth, Instant",,,,,,,"As an additional cost to play this, put a card from your arsenal on the bottom of your deck.
-
-Prevent the next 5 damage that would be dealt to you this turn.",Earth Instant,,,,No,M,,,Olga Tereshenko,,,ROS035,/ROS035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS036, LGS307","ROS, LGS",Earth Form,1,3,7,2,,,"Earth, Action, Attack",,,,,,,"When this hits, create an Embodiment of Earth token.",Earth Action - Attack,,,,No,R,,,Saad Irfan,,,ROS036,/ROS036.png,,,P,R,EA,Saad Irfan,,LGS307,/LGS307.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS037,ROS,Earth Form,2,3,6,2,,,"Earth, Action, Attack",,,,,,,"When this hits, create an Embodiment of Earth token.",Earth Action - Attack,,,,No,R,,,Saad Irfan,,,ROS037,/ROS037.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS038,ROS,Earth Form,3,3,5,2,,,"Earth, Action, Attack",,,,,,,"When this hits, create an Embodiment of Earth token.",Earth Action - Attack,,,,No,R,,,Saad Irfan,,,ROS038,/ROS038.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS039,ROS,Summer's Fall,1,2,6,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, put up to 1 target aura on the bottom of its owner's deck.",Earth Action - Attack,,,,No,R,,,Milivoj Ćeran,,,ROS039,/ROS039.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS040,ROS,Summer's Fall,2,2,5,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, put up to 1 target aura on the bottom of its owner's deck.",Earth Action - Attack,,,,No,R,,,Milivoj Ćeran,,,ROS040,/ROS040.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS041,ROS,Summer's Fall,3,2,4,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, put up to 1 target aura on the bottom of its owner's deck.",Earth Action - Attack,,,,No,R,,,Milivoj Ćeran,,,ROS041,/ROS041.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS042,ROS,Rootbound Carapace,1,0,,3,,,"Earth, Defense Reaction",Decompose,,,,,,"**Decompose** - You may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +1{d}.",Earth Defense Reaction,,,,No,R,,,Rio Sabda,,,ROS042,/ROS042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS043,ROS,Rootbound Carapace,2,0,,2,,,"Earth, Defense Reaction",Decompose,,,,,,"**Decompose** - You may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +1{d}.",Earth Defense Reaction,,,,No,R,,,Rio Sabda,,,ROS043,/ROS043.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS044,ROS,Rootbound Carapace,3,0,,1,,,"Earth, Defense Reaction",Decompose,,,,,,"**Decompose** - You may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +1{d}.",Earth Defense Reaction,,,,No,R,,,Rio Sabda,,,ROS044,/ROS044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS045, LGS323","ROS, LGS",Sigil of Sanctuary,3,0,,,,,"Earth, Instant, Aura",Arcane Shelter 1,,,,,,"**Arcane Shelter 1**
-
-When this leaves the arena, create an Embodiment of Earth token.",Earth Instant - Aura,,,,No,R,,,Saad Irfan,,,ROS045,/ROS045.png,,,P,R,AA,Daniel Jiménez,,LGS323,/LGS323.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS046,ROS,Autumn's Touch,1,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,,ROS046,/ROS046.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS047,ROS,Autumn's Touch,2,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,,ROS047,/ROS047.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS048,ROS,Autumn's Touch,3,,,,,,,,,,,,,,,,,,,C,,,Alief Rusdiatama,,,ROS048,/ROS048.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS049,ROS,Blossoming Decay,1,2,5,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, gain 1{h}.",Earth Action - Attack,,,,,C,,,Othon Nikolaidis,,,ROS049,/ROS049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS050,ROS,Blossoming Decay,2,2,4,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, gain 1{h}.",Earth Action - Attack,,,,,C,,,Othon Nikolaidis,,,ROS050,/ROS050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS051,ROS,Blossoming Decay,3,2,3,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, gain 1{h}.",Earth Action - Attack,,,,,C,,,Othon Nikolaidis,,,ROS051,/ROS051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS052,ROS,Cadaverous Tilling,1,3,6,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}.",Earth Action - Attack,,,,,C,,,Mark Poole,,,ROS052,/ROS052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS053,ROS,Cadaverous Tilling,2,3,5,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}.",Earth Action - Attack,,,,,C,,,Mark Poole,,,ROS053,/ROS053.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS054,ROS,Cadaverous Tilling,3,3,4,2,,,"Earth, Action, Attack",Decompose,,,,,,"**Decompose** - When this attacks, you may banish 2 Earth cards and an action card from your graveyard. If you do, this gets +2{p}.",Earth Action - Attack,,,,,C,,,Mark Poole,,,ROS054,/ROS054.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS055,ROS,Fruits of the Forest,1,3,7,2,,,"Earth, Action, Attack",,,,,,,**Instant** - Discard this: Gain 2{h},Earth Action - Attack,,,,,C,,,Sebastian Giacobino,,,ROS055,/ROS055.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS056,ROS,Fruits of the Forest,2,3,6,2,,,"Earth, Action, Attack",,,,,,,**Instant** - Discard this: Gain 2{h},Earth Action - Attack,,,,,C,,,Sebastian Giacobino,,,ROS056,/ROS056.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS057,ROS,Fruits of the Forest,3,3,5,2,,,"Earth, Action, Attack",,,,,,,**Instant** - Discard this: Gain 2{h},Earth Action - Attack,,,,,C,,,Sebastian Giacobino,,,ROS057,/ROS057.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS058,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS059,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS060,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS061,ROS,Harvest Season,1,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this, then gain 3{h}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS061,/ROS061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS062,ROS,Harvest Season,2,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this, then gain 2{h}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS062,/ROS062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS063,ROS,Harvest Season,3,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this, then gain 1{h}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS063,/ROS063.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS064,ROS,Strong Yield,1,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this, then your next attack this turn gets +3{p}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS064,/ROS064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS065,ROS,Strong Yield,2,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this, then your next attack this turn gets +2{p}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS065,/ROS065.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS066,ROS,Strong Yield,3,1,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this, then your next attack this turn gets +1{p}.",Earth Action - Aura,,,,,C,,,Mariusz Gandzel,,,ROS066,/ROS066.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS067,ROS,Fertile Ground,1,2,,,,,"Earth, Instant",,,,,,,"Gain 2{h}
-
-If there are 4 or more Earth cards in your banished zone, instead gain 5{h}.",Earth Instant,,,,,C,,,Marco Gonzalez,,,ROS067,/ROS067.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS068,ROS,Fertile Ground,2,2,,,,,"Earth, Instant",,,,,,,"Gain 2{h}
-
-If there are 4 or more Earth cards in your banished zone, instead gain 4{h}.",Earth Instant,,,,,C,,,Marco Gonzalez,,,ROS068,/ROS068.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS069,ROS,Fertile Ground,3,2,,,,,"Earth, Instant",,,,,,,"Gain 2{h}
-
-If there are 4 or more Earth cards in your banished zone, instead gain 3{h}.",Earth Instant,,,,,C,,,Marco Gonzalez,,,ROS069,/ROS069.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS070,ROS,Sigil of Earth,3,0,,2,,,"Earth, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this.
-
-When this leaves the arena, create an Embodiment of Earth token.",Earth Action - Aura,,,,,C,,,Saad Irfan,,,ROS070,/ROS070.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS071,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS072,ROS,Flash of Brilliance,,,,1,,,"Lightning, Equipment, Head",Blade Break,,,,,,"When this defends, you may discard a Lightning card. If you do, return an aura you control to its owner's hand.
-
-**Blade Break**",Lightning Equipment - Head,,,,,C,,,Lizhe Liang,,,ROS072,/ROS072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS073,ROS,Twinkle Toes,,,,0,,,"Lightning, Equipment, Legs",,Instant,,,,,**Instant** - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if you've played an instant card this turn.,Lightning Equipment - Legs,,,,,C,,,Brian Madya Narendra,,,ROS073,/ROS073.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS074,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS075,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS076,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS077,ROS,Channel Lightning Valley,2,0,,,,,"Lightning, Instant, Aura",Channel Lightning,,,,,,"The first time you deal damage to an opposing hero each turn, draw a card.
-
-**Channel Lightning** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put a Lightning card from your pitch zone on the bottom of your deck for each flow counter on it.",Lightning Instant - Aura,,,,No,M,,,Tomasz Jedruszek,,,ROS077,/ROS077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS078,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS079,ROS,Blast to Oblivion,1,0,4,2,,,"Lightning, Action, Attack",,,,,,,"When this attacks, the next time you play an instant card this chain link, you may return target aura permanent with cost 1 or less or target aura token to it's owner's hand.",Lightning Action - Attack,,,,No,R,,,Kevin Sidharta,,,ROS079,/ROS079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS080,ROS,Blast to Oblivion,2,0,3,2,,,"Lightning, Action, Attack",,,,,,,"When this attacks, the next time you play an instant card this chain link, you may return target aura permanent with cost 1 or less or target aura token to it's owner's hand.",Lightning Action - Attack,,,,No,R,,,Kevin Sidharta,,,ROS080,/ROS080.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS081,ROS,Blast to Oblivion,3,0,2,2,,,"Lightning, Action, Attack",,,,,,,"When this attacks, the next time you play an instant card this chain link, you may return target aura permanent with cost 1 or less or target aura token to it's owner's hand.",Lightning Action - Attack,,,,No,R,,,Kevin Sidharta,,,ROS081,/ROS081.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS082, LGS308","ROS, LGS",Lightning Form,1,1,5,2,,,"Lightning, Action, Attack",,,,,,,"When this hits, create an Embodiment of Lightning token.",Lightning Action - Attack,,,,No,R,,,Edward Chee,,,ROS082,/ROS082.png,,,P,R,EA,Edward Chee,,LGS308,/LGS308.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS083,ROS,Lightning Form,2,1,4,2,,,"Lightning, Action, Attack",,,,,,,"When this hits, create an Embodiment of Lightning token.",Lightning Action - Attack,,,,No,R,,,Edward Chee,,,ROS083,/ROS083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS084,ROS,Lightning Form,3,1,3,2,,,"Lightning, Action, Attack",,,,,,,"When this hits, create an Embodiment of Lightning token.",Lightning Action - Attack,,,,No,R,,,Edward Chee,,,ROS084,/ROS084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS085,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS086,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS087,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS088, LGS324","ROS, LGS",Sigil of Conductivity,3,0,,,,,"Lightning, Instant, Aura",Arcane Shelter 1,,,,,,"**Arcane Shelter 1**
-
-When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,No,R,,,Simon Wong,,,ROS088,/ROS088.png,,,P,R,AA,Daniel Jiménez,,LGS324,/LGS324.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS089,ROS,Flittering Charge,1,0,4,2,,,"Lightning, Action, Attack",Go again,,,,,,"If you've played an instant card this chain link, this gets **go again**.",Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS089,/ROS089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS090,ROS,Flittering Charge,2,0,3,2,,,"Lightning, Action, Attack",Go again,,,,,,"If you've played an instant card this chain link, this gets **go again**.",Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS090,/ROS090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS091,ROS,Flittering Charge,3,0,2,2,,,"Lightning, Action, Attack",Go again,,,,,,"If you've played an instant card this chain link, this gets **go again**.",Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS091,/ROS091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS092,ROS,Fry,1,,,,,,,,,,,,,,,,,,,C,,,Edward Chee,,,ROS092,/ROS092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS093,ROS,Fry,2,,,,,,,,,,,,,,,,,,,C,,,Edward Chee,,,ROS093,/ROS093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS094,ROS,Fry,3,0,1,0,,,"Lightning, Action, Attack",Go again,,,,,,**Go again**,Lightning Action - Attack,,,,,C,,,Edward Chee,,,ROS094,/ROS094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS095,ROS,Heaven's Claws,1,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,,ROS095,/ROS095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS096,ROS,Heaven's Claws,2,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,,ROS096,/ROS096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS097,ROS,Heaven's Claws,3,,,,,,,,,,,,,,,,,,,C,,,Isuardi Therianto,,,ROS097,/ROS097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS098,ROS,Lightning Surge,1,,,,,,,,,,,,,,,,,,,C,,,Phu Thieu,,,ROS098,/ROS098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS099,ROS,Lightning Surge,2,,,,,,,,,,,,,,,,,,,C,,,Phu Thieu,,,ROS099,/ROS099.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS100,ROS,Lightning Surge,3,,,,,,,,,,,,,,,,,,,C,,,Phu Thieu,,,ROS100,/ROS100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS101,ROS,Second Strike,1,0,3,2,,,"Lightning, Action, Attack",Go again,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS101,/ROS101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS102,ROS,Second Strike,2,0,2,2,,,"Lightning, Action, Attack",Go again,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS102,/ROS102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS103,ROS,Second Strike,3,0,1,2,,,"Lightning, Action, Attack",Go again,,,,,,"When this attacks, if you've dealt damage this turn, this gets +1{p} and **go again**.",Lightning Action - Attack,,,,,C,,,Muhammad Fajri,,,ROS103,/ROS103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS104,ROS,Trip the Light Fantastic,1,1,5,2,,,"Lightning, Action, Attack",,Instant,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS104,/ROS104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS105,ROS,Trip the Light Fantastic,2,1,4,2,,,"Lightning, Action, Attack",,Instant,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS105,/ROS105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS106,ROS,Trip the Light Fantastic,3,1,3,2,,,"Lightning, Action, Attack",,Instant,,,,,**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.,Lightning Action - Attack,,,,,C,,,Bramasta Aji,,,ROS106,/ROS106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS107,ROS,Flash,1,,,,,,,,,,,,,,,,,,,C,,,Patchanee Treedet,,,ROS107,/ROS107.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS108,ROS,Flash,2,,,,,,,,,,,,,,,,,,,C,,,Patchanee Treedet,,,ROS108,/ROS108.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS109,ROS,Flash,3,,,,,,,,,,,,,,,,,,,C,,,Patchanee Treedet,,,ROS109,/ROS109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS110, LGS347","ROS, LGS",Electrostatic Discharge,1,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +3{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,,ROS110,/ROS110.png,,,P,R,EA,Alief Rusdiatama,,LGS347,/LGS347.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS111, LGS348","ROS, LGS",Electrostatic Discharge,2,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +2{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,,ROS111,/ROS111.png,,,P,R,EA,Alief Rusdiatama,,LGS348,/LGS348.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS112, LGS349","ROS, LGS",Electrostatic Discharge,3,0,,,,,"Lightning, Instant",,,,,,,The next attack action card you play this turn with cost 1 or less gets +1{p}.,Lightning Instant,,,,,C,,,Alief Rusdiatama,,,ROS112,/ROS112.png,,,P,R,EA,Alief Rusdiatama,,LGS349,/LGS349.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS113,ROS,Sigil of Lightning,3,0,,,,,"Lightning, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
-
-When this leaves the arena, create an Embodiment of Lightning token.",Lightning Instant - Aura,,,,,C,,,Simon Wong,,,ROS113,/ROS113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS114,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS115,ROS,Bloodtorn Bodice,,,,0,,,"Runeblade, Equipment, Chest",,Action,Go again,,,,**Action** - Destroy this and an aura you control: Gain {r}. **Go again**,Runeblade Equipment - Chest,,,,,C,,,Michal Makowski,,,ROS115,/ROS115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS116,ROS,Runehold Release,,,,0,,,"Runeblade, Equipment, Arms",,Action,Go again,,,,**Action** - Destroy this: Create a Runechant token. **Go again**,Runeblade Equipment - Arms,,,,,C,,,Firaz M. Rasyid,,,ROS116,/ROS116.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS117,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS118,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS119,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS120,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS121,ROS,Splintering Deadwood,1,3,7,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks or hits, you may destroy an aura you control. If you do, create a Runechant token.",Runeblade Action - Attack,,,,No,R,,,Nailsen Ivanderlie,,,ROS121,/ROS121.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS122,ROS,Splintering Deadwood,2,3,6,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks or hits, you may destroy an aura you control. If you do, create a Runechant token.",Runeblade Action - Attack,,,,No,R,,,Nailsen Ivanderlie,,,ROS122,/ROS122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS123,ROS,Splintering Deadwood,3,3,5,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks or hits, you may destroy an aura you control. If you do, create a Runechant token.",Runeblade Action - Attack,,,,No,R,,,Nailsen Ivanderlie,,,ROS123,/ROS123.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS124,ROS,Vantage Point,1,3,7,3,,,"Runeblade, Action, Attack",Overpower,,,,,,"If you've played or created an aura this turn, this gets **overpower**.",Runeblade Action - Attack,,,,No,R,,,Max Kostin,,,ROS124,/ROS124.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS125,ROS,Vantage Point,2,3,6,3,,,"Runeblade, Action, Attack",Overpower,,,,,,"If you've played or created an aura this turn, this gets **overpower**.",Runeblade Action - Attack,,,,No,R,,,Max Kostin,,,ROS125,/ROS125.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS126,ROS,Vantage Point,3,3,5,3,,,"Runeblade, Action, Attack",Overpower,,,,,,"If you've played or created an aura this turn, this gets **overpower**.",Runeblade Action - Attack,,,,No,R,,,Max Kostin,,,ROS126,/ROS126.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS127,ROS,Condemn to Slaughter,1,1,,3,,,"Runeblade, Action",Go again,,,,,,"Your next Runeblade attack this turn gets +3{p}.
-
-You may destroy an aura you control. If you do, each opponent destroys an aura permanent they control.
-
-**Go again**",Runeblade Action,,,,No,R,,,Max Kostin,,,ROS127,/ROS127.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS128,ROS,Condemn to Slaughter,2,1,,3,,,"Runeblade, Action",Go again,,,,,,"Your next Runeblade attack this turn gets +2{p}.
-
-You may destroy an aura you control. If you do, each opponent destroys an aura permanent they control.
-
-**Go again**",Runeblade Action,,,,No,R,,,Max Kostin,,,ROS128,/ROS128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS129,ROS,Condemn to Slaughter,3,1,,3,,,"Runeblade, Action",Go again,,,,,,"Your next Runeblade attack this turn gets +1{p}.
-
-You may destroy an aura you control. If you do, each opponent destroys an aura permanent they control.
-
-**Go again**",Runeblade Action,,,,No,R,,,Max Kostin,,,ROS129,/ROS129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS130,ROS,Malefic Incantation,1,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-This enters the arena with 3 verse counters. When it has none, destroy it.
-
-Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS130,/ROS130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS131,ROS,Malefic Incantation,2,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-This enters the arena with 2 verse counters. When it has none, destroy it.
-
-Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS131,/ROS131.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS132,ROS,Malefic Incantation,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-This enters the arena with 1 verse counters. When it has none, destroy it.
-
-Once per turn, when you play an attack action card, remove a verse counter from this. If you do, create a Runechant token.",Runeblade Action - Aura,,,,No,R,,,Max Kostin,,,ROS132,/ROS132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS133, LGS325","ROS, LGS",Sigil of the Arknight,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this.
-
-When this leaves the arena, reveal the top card of your deck. If it's an attack action card, put it into your hand.",Runeblade Action - Aura,,,,No,R,,,Flora Silve,,,ROS133,/ROS133.png,,,P,R,AA,Daniel Jiménez,,LGS325,/LGS325.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS134,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS135,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS136,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS137,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS138,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS139,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS140,ROS,Hit the High Notes,1,1,4,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets +2{p}.",Runeblade Action - Attack,,,,,C,,,Pabel Rtishchev (Klaher),,,ROS140,/ROS140.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS141,ROS,Hit the High Notes,2,1,3,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets +2{p}.",Runeblade Action - Attack,,,,,C,,,Pabel Rtishchev (Klaher),,,ROS141,/ROS141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS142,ROS,Hit the High Notes,3,1,2,3,,,"Runeblade, Action, Attack",,,,,,,"If you've played or created an aura this turn, this gets +2{p}.",Runeblade Action - Attack,,,,,C,,,Pabel Rtishchev (Klaher),,,ROS142,/ROS142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS143,ROS,Hocus Pocus,1,0,3,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks, create a Runechant token.",Runeblade Action - Attack,,,,,C,,,Mateusz Wiśniewski,,,ROS143,/ROS143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS144,ROS,Hocus Pocus,2,0,2,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks, create a Runechant token.",Runeblade Action - Attack,,,,,C,,,Mateusz Wiśniewski,,,ROS144,/ROS144.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS145,ROS,Hocus Pocus,3,0,1,3,,,"Runeblade, Action, Attack",,,,,,,"When this attacks, create a Runechant token.",Runeblade Action - Attack,,,,,C,,,Mateusz Wiśniewski,,,ROS145,/ROS145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS146,ROS,Meat and Greet,1,,,,,,,,,,,,,"When this hits, create a Runechant token.
-
-If you've dealt arcane damage to an opposing hero this turn, this gets **go again**.",,,,,,C,,,Immanuela Crovius,,,ROS146,/ROS146.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS147,ROS,Meat and Greet,2,,,,,,,,,,,,,"When this hits, create a Runechant token.
-
-If you've dealt arcane damage to an opposing hero this turn, this gets **go again**.",,,,,,C,,,Immanuela Crovius,,,ROS147,/ROS147.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS148,ROS,Meat and Greet,3,,,,,,,,,,,,,"When this hits, create a Runechant token.
-
-If you've dealt arcane damage to an opposing hero this turn, this gets **go again**.",,,,,,C,,,Immanuela Crovius,,,ROS148,/ROS148.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS149,ROS,Runerager Swarm,1,0,3,3,,,"Runeblade, Action, Attack",Go again,,,,,,"If you've played or created an aura this turn, this gets **go again**.",Runeblade Action - Attack,,,,,C,,,Sandeep Karunakaran,,,ROS149,/ROS149.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS150,ROS,Runerager Swarm,2,0,2,3,,,"Runeblade, Action, Attack",Go again,,,,,,"If you've played or created an aura this turn, this gets **go again**.",Runeblade Action - Attack,,,,,C,,,Sandeep Karunakaran,,,ROS150,/ROS150.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS151,ROS,Runerager Swarm,3,0,1,3,,,"Runeblade, Action, Attack",Go again,,,,,,"If you've played or created an aura this turn, this gets **go again**.",Runeblade Action - Attack,,,,,C,,,Sandeep Karunakaran,,,ROS151,/ROS151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS152,ROS,Arcane Cussing,1,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-When you deal or are dealt damage, destroy this.
-
-When this leaves the arena during your turn, create 3 Runechant tokens.",Runeblade Action - Aura,,,,,C,,,Marco González,,,ROS152,/ROS152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS153,ROS,Arcane Cussing,2,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-When you deal or are dealt damage, destroy this.
-
-When this leaves the arena during your turn, create 2 Runechant tokens.",Runeblade Action - Aura,,,,,C,,,Marco González,,,ROS153,/ROS153.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS154,ROS,Arcane Cussing,3,1,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-When you deal or are dealt damage, destroy this.
-
-When this leaves the arena during your turn, create a Runechant token.",Runeblade Action - Aura,,,,,C,,,Marco González,,,ROS154,/ROS154.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS155,ROS,Deadwood Dirge,1,0,,2,,,"Runeblade, Action",Go again,,,,,,"Destroy an aura you control. If you do, create 3 Runechant tokens.
-
-**Go again**",Runeblade Action,,,,,C,,,Rio Sabda,,,ROS155,/ROS155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS156,ROS,Deadwood Dirge,2,0,,2,,,"Runeblade, Action",Go again,,,,,,"Destroy an aura you control. If you do, create 2 Runechant tokens.
-
-**Go again**",Runeblade Action,,,,,C,,,Rio Sabda,,,ROS156,/ROS156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS157,ROS,Deadwood Dirge,3,0,,2,,,"Runeblade, Action",Go again,,,,,,"Destroy an aura you control. If you do, create a Runechant token.
-
-**Go again**",Runeblade Action,,,,,C,,,Rio Sabda,,,ROS157,/ROS157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS158,ROS,Oath of the Arknight,1,,,,,,,,,,,,,,,,,,,C,,,Yen Lee,,,ROS158,/ROS158.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS159,ROS,Oath of the Arknight,2,,,,,,,,,,,,,,,,,,,C,,,Yen Lee,,,ROS159,/ROS159.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS160,ROS,Oath of the Arknight,3,,,,,,,,,,,,,,,,,,,C,,,Yen Lee,,,ROS160,/ROS160.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS161, LGS326","ROS, LGS",Sigil of Deadwood,3,0,,2,,,"Runeblade, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this.
-
-When this leaves the arena, create a Runechant token.",Runeblade Action - Aura,,,,,C,,,Saad Irfan,,,ROS161,/ROS161.png,,,P,R,AA,Daniel Jiménez,,LGS326,/LGS326.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS162,ROS,Runechant,,,,,,,,,,,,,,,,,,,,T,,AA,Jessketchin,,,ROS162,/ROS162.png,,,T,,AA,Jessketchin,,ROS162,/ROS162_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS163,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS164,ROS,Ink-lined Cloak,,,,0,,,"Wizard, Equipment, Chest",,Instant,,,,,**Instant** - Destroy this: Gain {r}. Activate this only if you control an aura permanent with Sigil in its name.,Wizard Equipment - Chest,,,,,C,,,Arghawana Rim,,,ROS164,/ROS164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS165,ROS,Hold Focus,,,,0,,,"Wizard, Equipment, Arms",,Action,"Amp 1, Go again",,,,**Action** - Destroy this: **Amp 1**. **Go again**,Wizard Equipment - Arms,,,,,C,,,Kyxarie Peralta,,,ROS165,/ROS165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS166,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS167,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS168,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS169,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS170,ROS,Chorus of the Amphitheater,1,2,,2,,,"Wizard, Action",,Instant,,,,,"Deal 4 arcane damage to any target.
-
-**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.",Wizard Action,,,,No,R,,,Marco González,,,ROS170,/ROS170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS171,ROS,Chorus of the Amphitheater,2,2,,2,,,"Wizard, Action",,Instant,,,,,"Deal 3 arcane damage to any target.
-
-**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.",Wizard Action,,,,No,R,,,Marco González,,,ROS171,/ROS171.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS172,ROS,Chorus of the Amphitheater,3,2,,2,,,"Wizard, Action",,Instant,,,,,"Deal 2 arcane damage to any target.
-
-**Instant** - Discard this: If an action or instant card you control would deal arcane damage this turn, instead it deals that much plus 1.",Wizard Action,,,,No,R,,,Marco González,,,ROS172,/ROS172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS173,ROS,Glyph Overlay,1,1,,3,,,"Wizard, Action",Surge,,,,,,"Deal X+3 arcane damage to target hero, where X is the number of aura permanents you control with Sigil in their name.
-
-**Surge** - If this deals more than 3 damage, gain 1{h}, then shuffle all aura permanents you control with Sigil in their name into their owner's deck.",Wizard Action,,,,No,R,,,Mateusz Wiśniewski,,,ROS173,/ROS173.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS174,ROS,Glyph Overlay,2,1,,3,,,"Wizard, Action",Surge,,,,,,"Deal X+2 arcane damage to target hero, where X is the number of aura permanents you control with Sigil in their name.
-
-**Surge** - If this deals more than 3 damage, gain 1{h}, then shuffle all aura permanents you control with Sigil in their name into their owner's deck.",Wizard Action,,,,No,R,,,Mateusz Wiśniewski,,,ROS174,/ROS174.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS175,ROS,Glyph Overlay,3,1,,3,,,"Wizard, Action",Surge,,,,,,"Deal X+1 arcane damage to target hero, where X is the number of aura permanents you control with Sigil in their name.
-
-**Surge** - If this deals more than 3 damage, gain 1{h}, then shuffle all aura permanents you control with Sigil in their name into their owner's deck.",Wizard Action,,,,No,R,,,Mateusz Wiśniewski,,,ROS175,/ROS175.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS176,ROS,Pop the Bubble,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to any target.
-
-**Surge** - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",Wizard Action,,,,No,R,,,Faizal Fikri,,,ROS176,/ROS176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS177,ROS,Pop the Bubble,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to any target.
-
-**Surge** - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",Wizard Action,,,,No,R,,,Faizal Fikri,,,ROS177,/ROS177.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS178,ROS,Pop the Bubble,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to any target.
-
-**Surge** - If this deals more than 3 damage to a hero, destroy an aura permanent they control.",Wizard Action,,,,No,R,,,Faizal Fikri,,,ROS178,/ROS178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS179,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS180,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS181,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS182, LGS328","ROS, LGS",Sigil of Temporal Manipulation,3,0,,,,,"Wizard, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
-
-When this leaves the arena, banish the top card of your deck. If it's a non-attack action card, you may play it this turn as though it were an instant.",Wizard Instant - Aura,,,,No,R,,,Mario Wibisono,,,ROS182,/ROS182.png,,,P,R,AA,Daniel Jiménez,,LGS328,/LGS328.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS183,ROS,Aether Quickening,1,,,,,,,,,,,,,,,,,,,C,,,Mateusz Wiśniewski,,,ROS183,/ROS183.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS184,ROS,Aether Quickening,2,,,,,,,,,,,,,,,,,,,C,,,Mateusz Wiśniewski,,,ROS184,/ROS184.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS185,ROS,Aether Quickening,3,,,,,,,,,,,,,,,,,,,C,,,Mateusz Wiśniewski,,,ROS185,/ROS185.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS186,ROS,Arcane Twining,1,0,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 3 arcane damage to any target.
-
-**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Carlos Cruchaga,,,ROS186,/ROS186.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS187,ROS,Arcane Twining,2,0,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 2 arcane damage to any target.
-
-**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Carlos Cruchaga,,,ROS187,/ROS187.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS188,ROS,Arcane Twining,3,0,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 1 arcane damage to any target.
-
-**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Carlos Cruchaga,,,ROS188,/ROS188.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS189,ROS,Etchings of Arcana,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
-
-**Surge** - If this deals more than 3 damage, you may return an aura with Sigil in its name from your graveyard to your hand.",Wizard Action,,,,,C,,,Rio Sabda,,,ROS189,/ROS189.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS190,ROS,Etchings of Arcana,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to target hero.
-
-**Surge** - If this deals more than 2 damage, you may return an aura with Sigil in its name from your graveyard to your hand.",Wizard Action,,,,,C,,,Rio Sabda,,,ROS190,/ROS190.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS191,ROS,Etchings of Arcana,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
-
-**Surge** - If this deals more than 1 damage, you may return an aura with Sigil in its name from your graveyard to your hand.",Wizard Action,,,,,C,,,Rio Sabda,,,ROS191,/ROS191.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS192,ROS,Exploding Aether,1,2,,2,,,"Wizard, Action","Amp 3, Go again",,,,,,"**Amp 3**
-
-**Go again**",Wizard Action,,,,,C,,,Jefrey Yonathan,,,ROS192,/ROS192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS193,ROS,Exploding Aether,2,2,,2,,,"Wizard, Action","Amp 2, Go again",,,,,,"**Amp 2**
-
-**Go again**",Wizard Action,,,,,C,,,Jefrey Yonathan,,,ROS193,/ROS193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS194,ROS,Exploding Aether,3,2,,2,,,"Wizard, Action","Amp 1, Go again",,,,,,"**Amp 1**
-
-**Go again**",Wizard Action,,,,,C,,,Jefrey Yonathan,,,ROS194,/ROS194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS195,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS196,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS197,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS198,ROS,Overflow the Aetherwell,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
-
-**Surge** - If this deals more than 3 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wong,,,ROS198,/ROS198.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS199,ROS,Overflow the Aetherwell,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to target hero.
-
-**Surge** - If this deals more than 2 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wong,,,ROS199,/ROS199.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS200,ROS,Overflow the Aetherwell,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
-
-**Surge** - If this deals more than 1 damage, gain {r}{r}.",Wizard Action,,,,,C,,,Simon Wong,,,ROS200,/ROS200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS201,ROS,Perennial Aetherbloom,1,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 3 arcane damage to target hero.
-
-**Surge** - If this deals more than 3 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS201,/ROS201.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS202,ROS,Perennial Aetherbloom,2,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 2 arcane damage to target hero.
-
-**Surge** - If this deals more than 2 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS202,/ROS202.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS203,ROS,Perennial Aetherbloom,3,0,,3,,,"Wizard, Action",Surge,,,,,,"Deal 1 arcane damage to target hero.
-
-**Surge** - If this deals more than 1 damage, put it on the bottom of its owner's deck.",Wizard Action,,,,,C,,,Nikko Wahyudi,,,ROS203,/ROS203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS204,ROS,Photon Splicing,1,1,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 4 arcane damage to any target.
-
-**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Septimius Ferdian,,,ROS204,/ROS204.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS205,ROS,Photon Splicing,2,1,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 3 arcane damage to any target.
-
-**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Septimius Ferdian,,,ROS205,/ROS205.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS206,ROS,Photon Splicing,3,1,,3,,,"Wizard, Action",,Instant,Amp 1,,,,"Deal 2 arcane damage to any target.
-
-**Instant** - Discard this: **Amp 1**",Wizard Action,,,,,C,,,Septimius Ferdian,,,ROS206,/ROS206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS207,ROS,Trailblazing Aether,1,0,,3,,,"Wizard, Action",Surge,Go again,,,,,"Deal 3 arcane damage to target hero.
-
-**Surge** - If this deals more than 3 damage, it gets **go again**.",Wizard Action,,,,,C,,,Pascal Quidault,,,ROS207,/ROS207.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS208,ROS,Trailblazing Aether,2,0,,3,,,"Wizard, Action",Surge,Go again,,,,,"Deal 2 arcane damage to target hero.
-
-**Surge** - If this deals more than 2 damage, it gets **go again**.",Wizard Action,,,,,C,,,Pascal Quidault,,,ROS208,/ROS208.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS209,ROS,Trailblazing Aether,3,0,,3,,,"Wizard, Action",Surge,Go again,,,,,"Deal 1 arcane damage to target hero.
-
-**Surge** - If this deals more than 1 damage, it gets **go again**.",Wizard Action,,,,,C,,,Pascal Quidault,,,ROS209,/ROS209.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS210, LGS327","ROS, LGS",Sigil of Forethought,3,0,,,,,"Wizard, Instant, Aura",,,,,,,"At the beginning of your action phase, destroy this.
-
-When this leaves the arena, create a Ponder token.",Wizard Instant - Aura,,,,,C,,,Mario Wibisono,,,ROS210,/ROS210.png,,,P,R,AA,Daniel Jiménez,,LGS327,/LGS327.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS211,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS212,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS213,ROS,Bruised Leather,,,,0,,,"Generic, Equipment, Chest",,Instant,,,,,**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this only if you've been dealt damage this turn.,Generic Equipment - Chest,,,,,C,,,Wisnu Tan,,,ROS213,/ROS213.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS214,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS215,ROS,Runaways,,,,,,,,,,,,,,,,,,,,C,,,Kyxarie Peralta,,,ROS215,/ROS215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS216,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS217,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS218,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS219,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS220, FAB271","ROS, FAB",Hand Behind the Pen,1,2,6,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, turn a card in their arsenal face-up, then banish a non-attack action card from their arsenal.",Generic Action - Attack,,,,No,R,,,Pavel Rtishchev (Klaher),,,ROS220,/ROS220.png,,,P,R,EA,Pavel Rtishchev (Klaher),,FAB271,/FAB271.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS221, FAB272","ROS, FAB",Smash Up,1,1,5,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, turn a card in their arsenal face-up, then banish an attack action card from their arsenal.",Generic Action - Attack,,,,No,R,,,Arif Wijaya,,,ROS221,/ROS221.png,,,P,R,EA,Arif Wijaya,,FAB272,/FAB272.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS222, FAB273","ROS, FAB",Tongue Tied,1,3,7,2,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, turn a card in their arsenal face-up, then banish an instant card from their arsenal.",Generic Action - Attack,,,,No,R,,,Ausonia,,,ROS222,/ROS222.png,,,P,R,EA,Ausonia,,FAB273,/FAB273.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS223,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS224,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS225,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS226, LGS329","ROS, LGS",Sigil of Cycles,3,0,,2,,,"Generic, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this.
-
-When this leaves the arena, discard a card then draw a card.",Generic Action - Aura,,,,No,R,,,Flora Silve,,,ROS226,/ROS226.png,,,P,R,AA,Daniel Jiménez,,LGS329,/LGS329.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS227,ROS,Fyendal's Fighting Spirit,1,,,,,,,,,,,,,,,,,,,C,,,Joseph Qiu,,,ROS227,/ROS227.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS228,ROS,Fyendal's Fighting Spirit,2,,,,,,,,,,,,,,,,,,,C,,,Joseph Qiu,,,ROS228,/ROS228.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS229,ROS,Fyendal's Fighting Spirit,3,,,,,,,,,,,,,,,,,,,C,,,Joseph Qiu,,,ROS229,/ROS229.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"ROS230, LGS330","ROS, LGS",Sigil of Fyendal,3,0,,2,,,"Generic, Action, Aura",Go again,,,,,,"**Go again**
-
-At the beginning of your action phase, destroy this.
-
-When this leaves the arena, gain 1{h}.",Generic Action - Aura,,,,,C,,,Flora Silve,,,ROS230,/ROS230.png,,,P,R,AA,Daniel Jiménez,,LGS330,/LGS330.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS231,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS232,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS233,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS234,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS235,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS236,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS237,ROS,Ponder,,,,,,,,,,,,,,,,,,,,T,,,Henrique Lindner,,,ROS237,/ROS237.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS238,ROS,Cracked Bauble,2,,,,,,"Generic, Resource",,,,,,,,,,,,,T,,,Sam Yang,,,ROS238,/ROS238.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS239,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS240,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS241,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS242,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS243,ROS,Splatter Skull,1,2,6,3,,,"Brute, Action, Attack",,,,,,,"When this hits a hero, choose a face-down card in their banished zone that was banished by **intimidate** this turn. Put it into their graveyard.",Brute Action - Attack,,,,No,M,,,Arif Wijaya,Yes,,ROS243,/ROS243.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS244,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS245,ROS,Gustwave of the Second Wind,1,0,4,3,,,"Ninja, Action, Attack","Combo, Go again",,,,,,"**Combo** - If Surging Strike was the last attack this combat chain, this gets **go again**.",Ninja Action - Attack,,,,No,M,,,Edward Chee,Yes,,ROS245,/ROS245.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS246,ROS,Adaptive Dissolver,,,,,,,"Mechanologist, Equipment, Base","Modular, Arcane Barrier 1",Action,,,,,"**Modular**
-
-**Action** - 0: Equip this to another equipment zone.
-
-**Arcane Barrier 1**",Mechanologist Equipment - Base,,,,No,M,,,Carlos Cruchaga,Yes,,ROS246,/ROS246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS247,ROS,Plan for the Worst,3,0,,3,,,"Ranger, Action",,,,,,,"Look at target hero's hand and arsenal. At the beginning of their next end phase, they discard all cards in their hand and destroy all cards in their arsenal.
-
-Search your deck for up to 3 traps, reveal them, put them into your hand, then shuffle 2 cards from your hand into your deck.",Ranger Action,,,,No,M,,,Chris Cold,Yes,,ROS247,/ROS247.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS248,ROS,Unsheathed,1,0,,3,,,"Warrior, Action",Go again,,,Go again,,,"Your next sword attack this turn gets +3{p} and ""When this attacks, if its {p} is greater than twice its base, it gets **go again**.""
-
-**Go again**",Warrior Action,,,,No,M,,,soyameii,Yes,,ROS248,/ROS248.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS249,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS250,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS251,ROS,Fluttersteps,,,,,,,"Illusionist, Equipment, Legs",Ward 1,,,,,,"When this is destroyed, you may play your next aura this turn as though it were an instant.
-
-**Ward 1**",Illusionist Equipment - Legs,,,,No,M,,,Thomas Ressuge,Yes,,ROS251,/ROS251.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS252,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS253,ROS,Regrowth // Shock,3,0,,3,,,"Earth, Runeblade, Action, Lightning, Instant","Meld, Go again",,,,,,"**Meld**
-
-Return an attack action card with cost less than X from your graveyard to your hand, where X is the total arcane damage you've dealt to opposing heroes this turn. **Go again**
-
-//
-
-Deal 1 arcane damage to any target.",Earth Runeblade Action // Lightning Instant,,,,No,M,,,"Orson CaptainSass, Olga Tereshenko",,,ROS253,/ROS253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS254,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS255,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS256,ROS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

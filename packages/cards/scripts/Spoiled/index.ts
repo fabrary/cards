@@ -10,7 +10,7 @@ import { getSpecialPrinting } from "@flesh-and-blood/types";
 const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - ROS.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
 const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AAZ.csv`;
-const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - First Strike.csv`;
+// const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - First Strike.csv`;
 const spoiledSetCardsFile5 = `${__dirname}/Flesh and Blood Spoiler Card Data - AIO.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
@@ -24,7 +24,7 @@ const parsedSpoiledSetCards = [
   ...parseCSV(spoiledSetCardsFile1),
   ...parseCSV(spoiledSetCardsFile2),
   ...parseCSV(spoiledSetCardsFile3),
-  ...parseCSV(spoiledSetCardsFile4),
+  // ...parseCSV(spoiledSetCardsFile4),
   ...parseCSV(spoiledSetCardsFile5),
 ]
   .filter((card) => !!card.name)

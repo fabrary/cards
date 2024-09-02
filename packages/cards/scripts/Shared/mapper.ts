@@ -30,7 +30,9 @@ export const getStringIfNotNumber = (value?: string): string | undefined => {
 
 export const IGNORE_OPPOSITE_SIDES = [
   "Blossom of Spring",
+  "Crown of Providence",
   "Fyendal's Spring Tunic",
+  "Hope Merchant's Hood",
   "Scabskin Leathers",
   "Snapdragon Scalers",
 ];

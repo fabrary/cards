@@ -1,12 +1,7 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artists,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artists 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variation 3,Artists 3,Flavor Text 3,Image URL 3
-LGS298,LGS,"Cosmo, Scroll of Ancestral Tapestry",,,,,,,,,,,,,,,,,,,,P,C,,Asur Misoa,,LGS298,https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS298.png,555758,https://www.tcgplayer.com/product/555758?Language=English&Printing=Cold+Foil,,,,,,,,,,,,,,,
-"LGS293, LGS294","LGS, LGS",Beckoning Mistblade,,,,,,,,,,,,,,,,,,,,P,C,,Jessketchin,,LGS293,/LGS293.png,557724,https://www.tcgplayer.com/product/557724?Language=English&Printing=Cold+Foil,P,C,,Jessketchin,,LGS294,/LGS294.png,557725,https://www.tcgplayer.com/product/557725?Language=English&Printing=Cold+Foil,,,,,,
-LGS302,LGS,Tiger Taming Khakkara,,,,,,,,,,,,,,,,,,,,P,C,,Joseph Qiu,,LGS302,/LGS302.png,,,,,,,,,,,,,,,,,
-FAB265,FAB,Runechant,,,,,,,,,,,,,,,,,,,,P,R,AA,Jessketchin,,FAB265,/FAB265.png,,,,,,,,,,,,,,,,,
-FAB266,FAB,Runechant,,,,,,,,,,,,,,,,,,,,P,R,AA,Jessketchin,,FAB266,/FAB266.png,,,,,,,,,,,,,,,,,
 FAB244,FAB,Zen State,,,,,,,,,,,,,,"This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.
 
 If you would be dealt damage, prevent 1 of that damage.",,,,,,P,C,,Jessada Sutthi,,FAB244,/FAB244.png,,,,,,,,,,,,,,,,,
-FAB261,FAB,Fyendal's Fighting Spirit,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Nathaniel Himawan,,FAB261,/FAB261.png,,,,,,,,,,,,,,,,,
+FAB261,FAB,Fyendal's Fighting Spirit,1,,,,,,,,,,,,,,,,,,,P,R,AA,Nathaniel Himawan,,FAB261,/FAB261.png,,,,,,,,,,,,,,,,,
 FAB262,FAB,Lightning Press,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Orson CaptainSass,,FAB262,/FAB262.png,,,,,,,,,,,,,,,,,
-FAB278,FAB,Command and Conquer,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Joseph Qiu,,FAB278,/FAB278.png,,,,,,,,,,,,,,,,,
+

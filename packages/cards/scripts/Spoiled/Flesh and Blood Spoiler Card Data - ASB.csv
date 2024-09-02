@@ -3,16 +3,6 @@ ASB001,ASB,"Ser Boltyn, Breaker of Dawn",,,,,,,Hero,,,,,,,"If you've **charged**
 
 **Attack Reaction** - Banish a card from Boltyn's soul: Target attack with {p} greater than its base gets **go again**.",,,,,No,R,,,Nikolay Moskvin,,ASB001,/ASB001.png,,,,,,,,,,,,,
 ASB002,ASB,"Raydn, Duskbane",,,,,,,,,,,,,,,,,,,No,M,,,Nikolay Moskvin,,ASB002,/ASB002.png,,,,,,,,,,,,,
-ASB003,ASB,Helm of Halo's Grace,,,,2,,,"Light, Warrior, Equipment, Head","Charge, Blade Break",,,,,,"When this defends, you may **charge** your hero's soul. If a yellow card is **charged** this way, draw a card.
-
-**Blade Break**",Light Warrior Equipment - Head,,,,No,M,R,,Eilene Cherie,,ASB003,/ASB003.png,,,,,,,,,,,,,
-ASB004,ASB,Solar Plexus,,,,,,,"Light, Equipment, Chest",Instant,,,,,,"**Instant** - Destroy this, banish a card from your soul: Yellow cards cost you {r} less to play this turn.",Light Equipment - Chest,,,,No,M,R,,Kimberly Pantoni,,ASB004,/ASB004.png,,,,,,,,,,,,,
-ASB005,ASB,Bracers of Bellona's Grace,,,,2,,,"Light, Warrior, Equipment, Arms","Charge, Blade Break",,,,,,"When this defends, you may **charge** your hero's soul. If a yellow card is **charged** this way, create a Courage token.
-
-**Blade Break**",Light Warrior Equipment - Arms,,,,No,M,R,,Eilene Cherie,,ASB005,/ASB005.png,,,,,,,,,,,,,
-ASB006,ASB,Warpath of Winged Grace,,,,2,,,"Light, Warrior, Equipment, Legs","Charge, Blade Break",,,,,,"When this defends, you may **charge** your hero's soul. If a yellow card is **charged** this way, create a Quicken token.
-
-**Blade Break**",Light Warrior Equipment - Legs,,,,No,M,R,,Eilene Cherie,,ASB006,/ASB006.png,,,,,,,,,,,,,
 ASB007,ASB,Beaming Bravado,1,,,,,,,,,,,,,,,,,,,C,,,Sebastian Szmyd,,ASB007,/ASB007.png,,,,,,,,,,,,,
 ASB008,ASB,Bolt of Courage,1,,,,,,,,,,,,,,,,,,,C,,,Phu Thieu,,ASB008,/ASB008.png,,,,,,,,,,,,,
 ASB009,ASB,Engulfing Light,1,,,,,,,,,,,,,,,,,,,C,,,Nikolay Moskvin,,ASB009,/ASB009.png,,,,,,,,,,,,,
@@ -31,9 +21,6 @@ ASB021,ASB,Bolt of Courage,2,,,,,,,,,,,,,,,,,,,C,,,Phu Thieu,,ASB021,/ASB021.png
 ASB022,ASB,Take Flight,2,,,,,,,,,,,,,,,,,,,C,,,bimawithpencil,,ASB022,/ASB022.png,,,,,,,,,,,,,
 ASB023,ASB,V of the Vanguard,2,,,,,,,,,,,,,,,,,,No,R,,,Narendra B Adi,,ASB023,/ASB023.png,,,,,,,,,,,,,
 ASB024,ASB,Valiant Thrust,2,,,,,,,,,,,,,,,,,,,C,,,Silvia Meiliani,,ASB024,/ASB024.png,,,,,,,,,,,,,
-ASB025,ASB,Saving Grace,2,0,,3,,,"Light, Warrior, Defense Reaction",Charge,,,,,,"As an additional cost to play this, you may **charge** your hero's soul.
-
-If you've **charged** this turn, target attack gets -2{p}.",Light Warrior Defense Reaction,,,,No,M,,,Andrew Chou,,ASB025,/ASB025.png,M,R,,Andrew Chou,,,/ASB025.png,,,,,,
 ASB026,ASB,Lumina Ascension,2,,,,,,,,,,,,,,,,,,No,M,,,Othon Nikolaidis,,ASB026,/ASB026.png,,,,,,,,,,,,,
 ASB027,ASB,Courage,,,,,,,,,,,,,,,,,,,,T,,,Henrique Lindner,,ASB027,/ASB027.png,,,,,,,,,,,,,
 ASB028,ASB,Quicken,,,,,,,,,,,,,,,,,,,,T,,,King Fung Ng,,ASB028,/ASB028.png,,,,,,,,,,,,,
