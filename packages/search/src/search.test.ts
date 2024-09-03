@@ -5,10 +5,10 @@ import {
   Rarity,
   Release,
   Treatment,
+  Type,
 } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import Search from "./search";
-import { getHeroBreakdown } from ".";
 import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 
 const doubleSidedCards: DoubleSidedCard[] = cards.map((card) => {
@@ -278,9 +278,8 @@ describe("Card search", () => {
     }
   });
 
-  const { all } = getHeroBreakdown(cards);
-
-  const heroAndFirstClassFilters: string[] = all
+  const heroAndFirstClassFilters: string[] = cards
+    .filter(({ types }) => types.includes(Type.Hero))
     .filter(({ hero }) => hero !== Hero.Taylor)
     .map(({ classes, hero }) => `l:"${hero}" c:"${classes[0]}"`);
   it.each(heroAndFirstClassFilters)("Gets cards for %s", (searchTerm) => {
