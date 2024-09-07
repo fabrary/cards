@@ -313,7 +313,7 @@ const getCardData = (card: ParsedCard): Card => {
   const keywords = getKeywords(card);
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);
-  const restrictedFormats = getRestrictedFormats(card);
+  const restrictedFormats = getRestrictedFormats({ cardIdentifier });
   const sets = getSets(printings);
   const specializations = getSpecializations(card);
   const talents = getTalents(card);

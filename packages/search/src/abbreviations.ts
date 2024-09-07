@@ -117,6 +117,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Death Dealer",
   },
   {
+    abbreviations: ["DIO"],
+    card: "Dash I/O",
+  },
+  {
     abbreviations: ["DPot", "D Pot"],
     card: "Potion of Deja Vu",
   },

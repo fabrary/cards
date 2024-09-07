@@ -189,19 +189,22 @@ export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
 };
 
 const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
-  Awakening: [Format.ClassicConstructedLivingLegend],
-  "Crippling Crush": [Format.ClassicConstructedLivingLegend],
-  Hypothermia: [Format.ClassicConstructedLivingLegend],
-  "Oaken Old": [Format.ClassicConstructedLivingLegend],
-  "Star Struck": [Format.ClassicConstructedLivingLegend],
-  "Warmonger's Diplomacy": [Format.ClassicConstructedLivingLegend],
+  "awakening-blue": [Format.ClassicConstructedLivingLegend],
+  // "bonds-of-ancestry-red": [Format.ClassicConstructedLivingLegend],
+  // "bonds-of-ancestry-yellow": [Format.ClassicConstructedLivingLegend],
+  // "bonds-of-ancestry-blue": [Format.ClassicConstructedLivingLegend],
+  "crippling-crush-red": [Format.ClassicConstructedLivingLegend],
+  "hypothermia-blue": [Format.ClassicConstructedLivingLegend],
+  "oaken-old-red": [Format.ClassicConstructedLivingLegend],
+  "star-struck-yellow": [Format.ClassicConstructedLivingLegend],
+  "warmongers-diplomacy-blue": [Format.ClassicConstructedLivingLegend],
 };
 export const getRestrictedFormats = ({
-  name,
+  cardIdentifier,
 }: {
-  name: string;
+  cardIdentifier: string;
 }): Format[] | undefined => {
-  const restrictedFormats = cardsWithRestrictedFormats[name];
+  const restrictedFormats = cardsWithRestrictedFormats[cardIdentifier];
   if (restrictedFormats) {
     restrictedFormats.sort();
   }

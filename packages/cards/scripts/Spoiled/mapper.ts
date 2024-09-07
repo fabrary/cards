@@ -731,7 +731,7 @@ const getCardData = (card: ParsedCard): Card => {
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);
   const sets = getSets(card);
-  const restrictedFormats = getRestrictedFormats(card);
+  const restrictedFormats = getRestrictedFormats({ cardIdentifier });
   const specializations = getSpecializations(card);
   const talents = getTalents(card);
 
