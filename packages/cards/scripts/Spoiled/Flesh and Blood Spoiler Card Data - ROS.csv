@@ -109,6 +109,9 @@ ROS219,ROS,Truce,3,0,,3,,,"Generic, Action, Aura",,,,,,,"When this enters the ar
 At the beginning of their end phase, destroy this and you each gain 3{h}.
 
 When you or a card you control is the target of an attack they control, destroy this and draw a card.",Generic Action - Aura,,,,No,M,,,Wisnu Tan,,,ROS219,/ROS219.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS223,ROS,Count Your Blessings,1,2,,,,,"Generic, Instant",,,,,,,"Gain X{h}, where X is 3 plus the number of Count Your Blessings in your graveyard.",Generic Instant,,,,No,R,,,Eilene Cherie,,,ROS223,/ROS223.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS224,ROS,Count Your Blessings,2,2,,,,,"Generic, Instant",,,,,,,"Gain X{h}, where X is 2 plus the number of Count Your Blessings in your graveyard.",Generic Instant,,,,No,R,,,Eilene Cherie,,,ROS224,/ROS224.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ROS225,ROS,Count Your Blessings,3,2,,,,,"Generic, Instant",,,,,,,"Gain X{h}, where X is 1 plus the number of Count Your Blessings in your graveyard.",Generic Instant,,,,No,R,,,Eilene Cherie,,,ROS225,/ROS225.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ROS231,ROS,Arcane Polarity,1,0,,,,,"Generic, Instant",,,,,,,"Gain 1{h}
 
 If you've been dealt arcane damage this turn, instead gain 4{h}.",Generic Instant,,,,,C,,,Rodrigo Rizo,,,ROS231,/ROS231.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
