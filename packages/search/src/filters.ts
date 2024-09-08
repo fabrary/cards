@@ -185,6 +185,7 @@ const lifeFilter: FilterToPropertyMapping = {
 const nameFilter: FilterToPropertyMapping = {
   property: "name",
   isString: true,
+  partialMatch: true,
 };
 
 const pitchFilter: FilterToPropertyMapping = {
