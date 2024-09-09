@@ -190,9 +190,9 @@ export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
 
 const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
   "awakening-blue": [Format.ClassicConstructedLivingLegend],
-  // "bonds-of-ancestry-red": [Format.ClassicConstructedLivingLegend],
-  // "bonds-of-ancestry-yellow": [Format.ClassicConstructedLivingLegend],
-  // "bonds-of-ancestry-blue": [Format.ClassicConstructedLivingLegend],
+  "bonds-of-ancestry-red": [Format.ClassicConstructedLivingLegend],
+  "bonds-of-ancestry-yellow": [Format.ClassicConstructedLivingLegend],
+  "bonds-of-ancestry-blue": [Format.ClassicConstructedLivingLegend],
   "crippling-crush-red": [Format.ClassicConstructedLivingLegend],
   "hypothermia-blue": [Format.ClassicConstructedLivingLegend],
   "oaken-old-red": [Format.ClassicConstructedLivingLegend],
