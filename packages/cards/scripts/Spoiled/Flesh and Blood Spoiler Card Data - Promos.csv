@@ -5,3 +5,6 @@ If you would be dealt damage, prevent 1 of that damage.",,,,,,P,C,,Jessada Sutth
 FAB261,FAB,Fyendal's Fighting Spirit,1,,,,,,,,,,,,,,,,,,,P,R,AA,Nathaniel Himawan,,FAB261,/FAB261.png,,,,,,,,,,,,,,,,,
 FAB262,FAB,Lightning Press,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Orson CaptainSass,,FAB262,/FAB262.png,,,,,,,,,,,,,,,,,
 HER123,HER,"Ira, Scarlet Revenger",,,,,40,4,"Ninja, Hero",,,,,,,Your second attack each turn gets +1{p}.,Ninja Hero,,No,,No,P,R,EA,soyameii,,HER123,/HER123.png,,,,,,,,,,,,,,,,,
+JDG032,"JDG, AIO",Heavy Industry Power Plant,,,,2,,,"Mechanologist, Equipment, Chest","Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
+
+**Temper**",Mechanologist Equipment - Chest,,,,No,P,C,,Simon Dominic,,JDG032,/JDG032.png,,,,,,,,,,,,,,,,,

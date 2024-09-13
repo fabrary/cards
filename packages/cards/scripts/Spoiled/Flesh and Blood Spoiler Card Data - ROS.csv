@@ -104,7 +104,7 @@ ROS217,ROS,Ten Foot Tall and Bulletproof,1,3,10,10,,,"Generic, Action, Attack",,
 ROS218,ROS,Call to the Grave,3,0,,2,,,"Generic, Action",Go again,,,,,,"Search your deck for a card, put it into your graveyard, then shuffle.
 
 **Go again**",Generic Action,,,,No,M,,,Sebastian Giacobino,,,ROS218,/ROS218.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-ROS219,ROS,Truce,3,0,,3,,,"Generic, Action, Aura",,,,,,,"When this enters the arena, choose an opponent.
+ROS219,ROS,Truce,3,2,,3,,,"Generic, Action, Aura",,,,,,,"When this enters the arena, choose an opponent.
 
 At the beginning of their end phase, destroy this and you each gain 3{h}.
 
