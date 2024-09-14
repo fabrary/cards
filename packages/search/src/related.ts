@@ -42,9 +42,10 @@ export const getRelatedCards = (
       const otherName = getOverrideOrName(other);
 
       const sameName = cardName === otherName;
+      const differentCard = card.cardIdentifier !== other.cardIdentifier;
       const differentPitch = card.pitch !== other.pitch;
 
-      if (sameName && differentPitch) {
+      if (sameName && differentCard && differentPitch) {
         otherPitches.push(other);
       } else if (!sameName) {
         const isCardSeismicSurge = card.name === "Seismic Surge";
