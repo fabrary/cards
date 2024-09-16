@@ -6,7 +6,7 @@ import { Release } from "@flesh-and-blood/types";
 const releasedCardsFile = `${__dirname}/card.json`;
 const releasedSetsFile = `${__dirname}/set.json`;
 
-const releasesToSkip = [Release.ArmoryDeckAzalea, Release.ArmoryDeckBoltyn];
+const releasesToSkip: Release[] = [];
 
 const parsedCards = parseJSON(releasedCardsFile, releasedSetsFile)
   .filter(({ name }) => {
