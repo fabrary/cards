@@ -81,7 +81,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   const images: Printing[] = [];
   const { printings } = card;
   for (const {
-    artist,
+    artists,
     artVariation,
     imageUrl,
     edition: rawEdition,
@@ -125,7 +125,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     if (!isPrintExcluded) {
       images.push({
-        artists: artist.split(" // "),
+        artists,
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
         identifier,

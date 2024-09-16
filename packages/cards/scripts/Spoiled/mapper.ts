@@ -37,7 +37,7 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 
-import tcgplayerProductFile from "./tcgplayer.json";
+import tcgplayerProductFile from "../Released/card.json";
 import { SourceJSONCard } from "../Released/parser";
 import { getLegalFormats, getLegalHeroes } from "../Shared/legality";
 
@@ -121,7 +121,7 @@ const getTCGplayerInfo = (
         ({
           foiling,
           id,
-          art_variation,
+          art_variations,
           tcgplayer_product_id,
           tcgplayer_url,
         }) => {
@@ -132,8 +132,8 @@ const getTCGplayerInfo = (
 
           const sameSetIdentifier = identifier === id;
           const sameTreatment =
-            (!treatmentString && !art_variation) ||
-            treatmentString === art_variation;
+            (!treatmentString && !art_variations.length) ||
+            treatmentString === art_variations[0];
 
           const tcgplayerInfoFormattedCorrectly =
             !!tcgplayer_product_id &&

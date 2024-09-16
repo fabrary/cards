@@ -11,7 +11,7 @@ export interface Printing {
   edition: string;
   foiling: string;
   rarity: string;
-  artist: string;
+  artists: string[];
   artVariation: string;
   imageUrl: string;
   tcgplayer?: {
@@ -87,8 +87,8 @@ export interface SourcePrinting {
   // foilings: string[];
   foiling: string;
   rarity: string;
-  artist: string;
-  art_variation: string;
+  artists: string[];
+  art_variations: string[];
   image_url: string;
   set_printing_unique_id: string;
   tcgplayer_product_id?: string;
@@ -180,8 +180,8 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
 
       const printings = rawPrintings.map(
         ({
-          artist,
-          art_variation,
+          artists,
+          art_variations,
           edition,
           foiling,
           // foilings,
@@ -222,8 +222,8 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
             }
           }
           return {
-            artist,
-            artVariation: art_variation,
+            artists,
+            artVariation: art_variations.length ? art_variations[0] : "",
             edition,
             foiling,
             // foilings,
@@ -237,7 +237,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
       );
 
       const artists: string[] = Array.from(
-        new Set(printings.map(({ artist }) => artist))
+        new Set(printings.flatMap(({ artists }) => artists))
       );
       const rarities: string[] = Array.from(
         new Set(printings.map(({ rarity }) => rarity.trim()))
