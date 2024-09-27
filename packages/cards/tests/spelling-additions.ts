@@ -88,6 +88,7 @@ export const fabDictionary = [
   "deathmatch",
   "deathwhistle",
   "de",
+  "déjà",
   "decimator",
   "demigon",
   "descendent",

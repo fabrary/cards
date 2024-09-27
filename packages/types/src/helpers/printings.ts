@@ -70,6 +70,9 @@ const specialImagePrintingOverrides: {
   "rockslide-trap-blue": {
     print: "LGS152-Rainbow",
   },
+  "rosetta-thorn": {
+    print: "ROS256-Cold",
+  },
   "sigil-of-solace-red": {
     print: "FAB178-Rainbow-Extended Art",
   },
@@ -224,6 +227,9 @@ const defaultImagePrintingOverrides: {
   },
   "rockslide-trap-blue": {
     print: "LGS152-Rainbow",
+  },
+  "rosetta-thorn": {
+    print: "ELE222-First",
   },
   "spectral-shield": {
     print: "MST158",

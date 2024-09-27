@@ -2,6 +2,7 @@ import {
   Release,
   setIdentifierToSetMappings,
   setToSetIdentifierMappings,
+  Treatment,
 } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
 
@@ -135,6 +136,23 @@ interface SourceJSONSet {
   }[];
 }
 
+const artVariationsToExclude = {
+  DYN234: ["AB"],
+  EVR017: ["FA"],
+  FAB136: ["AA", "EA"],
+  FAB178: ["AA"],
+  FAB190: ["AA"],
+  FAB223: ["AA"],
+  FAB224: ["AA"],
+  FAB231: ["AA"],
+  ROS008: ["AA"],
+  UPR043: ["AB"],
+  // UPR103: ["AA"],
+};
+const artVariationsToAdd = {
+  "UPR042-C": ["AT"],
+};
+
 export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
   const jsonCards = JSON.parse(
     readFileSync(cardJSON, "utf-8")
@@ -221,9 +239,46 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
               set = setIdentifierToSetMappings[set_id.toLowerCase()];
             }
           }
+
+          const variationID = `${id.trim()}-${foiling}-${rarity}`;
+          const artVariationsToConsider = art_variations.filter((variation) => {
+            const toExclude = artVariationsToExclude[variationID] || [];
+
+            return !toExclude.includes(variation);
+          });
+          if (artVariationsToAdd[variationID]) {
+            artVariationsToConsider.push(artVariationsToAdd[variationID][0]);
+          }
+          const artVariation = artVariationsToConsider.length
+            ? artVariationsToConsider[0]
+            : "";
+
+          if (id === "FAB136") {
+            console.log(
+              JSON.stringify(
+                {
+                  id,
+                  name,
+                  artVariation,
+                  art_variations,
+                  artVariationsToConsider,
+                },
+                null,
+                2
+              )
+            );
+
+            const log = {
+              name: "Sigil of Solace",
+              artVariation: "EA",
+              art_variations: ["AA", "EA"],
+              artVariationsToConsider: ["EA"],
+            };
+          }
+
           return {
             artists,
-            artVariation: art_variations.length ? art_variations[0] : "",
+            artVariation,
             edition,
             foiling,
             // foilings,

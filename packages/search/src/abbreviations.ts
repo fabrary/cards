@@ -25,8 +25,12 @@ export const abbreviations: Abbreviation[] = [
     card: "10,000 Year Reunion",
   },
   {
-    abbreviations: ["3oak"],
-    card: "Three of a Kind",
+    abbreviations: ["Pajamas", "PJs"],
+    card: "Alluvion Constellas",
+  },
+  {
+    abbreviations: ["Dullcap"],
+    card: "Arcanite Skullcap",
   },
   {
     abbreviations: ["ALS"],
@@ -77,24 +81,32 @@ export const abbreviations: Abbreviation[] = [
     card: "Burn Them All",
   },
   {
-    abbreviations: ["Cake", "🎂"],
-    card: "Ninth Blade of the Blood Oath",
+    abbreviations: ["CStrike", "C-Strike", "C Strike"],
+    card: "Celestial Cataclysm",
   },
   {
     abbreviations: ["CLF"],
     card: "Channel Lake Frigid",
   },
   {
+    abbreviations: ["CLV"],
+    card: "Channel Lightning Valley",
+  },
+  {
     abbreviations: ["CMH"],
     card: "Channel Mount Heroic",
+  },
+  {
+    abbreviations: ["CMT"],
+    card: "Channel the Millennium Tree",
   },
   {
     abbreviations: ["CnC", "C&C"],
     card: "Command and Conquer",
   },
   {
-    abbreviations: ["CStrike", "C-Strike", "C Strike"],
-    card: "Celestial Cataclysm",
+    abbreviations: ["CYB"],
+    card: "Count Your Blessings",
   },
   {
     abbreviations: ["Cat", "Kitty"],
@@ -119,14 +131,6 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["DIO"],
     card: "Dash I/O",
-  },
-  {
-    abbreviations: ["DPot", "D Pot"],
-    card: "Potion of Deja Vu",
-  },
-  {
-    abbreviations: ["Dullcap"],
-    card: "Arcanite Skullcap",
   },
   {
     abbreviations: ["EBTT"],
@@ -157,8 +161,8 @@ export const abbreviations: Abbreviation[] = [
     card: "Frostbite",
   },
   {
-    abbreviations: ["Frosty Hammer"],
-    card: "Winter's Wail",
+    abbreviations: ["Yum yum"],
+    card: "Fruits of the Forest",
   },
   {
     abbreviations: ["GnT"],
@@ -171,6 +175,10 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["HoI"],
     card: "Heart of Ice",
+  },
+  {
+    abbreviations: ["Pumpkin"],
+    card: "Jack-o'-lantern",
   },
   {
     abbreviations: ["KKBB"],
@@ -193,6 +201,14 @@ export const abbreviations: Abbreviation[] = [
     card: "Last Ditch Effort",
   },
   {
+    abbreviations: ["LtC"],
+    card: "Lead the Charge",
+  },
+  {
+    abbreviations: ["LNW"],
+    card: "Leave No Witnesses",
+  },
+  {
     abbreviations: ["LFaL", "L4aL"],
     card: "Life for a Life",
   },
@@ -201,52 +217,52 @@ export const abbreviations: Abbreviation[] = [
     card: "Lost in Thought",
   },
   {
-    abbreviations: ["LNW"],
-    card: "Leave No Witnesses",
-  },
-  {
     abbreviations: ["LoW"],
     card: "Lord of Wind",
-  },
-  {
-    abbreviations: ["LtC"],
-    card: "Lead the Charge",
-  },
-  {
-    abbreviations: ["MaxV"],
-    card: "Maximum Velocity",
   },
   {
     abbreviations: ["MMB"],
     card: "Mage Master Boots",
   },
   {
-    abbreviations: ["MnG"],
-    card: "Meat and Greet",
+    abbreviations: ["MaxV"],
+    card: "Maximum Velocity",
   },
   {
     abbreviations: ["MoM"],
     card: "Mask of Momentum",
   },
   {
-    abbreviations: ["Pajamas", "PJs"],
-    card: "Alluvion Constellas",
+    abbreviations: ["MnG"],
+    card: "Meat and Greet",
   },
   {
-    abbreviations: ["Ponder Run"],
-    card: "Premeditate",
-  },
-  {
-    abbreviations: ["PF", "🔥"],
-    card: "Phoenix Flame",
+    abbreviations: ["Cake", "🎂"],
+    card: "Ninth Blade of the Blood Oath",
   },
   {
     abbreviations: ["PoM"],
     card: "Peace of Mind",
   },
   {
-    abbreviations: ["Pumpkin"],
-    card: "Jack-o'-lantern",
+    abbreviations: ["PF", "🔥"],
+    card: "Phoenix Flame",
+  },
+  {
+    abbreviations: ["PtW"],
+    card: "Poison the Well",
+  },
+  {
+    abbreviations: ["Thanos", "Infinity Gauntlet"],
+    card: "Polarity Reversal Script",
+  },
+  {
+    abbreviations: ["DPot", "D Pot"],
+    card: "Potion of Déjà Vu",
+  },
+  {
+    abbreviations: ["Ponder Run"],
+    card: "Premeditate",
   },
   {
     abbreviations: ["Qi Unbound"],
@@ -261,6 +277,14 @@ export const abbreviations: Abbreviation[] = [
     card: "Restless Coalescence",
   },
   {
+    abbreviations: ["SSGB"],
+    card: "Sandscour Greatbow",
+  },
+  {
+    abbreviations: ["SSP"],
+    card: "Sand Sketched Plan",
+  },
+  {
     abbreviations: ["SFaF", "S4aS"],
     card: "Scar for a Scar",
   },
@@ -273,32 +297,8 @@ export const abbreviations: Abbreviation[] = [
     card: "Spinning Wheel Kick",
   },
   {
-    abbreviations: ["SSGB"],
-    card: "Sandscour Greatbow",
-  },
-  {
-    abbreviations: ["SSP"],
-    card: "Sand Sketched Plan",
-  },
-  {
     abbreviations: ["SFTL"],
     card: "Swing Fist, Think Later",
-  },
-  {
-    abbreviations: ["Thanos", "Infinity Gauntlet"],
-    card: "Polarity Reversal Script",
-  },
-  {
-    abbreviations: ["TAYG"],
-    card: "That All You Got?",
-  },
-  {
-    abbreviations: ["ToS"],
-    card: "Test of Strength",
-  },
-  {
-    abbreviations: ["TROM"],
-    card: "This Round's on Me",
   },
   {
     abbreviations: ["TTT"],
@@ -309,12 +309,32 @@ export const abbreviations: Abbreviation[] = [
     card: "Teklovossen, the Mechropotent",
   },
   {
+    abbreviations: ["ToS"],
+    card: "Test of Strength",
+  },
+  {
+    abbreviations: ["TAYG"],
+    card: "That All You Got?",
+  },
+  {
+    abbreviations: ["TROM"],
+    card: "This Round's on Me",
+  },
+  {
+    abbreviations: ["3oak"],
+    card: "Three of a Kind",
+  },
+  {
     abbreviations: ["Pox Malone", "Post Malone"],
     card: "Virulent Touch",
   },
   {
     abbreviations: ["Cast Homes"],
     card: "Visit Goldmane Estate",
+  },
+  {
+    abbreviations: ["Frosty Hammer"],
+    card: "Winter's Wail",
   },
   {
     abbreviations: ["ZTS"],

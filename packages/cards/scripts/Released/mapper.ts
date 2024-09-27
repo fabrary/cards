@@ -72,6 +72,12 @@ const getHero = (card: ParsedCard): Hero | null => {
 
 const excludedPrintings: string[] = [];
 
+const setsToUseIdentifierAsBackup = [
+  Release.ArmoryDeckBoltyn,
+  Release.ArmoryDeckAzalea,
+  Release.Promos,
+];
+
 const setEditionMapping = {
   A: ReleaseEdition.Alpha,
   F: ReleaseEdition.First,
@@ -98,11 +104,16 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     let imageUrlClean = imageUrl
       ? imageUrl
+          .replace("MVA_BACK.webp", "MV_V2_BACK.webp")
+          .replace("MVA.webp", "MV_V2.webp")
+          .replace("-A.webp", ".webp")
+          .replace("-B.webp", "_V2.webp")
           .replace("-RF.webp", ".webp")
           .replace("-CF.webp", ".webp")
           .replace(".original.webp", ".webp")
+          .replace(".original.png", ".png")
       : "";
-    const image = !!imageUrlClean
+    let image = !!imageUrlClean
       ? imageUrlClean
           .substring(
             imageUrlClean.lastIndexOf("/") + 1,
@@ -110,6 +121,10 @@ const getPrintings = (card: ParsedCard): Printing[] => {
           )
           .replace(".format-webp", "")
       : "";
+
+    if (!image && setsToUseIdentifierAsBackup.includes(set)) {
+      image = identifier;
+    }
 
     const foiling = Foiling[rawFoiling];
     const print = getPrint({
