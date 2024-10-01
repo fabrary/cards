@@ -191,10 +191,16 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
     commonerBanned,
     commonerLegal,
     commonerSuspended,
+    livingLegendBanned,
   } = card;
 
   const bannedFormats: Format[] = [];
 
+  if (livingLegendBanned) {
+    bannedFormats.push(
+      ...[Format.BlitzLivingLegend, Format.ClassicConstructedLivingLegend]
+    );
+  }
   if (blitzLivingLegend || blitzBanned || blitzSuspended) {
     bannedFormats.push(Format.Blitz);
   }

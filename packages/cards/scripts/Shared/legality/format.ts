@@ -28,6 +28,8 @@ const commonerBannedCards = [
   "Stubby Hammerers",
 ];
 
+const livingLegendBannedCards = ["Kraken's Aethervein"];
+
 const LIMITED_SETS = Object.values(coreSetIdentifiers);
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
@@ -134,6 +136,18 @@ export const getLegalFormats = (
       // if (!isInALimitedSet) {
       //   isLegalPerFormat = false;
       // }
+    }
+
+    const isLivingLegendFormat = [
+      Format.BlitzLivingLegend,
+      Format.ClassicConstructedLivingLegend,
+    ].includes(format);
+    if (isLivingLegendFormat) {
+      const isBanned = livingLegendBannedCards.includes(card.name);
+
+      if (isBanned) {
+        isLegalPerFormat = false;
+      }
     }
 
     const heroMatchesFormat = isYoungHero

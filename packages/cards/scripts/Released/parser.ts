@@ -56,6 +56,7 @@ export interface ParsedCard {
   commonerBanned: boolean;
   commonerLegal: boolean;
   commonerSuspended: boolean;
+  livingLegendBanned: boolean;
 }
 
 enum SourceAlternateArtVariation {
@@ -121,6 +122,7 @@ export interface SourceJSONCard {
   cc_banned: boolean;
   commoner_banned: boolean;
   upf_banned: boolean;
+  living_legend_banned: boolean;
   blitz_suspended: boolean;
   cc_suspended: boolean;
   commoner_suspended: boolean;
@@ -178,6 +180,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
       commoner_banned,
       commoner_legal,
       commoner_suspended,
+      living_legend_banned,
       defense,
       functional_text,
       granted_keywords,
@@ -253,28 +256,28 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
             ? artVariationsToConsider[0]
             : "";
 
-          if (id === "FAB136") {
-            console.log(
-              JSON.stringify(
-                {
-                  id,
-                  name,
-                  artVariation,
-                  art_variations,
-                  artVariationsToConsider,
-                },
-                null,
-                2
-              )
-            );
+          // if (id === "FAB136") {
+          //   console.log(
+          //     JSON.stringify(
+          //       {
+          //         id,
+          //         name,
+          //         artVariation,
+          //         art_variations,
+          //         artVariationsToConsider,
+          //       },
+          //       null,
+          //       2
+          //     )
+          //   );
 
-            const log = {
-              name: "Sigil of Solace",
-              artVariation: "EA",
-              art_variations: ["AA", "EA"],
-              artVariationsToConsider: ["EA"],
-            };
-          }
+          //   const log = {
+          //     name: "Sigil of Solace",
+          //     artVariation: "EA",
+          //     art_variations: ["AA", "EA"],
+          //     artVariationsToConsider: ["EA"],
+          //   };
+          // }
 
           return {
             artists,
@@ -338,6 +341,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         commonerBanned: commoner_banned,
         commonerLegal: commoner_legal,
         commonerSuspended: commoner_suspended,
+        livingLegendBanned: living_legend_banned,
       };
     }
   );
