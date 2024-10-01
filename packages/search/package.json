@@ -13,11 +13,11 @@
     "full": "npm run build"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "file:../types",
+    "@flesh-and-blood/types": "^3.1.67",
     "fuse.js": "^6.6.2"
   },
   "devDependencies": {
-    "@flesh-and-blood/cards": "file:../cards",
+    "@flesh-and-blood/cards": "^3.1.68",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",
     "esbuild": "^0.19.10",
@@ -47,5 +47,5 @@
     "FAB",
     "FABTCG"
   ],
-  "gitHead": "06f02a196432a4e4750f08ee98558cb894729fba"
+  "gitHead": "b10fef49c77c2f6888200b5be691c88d685c5b3a"
 }
