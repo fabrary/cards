@@ -1,4 +1,4 @@
-import { Type, Keyword, Subtype } from "../interfaces";
+import { Card, Type, Keyword, Subtype } from "../interfaces";
 
 export const getCardIdentifier = (
   card: {
@@ -62,11 +62,12 @@ export const getIsDeckCard = (types: Type[], keywords?: Keyword[]) => {
   return isDeckCardType && isNotEphemeral;
 };
 
-export const getCanAddToDeck = (types: Type[], keywords?: Keyword[]) => {
+export const getCanAddToDeck = ({ isCardBack, keywords, types }: Card) => {
   const isArenaCard = getIsArenaCard(types, keywords);
   const isDeckCard = getIsDeckCard(types, keywords);
+  const isCardFront = !isCardBack;
 
-  return isArenaCard || isDeckCard;
+  return isCardFront && (isArenaCard || isDeckCard);
 };
 
 export const getShouldRotateCardImage = (card: {
