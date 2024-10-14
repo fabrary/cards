@@ -101,6 +101,7 @@ export const getLegalFormats = (
             isSpecialization ||
             isWeapon ||
             isYoungHero));
+
       if (!isAllowed) {
         isLegalPerFormat = false;
       }

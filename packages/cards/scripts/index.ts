@@ -56,6 +56,11 @@ releasedCards.forEach((card) => {
     ).sort();
     const sets = Array.from(new Set([...duplicate.sets, ...card.sets])).sort();
 
+    const legalFormats = Array.from(
+      new Set([...duplicate.legalFormats, ...card.legalFormats])
+    );
+    duplicate.legalFormats = legalFormats;
+
     duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
     duplicate.printings = deduplicatedPrintings;
