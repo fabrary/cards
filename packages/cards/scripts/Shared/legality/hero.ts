@@ -137,6 +137,10 @@ const iyslander: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Wizard], ICE),
 };
 
+const jarl: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Guardian], EARTH_AND_ICE),
+};
+
 const kano: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Wizard]),
 };
@@ -221,6 +225,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.GenisWotchuneed]: genis,
   [Hero.Ira]: ira,
   [Hero.Iyslander]: iyslander,
+  [Hero.Jarl]: jarl,
   [Hero.Kano]: kano,
   [Hero.Kassai]: kassai,
   [Hero.Katsu]: katsu,

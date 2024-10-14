@@ -968,6 +968,22 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["aio"],
     talents: [],
   },
+  {
+    cards: 30,
+    classes: [Class.Guardian],
+    heroes: [Hero.Jarl],
+    languages: [
+      Language.English,
+      Language.French,
+      Language.Italian,
+      Language.Japanese,
+    ],
+    release: Release.ArmoryDeckOriginsJarl,
+    releaseDate: new Date("2024-11-29T00:00:00.000Z"),
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["ajv"],
+    talents: [Talent.Elemental, Talent.Earth, Talent.Ice],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -993,10 +1009,11 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ...fullSetIdentifiers,
 
   // Armory decks
-  ako: Release.ArmoryDeckKayo,
-  asb: Release.ArmoryDeckBoltyn,
   aaz: Release.ArmoryDeckAzalea,
+  asb: Release.ArmoryDeckBoltyn,
   aio: Release.ArmoryDeckDash,
+  ako: Release.ArmoryDeckKayo,
+  ajv: Release.ArmoryDeckOriginsJarl,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

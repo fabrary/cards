@@ -285,7 +285,7 @@ export const abbreviations: Abbreviation[] = [
     card: "Sand Sketched Plan",
   },
   {
-    abbreviations: ["SFaF", "S4aS"],
+    abbreviations: ["SFaS", "S4aS"],
     card: "Scar for a Scar",
   },
   {

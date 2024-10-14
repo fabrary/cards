@@ -1,0 +1,42 @@
+Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,Rarity,Foiling,Art Variation,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variation 2,Artists 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variation 3,Artists 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variation 4,Artists 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4,Rarity 5,Foiling 5,Art Variation 5,Artists 5,Flavor Text 5,Identifier 5,Image URL 5,TCGPlayer Product Id 5,TCGPlayer Url 5
+AJV001,AJV,Jarl Vetreiđi,,,,,40,4,"Elemental, Guardian, Hero",Essence of Earth and Ice,,,,,,"Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.
+
+**Essence of Earth and Ice**",Elemental Guardian Hero,,No,,No,M,R,,Federico Musetti,,,AJV001,/AJV001.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV002,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV002,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV003,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV004,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV005,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV006,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV007,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV007,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV008,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV009,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV010,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV011,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV012,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV013,AJV,Unforgetting Unforgiving,1,,,4,,,"Guardian, Block",Jarl Specialization,,,,,,"**Jarl Specialization**
+
+When this defends, if the attacking hero controls an equipment with a -1{d} counter, you may search your deck for a Mangle, banish it, then shuffle. You may play it during your next action phase.",Guardian Block,,,,No,M,,,Carlos Cruchaga,,,AJV013,/AJV013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV014,AJV,Crumble to Eternity,3,0,,3,,,"Ice, Earth, Action, Aura",Jarl Specialization,,,,,,"**Jarl Specialization**
+
+When this enters the arena, you may put a -1{d} counter on an equipment.
+
+At the beginning of your action phase, destroy this, then your next attack this turn gets **dominate**.",Ice Earth Action - Aura,,,,No,M,,,Carlos Cruchaga,,,AJV014,/AJV014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV015,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV016,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV017,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV018,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV019,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV020,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV021,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV022,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV023,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV024,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV024,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV025,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV026,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV026,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV027,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV027,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV028,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV028,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV029,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV030,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV030,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV031,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV031,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV032,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV033,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

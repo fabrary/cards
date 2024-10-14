@@ -154,10 +154,11 @@ export enum Release {
   WelcomeToRathe = "Welcome to Rathe",
 
   // Hero/blitz/armory decks
-  ArmoryDeckKayo = "Armory Deck: Kayo",
-  ArmoryDeckBoltyn = "Armory Deck: Boltyn",
   ArmoryDeckAzalea = "Armory Deck: Azalea",
+  ArmoryDeckBoltyn = "Armory Deck: Boltyn",
   ArmoryDeckDash = "Armory Deck: Dash",
+  ArmoryDeckKayo = "Armory Deck: Kayo",
+  ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
 
   // Blitz decks
   ArakniBlitzDeck = "Arakni Blitz Deck",
@@ -321,6 +322,7 @@ export enum Hero {
   GenisWotchuneed = "Genis Wotchuneed",
   Ira = "Ira",
   Iyslander = "Iyslander",
+  Jarl = "Jarl",
   Kano = "Kano",
   Kassai = "Kassai",
   Katsu = "Katsu",
