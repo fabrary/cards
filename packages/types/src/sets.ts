@@ -984,6 +984,18 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["ajv"],
     talents: [Talent.Elemental, Talent.Earth, Talent.Ice],
   },
+  {
+    cards: 265,
+    classes: [Class.Assassin, Class.Ninja],
+    heroes: [Hero.Cindra, Hero.Fang],
+    languages: ALL_LANGUAGES,
+    raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
+    release: Release.TheHunted,
+    releaseDate: new Date("2025-01-31T00:00:00.000Z"),
+    releaseType: ReleaseType.StandaloneBooster,
+    setIdentifiers: ["hnt"],
+    talents: [Talent.Draconic],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1003,6 +1015,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   hvy: Release.HeavyHitters,
   mst: Release.PartTheMistveil,
   ros: Release.Rosetta,
+  hnt: Release.TheHunted,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {

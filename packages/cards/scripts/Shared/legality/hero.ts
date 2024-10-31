@@ -20,6 +20,7 @@ const CLASSES_AND_TALENTS = (classes: Class[], talents: Talent[] = []) => {
 };
 
 const DRACONIC = [Talent.Draconic];
+const ROYAL_DRACONIC = [Talent.Royal, Talent.Draconic];
 const EARTH_AND_ICE_AND_LIGHTNING = [
   Talent.Elemental,
   Talent.Earth,
@@ -92,6 +93,10 @@ const chane: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
 };
 
+const cindra: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Ninja], ROYAL_DRACONIC),
+};
+
 const dash: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Mechanologist]),
 };
@@ -119,6 +124,10 @@ const enigma: AppliedFilter = {
 
 const fai: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Ninja], DRACONIC),
+};
+
+const fang: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Warrior], ROYAL_DRACONIC),
 };
 
 const florian: AppliedFilter = {
@@ -214,6 +223,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Briar]: briar,
   [Hero.Brutus]: brutus,
   [Hero.Chane]: chane,
+  [Hero.Cindra]: cindra,
   [Hero.Dash]: dash,
   [Hero.DataDoll]: dataDoll,
   [Hero.Dorinthea]: dorinthea,
@@ -221,6 +231,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Emperor]: emperor,
   [Hero.Enigma]: enigma,
   [Hero.Fai]: fai,
+  [Hero.Fang]: fang,
   [Hero.Florian]: florian,
   [Hero.GenisWotchuneed]: genis,
   [Hero.Ira]: ira,

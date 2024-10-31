@@ -7,7 +7,7 @@ import { combineAndAddMissingFields } from "../Shared/combined-and-missing-field
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
-const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - ROS.csv`;
+const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - HNT.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASB.csv`;
 const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AAZ.csv`;
 const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - AJV.csv`;

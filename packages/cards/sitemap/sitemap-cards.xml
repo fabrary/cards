@@ -626,6 +626,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/art-of-the-dragon-blood-red</loc>
+    <lastmod>2024-10-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/art-of-war-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -3691,6 +3696,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/defang-the-dragon-red</loc>
+    <lastmod>2024-10-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/defender-of-daybreak-red</loc>
     <lastmod>2023-07-03</lastmod>
     <priority>0.5</priority>
@@ -5081,6 +5091,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/extinguish-the-flames-red</loc>
+    <lastmod>2024-10-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/exude-confidence-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -5223,6 +5238,11 @@
   <url>
     <loc>https://fabrary.net/cards/fatigue-shot-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/fealty</loc>
+    <lastmod>2024-10-31</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10133,6 +10153,11 @@
   <url>
     <loc>https://fabrary.net/cards/prized-galea</loc>
     <lastmod>2024-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/proclaim-vengeance-red</loc>
+    <lastmod>2024-10-31</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

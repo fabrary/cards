@@ -90,6 +90,7 @@ export const fabDictionary = [
   "de",
   "déjà",
   "decimator",
+  "defang",
   "demigon",
   "descendent",
   "dimenxxional",

@@ -5,6 +5,7 @@ If you would be dealt damage, prevent 1 of that damage.",,,,,,P,C,,Jessada Sutth
 FAB261,FAB,Fyendal's Fighting Spirit,1,,,,,,,,,,,,,,,,,,,P,R,AA,Nathaniel Himawan,,FAB261,/FAB261.png,,,,,,,,,,,,,,,,,
 FAB262,FAB,Lightning Press,1,,,,,,,,,,,,,,,,,,No,P,R,AA,Orson CaptainSass,,FAB262,/FAB262.png,,,,,,,,,,,,,,,,,
 HER123,HER,"Ira, Scarlet Revenger",,,,,40,4,"Ninja, Hero",,,,,,,Your second attack each turn gets +1{p}.,Ninja Hero,,No,,No,P,R,EA,soyameii,,HER123,/HER123.png,,,,,,,,,,,,,,,,,
-JDG032,"JDG, AIO",Heavy Industry Power Plant,,,,2,,,"Mechanologist, Equipment, Chest","Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
+JDG032,JDG,Heavy Industry Power Plant,,,,2,,,"Mechanologist, Equipment, Chest","Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
 
 **Temper**",Mechanologist Equipment - Chest,,,,No,P,C,,Simon Dominic,,JDG032,/JDG032.png,,,,,,,,,,,,,,,,,
+FAB307,"FAB, HNT",Art of the Dragon: Blood,1,0,4,3,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets **go again** and the next 3 Draconic cards you play this turn cost {r} less to play.",Ninja Action - Attack,,,,,P,,EA,Tomasz Jedruszek,,FAB307,/FAB307.png,,,,,,,,,,,,,,,,,
