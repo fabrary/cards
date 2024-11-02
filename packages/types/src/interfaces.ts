@@ -396,7 +396,7 @@ export enum Keyword {
   Heave = "Heave",
   Intimidate = "Intimidate",
   Legendary = "Legendary",
-  Marked = "Marked",
+  Mark = "Mark",
   Material = "Material",
   Meld = "Meld",
   Modular = "Modular",

@@ -11,6 +11,10 @@ export const fabDictionaryIgnore = [
 
 export const fabDictionary = [
   "10000",
+  "5Lp3d",
+  "7hRu",
+  "7h3",
+  "cR4X",
   "aeo",
   "aesir",
   "aetherbloom",
