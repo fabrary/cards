@@ -255,6 +255,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Riptide]: CLASSES_AND_TALENTS([Class.Ranger]),
   [Hero.Ruudi]: CLASSES_AND_TALENTS([Class.Merchant]),
   [Hero.Shiyana]: CLASSES_AND_TALENTS([]),
+  [Hero.Slippy]: CLASSES_AND_TALENTS([Class.Assassin], [Talent.Chaos]),
   [Hero.Squizzy]: CLASSES_AND_TALENTS([Class.Merchant]),
   [Hero.Starvo]: CLASSES_AND_TALENTS(
     [Class.Guardian],
@@ -327,15 +328,16 @@ export const getLegalHeroes = (card: {
       }
 
       const matchesStarvoSpecialization =
-        card.specializations &&
-        card.specializations.length > 0 &&
-        card.specializations.includes(Hero.Bravo) &&
-        hero === Hero.Starvo;
+        card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
+
+      const matchesSlippySpecialization =
+        card.specializations?.includes(Hero.Arakni) && hero === Hero.Slippy;
 
       const matchesSpecializations =
         !card.specializations ||
         card.specializations.length === 0 ||
         matchesStarvoSpecialization ||
+        matchesSlippySpecialization ||
         card.specializations.includes(hero);
 
       const matchesSubtypes =

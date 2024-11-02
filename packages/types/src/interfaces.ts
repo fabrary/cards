@@ -218,6 +218,7 @@ export enum ReleaseEdition {
 }
 
 export enum Talent {
+  Chaos = "Chaos",
   Draconic = "Draconic",
   Earth = "Earth",
   Elemental = "Elemental",
@@ -344,6 +345,7 @@ export enum Hero {
   Riptide = "Riptide",
   Ruudi = "Ruu'di",
   Shiyana = "Shiyana",
+  Slippy = "Slippy",
   Squizzy = "Squizzy",
   Starvo = "Starvo",
   Taipanis = "Taipanis",

@@ -987,14 +987,14 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 265,
     classes: [Class.Assassin, Class.Ninja],
-    heroes: [Hero.Cindra, Hero.Fang],
+    heroes: [Hero.Cindra, Hero.Fang, Hero.Slippy],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
     releaseDate: new Date("2025-01-31T00:00:00.000Z"),
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["hnt"],
-    talents: [Talent.Draconic],
+    talents: [Talent.Chaos, Talent.Draconic],
   },
 ];
 

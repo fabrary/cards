@@ -80,14 +80,24 @@ const getClasses = (card: ParsedCard): Class[] => {
 
 const getHero = (card: ParsedCard): Hero | null => {
   const { types, name } = card;
+
+  let heroOnCard: Hero | null = null;
+
   if (types.includes("Hero")) {
     for (const [hero, value] of Object.entries(Hero)) {
       if (name.includes(value as string)) {
-        return Hero[hero];
+        heroOnCard = Hero[hero];
       }
     }
   }
-  return null;
+
+  if (name === "Bravo, Star of the Show") {
+    heroOnCard = Hero.Starvo;
+  } else if (name === "Arakni, 5L!p3d 7hRu 7h3 cR4X") {
+    heroOnCard = Hero.Slippy;
+  }
+
+  return heroOnCard;
 };
 
 interface TCGplayer {
