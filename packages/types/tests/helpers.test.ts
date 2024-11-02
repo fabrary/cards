@@ -1,4 +1,9 @@
-import { getCardIdentifier } from "../src/helpers";
+import {
+  getIsArenaCard,
+  getIsDeckCard,
+  getCardIdentifier,
+} from "../src/helpers";
+import { Type } from "../src/interfaces";
 
 describe("Card identifiers", () => {
   const identifiers: [
@@ -49,4 +54,17 @@ describe("Card identifiers", () => {
       expect(cardIdentiferNumber).toEqual(number);
     }
   );
+});
+
+describe("Card types", () => {
+  const types = Object.values(Type);
+
+  it.each(types)("%s is an arena or deck card", (type) => {
+    const isArenaCard = getIsArenaCard(types);
+    const isDeckCard = getIsDeckCard(types);
+
+    const isArenaOrDeckCard = isArenaCard || isDeckCard;
+
+    expect(isArenaOrDeckCard).toEqual(true);
+  });
 });

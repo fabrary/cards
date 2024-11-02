@@ -1,5 +1,6 @@
 import {
   Class,
+  getIsDeckCard,
   Hero,
   Keyword,
   Subtype,
@@ -285,6 +286,7 @@ const HEROES: Hero[] = Object.values(Hero);
 const TYPES_TO_CHECK_FOR_PITCH = [
   Type.Action,
   Type.AttackReaction,
+  Type.Block,
   Type.DefenseReaction,
   Type.Instant,
   Type.Mentor,
@@ -322,7 +324,7 @@ export const getLegalHeroes = (card: {
       if (
         excludedPitches &&
         hero === Hero.Emperor &&
-        TYPES_TO_CHECK_FOR_PITCH.some((type) => card.types.includes(type))
+        getIsDeckCard(card.types, card.keywords)
       ) {
         matchesPitches = !excludedPitches.includes(card.pitch);
       }
