@@ -24,12 +24,18 @@ export const getPrint = (printing: {
   foiling?: string;
   set: string;
   treatment?: string;
+  treatments?: string[];
 }) => {
   const identifierExtension = identifierExtensionMapping[printing.set] || "";
   const identifier = `${printing.identifier}${identifierExtension}`;
 
   const edition = printing.edition ? `-${printing.edition}` : ``;
   const foiling = printing.foiling ? `-${printing.foiling}` : ``;
+  // const treatment = printing.treatments?.length
+  //   ? `-${printing.treatments.sort().join("-")}`
+  //   : printing.treatment
+  //   ? `-${printing.treatment}`
+  //   : ``;
   const treatment = printing.treatment ? `-${printing.treatment}` : ``;
 
   const back = printing.image?.toLowerCase().includes("back") ? `-Back` : ``;

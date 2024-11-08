@@ -2,8 +2,6 @@ Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arca
 FAB244,FAB,Zen State,,,,,,,,,,,,,,,"This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.
 
 If you would be dealt damage, prevent 1 of that damage.",,,,,,P,C,,Jessada Sutthi,,FAB244,/FAB244.png,,,,,,,,,,,,,,,,,
-FAB261,FAB,Fyendal's Fighting Spirit,1,,,,,,,,,,,,,,,,,,,,P,R,AA,Nathaniel Himawan,,FAB261,/FAB261.png,,,,,,,,,,,,,,,,,
-FAB262,FAB,Lightning Press,1,,,,,,,,,,,,,,,,,,,No,P,R,AA,Orson CaptainSass,,FAB262,/FAB262.png,,,,,,,,,,,,,,,,,
 HER123,HER,"Ira, Scarlet Revenger",,,,,40,4,,"Ninja, Hero",,,,,,,Your second attack each turn gets +1{p}.,Ninja Hero,,No,,No,P,R,EA,soyameii,,HER123,/HER123.png,,,,,,,,,,,,,,,,,
 JDG032,JDG,Heavy Industry Power Plant,,,,2,,,,"Mechanologist, Equipment, Chest","Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
 

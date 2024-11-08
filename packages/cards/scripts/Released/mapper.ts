@@ -97,7 +97,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   const { printings } = card;
   for (const {
     artists,
-    artVariation,
+    artVariations,
     imageUrl,
     edition: rawEdition,
     // foilings,
@@ -109,7 +109,16 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     // const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
     const edition = setEditionMapping[rawEdition];
 
-    const treatment = Treatment[artVariation];
+    let treatment: Treatment | undefined = undefined;
+    let treatments: Treatment[] = [];
+    for (const artVariation of artVariations) {
+      const art = Treatment[artVariation];
+      if (!treatment) {
+        treatment = art;
+      }
+      treatments.push(art);
+    }
+    treatments.sort();
 
     let imageUrlClean = imageUrl
       ? imageUrl
@@ -143,6 +152,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       foiling,
       set,
       treatment,
+      treatments,
     });
 
     const isPrintExcluded = excludedPrintings.includes(print);
@@ -158,6 +168,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         set,
         ...(tcgplayer ? { tcgplayer } : {}),
         ...(treatment ? { treatment } : {}),
+        ...(treatments?.length ? { treatments } : {}),
       });
     }
   }

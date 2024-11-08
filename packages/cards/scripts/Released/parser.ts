@@ -6,6 +6,16 @@ import {
 } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
 
+const IMAGES_TO_EXCLUDE = [
+  "ROS257",
+  "ROS257_BACK",
+  "ROS257_V2",
+  "ROS257_V2_BACK",
+];
+
+const filterOutUnwantedPrintings = ({ imageUrl }: Printing) =>
+  !IMAGES_TO_EXCLUDE.some((image) => imageUrl?.includes(image));
+
 export interface Printing {
   setIdentifier: string;
   set: Release;
@@ -13,7 +23,7 @@ export interface Printing {
   foiling: string;
   rarity: string;
   artists: string[];
-  artVariation: string;
+  artVariations: string[];
   imageUrl: string;
   tcgplayer?: {
     productId: string;
@@ -122,7 +132,7 @@ export interface SourceJSONCard {
   cc_banned: boolean;
   commoner_banned: boolean;
   upf_banned: boolean;
-  living_legend_banned: boolean;
+  ll_banned: boolean;
   blitz_suspended: boolean;
   cc_suspended: boolean;
   commoner_suspended: boolean;
@@ -180,7 +190,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
       commoner_banned,
       commoner_legal,
       commoner_suspended,
-      living_legend_banned,
+      ll_banned,
       defense,
       functional_text,
       granted_keywords,
@@ -199,100 +209,102 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         : "";
       const commonerBanned = commoner_banned ? new Date().toISOString() : "";
 
-      const printings = rawPrintings.map(
-        ({
-          artists,
-          art_variations,
-          edition,
-          foiling,
-          // foilings,
-          id,
-          image_url,
-          rarity,
-          set_id,
-          set_printing_unique_id,
-          tcgplayer_product_id,
-          tcgplayer_url,
-        }) => {
-          const tcgplayer =
-            !!tcgplayer_product_id && !!tcgplayer_url
-              ? { productId: tcgplayer_product_id, url: tcgplayer_url }
-              : undefined;
-
-          const matchingSet = jsonSets.find(({ printings }) =>
-            printings.some(
-              ({ unique_id }) => unique_id === set_printing_unique_id
-            )
-          );
-          let set: Release = Release.Promos;
-
-          if (!matchingSet) {
-            throw new Error(
-              `No set found for ${set_id} ${set_printing_unique_id}`
-            );
-          } else {
-            const validSets = Object.keys(setToSetIdentifierMappings);
-
-            const matchingValidSet = validSets.find(
-              (setName) => setName === matchingSet.name
-            );
-            if (matchingValidSet) {
-              set = matchingValidSet as Release;
-            } else {
-              set = setIdentifierToSetMappings[set_id.toLowerCase()];
-            }
-          }
-
-          const variationID = `${id.trim()}-${foiling}-${rarity}`;
-          const artVariationsToConsider = art_variations.filter((variation) => {
-            const toExclude = artVariationsToExclude[variationID] || [];
-
-            return !toExclude.includes(variation);
-          });
-          if (artVariationsToAdd[variationID]) {
-            artVariationsToConsider.push(artVariationsToAdd[variationID][0]);
-          }
-          const artVariation = artVariationsToConsider.length
-            ? artVariationsToConsider[0]
-            : "";
-
-          // if (id === "FAB136") {
-          //   console.log(
-          //     JSON.stringify(
-          //       {
-          //         id,
-          //         name,
-          //         artVariation,
-          //         art_variations,
-          //         artVariationsToConsider,
-          //       },
-          //       null,
-          //       2
-          //     )
-          //   );
-
-          //   const log = {
-          //     name: "Sigil of Solace",
-          //     artVariation: "EA",
-          //     art_variations: ["AA", "EA"],
-          //     artVariationsToConsider: ["EA"],
-          //   };
-          // }
-
-          return {
+      const printings = rawPrintings
+        .map(
+          ({
             artists,
-            artVariation,
+            art_variations,
             edition,
             foiling,
             // foilings,
-            imageUrl: image_url,
+            id,
+            image_url,
             rarity,
-            set,
-            setIdentifier: id.trim(),
-            tcgplayer,
-          };
-        }
-      );
+            set_id,
+            set_printing_unique_id,
+            tcgplayer_product_id,
+            tcgplayer_url,
+          }) => {
+            const tcgplayer =
+              !!tcgplayer_product_id && !!tcgplayer_url
+                ? { productId: tcgplayer_product_id, url: tcgplayer_url }
+                : undefined;
+
+            const matchingSet = jsonSets.find(({ printings }) =>
+              printings.some(
+                ({ unique_id }) => unique_id === set_printing_unique_id
+              )
+            );
+            let set: Release = Release.Promos;
+
+            if (!matchingSet) {
+              throw new Error(
+                `No set found for ${set_id} ${set_printing_unique_id}`
+              );
+            } else {
+              const validSets = Object.keys(setToSetIdentifierMappings);
+
+              const matchingValidSet = validSets.find(
+                (setName) => setName === matchingSet.name
+              );
+              if (matchingValidSet) {
+                set = matchingValidSet as Release;
+              } else {
+                set = setIdentifierToSetMappings[set_id.toLowerCase()];
+              }
+            }
+
+            // const variationID = `${id.trim()}-${foiling}-${rarity}`;
+            // const artVariationsToConsider = art_variations.filter((variation) => {
+            //   const toExclude = artVariationsToExclude[variationID] || [];
+
+            //   return !toExclude.includes(variation);
+            // });
+            // if (artVariationsToAdd[variationID]) {
+            //   artVariationsToConsider.push(artVariationsToAdd[variationID][0]);
+            // }
+            // const artVariations = artVariationsToConsider.length
+            //   ? artVariationsToConsider[0]
+            //   : "";
+
+            // if (id === "FAB136") {
+            //   console.log(
+            //     JSON.stringify(
+            //       {
+            //         id,
+            //         name,
+            //         artVariation,
+            //         art_variations,
+            //         artVariationsToConsider,
+            //       },
+            //       null,
+            //       2
+            //     )
+            //   );
+
+            //   const log = {
+            //     name: "Sigil of Solace",
+            //     artVariation: "EA",
+            //     art_variations: ["AA", "EA"],
+            //     artVariationsToConsider: ["EA"],
+            //   };
+            // }
+
+            return {
+              artists,
+              artVariations: art_variations,
+              edition,
+              foiling,
+              // foilings,
+              imageUrl: image_url,
+              rarity,
+              set,
+              setIdentifier: id.trim(),
+              tcgplayer,
+            };
+          }
+        )
+        .filter(filterOutUnwantedPrintings);
 
       const artists: string[] = Array.from(
         new Set(printings.flatMap(({ artists }) => artists))
@@ -341,7 +353,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         commonerBanned: commoner_banned,
         commonerLegal: commoner_legal,
         commonerSuspended: commoner_suspended,
-        livingLegendBanned: living_legend_banned,
+        livingLegendBanned: ll_banned,
       };
     }
   );

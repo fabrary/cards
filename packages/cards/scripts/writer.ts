@@ -49,6 +49,7 @@ const getPrintings = (printings: Printing[]) => {
         set,
         tcgplayer,
         treatment,
+        treatments,
         image,
         oppositeImage,
       }
@@ -88,6 +89,16 @@ const getPrintings = (printings: Printing[]) => {
     ``
   );
 };
+
+// ${
+//   treatments?.length
+//     ? `treatments: [${getEnumValues(
+//         treatments,
+//         "Treatment",
+//         Treatment
+//       )}],`
+//     : ``
+// }
 
 const generateCardTypeScript = (card: Card): String => {
   return `{

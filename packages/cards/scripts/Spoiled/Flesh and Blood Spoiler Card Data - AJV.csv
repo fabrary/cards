@@ -2,12 +2,24 @@ Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arca
 AJV001,AJV,Jarl Vetreiđi,,,,,40,4,,"Elemental, Guardian, Hero",Essence of Earth and Ice,,,,,,"Whenever you play an Ice card, create a Frostbite token in an opponent's exposed head, chest, arms, or legs zone.
 
 **Essence of Earth and Ice**",Elemental Guardian Hero,,No,,No,M,R,,Federico Musetti,,,AJV001,/AJV001.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJV002,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV002,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV002,AJV,"Summit, the Unforgiving",,,4,,,,,"Earth, Ice, Guardian, Weapon, Polearm, 1H",Heavy,Once per Turn Action,Attack,,,,"**Once per Turn Action** - {r}{r}{r} {r}{r}{r}: **Attack**
+
+When this hits a hero, create a Frostbite token in their exposed head, chest, arms, or legs zone.
+
+**Heavy** - If this is the only card equipped to your weapon zones, it gets +2{p}.",Earth Ice Guardian Weapon - Polearm (1H),,,,No,M,R,,Alief Rusdiatama,,,AJV002,/AJV002.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV003,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJV004,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJV005,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJV006,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJV007,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV007,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV004,AJV,Ollin Ice Cap,,,,1,,,,"Ice, Guardian, Equipment, Head",Blade Break,,,,,,"When this defends together with an Ice card, create a Frostbite token under the attacking hero's control.
+
+**Blade Break**",Ice Guardian Equipment - Head,,,,No,M,R,,Marcellino Tan,,,AJV004,/AJV004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV005,AJV,Tectonic Crust,,,,2,,,,"Earth, Guardian, Equipment, Chest",Temper,,,,,,"When this defends together with an Earth card, create a Seismic Surge token.
+
+**Temper**",Earth Guardian Equipment - Chest,,,,No,M,R,,Septimius Ferdian,,,AJV005,/AJV005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV006,AJV,Gauntlets of the Boreal Domain,,,,2,,,,"Earth, Ice, Guardian, Equipment, Arms",Temper,Once per Turn Action,Go again,Dominate,,,"**Once per Turn Action** - {r}{r}: If an Earth card is pitched this way, your attacks named Mangle get +2{p} this turn. If an Ice card is pitched this way, your attacks named Mangle get **dominate** this turn. **Go again**
+
+**Temper**",Earth Ice Guardian Equipment - Arms,,,,No,L,R,,Federico Musetti,,,AJV006,/AJV006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV007,AJV,Root-Bound Trunks,,,,1,,,,"Earth, Guardian, Equipment, Legs",Blade Break,,,,,,"When this defends together with an aura card, create an Embodiment of Earth token.
+
+**Blade Break**",Earth Guardian Equipment - Legs,,,,No,M,R,,Arghawana Rim,,,AJV007,/AJV007.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV008,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV009,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV010,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -16,7 +28,7 @@ AJV012,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV013,AJV,Unforgetting Unforgiving,1,,,4,,,,"Guardian, Block",Jarl Specialization,,,,,,"**Jarl Specialization**
 
 When this defends, if the attacking hero controls an equipment with a -1{d} counter, you may search your deck for a Mangle, banish it, then shuffle. You may play it during your next action phase.",Guardian Block,,,,No,M,,,Carlos Cruchaga,,,AJV013,/AJV013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJV014,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV014,/AJV014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV014,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV015,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV016,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV017,AJV,Channel Mount Isen,3,0,,3,,,,"Ice, Action, Aura","Go again, Channel Ice",,,,,,"**Go again**
@@ -30,7 +42,11 @@ When this enters the arena, you may put a -1{d} counter on an equipment.
 
 At the beginning of your action phase, destroy this, then your next attack this turn gets **dominate**.",Ice Earth Action - Aura,,,,No,M,,,Carlos Cruchaga,,,AJV018,/AJV018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV019,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-AJV020,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+AJV020,AJV,Frozen to Death,3,3,,3,,,,"Ice, Guardian, Action",Ice Fusion,,,,,,"**Ice Fusion**
+
+If this was **fused**, you may destroy an equipment with a -1{d} counter.
+
+You may create a Frostbite token in an exposed head, chest, arms, or legs zone.",Ice Guardian Action,,,,No,M,S,,Simon Wong,,,AJV020,/AJV020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV021,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV022,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 AJV023,AJV,,,,,,,,,,,,,,,,,,,,,,,,,,,,AJV023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

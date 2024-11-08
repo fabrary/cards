@@ -60,6 +60,7 @@ export interface Printing {
     url?: string;
   };
   treatment?: Treatment;
+  treatments?: Treatment[];
 }
 
 export enum Foiling {

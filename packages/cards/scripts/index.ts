@@ -58,7 +58,7 @@ releasedCards.forEach((card) => {
 
     const legalFormats = Array.from(
       new Set([...duplicate.legalFormats, ...card.legalFormats])
-    );
+    ).sort();
     duplicate.legalFormats = legalFormats;
 
     duplicate.artists = artists;

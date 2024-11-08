@@ -1,5 +1,5 @@
 import { mapJSON } from "./mapper";
-import { parseJSON } from "./parser";
+import { ParsedCard, parseJSON } from "./parser";
 import { filterOutUnwantedCards } from "../Shared";
 import { Release } from "@flesh-and-blood/types";
 
