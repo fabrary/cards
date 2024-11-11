@@ -372,7 +372,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     foiling,
     identifier,
     imageUrl,
-    treatment,
+    treatments,
     tcgplayerProductId,
     tcgplayerUrl,
     artists2,
@@ -380,7 +380,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     identifier2,
     imageUrl2,
     rarity2,
-    treatment2,
+    treatments2,
     tcgplayerProductId2,
     tcgplayerUrl2,
     artists3,
@@ -388,7 +388,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     identifier3,
     imageUrl3,
     rarity3,
-    treatment3,
+    treatments3,
     tcgplayerProductId3,
     tcgplayerUrl3,
     artists4,
@@ -396,7 +396,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     identifier4,
     imageUrl4,
     rarity4,
-    treatment4,
+    treatments4,
     tcgplayerProductId4,
     tcgplayerUrl4,
     artists5,
@@ -404,7 +404,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     identifier5,
     imageUrl5,
     rarity5,
-    treatment5,
+    treatments5,
     tcgplayerProductId5,
     tcgplayerUrl5,
   } = card;
@@ -415,7 +415,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     identifier: identifier || identifiers[0],
     setString: setIdentifiers[0],
     imageUrl,
-    treatmentString: treatment,
+    treatmentString: treatments?.length ? treatments[0] : undefined,
     ...(tcgplayerProductId && tcgplayerUrl
       ? {
           tcgplayerProductId,
@@ -482,7 +482,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor2,
       imageUrl: imageUrl2,
       setString: setIdentifier,
-      treatmentString: treatment2,
+      treatmentString: treatments2?.length ? treatments2[0] : undefined,
       ...(tcgplayerProductId2 && tcgplayerUrl2
         ? {
             tcgplayerProductId: tcgplayerProductId2,
@@ -506,7 +506,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor3,
       imageUrl: imageUrl3,
       setString: setIdentifier,
-      treatmentString: treatment3,
+      treatmentString: treatments3?.length ? treatments3[0] : undefined,
       ...(tcgplayerProductId3 && tcgplayerUrl3
         ? {
             tcgplayer: {
@@ -532,7 +532,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor4,
       imageUrl: imageUrl4,
       setString: setIdentifier,
-      treatmentString: treatment4,
+      treatmentString: treatments4?.length ? treatments4[0] : undefined,
       ...(tcgplayerProductId4 && tcgplayerUrl4
         ? {
             tcgplayer: {
@@ -558,7 +558,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor5,
       imageUrl: imageUrl5,
       setString: setIdentifier,
-      treatmentString: treatment5,
+      treatmentString: treatments5?.length ? treatments5[0] : undefined,
       ...(tcgplayerProductId5 && tcgplayerUrl5
         ? {
             tcgplayer: {

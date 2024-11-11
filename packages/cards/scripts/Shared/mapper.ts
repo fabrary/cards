@@ -206,9 +206,9 @@ const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
   "crippling-crush-red": [Format.ClassicConstructedLivingLegend],
   "hypothermia-blue": [Format.ClassicConstructedLivingLegend],
   "oaken-old-red": [Format.ClassicConstructedLivingLegend],
-  "open-the-floodgates-red": [Format.ClassicConstructedLivingLegend],
-  "open-the-floodgates-yellow": [Format.ClassicConstructedLivingLegend],
-  "open-the-floodgates-blue": [Format.ClassicConstructedLivingLegend],
+  "open-the-flood-gates-red": [Format.ClassicConstructedLivingLegend],
+  "open-the-flood-gates-yellow": [Format.ClassicConstructedLivingLegend],
+  "open-the-flood-gates-blue": [Format.ClassicConstructedLivingLegend],
   "warmongers-diplomacy-blue": [Format.ClassicConstructedLivingLegend],
 };
 export const getRestrictedFormats = ({

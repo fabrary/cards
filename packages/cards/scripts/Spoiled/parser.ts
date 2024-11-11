@@ -28,7 +28,7 @@ export interface ParsedCard {
   identifier?: string;
   imageUrl: string;
   rarity: string;
-  treatment?: string;
+  treatments?: string;
   tcgplayerProductId?: string;
   tcgplayerUrl?: string;
   // 2nd printing
@@ -37,7 +37,7 @@ export interface ParsedCard {
   identifier2?: string;
   imageUrl2?: string;
   rarity2?: string;
-  treatment2?: string;
+  treatments2?: string;
   tcgplayerProductId2?: string;
   tcgplayerUrl2?: string;
   // 3rd printing
@@ -46,7 +46,7 @@ export interface ParsedCard {
   identifier3?: string;
   imageUrl3?: string;
   rarity3?: string;
-  treatment3?: string;
+  treatments3?: string;
   tcgplayerProductId3?: string;
   tcgplayerUrl3?: string;
   // 4th printing
@@ -55,7 +55,7 @@ export interface ParsedCard {
   identifier4?: string;
   imageUrl4?: string;
   rarity4?: string;
-  treatment4?: string;
+  treatments4?: string;
   tcgplayerProductId4?: string;
   tcgplayerUrl4?: string;
   // 5th printing
@@ -64,7 +64,7 @@ export interface ParsedCard {
   identifier5?: string;
   imageUrl5?: string;
   rarity5?: string;
-  treatment5?: string;
+  treatments5?: string;
   tcgplayerProductId5?: string;
   tcgplayerUrl5?: string;
 }
@@ -83,6 +83,11 @@ const fieldsWithListValues = [
   "identifiers",
   "rarities",
   "setIdentifiers",
+  "treatments",
+  "treatments2",
+  "treatments3",
+  "treatments4",
+  "treatments5",
   "types",
 ];
 const fieldsWithStringToBooleanValues = [
@@ -134,7 +139,7 @@ const headerMappings = {
   "Commoner Legal": "commonerLegal",
   // Printing
   Artists: "artists",
-  "Art Variation": "treatment",
+  "Art Variations": "treatments",
   Foiling: "foiling",
   Identifier: "identifier",
   "Image URL": "imageUrl",
@@ -143,7 +148,7 @@ const headerMappings = {
   "TCGPlayer Url": "tcgplayerUrl",
   // Printing 2
   "Artists 2": "artists2",
-  "Art Variation 2": "treatment2",
+  "Art Variations 2": "treatments2",
   "Foiling 2": "foiling2",
   "Identifier 2": "identifier2",
   "Image URL 2": "imageUrl2",
@@ -152,7 +157,7 @@ const headerMappings = {
   "TCGPlayer Url 2": "tcgplayerUrl2",
   // Printing 3
   "Artists 3": "artists3",
-  "Art Variation 3": "treatment3",
+  "Art Variations 3": "treatments3",
   "Foiling 3": "foiling3",
   "Identifier 3": "identifier3",
   "Image URL 3": "imageUrl3",
@@ -161,7 +166,7 @@ const headerMappings = {
   "TCGPlayer Url 3": "tcgplayerUrl3",
   // Printing 4
   "Artists 4": "artists4",
-  "Art Variation 4": "treatment4",
+  "Art Variations 4": "treatments4",
   "Foiling 4": "foiling4",
   "Identifier 4": "identifier4",
   "Image URL 4": "imageUrl4",
@@ -170,7 +175,7 @@ const headerMappings = {
   "TCGPlayer Url 4": "tcgplayerUrl4",
   // Printing 5
   "Artists 5": "artists5",
-  "Art Variation 5": "treatment5",
+  "Art Variations 5": "treatments5",
   "Foiling 5": "foiling5",
   "Identifier 5": "identifier5",
   "Image URL 5": "imageUrl5",
