@@ -21,7 +21,8 @@ const clashAndLimitedLegalOverrideCards = [
   "Zen State",
 ];
 
-const commonerBannedCards = [
+export const commonerBannedCards = [
+  "Aether Ironweave",
   "Amulet of Ice",
   "Ball Lightning",
   "Belittle",

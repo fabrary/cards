@@ -1,12 +1,6 @@
 import { Card, Format, Rarity } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
-
-const bannedInCommoner = [
-  "Amulet of Ice",
-  "Ball Lightning",
-  "Belittle",
-  "Stubby Hammerers",
-];
+import { commonerBannedCards } from "../scripts/Shared/legality";
 
 describe("Restrictions seem reasonable", () => {
   const isCommoner = (format: Format) => format === Format.Commoner;
@@ -36,7 +30,9 @@ describe("Restrictions seem reasonable", () => {
       const isAdult = !!hero && !young;
 
       const shouldNotBeLegalInCommoner =
-        isAdult || raritySuggestsNoCommoner || bannedInCommoner.includes(name);
+        isAdult ||
+        raritySuggestsNoCommoner ||
+        commonerBannedCards.includes(name);
 
       const isBannedOrNotLegal =
         bannedFormats?.some(isCommoner) || !legalFormats?.some(isCommoner);

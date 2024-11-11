@@ -88,6 +88,7 @@ export const abbreviations: Abbreviation[] = [
     abbreviations: ["CStrike", "C-Strike", "C Strike"],
     card: "Celestial Cataclysm",
   },
+  { abbreviations: ["CBelly"], card: "Cerebellum Processor" },
   {
     abbreviations: ["CLF"],
     card: "Channel Lake Frigid",
@@ -172,6 +173,7 @@ export const abbreviations: Abbreviation[] = [
     abbreviations: ["GnT"],
     card: "Give and Take",
   },
+  { abbreviations: ["Habibi"], card: "Hanabi Blaster" },
   {
     abbreviations: ["HMH"],
     card: "Hope Merchant's Hood",

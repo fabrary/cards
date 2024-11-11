@@ -122,6 +122,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     let imageUrlClean = imageUrl
       ? imageUrl
+          .replace(".width-450", "")
           .replace("MVA_BACK.webp", "MV_V2_BACK.webp")
           .replace("MVA.webp", "MV_V2.webp")
           .replace("-A.webp", ".webp")

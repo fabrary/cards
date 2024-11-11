@@ -31,12 +31,12 @@ export const getPrint = (printing: {
 
   const edition = printing.edition ? `-${printing.edition}` : ``;
   const foiling = printing.foiling ? `-${printing.foiling}` : ``;
-  // const treatment = printing.treatments?.length
-  //   ? `-${printing.treatments.sort().join("-")}`
-  //   : printing.treatment
-  //   ? `-${printing.treatment}`
-  //   : ``;
-  const treatment = printing.treatment ? `-${printing.treatment}` : ``;
+  const treatment = printing.treatments?.length
+    ? `-${printing.treatments.sort().join("-")}`
+    : printing.treatment
+    ? `-${printing.treatment}`
+    : ``;
+  // const treatment = printing.treatment ? `-${printing.treatment}` : ``;
 
   const back = printing.image?.toLowerCase().includes("back") ? `-Back` : ``;
 
@@ -139,8 +139,11 @@ export const getSpecialPrinting = (
       // Don't include Pro Tour, etc. hero cards for special printings because they're missing functional text
       const isMissingFunctionalText = identifier.toLowerCase().includes("win");
       const hasImage = !!image;
+      const isWhiteBorder = image.includes("HP");
+      const shouldConsiderPrinting =
+        hasImage && !isMissingFunctionalText && !isWhiteBorder;
 
-      if (hasImage && !isMissingFunctionalText) {
+      if (shouldConsiderPrinting) {
         if (!firstImage) {
           firstImage = printing;
         }
@@ -266,9 +269,12 @@ export const getDefaultPrinting = (
 
     for (const printing of printings) {
       const { edition, image, treatment } = printing;
-      const hasImage = !!image;
 
-      if (hasImage) {
+      const hasImage = !!image;
+      const isWhiteBorder = image.includes("HP");
+      const shouldConsiderPrinting = hasImage && !isWhiteBorder;
+
+      if (shouldConsiderPrinting) {
         if (!firstImage) {
           firstImage = printing;
         }

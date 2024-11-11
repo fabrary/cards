@@ -41,3 +41,15 @@ describe("Gets the correct default and special printings", () => {
     expect(specialPrinting.identifier).toEqual("DYN000");
   });
 });
+
+describe("No white border cards for default or special images", () => {
+  it.each(cards.map(({ cardIdentifier }) => cardIdentifier))(
+    "%s",
+    (cardIdentifier) => {
+      const card = cards.find((card) => card.cardIdentifier === cardIdentifier);
+
+      expect(card?.defaultImage).not.toContain("HP");
+      expect(card?.specialImage).not.toContain("HP");
+    }
+  );
+});

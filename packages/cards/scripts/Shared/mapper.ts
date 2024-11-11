@@ -9,8 +9,12 @@ import {
   Printing,
   Rarity,
   Release,
+  ReleaseEdition,
+  ReleaseInfo,
+  ReleaseType,
   Subtype,
   orderedFullSetBlackBorderIdentifiers,
+  releases,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
 
@@ -171,19 +175,25 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   });
 };
 
-const getPrintReleaseOrder = (printing: Printing): number => {
-  const index = orderedFullSetBlackBorderIdentifiers.findIndex(
-    (setIdentifier) => {
-      const printingSetIdentifier = printing.identifier.slice(0, 3);
-      return printingSetIdentifier === setIdentifier;
-    }
-  );
+const getPrintingReleaseOrder = ({ edition, set }: Printing): number => {
+  const releasesNewestToOldest = releases.slice().reverse();
 
-  return index > -1 ? index : 200;
+  const releaseIndex = releasesNewestToOldest.findIndex(
+    ({ release }) => release === set
+  );
+  let releaseOrder = releaseIndex >= 0 ? releaseIndex : 100000;
+  if (edition === ReleaseEdition.Alpha) {
+    releaseOrder -= 0.2;
+  } else if (edition === ReleaseEdition.First) {
+    releaseOrder -= 0.1;
+  }
+
+  return releaseOrder;
 };
+
 export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
-  const p1Order = getPrintReleaseOrder(p1);
-  const p2Order = getPrintReleaseOrder(p2);
+  const p1Order = getPrintingReleaseOrder(p1);
+  const p2Order = getPrintingReleaseOrder(p2);
 
   return p1Order - p2Order;
 };
@@ -196,7 +206,9 @@ const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
   "crippling-crush-red": [Format.ClassicConstructedLivingLegend],
   "hypothermia-blue": [Format.ClassicConstructedLivingLegend],
   "oaken-old-red": [Format.ClassicConstructedLivingLegend],
-  "star-struck-yellow": [Format.ClassicConstructedLivingLegend],
+  "open-the-floodgates-red": [Format.ClassicConstructedLivingLegend],
+  "open-the-floodgates-yellow": [Format.ClassicConstructedLivingLegend],
+  "open-the-floodgates-blue": [Format.ClassicConstructedLivingLegend],
   "warmongers-diplomacy-blue": [Format.ClassicConstructedLivingLegend],
 };
 export const getRestrictedFormats = ({
