@@ -2,7 +2,7 @@ export interface Card {
   artists: string[];
   cardIdentifier: string;
   classes: Class[];
-  defaultImage: string;
+  defaultImage?: string;
   legalFormats: Format[];
   legalHeroes: Hero[];
   name: string;
@@ -11,7 +11,7 @@ export interface Card {
   rarity: Rarity;
   setIdentifiers: string[];
   sets: Release[];
-  specialImage: string;
+  specialImage?: string;
   subtypes: Subtype[];
   types: Type[];
   typeText: string;
@@ -51,7 +51,7 @@ export interface Printing {
   edition?: ReleaseEdition;
   foiling?: Foiling;
   identifier: string;
-  image: string;
+  image?: string;
   oppositeImage?: string;
   print: string;
   set: Release;

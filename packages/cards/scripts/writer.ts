@@ -68,7 +68,7 @@ const getPrintings = (printings: Printing[]) => {
         foiling ? `foiling: ${getEnumValue(foiling, "Foiling", Foiling)},` : ``
       }
       identifier: "${identifier}",
-      image: "${image}",
+      ${image ? `image: "${image}",` : ``}
       ${oppositeImage ? `oppositeImage: "${oppositeImage}",` : ``}
       print: "${print}",
       set: ${getEnumValue(set, "Release", Release)},

@@ -131,7 +131,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
           .replace("-CF.webp", ".webp")
           .replace(".original.webp", ".webp")
           .replace(".original.png", ".png")
-      : "";
+      : undefined;
     let image = !!imageUrlClean
       ? imageUrlClean
           .substring(
@@ -139,7 +139,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
             imageUrlClean.lastIndexOf(".")
           )
           .replace(".format-webp", "")
-      : "";
+      : undefined;
 
     if (!image && setsToUseIdentifierAsBackup.includes(set)) {
       image = identifier;

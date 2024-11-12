@@ -24,3 +24,15 @@ describe("All images are unique", () => {
     expect(setsArray).toEqual([setsArray[0]]);
   });
 });
+
+describe("All cards have default and special images", () => {
+  it.each(cards.map(({ cardIdentifier }) => cardIdentifier))(
+    "%s",
+    (cardIdentifier) => {
+      const card = cards.find((card) => card.cardIdentifier === cardIdentifier);
+
+      expect(card?.defaultImage).not.toContain("HP");
+      expect(card?.specialImage).not.toContain("HP");
+    }
+  );
+});

@@ -48,8 +48,19 @@ describe("No white border cards for default or special images", () => {
     (cardIdentifier) => {
       const card = cards.find((card) => card.cardIdentifier === cardIdentifier);
 
+      const defaultPrinting = getDefaultPrinting(
+        card as Card,
+        (card as Card).printings
+      );
       expect(card?.defaultImage).not.toContain("HP");
+      expect(defaultPrinting.image).not.toContain("HP");
+
+      const specialPrinting = getSpecialPrinting(
+        card as Card,
+        (card as Card).printings
+      );
       expect(card?.specialImage).not.toContain("HP");
+      expect(specialPrinting.image).not.toContain("HP");
     }
   );
 });

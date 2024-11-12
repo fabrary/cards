@@ -139,7 +139,7 @@ export const getSpecialPrinting = (
       // Don't include Pro Tour, etc. hero cards for special printings because they're missing functional text
       const isMissingFunctionalText = identifier.toLowerCase().includes("win");
       const hasImage = !!image;
-      const isWhiteBorder = image.includes("HP");
+      const isWhiteBorder = image?.includes("HP");
       const shouldConsiderPrinting =
         hasImage && !isMissingFunctionalText && !isWhiteBorder;
 
@@ -271,7 +271,7 @@ export const getDefaultPrinting = (
       const { edition, image, treatment } = printing;
 
       const hasImage = !!image;
-      const isWhiteBorder = image.includes("HP");
+      const isWhiteBorder = image?.includes("HP");
       const shouldConsiderPrinting = hasImage && !isWhiteBorder;
 
       if (shouldConsiderPrinting) {
