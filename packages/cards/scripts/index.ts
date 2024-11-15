@@ -44,6 +44,10 @@ releasedCards.forEach((card) => {
       }
     });
     deduplicatedPrintings.sort(sortPrintingsByReleaseOrder);
+    const combinedFusions = Array.from(
+      new Set([...(duplicate.fusions || []), ...(card.fusions || [])])
+    );
+    const fusions = combinedFusions.length > 0 ? combinedFusions : undefined;
 
     const defaultImage = getDefaultPrinting(card, deduplicatedPrintings).image;
     const specialImage = getSpecialPrinting(card, deduplicatedPrintings).image;
@@ -63,6 +67,7 @@ releasedCards.forEach((card) => {
 
     duplicate.artists = artists;
     duplicate.defaultImage = defaultImage;
+    duplicate.fusions = fusions;
     duplicate.printings = deduplicatedPrintings;
     duplicate.rarity =
       card.rarity === Rarity.Promo ? duplicate.rarity : card.rarity;
