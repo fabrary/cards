@@ -57,7 +57,9 @@ HNT050,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT051,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT052,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT053,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT054,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT054,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT054,HNT,"Cindra, Dracai of Retribution",,,,,40,4,,"Royal, Draconic, Ninja, Hero",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
+
+**Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero,,No,,No,,V,C,,Livia Prima,,,HNT054,/HNT054-MV.png,,,V,C,FA,Livia Prima,,HNT054,/HNT054-MV_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT055,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT055,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT056,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT057,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT057,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -101,7 +103,9 @@ HNT094,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT094,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT095,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT095,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT096,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT097,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT098,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT098,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT098,HNT,"Fang, Dracai of Blades",,,,,40,4,,"Royal, Draconic, Warrior, Hero",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
+
+If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero,,No,,No,,V,C,,Billy Christian,,,HNT098,/HNT098-MV.png,,,V,C,FA,Billy Christian,,HNT098,/HNT098-MV_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT099,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT099,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT100,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT101,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
