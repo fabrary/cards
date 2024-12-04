@@ -1,4 +1,4 @@
-import { Class, Format, Hero, Rarity, Release, Talent } from "./interfaces";
+import { Class, Hero, Rarity, Release, Talent } from "./interfaces";
 
 export enum Language {
   English = "English",
@@ -90,7 +90,6 @@ export const promoSetIdentifiers = [
 export interface ReleaseInfo {
   cards: number;
   classes: Class[];
-  format?: Format;
   heroes: Hero[];
   languages: Language[];
   raritiesExcludedInLimited?: Rarity[];

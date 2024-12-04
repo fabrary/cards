@@ -36,3 +36,7 @@ FAB317,"FAB, HNT",Long Whisker Loyalty,1,0,,3,,,,"Draconic, Warrior, Attack Reac
 FAB318,"FAB, HNT",For the Dracai,1,0,4,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,P,R,EA,Asur Misoa,,,FAB318,/FAB318.png,,,,,,,,,,,,,,,,,,,
 FAB319,"FAB, HNT",For the Emperor,1,1,5,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,P,R,EA,Asur Misoa,,,FAB319,/FAB319.png,,,,,,,,,,,,,,,,,,,
 FAB320,"FAB, HNT",For the Realm,1,2,6,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,P,R,EA,Asur Misoa,,,FAB320,/FAB320.png,,,,,,,,,,,,,,,,,,,
+LGS355,LGS,Spirit of Christmas,3,0,,3,,,,"Generic, Action",Go again,,,,,,"Each hero chooses another hero. The chosen hero creates an Agility, Might, Vigor, and Gold token.
+
+**Go again**",Generic Action,,No,No,No,No,P,C,EA,Sebastian Giacobino,,,LGS355,/LGS355.png,,,,,,,,,,,,,,,,,,,
+LSS019,LSS,Scarf for a Scarf,1,0,4,2,,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, exchange a head equipment permanent with them. If you do, this gets **go again**.",Generic Action - Attack,,No,No,No,No,P,R,EA,Emanuel Dias,,,,,,,,,,,,,,,,,,,,,,,
