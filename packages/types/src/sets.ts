@@ -987,7 +987,7 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 265,
     classes: [Class.Assassin, Class.Ninja],
-    heroes: [Hero.Cindra, Hero.Fang, Hero.Arakni],
+    heroes: [Hero.Cindra, Hero.Fang],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
