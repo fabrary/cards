@@ -986,7 +986,7 @@ export const releases: ReleaseInfo[] = [
   },
   {
     cards: 265,
-    classes: [Class.Assassin, Class.Ninja],
+    classes: [Class.Assassin, Class.Ninja, Class.Warrior],
     heroes: [Hero.Cindra, Hero.Fang],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
@@ -994,7 +994,7 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2025-01-31 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["hnt"],
-    talents: [Talent.Chaos, Talent.Draconic],
+    talents: [Talent.Chaos, Talent.Draconic, Talent.Royal],
     url: "https://fabtcg.com/en/articles/hnt/",
   },
 ];
