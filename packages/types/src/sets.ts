@@ -98,6 +98,7 @@ export interface ReleaseInfo {
   releaseType: ReleaseType;
   setIdentifiers: string[];
   talents: Talent[];
+  url?: string;
 }
 
 export const releases: ReleaseInfo[] = [
@@ -986,7 +987,7 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 265,
     classes: [Class.Assassin, Class.Ninja],
-    heroes: [Hero.Cindra, Hero.Fang, Hero.Slippy],
+    heroes: [Hero.Cindra, Hero.Fang, Hero.Arakni],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
@@ -994,6 +995,7 @@ export const releases: ReleaseInfo[] = [
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["hnt"],
     talents: [Talent.Chaos, Talent.Draconic],
+    url: "https://fabtcg.com/en/articles/hnt/",
   },
 ];
 
