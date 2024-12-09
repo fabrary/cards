@@ -6,36 +6,7 @@ HER123,HER,"Ira, Scarlet Revenger",,,,,40,4,,"Ninja, Hero",,,,,,,Your second att
 JDG032,JDG,Heavy Industry Power Plant,,,,2,,,,"Mechanologist, Equipment, Chest","Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
 
 **Temper**",Mechanologist Equipment - Chest,,,,No,,P,C,,Simon Dominic,,,JDG032,/JDG032.png,,,,,,,,,,,,,,,,,,,
-HER130,"HER, HNT","Arakni, 5L!p3d 7hRu 7h3 cR4X",,,,,38,4,,"Chaos, Assassin, Hero",,,,Go again,,Stealth,The first attack with **stealth** each turn gets **go again**.,Chaos Assassin Hero,,,,,,P,C,EA,Dominik Mayer,,,HER130,/HER130.png,,,,,,,,,,,,,,,,,,,
-FAB308,"FAB, HNT",Art of the Dragon: Claw,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets ""When this hits a hero, destroy all cards in their arsenal.""",Ninja Action - Attack,,,,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB308,/FAB308.png,,,,,,,,,,,,,,,,,,,
-FAB309,"FAB, HNT",Art of the Dragon: Fire,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, deal 2 damage to any target.",Ninja Action - Attack,,,,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB309,/FAB309.png,,,,,,,,,,,,,,,,,,,
-FAB310,"FAB, HNT",Art of the Dragon: Scale,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets ""When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.""",Ninja Action - Attack,,,,,,P,R,EA,Carlos Cruchaga,,,FAB310,/FAB310.png,,,,,,,,,,,,,,,,,,,
-FAB312,"FAB, HNT",Flurry Stance,1,0,,3,,,,"Warrior, Action, Aura",Go again,,,,,,"**Go again**
-
-At the start of your turn, destroy this, then you may attack with each dagger you control an additional time this turn.",Warrior Action - Aura,,,,,,P,R,EA,Andrew Chou,,,FAB312,/FAB312.png,,,,,,,,,,,,,,,,,,,
-FAB313,"FAB, HNT",Agility Stance,2,0,,3,,,,"Warrior, Action, Aura",Go again,,,Go again,,,"**Go again**
-
-At the start of your turn, destroy this, then your dagger attacks get **go again** this turn.",Warrior Action - Aura,,,,,,P,R,EA,SanSan,,,FAB313,/FAB313.png,,,,,,,,,,,,,,,,,,,
-FAB314,"FAB, HNT",Power Stance,3,0,,3,,,,"Warrior, Action, Aura",Go again,,,,,,"**Go again**
-
-At the start of your turn, destroy this, then your dagger attacks get +1{p} this turn.",Warrior Action - Aura,,,,,,P,R,EA,Tanapon Wachirakul,,,FAB314,/FAB314.png,,,,,,,,,,,,,,,,,,,
-FAB315,"FAB, HNT",Tarantula Toxin,1,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Choose 1 or both;
-
-* Target dagger attack gets +3{p}.
-* Target card defending an attack with stealth gets -3{d} this turn.",Assassin Attack Reaction,,,,,,P,R,EA,Kevin Sidharta,,,FAB315,/FAB315.png,,,,,,,,,,,,,,,,,,,
-FAB316,"FAB, HNT",Blood Runs Deep,1,2,2,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
-
-When this attacks a hero, each dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the daggers.
-
-**Go again**",Draconic Ninja Action - Attack,,,,,,P,R,EA,SanSan,,,FAB316,/FAB316.png,,,,,,,,,,,,,,,,,,,
-FAB317,"FAB, HNT",Long Whisker Loyalty,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"For each Draconic chain link you control, choose 1;
-
-* Target dagger attack gains +2{p}.
-* You may attack with target dagger an additional time this turn.
-* The next time target dagger hits a hero this turn, **mark** them.",Draconic Warrior Attack Reaction,,,,,,P,R,EA,Federico Musetti,,,FAB317,/FAB317.png,,,,,,,,,,,,,,,,,,,
-FAB318,"FAB, HNT",For the Dracai,1,0,4,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,P,R,EA,Asur Misoa,,,FAB318,/FAB318.png,,,,,,,,,,,,,,,,,,,
-FAB319,"FAB, HNT",For the Emperor,1,1,5,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,P,R,EA,Asur Misoa,,,FAB319,/FAB319.png,,,,,,,,,,,,,,,,,,,
-FAB320,"FAB, HNT",For the Realm,1,2,6,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,P,R,EA,Asur Misoa,,,FAB320,/FAB320.png,,,,,,,,,,,,,,,,,,,
+HER130,HER,"Arakni, 5L!p3d 7hRu 7h3 cR4X",,,,,38,4,,"Chaos, Assassin, Hero",,,,Go again,,Stealth,The first attack with **stealth** each turn gets **go again**.,Chaos Assassin Hero,,,,,,P,C,EA,Dominik Mayer,,,HER130,/HER130.png,,,,,,,,,,,,,,,,,,,
 LGS355,LGS,Spirit of Christmas,3,0,,3,,,,"Generic, Action",Go again,,,,,,"Each hero chooses another hero. The chosen hero creates an Agility, Might, Vigor, and Gold token.
 
 **Go again**",Generic Action,,No,No,No,No,P,C,EA,Sebastian Giacobino,,,LGS355,/LGS355.png,,,,,,,,,,,,,,,,,,,
