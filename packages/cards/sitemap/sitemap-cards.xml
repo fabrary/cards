@@ -3421,6 +3421,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/cull-red</loc>
+    <lastmod>2024-12-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/current-funnel-blue</loc>
     <lastmod>2024-09-07</lastmod>
     <priority>0.5</priority>
