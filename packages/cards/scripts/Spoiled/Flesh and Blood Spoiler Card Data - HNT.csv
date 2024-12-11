@@ -290,7 +290,9 @@ HNT256,HNT,Ring of Roses,2,0,,3,,,,"Earth, Wizard, Action, Aura","Legendary, Ver
 
 The first time you deal arcane damage each turn, gain 1{h}.",Earth Wizard Action - Aura,,,,No,,M,,,Mark Poole,Yes,,HNT256,/HNT256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT257,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT257,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT258,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT258,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT258,HNT,War Cry of Bellona,2,0,,3,,,,"Light, Warrior, Attack Reaction",,,,,,,"Target Raydn gets +2{p} this turn.
+
+**Instant** - Discard this, banish X cards from your soul: The next time target weapon deals X or less damage to you this turn, deal that much damage to its controller and that damage can't be prevented.",Light Warrior Attack Reaction,,,,No,,M,,,Simon Dominic,Yes,,HNT258,/HNT258.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT259,HNT,Cull,1,0,,3,,,,"Shadow, Runeblade, Action",Blood Debt,,,,,,"You may play this from your banished zone.
 
 If a hero has lost {h} this turn, you may play this as thought it were an instant.

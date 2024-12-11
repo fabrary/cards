@@ -527,4 +527,18 @@ describe("Returns matching prints when release or foiling included", () => {
       }
     }
   });
+
+  it("Matching printing from card overlay limited filters", () => {
+    const { searchResults } = cardSearch.search(
+      "s:hnt !r:legendary,fabled l:draft,sealed"
+    );
+    for (const card of searchResults) {
+      expect(card.matchingPrintings).toBeTruthy();
+      expect(card.matchingPrintings.length).toBeGreaterThanOrEqual(1);
+      for (const printing of card.matchingPrintings) {
+        expect(printing).toBeTruthy();
+        expect(printing.set).toEqual(Release.TheHunted);
+      }
+    }
+  });
 });
