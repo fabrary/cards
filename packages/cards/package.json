@@ -1,7 +1,7 @@
 {
   "name": "@flesh-and-blood/cards",
   "description": "TypeScript representations of Flesh and Blood cards",
-  "version": "3.2.12",
+  "version": "3.2.13",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
