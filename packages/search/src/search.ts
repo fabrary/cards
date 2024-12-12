@@ -166,12 +166,6 @@ class Search {
       releases.length > 0 ||
       treatments.length > 0;
 
-    this.log("Should find matching printings", shouldFindMatchingPrintings, {
-      artists,
-      foilings,
-      releases,
-      treatments,
-    });
     if (shouldFindMatchingPrintings) {
       searchResultsWithMatchingPrinting = results.map((card) => {
         const matchingPrintings = card.printings.filter((printing) => {
@@ -200,18 +194,8 @@ class Search {
             matchesReleases &&
             matchesTreatment;
 
-          this.log("Printing matches", printMatches, {
-            hasImage,
-            matchesArtist,
-            matchesFoiling,
-            matchesReleases,
-            matchesTreatment,
-          });
-
           return printMatches;
         });
-
-        this.log("Matching printings", card.name, matchingPrintings);
 
         return {
           ...card,
@@ -224,11 +208,6 @@ class Search {
       searchResultsWithMatchingPrinting?.length > 0
         ? searchResultsWithMatchingPrinting
         : results;
-
-    this.log("Search results", results, {
-      searchResultsWithMatchingPrinting,
-      results,
-    });
 
     return {
       appliedFilters,

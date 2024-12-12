@@ -279,7 +279,11 @@ export const getDefaultPrinting = (
           firstImage = printing;
         }
 
-        if (!nonPromoImage && edition !== ReleaseEdition.Promo) {
+        if (
+          !nonPromoImage &&
+          edition !== ReleaseEdition.Promo &&
+          treatment !== Treatment.FA
+        ) {
           nonPromoImage = printing;
         }
       }

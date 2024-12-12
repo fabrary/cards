@@ -2,8 +2,10 @@ import {
   getIsArenaCard,
   getIsDeckCard,
   getCardIdentifier,
+  getSpecialPrinting,
+  getDefaultPrinting,
 } from "../src/helpers";
-import { Type } from "../src/interfaces";
+import { Foiling, Printing, Release, Treatment, Type } from "../src/interfaces";
 
 describe("Card identifiers", () => {
   const identifiers: [
@@ -66,5 +68,46 @@ describe("Card types", () => {
     const isArenaOrDeckCard = isArenaCard || isDeckCard;
 
     expect(isArenaOrDeckCard).toEqual(true);
+  });
+});
+
+describe("Printings", () => {
+  it("Gets correct default and special printings for Fealty", () => {
+    const cardIdentifier = "fealty";
+    const name = "Fealty";
+    const printings: Printing[] = [
+      {
+        artists: ["Mario Wibisono"],
+        foiling: Foiling.C,
+        identifier: "HNT167",
+        image: "HNT167_V2",
+
+        print: "HNT167-Cold-Full Art",
+        set: Release.TheHunted,
+
+        treatment: Treatment.FA,
+      },
+      {
+        artists: ["Mario Wibisono"],
+
+        identifier: "HNT167",
+        image: "HNT167",
+
+        print: "HNT167",
+        set: Release.TheHunted,
+      },
+    ];
+
+    const defaultPrinting = getDefaultPrinting(
+      { cardIdentifier, name },
+      printings
+    );
+    expect(defaultPrinting.image).toEqual("HNT167");
+
+    const specialPrinting = getSpecialPrinting(
+      { cardIdentifier, name },
+      printings
+    );
+    expect(specialPrinting.image).toEqual("HNT167_V2");
   });
 });
