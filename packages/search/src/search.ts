@@ -78,7 +78,7 @@ class Search {
 
   log = (message?: any, ...optionalParams: any[]) => {
     if (this.debug) {
-      console.log(message, optionalParams);
+      console.log(message, ...optionalParams);
     }
   };
 
@@ -214,8 +214,8 @@ class Search {
         this.log("Matching printings", card.name, matchingPrintings);
 
         return {
-          matchingPrintings,
           ...card,
+          matchingPrintings,
         };
       });
     }
