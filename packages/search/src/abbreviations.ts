@@ -343,6 +343,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Winter's Wail",
   },
   {
+    abbreviations: ["Wreckless Wing"],
+    card: "War Cry of Bellona",
+  },
+  {
     abbreviations: ["ZTS"],
     card: "Zero to Sixty",
   },

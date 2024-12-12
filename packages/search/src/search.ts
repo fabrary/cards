@@ -76,8 +76,14 @@ class Search {
     this.fuse = new Fuse([...cards], searchOptions);
   }
 
+  log = (message?: any, ...optionalParams: any[]) => {
+    if (this.debug) {
+      console.log(message, optionalParams);
+    }
+  };
+
   search = (text: string, includeMemes?: boolean): SearchResults => {
-    let searchResults: DoubleSidedCard[];
+    let results: DoubleSidedCard[];
 
     const { appliedFilters, attributes, keywords, specialConditions } =
       getKeywordsAndAppliedFiltersFromText(text, this.cards);
@@ -88,41 +94,16 @@ class Search {
       : [];
 
     if (matchingMemes.length > 0) {
-      searchResults = matchingMemes.map(({ card }) => card);
+      results = matchingMemes.map(({ card }) => card);
     } else if (keywords.length) {
-      searchResults = this.fuse.search(keyword).map((result) => result.item);
+      results = this.fuse.search(keyword).map((result) => result.item);
     } else {
-      searchResults = [...this.cards];
+      results = [...this.cards];
     }
     if (appliedFilters.length) {
-      searchResults = searchResults.filter(
+      results = results.filter(
         (card) => card && filterCard(card, appliedFilters, specialConditions)
       );
-      // if (
-      //   // If searching for illegal in CC, don't include young heroes
-      //   appliedFilters.some(
-      //     ({ excluded, values }) =>
-      //       !excluded &&
-      //       values.includes(Format.ClassicConstructed.toLowerCase())
-      //   )
-      // ) {
-      //   searchResults = searchResults.filter((card) => !card.young);
-      // }
-      // if (
-      //   // If searching for illegal in Blitz or Commoner, don't include adult heroes
-      //   appliedFilters.some(
-      //     ({ excluded, values }) =>
-      //       !excluded &&
-      //       (values.includes(Format.Blitz.toLowerCase()) ||
-      //         values.includes(Format.Commoner.toLowerCase()))
-      //   )
-      // ) {
-      //   searchResults = searchResults.filter((card) => {
-      //     const { types, young } = card;
-      //     const isAdult = types.includes(Type.Hero) && !young;
-      //     return !isAdult;
-      //   });
-      // }
     }
 
     if (keywords.length === 0) {
@@ -139,7 +120,7 @@ class Search {
         }
       }
       if (setIdentifieToSortBy) {
-        searchResults.sort((c1, c2) => {
+        results.sort((c1, c2) => {
           const c1SetNumber = c1.setIdentifiers
             .find((identifier) => identifier.includes(setIdentifieToSortBy))
             ?.replace(setIdentifieToSortBy, "") as string;
@@ -151,7 +132,7 @@ class Search {
             : -1;
         });
       } else {
-        searchResults.sort((c1, c2) =>
+        results.sort((c1, c2) =>
           c1.name === c2.name
             ? `${c1.pitch}`.localeCompare(`${c2.pitch}`)
             : c1.name.localeCompare(c2.name)
@@ -164,7 +145,7 @@ class Search {
       const potentialCardName = keywords
         .map((keyword) => keyword.toLowerCase().replace(PUNCTUATION, ""))
         .join(" ");
-      for (const card of searchResults) {
+      for (const card of results) {
         if (
           card.name.toLowerCase().replace(PUNCTUATION, "") === potentialCardName
         ) {
@@ -173,7 +154,7 @@ class Search {
           nonMatches.push(card);
         }
       }
-      searchResults = [...nameMatches, ...nonMatches];
+      results = [...nameMatches, ...nonMatches];
     }
 
     let searchResultsWithMatchingPrinting: SearchCard[];
@@ -185,20 +166,14 @@ class Search {
       releases.length > 0 ||
       treatments.length > 0;
 
-    if (this.debug) {
-      console.log(
-        "Should find matching printings",
-        shouldFindMatchingPrintings,
-        {
-          artists,
-          foilings,
-          releases,
-          treatments,
-        }
-      );
-    }
+    this.log("Should find matching printings", shouldFindMatchingPrintings, {
+      artists,
+      foilings,
+      releases,
+      treatments,
+    });
     if (shouldFindMatchingPrintings) {
-      searchResultsWithMatchingPrinting = searchResults.map((card) => {
+      searchResultsWithMatchingPrinting = results.map((card) => {
         const matchingPrintings = card.printings.filter((printing) => {
           const hasImage = !!printing.image;
           const matchesArtist =
@@ -225,18 +200,19 @@ class Search {
             matchesReleases &&
             matchesTreatment;
 
-          if (this.debug) {
-            console.log("Printing matches", printMatches, {
-              hasImage,
-              matchesArtist,
-              matchesFoiling,
-              matchesReleases,
-              matchesTreatment,
-            });
-          }
+          this.log("Printing matches", printMatches, {
+            hasImage,
+            matchesArtist,
+            matchesFoiling,
+            matchesReleases,
+            matchesTreatment,
+          });
 
           return printMatches;
         });
+
+        this.log("Matching printings", card.name, matchingPrintings);
+
         return {
           matchingPrintings,
           ...card,
@@ -244,13 +220,21 @@ class Search {
       });
     }
 
+    const searchResults =
+      searchResultsWithMatchingPrinting?.length > 0
+        ? searchResultsWithMatchingPrinting
+        : results;
+
+    this.log("Search results", results, {
+      searchResultsWithMatchingPrinting,
+      results,
+    });
+
     return {
       appliedFilters,
       attributes,
       keywords,
-      searchResults: searchResultsWithMatchingPrinting
-        ? searchResultsWithMatchingPrinting
-        : searchResults,
+      searchResults,
     };
   };
 }
