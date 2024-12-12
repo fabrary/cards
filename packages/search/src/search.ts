@@ -41,9 +41,10 @@ export interface SearchResults {
 
 class Search {
   private cards: DoubleSidedCard[];
+  private debug: boolean;
   private fuse: Fuse<Card>;
 
-  constructor(cards: DoubleSidedCard[]) {
+  constructor(cards: DoubleSidedCard[], debug: boolean = false) {
     const searchOptions = {
       getFn: (obj: DoubleSidedCard, path) => {
         // Use the default `get` function
@@ -71,6 +72,7 @@ class Search {
     };
 
     this.cards = [...cards];
+    this.debug = debug;
     this.fuse = new Fuse([...cards], searchOptions);
   }
 
@@ -176,20 +178,37 @@ class Search {
 
     let searchResultsWithMatchingPrinting: SearchCard[];
     const { artists, foilings, releases, treatments } = attributes;
-    if (
+
+    const shouldFindMatchingPrintings =
       artists.length > 0 ||
       foilings.length > 0 ||
       releases.length > 0 ||
-      treatments.length > 0
-    ) {
+      treatments.length > 0;
+
+    if (this.debug) {
+      console.log(
+        "Should find matching printings",
+        shouldFindMatchingPrintings,
+        {
+          artists,
+          foilings,
+          releases,
+          treatments,
+        }
+      );
+    }
+    if (shouldFindMatchingPrintings) {
       searchResultsWithMatchingPrinting = searchResults.map((card) => {
         const matchingPrintings = card.printings.filter((printing) => {
           const hasImage = !!printing.image;
           const matchesArtist =
             artists.length === 0 ||
-            artists.some((artist) =>
+            artists.some((attributeArtist) =>
               printing.artists.find((artist) =>
-                artist.replace(PUNCTUATION, "").toLowerCase().includes(artist)
+                artist
+                  .replace(PUNCTUATION, "")
+                  .toLowerCase()
+                  .includes(attributeArtist)
               )
             );
           const matchesFoiling =
@@ -198,13 +217,25 @@ class Search {
             releases.length === 0 || releases.includes(printing.set);
           const matchesTreatment =
             treatments.length === 0 || treatments.includes(printing.treatment);
-          return (
+
+          const printMatches =
             hasImage &&
             matchesArtist &&
             matchesFoiling &&
             matchesReleases &&
-            matchesTreatment
-          );
+            matchesTreatment;
+
+          if (this.debug) {
+            console.log("Printing matches", printMatches, {
+              hasImage,
+              matchesArtist,
+              matchesFoiling,
+              matchesReleases,
+              matchesTreatment,
+            });
+          }
+
+          return printMatches;
         });
         return {
           matchingPrintings,
