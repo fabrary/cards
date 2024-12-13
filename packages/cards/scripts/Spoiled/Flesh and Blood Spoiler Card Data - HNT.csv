@@ -275,8 +275,12 @@ HNT243,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT243,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT244,HNT,Marked,,,,,,,,Token,Mark,,,,,,You are **marked** until an opponent hits you,Token,,,,,,T,,,Jessketchin,,,HNT244,/HNT244.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT245,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT245,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT246,HNT,Thick Hide Hunter,2,2,6,6,,,,"Brute, Action, Attack",,,,,,,"When this attacks or defends, discard a random card.",Brute Action - Attack,,,,No,,M,,,Tomasz Jedruszek,Yes,,HNT246,/HNT246.png,,,M,,EA,Tomasz Jedruszek,Yes,,HNT246,/HNT246_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT247,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT247,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT248,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT248,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT247,HNT,Tremorshield Sabatons,,,,1,,,,"Guardian, Equipment, Legs",Blade Break,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've controlled a Seismic Surge token this turn, instead prevent the next 2.
+
+**Blade Break**",Guardian Equipment - Legs,,,,No,,M,,,Vito Febrianno,Yes,,HNT247,/HNT247.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT248,HNT,Roiling Fissure,3,X1,,3,,,,"Guardian, Action",Go again,,,,,,"Destroy an aura with cost X or less, then you may destroy a Seismic Surge you control. If you do, repeat this process.
+
+**Go again**",Guardian Action,,,,No,,M,,,Thomas Ressuge,Yes,,HNT248,/HNT248.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT249,HNT,Retrace the Past,3,0,2,3,,,,"Ninja, Action, Attack","Katsu Specialization, Combo",,,,,,"**Katsu Specialization**
 
 **Combo** - When this attacks, if a card with Gustwave in its name was the last attack this combat chain, name a card, then this gets that name, +2{p}, and **go again**.",Ninja Action - Attack,,,,No,,M,,,Stormy Elia Fanggidae,Yes,,HNT249,/HNT249.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
