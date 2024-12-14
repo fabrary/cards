@@ -1,7 +1,11 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Artists 3,Expansion Slot 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variations 4,Expansion Slot 4,Artists 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4,Rarity 5,Foiling 5,Art Variations 5,Artists 5,Flavor Text 5,Identifier 5,Image URL 5,TCGPlayer Product Id 5,TCGPlayer Url 5
 HNT000,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT001,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT001,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT002,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT002,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT001,HNT,"Arakni, Marionette",,,,,40,4,,"Chaos, Assassin, Hero",,,,,,,"Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and ""When this hits, this gets **go again**.""
+
+At the beginning of your end phase, if an opponent is **marked**, you become a random Agent of Chaos.",Chaos Assassin Hero,,No,,No,,M,,,Isuardi Therianto,,,HNT001,/HNT001.png,,,V,C,FA,Isuardi Therianto,,,HNT001,/HNT001-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT002,HNT,"Arakni, Web of Deceit",,,,,20,4,,"Chaos, Assassin, Hero, Young",,,,,,,"Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and ""When this hits, this gets **go again**.""
+
+At the beginning of your end phase, if an opponent is **marked**, you become a random Agent of Chaos.",Chaos Assassin Hero - Young,,,No,,No,T,,,Isuardi Therianto,,,HNT002,/HNT002.png,,,V,C,FA,Isuardi Therianto,,,HNT002,/HNT002-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT003,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT004,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT005,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -62,10 +66,10 @@ HNT052,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT053,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT054,HNT,"Cindra, Dracai of Retribution",,,,,40,4,,"Royal, Draconic, Ninja, Hero",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
-**Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero,,No,,No,,V,C,,Livia Prima,,,HNT054,/HNT054-MV.png,,,V,C,FA,Livia Prima,,,HNT054,/HNT054-MV_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero,,No,,No,,V,C,,Livia Prima,,,HNT054,/HNT054-V2.png,,,V,C,FA,Livia Prima,,,HNT054,/HNT054-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT055,HNT,Cindra,,,,,20,4,,"Royal, Draconic, Ninja, Hero, Young",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
-**Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero - Young,,,No,,No,T,,,Livia Prima,,,HNT055,/HNT055.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero - Young,,,No,,No,T,,,Livia Prima,,,HNT055,/HNT055.png,,,V,C,,Livia Prima,,,HNT055,/HNT055-V2.png,,,V,C,FA,Livia Prima,,,HNT055,/HNT055-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
 HNT056,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT057, FAB316","HNT, FAB",Blood Runs Deep,1,2,2,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
 
@@ -114,10 +118,10 @@ HNT096,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT097,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT098,HNT,"Fang, Dracai of Blades",,,,,40,4,,"Royal, Draconic, Warrior, Hero",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
-If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero,,No,,No,,V,C,,Billy Christian,,,HNT098,/HNT098-MV.png,,,V,C,FA,Billy Christian,,,HNT098,/HNT098-MV_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero,,No,,No,,V,C,,Billy Christian,,,HNT098,/HNT098-V2.png,,,V,C,FA,Billy Christian,,,HNT098,/HNT098-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT099,HNT,Fang,,,,,20,4,,"Royal, Draconic, Warrior, Hero, Young",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
-If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero - Young,,,No,,No,T,,,Billy Christian,,,HNT099,/HNT099.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero - Young,,,No,,No,T,,,Billy Christian,,,HNT099,/HNT099.png,,,V,C,,Billy Christian,,,HNT099,/HNT099-V2.png,,,V,C,FA,Billy Christian,,,HNT099,/HNT099-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
 HNT100,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT101,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT102, FAB317","HNT, FAB",Long Whisker Loyalty,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"For each Draconic chain link you control, choose 1;
@@ -287,7 +291,7 @@ HNT249,HNT,Retrace the Past,3,0,2,3,,,,"Ninja, Action, Attack","Katsu Specializa
 HNT250,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT250,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT251,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT251,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT252,HNT,Enchanted Quiver,,,,,,,,"Ranger, Equipment, Quiver",,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2.",Ranger Equipment - Quiver,,,,No,,M,,,Jessketchin,Yes,,HNT252,/HNT252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT253,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT253,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT253,HNT,Chain Reaction,2,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,"When this defends an attack with **go again**, you may turn a non-attack action card in your arsenal face-up. If you do, you may play it this turn as though it were an instant.",Ranger Defense Reaction - Trap,,,,No,,M,,,Septimius Ferdian,Yes,,HNT253,/HNT253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT254,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT254,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT255,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT256,HNT,Ring of Roses,2,0,,3,,,,"Earth, Wizard, Action, Aura","Legendary, Verdance Specialization",,,,,,"**Legendary Verdance Specialization**

@@ -98,6 +98,10 @@ const cindra: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Ninja], ROYAL_DRACONIC),
 };
 
+const crackni: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Assassin], [Talent.Chaos]),
+};
+
 const dash: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Mechanologist]),
 };
@@ -225,6 +229,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Brutus]: brutus,
   [Hero.Chane]: chane,
   [Hero.Cindra]: cindra,
+  [Hero.Crackni]: crackni,
   [Hero.Dash]: dash,
   [Hero.DataDoll]: dataDoll,
   [Hero.Dorinthea]: dorinthea,

@@ -105,6 +105,10 @@ export const getRelatedCards = (
 
 const CARD_IDENTIFIERS_TO_SKIP: string[] = ["cash-in-yellow"];
 
+const heroReferences: { [key: string]: string[] } = {
+  [Hero.Crackni]: [""],
+};
+
 export const getTokensReferencedByCards = (
   cards: Card[],
   tokens: Card[],
