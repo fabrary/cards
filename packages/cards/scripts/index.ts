@@ -14,7 +14,7 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
-import { sortPrintingsByReleaseOrder } from "./Shared";
+import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
 
 const outputDirectory = "src";
 
@@ -145,4 +145,10 @@ const cardsWithLegalFormats = deduplicatedCards.map((card) => {
   return { ...card, legalFormats };
 });
 
-writeFiles(cardsWithLegalFormats, outputDirectory);
+const cardsWithMetaValues = cardsWithLegalFormats.map((card) => {
+  const meta = getMeta(card, cardsWithLegalFormats);
+
+  return { ...card, meta };
+});
+
+writeFiles(cardsWithMetaValues, outputDirectory);

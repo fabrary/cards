@@ -28,6 +28,7 @@ export interface Card {
   intellect?: number;
   isCardBack?: boolean;
   keywords?: Keyword[];
+  meta?: Meta[];
   oppositeSideCardIdentifier?: string;
   oppositeSideCardIdentifiers?: string[];
   pitch?: number;
@@ -52,6 +53,7 @@ export interface Printing {
   foiling?: Foiling;
   identifier: string;
   image?: string;
+  isExpansionSlot?: boolean;
   oppositeImage?: string;
   print: string;
   set: Release;
@@ -134,6 +136,11 @@ export enum Rarity {
   Legendary = "Legendary",
   Fabled = "Fabled",
   Promo = "Promo",
+}
+
+export enum Meta {
+  Expansion = "Expansion slot",
+  Rainbow = "Rainbow",
 }
 
 export enum Release {

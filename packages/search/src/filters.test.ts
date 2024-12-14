@@ -1,4 +1,4 @@
-import { Foiling, Release, Treatment } from "@flesh-and-blood/types";
+import { Foiling, Meta, Release, Treatment } from "@flesh-and-blood/types";
 import { getKeywordsAndAppliedFiltersFromText } from "./filters";
 import { cards } from "@flesh-and-blood/cards";
 
@@ -86,6 +86,41 @@ describe("Gets the right attribute filters", () => {
       } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
       expect(treatments.length).toEqual(expectedTreatments.length);
       expect(treatments).toMatchSnapshot();
+
+      console.log(JSON.stringify({ treatments, expectedTreatments }));
+
+      for (const expected of expectedTreatments as Treatment[]) {
+        expect(treatments.includes(expected)).toBeTruthy();
+      }
+    }
+  );
+
+  const metaFilters = [
+    ["s:ros meta:rainbow", [Meta.Rainbow]],
+    ["meta:rainbow,expansion", [Meta.Rainbow, Meta.Expansion]],
+  ];
+  it.each(metaFilters)(
+    "Gets matching meta values for %s",
+    (search, expectedMetaValues) => {
+      const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+        search as string,
+        cards
+      );
+
+      const metaAppliedFilter = appliedFilters.find(
+        (appliedFilter) =>
+          appliedFilter.filterToPropertyMapping.property === "meta"
+      );
+
+      expect(metaAppliedFilter.values.length).toEqual(
+        expectedMetaValues.length
+      );
+
+      for (const expected of expectedMetaValues) {
+        expect(
+          metaAppliedFilter.values.includes(expected.toLowerCase())
+        ).toBeTruthy();
+      }
     }
   );
 });

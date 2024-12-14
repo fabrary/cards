@@ -4,6 +4,7 @@ import {
   getBonds,
   getFlows,
   getFusions,
+  getMeta,
   getNumberOrUndefined,
   getRarities,
   getRestrictedFormats,
@@ -181,6 +182,7 @@ interface PrintingInput {
   foilingString?: string;
   identifier: string;
   imageUrl?: string;
+  isExpansionSlot?: boolean;
   setString: string;
   treatmentString?: string;
   tcgplayerProductId?: string;
@@ -189,6 +191,7 @@ interface PrintingInput {
 const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
   const {
     artists,
+    isExpansionSlot,
     foilingString,
     identifier,
     imageUrl,
@@ -220,6 +223,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
 
   return {
     artists,
+    ...(isExpansionSlot ? { isExpansionSlot } : {}),
     ...(foiling ? { foiling } : {}),
     identifier,
     image,
@@ -369,6 +373,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     identifiers,
     setIdentifiers,
     artists,
+    expansionSlot,
     foiling,
     identifier,
     imageUrl,
@@ -376,6 +381,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayerProductId,
     tcgplayerUrl,
     artists2,
+    expansionSlot2,
     foiling2,
     identifier2,
     imageUrl2,
@@ -384,6 +390,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayerProductId2,
     tcgplayerUrl2,
     artists3,
+    expansionSlot3,
     foiling3,
     identifier3,
     imageUrl3,
@@ -392,6 +399,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayerProductId3,
     tcgplayerUrl3,
     artists4,
+    expansionSlot4,
     foiling4,
     identifier4,
     imageUrl4,
@@ -400,6 +408,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayerProductId4,
     tcgplayerUrl4,
     artists5,
+    expansionSlot5,
     foiling5,
     identifier5,
     imageUrl5,
@@ -411,10 +420,11 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
   const printing1 = getPrinting(card, {
     artists,
+    isExpansionSlot: expansionSlot,
     foilingString: foiling,
-    identifier: identifier || identifiers[0],
     setString: setIdentifiers[0],
     imageUrl,
+    identifier: identifier || identifiers[0],
     treatmentString: treatments?.length ? treatments[0] : undefined,
     ...(tcgplayerProductId && tcgplayerUrl
       ? {
@@ -449,6 +459,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         artists,
         foilingString: "R",
         identifier: identifier || identifiers[0],
+        isExpansionSlot: expansionSlot,
         setString: setIdentifiers[0],
         imageUrl,
       });
@@ -481,6 +492,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       foilingString: foiling2,
       identifier: identifierFor2,
       imageUrl: imageUrl2,
+      isExpansionSlot: expansionSlot2,
       setString: setIdentifier,
       treatmentString: treatments2?.length ? treatments2[0] : undefined,
       ...(tcgplayerProductId2 && tcgplayerUrl2
@@ -505,6 +517,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       foilingString: foiling3,
       identifier: identifierFor3,
       imageUrl: imageUrl3,
+      isExpansionSlot: expansionSlot3,
       setString: setIdentifier,
       treatmentString: treatments3?.length ? treatments3[0] : undefined,
       ...(tcgplayerProductId3 && tcgplayerUrl3
@@ -557,6 +570,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       foilingString: foiling5,
       identifier: identifierFor5,
       imageUrl: imageUrl5,
+      isExpansionSlot: expansionSlot5,
       setString: setIdentifier,
       treatmentString: treatments5?.length ? treatments5[0] : undefined,
       ...(tcgplayerProductId5 && tcgplayerUrl5

@@ -6,6 +6,7 @@ import {
   Fusion,
   Hero,
   Keyword,
+  Meta,
   Printing,
   Rarity,
   Release,
@@ -314,6 +315,30 @@ export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
   arr.sort();
 
   return arr;
+};
+
+export const getMeta = (card: Card, allCards: Card[]): Meta[] => {
+  const meta: Meta[] = [];
+
+  const isMeta = card.printings.some(({ isExpansionSlot }) => isExpansionSlot);
+  if (isMeta) {
+    meta.push(Meta.Expansion);
+  }
+
+  const hasPitch = [1, 2, 3].includes(card.pitch || 0);
+  if (hasPitch) {
+    const allCardsWithSameName = allCards.filter(
+      ({ name }) => name === card.name
+    );
+    const isRainbow = allCardsWithSameName.length === 3;
+    if (isRainbow) {
+      meta.push(Meta.Rainbow);
+    }
+  }
+
+  meta.sort();
+
+  return meta;
 };
 
 export const rarityStringMapping: { [key: string]: Rarity } = {

@@ -34,11 +34,11 @@ describe("Related cards", () => {
       );
 
       if ((referencedByCount as number) < referencedBy.length) {
-        console.log(referencedBy.map(toCardIdentifier));
+        // console.log(referencedBy.map(toCardIdentifier));
       }
 
       if ((referencesCount as number) < references.length) {
-        console.log(references.map(toCardIdentifier));
+        // console.log(references.map(toCardIdentifier));
       }
 
       expect(otherPitches.length).toEqual(otherPitchesCount);

@@ -9,6 +9,7 @@ import {
   Fusion,
   Hero,
   Keyword,
+  Meta,
   Printing,
   Rarity,
   Release,
@@ -51,6 +52,7 @@ const getPrintings = (printings: Printing[]) => {
         treatment,
         treatments,
         image,
+        isExpansionSlot,
         oppositeImage,
       }
     ) =>
@@ -69,6 +71,7 @@ const getPrintings = (printings: Printing[]) => {
       }
       identifier: "${identifier}",
       ${image ? `image: "${image}",` : ``}
+      ${isExpansionSlot ? `isExpansionSlot: ${isExpansionSlot},` : ``}
       ${oppositeImage ? `oppositeImage: "${oppositeImage}",` : ``}
       print: "${print}",
       set: ${getEnumValue(set, "Release", Release)},
@@ -153,7 +156,11 @@ const generateCardTypeScript = (card: Card): String => {
         ? `keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],`
         : ``
     }
-    ${card.life ? `life: ${card.life},` : ``}
+    ${card.life ? `life: ${card.life},` : ``}${
+    card.meta && card.meta.length > 0
+      ? `meta: [${getEnumValues(card.meta, "Meta", Meta)}],`
+      : ``
+  }
     ${
       card.oppositeSideCardIdentifier
         ? `oppositeSideCardIdentifier: \`${card.oppositeSideCardIdentifier}\`,`
@@ -227,6 +234,7 @@ const generateTS = (cards: Card[]): string => {
     Fusion,
     Hero,
     Keyword,
+    Meta,
     Rarity,
     Release,
     ReleaseEdition,

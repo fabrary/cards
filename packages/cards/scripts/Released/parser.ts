@@ -20,11 +20,13 @@ export interface Printing {
   setIdentifier: string;
   set: Release;
   edition: string;
+
   foiling: string;
   rarity: string;
   artists: string[];
   artVariations: string[];
   imageUrl: string;
+  isExpansionSlot?: boolean;
   tcgplayer?: {
     productId: string;
     url: string;
@@ -96,6 +98,7 @@ export interface SourcePrinting {
   id: string;
   set_id: string;
   edition: string;
+  expansion_slot: boolean;
   // foilings: string[];
   foiling: string;
   rarity: string;
@@ -215,6 +218,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
             artists,
             art_variations,
             edition,
+            expansion_slot,
             foiling,
             // foilings,
             id,
@@ -297,6 +301,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
               foiling,
               // foilings,
               imageUrl: image_url,
+              isExpansionSlot: expansion_slot,
               rarity,
               set,
               setIdentifier: id.trim(),

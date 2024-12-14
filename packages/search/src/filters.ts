@@ -2,6 +2,7 @@ import {
   Card,
   Foiling,
   Hero,
+  Meta,
   Release,
   Treatment,
   Type,
@@ -182,6 +183,11 @@ const lifeFilter: FilterToPropertyMapping = {
   isNumber: true,
 };
 
+const metaFilter: FilterToPropertyMapping = {
+  property: "meta",
+  isArray: true,
+};
+
 const nameFilter: FilterToPropertyMapping = {
   property: "name",
   isString: true,
@@ -284,6 +290,7 @@ export const filtersToCardPropertyMappings = {
   foiling: foilFilter,
   i: intellectFilter,
   intellect: intellectFilter,
+  is: metaFilter,
   k: keywordFilter,
   keyword: keywordFilter,
   l: legalFilter,
@@ -291,6 +298,7 @@ export const filtersToCardPropertyMappings = {
   hero: legalFilter,
   li: lifeFilter,
   life: lifeFilter,
+  meta: metaFilter,
   n: nameFilter,
   name: nameFilter,
   p: pitchFilter,
@@ -395,6 +403,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   attributes: {
     artists: string[];
     foilings: Foiling[];
+    isExpansionSlot: boolean;
     releases: Release[];
     treatments: Treatment[];
   };
@@ -434,6 +443,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   let artists: string[] = [];
   let keywords: string[] = [];
   let foilings: Foiling[] = [];
+  let isExpansionSlot: boolean = false;
   let releases: Release[] = [];
   let treatments: Treatment[] = [];
   let specialConditions: SpecialConditions = { isClash: false, heroes: [] };
@@ -544,6 +554,14 @@ export const getKeywordsAndAppliedFiltersFromText = (
           }
         } else if (["art", "artist"].includes(filterKey)) {
           artists = values;
+        } else if (["is", "is", "meta"].includes(filterKey)) {
+          const metaValues = getMetaValuesFromText(values);
+          values = metaValues.map((v) =>
+            v.toLowerCase().replaceAll(PUNCTUATION, "")
+          );
+          if (metaValues.includes(Meta.Expansion) && !excluded) {
+            isExpansionSlot = true;
+          }
         } else if (["foiling", "foil"].includes(filterKey)) {
           foilings = getFoilingValuesFromText(values);
           values = foilings.map((f) => f.toLowerCase());
@@ -586,7 +604,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   }
   return {
     appliedFilters,
-    attributes: { artists, foilings, releases, treatments },
+    attributes: { artists, foilings, isExpansionSlot, releases, treatments },
     keywords,
     specialConditions,
   };
@@ -643,6 +661,22 @@ const getPitchValuesFromText = (rawValues: string[]) => {
       values.push(pitchValuesMapping[rawValue].toString());
     } else {
       values.push(rawValue);
+    }
+  }
+  return values;
+};
+
+const metaValuesMapping: { [key: string]: Meta } = {
+  exp: Meta.Expansion,
+  expansion: Meta.Expansion,
+  expansionSlot: Meta.Expansion,
+  rainbow: Meta.Rainbow,
+};
+const getMetaValuesFromText = (rawValues: string[]) => {
+  const values: Meta[] = [];
+  for (const rawValue of rawValues) {
+    if (metaValuesMapping[rawValue]) {
+      values.push(metaValuesMapping[rawValue]);
     }
   }
   return values;

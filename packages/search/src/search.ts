@@ -158,10 +158,12 @@ class Search {
     }
 
     let searchResultsWithMatchingPrinting: SearchCard[];
-    const { artists, foilings, releases, treatments } = attributes;
+    const { artists, isExpansionSlot, foilings, releases, treatments } =
+      attributes;
 
     const shouldFindMatchingPrintings =
       artists.length > 0 ||
+      isExpansionSlot ||
       foilings.length > 0 ||
       releases.length > 0 ||
       treatments.length > 0;
@@ -180,6 +182,9 @@ class Search {
                   .includes(attributeArtist)
               )
             );
+          const matchesExpansionSlot =
+            (isExpansionSlot || undefined) === printing.isExpansionSlot;
+
           const matchesFoiling =
             foilings.length === 0 || foilings.includes(printing.foiling);
           const matchesReleases =
@@ -190,6 +195,7 @@ class Search {
           const printMatches =
             hasImage &&
             matchesArtist &&
+            matchesExpansionSlot &&
             matchesFoiling &&
             matchesReleases &&
             matchesTreatment;
