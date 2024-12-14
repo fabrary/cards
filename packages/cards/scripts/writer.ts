@@ -122,6 +122,7 @@ const generateCardTypeScript = (card: Card): String => {
     types: [${getEnumValues(card.types, "Type", Type)}],
     typeText: "${card.typeText}",
 
+    ${card.arcane || card.arcane === 0 ? `arcane: ${card.arcane},` : ``}
     ${
       card.bannedFormats && card.bannedFormats.length > 0
         ? `bannedFormats: [${getEnumValues(
@@ -183,6 +184,7 @@ const generateCardTypeScript = (card: Card): String => {
           )}],`
         : ``
     }
+    ${card.specialArcane ? `specialArcane: "${card.specialArcane}",` : ``}
     ${card.specialCost ? `specialCost: "${card.specialCost}",` : ``}
     ${card.specialDefense ? `specialDefense: "${card.specialDefense}",` : ``}
     ${card.specialLife ? `specialLife: "${card.specialLife}",` : ``}

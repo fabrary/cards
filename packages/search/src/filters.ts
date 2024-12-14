@@ -105,6 +105,13 @@ export interface FilterToPropertyMapping {
   specialProperty?: string;
 }
 
+const arcaneFilter: FilterToPropertyMapping = {
+  property: "arcane",
+  specialProperty: "specialArcane",
+  isNumber: true,
+  partialMatch: true,
+};
+
 const artistFilter: FilterToPropertyMapping = {
   property: "artists",
   isArray: true,
@@ -264,6 +271,7 @@ const treatmentFilter: FilterToPropertyMapping = {
 };
 
 export const filtersToCardPropertyMappings = {
+  arcane: arcaneFilter,
   a: artistFilter,
   artist: artistFilter,
   art: artistFilter,

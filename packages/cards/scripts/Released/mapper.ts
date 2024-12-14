@@ -401,6 +401,7 @@ const getCardData = (card: ParsedCard): Card => {
     types,
     typeText: card.typeText,
 
+    arcane: getNumberOrUndefined(card.arcane) as number,
     bannedFormats,
     bonds: getBonds(card),
     cost: getNumberOrUndefined(card.cost),
@@ -415,6 +416,7 @@ const getCardData = (card: ParsedCard): Card => {
     pitch,
     power: getNumberOrUndefined(card.power) as number,
     restrictedFormats,
+    specialArcane: getStringIfNotNumber(card.arcane) as string,
     specialCost: getStringIfNotNumber(card.cost) as string,
     specialDefense: getStringIfNotNumber(card.defense) as string,
     specialLife: getStringIfNotNumber(card.life) as string,

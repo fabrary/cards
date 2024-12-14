@@ -16,6 +16,7 @@ export interface Card {
   types: Type[];
   typeText: string;
 
+  arcane?: number;
   bannedFormats?: Format[];
   bonds?: Bond[];
   cost?: number;
@@ -34,6 +35,7 @@ export interface Card {
   pitch?: number;
   power?: number;
   restrictedFormats?: Format[];
+  specialArcane?: string;
   specialCost?: string;
   specialDefense?: string;
   specialLife?: string;

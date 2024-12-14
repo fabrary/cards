@@ -65,6 +65,7 @@ cards.forEach((card) => {
 
 | Field                       | Data type            | Examples                                                               |
 | --------------------------- | -------------------- | ---------------------------------------------------------------------- |
+| arcane                      | `number`             | `1`, `5`                                                               |
 | cost                        | `number`             | `0`, `10`                                                              |
 | defense                     | `number`             | `3`, `4`                                                               |
 | functionalText              | `string`             | `"If Snatch hits, draw a card."`                                       |
@@ -74,11 +75,13 @@ cards.forEach((card) => {
 | isCardBack                  | `boolean`            | `true`                                                                 |
 | keywords                    | `Keyword` enum array | `[ "Boost" ]`                                                          |
 | life                        | `number`             | `18`, `40`                                                             |
+| meta                        | `Meta` enum array    | `[ "Expansion slot", "Rainbow" ]`                                      |
 | oppositeSideCardIdentifier  | `string`             | `"invoke-kyloria-red"`, `"tomeltai"`                                   |
 | oppositeSideCardIdentifiers | `string` array       | `[ "invoke-kyloria-red" ]`, `[ "mistcloak-gully" , "pass-over-blue" ]` |
 | pitch                       | `number`             | `1`, `2`, `3`                                                          |
 | power                       | `number`             | `3`, `14`                                                              |
 | restrictedFormats           | `Format` enum array  | `[ "Blitz" ]`                                                          |
+| specialArcane               | `string`             | `"X"`                                                                  |
 | specialCost                 | `string`             | `"XX"`, `"3X"`                                                         |
 | specialDefense              | `string`             | `"*"`                                                                  |
 | specialPower                | `string`             | `"*"`                                                                  |
@@ -88,14 +91,15 @@ cards.forEach((card) => {
 
 **`Printing`** contains information about the different printings a card has had (e.g. different sets, foilings)
 
-| Field      | Data type                         | Examples                            |
-| ---------- | --------------------------------- | ----------------------------------- |
-| edition    | `string` of `ReleaseEdition` enum | `"Alpha"`, `"Unlimited"`            |
-| foiling    | `string` of `Foiling` enum        | `"Cold"`, `"Rainbow"`               |
-| identifier | `string`                          | `"1HP001"`                          |
-| image      | `string`                          | `"1HP001.width-450"`                |
-| set        | `string` of `Release` enum        | `"Dynasty"`, `"Uprising"`           |
-| treatment  | `string` of `Treatment` enum      | `"Alternate Art"`, `"Extended Art"` |
+| Field           | Data type                         | Examples                            |
+| --------------- | --------------------------------- | ----------------------------------- |
+| edition         | `string` of `ReleaseEdition` enum | `"Alpha"`, `"Unlimited"`            |
+| foiling         | `string` of `Foiling` enum        | `"Cold"`, `"Rainbow"`               |
+| identifier      | `string`                          | `"1HP001"`                          |
+| image           | `string`                          | `"1HP001.width-450"`                |
+| isExpansionSlot | `boolean`                         | `true`                              |
+| set             | `string` of `Release` enum        | `"Dynasty"`, `"Uprising"`           |
+| treatment       | `string` of `Treatment` enum      | `"Alternate Art"`, `"Extended Art"` |
 
 ## Enums
 

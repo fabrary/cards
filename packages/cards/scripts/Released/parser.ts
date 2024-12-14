@@ -36,6 +36,7 @@ export interface Printing {
 export interface ParsedCard {
   abilitiesAndEffects: string[];
   abilityAndEffectKeywords: string[];
+  arcane: string;
   artists: string[];
   cardKeywords: string[];
   cost: string;
@@ -116,6 +117,7 @@ export interface SourceJSONCard {
   pitch: string;
   cost: string;
   power: string;
+  arcane: string;
   defense: string;
   health: string;
   intelligence: string;
@@ -180,6 +182,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
     ({
       abilities_and_effects,
       ability_and_effect_keywords,
+      arcane,
       card_keywords,
       cost,
       blitz_banned,
@@ -327,6 +330,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
       return {
         abilitiesAndEffects: abilities_and_effects,
         abilityAndEffectKeywords: ability_and_effect_keywords,
+        arcane,
         artists,
         cardKeywords: card_keywords,
         cost,
