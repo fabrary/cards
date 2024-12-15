@@ -75,6 +75,8 @@ const getHero = (card: ParsedCard): Hero | null => {
     heroOnCard = Hero.Starvo;
   } else if (name === "Arakni, 5L!p3d 7hRu 7h3 cR4X") {
     heroOnCard = Hero.Slippy;
+  } else if (["Arakni, Marionette", "Arakni, Web of Deceit"].includes(name)) {
+    heroOnCard = Hero.Crackni;
   }
 
   return heroOnCard;

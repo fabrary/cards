@@ -143,7 +143,7 @@ HNT113,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT114,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT115,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT116, FAB311","HNT, FAB",Jagged Edge,1,1,,3,,,,"Warrior, Attack Reaction",,,,,,,"Target weapon attack gets +3{p} and ""Damage this would deal can't be prevented.""",Warrior Attack Reaction,,,,No,,M,,,Audy Ravindra,,,HNT116,,,,P,C,EA,Audy Ravindra,,,FAB311,/FAB311.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT117,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT117,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT117,HNT,Provoke,3,1,,3,,,,"Warrior, Attack Reaction",,,,,,,"If you're attacking with a weapon this chain link, the defending hero reveals a card from their hand. If it's an action card, add it to this chain link as a defending card, otherwise they discard it.",Warrior Attack Reaction,,,,No,,M,,,Sebastian Giacobino,,,HNT117,/HNT117.png,,,M,,EA,Sebastian Giacobino,,,HNT117,/HNT117_EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT118,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT118,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT119,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT119,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT120,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -291,14 +291,14 @@ HNT249,HNT,Retrace the Past,3,0,2,3,,,,"Ninja, Action, Attack","Katsu Specializa
 HNT250,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT250,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT251,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT251,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT252,HNT,Enchanted Quiver,,,,,,,,"Ranger, Equipment, Quiver",,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2.",Ranger Equipment - Quiver,,,,No,,M,,,Jessketchin,Yes,,HNT252,/HNT252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT253,HNT,Chain Reaction,2,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,"When this defends an attack with **go again**, you may turn a non-attack action card in your arsenal face-up. If you do, you may play it this turn as though it were an instant.",Ranger Defense Reaction - Trap,,,,No,,M,,,Septimius Ferdian,Yes,,HNT253,/HNT253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT253,HNT,Chain Reaction,2,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,Go again,"When this defends an attack with **go again**, you may turn a non-attack action card in your arsenal face-up. If you do, you may play it this turn as though it were an instant.",Ranger Defense Reaction - Trap,,,,No,,M,,,Septimius Ferdian,Yes,,HNT253,/HNT253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT254,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT254,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT255,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT256,HNT,Ring of Roses,2,0,,3,,,,"Earth, Wizard, Action, Aura","Legendary, Verdance Specialization",,,,,,"**Legendary Verdance Specialization**
 
 The first time you deal arcane damage each turn, gain 1{h}.",Earth Wizard Action - Aura,,,,No,,M,,,Mark Poole,Yes,,HNT256,/HNT256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT257,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT257,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT258,HNT,War Cry of Bellona,2,0,,3,,,,"Light, Warrior, Attack Reaction",,,,,,,"Target Raydn gets +2{p} this turn.
+HNT258,HNT,War Cry of Bellona,2,0,,3,,,,"Light, Warrior, Attack Reaction",,Instant,,,,,"Target Raydn gets +2{p} this turn.
 
 **Instant** - Discard this, banish X cards from your soul: The next time target weapon deals X or less damage to you this turn, deal that much damage to its controller and that damage can't be prevented.",Light Warrior Attack Reaction,,,,No,,M,,,Simon Dominic,Yes,,HNT258,/HNT258.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT259,HNT,Cull,1,0,,3,,,,"Shadow, Runeblade, Action",Blood Debt,,,,,,"You may play this from your banished zone.

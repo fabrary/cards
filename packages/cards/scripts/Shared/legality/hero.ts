@@ -98,10 +98,6 @@ const cindra: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Ninja], ROYAL_DRACONIC),
 };
 
-const crackni: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Assassin], [Talent.Chaos]),
-};
-
 const dash: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Mechanologist]),
 };
@@ -229,7 +225,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Brutus]: brutus,
   [Hero.Chane]: chane,
   [Hero.Cindra]: cindra,
-  [Hero.Crackni]: crackni,
+  [Hero.Crackni]: CLASSES_AND_TALENTS([Class.Assassin], [Talent.Chaos]),
   [Hero.Dash]: dash,
   [Hero.DataDoll]: dataDoll,
   [Hero.Dorinthea]: dorinthea,
@@ -337,14 +333,15 @@ export const getLegalHeroes = (card: {
       const matchesStarvoSpecialization =
         card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
 
-      const matchesSlippySpecialization =
-        card.specializations?.includes(Hero.Arakni) && hero === Hero.Slippy;
+      const matchesArakniSpecialization =
+        card.specializations?.includes(Hero.Arakni) &&
+        [Hero.Crackni, Hero.Slippy].includes(hero);
 
       const matchesSpecializations =
         !card.specializations ||
         card.specializations.length === 0 ||
         matchesStarvoSpecialization ||
-        matchesSlippySpecialization ||
+        matchesArakniSpecialization ||
         card.specializations.includes(hero);
 
       const matchesSubtypes =
