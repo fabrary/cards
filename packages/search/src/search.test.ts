@@ -529,7 +529,7 @@ describe("Returns matching prints when release or foiling included", () => {
     }
   });
 
-  it("Matching printing from card overlay limited filters no reference to expansion slots", () => {
+  it("Matching printing from card overlay limited filters", () => {
     const { searchResults } = cardSearch.search(
       "s:hnt !r:legendary,fabled l:draft,sealed"
     );
@@ -538,24 +538,6 @@ describe("Returns matching prints when release or foiling included", () => {
       if (!card.meta || !card.meta.includes(Meta.Expansion)) {
         expect(card.matchingPrintings.length).toBeGreaterThanOrEqual(1);
       }
-      for (const printing of card.matchingPrintings) {
-        expect(printing).toBeTruthy();
-        expect(printing.set).toEqual(Release.TheHunted);
-      }
-    }
-  });
-
-  it("Matching printing from card overlay limited filters excluding expansion slots", () => {
-    const { searchResults: allHnt } = cardSearch.search(
-      "s:hnt !r:legendary,fabled l:draft,sealed"
-    );
-    const { searchResults, attributes, appliedFilters } = cardSearch.search(
-      "s:hnt !r:legendary,fabled l:draft,sealed !meta:expansion"
-    );
-    expect(allHnt.length > searchResults.length).toBeTruthy();
-    for (const card of searchResults) {
-      expect(card.matchingPrintings).toBeTruthy();
-      expect(card.matchingPrintings.length).toBeGreaterThanOrEqual(1);
       for (const printing of card.matchingPrintings) {
         expect(printing).toBeTruthy();
         expect(printing.set).toEqual(Release.TheHunted);

@@ -293,7 +293,9 @@ HNT251,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT251,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT252,HNT,Enchanted Quiver,,,,,,,,"Ranger, Equipment, Quiver",,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2.",Ranger Equipment - Quiver,,,,No,,M,,,Jessketchin,Yes,,HNT252,/HNT252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT253,HNT,Chain Reaction,2,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,Go again,"When this defends an attack with **go again**, you may turn a non-attack action card in your arsenal face-up. If you do, you may play it this turn as though it were an instant.",Ranger Defense Reaction - Trap,,,,No,,M,,,Septimius Ferdian,Yes,,HNT253,/HNT253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT254,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT254,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT255,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT255,HNT,Spur Locked,3,0,,3,,,,"Chaos, Action",Go again,,,,,,"Each hero secretly chooses a number between 1 and 6, then those numbers are revealed. The hero that chose the highest number loses that much {h}, searches their deck for a card with cost less than or equal to the chosen number, reveales it, puts it in their hand, then shuffles.
+
+**Go again**",Chaos Action,,,,No,,M,,,Arif Wijaya,Yes,,HNT255,/HNT255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT256,HNT,Ring of Roses,2,0,,3,,,,"Earth, Wizard, Action, Aura","Legendary, Verdance Specialization",,,,,,"**Legendary Verdance Specialization**
 
 The first time you deal arcane damage each turn, gain 1{h}.",Earth Wizard Action - Aura,,,,No,,M,,,Mark Poole,Yes,,HNT256,/HNT256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

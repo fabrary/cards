@@ -83,21 +83,41 @@ releasedCards.forEach((card) => {
   }
 });
 
-const releasesForLimitedFormat = releases.filter(
+const cardsWithMetaValues = deduplicatedCards.map((card) => {
+  const meta = getMeta(card, deduplicatedCards);
+
+  return { ...card, meta };
+});
+
+const releaseInfoForLimitedFormat = releases.filter(
   ({ releaseType }) => releaseType === ReleaseType.StandaloneBooster
 );
+const limitedFormatReleases = releaseInfoForLimitedFormat.map(
+  ({ release }) => release
+);
 
-const cardsWithLegalFormats = deduplicatedCards.map((card) => {
+const cardsWithLegalFormats = cardsWithMetaValues.map((card) => {
   const legalFormats = card.legalFormats.filter((format) => {
     let isConfirmedLegal = true;
 
     const isLimited = [Format.Draft, Format.Sealed].includes(format);
     if (isLimited) {
-      const coreSetsCardIsIn = releasesForLimitedFormat.filter(({ release }) =>
-        card.sets.includes(release)
+      const coreSetsCardIsIn = releaseInfoForLimitedFormat.filter(
+        ({ release }) => card.sets.includes(release)
       );
+      const isInAtLeastOneLimitedSet = coreSetsCardIsIn.length > 0;
+      isConfirmedLegal = isInAtLeastOneLimitedSet;
 
-      isConfirmedLegal = coreSetsCardIsIn.length > 0;
+      // Make sure card isn't an expansion card in every core set it's in
+      const cardIsAnExpansionCardInEveryLimitedSet = card.printings.every(
+        ({ isExpansionSlot, set }) => {
+          const isCoreSet = limitedFormatReleases.includes(set);
+
+          return isCoreSet ? isExpansionSlot : true;
+        }
+      );
+      isConfirmedLegal = !cardIsAnExpansionCardInEveryLimitedSet;
+
       if (isConfirmedLegal) {
         const rarityRestrictionsFromSets = coreSetsCardIsIn.map(
           ({ raritiesExcludedInLimited }) => raritiesExcludedInLimited
@@ -145,10 +165,10 @@ const cardsWithLegalFormats = deduplicatedCards.map((card) => {
   return { ...card, legalFormats };
 });
 
-const cardsWithMetaValues = cardsWithLegalFormats.map((card) => {
-  const meta = getMeta(card, cardsWithLegalFormats);
+// const cardsWithMetaValues = cardsWithLegalFormats.map((card) => {
+//   const meta = getMeta(card, cardsWithLegalFormats);
 
-  return { ...card, meta };
-});
+//   return { ...card, meta };
+// });
 
-writeFiles(cardsWithMetaValues, outputDirectory);
+writeFiles(cardsWithLegalFormats, outputDirectory);
