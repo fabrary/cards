@@ -435,6 +435,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
     }
   }
   const rawSearchCriteria = getSearchCriteria(expandedText);
+
   const searchCriteria: string[] = [];
   for (const criteria of rawSearchCriteria) {
     const expanded = singleWordShorthands.find(({ shorthands }) =>

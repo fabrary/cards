@@ -456,6 +456,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/arakni-black-widow</loc>
+    <lastmod>2024-12-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/arakni-huntsman</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -14828,6 +14833,11 @@
   <url>
     <loc>https://fabrary.net/cards/the-grain-that-tips-the-scale-blue</loc>
     <lastmod>2024-04-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/the-hand-that-pulls-the-strings</loc>
+    <lastmod>2024-12-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -30,6 +30,7 @@ export interface Card {
   isCardBack?: boolean;
   keywords?: Keyword[];
   meta?: Meta[];
+  metatypes?: Metatype[];
   oppositeSideCardIdentifier?: string;
   oppositeSideCardIdentifiers?: string[];
   pitch?: number;
@@ -173,6 +174,7 @@ export enum Release {
 
   // Blitz decks
   ArakniBlitzDeck = "Arakni Blitz Deck",
+  ArakniBlitzDeckARK = "Arakni Hunted Blitz Deck",
   AuroraBlitzDeck = "Aurora Blitz Deck",
   AzaleaBlitzDeck = "Azalea Blitz Deck",
   BenjiBlitzDeck = "Benji Blitz Deck",
@@ -238,6 +240,11 @@ export enum Talent {
   Mystic = "Mystic",
   Royal = "Royal",
   Shadow = "Shadow",
+}
+
+export enum Metatype {
+  Arakni = "Arakni",
+  Rosetta = "Rosetta",
 }
 
 export enum Type {

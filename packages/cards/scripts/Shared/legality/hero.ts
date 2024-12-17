@@ -3,6 +3,7 @@ import {
   getIsDeckCard,
   Hero,
   Keyword,
+  Metatype,
   Subtype,
   Talent,
   Type,
@@ -301,6 +302,7 @@ export const getLegalHeroes = (card: {
   classes: Class[];
   hero?: Hero;
   keywords?: Keyword[];
+  metatypes?: Metatype[];
   name: string;
   pitch?: number;
   specializations?: Hero[];
@@ -333,9 +335,12 @@ export const getLegalHeroes = (card: {
       const matchesStarvoSpecialization =
         card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
 
+      const isArakniSpecialization =
+        card.specializations?.includes(Hero.Arakni) ||
+        card.metatypes?.includes(Metatype.Arakni);
       const matchesArakniSpecialization =
-        card.specializations?.includes(Hero.Arakni) &&
-        [Hero.Crackni, Hero.Slippy].includes(hero);
+        isArakniSpecialization &&
+        [Hero.Arakni, Hero.Crackni, Hero.Slippy].includes(hero);
 
       const matchesSpecializations =
         !card.specializations ||
@@ -355,7 +360,7 @@ export const getLegalHeroes = (card: {
         card.talents.every((cardTalent) => talents.includes(cardTalent));
 
       let matches =
-        matchesClass &&
+        (matchesClass || matchesArakniSpecialization) &&
         matchesHero &&
         matchesPitches &&
         matchesSpecializations &&
@@ -404,8 +409,11 @@ export const getLegalHeroes = (card: {
         console.log(
           JSON.stringify(
             {
+              card,
               filters,
               hero,
+              hybrid: matchesClass || matchesArakniSpecialization,
+              isArakniSpecialization,
               matches,
               matchesClass,
               matchesPitches,

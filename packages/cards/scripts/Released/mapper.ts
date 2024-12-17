@@ -5,6 +5,7 @@ import {
   Format,
   Hero,
   Keyword,
+  Metatype,
   Printing,
   Rarity,
   Release,
@@ -26,6 +27,7 @@ import {
   getRestrictedFormats,
   getSpecializations,
   getStringIfNotNumber,
+  getTypeSubtypeAndMetatype,
   IGNORE_OPPOSITE_SIDES,
   sortPrintingsByReleaseOrder,
 } from "../Shared";
@@ -276,47 +278,13 @@ const getTalents = (card: ParsedCard): Talent[] => {
   return arr;
 };
 
-const getTypeAndSubType = (
-  card: ParsedCard
-): {
-  types: Type[];
-  subtypes: Subtype[];
-} => {
-  const { types: rawTypes } = card;
-  const types: Type[] = [];
-  for (const [typeKey, typeValue] of Object.entries(Type)) {
-    if (rawTypes.includes(typeValue as string)) {
-      types.push(Type[typeKey]);
-    }
-  }
-
-  const subtypes: Subtype[] = [];
-  for (const subtypeEnum of [Subtype]) {
-    for (const [subtypeEnumKey, subTypeEnumValue] of Object.entries(
-      subtypeEnum
-    ).reverse()) {
-      if (rawTypes.includes(subTypeEnumValue as string)) {
-        subtypes.push(subtypeEnum[subtypeEnumKey]);
-      }
-    }
-  }
-  if (types.includes(Type.Action) && !subtypes.includes(Subtype.Attack)) {
-    subtypes.push(Subtype.NonAttack);
-  }
-
-  types.sort();
-  subtypes.sort();
-
-  return { types, subtypes };
-};
-
 const getYoung = (card: ParsedCard): boolean | null => {
   const { types } = card;
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
 
 const getCardData = (card: ParsedCard): Card => {
-  const { subtypes, types } = getTypeAndSubType(card);
+  const { metatypes, subtypes, types } = getTypeSubtypeAndMetatype(card);
   const printings = getPrintings(card);
 
   const artists = card.artists
@@ -385,6 +353,7 @@ const getCardData = (card: ParsedCard): Card => {
       classes,
       hero,
       keywords,
+      metatypes,
       name,
       pitch,
       specializations,
@@ -415,6 +384,7 @@ const getCardData = (card: ParsedCard): Card => {
     intellect: getNumberOrUndefined(card.intellect),
     keywords,
     life: getNumberOrUndefined(card.life),
+    metatypes,
     pitch,
     power: getNumberOrUndefined(card.power) as number,
     restrictedFormats,

@@ -10,6 +10,7 @@ import {
   getRestrictedFormats,
   getSpecializations,
   getStringIfNotNumber,
+  getTypeSubtypeAndMetatype,
   rarityStringMapping,
   sortPrintingsByReleaseOrder,
 } from "../Shared";
@@ -21,6 +22,7 @@ import {
   Format,
   Hero,
   Keyword,
+  Metatype,
   Printing,
   Rarity,
   Release,
@@ -69,7 +71,7 @@ const getClasses = (card: ParsedCard): Class[] => {
   if (classes.length === 0 && getTalents(card)?.length) {
     classes.push(Class.NotClassed);
   }
-  if (classes.length === 0 && card.types.includes("Macro")) {
+  if (classes.length === 0 && card.types.includes(Type.Macro)) {
     classes.push(Class.NotClassed);
   }
   // if (classes.length === 0) {
@@ -439,7 +441,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
   if (!rarity2 && !artists2) {
     const { rarity } = getParsedRarities(card);
-    const { types } = getTypeAndSubType(card);
+    const { types } = getTypeSubtypeAndMetatype(card);
     const setIdentifier = (identifier || identifiers[0]).slice(0, 3);
     const cardIdentifier = getCardIdentifier(card);
 
@@ -701,47 +703,13 @@ const getTalents = (card: ParsedCard): Talent[] => {
   return arr;
 };
 
-const getTypeAndSubType = (
-  card: ParsedCard
-): {
-  types: Type[];
-  subtypes: Subtype[];
-} => {
-  const { types: rawTypes } = card;
-  const types: Type[] = [];
-  for (const [typeKey, typeValue] of Object.entries(Type)) {
-    if (rawTypes.includes(typeValue as string)) {
-      types.push(Type[typeKey]);
-    }
-  }
-
-  const subtypes: Subtype[] = [];
-  for (const subtypeEnum of [Subtype]) {
-    for (const [subtypeEnumKey, subTypeEnumValue] of Object.entries(
-      subtypeEnum
-    ).reverse()) {
-      if (rawTypes.includes(subTypeEnumValue as string)) {
-        subtypes.push(subtypeEnum[subtypeEnumKey]);
-      }
-    }
-  }
-  if (types.includes(Type.Action) && !subtypes.includes(Subtype.Attack)) {
-    subtypes.push(Subtype.NonAttack);
-  }
-
-  types.sort();
-  subtypes.sort();
-
-  return { types, subtypes };
-};
-
 const getYoung = (card: ParsedCard): boolean | null => {
   const { types } = card;
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
 
 const getCardData = (card: ParsedCard): Card => {
-  const { types, subtypes } = getTypeAndSubType(card);
+  const { metatypes, types, subtypes } = getTypeSubtypeAndMetatype(card);
   const printings = getPrintings(card);
 
   const setIdentifiers = [...card.identifiers];
@@ -784,6 +752,7 @@ const getCardData = (card: ParsedCard): Card => {
       classes,
       hero,
       keywords,
+      metatypes,
       name,
       pitch,
       specializations,
@@ -816,6 +785,7 @@ const getCardData = (card: ParsedCard): Card => {
     intellect: getNumberOrUndefined(card.intellect),
     keywords,
     life: getNumberOrUndefined(card.life),
+    metatypes,
     pitch,
     power: getNumberOrUndefined(card.power) as number,
     restrictedFormats,

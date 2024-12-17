@@ -87,8 +87,6 @@ describe("Gets the right attribute filters", () => {
       expect(treatments.length).toEqual(expectedTreatments.length);
       expect(treatments).toMatchSnapshot();
 
-      console.log(JSON.stringify({ treatments, expectedTreatments }));
-
       for (const expected of expectedTreatments as Treatment[]) {
         expect(treatments.includes(expected)).toBeTruthy();
       }

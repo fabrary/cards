@@ -6,7 +6,9 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
 HNT002,HNT,"Arakni, Web of Deceit",,,,,20,4,,"Chaos, Assassin, Hero, Young",,,,,,,"Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and ""When this hits, this gets **go again**.""
 
 At the beginning of your end phase, if an opponent is **marked**, you become a random Agent of Chaos.",Chaos Assassin Hero - Young,,,No,,No,T,,,Isuardi Therianto,,,HNT002,/HNT002.png,,,V,C,FA,Isuardi Therianto,,,HNT002,/HNT002-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT003,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT003,HNT,"Arakni, Black Widow",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets ""When this hits a hero, they banish a card from their hand.""
+
+At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,soyameii,,,HNT003,/HNT003.png,,,V,C,FA,soyameii,,,HNT003,/HNT003-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT004,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT005,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT006,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

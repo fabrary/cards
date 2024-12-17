@@ -987,7 +987,7 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 265,
     classes: [Class.Assassin, Class.Ninja, Class.Warrior],
-    heroes: [Hero.Cindra, Hero.Fang],
+    heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
@@ -996,6 +996,17 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["hnt"],
     talents: [Talent.Chaos, Talent.Draconic, Talent.Royal],
     url: "https://fabtcg.com/en/articles/hnt/",
+  },
+  {
+    cards: 40,
+    classes: [Class.Assassin],
+    heroes: [Hero.Arakni],
+    languages: ALL_LANGUAGES,
+    release: Release.ArakniBlitzDeckARK,
+    releaseDate: "2025-01-31 12:00",
+    releaseType: ReleaseType.BlitzDeck,
+    setIdentifiers: ["ark"],
+    talents: [Talent.Chaos],
   },
 ];
 
@@ -1031,6 +1042,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
+  ark: Release.ArakniBlitzDeckARK,
   aua: Release.AuroraBlitzDeck,
   azl: Release.AzaleaBlitzDeck,
   ben: Release.BenjiBlitzDeck,

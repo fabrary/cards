@@ -7,6 +7,7 @@ import {
   Hero,
   Keyword,
   Meta,
+  Metatype,
   Printing,
   Rarity,
   Release,
@@ -14,6 +15,7 @@ import {
   ReleaseInfo,
   ReleaseType,
   Subtype,
+  Type,
   orderedFullSetBlackBorderIdentifiers,
   releases,
   setIdentifierToSetMappings,
@@ -399,4 +401,53 @@ export const getRarities = (card: {
   const rarity = getRarity(rarities);
 
   return { rarity, rarities };
+};
+
+export const getTypeSubtypeAndMetatype = (card: {
+  name: string;
+  types: string[];
+}): {
+  metatypes: Metatype[];
+  types: Type[];
+  subtypes: Subtype[];
+} => {
+  const { types: rawTypes } = card;
+  const types: Type[] = [];
+  for (const [typeKey, typeValue] of Object.entries(Type)) {
+    if (rawTypes.includes(typeValue as string)) {
+      types.push(Type[typeKey]);
+    }
+  }
+
+  const subtypes: Subtype[] = [];
+  for (const subtypeEnum of [Subtype]) {
+    for (const [subtypeEnumKey, subTypeEnumValue] of Object.entries(
+      subtypeEnum
+    ).reverse()) {
+      if (rawTypes.includes(subTypeEnumValue as string)) {
+        subtypes.push(subtypeEnum[subtypeEnumKey]);
+      }
+    }
+  }
+
+  const metatypes: Metatype[] = [];
+  for (const metatypeEnum of [Metatype]) {
+    for (const [metatypeEnumKey, metatypeEnumValue] of Object.entries(
+      metatypeEnum
+    ).reverse()) {
+      if (rawTypes.includes(metatypeEnumValue as string)) {
+        metatypes.push(metatypeEnum[metatypeEnumKey]);
+      }
+    }
+  }
+
+  if (types.includes(Type.Action) && !subtypes.includes(Subtype.Attack)) {
+    subtypes.push(Subtype.NonAttack);
+  }
+
+  metatypes.sort();
+  types.sort();
+  subtypes.sort();
+
+  return { metatypes, types, subtypes };
 };

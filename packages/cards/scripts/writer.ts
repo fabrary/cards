@@ -10,6 +10,7 @@ import {
   Hero,
   Keyword,
   Meta,
+  Metatype,
   Printing,
   Rarity,
   Release,
@@ -157,9 +158,14 @@ const generateCardTypeScript = (card: Card): String => {
         ? `keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],`
         : ``
     }
-    ${card.life ? `life: ${card.life},` : ``}${
-    card.meta && card.meta.length > 0
-      ? `meta: [${getEnumValues(card.meta, "Meta", Meta)}],`
+    ${card.life ? `life: ${card.life},` : ``}
+    ${
+      card.meta && card.meta.length > 0
+        ? `meta: [${getEnumValues(card.meta, "Meta", Meta)}],`
+        : ``
+    }${
+    card.metatypes && card.metatypes.length > 0
+      ? `metatypes: [${getEnumValues(card.metatypes, "Metatype", Metatype)}],`
       : ``
   }
     ${
@@ -237,6 +243,7 @@ const generateTS = (cards: Card[]): string => {
     Hero,
     Keyword,
     Meta,
+    Metatype,
     Rarity,
     Release,
     ReleaseEdition,
