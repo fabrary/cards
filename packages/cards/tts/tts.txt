@@ -3025,6 +3025,7 @@ OSCCardDB = {
   ["HNT160"] = { name = "For the Realm (1)", text = "When this attacks a **marked** hero, create a Fealty token.", keywords = "", types = "Action"},
   ["HNT165"] = { name = "Proclaim Vengeance (1)", text = "**Mark** target opposing hero. If that hero is Arakni, gain {r}.", keywords = "Mark", types = "Instant"},
   ["HNT167"] = { name = "Fealty", text = "**Instant** - Destroy this: The next card you play this turn is Draconic. At the beginning of your end phase, if you haven't created a Fealty token or played a Dragonic card this turn, destroy this.", keywords = "", types = "Token"},
+  ["HNT236"] = { name = "Lay Low (2)", text = "If you are **marked**, you can't play this.\n\nIf the defending hero is **marked**, their next attack this turn gets -1{p}.", keywords = "", types = "Defense Reaction"},
   ["HNT244"] = { name = "Marked", text = "You are **marked** until an opponent hits you", keywords = "Mark", types = "Token"},
   ["HNT246"] = { name = "Thick Hide Hunter (2)", text = "When this attacks or defends, discard a random card.", keywords = "", types = "Action"},
   ["HNT247"] = { name = "Tremorshield Sabatons", text = "**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've controlled a Seismic Surge token this turn, instead prevent the next 2.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},

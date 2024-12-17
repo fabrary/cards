@@ -183,6 +183,7 @@ describe("Related cards", () => {
   });
 
   const heroSpecificTokens: string[][][] = [
+    [[], [Hero.Crackni], ["Arakni, Black Widow"]],
     [["Maxx Nitro"], [Hero.Maxx], ["Hyper Driver"]],
     [["Jump Start"], [Hero.Maxx], ["Hyper Driver"]],
     [["Jump Start"], [Hero.Dash], []],
@@ -195,7 +196,10 @@ describe("Related cards", () => {
       const referencingCards = cards.filter(({ name }) =>
         (referencingCardNames as unknown as string[]).includes(name)
       );
-      const allTokens = cards.filter(({ types }) => types.includes(Type.Token));
+      const allTokens = cards.filter(
+        ({ types }) =>
+          types.includes(Type.Token) || types.includes(Type.DemiHero)
+      );
 
       const hero = heroes.length > 0 ? (heroes[0] as Hero) : undefined;
 

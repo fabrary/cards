@@ -344,8 +344,6 @@ describe("Card search", () => {
       randomizeCapitalization("s:ros l:draft")
     );
 
-    console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
-
     expect(searchResults.length).toBeGreaterThan(0);
     // expect(searchResults.length).toBe(0);
   });
@@ -460,7 +458,6 @@ describe("Armory decks are distinct", () => {
     const { searchResults, keywords, appliedFilters } = cardSearch.search(
       `s:"${set}"`
     );
-    console.log(JSON.stringify({ keywords, appliedFilters, set }, null, 2));
     const cardsNotInSet = searchResults.filter(
       ({ sets }) => !sets.includes(set as Release)
     );

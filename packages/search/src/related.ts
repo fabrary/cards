@@ -105,8 +105,11 @@ export const getRelatedCards = (
 
 const CARD_IDENTIFIERS_TO_SKIP: string[] = ["cash-in-yellow"];
 
-const heroReferences: { [key: string]: string[] } = {
-  [Hero.Crackni]: [""],
+const heroReferences: {
+  [key: string]: { cards?: string[]; tokens?: string[] };
+} = {
+  [Hero.Crackni]: { tokens: ["arakni-black-widow"] },
+  [Hero.Maxx]: { tokens: ["hyper-driver"] },
 };
 
 export const getTokensReferencedByCards = (
@@ -127,6 +130,25 @@ export const getTokensReferencedByCards = (
       return !isHyperDriver || isMaxx;
     })) {
       referencedTokens.add(token);
+    }
+  }
+  if (hero) {
+    const heroCards = heroReferences[hero];
+    if (heroCards) {
+      if (heroCards.cards) {
+        for (const card of cards) {
+          if (heroCards.cards.includes(card.cardIdentifier)) {
+            referencedTokens.add(card);
+          }
+        }
+      }
+      if (heroCards.tokens) {
+        for (const token of tokens) {
+          if (heroCards.tokens.includes(token.cardIdentifier)) {
+            referencedTokens.add(token);
+          }
+        }
+      }
     }
   }
 
