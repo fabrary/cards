@@ -9,7 +9,9 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
 HNT003,HNT,"Arakni, Black Widow",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,Stealth,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets ""When this hits a hero, they banish a card from their hand.""
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,soyameii,,,HNT003,/HNT003.png,,,V,C,FA,soyameii,,,HNT003,/HNT003-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT004,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT004,HNT,"Arakni, Funnel Web",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets ""When this hits a hero, banish a card in their arsenal.""
+
+At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Federico Musetti,,,HNT004,/HNT004.png,,,V,C,FA,Federico Musetti,,,HNT004,/HNT004-V2-temp.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT005,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT006,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT007,HNT,"Arakni, Tarantula",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"Whenever a dagger you own hits a hero, they lose 1{h}.

@@ -38,19 +38,16 @@ export const getCardIdentifier = (
 };
 
 export const getIsArenaCard = ({
-  isCardBack,
   keywords,
   traits,
   types,
 }: {
-  isCardBack?: boolean;
   keywords?: Keyword[];
   traits?: Trait[];
   types: Type[];
 }) => {
-  const isDeckCard = getIsDeckCard({ isCardBack, keywords, traits, types });
+  const isDeckCard = getIsDeckCard({ keywords, traits, types });
   const isToken = getIsCardTokenForDeck({
-    isCardBack,
     keywords,
     traits,
     types,
@@ -63,12 +60,10 @@ export const getIsArenaCard = ({
 };
 
 export const getIsDeckCard = ({
-  isCardBack,
   keywords,
   traits,
   types,
 }: {
-  isCardBack?: boolean;
   keywords?: Keyword[];
   traits?: Trait[];
   types: Type[];
@@ -83,7 +78,6 @@ export const getIsDeckCard = ({
     Type.Resource,
   ].some((type) => types.includes(type));
   const isToken = getIsCardTokenForDeck({
-    isCardBack,
     keywords,
     traits,
     types,
@@ -93,12 +87,10 @@ export const getIsDeckCard = ({
 };
 
 export const getIsCardTokenForDeck = ({
-  isCardBack,
   keywords,
   traits,
   types,
 }: {
-  isCardBack?: boolean;
   keywords?: Keyword[];
   traits?: Trait[];
   types: Type[];
@@ -109,14 +101,16 @@ export const getIsCardTokenForDeck = ({
     types.includes(type)
   );
 
-  return isAgentOfChaos || isCardBack || isEphemeral || isHeroMacroOrToken;
+  return isAgentOfChaos || isEphemeral || isHeroMacroOrToken;
 };
 
 export const getCanCardBeTokenForDeck = (card: Card) => {
   const isCrackedBauble = card.cardIdentifier === "cracked-bauble-yellow";
   const isToken = getIsCardTokenForDeck(card);
+  const cardBackCanBeOutsideDeck =
+    card.isCardBack && card.oppositeSideCardIdentifier !== "inner-chi-blue";
 
-  return isCrackedBauble || isToken;
+  return isCrackedBauble || isToken || cardBackCanBeOutsideDeck;
 };
 
 export const getCanAddToDeck = ({
