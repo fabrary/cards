@@ -108,7 +108,7 @@ export const getCanCardBeTokenForDeck = (card: Card) => {
   const isCrackedBauble = card.cardIdentifier === "cracked-bauble-yellow";
   const isToken = getIsCardTokenForDeck(card);
   const cardBackCanBeOutsideDeck =
-    card.isCardBack && card.oppositeSideCardIdentifier !== "inner-chi-blue";
+    card.isCardBack && card.cardIdentifier !== "inner-chi-blue";
 
   return isCrackedBauble || isToken || cardBackCanBeOutsideDeck;
 };
