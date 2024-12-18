@@ -17,6 +17,7 @@ import {
   ReleaseEdition,
   Subtype,
   Talent,
+  Trait,
   Treatment,
   Type,
 } from "@flesh-and-blood/types";
@@ -209,7 +210,12 @@ const generateCardTypeScript = (card: Card): String => {
         ? `talents: [${getEnumValues(card.talents, "Talent", Talent)}],`
         : ``
     }
-    ${card.young ? `young: ${card.young}` : ``}
+  ${
+    card.traits && card.traits.length > 0
+      ? `traits: [${getEnumValues(card.traits, "Trait", Trait)}],`
+      : ``
+  }
+  ${card.young ? `young: ${card.young}` : ``}
   }`;
 };
 
@@ -249,6 +255,7 @@ const generateTS = (cards: Card[]): string => {
     ReleaseEdition,
     Subtype,
     Talent,
+    Trait,
     Treatment,
     Type 
   } from '@flesh-and-blood/types';

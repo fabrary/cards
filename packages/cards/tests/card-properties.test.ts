@@ -1,6 +1,6 @@
 import { cards as cardsToPublish } from "../dist/index";
 import { cards as publishedCards } from "latest-cards";
-import { Card, getPrint } from "@flesh-and-blood/types";
+import { Card, getPrint, Trait } from "@flesh-and-blood/types";
 
 interface UpdatedComparison {
   toPublish: Card;
@@ -57,6 +57,13 @@ describe("All required fields present", () => {
     expect(types.length || subtypes.length).toBeGreaterThan(0);
     expect(typeText).toBeTruthy();
     expect(printings.length).toBeGreaterThan(0);
+  });
+
+  it("Agents of Chaos", () => {
+    const agentsOfChaos = cardsToPublish.filter(({ traits }) =>
+      traits?.includes(Trait.AgentOfChaos)
+    );
+    expect(agentsOfChaos.length).toBeGreaterThanOrEqual(2);
   });
 });
 

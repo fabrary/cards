@@ -324,11 +324,7 @@ export const getLegalHeroes = (card: {
       const matchesHero = !card.hero || card.hero === hero;
 
       let matchesPitches = true;
-      if (
-        excludedPitches &&
-        hero === Hero.Emperor &&
-        getIsDeckCard(card.types, card.keywords)
-      ) {
+      if (excludedPitches && hero === Hero.Emperor && getIsDeckCard(card)) {
         matchesPitches = !excludedPitches.includes(card.pitch);
       }
 

@@ -4,6 +4,7 @@ import {
   getCardIdentifier,
   getSpecialPrinting,
   getDefaultPrinting,
+  getIsCardTokenForDeck,
 } from "../src/helpers";
 import { Foiling, Printing, Release, Treatment, Type } from "../src/interfaces";
 
@@ -59,15 +60,28 @@ describe("Card identifiers", () => {
 });
 
 describe("Card types", () => {
-  const types = Object.values(Type);
+  const types = Object.values(Type).filter((type) => type !== Type.Hero);
 
   it.each(types)("%s is an arena or deck card", (type) => {
-    const isArenaCard = getIsArenaCard(types);
-    const isDeckCard = getIsDeckCard(types);
+    const isArenaCard = getIsArenaCard({ types: [type] });
+    const isDeckCard = getIsDeckCard({ types: [type] });
+    const isToken = getIsCardTokenForDeck({ types: [type] });
 
-    const isArenaOrDeckCard = isArenaCard || isDeckCard;
+    let numberOfMatches = 0;
+    if (isArenaCard) {
+      numberOfMatches++;
+    }
+    if (isDeckCard) {
+      numberOfMatches++;
+    }
+    if (isToken) {
+      numberOfMatches++;
+    }
 
-    expect(isArenaOrDeckCard).toEqual(true);
+    const isArenaOrDeckOrTokenCard = isArenaCard || isDeckCard || isToken;
+
+    expect(isArenaOrDeckOrTokenCard).toEqual(true);
+    expect(numberOfMatches).toEqual(1);
   });
 });
 

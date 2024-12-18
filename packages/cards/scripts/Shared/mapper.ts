@@ -15,6 +15,7 @@ import {
   ReleaseInfo,
   ReleaseType,
   Subtype,
+  Trait,
   Type,
   orderedFullSetBlackBorderIdentifiers,
   releases,
@@ -263,6 +264,34 @@ export const getSets = ({
   arr.sort();
 
   return arr;
+};
+
+export const getTraits = ({
+  name,
+  setIdentifiers,
+}: {
+  name: string;
+  setIdentifiers: string[];
+}) => {
+  const traits: Trait[] = [];
+  const AGENTS_OF_CHAOS_SET_IDENTIFIERS = [
+    "HNT003",
+    "HNT004",
+    "HNT005",
+    "HNT006",
+    "HNT007",
+    "HNT008",
+  ];
+  const isAgentOfChaos = setIdentifiers.some((setIdentifier) =>
+    AGENTS_OF_CHAOS_SET_IDENTIFIERS.includes(setIdentifier)
+  );
+  if (isAgentOfChaos) {
+    traits.push(Trait.AgentOfChaos);
+  }
+
+  traits.sort();
+
+  return traits;
 };
 
 export const getBonds = (card: { cardKeywords: string[] }): Bond[] => {

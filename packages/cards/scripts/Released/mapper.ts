@@ -27,6 +27,7 @@ import {
   getRestrictedFormats,
   getSpecializations,
   getStringIfNotNumber,
+  getTraits,
   getTypeSubtypeAndMetatype,
   IGNORE_OPPOSITE_SIDES,
   sortPrintingsByReleaseOrder,
@@ -332,6 +333,7 @@ const getCardData = (card: ParsedCard): Card => {
   const sets = getSets(printings);
   const specializations = getSpecializations(card);
   const talents = getTalents(card);
+  const traits = getTraits(card);
 
   return {
     artists,
@@ -395,6 +397,7 @@ const getCardData = (card: ParsedCard): Card => {
     specialPower: getStringIfNotNumber(card.power) as string,
     specializations,
     talents,
+    traits,
     young: getYoung(card) as boolean,
   };
 };

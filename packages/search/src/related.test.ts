@@ -1,10 +1,14 @@
-import { Card, Hero, Type } from "@flesh-and-blood/types";
+import {
+  Card,
+  getCanCardBeTokenForDeck,
+  Hero,
+  Trait,
+} from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import { getRelatedCards, getTokensReferencedByCards } from "./related";
-import { Keyword } from "@flesh-and-blood/types";
 import Search from "./search";
 
-const toCardIdentifier = ({ cardIdentifier }: Card) => cardIdentifier;
+const ALL_TOKENS = cards.filter(getCanCardBeTokenForDeck);
 
 describe("Related cards", () => {
   // Name, otherPitches, referencedBy, references
@@ -93,17 +97,10 @@ describe("Related cards", () => {
       const referencingCards = cards.filter(({ name }) =>
         (referencingCardNames as unknown as string[]).includes(name)
       );
-      const allTokens = cards.filter(({ cardIdentifier, keywords, types }) => {
-        const isCrackedBauble = cardIdentifier === "cracked-bauble-yellow";
-        const isEphemeral = keywords?.includes(Keyword.Ephemeral);
-        const isToken = types.includes(Type.Token);
-
-        return isCrackedBauble || isEphemeral || isToken;
-      });
 
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
-        allTokens
+        ALL_TOKENS
       );
 
       expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
@@ -121,15 +118,7 @@ describe("Related cards", () => {
     const cardSearch = new Search(cards);
 
     const { searchResults } = cardSearch.search(`l:shiyana`);
-    const tokens = searchResults.filter(
-      ({ cardIdentifier, keywords, types }) => {
-        const isCrackedBauble = cardIdentifier === "cracked-bauble-yellow";
-        const isEphemeral = keywords?.includes(Keyword.Ephemeral);
-        const isToken = types.includes(Type.Token);
-
-        return isCrackedBauble || isEphemeral || isToken;
-      }
-    );
+    const tokens = searchResults.filter(getCanCardBeTokenForDeck);
 
     const referencingCards = searchResults.filter(
       ({ specializations }) => !!specializations && specializations.length > 0
@@ -163,15 +152,7 @@ describe("Related cards", () => {
     const cardSearch = new Search(cards);
 
     const { searchResults } = cardSearch.search(`l:yorick`);
-    const tokens = searchResults.filter(
-      ({ cardIdentifier, keywords, types }) => {
-        const isCrackedBauble = cardIdentifier === "cracked-bauble-yellow";
-        const isEphemeral = keywords?.includes(Keyword.Ephemeral);
-        const isToken = types.includes(Type.Token);
-
-        return isCrackedBauble || isEphemeral || isToken;
-      }
-    );
+    const tokens = searchResults.filter(getCanCardBeTokenForDeck);
 
     const referencedTokens = getTokensReferencedByCards(searchResults, tokens);
 
@@ -183,7 +164,6 @@ describe("Related cards", () => {
   });
 
   const heroSpecificTokens: string[][][] = [
-    [[], [Hero.Crackni], ["Arakni, Black Widow"]],
     [["Maxx Nitro"], [Hero.Maxx], ["Hyper Driver"]],
     [["Jump Start"], [Hero.Maxx], ["Hyper Driver"]],
     [["Jump Start"], [Hero.Dash], []],
@@ -193,19 +173,17 @@ describe("Related cards", () => {
   it.each(heroSpecificTokens)(
     "Gets referenced tokens when there are hero limits",
     (referencingCardNames, heroes, expectedTokens) => {
-      const referencingCards = cards.filter(({ name }) =>
-        (referencingCardNames as unknown as string[]).includes(name)
-      );
-      const allTokens = cards.filter(
-        ({ types }) =>
-          types.includes(Type.Token) || types.includes(Type.DemiHero)
+      const referencingCards = cards.filter(
+        ({ hero, name }) =>
+          (referencingCardNames as unknown as string[]).includes(name) ||
+          (!!hero && heroes.includes(hero))
       );
 
       const hero = heroes.length > 0 ? (heroes[0] as Hero) : undefined;
 
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
-        allTokens,
+        ALL_TOKENS,
         hero
       );
 
@@ -214,4 +192,27 @@ describe("Related cards", () => {
       );
     }
   );
+
+  it("Gets the Agent of Chaos tokens for Arakni", () => {
+    const cardSearch = new Search(cards);
+    const agentsOfChaos = cards
+      .filter(({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos))
+      .map(({ name }) => name);
+
+    const { searchResults } = cardSearch.search(`l:crackni t:hero`);
+
+    const referencedTokens = getTokensReferencedByCards(
+      searchResults,
+      ALL_TOKENS
+    );
+
+    const referencedTokenNames = referencedTokens.map(({ name }) => name);
+
+    expect(agentsOfChaos.length).toBeGreaterThanOrEqual(2);
+    expect(referencedTokenNames.length).toEqual(agentsOfChaos.length);
+
+    for (const expectedToken of agentsOfChaos) {
+      expect(referencedTokenNames).toContain(expectedToken);
+    }
+  });
 });

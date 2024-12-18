@@ -1,4 +1,4 @@
-import { Card, Hero } from "@flesh-and-blood/types";
+import { Card, Hero, Trait } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants";
 import { Keyword } from "@flesh-and-blood/types";
 
@@ -58,7 +58,12 @@ export const getRelatedCards = (
         const cardIsInOtherFunctionalText =
           otherFunctionalText?.includes(cardName);
         const functionalText = getFunctionalTextWithoutSelfReferences(card);
-        const otherCardIsInFunctionalText = functionalText?.includes(otherName);
+        const otherCardTraits = other.traits || [];
+        const otherCardIsInFunctionalText =
+          functionalText?.includes(otherName) ||
+          otherCardTraits.some((otherCardTrait) =>
+            functionalText?.includes(otherCardTrait)
+          );
         // const isHeroNameSubset =
         //   card.types.includes(Type.Hero) &&
         //   other.types.includes(Type.Hero) &&
@@ -92,7 +97,7 @@ export const getRelatedCards = (
         cardName !== initialName &&
         !initialReferences.some((card) => {
           const name = card.name; //getOverrideOrName(card);
-          return name !== initialName && name.includes(initialName);
+          return name !== initialName && name?.includes(initialName);
         })
       ) {
         references.push(initialReference);
@@ -106,9 +111,9 @@ export const getRelatedCards = (
 const CARD_IDENTIFIERS_TO_SKIP: string[] = ["cash-in-yellow"];
 
 const heroReferences: {
-  [key: string]: { cards?: string[]; tokens?: string[] };
+  [key: string]: { cards?: string[]; tokens?: string[]; traits?: Trait[] };
 } = {
-  [Hero.Crackni]: { tokens: ["arakni-black-widow"] },
+  [Hero.Crackni]: { traits: [Trait.AgentOfChaos] },
   [Hero.Maxx]: { tokens: ["hyper-driver"] },
 };
 
@@ -137,14 +142,14 @@ export const getTokensReferencedByCards = (
     if (heroCards) {
       if (heroCards.cards) {
         for (const card of cards) {
-          if (heroCards.cards.includes(card.cardIdentifier)) {
+          if (heroCards.cards?.includes(card.cardIdentifier)) {
             referencedTokens.add(card);
           }
         }
       }
       if (heroCards.tokens) {
         for (const token of tokens) {
-          if (heroCards.tokens.includes(token.cardIdentifier)) {
+          if (heroCards.tokens?.includes(token.cardIdentifier)) {
             referencedTokens.add(token);
           }
         }

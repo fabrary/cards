@@ -1,4 +1,4 @@
-import { Card, Type, Keyword, Subtype } from "../interfaces";
+import { Card, Type, Keyword, Subtype, Trait } from "../interfaces";
 
 export const getCardIdentifier = (
   card: {
@@ -37,17 +37,42 @@ export const getCardIdentifier = (
   return `${name}${suffix}`;
 };
 
-export const getIsArenaCard = (types: Type[], keywords?: Keyword[]) => {
-  const isDeckCard = getIsDeckCard(types, keywords);
-
-  const isInventoryCard = [Type.DemiHero, Type.Equipment, Type.Weapon].some(
+export const getIsArenaCard = ({
+  isCardBack,
+  keywords,
+  traits,
+  types,
+}: {
+  isCardBack?: boolean;
+  keywords?: Keyword[];
+  traits?: Trait[];
+  types: Type[];
+}) => {
+  const isDeckCard = getIsDeckCard({ isCardBack, keywords, traits, types });
+  const isToken = getIsCardTokenForDeck({
+    isCardBack,
+    keywords,
+    traits,
+    types,
+  });
+  const isInventoryCardType = [Type.DemiHero, Type.Equipment, Type.Weapon].some(
     (type) => types.includes(type)
   );
 
-  return !isDeckCard && isInventoryCard;
+  return !isDeckCard && !isToken && isInventoryCardType;
 };
 
-export const getIsDeckCard = (types: Type[], keywords?: Keyword[]) => {
+export const getIsDeckCard = ({
+  isCardBack,
+  keywords,
+  traits,
+  types,
+}: {
+  isCardBack?: boolean;
+  keywords?: Keyword[];
+  traits?: Trait[];
+  types: Type[];
+}) => {
   const isDeckCardType = [
     Type.Action,
     Type.AttackReaction,
@@ -57,15 +82,51 @@ export const getIsDeckCard = (types: Type[], keywords?: Keyword[]) => {
     Type.Mentor,
     Type.Resource,
   ].some((type) => types.includes(type));
+  const isToken = getIsCardTokenForDeck({
+    isCardBack,
+    keywords,
+    traits,
+    types,
+  });
 
-  const isNotEphemeral = !keywords || !keywords.includes(Keyword.Ephemeral);
-
-  return isDeckCardType && isNotEphemeral;
+  return isDeckCardType && !isToken;
 };
 
-export const getCanAddToDeck = ({ isCardBack, keywords, types }: Card) => {
-  const isArenaCard = getIsArenaCard(types, keywords);
-  const isDeckCard = getIsDeckCard(types, keywords);
+export const getIsCardTokenForDeck = ({
+  isCardBack,
+  keywords,
+  traits,
+  types,
+}: {
+  isCardBack?: boolean;
+  keywords?: Keyword[];
+  traits?: Trait[];
+  types: Type[];
+}) => {
+  const isAgentOfChaos = !!traits && traits?.includes(Trait.AgentOfChaos);
+  const isEphemeral = !!keywords && keywords.includes(Keyword.Ephemeral);
+  const isHeroMacroOrToken = [Type.Macro, Type.Token].some((type) =>
+    types.includes(type)
+  );
+
+  return isAgentOfChaos || isCardBack || isEphemeral || isHeroMacroOrToken;
+};
+
+export const getCanCardBeTokenForDeck = (card: Card) => {
+  const isCrackedBauble = card.cardIdentifier === "cracked-bauble-yellow";
+  const isToken = getIsCardTokenForDeck(card);
+
+  return isCrackedBauble || isToken;
+};
+
+export const getCanAddToDeck = ({
+  isCardBack,
+  keywords,
+  traits,
+  types,
+}: Card) => {
+  const isArenaCard = getIsArenaCard({ keywords, traits, types });
+  const isDeckCard = getIsDeckCard({ keywords, traits, types });
   const isCardFront = !isCardBack;
 
   return isCardFront && (isArenaCard || isDeckCard);

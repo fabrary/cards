@@ -43,6 +43,7 @@ export interface Card {
   specialPower?: string;
   specializations?: Hero[];
   talents?: Talent[];
+  traits?: Trait[];
   young?: boolean;
 }
 
@@ -240,6 +241,10 @@ export enum Talent {
   Mystic = "Mystic",
   Royal = "Royal",
   Shadow = "Shadow",
+}
+
+export enum Trait {
+  AgentOfChaos = "Agent of Chaos",
 }
 
 export enum Metatype {
