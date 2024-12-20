@@ -29,7 +29,7 @@ export const abbreviations: Abbreviation[] = [
     card: "Alluvion Constellas",
   },
   {
-    abbreviations: ["Slippy"],
+    abbreviations: ["Slippy", "Arakni, Slipped Through the Cracks"],
     card: "Arakni, 5L!p3d 7hRu 7h3 cR4X",
   },
   {

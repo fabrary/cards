@@ -251,6 +251,7 @@ export const fabDictionary = [
   "optekal",
   "optimai",
   "orbitoclast",
+  "OrbWeaver",
   "orihon",
   "oscilio",
   "ouvia",
