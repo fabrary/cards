@@ -57,7 +57,7 @@ export const getRelatedCards = (
           getFunctionalTextWithoutSelfReferences(other);
         const cardIsInOtherFunctionalTextOrTraits =
           otherFunctionalText?.includes(cardName) ||
-          card.traits?.some((trait) => otherFunctionalText.includes(trait));
+          card.traits?.some((trait) => otherFunctionalText?.includes(trait));
         const functionalText = getFunctionalTextWithoutSelfReferences(card);
 
         // const isHeroNameSubset =
