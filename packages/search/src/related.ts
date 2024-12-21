@@ -55,21 +55,17 @@ export const getRelatedCards = (
 
         const otherFunctionalText =
           getFunctionalTextWithoutSelfReferences(other);
-        const cardIsInOtherFunctionalText =
-          otherFunctionalText?.includes(cardName);
+        const cardIsInOtherFunctionalTextOrTraits =
+          otherFunctionalText?.includes(cardName) ||
+          card.traits?.some((trait) => otherFunctionalText.includes(trait));
         const functionalText = getFunctionalTextWithoutSelfReferences(card);
-        const otherCardTraits = other.traits || [];
-        const otherCardIsInFunctionalText =
-          functionalText?.includes(otherName) ||
-          otherCardTraits.some((otherCardTrait) =>
-            functionalText?.includes(otherCardTrait)
-          );
+
         // const isHeroNameSubset =
         //   card.types.includes(Type.Hero) &&
         //   other.types.includes(Type.Hero) &&
         //   (card.name.includes(other.name) || other.name.includes(card.name));
         if (
-          cardIsInOtherFunctionalText ||
+          cardIsInOtherFunctionalTextOrTraits ||
           isOtherCardHeaveOverride
           // && !isHeroNameSubset
           // && !other.types.includes(Type.Hero)
@@ -78,10 +74,16 @@ export const getRelatedCards = (
           initialReferencedBy.push(other);
         }
 
+        const otherCardTraits = other.traits || [];
+        const otherCardIsInFunctionalTextOrTraits =
+          functionalText?.includes(otherName) ||
+          otherCardTraits.some((otherCardTrait) =>
+            functionalText?.includes(otherCardTrait)
+          );
         const isOtherCardSeismicSurge = other.name === "Seismic Surge";
         const isCardHeaved = card.keywords?.includes(Keyword.Heave);
         const isCardHeaveOverride = isOtherCardSeismicSurge && isCardHeaved;
-        if (otherCardIsInFunctionalText || isCardHeaveOverride) {
+        if (otherCardIsInFunctionalTextOrTraits || isCardHeaveOverride) {
           initialReferences.push(other);
         }
       }

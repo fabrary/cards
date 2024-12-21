@@ -258,6 +258,12 @@ const textFilter: FilterToPropertyMapping = {
   partialMatch: true,
 };
 
+const traitFilter: FilterToPropertyMapping = {
+  property: "traits",
+  isArray: true,
+  partialMatch: true,
+};
+
 const typeTextFilter: FilterToPropertyMapping = {
   property: "typeText",
   isString: true,
@@ -332,6 +338,7 @@ export const filtersToCardPropertyMappings = {
   tal: talentFilter,
   talent: talentFilter,
   text: textFilter,
+  trait: traitFilter,
   treat: treatmentFilter,
   treatment: treatmentFilter,
   var: treatmentFilter,

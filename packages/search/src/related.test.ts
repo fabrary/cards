@@ -215,4 +215,22 @@ describe("Related cards", () => {
       expect(referencedTokenNames).toContain(expectedToken);
     }
   });
+
+  it("Gets Arakni heroes for Agents of Chaos", () => {
+    const cardSearch = new Search(cards);
+    const agentsOfChaos = cards.filter(
+      ({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos)
+    );
+
+    const { searchResults: referencesAgentOfChaos } = cardSearch.search(
+      `text:"agent of chaos"`
+    );
+    const { searchResults: legalCards } =
+      cardSearch.search(`l:crackni c:assassin`);
+
+    for (const agent of agentsOfChaos) {
+      const { referencedBy } = getRelatedCards(agent, legalCards);
+      expect(referencedBy.length).toEqual(referencesAgentOfChaos.length);
+    }
+  });
 });
