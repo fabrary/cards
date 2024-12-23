@@ -6,28 +6,28 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
 HNT002,HNT,"Arakni, Web of Deceit",,,,,20,4,,"Chaos, Assassin, Hero, Young",,,,,,,"Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and ""When this hits, this gets **go again**.""
 
 At the beginning of your end phase, if an opponent is **marked**, you become a random Agent of Chaos.",Chaos Assassin Hero - Young,,,No,,No,T,,,Isuardi Therianto,,,HNT002,/HNT002.png,,,V,C,FA,Isuardi Therianto,,,HNT002,/HNT002-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT003,HNT,"Arakni, Black Widow",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,Stealth,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets ""When this hits a hero, they banish a card from their hand.""
+HNT003,HNT,"Arakni, Black Widow",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,Once per Turn Attack Reaction,,,,Stealth,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets ""When this hits a hero, they banish a card from their hand.""
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,soyameii,,,HNT003,/HNT003.png,,,V,C,FA,soyameii,,,HNT003,/HNT003-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT004,HNT,"Arakni, Funnel Web",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets ""When this hits a hero, banish a card in their arsenal.""
+HNT004,HNT,"Arakni, Funnel Web",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,Once per Turn Attack Reaction,,,,Stealth,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets ""When this hits a hero, banish a card in their arsenal.""
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Federico Musetti,,,HNT004,/HNT004.png,,,V,C,FA,Federico Musetti,,,HNT004,/HNT004-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT005,HNT,"Arakni, Orb-Weaver",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"Graphene Chelicerae cost you {r} less to activate.
+HNT005,HNT,"Arakni, Orb-Weaver",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,Once per Turn Instant,,,,Stealth,"Graphene Chelicerae cost you {r} less to activate.
 
 **Once per Turn Instant** - Discard an Assassin card: Equip a Graphene Chelicera token. Your next attack with **stealth** this turn gets +3{p}.
 
-At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Jessada Sutthi,,,HNT005,/HNT005.png,,,V,C,FA,Jessada Sutthi,,,HNT005,/HNT005-V2-temp.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT006,HNT,"Arakni, Redback",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets **go again**.
+At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Jessada Sutthi,,,HNT005,/HNT005.png,,,V,C,FA,Jessada Sutthi,,,HNT005,/HNT005-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT006,HNT,"Arakni, Redback",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,Once per Turn Attack Reaction,,Go again,,Stealth,"**Once per Turn Attack Reaction** - Discard an Assassin card: Target Assassin attack gets +3{p}. If it has **stealth**, it gets **go again**.
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Nathaniel Himawan,,,HNT006,/HNT006.png,,,V,C,FA,Nathaniel Himawan,,,HNT006,/HNT006-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT007,HNT,"Arakni, Tarantula",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"Whenever a dagger you own hits a hero, they lose 1{h}.
+HNT007,HNT,"Arakni, Tarantula",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,Once per Turn Attack Reaction,,,,,"Whenever a dagger you own hits a hero, they lose 1{h}.
 
 **Once per Turn Attack Reaction** - Discard an Assassin card: Target dagger attack gets +3{p}.
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Max Kostin,,,HNT007,/HNT007.png,,,V,C,FA,Max Kostin,,,HNT007,/HNT007-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT008,HNT,"Arakni, Trap-Door",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"When you become this, you may search your deck for a card, banish it face-down, then shuffle. If it's a trap, you may play it until the start of your next turn.
 
-At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Jessada Sutthi,,,HNT008,/HNT008.png,,,V,C,FA,Jessada Sutthi,,,HNT008,/HNT008-V2-temp.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Jessada Sutthi,,,HNT008,/HNT008.png,,,V,C,FA,Jessada Sutthi,,,HNT008,/HNT008-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT009,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT010,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT011,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
