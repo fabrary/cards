@@ -87,12 +87,19 @@ export const promoSetIdentifiers = [
   "win",
 ];
 
+interface DeckLink {
+  name?: string;
+  url: string;
+}
+
 export interface ReleaseInfo {
   cards: number;
   classes: Class[];
+  deckLinks: DeckLink[];
   heroes: Hero[];
   languages: Language[];
   raritiesExcludedInLimited?: Rarity[];
+  relatedReleases: Release[];
   release: Release;
   releaseDate: string;
   releaseType: ReleaseType;
@@ -105,9 +112,13 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 30,
     classes: [Class.Ninja],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01GJG7Z4WGWSZ95FY74KX4M557" },
+    ],
     heroes: [Hero.Ira],
     languages: ALL_LANGUAGES,
     release: Release.IraWelcomeDeck,
+    relatedReleases: [],
     releaseDate: "2019-08-31 12:00",
     releaseType: ReleaseType.WelcomeDeck,
     setIdentifiers: ["ira"],
@@ -116,9 +127,11 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 226,
     classes: [Class.Brute, Class.Guardian, Class.Ninja, Class.Warrior],
+    deckLinks: [],
     heroes: [Hero.Bravo, Hero.Dorinthea, Hero.Katsu, Hero.Rhinar],
     languages: [Language.English],
     release: Release.WelcomeToRathe,
+    relatedReleases: [],
     releaseDate: "2019-10-11 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["wtr"],
@@ -127,9 +140,11 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 219,
     classes: [Class.Mechanologist, Class.Ranger, Class.Runeblade, Class.Wizard],
+    deckLinks: [],
     heroes: [Hero.Azalea, Hero.Dash, Hero.Kano, Hero.Viserai],
     languages: [Language.English],
     release: Release.ArcaneRising,
+    relatedReleases: [],
     releaseDate: "2020-03-27 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["arc"],
@@ -148,6 +163,7 @@ export const releases: ReleaseInfo[] = [
       Class.Warrior,
       Class.Wizard,
     ],
+    deckLinks: [],
     heroes: [
       Hero.Benji,
       Hero.DataDoll,
@@ -159,6 +175,7 @@ export const releases: ReleaseInfo[] = [
     ],
     languages: [Language.English],
     release: Release.CrucibleOfWar,
+    relatedReleases: [],
     releaseDate: "2020-08-28 12:00",
     releaseType: ReleaseType.ExpansionBooster,
     setIdentifiers: ["cru"],
@@ -167,9 +184,13 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Warrior],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G7FD2B3YQAMR8NJ4B3M58H96" },
+    ],
     heroes: [Hero.Boltyn],
     languages: [Language.English],
     release: Release.BoltynBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2021-05-07 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["bol"],
@@ -178,9 +199,13 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Runeblade],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G7FDVRZP35DFWBRK64AG5TKQ" },
+    ],
     heroes: [Hero.Chane],
     languages: [Language.English],
     release: Release.ChaneBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2021-05-07 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["chn"],
@@ -190,8 +215,12 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Brute],
     languages: [Language.English],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G7B1T1D1M2DAM61K876VJBDK" },
+    ],
     heroes: [Hero.Levia],
     release: Release.LeviaBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2021-05-07 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["lev"],
@@ -200,8 +229,12 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Illusionist],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G7FCP2N7N0MNHWAH6JTP0KFN" },
+    ],
     heroes: [Hero.Prism],
     languages: [Language.English],
+    relatedReleases: [],
     releaseDate: "2021-05-07 12:00",
     release: Release.PrismBlitzDeck,
     releaseType: ReleaseType.BlitzDeck,
@@ -211,9 +244,16 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 307,
     classes: [Class.Brute, Class.Illusionist, Class.Runeblade, Class.Warrior],
+    deckLinks: [],
     heroes: [Hero.Boltyn, Hero.Chane, Hero.Levia, Hero.Prism],
     languages: [Language.English],
     release: Release.Monarch,
+    relatedReleases: [
+      Release.BoltynBlitzDeck,
+      Release.ChaneBlitzDeck,
+      Release.LeviaBlitzDeck,
+      Release.PrismBlitzDeck,
+    ],
     releaseDate: "2021-05-07 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["mon"],
@@ -222,9 +262,13 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Runeblade],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G7K4D304QQCZZSBT7ABCX4XC" },
+    ],
     heroes: [Hero.Briar],
     languages: [Language.English],
     release: Release.BriarBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2021-11-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     talents: [Talent.Elemental, Talent.Earth, Talent.Lightning],
@@ -233,9 +277,13 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ranger],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G7K3WGPVKVDXG2J013GXSXNP" },
+    ],
     heroes: [Hero.Lexi],
     languages: [Language.English],
     release: Release.LexiBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2021-11-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["lxi"],
@@ -244,9 +292,13 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Guardian],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G7K464J7VS0K7HKW5E395TBK" },
+    ],
     heroes: [Hero.Oldhim],
     languages: [Language.English],
     release: Release.OldhimBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2021-11-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["old"],
@@ -255,9 +307,15 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 238,
     classes: [Class.Guardian, Class.Ranger, Class.Runeblade],
+    deckLinks: [],
     heroes: [Hero.Briar, Hero.Lexi, Hero.Oldhim],
     languages: [Language.English],
     release: Release.TalesOfAria,
+    relatedReleases: [
+      Release.BriarBlitzDeck,
+      Release.LexiBlitzDeck,
+      Release.OldhimBlitzDeck,
+    ],
     releaseDate: "2021-09-24 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["ele"],
@@ -277,9 +335,11 @@ export const releases: ReleaseInfo[] = [
       Class.Warrior,
       Class.Wizard,
     ],
+    deckLinks: [],
     heroes: [Hero.GenisWotchuneed, Hero.Valda],
     languages: [Language.English],
     release: Release.Everfest,
+    relatedReleases: [],
     releaseDate: "2022-02-04 12:00",
     releaseType: ReleaseType.ExpansionBooster,
     setIdentifiers: ["evr"],
@@ -297,6 +357,7 @@ export const releases: ReleaseInfo[] = [
       Class.Warrior,
       Class.Wizard,
     ],
+    deckLinks: [],
     heroes: [
       Hero.Azalea,
       Hero.Benji,
@@ -314,6 +375,7 @@ export const releases: ReleaseInfo[] = [
     ],
     languages: [Language.English],
     release: Release.HistoryPack1,
+    relatedReleases: [],
     releaseDate: "2022-05-06 12:00",
     releaseType: ReleaseType.HistoryPack,
     setIdentifiers: ["1hp", "hp1"],
@@ -322,9 +384,20 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 80,
     classes: [Class.Brute, Class.Warrior],
+    deckLinks: [
+      {
+        name: "Dori",
+        url: "https://fabrary.net/decks/01GA4WTNSD12YTQB4FY8EYYNG5",
+      },
+      {
+        name: "Rhinar",
+        url: "https://fabrary.net/decks/01GA4WZKX9VEWKKPX7Y7H3MG1F",
+      },
+    ],
     heroes: [Hero.Dorinthea, Hero.Rhinar],
     languages: [Language.English],
     release: Release.ClassicBattlesRhinarDorinthea,
+    relatedReleases: [],
     releaseDate: "2022-05-27 12:00",
     releaseType: ReleaseType.ClassicBattles,
     setIdentifiers: ["dvr", "rvd"],
@@ -333,8 +406,12 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Illusionist],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G76H1R1ERRBRKS7RVCQAB8RX" },
+    ],
     heroes: [Hero.Dromai],
     languages: [Language.English],
+    relatedReleases: [],
     releaseDate: "2022-06-24 12:00",
     release: Release.DromaiBlitzDeck,
     releaseType: ReleaseType.BlitzDeck,
@@ -344,9 +421,13 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ninja],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01G76H7RG7GN5ZA10F3BJBH740" },
+    ],
     heroes: [Hero.Fai],
     languages: [Language.English],
     release: Release.FaiBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2022-06-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["fai"],
@@ -355,9 +436,11 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 226,
     classes: [Class.Illusionist, Class.Ninja, Class.Wizard],
+    deckLinks: [],
     heroes: [Hero.Dromai, Hero.Fai, Hero.Iyslander],
     languages: [Language.English],
     release: Release.Uprising,
+    relatedReleases: [Release.DromaiBlitzDeck, Release.FaiBlitzDeck],
     releaseDate: "2022-06-24 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["upr"],
@@ -377,9 +460,11 @@ export const releases: ReleaseInfo[] = [
       Class.Warrior,
       Class.Wizard,
     ],
+    deckLinks: [],
     heroes: [Hero.Arakni, Hero.Emperor, Hero.Yoji],
     languages: [Language.English],
     release: Release.Dynasty,
+    relatedReleases: [],
     releaseDate: "2022-11-11 12:00",
     releaseType: ReleaseType.ExpansionBooster,
     setIdentifiers: ["dyn"],
@@ -398,6 +483,7 @@ export const releases: ReleaseInfo[] = [
       Class.Warrior,
       Class.Wizard,
     ],
+    deckLinks: [],
     heroes: [
       Hero.Boltyn,
       Hero.Briar,
@@ -414,6 +500,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: "History Pack 2: Black Label" as Release,
+    relatedReleases: [],
     releaseDate: "2023-02-24 12:00",
     releaseType: ReleaseType.HistoryPack,
     setIdentifiers: ["hp2"],
@@ -429,6 +516,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Assassin],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01GW25PNWBW2FPDHRNTPSET0GT" },
+    ],
     heroes: [Hero.Arakni],
     languages: [
       Language.English,
@@ -438,6 +528,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.ArakniBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2023-03-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["ara"],
@@ -446,6 +537,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ranger],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01GW26RNH1Q1J0S1VFXPN609S2" },
+    ],
     heroes: [Hero.Azalea],
     languages: [
       Language.English,
@@ -455,6 +549,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.AzaleaBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2023-03-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["azl"],
@@ -463,6 +558,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ninja],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01GW28622XSVAK7H9RXZVAVKM0" },
+    ],
     heroes: [Hero.Benji],
     languages: [
       Language.English,
@@ -472,6 +570,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.BenjiBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2023-03-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["ben"],
@@ -480,6 +579,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ninja],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01GW28TF5FXFKJ5CGRNXB84CG6" },
+    ],
     heroes: [Hero.Katsu],
     languages: [
       Language.English,
@@ -489,6 +591,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.KatsuBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2023-03-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["kat"],
@@ -497,6 +600,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ranger],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01GW29DPNZ3XVBJQHHFQHHHDGN" },
+    ],
     heroes: [Hero.Riptide],
     languages: [
       Language.English,
@@ -506,6 +612,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.RiptideBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2023-03-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["rip"],
@@ -514,6 +621,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Assassin],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01GW2945GHPH2YSX3FTS7HCBT1" },
+    ],
     heroes: [Hero.Uzuri],
     languages: [
       Language.English,
@@ -523,6 +633,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.UzuriBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2023-03-24 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["uzu"],
@@ -531,13 +642,14 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 239,
     classes: [Class.Assassin, Class.Ranger, Class.Ninja],
+    deckLinks: [],
     heroes: [
       Hero.Arakni,
-      Hero.Uzuri,
       Hero.Azalea,
-      Hero.Katsu,
       Hero.Benji,
+      Hero.Katsu,
       Hero.Riptide,
+      Hero.Uzuri,
     ],
     languages: [
       Language.English,
@@ -547,6 +659,14 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.Outsiders,
+    relatedReleases: [
+      Release.ArakniBlitzDeck,
+      Release.AzaleaBlitzDeck,
+      Release.BenjiBlitzDeck,
+      Release.KatsuBlitzDeck,
+      Release.RiptideBlitzDeck,
+      Release.UzuriBlitzDeck,
+    ],
     releaseDate: "2023-03-24 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["out"],
@@ -555,6 +675,7 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 236,
     classes: [Class.Illusionist, Class.Runeblade, Class.Warrior, Class.Brute],
+    deckLinks: [],
     heroes: [Hero.Prism, Hero.Vynnset, Hero.Boltyn, Hero.Levia],
     languages: [
       Language.English,
@@ -564,6 +685,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.DuskTillDawn,
+    relatedReleases: [],
     releaseDate: "2023-07-14 12:00",
     releaseType: ReleaseType.ExpansionBooster,
     setIdentifiers: ["dtd"],
@@ -572,9 +694,28 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 107,
     classes: [Class.Mechanologist, Class.Bard, Class.Guardian, Class.Ninja],
+    deckLinks: [
+      {
+        name: "Brevant",
+        url: "https://fabrary.net/decks/01HAXKPFH7ZHPDEJZH967VNRW6",
+      },
+      {
+        name: "Ira",
+        url: "https://fabrary.net/decks/01HAXKZMTRN4FR7CFTQA11A70N",
+      },
+      {
+        name: "Melody",
+        url: "https://fabrary.net/decks/01HAXKSFPXGCEH99PDZJ32V4N9",
+      },
+      {
+        name: "Professor",
+        url: "https://fabrary.net/decks/01HAXKZMTRN4FR7CFTQA11A70N",
+      },
+    ],
     heroes: [Hero.Teklovossen, Hero.Melody, Hero.Brevant, Hero.Ira],
     languages: [Language.English],
     release: Release.RoundTheTable,
+    relatedReleases: [],
     releaseDate: "2023-09-29 12:00",
     releaseType: ReleaseType.RoundTheTable,
     talents: [],
@@ -583,6 +724,7 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 251,
     classes: [Class.Mechanologist],
+    deckLinks: [],
     heroes: [Hero.Dash, Hero.Maxx, Hero.Teklovossen],
     languages: [
       Language.English,
@@ -593,6 +735,7 @@ export const releases: ReleaseInfo[] = [
     ],
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.BrightLights,
+    relatedReleases: [],
     releaseDate: "2023-10-06 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["evo"],
@@ -601,6 +744,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Guardian],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HN3J1X1NQ9TB9RTVWV42JG46" },
+    ],
     heroes: [Hero.Betsy],
     languages: [
       Language.English,
@@ -610,6 +756,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.BetsyBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["bet"],
@@ -618,6 +765,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Warrior],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HN3SHBEQBRECYK6ZN1CHRADR" },
+    ],
     heroes: [Hero.Kassai],
     languages: [
       Language.English,
@@ -627,6 +777,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.KassaiBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["ksi"],
@@ -635,6 +786,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Brute],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HN3HK89NA910SK3FQV84H46Z" },
+    ],
     heroes: [Hero.Kayo],
     languages: [
       Language.English,
@@ -644,6 +798,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.KayoBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["kyo"],
@@ -652,6 +807,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Warrior],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HN3GP5ZJ1NRC0XBYNE45XQE8" },
+    ],
     heroes: [Hero.Olympia],
     languages: [
       Language.English,
@@ -661,6 +819,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.OlympiaBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["ola"],
@@ -669,6 +828,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Brute],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HN3Q4GBDMEFSX98HEN9ET308" },
+    ],
     heroes: [Hero.Rhinar],
     languages: [
       Language.English,
@@ -678,6 +840,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.RhinarBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["rnr"],
@@ -686,6 +849,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Guardian],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HN3K8ZV7KBRRJKPHW4B13J1K" },
+    ],
     heroes: [Hero.Victor],
     languages: [
       Language.English,
@@ -695,6 +861,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.VictorBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["vic"],
@@ -703,7 +870,15 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 255,
     classes: [Class.Brute, Class.Guardian, Class.Warrior],
-    heroes: [Hero.Kassai, Hero.Betsy, Hero.Kayo, Hero.Olympia, Hero.Victor],
+    deckLinks: [],
+    heroes: [
+      Hero.Kassai,
+      Hero.Betsy,
+      Hero.Kayo,
+      Hero.Olympia,
+      Hero.Rhinar,
+      Hero.Victor,
+    ],
     languages: [
       Language.English,
       Language.French,
@@ -713,6 +888,14 @@ export const releases: ReleaseInfo[] = [
     ],
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.HeavyHitters,
+    relatedReleases: [
+      Release.BetsyBlitzDeck,
+      Release.KassaiBlitzDeck,
+      Release.KayoBlitzDeck,
+      Release.OlympiaBlitzDeck,
+      Release.RhinarBlitzDeck,
+      Release.VictorBlitzDeck,
+    ],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["hvy"],
@@ -721,6 +904,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 66,
     classes: [Class.Brute],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HWNCK2BYPVKK6701052YYXMZ" },
+    ],
     heroes: [Hero.Kayo],
     languages: [
       Language.English,
@@ -729,6 +915,7 @@ export const releases: ReleaseInfo[] = [
       Language.Japanese,
     ],
     release: Release.ArmoryDeckKayo,
+    relatedReleases: [],
     releaseDate: "2024-05-03 12:00",
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["ako"],
@@ -737,6 +924,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Illusionist],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HX5Z23X2PRQCJ100FP4CAZGK" },
+    ],
     heroes: [Hero.Enigma],
     languages: [
       Language.English,
@@ -747,6 +937,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.EnigmaBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-05-31 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["eng"],
@@ -755,6 +946,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Assassin],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HX5Z4BD3TRMS3CP1ME4ZP3T6" },
+    ],
     heroes: [Hero.Nuu],
     languages: [
       Language.English,
@@ -765,6 +959,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.NuuBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-05-31 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["nuu"],
@@ -773,6 +968,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ninja],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01HX5Z395FD35CM24QCJQKJER1" },
+    ],
     heroes: [Hero.Zen],
     languages: [
       Language.English,
@@ -783,6 +981,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.ZenBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-05-31 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["zen"],
@@ -791,10 +990,16 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 239,
     classes: [Class.Assassin, Class.Illusionist, Class.Ninja],
+    deckLinks: [],
     heroes: [Hero.Enigma, Hero.Nuu, Hero.Zen],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.PartTheMistveil,
+    relatedReleases: [
+      Release.EnigmaBlitzDeck,
+      Release.NuuBlitzDeck,
+      Release.ZenBlitzDeck,
+    ],
     releaseDate: "2024-05-31 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["mst"],
@@ -803,6 +1008,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 66,
     classes: [Class.Warrior],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J68KFRMJFKRQYJJ7THG1GMTB" },
+    ],
     heroes: [Hero.Boltyn],
     languages: [
       Language.English,
@@ -811,6 +1019,7 @@ export const releases: ReleaseInfo[] = [
       Language.Japanese,
     ],
     release: Release.ArmoryDeckBoltyn,
+    relatedReleases: [],
     releaseDate: "2024-07-12 12:00",
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["asb"],
@@ -819,6 +1028,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Runeblade],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J45SYSM2ZERW6CWY283ZAT1S" },
+    ],
     heroes: [Hero.Aurora],
     languages: [
       Language.English,
@@ -829,6 +1041,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.FirstStrikeAurora,
+    relatedReleases: [],
     releaseDate: "2024-08-01 12:00",
     releaseType: ReleaseType.FirstStrike,
     setIdentifiers: ["aur"],
@@ -837,6 +1050,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Guardian],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J45SWXNDV5XD8PTBACAV8NZ1" },
+    ],
     heroes: [Hero.Terra],
     languages: [
       Language.English,
@@ -847,6 +1063,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.FirstStrikeTerra,
+    relatedReleases: [],
     releaseDate: "2024-08-01 12:00",
     releaseType: ReleaseType.FirstStrike,
     setIdentifiers: ["ter"],
@@ -855,6 +1072,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 66,
     classes: [Class.Ranger],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J3GKKSTM773CW7BG3RRJ5FJH" },
+    ],
     heroes: [Hero.Azalea],
     languages: [
       Language.English,
@@ -863,26 +1083,18 @@ export const releases: ReleaseInfo[] = [
       Language.Japanese,
     ],
     release: Release.ArmoryDeckAzalea,
+    relatedReleases: [],
     releaseDate: "2024-08-02 12:00",
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["aaz"],
     talents: [],
   },
   {
-    cards: 258,
-    classes: [Class.Runeblade, Class.Wizard],
-    heroes: [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
-    languages: ALL_LANGUAGES,
-    raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
-    release: Release.Rosetta,
-    releaseDate: "2024-09-20 12:00",
-    releaseType: ReleaseType.StandaloneBooster,
-    setIdentifiers: ["ros"],
-    talents: [Talent.Elemental, Talent.Earth, Talent.Lightning],
-  },
-  {
     cards: 40,
     classes: [Class.Runeblade],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J68KF1TFNN62TC0G7M993FTY" },
+    ],
     heroes: [Hero.Aurora],
     languages: [
       Language.English,
@@ -893,6 +1105,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.AuroraBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-09-20 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["aua"],
@@ -901,6 +1114,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Runeblade],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J68KFRMJFKRQYJJ7THG1GMTB" },
+    ],
     heroes: [Hero.Florian],
     languages: [
       Language.English,
@@ -911,6 +1127,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.FlorianBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-09-20 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["flr"],
@@ -919,6 +1136,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Wizard],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J68KGA3JVKFHEXGKYW0441CY" },
+    ],
     heroes: [Hero.Oscilio],
     languages: [
       Language.English,
@@ -929,6 +1149,7 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.OscilioBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-09-20 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["osc"],
@@ -937,6 +1158,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Wizard],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J68KGT3XD3HMVVRFT174QNMF" },
+    ],
     heroes: [Hero.Verdance],
     languages: [
       Language.English,
@@ -947,14 +1171,37 @@ export const releases: ReleaseInfo[] = [
       Language.Spanish,
     ],
     release: Release.VerdanceBlitzDeck,
+    relatedReleases: [],
     releaseDate: "2024-09-20 12:00",
     releaseType: ReleaseType.BlitzDeck,
     setIdentifiers: ["ver"],
     talents: [Talent.Earth],
   },
   {
+    cards: 258,
+    classes: [Class.Runeblade, Class.Wizard],
+    deckLinks: [],
+    heroes: [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
+    languages: ALL_LANGUAGES,
+    raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
+    release: Release.Rosetta,
+    relatedReleases: [
+      Release.AuroraBlitzDeck,
+      Release.FlorianBlitzDeck,
+      Release.OscilioBlitzDeck,
+      Release.VerdanceBlitzDeck,
+    ],
+    releaseDate: "2024-09-20 12:00",
+    releaseType: ReleaseType.StandaloneBooster,
+    setIdentifiers: ["ros"],
+    talents: [Talent.Elemental, Talent.Earth, Talent.Lightning],
+  },
+  {
     cards: 66,
     classes: [Class.Mechanologist],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01J9822H5PANJAFQVMC4TPK4Z1" },
+    ],
     heroes: [Hero.Dash],
     languages: [
       Language.English,
@@ -963,6 +1210,7 @@ export const releases: ReleaseInfo[] = [
       Language.Japanese,
     ],
     release: Release.ArmoryDeckDash,
+    relatedReleases: [],
     releaseDate: "2024-10-18 12:00",
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["aio"],
@@ -971,6 +1219,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 30,
     classes: [Class.Guardian],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
     heroes: [Hero.Jarl],
     languages: [
       Language.English,
@@ -979,34 +1230,39 @@ export const releases: ReleaseInfo[] = [
       Language.Japanese,
     ],
     release: Release.ArmoryDeckOriginsJarl,
+    relatedReleases: [],
     releaseDate: "2024-11-29 12:00",
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["ajv"],
     talents: [Talent.Elemental, Talent.Earth, Talent.Ice],
   },
   {
+    cards: 40,
+    classes: [Class.Assassin],
+    deckLinks: [],
+    heroes: [Hero.Arakni],
+    languages: ALL_LANGUAGES,
+    release: Release.ArakniBlitzDeckARK,
+    relatedReleases: [],
+    releaseDate: "2025-01-31 12:00",
+    releaseType: ReleaseType.BlitzDeck,
+    setIdentifiers: ["ark"],
+    talents: [Talent.Chaos],
+  },
+  {
     cards: 265,
     classes: [Class.Assassin, Class.Ninja, Class.Warrior],
+    deckLinks: [],
     heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
+    relatedReleases: [],
     releaseDate: "2025-01-31 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["hnt"],
     talents: [Talent.Chaos, Talent.Draconic, Talent.Royal],
     url: "https://fabtcg.com/en/articles/hnt/",
-  },
-  {
-    cards: 40,
-    classes: [Class.Assassin],
-    heroes: [Hero.Arakni],
-    languages: ALL_LANGUAGES,
-    release: Release.ArakniBlitzDeckARK,
-    releaseDate: "2025-01-31 12:00",
-    releaseType: ReleaseType.BlitzDeck,
-    setIdentifiers: ["ark"],
-    talents: [Talent.Chaos],
   },
 ];
 
