@@ -49,6 +49,7 @@ const PRECONSTRUCTED_RELEASE_TYPES = [
   ReleaseType.BlitzDeck,
   ReleaseType.ClassicBattles,
   ReleaseType.FirstStrike,
+  ReleaseType.RoundTheTable,
   ReleaseType.WelcomeDeck,
 ];
 export const getIsPreconstructed = (releaseType: ReleaseType) =>

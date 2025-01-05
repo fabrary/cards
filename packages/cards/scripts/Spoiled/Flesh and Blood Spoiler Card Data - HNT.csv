@@ -86,7 +86,7 @@ HNT054,HNT,"Cindra, Dracai of Retribution",,,,,40,4,,"Royal, Draconic, Ninja, He
 HNT055,HNT,Cindra,,,,,20,4,,"Royal, Draconic, Ninja, Hero, Young",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 **Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero - Young,,,No,,No,T,,,Livia Prima,,,HNT055,/HNT055.png,,,V,C,,Livia Prima,,,HNT055,/HNT055-V2.png,,,V,C,FA,Livia Prima,,,HNT055,/HNT055-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
-HNT056,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT056,HNT,Kunai of Retribution,,,1,,,,,"Draconic, Ninja, Weapon, Dagger, 1H",Go again,,,,,,"**Once per Turn Action** - {r}, destroy this when the combat chain closes: **Attack**. **Go again**",Draconic Ninja Weapon - Dagger (1H),,,,,,T,,,Widya Wang,,,HNT056,/HNT056.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT057, FAB316","HNT, FAB",Blood Runs Deep,1,2,2,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
 
 When this attacks a hero, each dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the daggers.
