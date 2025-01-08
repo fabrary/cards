@@ -29,7 +29,11 @@ HNT008,HNT,"Arakni, Trap-Door",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"When
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Jessada Sutthi,,,HNT008,/HNT008.png,,,V,C,FA,Jessada Sutthi,,,HNT008,/HNT008-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT009,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT010,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT010,HNT,Mark of the Huntsman,,,1,,,,,"Assassin, Weapon, Dagger, 1H",,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+When this hits a hero, you may choose to destroy this and **mark** them.
+
+If this is attacking a **marked** hero, this gets +1{p}.",Assassin Weapon - Dagger (1H),,,,,,T,,,Marcus Reyno,,,HNT010,/HNT010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT011,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT012,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT013,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
