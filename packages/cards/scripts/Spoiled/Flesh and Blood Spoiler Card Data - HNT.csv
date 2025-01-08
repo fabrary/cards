@@ -29,7 +29,7 @@ HNT008,HNT,"Arakni, Trap-Door",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"When
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Jessada Sutthi,,,HNT008,/HNT008.png,,,V,C,FA,Jessada Sutthi,,,HNT008,/HNT008-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT009,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT010,HNT,Mark of the Huntsman,,,1,,,,,"Assassin, Weapon, Dagger, 1H",,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+HNT010,HNT,Mark of the Huntsman,,,1,,,,,"Assassin, Weapon, Dagger, 1H",,Once per Turn Action,"Attack, Go again",Mark,,Mark,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 When this hits a hero, you may choose to destroy this and **mark** them.
 
@@ -83,14 +83,18 @@ HNT049,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT050,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT051,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT052,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT053,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT053,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT053,HNT,Graphene Chelicera,,,1,,,,,"Assassin, Token, Weapon, Dagger, 1H",Stealth,,,,,,"**Stealth**
+
+**Once per Turn Action** - {r}: **Attack**
+
+When this attacks a **marked** hero, the attack gets **go again**.",Assassin Token Weapon - Dagger (1H),,,,,,T,,,Nailsen Ivanderlie,,,HNT053,/HNT053.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT054,HNT,"Cindra, Dracai of Retribution",,,,,40,4,,"Royal, Draconic, Ninja, Hero",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 **Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero,,No,,No,,V,C,,Livia Prima,,,HNT054,/HNT054-V2.png,,,V,C,FA,Livia Prima,,,HNT054,/HNT054-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT055,HNT,Cindra,,,,,20,4,,"Royal, Draconic, Ninja, Hero, Young",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 **Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero - Young,,,No,,No,T,,,Livia Prima,,,HNT055,/HNT055.png,,,V,C,,Livia Prima,,,HNT055,/HNT055-V2.png,,,V,C,FA,Livia Prima,,,HNT055,/HNT055-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
-HNT056,HNT,Kunai of Retribution,,,1,,,,,"Draconic, Ninja, Weapon, Dagger, 1H",Go again,,,,,,"**Once per Turn Action** - {r}, destroy this when the combat chain closes: **Attack**. **Go again**",Draconic Ninja Weapon - Dagger (1H),,,,,,T,,,Widya Wang,,,HNT056,/HNT056.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT056,HNT,Kunai of Retribution,,,1,,,,,"Draconic, Ninja, Weapon, Dagger, 1H",Go again,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}, destroy this when the combat chain closes: **Attack**. **Go again**",Draconic Ninja Weapon - Dagger (1H),,,,,,T,,,Widya Wang,,,HNT056,/HNT056.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT057, FAB316","HNT, FAB",Blood Runs Deep,1,2,2,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
 
 When this attacks a hero, each dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the daggers.
@@ -142,7 +146,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
 HNT099,HNT,Fang,,,,,20,4,,"Royal, Draconic, Warrior, Hero, Young",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero - Young,,,No,,No,T,,,Billy Christian,,,HNT099,/HNT099.png,,,V,C,,Billy Christian,,,HNT099,/HNT099-V2.png,,,V,C,FA,Billy Christian,,,HNT099,/HNT099-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
-HNT100,HNT,Obsidian Fire Vein,,,1,,,,,"Draconic, Warrior, Weapon, Dagger, 1H",,,,,,,"**Once per Turn Action** - {r}: **Attack**. If you've played a Draconic card this chain link, this attack gets +1{p} and **go again**.",Draconic Warrior Weapon - Dagger (1H),,,,,,T,,,M Fakhrur Rozzi,,,HNT100,/HNT100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT100,HNT,Obsidian Fire Vein,,,1,,,,,"Draconic, Warrior, Weapon, Dagger, 1H",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. If you've played a Draconic card this chain link, this attack gets +1{p} and **go again**.",Draconic Warrior Weapon - Dagger (1H),,,,,,T,,,M Fakhrur Rozzi,,,HNT100,/HNT100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT101,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT102, FAB317","HNT, FAB",Long Whisker Loyalty,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"For each Draconic chain link you control, choose 1;
 
