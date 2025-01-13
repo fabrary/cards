@@ -138,7 +138,9 @@ HNT068,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT068,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT069,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT069,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT070,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT070,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT071, FAB307","HNT, FAB",Art of the Dragon: Blood,1,0,4,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets **go again** and the next 3 Draconic cards you play this turn cost {r} less to play.",Ninja Action - Attack,,,,No,,M,,,Tomasz Jedruszek,,,HNT071,/HNT071.png,,,P,,EA,Tomasz Jedruszek,,,FAB307,/FAB307.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT072,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT072,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT072,HNT,Devotion Never Dies,1,1,4,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, if a Draconic attack was the last attack this combat chain, banish this. If you do, you may play it this turn.
+
+**Go again**",Ninja Action - Attack,,,,No,,M,,,MJ Fetesio,,,HNT072,/HNT072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT073,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT073,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT074, FAB308","HNT, FAB",Art of the Dragon: Claw,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets ""When this hits a hero, destroy all cards in their arsenal.""",Ninja Action - Attack,,,,No,,R,,,寿多浩 (Hiro Suda),,,HNT074,/HNT074.png,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB308,/FAB308.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT075, FAB309","HNT, FAB",Art of the Dragon: Fire,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, deal 2 damage to any target.",Ninja Action - Attack,,,,No,,R,,,寿多浩 (Hiro Suda),,,HNT075,/HNT075.png,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB309,/FAB309.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
