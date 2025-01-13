@@ -57,8 +57,16 @@ HNT026,HNT,Orb-Weaver Spinneret,1,0,,3,,,,"Assassin, Action",Go again,,,,,,"Equi
 Your next attack with **stealth** this turn gets +3{p}.
 
 **Go again**",Assassin Action,,,,No,,R,,,SanSan,,,HNT026,/HNT026.png,,,P,R,EA,SanSan,,,FAB323,/FAB323-temp.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT027,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT027,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT028,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT028,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT027,HNT,Orb-Weaver Spinneret,2,0,,3,,,,"Assassin, Action",Go again,,,,,,"Equip a Graphene Chelicera token.
+
+Your next attack with **stealth** this turn gets +2{p}.
+
+**Go again**",Assassin Action,,,,No,,R,,,SanSan,,,HNT027,/HNT027.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT028,HNT,Orb-Weaver Spinneret,3,0,,3,,,,"Assassin, Action",Go again,,,,,,"Equip a Graphene Chelicera token.
+
+Your next attack with **stealth** this turn gets +1{p}.
+
+**Go again**",Assassin Action,,,,No,,R,,,SanSan,,,HNT028,/HNT028.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT029,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT030,HNT,Defang the Dragon,1,0,3,3,,,,"Assassin, Action, Attack","Stealth, Contract",,,,,Mark,"**Stealth**
 
@@ -66,21 +74,39 @@ HNT030,HNT,Defang the Dragon,1,0,3,3,,,,"Assassin, Action, Attack","Stealth, Con
 HNT031,HNT,Extinguish the Flames,1,0,3,3,,,,"Assassin, Action, Attack","Stealth, Contract",,,,,Mark,"**Stealth**
 
 **Contract** - You are contracted to hit a **marked** hero named Cindra. Whenever you complete this contract, draw a card.",Assassin Action - Attack,,,,,,C,,,Carlos Cruchaga,,,HNT031,/HNT031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT032,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT032,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT033,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT033,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT034,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT034,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT035,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT035,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT036,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT036,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT037,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT037,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT032,HNT,Mark of the Black Widow,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,Mark,"**Stealth**
+
+When this hits a **marked** hero, they banish a card from their hand.",Assassin Action - Attack,,,,,,C,,,Rio Sabda,,,HNT032,/HNT032.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT033,HNT,Mark of the Black Widow,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,Mark,"**Stealth**
+
+When this hits a **marked** hero, they banish a card from their hand.",Assassin Action - Attack,,,,,,C,,,Rio Sabda,,,HNT033,/HNT033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT034,HNT,Mark of the Black Widow,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,Mark,"**Stealth**
+
+When this hits a **marked** hero, they banish a card from their hand.",Assassin Action - Attack,,,,,,C,,,Rio Sabda,,,HNT034,/HNT034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT035,HNT,Reaper's Call,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,Instant,Mark,,,,"**Stealth**
+
+**Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT035,/HNT035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT036,HNT,Reaper's Call,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,Instant,Mark,,,,"**Stealth**
+
+**Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT036,/HNT036.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT037,HNT,Reaper's Call,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,Instant,Mark,,,,"**Stealth**
+
+**Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT037,/HNT037.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT038,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT039,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT040,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT041,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT042,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT042,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT043,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT044,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT044,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT045,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT045,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT046,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT046,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT044,HNT,Reaper's Call,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+**Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT044,/HNT044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT045,HNT,Reaper's Call,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+**Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT045,/HNT045.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT046,HNT,Reaper's Call,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+**Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT046,/HNT046.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT047,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT048,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT049,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -110,7 +136,7 @@ HNT060,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT060,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT061,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT061,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT062,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT062,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT063,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT063,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT064,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT064,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT064,HNT,Burning Blade Dance,1,0,3,3,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this hits a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.""",Draconic Ninja Action - Attack,,,,,,C,,,Esty Swandana,,,HNT064,/HNT064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT065,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT065,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT066,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT066,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT067,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT067,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -138,9 +164,15 @@ HNT088,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT088,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT089,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT089,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT090,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT090,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT091,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT091,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT092,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT093,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT093,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT094,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT094,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT092,HNT,Tag the Target,1,0,3,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT092,/HNT092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT093,HNT,Tag the Target,2,0,2,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT093,/HNT093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT094,HNT,Tag the Target,3,0,1,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT094,/HNT094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT095,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT095,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT096,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT097,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -158,7 +190,7 @@ HNT101,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 * You may attack with target dagger an additional time this turn.
 * The next time target dagger hits a hero this turn, **mark** them.",Draconic Warrior Attack Reaction,,,,No,,M,,,Federico Musetti,,,HNT102,/HNT102.png,,,P,R,EA,Federico Musetti,,,FAB317,/FAB317.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT103,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT104,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT104,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT104,HNT,Endear Devotion,1,1,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.",Draconic Warrior Attack Reaction,,,,No,,R,,,Federico Musetti,,"""Our sacrifice for the Dragon. Our service for the Dracai."" - Alshoni Mantra",HNT104,/HNT104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT105,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT106,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT107,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT107,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -200,9 +232,15 @@ HNT136,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT137,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT138,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT138,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT139,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT140,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT141,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT142,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT142,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT140,HNT,Sworn Vengeance,1,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +3{p} and ""When this hits a hero, **mark** them.""
+
+**Go again**",Warrior Action,,,,,,C,,,Arghawana Rim,,"""When they murdered my emperor, they killed my destiny."" - Lieutenant Yamada",HNT140,/HNT140.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT141,HNT,Sworn Vengeance,2,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +2{p} and ""When this hits a hero, **mark** them.""
+
+**Go again**",Warrior Action,,,,,,C,,,Arghawana Rim,,"""When they murdered my emperor, they killed my destiny."" - Lieutenant Yamada",HNT141,/HNT141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT142,HNT,Sworn Vengeance,3,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +1{p} and ""When this hits a hero, **mark** them.""
+
+**Go again**",Warrior Action,,,,,,C,,,Arghawana Rim,,"""When they murdered my emperor, they killed my destiny."" - Lieutenant Yamada",HNT142,/HNT142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT143,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT144,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT145,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

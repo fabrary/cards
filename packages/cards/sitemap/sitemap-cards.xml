@@ -2396,6 +2396,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/burning-blade-dance-red</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/buzz-bolt-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -4678,6 +4683,11 @@
   <url>
     <loc>https://fabrary.net/cards/encore-yellow</loc>
     <lastmod>2023-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/endear-devotion-red</loc>
+    <lastmod>2025-01-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8601,6 +8611,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/mark-of-the-black-widow-red</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mark-of-the-black-widow-yellow</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mark-of-the-black-widow-blue</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/mark-of-the-huntsman</loc>
     <lastmod>2025-01-08</lastmod>
     <priority>0.5</priority>
@@ -9388,6 +9413,16 @@
   <url>
     <loc>https://fabrary.net/cards/orb-weaver-spinneret-red</loc>
     <lastmod>2025-01-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/orb-weaver-spinneret-yellow</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/orb-weaver-spinneret-blue</loc>
+    <lastmod>2025-01-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -11003,6 +11038,21 @@
   <url>
     <loc>https://fabrary.net/cards/reality-refractor</loc>
     <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/reapers-call-red</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/reapers-call-yellow</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/reapers-call-blue</loc>
+    <lastmod>2025-01-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -14491,6 +14541,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sworn-vengeance-red</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sworn-vengeance-yellow</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sworn-vengeance-blue</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/symbiosis-shot</loc>
     <lastmod>2023-09-25</lastmod>
     <priority>0.5</priority>
@@ -14518,6 +14583,21 @@
   <url>
     <loc>https://fabrary.net/cards/t-bone-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tag-the-target-red</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tag-the-target-yellow</loc>
+    <lastmod>2025-01-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tag-the-target-blue</loc>
+    <lastmod>2025-01-12</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
