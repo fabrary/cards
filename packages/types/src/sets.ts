@@ -1010,7 +1010,7 @@ export const releases: ReleaseInfo[] = [
     cards: 66,
     classes: [Class.Warrior],
     deckLinks: [
-      { url: "https://fabrary.net/decks/01J68KFRMJFKRQYJJ7THG1GMTB" },
+      { url: "https://fabrary.net/decks/01J202NH0RG8S0V8WXH1FWB2AH" },
     ],
     heroes: [Hero.Boltyn],
     languages: [
