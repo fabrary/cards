@@ -197,7 +197,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
 HNT100,HNT,Obsidian Fire Vein,,,1,,,,,"Draconic, Warrior, Weapon, Dagger, 1H",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. If you've played a Draconic card this chain link, this attack gets +1{p} and **go again**.",Draconic Warrior Weapon - Dagger (1H),,,,,,T,,,M Fakhrur Rozzi,,,HNT100,/HNT100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT101,HNT,Hunt's End,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Play this only if you control 3 or more Fealty tokens.
 
-Target dagger attack gets +4{p}.",Draconic Warrior Attack Reaction,,,,No,,M,,,Tomasz Jedruszek,,,HNT101,/HNT101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Target dagger attack gets +4{p}.",Draconic Warrior Attack Reaction,,,,No,,M,,,Tomasz Jedruszek,,,HNT101,/HNT101.png,,,M,R,EA,Tomasz Jedruszek,,,HNT101,/HNT101-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT102, FAB317","HNT, FAB",Long Whisker Loyalty,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"For each Draconic chain link you control, choose 1;
 
 * Target dagger attack gains +2{p}.
@@ -217,7 +217,7 @@ HNT113,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT114,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT115,HNT,Kabuto of Imperial Authority,,,,2,,,,"Warrior, Equipment, Head",Blade Break,,,,,,"When this defends, until end of turn, opponents can't attack with weapons.
 
-**Blade Break**",Warrior Equipment - Head,,,,No,,L,R,,Sariya Asavametha,,,HNT115,/HNT115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Warrior Equipment - Head,,,,No,,L,R,,Sariya Asavametha,,,HNT115,/HNT115.png,,,L,C,EA,Sariya Asavametha,,,HNT115,/HNT115-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT116, FAB311","HNT, FAB",Jagged Edge,1,1,,3,,,,"Warrior, Attack Reaction",,,,,,,"Target weapon attack gets +3{p} and ""Damage this would deal can't be prevented.""",Warrior Attack Reaction,,,,No,,M,,,Audy Ravindra,,,HNT116,,,,P,C,EA,Audy Ravindra,,,FAB311,/FAB311.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT117,HNT,Provoke,3,1,,3,,,,"Warrior, Attack Reaction",,,,,,,"If you're attacking with a weapon this chain link, the defending hero reveals a card from their hand. If it's an action card, add it to this chain link as a defending card, otherwise they discard it.",Warrior Attack Reaction,,,,No,,M,,,Sebastian Giacobino,,,HNT117,/HNT117.png,,,M,,EA,Sebastian Giacobino,,,HNT117,/HNT117_EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT118,HNT,Sharpened Senses,2,0,,3,,,,"Warrior, Action, Aura",Go again,,,,,,"**Go again**
@@ -281,7 +281,7 @@ HNT155,HNT,Drop of Dragon Blood,1,2,,,,,,"Draconic, Instant",Legendary,,,,,,"**L
 
 This costs {r} less to play for each Draconic chain link you control.
 
-Gain {r}. Draw a card.",Draconic Instant,,,,No,,R,,,Mariusz Gandzel,,,HNT155,/HNT155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Gain {r}. Draw a card.",Draconic Instant,,,,No,,R,,,Mariusz Gandzel,,,HNT155,/HNT155.png,,,R,R,EA,Mariusz Gandzel,,,HNT155,/HNT155-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT156,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT156,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT157,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT158, FAB318","HNT, FAB",For the Dracai,1,0,4,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,C,,,Asur Misoa,,,HNT158,/HNT158.png,,,P,R,EA,Asur Misoa,,,FAB318,/FAB318.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

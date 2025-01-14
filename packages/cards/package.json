@@ -31,7 +31,7 @@
     "esbuild-jest": "^0.5.0",
     "fast-xml-parser": "4.3.2",
     "jest": "^29.7.0",
-    "latest-cards": "npm:@flesh-and-blood/cards@^3.4.24",
+    "latest-cards": "npm:@flesh-and-blood/cards@^3.4.25",
     "papaparse": "^5.3.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
@@ -58,5 +58,5 @@
     "FAB",
     "FABTCG"
   ],
-  "gitHead": "d0bad91cde5ad1f9e9cabff2f93e9e72da5ca3b4"
+  "gitHead": "26681856f16ab8807c40f83823c6938b8b9f6cc7"
 }
