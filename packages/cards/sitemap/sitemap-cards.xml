@@ -216,6 +216,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/affirm-loyalty-red</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/agile-engagement-red</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
@@ -4116,6 +4121,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/dragon-power-red</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dragon-power-yellow</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/dragon-power-blue</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/draw-swords-red</loc>
     <lastmod>2024-01-16</lastmod>
     <priority>0.5</priority>
@@ -4243,6 +4263,11 @@
   <url>
     <loc>https://fabrary.net/cards/drone-of-brutality-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/drop-of-dragon-blood-red</loc>
+    <lastmod>2025-01-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -7246,6 +7271,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/hunts-end-red</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hurl-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -7968,6 +7998,11 @@
   <url>
     <loc>https://fabrary.net/cards/just-a-nick-red</loc>
     <lastmod>2024-05-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/kabuto-of-imperial-authority</loc>
+    <lastmod>2025-01-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -12693,6 +12728,11 @@
   <url>
     <loc>https://fabrary.net/cards/sharpen-steel-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sharpened-senses-yellow</loc>
+    <lastmod>2025-01-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

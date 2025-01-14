@@ -192,6 +192,7 @@ export const fabDictionary = [
   "jinglewood",
   "jubeel",
   "judgement",
+  "kabuto",
   "kāṣāya",
   "kassai",
   "katsu",

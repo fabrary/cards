@@ -132,7 +132,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
 **Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,SanSan,,,HNT057,/HNT057.png,,,P,R,EA,SanSan,,,FAB316,/FAB316.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT058,HNT,Ignite,1,0,2,2,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Draconic card you play or activate this combat chain costs {r} less to play or activate.
 
-**Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,Mario Wibisono,,,HNT058,/HNT058.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,Mario Wibisono,,,HNT058,/HNT058.png,,,R,R,EA,Mario Wibisono,,,HNT058,/HNT058-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT059,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT059,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT060,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT060,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT061,HNT,Wrath of Retribution,1,3,3,3,,,,"Draconic, Ninja, Action, Attack","Legendary, Go again",,,,,,"**Legendary**
@@ -141,7 +141,7 @@ This costs {r} less to play for each Draconic chain link you control.
 
 When this attacks, daggers you control get +1{p} and cost {r} less to activate this combat chain.
 
-**Go again**",Draconic Ninja Action - Attack,,,,No,,R,,,Mario Wibisono,,,HNT061,/HNT061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Draconic Ninja Action - Attack,,,,No,,R,,,Mario Wibisono,,,HNT061,/HNT061.png,,,R,R,EA,Mario Wibisono,,,HNT061,/HNT061-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT062,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT062,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT063,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT063,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT064,HNT,Burning Blade Dance,1,0,3,3,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this hits a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.""",Draconic Ninja Action - Attack,,,,,,C,,,Esty Swandana,,,HNT064,/HNT064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -161,9 +161,9 @@ At the beginning of your end phase, if you've attacked less than 3 times this tu
 "HNT074, FAB308","HNT, FAB",Art of the Dragon: Claw,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets ""When this hits a hero, destroy all cards in their arsenal.""",Ninja Action - Attack,,,,No,,R,,,寿多浩 (Hiro Suda),,,HNT074,/HNT074.png,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB308,/FAB308.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT075, FAB309","HNT, FAB",Art of the Dragon: Fire,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, deal 2 damage to any target.",Ninja Action - Attack,,,,No,,R,,,寿多浩 (Hiro Suda),,,HNT075,/HNT075.png,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB309,/FAB309.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT076, FAB310","HNT, FAB",Art of the Dragon: Scale,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets ""When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.""",Ninja Action - Attack,,,,No,,R,,,Carlos Cruchaga,,,HNT076,/HNT076.png,,,P,R,EA,Carlos Cruchaga,,,FAB310,/FAB310.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT077,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT077,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT078,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT079,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT079,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT077,HNT,Dragon Power,1,1,4,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets +3{p}.",Ninja Action - Attack,,,,No,,R,,,Marco González,,,HNT077,/HNT077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT078,HNT,Dragon Power,2,1,3,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets +3{p}.",Ninja Action - Attack,,,,No,,R,,,Marco González,,,HNT078,/HNT078.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT079,HNT,Dragon Power,3,1,2,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets +3{p}.",Ninja Action - Attack,,,,No,,R,,,Marco González,,,HNT079,/HNT079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT080,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT081,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT081,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT082,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT082,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -195,13 +195,15 @@ HNT099,HNT,Fang,,,,,20,4,,"Royal, Draconic, Warrior, Hero, Young",,,,,,Mark,"Whe
 
 If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero - Young,,,No,,No,T,,,Billy Christian,,,HNT099,/HNT099.png,,,V,C,,Billy Christian,,,HNT099,/HNT099-V2.png,,,V,C,FA,Billy Christian,,,HNT099,/HNT099-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
 HNT100,HNT,Obsidian Fire Vein,,,1,,,,,"Draconic, Warrior, Weapon, Dagger, 1H",,Once per Turn Action,"Attack, Go again",,,,"**Once per Turn Action** - {r}: **Attack**. If you've played a Draconic card this chain link, this attack gets +1{p} and **go again**.",Draconic Warrior Weapon - Dagger (1H),,,,,,T,,,M Fakhrur Rozzi,,,HNT100,/HNT100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT101,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT101,HNT,Hunt's End,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Play this only if you control 3 or more Fealty tokens.
+
+Target dagger attack gets +4{p}.",Draconic Warrior Attack Reaction,,,,No,,M,,,Tomasz Jedruszek,,,HNT101,/HNT101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT102, FAB317","HNT, FAB",Long Whisker Loyalty,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"For each Draconic chain link you control, choose 1;
 
 * Target dagger attack gains +2{p}.
 * You may attack with target dagger an additional time this turn.
 * The next time target dagger hits a hero this turn, **mark** them.",Draconic Warrior Attack Reaction,,,,No,,M,,,Federico Musetti,,,HNT102,/HNT102.png,,,P,R,EA,Federico Musetti,,,FAB317,/FAB317.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT103,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT103,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT103,HNT,Affirm Loyalty,1,0,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, create a Fealty token.",Draconic Warrior Attack Reaction,,,,No,,R,,,Ramza Ardyputra,,,HNT103,/HNT103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT104,HNT,Endear Devotion,1,1,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.",Draconic Warrior Attack Reaction,,,,No,,R,,,Federico Musetti,,"""Our sacrifice for the Dragon. Our service for the Dracai."" - Alshoni Mantra",HNT104,/HNT104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT105,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT105,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT106,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -213,10 +215,16 @@ HNT111,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT112,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT112,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT113,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT114,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT115,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT115,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT115,HNT,Kabuto of Imperial Authority,,,,2,,,,"Warrior, Equipment, Head",Blade Break,,,,,,"When this defends, until end of turn, opponents can't attack with weapons.
+
+**Blade Break**",Warrior Equipment - Head,,,,No,,L,R,,Sariya Asavametha,,,HNT115,/HNT115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT116, FAB311","HNT, FAB",Jagged Edge,1,1,,3,,,,"Warrior, Attack Reaction",,,,,,,"Target weapon attack gets +3{p} and ""Damage this would deal can't be prevented.""",Warrior Attack Reaction,,,,No,,M,,,Audy Ravindra,,,HNT116,,,,P,C,EA,Audy Ravindra,,,FAB311,/FAB311.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT117,HNT,Provoke,3,1,,3,,,,"Warrior, Attack Reaction",,,,,,,"If you're attacking with a weapon this chain link, the defending hero reveals a card from their hand. If it's an action card, add it to this chain link as a defending card, otherwise they discard it.",Warrior Attack Reaction,,,,No,,M,,,Sebastian Giacobino,,,HNT117,/HNT117.png,,,M,,EA,Sebastian Giacobino,,,HNT117,/HNT117_EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT118,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT118,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT118,HNT,Sharpened Senses,2,0,,3,,,,"Warrior, Action, Aura",Go again,,,,,,"**Go again**
+
+Your weapon attacks get +1{p}. If their {p} is greater than twice their base, they get **go again**.
+
+At the beginning of your end phase, destroy this.",Warior Action - Aura,,,,No,,M,,,Ina Wong,,,HNT118,/HNT118.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT119,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT119,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT120,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT121,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT121,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -269,7 +277,11 @@ HNT151,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT151,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT152,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT152,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT153,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT153,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT154,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT155,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT155,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT155,HNT,Drop of Dragon Blood,1,2,,,,,,"Draconic, Instant",Legendary,,,,,,"**Legendary**
+
+This costs {r} less to play for each Draconic chain link you control.
+
+Gain {r}. Draw a card.",Draconic Instant,,,,No,,R,,,Mariusz Gandzel,,,HNT155,/HNT155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT156,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT156,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT157,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT158, FAB318","HNT, FAB",For the Dracai,1,0,4,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,C,,,Asur Misoa,,,HNT158,/HNT158.png,,,P,R,EA,Asur Misoa,,,FAB318,/FAB318.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
