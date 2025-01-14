@@ -130,10 +130,18 @@ HNT056,HNT,Kunai of Retribution,,,1,,,,,"Draconic, Ninja, Weapon, Dagger, 1H",Go
 When this attacks a hero, each dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the daggers.
 
 **Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,SanSan,,,HNT057,/HNT057.png,,,P,R,EA,SanSan,,,FAB316,/FAB316.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT058,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT058,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT058,HNT,Ignite,1,0,2,2,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Draconic card you play or activate this combat chain costs {r} less to play or activate.
+
+**Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,Mario Wibisono,,,HNT058,/HNT058.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT059,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT059,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT060,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT060,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT061,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT061,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT061,HNT,Wrath of Retribution,1,3,3,3,,,,"Draconic, Ninja, Action, Attack","Legendary, Go again",,,,,,"**Legendary**
+
+This costs {r} less to play for each Draconic chain link you control.
+
+When this attacks, daggers you control get +1{p} and cost {r} less to activate this combat chain.
+
+**Go again**",Draconic Ninja Action - Attack,,,,No,,R,,,Mario Wibisono,,,HNT061,/HNT061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT062,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT062,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT063,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT063,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT064,HNT,Burning Blade Dance,1,0,3,3,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this hits a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.""",Draconic Ninja Action - Attack,,,,,,C,,,Esty Swandana,,,HNT064,/HNT064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
