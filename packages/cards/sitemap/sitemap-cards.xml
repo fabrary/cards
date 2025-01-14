@@ -1341,6 +1341,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bite-red</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bite-yellow</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bite-blue</loc>
+    <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/biting-blade-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -2903,6 +2918,11 @@
   <url>
     <loc>https://fabrary.net/cards/coalescence-mirage-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/coat-of-allegiance</loc>
+    <lastmod>2025-01-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10483,6 +10503,11 @@
   <url>
     <loc>https://fabrary.net/cards/provoke-blue</loc>
     <lastmod>2024-12-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/prowess-of-agility-blue</loc>
+    <lastmod>2025-01-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -43,9 +43,15 @@ HNT014,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 * Target dagger attack gets +3{p}.
 * Target card defending an attack with stealth gets -3{d} this turn.",Assassin Attack Reaction,,,,No,,M,,,Kevin Sidharta,,,HNT015,/HNT015.png,,,P,R,EA,Kevin Sidharta,,,FAB315,/FAB315.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT016,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT017,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT018,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT019,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT017,HNT,Bite,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Assassin Action - Attack,,,,No,,R,,,Raphael Pinna,,,HNT017,/HNT017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT018,HNT,Bite,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Assassin Action - Attack,,,,No,,R,,,Raphael Pinna,,,HNT018,/HNT018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT019,HNT,Bite,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Assassin Action - Attack,,,,No,,R,,,Raphael Pinna,,,HNT019,/HNT019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT020,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT021,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT022,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -141,7 +147,9 @@ HNT070,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT070,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT072,HNT,Devotion Never Dies,1,1,4,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, if a Draconic attack was the last attack this combat chain, banish this. If you do, you may play it this turn.
 
 **Go again**",Ninja Action - Attack,,,,No,,M,,,MJ Fetesio,,,HNT072,/HNT072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT073,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT073,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT073,HNT,Prowess of Agility,3,0,,3,,,,"Ninja, Action, Aura",,,,,,,"When you attack for the fourth time during a turn, you may destroy this. If you do, draw a card.
+
+At the beginning of your end phase, if you've attacked less than 3 times this turn, destroy this.",Ninja Action - Aura,,,,No,,M,,,Faizal Fikri,,,HNT073,/HNT073.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT074, FAB308","HNT, FAB",Art of the Dragon: Claw,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets ""When this hits a hero, destroy all cards in their arsenal.""",Ninja Action - Attack,,,,No,,R,,,寿多浩 (Hiro Suda),,,HNT074,/HNT074.png,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB308,/FAB308.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT075, FAB309","HNT, FAB",Art of the Dragon: Fire,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, deal 2 damage to any target.",Ninja Action - Attack,,,,No,,R,,,寿多浩 (Hiro Suda),,,HNT075,/HNT075.png,,,P,R,EA,寿多浩 (Hiro Suda),,,FAB309,/FAB309.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT076, FAB310","HNT, FAB",Art of the Dragon: Scale,1,1,5,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets ""When this hits a hero, put a -1{d} counter on an equipment they control. Then if it has 0{d}, destroy it.""",Ninja Action - Attack,,,,No,,R,,,Carlos Cruchaga,,,HNT076,/HNT076.png,,,P,R,EA,Carlos Cruchaga,,,FAB310,/FAB310.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -242,7 +250,7 @@ HNT144,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT145,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT146,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT147,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT148,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT148,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT148,HNT,Coat of Allegiance,,,,0,,,,"Draconic, Equipment, Chest",,,,,,,"**Action** - Destroy this: Gain {r}. Until end of turn, you may only play cards that are Draconic. **Go again**",Draconic Equipment - Chest,,,,,,C,,,Thomas Ressuge,,,HNT148,/HNT148.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT149,HNT,Oath of Loyalty,1,0,4,3,,,,"Draconic, Action, Attack",Go again,,,,,,"This may only be played if it's the first action of your turn.
 
 When this is played, until end of turn, you may only play cards that are Draconic.
