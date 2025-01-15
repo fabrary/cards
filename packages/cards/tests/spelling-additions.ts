@@ -27,6 +27,7 @@ export const fabDictionary = [
   "aetherwinds",
   "alehorn",
   "alluvion",
+  "anaphylactic",
   "anothos",
   "anvilheim",
   "arakni",

@@ -34,7 +34,11 @@ HNT010,HNT,Mark of the Huntsman,,,1,,,,,"Assassin, Weapon, Dagger, 1H",,Once per
 When this hits a hero, you may choose to destroy this and **mark** them.
 
 If this is attacking a **marked** hero, this gets +1{p}.",Assassin Weapon - Dagger (1H),,,,,,T,,,Marcus Reyno,,,HNT010,/HNT010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT011,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT011,HNT,Mask of Deceit,,,,2,,,,"Assassin, Equipment, Head","Arakni Specialization, Blade Break",,,,,,"**Arakni Specialization**
+
+When this defends, become a random Agent of Chaos. If the attacking hero is **marked**, instead choose the Agent of Chaos.
+
+**Blade Break**",Assassin Equipment - Head,,,,No,,L,R,,Mark Poole,,,HNT011,/HNT011.png,,,L,C,EA,Mark Poole,,,HNT011,/HNT011-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT012,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT013,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT014,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -42,7 +46,7 @@ HNT014,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 * Target dagger attack gets +3{p}.
 * Target card defending an attack with stealth gets -3{d} this turn.",Assassin Attack Reaction,,,,No,,M,,,Kevin Sidharta,,,HNT015,/HNT015.png,,,P,R,EA,Kevin Sidharta,,,FAB315,/FAB315.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT016,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT016,HNT,Anaphylactic Shock,3,0,,,,,,"Assassin, Instant, Trap",,,,,,,Each opposing hero and ally that has dealt damage to you this turn loses 1{h}.,Assassin Instant - Trap,,,,No,,M,,,Sebastian Giacobino,,,HNT016,/HNT016.png,,,M,R,EA,Sebastian Giacobino,,,HNT016,/HNT016-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT017,HNT,Bite,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Assassin Action - Attack,,,,No,,R,,,Raphael Pinna,,,HNT017,/HNT017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -266,7 +270,7 @@ HNT144,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT145,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT146,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT147,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT148,HNT,Coat of Allegiance,,,,0,,,,"Draconic, Equipment, Chest",,,,,,,"**Action** - Destroy this: Gain {r}. Until end of turn, you may only play cards that are Draconic. **Go again**",Draconic Equipment - Chest,,,,,,C,,,Thomas Ressuge,,,HNT148,/HNT148.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT148,HNT,Coat of Allegiance,,,,0,,,,"Draconic, Equipment, Chest",,Action,Go again,,,,"**Action** - Destroy this: Gain {r}. Until end of turn, you may only play cards that are Draconic. **Go again**",Draconic Equipment - Chest,,,,,,C,,,Thomas Ressuge,,,HNT148,/HNT148.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT149,HNT,Oath of Loyalty,1,0,4,3,,,,"Draconic, Action, Attack",Go again,,,,,,"This may only be played if it's the first action of your turn.
 
 When this is played, until end of turn, you may only play cards that are Draconic.
@@ -365,7 +369,7 @@ HNT235,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT235,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT236,HNT,Lay Low,2,0,,3,,,,"Generic, Defense Reaction",,,,,,Mark,"If you are **marked**, you can't play this.
 
 If the defending hero is **marked**, their next attack this turn gets -1{p}.",Generic Defense Reaction,,,,,,C,,,Widya Wang,,,HNT236,/HNT236.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT237,HNT,Exposed,3,0,,,,,,"Generic, Attack Reaction",Mark,,,,,,"If you are **marked**, you can't play this.
+HNT237,HNT,Exposed,3,0,,,,,,"Generic, Attack Reaction",Mark,,,,,Mark,"If you are **marked**, you can't play this.
 
 Target attack gets +1{p}.
 

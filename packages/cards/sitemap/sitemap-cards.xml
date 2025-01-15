@@ -356,6 +356,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/anaphylactic-shock-blue</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/ancestral-empowerment-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -8708,6 +8713,11 @@
   <url>
     <loc>https://fabrary.net/cards/marked</loc>
     <lastmod>2024-11-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mask-of-deceit</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
