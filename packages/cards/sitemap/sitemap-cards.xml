@@ -10596,6 +10596,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/public-bounty-red</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/public-bounty-yellow</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/public-bounty-blue</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/pulping-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -14776,6 +14791,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/take-up-the-mantle-yellow</loc>
+    <lastmod>2025-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/tales-of-adventure-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -15668,6 +15688,11 @@
   <url>
     <loc>https://fabrary.net/cards/twinning-blade-yellow</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/two-sides-to-the-blade-red</loc>
+    <lastmod>2025-01-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

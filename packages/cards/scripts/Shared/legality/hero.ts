@@ -295,7 +295,7 @@ const TYPES_TO_CHECK_FOR_PITCH = [
   Type.Resource,
 ];
 
-const CARD_TO_LOG = "";
+const CARD_TO_LOG = "Arakni, Black Widow";
 
 export const getLegalHeroes = (card: {
   cardIdentifier: string;

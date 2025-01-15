@@ -41,7 +41,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
 **Blade Break**",Assassin Equipment - Head,,,,No,,L,R,,Mark Poole,,,HNT011,/HNT011.png,,,L,C,EA,Mark Poole,,,HNT011,/HNT011-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT012,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT013,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT014,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT014,HNT,Take Up the Mantle,2,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Target attack action card with **stealth** gets +2{p}. If it's attacking a **marked** hero, instead it gets +3{p} and you may banish an attack action card with **stealth** from your graveyard. If you do, the target becomes a copy of the banished card.",Assassin Attack Reaction,,,,No,,M,,,Henrique Lindner,,,HNT014,/HNT014-temp.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT015, FAB315","HNT, FAB",Tarantula Toxin,1,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Choose 1 or both;
 
 * Target dagger attack gets +3{p}.
@@ -100,7 +100,7 @@ HNT038,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT039,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT040,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT041,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT042,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT042,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT042,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT042,/HNT042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT043,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT044,HNT,Reaper's Call,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,Instant,Mark,,,,"**Stealth**
 
@@ -115,7 +115,9 @@ HNT047,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT048,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT049,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT050,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT051,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT051,HNT,Two Sides to the Blade,1,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Choose 1;
+- Target dagger attack gets +3{p}.
+- Target attack action card with **stealth** gets +3{p} and ""When this hits a hero, **mark** them.""",Assassin Attack Reaction,,,,,,C,,,Raphael Pinna,,,HNT051,/HNT051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT052,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT053,HNT,Graphene Chelicera,,,1,,,,,"Assassin, Token, Weapon, Dagger, 1H","Stealth, Go again",Once per Turn Action,Attack,,,Mark,"**Stealth**
 
@@ -377,9 +379,21 @@ Target attack gets +1{p}.
 HNT238,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT238,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT239,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT239,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT240,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT240,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT241,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT241,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT242,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT242,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT243,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT243,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT241,HNT,Public Bounty,1,1,,2,,,,"Generic, Action","Mark, Go again",,,,,,"**Mark** target opposing hero.
+
+The next time you attack a **marked** hero this turn, the attack gets +3{p}.
+
+**Go again**",Generic Action,,,,,,C,,,Daniel Jiménez,,,HNT241,/HNT241.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT242,HNT,Public Bounty,2,1,,2,,,,"Generic, Action","Mark, Go again",,,,,,"**Mark** target opposing hero.
+
+The next time you attack a **marked** hero this turn, the attack gets +2{p}.
+
+**Go again**",Generic Action,,,,,,C,,,Daniel Jiménez,,,HNT242,/HNT242.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT243,HNT,Public Bounty,3,1,,2,,,,"Generic, Action","Mark, Go again",,,,,,"**Mark** target opposing hero.
+
+The next time you attack a **marked** hero this turn, the attack gets +1{p}.
+
+**Go again**",Generic Action,,,,,,C,,,Daniel Jiménez,,,HNT243,/HNT243.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT244,HNT,Marked,,,,,,,,Token,Mark,,,,,,You are **marked** until an opponent hits you,Token,,,,,,T,,,Jessketchin,,,HNT244,/HNT244.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT245,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT245,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT246,HNT,Thick Hide Hunter,2,2,6,6,,,,"Brute, Action, Attack",,,,,,,"When this attacks or defends, discard a random card.",Brute Action - Attack,,,,No,,M,,,Tomasz Jedruszek,Yes,,HNT246,/HNT246.png,,,M,,EA,Tomasz Jedruszek,Yes,,HNT246,/HNT246_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
