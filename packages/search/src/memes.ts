@@ -15,6 +15,42 @@ interface Meme {
   card: Card;
 }
 
+const commando: Card = {
+  artists: ["Henrique Lindner", "Hoodwill"],
+  cardIdentifier: "wolley-odnammoc-ecid".split("").reverse().join(""),
+  classes: [Class.Assassin],
+  defaultImage: "CMD000",
+  legalFormats: [],
+  legalHeroes: [Hero.Arakni, Hero.Crackni, Hero.Nuu, Hero.Slippy, Hero.Uzuri],
+  name: "odnammoC eciD".split("").reverse().join(""),
+  printings: [
+    {
+      artists: ["Henrique Lindner", "Hoodwill"],
+
+      identifier: "CMD000",
+      image: "CMD000",
+
+      print: "CMD000",
+      set: Release.TheHunted,
+    },
+  ],
+  rarities: [Rarity.Majestic],
+  rarity: Rarity.Majestic,
+  setIdentifiers: ["CMD000"],
+  sets: [Release.TheHunted],
+  specialImage: "CMD000",
+  subtypes: [],
+  types: [Type.AttackReaction],
+  typeText: "Assassin Attack Reaction",
+
+  cost: 0,
+  defense: 3,
+
+  functionalText: `Target attack action card with **stealth** gets +2{p}. If it's attacking a **marked** hero, instead it gets +3{p} and you may banish an attack action card with **stealth** from your graveyard. If you do, the target becomes a copy of the banished card.`,
+
+  pitch: 2,
+};
+
 const fangsALot: Card = {
   artists: ["Hoodwill"],
   cardIdentifier: "fangs-a-lot-blue",
@@ -52,5 +88,6 @@ const fangsALot: Card = {
 };
 
 export const memes: Meme[] = [
+  { keyword: commando.name.toLowerCase(), card: commando },
   { keyword: fangsALot.name.toLowerCase(), card: fangsALot },
 ];

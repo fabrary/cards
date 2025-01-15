@@ -3,6 +3,7 @@ import { Card } from "@flesh-and-blood/types";
 export interface Abbreviation {
   abbreviations: string[];
   card: string;
+  isHidden?: boolean;
 }
 
 export const getAbbreviation = (
@@ -309,6 +310,11 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["TTT"],
     card: "Take the Tempo",
+  },
+  {
+    abbreviations: ["Dice Commando"],
+    card: "Take Up the Mantle",
+    isHidden: true,
   },
   {
     abbreviations: ["Ultron"],

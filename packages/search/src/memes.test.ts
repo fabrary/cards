@@ -1,5 +1,6 @@
 import { cards } from "@flesh-and-blood/cards";
 import Search from "./search";
+import { memes } from "./memes";
 
 describe("Meme results", () => {
   const cardSearch = new Search(cards);
@@ -19,5 +20,12 @@ describe("Meme results", () => {
     const { searchResults } = cardSearch.search("fangs a lot", true);
     expect(searchResults.length).toEqual(1);
     expect(searchResults[0].name).toEqual("Fangs A Lot");
+  });
+
+  it("Gets all memes", () => {
+    for (const { keyword } of memes) {
+      const { searchResults } = cardSearch.search(keyword, true);
+      expect(searchResults.length).toEqual(1);
+    }
   });
 });
