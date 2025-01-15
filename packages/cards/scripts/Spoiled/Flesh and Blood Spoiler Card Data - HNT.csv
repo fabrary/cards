@@ -41,7 +41,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
 **Blade Break**",Assassin Equipment - Head,,,,No,,L,R,,Mark Poole,,,HNT011,/HNT011.png,,,L,C,EA,Mark Poole,,,HNT011,/HNT011-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT012,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT013,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT014,HNT,Take Up the Mantle,2,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Target attack action card with **stealth** gets +2{p}. If it's attacking a **marked** hero, instead it gets +3{p} and you may banish an attack action card with **stealth** from your graveyard. If you do, the target becomes a copy of the banished card.",Assassin Attack Reaction,,,,No,,M,,,Henrique Lindner,,,HNT014,/HNT014-temp.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT014,HNT,Take Up the Mantle,2,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Target attack action card with **stealth** gets +2{p}. If it's attacking a **marked** hero, instead it gets +3{p} and you may banish an attack action card with **stealth** from your graveyard. If you do, the target becomes a copy of the banished card.",Assassin Attack Reaction,,,,No,,M,,,Henrique Lindner,,,HNT014,/HNT014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT015, FAB315","HNT, FAB",Tarantula Toxin,1,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Choose 1 or both;
 
 * Target dagger attack gets +3{p}.
