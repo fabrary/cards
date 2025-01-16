@@ -39,7 +39,7 @@ HNT011,HNT,Mask of Deceit,,,,2,,,,"Assassin, Equipment, Head","Arakni Specializa
 When this defends, become a random Agent of Chaos. If the attacking hero is **marked**, instead choose the Agent of Chaos.
 
 **Blade Break**",Assassin Equipment - Head,,,,No,,L,R,,Mark Poole,,,HNT011,/HNT011.png,,,L,C,EA,Mark Poole,,,HNT011,/HNT011-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT012,HNT,Kiss of Death,1,0,3,3,,,,"Asassin, Action, Dagger, Attack",Stealth,,,,,,"**Stealth**
+HNT012,HNT,Kiss of Death,1,0,3,3,,,,"Assassin, Action, Dagger, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a hero, they lose 1{h}.",Assassin Action - Dagger Attack,,,,No,,M,,,Wisnu Tan,,,HNT012,/HNT012.png,,,M,C,EA,Wisnu Tan,,,HNT012,/HNT012-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT013,HNT,Under the Trap-Door,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
