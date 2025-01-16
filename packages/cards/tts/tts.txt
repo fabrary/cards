@@ -3081,6 +3081,7 @@ OSCCardDB = {
   ["HNT158"] = { name = "For the Dracai (1)", text = "When this attacks a **marked** hero, create a Fealty token.", keywords = "", types = "Action"},
   ["HNT159"] = { name = "For the Emperor (1)", text = "When this attacks a **marked** hero, create a Fealty token.", keywords = "", types = "Action"},
   ["HNT160"] = { name = "For the Realm (1)", text = "When this attacks a **marked** hero, create a Fealty token.", keywords = "", types = "Action"},
+  ["HNT161"] = { name = "Hunt the Hunter (1)", text = "When this attacks a hero, if you've played another red card this turn, **mark** them.", keywords = "", types = "Action"},
   ["HNT165"] = { name = "Proclaim Vengeance (1)", text = "**Mark** target opposing hero. If that hero is Arakni, gain {r}.", keywords = "Mark", types = "Instant"},
   ["HNT167"] = { name = "Fealty", text = "**Instant** - Destroy this: The next card you play this turn is Draconic. At the beginning of your end phase, if you haven't created a Fealty token or played a Dragonic card this turn, destroy this.", keywords = "", types = "Token"},
   ["HNT228"] = { name = "Imperial Seal of Command (1)", text = "**Legendary**\n\n**Action** - Destroy this: Defense reaction cards can't be played this turn. If you are Royal, the next time you hit a hero this turn, destroy all cards in their arsenal. **Go again**", keywords = "Legendary", types = "Action"},
