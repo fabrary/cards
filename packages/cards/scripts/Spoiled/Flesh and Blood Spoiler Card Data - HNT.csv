@@ -101,9 +101,15 @@ When this hits a **marked** hero, they banish a card from their hand.",Assassin 
 HNT034,HNT,Mark of the Black Widow,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,Mark,"**Stealth**
 
 When this hits a **marked** hero, they banish a card from their hand.",Assassin Action - Attack,,,,,,C,,,Rio Sabda,,,HNT034,/HNT034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT035,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT035,/HNT035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT036,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT036,/HNT036.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT037,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT037,/HNT037.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT035,HNT,Mark of the Funnel Web,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a **marked** hero, banish a card in their arsenal.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT035,/HNT035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT036,HNT,Mark of the Funnel Web,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a **marked** hero, banish a card in their arsenal.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT036,/HNT036.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT037,HNT,Mark of the Funnel Web,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a **marked** hero, banish a card in their arsenal.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT037,/HNT037.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT038,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT039,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT040,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -279,7 +285,9 @@ HNT141,HNT,Sworn Vengeance,2,0,,3,,,,"Warrior, Action",Go again,,,Mark,,,"Your n
 HNT142,HNT,Sworn Vengeance,3,0,,3,,,,"Warrior, Action",Go again,,,Mark,,,"Your next dagger attack this turn gets +1{p} and ""When this hits a hero, **mark** them.""
 
 **Go again**",Warrior Action,,,,,,C,,,Arghawana Rim,,"""When they murdered my emperor, they killed my destiny."" - Lieutenant Yamada",HNT142,/HNT142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT143,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT143,HNT,Dragonscaler Flight Path,,,,1,,,,"Draconic, Equipment, Legs",Battleworn,,,,,,"**Instant** - {r}{r}{r}, destroy this: Target Draconic attack gets **go again**. If it's a weapon or ally attack, you may attack with it an additional time this turn. This ability costs {r} less to activate for each Draconic chain link you control.
+
+**Battleworn**",Draconic Equipment - Legs,,,,No,,L,R,,Mario Wibisono,,,HNT143,/HNT143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT144,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT145,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT146,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -381,7 +389,11 @@ HNT231,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT231,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT232,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT232,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT233,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT233,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT234,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT234,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT235,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT235,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT235,HNT,Outed,1,0,3,,,,,"Generic, Action, Attack",Go again,,,,,,"If you are **marked**, you can't play this.
+
+If the defending hero is **marked**, this gets +1{p}.
+
+**Go again**",Generic Action - Attack,,,,,,C,,,Tommy Suhartono,,,HNT235,/HNT235.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT236,HNT,Lay Low,2,0,,3,,,,"Generic, Defense Reaction",,,,,,Mark,"If you are **marked**, you can't play this.
 
 If the defending hero is **marked**, their next attack this turn gets -1{p}.",Generic Defense Reaction,,,,,,C,,,Widya Wang,,,HNT236,/HNT236.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

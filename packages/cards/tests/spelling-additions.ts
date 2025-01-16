@@ -108,6 +108,7 @@ export const fabDictionary = [
   "dorinthea",
   "dracai",
   "dracona",
+  "dragonscaler",
   "dreadbore",
   "dreamstate",
   "dromai",
