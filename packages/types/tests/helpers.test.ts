@@ -6,7 +6,15 @@ import {
   getDefaultPrinting,
   getIsCardTokenForDeck,
 } from "../src/helpers";
-import { Foiling, Printing, Release, Treatment, Type } from "../src/interfaces";
+import {
+  Foiling,
+  Keyword,
+  Printing,
+  Release,
+  Subtype,
+  Treatment,
+  Type,
+} from "../src/interfaces";
 
 describe("Card identifiers", () => {
   const identifiers: [
@@ -82,6 +90,20 @@ describe("Card types", () => {
 
     expect(isArenaOrDeckOrTokenCard).toEqual(true);
     expect(numberOfMatches).toEqual(1);
+  });
+
+  const kissOfDeath = {
+    keywords: [Keyword.Stealth],
+    subtypes: [Subtype.Attack, Subtype.Dagger],
+    types: [Type.Action],
+  };
+
+  it("Gets correct card type for Kiss of Death", () => {
+    const isArenaCard = getIsArenaCard(kissOfDeath);
+    expect(isArenaCard).toEqual(false);
+
+    const isDeckCard = getIsDeckCard(kissOfDeath);
+    expect(isDeckCard).toEqual(true);
   });
 });
 

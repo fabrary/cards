@@ -312,11 +312,6 @@ export const abbreviations: Abbreviation[] = [
     card: "Take the Tempo",
   },
   {
-    abbreviations: ["Dice Commando"],
-    card: "Take Up the Mantle",
-    isHidden: true,
-  },
-  {
     abbreviations: ["Ultron"],
     card: "Teklovossen, the Mechropotent",
   },
