@@ -300,7 +300,11 @@ When this is played, until end of turn, you may only play cards that are Draconi
 **Go again**",Draconic Action - Attack,,,,No,,M,,,Nathaniel Himawan,,,HNT149,/HNT149.png,,,M,R,EA,Nathaniel Himawan,,,HNT149,/HNT149-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT150,HNT,Loyalty Beyond the Grave,1,0,,3,,,,"Draconic, Defense Reaction",,,,,,,"While this is in your graveyard, at the start of your turn, you may banish 2 cards named Loyalty Beyond the Grave from your graveyard. If you do, draw a card.","Draconic, Defense Reaction",,,,No,,M,,,Sariya Asavametha,,,HNT150,/HNT150.png,,,M,R,EA,Sariya Asavametha,,,HNT150,/HNT150-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT151,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT151,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT152,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT152,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT152,HNT,Hunt to the Ends of Rathe,1,0,2,2,,,,"Draconic, Action, Attack",Go again,,,,,,"When this attacks Arakni, **mark** them.
+
+If this is attacking a **marked** hero, this gets +2{p}.
+
+**Go again**",Draconic Action - Attack,,,,No,,R,,,Sariya Asavametha,,,HNT152,/HNT152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT153,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT153,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT154,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT155,HNT,Drop of Dragon Blood,1,2,,,,,,"Draconic, Instant",Legendary,,,,,,"**Legendary**

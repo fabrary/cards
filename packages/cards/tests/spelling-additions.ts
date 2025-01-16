@@ -273,6 +273,7 @@ export const fabDictionary = [
   "qi",
   "quickfire",
   "quillhand",
+  "rathe",
   "raydn",
   "razzle",
   "recharge",
