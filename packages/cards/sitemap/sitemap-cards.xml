@@ -2486,6 +2486,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/calming-breeze-red</loc>
+    <lastmod>2025-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/calming-cloak</loc>
     <lastmod>2024-09-07</lastmod>
     <priority>0.5</priority>
@@ -7288,6 +7293,11 @@
   <url>
     <loc>https://fabrary.net/cards/hunts-end-red</loc>
     <lastmod>2025-01-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hunters-klaive</loc>
+    <lastmod>2025-01-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

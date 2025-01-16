@@ -28,7 +28,11 @@ At the beginning of your end phase, **return to the brood**.",Chaos Assassin Dem
 HNT008,HNT,"Arakni, Trap-Door",,,,,*,4,,"Chaos, Assassin, Demi-Hero",,,,,,,"When you become this, you may search your deck for a card, banish it face-down, then shuffle. If it's a trap, you may play it until the start of your next turn.
 
 At the beginning of your end phase, **return to the brood**.",Chaos Assassin Demi-Hero,,,,,,T,,,Jessada Sutthi,,,HNT008,/HNT008.png,,,V,C,FA,Jessada Sutthi,,,HNT008,/HNT008-V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT009,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT009,HNT,Hunter's Klaive,,,1,,,,,"Assassin, Weapon, Dagger, 1H",Piercing 1,,,,,,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
+
+When this hits a hero, **mark** them.
+
+**Piercing 1**",Assassin Weapon - Dagger (1H),,,,No,,M,,,Thomas Ressuge,,,HNT009,/HNT009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT010,HNT,Mark of the Huntsman,,,1,,,,,"Assassin, Weapon, Dagger, 1H",,Once per Turn Action,"Attack, Go again",Mark,,Mark,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 When this hits a hero, you may choose to destroy this and **mark** them.
@@ -372,7 +376,7 @@ HNT228,HNT,Imperial Seal of Command,1,0,,,,,,"Generic, Action, Item",Legendary,,
 
 **Action** - Destroy this: Defense reaction cards can't be played this turn. If you are Royal, the next time you hit a hero this turn, destroy all cards in their arsenal. **Go again**",Generic Action - Item,,,,No,,R,,,Milivoj Ćeran,,,HNT228,/HNT228.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT229,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT229,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT230,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT230,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT230,HNT,Calming Breeze,1,0,,,,,,"Generic, Instant",,,,,,,"The next 3 times you would be dealt damage this turn, prevent 1 of that damage.",Generic Instant,,,,No,,R,,,Thomas Ressuge,,,HNT230,/HNT230.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT231,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT231,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT232,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT232,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT233,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT233,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
