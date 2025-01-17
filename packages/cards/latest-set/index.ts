@@ -6134,7 +6134,7 @@ When this hits a hero, **mark** them.
     cardIdentifier: "ignite-red",
     classes: [Class.Ninja],
     defaultImage: "HNT058",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Cindra,Hero.Fai],
     name: "Ignite",
     printings: [{
@@ -6160,8 +6160,8 @@ When this hits a hero, **mark** them.
       
       treatment: Treatment.EA,
     },],
-    rarities: [Rarity.Majestic,Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
     setIdentifiers: ["HNT058"],
     sets: [Release.TheHunted],
     specialImage: "HNT058-EA",

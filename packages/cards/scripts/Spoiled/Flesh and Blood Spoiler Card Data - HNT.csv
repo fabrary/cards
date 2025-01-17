@@ -186,7 +186,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
 **Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,SanSan,,,HNT057,/HNT057.png,,,P,R,EA,SanSan,,,FAB316,/FAB316.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT058,HNT,Ignite,1,0,2,2,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Draconic card you play or activate this combat chain costs {r} less to play or activate.
 
-**Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,Mario Wibisono,,,HNT058,/HNT058.png,,,R,R,EA,Mario Wibisono,,,HNT058,/HNT058-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,Mario Wibisono,,,HNT058,/HNT058.png,,,M,R,EA,Mario Wibisono,,,HNT058,/HNT058-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT059,HNT,Demonstrate Devotion,1,1,4,2,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this attacks a hero, create a Fealty token.""",Draconic Ninja Action - Attack,,,,No,,R,,,Maerel Hibadita,,,HNT059,/HNT059.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT060,HNT,Display Loyalty,1,0,3,2,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this attacks a hero, create a Fealty token.""",Draconic Ninja Action - Attack,,,,No,,R,,,Wisnu Tan,,,HNT060,/HNT060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT061,HNT,Wrath of Retribution,1,3,3,3,,,,"Draconic, Ninja, Action, Attack","Legendary, Go again",,,,,,"**Legendary**
