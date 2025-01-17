@@ -2,6 +2,8 @@ import {
   Card,
   Format,
   Rarity,
+  Release,
+  ReleaseInfo,
   releases,
   ReleaseType,
 } from "@flesh-and-blood/types";
@@ -172,3 +174,26 @@ const cardsWithLegalFormats = cardsWithMetaValues.map((card) => {
 // });
 
 writeFiles(cardsWithLegalFormats, outputDirectory);
+
+const latestSet = releases
+  .reverse()
+  .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
+  ?.release as Release;
+
+const latestSetCards = cardsWithLegalFormats.filter(({ sets }) =>
+  sets.includes(latestSet)
+);
+
+const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
+  const printings = card.printings.filter(({ set }) => set === latestSet);
+
+  const defaultPrinting = getDefaultPrinting(card, printings);
+  const defaultImage = defaultPrinting.image;
+
+  const specialPrinting = getSpecialPrinting(card, printings);
+  const specialImage = specialPrinting.image;
+
+  return { ...card, defaultImage, printings, specialImage };
+});
+
+writeFiles(latestSetCardsWithOnlySetPrintings, "latest-set");

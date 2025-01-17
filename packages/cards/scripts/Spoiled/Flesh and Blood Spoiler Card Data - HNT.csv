@@ -389,7 +389,11 @@ HNT227,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT228,HNT,Imperial Seal of Command,1,0,,,,,,"Generic, Action, Item",Legendary,,,,,,"**Legendary**
 
 **Action** - Destroy this: Defense reaction cards can't be played this turn. If you are Royal, the next time you hit a hero this turn, destroy all cards in their arsenal. **Go again**",Generic Action - Item,,,,No,,R,,,Milivoj Ćeran,,,HNT228,/HNT228.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT229,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT229,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT229,HNT,Relentless Pursuit,3,0,,3,,,,"Generic, Action","Mark, Go again",,,,,,"**Mark** target opposing hero.
+
+If you've attacked them this turn, put this on the bottom of its owner's deck.
+
+**Go again**",Generic Action,,,,No,,R,,,Reza Afshar,,,HNT229,/HNT229.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT230,HNT,Calming Breeze,1,0,,,,,,"Generic, Instant",,,,,,,"The next 3 times you would be dealt damage this turn, prevent 1 of that damage.",Generic Instant,,,,No,,R,,,Thomas Ressuge,,,HNT230,/HNT230.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT231,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT231,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT232,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT232,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
