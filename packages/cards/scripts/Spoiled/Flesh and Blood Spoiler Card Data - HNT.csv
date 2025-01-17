@@ -32,7 +32,7 @@ HNT009,HNT,Hunter's Klaive,,,1,,,,,"Assassin, Weapon, Dagger, 1H",Piercing 1,,,,
 
 When this hits a hero, **mark** them.
 
-**Piercing 1**",Assassin Weapon - Dagger (1H),,,,No,,M,,,Thomas Ressuge,,,HNT009,/HNT009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Piercing 1**",Assassin Weapon - Dagger (1H),,,,No,,M,,,Thomas Ressuge,Yes,,HNT009,/HNT009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT010,HNT,Mark of the Huntsman,,,1,,,,,"Assassin, Weapon, Dagger, 1H",,Once per Turn Action,"Attack, Go again",Mark,,Mark,"**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
 
 When this hits a hero, you may choose to destroy this and **mark** them.

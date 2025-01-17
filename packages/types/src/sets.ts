@@ -98,6 +98,9 @@ export interface ReleaseInfo {
   classes: Class[];
   deckLinks: DeckLink[];
   heroes: Hero[];
+  heroOverrides?: {
+    [key: string]: Hero;
+  };
   languages: Language[];
   raritiesExcludedInLimited?: Rarity[];
   relatedReleases: Release[];
@@ -1255,6 +1258,9 @@ export const releases: ReleaseInfo[] = [
     classes: [Class.Assassin, Class.Ninja, Class.Warrior],
     deckLinks: [],
     heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
+    heroOverrides: {
+      [Hero.Arakni]: Hero.Crackni,
+    },
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
