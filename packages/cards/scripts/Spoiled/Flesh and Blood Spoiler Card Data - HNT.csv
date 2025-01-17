@@ -384,7 +384,7 @@ HNT222,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT222,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT223,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT223,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT224,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT224,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT225,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT225,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT226,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT226,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT226,HNT,Sound the Alarm,1,1,5,3,,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, they reveal their hand. If an attack reaction card is revealed this way, you may search your deck for a defense reaction card, reveal it, then shuffle and put it on top.",Generic Action - Attack,,,,No,,R,,,Thomas Ressuge,,,HNT226,/HNT226.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT227,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT228,HNT,Imperial Seal of Command,1,0,,,,,,"Generic, Action, Item",Legendary,,,,,,"**Legendary**
 

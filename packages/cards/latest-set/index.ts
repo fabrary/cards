@@ -4798,8 +4798,7 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "public-bounty-yellow",
     classes: [Class.Generic],
@@ -4858,7 +4857,8 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "public-bounty-blue",
     classes: [Class.Generic],
@@ -5424,6 +5424,61 @@ At the beginning of your end phase, destroy this.`,
     
     pitch: 2,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "sound-the-alarm-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT226",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Sound the Alarm",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "HNT226",
+      image: "HNT226",
+      
+      
+      print: "HNT226",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT226"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT226",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, they reveal their hand. If an attack reaction card is revealed this way, you may search your deck for a defense reaction card, reveal it, then shuffle and put it on top.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
     
     
     
