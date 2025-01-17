@@ -56,7 +56,7 @@ const specialImagePrintingOverrides: {
   [key: string]: { print: string };
 } = {
   "command-and-conquer-red": {
-    print: "DYN000-Cold",
+    print: "DYN000-Cold-Alternate Art-Extended Art",
   },
   "cracked-bauble-yellow": {
     print: "LGS083-Cold",
@@ -229,7 +229,7 @@ const defaultImagePrintingOverrides: {
   [key: string]: { print: string };
 } = {
   "command-and-conquer-red": {
-    print: "ARC159-Unlimited",
+    print: "HNT260",
   },
   "pitfall-trap-yellow": {
     print: "LGS151-Rainbow",

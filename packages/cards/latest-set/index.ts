@@ -968,6 +968,63 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
   
   
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "back-stab-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT029",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Back Stab",
+    printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "HNT029",
+      image: "HNT029",
+      
+      
+      print: "HNT029",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Rare],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT029","OUT015"],
+    sets: [Release.Outsiders,Release.TheHunted],
+    specialImage: "HNT029",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+Defense reaction cards can't be played this chain link.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Raphael Pinna"],
     cardIdentifier: "bite-red",
     classes: [Class.Assassin],
@@ -1139,6 +1196,458 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
   
   
   },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "blade-beckoner-boots",
+    classes: [Class.Generic],
+    defaultImage: "HNT219",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Blade Beckoner Boots",
+    printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "HNT219",
+      image: "HNT219",
+      
+      
+      print: "HNT219",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT219"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT219",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `This gets +1{d} while defending a weapon attack.
+
+**Guardwell**`,
+    
+    
+    
+    
+    keywords: [Keyword.Guardwell],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "blade-beckoner-gauntlets",
+    classes: [Class.Generic],
+    defaultImage: "HNT218",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Blade Beckoner Gauntlets",
+    printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "HNT218",
+      image: "HNT218",
+      
+      
+      print: "HNT218",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT218"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT218",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `This gets +1{d} while defending a weapon attack.
+
+**Guardwell**`,
+    
+    
+    
+    
+    keywords: [Keyword.Guardwell],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "blade-beckoner-helm",
+    classes: [Class.Generic],
+    defaultImage: "HNT216",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Blade Beckoner Helm",
+    printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "HNT216",
+      image: "HNT216",
+      
+      
+      print: "HNT216",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT216"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT216",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `This gets +1{d} while defending a weapon attack.
+
+**Guardwell**`,
+    
+    
+    
+    
+    keywords: [Keyword.Guardwell],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Daniel Jiménez"],
+    cardIdentifier: "blade-beckoner-plating",
+    classes: [Class.Generic],
+    defaultImage: "HNT217",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Blade Beckoner Plating",
+    printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "HNT217",
+      image: "HNT217",
+      
+      
+      print: "HNT217",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT217"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT217",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `This gets +1{d} while defending a weapon attack.
+
+**Guardwell**`,
+    
+    
+    
+    
+    keywords: [Keyword.Guardwell],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "blaze-headlong-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT157",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Blaze Headlong",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "HNT157",
+      image: "HNT157",
+      
+      
+      print: "HNT157",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAB089","FAI010","HNT157","UPR092"],
+    sets: [Release.FaiBlitzDeck,Release.Promos,Release.TheHunted,Release.Uprising],
+    specialImage: "HNT157",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `If you've played another red card this turn, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "blessing-of-vynserakai-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT163",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Blessing of Vynserakai",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "HNT163",
+      image: "HNT163",
+      
+      
+      print: "HNT163",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT163"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT163",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Draconic Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `At the start of your turn, destroy this, then your next attack this turn is Draconic and gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "blood-drop-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT062",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Blood Drop",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "HNT062",
+      image: "HNT062",
+      
+      
+      print: "HNT062",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT062"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT062",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `This costs {r} less to play for each Draconic chain link you control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 1,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "blood-line-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT063",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Blood Line",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "HNT063",
+      image: "HNT063",
+      
+      
+      print: "HNT063",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT063"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT063",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `This costs {r} less to play for each Draconic chain link you control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
     artists: ["SanSan"],
     cardIdentifier: "blood-runs-deep-red",
     classes: [Class.Ninja],
@@ -1195,6 +1704,186 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     
     
     talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "blood-splattered-vest",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT168",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Taylor,Hero.Uzuri,Hero.Zen],
+    name: "Blood Splattered Vest",
+    printings: [{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.R,
+      identifier: "HNT168",
+      image: "HNT168",
+      
+      
+      print: "HNT168-Rainbow",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.C,
+      identifier: "HNT168",
+      image: "HNT168-EA",
+      
+      
+      print: "HNT168-Cold-Extended Art",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["HNT168"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT168-EA",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `Whenever a dagger you control hits, you may gain {r} and put a stain counter on this. Then if there are 3 or more stain counters on this, destroy it.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "bubble-to-the-surface-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT154",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Bubble to the Surface",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "HNT154",
+      image: "HNT154",
+      
+      
+      print: "HNT154",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT154"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT154",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Draconic Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `This costs {r} less to play for each Draconic chain link you control.
+
+Reveal cards from the top of your deck until you've revealed a red card. Banish it. You may play it this turn. Shuffle.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "bunker-beard",
+    classes: [Class.Generic],
+    defaultImage: "HNT220",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Bunker Beard",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "HNT220",
+      image: "HNT220",
+      
+      
+      print: "HNT220",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT220"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT220",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Defense Reaction** - Destroy this: You may add an action card from your arsenal to the active chain link as a defending card.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -1360,6 +2049,61 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     
     
     
+  
+  
+  },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "cinderskin-devotion-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT065",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Cinderskin Devotion",
+    printings: [{
+        artists: ["Athiwut B."],
+      
+      identifier: "HNT065",
+      image: "HNT065",
+      
+      
+      print: "HNT065",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAI016","HNT065","UPR063"],
+    sets: [Release.FaiBlitzDeck,Release.TheHunted,Release.Uprising],
+    specialImage: "HNT065",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If you control 2 or more Draconic chain links, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
   
   
   },{
@@ -1565,6 +2309,184 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
   
   
   },{
+    artists: ["Fajareka Setiawan","Federico Musetti","Joseph Qiu","Othon Nikolaidis"],
+    cardIdentifier: "command-and-conquer-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT260",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Command and Conquer",
+    printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "HNT260",
+      image: "HNT260",
+      isExpansionSlot: true,
+      
+      print: "HNT260",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.R,
+      identifier: "HNT260",
+      image: "HNT260-EA",
+      isExpansionSlot: true,
+      
+      print: "HNT260-Rainbow-Extended Art",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.EA,
+    },],
+    rarities: [Rarity.Fabled,Rarity.Legendary,Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["1HP360","ARC159","DYN000","FAB278","HNT260"],
+    sets: [Release.ArcaneRising,Release.Dynasty,Release.HistoryPack1,Release.Promos,Release.TheHunted],
+    specialImage: "HNT260",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Defense reaction cards can't be played this chain link.
+
+When this hits a hero, destroy all cards in their arsenal.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "compounding-anger-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT151",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Compounding Anger",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "HNT151",
+      image: "HNT151",
+      
+      
+      print: "HNT151",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT151"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT151",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `This costs {r} less to play for each Draconic chain link you control.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Alexandra Malygina","Sam Yang"],
+    cardIdentifier: "cracked-bauble-yellow",
+    classes: [Class.Generic],
+    defaultImage: "HNT245",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Cracked Bauble",
+    printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "HNT245",
+      image: "HNT245",
+      
+      
+      print: "HNT245",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["ARC218","CRU195","ELE237","HNT245","HVY244","LGS083","LGS227","MON306","MST224","OUT238","ROS238","UPR224","WTR224"],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HeavyHitters,Release.Monarch,Release.Outsiders,Release.PartTheMistveil,Release.Promos,Release.Rosetta,Release.TalesOfAria,Release.TheHunted,Release.Uprising,Release.WelcomeToRathe],
+    specialImage: "HNT245",
+    subtypes: [],
+    types: [Type.Resource],
+    typeText: "Generic Resource",
+
+    
+    
+    
+    
+    
+    functionalText: `*(Cracked Bauble exists to support Booster Draft and sealed Deck formats. A player may add any number of Cracked Baubles to their deck. Typically, a player would only do this if they did not have enough legally playable cards to make a 30 card minimum deck.)*`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "cull-red",
     classes: [Class.Runeblade],
@@ -1626,6 +2548,574 @@ Each hero banishes a card from their hand.
   
   
   },{
+    artists: ["Brian Adriel"],
+    cardIdentifier: "cut-deep-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT128",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Cut Deep",
+    printings: [{
+        artists: ["Brian Adriel"],
+      
+      identifier: "HNT128",
+      image: "HNT128",
+      
+      
+      print: "HNT128",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT128"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT128",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Brian Adriel"],
+    cardIdentifier: "cut-deep-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "HNT129",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Cut Deep",
+    printings: [{
+        artists: ["Brian Adriel"],
+      
+      identifier: "HNT129",
+      image: "HNT129",
+      
+      
+      print: "HNT129",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT129"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT129",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Brian Adriel"],
+    cardIdentifier: "cut-deep-blue",
+    classes: [Class.Warrior],
+    defaultImage: "HNT130",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Cut Deep",
+    printings: [{
+        artists: ["Brian Adriel"],
+      
+      identifier: "HNT130",
+      image: "HNT130",
+      
+      
+      print: "HNT130",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT130"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT130",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "cut-from-the-same-cloth-red",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT202",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Cut from the Same Cloth",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "HNT202",
+      image: "HNT202",
+      
+      
+      print: "HNT202",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT202"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT202",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
+
+Your next dagger attack this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "cut-from-the-same-cloth-yellow",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT203",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Cut from the Same Cloth",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "HNT203",
+      image: "HNT203",
+      
+      
+      print: "HNT203",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT203"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT203",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
+
+Your next dagger attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "cut-from-the-same-cloth-blue",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT204",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Cut from the Same Cloth",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "HNT204",
+      image: "HNT204",
+      
+      
+      print: "HNT204",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT204"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT204",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
+
+Your next dagger attack this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "cut-through-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT176",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Cut Through",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "HNT176",
+      image: "HNT176",
+      
+      
+      print: "HNT176",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT176"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT176",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `If you've hit with a dagger this combat chain, this gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "cut-through-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT177",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Cut Through",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "HNT177",
+      image: "HNT177",
+      
+      
+      print: "HNT177",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT177"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT177",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `If you've hit with a dagger this combat chain, this gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "cut-through-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT178",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Cut Through",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "HNT178",
+      image: "HNT178",
+      
+      
+      print: "HNT178",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT178"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT178",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `If you've hit with a dagger this combat chain, this gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "danger-digits",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT173",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Taylor,Hero.Uzuri,Hero.Zen],
+    name: "Danger Digits",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "HNT173",
+      image: "HNT173",
+      
+      
+      print: "HNT173",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT173"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT173",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Attack Reaction** - Destroy this: Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "defang-the-dragon-red",
     classes: [Class.Assassin],
@@ -1682,8 +3172,117 @@ Each hero banishes a card from their hand.
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "demonstrate-devotion-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT059",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Demonstrate Devotion",
+    printings: [{
+        artists: ["Maerel Hibadita"],
+      
+      identifier: "HNT059",
+      image: "HNT059",
+      
+      
+      print: "HNT059",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT059"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT059",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this attacks a hero, create a Fealty token."`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "den-of-the-spider-red",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT214",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Den of the Spider",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT214",
+      image: "HNT214",
+      
+      
+      print: "HNT214",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT214"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT214",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Warrior Action Defense Reaction - Trap",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this defends an attack with {p} greater than its base, **mark** the attacking hero.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["MJ Fetesio"],
     cardIdentifier: "devotion-never-dies-red",
     classes: [Class.Ninja],
@@ -1727,6 +3326,287 @@ Each hero banishes a card from their hand.
     keywords: [Keyword.GoAgain],
     
     
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "diced-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT119",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Diced",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "HNT119",
+      image: "HNT119",
+      
+      
+      print: "HNT119",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT119"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT119",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +1{p}.
+
+Your next dagger attack this turn gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "diced-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "HNT120",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Diced",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "HNT120",
+      image: "HNT120",
+      
+      
+      print: "HNT120",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT120"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT120",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +1{p}.
+
+Your next dagger attack this turn gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "diced-blue",
+    classes: [Class.Warrior],
+    defaultImage: "HNT121",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Diced",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "HNT121",
+      image: "HNT121",
+      
+      
+      print: "HNT121",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT121"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT121",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +1{p}.
+
+Your next dagger attack this turn gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Wisnu Tan"],
+    cardIdentifier: "display-loyalty-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT060",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Display Loyalty",
+    printings: [{
+        artists: ["Wisnu Tan"],
+      
+      identifier: "HNT060",
+      image: "HNT060",
+      
+      
+      print: "HNT060",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT060"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT060",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this attacks a hero, create a Fealty token."`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["YDZ"],
+    cardIdentifier: "douse-in-runeblood-red",
+    classes: [Class.Runeblade],
+    defaultImage: "HNT254",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Douse in Runeblood",
+    printings: [{
+        artists: ["YDZ"],
+      
+      identifier: "HNT254",
+      image: "HNT254",
+      isExpansionSlot: true,
+      
+      print: "HNT254",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT254"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT254",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks, create Runechant tokens equal to the number of non-attack action cards you've played this turn. If 3 or more Runechants are created this way, this gets **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
     
     pitch: 1,
     power: 4,
@@ -1905,7 +3785,8 @@ Each hero banishes a card from their hand.
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mario Wibisono"],
     cardIdentifier: "dragonscaler-flight-path",
     classes: [Class.NotClassed],
@@ -2022,6 +3903,120 @@ Gain {r}. Draw a card.`,
     
     pitch: 1,
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "dual-threat-yellow",
+    classes: [Class.Generic],
+    defaultImage: "HNT223",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Dual Threat",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "HNT223",
+      image: "HNT223",
+      
+      
+      print: "HNT223",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT223"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT223",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you've attacked with a weapon this turn, the next attack action card you play this turn gets +3{p}.
+
+If you've attacked with an attack action card this turn, your next weapon attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "dust-runner-outlaw-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT066",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Dust Runner Outlaw",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "HNT066",
+      image: "HNT066",
+      
+      
+      print: "HNT066",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAI018","HNT066","UPR066"],
+    sets: [Release.FaiBlitzDeck,Release.TheHunted,Release.Uprising],
+    specialImage: "HNT066",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 4,
     
     
     
@@ -2542,6 +4537,177 @@ Daggers you control get +1{p} and you may attack with each of them an additional
   
   
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "fire-tenet-strike-first-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT083",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Fire Tenet: Strike First",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "HNT083",
+      image: "HNT083",
+      
+      
+      print: "HNT083",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT083"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT083",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, your next Draconic attack this combat chain gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "fire-tenet-strike-first-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "HNT084",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Fire Tenet: Strike First",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "HNT084",
+      image: "HNT084",
+      
+      
+      print: "HNT084",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT084"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT084",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, your next Draconic attack this combat chain gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "fire-tenet-strike-first-blue",
+    classes: [Class.Ninja],
+    defaultImage: "HNT085",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Fire Tenet: Strike First",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "HNT085",
+      image: "HNT085",
+      
+      
+      print: "HNT085",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT085"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT085",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, your next Draconic attack this combat chain gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Andrew Chou"],
     cardIdentifier: "flurry-stance-red",
     classes: [Class.Warrior],
@@ -2823,6 +4989,682 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
   
   
   },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "grow-claws-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT086",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Grow Claws",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "HNT086",
+      image: "HNT086",
+      
+      
+      print: "HNT086",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT086"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT086",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `If a Draconic attack was the last attack this combat chain, this gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "grow-claws-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "HNT087",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Grow Claws",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "HNT087",
+      image: "HNT087",
+      
+      
+      print: "HNT087",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT087"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT087",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `If a Draconic attack was the last attack this combat chain, this gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "grow-claws-blue",
+    classes: [Class.Ninja],
+    defaultImage: "HNT088",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Grow Claws",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "HNT088",
+      image: "HNT088",
+      
+      
+      print: "HNT088",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT088"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT088",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `If a Draconic attack was the last attack this combat chain, this gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "grow-wings-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT089",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Grow Wings",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "HNT089",
+      image: "HNT089",
+      
+      
+      print: "HNT089",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT089"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT089",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If a Draconic attack was the last attack this combat chain, this gets **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "grow-wings-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "HNT090",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Grow Wings",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "HNT090",
+      image: "HNT090",
+      
+      
+      print: "HNT090",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT090"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT090",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If a Draconic attack was the last attack this combat chain, this gets **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "grow-wings-blue",
+    classes: [Class.Ninja],
+    defaultImage: "HNT091",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Grow Wings",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "HNT091",
+      image: "HNT091",
+      
+      
+      print: "HNT091",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT091"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT091",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If a Draconic attack was the last attack this combat chain, this gets **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "hand-of-vengeance",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT146",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis,Hero.Taylor],
+    name: "Hand of Vengeance",
+    printings: [{
+        artists: ["Shen Fei"],
+      
+      identifier: "HNT146",
+      image: "HNT146",
+      
+      
+      print: "HNT146",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT146"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT146",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Draconic Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Attack Reaction** - Destroy this: Target attack that is attacking Arakni gets +1{p}.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "heart-of-vengeance",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT145",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis,Hero.Taylor],
+    name: "Heart of Vengeance",
+    printings: [{
+        artists: ["Shen Fei"],
+      
+      identifier: "HNT145",
+      image: "HNT145",
+      
+      
+      print: "HNT145",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT145"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT145",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Draconic Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Instant** - Destroy this: Your next attack this turn that targets Arakni costs {r} less to play or activate.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "hot-on-their-heels-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT067",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Hot on Their Heels",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "HNT067",
+      image: "HNT067",
+      
+      
+      print: "HNT067",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT067"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT067",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this hits a hero, **mark** them."`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "hunt-a-killer-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT131",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Hunt a Killer",
+    printings: [{
+        artists: ["Reza Afshar"],
+      
+      identifier: "HNT131",
+      image: "HNT131",
+      
+      
+      print: "HNT131",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT131"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT131",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +4{p} and "When this hits a hero, **mark** them."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "hunt-a-killer-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "HNT132",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Hunt a Killer",
+    printings: [{
+        artists: ["Reza Afshar"],
+      
+      identifier: "HNT132",
+      image: "HNT132",
+      
+      
+      print: "HNT132",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT132"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT132",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +3{p} and "When this hits a hero, **mark** them."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "hunt-a-killer-blue",
+    classes: [Class.Warrior],
+    defaultImage: "HNT133",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Hunt a Killer",
+    printings: [{
+        artists: ["Reza Afshar"],
+      
+      identifier: "HNT133",
+      image: "HNT133",
+      
+      
+      print: "HNT133",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT133"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT133",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +2{p} and "When this hits a hero, **mark** them."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "hunt-the-hunter-red",
     classes: [Class.NotClassed],
@@ -3005,6 +5847,61 @@ Target dagger attack gets +4{p}.`,
   
   
   },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "hunted-or-hunter-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT052",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Hunted or Hunter",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "HNT052",
+      image: "HNT052",
+      
+      
+      print: "HNT052",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT052"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT052",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin Defense Reaction - Trap",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this defends and the attacking hero has played or activated an attack reaction this chain link, they lose 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hunters-klaive",
     classes: [Class.Assassin],
@@ -3132,6 +6029,63 @@ When this hits a hero, **mark** them.
   
   
   },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "imperial-intent-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT109",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Imperial Intent",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "HNT109",
+      image: "HNT109",
+      
+      
+      print: "HNT109",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT109"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT109",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `This costs {r} less to play for each Draconic chain link you control.
+
+Target dagger attack gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
     artists: ["Milivoj Ćeran"],
     cardIdentifier: "imperial-seal-of-command-red",
     classes: [Class.Generic],
@@ -3177,6 +6131,171 @@ When this hits a hero, **mark** them.
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "incision-red",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT205",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Incision",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "HNT205",
+      image: "HNT205",
+      
+      
+      print: "HNT205",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT205"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT205",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target dagger attack gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "incision-yellow",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT206",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Incision",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "HNT206",
+      image: "HNT206",
+      
+      
+      print: "HNT206",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT206"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT206",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target dagger attack gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "incision-blue",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT207",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Incision",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "HNT207",
+      image: "HNT207",
+      
+      
+      print: "HNT207",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT207"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT207",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target dagger attack gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
     
     
     
@@ -3243,8 +6362,7 @@ When this hits a hero, **mark** them.
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "kabuto-of-imperial-authority",
     classes: [Class.Warrior],
@@ -3381,6 +6499,87 @@ When this hits a hero, they lose 1{h}.`,
   
   
   },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "knife-through-butter-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT134",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Knife Through Butter",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT134",
+      image: "HNT134",
+      
+      
+      print: "HNT134",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT135",
+      image: "HNT135",
+      
+      
+      print: "HNT135",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT136",
+      image: "HNT136",
+      
+      
+      print: "HNT136",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT134","HNT135","HNT136"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT134",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +4{p}.
+
+Whenever you attack a **marked** hero this turn, the attack gets **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Widya Wang"],
     cardIdentifier: "kunai-of-retribution",
     classes: [Class.Ninja],
@@ -3425,6 +6624,116 @@ When this hits a hero, they lose 1{h}.`,
     
     
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "lair-of-the-spider-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT191",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Lair of the Spider",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "HNT191",
+      image: "HNT191",
+      
+      
+      print: "HNT191",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT191"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT191",
+    subtypes: [Subtype.Trap],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin / Ninja Action Defense Reaction - Trap",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this defends an attack with **go again**, **mark** the attacking hero.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "lava-vein-loyalty-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT068",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Lava Vein Loyalty",
+    printings: [{
+        artists: ["Maerel Hibadita"],
+      
+      identifier: "HNT068",
+      image: "HNT068",
+      
+      
+      print: "HNT068",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAI015","HNT068","UPR069"],
+    sets: [Release.FaiBlitzDeck,Release.TheHunted,Release.Uprising],
+    specialImage: "HNT068",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you control 2 or more Draconic chain links, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
     
     
     
@@ -3481,6 +6790,226 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "leap-frog-gloves",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT171",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Taylor,Hero.Uzuri,Hero.Zen],
+    name: "Leap Frog Gloves",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "HNT171",
+      image: "HNT171",
+      
+      
+      print: "HNT171",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT171"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT171",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "leap-frog-leggings",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT172",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Taylor,Hero.Uzuri,Hero.Zen],
+    name: "Leap Frog Leggings",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "HNT172",
+      image: "HNT172",
+      
+      
+      print: "HNT172",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT172"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT172",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Brian Madya Narendra"],
+    cardIdentifier: "leap-frog-slime-skin",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT170",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Taylor,Hero.Uzuri,Hero.Zen],
+    name: "Leap Frog Slime Skin",
+    printings: [{
+        artists: ["Brian Madya Narendra"],
+      
+      identifier: "HNT170",
+      image: "HNT170",
+      
+      
+      print: "HNT170",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT170"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT170",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Bramasta Aji"],
+    cardIdentifier: "leap-frog-vocal-sac",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT169",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Taylor,Hero.Uzuri,Hero.Zen],
+    name: "Leap Frog Vocal Sac",
+    printings: [{
+        artists: ["Bramasta Aji"],
+      
+      identifier: "HNT169",
+      image: "HNT169",
+      
+      
+      print: "HNT169",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT169"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT169",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Assassin / Ninja Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
     
     
     
@@ -3607,6 +7136,61 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     pitch: 1,
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "march-of-loyalty-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT153",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "March of Loyalty",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "HNT153",
+      image: "HNT153",
+      
+      
+      print: "HNT153",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT153"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT153",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you've created a Fealty token this turn, this gets **go again**`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
     
     
     
@@ -3902,7 +7486,8 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Saad Irfan"],
     cardIdentifier: "mark-of-the-funnel-web-blue",
     classes: [Class.Assassin],
@@ -4016,6 +7601,232 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     
     
     
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "mark-the-prey-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT038",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Mark the Prey",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "HNT038",
+      image: "HNT038",
+      
+      
+      print: "HNT038",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT038"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT038",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this hits a hero, **mark** them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "mark-the-prey-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "HNT039",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Mark the Prey",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "HNT039",
+      image: "HNT039",
+      
+      
+      print: "HNT039",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT039"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT039",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this hits a hero, **mark** them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "mark-the-prey-blue",
+    classes: [Class.Assassin],
+    defaultImage: "HNT040",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Mark the Prey",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "HNT040",
+      image: "HNT040",
+      
+      
+      print: "HNT040",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT040"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT040",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this hits a hero, **mark** them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "mark-with-magma-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT069",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Mark with Magma",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "HNT069",
+      image: "HNT069",
+      
+      
+      print: "HNT069",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT069"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT069",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If you control 2 or more Draconic chain links, this gets **go again** and "When this hits a hero, **mark** them."`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
   
   
   },{
@@ -4140,6 +7951,177 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     
     
     specializations: [Hero.Arakni],
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "misfire-dampener",
+    classes: [Class.Mechanologist],
+    defaultImage: "HNT250",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Taylor,Hero.Teklovossen],
+    name: "Misfire Dampener",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "HNT250",
+      image: "HNT250",
+      isExpansionSlot: true,
+      
+      print: "HNT250",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT250"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT250",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've **boosted** this turn, instead prevent the next 2.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    meta: [Meta.Expansion],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "nip-at-the-heels-blue",
+    classes: [Class.Generic],
+    defaultImage: "HNT239",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Nip at the Heels",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "HNT239",
+      image: "HNT239",
+      
+      
+      print: "HNT239",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT239"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT239",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Generic Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target attack with 3 or less base {p} gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "null-time-zone-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "HNT251",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Teklovossen],
+    name: "Null Time Zone",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "HNT251",
+      image: "HNT251",
+      isExpansionSlot: true,
+      
+      print: "HNT251",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT251"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT251",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Item",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When this enters the arena, name a card. The named card can't be pitched or played from hand while this is in the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    meta: [Meta.Expansion],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
     
   
   
@@ -4505,6 +8487,922 @@ If the defending hero is **marked**, this gets +1{p}.
   
   
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "pain-in-the-backside-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT174",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Pain in the Backside",
+    printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "HNT174",
+      image: "HNT174",
+      
+      
+      print: "HNT174",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT174"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT174",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, target dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "path-of-vengeance",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT147",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis,Hero.Taylor],
+    name: "Path of Vengeance",
+    printings: [{
+        artists: ["Shen Fei"],
+      
+      identifier: "HNT147",
+      image: "HNT147",
+      
+      
+      print: "HNT147",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT147"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT147",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Draconic Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Attack Reaction** - Destroy this: Target attack that is attacking Arakni gets **go again**.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "perforate-yellow",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT197",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Perforate",
+    printings: [{
+        artists: ["Tanapon Wachirakul"],
+      
+      identifier: "HNT197",
+      image: "HNT197",
+      
+      
+      print: "HNT197",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT197"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT197",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may attack with target dagger an additional time and its attacks cost you {r} less to activate this turn.
+
+Draw a card.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "pick-up-the-point-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT182",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Pick Up the Point",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "HNT182",
+      image: "HNT182",
+      
+      
+      print: "HNT182",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT182"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT182",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may **retrieve** a dagger from your graveyard.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "pick-up-the-point-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT183",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Pick Up the Point",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "HNT183",
+      image: "HNT183",
+      
+      
+      print: "HNT183",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT183"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT183",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may **retrieve** a dagger from your graveyard.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "pick-up-the-point-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT184",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Pick Up the Point",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "HNT184",
+      image: "HNT184",
+      
+      
+      print: "HNT184",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT184"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT184",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may **retrieve** a dagger from your graveyard.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "pledge-fealty-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT164",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Pledge Fealty",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "HNT164",
+      image: "HNT164",
+      
+      
+      print: "HNT164",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT164"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT164",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Draconic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Create a Fealty token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "plunge-the-prospect-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT041",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Plunge the Prospect",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "HNT041",
+      image: "HNT041",
+      
+      
+      print: "HNT041",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT041"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT041",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+If this is attacking a **marked** hero, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "plunge-the-prospect-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "HNT042",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Plunge the Prospect",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "HNT042",
+      image: "HNT042",
+      
+      
+      print: "HNT042",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT042"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT042",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+If this is attacking a **marked** hero, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "plunge-the-prospect-blue",
+    classes: [Class.Assassin],
+    defaultImage: "HNT043",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Plunge the Prospect",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "HNT043",
+      image: "HNT043",
+      
+      
+      print: "HNT043",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT043"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT043",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+If this is attacking a **marked** hero, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "point-of-engagement-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT137",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Point of Engagement",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "HNT137",
+      image: "HNT137",
+      
+      
+      print: "HNT137",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT137"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT137",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +3{p}.
+
+Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "point-of-engagement-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "HNT138",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Point of Engagement",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "HNT138",
+      image: "HNT138",
+      
+      
+      print: "HNT138",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT138"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT138",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +2{p}.
+
+Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "point-of-engagement-blue",
+    classes: [Class.Warrior],
+    defaultImage: "HNT139",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Point of Engagement",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "HNT139",
+      image: "HNT139",
+      
+      
+      print: "HNT139",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT139"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT139",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +1{p}.
+
+Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "poisoned-blade-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT185",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Poisoned Blade",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "HNT185",
+      image: "HNT185",
+      
+      
+      print: "HNT185",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT185"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT185",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Whenever a dagger you own hits a hero this combat chain, they lose 1{h}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "poisoned-blade-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT186",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Poisoned Blade",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "HNT186",
+      image: "HNT186",
+      
+      
+      print: "HNT186",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT186"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT186",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Whenever a dagger you own hits a hero this combat chain, they lose 1{h}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "poisoned-blade-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT187",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Poisoned Blade",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "HNT187",
+      image: "HNT187",
+      
+      
+      print: "HNT187",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT187"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT187",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Whenever a dagger you own hits a hero this combat chain, they lose 1{h}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "power-stance-blue",
     classes: [Class.Warrior],
@@ -4857,8 +9755,7 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Daniel Jiménez"],
     cardIdentifier: "public-bounty-blue",
     classes: [Class.Generic],
@@ -4918,6 +9815,171 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
   
   
   },{
+    artists: ["Reza Afshar"],
+    cardIdentifier: "pursue-to-the-edge-of-oblivion-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT224",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Pursue to the Edge of Oblivion",
+    printings: [{
+        artists: ["Reza Afshar"],
+      
+      identifier: "HNT224",
+      image: "HNT224",
+      
+      
+      print: "HNT224",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT224"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT224",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, **mark** them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Mark],
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "pursue-to-the-pits-of-despair-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT225",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Pursue to the Pits of Despair",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "HNT225",
+      image: "HNT225",
+      
+      
+      print: "HNT225",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT225"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT225",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, **mark** them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Mark],
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "put-in-context-blue",
+    classes: [Class.Generic],
+    defaultImage: "HNT238",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Put in Context",
+    printings: [{
+        artists: ["Maerel Hibadita"],
+      
+      identifier: "HNT238",
+      image: "HNT238",
+      
+      
+      print: "HNT238",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT238"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT238",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Generic Defense Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `This can only defend an attack with 3 or less base {p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "quickdodge-flexors",
     classes: [Class.Generic],
@@ -4963,6 +10025,173 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "rake-over-the-coals-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT156",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Rake Over the Coals",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "HNT156",
+      image: "HNT156",
+      
+      
+      print: "HNT156",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT156"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT156",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Draconic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Draconic attacks get +1{p} this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "razor-reflex-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT227",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Razor Reflex",
+    printings: [{
+        artists: ["Adolfo Navarro"],
+      
+      identifier: "HNT227",
+      image: "HNT227",
+      
+      
+      print: "HNT227",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Rare],
+    rarity: Rarity.Common,
+    setIdentifiers: ["1HP402","HNT227","TEA016","WTR209"],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.TheHunted,Release.WelcomeToRathe],
+    specialImage: "HNT227",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Generic Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Choose 1;
+- Target dagger or sword weapon attack gets +3{p}.
+- Target attack action card with cost 1 or less gets +3{p} and "When this hits, this gets **go again**."`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "razors-edge-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT050",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Razor's Edge",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "HNT050",
+      image: "HNT050",
+      
+      
+      print: "HNT050",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["ARA016","HNT050","OUT042"],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.TheHunted],
+    specialImage: "HNT050",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target attack action card with **stealth** gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
     
     
     
@@ -5135,6 +10364,226 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     pitch: 3,
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "red-alert-boots",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT195",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Taylor,Hero.Uzuri],
+    name: "Red Alert Boots",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "HNT195",
+      image: "HNT195",
+      
+      
+      print: "HNT195",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT195"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT195",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Assassin / Warrior Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "red-alert-gloves",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT194",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Taylor,Hero.Uzuri],
+    name: "Red Alert Gloves",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "HNT194",
+      image: "HNT194",
+      
+      
+      print: "HNT194",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT194"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT194",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Assassin / Warrior Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "red-alert-vest",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT193",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Taylor,Hero.Uzuri],
+    name: "Red Alert Vest",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "HNT193",
+      image: "HNT193",
+      
+      
+      print: "HNT193",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT193"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT193",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Assassin / Warrior Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "red-alert-visor",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT192",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Taylor,Hero.Uzuri],
+    name: "Red Alert Visor",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "HNT192",
+      image: "HNT192",
+      
+      
+      print: "HNT192",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT192"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT192",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Assassin / Warrior Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
     
     
     
@@ -5376,6 +10825,690 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
   
   
   },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "ronin-renegade-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT070",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Fai],
+    name: "Ronin Renegade",
+    printings: [{
+        artists: ["Phu Thieu"],
+      
+      identifier: "HNT070",
+      image: "HNT070",
+      
+      
+      print: "HNT070",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAI019","HNT070","UPR078"],
+    sets: [Release.FaiBlitzDeck,Release.TheHunted,Release.Uprising],
+    specialImage: "HNT070",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Draconic Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "rotten-remains-blue",
+    classes: [Class.Generic],
+    defaultImage: "HNT221",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Rotten Remains",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "HNT221",
+      image: "HNT221",
+      
+      
+      print: "HNT221",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT221"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT221",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may banish a card with 1{p} from each hero's graveyard. If you do, this gets +1{p}, then repeat this process.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "savor-bloodshed-red",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT198",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Savor Bloodshed",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "HNT198",
+      image: "HNT198",
+      
+      
+      print: "HNT198",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT198"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT198",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You next dagger attack this turn gets +4{p}.
+
+The next time you hit a **marked** hero with a dagger this turn, draw a card.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "scalding-iron-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT110",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Scalding Iron",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "HNT110",
+      image: "HNT110",
+      
+      
+      print: "HNT110",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT110"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT110",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +X{p}, where X is the number of Draconic chain links you control.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "scar-tissue-red",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT208",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Scar Tissue",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "HNT208",
+      image: "HNT208",
+      
+      
+      print: "HNT208",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT208"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT208",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +3{p} and "When this hits a hero, **mark** them."`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "scar-tissue-yellow",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT209",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Scar Tissue",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "HNT209",
+      image: "HNT209",
+      
+      
+      print: "HNT209",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT209"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT209",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +2{p} and "When this hits a hero, **mark** them."`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards4: Card[] =  [{
+    artists: ["SanSan"],
+    cardIdentifier: "scar-tissue-blue",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT210",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Scar Tissue",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "HNT210",
+      image: "HNT210",
+      
+      
+      print: "HNT210",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT210"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT210",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +1{p} and "When this hits a hero, **mark** them."`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Dominik Mayer"],
+    cardIdentifier: "schism-of-chaos-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT000",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Crackni,Hero.Slippy],
+    name: "Schism of Chaos",
+    printings: [{
+        artists: ["Dominik Mayer"],
+      foiling: Foiling.C,
+      identifier: "HNT000",
+      image: "HNT000",
+      
+      
+      print: "HNT000-Cold",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Dominik Mayer"],
+      foiling: Foiling.R,
+      identifier: "HNT000",
+      image: "HNT000",
+      
+      
+      print: "HNT000-Rainbow",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["HNT000"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT000",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Chaos Resource - Gem",
+
+    
+    
+    
+    
+    
+    functionalText: `**Legendary**
+
+When this is pitched, each hero shuffles, then puts the top card of their deck facedown into their arsenal.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Chaos],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "scuttle-the-canal-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT047",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Scuttle the Canal",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "HNT047",
+      image: "HNT047",
+      
+      
+      print: "HNT047",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT047"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT047",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this attacks a **marked** hero, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "scuttle-the-canal-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "HNT048",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Scuttle the Canal",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "HNT048",
+      image: "HNT048",
+      
+      
+      print: "HNT048",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT048"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT048",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this attacks a **marked** hero, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "scuttle-the-canal-blue",
+    classes: [Class.Assassin],
+    defaultImage: "HNT049",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Scuttle the Canal",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "HNT049",
+      image: "HNT049",
+      
+      
+      print: "HNT049",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT049"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT049",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this attacks a **marked** hero, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "searing-gaze-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT111",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Searing Gaze",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "HNT111",
+      image: "HNT111",
+      
+      
+      print: "HNT111",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT111"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT111",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, it gets "When this hits a hero, **mark** them."`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
     artists: ["Ina Wong"],
     cardIdentifier: "sharpened-senses-yellow",
     classes: [Class.Warrior],
@@ -5432,6 +11565,448 @@ At the beginning of your end phase, destroy this.`,
     
     
     
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "shelter-from-the-storm-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT222",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Shelter from the Storm",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "HNT222",
+      image: "HNT222",
+      
+      
+      print: "HNT222",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT222"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT222",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Generic Defense Reaction",
+
+    
+    
+    cost: 0,
+    defense: 4,
+    
+    functionalText: `**Instant** - Discard this: The next 3 times you would be dealt damage this turn, prevent 1 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Adolfo Navarro","Asur Misoa"],
+    cardIdentifier: "sigil-of-solace-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT231",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Sigil of Solace",
+    printings: [{
+        artists: ["Adolfo Navarro"],
+      
+      identifier: "HNT231",
+      image: "HNT231",
+      
+      
+      print: "HNT231",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["1HP387","DRO026","FAB136","FAB178","HNT231","TCC059","WTR173"],
+    sets: [Release.DromaiBlitzDeck,Release.HistoryPack1,Release.Promos,Release.RoundTheTable,Release.TheHunted,Release.WelcomeToRathe],
+    specialImage: "HNT231",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Gain 3{h}`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "silver-talons-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT080",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Silver Talons",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "HNT080",
+      image: "HNT080",
+      
+      
+      print: "HNT080",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT080"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT080",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "silver-talons-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "HNT081",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Silver Talons",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "HNT081",
+      image: "HNT081",
+      
+      
+      print: "HNT081",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT081"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT081",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "silver-talons-blue",
+    classes: [Class.Ninja],
+    defaultImage: "HNT082",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Silver Talons",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "HNT082",
+      image: "HNT082",
+      
+      
+      print: "HNT082",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT082"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT082",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Andrew Chou"],
+    cardIdentifier: "sisters-of-fire-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT112",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Sisters of Fire",
+    printings: [{
+        artists: ["Andrew Chou"],
+      
+      identifier: "HNT112",
+      image: "HNT112",
+      
+      
+      print: "HNT112",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT112"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT112",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Play this only if you control 2 or more Draconic chain links.
+
+Target dagger attack gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Firaz M. Rasyid"],
+    cardIdentifier: "sizzling-steel-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT113",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Sizzling Steel",
+    printings: [{
+        artists: ["Firaz M. Rasyid"],
+      
+      identifier: "HNT113",
+      image: "HNT113",
+      
+      
+      print: "HNT113",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT113"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT113",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, instead it gets +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "smoke-out-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT162",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Smoke Out",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "HNT162",
+      image: "HNT162",
+      
+      
+      print: "HNT162",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT162"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT162",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Draconic Defense Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this defends a red card, **mark** the attacking hero.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
   
   
   },{
@@ -5544,6 +12119,287 @@ At the beginning of your end phase, destroy this.`,
     
     
     talents: [Talent.Chaos],
+  
+  
+  },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "stabbing-pain-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT114",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Stabbing Pain",
+    printings: [{
+        artists: ["Adolfo Navarro"],
+      
+      identifier: "HNT114",
+      image: "HNT114",
+      
+      
+      print: "HNT114",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT114"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT114",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, it gets "When this hits a hero, **mark** them."`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "stains-of-the-redback-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT023",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Stains of the Redback",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "HNT023",
+      image: "HNT023",
+      
+      
+      print: "HNT023",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT023"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT023",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If the defending hero is **marked**, this costs {r} less to play.
+
+Target attack with **stealth** gets +3{p} and **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "stains-of-the-redback-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "HNT024",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Stains of the Redback",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "HNT024",
+      image: "HNT024",
+      
+      
+      print: "HNT024",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT024"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT024",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If the defending hero is **marked**, this costs {r} less to play.
+
+Target attack with **stealth** gets +2{p} and **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "stains-of-the-redback-blue",
+    classes: [Class.Assassin],
+    defaultImage: "HNT025",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Stains of the Redback",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "HNT025",
+      image: "HNT025",
+      
+      
+      print: "HNT025",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT025"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT025",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If the defending hero is **marked**, this costs {r} less to play.
+
+Target attack with **stealth** gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "starting-point",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT196",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Taylor,Hero.Uzuri],
+    name: "Starting Point",
+    printings: [{
+        artists: ["Lizhe Liang"],
+      
+      identifier: "HNT196",
+      image: "HNT196",
+      
+      
+      print: "HNT196",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT196"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT196",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Assassin / Warrior Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Attack Reaction** - Destroy this: Target attack gets **go again**. Activate this only if you've played a card or activated an ability this reaction step.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -5889,6 +12745,83 @@ At the beginning of your end phase, destroy this.`,
   
   
   },{
+    artists: ["Galih M"],
+    cardIdentifier: "take-a-stab-red",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT211",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Take a Stab",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "HNT211",
+      image: "HNT211",
+      
+      
+      print: "HNT211",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Galih M"],
+      
+      identifier: "HNT212",
+      image: "HNT212",
+      
+      
+      print: "HNT212",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Galih M"],
+      
+      identifier: "HNT213",
+      image: "HNT213",
+      
+      
+      print: "HNT213",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT211","HNT212","HNT213"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT211",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +3{p} and "When this hits a **marked** hero, you may attack with it an additional time this turn."`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "take-up-the-mantle-yellow",
     classes: [Class.Assassin],
@@ -6068,6 +13001,788 @@ At the beginning of your end phase, destroy this.`,
   
   
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "throw-dagger-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT175",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Throw Dagger",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "HNT175",
+      image: "HNT175",
+      
+      
+      print: "HNT175",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT175"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT175",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Ninja Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit and you draw a card. Destroy the dagger.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "throw-yourself-at-them-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT188",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Throw Yourself at Them",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "HNT188",
+      image: "HNT188",
+      
+      
+      print: "HNT188",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT188"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT188",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "throw-yourself-at-them-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT189",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Throw Yourself at Them",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "HNT189",
+      image: "HNT189",
+      
+      
+      print: "HNT189",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT189"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT189",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "throw-yourself-at-them-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT190",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Throw Yourself at Them",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "HNT190",
+      image: "HNT190",
+      
+      
+      print: "HNT190",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT190"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT190",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "tip-off-red",
+    classes: [Class.Generic],
+    defaultImage: "HNT232",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Tip-Off",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT232",
+      image: "HNT232",
+      
+      
+      print: "HNT232",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT232"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT232",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `**Instant** - Discard this: **Mark** target opposing hero.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "tip-off-yellow",
+    classes: [Class.Generic],
+    defaultImage: "HNT233",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Tip-Off",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT233",
+      image: "HNT233",
+      
+      
+      print: "HNT233",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT233"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT233",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `**Instant** - Discard this: **Mark** target opposing hero.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "tip-off-blue",
+    classes: [Class.Generic],
+    defaultImage: "HNT234",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Tip-Off",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT234",
+      image: "HNT234",
+      
+      
+      print: "HNT234",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT234"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT234",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `**Instant** - Discard this: **Mark** target opposing hero.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "to-the-point-red",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT199",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "To the Point",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "HNT199",
+      image: "HNT199",
+      
+      
+      print: "HNT199",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT199"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT199",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +3{p}. If the defending hero is **marked**, instead it gets +4{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "to-the-point-yellow",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT200",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "To the Point",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "HNT200",
+      image: "HNT200",
+      
+      
+      print: "HNT200",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT200"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT200",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +2{p}. If the defending hero is **marked**, instead it gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "to-the-point-blue",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT201",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "To the Point",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "HNT201",
+      image: "HNT201",
+      
+      
+      print: "HNT201",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT201"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT201",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +1{p}. If the defending hero is **marked**, instead it gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["YDZ"],
+    cardIdentifier: "tooth-of-the-dragon-red",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT166",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Tooth of the Dragon",
+    printings: [{
+        artists: ["YDZ"],
+      
+      identifier: "HNT166",
+      image: "HNT166",
+      
+      
+      print: "HNT166",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT166"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT166",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Draconic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Your next Draconic attack this turn gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "trap-and-release-red",
+    classes: [Class.Ninja],
+    defaultImage: "HNT095",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Trap and Release",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "HNT095",
+      image: "HNT095",
+      
+      
+      print: "HNT095",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT095"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT095",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, **mark** them.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "trap-and-release-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "HNT096",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Trap and Release",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "HNT096",
+      image: "HNT096",
+      
+      
+      print: "HNT096",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT096"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT096",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, **mark** them.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "trap-and-release-blue",
+    classes: [Class.Ninja],
+    defaultImage: "HNT097",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Trap and Release",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "HNT097",
+      image: "HNT097",
+      
+      
+      print: "HNT097",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT097"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT097",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, **mark** them.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Vito Febrianno"],
     cardIdentifier: "tremorshield-sabatons",
     classes: [Class.Guardian],
@@ -6113,6 +13828,234 @@ At the beginning of your end phase, destroy this.`,
     meta: [Meta.Expansion],
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "trot-along-blue",
+    classes: [Class.Generic],
+    defaultImage: "HNT240",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Trot Along",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "HNT240",
+      image: "HNT240",
+      
+      
+      print: "HNT240",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT240"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT240",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next attack with 3 or less base {p} this turn gets **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Igor Heras"],
+    cardIdentifier: "twist-and-turn-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT122",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Twist and Turn",
+    printings: [{
+        artists: ["Igor Heras"],
+      
+      identifier: "HNT122",
+      image: "HNT122",
+      
+      
+      print: "HNT122",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT122"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT122",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +4{p} and "When this hits, you may attack with it an additional time this turn."
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Igor Heras"],
+    cardIdentifier: "twist-and-turn-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "HNT123",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Twist and Turn",
+    printings: [{
+        artists: ["Igor Heras"],
+      
+      identifier: "HNT123",
+      image: "HNT123",
+      
+      
+      print: "HNT123",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT123"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT123",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +3{p} and "When this hits, you may attack with it an additional time this turn."
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Igor Heras"],
+    cardIdentifier: "twist-and-turn-blue",
+    classes: [Class.Warrior],
+    defaultImage: "HNT124",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Twist and Turn",
+    printings: [{
+        artists: ["Igor Heras"],
+      
+      identifier: "HNT124",
+      image: "HNT124",
+      
+      
+      print: "HNT124",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT124"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT124",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +2{p} and "When this hits, you may attack with it an additional time this turn."
+
+**Go again**`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
     
     
     
@@ -6239,6 +14182,240 @@ At the beginning of your end phase, destroy this.`,
   
   
   },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "up-sticks-and-run-red",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT179",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Up Sticks and Run",
+    printings: [{
+        artists: ["Adolfo Navarro"],
+      
+      identifier: "HNT179",
+      image: "HNT179",
+      
+      
+      print: "HNT179",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT179"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT179",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `You may **retrieve** a dagger from your graveyard.
+
+Your next dagger attack this turn gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "up-sticks-and-run-yellow",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT180",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Up Sticks and Run",
+    printings: [{
+        artists: ["Adolfo Navarro"],
+      
+      identifier: "HNT180",
+      image: "HNT180",
+      
+      
+      print: "HNT180",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT180"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT180",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `You may **retrieve** a dagger from your graveyard.
+
+Your next dagger attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Adolfo Navarro"],
+    cardIdentifier: "up-sticks-and-run-blue",
+    classes: [Class.Assassin,Class.Ninja],
+    defaultImage: "HNT181",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Benji,Hero.Cindra,Hero.Crackni,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Nuu,Hero.Slippy,Hero.Uzuri,Hero.Zen],
+    name: "Up Sticks and Run",
+    printings: [{
+        artists: ["Adolfo Navarro"],
+      
+      identifier: "HNT181",
+      image: "HNT181",
+      
+      
+      print: "HNT181",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT181"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT181",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Assassin / Ninja Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `You may **retrieve** a dagger from your graveyard.
+
+Your next dagger attack this turn gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Shen Fei"],
+    cardIdentifier: "vow-of-vengeance",
+    classes: [Class.NotClassed],
+    defaultImage: "HNT144",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis,Hero.Taylor],
+    name: "Vow of Vengeance",
+    printings: [{
+        artists: ["Shen Fei"],
+      
+      identifier: "HNT144",
+      image: "HNT144",
+      
+      
+      print: "HNT144",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT144"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT144",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Draconic Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Attack Reaction** - Destroy this: **Mark** target Arakni.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
     artists: ["Simon Dominic"],
     cardIdentifier: "war-cry-of-bellona-yellow",
     classes: [Class.Warrior],
@@ -6293,6 +14470,236 @@ At the beginning of your end phase, destroy this.`,
     
     
     talents: [Talent.Light],
+  
+  
+  },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "war-cry-of-themis-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "HNT257",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Prism],
+    name: "War Cry of Themis",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "HNT257",
+      image: "HNT257",
+      isExpansionSlot: true,
+      
+      print: "HNT257",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["HNT257"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT257",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Illusionist Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next angel attack this turn gets +4{p}.
+
+**Go again**
+
+**Instant** - Discard this, banish X cards from your soul: Turn X target cards in a banished zone face-down.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Expansion],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "whittle-from-bone-red",
+    classes: [Class.Assassin],
+    defaultImage: "HNT020",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Whittle from Bone",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT020",
+      image: "HNT020",
+      
+      
+      print: "HNT020",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT020"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT020",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "whittle-from-bone-yellow",
+    classes: [Class.Assassin],
+    defaultImage: "HNT021",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Whittle from Bone",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT021",
+      image: "HNT021",
+      
+      
+      print: "HNT021",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT021"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT021",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "whittle-from-bone-blue",
+    classes: [Class.Assassin],
+    defaultImage: "HNT022",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Whittle from Bone",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT022",
+      image: "HNT022",
+      
+      
+      print: "HNT022",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["HNT022"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT022",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{

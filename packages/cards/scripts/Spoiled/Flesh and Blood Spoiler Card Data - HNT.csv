@@ -1,5 +1,7 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Artists 3,Expansion Slot 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variations 4,Expansion Slot 4,Artists 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4,Rarity 5,Foiling 5,Art Variations 5,Artists 5,Flavor Text 5,Identifier 5,Image URL 5,TCGPlayer Product Id 5,TCGPlayer Url 5
-HNT000,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT000,HNT,Schism of Chaos,3,,,,,,,"Chaos, Resource, Gem",Legendary,,,,,,"**Legendary**
+
+When this is pitched, each hero shuffles, then puts the top card of their deck facedown into their arsenal.",Chaos Resource - Gem,,,,No,,F,C,,Dominik Mayer,,,HNT000,/HNT000.png,,,F,R,,Dominik Mayer,,,HNT000,/HNT000.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT001,HNT,"Arakni, Marionette",,,,,40,4,,"Chaos, Assassin, Hero",,,,,,,"Your attacks with **stealth** that are attacking a **marked** hero get +1{p} and ""When this hits, this gets **go again**.""
 
 At the beginning of your end phase, if an opponent is **marked**, you become a random Agent of Chaos.",Chaos Assassin Hero,,No,,No,,M,,,Isuardi Therianto,,,HNT001,/HNT001.png,,,V,C,FA,Isuardi Therianto,,,HNT001,/HNT001-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -64,12 +66,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
 HNT019,HNT,Bite,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Assassin Action - Attack,,,,No,,R,,,Raphael Pinna,,,HNT019,/HNT019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT020,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT021,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT021,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT022,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT022,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT023,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT023,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT024,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT024,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT025,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT025,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT020,HNT,Whittle from Bone,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a **marked** hero, equip a Graphene Chelicera token.",Assassin Action - Attack,,,,No,,R,,,Max Kostin,,,HNT020,/HNT020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT021,HNT,Whittle from Bone,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a **marked** hero, equip a Graphene Chelicera token.",Assassin Action - Attack,,,,No,,R,,,Max Kostin,,,HNT021,/HNT021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT022,HNT,Whittle from Bone,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a **marked** hero, equip a Graphene Chelicera token.",Assassin Action - Attack,,,,No,,R,,,Max Kostin,,,HNT022,/HNT022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT023,HNT,Stains of the Redback,1,1,,3,,,,"Assassin, Attack Reaction",,,,,,,"If the defending hero is **marked**, this costs {r} less to play.
+
+Target attack with **stealth** gets +3{p} and **go again**.",Assassin Attack Reaction,,,,No,,R,,,Nathaniel Himawan,,,HNT023,/HNT023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT024,HNT,Stains of the Redback,2,1,,3,,,,"Assassin, Attack Reaction",,,,,,,"If the defending hero is **marked**, this costs {r} less to play.
+
+Target attack with **stealth** gets +2{p} and **go again**.",Assassin Attack Reaction,,,,No,,R,,,Nathaniel Himawan,,,HNT024,/HNT024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT025,HNT,Stains of the Redback,3,1,,3,,,,"Assassin, Attack Reaction",,,,,,,"If the defending hero is **marked**, this costs {r} less to play.
+
+Target attack with **stealth** gets +1{p} and **go again**.",Assassin Attack Reaction,,,,No,,R,,,Nathaniel Himawan,,,HNT025,/HNT025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT026,HNT,Orb-Weaver Spinneret,1,0,,3,,,,"Assassin, Action",Go again,,,,,Stealth,"Equip a Graphene Chelicera token.
 
 Your next attack with **stealth** this turn gets +3{p}.
@@ -85,7 +99,9 @@ HNT028,HNT,Orb-Weaver Spinneret,3,0,,3,,,,"Assassin, Action",Go again,,,,,Stealt
 Your next attack with **stealth** this turn gets +1{p}.
 
 **Go again**",Assassin Action,,,,No,,R,,,SanSan,,,HNT028,/HNT028.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT029,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT029,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT029,HNT,Back Stab,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+Defense reaction cards can't be played this chain link.",Assassin Action - Attack,,,,,,C,,,Henrique Lindner,,,HNT029,/HNT029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT030,HNT,Defang the Dragon,1,0,3,3,,,,"Assassin, Action, Attack","Stealth, Contract",,,,,Mark,"**Stealth**
 
 **Contract** - You are contracted to hit a **marked** hero named Fang. Whenever you complete this contract, draw a card.",Assassin Action - Attack,,,,,,C,,,Carlos Cruchaga,,,HNT030,/HNT030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -110,12 +126,24 @@ When this hits a **marked** hero, banish a card in their arsenal.",Assassin Acti
 HNT037,HNT,Mark of the Funnel Web,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
 
 When this hits a **marked** hero, banish a card in their arsenal.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT037,/HNT037.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT038,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT038,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT039,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT039,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT040,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT041,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT041,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT042,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT042,/HNT042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT043,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT043,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT038,HNT,Mark the Prey,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a hero, **mark** them.",Assassin Action - Attack,,,,,,C,,,Kimberly Pantoni,,,HNT038,/HNT038.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT039,HNT,Mark the Prey,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a hero, **mark** them.",Assassin Action - Attack,,,,,,C,,,Kimberly Pantoni,,,HNT039,/HNT039.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT040,HNT,Mark the Prey,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this hits a hero, **mark** them.",Assassin Action - Attack,,,,,,C,,,Kimberly Pantoni,,,HNT040,/HNT040.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT041,HNT,Plunge the Prospect,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+If this is attacking a **marked** hero, this gets +1{p}.",Assassin Action - Attack,,,,,,C,,,Nikolay Moskvin,,,HNT041,/HNT041.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT042,HNT,Plunge the Prospect,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+If this is attacking a **marked** hero, this gets +1{p}.",Assassin Action - Attack,,,,,,C,,,Nikolay Moskvin,,,HNT042,/HNT042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT043,HNT,Plunge the Prospect,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+If this is attacking a **marked** hero, this gets +1{p}.",Assassin Action - Attack,,,,,,C,,,Nikolay Moskvin,,,HNT043,/HNT043.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT044,HNT,Reaper's Call,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,Instant,Mark,,,,"**Stealth**
 
 **Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT044,/HNT044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -125,14 +153,20 @@ HNT045,HNT,Reaper's Call,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,Instant,M
 HNT046,HNT,Reaper's Call,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,Instant,Mark,,,,"**Stealth**
 
 **Instant** - Discard this: **Mark** target opposing hero.",Assassin Action - Attack,,,,,,C,,,Saad Irfan,,,HNT046,/HNT046.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT047,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT047,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT048,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT048,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT049,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT049,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT050,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT050,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT047,HNT,Scuttle the Canal,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a **marked** hero, this gets **go again**.",Assassin Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,HNT047,/HNT047.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT048,HNT,Scuttle the Canal,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a **marked** hero, this gets **go again**.",Assassin Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,HNT048,/HNT048.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT049,HNT,Scuttle the Canal,3,0,1,3,,,,"Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+
+When this attacks a **marked** hero, this gets **go again**.",Assassin Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,HNT049,/HNT049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT050,HNT,Razor's Edge,1,0,,3,,,,"Assassin, Attack Reaction",,,,,,,Target attack action card with **stealth** gets +3{p}.,Assassin Attack Reaction,,,,,,C,,,Isuardi Therianto,,,HNT050,/HNT050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT051,HNT,Two Sides to the Blade,1,0,,3,,,,"Assassin, Attack Reaction",,,,,,,"Choose 1;
 - Target dagger attack gets +3{p}.
 - Target attack action card with **stealth** gets +3{p} and ""When this hits a hero, **mark** them.""",Assassin Attack Reaction,,,,,,C,,,Raphael Pinna,,,HNT051,/HNT051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT052,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT052,HNT,Hunted or Hunter,1,0,,3,,,,"Assassin, Defense Reaction, Trap",,,,,,,"When this defends and the attacking hero has played or activated an attack reaction this chain link, they lose 1{h}.",Assassin Defense Reaction - Trap,,,,,,C,,,Nailsen Ivanderlie,,,HNT052,/HNT052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT053,HNT,Graphene Chelicera,,,1,,,,,"Assassin, Token, Weapon, Dagger, 1H","Stealth, Go again",Once per Turn Action,Attack,,,Mark,"**Stealth**
 
 **Once per Turn Action** - {r}: **Attack**
@@ -153,8 +187,8 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
 HNT058,HNT,Ignite,1,0,2,2,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"When this attacks, the next Draconic card you play or activate this combat chain costs {r} less to play or activate.
 
 **Go again**",Draconic Ninja Action - Attack,,,,No,,M,,,Mario Wibisono,,,HNT058,/HNT058.png,,,R,R,EA,Mario Wibisono,,,HNT058,/HNT058-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT059,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT059,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT060,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT060,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT059,HNT,Demonstrate Devotion,1,1,4,2,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this attacks a hero, create a Fealty token.""",Draconic Ninja Action - Attack,,,,No,,R,,,Maerel Hibadita,,,HNT059,/HNT059.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT060,HNT,Display Loyalty,1,0,3,2,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this attacks a hero, create a Fealty token.""",Draconic Ninja Action - Attack,,,,No,,R,,,Wisnu Tan,,,HNT060,/HNT060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT061,HNT,Wrath of Retribution,1,3,3,3,,,,"Draconic, Ninja, Action, Attack","Legendary, Go again",,,,,,"**Legendary**
 
 This costs {r} less to play for each Draconic chain link you control.
@@ -162,15 +196,19 @@ This costs {r} less to play for each Draconic chain link you control.
 When this attacks, daggers you control get +1{p} and cost {r} less to activate this combat chain.
 
 **Go again**",Draconic Ninja Action - Attack,,,,No,,R,,,Mario Wibisono,,,HNT061,/HNT061.png,,,R,R,EA,Mario Wibisono,,,HNT061,/HNT061-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT062,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT062,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT063,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT063,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT062,HNT,Blood Drop,1,1,2,3,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"This costs {r} less to play for each Draconic chain link you control.
+
+**Go again**",Draconic Ninja Action - Attack,,,,,,C,,,Nikolay Moskvin,,,HNT062,/HNT062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT063,HNT,Blood Line,1,2,3,3,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"This costs {r} less to play for each Draconic chain link you control.
+
+**Go again**",Draconic Ninja Action - Attack,,,,,,C,,,Kevin Sidharta,,,HNT063,/HNT063.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT064,HNT,Burning Blade Dance,1,0,3,3,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this hits a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.""",Draconic Ninja Action - Attack,,,,,,C,,,Esty Swandana,,,HNT064,/HNT064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT065,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT065,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT066,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT066,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT067,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT067,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT068,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT068,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT069,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT069,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT070,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT070,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT065,HNT,Cinderskin Devotion,1,1,4,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again**.",Draconic Ninja Action - Attack,,,,,,C,,,Athiwut B.,,,HNT065,/HNT065.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT066,HNT,Dust Runner Outlaw,1,1,4,2,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,**Go again**,Draconic Ninja Action - Attack,,,,,,C,,,Nikolay Moskvin,,,HNT066,/HNT066.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT067,HNT,Hot on Their Heels,1,0,3,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this hits a hero, **mark** them.""",Draconic Ninja Action - Attack,,,,,,C,,,Esty Swandana,,,HNT067,/HNT067.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT068,HNT,Lava Vein Loyalty,1,0,3,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again**.",Draconic Ninja Action - Attack,,,,,,C,,,Maerel Hibadita,,,HNT068,/HNT068.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT069,HNT,Mark with Magma,1,1,4,3,,,,"Draconic, Ninja, Action, Attack",,,,,,,"If you control 2 or more Draconic chain links, this gets **go again** and ""When this hits a hero, **mark** them.""",Draconic Ninja Action - Attack,,,,,,C,,,Mariusz Gandzel,,,HNT069,/HNT069.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT070,HNT,Ronin Renegade,1,0,3,3,,,,"Draconic, Ninja, Action, Attack",Go again,,,,,,**Go again**,Draconic Ninja Action - Attack,,,,,,C,,,Phu Thieu,,,HNT070,/HNT070.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT071, FAB307","HNT, FAB",Art of the Dragon: Blood,1,0,4,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets **go again** and the next 3 Draconic cards you play this turn cost {r} less to play.",Ninja Action - Attack,,,,No,,M,,,Tomasz Jedruszek,,,HNT071,/HNT071.png,,,P,,EA,Tomasz Jedruszek,,,FAB307,/FAB307.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT072,HNT,Devotion Never Dies,1,1,4,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits, if a Draconic attack was the last attack this combat chain, banish this. If you do, you may play it this turn.
 
@@ -184,18 +222,30 @@ At the beginning of your end phase, if you've attacked less than 3 times this tu
 HNT077,HNT,Dragon Power,1,1,4,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets +3{p}.",Ninja Action - Attack,,,,No,,R,,,Marco González,,,HNT077,/HNT077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT078,HNT,Dragon Power,2,1,3,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets +3{p}.",Ninja Action - Attack,,,,No,,R,,,Marco González,,,HNT078,/HNT078.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT079,HNT,Dragon Power,3,1,2,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, if it is Draconic, it gets +3{p}.",Ninja Action - Attack,,,,No,,R,,,Marco González,,,HNT079,/HNT079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT080,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT080,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT081,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT081,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT082,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT082,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT083,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT083,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT084,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT084,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT085,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT086,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT086,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT087,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT087,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT088,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT088,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT089,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT089,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT090,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT090,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT091,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT091,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT080,HNT,Silver Talons,1,0,4,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Ninja Action - Attack,,,,No,,R,,,Ramza Ardyputra,,,HNT080,/HNT080.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT081,HNT,Silver Talons,2,0,3,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Ninja Action - Attack,,,,No,,R,,,Ramza Ardyputra,,,HNT081,/HNT081.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT082,HNT,Silver Talons,3,0,2,3,,,,"Ninja, Action, Attack",,,,,,,"When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Ninja Action - Attack,,,,No,,R,,,Ramza Ardyputra,,,HNT082,/HNT082.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT083,HNT,Fire Tenet: Strike First,1,0,3,2,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, your next Draconic attack this combat chain gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Alief Rusdiatama,,,HNT083,/HNT083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT084,HNT,Fire Tenet: Strike First,2,0,2,2,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, your next Draconic attack this combat chain gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Alief Rusdiatama,,,HNT084,/HNT084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT085,HNT,Fire Tenet: Strike First,3,0,1,2,,,,"Ninja, Action, Attack",,,,,,,"When this attacks, your next Draconic attack this combat chain gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Alief Rusdiatama,,,HNT085,/HNT085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT086,HNT,Grow Claws,1,1,4,2,,,,"Ninja, Action, Attack",,,,,,,"If a Draconic attack was the last attack this combat chain, this gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Jefrey Yonathan,,,HNT086,/HNT086.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT087,HNT,Grow Claws,2,1,3,2,,,,"Ninja, Action, Attack",,,,,,,"If a Draconic attack was the last attack this combat chain, this gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Jefrey Yonathan,,,HNT087,/HNT087.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT088,HNT,Grow Claws,3,1,2,2,,,,"Ninja, Action, Attack",,,,,,,"If a Draconic attack was the last attack this combat chain, this gets +1{p}.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Jefrey Yonathan,,,HNT088,/HNT088.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT089,HNT,Grow Wings,1,0,3,3,,,,"Ninja, Action, Attack",,,,,,,"If a Draconic attack was the last attack this combat chain, this gets **go again**.",Ninja Action - Attack,,,,,,C,,,Mateusz Wiśniewski,,,HNT089,/HNT089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT090,HNT,Grow Wings,2,0,2,3,,,,"Ninja, Action, Attack",,,,,,,"If a Draconic attack was the last attack this combat chain, this gets **go again**.",Ninja Action - Attack,,,,,,C,,,Mateusz Wiśniewski,,,HNT090,/HNT090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT091,HNT,Grow Wings,3,0,1,3,,,,"Ninja, Action, Attack",,,,,,,"If a Draconic attack was the last attack this combat chain, this gets **go again**.",Ninja Action - Attack,,,,,,C,,,Mateusz Wiśniewski,,,HNT091,/HNT091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT092,HNT,Tag the Target,1,0,3,2,,,,"Ninja, Action, Attack","Go again, Mark",,,,,,"When this hits a hero, **mark** them.
 
 **Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT092,/HNT092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -205,9 +255,15 @@ HNT093,HNT,Tag the Target,2,0,2,2,,,,"Ninja, Action, Attack","Go again, Mark",,,
 HNT094,HNT,Tag the Target,3,0,1,2,,,,"Ninja, Action, Attack","Go again, Mark",,,,,,"When this hits a hero, **mark** them.
 
 **Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT094,/HNT094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT095,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT095,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT096,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT097,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT092,HNT,Tag the Target,1,0,3,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT092,/HNT092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT093,HNT,Tag the Target,2,0,2,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT093,/HNT093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT094,HNT,Tag the Target,3,0,1,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT094,/HNT094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT098,HNT,"Fang, Dracai of Blades",,,,,40,4,,"Royal, Draconic, Warrior, Hero",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero,,No,,No,,V,C,,Billy Christian,,,HNT098,/HNT098-V2.png,,,V,C,FA,Billy Christian,,,HNT098,/HNT098-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -230,15 +286,25 @@ HNT105,HNT,Fire and Brimstone,1,2,,3,,,,"Draconic, Warrior, Attack Reaction",Leg
 This costs {r} less to play for each Draconic chain link you control.
 
 Daggers you control get +1{p} and you may attack with each of them an additional time this turn.",Draconic Warrior Attack Reaction,,,,No,,R,,,Nathaniel Himawan,,,HNT105,/HNT105.png,,,R,R,EA,Nathaniel Himawan,,,HNT105,/HNT105-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT106,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT106,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT107,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT107,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT108,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT108,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT109,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT109,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT110,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT110,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT111,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT111,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT112,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT112,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT113,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT113,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT114,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT114,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT095,HNT,Trap and Release,1,1,4,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT095,/HNT095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT096,HNT,Trap and Release,2,1,3,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT096,/HNT096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT097,HNT,Trap and Release,3,1,2,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+
+**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT097,/HNT097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT109,HNT,Imperial Intent,1,1,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
+
+Target dagger attack gets +2{p}.",Draconic Warrior Attack Reaction,,,,,,C,,,Othon Nikolaidis,,,HNT109,/HNT109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT110,HNT,Scalding Iron,1,0,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +X{p}, where X is the number of Draconic chain links you control.",Draconic Warrior Attack Reaction,,,,,,C,,,Muhammad Fajri,,,HNT110,/HNT110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT111,HNT,Searing Gaze,1,0,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, it gets ""When this hits a hero, **mark** them.""",Draconic Warrior Attack Reaction,,,,,,C,,,Mateusz Wiśniewski,,,HNT111,/HNT111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT112,HNT,Sisters of Fire,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Play this only if you control 2 or more Draconic chain links.
+
+Target dagger attack gets +3{p}.",Draconic Warrior Attack Reaction,,,,,,C,,,Andrew Chou,,,HNT112,/HNT112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT113,HNT,Sizzling Steel,1,1,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, instead it gets +4{p}.",Draconic Warrior Attack Reaction,,,,,,C,,,Firaz M. Rasyid,,,HNT113,/HNT113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT114,HNT,Stabbing Pain,1,1,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, it gets ""When this hits a hero, **mark** them.""",Draconic Warrior Attack Reaction,,,,,,C,,,Adolfo Navarro,,,HNT114,/HNT114.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT115,HNT,Kabuto of Imperial Authority,,,,2,,,,"Warrior, Equipment, Head",Blade Break,,,,,,"When this defends, until end of turn, opponents can't attack with weapons.
 
 **Blade Break**",Warrior Equipment - Head,,,,No,,L,R,,Sariya Asavametha,,,HNT115,/HNT115.png,,,L,C,EA,Sariya Asavametha,,,HNT115,/HNT115-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -249,12 +315,24 @@ HNT118,HNT,Sharpened Senses,2,0,,3,,,,"Warrior, Action, Aura",Go again,,,,,,"**G
 Your weapon attacks get +1{p}. If their {p} is greater than twice their base, they get **go again**.
 
 At the beginning of your end phase, destroy this.",Warior Action - Aura,,,,No,,M,,,Ina Wong,,,HNT118,/HNT118.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT119,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT119,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT120,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT120,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT121,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT121,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT122,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT122,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT123,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT123,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT124,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT124,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT119,HNT,Diced,1,0,,2,,,,"Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +1{p}.
+
+Your next dagger attack this turn gets +3{p}.",Warrior Attack Reaction,,,,No,,R,,,Faizal Fikri,,,HNT119,/HNT119.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT120,HNT,Diced,2,0,,2,,,,"Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +1{p}.
+
+Your next dagger attack this turn gets +2{p}.",Warrior Attack Reaction,,,,No,,R,,,Faizal Fikri,,,HNT120,/HNT120.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT121,HNT,Diced,3,0,,2,,,,"Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +1{p}.
+
+Your next dagger attack this turn gets +1{p}.",Warrior Attack Reaction,,,,No,,R,,,Faizal Fikri,,,HNT121,/HNT121.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT122,HNT,Twist and Turn,1,0,,3,,,,"Warrior, Action",,,,,,,"Your next dagger attack this turn gets +4{p} and ""When this hits, you may attack with it an additional time this turn.""
+
+**Go again**",Warrior Action,,,,No,,R,,,Igor Heras,,,HNT122,/HNT122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT123,HNT,Twist and Turn,2,0,,3,,,,"Warrior, Action",,,,,,,"Your next dagger attack this turn gets +3{p} and ""When this hits, you may attack with it an additional time this turn.""
+
+**Go again**",Warrior Action,,,,No,,R,,,Igor Heras,,,HNT123,/HNT123.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT124,HNT,Twist and Turn,3,0,,3,,,,"Warrior, Action",,,,,,,"Your next dagger attack this turn gets +2{p} and ""When this hits, you may attack with it an additional time this turn.""
+
+**Go again**",Warrior Action,,,,No,,R,,,Igor Heras,,,HNT124,/HNT124.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT125, FAB313","HNT, FAB",Agility Stance,2,0,,3,,,,"Warrior, Action, Aura",Go again,,,Go again,,,"**Go again**
 
 At the start of your turn, destroy this, then your dagger attacks get **go again** this turn.",Warrior Action - Aura,,,,No,,R,,,SanSan,,,HNT125,/HNT125.png,,,P,R,EA,SanSan,,,FAB313,/FAB313.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -264,18 +342,54 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
 "HNT127, FAB314","HNT, FAB",Power Stance,3,0,,3,,,,"Warrior, Action, Aura",Go again,,,,,,"**Go again**
 
 At the start of your turn, destroy this, then your dagger attacks get +1{p} this turn.",Warrior Action - Aura,,,,No,,R,,,Tanapon Wachirakul,,,HNT127,/HNT127.png,,,P,R,EA,Tanapon Wachirakul,,,FAB314,/FAB314.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT128,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT128,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT129,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT129,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT130,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT131,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT132,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT132,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT133,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT133,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT134,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT135,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT136,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT137,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT138,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT138,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT139,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT128,HNT,Cut Deep,1,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +4{p}.
+
+**Go again**",Warrior Action,,,,,,C,,,Brian Adriel,,,HNT128,/HNT128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT129,HNT,Cut Deep,2,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +3{p}.
+
+**Go again**",Warrior Action,,,,,,C,,,Brian Adriel,,,HNT129,/HNT129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT130,HNT,Cut Deep,3,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +2{p}.
+
+**Go again**",Warrior Action,,,,,,C,,,Brian Adriel,,,HNT130,/HNT130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT131,HNT,Hunt a Killer,1,1,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +4{p} and ""When this hits a hero, **mark** them.""
+
+**Go again**",Warrior Action,,,,,,C,,,Reza Afshar,,,HNT131,/HNT131.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT132,HNT,Hunt a Killer,2,1,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +3{p} and ""When this hits a hero, **mark** them.""
+
+**Go again**",Warrior Action,,,,,,C,,,Reza Afshar,,,HNT132,/HNT132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT133,HNT,Hunt a Killer,3,1,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +2{p} and ""When this hits a hero, **mark** them.""
+
+**Go again**",Warrior Action,,,,,,C,,,Reza Afshar,,,HNT133,/HNT133.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT134,HNT,Knife Through Butter,1,1,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +4{p}.
+
+Whenever you attack a **marked** hero this turn, the attack gets **go again**.
+
+**Go again**",Warrior Action,,,,,,C,,,Max Kostin,,,HNT134,/HNT134.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT135,HNT,Knife Through Butter,1,1,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +3{p}.
+
+Whenever you attack a **marked** hero this turn, the attack gets **go again**.
+
+**Go again**",Warrior Action,,,,,,C,,,Max Kostin,,,HNT135,/HNT135.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT136,HNT,Knife Through Butter,1,1,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +2{p}.
+
+Whenever you attack a **marked** hero this turn, the attack gets **go again**.
+
+**Go again**",Warrior Action,,,,,,C,,,Max Kostin,,,HNT136,/HNT136.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT137,HNT,Point of Engagement,1,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +3{p}.
+
+Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
+
+**Go again**",Warrior Action,,,,,,C,,,Andi Cahyo W,,,HNT137,/HNT137.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT138,HNT,Point of Engagement,2,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +2{p}.
+
+Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
+
+**Go again**",Warrior Action,,,,,,C,,,Andi Cahyo W,,,HNT138,/HNT138.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT139,HNT,Point of Engagement,3,0,,3,,,,"Warrior, Action",Go again,,,,,,"Your next dagger attack this turn gets +1{p}.
+
+Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
+
+**Go again**",Warrior Action,,,,,,C,,,Andi Cahyo W,,,HNT139,/HNT139.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT140,HNT,Sworn Vengeance,1,0,,3,,,,"Warrior, Action",Go again,,,Mark,,,"Your next dagger attack this turn gets +3{p} and ""When this hits a hero, **mark** them.""
 
 **Go again**",Warrior Action,,,,,,C,,,Arghawana Rim,,"""When they murdered my emperor, they killed my destiny."" - Lieutenant Yamada",HNT140,/HNT140.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -288,10 +402,18 @@ HNT142,HNT,Sworn Vengeance,3,0,,3,,,,"Warrior, Action",Go again,,,Mark,,,"Your n
 HNT143,HNT,Dragonscaler Flight Path,,,,1,,,,"Draconic, Equipment, Legs",Battleworn,,,,,,"**Instant** - {r}{r}{r}, destroy this: Target Draconic attack gets **go again**. If it's a weapon or ally attack, you may attack with it an additional time this turn. This ability costs {r} less to activate for each Draconic chain link you control.
 
 **Battleworn**",Draconic Equipment - Legs,,,,No,,L,R,,Mario Wibisono,,,HNT143,/HNT143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT144,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT145,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT146,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT147,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT144,HNT,Vow of Vengeance,,,,1,,,,"Draconic, Equipment, Head",Blade Break,,,,,,"**Attack Reaction** - Destroy this: **Mark** target Arakni.
+
+**Blade Break**",Draconic Equipment - Head,,,,,,C,,,Shen Fei,,,HNT144,/HNT144.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT145,HNT,Heart of Vengeance,,,,1,,,,"Draconic, Equipment, Chest",Blade Break,,,,,,"**Instant** - Destroy this: Your next attack this turn that targets Arakni costs {r} less to play or activate.
+
+**Blade Break**",Draconic Equipment - Chest,,,,,,C,,,Shen Fei,,,HNT145,/HNT145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT146,HNT,Hand of Vengeance,,,,1,,,,"Draconic, Equipment, Arms",Blade Break,,,,,,"**Attack Reaction** - Destroy this: Target attack that is attacking Arakni gets +1{p}.
+
+**Blade Break**",Draconic Equipment - Arms,,,,,,C,,,Shen Fei,,,HNT146,/HNT146.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT147,HNT,Path of Vengeance,,,,1,,,,"Draconic, Equipment, Legs",Blade Break,,,,,,"**Attack Reaction** - Destroy this: Target attack that is attacking Arakni gets **go again**.
+
+**Blade Break**",Draconic Equipment - Legs,,,,,,C,,,Shen Fei,,,HNT147,/HNT147.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT148,HNT,Coat of Allegiance,,,,0,,,,"Draconic, Equipment, Chest",,Action,Go again,,,,"**Action** - Destroy this: Gain {r}. Until end of turn, you may only play cards that are Draconic. **Go again**",Draconic Equipment - Chest,,,,,,C,,,Thomas Ressuge,,,HNT148,/HNT148.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT149,HNT,Oath of Loyalty,1,0,4,3,,,,"Draconic, Action, Attack",Go again,,,,,,"This may only be played if it's the first action of your turn.
 
@@ -299,93 +421,161 @@ When this is played, until end of turn, you may only play cards that are Draconi
 
 **Go again**",Draconic Action - Attack,,,,No,,M,,,Nathaniel Himawan,,,HNT149,/HNT149.png,,,M,R,EA,Nathaniel Himawan,,,HNT149,/HNT149-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT150,HNT,Loyalty Beyond the Grave,1,0,,3,,,,"Draconic, Defense Reaction",,,,,,,"While this is in your graveyard, at the start of your turn, you may banish 2 cards named Loyalty Beyond the Grave from your graveyard. If you do, draw a card.","Draconic, Defense Reaction",,,,No,,M,,,Sariya Asavametha,,,HNT150,/HNT150.png,,,M,R,EA,Sariya Asavametha,,,HNT150,/HNT150-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT151,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT151,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT151,HNT,Compounding Anger,1,3,5,3,,,,"Draconic, Action, Attack",,,,,,,This costs {r} less to play for each Draconic chain link you control.,Draconic Action - Attack,,,,No,,R,,,Asur Misoa,,,HNT151,/HNT151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT152,HNT,Hunt to the Ends of Rathe,1,0,2,2,,,,"Draconic, Action, Attack",Go again,,,,,,"When this attacks Arakni, **mark** them.
 
 If this is attacking a **marked** hero, this gets +2{p}.
 
 **Go again**",Draconic Action - Attack,,,,No,,R,,,Sariya Asavametha,,,HNT152,/HNT152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT153,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT153,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT154,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT153,HNT,March of Loyalty,1,0,4,3,,,,"Draconic, Action, Attack",,,,,,,"If you've created a Fealty token this turn, this gets **go again**",Draconic Action - Attack,,,,No,,R,,,Nathaniel Himawan,,,HNT153,/HNT153.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT154,HNT,Bubble to the Surface,1,2,,,,,,"Draconic, Instant",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
+
+Reveal cards from the top of your deck until you've revealed a red card. Banish it. You may play it this turn. Shuffle.",Draconic Instant,,,,No,,R,,,Carlos Cruchaga,,,HNT154,/HNT154.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT155,HNT,Drop of Dragon Blood,1,2,,,,,,"Draconic, Instant",Legendary,,,,,,"**Legendary**
 
 This costs {r} less to play for each Draconic chain link you control.
 
 Gain {r}. Draw a card.",Draconic Instant,,,,No,,R,,,Mariusz Gandzel,,,HNT155,/HNT155.png,,,R,R,EA,Mariusz Gandzel,,,HNT155,/HNT155-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT156,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT156,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT157,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT156,HNT,Rake Over the Coals,1,0,,,,,,"Draconic, Instant",,,,,,,Draconic attacks get +1{p} this turn.,Draconic Instant,,,,No,,R,,,Kevin Sidharta,,,HNT156,/HNT156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT157,HNT,Blaze Headlong,1,0,4,2,,,,"Draconic, Action, Attack",,,,,,,"If you've played another red card this turn, this gets **go again**.",Draconic Action - Attack,,,,,,C,,,Nathaniel Himawan,,,HNT157,/HNT157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT158, FAB318","HNT, FAB",For the Dracai,1,0,4,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,C,,,Asur Misoa,,,HNT158,/HNT158.png,,,P,R,EA,Asur Misoa,,,FAB318,/FAB318.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT159, FAB319","HNT, FAB",For the Emperor,1,1,5,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,C,,,Asur Misoa,,,HNT159,/HNT159.png,,,P,R,EA,Asur Misoa,,,FAB319,/FAB319.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HNT160, FAB320","HNT, FAB",For the Realm,1,2,6,3,,,,"Draconic, Action, Attack",,,,,,Mark,"When this attacks a **marked** hero, create a Fealty token.",Draconic Action - Attack,,,,,,C,,,Asur Misoa,,,HNT160,/HNT160.png,,,P,R,EA,Asur Misoa,,,FAB320,/FAB320.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT161,HNT,Hunt the Hunter,1,1,5,3,,,,"Draconic, Action, Attack",,,,,,,"When this attacks a hero, if you've played another red card this turn, **mark** them.",Draconic Action - Attack,,,,,,C,,,Nathaniel Himawan,,,HNT161,/HNT161.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT162,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT162,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT163,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT163,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT164,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT164,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT162,HNT,Smoke Out,1,0,,3,,,,"Draconic, Defense Reaction",,,,,,,"When this defends a red card, **mark** the attacking hero.",Draconic Defense Reaction,,,,,,C,,,Carlos Cruchaga,,,HNT162,/HNT162.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT163,HNT,Blessing of Vynserakai,1,0,,2,,,,"Draconic, Action, Aura",,,,,,,"At the start of your turn, destroy this, then your next attack this turn is Draconic and gets +3{p}.",Draconic Action - Aura,,,,,,C,,,Mateusz Wiśniewski,,,HNT163,/HNT163.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT164,HNT,Pledge Fealty,1,0,,,,,,"Draconic, Instant",,,,,,,Create a Fealty token.,Draconic Instant,,,,,,C,,,Sebastian Giacobino,,,HNT164,/HNT164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT165,HNT,Proclaim Vengeance,1,0,,,,,,"Draconic, Instant",Mark,,,,,,"**Mark** target opposing hero. If that hero is Arakni, gain {r}.",Draconic Instant,,,,,,C,,,Thomas Ressuge,,,HNT165,/HNT165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT166,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT166,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT166,HNT,Tooth of the Dragon,1,0,,,,,,"Draconic, Instant",,,,,,,Your next Draconic attack this turn gets +3{p}.,Draconic Instant,,,,,,C,,,YDZ,,,HNT166,/HNT166.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT167,HNT,Fealty,,,,,,,,"Draconic, Token, Aura",,,,,,,"**Instant** - Destroy this: The next card you play this turn is Draconic. At the beginning of your end phase, if you haven't created a Fealty token or played a Dragonic card this turn, destroy this.",Draconic Token - Aura,,,,,,V,C,FA,Mario Wibisono,,,HNT167,/HNT167_V2.png,,,T,,,Mario Wibisono,,,HNT167,/HNT167.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT168,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT168,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT169,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT169,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT170,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT170,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT171,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT171,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT172,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT172,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT173,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT173,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT174,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT174,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT175,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT175,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT176,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT176,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT177,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT177,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT178,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT178,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT179,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT179,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT180,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT180,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT181,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT181,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT182,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT182,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT183,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT183,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT184,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT184,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT185,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT185,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT186,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT186,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT187,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT187,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT188,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT188,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT189,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT189,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT190,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT190,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT191,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT191,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT192,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT193,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT193,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT194,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT194,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT195,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT195,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT196,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT196,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT197,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT197,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT198,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT198,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT199,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT199,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT200,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT200,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT201,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT201,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT202,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT202,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT203,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT203,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT204,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT204,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT205,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT205,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT206,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT206,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT207,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT207,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT208,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT208,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT209,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT209,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT210,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT210,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT211,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT212,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT212,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT213,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT214,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT214,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT168,HNT,Blood Splattered Vest,,,,1,,,,"Assassin, Ninja, Equipment, Chest",Blade Break,,,,,,"Whenever a dagger you control hits, you may gain {r} and put a stain counter on this. Then if there are 3 or more stain counters on this, destroy it.
+
+**Blade Break**",Assassin / Ninja Equipment - Chest,,,,No,,L,R,,Jessada Sutthi,,,HNT168,/HNT168.png,,,L,C,EA,Jessada Sutthi,,,HNT168,/HNT168-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT169,HNT,Leap Frog Vocal Sac,,,,1,,,,"Assassin, Ninja, Equipment, Head",Blade Break,,,,,,"When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.",Assassin / Ninja Equipment - Head,,,,,,C,,,Bramasta Aji,,,HNT169,/HNT169.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT170,HNT,Leap Frog Slime Skin,,,,1,,,,"Assassin, Ninja, Equipment, Chest",Blade Break,,,,,,"When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.",Assassin / Ninja Equipment - Chest,,,,,,C,,,Brian Madya Narendra,,,HNT170,/HNT170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT171,HNT,Leap Frog Gloves,,,,1,,,,"Assassin, Ninja, Equipment, Arms",Blade Break,,,,,,"When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.",Assassin / Ninja Equipment - Arms,,,,,,C,,,Andi Cahyo W,,,HNT171,/HNT171.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT172,HNT,Leap Frog Leggings,,,,1,,,,"Assassin, Ninja, Equipment, Legs",Blade Break,,,,,,"When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.",Assassin / Ninja Equipment - Legs,,,,,,C,,,M Fakhrur Rozzi,,,HNT172,/HNT172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT173,HNT,Danger Digits,,,,0,,,,"Assassin, Ninja, Equipment, Arms",,,,,,,"**Attack Reaction** - Destroy this: Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.",Assassin / Ninja Equipment - Arms,,,,,,C,,,Galih M,,,HNT173,/HNT173.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT174,HNT,Pain in the Backside,1,0,3,2,,,,"Assassin, Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, target dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,No,,M,,,Jessada Sutthi,,,HNT174,/HNT174.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT175,HNT,Throw Dagger,3,0,,3,,,,"Assassin, Ninja, Attack Reaction",,,,,,,"Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit and you draw a card. Destroy the dagger.",Assassin / Ninja Attack Reaction,,,,No,,M,,,Narendra B Adi,,,HNT175,/HNT175.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT176,HNT,Cut Through,1,0,3,2,,,,"Assassin, Ninja, Action, Attack",,,,,,,"If you've hit with a dagger this combat chain, this gets +1{p} and **go again**.",Assassin / Ninja Action - Attack,,,,No,,R,,,Faizal Fikri,,,HNT176,/HNT176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT177,HNT,Cut Through,2,0,2,2,,,,"Assassin, Ninja, Action, Attack",,,,,,,"If you've hit with a dagger this combat chain, this gets +1{p} and **go again**.",Assassin / Ninja Action - Attack,,,,No,,R,,,Faizal Fikri,,,HNT177,/HNT177.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT178,HNT,Cut Through,3,0,1,2,,,,"Assassin, Ninja, Action, Attack",,,,,,,"If you've hit with a dagger this combat chain, this gets +1{p} and **go again**.",Assassin / Ninja Action - Attack,,,,No,,R,,,Faizal Fikri,,,HNT178,/HNT178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT179,HNT,Up Sticks and Run,1,0,,2,,,,"Assassin, Ninja, Action","Go again, Retrieve",,,,,,"You may **retrieve** a dagger from your graveyard.
+
+Your next dagger attack this turn gets +4{p}.
+
+**Go again**",Assassin / Ninja Action,,,,No,,R,,,Adolfo Navarro,,,HNT179,/HNT179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT180,HNT,Up Sticks and Run,2,0,,2,,,,"Assassin, Ninja, Action","Go again, Retrieve",,,,,,"You may **retrieve** a dagger from your graveyard.
+
+Your next dagger attack this turn gets +3{p}.
+
+**Go again**",Assassin / Ninja Action,,,,No,,R,,,Adolfo Navarro,,,HNT180,/HNT180.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT181,HNT,Up Sticks and Run,3,0,,2,,,,"Assassin, Ninja, Action","Go again, Retrieve",,,,,,"You may **retrieve** a dagger from your graveyard.
+
+Your next dagger attack this turn gets +2{p}.
+
+**Go again**",Assassin / Ninja Action,,,,No,,R,,,Adolfo Navarro,,,HNT181,/HNT181.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT182,HNT,Pick Up the Point,1,0,3,2,,,,"Assassin, Ninja, Action, Attack","Go again, Retrieve",,,,,,"When this attacks, you may **retrieve** a dagger from your graveyard.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT182,/HNT182.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT183,HNT,Pick Up the Point,2,0,2,2,,,,"Assassin, Ninja, Action, Attack","Go again, Retrieve",,,,,,"When this attacks, you may **retrieve** a dagger from your graveyard.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT183,/HNT183.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT184,HNT,Pick Up the Point,3,0,1,2,,,,"Assassin, Ninja, Action, Attack","Go again, Retrieve",,,,,,"When this attacks, you may **retrieve** a dagger from your graveyard.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT184,/HNT184.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT185,HNT,Poisoned Blade,1,1,3,2,,,,"Assassin, Ninja, Action, Attack",Go again,,,,,,"Whenever a dagger you own hits a hero this combat chain, they lose 1{h}.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Marco González,,,HNT185,/HNT185.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT186,HNT,Poisoned Blade,2,1,2,2,,,,"Assassin, Ninja, Action, Attack",Go again,,,,,,"Whenever a dagger you own hits a hero this combat chain, they lose 1{h}.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Marco González,,,HNT186,/HNT186.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT187,HNT,Poisoned Blade,3,1,1,2,,,,"Assassin, Ninja, Action, Attack",Go again,,,,,,"Whenever a dagger you own hits a hero this combat chain, they lose 1{h}.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Marco González,,,HNT187,/HNT187.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT188,HNT,Throw Yourself at Them,1,1,3,2,,,,"Assassin, Ninja, Action, Attack",Go again,,,,,,"When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Aluisio Cervelle,,,HNT188,/HNT188.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT189,HNT,Throw Yourself at Them,2,1,2,2,,,,"Assassin, Ninja, Action, Attack",Go again,,,,,,"When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Aluisio Cervelle,,,HNT189,/HNT189.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT190,HNT,Throw Yourself at Them,3,1,1,2,,,,"Assassin, Ninja, Action, Attack",Go again,,,,,,"When this attacks a hero, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.
+
+**Go again**",Assassin / Ninja Action - Attack,,,,,,C,,,Aluisio Cervelle,,,HNT190,/HNT190.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT191,HNT,Lair of the Spider,1,0,,3,,,,"Assassin, Ninja, Defense Reaction, Trap",,,,,,,"When this defends an attack with **go again**, **mark** the attacking hero.",Assassin / Ninja Action Defense Reaction - Trap,,,,,,C,,,Saad Irfan,,,HNT191,/HNT191.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT192,HNT,Red Alert Visor,,,,1,,,,"Assassin, Warrior, Equipment, Head",Blade Break,,,,,,"If an attack reaction has been played or activated this chain link, this gets +1{d}.",Assassin / Warrior Equipment - Head,,,,,,C,,,Joseph Qiu,,,HNT192,/HNT192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT193,HNT,Red Alert Vest,,,,1,,,,"Assassin, Warrior, Equipment, Chest",Blade Break,,,,,,"If an attack reaction has been played or activated this chain link, this gets +1{d}.",Assassin / Warrior Equipment - Chest,,,,,,C,,,Joseph Qiu,,,HNT193,/HNT193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT194,HNT,Red Alert Gloves,,,,1,,,,"Assassin, Warrior, Equipment, Arms",Blade Break,,,,,,"If an attack reaction has been played or activated this chain link, this gets +1{d}.",Assassin / Warrior Equipment - Arms,,,,,,C,,,Joseph Qiu,,,HNT194,/HNT194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT195,HNT,Red Alert Boots,,,,1,,,,"Assassin, Warrior, Equipment, Legs",Blade Break,,,,,,"If an attack reaction has been played or activated this chain link, this gets +1{d}.",Assassin / Warrior Equipment - Legs,,,,,,C,,,Joseph Qiu,,,HNT195,/HNT195.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT196,HNT,Starting Point,,,,0,,,,"Assassin, Warrior, Equipment, Legs",,,,,,,**Attack Reaction** - Destroy this: Target attack gets **go again**. Activate this only if you've played a card or activated an ability this reaction step.,Assassin / Warrior Equipment - Legs,,,,,,C,,,Lizhe Liang,,,HNT196,/HNT196.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT197,HNT,Perforate,2,1,,3,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"You may attack with target dagger an additional time and its attacks cost you {r} less to activate this turn.
+
+Draw a card.",Assassin / Warrior Attack Reaction,,,,No,,M,,,Tanapon Wachirakul,,,HNT197,/HNT197.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT198,HNT,Savor Bloodshed,1,0,,3,,,,"Assassin, Warrior, Action",Go again,,,,,,"You next dagger attack this turn gets +4{p}.
+
+The next time you hit a **marked** hero with a dagger this turn, draw a card.
+
+**Go again**",Assassin / Warrior Action,,,,No,,M,,,Narendra B Adi,,,HNT198,/HNT198.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT199,HNT,To the Point,1,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p}. If the defending hero is **marked**, instead it gets +4{p}.",Assassin / Warrior Attack Reaction,,,,No,,R,,,Pavel Rtishchev (Klaher),,,HNT199,/HNT199.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT200,HNT,To the Point,2,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +2{p}. If the defending hero is **marked**, instead it gets +3{p}.",Assassin / Warrior Attack Reaction,,,,No,,R,,,Pavel Rtishchev (Klaher),,,HNT200,/HNT200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT201,HNT,To the Point,3,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +1{p}. If the defending hero is **marked**, instead it gets +2{p}.",Assassin / Warrior Attack Reaction,,,,No,,R,,,Pavel Rtishchev (Klaher),,,HNT201,/HNT201.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT202,HNT,Cut from the Same Cloth,1,0,,2,,,,"Assassin, Warrior, Action",Go again,,,,,,"Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
+
+Your next dagger attack this turn gets +4{p}.
+
+**Go again**",Assassin / Warrior Action,,,,No,,R,,,Marco González,,,HNT202,/HNT202.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT203,HNT,Cut from the Same Cloth,2,0,,2,,,,"Assassin, Warrior, Action",Go again,,,,,,"Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
+
+Your next dagger attack this turn gets +3{p}.
+
+**Go again**",Assassin / Warrior Action,,,,No,,R,,,Marco González,,,HNT203,/HNT203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT204,HNT,Cut from the Same Cloth,3,0,,2,,,,"Assassin, Warrior, Action",Go again,,,,,,"Target opposing hero reveals their hand. If an attack reaction card is revealed this way, **mark** them.
+
+Your next dagger attack this turn gets +2{p}.
+
+**Go again**",Assassin / Warrior Action,,,,No,,R,,,Marco González,,,HNT204,/HNT204.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT205,HNT,Incision,1,0,,3,,,,"Assassin, Warrior, Attack Reaction",,,,,,,Target dagger attack gets +3{p}.,Assassin / Warrior Attack Reaction,,,,,,C,,,Nailsen Ivanderlie,,,HNT205,/HNT205.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT206,HNT,Incision,2,0,,3,,,,"Assassin, Warrior, Attack Reaction",,,,,,,Target dagger attack gets +2{p}.,Assassin / Warrior Attack Reaction,,,,,,C,,,Nailsen Ivanderlie,,,HNT206,/HNT206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT207,HNT,Incision,3,0,,3,,,,"Assassin, Warrior, Attack Reaction",,,,,,,Target dagger attack gets +1{p}.,Assassin / Warrior Attack Reaction,,,,,,C,,,Nailsen Ivanderlie,,,HNT207,/HNT207.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT208,HNT,Scar Tissue,1,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p} and ""When this hits a hero, **mark** them.""",Assassin / Warrior Attack Reaction,,,,,,C,,,SanSan,,,HNT208,/HNT208.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT209,HNT,Scar Tissue,2,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +2{p} and ""When this hits a hero, **mark** them.""",Assassin / Warrior Attack Reaction,,,,,,C,,,SanSan,,,HNT209,/HNT209.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT210,HNT,Scar Tissue,3,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +1{p} and ""When this hits a hero, **mark** them.""",Assassin / Warrior Attack Reaction,,,,,,C,,,SanSan,,,HNT210,/HNT210.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT211,HNT,Take a Stab,1,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p} and ""When this hits a **marked** hero, you may attack with it an additional time this turn.""",Assassin / Warrior Attack Reaction,,,,,,C,,,Galih M,,,HNT211,/HNT211.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT212,HNT,Take a Stab,1,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p} and ""When this hits a **marked** hero, you may attack with it an additional time this turn.""",Assassin / Warrior Attack Reaction,,,,,,C,,,Galih M,,,HNT212,/HNT212.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT213,HNT,Take a Stab,1,0,,2,,,,"Assassin, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +3{p} and ""When this hits a **marked** hero, you may attack with it an additional time this turn.""",Assassin / Warrior Attack Reaction,,,,,,C,,,Galih M,,,HNT213,/HNT213.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT214,HNT,Den of the Spider,1,0,,3,,,,"Assassin, Warrior, Defense Reaction, Trap",,,,,,,"When this defends an attack with {p} greater than its base, **mark** the attacking hero.",Assassin / Warrior Action Defense Reaction - Trap,,,,,,C,,,Max Kostin,,,HNT214,/HNT214.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT215,HNT,Quickdodge Flexors,,,,0,,,,"Generic, Equipment, Legs",,,,,,,"**Defense Reaction** - {r}: Add this to the active chain link as a defending card. It has 2 base {d} this chain link.
 
 At the beginning of the end phase, if this defendend this turn, destroy it.",Generic Equipment - Legs,,,,No,,L,R,,Tanapon Wachirakul,,,HNT215,/HNT215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT216,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT216,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT217,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT217,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT218,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT219,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT219,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT220,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT220,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT221,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT221,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT222,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT222,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT223,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT223,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT224,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT224,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT225,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT225,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT216,HNT,Blade Beckoner Helm,,,,1,,,,"Generic, Equipment, Head",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
+
+**Guardwell**",Generic Equipment - Head,,,,No,,R,,,Daniel Jiménez,,,HNT216,/HNT216.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT217,HNT,Blade Beckoner Plating,,,,1,,,,"Generic, Equipment, Chest",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
+
+**Guardwell**",Generic Equipment - Chest,,,,No,,R,,,Daniel Jiménez,,,HNT217,/HNT217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT218,HNT,Blade Beckoner Gauntlets,,,,1,,,,"Generic, Equipment, Arms",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
+
+**Guardwell**",Generic Equipment - Arms,,,,No,,R,,,Daniel Jiménez,,,HNT218,/HNT218.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT219,HNT,Blade Beckoner Boots,,,,1,,,,"Generic, Equipment, Legs",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
+
+**Guardwell**",Generic Equipment - Legs,,,,No,,R,,,Daniel Jiménez,,,HNT219,/HNT219.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT220,HNT,Bunker Beard,,,,0,,,,"Generic, Equipment, Head",,,,,,,**Defense Reaction** - Destroy this: You may add an action card from your arsenal to the active chain link as a defending card.,Generic Equipment - Head,,,,,,C,,,Tomasz Jedruszek,,,HNT220,/HNT220.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT221,HNT,Rotten Remains,3,0,1,3,,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may banish a card with 1{p} from each hero's graveyard. If you do, this gets +1{p}, then repeat this process.",Generic Action - Attack,,,,No,,M,,,Marco González,,,HNT221,/HNT221.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT222,HNT,Shelter from the Storm,1,0,,4,,,,"Generic, Defense Reaction",,,,,,,"**Instant** - Discard this: The next 3 times you would be dealt damage this turn, prevent 1 of that damage.",Generic Defense Reaction,,,,No,,M,,,Rio Sabda,,,HNT222,/HNT222.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT223,HNT,Dual Threat,2,0,,3,,,,"Generic, Action",Go again,,,,,,"If you've attacked with a weapon this turn, the next attack action card you play this turn gets +3{p}.
+
+If you've attacked with an attack action card this turn, your next weapon attack this turn gets +3{p}.
+
+**Go again**",Generic Action,,,,No,,M,,,Sebastian Giacobino,,,HNT223,/HNT223.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT224,HNT,Pursue to the Edge of Oblivion,1,0,4,3,,,,"Generic, Action, Attack",Mark,,,,,,"When this hits a hero, **mark** them.",Generic Action - Attack,,,,No,,R,,,Reza Afshar,,,HNT224,/HNT224.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT225,HNT,Pursue to the Pits of Despair,1,1,5,3,,,,"Generic, Action, Attack",Mark,,,,,,"When this hits a hero, **mark** them.",Generic Action - Attack,,,,No,,R,,,Tomasz Jedruszek,,,HNT225,/HNT225.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT226,HNT,Sound the Alarm,1,1,5,3,,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, they reveal their hand. If an attack reaction card is revealed this way, you may search your deck for a defense reaction card, reveal it, then shuffle and put it on top.",Generic Action - Attack,,,,No,,R,,,Thomas Ressuge,,,HNT226,/HNT226.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT227,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT227,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT227,HNT,Razor Reflex,1,1,,2,,,,"Generic, Attack Reaction",,,,,,,"Choose 1;
+- Target dagger or sword weapon attack gets +3{p}.
+- Target attack action card with cost 1 or less gets +3{p} and ""When this hits, this gets **go again**.""",Generic Attack Reaction,,,,No,,R,,,Adolfo Navarro,,,HNT227,/HNT227.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT228,HNT,Imperial Seal of Command,1,0,,,,,,"Generic, Action, Item",Legendary,,,,,,"**Legendary**
 
 **Action** - Destroy this: Defense reaction cards can't be played this turn. If you are Royal, the next time you hit a hero this turn, destroy all cards in their arsenal. **Go again**",Generic Action - Item,,,,No,,R,,,Milivoj Ćeran,,,HNT228,/HNT228.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -395,10 +585,10 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
 
 **Go again**",Generic Action,,,,No,,R,,,Reza Afshar,,,HNT229,/HNT229.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT230,HNT,Calming Breeze,1,0,,,,,,"Generic, Instant",,,,,,,"The next 3 times you would be dealt damage this turn, prevent 1 of that damage.",Generic Instant,,,,No,,R,,,Thomas Ressuge,,,HNT230,/HNT230.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT231,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT231,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT232,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT232,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT233,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT233,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT234,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT234,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT231,HNT,Sigil of Solace,1,0,,,,,,"Generic, Instant",,,,,,,Gain 3{h},Generic Instant,,,,No,,R,,,Adolfo Navarro,,,HNT231,/HNT231.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT232,HNT,Tip-Off,1,1,5,2,,,,"Generic, Action, Attack",,,,,,,**Instant** - Discard this: **Mark** target opposing hero.,Generic Action - Attack,,,,,,C,,,Max Kostin,,,HNT232,/HNT232.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT233,HNT,Tip-Off,2,1,4,2,,,,"Generic, Action, Attack",,,,,,,**Instant** - Discard this: **Mark** target opposing hero.,Generic Action - Attack,,,,,,C,,,Max Kostin,,,HNT233,/HNT233.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT234,HNT,Tip-Off,3,1,3,2,,,,"Generic, Action, Attack",,,,,,,**Instant** - Discard this: **Mark** target opposing hero.,Generic Action - Attack,,,,,,C,,,Max Kostin,,,HNT234,/HNT234.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT235,HNT,Outed,1,0,3,,,,,"Generic, Action, Attack",Go again,,,,,,"If you are **marked**, you can't play this.
 
 If the defending hero is **marked**, this gets +1{p}.
@@ -412,9 +602,11 @@ HNT237,HNT,Exposed,3,0,,,,,,"Generic, Attack Reaction",Mark,,,,,Mark,"If you are
 Target attack gets +1{p}.
 
 **Mark** the defending hero.",Generic Attack Reaction,,,,,,C,,,Daniel Jiménez,,,HNT237,/HNT237.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT238,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT238,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT239,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT239,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT240,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT240,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT238,HNT,Put in Context,3,0,,3,,,,"Generic, Defense Reaction",,,,,,,This can only defend an attack with 3 or less base {p}.,Generic Defense Reaction,,,,,,C,,,Maerel Hibadita,,,HNT238,/HNT238.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT239,HNT,Nip at the Heels,3,0,,3,,,,"Generic, Attack Reaction",,,,,,,Target attack with 3 or less base {p} gets +1{p}.,Generic Attack Reaction,,,,,,C,,,Carlos Cruchaga,,,HNT239,/HNT239.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT240,HNT,Trot Along,3,0,,3,,,,"Generic, Action",Go again,,,,,,"Your next attack with 3 or less base {p} this turn gets **go again**.
+
+**Go again**",Generic Action,,,,,,C,,,Esty Swandana,,,HNT240,/HNT240.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT241,HNT,Public Bounty,1,1,,2,,,,"Generic, Action","Mark, Go again",,,,,,"**Mark** target opposing hero.
 
 The next time you attack a **marked** hero this turn, the attack gets +3{p}.
@@ -431,7 +623,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
 
 **Go again**",Generic Action,,,,,,C,,,Daniel Jiménez,,,HNT243,/HNT243.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT244,HNT,Marked,,,,,,,,Token,Mark,,,,,,You are **marked** until an opponent hits you,Token,,,,,,T,,,Jessketchin,,,HNT244,/HNT244.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT245,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT245,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT245,HNT,Cracked Bauble,2,,,,,,,"Generic, Resource",,,,,,,,Generic Resource,,,,,,T,,,Sam Yang,,,HNT245,/HNT245.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT246,HNT,Thick Hide Hunter,2,2,6,6,,,,"Brute, Action, Attack",,,,,,,"When this attacks or defends, discard a random card.",Brute Action - Attack,,,,No,,M,,,Tomasz Jedruszek,Yes,,HNT246,/HNT246.png,,,M,,EA,Tomasz Jedruszek,Yes,,HNT246,/HNT246_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT247,HNT,Tremorshield Sabatons,,,,1,,,,"Guardian, Equipment, Legs",Blade Break,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've controlled a Seismic Surge token this turn, instead prevent the next 2.
 
@@ -442,18 +634,28 @@ HNT248,HNT,Roiling Fissure,3,X1,,3,,,,"Guardian, Action",Go again,,,,,,"Destroy 
 HNT249,HNT,Retrace the Past,3,0,2,3,,,,"Ninja, Action, Attack","Katsu Specialization, Combo",,,,,,"**Katsu Specialization**
 
 **Combo** - When this attacks, if a card with Gustwave in its name was the last attack this combat chain, name a card, then this gets that name, +2{p}, and **go again**.",Ninja Action - Attack,,,,No,,M,,,Stormy Elia Fanggidae,Yes,,HNT249,/HNT249.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT250,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT250,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT251,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT251,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT250,HNT,Misfire Dampener,,,,1,,,,"Mechanologist, Equipment, Arms",Blade Break,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've **boosted** this turn, instead prevent the next 2.
+
+**Blade Break**",Mechanologist Equipment - Arms,,,,No,,M,,,Mariusz Gandzel,Yes,,HNT250,/HNT250.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT251,HNT,Null Time Zone,3,0,,,,,,"Mechanologist, Action, Item",Crank,,,,,,"**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.
+
+When this enters the arena, name a card. The named card can't be pitched or played from hand while this is in the arena.",Mechanologist Action - Item,,,,No,,M,,,Carlos Cruchaga,Yes,,HNT251,/HNT251.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT252,HNT,Enchanted Quiver,,,,,,,,"Ranger, Equipment, Quiver",,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If there is a face-up arrow in your arsenal, instead prevent the next 2.",Ranger Equipment - Quiver,,,,No,,M,,,Jessketchin,Yes,,HNT252,/HNT252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT253,HNT,Chain Reaction,2,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,Go again,"When this defends an attack with **go again**, you may turn a non-attack action card in your arsenal face-up. If you do, you may play it this turn as though it were an instant.",Ranger Defense Reaction - Trap,,,,No,,M,,,Septimius Ferdian,Yes,,HNT253,/HNT253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT254,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT254,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT254,HNT,Douse in Runeblood,1,1,4,3,,,,"Runeblade, Action, Attack",,,,,,,"When this attacks, create Runechant tokens equal to the number of non-attack action cards you've played this turn. If 3 or more Runechants are created this way, this gets **go again**.",Runeblade Action - Attack,,,,No,,M,,,YDZ,Yes,,HNT254,/HNT254.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT255,HNT,Spur Locked,3,0,,3,,,,"Chaos, Action",Go again,,,,,,"Each hero secretly chooses a number between 1 and 6, then those numbers are revealed. The hero that chose the highest number loses that much {h}, searches their deck for a card with cost less than or equal to the chosen number, reveales it, puts it in their hand, then shuffles.
 
 **Go again**",Chaos Action,,,,No,,M,,,Arif Wijaya,Yes,,HNT255,/HNT255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT256,HNT,Ring of Roses,2,0,,3,,,,"Earth, Wizard, Action, Aura","Legendary, Verdance Specialization",,,,,,"**Legendary Verdance Specialization**
 
 The first time you deal arcane damage each turn, gain 1{h}.",Earth Wizard Action - Aura,,,,No,,M,,,Mark Poole,Yes,,HNT256,/HNT256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT257,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT257,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT257,HNT,War Cry of Themis,2,0,,3,,,,"Light, Illusionist, Action",Go again,,,,,,"Your next angel attack this turn gets +4{p}.
+
+**Go again**
+
+**Instant** - Discard this, banish X cards from your soul: Turn X target cards in a banished zone face-down.",Light Illusionist Action,,,,No,,M,,,Asur Misoa,Yes,,HNT257,/HNT257.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT258,HNT,War Cry of Bellona,2,0,,3,,,,"Light, Warrior, Attack Reaction",,Instant,,,,,"Target Raydn gets +2{p} this turn.
 
 **Instant** - Discard this, banish X cards from your soul: The next time target weapon deals X or less damage to you this turn, deal that much damage to its controller and that damage can't be prevented.",Light Warrior Attack Reaction,,,,No,,M,,,Simon Dominic,Yes,,HNT258,/HNT258.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -464,7 +666,9 @@ If a hero has lost {h} this turn, you may play this as thought it were an instan
 Each hero banishes a card from their hand.
 
 **Blood Debt**","Shadow, Runeblade, Action",,,,No,,M,,,Daria Khlebnikova,Yes,,HNT259,/HNT259.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT260,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT260,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT260,HNT,Command and Conquer,1,2,6,3,,,,"Generic, Action, Attack",,,,,,,"Defense reaction cards can't be played this chain link.
+
+When this hits a hero, destroy all cards in their arsenal.",Generic Action - Attack,,,,No,,L,,,Federico Musetti,Yes,,HNT260,/HNT260.png,,,L,R,EA,Federico Musetti,Yes,,HNT260,/HNT260-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT261,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT261,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT262,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT262,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT263,HNT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,HNT263,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
