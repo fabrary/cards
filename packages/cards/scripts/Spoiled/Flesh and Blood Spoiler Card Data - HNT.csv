@@ -255,15 +255,15 @@ HNT093,HNT,Tag the Target,2,0,2,2,,,,"Ninja, Action, Attack","Go again, Mark",,,
 HNT094,HNT,Tag the Target,3,0,1,2,,,,"Ninja, Action, Attack","Go again, Mark",,,,,,"When this hits a hero, **mark** them.
 
 **Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT094,/HNT094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT092,HNT,Tag the Target,1,0,3,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+HNT095,HNT,Trap and Release,1,1,4,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
 
-**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT092,/HNT092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT093,HNT,Tag the Target,2,0,2,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT095,/HNT095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT096,HNT,Trap and Release,2,1,3,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
 
-**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT093,/HNT093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT094,HNT,Tag the Target,3,0,1,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT096,/HNT096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT097,HNT,Trap and Release,3,1,2,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
 
-**Go again**",Ninja Action - Attack,,,,,,C,,,Igor Heras,,,HNT094,/HNT094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT097,/HNT097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT098,HNT,"Fang, Dracai of Blades",,,,,40,4,,"Royal, Draconic, Warrior, Hero",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero,,No,,No,,V,C,,Billy Christian,,,HNT098,/HNT098-V2.png,,,V,C,FA,Billy Christian,,,HNT098,/HNT098-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -286,15 +286,13 @@ HNT105,HNT,Fire and Brimstone,1,2,,3,,,,"Draconic, Warrior, Attack Reaction",Leg
 This costs {r} less to play for each Draconic chain link you control.
 
 Daggers you control get +1{p} and you may attack with each of them an additional time this turn.",Draconic Warrior Attack Reaction,,,,No,,R,,,Nathaniel Himawan,,,HNT105,/HNT105.png,,,R,R,EA,Nathaniel Himawan,,,HNT105,/HNT105-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT095,HNT,Trap and Release,1,1,4,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+HNT106,HNT,Blistering Blade,1,0,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, instead it gets +3{p}.",Draconic Warrior Attack Reaction,,,,,,C,,,Mariusz Gandzel,,,HNT106,/HNT106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT107,HNT,Brothers of Flame,1,1,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"Play this only if you control 2 or more Draconic chain links.
 
-**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT095,/HNT095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT096,HNT,Trap and Release,2,1,3,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
+Target dagger attack gets +4{p}.",Draconic Warrior Attack Reaction,,,,,,C,,,Othon Nikolaidis,,,HNT107,/HNT107.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+HNT108,HNT,Dynastic Dedication,1,2,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
 
-**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT096,/HNT096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-HNT097,HNT,Trap and Release,3,1,2,2,,,,"Ninja, Action, Attack",Go again,,,,,,"When this hits a hero, **mark** them.
-
-**Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT097,/HNT097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Target dagger attack gets +3{p}.",Draconic Warrior Attack Reaction,,,,,,C,,,Othon Nikolaidis,,,HNT108,/HNT108.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT109,HNT,Imperial Intent,1,1,,2,,,,"Draconic, Warrior, Attack Reaction",,,,,,,"This costs {r} less to play for each Draconic chain link you control.
 
 Target dagger attack gets +2{p}.",Draconic Warrior Attack Reaction,,,,,,C,,,Othon Nikolaidis,,,HNT109,/HNT109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

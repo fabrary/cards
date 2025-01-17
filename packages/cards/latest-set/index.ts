@@ -1534,6 +1534,61 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "blistering-blade-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT106",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Blistering Blade",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "HNT106",
+      image: "HNT106",
+      
+      
+      print: "HNT106",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT106"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT106",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, instead it gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "blood-drop-red",
     classes: [Class.Ninja],
@@ -1772,6 +1827,63 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     
     
     
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "brothers-of-flame-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT107",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Brothers of Flame",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "HNT107",
+      image: "HNT107",
+      
+      
+      print: "HNT107",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT107"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT107",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Play this only if you control 2 or more Draconic chain links.
+
+Target dagger attack gets +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
   
   
   },{
@@ -3730,7 +3842,8 @@ Your next dagger attack this turn gets +1{p}.`,
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Marco González"],
     cardIdentifier: "dragon-power-blue",
     classes: [Class.Ninja],
@@ -3785,8 +3898,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "dragonscaler-flight-path",
     classes: [Class.NotClassed],
@@ -4017,6 +4129,63 @@ If you've attacked with an attack action card this turn, your next weapon attack
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "dynastic-dedication-red",
+    classes: [Class.Warrior],
+    defaultImage: "HNT108",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Emperor,Hero.Fang],
+    name: "Dynastic Dedication",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "HNT108",
+      image: "HNT108",
+      
+      
+      print: "HNT108",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT108"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT108",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Draconic Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `This costs {r} less to play for each Draconic chain link you control.
+
+Target dagger attack gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
     
     
     
@@ -7429,7 +7598,8 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Saad Irfan"],
     cardIdentifier: "mark-of-the-funnel-web-yellow",
     classes: [Class.Assassin],
@@ -7486,8 +7656,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "mark-of-the-funnel-web-blue",
     classes: [Class.Assassin],
@@ -11103,7 +11272,8 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["SanSan"],
     cardIdentifier: "scar-tissue-yellow",
     classes: [Class.Assassin,Class.Warrior],
@@ -11158,8 +11328,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["SanSan"],
     cardIdentifier: "scar-tissue-blue",
     classes: [Class.Assassin,Class.Warrior],
