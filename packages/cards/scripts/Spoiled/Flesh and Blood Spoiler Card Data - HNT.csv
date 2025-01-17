@@ -174,7 +174,7 @@ HNT053,HNT,Graphene Chelicera,,,1,,,,,"Assassin, Token, Weapon, Dagger, 1H","Ste
 When this attacks a **marked** hero, the attack gets **go again**.",Assassin Token Weapon - Dagger (1H),,,,,,T,,,Nailsen Ivanderlie,,,HNT053,/HNT053.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT054,HNT,"Cindra, Dracai of Retribution",,,,,40,4,,"Royal, Draconic, Ninja, Hero",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
-**Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero,,No,,No,,V,C,,Livia Prima,,,HNT054,/HNT054-V2.png,,,V,C,FA,Livia Prima,,,HNT054,/HNT054-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero,,No,,No,,V,C,,Livia Prima,,,HNT054,/HNT054-V2.png,,,V,C,FA,Livia Prima,,,HNT054,/HNT054-V2_BACK.png,,,M,,,Livia Prima,,,HNT054,/HNT054.png,,,,,,,,,,,,,,,,,,,,,
 HNT055,HNT,Cindra,,,,,20,4,,"Royal, Draconic, Ninja, Hero, Young",,Once per Turn Instant,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 **Once per Turn Instant** - {r}{r}{r}: Equip up to 2 Draconic daggers from your graveyard. This costs {r} less to activate for each Draconic chain link you control.",Royal Draconic Ninja Hero - Young,,,No,,No,T,,,Livia Prima,,,HNT055,/HNT055.png,,,V,C,,Livia Prima,,,HNT055,/HNT055-V2.png,,,V,C,FA,Livia Prima,,,HNT055,/HNT055-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
@@ -266,7 +266,7 @@ HNT097,HNT,Trap and Release,3,1,2,2,,,,"Ninja, Action, Attack",Go again,,,,,,"Wh
 **Go again**",Ninja Action - Attack,,,,,,C,,,Nikko Wahyudi,,,HNT097,/HNT097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT098,HNT,"Fang, Dracai of Blades",,,,,40,4,,"Royal, Draconic, Warrior, Hero",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
-If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero,,No,,No,,V,C,,Billy Christian,,,HNT098,/HNT098-V2.png,,,V,C,FA,Billy Christian,,,HNT098,/HNT098-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero,,No,,No,,V,C,,Billy Christian,,,HNT098,/HNT098-V2.png,,,V,C,FA,Billy Christian,,,HNT098,/HNT098-V2_BACK.png,,,M,,,Billy Christian,,,HNT098,/HNT098.png,,,,,,,,,,,,,,,,,,,,,
 HNT099,HNT,Fang,,,,,20,4,,"Royal, Draconic, Warrior, Hero, Young",,,,,,Mark,"Whenever you hit a **marked** hero, create a Fealty token.
 
 If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to activate.",Royal Draconic Warrior Hero - Young,,,No,,No,T,,,Billy Christian,,,HNT099,/HNT099.png,,,V,C,,Billy Christian,,,HNT099,/HNT099-V2.png,,,V,C,FA,Billy Christian,,,HNT099,/HNT099-V2_BACK.png,,,,,,,,,,,,,,,,,,,,,

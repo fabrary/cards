@@ -2327,9 +2327,20 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       set: Release.TheHunted,
       
       treatment: Treatment.FA,
+    },{
+        artists: ["Livia Prima"],
+      
+      identifier: "HNT054",
+      image: "HNT054",
+      
+      
+      print: "HNT054",
+      set: Release.TheHunted,
+      
+      
     },],
-    rarities: [Rarity.Marvel],
-    rarity: Rarity.Marvel,
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
     setIdentifiers: ["HNT054"],
     sets: [Release.TheHunted],
     specialImage: "HNT054-V2_BACK",
@@ -4531,9 +4542,20 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       set: Release.TheHunted,
       
       treatment: Treatment.FA,
+    },{
+        artists: ["Billy Christian"],
+      
+      identifier: "HNT098",
+      image: "HNT098",
+      
+      
+      print: "HNT098",
+      set: Release.TheHunted,
+      
+      
     },],
-    rarities: [Rarity.Marvel],
-    rarity: Rarity.Marvel,
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
     setIdentifiers: ["HNT098"],
     sets: [Release.TheHunted],
     specialImage: "HNT098-V2_BACK",
