@@ -2752,7 +2752,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     rarity: Rarity.Majestic,
     setIdentifiers: ["1HP360","ARC159","DYN000","FAB278","HNT260"],
     sets: [Release.ArcaneRising,Release.Dynasty,Release.HistoryPack1,Release.Promos,Release.TheHunted],
-    specialImage: "HNT260",
+    specialImage: "HNT260-EA",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",

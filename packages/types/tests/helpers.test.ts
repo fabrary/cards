@@ -146,4 +146,41 @@ describe("Printings", () => {
     );
     expect(specialPrinting.image).toEqual("HNT167_V2");
   });
+
+  it("Gets correct default and special printings for CnC with only HNT printings", () => {
+    const cardIdentifier = "command-and-conquer-red";
+    const name = "Command and Conquer";
+    const printings: Printing[] = [
+      {
+        artists: ["Federico Musetti"],
+        identifier: "HNT260",
+        image: "HNT260",
+        isExpansionSlot: true,
+        print: "HNT260",
+        set: Release.TheHunted,
+      },
+      {
+        artists: ["Federico Musetti"],
+        foiling: Foiling.R,
+        identifier: "HNT260",
+        image: "HNT260-EA",
+        isExpansionSlot: true,
+        print: "HNT260-Rainbow-Extended Art",
+        set: Release.TheHunted,
+        treatment: Treatment.EA,
+      },
+    ];
+
+    // const defaultPrinting = getDefaultPrinting(
+    //   { cardIdentifier, name },
+    //   printings
+    // );
+    // expect(defaultPrinting.image).toEqual("HNT260");
+
+    const specialPrinting = getSpecialPrinting(
+      { cardIdentifier, name },
+      printings
+    );
+    expect(specialPrinting.image).toEqual("HNT260-EA");
+  });
 });

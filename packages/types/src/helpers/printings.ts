@@ -102,7 +102,15 @@ export const getSpecialPrinting = (
     ([identifier]) => identifier === cardIdentifier
   );
 
-  if (matchingOverride) {
+  const printingsIncludeMatchingOverride =
+    !!matchingOverride &&
+    printings.some((printing) => {
+      const [, { print }] = matchingOverride;
+
+      return printing.print === print;
+    });
+
+  if (printingsIncludeMatchingOverride) {
     const [, { print }] = matchingOverride;
     const matchingPrint = printings.find(
       (printing) => printing.print === print
@@ -257,7 +265,15 @@ export const getDefaultPrinting = (
     ([identifier]) => identifier === cardIdentifier
   );
 
-  if (matchingOverride) {
+  const printingsIncludeMatchingOverride =
+    !!matchingOverride &&
+    printings.some((printing) => {
+      const [, { print }] = matchingOverride;
+
+      return printing.print === print;
+    });
+
+  if (printingsIncludeMatchingOverride) {
     const [, { print }] = matchingOverride;
     const matchingPrint = printings.find(
       (printing) => printing.print === print
