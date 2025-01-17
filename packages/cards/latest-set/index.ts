@@ -3842,8 +3842,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "dragon-power-blue",
     classes: [Class.Ninja],
@@ -3898,7 +3897,8 @@ Your next dagger attack this turn gets +1{p}.`,
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mario Wibisono"],
     cardIdentifier: "dragonscaler-flight-path",
     classes: [Class.NotClassed],
@@ -6686,32 +6686,10 @@ When this hits a hero, they lose 1{h}.`,
       set: Release.TheHunted,
       
       
-    },{
-        artists: ["Max Kostin"],
-      
-      identifier: "HNT135",
-      image: "HNT135",
-      
-      
-      print: "HNT135",
-      set: Release.TheHunted,
-      
-      
-    },{
-        artists: ["Max Kostin"],
-      
-      identifier: "HNT136",
-      image: "HNT136",
-      
-      
-      print: "HNT136",
-      set: Release.TheHunted,
-      
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT134","HNT135","HNT136"],
+    setIdentifiers: ["HNT134"],
     sets: [Release.TheHunted],
     specialImage: "HNT134",
     subtypes: [Subtype.NonAttack],
@@ -6734,9 +6712,127 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     keywords: [Keyword.GoAgain],
     
-    
+    meta: [Meta.Rainbow],
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "knife-through-butter-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "HNT135",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Knife Through Butter",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT135",
+      image: "HNT135",
+      
+      
+      print: "HNT135",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT135"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT135",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +3{p}.
+
+Whenever you attack a **marked** hero this turn, the attack gets **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "knife-through-butter-blue",
+    classes: [Class.Warrior],
+    defaultImage: "HNT136",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Knife Through Butter",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "HNT136",
+      image: "HNT136",
+      
+      
+      print: "HNT136",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT136"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT136",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next dagger attack this turn gets +2{p}.
+
+Whenever you attack a **marked** hero this turn, the attack gets **go again**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
     
     
     
@@ -11272,8 +11368,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["SanSan"],
     cardIdentifier: "scar-tissue-yellow",
     classes: [Class.Assassin,Class.Warrior],
@@ -11328,7 +11423,8 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["SanSan"],
     cardIdentifier: "scar-tissue-blue",
     classes: [Class.Assassin,Class.Warrior],
@@ -12932,32 +13028,10 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       set: Release.TheHunted,
       
       
-    },{
-        artists: ["Galih M"],
-      
-      identifier: "HNT212",
-      image: "HNT212",
-      
-      
-      print: "HNT212",
-      set: Release.TheHunted,
-      
-      
-    },{
-        artists: ["Galih M"],
-      
-      identifier: "HNT213",
-      image: "HNT213",
-      
-      
-      print: "HNT213",
-      set: Release.TheHunted,
-      
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT211","HNT212","HNT213"],
+    setIdentifiers: ["HNT211"],
     sets: [Release.TheHunted],
     specialImage: "HNT211",
     subtypes: [],
@@ -12976,9 +13050,119 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    meta: [Meta.Rainbow],
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "take-a-stab-yellow",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT212",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Take a Stab",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "HNT212",
+      image: "HNT212",
+      
+      
+      print: "HNT212",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT212"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT212",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +2{p} and "When this hits a **marked** hero, you may attack with it an additional time this turn."`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "take-a-stab-blue",
+    classes: [Class.Assassin,Class.Warrior],
+    defaultImage: "HNT213",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Boltyn,Hero.Crackni,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Nuu,Hero.Olympia,Hero.Slippy,Hero.Uzuri],
+    name: "Take a Stab",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "HNT213",
+      image: "HNT213",
+      
+      
+      print: "HNT213",
+      set: Release.TheHunted,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HNT213"],
+    sets: [Release.TheHunted],
+    specialImage: "HNT213",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Assassin / Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Target dagger attack gets +1{p} and "When this hits a **marked** hero, you may attack with it an additional time this turn."`,
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
     
     
     
