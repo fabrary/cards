@@ -340,7 +340,7 @@ export const releases: ReleaseInfo[] = [
       Class.Wizard,
     ],
     deckLinks: [],
-    heroes: [Hero.GenisWotchuneed, Hero.Valda],
+    heroes: [Hero.Genis, Hero.Valda],
     languages: [Language.English],
     release: Release.Everfest,
     relatedReleases: [],

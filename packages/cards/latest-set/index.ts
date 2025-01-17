@@ -200,6 +200,127 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
   
   
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "arakni",
+    classes: [Class.Assassin],
+    defaultImage: "HNT264",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.Commoner,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni],
+    name: "Arakni",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT264",
+      image: "HNT264",
+      isExpansionSlot: true,
+      
+      print: "HNT264-Cold",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT264",
+      image: "HNT264_BACK",
+      isExpansionSlot: true,
+      
+      print: "HNT264-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["DYN114","HER073","HNT264"],
+    sets: [Release.Dynasty,Release.Promos,Release.TheHunted],
+    specialImage: "HNT264_BACK",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent's deck. You may put it on the bottom.`,
+    
+    hero: Hero.Arakni,
+    intellect: 4,
+    
+    
+    life: 20,
+    meta: [Meta.Expansion],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  young: true
+  },{
+    artists: ["Dominik Mayer"],
+    cardIdentifier: "arakni-5lp3d-7hru-7h3-cr4x",
+    classes: [Class.Assassin],
+    defaultImage: "HNT261",
+    legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
+    legalHeroes: [Hero.Slippy],
+    name: "Arakni, 5L!p3d 7hRu 7h3 cR4X",
+    printings: [{
+        artists: ["Dominik Mayer"],
+      foiling: Foiling.C,
+      identifier: "HNT261",
+      image: "HNT261",
+      isExpansionSlot: true,
+      
+      print: "HNT261-Cold-Full Art",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["HER130","HNT261"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT261",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Chaos Assassin Hero",
+
+    
+    
+    
+    
+    
+    functionalText: `The first attack with **stealth** each turn gets **go again**.`,
+    
+    hero: Hero.Slippy,
+    intellect: 4,
+    
+    keywords: [Keyword.GoAgain],
+    life: 38,
+    meta: [Meta.Expansion],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Chaos],
+  
+  
+  },{
     artists: ["soyameii"],
     cardIdentifier: "arakni-black-widow",
     classes: [Class.Assassin],
@@ -222,7 +343,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
         artists: ["soyameii"],
       foiling: Foiling.C,
       identifier: "HNT003",
-      image: "HNT003-V2",
+      image: "HNT003_V2",
       
       
       print: "HNT003-Cold-Full Art",
@@ -234,7 +355,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
     rarity: Rarity.Token,
     setIdentifiers: ["HNT003"],
     sets: [Release.TheHunted],
-    specialImage: "HNT003-V2",
+    specialImage: "HNT003_V2",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -290,7 +411,7 @@ At the beginning of your end phase, **return to the brood**.`,
         artists: ["Federico Musetti"],
       foiling: Foiling.C,
       identifier: "HNT004",
-      image: "HNT004-V2",
+      image: "HNT004_V2",
       
       
       print: "HNT004-Cold-Full Art",
@@ -302,7 +423,7 @@ At the beginning of your end phase, **return to the brood**.`,
     rarity: Rarity.Token,
     setIdentifiers: ["HNT004"],
     sets: [Release.TheHunted],
-    specialImage: "HNT004-V2",
+    specialImage: "HNT004_V2",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -337,6 +458,72 @@ At the beginning of your end phase, **return to the brood**.`,
   
   },{
     artists: ["Isuardi Therianto"],
+    cardIdentifier: "arakni-huntsman",
+    classes: [Class.Assassin],
+    defaultImage: "HNT263",
+    legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
+    legalHeroes: [Hero.Arakni],
+    name: "Arakni, Huntsman",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT263",
+      image: "HNT263",
+      isExpansionSlot: true,
+      
+      print: "HNT263-Cold",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT263",
+      image: "HNT263_BACK",
+      isExpansionSlot: true,
+      
+      print: "HNT263-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["DYN113","HER074","HNT263","WIN020"],
+    sets: [Release.Dynasty,Release.Promos,Release.TheHunted],
+    specialImage: "HNT263_BACK",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Assassin Hero",
+
+    
+    
+    
+    
+    
+    functionalText: `Whenever you play a card with **contract**, you may look at the top card of target opponent's deck. You may put it on the bottom.`,
+    
+    hero: Hero.Arakni,
+    intellect: 4,
+    
+    
+    life: 40,
+    meta: [Meta.Expansion],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
     cardIdentifier: "arakni-marionette",
     classes: [Class.Assassin],
     defaultImage: "HNT001",
@@ -358,19 +545,30 @@ At the beginning of your end phase, **return to the brood**.`,
         artists: ["Isuardi Therianto"],
       foiling: Foiling.C,
       identifier: "HNT001",
-      image: "HNT001-V2_BACK",
+      image: "HNT001_V2_BACK",
       
       
       print: "HNT001-Cold-Full Art-Back",
       set: Release.TheHunted,
       
       treatment: Treatment.FA,
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT001",
+      image: "HNT001_V2",
+      
+      
+      print: "HNT001-Cold",
+      set: Release.TheHunted,
+      
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HNT001"],
     sets: [Release.TheHunted],
-    specialImage: "HNT001-V2_BACK",
+    specialImage: "HNT001_V2_BACK",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Chaos Assassin Hero",
@@ -426,7 +624,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
         artists: ["Jessada Sutthi"],
       foiling: Foiling.C,
       identifier: "HNT005",
-      image: "HNT005-V2",
+      image: "HNT005_V2",
       
       
       print: "HNT005-Cold-Full Art",
@@ -438,7 +636,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     rarity: Rarity.Token,
     setIdentifiers: ["HNT005"],
     sets: [Release.TheHunted],
-    specialImage: "HNT005-V2",
+    specialImage: "HNT005_V2",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -496,7 +694,7 @@ At the beginning of your end phase, **return to the brood**.`,
         artists: ["Nathaniel Himawan"],
       foiling: Foiling.C,
       identifier: "HNT006",
-      image: "HNT006-V2",
+      image: "HNT006_V2",
       
       
       print: "HNT006-Cold-Full Art",
@@ -508,7 +706,7 @@ At the beginning of your end phase, **return to the brood**.`,
     rarity: Rarity.Token,
     setIdentifiers: ["HNT006"],
     sets: [Release.TheHunted],
-    specialImage: "HNT006-V2",
+    specialImage: "HNT006_V2",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -542,6 +740,72 @@ At the beginning of your end phase, **return to the brood**.`,
   traits: [Trait.AgentOfChaos],
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "arakni-solitary-confinement",
+    classes: [Class.Assassin],
+    defaultImage: "HNT262",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni],
+    name: "Arakni, Solitary Confinement",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "HNT262",
+      image: "HNT262",
+      isExpansionSlot: true,
+      
+      print: "HNT262-Cold",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "HNT262",
+      image: "HNT262_BACK",
+      isExpansionSlot: true,
+      
+      print: "HNT262-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.FA,
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Token,
+    setIdentifiers: ["ARA001","HER079","HER082","HNT262","OUT003"],
+    sets: [Release.ArakniBlitzDeck,Release.Outsiders,Release.Promos,Release.TheHunted],
+    specialImage: "HNT262_BACK",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Assassin Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `Your first attack with **stealth** each turn gets **go again**.`,
+    
+    hero: Hero.Arakni,
+    intellect: 4,
+    
+    keywords: [Keyword.GoAgain],
+    life: 19,
+    meta: [Meta.Expansion],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  young: true
+  },{
     artists: ["Max Kostin"],
     cardIdentifier: "arakni-tarantula",
     classes: [Class.Assassin],
@@ -564,7 +828,7 @@ At the beginning of your end phase, **return to the brood**.`,
         artists: ["Max Kostin"],
       foiling: Foiling.C,
       identifier: "HNT007",
-      image: "HNT007-V2",
+      image: "HNT007_V2",
       
       
       print: "HNT007-Cold-Full Art",
@@ -576,7 +840,7 @@ At the beginning of your end phase, **return to the brood**.`,
     rarity: Rarity.Token,
     setIdentifiers: ["HNT007"],
     sets: [Release.TheHunted],
-    specialImage: "HNT007-V2",
+    specialImage: "HNT007_V2",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -634,7 +898,7 @@ At the beginning of your end phase, **return to the brood**.`,
         artists: ["Jessada Sutthi"],
       foiling: Foiling.C,
       identifier: "HNT008",
-      image: "HNT008-V2",
+      image: "HNT008_V2",
       
       
       print: "HNT008-Cold-Full Art",
@@ -646,7 +910,7 @@ At the beginning of your end phase, **return to the brood**.`,
     rarity: Rarity.Token,
     setIdentifiers: ["HNT008"],
     sets: [Release.TheHunted],
-    specialImage: "HNT008-V2",
+    specialImage: "HNT008_V2",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -702,19 +966,30 @@ At the beginning of your end phase, **return to the brood**.`,
         artists: ["Isuardi Therianto"],
       foiling: Foiling.C,
       identifier: "HNT002",
-      image: "HNT002-V2_BACK",
+      image: "HNT002_V2_BACK",
       
       
       print: "HNT002-Cold-Full Art-Back",
       set: Release.TheHunted,
       
       treatment: Treatment.FA,
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT002",
+      image: "HNT002_V2",
+      
+      
+      print: "HNT002-Cold",
+      set: Release.TheHunted,
+      
+      
     },],
     rarities: [Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HNT002"],
     sets: [Release.TheHunted],
-    specialImage: "HNT002-V2_BACK",
+    specialImage: "HNT002_V2_BACK",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Chaos Assassin Hero - Young",
@@ -1201,7 +1476,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     classes: [Class.Generic],
     defaultImage: "HNT219",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Blade Beckoner Boots",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -1258,7 +1533,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     classes: [Class.Generic],
     defaultImage: "HNT218",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Blade Beckoner Gauntlets",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -1315,7 +1590,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     classes: [Class.Generic],
     defaultImage: "HNT216",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Blade Beckoner Helm",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -1372,7 +1647,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     classes: [Class.Generic],
     defaultImage: "HNT217",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Blade Beckoner Plating",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -1905,12 +2180,23 @@ Target dagger attack gets +4{p}.`,
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "HNT154",
+      image: "HNT154-EA",
+      
+      
+      print: "HNT154-Rainbow-Extended Art",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HNT154"],
     sets: [Release.TheHunted],
-    specialImage: "HNT154",
+    specialImage: "HNT154-EA",
     subtypes: [],
     types: [Type.Instant],
     typeText: "Draconic Instant",
@@ -1949,7 +2235,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     classes: [Class.Generic],
     defaultImage: "HNT220",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Bunker Beard",
     printings: [{
         artists: ["Tomasz Jedruszek"],
@@ -2059,7 +2345,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     classes: [Class.Generic],
     defaultImage: "HNT230",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Calming Breeze",
     printings: [{
         artists: ["Thomas Ressuge"],
@@ -2241,7 +2527,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
         artists: ["Livia Prima"],
       foiling: Foiling.C,
       identifier: "HNT055",
-      image: "HNT055-V2",
+      image: "HNT055_V2",
       
       
       print: "HNT055-Cold",
@@ -2252,7 +2538,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
         artists: ["Livia Prima"],
       foiling: Foiling.C,
       identifier: "HNT055",
-      image: "HNT055-V2_BACK",
+      image: "HNT055_V2_Back",
       
       
       print: "HNT055-Cold-Full Art-Back",
@@ -2264,7 +2550,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     rarity: Rarity.Token,
     setIdentifiers: ["HNT055"],
     sets: [Release.TheHunted],
-    specialImage: "HNT055-V2_BACK",
+    specialImage: "HNT055_V2_Back",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Royal Draconic Ninja Hero - Young",
@@ -2301,7 +2587,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     artists: ["Livia Prima"],
     cardIdentifier: "cindra-dracai-of-retribution",
     classes: [Class.Ninja],
-    defaultImage: "HNT054-V2",
+    defaultImage: "HNT054_V2",
     legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
     legalHeroes: [Hero.Cindra],
     name: "Cindra, Dracai of Retribution",
@@ -2309,7 +2595,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
         artists: ["Livia Prima"],
       foiling: Foiling.C,
       identifier: "HNT054",
-      image: "HNT054-V2",
+      image: "HNT054_V2",
       
       
       print: "HNT054-Cold",
@@ -2320,7 +2606,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
         artists: ["Livia Prima"],
       foiling: Foiling.C,
       identifier: "HNT054",
-      image: "HNT054-V2_BACK",
+      image: "HNT054_V2_Back",
       
       
       print: "HNT054-Cold-Full Art-Back",
@@ -2343,7 +2629,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     rarity: Rarity.Majestic,
     setIdentifiers: ["HNT054"],
     sets: [Release.TheHunted],
-    specialImage: "HNT054-V2_BACK",
+    specialImage: "HNT054_V2_Back",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Royal Draconic Ninja Hero",
@@ -2437,7 +2723,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     classes: [Class.Generic],
     defaultImage: "HNT260",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Command and Conquer",
     printings: [{
         artists: ["Federico Musetti"],
@@ -2560,7 +2846,7 @@ When this hits a hero, destroy all cards in their arsenal.`,
     classes: [Class.Generic],
     defaultImage: "HNT245",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Cracked Bauble",
     printings: [{
         artists: ["Sam Yang"],
@@ -3743,7 +4029,8 @@ Your next dagger attack this turn gets +1{p}.`,
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Marco González"],
     cardIdentifier: "dragon-power-red",
     classes: [Class.Ninja],
@@ -3908,8 +4195,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "dragonscaler-flight-path",
     classes: [Class.NotClassed],
@@ -3925,6 +4211,17 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT143-Rainbow",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.C,
+      identifier: "HNT143",
+      image: "HNT143",
+      
+      
+      print: "HNT143-Cold",
       set: Release.TheHunted,
       
       
@@ -4042,7 +4339,7 @@ Gain {r}. Draw a card.`,
     classes: [Class.Generic],
     defaultImage: "HNT223",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Dual Threat",
     printings: [{
         artists: ["Sebastian Giacobino"],
@@ -4226,6 +4523,17 @@ Target dagger attack gets +3{p}.`,
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.C,
+      identifier: "HNT252",
+      image: "HNT252",
+      isExpansionSlot: true,
+      
+      print: "HNT252-Cold",
+      set: Release.TheHunted,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -4323,7 +4631,7 @@ Target dagger attack gets +3{p}.`,
     classes: [Class.Generic],
     defaultImage: "HNT237",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Exposed",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -4456,7 +4764,7 @@ Target attack gets +1{p}.
         artists: ["Billy Christian"],
       foiling: Foiling.C,
       identifier: "HNT099",
-      image: "HNT099-V2",
+      image: "HNT099_V2",
       
       
       print: "HNT099-Cold",
@@ -4467,7 +4775,7 @@ Target attack gets +1{p}.
         artists: ["Billy Christian"],
       foiling: Foiling.C,
       identifier: "HNT099",
-      image: "HNT099-V2_BACK",
+      image: "HNT099_V2_BACK",
       
       
       print: "HNT099-Cold-Full Art-Back",
@@ -4479,7 +4787,7 @@ Target attack gets +1{p}.
     rarity: Rarity.Token,
     setIdentifiers: ["HNT099"],
     sets: [Release.TheHunted],
-    specialImage: "HNT099-V2_BACK",
+    specialImage: "HNT099_V2_BACK",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Royal Draconic Warrior Hero - Young",
@@ -4516,7 +4824,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     artists: ["Billy Christian"],
     cardIdentifier: "fang-dracai-of-blades",
     classes: [Class.Warrior],
-    defaultImage: "HNT098-V2",
+    defaultImage: "HNT098_V2",
     legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
     legalHeroes: [Hero.Fang],
     name: "Fang, Dracai of Blades",
@@ -4524,7 +4832,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
         artists: ["Billy Christian"],
       foiling: Foiling.C,
       identifier: "HNT098",
-      image: "HNT098-V2",
+      image: "HNT098_V2",
       
       
       print: "HNT098-Cold",
@@ -4535,7 +4843,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
         artists: ["Billy Christian"],
       foiling: Foiling.C,
       identifier: "HNT098",
-      image: "HNT098-V2_BACK",
+      image: "HNT098_V2_BACK",
       
       
       print: "HNT098-Cold-Full Art-Back",
@@ -4558,7 +4866,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     rarity: Rarity.Majestic,
     setIdentifiers: ["HNT098"],
     sets: [Release.TheHunted],
-    specialImage: "HNT098-V2_BACK",
+    specialImage: "HNT098_V2_BACK",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Royal Draconic Warrior Hero",
@@ -6111,6 +6419,17 @@ Target dagger attack gets +4{p}.`,
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.C,
+      identifier: "HNT009",
+      image: "HNT009",
+      isExpansionSlot: true,
+      
+      print: "HNT009-Cold",
+      set: Release.TheHunted,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -6282,7 +6601,7 @@ Target dagger attack gets +2{p}.`,
     classes: [Class.Generic],
     defaultImage: "HNT228",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Imperial Seal of Command",
     printings: [{
         artists: ["Milivoj Ćeran"],
@@ -6296,7 +6615,7 @@ Target dagger attack gets +2{p}.`,
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["HNT228"],
     sets: [Release.TheHunted],
@@ -7037,7 +7356,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     classes: [Class.Generic],
     defaultImage: "HNT236",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Lay Low",
     printings: [{
         artists: ["Widya Wang"],
@@ -7602,7 +7921,8 @@ When this hits a **marked** hero, they banish a card from their hand.`,
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Rio Sabda"],
     cardIdentifier: "mark-of-the-black-widow-blue",
     classes: [Class.Assassin],
@@ -7716,8 +8036,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "mark-of-the-funnel-web-yellow",
     classes: [Class.Assassin],
@@ -8260,6 +8579,17 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.C,
+      identifier: "HNT250",
+      image: "HNT250",
+      isExpansionSlot: true,
+      
+      print: "HNT250-Cold",
+      set: Release.TheHunted,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -8304,7 +8634,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     classes: [Class.Generic],
     defaultImage: "HNT239",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Nip at the Heels",
     printings: [{
         artists: ["Carlos Cruchaga"],
@@ -8369,6 +8699,17 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       isExpansionSlot: true,
       
       print: "HNT251",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.C,
+      identifier: "HNT251",
+      image: "HNT251",
+      isExpansionSlot: true,
+      
+      print: "HNT251-Cold",
       set: Release.TheHunted,
       
       
@@ -8720,7 +9061,7 @@ Your next attack with **stealth** this turn gets +1{p}.
     classes: [Class.Generic],
     defaultImage: "HNT235",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Outed",
     printings: [{
         artists: ["Tommy Suhartono"],
@@ -8985,7 +9326,7 @@ Draw a card.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     meta: [Meta.Rainbow],
     
@@ -9042,7 +9383,7 @@ Draw a card.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     meta: [Meta.Rainbow],
     
@@ -9099,7 +9440,7 @@ Draw a card.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     meta: [Meta.Rainbow],
     
@@ -9930,7 +10271,7 @@ At the beginning of your end phase, if you've attacked less than 3 times this tu
     classes: [Class.Generic],
     defaultImage: "HNT241",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Public Bounty",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -9989,7 +10330,7 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
     classes: [Class.Generic],
     defaultImage: "HNT242",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Public Bounty",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -10048,7 +10389,7 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
     classes: [Class.Generic],
     defaultImage: "HNT243",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Public Bounty",
     printings: [{
         artists: ["Daniel Jiménez"],
@@ -10107,7 +10448,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     classes: [Class.Generic],
     defaultImage: "HNT224",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Pursue to the Edge of Oblivion",
     printings: [{
         artists: ["Reza Afshar"],
@@ -10162,7 +10503,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     classes: [Class.Generic],
     defaultImage: "HNT225",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Pursue to the Pits of Despair",
     printings: [{
         artists: ["Tomasz Jedruszek"],
@@ -10217,7 +10558,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     classes: [Class.Generic],
     defaultImage: "HNT238",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Put in Context",
     printings: [{
         artists: ["Maerel Hibadita"],
@@ -10272,7 +10613,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     classes: [Class.Generic],
     defaultImage: "HNT215",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Quickdodge Flexors",
     printings: [{
         artists: ["Tanapon Wachirakul"],
@@ -10384,7 +10725,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     classes: [Class.Generic],
     defaultImage: "HNT227",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Razor Reflex",
     printings: [{
         artists: ["Adolfo Navarro"],
@@ -10887,7 +11228,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     classes: [Class.Generic],
     defaultImage: "HNT229",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Relentless Pursuit",
     printings: [{
         artists: ["Reza Afshar"],
@@ -11013,6 +11354,17 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       isExpansionSlot: true,
       
       print: "HNT256",
+      set: Release.TheHunted,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.C,
+      identifier: "HNT256",
+      image: "HNT256",
+      isExpansionSlot: true,
+      
+      print: "HNT256-Cold",
       set: Release.TheHunted,
       
       
@@ -11172,7 +11524,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
     classes: [Class.Generic],
     defaultImage: "HNT221",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Rotten Remains",
     printings: [{
         artists: ["Marco González"],
@@ -11390,7 +11742,8 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["SanSan"],
     cardIdentifier: "scar-tissue-yellow",
     classes: [Class.Assassin,Class.Warrior],
@@ -11445,8 +11798,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["SanSan"],
     cardIdentifier: "scar-tissue-blue",
     classes: [Class.Assassin,Class.Warrior],
@@ -11860,7 +12212,7 @@ At the beginning of your end phase, destroy this.`,
     classes: [Class.Generic],
     defaultImage: "HNT222",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Shelter from the Storm",
     printings: [{
         artists: ["Rio Sabda"],
@@ -11873,12 +12225,23 @@ At the beginning of your end phase, destroy this.`,
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "HNT222",
+      image: "HNT222-EA",
+      
+      
+      print: "HNT222-Rainbow-Extended Art",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.EA,
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HNT222"],
     sets: [Release.TheHunted],
-    specialImage: "HNT222",
+    specialImage: "HNT222-EA",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Generic Defense Reaction",
@@ -11915,7 +12278,7 @@ At the beginning of your end phase, destroy this.`,
     classes: [Class.Generic],
     defaultImage: "HNT231",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Sigil of Solace",
     printings: [{
         artists: ["Adolfo Navarro"],
@@ -12302,7 +12665,7 @@ Target dagger attack gets +3{p}.`,
     classes: [Class.Generic],
     defaultImage: "HNT226",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Sound the Alarm",
     printings: [{
         artists: ["Thomas Ressuge"],
@@ -13332,7 +13695,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
         artists: ["Tomasz Jedruszek"],
       
       identifier: "HNT246",
-      image: "HNT246_V2",
+      image: "HNT246-EA",
       isExpansionSlot: true,
       
       print: "HNT246-Extended Art",
@@ -13344,7 +13707,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["HNT246"],
     sets: [Release.TheHunted],
-    specialImage: "HNT246_V2",
+    specialImage: "HNT246-EA",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action - Attack",
@@ -13607,7 +13970,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     classes: [Class.Generic],
     defaultImage: "HNT232",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Tip-Off",
     printings: [{
         artists: ["Max Kostin"],
@@ -13662,7 +14025,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     classes: [Class.Generic],
     defaultImage: "HNT233",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Tip-Off",
     printings: [{
         artists: ["Max Kostin"],
@@ -13717,7 +14080,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     classes: [Class.Generic],
     defaultImage: "HNT234",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Tip-Off",
     printings: [{
         artists: ["Max Kostin"],
@@ -14176,6 +14539,17 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Vito Febrianno"],
+      foiling: Foiling.C,
+      identifier: "HNT247",
+      image: "HNT247",
+      isExpansionSlot: true,
+      
+      print: "HNT247-Cold",
+      set: Release.TheHunted,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -14220,7 +14594,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     classes: [Class.Generic],
     defaultImage: "HNT240",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.GenisWotchuneed,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Trot Along",
     printings: [{
         artists: ["Esty Swandana"],
@@ -14599,7 +14973,7 @@ Your next dagger attack this turn gets +4{p}.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     meta: [Meta.Rainbow],
     
@@ -14658,7 +15032,7 @@ Your next dagger attack this turn gets +3{p}.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     meta: [Meta.Rainbow],
     
@@ -14717,7 +15091,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     meta: [Meta.Rainbow],
     

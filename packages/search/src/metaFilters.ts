@@ -79,7 +79,7 @@ const nicknameHeroMappings: { hero: Hero; nicknames: string[] }[] = [
     nicknames: ["dori"],
   },
   {
-    hero: Hero.GenisWotchuneed,
+    hero: Hero.Genis,
     nicknames: ["genis"],
   },
   {

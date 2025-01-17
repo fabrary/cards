@@ -223,6 +223,7 @@ export const fabDictionary = [
   "mkii",
   "mage",
   "magister",
+  "magrar",
   "mauvrion",
   "maxx",
   "mechanoid",

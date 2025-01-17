@@ -236,7 +236,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Fai]: fai,
   [Hero.Fang]: fang,
   [Hero.Florian]: florian,
-  [Hero.GenisWotchuneed]: genis,
+  [Hero.Genis]: genis,
   [Hero.Ira]: ira,
   [Hero.Iyslander]: iyslander,
   [Hero.Jarl]: jarl,

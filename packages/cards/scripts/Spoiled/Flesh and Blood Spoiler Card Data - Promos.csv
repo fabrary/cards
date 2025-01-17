@@ -6,9 +6,12 @@ HER123,HER,"Ira, Scarlet Revenger",,,,,40,4,,"Ninja, Hero",,,,,,,Your second att
 JDG032,JDG,Heavy Industry Power Plant,,,,2,,,,"Mechanologist, Equipment, Chest","Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
 
 **Temper**",Mechanologist Equipment - Chest,,,,No,,P,C,,Simon Dominic,,,JDG032,/JDG032.png,,,,,,,,,,,,,,,,,,,
-HER130,HER,"Arakni, 5L!p3d 7hRu 7h3 cR4X",,,,,38,4,,"Chaos, Assassin, Hero",,,,Go again,,Stealth,The first attack with **stealth** each turn gets **go again**.,Chaos Assassin Hero,,,,,,P,C,EA,Dominik Mayer,,,HER130,/HER130.png,,,,,,,,,,,,,,,,,,,
 LGS355,LGS,Spirit of Christmas,3,0,,3,,,,"Generic, Action",Go again,,,,,,"Each hero chooses another hero. The chosen hero creates an Agility, Might, Vigor, and Gold token.
 
 **Go again**",Generic Action,,No,No,No,No,P,C,EA,Sebastian Giacobino,,,LGS355,/LGS355.png,,,,,,,,,,,,,,,,,,,
 LSS019,LSS,Scarf for a Scarf,1,0,4,2,,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, exchange a head equipment permanent with them. If you do, this gets **go again**.",Generic Action - Attack,,No,No,No,No,P,R,EA,Emanuel Dias,,,,,,,,,,,,,,,,,,,,,,,
 FAB234,FAB,Spike with Bloodrot,1,1,,3,,,,"Assassin, Attack Reaction",,,,,,,,,,,,No,,P,R,EA,Mateusz Wiśniewski,,,FAB324,/FAB324.png,,,,,,,,,,,,,,,,,,,
+JDG038,JDG,Magrar,,,,,,,,"Merchant, Equipment, Off-Hand",Genis Specialization,,,,,,"**Genis Specialization**
+
+**Action** - Destroy this: Create a Zen State and an Inertia token.",Merchant Equipment - Off-Hand,,,,No,,P,C,,Petrinda Wiyugo,,,JDG038,/JDG038.png,,,,,,,,,,,,,,,,,,,
+FAB306,FAB,Unmovable,1,3,,7,,,,"Generic, Defense Reaction",,,,,,,"If this was played from arsenal, it gets +3{d}.",Generic Defense Reaction,,,,,,P,R,EA,Bastien Jez,,,FAB306,/FAB306.png,,,,,,,,,,,,,,,,,,,
