@@ -25,6 +25,11 @@ export const shorthands: {
     shorthands: ["DR"],
   },
   {
+    description: "Flick daggers",
+    filters: ["Target dagger you control deal 1 damage"],
+    shorthands: ["Flick", "Hurl", "Throw"],
+  },
+  {
     description: "Gain life",
     filters: ["gain {h}"],
     shorthands: ["Gain life", "Gains life"],
