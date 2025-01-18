@@ -1271,6 +1271,26 @@ export const releases: ReleaseInfo[] = [
     talents: [Talent.Chaos, Talent.Draconic, Talent.Royal],
     url: "https://fabtcg.com/en/articles/hnt/",
   },
+  {
+    cards: 30,
+    classes: [Class.Runeblade],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Aurora],
+    languages: [
+      Language.English,
+      Language.French,
+      Language.Italian,
+      Language.Japanese,
+    ],
+    release: Release.ArmoryDeckAurora,
+    relatedReleases: [],
+    releaseDate: "2025-03-14 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["ast"],
+    talents: [Talent.Elemental, Talent.Lightning],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1302,6 +1322,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   aio: Release.ArmoryDeckDash,
   ako: Release.ArmoryDeckKayo,
   ajv: Release.ArmoryDeckOriginsJarl,
+  ast: Release.ArmoryDeckAurora,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
