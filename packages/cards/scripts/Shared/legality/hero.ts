@@ -3,9 +3,11 @@ import {
   getIsDeckCard,
   Hero,
   Keyword,
+  Meta,
   Metatype,
   Subtype,
   Talent,
+  Trait,
   Type,
 } from "@flesh-and-blood/types";
 
@@ -295,19 +297,21 @@ const TYPES_TO_CHECK_FOR_PITCH = [
   Type.Resource,
 ];
 
-const CARD_TO_LOG = "Arakni, Black Widow";
+const CARD_TO_LOG = "The Hand that Pulls the Strings";
 
 export const getLegalHeroes = (card: {
   cardIdentifier: string;
   classes: Class[];
   hero?: Hero;
   keywords?: Keyword[];
+  meta?: Meta[];
   metatypes?: Metatype[];
   name: string;
   pitch?: number;
   specializations?: Hero[];
   subtypes: Subtype[];
-  talents: Talent[];
+  talents?: Talent[];
+  traits?: Trait[];
   types: Type[];
 }): Hero[] => {
   const legalHeroes: Hero[] = [];
@@ -317,9 +321,10 @@ export const getLegalHeroes = (card: {
     if (filters) {
       const { classes, excludedPitches, excludedSubtypes, talents } = filters;
 
-      const matchesClass = card.classes.some((cardClass) =>
-        classes.includes(cardClass)
-      );
+      const matchesClass =
+        !card.classes ||
+        card.classes.length === 0 ||
+        card.classes.some((cardClass) => classes.includes(cardClass));
 
       const matchesHero = !card.hero || card.hero === hero;
 
@@ -338,12 +343,15 @@ export const getLegalHeroes = (card: {
         isArakniSpecialization &&
         [Hero.Arakni, Hero.Crackni, Hero.Slippy].includes(hero);
 
+      const isASpecialization =
+        (card.specializations && card.specializations.length > 0) ||
+        isArakniSpecialization;
+
       const matchesSpecializations =
-        !card.specializations ||
-        card.specializations.length === 0 ||
+        !isASpecialization ||
         matchesStarvoSpecialization ||
         matchesArakniSpecialization ||
-        card.specializations.includes(hero);
+        card.specializations?.includes(hero);
 
       const matchesSubtypes =
         !excludedSubtypes ||
@@ -356,7 +364,7 @@ export const getLegalHeroes = (card: {
         card.talents.every((cardTalent) => talents.includes(cardTalent));
 
       let matches =
-        (matchesClass || matchesArakniSpecialization) &&
+        matchesClass &&
         matchesHero &&
         matchesPitches &&
         matchesSpecializations &&
@@ -387,6 +395,14 @@ export const getLegalHeroes = (card: {
         const isEquipment = card.types.includes(Type.Equipment);
 
         if (isEquipment) {
+          matches = true;
+        }
+      }
+
+      if (hero === Hero.Arakni && !matches) {
+        const isAgentOfChaos = card.traits?.includes(Trait.AgentOfChaos);
+
+        if (isAgentOfChaos) {
           matches = true;
         }
       }
@@ -432,6 +448,7 @@ export const getLegalHeroes = (card: {
 
   if (card.name === CARD_TO_LOG) {
     console.log(JSON.stringify({ card, legalHeroes }, null, 2));
+    // throw new Error("err");
   }
 
   legalHeroes.sort();

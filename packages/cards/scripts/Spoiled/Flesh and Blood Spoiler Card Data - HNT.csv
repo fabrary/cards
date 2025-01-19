@@ -550,16 +550,16 @@ HNT215,HNT,Quickdodge Flexors,,,,0,,,,"Generic, Equipment, Legs",,,,,,,"**Defens
 At the beginning of the end phase, if this defendend this turn, destroy it.",Generic Equipment - Legs,,,,No,,L,R,,Tanapon Wachirakul,,,HNT215,/HNT215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT216,HNT,Blade Beckoner Helm,,,,1,,,,"Generic, Equipment, Head",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
 
-**Guardwell**",Generic Equipment - Head,,,,No,,R,,,Daniel Jiménez,,,HNT216,/HNT216.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Guardwell**",Generic Equipment - Head,,,,,,R,,,Daniel Jiménez,,,HNT216,/HNT216.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT217,HNT,Blade Beckoner Plating,,,,1,,,,"Generic, Equipment, Chest",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
 
-**Guardwell**",Generic Equipment - Chest,,,,No,,R,,,Daniel Jiménez,,,HNT217,/HNT217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Guardwell**",Generic Equipment - Chest,,,,,,R,,,Daniel Jiménez,,,HNT217,/HNT217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT218,HNT,Blade Beckoner Gauntlets,,,,1,,,,"Generic, Equipment, Arms",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
 
-**Guardwell**",Generic Equipment - Arms,,,,No,,R,,,Daniel Jiménez,,,HNT218,/HNT218.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Guardwell**",Generic Equipment - Arms,,,,,,R,,,Daniel Jiménez,,,HNT218,/HNT218.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT219,HNT,Blade Beckoner Boots,,,,1,,,,"Generic, Equipment, Legs",Guardwell,,,,,,"This gets +1{d} while defending a weapon attack.
 
-**Guardwell**",Generic Equipment - Legs,,,,No,,R,,,Daniel Jiménez,,,HNT219,/HNT219.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Guardwell**",Generic Equipment - Legs,,,,,,R,,,Daniel Jiménez,,,HNT219,/HNT219.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT220,HNT,Bunker Beard,,,,0,,,,"Generic, Equipment, Head",,,,,,,**Defense Reaction** - Destroy this: You may add an action card from your arsenal to the active chain link as a defending card.,Generic Equipment - Head,,,,,,C,,,Tomasz Jedruszek,,,HNT220,/HNT220.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT221,HNT,Rotten Remains,3,0,1,3,,,,"Generic, Action, Attack",,,,,,,"When this attacks, you may banish a card with 1{p} from each hero's graveyard. If you do, this gets +1{p}, then repeat this process.",Generic Action - Attack,,,,No,,M,,,Marco González,,,HNT221,/HNT221.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 HNT222,HNT,Shelter from the Storm,1,0,,4,,,,"Generic, Defense Reaction",,,,,,,"**Instant** - Discard this: The next 3 times you would be dealt damage this turn, prevent 1 of that damage.",Generic Defense Reaction,,,,No,,M,,,Rio Sabda,,,HNT222,/HNT222.png,,,M,R,EA,Rio Sabda,,,HNT222,/HNT222-EA.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

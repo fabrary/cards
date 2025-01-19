@@ -25,7 +25,7 @@ export const getRelatedCardsByName = (name: string, cards: Card[]) => {
 
 export const getRelatedCards = (
   card: Card,
-  cards: Card[]
+  availableCards: Card[]
 ): { otherPitches: Card[]; referencedBy: Card[]; references: Card[] } => {
   const otherPitches: Card[] = [];
   const referencedBy: Card[] = [];
@@ -38,7 +38,7 @@ export const getRelatedCards = (
 
     const cardName = getOverrideOrName(card);
 
-    for (const other of cards) {
+    for (const other of availableCards) {
       const otherName = getOverrideOrName(other);
 
       const sameName = cardName === otherName;
@@ -121,7 +121,7 @@ const heroReferences: {
 
 export const getTokensReferencedByCards = (
   cards: Card[],
-  tokens: Card[],
+  availableTokens: Card[],
   hero?: Hero
 ): Card[] => {
   const referencedTokens: Set<Card> = new Set<Card>();
@@ -129,7 +129,7 @@ export const getTokensReferencedByCards = (
   for (const card of cards.filter(
     ({ cardIdentifier }) => !CARD_IDENTIFIERS_TO_SKIP.includes(cardIdentifier)
   )) {
-    const { references } = getRelatedCards(card, tokens);
+    const { references } = getRelatedCards(card, availableTokens);
     for (const token of references.filter((token) => {
       const isHyperDriver = token.name === "Hyper Driver";
       const isMaxx = hero === Hero.Maxx;
@@ -139,6 +139,7 @@ export const getTokensReferencedByCards = (
       referencedTokens.add(token);
     }
   }
+
   if (hero) {
     const heroCards = heroReferences[hero];
     if (heroCards) {
@@ -150,7 +151,7 @@ export const getTokensReferencedByCards = (
         }
       }
       if (heroCards.tokens) {
-        for (const token of tokens) {
+        for (const token of availableTokens) {
           if (heroCards.tokens?.includes(token.cardIdentifier)) {
             referencedTokens.add(token);
           }
