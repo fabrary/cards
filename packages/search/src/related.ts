@@ -53,6 +53,10 @@ export const getRelatedCards = (
         const isOtherCardHeaveOverride =
           isCardSeismicSurge && isOtherCardHeaved;
 
+        const isCardMarked = card.name === "Marked";
+        const isOtherCardMarking = other.keywords?.includes(Keyword.Mark);
+        const isOtherCardMarkOverride = isCardMarked && isOtherCardMarking;
+
         const otherFunctionalText =
           getFunctionalTextWithoutSelfReferences(other);
         const cardIsInOtherFunctionalTextOrTraits =
@@ -66,7 +70,8 @@ export const getRelatedCards = (
         //   (card.name.includes(other.name) || other.name.includes(card.name));
         if (
           cardIsInOtherFunctionalTextOrTraits ||
-          isOtherCardHeaveOverride
+          isOtherCardHeaveOverride ||
+          isOtherCardMarkOverride
           // && !isHeroNameSubset
           // && !other.types.includes(Type.Hero)
           // && !other.keywords?.includes(card.name as Keyword)
@@ -83,7 +88,16 @@ export const getRelatedCards = (
         const isOtherCardSeismicSurge = other.name === "Seismic Surge";
         const isCardHeaved = card.keywords?.includes(Keyword.Heave);
         const isCardHeaveOverride = isOtherCardSeismicSurge && isCardHeaved;
-        if (otherCardIsInFunctionalTextOrTraits || isCardHeaveOverride) {
+
+        const isOtherCardMarked = other.name === "Marked";
+        const isCardMarking = card.keywords?.includes(Keyword.Mark);
+        const isCardMarkOverride = isOtherCardMarked && isCardMarking;
+
+        if (
+          otherCardIsInFunctionalTextOrTraits ||
+          isCardHeaveOverride ||
+          isCardMarkOverride
+        ) {
           initialReferences.push(other);
         }
       }

@@ -19,6 +19,7 @@ describe("Related cards", () => {
     ["Dawnblade, Resplendent", 0, 3, 0],
     ["Dorinthea, Quicksilver Prodigy", 0, 0, 1],
     ["Head Jab", 2, 12, 0],
+    ["Marked", 0, 18, 0],
     ["Muscle Mutt", 0, 0, 0],
     ["Open the Center", 2, 4, 3],
     ["Prismatic Shield", 2, 0, 1],

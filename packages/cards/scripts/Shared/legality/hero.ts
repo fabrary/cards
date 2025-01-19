@@ -297,7 +297,7 @@ const TYPES_TO_CHECK_FOR_PITCH = [
   Type.Resource,
 ];
 
-const CARD_TO_LOG = "The Hand that Pulls the Strings";
+const CARD_TO_LOG = "";
 
 export const getLegalHeroes = (card: {
   cardIdentifier: string;
