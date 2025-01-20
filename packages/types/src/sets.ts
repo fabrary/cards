@@ -1278,12 +1278,7 @@ export const releases: ReleaseInfo[] = [
       // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
     ],
     heroes: [Hero.Aurora],
-    languages: [
-      Language.English,
-      Language.French,
-      Language.Italian,
-      Language.Japanese,
-    ],
+    languages: [Language.English, Language.French, Language.Japanese],
     release: Release.ArmoryDeckAurora,
     relatedReleases: [],
     releaseDate: "2025-03-14 12:00",
