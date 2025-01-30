@@ -135,6 +135,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Death Dealer",
   },
   {
+    abbreviations: ["DnD"],
+    card: "Devotion Never Dies",
+  },
+  {
     abbreviations: ["DIO"],
     card: "Dash I/O",
   },
@@ -222,10 +226,6 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["LiT"],
     card: "Lost in Thought",
-  },
-  {
-    abbreviations: ["LoW"],
-    card: "Lord of Wind",
   },
   {
     abbreviations: ["MMB"],
