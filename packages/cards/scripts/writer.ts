@@ -89,6 +89,14 @@ const getPrintings = (printings: Printing[]) => {
         treatment
           ? `treatment: ${getEnumValue(treatment, "Treatment", Treatment)},`
           : ``
+      }${
+        treatments && treatments.length > 0
+          ? `treatments: [${getEnumValues(
+              treatments,
+              "Treatment",
+              Treatment
+            )}],`
+          : ``
       }
     },`),
     ``

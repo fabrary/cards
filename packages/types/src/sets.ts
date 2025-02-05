@@ -847,7 +847,7 @@ export const releases: ReleaseInfo[] = [
     relatedReleases: [],
     releaseDate: "2024-02-02 12:00",
     releaseType: ReleaseType.BlitzDeck,
-    setIdentifiers: ["rnr"],
+    setIdentifiers: ["rhi"],
     talents: [],
   },
   {
@@ -1344,7 +1344,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   osc: Release.OscilioBlitzDeck,
   psm: Release.PrismBlitzDeck,
   rip: Release.RiptideBlitzDeck,
-  rnr: Release.RhinarBlitzDeck,
+  rhi: Release.RhinarBlitzDeck,
   uzu: Release.UzuriBlitzDeck,
   ver: Release.VerdanceBlitzDeck,
   vic: Release.VictorBlitzDeck,
@@ -1366,7 +1366,10 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   bvo: Release.BravoHeroDeck,
   tea: Release.DorintheaHeroDeck,
   ksu: Release.KatsuHeroDeck,
-  rnr2: Release.RhinarHeroDeck,
+  rnr: Release.RhinarHeroDeck,
+
+  // GEM packs
+  gem: Release.GEM,
 
   // Promos
   fab: Release.Promos,

@@ -158,6 +158,8 @@ describe("Printings", () => {
         isExpansionSlot: true,
         print: "HNT260",
         set: Release.TheHunted,
+        treatment: Treatment.AA,
+        treatments: [Treatment.AA],
       },
       {
         artists: ["Federico Musetti"],
@@ -168,6 +170,7 @@ describe("Printings", () => {
         print: "HNT260-Rainbow-Extended Art",
         set: Release.TheHunted,
         treatment: Treatment.EA,
+        treatments: [Treatment.EA, Treatment.AA],
       },
     ];
 

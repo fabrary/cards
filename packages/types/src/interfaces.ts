@@ -221,6 +221,7 @@ export enum Release {
   RoundTheTable = "Round the Table: TCC x LSS",
 
   // One-offs
+  GEM = "GEM",
   Promos = "Promos",
 }
 

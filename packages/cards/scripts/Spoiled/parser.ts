@@ -29,7 +29,7 @@ export interface ParsedCard {
   identifier?: string;
   imageUrl: string;
   rarity: string;
-  treatments?: string;
+  treatments?: string[];
   tcgplayerProductId?: string;
   tcgplayerUrl?: string;
   // 2nd printing
@@ -39,7 +39,7 @@ export interface ParsedCard {
   identifier2?: string;
   imageUrl2?: string;
   rarity2?: string;
-  treatments2?: string;
+  treatments2?: string[];
   tcgplayerProductId2?: string;
   tcgplayerUrl2?: string;
   // 3rd printing
@@ -49,7 +49,7 @@ export interface ParsedCard {
   identifier3?: string;
   imageUrl3?: string;
   rarity3?: string;
-  treatments3?: string;
+  treatments3?: string[];
   tcgplayerProductId3?: string;
   tcgplayerUrl3?: string;
   // 4th printing
@@ -59,7 +59,7 @@ export interface ParsedCard {
   identifier4?: string;
   imageUrl4?: string;
   rarity4?: string;
-  treatments4?: string;
+  treatments4?: string[];
   tcgplayerProductId4?: string;
   tcgplayerUrl4?: string;
   // 5th printing
@@ -69,7 +69,7 @@ export interface ParsedCard {
   identifier5?: string;
   imageUrl5?: string;
   rarity5?: string;
-  treatments5?: string;
+  treatments5?: string[];
   tcgplayerProductId5?: string;
   tcgplayerUrl5?: string;
 }

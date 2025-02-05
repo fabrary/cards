@@ -115,7 +115,7 @@ const getTCGplayerInfo = (
   {
     foilingString,
     identifier,
-    treatmentString,
+    treatmentStrings,
     tcgplayerProductId,
     tcgplayerUrl,
   }: PrintingInput
@@ -148,8 +148,11 @@ const getTCGplayerInfo = (
 
           const sameSetIdentifier = identifier === id;
           const sameTreatment =
-            (!treatmentString && !art_variations.length) ||
-            treatmentString === art_variations[0];
+            ((!treatmentStrings || treatmentStrings.length === 0) &&
+              !art_variations.length) ||
+            (treatmentStrings &&
+              treatmentStrings.length > 0 &&
+              treatmentStrings[0] === art_variations[0]);
 
           const tcgplayerInfoFormattedCorrectly =
             !!tcgplayer_product_id &&
@@ -189,7 +192,7 @@ interface PrintingInput {
   imageUrl?: string;
   isExpansionSlot?: boolean;
   setString: string;
-  treatmentString?: string;
+  treatmentStrings?: string[];
   tcgplayerProductId?: string;
   tcgplayerUrl?: string;
 }
@@ -201,12 +204,21 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
     identifier,
     imageUrl,
     setString,
-    treatmentString,
+    treatmentStrings,
   } = input;
   const set = setIdentifierToSetMappings[setString.toLowerCase()];
 
   const foiling = foilingString ? Foiling[foilingString] : undefined;
-  const treatment = treatmentString ? Treatment[treatmentString] : undefined;
+
+  let treatment: Treatment | undefined = undefined;
+  let treatments: Treatment[] = [];
+  for (const treat of treatmentStrings || []) {
+    const art = Treatment[treat];
+    if (!treatment) {
+      treatment = art;
+    }
+    treatments.push(art);
+  }
 
   const tcgplayer = getTCGplayerInfo(card, input);
 
@@ -235,6 +247,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
     print,
     set,
     ...(treatment ? { treatment } : {}),
+    ...(treatments?.length ? { treatments } : {}),
     ...(tcgplayer ? { tcgplayer } : {}),
   };
 };
@@ -430,7 +443,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     setString: setIdentifiers[0],
     imageUrl,
     identifier: identifier || identifiers[0],
-    treatmentString: treatments?.length ? treatments[0] : undefined,
+    treatmentStrings: treatments,
     ...(tcgplayerProductId && tcgplayerUrl
       ? {
           tcgplayerProductId,
@@ -499,7 +512,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       imageUrl: imageUrl2,
       isExpansionSlot: expansionSlot2,
       setString: setIdentifier,
-      treatmentString: treatments2?.length ? treatments2[0] : undefined,
+      treatmentStrings: treatments2,
       ...(tcgplayerProductId2 && tcgplayerUrl2
         ? {
             tcgplayerProductId: tcgplayerProductId2,
@@ -524,7 +537,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       imageUrl: imageUrl3,
       isExpansionSlot: expansionSlot3,
       setString: setIdentifier,
-      treatmentString: treatments3?.length ? treatments3[0] : undefined,
+      treatmentStrings: treatments3,
       ...(tcgplayerProductId3 && tcgplayerUrl3
         ? {
             tcgplayer: {
@@ -550,7 +563,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor4,
       imageUrl: imageUrl4,
       setString: setIdentifier,
-      treatmentString: treatments4?.length ? treatments4[0] : undefined,
+      treatmentStrings: treatments4,
       ...(tcgplayerProductId4 && tcgplayerUrl4
         ? {
             tcgplayer: {
@@ -577,7 +590,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       imageUrl: imageUrl5,
       isExpansionSlot: expansionSlot5,
       setString: setIdentifier,
-      treatmentString: treatments5?.length ? treatments5[0] : undefined,
+      treatmentStrings: treatments5,
       ...(tcgplayerProductId5 && tcgplayerUrl5
         ? {
             tcgplayer: {

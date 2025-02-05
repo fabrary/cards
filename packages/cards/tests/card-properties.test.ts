@@ -1,6 +1,6 @@
 import { cards as cardsToPublish } from "../dist/index";
 import { cards as publishedCards } from "latest-cards";
-import { Card, getPrint, Trait } from "@flesh-and-blood/types";
+import { Card, getPrint, Trait, Treatment } from "@flesh-and-blood/types";
 
 interface UpdatedComparison {
   toPublish: Card;
@@ -53,7 +53,9 @@ describe("All required fields present", () => {
     const { defaultImage, printings, specialImage, subtypes, types, typeText } =
       card as unknown as Card;
     expect(defaultImage).toBeTruthy();
+    expect(defaultImage?.toLowerCase()).not.toEqual("undefined");
     expect(specialImage).toBeTruthy();
+    expect(specialImage?.toLowerCase()).not.toEqual("undefined");
     expect(types.length || subtypes.length).toBeGreaterThan(0);
     expect(typeText).toBeTruthy();
     expect(printings.length).toBeGreaterThan(0);
@@ -130,5 +132,23 @@ describe("No duplicate identifiers", () => {
     }
 
     expect(duplicateImages).toEqual([]);
+  });
+});
+
+describe("Treatments are a superset of treatment", () => {
+  it.each(
+    cardsToPublish.map((card) => [
+      `${card.name} (${card.cardIdentifier}) ${card.setIdentifiers.join(",")}`,
+      card,
+    ])
+  )("%s", (_, card) => {
+    const { printings } = card as unknown as Card;
+    for (const { treatment, treatments } of printings) {
+      if (!!treatment || (!!treatments && treatments.length > 0)) {
+        expect(treatment).toBeTruthy();
+        expect(treatments?.length).toBeGreaterThan(0);
+        expect(treatments?.includes(treatment as Treatment));
+      }
+    }
   });
 });

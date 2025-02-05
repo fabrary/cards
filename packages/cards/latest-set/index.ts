@@ -38,13 +38,30 @@
       
       print: "HNT103",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611172",
+            url: "https://www.tcgplayer.com/product/611172?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "HNT103",
+      image: "HNT103",
+      
+      
+      print: "HNT103-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611172",
+            url: "https://www.tcgplayer.com/product/611172?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT103"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM012","HNT103"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT103",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -93,7 +110,24 @@
       
       print: "HNT125",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609231",
+            url: "https://www.tcgplayer.com/product/609231?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT125",
+      image: "HNT125",
+      
+      
+      print: "HNT125-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609231",
+            url: "https://www.tcgplayer.com/product/609231?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -150,7 +184,24 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       print: "HNT016",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613102",
+            url: "https://www.tcgplayer.com/product/613102?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.R,
+      identifier: "HNT016",
+      image: "HNT016",
+      
+      
+      print: "HNT016-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613102",
+            url: "https://www.tcgplayer.com/product/613102?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Sebastian Giacobino"],
@@ -161,8 +212,11 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       print: "HNT016-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614579",
+            url: "https://www.tcgplayer.com/product/614579?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -216,7 +270,10 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       print: "HNT264-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "614359",
+            url: "https://www.tcgplayer.com/product/614359?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -227,8 +284,11 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       print: "HNT264-Cold-Full Art-Back",
       set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
+      tcgplayer: {
+            productId: "614359",
+            url: "https://www.tcgplayer.com/product/614359?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -282,14 +342,31 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       print: "HNT261-Cold-Full Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614302",
+            url: "https://www.tcgplayer.com/product/614302?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Dominik Mayer"],
+      foiling: Foiling.C,
+      identifier: "HNT261",
+      image: "HNT261_BACK",
+      isExpansionSlot: true,
       
-      treatment: Treatment.FA,
+      print: "HNT261-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614302",
+            url: "https://www.tcgplayer.com/product/614302?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Promo,
-    setIdentifiers: ["HER130","HNT261"],
+    setIdentifiers: ["HER130","HER131","HNT261","WIN042"],
     sets: [Release.Promos,Release.TheHunted],
-    specialImage: "HNT261",
+    specialImage: "HNT261_BACK",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Chaos Assassin Hero",
@@ -337,7 +414,10 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       print: "HNT003",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615602",
+            url: "https://www.tcgplayer.com/product/615602?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["soyameii"],
@@ -348,14 +428,31 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       print: "HNT003-Cold-Full Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606681",
+            url: "https://www.tcgplayer.com/product/606681?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.C,
+      identifier: "HNT003",
+      image: "HNT003_V2_BACK",
       
-      treatment: Treatment.FA,
+      
+      print: "HNT003-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606681",
+            url: "https://www.tcgplayer.com/product/606681?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT003"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT003_V2",
+    setIdentifiers: ["HNT003","LGS376"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT003_V2_BACK",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -405,7 +502,10 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT004",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615602",
+            url: "https://www.tcgplayer.com/product/615602?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Federico Musetti"],
@@ -416,14 +516,31 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT004-Cold-Full Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606690",
+            url: "https://www.tcgplayer.com/product/606690?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.C,
+      identifier: "HNT004",
+      image: "HNT004_V2_BACK",
       
-      treatment: Treatment.FA,
+      
+      print: "HNT004-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606690",
+            url: "https://www.tcgplayer.com/product/606690?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT004"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT004_V2",
+    setIdentifiers: ["HNT004","LGS377"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT004_V2_BACK",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -473,7 +590,10 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT263-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "614358",
+            url: "https://www.tcgplayer.com/product/614358?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -484,8 +604,11 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT263-Cold-Full Art-Back",
       set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
+      tcgplayer: {
+            productId: "614358",
+            url: "https://www.tcgplayer.com/product/614358?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -539,8 +662,25 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT001",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606622",
+            url: "https://www.tcgplayer.com/product/606622?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT001",
+      image: "HNT001_V2",
       
       
+      print: "HNT001-Cold-Full Art",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606624",
+            url: "https://www.tcgplayer.com/product/606624?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.C,
@@ -550,24 +690,16 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT001-Cold-Full Art-Back",
       set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
-    },{
-        artists: ["Isuardi Therianto"],
-      foiling: Foiling.C,
-      identifier: "HNT001",
-      image: "HNT001_V2",
-      
-      
-      print: "HNT001-Cold",
-      set: Release.TheHunted,
-      
-      
+      tcgplayer: {
+            productId: "606624",
+            url: "https://www.tcgplayer.com/product/606624?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["HNT001"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["HER132","HNT001","WIN043"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT001_V2_BACK",
     subtypes: [],
     types: [Type.Hero],
@@ -585,7 +717,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     hero: Hero.Crackni,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     life: 40,
     
     
@@ -618,7 +750,10 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       print: "HNT005",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615605",
+            url: "https://www.tcgplayer.com/product/615605?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -629,14 +764,31 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       print: "HNT005-Cold-Full Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606692",
+            url: "https://www.tcgplayer.com/product/606692?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.C,
+      identifier: "HNT005",
+      image: "HNT005_V2_BACK",
       
-      treatment: Treatment.FA,
+      
+      print: "HNT005-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606692",
+            url: "https://www.tcgplayer.com/product/606692?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT005"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT005_V2",
+    setIdentifiers: ["HNT005","LGS378"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT005_V2_BACK",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -688,7 +840,10 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT006",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615605",
+            url: "https://www.tcgplayer.com/product/615605?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -699,14 +854,31 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT006-Cold-Full Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606700",
+            url: "https://www.tcgplayer.com/product/606700?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "HNT006",
+      image: "HNT006_V2_BACK",
       
-      treatment: Treatment.FA,
+      
+      print: "HNT006-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606700",
+            url: "https://www.tcgplayer.com/product/606700?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT006"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT006_V2",
+    setIdentifiers: ["HNT006","LGS379"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT006_V2_BACK",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -756,7 +928,10 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT262-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "614357",
+            url: "https://www.tcgplayer.com/product/614357?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -767,8 +942,11 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT262-Cold-Full Art-Back",
       set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
+      tcgplayer: {
+            productId: "614357",
+            url: "https://www.tcgplayer.com/product/614357?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
@@ -784,7 +962,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
-    functionalText: `Your first attack with **stealth** each turn gets **go again**.`,
+    functionalText: `Your first attack with **stealth** each turn has **go again**.`,
     
     hero: Hero.Arakni,
     intellect: 4,
@@ -822,7 +1000,10 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT007",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615606",
+            url: "https://www.tcgplayer.com/product/615606?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -833,14 +1014,31 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT007-Cold-Full Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606702",
+            url: "https://www.tcgplayer.com/product/606702?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.C,
+      identifier: "HNT007",
+      image: "HNT007_V2_BACK",
       
-      treatment: Treatment.FA,
+      
+      print: "HNT007-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606702",
+            url: "https://www.tcgplayer.com/product/606702?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT007"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT007_V2",
+    setIdentifiers: ["HNT007","LGS380"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT007_V2_BACK",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -892,7 +1090,10 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT008",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615606",
+            url: "https://www.tcgplayer.com/product/615606?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -903,14 +1104,31 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT008-Cold-Full Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606720",
+            url: "https://www.tcgplayer.com/product/606720?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.C,
+      identifier: "HNT008",
+      image: "HNT008_V2_BACK",
       
-      treatment: Treatment.FA,
+      
+      print: "HNT008-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606720",
+            url: "https://www.tcgplayer.com/product/606720?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT008"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT008_V2",
+    setIdentifiers: ["HNT008","LGS381"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT008_V2_BACK",
     subtypes: [],
     types: [Type.DemiHero],
     typeText: "Chaos Assassin Demi-Hero",
@@ -960,8 +1178,25 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT002",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "615357",
+            url: "https://www.tcgplayer.com/product/615357?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "HNT002",
+      image: "HNT002_V2",
       
       
+      print: "HNT002-Cold-Full Art",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606673",
+            url: "https://www.tcgplayer.com/product/606673?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Isuardi Therianto"],
       foiling: Foiling.C,
@@ -971,19 +1206,11 @@ At the beginning of your end phase, **return to the brood**.`,
       
       print: "HNT002-Cold-Full Art-Back",
       set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
-    },{
-        artists: ["Isuardi Therianto"],
-      foiling: Foiling.C,
-      identifier: "HNT002",
-      image: "HNT002_V2",
-      
-      
-      print: "HNT002-Cold",
-      set: Release.TheHunted,
-      
-      
+      tcgplayer: {
+            productId: "606673",
+            url: "https://www.tcgplayer.com/product/606673?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Token,
@@ -1006,7 +1233,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     hero: Hero.Crackni,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     life: 20,
     
     
@@ -1039,7 +1266,24 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       print: "HNT071",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609168",
+            url: "https://www.tcgplayer.com/product/609168?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "HNT071",
+      image: "HNT071",
+      
+      
+      print: "HNT071-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609168",
+            url: "https://www.tcgplayer.com/product/609168?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -1061,7 +1305,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -1094,7 +1338,24 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       print: "HNT074",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609169",
+            url: "https://www.tcgplayer.com/product/609169?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["寿多浩 (Hiro Suda)"],
+      foiling: Foiling.R,
+      identifier: "HNT074",
+      image: "HNT074",
+      
+      
+      print: "HNT074-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609169",
+            url: "https://www.tcgplayer.com/product/609169?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -1149,7 +1410,24 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       print: "HNT075",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609170",
+            url: "https://www.tcgplayer.com/product/609170?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["寿多浩 (Hiro Suda)"],
+      foiling: Foiling.R,
+      identifier: "HNT075",
+      image: "HNT075",
+      
+      
+      print: "HNT075-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609170",
+            url: "https://www.tcgplayer.com/product/609170?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -1204,7 +1482,24 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       print: "HNT076",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609197",
+            url: "https://www.tcgplayer.com/product/609197?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "HNT076",
+      image: "HNT076",
+      
+      
+      print: "HNT076-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609197",
+            url: "https://www.tcgplayer.com/product/609197?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -1259,7 +1554,10 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       print: "HNT029",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "614051",
+            url: "https://www.tcgplayer.com/product/614051?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Rare],
@@ -1316,7 +1614,24 @@ Defense reaction cards can't be played this chain link.`,
       
       print: "HNT017",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611149",
+            url: "https://www.tcgplayer.com/product/611149?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Raphael Pinna"],
+      foiling: Foiling.R,
+      identifier: "HNT017",
+      image: "HNT017",
+      
+      
+      print: "HNT017-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611149",
+            url: "https://www.tcgplayer.com/product/611149?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1373,7 +1688,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT018",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611150",
+            url: "https://www.tcgplayer.com/product/611150?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Raphael Pinna"],
+      foiling: Foiling.R,
+      identifier: "HNT018",
+      image: "HNT018",
+      
+      
+      print: "HNT018-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611150",
+            url: "https://www.tcgplayer.com/product/611150?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1430,7 +1762,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT019",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611151",
+            url: "https://www.tcgplayer.com/product/611151?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Raphael Pinna"],
+      foiling: Foiling.R,
+      identifier: "HNT019",
+      image: "HNT019",
+      
+      
+      print: "HNT019-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611151",
+            url: "https://www.tcgplayer.com/product/611151?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1487,7 +1836,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT219",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612698",
+            url: "https://www.tcgplayer.com/product/612698?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.C,
+      identifier: "HNT219",
+      image: "HNT219",
+      
+      
+      print: "HNT219-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612698",
+            url: "https://www.tcgplayer.com/product/612698?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1544,7 +1910,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT218",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612697",
+            url: "https://www.tcgplayer.com/product/612697?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.C,
+      identifier: "HNT218",
+      image: "HNT218",
+      
+      
+      print: "HNT218-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612697",
+            url: "https://www.tcgplayer.com/product/612697?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1601,7 +1984,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT216",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612695",
+            url: "https://www.tcgplayer.com/product/612695?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.C,
+      identifier: "HNT216",
+      image: "HNT216",
+      
+      
+      print: "HNT216-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612695",
+            url: "https://www.tcgplayer.com/product/612695?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1658,7 +2058,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT217",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612696",
+            url: "https://www.tcgplayer.com/product/612696?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.C,
+      identifier: "HNT217",
+      image: "HNT217",
+      
+      
+      print: "HNT217-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612696",
+            url: "https://www.tcgplayer.com/product/612696?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1715,7 +2132,10 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT157",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612643",
+            url: "https://www.tcgplayer.com/product/612643?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -1770,7 +2190,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT163",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612645",
+            url: "https://www.tcgplayer.com/product/612645?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.R,
+      identifier: "HNT163",
+      image: "HNT163",
+      
+      
+      print: "HNT163-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612645",
+            url: "https://www.tcgplayer.com/product/612645?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1825,7 +2262,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT106",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612604",
+            url: "https://www.tcgplayer.com/product/612604?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "HNT106",
+      image: "HNT106",
+      
+      
+      print: "HNT106-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612604",
+            url: "https://www.tcgplayer.com/product/612604?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1880,7 +2334,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT062",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612581",
+            url: "https://www.tcgplayer.com/product/612581?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "HNT062",
+      image: "HNT062",
+      
+      
+      print: "HNT062-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612581",
+            url: "https://www.tcgplayer.com/product/612581?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1937,7 +2408,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT063",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612582",
+            url: "https://www.tcgplayer.com/product/612582?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.R,
+      identifier: "HNT063",
+      image: "HNT063",
+      
+      
+      print: "HNT063-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612582",
+            url: "https://www.tcgplayer.com/product/612582?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1994,7 +2482,24 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       print: "HNT057",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609130",
+            url: "https://www.tcgplayer.com/product/609130?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT057",
+      image: "HNT057",
+      
+      
+      print: "HNT057-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609130",
+            url: "https://www.tcgplayer.com/product/609130?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -2053,7 +2558,10 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       
       print: "HNT168-Rainbow",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612648",
+            url: "https://www.tcgplayer.com/product/612648?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -2064,13 +2572,16 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       
       print: "HNT168-Cold-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614549",
+            url: "https://www.tcgplayer.com/product/614549?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["HNT168"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB293","HNT168"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT168-EA",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -2121,7 +2632,24 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       
       print: "HNT107",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612605",
+            url: "https://www.tcgplayer.com/product/612605?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.R,
+      identifier: "HNT107",
+      image: "HNT107",
+      
+      
+      print: "HNT107-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612605",
+            url: "https://www.tcgplayer.com/product/612605?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2178,7 +2706,24 @@ Target dagger attack gets +4{p}.`,
       
       print: "HNT154",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612641",
+            url: "https://www.tcgplayer.com/product/612641?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "HNT154",
+      image: "HNT154",
+      
+      
+      print: "HNT154-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612641",
+            url: "https://www.tcgplayer.com/product/612641?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -2189,8 +2734,11 @@ Target dagger attack gets +4{p}.`,
       
       print: "HNT154-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614551",
+            url: "https://www.tcgplayer.com/product/614551?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -2246,7 +2794,24 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       print: "HNT220",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612699",
+            url: "https://www.tcgplayer.com/product/612699?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "HNT220",
+      image: "HNT220",
+      
+      
+      print: "HNT220-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612699",
+            url: "https://www.tcgplayer.com/product/612699?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2301,7 +2866,24 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       print: "HNT064",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611163",
+            url: "https://www.tcgplayer.com/product/611163?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.R,
+      identifier: "HNT064",
+      image: "HNT064",
+      
+      
+      print: "HNT064-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611163",
+            url: "https://www.tcgplayer.com/product/611163?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2356,13 +2938,30 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       print: "HNT230",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614292",
+            url: "https://www.tcgplayer.com/product/614292?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "HNT230",
+      image: "HNT230",
+      
+      
+      print: "HNT230-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614292",
+            url: "https://www.tcgplayer.com/product/614292?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT230"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM031","HNT230"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT230",
     subtypes: [],
     types: [Type.Instant],
@@ -2411,7 +3010,24 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       print: "HNT253",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609583",
+            url: "https://www.tcgplayer.com/product/609583?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Septimius Ferdian"],
+      foiling: Foiling.R,
+      identifier: "HNT253",
+      image: "HNT253",
+      isExpansionSlot: true,
+      
+      print: "HNT253-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609583",
+            url: "https://www.tcgplayer.com/product/609583?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -2466,7 +3082,10 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       print: "HNT065",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612583",
+            url: "https://www.tcgplayer.com/product/612583?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2521,7 +3140,10 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       print: "HNT055",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615357",
+            url: "https://www.tcgplayer.com/product/615357?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Livia Prima"],
@@ -2530,27 +3152,33 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       image: "HNT055_V2",
       
       
-      print: "HNT055-Cold",
+      print: "HNT055-Cold-Extended Art",
       set: Release.TheHunted,
-      
-      
+      tcgplayer: {
+            productId: "606729",
+            url: "https://www.tcgplayer.com/product/606729?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
         artists: ["Livia Prima"],
       foiling: Foiling.C,
       identifier: "HNT055",
-      image: "HNT055_V2_Back",
+      image: "HNT055_V2_BACK",
       
       
       print: "HNT055-Cold-Full Art-Back",
       set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
+      tcgplayer: {
+            productId: "606729",
+            url: "https://www.tcgplayer.com/product/606729?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HNT055"],
     sets: [Release.TheHunted],
-    specialImage: "HNT055_V2_Back",
+    specialImage: "HNT055_V2_BACK",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Royal Draconic Ninja Hero - Young",
@@ -2587,33 +3215,11 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     artists: ["Livia Prima"],
     cardIdentifier: "cindra-dracai-of-retribution",
     classes: [Class.Ninja],
-    defaultImage: "HNT054_V2",
+    defaultImage: "HNT054",
     legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
     legalHeroes: [],
     name: "Cindra, Dracai of Retribution",
     printings: [{
-        artists: ["Livia Prima"],
-      foiling: Foiling.C,
-      identifier: "HNT054",
-      image: "HNT054_V2",
-      
-      
-      print: "HNT054-Cold",
-      set: Release.TheHunted,
-      
-      
-    },{
-        artists: ["Livia Prima"],
-      foiling: Foiling.C,
-      identifier: "HNT054",
-      image: "HNT054_V2_Back",
-      
-      
-      print: "HNT054-Cold-Full Art-Back",
-      set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
-    },{
         artists: ["Livia Prima"],
       
       identifier: "HNT054",
@@ -2624,12 +3230,40 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Livia Prima"],
+      foiling: Foiling.C,
+      identifier: "HNT054",
+      image: "HNT054_V2",
+      
+      
+      print: "HNT054-Cold-Extended Art",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606727",
+            url: "https://www.tcgplayer.com/product/606727?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Livia Prima"],
+      foiling: Foiling.C,
+      identifier: "HNT054",
+      image: "HNT054_V2_BACK",
+      
+      
+      print: "HNT054-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606727",
+            url: "https://www.tcgplayer.com/product/606727?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["HNT054"],
-    sets: [Release.TheHunted],
-    specialImage: "HNT054_V2_Back",
+    setIdentifiers: ["HER133","HNT054","WIN044"],
+    sets: [Release.Promos,Release.TheHunted],
+    specialImage: "HNT054_V2_BACK",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Royal Draconic Ninja Hero",
@@ -2679,7 +3313,24 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       print: "HNT148",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612638",
+            url: "https://www.tcgplayer.com/product/612638?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.C,
+      identifier: "HNT148",
+      image: "HNT148",
+      
+      
+      print: "HNT148-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612638",
+            url: "https://www.tcgplayer.com/product/612638?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2732,10 +3383,13 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       image: "HNT260",
       isExpansionSlot: true,
       
-      print: "HNT260",
+      print: "HNT260-Alternate Art",
       set: Release.TheHunted,
-      
-      
+      tcgplayer: {
+            productId: "612718",
+            url: "https://www.tcgplayer.com/product/612718?Language=English&Printing=Normal"
+          },
+      treatment: Treatment.AA,treatments: [Treatment.AA],
     },{
         artists: ["Federico Musetti"],
       foiling: Foiling.R,
@@ -2743,10 +3397,13 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       image: "HNT260-EA",
       isExpansionSlot: true,
       
-      print: "HNT260-Rainbow-Extended Art",
+      print: "HNT260-Rainbow-Alternate Art-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614533",
+            url: "https://www.tcgplayer.com/product/614533?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Fabled,Rarity.Legendary,Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -2762,9 +3419,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     cost: 2,
     defense: 3,
     
-    functionalText: `Defense reaction cards can't be played this chain link.
-
-When this hits a hero, destroy all cards in their arsenal.`,
+    functionalText: `Defense reaction cards can't be played this chain link. When this hits a hero, destroy all cards in their arsenal.`,
     
     
     
@@ -2802,7 +3457,24 @@ When this hits a hero, destroy all cards in their arsenal.`,
       
       print: "HNT151",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612639",
+            url: "https://www.tcgplayer.com/product/612639?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.R,
+      identifier: "HNT151",
+      image: "HNT151",
+      
+      
+      print: "HNT151-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612639",
+            url: "https://www.tcgplayer.com/product/612639?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2874,7 +3546,7 @@ When this hits a hero, destroy all cards in their arsenal.`,
     
     
     
-    functionalText: `*(Cracked Bauble exists to support Booster Draft and sealed Deck formats. A player may add any number of Cracked Baubles to their deck. Typically, a player would only do this if they did not have enough legally playable cards to make a 30 card minimum deck.)*`,
+    functionalText: `*(A player may add any number of Cracked Baubles to their card-pool in sealed deck or booster draft formats.)*`,
     
     
     
@@ -2912,7 +3584,24 @@ When this hits a hero, destroy all cards in their arsenal.`,
       
       print: "HNT259",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609587",
+            url: "https://www.tcgplayer.com/product/609587?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daria Khlebnikova"],
+      foiling: Foiling.R,
+      identifier: "HNT259",
+      image: "HNT259",
+      isExpansionSlot: true,
+      
+      print: "HNT259-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609587",
+            url: "https://www.tcgplayer.com/product/609587?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -2973,7 +3662,24 @@ Each hero banishes a card from their hand.
       
       print: "HNT128",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612622",
+            url: "https://www.tcgplayer.com/product/612622?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Brian Adriel"],
+      foiling: Foiling.R,
+      identifier: "HNT128",
+      image: "HNT128",
+      
+      
+      print: "HNT128-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612622",
+            url: "https://www.tcgplayer.com/product/612622?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3030,7 +3736,24 @@ Each hero banishes a card from their hand.
       
       print: "HNT129",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612623",
+            url: "https://www.tcgplayer.com/product/612623?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Brian Adriel"],
+      foiling: Foiling.R,
+      identifier: "HNT129",
+      image: "HNT129",
+      
+      
+      print: "HNT129-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612623",
+            url: "https://www.tcgplayer.com/product/612623?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3087,7 +3810,24 @@ Each hero banishes a card from their hand.
       
       print: "HNT130",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612624",
+            url: "https://www.tcgplayer.com/product/612624?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Brian Adriel"],
+      foiling: Foiling.R,
+      identifier: "HNT130",
+      image: "HNT130",
+      
+      
+      print: "HNT130-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612624",
+            url: "https://www.tcgplayer.com/product/612624?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3144,7 +3884,24 @@ Each hero banishes a card from their hand.
       
       print: "HNT202",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612682",
+            url: "https://www.tcgplayer.com/product/612682?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT202",
+      image: "HNT202",
+      
+      
+      print: "HNT202-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612682",
+            url: "https://www.tcgplayer.com/product/612682?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3170,7 +3927,7 @@ Your next dagger attack this turn gets +4{p}.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -3203,7 +3960,24 @@ Your next dagger attack this turn gets +4{p}.
       
       print: "HNT203",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612683",
+            url: "https://www.tcgplayer.com/product/612683?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT203",
+      image: "HNT203",
+      
+      
+      print: "HNT203-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612683",
+            url: "https://www.tcgplayer.com/product/612683?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3229,7 +4003,7 @@ Your next dagger attack this turn gets +3{p}.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -3262,7 +4036,24 @@ Your next dagger attack this turn gets +3{p}.
       
       print: "HNT204",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612684",
+            url: "https://www.tcgplayer.com/product/612684?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT204",
+      image: "HNT204",
+      
+      
+      print: "HNT204-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612684",
+            url: "https://www.tcgplayer.com/product/612684?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3288,7 +4079,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -3321,13 +4112,30 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT176",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612656",
+            url: "https://www.tcgplayer.com/product/612656?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "HNT176",
+      image: "HNT176",
+      
+      
+      print: "HNT176-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612656",
+            url: "https://www.tcgplayer.com/product/612656?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT176"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM027","HNT176"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT176",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3343,7 +4151,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -3376,7 +4184,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT177",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612657",
+            url: "https://www.tcgplayer.com/product/612657?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "HNT177",
+      image: "HNT177",
+      
+      
+      print: "HNT177-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612657",
+            url: "https://www.tcgplayer.com/product/612657?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3398,7 +4223,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -3431,7 +4256,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT178",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612658",
+            url: "https://www.tcgplayer.com/product/612658?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "HNT178",
+      image: "HNT178",
+      
+      
+      print: "HNT178-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612658",
+            url: "https://www.tcgplayer.com/product/612658?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3453,7 +4295,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -3486,7 +4328,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT173",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612653",
+            url: "https://www.tcgplayer.com/product/612653?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.C,
+      identifier: "HNT173",
+      image: "HNT173",
+      
+      
+      print: "HNT173-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612653",
+            url: "https://www.tcgplayer.com/product/612653?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3539,10 +4398,27 @@ Your next dagger attack this turn gets +2{p}.
       image: "HNT030",
       
       
-      print: "HNT030",
+      print: "HNT030-Extended Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609125",
+            url: "https://www.tcgplayer.com/product/609125?Language=English&Printing=Normal"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "HNT030",
+      image: "HNT030",
       
       
+      print: "HNT030-Rainbow-Extended Art",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609125",
+            url: "https://www.tcgplayer.com/product/609125?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -3598,13 +4474,30 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT059",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612579",
+            url: "https://www.tcgplayer.com/product/612579?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Maerel Hibadita"],
+      foiling: Foiling.R,
+      identifier: "HNT059",
+      image: "HNT059",
+      
+      
+      print: "HNT059-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612579",
+            url: "https://www.tcgplayer.com/product/612579?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT059"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM011","HNT059"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT059",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3620,7 +4513,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -3653,7 +4546,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT214",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612694",
+            url: "https://www.tcgplayer.com/product/612694?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT214",
+      image: "HNT214",
+      
+      
+      print: "HNT214-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612694",
+            url: "https://www.tcgplayer.com/product/612694?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3675,7 +4585,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     
     
@@ -3708,7 +4618,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT072",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611164",
+            url: "https://www.tcgplayer.com/product/611164?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.R,
+      identifier: "HNT072",
+      image: "HNT072",
+      
+      
+      print: "HNT072-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611164",
+            url: "https://www.tcgplayer.com/product/611164?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -3765,7 +4692,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT119",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612613",
+            url: "https://www.tcgplayer.com/product/612613?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "HNT119",
+      image: "HNT119",
+      
+      
+      print: "HNT119-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612613",
+            url: "https://www.tcgplayer.com/product/612613?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3822,7 +4766,24 @@ Your next dagger attack this turn gets +3{p}.`,
       
       print: "HNT120",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612614",
+            url: "https://www.tcgplayer.com/product/612614?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "HNT120",
+      image: "HNT120",
+      
+      
+      print: "HNT120-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612614",
+            url: "https://www.tcgplayer.com/product/612614?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3879,7 +4840,24 @@ Your next dagger attack this turn gets +2{p}.`,
       
       print: "HNT121",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612615",
+            url: "https://www.tcgplayer.com/product/612615?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "HNT121",
+      image: "HNT121",
+      
+      
+      print: "HNT121-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612615",
+            url: "https://www.tcgplayer.com/product/612615?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3936,13 +4914,30 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT060",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612580",
+            url: "https://www.tcgplayer.com/product/612580?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.R,
+      identifier: "HNT060",
+      image: "HNT060",
+      
+      
+      print: "HNT060-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612580",
+            url: "https://www.tcgplayer.com/product/612580?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT060"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM010","HNT060"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT060",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3958,7 +4953,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -3991,7 +4986,24 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT254",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612717",
+            url: "https://www.tcgplayer.com/product/612717?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.R,
+      identifier: "HNT254",
+      image: "HNT254",
+      isExpansionSlot: true,
+      
+      print: "HNT254-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612717",
+            url: "https://www.tcgplayer.com/product/612717?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4013,7 +5025,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Expansion],
     
@@ -4047,7 +5059,24 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT077",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611165",
+            url: "https://www.tcgplayer.com/product/611165?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT077",
+      image: "HNT077",
+      
+      
+      print: "HNT077-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611165",
+            url: "https://www.tcgplayer.com/product/611165?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4102,7 +5131,24 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT078",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611166",
+            url: "https://www.tcgplayer.com/product/611166?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT078",
+      image: "HNT078",
+      
+      
+      print: "HNT078-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611166",
+            url: "https://www.tcgplayer.com/product/611166?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4157,7 +5203,24 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT079",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611167",
+            url: "https://www.tcgplayer.com/product/611167?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT079",
+      image: "HNT079",
+      
+      
+      print: "HNT079-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611167",
+            url: "https://www.tcgplayer.com/product/611167?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4212,7 +5275,10 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT143-Rainbow",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "614060",
+            url: "https://www.tcgplayer.com/product/614060?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -4223,13 +5289,16 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT143-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "614060",
+            url: "https://www.tcgplayer.com/product/614060?Language=English&Printing=Cold+Foil"
+          },
       
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["HNT143"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB290","HNT143"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT143",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -4247,7 +5316,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
     
     
-    keywords: [Keyword.Battleworn],
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
     
@@ -4280,7 +5349,24 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT155",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611179",
+            url: "https://www.tcgplayer.com/product/611179?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "HNT155",
+      image: "HNT155",
+      
+      
+      print: "HNT155-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611179",
+            url: "https://www.tcgplayer.com/product/611179?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -4291,8 +5377,11 @@ Your next dagger attack this turn gets +1{p}.`,
       
       print: "HNT155-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614550",
+            url: "https://www.tcgplayer.com/product/614550?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -4350,7 +5439,24 @@ Gain {r}. Draw a card.`,
       
       print: "HNT223",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612702",
+            url: "https://www.tcgplayer.com/product/612702?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.R,
+      identifier: "HNT223",
+      image: "HNT223",
+      
+      
+      print: "HNT223-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612702",
+            url: "https://www.tcgplayer.com/product/612702?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4409,7 +5515,10 @@ If you've attacked with an attack action card this turn, your next weapon attack
       
       print: "HNT066",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612584",
+            url: "https://www.tcgplayer.com/product/612584?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4464,7 +5573,24 @@ If you've attacked with an attack action card this turn, your next weapon attack
       
       print: "HNT108",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612606",
+            url: "https://www.tcgplayer.com/product/612606?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.R,
+      identifier: "HNT108",
+      image: "HNT108",
+      
+      
+      print: "HNT108-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612606",
+            url: "https://www.tcgplayer.com/product/612606?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4521,7 +5647,10 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT252",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609582",
+            url: "https://www.tcgplayer.com/product/609582?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessketchin"],
@@ -4532,7 +5661,10 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT252-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609582",
+            url: "https://www.tcgplayer.com/product/609582?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4587,13 +5719,30 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT104",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611173",
+            url: "https://www.tcgplayer.com/product/611173?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.R,
+      identifier: "HNT104",
+      image: "HNT104",
+      
+      
+      print: "HNT104-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611173",
+            url: "https://www.tcgplayer.com/product/611173?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT104"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM013","HNT104"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT104",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -4642,7 +5791,24 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT237",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611180",
+            url: "https://www.tcgplayer.com/product/611180?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.R,
+      identifier: "HNT237",
+      image: "HNT237",
+      
+      
+      print: "HNT237-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611180",
+            url: "https://www.tcgplayer.com/product/611180?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4699,10 +5865,27 @@ Target attack gets +1{p}.
       image: "HNT031",
       
       
-      print: "HNT031",
+      print: "HNT031-Extended Art",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609128",
+            url: "https://www.tcgplayer.com/product/609128?Language=English&Printing=Normal"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "HNT031",
+      image: "HNT031",
       
       
+      print: "HNT031-Rainbow-Extended Art",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609128",
+            url: "https://www.tcgplayer.com/product/609128?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -4758,7 +5941,10 @@ Target attack gets +1{p}.
       
       print: "HNT099",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615359",
+            url: "https://www.tcgplayer.com/product/615359?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Billy Christian"],
@@ -4767,10 +5953,13 @@ Target attack gets +1{p}.
       image: "HNT099_V2",
       
       
-      print: "HNT099-Cold",
+      print: "HNT099-Cold-Extended Art",
       set: Release.TheHunted,
-      
-      
+      tcgplayer: {
+            productId: "606732",
+            url: "https://www.tcgplayer.com/product/606732?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
         artists: ["Billy Christian"],
       foiling: Foiling.C,
@@ -4780,8 +5969,11 @@ Target attack gets +1{p}.
       
       print: "HNT099-Cold-Full Art-Back",
       set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
+      tcgplayer: {
+            productId: "606732",
+            url: "https://www.tcgplayer.com/product/606732?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Token,
@@ -4824,33 +6016,11 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     artists: ["Billy Christian"],
     cardIdentifier: "fang-dracai-of-blades",
     classes: [Class.Warrior],
-    defaultImage: "HNT098_V2",
+    defaultImage: "HNT098",
     legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
     legalHeroes: [],
     name: "Fang, Dracai of Blades",
     printings: [{
-        artists: ["Billy Christian"],
-      foiling: Foiling.C,
-      identifier: "HNT098",
-      image: "HNT098_V2",
-      
-      
-      print: "HNT098-Cold",
-      set: Release.TheHunted,
-      
-      
-    },{
-        artists: ["Billy Christian"],
-      foiling: Foiling.C,
-      identifier: "HNT098",
-      image: "HNT098_V2_BACK",
-      
-      
-      print: "HNT098-Cold-Full Art-Back",
-      set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
-    },{
         artists: ["Billy Christian"],
       
       identifier: "HNT098",
@@ -4861,11 +6031,39 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Billy Christian"],
+      foiling: Foiling.C,
+      identifier: "HNT098",
+      image: "HNT098_V2",
+      
+      
+      print: "HNT098-Cold-Extended Art",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606730",
+            url: "https://www.tcgplayer.com/product/606730?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Billy Christian"],
+      foiling: Foiling.C,
+      identifier: "HNT098",
+      image: "HNT098_V2_BACK",
+      
+      
+      print: "HNT098-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606730",
+            url: "https://www.tcgplayer.com/product/606730?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["HNT098"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["HER134","HNT098","WIN045"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT098_V2_BACK",
     subtypes: [],
     types: [Type.Hero],
@@ -4909,17 +6107,6 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     name: "Fealty",
     printings: [{
         artists: ["Mario Wibisono"],
-      foiling: Foiling.C,
-      identifier: "HNT167",
-      image: "HNT167_V2",
-      
-      
-      print: "HNT167-Cold-Full Art",
-      set: Release.TheHunted,
-      
-      treatment: Treatment.FA,
-    },{
-        artists: ["Mario Wibisono"],
       
       identifier: "HNT167",
       image: "HNT167",
@@ -4929,12 +6116,34 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.C,
+      identifier: "HNT167",
+      image: "HNT167_V2",
+      
+      
+      print: "HNT167-Cold-Full Art",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.C,
+      identifier: "HNT167",
+      image: "HNT167_V2_BACK",
+      
+      
+      print: "HNT167-Cold-Full Art-Back",
+      set: Release.TheHunted,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Token],
     rarity: Rarity.Token,
     setIdentifiers: ["HNT167"],
     sets: [Release.TheHunted],
-    specialImage: "HNT167_V2",
+    specialImage: "HNT167_V2_BACK",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Draconic Token - Aura",
@@ -4982,7 +6191,24 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       print: "HNT105",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614059",
+            url: "https://www.tcgplayer.com/product/614059?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "HNT105",
+      image: "HNT105",
+      
+      
+      print: "HNT105-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614059",
+            url: "https://www.tcgplayer.com/product/614059?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -4993,8 +6219,11 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       print: "HNT105-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614575",
+            url: "https://www.tcgplayer.com/product/614575?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -5052,7 +6281,24 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       print: "HNT083",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612592",
+            url: "https://www.tcgplayer.com/product/612592?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.R,
+      identifier: "HNT083",
+      image: "HNT083",
+      
+      
+      print: "HNT083-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612592",
+            url: "https://www.tcgplayer.com/product/612592?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5076,7 +6322,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5109,7 +6355,24 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       print: "HNT084",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612593",
+            url: "https://www.tcgplayer.com/product/612593?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.R,
+      identifier: "HNT084",
+      image: "HNT084",
+      
+      
+      print: "HNT084-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612593",
+            url: "https://www.tcgplayer.com/product/612593?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5133,7 +6396,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5166,7 +6429,24 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       print: "HNT085",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612594",
+            url: "https://www.tcgplayer.com/product/612594?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.R,
+      identifier: "HNT085",
+      image: "HNT085",
+      
+      
+      print: "HNT085-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612594",
+            url: "https://www.tcgplayer.com/product/612594?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5190,7 +6470,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5223,7 +6503,24 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       print: "HNT126",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609232",
+            url: "https://www.tcgplayer.com/product/609232?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "HNT126",
+      image: "HNT126",
+      
+      
+      print: "HNT126-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609232",
+            url: "https://www.tcgplayer.com/product/609232?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -5280,7 +6577,24 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       print: "HNT158",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609234",
+            url: "https://www.tcgplayer.com/product/609234?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.R,
+      identifier: "HNT158",
+      image: "HNT158",
+      
+      
+      print: "HNT158-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609234",
+            url: "https://www.tcgplayer.com/product/609234?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -5335,7 +6649,24 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       print: "HNT159",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609236",
+            url: "https://www.tcgplayer.com/product/609236?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.R,
+      identifier: "HNT159",
+      image: "HNT159",
+      
+      
+      print: "HNT159-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609236",
+            url: "https://www.tcgplayer.com/product/609236?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -5390,7 +6721,24 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       print: "HNT160",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609237",
+            url: "https://www.tcgplayer.com/product/609237?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.R,
+      identifier: "HNT160",
+      image: "HNT160",
+      
+      
+      print: "HNT160-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609237",
+            url: "https://www.tcgplayer.com/product/609237?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -5429,7 +6777,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
   
   
   },{
-    artists: ["Nailsen Ivanderlie"],
+    artists: ["Nailsen Ivanderlie","Satriasa"],
     cardIdentifier: "graphene-chelicera",
     classes: [Class.Assassin],
     defaultImage: "HNT053",
@@ -5448,10 +6796,10 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT053"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM008","GEM009","HNT053"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT053",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Token,Type.Weapon],
@@ -5504,7 +6852,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT086",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612595",
+            url: "https://www.tcgplayer.com/product/612595?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.R,
+      identifier: "HNT086",
+      image: "HNT086",
+      
+      
+      print: "HNT086-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612595",
+            url: "https://www.tcgplayer.com/product/612595?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5528,7 +6893,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5561,7 +6926,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT087",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612596",
+            url: "https://www.tcgplayer.com/product/612596?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.R,
+      identifier: "HNT087",
+      image: "HNT087",
+      
+      
+      print: "HNT087-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612596",
+            url: "https://www.tcgplayer.com/product/612596?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5585,7 +6967,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5618,7 +7000,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT088",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612597",
+            url: "https://www.tcgplayer.com/product/612597?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.R,
+      identifier: "HNT088",
+      image: "HNT088",
+      
+      
+      print: "HNT088-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612597",
+            url: "https://www.tcgplayer.com/product/612597?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5642,7 +7041,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5675,7 +7074,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT089",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612598",
+            url: "https://www.tcgplayer.com/product/612598?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.R,
+      identifier: "HNT089",
+      image: "HNT089",
+      
+      
+      print: "HNT089-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612598",
+            url: "https://www.tcgplayer.com/product/612598?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5697,7 +7113,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5730,7 +7146,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT090",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612599",
+            url: "https://www.tcgplayer.com/product/612599?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.R,
+      identifier: "HNT090",
+      image: "HNT090",
+      
+      
+      print: "HNT090-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612599",
+            url: "https://www.tcgplayer.com/product/612599?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5752,7 +7185,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5785,7 +7218,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT091",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612600",
+            url: "https://www.tcgplayer.com/product/612600?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.R,
+      identifier: "HNT091",
+      image: "HNT091",
+      
+      
+      print: "HNT091-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612600",
+            url: "https://www.tcgplayer.com/product/612600?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5807,7 +7257,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -5840,7 +7290,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT146",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612636",
+            url: "https://www.tcgplayer.com/product/612636?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Shen Fei"],
+      foiling: Foiling.C,
+      identifier: "HNT146",
+      image: "HNT146",
+      
+      
+      print: "HNT146-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612636",
+            url: "https://www.tcgplayer.com/product/612636?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5897,7 +7364,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT145",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612635",
+            url: "https://www.tcgplayer.com/product/612635?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Shen Fei"],
+      foiling: Foiling.C,
+      identifier: "HNT145",
+      image: "HNT145",
+      
+      
+      print: "HNT145-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612635",
+            url: "https://www.tcgplayer.com/product/612635?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5954,7 +7438,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT067",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612585",
+            url: "https://www.tcgplayer.com/product/612585?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.R,
+      identifier: "HNT067",
+      image: "HNT067",
+      
+      
+      print: "HNT067-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612585",
+            url: "https://www.tcgplayer.com/product/612585?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5976,7 +7477,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
     
@@ -6009,7 +7510,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT131",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612625",
+            url: "https://www.tcgplayer.com/product/612625?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Reza Afshar"],
+      foiling: Foiling.R,
+      identifier: "HNT131",
+      image: "HNT131",
+      
+      
+      print: "HNT131-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612625",
+            url: "https://www.tcgplayer.com/product/612625?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6033,7 +7551,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -6066,7 +7584,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT132",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612626",
+            url: "https://www.tcgplayer.com/product/612626?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Reza Afshar"],
+      foiling: Foiling.R,
+      identifier: "HNT132",
+      image: "HNT132",
+      
+      
+      print: "HNT132-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612626",
+            url: "https://www.tcgplayer.com/product/612626?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6090,7 +7625,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -6123,7 +7658,24 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT133",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612627",
+            url: "https://www.tcgplayer.com/product/612627?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Reza Afshar"],
+      foiling: Foiling.R,
+      identifier: "HNT133",
+      image: "HNT133",
+      
+      
+      print: "HNT133-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612627",
+            url: "https://www.tcgplayer.com/product/612627?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6147,7 +7699,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -6180,13 +7732,30 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       print: "HNT161",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614360",
+            url: "https://www.tcgplayer.com/product/614360?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "HNT161",
+      image: "HNT161",
+      
+      
+      print: "HNT161-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614360",
+            url: "https://www.tcgplayer.com/product/614360?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT161"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM014","HNT161"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT161",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -6202,7 +7771,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     
     
@@ -6237,11 +7806,22 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       set: Release.TheHunted,
       
       
+    },{
+        artists: ["Sariya Asavametha"],
+      foiling: Foiling.R,
+      identifier: "HNT152",
+      image: "HNT152",
+      
+      
+      print: "HNT152-Rainbow",
+      set: Release.TheHunted,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT152"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM015","HNT152"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT152",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -6261,7 +7841,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
     
@@ -6294,7 +7874,24 @@ If this is attacking a **marked** hero, this gets +2{p}.
       
       print: "HNT101",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611171",
+            url: "https://www.tcgplayer.com/product/611171?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "HNT101",
+      image: "HNT101",
+      
+      
+      print: "HNT101-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614576",
+            url: "https://www.tcgplayer.com/product/614576?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -6305,8 +7902,11 @@ If this is attacking a **marked** hero, this gets +2{p}.
       
       print: "HNT101-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614576",
+            url: "https://www.tcgplayer.com/product/614576?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -6362,7 +7962,24 @@ Target dagger attack gets +4{p}.`,
       
       print: "HNT052",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612578",
+            url: "https://www.tcgplayer.com/product/612578?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.R,
+      identifier: "HNT052",
+      image: "HNT052",
+      
+      
+      print: "HNT052-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612578",
+            url: "https://www.tcgplayer.com/product/612578?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6417,7 +8034,10 @@ Target dagger attack gets +4{p}.`,
       
       print: "HNT009",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612562",
+            url: "https://www.tcgplayer.com/product/612562?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Thomas Ressuge"],
@@ -6428,7 +8048,10 @@ Target dagger attack gets +4{p}.`,
       
       print: "HNT009-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612562",
+            url: "https://www.tcgplayer.com/product/612562?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -6454,7 +8077,7 @@ When this hits a hero, **mark** them.
     
     
     
-    keywords: [Keyword.Piercing],
+    keywords: [Keyword.GoAgain,Keyword.Mark,Keyword.Piercing],
     
     meta: [Meta.Expansion],
     
@@ -6487,7 +8110,24 @@ When this hits a hero, **mark** them.
       
       print: "HNT058",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611161",
+            url: "https://www.tcgplayer.com/product/611161?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.R,
+      identifier: "HNT058",
+      image: "HNT058",
+      
+      
+      print: "HNT058-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611161",
+            url: "https://www.tcgplayer.com/product/611161?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -6498,8 +8138,11 @@ When this hits a hero, **mark** them.
       
       print: "HNT058-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614578",
+            url: "https://www.tcgplayer.com/product/614578?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -6555,7 +8198,24 @@ When this hits a hero, **mark** them.
       
       print: "HNT109",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612607",
+            url: "https://www.tcgplayer.com/product/612607?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.R,
+      identifier: "HNT109",
+      image: "HNT109",
+      
+      
+      print: "HNT109-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612607",
+            url: "https://www.tcgplayer.com/product/612607?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6612,13 +8272,30 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT228",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614290",
+            url: "https://www.tcgplayer.com/product/614290?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Milivoj Ćeran"],
+      foiling: Foiling.R,
+      identifier: "HNT228",
+      image: "HNT228",
+      
+      
+      print: "HNT228-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614290",
+            url: "https://www.tcgplayer.com/product/614290?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT228"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB305","HNT228"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT228",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -6636,7 +8313,7 @@ Target dagger attack gets +2{p}.`,
     
     
     
-    keywords: [Keyword.Legendary],
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
     
@@ -6669,13 +8346,30 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT205",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612685",
+            url: "https://www.tcgplayer.com/product/612685?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.R,
+      identifier: "HNT205",
+      image: "HNT205",
+      
+      
+      print: "HNT205-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612685",
+            url: "https://www.tcgplayer.com/product/612685?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT205"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM029","HNT205"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT205",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -6724,7 +8418,24 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT206",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612686",
+            url: "https://www.tcgplayer.com/product/612686?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.R,
+      identifier: "HNT206",
+      image: "HNT206",
+      
+      
+      print: "HNT206-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612686",
+            url: "https://www.tcgplayer.com/product/612686?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6779,7 +8490,24 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT207",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612687",
+            url: "https://www.tcgplayer.com/product/612687?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.R,
+      identifier: "HNT207",
+      image: "HNT207",
+      
+      
+      print: "HNT207-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612687",
+            url: "https://www.tcgplayer.com/product/612687?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6834,7 +8562,24 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT116",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609229",
+            url: "https://www.tcgplayer.com/product/609229?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.R,
+      identifier: "HNT116",
+      image: "HNT116",
+      
+      
+      print: "HNT116-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609229",
+            url: "https://www.tcgplayer.com/product/609229?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -6889,7 +8634,10 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT115-Rainbow",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "611174",
+            url: "https://www.tcgplayer.com/product/611174?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Sariya Asavametha"],
@@ -6900,13 +8648,16 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT115-Cold-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614574",
+            url: "https://www.tcgplayer.com/product/614574?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["HNT115"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB292","HNT115"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT115-EA",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -6957,7 +8708,24 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT012",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613097",
+            url: "https://www.tcgplayer.com/product/613097?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.R,
+      identifier: "HNT012",
+      image: "HNT012",
+      
+      
+      print: "HNT012-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613097",
+            url: "https://www.tcgplayer.com/product/613097?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Wisnu Tan"],
@@ -6968,8 +8736,11 @@ Target dagger attack gets +2{p}.`,
       
       print: "HNT012-Cold-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614580",
+            url: "https://www.tcgplayer.com/product/614580?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -7025,7 +8796,24 @@ When this hits a hero, they lose 1{h}.`,
       
       print: "HNT134",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612628",
+            url: "https://www.tcgplayer.com/product/612628?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT134",
+      image: "HNT134",
+      
+      
+      print: "HNT134-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612628",
+            url: "https://www.tcgplayer.com/product/612628?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7084,7 +8872,24 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       print: "HNT135",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612629",
+            url: "https://www.tcgplayer.com/product/612629?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT135",
+      image: "HNT135",
+      
+      
+      print: "HNT135-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612629",
+            url: "https://www.tcgplayer.com/product/612629?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7143,7 +8948,24 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       print: "HNT136",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612630",
+            url: "https://www.tcgplayer.com/product/612630?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT136",
+      image: "HNT136",
+      
+      
+      print: "HNT136-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612630",
+            url: "https://www.tcgplayer.com/product/612630?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7202,13 +9024,16 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       print: "HNT056",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615559",
+            url: "https://www.tcgplayer.com/product/615559?Language=English&Printing=Normal"
+          },
       
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT056"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM002","GEM003","HNT056","LGS373"],
+    sets: [Release.GEM,Release.Promos,Release.TheHunted],
     specialImage: "HNT056",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
@@ -7257,7 +9082,24 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       print: "HNT191",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612671",
+            url: "https://www.tcgplayer.com/product/612671?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "HNT191",
+      image: "HNT191",
+      
+      
+      print: "HNT191-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612671",
+            url: "https://www.tcgplayer.com/product/612671?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7279,7 +9121,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     
     
@@ -7312,7 +9154,10 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       print: "HNT068",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612586",
+            url: "https://www.tcgplayer.com/product/612586?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7367,7 +9212,24 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       print: "HNT236",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609493",
+            url: "https://www.tcgplayer.com/product/609493?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Widya Wang"],
+      foiling: Foiling.R,
+      identifier: "HNT236",
+      image: "HNT236",
+      
+      
+      print: "HNT236-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609493",
+            url: "https://www.tcgplayer.com/product/609493?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7424,7 +9286,24 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT171",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612651",
+            url: "https://www.tcgplayer.com/product/612651?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.C,
+      identifier: "HNT171",
+      image: "HNT171",
+      
+      
+      print: "HNT171-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612651",
+            url: "https://www.tcgplayer.com/product/612651?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7441,7 +9320,9 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     defense: 1,
     
-    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.
+
+**Blade Break**`,
     
     
     
@@ -7479,7 +9360,24 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT172",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612652",
+            url: "https://www.tcgplayer.com/product/612652?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.C,
+      identifier: "HNT172",
+      image: "HNT172",
+      
+      
+      print: "HNT172-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612652",
+            url: "https://www.tcgplayer.com/product/612652?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7496,7 +9394,9 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     defense: 1,
     
-    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.
+
+**Blade Break**`,
     
     
     
@@ -7534,7 +9434,24 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT170",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612650",
+            url: "https://www.tcgplayer.com/product/612650?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.C,
+      identifier: "HNT170",
+      image: "HNT170",
+      
+      
+      print: "HNT170-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612650",
+            url: "https://www.tcgplayer.com/product/612650?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7551,7 +9468,9 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     defense: 1,
     
-    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.
+
+**Blade Break**`,
     
     
     
@@ -7589,7 +9508,24 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT169",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612649",
+            url: "https://www.tcgplayer.com/product/612649?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.C,
+      identifier: "HNT169",
+      image: "HNT169",
+      
+      
+      print: "HNT169-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612649",
+            url: "https://www.tcgplayer.com/product/612649?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7606,7 +9542,9 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     defense: 1,
     
-    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.`,
+    functionalText: `When an opponent plays or activates an attack reaction, you may add this to the active chain link as a defending card.
+
+**Blade Break**`,
     
     
     
@@ -7644,7 +9582,24 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT102",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609198",
+            url: "https://www.tcgplayer.com/product/609198?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.R,
+      identifier: "HNT102",
+      image: "HNT102",
+      
+      
+      print: "HNT102-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609198",
+            url: "https://www.tcgplayer.com/product/609198?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -7703,7 +9658,24 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT150",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614144",
+            url: "https://www.tcgplayer.com/product/614144?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Sariya Asavametha"],
+      foiling: Foiling.R,
+      identifier: "HNT150",
+      image: "HNT150",
+      
+      
+      print: "HNT150-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614144",
+            url: "https://www.tcgplayer.com/product/614144?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Sariya Asavametha"],
@@ -7714,8 +9686,11 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT150-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614552",
+            url: "https://www.tcgplayer.com/product/614552?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -7769,13 +9744,30 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT153",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612640",
+            url: "https://www.tcgplayer.com/product/612640?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "HNT153",
+      image: "HNT153",
+      
+      
+      print: "HNT153-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612640",
+            url: "https://www.tcgplayer.com/product/612640?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT153"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM016","HNT153"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT153",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -7791,7 +9783,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -7824,13 +9816,30 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       print: "HNT032",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611155",
+            url: "https://www.tcgplayer.com/product/611155?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "HNT032",
+      image: "HNT032",
+      
+      
+      print: "HNT032-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611155",
+            url: "https://www.tcgplayer.com/product/611155?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT032"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM021","HNT032"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT032",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -7881,7 +9890,24 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       print: "HNT033",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611156",
+            url: "https://www.tcgplayer.com/product/611156?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "HNT033",
+      image: "HNT033",
+      
+      
+      print: "HNT033-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611156",
+            url: "https://www.tcgplayer.com/product/611156?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7939,7 +9965,24 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       print: "HNT034",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611157",
+            url: "https://www.tcgplayer.com/product/611157?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "HNT034",
+      image: "HNT034",
+      
+      
+      print: "HNT034-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611157",
+            url: "https://www.tcgplayer.com/product/611157?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7996,13 +10039,30 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       print: "HNT035",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614052",
+            url: "https://www.tcgplayer.com/product/614052?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "HNT035",
+      image: "HNT035",
+      
+      
+      print: "HNT035-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614052",
+            url: "https://www.tcgplayer.com/product/614052?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT035"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM022","HNT035"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT035",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8053,7 +10113,24 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       print: "HNT036",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614053",
+            url: "https://www.tcgplayer.com/product/614053?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "HNT036",
+      image: "HNT036",
+      
+      
+      print: "HNT036-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614053",
+            url: "https://www.tcgplayer.com/product/614053?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8110,7 +10187,24 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       print: "HNT037",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614054",
+            url: "https://www.tcgplayer.com/product/614054?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "HNT037",
+      image: "HNT037",
+      
+      
+      print: "HNT037-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614054",
+            url: "https://www.tcgplayer.com/product/614054?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8167,13 +10261,16 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       print: "HNT010",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "615545",
+            url: "https://www.tcgplayer.com/product/615545?Language=English&Printing=Normal"
+          },
       
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT010"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM006","GEM007","HNT010","LGS375"],
+    sets: [Release.GEM,Release.Promos,Release.TheHunted],
     specialImage: "HNT010",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
@@ -8226,13 +10323,30 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       print: "HNT038",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612568",
+            url: "https://www.tcgplayer.com/product/612568?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.R,
+      identifier: "HNT038",
+      image: "HNT038",
+      
+      
+      print: "HNT038-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612568",
+            url: "https://www.tcgplayer.com/product/612568?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT038"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM023","HNT038"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT038",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8250,7 +10364,7 @@ When this hits a hero, **mark** them.`,
     
     
     
-    keywords: [Keyword.Stealth],
+    keywords: [Keyword.Mark,Keyword.Stealth],
     
     meta: [Meta.Rainbow],
     
@@ -8283,7 +10397,24 @@ When this hits a hero, **mark** them.`,
       
       print: "HNT039",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612569",
+            url: "https://www.tcgplayer.com/product/612569?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.R,
+      identifier: "HNT039",
+      image: "HNT039",
+      
+      
+      print: "HNT039-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612569",
+            url: "https://www.tcgplayer.com/product/612569?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8307,7 +10438,7 @@ When this hits a hero, **mark** them.`,
     
     
     
-    keywords: [Keyword.Stealth],
+    keywords: [Keyword.Mark,Keyword.Stealth],
     
     meta: [Meta.Rainbow],
     
@@ -8340,7 +10471,24 @@ When this hits a hero, **mark** them.`,
       
       print: "HNT040",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612570",
+            url: "https://www.tcgplayer.com/product/612570?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.R,
+      identifier: "HNT040",
+      image: "HNT040",
+      
+      
+      print: "HNT040-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612570",
+            url: "https://www.tcgplayer.com/product/612570?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8364,7 +10512,7 @@ When this hits a hero, **mark** them.`,
     
     
     
-    keywords: [Keyword.Stealth],
+    keywords: [Keyword.Mark,Keyword.Stealth],
     
     meta: [Meta.Rainbow],
     
@@ -8397,7 +10545,24 @@ When this hits a hero, **mark** them.`,
       
       print: "HNT069",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612587",
+            url: "https://www.tcgplayer.com/product/612587?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "HNT069",
+      image: "HNT069",
+      
+      
+      print: "HNT069-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612587",
+            url: "https://www.tcgplayer.com/product/612587?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8419,7 +10584,7 @@ When this hits a hero, **mark** them.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
     
@@ -8438,7 +10603,7 @@ When this hits a hero, **mark** them.`,
   },{
     artists: ["Jessketchin"],
     cardIdentifier: "marked",
-    classes: [],
+    classes: [Class.Generic],
     defaultImage: "HNT244",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -8455,10 +10620,10 @@ When this hits a hero, **mark** them.`,
       
       
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT244"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB333","HNT244"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT244",
     subtypes: [],
     types: [Type.Token],
@@ -8507,7 +10672,10 @@ When this hits a hero, **mark** them.`,
       
       print: "HNT011-Rainbow",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "613096",
+            url: "https://www.tcgplayer.com/product/613096?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Mark Poole"],
@@ -8518,13 +10686,16 @@ When this hits a hero, **mark** them.`,
       
       print: "HNT011-Cold-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614581",
+            url: "https://www.tcgplayer.com/product/614581?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["HNT011"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB291","HNT011"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT011-EA",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -8577,7 +10748,10 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       
       print: "HNT250",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612715",
+            url: "https://www.tcgplayer.com/product/612715?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -8588,7 +10762,10 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       
       print: "HNT250-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612715",
+            url: "https://www.tcgplayer.com/product/612715?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -8645,7 +10822,24 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       
       print: "HNT239",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612713",
+            url: "https://www.tcgplayer.com/product/612713?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "HNT239",
+      image: "HNT239",
+      
+      
+      print: "HNT239-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612713",
+            url: "https://www.tcgplayer.com/product/612713?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8700,7 +10894,10 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       
       print: "HNT251",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612716",
+            url: "https://www.tcgplayer.com/product/612716?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -8711,7 +10908,10 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       
       print: "HNT251-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612716",
+            url: "https://www.tcgplayer.com/product/612716?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -8770,7 +10970,24 @@ When this enters the arena, name a card. The named card can't be pitched or play
       
       print: "HNT149",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614101",
+            url: "https://www.tcgplayer.com/product/614101?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "HNT149",
+      image: "HNT149",
+      
+      
+      print: "HNT149-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614101",
+            url: "https://www.tcgplayer.com/product/614101?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -8781,8 +10998,11 @@ When this enters the arena, name a card. The named card can't be pitched or play
       
       print: "HNT149-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614554",
+            url: "https://www.tcgplayer.com/product/614554?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -8840,13 +11060,16 @@ When this is played, until end of turn, you may only play cards that are Draconi
       
       print: "HNT100",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "611171",
+            url: "https://www.tcgplayer.com/product/611171?Language=English&Printing=Normal"
+          },
       
     },],
-    rarities: [Rarity.Token],
+    rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["HNT100"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM004","GEM005","HNT100","LGS374"],
+    sets: [Release.GEM,Release.Promos,Release.TheHunted],
     specialImage: "HNT100",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
@@ -8895,13 +11118,30 @@ When this is played, until end of turn, you may only play cards that are Draconi
       
       print: "HNT026",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611152",
+            url: "https://www.tcgplayer.com/product/611152?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT026",
+      image: "HNT026",
+      
+      
+      print: "HNT026-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611152",
+            url: "https://www.tcgplayer.com/product/611152?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT026"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB323","HNT026"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT026",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -8954,7 +11194,24 @@ Your next attack with **stealth** this turn gets +3{p}.
       
       print: "HNT027",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611153",
+            url: "https://www.tcgplayer.com/product/611153?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT027",
+      image: "HNT027",
+      
+      
+      print: "HNT027-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611153",
+            url: "https://www.tcgplayer.com/product/611153?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9013,7 +11270,24 @@ Your next attack with **stealth** this turn gets +2{p}.
       
       print: "HNT028",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611154",
+            url: "https://www.tcgplayer.com/product/611154?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT028",
+      image: "HNT028",
+      
+      
+      print: "HNT028-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611154",
+            url: "https://www.tcgplayer.com/product/611154?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9072,7 +11346,24 @@ Your next attack with **stealth** this turn gets +1{p}.
       
       print: "HNT235",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614294",
+            url: "https://www.tcgplayer.com/product/614294?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.R,
+      identifier: "HNT235",
+      image: "HNT235",
+      
+      
+      print: "HNT235-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614294",
+            url: "https://www.tcgplayer.com/product/614294?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9131,7 +11422,24 @@ If the defending hero is **marked**, this gets +1{p}.
       
       print: "HNT174",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612654",
+            url: "https://www.tcgplayer.com/product/612654?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.R,
+      identifier: "HNT174",
+      image: "HNT174",
+      
+      
+      print: "HNT174-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612654",
+            url: "https://www.tcgplayer.com/product/612654?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -9188,7 +11496,24 @@ If the defending hero is **marked**, this gets +1{p}.
       
       print: "HNT147",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612637",
+            url: "https://www.tcgplayer.com/product/612637?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Shen Fei"],
+      foiling: Foiling.C,
+      identifier: "HNT147",
+      image: "HNT147",
+      
+      
+      print: "HNT147-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612637",
+            url: "https://www.tcgplayer.com/product/612637?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9212,7 +11537,7 @@ If the defending hero is **marked**, this gets +1{p}.
     
     
     
-    keywords: [Keyword.BladeBreak],
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
     
@@ -9245,7 +11570,24 @@ If the defending hero is **marked**, this gets +1{p}.
       
       print: "HNT197",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612677",
+            url: "https://www.tcgplayer.com/product/612677?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.R,
+      identifier: "HNT197",
+      image: "HNT197",
+      
+      
+      print: "HNT197-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612677",
+            url: "https://www.tcgplayer.com/product/612677?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -9302,13 +11644,30 @@ Draw a card.`,
       
       print: "HNT182",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612662",
+            url: "https://www.tcgplayer.com/product/612662?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "HNT182",
+      image: "HNT182",
+      
+      
+      print: "HNT182-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612662",
+            url: "https://www.tcgplayer.com/product/612662?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT182"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM028","HNT182"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT182",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -9359,7 +11718,24 @@ Draw a card.`,
       
       print: "HNT183",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612663",
+            url: "https://www.tcgplayer.com/product/612663?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "HNT183",
+      image: "HNT183",
+      
+      
+      print: "HNT183-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612663",
+            url: "https://www.tcgplayer.com/product/612663?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9416,7 +11792,24 @@ Draw a card.`,
       
       print: "HNT184",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612664",
+            url: "https://www.tcgplayer.com/product/612664?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "HNT184",
+      image: "HNT184",
+      
+      
+      print: "HNT184-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612664",
+            url: "https://www.tcgplayer.com/product/612664?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9473,7 +11866,24 @@ Draw a card.`,
       
       print: "HNT164",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612646",
+            url: "https://www.tcgplayer.com/product/612646?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.R,
+      identifier: "HNT164",
+      image: "HNT164",
+      
+      
+      print: "HNT164-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612646",
+            url: "https://www.tcgplayer.com/product/612646?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9528,13 +11938,30 @@ Draw a card.`,
       
       print: "HNT041",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612571",
+            url: "https://www.tcgplayer.com/product/612571?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "HNT041",
+      image: "HNT041",
+      
+      
+      print: "HNT041-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612571",
+            url: "https://www.tcgplayer.com/product/612571?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT041"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM024","HNT041"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT041",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -9585,7 +12012,24 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       print: "HNT042",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612572",
+            url: "https://www.tcgplayer.com/product/612572?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "HNT042",
+      image: "HNT042",
+      
+      
+      print: "HNT042-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612572",
+            url: "https://www.tcgplayer.com/product/612572?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9642,7 +12086,24 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       print: "HNT043",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612573",
+            url: "https://www.tcgplayer.com/product/612573?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "HNT043",
+      image: "HNT043",
+      
+      
+      print: "HNT043-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612573",
+            url: "https://www.tcgplayer.com/product/612573?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9699,7 +12160,24 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       print: "HNT137",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612631",
+            url: "https://www.tcgplayer.com/product/612631?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.R,
+      identifier: "HNT137",
+      image: "HNT137",
+      
+      
+      print: "HNT137-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612631",
+            url: "https://www.tcgplayer.com/product/612631?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9758,7 +12236,24 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       print: "HNT138",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612632",
+            url: "https://www.tcgplayer.com/product/612632?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.R,
+      identifier: "HNT138",
+      image: "HNT138",
+      
+      
+      print: "HNT138-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612632",
+            url: "https://www.tcgplayer.com/product/612632?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9817,7 +12312,24 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       print: "HNT139",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612633",
+            url: "https://www.tcgplayer.com/product/612633?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.R,
+      identifier: "HNT139",
+      image: "HNT139",
+      
+      
+      print: "HNT139-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612633",
+            url: "https://www.tcgplayer.com/product/612633?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9876,7 +12388,24 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       print: "HNT185",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612665",
+            url: "https://www.tcgplayer.com/product/612665?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT185",
+      image: "HNT185",
+      
+      
+      print: "HNT185-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612665",
+            url: "https://www.tcgplayer.com/product/612665?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9933,7 +12462,24 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       print: "HNT186",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612666",
+            url: "https://www.tcgplayer.com/product/612666?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT186",
+      image: "HNT186",
+      
+      
+      print: "HNT186-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612666",
+            url: "https://www.tcgplayer.com/product/612666?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9990,7 +12536,24 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       print: "HNT187",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612667",
+            url: "https://www.tcgplayer.com/product/612667?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT187",
+      image: "HNT187",
+      
+      
+      print: "HNT187-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612667",
+            url: "https://www.tcgplayer.com/product/612667?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10047,7 +12610,24 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       print: "HNT127",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609233",
+            url: "https://www.tcgplayer.com/product/609233?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.R,
+      identifier: "HNT127",
+      image: "HNT127",
+      
+      
+      print: "HNT127-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609233",
+            url: "https://www.tcgplayer.com/product/609233?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -10104,13 +12684,30 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
       
       print: "HNT165",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609491",
+            url: "https://www.tcgplayer.com/product/609491?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "HNT165",
+      image: "HNT165",
+      
+      
+      print: "HNT165-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609491",
+            url: "https://www.tcgplayer.com/product/609491?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT165"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM018","HNT165"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT165",
     subtypes: [],
     types: [Type.Instant],
@@ -10152,32 +12749,38 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
     name: "Provoke",
     printings: [{
         artists: ["Sebastian Giacobino"],
-      
+      foiling: Foiling.R,
       identifier: "HNT117",
       image: "HNT117",
       
       
-      print: "HNT117",
+      print: "HNT117-Rainbow",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609230",
+            url: "https://www.tcgplayer.com/product/609230?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Sebastian Giacobino"],
-      
+      foiling: Foiling.R,
       identifier: "HNT117",
-      image: "HNT117_EA",
+      image: "HNT117-EA",
       
       
-      print: "HNT117-Extended Art",
+      print: "HNT117-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614556",
+            url: "https://www.tcgplayer.com/product/614556?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["HNT117"],
     sets: [Release.TheHunted],
-    specialImage: "HNT117_EA",
+    specialImage: "HNT117-EA",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -10225,7 +12828,24 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
       
       print: "HNT073",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614057",
+            url: "https://www.tcgplayer.com/product/614057?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "HNT073",
+      image: "HNT073",
+      
+      
+      print: "HNT073-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614057",
+            url: "https://www.tcgplayer.com/product/614057?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -10282,7 +12902,24 @@ At the beginning of your end phase, if you've attacked less than 3 times this tu
       
       print: "HNT241",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614298",
+            url: "https://www.tcgplayer.com/product/614298?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.R,
+      identifier: "HNT241",
+      image: "HNT241",
+      
+      
+      print: "HNT241-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614298",
+            url: "https://www.tcgplayer.com/product/614298?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10341,7 +12978,24 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
       
       print: "HNT242",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614299",
+            url: "https://www.tcgplayer.com/product/614299?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.R,
+      identifier: "HNT242",
+      image: "HNT242",
+      
+      
+      print: "HNT242-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614299",
+            url: "https://www.tcgplayer.com/product/614299?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10400,7 +13054,24 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
       
       print: "HNT243",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614300",
+            url: "https://www.tcgplayer.com/product/614300?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.R,
+      identifier: "HNT243",
+      image: "HNT243",
+      
+      
+      print: "HNT243-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614300",
+            url: "https://www.tcgplayer.com/product/614300?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10459,7 +13130,24 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       print: "HNT224",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612703",
+            url: "https://www.tcgplayer.com/product/612703?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Reza Afshar"],
+      foiling: Foiling.R,
+      identifier: "HNT224",
+      image: "HNT224",
+      
+      
+      print: "HNT224-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612703",
+            url: "https://www.tcgplayer.com/product/612703?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10514,7 +13202,24 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       print: "HNT225",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612704",
+            url: "https://www.tcgplayer.com/product/612704?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "HNT225",
+      image: "HNT225",
+      
+      
+      print: "HNT225-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612704",
+            url: "https://www.tcgplayer.com/product/612704?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10569,7 +13274,24 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       print: "HNT238",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612712",
+            url: "https://www.tcgplayer.com/product/612712?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Maerel Hibadita"],
+      foiling: Foiling.R,
+      identifier: "HNT238",
+      image: "HNT238",
+      
+      
+      print: "HNT238-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612712",
+            url: "https://www.tcgplayer.com/product/612712?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10624,7 +13346,24 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       print: "HNT215-Rainbow",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614254",
+            url: "https://www.tcgplayer.com/product/614254?Language=English&Printing=Rainbow+Foil"
+          },
       
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.C,
+      identifier: "HNT215",
+      image: "HNT215",
+      
+      
+      print: "HNT215-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614254",
+            url: "https://www.tcgplayer.com/product/614254?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary],
@@ -10681,13 +13420,30 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT156",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612642",
+            url: "https://www.tcgplayer.com/product/612642?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.R,
+      identifier: "HNT156",
+      image: "HNT156",
+      
+      
+      print: "HNT156-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612642",
+            url: "https://www.tcgplayer.com/product/612642?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT156"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM019","HNT156"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT156",
     subtypes: [],
     types: [Type.Instant],
@@ -10736,13 +13492,16 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT227",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612706",
+            url: "https://www.tcgplayer.com/product/612706?Language=English&Printing=Normal"
+          },
       
     },],
-    rarities: [Rarity.Common,Rarity.Rare],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP402","HNT227","TEA016","WTR209"],
-    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.TheHunted,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP402","GEM032","HNT227","TEA016","WTR209"],
+    sets: [Release.DorintheaHeroDeck,Release.GEM,Release.HistoryPack1,Release.TheHunted,Release.WelcomeToRathe],
     specialImage: "HNT227",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -10793,7 +13552,10 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT050",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612577",
+            url: "https://www.tcgplayer.com/product/612577?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10848,7 +13610,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT044",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611158",
+            url: "https://www.tcgplayer.com/product/611158?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "HNT044",
+      image: "HNT044",
+      
+      
+      print: "HNT044-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611158",
+            url: "https://www.tcgplayer.com/product/611158?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10905,7 +13684,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT045",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611159",
+            url: "https://www.tcgplayer.com/product/611159?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "HNT045",
+      image: "HNT045",
+      
+      
+      print: "HNT045-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611159",
+            url: "https://www.tcgplayer.com/product/611159?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10962,7 +13758,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT046",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611160",
+            url: "https://www.tcgplayer.com/product/611160?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "HNT046",
+      image: "HNT046",
+      
+      
+      print: "HNT046-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611160",
+            url: "https://www.tcgplayer.com/product/611160?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11019,7 +13832,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT195",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612675",
+            url: "https://www.tcgplayer.com/product/612675?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.C,
+      identifier: "HNT195",
+      image: "HNT195",
+      
+      
+      print: "HNT195-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612675",
+            url: "https://www.tcgplayer.com/product/612675?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11036,7 +13866,9 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     defense: 1,
     
-    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.
+
+**Blade Break**`,
     
     
     
@@ -11074,7 +13906,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT194",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612674",
+            url: "https://www.tcgplayer.com/product/612674?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.C,
+      identifier: "HNT194",
+      image: "HNT194",
+      
+      
+      print: "HNT194-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612674",
+            url: "https://www.tcgplayer.com/product/612674?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11091,7 +13940,9 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     defense: 1,
     
-    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.
+
+**Blade Break**`,
     
     
     
@@ -11129,7 +13980,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT193",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612673",
+            url: "https://www.tcgplayer.com/product/612673?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.C,
+      identifier: "HNT193",
+      image: "HNT193",
+      
+      
+      print: "HNT193-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612673",
+            url: "https://www.tcgplayer.com/product/612673?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11146,7 +14014,9 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     defense: 1,
     
-    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.
+
+**Blade Break**`,
     
     
     
@@ -11184,7 +14054,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT192",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612672",
+            url: "https://www.tcgplayer.com/product/612672?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.C,
+      identifier: "HNT192",
+      image: "HNT192",
+      
+      
+      print: "HNT192-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612672",
+            url: "https://www.tcgplayer.com/product/612672?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11201,7 +14088,9 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     defense: 1,
     
-    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.`,
+    functionalText: `If an attack reaction has been played or activated this chain link, this gets +1{d}.
+
+**Blade Break**`,
     
     
     
@@ -11239,7 +14128,24 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       print: "HNT229",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612707",
+            url: "https://www.tcgplayer.com/product/612707?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Reza Afshar"],
+      foiling: Foiling.R,
+      identifier: "HNT229",
+      image: "HNT229",
+      
+      
+      print: "HNT229-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612707",
+            url: "https://www.tcgplayer.com/product/612707?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11298,7 +14204,24 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       
       print: "HNT249",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609581",
+            url: "https://www.tcgplayer.com/product/609581?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.R,
+      identifier: "HNT249",
+      image: "HNT249",
+      isExpansionSlot: true,
+      
+      print: "HNT249-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609581",
+            url: "https://www.tcgplayer.com/product/609581?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11355,7 +14278,10 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       
       print: "HNT256",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609585",
+            url: "https://www.tcgplayer.com/product/609585?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mark Poole"],
@@ -11366,7 +14292,10 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       
       print: "HNT256-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609585",
+            url: "https://www.tcgplayer.com/product/609585?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11423,7 +14352,24 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       print: "HNT248",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609580",
+            url: "https://www.tcgplayer.com/product/609580?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "HNT248",
+      image: "HNT248",
+      isExpansionSlot: true,
+      
+      print: "HNT248-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609580",
+            url: "https://www.tcgplayer.com/product/609580?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11480,7 +14426,10 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       print: "HNT070",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612588",
+            url: "https://www.tcgplayer.com/product/612588?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11495,7 +14444,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
     
     
     cost: 0,
-    defense: 3,
+    defense: 2,
     
     functionalText: `**Go again**`,
     
@@ -11535,7 +14484,24 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       print: "HNT221",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612700",
+            url: "https://www.tcgplayer.com/product/612700?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "HNT221",
+      image: "HNT221",
+      
+      
+      print: "HNT221-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612700",
+            url: "https://www.tcgplayer.com/product/612700?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11590,7 +14556,24 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       print: "HNT198",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612678",
+            url: "https://www.tcgplayer.com/product/612678?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.R,
+      identifier: "HNT198",
+      image: "HNT198",
+      
+      
+      print: "HNT198-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612678",
+            url: "https://www.tcgplayer.com/product/612678?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11649,7 +14632,24 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       print: "HNT110",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612608",
+            url: "https://www.tcgplayer.com/product/612608?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.R,
+      identifier: "HNT110",
+      image: "HNT110",
+      
+      
+      print: "HNT110-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612608",
+            url: "https://www.tcgplayer.com/product/612608?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11704,13 +14704,30 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       print: "HNT208",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612688",
+            url: "https://www.tcgplayer.com/product/612688?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT208",
+      image: "HNT208",
+      
+      
+      print: "HNT208-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612688",
+            url: "https://www.tcgplayer.com/product/612688?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT208"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM030","HNT208"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT208",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -11726,7 +14743,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -11760,7 +14777,24 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       print: "HNT209",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612689",
+            url: "https://www.tcgplayer.com/product/612689?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT209",
+      image: "HNT209",
+      
+      
+      print: "HNT209-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612689",
+            url: "https://www.tcgplayer.com/product/612689?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11782,7 +14816,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -11815,7 +14849,24 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       print: "HNT210",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612690",
+            url: "https://www.tcgplayer.com/product/612690?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "HNT210",
+      image: "HNT210",
+      
+      
+      print: "HNT210-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612690",
+            url: "https://www.tcgplayer.com/product/612690?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11837,7 +14888,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -11863,17 +14914,6 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     name: "Schism of Chaos",
     printings: [{
         artists: ["Dominik Mayer"],
-      foiling: Foiling.C,
-      identifier: "HNT000",
-      image: "HNT000",
-      
-      
-      print: "HNT000-Cold",
-      set: Release.TheHunted,
-      
-      
-    },{
-        artists: ["Dominik Mayer"],
       foiling: Foiling.R,
       identifier: "HNT000",
       image: "HNT000",
@@ -11881,7 +14921,24 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       print: "HNT000-Rainbow",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612561",
+            url: "https://www.tcgplayer.com/product/612561?Language=English&Printing=Rainbow+Foil"
+          },
       
+    },{
+        artists: ["Dominik Mayer"],
+      foiling: Foiling.C,
+      identifier: "HNT000",
+      image: "HNT000",
+      
+      
+      print: "HNT000-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612561",
+            url: "https://www.tcgplayer.com/product/612561?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Fabled],
@@ -11938,13 +14995,30 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
       
       print: "HNT047",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612574",
+            url: "https://www.tcgplayer.com/product/612574?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "HNT047",
+      image: "HNT047",
+      
+      
+      print: "HNT047-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612574",
+            url: "https://www.tcgplayer.com/product/612574?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT047"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM025","HNT047"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT047",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -11962,7 +15036,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     
     
-    keywords: [Keyword.Stealth],
+    keywords: [Keyword.GoAgain,Keyword.Stealth],
     
     meta: [Meta.Rainbow],
     
@@ -11995,7 +15069,24 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       print: "HNT048",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612575",
+            url: "https://www.tcgplayer.com/product/612575?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "HNT048",
+      image: "HNT048",
+      
+      
+      print: "HNT048-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612575",
+            url: "https://www.tcgplayer.com/product/612575?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12019,7 +15110,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     
     
-    keywords: [Keyword.Stealth],
+    keywords: [Keyword.GoAgain,Keyword.Stealth],
     
     meta: [Meta.Rainbow],
     
@@ -12052,7 +15143,24 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       print: "HNT049",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612576",
+            url: "https://www.tcgplayer.com/product/612576?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "HNT049",
+      image: "HNT049",
+      
+      
+      print: "HNT049-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612576",
+            url: "https://www.tcgplayer.com/product/612576?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12076,7 +15184,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     
     
-    keywords: [Keyword.Stealth],
+    keywords: [Keyword.GoAgain,Keyword.Stealth],
     
     meta: [Meta.Rainbow],
     
@@ -12109,7 +15217,24 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       print: "HNT111",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612609",
+            url: "https://www.tcgplayer.com/product/612609?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.R,
+      identifier: "HNT111",
+      image: "HNT111",
+      
+      
+      print: "HNT111-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612609",
+            url: "https://www.tcgplayer.com/product/612609?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12131,7 +15256,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     
     
@@ -12164,7 +15289,24 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       print: "HNT118",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611175",
+            url: "https://www.tcgplayer.com/product/611175?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ina Wong"],
+      foiling: Foiling.R,
+      identifier: "HNT118",
+      image: "HNT118",
+      
+      
+      print: "HNT118-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611175",
+            url: "https://www.tcgplayer.com/product/611175?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -12223,7 +15365,24 @@ At the beginning of your end phase, destroy this.`,
       
       print: "HNT222",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612701",
+            url: "https://www.tcgplayer.com/product/612701?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "HNT222",
+      image: "HNT222",
+      
+      
+      print: "HNT222-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612701",
+            url: "https://www.tcgplayer.com/product/612701?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -12234,8 +15393,11 @@ At the beginning of your end phase, destroy this.`,
       
       print: "HNT222-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614547",
+            url: "https://www.tcgplayer.com/product/614547?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -12289,7 +15451,10 @@ At the beginning of your end phase, destroy this.`,
       
       print: "HNT231",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612708",
+            url: "https://www.tcgplayer.com/product/612708?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -12344,7 +15509,24 @@ At the beginning of your end phase, destroy this.`,
       
       print: "HNT080",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612589",
+            url: "https://www.tcgplayer.com/product/612589?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "HNT080",
+      image: "HNT080",
+      
+      
+      print: "HNT080-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612589",
+            url: "https://www.tcgplayer.com/product/612589?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12399,7 +15581,24 @@ At the beginning of your end phase, destroy this.`,
       
       print: "HNT081",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612590",
+            url: "https://www.tcgplayer.com/product/612590?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "HNT081",
+      image: "HNT081",
+      
+      
+      print: "HNT081-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612590",
+            url: "https://www.tcgplayer.com/product/612590?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12454,7 +15653,24 @@ At the beginning of your end phase, destroy this.`,
       
       print: "HNT082",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612591",
+            url: "https://www.tcgplayer.com/product/612591?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "HNT082",
+      image: "HNT082",
+      
+      
+      print: "HNT082-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612591",
+            url: "https://www.tcgplayer.com/product/612591?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12509,7 +15725,24 @@ At the beginning of your end phase, destroy this.`,
       
       print: "HNT112",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612610",
+            url: "https://www.tcgplayer.com/product/612610?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "HNT112",
+      image: "HNT112",
+      
+      
+      print: "HNT112-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612610",
+            url: "https://www.tcgplayer.com/product/612610?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12566,7 +15799,24 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT113",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612611",
+            url: "https://www.tcgplayer.com/product/612611?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Firaz M. Rasyid"],
+      foiling: Foiling.R,
+      identifier: "HNT113",
+      image: "HNT113",
+      
+      
+      print: "HNT113-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612611",
+            url: "https://www.tcgplayer.com/product/612611?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12621,13 +15871,30 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT162",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612644",
+            url: "https://www.tcgplayer.com/product/612644?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "HNT162",
+      image: "HNT162",
+      
+      
+      print: "HNT162-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612644",
+            url: "https://www.tcgplayer.com/product/612644?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT162"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM017","HNT162"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT162",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -12643,7 +15910,7 @@ Target dagger attack gets +3{p}.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     
     
@@ -12676,7 +15943,24 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT226",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612705",
+            url: "https://www.tcgplayer.com/product/612705?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "HNT226",
+      image: "HNT226",
+      
+      
+      print: "HNT226-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612705",
+            url: "https://www.tcgplayer.com/product/612705?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12731,7 +16015,24 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT255",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609584",
+            url: "https://www.tcgplayer.com/product/609584?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.R,
+      identifier: "HNT255",
+      image: "HNT255",
+      isExpansionSlot: true,
+      
+      print: "HNT255-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609584",
+            url: "https://www.tcgplayer.com/product/609584?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -12788,7 +16089,24 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT114",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612612",
+            url: "https://www.tcgplayer.com/product/612612?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Adolfo Navarro"],
+      foiling: Foiling.R,
+      identifier: "HNT114",
+      image: "HNT114",
+      
+      
+      print: "HNT114-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612612",
+            url: "https://www.tcgplayer.com/product/612612?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12810,7 +16128,7 @@ Target dagger attack gets +3{p}.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     
     
@@ -12843,7 +16161,24 @@ Target dagger attack gets +3{p}.`,
       
       print: "HNT023",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612566",
+            url: "https://www.tcgplayer.com/product/612566?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "HNT023",
+      image: "HNT023",
+      
+      
+      print: "HNT023-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612566",
+            url: "https://www.tcgplayer.com/product/612566?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12867,7 +16202,7 @@ Target attack with **stealth** gets +3{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -12900,7 +16235,24 @@ Target attack with **stealth** gets +3{p} and **go again**.`,
       
       print: "HNT024",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614050",
+            url: "https://www.tcgplayer.com/product/614050?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "HNT024",
+      image: "HNT024",
+      
+      
+      print: "HNT024-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614050",
+            url: "https://www.tcgplayer.com/product/614050?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12924,7 +16276,7 @@ Target attack with **stealth** gets +2{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -12957,7 +16309,24 @@ Target attack with **stealth** gets +2{p} and **go again**.`,
       
       print: "HNT025",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612567",
+            url: "https://www.tcgplayer.com/product/612567?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "HNT025",
+      image: "HNT025",
+      
+      
+      print: "HNT025-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612567",
+            url: "https://www.tcgplayer.com/product/612567?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12981,7 +16350,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -13014,7 +16383,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT196",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612676",
+            url: "https://www.tcgplayer.com/product/612676?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Lizhe Liang"],
+      foiling: Foiling.C,
+      identifier: "HNT196",
+      image: "HNT196",
+      
+      
+      print: "HNT196-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612676",
+            url: "https://www.tcgplayer.com/product/612676?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13036,7 +16422,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -13069,7 +16455,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT140",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611176",
+            url: "https://www.tcgplayer.com/product/611176?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arghawana Rim"],
+      foiling: Foiling.R,
+      identifier: "HNT140",
+      image: "HNT140",
+      
+      
+      print: "HNT140-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611176",
+            url: "https://www.tcgplayer.com/product/611176?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13126,7 +16529,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT141",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611177",
+            url: "https://www.tcgplayer.com/product/611177?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arghawana Rim"],
+      foiling: Foiling.R,
+      identifier: "HNT141",
+      image: "HNT141",
+      
+      
+      print: "HNT141-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611177",
+            url: "https://www.tcgplayer.com/product/611177?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13183,7 +16603,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT142",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611178",
+            url: "https://www.tcgplayer.com/product/611178?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arghawana Rim"],
+      foiling: Foiling.R,
+      identifier: "HNT142",
+      image: "HNT142",
+      
+      
+      print: "HNT142-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611178",
+            url: "https://www.tcgplayer.com/product/611178?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13240,7 +16677,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT092",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611168",
+            url: "https://www.tcgplayer.com/product/611168?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Igor Heras"],
+      foiling: Foiling.R,
+      identifier: "HNT092",
+      image: "HNT092",
+      
+      
+      print: "HNT092-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611168",
+            url: "https://www.tcgplayer.com/product/611168?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13297,7 +16751,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT093",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611169",
+            url: "https://www.tcgplayer.com/product/611169?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Igor Heras"],
+      foiling: Foiling.R,
+      identifier: "HNT093",
+      image: "HNT093",
+      
+      
+      print: "HNT093-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611169",
+            url: "https://www.tcgplayer.com/product/611169?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13354,7 +16825,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT094",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611170",
+            url: "https://www.tcgplayer.com/product/611170?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Igor Heras"],
+      foiling: Foiling.R,
+      identifier: "HNT094",
+      image: "HNT094",
+      
+      
+      print: "HNT094-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611170",
+            url: "https://www.tcgplayer.com/product/611170?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13411,7 +16899,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT211",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612691",
+            url: "https://www.tcgplayer.com/product/612691?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.R,
+      identifier: "HNT211",
+      image: "HNT211",
+      
+      
+      print: "HNT211-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612691",
+            url: "https://www.tcgplayer.com/product/612691?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13466,7 +16971,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT212",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612692",
+            url: "https://www.tcgplayer.com/product/612692?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.R,
+      identifier: "HNT212",
+      image: "HNT212",
+      
+      
+      print: "HNT212-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612692",
+            url: "https://www.tcgplayer.com/product/612692?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13521,7 +17043,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT213",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612693",
+            url: "https://www.tcgplayer.com/product/612693?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.R,
+      identifier: "HNT213",
+      image: "HNT213",
+      
+      
+      print: "HNT213-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612693",
+            url: "https://www.tcgplayer.com/product/612693?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13576,7 +17115,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT014",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613101",
+            url: "https://www.tcgplayer.com/product/613101?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Henrique Lindner"],
+      foiling: Foiling.R,
+      identifier: "HNT014",
+      image: "HNT014",
+      
+      
+      print: "HNT014-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613101",
+            url: "https://www.tcgplayer.com/product/613101?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -13631,7 +17187,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT015",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606722",
+            url: "https://www.tcgplayer.com/product/606722?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.R,
+      identifier: "HNT015",
+      image: "HNT015",
+      
+      
+      print: "HNT015-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "606722",
+            url: "https://www.tcgplayer.com/product/606722?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -13689,19 +17262,39 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT246",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609546",
+            url: "https://www.tcgplayer.com/product/609546?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "HNT246",
+      image: "HNT246",
+      isExpansionSlot: true,
       
+      print: "HNT246-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609546",
+            url: "https://www.tcgplayer.com/product/609546?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
       identifier: "HNT246",
       image: "HNT246-EA",
       isExpansionSlot: true,
       
-      print: "HNT246-Extended Art",
+      print: "HNT246-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614546",
+            url: "https://www.tcgplayer.com/product/614546?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -13755,7 +17348,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT175",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612655",
+            url: "https://www.tcgplayer.com/product/612655?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.R,
+      identifier: "HNT175",
+      image: "HNT175",
+      
+      
+      print: "HNT175-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612655",
+            url: "https://www.tcgplayer.com/product/612655?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -13794,7 +17404,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
   
   
   },{
-    artists: ["Aluisio Cervelle"],
+    artists: ["Aluísio Cervelle"],
     cardIdentifier: "throw-yourself-at-them-red",
     classes: [Class.Assassin,Class.Ninja],
     defaultImage: "HNT188",
@@ -13802,7 +17412,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     legalHeroes: [],
     name: "Throw Yourself at Them",
     printings: [{
-        artists: ["Aluisio Cervelle"],
+        artists: ["Aluísio Cervelle"],
       
       identifier: "HNT188",
       image: "HNT188",
@@ -13810,7 +17420,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT188",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612668",
+            url: "https://www.tcgplayer.com/product/612668?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.R,
+      identifier: "HNT188",
+      image: "HNT188",
+      
+      
+      print: "HNT188-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612668",
+            url: "https://www.tcgplayer.com/product/612668?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13851,7 +17478,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
   
   
   },{
-    artists: ["Aluisio Cervelle"],
+    artists: ["Aluísio Cervelle"],
     cardIdentifier: "throw-yourself-at-them-yellow",
     classes: [Class.Assassin,Class.Ninja],
     defaultImage: "HNT189",
@@ -13859,7 +17486,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     legalHeroes: [],
     name: "Throw Yourself at Them",
     printings: [{
-        artists: ["Aluisio Cervelle"],
+        artists: ["Aluísio Cervelle"],
       
       identifier: "HNT189",
       image: "HNT189",
@@ -13867,7 +17494,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT189",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612669",
+            url: "https://www.tcgplayer.com/product/612669?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.R,
+      identifier: "HNT189",
+      image: "HNT189",
+      
+      
+      print: "HNT189-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612669",
+            url: "https://www.tcgplayer.com/product/612669?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13908,7 +17552,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
   
   
   },{
-    artists: ["Aluisio Cervelle"],
+    artists: ["Aluísio Cervelle"],
     cardIdentifier: "throw-yourself-at-them-blue",
     classes: [Class.Assassin,Class.Ninja],
     defaultImage: "HNT190",
@@ -13916,7 +17560,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     legalHeroes: [],
     name: "Throw Yourself at Them",
     printings: [{
-        artists: ["Aluisio Cervelle"],
+        artists: ["Aluísio Cervelle"],
       
       identifier: "HNT190",
       image: "HNT190",
@@ -13924,7 +17568,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT190",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612670",
+            url: "https://www.tcgplayer.com/product/612670?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.R,
+      identifier: "HNT190",
+      image: "HNT190",
+      
+      
+      print: "HNT190-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612670",
+            url: "https://www.tcgplayer.com/product/612670?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13981,7 +17642,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT232",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612709",
+            url: "https://www.tcgplayer.com/product/612709?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT232",
+      image: "HNT232",
+      
+      
+      print: "HNT232-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612709",
+            url: "https://www.tcgplayer.com/product/612709?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14003,7 +17681,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -14036,7 +17714,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT233",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612710",
+            url: "https://www.tcgplayer.com/product/612710?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT233",
+      image: "HNT233",
+      
+      
+      print: "HNT233-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612710",
+            url: "https://www.tcgplayer.com/product/612710?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14058,7 +17753,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -14091,7 +17786,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT234",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612711",
+            url: "https://www.tcgplayer.com/product/612711?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT234",
+      image: "HNT234",
+      
+      
+      print: "HNT234-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612711",
+            url: "https://www.tcgplayer.com/product/612711?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14113,7 +17825,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -14146,7 +17858,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT199",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612679",
+            url: "https://www.tcgplayer.com/product/612679?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.R,
+      identifier: "HNT199",
+      image: "HNT199",
+      
+      
+      print: "HNT199-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612679",
+            url: "https://www.tcgplayer.com/product/612679?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14201,7 +17930,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT200",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612680",
+            url: "https://www.tcgplayer.com/product/612680?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.R,
+      identifier: "HNT200",
+      image: "HNT200",
+      
+      
+      print: "HNT200-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612680",
+            url: "https://www.tcgplayer.com/product/612680?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14256,7 +18002,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT201",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612681",
+            url: "https://www.tcgplayer.com/product/612681?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.R,
+      identifier: "HNT201",
+      image: "HNT201",
+      
+      
+      print: "HNT201-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612681",
+            url: "https://www.tcgplayer.com/product/612681?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14311,13 +18074,16 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT166",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "612647",
+            url: "https://www.tcgplayer.com/product/612647?Language=English&Printing=Normal"
+          },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT166"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM020","HNT166"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT166",
     subtypes: [],
     types: [Type.Instant],
@@ -14366,7 +18132,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT095",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612601",
+            url: "https://www.tcgplayer.com/product/612601?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "HNT095",
+      image: "HNT095",
+      
+      
+      print: "HNT095-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612601",
+            url: "https://www.tcgplayer.com/product/612601?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14390,7 +18173,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -14423,7 +18206,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT096",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612602",
+            url: "https://www.tcgplayer.com/product/612602?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "HNT096",
+      image: "HNT096",
+      
+      
+      print: "HNT096-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612602",
+            url: "https://www.tcgplayer.com/product/612602?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14447,7 +18247,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -14480,7 +18280,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT097",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612603",
+            url: "https://www.tcgplayer.com/product/612603?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "HNT097",
+      image: "HNT097",
+      
+      
+      print: "HNT097-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612603",
+            url: "https://www.tcgplayer.com/product/612603?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14504,7 +18321,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Mark],
     
     meta: [Meta.Rainbow],
     
@@ -14537,7 +18354,10 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT247",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609579",
+            url: "https://www.tcgplayer.com/product/609579?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Vito Febrianno"],
@@ -14548,7 +18368,10 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT247-Cold",
       set: Release.TheHunted,
-      
+      tcgplayer: {
+            productId: "609579",
+            url: "https://www.tcgplayer.com/product/609579?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -14605,7 +18428,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT240",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612714",
+            url: "https://www.tcgplayer.com/product/612714?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.R,
+      identifier: "HNT240",
+      image: "HNT240",
+      
+      
+      print: "HNT240-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612714",
+            url: "https://www.tcgplayer.com/product/612714?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14662,7 +18502,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT122",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612616",
+            url: "https://www.tcgplayer.com/product/612616?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Igor Heras"],
+      foiling: Foiling.R,
+      identifier: "HNT122",
+      image: "HNT122",
+      
+      
+      print: "HNT122-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612616",
+            url: "https://www.tcgplayer.com/product/612616?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14686,7 +18543,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -14719,7 +18576,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT123",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612617",
+            url: "https://www.tcgplayer.com/product/612617?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Igor Heras"],
+      foiling: Foiling.R,
+      identifier: "HNT123",
+      image: "HNT123",
+      
+      
+      print: "HNT123-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612617",
+            url: "https://www.tcgplayer.com/product/612617?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14743,7 +18617,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -14776,7 +18650,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT124",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612618",
+            url: "https://www.tcgplayer.com/product/612618?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Igor Heras"],
+      foiling: Foiling.R,
+      identifier: "HNT124",
+      image: "HNT124",
+      
+      
+      print: "HNT124-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612618",
+            url: "https://www.tcgplayer.com/product/612618?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14800,7 +18691,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     meta: [Meta.Rainbow],
     
@@ -14833,7 +18724,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT051",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614056",
+            url: "https://www.tcgplayer.com/product/614056?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Raphael Pinna"],
+      foiling: Foiling.R,
+      identifier: "HNT051",
+      image: "HNT051",
+      
+      
+      print: "HNT051-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614056",
+            url: "https://www.tcgplayer.com/product/614056?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14847,7 +18755,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
 
     
     
-    cost: 0,
+    cost: 1,
     defense: 3,
     
     functionalText: `Choose 1;
@@ -14857,7 +18765,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
-    
+    keywords: [Keyword.Mark],
     
     
     
@@ -14890,7 +18798,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT013",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613100",
+            url: "https://www.tcgplayer.com/product/613100?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.R,
+      identifier: "HNT013",
+      image: "HNT013",
+      
+      
+      print: "HNT013-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "613100",
+            url: "https://www.tcgplayer.com/product/613100?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -14947,7 +18872,24 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       print: "HNT179",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612659",
+            url: "https://www.tcgplayer.com/product/612659?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Adolfo Navarro"],
+      foiling: Foiling.R,
+      identifier: "HNT179",
+      image: "HNT179",
+      
+      
+      print: "HNT179-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612659",
+            url: "https://www.tcgplayer.com/product/612659?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -15006,7 +18948,24 @@ Your next dagger attack this turn gets +4{p}.
       
       print: "HNT180",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612660",
+            url: "https://www.tcgplayer.com/product/612660?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Adolfo Navarro"],
+      foiling: Foiling.R,
+      identifier: "HNT180",
+      image: "HNT180",
+      
+      
+      print: "HNT180-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612660",
+            url: "https://www.tcgplayer.com/product/612660?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -15065,7 +19024,24 @@ Your next dagger attack this turn gets +3{p}.
       
       print: "HNT181",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612661",
+            url: "https://www.tcgplayer.com/product/612661?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Adolfo Navarro"],
+      foiling: Foiling.R,
+      identifier: "HNT181",
+      image: "HNT181",
+      
+      
+      print: "HNT181-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612661",
+            url: "https://www.tcgplayer.com/product/612661?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -15124,7 +19100,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT144",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612634",
+            url: "https://www.tcgplayer.com/product/612634?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Shen Fei"],
+      foiling: Foiling.C,
+      identifier: "HNT144",
+      image: "HNT144",
+      
+      
+      print: "HNT144-Cold",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612634",
+            url: "https://www.tcgplayer.com/product/612634?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15148,7 +19141,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
-    keywords: [Keyword.BladeBreak],
+    keywords: [Keyword.BladeBreak,Keyword.Mark],
     
     
     
@@ -15181,7 +19174,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT258",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609586",
+            url: "https://www.tcgplayer.com/product/609586?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.R,
+      identifier: "HNT258",
+      image: "HNT258",
+      isExpansionSlot: true,
+      
+      print: "HNT258-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609586",
+            url: "https://www.tcgplayer.com/product/609586?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -15238,7 +19248,24 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT257",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614301",
+            url: "https://www.tcgplayer.com/product/614301?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.R,
+      identifier: "HNT257",
+      image: "HNT257",
+      isExpansionSlot: true,
+      
+      print: "HNT257-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "614301",
+            url: "https://www.tcgplayer.com/product/614301?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -15297,13 +19324,30 @@ Your next dagger attack this turn gets +2{p}.
       
       print: "HNT020",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612563",
+            url: "https://www.tcgplayer.com/product/612563?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT020",
+      image: "HNT020",
+      
+      
+      print: "HNT020-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612563",
+            url: "https://www.tcgplayer.com/product/612563?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT020"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["GEM026","HNT020"],
+    sets: [Release.GEM,Release.TheHunted],
     specialImage: "HNT020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -15354,7 +19398,24 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       print: "HNT021",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612564",
+            url: "https://www.tcgplayer.com/product/612564?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT021",
+      image: "HNT021",
+      
+      
+      print: "HNT021-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612564",
+            url: "https://www.tcgplayer.com/product/612564?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -15411,7 +19472,24 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       print: "HNT022",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612565",
+            url: "https://www.tcgplayer.com/product/612565?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "HNT022",
+      image: "HNT022",
+      
+      
+      print: "HNT022-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612565",
+            url: "https://www.tcgplayer.com/product/612565?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -15468,7 +19546,24 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       print: "HNT061",
       set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611162",
+            url: "https://www.tcgplayer.com/product/611162?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.R,
+      identifier: "HNT061",
+      image: "HNT061",
+      
+      
+      print: "HNT061-Rainbow",
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "611162",
+            url: "https://www.tcgplayer.com/product/611162?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -15479,8 +19574,11 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       print: "HNT061-Rainbow-Extended Art",
       set: Release.TheHunted,
-      
-      treatment: Treatment.EA,
+      tcgplayer: {
+            productId: "614577",
+            url: "https://www.tcgplayer.com/product/614577?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,

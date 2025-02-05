@@ -14,6 +14,7 @@ describe("Check for set identifiers", () => {
 });
 
 const RELEASES_TO_EXCLUDE = [
+  Release.GEM,
   Release.Promos,
   Release.BravoHeroDeck,
   Release.RhinarHeroDeck,

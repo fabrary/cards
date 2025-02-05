@@ -1,5 +1,5 @@
 import { mapCSV } from "./mapper";
-import { parseCSV } from "./parser";
+import { parseCSV, ParsedCard } from "./parser";
 import { filterOutUnwantedCards, sortPrintingsByReleaseOrder } from "../Shared";
 import { Card, Rarity } from "@flesh-and-blood/types";
 import { getPrint } from "@flesh-and-blood/types";
@@ -7,7 +7,7 @@ import { combineAndAddMissingFields } from "../Shared/combined-and-missing-field
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
-const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - HNT.csv`;
+const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - ROS.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - HNT blitz decks.csv`;
 const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AJV.csv`;
 const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - AST.csv`;
@@ -19,10 +19,10 @@ const parsedOverrideCards = parseCSV(overrideCardsFile)
   .filter(filterOutUnwantedCards);
 const overrideCards = mapCSV(parsedOverrideCards);
 
-const parsedSpoiledSetCards = [
-  ...parseCSV(spoiledSetCardsFile1),
-  ...parseCSV(spoiledSetCardsFile2),
-  ...parseCSV(spoiledSetCardsFile3),
+const parsedSpoiledSetCards: ParsedCard[] = [
+  // ...parseCSV(spoiledSetCardsFile1),
+  // ...parseCSV(spoiledSetCardsFile2),
+  // ...parseCSV(spoiledSetCardsFile3),
   ...parseCSV(spoiledSetCardsFile4),
 ]
   .filter((card) => !!card.name)

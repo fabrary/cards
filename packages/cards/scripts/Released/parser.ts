@@ -251,6 +251,9 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
             } else {
               const validSets = Object.keys(setToSetIdentifierMappings);
 
+              if (matchingSet.id === "ARK") {
+                matchingSet.name = Release.ArakniBlitzDeckARK;
+              }
               const matchingValidSet = validSets.find(
                 (setName) => setName === matchingSet.name
               );
