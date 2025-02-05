@@ -80,7 +80,7 @@ const specialImagePrintingOverrides: {
     print: "ROS256-Cold",
   },
   "sigil-of-solace-red": {
-    print: "FAB178-Rainbow-Extended Art",
+    print: "FAB178-Rainbow-Alternate Art-Extended Art",
   },
   "spectral-shield": {
     print: "MST158-Alternate Art-V3",
@@ -131,6 +131,7 @@ export const getSpecialPrinting = (
     let fullArt: Printing | undefined;
     let nonFoilExtendedArt: Printing | undefined;
     let promoExtendedArt: Printing | undefined;
+    let fullArtAlternateArt: Printing | undefined;
 
     let marvel: Printing | undefined;
 
@@ -144,15 +145,8 @@ export const getSpecialPrinting = (
     let promoColdFoil: Printing | undefined;
 
     for (const printing of printings) {
-      const {
-        edition,
-        foiling,
-        identifier,
-        image,
-        print,
-        treatment,
-        treatments,
-      } = printing;
+      const { edition, foiling, identifier, image, print, treatments } =
+        printing;
 
       // Don't include Pro Tour, etc. hero cards for special printings because they're missing functional text
       const isMissingFunctionalText = identifier.toLowerCase().includes("win");
@@ -167,13 +161,17 @@ export const getSpecialPrinting = (
           firstImage = printing;
         }
 
-        if (treatments?.includes(Treatment.AA)) {
-          alternativeArt = printing;
-        } else if (treatments?.includes(Treatment.AB)) {
-          alternateBorder = printing;
-        } else if (treatments?.includes(Treatment.AT)) {
-          alternateText = printing;
-        } else if (treatments?.includes(Treatment.EA)) {
+        if (treatments?.includes(Treatment.FA)) {
+          fullArt = printing;
+          if (foiling === Foiling.C) {
+            coldFullArt = printing;
+            if (image.includes("_V3")) {
+              coldFullArt2 = printing;
+              break;
+            }
+          }
+        }
+        if (treatments?.includes(Treatment.EA)) {
           extendedArt = printing;
           if (foiling === Foiling.C) {
             coldExtendedArt = printing;
@@ -184,15 +182,15 @@ export const getSpecialPrinting = (
           if (edition === ReleaseEdition.Promo) {
             promoExtendedArt = printing;
           }
-        } else if (treatments?.includes(Treatment.FA)) {
-          fullArt = printing;
-          if (foiling === Foiling.C) {
-            coldFullArt = printing;
-            if (image.includes("_V3")) {
-              coldFullArt2 = printing;
-              break;
-            }
-          }
+        }
+        if (treatments?.includes(Treatment.AA)) {
+          alternativeArt = printing;
+        }
+        if (treatments?.includes(Treatment.AB)) {
+          alternateBorder = printing;
+        }
+        if (treatments?.includes(Treatment.AT)) {
+          alternateText = printing;
         }
 
         if (
@@ -225,6 +223,7 @@ export const getSpecialPrinting = (
     }
 
     return (
+      fullArtAlternateArt ||
       coldFullArt2 ||
       coldFullArt ||
       fullArt ||
