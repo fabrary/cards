@@ -24,6 +24,7 @@ import {
   getMeta,
   getNumberOrUndefined,
   getRarities,
+  getRarityFromRawString,
   getRestrictedFormats,
   getSpecializations,
   getStringIfNotNumber,
@@ -110,11 +111,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     foiling: rawFoiling,
     isExpansionSlot,
     setIdentifier: identifier,
+    rarity: rawRarity,
     set,
     tcgplayer,
   } of printings) {
     // const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
     const edition = setEditionMapping[rawEdition];
+
+    const rarity = getRarityFromRawString(rawRarity);
 
     let treatment: Treatment | undefined = undefined;
     let treatments: Treatment[] = [];
@@ -173,6 +177,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         identifier,
         image,
         isExpansionSlot,
+        rarity,
         print,
         set,
         ...(tcgplayer ? { tcgplayer } : {}),

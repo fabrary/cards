@@ -49,6 +49,7 @@ const getPrintings = (printings: Printing[]) => {
         foiling,
         identifier,
         print,
+        rarity,
         set,
         tcgplayer,
         treatment,
@@ -76,6 +77,7 @@ const getPrintings = (printings: Printing[]) => {
       ${isExpansionSlot ? `isExpansionSlot: ${isExpansionSlot},` : ``}
       ${oppositeImage ? `oppositeImage: "${oppositeImage}",` : ``}
       print: "${print}",
+      rarity: ${getEnumValue(rarity, "Rarity", Rarity)},
       set: ${getEnumValue(set, "Release", Release)},
       ${
         tcgplayer

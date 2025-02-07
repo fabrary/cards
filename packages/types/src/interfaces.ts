@@ -7,6 +7,7 @@ export interface Card {
   legalHeroes: Hero[];
   name: string;
   printings: Printing[];
+  // TODO deprecate this field
   rarities: Rarity[];
   rarity: Rarity;
   setIdentifiers: string[];
@@ -60,11 +61,13 @@ export interface Printing {
   isExpansionSlot?: boolean;
   oppositeImage?: string;
   print: string;
+  rarity: Rarity;
   set: Release;
   tcgplayer?: {
     productId?: string;
     url?: string;
   };
+  // TODO deprecate
   treatment?: Treatment;
   treatments?: Treatment[];
 }

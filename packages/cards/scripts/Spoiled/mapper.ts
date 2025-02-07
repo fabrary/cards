@@ -7,6 +7,7 @@ import {
   getMeta,
   getNumberOrUndefined,
   getRarities,
+  getRarityFromRawString,
   getRestrictedFormats,
   getSpecializations,
   getStringIfNotNumber,
@@ -191,6 +192,7 @@ interface PrintingInput {
   identifier: string;
   imageUrl?: string;
   isExpansionSlot?: boolean;
+  rarityString: string;
   setString: string;
   treatmentStrings?: string[];
   tcgplayerProductId?: string;
@@ -203,9 +205,13 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
     foilingString,
     identifier,
     imageUrl,
+    rarityString,
     setString,
     treatmentStrings,
   } = input;
+
+  const rarity = getRarityFromRawString(rarityString);
+
   const set = setIdentifierToSetMappings[setString.toLowerCase()];
 
   const foiling = foilingString ? Foiling[foilingString] : undefined;
@@ -245,6 +251,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
     identifier,
     image,
     print,
+    rarity,
     set,
     ...(treatment ? { treatment } : {}),
     ...(treatments?.length ? { treatments } : {}),
@@ -395,6 +402,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     foiling,
     identifier,
     imageUrl,
+    rarity,
     treatments,
     tcgplayerProductId,
     tcgplayerUrl,
@@ -440,6 +448,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     artists,
     isExpansionSlot: expansionSlot,
     foilingString: foiling,
+    rarityString: rarity,
     setString: setIdentifiers[0],
     imageUrl,
     identifier: identifier || identifiers[0],
@@ -478,6 +487,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         foilingString: "R",
         identifier: identifier || identifiers[0],
         isExpansionSlot: expansionSlot,
+        rarityString: rarity,
         setString: setIdentifiers[0],
         imageUrl,
       });
@@ -491,6 +501,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         artists,
         foilingString: "C",
         identifier: identifier || identifiers[0],
+        rarityString: rarity,
         setString: setIdentifiers[0],
         imageUrl,
       });
@@ -511,6 +522,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor2,
       imageUrl: imageUrl2,
       isExpansionSlot: expansionSlot2,
+      rarityString: rarity2,
       setString: setIdentifier,
       treatmentStrings: treatments2,
       ...(tcgplayerProductId2 && tcgplayerUrl2
@@ -536,6 +548,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor3,
       imageUrl: imageUrl3,
       isExpansionSlot: expansionSlot3,
+      rarityString: rarity3,
       setString: setIdentifier,
       treatmentStrings: treatments3,
       ...(tcgplayerProductId3 && tcgplayerUrl3
@@ -562,6 +575,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       foilingString: foiling4,
       identifier: identifierFor4,
       imageUrl: imageUrl4,
+      rarityString: rarity4,
       setString: setIdentifier,
       treatmentStrings: treatments4,
       ...(tcgplayerProductId4 && tcgplayerUrl4
@@ -589,6 +603,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       identifier: identifierFor5,
       imageUrl: imageUrl5,
       isExpansionSlot: expansionSlot5,
+      rarityString: rarity5,
       setString: setIdentifier,
       treatmentStrings: treatments5,
       ...(tcgplayerProductId5 && tcgplayerUrl5
@@ -611,6 +626,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       const basePrinting = {
         artists: ["Carlos Cruchaga"],
         identifier,
+        rarityString: rarity,
         setString,
       };
 

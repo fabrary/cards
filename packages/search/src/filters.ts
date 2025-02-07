@@ -3,6 +3,7 @@ import {
   Foiling,
   Hero,
   Meta,
+  Rarity,
   Release,
   Treatment,
   Type,
@@ -96,6 +97,7 @@ export interface FilterToPropertyMapping {
   property: string;
   exclusion?: Exclusion;
   isArray?: boolean;
+  isNestedPropertyArray?: boolean;
   isNumber?: boolean;
   isString?: boolean;
   isBoolean?: boolean;
@@ -271,9 +273,10 @@ const typeTextFilter: FilterToPropertyMapping = {
 };
 
 const treatmentFilter: FilterToPropertyMapping = {
-  nestedProperty: "treatment",
+  nestedProperty: "treatments",
   property: "printings",
   isArray: true,
+  isNestedPropertyArray: true,
 };
 
 export const filtersToCardPropertyMappings = {
@@ -419,6 +422,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
     artists: string[];
     foilings: Foiling[];
     isExpansionSlot: boolean;
+    rarities: Rarity[];
     releases: Release[];
     treatments: Treatment[];
   };
@@ -460,6 +464,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   let keywords: string[] = [];
   let foilings: Foiling[] = [];
   let isExpansionSlot: boolean = false;
+  let rarities: Rarity[] = [];
   let releases: Release[] = [];
   let treatments: Treatment[] = [];
   let specialConditions: SpecialConditions = { isClash: false, heroes: [] };
@@ -475,7 +480,8 @@ export const getKeywordsAndAppliedFiltersFromText = (
 
       if (isMeta) {
         if (["rarity", "r"].includes(filterKey)) {
-          values = getRarityValuesFromText(values);
+          rarities = getRarityValuesFromText(values);
+          values = rarities.map((s) => s.toLowerCase());
         }
         if (["legal", "l", "hero"].includes(filterKey)) {
           for (const hero of specialConditionHeroes) {
@@ -620,7 +626,14 @@ export const getKeywordsAndAppliedFiltersFromText = (
   }
   return {
     appliedFilters,
-    attributes: { artists, foilings, isExpansionSlot, releases, treatments },
+    attributes: {
+      artists,
+      foilings,
+      isExpansionSlot,
+      rarities,
+      releases,
+      treatments,
+    },
     keywords,
     specialConditions,
   };
@@ -754,23 +767,23 @@ const getTreatmentValuesFromText = (rawValues: string[]) => {
   return values;
 };
 
-const rarityValuesMapping: { [key: string]: string } = {
-  c: "common",
-  f: "fabled",
-  l: "legendary",
-  m: "majestic",
-  v: "marvel",
-  r: "rare",
-  s: "super rare",
-  t: "token",
+const rarityValuesMapping: { [key: string]: Rarity } = {
+  c: Rarity.Common,
+  f: Rarity.Fabled,
+  l: Rarity.Legendary,
+  m: Rarity.Majestic,
+  v: Rarity.Marvel,
+  r: Rarity.Rare,
+  s: Rarity.SuperRare,
+  t: Rarity.Token,
 };
 const getRarityValuesFromText = (rawValues: string[]) => {
-  const values: string[] = [];
+  const values: Rarity[] = [];
   for (const rawValue of rawValues) {
     if (rarityValuesMapping[rawValue]) {
       values.push(rarityValuesMapping[rawValue]);
     } else {
-      values.push(rawValue);
+      values.push(rawValue as Rarity);
     }
   }
   return values;

@@ -410,17 +410,22 @@ export const getRarity = (rarities: Rarity[]): Rarity => {
   return rarity;
 };
 
+export const getRarityFromRawString = (rawRarity: string): Rarity => {
+  const rarityString = rawRarity.split(" - ")[0];
+  const rarity = rarityStringMapping[rarityString];
+  if (!rarity) {
+    console.error(`No rarity found for ${rarityString} (${rawRarity})`);
+  }
+  return rarity;
+};
+
 export const getRarities = (card: {
   rarities: string[];
 }): { rarity: Rarity; rarities: Rarity[] } => {
   const rarities: Rarity[] = [];
 
   card.rarities.forEach((rawRarity) => {
-    const rarityString = rawRarity.split(" - ")[0];
-    const rarity = rarityStringMapping[rarityString];
-    if (!rarity) {
-      console.error(`No rarity found for ${rarityString} (${rawRarity})`);
-    }
+    const rarity = getRarityFromRawString(rawRarity);
     if (!rarities.includes(rarity)) {
       rarities.push(rarity);
     }

@@ -33,20 +33,7 @@ exports[`Gets the right attribute filters Gets matching foilings for treat:"alt 
 ]
 `;
 
-exports[`Gets the right attribute filters Gets matching foilings for treat:"alt art",fa 2`] = `
-[
-  "Alternate Art",
-  "Full Art",
-]
-`;
-
 exports[`Gets the right attribute filters Gets matching foilings for treatment:ea 1`] = `
-[
-  "Extended Art",
-]
-`;
-
-exports[`Gets the right attribute filters Gets matching foilings for treatment:ea 2`] = `
 [
   "Extended Art",
 ]
@@ -75,5 +62,18 @@ exports[`Gets the right attribute filters Gets matching sets for s:welcome 2`] =
 [
   "Welcome to Rathe",
   "Ira Welcome Deck",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching treatments for treat:"alt art",fa 1`] = `
+[
+  "Alternate Art",
+  "Full Art",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching treatments for treatment:ea 1`] = `
+[
+  "Extended Art",
 ]
 `;

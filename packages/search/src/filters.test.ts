@@ -79,7 +79,7 @@ describe("Gets the right attribute filters", () => {
     ['treat:"alt art",fa', [Treatment.AA, Treatment.FA]],
   ];
   it.each(treatmentFilters)(
-    "Gets matching foilings for %s",
+    "Gets matching treatments for %s",
     (search, expectedTreatments) => {
       const {
         attributes: { treatments },

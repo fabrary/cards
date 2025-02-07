@@ -14,6 +14,7 @@ interface AppliedFilter {
   cardTypes?: string[];
 }
 interface FilterToPropertyMapping {
+  nestedProperty?: string;
   property: string;
   exclusion?: Exclusion;
   isArray?: boolean;
@@ -168,9 +169,11 @@ const getRarityFilter = (
       }
     }
   }
+
   return {
     filterToPropertyMapping: {
-      property: "rarities",
+      nestedProperty: "rarity",
+      property: "printings",
       isArray: true,
     },
     isOr: true,

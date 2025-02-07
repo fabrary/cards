@@ -433,6 +433,7 @@ const doesCardMatchArrayFilter = (
     const cardValues = getCardValues(card, filter).map((value) =>
       value?.replaceAll(PUNCTUATION, "")
     );
+
     if (partialMatch) {
       const isPartialMatch = isAnd
         ? values.every((filterValue) =>
@@ -488,16 +489,33 @@ const getCardValue = (
 
 const getCardValues = (card: Card, appliedFilter: AppliedFilter): string[] => {
   const {
-    filterToPropertyMapping: { nestedProperty, property },
+    filterToPropertyMapping: {
+      isNestedPropertyArray,
+      nestedProperty,
+      property,
+    },
   } = appliedFilter;
-  // @ts-ignore
   const propertyValues = card[property] || [];
+
   if (nestedProperty) {
-    return propertyValues
-      .map((value: { [x: string]: any }) => {
-        return value[nestedProperty];
-      })
-      .filter((value: any) => !!value);
+    const values = new Set<string>();
+
+    for (const rawValue of propertyValues) {
+      if (isNestedPropertyArray) {
+        const rawValues = (rawValue[nestedProperty] as string[]) || [];
+
+        for (const value of rawValues) {
+          values.add(value);
+        }
+      } else {
+        const value = rawValue[nestedProperty] as string;
+        if (value) {
+          values.add(value);
+        }
+      }
+    }
+
+    return Array.from(values);
   } else {
     return propertyValues;
   }

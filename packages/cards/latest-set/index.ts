@@ -37,6 +37,7 @@
       
       
       print: "HNT103",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611172",
@@ -51,6 +52,7 @@
       
       
       print: "HNT103-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611172",
@@ -109,6 +111,7 @@
       
       
       print: "HNT125",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609231",
@@ -123,6 +126,7 @@
       
       
       print: "HNT125-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609231",
@@ -183,6 +187,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       
       print: "HNT016",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613102",
@@ -197,6 +202,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       
       print: "HNT016-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613102",
@@ -211,6 +217,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       
       print: "HNT016-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614579",
@@ -269,6 +276,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       isExpansionSlot: true,
       
       print: "HNT264-Cold",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614359",
@@ -283,6 +291,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       isExpansionSlot: true,
       
       print: "HNT264-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614359",
@@ -341,6 +350,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       isExpansionSlot: true,
       
       print: "HNT261-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614302",
@@ -355,6 +365,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       isExpansionSlot: true,
       
       print: "HNT261-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614302",
@@ -413,6 +424,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       
       print: "HNT003",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615602",
@@ -427,6 +439,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       
       print: "HNT003-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606681",
@@ -441,6 +454,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       
       
       print: "HNT003-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606681",
@@ -501,6 +515,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT004",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615602",
@@ -515,6 +530,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT004-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606690",
@@ -529,6 +545,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT004-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606690",
@@ -589,6 +606,7 @@ At the beginning of your end phase, **return to the brood**.`,
       isExpansionSlot: true,
       
       print: "HNT263-Cold",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614358",
@@ -603,6 +621,7 @@ At the beginning of your end phase, **return to the brood**.`,
       isExpansionSlot: true,
       
       print: "HNT263-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614358",
@@ -661,6 +680,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT001",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606622",
@@ -675,6 +695,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT001-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606624",
@@ -689,6 +710,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT001-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606624",
@@ -749,6 +771,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT005",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615605",
@@ -763,6 +786,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT005-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606692",
@@ -777,6 +801,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT005-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606692",
@@ -839,6 +864,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT006",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615605",
@@ -853,6 +879,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT006-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606700",
@@ -867,6 +894,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT006-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606700",
@@ -927,6 +955,7 @@ At the beginning of your end phase, **return to the brood**.`,
       isExpansionSlot: true,
       
       print: "HNT262-Cold",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614357",
@@ -941,6 +970,7 @@ At the beginning of your end phase, **return to the brood**.`,
       isExpansionSlot: true,
       
       print: "HNT262-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614357",
@@ -999,6 +1029,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT007",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615606",
@@ -1013,6 +1044,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT007-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606702",
@@ -1027,6 +1059,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT007-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606702",
@@ -1089,6 +1122,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT008",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615606",
@@ -1103,6 +1137,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT008-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606720",
@@ -1117,6 +1152,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT008-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606720",
@@ -1177,6 +1213,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT002",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615357",
@@ -1191,6 +1228,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT002-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606673",
@@ -1205,6 +1243,7 @@ At the beginning of your end phase, **return to the brood**.`,
       
       
       print: "HNT002-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606673",
@@ -1265,6 +1304,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT071",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609168",
@@ -1279,6 +1319,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT071-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609168",
@@ -1337,6 +1378,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT074",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609169",
@@ -1351,6 +1393,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT074-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609169",
@@ -1409,6 +1452,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT075",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609170",
@@ -1423,6 +1467,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT075-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609170",
@@ -1481,6 +1526,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT076",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609197",
@@ -1495,6 +1541,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT076-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609197",
@@ -1553,6 +1600,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
       
       
       print: "HNT029",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614051",
@@ -1613,6 +1661,7 @@ Defense reaction cards can't be played this chain link.`,
       
       
       print: "HNT017",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611149",
@@ -1627,6 +1676,7 @@ Defense reaction cards can't be played this chain link.`,
       
       
       print: "HNT017-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611149",
@@ -1687,6 +1737,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT018",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611150",
@@ -1701,6 +1752,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT018-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611150",
@@ -1761,6 +1813,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT019",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611151",
@@ -1775,6 +1828,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT019-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611151",
@@ -1835,6 +1889,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT219",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612698",
@@ -1849,6 +1904,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT219-Cold",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612698",
@@ -1909,6 +1965,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT218",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612697",
@@ -1923,6 +1980,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT218-Cold",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612697",
@@ -1983,6 +2041,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT216",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612695",
@@ -1997,6 +2056,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT216-Cold",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612695",
@@ -2057,6 +2117,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT217",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612696",
@@ -2071,6 +2132,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT217-Cold",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612696",
@@ -2131,6 +2193,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT157",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612643",
@@ -2189,6 +2252,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT163",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612645",
@@ -2203,6 +2267,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT163-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612645",
@@ -2261,6 +2326,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT106",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612604",
@@ -2275,6 +2341,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT106-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612604",
@@ -2333,6 +2400,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT062",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612581",
@@ -2347,6 +2415,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT062-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612581",
@@ -2407,6 +2476,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT063",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612582",
@@ -2421,6 +2491,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT063-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612582",
@@ -2481,6 +2552,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT057",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609130",
@@ -2495,6 +2567,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
       
       
       print: "HNT057-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609130",
@@ -2557,6 +2630,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       
       
       print: "HNT168-Rainbow",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612648",
@@ -2571,6 +2645,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       
       
       print: "HNT168-Cold-Extended Art",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614549",
@@ -2631,6 +2706,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       
       
       print: "HNT107",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612605",
@@ -2645,6 +2721,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
       
       
       print: "HNT107-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612605",
@@ -2705,6 +2782,7 @@ Target dagger attack gets +4{p}.`,
       
       
       print: "HNT154",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612641",
@@ -2719,6 +2797,7 @@ Target dagger attack gets +4{p}.`,
       
       
       print: "HNT154-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612641",
@@ -2733,6 +2812,7 @@ Target dagger attack gets +4{p}.`,
       
       
       print: "HNT154-Rainbow-Extended Art",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614551",
@@ -2793,6 +2873,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT220",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612699",
@@ -2807,6 +2888,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT220-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612699",
@@ -2865,6 +2947,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT064",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611163",
@@ -2879,6 +2962,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT064-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611163",
@@ -2937,6 +3021,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT230",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614292",
@@ -2951,6 +3036,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT230-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614292",
@@ -3009,6 +3095,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       isExpansionSlot: true,
       
       print: "HNT253",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609583",
@@ -3023,6 +3110,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       isExpansionSlot: true,
       
       print: "HNT253-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609583",
@@ -3081,6 +3169,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT065",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612583",
@@ -3139,6 +3228,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT055",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615357",
@@ -3153,6 +3243,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT055-Cold-Extended Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606729",
@@ -3167,6 +3258,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT055-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606729",
@@ -3227,6 +3319,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT054",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       
       
@@ -3238,6 +3331,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT054-Cold-Extended Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606727",
@@ -3252,6 +3346,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT054-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606727",
@@ -3312,6 +3407,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT148",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612638",
@@ -3326,6 +3422,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT148-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612638",
@@ -3384,6 +3481,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       isExpansionSlot: true,
       
       print: "HNT260-Alternate Art",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612718",
@@ -3398,6 +3496,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       isExpansionSlot: true,
       
       print: "HNT260-Rainbow-Alternate Art-Extended Art",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614533",
@@ -3456,6 +3555,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT151",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612639",
@@ -3470,6 +3570,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT151-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612639",
@@ -3528,6 +3629,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       
       
       print: "HNT245",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       
       
@@ -3583,6 +3685,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       isExpansionSlot: true,
       
       print: "HNT259",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609587",
@@ -3597,6 +3700,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
       isExpansionSlot: true,
       
       print: "HNT259-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609587",
@@ -3661,6 +3765,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT128",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612622",
@@ -3675,6 +3780,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT128-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612622",
@@ -3735,6 +3841,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT129",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612623",
@@ -3749,6 +3856,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT129-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612623",
@@ -3809,6 +3917,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT130",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612624",
@@ -3823,6 +3932,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT130-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612624",
@@ -3883,6 +3993,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT202",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612682",
@@ -3897,6 +4008,7 @@ Each hero banishes a card from their hand.
       
       
       print: "HNT202-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612682",
@@ -3959,6 +4071,7 @@ Your next dagger attack this turn gets +4{p}.
       
       
       print: "HNT203",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612683",
@@ -3973,6 +4086,7 @@ Your next dagger attack this turn gets +4{p}.
       
       
       print: "HNT203-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612683",
@@ -4035,6 +4149,7 @@ Your next dagger attack this turn gets +3{p}.
       
       
       print: "HNT204",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612684",
@@ -4049,6 +4164,7 @@ Your next dagger attack this turn gets +3{p}.
       
       
       print: "HNT204-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612684",
@@ -4111,6 +4227,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT176",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612656",
@@ -4125,6 +4242,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT176-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612656",
@@ -4183,6 +4301,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT177",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612657",
@@ -4197,6 +4316,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT177-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612657",
@@ -4255,6 +4375,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT178",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612658",
@@ -4269,6 +4390,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT178-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612658",
@@ -4327,6 +4449,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT173",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612653",
@@ -4341,6 +4464,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT173-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612653",
@@ -4399,6 +4523,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT030-Extended Art",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609125",
@@ -4413,6 +4538,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT030-Rainbow-Extended Art",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609125",
@@ -4473,6 +4599,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT059",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612579",
@@ -4487,6 +4614,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT059-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612579",
@@ -4545,6 +4673,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT214",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612694",
@@ -4559,6 +4688,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT214-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612694",
@@ -4617,6 +4747,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT072",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611164",
@@ -4631,6 +4762,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT072-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611164",
@@ -4691,6 +4823,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT119",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612613",
@@ -4705,6 +4838,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT119-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612613",
@@ -4765,6 +4899,7 @@ Your next dagger attack this turn gets +3{p}.`,
       
       
       print: "HNT120",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612614",
@@ -4779,6 +4914,7 @@ Your next dagger attack this turn gets +3{p}.`,
       
       
       print: "HNT120-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612614",
@@ -4839,6 +4975,7 @@ Your next dagger attack this turn gets +2{p}.`,
       
       
       print: "HNT121",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612615",
@@ -4853,6 +4990,7 @@ Your next dagger attack this turn gets +2{p}.`,
       
       
       print: "HNT121-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612615",
@@ -4913,6 +5051,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT060",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612580",
@@ -4927,6 +5066,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT060-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612580",
@@ -4985,6 +5125,7 @@ Your next dagger attack this turn gets +1{p}.`,
       isExpansionSlot: true,
       
       print: "HNT254",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612717",
@@ -4999,6 +5140,7 @@ Your next dagger attack this turn gets +1{p}.`,
       isExpansionSlot: true,
       
       print: "HNT254-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612717",
@@ -5058,6 +5200,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT077",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611165",
@@ -5072,6 +5215,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT077-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611165",
@@ -5130,6 +5274,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT078",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611166",
@@ -5144,6 +5289,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT078-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611166",
@@ -5202,6 +5348,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT079",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611167",
@@ -5216,6 +5363,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT079-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611167",
@@ -5274,6 +5422,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT143-Rainbow",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614060",
@@ -5288,6 +5437,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT143-Cold",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614060",
@@ -5348,6 +5498,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT155",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611179",
@@ -5362,6 +5513,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT155-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611179",
@@ -5376,6 +5528,7 @@ Your next dagger attack this turn gets +1{p}.`,
       
       
       print: "HNT155-Rainbow-Extended Art",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614550",
@@ -5438,6 +5591,7 @@ Gain {r}. Draw a card.`,
       
       
       print: "HNT223",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612702",
@@ -5452,6 +5606,7 @@ Gain {r}. Draw a card.`,
       
       
       print: "HNT223-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612702",
@@ -5514,6 +5669,7 @@ If you've attacked with an attack action card this turn, your next weapon attack
       
       
       print: "HNT066",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612584",
@@ -5572,6 +5728,7 @@ If you've attacked with an attack action card this turn, your next weapon attack
       
       
       print: "HNT108",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612606",
@@ -5586,6 +5743,7 @@ If you've attacked with an attack action card this turn, your next weapon attack
       
       
       print: "HNT108-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612606",
@@ -5646,6 +5804,7 @@ Target dagger attack gets +3{p}.`,
       isExpansionSlot: true,
       
       print: "HNT252",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609582",
@@ -5660,6 +5819,7 @@ Target dagger attack gets +3{p}.`,
       isExpansionSlot: true,
       
       print: "HNT252-Cold",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609582",
@@ -5718,6 +5878,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT104",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611173",
@@ -5732,6 +5893,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT104-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611173",
@@ -5790,6 +5952,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT237",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611180",
@@ -5804,6 +5967,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT237-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611180",
@@ -5866,6 +6030,7 @@ Target attack gets +1{p}.
       
       
       print: "HNT031-Extended Art",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609128",
@@ -5880,6 +6045,7 @@ Target attack gets +1{p}.
       
       
       print: "HNT031-Rainbow-Extended Art",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609128",
@@ -5940,6 +6106,7 @@ Target attack gets +1{p}.
       
       
       print: "HNT099",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615359",
@@ -5954,6 +6121,7 @@ Target attack gets +1{p}.
       
       
       print: "HNT099-Cold-Extended Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606732",
@@ -5968,6 +6136,7 @@ Target attack gets +1{p}.
       
       
       print: "HNT099-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606732",
@@ -6028,6 +6197,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT098",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       
       
@@ -6039,6 +6209,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT098-Cold-Extended Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606730",
@@ -6053,6 +6224,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT098-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606730",
@@ -6113,6 +6285,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT167",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       
       
@@ -6124,6 +6297,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT167-Cold-Full Art",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
@@ -6135,6 +6309,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT167-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
       set: Release.TheHunted,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
@@ -6190,6 +6365,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT105",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614059",
@@ -6204,6 +6380,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT105-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614059",
@@ -6218,6 +6395,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
       
       
       print: "HNT105-Rainbow-Extended Art",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614575",
@@ -6280,6 +6458,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT083",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612592",
@@ -6294,6 +6473,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT083-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612592",
@@ -6354,6 +6534,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT084",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612593",
@@ -6368,6 +6549,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT084-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612593",
@@ -6428,6 +6610,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT085",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612594",
@@ -6442,6 +6625,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT085-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612594",
@@ -6502,6 +6686,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT126",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609232",
@@ -6516,6 +6701,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
       
       
       print: "HNT126-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609232",
@@ -6576,6 +6762,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
       print: "HNT158",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609234",
@@ -6590,6 +6777,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
       print: "HNT158-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609234",
@@ -6648,6 +6836,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
       print: "HNT159",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609236",
@@ -6662,6 +6851,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
       print: "HNT159-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609236",
@@ -6720,6 +6910,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
       print: "HNT160",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609237",
@@ -6734,6 +6925,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
       print: "HNT160-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609237",
@@ -6792,6 +6984,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
       
       
       print: "HNT053",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       
       
@@ -6851,6 +7044,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT086",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612595",
@@ -6865,6 +7059,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT086-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612595",
@@ -6925,6 +7120,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT087",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612596",
@@ -6939,6 +7135,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT087-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612596",
@@ -6999,6 +7196,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT088",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612597",
@@ -7013,6 +7211,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT088-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612597",
@@ -7073,6 +7272,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT089",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612598",
@@ -7087,6 +7287,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT089-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612598",
@@ -7145,6 +7346,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT090",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612599",
@@ -7159,6 +7361,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT090-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612599",
@@ -7217,6 +7420,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT091",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612600",
@@ -7231,6 +7435,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT091-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612600",
@@ -7289,6 +7494,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT146",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612636",
@@ -7303,6 +7509,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT146-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612636",
@@ -7363,6 +7570,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT145",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612635",
@@ -7377,6 +7585,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT145-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612635",
@@ -7437,6 +7646,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT067",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612585",
@@ -7451,6 +7661,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT067-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612585",
@@ -7509,6 +7720,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT131",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612625",
@@ -7523,6 +7735,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT131-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612625",
@@ -7583,6 +7796,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT132",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612626",
@@ -7597,6 +7811,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT132-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612626",
@@ -7657,6 +7872,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT133",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612627",
@@ -7671,6 +7887,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT133-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612627",
@@ -7731,6 +7948,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT161",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614360",
@@ -7745,6 +7963,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT161-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614360",
@@ -7803,6 +8022,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT152",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       
       
@@ -7814,6 +8034,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       
       
       print: "HNT152-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       
       
@@ -7873,6 +8094,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
       
       
       print: "HNT101",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611171",
@@ -7887,6 +8109,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
       
       
       print: "HNT101-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614576",
@@ -7901,6 +8124,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
       
       
       print: "HNT101-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614576",
@@ -7961,6 +8185,7 @@ Target dagger attack gets +4{p}.`,
       
       
       print: "HNT052",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612578",
@@ -7975,6 +8200,7 @@ Target dagger attack gets +4{p}.`,
       
       
       print: "HNT052-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612578",
@@ -8033,6 +8259,7 @@ Target dagger attack gets +4{p}.`,
       isExpansionSlot: true,
       
       print: "HNT009",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612562",
@@ -8047,6 +8274,7 @@ Target dagger attack gets +4{p}.`,
       isExpansionSlot: true,
       
       print: "HNT009-Cold",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612562",
@@ -8109,6 +8337,7 @@ When this hits a hero, **mark** them.
       
       
       print: "HNT058",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611161",
@@ -8123,6 +8352,7 @@ When this hits a hero, **mark** them.
       
       
       print: "HNT058-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611161",
@@ -8137,6 +8367,7 @@ When this hits a hero, **mark** them.
       
       
       print: "HNT058-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614578",
@@ -8197,6 +8428,7 @@ When this hits a hero, **mark** them.
       
       
       print: "HNT109",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612607",
@@ -8211,6 +8443,7 @@ When this hits a hero, **mark** them.
       
       
       print: "HNT109-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612607",
@@ -8271,6 +8504,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT228",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614290",
@@ -8285,6 +8519,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT228-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614290",
@@ -8345,6 +8580,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT205",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612685",
@@ -8359,6 +8595,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT205-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612685",
@@ -8417,6 +8654,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT206",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612686",
@@ -8431,6 +8669,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT206-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612686",
@@ -8489,6 +8728,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT207",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612687",
@@ -8503,6 +8743,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT207-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612687",
@@ -8561,6 +8802,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT116",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609229",
@@ -8575,6 +8817,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT116-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609229",
@@ -8633,6 +8876,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT115-Rainbow",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611174",
@@ -8647,6 +8891,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT115-Cold-Extended Art",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614574",
@@ -8707,6 +8952,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT012",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613097",
@@ -8721,6 +8967,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT012-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613097",
@@ -8735,6 +8982,7 @@ Target dagger attack gets +2{p}.`,
       
       
       print: "HNT012-Cold-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614580",
@@ -8795,6 +9043,7 @@ When this hits a hero, they lose 1{h}.`,
       
       
       print: "HNT134",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612628",
@@ -8809,6 +9058,7 @@ When this hits a hero, they lose 1{h}.`,
       
       
       print: "HNT134-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612628",
@@ -8871,6 +9121,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT135",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612629",
@@ -8885,6 +9136,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT135-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612629",
@@ -8947,6 +9199,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT136",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612630",
@@ -8961,6 +9214,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT136-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612630",
@@ -9023,6 +9277,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT056",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615559",
@@ -9081,6 +9336,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT191",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612671",
@@ -9095,6 +9351,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT191-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612671",
@@ -9153,6 +9410,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT068",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612586",
@@ -9211,6 +9469,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT236",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609493",
@@ -9225,6 +9484,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
       
       
       print: "HNT236-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609493",
@@ -9285,6 +9545,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT171",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612651",
@@ -9299,6 +9560,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT171-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612651",
@@ -9359,6 +9621,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT172",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612652",
@@ -9373,6 +9636,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT172-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612652",
@@ -9433,6 +9697,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT170",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612650",
@@ -9447,6 +9712,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT170-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612650",
@@ -9507,6 +9773,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT169",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612649",
@@ -9521,6 +9788,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT169-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612649",
@@ -9581,6 +9849,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT102",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609198",
@@ -9595,6 +9864,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT102-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609198",
@@ -9657,6 +9927,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT150",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614144",
@@ -9671,6 +9942,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT150-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614144",
@@ -9685,6 +9957,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT150-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614552",
@@ -9743,6 +10016,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT153",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612640",
@@ -9757,6 +10031,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT153-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612640",
@@ -9815,6 +10090,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT032",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611155",
@@ -9829,6 +10105,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
       
       
       print: "HNT032-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611155",
@@ -9889,6 +10166,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       
       print: "HNT033",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611156",
@@ -9903,6 +10181,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       
       print: "HNT033-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611156",
@@ -9964,6 +10243,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       
       print: "HNT034",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611157",
@@ -9978,6 +10258,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       
       print: "HNT034-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611157",
@@ -10038,6 +10319,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       
       print: "HNT035",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614052",
@@ -10052,6 +10334,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
       
       
       print: "HNT035-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614052",
@@ -10112,6 +10395,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       
       print: "HNT036",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614053",
@@ -10126,6 +10410,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       
       print: "HNT036-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614053",
@@ -10186,6 +10471,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       
       print: "HNT037",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614054",
@@ -10200,6 +10486,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       
       print: "HNT037-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614054",
@@ -10260,6 +10547,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
       
       
       print: "HNT010",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "615545",
@@ -10322,6 +10610,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT038",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612568",
@@ -10336,6 +10625,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT038-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612568",
@@ -10396,6 +10686,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT039",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612569",
@@ -10410,6 +10701,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT039-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612569",
@@ -10470,6 +10762,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT040",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612570",
@@ -10484,6 +10777,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT040-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612570",
@@ -10544,6 +10838,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT069",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612587",
@@ -10558,6 +10853,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT069-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612587",
@@ -10616,6 +10912,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT244",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       
       
@@ -10671,6 +10968,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT011-Rainbow",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613096",
@@ -10685,6 +10983,7 @@ When this hits a hero, **mark** them.`,
       
       
       print: "HNT011-Cold-Extended Art",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614581",
@@ -10747,6 +11046,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       isExpansionSlot: true,
       
       print: "HNT250",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612715",
@@ -10761,6 +11061,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       isExpansionSlot: true,
       
       print: "HNT250-Cold",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612715",
@@ -10821,6 +11122,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       
       
       print: "HNT239",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612713",
@@ -10835,6 +11137,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       
       
       print: "HNT239-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612713",
@@ -10893,6 +11196,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       isExpansionSlot: true,
       
       print: "HNT251",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612716",
@@ -10907,6 +11211,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       isExpansionSlot: true,
       
       print: "HNT251-Cold",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612716",
@@ -10969,6 +11274,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       
       
       print: "HNT149",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614101",
@@ -10983,6 +11289,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       
       
       print: "HNT149-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614101",
@@ -10997,6 +11304,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
       
       
       print: "HNT149-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614554",
@@ -11059,6 +11367,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
       
       
       print: "HNT100",
+      rarity: Rarity.Token,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611171",
@@ -11117,6 +11426,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
       
       
       print: "HNT026",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611152",
@@ -11131,6 +11441,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
       
       
       print: "HNT026-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611152",
@@ -11193,6 +11504,7 @@ Your next attack with **stealth** this turn gets +3{p}.
       
       
       print: "HNT027",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611153",
@@ -11207,6 +11519,7 @@ Your next attack with **stealth** this turn gets +3{p}.
       
       
       print: "HNT027-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611153",
@@ -11269,6 +11582,7 @@ Your next attack with **stealth** this turn gets +2{p}.
       
       
       print: "HNT028",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611154",
@@ -11283,6 +11597,7 @@ Your next attack with **stealth** this turn gets +2{p}.
       
       
       print: "HNT028-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611154",
@@ -11345,6 +11660,7 @@ Your next attack with **stealth** this turn gets +1{p}.
       
       
       print: "HNT235",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614294",
@@ -11359,6 +11675,7 @@ Your next attack with **stealth** this turn gets +1{p}.
       
       
       print: "HNT235-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614294",
@@ -11421,6 +11738,7 @@ If the defending hero is **marked**, this gets +1{p}.
       
       
       print: "HNT174",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612654",
@@ -11435,6 +11753,7 @@ If the defending hero is **marked**, this gets +1{p}.
       
       
       print: "HNT174-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612654",
@@ -11495,6 +11814,7 @@ If the defending hero is **marked**, this gets +1{p}.
       
       
       print: "HNT147",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612637",
@@ -11509,6 +11829,7 @@ If the defending hero is **marked**, this gets +1{p}.
       
       
       print: "HNT147-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612637",
@@ -11569,6 +11890,7 @@ If the defending hero is **marked**, this gets +1{p}.
       
       
       print: "HNT197",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612677",
@@ -11583,6 +11905,7 @@ If the defending hero is **marked**, this gets +1{p}.
       
       
       print: "HNT197-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612677",
@@ -11643,6 +11966,7 @@ Draw a card.`,
       
       
       print: "HNT182",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612662",
@@ -11657,6 +11981,7 @@ Draw a card.`,
       
       
       print: "HNT182-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612662",
@@ -11717,6 +12042,7 @@ Draw a card.`,
       
       
       print: "HNT183",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612663",
@@ -11731,6 +12057,7 @@ Draw a card.`,
       
       
       print: "HNT183-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612663",
@@ -11791,6 +12118,7 @@ Draw a card.`,
       
       
       print: "HNT184",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612664",
@@ -11805,6 +12133,7 @@ Draw a card.`,
       
       
       print: "HNT184-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612664",
@@ -11865,6 +12194,7 @@ Draw a card.`,
       
       
       print: "HNT164",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612646",
@@ -11879,6 +12209,7 @@ Draw a card.`,
       
       
       print: "HNT164-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612646",
@@ -11937,6 +12268,7 @@ Draw a card.`,
       
       
       print: "HNT041",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612571",
@@ -11951,6 +12283,7 @@ Draw a card.`,
       
       
       print: "HNT041-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612571",
@@ -12011,6 +12344,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT042",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612572",
@@ -12025,6 +12359,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT042-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612572",
@@ -12085,6 +12420,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT043",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612573",
@@ -12099,6 +12435,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT043-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612573",
@@ -12159,6 +12496,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT137",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612631",
@@ -12173,6 +12511,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
       
       
       print: "HNT137-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612631",
@@ -12235,6 +12574,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT138",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612632",
@@ -12249,6 +12589,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT138-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612632",
@@ -12311,6 +12652,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT139",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612633",
@@ -12325,6 +12667,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT139-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612633",
@@ -12387,6 +12730,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT185",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612665",
@@ -12401,6 +12745,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT185-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612665",
@@ -12461,6 +12806,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT186",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612666",
@@ -12475,6 +12821,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT186-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612666",
@@ -12535,6 +12882,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT187",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612667",
@@ -12549,6 +12897,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT187-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612667",
@@ -12609,6 +12958,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT127",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609233",
@@ -12623,6 +12973,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       
       
       print: "HNT127-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609233",
@@ -12683,6 +13034,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
       
       
       print: "HNT165",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609491",
@@ -12697,6 +13049,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
       
       
       print: "HNT165-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609491",
@@ -12749,12 +13102,28 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
     name: "Provoke",
     printings: [{
         artists: ["Sebastian Giacobino"],
+      
+      identifier: "HNT117",
+      image: "HNT117",
+      
+      
+      print: "HNT117",
+      rarity: Rarity.Majestic,
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "609230",
+            url: "https://www.tcgplayer.com/product/609230?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Sebastian Giacobino"],
       foiling: Foiling.R,
       identifier: "HNT117",
       image: "HNT117",
       
       
       print: "HNT117-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609230",
@@ -12769,6 +13138,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
       
       
       print: "HNT117-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614556",
@@ -12827,6 +13197,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
       
       
       print: "HNT073",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614057",
@@ -12841,6 +13212,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
       
       
       print: "HNT073-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614057",
@@ -12901,6 +13273,7 @@ At the beginning of your end phase, if you've attacked less than 3 times this tu
       
       
       print: "HNT241",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614298",
@@ -12915,6 +13288,7 @@ At the beginning of your end phase, if you've attacked less than 3 times this tu
       
       
       print: "HNT241-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614298",
@@ -12977,6 +13351,7 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
       
       
       print: "HNT242",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614299",
@@ -12991,6 +13366,7 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
       
       
       print: "HNT242-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614299",
@@ -13053,6 +13429,7 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
       
       
       print: "HNT243",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614300",
@@ -13067,6 +13444,7 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
       
       
       print: "HNT243-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614300",
@@ -13129,6 +13507,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT224",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612703",
@@ -13143,6 +13522,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT224-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612703",
@@ -13201,6 +13581,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT225",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612704",
@@ -13215,6 +13596,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT225-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612704",
@@ -13273,6 +13655,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT238",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612712",
@@ -13287,6 +13670,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT238-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612712",
@@ -13345,6 +13729,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT215-Rainbow",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614254",
@@ -13359,6 +13744,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       
       
       print: "HNT215-Cold",
+      rarity: Rarity.Legendary,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614254",
@@ -13419,6 +13805,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT156",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612642",
@@ -13433,6 +13820,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT156-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612642",
@@ -13491,6 +13879,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT227",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612706",
@@ -13551,6 +13940,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT050",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612577",
@@ -13609,6 +13999,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT044",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611158",
@@ -13623,6 +14014,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT044-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611158",
@@ -13683,6 +14075,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT045",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611159",
@@ -13697,6 +14090,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT045-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611159",
@@ -13757,6 +14151,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT046",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611160",
@@ -13771,6 +14166,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT046-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611160",
@@ -13831,6 +14227,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT195",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612675",
@@ -13845,6 +14242,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT195-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612675",
@@ -13905,6 +14303,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT194",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612674",
@@ -13919,6 +14318,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT194-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612674",
@@ -13979,6 +14379,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT193",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612673",
@@ -13993,6 +14394,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT193-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612673",
@@ -14053,6 +14455,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT192",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612672",
@@ -14067,6 +14470,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT192-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612672",
@@ -14127,6 +14531,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT229",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612707",
@@ -14141,6 +14546,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
       
       
       print: "HNT229-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612707",
@@ -14203,6 +14609,7 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       isExpansionSlot: true,
       
       print: "HNT249",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609581",
@@ -14217,6 +14624,7 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       isExpansionSlot: true,
       
       print: "HNT249-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609581",
@@ -14277,6 +14685,7 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       isExpansionSlot: true,
       
       print: "HNT256",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609585",
@@ -14291,6 +14700,7 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
       isExpansionSlot: true,
       
       print: "HNT256-Cold",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609585",
@@ -14351,6 +14761,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       isExpansionSlot: true,
       
       print: "HNT248",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609580",
@@ -14365,6 +14776,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       isExpansionSlot: true,
       
       print: "HNT248-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609580",
@@ -14425,6 +14837,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       
       print: "HNT070",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612588",
@@ -14483,6 +14896,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       
       print: "HNT221",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612700",
@@ -14497,6 +14911,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       
       print: "HNT221-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612700",
@@ -14555,6 +14970,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       
       print: "HNT198",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612678",
@@ -14569,6 +14985,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
       
       
       print: "HNT198-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612678",
@@ -14631,6 +15048,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT110",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612608",
@@ -14645,6 +15063,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT110-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612608",
@@ -14703,6 +15122,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT208",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612688",
@@ -14717,6 +15137,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT208-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612688",
@@ -14776,6 +15197,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT209",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612689",
@@ -14790,6 +15212,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT209-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612689",
@@ -14848,6 +15271,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT210",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612690",
@@ -14862,6 +15286,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT210-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612690",
@@ -14920,6 +15345,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT000-Rainbow",
+      rarity: Rarity.Fabled,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612561",
@@ -14934,6 +15360,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       
       
       print: "HNT000-Cold",
+      rarity: Rarity.Fabled,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612561",
@@ -14994,6 +15421,7 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
       
       
       print: "HNT047",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612574",
@@ -15008,6 +15436,7 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
       
       
       print: "HNT047-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612574",
@@ -15068,6 +15497,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT048",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612575",
@@ -15082,6 +15512,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT048-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612575",
@@ -15142,6 +15573,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT049",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612576",
@@ -15156,6 +15588,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT049-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612576",
@@ -15216,6 +15649,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT111",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612609",
@@ -15230,6 +15664,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT111-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612609",
@@ -15288,6 +15723,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT118",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611175",
@@ -15302,6 +15738,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
       
       
       print: "HNT118-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611175",
@@ -15364,6 +15801,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT222",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612701",
@@ -15378,6 +15816,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT222-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612701",
@@ -15392,6 +15831,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT222-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614547",
@@ -15450,6 +15890,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT231",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612708",
@@ -15508,6 +15949,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT080",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612589",
@@ -15522,6 +15964,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT080-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612589",
@@ -15580,6 +16023,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT081",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612590",
@@ -15594,6 +16038,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT081-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612590",
@@ -15652,6 +16097,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT082",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612591",
@@ -15666,6 +16112,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT082-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612591",
@@ -15724,6 +16171,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT112",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612610",
@@ -15738,6 +16186,7 @@ At the beginning of your end phase, destroy this.`,
       
       
       print: "HNT112-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612610",
@@ -15798,6 +16247,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT113",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612611",
@@ -15812,6 +16262,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT113-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612611",
@@ -15870,6 +16321,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT162",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612644",
@@ -15884,6 +16336,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT162-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612644",
@@ -15942,6 +16395,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT226",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612705",
@@ -15956,6 +16410,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT226-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612705",
@@ -16014,6 +16469,7 @@ Target dagger attack gets +3{p}.`,
       isExpansionSlot: true,
       
       print: "HNT255",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609584",
@@ -16028,6 +16484,7 @@ Target dagger attack gets +3{p}.`,
       isExpansionSlot: true,
       
       print: "HNT255-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609584",
@@ -16088,6 +16545,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT114",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612612",
@@ -16102,6 +16560,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT114-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612612",
@@ -16160,6 +16619,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT023",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612566",
@@ -16174,6 +16634,7 @@ Target dagger attack gets +3{p}.`,
       
       
       print: "HNT023-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612566",
@@ -16234,6 +16695,7 @@ Target attack with **stealth** gets +3{p} and **go again**.`,
       
       
       print: "HNT024",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614050",
@@ -16248,6 +16710,7 @@ Target attack with **stealth** gets +3{p} and **go again**.`,
       
       
       print: "HNT024-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614050",
@@ -16308,6 +16771,7 @@ Target attack with **stealth** gets +2{p} and **go again**.`,
       
       
       print: "HNT025",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612567",
@@ -16322,6 +16786,7 @@ Target attack with **stealth** gets +2{p} and **go again**.`,
       
       
       print: "HNT025-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612567",
@@ -16382,6 +16847,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT196",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612676",
@@ -16396,6 +16862,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT196-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612676",
@@ -16454,6 +16921,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT140",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611176",
@@ -16468,6 +16936,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT140-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611176",
@@ -16528,6 +16997,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT141",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611177",
@@ -16542,6 +17012,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT141-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611177",
@@ -16602,6 +17073,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT142",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611178",
@@ -16616,6 +17088,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT142-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611178",
@@ -16676,6 +17149,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT092",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611168",
@@ -16690,6 +17164,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT092-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611168",
@@ -16750,6 +17225,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT093",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611169",
@@ -16764,6 +17240,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT093-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611169",
@@ -16824,6 +17301,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT094",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611170",
@@ -16838,6 +17316,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT094-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611170",
@@ -16898,6 +17377,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT211",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612691",
@@ -16912,6 +17392,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT211-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612691",
@@ -16970,6 +17451,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT212",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612692",
@@ -16984,6 +17466,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT212-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612692",
@@ -17042,6 +17525,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT213",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612693",
@@ -17056,6 +17540,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT213-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612693",
@@ -17114,6 +17599,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT014",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613101",
@@ -17128,6 +17614,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT014-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613101",
@@ -17186,6 +17673,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT015",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606722",
@@ -17200,6 +17688,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT015-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "606722",
@@ -17261,6 +17750,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       isExpansionSlot: true,
       
       print: "HNT246",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609546",
@@ -17275,6 +17765,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       isExpansionSlot: true,
       
       print: "HNT246-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609546",
@@ -17289,6 +17780,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       isExpansionSlot: true,
       
       print: "HNT246-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614546",
@@ -17347,6 +17839,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT175",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612655",
@@ -17361,6 +17854,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT175-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612655",
@@ -17419,6 +17913,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT188",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612668",
@@ -17433,6 +17928,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT188-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612668",
@@ -17493,6 +17989,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT189",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612669",
@@ -17507,6 +18004,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT189-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612669",
@@ -17567,6 +18065,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT190",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612670",
@@ -17581,6 +18080,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT190-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612670",
@@ -17641,6 +18141,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT232",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612709",
@@ -17655,6 +18156,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT232-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612709",
@@ -17713,6 +18215,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT233",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612710",
@@ -17727,6 +18230,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT233-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612710",
@@ -17785,6 +18289,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT234",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612711",
@@ -17799,6 +18304,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT234-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612711",
@@ -17857,6 +18363,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT199",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612679",
@@ -17871,6 +18378,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT199-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612679",
@@ -17929,6 +18437,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT200",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612680",
@@ -17943,6 +18452,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT200-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612680",
@@ -18001,6 +18511,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT201",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612681",
@@ -18015,6 +18526,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT201-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612681",
@@ -18073,6 +18585,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT166",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612647",
@@ -18131,6 +18644,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT095",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612601",
@@ -18145,6 +18659,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT095-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612601",
@@ -18205,6 +18720,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT096",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612602",
@@ -18219,6 +18735,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT096-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612602",
@@ -18279,6 +18796,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT097",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612603",
@@ -18293,6 +18811,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT097-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612603",
@@ -18353,6 +18872,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       isExpansionSlot: true,
       
       print: "HNT247",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609579",
@@ -18367,6 +18887,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       isExpansionSlot: true,
       
       print: "HNT247-Cold",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609579",
@@ -18427,6 +18948,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT240",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612714",
@@ -18441,6 +18963,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT240-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612714",
@@ -18501,6 +19024,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT122",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612616",
@@ -18515,6 +19039,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT122-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612616",
@@ -18575,6 +19100,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT123",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612617",
@@ -18589,6 +19115,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT123-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612617",
@@ -18649,6 +19176,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT124",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612618",
@@ -18663,6 +19191,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT124-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612618",
@@ -18723,6 +19252,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT051",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614056",
@@ -18737,6 +19267,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT051-Rainbow",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614056",
@@ -18797,6 +19328,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT013",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613100",
@@ -18811,6 +19343,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT013-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "613100",
@@ -18871,6 +19404,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT179",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612659",
@@ -18885,6 +19419,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
       
       
       print: "HNT179-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612659",
@@ -18947,6 +19482,7 @@ Your next dagger attack this turn gets +4{p}.
       
       
       print: "HNT180",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612660",
@@ -18961,6 +19497,7 @@ Your next dagger attack this turn gets +4{p}.
       
       
       print: "HNT180-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612660",
@@ -19023,6 +19560,7 @@ Your next dagger attack this turn gets +3{p}.
       
       
       print: "HNT181",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612661",
@@ -19037,6 +19575,7 @@ Your next dagger attack this turn gets +3{p}.
       
       
       print: "HNT181-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612661",
@@ -19099,6 +19638,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT144",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612634",
@@ -19113,6 +19653,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT144-Cold",
+      rarity: Rarity.Common,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612634",
@@ -19173,6 +19714,7 @@ Your next dagger attack this turn gets +2{p}.
       isExpansionSlot: true,
       
       print: "HNT258",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609586",
@@ -19187,6 +19729,7 @@ Your next dagger attack this turn gets +2{p}.
       isExpansionSlot: true,
       
       print: "HNT258-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "609586",
@@ -19247,6 +19790,7 @@ Your next dagger attack this turn gets +2{p}.
       isExpansionSlot: true,
       
       print: "HNT257",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614301",
@@ -19261,6 +19805,7 @@ Your next dagger attack this turn gets +2{p}.
       isExpansionSlot: true,
       
       print: "HNT257-Rainbow",
+      rarity: Rarity.Majestic,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614301",
@@ -19323,6 +19868,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT020",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612563",
@@ -19337,6 +19883,7 @@ Your next dagger attack this turn gets +2{p}.
       
       
       print: "HNT020-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612563",
@@ -19397,6 +19944,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       
       print: "HNT021",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612564",
@@ -19411,6 +19959,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       
       print: "HNT021-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612564",
@@ -19471,6 +20020,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       
       print: "HNT022",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612565",
@@ -19485,6 +20035,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       
       print: "HNT022-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "612565",
@@ -19545,6 +20096,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       
       print: "HNT061",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611162",
@@ -19559,6 +20111,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       
       print: "HNT061-Rainbow",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "611162",
@@ -19573,6 +20126,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
       
       
       print: "HNT061-Rainbow-Extended Art",
+      rarity: Rarity.Rare,
       set: Release.TheHunted,
       tcgplayer: {
             productId: "614577",
