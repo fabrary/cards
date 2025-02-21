@@ -527,11 +527,9 @@ const getCardValues = (
   if (shouldCheckForLegalOverrides) {
     const valuesSet = new Set<string>();
 
-    for (const [format, legalHeroesOverride] of Object.entries(
-      card.legalOverrides || {}
-    )) {
+    for (const { format, heroes } of card.legalOverrides || []) {
       if (anotherFilterForLegalFormat.values.includes(format.toLowerCase())) {
-        for (const hero of legalHeroesOverride) {
+        for (const hero of heroes) {
           valuesSet.add(hero);
         }
       }

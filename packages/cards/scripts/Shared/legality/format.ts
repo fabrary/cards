@@ -4,7 +4,7 @@ import {
   Format,
   Hero,
   Keyword,
-  LegalOverrides,
+  LegalOverride,
   Rarity,
   Release,
   Subtype,
@@ -203,7 +203,7 @@ export const getLegalOverrides = (
     name: string;
   },
   defaultLegalHeroes: Hero[]
-): LegalOverrides | undefined => {
+): LegalOverride[] | undefined => {
   const matchingClashOverride = clashLegalOverrides.find(
     ({ card }) => card === name
   );
@@ -222,9 +222,12 @@ export const getLegalOverrides = (
     if (legalHeroesAreTheSame) {
       return undefined;
     } else {
-      return {
-        [Format.Clash]: legalHeroes,
-      };
+      return [
+        {
+          format: Format.Clash,
+          heroes: legalHeroes,
+        },
+      ];
     }
   } else {
     return undefined;
