@@ -1,6 +1,11 @@
 import { Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants";
 
+export enum FilterProperty {
+  LegalFormats = "legalFormats",
+  LegalHeroes = "legalHeroes",
+}
+
 const oneToFifty = Array.from(Array(50).keys()).map((value) => `${value}`);
 
 interface AppliedFilter {
@@ -222,7 +227,7 @@ const getLegalFilters = (values: string[], excluded: boolean) => {
   if (heroes.length > 0) {
     filters.push({
       filterToPropertyMapping: {
-        property: "legalHeroes",
+        property: FilterProperty.LegalHeroes,
         isArray: true,
       },
       values: heroes,

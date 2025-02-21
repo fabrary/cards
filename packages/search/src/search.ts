@@ -12,7 +12,6 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
-import { clashBannedCards } from "./clash";
 import { PUNCTUATION } from "./constants";
 import {
   AppliedFilter,
@@ -20,8 +19,8 @@ import {
   SpecialConditions,
 } from "./filters";
 import { memes } from "./memes";
-import { clashSpecializationOverrides } from "./clash";
 import { getNormalizedText } from "./helpers";
+import { FilterProperty } from "./metaFilters";
 
 export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
@@ -241,7 +240,10 @@ export const filterCard = (
       doesCardMatchFilter = false;
     } else if (isString && !doesCardMatchStringFilter(card, appliedFilter)) {
       doesCardMatchFilter = false;
-    } else if (isArray && !doesCardMatchArrayFilter(card, appliedFilter)) {
+    } else if (
+      isArray &&
+      !doesCardMatchArrayFilter(card, appliedFilter, appliedFilters)
+    ) {
       doesCardMatchFilter = false;
     } else if (isBoolean && !doesCardMatchBooleanFilter(card, appliedFilter)) {
       doesCardMatchFilter = false;
@@ -251,69 +253,73 @@ export const filterCard = (
     //   console.log(card.name, appliedFilter, doesCardMatchFilter);
     // }
 
+    const cardHasClashOverrides =
+      !!card.legalOverrides &&
+      !!card.legalOverrides[Format.Clash] &&
+      card.legalOverrides[Format.Clash].length > 0;
     const shouldCheckForClash =
-      specialConditions.isClash &&
-      ["rarities", "bannedFormats", "legalFormats"].includes(property);
+      specialConditions.isClash && cardHasClashOverrides;
+    // ["rarities", "bannedFormats", "legalFormats"].includes(property);
     // if (card.cardIdentifier === "command-and-conquer-red") {
     //   console.log(shouldCheckForClash, specialConditions, property);
     // }
     if (shouldCheckForClash) {
-      const isSuperRarePlus = [
-        Rarity.SuperRare,
-        Rarity.Majestic,
-        Rarity.Legendary,
-        Rarity.Fabled,
-      ].some((rarity) => card.rarities.includes(rarity));
-      let isSpecializationOverride = false;
-      for (const { cardIdentifiers, heroes } of clashSpecializationOverrides) {
-        for (const hero of specialConditions.heroes) {
-          if (
-            heroes.includes(hero) &&
-            cardIdentifiers.includes(card.cardIdentifier)
-          ) {
-            isSpecializationOverride = true;
-            // break;
-          }
-        }
-        if (isSpecializationOverride) {
-          // break;
-        }
-      }
-      const isSpecializationCard =
-        (!!card.specializations &&
-          // @ts-ignore
-          (card as ActionCard).specializations.length > 0) ||
-        isSpecializationOverride;
-      const isMentorOrWeapon = [Type.Mentor, Type.Weapon].some((type) =>
-        card.types.includes(type)
-      );
-      const isBannedInClash = clashBannedCards.includes(card.name);
-
-      if (
-        !doesCardMatchFilter &&
-        !isBannedInClash &&
-        (isSpecializationCard || isMentorOrWeapon) &&
-        isSuperRarePlus
-      ) {
-        doesCardMatchFilter = true;
-      }
-      if (isBannedInClash) {
-        doesCardMatchFilter = false;
-      }
+      // const clashLegalHeroes = card.legalOverrides[Format.Clash];
+      // const isSuperRarePlus = [
+      //   Rarity.SuperRare,
+      //   Rarity.Majestic,
+      //   Rarity.Legendary,
+      //   Rarity.Fabled,
+      // ].some((rarity) => card.rarities.includes(rarity));
+      // let isSpecializationOverride = false;
+      // for (const { cardIdentifiers, heroes } of clashSpecializationOverrides) {
+      //   for (const hero of specialConditions.heroes) {
+      //     if (
+      //       heroes.includes(hero) &&
+      //       cardIdentifiers.includes(card.cardIdentifier)
+      //     ) {
+      //       isSpecializationOverride = true;
+      //       // break;
+      //     }
+      //   }
+      //   if (isSpecializationOverride) {
+      //     // break;
+      //   }
+      // }
+      // const isSpecializationCard =
+      //   (!!card.specializations &&
+      //     // @ts-ignore
+      //     (card as ActionCard).specializations.length > 0) ||
+      //   isSpecializationOverride;
+      // const isMentorOrWeapon = [Type.Mentor, Type.Weapon].some((type) =>
+      //   card.types.includes(type)
+      // );
+      // const isBannedInClash = clashBannedCards.includes(card.name);
+      // if (
+      //   !doesCardMatchFilter &&
+      //   !isBannedInClash &&
+      //   (isSpecializationCard || isMentorOrWeapon) &&
+      //   isSuperRarePlus
+      // ) {
+      //   doesCardMatchFilter = true;
+      // }
+      // if (isBannedInClash) {
+      //   doesCardMatchFilter = false;
+      // }
     }
 
     // TODO clean this up and combine with Clash code above
-    if (
-      specialConditions.isClash &&
-      specialConditions.heroes.includes(Hero.Briar) &&
-      card.name === "Rosetta Thorn"
-    ) {
-      doesCardMatchFilter = true;
-    }
+    // if (
+    //   specialConditions.isClash &&
+    //   specialConditions.heroes.includes(Hero.Briar) &&
+    //   card.name === "Rosetta Thorn"
+    // ) {
+    //   doesCardMatchFilter = true;
+    // }
 
-    if (!doesCardMatchFilter) {
-      break;
-    }
+    // if (!doesCardMatchFilter) {
+    //   break;
+    // }
   }
 
   return doesCardMatchFilter;
@@ -419,7 +425,8 @@ const doesCardMatchStringFilter = (
 
 const doesCardMatchArrayFilter = (
   card: Card,
-  filter: AppliedFilter
+  filter: AppliedFilter,
+  filters: AppliedFilter[]
 ): boolean => {
   if (!doesFilterMatchCardType(filter, card)) {
     return true;
@@ -430,7 +437,7 @@ const doesCardMatchArrayFilter = (
       excluded,
       filterToPropertyMapping: { partialMatch },
     } = filter;
-    const cardValues = getCardValues(card, filter).map((value) =>
+    const cardValues = getCardValues(card, filter, filters).map((value) =>
       value?.replaceAll(PUNCTUATION, "")
     );
 
@@ -483,42 +490,94 @@ const getCardValue = (
   appliedFilter: AppliedFilter
 ): string | number | string[] | boolean => {
   const { filterToPropertyMapping } = appliedFilter;
+
   // @ts-ignore
   return card[filterToPropertyMapping.property];
 };
 
-const getCardValues = (card: Card, appliedFilter: AppliedFilter): string[] => {
+const getCardValues = (
+  card: Card,
+  filter: AppliedFilter,
+  filters: AppliedFilter[]
+): string[] => {
   const {
     filterToPropertyMapping: {
       isNestedPropertyArray,
       nestedProperty,
       property,
     },
-  } = appliedFilter;
+  } = filter;
   const propertyValues = card[property] || [];
 
-  if (nestedProperty) {
-    const values = new Set<string>();
+  let values: string[] = [];
 
-    for (const rawValue of propertyValues) {
-      if (isNestedPropertyArray) {
-        const rawValues = (rawValue[nestedProperty] as string[]) || [];
+  const cardHasLegalOverrides =
+    Object.keys(card.legalOverrides || {}).length > 0;
+  const isCheckingForLegalHeroes =
+    filter.filterToPropertyMapping.property === FilterProperty.LegalHeroes;
+  const anotherFilterForLegalFormat = filters.find(
+    ({ filterToPropertyMapping }) =>
+      filterToPropertyMapping.property === FilterProperty.LegalFormats
+  );
+  const shouldCheckForLegalOverrides =
+    cardHasLegalOverrides &&
+    isCheckingForLegalHeroes &&
+    !!anotherFilterForLegalFormat;
 
-        for (const value of rawValues) {
-          values.add(value);
-        }
-      } else {
-        const value = rawValue[nestedProperty] as string;
-        if (value) {
-          values.add(value);
+  if (shouldCheckForLegalOverrides) {
+    const valuesSet = new Set<string>();
+
+    for (const [format, legalHeroesOverride] of Object.entries(
+      card.legalOverrides || {}
+    )) {
+      if (anotherFilterForLegalFormat.values.includes(format.toLowerCase())) {
+        for (const hero of legalHeroesOverride) {
+          valuesSet.add(hero);
         }
       }
     }
 
-    return Array.from(values);
-  } else {
-    return propertyValues;
+    // for (const format of anotherFilterForLegalFormat.values) {
+    //   const matchingLegalHeroesOverride = card.legalOverrides[format];
+
+    //   if (
+    //     matchingLegalHeroesOverride &&
+    //     matchingLegalHeroesOverride.length > 0
+    //   ) {
+    //     for (const hero of matchingLegalHeroesOverride) {
+    //       valuesSet.add(hero);
+    //     }
+    //   }
+    // }
+    values = Array.from(valuesSet);
   }
+
+  if (values.length === 0) {
+    if (nestedProperty) {
+      const valuesSet = new Set<string>();
+
+      for (const rawValue of propertyValues) {
+        if (isNestedPropertyArray) {
+          const rawValues = (rawValue[nestedProperty] as string[]) || [];
+
+          for (const value of rawValues) {
+            valuesSet.add(value);
+          }
+        } else {
+          const value = rawValue[nestedProperty] as string;
+          if (value) {
+            valuesSet.add(value);
+          }
+        }
+      }
+
+      values = Array.from(valuesSet);
+    } else {
+      values = propertyValues;
+    }
+  }
+
+  return values;
 };
 
 const getCardSpecialValue = (

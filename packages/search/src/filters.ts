@@ -400,7 +400,7 @@ const getSearchCriteria = (text: string): string[] => {
 
 export interface SpecialConditions {
   isClash: boolean;
-  heroes: Hero[];
+  // heroes: Hero[];
 }
 
 const specialConditionHeroes = [
@@ -467,7 +467,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   let rarities: Rarity[] = [];
   let releases: Release[] = [];
   let treatments: Treatment[] = [];
-  let specialConditions: SpecialConditions = { isClash: false, heroes: [] };
+  let specialConditions: SpecialConditions = { isClash: false };
 
   for (const criteria of searchCriteria) {
     if (hasFilter(criteria)) {
@@ -484,22 +484,22 @@ export const getKeywordsAndAppliedFiltersFromText = (
           values = rarities.map((s) => s.toLowerCase());
         }
         if (["legal", "l", "hero"].includes(filterKey)) {
-          for (const hero of specialConditionHeroes) {
-            // if (text.toLowerCase() === "legal:shiyana figment") {
-            //   console.log({
-            //     hero,
-            //     specialConditions,
-            //     unparsedFilterValue,
-            //     includes: unparsedFilterValue.includes(hero.toLowerCase()),
-            //     alreadyAdded: specialConditions.heroes.includes(hero),
-            //   });
-            // }
-            if (unparsedFilterValue.includes(hero.toLowerCase())) {
-              if (!specialConditions.heroes.includes(hero)) {
-                specialConditions.heroes.push(hero);
-              }
-            }
-          }
+          // for (const hero of specialConditionHeroes) {
+          // if (text.toLowerCase() === "legal:shiyana figment") {
+          //   console.log({
+          //     hero,
+          //     specialConditions,
+          //     unparsedFilterValue,
+          //     includes: unparsedFilterValue.includes(hero.toLowerCase()),
+          //     alreadyAdded: specialConditions.heroes.includes(hero),
+          //   });
+          // }
+          // if (unparsedFilterValue.includes(hero.toLowerCase())) {
+          //   if (!specialConditions.heroes.includes(hero)) {
+          //     specialConditions.heroes.push(hero);
+          //   }
+          // }
+          // }
           if (unparsedFilterValue.includes("clash")) {
             specialConditions.isClash = true;
           }

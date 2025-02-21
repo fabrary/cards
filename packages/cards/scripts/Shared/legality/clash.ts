@@ -1,40 +1,104 @@
 import { Hero } from "@flesh-and-blood/types";
+import { readFileSync } from "fs";
+import { parse } from "papaparse";
+import { getHeroFromString } from "../mapper";
 
-export const clashBannedCards = [
-  "Amulet of Ice",
-  "Ball Lightning",
-  "Belittle",
-  "Drone of Brutality",
-  "Duskblade",
-  "Rosetta Thorn",
-  "Stubby Hammerers",
-];
+const clashLegalityOverridesFile = `${__dirname}/Clash legality - Overrides.csv`;
 
-export const clashLegalOverrideCards = ["Jack-o'-lantern"];
+const booleanFields: string[] = ["banned"];
+const arrayFields: string[] = ["bans", "specializations"];
+const arrayDelimiter = " | ";
 
-export const clashSpecializationOverrides: {
-  heroes: string[];
-  cardIdentifiers: string[];
-}[] = [
-  {
-    heroes: [Hero.Briar],
-    cardIdentifiers: ["rosetta-thorn"],
-  },
-  {
-    heroes: [Hero.Emperor],
-    cardIdentifiers: ["command-and-conquer-red"],
-  },
-  {
-    heroes: [Hero.Prism],
-    cardIdentifiers: [
-      "figment-of-erudition-yellow",
-      "figment-of-judgment-yellow",
-      "figment-of-protection-yellow",
-      "figment-of-ravages-yellow",
-      "figment-of-rebirth-yellow",
-      "figment-of-tenacity-yellow",
-      "figment-of-triumph-yellow",
-      "figment-of-war-yellow",
-    ],
-  },
-];
+interface ClashLegalityOverride {
+  card: string;
+  banned: boolean;
+  bans: Hero[];
+  specializations: Hero[];
+}
+const getOverrides = (): ClashLegalityOverride[] => {
+  const csv = readFileSync(clashLegalityOverridesFile, "utf-8");
+  const overrides = parse<ClashLegalityOverride>(csv, {
+    header: true,
+    skipEmptyLines: true,
+    transform: (value: string, field: string) => {
+      if (arrayFields.includes(field)) {
+        return value.split(arrayDelimiter);
+      } else if (booleanFields.includes(field)) {
+        return value === "Yes";
+      } else {
+        return value;
+      }
+    },
+    transformHeader: (original: string) => original.toLowerCase(),
+  });
+
+  return overrides.data.map((override) => {
+    const bans: Hero[] = (override.bans || [])
+      .map((heroString) => getHeroFromString(heroString))
+      .filter((hero) => !!hero);
+
+    const specializations: Hero[] = (override.specializations || [])
+      .map((heroString) => getHeroFromString(heroString))
+      .filter((hero) => !!hero);
+
+    return {
+      ...override,
+      bans,
+      specializations,
+    };
+  });
+};
+
+const overrides = getOverrides();
+
+export const clashBannedCards = overrides
+  .filter(({ banned }) => banned)
+  .map(({ card }) => card);
+
+export const clashLegalOverrides = overrides.filter(
+  ({ bans, specializations }) => {
+    const hasBans = !!bans && bans.length > 0;
+    const hasSpecializations = !!specializations && specializations.length > 0;
+
+    return hasBans || hasSpecializations;
+  }
+);
+
+// export const clashBannedCards = [
+//   "Amulet of Ice",
+//   "Ball Lightning",
+//   "Belittle",
+//   "Drone of Brutality",
+//   "Duskblade",
+//   "Rosetta Thorn",
+//   "Stubby Hammerers",
+// ];
+
+// export const clashLegalOverrideCards = ["Jack-o'-lantern"];
+
+// export const clashSpecializationOverrides: {
+//   heroes: string[];
+//   cardIdentifiers: string[];
+// }[] = [
+//   {
+//     heroes: [Hero.Briar],
+//     cardIdentifiers: ["rosetta-thorn"],
+//   },
+//   {
+//     heroes: [Hero.Emperor],
+//     cardIdentifiers: ["command-and-conquer-red"],
+//   },
+//   {
+//     heroes: [Hero.Prism],
+//     cardIdentifiers: [
+//       "figment-of-erudition-yellow",
+//       "figment-of-judgment-yellow",
+//       "figment-of-protection-yellow",
+//       "figment-of-ravages-yellow",
+//       "figment-of-rebirth-yellow",
+//       "figment-of-tenacity-yellow",
+//       "figment-of-triumph-yellow",
+//       "figment-of-war-yellow",
+//     ],
+//   },
+// ];

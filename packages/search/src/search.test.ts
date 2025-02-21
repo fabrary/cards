@@ -272,9 +272,13 @@ describe("Card search", () => {
   ];
   it.each(hasQuantity)("Gets cards for %s", (...searchTerms) => {
     for (const searchTerm of searchTerms) {
-      const { keywords, searchResults } = cardSearch.search(
-        randomizeCapitalization(searchTerm as string)
-      );
+      const { keywords, searchResults, appliedFilters, attributes } =
+        cardSearch.search(randomizeCapitalization(searchTerm as string));
+
+      // console.log(
+      //   JSON.stringify({ keywords, appliedFilters, attributes }, null, 2)
+      // );
+
       expect(searchResults.length).toBeGreaterThan(0);
     }
   });
@@ -302,6 +306,7 @@ describe("Card search", () => {
 
   const hasNoQuantity = [
     [
+      "legal:ira,clash zephyr needle",
       "legal:shiyana,commoner cnc",
       "legal:shiyana,clash figment",
       "legal:shiyana,clash cnc",

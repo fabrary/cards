@@ -2,16 +2,18 @@ import {
   Class,
   coreSetIdentifiers,
   Format,
+  Hero,
   Keyword,
+  LegalOverrides,
   Rarity,
   Release,
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
-import { clashBannedCards, clashLegalOverrideCards } from "./clash";
+import { clashBannedCards, clashLegalOverrides } from "./clash";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
-const clashAndLimitedLegalOverrideCards = [
+const limitedLegalOverrideCards = [
   "Beckoning Mistblade",
   "Cosmo, Scroll of Ancestral Tapestry",
   "Fyendal's Fighting Spirit",
@@ -81,27 +83,27 @@ export const getLegalFormats = (
 
     const isClashFormat = format === Format.Clash;
     if (isClashFormat) {
-      const isOverrideAllowed =
-        clashAndLimitedLegalOverrideCards.includes(card.name) ||
-        clashLegalOverrideCards.includes(card.name);
-      const isBanned =
-        commonerBannedCards.includes(card.name) ||
-        clashBannedCards.includes(card.name);
-      const isNotTooRare = rarities.some((rarity) =>
-        [Rarity.Token, Rarity.Common, Rarity.Rare].includes(rarity)
-      );
+      const isBanned = clashBannedCards.includes(card.name);
+      const isNotTooRare =
+        rarities.some((rarity) =>
+          [Rarity.Token, Rarity.Common, Rarity.Rare].includes(rarity)
+        ) || rarities.every((rarity) => rarity === Rarity.Promo);
       const isMentor = types.includes(Type.Mentor);
-      const isSpecialization = keywords.includes(Keyword.Specialization);
+      const isSpecialization =
+        keywords.includes(Keyword.Specialization) ||
+        clashLegalOverrides.some(
+          (override) =>
+            override.card === card.name && override.specializations.length > 0
+        );
       const isWeapon = types.includes(Type.Weapon);
 
       const isAllowed =
-        isOverrideAllowed ||
-        (!isBanned &&
-          (isNotTooRare ||
-            isMentor ||
-            isSpecialization ||
-            isWeapon ||
-            isYoungHero));
+        !isBanned &&
+        (isNotTooRare ||
+          isMentor ||
+          isSpecialization ||
+          isWeapon ||
+          isYoungHero);
 
       if (!isAllowed) {
         isLegalPerFormat = false;
@@ -123,9 +125,7 @@ export const getLegalFormats = (
         }
       }
 
-      const isOverrideAllowed = clashAndLimitedLegalOverrideCards.includes(
-        card.name
-      );
+      const isOverrideAllowed = limitedLegalOverrideCards.includes(card.name);
 
       const isOnlyPromo = sets.every((release) => release === Release.Promos);
       if (isOnlyPromo && !isOverrideAllowed) {
@@ -194,4 +194,39 @@ export const getLegalFormats = (
   legalFormats.sort();
 
   return legalFormats;
+};
+
+export const getLegalOverrides = (
+  {
+    name,
+  }: {
+    name: string;
+  },
+  defaultLegalHeroes: Hero[]
+): LegalOverrides | undefined => {
+  const matchingClashOverride = clashLegalOverrides.find(
+    ({ card }) => card === name
+  );
+
+  if (matchingClashOverride) {
+    const legalHeroes: Hero[] =
+      matchingClashOverride.specializations.length > 0
+        ? matchingClashOverride.specializations
+        : defaultLegalHeroes.filter(
+            (hero) => !matchingClashOverride.bans.includes(hero)
+          );
+
+    const legalHeroesAreTheSame =
+      defaultLegalHeroes.sort().join("-") === legalHeroes.sort().join("-");
+
+    if (legalHeroesAreTheSame) {
+      return undefined;
+    } else {
+      return {
+        [Format.Clash]: legalHeroes,
+      };
+    }
+  } else {
+    return undefined;
+  }
 };

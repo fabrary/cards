@@ -4,6 +4,7 @@ import {
   getBonds,
   getFlows,
   getFusions,
+  getHeroFromCard,
   getMeta,
   getNumberOrUndefined,
   getRarities,
@@ -83,29 +84,29 @@ const getClasses = (card: ParsedCard): Class[] => {
   return classes;
 };
 
-const getHero = (card: ParsedCard): Hero | null => {
-  const { types, name } = card;
+// const getHero = (card: ParsedCard): Hero | null => {
+//   const { types, name } = card;
 
-  let heroOnCard: Hero | null = null;
+//   let heroOnCard: Hero | null = null;
 
-  if (types.includes("Hero")) {
-    for (const [hero, value] of Object.entries(Hero)) {
-      if (name.includes(value as string)) {
-        heroOnCard = Hero[hero];
-      }
-    }
-  }
+//   if (types.includes("Hero")) {
+//     for (const [hero, value] of Object.entries(Hero)) {
+//       if (name.includes(value as string)) {
+//         heroOnCard = Hero[hero];
+//       }
+//     }
+//   }
 
-  if (name === "Bravo, Star of the Show") {
-    heroOnCard = Hero.Starvo;
-  } else if (name === "Arakni, 5L!p3d 7hRu 7h3 cR4X") {
-    heroOnCard = Hero.Slippy;
-  } else if (["Arakni, Marionette", "Arakni, Web of Deceit"].includes(name)) {
-    heroOnCard = Hero.Crackni;
-  }
+//   if (name === "Bravo, Star of the Show") {
+//     heroOnCard = Hero.Starvo;
+//   } else if (name === "Arakni, 5L!p3d 7hRu 7h3 cR4X") {
+//     heroOnCard = Hero.Slippy;
+//   } else if (["Arakni, Marionette", "Arakni, Web of Deceit"].includes(name)) {
+//     heroOnCard = Hero.Crackni;
+//   }
 
-  return heroOnCard;
-};
+//   return heroOnCard;
+// };
 
 interface TCGplayer {
   productId: string;
@@ -750,7 +751,7 @@ const getCardData = (card: ParsedCard): Card => {
   const bannedFormats = getBannedFormats(card);
   const cardIdentifier = getCardIdentifier(card);
   const classes = getClasses(card);
-  const hero = getHero(card) as Hero;
+  const hero = getHeroFromCard(card) as Hero;
   const keywords = getKeywords(card);
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);

@@ -21,6 +21,7 @@ import {
   getBonds,
   getFlows,
   getFusions,
+  getHeroFromCard,
   getMeta,
   getNumberOrUndefined,
   getRarities,
@@ -40,7 +41,11 @@ import {
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import { getLegalFormats, getLegalHeroes } from "../Shared/legality";
+import {
+  getLegalFormats,
+  getLegalHeroes,
+  getLegalOverrides,
+} from "../Shared/legality";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -63,28 +68,28 @@ const getClasses = (card: ParsedCard): Class[] => {
   return classes;
 };
 
-const getHero = (card: ParsedCard): Hero | null => {
-  let heroOnCard: Hero | null = null;
+// const getHero = (card: ParsedCard): Hero | null => {
+//   let heroOnCard: Hero | null = null;
 
-  const { types, name } = card;
-  if (types.includes("Hero")) {
-    for (const [hero, value] of Object.entries(Hero)) {
-      if (name.includes(value as string)) {
-        heroOnCard = Hero[hero];
-      }
-    }
-  }
+//   const { types, name } = card;
+//   if (types.includes("Hero")) {
+//     for (const [hero, value] of Object.entries(Hero)) {
+//       if (name.includes(value as string)) {
+//         heroOnCard = Hero[hero];
+//       }
+//     }
+//   }
 
-  if (name === "Bravo, Star of the Show") {
-    heroOnCard = Hero.Starvo;
-  } else if (name === "Arakni, 5L!p3d 7hRu 7h3 cR4X") {
-    heroOnCard = Hero.Slippy;
-  } else if (["Arakni, Marionette", "Arakni, Web of Deceit"].includes(name)) {
-    heroOnCard = Hero.Crackni;
-  }
+//   if (name === "Bravo, Star of the Show") {
+//     heroOnCard = Hero.Starvo;
+//   } else if (name === "Arakni, 5L!p3d 7hRu 7h3 cR4X") {
+//     heroOnCard = Hero.Slippy;
+//   } else if (["Arakni, Marionette", "Arakni, Web of Deceit"].includes(name)) {
+//     heroOnCard = Hero.Crackni;
+//   }
 
-  return heroOnCard;
-};
+//   return heroOnCard;
+// };
 
 const excludedPrintings: string[] = [];
 
@@ -330,7 +335,7 @@ const getCardData = (card: ParsedCard): Card => {
 
   const bannedFormats = getBannedFormats(card);
   const classes = getClasses(card);
-  const hero = getHero(card) as Hero;
+  const hero = getHeroFromCard(card) as Hero;
   const keywords = getKeywords(card);
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);

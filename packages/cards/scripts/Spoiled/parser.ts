@@ -214,5 +214,6 @@ export const parseCSV = (file: string): ParsedCard[] => {
     transform,
     transformHeader,
   });
+
   return cards.data;
 };

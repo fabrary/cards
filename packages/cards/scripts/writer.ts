@@ -9,6 +9,7 @@ import {
   Fusion,
   Hero,
   Keyword,
+  LegalOverrides,
   Meta,
   Metatype,
   Printing,
@@ -105,6 +106,16 @@ const getPrintings = (printings: Printing[]) => {
   );
 };
 
+const getLegalOverrides = (legalOverrides: LegalOverrides): string => {
+  return `legalOverrides: {
+  ${Object.entries(legalOverrides).map(
+    ([format, heroes]) =>
+      `"${format}": [${getEnumValues(heroes, "Hero", Hero)}],`
+  )}
+    
+  }`;
+};
+
 // ${
 //   treatments?.length
 //     ? `treatments: [${getEnumValues(
@@ -169,6 +180,7 @@ const generateCardTypeScript = (card: Card): String => {
         ? `keywords: [${getEnumValues(card.keywords, "Keyword", Keyword)}],`
         : ``
     }
+    ${card.legalOverrides ? `${getLegalOverrides(card.legalOverrides)},` : ``}
     ${card.life ? `life: ${card.life},` : ``}
     ${
       card.meta && card.meta.length > 0

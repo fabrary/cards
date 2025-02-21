@@ -30,6 +30,7 @@ export interface Card {
   intellect?: number;
   isCardBack?: boolean;
   keywords?: Keyword[];
+  legalOverrides?: LegalOverrides;
   meta?: Meta[];
   metatypes?: Metatype[];
   oppositeSideCardIdentifier?: string;
@@ -50,6 +51,10 @@ export interface Card {
 
 export interface DoubleSidedCard extends Card {
   oppositeSideCard?: Card;
+}
+
+export interface LegalOverrides {
+  [key: string]: Hero[];
 }
 
 export interface Printing {

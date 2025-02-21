@@ -83,6 +83,7 @@
     
     
     
+    
     pitch: 1,
     
     
@@ -156,6 +157,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -248,6 +250,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
     
     
     
+    
     pitch: 3,
     
     
@@ -317,6 +320,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
     
     hero: Hero.Arakni,
     intellect: 4,
+    
     
     
     life: 20,
@@ -393,6 +397,7 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
     intellect: 4,
     
     keywords: [Keyword.GoAgain],
+    
     life: 38,
     meta: [Meta.Expansion],
     
@@ -482,6 +487,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     intellect: 4,
+    
     
     
     
@@ -584,6 +590,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
+    
     specialLife: "*",
     
     
@@ -647,6 +654,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     hero: Hero.Arakni,
     intellect: 4,
+    
     
     
     life: 40,
@@ -740,6 +748,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     intellect: 4,
     
     keywords: [Keyword.GoAgain],
+    
     life: 40,
     
     
@@ -842,6 +851,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
+    
     specialLife: "*",
     
     
@@ -933,6 +943,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
+    
     specialLife: "*",
     
     
@@ -998,6 +1009,7 @@ At the beginning of your end phase, **return to the brood**.`,
     intellect: 4,
     
     keywords: [Keyword.GoAgain],
+    
     life: 19,
     meta: [Meta.Expansion],
     
@@ -1100,6 +1112,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
+    
     specialLife: "*",
     
     
@@ -1180,6 +1193,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     intellect: 4,
+    
     
     
     
@@ -1273,6 +1287,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     intellect: 4,
     
     keywords: [Keyword.GoAgain],
+    
     life: 20,
     
     
@@ -1350,6 +1365,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     
     
     
+    
     pitch: 1,
     power: 4,
     
@@ -1416,6 +1432,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     defense: 3,
     
     functionalText: `When this attacks, if it is Draconic, it gets "When this hits a hero, destroy all cards in their arsenal."`,
+    
     
     
     
@@ -1498,6 +1515,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     
     
     
+    
     pitch: 1,
     power: 5,
     
@@ -1572,6 +1590,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     
     
     
+    
     pitch: 1,
     power: 5,
     
@@ -1630,6 +1649,7 @@ Defense reaction cards can't be played this chain link.`,
     
     
     keywords: [Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -1707,6 +1727,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -1783,6 +1804,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -1858,6 +1880,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     keywords: [Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -1947,6 +1970,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     
+    
   
   
   },{
@@ -2010,6 +2034,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     keywords: [Keyword.Guardwell],
+    
     
     
     
@@ -2099,6 +2124,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     
+    
   
   
   },{
@@ -2175,6 +2201,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     
+    
   
   
   },{
@@ -2221,6 +2248,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -2298,6 +2326,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     
+    
     pitch: 1,
     
     
@@ -2364,6 +2393,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     defense: 2,
     
     functionalText: `Target dagger attack gets +2{p}. If you control 2 or more Draconic chain links, instead it gets +3{p}.`,
+    
     
     
     
@@ -2448,6 +2478,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     
+    
     pitch: 1,
     power: 2,
     
@@ -2524,6 +2555,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     
     
     
+    
     pitch: 1,
     power: 3,
     
@@ -2594,6 +2626,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
 When this attacks a hero, each dagger you control deals 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the daggers.
 
 **Go again**`,
+    
     
     
     
@@ -2688,6 +2721,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     
     
     
+    
   
   
   },{
@@ -2746,6 +2780,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     functionalText: `Play this only if you control 2 or more Draconic chain links.
 
 Target dagger attack gets +4{p}.`,
+    
     
     
     
@@ -2845,6 +2880,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     
+    
     pitch: 1,
     
     
@@ -2929,6 +2965,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     
+    
   
   
   },{
@@ -2990,6 +3027,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -3059,6 +3097,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     functionalText: `The next 3 times you would be dealt damage this turn, prevent 1 of that damage.`,
+    
     
     
     
@@ -3139,6 +3178,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     
+    
     meta: [Meta.Expansion],
     
     pitch: 2,
@@ -3197,6 +3237,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -3288,6 +3329,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     intellect: 4,
     
     
+    
     life: 20,
     
     
@@ -3376,6 +3418,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     intellect: 4,
     
     
+    
     life: 40,
     
     
@@ -3462,6 +3505,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     
+    
     talents: [Talent.Draconic],
   
   
@@ -3470,7 +3514,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     cardIdentifier: "command-and-conquer-red",
     classes: [Class.Generic],
     defaultImage: "HNT260",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Command and Conquer",
     printings: [{
@@ -3519,6 +3563,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     defense: 3,
     
     functionalText: `Defense reaction cards can't be played this chain link. When this hits a hero, destroy all cards in their arsenal.`,
+    
     
     
     
@@ -3601,6 +3646,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     
+    
     pitch: 1,
     power: 5,
     
@@ -3649,6 +3695,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     
     
     functionalText: `*(A player may add any number of Cracked Baubles to their card-pool in sealed deck or booster draft formats.)*`,
+    
     
     
     
@@ -3735,6 +3782,7 @@ Each hero banishes a card from their hand.
     
     keywords: [Keyword.BloodDebt],
     
+    
     meta: [Meta.Expansion],
     
     pitch: 1,
@@ -3810,6 +3858,7 @@ Each hero banishes a card from their hand.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -3887,6 +3936,7 @@ Each hero banishes a card from their hand.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -3962,6 +4012,7 @@ Each hero banishes a card from their hand.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -4041,6 +4092,7 @@ Your next dagger attack this turn gets +4{p}.
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -4118,6 +4170,7 @@ Your next dagger attack this turn gets +3{p}.
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -4197,6 +4250,7 @@ Your next dagger attack this turn gets +2{p}.
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -4270,6 +4324,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -4345,6 +4400,7 @@ Your next dagger attack this turn gets +2{p}.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -4418,6 +4474,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -4505,6 +4562,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
+    
   
   
   },{
@@ -4568,6 +4626,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     keywords: [Keyword.Contract,Keyword.Stealth],
+    
     
     
     
@@ -4645,6 +4704,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
+    
     pitch: 1,
     power: 4,
     
@@ -4716,6 +4776,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     keywords: [Keyword.Mark],
+    
     
     
     
@@ -4795,6 +4856,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
+    
     pitch: 1,
     power: 4,
     
@@ -4863,6 +4925,7 @@ Your next dagger attack this turn gets +2{p}.
     functionalText: `Target dagger attack gets +1{p}.
 
 Your next dagger attack this turn gets +3{p}.`,
+    
     
     
     
@@ -4945,6 +5008,7 @@ Your next dagger attack this turn gets +2{p}.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -5015,6 +5079,7 @@ Your next dagger attack this turn gets +2{p}.`,
     functionalText: `Target dagger attack gets +1{p}.
 
 Your next dagger attack this turn gets +1{p}.`,
+    
     
     
     
@@ -5097,6 +5162,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
     
     
+    
     pitch: 1,
     power: 3,
     
@@ -5169,6 +5235,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Expansion],
     
     pitch: 1,
@@ -5238,6 +5305,7 @@ Your next dagger attack this turn gets +1{p}.`,
     defense: 3,
     
     functionalText: `When this attacks, if it is Draconic, it gets +3{p}.`,
+    
     
     
     
@@ -5318,6 +5386,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -5386,6 +5455,7 @@ Your next dagger attack this turn gets +1{p}.`,
     defense: 3,
     
     functionalText: `When this attacks, if it is Draconic, it gets +3{p}.`,
+    
     
     
     
@@ -5467,6 +5537,7 @@ Your next dagger attack this turn gets +1{p}.`,
     
     
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
+    
     
     
     
@@ -5563,6 +5634,7 @@ Gain {r}. Draw a card.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -5641,6 +5713,7 @@ If you've attacked with an attack action card this turn, your next weapon attack
     
     
     
+    
     pitch: 2,
     
     
@@ -5697,6 +5770,7 @@ If you've attacked with an attack action card this turn, your next weapon attack
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -5768,6 +5842,7 @@ If you've attacked with an attack action card this turn, your next weapon attack
     functionalText: `This costs {r} less to play for each Draconic chain link you control.
 
 Target dagger attack gets +3{p}.`,
+    
     
     
     
@@ -5848,6 +5923,7 @@ Target dagger attack gets +3{p}.`,
     
     
     
+    
     meta: [Meta.Expansion],
     
     
@@ -5916,6 +5992,7 @@ Target dagger attack gets +3{p}.`,
     defense: 2,
     
     functionalText: `Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, create a Fealty token.`,
+    
     
     
     
@@ -6002,6 +6079,7 @@ Target attack gets +1{p}.
     
     
     
+    
     pitch: 3,
     
     
@@ -6075,6 +6153,7 @@ Target attack gets +1{p}.
     
     
     keywords: [Keyword.Contract,Keyword.Stealth],
+    
     
     
     
@@ -6166,6 +6245,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     intellect: 4,
     
     
+    
     life: 20,
     
     
@@ -6254,6 +6334,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     intellect: 4,
     
     
+    
     life: 40,
     
     
@@ -6329,6 +6410,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     
     
     functionalText: `**Instant** - Destroy this: The next card you play this turn is Draconic. At the beginning of your end phase, if you haven't created a Fealty token or played a Dragonic card this turn, destroy this.`,
+    
     
     
     
@@ -6430,6 +6512,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     
     
     
+    
     pitch: 1,
     
     
@@ -6503,6 +6586,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -6580,6 +6664,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -6655,6 +6740,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -6734,6 +6820,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     
     
     
+    
     pitch: 1,
     
     
@@ -6800,6 +6887,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     defense: 3,
     
     functionalText: `When this attacks a **marked** hero, create a Fealty token.`,
+    
     
     
     
@@ -6882,6 +6970,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     
     
     
+    
     pitch: 1,
     power: 5,
     
@@ -6956,6 +7045,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     
     
     
+    
     pitch: 1,
     power: 6,
     
@@ -7013,6 +7103,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Stealth],
+    
     
     
     
@@ -7090,6 +7181,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -7165,6 +7257,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -7242,6 +7335,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -7315,6 +7409,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -7390,6 +7485,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -7463,6 +7559,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -7551,6 +7648,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
+    
     talents: [Talent.Draconic],
   
   
@@ -7615,6 +7713,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -7692,6 +7791,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
+    
     pitch: 1,
     power: 3,
     
@@ -7765,6 +7865,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -7842,6 +7943,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -7917,6 +8019,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -7994,6 +8097,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
+    
     pitch: 1,
     power: 5,
     
@@ -8063,6 +8167,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     
     
@@ -8157,6 +8262,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -8223,6 +8329,7 @@ Target dagger attack gets +4{p}.`,
     defense: 3,
     
     functionalText: `When this defends and the attacking hero has played or activated an attack reaction this chain link, they lose 1{h}.`,
+    
     
     
     
@@ -8306,6 +8413,7 @@ When this hits a hero, **mark** them.
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark,Keyword.Piercing],
+    
     
     meta: [Meta.Expansion],
     
@@ -8400,6 +8508,7 @@ When this hits a hero, **mark** them.
     
     
     
+    
     pitch: 1,
     power: 2,
     
@@ -8468,6 +8577,7 @@ When this hits a hero, **mark** them.
     functionalText: `This costs {r} less to play for each Draconic chain link you control.
 
 Target dagger attack gets +2{p}.`,
+    
     
     
     
@@ -8552,6 +8662,7 @@ Target dagger attack gets +2{p}.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -8618,6 +8729,7 @@ Target dagger attack gets +2{p}.`,
     defense: 3,
     
     functionalText: `Target dagger attack gets +3{p}.`,
+    
     
     
     
@@ -8698,6 +8810,7 @@ Target dagger attack gets +2{p}.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -8772,6 +8885,7 @@ Target dagger attack gets +2{p}.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -8840,6 +8954,7 @@ Target dagger attack gets +2{p}.`,
     defense: 3,
     
     functionalText: `Target weapon attack gets +3{p} and "Damage this would deal can't be prevented."`,
+    
     
     
     
@@ -8934,6 +9049,7 @@ Target dagger attack gets +2{p}.`,
     
     
     
+    
   
   
   },{
@@ -9015,6 +9131,7 @@ When this hits a hero, they lose 1{h}.`,
     
     
     
+    
     pitch: 1,
     power: 3,
     
@@ -9090,6 +9207,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -9169,6 +9287,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -9247,6 +9366,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -9305,6 +9425,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -9382,6 +9503,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     
     
+    
     pitch: 1,
     
     
@@ -9438,6 +9560,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -9509,6 +9632,7 @@ Whenever you attack a **marked** hero this turn, the attack gets **go again**.
     functionalText: `If you are **marked**, you can't play this.
 
 If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
+    
     
     
     
@@ -9603,6 +9727,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     
+    
   
   
   },{
@@ -9666,6 +9791,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -9755,6 +9881,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     
+    
   
   
   },{
@@ -9831,6 +9958,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     
+    
   
   
   },{
@@ -9891,6 +10019,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
 * Target dagger attack gains +2{p}.
 * You may attack with target dagger an additional time this turn.
 * The next time target dagger hits a hero this turn, **mark** them.`,
+    
     
     
     
@@ -9988,6 +10117,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -10059,6 +10189,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -10136,6 +10267,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -10211,6 +10343,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
     
     
     keywords: [Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -10289,6 +10422,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -10364,6 +10498,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     
     
     keywords: [Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -10441,6 +10576,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -10517,6 +10653,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -10579,6 +10716,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     
     
@@ -10656,6 +10794,7 @@ When this hits a hero, **mark** them.`,
     
     keywords: [Keyword.Mark,Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -10731,6 +10870,7 @@ When this hits a hero, **mark** them.`,
     
     
     keywords: [Keyword.Mark,Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -10808,6 +10948,7 @@ When this hits a hero, **mark** them.`,
     
     keywords: [Keyword.Mark,Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -10884,6 +11025,7 @@ When this hits a hero, **mark** them.`,
     
     
     
+    
     pitch: 1,
     power: 4,
     
@@ -10937,6 +11079,7 @@ When this hits a hero, **mark** them.`,
     
     
     keywords: [Keyword.Mark],
+    
     
     
     
@@ -11026,6 +11169,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     
     
     
+    
     specializations: [Hero.Arakni],
     
   
@@ -11091,6 +11235,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     meta: [Meta.Expansion],
     
@@ -11160,6 +11305,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     defense: 3,
     
     functionalText: `Target attack with 3 or less base {p} gets +1{p}.`,
+    
     
     
     
@@ -11243,6 +11389,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
     
     
     keywords: [Keyword.Crank],
+    
     
     meta: [Meta.Expansion],
     
@@ -11339,6 +11486,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
     
     
     
+    
     pitch: 1,
     power: 4,
     
@@ -11395,6 +11543,7 @@ When this is played, until end of turn, you may only play cards that are Draconi
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -11474,6 +11623,7 @@ Your next attack with **stealth** this turn gets +3{p}.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -11552,6 +11702,7 @@ Your next attack with **stealth** this turn gets +2{p}.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -11629,6 +11780,7 @@ Your next attack with **stealth** this turn gets +1{p}.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -11710,6 +11862,7 @@ If the defending hero is **marked**, this gets +1{p}.
     
     
     
+    
     pitch: 1,
     power: 3,
     
@@ -11783,6 +11936,7 @@ If the defending hero is **marked**, this gets +1{p}.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -11871,6 +12025,7 @@ If the defending hero is **marked**, this gets +1{p}.
     
     
     
+    
     talents: [Talent.Draconic],
   
   
@@ -11930,6 +12085,7 @@ If the defending hero is **marked**, this gets +1{p}.
     functionalText: `You may attack with target dagger an additional time and its attacks cost you {r} less to activate this turn.
 
 Draw a card.`,
+    
     
     
     
@@ -12012,6 +12168,7 @@ Draw a card.`,
     
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -12087,6 +12244,7 @@ Draw a card.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
+    
     
     meta: [Meta.Rainbow],
     
@@ -12164,6 +12322,7 @@ Draw a card.`,
     
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -12232,6 +12391,7 @@ Draw a card.`,
     
     
     functionalText: `Create a Fealty token.`,
+    
     
     
     
@@ -12314,6 +12474,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -12390,6 +12551,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -12465,6 +12627,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     
     
     keywords: [Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -12544,6 +12707,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -12621,6 +12785,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -12700,6 +12865,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -12775,6 +12941,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -12852,6 +13019,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -12927,6 +13095,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -13006,6 +13175,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
     
     
     
+    
     pitch: 3,
     
     
@@ -13077,6 +13247,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
     
     
     keywords: [Keyword.Mark],
+    
     
     
     
@@ -13169,6 +13340,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
     
     
     
+    
     pitch: 3,
     
     
@@ -13237,6 +13409,7 @@ At the start of your turn, destroy this, then your dagger attacks get +1{p} this
     functionalText: `When you attack for the fourth time during a turn, you may destroy this. If you do, draw a card.
 
 At the beginning of your end phase, if you've attacked less than 3 times this turn, destroy this.`,
+    
     
     
     
@@ -13321,6 +13494,7 @@ The next time you attack a **marked** hero this turn, the attack gets +3{p}.
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -13398,6 +13572,7 @@ The next time you attack a **marked** hero this turn, the attack gets +2{p}.
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -13477,6 +13652,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -13550,6 +13726,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     
     
     keywords: [Keyword.Mark],
+    
     
     
     
@@ -13627,6 +13804,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     
     
     
+    
     pitch: 1,
     power: 5,
     
@@ -13693,6 +13871,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
     defense: 3,
     
     functionalText: `This can only defend an attack with 3 or less base {p}.`,
+    
     
     
     
@@ -13787,6 +13966,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     
+    
   
   
   },{
@@ -13843,6 +14023,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     functionalText: `Draconic attacks get +1{p} this turn.`,
+    
     
     
     
@@ -13910,6 +14091,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -13963,6 +14145,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     defense: 3,
     
     functionalText: `Target attack action card with **stealth** gets +3{p}.`,
+    
     
     
     
@@ -14045,6 +14228,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     keywords: [Keyword.Mark,Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -14121,6 +14305,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     keywords: [Keyword.Mark,Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -14196,6 +14381,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     keywords: [Keyword.Mark,Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -14285,6 +14471,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     
+    
   
   
   },{
@@ -14348,6 +14535,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -14437,6 +14625,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     
+    
   
   
   },{
@@ -14500,6 +14689,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     
     
@@ -14581,6 +14771,7 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
     
     
     
+    
     pitch: 3,
     
     
@@ -14654,6 +14845,7 @@ If you've attacked them this turn, put this on the bottom of its owner's deck.
     
     
     keywords: [Keyword.Combo,Keyword.Specialization],
+    
     
     meta: [Meta.Expansion],
     
@@ -14731,6 +14923,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
     
     keywords: [Keyword.Legendary,Keyword.Specialization],
     
+    
     meta: [Meta.Expansion],
     
     pitch: 2,
@@ -14807,6 +15000,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Expansion],
     
     pitch: 3,
@@ -14865,6 +15059,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -14934,6 +15129,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
     defense: 3,
     
     functionalText: `When this attacks, you may banish a card with 1{p} from each hero's graveyard. If you do, this gets +1{p}, then repeat this process.`,
+    
     
     
     
@@ -15020,6 +15216,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     
+    
     pitch: 1,
     
     
@@ -15086,6 +15283,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     defense: 2,
     
     functionalText: `Target dagger attack gets +X{p}, where X is the number of Draconic chain links you control.`,
+    
     
     
     
@@ -15166,6 +15364,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     keywords: [Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -15241,6 +15440,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     keywords: [Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -15314,6 +15514,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     keywords: [Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -15393,6 +15594,7 @@ When this is pitched, each hero shuffles, then puts the top card of their deck f
     
     
     
+    
     pitch: 3,
     
     
@@ -15466,6 +15668,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -15543,6 +15746,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -15619,6 +15823,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -15692,6 +15897,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     
     
     keywords: [Keyword.Mark],
+    
     
     
     
@@ -15770,6 +15976,7 @@ At the beginning of your end phase, destroy this.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     
     
@@ -15862,6 +16069,7 @@ At the beginning of your end phase, destroy this.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -15913,6 +16121,7 @@ At the beginning of your end phase, destroy this.`,
     
     
     functionalText: `Gain 3{h}`,
+    
     
     
     
@@ -15993,6 +16202,7 @@ At the beginning of your end phase, destroy this.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -16067,6 +16277,7 @@ At the beginning of your end phase, destroy this.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -16135,6 +16346,7 @@ At the beginning of your end phase, destroy this.`,
     defense: 3,
     
     functionalText: `When this attacks a hero, if it is Draconic, you may have target dagger you control deal 1 damage to them. If damage is dealt this way, the dagger has hit. Destroy the dagger.`,
+    
     
     
     
@@ -16219,6 +16431,7 @@ Target dagger attack gets +3{p}.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -16285,6 +16498,7 @@ Target dagger attack gets +3{p}.`,
     defense: 2,
     
     functionalText: `Target dagger attack gets +3{p}. If you control 2 or more Draconic chain links, instead it gets +4{p}.`,
+    
     
     
     
@@ -16367,6 +16581,7 @@ Target dagger attack gets +3{p}.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -16433,6 +16648,7 @@ Target dagger attack gets +3{p}.`,
     defense: 3,
     
     functionalText: `When this attacks a hero, they reveal their hand. If an attack reaction card is revealed this way, you may search your deck for a defense reaction card, reveal it, then shuffle and put it on top.`,
+    
     
     
     
@@ -16515,6 +16731,7 @@ Target dagger attack gets +3{p}.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Expansion],
     
     pitch: 3,
@@ -16588,6 +16805,7 @@ Target dagger attack gets +3{p}.`,
     
     
     keywords: [Keyword.Mark],
+    
     
     
     
@@ -16665,6 +16883,7 @@ Target attack with **stealth** gets +3{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -16741,6 +16960,7 @@ Target attack with **stealth** gets +2{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -16816,6 +17036,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -16903,6 +17124,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
   
   
   },{
@@ -16966,6 +17188,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -17043,6 +17266,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -17118,6 +17342,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -17195,6 +17420,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -17270,6 +17496,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -17347,6 +17574,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -17415,6 +17643,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     defense: 2,
     
     functionalText: `Target dagger attack gets +3{p} and "When this hits a **marked** hero, you may attack with it an additional time this turn."`,
+    
     
     
     
@@ -17495,6 +17724,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -17563,6 +17793,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     defense: 2,
     
     functionalText: `Target dagger attack gets +1{p} and "When this hits a **marked** hero, you may attack with it an additional time this turn."`,
+    
     
     
     
@@ -17645,6 +17876,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
     pitch: 2,
     
     
@@ -17714,6 +17946,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
 
 * Target dagger attack gets +3{p}.
 * Target card defending an attack with stealth gets -3{d} this turn.`,
+    
     
     
     
@@ -17809,6 +18042,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
     meta: [Meta.Expansion],
     
     pitch: 2,
@@ -17877,6 +18111,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     defense: 3,
     
     functionalText: `Target dagger you control that isn't on the active chain link deals 1 damage to the defending hero. If damage is dealt this way, the dagger has hit and you draw a card. Destroy the dagger.`,
+    
     
     
     
@@ -17959,6 +18194,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -18034,6 +18270,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -18111,6 +18348,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -18184,6 +18422,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -18259,6 +18498,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -18333,6 +18573,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -18401,6 +18642,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     defense: 2,
     
     functionalText: `Target dagger attack gets +3{p}. If the defending hero is **marked**, instead it gets +4{p}.`,
+    
     
     
     
@@ -18481,6 +18723,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -18555,6 +18798,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -18608,6 +18852,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     functionalText: `Your next Draconic attack this turn gets +3{p}.`,
+    
     
     
     
@@ -18690,6 +18935,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -18765,6 +19011,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
+    
     
     meta: [Meta.Rainbow],
     
@@ -18842,6 +19089,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 3,
@@ -18917,6 +19165,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.BladeBreak],
+    
     
     meta: [Meta.Expansion],
     
@@ -18996,6 +19245,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
     pitch: 3,
     
     
@@ -19069,6 +19319,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -19146,6 +19397,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -19221,6 +19473,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.GoAgain],
+    
     
     meta: [Meta.Rainbow],
     
@@ -19300,6 +19553,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     
+    
     pitch: 1,
     
     
@@ -19373,6 +19627,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     
     
     keywords: [Keyword.Stealth],
+    
     
     
     
@@ -19452,6 +19707,7 @@ Your next dagger attack this turn gets +4{p}.
     
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 1,
@@ -19530,6 +19786,7 @@ Your next dagger attack this turn gets +3{p}.
     
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -19607,6 +19864,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
+    
     
     meta: [Meta.Rainbow],
     
@@ -19695,6 +19953,7 @@ Your next dagger attack this turn gets +2{p}.
     
     
     
+    
     talents: [Talent.Draconic],
   
   
@@ -19754,6 +20013,7 @@ Your next dagger attack this turn gets +2{p}.
     functionalText: `Target Raydn gets +2{p} this turn.
 
 **Instant** - Discard this, banish X cards from your soul: The next time target weapon deals X or less damage to you this turn, deal that much damage to its controller and that damage can't be prevented.`,
+    
     
     
     
@@ -19838,6 +20098,7 @@ Your next dagger attack this turn gets +2{p}.
     
     keywords: [Keyword.GoAgain],
     
+    
     meta: [Meta.Expansion],
     
     pitch: 2,
@@ -19913,6 +20174,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
     
     
     keywords: [Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -19990,6 +20252,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
     
     keywords: [Keyword.Stealth],
     
+    
     meta: [Meta.Rainbow],
     
     pitch: 2,
@@ -20065,6 +20328,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
     
     
     keywords: [Keyword.Stealth],
+    
     
     meta: [Meta.Rainbow],
     
@@ -20160,6 +20424,7 @@ When this attacks, daggers you control get +1{p} and cost {r} less to activate t
     
     
     keywords: [Keyword.GoAgain,Keyword.Legendary],
+    
     
     
     

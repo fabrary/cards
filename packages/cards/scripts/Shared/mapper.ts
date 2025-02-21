@@ -202,6 +202,40 @@ export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
   return p1Order - p2Order;
 };
 
+export const getHeroFromString = (name: string): Hero | undefined => {
+  let heroOnCard: Hero | undefined = undefined;
+
+  for (const [hero, value] of Object.entries(Hero)) {
+    if (name.includes(value as string)) {
+      heroOnCard = Hero[hero];
+    }
+  }
+
+  if (name === "Bravo, Star of the Show") {
+    heroOnCard = Hero.Starvo;
+  } else if (name === "Arakni, 5L!p3d 7hRu 7h3 cR4X") {
+    heroOnCard = Hero.Slippy;
+  } else if (["Arakni, Marionette", "Arakni, Web of Deceit"].includes(name)) {
+    heroOnCard = Hero.Crackni;
+  }
+
+  return heroOnCard;
+};
+
+export const getHeroFromCard = (card: {
+  name: string;
+  types: string[];
+}): Hero | undefined => {
+  let heroOnCard: Hero | undefined = undefined;
+
+  const { types, name } = card;
+  if (types.includes("Hero")) {
+    heroOnCard = getHeroFromString(name);
+  }
+
+  return heroOnCard;
+};
+
 const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
   "awakening-blue": [Format.ClassicConstructedLivingLegend],
   "bonds-of-ancestry-red": [Format.ClassicConstructedLivingLegend],

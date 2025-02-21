@@ -17,7 +17,7 @@ import {
 } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
 import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
-import { getLegalHeroes } from "./Shared/legality";
+import { getLegalHeroes, getLegalOverrides } from "./Shared/legality";
 
 const outputDirectory = "src";
 
@@ -171,7 +171,9 @@ const cardsWithLegalFormats = cardsWithMetaValues.map((card) => {
 const cardsWithLegalHeroes = cardsWithLegalFormats.map((card) => {
   const legalHeroes = getLegalHeroes(card);
 
-  return { ...card, legalHeroes };
+  const legalOverrides = getLegalOverrides(card, legalHeroes);
+
+  return { ...card, legalHeroes, legalOverrides };
 });
 
 // const cardsWithMetaValues = cardsWithLegalFormats.map((card) => {
