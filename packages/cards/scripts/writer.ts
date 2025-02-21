@@ -117,16 +117,6 @@ const getLegalOverrides = (legalOverrides: LegalOverride[]): string => {
   );
 };
 
-// ${
-//   treatments?.length
-//     ? `treatments: [${getEnumValues(
-//         treatments,
-//         "Treatment",
-//         Treatment
-//       )}],`
-//     : ``
-// }
-
 const generateCardTypeScript = (card: Card): String => {
   return `{
     artists: [${card.artists.map((artist) => `"${artist}"`)}],

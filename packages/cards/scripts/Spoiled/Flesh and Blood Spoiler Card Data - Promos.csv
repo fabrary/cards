@@ -15,3 +15,6 @@ JDG038,JDG,Magrar,,,,,,,,"Merchant, Equipment, Off-Hand",Genis Specialization,,,
 
 **Action** - Destroy this: Create a Zen State and an Inertia token.",Merchant Equipment - Off-Hand,,,,No,,P,C,,Petrinda Wiyugo,,,JDG038,/JDG038.png,,,,,,,,,,,,,,,,,,,
 FAB306,FAB,Unmovable,1,3,,7,,,,"Generic, Defense Reaction",,,,,,,"If this was played from arsenal, it gets +3{d}.",Generic Defense Reaction,,,,,,P,R,EA,Bastien Jez,,,FAB306,/FAB306.png,,,,,,,,,,,,,,,,,,,
+HER135,HER,"Valda, Seismic Impact",,,,,40,4,,"Guardian, Hero",,,,,,,"Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.
+
+At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",Guardian Hero,,No,,No,,P,R,,Wisnu Tan,,,HER135,/HER135-temp.png,,,,,,,,,,,,,,,,,,,
