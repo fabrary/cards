@@ -175,12 +175,13 @@ export enum Release {
   WelcomeToRathe = "Welcome to Rathe",
 
   // Hero/blitz/armory decks
+  ArmoryDeckAurora = "Armory Deck: Aurora",
   ArmoryDeckAzalea = "Armory Deck: Azalea",
   ArmoryDeckBoltyn = "Armory Deck: Boltyn",
   ArmoryDeckDash = "Armory Deck: Dash",
   ArmoryDeckKayo = "Armory Deck: Kayo",
+  ArmoryDeckMaxx = "Armory Deck: Maxx",
   ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
-  ArmoryDeckAurora = "Armory Deck: Aurora",
 
   // Blitz decks
   ArakniBlitzDeck = "Arakni Blitz Deck",

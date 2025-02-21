@@ -1286,6 +1286,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["ast"],
     talents: [Talent.Elemental, Talent.Lightning],
   },
+  {
+    cards: 30,
+    classes: [Class.Mechanologist],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Maxx],
+    languages: [Language.English, Language.French, Language.Japanese],
+    release: Release.ArmoryDeckMaxx,
+    relatedReleases: [],
+    releaseDate: "2025-04-17 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["amx"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1318,6 +1333,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ako: Release.ArmoryDeckKayo,
   ajv: Release.ArmoryDeckOriginsJarl,
   ast: Release.ArmoryDeckAurora,
+  amx: Release.ArmoryDeckMaxx,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
