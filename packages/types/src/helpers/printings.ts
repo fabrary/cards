@@ -91,6 +91,9 @@ const specialImagePrintingOverrides: {
   "viserai-rune-blood": {
     print: "HER011-Cold",
   },
+  "wreck-havoc-red": {
+    print: "OUT198",
+  },
 };
 
 const printingsToIgnore: string[] = ["JDG044-Full Art-Back"];
@@ -267,6 +270,9 @@ const defaultImagePrintingOverrides: {
   },
   "tripwire-trap-red": {
     print: "LGS150-Rainbow",
+  },
+  "wreck-havoc-red": {
+    print: "OUT198",
   },
 };
 

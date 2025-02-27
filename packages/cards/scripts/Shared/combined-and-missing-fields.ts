@@ -3,6 +3,7 @@ import { getRarity } from "./mapper";
 
 export const combineAndAddMissingFields = (card: Card, duplicate: Card) => {
   const valueFieldsToFillIfMissing = [
+    "arcane",
     "cost",
     "defense",
     "functionalText",
@@ -25,6 +26,7 @@ export const combineAndAddMissingFields = (card: Card, duplicate: Card) => {
   const arrayFieldsToFillIfMissing = [
     "bannedFormats",
     "classes",
+    "flows",
     "keywords",
     "legalFormats",
     "legalHeroes",

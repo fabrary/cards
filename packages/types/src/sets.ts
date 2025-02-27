@@ -1275,7 +1275,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Runeblade],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01JN2DEG4X2V8DVMCWFBWQTTSC" },
     ],
     heroes: [Hero.Aurora],
     languages: [Language.English, Language.French, Language.Japanese],
