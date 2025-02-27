@@ -234,6 +234,8 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
     const parsedUrl = imageUrl
       .replace(".format-webp", "")
       .replace(".width-450", "")
+      .replace("-RF", "")
+      .replace("-CF", "")
       .replace("_yajPa8R", "");
     image = parsedUrl.substring(
       parsedUrl.lastIndexOf("/") + 1,
