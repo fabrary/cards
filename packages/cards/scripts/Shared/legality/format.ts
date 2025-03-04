@@ -23,14 +23,6 @@ const limitedLegalOverrideCards = [
   "Zen State",
 ];
 
-export const commonerBannedCards = [
-  "Aether Ironweave",
-  "Amulet of Ice",
-  "Ball Lightning",
-  "Belittle",
-  "Stubby Hammerers",
-];
-
 const livingLegendBannedCards = ["Kraken's Aethervein"];
 
 const LIMITED_SETS = Object.values(coreSetIdentifiers);

@@ -17,6 +17,7 @@ export interface Card {
   types: Type[];
   typeText: string;
 
+  abbreviations?: string[];
   arcane?: number;
   bannedFormats?: Format[];
   bonds?: Bond[];

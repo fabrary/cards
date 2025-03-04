@@ -9,6 +9,7 @@ export const getCardIdentifier = (
 ): string => {
   const { name: unformattedName, pitch } = card;
   const name = unformattedName
+    .trim()
     .toLowerCase()
     .replace("//", "-")
     .normalize("NFD")

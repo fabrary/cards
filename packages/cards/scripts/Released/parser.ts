@@ -70,6 +70,7 @@ export interface ParsedCard {
   commonerLegal: boolean;
   commonerSuspended: boolean;
   livingLegendBanned: boolean;
+  livingLegendRestricted: boolean;
 }
 
 enum SourceAlternateArtVariation {
@@ -138,6 +139,8 @@ export interface SourceJSONCard {
   commoner_banned: boolean;
   upf_banned: boolean;
   ll_banned: boolean;
+  ll_restricted: boolean;
+  ll_restricted_affects_full_cycle: boolean;
   blitz_suspended: boolean;
   cc_suspended: boolean;
   commoner_suspended: boolean;
@@ -197,6 +200,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
       commoner_legal,
       commoner_suspended,
       ll_banned,
+      ll_restricted,
       defense,
       functional_text,
       granted_keywords,
@@ -366,6 +370,7 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         commonerLegal: commoner_legal,
         commonerSuspended: commoner_suspended,
         livingLegendBanned: ll_banned,
+        livingLegendRestricted: ll_restricted,
       };
     }
   );

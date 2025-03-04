@@ -236,29 +236,43 @@ export const getHeroFromCard = (card: {
   return heroOnCard;
 };
 
-const cardsWithRestrictedFormats: { [key: string]: Format[] } = {
-  "awakening-blue": [Format.ClassicConstructedLivingLegend],
-  "bonds-of-ancestry-red": [Format.ClassicConstructedLivingLegend],
-  "bonds-of-ancestry-yellow": [Format.ClassicConstructedLivingLegend],
-  "bonds-of-ancestry-blue": [Format.ClassicConstructedLivingLegend],
-  "crippling-crush-red": [Format.ClassicConstructedLivingLegend],
-  "hypothermia-blue": [Format.ClassicConstructedLivingLegend],
-  "oaken-old-red": [Format.ClassicConstructedLivingLegend],
-  "open-the-flood-gates-red": [Format.ClassicConstructedLivingLegend],
-  "open-the-flood-gates-yellow": [Format.ClassicConstructedLivingLegend],
-  "open-the-flood-gates-blue": [Format.ClassicConstructedLivingLegend],
-  "warmongers-diplomacy-blue": [Format.ClassicConstructedLivingLegend],
+const cardsWithRestrictedFormatsOverrides: { [key: string]: Format[] } = {
+  // "awakening-blue": [Format.ClassicConstructedLivingLegend],
+  // "bonds-of-ancestry-red": [Format.ClassicConstructedLivingLegend],
+  // "bonds-of-ancestry-yellow": [Format.ClassicConstructedLivingLegend],
+  // "bonds-of-ancestry-blue": [Format.ClassicConstructedLivingLegend],
+  // "crippling-crush-red": [Format.ClassicConstructedLivingLegend],
+  // "hypothermia-blue": [Format.ClassicConstructedLivingLegend],
+  // "oaken-old-red": [Format.ClassicConstructedLivingLegend],
+  // "open-the-flood-gates-red": [Format.ClassicConstructedLivingLegend],
+  // "open-the-flood-gates-yellow": [Format.ClassicConstructedLivingLegend],
+  // "open-the-flood-gates-blue": [Format.ClassicConstructedLivingLegend],
+  // "warmongers-diplomacy-blue": [Format.ClassicConstructedLivingLegend],
 };
 export const getRestrictedFormats = ({
   cardIdentifier,
+  livingLegendRestricted,
 }: {
   cardIdentifier: string;
+  livingLegendRestricted?: boolean;
 }): Format[] | undefined => {
-  const restrictedFormats = cardsWithRestrictedFormats[cardIdentifier];
-  if (restrictedFormats) {
-    restrictedFormats.sort();
+  const restrictedFormatsSet = new Set<Format>();
+
+  if (livingLegendRestricted) {
+    restrictedFormatsSet.add(Format.ClassicConstructedLivingLegend);
   }
-  return restrictedFormats;
+
+  const overrideRestrictedFormats =
+    cardsWithRestrictedFormatsOverrides[cardIdentifier];
+  if (overrideRestrictedFormats) {
+    for (const format of overrideRestrictedFormats) {
+      restrictedFormatsSet.add(format);
+    }
+  }
+
+  const restrictedFormats = Array.from(restrictedFormatsSet);
+
+  return restrictedFormats.length === 0 ? undefined : restrictedFormats;
 };
 
 export const getSpecializations = (card: {

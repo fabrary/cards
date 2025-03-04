@@ -1,6 +1,5 @@
 import { Card, Format, Rarity } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
-import { commonerBannedCards } from "../scripts/Shared/legality";
 
 describe("Restrictions seem reasonable", () => {
   const isCommoner = (format: Format) => format === Format.Commoner;
@@ -32,7 +31,7 @@ describe("Restrictions seem reasonable", () => {
       const shouldNotBeLegalInCommoner =
         isAdult ||
         raritySuggestsNoCommoner ||
-        commonerBannedCards.includes(name);
+        bannedFormats?.includes(Format.Commoner);
 
       const isBannedOrNotLegal =
         bannedFormats?.some(isCommoner) || !legalFormats?.some(isCommoner);
