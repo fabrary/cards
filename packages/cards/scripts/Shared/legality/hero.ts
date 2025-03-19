@@ -39,6 +39,7 @@ const ICE_AND_LIGHTNING = [Talent.Elemental, Talent.Ice, Talent.Lightning];
 const LIGHTNING = [Talent.Elemental, Talent.Lightning];
 const LIGHT = [Talent.Light];
 const MYSTIC = [Talent.Mystic];
+const PIRATE = [Talent.Pirate];
 const SHADOW = [Talent.Shadow];
 
 interface AppliedFilter {
@@ -142,6 +143,10 @@ const genis: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Merchant]),
 };
 
+const gravyBones: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Necromancer], PIRATE),
+};
+
 const ira: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Ninja]),
 };
@@ -182,6 +187,10 @@ const lexi: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Ranger], ICE_AND_LIGHTNING),
 };
 
+const marlynn: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Ranger], PIRATE),
+};
+
 const maxx: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Mechanologist]),
 };
@@ -204,6 +213,10 @@ const olympia: AppliedFilter = {
 
 const oscilio: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Wizard], LIGHTNING),
+};
+
+const puffin: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Mechanologist], PIRATE),
 };
 
 const prism: AppliedFilter = {
@@ -239,6 +252,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Fang]: fang,
   [Hero.Florian]: florian,
   [Hero.Genis]: genis,
+  [Hero.GravyBones]: gravyBones,
   [Hero.Ira]: ira,
   [Hero.Iyslander]: iyslander,
   [Hero.Jarl]: jarl,
@@ -249,6 +263,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Kayo]: kayo,
   [Hero.Levia]: levia,
   [Hero.Lexi]: lexi,
+  [Hero.Marlynn]: marlynn,
   [Hero.Maxx]: maxx,
   [Hero.Melody]: melody,
   [Hero.Nuu]: nuu,
@@ -256,6 +271,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Olympia]: olympia,
   [Hero.Oscilio]: oscilio,
   [Hero.Prism]: prism,
+  [Hero.Puffin]: puffin,
   [Hero.Rhinar]: rhinar,
   [Hero.Riptide]: CLASSES_AND_TALENTS([Class.Ranger]),
   [Hero.Ruudi]: CLASSES_AND_TALENTS([Class.Merchant]),

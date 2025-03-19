@@ -105,6 +105,7 @@ export enum Class {
   Illusionist = "Illusionist",
   Mechanologist = "Mechanologist",
   Merchant = "Merchant",
+  Necromancer = "Necromancer",
   Ninja = "Ninja",
   Ranger = "Ranger",
   Runeblade = "Runeblade",
@@ -166,6 +167,7 @@ export enum Release {
   Dynasty = "Dynasty",
   Everfest = "Everfest",
   HeavyHitters = "Heavy Hitters",
+  // HighSeas = "High Seas",
   HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
   Outsiders = "Outsiders",
@@ -252,6 +254,7 @@ export enum Talent {
   Light = "Light",
   Lightning = "Lightning",
   Mystic = "Mystic",
+  Pirate = "Pirate",
   Royal = "Royal",
   Shadow = "Shadow",
 }
@@ -262,6 +265,7 @@ export enum Trait {
 
 export enum Metatype {
   Arakni = "Arakni",
+  HighSeas = "High Seas",
   Rosetta = "Rosetta",
 }
 
@@ -361,6 +365,7 @@ export enum Hero {
   Fang = "Fang",
   Florian = "Florian",
   Genis = "Genis",
+  GravyBones = "Gravy Bones",
   Ira = "Ira",
   Iyslander = "Iyslander",
   Jarl = "Jarl",
@@ -371,6 +376,7 @@ export enum Hero {
   Kayo = "Kayo",
   Levia = "Levia",
   Lexi = "Lexi",
+  Marlynn = "Marlynn",
   Maxx = "Maxx",
   Melody = "Melody",
   Nuu = "Nuu",
@@ -378,6 +384,7 @@ export enum Hero {
   Olympia = "Olympia",
   Oscilio = "Oscilio",
   Prism = "Prism",
+  Puffin = "Puffin",
   Rhinar = "Rhinar",
   Riptide = "Riptide",
   Ruudi = "Ruu'di",

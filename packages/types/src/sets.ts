@@ -97,6 +97,7 @@ export interface ReleaseInfo {
   cards: number;
   classes: Class[];
   deckLinks: DeckLink[];
+  draftableHeroIdentifiers?: string[];
   heroes: Hero[];
   heroOverrides?: {
     [key: string]: Hero;
@@ -132,6 +133,7 @@ export const releases: ReleaseInfo[] = [
     cards: 226,
     classes: [Class.Brute, Class.Guardian, Class.Ninja, Class.Warrior],
     deckLinks: [],
+    draftableHeroIdentifiers: ["bravo", "dorinthea", "katsu", "rhinar"],
     heroes: [Hero.Bravo, Hero.Dorinthea, Hero.Katsu, Hero.Rhinar],
     languages: [Language.English],
     release: Release.WelcomeToRathe,
@@ -145,6 +147,7 @@ export const releases: ReleaseInfo[] = [
     cards: 219,
     classes: [Class.Mechanologist, Class.Ranger, Class.Runeblade, Class.Wizard],
     deckLinks: [],
+    draftableHeroIdentifiers: ["azalea", "dash", "kano", "viserai"],
     heroes: [Hero.Azalea, Hero.Dash, Hero.Kano, Hero.Viserai],
     languages: [Language.English],
     release: Release.ArcaneRising,
@@ -249,6 +252,7 @@ export const releases: ReleaseInfo[] = [
     cards: 307,
     classes: [Class.Brute, Class.Illusionist, Class.Runeblade, Class.Warrior],
     deckLinks: [],
+    draftableHeroIdentifiers: ["boltyn", "chane", "levia", "prism"],
     heroes: [Hero.Boltyn, Hero.Chane, Hero.Levia, Hero.Prism],
     languages: [Language.English],
     release: Release.Monarch,
@@ -312,6 +316,7 @@ export const releases: ReleaseInfo[] = [
     cards: 238,
     classes: [Class.Guardian, Class.Ranger, Class.Runeblade],
     deckLinks: [],
+    draftableHeroIdentifiers: ["briar", "lexi", "oldhim"],
     heroes: [Hero.Briar, Hero.Lexi, Hero.Oldhim],
     languages: [Language.English],
     release: Release.TalesOfAria,
@@ -340,7 +345,7 @@ export const releases: ReleaseInfo[] = [
       Class.Wizard,
     ],
     deckLinks: [],
-    heroes: [Hero.Genis, Hero.Valda],
+    heroes: [Hero.Genis, Hero.Starvo, Hero.Valda],
     languages: [Language.English],
     release: Release.Everfest,
     relatedReleases: [],
@@ -441,6 +446,7 @@ export const releases: ReleaseInfo[] = [
     cards: 226,
     classes: [Class.Illusionist, Class.Ninja, Class.Wizard],
     deckLinks: [],
+    draftableHeroIdentifiers: ["dromai", "fai", "iyslander"],
     heroes: [Hero.Dromai, Hero.Fai, Hero.Iyslander],
     languages: [Language.English],
     release: Release.Uprising,
@@ -647,6 +653,14 @@ export const releases: ReleaseInfo[] = [
     cards: 239,
     classes: [Class.Assassin, Class.Ranger, Class.Ninja],
     deckLinks: [],
+    draftableHeroIdentifiers: [
+      "arakni-solitary-confinement",
+      "azalea",
+      "benji",
+      "katsu",
+      "riptide",
+      "uzuri",
+    ],
     heroes: [
       Hero.Arakni,
       Hero.Azalea,
@@ -729,6 +743,7 @@ export const releases: ReleaseInfo[] = [
     cards: 251,
     classes: [Class.Mechanologist],
     deckLinks: [],
+    draftableHeroIdentifiers: ["dash-database", "maxx", "teklovossen"],
     heroes: [Hero.Dash, Hero.Maxx, Hero.Teklovossen],
     languages: [
       Language.English,
@@ -875,6 +890,14 @@ export const releases: ReleaseInfo[] = [
     cards: 255,
     classes: [Class.Brute, Class.Guardian, Class.Warrior],
     deckLinks: [],
+    draftableHeroIdentifiers: [
+      "kassai",
+      "betsy",
+      "kayo",
+      "olympia",
+      "rhinar",
+      "victor",
+    ],
     heroes: [
       Hero.Kassai,
       Hero.Betsy,
@@ -995,6 +1018,7 @@ export const releases: ReleaseInfo[] = [
     cards: 239,
     classes: [Class.Assassin, Class.Illusionist, Class.Ninja],
     deckLinks: [],
+    draftableHeroIdentifiers: ["enigma", "nuu", "zen"],
     heroes: [Hero.Enigma, Hero.Nuu, Hero.Zen],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
@@ -1185,6 +1209,7 @@ export const releases: ReleaseInfo[] = [
     cards: 258,
     classes: [Class.Runeblade, Class.Wizard],
     deckLinks: [],
+    draftableHeroIdentifiers: ["aurora", "florian", "oscilio", "verdance"],
     heroes: [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
@@ -1257,6 +1282,7 @@ export const releases: ReleaseInfo[] = [
     cards: 265,
     classes: [Class.Assassin, Class.Ninja, Class.Warrior],
     deckLinks: [],
+    draftableHeroIdentifiers: ["arakni-web-of-deceipt", "cindra", "fang"],
     heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
     heroOverrides: {
       [Hero.Arakni]: Hero.Crackni,
@@ -1301,6 +1327,22 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["amx"],
     talents: [],
   },
+  // {
+  //   cards: 265,
+  //   classes: [Class.Mechanologist, Class.Necromancer, Class.Ranger],
+  //   deckLinks: [
+  //     // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+  //   ],
+  //   draftableHeroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
+  //   heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
+  //   languages: ALL_LANGUAGES,
+  //   release: Release.HighSeas,
+  //   relatedReleases: [],
+  //   releaseDate: "2025-06-06 12:00",
+  //   releaseType: ReleaseType.StandaloneBooster,
+  //   setIdentifiers: ["amx"],
+  //   talents: [Talent.Pirate],
+  // },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {

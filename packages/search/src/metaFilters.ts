@@ -89,6 +89,10 @@ const nicknameHeroMappings: { hero: Hero; nicknames: string[] }[] = [
     nicknames: ["genis"],
   },
   {
+    hero: Hero.GravyBones,
+    nicknames: ["gravy"],
+  },
+  {
     hero: Hero.Iyslander,
     nicknames: ["islander"],
   },
