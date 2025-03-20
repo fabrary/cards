@@ -1365,25 +1365,25 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["amx"],
     talents: [],
   },
-  // {
-  //   cards: 265,
-  //   classes: [Class.Mechanologist, Class.Necromancer, Class.Ranger],
-  //   deckLinks: [
-  //     // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
-  //   ],
-  //   draft: {
-  //     heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
-  //     picksPerPack: 14,
-  //   },
-  //   heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
-  //   languages: ALL_LANGUAGES,
-  //   release: Release.HighSeas,
-  //   relatedReleases: [],
-  //   releaseDate: "2025-06-06 12:00",
-  //   releaseType: ReleaseType.StandaloneBooster,
-  //   setIdentifiers: ["amx"],
-  //   talents: [Talent.Pirate],
-  // },
+  {
+    cards: 265,
+    classes: [Class.Mechanologist, Class.Necromancer, Class.Ranger],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    draft: {
+      heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
+      picksPerPack: 14,
+    },
+    heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
+    languages: ALL_LANGUAGES,
+    release: Release.HighSeas,
+    relatedReleases: [],
+    releaseDate: "2025-06-06 12:00",
+    releaseType: ReleaseType.StandaloneBooster,
+    setIdentifiers: ["sea"],
+    talents: [Talent.Pirate],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1404,6 +1404,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   mst: Release.PartTheMistveil,
   ros: Release.Rosetta,
   hnt: Release.TheHunted,
+  sea: Release.HighSeas,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {

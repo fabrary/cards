@@ -142,6 +142,7 @@ export enum Fusion {
 }
 
 export enum Rarity {
+  // B = "B",
   Token = "Token",
   Common = "Common",
   Rare = "Rare",
@@ -167,7 +168,7 @@ export enum Release {
   Dynasty = "Dynasty",
   Everfest = "Everfest",
   HeavyHitters = "Heavy Hitters",
-  // HighSeas = "High Seas",
+  HighSeas = "High Seas",
   HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
   Outsiders = "Outsiders",
@@ -438,6 +439,7 @@ export enum Keyword {
   Fusion = "Fusion",
   Galvanize = "Galvanize",
   GoAgain = "Go again",
+  GoFish = "Go Fish",
   Guardwell = "Guardwell",
   Heave = "Heave",
   Heavy = "Heavy",
@@ -477,4 +479,5 @@ export enum Keyword {
   Unity = "Unity",
   Wager = "Wager",
   Ward = "Ward",
+  WateryGrave = "Watery Grave",
 }
