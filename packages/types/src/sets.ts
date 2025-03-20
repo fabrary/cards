@@ -93,11 +93,16 @@ interface DeckLink {
   url: string;
 }
 
+interface DraftInfo {
+  heroIdentifiers: string[];
+  picks: number;
+}
+
 export interface ReleaseInfo {
   cards: number;
   classes: Class[];
   deckLinks: DeckLink[];
-  draftableHeroIdentifiers?: string[];
+  draft?: DraftInfo;
   heroes: Hero[];
   heroOverrides?: {
     [key: string]: Hero;
@@ -133,7 +138,10 @@ export const releases: ReleaseInfo[] = [
     cards: 226,
     classes: [Class.Brute, Class.Guardian, Class.Ninja, Class.Warrior],
     deckLinks: [],
-    draftableHeroIdentifiers: ["bravo", "dorinthea", "katsu", "rhinar"],
+    draft: {
+      heroIdentifiers: ["bravo", "dorinthea", "katsu", "rhinar"],
+      picks: 15,
+    },
     heroes: [Hero.Bravo, Hero.Dorinthea, Hero.Katsu, Hero.Rhinar],
     languages: [Language.English],
     release: Release.WelcomeToRathe,
@@ -147,7 +155,10 @@ export const releases: ReleaseInfo[] = [
     cards: 219,
     classes: [Class.Mechanologist, Class.Ranger, Class.Runeblade, Class.Wizard],
     deckLinks: [],
-    draftableHeroIdentifiers: ["azalea", "dash", "kano", "viserai"],
+    draft: {
+      heroIdentifiers: ["azalea", "dash", "kano", "viserai"],
+      picks: 15,
+    },
     heroes: [Hero.Azalea, Hero.Dash, Hero.Kano, Hero.Viserai],
     languages: [Language.English],
     release: Release.ArcaneRising,
@@ -252,7 +263,10 @@ export const releases: ReleaseInfo[] = [
     cards: 307,
     classes: [Class.Brute, Class.Illusionist, Class.Runeblade, Class.Warrior],
     deckLinks: [],
-    draftableHeroIdentifiers: ["boltyn", "chane", "levia", "prism"],
+    draft: {
+      heroIdentifiers: ["boltyn", "chane", "levia", "prism"],
+      picks: 15,
+    },
     heroes: [Hero.Boltyn, Hero.Chane, Hero.Levia, Hero.Prism],
     languages: [Language.English],
     release: Release.Monarch,
@@ -316,7 +330,10 @@ export const releases: ReleaseInfo[] = [
     cards: 238,
     classes: [Class.Guardian, Class.Ranger, Class.Runeblade],
     deckLinks: [],
-    draftableHeroIdentifiers: ["briar", "lexi", "oldhim"],
+    draft: {
+      heroIdentifiers: ["briar", "lexi", "oldhim"],
+      picks: 15,
+    },
     heroes: [Hero.Briar, Hero.Lexi, Hero.Oldhim],
     languages: [Language.English],
     release: Release.TalesOfAria,
@@ -446,7 +463,10 @@ export const releases: ReleaseInfo[] = [
     cards: 226,
     classes: [Class.Illusionist, Class.Ninja, Class.Wizard],
     deckLinks: [],
-    draftableHeroIdentifiers: ["dromai", "fai", "iyslander"],
+    draft: {
+      heroIdentifiers: ["dromai", "fai", "iyslander"],
+      picks: 14,
+    },
     heroes: [Hero.Dromai, Hero.Fai, Hero.Iyslander],
     languages: [Language.English],
     release: Release.Uprising,
@@ -653,14 +673,17 @@ export const releases: ReleaseInfo[] = [
     cards: 239,
     classes: [Class.Assassin, Class.Ranger, Class.Ninja],
     deckLinks: [],
-    draftableHeroIdentifiers: [
-      "arakni-solitary-confinement",
-      "azalea",
-      "benji",
-      "katsu",
-      "riptide",
-      "uzuri",
-    ],
+    draft: {
+      heroIdentifiers: [
+        "arakni-solitary-confinement",
+        "azalea",
+        "benji",
+        "katsu",
+        "riptide",
+        "uzuri",
+      ],
+      picks: 14,
+    },
     heroes: [
       Hero.Arakni,
       Hero.Azalea,
@@ -743,7 +766,10 @@ export const releases: ReleaseInfo[] = [
     cards: 251,
     classes: [Class.Mechanologist],
     deckLinks: [],
-    draftableHeroIdentifiers: ["dash-database", "maxx", "teklovossen"],
+    draft: {
+      heroIdentifiers: ["dash-database", "maxx", "teklovossen"],
+      picks: 14,
+    },
     heroes: [Hero.Dash, Hero.Maxx, Hero.Teklovossen],
     languages: [
       Language.English,
@@ -890,14 +916,17 @@ export const releases: ReleaseInfo[] = [
     cards: 255,
     classes: [Class.Brute, Class.Guardian, Class.Warrior],
     deckLinks: [],
-    draftableHeroIdentifiers: [
-      "kassai",
-      "betsy",
-      "kayo",
-      "olympia",
-      "rhinar",
-      "victor",
-    ],
+    draft: {
+      heroIdentifiers: [
+        "kassai",
+        "betsy",
+        "kayo",
+        "olympia",
+        "rhinar",
+        "victor",
+      ],
+      picks: 14,
+    },
     heroes: [
       Hero.Kassai,
       Hero.Betsy,
@@ -1018,7 +1047,10 @@ export const releases: ReleaseInfo[] = [
     cards: 239,
     classes: [Class.Assassin, Class.Illusionist, Class.Ninja],
     deckLinks: [],
-    draftableHeroIdentifiers: ["enigma", "nuu", "zen"],
+    draft: {
+      heroIdentifiers: ["enigma", "nuu", "zen"],
+      picks: 14,
+    },
     heroes: [Hero.Enigma, Hero.Nuu, Hero.Zen],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
@@ -1209,7 +1241,10 @@ export const releases: ReleaseInfo[] = [
     cards: 258,
     classes: [Class.Runeblade, Class.Wizard],
     deckLinks: [],
-    draftableHeroIdentifiers: ["aurora", "florian", "oscilio", "verdance"],
+    draft: {
+      heroIdentifiers: ["aurora", "florian", "oscilio", "verdance"],
+      picks: 14,
+    },
     heroes: [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
@@ -1282,7 +1317,10 @@ export const releases: ReleaseInfo[] = [
     cards: 265,
     classes: [Class.Assassin, Class.Ninja, Class.Warrior],
     deckLinks: [],
-    draftableHeroIdentifiers: ["arakni-web-of-deceipt", "cindra", "fang"],
+    draft: {
+      heroIdentifiers: ["arakni-web-of-deceipt", "cindra", "fang"],
+      picks: 14,
+    },
     heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
     heroOverrides: {
       [Hero.Arakni]: Hero.Crackni,
@@ -1333,7 +1371,10 @@ export const releases: ReleaseInfo[] = [
   //   deckLinks: [
   //     // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
   //   ],
-  //   draftableHeroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
+  //   draft: {
+  //     heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
+  //     picks: 14,
+  //   },
   //   heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
   //   languages: ALL_LANGUAGES,
   //   release: Release.HighSeas,
