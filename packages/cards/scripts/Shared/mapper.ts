@@ -421,7 +421,7 @@ export const getMeta = (card: Card, allCards: Card[]): Meta[] => {
 };
 
 export const rarityStringMapping: { [key: string]: Rarity } = {
-  B: Rarity.Token,
+  B: Rarity.Basic,
   T: Rarity.Token,
   F: Rarity.Fabled,
   L: Rarity.Legendary,
@@ -436,7 +436,9 @@ export const rarityStringMapping: { [key: string]: Rarity } = {
 export const getRarity = (rarities: Rarity[]): Rarity => {
   let rarity: Rarity;
 
-  if (rarities.some((rarity) => rarity === Rarity.Token)) {
+  if (rarities.some((rarity) => rarity === Rarity.Basic)) {
+    rarity = Rarity.Basic;
+  } else if (rarities.some((rarity) => rarity === Rarity.Token)) {
     rarity = Rarity.Token;
   } else if (rarities.some((rarity) => rarity === Rarity.Common)) {
     rarity = Rarity.Common;

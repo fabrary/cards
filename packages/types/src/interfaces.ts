@@ -142,7 +142,7 @@ export enum Fusion {
 }
 
 export enum Rarity {
-  // B = "B",
+  Basic = "Basic",
   Token = "Token",
   Common = "Common",
   Rare = "Rare",

@@ -314,7 +314,7 @@ Instant - {t}, discard a card with watery grave: Until end of turn, opponents mu
     cardIdentifier: "compass-of-sunken-depths",
     classes: [Class.Necromancer],
     defaultImage: "SEA045",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Compass of Sunken Depths",
     printings: [{
@@ -325,13 +325,13 @@ Instant - {t}, discard a card with watery grave: Until end of turn, opponents mu
       
       
       print: "SEA045",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
     },],
-    rarities: [Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
     setIdentifiers: ["SEA045"],
     sets: [Release.HighSeas],
     specialImage: "SEA045",
@@ -385,7 +385,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
       
       
       print: "SEA244",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
@@ -402,8 +402,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Basic,
     setIdentifiers: ["BET030","DYN243","FAB121","FAB279","HVY243","KSI030","LGS229","OLA030","SEA244","VIC030"],
     sets: [Release.BetsyBlitzDeck,Release.Dynasty,Release.HeavyHitters,Release.HighSeas,Release.KassaiBlitzDeck,Release.OlympiaBlitzDeck,Release.Promos,Release.VictorBlitzDeck],
     specialImage: "SEA244-TP",
@@ -443,7 +443,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     cardIdentifier: "golden-cog",
     classes: [Class.Mechanologist],
     defaultImage: "SEA042",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Golden Cog",
     printings: [{
@@ -454,7 +454,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
       
       
       print: "SEA042",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
@@ -483,8 +483,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarity: Rarity.Basic,
     setIdentifiers: ["SEA042"],
     sets: [Release.HighSeas],
     specialImage: "SEA042-TP_BACK",
@@ -595,7 +595,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     cardIdentifier: "goldfin-harpoon-yellow",
     classes: [Class.Ranger],
     defaultImage: "SEA093",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Goldfin Harpoon",
     printings: [{
@@ -606,7 +606,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
       
       print: "SEA093",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
@@ -623,8 +623,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarity: Rarity.Basic,
     setIdentifiers: ["SEA093"],
     sets: [Release.HighSeas],
     specialImage: "SEA093-TP",
@@ -675,7 +675,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
       
       print: "SEA043",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
@@ -704,8 +704,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Basic,
     setIdentifiers: ["HER138","SEA043"],
     sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA043-MV_BACK",
@@ -897,7 +897,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       
       
       print: "SEA082",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
@@ -926,8 +926,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Basic,
     setIdentifiers: ["HER139","SEA082"],
     sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA082-MV_BACK",
@@ -1049,7 +1049,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       
       
       print: "SEA001",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
@@ -1078,8 +1078,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Basic,
     setIdentifiers: ["HER137","SEA001"],
     sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA001-MV_BACK",
@@ -1329,7 +1329,7 @@ The second time you crank each turn, draw a card.`,
     cardIdentifier: "treasure-island",
     classes: [Class.NotClassed],
     defaultImage: "SEA247",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Treasure Island",
     printings: [{
@@ -1340,13 +1340,13 @@ The second time you crank each turn, draw a card.`,
       
       
       print: "SEA247",
-      rarity: Rarity.Token,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       
     },],
-    rarities: [Rarity.Promo,Rarity.Token],
-    rarity: Rarity.Token,
+    rarities: [Rarity.Basic,Rarity.Promo],
+    rarity: Rarity.Basic,
     setIdentifiers: ["FAB340","SEA247"],
     sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA247",
