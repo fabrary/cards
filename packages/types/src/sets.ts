@@ -95,7 +95,7 @@ interface DeckLink {
 
 interface DraftInfo {
   heroIdentifiers: string[];
-  picks: number;
+  picksPerPack: number;
 }
 
 export interface ReleaseInfo {
@@ -140,7 +140,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["bravo", "dorinthea", "katsu", "rhinar"],
-      picks: 15,
+      picksPerPack: 15,
     },
     heroes: [Hero.Bravo, Hero.Dorinthea, Hero.Katsu, Hero.Rhinar],
     languages: [Language.English],
@@ -157,7 +157,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["azalea", "dash", "kano", "viserai"],
-      picks: 15,
+      picksPerPack: 15,
     },
     heroes: [Hero.Azalea, Hero.Dash, Hero.Kano, Hero.Viserai],
     languages: [Language.English],
@@ -265,7 +265,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["boltyn", "chane", "levia", "prism"],
-      picks: 15,
+      picksPerPack: 15,
     },
     heroes: [Hero.Boltyn, Hero.Chane, Hero.Levia, Hero.Prism],
     languages: [Language.English],
@@ -332,7 +332,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["briar", "lexi", "oldhim"],
-      picks: 15,
+      picksPerPack: 15,
     },
     heroes: [Hero.Briar, Hero.Lexi, Hero.Oldhim],
     languages: [Language.English],
@@ -465,7 +465,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["dromai", "fai", "iyslander"],
-      picks: 14,
+      picksPerPack: 14,
     },
     heroes: [Hero.Dromai, Hero.Fai, Hero.Iyslander],
     languages: [Language.English],
@@ -682,7 +682,7 @@ export const releases: ReleaseInfo[] = [
         "riptide",
         "uzuri",
       ],
-      picks: 14,
+      picksPerPack: 14,
     },
     heroes: [
       Hero.Arakni,
@@ -768,7 +768,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["dash-database", "maxx", "teklovossen"],
-      picks: 14,
+      picksPerPack: 14,
     },
     heroes: [Hero.Dash, Hero.Maxx, Hero.Teklovossen],
     languages: [
@@ -925,7 +925,7 @@ export const releases: ReleaseInfo[] = [
         "rhinar",
         "victor",
       ],
-      picks: 14,
+      picksPerPack: 14,
     },
     heroes: [
       Hero.Kassai,
@@ -1049,7 +1049,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["enigma", "nuu", "zen"],
-      picks: 14,
+      picksPerPack: 14,
     },
     heroes: [Hero.Enigma, Hero.Nuu, Hero.Zen],
     languages: ALL_LANGUAGES,
@@ -1243,7 +1243,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["aurora", "florian", "oscilio", "verdance"],
-      picks: 14,
+      picksPerPack: 14,
     },
     heroes: [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
     languages: ALL_LANGUAGES,
@@ -1319,7 +1319,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [],
     draft: {
       heroIdentifiers: ["arakni-web-of-deceipt", "cindra", "fang"],
-      picks: 14,
+      picksPerPack: 14,
     },
     heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
     heroOverrides: {
@@ -1373,7 +1373,7 @@ export const releases: ReleaseInfo[] = [
   //   ],
   //   draft: {
   //     heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
-  //     picks: 14,
+  //     picksPerPack: 14,
   //   },
   //   heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
   //   languages: ALL_LANGUAGES,
