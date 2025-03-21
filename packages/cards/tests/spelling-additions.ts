@@ -286,6 +286,7 @@ export const fabDictionary = [
   "redback",
   "refractor",
   "rhinar",
+  "riggermortis",
   "rockslide",
   "rok",
   "ronin",

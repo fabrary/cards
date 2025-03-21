@@ -198,9 +198,13 @@ const latestSet = releases
   .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
   ?.release as Release;
 
-const latestSetCards = cardsWithLegalFormats.filter(({ sets }) =>
-  sets.includes(latestSet)
-);
+const latestSetCards = cardsWithLegalFormats.filter(({ printings, sets }) => {
+  const isInLatestSet = sets.includes(latestSet);
+  const hasImagesFromLatestSet =
+    printings.filter(({ set }) => set === latestSet).length > 0;
+
+  return isInLatestSet && hasImagesFromLatestSet;
+});
 
 const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
   const printings = card.printings.filter(({ set }) => set === latestSet);

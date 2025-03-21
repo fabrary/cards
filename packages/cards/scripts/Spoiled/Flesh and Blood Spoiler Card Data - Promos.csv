@@ -18,3 +18,6 @@ FAB306,FAB,Unmovable,1,3,,7,,,,"Generic, Defense Reaction",,,,,,,"If this was pl
 HER135,HER,"Valda, Seismic Impact",,,,,40,4,,"Guardian, Hero",,,,,,,"Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.
 
 At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",Guardian Hero,,No,,No,,P,R,,Wisnu Tan,,,HER135,/HER135-temp.png,,,,,,,,,,,,,,,,,,,
+LGS406,"LGS, SEA",Riggermortis,2,1,6,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}, {t}: **Attack**
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,P,R,EA,Max Kostin,,,LGS406,/LGS406-temp.png,,,,,,,,,,,,,,,,,,,
