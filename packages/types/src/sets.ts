@@ -1367,7 +1367,12 @@ export const releases: ReleaseInfo[] = [
   },
   {
     cards: 265,
-    classes: [Class.Mechanologist, Class.Necromancer, Class.Ranger],
+    classes: [
+      Class.Mechanologist,
+      Class.Necromancer,
+      Class.Pirate,
+      Class.Ranger,
+    ],
     deckLinks: [
       // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
     ],
@@ -1382,7 +1387,7 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2025-06-06 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["sea"],
-    talents: [Talent.Pirate],
+    talents: [],
   },
 ];
 

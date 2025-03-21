@@ -130,7 +130,13 @@ export const getCanAddToDeck = ({
 export const getShouldRotateCardImage = (card: {
   keywords?: Keyword[];
   subtypes?: Subtype[];
-}): boolean =>
-  card.keywords?.includes(Keyword.Meld) ||
-  card.subtypes?.includes(Subtype.Landmark) ||
-  false;
+  types?: Type[];
+}): boolean => {
+  const isMeld = card.keywords?.includes(Keyword.Meld);
+
+  const isMacro = card.types?.includes(Type.Macro);
+  const isLandmarkThatShouldRotate =
+    !isMacro && card.subtypes?.includes(Subtype.Landmark);
+
+  return isMeld || isLandmarkThatShouldRotate;
+};

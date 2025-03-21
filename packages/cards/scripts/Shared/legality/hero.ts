@@ -5,6 +5,8 @@ import {
   Keyword,
   Meta,
   Metatype,
+  Release,
+  releases,
   Subtype,
   Talent,
   Trait,
@@ -39,7 +41,6 @@ const ICE_AND_LIGHTNING = [Talent.Elemental, Talent.Ice, Talent.Lightning];
 const LIGHTNING = [Talent.Elemental, Talent.Lightning];
 const LIGHT = [Talent.Light];
 const MYSTIC = [Talent.Mystic];
-const PIRATE = [Talent.Pirate];
 const SHADOW = [Talent.Shadow];
 
 interface AppliedFilter {
@@ -144,7 +145,7 @@ const genis: AppliedFilter = {
 };
 
 const gravyBones: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Necromancer], PIRATE),
+  ...CLASSES_AND_TALENTS([Class.Necromancer, Class.Pirate]),
 };
 
 const ira: AppliedFilter = {
@@ -188,7 +189,7 @@ const lexi: AppliedFilter = {
 };
 
 const marlynn: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ranger], PIRATE),
+  ...CLASSES_AND_TALENTS([Class.Pirate, Class.Ranger]),
 };
 
 const maxx: AppliedFilter = {
@@ -216,7 +217,7 @@ const oscilio: AppliedFilter = {
 };
 
 const puffin: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Mechanologist], PIRATE),
+  ...CLASSES_AND_TALENTS([Class.Mechanologist, Class.Pirate]),
 };
 
 const prism: AppliedFilter = {
@@ -313,7 +314,10 @@ const TYPES_TO_CHECK_FOR_PITCH = [
   Type.Resource,
 ];
 
-const CARD_TO_LOG = "";
+const allReleases = Object.values(Release);
+
+const CARD_TO_LOG = "Sanctuary of Aria";
+const HERO_TO_LOG = Hero.Aurora;
 
 export const getLegalHeroes = (card: {
   cardIdentifier: string;
@@ -329,18 +333,44 @@ export const getLegalHeroes = (card: {
   talents?: Talent[];
   traits?: Trait[];
   types: Type[];
+  typeText: string;
 }): Hero[] => {
   const legalHeroes: Hero[] = [];
+
+  const isCardMacro = card.types?.includes(Type.Macro);
+  const macroSets =
+    card.metatypes?.filter((metatype) =>
+      allReleases.includes(metatype as unknown as Release)
+    ) || [];
+  const cardMacroSet = macroSets.length > 0 ? macroSets[0] : undefined;
+  const macroSetInfo = cardMacroSet
+    ? releases.find(
+        ({ release }) => release === (cardMacroSet as unknown as Release)
+      )
+    : undefined;
+  const draftHeroesAllowedInMacroSet = macroSetInfo
+    ? macroSetInfo.draft?.heroIdentifiers || []
+    : [];
 
   for (const hero of HEROES) {
     const filters = heroToFilterMapping[hero];
     if (filters) {
       const { classes, excludedPitches, excludedSubtypes, talents } = filters;
 
+      const allClassesMatch = card.classes.every((cardClass) =>
+        classes.includes(cardClass)
+      );
+      const atLeastOneClassMatches = card.classes.some((cardClass) =>
+        classes.includes(cardClass)
+      );
+
+      const mustMatchAtLeastOneClass = card.typeText.includes("/");
+      const matchesClasses = mustMatchAtLeastOneClass
+        ? atLeastOneClassMatches
+        : allClassesMatch;
+
       const matchesClass =
-        !card.classes ||
-        card.classes.length === 0 ||
-        card.classes.some((cardClass) => classes.includes(cardClass));
+        !card.classes || card.classes.length === 0 || matchesClasses;
 
       const matchesHero = !card.hero || card.hero === hero;
 
@@ -379,13 +409,20 @@ export const getLegalHeroes = (card: {
         !card.talents ||
         card.talents.every((cardTalent) => talents.includes(cardTalent));
 
+      const matchesMacroSet = isCardMacro
+        ? draftHeroesAllowedInMacroSet.some((heroIdentifier) =>
+            heroIdentifier.includes(hero.toLowerCase())
+          )
+        : true;
+
       let matches =
         matchesClass &&
         matchesHero &&
         matchesPitches &&
         matchesSpecializations &&
         matchesSubtypes &&
-        matchesTalents;
+        matchesTalents &&
+        matchesMacroSet;
 
       if (hero === Hero.Shiyana && !matches) {
         const isASpecializationCard =
@@ -433,7 +470,10 @@ export const getLegalHeroes = (card: {
         }
       }
 
-      if (card.name === CARD_TO_LOG) {
+      const matchesCardToLog = card.name === CARD_TO_LOG;
+      const matchesHeroToLog = !HERO_TO_LOG || hero === HERO_TO_LOG;
+      const shouldLog = matchesCardToLog && matchesHeroToLog;
+      if (shouldLog) {
         console.log(
           JSON.stringify(
             {
@@ -448,6 +488,11 @@ export const getLegalHeroes = (card: {
               matchesSpecializations,
               matchesSubtypes,
               matchesTalents,
+              macro: {
+                matchesMacroSet,
+                isCardMacro,
+                draftHeroesAllowedInMacroSet,
+              },
               specializations: card.specializations,
             },
             null,

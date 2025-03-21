@@ -24,7 +24,7 @@
   const cards1: Card[] =  [{
     artists: ["Lius Lasahido"],
     cardIdentifier: "big-game-trophy-shot-yellow",
-    classes: [Class.Ranger],
+    classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA087",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -91,13 +91,13 @@ Draw a card, then discard a card.
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "board-the-ship-red",
-    classes: [Class.Necromancer],
+    classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA053",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -160,13 +160,13 @@ Draw a card, then discard a card.
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "chart-the-high-seas-blue",
-    classes: [Class.Necromancer],
+    classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA048",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -233,13 +233,13 @@ Create a Gold token for each yellow card put into your graveyard this way.
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "chum-friendly-first-mate-yellow",
-    classes: [Class.Necromancer],
+    classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA050",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -306,13 +306,13 @@ Instant - {t}, discard a card with watery grave: Until end of turn, opponents mu
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Nikko Wahyudi"],
     cardIdentifier: "compass-of-sunken-depths",
-    classes: [Class.Necromancer],
+    classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA045",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -365,7 +365,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   }];
@@ -524,7 +524,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "golden-skywarden-yellow",
-    classes: [Class.Mechanologist],
+    classes: [Class.Mechanologist,Class.Pirate],
     defaultImage: "SEA004",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -587,13 +587,13 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Bastien Jez"],
     cardIdentifier: "goldfin-harpoon-yellow",
-    classes: [Class.Ranger],
+    classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA093",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -656,13 +656,13 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
-    classes: [Class.Necromancer],
+    classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA043",
     legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
     legalHeroes: [],
@@ -739,14 +739,14 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   }];
   const cards3: Card[] =  [{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hoist-em-up-red",
-    classes: [Class.Necromancer],
+    classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA055",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -809,13 +809,13 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Simon Dominic"],
     cardIdentifier: "king-shark-harpoon-red",
-    classes: [Class.Ranger],
+    classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA086",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -878,13 +878,13 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "marlynn-treasure-hunter",
-    classes: [Class.Ranger],
+    classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA082",
     legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
     legalHeroes: [],
@@ -961,13 +961,13 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Marco González"],
     cardIdentifier: "paddle-faster-red",
-    classes: [Class.Necromancer],
+    classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA054",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
@@ -1030,13 +1030,13 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
-    classes: [Class.Mechanologist],
+    classes: [Class.Mechanologist,Class.Pirate],
     defaultImage: "SEA001",
     legalFormats: [Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open],
     legalHeroes: [],
@@ -1113,7 +1113,7 @@ The second time you crank each turn, draw a card.`,
     
     
     
-    talents: [Talent.Pirate],
+    
   
   
   }];
@@ -1329,7 +1329,7 @@ The second time you crank each turn, draw a card.`,
     cardIdentifier: "treasure-island",
     classes: [Class.NotClassed],
     defaultImage: "SEA247",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Draft,Format.Open,Format.Sealed],
     legalHeroes: [],
     name: "Treasure Island",
     printings: [{

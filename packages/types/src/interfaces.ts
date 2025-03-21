@@ -107,6 +107,7 @@ export enum Class {
   Merchant = "Merchant",
   Necromancer = "Necromancer",
   Ninja = "Ninja",
+  Pirate = "Pirate",
   Ranger = "Ranger",
   Runeblade = "Runeblade",
   Shapeshifter = "Shapeshifter",
@@ -255,7 +256,6 @@ export enum Talent {
   Light = "Light",
   Lightning = "Lightning",
   Mystic = "Mystic",
-  Pirate = "Pirate",
   Royal = "Royal",
   Shadow = "Shadow",
 }

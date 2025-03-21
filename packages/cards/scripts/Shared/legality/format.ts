@@ -50,6 +50,7 @@ export const getLegalFormats = (
 
   const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
 
+  const isMacro = types.includes(Type.Macro);
   const isHero = types.includes(Type.Hero);
   const isYoung =
     subtypes.includes(Subtype.Young) || classes.includes(Class.Adjudicator);
@@ -110,9 +111,12 @@ export const getLegalFormats = (
     const isLimitedFormat = [Format.Draft, Format.Sealed].includes(format);
     if (isLimitedFormat) {
       if (isHero) {
-        const isToken = rarities.some((rarity) => rarity === Rarity.Token);
+        const tokenOrBasic = [Rarity.Basic, Rarity.Token];
+        const isTokenOrBasic = rarities.some((rarity) =>
+          tokenOrBasic.includes(rarity)
+        );
 
-        if (!isToken) {
+        if (!isTokenOrBasic) {
           isLegalPerFormat = false;
         }
       }
@@ -130,6 +134,10 @@ export const getLegalFormats = (
       // if (!isInALimitedSet) {
       //   isLegalPerFormat = false;
       // }
+    }
+
+    if (isMacro && !isLimitedFormat) {
+      isLegalPerFormat = false;
     }
 
     const isLivingLegendFormat = [
