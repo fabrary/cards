@@ -9,7 +9,7 @@ export enum Language {
   Spanish = "Español",
 }
 
-const ALL_LANGUAGES = [
+const ALL_LANGUAGES_OLD = [
   Language.English,
   Language.French,
   Language.German,
@@ -17,6 +17,8 @@ const ALL_LANGUAGES = [
   Language.Japanese,
   Language.Spanish,
 ];
+
+const ALL_LANGUAGES = [Language.English, Language.French, Language.Japanese];
 
 export enum ReleaseType {
   ArmoryDeck = "Armory Deck",
@@ -126,7 +128,7 @@ export const releases: ReleaseInfo[] = [
       { url: "https://fabrary.net/decks/01GJG7Z4WGWSZ95FY74KX4M557" },
     ],
     heroes: [Hero.Ira],
-    languages: ALL_LANGUAGES,
+    languages: ALL_LANGUAGES_OLD,
     release: Release.IraWelcomeDeck,
     relatedReleases: [],
     releaseDate: "2019-08-31 12:00",
@@ -1052,7 +1054,7 @@ export const releases: ReleaseInfo[] = [
       picksPerPack: 14,
     },
     heroes: [Hero.Enigma, Hero.Nuu, Hero.Zen],
-    languages: ALL_LANGUAGES,
+    languages: ALL_LANGUAGES_OLD,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.PartTheMistveil,
     relatedReleases: [
@@ -1246,7 +1248,7 @@ export const releases: ReleaseInfo[] = [
       picksPerPack: 14,
     },
     heroes: [Hero.Aurora, Hero.Florian, Hero.Oscilio, Hero.Verdance],
-    languages: ALL_LANGUAGES,
+    languages: ALL_LANGUAGES_OLD,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.Rosetta,
     relatedReleases: [
@@ -1305,7 +1307,7 @@ export const releases: ReleaseInfo[] = [
     classes: [Class.Assassin],
     deckLinks: [],
     heroes: [Hero.Arakni],
-    languages: ALL_LANGUAGES,
+    languages: ALL_LANGUAGES_OLD,
     release: Release.ArakniBlitzDeckARK,
     relatedReleases: [],
     releaseDate: "2025-01-31 12:00",
@@ -1325,7 +1327,7 @@ export const releases: ReleaseInfo[] = [
     heroOverrides: {
       [Hero.Arakni]: Hero.Crackni,
     },
-    languages: ALL_LANGUAGES,
+    languages: ALL_LANGUAGES_OLD,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
     relatedReleases: [],
@@ -1366,6 +1368,21 @@ export const releases: ReleaseInfo[] = [
     talents: [],
   },
   {
+    cards: 30,
+    classes: [Class.Necromancer, Class.Pirate],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.GravyBones],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckGravyBones,
+    relatedReleases: [],
+    releaseDate: "2025-05-30 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["agb"],
+    talents: [],
+  },
+  {
     cards: 265,
     classes: [
       Class.Mechanologist,
@@ -1387,21 +1404,6 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2025-06-06 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["sea"],
-    talents: [],
-  },
-  {
-    cards: 30,
-    classes: [Class.Necromancer, Class.Pirate],
-    deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
-    ],
-    heroes: [Hero.GravyBones],
-    languages: [Language.English, Language.French, Language.Japanese],
-    release: Release.ArmoryDeckGravyBones,
-    relatedReleases: [],
-    releaseDate: "2025-05-30 12:00",
-    releaseType: ReleaseType.ArmoryDeck,
-    setIdentifiers: ["agb"],
     talents: [],
   },
 ];
