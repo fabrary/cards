@@ -1389,6 +1389,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["sea"],
     talents: [],
   },
+  {
+    cards: 30,
+    classes: [Class.Necromancer, Class.Pirate],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.GravyBones],
+    languages: [Language.English, Language.French, Language.Japanese],
+    release: Release.ArmoryDeckGravyBones,
+    relatedReleases: [],
+    releaseDate: "2025-05-30 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["agb"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1423,6 +1438,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ajv: Release.ArmoryDeckOriginsJarl,
   ast: Release.ArmoryDeckAurora,
   amx: Release.ArmoryDeckMaxx,
+  agb: Release.ArmoryDeckGravyBones,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

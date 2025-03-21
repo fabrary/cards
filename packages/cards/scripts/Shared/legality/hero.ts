@@ -316,7 +316,7 @@ const TYPES_TO_CHECK_FOR_PITCH = [
 
 const allReleases = Object.values(Release);
 
-const CARD_TO_LOG = "Sanctuary of Aria";
+const CARD_TO_LOG = "";
 const HERO_TO_LOG = Hero.Aurora;
 
 export const getLegalHeroes = (card: {
