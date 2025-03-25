@@ -15,6 +15,7 @@ export const getCardIdentifier = (
     .normalize("NFD")
     .replace(/\p{Diacritic}/gu, "")
     .replace(/ /g, "-")
+    .replace("ð", "d")
     .replace("đ", "d")
     .replace("í", "i")
     .replace(/[^a-z0-9 -]/g, "")

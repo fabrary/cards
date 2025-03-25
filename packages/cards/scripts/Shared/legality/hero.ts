@@ -303,6 +303,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
 };
 
 const ALL_TOKEN_HEROES = [Hero.Shiyana, Hero.Yorick];
+
 const HEROES: Hero[] = Object.values(Hero);
 const TYPES_TO_CHECK_FOR_PITCH = [
   Type.Action,
@@ -317,7 +318,7 @@ const TYPES_TO_CHECK_FOR_PITCH = [
 const allReleases = Object.values(Release);
 
 const CARD_TO_LOG = "";
-const HERO_TO_LOG = Hero.Aurora;
+const HERO_TO_LOG = Hero.Shiyana;
 
 export const getLegalHeroes = (card: {
   cardIdentifier: string;

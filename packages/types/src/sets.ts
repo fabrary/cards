@@ -679,7 +679,7 @@ export const releases: ReleaseInfo[] = [
       heroIdentifiers: [
         "arakni-solitary-confinement",
         "azalea",
-        "benji",
+        "benji-the-piercing-wind",
         "katsu",
         "riptide",
         "uzuri",
@@ -769,7 +769,7 @@ export const releases: ReleaseInfo[] = [
     classes: [Class.Mechanologist],
     deckLinks: [],
     draft: {
-      heroIdentifiers: ["dash-database", "maxx", "teklovossen"],
+      heroIdentifiers: ["dash-database", "maxx-nitro", "teklovossen"],
       picksPerPack: 14,
     },
     heroes: [Hero.Dash, Hero.Maxx, Hero.Teklovossen],
@@ -925,7 +925,7 @@ export const releases: ReleaseInfo[] = [
         "kayo",
         "olympia",
         "rhinar",
-        "victor",
+        "victor-goldmane",
       ],
       picksPerPack: 14,
     },
@@ -1320,7 +1320,7 @@ export const releases: ReleaseInfo[] = [
     classes: [Class.Assassin, Class.Ninja, Class.Warrior],
     deckLinks: [],
     draft: {
-      heroIdentifiers: ["arakni-web-of-deceipt", "cindra", "fang"],
+      heroIdentifiers: ["arakni-web-of-deceit", "cindra", "fang"],
       picksPerPack: 14,
     },
     heroes: [Hero.Arakni, Hero.Cindra, Hero.Fang],
