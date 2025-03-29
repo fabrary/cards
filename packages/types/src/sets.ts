@@ -1393,10 +1393,10 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [
       // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
     ],
-    draft: {
-      heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
-      picksPerPack: 14,
-    },
+    // draft: {
+    //   heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
+    //   picksPerPack: 14,
+    // },
     heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
     languages: ALL_LANGUAGES,
     release: Release.HighSeas,
