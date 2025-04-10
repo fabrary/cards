@@ -1406,6 +1406,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["sea"],
     talents: [],
   },
+  {
+    cards: 30,
+    classes: [Class.Ninja],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Ira],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckIra,
+    relatedReleases: [],
+    releaseDate: "2025-07-11 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["asr"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1441,6 +1456,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ast: Release.ArmoryDeckAurora,
   amx: Release.ArmoryDeckMaxx,
   agb: Release.ArmoryDeckGravyBones,
+  asr: Release.ArmoryDeckIra,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

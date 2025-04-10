@@ -11,6 +11,7 @@ const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - A
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - SEA.csv`;
 const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AGB.csv`;
 const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - AST.csv`;
+const spoiledSetCardsFile5 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASR.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
@@ -24,6 +25,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFile2),
   ...parseCSV(spoiledSetCardsFile3),
   ...parseCSV(spoiledSetCardsFile4),
+  ...parseCSV(spoiledSetCardsFile5),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
