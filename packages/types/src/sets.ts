@@ -1356,7 +1356,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Mechanologist],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01JRH0631MH5A9JPVGTP3TKJXN" },
     ],
     heroes: [Hero.Maxx],
     languages: [Language.English, Language.French, Language.Japanese],
