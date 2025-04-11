@@ -1338,7 +1338,7 @@ export const releases: ReleaseInfo[] = [
     url: "https://fabtcg.com/en/articles/hnt/",
   },
   {
-    cards: 30,
+    cards: 28,
     classes: [Class.Runeblade],
     deckLinks: [
       { url: "https://fabrary.net/decks/01JN2DEG4X2V8DVMCWFBWQTTSC" },
