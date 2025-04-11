@@ -653,17 +653,29 @@ const getPrintings = (card: ParsedCard): Printing[] => {
   return printingsOverride.length ? printingsOverride : printings;
 };
 
+const ALL_KEYWORDS = Object.entries(Keyword);
 const getKeywords = (card: ParsedCard): Keyword[] => {
   const { abilityAndEffectKeywords, cardKeywords, grantedKeywords, name } =
     card;
   const keywords: Keyword[] = [];
+
   [...cardKeywords, ...grantedKeywords, ...abilityAndEffectKeywords].forEach(
     (keyword) => {
-      for (const [key, value] of Object.entries(Keyword)) {
-        if (keyword.includes(value as string)) {
-          const keyword = Keyword[key];
-          if (!keywords.includes(keyword)) {
-            keywords.push(keyword);
+      const exactMatch = ALL_KEYWORDS.find(([_, value]) => value === keyword);
+
+      if (!!exactMatch) {
+        const keywordEnum = Keyword[exactMatch[0]];
+        if (!!keywordEnum && !keywords.includes(keywordEnum)) {
+          keywords.push(keywordEnum);
+        }
+      } else {
+        for (const [key, value] of ALL_KEYWORDS) {
+          const isAPartialMatch = keyword.includes(value as string);
+          if (isAPartialMatch) {
+            const keyword = Keyword[key];
+            if (!keywords.includes(keyword)) {
+              keywords.push(keyword);
+            }
           }
         }
       }

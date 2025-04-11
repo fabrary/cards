@@ -281,6 +281,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/amethyst-amulet-blue</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/amethyst-tiara</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -4131,6 +4136,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/diamond-amulet-blue</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/diamond-hands</loc>
     <lastmod>2023-10-17</lastmod>
     <priority>0.5</priority>
@@ -6111,6 +6121,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/flying-high-red</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flying-high-yellow</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flying-high-blue</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/flying-kick-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6641,6 +6666,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/gold-baited-hook</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/golden-cog</loc>
     <lastmod>2025-03-20</lastmod>
     <priority>0.5</priority>
@@ -6656,8 +6686,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/goldfin-harpoon-yellow</loc>
-    <lastmod>2025-03-20</lastmod>
+    <loc>https://fabrary.net/cards/goldfin-harpoon</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/goldkiss-rum</loc>
+    <lastmod>2025-04-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -6878,6 +6913,11 @@
   <url>
     <loc>https://fabrary.net/cards/hammer-of-havenhold</loc>
     <lastmod>2023-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hammerhead-harpoon-cannon</loc>
+    <lastmod>2025-04-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10271,6 +10311,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/palantir-aeronought-red</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/panel-beater-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -10383,6 +10428,11 @@
   <url>
     <loc>https://fabrary.net/cards/pedal-to-the-metal-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/peg-leg</loc>
+    <lastmod>2025-04-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -11878,6 +11928,11 @@
   <url>
     <loc>https://fabrary.net/cards/redback-shroud</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/redspine-manta</loc>
+    <lastmod>2025-04-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -15353,6 +15408,11 @@
   <url>
     <loc>https://fabrary.net/cards/sun-kiss-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sunken-treasure-blue</loc>
+    <lastmod>2025-04-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

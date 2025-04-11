@@ -22,6 +22,65 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Mario Wibisono"],
+    cardIdentifier: "amethyst-amulet-blue",
+    classes: [Class.Generic],
+    defaultImage: "SEA189",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Amethyst Amulet",
+    printings: [{
+        artists: ["Mario Wibisono"],
+      
+      identifier: "SEA189",
+      image: "SEA189",
+      
+      
+      print: "SEA189",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA189"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA189",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Instant** - Destroy this: your next attack this turn gets +2{p}.
+
+**Legend of the Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.WateryGrave],
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "big-game-trophy-shot-yellow",
     classes: [Class.Pirate,Class.Ranger],
@@ -368,8 +427,244 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
+  },{
+    artists: ["Mario Wibisono"],
+    cardIdentifier: "diamond-amulet-blue",
+    classes: [Class.Generic],
+    defaultImage: "SEA190",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Diamond Amulet",
+    printings: [{
+        artists: ["Mario Wibisono"],
+      
+      identifier: "SEA190",
+      image: "SEA190",
+      
+      
+      print: "SEA190",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA190"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA190",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Item",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Instant** - Destroy this: gain 1 action point.
+
+**Legend of the Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.WateryGrave],
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "flying-high-red",
+    classes: [Class.Generic],
+    defaultImage: "SEA206",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Flying High",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "SEA206",
+      image: "SEA206",
+      
+      
+      print: "SEA206",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA206"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA206",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets **go again**. If it's red, it gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
   }];
   const cards2: Card[] =  [{
+    artists: ["SanSan"],
+    cardIdentifier: "flying-high-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SEA207",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Flying High",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "SEA207",
+      image: "SEA207",
+      
+      
+      print: "SEA207",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA207"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA207",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets **go again**. If it's yellow, it gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "flying-high-blue",
+    classes: [Class.Generic],
+    defaultImage: "SEA208",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Flying High",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "SEA208",
+      image: "SEA208",
+      
+      
+      print: "SEA208",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA208"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA208",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets **go again**. If it's blue, it gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nikolay Moskvin","Stormy Elia Fanggidae"],
     cardIdentifier: "gold",
     classes: [Class.Generic],
@@ -422,6 +717,65 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
     
     keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "gold-baited-hook",
+    classes: [Class.Pirate],
+    defaultImage: "SEA125-TP",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Gold-Baited Hook",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "SEA125",
+      image: "SEA125-TP",
+      
+      
+      print: "SEA125-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["SEA125"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA125-TP",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Pirate Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Action** - {t}: Your next Pirate attack this turn gets "When this hits a hero, **steal** a Gold token they control, otherwise create a Gold token." At the beginning of your end phase, if you haven't created or stolen a Gold token this turn, destroy this. **Go again**
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.GoAgain,Keyword.Steal],
     
     
     
@@ -592,7 +946,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
   },{
     artists: ["Bastien Jez"],
-    cardIdentifier: "goldfin-harpoon-yellow",
+    cardIdentifier: "goldfin-harpoon",
     classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA093",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
@@ -647,7 +1001,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    pitch: 2,
+    
     power: 2,
     
     
@@ -660,6 +1014,64 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
   
   },{
+    artists: ["Mario Wibisono"],
+    cardIdentifier: "goldkiss-rum",
+    classes: [Class.Generic],
+    defaultImage: "SEA245",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Goldkiss Rum",
+    printings: [{
+        artists: ["Mario Wibisono"],
+      
+      identifier: "SEA245",
+      image: "SEA245",
+      
+      
+      print: "SEA245",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA245"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA245",
+    subtypes: [Subtype.Item],
+    types: [Type.Token],
+    typeText: "Generic Token - Item",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {t} your hero, destroy this: Your next action this turn gets **go again**. Your hero can't {u} this turn unless they're a Pirate.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -742,8 +1154,64 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "hammerhead-harpoon-cannon",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "SEA084",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Hammerhead, Harpoon Cannon",
+    printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "SEA084",
+      image: "SEA084",
+      
+      
+      print: "SEA084",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA084"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA084",
+    subtypes: [Subtype.TwoHanded,Subtype.Bow,Subtype.Cannon],
+    types: [Type.Weapon],
+    typeText: "Pirate Ranger Weapon - Bow Cannon (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {r}{r}{r}{r}, {t}: Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets **overpower**. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hoist-em-up-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1034,6 +1502,125 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
   
   },{
+    artists: ["寿多 浩 / Hiro Suda"],
+    cardIdentifier: "palantir-aeronought-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA012",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Palantir Aeronought",
+    printings: [{
+        artists: ["寿多 浩 / Hiro Suda"],
+      
+      identifier: "SEA012",
+      image: "SEA012",
+      
+      
+      print: "SEA012",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA012"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA012",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `The defending hero must defend this with an equipment they control if able.
+
+**Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}. If this is the third time you've activated this ability, destroy a defending card.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "peg-leg",
+    classes: [Class.Pirate],
+    defaultImage: "SEA129",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Peg Leg",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "SEA129",
+      image: "SEA129",
+      
+      
+      print: "SEA129",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA129"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA129",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Pirate Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Action** - {r}{r}{r}, destroy this: Your next attack this turn gets **go again**. **Go again**.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards4: Card[] =  [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -1116,8 +1703,64 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
+    artists: ["Konadekana"],
+    cardIdentifier: "redspine-manta",
+    classes: [Class.Ranger],
+    defaultImage: "SEA094",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Redspine Manta",
+    printings: [{
+        artists: ["Konadekana"],
+      
+      identifier: "SEA094",
+      image: "SEA094",
+      
+      
+      print: "SEA094",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA094"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA094",
+    subtypes: [Subtype.TwoHanded,Subtype.Bow],
+    types: [Type.Weapon],
+    typeText: "Ranger Weapon - Bow (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {t}: Put an arrow from your hand face-up into your arsenal. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "sky-skimmer-red",
     classes: [Class.Mechanologist],
@@ -1314,6 +1957,63 @@ The second time you crank each turn, draw a card.`,
     
     pitch: 3,
     power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "sunken-treasure-blue",
+    classes: [Class.Pirate],
+    defaultImage: "SEA133",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Sunken Treasure",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "SEA133",
+      image: "SEA133",
+      
+      
+      print: "SEA133",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA133"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA133",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Pirate Block",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `When this defends, you may turn a card in a graveyard face-down. If it's yellow, create a Gold token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 3,
+    
     
     
     
