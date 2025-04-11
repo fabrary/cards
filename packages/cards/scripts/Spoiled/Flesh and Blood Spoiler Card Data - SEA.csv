@@ -4,7 +4,11 @@ SEA000,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA000,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 The second time you crank each turn, draw a card.",Pirate Mechanologist Hero,,No,,No,,B,S,,Arif Wijaya,,,SEA001,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA001.webp,,,V,C,FA,Arif Wijaya,,,SEA001,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA001-MV.webp,,,V,C,FA,Arif Wijaya,,,SEA001,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA001-MV_BACK.webp,,,P,R,,,Arif Wijaya,,HER137,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER137-RF.webp,,,,,,,,,,,
 SEA002,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA002,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA003,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA003,SEA,Polly Cranka,,,,,1,,,"Puffin, Companion, Off-Hand, Ally","Crank, Perched",,,,,,"**Action** - {t}, banish this: Return this to the arena under its owner's control, unequipped, tapped, and with a steam counter.
+
+**Crank**
+
+**Perched**",Puffin Companion - Off-Hand Ally,,,,No,,L,R,,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA004, FAB343",SEA,Golden Skywarden,2,4,7,2,,,,"Pirate, Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Carlos Cruchaga,,,SEA004,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA004.webp,,,M,R,,Carlos Cruchaga,,,SEA004,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA004.webp,,,P,R,EA,Carlos Cruchaga,,,FAB343,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp,,,,,,,,,,,,,,,,,,,,,
 SEA005,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA006,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -104,7 +108,7 @@ SEA081,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA081,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Whenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.",Pirate Ranger Hero,,No,,No,,B,S,,Sam Yang,,,SEA082,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA082.webp,,,V,C,FA,Sam Yang,,,SEA082,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA082-MV.webp,,,V,C,FA,Sam Yang,,,SEA082,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA082-MV_BACK.webp,,,P,R,,,Sam Yang,,HER139,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER139-RF.webp,,,,,,,,,,,
 SEA083,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA083,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA084,SEA,"Hammerhead, Harpoon Cannon",,,,,,,,"Pirate, Ranger, Weapon, Bow, Cannon, 2H",Go again,,,,,,"**Action** - {r}{r}{r}{r}, {t}: Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets **overpower**. **Go again**",Pirate Ranger Weapon - Bow Cannon (2H),,,,,,B,,,Sam Yang,,,SEA084,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA085,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA085,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA085,SEA,King Kraken Harpoon,1,2,6,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's a non-attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,M,,,Faizal Fikri,,,SEA085,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA086,SEA,King Shark Harpoon,1,2,6,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's an attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,M,S,,Simon Dominic,,,SEA086,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA086.webp,,,M,R,EA,Simon Dominic,,,SEA086,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA086-RF.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA087, FAB345","SEA, FAB",Big Game Trophy Shot,2,2,,3,,,,"Pirate, Ranger, Action",Go again,,,,,,"Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets ""When this hits a hero, create a Gold token.""
 
@@ -216,9 +220,7 @@ SEA185,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA185,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA186,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA186,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA187,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA187,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA188,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA188,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA189,SEA,Amethyst Amulet,3,0,,,,,,"Generic, Action, Item","Legendary, Watery Grave",,,,,,"**Instant** - Destroy this: your next attack this turn gets +2{p}.
-
-**Legend of the Watery Grave**",Generic Action - Item,,,,No,,M,,,Mario Wibisono,,,SEA189,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA189.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA189,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA189,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA189.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA190,SEA,Diamond Amulet,3,0,,,,,,"Generic, Action, Item","Legendary, Watery Grave",,,,,,"**Instant** - Destroy this: gain 1 action point.
 
 **Legend of the Watery Grave**",Generic Action - Item,,,,No,,M,,,Mario Wibisono,,,SEA190,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

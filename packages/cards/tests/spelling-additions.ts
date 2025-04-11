@@ -91,6 +91,7 @@ export const fabDictionary = [
   "collider",
   "constella",
   "constellas",
+  "cranka",
   "cromai",
   "crosswrap",
   "dawnblade",

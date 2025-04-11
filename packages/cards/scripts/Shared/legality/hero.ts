@@ -320,6 +320,9 @@ const allReleases = Object.values(Release);
 const CARD_TO_LOG = "";
 const HERO_TO_LOG = Hero.Shiyana;
 
+const ALL_ARAKNIS = [Hero.Arakni, Hero.Crackni, Hero.Slippy];
+const ALL_HEROES = Object.values(Hero);
+
 export const getLegalHeroes = (card: {
   cardIdentifier: string;
   classes: Class[];
@@ -383,22 +386,38 @@ export const getLegalHeroes = (card: {
       const matchesStarvoSpecialization =
         card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
 
-      const isArakniSpecialization =
-        card.specializations?.includes(Hero.Arakni) ||
-        card.metatypes?.includes(Metatype.Arakni);
-      const matchesArakniSpecialization =
-        isArakniSpecialization &&
-        [Hero.Arakni, Hero.Crackni, Hero.Slippy].includes(hero);
+      // const isArakniSpecialization =
+      //   card.specializations?.includes(Hero.Arakni) ||
+      //   card.metatypes?.includes(Metatype.Arakni);
+      const heroIsAnArakni = ALL_ARAKNIS.includes(hero);
+
+      const isHeroMetatypeSpecialization = card.metatypes?.some((metatype) =>
+        ALL_HEROES.includes(metatype as unknown as Hero)
+      );
+      let matchesHeroMetaTypeSpecialization = card.metatypes?.includes(
+        hero as unknown as Metatype
+      );
+      let matchesHeroSpecialization = card.specializations?.includes(hero);
+      if (heroIsAnArakni) {
+        matchesHeroMetaTypeSpecialization = card.metatypes?.some((metatype) =>
+          ALL_ARAKNIS.includes(metatype as unknown as Hero)
+        );
+        matchesHeroSpecialization = card.specializations?.some((hero) =>
+          ALL_ARAKNIS.includes(hero)
+        );
+      }
 
       const isASpecialization =
         (card.specializations && card.specializations.length > 0) ||
-        isArakniSpecialization;
+        // isArakniSpecialization ||
+        isHeroMetatypeSpecialization;
 
       const matchesSpecializations =
         !isASpecialization ||
         matchesStarvoSpecialization ||
-        matchesArakniSpecialization ||
-        card.specializations?.includes(hero);
+        // matchesArakniSpecialization ||
+        matchesHeroMetaTypeSpecialization ||
+        matchesHeroSpecialization;
 
       const matchesSubtypes =
         !excludedSubtypes ||
@@ -481,12 +500,13 @@ export const getLegalHeroes = (card: {
               card,
               filters,
               hero,
-              hybrid: matchesClass || matchesArakniSpecialization,
-              isArakniSpecialization,
+              hybrid: matchesClass,
+              isHeroMetatypeSpecialization,
               matches,
               matchesClass,
               matchesPitches,
               matchesSpecializations,
+              matchesHeroMetaTypeSpecialization,
               matchesSubtypes,
               matchesTalents,
               macro: {
@@ -510,7 +530,7 @@ export const getLegalHeroes = (card: {
 
   if (card.name === CARD_TO_LOG) {
     console.log(JSON.stringify({ card, legalHeroes }, null, 2));
-    // throw new Error("err");
+    //   throw new Error("err");
   }
 
   legalHeroes.sort();

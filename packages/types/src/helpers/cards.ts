@@ -54,9 +54,12 @@ export const getIsArenaCard = ({
     traits,
     types,
   });
-  const isInventoryCardType = [Type.DemiHero, Type.Equipment, Type.Weapon].some(
-    (type) => types.includes(type)
-  );
+  const isInventoryCardType = [
+    Type.Companion,
+    Type.DemiHero,
+    Type.Equipment,
+    Type.Weapon,
+  ].some((type) => types.includes(type));
 
   return !isDeckCard && !isToken && isInventoryCardType;
 };

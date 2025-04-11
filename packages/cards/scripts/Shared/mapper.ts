@@ -497,6 +497,7 @@ export const getTypeSubtypeAndMetatype = (card: {
   subtypes: Subtype[];
 } => {
   const { types: rawTypes } = card;
+
   const types: Type[] = [];
   for (const [typeKey, typeValue] of Object.entries(Type)) {
     if (rawTypes.includes(typeValue as string)) {

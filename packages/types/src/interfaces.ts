@@ -269,6 +269,7 @@ export enum Trait {
 export enum Metatype {
   Arakni = "Arakni",
   HighSeas = "High Seas",
+  Puffin = "Puffin",
   Rosetta = "Rosetta",
 }
 
@@ -276,6 +277,7 @@ export enum Type {
   Action = "Action",
   AttackReaction = "Attack Reaction",
   Block = "Block",
+  Companion = "Companion",
   DefenseReaction = "Defense Reaction",
   DemiHero = "Demi-Hero",
   Equipment = "Equipment",

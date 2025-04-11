@@ -1399,6 +1399,7 @@ export const releases: ReleaseInfo[] = [
     // },
     heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
     languages: ALL_LANGUAGES,
+    raritiesExcludedInLimited: [Rarity.Fabled, Rarity.Legendary],
     release: Release.HighSeas,
     relatedReleases: [],
     releaseDate: "2025-06-06 12:00",

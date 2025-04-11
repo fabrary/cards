@@ -22,65 +22,6 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
-    artists: ["Mario Wibisono"],
-    cardIdentifier: "amethyst-amulet-blue",
-    classes: [Class.Generic],
-    defaultImage: "SEA189",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [],
-    name: "Amethyst Amulet",
-    printings: [{
-        artists: ["Mario Wibisono"],
-      
-      identifier: "SEA189",
-      image: "SEA189",
-      
-      
-      print: "SEA189",
-      rarity: Rarity.Majestic,
-      set: Release.HighSeas,
-      
-      
-    },],
-    rarities: [Rarity.Majestic],
-    rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA189"],
-    sets: [Release.HighSeas],
-    specialImage: "SEA189",
-    subtypes: [Subtype.Item,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Generic Action - Item",
-
-    
-    
-    cost: 0,
-    
-    
-    functionalText: `**Instant** - Destroy this: your next attack this turn gets +2{p}.
-
-**Legend of the Watery Grave**`,
-    
-    
-    
-    
-    keywords: [Keyword.Legendary,Keyword.WateryGrave],
-    
-    
-    
-    
-    pitch: 3,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "big-game-trophy-shot-yellow",
     classes: [Class.Pirate,Class.Ranger],
@@ -545,8 +486,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["SanSan"],
     cardIdentifier: "flying-high-yellow",
     classes: [Class.Generic],
@@ -605,7 +545,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["SanSan"],
     cardIdentifier: "flying-high-blue",
     classes: [Class.Generic],
@@ -738,7 +679,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     cardIdentifier: "gold-baited-hook",
     classes: [Class.Pirate],
     defaultImage: "SEA125-TP",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Gold-Baited Hook",
     printings: [{
@@ -1070,8 +1011,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1154,7 +1094,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -1270,6 +1211,63 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     pitch: 1,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "king-kraken-harpoon-red",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "SEA085",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "King Kraken Harpoon",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "SEA085",
+      image: "SEA085",
+      
+      
+      print: "SEA085",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA085"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA085",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Ranger Action - Arrow Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's a non-attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoFish],
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
     
     
     
@@ -1621,6 +1619,67 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
   }];
   const cards4: Card[] =  [{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "polly-cranka",
+    classes: [],
+    defaultImage: "SEA003",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Polly Cranka",
+    printings: [{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "SEA003",
+      image: "SEA003",
+      
+      
+      print: "SEA003-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["SEA003"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA003",
+    subtypes: [Subtype.Ally,Subtype.OffHand],
+    types: [Type.Companion],
+    typeText: "Puffin Companion - Off-Hand Ally",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {t}, banish this: Return this to the arena under its owner's control, unequipped, tapped, and with a steam counter.
+
+**Crank**
+
+**Perched**`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank],
+    
+    life: 1,
+    metatypes: [Metatype.Puffin],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
     classes: [Class.Mechanologist,Class.Pirate],

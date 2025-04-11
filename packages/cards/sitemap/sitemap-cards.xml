@@ -281,11 +281,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/amethyst-amulet-blue</loc>
-    <lastmod>2025-04-11</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/amethyst-tiara</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -8506,6 +8501,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/king-kraken-harpoon-red</loc>
+    <lastmod>2025-04-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/king-shark-harpoon-red</loc>
     <lastmod>2025-03-20</lastmod>
     <priority>0.5</priority>
@@ -10858,6 +10858,11 @@
   <url>
     <loc>https://fabrary.net/cards/polarity-reversal-script-red</loc>
     <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/polly-cranka</loc>
+    <lastmod>2025-04-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
