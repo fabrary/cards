@@ -1353,7 +1353,7 @@ export const releases: ReleaseInfo[] = [
     talents: [Talent.Elemental, Talent.Lightning],
   },
   {
-    cards: 30,
+    cards: 28,
     classes: [Class.Mechanologist],
     deckLinks: [
       { url: "https://fabrary.net/decks/01JRH0631MH5A9JPVGTP3TKJXN" },
