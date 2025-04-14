@@ -386,9 +386,6 @@ export const getLegalHeroes = (card: {
       const matchesStarvoSpecialization =
         card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
 
-      // const isArakniSpecialization =
-      //   card.specializations?.includes(Hero.Arakni) ||
-      //   card.metatypes?.includes(Metatype.Arakni);
       const heroIsAnArakni = ALL_ARAKNIS.includes(hero);
 
       const isHeroMetatypeSpecialization = card.metatypes?.some((metatype) =>
@@ -409,13 +406,11 @@ export const getLegalHeroes = (card: {
 
       const isASpecialization =
         (card.specializations && card.specializations.length > 0) ||
-        // isArakniSpecialization ||
         isHeroMetatypeSpecialization;
 
       const matchesSpecializations =
         !isASpecialization ||
         matchesStarvoSpecialization ||
-        // matchesArakniSpecialization ||
         matchesHeroMetaTypeSpecialization ||
         matchesHeroSpecialization;
 
