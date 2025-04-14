@@ -369,6 +369,65 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   
   },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "conqueror-of-the-high-seas-red",
+    classes: [Class.Pirate],
+    defaultImage: "SEA130",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Conqueror of the High Seas",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "SEA130",
+      image: "SEA130",
+      
+      
+      print: "SEA130",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA130"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA130",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Action - Attack",
+
+    
+    
+    cost: 4,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.
+
+**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.HighTide],
+    
+    
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "diamond-amulet-blue",
     classes: [Class.Generic],

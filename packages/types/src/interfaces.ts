@@ -448,6 +448,7 @@ export enum Keyword {
   Guardwell = "Guardwell",
   Heave = "Heave",
   Heavy = "Heavy",
+  HighTide = "High Tide",
   Intimidate = "Intimidate",
   Legendary = "Legendary",
   Mark = "Mark",

@@ -161,7 +161,9 @@ SEA128,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA128,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA129,SEA,Peg Leg,,,,1,,,,"Pirate, Equipment, Legs","Go again, Blade Break",,,,,,"**Action** - {r}{r}{r}, destroy this: Your next attack this turn gets **go again**. **Go again**.
 
 **Blade Break**",Pirate Equipment - Legs,,,,,,C,,,Nailsen Ivanderlie,,,SEA129,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA130,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA130,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA130,SEA,Conqueror of the High Seas,1,4,7,3,,,,"Pirate, Action, Attack","High Tide, Go again",,,,,,"When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.
+
+**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **go again**.",Pirate Action - Attack,,,,No,,M,,,Max Kostin,,,SEA130,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA131,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA132,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA132,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA133,SEA,Sunken Treasure,3,,,3,,,,"Pirate, Block",,,,,,,"When this defends, you may turn a card in a graveyard face-down. If it's yellow, create a Gold token.",Pirate Block,,,,No,,M,,,Ramza Ardyputra,,,SEA133,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA133.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
