@@ -549,7 +549,7 @@ OSCCardDB = {
   ["AMX002"] = { name = "Banksy", text = "**Maxx Specialization**\n\n**Once per Turn Action** - {r}: **Attack**. Activate this ability only if you've **cranked** this turn.\n\nWhen this hits a hero, put a steam counter on an item you control with **crank**.", keywords = "Specialization", types = "Weapon"},
   ["AMX003"] = { name = "Breaker Helm Protos", text = "When this defends, you may discard a Hyper Driver. If you do, draw a card and this gets +1{d} until end of turn.\n\n**Temper**", keywords = "Temper", types = "Equipment"},
   ["AMX004"] = { name = "Puffer Jacket", text = "Non-token Hyper Drivers you control enter the arena with an additional steam counter.\n\n**Temper**", keywords = "Temper", types = "Equipment"},
-  ["AMX005"] = { name = "First Pump", text = "Whenever you banish a Hyper Driver from boosting, target wrench you control gets +1{p} this turn.\n\n**Battleworn**", keywords = "Battleworn", types = "Equipment"},
+  ["AMX005"] = { name = "Fist Pump", text = "Whenever you banish a Hyper Driver from boosting, target wrench you control gets +1{p} this turn.\n\n**Battleworn**", keywords = "Battleworn", types = "Equipment"},
   ["AMX006"] = { name = "Drive Brake", text = "Whenever you banish a Hyper Driver from boosting, remove a -1{d} counter from this.\n\n**Battleworn**", keywords = "Battleworn", types = "Equipment"},
   ["AMX007"] = { name = "Crankshaft (1)", text = "**Boost**\n\nWhen this is banished from **boosting**, put a steam counter on a Hyper Driver you control.", keywords = "Boost", types = "Action"},
   ["AMX008"] = { name = "Data Link (1)", text = "**Boost**\n\nWhen this hits, **opt 1**.", keywords = "Boost,Opt", types = "Action"},

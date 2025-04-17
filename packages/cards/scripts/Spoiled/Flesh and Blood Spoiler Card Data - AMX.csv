@@ -7,7 +7,7 @@ AMX003,AMX,Breaker Helm Protos,,,,1,,,,"Mechanologist, Equipment, Base, Head",Te
 AMX004,AMX,Puffer Jacket,,,,2,,,,"Mechanologist, Equipment, Chest",Temper,,,,,,"Non-token Hyper Drivers you control enter the arena with an additional steam counter.
 
 **Temper**",Mechanologist Equipment - Chest,,,,No,,M,R,,Vito Febrianno,,,AMX004,/AMX004.png,,,,,,,,,,,,,,,,,,,
-AMX005,AMX,First Pump,,,,1,,,,"Mechanologist, Equipment, Arms",Battleworn,,,,,,"Whenever you banish a Hyper Driver from boosting, target wrench you control gets +1{p} this turn.
+AMX005,AMX,Fist Pump,,,,1,,,,"Mechanologist, Equipment, Arms",Battleworn,,,,,,"Whenever you banish a Hyper Driver from boosting, target wrench you control gets +1{p} this turn.
 
 **Battleworn**",Mechanologist Equipment - Arms,,,,No,,M,R,,Soffani Soffa,,,AMX005,/AMX005.png,,,,,,,,,,,,,,,,,,,
 AMX006,AMX,Drive Brake,,,,1,,,,"Mechanologist, Equipment, Legs",Battleworn,,,,,,"Whenever you banish a Hyper Driver from boosting, remove a -1{d} counter from this.
@@ -24,7 +24,7 @@ AMX014,AMX,Throttle,1,,,,,,,,,,,,,,,,,,,,,C,,,Kevin Sidharta,,,AMX014,/AMX014.pn
 AMX015,AMX,Zero to Fifty,1,,,,,,,,,,,,,,,,,,,,,C,,,Riordan Delmiro,,,AMX015,/AMX015.png,,,,,,,,,,,,,,,,,,,
 AMX016,AMX,Zero to Sixty,1,,,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,,AMX016,/AMX016.png,,,,,,,,,,,,,,,,,,,
 AMX017,AMX,Zipper Hit,1,,,,,,,,,,,,,,,,,,,,,C,,,Sergey Gurskiy,,,AMX017,/AMX017.png,,,,,,,,,,,,,,,,,,,
-AMX018,AMX,Twintek Charging Station,1,0,,2,,,,"Mechanologist, Action",Go again,,,,,,"The next attack you boost this turn gets +3{p}.
+AMX018,AMX,Twintek Charging Station,1,0,,2,,,,"Mechanologist, Action",Go again,,,,,Boost,"The next attack you boost this turn gets +3{p}.
 
 You may shuffle a Hyper Driver from your graveyard into your deck. If you do, gain {r}.
 
@@ -35,7 +35,7 @@ AMX021,AMX,Zero to Sixty,2,,,,,,,,,,,,,,,,,,,,,C,,,Fedor Barkhatov,,,AMX021,/AMX
 AMX022,AMX,Construct Bank Breaker,2,0,,3,,,,"Mechanologist, Action, Construct","Transform, Go again",,,,,,"If you have a wrench weapon equipped, **transform** it and 3 Hyper Drivers you control into Bank Breaker, then equip Bank Breaker.
 
 **Go again**",Mechanologist Action - Construct,,,,No,,M,R,,Andi Cahyo W,,,AMX022,/AMX022.png,,,,,,,,,,,,,,,,,,,
-AMX022,AMX,Bank Breaker,,,3,,,,,"Mechanologist, Weapon, Wrench, 2H","Overpower, Go again",Twice per Turn Action,,,,,"**Twice per Turn Action** - {r}: **Attack**. Activate this only if you've cranked this turn.
+AMX022,AMX,Bank Breaker,,,3,,,,,"Mechanologist, Weapon, Wrench, 2H",,Twice per Turn Action,Attack,"Overpower, Go again",,,"**Twice per Turn Action** - {r}: **Attack**. Activate this only if you've cranked this turn.
 
 When this attacks, you may banish a card from under it. If you do, the attack gets **overpower** and **go again**.",Mechanologist Weapon - Wrench (2H),,,,No,,M,R,,M Fakhrur Rozzi,,,AMX022,/AMX022_BACK.png,,,,,,,,,,,,,,,,,,,
 AMX023,AMX,Hyper Driver,2,,,,,,,,,,,,,,,,,,,,,C,,,Alexander Mokhov,,,AMX023,/AMX023.png,,,,,,,,,,,,,,,,,,,
