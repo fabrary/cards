@@ -55,6 +55,9 @@ export const orderedFullSetBlackBorderIdentifiers = Object.keys(
 const specialImagePrintingOverrides: {
   [key: string]: { print: string };
 } = {
+  "adaptive-plating": {
+    print: "EVO013-Cold",
+  },
   "command-and-conquer-red": {
     print: "DYN000-Cold-Alternate Art-Extended Art",
   },
