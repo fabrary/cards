@@ -1422,6 +1422,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["asr"],
     talents: [],
   },
+  {
+    cards: 130,
+    classes: [Class.Guardian],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Valda],
+    languages: ALL_LANGUAGES,
+    release: Release.MasteryPackGuardian,
+    relatedReleases: [],
+    releaseDate: "2025-08-08 12:00",
+    releaseType: ReleaseType.ExpansionBooster,
+    setIdentifiers: ["mpg"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1443,6 +1458,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   ros: Release.Rosetta,
   hnt: Release.TheHunted,
   sea: Release.HighSeas,
+  mpg: Release.MasteryPackGuardian,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {

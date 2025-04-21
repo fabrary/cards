@@ -1,7 +1,7 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
 AGB001,AGB,"Gravy Bones, Shipwrecked Looter",,,,,40,4,,"Pirate, Necromancer, Hero",,Instant,,,,,"**Instant** - {t}, destroy a Gold you control: Draw a card, then discard a card.
 
-If a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",Pirate Necromancer Hero,,No,,No,,B,S,,Nathaniel Himawan,,,AGB001,,,,,,,,,,,,,,,,,,,,
+If a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",Pirate Necromancer Hero,,No,,No,,B,S,,Nathaniel Himawan,,,AGB001,/AGB001.png,,,,,,,,,,,,,,,,,,,
 AGB002,AGB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AGB002,,,,,,,,,,,,,,,,,,,,
 AGB003,AGB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AGB003,,,,,,,,,,,,,,,,,,,,
 AGB004,AGB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AGB004,,,,,,,,,,,,,,,,,,,,
@@ -23,7 +23,7 @@ AGB019,AGB,"Sawbones, Dock Hand",2,2,6,,2,,,"Pirate, Necromancer, Action, Ally",
 
 **Instant** - {t}: The next time you or a Pirate you control would be dealt damage this turn, prevent 1 of that damage.
 
-**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Isuardi Therianto,,,AGB019,/AGB019-temp.png,,,,,,,,,,,,,,,,,,,
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Isuardi Therianto,,,AGB019,/AGB019.png,,,,,,,,,,,,,,,,,,,
 AGB020,AGB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AGB020,,,,,,,,,,,,,,,,,,,,
 AGB021,AGB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AGB021,,,,,,,,,,,,,,,,,,,,
 AGB022,AGB,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AGB022,,,,,,,,,,,,,,,,,,,,

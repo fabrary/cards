@@ -234,6 +234,7 @@ export enum Release {
 
   // Other decks
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
+  MasteryPackGuardian = "Mastery Pack: Guardian",
   IraWelcomeDeck = "Ira Welcome Deck",
   RoundTheTable = "Round the Table: TCC x LSS",
 
