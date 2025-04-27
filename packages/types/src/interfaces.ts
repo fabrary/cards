@@ -132,6 +132,7 @@ export enum Format {
   Commoner = "Commoner",
   Draft = "Draft",
   Open = "Open",
+  ProjectBlue = "Project Blue",
   Sealed = "Sealed",
   UltimatePitFight = "Ultimate Pit Fight",
 }

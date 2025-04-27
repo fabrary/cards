@@ -99,7 +99,7 @@ Draw a card, then discard a card.
     cardIdentifier: "board-the-ship-red",
     classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA053",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Board the Ship",
     printings: [{
@@ -314,7 +314,7 @@ Instant - {t}, discard a card with watery grave: Until end of turn, opponents mu
     cardIdentifier: "compass-of-sunken-depths",
     classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA045",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Compass of Sunken Depths",
     printings: [{
@@ -491,7 +491,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     cardIdentifier: "flying-high-red",
     classes: [Class.Generic],
     defaultImage: "SEA206",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Flying High",
     printings: [{
@@ -550,7 +550,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     cardIdentifier: "flying-high-yellow",
     classes: [Class.Generic],
     defaultImage: "SEA207",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Flying High",
     printings: [{
@@ -610,7 +610,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     cardIdentifier: "flying-high-blue",
     classes: [Class.Generic],
     defaultImage: "SEA208",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Flying High",
     printings: [{
@@ -669,7 +669,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     cardIdentifier: "gold",
     classes: [Class.Generic],
     defaultImage: "SEA244",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Gold",
     printings: [{
@@ -797,7 +797,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     cardIdentifier: "golden-cog",
     classes: [Class.Mechanologist],
     defaultImage: "SEA042",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Golden Cog",
     printings: [{
@@ -949,7 +949,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     cardIdentifier: "goldfin-harpoon",
     classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA093",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Goldfin Harpoon",
     printings: [{
@@ -1018,7 +1018,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     cardIdentifier: "goldkiss-rum",
     classes: [Class.Generic],
     defaultImage: "SEA245",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Goldkiss Rum",
     printings: [{
@@ -1159,7 +1159,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA084",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Hammerhead, Harpoon Cannon",
     printings: [{
@@ -1216,7 +1216,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cardIdentifier: "hoist-em-up-red",
     classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA055",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Hoist 'Em Up",
     printings: [{
@@ -1494,7 +1494,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     cardIdentifier: "paddle-faster-red",
     classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "SEA054",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Paddle Faster",
     printings: [{
@@ -1622,7 +1622,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     cardIdentifier: "peg-leg",
     classes: [Class.Pirate],
     defaultImage: "SEA129",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Peg Leg",
     printings: [{
@@ -1826,7 +1826,7 @@ The second time you crank each turn, draw a card.`,
     cardIdentifier: "redspine-manta",
     classes: [Class.Ranger],
     defaultImage: "SEA094",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Redspine Manta",
     printings: [{
@@ -1883,7 +1883,7 @@ The second time you crank each turn, draw a card.`,
     cardIdentifier: "sky-skimmer-red",
     classes: [Class.Mechanologist],
     defaultImage: "SEA027",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Sky Skimmer",
     printings: [{
@@ -1952,7 +1952,7 @@ The second time you crank each turn, draw a card.`,
     cardIdentifier: "sky-skimmer-yellow",
     classes: [Class.Mechanologist],
     defaultImage: "SEA028",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Sky Skimmer",
     printings: [{
@@ -2021,7 +2021,7 @@ The second time you crank each turn, draw a card.`,
     cardIdentifier: "sky-skimmer-blue",
     classes: [Class.Mechanologist],
     defaultImage: "SEA029",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Sky Skimmer",
     printings: [{

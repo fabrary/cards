@@ -11,6 +11,7 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import { clashBannedCards, clashLegalOverrides } from "./clash";
+import { projectBlueBannedCards } from "./project-blue";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
 const limitedLegalOverrideCards = [
@@ -79,7 +80,9 @@ export const getLegalFormats = (
       const isBanned = clashBannedCards.includes(card.name);
       const isNotTooRare =
         rarities.some((rarity) =>
-          [Rarity.Token, Rarity.Common, Rarity.Rare].includes(rarity)
+          [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
+            rarity
+          )
         ) || rarities.every((rarity) => rarity === Rarity.Promo);
       const isMentor = types.includes(Type.Mentor);
       const isSpecialization =
@@ -98,6 +101,21 @@ export const getLegalFormats = (
           isWeapon ||
           isYoungHero);
 
+      if (!isAllowed) {
+        isLegalPerFormat = false;
+      }
+    }
+
+    const isProjectBlueFormat = format === Format.ProjectBlue;
+    if (isProjectBlueFormat) {
+      const isBanned = projectBlueBannedCards.includes(card.name);
+      const isNotTooRare = rarities.some((rarity) =>
+        [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
+          rarity
+        )
+      );
+
+      const isAllowed = !isBanned && isNotTooRare;
       if (!isAllowed) {
         isLegalPerFormat = false;
       }
