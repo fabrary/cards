@@ -181,7 +181,7 @@ export enum Release {
   Uprising = "Uprising",
   WelcomeToRathe = "Welcome to Rathe",
 
-  // Hero/blitz/armory decks
+  // Armory decks
   ArmoryDeckAurora = "Armory Deck: Aurora",
   ArmoryDeckAzalea = "Armory Deck: Azalea",
   ArmoryDeckBoltyn = "Armory Deck: Boltyn",
@@ -190,7 +190,11 @@ export enum Release {
   ArmoryDeckIra = "Armory Deck: Ira",
   ArmoryDeckKayo = "Armory Deck: Kayo",
   ArmoryDeckMaxx = "Armory Deck: Maxx",
+
   ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
+
+  ArmoryDeckLegendsPrism = "Armory Deck Legends: Prism",
+  ArmoryDeckLegendsViserai = "Armory Deck Legends: Viserai",
 
   // Blitz decks
   ArakniBlitzDeck = "Arakni Blitz Deck",
@@ -234,6 +238,7 @@ export enum Release {
   RhinarHeroDeck = "Rhinar Hero Deck",
 
   // Other decks
+  BravoDemoDeck = "Bravo Demo Deck",
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
   MasteryPackGuardian = "Mastery Pack: Guardian",
   IraWelcomeDeck = "Ira Welcome Deck",

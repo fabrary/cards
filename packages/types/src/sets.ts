@@ -1393,10 +1393,10 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [
       // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
     ],
-    // draft: {
-    //   heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
-    //   picksPerPack: 14,
-    // },
+    draft: {
+      heroIdentifiers: ["gravy-bones", "marlynn", "puffin"],
+      picksPerPack: 14,
+    },
     heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Fabled, Rarity.Legendary],
@@ -1423,6 +1423,36 @@ export const releases: ReleaseInfo[] = [
     talents: [],
   },
   {
+    cards: 30,
+    classes: [Class.Runeblade],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Viserai],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckLegendsViserai,
+    relatedReleases: [],
+    releaseDate: "2025-07-24 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["avs"],
+    talents: [],
+  },
+  {
+    cards: 30,
+    classes: [Class.Illusionist],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Prism],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckLegendsPrism,
+    relatedReleases: [],
+    releaseDate: "2025-07-24 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["apr"],
+    talents: [Talent.Light],
+  },
+  {
     cards: 130,
     classes: [Class.Guardian],
     deckLinks: [
@@ -1435,6 +1465,21 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2025-08-08 12:00",
     releaseType: ReleaseType.ExpansionBooster,
     setIdentifiers: ["mpg"],
+    talents: [],
+  },
+  {
+    cards: 30,
+    classes: [Class.Guardian],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Bravo],
+    languages: ALL_LANGUAGES,
+    release: Release.BravoDemoDeck,
+    relatedReleases: [],
+    releaseDate: "2025-08-08 12:00",
+    releaseType: ReleaseType.WelcomeDeck,
+    setIdentifiers: ["bdd"],
     talents: [],
   },
 ];
@@ -1474,6 +1519,8 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   amx: Release.ArmoryDeckMaxx,
   agb: Release.ArmoryDeckGravyBones,
   asr: Release.ArmoryDeckIra,
+  apr: Release.ArmoryDeckLegendsPrism,
+  avs: Release.ArmoryDeckLegendsViserai,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
@@ -1511,6 +1558,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ter: Release.FirstStrikeTerra,
 
   // Starter decks
+  bdd: Release.BravoDemoDeck,
   dvr: Release.ClassicBattlesRhinarDorinthea,
   rvd: Release.ClassicBattlesRhinarDorinthea,
   ira: Release.IraWelcomeDeck,

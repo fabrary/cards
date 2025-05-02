@@ -1053,7 +1053,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -1070,6 +1070,65 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "gravy-bones",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA044",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Gravy Bones",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "SEA044",
+      image: "SEA044",
+      
+      
+      print: "SEA044",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA044"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA044",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Pirate Necromancer Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {t}, destroy a Gold you control: Draw a card, then discard a card.
+
+If a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.`,
+    
+    hero: Hero.GravyBones,
+    intellect: 4,
+    
+    
+    
+    life: 20,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  young: true
   },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
@@ -1194,7 +1253,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
     
     
     
@@ -1406,6 +1465,65 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
+  },{
+    artists: ["Sam Yang"],
+    cardIdentifier: "marlynn",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "SEA083",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Marlynn",
+    printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "SEA083",
+      image: "SEA083",
+      
+      
+      print: "SEA083",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA083"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA083",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Pirate Ranger Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
+
+Whenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.`,
+    
+    hero: Hero.Marlynn,
+    intellect: 4,
+    
+    
+    
+    life: 20,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  young: true
   },{
     artists: ["Sam Yang"],
     cardIdentifier: "marlynn-treasure-hunter",
@@ -1738,6 +1856,65 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
+  },{
+    artists: ["Arif Wijaya"],
+    cardIdentifier: "puffin",
+    classes: [Class.Mechanologist,Class.Pirate],
+    defaultImage: "SEA002",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Puffin",
+    printings: [{
+        artists: ["Arif Wijaya"],
+      
+      identifier: "SEA002",
+      image: "SEA002",
+      
+      
+      print: "SEA002",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA002"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA002",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Pirate Mechanologist Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {t}, destroy a Gold you control: Create a Golden Cog token.
+
+The second time you crank each turn, draw a card.`,
+    
+    hero: Hero.Puffin,
+    intellect: 4,
+    
+    
+    
+    life: 20,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  young: true
   },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
