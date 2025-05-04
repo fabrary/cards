@@ -80,6 +80,7 @@ export const shorthands: {
     shorthands: ["Poppers", "Popper"],
   },
   { description: "Spellvoid", filters: ['k:"spellvoid"'], shorthands: ["SV"] },
+  { description: "Tap", filters: ["{t}"], shorthands: ["Tap"] },
 ];
 
 export const multiWordShorthands = shorthands

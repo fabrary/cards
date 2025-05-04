@@ -107,6 +107,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Channel Mount Heroic",
   },
   {
+    abbreviations: ["CMI"],
+    card: "Channel Mount Isen",
+  },
+  {
     abbreviations: ["CMT"],
     card: "Channel the Millennium Tree",
   },
@@ -254,6 +258,10 @@ export const abbreviations: Abbreviation[] = [
   {
     abbreviations: ["PoM"],
     card: "Peace of Mind",
+  },
+  {
+    abbreviations: ["P-Bone"],
+    card: "Performance Bonus",
   },
   {
     abbreviations: ["PF", "🔥"],
