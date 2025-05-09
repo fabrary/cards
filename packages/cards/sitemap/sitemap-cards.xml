@@ -3491,6 +3491,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/crash-and-bash-red</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/crash-and-bash-yellow</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/crash-and-bash-blue</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/crash-down-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -5961,6 +5976,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/flatten-the-field-red</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flatten-the-field-yellow</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flatten-the-field-blue</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/fleece-the-frail-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6848,6 +6878,21 @@
   <url>
     <loc>https://fabrary.net/cards/grimoire-of-the-haunt</loc>
     <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/grind-them-down-red</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/grind-them-down-yellow</loc>
+    <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/grind-them-down-blue</loc>
+    <lastmod>2025-05-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8578,6 +8623,11 @@
   <url>
     <loc>https://fabrary.net/cards/knives-out-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/knock-em-off-their-feet-red</loc>
+    <lastmod>2025-05-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
