@@ -32,6 +32,11 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open
 );
 
+const CARDS_TO_LOG: string[] = [
+  // "Aurora, Shooting Star",
+  // "Star Fall",
+];
+
 export const getLegalFormats = (
   bannedFormats: Format[],
   card: {
@@ -186,23 +191,25 @@ export const getLegalFormats = (
     const shouldAddToFormat =
       isLegalPerFormat && isNotBanned && isLegalPerHeroAge;
 
-    // if (card.name === "Ser Boltyn, Breaker of Dawn") {
-    //   console.log(
-    //     JSON.stringify(
-    //       {
-    //         heroMatchesFormat,
-    //         isLegalPerHeroAge,
-    //         isLegalPerFormat,
-    //         isNotBanned,
-    //         isHero,
-    //         format,
-    //         shouldAddToFormat,
-    //       },
-    //       null,
-    //       2
-    //     )
-    //   );
-    // }
+    if (CARDS_TO_LOG.includes(card.name)) {
+      console.log(
+        JSON.stringify(
+          {
+            name: card.name,
+            classicConstructedLegal,
+            heroMatchesFormat,
+            isLegalPerHeroAge,
+            isLegalPerFormat,
+            isNotBanned,
+            isHero,
+            format,
+            shouldAddToFormat,
+          },
+          null,
+          2
+        )
+      );
+    }
 
     if (shouldAddToFormat) {
       legalFormats.push(format);
