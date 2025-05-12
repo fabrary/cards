@@ -604,7 +604,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["SanSan"],
     cardIdentifier: "flying-high-blue",
     classes: [Class.Generic],
@@ -663,8 +664,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Nikolay Moskvin","Stormy Elia Fanggidae"],
     cardIdentifier: "gold",
     classes: [Class.Generic],
@@ -1236,7 +1236,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -1293,8 +1294,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hoist-em-up-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1842,7 +1842,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Rio Sabda"],
     cardIdentifier: "polly-cranka",
     classes: [],
@@ -1903,8 +1904,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -2117,65 +2117,6 @@ The second time you crank each turn, draw a card.`,
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  },{
-    artists: ["Max Kostin"],
-    cardIdentifier: "riggermortis-yellow",
-    classes: [Class.Necromancer,Class.Pirate],
-    defaultImage: "SEA077",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
-    legalHeroes: [],
-    name: "Riggermortis",
-    printings: [{
-        artists: ["Max Kostin"],
-      foiling: Foiling.C,
-      identifier: "SEA077",
-      image: "SEA077",
-      
-      
-      print: "SEA077-Cold-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.HighSeas,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["LGS406","SEA077"],
-    sets: [Release.HighSeas,Release.Promos],
-    specialImage: "SEA077",
-    subtypes: [Subtype.Ally,Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Pirate Necromancer Action - Ally",
-
-    
-    
-    cost: 1,
-    
-    
-    functionalText: `**Action** - {r}, {t}: **Attack**
-
-**Watery Grave**`,
-    
-    
-    
-    
-    keywords: [Keyword.WateryGrave],
-    
-    life: 1,
-    
-    
-    pitch: 2,
-    power: 6,
     
     
     
