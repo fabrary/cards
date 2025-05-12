@@ -1090,12 +1090,36 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "SEA044",
+      image: "SEA044-MV",
+      
+      
+      print: "SEA044-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "SEA044",
+      image: "SEA044-MV_BACK",
+      
+      
+      print: "SEA044-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA044"],
     sets: [Release.HighSeas],
-    specialImage: "SEA044",
+    specialImage: "SEA044-MV_BACK",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Pirate Necromancer Hero - Young",
@@ -1485,12 +1509,36 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Sam Yang"],
+      foiling: Foiling.C,
+      identifier: "SEA083",
+      image: "SEA083-MV",
+      
+      
+      print: "SEA083-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Sam Yang"],
+      foiling: Foiling.C,
+      identifier: "SEA083",
+      image: "SEA083-MV_BACK",
+      
+      
+      print: "SEA083-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA083"],
     sets: [Release.HighSeas],
-    specialImage: "SEA083",
+    specialImage: "SEA083-MV_BACK",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Pirate Ranger Hero - Young",
@@ -1876,12 +1924,36 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.C,
+      identifier: "SEA002",
+      image: "SEA002-MV",
+      
+      
+      print: "SEA002-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.C,
+      identifier: "SEA002",
+      image: "SEA002-MV_BACK",
+      
+      
+      print: "SEA002-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA002"],
     sets: [Release.HighSeas],
-    specialImage: "SEA002",
+    specialImage: "SEA002-MV_BACK",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Pirate Mechanologist Hero - Young",
