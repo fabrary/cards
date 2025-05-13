@@ -428,6 +428,63 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   
   },{
+    artists: ["Alexandra Malygina","Sam Yang"],
+    cardIdentifier: "cracked-bauble-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SEA246",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cracked Bauble",
+    printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "SEA246",
+      image: "SEA246",
+      
+      
+      print: "SEA246",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["ARC218","CRU195","ELE237","HNT245","HVY244","LGS083","LGS227","MON306","MST224","OUT238","ROS238","SEA246","UPR224","WTR224"],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HeavyHitters,Release.HighSeas,Release.Monarch,Release.Outsiders,Release.PartTheMistveil,Release.Promos,Release.Rosetta,Release.TalesOfAria,Release.TheHunted,Release.Uprising,Release.WelcomeToRathe],
+    specialImage: "SEA246",
+    subtypes: [],
+    types: [Type.Resource],
+    typeText: "Generic Resource",
+
+    
+    
+    
+    
+    
+    functionalText: `*(A player may add any number of Cracked Baubles to their card-pool in sealed deck or booster draft formats.)*`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "diamond-amulet-blue",
     classes: [Class.Generic],
@@ -1842,8 +1899,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "polly-cranka",
     classes: [],
@@ -1904,7 +1960,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -2117,6 +2174,65 @@ The second time you crank each turn, draw a card.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "riggermortis-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA077",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Riggermortis",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "SEA077",
+      image: "SEA077",
+      
+      
+      print: "SEA077",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["LGS406","SEA077"],
+    sets: [Release.HighSeas,Release.Promos],
+    specialImage: "SEA077",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `**Action** - {r}, {t}: **Attack**
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 1,
+    
+    
+    pitch: 2,
+    power: 6,
     
     
     
