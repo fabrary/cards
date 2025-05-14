@@ -603,21 +603,21 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   
   },{
-    artists: ["Tomasz Jedruszek"],
+    artists: ["Anthony Avon"],
     cardIdentifier: "expedition-to-azuro-keys-red",
     classes: [Class.Pirate],
-    defaultImage: "SEA156",
+    defaultImage: "SEA155",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Expedition to Azuro Keys",
     printings: [{
-        artists: ["Tomasz Jedruszek"],
+        artists: ["Anthony Avon"],
       
-      identifier: "SEA156",
-      image: "SEA156",
+      identifier: "SEA155",
+      image: "SEA155",
       
       
-      print: "SEA156",
+      print: "SEA155",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -625,9 +625,9 @@ The first card with watery grave you play from your graveyard each turn gets go 
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA156"],
+    setIdentifiers: ["SEA155"],
     sets: [Release.HighSeas],
-    specialImage: "SEA156",
+    specialImage: "SEA155",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -660,21 +660,21 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   
   },{
-    artists: ["Carlos Cruchaga"],
+    artists: ["Tomasz Jedruszek"],
     cardIdentifier: "expedition-to-blackwater-strait-red",
     classes: [Class.Pirate],
-    defaultImage: "SEA155",
+    defaultImage: "SEA156",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Expedition to Blackwater Strait",
     printings: [{
-        artists: ["Carlos Cruchaga"],
+        artists: ["Tomasz Jedruszek"],
       
-      identifier: "SEA155",
-      image: "SEA155",
+      identifier: "SEA156",
+      image: "SEA156",
       
       
-      print: "SEA155",
+      print: "SEA156",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -682,9 +682,9 @@ The first card with watery grave you play from your graveyard each turn gets go 
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA155"],
+    setIdentifiers: ["SEA156"],
     sets: [Release.HighSeas],
-    specialImage: "SEA155",
+    specialImage: "SEA156",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -718,21 +718,21 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   }];
   const cards2: Card[] =  [{
-    artists: ["Anthony Avon"],
+    artists: ["Arkoii"],
     cardIdentifier: "expedition-to-dreadfall-reach-red",
     classes: [Class.Pirate],
-    defaultImage: "SEA158",
+    defaultImage: "SEA157",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Expedition to Dreadfall Reach",
     printings: [{
-        artists: ["Anthony Avon"],
+        artists: ["Arkoii"],
       
-      identifier: "SEA158",
-      image: "SEA158",
+      identifier: "SEA157",
+      image: "SEA157",
       
       
-      print: "SEA158",
+      print: "SEA157",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -740,9 +740,9 @@ The first card with watery grave you play from your graveyard each turn gets go 
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA158"],
+    setIdentifiers: ["SEA157"],
     sets: [Release.HighSeas],
-    specialImage: "SEA158",
+    specialImage: "SEA157",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -775,21 +775,21 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   
   },{
-    artists: ["Arkoii"],
+    artists: ["Carlos Cruchaga"],
     cardIdentifier: "expedition-to-horizons-mantle-red",
     classes: [Class.Pirate],
-    defaultImage: "SEA157",
+    defaultImage: "SEA158",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Expedition to Horizon's Mantle",
     printings: [{
-        artists: ["Arkoii"],
+        artists: ["Carlos Cruchaga"],
       
-      identifier: "SEA157",
-      image: "SEA157",
+      identifier: "SEA158",
+      image: "SEA158",
       
       
-      print: "SEA157",
+      print: "SEA158",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -797,9 +797,9 @@ The first card with watery grave you play from your graveyard each turn gets go 
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA157"],
+    setIdentifiers: ["SEA158"],
     sets: [Release.HighSeas],
-    specialImage: "SEA157",
+    specialImage: "SEA158",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
