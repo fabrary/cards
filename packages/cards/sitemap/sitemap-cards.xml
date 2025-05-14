@@ -2501,6 +2501,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/burn-bare</loc>
+    <lastmod>2025-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/burn-rubber-red</loc>
     <lastmod>2023-09-26</lastmod>
     <priority>0.5</priority>
@@ -5483,6 +5488,26 @@
   <url>
     <loc>https://fabrary.net/cards/expedite-blue</loc>
     <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/expedition-to-azuro-keys-red</loc>
+    <lastmod>2025-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/expedition-to-blackwater-strait-red</loc>
+    <lastmod>2025-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/expedition-to-dreadfall-reach-red</loc>
+    <lastmod>2025-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/expedition-to-horizons-mantle-red</loc>
+    <lastmod>2025-05-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -16393,6 +16418,11 @@
   <url>
     <loc>https://fabrary.net/cards/timidity-point-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tip-the-barkeep-blue</loc>
+    <lastmod>2025-05-14</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

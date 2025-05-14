@@ -173,7 +173,11 @@ SEA130,SEA,Conqueror of the High Seas,1,4,7,3,,,,"Pirate, Action, Attack","High 
 
 **High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **go again**.",Pirate Action - Attack,,,,No,,M,,,Max Kostin,,,SEA130,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA131,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA132,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA132,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA132,SEA,Tip the Barkeep,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Create a Goldkiss Rum token.
+
+You may give a Gold token you control to another hero. If you do, put this on the bottom of its owner's deck.
+
+**Go again**",Pirate Action,,,,No,,M,,,Tomasz Jedruszek,,,SEA132,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA133,SEA,Sunken Treasure,3,,,3,,,,"Pirate, Block",,,,,,,"When this defends, you may turn a card in a graveyard face-down. If it's yellow, create a Gold token.",Pirate Block,,,,No,,M,,,Ramza Ardyputra,,,SEA133,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA133.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA134,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA135,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -196,10 +200,10 @@ SEA151,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA151,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA152,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA152,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA153,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA153,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA154,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA155,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA155,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA156,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA156,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA157,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA157,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA158,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA158,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA155,SEA,Expedition to Blackwater Strait,1,1,5,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Carlos Cruchaga,,,SEA155,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA156,SEA,Expedition to Azuro Keys,1,0,4,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,SEA156,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA157,SEA,Expedition to Horizon's Mantle,1,3,7,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Arkoii,,,SEA157,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA158,SEA,Expedition to Dreadfall Reach,1,2,6,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Anthony Avon,,,SEA158,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA159,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA160,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA160,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA161,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA161,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -306,7 +310,9 @@ SEA251,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA251,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA252,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA252,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA253,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA253,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA254,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA254,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA255,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA255,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA255,SEA,Burn Bare,,3,,3,,,6,"Wizard, Action",,,,,,,"Deal 6 arcane damage to any target.
+
+**Instant** - Discard this: Destroy target card with phantasm that is attacking you.",Wizard Action,,,,No,,M,,,Rio Sabda,Yes,,SEA255,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA256,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA256,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA257,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA257,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA258,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA258,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

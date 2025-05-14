@@ -164,6 +164,65 @@ Draw a card, then discard a card.
   
   
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "burn-bare",
+    classes: [Class.Wizard],
+    defaultImage: "SEA255",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Burn Bare",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "SEA255",
+      image: "SEA255",
+      isExpansionSlot: true,
+      
+      print: "SEA255",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA255"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA255",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Wizard Action",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `Deal 6 arcane damage to any target.
+
+**Instant** - Discard this: Destroy target card with phantasm that is attacking you.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "chart-the-high-seas-blue",
     classes: [Class.Necromancer,Class.Pirate],
@@ -544,6 +603,235 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "expedition-to-azuro-keys-red",
+    classes: [Class.Pirate],
+    defaultImage: "SEA156",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Expedition to Azuro Keys",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SEA156",
+      image: "SEA156",
+      
+      
+      print: "SEA156",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA156"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA156",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "expedition-to-blackwater-strait-red",
+    classes: [Class.Pirate],
+    defaultImage: "SEA155",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Expedition to Blackwater Strait",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SEA155",
+      image: "SEA155",
+      
+      
+      print: "SEA155",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA155"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA155",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards2: Card[] =  [{
+    artists: ["Anthony Avon"],
+    cardIdentifier: "expedition-to-dreadfall-reach-red",
+    classes: [Class.Pirate],
+    defaultImage: "SEA158",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Expedition to Dreadfall Reach",
+    printings: [{
+        artists: ["Anthony Avon"],
+      
+      identifier: "SEA158",
+      image: "SEA158",
+      
+      
+      print: "SEA158",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA158"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA158",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Arkoii"],
+    cardIdentifier: "expedition-to-horizons-mantle-red",
+    classes: [Class.Pirate],
+    defaultImage: "SEA157",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Expedition to Horizon's Mantle",
+    printings: [{
+        artists: ["Arkoii"],
+      
+      identifier: "SEA157",
+      image: "SEA157",
+      
+      
+      print: "SEA157",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA157"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA157",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["SanSan"],
     cardIdentifier: "flying-high-red",
     classes: [Class.Generic],
@@ -661,8 +949,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["SanSan"],
     cardIdentifier: "flying-high-blue",
     classes: [Class.Generic],
@@ -1127,7 +1414,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1293,8 +1581,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -1899,7 +2186,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Rio Sabda"],
     cardIdentifier: "polly-cranka",
     classes: [],
@@ -1960,8 +2248,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -2491,6 +2778,67 @@ The second time you crank each turn, draw a card.`,
     
     
     
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "tip-the-barkeep-blue",
+    classes: [Class.Pirate],
+    defaultImage: "SEA132",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Tip the Barkeep",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SEA132",
+      image: "SEA132",
+      
+      
+      print: "SEA132",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA132"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA132",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Create a Goldkiss Rum token.
+
+You may give a Gold token you control to another hero. If you do, put this on the bottom of its owner's deck.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
     
     
     
