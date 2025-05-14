@@ -836,8 +836,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Arkoii"],
     cardIdentifier: "expedition-to-dreadfall-reach-red",
     classes: [Class.Pirate],
@@ -894,7 +893,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "expedition-to-horizons-mantle-red",
     classes: [Class.Pirate],
@@ -1674,8 +1674,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1758,7 +1757,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2544,8 +2544,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Nikko Wahyudi"],
     cardIdentifier: "portside-exchange-blue",
     classes: [Class.Pirate],
@@ -2604,7 +2603,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -2872,6 +2872,63 @@ The second time you crank each turn, draw a card.`,
     keywords: [Keyword.WateryGrave],
     
     life: 1,
+    
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "sea-legs-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SEA187",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Sea Legs",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SEA187",
+      image: "SEA187",
+      
+      
+      print: "SEA187",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA187"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA187",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this is discarded, create a Goldkiss Rum token.`,
+    
+    
+    
+    
+    
+    
+    
     
     
     pitch: 2,
