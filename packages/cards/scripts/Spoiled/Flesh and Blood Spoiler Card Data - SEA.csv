@@ -77,7 +77,9 @@ Instant - {t}, discard a card with watery grave: Until end of turn, opponents mu
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,S,,Lius Lasahido,,,SEA050,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA050.webp,,,V,C,FA,Lius Lasahido,,,SEA050,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA050-MV.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA051,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA052,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA052,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA052,SEA,Wailer Humperdinck,2,6,11,,7,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r} {r}{r}{r}, {t}: Attack
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,V,C,FA,Joseph Qiu,,,SEA052,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA053, FAB347","SEA, FAB",Board the Ship,1,2,6,3,,,,"Pirate, Necromancer, Action, Attack",Overpower,,,,,,"When this attacks, you may {t} an ally you control. If you do, this gets **overpower**.",Pirate Necromancer Action - Attack,,,,No,,R,S,,Faizal Fikri,,"""The Reach is dead, but it ain't deserted."" - Captain Rue's Log, final entry",SEA053,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA053.webp,,,R,R,,Faizal Fikri,,"""The Reach is dead, but it ain't deserted."" - Captain Rue's Log, final entry",SEA053,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA053.webp,,,P,R,EA,Faizal Fikri,,,FAB347,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB347-RF.webp,,,,,,,,,,,,,,,,,,,,,
 "SEA054, FAB348","SEA, FAB",Paddle Faster,1,0,4,3,,,,"Pirate, Necromancer, Action, Attack",Go again,,,,,,"When this attacks, you may {t} an ally you control. If you do, this gets **go again**.",Pirate Necromancer Action - Attack,,,,No,,R,S,,Marco González,,"Dreadfall Reach. Those who knew its Dhani name are long dead, killed by arcane ambition.",SEA054,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA054.webp,,,R,R,,Marco González,,"Dreadfall Reach. Those who knew its Dhani name are long dead, killed by arcane ambition.",SEA054,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA054.webp,,,P,R,EA,Marco González,,,FAB348,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB348-RF.webp,,,,,,,,,,,,,,,,,,,,,
 "SEA055, FAB349","SEA, FAB",Hoist 'Em Up,1,,,4,,,,"Pirate, Necromancer, Block",,,,,,,"When this defends, you may {t} an ally you control. If you do, this gets +1{d}.",Pirate Necromancer Block,,,,No,,R,S,,Thomas Ressuge,,,SEA055,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA055.webp,,,R,R,,Thomas Ressuge,,,SEA055,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA055.webp,,,P,R,EA,Thomas Ressuge,,,FAB349,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB349-RF.webp,,,,,,,,,,,,,,,,,,,,,
@@ -85,7 +87,9 @@ SEA056,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA056,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA057,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA057,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA058,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA058,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA059,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA059,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA060,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA060,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA060,SEA,"Limpit, Hop-a-long",2,0,2,,1,,,"Pirate, Necromancer, Action, Ally","Go again, Watery Grave",,,,,,"**Action** - {r}, {t}: Attack. **Go again**
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,V,C,FA,Tomasz Jedruszek,,,SEA060,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA061,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA061,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA062,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA062,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA063,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA063,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -99,8 +103,14 @@ SEA070,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA070,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA071,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA071,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA072,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA072,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA073,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA073,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA074,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA074,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA075,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA075,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA074,SEA,Barnacle,2,2,4,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {t}: Attack
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,V,C,FA,Ausonia,,,SEA074,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA075,SEA,"Chowder, Hearty Cook",2,3,3,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {t}: Attack
+
+**Instant** - {t}: Gain 1{h}
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,V,C,FA,Simon Dominic,,,SEA075,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA076,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA076,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "LGS406, SEA077","LGS, SEA",Riggermortis,2,1,6,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,Attack,,,,"**Action** - {r}, {t}: **Attack**
 
@@ -130,7 +140,9 @@ SEA091,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA091,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA092,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA093,SEA,Goldfin Harpoon,,0,2,,,,,"Pirate, Ranger, Action, Arrow, Attack",,,,,,,"If this would be put into a graveyard, instead remove it from the game.",Pirate Ranger Action - Arrow Attack,,,,,,B,S,,Bastien Jez,,,SEA093,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA093.webp,,,V,C,FA,Bastien Jez,,,SEA093,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA093-TP.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA094,SEA,Redspine Manta,,,,,,,,"Ranger, Weapon, Bow, 2H",,Action,Go again,,,,**Action** - {t}: Put an arrow from your hand face-up into your arsenal. **Go again**,Ranger Weapon - Bow (2H),,,,,,B,,,Konadekana,,,SEA094,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA095,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA095,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA095,SEA,Sealace Sarong,,,,2,,,,"Ranger, Equipment, Legs",Blade Break,,,,,,"**Instant** - {t}, turn a blue arrow in your arsenal face-up: it gets **go again** this turn.
+
+**Blade Break**",Ranger Equipment - Legs,,,,No,,L,R,,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA096,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA097,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA098,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA098,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -172,7 +184,11 @@ SEA129,SEA,Peg Leg,,,,1,,,,"Pirate, Equipment, Legs",Blade Break,Action,Go again
 SEA130,SEA,Conqueror of the High Seas,1,4,7,3,,,,"Pirate, Action, Attack","High Tide, Go again",,,,,,"When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.
 
 **High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **go again**.",Pirate Action - Attack,,,,No,,M,,,Max Kostin,,,SEA130,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA131,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA131,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA131,SEA,Loan Shark,2,0,,3,,,,"Pirate, Action, Aura",Go again,,,,,,"Go again
+
+When this enters the arena, create 2 Gold tokens.
+
+At the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this, then lose 2{g} unless you discard a card.",Pirate Action - Aura,,,,No,,M,,,Narendra B Adi,,,SEA131,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA131.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA132,SEA,Tip the Barkeep,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Create a Goldkiss Rum token.
 
 You may give a Gold token you control to another hero. If you do, put this on the bottom of its owner's deck.
@@ -190,7 +206,9 @@ SEA141,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA142,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA142,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA143,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA144,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA145,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA145,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA145,SEA,Portside Exchange,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.
+
+**Go again**",Pirate Action,,,,No,,R,R,EA,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA146,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA147,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA148,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA148,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -265,7 +283,7 @@ SEA208,SEA,Flying High,3,0,,2,,,,"Generic, Action",Go again,,,Go again,,,"Your n
 SEA209,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA209,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA210,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA210,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA211,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA212,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA212,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA212,SEA,Fiddler's Green,1,,,1,,,,"Generic, Block",,,,,,,"When this is put into your graveyard from anywhere, gain 3{h}.",Generic Block,,,,No,,R,,,Ramza Ardyputra,,,SEA212,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA212.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA213,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA214,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA214,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA215,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA215,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

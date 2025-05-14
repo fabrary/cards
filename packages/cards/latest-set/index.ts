@@ -22,6 +22,65 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Ausonia"],
+    cardIdentifier: "barnacle-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA074_V2",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Barnacle",
+    printings: [{
+        artists: ["Ausonia"],
+      foiling: Foiling.C,
+      identifier: "SEA074",
+      image: "SEA074_V2",
+      
+      
+      print: "SEA074-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["SEA074"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA074_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `**Action** - {t}: Attack
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 3,
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "big-game-trophy-shot-yellow",
     classes: [Class.Pirate,Class.Ranger],
@@ -285,6 +344,67 @@ Create a Gold token for each yellow card put into your graveyard this way.
     
     pitch: 3,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "chowder-hearty-cook-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA075_V2",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Chowder, Hearty Cook",
+    printings: [{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.C,
+      identifier: "SEA075",
+      image: "SEA075_V2",
+      
+      
+      print: "SEA075-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["SEA075"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA075_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 3,
+    
+    
+    functionalText: `**Action** - {t}: Attack
+
+**Instant** - {t}: Gain 1{h}
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 3,
+    
+    
+    pitch: 2,
+    power: 3,
     
     
     
@@ -821,6 +941,63 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
     pitch: 1,
     power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "fiddlers-green-red",
+    classes: [Class.Generic],
+    defaultImage: "SEA212",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Fiddler's Green",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "SEA212",
+      image: "SEA212",
+      
+      
+      print: "SEA212",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA212"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA212",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Generic Block",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When this is put into your graveyard from anywhere, gain 3{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
     
     
     
@@ -1414,8 +1591,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1498,7 +1674,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1823,6 +2000,126 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     pitch: 1,
     power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "limpit-hop-a-long-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA060_V2",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Limpit, Hop-a-long",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "SEA060",
+      image: "SEA060_V2",
+      
+      
+      print: "SEA060-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["SEA060"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA060_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Action** - {r}, {t}: Attack. **Go again**
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.WateryGrave],
+    
+    life: 1,
+    
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "loan-shark-yellow",
+    classes: [Class.Pirate],
+    defaultImage: "SEA131",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Loan Shark",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SEA131",
+      image: "SEA131",
+      
+      
+      print: "SEA131",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA131"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA131",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Go again
+
+When this enters the arena, create 2 Gold tokens.
+
+At the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this, then lose 2{g} unless you discard a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 2,
+    
     
     
     
@@ -2186,8 +2483,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "polly-cranka",
     classes: [],
@@ -2237,6 +2533,66 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     metatypes: [Metatype.Puffin],
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards4: Card[] =  [{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "portside-exchange-blue",
+    classes: [Class.Pirate],
+    defaultImage: "SEA145_V2",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Portside Exchange",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "SEA145",
+      image: "SEA145_V2",
+      
+      
+      print: "SEA145-Rainbow-Extended Art",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA145"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA145_V2",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 3,
     
     
     
@@ -2520,6 +2876,65 @@ The second time you crank each turn, draw a card.`,
     
     pitch: 2,
     power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "sealace-sarong",
+    classes: [Class.Ranger],
+    defaultImage: "SEA095",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Sealace Sarong",
+    printings: [{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "SEA095",
+      image: "SEA095",
+      
+      
+      print: "SEA095-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["SEA095"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA095",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Legs",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Instant** - {t}, turn a blue arrow in your arsenal face-up: it gets **go again** this turn.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
     
     
     
@@ -2904,6 +3319,65 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "wailer-humperdinck-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA052_V2",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Wailer Humperdinck",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.C,
+      identifier: "SEA052",
+      image: "SEA052_V2",
+      
+      
+      print: "SEA052-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
+    setIdentifiers: ["SEA052"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA052_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 6,
+    
+    
+    functionalText: `**Action** - {r}{r}{r} {r}{r}{r}, {t}: Attack
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 7,
+    
+    
+    pitch: 2,
+    power: 11,
     
     
     

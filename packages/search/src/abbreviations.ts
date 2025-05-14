@@ -119,6 +119,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Command and Conquer",
   },
   {
+    abbreviations: ["Sea and Sea"],
+    card: "Conqueror of the High Seas",
+  },
+  {
     abbreviations: ["CYB"],
     card: "Count Your Blessings",
   },
