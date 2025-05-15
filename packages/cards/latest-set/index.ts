@@ -462,9 +462,9 @@ Create a Gold token for each yellow card put into your graveyard this way.
     cost: 4,
     
     
-    functionalText: `Action - {t}: Attack
+    functionalText: `**Action** - {t}: Attack
 
-Instant - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.
+**Instant** - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.
 
 **Watery Grave**`,
     
@@ -537,6 +537,65 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     
     pitch: 1,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "cogwerx-blunderbuss",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA006",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cogwerx Blunderbuss",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SEA006",
+      image: "SEA006",
+      
+      
+      print: "SEA006",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA006"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA006",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {r}{r}, {t}: Attack
+
+**Instant** - {t} a cog you control: This card's next attack this turn gets go again.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    power: 2,
     
     
     
@@ -724,6 +783,79 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
     pitch: 2,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "cutty-shark-quick-clip-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA076",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cutty Shark, Quick Clip",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SEA076",
+      image: "SEA076",
+      
+      
+      print: "SEA076",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.C,
+      identifier: "SEA076",
+      image: "SEA076_V2",
+      
+      
+      print: "SEA076-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA076"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA076_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `**Action** - {r}, {t}: **Attack**
+
+**Once per Turn Action** - {r}: Your next ally attack this turn gets +1{p}. **Go again**
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.WateryGrave],
+    
+    life: 4,
+    
+    
+    pitch: 2,
+    power: 3,
     
     
     
@@ -1515,6 +1647,65 @@ You may {u} a gun you control.
   
   
   },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "give-no-quarter-blue",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA049",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Give No Quarter",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "SEA049",
+      image: "SEA049",
+      
+      
+      print: "SEA049",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA049"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA049",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `The next 2 ally cards with watery grave you play this turn cost {r}{r}{r} less to play.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nikolay Moskvin","Stormy Elia Fanggidae"],
     cardIdentifier: "gold",
     classes: [Class.Generic],
@@ -2281,7 +2472,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    keywords: [Keyword.WateryGrave],
+    keywords: [Keyword.GoAgain,Keyword.WateryGrave],
     
     life: 3,
     
@@ -2391,7 +2582,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
         artists: ["Simon Dominic"],
       foiling: Foiling.R,
       identifier: "SEA086",
-      image: "SEA086",
+      image: "SEA086_V2",
       
       
       print: "SEA086-Rainbow-Extended Art",
@@ -2404,7 +2595,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     rarity: Rarity.Majestic,
     setIdentifiers: ["SEA086"],
     sets: [Release.HighSeas],
-    specialImage: "SEA086",
+    specialImage: "SEA086_V2",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Ranger Action - Arrow Attack",
@@ -2530,11 +2721,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cost: 0,
     defense: 3,
     
-    functionalText: `Go again
+    functionalText: `**Go again**
 
 When this enters the arena, create 2 Gold tokens.
 
-At the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this, then lose 2{g} unless you discard a card.`,
+At the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this, then lose 2{h} unless you discard a card.`,
     
     
     
@@ -2622,7 +2813,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     hero: Hero.Marlynn,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     
     life: 20,
     
@@ -2925,6 +3116,63 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     pitch: 1,
     power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "patch-the-hole",
+    classes: [Class.Ranger],
+    defaultImage: "SEA096",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Patch the Hole",
+    printings: [{
+        artists: ["Raphael Pinna"],
+      
+      identifier: "SEA096",
+      image: "SEA096",
+      
+      
+      print: "SEA096",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA096"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA096",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Destroy this: Return a card from your arsenal to your hand.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -3520,7 +3768,7 @@ The second time you crank each turn, draw a card.`,
     
     
     
-    keywords: [Keyword.BladeBreak],
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
     
@@ -3916,6 +4164,65 @@ The second time you crank each turn, draw a card.`,
   
   
   },{
+    artists: ["Marcellino Tan"],
+    cardIdentifier: "spitfire",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA007",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Spitfire",
+    printings: [{
+        artists: ["Marcellino Tan"],
+      
+      identifier: "SEA007",
+      image: "SEA007",
+      
+      
+      print: "SEA007",
+      rarity: Rarity.Basic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SEA007"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA007",
+    subtypes: [Subtype.TwoHanded,Subtype.Gun],
+    types: [Type.Weapon],
+    typeText: "Mechanologist Weapon - Gun (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {t}, {t} a cog you control: Attack
+
+When this attacks, you may {t} a cog you control. If you do, the attack gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "sunken-treasure-blue",
     classes: [Class.Pirate],
@@ -4009,7 +4316,7 @@ The second time you crank each turn, draw a card.`,
     
     functionalText: `Your next Mechanologist attack this turn gets +4{p}.
 
-You may {u} a gun you control.
+You may {u} a cog you control.
 
 **Go again**`,
     

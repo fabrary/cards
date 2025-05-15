@@ -3146,6 +3146,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/cogwerx-blunderbuss</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cold-snap-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -3783,6 +3788,11 @@
   <url>
     <loc>https://fabrary.net/cards/cut-to-the-chase-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cutty-shark-quick-clip-yellow</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -6688,6 +6698,11 @@
   <url>
     <loc>https://fabrary.net/cards/give-and-take-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/give-no-quarter-blue</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10533,6 +10548,11 @@
   <url>
     <loc>https://fabrary.net/cards/passing-mirage-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/patch-the-hole</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -15108,6 +15128,11 @@
   <url>
     <loc>https://fabrary.net/cards/spirit-of-war-red</loc>
     <lastmod>2023-06-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/spitfire</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

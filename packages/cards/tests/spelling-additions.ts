@@ -96,6 +96,7 @@ export const fabDictionary = [
   "cranka",
   "cromai",
   "crosswrap",
+  "cutty",
   "dawnblade",
   "deathmatch",
   "deathwhistle",
