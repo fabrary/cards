@@ -489,6 +489,65 @@ Instant - {t}, discard a card with watery grave: Until end of turn, opponents mu
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "cog-in-the-machine-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA013",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cog in the Machine",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SEA013",
+      image: "SEA013",
+      
+      
+      print: "SEA013",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA013"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA013",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Create 2 Golden Cog tokens.
+
+You may {t} a cog you control. If you do, put this on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nikko Wahyudi"],
     cardIdentifier: "compass-of-sunken-depths",
     classes: [Class.Necromancer,Class.Pirate],
@@ -677,6 +736,77 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   },{
     artists: ["Mario Wibisono"],
+    cardIdentifier: "dead-threads",
+    classes: [Class.Necromancer],
+    defaultImage: "SEA080",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Dead Threads",
+    printings: [{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.R,
+      identifier: "SEA080",
+      image: "SEA080",
+      
+      
+      print: "SEA080-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.C,
+      identifier: "SEA080",
+      image: "SEA080_V2",
+      
+      
+      print: "SEA080-Cold-Extended Art",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["SEA080"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA080_V2",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Necromancer Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Instant** - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mario Wibisono"],
     cardIdentifier: "diamond-amulet-blue",
     classes: [Class.Generic],
     defaultImage: "SEA190",
@@ -735,6 +865,67 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "draw-back-the-hammer-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA039",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Draw Back the Hammer",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "SEA039",
+      image: "SEA039",
+      
+      
+      print: "SEA039",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA039"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA039",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Mechanologist attack this turn gets +4{p}.
+
+You may {u} a gun you control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 1,
     
     
     
@@ -860,7 +1051,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Arkoii"],
     cardIdentifier: "expedition-to-dreadfall-reach-red",
     classes: [Class.Pirate],
@@ -917,8 +1109,7 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "expedition-to-horizons-mantle-red",
     classes: [Class.Pirate],
@@ -1824,8 +2015,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1908,7 +2098,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2024,6 +2215,79 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     pitch: 1,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["soyameii"],
+    cardIdentifier: "kelpie-tangled-mess-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA059",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Kelpie, Tangled Mess",
+    printings: [{
+        artists: ["soyameii"],
+      
+      identifier: "SEA059",
+      image: "SEA059",
+      
+      
+      print: "SEA059",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.C,
+      identifier: "SEA059",
+      image: "SEA059_V2",
+      
+      
+      print: "SEA059-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA059"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA059_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Action** - {t}: Attack
+
+**Action** - {r}, {t}: {t} target hero or ally. **Go again**
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 3,
+    
+    
+    pitch: 2,
+    power: 1,
     
     
     
@@ -2470,7 +2734,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
         artists: ["Sebastian Giacobino"],
       foiling: Foiling.C,
       identifier: "SEA051",
-      image: "SEA051-V2",
+      image: "SEA051_V2",
       
       
       print: "SEA051-Cold-Full Art",
@@ -2483,7 +2747,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     rarity: Rarity.Majestic,
     setIdentifiers: ["SEA051"],
     sets: [Release.HighSeas],
-    specialImage: "SEA051-V2",
+    specialImage: "SEA051_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Pirate Necromancer Action - Ally",
@@ -2608,12 +2872,24 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["寿多 浩 / Hiro Suda"],
+      foiling: Foiling.R,
+      identifier: "SEA012",
+      image: "SEA012_V2",
+      
+      
+      print: "SEA012-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SEA012"],
     sets: [Release.HighSeas],
-    specialImage: "SEA012",
+    specialImage: "SEA012_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mechanologist Action - Attack",
@@ -2779,8 +3055,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Nikko Wahyudi"],
     cardIdentifier: "portside-exchange-blue",
     classes: [Class.Pirate],
@@ -2922,7 +3197,8 @@ The second time you crank each turn, draw a card.`,
     
   
   young: true
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -3238,6 +3514,177 @@ The second time you crank each turn, draw a card.`,
   
   
   },{
+    artists: ["Yiian Kho"],
+    cardIdentifier: "sirens-of-safe-harbor-red",
+    classes: [Class.Generic],
+    defaultImage: "SEA226",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Sirens of Safe Harbor",
+    printings: [{
+        artists: ["Yiian Kho"],
+      
+      identifier: "SEA226",
+      image: "SEA226",
+      
+      
+      print: "SEA226",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA226"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA226",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this is put into your graveyard from anywhere, gain 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Yiian Kho"],
+    cardIdentifier: "sirens-of-safe-harbor-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SEA227",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Sirens of Safe Harbor",
+    printings: [{
+        artists: ["Yiian Kho"],
+      
+      identifier: "SEA227",
+      image: "SEA227",
+      
+      
+      print: "SEA227",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA227"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA227",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this is put into your graveyard from anywhere, gain 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Yiian Kho"],
+    cardIdentifier: "sirens-of-safe-harbor-blue",
+    classes: [Class.Generic],
+    defaultImage: "SEA228",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Sirens of Safe Harbor",
+    printings: [{
+        artists: ["Yiian Kho"],
+      
+      identifier: "SEA228",
+      image: "SEA228",
+      
+      
+      print: "SEA228",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA228"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA228",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this is put into your graveyard from anywhere, gain 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "sky-skimmer-red",
     classes: [Class.Mechanologist],
@@ -3490,6 +3937,67 @@ The second time you crank each turn, draw a card.`,
     
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "tighten-the-screws-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA041",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Tighten the Screws",
+    printings: [{
+        artists: ["Kyxarie Peralta"],
+      
+      identifier: "SEA041",
+      image: "SEA041",
+      
+      
+      print: "SEA041",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA041"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA041",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Mechanologist attack this turn gets +4{p}.
+
+You may {u} a gun you control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 1,
     
     
     

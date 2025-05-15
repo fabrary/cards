@@ -3101,6 +3101,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/cog-in-the-machine-red</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cognition-field-red</loc>
     <lastmod>2023-09-26</lastmod>
     <priority>0.5</priority>
@@ -3901,6 +3906,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/dead-threads</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/deadly-duo-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -4418,6 +4428,11 @@
   <url>
     <loc>https://fabrary.net/cards/draw-a-crowd-blue</loc>
     <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/draw-back-the-hammer-red</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8633,6 +8648,11 @@
   <url>
     <loc>https://fabrary.net/cards/kayo-berserker-runt</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/kelpie-tangled-mess-yellow</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -14236,6 +14256,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sirens-of-safe-harbor-red</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sirens-of-safe-harbor-yellow</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sirens-of-safe-harbor-blue</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/sisters-of-fire-red</loc>
     <lastmod>2025-01-17</lastmod>
     <priority>0.5</priority>
@@ -16433,6 +16468,11 @@
   <url>
     <loc>https://fabrary.net/cards/tiger-taming-khakkara</loc>
     <lastmod>2024-05-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tighten-the-screws-red</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

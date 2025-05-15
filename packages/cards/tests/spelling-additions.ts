@@ -212,6 +212,7 @@ export const fabDictionary = [
   "katsu",
   "kavdaen",
   "keikoi",
+  "kelpie",
   "khakkara",
   "klaive",
   "kodachi",
