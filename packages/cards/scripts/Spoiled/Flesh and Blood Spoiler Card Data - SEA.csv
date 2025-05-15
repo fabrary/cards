@@ -12,17 +12,23 @@ SEA003,SEA,Polly Cranka,,,,,1,,,"Puffin, Companion, Off-Hand, Ally","Crank, Perc
 
 **Perched**",Puffin Companion - Off-Hand Ally,,,,No,,L,R,,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png,,,L,C,FA,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA004, FAB343",SEA,Golden Skywarden,2,4,7,2,,,,"Pirate, Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Carlos Cruchaga,,,SEA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png,,,M,R,,Carlos Cruchaga,,,SEA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png,,,P,R,EA,Carlos Cruchaga,,,FAB343,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp,,,,,,,,,,,,,,,,,,,,,
-SEA005,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA005,SEA,Jolly Bludger,2,2,5,3,,,,"Pirate, Mechanologist, Action, Attack",,,,,,,"When this attacks, you may {t} a cog you control. If you do, this gets overpower.
+
+When this deals damage to a hero, steal that many items they control.
+
+**Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Kimberly Pantoni,,,SEA005,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA006,SEA,Cogwerx Blunderbuss,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,,,,,,"**Action** - {r}{r}, {t}: Attack
 
 **Instant** - {t} a cog you control: This card's next attack this turn gets go again.",Mechanologist Weapon - Gun (2H),,,,,,B,S,,Mariusz Gandzel,,,SEA006,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA007,SEA,Spitfire,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,,,,,,"**Action** - {t}, {t} a cog you control: Attack
+SEA007,SEA,Spitfire,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,Action,Attack,,,,"**Action** - {t}, {t} a cog you control: Attack
 
 When this attacks, you may {t} a cog you control. If you do, the attack gets +1{p}.",Mechanologist Weapon - Gun (2H),,,,,,B,S,,Marcellino Tan,,,SEA007,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA007.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA008,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA009,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA010,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA011,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA011,SEA,Cogwerx Dovetail,1,1,5,3,,,,"Mechanologist, Action, Attack",,,,,,,"When this hits a hero, {u} all cogs you control.
+
+**Thrice per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.",Mechanologist Action - Attack,,,,No,,M,,,Kevin Sidharta,,,SEA011,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA012,SEA,Palantir Aeronought,1,2,6,3,,,,"Mechanologist, Action, Attack",,Thrice per Turn Instant,,,,,"The defending hero must defend this with an equipment they control if able.
 
 **Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}. If this is the third time you've activated this ability, destroy a defending card.",Mechanologist Action - Attack,,,,No,,M,,,寿多 浩 / Hiro Suda,,,SEA012,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012.png,,,M,R,EA,寿多 浩 / Hiro Suda,,,SEA012,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -114,7 +120,11 @@ SEA059,SEA,"Kelpie, Tangled Mess",2,0,1,,3,,,"Pirate, Necromancer, Action, Ally"
 SEA060,SEA,"Limpit, Hop-a-long",2,0,2,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,"Attack, Go again",,,,"**Action** - {r}, {t}: Attack. **Go again**
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,V,C,FA,Tomasz Jedruszek,,,SEA060,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA061,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA061,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA061,SEA,"Scooba, Salty Sea Dog",2,0,4,,4,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r}, {t}: Attack
+
+When this attacks, you may put a yellow card from a graveyard on the bottom of its owner's deck. If you do, create a Gold token.
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,R,,,Narendra B Adi,,,SEA061,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA061.png,,,V,C,FA,Narendra B Adi,,,SEA061,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA061_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA062,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA062,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA063,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA063,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA064,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA064,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -143,7 +153,11 @@ SEA076,SEA,"Cutty Shark, Quick Clip",2,1,3,,4,,,"Pirate, Necromancer, Action, Al
 "LGS406, SEA077","LGS, SEA",Riggermortis,2,1,6,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,Attack,,,,"**Action** - {r}, {t}: **Attack**
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,P,R,EA,Max Kostin,,,LGS406,https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS406.png,,,C,,,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077.png,,,V,C,FA,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077_V2.png,,,,,,,,,,,,,,,,,,,,,
-SEA078,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA078,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA078,SEA,"Shelly, Hardened Traveler",2,2,4,,5,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r}, {t}: Attack
+
+**Instant** - {t}: The next attack action card you defend with this turn gets +1{d}.
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078.png,,,V,C,FA,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA079,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA079,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA080,SEA,Dead Threads,,,,1,,,,"Necromancer, Equipment, Chest",Blade Break,Instant,,,,,"**Instant** - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.
 

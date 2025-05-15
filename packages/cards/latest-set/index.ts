@@ -607,6 +607,65 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
   
   
   },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "cogwerx-dovetail-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA011",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cogwerx Dovetail",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "SEA011",
+      image: "SEA011",
+      
+      
+      print: "SEA011",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA011"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA011",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, {u} all cogs you control.
+
+**Thrice per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nikko Wahyudi"],
     cardIdentifier: "compass-of-sunken-depths",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2206,8 +2265,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2290,7 +2348,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2406,6 +2465,67 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     pitch: 1,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "jolly-bludger-yellow",
+    classes: [Class.Mechanologist,Class.Pirate],
+    defaultImage: "SEA005",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Jolly Bludger",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "SEA005",
+      image: "SEA005",
+      
+      
+      print: "SEA005",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA005"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA005",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Mechanologist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may {t} a cog you control. If you do, this gets overpower.
+
+When this deals damage to a hero, steal that many items they control.
+
+**Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
+    power: 5,
     
     
     
@@ -3400,8 +3520,7 @@ The second time you crank each turn, draw a card.`,
     
   
   young: true
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -3484,7 +3603,8 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Konadekana"],
     cardIdentifier: "redspine-manta",
     classes: [Class.Ranger],
@@ -3613,6 +3733,79 @@ The second time you crank each turn, draw a card.`,
   
   
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "scooba-salty-sea-dog-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA061",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Scooba, Salty Sea Dog",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SEA061",
+      image: "SEA061",
+      
+      
+      print: "SEA061",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.C,
+      identifier: "SEA061",
+      image: "SEA061_V2",
+      
+      
+      print: "SEA061-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA061"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA061_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Action** - {r}{r}{r}, {t}: Attack
+
+When this attacks, you may put a yellow card from a graveyard on the bottom of its owner's deck. If you do, create a Gold token.
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 4,
+    
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "sea-legs-yellow",
     classes: [Class.Generic],
@@ -3718,6 +3911,79 @@ The second time you crank each turn, draw a card.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "shelly-hardened-traveler-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA078",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Shelly, Hardened Traveler",
+    printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "SEA078",
+      image: "SEA078",
+      
+      
+      print: "SEA078",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["Henrique Lindner"],
+      foiling: Foiling.C,
+      identifier: "SEA078",
+      image: "SEA078_V2",
+      
+      
+      print: "SEA078-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA078"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA078_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `**Action** - {r}{r}{r}, {t}: Attack
+
+**Instant** - {t}: The next attack action card you defend with this turn gets +1{d}.
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 5,
+    
+    
+    pitch: 2,
+    power: 4,
     
     
     
