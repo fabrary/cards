@@ -2318,12 +2318,24 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "SEA085",
+      image: "SEA085_V2",
+      
+      
+      print: "SEA085-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SEA085"],
     sets: [Release.HighSeas],
-    specialImage: "SEA085",
+    specialImage: "SEA085_V2",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Ranger Action - Arrow Attack",
@@ -3358,12 +3370,24 @@ The second time you crank each turn, draw a card.`,
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.C,
+      identifier: "SEA077",
+      image: "SEA077_V2",
+      
+      
+      print: "SEA077-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Promo],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS406","SEA077"],
     sets: [Release.HighSeas,Release.Promos],
-    specialImage: "SEA077",
+    specialImage: "SEA077_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Pirate Necromancer Action - Ally",
