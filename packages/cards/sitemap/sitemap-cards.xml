@@ -5841,6 +5841,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fiddlers-green-yellow</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/fiddlers-green-blue</loc>
+    <lastmod>2025-05-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/figment-of-erudition-yellow</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -9793,6 +9803,11 @@
   <url>
     <loc>https://fabrary.net/cards/moonshot-yellow</loc>
     <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/moray-le-fay-yellow</loc>
+    <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

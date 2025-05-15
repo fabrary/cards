@@ -567,12 +567,24 @@ The first card with watery grave you play from your graveyard each turn gets go 
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.C,
+      identifier: "SEA130",
+      image: "SEA130_V2",
+      
+      
+      print: "SEA130-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SEA130"],
     sets: [Release.HighSeas],
-    specialImage: "SEA130",
+    specialImage: "SEA130_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -683,12 +695,24 @@ The first card with watery grave you play from your graveyard each turn gets go 
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.C,
+      identifier: "SEA190",
+      image: "SEA190_V2",
+      
+      
+      print: "SEA190-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SEA190"],
     sets: [Release.HighSeas],
-    specialImage: "SEA190",
+    specialImage: "SEA190_V2",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action - Item",
@@ -994,9 +1018,123 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
     
     
-    
+    meta: [Meta.Rainbow],
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "fiddlers-green-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SEA213",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Fiddler's Green",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "SEA213",
+      image: "SEA213",
+      
+      
+      print: "SEA213",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA213"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA213",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Generic Block",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When this is put into your graveyard from anywhere, gain 2{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "fiddlers-green-blue",
+    classes: [Class.Generic],
+    defaultImage: "SEA214",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Fiddler's Green",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "SEA214",
+      image: "SEA214",
+      
+      
+      print: "SEA214",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA214"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA214",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Generic Block",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When this is put into your graveyard from anywhere, gain 1{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
     
     
     
@@ -1207,12 +1345,12 @@ The first card with watery grave you play from your graveyard each turn gets go 
       
     },{
         artists: ["Stormy Elia Fanggidae"],
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "SEA244",
       image: "SEA244-TP",
       
       
-      print: "SEA244-Rainbow-Full Art",
+      print: "SEA244-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
       
@@ -1554,12 +1692,24 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.C,
+      identifier: "SEA245",
+      image: "SEA245_V2",
+      
+      
+      print: "SEA245-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA245"],
     sets: [Release.HighSeas],
-    specialImage: "SEA245",
+    specialImage: "SEA245_V2",
     subtypes: [Subtype.Item],
     types: [Type.Token],
     typeText: "Generic Token - Item",
@@ -1674,7 +1824,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1757,8 +1908,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2297,6 +2447,79 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
   
   },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "moray-le-fay-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA051",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Moray le Fay",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "SEA051",
+      image: "SEA051",
+      
+      
+      print: "SEA051",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.C,
+      identifier: "SEA051",
+      image: "SEA051-V2",
+      
+      
+      print: "SEA051-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA051"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA051-V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Action** - {t}: Attack
+
+**Instant** - {r}, {t}: Put a +1{p} counter on target ally.
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 3,
+    
+    
+    pitch: 2,
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Marco González"],
     cardIdentifier: "paddle-faster-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2503,12 +2726,24 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.C,
+      identifier: "SEA003",
+      image: "SEA003_V2",
+      
+      
+      print: "SEA003-Cold-Full Art",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["SEA003"],
     sets: [Release.HighSeas],
-    specialImage: "SEA003",
+    specialImage: "SEA003_V2",
     subtypes: [Subtype.Ally,Subtype.OffHand],
     types: [Type.Companion],
     typeText: "Puffin Companion - Off-Hand Ally",
@@ -2544,7 +2779,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Nikko Wahyudi"],
     cardIdentifier: "portside-exchange-blue",
     classes: [Class.Pirate],
@@ -2554,12 +2790,12 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     name: "Portside Exchange",
     printings: [{
         artists: ["Nikko Wahyudi"],
-      foiling: Foiling.R,
+      foiling: Foiling.C,
       identifier: "SEA145",
       image: "SEA145_V2",
       
       
-      print: "SEA145-Rainbow-Extended Art",
+      print: "SEA145-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       
@@ -2603,8 +2839,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin",
     classes: [Class.Mechanologist,Class.Pirate],

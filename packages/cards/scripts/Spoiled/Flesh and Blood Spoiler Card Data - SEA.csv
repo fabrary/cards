@@ -10,7 +10,7 @@ SEA003,SEA,Polly Cranka,,,,,1,,,"Puffin, Companion, Off-Hand, Ally","Crank, Perc
 
 **Crank**
 
-**Perched**",Puffin Companion - Off-Hand Ally,,,,No,,L,R,,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Perched**",Puffin Companion - Off-Hand Ally,,,,No,,L,R,,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png,,,L,C,FA,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA004, FAB343",SEA,Golden Skywarden,2,4,7,2,,,,"Pirate, Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Carlos Cruchaga,,,SEA004,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA004.webp,,,M,R,,Carlos Cruchaga,,,SEA004,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA004.webp,,,P,R,EA,Carlos Cruchaga,,,FAB343,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp,,,,,,,,,,,,,,,,,,,,,
 SEA005,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA006,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -76,7 +76,11 @@ SEA050,SEA,"Chum, Friendly First Mate",2,4,4,,6,,,"Pirate, Necromancer, Action, 
 Instant - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,S,,Lius Lasahido,,,SEA050,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA050.webp,,,V,C,FA,Lius Lasahido,,,SEA050,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA050-MV.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA051,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA051,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA051,SEA,Moray le Fay,2,0,0,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {t}: Attack
+
+**Instant** - {r}, {t}: Put a +1{p} counter on target ally.
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Sebastian Giacobino,,,SEA051,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051.png,,,V,C,FA,Sebastian Giacobino,,,SEA051,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA051-V2.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA052,SEA,Wailer Humperdinck,2,6,11,,7,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r} {r}{r}{r}, {t}: Attack
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,V,C,FA,Joseph Qiu,,,SEA052,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -183,7 +187,7 @@ SEA129,SEA,Peg Leg,,,,1,,,,"Pirate, Equipment, Legs",Blade Break,Action,Go again
 **Blade Break**",Pirate Equipment - Legs,,,,,,C,,,Nailsen Ivanderlie,,,SEA129,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA130,SEA,Conqueror of the High Seas,1,4,7,3,,,,"Pirate, Action, Attack","High Tide, Go again",,,,,,"When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.
 
-**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **go again**.",Pirate Action - Attack,,,,No,,M,,,Max Kostin,,,SEA130,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +1{p} and **go again**.",Pirate Action - Attack,,,,No,,M,,,Max Kostin,,,SEA130,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA130.png,,,M,C,EA,Max Kostin,,,SEA130,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA130_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA131,SEA,Loan Shark,2,0,,3,,,,"Pirate, Action, Aura",Go again,,,,,,"Go again
 
 When this enters the arena, create 2 Gold tokens.
@@ -208,7 +212,7 @@ SEA143,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA144,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA145,SEA,Portside Exchange,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.
 
-**Go again**",Pirate Action,,,,No,,R,R,EA,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Pirate Action,,,,No,,R,C,EA,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA146,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA147,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA148,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA148,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -255,7 +259,7 @@ SEA188,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA188,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA189,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA189,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA189.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA190,SEA,Diamond Amulet,3,0,,,,,,"Generic, Action, Item","Legendary, Watery Grave",Instant,,,,,"**Instant** - Destroy this: gain 1 action point.
 
-**Legend of the Watery Grave**",Generic Action - Item,,,,No,,M,,,Mario Wibisono,,,SEA190,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Legend of the Watery Grave**",Generic Action - Item,,,,No,,M,,,Mario Wibisono,,,SEA190,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190.png,,,V,C,FA,Mario Wibisono,,,SEA190,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA191,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA191,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA192,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA192,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA193,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA193,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -284,8 +288,8 @@ SEA209,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA209,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA210,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA210,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA211,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA212,SEA,Fiddler's Green,1,,,1,,,,"Generic, Block",,,,,,,"When this is put into your graveyard from anywhere, gain 3{h}.",Generic Block,,,,No,,R,,,Ramza Ardyputra,,,SEA212,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA212.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA213,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA213,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA214,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA214,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA213,SEA,Fiddler's Green,2,,,1,,,,"Generic, Block",,,,,,,"When this is put into your graveyard from anywhere, gain 2{h}.",Generic Block,,,,No,,R,,,Ramza Ardyputra,,,SEA213,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA213.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA214,SEA,Fiddler's Green,3,,,1,,,,"Generic, Block",,,,,,,"When this is put into your graveyard from anywhere, gain 1{h}.",Generic Block,,,,No,,R,,,Ramza Ardyputra,,,SEA214,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA214.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA215,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA215,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA216,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA216,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA217,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA217,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -315,8 +319,8 @@ SEA240,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA240,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA241,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA241,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA242,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA242,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA243,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA243,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA244,SEA,Gold,,,,,,,,,,,,,,,,,,,,,,B,S,,Stormy Elia Fanggidae,,,SEA244,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA244.webp,,,V,R,FA,Stormy Elia Fanggidae,,,SEA244,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA244-TP.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA245,SEA,Goldkiss Rum,,,,,,,,"Generic, Token, Item",,Instant,,Go again,,,"**Instant** - {t} your hero, destroy this: Your next action this turn gets **go again**. Your hero can't {u} this turn unless they're a Pirate.",Generic Token - Item,,,,,,B,,,Mario Wibisono,,,SEA245,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA244,SEA,Gold,,,,,,,,,,,,,,,,,,,,,,B,S,,Stormy Elia Fanggidae,,,SEA244,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA244.webp,,,V,C,FA,Stormy Elia Fanggidae,,,SEA244,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA244-TP.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA245,SEA,Goldkiss Rum,,,,,,,,"Generic, Token, Item",,Instant,,Go again,,,"**Instant** - {t} your hero, destroy this: Your next action this turn gets **go again**. Your hero can't {u} this turn unless they're a Pirate.",Generic Token - Item,,,,,,B,,,Mario Wibisono,,,SEA245,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA245.png,,,V,C,FA,Mario Wibisono,,,SEA245,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA245_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA246,SEA,Cracked Bauble,2,,,,,,,,,,,,,,,,,,,,,B,,,Sam Yang,,,SEA246,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA247, FAB340","SEA, FAB",Treasure Island,,,,,,,,"High Seas, Macro, Landmark",,,,,,,"The first time a hero is attacked each turn, put a gold counter on this.
 

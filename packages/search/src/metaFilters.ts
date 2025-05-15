@@ -58,6 +58,10 @@ const nicknameFormatMappings: {
     ],
   },
   {
+    format: Format.ProjectBlue,
+    nicknames: ["pb"],
+  },
+  {
     format: Format.UltimatePitFight,
     nicknames: ["upf"],
   },

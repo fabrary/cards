@@ -221,6 +221,7 @@ export const fabDictionary = [
   "kunai",
   "kyloria",
   "legplates",
+  "le",
   "levia",
   "leyline",
   "limpit",
