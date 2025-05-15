@@ -1126,7 +1126,8 @@ You may {u} a gun you control.
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "expedition-to-blackwater-strait-red",
     classes: [Class.Pirate],
@@ -1183,8 +1184,7 @@ You may {u} a gun you control.
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Arkoii"],
     cardIdentifier: "expedition-to-dreadfall-reach-red",
     classes: [Class.Pirate],
@@ -2206,7 +2206,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2289,8 +2290,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -3116,63 +3116,6 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     pitch: 1,
     power: 6,
-    
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  },{
-    artists: ["Raphael Pinna"],
-    cardIdentifier: "patch-the-hole",
-    classes: [Class.Ranger],
-    defaultImage: "SEA096",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [],
-    name: "Patch the Hole",
-    printings: [{
-        artists: ["Raphael Pinna"],
-      
-      identifier: "SEA096",
-      image: "SEA096",
-      
-      
-      print: "SEA096",
-      rarity: Rarity.Common,
-      set: Release.HighSeas,
-      
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["SEA096"],
-    sets: [Release.HighSeas],
-    specialImage: "SEA096",
-    subtypes: [Subtype.Head],
-    types: [Type.Equipment],
-    typeText: "Ranger Equipment - Head",
-
-    
-    
-    
-    defense: 0,
-    
-    functionalText: `**Instant** - Destroy this: Return a card from your arsenal to your hand.`,
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
