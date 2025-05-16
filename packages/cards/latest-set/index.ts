@@ -1185,8 +1185,7 @@ You may {u} a gun you control.
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "expedition-to-blackwater-strait-red",
     classes: [Class.Pirate],
@@ -1243,7 +1242,8 @@ You may {u} a gun you control.
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Arkoii"],
     cardIdentifier: "expedition-to-dreadfall-reach-red",
     classes: [Class.Pirate],
@@ -1694,6 +1694,63 @@ You may {u} a gun you control.
     meta: [Meta.Rainbow],
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "fools-gold-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SEA215",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Fool's Gold",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SEA215",
+      image: "SEA215",
+      
+      
+      print: "SEA215",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA215"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA215",
+    subtypes: [],
+    types: [Type.Resource],
+    typeText: "Generic Resource",
+
+    
+    
+    
+    
+    
+    functionalText: `When this is discarded, create a Gold token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 2,
     
     
     
@@ -2348,8 +2405,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2406,7 +2462,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hoist-em-up-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2510,16 +2567,16 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cost: 2,
     defense: 3,
     
-    functionalText: `When this attacks, you may {t} a cog you control. If you do, this gets overpower.
+    functionalText: `When this attacks, you may {t} a cog you control. If you do, this gets **overpower**.
 
-When this deals damage to a hero, steal that many items they control.
+When this deals damage to a hero, **steal** that many items they control.
 
 **Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}.`,
     
     
     
     
-    
+    keywords: [Keyword.Overpower,Keyword.Steal],
     
     
     
@@ -3306,6 +3363,67 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
   
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "perk-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA040",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Perk Up",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "SEA040",
+      image: "SEA040",
+      
+      
+      print: "SEA040",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA040"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA040",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Mechanologist attack this turn gets +4{p}.
+
+You may {u} a gun you control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "polly-cranka",
     classes: [],
@@ -3603,8 +3721,7 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Konadekana"],
     cardIdentifier: "redspine-manta",
     classes: [Class.Ranger],
@@ -3661,7 +3778,8 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Max Kostin"],
     cardIdentifier: "riggermortis-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -4478,6 +4596,77 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
     
     pitch: 3,
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "swabbie-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA079",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Swabbie",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "SEA079",
+      image: "SEA079",
+      
+      
+      print: "SEA079",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.C,
+      identifier: "SEA079",
+      image: "SEA079_V2",
+      
+      
+      print: "SEA079-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA079"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA079_V2",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 3,
+    
+    
+    functionalText: `**Action** - {r}{r}, {t}: Attack
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 3,
+    
+    
+    pitch: 2,
+    power: 7,
     
     
     

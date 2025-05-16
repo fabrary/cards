@@ -12,12 +12,12 @@ SEA003,SEA,Polly Cranka,,,,,1,,,"Puffin, Companion, Off-Hand, Ally","Crank, Perc
 
 **Perched**",Puffin Companion - Off-Hand Ally,,,,No,,L,R,,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png,,,L,C,FA,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA004, FAB343",SEA,Golden Skywarden,2,4,7,2,,,,"Pirate, Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Carlos Cruchaga,,,SEA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png,,,M,R,,Carlos Cruchaga,,,SEA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png,,,P,R,EA,Carlos Cruchaga,,,FAB343,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp,,,,,,,,,,,,,,,,,,,,,
-SEA005,SEA,Jolly Bludger,2,2,5,3,,,,"Pirate, Mechanologist, Action, Attack",,,,,,,"When this attacks, you may {t} a cog you control. If you do, this gets overpower.
+SEA005,SEA,Jolly Bludger,2,2,5,3,,,,"Pirate, Mechanologist, Action, Attack","Overpower, Steal",Thrice per Turn Instant,,,,,"When this attacks, you may {t} a cog you control. If you do, this gets **overpower**.
 
-When this deals damage to a hero, steal that many items they control.
+When this deals damage to a hero, **steal** that many items they control.
 
 **Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Kimberly Pantoni,,,SEA005,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA006,SEA,Cogwerx Blunderbuss,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,,,,,,"**Action** - {r}{r}, {t}: Attack
+SEA006,SEA,Cogwerx Blunderbuss,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,"Action, Instant",Attack,,,,"**Action** - {r}{r}, {t}: Attack
 
 **Instant** - {t} a cog you control: This card's next attack this turn gets go again.",Mechanologist Weapon - Gun (2H),,,,,,B,S,,Mariusz Gandzel,,,SEA006,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA007,SEA,Spitfire,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,Action,Attack,,,,"**Action** - {t}, {t} a cog you control: Attack
@@ -26,7 +26,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
 SEA008,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA009,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA010,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA011,SEA,Cogwerx Dovetail,1,1,5,3,,,,"Mechanologist, Action, Attack",,,,,,,"When this hits a hero, {u} all cogs you control.
+SEA011,SEA,Cogwerx Dovetail,1,1,5,3,,,,"Mechanologist, Action, Attack",,Thrice per Turn Instant,,,,,"When this hits a hero, {u} all cogs you control.
 
 **Thrice per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.",Mechanologist Action - Attack,,,,No,,M,,,Kevin Sidharta,,,SEA011,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA012,SEA,Palantir Aeronought,1,2,6,3,,,,"Mechanologist, Action, Attack",,Thrice per Turn Instant,,,,,"The defending hero must defend this with an equipment they control if able.
@@ -65,7 +65,11 @@ SEA039,SEA,Draw Back the Hammer,1,1,,2,,,,"Mechanologist, Action",Go again,,,,,,
 You may {u} a gun you control.
 
 **Go again**",Mechanologist Action,,,,,,C,,,Jefrey Yonathan,,,SEA039,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA039.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA040,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA040,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA040,SEA,Perk Up,1,1,,2,,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +4{p}.
+
+You may {u} a gun you control.
+
+**Go again**",Mechanologist Action,,,,,,C,,,Alief Rusdiatama,,,SEA040,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA040.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA041,SEA,Tighten the Screws,1,1,,2,,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +4{p}.
 
 You may {u} a cog you control.
@@ -153,12 +157,14 @@ SEA076,SEA,"Cutty Shark, Quick Clip",2,1,3,,4,,,"Pirate, Necromancer, Action, Al
 "LGS406, SEA077","LGS, SEA",Riggermortis,2,1,6,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,Attack,,,,"**Action** - {r}, {t}: **Attack**
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,P,R,EA,Max Kostin,,,LGS406,https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS406.png,,,C,,,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077.png,,,V,C,FA,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077_V2.png,,,,,,,,,,,,,,,,,,,,,
-SEA078,SEA,"Shelly, Hardened Traveler",2,2,4,,5,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r}, {t}: Attack
+SEA078,SEA,"Shelly, Hardened Traveler",2,2,4,,5,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",,,,,"**Action** - {r}{r}{r}, {t}: Attack
 
 **Instant** - {t}: The next attack action card you defend with this turn gets +1{d}.
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078.png,,,V,C,FA,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA079,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA079,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA079,SEA,Swabbie,2,3,7,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}, {t}: Attack
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Faizal Fikri,,,SEA079,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079.png,,,V,C,FA,Faizal Fikri,,,SEA079,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA080,SEA,Dead Threads,,,,1,,,,"Necromancer, Equipment, Chest",Blade Break,Instant,,,,,"**Instant** - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.
 
 **Blade Break**",Necromancer Equipment - Chest,,,,No,,L,R,,Mario Wibisono,,,SEA080,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080.png,,,L,C,EA,Mario Wibisono,,,SEA080,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -330,7 +336,7 @@ SEA211,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA211,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA212,SEA,Fiddler's Green,1,,,1,,,,"Generic, Block",,,,,,,"When this is put into your graveyard from anywhere, gain 3{h}.",Generic Block,,,,No,,R,,,Ramza Ardyputra,,,SEA212,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA212.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA213,SEA,Fiddler's Green,2,,,1,,,,"Generic, Block",,,,,,,"When this is put into your graveyard from anywhere, gain 2{h}.",Generic Block,,,,No,,R,,,Ramza Ardyputra,,,SEA213,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA213.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA214,SEA,Fiddler's Green,3,,,1,,,,"Generic, Block",,,,,,,"When this is put into your graveyard from anywhere, gain 1{h}.",Generic Block,,,,No,,R,,,Ramza Ardyputra,,,SEA214,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA214.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA215,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA215,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA215,SEA,Fool's Gold,2,,,,,,,"Generic, Resource",,,,,,,"When this is discarded, create a Gold token.",Generic Resource,,,,No,,R,,,Mariusz Gandzel,,,SEA215,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA216,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA216,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA217,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA217,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA218,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA218,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

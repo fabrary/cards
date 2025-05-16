@@ -380,6 +380,7 @@ export const fabDictionary = [
   "suraya",
   "surgent",
   "sutcliffe",
+  "swabbie",
   "swiftblade",
   "tbone",
   "taipanis",
