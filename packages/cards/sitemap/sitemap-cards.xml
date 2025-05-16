@@ -981,6 +981,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/barbed-barrage-red</loc>
+    <lastmod>2025-05-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/barbed-castaway</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -3043,6 +3048,21 @@
   <url>
     <loc>https://fabrary.net/cards/cloak-of-darkness</loc>
     <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cloud-city-steamboat-red</loc>
+    <lastmod>2025-05-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cloud-city-steamboat-yellow</loc>
+    <lastmod>2025-05-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cloud-city-steamboat-blue</loc>
+    <lastmod>2025-05-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10698,6 +10718,11 @@
   <url>
     <loc>https://fabrary.net/cards/performance-bonus-blue</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/perk-up-red</loc>
+    <lastmod>2025-05-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

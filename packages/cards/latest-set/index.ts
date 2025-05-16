@@ -22,6 +22,63 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Kelvin Jauwri"],
+    cardIdentifier: "barbed-barrage-red",
+    classes: [Class.Ranger],
+    defaultImage: "SEA098",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Barbed Barrage",
+    printings: [{
+        artists: ["Kelvin Jauwri"],
+      
+      identifier: "SEA098",
+      image: "SEA098",
+      
+      
+      print: "SEA098",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA098"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA098",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `As an additional cost to play this, you may pay {r}{r}{r}. If you do, this attacks an additional target.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "barnacle-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -477,6 +534,183 @@ Create a Gold token for each yellow card put into your graveyard this way.
     
     
     pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "cloud-city-steamboat-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA015",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cloud City Steamboat",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SEA015",
+      image: "SEA015",
+      
+      
+      print: "SEA015",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA015"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA015",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, you may {t} a cog you control. If you do, put a steam counter on a cog you control.
+
+**Twice per Turn Instant** - {t} a cog you control: This gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "cloud-city-steamboat-yellow",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA016",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cloud City Steamboat",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SEA016",
+      image: "SEA016",
+      
+      
+      print: "SEA016",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA016"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA016",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, you may {t} a cog you control. If you do, put a steam counter on a cog you control.
+
+**Twice per Turn Instant** - {t} a cog you control: This gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "cloud-city-steamboat-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA017",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Cloud City Steamboat",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SEA017",
+      image: "SEA017",
+      
+      
+      print: "SEA017",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA017"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA017",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, you may {t} a cog you control. If you do, put a steam counter on a cog you control.
+
+**Twice per Turn Instant** - {t} a cog you control: This gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+    
+    pitch: 3,
     power: 4,
     
     
@@ -1067,7 +1301,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "draw-back-the-hammer-red",
     classes: [Class.Mechanologist],
@@ -1148,12 +1383,24 @@ You may {u} a gun you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Anthony Avon"],
+      foiling: Foiling.C,
+      identifier: "SEA155",
+      image: "SEA155_V2",
+      
+      
+      print: "SEA155-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["SEA155"],
     sets: [Release.HighSeas],
-    specialImage: "SEA155",
+    specialImage: "SEA155_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -1205,12 +1452,24 @@ You may {u} a gun you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "SEA156",
+      image: "SEA156_V2",
+      
+      
+      print: "SEA156-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["SEA156"],
     sets: [Release.HighSeas],
-    specialImage: "SEA156",
+    specialImage: "SEA156_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -1242,8 +1501,7 @@ You may {u} a gun you control.
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Arkoii"],
     cardIdentifier: "expedition-to-dreadfall-reach-red",
     classes: [Class.Pirate],
@@ -1263,12 +1521,24 @@ You may {u} a gun you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.C,
+      identifier: "SEA157",
+      image: "SEA157_V2",
+      
+      
+      print: "SEA157-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["SEA157"],
     sets: [Release.HighSeas],
-    specialImage: "SEA157",
+    specialImage: "SEA157_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -1320,12 +1590,24 @@ You may {u} a gun you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.C,
+      identifier: "SEA158",
+      image: "SEA158_V2",
+      
+      
+      print: "SEA158-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["SEA158"],
     sets: [Release.HighSeas],
-    specialImage: "SEA158",
+    specialImage: "SEA158_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -1782,12 +2064,24 @@ You may {u} a gun you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "SEA049",
+      image: "SEA049_V2",
+      
+      
+      print: "SEA049-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SEA049"],
     sets: [Release.HighSeas],
-    specialImage: "SEA049",
+    specialImage: "SEA049_V2",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Pirate Necromancer Action",
@@ -2322,7 +2616,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2405,8 +2700,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -3363,6 +3657,67 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
   
   },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "perk-up-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA040",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Perk Up",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "SEA040",
+      image: "SEA040",
+      
+      
+      print: "SEA040",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA040"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA040",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Mechanologist attack this turn gets +4{p}.
+
+You may {u} your hero.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "polly-cranka",
     classes: [],
@@ -3455,6 +3810,18 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       set: Release.HighSeas,
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "SEA145",
+      image: "SEA145",
+      
+      
+      print: "SEA145",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -3660,7 +4027,8 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Konadekana"],
     cardIdentifier: "redspine-manta",
     classes: [Class.Ranger],
@@ -3717,8 +4085,7 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Max Kostin"],
     cardIdentifier: "riggermortis-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -3939,12 +4306,24 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.C,
+      identifier: "SEA095",
+      image: "SEA095_V2",
+      
+      
+      print: "SEA095-Cold-Extended Art",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["SEA095"],
     sets: [Release.HighSeas],
-    specialImage: "SEA095",
+    specialImage: "SEA095_V2",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Ranger Equipment - Legs",

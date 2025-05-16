@@ -36,9 +36,15 @@ SEA013,SEA,Cog in the Machine,1,1,,3,,,,"Mechanologist, Action",,,,,,,"Create 2 
 
 You may {t} a cog you control. If you do, put this on the bottom of its owner's deck.",Mechanologist Action,,,,No,,M,,,Carlos Cruchaga,,,SEA013,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA014,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA014,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA015,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA015,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA016,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA016,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA017,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA017,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA015,SEA,Cloud City Steamboat,1,2,6,3,,,,"Mechanologist, Action, Attack",,,,,,,"When this hits a hero, you may {t} a cog you control. If you do, put a steam counter on a cog you control.
+
+**Twice per Turn Instant** - {t} a cog you control: This gets +1{p}.",Mechanologist Action - Attack,,,,No,,R,,,Carlos Cruchaga,,,SEA015,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA016,SEA,Cloud City Steamboat,2,2,5,3,,,,"Mechanologist, Action, Attack",,,,,,,"When this hits a hero, you may {t} a cog you control. If you do, put a steam counter on a cog you control.
+
+**Twice per Turn Instant** - {t} a cog you control: This gets +1{p}.",Mechanologist Action - Attack,,,,No,,R,,,Carlos Cruchaga,,,SEA016,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA017,SEA,Cloud City Steamboat,3,2,4,3,,,,"Mechanologist, Action, Attack",,,,,,,"When this hits a hero, you may {t} a cog you control. If you do, put a steam counter on a cog you control.
+
+**Twice per Turn Instant** - {t} a cog you control: This gets +1{p}.",Mechanologist Action - Attack,,,,No,,R,,,Carlos Cruchaga,,,SEA017,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA018,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA018,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA019,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA019,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA020,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA020,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -65,6 +71,11 @@ SEA039,SEA,Draw Back the Hammer,1,1,,2,,,,"Mechanologist, Action",Go again,,,,,,
 You may {u} a gun you control.
 
 **Go again**",Mechanologist Action,,,,,,C,,,Jefrey Yonathan,,,SEA039,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA039.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA040,SEA,Perk Up,1,1,,2,,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +4{p}.
+
+You may {u} your hero.
+
+**Go again**",Mechanologist Action,,,,,,C,,,Alief Rusdiatama,,,SEA040,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA040.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA041,SEA,Tighten the Screws,1,1,,2,,,,"Mechanologist, Action",Go again,,,,,,"Your next Mechanologist attack this turn gets +4{p}.
 
 You may {u} a cog you control.
@@ -91,7 +102,7 @@ Create a Gold token for each yellow card put into your graveyard this way.
 **Go again**",Pirate Necromancer Action,,,,No,,M,S,,Carlos Cruchaga,,,SEA048,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA048.webp,,,M,R,,Carlos Cruchaga,,,SEA048,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA048.webp,,,P,R,EA,Carlos Cruchaga,,,FAB344,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB344-RF.webp,,,,,,,,,,,,,,,,,,,,,
 SEA049,SEA,Give No Quarter,3,0,,3,,,,"Pirate, Necromancer, Action",Go again,,,,,,"The next 2 ally cards with watery grave you play this turn cost {r}{r}{r} less to play.
 
-**Go again**",Pirate Necromancer Action,,,,No,,M,,,Nathaniel Himawan,,,SEA049,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Pirate Necromancer Action,,,,No,,M,,,Nathaniel Himawan,,,SEA049,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049.png,,,M,R,EA,Nathaniel Himawan,,,SEA049,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA050,SEA,"Chum, Friendly First Mate",2,4,4,,6,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",Attack,,,,"**Action** - {t}: Attack
 
 **Instant** - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.
@@ -157,7 +168,7 @@ SEA078,SEA,"Shelly, Hardened Traveler",2,2,4,,5,,,"Pirate, Necromancer, Action, 
 **Instant** - {t}: The next attack action card you defend with this turn gets +1{d}.
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078.png,,,V,C,FA,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA079,SEA,Swabbie,2,3,7,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}, {t}: Attack
+SEA079,SEA,Swabbie,2,3,7,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,Attack,,,,"**Action** - {r}{r}, {t}: Attack
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Faizal Fikri,,,SEA079,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079.png,,,V,C,FA,Faizal Fikri,,,SEA079,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA080,SEA,Dead Threads,,,,1,,,,"Necromancer, Equipment, Chest",Blade Break,Instant,,,,,"**Instant** - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.
@@ -187,10 +198,10 @@ SEA093,SEA,Goldfin Harpoon,,0,2,,,,,"Pirate, Ranger, Action, Arrow, Attack",,,,,
 SEA094,SEA,Redspine Manta,,,,,,,,"Ranger, Weapon, Bow, 2H",,Action,Go again,,,,**Action** - {t}: Put an arrow from your hand face-up into your arsenal. **Go again**,Ranger Weapon - Bow (2H),,,,,,B,,,Konadekana,,,SEA094,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA095,SEA,Sealace Sarong,,,,2,,,,"Ranger, Equipment, Legs",Blade Break,Instant,,Go again,,,"**Instant** - {t}, turn a blue arrow in your arsenal face-up: it gets **go again** this turn.
 
-**Blade Break**",Ranger Equipment - Legs,,,,No,,L,R,,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Ranger Equipment - Legs,,,,No,,L,R,,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095.png,,,L,C,EA,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA096,SEA,,,,,0,,,,"Ranger, Equipment, Head",,Instant,,,,,**Instant** - Destroy this: Return a card from your arsenal to your hand.,Ranger Equipment - Head,,,,,,C,S,,Raphael Pinna,,,SEA096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA097,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA098,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA098,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA098,SEA,Barbed Barrage,1,1,5,3,,,,"Ranger, Action, Arrow, Attack",,,,,,,"As an additional cost to play this, you may pay {r}{r}{r}. If you do, this attacks an additional target.",Ranger Action - Arrow Attack,,,,No,,M,,,Kelvin Jauwri,,,SEA098,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA099,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA099,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA100,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA100,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA101,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA101,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -253,7 +264,7 @@ SEA143,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA144,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA144,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA145,SEA,Portside Exchange,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.
 
-**Go again**",Pirate Action,,,,No,,R,C,EA,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Pirate Action,,,,No,,R,C,EA,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145_V2.png,,,R,,,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA146,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA146,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA147,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA147,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA148,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA148,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -263,10 +274,10 @@ SEA151,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA151,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA152,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA152,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA153,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA153,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA154,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA154,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA155,SEA,Expedition to Azuro Keys,1,0,4,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Anthony Avon,,,SEA155,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA156,SEA,Expedition to Blackwater Strait,1,1,5,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,SEA156,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA157,SEA,Expedition to Dreadfall Reach,1,2,6,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Arkoii,,,SEA157,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA158,SEA,Expedition to Horizon's Mantle,1,3,7,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Carlos Cruchaga,,,SEA158,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA155,SEA,Expedition to Azuro Keys,1,0,4,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Anthony Avon,,,SEA155,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155.png,,,C,C,EA,Anthony Avon,,,SEA155,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA155_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA156,SEA,Expedition to Blackwater Strait,1,1,5,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,SEA156,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156.png,,,C,C,EA,Tomasz Jedruszek,,,SEA156,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA157,SEA,Expedition to Dreadfall Reach,1,2,6,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Arkoii,,,SEA157,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157.png,,,C,C,EA,Arkoii,,,SEA157,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA158,SEA,Expedition to Horizon's Mantle,1,3,7,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Carlos Cruchaga,,,SEA158,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158.png,,,C,C,EA,Carlos Cruchaga,,,SEA158,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA159,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA159,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA160,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA160,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA161,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA161,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
