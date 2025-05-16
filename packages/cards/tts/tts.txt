@@ -5670,7 +5670,6 @@ OSCCardDB = {
   ["SEA028"] = { name = "Sky Skimmer (2)", text = "**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.", keywords = "Go again", types = "Action"},
   ["SEA029"] = { name = "Sky Skimmer (3)", text = "**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.", keywords = "Go again", types = "Action"},
   ["SEA039"] = { name = "Draw Back the Hammer (1)", text = "Your next Mechanologist attack this turn gets +4{p}.\n\nYou may {u} a gun you control.\n\n**Go again**", keywords = "Go again", types = "Action"},
-  ["SEA040"] = { name = "Perk Up (1)", text = "Your next Mechanologist attack this turn gets +4{p}.\n\nYou may {u} a gun you control.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["SEA041"] = { name = "Tighten the Screws (1)", text = "Your next Mechanologist attack this turn gets +4{p}.\n\nYou may {u} a cog you control.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["SEA042"] = { name = "Golden Cog", text = "**Crank**\n\nThis enters the arena with a steam counter. At the start of your turn, destroy this unless you remove a steam counter from it.", keywords = "Crank", types = "Token"},
   ["SEA043"] = { name = "Gravy Bones, Shipwrecked Looter", text = "**Instant** - {t}, destroy a Gold you control: Draw a card, then discard a card.\n\nIf a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.", keywords = "", types = "Hero"},

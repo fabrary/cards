@@ -2405,7 +2405,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2462,8 +2463,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hoist-em-up-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -3351,67 +3351,6 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-  
-  },{
-    artists: ["Alief Rusdiatama"],
-    cardIdentifier: "perk-up-red",
-    classes: [Class.Mechanologist],
-    defaultImage: "SEA040",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [],
-    name: "Perk Up",
-    printings: [{
-        artists: ["Alief Rusdiatama"],
-      
-      identifier: "SEA040",
-      image: "SEA040",
-      
-      
-      print: "SEA040",
-      rarity: Rarity.Common,
-      set: Release.HighSeas,
-      
-      
-    },],
-    rarities: [Rarity.Common],
-    rarity: Rarity.Common,
-    setIdentifiers: ["SEA040"],
-    sets: [Release.HighSeas],
-    specialImage: "SEA040",
-    subtypes: [Subtype.NonAttack],
-    types: [Type.Action],
-    typeText: "Mechanologist Action",
-
-    
-    
-    cost: 1,
-    defense: 2,
-    
-    functionalText: `Your next Mechanologist attack this turn gets +4{p}.
-
-You may {u} a gun you control.
-
-**Go again**`,
-    
-    
-    
-    
-    keywords: [Keyword.GoAgain],
-    
-    
-    
-    
-    pitch: 1,
     
     
     
