@@ -488,6 +488,7 @@ export enum Keyword {
   Tower = "Tower",
   Transform = "Transform",
   Transcend = "Transcend",
+  Unlimited = "Unlimited",
   Universal = "Universal",
   Unfreeze = "Unfreeze",
   Unity = "Unity",

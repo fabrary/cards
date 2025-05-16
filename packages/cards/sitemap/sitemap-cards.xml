@@ -3426,6 +3426,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/copper-cog-blue</loc>
+    <lastmod>2025-05-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/coronet-peak</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -5953,6 +5958,11 @@
   <url>
     <loc>https://fabrary.net/cards/fire-and-brimstone-red</loc>
     <lastmod>2025-01-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/fire-in-the-hole-red</loc>
+    <lastmod>2025-05-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9836,6 +9846,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/monkey-powder-red</loc>
+    <lastmod>2025-05-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/monstrous-veil</loc>
     <lastmod>2024-01-15</lastmod>
     <priority>0.5</priority>
@@ -12388,6 +12403,11 @@
   <url>
     <loc>https://fabrary.net/cards/retrace-the-past-blue</loc>
     <lastmod>2024-12-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/return-fire-red</loc>
+    <lastmod>2025-05-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

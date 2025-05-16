@@ -1030,6 +1030,67 @@ The first card with watery grave you play from your graveyard each turn gets go 
   
   
   },{
+    artists: ["Galih M"],
+    cardIdentifier: "copper-cog-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "SEA021",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Copper Cog",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "SEA021",
+      image: "SEA021",
+      
+      
+      print: "SEA021",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA021"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA021",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Cog Item",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Unlimited**
+
+**Crank**
+
+This enters the arena with 2 steam counters. At the start of your turn, destroy this unless you remove a steam counter from it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crank,Keyword.Unlimited],
+    
+    
+    
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Alexandra Malygina","Sam Yang"],
     cardIdentifier: "cracked-bauble-yellow",
     classes: [Class.Generic],
@@ -1799,6 +1860,67 @@ You may {u} a gun you control.
     meta: [Meta.Rainbow],
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Reza Aswadananta"],
+    cardIdentifier: "fire-in-the-hole-red",
+    classes: [Class.Ranger],
+    defaultImage: "SEA101",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Fire in the Hole",
+    printings: [{
+        artists: ["Reza Aswadananta"],
+      
+      identifier: "SEA101",
+      image: "SEA101",
+      
+      
+      print: "SEA101",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA101"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA101",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Your next arrow attack this turn gets +3{p}.
+
+You may {u} a bow you control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 1,
     
     
     
@@ -3385,6 +3507,67 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "monkey-powder-red",
+    classes: [Class.Ranger],
+    defaultImage: "SEA102",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Monkey Powder",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SEA102",
+      image: "SEA102",
+      
+      
+      print: "SEA102",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA102"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA102",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `Your next arrow attack this turn gets +1{p} and **overpower**.
+
+Draw a card.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "moray-le-fay-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -4074,6 +4257,63 @@ The second time you crank each turn, draw a card.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "return-fire-red",
+    classes: [Class.Ranger],
+    defaultImage: "SEA099",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Return Fire",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SEA099",
+      image: "SEA099",
+      
+      
+      print: "SEA099",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA099"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA099",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Ranger Block",
+
+    
+    
+    
+    defense: 4,
+    
+    functionalText: `When this defends, you may banish an arrow from your hand. If you do, at the start of your next turn, put it face-up into your arsenal and it gets +3{p} until end of turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    pitch: 1,
     
     
     
