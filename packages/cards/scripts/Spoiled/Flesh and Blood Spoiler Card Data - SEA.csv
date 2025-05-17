@@ -203,7 +203,7 @@ SEA094,SEA,Redspine Manta,,,,,,,,"Ranger, Weapon, Bow, 2H",,Action,Go again,,,,*
 SEA095,SEA,Sealace Sarong,,,,2,,,,"Ranger, Equipment, Legs",Blade Break,Instant,,Go again,,,"**Instant** - {t}, turn a blue arrow in your arsenal face-up: it gets **go again** this turn.
 
 **Blade Break**",Ranger Equipment - Legs,,,,No,,L,R,,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095.png,,,L,C,EA,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA096,SEA,,,,,0,,,,"Ranger, Equipment, Head",,Instant,,,,,**Instant** - Destroy this: Return a card from your arsenal to your hand.,Ranger Equipment - Head,,,,,,C,S,,Raphael Pinna,,,SEA096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA096,SEA,Patch the Hole,,,,0,,,,"Ranger, Equipment, Head",,Instant,,,,,**Instant** - Destroy this: Return a card from your arsenal to your hand.,Ranger Equipment - Head,,,,,,C,S,,Raphael Pinna,,,SEA096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA097,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA097,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA098,SEA,Barbed Barrage,1,1,5,3,,,,"Ranger, Action, Arrow, Attack",,,,,,,"As an additional cost to play this, you may pay {r}{r}{r}. If you do, this attacks an additional target.",Ranger Action - Arrow Attack,,,,No,,M,S,,Kelvin Jauwri,,,SEA098,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA099,SEA,Return Fire,1,,,4,,,,"Ranger, Block",,,,,,,"When this defends, you may banish an arrow from your hand. If you do, at the start of your next turn, put it face-up into your arsenal and it gets +3{p} until end of turn.",Ranger Block,,,,No,,M,,,Tomasz Jedruszek,,,SEA099,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA099.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -321,7 +321,9 @@ SEA184,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA184,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA185,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA185,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA186,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA186,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA187,SEA,Sea Legs,2,3,6,3,,,,"Generic, Action, Attack",,,,,,,"When this is discarded, create a Goldkiss Rum token.",Generic Action - Attack,,,,No,,M,,,Carlos Cruchaga,,,SEA187,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA187.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA188,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA188,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA188,SEA,Midas Touch,2,1,,3,,,,"Generic, Action",Go again,,,,,,"Destroy target ally. Its controller creates Gold tokens equal to its cost.
+
+**Go again**",Generic Action,,,,No,,M,,,Sebastian Giacobino,,,SEA188,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA188.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA189,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA189,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA189.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA190,SEA,Diamond Amulet,3,0,,,,,,"Generic, Action, Item","Legendary, Watery Grave",Instant,,,,,"**Instant** - Destroy this: gain 1 action point.
 
@@ -411,4 +413,8 @@ SEA260,SEA,Herald of Sekem,1,2,7,3,,,,"Light, Illusionist, Action, Attack",Phant
 SEA261,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA261,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA262,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA262,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA263,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA263,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA264,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA264,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA264,SEA,"Sawbones, Dock Hand",2,2,6,,2,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {t}: Attack
+
+When this dies, create a Gold token.
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,V,C,FA,Isuardi Therianto,Yes,,SEA264,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA264.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

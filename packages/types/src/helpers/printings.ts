@@ -134,7 +134,9 @@ export const getSpecialPrinting = (
     let coldFullArt: Printing | undefined;
     let coldFullArt2: Printing | undefined;
     let extendedArt: Printing | undefined;
-    let fullArt: Printing | undefined;
+    let backFullArt: Printing | undefined;
+    let frontFullArt: Printing | undefined;
+    let firstFullArt: Printing | undefined;
     let nonFoilExtendedArt: Printing | undefined;
     let promoExtendedArt: Printing | undefined;
     let fullArtAlternateArt: Printing | undefined;
@@ -154,10 +156,12 @@ export const getSpecialPrinting = (
       const { edition, foiling, identifier, image, print, treatments } =
         printing;
 
+      const upperCaseImage = image?.toUpperCase() || "";
+
       // Don't include Pro Tour, etc. hero cards for special printings because they're missing functional text
       const isMissingFunctionalText = identifier.toLowerCase().includes("win");
-      const hasImage = !!image;
-      const isWhiteBorder = image?.includes("HP");
+      const hasImage = !!upperCaseImage;
+      const isWhiteBorder = upperCaseImage.includes("HP");
       const shouldIgnore = printingsToIgnore.includes(print);
       const shouldConsiderPrinting =
         hasImage && !isMissingFunctionalText && !isWhiteBorder && !shouldIgnore;
@@ -168,15 +172,22 @@ export const getSpecialPrinting = (
         }
 
         if (treatments?.includes(Treatment.FA)) {
-          fullArt = printing;
+          firstFullArt = printing;
           if (foiling === Foiling.C) {
             coldFullArt = printing;
-            if (image.includes("_V3")) {
+            if (upperCaseImage.includes("_V3")) {
               coldFullArt2 = printing;
               break;
             }
           }
+
+          if (upperCaseImage.includes("BACK")) {
+            backFullArt = printing;
+          } else {
+            frontFullArt = printing;
+          }
         }
+
         if (treatments?.includes(Treatment.EA)) {
           extendedArt = printing;
           if (foiling === Foiling.C) {
@@ -200,8 +211,7 @@ export const getSpecialPrinting = (
         }
 
         if (
-          image &&
-          (image.includes("_V2") || image.includes("-MV")) &&
+          (upperCaseImage.includes("_V2") || upperCaseImage.includes("-MV")) &&
           treatments?.includes(Treatment.FA)
         ) {
           marvel = printing;
@@ -228,11 +238,16 @@ export const getSpecialPrinting = (
       }
     }
 
-    return (
+    const finalFullArt =
       fullArtAlternateArt ||
       coldFullArt2 ||
+      frontFullArt ||
+      backFullArt ||
       coldFullArt ||
-      fullArt ||
+      firstFullArt;
+
+    return (
+      finalFullArt ||
       coldExtendedArt ||
       marvel ||
       promoExtendedArt ||

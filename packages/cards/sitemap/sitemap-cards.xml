@@ -9726,6 +9726,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/midas-touch-yellow</loc>
+    <lastmod>2025-05-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/might</loc>
     <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>
@@ -10613,6 +10618,11 @@
   <url>
     <loc>https://fabrary.net/cards/passing-mirage-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/patch-the-hole</loc>
+    <lastmod>2025-05-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

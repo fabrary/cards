@@ -1419,8 +1419,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "draw-back-the-hammer-red",
     classes: [Class.Mechanologist],
@@ -1481,7 +1480,8 @@ You may {u} a gun you control.
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Anthony Avon"],
     cardIdentifier: "expedition-to-azuro-keys-red",
     classes: [Class.Pirate],
@@ -2471,7 +2471,7 @@ You may {u} a bow you control.
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA042"],
     sets: [Release.HighSeas],
-    specialImage: "SEA042-TP_BACK",
+    specialImage: "SEA042-TP",
     subtypes: [Subtype.Item],
     types: [Type.Token],
     typeText: "Mechanologist Token - Cog Item",
@@ -2761,7 +2761,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA044"],
     sets: [Release.HighSeas],
-    specialImage: "SEA044-MV_BACK",
+    specialImage: "SEA044-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Pirate Necromancer Hero - Young",
@@ -2844,7 +2844,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     rarity: Rarity.Basic,
     setIdentifiers: ["AGB001","HER138","SEA043"],
     sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
-    specialImage: "SEA043-MV_BACK",
+    specialImage: "SEA043-MV",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Pirate Necromancer Hero",
@@ -2878,8 +2878,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2995,7 +2994,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     talents: [Talent.Light],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hoist-em-up-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -3505,7 +3505,7 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA083"],
     sets: [Release.HighSeas],
-    specialImage: "SEA083-MV_BACK",
+    specialImage: "SEA083-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Pirate Ranger Hero - Young",
@@ -3588,7 +3588,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     rarity: Rarity.Basic,
     setIdentifiers: ["HER139","SEA082"],
     sets: [Release.HighSeas,Release.Promos],
-    specialImage: "SEA082-MV_BACK",
+    specialImage: "SEA082-MV",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Pirate Ranger Hero",
@@ -3611,6 +3611,65 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "midas-touch-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SEA188",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Midas Touch",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "SEA188",
+      image: "SEA188",
+      
+      
+      print: "SEA188",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA188"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA188",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Destroy target ally. Its controller creates Gold tokens equal to its cost.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 2,
     
     
     
@@ -3956,6 +4015,63 @@ Draw a card.
   
   
   },{
+    artists: ["Raphael Pinna"],
+    cardIdentifier: "patch-the-hole",
+    classes: [Class.Ranger],
+    defaultImage: "SEA096",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Patch the Hole",
+    printings: [{
+        artists: ["Raphael Pinna"],
+      
+      identifier: "SEA096",
+      image: "SEA096",
+      
+      
+      print: "SEA096",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA096"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA096",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Ranger Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Destroy this: Return a card from your arsenal to your hand.`,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "peg-leg",
     classes: [Class.Pirate],
@@ -4268,7 +4384,7 @@ You may {u} your hero.
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA002"],
     sets: [Release.HighSeas],
-    specialImage: "SEA002-MV_BACK",
+    specialImage: "SEA002-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Pirate Mechanologist Hero - Young",
@@ -4351,7 +4467,7 @@ The second time you crank each turn, draw a card.`,
     rarity: Rarity.Basic,
     setIdentifiers: ["HER137","SEA001"],
     sets: [Release.HighSeas,Release.Promos],
-    specialImage: "SEA001-MV_BACK",
+    specialImage: "SEA001-MV",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Pirate Mechanologist Hero",
@@ -4385,8 +4501,7 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Ismatulloh"],
     cardIdentifier: "red-fin-harpoon-blue",
     classes: [Class.Pirate,Class.Ranger],
@@ -4443,7 +4558,8 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Konadekana"],
     cardIdentifier: "redspine-manta",
     classes: [Class.Ranger],
@@ -4615,6 +4731,67 @@ The second time you crank each turn, draw a card.`,
     
     life: 1,
     
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "sawbones-dock-hand-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "SEA264",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Sawbones, Dock Hand",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.C,
+      identifier: "SEA264",
+      image: "SEA264",
+      isExpansionSlot: true,
+      
+      print: "SEA264-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["AGB019","SEA264"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    specialImage: "SEA264",
+    subtypes: [Subtype.Ally,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Ally",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `**Action** - {r}, {t}: **Attack**
+
+**Instant** - {t}: The next time you or a Pirate you control would be dealt damage this turn, prevent 1 of that damage.
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.WateryGrave],
+    
+    life: 2,
+    meta: [Meta.Expansion],
     
     pitch: 2,
     power: 6,
