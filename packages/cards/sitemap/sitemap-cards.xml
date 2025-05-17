@@ -7536,6 +7536,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/herald-of-sekem-red</loc>
+    <lastmod>2025-05-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/herald-of-tenacity-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -9946,6 +9951,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/murderous-rabble-blue</loc>
+    <lastmod>2025-05-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/murkmire-grapnel-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -12193,6 +12203,11 @@
   <url>
     <loc>https://fabrary.net/cards/red-alert-visor</loc>
     <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/red-fin-harpoon-blue</loc>
+    <lastmod>2025-05-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18303,6 +18318,11 @@
   <url>
     <loc>https://fabrary.net/cards/written-in-the-stars-blue</loc>
     <lastmod>2025-02-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/yellow-fin-harpoon-blue</loc>
+    <lastmod>2025-05-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

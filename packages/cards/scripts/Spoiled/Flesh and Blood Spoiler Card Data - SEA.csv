@@ -195,8 +195,8 @@ Draw a card, then discard a card.
 **Go again**",Pirate Ranger Action,,,,No,,M,S,,Lius Lasahido,,,SEA087,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA087-RF.webp,,,M,R,,Lius Lasahido,,,SEA087,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA087-RF.webp,,,P,R,EA,Lius Lasahido,,,FAB345,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB345-RF.webp,,,,,,,,,,,,,,,,,,,,,
 SEA088,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA088,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA089,SEA,Blue Fin Harpoon,3,2,4,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's blue, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,R,,,Joseph Qiu,,,SEA089,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA090,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA090,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA091,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA091,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA090,SEA,Red Fin Harpoon,3,2,4,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's red, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,R,,,Ismatulloh,,,SEA090,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA091,SEA,Yellow Fin Harpoon,3,2,4,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's yellow, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,R,,,M Fakhrur Rozzi,,,SEA091,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA092,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA092,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA093,SEA,Goldfin Harpoon,,0,2,,,,,"Pirate, Ranger, Action, Arrow, Attack",,,,,,,"If this would be put into a graveyard, instead remove it from the game.",Pirate Ranger Action - Arrow Attack,,,,,,B,S,,Bastien Jez,,,SEA093,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA093.webp,,,V,C,FA,Bastien Jez,,,SEA093,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA093-TP.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA094,SEA,Redspine Manta,,,,,,,,"Ranger, Weapon, Bow, 2H",,Action,Go again,,,,**Action** - {t}: Put an arrow from your hand face-up into your arsenal. **Go again**,Ranger Weapon - Bow (2H),,,,,,B,,,Konadekana,,,SEA094,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -213,7 +213,7 @@ SEA101,SEA,Fire in the Hole,1,0,,2,,,,"Ranger, Action",Go again,,,,,,"Your next 
 You may {u} a bow you control.
 
 **Go again**",Ranger Action,,,,No,,R,,,Reza Aswadananta,,,SEA101,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA102,SEA,Monkey Powder,1,3,,2,,,,"Ranger, Action",Go again,,,,,,"Your next arrow attack this turn gets +1{p} and **overpower**.
+SEA102,SEA,Monkey Powder,1,3,,2,,,,"Ranger, Action",Go again,,,Overpower,,,"Your next arrow attack this turn gets +1{p} and **overpower**.
 
 Draw a card.
 
@@ -266,7 +266,9 @@ SEA133,SEA,Sunken Treasure,3,,,3,,,,"Pirate, Block",,,,,,,"When this defends, yo
 SEA134,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA134,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA135,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA136,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA136,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA137,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA137,SEA,Murderous Rabble,3,0,0,3,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. This gets +X{p}, where X is the pitch value of the card revealed this way.
+
+**Go again**",Pirate Action - Attack,,,,No,,R,,,Pavel Rtishchev (Klaher),,,SEA137,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA137.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA138,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA138,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA139,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA139,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA140,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA140,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -403,7 +405,9 @@ SEA256,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA256,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA257,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA257,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA258,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA258,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA259,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA259,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA260,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA260,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA260,SEA,Herald of Sekem,1,2,7,3,,,,"Light, Illusionist, Action, Attack",Phantasm,,,,,,"When this attacks, you may put a yellow card from your hand into your soul. If you do, deal 2 arcane damage to any target.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,No,,M,,,Bastien Jez,Yes,,SEA260,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA260.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA261,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA261,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA262,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA262,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA263,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA263,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

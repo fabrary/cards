@@ -1348,8 +1348,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Mario Wibisono"],
     cardIdentifier: "diamond-amulet-blue",
     classes: [Class.Generic],
@@ -1420,7 +1419,8 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "draw-back-the-hammer-red",
     classes: [Class.Mechanologist],
@@ -2712,8 +2712,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2879,7 +2878,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2934,6 +2934,65 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
+  
+  
+  },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "herald-of-sekem-red",
+    classes: [Class.Illusionist],
+    defaultImage: "SEA260",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Herald of Sekem",
+    printings: [{
+        artists: ["Bastien Jez"],
+      
+      identifier: "SEA260",
+      image: "SEA260",
+      isExpansionSlot: true,
+      
+      print: "SEA260",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SEA260"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA260",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Illusionist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks, you may put a yellow card from your hand into your soul. If you do, deal 2 arcane damage to any target.
+
+**Phantasm**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm],
+    
+    
+    meta: [Meta.Expansion],
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
   
   
   },{
@@ -3607,7 +3666,7 @@ Draw a card.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
     
     
     
@@ -3686,6 +3745,65 @@ Draw a card.
     
     
     pitch: 2,
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "murderous-rabble-blue",
+    classes: [Class.Pirate],
+    defaultImage: "SEA137",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Murderous Rabble",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "SEA137",
+      image: "SEA137",
+      
+      
+      print: "SEA137",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA137"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA137",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, reveal the top card of your deck. This gets +X{p}, where X is the pitch value of the card revealed this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+    
+    pitch: 3,
     power: 0,
     
     
@@ -4184,8 +4302,7 @@ The second time you crank each turn, draw a card.`,
     
   
   young: true
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -4258,6 +4375,64 @@ The second time you crank each turn, draw a card.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards4: Card[] =  [{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "red-fin-harpoon-blue",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "SEA090",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Red Fin Harpoon",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "SEA090",
+      image: "SEA090",
+      
+      
+      print: "SEA090",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA090"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA090",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Ranger Action - Arrow Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's red, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoFish],
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
     
     
     
@@ -5522,6 +5697,63 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     
     pitch: 2,
     power: 11,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "yellow-fin-harpoon-blue",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "SEA091",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Yellow Fin Harpoon",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "SEA091",
+      image: "SEA091",
+      
+      
+      print: "SEA091",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA091"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA091",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Ranger Action - Arrow Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's yellow, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoFish],
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
     
     
     
