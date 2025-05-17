@@ -10,6 +10,7 @@ import {
   Foiling,
   Keyword,
   Printing,
+  Rarity,
   Release,
   Subtype,
   Treatment,
@@ -119,6 +120,7 @@ describe("Printings", () => {
         image: "HNT167_V2",
 
         print: "HNT167-Cold-Full Art",
+        rarity: Rarity.Token,
         set: Release.TheHunted,
 
         treatment: Treatment.FA,
@@ -130,6 +132,7 @@ describe("Printings", () => {
         image: "HNT167",
 
         print: "HNT167",
+        rarity: Rarity.Token,
         set: Release.TheHunted,
       },
     ];
@@ -157,6 +160,7 @@ describe("Printings", () => {
         image: "HNT260",
         isExpansionSlot: true,
         print: "HNT260",
+        rarity: Rarity.Legendary,
         set: Release.TheHunted,
         treatment: Treatment.AA,
         treatments: [Treatment.AA],
@@ -168,6 +172,7 @@ describe("Printings", () => {
         image: "HNT260-EA",
         isExpansionSlot: true,
         print: "HNT260-Rainbow-Extended Art",
+        rarity: Rarity.Legendary,
         set: Release.TheHunted,
         treatment: Treatment.EA,
         treatments: [Treatment.EA, Treatment.AA],

@@ -109,13 +109,17 @@ export const getIsCardTokenForDeck = ({
   return isAgentOfChaos || isEphemeral || isHeroMacroOrToken;
 };
 
+const TOKEN_CARD_OVERRIDES = ["cracked-bauble-yellow", "goldfin-harpoon"];
+
 export const getCanCardBeTokenForDeck = (card: Card) => {
-  const isCrackedBauble = card.cardIdentifier === "cracked-bauble-yellow";
+  const isTokenOverride = TOKEN_CARD_OVERRIDES.includes(card.cardIdentifier);
+
   const isToken = getIsCardTokenForDeck(card);
+
   const cardBackCanBeOutsideDeck =
     card.isCardBack && card.cardIdentifier !== "inner-chi-blue";
 
-  return isCrackedBauble || isToken || cardBackCanBeOutsideDeck;
+  return isTokenOverride || isToken || cardBackCanBeOutsideDeck;
 };
 
 export const getCanAddToDeck = ({
