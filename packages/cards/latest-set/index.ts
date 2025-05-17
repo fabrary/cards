@@ -211,6 +211,63 @@ Draw a card, then discard a card.
   
   
   },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "blue-fin-harpoon-blue",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "SEA089",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Blue Fin Harpoon",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "SEA089",
+      image: "SEA089",
+      
+      
+      print: "SEA089",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SEA089"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA089",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Ranger Action - Arrow Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's blue, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoFish],
+    
+    
+    
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "board-the-ship-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -1291,7 +1348,8 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Mario Wibisono"],
     cardIdentifier: "diamond-amulet-blue",
     classes: [Class.Generic],
@@ -1362,8 +1420,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "draw-back-the-hammer-red",
     classes: [Class.Mechanologist],
@@ -2655,7 +2712,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones",
     classes: [Class.Necromancer,Class.Pirate],
@@ -2738,8 +2796,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "gravy-bones-shipwrecked-looter",
     classes: [Class.Necromancer,Class.Pirate],
@@ -4127,7 +4184,8 @@ The second time you crank each turn, draw a card.`,
     
   
   young: true
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "puffin-hightail",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -4210,8 +4268,7 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Konadekana"],
     cardIdentifier: "redspine-manta",
     classes: [Class.Ranger],
