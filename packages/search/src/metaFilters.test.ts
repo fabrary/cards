@@ -10,7 +10,7 @@ describe("Every hero has a legal filter", () => {
       .toLowerCase()
       .replace(PUNCTUATION, "");
 
-    const filters = getMetaFilters(false, "l", [heroFilter], "");
+    const filters = getMetaFilters(false, "l", [heroFilter], "", []);
     expect(filters.length).toBeGreaterThan(0);
   });
 });

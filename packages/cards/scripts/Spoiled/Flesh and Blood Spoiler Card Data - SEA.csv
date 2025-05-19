@@ -243,9 +243,15 @@ SEA124,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA124,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA125,SEA,Gold-Baited Hook,,,,1,,,,"Pirate, Equipment, Arms",Battleworn,Action,"Steal, Go again",,,,"**Action** - {t}: Your next Pirate attack this turn gets ""When this hits a hero, **steal** a Gold token they control, otherwise create a Gold token."" At the beginning of your end phase, if you haven't created or stolen a Gold token this turn, destroy this. **Go again**
 
 **Battleworn**",Pirate Equipment - Arms,,,,No,,L,C,,Tomasz Jedruszek,,,SEA125,/SEA125-TP.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA126,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA126,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA127,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA127,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA128,SEA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SEA128,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA126,SEA,Blue Sea Tricorn,,,,1,,,,"Pirate, Equipment, Head",Blade Break,Action,Go again,,,,"**Action** - {r}{r}{r}, destroy this: Draw a card. **Go again**
+
+**Blade Break**",Pirate Equipment - Head,,,,,,C,,,Muhammad Fajri,,,SEA126,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA126.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA127,SEA,Buccaneer's Bounty,,,,1,,,,"Pirate, Equipment, Chest",Blade Break,Action,Go again,,,,"**Action** - Destroy this: Gain {r}. **Go again**
+
+**Blade Break**",Pirate Equipment - Chest,,,,,,C,,,Esty Swandana,,,SEA127,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA127.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA128,SEA,Fish Fingers,,,,1,,,,"Pirate, Equipment, Arms",Blade Break,Action,Go again,,,,"**Action** - {r}, destroy this: Your next attack this turn gets +1{p}. **Go again**
+
+**Blade Break**",Pirate Equipment - Arms,,,,,,C,,,Aluisio Cervelle,,,SEA128,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA129,SEA,Peg Leg,,,,1,,,,"Pirate, Equipment, Legs",Blade Break,Action,Go again,Go again,,,"**Action** - {r}{r}{r}, destroy this: Your next attack this turn gets **go again**. **Go again**.
 
 **Blade Break**",Pirate Equipment - Legs,,,,,,C,,,Nailsen Ivanderlie,,,SEA129,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

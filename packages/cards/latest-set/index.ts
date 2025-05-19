@@ -268,6 +268,65 @@ Draw a card, then discard a card.
   
   
   },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "blue-sea-tricorn",
+    classes: [Class.Pirate],
+    defaultImage: "SEA126",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Blue Sea Tricorn",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "SEA126",
+      image: "SEA126",
+      
+      
+      print: "SEA126",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA126"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA126",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Pirate Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Action** - {r}{r}{r}, destroy this: Draw a card. **Go again**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "board-the-ship-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -326,6 +385,65 @@ Draw a card, then discard a card.
     
     pitch: 1,
     power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "buccaneers-bounty",
+    classes: [Class.Pirate],
+    defaultImage: "SEA127",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Buccaneer's Bounty",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "SEA127",
+      image: "SEA127",
+      
+      
+      print: "SEA127",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA127"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA127",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Pirate Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Action** - Destroy this: Gain {r}. **Go again**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    
+    
+    
+    
     
     
     
@@ -1419,7 +1537,8 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "draw-back-the-hammer-red",
     classes: [Class.Mechanologist],
@@ -1480,8 +1599,7 @@ You may {u} a gun you control.
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Anthony Avon"],
     cardIdentifier: "expedition-to-azuro-keys-red",
     classes: [Class.Pirate],
@@ -1978,6 +2096,65 @@ You may {u} a bow you control.
     
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "fish-fingers",
+    classes: [Class.Pirate],
+    defaultImage: "SEA128",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [],
+    name: "Fish Fingers",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "SEA128",
+      image: "SEA128",
+      
+      
+      print: "SEA128",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SEA128"],
+    sets: [Release.HighSeas],
+    specialImage: "SEA128",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Pirate Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Action** - {r}, destroy this: Your next attack this turn gets +1{p}. **Go again**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    
+    
+    
     
     
     
@@ -2878,7 +3055,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Sam Yang"],
     cardIdentifier: "hammerhead-harpoon-cannon",
     classes: [Class.Pirate,Class.Ranger],
@@ -2994,8 +3172,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     talents: [Talent.Light],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "hoist-em-up-red",
     classes: [Class.Necromancer,Class.Pirate],
@@ -4501,7 +4678,8 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Ismatulloh"],
     cardIdentifier: "red-fin-harpoon-blue",
     classes: [Class.Pirate,Class.Ranger],
@@ -4558,8 +4736,7 @@ The second time you crank each turn, draw a card.`,
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Konadekana"],
     cardIdentifier: "redspine-manta",
     classes: [Class.Ranger],

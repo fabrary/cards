@@ -195,7 +195,15 @@ const getRarityFilter = (
   };
 };
 
-const getLegalFilters = (values: string[], excluded: boolean) => {
+const getLegalFilters = (
+  values: string[],
+  excluded: boolean,
+  additionalHeroes: Hero[]
+) => {
+  const cleanAdditionalHeroes = additionalHeroes.map((hero) => ({
+    hero: hero.toLowerCase().replaceAll(PUNCTUATION, ""),
+  }));
+
   const filters: AppliedFilter[] = [];
 
   const formats: string[] = [];
@@ -211,12 +219,14 @@ const getLegalFilters = (values: string[], excluded: boolean) => {
     if (matchingFormat) {
       formats.push(matchingFormat.format);
     } else {
-      const matchingHero = heroMappings.find(({ hero, nicknames }) => {
-        const isAMatch =
-          hero === value || (!!nicknames && nicknames.includes(value));
+      const matchingHero =
+        heroMappings.find(({ hero, nicknames }) => {
+          const isAMatch =
+            hero === value || (!!nicknames && nicknames.includes(value));
 
-        return isAMatch;
-      });
+          return isAMatch;
+        }) || cleanAdditionalHeroes.find(({ hero }) => hero === value);
+
       if (matchingHero) {
         heroes.push(matchingHero.hero);
       }
@@ -251,11 +261,12 @@ export const getMetaFilters = (
   excluded: boolean,
   filterKey: string,
   values: string[],
-  modifier: string
+  modifier: string,
+  additionalHeroes: Hero[]
 ): AppliedFilter[] => {
   const filters: AppliedFilter[] = [];
   if (isLegalFilter(filterKey)) {
-    filters.push(...getLegalFilters(values, excluded));
+    filters.push(...getLegalFilters(values, excluded, additionalHeroes));
   } else if (isRarityFilter(filterKey)) {
     filters.push(getRarityFilter(values, modifier, excluded));
   }

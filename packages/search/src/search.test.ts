@@ -410,6 +410,19 @@ describe("Sorts results by set when included", () => {
   });
 });
 
+describe("Additional heroes", () => {
+  const cardSearch = new Search(doubleSidedCards, ["Another" as Hero]);
+
+  it("Another hero", () => {
+    const { appliedFilters } = cardSearch.search('l:"Another"');
+    expect(appliedFilters.length).toBe(1);
+    expect(appliedFilters[0].values).toEqual(["another"]);
+    expect(appliedFilters[0].filterToPropertyMapping.property).toEqual(
+      "legalHeroes"
+    );
+  });
+});
+
 describe("Returns set when included", () => {
   const cardSearch = new Search(doubleSidedCards);
 

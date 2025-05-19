@@ -402,6 +402,7 @@ export const fabDictionary = [
   "totalizer",
   "TrapDoor",
   "tremorshield",
+  "tricorn",
   "trishot",
   "twintek",
   "unforgetting",

@@ -1976,6 +1976,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/blue-sea-tricorn</loc>
+    <lastmod>2025-05-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/board-the-ship-red</loc>
     <lastmod>2025-03-20</lastmod>
     <priority>0.5</priority>
@@ -2443,6 +2448,11 @@
   <url>
     <loc>https://fabrary.net/cards/bubble-to-the-surface-red</loc>
     <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/buccaneers-bounty</loc>
+    <lastmod>2025-05-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -3008,6 +3018,21 @@
   <url>
     <loc>https://fabrary.net/cards/clash-of-might-blue</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clash-of-mountains-red</loc>
+    <lastmod>2025-05-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clash-of-mountains-yellow</loc>
+    <lastmod>2025-05-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clash-of-mountains-blue</loc>
+    <lastmod>2025-05-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -6018,6 +6043,11 @@
   <url>
     <loc>https://fabrary.net/cards/first-tenet-of-chi-wind-blue</loc>
     <lastmod>2024-05-12</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/fish-fingers</loc>
+    <lastmod>2025-05-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

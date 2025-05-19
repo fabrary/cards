@@ -39,11 +39,16 @@ export interface SearchResults {
 }
 
 class Search {
+  private additionalHeroes: Hero[];
   private cards: DoubleSidedCard[];
   private debug: boolean;
   private fuse: Fuse<Card>;
 
-  constructor(cards: DoubleSidedCard[], debug: boolean = false) {
+  constructor(
+    cards: DoubleSidedCard[],
+    additionalHeroes: Hero[] = [],
+    debug: boolean = false
+  ) {
     const searchOptions = {
       getFn: (obj: DoubleSidedCard, path) => {
         // Use the default `get` function
@@ -71,6 +76,7 @@ class Search {
       useExtendedSearch: true,
     };
 
+    this.additionalHeroes = additionalHeroes;
     this.cards = [...cards];
     this.debug = debug;
     this.fuse = new Fuse([...cards], searchOptions);
@@ -86,7 +92,11 @@ class Search {
     let results: DoubleSidedCard[];
 
     const { appliedFilters, attributes, keywords, specialConditions } =
-      getKeywordsAndAppliedFiltersFromText(text, this.cards);
+      getKeywordsAndAppliedFiltersFromText(
+        text,
+        this.cards,
+        this.additionalHeroes
+      );
 
     const keyword = keywords.join(" ");
     const matchingMemes = includeMemes

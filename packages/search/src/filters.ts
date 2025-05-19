@@ -415,7 +415,8 @@ const specialConditionHeroes = [
 
 export const getKeywordsAndAppliedFiltersFromText = (
   text: string,
-  cards: Card[]
+  cards: Card[],
+  additionalHeroes: Hero[] = []
 ): {
   appliedFilters: AppliedFilter[];
   attributes: {
@@ -505,7 +506,13 @@ export const getKeywordsAndAppliedFiltersFromText = (
           }
         }
         appliedFilters.push(
-          ...getMetaFilters(excluded, filterKey, values, modifier)
+          ...getMetaFilters(
+            excluded,
+            filterKey,
+            values,
+            modifier,
+            additionalHeroes
+          )
         );
       } else {
         if (["chain"].includes(filterKey)) {
