@@ -4445,7 +4445,7 @@ You may {u} your hero.
     artists: ["Nikko Wahyudi"],
     cardIdentifier: "portside-exchange-blue",
     classes: [Class.Pirate],
-    defaultImage: "SEA145_V2",
+    defaultImage: "SEA145",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [],
     name: "Portside Exchange",

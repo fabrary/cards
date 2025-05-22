@@ -277,6 +277,9 @@ const defaultImagePrintingOverrides: {
   "pitfall-trap-yellow": {
     print: "LGS151-Rainbow",
   },
+  "portside-exchange-blue": {
+    print: "SEA145",
+  },
   "rockslide-trap-blue": {
     print: "LGS152-Rainbow",
   },
