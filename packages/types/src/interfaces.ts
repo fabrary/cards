@@ -111,6 +111,7 @@ export enum Class {
   Ranger = "Ranger",
   Runeblade = "Runeblade",
   Shapeshifter = "Shapeshifter",
+  Thief = "Thief",
   Warrior = "Warrior",
   Wizard = "Wizard",
 }
@@ -275,6 +276,7 @@ export enum Trait {
 
 export enum Metatype {
   Arakni = "Arakni",
+  Scurv = "Scurv",
   HighSeas = "High Seas",
   Puffin = "Puffin",
   Rosetta = "Rosetta",
@@ -404,6 +406,7 @@ export enum Hero {
   Shiyana = "Shiyana",
   Slippy = "Slippy",
   Squizzy = "Squizzy",
+  Scurv = "Scurv",
   Starvo = "Starvo",
   Taipanis = "Taipanis",
   Taylor = "Taylor",

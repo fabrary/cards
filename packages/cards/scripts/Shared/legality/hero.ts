@@ -276,6 +276,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Rhinar]: rhinar,
   [Hero.Riptide]: CLASSES_AND_TALENTS([Class.Ranger]),
   [Hero.Ruudi]: CLASSES_AND_TALENTS([Class.Merchant]),
+  [Hero.Scurv]: CLASSES_AND_TALENTS([Class.Pirate, Class.Thief]),
   [Hero.Shiyana]: CLASSES_AND_TALENTS([]),
   [Hero.Slippy]: CLASSES_AND_TALENTS([Class.Assassin], [Talent.Chaos]),
   [Hero.Squizzy]: CLASSES_AND_TALENTS([Class.Merchant]),

@@ -198,7 +198,7 @@ const latestSet = releases
   .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
   ?.release as Release;
 
-const latestSetCards = cardsWithLegalFormats.filter(({ printings, sets }) => {
+const latestSetCards = cardsWithLegalHeroes.filter(({ printings, sets }) => {
   const isInLatestSet = sets.includes(latestSet);
   const hasImagesFromLatestSet =
     printings.filter(({ set }) => set === latestSet).length > 0;

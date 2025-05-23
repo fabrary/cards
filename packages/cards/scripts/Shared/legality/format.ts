@@ -134,12 +134,12 @@ export const getLegalFormats = (
     const isLimitedFormat = [Format.Draft, Format.Sealed].includes(format);
     if (isLimitedFormat) {
       if (isHero) {
-        const tokenOrBasic = [Rarity.Basic, Rarity.Token];
-        const isTokenOrBasic = rarities.some((rarity) =>
-          tokenOrBasic.includes(rarity)
+        const tokenOrBasicOrRare = [Rarity.Basic, Rarity.Token, Rarity.Rare];
+        const isTokenOrBasicOrRare = rarities.some((rarity) =>
+          tokenOrBasicOrRare.includes(rarity)
         );
 
-        if (!isTokenOrBasic) {
+        if (!isTokenOrBasicOrRare) {
           isLegalPerFormat = false;
         }
       }
