@@ -351,10 +351,10 @@ SEA140,SEA,Pilfer the Wreck,3,3,5,2,,,,"Pirate, Action, Attack",,,,,,,"When this
 SEA141,SEA,Saltwater Swell,1,1,3,3,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. If it's blue, pitch it.
 
 **Go again**",Pirate Action - Attack,,,,No,,R,,,Stormy Elia Fanggidae,,,SEA141,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA141.png,,,R,C,EA,Stormy Elia Fanggidae,,,SEA141,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA141_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA142,SEA,Saltwater Swell,3,1,1,3,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. If it's blue, pitch it.
+SEA142,SEA,Saltwater Swell,2,1,2,3,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. If it's blue, pitch it.
 
 **Go again**",Pirate Action - Attack,,,,No,,R,,,Stormy Elia Fanggidae,,,SEA142,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA142.png,,,R,C,EA,Stormy Elia Fanggidae,,,SEA142,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA142_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA143,SEA,Saltwater Swell,2,1,2,3,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. If it's blue, pitch it.
+SEA143,SEA,Saltwater Swell,3,1,1,3,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, reveal the top card of your deck. If it's blue, pitch it.
 
 **Go again**",Pirate Action - Attack,,,,No,,R,,,Stormy Elia Fanggidae,,,SEA143,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA143.png,,,R,C,EA,Stormy Elia Fanggidae,,,SEA143,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA143_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA144,SEA,Divvy Up,3,0,,3,,,,"Pirate, Action",,,,,,,"Remove half the gold counters from Treasure Island, rounded up. If you are a Thief, instead remove all of them.

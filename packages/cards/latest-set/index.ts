@@ -12595,18 +12595,18 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     artists: ["Stormy Elia Fanggidae"],
     cardIdentifier: "saltwater-swell-yellow",
     classes: [Class.Pirate],
-    defaultImage: "SEA143",
+    defaultImage: "SEA142",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.GravyBones,Hero.Marlynn,Hero.Puffin,Hero.Scurv],
     name: "Saltwater Swell",
     printings: [{
         artists: ["Stormy Elia Fanggidae"],
       
-      identifier: "SEA143",
-      image: "SEA143",
+      identifier: "SEA142",
+      image: "SEA142",
       
       
-      print: "SEA143",
+      print: "SEA142",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       
@@ -12614,11 +12614,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     },{
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.C,
-      identifier: "SEA143",
-      image: "SEA143_V2",
+      identifier: "SEA142",
+      image: "SEA142_V2",
       
       
-      print: "SEA143-Cold-Extended Art",
+      print: "SEA142-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       
@@ -12626,9 +12626,9 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA143"],
+    setIdentifiers: ["SEA142"],
     sets: [Release.HighSeas],
-    specialImage: "SEA143_V2",
+    specialImage: "SEA142_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
@@ -12667,18 +12667,18 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     artists: ["Stormy Elia Fanggidae"],
     cardIdentifier: "saltwater-swell-blue",
     classes: [Class.Pirate],
-    defaultImage: "SEA142",
+    defaultImage: "SEA143",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.GravyBones,Hero.Marlynn,Hero.Puffin,Hero.Scurv],
     name: "Saltwater Swell",
     printings: [{
         artists: ["Stormy Elia Fanggidae"],
       
-      identifier: "SEA142",
-      image: "SEA142",
+      identifier: "SEA143",
+      image: "SEA143",
       
       
-      print: "SEA142",
+      print: "SEA143",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       
@@ -12686,11 +12686,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     },{
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.C,
-      identifier: "SEA142",
-      image: "SEA142_V2",
+      identifier: "SEA143",
+      image: "SEA143_V2",
       
       
-      print: "SEA142-Cold-Extended Art",
+      print: "SEA143-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       
@@ -12698,9 +12698,9 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA142"],
+    setIdentifiers: ["SEA143"],
     sets: [Release.HighSeas],
-    specialImage: "SEA142_V2",
+    specialImage: "SEA143_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Pirate Action - Attack",
