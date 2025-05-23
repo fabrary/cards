@@ -1371,7 +1371,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Necromancer, Class.Pirate],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01JVYZ0NCHP49HAP40C23P14E3" },
     ],
     heroes: [Hero.GravyBones],
     languages: ALL_LANGUAGES,
