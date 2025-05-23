@@ -605,7 +605,7 @@ SEA255,SEA,Burn Bare,,3,,3,,,6,"Wizard, Action",,,,,,,"Deal 6 arcane damage to a
 SEA256,SEA,Riddle with Regret,1,0,,2,,,,"Chaos, Action, Aura",Go again,,,,,,"**Go again**
 
 At the beginning of each hero's end phase, they lose X{h}, where X is the number of auras they controlled when this triggered. If X is 3 or more, destroy this.",Chaos Action - Aura,,,,No,,M,,,Sebastian Giacobino,Yes,,SEA256,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA257,SEA,Claw of Vynserakai,,,1,,,,,"Draconic, Weapon, Dagger, (1H)",Spellvoid 1,,,,,,"**Once per Turn Action** - {r}: Attack
+SEA257,SEA,Claw of Vynserakai,,,1,,,,,"Draconic, Weapon, Dagger, 1H",Spellvoid 1,,,,,,"**Once per Turn Action** - {r}: Attack
 
 Spellvoid 1",Draconic Weapon - Dagger (1H),,,,No,,M,,,Mark Poole,Yes,,SEA257,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA257.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA258,SEA,Everbloom // Life,3,0,,3,,,,"Earth, Action, Instant","Go again, Meld",,,,,,"**Meld**

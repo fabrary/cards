@@ -98,12 +98,24 @@ describe("Card types", () => {
     subtypes: [Subtype.Attack, Subtype.Dagger],
     types: [Type.Action],
   };
-
   it("Gets correct card type for Kiss of Death", () => {
     const isArenaCard = getIsArenaCard(kissOfDeath);
     expect(isArenaCard).toEqual(false);
 
     const isDeckCard = getIsDeckCard(kissOfDeath);
+    expect(isDeckCard).toEqual(true);
+  });
+
+  const crackedBauble = {
+    keywords: [],
+    subtypes: [],
+    types: [Type.Resource],
+  };
+  it("Gets correct card type for Cracked Bauble", () => {
+    const isArenaCard = getIsArenaCard(crackedBauble);
+    expect(isArenaCard).toEqual(false);
+
+    const isDeckCard = getIsDeckCard(crackedBauble);
     expect(isDeckCard).toEqual(true);
   });
 });

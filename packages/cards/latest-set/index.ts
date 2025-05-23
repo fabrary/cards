@@ -2319,7 +2319,7 @@ At the start of your turn, destroy this.`,
     setIdentifiers: ["SEA257"],
     sets: [Release.HighSeas],
     specialImage: "SEA257",
-    subtypes: [Subtype.Dagger],
+    subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
     typeText: "Draconic Weapon - Dagger (1H)",
 
