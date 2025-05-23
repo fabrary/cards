@@ -1389,6 +1389,7 @@ export const releases: ReleaseInfo[] = [
       Class.Necromancer,
       Class.Pirate,
       Class.Ranger,
+      Class.Thief,
     ],
     deckLinks: [
       // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
