@@ -1,5 +1,14 @@
-import { Foiling, Meta, Release, Treatment } from "@flesh-and-blood/types";
-import { getKeywordsAndAppliedFiltersFromText } from "./filters";
+import {
+  Foiling,
+  Meta,
+  Rarity,
+  Release,
+  Treatment,
+} from "@flesh-and-blood/types";
+import {
+  getKeywordsAndAppliedFiltersFromText,
+  RARITY_VALUES_MAPPING,
+} from "./filters";
 import { cards } from "@flesh-and-blood/cards";
 
 describe("Gets the right attribute filters", () => {
@@ -121,4 +130,13 @@ describe("Gets the right attribute filters", () => {
       }
     }
   );
+});
+
+describe("Complete filter abbreviation mapping", () => {
+  const mappedRarities = Object.values(RARITY_VALUES_MAPPING);
+  it.each(Object.values(Rarity))("%s has a matching filter value", (rarity) => {
+    const matchingFilterValue = mappedRarities.includes(rarity);
+
+    expect(matchingFilterValue).toBeTruthy();
+  });
 });

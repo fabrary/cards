@@ -774,21 +774,23 @@ const getTreatmentValuesFromText = (rawValues: string[]) => {
   return values;
 };
 
-const rarityValuesMapping: { [key: string]: Rarity } = {
+export const RARITY_VALUES_MAPPING: { [key: string]: Rarity } = {
+  b: Rarity.Basic,
   c: Rarity.Common,
   f: Rarity.Fabled,
   l: Rarity.Legendary,
   m: Rarity.Majestic,
-  v: Rarity.Marvel,
+  p: Rarity.Promo,
   r: Rarity.Rare,
   s: Rarity.SuperRare,
   t: Rarity.Token,
+  v: Rarity.Marvel,
 };
 const getRarityValuesFromText = (rawValues: string[]) => {
   const values: Rarity[] = [];
   for (const rawValue of rawValues) {
-    if (rarityValuesMapping[rawValue]) {
-      values.push(rarityValuesMapping[rawValue]);
+    if (RARITY_VALUES_MAPPING[rawValue]) {
+      values.push(RARITY_VALUES_MAPPING[rawValue]);
     } else {
       values.push(rawValue as Rarity);
     }
