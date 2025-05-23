@@ -1398,7 +1398,7 @@ export const releases: ReleaseInfo[] = [
       heroIdentifiers: ["gravy-bones", "marlynn", "puffin", "scurv-stowaway"],
       picksPerPack: 14,
     },
-    heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin],
+    heroes: [Hero.GravyBones, Hero.Marlynn, Hero.Puffin, Hero.Scurv],
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Fabled, Rarity.Legendary],
     release: Release.HighSeas,
