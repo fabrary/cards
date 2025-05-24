@@ -319,7 +319,7 @@ const TYPES_TO_CHECK_FOR_PITCH = [
 const allReleases = Object.values(Release);
 
 const CARD_TO_LOG = "";
-const HERO_TO_LOG = Hero.Shiyana;
+const HERO_TO_LOG = "";
 
 const ALL_ARAKNIS = [Hero.Arakni, Hero.Crackni, Hero.Slippy];
 const ALL_HEROES = Object.values(Hero);
@@ -375,7 +375,10 @@ export const getLegalHeroes = (card: {
         : allClassesMatch;
 
       const matchesClass =
-        !card.classes || card.classes.length === 0 || matchesClasses;
+        !card.classes ||
+        card.classes.length === 0 ||
+        matchesClasses ||
+        isCardMacro;
 
       const matchesHero = !card.hero || card.hero === hero;
 
@@ -427,7 +430,7 @@ export const getLegalHeroes = (card: {
 
       const matchesMacroSet = isCardMacro
         ? draftHeroesAllowedInMacroSet.some((heroIdentifier) =>
-            heroIdentifier.includes(hero.toLowerCase())
+            heroIdentifier.includes(hero.toLowerCase().replaceAll(" ", "-"))
           )
         : true;
 
@@ -486,6 +489,10 @@ export const getLegalHeroes = (card: {
         }
       }
 
+      if (!matches && card.hero === hero) {
+        matches = true;
+      }
+
       const matchesCardToLog = card.name === CARD_TO_LOG;
       const matchesHeroToLog = !HERO_TO_LOG || hero === HERO_TO_LOG;
       const shouldLog = matchesCardToLog && matchesHeroToLog;
@@ -493,7 +500,7 @@ export const getLegalHeroes = (card: {
         console.log(
           JSON.stringify(
             {
-              card,
+              // card,
               filters,
               hero,
               hybrid: matchesClass,
@@ -525,8 +532,17 @@ export const getLegalHeroes = (card: {
   }
 
   if (card.name === CARD_TO_LOG) {
-    console.log(JSON.stringify({ card, legalHeroes }, null, 2));
-    //   throw new Error("err");
+    console.log(
+      JSON.stringify(
+        {
+          // card,
+          legalHeroes,
+        },
+        null,
+        2
+      )
+    );
+    throw new Error("err");
   }
 
   legalHeroes.sort();

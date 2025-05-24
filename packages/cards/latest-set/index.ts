@@ -501,12 +501,12 @@
   
   },{
     artists: ["Asur Misoa"],
-    cardIdentifier: "bandana-of-the-blue-beyonds",
+    cardIdentifier: "bandana-of-the-blue-beyond",
     classes: [Class.Generic],
     defaultImage: "SEA179",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
-    name: "Bandana of the Blue Beyonds",
+    name: "Bandana of the Blue Beyond",
     printings: [{
         artists: ["Asur Misoa"],
       
@@ -16180,7 +16180,7 @@ If this was played from arsenal, it gets **go again**.`,
     classes: [Class.NotClassed],
     defaultImage: "SEA247",
     legalFormats: [Format.Draft,Format.Open,Format.Sealed],
-    legalHeroes: [],
+    legalHeroes: [Hero.GravyBones,Hero.Marlynn,Hero.Puffin,Hero.Scurv],
     name: "Treasure Island",
     printings: [{
         artists: ["Jessada Sutthi"],
