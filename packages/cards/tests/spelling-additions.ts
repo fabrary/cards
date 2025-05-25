@@ -421,7 +421,7 @@ export const fabDictionary = [
   "tremorshield",
   "tricorn",
   "trishot",
-  "TropalDhani",
+  "TrōpalDhani",
   "twintek",
   "unforgetting",
   "ursur",

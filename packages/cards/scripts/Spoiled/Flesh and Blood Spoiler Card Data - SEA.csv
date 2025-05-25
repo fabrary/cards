@@ -1,5 +1,5 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Artists 3,Expansion Slot 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variations 4,Expansion Slot 4,Artists 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4,Rarity 5,Foiling 5,Art Variations 5,Artists 5,Flavor Text 5,Identifier 5,Image URL 5,TCGPlayer Product Id 5,TCGPlayer Url 5
-SEA000,SEA,Riches of Tropal-Dhani,2,,,,,,,"Generic, Resource, Gem",Legendary,,,,,,"**Legendary**
+SEA000,SEA,Riches of Trōpal-Dhani,2,,,,,,,"Generic, Resource, Gem",Legendary,,,,,,"**Legendary**
 
 When this is pitched, create a Gold token.",Generic Resource - Gem,,,,No,,F,C,,Tanapon Wachirakul,,,SEA000,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA000.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA001, HER137","SEA, HER","Puffin, Hightail",,,,,40,4,,"Pirate, Mechanologist, Hero",,Action,,,,,"**Action** - {t}, destroy a Gold you control: Create a Golden Cog token.
@@ -8,21 +8,21 @@ The second time you crank each turn, draw a card.",Pirate Mechanologist Hero,,No
 SEA002,SEA,Puffin,,,,,20,4,,"Pirate, Mechanologist, Hero, Young",,Action,,,,,"**Action** - {t}, destroy a Gold you control: Create a Golden Cog token.
 
 The second time you crank each turn, draw a card.",Pirate Mechanologist Hero - Young,,,No,,No,B,S,,Arif Wijaya,,,SEA002,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002.png,,,V,C,FA,Arif Wijaya,,,SEA002,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002_V2.png,,,V,C,FA,Arif Wijaya,,,SEA002,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA002_V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
-SEA003,SEA,Polly Cranka,,,,,1,,,"Puffin, Companion, Off-Hand, Ally","Crank, Perched",,,,,,"**Action** - {t}, banish this: Return this to the arena under its owner's control, unequipped, tapped, and with a steam counter.
+SEA003,SEA,Polly Cranka,,,,,1,,,"Puffin, Companion, Off-Hand, Ally","Crank, Perched",Action,,,,,"**Action** - {t}, banish this: Return this to the arena under its owner's control, unequipped, tapped, and with a steam counter.
 
 **Crank**
 
 **Perched**",Puffin Companion - Off-Hand Ally,,,,No,,L,R,,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003.png,,,V,C,FA,Rio Sabda,,,SEA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA003_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"SEA004, FAB343",SEA,Golden Skywarden,2,4,7,2,,,,"Pirate, Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Carlos Cruchaga,,,SEA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png,,,M,R,,Carlos Cruchaga,,,SEA004,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA004.webp,,,P,R,EA,Carlos Cruchaga,,,FAB343,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp,,,,,,,,,,,,,,,,,,,,,
-SEA005,SEA,Jolly Bludger,2,2,5,3,,,,"Pirate, Mechanologist, Action, Attack","Overpower, Steal",,,,,,"When this attacks, you may {t} a cog you control. If you do, this gets **overpower**.
+"SEA004, FAB343",SEA,Golden Skywarden,2,4,7,2,,,,"Pirate, Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Carlos Cruchaga,,,SEA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png,,,M,R,,Carlos Cruchaga,,,SEA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA004.png,,,P,R,EA,Carlos Cruchaga,,,FAB343,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB343-RF.webp,,,,,,,,,,,,,,,,,,,,,
+SEA005,SEA,Jolly Bludger,2,2,5,3,,,,"Pirate, Mechanologist, Action, Attack","Overpower, Steal",Thrice per Turn Instant,,,,,"When this attacks, you may {t} a cog you control. If you do, this gets **overpower**.
 
 When this deals damage to a hero, **steal** that many items they control.
 
 **Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}.",Pirate Mechanologist Action - Attack,,,,No,,M,S,,Kimberly Pantoni,,,SEA005,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA006,SEA,Cogwerx Blunderbuss,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,,,,,,"**Action** - {r}{r}, {t}: Attack
+SEA006,SEA,Cogwerx Blunderbuss,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,"Action, Instant",Attack,,,,"**Action** - {r}{r}, {t}: Attack
 
 **Instant** - {t} a cog you control: This card's next attack this turn gets go again.",Mechanologist Weapon - Gun (2H),,,,,,B,S,,Mariusz Gandzel,,,SEA006,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA007,SEA,Spitfire,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,,,,,,"**Action** - {t}, {t} a cog you control: Attack
+SEA007,SEA,Spitfire,,,2,,,,,"Mechanologist, Weapon, Gun, 2H",,Action,Attack,,,,"**Action** - {t}, {t} a cog you control: Attack
 
 When this attacks, you may {t} a cog you control. If you do, the attack gets +1{p}.",Mechanologist Weapon - Gun (2H),,,,,,B,S,,Marcellino Tan,,,SEA007,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA007.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA008,SEA,Cogwerx Tinker Rings,,,,2,,,,"Mechanologist, Equipment, Arms",Blade Break,,,,,,"When this defends, create a Golden Cog token.
@@ -34,10 +34,10 @@ SEA009,SEA,Rust Belt,,,,1,,,,"Mechanologist, Equipment, Chest",Battleworn,,,,,,"
 SEA010,SEA,Unicycle,,,,1,,,,"Mechanologist, Equipment, Legs",Battleworn,,,,,,"**Instant** - Destroy this: {u} a cog you control.
 
 **Battleworn**",Mechanologist Equipment - Legs,,,,,,C,S,,Andi Cahyo W,,,SEA010,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA011,SEA,Cogwerx Dovetail,1,1,5,3,,,,"Mechanologist, Action, Attack",,,,,,,"When this hits a hero, {u} all cogs you control.
+SEA011,SEA,Cogwerx Dovetail,1,1,5,3,,,,"Mechanologist, Action, Attack",,Thrice per Turn Instant,,,,,"When this hits a hero, {u} all cogs you control.
 
 **Thrice per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.",Mechanologist Action - Attack,,,,No,,M,,,Kevin Sidharta,,,SEA011,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA012,SEA,Palantir Aeronought,1,2,6,3,,,,"Mechanologist, Action, Attack",,,,,,,"The defending hero must defend this with an equipment they control if able.
+SEA012,SEA,Palantir Aeronought,1,2,6,3,,,,"Mechanologist, Action, Attack",,Thrice per Turn Instant,,,,,"The defending hero must defend this with an equipment they control if able.
 
 **Thrice per Turn Instant** - {t} a cog you control: This gets +1{p}. If this is the third time you've activated this ability, destroy a defending card.",Mechanologist Action - Attack,,,,No,,M,,,寿多 浩 / Hiro Suda,,,SEA012,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012.png,,,M,R,EA,寿多 浩 / Hiro Suda,,,SEA012,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA012_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA013,SEA,Cog in the Machine,1,1,,3,,,,"Mechanologist, Action",,,,,,,"Create 2 Golden Cog tokens.
@@ -74,9 +74,9 @@ SEA023,SEA,Pinion Sentry,3,,,3,,,,"Mechanologist, Block",,,,,,,"When this defend
 SEA024,SEA,Cloud Skiff,1,1,5,3,,,,"Mechanologist, Action, Attack",,,,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.,Mechanologist Action - Attack,,,,,,C,,,Nikko Wahyudi,,,SEA024,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA025,SEA,Cloud Skiff,2,1,4,3,,,,"Mechanologist, Action, Attack",,,,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.,Mechanologist Action - Attack,,,,,,C,,,Nikko Wahyudi,,,SEA025,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA026,SEA,Cloud Skiff,3,1,3,3,,,,"Mechanologist, Action, Attack",,,,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.,Mechanologist Action - Attack,,,,,,C,,,Nikko Wahyudi,,,SEA026,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA026.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA027,SEA,Sky Skimmer,1,0,4,3,,,,"Mechanologist, Action, Attack",,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,,,C,S,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA027,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA027.png,,,C,R,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA027,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA027.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA028,SEA,Sky Skimmer,2,0,3,3,,,,"Mechanologist, Action, Attack",,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,,,C,S,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA028,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA028.png,,,C,R,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA028,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA028.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA029,SEA,Sky Skimmer,3,0,2,3,,,,"Mechanologist, Action, Attack",,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,,,C,S,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA029,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA029.png,,,C,R,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA029,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA029.webp,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA027,SEA,Sky Skimmer,1,0,4,3,,,,"Mechanologist, Action, Attack",,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,,,C,S,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA027,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA027.png,,,C,R,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA027,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA027.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA028,SEA,Sky Skimmer,2,0,3,3,,,,"Mechanologist, Action, Attack",,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,,,C,S,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA028,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA028.png,,,C,R,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA028,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA028.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA029,SEA,Sky Skimmer,3,0,2,3,,,,"Mechanologist, Action, Attack",,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,,,C,S,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA029,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA029.png,,,C,R,,Mariusz Gandzel,,"To the ambitious artificer's of Piper's Pier, the sky's the limit.",SEA029,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA030,SEA,Teeth of the Cog,1,0,4,2,,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.",Mechanologist Action - Attack,,,,,,C,,,Nikolay Moskvin,,,SEA030,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA031,SEA,Teeth of the Cog,2,0,3,2,,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.",Mechanologist Action - Attack,,,,,,C,,,Nikolay Moskvin,,,SEA031,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA032,SEA,Teeth of the Cog,3,0,2,2,,,,"Mechanologist, Action, Attack",Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, create a Golden Cog token.",Mechanologist Action - Attack,,,,,,C,,,Nikolay Moskvin,,,SEA032,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA032.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -113,7 +113,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 "SEA043, HER138","SEA, HER","Gravy Bones, Shipwrecked Looter",,,,,40,4,,"Pirate, Necromancer, Hero",,Instant,,,,,"**Instant** - {t}, destroy a Gold you control: Draw a card, then discard a card.
 
 If a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",Pirate Necromancer Hero,,No,,No,,B,S,,Nathaniel Himawan,,,SEA043,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043.png,,,V,C,FA,Nathaniel Himawan,,,SEA043,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043_V2.png,,,V,C,FA,Nathaniel Himawan,,,SEA043,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA043_V2_BACK.png,,,P,R,,,Nathaniel Himawan,,HER138,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER138-RF.webp,,,,,,,,,,,
-SEA044,SEA,Gravy Bones,,,,,20,4,,"Pirate, Necromancer, Hero, Young",,,,,,,"**Instant** - {t}, destroy a Gold you control: Draw a card, then discard a card.
+SEA044,SEA,Gravy Bones,,,,,20,4,,"Pirate, Necromancer, Hero, Young",,Instant,,,,,"**Instant** - {t}, destroy a Gold you control: Draw a card, then discard a card.
 
 If a blue card has been put into your graveyard this turn, you may play cards with watery grave from your graveyard.",Pirate Necromancer Hero - Young,,,No,,No,B,S,,Nathaniel Himawan,,,SEA044,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044.png,,,V,C,FA,Nathaniel Himawan,,,SEA044,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044_V2.png,,,V,C,FA,Nathaniel Himawan,,,SEA044,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA044_V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
 SEA045,SEA,Compass of Sunken Depths,,,,,,,,"Pirate, Necromancer, Equipment, Off-Hand",,Instant,,Go again,,,"**Instant** - {t}: Look at the top card of your deck.
@@ -127,26 +127,26 @@ SEA047,SEA,Blood in the Water,1,0,,4,,,,"Pirate, Necromancer, Defense Reaction",
 
 Create a Gold token for each yellow card put into your graveyard this way.
 
-**Go again**",Pirate Necromancer Action,,,,No,,M,S,,Carlos Cruchaga,,,SEA048,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA048.png,,,M,R,,Carlos Cruchaga,,,SEA048,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA048.webp,,,P,R,EA,Carlos Cruchaga,,,FAB344,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB344-RF.webp,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Pirate Necromancer Action,,,,No,,M,S,,Carlos Cruchaga,,,SEA048,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA048.webp,,,M,R,,Carlos Cruchaga,,,SEA048,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA048.webp,,,P,R,EA,Carlos Cruchaga,,,FAB344,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB344-RF.webp,,,,,,,,,,,,,,,,,,,,,
 SEA049,SEA,Give No Quarter,3,0,,3,,,,"Pirate, Necromancer, Action",Go again,,,,,,"The next 2 ally cards with watery grave you play this turn cost {r}{r}{r} less to play.
 
 **Go again**",Pirate Necromancer Action,,,,No,,M,,,Nathaniel Himawan,,,SEA049,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049.png,,,M,R,EA,Nathaniel Himawan,,,SEA049,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA049_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA050,SEA,"Chum, Friendly First Mate",2,4,4,,6,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",,,,,"**Action** - {t}: Attack
+SEA050,SEA,"Chum, Friendly First Mate",2,4,4,,6,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",Attack,,,,"**Action** - {t}: Attack
 
 **Instant** - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,S,,Lius Lasahido,,,SEA050,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA050.png,,,V,C,FA,Lius Lasahido,,,SEA050,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA050_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA051,SEA,Moray le Fay,2,0,0,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {t}: Attack
+SEA051,SEA,Moray le Fay,2,0,0,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",Attack,,,,"**Action** - {t}: Attack
 
 **Instant** - {r}, {t}: Put a +1{p} counter on target ally.
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Sebastian Giacobino,,,SEA051,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051.png,,,V,C,FA,Sebastian Giacobino,,,SEA051,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA051_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA052,SEA,Wailer Humperdinck,2,6,11,,7,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r} {r}{r}{r}, {t}: Attack
+SEA052,SEA,Wailer Humperdinck,2,6,11,,7,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",Attack,,,,"**Action** - {r}{r}{r} {r}{r}{r}, {t}: Attack
 
-**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Joseph Qiu,,,SEA052,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052.png,,,V,C,FA,Joseph Qiu,,,SEA052,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"SEA053, FAB347","SEA, FAB",Board the Ship,1,2,6,3,,,,"Pirate, Necromancer, Action, Attack",Overpower,,,,,,"When this attacks, you may {t} an ally you control. If you do, this gets **overpower**.",Pirate Necromancer Action - Attack,,,,No,,R,S,,Faizal Fikri,,"""The Reach is dead, but it ain't deserted."" - Captain Rue's Log, final entry",SEA053,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA053.png,,,R,R,,Faizal Fikri,,"""The Reach is dead, but it ain't deserted."" - Captain Rue's Log, final entry",SEA053,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA053.png,,,P,R,EA,Faizal Fikri,,,FAB347,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB347-RF.webp,,,,,,,,,,,,,,,,,,,,,
-"SEA054, FAB348","SEA, FAB",Paddle Faster,1,0,4,3,,,,"Pirate, Necromancer, Action, Attack",Go again,,,,,,"When this attacks, you may {t} an ally you control. If you do, this gets **go again**.",Pirate Necromancer Action - Attack,,,,No,,R,S,,Marco González,,"Dreadfall Reach. Those who knew its Dhani name are long dead, killed by arcane ambition.",SEA054,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA054.png,,,R,R,,Marco González,,"Dreadfall Reach. Those who knew its Dhani name are long dead, killed by arcane ambition.",SEA054,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA054.png,,,P,R,EA,Marco González,,,FAB348,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB348-RF.webp,,,,,,,,,,,,,,,,,,,,,
-"SEA055, FAB349","SEA, FAB",Hoist 'Em Up,1,,,4,,,,"Pirate, Necromancer, Block",,,,,,,"When this defends, you may {t} an ally you control. If you do, this gets +1{d}.",Pirate Necromancer Block,,,,No,,R,S,,Thomas Ressuge,,,SEA055,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA055.png,,,R,R,,Thomas Ressuge,,,SEA055,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA055.png,,,P,R,EA,Thomas Ressuge,,,FAB349,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB349-RF.webp,,,,,,,,,,,,,,,,,,,,,
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,V,C,FA,Joseph Qiu,,,SEA052,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052_V2.png,,,M,,,Joseph Qiu,,,SEA052,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"SEA053, FAB347","SEA, FAB",Board the Ship,1,2,6,3,,,,"Pirate, Necromancer, Action, Attack",Overpower,,,,,,"When this attacks, you may {t} an ally you control. If you do, this gets **overpower**.",Pirate Necromancer Action - Attack,,,,No,,R,S,,Faizal Fikri,,"""The Reach is dead, but it ain't deserted."" - Captain Rue's Log, final entry",SEA053,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA053.webp,,,R,R,,Faizal Fikri,,"""The Reach is dead, but it ain't deserted."" - Captain Rue's Log, final entry",SEA053,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA053.webp,,,P,R,EA,Faizal Fikri,,,FAB347,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB347-RF.webp,,,,,,,,,,,,,,,,,,,,,
+"SEA054, FAB348","SEA, FAB",Paddle Faster,1,0,4,3,,,,"Pirate, Necromancer, Action, Attack",Go again,,,,,,"When this attacks, you may {t} an ally you control. If you do, this gets **go again**.",Pirate Necromancer Action - Attack,,,,No,,R,S,,Marco González,,"Dreadfall Reach. Those who knew its Dhani name are long dead, killed by arcane ambition.",SEA054,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA054.webp,,,R,R,,Marco González,,"Dreadfall Reach. Those who knew its Dhani name are long dead, killed by arcane ambition.",SEA054,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA054.webp,,,P,R,EA,Marco González,,,FAB348,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB348-RF.webp,,,,,,,,,,,,,,,,,,,,,
+"SEA055, FAB349","SEA, FAB",Hoist 'Em Up,1,,,4,,,,"Pirate, Necromancer, Block",,,,,,,"When this defends, you may {t} an ally you control. If you do, this gets +1{d}.",Pirate Necromancer Block,,,,No,,R,S,,Thomas Ressuge,,,SEA055,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA055.webp,,,R,R,,Thomas Ressuge,,,SEA055,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA055.webp,,,P,R,EA,Thomas Ressuge,,,FAB349,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB349-RF.webp,,,,,,,,,,,,,,,,,,,,,
 SEA056,SEA,Avast Ye!,3,0,,3,,,,"Pirate, Necromancer, Action",Go again,,,,,,"Your next Pirate ally attack this turn gets go again and ""When this hits a hero, create a Gold token.""
 
 **Go again**",Pirate Necromancer Action,,,,No,,R,,,Daniel Jiménez,,,SEA056,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA056.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -156,14 +156,14 @@ SEA057,SEA,Heave Ho!,3,0,,3,,,,"Pirate, Necromancer, Action",Go again,,,,,,"Your
 SEA058,SEA,Yo Ho Ho!,3,0,,3,,,,"Pirate, Necromancer, Action",Go again,,,,,,"Your next Pirate ally attack this turn gets +1{p} and ""When this hits a hero, create a Gold token.""
 
 **Go again**",Pirate Necromancer Action,,,,No,,R,,,Rio Sabda,,,SEA058,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA058.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA059,SEA,"Kelpie, Tangled Mess",2,0,1,,3,,,"Pirate, Necromancer, Action, Ally","Go again, Watery Grave",,,,,,"**Action** - {t}: Attack
+SEA059,SEA,"Kelpie, Tangled Mess",2,0,1,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,"Attack, Go again",,,,"**Action** - {t}: Attack
 
 **Action** - {r}, {t}: {t} target hero or ally. **Go again**
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,R,,,soyameii,,,SEA059,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA059.png,,,V,C,FA,soyameii,,,SEA059,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA059_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA060,SEA,"Limpit, Hop-a-long",2,0,2,,1,,,"Pirate, Necromancer, Action, Ally","Go again, Watery Grave",,,,,,"**Action** - {r}, {t}: Attack. **Go again**
+SEA060,SEA,"Limpit, Hop-a-long",2,0,2,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,"Attack, Go again",,,,"**Action** - {r}, {t}: Attack. **Go again**
 
-**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,R,,,Tomasz Jedruszek,,,SEA060,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060.png,,,V,C,FA,Tomasz Jedruszek,,,SEA060,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,V,C,FA,Tomasz Jedruszek,,,SEA060,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060_V2.png,,,R,,,Tomasz Jedruszek,,,SEA060,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA061,SEA,"Scooba, Salty Sea Dog",2,0,4,,4,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r}, {t}: Attack
 
 When this attacks, you may put a yellow card from a graveyard on the bottom of its owner's deck. If you do, create a Gold token.
@@ -181,50 +181,50 @@ SEA070,SEA,Jittery Bones,3,0,2,3,,,,"Pirate, Necromancer, Action, Attack",,,,,,,
 SEA071,SEA,Restless Bones,1,2,6,3,,,,"Pirate, Necromancer, Action, Attack",,,,,,,"When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets **go again**.",Pirate Necromancer Action - Attack,,,,,,C,,,Max Kostin,,,SEA071,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA071.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA072,SEA,Restless Bones,2,2,5,3,,,,"Pirate, Necromancer, Action, Attack",,,,,,,"When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets **go again**.",Pirate Necromancer Action - Attack,,,,,,C,,,Max Kostin,,,SEA072,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA073,SEA,Restless Bones,3,2,4,3,,,,"Pirate, Necromancer, Action, Attack",,,,,,,"When this attacks, you may discard a card or destroy the top card of your deck. If that card has watery grave, this gets **go again**.",Pirate Necromancer Action - Attack,,,,,,C,,,Max Kostin,,,SEA073,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA073.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA074,SEA,Barnacle,2,2,4,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {t}: Attack
+SEA074,SEA,Barnacle,2,2,4,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,Attack,,,,"**Action** - {t}: Attack
 
-**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Ausonia,,,SEA074,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074.png,,,V,C,FA,Ausonia,,,SEA074,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA075,SEA,"Chowder, Hearty Cook",2,3,3,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {t}: Attack
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,V,C,FA,Ausonia,,,SEA074,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074_V2.png,,,C,,,Ausonia,,,SEA074,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA074.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA075,SEA,"Chowder, Hearty Cook",2,3,3,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",Attack,,,,"**Action** - {t}: Attack
 
 **Instant** - {t}: Gain 1{h}
 
-**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Simon Dominic,,,SEA075,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075.png,,,V,C,FA,Simon Dominic,,,SEA075,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,V,C,FA,Simon Dominic,,,SEA075,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075_V2.png,,,C,,,Simon Dominic,,,SEA075,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA076,SEA,"Cutty Shark, Quick Clip",2,1,3,,4,,,"Pirate, Necromancer, Action, Ally","Go again, Watery Grave",,,,,,"**Action** - {r}, {t}: **Attack**
 
 **Once per Turn Action** - {r}: Your next ally attack this turn gets +1{p}. **Go again**
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Narendra B Adi,,,SEA076,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA076.png,,,V,C,FA,Narendra B Adi,,,SEA076,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA076_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA077,SEA,Riggermortis,2,1,6,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}, {t}: **Attack**
+"LGS406, SEA077","LGS, SEA",Riggermortis,2,1,6,,1,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,Attack,,,,"**Action** - {r}, {t}: **Attack**
 
-**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077.png,,,V,C,FA,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA078,SEA,"Shelly, Hardened Traveler",2,2,4,,5,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}{r}, {t}: Attack
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,,,P,R,EA,Max Kostin,,,LGS406,https://storage.googleapis.com/fabmaster/cardfaces/promos/LGS406.png,,,C,,,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077.png,,,V,C,FA,Max Kostin,,,SEA077,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA077_V2.png,,,,,,,,,,,,,,,,,,,,,
+SEA078,SEA,"Shelly, Hardened Traveler",2,2,4,,5,,,"Pirate, Necromancer, Action, Ally",Watery Grave,"Action, Instant",,,,,"**Action** - {r}{r}{r}, {t}: Attack
 
 **Instant** - {t}: The next attack action card you defend with this turn gets +1{d}.
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078.png,,,V,C,FA,Henrique Lindner,,,SEA078,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA078_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA079,SEA,Swabbie,2,3,7,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,,,,,,"**Action** - {r}{r}, {t}: Attack
+SEA079,SEA,Swabbie,2,3,7,,3,,,"Pirate, Necromancer, Action, Ally",Watery Grave,Action,Attack,,,,"**Action** - {r}{r}, {t}: Attack
 
 **Watery Grave**",Pirate Necromancer Action - Ally,,,,,,C,,,Faizal Fikri,,,SEA079,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079.png,,,V,C,FA,Faizal Fikri,,,SEA079,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA079_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA080,SEA,Dead Threads,,,,1,,,,"Necromancer, Equipment, Chest",Blade Break,,,,,,"**Instant** - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.
+SEA080,SEA,Dead Threads,,,,1,,,,"Necromancer, Equipment, Chest",Blade Break,Instant,,,,,"**Instant** - {t}: Gain {r}. Activate this only if an ally has been put into your graveyard this turn.
 
 **Blade Break**",Necromancer Equipment - Chest,,,,No,,L,R,,Mario Wibisono,,,SEA080,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080.png,,,L,C,EA,Mario Wibisono,,,SEA080,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA080_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA081,SEA,Head Stone,,,,1,,,,"Necromancer, Equipment, Head",Battleworn,,,,,,"**Instant** - Destroy this: Destroy the top card of your deck.
 
 **Battleworn**",Necromancer Equipment - Head,,,,,,C,,,Camille Alquier,,,SEA081,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA081.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"SEA082, HER139","SEA, HER","Marlynn, Treasure Hunter",,,,,40,4,,"Pirate, Ranger, Hero",Go again,Action,Go again,,,,"**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
+"SEA082, HER139","SEA, HER","Marlynn, Treasure Hunter",,,,,40,4,,"Pirate, Ranger, Hero",,Action,Go again,,,,"**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
 
 Whenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.",Pirate Ranger Hero,,No,,No,,B,S,,Sam Yang,,,SEA082,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA082.png,,,V,C,FA,Sam Yang,,,SEA082,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA082_V2.png,,,V,C,FA,Sam Yang,,,SEA082,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA082_V2_BACK.png,,,P,R,,,Sam Yang,,HER139,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/HER139-RF.webp,,,,,,,,,,,
-SEA083,SEA,Marlynn,,,,,20,4,,"Pirate, Ranger, Hero, Young",Go again,,,,,,"**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
+SEA083,SEA,Marlynn,,,,,20,4,,"Pirate, Ranger, Hero, Young",,Action,Go again,,,,"**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
 
 Whenever you draw a card during your action phase, you may put an arrow from your hand face-up into your arsenal.",Pirate Ranger Hero - Young,,,No,,No,B,,,Sam Yang,,,SEA083,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083.png,,,V,C,FA,Sam Yang,,,SEA083,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083_V2.png,,,V,C,FA,Sam Yang,,,SEA083,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA083_V2_BACK.png,,,,,,,,,,,,,,,,,,,,,
-SEA084,SEA,"Hammerhead, Harpoon Cannon",,,,,,,,"Pirate, Ranger, Weapon, Bow, Cannon, 2H",Go again,,,Overpower,,,"**Action** - {r}{r}{r}{r}, {t}: Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets **overpower**. **Go again**",Pirate Ranger Weapon - Bow Cannon (2H),,,,,,B,,,Sam Yang,,,SEA084,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA084,SEA,"Hammerhead, Harpoon Cannon",,,,,,,,"Pirate, Ranger, Weapon, Bow, Cannon, 2H",,Action,Go again,Overpower,,,"**Action** - {r}{r}{r}{r}, {t}: Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets **overpower**. **Go again**",Pirate Ranger Weapon - Bow Cannon (2H),,,,,,B,,,Sam Yang,,,SEA084,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA085,SEA,King Kraken Harpoon,1,2,6,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's a non-attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,M,,,Faizal Fikri,,,SEA085,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085.png,,,M,R,EA,Faizal Fikri,,,SEA085,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA085_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA086,SEA,King Shark Harpoon,1,2,6,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's an attack action card, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,M,S,,Simon Dominic,,,SEA086,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA086.png,,,M,R,EA,Simon Dominic,,,SEA086,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA086_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA087, FAB345","SEA, FAB",Big Game Trophy Shot,2,2,,3,,,,"Pirate, Ranger, Action",Go again,,,,,,"Your next arrow attack this turn gets +4{p}. If it has harpoon in its name, it gets ""When this hits a hero, create a Gold token.""
 
 Draw a card, then discard a card.
 
-**Go again**",Pirate Ranger Action,,,,No,,M,S,,Lius Lasahido,,,SEA087,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA087.png,,,M,R,,Lius Lasahido,,,SEA087,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA087.png,,,P,R,EA,Lius Lasahido,,,FAB345,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA087_V2.png,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Pirate Ranger Action,,,,No,,M,S,,Lius Lasahido,,,SEA087,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA087-RF.webp,,,M,R,,Lius Lasahido,,,SEA087,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA087-RF.webp,,,P,R,EA,Lius Lasahido,,,FAB345,https://storage.googleapis.com/fabmaster/cardfaces/promos/FAB345.png,,,,,,,,,,,,,,,,,,,,,
 SEA088,SEA,Gold the Tip,2,0,,2,,,,"Pirate, Ranger, Action",Go again,,,,,,"Your next arrow attack this turn gets +3{p}.
 
 If there is a yellow arrow face-up in your arsenal, create a Gold token.
@@ -234,16 +234,16 @@ SEA089,SEA,Blue Fin Harpoon,3,2,4,3,,,,"Pirate, Ranger, Action, Arrow, Attack",G
 SEA090,SEA,Red Fin Harpoon,3,2,4,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's red, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,R,,,Ismatulloh,,,SEA090,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA091,SEA,Yellow Fin Harpoon,3,2,4,3,,,,"Pirate, Ranger, Action, Arrow, Attack",Go Fish,,,,,,"**Go Fish** - When this hits a hero, they choose and reveal a card from their hand. If it's yellow, they discard it and you create a Gold token. If you've activated a cannon this turn, instead look at their hand and you choose the card.",Pirate Ranger Action - Arrow Attack,,,,No,,R,,,M Fakhrur Rozzi,,,SEA091,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA092,SEA,Rusty Harpoon,3,0,1,3,,,,"Pirate, Ranger, Action, Arrow, Attack",,,,,,,,Pirate Ranger Action - Arrow Attack,,,,,,C,,,Eryk Szczygieł,,,SEA092,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA093,SEA,Goldfin Harpoon,,0,2,,,,,"Pirate, Ranger, Action, Arrow, Attack",,,,,,,"If this would be put into a graveyard, instead remove it from the game.",Pirate Ranger Action - Arrow Attack,,,,,,B,S,,Bastien Jez,,,SEA093,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA093.png,,,V,C,FA,Bastien Jez,,,SEA093,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA093_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA094,SEA,Redspine Manta,,,,,,,,"Ranger, Weapon, Bow, 2H",Go again,,,,,,**Action** - {t}: Put an arrow from your hand face-up into your arsenal. **Go again**,Ranger Weapon - Bow (2H),,,,,,B,,,Kanadekana,,,SEA094,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA095,SEA,Sealace Sarong,,,,2,,,,"Ranger, Equipment, Legs",Blade Break,,,Go again,,,"**Instant** - {t}, turn a blue arrow in your arsenal face-up: it gets **go again** this turn.
+SEA093,SEA,Goldfin Harpoon,,0,2,,,,,"Pirate, Ranger, Action, Arrow, Attack",,,,,,,"If this would be put into a graveyard, instead remove it from the game.",Pirate Ranger Action - Arrow Attack,,,,,,B,S,,Bastien Jez,,,SEA093,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA093.webp,,,V,C,FA,Bastien Jez,,,SEA093,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA093_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA094,SEA,Redspine Manta,,,,,,,,"Ranger, Weapon, Bow, 2H",,Action,Go again,,,,**Action** - {t}: Put an arrow from your hand face-up into your arsenal. **Go again**,Ranger Weapon - Bow (2H),,,,,,B,,,Kanadekana,,,SEA094,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA095,SEA,Sealace Sarong,,,,2,,,,"Ranger, Equipment, Legs",Blade Break,Instant,,Go again,,,"**Instant** - {t}, turn a blue arrow in your arsenal face-up: it gets **go again** this turn.
 
 **Blade Break**",Ranger Equipment - Legs,,,,No,,L,R,,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095.png,,,L,C,EA,SanSan,,,SEA095,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA095_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA096,SEA,Patch the Hole,,,,0,,,,"Ranger, Equipment, Head",,,,,,,**Instant** - Destroy this: Return a card from your arsenal to your hand.,Ranger Equipment - Head,,,,,,C,,,Raphael Pinna,,,SEA096,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA096,SEA,Patch the Hole,,,,0,,,,"Ranger, Equipment, Head",,Instant,,,,,**Instant** - Destroy this: Return a card from your arsenal to your hand.,Ranger Equipment - Head,,,,,,C,S,,Raphael Pinna,,,SEA096,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA097,SEA,Glidewell Fins,,,,1,,,,"Ranger, Equipment, Arms",Battleworn,,,,,,"**Action** - {r}, destroy this: Put an arrow from your hand face-up into your arsenal. It gets +1{p} this turn. **Go again**
 
 **Battleworn**",Ranger Equipment - Arms,,,,,,C,,,Kyxarie Peralta,,,SEA097,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA098,SEA,Barbed Barrage,1,1,5,3,,,,"Ranger, Action, Arrow, Attack",,,,,,,"As an additional cost to play this, you may pay {r}{r}{r}. If you do, this attacks an additional target.",Ranger Action - Arrow Attack,,,,No,,M,,,Kelvin Jauwri,,,SEA098,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA098,SEA,Barbed Barrage,1,1,5,3,,,,"Ranger, Action, Arrow, Attack",,,,,,,"As an additional cost to play this, you may pay {r}{r}{r}. If you do, this attacks an additional target.",Ranger Action - Arrow Attack,,,,No,,M,S,,Kelvin Jauwri,,,SEA098,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA099,SEA,Return Fire,1,,,4,,,,"Ranger, Block",,,,,,,"When this defends, you may banish an arrow from your hand. If you do, at the start of your next turn, put it face-up into your arsenal and it gets +3{p} until end of turn.",Ranger Block,,,,No,,M,,,Tomasz Jedruszek,,,SEA099,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA099.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA100,SEA,Drop the Anchor,1,0,,2,,,,"Ranger, Action",Go again,,,,,,"Your next arrow attack this turn gets +3{p} and ""When this hits a hero, {t} them and all allies they control.""
 
@@ -307,16 +307,16 @@ When this attacks a hero, steal a Gold token they control.
 SEA125,SEA,Gold-Baited Hook,,,,1,,,,"Pirate, Equipment, Arms","Battleworn, Go Again",Action,"Steal, Go again",,,,"**Action** - {t}: Your next Pirate attack this turn gets ""When this hits a hero, **steal** a Gold token they control, otherwise create a Gold token."" At the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this. **Go again**
 
 **Battleworn**",Pirate Equipment - Arms,,,,No,,L,R,,Tomasz Jedruszek,,,SEA125,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA125.png,,,L,C,,Tomasz Jedruszek,,,SEA125,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA125_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA126,SEA,Blue Sea Tricorn,,,,1,,,,"Pirate, Equipment, Head","Blade Break, Go again",,,,,,"**Action** - {r}{r}{r}, destroy this: Draw a card. **Go again**
+SEA126,SEA,Blue Sea Tricorn,,,,1,,,,"Pirate, Equipment, Head",Blade Break,Action,Go again,,,,"**Action** - {r}{r}{r}, destroy this: Draw a card. **Go again**
 
 **Blade Break**",Pirate Equipment - Head,,,,,,C,,,Muhammad Fajri,,,SEA126,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA126.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA127,SEA,Buccaneer's Bounty,,,,1,,,,"Pirate, Equipment, Chest","Blade Break, Go again",,,,,,"**Action** - Destroy this: Gain {r}. **Go again**
+SEA127,SEA,Buccaneer's Bounty,,,,1,,,,"Pirate, Equipment, Chest",Blade Break,Action,Go again,,,,"**Action** - Destroy this: Gain {r}. **Go again**
 
 **Blade Break**",Pirate Equipment - Chest,,,,,,C,,,Esty Swandana,,,SEA127,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA127.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA128,SEA,Fish Fingers,,,,1,,,,"Pirate, Equipment, Arms","Blade Break, Go again",,,,,,"**Action** - {r}, destroy this: Your next attack this turn gets +1{p}. **Go again**
+SEA128,SEA,Fish Fingers,,,,1,,,,"Pirate, Equipment, Arms",Blade Break,Action,Go again,,,,"**Action** - {r}, destroy this: Your next attack this turn gets +1{p}. **Go again**
 
 **Blade Break**",Pirate Equipment - Arms,,,,,,C,,,Aluísio Cervelle,,,SEA128,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA129,SEA,Peg Leg,,,,1,,,,"Pirate, Equipment, Legs","Blade Break, Go again",,,,,,"**Action** - {r}{r}{r}, destroy this: Your next attack this turn gets **go again**. **Go again**
+SEA129,SEA,Peg Leg,,,,1,,,,"Pirate, Equipment, Legs",Blade Break,Action,Go again,Go again,,,"**Action** - {r}{r}{r}, destroy this: Your next attack this turn gets **go again**. **Go again**
 
 **Blade Break**",Pirate Equipment - Legs,,,,,,C,,,Nailsen Ivanderlie,,,SEA129,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA130,SEA,Conqueror of the High Seas,1,4,7,3,,,,"Pirate, Action, Attack","High Tide, Go again",,,,,,"When this hits a hero, destroy all cards in their arsenal. Create a Gold token for each card destroyed this way.
@@ -362,16 +362,17 @@ SEA144,SEA,Divvy Up,3,0,,3,,,,"Pirate, Action",,,,,,,"Remove half the gold count
 Create Gold tokens equal to the number of gold counters removed this way.",Pirate Action,,,,No,,R,,,Jefrey Yonathan,,,SEA144,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA144.png,,,R,C,,Jefrey Yonathan,,,SEA144,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA144_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA145,SEA,Portside Exchange,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Discard a card, then draw a card. If a yellow card is discarded this way, create a Gold token.
 
-**Go again**",Pirate Action,,,,No,,R,,,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145.png,,,R,C,EA,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Pirate Action,,,,No,,R,C,EA,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145_V2.png,,,R,,,Nikko Wahyudi,,,SEA145,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA146,SEA,Sea Floor Salvage,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Turn a card in a graveyard face-down. If it's yellow, create a Gold token.
 
 **Go again**",Pirate Action,,,,No,,R,,,Yiian Kho,,,SEA146,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA146.png,,,R,C,EA,Yiian Kho,,,SEA146,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA146_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA147,SEA,Scrub the Deck,3,0,,3,,,,"Pirate, Action",Go again,,,,,,"Destroy the top card of target hero's deck. If it's yellow, create a Gold token.
 
 **Go again**",Pirate Action,,,,No,,R,,,Widya Wang,,,SEA147,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA147.png,,,R,C,EA,Widya Wang,,,SEA147,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA147_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA148,SEA,Shifting Tides,3,0,,3,,,,"Pirate, Action, Aura",Go again,,,,,,"Go again
+SEA148,SEA,Shifting Tides,3,0,,3,,,,"Pirate, Action, Aura",Go again,,,,,,"**Go again**
+
 At the start of your turn, pitch the top card of your deck. If it's blue, put this on the bottom of your deck, otherwise destroy this.",Pirate Action - Aura,,,,No,,R,,,Tomasz Jedruszek,,,SEA148,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA148.png,,,R,C,,Tomasz Jedruszek,,,SEA148,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA148_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA149,SEA,Not So Fast,2,0,,,,,,"Pirate, Instant",Scurv Specialization,,,,,,"Scurv Specialization
+SEA149,SEA,Not So Fast,2,0,,,,,,"Pirate, Instant",Scurv Specialization,,,,,,"**Scurv Specialization**
 
 The next time an opponent would draw a card from the effect of a Gold token this turn, instead you draw a card.",Pirate Instant,,,,No,,R,,,Daniel Correia,,,SEA149,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA149.png,,,R,C,EA,Daniel Correia,,,SEA149,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA149_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA150,SEA,Throw Caution to the Wind,3,0,,,,,,"Pirate, Instant",,,,,,,"Reveal the top card of your deck. The next time you would be dealt damage this turn, prevent X of that damage, where X is the pitch value of the card revealed this way.",Pirate Instant,,,,No,,R,,,Jefrey Yonathan,,,SEA150,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA150.png,,,R,C,,Jefrey Yonathan,,,SEA150,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA150_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -383,10 +384,10 @@ SEA155,SEA,Expedition to Azuro Keys,1,0,4,2,,,,"Pirate, Action, Attack",,,,,,,"W
 SEA156,SEA,Expedition to Blackwater Strait,1,1,5,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,SEA156,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156.png,,,C,C,EA,Tomasz Jedruszek,,,SEA156,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA156_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA157,SEA,Expedition to Dreadfall Reach,1,2,6,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Arkoii,,,SEA157,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157.png,,,C,C,EA,Arkoii,,,SEA157,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA157_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA158,SEA,Expedition to Horizon's Mantle,1,3,7,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may put a gold counter on Treasure Island.",Pirate Action - Attack,,,,,,C,,,Carlos Cruchaga,,,SEA158,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158.png,,,C,C,EA,Carlos Cruchaga,,,SEA158,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA158_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA159,SEA,Golden Tipple,1,1,3,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
+SEA159,SEA,Golden Tipple,1,1,3,2,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
 
 **Go again**",Pirate Action - Attack,,,,,,C,,,Aluísio Cervelle,,,SEA159,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA159.png,,,C,C,,Aluísio Cervelle,,,SEA159,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA159_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA160,SEA,Golden Tipple,2,1,2,2,,,,"Pirate, Action, Attack",,,,,,,"When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
+SEA160,SEA,Golden Tipple,2,1,2,2,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
 
 **Go again**",Pirate Action - Attack,,,,,,C,,,Aluísio Cervelle,,,SEA160,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA160.png,,,C,C,,Aluísio Cervelle,,,SEA160,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA160_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA161,SEA,Golden Tipple,3,1,1,2,,,,"Pirate, Action, Attack",Go again,,,,,,"When this attacks, you may discard a yellow card. If you do, draw a card and create a Gold token.
@@ -418,22 +419,22 @@ SEA175,SEA,Chart a Course,3,0,,2,,,,"Pirate, Action",Go again,,,,,,"Your third a
 You may put a gold counter on Treasure Island.
 
 **Go again**",Pirate Action,,,,,,C,,,Joseph Qiu,,,SEA175,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA175.png,,,C,C,,Joseph Qiu,,,SEA175,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA175_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA176,SEA,Mutiny on the Nimbus Sovereign,3,0,,2,,,,"Pirate, Action",Go again,,,,,,"For each hero that controls more Gold than you, steal a Gold token they control.
-
-If you gain control of 1 or more Gold tokens this way, your next attack this turn **gets overpower**.
-
-Go again",Pirate Action,,,,,,C,,,Brian Madya Narendra,,,SEA176,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176.png,,,C,C,,Brian Madya Narendra,,,SEA176,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA177,SEA,Mutiny on the Battalion Barque,3,0,,2,,,,"Pirate, Action",Go again,,,,,,"For each hero that controls more Gold than you, steal a Gold token they control.
+SEA176,SEA,Mutiny on the Battalion Barque,3,0,,2,,,,"Pirate, Action",Go again,,,,,,"For each hero that controls more Gold than you, steal a Gold token they control.
 
 If you gain control of 1 or more Gold tokens this way, your next attack this turn gets +2{p}.
 
-**Go again**",Pirate Action,,,,,,C,,,Max Kostin,,,SEA177,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177.png,,,C,C,,Max Kostin,,,SEA177,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Pirate Action,,,,,,C,,,Max Kostin,,,SEA176,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176.png,,,C,C,,Max Kostin,,,SEA176,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA176_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA177,SEA,Mutiny on the Nimbus Sovereign,3,0,,2,,,,"Pirate, Action",Go again,,,,,,"For each hero that controls more Gold than you, steal a Gold token they control.
+
+If you gain control of 1 or more Gold tokens this way, your next attack this turn **gets overpower**.
+
+Go again",Pirate Action,,,,,,C,,,Brian Madya Narendra,,,SEA177,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177.png,,,C,C,,Brian Madya Narendra,,,SEA177,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA177_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA178,SEA,Mutiny on the Swiftwater,3,0,,2,,,,"Pirate, Action",Go again,,,,,,"For each hero that controls more Gold than you, steal a Gold token they control.
 
 If you gain control of 1 or more Gold tokens this way, your next attack this turn gets **go again**.
 
 **Go again**",Pirate Action,,,,,,C,,,Brian Madya Narendra,,,SEA178,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA178.png,,,C,C,,Brian Madya Narendra,,,SEA178,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA178_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA179,SEA,Bandana of the Blue Beyond,,,,0,,,,"Generic, Equipment, Head",Go again,,,,,,"**Action** - Discard a card, destroy this: Put a blue card from your graveyard on the bottom of your deck. **Go again**",Generic Equipment - Head,,,,,,C,,,Asur Misoa,,,SEA179,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SEA179,SEA,Bandana of the Blue Beyonds,,,,0,,,,"Generic, Equipment, Head",Go again,,,,,,"**Action** - Discard a card, destroy this: Put a blue card from your graveyard on the bottom of your deck. **Go again**",Generic Equipment - Head,,,,,,C,,,Asur Misoa,,,SEA179,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA180,SEA,Helmsman's Peak,,,,1,,,,"Generic, Equipment, Head",Blade Break,,,,,,"When this defends, look at the top card of your deck.
 
 **Blade Break**",Generic Equipment - Head,,,,,,C,,,Satriasa,,,SEA180,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA180.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -456,7 +457,7 @@ SEA188,SEA,Midas Touch,2,1,,3,,,,"Generic, Action",Go again,,,,,,"Destroy target
 SEA189,SEA,Amethyst Amulet,3,0,,,,,,"Generic, Action, Item","Legendary, Watery Grave",,,,,,"**Instant** - Destroy this: Your next attack this turn gets +2{p}.
 
 **Legend of the Watery Grave**",Generic Action - Item,,,,No,,M,,,Mario Wibisono,,,SEA189,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA189.png,,,V,C,FA,Mario Wibisono,,,SEA189,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA189_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA190,SEA,Diamond Amulet,3,0,,,,,,"Generic, Action, Item","Legendary, Watery Grave",,,,,,"**Instant** - Destroy this: Gain 1 action point.
+SEA190,SEA,Diamond Amulet,3,0,,,,,,"Generic, Action, Item","Legendary, Watery Grave",Instant,,,,,"**Instant** - Destroy this: Gain 1 action point.
 
 **Legend of the Watery Grave**",Generic Action - Item,,,,No,,M,,,Mario Wibisono,,,SEA190,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190.png,,,V,C,FA,Mario Wibisono,,,SEA190,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA190_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA191,SEA,Onyx Amulet,3,0,,,,,,"Generic, Action, Item","Go again, Legendary, Watery Grave",,,,,,"**Action** - Destroy this: {t} all heroes and allies. **Go again**
@@ -497,13 +498,13 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
 SEA203,SEA,Money or Your Life?,1,3,6,2,,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, deal 2 damage to them unless they give you a Gold token they control. If you are a Thief, repeat this process once.",Generic Action - Attack,,,,No,,R,,,Jackson Tjota,,,SEA203,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA204,SEA,Money or Your Life?,2,3,5,2,,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, deal 2 damage to them unless they give you a Gold token they control. If you are a Thief, repeat this process once.",Generic Action - Attack,,,,No,,R,,,Jackson Tjota,,,SEA204,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA204.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA205,SEA,Money or Your Life?,3,3,4,2,,,,"Generic, Action, Attack",,,,,,,"When this hits a hero, deal 2 damage to them unless they give you a Gold token they control. If you are a Thief, repeat this process once.",Generic Action - Attack,,,,No,,R,,,Jackson Tjota,,,SEA205,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA205.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA206,SEA,Flying High,1,0,,2,,,,"Generic, Action",Go again,,,,,,"Your next attack this turn gets **go again**. If it's red, it gets +1{p}.
+SEA206,SEA,Flying High,1,0,,2,,,,"Generic, Action",Go again,,,Go again,,,"Your next attack this turn gets **go again**. If it's red, it gets +1{p}.
 
 **Go again**",Generic Action,,,,No,,R,,,SanSan,,,SEA206,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA207,SEA,Flying High,2,0,,2,,,,"Generic, Action",Go again,,,,,,"Your next attack this turn gets **go again**. If it's yellow, it gets +1{p}.
+SEA207,SEA,Flying High,2,0,,2,,,,"Generic, Action",Go again,,,Go again,,,"Your next attack this turn gets **go again**. If it's yellow, it gets +1{p}.
 
 **Go again**",Generic Action,,,,No,,R,,,SanSan,,,SEA207,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA207.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA208,SEA,Flying High,3,0,,2,,,,"Generic, Action",Go again,,,,,,"Your next attack this turn gets **go again**. If it's blue, it gets +1{p}.
+SEA208,SEA,Flying High,3,0,,2,,,,"Generic, Action",Go again,,,Go again,,,"Your next attack this turn gets **go again**. If it's blue, it gets +1{p}.
 
 **Go again**",Generic Action,,,,No,,R,,,SanSan,,,SEA208,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA208.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA209,SEA,Clap 'Em in Irons,3,0,,,,,,"Generic, Action, Item",Go again,,,,,,"**Go again**
@@ -572,7 +573,7 @@ SEA245,SEA,Goldkiss Rum,,,,,,,,"Generic, Token, Item",,Instant,,Go again,,,"**In
 SEA246,SEA,Cracked Bauble,2,,,,,,,"Generic, Resource",,,,,,,,Generic Resource,,,,,,B,,,Sam Yang,,,SEA246,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SEA247, FAB340","SEA, FAB",Treasure Island,,,,,,,,"High Seas, Macro, Landmark",,,,,,,"The first time a hero is attacked each turn, put a gold counter on this.
 
-Whenever you or an ally you control deals damage to an opposing hero, you remove that many gold counters from this, then create Gold tokens equal to the number of counters removed this way.",High Seas Macro - Landmark,,,,,,B,S,,Jessada Sutthi,,,SEA247,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA247.png,,,P,C,FA,Jessada Sutthi,,,FAB340,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB340-CF.webp,,,P,C,FA,Jessada Sutthi,,,FAB340,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB340-CF_BACK.webp,,,,,,,,,,,,,,,,,,,,,
+Whenever you or an ally you control deals damage to an opposing hero, you remove that many gold counters from this, then create Gold tokens equal to the number of counters removed this way.",High Seas Macro - Landmark,,,,,,B,S,,Jessada Sutthi,,,SEA247,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/SEA247.webp,,,P,C,FA,Jessada Sutthi,,,FAB340,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB340-CF.webp,,,P,C,FA,Jessada Sutthi,,,FAB340,https://d2wlb52bya4y8z.cloudfront.net/media/cards/large/FAB340-CF_BACK.webp,,,,,,,,,,,,,,,,,,,,,
 SEA248,SEA,Codex of Frailty,2,0,,2,,,,"Assassin, Ranger, Action",Go again,,,,,,"Each hero puts an attack action card from their graveyard face-down into their arsenal. Each hero that does, discards a card.
 Create a Ponder token under your control and a Frailty token under each opponent's control.
 
@@ -599,7 +600,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
 SEA254,SEA,Deny Redemption,1,0,3,3,,,,"Runeblade, Action, Attack",,,,,,,"When this attacks a hero with more {h} than you, deal 1 arcane damage to them. This damage can't be prevented.
 
 **Instant** - Discard this: Heroes can't gain {h} this turn.",Runeblade Action - Attack,,,,No,,M,,,soyameii,Yes,,SEA254,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA254.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SEA255,SEA,Burn Bare,,3,,3,,,6,"Wizard, Action",,,,,,,"Deal 6 arcane damage to any target.
+SEA255,SEA,Burn Bare,,3,,3,,,6,"Wizard, Action",,,,,,Phantasm,"Deal 6 arcane damage to any target.
 
 **Instant** - Discard this: Destroy target card with phantasm that is attacking you.",Wizard Action,,,,No,,M,,,Rio Sabda,Yes,,SEA255,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA256,SEA,Riddle with Regret,1,0,,2,,,,"Chaos, Action, Aura",Go again,,,,,,"**Go again**
@@ -607,7 +608,7 @@ SEA256,SEA,Riddle with Regret,1,0,,2,,,,"Chaos, Action, Aura",Go again,,,,,,"**G
 At the beginning of each hero's end phase, they lose X{h}, where X is the number of auras they controlled when this triggered. If X is 3 or more, destroy this.",Chaos Action - Aura,,,,No,,M,,,Sebastian Giacobino,Yes,,SEA256,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA257,SEA,Claw of Vynserakai,,,1,,,,,"Draconic, Weapon, Dagger, 1H",Spellvoid 1,,,,,,"**Once per Turn Action** - {r}: Attack
 
-Spellvoid 1",Draconic Weapon - Dagger (1H),,,,No,,M,,,Mark Poole,Yes,,SEA257,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA257.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Spellvoid 1**",Draconic Weapon - Dagger (1H),,,,No,,M,,,Mark Poole,Yes,,SEA257,https://storage.googleapis.com/fabmaster/cardfaces/2025-SEA/EN/SEA257.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SEA258,SEA,Everbloom // Life,3,0,,3,,,,"Earth, Action, Instant","Go again, Meld",,,,,,"**Meld**
 
 Choose an action card in a graveyard with cost less than the total {h} you've gained this turn. Put it on the bottom of its owner's deck.

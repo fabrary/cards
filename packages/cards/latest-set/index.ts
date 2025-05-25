@@ -501,12 +501,12 @@
   
   },{
     artists: ["Asur Misoa"],
-    cardIdentifier: "bandana-of-the-blue-beyond",
+    cardIdentifier: "bandana-of-the-blue-beyonds",
     classes: [Class.Generic],
     defaultImage: "SEA179",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
-    name: "Bandana of the Blue Beyond",
+    name: "Bandana of the Blue Beyonds",
     printings: [{
         artists: ["Asur Misoa"],
       
@@ -623,18 +623,6 @@
     name: "Barnacle",
     printings: [{
         artists: ["Ausonia"],
-      
-      identifier: "SEA074",
-      image: "SEA074",
-      
-      
-      print: "SEA074",
-      rarity: Rarity.Common,
-      set: Release.HighSeas,
-      
-      
-    },{
-        artists: ["Ausonia"],
       foiling: Foiling.C,
       identifier: "SEA074",
       image: "SEA074_V2",
@@ -645,6 +633,18 @@
       set: Release.HighSeas,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Ausonia"],
+      
+      identifier: "SEA074",
+      image: "SEA074",
+      
+      
+      print: "SEA074",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -2096,18 +2096,6 @@ Create a Gold token for each yellow card put into your graveyard this way.
     name: "Chowder, Hearty Cook",
     printings: [{
         artists: ["Simon Dominic"],
-      
-      identifier: "SEA075",
-      image: "SEA075",
-      
-      
-      print: "SEA075",
-      rarity: Rarity.Common,
-      set: Release.HighSeas,
-      
-      
-    },{
-        artists: ["Simon Dominic"],
       foiling: Foiling.C,
       identifier: "SEA075",
       image: "SEA075_V2",
@@ -2118,6 +2106,18 @@ Create a Gold token for each yellow card put into your graveyard this way.
       set: Release.HighSeas,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Simon Dominic"],
+      
+      identifier: "SEA075",
+      image: "SEA075",
+      
+      
+      print: "SEA075",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -2330,7 +2330,7 @@ At the start of your turn, destroy this.`,
     
     functionalText: `**Once per Turn Action** - {r}: Attack
 
-Spellvoid 1`,
+**Spellvoid 1**`,
     
     
     
@@ -6052,7 +6052,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -6123,7 +6123,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -8185,18 +8185,6 @@ When this hits, gain 1{h}.`,
     name: "Limpit, Hop-a-long",
     printings: [{
         artists: ["Tomasz Jedruszek"],
-      
-      identifier: "SEA060",
-      image: "SEA060",
-      
-      
-      print: "SEA060",
-      rarity: Rarity.Rare,
-      set: Release.HighSeas,
-      
-      
-    },{
-        artists: ["Tomasz Jedruszek"],
       foiling: Foiling.C,
       identifier: "SEA060",
       image: "SEA060_V2",
@@ -8207,6 +8195,18 @@ When this hits, gain 1{h}.`,
       set: Release.HighSeas,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SEA060",
+      image: "SEA060",
+      
+      
+      print: "SEA060",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9110,18 +9110,18 @@ Draw a card.
     artists: ["Max Kostin"],
     cardIdentifier: "mutiny-on-the-battalion-barque-blue",
     classes: [Class.Pirate],
-    defaultImage: "SEA177",
+    defaultImage: "SEA176",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.GravyBones,Hero.Marlynn,Hero.Puffin,Hero.Scurv],
     name: "Mutiny on the Battalion Barque",
     printings: [{
         artists: ["Max Kostin"],
       
-      identifier: "SEA177",
-      image: "SEA177",
+      identifier: "SEA176",
+      image: "SEA176",
       
       
-      print: "SEA177",
+      print: "SEA176",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -9129,11 +9129,11 @@ Draw a card.
     },{
         artists: ["Max Kostin"],
       foiling: Foiling.C,
-      identifier: "SEA177",
-      image: "SEA177_V2",
+      identifier: "SEA176",
+      image: "SEA176_V2",
       
       
-      print: "SEA177-Cold",
+      print: "SEA176-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -9141,9 +9141,9 @@ Draw a card.
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA177"],
+    setIdentifiers: ["SEA176"],
     sets: [Release.HighSeas],
-    specialImage: "SEA177_V2",
+    specialImage: "SEA176_V2",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Pirate Action",
@@ -9183,18 +9183,18 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     artists: ["Brian Madya Narendra"],
     cardIdentifier: "mutiny-on-the-nimbus-sovereign-blue",
     classes: [Class.Pirate],
-    defaultImage: "SEA176",
+    defaultImage: "SEA177",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.GravyBones,Hero.Marlynn,Hero.Puffin,Hero.Scurv],
     name: "Mutiny on the Nimbus Sovereign",
     printings: [{
         artists: ["Brian Madya Narendra"],
       
-      identifier: "SEA176",
-      image: "SEA176",
+      identifier: "SEA177",
+      image: "SEA177",
       
       
-      print: "SEA176",
+      print: "SEA177",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -9202,11 +9202,11 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     },{
         artists: ["Brian Madya Narendra"],
       foiling: Foiling.C,
-      identifier: "SEA176",
-      image: "SEA176_V2",
+      identifier: "SEA177",
+      image: "SEA177_V2",
       
       
-      print: "SEA176-Cold",
+      print: "SEA177-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       
@@ -9214,9 +9214,9 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA176"],
+    setIdentifiers: ["SEA177"],
     sets: [Release.HighSeas],
-    specialImage: "SEA176_V2",
+    specialImage: "SEA177_V2",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Pirate Action",
@@ -9777,7 +9777,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     cost: 0,
     
     
-    functionalText: `Scurv Specialization
+    functionalText: `**Scurv Specialization**
 
 The next time an opponent would draw a card from the effect of a Gold token this turn, instead you draw a card.`,
     
@@ -11040,18 +11040,6 @@ You may {u} your hero.
     name: "Portside Exchange",
     printings: [{
         artists: ["Nikko Wahyudi"],
-      
-      identifier: "SEA145",
-      image: "SEA145",
-      
-      
-      print: "SEA145",
-      rarity: Rarity.Rare,
-      set: Release.HighSeas,
-      
-      
-    },{
-        artists: ["Nikko Wahyudi"],
       foiling: Foiling.C,
       identifier: "SEA145",
       image: "SEA145_V2",
@@ -11062,6 +11050,18 @@ You may {u} your hero.
       set: Release.HighSeas,
       
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "SEA145",
+      image: "SEA145",
+      
+      
+      print: "SEA145",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -12151,7 +12151,7 @@ The second time you crank each turn, draw a card.`,
     defaultImage: "SEA000",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
-    name: "Riches of Tropal-Dhani",
+    name: "Riches of Trōpal-Dhani",
     printings: [{
         artists: ["Tanapon Wachirakul"],
       foiling: Foiling.C,
@@ -12295,10 +12295,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AGB018","SEA077"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB018","LGS406","SEA077"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
     specialImage: "SEA077_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -13673,7 +13673,8 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Go again
+    functionalText: `**Go again**
+
 At the start of your turn, pitch the top card of your deck. If it's blue, put this on the bottom of your deck, otherwise destroy this.`,
     
     
@@ -16361,18 +16362,6 @@ When this hits a hero, steal an item they control.`,
     name: "Wailer Humperdinck",
     printings: [{
         artists: ["Joseph Qiu"],
-      
-      identifier: "SEA052",
-      image: "SEA052",
-      
-      
-      print: "SEA052",
-      rarity: Rarity.Majestic,
-      set: Release.HighSeas,
-      
-      
-    },{
-        artists: ["Joseph Qiu"],
       foiling: Foiling.C,
       identifier: "SEA052",
       image: "SEA052_V2",
@@ -16383,6 +16372,18 @@ When this hits a hero, steal an item they control.`,
       set: Release.HighSeas,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "SEA052",
+      image: "SEA052",
+      
+      
+      print: "SEA052",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
