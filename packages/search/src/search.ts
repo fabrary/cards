@@ -91,7 +91,7 @@ class Search {
   search = (text: string, includeMemes?: boolean): SearchResults => {
     let results: DoubleSidedCard[];
 
-    const { appliedFilters, attributes, keywords, specialConditions } =
+    const { appliedFilters, attributes, keywords } =
       getKeywordsAndAppliedFiltersFromText(
         text,
         this.cards,
@@ -112,7 +112,7 @@ class Search {
     }
     if (appliedFilters.length) {
       results = results.filter(
-        (card) => card && filterCard(card, appliedFilters, specialConditions)
+        (card) => card && filterCard(card, appliedFilters)
       );
     }
 
@@ -238,104 +238,76 @@ export default Search;
 
 export const filterCard = (
   card: Card,
-  appliedFilters: AppliedFilter[],
-  specialConditions: SpecialConditions
+  appliedFilters: AppliedFilter[]
 ): boolean => {
-  let doesCardMatchFilter = true;
+  let doesCardMatchAllRequiredFilters = true;
+  let doesCardMatchAnyOptionalFilters = false;
 
   for (const appliedFilter of appliedFilters) {
-    const { isNumber, isString, isArray, isBoolean, property } =
+    const isOptional = appliedFilter.isOptional;
+    const { isNumber, isString, isArray, isBoolean } =
       appliedFilter.filterToPropertyMapping;
-    if (isNumber && !doesCardMatchNumericFilter(card, appliedFilter)) {
-      doesCardMatchFilter = false;
-    } else if (isString && !doesCardMatchStringFilter(card, appliedFilter)) {
-      doesCardMatchFilter = false;
-    } else if (
-      isArray &&
-      !doesCardMatchArrayFilter(card, appliedFilter, appliedFilters)
-    ) {
-      doesCardMatchFilter = false;
-    } else if (isBoolean && !doesCardMatchBooleanFilter(card, appliedFilter)) {
-      doesCardMatchFilter = false;
+
+    if (isNumber) {
+      const cardMatchesNumericFilter = getDoesCardMatchNumericFilter(
+        card,
+        appliedFilter
+      );
+      if (isOptional) {
+        if (cardMatchesNumericFilter) {
+          doesCardMatchAnyOptionalFilters = true;
+        }
+      } else {
+        doesCardMatchAllRequiredFilters =
+          doesCardMatchAllRequiredFilters && cardMatchesNumericFilter;
+      }
+    } else if (isString) {
+      const cardMatchesStringFilter = getDoesCardMatchStringFilter(
+        card,
+        appliedFilter
+      );
+      if (isOptional) {
+        if (cardMatchesStringFilter) {
+          doesCardMatchAnyOptionalFilters = true;
+        }
+      } else {
+        doesCardMatchAllRequiredFilters =
+          doesCardMatchAllRequiredFilters && cardMatchesStringFilter;
+      }
+    } else if (isArray) {
+      const cardMatchesArrayFilter = getDoesCardMatchArrayFilter(
+        card,
+        appliedFilter,
+        appliedFilters
+      );
+      if (isOptional) {
+        if (cardMatchesArrayFilter) {
+          doesCardMatchAnyOptionalFilters = true;
+        }
+      } else {
+        doesCardMatchAllRequiredFilters =
+          doesCardMatchAllRequiredFilters && cardMatchesArrayFilter;
+      }
+    } else if (isBoolean) {
+      const cardMatchesBooleanFilter = getDoesCardMatchBooleanFilter(
+        card,
+        appliedFilter
+      );
+      if (isOptional) {
+        if (cardMatchesBooleanFilter) {
+          doesCardMatchAnyOptionalFilters = true;
+        }
+      } else {
+        doesCardMatchAllRequiredFilters =
+          doesCardMatchAllRequiredFilters && cardMatchesBooleanFilter;
+      }
     }
-
-    // if (card.types.includes(Type.Equipment) && !doesCardMatchFilter) {
-    //   console.log(card.name, appliedFilter, doesCardMatchFilter);
-    // }
-
-    const cardHasClashOverrides =
-      !!card.legalOverrides &&
-      !!card.legalOverrides[Format.Clash] &&
-      card.legalOverrides[Format.Clash].length > 0;
-    const shouldCheckForClash =
-      specialConditions.isClash && cardHasClashOverrides;
-    // ["rarities", "bannedFormats", "legalFormats"].includes(property);
-    // if (card.cardIdentifier === "command-and-conquer-red") {
-    //   console.log(shouldCheckForClash, specialConditions, property);
-    // }
-    if (shouldCheckForClash) {
-      // const clashLegalHeroes = card.legalOverrides[Format.Clash];
-      // const isSuperRarePlus = [
-      //   Rarity.SuperRare,
-      //   Rarity.Majestic,
-      //   Rarity.Legendary,
-      //   Rarity.Fabled,
-      // ].some((rarity) => card.rarities.includes(rarity));
-      // let isSpecializationOverride = false;
-      // for (const { cardIdentifiers, heroes } of clashSpecializationOverrides) {
-      //   for (const hero of specialConditions.heroes) {
-      //     if (
-      //       heroes.includes(hero) &&
-      //       cardIdentifiers.includes(card.cardIdentifier)
-      //     ) {
-      //       isSpecializationOverride = true;
-      //       // break;
-      //     }
-      //   }
-      //   if (isSpecializationOverride) {
-      //     // break;
-      //   }
-      // }
-      // const isSpecializationCard =
-      //   (!!card.specializations &&
-      //     // @ts-ignore
-      //     (card as ActionCard).specializations.length > 0) ||
-      //   isSpecializationOverride;
-      // const isMentorOrWeapon = [Type.Mentor, Type.Weapon].some((type) =>
-      //   card.types.includes(type)
-      // );
-      // const isBannedInClash = clashBannedCards.includes(card.name);
-      // if (
-      //   !doesCardMatchFilter &&
-      //   !isBannedInClash &&
-      //   (isSpecializationCard || isMentorOrWeapon) &&
-      //   isSuperRarePlus
-      // ) {
-      //   doesCardMatchFilter = true;
-      // }
-      // if (isBannedInClash) {
-      //   doesCardMatchFilter = false;
-      // }
-    }
-
-    // TODO clean this up and combine with Clash code above
-    // if (
-    //   specialConditions.isClash &&
-    //   specialConditions.heroes.includes(Hero.Briar) &&
-    //   card.name === "Rosetta Thorn"
-    // ) {
-    //   doesCardMatchFilter = true;
-    // }
-
-    // if (!doesCardMatchFilter) {
-    //   break;
-    // }
   }
 
-  return doesCardMatchFilter;
+  return doesCardMatchAllRequiredFilters;
 };
 
-const doesCardMatchNumericFilter = (
+const getDoesCardMatchNumericFilter = (
   card: Card,
   filter: AppliedFilter
 ): boolean => {
@@ -345,7 +317,7 @@ const doesCardMatchNumericFilter = (
     const {
       values,
       modifier,
-      excluded,
+      isExcluded: excluded,
       filterToPropertyMapping: { partialMatch },
     } = filter;
     let cardValue: number = getCardValue(card, filter) as number;
@@ -394,7 +366,7 @@ const doesCardMatchNumericFilter = (
   }
 };
 
-const doesCardMatchStringFilter = (
+const getDoesCardMatchStringFilter = (
   card: Card,
   filter: AppliedFilter
 ): boolean => {
@@ -404,7 +376,7 @@ const doesCardMatchStringFilter = (
     const {
       values,
       isAnd,
-      excluded,
+      isExcluded: excluded,
       filterToPropertyMapping: { partialMatch },
     } = filter;
     const cardValue = (getCardValue(card, filter) as string)?.replaceAll(
@@ -433,7 +405,7 @@ const doesCardMatchStringFilter = (
   }
 };
 
-const doesCardMatchArrayFilter = (
+const getDoesCardMatchArrayFilter = (
   card: Card,
   filter: AppliedFilter,
   filters: AppliedFilter[]
@@ -444,7 +416,7 @@ const doesCardMatchArrayFilter = (
     const {
       values,
       isAnd,
-      excluded,
+      isExcluded,
       filterToPropertyMapping: { partialMatch },
     } = filter;
     const cardValues = getCardValues(card, filter, filters).map((value) =>
@@ -464,7 +436,7 @@ const doesCardMatchArrayFilter = (
             )
           );
       const noValues = cardValues.length === 0;
-      return excluded ? !isPartialMatch || noValues : isPartialMatch;
+      return isExcluded ? !isPartialMatch || noValues : isPartialMatch;
     } else {
       const isFullMatch = isAnd
         ? values.every((filterValue) =>
@@ -477,21 +449,21 @@ const doesCardMatchArrayFilter = (
               (cardValue) => cardValue?.toLowerCase() === filterValue
             )
           );
-      return excluded ? !isFullMatch : isFullMatch;
+      return isExcluded ? !isFullMatch : isFullMatch;
     }
   }
 };
 
-const doesCardMatchBooleanFilter = (
+const getDoesCardMatchBooleanFilter = (
   card: Card,
   filter: AppliedFilter
 ): boolean => {
   if (!doesFilterMatchCardType(filter, card)) {
     return true;
   } else {
-    const { excluded } = filter;
+    const { isExcluded } = filter;
     const cardValue = getCardValue(card, filter) as boolean;
-    return excluded ? !cardValue : cardValue;
+    return isExcluded ? !cardValue : cardValue;
   }
 };
 

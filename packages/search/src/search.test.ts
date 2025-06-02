@@ -562,3 +562,53 @@ describe("Returns matching prints when release or foiling included", () => {
     }
   });
 });
+
+describe("Shorthands property works", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it("Tap", () => {
+    const { searchResults } = cardSearch.search("tap");
+    expect(searchResults).toBeTruthy();
+
+    const legTap = searchResults.find(
+      ({ cardIdentifier }) => cardIdentifier === "leg-tap-red"
+    );
+    expect(legTap).toBeTruthy();
+
+    const spitfire = searchResults.find(
+      ({ cardIdentifier }) => cardIdentifier === "spitfire"
+    );
+    expect(spitfire).toBeTruthy();
+  });
+
+  it("Leg tap", () => {
+    const { searchResults } = cardSearch.search("leg tap");
+    expect(searchResults).toBeTruthy();
+
+    const legTap = searchResults.find(
+      ({ cardIdentifier }) => cardIdentifier === "leg-tap-red"
+    );
+    expect(legTap).toBeTruthy();
+
+    const spitfire = searchResults.find(
+      ({ cardIdentifier }) => cardIdentifier === "spitfire"
+    );
+    expect(spitfire).toBeFalsy();
+  });
+
+  it("Throw", () => {
+    const { searchResults } = cardSearch.search("throw");
+    expect(searchResults).toBeTruthy();
+
+    const throwCaution = searchResults.find(
+      ({ cardIdentifier }) =>
+        cardIdentifier === "throw-caution-to-the-wind-blue"
+    );
+    expect(throwCaution).toBeTruthy();
+
+    const flickKnives = searchResults.find(
+      ({ cardIdentifier }) => cardIdentifier === "flick-knives"
+    );
+    expect(flickKnives).toBeTruthy();
+  });
+});

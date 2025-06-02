@@ -79,8 +79,10 @@
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -136,9 +138,11 @@
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -193,9 +197,11 @@
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -250,9 +256,11 @@
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -311,9 +319,11 @@
     
     life: 3,
     meta: [Meta.Expansion],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -368,8 +378,10 @@
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 3,
+    
     
     
     
@@ -427,8 +439,10 @@
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -486,9 +500,11 @@
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -542,6 +558,8 @@
     keywords: [Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -600,9 +618,11 @@
     
     
     
+  
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -671,9 +691,11 @@
     
     life: 3,
     
+  
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -740,9 +762,11 @@
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -809,9 +833,11 @@
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -878,9 +904,11 @@
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -951,8 +979,10 @@ Draw a card, then discard a card.
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -1008,8 +1038,10 @@ Draw a card, then discard a card.
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -1067,9 +1099,11 @@ When this hits, deal 1 damage to any target.`,
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -1124,9 +1158,11 @@ When this hits, deal 1 damage to any target.`,
     
     
     
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -1182,6 +1218,8 @@ When this hits, deal 1 damage to any target.`,
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -1252,9 +1290,11 @@ When this hits, deal 1 damage to any target.`,
     
     
     
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -1310,6 +1350,8 @@ When this hits, deal 1 damage to any target.`,
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -1368,9 +1410,11 @@ When this hits, deal 1 damage to any target.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -1425,9 +1469,11 @@ When this hits, deal 1 damage to any target.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -1482,9 +1528,11 @@ When this hits, deal 1 damage to any target.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -1541,6 +1589,8 @@ When this hits, deal 1 damage to any target.`,
     
     
     meta: [Meta.Expansion],
+  
+    
     
     
     
@@ -1602,8 +1652,10 @@ You may put an arrow from your hand face-up into your arsenal.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
+    
     
     
     
@@ -1663,8 +1715,10 @@ You may put an arrow from your hand face-up into your arsenal.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
+    
     
     
     
@@ -1724,8 +1778,10 @@ You may put an arrow from your hand face-up into your arsenal.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
+    
     
     
     
@@ -1780,6 +1836,8 @@ You may put an arrow from your hand face-up into your arsenal.
     keywords: [Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -1854,8 +1912,10 @@ You may put a gold counter on Treasure Island.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
+    
     
     
     
@@ -1927,8 +1987,10 @@ You may put a gold counter on Treasure Island.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
+    
     
     
     
@@ -2000,8 +2062,10 @@ You may put a gold counter on Treasure Island.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
+    
     
     
     
@@ -2073,8 +2137,10 @@ Create a Gold token for each yellow card put into your graveyard this way.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -2146,9 +2212,11 @@ Create a Gold token for each yellow card put into your graveyard this way.
     
     life: 3,
     
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -2219,9 +2287,11 @@ Create a Gold token for each yellow card put into your graveyard this way.
     
     life: 6,
     
+  
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -2280,8 +2350,10 @@ At the start of your turn, destroy this.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -2339,9 +2411,11 @@ At the start of your turn, destroy this.`,
     
     
     meta: [Meta.Expansion],
+  
     
     
     power: 1,
+    
     
     
     
@@ -2398,9 +2472,11 @@ At the start of your turn, destroy this.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -2457,9 +2533,11 @@ At the start of your turn, destroy this.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -2516,9 +2594,11 @@ At the start of your turn, destroy this.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -2573,9 +2653,11 @@ At the start of your turn, destroy this.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -2630,9 +2712,11 @@ At the start of your turn, destroy this.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -2687,9 +2771,11 @@ At the start of your turn, destroy this.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -2747,8 +2833,10 @@ Create a Ponder token under your control and a Frailty token under each opponent
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 2,
+    
     
     
     
@@ -2806,8 +2894,10 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -2865,9 +2955,11 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     
     
     
+  
     
     
     power: 2,
+    
     
     
     
@@ -2924,9 +3016,11 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     
     
     
+  
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -2995,6 +3089,8 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     
     
     
+  
+    
     
     
     
@@ -3054,8 +3150,10 @@ Put a steam counter on up to 2 cogs you control.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -3113,9 +3211,11 @@ Put a steam counter on up to 2 cogs you control.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -3172,9 +3272,11 @@ Put a steam counter on up to 2 cogs you control.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -3231,9 +3333,11 @@ Put a steam counter on up to 2 cogs you control.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -3289,6 +3393,8 @@ The first card with watery grave you play from your graveyard each turn gets go 
     keywords: [Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -3361,9 +3467,11 @@ The first card with watery grave you play from your graveyard each turn gets go 
     
     
     
+  
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -3424,8 +3532,10 @@ Deal 1 arcane damage to any target.`,
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 2,
+    
     
     
     
@@ -3485,8 +3595,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -3542,8 +3654,10 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -3601,9 +3715,11 @@ When this hits a hero, destroy the top card of their deck.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -3660,9 +3776,11 @@ When this hits a hero, destroy the top card of their deck.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -3719,9 +3837,11 @@ When this hits a hero, destroy the top card of their deck.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -3792,9 +3912,11 @@ When this hits a hero, destroy the top card of their deck.`,
     
     life: 4,
     
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -3863,6 +3985,8 @@ When this hits a hero, destroy the top card of their deck.`,
     
     
     
+  
+    
     
     
     
@@ -3922,9 +4046,11 @@ When this hits a hero, destroy the top card of their deck.`,
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -3993,8 +4119,10 @@ When this hits a hero, destroy the top card of their deck.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -4064,8 +4192,10 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -4125,8 +4255,10 @@ You may {u} a gun you control.
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -4184,8 +4316,10 @@ You may {u} a gun you control.
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -4242,9 +4376,11 @@ You may {u} a gun you control.
     
     
     
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -4299,9 +4435,11 @@ You may {u} a gun you control.
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -4360,8 +4498,10 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 1,
+    
     
     
     
@@ -4425,8 +4565,10 @@ Gain 1{h}`,
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 3,
+    
     
     
     
@@ -4494,9 +4636,11 @@ Gain 1{h}`,
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -4563,9 +4707,11 @@ Gain 1{h}`,
     
     
     
+  
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -4632,9 +4778,11 @@ Gain 1{h}`,
     
     
     
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -4701,9 +4849,11 @@ Gain 1{h}`,
     
     
     
+  
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -4758,8 +4908,10 @@ Gain 1{h}`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
+    
     
     
     
@@ -4815,8 +4967,10 @@ Gain 1{h}`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
+    
     
     
     
@@ -4872,8 +5026,10 @@ Gain 1{h}`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
+    
     
     
     
@@ -4933,8 +5089,10 @@ You may {u} a bow you control.
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -4991,6 +5149,8 @@ You may {u} a bow you control.
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -5051,8 +5211,10 @@ You may {u} a bow you control.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
+    
     
     
     
@@ -5110,8 +5272,10 @@ You may {u} a bow you control.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
+    
     
     
     
@@ -5169,8 +5333,10 @@ You may {u} a bow you control.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
+    
     
     
     
@@ -5226,8 +5392,10 @@ You may {u} a bow you control.
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -5297,8 +5465,10 @@ You may {u} a bow you control.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -5355,6 +5525,8 @@ You may {u} a bow you control.
     keywords: [Keyword.Battleworn],
     
     
+    
+  
     
     
     
@@ -5425,6 +5597,8 @@ You may {u} a bow you control.
     
     
     
+  
+    
     
     
     
@@ -5494,9 +5668,11 @@ You may {u} a bow you control.
     
     
     
+  
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -5563,9 +5739,11 @@ You may {u} a bow you control.
     
     
     
+  
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -5632,9 +5810,11 @@ You may {u} a bow you control.
     
     
     
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -5701,9 +5881,11 @@ You may {u} a bow you control.
     
     
     
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -5762,8 +5944,10 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -5832,6 +6016,8 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
     keywords: [Keyword.Battleworn,Keyword.GoAgain,Keyword.Steal],
     
     
+    
+  
     
     
     
@@ -5916,6 +6102,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
+  
+    
     
     
     
@@ -5985,9 +6173,11 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
+  
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -6056,9 +6246,11 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -6127,9 +6319,11 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -6198,9 +6392,11 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -6267,9 +6463,11 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
+  
     
     
     power: 2,
+    
     
     
     
@@ -6336,6 +6534,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
+  
+    
     
     
     
@@ -6395,8 +6595,10 @@ Create a Golden Cog token.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
+    
     
     
     
@@ -6454,8 +6656,10 @@ Create a Golden Cog token.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
+    
     
     
     
@@ -6513,8 +6717,10 @@ Create a Golden Cog token.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
+    
     
     
     
@@ -6595,6 +6801,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     life: 20,
+    
+  
     
     
     
@@ -6679,6 +6887,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     life: 40,
     
+  
+    
     
     
     
@@ -6735,6 +6945,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     keywords: [Keyword.GoAgain,Keyword.Overpower],
     
     
+    
+  
     
     
     
@@ -6793,9 +7005,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -6850,9 +7064,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -6907,9 +7123,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -6965,6 +7183,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     keywords: [Keyword.Battleworn],
     
     
+    
+  
     
     
     
@@ -7025,8 +7245,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -7083,6 +7305,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     keywords: [Keyword.BladeBreak],
     
     
+    
+  
     
     
     
@@ -7143,9 +7367,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -7214,9 +7440,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -7285,9 +7513,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -7356,9 +7586,11 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -7425,8 +7657,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -7484,8 +7718,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -7542,9 +7778,11 @@ When this hits a hero, steal an item they control until the end of this action p
     
     
     
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -7601,9 +7839,11 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -7658,9 +7898,11 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -7715,9 +7957,11 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -7772,9 +8016,11 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -7833,9 +8079,11 @@ When this deals damage to a hero, **steal** that many items they control.
     
     
     
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -7906,9 +8154,11 @@ When this deals damage to a hero, **steal** that many items they control.
     
     life: 3,
     
+  
     
     pitch: 2,
     power: 1,
+    
     
     
     
@@ -7975,9 +8225,11 @@ When this deals damage to a hero, **steal** that many items they control.
     
     
     
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -8044,9 +8296,11 @@ When this deals damage to a hero, **steal** that many items they control.
     
     
     
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -8103,9 +8357,11 @@ When this hits, gain 1{h}.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -8161,6 +8417,8 @@ When this hits, gain 1{h}.`,
     
     
     
+    
+  
     
     
     
@@ -8233,9 +8491,11 @@ When this hits, gain 1{h}.`,
     
     life: 1,
     
+  
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -8292,8 +8552,10 @@ When this hits, gain 1{h}.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -8365,8 +8627,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -8434,8 +8698,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -8492,8 +8758,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -8574,6 +8842,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     keywords: [Keyword.GoAgain],
     
     life: 20,
+    
+  
     
     
     
@@ -8658,6 +8928,8 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     life: 40,
     
+  
+    
     
     
     
@@ -8717,8 +8989,10 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -8774,9 +9048,11 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -8831,9 +9107,11 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -8888,9 +9166,11 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -8949,8 +9229,10 @@ Draw a card.
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -9022,9 +9304,11 @@ Draw a card.
     
     life: 3,
     
+  
     
     pitch: 2,
     power: 0,
+    
     
     
     
@@ -9093,9 +9377,11 @@ Draw a card.
     
     
     
+  
     
     pitch: 3,
     power: 0,
+    
     
     
     
@@ -9166,8 +9452,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -9239,8 +9527,10 @@ Go again`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -9312,8 +9602,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -9369,9 +9661,11 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -9428,8 +9722,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
+    
     
     
     
@@ -9487,8 +9783,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
+    
     
     
     
@@ -9546,8 +9844,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
+    
     
     
     
@@ -9603,9 +9903,11 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -9660,9 +9962,11 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -9717,9 +10021,11 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -9788,8 +10094,10 @@ The next time an opponent would draw a card from the effect of a Gold token this
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -9846,6 +10154,8 @@ Blade Break`,
     keywords: [Keyword.BladeBreak],
     
     
+    
+  
     
     
     
@@ -9904,8 +10214,10 @@ Blade Break`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
+    
     
     
     
@@ -9961,8 +10273,10 @@ Blade Break`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
+    
     
     
     
@@ -10018,8 +10332,10 @@ Blade Break`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
+    
     
     
     
@@ -10089,8 +10405,10 @@ Blade Break`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -10160,8 +10478,10 @@ Blade Break`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -10221,9 +10541,11 @@ When this dies, create a Gold token.
     
     life: 1,
     meta: [Meta.Expansion],
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -10290,9 +10612,11 @@ When this dies, create a Gold token.
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -10361,9 +10685,11 @@ When this dies, create a Gold token.
     
     
     
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -10417,6 +10743,8 @@ When this dies, create a Gold token.
     
     
     
+    
+  
     
     
     
@@ -10489,8 +10817,10 @@ When this dies, create a Gold token.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -10547,6 +10877,8 @@ When this dies, create a Gold token.
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -10609,8 +10941,10 @@ You may {u} your hero.
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -10678,9 +11012,11 @@ You may {u} your hero.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -10747,9 +11083,11 @@ You may {u} your hero.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -10816,9 +11154,11 @@ You may {u} your hero.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -10873,8 +11213,10 @@ You may {u} your hero.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -10944,8 +11286,10 @@ You may {u} your hero.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -11017,6 +11361,8 @@ You may {u} your hero.
     
     life: 1,
     metatypes: [Metatype.Puffin],
+  
+    
     
     
     
@@ -11088,8 +11434,10 @@ You may {u} your hero.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -11159,8 +11507,10 @@ You may {u} your hero.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -11218,8 +11568,10 @@ Hero abilities can't create cards.`,
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 1,
+    
     
     
     
@@ -11300,6 +11652,8 @@ The second time you crank each turn, draw a card.`,
     
     
     life: 20,
+    
+  
     
     
     
@@ -11384,6 +11738,8 @@ The second time you crank each turn, draw a card.`,
     
     life: 40,
     
+  
+    
     
     
     
@@ -11443,6 +11799,8 @@ The second time you crank each turn, draw a card.`,
     
     
     
+  
+    
     
     
     
@@ -11499,6 +11857,8 @@ The second time you crank each turn, draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -11557,9 +11917,11 @@ The second time you crank each turn, draw a card.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -11614,9 +11976,11 @@ The second time you crank each turn, draw a card.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -11671,9 +12035,11 @@ The second time you crank each turn, draw a card.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -11730,9 +12096,11 @@ The second time you crank each turn, draw a card.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -11787,9 +12155,11 @@ The second time you crank each turn, draw a card.`,
     
     
     
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -11843,6 +12213,8 @@ The second time you crank each turn, draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -11903,8 +12275,10 @@ The second time you crank each turn, draw a card.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -11960,9 +12334,11 @@ The second time you crank each turn, draw a card.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -12017,9 +12393,11 @@ The second time you crank each turn, draw a card.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -12074,9 +12452,11 @@ The second time you crank each turn, draw a card.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -12131,8 +12511,10 @@ The second time you crank each turn, draw a card.`,
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -12190,8 +12572,10 @@ When this is pitched, create a Gold token.`,
     
     
     
+  
     
     pitch: 2,
+    
     
     
     
@@ -12249,8 +12633,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 1,
+    
     
     
     
@@ -12320,9 +12706,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     life: 1,
     
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -12391,8 +12779,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -12449,6 +12839,8 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.Battleworn],
     
     
+    
+  
     
     
     
@@ -12507,9 +12899,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     
+  
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -12578,9 +12972,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -12649,9 +13045,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -12721,9 +13119,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -12778,9 +13178,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 5,
+    
     
     
     
@@ -12835,9 +13237,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -12892,9 +13296,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 3,
+    
     
     
     
@@ -12963,8 +13369,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -13024,9 +13432,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     life: 2,
     meta: [Meta.Expansion],
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -13081,9 +13491,11 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -13154,9 +13566,11 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
     
     life: 4,
     
+  
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -13211,9 +13625,11 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -13282,8 +13698,10 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -13340,6 +13758,8 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     keywords: [Keyword.GoAgain],
     
     life: 20,
+    
+  
     
     
     
@@ -13412,8 +13832,10 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -13469,9 +13891,11 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     
     
     
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -13539,6 +13963,8 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -13613,9 +14039,11 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     
     life: 5,
     
+  
     
     pitch: 2,
     power: 4,
+    
     
     
     
@@ -13684,8 +14112,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -13741,9 +14171,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -13798,9 +14230,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -13855,9 +14289,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -13914,8 +14350,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -13971,9 +14409,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -14028,9 +14468,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -14085,9 +14527,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -14154,9 +14598,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -14223,9 +14669,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -14292,9 +14740,11 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -14351,9 +14801,11 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
     
     
     
+  
     
     
     power: 2,
+    
     
     
     
@@ -14412,9 +14864,11 @@ When this attacks a hero, steal a Gold token they control.
     
     life: 2,
     metatypes: [Metatype.Scurv],
+  
     
     
     power: 2,
+    
     
     
     
@@ -14469,9 +14923,11 @@ When this attacks a hero, steal a Gold token they control.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -14526,9 +14982,11 @@ When this attacks a hero, steal a Gold token they control.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -14583,9 +15041,11 @@ When this attacks a hero, steal a Gold token they control.
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -14652,8 +15112,10 @@ When this attacks a hero, steal a Gold token they control.
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -14713,8 +15175,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 3,
+    
     
     
     
@@ -14784,9 +15248,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     life: 3,
     
+  
     
     pitch: 2,
     power: 7,
+    
     
     
     
@@ -14841,9 +15307,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -14897,6 +15365,8 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     keywords: [Keyword.GoAgain],
     
     
+    
+  
     
     
     
@@ -14967,9 +15437,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -15036,9 +15508,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -15105,9 +15579,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -15174,9 +15650,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -15243,9 +15721,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -15312,9 +15792,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -15369,9 +15851,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -15426,9 +15910,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -15483,9 +15969,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 2,
+    
     
     
     
@@ -15552,9 +16040,11 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     
+  
     
     pitch: 1,
     power: 4,
+    
     
     
     
@@ -15621,8 +16111,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -15682,8 +16174,10 @@ You may {u} a cog you control.
     
     
     
+  
     
     pitch: 1,
+    
     
     
     
@@ -15755,8 +16249,10 @@ You may give a Gold token you control to another hero. If you do, put this on th
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -15814,8 +16310,10 @@ You may give a Gold token you control to another hero. If you do, put this on th
     
     
     
+  
     
     pitch: 3,
+    
     
     
     
@@ -15871,9 +16369,11 @@ You may give a Gold token you control to another hero. If you do, put this on th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 6,
+    
     
     
     
@@ -15928,9 +16428,11 @@ You may give a Gold token you control to another hero. If you do, put this on th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 5,
+    
     
     
     
@@ -15985,9 +16487,11 @@ You may give a Gold token you control to another hero. If you do, put this on th
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -16044,9 +16548,11 @@ If this was played from arsenal, it gets **go again**.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -16103,9 +16609,11 @@ If this was played from arsenal, it gets **go again**.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 2,
+    
     
     
     
@@ -16162,9 +16670,11 @@ If this was played from arsenal, it gets **go again**.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -16221,6 +16731,8 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     
     
     metatypes: [Metatype.HighSeas],
+  
+    
     
     
     
@@ -16280,9 +16792,11 @@ When this hits a hero, steal an item they control.`,
     
     
     meta: [Meta.Expansion],
+  
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -16338,6 +16852,8 @@ When this hits a hero, steal an item they control.`,
     keywords: [Keyword.Battleworn],
     
     
+    
+  
     
     
     
@@ -16410,9 +16926,11 @@ When this hits a hero, steal an item they control.`,
     
     life: 7,
     
+  
     
     pitch: 2,
     power: 11,
+    
     
     
     
@@ -16467,9 +16985,11 @@ When this hits a hero, steal an item they control.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 1,
     power: 7,
+    
     
     
     
@@ -16524,9 +17044,11 @@ When this hits a hero, steal an item they control.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -16581,9 +17103,11 @@ When this hits a hero, steal an item they control.`,
     
     
     meta: [Meta.Rainbow],
+  
     
     pitch: 3,
     power: 5,
+    
     
     
     
@@ -16639,6 +17163,8 @@ When this hits a hero, steal an item they control.`,
     keywords: [Keyword.BladeBreak],
     
     
+    
+  
     
     
     
@@ -16697,9 +17223,11 @@ When this hits a hero, steal an item they control.`,
     
     
     
+  
     
     pitch: 3,
     power: 4,
+    
     
     
     
@@ -16756,8 +17284,10 @@ When this hits a hero, steal an item they control.`,
     
     
     
+  
     
     pitch: 3,
+    
     
     
     

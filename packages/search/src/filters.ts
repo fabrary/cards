@@ -12,11 +12,7 @@ import {
 } from "@flesh-and-blood/types";
 import { getAbbreviation } from "./abbreviations";
 import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters";
-import {
-  multiWordShorthands,
-  shorthands,
-  singleWordShorthands,
-} from "./shorthands";
+import { multiWordShorthands, singleWordShorthands } from "./shorthands";
 import { PUNCTUATION } from "./constants";
 import { getCardByName, getRelatedCardsByName } from ".";
 
@@ -26,7 +22,8 @@ export interface AppliedFilter {
   isAnd?: boolean;
   isOr?: boolean;
   modifier?: Modifier;
-  excluded?: boolean;
+  isExcluded?: boolean;
+  isOptional?: boolean;
   cardTypes?: string[];
 }
 
@@ -71,6 +68,8 @@ export type Filter =
   | "references"
   | "s"
   | "set"
+  | "shortand"
+  | "shortands"
   | "sp"
   | "specialization"
   | "specializations"
@@ -92,6 +91,9 @@ export const availableModifiers: Modifier[] = [">=", ">", "<=", "<"];
 export type Exclusion = "!" | "-";
 export const availableExclusions: Exclusion[] = ["!", "-"];
 
+export type Optional = "#";
+export const availableOptionals: Optional[] = ["#"];
+
 export interface FilterToPropertyMapping {
   nestedProperty?: string;
   property: string;
@@ -102,6 +104,7 @@ export interface FilterToPropertyMapping {
   isString?: boolean;
   isBoolean?: boolean;
   isMeta?: boolean;
+  optional?: Optional;
   modifier?: Modifier;
   partialMatch?: boolean;
   specialProperty?: string;
@@ -178,7 +181,7 @@ const intellectFilter: FilterToPropertyMapping = {
 const keywordFilter: FilterToPropertyMapping = {
   property: "keywords",
   isArray: true,
-  partialMatch: true,
+  // partialMatch: true,
 };
 
 const legalFilter: FilterToPropertyMapping = {
@@ -231,6 +234,13 @@ const setFilter: FilterToPropertyMapping = {
   property: "sets",
   isArray: true,
   partialMatch: true,
+};
+
+const shorthandsFilter: FilterToPropertyMapping = {
+  property: "shorthands",
+  isArray: true,
+  partialMatch: true,
+  optional: "#",
 };
 
 const specializationsFilter: FilterToPropertyMapping = {
@@ -330,6 +340,8 @@ export const filtersToCardPropertyMappings = {
   rf: bannedFilter,
   s: setFilter,
   set: setFilter,
+  short: shorthandsFilter,
+  shorthand: shorthandsFilter,
   sp: specializationsFilter,
   spec: specializationsFilter,
   specialization: specializationsFilter,
@@ -431,7 +443,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   specialConditions?: SpecialConditions;
 } => {
   let expandedText = text.trim().toLowerCase();
-  for (const { filters, shorthands } of multiWordShorthands) {
+  for (const { expanded: filters, shorthands } of multiWordShorthands) {
     for (const shorthand of shorthands) {
       if (expandedText.includes(shorthand)) {
         expandedText = expandedText.replace(shorthand, filters.join(" "));
@@ -454,7 +466,13 @@ export const getKeywordsAndAppliedFiltersFromText = (
       shorthands.includes(criteria)
     );
     if (expanded) {
-      searchCriteria.push(...expanded.filters);
+      if (expanded.isCardProperty) {
+        const firstShorthand =
+          expanded.shorthands.length > 0 ? expanded.shorthands[0] : "";
+        searchCriteria.push(`#shorthand:${firstShorthand}`);
+      } else {
+        searchCriteria.push(...expanded.expanded);
+      }
     } else {
       searchCriteria.push(criteria);
     }
@@ -476,8 +494,8 @@ export const getKeywordsAndAppliedFiltersFromText = (
 
       let { modifier, values, isAnd, isOr } =
         getFilterValuesAndModifier(unparsedFilterValue);
-      let { filterKey, excluded, isMeta } =
-        getFilterKeyAndExcluded(unparsedFilterKey);
+      let { filterKey, isExcluded, isOptional, isMeta } =
+        getFilterKeyAndExcludedOrOptional(unparsedFilterKey);
 
       if (isMeta) {
         if (["rarity", "r"].includes(filterKey)) {
@@ -507,7 +525,8 @@ export const getKeywordsAndAppliedFiltersFromText = (
         }
         appliedFilters.push(
           ...getMetaFilters(
-            excluded,
+            isExcluded,
+            isOptional,
             filterKey,
             values,
             modifier,
@@ -588,7 +607,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
           values = metaValues.map((v) =>
             v.toLowerCase().replaceAll(PUNCTUATION, "")
           );
-          if (metaValues.includes(Meta.Expansion) && !excluded) {
+          if (metaValues.includes(Meta.Expansion) && !isExcluded) {
             isExpansionSlot = true;
           }
         } else if (["foiling", "foil"].includes(filterKey)) {
@@ -615,7 +634,8 @@ export const getKeywordsAndAppliedFiltersFromText = (
             isAnd,
             isOr,
             modifier,
-            excluded,
+            isExcluded,
+            isOptional,
           });
         }
       }
@@ -871,21 +891,38 @@ const getFilterValuesAndModifier = (
   return { modifier, values, isAnd, isOr };
 };
 
-const getFilterKeyAndExcluded = (
+const getFilterKeyAndExcludedOrOptional = (
   unparsedFilterKey: string
 ): {
   filterKey: string;
-  excluded: boolean;
+  isExcluded: boolean;
   isMeta?: boolean;
+  isOptional: boolean;
 } => {
   const exclusion = getExclusion(unparsedFilterKey);
+  const optional = getOptional(unparsedFilterKey);
+
   if (exclusion) {
     const [, filterKey] = unparsedFilterKey.split(exclusion);
-    return { excluded: true, filterKey, isMeta: filterIsMeta(filterKey) };
+    return {
+      filterKey,
+      isExcluded: true,
+      isOptional: false,
+      isMeta: filterIsMeta(filterKey),
+    };
+  } else if (optional) {
+    const [, filterKey] = unparsedFilterKey.split(optional);
+    return {
+      filterKey,
+      isExcluded: false,
+      isMeta: filterIsMeta(filterKey),
+      isOptional: true,
+    };
   } else {
     return {
-      excluded: false,
       filterKey: unparsedFilterKey,
+      isExcluded: false,
+      isOptional: false,
       isMeta: filterIsMeta(unparsedFilterKey),
     };
   }
@@ -900,3 +937,7 @@ const getExclusion = (text: string): Exclusion =>
   availableExclusions
     .find((exclusion) => text.includes(exclusion))
     ?.slice(0, 1) as Exclusion;
+const getOptional = (text: string): Optional =>
+  availableOptionals
+    .find((optional) => text.includes(optional))
+    ?.slice(0, 1) as Optional;

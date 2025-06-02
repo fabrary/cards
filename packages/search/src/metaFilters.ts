@@ -12,10 +12,11 @@ interface AppliedFilter {
   filterToPropertyMapping: FilterToPropertyMapping;
   values: string[];
   isAnd?: boolean;
+  isExcluded?: boolean;
+  isOptional?: boolean;
   isOr?: boolean;
   isAdditional?: boolean;
   modifier?: Modifier;
-  excluded?: boolean;
   cardTypes?: string[];
 }
 interface FilterToPropertyMapping {
@@ -127,7 +128,8 @@ const rankedRarity = [
 const getRarityFilter = (
   values: string[],
   modifier: string,
-  excluded: boolean
+  isExcluded: boolean,
+  isOptional: boolean
 ): AppliedFilter => {
   const rarities: string[] = [];
   if (!modifier) {
@@ -189,15 +191,17 @@ const getRarityFilter = (
       property: "printings",
       isArray: true,
     },
+    isExcluded,
+    isOptional,
     isOr: true,
     values: rarities,
-    excluded,
   };
 };
 
 const getLegalFilters = (
   values: string[],
-  excluded: boolean,
+  isExcluded: boolean,
+  isOptional: boolean,
   additionalHeroes: Hero[]
 ) => {
   const cleanAdditionalHeroes = additionalHeroes.map((hero) => ({
@@ -238,7 +242,8 @@ const getLegalFilters = (
       filterToPropertyMapping: { property: "legalFormats", isArray: true },
       values: formats,
       isOr: true,
-      excluded,
+      isExcluded,
+      isOptional,
     });
   }
 
@@ -250,7 +255,8 @@ const getLegalFilters = (
       },
       values: heroes,
       isOr: true,
-      excluded,
+      isExcluded,
+      isOptional,
     });
   }
 
@@ -258,17 +264,21 @@ const getLegalFilters = (
 };
 
 export const getMetaFilters = (
-  excluded: boolean,
+  isExcluded: boolean,
+  isOptional: boolean,
   filterKey: string,
   values: string[],
   modifier: string,
   additionalHeroes: Hero[]
 ): AppliedFilter[] => {
   const filters: AppliedFilter[] = [];
+
   if (isLegalFilter(filterKey)) {
-    filters.push(...getLegalFilters(values, excluded, additionalHeroes));
+    filters.push(
+      ...getLegalFilters(values, isExcluded, isOptional, additionalHeroes)
+    );
   } else if (isRarityFilter(filterKey)) {
-    filters.push(getRarityFilter(values, modifier, excluded));
+    filters.push(getRarityFilter(values, modifier, isExcluded, isOptional));
   }
 
   return filters;
@@ -280,8 +290,8 @@ const noCost: AppliedFilter[] = [
       property: "cost",
       isNumber: true,
     },
+    isExcluded: true,
     values: oneToFifty,
-    excluded: true,
   },
   {
     filterToPropertyMapping: {
@@ -289,8 +299,8 @@ const noCost: AppliedFilter[] = [
       isString: true,
       partialMatch: true,
     },
+    isExcluded: true,
     values: ["*", "x"],
-    excluded: true,
   },
   {
     filterToPropertyMapping: {
@@ -298,8 +308,8 @@ const noCost: AppliedFilter[] = [
       isArray: true,
       partialMatch: true,
     },
+    isExcluded: true,
     values: ["equipment", "hero", "placeholder", "token", "weapon"],
-    excluded: true,
   },
 ];
 const noDefense: AppliedFilter[] = [
@@ -308,8 +318,8 @@ const noDefense: AppliedFilter[] = [
       property: "defense",
       isNumber: true,
     },
+    isExcluded: true,
     values: oneToFifty,
-    excluded: true,
   },
   {
     filterToPropertyMapping: {
@@ -317,8 +327,8 @@ const noDefense: AppliedFilter[] = [
       isString: true,
       partialMatch: true,
     },
+    isExcluded: true,
     values: ["*", "x"],
-    excluded: true,
   },
   {
     filterToPropertyMapping: {
@@ -326,8 +336,8 @@ const noDefense: AppliedFilter[] = [
       isArray: true,
       partialMatch: true,
     },
+    isExcluded: true,
     values: ["hero", "placeholder", "token", "weapon"],
-    excluded: true,
   },
 ];
 const noPitch: AppliedFilter[] = [
@@ -336,7 +346,7 @@ const noPitch: AppliedFilter[] = [
       property: "pitch",
       isNumber: true,
     },
-    excluded: true,
+    isExcluded: true,
     values: oneToFifty,
   },
   {
@@ -345,16 +355,16 @@ const noPitch: AppliedFilter[] = [
       isArray: true,
       partialMatch: true,
     },
+    isExcluded: true,
     values: ["equipment", "hero", "placeholder", "token", "weapon"],
-    excluded: true,
   },
   {
     filterToPropertyMapping: {
       property: "isCardBack",
       isBoolean: true,
     },
+    isExcluded: true,
     values: ["true"],
-    excluded: true,
   },
 ];
 const noPower: AppliedFilter[] = [
@@ -363,7 +373,7 @@ const noPower: AppliedFilter[] = [
       property: "power",
       isNumber: true,
     },
-    excluded: true,
+    isExcluded: true,
     values: oneToFifty,
   },
   {
@@ -372,8 +382,8 @@ const noPower: AppliedFilter[] = [
       isString: true,
       partialMatch: true,
     },
+    isExcluded: true,
     values: ["*", "x"],
-    excluded: true,
   },
   {
     filterToPropertyMapping: {
@@ -381,8 +391,8 @@ const noPower: AppliedFilter[] = [
       isArray: true,
       partialMatch: true,
     },
+    isExcluded: true,
     values: ["equipment", "hero", "placeholder", "token"],
-    excluded: true,
   },
 ];
 
@@ -392,7 +402,7 @@ const noTalents: AppliedFilter[] = [
       property: "talents",
       isArray: true,
     },
-    excluded: true,
+    isExcluded: true,
     values: Object.values(Talent).map((talent: string) => talent.toLowerCase()),
   },
 ];

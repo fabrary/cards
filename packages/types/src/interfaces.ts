@@ -17,7 +17,6 @@ export interface Card {
   types: Type[];
   typeText: string;
 
-  abbreviations?: string[];
   arcane?: number;
   bannedFormats?: Format[];
   bonds?: Bond[];
@@ -34,11 +33,13 @@ export interface Card {
   legalOverrides?: LegalOverride[];
   meta?: Meta[];
   metatypes?: Metatype[];
+  nicknames?: string[];
   oppositeSideCardIdentifier?: string;
   oppositeSideCardIdentifiers?: string[];
   pitch?: number;
   power?: number;
   restrictedFormats?: Format[];
+  shorthands?: string[];
   specialArcane?: string;
   specialCost?: string;
   specialDefense?: string;

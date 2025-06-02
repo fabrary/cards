@@ -30,6 +30,13 @@ const getEnumValues = (values: any, enumName: string, enm: any) => {
   return values.map((value: any) => getEnumValue(value, enumName, enm));
 };
 
+const getStringValues = (values: any) => {
+  if (!values || (values.length === 1 && !values[0])) {
+    return [];
+  }
+  return values.map((value: any) => `"${value}"`);
+};
+
 const getEnumValue = (value: any, enumName: string, enm: any) => {
   let enumValue;
   for (const [key, val] of Object.entries(enm)) {
@@ -186,6 +193,11 @@ const generateCardTypeScript = (card: Card): String => {
       ? `metatypes: [${getEnumValues(card.metatypes, "Metatype", Metatype)}],`
       : ``
   }
+  ${
+    card.nicknames && card.nicknames.length > 0
+      ? `nicknames: [${getStringValues(card.nicknames)}],`
+      : ``
+  }
     ${
       card.oppositeSideCardIdentifier
         ? `oppositeSideCardIdentifier: \`${card.oppositeSideCardIdentifier}\`,`
@@ -206,6 +218,11 @@ const generateCardTypeScript = (card: Card): String => {
             "Format",
             Format
           )}],`
+        : ``
+    }
+    ${
+      card.shorthands && card.shorthands.length > 0
+        ? `shorthands: [${getStringValues(card.shorthands)}],`
         : ``
     }
     ${card.specialArcane ? `specialArcane: "${card.specialArcane}",` : ``}

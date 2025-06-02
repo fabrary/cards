@@ -18,6 +18,8 @@ import {
 import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
 import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
 import { getLegalHeroes, getLegalOverrides } from "./Shared/legality";
+import { getShorthands } from "./Shared/get-shorthands";
+import { getNicknames } from "./Shared/get-nicknames";
 
 const outputDirectory = "src";
 
@@ -185,13 +187,14 @@ const cardsWithLegalHeroes = cardsWithLegalFormats.map((card) => {
   return { ...card, legalHeroes, legalOverrides };
 });
 
-// const cardsWithMetaValues = cardsWithLegalFormats.map((card) => {
-//   const meta = getMeta(card, cardsWithLegalFormats);
+const cardsWithAbbreviationsAndShorthands = cardsWithLegalHeroes.map((card) => {
+  const nicknames = getNicknames(card);
+  const shorthands = getShorthands(card);
 
-//   return { ...card, meta };
-// });
+  return { ...card, nicknames, shorthands };
+});
 
-writeFiles(cardsWithLegalHeroes, outputDirectory);
+writeFiles(cardsWithAbbreviationsAndShorthands, outputDirectory);
 
 const latestSet = releases
   .reverse()

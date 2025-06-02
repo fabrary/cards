@@ -1,48 +1,101 @@
+import { Class, Keyword, Subtype, Type } from "@flesh-and-blood/types";
+
 export const shorthands: {
   description: string;
-  filters: string[];
+  expanded: string[];
+  filters: {
+    defenseGreaterThanOrEqualTo?: number;
+    functionalText?: string;
+    keywords?: Keyword[];
+    notClass?: Class[];
+    powerGreaterThanOrEqualTo?: number;
+    subtypes?: Subtype[];
+    types?: Type[];
+  };
   helper?: string;
+  isCardProperty: boolean;
   shorthands: string[];
 }[] = [
   {
     description: "Attack actions",
-    filters: ["st:attack"],
+    expanded: ["st:attack"],
+    filters: {
+      subtypes: [Subtype.Attack],
+    },
+    isCardProperty: false,
     shorthands: ["AA"],
   },
   {
     description: "Arcane barrier",
-    filters: ['k:"arcane barrier"'],
+    expanded: ['k:"arcane barrier"'],
+    filters: {
+      keywords: [Keyword.ArcaneBarrier],
+    },
+    isCardProperty: false,
     shorthands: ["AB"],
   },
   {
     description: "Attack reactions",
-    filters: ['t:"attack reaction"'],
+    expanded: ['t:"attack reaction"'],
+    filters: {
+      types: [Type.AttackReaction],
+    },
+    isCardProperty: false,
     shorthands: ["AR"],
   },
   {
     description: "Defense reactions",
-    filters: ['t:"defense reaction"'],
+    expanded: ['t:"defense reaction"'],
+    filters: {
+      types: [Type.DefenseReaction],
+    },
+    isCardProperty: false,
     shorthands: ["DR"],
   },
   {
     description: "Flick daggers",
-    filters: ["dagger you control deal 1 damage"],
+    expanded: ["dagger you control deal 1 damage"],
+    filters: {
+      functionalText: "dagger you control deal 1 damage",
+    },
+    isCardProperty: true,
     shorthands: ["Flick", "Hurl", "Throw"],
   },
   {
     description: "Gain life",
-    filters: ["gain {h}"],
+    expanded: ["gain {h}"],
+    filters: {
+      functionalText: "gain {h}",
+    },
+    isCardProperty: false,
     shorthands: ["Gain life", "Gains life"],
   },
-  { description: "Go again", filters: ['k:"go again"'], shorthands: ["GA"] },
+  {
+    description: "Go again",
+    expanded: ['k:"go again"'],
+    filters: {
+      keywords: [Keyword.GoAgain],
+    },
+    isCardProperty: false,
+    shorthands: ["GA"],
+  },
   {
     description: "Non-attack actions",
-    filters: ["t:action", "st:non-attack"],
+    expanded: ["t:action", "st:non-attack"],
+    filters: {
+      subtypes: [Subtype.NonAttack],
+      types: [Type.Action],
+    },
+    isCardProperty: false,
     shorthands: ["NAA"],
   },
   {
     description: "Plus defense",
-    filters: ["+ {d}"],
+    expanded: ["+ {d}"],
+    filters: {
+      functionalText: "+ {d}",
+    },
+    isCardProperty: false,
     shorthands: [
       "Pump defense",
       "Pumps defense",
@@ -52,7 +105,11 @@ export const shorthands: {
   },
   {
     description: "Plus power",
-    filters: ["+ {p}"],
+    expanded: ["+ {p}"],
+    filters: {
+      functionalText: "+ {p}",
+    },
+    isCardProperty: false,
     shorthands: [
       "Pumps",
       "Pump",
@@ -74,13 +131,36 @@ export const shorthands: {
   },
   {
     description: "Poppers",
-    filters: ["!c:illusionist", "st:attack", "pwr:>=6", "def:>=0"],
+    expanded: ["!c:illusionist", "st:attack", "pwr:>=6", "def:>=0"],
+    filters: {
+      defenseGreaterThanOrEqualTo: 0,
+      notClass: [Class.Illusionist],
+      powerGreaterThanOrEqualTo: 6,
+      subtypes: [Subtype.Attack],
+    },
+    isCardProperty: false,
     helper:
       '6+ power non-Illusionist attacks that can "pop" phantasm attacks when defending',
     shorthands: ["Poppers", "Popper"],
   },
-  { description: "Spellvoid", filters: ['k:"spellvoid"'], shorthands: ["SV"] },
-  { description: "Tap", filters: ["{t}"], shorthands: ["Tap"] },
+  {
+    description: "Spellvoid",
+    expanded: ['k:"spellvoid"'],
+    filters: {
+      keywords: [Keyword.Spellvoid],
+    },
+    isCardProperty: false,
+    shorthands: ["SV"],
+  },
+  {
+    description: "Tap",
+    expanded: ["{t}"],
+    filters: {
+      functionalText: "{t}",
+    },
+    isCardProperty: true,
+    shorthands: ["Tap"],
+  },
 ];
 
 export const multiWordShorthands = shorthands
