@@ -467,9 +467,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
     );
     if (expanded) {
       if (expanded.isCardProperty) {
-        const firstShorthand =
-          expanded.shorthands.length > 0 ? expanded.shorthands[0] : "";
-        searchCriteria.push(`#shorthand:${firstShorthand}`);
+        // Do nothing because it will be handled by the fuzzy search
       } else {
         searchCriteria.push(...expanded.expanded);
       }

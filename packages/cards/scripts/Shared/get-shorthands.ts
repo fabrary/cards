@@ -30,8 +30,9 @@ export const getShorthands = (card: Card): string[] | undefined => {
 
     if (filters.functionalText) {
       // TODO need to figure out regex match
-      const matches =
-        card.functionalText?.includes(filters.functionalText) || false;
+      const matches = filters.functionalText.some((functionalText) =>
+        card.functionalText?.includes(functionalText)
+      );
       if (matches) {
         matchesAtLeastOneFilter = true;
       }

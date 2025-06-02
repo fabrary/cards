@@ -68,6 +68,7 @@ class Search {
       keys: [
         { name: "name", weight: 10 },
         { name: "functionalText", weight: 6 },
+        { name: "shorthands", weight: 4 },
         { name: "setIdentifiers", weight: 2 },
         { name: "traits", weight: 4 },
         { name: "typeText", weight: 6 },

@@ -5,7 +5,7 @@ export const shorthands: {
   expanded: string[];
   filters: {
     defenseGreaterThanOrEqualTo?: number;
-    functionalText?: string;
+    functionalText?: string[];
     keywords?: Keyword[];
     notClass?: Class[];
     powerGreaterThanOrEqualTo?: number;
@@ -51,7 +51,11 @@ export const shorthands: {
     description: "Flick daggers",
     expanded: ["dagger you control deal 1 damage"],
     filters: {
-      functionalText: "dagger you control deal 1 damage",
+      functionalText: [
+        "dagger you control deal 1 damage",
+        "dagger you control deals 1 damage",
+        "dagger you control that isn't on the active chain link deals 1 damage",
+      ],
     },
     shorthands: ["Flick", "Hurl", "Throw"],
   },
@@ -143,7 +147,7 @@ export const shorthands: {
     description: "Tap",
     expanded: ["{t}"],
     filters: {
-      functionalText: "{t}",
+      functionalText: ["{t}"],
     },
     shorthands: ["Tap"],
   },

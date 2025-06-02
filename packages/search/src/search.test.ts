@@ -566,7 +566,7 @@ describe("Returns matching prints when release or foiling included", () => {
 describe("Shorthands property works", () => {
   const cardSearch = new Search(doubleSidedCards);
 
-  it("Tap", () => {
+  it("Tap: leg tap", () => {
     const { searchResults } = cardSearch.search("tap");
     expect(searchResults).toBeTruthy();
 
@@ -574,6 +574,11 @@ describe("Shorthands property works", () => {
       ({ cardIdentifier }) => cardIdentifier === "leg-tap-red"
     );
     expect(legTap).toBeTruthy();
+  });
+
+  it("Tap: spitfire", () => {
+    const { searchResults } = cardSearch.search("tap");
+    expect(searchResults).toBeTruthy();
 
     const spitfire = searchResults.find(
       ({ cardIdentifier }) => cardIdentifier === "spitfire"
@@ -581,7 +586,7 @@ describe("Shorthands property works", () => {
     expect(spitfire).toBeTruthy();
   });
 
-  it("Leg tap", () => {
+  it("Leg Tap", () => {
     const { searchResults } = cardSearch.search("leg tap");
     expect(searchResults).toBeTruthy();
 
@@ -596,15 +601,50 @@ describe("Shorthands property works", () => {
     expect(spitfire).toBeFalsy();
   });
 
-  it("Throw", () => {
-    const { searchResults } = cardSearch.search("throw");
+  it("Throw: throw caution to the wind", () => {
+    const { searchResults, appliedFilters, keywords } =
+      cardSearch.search("throw");
     expect(searchResults).toBeTruthy();
+
+    console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
 
     const throwCaution = searchResults.find(
       ({ cardIdentifier }) =>
         cardIdentifier === "throw-caution-to-the-wind-blue"
     );
     expect(throwCaution).toBeTruthy();
+  });
+
+  it("Throw: flick knives", () => {
+    const { searchResults, appliedFilters, keywords } =
+      cardSearch.search("throw");
+    expect(searchResults).toBeTruthy();
+
+    console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+
+    const flickKnives = searchResults.find(
+      ({ cardIdentifier }) => cardIdentifier === "flick-knives"
+    );
+    expect(flickKnives).toBeTruthy();
+  });
+
+  it("Flick: flicker wisp", () => {
+    const { searchResults } = cardSearch.search("flick");
+    expect(searchResults).toBeTruthy();
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+
+    const flickerWisp = searchResults.find(
+      ({ cardIdentifier }) => cardIdentifier === "flicker-wisp-yellow"
+    );
+    expect(flickerWisp).toBeTruthy();
+  });
+
+  it("Flick: flick knives", () => {
+    const { searchResults } = cardSearch.search("flick");
+    expect(searchResults).toBeTruthy();
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
 
     const flickKnives = searchResults.find(
       ({ cardIdentifier }) => cardIdentifier === "flick-knives"
