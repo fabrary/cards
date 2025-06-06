@@ -68,8 +68,8 @@ export type Filter =
   | "references"
   | "s"
   | "set"
-  | "shortand"
-  | "shortands"
+  // | "shortand"
+  // | "shortands"
   | "sp"
   | "specialization"
   | "specializations"
@@ -91,8 +91,8 @@ export const availableModifiers: Modifier[] = [">=", ">", "<=", "<"];
 export type Exclusion = "!" | "-";
 export const availableExclusions: Exclusion[] = ["!", "-"];
 
-export type Optional = "#";
-export const availableOptionals: Optional[] = ["#"];
+// export type Optional = "#";
+// export const availableOptionals: Optional[] = ["#"];
 
 export interface FilterToPropertyMapping {
   nestedProperty?: string;
@@ -104,7 +104,7 @@ export interface FilterToPropertyMapping {
   isString?: boolean;
   isBoolean?: boolean;
   isMeta?: boolean;
-  optional?: Optional;
+  // optional?: Optional;
   modifier?: Modifier;
   partialMatch?: boolean;
   specialProperty?: string;
@@ -236,12 +236,12 @@ const setFilter: FilterToPropertyMapping = {
   partialMatch: true,
 };
 
-const shorthandsFilter: FilterToPropertyMapping = {
-  property: "shorthands",
-  isArray: true,
-  partialMatch: true,
-  optional: "#",
-};
+// const shorthandsFilter: FilterToPropertyMapping = {
+//   property: "shorthands",
+//   isArray: true,
+//   partialMatch: true,
+//   optional: "#",
+// };
 
 const specializationsFilter: FilterToPropertyMapping = {
   property: "specializations",
@@ -340,8 +340,8 @@ export const filtersToCardPropertyMappings = {
   rf: bannedFilter,
   s: setFilter,
   set: setFilter,
-  short: shorthandsFilter,
-  shorthand: shorthandsFilter,
+  // short: shorthandsFilter,
+  // shorthand: shorthandsFilter,
   sp: specializationsFilter,
   spec: specializationsFilter,
   specialization: specializationsFilter,
@@ -443,6 +443,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   specialConditions?: SpecialConditions;
 } => {
   let expandedText = text.trim().toLowerCase();
+
   for (const { expanded: filters, shorthands } of multiWordShorthands) {
     for (const shorthand of shorthands) {
       if (expandedText.includes(shorthand)) {
@@ -451,6 +452,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
       }
     }
   }
+
   for (const [set, setIdentifiers] of Object.entries(
     setToSetIdentifierMappings
   )) {
@@ -458,6 +460,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
       expandedText = expandedText.replace(set.toLowerCase(), setIdentifiers[0]);
     }
   }
+
   const rawSearchCriteria = getSearchCriteria(expandedText);
 
   const searchCriteria: string[] = [];
@@ -465,12 +468,9 @@ export const getKeywordsAndAppliedFiltersFromText = (
     const expanded = singleWordShorthands.find(({ shorthands }) =>
       shorthands.includes(criteria)
     );
-    if (expanded) {
-      if (expanded.isCardProperty) {
-        // Do nothing because it will be handled by the fuzzy search
-      } else {
-        searchCriteria.push(...expanded.expanded);
-      }
+    if (expanded && !expanded.isCardProperty) {
+      // Don't do anything special if it's a card property because it will be handled by the fuzzy search
+      searchCriteria.push(...expanded.expanded);
     } else {
       searchCriteria.push(criteria);
     }
@@ -649,6 +649,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
       }
     }
   }
+
   return {
     appliedFilters,
     attributes: {
@@ -898,7 +899,7 @@ const getFilterKeyAndExcludedOrOptional = (
   isOptional: boolean;
 } => {
   const exclusion = getExclusion(unparsedFilterKey);
-  const optional = getOptional(unparsedFilterKey);
+  // const optional = getOptional(unparsedFilterKey);
 
   if (exclusion) {
     const [, filterKey] = unparsedFilterKey.split(exclusion);
@@ -908,14 +909,14 @@ const getFilterKeyAndExcludedOrOptional = (
       isOptional: false,
       isMeta: filterIsMeta(filterKey),
     };
-  } else if (optional) {
-    const [, filterKey] = unparsedFilterKey.split(optional);
-    return {
-      filterKey,
-      isExcluded: false,
-      isMeta: filterIsMeta(filterKey),
-      isOptional: true,
-    };
+    // } else if (optional) {
+    //   const [, filterKey] = unparsedFilterKey.split(optional);
+    //   return {
+    //     filterKey,
+    //     isExcluded: false,
+    //     isMeta: filterIsMeta(filterKey),
+    //     isOptional: true,
+    //   };
   } else {
     return {
       filterKey: unparsedFilterKey,
@@ -935,7 +936,7 @@ const getExclusion = (text: string): Exclusion =>
   availableExclusions
     .find((exclusion) => text.includes(exclusion))
     ?.slice(0, 1) as Exclusion;
-const getOptional = (text: string): Optional =>
-  availableOptionals
-    .find((optional) => text.includes(optional))
-    ?.slice(0, 1) as Optional;
+// const getOptional = (text: string): Optional =>
+//   availableOptionals
+//     .find((optional) => text.includes(optional))
+//     ?.slice(0, 1) as Optional;

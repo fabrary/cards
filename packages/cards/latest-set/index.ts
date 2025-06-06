@@ -7774,7 +7774,7 @@ When this hits a hero, steal an item they control until the end of this action p
     
     
     
-    
+    keywords: [Keyword.Steal],
     
     
     
@@ -7835,7 +7835,7 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     
-    
+    keywords: [Keyword.Steal],
     
     
     
@@ -12536,12 +12536,12 @@ The second time you crank each turn, draw a card.`,
     name: "Riches of Trōpal-Dhani",
     printings: [{
         artists: ["Tanapon Wachirakul"],
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "SEA000",
       image: "SEA000",
       
       
-      print: "SEA000-Cold",
+      print: "SEA000-Rainbow",
       rarity: Rarity.Fabled,
       set: Release.HighSeas,
       
@@ -16788,7 +16788,7 @@ When this hits a hero, steal an item they control.`,
     
     
     
-    keywords: [Keyword.Stealth],
+    keywords: [Keyword.Steal,Keyword.Stealth],
     
     
     meta: [Meta.Expansion],
