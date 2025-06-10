@@ -39,7 +39,10 @@
       print: "SEA189",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633325",
+            url: "https://www.tcgplayer.com/product/633325?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -6536,7 +6539,10 @@ You may {u} a bow you control.
       print: "SEA208",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634594",
+            url: "https://www.tcgplayer.com/product/634594?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["SanSan"],
@@ -15398,7 +15404,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA077",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633713",
+            url: "https://www.tcgplayer.com/product/633713?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -15410,7 +15419,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA077-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "636352",
+            url: "https://www.tcgplayer.com/product/636352?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
