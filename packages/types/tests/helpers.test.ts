@@ -69,7 +69,9 @@ describe("Card identifiers", () => {
 });
 
 describe("Card types", () => {
-  const types = Object.values(Type).filter((type) => type !== Type.Hero);
+  const types = Object.values(Type).filter(
+    (type) => type !== Type.Hero && type !== Type.PitFighter
+  );
 
   it.each(types)("%s is an arena or deck card", (type) => {
     const isArenaCard = getIsArenaCard({ types: [type] });

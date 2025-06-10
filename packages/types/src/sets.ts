@@ -23,6 +23,7 @@ const ALL_LANGUAGES = [Language.English, Language.French, Language.Japanese];
 export enum ReleaseType {
   ArmoryDeck = "Armory Deck",
   BlitzDeck = "Blitz Deck",
+  BoxSet = "Box Set",
   ClassicBattles = "Classic Battles",
   ExpansionBooster = "Expansion Booster",
   FirstStrike = "1st Strike",
@@ -1483,6 +1484,37 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["bdd"],
     talents: [],
   },
+
+  {
+    cards: 107,
+    classes: [Class.Guardian],
+    deckLinks: [
+      // {
+      //   name: "Brevant",
+      //   url: "https://fabrary.net/decks/01HAXKPFH7ZHPDEJZH967VNRW6",
+      // },
+      // {
+      //   name: "Ira",
+      //   url: "https://fabrary.net/decks/01HAXKZMTRN4FR7CFTQA11A70N",
+      // },
+      // {
+      //   name: "Melody",
+      //   url: "https://fabrary.net/decks/01HAXKSFPXGCEH99PDZJ32V4N9",
+      // },
+      // {
+      //   name: "Teklovossen",
+      //   url: "https://fabrary.net/decks/01HAXKZMTRN4FR7CFTQA11A70N",
+      // },
+    ],
+    heroes: [Hero.Bravo],
+    languages: [Language.English],
+    release: Release.SmashPalace,
+    relatedReleases: [],
+    releaseDate: "2025-09-29 12:00",
+    releaseType: ReleaseType.BoxSet,
+    talents: [],
+    setIdentifiers: ["smp"],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1566,6 +1598,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
 
   // Other decks
   tcc: Release.RoundTheTable,
+  smp: Release.SmashPalace,
 
   // Hero decks
   bvo: Release.BravoHeroDeck,

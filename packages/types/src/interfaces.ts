@@ -193,8 +193,10 @@ export enum Release {
   ArmoryDeckKayo = "Armory Deck: Kayo",
   ArmoryDeckMaxx = "Armory Deck: Maxx",
 
+  // Armory deck origins
   ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
 
+  // Armory deck legends
   ArmoryDeckLegendsPrism = "Armory Deck Legends: Prism",
   ArmoryDeckLegendsViserai = "Armory Deck Legends: Viserai",
 
@@ -245,6 +247,7 @@ export enum Release {
   MasteryPackGuardian = "Mastery Pack: Guardian",
   IraWelcomeDeck = "Ira Welcome Deck",
   RoundTheTable = "Round the Table: TCC x LSS",
+  SmashPalace = "Smash Palace",
 
   // One-offs
   GEM = "GEM",
@@ -295,6 +298,7 @@ export enum Type {
   Instant = "Instant",
   Macro = "Macro",
   Mentor = "Mentor",
+  PitFighter = "Pit-Fighter",
   Resource = "Resource",
   Token = "Token",
   Weapon = "Weapon",
@@ -363,6 +367,7 @@ export enum Hero {
   Benji = "Benji",
   Betsy = "Betsy",
   Blaze = "Blaze",
+  Bolfar = "Bolfar",
   Boltyn = "Boltyn",
   Bravo = "Bravo",
   Brevant = "Brevant",
@@ -371,6 +376,7 @@ export enum Hero {
   Chane = "Chane",
   Cindra = "Cindra",
   Crackni = "Crackni",
+  Crix = "Crix",
   Dash = "Dash",
   DataDoll = "Data Doll",
   Dorinthea = "Dorinthea",
@@ -390,6 +396,7 @@ export enum Hero {
   Katsu = "Katsu",
   Kavdaen = "Kavdaen",
   Kayo = "Kayo",
+  Kox = "Kox",
   Levia = "Levia",
   Lexi = "Lexi",
   Marlynn = "Marlynn",
@@ -401,6 +408,7 @@ export enum Hero {
   Oscilio = "Oscilio",
   Prism = "Prism",
   Puffin = "Puffin",
+  Reya = "Reya",
   Rhinar = "Rhinar",
   Riptide = "Riptide",
   Ruudi = "Ruu'di",

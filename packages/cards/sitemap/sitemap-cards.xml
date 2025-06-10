@@ -2061,6 +2061,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bolfar-bear-hands</loc>
+    <lastmod>2025-06-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bolt-of-courage-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6166,6 +6171,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fightmaster-kox</loc>
+    <lastmod>2025-06-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/figment-of-erudition-yellow</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -7171,8 +7181,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/goldfin-harpoon</loc>
-    <lastmod>2025-04-11</lastmod>
+    <loc>https://fabrary.net/cards/goldfin-harpoon-yellow</loc>
+    <lastmod>2025-06-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -7353,6 +7363,11 @@
   <url>
     <loc>https://fabrary.net/cards/grinding-gears-blue</loc>
     <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/groundbreaker-crix</loc>
+    <lastmod>2025-06-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -13071,6 +13086,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/reya-the-unyielding</loc>
+    <lastmod>2025-06-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/rhinar</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -18263,6 +18283,11 @@
   <url>
     <loc>https://fabrary.net/cards/victor-goldmane-high-and-mighty</loc>
     <lastmod>2024-01-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/victor-goldmane-match-fixer</loc>
+    <lastmod>2025-06-10</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

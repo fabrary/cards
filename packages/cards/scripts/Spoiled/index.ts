@@ -7,7 +7,7 @@ import { combineAndAddMissingFields } from "../Shared/combined-and-missing-field
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
-const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - AGB.csv`;
+// const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - AGB.csv`;
 const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - AMX.csv`;
 const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - APR.csv`;
 const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASR.csv`;
@@ -16,7 +16,7 @@ const spoiledSetCardsFile6 = `${__dirname}/Flesh and Blood Spoiler Card Data - A
 const spoiledSetCardsFile7 = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
 const spoiledSetCardsFile8 = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
-const spoiledSetCardsFile9 = `${__dirname}/Flesh and Blood Spoiler Card Data - SEA.csv`;
+// const spoiledSetCardsFile9 = `${__dirname}/Flesh and Blood Spoiler Card Data - SEA.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
@@ -25,7 +25,7 @@ const parsedOverrideCards = parseCSV(overrideCardsFile)
 const overrideCards = mapCSV(parsedOverrideCards);
 
 const parsedSpoiledSetCards: ParsedCard[] = [
-  ...parseCSV(spoiledSetCardsFile1),
+  // ...parseCSV(spoiledSetCardsFile1),
   ...parseCSV(spoiledSetCardsFile2),
   ...parseCSV(spoiledSetCardsFile3),
   ...parseCSV(spoiledSetCardsFile4),
@@ -33,7 +33,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFile6),
   ...parseCSV(spoiledSetCardsFile7),
   ...parseCSV(spoiledSetCardsFile8),
-  ...parseCSV(spoiledSetCardsFile9),
+  // ...parseCSV(spoiledSetCardsFile9),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)

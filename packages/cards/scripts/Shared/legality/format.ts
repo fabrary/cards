@@ -111,6 +111,14 @@ export const getLegalFormats = (
       }
     }
 
+    const isPitFightFormat = format === Format.UltimatePitFight;
+    if (isPitFightFormat) {
+      const isPitFighter = types.includes(Type.PitFighter);
+      if (isPitFighter) {
+        isLegalPerFormat = true;
+      }
+    }
+
     const isProjectBlueFormat = format === Format.ProjectBlue;
     if (isProjectBlueFormat) {
       const isBanned = projectBlueBannedCards.includes(card.name);

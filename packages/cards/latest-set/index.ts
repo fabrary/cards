@@ -27,7 +27,7 @@
     classes: [Class.Generic],
     defaultImage: "SEA189",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Amethyst Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -112,7 +112,25 @@
       print: "SEA062",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633236",
+            url: "https://www.tcgplayer.com/product/633236?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marcus Reyno"],
+      foiling: Foiling.R,
+      identifier: "SEA062",
+      image: "SEA062",
+      
+      
+      print: "SEA062-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633236",
+            url: "https://www.tcgplayer.com/product/633236?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -171,7 +189,25 @@
       print: "SEA063",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633237",
+            url: "https://www.tcgplayer.com/product/633237?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marcus Reyno"],
+      foiling: Foiling.R,
+      identifier: "SEA063",
+      image: "SEA063",
+      
+      
+      print: "SEA063-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633237",
+            url: "https://www.tcgplayer.com/product/633237?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -230,7 +266,25 @@
       print: "SEA064",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633238",
+            url: "https://www.tcgplayer.com/product/633238?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marcus Reyno"],
+      foiling: Foiling.R,
+      identifier: "SEA064",
+      image: "SEA064",
+      
+      
+      print: "SEA064-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633238",
+            url: "https://www.tcgplayer.com/product/633238?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -289,7 +343,10 @@
       print: "SEA262-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633380",
+            url: "https://www.tcgplayer.com/product/633380?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -340,7 +397,7 @@
     classes: [Class.Generic],
     defaultImage: "SEA261",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Arcane Compliance",
     printings: [{
         artists: ["Daniel Correia"],
@@ -352,7 +409,25 @@
       print: "SEA261",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633379",
+            url: "https://www.tcgplayer.com/product/633379?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Correia"],
+      foiling: Foiling.R,
+      identifier: "SEA261",
+      image: "SEA261",
+      isExpansionSlot: true,
+      
+      print: "SEA261-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633379",
+            url: "https://www.tcgplayer.com/product/633379?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -411,7 +486,25 @@
       print: "SEA056",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633233",
+            url: "https://www.tcgplayer.com/product/633233?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.R,
+      identifier: "SEA056",
+      image: "SEA056",
+      
+      
+      print: "SEA056-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633233",
+            url: "https://www.tcgplayer.com/product/633233?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -428,7 +521,7 @@
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next Pirate ally attack this turn gets go again and "When this hits a hero, create a Gold token."
+    functionalText: `Your next Pirate ally attack this turn gets **go again** and "When this hits a hero, create a Gold token."
 
 **Go again**`,
     
@@ -470,6 +563,18 @@
       isExpansionSlot: true,
       
       print: "SEA250",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      
+      
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.R,
+      identifier: "SEA250",
+      image: "SEA250",
+      isExpansionSlot: true,
+      
+      print: "SEA250-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       
@@ -521,7 +626,7 @@
     classes: [Class.Generic],
     defaultImage: "SEA179",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Bandana of the Blue Beyond",
     printings: [{
         artists: ["Asur Misoa"],
@@ -533,7 +638,40 @@
       print: "SEA179",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633316",
+            url: "https://www.tcgplayer.com/product/633316?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.R,
+      identifier: "SEA179",
+      image: "SEA179",
+      
+      
+      print: "SEA179-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633316",
+            url: "https://www.tcgplayer.com/product/633316?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.C,
+      identifier: "SEA179",
+      image: "SEA179",
+      
+      
+      print: "SEA179-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633316",
+            url: "https://www.tcgplayer.com/product/633316?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -592,7 +730,25 @@
       print: "SEA098",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632649",
+            url: "https://www.tcgplayer.com/product/632649?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kelvin Jauwri"],
+      foiling: Foiling.R,
+      identifier: "SEA098",
+      image: "SEA098",
+      
+      
+      print: "SEA098-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632649",
+            url: "https://www.tcgplayer.com/product/632649?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -643,18 +799,6 @@
     name: "Barnacle",
     printings: [{
         artists: ["Ausonia"],
-      foiling: Foiling.C,
-      identifier: "SEA074",
-      image: "SEA074_V2",
-      
-      
-      print: "SEA074-Cold-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.HighSeas,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Ausonia"],
       
       identifier: "SEA074",
       image: "SEA074",
@@ -663,13 +807,31 @@
       print: "SEA074",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631982",
+            url: "https://www.tcgplayer.com/product/631982?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Ausonia"],
+      foiling: Foiling.C,
+      identifier: "SEA074",
+      image: "SEA074_V2",
       
       
+      print: "SEA074-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631983",
+            url: "https://www.tcgplayer.com/product/631983?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AGB015","SEA074"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB015","LGS401","SEA074"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
     specialImage: "SEA074_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -680,7 +842,7 @@
     cost: 2,
     
     
-    functionalText: `**Action** - {t}: Attack
+    functionalText: `**Action** - {t}: **Attack**
 
 **Watery Grave**`,
     
@@ -724,7 +886,25 @@
       print: "SEA152",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633293",
+            url: "https://www.tcgplayer.com/product/633293?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.R,
+      identifier: "SEA152",
+      image: "SEA152",
+      
+      
+      print: "SEA152-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633293",
+            url: "https://www.tcgplayer.com/product/633293?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Arkoii"],
@@ -736,7 +916,10 @@
       print: "SEA152-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633293",
+            url: "https://www.tcgplayer.com/product/633293?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -795,7 +978,25 @@
       print: "SEA153",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633294",
+            url: "https://www.tcgplayer.com/product/633294?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.R,
+      identifier: "SEA153",
+      image: "SEA153",
+      
+      
+      print: "SEA153-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633294",
+            url: "https://www.tcgplayer.com/product/633294?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Arkoii"],
@@ -807,7 +1008,10 @@
       print: "SEA153-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633294",
+            url: "https://www.tcgplayer.com/product/633294?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -866,7 +1070,25 @@
       print: "SEA154",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633295",
+            url: "https://www.tcgplayer.com/product/633295?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.R,
+      identifier: "SEA154",
+      image: "SEA154",
+      
+      
+      print: "SEA154-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633295",
+            url: "https://www.tcgplayer.com/product/633295?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Arkoii"],
@@ -878,7 +1100,10 @@
       print: "SEA154-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633295",
+            url: "https://www.tcgplayer.com/product/633295?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -937,7 +1162,10 @@
       print: "SEA087",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624370",
+            url: "https://www.tcgplayer.com/product/624370?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Lius Lasahido"],
@@ -949,13 +1177,16 @@
       print: "SEA087-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624370",
+            url: "https://www.tcgplayer.com/product/624370?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["FAB345","SEA087"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["SEA087"],
+    sets: [Release.HighSeas],
     specialImage: "SEA087",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -1012,7 +1243,25 @@ Draw a card, then discard a card.
       print: "SEA047",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633232",
+            url: "https://www.tcgplayer.com/product/633232?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Olga Tereshenko"],
+      foiling: Foiling.R,
+      identifier: "SEA047",
+      image: "SEA047",
+      
+      
+      print: "SEA047-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633232",
+            url: "https://www.tcgplayer.com/product/633232?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -1059,7 +1308,7 @@ Draw a card, then discard a card.
     classes: [Class.Generic],
     defaultImage: "SEA216",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Blow for a Blow",
     printings: [{
         artists: ["Septimius Ferdian"],
@@ -1071,7 +1320,25 @@ Draw a card, then discard a card.
       print: "SEA216",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633344",
+            url: "https://www.tcgplayer.com/product/633344?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Septimius Ferdian"],
+      foiling: Foiling.R,
+      identifier: "SEA216",
+      image: "SEA216",
+      
+      
+      print: "SEA216-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633344",
+            url: "https://www.tcgplayer.com/product/633344?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1095,7 +1362,7 @@ When this hits, deal 1 damage to any target.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -1132,7 +1399,25 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA089",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632645",
+            url: "https://www.tcgplayer.com/product/632645?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.R,
+      identifier: "SEA089",
+      image: "SEA089",
+      
+      
+      print: "SEA089-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632645",
+            url: "https://www.tcgplayer.com/product/632645?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1191,7 +1476,10 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA126",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633274",
+            url: "https://www.tcgplayer.com/product/633274?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1252,7 +1540,10 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA053",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624366",
+            url: "https://www.tcgplayer.com/product/624366?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -1264,13 +1555,16 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA053-Rainbow",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624366",
+            url: "https://www.tcgplayer.com/product/624366?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Promo,Rarity.Rare],
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["FAB347","SEA053"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["SEA053"],
+    sets: [Release.HighSeas],
     specialImage: "SEA053",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -1323,7 +1617,10 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA127",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633275",
+            url: "https://www.tcgplayer.com/product/633275?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1384,7 +1681,25 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA065",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633239",
+            url: "https://www.tcgplayer.com/product/633239?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.R,
+      identifier: "SEA065",
+      image: "SEA065",
+      
+      
+      print: "SEA065-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633239",
+            url: "https://www.tcgplayer.com/product/633239?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1406,7 +1721,7 @@ When this hits, deal 1 damage to any target.`,
     
     
     
-    
+    keywords: [Keyword.Overpower],
     
     
     meta: [Meta.Rainbow],
@@ -1443,7 +1758,25 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA066",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633240",
+            url: "https://www.tcgplayer.com/product/633240?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.R,
+      identifier: "SEA066",
+      image: "SEA066",
+      
+      
+      print: "SEA066-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633240",
+            url: "https://www.tcgplayer.com/product/633240?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1465,7 +1798,7 @@ When this hits, deal 1 damage to any target.`,
     
     
     
-    
+    keywords: [Keyword.Overpower],
     
     
     meta: [Meta.Rainbow],
@@ -1502,7 +1835,25 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA067",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633241",
+            url: "https://www.tcgplayer.com/product/633241?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.R,
+      identifier: "SEA067",
+      image: "SEA067",
+      
+      
+      print: "SEA067-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633241",
+            url: "https://www.tcgplayer.com/product/633241?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1524,7 +1875,7 @@ When this hits, deal 1 damage to any target.`,
     
     
     
-    
+    keywords: [Keyword.Overpower],
     
     
     meta: [Meta.Rainbow],
@@ -1561,7 +1912,25 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA255",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631760",
+            url: "https://www.tcgplayer.com/product/631760?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "SEA255",
+      image: "SEA255",
+      isExpansionSlot: true,
+      
+      print: "SEA255-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631760",
+            url: "https://www.tcgplayer.com/product/631760?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -1573,7 +1942,7 @@ When this hits, deal 1 damage to any target.`,
     types: [Type.Action],
     typeText: "Wizard Action",
 
-    
+    arcane: 6,
     
     cost: 3,
     defense: 3,
@@ -1622,7 +1991,25 @@ When this hits, deal 1 damage to any target.`,
       print: "SEA120",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633270",
+            url: "https://www.tcgplayer.com/product/633270?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "SEA120",
+      image: "SEA120",
+      
+      
+      print: "SEA120-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633270",
+            url: "https://www.tcgplayer.com/product/633270?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1685,7 +2072,25 @@ You may put an arrow from your hand face-up into your arsenal.
       print: "SEA121",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633271",
+            url: "https://www.tcgplayer.com/product/633271?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "SEA121",
+      image: "SEA121",
+      
+      
+      print: "SEA121-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633271",
+            url: "https://www.tcgplayer.com/product/633271?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1748,7 +2153,25 @@ You may put an arrow from your hand face-up into your arsenal.
       print: "SEA122",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633272",
+            url: "https://www.tcgplayer.com/product/633272?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "SEA122",
+      image: "SEA122",
+      
+      
+      print: "SEA122-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633272",
+            url: "https://www.tcgplayer.com/product/633272?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1799,7 +2222,7 @@ You may put an arrow from your hand face-up into your arsenal.
     classes: [Class.Generic],
     defaultImage: "SEA181",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Captain's Coat",
     printings: [{
         artists: ["Vito Febrianno"],
@@ -1811,7 +2234,25 @@ You may put an arrow from your hand face-up into your arsenal.
       print: "SEA181",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633318",
+            url: "https://www.tcgplayer.com/product/633318?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Vito Febrianno"],
+      foiling: Foiling.C,
+      identifier: "SEA181",
+      image: "SEA181",
+      
+      
+      print: "SEA181-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633318",
+            url: "https://www.tcgplayer.com/product/633318?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1870,7 +2311,25 @@ You may put an arrow from your hand face-up into your arsenal.
       print: "SEA173",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633310",
+            url: "https://www.tcgplayer.com/product/633310?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.R,
+      identifier: "SEA173",
+      image: "SEA173",
+      
+      
+      print: "SEA173-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633310",
+            url: "https://www.tcgplayer.com/product/633310?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Joseph Qiu"],
@@ -1882,7 +2341,10 @@ You may put an arrow from your hand face-up into your arsenal.
       print: "SEA173-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633310",
+            url: "https://www.tcgplayer.com/product/633310?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1945,7 +2407,25 @@ You may put a gold counter on Treasure Island.
       print: "SEA174",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633311",
+            url: "https://www.tcgplayer.com/product/633311?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.R,
+      identifier: "SEA174",
+      image: "SEA174",
+      
+      
+      print: "SEA174-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633311",
+            url: "https://www.tcgplayer.com/product/633311?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Joseph Qiu"],
@@ -1957,7 +2437,10 @@ You may put a gold counter on Treasure Island.
       print: "SEA174-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633311",
+            url: "https://www.tcgplayer.com/product/633311?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2020,7 +2503,25 @@ You may put a gold counter on Treasure Island.
       print: "SEA175",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633312",
+            url: "https://www.tcgplayer.com/product/633312?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.R,
+      identifier: "SEA175",
+      image: "SEA175",
+      
+      
+      print: "SEA175-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633312",
+            url: "https://www.tcgplayer.com/product/633312?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Joseph Qiu"],
@@ -2032,7 +2533,10 @@ You may put a gold counter on Treasure Island.
       print: "SEA175-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633312",
+            url: "https://www.tcgplayer.com/product/633312?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2095,7 +2599,10 @@ You may put a gold counter on Treasure Island.
       print: "SEA048",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624364",
+            url: "https://www.tcgplayer.com/product/624364?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -2107,13 +2614,16 @@ You may put a gold counter on Treasure Island.
       print: "SEA048-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624364",
+            url: "https://www.tcgplayer.com/product/624364?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["FAB344","SEA048"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["SEA048"],
+    sets: [Release.HighSeas],
     specialImage: "SEA048",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -2162,18 +2672,6 @@ Create a Gold token for each yellow card put into your graveyard this way.
     name: "Chowder, Hearty Cook",
     printings: [{
         artists: ["Simon Dominic"],
-      foiling: Foiling.C,
-      identifier: "SEA075",
-      image: "SEA075_V2",
-      
-      
-      print: "SEA075-Cold-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.HighSeas,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Simon Dominic"],
       
       identifier: "SEA075",
       image: "SEA075",
@@ -2182,13 +2680,31 @@ Create a Gold token for each yellow card put into your graveyard this way.
       print: "SEA075",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631887",
+            url: "https://www.tcgplayer.com/product/631887?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.C,
+      identifier: "SEA075",
+      image: "SEA075_V2",
       
       
+      print: "SEA075-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631888",
+            url: "https://www.tcgplayer.com/product/631888?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA075"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS402","SEA075"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA075_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -2199,7 +2715,7 @@ Create a Gold token for each yellow card put into your graveyard this way.
     cost: 3,
     
     
-    functionalText: `**Action** - {t}: Attack
+    functionalText: `**Action** - {t}: **Attack**
 
 **Instant** - {t}: Gain 1{h}
 
@@ -2245,7 +2761,10 @@ Create a Gold token for each yellow card put into your graveyard this way.
       print: "SEA050",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624365",
+            url: "https://www.tcgplayer.com/product/624365?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Lius Lasahido"],
@@ -2274,7 +2793,7 @@ Create a Gold token for each yellow card put into your graveyard this way.
     cost: 4,
     
     
-    functionalText: `**Action** - {t}: Attack
+    functionalText: `**Action** - {t}: **Attack**
 
 **Instant** - {t}, discard a card with watery grave: Until end of turn, opponents must choose this as the target of attacks if able.
 
@@ -2308,7 +2827,7 @@ Create a Gold token for each yellow card put into your graveyard this way.
     classes: [Class.Generic],
     defaultImage: "SEA209",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Clap 'Em in Irons",
     printings: [{
         artists: ["Nikolay Moskvin"],
@@ -2320,7 +2839,25 @@ Create a Gold token for each yellow card put into your graveyard this way.
       print: "SEA209",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633341",
+            url: "https://www.tcgplayer.com/product/633341?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "SEA209",
+      image: "SEA209",
+      
+      
+      print: "SEA209-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633341",
+            url: "https://www.tcgplayer.com/product/633341?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2383,7 +2920,10 @@ At the start of your turn, destroy this.`,
       print: "SEA257",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633376",
+            url: "https://www.tcgplayer.com/product/633376?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -2400,7 +2940,7 @@ At the start of your turn, destroy this.`,
     
     
     
-    functionalText: `**Once per Turn Action** - {r}: Attack
+    functionalText: `**Once per Turn Action** - {r}: **Attack**
 
 **Spellvoid 1**`,
     
@@ -2444,7 +2984,25 @@ At the start of your turn, destroy this.`,
       print: "SEA015",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632642",
+            url: "https://www.tcgplayer.com/product/632642?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA015",
+      image: "SEA015",
+      
+      
+      print: "SEA015-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632642",
+            url: "https://www.tcgplayer.com/product/632642?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2505,7 +3063,25 @@ At the start of your turn, destroy this.`,
       print: "SEA016",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632643",
+            url: "https://www.tcgplayer.com/product/632643?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA016",
+      image: "SEA016",
+      
+      
+      print: "SEA016-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632643",
+            url: "https://www.tcgplayer.com/product/632643?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2566,7 +3142,25 @@ At the start of your turn, destroy this.`,
       print: "SEA017",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632644",
+            url: "https://www.tcgplayer.com/product/632644?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA017",
+      image: "SEA017",
+      
+      
+      print: "SEA017-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632644",
+            url: "https://www.tcgplayer.com/product/632644?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2627,7 +3221,25 @@ At the start of your turn, destroy this.`,
       print: "SEA024",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633219",
+            url: "https://www.tcgplayer.com/product/633219?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "SEA024",
+      image: "SEA024",
+      
+      
+      print: "SEA024-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633219",
+            url: "https://www.tcgplayer.com/product/633219?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2649,7 +3261,7 @@ At the start of your turn, destroy this.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -2686,7 +3298,25 @@ At the start of your turn, destroy this.`,
       print: "SEA025",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633220",
+            url: "https://www.tcgplayer.com/product/633220?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "SEA025",
+      image: "SEA025",
+      
+      
+      print: "SEA025-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633220",
+            url: "https://www.tcgplayer.com/product/633220?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2708,7 +3338,7 @@ At the start of your turn, destroy this.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -2745,7 +3375,25 @@ At the start of your turn, destroy this.`,
       print: "SEA026",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633221",
+            url: "https://www.tcgplayer.com/product/633221?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "SEA026",
+      image: "SEA026",
+      
+      
+      print: "SEA026-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633221",
+            url: "https://www.tcgplayer.com/product/633221?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2767,7 +3415,7 @@ At the start of your turn, destroy this.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -2804,7 +3452,25 @@ At the start of your turn, destroy this.`,
       print: "SEA248",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633369",
+            url: "https://www.tcgplayer.com/product/633369?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA248",
+      image: "SEA248",
+      isExpansionSlot: true,
+      
+      print: "SEA248-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633369",
+            url: "https://www.tcgplayer.com/product/633369?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary,Rarity.Majestic,Rarity.Marvel],
@@ -2821,7 +3487,8 @@ At the start of your turn, destroy this.`,
     cost: 0,
     defense: 2,
     
-    functionalText: `Each hero puts an attack action card from their graveyard face-down into their arsenal. Each hero that does, discards a card.
+    functionalText: `Each hero puts an attack action card from their graveyard face down into their arsenal. Each hero that does, discards a card.
+
 Create a Ponder token under your control and a Frailty token under each opponent's control.
 
 **Go again**`,
@@ -2866,7 +3533,25 @@ Create a Ponder token under your control and a Frailty token under each opponent
       print: "SEA013",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632067",
+            url: "https://www.tcgplayer.com/product/632067?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA013",
+      image: "SEA013",
+      
+      
+      print: "SEA013-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632067",
+            url: "https://www.tcgplayer.com/product/632067?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -2930,10 +3615,10 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA006"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS396","SEA006"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA006",
     subtypes: [Subtype.TwoHanded,Subtype.Gun],
     types: [Type.Weapon],
@@ -2944,7 +3629,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     
     
     
-    functionalText: `**Action** - {r}{r}, {t}: Attack
+    functionalText: `**Action** - {r}{r}, {t}: **Attack**
 
 **Instant** - {t} a cog you control: This card's next attack this turn gets go again.`,
     
@@ -2988,7 +3673,25 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       print: "SEA011",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632111",
+            url: "https://www.tcgplayer.com/product/632111?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.R,
+      identifier: "SEA011",
+      image: "SEA011",
+      
+      
+      print: "SEA011-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632111",
+            url: "https://www.tcgplayer.com/product/632111?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -3007,12 +3710,12 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     
     functionalText: `When this hits a hero, {u} all cogs you control.
 
-**Thrice per Turn Instant** - {t} a cog you control: This gets +1{p} or go again.`,
+**Thrice per Turn Instant** - {t} a cog you control: This gets +1{p} or **go again**.`,
     
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -3049,7 +3752,10 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       print: "SEA008-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633210",
+            url: "https://www.tcgplayer.com/product/633210?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Ramza Ardyputra"],
@@ -3061,7 +3767,10 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       print: "SEA008-Cold-Extended Art",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633210",
+            url: "https://www.tcgplayer.com/product/633210?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary],
@@ -3122,7 +3831,25 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       print: "SEA014",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633213",
+            url: "https://www.tcgplayer.com/product/633213?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.R,
+      identifier: "SEA014",
+      image: "SEA014",
+      
+      
+      print: "SEA014-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633213",
+            url: "https://www.tcgplayer.com/product/633213?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -3183,7 +3910,25 @@ Put a steam counter on up to 2 cogs you control.`,
       print: "SEA018",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633214",
+            url: "https://www.tcgplayer.com/product/633214?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "SEA018",
+      image: "SEA018",
+      
+      
+      print: "SEA018-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633214",
+            url: "https://www.tcgplayer.com/product/633214?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3244,7 +3989,25 @@ Put a steam counter on up to 2 cogs you control.`,
       print: "SEA019",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633215",
+            url: "https://www.tcgplayer.com/product/633215?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "SEA019",
+      image: "SEA019",
+      
+      
+      print: "SEA019-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633215",
+            url: "https://www.tcgplayer.com/product/633215?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3305,7 +4068,25 @@ Put a steam counter on up to 2 cogs you control.`,
       print: "SEA020",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633216",
+            url: "https://www.tcgplayer.com/product/633216?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "SEA020",
+      image: "SEA020",
+      
+      
+      print: "SEA020-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633216",
+            url: "https://www.tcgplayer.com/product/633216?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3369,10 +4150,10 @@ Put a steam counter on up to 2 cogs you control.`,
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB003","SEA045"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB003","LGS398","SEA045"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
     specialImage: "SEA045",
     subtypes: [Subtype.OffHand],
     types: [Type.Equipment],
@@ -3385,7 +4166,7 @@ Put a steam counter on up to 2 cogs you control.`,
     
     functionalText: `**Instant** - {t}: Look at the top card of your deck.
 
-The first card with watery grave you play from your graveyard each turn gets go again.`,
+The first card with watery grave you play from your graveyard each turn gets **go again**.`,
     
     
     
@@ -3427,7 +4208,25 @@ The first card with watery grave you play from your graveyard each turn gets go 
       print: "SEA130",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "630337",
+            url: "https://www.tcgplayer.com/product/630337?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA130",
+      image: "SEA130",
+      
+      
+      print: "SEA130-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "630337",
+            url: "https://www.tcgplayer.com/product/630337?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -3439,7 +4238,10 @@ The first card with watery grave you play from your graveyard each turn gets go 
       print: "SEA130-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630337",
+            url: "https://www.tcgplayer.com/product/630337?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -3500,7 +4302,25 @@ The first card with watery grave you play from your graveyard each turn gets go 
       print: "SEA259",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633378",
+            url: "https://www.tcgplayer.com/product/633378?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.R,
+      identifier: "SEA259",
+      image: "SEA259",
+      isExpansionSlot: true,
+      
+      print: "SEA259-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633378",
+            url: "https://www.tcgplayer.com/product/633378?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -3567,6 +4387,18 @@ Deal 1 arcane damage to any target.`,
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.R,
+      identifier: "SEA021",
+      image: "SEA021",
+      
+      
+      print: "SEA021-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -3616,7 +4448,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     classes: [Class.Generic],
     defaultImage: "SEA246",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Cracked Bauble",
     printings: [{
         artists: ["Sam Yang"],
@@ -3675,7 +4507,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     classes: [Class.Generic],
     defaultImage: "SEA198",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Crash Down the Gates",
     printings: [{
         artists: ["Eryk Szczygieł"],
@@ -3687,7 +4519,25 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
       print: "SEA198",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633333",
+            url: "https://www.tcgplayer.com/product/633333?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Eryk Szczygieł"],
+      foiling: Foiling.R,
+      identifier: "SEA198",
+      image: "SEA198",
+      
+      
+      print: "SEA198-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633333",
+            url: "https://www.tcgplayer.com/product/633333?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3736,7 +4586,7 @@ When this hits a hero, destroy the top card of their deck.`,
     classes: [Class.Generic],
     defaultImage: "SEA199",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Crash Down the Gates",
     printings: [{
         artists: ["Eryk Szczygieł"],
@@ -3748,7 +4598,25 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA199",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633334",
+            url: "https://www.tcgplayer.com/product/633334?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Eryk Szczygieł"],
+      foiling: Foiling.R,
+      identifier: "SEA199",
+      image: "SEA199",
+      
+      
+      print: "SEA199-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633334",
+            url: "https://www.tcgplayer.com/product/633334?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3797,7 +4665,7 @@ When this hits a hero, destroy the top card of their deck.`,
     classes: [Class.Generic],
     defaultImage: "SEA200",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Crash Down the Gates",
     printings: [{
         artists: ["Eryk Szczygieł"],
@@ -3809,7 +4677,25 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA200",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633335",
+            url: "https://www.tcgplayer.com/product/633335?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Eryk Szczygieł"],
+      foiling: Foiling.R,
+      identifier: "SEA200",
+      image: "SEA200",
+      
+      
+      print: "SEA200-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633335",
+            url: "https://www.tcgplayer.com/product/633335?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3870,7 +4756,10 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA076",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632089",
+            url: "https://www.tcgplayer.com/product/632089?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -3882,13 +4771,16 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA076-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632090",
+            url: "https://www.tcgplayer.com/product/632090?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA076"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS403","SEA076"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA076_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -3945,7 +4837,10 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA080-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632073",
+            url: "https://www.tcgplayer.com/product/632073?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -3957,7 +4852,10 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA080-Cold-Extended Art",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632073",
+            url: "https://www.tcgplayer.com/product/632073?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary],
@@ -4018,7 +4916,25 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA254",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633374",
+            url: "https://www.tcgplayer.com/product/633374?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.R,
+      identifier: "SEA254",
+      image: "SEA254",
+      isExpansionSlot: true,
+      
+      print: "SEA254-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633374",
+            url: "https://www.tcgplayer.com/product/633374?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4067,7 +4983,7 @@ When this hits a hero, destroy the top card of their deck.`,
     classes: [Class.Generic],
     defaultImage: "SEA190",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Diamond Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -4079,7 +4995,10 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA190",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630333",
+            url: "https://www.tcgplayer.com/product/630333?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -4108,7 +5027,7 @@ When this hits a hero, destroy the top card of their deck.`,
     cost: 0,
     
     
-    functionalText: `**Instant** - Destroy this: Gain 1 action point.
+    functionalText: `**Instant** - Destroy this: gain 1 action point.
 
 **Legend of the Watery Grave**`,
     
@@ -4152,7 +5071,25 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA144",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633286",
+            url: "https://www.tcgplayer.com/product/633286?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.R,
+      identifier: "SEA144",
+      image: "SEA144",
+      
+      
+      print: "SEA144-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633286",
+            url: "https://www.tcgplayer.com/product/633286?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Jefrey Yonathan"],
@@ -4164,7 +5101,10 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA144-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633286",
+            url: "https://www.tcgplayer.com/product/633286?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4225,7 +5165,25 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
       print: "SEA039",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632068",
+            url: "https://www.tcgplayer.com/product/632068?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.R,
+      identifier: "SEA039",
+      image: "SEA039",
+      
+      
+      print: "SEA039-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632068",
+            url: "https://www.tcgplayer.com/product/632068?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4288,7 +5246,25 @@ You may {u} a gun you control.
       print: "SEA100",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633252",
+            url: "https://www.tcgplayer.com/product/633252?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.R,
+      identifier: "SEA100",
+      image: "SEA100",
+      
+      
+      print: "SEA100-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633252",
+            url: "https://www.tcgplayer.com/product/633252?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4350,7 +5326,25 @@ You may {u} a gun you control.
       print: "SEA106",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633256",
+            url: "https://www.tcgplayer.com/product/633256?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.R,
+      identifier: "SEA106",
+      image: "SEA106",
+      
+      
+      print: "SEA106-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633256",
+            url: "https://www.tcgplayer.com/product/633256?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4409,7 +5403,25 @@ You may {u} a gun you control.
       print: "SEA107",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633257",
+            url: "https://www.tcgplayer.com/product/633257?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Firaz M. Rasyid"],
+      foiling: Foiling.R,
+      identifier: "SEA107",
+      image: "SEA107",
+      
+      
+      print: "SEA107-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633257",
+            url: "https://www.tcgplayer.com/product/633257?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4468,7 +5480,25 @@ You may {u} a gun you control.
       print: "SEA253",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633373",
+            url: "https://www.tcgplayer.com/product/633373?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Sariya Asavametha"],
+      foiling: Foiling.R,
+      identifier: "SEA253",
+      image: "SEA253",
+      isExpansionSlot: true,
+      
+      print: "SEA253-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633373",
+            url: "https://www.tcgplayer.com/product/633373?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4531,7 +5561,25 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
       print: "SEA258",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633377",
+            url: "https://www.tcgplayer.com/product/633377?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.R,
+      identifier: "SEA258",
+      image: "SEA258",
+      isExpansionSlot: true,
+      
+      print: "SEA258-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633377",
+            url: "https://www.tcgplayer.com/product/633377?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4598,7 +5646,25 @@ Gain 1{h}`,
       print: "SEA155",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631756",
+            url: "https://www.tcgplayer.com/product/631756?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Anthony Avon"],
+      foiling: Foiling.R,
+      identifier: "SEA155",
+      image: "SEA155",
+      
+      
+      print: "SEA155-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631756",
+            url: "https://www.tcgplayer.com/product/631756?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Anthony Avon"],
@@ -4610,7 +5676,10 @@ Gain 1{h}`,
       print: "SEA155-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631756",
+            url: "https://www.tcgplayer.com/product/631756?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -4669,7 +5738,25 @@ Gain 1{h}`,
       print: "SEA156",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631757",
+            url: "https://www.tcgplayer.com/product/631757?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA156",
+      image: "SEA156",
+      
+      
+      print: "SEA156-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631757",
+            url: "https://www.tcgplayer.com/product/631757?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -4681,7 +5768,10 @@ Gain 1{h}`,
       print: "SEA156-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631757",
+            url: "https://www.tcgplayer.com/product/631757?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -4740,7 +5830,25 @@ Gain 1{h}`,
       print: "SEA157",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631758",
+            url: "https://www.tcgplayer.com/product/631758?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.R,
+      identifier: "SEA157",
+      image: "SEA157",
+      
+      
+      print: "SEA157-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631758",
+            url: "https://www.tcgplayer.com/product/631758?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Arkoii"],
@@ -4752,7 +5860,10 @@ Gain 1{h}`,
       print: "SEA157-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631758",
+            url: "https://www.tcgplayer.com/product/631758?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -4811,7 +5922,25 @@ Gain 1{h}`,
       print: "SEA158",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631759",
+            url: "https://www.tcgplayer.com/product/631759?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA158",
+      image: "SEA158",
+      
+      
+      print: "SEA158-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631759",
+            url: "https://www.tcgplayer.com/product/631759?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -4823,7 +5952,10 @@ Gain 1{h}`,
       print: "SEA158-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631759",
+            url: "https://www.tcgplayer.com/product/631759?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -4870,7 +6002,7 @@ Gain 1{h}`,
     classes: [Class.Generic],
     defaultImage: "SEA212",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Fiddler's Green",
     printings: [{
         artists: ["Ramza Ardyputra"],
@@ -4882,7 +6014,25 @@ Gain 1{h}`,
       print: "SEA212",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631890",
+            url: "https://www.tcgplayer.com/product/631890?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "SEA212",
+      image: "SEA212",
+      
+      
+      print: "SEA212-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631890",
+            url: "https://www.tcgplayer.com/product/631890?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4929,7 +6079,7 @@ Gain 1{h}`,
     classes: [Class.Generic],
     defaultImage: "SEA213",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Fiddler's Green",
     printings: [{
         artists: ["Ramza Ardyputra"],
@@ -4941,7 +6091,25 @@ Gain 1{h}`,
       print: "SEA213",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631985",
+            url: "https://www.tcgplayer.com/product/631985?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "SEA213",
+      image: "SEA213",
+      
+      
+      print: "SEA213-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631985",
+            url: "https://www.tcgplayer.com/product/631985?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4988,7 +6156,7 @@ Gain 1{h}`,
     classes: [Class.Generic],
     defaultImage: "SEA214",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Fiddler's Green",
     printings: [{
         artists: ["Ramza Ardyputra"],
@@ -5000,7 +6168,25 @@ Gain 1{h}`,
       print: "SEA214",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631986",
+            url: "https://www.tcgplayer.com/product/631986?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "SEA214",
+      image: "SEA214",
+      
+      
+      print: "SEA214-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631986",
+            url: "https://www.tcgplayer.com/product/631986?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -5051,6 +6237,21 @@ Gain 1{h}`,
     name: "Fire in the Hole",
     printings: [{
         artists: ["Reza Aswadananta"],
+      foiling: Foiling.R,
+      identifier: "SEA101",
+      image: "SEA101",
+      
+      
+      print: "SEA101-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632651",
+            url: "https://www.tcgplayer.com/product/632651?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Reza Aswadananta"],
       
       identifier: "SEA101",
       image: "SEA101",
@@ -5059,7 +6260,10 @@ Gain 1{h}`,
       print: "SEA101",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632651",
+            url: "https://www.tcgplayer.com/product/632651?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -5122,7 +6326,10 @@ You may {u} a bow you control.
       print: "SEA128",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633276",
+            url: "https://www.tcgplayer.com/product/633276?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5171,7 +6378,7 @@ You may {u} a bow you control.
     classes: [Class.Generic],
     defaultImage: "SEA206",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Flying High",
     printings: [{
         artists: ["SanSan"],
@@ -5185,11 +6392,23 @@ You may {u} a bow you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "SEA206",
+      image: "SEA206",
+      
+      
+      print: "SEA206-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA206"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS411","SEA206"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA206",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -5232,7 +6451,7 @@ You may {u} a bow you control.
     classes: [Class.Generic],
     defaultImage: "SEA207",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Flying High",
     printings: [{
         artists: ["SanSan"],
@@ -5246,11 +6465,23 @@ You may {u} a bow you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "SEA207",
+      image: "SEA207",
+      
+      
+      print: "SEA207-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA207"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS412","SEA207"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA207",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -5293,7 +6524,7 @@ You may {u} a bow you control.
     classes: [Class.Generic],
     defaultImage: "SEA208",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Flying High",
     printings: [{
         artists: ["SanSan"],
@@ -5307,11 +6538,23 @@ You may {u} a bow you control.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.R,
+      identifier: "SEA208",
+      image: "SEA208",
+      
+      
+      print: "SEA208-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA208"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS413","SEA208"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA208",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -5354,7 +6597,7 @@ You may {u} a bow you control.
     classes: [Class.Generic],
     defaultImage: "SEA215",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Fool's Gold",
     printings: [{
         artists: ["Mariusz Gandzel"],
@@ -5366,7 +6609,25 @@ You may {u} a bow you control.
       print: "SEA215",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631987",
+            url: "https://www.tcgplayer.com/product/631987?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "SEA215",
+      image: "SEA215",
+      
+      
+      print: "SEA215-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631987",
+            url: "https://www.tcgplayer.com/product/631987?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -5425,7 +6686,10 @@ You may {u} a bow you control.
       print: "SEA049",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632070",
+            url: "https://www.tcgplayer.com/product/632070?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -5437,7 +6701,10 @@ You may {u} a bow you control.
       print: "SEA049-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632070",
+            url: "https://www.tcgplayer.com/product/632070?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -5498,7 +6765,25 @@ You may {u} a bow you control.
       print: "SEA097",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633251",
+            url: "https://www.tcgplayer.com/product/633251?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kyxarie Peralta"],
+      foiling: Foiling.C,
+      identifier: "SEA097",
+      image: "SEA097",
+      
+      
+      print: "SEA097-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633251",
+            url: "https://www.tcgplayer.com/product/633251?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5547,7 +6832,7 @@ You may {u} a bow you control.
     classes: [Class.Generic],
     defaultImage: "SEA244",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Gold",
     printings: [{
         artists: ["Stormy Elia Fanggidae"],
@@ -5563,21 +6848,39 @@ You may {u} a bow you control.
       
     },{
         artists: ["Stormy Elia Fanggidae"],
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "SEA244",
       image: "SEA244_V2",
       
       
-      print: "SEA244-Cold-Full Art",
+      print: "SEA244-Rainbow-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "624373",
+            url: "https://www.tcgplayer.com/product/624373?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.R,
+      identifier: "SEA244",
+      image: "SEA244_V2_BACK",
       
+      
+      print: "SEA244-Rainbow-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "624373",
+            url: "https://www.tcgplayer.com/product/624373?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB031","BET030","DYN243","FAB121","FAB279","HVY243","KSI030","LGS229","OLA030","SEA244","VIC030"],
-    sets: [Release.ArmoryDeckGravyBones,Release.BetsyBlitzDeck,Release.Dynasty,Release.HeavyHitters,Release.HighSeas,Release.KassaiBlitzDeck,Release.OlympiaBlitzDeck,Release.Promos,Release.VictorBlitzDeck],
+    setIdentifiers: ["AGB031","BET030","DYN243","FAB121","FAB279","HVY243","KSI030","LGS229","OLA030","SEA244","SMP033","VIC030"],
+    sets: [Release.ArmoryDeckGravyBones,Release.BetsyBlitzDeck,Release.Dynasty,Release.HeavyHitters,Release.HighSeas,Release.KassaiBlitzDeck,Release.OlympiaBlitzDeck,Release.Promos,Release.SmashPalace,Release.VictorBlitzDeck],
     specialImage: "SEA244_V2",
     subtypes: [Subtype.Item],
     types: [Type.Token],
@@ -5630,7 +6933,25 @@ You may {u} a bow you control.
       print: "SEA165",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633302",
+            url: "https://www.tcgplayer.com/product/633302?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.R,
+      identifier: "SEA165",
+      image: "SEA165",
+      
+      
+      print: "SEA165-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633302",
+            url: "https://www.tcgplayer.com/product/633302?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -5642,7 +6963,10 @@ You may {u} a bow you control.
       print: "SEA165-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633302",
+            url: "https://www.tcgplayer.com/product/633302?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -5701,7 +7025,25 @@ You may {u} a bow you control.
       print: "SEA162",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633299",
+            url: "https://www.tcgplayer.com/product/633299?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Maerel Hibadita"],
+      foiling: Foiling.R,
+      identifier: "SEA162",
+      image: "SEA162",
+      
+      
+      print: "SEA162-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633299",
+            url: "https://www.tcgplayer.com/product/633299?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Maerel Hibadita"],
@@ -5713,7 +7055,10 @@ You may {u} a bow you control.
       print: "SEA162-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633299",
+            url: "https://www.tcgplayer.com/product/633299?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -5772,7 +7117,25 @@ You may {u} a bow you control.
       print: "SEA163",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633300",
+            url: "https://www.tcgplayer.com/product/633300?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.R,
+      identifier: "SEA163",
+      image: "SEA163",
+      
+      
+      print: "SEA163-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633300",
+            url: "https://www.tcgplayer.com/product/633300?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Esty Swandana"],
@@ -5784,7 +7147,10 @@ You may {u} a bow you control.
       print: "SEA163-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633300",
+            url: "https://www.tcgplayer.com/product/633300?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -5843,7 +7209,25 @@ You may {u} a bow you control.
       print: "SEA164",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633301",
+            url: "https://www.tcgplayer.com/product/633301?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.R,
+      identifier: "SEA164",
+      image: "SEA164",
+      
+      
+      print: "SEA164-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633301",
+            url: "https://www.tcgplayer.com/product/633301?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Daniel Jiménez"],
@@ -5855,7 +7239,10 @@ You may {u} a bow you control.
       print: "SEA164-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633301",
+            url: "https://www.tcgplayer.com/product/633301?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -5877,7 +7264,7 @@ You may {u} a bow you control.
     
     
     
-    
+    keywords: [Keyword.Overpower],
     
     
     
@@ -5914,7 +7301,25 @@ You may {u} a bow you control.
       print: "SEA088",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633249",
+            url: "https://www.tcgplayer.com/product/633249?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "SEA088",
+      image: "SEA088",
+      
+      
+      print: "SEA088-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633249",
+            url: "https://www.tcgplayer.com/product/633249?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -5977,26 +7382,32 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
       print: "SEA125-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630338",
+            url: "https://www.tcgplayer.com/product/630338?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.C,
       identifier: "SEA125",
-      image: "SEA125_V2",
+      image: "SEA125",
       
       
       print: "SEA125-Cold",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630338",
+            url: "https://www.tcgplayer.com/product/630338?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["SEA125"],
     sets: [Release.HighSeas],
-    specialImage: "SEA125_V2",
+    specialImage: "SEA125",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Pirate Equipment - Arms",
@@ -6006,7 +7417,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
     
     defense: 1,
     
-    functionalText: `**Action** - {t}: Your next Pirate attack this turn gets "When this hits a hero, **steal** a Gold token they control, otherwise create a Gold token." At the beginning of your end phase, if you haven't created or stolen a Gold this turn, destroy this. **Go again**
+    functionalText: `**Action** - {t}: Your next Pirate attack this turn gets "When this hits a hero, **steal** a Gold token they control, otherwise create a Gold token." At the beginning of your end phase, if you haven't created or stolen a Gold token this turn, destroy this. **Go again**
 
 **Battleworn**`,
     
@@ -6062,7 +7473,10 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
       print: "SEA042-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624371",
+            url: "https://www.tcgplayer.com/product/624371?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Carlos Cruchaga"],
@@ -6074,7 +7488,10 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
       print: "SEA042-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624371",
+            url: "https://www.tcgplayer.com/product/624371?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -6135,7 +7552,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA004",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624360",
+            url: "https://www.tcgplayer.com/product/624360?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -6147,12 +7567,15 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA004-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624360",
+            url: "https://www.tcgplayer.com/product/624360?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["FAB343","SEA004"],
+    setIdentifiers: ["SEA004"],
     sets: [Release.HighSeas],
     specialImage: "SEA004",
     subtypes: [Subtype.Attack],
@@ -6206,7 +7629,25 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA159",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633296",
+            url: "https://www.tcgplayer.com/product/633296?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.R,
+      identifier: "SEA159",
+      image: "SEA159",
+      
+      
+      print: "SEA159-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633296",
+            url: "https://www.tcgplayer.com/product/633296?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Aluísio Cervelle"],
@@ -6218,7 +7659,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA159-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633296",
+            url: "https://www.tcgplayer.com/product/633296?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6279,7 +7723,25 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA160",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633297",
+            url: "https://www.tcgplayer.com/product/633297?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.R,
+      identifier: "SEA160",
+      image: "SEA160",
+      
+      
+      print: "SEA160-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633297",
+            url: "https://www.tcgplayer.com/product/633297?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Aluísio Cervelle"],
@@ -6291,7 +7753,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA160-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633297",
+            url: "https://www.tcgplayer.com/product/633297?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6352,7 +7817,25 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA161",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633298",
+            url: "https://www.tcgplayer.com/product/633298?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.R,
+      identifier: "SEA161",
+      image: "SEA161",
+      
+      
+      print: "SEA161-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633298",
+            url: "https://www.tcgplayer.com/product/633298?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Aluísio Cervelle"],
@@ -6364,7 +7847,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA161-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633298",
+            url: "https://www.tcgplayer.com/product/633298?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6409,7 +7895,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
   },{
     artists: ["Bastien Jez"],
-    cardIdentifier: "goldfin-harpoon",
+    cardIdentifier: "goldfin-harpoon-yellow",
     classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA093",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
@@ -6437,7 +7923,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA093-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624372",
+            url: "https://www.tcgplayer.com/product/624372?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -6465,7 +7954,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
     
-    
+    pitch: 2,
     power: 2,
     
     
@@ -6484,7 +7973,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     classes: [Class.Generic],
     defaultImage: "SEA245",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Goldkiss Rum",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -6500,13 +7989,25 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
     },{
         artists: ["Mario Wibisono"],
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "SEA245",
       image: "SEA245_V2",
       
       
-      print: "SEA245-Cold-Full Art",
+      print: "SEA245-Rainbow-Full Art",
       rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.C,
+      identifier: "SEA245",
+      image: "SEA245_V2_BACK",
+      
+      
+      print: "SEA245-Cold-Full Art-Back",
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
@@ -6567,7 +8068,25 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA036",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633228",
+            url: "https://www.tcgplayer.com/product/633228?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "SEA036",
+      image: "SEA036",
+      
+      
+      print: "SEA036-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633228",
+            url: "https://www.tcgplayer.com/product/633228?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6628,7 +8147,25 @@ Create a Golden Cog token.`,
       print: "SEA037",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633229",
+            url: "https://www.tcgplayer.com/product/633229?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "SEA037",
+      image: "SEA037",
+      
+      
+      print: "SEA037-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633229",
+            url: "https://www.tcgplayer.com/product/633229?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6689,7 +8226,25 @@ Create a Golden Cog token.`,
       print: "SEA038",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633230",
+            url: "https://www.tcgplayer.com/product/633230?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "SEA038",
+      image: "SEA038",
+      
+      
+      print: "SEA038-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633230",
+            url: "https://www.tcgplayer.com/product/633230?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6847,7 +8402,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA043-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624358",
+            url: "https://www.tcgplayer.com/product/624358?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
@@ -6859,13 +8417,16 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA043-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624358",
+            url: "https://www.tcgplayer.com/product/624358?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB001","HER138","SEA043"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
+    setIdentifiers: ["AGB001","SEA043"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
     specialImage: "SEA043_V2",
     subtypes: [],
     types: [Type.Hero],
@@ -6923,10 +8484,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA084"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS399","SEA084"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA084",
     subtypes: [Subtype.TwoHanded,Subtype.Bow,Subtype.Cannon],
     types: [Type.Weapon],
@@ -6979,7 +8540,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA111",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633261",
+            url: "https://www.tcgplayer.com/product/633261?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6996,7 +8560,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cost: 1,
     defense: 3,
     
-    functionalText: `When this is put face-up into your arsenal, it gets +2{p} this turn.`,
+    functionalText: `When this is put into your arsenal face up, it gains +2{p} until end of turn.`,
     
     
     
@@ -7038,7 +8602,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA112",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633262",
+            url: "https://www.tcgplayer.com/product/633262?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7055,7 +8622,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cost: 1,
     defense: 3,
     
-    functionalText: `When this is put face-up into your arsenal, it gets +2{p} this turn.`,
+    functionalText: `When this is put into your arsenal face up, it gains +2{p} until end of turn.`,
     
     
     
@@ -7097,7 +8664,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA113",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633263",
+            url: "https://www.tcgplayer.com/product/633263?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7114,7 +8684,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cost: 1,
     defense: 3,
     
-    functionalText: `When this is put face-up into your arsenal, it gets +2{p} this turn.`,
+    functionalText: `When this is put into your arsenal face up, it gains +2{p} until end of turn.`,
     
     
     
@@ -7156,7 +8726,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA081",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633248",
+            url: "https://www.tcgplayer.com/product/633248?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Camille Alquier"],
+      foiling: Foiling.C,
+      identifier: "SEA081",
+      image: "SEA081",
+      
+      
+      print: "SEA081-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633248",
+            url: "https://www.tcgplayer.com/product/633248?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7217,7 +8805,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA057",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633234",
+            url: "https://www.tcgplayer.com/product/633234?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA057",
+      image: "SEA057",
+      
+      
+      print: "SEA057-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633234",
+            url: "https://www.tcgplayer.com/product/633234?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7234,14 +8840,14 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next Pirate ally attack this turn gets overpower and "When this hits a hero, create a Gold token."
+    functionalText: `Your next Pirate ally attack this turn gets **overpower** and "When this hits a hero, create a Gold token."
 
 **Go again**`,
     
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
     
     
     
@@ -7266,7 +8872,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     classes: [Class.Generic],
     defaultImage: "SEA180",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Helmsman's Peak",
     printings: [{
         artists: ["Satriasa"],
@@ -7278,7 +8884,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA180",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633317",
+            url: "https://www.tcgplayer.com/product/633317?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Satriasa"],
+      foiling: Foiling.C,
+      identifier: "SEA180",
+      image: "SEA180",
+      
+      
+      print: "SEA180-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633317",
+            url: "https://www.tcgplayer.com/product/633317?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7339,7 +8963,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA260",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632655",
+            url: "https://www.tcgplayer.com/product/632655?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.R,
+      identifier: "SEA260",
+      image: "SEA260",
+      isExpansionSlot: true,
+      
+      print: "SEA260-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632655",
+            url: "https://www.tcgplayer.com/product/632655?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -7400,7 +9042,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA134",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633277",
+            url: "https://www.tcgplayer.com/product/633277?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA134",
+      image: "SEA134",
+      
+      
+      print: "SEA134-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633277",
+            url: "https://www.tcgplayer.com/product/633277?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -7412,7 +9072,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA134-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633277",
+            url: "https://www.tcgplayer.com/product/633277?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -7436,7 +9099,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    keywords: [Keyword.HighTide],
+    keywords: [Keyword.HighTide,Keyword.Overpower],
     
     
     
@@ -7473,7 +9136,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA135",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633278",
+            url: "https://www.tcgplayer.com/product/633278?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA135",
+      image: "SEA135",
+      
+      
+      print: "SEA135-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633278",
+            url: "https://www.tcgplayer.com/product/633278?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -7485,7 +9166,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA135-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633278",
+            url: "https://www.tcgplayer.com/product/633278?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -7509,7 +9193,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    keywords: [Keyword.HighTide],
+    keywords: [Keyword.HighTide,Keyword.Overpower],
     
     
     
@@ -7546,7 +9230,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA136",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633279",
+            url: "https://www.tcgplayer.com/product/633279?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "SEA136",
+      image: "SEA136",
+      
+      
+      print: "SEA136-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633279",
+            url: "https://www.tcgplayer.com/product/633279?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Thomas Ressuge"],
@@ -7558,7 +9260,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA136-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633279",
+            url: "https://www.tcgplayer.com/product/633279?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -7582,7 +9287,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     
-    keywords: [Keyword.HighTide],
+    keywords: [Keyword.HighTide,Keyword.Overpower],
     
     
     
@@ -7619,7 +9324,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA055",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624368",
+            url: "https://www.tcgplayer.com/product/624368?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Thomas Ressuge"],
@@ -7631,13 +9339,16 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA055-Rainbow",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624368",
+            url: "https://www.tcgplayer.com/product/624368?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Promo,Rarity.Rare],
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["FAB349","SEA055"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["SEA055"],
+    sets: [Release.HighSeas],
     specialImage: "SEA055",
     subtypes: [],
     types: [Type.Block],
@@ -7690,7 +9401,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA103",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633253",
+            url: "https://www.tcgplayer.com/product/633253?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.R,
+      identifier: "SEA103",
+      image: "SEA103",
+      
+      
+      print: "SEA103-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633253",
+            url: "https://www.tcgplayer.com/product/633253?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7739,7 +9468,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     classes: [Class.Generic],
     defaultImage: "SEA201",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Jack Be Nimble",
     printings: [{
         artists: ["Jackson Tjota"],
@@ -7751,7 +9480,25 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA201",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633336",
+            url: "https://www.tcgplayer.com/product/633336?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.R,
+      identifier: "SEA201",
+      image: "SEA201",
+      
+      
+      print: "SEA201-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633336",
+            url: "https://www.tcgplayer.com/product/633336?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7769,12 +9516,13 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     defense: 3,
     
     functionalText: `When this attacks, you may banish a Nimblism from your graveyard. If you do, this gets +1{p} and **go again**.
+
 When this hits a hero, steal an item they control until the end of this action phase.`,
     
     
     
     
-    keywords: [Keyword.Steal],
+    keywords: [Keyword.GoAgain,Keyword.Steal],
     
     
     
@@ -7799,7 +9547,7 @@ When this hits a hero, steal an item they control until the end of this action p
     classes: [Class.Generic],
     defaultImage: "SEA202",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Jack Be Quick",
     printings: [{
         artists: ["Jackson Tjota"],
@@ -7811,7 +9559,25 @@ When this hits a hero, steal an item they control until the end of this action p
       print: "SEA202",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633337",
+            url: "https://www.tcgplayer.com/product/633337?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.R,
+      identifier: "SEA202",
+      image: "SEA202",
+      
+      
+      print: "SEA202-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633337",
+            url: "https://www.tcgplayer.com/product/633337?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7835,7 +9601,7 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     
-    keywords: [Keyword.Steal],
+    keywords: [Keyword.GoAgain,Keyword.Steal],
     
     
     
@@ -7872,7 +9638,25 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
       print: "SEA068",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633242",
+            url: "https://www.tcgplayer.com/product/633242?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA068",
+      image: "SEA068",
+      
+      
+      print: "SEA068-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633242",
+            url: "https://www.tcgplayer.com/product/633242?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7894,7 +9678,7 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -7931,7 +9715,25 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
       print: "SEA069",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633243",
+            url: "https://www.tcgplayer.com/product/633243?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA069",
+      image: "SEA069",
+      
+      
+      print: "SEA069-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633243",
+            url: "https://www.tcgplayer.com/product/633243?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7953,7 +9755,7 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -7990,7 +9792,25 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
       print: "SEA070",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633244",
+            url: "https://www.tcgplayer.com/product/633244?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA070",
+      image: "SEA070",
+      
+      
+      print: "SEA070-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633244",
+            url: "https://www.tcgplayer.com/product/633244?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8012,7 +9832,7 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -8049,7 +9869,25 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
       print: "SEA005",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632110",
+            url: "https://www.tcgplayer.com/product/632110?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.R,
+      identifier: "SEA005",
+      image: "SEA005",
+      
+      
+      print: "SEA005-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632110",
+            url: "https://www.tcgplayer.com/product/632110?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -8112,7 +9950,10 @@ When this deals damage to a hero, **steal** that many items they control.
       print: "SEA059",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631978",
+            url: "https://www.tcgplayer.com/product/631978?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["soyameii"],
@@ -8124,13 +9965,16 @@ When this deals damage to a hero, **steal** that many items they control.
       print: "SEA059-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631979",
+            url: "https://www.tcgplayer.com/product/631979?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA059"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS404","SEA059"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA059_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -8141,7 +9985,7 @@ When this deals damage to a hero, **steal** that many items they control.
     cost: 0,
     
     
-    functionalText: `**Action** - {t}: Attack
+    functionalText: `**Action** - {t}: **Attack**
 
 **Action** - {r}, {t}: {t} target hero or ally. **Go again**
 
@@ -8187,7 +10031,10 @@ When this deals damage to a hero, **steal** that many items they control.
       print: "SEA085",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630334",
+            url: "https://www.tcgplayer.com/product/630334?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -8199,7 +10046,10 @@ When this deals damage to a hero, **steal** that many items they control.
       print: "SEA085-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630334",
+            url: "https://www.tcgplayer.com/product/630334?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -8258,7 +10108,10 @@ When this deals damage to a hero, **steal** that many items they control.
       print: "SEA086",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624369",
+            url: "https://www.tcgplayer.com/product/624369?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Dominic"],
@@ -8270,7 +10123,10 @@ When this deals damage to a hero, **steal** that many items they control.
       print: "SEA086-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624369",
+            url: "https://www.tcgplayer.com/product/624369?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -8317,7 +10173,7 @@ When this deals damage to a hero, **steal** that many items they control.
     classes: [Class.Generic],
     defaultImage: "SEA217",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Life for a Life",
     printings: [{
         artists: ["Regina Krivolapova"],
@@ -8329,7 +10185,10 @@ When this deals damage to a hero, **steal** that many items they control.
       print: "SEA217",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633345",
+            url: "https://www.tcgplayer.com/product/633345?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Rare],
@@ -8378,7 +10237,7 @@ When this hits, gain 1{h}.`,
     classes: [Class.Generic],
     defaultImage: "SEA184",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Light Fingers",
     printings: [{
         artists: ["Wisnu Tan"],
@@ -8390,7 +10249,25 @@ When this hits, gain 1{h}.`,
       print: "SEA184",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633321",
+            url: "https://www.tcgplayer.com/product/633321?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.C,
+      identifier: "SEA184",
+      image: "SEA184",
+      
+      
+      print: "SEA184-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633321",
+            url: "https://www.tcgplayer.com/product/633321?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8407,14 +10284,14 @@ When this hits, gain 1{h}.`,
     
     defense: 1,
     
-    functionalText: `When this defends, if you are a Thief, steal a Gold token the attacking hero controls.
+    functionalText: `When this defends, if you are a Thief, **steal** a Gold token the attacking hero controls.
 
 **Blade Break**`,
     
     
     
     
-    
+    keywords: [Keyword.BladeBreak],
     
     
     
@@ -8443,18 +10320,6 @@ When this hits, gain 1{h}.`,
     name: "Limpit, Hop-a-long",
     printings: [{
         artists: ["Tomasz Jedruszek"],
-      foiling: Foiling.C,
-      identifier: "SEA060",
-      image: "SEA060_V2",
-      
-      
-      print: "SEA060-Cold-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.HighSeas,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Tomasz Jedruszek"],
       
       identifier: "SEA060",
       image: "SEA060",
@@ -8463,13 +10328,31 @@ When this hits, gain 1{h}.`,
       print: "SEA060",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631980",
+            url: "https://www.tcgplayer.com/product/631980?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "SEA060",
+      image: "SEA060_V2",
       
       
+      print: "SEA060-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631981",
+            url: "https://www.tcgplayer.com/product/631981?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AGB016","SEA060"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB016","LGS405","SEA060"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
     specialImage: "SEA060_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -8480,7 +10363,7 @@ When this hits, gain 1{h}.`,
     cost: 0,
     
     
-    functionalText: `**Action** - {r}, {t}: Attack. **Go again**
+    functionalText: `**Action** - {r}, {t}: **Attack**. **Go again**
 
 **Watery Grave**`,
     
@@ -8524,7 +10407,25 @@ When this hits, gain 1{h}.`,
       print: "SEA104",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633254",
+            url: "https://www.tcgplayer.com/product/633254?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.R,
+      identifier: "SEA104",
+      image: "SEA104",
+      
+      
+      print: "SEA104-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633254",
+            url: "https://www.tcgplayer.com/product/633254?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -8585,7 +10486,25 @@ When this hits, gain 1{h}.`,
       print: "SEA131",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631984",
+            url: "https://www.tcgplayer.com/product/631984?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.R,
+      identifier: "SEA131",
+      image: "SEA131",
+      
+      
+      print: "SEA131-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631984",
+            url: "https://www.tcgplayer.com/product/631984?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -8597,7 +10516,10 @@ When this hits, gain 1{h}.`,
       print: "SEA131-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631984",
+            url: "https://www.tcgplayer.com/product/633622?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -8660,7 +10582,25 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
       print: "SEA151",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633292",
+            url: "https://www.tcgplayer.com/product/633292?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.R,
+      identifier: "SEA151",
+      image: "SEA151",
+      
+      
+      print: "SEA151-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633292",
+            url: "https://www.tcgplayer.com/product/633292?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Marco González"],
@@ -8672,7 +10612,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
       print: "SEA151-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633292",
+            url: "https://www.tcgplayer.com/product/633292?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -8732,7 +10675,25 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
       print: "SEA022",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633217",
+            url: "https://www.tcgplayer.com/product/633217?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.R,
+      identifier: "SEA022",
+      image: "SEA022",
+      
+      
+      print: "SEA022-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633217",
+            url: "https://www.tcgplayer.com/product/633217?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -8888,7 +10849,10 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA082-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624359",
+            url: "https://www.tcgplayer.com/product/624359?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
@@ -8900,13 +10864,16 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA082-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624359",
+            url: "https://www.tcgplayer.com/product/624359?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
-    setIdentifiers: ["HER139","SEA082"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["SEA082"],
+    sets: [Release.HighSeas],
     specialImage: "SEA082_V2",
     subtypes: [],
     types: [Type.Hero],
@@ -8949,7 +10916,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     classes: [Class.Generic],
     defaultImage: "SEA188",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Midas Touch",
     printings: [{
         artists: ["Sebastian Giacobino"],
@@ -8961,7 +10928,25 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA188",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632654",
+            url: "https://www.tcgplayer.com/product/632654?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.R,
+      identifier: "SEA188",
+      image: "SEA188",
+      
+      
+      print: "SEA188-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632654",
+            url: "https://www.tcgplayer.com/product/632654?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -9010,7 +10995,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     classes: [Class.Generic],
     defaultImage: "SEA203",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Money or Your Life?",
     printings: [{
         artists: ["Jackson Tjota"],
@@ -9022,7 +11007,25 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA203",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633338",
+            url: "https://www.tcgplayer.com/product/633338?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.R,
+      identifier: "SEA203",
+      image: "SEA203",
+      
+      
+      print: "SEA203-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633338",
+            url: "https://www.tcgplayer.com/product/633338?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9069,7 +11072,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     classes: [Class.Generic],
     defaultImage: "SEA204",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Money or Your Life?",
     printings: [{
         artists: ["Jackson Tjota"],
@@ -9081,7 +11084,25 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA204",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633339",
+            url: "https://www.tcgplayer.com/product/633339?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.R,
+      identifier: "SEA204",
+      image: "SEA204",
+      
+      
+      print: "SEA204-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633339",
+            url: "https://www.tcgplayer.com/product/633339?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9128,7 +11149,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     classes: [Class.Generic],
     defaultImage: "SEA205",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Money or Your Life?",
     printings: [{
         artists: ["Jackson Tjota"],
@@ -9140,7 +11161,25 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA205",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633340",
+            url: "https://www.tcgplayer.com/product/633340?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.R,
+      identifier: "SEA205",
+      image: "SEA205",
+      
+      
+      print: "SEA205-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633340",
+            url: "https://www.tcgplayer.com/product/633340?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9191,6 +11230,21 @@ Whenever you draw a card during your action phase, you may put an arrow from you
     name: "Monkey Powder",
     printings: [{
         artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA102",
+      image: "SEA102",
+      
+      
+      print: "SEA102-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632652",
+            url: "https://www.tcgplayer.com/product/632652?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Carlos Cruchaga"],
       
       identifier: "SEA102",
       image: "SEA102",
@@ -9199,7 +11253,10 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA102",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632652",
+            url: "https://www.tcgplayer.com/product/632652?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9262,7 +11319,10 @@ Draw a card.
       print: "SEA051",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631976",
+            url: "https://www.tcgplayer.com/product/631976?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Sebastian Giacobino"],
@@ -9274,7 +11334,10 @@ Draw a card.
       print: "SEA051-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631977",
+            url: "https://www.tcgplayer.com/product/631977?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -9291,7 +11354,7 @@ Draw a card.
     cost: 0,
     
     
-    functionalText: `**Action** - {t}: Attack
+    functionalText: `**Action** - {t}: **Attack**
 
 **Instant** - {r}, {t}: Put a +1{p} counter on target ally.
 
@@ -9337,7 +11400,25 @@ Draw a card.
       print: "SEA137",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632653",
+            url: "https://www.tcgplayer.com/product/632653?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.R,
+      identifier: "SEA137",
+      image: "SEA137",
+      
+      
+      print: "SEA137-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632653",
+            url: "https://www.tcgplayer.com/product/632653?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Pavel Rtishchev (Klaher)"],
@@ -9349,7 +11430,10 @@ Draw a card.
       print: "SEA137-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632653",
+            url: "https://www.tcgplayer.com/product/632653?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9410,7 +11494,25 @@ Draw a card.
       print: "SEA176",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633313",
+            url: "https://www.tcgplayer.com/product/633313?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA176",
+      image: "SEA176",
+      
+      
+      print: "SEA176-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633313",
+            url: "https://www.tcgplayer.com/product/633313?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -9422,7 +11524,10 @@ Draw a card.
       print: "SEA176-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633313",
+            url: "https://www.tcgplayer.com/product/633313?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9439,16 +11544,16 @@ Draw a card.
     cost: 0,
     defense: 2,
     
-    functionalText: `For each hero that controls more Gold than you, steal a Gold token they control.
+    functionalText: `For each hero that controls more Gold than you, **steal** a Gold token they control.
 
 If you gain control of 1 or more Gold tokens this way, your next attack this turn gets +2{p}.
 
-**Go again**`,
+Go again`,
     
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Steal],
     
     
     
@@ -9485,7 +11590,25 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA177",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633314",
+            url: "https://www.tcgplayer.com/product/633314?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.R,
+      identifier: "SEA177",
+      image: "SEA177",
+      
+      
+      print: "SEA177-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633314",
+            url: "https://www.tcgplayer.com/product/633314?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Brian Madya Narendra"],
@@ -9497,7 +11620,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA177-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633314",
+            url: "https://www.tcgplayer.com/product/633314?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9514,16 +11640,16 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     cost: 0,
     defense: 2,
     
-    functionalText: `For each hero that controls more Gold than you, steal a Gold token they control.
+    functionalText: `For each hero that controls more Gold than you, **steal** a Gold token they control.
 
-If you gain control of 1 or more Gold tokens this way, your next attack this turn **gets overpower**.
+If you gain control of 1 or more Gold tokens this way, your next attack this turn gets **overpower**.
 
-Go again`,
+**Go again**`,
     
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Overpower,Keyword.Steal],
     
     
     
@@ -9560,7 +11686,25 @@ Go again`,
       print: "SEA178",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633315",
+            url: "https://www.tcgplayer.com/product/633315?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.R,
+      identifier: "SEA178",
+      image: "SEA178",
+      
+      
+      print: "SEA178-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633315",
+            url: "https://www.tcgplayer.com/product/633315?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Brian Madya Narendra"],
@@ -9572,7 +11716,10 @@ Go again`,
       print: "SEA178-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633315",
+            url: "https://www.tcgplayer.com/product/633315?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9589,7 +11736,7 @@ Go again`,
     cost: 0,
     defense: 2,
     
-    functionalText: `For each hero that controls more Gold than you, steal a Gold token they control.
+    functionalText: `For each hero that controls more Gold than you, **steal** a Gold token they control.
 
 If you gain control of 1 or more Gold tokens this way, your next attack this turn gets **go again**.
 
@@ -9598,7 +11745,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Steal],
     
     
     
@@ -9635,7 +11782,25 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA108",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633258",
+            url: "https://www.tcgplayer.com/product/633258?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Widya Wang"],
+      foiling: Foiling.R,
+      identifier: "SEA108",
+      image: "SEA108",
+      
+      
+      print: "SEA108-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633258",
+            url: "https://www.tcgplayer.com/product/633258?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9682,7 +11847,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     classes: [Class.Generic],
     defaultImage: "SEA238",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Nimblism",
     printings: [{
         artists: ["Fedor Barkhatov"],
@@ -9694,7 +11859,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA238",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633363",
+            url: "https://www.tcgplayer.com/product/633363?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9711,7 +11879,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     cost: 0,
     defense: 2,
     
-    functionalText: `The next attack action card with cost 1 or less you play this turn gets +3{p}.
+    functionalText: `The next attack action card with cost 1 or less you play this turn gains +3{p}.
 
 **Go again**`,
     
@@ -9743,7 +11911,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     classes: [Class.Generic],
     defaultImage: "SEA239",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Nimblism",
     printings: [{
         artists: ["Fedor Barkhatov"],
@@ -9755,7 +11923,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA239",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633364",
+            url: "https://www.tcgplayer.com/product/633364?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9772,7 +11943,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     cost: 0,
     defense: 2,
     
-    functionalText: `The next attack action card with cost 1 or less you play this turn gets +2{p}.
+    functionalText: `The next attack action card with cost 1 or less you play this turn gains +2{p}.
 
 **Go again**`,
     
@@ -9804,7 +11975,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     classes: [Class.Generic],
     defaultImage: "SEA240",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Nimblism",
     printings: [{
         artists: ["Fedor Barkhatov"],
@@ -9816,7 +11987,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA240",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633365",
+            url: "https://www.tcgplayer.com/product/633365?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9833,7 +12007,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     cost: 0,
     defense: 2,
     
-    functionalText: `The next attack action card with cost 1 or less you play this turn gets +1{p}.
+    functionalText: `The next attack action card with cost 1 or less you play this turn gains +1{p}.
 
 **Go again**`,
     
@@ -9865,7 +12039,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     classes: [Class.Generic],
     defaultImage: "SEA220",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Nimby",
     printings: [{
         artists: ["Yiian Kho"],
@@ -9877,7 +12051,25 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA220",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633348",
+            url: "https://www.tcgplayer.com/product/633348?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.R,
+      identifier: "SEA220",
+      image: "SEA220",
+      
+      
+      print: "SEA220-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633348",
+            url: "https://www.tcgplayer.com/product/633348?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9924,7 +12116,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     classes: [Class.Generic],
     defaultImage: "SEA221",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Nimby",
     printings: [{
         artists: ["Yiian Kho"],
@@ -9936,7 +12128,25 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA221",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633349",
+            url: "https://www.tcgplayer.com/product/633349?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.R,
+      identifier: "SEA221",
+      image: "SEA221",
+      
+      
+      print: "SEA221-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633349",
+            url: "https://www.tcgplayer.com/product/633349?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9983,7 +12193,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
     classes: [Class.Generic],
     defaultImage: "SEA222",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Nimby",
     printings: [{
         artists: ["Yiian Kho"],
@@ -9995,7 +12205,25 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA222",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633350",
+            url: "https://www.tcgplayer.com/product/633350?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.R,
+      identifier: "SEA222",
+      image: "SEA222",
+      
+      
+      print: "SEA222-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633350",
+            url: "https://www.tcgplayer.com/product/633350?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10054,7 +12282,25 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA149",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633290",
+            url: "https://www.tcgplayer.com/product/633290?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Daniel Correia"],
+      foiling: Foiling.R,
+      identifier: "SEA149",
+      image: "SEA149",
+      
+      
+      print: "SEA149-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633290",
+            url: "https://www.tcgplayer.com/product/633290?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Daniel Correia"],
@@ -10066,7 +12312,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       print: "SEA149-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633290",
+            url: "https://www.tcgplayer.com/product/633290?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -10115,7 +12364,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
     classes: [Class.Generic],
     defaultImage: "SEA182",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Old Knocker",
     printings: [{
         artists: ["Pavel Rtishchev (Klaher)"],
@@ -10127,7 +12376,25 @@ The next time an opponent would draw a card from the effect of a Gold token this
       print: "SEA182",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633319",
+            url: "https://www.tcgplayer.com/product/633319?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.C,
+      identifier: "SEA182",
+      image: "SEA182",
+      
+      
+      print: "SEA182-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633319",
+            url: "https://www.tcgplayer.com/product/633319?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10176,7 +12443,7 @@ Blade Break`,
     classes: [Class.Generic],
     defaultImage: "SEA241",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "On the Horizon",
     printings: [{
         artists: ["Thomas Ressuge"],
@@ -10188,7 +12455,25 @@ Blade Break`,
       print: "SEA241",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633366",
+            url: "https://www.tcgplayer.com/product/633366?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "SEA241",
+      image: "SEA241",
+      
+      
+      print: "SEA241-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633366",
+            url: "https://www.tcgplayer.com/product/633366?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10235,7 +12520,7 @@ Blade Break`,
     classes: [Class.Generic],
     defaultImage: "SEA242",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "On the Horizon",
     printings: [{
         artists: ["Thomas Ressuge"],
@@ -10247,7 +12532,25 @@ Blade Break`,
       print: "SEA242",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633367",
+            url: "https://www.tcgplayer.com/product/633367?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "SEA242",
+      image: "SEA242",
+      
+      
+      print: "SEA242-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633367",
+            url: "https://www.tcgplayer.com/product/633367?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10294,7 +12597,7 @@ Blade Break`,
     classes: [Class.Generic],
     defaultImage: "SEA243",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "On the Horizon",
     printings: [{
         artists: ["Thomas Ressuge"],
@@ -10306,7 +12609,25 @@ Blade Break`,
       print: "SEA243",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633368",
+            url: "https://www.tcgplayer.com/product/633368?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.R,
+      identifier: "SEA243",
+      image: "SEA243",
+      
+      
+      print: "SEA243-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633368",
+            url: "https://www.tcgplayer.com/product/633368?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10353,7 +12674,7 @@ Blade Break`,
     classes: [Class.Generic],
     defaultImage: "SEA191",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Onyx Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -10365,7 +12686,10 @@ Blade Break`,
       print: "SEA191",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633326",
+            url: "https://www.tcgplayer.com/product/633326?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -10426,7 +12750,7 @@ Blade Break`,
     classes: [Class.Generic],
     defaultImage: "SEA192",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Opal Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -10438,7 +12762,10 @@ Blade Break`,
       print: "SEA192",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633327",
+            url: "https://www.tcgplayer.com/product/633327?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -10467,7 +12794,7 @@ Blade Break`,
     cost: 0,
     
     
-    functionalText: `**Instant** - Destroy this: Opt 2
+    functionalText: `**Instant** - Destroy this: **Opt 2**
 
 **Legend of the Watery Grave**`,
     
@@ -10511,7 +12838,10 @@ Blade Break`,
       print: "SEA263-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633381",
+            url: "https://www.tcgplayer.com/product/633381?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
@@ -10574,7 +12904,10 @@ When this dies, create a Gold token.
       print: "SEA054",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624367",
+            url: "https://www.tcgplayer.com/product/624367?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Marco González"],
@@ -10586,13 +12919,16 @@ When this dies, create a Gold token.
       print: "SEA054-Rainbow",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624367",
+            url: "https://www.tcgplayer.com/product/624367?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
-    rarities: [Rarity.Promo,Rarity.Rare],
+    rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AGB010","FAB348","SEA054"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
+    setIdentifiers: ["AGB010","SEA054"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
     specialImage: "SEA054",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -10628,7 +12964,7 @@ When this dies, create a Gold token.
   
   
   },{
-    artists: ["寿多 浩 / Hiro Suda"],
+    artists: ["寿多浩 (Hiro Suda)"],
     cardIdentifier: "palantir-aeronought-red",
     classes: [Class.Mechanologist],
     defaultImage: "SEA012",
@@ -10636,7 +12972,7 @@ When this dies, create a Gold token.
     legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Teklovossen],
     name: "Palantir Aeronought",
     printings: [{
-        artists: ["寿多 浩 / Hiro Suda"],
+        artists: ["寿多浩 (Hiro Suda)"],
       
       identifier: "SEA012",
       image: "SEA012",
@@ -10645,10 +12981,13 @@ When this dies, create a Gold token.
       print: "SEA012",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630335",
+            url: "https://www.tcgplayer.com/product/630335?Language=English&Printing=Normal"
+          },
       
     },{
-        artists: ["寿多 浩 / Hiro Suda"],
+        artists: ["寿多浩 (Hiro Suda)"],
       foiling: Foiling.R,
       identifier: "SEA012",
       image: "SEA012_V2",
@@ -10657,7 +12996,10 @@ When this dies, create a Gold token.
       print: "SEA012-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630335",
+            url: "https://www.tcgplayer.com/product/630335?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -10720,6 +13062,18 @@ When this dies, create a Gold token.
       set: Release.HighSeas,
       
       
+    },{
+        artists: ["Raphael Pinna"],
+      foiling: Foiling.C,
+      identifier: "SEA096",
+      image: "SEA096",
+      
+      
+      print: "SEA096-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -10765,7 +13119,7 @@ When this dies, create a Gold token.
     classes: [Class.Generic],
     defaultImage: "SEA193",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Pearl Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -10777,7 +13131,10 @@ When this dies, create a Gold token.
       print: "SEA193",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633328",
+            url: "https://www.tcgplayer.com/product/633328?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -10853,10 +13210,10 @@ When this dies, create a Gold token.
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA129"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS395","SEA129"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA129",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -10867,7 +13224,7 @@ When this dies, create a Gold token.
     
     defense: 1,
     
-    functionalText: `**Action** - {r}{r}{r}, destroy this: Your next attack this turn gets **go again**. **Go again**
+    functionalText: `**Action** - {r}{r}{r}, destroy this: Your next attack this turn gets **go again**. **Go again**.
 
 **Blade Break**`,
     
@@ -10911,7 +13268,25 @@ When this dies, create a Gold token.
       print: "SEA040",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632112",
+            url: "https://www.tcgplayer.com/product/632112?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.R,
+      identifier: "SEA040",
+      image: "SEA040",
+      
+      
+      print: "SEA040-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632112",
+            url: "https://www.tcgplayer.com/product/632112?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10974,7 +13349,25 @@ You may {u} your hero.
       print: "SEA138",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633280",
+            url: "https://www.tcgplayer.com/product/633280?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.R,
+      identifier: "SEA138",
+      image: "SEA138",
+      
+      
+      print: "SEA138-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633280",
+            url: "https://www.tcgplayer.com/product/633280?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Audy Ravindra"],
@@ -10986,7 +13379,10 @@ You may {u} your hero.
       print: "SEA138-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633280",
+            url: "https://www.tcgplayer.com/product/633280?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11045,7 +13441,25 @@ You may {u} your hero.
       print: "SEA139",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633281",
+            url: "https://www.tcgplayer.com/product/633281?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.R,
+      identifier: "SEA139",
+      image: "SEA139",
+      
+      
+      print: "SEA139-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633281",
+            url: "https://www.tcgplayer.com/product/633281?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Audy Ravindra"],
@@ -11057,7 +13471,10 @@ You may {u} your hero.
       print: "SEA139-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633281",
+            url: "https://www.tcgplayer.com/product/633281?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11116,7 +13533,25 @@ You may {u} your hero.
       print: "SEA140",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633282",
+            url: "https://www.tcgplayer.com/product/633282?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.R,
+      identifier: "SEA140",
+      image: "SEA140",
+      
+      
+      print: "SEA140-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633282",
+            url: "https://www.tcgplayer.com/product/633282?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Audy Ravindra"],
@@ -11128,7 +13563,10 @@ You may {u} your hero.
       print: "SEA140-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633282",
+            url: "https://www.tcgplayer.com/product/633282?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11187,7 +13625,25 @@ You may {u} your hero.
       print: "SEA023",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633218",
+            url: "https://www.tcgplayer.com/product/633218?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "SEA023",
+      image: "SEA023",
+      
+      
+      print: "SEA023-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633218",
+            url: "https://www.tcgplayer.com/product/633218?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11234,7 +13690,7 @@ You may {u} your hero.
     classes: [Class.Generic],
     defaultImage: "SEA194",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Platinum Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -11246,7 +13702,10 @@ You may {u} your hero.
       print: "SEA194",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633329",
+            url: "https://www.tcgplayer.com/product/633329?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -11304,7 +13763,7 @@ You may {u} your hero.
   },{
     artists: ["Rio Sabda"],
     cardIdentifier: "polly-cranka",
-    classes: [],
+    classes: [Class.Generic],
     defaultImage: "SEA003",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Puffin],
@@ -11319,7 +13778,10 @@ You may {u} your hero.
       print: "SEA003-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630332",
+            url: "https://www.tcgplayer.com/product/630332?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -11386,18 +13848,6 @@ You may {u} your hero.
     name: "Portside Exchange",
     printings: [{
         artists: ["Nikko Wahyudi"],
-      foiling: Foiling.C,
-      identifier: "SEA145",
-      image: "SEA145_V2",
-      
-      
-      print: "SEA145-Cold-Extended Art",
-      rarity: Rarity.Rare,
-      set: Release.HighSeas,
-      
-      treatment: Treatment.EA,treatments: [Treatment.EA],
-    },{
-        artists: ["Nikko Wahyudi"],
       
       identifier: "SEA145",
       image: "SEA145",
@@ -11406,8 +13856,41 @@ You may {u} your hero.
       print: "SEA145",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631889",
+            url: "https://www.tcgplayer.com/product/631889?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.R,
+      identifier: "SEA145",
+      image: "SEA145",
       
       
+      print: "SEA145-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631889",
+            url: "https://www.tcgplayer.com/product/631889?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.C,
+      identifier: "SEA145",
+      image: "SEA145_V2",
+      
+      
+      print: "SEA145-Cold-Extended Art",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631889",
+            url: "https://www.tcgplayer.com/product/631889?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -11455,7 +13938,7 @@ You may {u} your hero.
     classes: [Class.Generic],
     defaultImage: "SEA195",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Pounamu Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -11467,7 +13950,10 @@ You may {u} your hero.
       print: "SEA195",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633330",
+            url: "https://www.tcgplayer.com/product/633330?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -11540,7 +14026,25 @@ You may {u} your hero.
       print: "SEA252",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633372",
+            url: "https://www.tcgplayer.com/product/633372?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Olga Tereshenko"],
+      foiling: Foiling.R,
+      identifier: "SEA252",
+      image: "SEA252",
+      isExpansionSlot: true,
+      
+      print: "SEA252-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633372",
+            url: "https://www.tcgplayer.com/product/633372?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11698,7 +14202,10 @@ The second time you crank each turn, draw a card.`,
       print: "SEA001-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624356",
+            url: "https://www.tcgplayer.com/product/624356?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Arif Wijaya"],
@@ -11710,13 +14217,16 @@ The second time you crank each turn, draw a card.`,
       print: "SEA001-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624356",
+            url: "https://www.tcgplayer.com/product/624356?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
-    setIdentifiers: ["HER137","SEA001"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["SEA001"],
+    sets: [Release.HighSeas],
     specialImage: "SEA001_V2",
     subtypes: [],
     types: [Type.Hero],
@@ -11759,7 +14269,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA185",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Quartermaster's Boots",
     printings: [{
         artists: ["Brian Adriel"],
@@ -11771,7 +14281,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA185",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633322",
+            url: "https://www.tcgplayer.com/product/633322?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Brian Adriel"],
+      foiling: Foiling.C,
+      identifier: "SEA185",
+      image: "SEA185",
+      
+      
+      print: "SEA185-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633322",
+            url: "https://www.tcgplayer.com/product/633322?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11820,7 +14348,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA186",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Quick Clicks",
     printings: [{
         artists: ["Raphael Pinna"],
@@ -11832,7 +14360,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA186",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633323",
+            url: "https://www.tcgplayer.com/product/633323?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Raphael Pinna"],
+      foiling: Foiling.C,
+      identifier: "SEA186",
+      image: "SEA186",
+      
+      
+      print: "SEA186-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633323",
+            url: "https://www.tcgplayer.com/product/633323?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11879,7 +14425,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA223",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Rally the Coast Guard",
     printings: [{
         artists: ["Marcus Reyno"],
@@ -11891,7 +14437,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA223",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633351",
+            url: "https://www.tcgplayer.com/product/633351?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marcus Reyno"],
+      foiling: Foiling.R,
+      identifier: "SEA223",
+      image: "SEA223",
+      
+      
+      print: "SEA223-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633351",
+            url: "https://www.tcgplayer.com/product/633351?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11938,7 +14502,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA224",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Rally the Coast Guard",
     printings: [{
         artists: ["Marcus Reyno"],
@@ -11950,7 +14514,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA224",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633352",
+            url: "https://www.tcgplayer.com/product/633352?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marcus Reyno"],
+      foiling: Foiling.R,
+      identifier: "SEA224",
+      image: "SEA224",
+      
+      
+      print: "SEA224-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633352",
+            url: "https://www.tcgplayer.com/product/633352?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11997,7 +14579,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA225",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Rally the Coast Guard",
     printings: [{
         artists: ["Marcus Reyno"],
@@ -12009,7 +14591,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA225",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633353",
+            url: "https://www.tcgplayer.com/product/633353?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Marcus Reyno"],
+      foiling: Foiling.R,
+      identifier: "SEA225",
+      image: "SEA225",
+      
+      
+      print: "SEA225-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633353",
+            url: "https://www.tcgplayer.com/product/633353?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12056,7 +14656,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA219",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Ravenous Rabble",
     printings: [{
         artists: ["Max Kostin"],
@@ -12068,7 +14668,10 @@ The second time you crank each turn, draw a card.`,
       print: "SEA219",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633347",
+            url: "https://www.tcgplayer.com/product/633347?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -12129,7 +14732,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA090",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632646",
+            url: "https://www.tcgplayer.com/product/632646?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.R,
+      identifier: "SEA090",
+      image: "SEA090",
+      
+      
+      print: "SEA090-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632646",
+            url: "https://www.tcgplayer.com/product/632646?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12191,10 +14812,10 @@ The second time you crank each turn, draw a card.`,
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA094"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS400","SEA094"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA094",
     subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
@@ -12235,7 +14856,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA210",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Regain Composure",
     printings: [{
         artists: ["Junaidi Lim"],
@@ -12247,7 +14868,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA210",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633342",
+            url: "https://www.tcgplayer.com/product/633342?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Junaidi Lim"],
+      foiling: Foiling.R,
+      identifier: "SEA210",
+      image: "SEA210",
+      
+      
+      print: "SEA210-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633342",
+            url: "https://www.tcgplayer.com/product/633342?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -12308,7 +14947,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA071",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633245",
+            url: "https://www.tcgplayer.com/product/633245?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA071",
+      image: "SEA071",
+      
+      
+      print: "SEA071-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633245",
+            url: "https://www.tcgplayer.com/product/633245?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12330,7 +14987,7 @@ The second time you crank each turn, draw a card.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -12367,7 +15024,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA072",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633246",
+            url: "https://www.tcgplayer.com/product/633246?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA072",
+      image: "SEA072",
+      
+      
+      print: "SEA072-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633246",
+            url: "https://www.tcgplayer.com/product/633246?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12389,7 +15064,7 @@ The second time you crank each turn, draw a card.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -12426,7 +15101,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA073",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633247",
+            url: "https://www.tcgplayer.com/product/633247?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA073",
+      image: "SEA073",
+      
+      
+      print: "SEA073-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633247",
+            url: "https://www.tcgplayer.com/product/633247?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12448,7 +15141,7 @@ The second time you crank each turn, draw a card.`,
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -12485,7 +15178,25 @@ The second time you crank each turn, draw a card.`,
       print: "SEA099",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632650",
+            url: "https://www.tcgplayer.com/product/632650?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA099",
+      image: "SEA099",
+      
+      
+      print: "SEA099-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632650",
+            url: "https://www.tcgplayer.com/product/632650?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -12532,7 +15243,7 @@ The second time you crank each turn, draw a card.`,
     classes: [Class.Generic],
     defaultImage: "SEA000",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Riches of Trōpal-Dhani",
     printings: [{
         artists: ["Tanapon Wachirakul"],
@@ -12544,7 +15255,10 @@ The second time you crank each turn, draw a card.`,
       print: "SEA000-Rainbow",
       rarity: Rarity.Fabled,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633209",
+            url: "https://www.tcgplayer.com/product/633209?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Fabled],
@@ -12605,7 +15319,25 @@ When this is pitched, create a Gold token.`,
       print: "SEA256",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633375",
+            url: "https://www.tcgplayer.com/product/633375?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.R,
+      identifier: "SEA256",
+      image: "SEA256",
+      isExpansionSlot: true,
+      
+      print: "SEA256-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633375",
+            url: "https://www.tcgplayer.com/product/633375?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -12727,7 +15459,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     classes: [Class.Generic],
     defaultImage: "SEA196",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Ruby Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -12739,7 +15471,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA196",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633331",
+            url: "https://www.tcgplayer.com/product/633331?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -12812,7 +15547,25 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA009",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633211",
+            url: "https://www.tcgplayer.com/product/633211?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.C,
+      identifier: "SEA009",
+      image: "SEA009",
+      
+      
+      print: "SEA009-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633211",
+            url: "https://www.tcgplayer.com/product/633211?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12873,7 +15626,25 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA092",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633250",
+            url: "https://www.tcgplayer.com/product/633250?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Eryk Szczygieł"],
+      foiling: Foiling.R,
+      identifier: "SEA092",
+      image: "SEA092",
+      
+      
+      print: "SEA092-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633250",
+            url: "https://www.tcgplayer.com/product/633250?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12932,7 +15703,25 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA141",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633283",
+            url: "https://www.tcgplayer.com/product/633283?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.R,
+      identifier: "SEA141",
+      image: "SEA141",
+      
+      
+      print: "SEA141-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633283",
+            url: "https://www.tcgplayer.com/product/633283?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -12944,7 +15733,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA141-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633283",
+            url: "https://www.tcgplayer.com/product/633283?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -13005,7 +15797,25 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA142",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633284",
+            url: "https://www.tcgplayer.com/product/633284?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.R,
+      identifier: "SEA142",
+      image: "SEA142",
+      
+      
+      print: "SEA142-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633284",
+            url: "https://www.tcgplayer.com/product/633284?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -13017,7 +15827,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA142-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633284",
+            url: "https://www.tcgplayer.com/product/633284?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -13079,7 +15892,25 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA143",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633285",
+            url: "https://www.tcgplayer.com/product/633285?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.R,
+      identifier: "SEA143",
+      image: "SEA143",
+      
+      
+      print: "SEA143-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633285",
+            url: "https://www.tcgplayer.com/product/633285?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -13091,7 +15922,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA143-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633285",
+            url: "https://www.tcgplayer.com/product/633285?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -13152,7 +15986,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA114",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633264",
+            url: "https://www.tcgplayer.com/product/633264?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13211,7 +16048,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA115",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633265",
+            url: "https://www.tcgplayer.com/product/633265?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13270,7 +16110,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA116",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633266",
+            url: "https://www.tcgplayer.com/product/633266?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13317,7 +16160,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     classes: [Class.Generic],
     defaultImage: "SEA197",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Sapphire Amulet",
     printings: [{
         artists: ["Mario Wibisono"],
@@ -13329,7 +16172,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA197",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633332",
+            url: "https://www.tcgplayer.com/product/633332?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -13402,7 +16248,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA264-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633382",
+            url: "https://www.tcgplayer.com/product/633382?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -13453,7 +16302,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     classes: [Class.Generic],
     defaultImage: "SEA218",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Scar for a Scar",
     printings: [{
         artists: ["Arif Wijaya"],
@@ -13465,7 +16314,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA218",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633346",
+            url: "https://www.tcgplayer.com/product/633346?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -13524,7 +16376,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA061",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632087",
+            url: "https://www.tcgplayer.com/product/632087?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -13536,13 +16391,16 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA061-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632088",
+            url: "https://www.tcgplayer.com/product/632088?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA061"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS407","SEA061"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA061_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -13553,7 +16411,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     cost: 0,
     
     
-    functionalText: `**Action** - {r}{r}{r}, {t}: Attack
+    functionalText: `**Action** - {r}{r}{r}, {t}: **Attack**
 
 When this attacks, you may put a yellow card from a graveyard on the bottom of its owner's deck. If you do, create a Gold token.
 
@@ -13599,7 +16457,25 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
       print: "SEA109",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633259",
+            url: "https://www.tcgplayer.com/product/633259?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.R,
+      identifier: "SEA109",
+      image: "SEA109",
+      
+      
+      print: "SEA109-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633259",
+            url: "https://www.tcgplayer.com/product/633259?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13658,7 +16534,25 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
       print: "SEA147",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633288",
+            url: "https://www.tcgplayer.com/product/633288?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Widya Wang"],
+      foiling: Foiling.R,
+      identifier: "SEA147",
+      image: "SEA147",
+      
+      
+      print: "SEA147-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633288",
+            url: "https://www.tcgplayer.com/product/633288?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Widya Wang"],
@@ -13670,7 +16564,10 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
       print: "SEA147-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633288",
+            url: "https://www.tcgplayer.com/product/633288?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -13731,7 +16628,10 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
       print: "SEA123",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633273",
+            url: "https://www.tcgplayer.com/product/633273?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -13792,7 +16692,25 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA146",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633287",
+            url: "https://www.tcgplayer.com/product/633287?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.R,
+      identifier: "SEA146",
+      image: "SEA146",
+      
+      
+      print: "SEA146-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633287",
+            url: "https://www.tcgplayer.com/product/633287?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Yiian Kho"],
@@ -13804,7 +16722,10 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA146-Cold-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633287",
+            url: "https://www.tcgplayer.com/product/633287?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Rare],
@@ -13853,7 +16774,7 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     classes: [Class.Generic],
     defaultImage: "SEA187",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Sea Legs",
     printings: [{
         artists: ["Carlos Cruchaga"],
@@ -13865,7 +16786,25 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA187",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633324",
+            url: "https://www.tcgplayer.com/product/633324?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SEA187",
+      image: "SEA187",
+      
+      
+      print: "SEA187-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633324",
+            url: "https://www.tcgplayer.com/product/633324?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -13924,7 +16863,10 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA095-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632648",
+            url: "https://www.tcgplayer.com/product/632648?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["SanSan"],
@@ -13936,7 +16878,10 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA095-Cold-Extended Art",
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632648",
+            url: "https://www.tcgplayer.com/product/632648?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary],
@@ -13997,7 +16942,10 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA078",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632091",
+            url: "https://www.tcgplayer.com/product/632091?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Henrique Lindner"],
@@ -14009,13 +16957,16 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA078-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632092",
+            url: "https://www.tcgplayer.com/product/632092?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA078"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS408","SEA078"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA078_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -14026,7 +16977,7 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
     cost: 2,
     
     
-    functionalText: `**Action** - {r}{r}{r}, {t}: Attack
+    functionalText: `**Action** - {r}{r}{r}, {t}: **Attack**
 
 **Instant** - {t}: The next attack action card you defend with this turn gets +1{d}.
 
@@ -14072,7 +17023,25 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA148",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633289",
+            url: "https://www.tcgplayer.com/product/633289?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA148",
+      image: "SEA148",
+      
+      
+      print: "SEA148-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633289",
+            url: "https://www.tcgplayer.com/product/633289?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -14084,7 +17053,10 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       print: "SEA148-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633289",
+            url: "https://www.tcgplayer.com/product/633289?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14145,7 +17117,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA117",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633267",
+            url: "https://www.tcgplayer.com/product/633267?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -14204,7 +17179,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA118",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633268",
+            url: "https://www.tcgplayer.com/product/633268?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -14263,7 +17241,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA119",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633269",
+            url: "https://www.tcgplayer.com/product/633269?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -14322,7 +17303,25 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA105",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633255",
+            url: "https://www.tcgplayer.com/product/633255?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.R,
+      identifier: "SEA105",
+      image: "SEA105",
+      
+      
+      print: "SEA105-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633255",
+            url: "https://www.tcgplayer.com/product/633255?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -14346,7 +17345,7 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Overpower],
     
     
     
@@ -14371,7 +17370,7 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     classes: [Class.Generic],
     defaultImage: "SEA226",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Sirens of Safe Harbor",
     printings: [{
         artists: ["Yiian Kho"],
@@ -14383,7 +17382,25 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA226",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632074",
+            url: "https://www.tcgplayer.com/product/632074?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.R,
+      identifier: "SEA226",
+      image: "SEA226",
+      
+      
+      print: "SEA226-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632074",
+            url: "https://www.tcgplayer.com/product/632074?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14430,7 +17447,7 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     classes: [Class.Generic],
     defaultImage: "SEA227",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Sirens of Safe Harbor",
     printings: [{
         artists: ["Yiian Kho"],
@@ -14442,7 +17459,25 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA227",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632075",
+            url: "https://www.tcgplayer.com/product/632075?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.R,
+      identifier: "SEA227",
+      image: "SEA227",
+      
+      
+      print: "SEA227-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632075",
+            url: "https://www.tcgplayer.com/product/632075?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14489,7 +17524,7 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     classes: [Class.Generic],
     defaultImage: "SEA228",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Sirens of Safe Harbor",
     printings: [{
         artists: ["Yiian Kho"],
@@ -14501,7 +17536,25 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA228",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632076",
+            url: "https://www.tcgplayer.com/product/632076?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.R,
+      identifier: "SEA228",
+      image: "SEA228",
+      
+      
+      print: "SEA228-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632076",
+            url: "https://www.tcgplayer.com/product/632076?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14560,7 +17613,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA027",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624361",
+            url: "https://www.tcgplayer.com/product/624361?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -14572,7 +17628,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA027-Rainbow",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624361",
+            url: "https://www.tcgplayer.com/product/624361?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14631,7 +17690,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA028",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624362",
+            url: "https://www.tcgplayer.com/product/624362?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -14643,7 +17705,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA028-Rainbow",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624362",
+            url: "https://www.tcgplayer.com/product/624362?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14702,7 +17767,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA029",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624363",
+            url: "https://www.tcgplayer.com/product/624363?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -14714,7 +17782,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA029-Rainbow",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "624363",
+            url: "https://www.tcgplayer.com/product/624363?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14776,10 +17847,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA007"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS397","SEA007"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA007",
     subtypes: [Subtype.TwoHanded,Subtype.Gun],
     types: [Type.Weapon],
@@ -14790,7 +17861,7 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
     
     
     
-    functionalText: `**Action** - {t}, {t} a cog you control: Attack
+    functionalText: `**Action** - {t}, {t} a cog you control: **Attack**
 
 When this attacks, you may {t} a cog you control. If you do, the attack gets +1{p}.`,
     
@@ -14819,7 +17890,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
   },{
     artists: ["Jessketchin"],
     cardIdentifier: "sticky-fingers",
-    classes: [],
+    classes: [Class.Generic],
     defaultImage: "SEA124",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Scurv],
@@ -14851,16 +17922,16 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
     
     
     
-    functionalText: `**Action** - {t}: Attack. If this is equipped, unequip it.
+    functionalText: `**Action** - {t}: **Attack**. If this is equipped, unequip it.
 
-When this attacks a hero, steal a Gold token they control.
+When this attacks a hero, **steal** a Gold token they control.
 
 **Perched**`,
     
     
     
     
-    
+    keywords: [Keyword.Steal],
     
     life: 2,
     metatypes: [Metatype.Scurv],
@@ -14885,7 +17956,7 @@ When this attacks a hero, steal a Gold token they control.
     classes: [Class.Generic],
     defaultImage: "SEA229",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Strike Gold",
     printings: [{
         artists: ["Saad Irfan"],
@@ -14897,7 +17968,25 @@ When this attacks a hero, steal a Gold token they control.
       print: "SEA229",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633354",
+            url: "https://www.tcgplayer.com/product/633354?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "SEA229",
+      image: "SEA229",
+      
+      
+      print: "SEA229-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633354",
+            url: "https://www.tcgplayer.com/product/633354?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14944,7 +18033,7 @@ When this attacks a hero, steal a Gold token they control.
     classes: [Class.Generic],
     defaultImage: "SEA230",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Strike Gold",
     printings: [{
         artists: ["Saad Irfan"],
@@ -14956,7 +18045,25 @@ When this attacks a hero, steal a Gold token they control.
       print: "SEA230",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633355",
+            url: "https://www.tcgplayer.com/product/633355?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "SEA230",
+      image: "SEA230",
+      
+      
+      print: "SEA230-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633355",
+            url: "https://www.tcgplayer.com/product/633355?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15003,7 +18110,7 @@ When this attacks a hero, steal a Gold token they control.
     classes: [Class.Generic],
     defaultImage: "SEA231",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Strike Gold",
     printings: [{
         artists: ["Saad Irfan"],
@@ -15015,7 +18122,25 @@ When this attacks a hero, steal a Gold token they control.
       print: "SEA231",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633356",
+            url: "https://www.tcgplayer.com/product/633356?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.R,
+      identifier: "SEA231",
+      image: "SEA231",
+      
+      
+      print: "SEA231-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633356",
+            url: "https://www.tcgplayer.com/product/633356?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15074,7 +18199,25 @@ When this attacks a hero, steal a Gold token they control.
       print: "SEA133",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "630336",
+            url: "https://www.tcgplayer.com/product/630336?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.R,
+      identifier: "SEA133",
+      image: "SEA133",
+      
+      
+      print: "SEA133-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "630336",
+            url: "https://www.tcgplayer.com/product/630336?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Ramza Ardyputra"],
@@ -15086,7 +18229,10 @@ When this attacks a hero, steal a Gold token they control.
       print: "SEA133-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "630336",
+            url: "https://www.tcgplayer.com/product/633624?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -15133,7 +18279,7 @@ When this attacks a hero, steal a Gold token they control.
     classes: [Class.Guardian],
     defaultImage: "SEA251",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
-    legalHeroes: [Hero.Betsy,Hero.Bravo,Hero.Brevant,Hero.Jarl,Hero.Oldhim,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Oldhim,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
     name: "Surface Shaking",
     printings: [{
         artists: ["Flora Silve"],
@@ -15145,7 +18291,25 @@ When this attacks a hero, steal a Gold token they control.
       print: "SEA251",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633371",
+            url: "https://www.tcgplayer.com/product/633371?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Flora Silve"],
+      foiling: Foiling.R,
+      identifier: "SEA251",
+      image: "SEA251",
+      isExpansionSlot: true,
+      
+      print: "SEA251-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633371",
+            url: "https://www.tcgplayer.com/product/633371?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -15208,7 +18372,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA079",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632071",
+            url: "https://www.tcgplayer.com/product/632071?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -15220,13 +18387,16 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA079-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "632072",
+            url: "https://www.tcgplayer.com/product/632072?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA079"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["LGS409","SEA079"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA079_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -15237,7 +18407,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     cost: 3,
     
     
-    functionalText: `**Action** - {r}{r}, {t}: Attack
+    functionalText: `**Action** - {r}{r}, {t}: **Attack**
 
 **Watery Grave**`,
     
@@ -15281,7 +18451,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA110",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633260",
+            url: "https://www.tcgplayer.com/product/633260?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Soffani Soffa"],
+      foiling: Foiling.R,
+      identifier: "SEA110",
+      image: "SEA110",
+      
+      
+      print: "SEA110-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633260",
+            url: "https://www.tcgplayer.com/product/633260?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15303,7 +18491,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     
     
     
-    
+    keywords: [Keyword.GoAgain],
     
     
     
@@ -15328,7 +18516,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     classes: [Class.Generic],
     defaultImage: "SEA183",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Swiftstrike Bracers",
     printings: [{
         artists: ["Orson CaptainSass"],
@@ -15340,7 +18528,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA183",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633320",
+            url: "https://www.tcgplayer.com/product/633320?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.C,
+      identifier: "SEA183",
+      image: "SEA183",
+      
+      
+      print: "SEA183-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633320",
+            url: "https://www.tcgplayer.com/product/633320?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15399,7 +18605,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA166",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633303",
+            url: "https://www.tcgplayer.com/product/633303?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arghawana Rim"],
+      foiling: Foiling.R,
+      identifier: "SEA166",
+      image: "SEA166",
+      
+      
+      print: "SEA166-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633303",
+            url: "https://www.tcgplayer.com/product/633303?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Arghawana Rim"],
@@ -15411,7 +18635,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA166-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633303",
+            url: "https://www.tcgplayer.com/product/633303?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -15428,7 +18655,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     cost: 2,
     defense: 2,
     
-    functionalText: `High Tide - If there are 2 or more blue cards in your pitch zone, this gets go again.`,
+    functionalText: `High Tide - If there are 2 or more blue cards in your pitch zone, this gets **go again**.`,
     
     
     
@@ -15470,7 +18697,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA167",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633304",
+            url: "https://www.tcgplayer.com/product/633304?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arghawana Rim"],
+      foiling: Foiling.R,
+      identifier: "SEA167",
+      image: "SEA167",
+      
+      
+      print: "SEA167-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633304",
+            url: "https://www.tcgplayer.com/product/633304?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Arghawana Rim"],
@@ -15482,7 +18727,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA167-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633304",
+            url: "https://www.tcgplayer.com/product/633304?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -15499,7 +18747,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     cost: 2,
     defense: 2,
     
-    functionalText: `High Tide - If there are 2 or more blue cards in your pitch zone, this gets go again.`,
+    functionalText: `High Tide - If there are 2 or more blue cards in your pitch zone, this gets **go again**.`,
     
     
     
@@ -15541,7 +18789,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA168",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633305",
+            url: "https://www.tcgplayer.com/product/633305?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Arghawana Rim"],
+      foiling: Foiling.R,
+      identifier: "SEA168",
+      image: "SEA168",
+      
+      
+      print: "SEA168-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633305",
+            url: "https://www.tcgplayer.com/product/633305?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Arghawana Rim"],
@@ -15553,7 +18819,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA168-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633305",
+            url: "https://www.tcgplayer.com/product/633305?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -15570,7 +18839,7 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
     cost: 2,
     defense: 2,
     
-    functionalText: `High Tide - If there are 2 or more blue cards in your pitch zone, this gets go again.`,
+    functionalText: `High Tide - If there are 2 or more blue cards in your pitch zone, this gets **go again**.`,
     
     
     
@@ -15612,7 +18881,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA169",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633306",
+            url: "https://www.tcgplayer.com/product/633306?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA169",
+      image: "SEA169",
+      
+      
+      print: "SEA169-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633306",
+            url: "https://www.tcgplayer.com/product/633306?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -15624,7 +18911,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA169-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633306",
+            url: "https://www.tcgplayer.com/product/633306?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15683,7 +18973,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA170",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633307",
+            url: "https://www.tcgplayer.com/product/633307?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA170",
+      image: "SEA170",
+      
+      
+      print: "SEA170-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633307",
+            url: "https://www.tcgplayer.com/product/633307?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -15695,7 +19003,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA170-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633307",
+            url: "https://www.tcgplayer.com/product/633307?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15754,7 +19065,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA171",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633308",
+            url: "https://www.tcgplayer.com/product/633308?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Max Kostin"],
+      foiling: Foiling.R,
+      identifier: "SEA171",
+      image: "SEA171",
+      
+      
+      print: "SEA171-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633308",
+            url: "https://www.tcgplayer.com/product/633308?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -15766,7 +19095,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA171-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633308",
+            url: "https://www.tcgplayer.com/product/633308?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15825,7 +19157,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA030",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633222",
+            url: "https://www.tcgplayer.com/product/633222?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "SEA030",
+      image: "SEA030",
+      
+      
+      print: "SEA030-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633222",
+            url: "https://www.tcgplayer.com/product/633222?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15884,7 +19234,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA031",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633223",
+            url: "https://www.tcgplayer.com/product/633223?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "SEA031",
+      image: "SEA031",
+      
+      
+      print: "SEA031-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633223",
+            url: "https://www.tcgplayer.com/product/633223?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15943,7 +19311,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA032",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633224",
+            url: "https://www.tcgplayer.com/product/633224?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "SEA032",
+      image: "SEA032",
+      
+      
+      print: "SEA032-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633224",
+            url: "https://www.tcgplayer.com/product/633224?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16002,7 +19388,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA172",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633309",
+            url: "https://www.tcgplayer.com/product/633309?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.R,
+      identifier: "SEA172",
+      image: "SEA172",
+      
+      
+      print: "SEA172-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633309",
+            url: "https://www.tcgplayer.com/product/633309?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Andrew Chou"],
@@ -16014,7 +19418,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA172-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633309",
+            url: "https://www.tcgplayer.com/product/633309?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16073,7 +19480,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA150",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633291",
+            url: "https://www.tcgplayer.com/product/633291?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.R,
+      identifier: "SEA150",
+      image: "SEA150",
+      
+      
+      print: "SEA150-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633291",
+            url: "https://www.tcgplayer.com/product/633291?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Jefrey Yonathan"],
@@ -16085,7 +19510,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA150-Cold",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633291",
+            url: "https://www.tcgplayer.com/product/633291?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -16144,7 +19572,25 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       print: "SEA041",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632069",
+            url: "https://www.tcgplayer.com/product/632069?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Kyxarie Peralta"],
+      foiling: Foiling.R,
+      identifier: "SEA041",
+      image: "SEA041",
+      
+      
+      print: "SEA041-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632069",
+            url: "https://www.tcgplayer.com/product/632069?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16207,7 +19653,25 @@ You may {u} a cog you control.
       print: "SEA132",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631755",
+            url: "https://www.tcgplayer.com/product/631755?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SEA132",
+      image: "SEA132",
+      
+      
+      print: "SEA132-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631755",
+            url: "https://www.tcgplayer.com/product/631755?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -16219,7 +19683,10 @@ You may {u} a cog you control.
       print: "SEA132-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "631755",
+            url: "https://www.tcgplayer.com/product/633623?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -16270,7 +19737,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
     classes: [Class.Generic],
     defaultImage: "SEA211",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Tit for Tat",
     printings: [{
         artists: ["Peyeyo"],
@@ -16282,7 +19749,25 @@ You may give a Gold token you control to another hero. If you do, put this on th
       print: "SEA211",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633343",
+            url: "https://www.tcgplayer.com/product/633343?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.R,
+      identifier: "SEA211",
+      image: "SEA211",
+      
+      
+      print: "SEA211-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633343",
+            url: "https://www.tcgplayer.com/product/633343?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -16343,7 +19828,25 @@ You may give a Gold token you control to another hero. If you do, put this on th
       print: "SEA033",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633225",
+            url: "https://www.tcgplayer.com/product/633225?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.R,
+      identifier: "SEA033",
+      image: "SEA033",
+      
+      
+      print: "SEA033-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633225",
+            url: "https://www.tcgplayer.com/product/633225?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16402,7 +19905,25 @@ You may give a Gold token you control to another hero. If you do, put this on th
       print: "SEA034",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633226",
+            url: "https://www.tcgplayer.com/product/633226?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.R,
+      identifier: "SEA034",
+      image: "SEA034",
+      
+      
+      print: "SEA034-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633226",
+            url: "https://www.tcgplayer.com/product/633226?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16461,7 +19982,25 @@ You may give a Gold token you control to another hero. If you do, put this on th
       print: "SEA035",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633227",
+            url: "https://www.tcgplayer.com/product/633227?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.R,
+      identifier: "SEA035",
+      image: "SEA035",
+      
+      
+      print: "SEA035-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633227",
+            url: "https://www.tcgplayer.com/product/633227?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16508,7 +20047,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
     classes: [Class.Generic],
     defaultImage: "SEA232",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Trade In",
     printings: [{
         artists: ["Tanapon Wachirakul"],
@@ -16520,7 +20059,10 @@ You may give a Gold token you control to another hero. If you do, put this on th
       print: "SEA232",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633357",
+            url: "https://www.tcgplayer.com/product/633357?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16539,7 +20081,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
     
     functionalText: `When this attacks, you may discard a card. If you do, draw a card.
 
-If this was played from arsenal, it gets **go again**.`,
+If this was played from arsenal, it gains **go again**.`,
     
     
     
@@ -16569,7 +20111,7 @@ If this was played from arsenal, it gets **go again**.`,
     classes: [Class.Generic],
     defaultImage: "SEA233",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Trade In",
     printings: [{
         artists: ["Tanapon Wachirakul"],
@@ -16581,7 +20123,10 @@ If this was played from arsenal, it gets **go again**.`,
       print: "SEA233",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633358",
+            url: "https://www.tcgplayer.com/product/633358?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16600,7 +20145,7 @@ If this was played from arsenal, it gets **go again**.`,
     
     functionalText: `When this attacks, you may discard a card. If you do, draw a card.
 
-If this was played from arsenal, it gets **go again**.`,
+If this was played from arsenal, it gains **go again**.`,
     
     
     
@@ -16630,7 +20175,7 @@ If this was played from arsenal, it gets **go again**.`,
     classes: [Class.Generic],
     defaultImage: "SEA234",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Trade In",
     printings: [{
         artists: ["Tanapon Wachirakul"],
@@ -16642,7 +20187,10 @@ If this was played from arsenal, it gets **go again**.`,
       print: "SEA234",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633359",
+            url: "https://www.tcgplayer.com/product/633359?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16661,7 +20209,7 @@ If this was played from arsenal, it gets **go again**.`,
     
     functionalText: `When this attacks, you may discard a card. If you do, draw a card.
 
-If this was played from arsenal, it gets **go again**.`,
+If this was played from arsenal, it gains **go again**.`,
     
     
     
@@ -16706,10 +20254,10 @@ If this was played from arsenal, it gets **go again**.`,
       
       
     },],
-    rarities: [Rarity.Basic,Rarity.Promo],
+    rarities: [Rarity.Basic],
     rarity: Rarity.Basic,
-    setIdentifiers: ["FAB340","SEA247"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["SEA247"],
+    sets: [Release.HighSeas],
     specialImage: "SEA247",
     subtypes: [Subtype.Landmark],
     types: [Type.Macro],
@@ -16764,7 +20312,25 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
       print: "SEA249",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633370",
+            url: "https://www.tcgplayer.com/product/633370?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.R,
+      identifier: "SEA249",
+      image: "SEA249",
+      isExpansionSlot: true,
+      
+      print: "SEA249-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633370",
+            url: "https://www.tcgplayer.com/product/633370?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -16825,7 +20391,40 @@ When this hits a hero, steal an item they control.`,
       print: "SEA010",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633212",
+            url: "https://www.tcgplayer.com/product/633212?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.R,
+      identifier: "SEA010",
+      image: "SEA010",
+      
+      
+      print: "SEA010-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633212",
+            url: "https://www.tcgplayer.com/product/633212?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.C,
+      identifier: "SEA010",
+      image: "SEA010",
+      
+      
+      print: "SEA010-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633212",
+            url: "https://www.tcgplayer.com/product/633212?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -16878,18 +20477,6 @@ When this hits a hero, steal an item they control.`,
     name: "Wailer Humperdinck",
     printings: [{
         artists: ["Joseph Qiu"],
-      foiling: Foiling.C,
-      identifier: "SEA052",
-      image: "SEA052_V2",
-      
-      
-      print: "SEA052-Cold-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.HighSeas,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Joseph Qiu"],
       
       identifier: "SEA052",
       image: "SEA052",
@@ -16898,8 +20485,26 @@ When this hits a hero, steal an item they control.`,
       print: "SEA052",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631885",
+            url: "https://www.tcgplayer.com/product/631885?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.C,
+      identifier: "SEA052",
+      image: "SEA052_V2",
       
       
+      print: "SEA052-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "631886",
+            url: "https://www.tcgplayer.com/product/631886?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
@@ -16915,7 +20520,7 @@ When this hits a hero, steal an item they control.`,
     cost: 6,
     
     
-    functionalText: `**Action** - {r}{r}{r} {r}{r}{r}, {t}: Attack
+    functionalText: `**Action** - {r}{r}{r} {r}{r}{r}, {t}: **Attack**
 
 **Watery Grave**`,
     
@@ -16947,7 +20552,7 @@ When this hits a hero, steal an item they control.`,
     classes: [Class.Generic],
     defaultImage: "SEA235",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Walk the Plank",
     printings: [{
         artists: ["Ausonia"],
@@ -16959,7 +20564,25 @@ When this hits a hero, steal an item they control.`,
       print: "SEA235",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633360",
+            url: "https://www.tcgplayer.com/product/633360?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ausonia"],
+      foiling: Foiling.R,
+      identifier: "SEA235",
+      image: "SEA235",
+      
+      
+      print: "SEA235-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633360",
+            url: "https://www.tcgplayer.com/product/633360?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -17006,7 +20629,7 @@ When this hits a hero, steal an item they control.`,
     classes: [Class.Generic],
     defaultImage: "SEA236",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Walk the Plank",
     printings: [{
         artists: ["Ausonia"],
@@ -17018,7 +20641,25 @@ When this hits a hero, steal an item they control.`,
       print: "SEA236",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633361",
+            url: "https://www.tcgplayer.com/product/633361?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ausonia"],
+      foiling: Foiling.R,
+      identifier: "SEA236",
+      image: "SEA236",
+      
+      
+      print: "SEA236-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633361",
+            url: "https://www.tcgplayer.com/product/633361?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -17065,7 +20706,7 @@ When this hits a hero, steal an item they control.`,
     classes: [Class.Generic],
     defaultImage: "SEA237",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Prism,Hero.Puffin,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
     name: "Walk the Plank",
     printings: [{
         artists: ["Ausonia"],
@@ -17077,7 +20718,25 @@ When this hits a hero, steal an item they control.`,
       print: "SEA237",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633362",
+            url: "https://www.tcgplayer.com/product/633362?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Ausonia"],
+      foiling: Foiling.R,
+      identifier: "SEA237",
+      image: "SEA237",
+      
+      
+      print: "SEA237-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633362",
+            url: "https://www.tcgplayer.com/product/633362?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -17136,7 +20795,25 @@ When this hits a hero, steal an item they control.`,
       print: "SEA046",
       rarity: Rarity.Common,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633231",
+            url: "https://www.tcgplayer.com/product/633231?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.C,
+      identifier: "SEA046",
+      image: "SEA046",
+      
+      
+      print: "SEA046-Cold",
+      rarity: Rarity.Common,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633231",
+            url: "https://www.tcgplayer.com/product/633231?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -17197,7 +20874,25 @@ When this hits a hero, steal an item they control.`,
       print: "SEA091",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632647",
+            url: "https://www.tcgplayer.com/product/632647?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.R,
+      identifier: "SEA091",
+      image: "SEA091",
+      
+      
+      print: "SEA091-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "632647",
+            url: "https://www.tcgplayer.com/product/632647?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -17256,7 +20951,25 @@ When this hits a hero, steal an item they control.`,
       print: "SEA058",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633235",
+            url: "https://www.tcgplayer.com/product/633235?Language=English&Printing=Normal"
+          },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.R,
+      identifier: "SEA058",
+      image: "SEA058",
+      
+      
+      print: "SEA058-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.HighSeas,
+      tcgplayer: {
+            productId: "633235",
+            url: "https://www.tcgplayer.com/product/633235?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
