@@ -7895,7 +7895,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
   },{
     artists: ["Bastien Jez"],
-    cardIdentifier: "goldfin-harpoon-yellow",
+    cardIdentifier: "goldfin-harpoon",
     classes: [Class.Pirate,Class.Ranger],
     defaultImage: "SEA093",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
@@ -7954,7 +7954,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
     
-    pitch: 2,
+    
     power: 2,
     
     
