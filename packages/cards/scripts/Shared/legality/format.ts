@@ -33,8 +33,7 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
 );
 
 const CARDS_TO_LOG: string[] = [
-  // "Aurora, Shooting Star",
-  // "Star Fall",
+  // "Fightmaster Kox"
 ];
 
 export const getLegalFormats = (
@@ -59,7 +58,9 @@ export const getLegalFormats = (
   const isMacro = types.includes(Type.Macro);
   const isHero = types.includes(Type.Hero);
   const isYoung =
-    subtypes.includes(Subtype.Young) || classes.includes(Class.Adjudicator);
+    subtypes.includes(Subtype.Young) ||
+    classes.includes(Class.Adjudicator) ||
+    types.includes(Type.PitFighter);
   const isYoungHero = isYoung && isHero;
 
   for (const format of FORMATS_TO_CHECK) {
