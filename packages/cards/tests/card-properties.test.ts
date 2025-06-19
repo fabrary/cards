@@ -62,10 +62,12 @@ describe("All required fields present", () => {
     } = card as unknown as Card;
     expect(defaultImage).toBeTruthy();
     expect(defaultImage?.toLowerCase()).not.toEqual("undefined");
+    expect(defaultImage?.toLowerCase()).not.toEqual("/");
     expect(legalFormats.length).toBeGreaterThanOrEqual(1);
     expect(legalHeroes.length).toBeGreaterThanOrEqual(1);
     expect(specialImage).toBeTruthy();
     expect(specialImage?.toLowerCase()).not.toEqual("undefined");
+    expect(specialImage?.toLowerCase()).not.toEqual("/");
     expect(types.length || subtypes.length).toBeGreaterThan(0);
     expect(typeText).toBeTruthy();
     expect(printings.length).toBeGreaterThan(0);
