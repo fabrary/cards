@@ -12,6 +12,8 @@ const identifierExtensionMapping: { [key: string]: string } = {
 };
 
 const suffixOverrides: { [key: string]: string } = {
+  MPG112_V2: "-V2",
+  MPG112_V3: "-V3",
   MST158_V3: "-V3",
   ROS162_V2: "-V2",
   "ROS008-MV_V2_BACK": "-V3",

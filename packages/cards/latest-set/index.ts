@@ -54,7 +54,10 @@
       print: "SEA189-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633678",
+            url: "https://www.tcgplayer.com/product/633678?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -510,10 +513,10 @@
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AGB025","SEA056"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB025","GEM051","SEA056"],
+    sets: [Release.ArmoryDeckGravyBones,Release.GEM,Release.HighSeas],
     specialImage: "SEA056",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -568,7 +571,10 @@
       print: "SEA250",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634595",
+            url: "https://www.tcgplayer.com/product/634595?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tanapon Wachirakul"],
@@ -580,7 +586,10 @@
       print: "SEA250-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634595",
+            url: "https://www.tcgplayer.com/product/634595?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -672,8 +681,8 @@
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633316",
-            url: "https://www.tcgplayer.com/product/633316?Language=English&Printing=Cold+Foil"
+            productId: "633670",
+            url: "https://www.tcgplayer.com/product/633670?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -916,14 +925,14 @@
       image: "SEA152_V2",
       
       
-      print: "SEA152-Cold-Extended Art",
+      print: "SEA152-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633293",
-            url: "https://www.tcgplayer.com/product/633293?Language=English&Printing=Cold+Foil"
+            productId: "633643",
+            url: "https://www.tcgplayer.com/product/633643?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -1008,14 +1017,14 @@
       image: "SEA153_V2",
       
       
-      print: "SEA153-Cold-Extended Art",
+      print: "SEA153-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633294",
-            url: "https://www.tcgplayer.com/product/633294?Language=English&Printing=Cold+Foil"
+            productId: "633644",
+            url: "https://www.tcgplayer.com/product/633644?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -1100,14 +1109,14 @@
       image: "SEA154_V2",
       
       
-      print: "SEA154-Cold-Extended Art",
+      print: "SEA154-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633295",
-            url: "https://www.tcgplayer.com/product/633295?Language=English&Printing=Cold+Foil"
+            productId: "633645",
+            url: "https://www.tcgplayer.com/product/633645?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -1423,10 +1432,10 @@ When this hits, deal 1 damage to any target.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA089"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM054","SEA089"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA089",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
@@ -2253,8 +2262,8 @@ You may put an arrow from your hand face-up into your arsenal.
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633318",
-            url: "https://www.tcgplayer.com/product/633318?Language=English&Printing=Cold+Foil"
+            productId: "633672",
+            url: "https://www.tcgplayer.com/product/633672?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -2341,14 +2350,14 @@ You may put an arrow from your hand face-up into your arsenal.
       image: "SEA173_V2",
       
       
-      print: "SEA173-Cold",
+      print: "SEA173-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633310",
-            url: "https://www.tcgplayer.com/product/633310?Language=English&Printing=Cold+Foil"
+            productId: "633664",
+            url: "https://www.tcgplayer.com/product/633664?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -2437,14 +2446,14 @@ You may put a gold counter on Treasure Island.
       image: "SEA174_V2",
       
       
-      print: "SEA174-Cold",
+      print: "SEA174-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633311",
-            url: "https://www.tcgplayer.com/product/633311?Language=English&Printing=Cold+Foil"
+            productId: "633665",
+            url: "https://www.tcgplayer.com/product/633665?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -2533,14 +2542,14 @@ You may put a gold counter on Treasure Island.
       image: "SEA175_V2",
       
       
-      print: "SEA175-Cold",
+      print: "SEA175-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633312",
-            url: "https://www.tcgplayer.com/product/633312?Language=English&Printing=Cold+Foil"
+            productId: "633666",
+            url: "https://www.tcgplayer.com/product/633666?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -2779,13 +2788,16 @@ Create a Gold token for each yellow card put into your graveyard this way.
       print: "SEA050-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "636351",
+            url: "https://www.tcgplayer.com/product/636351?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA050"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM046","SEA050"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA050_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -2929,10 +2941,10 @@ At the start of your turn, destroy this.`,
           },
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA257"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM034","SEA257"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA257",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
     types: [Type.Weapon],
@@ -3245,10 +3257,10 @@ At the start of your turn, destroy this.`,
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA024"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM041","SEA024"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA024",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3615,13 +3627,16 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       print: "SEA006",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638042",
+            url: "https://www.tcgplayer.com/product/638042?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["LGS396","SEA006"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["GEM035","LGS396","SEA006"],
+    sets: [Release.GEM,Release.HighSeas,Release.Promos],
     specialImage: "SEA006",
     subtypes: [Subtype.TwoHanded,Subtype.Gun],
     types: [Type.Weapon],
@@ -3771,8 +3786,8 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633210",
-            url: "https://www.tcgplayer.com/product/633210?Language=English&Printing=Cold+Foil"
+            productId: "633613",
+            url: "https://www.tcgplayer.com/product/633613?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -4150,13 +4165,16 @@ Put a steam counter on up to 2 cogs you control.`,
       print: "SEA045",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638045",
+            url: "https://www.tcgplayer.com/product/638045?Language=English&Printing=Normal"
+          },
       
     },],
-    rarities: [Rarity.Basic,Rarity.Promo],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB003","LGS398","SEA045"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
+    setIdentifiers: ["AGB003","GEM037","LGS398","SEA045"],
+    sets: [Release.ArmoryDeckGravyBones,Release.GEM,Release.HighSeas,Release.Promos],
     specialImage: "SEA045",
     subtypes: [Subtype.OffHand],
     types: [Type.Equipment],
@@ -4238,14 +4256,14 @@ The first card with watery grave you play from your graveyard each turn gets **g
       image: "SEA130_V2",
       
       
-      print: "SEA130-Cold-Extended Art",
+      print: "SEA130-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "630337",
-            url: "https://www.tcgplayer.com/product/630337?Language=English&Printing=Cold+Foil"
+            productId: "633610",
+            url: "https://www.tcgplayer.com/product/633610?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -4388,7 +4406,10 @@ Deal 1 arcane damage to any target.`,
       print: "SEA021",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634587",
+            url: "https://www.tcgplayer.com/product/634587?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Galih M"],
@@ -4400,7 +4421,10 @@ Deal 1 arcane damage to any target.`,
       print: "SEA021-Rainbow",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634587",
+            url: "https://www.tcgplayer.com/product/634587?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4856,8 +4880,8 @@ When this hits a hero, destroy the top card of their deck.`,
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "632073",
-            url: "https://www.tcgplayer.com/product/632073?Language=English&Printing=Cold+Foil"
+            productId: "633617",
+            url: "https://www.tcgplayer.com/product/633617?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -5013,7 +5037,10 @@ When this hits a hero, destroy the top card of their deck.`,
       print: "SEA190-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633611",
+            url: "https://www.tcgplayer.com/product/633611?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -5101,14 +5128,14 @@ When this hits a hero, destroy the top card of their deck.`,
       image: "SEA144_V2",
       
       
-      print: "SEA144-Cold",
+      print: "SEA144-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633286",
-            url: "https://www.tcgplayer.com/product/633286?Language=English&Printing=Cold+Foil"
+            productId: "633635",
+            url: "https://www.tcgplayer.com/product/633635?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -5350,10 +5377,10 @@ You may {u} a gun you control.
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA106"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM059","SEA106"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA106",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
@@ -5427,10 +5454,10 @@ You may {u} a gun you control.
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA107"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM060","SEA107"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA107",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
@@ -5676,14 +5703,14 @@ Gain 1{h}`,
       image: "SEA155_V2",
       
       
-      print: "SEA155-Cold-Extended Art",
+      print: "SEA155-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "631756",
-            url: "https://www.tcgplayer.com/product/631756?Language=English&Printing=Cold+Foil"
+            productId: "633646",
+            url: "https://www.tcgplayer.com/product/633646?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5768,14 +5795,14 @@ Gain 1{h}`,
       image: "SEA156_V2",
       
       
-      print: "SEA156-Cold-Extended Art",
+      print: "SEA156-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "631757",
-            url: "https://www.tcgplayer.com/product/631757?Language=English&Printing=Cold+Foil"
+            productId: "633647",
+            url: "https://www.tcgplayer.com/product/633647?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5860,14 +5887,14 @@ Gain 1{h}`,
       image: "SEA157_V2",
       
       
-      print: "SEA157-Cold-Extended Art",
+      print: "SEA157-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "631758",
-            url: "https://www.tcgplayer.com/product/631758?Language=English&Printing=Cold+Foil"
+            productId: "633648",
+            url: "https://www.tcgplayer.com/product/633648?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5952,14 +5979,14 @@ Gain 1{h}`,
       image: "SEA158_V2",
       
       
-      print: "SEA158-Cold-Extended Art",
+      print: "SEA158-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "631759",
-            url: "https://www.tcgplayer.com/product/631759?Language=English&Printing=Cold+Foil"
+            productId: "633649",
+            url: "https://www.tcgplayer.com/product/633649?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -6038,10 +6065,10 @@ Gain 1{h}`,
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AGB013","SEA212"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB013","GEM066","SEA212"],
+    sets: [Release.ArmoryDeckGravyBones,Release.GEM,Release.HighSeas],
     specialImage: "SEA212",
     subtypes: [],
     types: [Type.Block],
@@ -6393,7 +6420,10 @@ You may {u} a bow you control.
       print: "SEA206",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634592",
+            url: "https://www.tcgplayer.com/product/634592?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["SanSan"],
@@ -6405,7 +6435,10 @@ You may {u} a bow you control.
       print: "SEA206-Rainbow",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634592",
+            url: "https://www.tcgplayer.com/product/634592?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -6466,7 +6499,10 @@ You may {u} a bow you control.
       print: "SEA207",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634593",
+            url: "https://www.tcgplayer.com/product/634593?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["SanSan"],
@@ -6478,7 +6514,10 @@ You may {u} a bow you control.
       print: "SEA207-Rainbow",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634593",
+            url: "https://www.tcgplayer.com/product/634593?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -6554,7 +6593,10 @@ You may {u} a bow you control.
       print: "SEA208-Rainbow",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634594",
+            url: "https://www.tcgplayer.com/product/634594?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -6787,8 +6829,8 @@ You may {u} a bow you control.
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633251",
-            url: "https://www.tcgplayer.com/product/633251?Language=English&Printing=Cold+Foil"
+            productId: "633621",
+            url: "https://www.tcgplayer.com/product/633621?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -6966,14 +7008,14 @@ You may {u} a bow you control.
       image: "SEA165_V2",
       
       
-      print: "SEA165-Cold-Extended Art",
+      print: "SEA165-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633302",
-            url: "https://www.tcgplayer.com/product/633302?Language=English&Printing=Cold+Foil"
+            productId: "633656",
+            url: "https://www.tcgplayer.com/product/633656?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7058,14 +7100,14 @@ You may {u} a bow you control.
       image: "SEA162_V2",
       
       
-      print: "SEA162-Cold-Extended Art",
+      print: "SEA162-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633299",
-            url: "https://www.tcgplayer.com/product/633299?Language=English&Printing=Cold+Foil"
+            productId: "633653",
+            url: "https://www.tcgplayer.com/product/633653?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7150,14 +7192,14 @@ You may {u} a bow you control.
       image: "SEA163_V2",
       
       
-      print: "SEA163-Cold-Extended Art",
+      print: "SEA163-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633300",
-            url: "https://www.tcgplayer.com/product/633300?Language=English&Printing=Cold+Foil"
+            productId: "633654",
+            url: "https://www.tcgplayer.com/product/633654?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7242,14 +7284,14 @@ You may {u} a bow you control.
       image: "SEA164_V2",
       
       
-      print: "SEA164-Cold-Extended Art",
+      print: "SEA164-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633301",
-            url: "https://www.tcgplayer.com/product/633301?Language=English&Printing=Cold+Foil"
+            productId: "633655",
+            url: "https://www.tcgplayer.com/product/633655?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7404,8 +7446,8 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "630338",
-            url: "https://www.tcgplayer.com/product/630338?Language=English&Printing=Cold+Foil"
+            productId: "633609",
+            url: "https://www.tcgplayer.com/product/633609?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -7467,7 +7509,10 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
       print: "SEA042",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638043",
+            url: "https://www.tcgplayer.com/product/638043?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -7662,14 +7707,14 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       image: "SEA159_V2",
       
       
-      print: "SEA159-Cold",
+      print: "SEA159-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633296",
-            url: "https://www.tcgplayer.com/product/633296?Language=English&Printing=Cold+Foil"
+            productId: "633650",
+            url: "https://www.tcgplayer.com/product/633650?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7756,14 +7801,14 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       image: "SEA160_V2",
       
       
-      print: "SEA160-Cold",
+      print: "SEA160-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633297",
-            url: "https://www.tcgplayer.com/product/633297?Language=English&Printing=Cold+Foil"
+            productId: "633651",
+            url: "https://www.tcgplayer.com/product/633651?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7850,14 +7895,14 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       image: "SEA161_V2",
       
       
-      print: "SEA161-Cold",
+      print: "SEA161-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633298",
-            url: "https://www.tcgplayer.com/product/633298?Language=English&Printing=Cold+Foil"
+            productId: "633652",
+            url: "https://www.tcgplayer.com/product/633652?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7917,7 +7962,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "SEA093",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638050",
+            url: "https://www.tcgplayer.com/product/638050?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -8001,24 +8049,30 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
       
       print: "SEA245-Rainbow-Full Art",
-      rarity: Rarity.Marvel,
+      rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633612",
+            url: "https://www.tcgplayer.com/product/633612?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Mario Wibisono"],
-      foiling: Foiling.C,
+      foiling: Foiling.R,
       identifier: "SEA245",
       image: "SEA245_V2_BACK",
       
       
-      print: "SEA245-Cold-Full Art-Back",
+      print: "SEA245-Rainbow-Full Art-Back",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633612",
+            url: "https://www.tcgplayer.com/product/633612?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic],
     rarity: Rarity.Basic,
     setIdentifiers: ["SEA245"],
     sets: [Release.HighSeas],
@@ -8095,10 +8149,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA036"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM043","SEA036"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA036",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -8311,7 +8365,10 @@ Create a Golden Cog token.`,
       print: "SEA044",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638044",
+            url: "https://www.tcgplayer.com/product/638044?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -8323,7 +8380,10 @@ Create a Golden Cog token.`,
       print: "SEA044-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634588",
+            url: "https://www.tcgplayer.com/product/634588?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
@@ -8335,10 +8395,13 @@ Create a Golden Cog token.`,
       print: "SEA044-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634588",
+            url: "https://www.tcgplayer.com/product/634588?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Basic,
     setIdentifiers: ["AGB002","SEA044"],
     sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
@@ -8396,7 +8459,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA043",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638044",
+            url: "https://www.tcgplayer.com/product/638044?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -8487,13 +8553,16 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "SEA084",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638047",
+            url: "https://www.tcgplayer.com/product/638047?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["LGS399","SEA084"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["GEM038","LGS399","SEA084"],
+    sets: [Release.GEM,Release.HighSeas,Release.Promos],
     specialImage: "SEA084",
     subtypes: [Subtype.TwoHanded,Subtype.Bow,Subtype.Cannon],
     types: [Type.Weapon],
@@ -8748,8 +8817,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633248",
-            url: "https://www.tcgplayer.com/product/633248?Language=English&Printing=Cold+Foil"
+            productId: "633618",
+            url: "https://www.tcgplayer.com/product/633618?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -8832,10 +8901,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA057"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM052","SEA057"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA057",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -8906,8 +8975,8 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633317",
-            url: "https://www.tcgplayer.com/product/633317?Language=English&Printing=Cold+Foil"
+            productId: "633671",
+            url: "https://www.tcgplayer.com/product/633671?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -9075,14 +9144,14 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       image: "SEA134_V2",
       
       
-      print: "SEA134-Cold-Extended Art",
+      print: "SEA134-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633277",
-            url: "https://www.tcgplayer.com/product/633277?Language=English&Printing=Cold+Foil"
+            productId: "633625",
+            url: "https://www.tcgplayer.com/product/633625?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9169,14 +9238,14 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       image: "SEA135_V2",
       
       
-      print: "SEA135-Cold-Extended Art",
+      print: "SEA135-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633278",
-            url: "https://www.tcgplayer.com/product/633278?Language=English&Printing=Cold+Foil"
+            productId: "633626",
+            url: "https://www.tcgplayer.com/product/633626?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9263,14 +9332,14 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       image: "SEA136_V2",
       
       
-      print: "SEA136-Cold-Extended Art",
+      print: "SEA136-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633279",
-            url: "https://www.tcgplayer.com/product/633279?Language=English&Printing=Cold+Foil"
+            productId: "633627",
+            url: "https://www.tcgplayer.com/product/633627?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9665,10 +9734,10 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AGB009","SEA068"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB009","GEM049","SEA068"],
+    sets: [Release.ArmoryDeckGravyBones,Release.GEM,Release.HighSeas],
     specialImage: "SEA068",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -10271,8 +10340,8 @@ When this hits, gain 1{h}.`,
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633321",
-            url: "https://www.tcgplayer.com/product/633321?Language=English&Printing=Cold+Foil"
+            productId: "633675",
+            url: "https://www.tcgplayer.com/product/633675?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -10519,14 +10588,14 @@ When this hits, gain 1{h}.`,
       image: "SEA131_V2",
       
       
-      print: "SEA131-Cold-Extended Art",
+      print: "SEA131-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
             productId: "631984",
-            url: "https://www.tcgplayer.com/product/633622?Language=English&Printing=Cold+Foil"
+            url: "https://www.tcgplayer.com/product/631984?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -10615,14 +10684,14 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
       image: "SEA151_V2",
       
       
-      print: "SEA151-Cold",
+      print: "SEA151-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633292",
-            url: "https://www.tcgplayer.com/product/633292?Language=English&Printing=Cold+Foil"
+            productId: "633642",
+            url: "https://www.tcgplayer.com/product/633642?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -10702,10 +10771,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA022"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM044","SEA022"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA022",
     subtypes: [],
     types: [Type.Instant],
@@ -10758,7 +10827,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
       print: "SEA083",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638046",
+            url: "https://www.tcgplayer.com/product/638046?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Sam Yang"],
@@ -10770,7 +10842,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
       print: "SEA083-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634589",
+            url: "https://www.tcgplayer.com/product/634589?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Sam Yang"],
@@ -10782,7 +10857,10 @@ At the beginning of your end phase, if you haven't created or stolen a Gold this
       print: "SEA083-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634589",
+            url: "https://www.tcgplayer.com/product/634589?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -10843,7 +10921,10 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "SEA082",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638046",
+            url: "https://www.tcgplayer.com/product/638046?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Sam Yang"],
@@ -11346,10 +11427,10 @@ Draw a card.
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA051"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM047","SEA051"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA051_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -11433,14 +11514,14 @@ Draw a card.
       image: "SEA137_V2",
       
       
-      print: "SEA137-Cold",
+      print: "SEA137-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "632653",
-            url: "https://www.tcgplayer.com/product/632653?Language=English&Printing=Cold+Foil"
+            productId: "633628",
+            url: "https://www.tcgplayer.com/product/633628?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -11527,14 +11608,14 @@ Draw a card.
       image: "SEA176_V2",
       
       
-      print: "SEA176-Cold",
+      print: "SEA176-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633313",
-            url: "https://www.tcgplayer.com/product/633313?Language=English&Printing=Cold+Foil"
+            productId: "633667",
+            url: "https://www.tcgplayer.com/product/633667?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11623,14 +11704,14 @@ Go again`,
       image: "SEA177_V2",
       
       
-      print: "SEA177-Cold",
+      print: "SEA177-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633314",
-            url: "https://www.tcgplayer.com/product/633314?Language=English&Printing=Cold+Foil"
+            productId: "633668",
+            url: "https://www.tcgplayer.com/product/633668?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11719,14 +11800,14 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       image: "SEA178_V2",
       
       
-      print: "SEA178-Cold",
+      print: "SEA178-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633315",
-            url: "https://www.tcgplayer.com/product/633315?Language=English&Printing=Cold+Foil"
+            productId: "633669",
+            url: "https://www.tcgplayer.com/product/633669?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11848,7 +11929,7 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
   
   
   },{
-    artists: ["Fedor Barkhatov"],
+    artists: ["Fedor Barkhatov","Reza Afshar"],
     cardIdentifier: "nimblism-red",
     classes: [Class.Generic],
     defaultImage: "SEA238",
@@ -11871,10 +11952,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP417","MST221","SEA238","WTR218"],
-    sets: [Release.HighSeas,Release.HistoryPack1,Release.PartTheMistveil,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP417","GEM065","MST221","SEA238","WTR218"],
+    sets: [Release.GEM,Release.HighSeas,Release.HistoryPack1,Release.PartTheMistveil,Release.WelcomeToRathe],
     specialImage: "SEA238",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -12078,10 +12159,10 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA220"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM062","SEA220"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA220",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -12315,14 +12396,14 @@ If you gain control of 1 or more Gold tokens this way, your next attack this tur
       image: "SEA149_V2",
       
       
-      print: "SEA149-Cold-Extended Art",
+      print: "SEA149-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633290",
-            url: "https://www.tcgplayer.com/product/633290?Language=English&Printing=Cold+Foil"
+            productId: "633640",
+            url: "https://www.tcgplayer.com/product/633640?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -12398,8 +12479,8 @@ The next time an opponent would draw a card from the effect of a Gold token this
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633319",
-            url: "https://www.tcgplayer.com/product/633319?Language=English&Printing=Cold+Foil"
+            productId: "633673",
+            url: "https://www.tcgplayer.com/product/633673?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -12482,10 +12563,10 @@ Blade Break`,
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA241"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM067","SEA241"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA241",
     subtypes: [],
     types: [Type.Block],
@@ -12707,7 +12788,10 @@ Blade Break`,
       print: "SEA191-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633679",
+            url: "https://www.tcgplayer.com/product/633679?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -12783,7 +12867,10 @@ Blade Break`,
       print: "SEA192-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633680",
+            url: "https://www.tcgplayer.com/product/633680?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -13066,7 +13153,10 @@ When this dies, create a Gold token.
       print: "SEA096",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634590",
+            url: "https://www.tcgplayer.com/product/634590?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Raphael Pinna"],
@@ -13078,7 +13168,10 @@ When this dies, create a Gold token.
       print: "SEA096-Cold",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633620",
+            url: "https://www.tcgplayer.com/product/633620?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13152,7 +13245,10 @@ When this dies, create a Gold token.
       print: "SEA193-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633681",
+            url: "https://www.tcgplayer.com/product/633681?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -13213,7 +13309,10 @@ When this dies, create a Gold token.
       print: "SEA129",
       rarity: Rarity.Common,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634591",
+            url: "https://www.tcgplayer.com/product/634591?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -13382,14 +13481,14 @@ You may {u} your hero.
       image: "SEA138_V2",
       
       
-      print: "SEA138-Cold",
+      print: "SEA138-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633280",
-            url: "https://www.tcgplayer.com/product/633280?Language=English&Printing=Cold+Foil"
+            productId: "633629",
+            url: "https://www.tcgplayer.com/product/633629?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -13474,14 +13573,14 @@ You may {u} your hero.
       image: "SEA139_V2",
       
       
-      print: "SEA139-Cold",
+      print: "SEA139-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633281",
-            url: "https://www.tcgplayer.com/product/633281?Language=English&Printing=Cold+Foil"
+            productId: "633630",
+            url: "https://www.tcgplayer.com/product/633630?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -13566,14 +13665,14 @@ You may {u} your hero.
       image: "SEA140_V2",
       
       
-      print: "SEA140-Cold",
+      print: "SEA140-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633282",
-            url: "https://www.tcgplayer.com/product/633282?Language=English&Printing=Cold+Foil"
+            productId: "633631",
+            url: "https://www.tcgplayer.com/product/633631?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -13652,10 +13751,10 @@ You may {u} your hero.
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA023"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM045","SEA023"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA023",
     subtypes: [],
     types: [Type.Block],
@@ -13723,7 +13822,10 @@ You may {u} your hero.
       print: "SEA194-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633682",
+            url: "https://www.tcgplayer.com/product/633682?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -13799,7 +13901,10 @@ You may {u} your hero.
       print: "SEA003-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633686",
+            url: "https://www.tcgplayer.com/product/633686?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
@@ -13889,14 +13994,14 @@ You may {u} your hero.
       image: "SEA145_V2",
       
       
-      print: "SEA145-Cold-Extended Art",
+      print: "SEA145-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "631889",
-            url: "https://www.tcgplayer.com/product/631889?Language=English&Printing=Cold+Foil"
+            productId: "633636",
+            url: "https://www.tcgplayer.com/product/633636?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -13971,7 +14076,10 @@ You may {u} your hero.
       print: "SEA195-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633683",
+            url: "https://www.tcgplayer.com/product/633683?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -14111,7 +14219,10 @@ Hero abilities can't create cards.`,
       print: "SEA002",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638041",
+            url: "https://www.tcgplayer.com/product/638041?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Arif Wijaya"],
@@ -14123,7 +14234,10 @@ Hero abilities can't create cards.`,
       print: "SEA002-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634586",
+            url: "https://www.tcgplayer.com/product/634586?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Arif Wijaya"],
@@ -14135,7 +14249,10 @@ Hero abilities can't create cards.`,
       print: "SEA002-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "634586",
+            url: "https://www.tcgplayer.com/product/634586?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -14196,7 +14313,10 @@ The second time you crank each turn, draw a card.`,
       print: "SEA001",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638041",
+            url: "https://www.tcgplayer.com/product/638041?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Arif Wijaya"],
@@ -14303,8 +14423,8 @@ The second time you crank each turn, draw a card.`,
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633322",
-            url: "https://www.tcgplayer.com/product/633322?Language=English&Printing=Cold+Foil"
+            productId: "633676",
+            url: "https://www.tcgplayer.com/product/633676?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -14382,8 +14502,8 @@ The second time you crank each turn, draw a card.`,
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633323",
-            url: "https://www.tcgplayer.com/product/633323?Language=English&Printing=Cold+Foil"
+            productId: "633677",
+            url: "https://www.tcgplayer.com/product/633677?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -14759,10 +14879,10 @@ The second time you crank each turn, draw a card.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA090"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM055","SEA090"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA090",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
@@ -14815,13 +14935,16 @@ The second time you crank each turn, draw a card.`,
       print: "SEA094",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638047",
+            url: "https://www.tcgplayer.com/product/638047?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["LGS400","SEA094"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["GEM039","LGS400","SEA094"],
+    sets: [Release.GEM,Release.HighSeas,Release.Promos],
     specialImage: "SEA094",
     subtypes: [Subtype.TwoHanded,Subtype.Bow],
     types: [Type.Weapon],
@@ -15128,10 +15251,10 @@ The second time you crank each turn, draw a card.`,
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AGB024","SEA073"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB024","GEM050","SEA073"],
+    sets: [Release.ArmoryDeckGravyBones,Release.GEM,Release.HighSeas],
     specialImage: "SEA073",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -15405,8 +15528,8 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633713",
-            url: "https://www.tcgplayer.com/product/633713?Language=English&Printing=Normal"
+            productId: "638049",
+            url: "https://www.tcgplayer.com/product/638049?Language=English&Printing=Normal"
           },
       
     },{
@@ -15498,7 +15621,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA196-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633684",
+            url: "https://www.tcgplayer.com/product/633684?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -15575,8 +15701,8 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633211",
-            url: "https://www.tcgplayer.com/product/633211?Language=English&Printing=Cold+Foil"
+            productId: "633614",
+            url: "https://www.tcgplayer.com/product/633614?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -15659,10 +15785,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA092"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM057","SEA092"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA092",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
@@ -15742,14 +15868,14 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       image: "SEA141_V2",
       
       
-      print: "SEA141-Cold-Extended Art",
+      print: "SEA141-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633283",
-            url: "https://www.tcgplayer.com/product/633283?Language=English&Printing=Cold+Foil"
+            productId: "633632",
+            url: "https://www.tcgplayer.com/product/633632?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -15836,14 +15962,14 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       image: "SEA142_V2",
       
       
-      print: "SEA142-Cold-Extended Art",
+      print: "SEA142-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633284",
-            url: "https://www.tcgplayer.com/product/633284?Language=English&Printing=Cold+Foil"
+            productId: "633634",
+            url: "https://www.tcgplayer.com/product/633634?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -15931,14 +16057,14 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       image: "SEA143_V2",
       
       
-      print: "SEA143-Cold-Extended Art",
+      print: "SEA143-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633285",
-            url: "https://www.tcgplayer.com/product/633285?Language=English&Printing=Cold+Foil"
+            productId: "633633",
+            url: "https://www.tcgplayer.com/product/633633?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -16199,7 +16325,10 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
       print: "SEA197-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "633685",
+            url: "https://www.tcgplayer.com/product/633685?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -16573,14 +16702,14 @@ When this attacks, you may put a yellow card from a graveyard on the bottom of i
       image: "SEA147_V2",
       
       
-      print: "SEA147-Cold-Extended Art",
+      print: "SEA147-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633288",
-            url: "https://www.tcgplayer.com/product/633288?Language=English&Printing=Cold+Foil"
+            productId: "633638",
+            url: "https://www.tcgplayer.com/product/633638?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -16731,14 +16860,14 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       image: "SEA146_V2",
       
       
-      print: "SEA146-Cold-Extended Art",
+      print: "SEA146-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633287",
-            url: "https://www.tcgplayer.com/product/633287?Language=English&Printing=Cold+Foil"
+            productId: "633637",
+            url: "https://www.tcgplayer.com/product/633637?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -16891,8 +17020,8 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       rarity: Rarity.Legendary,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "632648",
-            url: "https://www.tcgplayer.com/product/632648?Language=English&Printing=Cold+Foil"
+            productId: "633619",
+            url: "https://www.tcgplayer.com/product/633619?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -17062,14 +17191,14 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
       image: "SEA148_V2",
       
       
-      print: "SEA148-Cold",
+      print: "SEA148-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633289",
-            url: "https://www.tcgplayer.com/product/633289?Language=English&Printing=Cold+Foil"
+            productId: "633639",
+            url: "https://www.tcgplayer.com/product/633639?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -17415,10 +17544,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA226"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM063","SEA226"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA226",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17646,10 +17775,10 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA027"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM042","SEA027"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA027",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -17856,13 +17985,16 @@ At the start of your turn, pitch the top card of your deck. If it's blue, put th
       print: "SEA007",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "638042",
+            url: "https://www.tcgplayer.com/product/638042?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["LGS397","SEA007"],
-    sets: [Release.HighSeas,Release.Promos],
+    setIdentifiers: ["GEM036","LGS397","SEA007"],
+    sets: [Release.GEM,Release.HighSeas,Release.Promos],
     specialImage: "SEA007",
     subtypes: [Subtype.TwoHanded,Subtype.Gun],
     types: [Type.Weapon],
@@ -17917,7 +18049,10 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
       print: "SEA124",
       rarity: Rarity.Basic,
       set: Release.HighSeas,
-      
+      tcgplayer: {
+            productId: "635614",
+            url: "https://www.tcgplayer.com/product/635614?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic],
@@ -18001,10 +18136,10 @@ When this attacks a hero, **steal** a Gold token they control.
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA229"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM064","SEA229"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA229",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -18238,14 +18373,14 @@ When this attacks a hero, **steal** a Gold token they control.
       image: "SEA133_V2",
       
       
-      print: "SEA133-Cold-Extended Art",
+      print: "SEA133-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "630336",
+            productId: "633624",
             url: "https://www.tcgplayer.com/product/633624?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -18484,10 +18619,10 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
           },
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEA110"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM061","SEA110"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA110",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
@@ -18556,8 +18691,8 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633320",
-            url: "https://www.tcgplayer.com/product/633320?Language=English&Printing=Cold+Foil"
+            productId: "633674",
+            url: "https://www.tcgplayer.com/product/633674?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -18644,14 +18779,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA166_V2",
       
       
-      print: "SEA166-Cold-Extended Art",
+      print: "SEA166-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633303",
-            url: "https://www.tcgplayer.com/product/633303?Language=English&Printing=Cold+Foil"
+            productId: "633657",
+            url: "https://www.tcgplayer.com/product/633657?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -18736,14 +18871,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA167_V2",
       
       
-      print: "SEA167-Cold-Extended Art",
+      print: "SEA167-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633304",
-            url: "https://www.tcgplayer.com/product/633304?Language=English&Printing=Cold+Foil"
+            productId: "633658",
+            url: "https://www.tcgplayer.com/product/633658?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -18828,14 +18963,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA168_V2",
       
       
-      print: "SEA168-Cold-Extended Art",
+      print: "SEA168-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633305",
-            url: "https://www.tcgplayer.com/product/633305?Language=English&Printing=Cold+Foil"
+            productId: "633659",
+            url: "https://www.tcgplayer.com/product/633659?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -18920,14 +19055,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA169_V2",
       
       
-      print: "SEA169-Cold",
+      print: "SEA169-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633306",
-            url: "https://www.tcgplayer.com/product/633306?Language=English&Printing=Cold+Foil"
+            productId: "633660",
+            url: "https://www.tcgplayer.com/product/633660?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -19012,14 +19147,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA170_V2",
       
       
-      print: "SEA170-Cold",
+      print: "SEA170-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633307",
-            url: "https://www.tcgplayer.com/product/633307?Language=English&Printing=Cold+Foil"
+            productId: "633661",
+            url: "https://www.tcgplayer.com/product/633661?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -19104,14 +19239,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA171_V2",
       
       
-      print: "SEA171-Cold",
+      print: "SEA171-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633308",
-            url: "https://www.tcgplayer.com/product/633308?Language=English&Printing=Cold+Foil"
+            productId: "633662",
+            url: "https://www.tcgplayer.com/product/633662?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -19427,14 +19562,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA172_V2",
       
       
-      print: "SEA172-Cold",
+      print: "SEA172-Cold-Alternate Border",
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633309",
-            url: "https://www.tcgplayer.com/product/633309?Language=English&Printing=Cold+Foil"
+            productId: "633663",
+            url: "https://www.tcgplayer.com/product/633663?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -19519,14 +19654,14 @@ At the beginning of your action phase, destroy this, then you may put up to X ca
       image: "SEA150_V2",
       
       
-      print: "SEA150-Cold",
+      print: "SEA150-Cold-Alternate Border",
       rarity: Rarity.Rare,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633291",
-            url: "https://www.tcgplayer.com/product/633291?Language=English&Printing=Cold+Foil"
+            productId: "633641",
+            url: "https://www.tcgplayer.com/product/633641?Language=English&Printing=Cold+Foil"
           },
-      
+      treatment: Treatment.AB,treatments: [Treatment.AB],
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -19692,14 +19827,14 @@ You may {u} a cog you control.
       image: "SEA132_V2",
       
       
-      print: "SEA132-Cold-Extended Art",
+      print: "SEA132-Cold-Alternate Border-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "631755",
+            productId: "633623",
             url: "https://www.tcgplayer.com/product/633623?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -20266,10 +20401,10 @@ If this was played from arsenal, it gains **go again**.`,
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA247"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["FAB340","SEA247"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA247",
     subtypes: [Subtype.Landmark],
     types: [Type.Macro],
@@ -20410,21 +20545,6 @@ When this hits a hero, steal an item they control.`,
       
     },{
         artists: ["Andi Cahyo W"],
-      foiling: Foiling.R,
-      identifier: "SEA010",
-      image: "SEA010",
-      
-      
-      print: "SEA010-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.HighSeas,
-      tcgplayer: {
-            productId: "633212",
-            url: "https://www.tcgplayer.com/product/633212?Language=English&Printing=Rainbow+Foil"
-          },
-      
-    },{
-        artists: ["Andi Cahyo W"],
       foiling: Foiling.C,
       identifier: "SEA010",
       image: "SEA010",
@@ -20434,8 +20554,8 @@ When this hits a hero, steal an item they control.`,
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633212",
-            url: "https://www.tcgplayer.com/product/633212?Language=English&Printing=Cold+Foil"
+            productId: "633615",
+            url: "https://www.tcgplayer.com/product/633615?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -20518,10 +20638,10 @@ When this hits a hero, steal an item they control.`,
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA052"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM048","SEA052"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA052_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
@@ -20823,8 +20943,8 @@ When this hits a hero, steal an item they control.`,
       rarity: Rarity.Common,
       set: Release.HighSeas,
       tcgplayer: {
-            productId: "633231",
-            url: "https://www.tcgplayer.com/product/633231?Language=English&Printing=Cold+Foil"
+            productId: "633616",
+            url: "https://www.tcgplayer.com/product/633616?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -20907,10 +21027,10 @@ When this hits a hero, steal an item they control.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA091"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM056","SEA091"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA091",
     subtypes: [Subtype.Arrow,Subtype.Attack],
     types: [Type.Action],
@@ -20984,10 +21104,10 @@ When this hits a hero, steal an item they control.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SEA058"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["GEM053","SEA058"],
+    sets: [Release.GEM,Release.HighSeas],
     specialImage: "SEA058",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],

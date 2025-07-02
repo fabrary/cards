@@ -533,15 +533,24 @@ describe("Returns matching prints when release or foiling included", () => {
 
   it("Matching printing from treatment", () => {
     const { searchResults } = cardSearch.search("treat:aa");
-    const searchResultsWithAltArtImage = searchResults.filter((card) =>
-      card.printings.find(
-        (printing) => printing.treatment === Treatment.AA && !!printing.image
-      )
-    );
+    const searchResultsWithAltArtImage = searchResults;
+
     for (const card of searchResultsWithAltArtImage) {
       for (const printing of card.matchingPrintings) {
         expect(printing).toBeTruthy();
         expect(printing.treatment).toEqual(Treatment.AA);
+      }
+    }
+  });
+
+  it("Matching printing from rarity", () => {
+    const { searchResults } = cardSearch.search("r:v");
+    const searchResultsWithMarvelImages = searchResults;
+
+    for (const card of searchResultsWithMarvelImages) {
+      for (const printing of card.matchingPrintings) {
+        expect(printing).toBeTruthy();
+        expect(printing.rarity).toEqual(Rarity.Marvel);
       }
     }
   });

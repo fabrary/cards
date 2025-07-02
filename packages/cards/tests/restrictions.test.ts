@@ -20,6 +20,9 @@ describe("Restrictions seem reasonable", () => {
 
       const isMacro = types?.includes(Type.Macro);
 
+      const isRareYoungHero =
+        types?.includes(Type.Hero) && young && rarities.includes(Rarity.Rare);
+
       const isBasicCommonOrToken =
         rarities.includes(Rarity.Basic) ||
         rarities.includes(Rarity.Token) ||
@@ -30,7 +33,7 @@ describe("Restrictions seem reasonable", () => {
         rarities.includes(Rarity.Majestic) ||
         rarities.includes(Rarity.SuperRare);
       const raritySuggestsNoCommoner =
-        isSuperRareOrHigher && !isBasicCommonOrToken;
+        isSuperRareOrHigher && !isBasicCommonOrToken && !isRareYoungHero;
 
       const isAdult = !!hero && !young;
 

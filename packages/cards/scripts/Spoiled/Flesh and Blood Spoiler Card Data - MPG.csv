@@ -1,12 +1,12 @@
 Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Artists 3,Expansion Slot 3,Flavor Text 3,Identifier 3,Image URL 3,TCGPlayer Product Id 3,TCGPlayer Url 3,Rarity 4,Foiling 4,Art Variations 4,Expansion Slot 4,Artists 4,Flavor Text 4,Identifier 4,Image URL 4,TCGPlayer Product Id 4,TCGPlayer Url 4,Rarity 5,Foiling 5,Art Variations 5,Artists 5,Flavor Text 5,Identifier 5,Image URL 5,TCGPlayer Product Id 5,TCGPlayer Url 5
 "MPG001, HER135","MPG, HER","Valda, Seismic Impact",,,,,40,4,,"Guardian, Hero",,,,Dominate,,Crush,"Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.
 
-At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",Guardian Hero,,No,,No,,M,,,Wisnu Tan,,,MPG001,/MPG001.png,,,V,C,,Wisnu Tan,,,MPG001,/MPG001-MV.png,,,V,C,FA,Wisnu Tan,,,MPG001,/MPG001-MV_BACK.png,,,P,R,,,Wisnu Tan,,HER135,/HER135-temp.png,,,,,,,,,,,
+At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",Guardian Hero,,No,,No,,M,,,Wisnu Tan,,,MPG001,/MPG001.png,,,V,C,,Wisnu Tan,,,MPG001,/MPG001_V2.png,,,V,C,FA,Wisnu Tan,,,MPG001,/MPG001_V2_BACK.png,,,P,R,,,Wisnu Tan,,HER135,/HER135.png,,,,,,,,,,,
 MPG002,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG002,/MPG002.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG003,MPG,High Riser,,,,,,,,,,,,,,,,,,,,,,T,,,Brian Adriel,,,MPG003,/MPG003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG004,MPG,Testament of Valahai,,,,1,,,,"Guardian, Equipment, Off-Hand",Guardwell,,,,,,"If you control three or more Seismic Surge tokens, this gets +2{d}. If you control six or more, instead this gets +4{d}.
 
-**Guardwell**",Guardian Equipment - Off-Hand,,,,No,,V,C,FA,"Jessada Sutthi, Carlos Cruchaga",,,MPG004,/MPG004-V2.png,,,L,R,,Jessada Sutthi,,,MPG004,/MPG004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Guardwell**",Guardian Equipment - Off-Hand,,,,No,,V,C,FA,"Jessada Sutthi, Carlos Cruchaga",,,MPG004,/MPG004_V2.png,,,L,R,,Jessada Sutthi,,,MPG004,/MPG004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG005,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG005,/MPG005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG006,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG006,/MPG006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG007,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG007,/MPG007.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -32,13 +32,13 @@ MPG024,MPG,Seismic Eruption,2,0,,,,,,"Guardian, Instant",,,,,,,Create 3 Seismic 
 MPG025,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG025,/MPG025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG026,MPG,Blinding of the Old Ones,1,6,10,3,,,,"Guardian, Action, Attack","Crush, Heave 2",,,,,,"**Crush** - When this deals 4 or more damage to a Guardian hero, cards they own lose all abilities during their next turn.
 
-**Heave 2**",Guardian Action - Attack,,,,No,,R,,,Federico Musetti,,,MPG026,/MPG026.png,,,R,R,,Federico Musetti,,,MPG026,/MPG026.png,,,V,C,FA,Federico Musetti,,,MPG026,/MPG026-MV.png,,,,,,,,,,,,,,,,,,,,,
+**Heave 2**",Guardian Action - Attack,,,,No,,R,,,Federico Musetti,,,MPG026,/MPG026.png,,,R,R,,Federico Musetti,,,MPG026,/MPG026.png,,,V,C,FA,Federico Musetti,,,MPG026,/MPG026_V2.png,,,,,,,,,,,,,,,,,,,,,
 MPG027,MPG,Disenchantment of the Old Ones,1,6,10,3,,,,"Guardian, Action, Attack","Crush, Heave 2",,,,,,"**Crush** - When this deals 4 or more damage to a Guardian hero, destroy all auras they control.
 
-**Heave 2**",Guardian Action - Attack,,,,No,,R,,,Narendra B Adi,,,MPG027,/MPG027.png,,,R,R,,Narendra B Adi,,,MPG027,/MPG027.png,,,V,C,FA,Narendra B Adi,,,MPG027,/MPG027-MV.png,,,,,,,,,,,,,,,,,,,,,
+**Heave 2**",Guardian Action - Attack,,,,No,,R,,,Narendra B Adi,,,MPG027,/MPG027.png,,,R,R,,Narendra B Adi,,,MPG027,/MPG027.png,,,V,C,FA,Narendra B Adi,,,MPG027,/MPG027_V2.png,,,,,,,,,,,,,,,,,,,,,
 MPG028,MPG,Smelting of the Old Ones,1,6,10,3,,,,"Guardian, Action, Attack","Crush, Heave 2",,,,,,"**Crush** - When this deals 4 or more damage to a Guardian hero, destroy all equipment they control with -1{d} counters.
 
-**Heave 2**",Guardian Action - Attack,,,,No,,R,,,Simon Dominic,,,MPG028,/MPG028.png,,,R,R,,Simon Dominic,,,MPG028,/MPG028.png,,,V,C,FA,Simon Dominic,,,MPG028,/MPG028-MV.png,,,,,,,,,,,,,,,,,,,,,
+**Heave 2**",Guardian Action - Attack,,,,No,,R,,,Simon Dominic,,,MPG028,/MPG028.png,,,R,R,,Simon Dominic,,,MPG028,/MPG028.png,,,V,C,FA,Simon Dominic,,,MPG028,/MPG028_V2.png,,,,,,,,,,,,,,,,,,,,,
 MPG029,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG029,/MPG029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG030,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG030,/MPG030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG031,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG031,/MPG031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -120,8 +120,8 @@ MPG106,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG106,/MPG106.png,,,,,,,,,,,,,,,,,,,,,,,
 MPG107,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG107,/MPG107.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG108,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG108,/MPG108.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG109,MPG,Crash and Bash,1,,,4,,,,"Guardian, Block",,,,,,Crush,"When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",Guardian Block,,,,,,C,,,Jessada Sutthi,,,MPG109,/MPG109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG110,MPG,Crash and Bash,2,,,4,,,,"Guardian, Block",,,,,,Crush,"When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",Guardian Block,,,,,,C,,,Jessada Sutthi,,,MPG110,/MPG110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG111,MPG,Crash and Bash,3,,,4,,,,"Guardian, Block",,,,,,Crush,"When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",Guardian Block,,,,,,C,,,Jessada Sutthi,,,MPG111,/MPG111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG110,MPG,Crash and Bash,2,,,3,,,,"Guardian, Block",,,,,,Crush,"When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",Guardian Block,,,,,,C,,,Jessada Sutthi,,,MPG110,/MPG110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG111,MPG,Crash and Bash,3,,,2,,,,"Guardian, Block",,,,,,Crush,"When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",Guardian Block,,,,,,C,,,Jessada Sutthi,,,MPG111,/MPG111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG112,MPG,Seismic Surge,,,,,,,,"Guardian, Token, Aura",,,,,,,"At the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play.",Guardian Token - Aura,,,,,,T,,,Anastasiya Grintsova,,,MPG112,/MPG112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG113,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG113,/MPG113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG114,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG114,/MPG114.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

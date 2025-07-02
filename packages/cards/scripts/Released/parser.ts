@@ -3,6 +3,7 @@ import {
   setIdentifierToSetMappings,
   setToSetIdentifierMappings,
   Treatment,
+  Type,
 } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
 
@@ -334,6 +335,9 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         new Set(printings.map(({ set }) => set))
       );
 
+      const typesToUse = name === "Marked" ? [Type.Token] : types;
+      const typeTextToUse = name === "Marked" ? "Token" : type_text;
+
       return {
         abilitiesAndEffects: abilities_and_effects,
         abilityAndEffectKeywords: ability_and_effect_keywords,
@@ -355,8 +359,8 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         rarities,
         setIdentifiers,
         sets,
-        types,
-        typeText: type_text,
+        types: typesToUse,
+        typeText: typeTextToUse,
         variations: [],
         blitzBanned: blitz_banned,
         blitzLegal: blitz_legal,

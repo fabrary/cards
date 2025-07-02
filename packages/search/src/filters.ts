@@ -497,8 +497,11 @@ export const getKeywordsAndAppliedFiltersFromText = (
 
       if (isMeta) {
         if (["rarity", "r"].includes(filterKey)) {
-          rarities = getRarityValuesFromText(values);
-          values = rarities.map((s) => s.toLowerCase());
+          const rarityValues = getRarityValuesFromText(values);
+          if (!isExcluded) {
+            rarities = [...rarityValues];
+          }
+          values = rarityValues.map((s) => s.toLowerCase());
         }
         if (["legal", "l", "hero"].includes(filterKey)) {
           // for (const hero of specialConditionHeroes) {

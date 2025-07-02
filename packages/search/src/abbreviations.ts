@@ -312,6 +312,11 @@ export const abbreviations: Abbreviation[] = [
     card: "Scar for a Scar",
   },
   {
+    abbreviations: ["Tyler"],
+    card: "Scurv, Stowaway",
+    isHidden: true,
+  },
+  {
     abbreviations: ["SWOMB"],
     card: "Shifting Winds of the Mystic Beast",
   },

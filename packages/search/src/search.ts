@@ -169,13 +169,20 @@ class Search {
     }
 
     let searchResultsWithMatchingPrinting: SearchCard[];
-    const { artists, isExpansionSlot, foilings, releases, treatments } =
-      attributes;
+    const {
+      artists,
+      isExpansionSlot,
+      foilings,
+      rarities,
+      releases,
+      treatments,
+    } = attributes;
 
     const shouldFindMatchingPrintings =
       artists.length > 0 ||
       isExpansionSlot ||
       foilings.length > 0 ||
+      rarities.length > 0 ||
       releases.length > 0 ||
       treatments.length > 0;
 
@@ -198,6 +205,8 @@ class Search {
 
           const matchesFoiling =
             foilings.length === 0 || foilings.includes(printing.foiling);
+          const matchesRarity =
+            rarities.length === 0 || rarities.includes(printing.rarity);
           const matchesReleases =
             releases.length === 0 || releases.includes(printing.set);
           const matchesTreatment =
@@ -208,6 +217,7 @@ class Search {
             matchesArtist &&
             matchesExpansionSlot &&
             matchesFoiling &&
+            matchesRarity &&
             matchesReleases &&
             matchesTreatment;
 

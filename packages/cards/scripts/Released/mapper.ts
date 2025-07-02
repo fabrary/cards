@@ -139,12 +139,16 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     let imageUrlClean = imageUrl
       ? imageUrl
           .replace(".width-450", "")
+          .replace("-MV.webp", "_V2.webp")
+          .replace("-MV_BACK.webp", "_V2_BACK.webp")
           .replace("MVA_BACK.webp", "MV_V2_BACK.webp")
           .replace("MVA.webp", "MV_V2.webp")
-          .replace("-A.webp", ".webp")
-          .replace("-B.webp", "_V2.webp")
+          .replace("-A.webp", "_V2.webp")
+          .replace("-B.webp", "_V3.webp")
+          .replace("-C.webp", "_V4.webp")
           .replace("-RF.webp", ".webp")
           .replace("-CF.webp", ".webp")
+          .replace("-CF_BACK.webp", "_BACK.webp")
           .replace(".original.webp", ".webp")
           .replace(".original.png", ".png")
       : undefined;
