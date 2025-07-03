@@ -1521,6 +1521,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bittering-thorns-blue</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/blackout-kick-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -9471,6 +9476,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/legacy-of-ikaru-blue</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/lesson-in-lava-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -13571,6 +13581,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/robe-of-autumns-fall</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/robe-of-rapture</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -14503,6 +14518,16 @@
   <url>
     <loc>https://fabrary.net/cards/seek-horizon-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/seek-vengeance-red</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/seek-vengeance-blue</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18338,6 +18363,11 @@
   <url>
     <loc>https://fabrary.net/cards/vela-flash-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vengeance-never-rests-blue</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
