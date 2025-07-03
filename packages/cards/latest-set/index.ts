@@ -22,6 +22,183 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "bask-in-your-own-greatness-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP098",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Bask in Your Own Greatness",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "SUP098",
+      image: "SUP098",
+      
+      
+      print: "SUP098",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP098"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP098",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "bask-in-your-own-greatness-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP099",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Bask in Your Own Greatness",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "SUP099",
+      image: "SUP099",
+      
+      
+      print: "SUP099",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP099"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP099",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "bask-in-your-own-greatness-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP100",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Bask in Your Own Greatness",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "SUP100",
+      image: "SUP100",
+      
+      
+      print: "SUP100",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP100"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP100",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "bully-tactics-red",
     classes: [Class.NotClassed],
@@ -187,11 +364,134 @@ If you've been cheered this turn, this gets +1{p}.`,
     keywords: [Keyword.TheCrowdCheers],
     
     
-    
+    meta: [Meta.Rainbow],
   
     
     pitch: 1,
     power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "comeback-kid-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP028",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Comeback Kid",
+    printings: [{
+        artists: ["Samuel Perin"],
+      
+      identifier: "SUP028",
+      image: "SUP028",
+      
+      
+      print: "SUP028",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP028"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP028",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if you have less {h} than them, **the crowd cheers* you.
+
+If you've been cheered this turn, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  }];
+  const cards2: Card[] =  [{
+    artists: ["Samuel Perin"],
+    cardIdentifier: "comeback-kid-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP029",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Comeback Kid",
+    printings: [{
+        artists: ["Samuel Perin"],
+      
+      identifier: "SUP029",
+      image: "SUP029",
+      
+      
+      print: "SUP029",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP029"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP029",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if you have less {h} than them, **the crowd cheers* you.
+
+If you've been cheered this turn, this gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
     
     
     
@@ -262,8 +562,184 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "dig-in-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP036",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Dig In",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SUP036",
+      image: "SUP036",
+      
+      
+      print: "SUP036",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP036"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP036",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "dig-in-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP037",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Dig In",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SUP037",
+      image: "SUP037",
+      
+      
+      print: "SUP037",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP037"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP037",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "dig-in-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP038",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Dig In",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SUP038",
+      image: "SUP038",
+      
+      
+      print: "SUP038",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP038"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP038",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-strong-arm",
     classes: [Class.Brute],
@@ -326,7 +802,8 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-underhanded-cheat",
     classes: [Class.Brute],
@@ -538,8 +1015,7 @@ Whenever the crowd boos you, create a Might token.`,
     talents: [Talent.Reviled],
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "lyath-goldmane-vile-savant",
     classes: [Class.Guardian],
@@ -671,7 +1147,7 @@ If you've been booed this turn, this gets +4{p}.`,
     
     
     
-    
+    meta: [Meta.Rainbow],
   
     
     pitch: 1,
@@ -688,6 +1164,129 @@ If you've been booed this turn, this gets +4{p}.`,
   
   
   },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "mocking-blow-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP091",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Mocking Blow",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "SUP091",
+      image: "SUP091",
+      
+      
+      print: "SUP091",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP091"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP091",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
+
+If you've been booed this turn, this gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "mocking-blow-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP092",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Mocking Blow",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "SUP092",
+      image: "SUP092",
+      
+      
+      print: "SUP092",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP092"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP092",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
+
+If you've been booed this turn, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  }];
+  const cards4: Card[] =  [{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "numbskull-charm-yellow",
     classes: [Class.Brute],
@@ -810,8 +1409,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     talents: [Talent.Revered],
   
   young: true
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades-superstar",
     classes: [Class.Guardian],
