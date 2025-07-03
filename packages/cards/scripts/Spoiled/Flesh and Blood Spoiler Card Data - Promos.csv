@@ -13,9 +13,11 @@ LSS019,LSS,Scarf for a Scarf,1,0,4,2,,,,"Generic, Action, Attack",,,,,,,"When th
 FAB234,FAB,Spike with Bloodrot,1,1,,3,,,,"Assassin, Attack Reaction",,,,,,,,,,,,No,,P,R,EA,Mateusz Wiśniewski,,,FAB324,/FAB324.png,,,,,,,,,,,,,,,,,,,
 JDG038,JDG,Magrar,,,,,,,,"Merchant, Equipment, Off-Hand",Genis Specialization,,,,,,"**Genis Specialization**
 
-**Action** - Destroy this: Create a Zen State and an Inertia token.",Merchant Equipment - Off-Hand,,,,No,,P,C,,Petrinda Wiyugo,,,JDG038,/JDG038.png,,,,,,,,,,,,,,,,,,,
+**Action** - Destroy this: Create a Zen State and an Inertia token.",Merchant Equipment - Off-Hand,,No,No,No,No,P,C,,Petrinda Wiyugo,,,JDG038,/JDG038.png,,,,,,,,,,,,,,,,,,,
 FAB306,FAB,Unmovable,1,3,,7,,,,"Generic, Defense Reaction",,,,,,,"If this was played from arsenal, it gets +1{d}.",Generic Defense Reaction,,,,,,P,R,EA,Bastien Jez,,,FAB306,/FAB306.png,,,,,,,,,,,,,,,,,,,
+LGS387,LGS,Batter to a Pulp,1,6,10,3,,,,"Guardian, Action, Attack",Crush,,,,,,"If this would deal 4 or more damage, that damage can't be prevented.
 
+**Crush** - When this deals 4 or more damage to a hero, destroy an equipment they control with no defense value.",Guardian Action - Attack,,,,No,,P,R,,Ausonia,,,LGS387,/LGS387.png,,,,,,,,,,,,,,,,,,,
 LGS389,LGS,Draw a Crowd,3,2,,3,,,,"Guardian, Action, Aura",Go again,,,,,,"**Go again**
 
 When this enters the arena, each hero draws a card.

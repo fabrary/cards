@@ -217,8 +217,9 @@ export const getHeroFromString = (name: string): Hero | undefined => {
     heroOnCard = Hero.Slippy;
   } else if (["Arakni, Marionette", "Arakni, Web of Deceit"].includes(name)) {
     heroOnCard = Hero.Crackni;
+  } else if (["Kayo, Strong-arm", "Kayo, Underhanded Cheat"].includes(name)) {
+    heroOnCard = Hero.RKO;
   }
-
   return heroOnCard;
 };
 

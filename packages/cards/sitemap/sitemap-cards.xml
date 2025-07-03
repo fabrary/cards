@@ -2576,6 +2576,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bully-tactics-red</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bunker-beard</loc>
     <lastmod>2025-01-17</lastmod>
     <priority>0.5</priority>
@@ -2953,6 +2958,11 @@
   <url>
     <loc>https://fabrary.net/cards/chase-the-tail-red</loc>
     <lastmod>2024-05-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cheaters-charm-yellow</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -3461,6 +3471,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/comeback-kid-red</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/comet-storm--shock-red</loc>
     <lastmod>2024-07-25</lastmod>
     <priority>0.5</priority>
@@ -3873,6 +3888,11 @@
   <url>
     <loc>https://fabrary.net/cards/crowd-control-blue</loc>
     <lastmod>2023-09-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/crowd-goes-wild-yellow</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9126,6 +9146,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/kayo-strong-arm</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/kayo-underhanded-cheat</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/kelpie-tangled-mess-yellow</loc>
     <lastmod>2025-05-15</lastmod>
     <priority>0.5</priority>
@@ -9436,6 +9466,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/liars-charm-yellow</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/life-for-a-life-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -9738,6 +9773,16 @@
   <url>
     <loc>https://fabrary.net/cards/lunging-press-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lyath-goldmane</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lyath-goldmane-vile-savant</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10281,6 +10326,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/mocking-blow-red</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/money-or-your-life-red</loc>
     <lastmod>2025-05-23</lastmod>
     <priority>0.5</priority>
@@ -10648,6 +10698,11 @@
   <url>
     <loc>https://fabrary.net/cards/nullrune-robe</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/numbskull-charm-yellow</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -11523,6 +11578,16 @@
   <url>
     <loc>https://fabrary.net/cards/pledge-fealty-red</loc>
     <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pleiades</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pleiades-superstar</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -17176,6 +17241,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/thespian-charm-yellow</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/thick-hide-hunter-yellow</loc>
     <lastmod>2024-12-12</lastmod>
     <priority>0.5</priority>
@@ -17818,6 +17888,16 @@
   <url>
     <loc>https://fabrary.net/cards/truths-retold</loc>
     <lastmod>2024-05-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tuffnut</loc>
+    <lastmod>2025-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tuffnut-bumbling-hulkster</loc>
+    <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -33,7 +33,7 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
 );
 
 const CARDS_TO_LOG: string[] = [
-  // "Fightmaster Kox"
+  // "Magrar"
 ];
 
 export const getLegalFormats = (

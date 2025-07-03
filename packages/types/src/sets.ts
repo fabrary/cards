@@ -1554,6 +1554,31 @@ export const releases: ReleaseInfo[] = [
     talents: [],
     setIdentifiers: ["smp"],
   },
+  {
+    cards: 276,
+    classes: [Class.Brute, Class.Guardian],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    draft: {
+      heroIdentifiers: [
+        "tuffnut",
+        "pleiades",
+        "kayo-strong-arm",
+        "lyath-goldmane",
+      ],
+      picksPerPack: 14,
+    },
+    heroes: [],
+    languages: ALL_LANGUAGES,
+    raritiesExcludedInLimited: [Rarity.Fabled, Rarity.Legendary],
+    release: Release.SuperSlam,
+    relatedReleases: [],
+    releaseDate: "2025-09-26 12:00",
+    releaseType: ReleaseType.StandaloneBooster,
+    setIdentifiers: ["sup"],
+    talents: [Talent.Revered, Talent.Reviled],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1575,6 +1600,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   ros: Release.Rosetta,
   hnt: Release.TheHunted,
   sea: Release.HighSeas,
+  sup: Release.SuperSlam,
   mpg: Release.MasteryPackGuardian,
 };
 
