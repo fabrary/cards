@@ -1569,7 +1569,10 @@ export const releases: ReleaseInfo[] = [
       ],
       picksPerPack: 14,
     },
-    heroes: [],
+    heroes: [Hero.Kayo, Hero.Lyath, Hero.Pleiades, Hero.Tuffnut],
+    heroOverrides: {
+      [Hero.Kayo]: Hero.RKO,
+    },
     languages: ALL_LANGUAGES,
     raritiesExcludedInLimited: [Rarity.Fabled, Rarity.Legendary],
     release: Release.SuperSlam,
