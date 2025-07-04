@@ -60,7 +60,7 @@ export const getLegalFormats = (
   const isYoung =
     subtypes.includes(Subtype.Young) ||
     classes.includes(Class.Adjudicator) ||
-    types.includes(Type.PitFighter);
+    subtypes.includes(Subtype.PitFighter);
   const isYoungHero = isYoung && isHero;
 
   for (const format of FORMATS_TO_CHECK) {
@@ -114,7 +114,7 @@ export const getLegalFormats = (
 
     const isPitFightFormat = format === Format.UltimatePitFight;
     if (isPitFightFormat) {
-      const isPitFighter = types.includes(Type.PitFighter);
+      const isPitFighter = subtypes.includes(Subtype.PitFighter);
       if (isPitFighter) {
         isLegalPerFormat = true;
       }
