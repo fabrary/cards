@@ -304,6 +304,11 @@ export const abbreviations: Abbreviation[] = [
     card: "Restless Coalescence",
   },
   {
+    abbreviations: ["Eugene"],
+    card: "Rhinar, Reckless Rampage",
+    isHidden: true,
+  },
+  {
     abbreviations: ["SSGB"],
     card: "Sandscour Greatbow",
   },
