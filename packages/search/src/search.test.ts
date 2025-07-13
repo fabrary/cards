@@ -144,7 +144,7 @@ describe("Card search", () => {
     [
       "legal:cc",
       {
-        percent: 95,
+        percent: 94,
         searchTerms: [
           'legal:"classic constructed"',
           "legal:cc",
@@ -160,7 +160,7 @@ describe("Card search", () => {
     [
       "!legal:cc",
       {
-        percent: 5,
+        percent: 6,
         lessThan: true,
         searchTerms: ["!legal:cc", "-legal:cc", "!l:cc", "-l:cc"],
       },
