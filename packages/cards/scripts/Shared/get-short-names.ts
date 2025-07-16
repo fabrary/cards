@@ -22,8 +22,8 @@ const heroShortNames: heroShortName[] = [
     shortName: "Arakni, Marionette",
   },
   {
-    heroIdentifiers: ["arakni-web-of-deceipt"],
-    shortName: "Arakni, Web of Deceipt",
+    heroIdentifiers: ["arakni-web-of-deceit"],
+    shortName: "Arakni, Web of Deceit",
   },
   {
     heroIdentifiers: ["kayo-strong-arm"],
