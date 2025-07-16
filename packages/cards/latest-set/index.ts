@@ -805,7 +805,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     shorthands: ["Tap"],
-    
+    shortName: "Kayo, RKO",
     
     
     
@@ -894,7 +894,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     shorthands: ["Tap"],
-    
+    shortName: "Kayo, RKO",
     
     
     

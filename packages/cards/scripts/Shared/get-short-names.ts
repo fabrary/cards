@@ -10,6 +10,10 @@ interface heroShortName {
 }
 const heroShortNames: heroShortName[] = [
   {
+    heroIdentifiers: ["arakni-5lp3d-7hru-7h3-cr4x"],
+    shortName: "Arakni, Slippy",
+  },
+  {
     heroIdentifiers: ["arakni-huntsman"],
     shortName: "Arakni, Huntsman",
   },
@@ -18,8 +22,24 @@ const heroShortNames: heroShortName[] = [
     shortName: "Arakni, Marionette",
   },
   {
-    heroIdentifiers: ["arakni-5lp3d-7hru-7h3-cr4x"],
-    shortName: "Arakni, Slippy",
+    heroIdentifiers: ["arakni-web-of-deceipt"],
+    shortName: "Arakni, Web of Deceipt",
+  },
+  {
+    heroIdentifiers: ["kayo-strong-arm"],
+    shortName: "Kayo, RKO",
+  },
+  {
+    heroIdentifiers: ["kayo-underhanded-cheat"],
+    shortName: "Kayo, RKO",
+  },
+  {
+    heroIdentifiers: ["prism-advent-of-thrones"],
+    shortName: "Prism, AoT",
+  },
+  {
+    heroIdentifiers: ["professor-teklovossen"],
+    shortName: "Professor",
   },
 ];
 
