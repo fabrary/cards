@@ -40,6 +40,7 @@ export interface Card {
   power?: number;
   restrictedFormats?: Format[];
   shorthands?: string[];
+  shortName?: string;
   specialArcane?: string;
   specialCost?: string;
   specialDefense?: string;

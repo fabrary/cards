@@ -1,4 +1,5 @@
 import {
+  Card,
   Class,
   coreSetIdentifiers,
   Format,
@@ -7,6 +8,8 @@ import {
   LegalOverride,
   Rarity,
   Release,
+  releases,
+  ReleaseType,
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
@@ -266,4 +269,80 @@ export const getLegalOverrides = (
   } else {
     return undefined;
   }
+};
+
+const releaseInfoForLimitedFormat = releases.filter(
+  ({ releaseType }) => releaseType === ReleaseType.StandaloneBooster
+);
+const limitedFormatReleases = releaseInfoForLimitedFormat.map(
+  ({ release }) => release
+);
+
+export const getConfirmedLegalFormats = (card: Card) => {
+  const legalFormats = card.legalFormats.filter((format) => {
+    let isConfirmedLegal = true;
+
+    const isLimited = [Format.Draft, Format.Sealed].includes(format);
+    if (isLimited) {
+      const coreSetsCardIsIn = releaseInfoForLimitedFormat.filter(
+        ({ release }) => card.sets.includes(release)
+      );
+      const isInAtLeastOneLimitedSet = coreSetsCardIsIn.length > 0;
+      isConfirmedLegal = isInAtLeastOneLimitedSet;
+
+      // Make sure card isn't an expansion card in every core set it's in
+      const cardIsAnExpansionCardInEveryLimitedSet = card.printings.every(
+        ({ isExpansionSlot, set }) => {
+          const isCoreSet = limitedFormatReleases.includes(set);
+
+          return isCoreSet ? isExpansionSlot : true;
+        }
+      );
+      isConfirmedLegal = !cardIsAnExpansionCardInEveryLimitedSet;
+
+      if (isConfirmedLegal) {
+        const rarityRestrictionsFromSets = coreSetsCardIsIn.map(
+          ({ raritiesExcludedInLimited }) => raritiesExcludedInLimited
+        );
+
+        if (rarityRestrictionsFromSets.length > 0) {
+          let rarityRestrictionsAreEqual = true;
+          const firstRarityRestrictions = rarityRestrictionsFromSets[0]
+            ?.sort()
+            .join() as string;
+          for (const rarityRestrictions of rarityRestrictionsFromSets) {
+            if (rarityRestrictions) {
+              const matches =
+                firstRarityRestrictions === rarityRestrictions.sort().join();
+              if (!matches) {
+                rarityRestrictionsAreEqual = false;
+                break;
+              }
+            } else {
+              rarityRestrictionsAreEqual = false;
+              break;
+            }
+          }
+
+          if (rarityRestrictionsAreEqual) {
+            // check that matches rarity restrictions
+            const cardViolatesRarityRestrictions = card.rarities
+              .filter(
+                (rarity) => ![Rarity.Promo, Rarity.Marvel].includes(rarity)
+              )
+              .every((rarity) =>
+                rarityRestrictionsFromSets[0]?.includes(rarity)
+              );
+            if (cardViolatesRarityRestrictions) {
+              isConfirmedLegal = false;
+            }
+          }
+        }
+      }
+    }
+
+    return isConfirmedLegal;
+  });
+
+  return legalFormats;
 };

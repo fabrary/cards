@@ -225,6 +225,7 @@ const generateCardTypeScript = (card: Card): String => {
         ? `shorthands: [${getStringValues(card.shorthands)}],`
         : ``
     }
+    ${card.shortName ? `shortName: "${card.shortName}",` : ``}
     ${card.specialArcane ? `specialArcane: "${card.specialArcane}",` : ``}
     ${card.specialCost ? `specialCost: "${card.specialCost}",` : ``}
     ${card.specialDefense ? `specialDefense: "${card.specialDefense}",` : ``}

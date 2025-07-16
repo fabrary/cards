@@ -161,6 +161,15 @@ export const shorthands: {
     isCardProperty: true,
     shorthands: ["Tap"],
   },
+  {
+    description: "Untap",
+    expanded: ["{u}"],
+    filters: {
+      functionalText: "{u}",
+    },
+    isCardProperty: true,
+    shorthands: ["Untap"],
+  },
 ];
 
 export const multiWordShorthands = shorthands

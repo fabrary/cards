@@ -77,6 +77,7 @@
     
     
     
+    
     talents: [Talent.Reviled],
   
   
@@ -128,6 +129,7 @@
     
     pitch: 2,
     power: 3,
+    
     
     
     
@@ -195,6 +197,7 @@
     
     
     
+    
     talents: [Talent.Reviled],
   
   
@@ -246,6 +249,7 @@
     
     pitch: 1,
     power: 3,
+    
     
     
     
@@ -316,6 +320,7 @@
     
     
     
+    
     talents: [Talent.Reviled],
   
   
@@ -377,6 +382,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     
     
+    
     talents: [Talent.Revered],
   
   
@@ -430,6 +436,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -500,6 +507,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     
     
+    
     talents: [Talent.Revered],
   
   
@@ -551,6 +559,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -618,6 +627,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     
     
+    
     talents: [Talent.Revered],
   
   
@@ -669,6 +679,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     pitch: 2,
     power: 6,
+    
     
     
     
@@ -736,6 +747,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     
     
+    
     talents: [Talent.Revered],
   
   
@@ -792,6 +804,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     
@@ -880,6 +893,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     
@@ -949,6 +963,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     
+    
     talents: [Talent.Reviled],
   
   
@@ -1005,6 +1020,7 @@ Whenever the crowd boos you, create a Might token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     
@@ -1092,6 +1108,7 @@ Whenever the crowd boos you, create a Might token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     
@@ -1152,6 +1169,7 @@ If you've been booed this turn, this gets +4{p}.`,
     
     pitch: 1,
     power: 1,
+    
     
     
     
@@ -1221,6 +1239,7 @@ If you've been booed this turn, this gets +3{p}.`,
     
     
     
+    
     talents: [Talent.Reviled],
   
   
@@ -1274,6 +1293,7 @@ If you've been booed this turn, this gets +2{p}.`,
     
     pitch: 3,
     power: 1,
+    
     
     
     
@@ -1345,6 +1365,7 @@ If you've been booed this turn, this gets +2{p}.`,
     
     
     
+    
     talents: [Talent.Revered],
   
   
@@ -1399,6 +1420,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     
@@ -1484,6 +1506,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     
@@ -1553,6 +1576,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
+    
     talents: [Talent.Revered],
   
   
@@ -1607,6 +1631,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     
@@ -1692,6 +1717,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
     
     
     
+    shorthands: ["Tap"],
     
     
     

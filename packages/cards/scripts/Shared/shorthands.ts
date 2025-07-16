@@ -151,6 +151,14 @@ export const shorthands: {
     },
     shorthands: ["Tap"],
   },
+  {
+    description: "Untap",
+    expanded: ["{u}"],
+    filters: {
+      functionalText: ["{u}"],
+    },
+    shorthands: ["Untap"],
+  },
 ];
 
 export const multiWordShorthands = shorthands

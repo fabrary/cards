@@ -204,7 +204,7 @@ export const abbreviations: Abbreviation[] = [
     card: "Jack-o'-lantern",
   },
   {
-    abbreviations: ["RKO"],
+    abbreviations: ["RKO", "Cheato"],
     card: "Kayo, Underhanded Cheat",
   },
   {
