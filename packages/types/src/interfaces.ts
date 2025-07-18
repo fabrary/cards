@@ -194,6 +194,7 @@ export enum Release {
   ArmoryDeckIra = "Armory Deck: Ira",
   ArmoryDeckKayo = "Armory Deck: Kayo",
   ArmoryDeckMaxx = "Armory Deck: Maxx",
+  ArmoryDeckPleiades = "Armory Deck: Pleiades",
 
   // Armory deck origins
   ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
@@ -509,6 +510,7 @@ export enum Keyword {
   Steal = "Steal",
   Stealth = "Stealth",
   Surge = "Surge",
+  Suspense = "Suspense",
   Temper = "Temper",
   Tower = "Tower",
   Transform = "Transform",

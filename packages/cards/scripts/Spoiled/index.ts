@@ -8,11 +8,12 @@ import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
 const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - APR.csv`;
-const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASR.csv`;
-const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - AVS.csv`;
-const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
+const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - APS.csv`;
+const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASR.csv`;
+const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - AVS.csv`;
+const spoiledSetCardsFile5 = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
+const spoiledSetCardsFile6 = `${__dirname}/Flesh and Blood Spoiler Card Data - SUP.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
-const spoiledSetCardsFile5 = `${__dirname}/Flesh and Blood Spoiler Card Data - SUP.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
@@ -26,6 +27,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFile3),
   ...parseCSV(spoiledSetCardsFile4),
   ...parseCSV(spoiledSetCardsFile5),
+  ...parseCSV(spoiledSetCardsFile6),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)

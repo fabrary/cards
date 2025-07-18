@@ -42,9 +42,9 @@
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP098"],
+    setIdentifiers: ["FAB387","SUP098"],
     sets: [Release.SuperSlam],
     specialImage: "SUP098",
     subtypes: [Subtype.Attack],
@@ -102,9 +102,9 @@
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP099"],
+    setIdentifiers: ["FAB388","SUP099"],
     sets: [Release.SuperSlam],
     specialImage: "SUP099",
     subtypes: [Subtype.Attack],
@@ -162,9 +162,9 @@
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP100"],
+    setIdentifiers: ["FAB389","SUP100"],
     sets: [Release.SuperSlam],
     specialImage: "SUP100",
     subtypes: [Subtype.Attack],
@@ -282,9 +282,9 @@
       
       
     },],
-    rarities: [Rarity.SuperRare],
+    rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["SUP068"],
+    setIdentifiers: ["LGS424","SUP068"],
     sets: [Release.SuperSlam],
     specialImage: "SUP068",
     subtypes: [],
@@ -448,8 +448,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Samuel Perin"],
     cardIdentifier: "comeback-kid-blue",
     classes: [Class.NotClassed],
@@ -592,9 +591,9 @@ If you've been cheered this turn, this gets +1{p}.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP036"],
+    setIdentifiers: ["FAB381","SUP036"],
     sets: [Release.SuperSlam],
     specialImage: "SUP036",
     subtypes: [Subtype.Attack],
@@ -631,7 +630,8 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-yellow",
     classes: [Class.NotClassed],
@@ -652,9 +652,9 @@ If you've been cheered this turn, this gets +1{p}.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP037"],
+    setIdentifiers: ["FAB382","SUP037"],
     sets: [Release.SuperSlam],
     specialImage: "SUP037",
     subtypes: [Subtype.Attack],
@@ -712,9 +712,9 @@ If you've been cheered this turn, this gets +1{p}.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP038"],
+    setIdentifiers: ["FAB383","SUP038"],
     sets: [Release.SuperSlam],
     specialImage: "SUP038",
     subtypes: [Subtype.Attack],
@@ -749,6 +749,200 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Andy Aslamov"],
+    cardIdentifier: "garland-of-spring",
+    classes: [Class.Generic],
+    defaultImage: "SUP212",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Garland of Spring",
+    printings: [{
+        artists: ["Andy Aslamov"],
+      
+      identifier: "SUP212",
+      image: "SUP212",
+      
+      
+      print: "SUP212",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP212"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP212",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Action** - Destroy this: Gain {r}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "helm-of-hindsight",
+    classes: [Class.Generic],
+    defaultImage: "SUP211",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Helm of Hindsight",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "SUP211",
+      image: "SUP211",
+      
+      
+      print: "SUP211",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP211"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP211",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - {r}{r}{r}, destroy this: Put target attack action card from your graveyard on top of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "in-the-palm-of-your-hand-red",
+    classes: [Class.Guardian],
+    defaultImage: "SUP171",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "In the Palm of Your Hand",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SUP171",
+      image: "SUP171",
+      
+      
+      print: "SUP171",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.R,
+      identifier: "SUP171",
+      image: "SUP171",
+      
+      
+      print: "SUP171-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP171"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP171",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this enters or leaves the arena, draw a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -815,8 +1009,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-underhanded-cheat",
     classes: [Class.Brute],
@@ -860,8 +1053,20 @@ Whenever the crowd boos you, create a Vigor token.`,
       set: Release.SuperSlam,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.R,
+      identifier: "SUP063",
+      image: "SUP063",
+      
+      
+      print: "SUP063-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.SuperSlam,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
     setIdentifiers: ["SUP063"],
     sets: [Release.SuperSlam],
@@ -925,9 +1130,9 @@ Whenever the crowd boos you, create a Vigor token.`,
       
       
     },],
-    rarities: [Rarity.SuperRare],
+    rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["SUP076"],
+    setIdentifiers: ["LGS425","SUP076"],
     sets: [Release.SuperSlam],
     specialImage: "SUP076",
     subtypes: [],
@@ -1031,7 +1236,8 @@ Whenever the crowd boos you, create a Might token.`,
     talents: [Talent.Reviled],
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "lyath-goldmane-vile-savant",
     classes: [Class.Guardian],
@@ -1075,8 +1281,20 @@ Whenever the crowd boos you, create a Might token.`,
       set: Release.SuperSlam,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.R,
+      identifier: "SUP071",
+      image: "SUP071",
+      
+      
+      print: "SUP071-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.SuperSlam,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
     setIdentifiers: ["SUP071"],
     sets: [Release.SuperSlam],
@@ -1305,8 +1523,7 @@ If you've been booed this turn, this gets +2{p}.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "numbskull-charm-yellow",
     classes: [Class.Brute],
@@ -1327,9 +1544,9 @@ If you've been booed this turn, this gets +2{p}.`,
       
       
     },],
-    rarities: [Rarity.SuperRare],
+    rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["SUP007"],
+    setIdentifiers: ["LGS422","SUP007"],
     sets: [Release.SuperSlam],
     specialImage: "SUP007",
     subtypes: [],
@@ -1370,6 +1587,301 @@ If you've been booed this turn, this gets +2{p}.`,
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "offensive-behavior-blue",
+    classes: [Class.Brute],
+    defaultImage: "SUP070",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.RKO],
+    name: "Offensive Behavior",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SUP070",
+      image: "SUP070",
+      
+      
+      print: "SUP070",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SUP070",
+      image: "SUP070",
+      
+      
+      print: "SUP070-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP070"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP070",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Brute Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you control a Might or Vigor token, this gets +1{p}.
+
+When this hits a hero, create a Might and a Vigor token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "old-leather-and-vim-red",
+    classes: [Class.Brute],
+    defaultImage: "SUP008",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Tuffnut],
+    name: "Old Leather and Vim",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "SUP008",
+      image: "SUP008",
+      
+      
+      print: "SUP008",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP008"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP008",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `If you control a Toughness or Vigor token, this gets +1{p}.
+
+When this hits a hero, create a Toughness and a Vigor token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Septimius Ferdian"],
+    cardIdentifier: "outside-interference-blue",
+    classes: [Class.Brute],
+    defaultImage: "SUP066",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.RKO],
+    name: "Outside Interference",
+    printings: [{
+        artists: ["Septimius Ferdian"],
+      
+      identifier: "SUP066",
+      image: "SUP066",
+      
+      
+      print: "SUP066",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Septimius Ferdian"],
+      foiling: Foiling.C,
+      identifier: "SUP066",
+      image: "SUP066",
+      
+      
+      print: "SUP066-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP066"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP066",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 0,
+    
+    functionalText: `**Instant** - Discard this: You may reveal a Reviled attack action card from your inventory and put it into your hand.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "overcrowded-blue",
+    classes: [Class.Generic],
+    defaultImage: "SUP216",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Overcrowded",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SUP216",
+      image: "SUP216",
+      
+      
+      print: "SUP216",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.R,
+      identifier: "SUP216",
+      image: "SUP216",
+      
+      
+      print: "SUP216-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "SUP216",
+      image: "SUP216",
+      
+      
+      print: "SUP216-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP216"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP216",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Ambush**
+
+When this attacks or defends, it gets +1{p} +1{d} for each different name among aura tokens in the arena.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush],
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards4: Card[] =  [{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades",
     classes: [Class.Guardian],
@@ -1390,10 +1902,10 @@ If you've been booed this turn, this gets +2{p}.`,
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Rare],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SUP010"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS002","SUP010"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP010",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -1476,9 +1988,9 @@ Whenever the crowd cheers you, create a Confidence token.`,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SUP009"],
+    setIdentifiers: ["HER147","SUP009"],
     sets: [Release.SuperSlam],
     specialImage: "SUP009_V2",
     subtypes: [],
@@ -1518,6 +2030,140 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
   
   },{
+    artists: ["Marcus Reyno"],
+    cardIdentifier: "punching-gloves",
+    classes: [Class.Generic],
+    defaultImage: "SUP213",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Punching Gloves",
+    printings: [{
+        artists: ["Marcus Reyno"],
+      
+      identifier: "SUP213",
+      image: "SUP213",
+      
+      
+      print: "SUP213",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP213"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP213",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Action** - {r}{r}, destroy this: The next attack card you play this turn gets +2{p}. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "spew-obscenities-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "SUP078",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath],
+    name: "Spew Obscenities",
+    printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "SUP078",
+      image: "SUP078",
+      
+      
+      print: "SUP078",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Henrique Lindner"],
+      foiling: Foiling.R,
+      identifier: "SUP078",
+      image: "SUP078",
+      
+      
+      print: "SUP078-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP078"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP078",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Guardian Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you control a Confidence or Might token, this gets +1{p}.
+
+When this hits a hero, create a Confidence and a Might token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "thespian-charm-yellow",
     classes: [Class.Guardian],
@@ -1538,9 +2184,9 @@ Whenever the crowd cheers you, create a Confidence token.`,
       
       
     },],
-    rarities: [Rarity.SuperRare],
+    rarities: [Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["SUP013"],
+    setIdentifiers: ["LGS423","SUP013"],
     sets: [Release.SuperSlam],
     specialImage: "SUP013",
     subtypes: [],
@@ -1578,6 +2224,68 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Kyxarie Peralta"],
+    cardIdentifier: "toby-jugs",
+    classes: [Class.Generic],
+    defaultImage: "SUP214",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Toby Jugs",
+    printings: [{
+        artists: ["Kyxarie Peralta"],
+      
+      identifier: "SUP214",
+      image: "SUP214",
+      
+      
+      print: "SUP214",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP214"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP214",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `When this defends, you may pay {r}. If you do, it gets +2{d} this turn.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -1687,9 +2395,9 @@ Whenever the crowd cheers you, create a Toughness token.`,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SUP001"],
+    setIdentifiers: ["HER146","SUP001"],
     sets: [Release.SuperSlam],
     specialImage: "SUP001_V2",
     subtypes: [],
@@ -1718,6 +2426,68 @@ Whenever the crowd cheers you, create a Toughness token.`,
     
     
     shorthands: ["Tap"],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Marco Wulfr"],
+    cardIdentifier: "uplifting-performance-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP016",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades],
+    name: "Uplifting Performance",
+    printings: [{
+        artists: ["Marco Wulfr"],
+      
+      identifier: "SUP016",
+      image: "SUP016",
+      
+      
+      print: "SUP016",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP016"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP016",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Guardian Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `If you control a Confidence or Toughness token, this gets +1{p}.
+
+When this hits a hero, create a Confidence and a Toughness token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
     
     
     

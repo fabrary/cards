@@ -1582,6 +1582,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["sup"],
     talents: [Talent.Revered, Talent.Reviled],
   },
+  {
+    cards: 30,
+    classes: [Class.Guardian],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Pleiades],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckPleiades,
+    relatedReleases: [],
+    releaseDate: "2025-09-19 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["aps"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1620,6 +1635,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   amx: Release.ArmoryDeckMaxx,
   agb: Release.ArmoryDeckGravyBones,
   asr: Release.ArmoryDeckIra,
+  aps: Release.ArmoryDeckPleiades,
   apr: Release.ArmoryDeckLegendsPrism,
   avs: Release.ArmoryDeckLegendsViserai,
 
