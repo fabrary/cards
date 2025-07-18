@@ -1595,7 +1595,7 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2025-09-19 12:00",
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["aps"],
-    talents: [],
+    talents: [Talent.Revered],
   },
 ];
 
