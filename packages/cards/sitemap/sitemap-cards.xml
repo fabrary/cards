@@ -2406,6 +2406,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/break-stature-yellow</loc>
+    <lastmod>2025-07-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/break-tide-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -3168,6 +3173,11 @@
   <url>
     <loc>https://fabrary.net/cards/clash-of-agility-blue</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clash-of-bravado-yellow</loc>
+    <lastmod>2025-07-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -6131,6 +6141,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fault-line-red</loc>
+    <lastmod>2025-07-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/fealty</loc>
     <lastmod>2024-10-31</lastmod>
     <priority>0.5</priority>
@@ -8228,6 +8243,11 @@
   <url>
     <loc>https://fabrary.net/cards/hornets-sting</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hostile-encroachment-red</loc>
+    <lastmod>2025-07-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -13173,6 +13193,11 @@
   <url>
     <loc>https://fabrary.net/cards/remorseless-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/renounce-grandeur-red</loc>
+    <lastmod>2025-07-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

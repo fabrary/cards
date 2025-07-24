@@ -16,8 +16,8 @@ MPG010,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG010,/MPG010.png,,,,,,,,,,,,,,,,,,,,,
 MPG011,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG011,/MPG011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG012,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG012,/MPG012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG013,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG013,/MPG013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG014,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG014,/MPG014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG015,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG015,/MPG015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG014,MPG,Break Stature,Yellow,2,5,8,3,,,,"Guardian, Action, Attack",,Clash,,,,,,"**Crush** - When this deals 4 or more damage to a hero, destroy an aura token they control. They can't create auras with that token's name until the end of their next turn.",Guardian Action - Attack,,,,No,,M,,,Federico Musetti,,"""Far be it from us to break with tradition."" - Fai",MPG014,/MPG014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG015,MPG,Clash of Bravado,Yellow,2,4,7,3,,,,"Guardian, Action, Attack",,Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner destroys an aura the other hero controls.",Guardian Action - Attack,,,,No,,M,,,Edward Chee,,,MPG015,/MPG015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG016,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG016,/MPG016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG017,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG017,/MPG017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG018,MPG,Put 'Em In Their Place,Red,1,6,10,3,,,,"Guardian, Action, Attack",,"Valda Specialization, Crush",,,,,,"**Valda Specialization**
@@ -42,9 +42,15 @@ MPG028,MPG,Smelting of the Old Ones,Red,1,6,10,3,,,,"Guardian, Action, Attack",,
 MPG029,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG029,/MPG029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG030,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG030,/MPG030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG031,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG031,/MPG031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG032,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG032,/MPG032.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG033,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG033,/MPG033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG034,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG034,/MPG034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"MPG032, FAB328",FAB,Fault Line,Red,1,3,7,3,,,,"Guardian, Action, Attack",,Crush,,,,,,"If you have a card in your arsenal, this gets +1{p}.
+
+**Crush** - When this deals 4 or more damage to a hero, put all cards in all arsenals on bottom of their owner's deck.",Guardian Action - Attack,,,,No,,R,,,Ramza Ardyputra,,,MPG032,/MPG032.png,,,P,R,EA,Ramza Ardyputra,,,FAB328,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"MPG033, FAB329",FAB,Hostile Encroachment,Red,1,3,8,3,,,,"Guardian, Action, Attack",,Crush,,,,,,"When this attacks a hero, they draw a card.
+
+**Crush** - When this deals 4 or more damage to a hero, they discard a card.",Guardian Action - Attack,,,,No,,R,,,Ausonia,,,MPG033,/MPG033.png,,,P,R,EA,Ausonia,,,FAB329,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+"MPG034, FAB330",FAB,Renounce Grandeur,Red,1,3,7,3,,,,"Guardian, Action, Attack",,Crush,,,,,,"If the defending hero controls an aura token, this gets +1{p}.
+
+**Crush** - When this deals 4 or more damage to a hero, they can't create aura tokens during their next turn.",Guardian Action - Attack,,,,No,,R,,,Mario Wibisono,,,MPG034,/MPG034.png,,,P,R,EA,Mario Wibisono,,,FAB330,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG035,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG035,/MPG035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG036,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG036,/MPG036.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG037,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG037,/MPG037.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -149,3 +155,4 @@ MPG127,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG127,/MPG127.png,,,,,,,,,,,,,,,,,,,,,
 MPG128,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG128,/MPG128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG129,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG129,/MPG129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG130,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG130,/MPG130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
