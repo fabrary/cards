@@ -137,7 +137,11 @@ MPG109,MPG,Crash and Bash,Red,1,,,4,,,,"Guardian, Block",,,,,,,Crush,"When this 
 MPG110,MPG,Crash and Bash,Yellow,2,,,3,,,,"Guardian, Block",,,,,,,Crush,"When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",Guardian Block,,,,,,C,,,Jessada Sutthi,,,MPG110,/MPG110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG111,MPG,Crash and Bash,Blue,3,,,2,,,,"Guardian, Block",,,,,,,Crush,"When this defends, you may reveal a card with **crush** from your hand. If you do, create a Seismic Surge token.",Guardian Block,,,,,,C,,,Jessada Sutthi,,,MPG111,/MPG111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG112,MPG,Seismic Surge,,,,,,,,,"Guardian, Token, Aura",,,,,,,,"At the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn costs {r} less to play.",Guardian Token - Aura,,,,,,T,,,Anastasiya Grintsova,,,MPG112,/MPG112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG113,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG113,/MPG113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG113,MPG,Base of the Mountain,,,,,*,,,,"Generic, Equipment, Legs",,Blade Break,,,,,,"When this defends, banish any number of action cards from your hand, then add them to the chain link as defending cards.
+
+This card's {d} is equal to the number of action cards defending on the active chain link.
+
+**Blade Break**",Generic Equipment - Legs,,,,No,,L,C,,Simon Dominic,,,MPG113,/MPG113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG114,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG114,/MPG114.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG115,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG115,/MPG115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG116,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG116,/MPG116.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
