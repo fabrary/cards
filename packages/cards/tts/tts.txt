@@ -4827,6 +4827,7 @@ OSCCardDB = {
   ["MPG015"] = { name = "Clash of Bravado (2)", text = "When this defends, **clash** with the attacking hero. The winner destroys an aura the other hero controls.", keywords = "Clash", types = "Action"},
   ["MPG018"] = { name = "Put 'Em In Their Place (1)", text = "**Valda Specialization**\n\n**Crush** - When this deals 4 or more damage to a hero, they discard their hand, then they draw that many cards.", keywords = "Crush,Specialization", types = "Action"},
   ["MPG019"] = { name = "Solid Ground (3)", text = "This costs {r} less to play for each Seismic Surge you control.", keywords = "", types = "Defense Reaction"},
+  ["MPG021"] = { name = "Visit Anvilheim (3)", text = "Remove X -1{d} counters from a Guardian off-hand you have equipped.", keywords = "", types = "Action"},
   ["MPG024"] = { name = "Seismic Eruption (2)", text = "Create 3 Seismic Surge tokens.", keywords = "", types = "Instant"},
   ["MPG026"] = { name = "Blinding of the Old Ones (1)", text = "**Crush** - When this deals 4 or more damage to a Guardian hero, cards they own lose all abilities during their next turn.\n\n**Heave 2**", keywords = "Crush,Heave", types = "Action"},
   ["MPG027"] = { name = "Disenchantment of the Old Ones (1)", text = "**Crush** - When this deals 4 or more damage to a Guardian hero, destroy all auras they control.\n\n**Heave 2**", keywords = "Crush,Heave", types = "Action"},
