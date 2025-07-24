@@ -710,7 +710,10 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
   return bannedFormats;
 };
 
-const getSets = ({ setIdentifiers }: ParsedCard): Release[] => {
+const getSets = (
+  { setIdentifiers }: ParsedCard,
+  printings: Printing[]
+): Release[] => {
   const sets = new Set<Release>();
   for (const setIdentifier of setIdentifiers) {
     const set = setIdentifierToSetMappings[setIdentifier.toLowerCase()];
@@ -718,6 +721,13 @@ const getSets = ({ setIdentifiers }: ParsedCard): Release[] => {
       sets.add(set);
     }
   }
+
+  for (const printing of printings) {
+    if (printing.set) {
+      sets.add(printing.set);
+    }
+  }
+
   const arr = Array.from(sets);
   arr.sort();
 
@@ -769,7 +779,7 @@ const getCardData = (card: ParsedCard): Card => {
   const keywords = getKeywords(card);
   const name = card.name.trim();
   const pitch = getNumberOrUndefined(card.pitch);
-  const sets = getSets(card);
+  const sets = getSets(card, printings);
   const restrictedFormats = getRestrictedFormats({ ...card, cardIdentifier });
   const specializations = getSpecializations(card);
   const talents = getTalents(card);
