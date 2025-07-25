@@ -1,38 +1,83 @@
-Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
-APR001,APR,"Prism, Sculptor of Arc Light",,,,,40,4,,"Light, Illusionist, Hero",,,,,,,"**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.",Light Illusionist Hero,,No,No,No,,M,,,Livia Prima,,,APR001,/APR001.png,,,,,,,,,,,,,,,,,,,
-APR002,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR002,,,,,,,,,,,,,,,,,,,,
-APR003,APR,Halo of Lumina Light,,,,,,,,"Light, Illusionist, Equipment, Head",Spellvoid 2,,,,,,".""When this is destroyed, you may put a yellow aura from your banished zone into the arena.
+Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
+APR001,APR,"Prism, Sculptor of Arc Light",,,,,,40,4,,"Light, Illusionist, Hero",,,,,,,,"**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.",Light Illusionist Hero,,No,No,No,,M,,,Livia Prima,,,APR001,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR001.png,,,,,,,,,,,,,,,,,,,
+APR002,APR,Luminaris,,,,,,,,,"Light, Illusionist, Weapon, Scepter, 2H",,,,,,,,"During your action phase, Illusionist auras you control are weapons with 1 base {p} and ""**Once per Turn Action** - 0: **Attack**""
 
-**Spellvoid 2**",Light Illusionist Equipment - Head,,,,No,,M,C,EA,Kanadekana,,,APR003,/APR003.png,,,,,,,,,,,,,,,,,,,
-APR004,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR004,,,,,,,,,,,,,,,,,,,,
-APR005,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR005,,,,,,,,,,,,,,,,,,,,
-APR006,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR006,,,,,,,,,,,,,,,,,,,,
-APR007,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR007,,,,,,,,,,,,,,,,,,,,
-APR008,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR008,,,,,,,,,,,,,,,,,,,,
-APR009,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR009,,,,,,,,,,,,,,,,,,,,
-APR010,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR010,,,,,,,,,,,,,,,,,,,,
-APR011,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR011,,,,,,,,,,,,,,,,,,,,
-APR012,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR012,,,,,,,,,,,,,,,,,,,,
-APR013,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR013,,,,,,,,,,,,,,,,,,,,
-APR014,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR014,,,,,,,,,,,,,,,,,,,,
-APR015,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR015,,,,,,,,,,,,,,,,,,,,
-APR016,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR016,,,,,,,,,,,,,,,,,,,,
-APR017,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR017,,,,,,,,,,,,,,,,,,,,
-APR018,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR018,,,,,,,,,,,,,,,,,,,,
-APR019,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR019,,,,,,,,,,,,,,,,,,,,
-APR020,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR020,,,,,,,,,,,,,,,,,,,,
-APR021,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR021,,,,,,,,,,,,,,,,,,,,
-APR022,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR022,,,,,,,,,,,,,,,,,,,,
-APR023,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR023,,,,,,,,,,,,,,,,,,,,
-APR024,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR024,,,,,,,,,,,,,,,,,,,,
-APR025,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR025,,,,,,,,,,,,,,,,,,,,
-APR026,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR026,,,,,,,,,,,,,,,,,,,,
-APR027,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR027,,,,,,,,,,,,,,,,,,,,
-APR028,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR028,,,,,,,,,,,,,,,,,,,,
-APR029,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR029,,,,,,,,,,,,,,,,,,,,
-APR030,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR030,,,,,,,,,,,,,,,,,,,,
-APR031,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR031,,,,,,,,,,,,,,,,,,,,
-APR032,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR032,,,,,,,,,,,,,,,,,,,,
-APR033,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR033,,,,,,,,,,,,,,,,,,,,
-APR034,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR034,,,,,,,,,,,,,,,,,,,,
-APR035,APR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APR035,,,,,,,,,,,,,,,,,,,,
+If there is a yellow card in your pitch zone, your Illusionist attacks get **go again**.",Light Illusionist Weapon - Scepter (2H),,,No,No,,M,,,Livia Prima,,,APR002,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR002.png,,,,,,,,,,,,,,,,,,,
+APR003,APR,Halo of Lumina Light,,,,,,,,,"Light, Illusionist, Equipment, Head",,Spellvoid 2,,,,,,"When this is destroyed, you may put a yellow aura from your banished zone into the arena.
+
+**Spellvoid 2**",Light Illusionist Equipment - Head,,,,No,,M,C,EA,Kanadekana,,,APR003,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR003.png,,,,,,,,,,,,,,,,,,,
+APR004,APR,Heartened Cross Strap,,,,,0,,,,"Generic, Equipment, Chest",,Go again,,,,,,**Action** - Destroy this: The next attack action card you play this turn costs {r}{r} less to play. **Go again**,Generic Equipment - Chest,,No,,No,,M,,AA,Firaz M. Rasyid,,,APR004,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR004.png,,,,,,,,,,,,,,,,,,,
+APR005,APR,Calming Gesture,,,,,,,,,"Illusionist, Equipment, Arms",,Arcane Barrier 1,,,,,,"**Instant** - {r}, destroy this: Create a Spectral Shield token.
+
+**Arcane Barrier 1**",Illusionist Equipment - Arms,,,,No,,M,,,Thomas Ressuge,,,APR005,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR005.png,,,,,,,,,,,,,,,,,,,
+APR006,APR,Mage Master Boots,,,,,0,,,,"Generic, Equipment, Legs",,Go again,,,,,,"**Action** - {r}, destroy this: The next non-attack action card you play this turn gets **go again**. **Go again**",Generic Equipment - Legs,,,,,,C,,,Alexandra Malygina,,,APR006,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR006.png,,,,,,,,,,,,,,,,,,,
+APR007,APR,Herald of Protection,Red,1,2,7,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"When this hits, put it into your soul and create a Spectral Shield token.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,,,C,,,Simon Wong,,,APR007,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR007.png,,,,,,,,,,,,,,,,,,,
+APR008,APR,Wartune Herald,Red,1,1,7,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"When this hits, put it into your soul.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,,,C,,,Narendra B Adi,,,APR008,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR008.png,,,,,,,,,,,,,,,,,,,
+APR009,APR,Oasis Respite,Red,1,1,,,,,,"Generic, Instant",,,,,,,,"Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.",Generic Instant,,,,,,C,,,Mateusz Wiśniewski,,,APR009,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR009.png,,,,,,,,,,,,,,,,,,,
+APR010,APR,Celestial Cataclysm,Yellow,2,0,7,3,,,,"Light, Action, Attack",,Go again,,,,,,"As an additional cost to play this, banish 3 cards from your soul.
+
+**Go again**",Light Action - Attack,,,,No,,M,,,Alexander Mokhov,,,APR010,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR010.png,,,,,,,,,,,,,,,,,,,
+APR011,APR,Herald of Erudition,Yellow,2,2,5,3,,,,"Light, Illusionist, Action, Attack",,"Dominate, Phantasm",,,,,,"When this hits, put it into your soul and draw 2 cards.
+
+**Dominate**
+
+**Phantasm**",Light Illusionist Action - Attack,,,,No,,M,,,Alexander Mokhov,,,APR011,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR011.png,,,,,,,,,,,,,,,,,,,
+APR012,APR,Herald of Protection,Yellow,2,2,6,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"When this hits, put it into your soul and create a Spectral Shield token.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,,,C,,,Simon Wong,,,APR012,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR012.png,,,,,,,,,,,,,,,,,,,
+APR013,APR,Herald of Triumph,Yellow,2,2,6,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"Attack action cards get -1{p} while defending this.
+
+When this hits, put it into your soul.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,No,,R,,,Sam Yang,,,APR013,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR013.png,,,,,,,,,,,,,,,,,,,
+APR014,APR,Wartune Herald,Yellow,2,1,6,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"When this hits, put it into your soul.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,,,C,,,Narendra B Adi,,,APR014,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR014.png,,,,,,,,,,,,,,,,,,,
+APR015,APR,Soul Shield,Yellow,2,2,,6,,,,"Light, Defense Reaction",,,,,,,,Put this into your soul when the combat chain closes.,Light Defense Reaction,,,,No,,M,,,Marco Wulfr,,,APR015,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR015.png,,,,,,,,,,,,,,,,,,,
+APR016,APR,Arc Light Sentinel,Yellow,2,6,,,,,,"Light, Illusionist, Instant, Aura",,"Prism Specialization, Spectra",,,,,,"**Prism Specialization**
+
+Opponents must choose this as the target of attacks if able.
+
+**Spectra**",Light Illusionist Instant - Aura,,,,No,,M,,,Sam Yang,,,APR016,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR016.png,,,,,,,,,,,,,,,,,,,
+APR017,APR,Genesis,Yellow,2,4,,,,,,"Light, Illusionist, Instant, Aura",,Spectra,,,,,,"At the start of your turn, you may put a card from your hand into your soul. If it's an Illusionist card, create a Spectral Shield token. If it's a Light card, draw a card.
+
+**Spectra**",Light Illusionist Instant - Aura,,,,No,,M,,,Alexander Gering,,,APR017,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR017.png,,,,,,,,,,,,,,,,,,,
+APR018,APR,Merciful Retribution,Yellow,2,4,,,,,,"Light, Illusionist, Instant, Aura",,Spectra,,,,,,"Whenever an aura or attack action card you control is destroyed, deal 1 arcane damage to target hero. If it's a non-token Light card, put it into your soul.
+
+**Spectra**",Light Illusionist Instant - Aura,,,,No,,R,,,Eleonor Piteira,,,APR018,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR018.png,,,,,,,,,,,,,,,,,,,
+APR019,APR,Ode to Wrath,Yellow,2,4,,,,,,"Light, Illusionist, Instant, Aura",,Spectra,,,Go again,,,"Whenever a source you control deals damage to an opponent, they lose 1 {h}.
+
+Illusionist attack action cards you control get **go again**.
+
+**Spectra**",Light Illusionist Instant - Aura,,,,No,,R,,,Eleonor Piteira,,,APR019,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR019.png,,,,,,,,,,,,,,,,,,,
+APR020,APR,Parable of Humility,Yellow,2,4,,,,,,"Light, Illusionist, Instant, Aura",,Spectra,,,,,,"Attack action cards your opponents control get -1{p} while attacking and defending.
+
+**Spectra**",Light Illusionist Instant - Aura,,,,No,,R,,,Eleonor Piteira,,,APR020,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR020.png,,,,,,,,,,,,,,,,,,,
+APR021,APR,Herald of Protection,Blue,3,2,5,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"When this hits, put it into your soul and create a Spectral Shield token.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,,,C,,,Simon Wong,,,APR021,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR021.png,,,,,,,,,,,,,,,,,,,
+APR022,APR,Herald of Triumph,Blue,3,2,5,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"Attack action cards get -1{p} while defending this.
+
+When this hits, put it into your soul.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,No,,R,,,Sam Yang,,,APR022,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR022.png,,,,,,,,,,,,,,,,,,,
+APR023,APR,Wartune Herald,Blue,3,1,5,3,,,,"Light, Illusionist, Action, Attack",,Phantasm,,,,,,"When this hits, put it into your soul.
+
+**Phantasm**",Light Illusionist Action - Attack,,,,,,C,,,Narendra B Adi,,,APR023,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR023.png,,,,,,,,,,,,,,,,,,,
+APR024,APR,Haze Bending,Blue,3,0,,2,,,,"Illusionist, Action, Aura",,Spectra,,,,,,"Once per turn, when this or an Illusionist non-token aura you control is destroyed, create a Spectral Shield token.
+
+**Spectra**",Illusionist Action - Aura,,,,No,,R,,,Saad Irfan,,,APR024,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR024.png,,,,,,,,,,,,,,,,,,,
+APR025,APR,Passing Mirage,Blue,3,0,,2,,,,"Illusionist, Action, Aura",,Spectra,,,,,,"Your first Illusionist attack each turn loses and can't get **phantasm**.
+
+**Spectra**",Illusionist Action - Aura,,,,No,,R,,,Saad Irfan,,,APR025,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR025.png,,,,,,,,,,,,,,,,,,,
+APR026,APR,Pierce Reality,Blue,3,0,,2,,,,"Illusionist, Action, Aura",,Spectra,,,,,,"Your first Illusionist attack action card you play each turn gets +2{p}.
+
+**Spectra**",Illusionist Action - Aura,,,,No,,R,,,Saad Irfan,,,APR026,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR026.png,,,,,,,,,,,,,,,,,,,
+APR027,APR,Shimmers of Silver,Blue,3,0,,2,,,,"Illusionist, Action, Aura",,Spectra,,,,,,"Once per turn, when you attack with an Illusionist aura weapon, put a +1{p} counter on it.
+
+**Spectra**",Illusionist Action - Aura,,,,No,,M,,,Hoàng Lập,,,APR027,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR027.png,,,,,,,,,,,,,,,,,,,
+APR028,APR,Spectral Shield,,,,,,,,,"Illusionist, Token, Aura",,Ward 1,,,,,,**Ward 1**,Illusionist Token - Aura,,,,,,B,,,Alexandra Malygina,,,APR028,https://storage.googleapis.com/cardfaces/2025-ARMORY-APR/EN/APR028.png,,,,,,,,,,,,,,,,,,,

@@ -18,18 +18,24 @@ MPG012,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG012,/MPG012.png,,,,,,,,,,,,,,,,,,,,,
 MPG013,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG013,/MPG013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG014,MPG,Break Stature,Yellow,2,5,8,3,,,,"Guardian, Action, Attack",,Clash,,,,,,"**Crush** - When this deals 4 or more damage to a hero, destroy an aura token they control. They can't create auras with that token's name until the end of their next turn.",Guardian Action - Attack,,,,No,,M,,,Federico Musetti,,"""Far be it from us to break with tradition."" - Fai",MPG014,/MPG014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG015,MPG,Clash of Bravado,Yellow,2,4,7,3,,,,"Guardian, Action, Attack",,Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner destroys an aura the other hero controls.",Guardian Action - Attack,,,,No,,M,,,Edward Chee,,,MPG015,/MPG015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG016,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG016,/MPG016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG017,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG017,/MPG017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG016,MPG,Headbutt,Blue,3,4,6,3,,,,"Guardian, Action, Attack",,Crush,,,,,,"This can't be defended by non-head equipment.
+
+If you have a head equipped and the defending hero doesn't, this gets +1{p}.
+
+**Crush** - When this deals 4 or more damage to a hero, put a -1{d} counter on a head they have equipped, then if it has 0{d}, destroy it.",Guardian Action - Attack,,,,No,,M,,,Esty Swandana,,,MPG016,/MPG016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG017,MPG,Pec Perfect,Red,1,5,9,3,,,,"Guardian, Action, Attack",,Clash,,,,,,"Whenever a card defends this, **clash** with the defending hero. The winner destroys the top card of the other hero's deck.",Guardian Action - Attack,,,,No,,M,,,Tomasz Jedruszek,,,MPG017,/MPG017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG018,MPG,Put 'Em In Their Place,Red,1,6,10,3,,,,"Guardian, Action, Attack",,"Valda Specialization, Crush",,,,,,"**Valda Specialization**
 
 **Crush** - When this deals 4 or more damage to a hero, they discard their hand, then they draw that many cards.",Guardian Action - Attack,,,,No,,M,,,Fajareka Setiawan,,,MPG018,/MPG018.png,,,M,R,,Fajareka Setiawan,,,MPG018,/MPG018.png,,,M,R,EA,Fajareka Setiawan,,,MPG018,/MPG018-EA.png,,,,,,,,,,,,,,,,,,,,,
 MPG019,MPG,Solid Ground,Blue,3,3,,5,,,,"Guardian, Defense Reaction",,,,,,,,This costs {r} less to play for each Seismic Surge you control.,Guardian Defense Reaction,,,,No,,M,,,Sebastian Szmyd,,,MPG019,/MPG019.png,,,M,R,,Sebastian Szmyd,,,MPG019,/MPG019.png,,,M,R,EA,Sebastian Szmyd,,,MPG019,/MPG019-EA.png,,,,,,,,,,,,,,,,,,,,,
-MPG020,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG020,/MPG020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG020,MPG,Leave a Dent,Blue,3,0,,3,,,,"Guardian, Action",,Go again,,,Crush,,,"Your next Guardian attack this turn gets ""**Crush** - When this deals 4 or more damage to a hero, destroy the top 4 cards of their deck.""
+
+**Go again**",Guardian Action,,,,No,,M,,,Carlos Cruchaga,,,MPG020,/MPG020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG021,MPG,Visit Anvilheim,Blue,3,X,,3,,,,"Guardian, Action",,,,,,,,Remove X -1{d} counters from a Guardian off-hand you have equipped.,Guardian Action,,,,No,,M,,,Tomasz Jedruszek,,"Memory dulls and dims with age, yet still no metal whets sharper nor polishes brighter than Anvilheim steel.",MPG021,/MPG021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG022,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG022,/MPG022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG023,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG023,/MPG023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG024,MPG,Seismic Eruption,Yellow,2,0,,,,,,"Guardian, Instant",,,,,,,,Create 3 Seismic Surge tokens.,Guardian Instant,,,,No,,M,,,Carlos Cruchaga,,,MPG024,/MPG024.png,,,M,R,,Carlos Cruchaga,,,MPG024,/MPG024.png,,,M,R,EA,Carlos Cruchaga,,,MPG024,/MPG024-EA.png,,,,,,,,,,,,,,,,,,,,,
-MPG025,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG025,/MPG025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG025,MPG,Test of Iron Grip,Red,1,,,4,,,,"Guardian, Block",,Clash,,,,,,"When this defends, **clash** with the attacking hero. If there is a winner, the other hero discards a card.",Guardian Block,,,,No,,M,,,Tomasz Jedruszek,,,MPG025,/MPG025.png,,,M,R,EA,Tomasz Jedruszek,,,MPG025,/MPG025_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG026,MPG,Blinding of the Old Ones,Red,1,6,10,3,,,,"Guardian, Action, Attack",,"Crush, Heave 2",,,,,,"**Crush** - When this deals 4 or more damage to a Guardian hero, cards they own lose all abilities during their next turn.
 
 **Heave 2**",Guardian Action - Attack,,,,No,,R,,,Federico Musetti,,,MPG026,/MPG026.png,,,R,R,,Federico Musetti,,,MPG026,/MPG026.png,,,V,C,FA,Federico Musetti,,,MPG026,/MPG026_V2.png,,,,,,,,,,,,,,,,,,,,,
@@ -156,7 +162,7 @@ MPG124,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG124,/MPG124.png,,,,,,,,,,,,,,,,,,,,,
 MPG125,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG125,/MPG125.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG126,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG126,/MPG126.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG127,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG127,/MPG127.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG128,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG128,/MPG128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG128,MPG,Fearless Confrontation,Blue,3,3,5,3,,,,"Generic, Action, Attack",,Dominate,,,,,,**Instant** - Discard this: Target attack gets -1{p} and loses and can't gain **dominate**.,Generic Action - Attack,,,,No,,M,,,soyameii,,,MPG128,/MPG128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG129,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG129,/MPG129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG130,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG130,/MPG130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

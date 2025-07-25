@@ -4,6 +4,7 @@ import { parse } from "papaparse";
 export interface ParsedCard {
   abilitiesAndEffects: string[];
   abilityAndEffectKeywords: string[];
+  arcane: string;
   cardKeywords: string[];
   cost: string;
   power: string;
@@ -139,6 +140,7 @@ const headerMappings = {
   Defense: "defense",
   Life: "life",
   Intelligence: "intellect",
+  Arcane: "arcane",
   Types: "types",
   "Card Keywords": "cardKeywords",
   "Abilities and Effects": "abilitiesAndEffects",
