@@ -4885,6 +4885,7 @@ OSCCardDB = {
   ["MPG019"] = { name = "Solid Ground (3)", text = "This costs {r} less to play for each Seismic Surge you control.", keywords = "", types = "Defense Reaction"},
   ["MPG020"] = { name = "Leave a Dent (3)", text = "Your next Guardian attack this turn gets \"**Crush** - When this deals 4 or more damage to a hero, destroy the top 4 cards of their deck.\"\n\n**Go again**", keywords = "Crush,Go again", types = "Action"},
   ["MPG021"] = { name = "Visit Anvilheim (3)", text = "Remove X -1{d} counters from a Guardian off-hand you have equipped.", keywords = "", types = "Action"},
+  ["MPG022"] = { name = "Daily Grind (3)", text = "Attack action cards you control get \"When this defends, **clash** with the attacking hero. The winner destroys the top card of the other hero's deck.\"\n\nAt the start of your turn, destroy this.", keywords = "Clash", types = "Action"},
   ["MPG024"] = { name = "Seismic Eruption (2)", text = "Create 3 Seismic Surge tokens.", keywords = "", types = "Instant"},
   ["MPG025"] = { name = "Test of Iron Grip (1)", text = "When this defends, **clash** with the attacking hero. If there is a winner, the other hero discards a card.", keywords = "Clash", types = "Block"},
   ["MPG026"] = { name = "Blinding of the Old Ones (1)", text = "**Crush** - When this deals 4 or more damage to a Guardian hero, cards they own lose all abilities during their next turn.\n\n**Heave 2**", keywords = "Crush,Heave", types = "Action"},

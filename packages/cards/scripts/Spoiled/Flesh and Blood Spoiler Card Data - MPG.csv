@@ -32,7 +32,9 @@ MPG020,MPG,Leave a Dent,Blue,3,0,,3,,,,"Guardian, Action",,Go again,,,Crush,,,"Y
 
 **Go again**",Guardian Action,,,,No,,M,,,Carlos Cruchaga,,,MPG020,/MPG020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG021,MPG,Visit Anvilheim,Blue,3,X,,3,,,,"Guardian, Action",,,,,,,,Remove X -1{d} counters from a Guardian off-hand you have equipped.,Guardian Action,,,,No,,M,,,Tomasz Jedruszek,,"Memory dulls and dims with age, yet still no metal whets sharper nor polishes brighter than Anvilheim steel.",MPG021,/MPG021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG022,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG022,/MPG022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG022,MPG,Daily Grind,Blue,3,0,,3,,,,"Guardian, Action, Aura",,Clash,,,,,,"Attack action cards you control get ""When this defends, **clash** with the attacking hero. The winner destroys the top card of the other hero's deck.""
+
+At the start of your turn, destroy this.",Guardian Action - Aura,,,,No,,M,,,Sebastian Giacobino,,,MPG022,/MPG022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG023,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG023,/MPG023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG024,MPG,Seismic Eruption,Yellow,2,0,,,,,,"Guardian, Instant",,,,,,,,Create 3 Seismic Surge tokens.,Guardian Instant,,,,No,,M,,,Carlos Cruchaga,,,MPG024,/MPG024.png,,,M,R,,Carlos Cruchaga,,,MPG024,/MPG024.png,,,M,R,EA,Carlos Cruchaga,,,MPG024,/MPG024-EA.png,,,,,,,,,,,,,,,,,,,,,
 MPG025,MPG,Test of Iron Grip,Red,1,,,4,,,,"Guardian, Block",,Clash,,,,,,"When this defends, **clash** with the attacking hero. If there is a winner, the other hero discards a card.",Guardian Block,,,,No,,M,,,Tomasz Jedruszek,,,MPG025,/MPG025.png,,,M,R,EA,Tomasz Jedruszek,,,MPG025,/MPG025_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
