@@ -244,6 +244,7 @@ export const fabDictionary = [
   "legplates",
   "le",
   "levia",
+  "ley",
   "leyline",
   "lightsail",
   "limpit",

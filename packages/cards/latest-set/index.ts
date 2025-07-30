@@ -1880,8 +1880,7 @@ When this attacks or defends, it gets +1{p} +1{d} for each different name among 
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades",
     classes: [Class.Guardian],
@@ -1943,7 +1942,8 @@ Whenever the crowd cheers you, create a Confidence token.`,
     talents: [Talent.Revered],
   
   young: true
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades-superstar",
     classes: [Class.Guardian],
@@ -2426,6 +2426,68 @@ Whenever the crowd cheers you, create a Toughness token.`,
     
     
     shorthands: ["Tap"],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Ina Wong"],
+    cardIdentifier: "up-on-a-pedestal-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP014",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades],
+    name: "Up on a Pedestal",
+    printings: [{
+        artists: ["Ina Wong"],
+      
+      identifier: "SUP014",
+      image: "SUP014",
+      
+      
+      print: "SUP014",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP014"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP014",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Revered Guardian Instant - Aura",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Suspense**
+
+When this enters or leaves the arena, you may put a Revered or Guardian attack action card from your graveyard on top of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
     
     
     

@@ -15,7 +15,9 @@ MPG009,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG009,/MPG009.png,,,,,,,,,,,,,,,,,,,,,
 MPG010,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG010,/MPG010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG011,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG011,/MPG011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG012,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG012,/MPG012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG013,MPG,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG013,/MPG013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG013,MPG,Ley Line of the Old Ones,Blue,3,0,,,,,,"Guardian, Instant, Aura",,Legendary,,,,,,"**Legendary**
+
+When this enters the arena and whenever you deal damage, create a Seismic Surge token. At the beginning of your end phase, if you control no Seismic Surge tokens, destroy this.",Guardian Instant - Aura,,,,No,,M,,,Simon Dominic,,,MPG013,/MPG013.png,,,V,C,,Simon Dominic,,,MPG013,/MPG013_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG014,MPG,Break Stature,Yellow,2,5,8,3,,,,"Guardian, Action, Attack",,Clash,,,,,,"**Crush** - When this deals 4 or more damage to a hero, destroy an aura token they control. They can't create auras with that token's name until the end of their next turn.",Guardian Action - Attack,,,,No,,M,,,Federico Musetti,,"""Far be it from us to break with tradition."" - Fai",MPG014,/MPG014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG015,MPG,Clash of Bravado,Yellow,2,4,7,3,,,,"Guardian, Action, Attack",,Clash,,,,,,"When this defends, **clash** with the attacking hero. The winner destroys an aura the other hero controls.",Guardian Action - Attack,,,,No,,M,,,Edward Chee,,,MPG015,/MPG015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG016,MPG,Headbutt,Blue,3,4,6,3,,,,"Guardian, Action, Attack",,Crush,,,,,,"This can't be defended by non-head equipment.

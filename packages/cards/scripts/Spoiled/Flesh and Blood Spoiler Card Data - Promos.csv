@@ -1,30 +1,34 @@
-Identifiers,Set Identifiers,Name,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
-FAB244,FAB,Zen State,,,,,,,,,,,,,,,"This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.
+Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
+FAB244,FAB,Zen State,,,,,,,,,,,,,,,,,"This enters the arena with a balance counter. At the beginning of your action phase, destroy this unless you remove a balance counter from it.
 
 If you would be dealt damage, prevent 1 of that damage.",,,,,,,P,C,,Jessada Sutthi,,,FAB244,/FAB244.png,,,,,,,,,,,,,,,,,,,
-HER123,HER,"Ira, Scarlet Revenger",,,,,40,4,,"Ninja, Hero",,,,,,,Your second attack each turn gets +1{p}.,Ninja Hero,,No,,No,,P,R,EA,soyameii,,,HER123,/HER123.png,,,,,,,,,,,,,,,,,,,
-JDG032,JDG,Heavy Industry Power Plant,,,,2,,,,"Mechanologist, Equipment, Chest","Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
+HER123,HER,"Ira, Scarlet Revenger",,,,,,40,4,,"Ninja, Hero",,,,,,,,Your second attack each turn gets +1{p}.,Ninja Hero,,No,,No,,P,R,EA,soyameii,,,HER123,/HER123.png,,,,,,,,,,,,,,,,,,,
+JDG032,JDG,Heavy Industry Power Plant,,,,,2,,,,"Mechanologist, Equipment, Chest",,"Temper, Go again",,,,,,"**Action** - {r}, destroy this: Whenever you **boost** this turn, gain {r}. **Go again**
 
 **Temper**",Mechanologist Equipment - Chest,,,,No,,P,C,,Simon Dominic,,,JDG032,/JDG032.png,,,,,,,,,,,,,,,,,,,
-LGS355,LGS,Spirit of Christmas,3,0,,3,,,,"Generic, Action",Go again,,,,,,"Each hero chooses another hero. The chosen hero creates an Agility, Might, Vigor, and Gold token.
+LGS355,LGS,Spirit of Christmas,Blue,3,0,,3,,,,"Generic, Action",,Go again,,,,,,"Each hero chooses another hero. The chosen hero creates an Agility, Might, Vigor, and Gold token.
 
 **Go again**",Generic Action,,No,No,No,No,P,C,EA,Sebastian Giacobino,,,LGS355,/LGS355.png,,,,,,,,,,,,,,,,,,,
-LSS019,LSS,Scarf for a Scarf,1,0,4,2,,,,"Generic, Action, Attack",,,,,,,"When this attacks a hero, exchange a head equipment permanent with them. If you do, this gets **go again**.",Generic Action - Attack,,No,No,No,No,P,R,EA,Emanuel Dias,,,,,,,,,,,,,,,,,,,,,,,
-FAB234,FAB,Spike with Bloodrot,1,1,,3,,,,"Assassin, Attack Reaction",,,,,,,,,,,,No,,P,R,EA,Mateusz Wiśniewski,,,FAB324,/FAB324.png,,,,,,,,,,,,,,,,,,,
-JDG038,JDG,Magrar,,,,,,,,"Merchant, Equipment, Off-Hand",Genis Specialization,,,,,,"**Genis Specialization**
+LSS019,LSS,Scarf for a Scarf,Red,1,0,4,2,,,,"Generic, Action, Attack",,,,,,,,"When this attacks a hero, exchange a head equipment permanent with them. If you do, this gets **go again**.",Generic Action - Attack,,No,No,No,No,P,R,EA,Emanuel Dias,,,,,,,,,,,,,,,,,,,,,,,
+FAB234,FAB,Spike with Bloodrot,Red,1,1,,3,,,,"Assassin, Attack Reaction",,,,,,,,,,,,,No,,P,R,EA,Mateusz Wiśniewski,,,FAB324,/FAB324.png,,,,,,,,,,,,,,,,,,,
+JDG038,JDG,Magrar,,,,,,,,,"Merchant, Equipment, Off-Hand",,Genis Specialization,,,,,,"**Genis Specialization**
 
 **Action** - Destroy this: Create a Zen State and an Inertia token.",Merchant Equipment - Off-Hand,,No,No,No,No,P,C,,Petrinda Wiyugo,,,JDG038,/JDG038.png,,,,,,,,,,,,,,,,,,,
-FAB306,FAB,Unmovable,1,3,,7,,,,"Generic, Defense Reaction",,,,,,,"If this was played from arsenal, it gets +1{d}.",Generic Defense Reaction,,,,,,P,R,EA,Bastien Jez,,,FAB306,/FAB306.png,,,,,,,,,,,,,,,,,,,
-LGS387,LGS,Batter to a Pulp,1,6,10,3,,,,"Guardian, Action, Attack",Crush,,,,,,"If this would deal 4 or more damage, that damage can't be prevented.
+FAB306,FAB,Unmovable,Red,1,3,,7,,,,"Generic, Defense Reaction",,,,,,,,"If this was played from arsenal, it gets +1{d}.",Generic Defense Reaction,,,,,,P,R,EA,Bastien Jez,,,FAB306,/FAB306.png,,,,,,,,,,,,,,,,,,,
+LGS387,LGS,Batter to a Pulp,Red,1,6,10,3,,,,"Guardian, Action, Attack",,Crush,,,,,,"If this would deal 4 or more damage, that damage can't be prevented.
 
 **Crush** - When this deals 4 or more damage to a hero, destroy an equipment they control with no defense value.",Guardian Action - Attack,,,,No,,P,R,,Ausonia,,,LGS387,/LGS387.png,,,,,,,,,,,,,,,,,,,
-LGS389,LGS,Draw a Crowd,3,2,,3,,,,"Guardian, Action, Aura",Go again,,,,,,"**Go again**
+LGS389,LGS,Draw a Crowd,Blue,3,2,,3,,,,"Guardian, Action, Aura",,Go again,,,,,,"**Go again**
 
 When this enters the arena, each hero draws a card.
 
 At the beginning of your action phase, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",Guardian Action - Aura,,,,No,,P,R,EA,Rio Sabda,,,LGS389,/LGS389.png,,,,,,,,,,,,,,,,,,,
-LGS390,LGS,Promising Terrain,3,0,,3,,,,"Guardian, Action, Aura",Go again,,,,,,"**Go again**
+LGS390,LGS,Promising Terrain,Blue,3,0,,3,,,,"Guardian, Action, Aura",,Go again,,,,,,"**Go again**
 
 If you would create 1 or more Seismic Surge tokens, instead create that many plus 1.
 
 At the beginning of your action phase, destroy this, then if you control 3 or more Seismic Surge tokens, draw a card and gain 1{h}.",Guardian Action - Aura,,,,No,,P,R,EA,Simon Wong,,,LGS390,/LGS390.png,,,,,,,,,,,,,,,,,,,
+LGS427,LGS,Swing Big,Red,1,2,8,3,,,,"Brute, Action, Attack",,,,,,,,"When the combat chain closes, if this didn't hit, the defending hero creates a Quicken token.",Brute Action - Attack,,,,No,,M,R,"AA, EA",João Guilherme,,,LGS427,/LGS427.png,,,,,,,,,,,,,,,,,,,
+LGS361,LGS,Gesture of Goodwill,Blue,3,,,3,,,,"Generic, Block",,Protect,,,,,,"**Protect**
+
+When this **protects** another hero, they may give you a token they control.",Generic Block,,,,No,,P,R,EA,Tanapon Wachirakul,,,LGS361,/LGS361.png,,,,,,,,,,,,,,,,,,,
