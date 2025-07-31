@@ -1512,7 +1512,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Guardian],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01K1GBSGB17GT925NVJ0PM0G9Y" },
     ],
     heroes: [Hero.Bravo],
     languages: ALL_LANGUAGES,
