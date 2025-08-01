@@ -45,7 +45,17 @@ releasedCards.forEach((card) => {
     const artists = Array.from(
       new Set([...duplicate.artists, ...card.artists])
     ).sort();
-    const deduplicatedPrintings = [...duplicate.printings];
+    const deduplicatedPrintings = duplicate.printings.map((printing) => {
+      if (!printing.rarity) {
+        printing.rarity = card.rarity;
+      }
+      if (!printing.artists || printing.artists.length === 0) {
+        if (card.artists.length === 1) {
+          printing.artists = [...card.artists];
+        }
+      }
+      return { ...printing };
+    });
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
         (deduplicatedPrinting) =>
