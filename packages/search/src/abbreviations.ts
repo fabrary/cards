@@ -330,6 +330,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Shifting Winds of the Mystic Beast",
   },
   {
+    abbreviations: ["Snaps"],
+    card: "Snapdragon Scalers",
+  },
+  {
     abbreviations: ["SWK"],
     card: "Spinning Wheel Kick",
   },
