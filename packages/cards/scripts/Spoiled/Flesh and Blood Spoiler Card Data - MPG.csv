@@ -4,7 +4,7 @@ Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligenc
 At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",Guardian Hero,,No,,No,,M,,,Wisnu Tan,,,MPG001,/MPG001.png,,,V,C,,Wisnu Tan,,,MPG001,/MPG001_V2.png,,,V,C,FA,Wisnu Tan,,,MPG001,/MPG001_V2_BACK.png,,,P,R,,,Wisnu Tan,,HER135,/HER135.png,,,,,,,,,,,
 MPG002,MPG,Valda Brightaxe,,,,,,21,4,,"Guardian, Hero, Young",,,,,Dominate,,Crush,"Whenever an opponent draws 1 or more cards during an action phase, create that many Seismic Surge tokens.
 
-At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",Guardian Hero - Young,,,No,No,No,V,C,,Wisnu Tan,,,MPG002,/MPG002_V2.png,,,V,C,FA,Wisnu Tan,,,MPG002,/MPG002_V2_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards you own with **crush** get **dominate** this turn.",Guardian Hero - Young,,,No,,No,V,C,,Wisnu Tan,,,MPG002,/MPG002_V2.png,,,V,C,FA,Wisnu Tan,,,MPG002,/MPG002_V2_BACK.png,,,T,,,Wisnu Tan,,,MPG002,/MPG002.png,,,,,,,,,,,,,,,,,,,,,
 MPG003,MPG,High Riser,,,,3,,,,,,,,,,,,,,,,,,,,T,,,Brian Adriel,,,MPG003,/MPG003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG004,MPG,Testament of Valahai,,,,,1,,,,"Guardian, Equipment, Off-Hand",,Guardwell,,,,,,"If you control three or more Seismic Surge tokens, this gets +2{d}. If you control six or more, instead this gets +4{d}.
 
@@ -25,7 +25,7 @@ MPG009,MPG,Hoarding of Denial,,,,,0,,,,"Guardian, Equipment, Off-Hand",,Blade Br
 
 **Blade Break**",Guardian Equipment - Off-Hand,,,,,,C,,,Brian Adriel,,,MPG009,/MPG009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG010,MPG,Rotten Old Buckler,,,,,,,,,,,,,,,,,,,,,,,,C,,,Kyxarie Peralta,,,MPG010,/MPG010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG011,MPG,Steelbraid Buckler,,,,,,,,,,,,,,,,,,,,,,,,,,,Peyeyo,,,MPG011,/MPG011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG011,MPG,Steelbraid Buckler,,,,,,,,,,,,,,,,,,,,,,,,C,,,Peyeyo,,,MPG011,/MPG011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG012,MPG,Tremor of Resistance,,,,,0,,,,"Guardian, Equipment, Off-Hand",,Blade Break,,,,,,"If you control a Seismic Surge token, this gets +2{d}.
 
 **Blade Break**",Guardian Equipment - Off-Hand,,,,,,C,,,Henrique Lindner,,,MPG012,/MPG012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -144,9 +144,9 @@ MPG084,MPG,Rubble Raiser,Blue,3,4,6,3,,,,"Guardian, Action, Attack",,Heave 2,,,,
 MPG085,MPG,Thump,Red,1,4,6,3,,,,,,,,,,,,"If this card's {p} is greater than its base, it gets **dominate** and ""When this hits a hero, they discard a card.""",,,,,,,,,,,,,MPG085,/MPG085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG086,MPG,Thump,Yellow,2,4,5,3,,,,,,,,,,,,"If this card's {p} is greater than its base, it gets **dominate** and ""When this hits a hero, they discard a card.""",,,,,,,,,,,,,MPG086,/MPG086.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG087,MPG,Thump,Blue,3,4,4,3,,,,,,,,,,,,"If this card's {p} is greater than its base, it gets **dominate** and ""When this hits a hero, they discard a card.""",,,,,,,,,,,,,MPG087,/MPG087.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG088,MPG,Thunder Quake,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG088,/MPG088.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG089,MPG,Thunder Quake,Yellow,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG089,/MPG089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-MPG090,MPG,Thunder Quake,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPG090,/MPG090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG088,MPG,Thunder Quake,Red,1,,,,,,,,,,,,,,,,,,,,,,C,,,,,,MPG088,/MPG088.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG089,MPG,Thunder Quake,Yellow,2,,,,,,,,,,,,,,,,,,,,,,C,,,,,,MPG089,/MPG089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+MPG090,MPG,Thunder Quake,Blue,3,,,,,,,,,,,,,,,,,,,,,,C,,,,,,MPG090,/MPG090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 MPG091,MPG,Overswing,Red,1,2,,3,,,,"Guardian, Action",,"Go again, Heave 2",,,,,,"The next Guardian attack action card you play this turn gets +3{p}.
 
 **Go again**
