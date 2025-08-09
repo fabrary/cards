@@ -26,7 +26,7 @@
     cardIdentifier: "bait",
     classes: [Class.Ranger],
     defaultImage: "SUP259",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Open,Format.ProjectBlue,Format.UltimatePitFight],
     legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide,Hero.Shiyana,Hero.Yorick],
     name: "Bait",
     printings: [{
@@ -34,7 +34,7 @@
       
       identifier: "SUP259",
       image: "SUP259",
-      
+      isExpansionSlot: true,
       
       print: "SUP259",
       rarity: Rarity.Basic,
@@ -68,7 +68,7 @@
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Expansion],
   
     
     
@@ -2232,7 +2232,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     cardIdentifier: "take-the-bait-red",
     classes: [Class.Ranger],
     defaultImage: "SUP258",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Riptide,Hero.Shiyana],
     name: "Take the Bait",
     printings: [{
@@ -2240,7 +2240,7 @@ When this hits a hero, create a Confidence and a Might token.`,
       
       identifier: "SUP258",
       image: "SUP258",
-      
+      isExpansionSlot: true,
       
       print: "SUP258",
       rarity: Rarity.Majestic,
@@ -2276,7 +2276,7 @@ Create a Bait token under an opponent's control.
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    
+    meta: [Meta.Expansion],
   
     
     pitch: 1,
