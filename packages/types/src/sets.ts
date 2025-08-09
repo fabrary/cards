@@ -1597,6 +1597,36 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["aps"],
     talents: [Talent.Revered],
   },
+  {
+    cards: 30,
+    classes: [Class.Brute],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Rhinar],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckRhinar,
+    relatedReleases: [],
+    releaseDate: "2025-11-14 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["arr"],
+    talents: [],
+  },
+  {
+    cards: 30,
+    classes: [Class.Assassin],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+    ],
+    heroes: [Hero.Slippy],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckArakni,
+    relatedReleases: [],
+    releaseDate: "2025-12-15 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["aac"],
+    talents: [Talent.Chaos],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1626,6 +1656,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   ...fullSetIdentifiers,
 
   // Armory decks
+  aac: Release.ArmoryDeckArakni,
   aaz: Release.ArmoryDeckAzalea,
   asb: Release.ArmoryDeckBoltyn,
   aio: Release.ArmoryDeckDash,
@@ -1637,6 +1668,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   asr: Release.ArmoryDeckIra,
   aps: Release.ArmoryDeckPleiades,
   apr: Release.ArmoryDeckLegendsPrism,
+  arr: Release.ArmoryDeckRhinar,
   avs: Release.ArmoryDeckLegendsViserai,
 
   // Blitz decks

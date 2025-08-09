@@ -7,13 +7,15 @@ import { combineAndAddMissingFields } from "../Shared/combined-and-missing-field
 import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
-const spoiledSetCardsFile1 = `${__dirname}/Flesh and Blood Spoiler Card Data - APR.csv`;
-const spoiledSetCardsFile2 = `${__dirname}/Flesh and Blood Spoiler Card Data - APS.csv`;
-const spoiledSetCardsFile3 = `${__dirname}/Flesh and Blood Spoiler Card Data - ASR.csv`;
-const spoiledSetCardsFile4 = `${__dirname}/Flesh and Blood Spoiler Card Data - AVS.csv`;
-const spoiledSetCardsFile7 = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
-const spoiledSetCardsFile5 = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
-const spoiledSetCardsFile6 = `${__dirname}/Flesh and Blood Spoiler Card Data - SUP.csv`;
+const spoiledSetCardsFileAAC = `${__dirname}/Flesh and Blood Spoiler Card Data - AAC.csv`;
+const spoiledSetCardsFileAPR = `${__dirname}/Flesh and Blood Spoiler Card Data - APR.csv`;
+const spoiledSetCardsFileAPS = `${__dirname}/Flesh and Blood Spoiler Card Data - APS.csv`;
+const spoiledSetCardsFileARR = `${__dirname}/Flesh and Blood Spoiler Card Data - ARR.csv`;
+const spoiledSetCardsFileASR = `${__dirname}/Flesh and Blood Spoiler Card Data - ASR.csv`;
+const spoiledSetCardsFileAVS = `${__dirname}/Flesh and Blood Spoiler Card Data - AVS.csv`;
+const spoiledSetCardsFileBDD = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
+const spoiledSetCardsFileMPG = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
+const spoiledSetCardsFileSUP = `${__dirname}/Flesh and Blood Spoiler Card Data - SUP.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
@@ -23,13 +25,15 @@ const parsedOverrideCards = parseCSV(overrideCardsFile)
 const overrideCards = mapCSV(parsedOverrideCards);
 
 const parsedSpoiledSetCards: ParsedCard[] = [
-  ...parseCSV(spoiledSetCardsFile1),
-  ...parseCSV(spoiledSetCardsFile2),
-  ...parseCSV(spoiledSetCardsFile3),
-  ...parseCSV(spoiledSetCardsFile4),
-  ...parseCSV(spoiledSetCardsFile5),
-  ...parseCSV(spoiledSetCardsFile6),
-  ...parseCSV(spoiledSetCardsFile7),
+  ...parseCSV(spoiledSetCardsFileAAC),
+  ...parseCSV(spoiledSetCardsFileAPR),
+  ...parseCSV(spoiledSetCardsFileAPS),
+  ...parseCSV(spoiledSetCardsFileARR),
+  ...parseCSV(spoiledSetCardsFileASR),
+  ...parseCSV(spoiledSetCardsFileAVS),
+  ...parseCSV(spoiledSetCardsFileBDD),
+  ...parseCSV(spoiledSetCardsFileMPG),
+  ...parseCSV(spoiledSetCardsFileSUP),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)

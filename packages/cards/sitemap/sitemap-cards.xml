@@ -286,6 +286,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/alpha-instinct-blue</loc>
+    <lastmod>2025-08-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/alpha-rampage-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -10343,6 +10348,11 @@
   <url>
     <loc>https://fabrary.net/cards/medkit-blue</loc>
     <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/meet-madness-red</loc>
+    <lastmod>2025-08-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

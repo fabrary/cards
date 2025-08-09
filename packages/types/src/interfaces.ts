@@ -186,6 +186,7 @@ export enum Release {
   WelcomeToRathe = "Welcome to Rathe",
 
   // Armory decks
+  ArmoryDeckArakni = "Armory Deck: Arakni",
   ArmoryDeckAurora = "Armory Deck: Aurora",
   ArmoryDeckAzalea = "Armory Deck: Azalea",
   ArmoryDeckBoltyn = "Armory Deck: Boltyn",
@@ -195,6 +196,7 @@ export enum Release {
   ArmoryDeckKayo = "Armory Deck: Kayo",
   ArmoryDeckMaxx = "Armory Deck: Maxx",
   ArmoryDeckPleiades = "Armory Deck: Pleiades",
+  ArmoryDeckRhinar = "Armory Deck: Rhinar",
 
   // Armory deck origins
   ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
