@@ -321,8 +321,18 @@ SUP254,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP254,https://storage.googleapis.com/c
 SUP255,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP255,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP256,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP256,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP257,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP257,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP257.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP258,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP258,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP258.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP259,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP259,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP259.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP258,SUP,Take the Bait,Red,1,0,,3,,,,"Ranger, Action",,"Riptide Specialization, Go again",,,,,,"**Riptide Specialization**
+
+Search your deck for a card, then shuffle and put it on top.
+
+Create a Bait token under an opponent's control.
+
+**Go again**",Ranger Action,,,,No,,M,,,Orson CaptainSass,,,SUP258,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP258.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP259,SUP,Bait,,,,0,,,,,"Ranger, Token, Aura",,Go again,,,,,,"You can't play or activate cards you own.
+
+**Action** - Destroy this when the chain link resolves: **Attack**
+
+**Once per Turn Attack Reaction** - 0: This gets +1{p} and **go again**.",Ranger Token - Aura,,,,,,B,,,Orson CaptainSass,,,SUP259,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP259.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP260,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP260,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP260.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP261,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP261,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP261.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP262,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP262,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP262.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -6352,6 +6352,8 @@ OSCCardDB = {
   ["SUP213"] = { name = "Punching Gloves", text = "**Action** - {r}{r}, destroy this: The next attack card you play this turn gets +2{p}. **Go again**", keywords = "Go again", types = "Equipment"},
   ["SUP214"] = { name = "Toby Jugs", text = "When this defends, you may pay {r}. If you do, it gets +2{d} this turn.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["SUP216"] = { name = "Overcrowded (3)", text = "**Ambush**\n\nWhen this attacks or defends, it gets +1{p} +1{d} for each different name among aura tokens in the arena.", keywords = "Ambush", types = "Action"},
+  ["SUP258"] = { name = "Take the Bait (1)", text = "**Riptide Specialization**\n\nSearch your deck for a card, then shuffle and put it on top.\n\nCreate a Bait token under an opponent's control.\n\n**Go again**", keywords = "Go again,Specialization", types = "Action"},
+  ["SUP259"] = { name = "Bait", text = "You can't play or activate cards you own.\n\n**Action** - Destroy this when the chain link resolves: **Attack**\n\n**Once per Turn Attack Reaction** - 0: This gets +1{p} and **go again**.", keywords = "Go again", types = "Token"},
   ["TCC001"] = { name = "Professor Teklovossen", text = "Evos cost {r} less to play for each opposing hero.\n\nYou may play Evos from your banished zone.", keywords = "", types = "Hero"},
   ["TCC002"] = { name = "Teklo Blaster", text = "**Once per Turn Action** - {r}{r}{r}: **Attack**", keywords = "", types = "Weapon"},
   ["TCC003"] = { name = "Proto Base Head", text = "", keywords = "", types = "Equipment"},

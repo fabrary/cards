@@ -986,6 +986,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bait</loc>
+    <lastmod>2025-08-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/balance-of-justice</loc>
     <lastmod>2024-01-15</lastmod>
     <priority>0.5</priority>
@@ -17243,6 +17248,11 @@
   <url>
     <loc>https://fabrary.net/cards/take-it-on-the-chin-red</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/take-the-bait-red</loc>
+    <lastmod>2025-08-09</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

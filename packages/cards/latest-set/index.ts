@@ -22,6 +22,70 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "bait",
+    classes: [Class.Ranger],
+    defaultImage: "SUP259",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide,Hero.Shiyana,Hero.Yorick],
+    name: "Bait",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "SUP259",
+      image: "SUP259",
+      
+      
+      print: "SUP259",
+      rarity: Rarity.Basic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["SUP259"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP259",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Ranger Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `You can't play or activate cards you own.
+
+**Action** - Destroy this when the chain link resolves: **Attack**
+
+**Once per Turn Attack Reaction** - 0: This gets +1{p} and **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Olga Tereshenko"],
     cardIdentifier: "bask-in-your-own-greatness-red",
     classes: [Class.NotClassed],
@@ -570,7 +634,8 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-red",
     classes: [Class.NotClassed],
@@ -630,8 +695,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-yellow",
     classes: [Class.NotClassed],
@@ -2161,6 +2225,72 @@ When this hits a hero, create a Confidence and a Might token.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "take-the-bait-red",
+    classes: [Class.Ranger],
+    defaultImage: "SUP258",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Riptide,Hero.Shiyana],
+    name: "Take the Bait",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "SUP258",
+      image: "SUP258",
+      
+      
+      print: "SUP258",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP258"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP258",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Riptide Specialization**
+
+Search your deck for a card, then shuffle and put it on top.
+
+Create a Bait token under an opponent's control.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Riptide],
+    
   
   
   },{
