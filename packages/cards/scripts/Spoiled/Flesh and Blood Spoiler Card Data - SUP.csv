@@ -10,10 +10,10 @@ SUP003,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP003,https://storage.googleapis.com/c
 SUP004,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP004,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP005,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP005,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP006,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP006,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"SUP007, LGS422",SUP,Numbskull Charm,Yellow,2,0,,,,,,"Revered, Brute, Instant",,The Crowd Cheers,,,,,,"Choose any number;
+"SUP007, LGS422, FAB370","SUP, LGS, FAB",Numbskull Charm,Yellow,2,0,,,,,,"Revered, Brute, Instant",,The Crowd Cheers,,,,,,"Choose any number;
 - Destroy a Confidence or Might token.
 - **The crowd cheers** you.
-- Pitch the top card of your deck. If it has 6 or more {p}, create a Vigor token.",Revered Brute Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP007,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP007.png,,,P,R,EA,Grégory Nunkovics,,,LGS422,,,,,,,,,,,,,,,,,,,
+- Pitch the top card of your deck. If it has 6 or more {p}, create a Vigor token.",Revered Brute Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP007,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP007.png,,,P,R,EA,Grégory Nunkovics,,,LGS422,,,,V,C,FA,Grégory Nunkovics,,,FAB370,/FAB370.png,,,,,,,,
 SUP008,SUP,Old Leather and Vim,Red,1,2,6,3,,,,"Revered, Brute, Action, Attack",,,,,,,,"If you control a Toughness or Vigor token, this gets +1{p}.
 
 When this hits a hero, create a Toughness and a Vigor token.",Revered Brute Action - Attack,,,,No,,R,,,Galih M,,,SUP008,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP008.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -25,10 +25,10 @@ SUP010,SUP,Pleiades,,,,,,20,4,,"Revered, Guardian, Hero, Young",,,Instant,,,,The
 Whenever the crowd cheers you, create a Confidence token.",Revered Guardian Hero - Young,,,No,,No,B,S,,Livia Prima,,,SUP010,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP011,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP011,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP012,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP012,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"SUP013, LGS423",SUP,Thespian Charm,Yellow,2,0,,,,,,"Revered, Guardian, Instant",,The Crowd Cheers,,,,,,"Choose any number;
+"SUP013, LGS423, FAB371","SUP, LGS, FAB",Thespian Charm,Yellow,2,0,,,,,,"Revered, Guardian, Instant",,The Crowd Cheers,,,,,,"Choose any number;
 - Destroy a Might or Vigor token.
 - **The crowd cheers** you.
-- Return an aura permanent you control to its owner's hand.",Revered Guardian Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP013,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP013.png,,,P,R,EA,Grégory Nunkovics,,,LGS423,,,,,,,,,,,,,,,,,,,
+- Return an aura permanent you control to its owner's hand.",Revered Guardian Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP013,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP013.png,,,P,R,EA,Grégory Nunkovics,,,LGS423,,,,V,C,FA,Grégory Nunkovics,,,FAB371,/FAB371.png,,,,,,,,
 SUP014,SUP,Up on a Pedestal,Blue,3,0,,2,,,,"Revered, Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
 
 When this enters or leaves the arena, you may put a Revered or Guardian attack action card from your graveyard on top of your deck.",Revered Guardian Instant - Aura,,,,No,,S,,,Ina Wong,,,SUP014,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -101,10 +101,10 @@ Whenever the crowd boos you, create a Vigor token.",Reviled Brute Hero - Young,,
 SUP065,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP065,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP065.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP066,SUP,Outside Interference,Blue,3,3,6,0,,,,"Reviled, Brute, Action, Attack",,,Instant,,,,,**Instant** - Discard this: You may reveal a Reviled attack action card from your inventory and put it into your hand.,Reviled Brute Action - Attack,,,,No,,M,,,Septimius Ferdian,,,SUP066,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP066.png,,,M,C,EA,Septimius Ferdian,,,SUP066,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP066_V2.png,,,,,,,,,,,,,,,,,,
 SUP067,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP067,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP067.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"SUP068, LGS424",SUP,Cheater's Charm,Yellow,2,0,,,,,,"Reviled, Brute, Instant",,"Steal, The Crowd Boos",,,,,,"Choose any number;
+"SUP068, LGS424, FAB372","SUP, LGS, FAB",Cheater's Charm,Yellow,2,0,,,,,,"Reviled, Brute, Instant",,"Steal, The Crowd Boos",,,,,,"Choose any number;
 - **Steal** a Confidence or Toughness token.
 - **The crowd boos** you.
-- If you control an attack with 6 or more {p}, deal 2 damage to target hero unless they discard a card.",Reviled Brute Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP068,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP068.png,,,P,R,EA,Grégory Nunkovics,,,LGS424,,,,,,,,,,,,,,,,,,,
+- If you control an attack with 6 or more {p}, deal 2 damage to target hero unless they discard a card.",Reviled Brute Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP068,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP068.png,,,P,R,EA,Grégory Nunkovics,,,LGS424,,,,V,C,FA,Grégory Nunkovics,,,FAB372,/FAB372.png,,,,,,,,
 SUP069,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP069,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP069.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP070,SUP,Offensive Behavior,Blue,3,0,2,3,,,,"Reviled, Brute, Action, Attack",,,,,,,,"If you control a Might or Vigor token, this gets +1{p}.
 
@@ -122,10 +122,10 @@ Whenever the crowd boos you, create a Might token.",Reviled Guardian Hero - Youn
 SUP073,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP073,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP073.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP074,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP074,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP074.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP075,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP075,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"SUP076, LGS425",SUP,Liar's Charm,Yellow,2,0,,,,,,"Reviled, Guardian, Instant",,"Steal, The Crowd Boos",,,,,,"Choose any number;
+"SUP076, LGS425, FAB373","SUP, LGS, FAB",Liar's Charm,Yellow,2,0,,,,,,"Reviled, Guardian, Instant",,"Steal, The Crowd Boos",,,,,,"Choose any number;
 - **Steal** a Toughness or Vigor token.
 - **The crowd boos** you.
-- Target hero loses and can't gain abilities this action phase unless they discard a card.",Reviled Guardian Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP076,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP076.png,,,P,R,EA,Grégory Nunkovics,,,LGS425,,,,,,,,,,,,,,,,,,,
+- Target hero loses and can't gain abilities this action phase unless they discard a card.",Reviled Guardian Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP076,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP076.png,,,P,R,EA,Grégory Nunkovics,,,LGS425,,,,V,C,FA,Grégory Nunkovics,,,FAB373,/FAB373.png,,,,,,,,
 SUP077,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP077,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP078,SUP,Spew Obscenities,Yellow,2,0,3,3,,,,"Reviled, Guardian, Action, Attack",,,,,,,,"If you control a Confidence or Might token, this gets +1{p}.
 
@@ -315,7 +315,9 @@ SUP248,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP248,https://storage.googleapis.com/c
 SUP249,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP249,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP249.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP250,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP250,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP250.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP251,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP251,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP251.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP252,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP252,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP252,SUP,Blood Follows Blade,Yellow,2,0,,3,,,,"Warrior, Attack Reaction",,Kassai Specialization,,,Go again,,,"**Kassai Specialization**
+
+Target sword attack gets **go again** and ""When this hits, create a Cintari Sellsword token.""",Warrior Attack Reaction,,,,No,,M,,,Rio Sabda,,,SUP252,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP253,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP253,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP254,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP255,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP255,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -333,19 +335,19 @@ SUP259,SUP,Bait,,,,0,,,,,"Ranger, Token, Aura",,Go again,,,,,,"You can't play or
 **Action** - Destroy this when the chain link resolves: **Attack**
 
 **Once per Turn Attack Reaction** - 0: This gets +1{p} and **go again**.",Ranger Token - Aura,,,,,,B,,,Orson CaptainSass,Yes,,SUP259,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP259.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP260,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP260,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP260.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP261,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP261,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP261.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP262,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP262,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP262.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP263,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP263,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP263.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP264,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP264,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP264.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP265,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP265,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP265.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP266,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP266,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP266.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP267,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP267,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP267.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP268,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP268,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP268.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP269,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP269,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP269.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP270,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP270,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP270.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP271,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP271,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP271.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP272,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP272,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP272.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP273,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP273,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP273.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP274,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP274,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP274.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP275,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP275,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP275.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP260,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP260,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP260.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP261,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP261,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP261.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP262,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP262,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP262.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP263,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP263,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP263.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP264,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP264,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP264.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP265,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP265,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP265.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP266,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP266,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP266.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP267,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP267,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP267.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP268,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP268,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP268.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP269,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP269,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP269.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP270,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP270,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP270.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP271,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP271,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP271.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP272,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP272,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP272.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP273,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP273,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP273.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP274,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP274,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP274.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP275,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP275,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP275.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,

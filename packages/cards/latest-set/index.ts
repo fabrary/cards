@@ -266,6 +266,68 @@
   
   
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "blood-follows-blade-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "SUP252",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kassai,Hero.Shiyana],
+    name: "Blood Follows Blade",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "SUP252",
+      image: "SUP252",
+      
+      
+      print: "SUP252",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP252"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP252",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Kassai Specialization**
+
+Target sword attack gets **go again** and "When this hits, create a Cintari Sellsword token."`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Kassai],
+    
+  
+  
+  },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "bully-tactics-red",
     classes: [Class.NotClassed],
@@ -346,9 +408,9 @@
       
       
     },],
-    rarities: [Rarity.Promo,Rarity.SuperRare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["LGS424","SUP068"],
+    setIdentifiers: ["FAB372","LGS424","SUP068"],
     sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP068",
     subtypes: [],
@@ -1194,9 +1256,9 @@ Whenever the crowd boos you, create a Vigor token.`,
       
       
     },],
-    rarities: [Rarity.Promo,Rarity.SuperRare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["LGS425","SUP076"],
+    setIdentifiers: ["FAB373","LGS425","SUP076"],
     sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP076",
     subtypes: [],
@@ -1608,9 +1670,9 @@ If you've been booed this turn, this gets +2{p}.`,
       
       
     },],
-    rarities: [Rarity.Promo,Rarity.SuperRare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["LGS422","SUP007"],
+    setIdentifiers: ["FAB370","LGS422","SUP007"],
     sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP007",
     subtypes: [],
@@ -2314,9 +2376,9 @@ Create a Bait token under an opponent's control.
       
       
     },],
-    rarities: [Rarity.Promo,Rarity.SuperRare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["LGS423","SUP013"],
+    setIdentifiers: ["FAB371","LGS423","SUP013"],
     sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP013",
     subtypes: [],
