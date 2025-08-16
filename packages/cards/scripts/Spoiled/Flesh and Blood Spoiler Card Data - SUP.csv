@@ -310,10 +310,26 @@ SUP243,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP243,https://storage.googleapis.com/c
 SUP244,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP244,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP244.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP245,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP245,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP245.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP246,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP246,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP247,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP247,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP247.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP248,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP248,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP248.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP249,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP249,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP249.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP250,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP250,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP250.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP247,SUP,Golden Galea,,,,,2,,,,"Warrior, Equipment, Head",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**",Warrior Equipment - Head,,,,No,,M,,,Federico Musetti,,,SUP247,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP247.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP248,SUP,Golden Heart Plate,,,,,2,,,,"Warrior, Equipment, Chest",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**",Warrior Equipment - Chest,,,,No,,M,,,Federico Musetti,,,SUP248,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP248.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP249,SUP,Golden Gauntlets,,,,,2,,,,"Warrior, Equipment, Arms",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**",Warrior Equipment - Arms,,,,No,,M,,,Federico Musetti,,,SUP249,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP249.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP250,SUP,Golden Gait,,,,,2,,,,"Warrior, Equipment, Legs",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**",Warrior Equipment - Legs,,,,No,,M,,,Federico Musetti,,,SUP250,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP250.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP251,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP251,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP251.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP252,SUP,Blood Follows Blade,Yellow,2,0,,3,,,,"Warrior, Attack Reaction",,Kassai Specialization,,,Go again,,,"**Kassai Specialization**
 
@@ -330,7 +346,7 @@ Search your deck for a card, then shuffle and put it on top.
 Create a Bait token under an opponent's control.
 
 **Go again**",Ranger Action,,,,No,,M,,,Orson CaptainSass,Yes,,SUP258,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP258.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP259,SUP,Bait,,,,0,,,,,"Ranger, Token, Aura",,Go again,,,,,,"You can't play or activate cards you own.
+SUP259,SUP,Bait,,,,0,,,,,"Ranger, Token, Aura",,,"Action, Once per Turn Attack Reaction","Attack, Go again",,,,"You can't play or activate cards you own.
 
 **Action** - Destroy this when the chain link resolves: **Attack**
 

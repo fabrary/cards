@@ -696,8 +696,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-red",
     classes: [Class.NotClassed],
@@ -757,7 +756,8 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-yellow",
     classes: [Class.NotClassed],
@@ -934,6 +934,262 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     
     
+    
+  
+  
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "golden-gait",
+    classes: [Class.Warrior],
+    defaultImage: "SUP250",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
+    name: "Golden Gait",
+    printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "SUP250",
+      image: "SUP250",
+      
+      
+      print: "SUP250",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP250"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP250",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Legs",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Olympia],
+    
+  
+  
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "golden-galea",
+    classes: [Class.Warrior],
+    defaultImage: "SUP247",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
+    name: "Golden Galea",
+    printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "SUP247",
+      image: "SUP247",
+      
+      
+      print: "SUP247",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP247"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP247",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Head",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Olympia],
+    
+  
+  
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "golden-gauntlets",
+    classes: [Class.Warrior],
+    defaultImage: "SUP249",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
+    name: "Golden Gauntlets",
+    printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "SUP249",
+      image: "SUP249",
+      
+      
+      print: "SUP249",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP249"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP249",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Arms",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Olympia],
+    
+  
+  
+  },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "golden-heart-plate",
+    classes: [Class.Warrior],
+    defaultImage: "SUP248",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
+    name: "Golden Heart Plate",
+    printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "SUP248",
+      image: "SUP248",
+      
+      
+      print: "SUP248",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP248"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP248",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Chest",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Legendary Olympia Specialization**
+
+This counts as a Gold.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Olympia],
     
   
   
@@ -1235,7 +1491,8 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "liars-charm-yellow",
     classes: [Class.Guardian],
@@ -1362,8 +1619,7 @@ Whenever the crowd boos you, create a Might token.`,
     talents: [Talent.Reviled],
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "lyath-goldmane-vile-savant",
     classes: [Class.Guardian],
@@ -2006,7 +2262,8 @@ When this attacks or defends, it gets +1{p} +1{d} for each different name among 
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades",
     classes: [Class.Guardian],
@@ -2068,8 +2325,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     talents: [Talent.Revered],
   
   young: true
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades-superstar",
     classes: [Class.Guardian],
