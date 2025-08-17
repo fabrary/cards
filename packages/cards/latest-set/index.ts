@@ -270,7 +270,7 @@
     cardIdentifier: "blood-follows-blade-yellow",
     classes: [Class.Warrior],
     defaultImage: "SUP252",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Kassai,Hero.Shiyana],
     name: "Blood Follows Blade",
     printings: [{
@@ -278,7 +278,7 @@
       
       identifier: "SUP252",
       image: "SUP252",
-      
+      isExpansionSlot: true,
       
       print: "SUP252",
       rarity: Rarity.Majestic,
@@ -310,7 +310,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    
+    meta: [Meta.Expansion],
   
     
     pitch: 2,
@@ -942,7 +942,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     cardIdentifier: "golden-gait",
     classes: [Class.Warrior],
     defaultImage: "SUP250",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
     name: "Golden Gait",
     printings: [{
@@ -950,7 +950,7 @@ If you've been cheered this turn, this gets +1{p}.`,
       
       identifier: "SUP250",
       image: "SUP250",
-      
+      isExpansionSlot: true,
       
       print: "SUP250",
       rarity: Rarity.Majestic,
@@ -984,7 +984,7 @@ This counts as a Gold.
     keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
     
     
-    
+    meta: [Meta.Expansion],
   
     
     
@@ -1006,7 +1006,7 @@ This counts as a Gold.
     cardIdentifier: "golden-galea",
     classes: [Class.Warrior],
     defaultImage: "SUP247",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
     name: "Golden Galea",
     printings: [{
@@ -1014,7 +1014,7 @@ This counts as a Gold.
       
       identifier: "SUP247",
       image: "SUP247",
-      
+      isExpansionSlot: true,
       
       print: "SUP247",
       rarity: Rarity.Majestic,
@@ -1048,7 +1048,7 @@ This counts as a Gold.
     keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
     
     
-    
+    meta: [Meta.Expansion],
   
     
     
@@ -1070,7 +1070,7 @@ This counts as a Gold.
     cardIdentifier: "golden-gauntlets",
     classes: [Class.Warrior],
     defaultImage: "SUP249",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
     name: "Golden Gauntlets",
     printings: [{
@@ -1078,7 +1078,7 @@ This counts as a Gold.
       
       identifier: "SUP249",
       image: "SUP249",
-      
+      isExpansionSlot: true,
       
       print: "SUP249",
       rarity: Rarity.Majestic,
@@ -1112,7 +1112,7 @@ This counts as a Gold.
     keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
     
     
-    
+    meta: [Meta.Expansion],
   
     
     
@@ -1134,7 +1134,7 @@ This counts as a Gold.
     cardIdentifier: "golden-heart-plate",
     classes: [Class.Warrior],
     defaultImage: "SUP248",
-    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Olympia,Hero.Shiyana,Hero.Taylor],
     name: "Golden Heart Plate",
     printings: [{
@@ -1142,7 +1142,7 @@ This counts as a Gold.
       
       identifier: "SUP248",
       image: "SUP248",
-      
+      isExpansionSlot: true,
       
       print: "SUP248",
       rarity: Rarity.Majestic,
@@ -1176,7 +1176,7 @@ This counts as a Gold.
     keywords: [Keyword.Legendary,Keyword.Specialization,Keyword.Temper],
     
     
-    
+    meta: [Meta.Expansion],
   
     
     
@@ -1553,6 +1553,68 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "light-up-the-leaves-red",
+    classes: [Class.Wizard],
+    defaultImage: "SUP264",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Verdance],
+    name: "Light Up the Leaves",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "SUP264",
+      image: "SUP264",
+      isExpansionSlot: true,
+      
+      print: "SUP264",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP264"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP264",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Earth Wizard Action",
+
+    arcane: 6,
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `Deal 6 arcane damage to any target.
+
+**Instant** - Discard this and an Earth card: Prevent the next 6 arcane damage target source would deal this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Earth],
   
   
   },{
