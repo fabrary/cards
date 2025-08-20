@@ -314,22 +314,22 @@ SUP247,SUP,Golden Galea,,,,,2,,,,"Warrior, Equipment, Head",,"Legendary, Olympia
 
 This counts as a Gold.
 
-**Temper**",Warrior Equipment - Head,,,,No,,M,,,Federico Musetti,Yes,,SUP247,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP247.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Temper**",Warrior Equipment - Head,,,,No,,M,,,Federico Musetti,Yes,,SUP247,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP247.png,,,V,C,FA,Federico Musetti,Yes,,SUP247,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP247_V2.png,,,,,,,,,,,,,,,,,,
 SUP248,SUP,Golden Heart Plate,,,,,2,,,,"Warrior, Equipment, Chest",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
 
 This counts as a Gold.
 
-**Temper**",Warrior Equipment - Chest,,,,No,,M,,,Federico Musetti,Yes,,SUP248,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP248.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Temper**",Warrior Equipment - Chest,,,,No,,M,,,Federico Musetti,Yes,,SUP248,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP248.png,,,V,C,FA,Federico Musetti,Yes,,SUP248,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP248_V2.png,,,,,,,,,,,,,,,,,,
 SUP249,SUP,Golden Gauntlets,,,,,2,,,,"Warrior, Equipment, Arms",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
 
 This counts as a Gold.
 
-**Temper**",Warrior Equipment - Arms,,,,No,,M,,,Federico Musetti,Yes,,SUP249,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP249.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Temper**",Warrior Equipment - Arms,,,,No,,M,,,Federico Musetti,Yes,,SUP249,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP249.png,,,V,C,FA,Federico Musetti,Yes,,SUP249,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP249_V2.png,,,,,,,,,,,,,,,,,,
 SUP250,SUP,Golden Gait,,,,,2,,,,"Warrior, Equipment, Legs",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
 
 This counts as a Gold.
 
-**Temper**",Warrior Equipment - Legs,,,,No,,M,,,Federico Musetti,Yes,,SUP250,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP250.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Temper**",Warrior Equipment - Legs,,,,No,,M,,,Federico Musetti,Yes,,SUP250,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP250.png,,,V,C,FA,Federico Musetti,Yes,,SUP250,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP250_V2.png,,,,,,,,,,,,,,,,,,
 SUP251,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP251,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP251.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP252,SUP,Blood Follows Blade,Yellow,2,0,,3,,,,"Warrior, Attack Reaction",,Kassai Specialization,,,Go again,,,"**Kassai Specialization**
 
@@ -355,7 +355,7 @@ SUP260,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP260,https://storage.googleapis.co
 SUP261,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP261,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP261.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP262,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP262,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP262.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP263,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP263,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP263.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP264,SUP,Light Up the Leaves,Red,1,3,,3,,,6,"Earth, Wizard, Action",,,,,,,,"Deal 6 arcane damage to any target.
+SUP264,SUP,Light Up the Leaves,Red,1,3,,3,,,6,"Earth, Wizard, Action",,,Instant,,,,,"Deal 6 arcane damage to any target.
 
 **Instant** - Discard this and an Earth card: Prevent the next 6 arcane damage target source would deal this turn.",Earth Wizard Action,,,,No,,M,,,Rio Sabda,Yes,,SUP264,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP264.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP265,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP265,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP265.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,

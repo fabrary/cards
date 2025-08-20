@@ -957,12 +957,24 @@ If you've been cheered this turn, this gets +1{p}.`,
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.C,
+      identifier: "SUP250",
+      image: "SUP250_V2",
+      isExpansionSlot: true,
+      
+      print: "SUP250-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP250"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP250",
+    specialImage: "SUP250_V2",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Warrior Equipment - Legs",
@@ -1021,12 +1033,24 @@ This counts as a Gold.
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.C,
+      identifier: "SUP247",
+      image: "SUP247_V2",
+      isExpansionSlot: true,
+      
+      print: "SUP247-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP247"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP247",
+    specialImage: "SUP247_V2",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Warrior Equipment - Head",
@@ -1085,12 +1109,24 @@ This counts as a Gold.
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.C,
+      identifier: "SUP249",
+      image: "SUP249_V2",
+      isExpansionSlot: true,
+      
+      print: "SUP249-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP249"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP249",
+    specialImage: "SUP249_V2",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Warrior Equipment - Arms",
@@ -1149,12 +1185,24 @@ This counts as a Gold.
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.C,
+      identifier: "SUP248",
+      image: "SUP248_V2",
+      isExpansionSlot: true,
+      
+      print: "SUP248-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP248"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP248",
+    specialImage: "SUP248_V2",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Warrior Equipment - Chest",
