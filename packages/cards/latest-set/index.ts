@@ -1302,6 +1302,68 @@ This counts as a Gold.
   
   
   },{
+    artists: ["Ausonia"],
+    cardIdentifier: "hunter-or-hunted-blue",
+    classes: [Class.Assassin],
+    defaultImage: "SUP245",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Hunter or Hunted?",
+    printings: [{
+        artists: ["Ausonia"],
+      
+      identifier: "SUP245",
+      image: "SUP245",
+      isExpansionSlot: true,
+      
+      print: "SUP245",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP245"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP245",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Assassin Defense Reaction",
+
+    
+    
+    cost: 3,
+    defense: 4,
+    
+    functionalText: `When this defends, name a card. The attacking hero reveals the top card of their deck. If it's the named card, banish it, search their hand, deck, and arsenal for up to 3 cards with that name and banish them, then they shuffle.
+
+**Contract** - While this is defending, you are contracted to banish opponents' cards with the chosen name. Whenever you complete this contract, create a Silver token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Contract],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "in-the-palm-of-your-hand-red",
     classes: [Class.Guardian],

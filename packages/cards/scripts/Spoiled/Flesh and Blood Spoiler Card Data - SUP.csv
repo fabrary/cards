@@ -308,7 +308,9 @@ SUP241,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP241,https://storage.googleapis.com/c
 SUP242,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP242,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP242.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP243,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP243,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP243.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP244,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP244,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP244.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP245,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP245,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP245.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP245,SUP,Hunter or Hunted?,Blue,3,3,,4,,,,"Assassin, Defense Reaction",,Contract,,,,,,"When this defends, name a card. The attacking hero reveals the top card of their deck. If it's the named card, banish it, search their hand, deck, and arsenal for up to 3 cards with that name and banish them, then they shuffle.
+
+**Contract** - While this is defending, you are contracted to banish opponents' cards with the chosen name. Whenever you complete this contract, create a Silver token.",Assassin Defense Reaction,,,,No,,M,,,Ausonia,Yes,,SUP245,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP245.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP246,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP246,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP247,SUP,Golden Galea,,,,,2,,,,"Warrior, Equipment, Head",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
 
