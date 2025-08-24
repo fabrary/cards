@@ -22,6 +22,66 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "backspin-thrust-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "SUP254",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Teklovossen],
+    name: "Backspin Thrust",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SUP254",
+      image: "SUP254",
+      isExpansionSlot: true,
+      
+      print: "SUP254",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP254"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP254",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Once per Turn Instant** - {u} a cog you control: This gets +1{p} or **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    shorthands: ["Untap"],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Orson CaptainSass"],
     cardIdentifier: "bait",
     classes: [Class.Ranger],
@@ -696,7 +756,8 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-red",
     classes: [Class.NotClassed],
@@ -756,8 +817,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-yellow",
     classes: [Class.NotClassed],
@@ -1501,7 +1561,8 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "kayo-underhanded-cheat",
     classes: [Class.Brute],
@@ -1601,8 +1662,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "liars-charm-yellow",
     classes: [Class.Guardian],
@@ -2348,7 +2408,8 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "overcrowded-blue",
     classes: [Class.Generic],
@@ -2434,8 +2495,7 @@ When this attacks or defends, it gets +1{p} +1{d} for each different name among 
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades",
     classes: [Class.Guardian],
