@@ -419,6 +419,7 @@ export const fabDictionary = [
   "swiftblade",
   "swiftstrike",
   "swiftwater",
+  "switcheroo",
   "tbone",
   "taipanis",
   "talishar",

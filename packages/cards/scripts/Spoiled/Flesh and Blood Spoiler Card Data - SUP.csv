@@ -138,7 +138,7 @@ SUP083,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP083,https://storage.googleapis.com/c
 SUP084,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP084,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP085,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP085,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP086,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP086,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP086.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP087,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP087,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP087.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP087,SUP,The Old Switcheroo,Blue,3,0,2,3,,,,"Reviled, Action, Attack",,,,,,,,"**Instant** - Discard this: the next time you would clash with target hero this turn, instead you reveal the top card of their deck and they reveal the top card of your deck. If you win the clash, they discard a card.",Reviled Action - Attack,,,,No,,S,,,Saad Irfan,,,SUP087,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP087.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP088,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP088,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP088.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP089,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP089,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP090,SUP,Mocking Blow,Red,1,0,1,3,,,,"Reviled, Action, Attack",,,,,,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
@@ -337,7 +337,7 @@ SUP252,SUP,Blood Follows Blade,Yellow,2,0,,3,,,,"Warrior, Attack Reaction",,Kass
 
 Target sword attack gets **go again** and ""When this hits, create a Cintari Sellsword token.""",Warrior Attack Reaction,,,,No,,M,,,Rio Sabda,Yes,,SUP252,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP253,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP253,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP254,SUP,Backspin Thrust,Red,1,0,4,3,,,,"Mechanologist, Action, Attack",,,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {u} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,No,,M,,,Narendra B Adi,Yes,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP254,SUP,Backspin Thrust,Red,1,0,4,3,,,,"Mechanologist, Action, Attack",,,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {u} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,No,,M,,,Narendra B Adi,Yes,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254.png,,,M,C,EA,Narendra B Adi,Yes,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254_V2.png,,,,,,,,,,,,,,,,,,
 SUP255,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP255,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP256,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP256,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP257,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP257,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP257.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
