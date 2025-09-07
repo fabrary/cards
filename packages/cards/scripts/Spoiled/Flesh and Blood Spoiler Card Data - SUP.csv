@@ -58,7 +58,9 @@ If you've been cheered this turn, this gets +1{p}.",Revered Action - Attack,,,,N
 SUP030,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP030,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP031,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP031,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP032,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP032,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP032.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP033,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP033,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP033,SUP,Fight Fair,Red,1,2,6,2,,,,"Revered, Action, Attack",,,,,,,,"If this is defended by a Reviled card, this gets +1{p}.
+
+When this hits a Reviled hero, put this on the bottom of its owner's deck.",Revered Action - Attack,,,,No,,R,,,Alexis Susani,,,SUP033,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP034,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP034,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP035,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP035,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SUP036, FAB381",SUP,Dig In,Red,1,3,7,3,,,,"Revered, Action, Attack",,,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.",Revered Action - Attack,,,,,,C,S,,Narendra B Adi,,,SUP036,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP036.png,,,P,R,EA,Narendra B Adi,,,FAB381,,,,,,,,,,,,,,,,,,,
@@ -74,17 +76,35 @@ SUP045,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP045,https://storage.googleapis.com/c
 SUP046,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP046,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP046.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP047,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP047,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP047.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP048,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP048,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP048.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP049,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP049,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP050,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP050,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP051,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP051,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP049,SUP,Turn the Crowd Grateful,Red,1,3,7,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks a Reviled hero, this gets +1{p}.
+
+When this hits a Reviled hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Andrew Chou,,,SUP049,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP050,SUP,Turn the Crowd Grateful,Yellow,2,3,6,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks a Reviled hero, this gets +1{p}.
+
+When this hits a Reviled hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Andrew Chou,,,SUP050,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP051,SUP,Turn the Crowd Grateful,Blue,3,3,5,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks a Reviled hero, this gets +1{p}.
+
+When this hits a Reviled hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Andrew Chou,,,SUP051,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP052,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP052,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP053,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP053,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP053.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP054,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP054,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP054.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP055,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP055,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP055.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP056,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP056,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP056.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP057,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP057,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP057.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP058,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP058,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP058.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP059,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP059,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP059.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP057,SUP,Heroic Pose,Red,1,1,,2,,,,"Revered, Action",,"Go again, The Crowd Cheers",,,,,,"Your next attack this turn gets +3{p}.
+
+**The crowd cheers** you.
+
+**Go again**",Revered Action,,,,,,C,,,Carlos Cruchaga,,,SUP057,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP057.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP058,SUP,Heroic Pose,Yellow,2,1,,2,,,,"Revered, Action",,"Go again, The Crowd Cheers",,,,,,"Your next attack this turn gets +2{p}.
+
+**The crowd cheers** you.
+
+**Go again**",Revered Action,,,,,,C,,,Carlos Cruchaga,,,SUP058,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP058.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP059,SUP,Heroic Pose,Blue,3,1,,2,,,,"Revered, Action",,"Go again, The Crowd Cheers",,,,,,"Your next attack this turn gets +1{p}.
+
+**The crowd cheers** you.
+
+**Go again**",Revered Action,,,,,,C,,,Carlos Cruchaga,,,SUP059,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP059.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP060,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP060,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP061,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP061,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP062,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP062,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -120,8 +140,12 @@ SUP072,SUP,Lyath Goldmane,,,,,,20,5,,"Reviled, Guardian, Hero, Young",,,Instant,
 
 Whenever the crowd boos you, create a Might token.",Reviled Guardian Hero - Young,,,No,,No,B,S,,Nathaniel Himawan,,,SUP072,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP072.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP073,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP073,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP073.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP074,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP074,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP074.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP075,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP075,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP074,SUP,Leave Them Hanging,Red,1,3,,3,,,,"Reviled, Guardian, Instant, Aura",,"Suspense, Intimidate",,,,,,"**Suspense**
+
+When this enters or leaves the arena, **intimidate** target hero.
+
+When this leaves the arena, your next attack this turn gets +4{p}.",Reviled Guardian Instant - Aura,,,,No,,M,,,Nathaniel Himawan,,,SUP074,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP074.png,,,M,C,EA,Nathaniel Himawan,,,SUP074,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP074_V2.png,,,,,,,,,,,,,,,,,,
+SUP075,SUP,Two Steps Ahead,Blue,3,0,,3,,,,"Reviled, Guardian, Action, Aura",,,,,,,,"At the start of your turn, destroy this, then create a Confidence and 3 Might tokens.",Reviled Guardian Action - Aura,,,,No,,S,,,Lius Lasahido,,,SUP075,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SUP076, LGS425, FAB373","SUP, LGS, FAB",Liar's Charm,Yellow,2,0,,,,,,"Reviled, Guardian, Instant",,"Steal, The Crowd Boos",,,,,,"Choose any number;
 - **Steal** a Toughness or Vigor token.
 - **The crowd boos** you.
@@ -133,14 +157,20 @@ When this hits a hero, create a Confidence and a Might token.",Reviled Guardian 
 SUP079,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP079,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP080,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP080,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP080.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP081,SUP,Bully Tactics,Red,1,0,3,3,,,,"Reviled, Action, Attack",,Intimidate,,,,,,"When this attacks a hero, you may pay up to {r}{r}{r}. **Intimidate** them that many times.",Reviled Action - Attack,,,,No,,M,S,,Maerel Hibadita,,,SUP081,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP081.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP082,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP082,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP082.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP082,SUP,Fix the Match,Yellow,2,0,3,2,,,,"Reviled, Action, Attack",,Clash,,,,,,"When this attacks, search your deck for a card, then shuffle and put that card on top.
+
+Whenever a card defends this, **clash** with the defending hero. The winner creates a Might token.",Reviled Action - Attack,,,,No,,M,,,SanSan,,,SUP082,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP082.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP083,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP083,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP084,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP084,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP085,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP085,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP085,SUP,Gang Robbery,Yellow,2,0,1,3,,,,"Reviled, Action, Attack",,Steal,,,,,,"When this attacks a hero, **steal** an aura token they control.
+
+If you control 3 or more auras, this gets +3{p}.",Reviled Action - Attack,,,,No,,S,,,M Fakhrur Rozzi,,,SUP085,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP086,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP086,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP086.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP087,SUP,The Old Switcheroo,Blue,3,0,2,3,,,,"Reviled, Action, Attack",,,,,,,,"**Instant** - Discard this: the next time you would clash with target hero this turn, instead you reveal the top card of their deck and they reveal the top card of your deck. If you win the clash, they discard a card.",Reviled Action - Attack,,,,No,,S,,,Saad Irfan,,,SUP087,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP087.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP088,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP088,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP088.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP089,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP089,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP089,SUP,Fight Dirty,Red,1,3,7,2,,,,"Reviled, Action, Attack",,,,,,,,"If this is defended by a Revered card, this gets +1{p}.
+
+When this hits a Revered hero, destroy the top card of their deck.",Reviled Action - Attack,,,,No,,R,,,Andi Cahyo W,,,SUP089,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP090,SUP,Mocking Blow,Red,1,0,1,3,,,,"Reviled, Action, Attack",,,,,,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
 
 If you've been booed this turn, this gets +4{p}.",Reviled Action - Attack,,,,No,,R,S,,Nailsen Ivanderlie,,"""Hah! Who's the buffon now, bigmouth?"" - Slapstick Sal",SUP090,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -150,9 +180,15 @@ If you've been booed this turn, this gets +3{p}.",Reviled Action - Attack,,,,No,
 SUP092,SUP,Mocking Blow,Blue,3,0,1,3,,,,"Reviled, Action, Attack",,,,,,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
 
 If you've been booed this turn, this gets +2{p}.",Reviled Action - Attack,,,,No,,R,S,,Nailsen Ivanderlie,,"""Hah! Who's the buffon now, bigmouth?"" - Slapstick Sal",SUP092,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP093,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP093,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP094,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP094,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP095,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP095,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP093,SUP,Overturn the Results,Blue,3,3,5,3,,,,"Reviled, Action, Attack",,The Crowd Boos,,,,,,"If you would fail to win a clash revealing this, instead you win the clash and **the crowd boos** you.",Reviled Action - Attack,,,,No,,R,,,János Brumár,,,SUP093,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP094,SUP,Cheap Shot,Yellow,2,0,,2,,,,"Reviled, Action",,,,,,,,"If you've been booed this turn, you may play this as though it were an instant.
+
+Deal 2 damage to target hero unless they discard a card.",Reviled Action,,,,No,,R,,,Ismatulloh,,,SUP094,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP095,SUP,Sadistic Scowl,Red,1,3,,2,,,,"Reviled, Action",,"Intimidate, Go again",,,,,,"Your next attack this turn gets +5{p}.
+
+**Intimidate** target hero.
+
+**Go again**",Reviled Action,,,,No,,R,,,Mateusz Wiśniewski,,,SUP095,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP096,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP096,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP097,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP097,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SUP098, FAB387",SUP,Bask in Your Own Greatness,Red,1,0,4,2,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.",Reviled Action - Attack,,,,,,C,S,,Olga Tereshenko,,,SUP098,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP098.png,,,P,R,EA,Olga Tereshenko,,,FAB387,,,,,,,,,,,,,,,,,,,
@@ -171,15 +207,33 @@ SUP110,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP110,https://storage.googleapis.com/c
 SUP111,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP111,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP112,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP112,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP113,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP113,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP114,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP114,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP114.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP115,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP115,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP116,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP116,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP116.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP114,SUP,Turn the Crowd Hateful,Red,1,3,5,2,,,,"Reviled, Action, Attack",,The Crowd Boos,,,,,,"When this attacks a Revered hero, this gets +3{p}.
+
+When this hits a Revered hero, **the crowd boos** you.",Reviled Action - Attack,,,,,,C,,,Arkoii,,,SUP114,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP114.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP115,SUP,Turn the Crowd Hateful,Yellow,2,3,4,2,,,,"Reviled, Action, Attack",,The Crowd Boos,,,,,,"When this attacks a Revered hero, this gets +3{p}.
+
+When this hits a Revered hero, **the crowd boos** you.",Reviled Action - Attack,,,,,,C,,,Arkoii,,,SUP115,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP115.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP116,SUP,Turn the Crowd Hateful,Blue,3,3,3,2,,,,"Reviled, Action, Attack",,The Crowd Boos,,,,,,"When this attacks a Revered hero, this gets +3{p}.
+
+When this hits a Revered hero, **the crowd boos** you.",Reviled Action - Attack,,,,,,C,,,Arkoii,,,SUP116,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP116.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP117,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP117,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP117.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP118,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP118,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP118.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP119,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP119,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP119.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP120,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP120,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP120.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP121,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP121,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP121.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP122,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP122,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP120,SUP,Villainous Pose,Red,1,2,,2,,,,"Reviled, Action",,"Go again, The Crowd Boos",,,,,,"Your next attack this turn gets +4{p}.
+
+**The crowd boos** you.
+
+**Go again**",Reviled Action,,,,,,C,,,Carlos Cruchaga,,,SUP120,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP120.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP121,SUP,Villainous Pose,Yellow,2,2,,2,,,,"Reviled, Action",,"Go again, The Crowd Boos",,,,,,"Your next attack this turn gets +3{p}.
+
+**The crowd boos** you.
+
+**Go again**",Reviled Action,,,,,,C,,,Carlos Cruchaga,,,SUP121,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP121.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP122,SUP,Villainous Pose,Blue,3,2,,2,,,,"Reviled, Action",,"Go again, The Crowd Boos",,,,,,"Your next attack this turn gets +2{p}.
+
+**The crowd boos** you.
+
+**Go again**",Reviled Action,,,,,,C,,,Carlos Cruchaga,,,SUP122,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP123,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP123,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP123.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP124,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP124,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP124.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP125,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP125,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP125.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -276,7 +330,7 @@ SUP213,SUP,Punching Gloves,,,,,0,,,,"Generic, Equipment, Arms",,,Action,Go again
 SUP214,SUP,Toby Jugs,,,,,0,,,,"Generic, Equipment, Legs",,Blade Break,,,,,,"When this defends, you may pay {r}. If you do, it gets +2{d} this turn.
 
 **Blade Break**",Generic Equipment - Legs,,,,,,C,S,,Kyxarie Peralta,,,SUP214,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP214.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP215,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP215,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP215,SUP,Cutting Retort,Red,1,0,4,3,,,,"Generic, Action, Attack",,,,,,,,"When this attacks a hero, you may pay up to {r}{r}{r}. Destroy that many aura tokens with different names they control. If you do, this gets +1{p} for each aura destroyed this way.",Generic Action - Attack,,,,No,,M,,,Cacho Rubione,,,SUP215,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP216,SUP,Overcrowded,Blue,3,0,1,2,,,,"Generic, Action, Attack",,Ambush,,,,,,"**Ambush**
 
 When this attacks or defends, it gets +1{p} +1{d} for each different name among aura tokens in the arena.",Generic Action - Attack,,,,No,,M,S,,Tomasz Jedruszek,,,SUP216,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP216.png,,,M,R,,Tomasz Jedruszek,,,SUP216,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP216.png,,,P,C,EA,Tomasz Jedruszek,,,,,,,,,,,,

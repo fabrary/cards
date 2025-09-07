@@ -3051,6 +3051,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/cheap-shot-yellow</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cheaters-charm-yellow</loc>
     <lastmod>2025-07-03</lastmod>
     <priority>0.5</priority>
@@ -4208,6 +4213,11 @@
   <url>
     <loc>https://fabrary.net/cards/cut-to-the-chase-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cutting-retort-red</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -6361,6 +6371,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fight-dirty-red</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/fight-fair-red</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/fightmaster-kox</loc>
     <lastmod>2025-06-10</lastmod>
     <priority>0.5</priority>
@@ -6488,6 +6508,11 @@
   <url>
     <loc>https://fabrary.net/cards/fisticuffs</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/fix-the-match-yellow</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -7093,6 +7118,11 @@
   <url>
     <loc>https://fabrary.net/cards/gamblers-gloves</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/gang-robbery-yellow</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8173,6 +8203,21 @@
   <url>
     <loc>https://fabrary.net/cards/herald-of-triumph-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/heroic-pose-red</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/heroic-pose-yellow</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/heroic-pose-blue</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9668,6 +9713,11 @@
   <url>
     <loc>https://fabrary.net/cards/leave-no-witnesses-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/leave-them-hanging-red</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -11453,6 +11503,11 @@
   <url>
     <loc>https://fabrary.net/cards/overswing-blue</loc>
     <lastmod>2025-08-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/overturn-the-results-blue</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -14223,6 +14278,11 @@
   <url>
     <loc>https://fabrary.net/cards/sacred-art-undercurrent-desires-blue</loc>
     <lastmod>2024-04-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sadistic-scowl-red</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18356,6 +18416,36 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/turn-the-crowd-grateful-red</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/turn-the-crowd-grateful-yellow</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/turn-the-crowd-grateful-blue</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/turn-the-crowd-hateful-red</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/turn-the-crowd-hateful-yellow</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/turn-the-crowd-hateful-blue</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/turn-timber-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -18428,6 +18518,11 @@
   <url>
     <loc>https://fabrary.net/cards/two-sides-to-the-blade-red</loc>
     <lastmod>2025-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/two-steps-ahead-blue</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18923,6 +19018,21 @@
   <url>
     <loc>https://fabrary.net/cards/vile-inquisition-blue</loc>
     <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/villainous-pose-red</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/villainous-pose-yellow</loc>
+    <lastmod>2025-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/villainous-pose-blue</loc>
+    <lastmod>2025-09-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

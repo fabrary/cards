@@ -460,6 +460,68 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
   
   
   },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "cheap-shot-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP094",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Cheap Shot",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "SUP094",
+      image: "SUP094",
+      
+      
+      print: "SUP094",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP094"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP094",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Reviled Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `If you've been booed this turn, you may play this as though it were an instant.
+
+Deal 2 damage to target hero unless they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "cheaters-charm-yellow",
     classes: [Class.Brute],
@@ -769,6 +831,66 @@ If you've been cheered this turn, this gets +1{p}.`,
   
   
   },{
+    artists: ["Cacho Rubione"],
+    cardIdentifier: "cutting-retort-red",
+    classes: [Class.Generic],
+    defaultImage: "SUP215",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Cutting Retort",
+    printings: [{
+        artists: ["Cacho Rubione"],
+      
+      identifier: "SUP215",
+      image: "SUP215",
+      
+      
+      print: "SUP215",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP215"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP215",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, you may pay up to {r}{r}{r}. Destroy that many aura tokens with different names they control. If you do, this gets +1{p} for each aura destroyed this way.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-red",
     classes: [Class.NotClassed],
@@ -828,8 +950,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-yellow",
     classes: [Class.NotClassed],
@@ -947,6 +1068,255 @@ If you've been cheered this turn, this gets +1{p}.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "fight-dirty-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP089",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Fight Dirty",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "SUP089",
+      image: "SUP089",
+      
+      
+      print: "SUP089",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP089"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP089",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `If this is defended by a Revered card, this gets +1{p}.
+
+When this hits a Revered hero, destroy the top card of their deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  }];
+  const cards2: Card[] =  [{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "fight-fair-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP033",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Fight Fair",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "SUP033",
+      image: "SUP033",
+      
+      
+      print: "SUP033",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP033"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP033",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `If this is defended by a Reviled card, this gets +1{p}.
+
+When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "fix-the-match-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP082",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Brutus,Hero.Lyath,Hero.RKO],
+    name: "Fix the Match",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "SUP082",
+      image: "SUP082",
+      
+      
+      print: "SUP082",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP082"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP082",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, search your deck for a card, then shuffle and put that card on top.
+
+Whenever a card defends this, **clash** with the defending hero. The winner creates a Might token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Clash],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "gang-robbery-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP085",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Gang Robbery",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "SUP085",
+      image: "SUP085",
+      
+      
+      print: "SUP085",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP085"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP085",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, **steal** an aura token they control.
+
+If you control 3 or more auras, this gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Steal],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
   
   
   },{
@@ -1374,6 +1744,198 @@ This counts as a Gold.
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "heroic-pose-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP057",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Heroic Pose",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP057",
+      image: "SUP057",
+      
+      
+      print: "SUP057",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP057"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP057",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Revered Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +3{p}.
+
+**The crowd cheers** you.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "heroic-pose-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP058",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Heroic Pose",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP058",
+      image: "SUP058",
+      
+      
+      print: "SUP058",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP058"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP058",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Revered Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +2{p}.
+
+**The crowd cheers** you.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "heroic-pose-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP059",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Heroic Pose",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP059",
+      image: "SUP059",
+      
+      
+      print: "SUP059",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP059"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP059",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Revered Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +1{p}.
+
+**The crowd cheers** you.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "hunter-or-hunted-blue",
     classes: [Class.Assassin],
@@ -1673,8 +2235,83 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "leave-them-hanging-red",
+    classes: [Class.Guardian],
+    defaultImage: "SUP074",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath],
+    name: "Leave Them Hanging",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "SUP074",
+      image: "SUP074",
+      
+      
+      print: "SUP074",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "SUP074",
+      image: "SUP074_V2",
+      
+      
+      print: "SUP074-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP074"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP074_V2",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Reviled Guardian Instant - Aura",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this enters or leaves the arena, **intimidate** target hero.
+
+When this leaves the arena, your next attack this turn gets +4{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Intimidate,Keyword.Suspense],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "liars-charm-yellow",
     classes: [Class.Guardian],
@@ -1737,7 +2374,8 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Rio Sabda"],
     cardIdentifier: "light-up-the-leaves-red",
     classes: [Class.Wizard],
@@ -2506,8 +3144,67 @@ When this attacks or defends, it gets +1{p} +1{d} for each different name among 
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
+    artists: ["János Brumár"],
+    cardIdentifier: "overturn-the-results-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP093",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Overturn the Results",
+    printings: [{
+        artists: ["János Brumár"],
+      
+      identifier: "SUP093",
+      image: "SUP093",
+      
+      
+      print: "SUP093",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP093"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP093",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `If you would fail to win a clash revealing this, instead you win the clash and **the crowd boos** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdBoos],
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades",
     classes: [Class.Guardian],
@@ -2716,6 +3413,70 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
   
   },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "sadistic-scowl-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP095",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Sadistic Scowl",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "SUP095",
+      image: "SUP095",
+      
+      
+      print: "SUP095",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP095"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP095",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Reviled Action",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +5{p}.
+
+**Intimidate** target hero.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Intimidate],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "spew-obscenities-yellow",
     classes: [Class.Guardian],
@@ -2855,7 +3616,8 @@ Create a Bait token under an opponent's control.
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Saad Irfan"],
     cardIdentifier: "the-old-switcheroo-blue",
     classes: [Class.NotClassed],
@@ -3189,6 +3951,438 @@ Whenever the crowd cheers you, create a Toughness token.`,
   
   
   },{
+    artists: ["Andrew Chou"],
+    cardIdentifier: "turn-the-crowd-grateful-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP049",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Turn the Crowd Grateful",
+    printings: [{
+        artists: ["Andrew Chou"],
+      
+      identifier: "SUP049",
+      image: "SUP049",
+      
+      
+      print: "SUP049",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP049"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP049",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks a Reviled hero, this gets +1{p}.
+
+When this hits a Reviled hero, **the crowd cheers** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Andrew Chou"],
+    cardIdentifier: "turn-the-crowd-grateful-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP050",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Turn the Crowd Grateful",
+    printings: [{
+        artists: ["Andrew Chou"],
+      
+      identifier: "SUP050",
+      image: "SUP050",
+      
+      
+      print: "SUP050",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP050"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP050",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks a Reviled hero, this gets +1{p}.
+
+When this hits a Reviled hero, **the crowd cheers** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Andrew Chou"],
+    cardIdentifier: "turn-the-crowd-grateful-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP051",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Turn the Crowd Grateful",
+    printings: [{
+        artists: ["Andrew Chou"],
+      
+      identifier: "SUP051",
+      image: "SUP051",
+      
+      
+      print: "SUP051",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP051"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP051",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks a Reviled hero, this gets +1{p}.
+
+When this hits a Reviled hero, **the crowd cheers** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Arkoii"],
+    cardIdentifier: "turn-the-crowd-hateful-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP114",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Turn the Crowd Hateful",
+    printings: [{
+        artists: ["Arkoii"],
+      
+      identifier: "SUP114",
+      image: "SUP114",
+      
+      
+      print: "SUP114",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP114"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP114",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks a Revered hero, this gets +3{p}.
+
+When this hits a Revered hero, **the crowd boos** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdBoos],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Arkoii"],
+    cardIdentifier: "turn-the-crowd-hateful-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP115",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Turn the Crowd Hateful",
+    printings: [{
+        artists: ["Arkoii"],
+      
+      identifier: "SUP115",
+      image: "SUP115",
+      
+      
+      print: "SUP115",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP115"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP115",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks a Revered hero, this gets +3{p}.
+
+When this hits a Revered hero, **the crowd boos** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdBoos],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Arkoii"],
+    cardIdentifier: "turn-the-crowd-hateful-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP116",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Turn the Crowd Hateful",
+    printings: [{
+        artists: ["Arkoii"],
+      
+      identifier: "SUP116",
+      image: "SUP116",
+      
+      
+      print: "SUP116",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP116"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP116",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this attacks a Revered hero, this gets +3{p}.
+
+When this hits a Revered hero, **the crowd boos** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdBoos],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Lius Lasahido"],
+    cardIdentifier: "two-steps-ahead-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP075",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath],
+    name: "Two Steps Ahead",
+    printings: [{
+        artists: ["Lius Lasahido"],
+      
+      identifier: "SUP075",
+      image: "SUP075",
+      
+      
+      print: "SUP075",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP075"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP075",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Reviled Guardian Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `At the start of your turn, destroy this, then create a Confidence and 3 Might tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Ina Wong"],
     cardIdentifier: "up-on-a-pedestal-blue",
     classes: [Class.Guardian],
@@ -3310,6 +4504,198 @@ When this hits a hero, create a Confidence and a Toughness token.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "villainous-pose-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP120",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Villainous Pose",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP120",
+      image: "SUP120",
+      
+      
+      print: "SUP120",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP120"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP120",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Reviled Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +4{p}.
+
+**The crowd boos** you.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.TheCrowdBoos],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "villainous-pose-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP121",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Villainous Pose",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP121",
+      image: "SUP121",
+      
+      
+      print: "SUP121",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP121"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP121",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Reviled Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +3{p}.
+
+**The crowd boos** you.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.TheCrowdBoos],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "villainous-pose-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP122",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Villainous Pose",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP122",
+      image: "SUP122",
+      
+      
+      print: "SUP122",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP122"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP122",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Reviled Action",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +2{p}.
+
+**The crowd boos** you.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.TheCrowdBoos],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
   
   
   }];
