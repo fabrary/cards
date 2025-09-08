@@ -5746,6 +5746,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/escalate-order-red</loc>
+    <lastmod>2025-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/essence-of-ancestry-body-red</loc>
     <lastmod>2024-05-11</lastmod>
     <priority>0.5</priority>
@@ -7488,6 +7493,11 @@
   <url>
     <loc>https://fabrary.net/cards/good-deeds-dont-go-unnoticed-yellow</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/good-natured-brutality-yellow</loc>
+    <lastmod>2025-09-08</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -15211,6 +15221,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/show-of-strength-red</loc>
+    <lastmod>2025-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/show-time-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -15846,6 +15861,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/smash-with-big-rock-yellow</loc>
+    <lastmod>2025-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/smash-with-big-tree-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -16043,6 +16063,11 @@
   <url>
     <loc>https://fabrary.net/cards/song-of-jack-be-quick-blue</loc>
     <lastmod>2023-09-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/song-of-sinew-yellow</loc>
+    <lastmod>2025-09-08</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -19091,6 +19116,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/visit-the-boneyard-blue</loc>
+    <lastmod>2025-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/visit-the-floating-dojo-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -19661,6 +19691,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/will-of-the-crowd-blue</loc>
+    <lastmod>2025-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/wind-chakra-red</loc>
     <lastmod>2024-04-01</lastmod>
     <priority>0.5</priority>
@@ -19673,6 +19708,11 @@
   <url>
     <loc>https://fabrary.net/cards/wind-chakra-blue</loc>
     <lastmod>2024-05-06</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/wind-up-the-crowd-blue</loc>
+    <lastmod>2025-09-08</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

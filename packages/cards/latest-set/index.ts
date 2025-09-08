@@ -1071,6 +1071,66 @@ If you've been cheered this turn, this gets +1{p}.`,
   
   
   },{
+    artists: ["Sariya Asavametha"],
+    cardIdentifier: "escalate-order-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP022",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Escalate Order",
+    printings: [{
+        artists: ["Sariya Asavametha"],
+      
+      identifier: "SUP022",
+      image: "SUP022",
+      
+      
+      print: "SUP022",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP022"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP022",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 6,
+    defense: 3,
+    
+    functionalText: `When this attacks, if you control a Toughness token, create 3 more.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
     artists: ["Andi Cahyo W"],
     cardIdentifier: "fight-dirty-red",
     classes: [Class.NotClassed],
@@ -1194,8 +1254,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["SanSan"],
     cardIdentifier: "fix-the-match-yellow",
     classes: [Class.NotClassed],
@@ -1257,7 +1316,8 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["M Fakhrur Rozzi"],
     cardIdentifier: "gang-robbery-yellow",
     classes: [Class.NotClassed],
@@ -1681,6 +1741,66 @@ This counts as a Gold.
     
     specializations: [Hero.Olympia],
     
+  
+  
+  },{
+    artists: ["Alexander Mokhov"],
+    cardIdentifier: "good-natured-brutality-yellow",
+    classes: [Class.Brute],
+    defaultImage: "SUP004",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Tuffnut],
+    name: "Good Natured Brutality",
+    printings: [{
+        artists: ["Alexander Mokhov"],
+      
+      identifier: "SUP004",
+      image: "SUP004",
+      
+      
+      print: "SUP004",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP004"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP004",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 0,
+    
+    functionalText: `When this defends, if you have no cards in hand, it gets +6{d} and **the crowd cheers** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
   
   
   },{
@@ -2434,8 +2554,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "light-up-the-leaves-red",
     classes: [Class.Wizard],
@@ -2561,7 +2680,8 @@ Whenever the crowd boos you, create a Might token.`,
     talents: [Talent.Reviled],
   
   young: true
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "lyath-goldmane-vile-savant",
     classes: [Class.Guardian],
@@ -3537,6 +3657,188 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
   
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "show-of-strength-red",
+    classes: [Class.Brute],
+    defaultImage: "SUP128",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Show of Strength",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SUP128",
+      image: "SUP128",
+      
+      
+      print: "SUP128",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP128"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP128",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `This gets -1{p} for each card with 6 or more {p} defending it.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 8,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "smash-with-big-rock-yellow",
+    classes: [Class.Brute],
+    defaultImage: "SUP133",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Smash with Big Rock",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "SUP133",
+      image: "SUP133",
+      
+      
+      print: "SUP133",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP133"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP133",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 0,
+    
+    functionalText: `Cards defending this can't gain {d}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ramza Ardyputra"],
+    cardIdentifier: "song-of-sinew-yellow",
+    classes: [Class.Brute],
+    defaultImage: "SUP134",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Song of Sinew",
+    printings: [{
+        artists: ["Ramza Ardyputra"],
+      
+      identifier: "SUP134",
+      image: "SUP134",
+      
+      
+      print: "SUP134",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP134"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP134",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Reveal the top 4 cards of your deck. Your next attack this turn gets +X{p}, where X is the number of cards with 6 or more {p} revealed this way. Put them back in any order.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "spew-obscenities-yellow",
     classes: [Class.Guardian],
@@ -3676,8 +3978,7 @@ Create a Bait token under an opponent's control.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "the-old-switcheroo-blue",
     classes: [Class.NotClassed],
@@ -3737,7 +4038,8 @@ Create a Bait token under an opponent's control.
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "thespian-charm-yellow",
     classes: [Class.Guardian],
@@ -4816,6 +5118,188 @@ When this hits a hero, create a Confidence and a Toughness token.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Anna Kovalevskaya"],
+    cardIdentifier: "visit-the-boneyard-blue",
+    classes: [Class.Brute],
+    defaultImage: "SUP139",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Visit the Boneyard",
+    printings: [{
+        artists: ["Anna Kovalevskaya"],
+      
+      identifier: "SUP139",
+      image: "SUP139",
+      
+      
+      print: "SUP139",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP139"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP139",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Brute Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Put a card with 6 or more {p} from your graveyard on top of your deck.
+
+Create a Vigor token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "will-of-the-crowd-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP035",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Will of the Crowd",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP035",
+      image: "SUP035",
+      
+      
+      print: "SUP035",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP035"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP035",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Revered Block",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, if you've been cheered this turn, defending action cards get +3{d} this chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "wind-up-the-crowd-blue",
+    classes: [Class.Brute],
+    defaultImage: "SUP006",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Tuffnut],
+    name: "Wind Up the Crowd",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "SUP006",
+      image: "SUP006",
+      
+      
+      print: "SUP006",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP006"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP006",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 0,
+    
+    functionalText: `**Instant** - Discard this: Create a Toughness and a Vigor token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
   
   
   }];
