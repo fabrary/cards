@@ -150,7 +150,7 @@ SUP075,SUP,Two Steps Ahead,Blue,3,0,,3,,,,"Reviled, Guardian, Action, Aura",,,,,
 - **Steal** a Toughness or Vigor token.
 - **The crowd boos** you.
 - Target hero loses and can't gain abilities this action phase unless they discard a card.",Reviled Guardian Instant,,,,No,,S,S,,Grégory Nunkovics,,,SUP076,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP076.png,,,P,R,EA,Grégory Nunkovics,,,LGS425,,,,V,C,FA,Grégory Nunkovics,,,FAB373,/FAB373.png,,,,,,,,
-SUP077,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP077,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP077,SUP,Truth or Trickery,Yellow,2,,,3,,,,"Reviled, Guardian, Block",,,,,,,,"When this defends, you may look at the top card of your deck and choose a color. If you do, the attacking hero guesses if that card is the chosen color, then they look at it. If they guessed wrong, they discard a card.",Reviled Guardian Block,,,,No,,S,,,Carlos Cruchaga,,,SUP077,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP078,SUP,Spew Obscenities,Yellow,2,0,3,3,,,,"Reviled, Guardian, Action, Attack",,,,,,,,"If you control a Confidence or Might token, this gets +1{p}.
 
 When this hits a hero, create a Confidence and a Might token.",Reviled Guardian Action - Attack,,,,No,,R,S,,Henrique Lindner,,,SUP078,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP078.png,,,R,R,,Henrique Lindner,,,SUP078,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP078.png,,,,,,,,,,,,,,,,,,
@@ -334,7 +334,7 @@ SUP215,SUP,Cutting Retort,Red,1,0,4,3,,,,"Generic, Action, Attack",,,,,,,,"When 
 SUP216,SUP,Overcrowded,Blue,3,0,1,2,,,,"Generic, Action, Attack",,Ambush,,,,,,"**Ambush**
 
 When this attacks or defends, it gets +1{p} +1{d} for each different name among aura tokens in the arena.",Generic Action - Attack,,,,No,,M,S,,Tomasz Jedruszek,,,SUP216,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP216.png,,,M,R,,Tomasz Jedruszek,,,SUP216,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP216.png,,,P,C,EA,Tomasz Jedruszek,,,,,,,,,,,,
-SUP217,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP217,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP217,SUP,Kick the Hornet's Nest,Yellow,2,3,6,3,,,,"Generic, Action, Attack",,,,,,,,"When an opponent's effect puts this into your graveyard from anywhere, create a Confidence, Might, Toughness, and Vigor token.",Generic Action - Attack,,,,No,,S,,,Saad Irfan,,,SUP217,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP218,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP218,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP218.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP219,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP219,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP219.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP220,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP220,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP220.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,

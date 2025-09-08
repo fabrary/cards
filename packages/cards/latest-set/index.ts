@@ -1132,8 +1132,7 @@ When this hits a Revered hero, destroy the top card of their deck.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "fight-fair-red",
     classes: [Class.NotClassed],
@@ -1195,7 +1194,8 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["SanSan"],
     cardIdentifier: "fix-the-match-yellow",
     classes: [Class.NotClassed],
@@ -2233,6 +2233,66 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "kick-the-hornets-nest-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SUP217",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Kick the Hornet's Nest",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "SUP217",
+      image: "SUP217",
+      
+      
+      print: "SUP217",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP217"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP217",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When an opponent's effect puts this into your graveyard from anywhere, create a Confidence, Might, Toughness, and Vigor token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -3800,6 +3860,66 @@ Create a Bait token under an opponent's control.
     
     
     
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "truth-or-trickery-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "SUP077",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath],
+    name: "Truth or Trickery",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP077",
+      image: "SUP077",
+      
+      
+      print: "SUP077",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP077"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP077",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Reviled Guardian Block",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `When this defends, you may look at the top card of your deck and choose a color. If you do, the attacking hero guesses if that card is the chosen color, then they look at it. If they guessed wrong, they discard a card.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
   
   
   },{
