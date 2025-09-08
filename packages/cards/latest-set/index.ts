@@ -1763,12 +1763,24 @@ This counts as a Gold.
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Alexander Mokhov"],
+      foiling: Foiling.C,
+      identifier: "SUP004",
+      image: "SUP004_V2",
+      
+      
+      print: "SUP004-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP004"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP004",
+    specialImage: "SUP004_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Revered Brute Action - Attack",
@@ -2189,6 +2201,68 @@ When this enters or leaves the arena, draw a card.`,
     
     
     
+  
+  
+  },{
+    artists: ["Alief Rusdiatama"],
+    cardIdentifier: "jaws-of-victory-red",
+    classes: [Class.Brute],
+    defaultImage: "SUP005",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Tuffnut],
+    name: "Jaws of Victory",
+    printings: [{
+        artists: ["Alief Rusdiatama"],
+      
+      identifier: "SUP005",
+      image: "SUP005",
+      
+      
+      print: "SUP005",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP005"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP005",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if you have less {h} than them, **the crowd cheers** you.
+
+If you've been cheered this turn, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.TheCrowdCheers],
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
   
   
   },{
@@ -2965,6 +3039,68 @@ If you've been booed this turn, this gets +2{p}.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "no-hero-stands-alone-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP020",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Brutus,Hero.Pleiades,Hero.Tuffnut],
+    name: "No Hero Stands Alone",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "SUP020",
+      image: "SUP020",
+      
+      
+      print: "SUP020",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP020"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP020",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 0,
+    
+    functionalText: `While this is in any zone, if you've controlled a Toughness token this turn, this gets +3{d} and **ambush**.
+
+When this defends, **clash** with the attacking hero. The winner may choose an attacking or defending card to get -3{p} -3{d} this chain link.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ambush,Keyword.Clash],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
   
   
   },{

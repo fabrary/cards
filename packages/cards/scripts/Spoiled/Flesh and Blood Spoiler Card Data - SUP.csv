@@ -7,8 +7,10 @@ SUP002,SUP,Tuffnut,,,,,,20,3,,"Revered, Brute, Hero, Young",,,Instant,The Crowd 
 
 Whenever the crowd cheers you, create a Toughness token.",Revered Brute Hero - Young,,,No,,No,B,,,Wisnu Tan,,,SUP002,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP002.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP003,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP003,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP004,SUP,Good Natured Brutality,Yellow,2,2,6,0,,,,"Revered, Brute, Action, Attack",,The Crowd Cheers,,,,,,"When this defends, if you have no cards in hand, it gets +6{d} and **the crowd cheers** you.",Revered Brute Action - Attack,,,,No,,M,,,Alexander Mokhov,,,SUP004,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP005,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP005,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP004,SUP,Good Natured Brutality,Yellow,2,2,6,0,,,,"Revered, Brute, Action, Attack",,The Crowd Cheers,,,,,,"When this defends, if you have no cards in hand, it gets +6{d} and **the crowd cheers** you.",Revered Brute Action - Attack,,,,No,,M,,,Alexander Mokhov,,,SUP004,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP004.png,,,M,C,EA,Alexander Mokhov,,,SUP004,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP004_V2.png,,,,,,,,,,,,,,,,,,
+SUP005,SUP,Jaws of Victory,Red,1,2,6,3,,,,"Revered, Brute, Action, Attack",,"The Crowd Cheers, Go again",,,,,,"When this attacks a hero, if you have less {h} than them, **the crowd cheers** you.
+
+If you've been cheered this turn, this gets **go again**.",Revered Brute Action - Attack,,,,No,,S,,,Alief Rusdiatama,,,SUP005,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP006,SUP,Wind Up the Crowd,Blue,3,3,6,0,,,,"Revered, Brute, Action, Attack",,,,,,,,**Instant** - Discard this: Create a Toughness and a Vigor token.,Revered Brute Action - Attack,,,,No,,S,,,Faizal Fikri,,,SUP006,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SUP007, LGS422, FAB370","SUP, LGS, FAB",Numbskull Charm,Yellow,2,0,,,,,,"Revered, Brute, Instant",,The Crowd Cheers,,,,,,"Choose any number;
 - Destroy a Confidence or Might token.
@@ -39,7 +41,9 @@ When this hits a hero, create a Confidence and a Toughness token.",Revered Guard
 SUP017,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP017,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP018,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP018,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP019,SUP,Crowd Goes Wild,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,The Crowd Cheers,"If you've been cheered this turn, this costs {r}{r}{r} less to play.",Revered Action - Attack,,,,No,,M,S,,Kevin Sidharta,,,SUP019,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP020,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP020,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP020,SUP,No Hero Stands Alone,Yellow,2,3,6,0,,,,"Revered, Action, Attack",,"Ambush, Clash",,,,,,"While this is in any zone, if you've controlled a Toughness token this turn, this gets +3{d} and **ambush**.
+
+When this defends, **clash** with the attacking hero. The winner may choose an attacking or defending card to get -3{p} -3{d} this chain link.",Revered Action - Attack,,,,No,,M,,,Kevin Sidharta,,,SUP020,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP021,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP021,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP022,SUP,Escalate Order,Red,1,6,2,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks, if you control a Toughness token, create 3 more.",Revered Action - Attack,,,,No,,S,,,Sariya Asavametha,,,SUP022,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP023,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP023,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
