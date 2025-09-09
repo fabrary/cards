@@ -1019,6 +1019,70 @@ If you've been cheered this turn, this gets +1{p}.`,
   
   
   },{
+    artists: [],
+    cardIdentifier: "concealed-object-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP097",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Concealed Object",
+    printings: [{
+        artists: [],
+      
+      identifier: "SUP097",
+      image: "SUP097",
+      
+      
+      print: "SUP097",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP097"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP097",
+    subtypes: [Subtype.Item],
+    types: [Type.Instant],
+    typeText: "Reviled Instant - Item",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this enters the arena, **the crowd boos** you.
+
+**Instant** - {t}: Target attack gets +1{p}.
+
+At the beginning of your end phase, destroy this.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdBoos],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: ["Tap"],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "crowd-goes-wild-yellow",
     classes: [Class.NotClassed],
@@ -2950,8 +3014,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "light-up-the-leaves-red",
     classes: [Class.Wizard],
@@ -3011,6 +3074,67 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     
     
     talents: [Talent.Earth],
+  
+  
+  }];
+  const cards3: Card[] =  [{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "low-blow-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP110",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Low Blow",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SUP110",
+      image: "SUP110",
+      
+      
+      print: "SUP110",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP110"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP110",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If you've been booed this turn, this gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
   
   
   },{
@@ -4111,6 +4235,70 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
   
   },{
+    artists: ["Muhammad Farji"],
+    cardIdentifier: "revolting-gesture-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP119",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Revolting Gesture",
+    printings: [{
+        artists: ["Muhammad Farji"],
+      
+      identifier: "SUP119",
+      image: "SUP119",
+      
+      
+      print: "SUP119",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP119"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP119",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Reviled Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +3{p}.
+
+Create a Might token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "sadistic-scowl-red",
     classes: [Class.NotClassed],
@@ -4442,7 +4630,8 @@ When this hits a hero, create a Confidence and a Might token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Ausonia"],
     cardIdentifier: "steal-victory-blue",
     classes: [Class.Brute],
@@ -4502,8 +4691,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Orson CaptainSass"],
     cardIdentifier: "take-the-bait-red",
     classes: [Class.Ranger],

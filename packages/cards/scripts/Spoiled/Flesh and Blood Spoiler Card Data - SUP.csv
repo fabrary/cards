@@ -198,7 +198,11 @@ SUP095,SUP,Sadistic Scowl,Red,1,3,,2,,,,"Reviled, Action",,"Intimidate, Go again
 
 **Go again**",Reviled Action,,,,No,,R,,,Mateusz Wiśniewski,,,SUP095,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP096,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP096,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP097,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP097,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP097,SUP,Concealed Object,Blue,3,0,,,,,,"Reviled, Instant, Item",,The Crowd Boos,,,,,,"When this enters the arena, **the crowd boos** you.
+
+**Instant** - {t}: Target attack gets +1{p}.
+
+At the beginning of your end phase, destroy this.",Reviled Instant - Item,,,,No,,R,,,,,,SUP097,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SUP098, FAB387",SUP,Bask in Your Own Greatness,Red,1,0,4,2,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.",Reviled Action - Attack,,,,,,C,S,,Olga Tereshenko,,,SUP098,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP098.png,,,P,R,EA,Olga Tereshenko,,,FAB387,,,,,,,,,,,,,,,,,,,
 "SUP099, FAB388",SUP,Bask in Your Own Greatness,Yellow,2,0,3,2,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.",Reviled Action - Attack,,,,,,C,S,,Olga Tereshenko,,,SUP099,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP099.png,,,P,R,EA,Olga Tereshenko,,,FAB388,,,,,,,,,,,,,,,,,,,
 "SUP100, FAB389",SUP,Bask in Your Own Greatness,Blue,3,0,2,2,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.",Reviled Action - Attack,,,,,,C,S,,Olga Tereshenko,,,SUP100,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP100.png,,,P,R,EA,Olga Tereshenko,,,FAB389,,,,,,,,,,,,,,,,,,,
@@ -211,7 +215,7 @@ SUP106,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP106,https://storage.googleapis.com/c
 SUP107,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP107,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP107.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP108,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP108,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP108.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP109,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP109,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP110,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP110,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP110,SUP,Low Blow,Red,1,1,3,3,,,,"Reviled, Action, Attack",,,,,,,,"If you've been booed this turn, this gets +3{p}.",Reviled Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,SUP110,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP111,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP111,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP112,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP112,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP113,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP113,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -226,7 +230,11 @@ SUP116,SUP,Turn the Crowd Hateful,Blue,3,3,3,2,,,,"Reviled, Action, Attack",,The
 When this hits a Revered hero, **the crowd boos** you.",Reviled Action - Attack,,,,,,C,,,Arkoii,,,SUP116,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP116.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP117,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP117,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP117.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP118,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP118,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP118.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP119,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP119,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP119.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP119,SUP,Revolting Gesture,Red,1,1,,2,,,,"Reviled, Action",,Go again,,,,,,"Your next attack this turn gets +3{p}.
+
+Create a Might token.
+
+**Go again**",Reviled Action,,,,,,C,,,Muhammad Farji,,,SUP119,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP119.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP120,SUP,Villainous Pose,Red,1,2,,2,,,,"Reviled, Action",,"Go again, The Crowd Boos",,,,,,"Your next attack this turn gets +4{p}.
 
 **The crowd boos** you.
