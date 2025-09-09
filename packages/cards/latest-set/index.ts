@@ -4495,6 +4495,66 @@ Create a Might token.
   
   
   },{
+    artists: ["Vadim Kalabukh"],
+    cardIdentifier: "smashing-ground-blue",
+    classes: [Class.Brute],
+    defaultImage: "SUP132",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Smashing Ground",
+    printings: [{
+        artists: ["Vadim Kalabukh"],
+      
+      identifier: "SUP132",
+      image: "SUP132",
+      
+      
+      print: "SUP132",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP132"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP132",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `If this has 6 or more {p}, it gets "When this hits a hero, destroy a card in their arsenal."`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "song-of-sinew-yellow",
     classes: [Class.Brute],

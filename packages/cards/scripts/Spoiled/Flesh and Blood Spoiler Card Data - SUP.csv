@@ -263,7 +263,7 @@ SUP129,SUP,Challenge the Alpha,Yellow,2,3,6,3,,,,"Brute, Action, Attack",,,,,,,,
 When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you lose 2{h}.",Brute Action - Attack,,,,No,,S,,,Kelvin Jauwri,,,SUP129,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP130,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP130,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP130.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP131,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP131,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP131.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP132,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP132,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP132,SUP,Smashing Ground,Blue,3,3,5,3,,,,"Brute, Action, Attack",,,,,,,,"If this has 6 or more {p}, it gets ""When this hits a hero, destroy a card in their arsenal.""",Brute Action - Attack,,,,No,,S,,,Vadim Kalabukh,,,SUP132,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP132.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP133,SUP,Smash with Big Rock,Yellow,2,2,6,0,,,,"Brute, Action, Attack",,,,,,,,Cards defending this can't gain {d}.,Brute Action - Attack,,,,No,,S,,,Othon Nikolaidis,,,SUP133,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP133.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP134,SUP,Song of Sinew,Yellow,2,0,,2,,,,"Brute, Action",,Go again,,,,,,"Reveal the top 4 cards of your deck. Your next attack this turn gets +X{p}, where X is the number of cards with 6 or more {p} revealed this way. Put them back in any order.
 

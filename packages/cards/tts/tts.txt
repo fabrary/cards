@@ -6389,6 +6389,7 @@ OSCCardDB = {
   ["SUP127"] = { name = "Reckless Stampede (1)", text = "Whenever a card defends this, **clash** with the defending hero. The winner deals 1 damage to each other hero. Each hero may put their revealed card on the bottom of its owner's deck.", keywords = "Clash", types = "Action"},
   ["SUP128"] = { name = "Show of Strength (1)", text = "This gets -1{p} for each card with 6 or more {p} defending it.", keywords = "", types = "Action"},
   ["SUP129"] = { name = "Challenge the Alpha (2)", text = "When this attacks a Brute hero, this gets +2{p}.\n\nWhen this hits a Brute hero, they discard a card. If it has 6 or more {p}, you lose 2{h}.", keywords = "", types = "Action"},
+  ["SUP132"] = { name = "Smashing Ground (3)", text = "If this has 6 or more {p}, it gets \"When this hits a hero, destroy a card in their arsenal.\"", keywords = "", types = "Action"},
   ["SUP133"] = { name = "Smash with Big Rock (2)", text = "Cards defending this can't gain {d}.", keywords = "", types = "Action"},
   ["SUP134"] = { name = "Song of Sinew (2)", text = "Reveal the top 4 cards of your deck. Your next attack this turn gets +X{p}, where X is the number of cards with 6 or more {p} revealed this way. Put them back in any order.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["SUP139"] = { name = "Visit the Boneyard (3)", text = "Put a card with 6 or more {p} from your graveyard on top of your deck.\n\nCreate a Vigor token.", keywords = "", types = "Instant"},

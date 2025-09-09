@@ -330,6 +330,7 @@ const CARD_TO_LOG = "";
 const HERO_TO_LOG = "";
 
 const ALL_ARAKNIS = [Hero.Arakni, Hero.Crackni, Hero.Slippy];
+const ALL_KAYOS = [Hero.Kayo, Hero.RKO];
 const ALL_HEROES = Object.values(Hero);
 
 export const getLegalHeroes = (card: {
@@ -399,6 +400,7 @@ export const getLegalHeroes = (card: {
         card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
 
       const heroIsAnArakni = ALL_ARAKNIS.includes(hero);
+      const heroIsAKayo = ALL_KAYOS.includes(hero);
 
       const isHeroMetatypeSpecialization = card.metatypes?.some((metatype) =>
         ALL_HEROES.includes(metatype as unknown as Hero)
@@ -413,6 +415,11 @@ export const getLegalHeroes = (card: {
         );
         matchesHeroSpecialization = card.specializations?.some((hero) =>
           ALL_ARAKNIS.includes(hero)
+        );
+      }
+      if (heroIsAKayo) {
+        matchesHeroSpecialization = card.specializations?.some((hero) =>
+          ALL_KAYOS.includes(hero)
         );
       }
 
