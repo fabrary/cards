@@ -338,6 +338,192 @@
   
   
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "battered-beaten-and-broken-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP083",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Battered, Beaten, and Broken",
+    printings: [{
+        artists: ["Simon Dominic"],
+      
+      identifier: "SUP083",
+      image: "SUP083",
+      
+      
+      print: "SUP083",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP083"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP083",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, **intimidate** them.
+
+If you control 3 or more auras, this gets +3{p} and "When this hits a hero, destroy an intimidated card they own."`,
+    
+    
+    
+    
+    keywords: [Keyword.Intimidate],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "beat-the-same-drum-blue",
+    classes: [Class.Generic],
+    defaultImage: "SUP219",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Beat the Same Drum",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "SUP219",
+      image: "SUP219",
+      
+      
+      print: "SUP219",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP219"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP219",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you've controlled an Agility token this turn, create an Agility token, then repeat for Confidence, Might, Toughness, and Vigor.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Max Kostin"],
+    cardIdentifier: "big-bully-red",
+    classes: [Class.Brute],
+    defaultImage: "SUP067",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.RKO],
+    name: "Big Bully",
+    printings: [{
+        artists: ["Max Kostin"],
+      
+      identifier: "SUP067",
+      image: "SUP067",
+      
+      
+      print: "SUP067",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP067"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP067",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
+
+If you've been booed this turn, this card's base {p} is doubled.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdBoos],
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "blood-follows-blade-yellow",
     classes: [Class.Warrior],
@@ -457,6 +643,68 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Kelvin Jauwri"],
+    cardIdentifier: "challenge-the-alpha-yellow",
+    classes: [Class.Brute],
+    defaultImage: "SUP129",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Challenge the Alpha",
+    printings: [{
+        artists: ["Kelvin Jauwri"],
+      
+      identifier: "SUP129",
+      image: "SUP129",
+      
+      
+      print: "SUP129",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP129"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP129",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this attacks a Brute hero, this gets +2{p}.
+
+When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you lose 2{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -1192,7 +1440,8 @@ When this hits a Revered hero, destroy the top card of their deck.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Alexis Susani"],
     cardIdentifier: "fight-fair-red",
     classes: [Class.NotClassed],
@@ -1316,8 +1565,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["M Fakhrur Rozzi"],
     cardIdentifier: "gang-robbery-yellow",
     classes: [Class.NotClassed],
@@ -1429,6 +1677,80 @@ If you control 3 or more auras, this gets +3{p}.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Junaidi Lim"],
+    cardIdentifier: "gauntlets-of-tyrannical-rex",
+    classes: [Class.Brute],
+    defaultImage: "SUP125",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Taylor,Hero.Tuffnut],
+    name: "Gauntlets of Tyrannical Rex",
+    printings: [{
+        artists: ["Junaidi Lim"],
+      foiling: Foiling.C,
+      identifier: "SUP125",
+      image: "SUP125",
+      
+      
+      print: "SUP125-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Junaidi Lim"],
+      foiling: Foiling.R,
+      identifier: "SUP125",
+      image: "SUP125",
+      
+      
+      print: "SUP125-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["SUP125"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP125",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Brute Equipment - Arms",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Action** - {r}, {t}: Your next attack this turn gets +1{p}. Activate this only if there is a card with 6 or more {p} in your pitch zone. **Go again**
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Temper],
+    
+    
+    
+  
+    
+    
+    
+    
+    shorthands: ["Tap"],
     
     
     
@@ -2628,7 +2950,8 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Rio Sabda"],
     cardIdentifier: "light-up-the-leaves-red",
     classes: [Class.Wizard],
@@ -2754,8 +3077,7 @@ Whenever the crowd boos you, create a Might token.`,
     talents: [Talent.Reviled],
   
   young: true
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "lyath-goldmane-vile-savant",
     classes: [Class.Guardian],
@@ -3729,6 +4051,66 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
   
   },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "reckless-stampede-red",
+    classes: [Class.Brute],
+    defaultImage: "SUP127",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Brutus,Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Reckless Stampede",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "SUP127",
+      image: "SUP127",
+      
+      
+      print: "SUP127",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP127"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP127",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 0,
+    
+    functionalText: `Whenever a card defends this, **clash** with the defending hero. The winner deals 1 damage to each other hero. Each hero may put their revealed card on the bottom of its owner's deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Clash],
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "sadistic-scowl-red",
     classes: [Class.NotClassed],
@@ -3812,12 +4194,24 @@ Whenever the crowd cheers you, create a Confidence token.`,
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.C,
+      identifier: "SUP128",
+      image: "SUP128_V2",
+      
+      
+      print: "SUP128-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP128"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP128",
+    specialImage: "SUP128_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Brute Action - Attack",
@@ -4049,6 +4443,67 @@ When this hits a hero, create a Confidence and a Might token.`,
   
   
   },{
+    artists: ["Ausonia"],
+    cardIdentifier: "steal-victory-blue",
+    classes: [Class.Brute],
+    defaultImage: "SUP069",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.RKO],
+    name: "Steal Victory",
+    printings: [{
+        artists: ["Ausonia"],
+      
+      identifier: "SUP069",
+      image: "SUP069",
+      
+      
+      print: "SUP069",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP069"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP069",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Reviled Brute Block",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `When this defends, **steal** an aura token the attacking hero controls.`,
+    
+    
+    
+    
+    keywords: [Keyword.Steal],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  }];
+  const cards4: Card[] =  [{
     artists: ["Orson CaptainSass"],
     cardIdentifier: "take-the-bait-red",
     classes: [Class.Ranger],
@@ -4174,8 +4629,7 @@ Create a Bait token under an opponent's control.
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "thespian-charm-yellow",
     classes: [Class.Guardian],
