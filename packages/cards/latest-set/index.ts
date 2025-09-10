@@ -1443,6 +1443,67 @@ At the beginning of your end phase, destroy this.`,
   
   
   },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "escalate-violence-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP084",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath,Hero.RKO],
+    name: "Escalate Violence",
+    printings: [{
+        artists: ["Tanapon Wachirakul"],
+      
+      identifier: "SUP084",
+      image: "SUP084",
+      
+      
+      print: "SUP084",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP084"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP084",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Reviled Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks, if you control a Might token, create 3 more.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
+  
+  
+  }];
+  const cards2: Card[] =  [{
     artists: ["Andi Cahyo W"],
     cardIdentifier: "fight-dirty-red",
     classes: [Class.NotClassed],
@@ -1504,8 +1565,7 @@ When this hits a Revered hero, destroy the top card of their deck.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "fight-fair-red",
     classes: [Class.NotClassed],

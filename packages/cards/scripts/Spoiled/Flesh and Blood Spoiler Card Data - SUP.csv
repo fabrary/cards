@@ -169,7 +169,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
 SUP083,SUP,"Battered, Beaten, and Broken",Yellow,2,0,1,3,,,,"Reviled, Action, Attack",,Intimidate,,,,,,"When this attacks a hero, **intimidate** them.
 
 If you control 3 or more auras, this gets +3{p} and ""When this hits a hero, destroy an intimidated card they own.""",Reviled Action - Attack,,,,No,,S,,,Simon Dominic,,,SUP083,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP084,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP084,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP084,SUP,Escalate Violence,Blue,3,1,3,3,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, if you control a Might token, create 3 more.",Reviled Action - Attack,,,,No,,S,,,Tanapon Wachirakul,,,SUP084,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP085,SUP,Gang Robbery,Yellow,2,0,1,3,,,,"Reviled, Action, Attack",,Steal,,,,,,"When this attacks a hero, **steal** an aura token they control.
 
 If you control 3 or more auras, this gets +3{p}.",Reviled Action - Attack,,,,No,,S,,,M Fakhrur Rozzi,,,SUP085,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
