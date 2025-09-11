@@ -786,6 +786,133 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
   
   
   },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "battlefield-beacon-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "SUP266",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn],
+    name: "Battlefield Beacon",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "SUP266",
+      image: "SUP266",
+      isExpansionSlot: true,
+      
+      print: "SUP266",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP266"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP266",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Warrior Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, choose 1 for each card you've banished from your soul this combat chain. You may choose the same mode up to 3 times;
+- Create a Courage token.
+- Create a Toughness token.
+- Create a Vigor token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
+    artists: ["Joseph Qiu"],
+    cardIdentifier: "beat-of-the-ironsong-blue",
+    classes: [Class.Warrior],
+    defaultImage: "SUP251",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Kassai,Hero.Olympia],
+    name: "Beat of the Ironsong",
+    printings: [{
+        artists: ["Joseph Qiu"],
+      
+      identifier: "SUP251",
+      image: "SUP251",
+      isExpansionSlot: true,
+      
+      print: "SUP251",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP251"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP251",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Choose X+1, where X is the number of +1{p} counters on an attacking Dawnblade;
+- Target Dawnblade attack gets +1{p}.
+- Target Dawnblade attack gets **go again**.
+- Cards defending target Dawnblade attack can't gain {d}.
+- Damage target Dawnblade attack would deal can't be prevented.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "beat-the-same-drum-blue",
     classes: [Class.Generic],
@@ -1029,6 +1156,70 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "catch-of-the-day-blue",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "SUP268",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Marlynn],
+    name: "Catch of the Day",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "SUP268",
+      image: "SUP268",
+      isExpansionSlot: true,
+      
+      print: "SUP268",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP268"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP268",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Ranger Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next arrow attack this turn gets +2{p}.
+
+If a go fish effect would trigger this turn, instead it triggers twice.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -1844,7 +2035,8 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "dig-in-blue",
     classes: [Class.NotClassed],
@@ -1904,8 +2096,7 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     talents: [Talent.Revered],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "edge-of-their-seats-red",
     classes: [Class.Guardian],
@@ -3575,12 +3766,36 @@ If you've been cheered this turn, this gets **go again**.`,
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.C,
+      identifier: "SUP064",
+      image: "SUP064_V2",
+      
+      
+      print: "SUP064-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.C,
+      identifier: "SUP064",
+      image: "SUP064_V2_BACK",
+      
+      
+      print: "SUP064-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["SUP064"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP064",
+    specialImage: "SUP064_V2",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Reviled Brute Hero - Young",
@@ -3918,8 +4133,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "light-up-the-leaves-red",
     classes: [Class.Wizard],
@@ -3981,7 +4195,8 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Earth],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "low-blow-red",
     classes: [Class.NotClassed],
@@ -4061,12 +4276,36 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "SUP072",
+      image: "SUP072_V2",
+      
+      
+      print: "SUP072-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "SUP072",
+      image: "SUP072_V2_BACK",
+      
+      
+      print: "SUP072-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["SUP072"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP072",
+    specialImage: "SUP072_V2",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Reviled Guardian Hero - Young",
@@ -4203,6 +4442,68 @@ Whenever the crowd boos you, create a Might token.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "mage-hunter-arrow-red",
+    classes: [Class.Ranger],
+    defaultImage: "SUP257",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide],
+    name: "Mage Hunter Arrow",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "SUP257",
+      image: "SUP257",
+      isExpansionSlot: true,
+      
+      print: "SUP257",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP257"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP257",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ranger Action - Arrow Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Instant** - Destroy this: The next time you would be dealt arcane damage this turn, prevent 3 of that damage. Activate this only while this is face-up in your arsenal.
+
+When this hits a Runeblade or Wizard hero, you may destroy an aura they control.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -4993,6 +5294,68 @@ When this attacks or defends, it gets +1{p} +1{d} for each different name among 
   
   
   },{
+    artists: ["Firaz M. Rasyid"],
+    cardIdentifier: "painful-passage-red",
+    classes: [Class.Runeblade],
+    defaultImage: "SUP269",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Vynnset],
+    name: "Painful Passage",
+    printings: [{
+        artists: ["Firaz M. Rasyid"],
+      
+      identifier: "SUP269",
+      image: "SUP269",
+      isExpansionSlot: true,
+      
+      print: "SUP269",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP269"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP269",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may banish an attack action card from your hand. If you do, it gets +3{p} or **go again** until end of turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Livia Prima"],
     cardIdentifier: "pleiades",
     classes: [Class.Guardian],
@@ -5012,12 +5375,36 @@ When this attacks or defends, it gets +1{p} +1{d} for each different name among 
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Livia Prima"],
+      foiling: Foiling.C,
+      identifier: "SUP010",
+      image: "SUP010_V2",
+      
+      
+      print: "SUP010-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Livia Prima"],
+      foiling: Foiling.C,
+      identifier: "SUP010",
+      image: "SUP010_V2_BACK",
+      
+      
+      print: "SUP010-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Rare],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Basic,
     setIdentifiers: ["APS002","SUP010"],
     sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
-    specialImage: "SUP010",
+    specialImage: "SUP010_V2",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Revered Guardian Hero - Young",
@@ -5138,6 +5525,186 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "punch-above-your-weight-red",
+    classes: [Class.Generic],
+    defaultImage: "SUP224",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Punch Above Your Weight",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "SUP224",
+      image: "SUP224",
+      
+      
+      print: "SUP224",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["FAB374","SUP224"],
+    sets: [Release.Promos,Release.SuperSlam],
+    specialImage: "SUP224",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may pay {r}{r}{r}. If you do, this gets +5{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "punch-above-your-weight-yellow",
+    classes: [Class.Generic],
+    defaultImage: "SUP225",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Punch Above Your Weight",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "SUP225",
+      image: "SUP225",
+      
+      
+      print: "SUP225",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP225"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP225",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may pay {r}{r}{r}. If you do, this gets +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "punch-above-your-weight-blue",
+    classes: [Class.Generic],
+    defaultImage: "SUP226",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Punch Above Your Weight",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "SUP226",
+      image: "SUP226",
+      
+      
+      print: "SUP226",
+      rarity: Rarity.Rare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SUP226"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP226",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may pay {r}{r}{r}. If you do, this gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -5776,7 +6343,8 @@ When this hits a hero, create a Confidence and a Might token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Ausonia"],
     cardIdentifier: "steal-victory-blue",
     classes: [Class.Brute],
@@ -5902,8 +6470,7 @@ Create a Bait token under an opponent's control.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Esty Swandana"],
     cardIdentifier: "tempest-palm-gustwave-yellow",
     classes: [Class.Ninja],
@@ -6416,12 +6983,36 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.C,
+      identifier: "SUP002",
+      image: "SUP002_V2",
+      
+      
+      print: "SUP002-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.C,
+      identifier: "SUP002",
+      image: "SUP002_V2_BACK",
+      
+      
+      print: "SUP002-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["SUP002"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP002",
+    specialImage: "SUP002_V2",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Revered Brute Hero - Young",

@@ -1256,6 +1256,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/battlefield-beacon-yellow</loc>
+    <lastmod>2025-09-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/battlefield-blitz-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -1358,6 +1363,11 @@
   <url>
     <loc>https://fabrary.net/cards/beast-within-yellow</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/beat-of-the-ironsong-blue</loc>
+    <lastmod>2025-09-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -2938,6 +2948,11 @@
   <url>
     <loc>https://fabrary.net/cards/cast-bones-red</loc>
     <lastmod>2024-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/catch-of-the-day-blue</loc>
+    <lastmod>2025-09-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10296,6 +10311,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/mage-hunter-arrow-red</loc>
+    <lastmod>2025-09-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/mage-master-boots</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -11696,6 +11716,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/painful-passage-red</loc>
+    <lastmod>2025-09-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/palantir-aeronought-red</loc>
     <lastmod>2025-04-11</lastmod>
     <priority>0.5</priority>
@@ -12798,6 +12823,21 @@
   <url>
     <loc>https://fabrary.net/cards/pummel-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/punch-above-your-weight-red</loc>
+    <lastmod>2025-09-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/punch-above-your-weight-yellow</loc>
+    <lastmod>2025-09-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/punch-above-your-weight-blue</loc>
+    <lastmod>2025-09-11</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
