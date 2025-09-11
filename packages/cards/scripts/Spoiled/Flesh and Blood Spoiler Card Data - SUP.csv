@@ -26,7 +26,9 @@ SUP010,SUP,Pleiades,,,,,,20,4,,"Revered, Guardian, Hero, Young",,,Instant,,,,The
 
 Whenever the crowd cheers you, create a Confidence token.",Revered Guardian Hero - Young,,,No,,No,B,S,,Livia Prima,,,SUP010,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP011,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP011,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP012,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP012,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP012,SUP,Cries of Encore,Red,1,3,7,3,,,,"Revered, Guardian, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks a hero, if you have less {h} than them, **the crowd cheers** you.
+
+If you've been cheered this turn, this gets ""When this hits a hero, you may plan an aura of suspense from your graveyard this turn.""",Revered Guardian Action - Attack,,,,No,,M,,,Sebastian Giacobino,,,SUP012,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SUP013, LGS423, FAB371","SUP, LGS, FAB",Thespian Charm,Yellow,2,0,,,,,,"Revered, Guardian, Instant",,The Crowd Cheers,,,,,,"Choose any number;
 - Destroy a Might or Vigor token.
 - **The crowd cheers** you.
@@ -34,7 +36,9 @@ SUP012,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP012,https://storage.googleapis.com/c
 SUP014,SUP,Up on a Pedestal,Blue,3,0,,2,,,,"Revered, Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
 
 When this enters or leaves the arena, you may put a Revered or Guardian attack action card from your graveyard on top of your deck.",Revered Guardian Instant - Aura,,,,No,,S,,,Ina Wong,,,SUP014,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP015,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP015,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP015,SUP,Turning Point,Blue,3,,,2,,,,"Revered, Guardian, Block",,The Crowd Cheers,,,,,,"When this defends, if you have less {h} than the attacking hero, **the crowd cheers** you.
+
+While this is defending, if you've been cheered this turn, it gets +3{d}.",Revered Guardian Block,,,,No,,S,,,FeiKang,,,SUP015,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP016,SUP,Uplifting Performance,Blue,3,3,5,3,,,,"Revered, Guardian, Action, Attack",,,,,,,,"If you control a Confidence or Toughness token, this gets +1{p}.
 
 When this hits a hero, create a Confidence and a Toughness token.",Revered Guardian Action - Attack,,,,No,,R,,,Marco Wulfr,,,SUP016,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -44,12 +48,12 @@ SUP019,SUP,Crowd Goes Wild,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,The
 SUP020,SUP,No Hero Stands Alone,Yellow,2,3,6,0,,,,"Revered, Action, Attack",,"Ambush, Clash",,,,,,"While this is in any zone, if you've controlled a Toughness token this turn, this gets +3{d} and **ambush**.
 
 When this defends, **clash** with the attacking hero. The winner may choose an attacking or defending card to get -3{p} -3{d} this chain link.",Revered Action - Attack,,,,No,,M,,,Kevin Sidharta,,,SUP020,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP021,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP021,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP021,SUP,A Good Clean Fight,Red,1,7,3,3,,,,"Revered, Action, Attack",,,,,,,,"If this is attacking a hero, non-equipment cards they own lose and can't gain abilities.",Revered Action - Attack,,,,No,,S,,,Tomasz Jedruszek,,,SUP021,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP022,SUP,Escalate Order,Red,1,6,2,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks, if you control a Toughness token, create 3 more.",Revered Action - Attack,,,,No,,S,,,Sariya Asavametha,,,SUP022,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP023,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP023,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP024,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP024,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP025,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP025,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP026,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP026,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP026.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP025,SUP,Renounce Violence,Blue,3,0,,,,,,"Revered, Instant",,,,,,,,Destroy up to 3 Might tokens. Create a Toughness token for each token destroyed this way.,Revered Instant,,,,No,,S,,,Florian Herold,,,SUP025,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP026,SUP,Never Give Up,Yellow,2,,,3,,,,"Revered, Block",,,,,,,,"**Instant** - {r}{r}, put this on the bottom of your deck: Target defending action card gets +3{d} this chain link. Activate this only while it's in your graveyard, you have less {h} than each hero, and you've been cheered this turn.",Revered Block,,,,No,,S,,,Federico Musetti,,,SUP026,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP026.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP027,SUP,Comeback Kid,Red,1,3,7,3,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,The Crowd Cheers,"When this attacks a hero, if you have less {h} than them, **the crowd cheers* you.
 
 If you've been cheered this turn, this gets +1{p}.",Revered Action - Attack,,,,No,,R,S,,Samuel Perin,,,SUP027,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP027.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -202,7 +206,7 @@ SUP097,SUP,Concealed Object,Blue,3,0,,,,,,"Reviled, Instant, Item",,The Crowd Bo
 
 **Instant** - {t}: Target attack gets +1{p}.
 
-At the beginning of your end phase, destroy this.",Reviled Instant - Item,,,,No,,R,,,,,,SUP097,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+At the beginning of your end phase, destroy this.",Reviled Instant - Item,,,,No,,R,,,Reza Aswadananta,,,SUP097,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "SUP098, FAB387",SUP,Bask in Your Own Greatness,Red,1,0,4,2,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.",Reviled Action - Attack,,,,,,C,S,,Olga Tereshenko,,,SUP098,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP098.png,,,P,R,EA,Olga Tereshenko,,,FAB387,,,,,,,,,,,,,,,,,,,
 "SUP099, FAB388",SUP,Bask in Your Own Greatness,Yellow,2,0,3,2,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.",Reviled Action - Attack,,,,,,C,S,,Olga Tereshenko,,,SUP099,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP099.png,,,P,R,EA,Olga Tereshenko,,,FAB388,,,,,,,,,,,,,,,,,,,
 "SUP100, FAB389",SUP,Bask in Your Own Greatness,Blue,3,0,2,2,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks, you may pay up to {r}{r}{r}. Create that many Might tokens.",Reviled Action - Attack,,,,,,C,S,,Olga Tereshenko,,,SUP100,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP100.png,,,P,R,EA,Olga Tereshenko,,,FAB389,,,,,,,,,,,,,,,,,,,
@@ -303,17 +307,27 @@ SUP164,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP164,https://storage.googleapis.com/c
 SUP165,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP165,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP166,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP166,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP166.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP167,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP167,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP167.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP168,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP168,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP168.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP168,SUP,Ironfist Revelation,,,,,2,,,,"Guardian, Equipment, Arms",,Temper,,,,,,"When this defends, you may turn a face-down card with crush in your arsenal face-up. If you do, put a +1{p} counter on it.
+
+**Temper**",Guardian Equipment - Arms,,,,No,,L,R,,Athiwut B.,,,SUP168,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP168.png,,,L,C,,Athiwut B.,,,SUP168,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP168.png,,,,,,,,,,,,,,,,,,
 SUP169,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP169,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP169.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP170,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP170,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP170,SUP,No Tall Tales,Yellow,2,0,3,3,,,,"Guardian, Action, Attack",,Tower,,,,,,"If this has {p} greater than its base, it gets +1{p}.
+
+**Tower** - If this has 13 or more {p}, it gets ""When this hits a hero, cards they own lose and can't get go again during their next action phase.""",Guardian Action - Attack,,,,No,,M,,,Carlos Cruchaga,,,SUP170,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP171,SUP,In the Palm of Your Hand,Red,1,2,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
 
 When this enters or leaves the arena, draw a card.",Guardian Instant - Aura,,,,No,,M,S,,Narendra B Adi,,,SUP171,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP171.png,,,M,R,,Narendra B Adi,,,SUP171,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP171.png,,,,,,,,,,,,,,,,,,
-SUP172,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP172,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP172,SUP,Cut a Long Story Short,Yellow,2,0,3,3,,,,"Guardian, Action, Attack",,Tower,,,,,,"If this has {p} greater than its base, it gets +1{p}.
+
+**Tower** - If this has 13 or more {p}, it gets ""When this hits a hero, they discard their hand.""",Guardian Action - Attack,,,,No,,S,,,Marco González,,,SUP172,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP173,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP173,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP173.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP174,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP174,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP174.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP175,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP175,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP175.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP176,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP176,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP175,SUP,Hungry for More,Red,1,1,,2,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, gain 3{h}.",Guardian Instant - Aura,,,,No,,S,,,Carlos Cruchaga,,,SUP175,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP175.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP176,SUP,Turn Heads,Blue,3,3,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, {t} target Brute hero. They don't {u} during their next end phase.",Guardian Instant - Aura,,,,No,,S,,,Asur Misoa,,,SUP176,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP177,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP177,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP177.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP178,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP178,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP179,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP179,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -332,18 +346,36 @@ SUP191,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP191,https://storage.googleapis.com/c
 SUP192,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP192,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP193,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP193,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP194,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP194,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP195,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP195,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP195.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP196,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP196,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP196.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP197,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP197,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP197.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP195,SUP,Act of Glory,Red,1,4,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +6{p}.",Guardian Instant - Aura,,,,,,C,,,Olga Tereshenko,,,SUP195,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP195.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP196,SUP,Act of Glory,Yellow,2,4,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +5{p}.",Guardian Instant - Aura,,,,,,C,,,Olga Tereshenko,,,SUP196,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP196.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP197,SUP,Act of Glory,Blue,3,4,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +4{p}.",Guardian Instant - Aura,,,,,,C,,,Olga Tereshenko,,,SUP197,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP197.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP198,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP198,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP198.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP199,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP199,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP199.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP200,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP200,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP200.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP201,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP201,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP201.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP202,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP202,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP202.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP203,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP203,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP204,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP204,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP204.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP205,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP205,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP205.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP206,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP206,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP201,SUP,Edge of Their Seats,Red,1,3,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +5{p}.",Guardian Instant - Aura,,,,,,C,,,Marco Wulfr,,,SUP201,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP201.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP202,SUP,Edge of Their Seats,Yellow,2,3,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +4{p}.",Guardian Instant - Aura,,,,,,C,,,Marco Wulfr,,,SUP202,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP202.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP203,SUP,Edge of Their Seats,Blue,3,3,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +3{p}.",Guardian Instant - Aura,,,,,,C,,,Marco Wulfr,,,SUP203,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP203.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP204,SUP,Tension in the Air,Red,1,2,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +4{p}.",Guardian Instant - Aura,,,,,,C,,,Kimberly Pantoni,,,SUP204,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP204.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP205,SUP,Tension in the Air,Yellow,2,2,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +3{p}.",Guardian Instant - Aura,,,,,,C,,,Kimberly Pantoni,,,SUP205,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP205.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP206,SUP,Tension in the Air,Blue,3,2,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+When this leaves the arena, your next attack this turn gets +2{p}.",Guardian Instant - Aura,,,,,,C,,,Kimberly Pantoni,,,SUP206,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP207,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP207,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP207.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP208,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP208,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP208.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP209,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP209,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP209.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,

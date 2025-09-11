@@ -22,6 +22,252 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] =  [{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "a-good-clean-fight-red",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP021",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "A Good Clean Fight",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SUP021",
+      image: "SUP021",
+      
+      
+      print: "SUP021",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP021"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP021",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Action - Attack",
+
+    
+    
+    cost: 7,
+    defense: 3,
+    
+    functionalText: `If this is attacking a hero, non-equipment cards they own lose and can't gain abilities.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "act-of-glory-red",
+    classes: [Class.Guardian],
+    defaultImage: "SUP195",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Act of Glory",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "SUP195",
+      image: "SUP195",
+      
+      
+      print: "SUP195",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP195"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP195",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 4,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +6{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "act-of-glory-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "SUP196",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Act of Glory",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "SUP196",
+      image: "SUP196",
+      
+      
+      print: "SUP196",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP196"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP196",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 4,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +5{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "act-of-glory-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP197",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Act of Glory",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "SUP197",
+      image: "SUP197",
+      
+      
+      print: "SUP197",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP197"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP197",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 4,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +4{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "backspin-thrust-red",
     classes: [Class.Mechanologist],
@@ -1019,7 +1265,7 @@ If you've been cheered this turn, this gets +1{p}.`,
   
   
   },{
-    artists: [],
+    artists: ["Reza Aswadananta"],
     cardIdentifier: "concealed-object-blue",
     classes: [Class.NotClassed],
     defaultImage: "SUP097",
@@ -1027,7 +1273,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     legalHeroes: [Hero.Lyath,Hero.RKO],
     name: "Concealed Object",
     printings: [{
-        artists: [],
+        artists: ["Reza Aswadananta"],
       
       identifier: "SUP097",
       image: "SUP097",
@@ -1080,6 +1326,68 @@ At the beginning of your end phase, destroy this.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "cries-of-encore-red",
+    classes: [Class.Guardian],
+    defaultImage: "SUP012",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades],
+    name: "Cries of Encore",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "SUP012",
+      image: "SUP012",
+      
+      
+      print: "SUP012",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP012"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP012",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Revered Guardian Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, if you have less {h} than them, **the crowd cheers** you.
+
+If you've been cheered this turn, this gets "When this hits a hero, you may plan an aura of suspense from your graveyard this turn."`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
   
   
   },{
@@ -1140,6 +1448,68 @@ At the beginning of your end phase, destroy this.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "cut-a-long-story-short-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "SUP172",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Cut a Long Story Short",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "SUP172",
+      image: "SUP172",
+      
+      
+      print: "SUP172",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP172"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP172",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If this has {p} greater than its base, it gets +1{p}.
+
+**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, they discard their hand."`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -1383,6 +1753,193 @@ At the beginning of your end phase, destroy this.`,
   
   
   },{
+    artists: ["Marco Wulfr"],
+    cardIdentifier: "edge-of-their-seats-red",
+    classes: [Class.Guardian],
+    defaultImage: "SUP201",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Edge of Their Seats",
+    printings: [{
+        artists: ["Marco Wulfr"],
+      
+      identifier: "SUP201",
+      image: "SUP201",
+      
+      
+      print: "SUP201",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP201"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP201",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +5{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  }];
+  const cards2: Card[] =  [{
+    artists: ["Marco Wulfr"],
+    cardIdentifier: "edge-of-their-seats-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "SUP202",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Edge of Their Seats",
+    printings: [{
+        artists: ["Marco Wulfr"],
+      
+      identifier: "SUP202",
+      image: "SUP202",
+      
+      
+      print: "SUP202",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP202"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP202",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +4{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco Wulfr"],
+    cardIdentifier: "edge-of-their-seats-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP203",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Edge of Their Seats",
+    printings: [{
+        artists: ["Marco Wulfr"],
+      
+      identifier: "SUP203",
+      image: "SUP203",
+      
+      
+      print: "SUP203",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP203"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP203",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "escalate-order-red",
     classes: [Class.NotClassed],
@@ -1502,8 +2059,7 @@ At the beginning of your end phase, destroy this.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Andi Cahyo W"],
     cardIdentifier: "fight-dirty-red",
     classes: [Class.NotClassed],
@@ -2514,6 +3070,68 @@ This counts as a Gold.
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "hungry-for-more-red",
+    classes: [Class.Guardian],
+    defaultImage: "SUP175",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Hungry for More",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP175",
+      image: "SUP175",
+      
+      
+      print: "SUP175",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP175"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP175",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, gain 3{h}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "hunter-or-hunted-blue",
     classes: [Class.Assassin],
@@ -2636,6 +3254,80 @@ When this enters or leaves the arena, draw a card.`,
   
     
     pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "ironfist-revelation",
+    classes: [Class.Guardian],
+    defaultImage: "SUP168",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Ironfist Revelation",
+    printings: [{
+        artists: ["Athiwut B."],
+      foiling: Foiling.R,
+      identifier: "SUP168",
+      image: "SUP168",
+      
+      
+      print: "SUP168-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Athiwut B."],
+      foiling: Foiling.C,
+      identifier: "SUP168",
+      image: "SUP168",
+      
+      
+      print: "SUP168-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["SUP168"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP168",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Guardian Equipment - Arms",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, you may turn a face-down card with crush in your arsenal face-up. If you do, put a +1{p} counter on it.
+
+**Temper**`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+  
+    
+    
     
     
     
@@ -3011,7 +3703,8 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "liars-charm-yellow",
     classes: [Class.Guardian],
@@ -3136,8 +3829,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Earth],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "low-blow-red",
     classes: [Class.NotClassed],
@@ -3548,6 +4240,66 @@ If you've been booed this turn, this gets +2{p}.`,
   
   
   },{
+    artists: ["Federico Musetti"],
+    cardIdentifier: "never-give-up-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP026",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Never Give Up",
+    printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "SUP026",
+      image: "SUP026",
+      
+      
+      print: "SUP026",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP026"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP026",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Revered Block",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `**Instant** - {r}{r}, put this on the bottom of your deck: Target defending action card gets +3{d} this chain link. Activate this only while it's in your graveyard, you have less {h} than each hero, and you've been cheered this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "no-hero-stands-alone-yellow",
     classes: [Class.NotClassed],
@@ -3607,6 +4359,68 @@ When this defends, **clash** with the attacking hero. The winner may choose an a
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "no-tall-tales-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "SUP170",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "No Tall Tales",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SUP170",
+      image: "SUP170",
+      
+      
+      print: "SUP170",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP170"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP170",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If this has {p} greater than its base, it gets +1{p}.
+
+**Tower** - If this has 13 or more {p}, it gets "When this hits a hero, cards they own lose and can't get go again during their next action phase."`,
+    
+    
+    
+    
+    keywords: [Keyword.Tower],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -4295,6 +5109,66 @@ Whenever the crowd cheers you, create a Confidence token.`,
   
   
   },{
+    artists: ["Florian Herold"],
+    cardIdentifier: "renounce-violence-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP025",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
+    name: "Renounce Violence",
+    printings: [{
+        artists: ["Florian Herold"],
+      
+      identifier: "SUP025",
+      image: "SUP025",
+      
+      
+      print: "SUP025",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP025"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP025",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Revered Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Destroy up to 3 Might tokens. Create a Toughness token for each token destroyed this way.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
     artists: ["Muhammad Farji"],
     cardIdentifier: "revolting-gesture-red",
     classes: [Class.NotClassed],
@@ -4878,6 +5752,192 @@ Create a Bait token under an opponent's control.
   
   
   },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "tension-in-the-air-red",
+    classes: [Class.Guardian],
+    defaultImage: "SUP204",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Tension in the Air",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "SUP204",
+      image: "SUP204",
+      
+      
+      print: "SUP204",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP204"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP204",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +4{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "tension-in-the-air-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "SUP205",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Tension in the Air",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "SUP205",
+      image: "SUP205",
+      
+      
+      print: "SUP205",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP205"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP205",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +3{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kimberly Pantoni"],
+    cardIdentifier: "tension-in-the-air-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP206",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Tension in the Air",
+    printings: [{
+        artists: ["Kimberly Pantoni"],
+      
+      identifier: "SUP206",
+      image: "SUP206",
+      
+      
+      print: "SUP206",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP206"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP206",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, your next attack this turn gets +2{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "the-old-switcheroo-blue",
     classes: [Class.NotClassed],
@@ -5271,6 +6331,68 @@ Whenever the crowd cheers you, create a Toughness token.`,
   
   
   },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "turn-heads-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP176",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Turn Heads",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "SUP176",
+      image: "SUP176",
+      
+      
+      print: "SUP176",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP176"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP176",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+When this leaves the arena, {t} target Brute hero. They don't {u} during their next end phase.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: ["Tap","Untap"],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Andrew Chou"],
     cardIdentifier: "turn-the-crowd-grateful-red",
     classes: [Class.NotClassed],
@@ -5640,6 +6762,68 @@ When this hits a Revered hero, **the crowd boos** you.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["FeiKang"],
+    cardIdentifier: "turning-point-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP015",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Draft,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades],
+    name: "Turning Point",
+    printings: [{
+        artists: ["FeiKang"],
+      
+      identifier: "SUP015",
+      image: "SUP015",
+      
+      
+      print: "SUP015",
+      rarity: Rarity.SuperRare,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.SuperRare],
+    rarity: Rarity.SuperRare,
+    setIdentifiers: ["SUP015"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP015",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Revered Guardian Block",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, if you have less {h} than the attacking hero, **the crowd cheers** you.
+
+While this is defending, if you've been cheered this turn, it gets +3{d}.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdCheers],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
   
   
   },{

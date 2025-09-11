@@ -211,6 +211,7 @@ export const fabDictionary = [
   "icevein",
   "ikaru",
   "inklined",
+  "ironfist",
   "ironhide",
   "ironrot",
   "ironsong",
