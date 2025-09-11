@@ -268,6 +268,146 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "adaptive-alpha-mold",
+    classes: [Class.Mechanologist],
+    defaultImage: "SUP253",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Taylor,Hero.Teklovossen],
+    name: "Adaptive Alpha Mold",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SUP253",
+      image: "SUP253",
+      isExpansionSlot: true,
+      
+      print: "SUP253",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP253"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP253",
+    subtypes: [Subtype.Base],
+    types: [Type.Equipment],
+    typeText: "Mechanologist Equipment - Base",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Modular**
+
+**Action** - 0: Equip this to another equipment zone.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.Modular],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["MJ Fetesio"],
+    cardIdentifier: "angelic-attendant-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "SUP265",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Prism],
+    name: "Angelic Attendant",
+    printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "SUP265",
+      image: "SUP265",
+      isExpansionSlot: true,
+      
+      print: "SUP265",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.C,
+      identifier: "SUP265",
+      image: "SUP265_V2",
+      isExpansionSlot: true,
+      
+      print: "SUP265-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP265"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP265_V2",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Illusionist Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Awaken** target figment you control.
+
+Put this into your soul.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Awaken,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "backspin-thrust-red",
     classes: [Class.Mechanologist],
@@ -1348,12 +1488,24 @@ At the beginning of your end phase, destroy this.`,
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.C,
+      identifier: "SUP012",
+      image: "SUP012_V2",
+      
+      
+      print: "SUP012-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP012"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP012",
+    specialImage: "SUP012_V2",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Revered Guardian Action - Attack",
@@ -1752,7 +1904,8 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+  const cards2: Card[] =  [{
     artists: ["Marco Wulfr"],
     cardIdentifier: "edge-of-their-seats-red",
     classes: [Class.Guardian],
@@ -1814,8 +1967,7 @@ When this leaves the arena, your next attack this turn gets +5{p}.`,
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "edge-of-their-seats-yellow",
     classes: [Class.Guardian],
@@ -3703,8 +3855,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "liars-charm-yellow",
     classes: [Class.Guardian],
@@ -3767,7 +3918,8 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Rio Sabda"],
     cardIdentifier: "light-up-the-leaves-red",
     classes: [Class.Wizard],
@@ -5624,8 +5776,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "steal-victory-blue",
     classes: [Class.Brute],
@@ -5748,6 +5899,69 @@ Create a Bait token under an opponent's control.
     
     
     specializations: [Hero.Riptide],
+    
+  
+  
+  }];
+  const cards4: Card[] =  [{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "tempest-palm-gustwave-yellow",
+    classes: [Class.Ninja],
+    defaultImage: "SUP246",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Tempest Palm Gustwave",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "SUP246",
+      image: "SUP246",
+      isExpansionSlot: true,
+      
+      print: "SUP246",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP246"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP246",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Combo** - If Surging Strike was the last attack this combat chain, this gets +2{p}.
+
+If this is played at chain link 3 or higher, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Combo,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   
   
@@ -6884,6 +7098,186 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Marcellino Tan"],
+    cardIdentifier: "unexpected-backhand-red",
+    classes: [Class.Brute],
+    defaultImage: "SUP161",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Unexpected Backhand",
+    printings: [{
+        artists: ["Marcellino Tan"],
+      
+      identifier: "SUP161",
+      image: "SUP161",
+      
+      
+      print: "SUP161",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP161"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP161",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When you win a clash revealing this, deal 1 damage to the other hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marcellino Tan"],
+    cardIdentifier: "unexpected-backhand-yellow",
+    classes: [Class.Brute],
+    defaultImage: "SUP162",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Unexpected Backhand",
+    printings: [{
+        artists: ["Marcellino Tan"],
+      
+      identifier: "SUP162",
+      image: "SUP162",
+      
+      
+      print: "SUP162",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP162"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP162",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When you win a clash revealing this, deal 1 damage to the other hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marcellino Tan"],
+    cardIdentifier: "unexpected-backhand-blue",
+    classes: [Class.Brute],
+    defaultImage: "SUP163",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Unexpected Backhand",
+    printings: [{
+        artists: ["Marcellino Tan"],
+      
+      identifier: "SUP163",
+      image: "SUP163",
+      
+      
+      print: "SUP163",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["SUP163"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP163",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When you win a clash revealing this, deal 1 damage to the other hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{

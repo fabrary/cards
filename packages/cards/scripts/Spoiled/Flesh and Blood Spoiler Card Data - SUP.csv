@@ -26,9 +26,9 @@ SUP010,SUP,Pleiades,,,,,,20,4,,"Revered, Guardian, Hero, Young",,,Instant,,,,The
 
 Whenever the crowd cheers you, create a Confidence token.",Revered Guardian Hero - Young,,,No,,No,B,S,,Livia Prima,,,SUP010,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP011,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP011,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP012,SUP,Cries of Encore,Red,1,3,7,3,,,,"Revered, Guardian, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks a hero, if you have less {h} than them, **the crowd cheers** you.
+SUP012,SUP,Cries of Encore,Red,1,3,7,3,,,,"Revered, Guardian, Action, Attack",,The Crowd Cheers,,,,,The Crowd Cheers,"When this attacks a hero, if you have less {h} than them, **the crowd cheers** you.
 
-If you've been cheered this turn, this gets ""When this hits a hero, you may plan an aura of suspense from your graveyard this turn.""",Revered Guardian Action - Attack,,,,No,,M,,,Sebastian Giacobino,,,SUP012,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+If you've been cheered this turn, this gets ""When this hits a hero, you may plan an aura of suspense from your graveyard this turn.""",Revered Guardian Action - Attack,,,,No,,M,,,Sebastian Giacobino,,,SUP012,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP012.png,,,M,C,EA,Sebastian Giacobino,,,SUP012,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP012_V2.png,,,,,,,,,,,,,,,,,,
 "SUP013, LGS423, FAB371","SUP, LGS, FAB",Thespian Charm,Yellow,2,0,,,,,,"Revered, Guardian, Instant",,The Crowd Cheers,,,,,,"Choose any number;
 - Destroy a Might or Vigor token.
 - **The crowd cheers** you.
@@ -300,9 +300,9 @@ SUP157,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP157,https://storage.googleapis.com/c
 SUP158,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP158,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP158.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP159,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP159,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP159.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP160,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP160,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP160.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP161,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP161,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP161.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP162,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP162,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP162.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP163,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP163,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP163.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP161,SUP,Unexpected Backhand,Red,1,3,7,3,,,,"Brute, Action, Attack",,,,,,,,"When you win a clash revealing this, deal 1 damage to the other hero.",Brute Action - Attack,,,,,,C,,,Marcellino Tan,,,SUP161,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP161.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP162,SUP,Unexpected Backhand,Yellow,2,3,6,3,,,,"Brute, Action, Attack",,,,,,,,"When you win a clash revealing this, deal 1 damage to the other hero.",Brute Action - Attack,,,,,,C,,,Marcellino Tan,,,SUP162,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP162.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP163,SUP,Unexpected Backhand,Blue,3,3,5,3,,,,"Brute, Action, Attack",,,,,,,,"When you win a clash revealing this, deal 1 damage to the other hero.",Brute Action - Attack,,,,,,C,,,Marcellino Tan,,,SUP163,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP163.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP164,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP164,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP165,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP165,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP166,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP166,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP166.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -423,7 +423,9 @@ SUP244,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP244,https://storage.googleapis.co
 SUP245,SUP,Hunter or Hunted?,Blue,3,3,,4,,,,"Assassin, Defense Reaction",,Contract,,,,,,"When this defends, name a card. The attacking hero reveals the top card of their deck. If it's the named card, banish it, search their hand, deck, and arsenal for up to 3 cards with that name and banish them, then they shuffle.
 
 **Contract** - While this is defending, you are contracted to banish opponents' cards with the chosen name. Whenever you complete this contract, create a Silver token.",Assassin Defense Reaction,,,,No,,M,,,Ausonia,Yes,,SUP245,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP245.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP246,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP246,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP246,SUP,Tempest Palm Gustwave,Yellow,2,0,3,3,,,,"Ninja, Action, Attack",,"Combo, Go again",,,,,,"**Combo** - If Surging Strike was the last attack this combat chain, this gets +2{p}.
+
+If this is played at chain link 3 or higher, this gets **go again**.",Ninja Action - Attack,,,,No,,M,,,Esty Swandana,Yes,,SUP246,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP246.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP247,SUP,Golden Galea,,,,,2,,,,"Warrior, Equipment, Head",,"Legendary, Olympia Specialization, Temper",,,,,,"**Legendary Olympia Specialization**
 
 This counts as a Gold.
@@ -448,7 +450,11 @@ SUP251,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP251,https://storage.googleapis.co
 SUP252,SUP,Blood Follows Blade,Yellow,2,0,,3,,,,"Warrior, Attack Reaction",,Kassai Specialization,,,Go again,,,"**Kassai Specialization**
 
 Target sword attack gets **go again** and ""When this hits, create a Cintari Sellsword token.""",Warrior Attack Reaction,,,,No,,M,,,Rio Sabda,Yes,,SUP252,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP253,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP253,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP253,SUP,Adaptive Alpha Mold,,,,,1,,,,"Mechanologist, Equipment, Base",,"Modular, Battleworn",,,,,,"**Modular**
+
+**Action** - 0: Equip this to another equipment zone.
+
+**Battleworn**",Mechanologist Equipment - Base,,,,No,,M,,,Mariusz Gandzel,Yes,,SUP253,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP254,SUP,Backspin Thrust,Red,1,0,4,3,,,,"Mechanologist, Action, Attack",,,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {u} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,No,,M,,,Narendra B Adi,Yes,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254.png,,,M,C,EA,Narendra B Adi,Yes,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254_V2.png,,,,,,,,,,,,,,,,,,
 SUP255,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP255,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP256,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP256,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -472,7 +478,11 @@ SUP263,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP263,https://storage.googleapis.co
 SUP264,SUP,Light Up the Leaves,Red,1,3,,3,,,6,"Earth, Wizard, Action",,,Instant,,,,,"Deal 6 arcane damage to any target.
 
 **Instant** - Discard this and an Earth card: Prevent the next 6 arcane damage target source would deal this turn.",Earth Wizard Action,,,,No,,M,,,Rio Sabda,Yes,,SUP264,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP264.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP265,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP265,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP265.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP265,SUP,Angelic Attendant,Yellow,2,0,,3,,,,"Light, Illusionist, Action",,"Awaken, Go again",,,,,,"**Awaken** target figment you control.
+
+Put this into your soul.
+
+**Go again**",Light Illusionist Action,,,,No,,M,,,MJ Fetesio,Yes,,SUP265,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP265.png,,,M,C,EA,MJ Fetesio,Yes,,SUP265,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP265_V2.png,,,,,,,,,,,,,,,,,,
 SUP266,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP266,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP266.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP267,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP267,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP267.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP268,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP268,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP268.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
