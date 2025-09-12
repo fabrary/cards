@@ -1586,7 +1586,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Guardian],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01K4XX1ERKXRYW8XHWE9BTAS4W" },
     ],
     heroes: [Hero.Pleiades],
     languages: ALL_LANGUAGES,

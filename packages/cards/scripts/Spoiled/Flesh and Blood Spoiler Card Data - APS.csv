@@ -1,35 +1,53 @@
-Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
-APS001,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS001.png,,,,,,,,,,,,,,,,,,,
-APS002,APS,Pleiades,,,,,,20,4,,"Revered, Guardian, Hero, Young",,,,,,,"**Instant** - {t}, remove a suspense counter from an aura you control: You may put a suspense counter on an aura of suspense you control.
+Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
+APS001,APS,"Pleiades, Superstar",,,,,,,,,"Revered, Guardian, Hero",,,,,,,,,,,,,,,M,,,Livia Prima,,,APS001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS001.png,,,,,,,,,,,,,,,,,,,
+APS002,APS,Pleiades,,,,,,20,4,,"Revered, Guardian, Hero, Young",,,,,,,,"**Instant** - {t}, remove a suspense counter from an aura you control: You may put a suspense counter on an aura of suspense you control.
 
 Whenever the crowd cheers you, create a Confidence token.",Revered Guardian Hero - Young,,,No,,No,R,,,Livia Prima,,,APS002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS002.png,,,,,,,,,,,,,,,,,,,
-APS003,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS003.png,,,,,,,,,,,,,,,,,,,
-APS004,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS004,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS004.png,,,,,,,,,,,,,,,,,,,
-APS005,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS005,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS005.png,,,,,,,,,,,,,,,,,,,
-APS006,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS006,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS006.png,,,,,,,,,,,,,,,,,,,
-APS007,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS007,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS007.png,,,,,,,,,,,,,,,,,,,
-APS008,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS008,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS008.png,,,,,,,,,,,,,,,,,,,
-APS009,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS009,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS009.png,,,,,,,,,,,,,,,,,,,
-APS010,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS010,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS010.png,,,,,,,,,,,,,,,,,,,
-APS011,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS011,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS011.png,,,,,,,,,,,,,,,,,,,
-APS012,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS012.png,,,,,,,,,,,,,,,,,,,
-APS013,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS013,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS013.png,,,,,,,,,,,,,,,,,,,
-APS014,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS014,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS014.png,,,,,,,,,,,,,,,,,,,
-APS015,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS015,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS015.png,,,,,,,,,,,,,,,,,,,
-APS016,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS016,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS016.png,,,,,,,,,,,,,,,,,,,
-APS017,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS017,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS017.png,,,,,,,,,,,,,,,,,,,
-APS018,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS018,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS018.png,,,,,,,,,,,,,,,,,,,
-APS019,APS,Standing Ovation,Blue,3,6,8,3,,,,"Revered, Guardian, Action, Attack",,,,,,Suspense,"If 3 or more auras of suspense have left the arena this turn, this gets ""When this hits a hero, take an extra turn after this one. At the beginning of the next end phase, they draw up to their {i}.""",Revered Guardian Action - Attack,,,,No,,M,S,,Sebastian Giacobino,,,APS019,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS019.png,,,,,,,,,,,,,,,,,,,
-APS020,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS020,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS020.png,,,,,,,,,,,,,,,,,,,
-APS021,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS021,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS021.png,,,,,,,,,,,,,,,,,,,
-APS022,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS022,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS022.png,,,,,,,,,,,,,,,,,,,
-APS023,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS023,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS023.png,,,,,,,,,,,,,,,,,,,
-APS024,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS024.png,,,,,,,,,,,,,,,,,,,
-APS025,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS025,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS025.png,,,,,,,,,,,,,,,,,,,
-APS026,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS026.png,,,,,,,,,,,,,,,,,,,
-APS027,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS027.png,,,,,,,,,,,,,,,,,,,
-APS028,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS028,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS028.png,,,,,,,,,,,,,,,,,,,
-APS029,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS029,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS029.png,,,,,,,,,,,,,,,,,,,
-APS030,APS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,APS030,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS030.png,,,,,,,,,,,,,,,,,,,
-APS031,APS,Confidence,,,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your turn, destroy this, then the next attack card you play this turn can't be defended by more than 2 non-block cards.",Generic Token - Aura,,,,,,T,S,,Sebastian Giacobino,,,APS031,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS031.png,,,,,,,,,,,,,,,,,,,
-APS032,APS,Toughness,,,,,,,,,"Generic, Token, Aura",,,,,,,"At the start of your opponent's turn, destroy this, then the next action card you defend with this turn gets +1{d} this chain link.",Generic Token - Aura,,,,,,T,S,,Henrique Lindner,,,APS032,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS032.png,,,,,,,,,,,,,,,,,,,
+APS003,APS,Moment Maker,,,,4,,,,,"Revered, Guardian, Weapon, Hammer, Axe, 2H",,The Crowd Cheers,Once per Turn Action,Attack,,,Suspense,"**Once per Turn Action** - {r}{r}{r}: **Attack**
+
+If you control 3 or more auras of suspense, this gets +2{p} and ""When this hits a hero, **the crowd cheers** you.""",Revered Guardian Weapon - Hammer Axe (2H),,,,No,,M,,,Jessketchin,,,APS003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS003.png,,,,,,,,,,,,,,,,,,,
+APS004,APS,Tiara of Suspense,,,,,2,,,,"Revered, Guardian, Equipment, Head",,Guardwell,Instant,,,,"Suspense, The Crowd Cheers","**Instant** - Destroy this: Put a suspense counter on an aura of suspense you control. Activate this only if you've been cheered this turn.
+
+**Guardwell**",Revered Guardian Equipment - Head,,,,No,,M,,,Amirul HHF,,,APS004,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS004.png,,,,,,,,,,,,,,,,,,,
+APS005,APS,Virtuoso Bodice,,,,,2,,,,"Guardian, Equipment, Chest",,Blade Break,,,,,Suspense,"When this defends, you may remove a suspense counter from an aura you control. If you do, gain {r}{r}.
+
+**Blade Break**",Guardian Equipment - Chest,,,,No,,M,,,Leo Avero,,,APS005,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS005.png,,,,,,,,,,,,,,,,,,,
+APS006,APS,Attention Grabbers,,,,,1,,,,"Guardian, Equipment, Arms",,Blade Break,,,,,Suspense,"When this defends, you may remove a suspense counter from an aura you control. If you do, this gets +2{d} this chain link.
+
+**Blade Break**",Guardian Equipment - Arms,,,,No,,M,,,Wirawan Pranoto,,,APS006,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS006.png,,,,,,,,,,,,,,,,,,,
+APS007,APS,Boots to the Boards,,,,,2,,,,"Revered, Equipment, Legs",,Temper,,,,,,"When this defends, pay up to {r}{r}{r}. Create that many Toughness tokens.
+
+**Temper**",Revered Equipment - Legs,,,,No,,M,,,Surya Prasteya,,,APS007,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS007.png,,,,,,,,,,,,,,,,,,,
+APS008,APS,Boulder Drop,Red,1,3,7,3,,,,"Guardian, Action, Attack",,Crush,,,,,,"**Crush** - When this deals 4 or more damage to a hero, they put a card from their hand on top of their deck.",Guardian Action - Attack,,,,No,,R,,,Raphael Pinna,,,APS008,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS008.png,,,,,,,,,,,,,,,,,,,
+APS009,APS,Fault Line,Red,1,,,,,,,,,,,,,,,,,,,,No,,R,,,Ramza Ardyputra,,,APS009,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS009.png,,,,,,,,,,,,,,,,,,,
+APS010,APS,Spinal Crush,Red,1,,,,,,,,,,,,,,,,,,,,No,,M,,,Sergey Gurskiy,,,APS010,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS010.png,,,,,,,,,,,,,,,,,,,
+APS011,APS,Act of Glory,Red,1,,,,,,,,,,,,,,,,,,,,,,C,,,Olga Tereshenko,,,APS011,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS011.png,,,,,,,,,,,,,,,,,,,
+APS012,APS,Edge of Their Seats,Red,1,,,,,,,,,,,,,,,,,,,,,,C,,,Marco Wulfr,,,APS012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS012.png,,,,,,,,,,,,,,,,,,,
+APS013,APS,Tension in the Air,Red,1,,,,,,,,,,,,,,,,,,,,,,C,,,Kimberly Pantoni,,,APS013,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS013.png,,,,,,,,,,,,,,,,,,,
+APS014,APS,Thespian Charm,Yellow,2,,,,,,,,,,,,,,,,,,,,No,,S,,,Grégory Nunkovics,,,APS014,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS014.png,,,,,,,,,,,,,,,,,,,
+APS015,APS,Never Give Up,Yellow,2,,,,,,,,,,,,,,,,,,,,No,,S,,,Federico Musetti,,,APS015,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS015.png,,,,,,,,,,,,,,,,,,,
+APS016,APS,Boulder Drop,Blue,3,,,,,,,,,,,,,,,,,,,,No,,R,,,Raphael Pinna,,,APS016,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS016.png,,,,,,,,,,,,,,,,,,,
+APS017,APS,Comeback Kid,Blue,3,,,,,,,,,,,,,,,,,,,,No,,R,,,Samuel Perin,,,APS017,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS017.png,,,,,,,,,,,,,,,,,,,
+APS018,APS,Macho Grande,Blue,3,,,,,,,,,,,,,,,,,,,,,,R,,,Marco Wulfr,,,APS018,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS018.png,,,,,,,,,,,,,,,,,,,
+APS019,APS,Standing Ovation,Blue,3,6,8,3,,,,"Revered, Guardian, Action, Attack",,,,,,,Suspense,"If 3 or more auras of suspense have left the arena this turn, this gets ""When this hits a hero, take an extra turn after this one. At the beginning of the next end phase, they draw up to their {i}.""",Revered Guardian Action - Attack,,,,No,,M,S,,Sebastian Giacobino,,,APS019,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS019.png,,,,,,,,,,,,,,,,,,,
+APS020,APS,Uplifting Performance,Blue,3,,,,,,,,,,,,,,,,,,,,No,,R,,,Marco Wulfr,,,APS020,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS020.png,,,,,,,,,,,,,,,,,,,
+APS021,APS,Tear Asunder,Blue,3,,,,,,,,,,,,,,,,,,,,No,,M,,,Todor Hristov,,,APS021,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS021.png,,,,,,,,,,,,,,,,,,,
+APS022,APS,Act of Glory,Blue,3,,,,,,,,,,,,,,,,,,,,,,C,,,Olga Tereshenko,,,APS022,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS022.png,,,,,,,,,,,,,,,,,,,
+APS023,APS,Edge of Their Seats,Blue,3,,,,,,,,,,,,,,,,,,,,,,C,,,Marco Wulfr,,,APS023,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS023.png,,,,,,,,,,,,,,,,,,,
+APS024,APS,Superstar,Blue,3,1,,3,,,,"Revered, Guardian, Instant, Aura",,"Suspense, The Crowd Cheers",,,,,,"**Suspense**
+
+When this enters or leaves the arena, **the crowd cheers** you.",Revered Guardian Instant - Aura,,,,No,,R,,,Philip Sue,,,APS024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS024.png,,,,,,,,,,,,,,,,,,,
+APS025,APS,Tension in the Air,Blue,3,,,,,,,,,,,,,,,,,,,,,,C,,,Kimberly Pantoni,,,APS025,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS025.png,,,,,,,,,,,,,,,,,,,
+APS026,APS,The Suspense is Killing Me,Blue,3,0,,2,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+Your first attack each turn gets +1{p}.",Guardian Instant - Aura,,,,,,C,S,,Mark Poole,,,APS026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS026.png,,,,,,,,,,,,,,,,,,,
+APS027,APS,To Be Continued...,Blue,3,0,,2,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+The first time you would be dealt damage each turn, prevent 1 of that damage.",Guardian Instant - Aura,,,,,,C,,,Mariusz Gandzel,,,APS027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS027.png,,,,,,,,,,,,,,,,,,,
+APS028,APS,Up on a Pedestal,Blue,3,,,,,,,,,,,,,,,,,,,,No,,S,,,Ina Wong,,,APS028,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS028.png,,,,,,,,,,,,,,,,,,,
+APS029,APS,What Happens Next?,Blue,3,0,,2,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+The first card with cost 1 or more you play each turn costs {r} less to play.",Guardian Instant - Aura,,,,,,C,,,Tomasz Jedruszek,,,APS029,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS029.png,,,,,,,,,,,,,,,,,,,
+APS030,APS,Turning Point,Blue,3,,,,,,,,,,,,,,,,,,,,No,,S,,,FeiKang,,,APS030,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS030.png,,,,,,,,,,,,,,,,,,,
+APS031,APS,Confidence,,,,,,,,,"Generic, Token, Aura",,,,,,,,"At the start of your turn, destroy this, then the next attack card you play this turn can't be defended by more than 2 non-block cards.",Generic Token - Aura,,,,,,T,S,,Sebastian Giacobino,,,APS031,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS031.png,,,,,,,,,,,,,,,,,,,
+APS032,APS,Toughness,,,,,,,,,"Generic, Token, Aura",,,,,,,,"At the start of your opponent's turn, destroy this, then the next action card you defend with this turn gets +1{d} this chain link.",Generic Token - Aura,,,,,,T,S,,Henrique Lindner,,,APS032,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-APS/EN/APS032.png,,,,,,,,,,,,,,,,,,,

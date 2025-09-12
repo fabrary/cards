@@ -104,8 +104,8 @@
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP195"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS011","SUP195"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP195",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -228,8 +228,8 @@ When this leaves the arena, your next attack this turn gets +5{p}.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP197"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS022","SUP197"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP197",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -1285,6 +1285,70 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
   
   
   },{
+    artists: ["Anthony Avon"],
+    cardIdentifier: "channel-the-tranquil-domain-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "SUP263",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Briar,Hero.Florian,Hero.Jarl,Hero.Oldhim,Hero.Starvo,Hero.Terra,Hero.Verdance],
+    name: "Channel the Tranquil Domain",
+    printings: [{
+        artists: ["Anthony Avon"],
+      
+      identifier: "SUP263",
+      image: "SUP263",
+      isExpansionSlot: true,
+      
+      print: "SUP263",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP263"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP263",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Earth Action - Aura",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Go again**
+
+When this enters the arena and at the start of your action phase, put another target aura on the obttom of its owner's deck.
+
+**Channel Earth** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.`,
+    
+    
+    
+    
+    keywords: [Keyword.Channel,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Earth],
+  
+  
+  },{
     artists: ["Ismatulloh"],
     cardIdentifier: "cheap-shot-yellow",
     classes: [Class.NotClassed],
@@ -1556,8 +1620,8 @@ If you've been cheered this turn, this gets +1{p}.`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SUP029"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS017","SUP029"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP029",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -2119,8 +2183,8 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP201"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS012","SUP201"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP201",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -2243,8 +2307,8 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP203"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS023","SUP203"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP203",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -3410,6 +3474,68 @@ This counts as a Gold.
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "hit-the-gas-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "SUP255",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Maxx,Hero.Shiyana],
+    name: "Hit the Gas",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "SUP255",
+      image: "SUP255",
+      isExpansionSlot: true,
+      
+      print: "SUP255",
+      rarity: Rarity.Majestic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["SUP255"],
+    sets: [Release.SuperSlam],
+    specialImage: "SUP255",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Maxx Specialization**
+
+Turn any number of Hyper Drivers in your banished zone face-down and gain that many action points. If 3 or more cards are turned face-down this way, draw a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Maxx],
+    
   
   
   },{
@@ -4715,8 +4841,8 @@ If you've been booed this turn, this gets +2{p}.`,
     },],
     rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["SUP026"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS015","SUP026"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP026",
     subtypes: [],
     types: [Type.Block],
@@ -5486,10 +5612,10 @@ Whenever the crowd cheers you, create a Confidence token.`,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
+    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["HER147","SUP009"],
-    sets: [Release.Promos,Release.SuperSlam],
+    setIdentifiers: ["APS001","HER147","SUP009"],
+    sets: [Release.ArmoryDeckPleiades,Release.Promos,Release.SuperSlam],
     specialImage: "SUP009_V2",
     subtypes: [],
     types: [Type.Hero],
@@ -6343,8 +6469,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "steal-victory-blue",
     classes: [Class.Brute],
@@ -6404,7 +6529,8 @@ When this hits a hero, create a Confidence and a Might token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Orson CaptainSass"],
     cardIdentifier: "take-the-bait-red",
     classes: [Class.Ranger],
@@ -6555,8 +6681,8 @@ If this is played at chain link 3 or higher, this gets **go again**.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP204"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS013","SUP204"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP204",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -6679,8 +6805,8 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP206"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS025","SUP206"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP206",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -6779,6 +6905,80 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
   
   
   },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "the-suspense-is-killing-me-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP207",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "The Suspense is Killing Me",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "SUP207",
+      image: "SUP207",
+      
+      
+      print: "SUP207",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.C,
+      identifier: "SUP207",
+      image: "SUP207_V2",
+      
+      
+      print: "SUP207-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["APS026","SUP207"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
+    specialImage: "SUP207_V2",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Suspense**
+
+Your first attack each turn gets +1{p}.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Grégory Nunkovics"],
     cardIdentifier: "thespian-charm-yellow",
     classes: [Class.Guardian],
@@ -6801,8 +7001,8 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     },],
     rarities: [Rarity.Marvel,Rarity.Promo,Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["FAB371","LGS423","SUP013"],
-    sets: [Release.Promos,Release.SuperSlam],
+    setIdentifiers: ["APS014","FAB371","LGS423","SUP013"],
+    sets: [Release.ArmoryDeckPleiades,Release.Promos,Release.SuperSlam],
     specialImage: "SUP013",
     subtypes: [],
     types: [Type.Instant],
@@ -6839,6 +7039,80 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "to-be-continued-blue",
+    classes: [Class.Guardian],
+    defaultImage: "SUP208",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "To Be Continued...",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SUP208",
+      image: "SUP208",
+      
+      
+      print: "SUP208",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.C,
+      identifier: "SUP208",
+      image: "SUP208_V2",
+      
+      
+      print: "SUP208-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["APS027","SUP208"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
+    specialImage: "SUP208_V2",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Guardian Instant - Aura",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Suspense**
+
+The first time you would be dealt damage each turn, prevent 1 of that damage.`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -7592,8 +7866,8 @@ When this hits a Revered hero, **the crowd boos** you.`,
     },],
     rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["SUP015"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS030","SUP015"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP015",
     subtypes: [],
     types: [Type.Block],
@@ -7894,8 +8168,8 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     },],
     rarities: [Rarity.SuperRare],
     rarity: Rarity.SuperRare,
-    setIdentifiers: ["SUP014"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS028","SUP014"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP014",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
@@ -7956,8 +8230,8 @@ When this enters or leaves the arena, you may put a Revered or Guardian attack a
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SUP016"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["APS020","SUP016"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
     specialImage: "SUP016",
     subtypes: [Subtype.Attack],
     types: [Type.Action],

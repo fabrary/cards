@@ -376,8 +376,12 @@ When this leaves the arena, your next attack this turn gets +3{p}.",Guardian Ins
 SUP206,SUP,Tension in the Air,Blue,3,2,,3,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
 
 When this leaves the arena, your next attack this turn gets +2{p}.",Guardian Instant - Aura,,,,,,C,,,Kimberly Pantoni,,,SUP206,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP206.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP207,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP207,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP207.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP208,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP208,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP208.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP207,SUP,The Suspense is Killing Me,Blue,3,0,,2,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+Your first attack each turn gets +1{p}.",Guardian Instant - Aura,,,,,,C,,,Mark Poole,,,SUP207,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP207.png,,,C,C,EA,Mark Poole,,,SUP207,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP207_V2.png,,,,,,,,,,,,,,,,,,
+SUP208,SUP,To Be Continued,Blue,3,0,,2,,,,"Guardian, Instant, Aura",,Suspense,,,,,,"**Suspense**
+
+The first time you would be dealt damage each turn, prevent 1 of that damage.",Guardian Instant - Aura,,,,,,C,,,Mariusz Gandzel,,,SUP208,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP208.png,,,C,C,EA,Mariusz Gandzel,,,SUP208,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP208_V2.png,,,,,,,,,,,,,,,,,,
 SUP209,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP209,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP209.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP210,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP210,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP210.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP211,SUP,Helm of Hindsight,,,,,0,,,,"Generic, Equipment, Head",,,Instant,,,,,"**Instant** - {r}{r}{r}, destroy this: Put target attack action card from your graveyard on top of your deck.",Generic Equipment - Head,,,,,,C,S,,Thomas Ressuge,,,SUP211,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP211.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -460,7 +464,9 @@ SUP253,SUP,Adaptive Alpha Mold,,,,,1,,,,"Mechanologist, Equipment, Base",,"Modul
 
 **Battleworn**",Mechanologist Equipment - Base,,,,No,,M,,,Mariusz Gandzel,Yes,,SUP253,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP254,SUP,Backspin Thrust,Red,1,0,4,3,,,,"Mechanologist, Action, Attack",,,Once per Turn Instant,Go again,,,,**Once per Turn Instant** - {u} a cog you control: This gets +1{p} or **go again**.,Mechanologist Action - Attack,,,,No,,M,,,Narendra B Adi,Yes,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254.png,,,M,C,EA,Narendra B Adi,Yes,,SUP254,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP254_V2.png,,,,,,,,,,,,,,,,,,
-SUP255,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP255,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP255,SUP,Hit the Gas,Blue,3,0,,3,,,,"Mechanologist, Action",,Maxx Specialization,,,,,,"**Maxx Specialization**
+
+Turn any number of Hyper Drivers in your banished zone face-down and gain that many action points. If 3 or more cards are turned face-down this way, draw a card.",Mechanologist Action,,,,No,,M,,,Jefrey Yonathan,Yes,,SUP255,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP256,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP256,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP256.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP257,SUP,Mage Hunter Arrow,Red,1,1,5,3,,,,"Ranger, Action, Arrow, Attack",,,,,,,,"**Instant** - Destroy this: The next time you would be dealt arcane damage this turn, prevent 3 of that damage. Activate this only while this is face-up in your arsenal.
 
@@ -480,7 +486,11 @@ SUP259,SUP,Bait,,,,0,,,,,"Ranger, Token, Aura",,,"Action, Once per Turn Attack R
 SUP260,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP260,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP260.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP261,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP261,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP261.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP262,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP262,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP262.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP263,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Yes,,SUP263,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP263.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP263,SUP,Channel the Tranquil Domain,Yellow,2,3,,3,,,,"Earth, Action, Aura",,"Go again, Channel Earth",,,,,,"**Go again**
+
+When this enters the arena and at the start of your action phase, put another target aura on the obttom of its owner's deck.
+
+**Channel Earth** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.",Earth Action - Aura,,,,No,,M,,,Anthony Avon,Yes,,SUP263,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP263.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP264,SUP,Light Up the Leaves,Red,1,3,,3,,,6,"Earth, Wizard, Action",,,Instant,,,,,"Deal 6 arcane damage to any target.
 
 **Instant** - Discard this and an Earth card: Prevent the next 6 arcane damage target source would deal this turn.",Earth Wizard Action,,,,No,,M,,,Rio Sabda,Yes,,SUP264,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP264.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
