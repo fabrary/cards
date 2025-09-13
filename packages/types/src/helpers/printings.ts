@@ -17,6 +17,8 @@ const suffixOverrides: { [key: string]: string } = {
   MST158_V3: "-V3",
   ROS162_V2: "-V2",
   "ROS008-MV_V2_BACK": "-V3",
+  SUP009_V3: "-V3",
+  SUP009_V3_BACK: "-V3",
 };
 
 export const getPrint = (printing: {

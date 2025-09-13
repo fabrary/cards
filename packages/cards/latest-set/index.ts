@@ -10842,7 +10842,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
       image: "SUP009_V3",
       
       
-      print: "SUP009-Cold-Full Art",
+      print: "SUP009-Cold-Full Art-V3",
       rarity: Rarity.Marvel,
       set: Release.SuperSlam,
       
@@ -10854,7 +10854,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
       image: "SUP009_V3_BACK",
       
       
-      print: "SUP009-Cold-Full Art-Back",
+      print: "SUP009-Cold-Full Art-Back-V3",
       rarity: Rarity.Marvel,
       set: Release.SuperSlam,
       
