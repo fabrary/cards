@@ -276,6 +276,9 @@ const defaultImagePrintingOverrides: {
   "command-and-conquer-red": {
     print: "HNT260",
   },
+  might: {
+    print: "TER028",
+  },
   "pitfall-trap-yellow": {
     print: "LGS151-Rainbow",
   },
@@ -293,6 +296,9 @@ const defaultImagePrintingOverrides: {
   },
   "tripwire-trap-red": {
     print: "LGS150-Rainbow",
+  },
+  vigor: {
+    print: "HVY242",
   },
   "wreck-havoc-red": {
     print: "OUT198",

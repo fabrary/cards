@@ -3016,6 +3016,66 @@ At the beginning of your end phase, destroy this.`,
   
   
   },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "confidence",
+    classes: [Class.Generic],
+    defaultImage: "SUP239",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Confidence",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "SUP239",
+      image: "SUP239",
+      
+      
+      print: "SUP239",
+      rarity: Rarity.Basic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["APS031","SUP239"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
+    specialImage: "SUP239",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `At the start of your turn, destroy this, then the next attack card you play this turn can't be defended by more than 2 non-block cards.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Alexandra Malygina","Sam Yang"],
     cardIdentifier: "cracked-bauble-yellow",
     classes: [Class.Generic],
@@ -5168,18 +5228,18 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     artists: ["Raphael Pinna"],
     cardIdentifier: "fight-from-behind-red",
     classes: [Class.NotClassed],
-    defaultImage: "SUP042",
+    defaultImage: "SUP040",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
     name: "Fight from Behind",
     printings: [{
         artists: ["Raphael Pinna"],
       
-      identifier: "SUP042",
-      image: "SUP042",
+      identifier: "SUP040",
+      image: "SUP040",
       
       
-      print: "SUP042",
+      print: "SUP040",
       rarity: Rarity.Common,
       set: Release.SuperSlam,
       
@@ -5187,9 +5247,9 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP042"],
+    setIdentifiers: ["SUP040"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP042",
+    specialImage: "SUP040",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Revered Action - Attack",
@@ -5211,7 +5271,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 6,
     
     
     
@@ -5288,18 +5348,18 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     artists: ["Raphael Pinna"],
     cardIdentifier: "fight-from-behind-blue",
     classes: [Class.NotClassed],
-    defaultImage: "SUP040",
+    defaultImage: "SUP042",
     legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Pleiades,Hero.Tuffnut],
     name: "Fight from Behind",
     printings: [{
         artists: ["Raphael Pinna"],
       
-      identifier: "SUP040",
-      image: "SUP040",
+      identifier: "SUP042",
+      image: "SUP042",
       
       
-      print: "SUP040",
+      print: "SUP042",
       rarity: Rarity.Common,
       set: Release.SuperSlam,
       
@@ -5307,9 +5367,9 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SUP040"],
+    setIdentifiers: ["SUP042"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP040",
+    specialImage: "SUP042",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Revered Action - Attack",
@@ -5331,7 +5391,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
   
     
     pitch: 3,
-    power: 6,
+    power: 4,
     
     
     
@@ -8596,8 +8656,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Yunior Susanto"],
     cardIdentifier: "laughing-knee-slappers",
     classes: [Class.Brute],
@@ -8659,7 +8718,8 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+  const cards3: Card[] =  [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "leave-them-hanging-red",
     classes: [Class.Guardian],
@@ -9231,6 +9291,66 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
   
   
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "might",
+    classes: [Class.Generic],
+    defaultImage: "SUP240",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Might",
+    printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "SUP240",
+      image: "SUP240",
+      
+      
+      print: "SUP240",
+      rarity: Rarity.Basic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["AKO028","BET028","FAB205","FAB280","HVY241","KYO028","LGS230","RHI028","SUP240","TCC105","TER028","VIC028"],
+    sets: [Release.FirstStrikeTerra,Release.ArmoryDeckKayo,Release.BetsyBlitzDeck,Release.HeavyHitters,Release.KayoBlitzDeck,Release.Promos,Release.RhinarBlitzDeck,Release.RoundTheTable,Release.SuperSlam,Release.VictorBlitzDeck],
+    specialImage: "SUP240",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `At the start of your turn, destroy this, then your next attack this turn gets +1{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Elya Nur Sri Ayu"],
     cardIdentifier: "mightybone-knuckles",
     classes: [Class.NotClassed],
@@ -9265,7 +9385,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
     
     defense: 1,
     
-    functionalText: `Action - {r}{r}{r}, destroy this: Create 3 Might tokens. Activate this only if you have more {h} than each other hero. **Go again**
+    functionalText: `**Action** - {r}{r}{r}, destroy this: Create 3 Might tokens. Activate this only if you have more {h} than each other hero. **Go again**
 
 **Blade Break**`,
     
@@ -9334,7 +9454,7 @@ If you've been booed this turn, this gets +4{p}.`,
     
     
     
-    
+    keywords: [Keyword.TheCrowdBoos],
     
     
     meta: [Meta.Rainbow],
@@ -9396,7 +9516,7 @@ If you've been booed this turn, this gets +3{p}.`,
     
     
     
-    
+    keywords: [Keyword.TheCrowdBoos],
     
     
     meta: [Meta.Rainbow],
@@ -9458,7 +9578,7 @@ If you've been booed this turn, this gets +2{p}.`,
     
     
     
-    
+    keywords: [Keyword.TheCrowdBoos],
     
     
     meta: [Meta.Rainbow],
@@ -12963,8 +13083,7 @@ Create a Might token.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "song-of-sinew-yellow",
     classes: [Class.Brute],
@@ -13026,7 +13145,8 @@ Create a Might token.
     
   
   
-  },{
+  }];
+  const cards4: Card[] =  [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "spew-obscenities-yellow",
     classes: [Class.Guardian],
@@ -14964,6 +15084,66 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
   
   
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "toughness",
+    classes: [Class.Generic],
+    defaultImage: "SUP241",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Toughness",
+    printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "SUP241",
+      image: "SUP241",
+      
+      
+      print: "SUP241",
+      rarity: Rarity.Basic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["APS032","SUP241"],
+    sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
+    specialImage: "SUP241",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `At the start of your opponent's turn, destroy this, then the next action card you defend with this turn gets +1{d} this chain link.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "truth-or-trickery-yellow",
     classes: [Class.Guardian],
@@ -16115,6 +16295,66 @@ When this hits a hero, create a Confidence and a Toughness token.`,
     
     
     talents: [Talent.Revered],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "vigor",
+    classes: [Class.Generic],
+    defaultImage: "SUP242",
+    legalFormats: [Format.Blitz,Format.BlitzLivingLegend,Format.Clash,Format.ClassicConstructed,Format.ClassicConstructedLivingLegend,Format.Commoner,Format.Draft,Format.Open,Format.ProjectBlue,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Genis,Hero.GravyBones,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen],
+    name: "Vigor",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "SUP242",
+      image: "SUP242",
+      
+      
+      print: "SUP242",
+      rarity: Rarity.Basic,
+      set: Release.SuperSlam,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["BET029","FAB206","FAB288","HVY242","KSI029","KYO029","LGS230","OLA029","SUP242","TCC107","VIC029"],
+    sets: [Release.BetsyBlitzDeck,Release.HeavyHitters,Release.KassaiBlitzDeck,Release.KayoBlitzDeck,Release.OlympiaBlitzDeck,Release.Promos,Release.RoundTheTable,Release.SuperSlam,Release.VictorBlitzDeck],
+    specialImage: "SUP242",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `At the start of your turn, destroy this, then gain {r}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{

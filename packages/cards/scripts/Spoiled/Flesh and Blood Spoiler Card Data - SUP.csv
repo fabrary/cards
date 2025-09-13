@@ -51,7 +51,7 @@ When this hits a hero, create a Confidence and a Toughness token.",Revered Guard
 SUP017,SUP,Helm of the Adored,,,,,1,,,,"Revered, Equipment, Head",,"The Crowd Cheers, Blade Break",,,,,,"When this defends, **the crowd cheers** you.
 
 **Blade Break**",Revered Equipment - Head,,,,,,C,,,Reinaldo Indrajaya,,,SUP017,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP018,SUP,Hold Firm,,,,,1,,,,"Revered, Equipment, Arms",,"Go again, Blade Break",,,,,,"**Action** - {r}{r}, destroy this: Create 3 Toughness tokens. Activate this only if you have less {h} than each other hero. **Go again**
+SUP018,SUP,Hold Firm,,,,,1,,,,"Revered, Equipment, Arms",,Blade Break,Action,Go again,,,,"**Action** - {r}{r}, destroy this: Create 3 Toughness tokens. Activate this only if you have less {h} than each other hero. **Go again**
 
 **Blade Break**",Revered Equipment - Arms,,,,,,C,,,Ilham Bahtiar,,,SUP018,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP019,SUP,Crowd Goes Wild,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,The Crowd Cheers,"If you've been cheered this turn, this costs {r}{r}{r} less to play.",Revered Action - Attack,,,,No,,M,S,,Kevin Sidharta,,,SUP019,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -60,7 +60,7 @@ SUP020,SUP,No Hero Stands Alone,Yellow,2,3,6,0,,,,"Revered, Action, Attack",,"Am
 When this defends, **clash** with the attacking hero. The winner may choose an attacking or defending card to get -3{p} -3{d} this chain link.",Revered Action - Attack,,,,No,,M,,,Kevin Sidharta,,,SUP020,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP021,SUP,A Good Clean Fight,Red,1,7,3,3,,,,"Revered, Action, Attack",,,,,,,,"If this is attacking a hero, non-equipment cards they own lose and can't gain abilities.",Revered Action - Attack,,,,No,,S,,,Tomasz Jedruszek,,,SUP021,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP022,SUP,Escalate Order,Red,1,6,2,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks, if you control a Toughness token, create 3 more.",Revered Action - Attack,,,,No,,S,,,Sariya Asavametha,,,SUP022,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP023,SUP,Old Favorite,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks, if you've been cheered this turn, create a Toughness token.
+SUP023,SUP,Old Favorite,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,The Crowd Cheers,"When this attacks, if you've been cheered this turn, create a Toughness token.
 
 When this defends, if it has 6 or more {d}, put it on the bottom of its owner's deck when the combat chain closes.",Revered Action - Attack,,,,No,,S,,,Eryk Szczygieł,,,SUP023,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP023.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP024,SUP,Tame the Beastly Behavior,Red,1,3,7,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks a Reviled hero, this gets +1{p}.
@@ -77,13 +77,13 @@ If you've been cheered this turn, this gets +1{p}.",Revered Action - Attack,,,,N
 SUP029,SUP,Comeback Kid,Blue,3,3,5,3,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,The Crowd Cheers,"When this attacks a hero, if you have less {h} than them, **the crowd cheers* you.
 
 If you've been cheered this turn, this gets +1{p}.",Revered Action - Attack,,,,No,,R,S,,Samuel Perin,,,SUP029,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP030,SUP,Disarm,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks, if you've been cheered this turn, create a Toughness token.
+SUP030,SUP,Disarm,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,The Crowd Cheers,"When this attacks, if you've been cheered this turn, create a Toughness token.
 
 When this defends, if it has 6 or more {d}, the attacking hero puts a card from their hand on the bottom of their deck.",Revered Action - Attack,,,,No,,R,,,Thomas Ressuge,,,SUP030,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP031,SUP,Disembody,Red,1,3,7,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks, if you've been cheered this turn, create a Toughness token.
+SUP031,SUP,Disembody,Red,1,3,7,3,,,,"Revered, Action, Attack",,,,,,,The Crowd Cheers,"When this attacks, if you've been cheered this turn, create a Toughness token.
 
 When this defends, if it has 6 or more {d}, the attacking hero puts an aura they control on the bottom of their deck.",Revered Action - Attack,,,,No,,R,,,Thomas Ressuge,,,SUP031,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP032,SUP,Disperse,Blue,3,3,5,3,,,,"Revered, Action, Attack",,,,,,,,"When this attacks, if you've been cheered this turn, create a Toughness token.
+SUP032,SUP,Disperse,Blue,3,3,5,3,,,,"Revered, Action, Attack",,,,,,,The Crowd Cheers,"When this attacks, if you've been cheered this turn, create a Toughness token.
 
 When this defends, if it has 6 or more {d}, the attacking hero puts a card from their arsenal on the bottom of their deck.",Revered Action - Attack,,,,No,,R,,,Thomas Ressuge,,,SUP032,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP032.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP033,SUP,Fight Fair,Red,1,2,6,2,,,,"Revered, Action, Attack",,,,,,,,"If this is defended by a Reviled card, this gets +1{p}.
@@ -96,10 +96,10 @@ SUP035,SUP,Will of the Crowd,Blue,3,,,2,,,,"Revered, Block",,,,,,,,"When this de
 "SUP036, FAB381",SUP,Dig In,Red,1,3,7,3,,,,"Revered, Action, Attack",,,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.",Revered Action - Attack,,,,,,C,S,,Narendra B Adi,,,SUP036,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP036.png,,,P,R,EA,Narendra B Adi,,,FAB381,,,,,,,,,,,,,,,,,,,
 "SUP037, FAB382",SUP,Dig In,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.",Revered Action - Attack,,,,,,C,S,,Narendra B Adi,,,SUP037,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP037.png,,,P,R,EA,Narendra B Adi,,,FAB382,,,,,,,,,,,,,,,,,,,
 "SUP038, FAB383",SUP,Dig In,Blue,3,3,5,3,,,,"Revered, Action, Attack",,,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.",Revered Action - Attack,,,,,,C,S,,Narendra B Adi,,,SUP038,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP038.png,,,P,R,EA,Narendra B Adi,,,FAB383,,,,,,,,,,,,,,,,,,,
-SUP039,SUP,Empowering Ruckus,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,,"If you've been cheered this turn, this gets +1{p}.",Revered Action - Attack,,,,,,C,,,Daniel Correia,,,SUP039,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP039.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP040,SUP,Fight from Behind,Red,3,2,6,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks or defends, if you have less {h} than each other hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Raphael Pinna,,,SUP040,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP040.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP039,SUP,Empowering Ruckus,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,,,,,,The Crowd Cheers,"If you've been cheered this turn, this gets +1{p}.",Revered Action - Attack,,,,,,C,,,Daniel Correia,,,SUP039,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP039.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP040,SUP,Fight from Behind,Red,1,2,6,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks or defends, if you have less {h} than each other hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Raphael Pinna,,,SUP040,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP040.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP041,SUP,Fight from Behind,Yellow,2,2,5,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks or defends, if you have less {h} than each other hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Raphael Pinna,,,SUP041,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP041.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP042,SUP,Fight from Behind,Blue,1,2,4,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks or defends, if you have less {h} than each other hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Raphael Pinna,,,SUP042,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP042,SUP,Fight from Behind,Blue,3,2,4,2,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When this attacks or defends, if you have less {h} than each other hero, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Raphael Pinna,,,SUP042,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP043,SUP,Rapturous Applause,Red,1,3,7,3,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When you win a clash revealing this, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Nailsen Ivanderlie,,,SUP043,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP043.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP044,SUP,Rapturous Applause,Yellow,2,3,6,3,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When you win a clash revealing this, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Nailsen Ivanderlie,,,SUP044,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP045,SUP,Rapturous Applause,Blue,3,3,5,3,,,,"Revered, Action, Attack",,The Crowd Cheers,,,,,,"When you win a clash revealing this, **the crowd cheers** you.",Revered Action - Attack,,,,,,C,,,Nailsen Ivanderlie,,,SUP045,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP045.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -146,7 +146,7 @@ SUP059,SUP,Heroic Pose,Blue,3,1,,2,,,,"Revered, Action",,"Go again, The Crowd Ch
 SUP060,SUP,Humble Entrance,Blue,3,0,,2,,,,"Revered, Action",,Go again,,,,,,"Create 3 Toughness tokens.
 
 **Go again**",Revered Action,,,,,,C,,,Jackson Tjota,,,SUP060,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP061,SUP,Darling of the Crowd,Yellow,2,,,3,,,,"Revered, Block",,,,,,,,"While this is defending, if you've been cheered this turn, it gets +1{d}.",Revered Block,,,,,,C,,,Brian Madya Narendra,,,SUP061,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP061,SUP,Darling of the Crowd,Yellow,2,,,3,,,,"Revered, Block",,,,,,,The Crowd Cheers,"While this is defending, if you've been cheered this turn, it gets +1{d}.",Revered Block,,,,,,C,,,Brian Madya Narendra,,,SUP061,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP062,SUP,Not So Mighty,Blue,3,,,2,,,,"Revered, Block",,,,,,,,"When this defends a Reviled hero's attack, destroy a Might token they control. If you do, create a Toughness token.",Revered Block,,,,,,C,,,Audy Ravindra,,,SUP062,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP063,SUP,"Kayo, Underhanded Cheat",,,,,,40,4,,"Reviled, Brute, Hero",,,Instant,,,,The Crowd Boos,"You start the game with 1 weapon zone.
 
@@ -203,7 +203,7 @@ When this hits a hero, create a Confidence and a Might token.",Reviled Guardian 
 SUP079,SUP,Horns of the Despised,,,,,1,,,,"Reviled, Equipment, Head",,"The Crowd Boos, Blade Break",,,,,,"When this defends, **the crowd boos** you.
 
 **Blade Break**",Reviled Equipment - Head,,,,,,C,,,Brian Adriel,,,SUP079,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP080,SUP,Mightybone Knuckles,,,,,1,,,,"Reviled, Equipment, Arms",,"Go again, Blade Break",,,,,,"Action - {r}{r}{r}, destroy this: Create 3 Might tokens. Activate this only if you have more {h} than each other hero. **Go again**
+SUP080,SUP,Mightybone Knuckles,,,,,1,,,,"Reviled, Equipment, Arms",,Blade Break,Action,Go again,,,,"**Action** - {r}{r}{r}, destroy this: Create 3 Might tokens. Activate this only if you have more {h} than each other hero. **Go again**
 
 **Blade Break**",Reviled Equipment - Arms,,,,,,C,,,Elya Nur Sri Ayu,,,SUP080,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP080.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP081,SUP,Bully Tactics,Red,1,0,3,3,,,,"Reviled, Action, Attack",,Intimidate,,,,,,"When this attacks a hero, you may pay up to {r}{r}{r}. **Intimidate** them that many times.",Reviled Action - Attack,,,,No,,M,S,,Maerel Hibadita,,,SUP081,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP081.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -225,13 +225,13 @@ SUP088,SUP,Rip Up Their Virtues,Blue,3,0,,,,,,"Reviled, Instant",,,,,,,,Destroy 
 SUP089,SUP,Fight Dirty,Red,1,3,7,2,,,,"Reviled, Action, Attack",,,,,,,,"If this is defended by a Revered card, this gets +1{p}.
 
 When this hits a Revered hero, destroy the top card of their deck.",Reviled Action - Attack,,,,No,,R,,,Andi Cahyo W,,,SUP089,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP090,SUP,Mocking Blow,Red,1,0,1,3,,,,"Reviled, Action, Attack",,,,,,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
+SUP090,SUP,Mocking Blow,Red,1,0,1,3,,,,"Reviled, Action, Attack",,,,,The Crowd Boos,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
 
 If you've been booed this turn, this gets +4{p}.",Reviled Action - Attack,,,,No,,R,S,,Nailsen Ivanderlie,,"""Hah! Who's the buffon now, bigmouth?"" - Slapstick Sal",SUP090,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP091,SUP,Mocking Blow,Yellow,2,0,1,3,,,,"Reviled, Action, Attack",,,,,,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
+SUP091,SUP,Mocking Blow,Yellow,2,0,1,3,,,,"Reviled, Action, Attack",,,,,The Crowd Boos,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
 
 If you've been booed this turn, this gets +3{p}.",Reviled Action - Attack,,,,No,,R,S,,Nailsen Ivanderlie,,"""Hah! Who's the buffon now, bigmouth?"" - Slapstick Sal",SUP091,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP092,SUP,Mocking Blow,Blue,3,0,1,3,,,,"Reviled, Action, Attack",,,,,,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
+SUP092,SUP,Mocking Blow,Blue,3,0,1,3,,,,"Reviled, Action, Attack",,,,,The Crowd Boos,,The Crowd Boos,"When this attacks a hero, if you have more {h} than them, **the crowd boos** you.
 
 If you've been booed this turn, this gets +2{p}.",Reviled Action - Attack,,,,No,,R,S,,Nailsen Ivanderlie,,"""Hah! Who's the buffon now, bigmouth?"" - Slapstick Sal",SUP092,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP093,SUP,Overturn the Results,Blue,3,3,5,3,,,,"Reviled, Action, Attack",,The Crowd Boos,,,,,,"If you would fail to win a clash revealing this, instead you win the clash and **the crowd boos** you.",Reviled Action - Attack,,,,No,,R,,,János Brumár,,,SUP093,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -302,7 +302,7 @@ SUP122,SUP,Villainous Pose,Blue,3,2,,2,,,,"Reviled, Action",,"Go again, The Crow
 **The crowd boos** you.
 
 **Go again**",Reviled Action,,,,,,C,,,Carlos Cruchaga,,,SUP122,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP123,SUP,Disdainful Delight,Yellow,2,,,3,,,,"Reviled, Block",,,,,,,,"While this is defending, if you've been booed this turn, this gets +1{d}.",Reviled Block,,,,,,C,,,Muhammad Farji,,,SUP123,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP123.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP123,SUP,Disdainful Delight,Yellow,2,,,3,,,,"Reviled, Block",,,,,,,The Crowd Boos,"While this is defending, if you've been booed this turn, this gets +1{d}.",Reviled Block,,,,,,C,,,Muhammad Farji,,,SUP123,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP123.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP124,SUP,Not So Tuff,Blue,3,,,2,,,,"Reviled, Block",,,,,,,,"When this defends a Revered hero's attack, destroy a Toughness token they control. If you do, create a Might token.",Reviled Block,,,,,,C,,,Marcus Reyno,,,SUP124,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP124.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP125,SUP,Gauntlets of Tyrannical Rex,,,,,2,,,,"Brute, Equipment, Arms",,"Go again, Temper",,,,,,"**Action** - {r}, {t}: Your next attack this turn gets +1{p}. Activate this only if there is a card with 6 or more {p} in your pitch zone. **Go again**
 
@@ -526,10 +526,10 @@ SUP238,SUP,Prime the Crowd,Blue,3,2,,2,,,,"Generic, Action",,"The Crowd Cheers, 
 **The crowd boos** each Reviled hero.
 
 **Go again**",Generic Action,,,,,,C,,,Federico Musetti,,,SUP238,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP238.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP239,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP239,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP239.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP240,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP240,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP240.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP241,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP241,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP241.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SUP242,SUP,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SUP242,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP242.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP239,SUP,Confidence,,,,,,,,,"Generic, Token, Aura",,,,,,,,"At the start of your turn, destroy this, then the next attack action card you play this turn can't be defended by more than 2 non-block cards.",Generic Token - Aura,,,,,,B,,,Sebastian Giacobino,,,SUP239,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP239.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP240,SUP,Might,,,,,,,,,"Generic, Token, Aura",,,,,,,,"At the start of your turn, destroy this, then your next attack this turn gets +1{p}.",Generic Token - Aura,,,,,,B,,,Henrique Lindner,,,SUP240,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP240.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP241,SUP,Toughness,,,,,,,,,"Generic, Token, Aura",,,,,,,,"At the start of your opponent's turn, destroy this, then the next action card you defend with this turn gets +1{d} this chain link.",Generic Token - Aura,,,,,,B,,,Henrique Lindner,,,SUP241,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP241.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SUP242,SUP,Vigor,,,,,,,,,"Generic, Token, Aura",,,,,,,,"At the start of your turn, destroy this, then gain {r}.",Generic Token - Aura,,,,,,B,,,Rio Sabda,,,SUP242,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP242.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP243,SUP,Cracked Bauble,Yellow,2,,,,,,,"Generic, Resource",,,,,,,,,,,,,,,B,,,Sam Yang,,,SUP243,https://storage.googleapis.com/cardfaces/2025-SUP/EN/SUP243.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP244,SUP,Flick Knives,,,,,1,,,,"Assassin, Ninja, Equipment, Arms",,Blade Break,,,,,,"**Once per Turn Attack Reaction** - 0: Target dagger you control that isn't on the active chain link deals 1 damage to target hero. If damage is dealt this way, the dagger has hit. Destroy the dagger.
 
