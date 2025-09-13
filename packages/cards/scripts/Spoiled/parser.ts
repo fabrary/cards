@@ -73,6 +73,16 @@ export interface ParsedCard {
   treatments5?: string[];
   tcgplayerProductId5?: string;
   tcgplayerUrl5?: string;
+  // 6th printing
+  artists6?: string[];
+  expansionSlot6?: boolean;
+  foiling6?: string;
+  identifier6?: string;
+  imageUrl6?: string;
+  rarity6?: string;
+  treatments6?: string[];
+  tcgplayerProductId6?: string;
+  tcgplayerUrl6?: string;
 }
 
 // Make fields that should be lists actually lists instead of a string (which is how CSVs store it)
@@ -82,6 +92,7 @@ const fieldsWithListValues = [
   "artists3",
   "artists4",
   "artists5",
+  "artists6",
   "abilitiesAndEffects",
   "abilityAndEffectKeywords",
   "cardKeywords",
@@ -94,6 +105,7 @@ const fieldsWithListValues = [
   "treatments3",
   "treatments4",
   "treatments5",
+  "treatments6",
   "types",
 ];
 const fieldsWithDefaultTrueStringToBooleanValues = [
@@ -107,6 +119,7 @@ const fieldsWithDefaultFalseStringToBooleanValues = [
   "expansionSlot3",
   "expansionSlot4",
   "expansionSlot5",
+  "expansionSlot6",
 ];
 const transform = (value: any, field: string) => {
   if (fieldsWithListValues.includes(field)) {
@@ -203,6 +216,16 @@ const headerMappings = {
   "Rarity 5": "rarity5",
   "TCGPlayer Product Id 5": "tcgplayerProductId5",
   "TCGPlayer Url 5": "tcgplayerUrl5",
+  // Printing 6
+  "Artists 6": "artists6",
+  "Art Variations 6": "treatments6",
+  "Expansion Slot 6": "expansionSlot6",
+  "Foiling 6": "foiling6",
+  "Identifier 6": "identifier6",
+  "Image URL 6": "imageUrl6",
+  "Rarity 6": "rarity6",
+  "TCGPlayer Product Id 6": "tcgplayerProductId6",
+  "TCGPlayer Url 6": "tcgplayerUrl6",
 };
 const transformHeader = (original: string, index: number) =>
   headerMappings[original];

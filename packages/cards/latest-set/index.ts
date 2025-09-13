@@ -10835,12 +10835,36 @@ Whenever the crowd cheers you, create a Confidence token.`,
       set: Release.SuperSlam,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.C,
+      identifier: "SUP009",
+      image: "SUP009_V3",
+      
+      
+      print: "SUP009-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.C,
+      identifier: "SUP009",
+      image: "SUP009_V3_BACK",
+      
+      
+      print: "SUP009-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
     setIdentifiers: ["APS001","HER147","SUP009"],
     sets: [Release.ArmoryDeckPleiades,Release.Promos,Release.SuperSlam],
-    specialImage: "SUP009_V2",
+    specialImage: "SUP009_V3",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Revered Guardian Hero",
