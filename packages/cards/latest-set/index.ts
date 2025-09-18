@@ -17099,12 +17099,24 @@ If they choose peace, the only actions they may play or activate during their ne
       set: Release.SuperSlam,
       
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "SUP209",
+      image: "SUP209_V2",
+      
+      
+      print: "SUP209-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["APS029","SUP209"],
     sets: [Release.ArmoryDeckPleiades,Release.SuperSlam],
-    specialImage: "SUP209",
+    specialImage: "SUP209_V2",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
     typeText: "Guardian Instant - Aura",
