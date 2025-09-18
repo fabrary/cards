@@ -627,7 +627,7 @@ SUP267,SUP,"Gallow, End of the Line",Yellow,2,3,4,3,,,,"Pirate, Necromancer, Act
 
 **Instant** - {t}, discard a card with watery grave: Until end of turn, effects controlled by opponents don't trigger when their attacks hit.
 
-**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Isuardi Therianto,Yes,,SUP267,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP267.png,,,V,C,FA,Isuardi Therianto,Yes,,SUP267,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP267.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Isuardi Therianto,Yes,,SUP267,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP267.png,,,V,C,FA,Isuardi Therianto,Yes,,SUP267,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP267_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP268,SUP,Catch of the Day,Blue,3,0,,3,,,,"Pirate, Ranger, Action",,Go again,,,,,,"Your next arrow attack this turn gets +2{p}.
 
 If a go fish effect would trigger this turn, instead it triggers twice.
@@ -644,13 +644,13 @@ If they choose peace, the only actions they may play or activate during their ne
 SUP271,SUP,Snag,Blue,3,0,,,,,,"Generic, Instant",,,,,,,,"Attack action cards can't gain {p} from their own effects, or the effects of attack reaction cards this turn.",Generic Instant,,,,No,,M,,,Nathaniel Himawan,Yes,,SUP271,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP271.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP272,SUP,Tiara of Suspense,,,,,2,,,,"Revered, Guardian, Equipment, Head",,Guardwell,,,,,,"**Instant** - Destroy this: Put a suspense counter on an aura of suspense you control. Activate this only if you've been cheered this turn.
 
-**Guardwell**",Revered Guardian Equipment - Head,,,,No,,M,,,Amirul HHF,Yes,,SUP272,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP272.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Guardwell**",Revered Guardian Equipment - Head,,,,No,,M,C,,Amirul HHF,Yes,,SUP272,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP272.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP273,SUP,Virtuoso Bodice,,,,,2,,,,"Guardian, Equipment, Chest",,Blade Break,,,,,,"When this defends, you may remove a suspense counter from an aura you control. If you do, gain {r}{r}.
 
-**Blade Break**",Guardian Equipment - Chest,,,,No,,M,,,Leo Avero,Yes,,SUP273,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP273.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Guardian Equipment - Chest,,,,No,,M,C,,Leo Avero,Yes,,SUP273,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP273.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP274,SUP,Attention Grabbers,,,,,1,,,,"Guardian, Equipment, Arms",,Blade Break,,,,,,"When this defends, you may remove a suspense counter from an aura you control. If you do, this gets +2{d} this chain link.
 
-**Blade Break**",Guardian Equipment - Arms,,,,No,,M,,,Wirawan Pranoto,Yes,,SUP274,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP274.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Blade Break**",Guardian Equipment - Arms,,,,No,,M,C,,Wirawan Pranoto,Yes,,SUP274,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP274.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SUP275,SUP,Boots to the Boards,,,,,2,,,,"Revered, Equipment, Legs",,Temper,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Toughness tokens.
 
-**Temper**",Revered Equipment - Legs,,,,No,,M,,,Surya Prasetya,Yes,,SUP275,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP275.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Temper**",Revered Equipment - Legs,,,,No,,M,C,,Surya Prasetya,Yes,,SUP275,https://storage.googleapis.com/fabmaster/cardfaces/2025-SUP/EN/SUP275.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

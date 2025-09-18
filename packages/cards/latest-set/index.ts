@@ -549,12 +549,12 @@ Put this into your soul.
     name: "Attention Grabbers",
     printings: [{
         artists: ["Wirawan Pranoto"],
-      
+      foiling: Foiling.C,
       identifier: "SUP274",
       image: "SUP274",
       isExpansionSlot: true,
       
-      print: "SUP274",
+      print: "SUP274-Cold",
       rarity: Rarity.Majestic,
       set: Release.SuperSlam,
       
@@ -1610,12 +1610,12 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
     name: "Boots to the Boards",
     printings: [{
         artists: ["Surya Prasetya"],
-      
+      foiling: Foiling.C,
       identifier: "SUP275",
       image: "SUP275",
       isExpansionSlot: true,
       
-      print: "SUP275",
+      print: "SUP275-Cold",
       rarity: Rarity.Majestic,
       set: Release.SuperSlam,
       
@@ -6104,7 +6104,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
         artists: ["Isuardi Therianto"],
       foiling: Foiling.C,
       identifier: "SUP267",
-      image: "SUP267",
+      image: "SUP267_V2",
       isExpansionSlot: true,
       
       print: "SUP267-Cold-Full Art",
@@ -6117,7 +6117,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     rarity: Rarity.Majestic,
     setIdentifiers: ["SUP267"],
     sets: [Release.SuperSlam],
-    specialImage: "SUP267",
+    specialImage: "SUP267_V2",
     subtypes: [Subtype.Ally,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Pirate Necromancer Action - Ally",
@@ -14613,12 +14613,12 @@ Your first attack each turn gets +1{p}.`,
     name: "Tiara of Suspense",
     printings: [{
         artists: ["Amirul HHF"],
-      
+      foiling: Foiling.C,
       identifier: "SUP272",
       image: "SUP272",
       isExpansionSlot: true,
       
-      print: "SUP272",
+      print: "SUP272-Cold",
       rarity: Rarity.Majestic,
       set: Release.SuperSlam,
       
@@ -16827,12 +16827,12 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     name: "Virtuoso Bodice",
     printings: [{
         artists: ["Leo Avero"],
-      
+      foiling: Foiling.C,
       identifier: "SUP273",
       image: "SUP273",
       isExpansionSlot: true,
       
-      print: "SUP273",
+      print: "SUP273-Cold",
       rarity: Rarity.Majestic,
       set: Release.SuperSlam,
       
