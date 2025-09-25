@@ -41,18 +41,14 @@ import {
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import {
-  getLegalFormats,
-  getLegalHeroes,
-  getLegalOverrides,
-} from "../Shared/legality";
+import { getLegalFormats } from "../Shared/legality";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
   const { types } = card;
   for (const [klass, value] of Object.entries(Class)) {
     if (types.includes(value as string)) {
-      classes.push(Class[klass]);
+      classes.push(Class[klass as keyof typeof Class]);
     }
   }
   if (classes.length === 0 && getTalents(card)?.length) {
@@ -98,11 +94,15 @@ const setsToUseIdentifierAsBackup = [
   Release.ArmoryDeckAzalea,
   Release.Promos,
 ];
-
+enum SetEdition {
+  A = "A",
+  F = "F",
+  U = "U",
+}
 const setEditionMapping = {
-  A: ReleaseEdition.Alpha,
-  F: ReleaseEdition.First,
-  U: ReleaseEdition.Unlimited,
+  [SetEdition.A]: ReleaseEdition.Alpha,
+  [SetEdition.F]: ReleaseEdition.First,
+  [SetEdition.U]: ReleaseEdition.Unlimited,
 };
 const getPrintings = (card: ParsedCard): Printing[] => {
   const images: Printing[] = [];
@@ -121,14 +121,14 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayer,
   } of printings) {
     // const set = setIdentifierToSetMappings[rawSet.toLowerCase()];
-    const edition = setEditionMapping[rawEdition];
+    const edition = setEditionMapping[rawEdition as keyof typeof SetEdition];
 
     const rarity = getRarityFromRawString(rawRarity);
 
     let treatment: Treatment | undefined = undefined;
     let treatments: Treatment[] = [];
     for (const artVariation of artVariations) {
-      const art = Treatment[artVariation];
+      const art = Treatment[artVariation as keyof typeof Treatment];
       if (!treatment) {
         treatment = art;
       }
@@ -165,7 +165,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       image = identifier;
     }
 
-    const foiling = Foiling[rawFoiling];
+    const foiling = Foiling[rawFoiling as keyof typeof Foiling];
     const print = getPrint({
       identifier,
       image,
@@ -210,7 +210,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
     (keyword) => {
       const exactMatch = ALL_KEYWORDS.find(([_, value]) => value === keyword);
       if (!!exactMatch) {
-        const keywordEnum = Keyword[exactMatch[0]];
+        const keywordEnum = Keyword[exactMatch[0] as keyof typeof Keyword];
         if (!!keywordEnum && !keywords.includes(keywordEnum)) {
           keywords.push(keywordEnum);
         }
@@ -218,7 +218,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
         for (const [key, value] of ALL_KEYWORDS) {
           const isAPartialMatch = keyword.includes(value as string);
           if (isAPartialMatch) {
-            const keyword = Keyword[key];
+            const keyword = Keyword[key as keyof typeof Keyword];
             if (!keywords.includes(keyword)) {
               keywords.push(keyword);
             }
@@ -286,13 +286,13 @@ const getTalents = (card: ParsedCard): Talent[] => {
   const talents = new Set<Talent>();
   for (const [talent, value] of Object.entries(Talent)) {
     if (types.includes(value as string)) {
-      talents.add(Talent[talent]);
+      talents.add(Talent[talent as keyof typeof Talent]);
     }
     if (types.includes(Type.Hero)) {
       for (const cardKeyword of cardKeywords) {
         for (const keyword of cardKeyword.split(" ")) {
           if (keyword === value) {
-            talents.add(Talent[talent]);
+            talents.add(Talent[talent as keyof typeof Talent]);
           }
         }
       }

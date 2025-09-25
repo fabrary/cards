@@ -5,7 +5,6 @@ import {
   getFlows,
   getFusions,
   getHeroFromCard,
-  getMeta,
   getNumberOrUndefined,
   getRarities,
   getRarityFromRawString,
@@ -14,7 +13,6 @@ import {
   getStringIfNotNumber,
   getTraits,
   getTypeSubtypeAndMetatype,
-  rarityStringMapping,
   sortPrintingsByReleaseOrder,
 } from "../Shared";
 import { overrides } from "../Shared/artist-overrides";
@@ -25,11 +23,9 @@ import {
   Format,
   Hero,
   Keyword,
-  Metatype,
   Printing,
   Rarity,
   Release,
-  Subtype,
   Talent,
   Treatment,
   Type,
@@ -45,7 +41,7 @@ import {
 
 import tcgplayerProductFile from "../Released/card.json";
 import { SourceJSONCard } from "../Released/parser";
-import { getLegalFormats, getLegalHeroes } from "../Shared/legality";
+import { getLegalFormats } from "../Shared/legality";
 
 const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
 
@@ -68,7 +64,7 @@ const getClasses = (card: ParsedCard): Class[] => {
   const { types } = card;
   for (const [klass, value] of Object.entries(Class)) {
     if (types.includes(value as string)) {
-      classes.push(Class[klass]);
+      classes.push(Class[klass as Class]);
     }
   }
   if (classes.length === 0 && getTalents(card)?.length) {
@@ -215,12 +211,14 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
 
   const set = setIdentifierToSetMappings[setString.toLowerCase()];
 
-  const foiling = foilingString ? Foiling[foilingString] : undefined;
+  const foiling = foilingString
+    ? Foiling[foilingString as keyof typeof Foiling]
+    : undefined;
 
   let treatment: Treatment | undefined = undefined;
   let treatments: Treatment[] = [];
   for (const treat of treatmentStrings || []) {
-    const art = Treatment[treat];
+    const art = Treatment[treat as keyof typeof Treatment];
     if (!treatment) {
       treatment = art;
     }
@@ -701,7 +699,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
       const exactMatch = ALL_KEYWORDS.find(([_, value]) => value === keyword);
 
       if (!!exactMatch) {
-        const keywordEnum = Keyword[exactMatch[0]];
+        const keywordEnum = Keyword[exactMatch[0] as keyof typeof Keyword];
         if (!!keywordEnum && !keywords.includes(keywordEnum)) {
           keywords.push(keywordEnum);
         }
@@ -709,7 +707,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
         for (const [key, value] of ALL_KEYWORDS) {
           const isAPartialMatch = keyword.includes(value as string);
           if (isAPartialMatch) {
-            const keyword = Keyword[key];
+            const keyword = Keyword[key as keyof typeof Keyword];
             if (!keywords.includes(keyword)) {
               keywords.push(keyword);
             }
@@ -777,13 +775,13 @@ const getTalents = (card: ParsedCard): Talent[] => {
   const talents = new Set<Talent>();
   for (const [talent, value] of Object.entries(Talent)) {
     if (types.includes(value as string)) {
-      talents.add(Talent[talent]);
+      talents.add(Talent[talent as keyof typeof Talent]);
     }
     if (types.includes(Type.Hero)) {
       for (const cardKeyword of cardKeywords) {
         for (const keyword of cardKeyword.split(" ")) {
           if (keyword === value) {
-            talents.add(Talent[talent]);
+            talents.add(Talent[talent as keyof typeof Talent]);
           }
         }
       }

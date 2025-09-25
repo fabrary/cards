@@ -137,6 +137,7 @@ export enum Format {
   Open = "Open",
   ProjectBlue = "Project Blue",
   Sealed = "Sealed",
+  SilverAge = "Silver Age",
   UltimatePitFight = "Ultimate Pit Fight",
 }
 

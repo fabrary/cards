@@ -19,6 +19,7 @@ import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields
 import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
 import {
   getConfirmedLegalFormats,
+  getLegalFormats,
   getLegalHeroes,
   getLegalOverrides,
 } from "./Shared/legality";

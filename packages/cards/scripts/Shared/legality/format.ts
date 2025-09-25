@@ -28,16 +28,38 @@ const limitedLegalOverrideCards = [
 ];
 
 const livingLegendBannedCards = ["Kraken's Aethervein"];
+const RARITIES_NOT_ALLOWED_IN_COMMONER = [
+  Rarity.SuperRare,
+  Rarity.Majestic,
+  Rarity.Legendary,
+  Rarity.Marvel,
+];
+const RARITIES_ALLOWED_IN_COMMONER = [
+  Rarity.Basic,
+  Rarity.Token,
+  Rarity.Common,
+  Rarity.Rare,
+];
+const RARITIES_ALLOWED_IN_CLASH = [
+  Rarity.Basic,
+  Rarity.Token,
+  Rarity.Common,
+  Rarity.Rare,
+];
+
+const YOUNG_HERO_FORMATS = [
+  Format.Blitz,
+  Format.BlitzLivingLegend,
+  Format.UltimatePitFight,
+];
 
 const LIMITED_SETS = Object.values(coreSetIdentifiers);
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
-  (format) => format !== Format.Open
+  (format) => format !== Format.Open && format !== Format.SilverAge
 );
 
-const CARDS_TO_LOG: string[] = [
-  // "Magrar"
-];
+const CARDS_TO_LOG: string[] = ["Prism, Awakener of Sol"];
 
 export const getLegalFormats = (
   bannedFormats: Format[],
@@ -64,7 +86,8 @@ export const getLegalFormats = (
     subtypes.includes(Subtype.Young) ||
     classes.includes(Class.Adjudicator) ||
     subtypes.includes(Subtype.PitFighter);
-  const isYoungHero = isYoung && isHero;
+  const isAnAdultHero = isHero && !isYoung;
+  const isAYoungHero = isYoung && isHero;
 
   for (const format of FORMATS_TO_CHECK) {
     let isLegalPerFormat = true;
@@ -72,8 +95,10 @@ export const getLegalFormats = (
     const isBlitzFormat = [Format.Blitz, Format.BlitzLivingLegend].includes(
       format
     );
-    if (isBlitzFormat && !blitzLegal) {
-      isLegalPerFormat = false;
+    if (isBlitzFormat) {
+      if (!blitzLegal || isAnAdultHero) {
+        isLegalPerFormat = false;
+      }
     }
 
     const isCCFormat = [
@@ -88,11 +113,8 @@ export const getLegalFormats = (
     if (isClashFormat) {
       const isBanned = clashBannedCards.includes(card.name);
       const isNotTooRare =
-        rarities.some((rarity) =>
-          [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
-            rarity
-          )
-        ) || rarities.every((rarity) => rarity === Rarity.Promo);
+        rarities.some((rarity) => RARITIES_ALLOWED_IN_CLASH.includes(rarity)) ||
+        rarities.every((rarity) => rarity === Rarity.Promo);
       const isMentor = types.includes(Type.Mentor);
       const isSpecialization =
         keywords.includes(Keyword.Specialization) ||
@@ -108,7 +130,7 @@ export const getLegalFormats = (
           isMentor ||
           isSpecialization ||
           isWeapon ||
-          isYoungHero);
+          isAYoungHero);
 
       if (!isAllowed) {
         isLegalPerFormat = false;
@@ -120,6 +142,9 @@ export const getLegalFormats = (
       const isPitFighter = subtypes.includes(Subtype.PitFighter);
       if (isPitFighter) {
         isLegalPerFormat = true;
+      }
+      if (isAnAdultHero) {
+        isLegalPerFormat = false;
       }
     }
 
@@ -139,8 +164,13 @@ export const getLegalFormats = (
     }
 
     const isCommonerFormat = format === Format.Commoner;
-    if (isCommonerFormat && !commonerLegal) {
-      isLegalPerFormat = false;
+    const cardMatchesCommonerRarity = rarities.some((rarity) =>
+      RARITIES_ALLOWED_IN_COMMONER.includes(rarity)
+    );
+    if (isCommonerFormat) {
+      if (!commonerLegal || !cardMatchesCommonerRarity) {
+        isLegalPerFormat = false;
+      }
     }
 
     const isLimitedFormat = [Format.Draft, Format.Sealed].includes(format);
@@ -187,7 +217,7 @@ export const getLegalFormats = (
       }
     }
 
-    const heroMatchesFormat = isYoungHero
+    const heroMatchesFormat = isAYoungHero
       ? ![
           Format.ClassicConstructed,
           Format.ClassicConstructedLivingLegend,
@@ -278,20 +308,38 @@ const limitedFormatReleases = releaseInfoForLimitedFormat.map(
   ({ release }) => release
 );
 
-export const getConfirmedLegalFormats = (card: Card) => {
-  const legalFormats = card.legalFormats.filter((format) => {
+export const getConfirmedLegalFormats = ({
+  classes,
+  keywords,
+  legalFormats,
+  name,
+  printings,
+  rarities,
+  sets,
+  subtypes,
+  types,
+}: Card) => {
+  const isHero = types.includes(Type.Hero);
+  const isYoung =
+    subtypes.includes(Subtype.Young) ||
+    classes.includes(Class.Adjudicator) ||
+    subtypes.includes(Subtype.PitFighter);
+  const isAnAdultHero = isHero && !isYoung;
+  const isAYoungHero = isYoung && isHero;
+
+  const confirmedLegalFormats = legalFormats.filter((format) => {
     let isConfirmedLegal = true;
 
     const isLimited = [Format.Draft, Format.Sealed].includes(format);
     if (isLimited) {
       const coreSetsCardIsIn = releaseInfoForLimitedFormat.filter(
-        ({ release }) => card.sets.includes(release)
+        ({ release }) => sets.includes(release)
       );
       const isInAtLeastOneLimitedSet = coreSetsCardIsIn.length > 0;
       isConfirmedLegal = isInAtLeastOneLimitedSet;
 
       // Make sure card isn't an expansion card in every core set it's in
-      const cardIsAnExpansionCardInEveryLimitedSet = card.printings.every(
+      const cardIsAnExpansionCardInEveryLimitedSet = printings.every(
         ({ isExpansionSlot, set }) => {
           const isCoreSet = limitedFormatReleases.includes(set);
 
@@ -326,7 +374,7 @@ export const getConfirmedLegalFormats = (card: Card) => {
 
           if (rarityRestrictionsAreEqual) {
             // check that matches rarity restrictions
-            const cardViolatesRarityRestrictions = card.rarities
+            const cardViolatesRarityRestrictions = rarities
               .filter(
                 (rarity) => ![Rarity.Promo, Rarity.Marvel].includes(rarity)
               )
@@ -341,8 +389,43 @@ export const getConfirmedLegalFormats = (card: Card) => {
       }
     }
 
+    const isYoungHeroFormat = YOUNG_HERO_FORMATS.includes(format);
+    if (isYoungHeroFormat) {
+      if (isAnAdultHero) {
+        isConfirmedLegal = false;
+      }
+    }
+
+    const isClashFormat = format === Format.Clash;
+    if (isClashFormat) {
+      const isBanned = clashBannedCards.includes(name);
+      const isNotTooRare =
+        rarities.some((rarity) => RARITIES_ALLOWED_IN_CLASH.includes(rarity)) ||
+        rarities.every((rarity) => rarity === Rarity.Promo);
+      const isMentor = types.includes(Type.Mentor);
+      const isSpecialization =
+        keywords?.includes(Keyword.Specialization) ||
+        clashLegalOverrides.some(
+          (override) =>
+            override.card === name && override.specializations.length > 0
+        );
+      const isWeapon = types.includes(Type.Weapon);
+
+      const isAllowed =
+        !isBanned &&
+        (isNotTooRare ||
+          isMentor ||
+          isSpecialization ||
+          isWeapon ||
+          isAYoungHero);
+
+      if (!isAllowed) {
+        isConfirmedLegal = false;
+      }
+    }
+
     return isConfirmedLegal;
   });
 
-  return legalFormats;
+  return confirmedLegalFormats;
 };

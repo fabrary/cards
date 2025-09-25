@@ -44,6 +44,15 @@ describe("Card identifiers", () => {
         },
       },
     ],
+    [
+      "Maxx ‘The Hype’ Nitro",
+      {
+        expected: {
+          number: "maxx-the-hype-nitro",
+          string: "maxx-the-hype-nitro",
+        },
+      },
+    ],
   ];
 
   it.each(identifiers)(

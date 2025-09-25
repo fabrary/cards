@@ -16,6 +16,7 @@ const spoiledSetCardsFileAVS = `${__dirname}/Flesh and Blood Spoiler Card Data -
 const spoiledSetCardsFileBDD = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
 const spoiledSetCardsFileMPG = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
 const spoiledSetCardsFileSUP = `${__dirname}/Flesh and Blood Spoiler Card Data - SUP.csv`;
+const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
@@ -46,7 +47,10 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   });
 const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
-const parsedSpoiledPromoCards = parseCSV(spoiledPromoCardsFile)
+const parsedSpoiledPromoAndGemCards = [
+  ...parseCSV(spoiledPromoCardsFile),
+  ...parseCSV(spoiledGEMCardsFile),
+]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
   .filter((card) => {
@@ -56,7 +60,7 @@ const parsedSpoiledPromoCards = parseCSV(spoiledPromoCardsFile)
     );
     return !matchingOverride;
   });
-const spoiledPromoCards: Card[] = mapCSV(parsedSpoiledPromoCards);
+const spoiledPromoCards: Card[] = mapCSV(parsedSpoiledPromoAndGemCards);
 
 const deduplicatedCards: Card[] = [...overrideCards];
 
