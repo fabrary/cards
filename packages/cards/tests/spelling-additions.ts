@@ -462,7 +462,7 @@ export const fabDictionary = [
   "vantom",
   "venomback",
   "verdance",
-  "vetreiđi",
+  "vetreiði",
   "vipox",
   "viserai",
   "viziertronic",

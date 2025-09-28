@@ -155,10 +155,10 @@ const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
   const printings = card.printings.filter(({ set }) => set === latestSet);
 
   const defaultPrinting = getDefaultPrinting(card, printings);
-  const defaultImage = defaultPrinting.image;
+  const defaultImage = defaultPrinting?.image;
 
   const specialPrinting = getSpecialPrinting(card, printings);
-  const specialImage = specialPrinting.image;
+  const specialImage = specialPrinting?.image;
 
   return { ...card, defaultImage, printings, specialImage };
 });

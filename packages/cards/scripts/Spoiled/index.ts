@@ -34,7 +34,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAVS),
   ...parseCSV(spoiledSetCardsFileBDD),
   ...parseCSV(spoiledSetCardsFileMPG),
-  ...parseCSV(spoiledSetCardsFileSUP),
+  // ...parseCSV(spoiledSetCardsFileSUP),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)

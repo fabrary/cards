@@ -59,7 +59,9 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open && format !== Format.SilverAge
 );
 
-const CARDS_TO_LOG: string[] = ["Prism, Awakener of Sol"];
+const CARDS_TO_LOG: string[] = [
+  // "Prism, Awakener of Sol"
+];
 
 export const getLegalFormats = (
   bannedFormats: Format[],
