@@ -71,6 +71,9 @@ const specialImagePrintingOverrides: {
   "fate-foreseen-red": {
     print: "FAB024-Rainbow",
   },
+  "pleiades-superstar": {
+    print: "SUP009-Cold-Full Art",
+  },
   "pitfall-trap-yellow": {
     print: "LGS151-Rainbow",
   },
