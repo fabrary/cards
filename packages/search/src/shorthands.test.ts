@@ -14,6 +14,24 @@ describe("Shorthands", () => {
     expect(increaseTheTension).toBeFalsy();
   });
 
+  it("Gets cards with buff in name when searching exact", () => {
+    const { searchResults } = cardSearch.search("Bluster Buff");
+    expect(searchResults.length).toBeGreaterThanOrEqual(1);
+    const blusterBuff = searchResults.find(
+      ({ name }) => name === "Bluster Buff"
+    );
+    expect(blusterBuff).toBeTruthy();
+  });
+
+  it("Gets cards with buff in name when searching buff", () => {
+    const { searchResults } = cardSearch.search("Buff");
+    expect(searchResults.length).toBeGreaterThanOrEqual(1);
+    const blusterBuff = searchResults.find(
+      ({ name }) => name === "Bluster Buff"
+    );
+    expect(blusterBuff).toBeTruthy();
+  });
+
   it.each(shorthands.flatMap(({ shorthands }) => shorthands))(
     "Gets matching cards for %s",
     (shorthand) => {

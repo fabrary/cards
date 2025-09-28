@@ -30,9 +30,12 @@ export const getShorthands = (card: Card): string[] | undefined => {
 
     if (filters.functionalText) {
       // TODO need to figure out regex match
-      const matches = filters.functionalText.some((functionalText) =>
-        card.functionalText?.includes(functionalText)
-      );
+      const matches = filters.functionalText.some((functionalText) => {
+        const regex = new RegExp(functionalText, "i");
+        const textMatches = card.functionalText?.match(regex) || [];
+
+        return textMatches.length > 0;
+      });
       if (matches) {
         matchesAtLeastOneFilter = true;
       }
@@ -94,22 +97,20 @@ export const getShorthands = (card: Card): string[] | undefined => {
     }
 
     const shouldAddShorthand = matchesAllFilters && matchesAtLeastOneFilter;
+    if (card.cardIdentifier === CARD_IDENTIFIER_TO_LOG) {
+      console.log(
+        JSON.stringify(
+          {
+            shorthand: { description, filters, shorthands },
+            matchesAllFilters,
+            matchesAtLeastOneFilter,
+          },
+          null,
+          2
+        )
+      );
+    }
     if (shouldAddShorthand) {
-      if (card.cardIdentifier === CARD_IDENTIFIER_TO_LOG) {
-        console.log(
-          JSON.stringify(
-            {
-              card,
-              description,
-              filters,
-              matchesAllFilters,
-              matchesAtLeastOneFilter,
-            },
-            null,
-            2
-          )
-        );
-      }
       cardShorthands.push(...shorthands);
     }
   }

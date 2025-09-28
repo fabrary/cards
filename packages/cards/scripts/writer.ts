@@ -260,18 +260,40 @@ const sortAlphabetically = (c1: Card, c2: Card): number => {
   return c1Name.localeCompare(c2Name);
 };
 
+const CARD_CHUNK_SIZE = 800;
+
 const generateTS = (cards: Card[]): string => {
   cards.sort(sortAlphabetically);
-  const cards1 = cards.slice(0, Math.ceil(cards.length / 4));
-  const cards2 = cards.slice(
-    Math.ceil(cards.length / 4),
-    Math.ceil(cards.length / 2)
-  );
-  const cards3 = cards.slice(
-    Math.ceil(cards.length / 2),
-    Math.ceil((3 * cards.length) / 4)
-  );
-  const cards4 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
+
+  const cardChunks: Card[][] = [];
+
+  let cardsChunked = 0;
+  do {
+    console.log("Chunk: ", cardChunks.length + 1);
+    console.log("Starting index: ", cardsChunked);
+
+    const indexToStart = cardsChunked;
+    const indexToStop = indexToStart + CARD_CHUNK_SIZE;
+    const chunk = cards.slice(indexToStart, indexToStop);
+    cardsChunked += chunk.length;
+    console.log("Cards chunked: ", chunk.length);
+
+    cardChunks.push(chunk);
+  } while (cardsChunked < cards.length);
+
+  console.log(cardChunks.length + " card chunks");
+
+  // const cards1 = cards.slice(0, Math.ceil(cards.length / 5));
+  // const cards2 = cards.slice(
+  //   Math.ceil(cards.length / 4),
+  //   Math.ceil(cards.length / 2)
+  // );
+  // const cards3 = cards.slice(
+  //   Math.ceil(cards.length / 2),
+  //   Math.ceil((3 * cards.length) / 4)
+  // );
+  // const cards4 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
+  // const cards5 = cards.slice(Math.ceil((3 * cards.length) / 4), cards.length);
   const ts = `
   import {
     Bond,
@@ -295,16 +317,20 @@ const generateTS = (cards: Card[]): string => {
     Type 
   } from '@flesh-and-blood/types';
 
-  const cards1: Card[] =  [${cards1.map(generateCardTypeScript)}];
-  const cards2: Card[] =  [${cards2.map(generateCardTypeScript)}];
-  const cards3: Card[] =  [${cards3.map(generateCardTypeScript)}];
-  const cards4: Card[] =  [${cards4.map(generateCardTypeScript)}];
+  ${cardChunks
+    .map((cards, chunk) => {
+      return `const cards${chunk + 1}: Card[] = [${cards.map(
+        generateCardTypeScript
+      )}];`;
+    })
+    .join("\n")}
 
   export const cards: Card[] =  [
-    ...cards1,
-    ...cards2,
-    ...cards3,
-    ...cards4,
+  ${cardChunks
+    .map((_, chunk) => {
+      return `...cards${chunk + 1},`;
+    })
+    .join("\n")}
   ];
   `;
   return ts;

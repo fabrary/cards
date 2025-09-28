@@ -21,7 +21,7 @@
     Type 
   } from '@flesh-and-blood/types';
 
-  const cards1: Card[] =  [{
+  const cards1: Card[] = [{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "a-good-clean-fight-red",
     classes: [Class.NotClassed],
@@ -168,7 +168,7 @@ When this leaves the arena, your next attack this turn gets +6{p}.`,
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -248,7 +248,7 @@ When this leaves the arena, your next attack this turn gets +5{p}.`,
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -328,7 +328,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -1015,7 +1015,7 @@ When this is pitched, defense reaction cards cost opponents an additional {r} to
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -1652,7 +1652,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -2700,7 +2700,7 @@ If a go fish effect would trigger this turn, instead it triggers twice.
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -3709,7 +3709,7 @@ At the beginning of your end phase, destroy this.`,
     pitch: 3,
     
     
-    shorthands: ["Tap"],
+    shorthands: ["Buff","Tap"],
     
     
     
@@ -5331,8 +5331,7 @@ When this enters the arena, target defending action card gets +1{d} this chain l
     
   
   
-  }];
-  const cards2: Card[] =  [{
+  },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "edge-of-their-seats-red",
     classes: [Class.Guardian],
@@ -5401,7 +5400,7 @@ When this leaves the arena, your next attack this turn gets +5{p}.`,
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -5481,7 +5480,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -5561,7 +5560,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -7305,7 +7304,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     
     
     
-    shorthands: ["Flick","Hurl","Throw"],
+    shorthands: ["Flick"],
     
     
     
@@ -7844,7 +7843,7 @@ If you control 3 or more auras, this gets +3{p}.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: ["Buff","Tap"],
     
     
     
@@ -8928,7 +8927,7 @@ Create a Toughness token.
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -8995,7 +8994,7 @@ Create a Toughness token.
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -9062,7 +9061,7 @@ Create a Toughness token.
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -9129,7 +9128,7 @@ Create a Toughness token.
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -10659,8 +10658,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     talents: [Talent.Reviled],
   
   
-  }];
-  const cards3: Card[] =  [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "leave-them-hanging-red",
     classes: [Class.Guardian],
@@ -10731,7 +10729,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -11361,7 +11359,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
     
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -13580,7 +13578,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -13649,7 +13647,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -13718,7 +13716,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -14015,7 +14013,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -14487,7 +14485,7 @@ Create a Might token.
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -15070,7 +15068,7 @@ Create a Might token.
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -15999,7 +15997,7 @@ Create a Might token.
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -16010,8 +16008,7 @@ Create a Might token.
     
   
   
-  }];
-  const cards4: Card[] =  [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "spew-obscenities-yellow",
     classes: [Class.Guardian],
@@ -17424,7 +17421,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -17504,7 +17501,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -17584,7 +17581,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -17955,7 +17952,7 @@ If this was played from arsenal, the next attack action card you play this turn 
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -20070,7 +20067,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -20386,7 +20383,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 1,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -20468,7 +20465,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 2,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -20550,7 +20547,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 3,
     
     
-    
+    shorthands: ["Buff"],
     
     
     
@@ -21376,9 +21373,6 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
   }];
 
   export const cards: Card[] =  [
-    ...cards1,
-    ...cards2,
-    ...cards3,
-    ...cards4,
+  ...cards1,
   ];
   
