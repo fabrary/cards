@@ -14,6 +14,7 @@
     Rarity,
     Release,
     ReleaseEdition,
+    Shorthand,
     Subtype,
     Talent,
     Trait,
@@ -88,7 +89,7 @@
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -168,7 +169,7 @@ When this leaves the arena, your next attack this turn gets +6{p}.`,
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -248,7 +249,7 @@ When this leaves the arena, your next attack this turn gets +5{p}.`,
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -328,7 +329,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -871,7 +872,7 @@ When this is pitched, defense reaction cards cost opponents an additional {r} to
     pitch: 1,
     power: 4,
     
-    shorthands: ["Untap"],
+    shorthands: [Shorthand.Untap],
     
     
     
@@ -1015,7 +1016,7 @@ When this is pitched, defense reaction cards cost opponents an additional {r} to
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -1095,7 +1096,7 @@ When this hits a Brute hero, destroy an aura token they control.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -1175,7 +1176,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -1652,7 +1653,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -1970,7 +1971,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -2180,7 +2181,7 @@ At the start of your turn, destroy this.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -2384,7 +2385,7 @@ At the start of your turn, destroy this.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -2462,7 +2463,7 @@ At the start of your turn, destroy this.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -2700,7 +2701,7 @@ If a go fish effect would trigger this turn, instead it triggers twice.
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -2780,7 +2781,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -3153,7 +3154,7 @@ At the start of your turn, destroy this.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -3467,7 +3468,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -3547,7 +3548,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -3709,7 +3710,7 @@ At the beginning of your end phase, destroy this.`,
     pitch: 3,
     
     
-    shorthands: ["Buff","Tap"],
+    shorthands: [Shorthand.Buffs,Shorthand.Tap],
     
     
     
@@ -3909,7 +3910,7 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -3987,7 +3988,7 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -4526,7 +4527,7 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -4604,7 +4605,7 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -4762,7 +4763,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -4920,7 +4921,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts an aura they
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -5080,7 +5081,7 @@ When this hits a Guardian hero, destroy an aura they control.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -5400,7 +5401,7 @@ When this leaves the arena, your next attack this turn gets +5{p}.`,
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -5480,7 +5481,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -5560,7 +5561,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -5638,7 +5639,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -5794,7 +5795,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -5950,7 +5951,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -6028,7 +6029,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -6362,7 +6363,7 @@ When this hits a Revered hero, destroy the top card of their deck.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -6442,7 +6443,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -6520,7 +6521,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -7304,7 +7305,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     
     
     
-    shorthands: ["Flick"],
+    shorthands: [Shorthand.Flick],
     
     
     
@@ -7382,7 +7383,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -7460,7 +7461,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     pitch: 2,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -7538,7 +7539,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     pitch: 3,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -7620,7 +7621,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     pitch: 2,
     power: 4,
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -7843,7 +7844,7 @@ If you control 3 or more auras, this gets +3{p}.`,
     
     
     
-    shorthands: ["Buff","Tap"],
+    shorthands: [Shorthand.Buffs,Shorthand.Tap],
     
     
     
@@ -7921,7 +7922,7 @@ If you control 3 or more auras, this gets +3{p}.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -7999,7 +8000,7 @@ If you control 3 or more auras, this gets +3{p}.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -8483,7 +8484,7 @@ This counts as a Gold.
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -8561,7 +8562,7 @@ This counts as a Gold.
     pitch: 3,
     power: 1,
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -8927,7 +8928,7 @@ Create a Toughness token.
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -8994,7 +8995,7 @@ Create a Toughness token.
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -9061,7 +9062,7 @@ Create a Toughness token.
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -9128,7 +9129,7 @@ Create a Toughness token.
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -9206,7 +9207,7 @@ Create a Toughness token.
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -10301,7 +10302,7 @@ If you've been cheered this turn, this gets **go again**.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -10395,7 +10396,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     shortName: "Kayo, RKO",
     
     
@@ -10489,7 +10490,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     shortName: "Kayo, RKO",
     
     
@@ -10567,7 +10568,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -10729,7 +10730,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -10953,7 +10954,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 1,
     power: 8,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -11125,7 +11126,7 @@ Whenever the crowd boos you, create a Might token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -11219,7 +11220,7 @@ Whenever the crowd boos you, create a Might token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -11359,7 +11360,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
     
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -11919,7 +11920,7 @@ When this defends, **clash** with the attacking hero. The winner may choose an a
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -12366,7 +12367,7 @@ When this defends, if it has 6 or more {d}, put it on the bottom of its owner's 
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -12446,7 +12447,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -12524,7 +12525,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     pitch: 3,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -13094,7 +13095,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -13210,7 +13211,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -13578,7 +13579,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -13647,7 +13648,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -13716,7 +13717,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -14013,7 +14014,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -14091,7 +14092,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -14169,7 +14170,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -14325,7 +14326,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -14485,7 +14486,7 @@ Create a Might token.
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -14548,7 +14549,7 @@ Create a Might token.
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -14611,7 +14612,7 @@ Create a Might token.
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -14830,7 +14831,7 @@ Create a Might token.
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -15068,7 +15069,7 @@ Create a Might token.
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -15226,7 +15227,7 @@ Create a Might token.
     pitch: 1,
     power: 8,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -15304,7 +15305,7 @@ Create a Might token.
     pitch: 2,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -15382,7 +15383,7 @@ Create a Might token.
     pitch: 3,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -15540,7 +15541,7 @@ Create a Might token.
     pitch: 1,
     power: 8,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -15776,7 +15777,7 @@ Create a Might token.
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -15997,7 +15998,7 @@ Create a Might token.
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -16313,7 +16314,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -16391,7 +16392,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -16627,7 +16628,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -16705,7 +16706,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -17181,7 +17182,7 @@ When this hits a Reviled hero, put a card from their arsenal on the bottom of th
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -17261,7 +17262,7 @@ When this hits a Revered hero, they discard a card.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -17421,7 +17422,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -17501,7 +17502,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -17581,7 +17582,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -17952,7 +17953,7 @@ If this was played from arsenal, the next attack action card you play this turn 
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -18255,7 +18256,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -18333,7 +18334,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -18641,7 +18642,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -18733,7 +18734,7 @@ Wheenver the crowd cheers you, create a Toughness token.`,
     
     
     
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -18813,7 +18814,7 @@ When this leaves the arena, {t} target Brute hero. They don't {u} during their n
     pitch: 3,
     
     
-    shorthands: ["Tap","Untap"],
+    shorthands: [Shorthand.Tap,Shorthand.Untap],
     
     
     
@@ -18893,7 +18894,7 @@ When this hits a Reviled hero, **the crowd cheers** you.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -18973,7 +18974,7 @@ When this hits a Reviled hero, **the crowd cheers** you.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -19529,7 +19530,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -19607,7 +19608,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -19765,7 +19766,7 @@ If this is defended by 3 or more cards, it gets **go again**.`,
     pitch: 1,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -20067,7 +20068,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -20145,7 +20146,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -20223,7 +20224,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -20383,7 +20384,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 1,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -20465,7 +20466,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 2,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -20547,7 +20548,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     pitch: 3,
     
     
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -21077,7 +21078,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
     pitch: 1,
     power: 7,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -21140,7 +21141,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
     pitch: 2,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -21359,7 +21360,7 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
     pitch: 3,
     power: 6,
     
-    
+    shorthands: [Shorthand.Poppers],
     
     
     

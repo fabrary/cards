@@ -39,6 +39,21 @@ export const getCardIdentifier = (
   return `${name}${suffix}`;
 };
 
+export const getFrontAndBackCardIdentifier = (
+  card: { name: string; pitch?: string | number },
+  cardBack?: { name: string; pitch?: string | number },
+  useNumber?: boolean
+) => {
+  const cardFrontIdentifier = getCardIdentifier(card, useNumber);
+  const cardBackIdentifier = cardBack
+    ? getCardIdentifier(cardBack, useNumber)
+    : "";
+
+  const joiner = cardBackIdentifier ? "--" : "";
+
+  return `${cardFrontIdentifier}${joiner}${cardBackIdentifier}`;
+};
+
 export const getIsArenaCard = ({
   keywords,
   traits,

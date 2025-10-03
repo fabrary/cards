@@ -39,7 +39,7 @@ export interface Card {
   pitch?: number;
   power?: number;
   restrictedFormats?: Format[];
-  shorthands?: string[];
+  shorthands?: Shorthand[];
   shortName?: string;
   specialArcane?: string;
   specialCost?: string;
@@ -85,6 +85,14 @@ export enum Foiling {
   C = "Cold",
   G = "Gold",
   R = "Rainbow",
+}
+
+export enum Shorthand {
+  Buffs = "Buffs",
+  Flick = "Flick",
+  Poppers = "Poppers",
+  Tap = "Tap",
+  Untap = "Untap",
 }
 
 export enum Treatment {

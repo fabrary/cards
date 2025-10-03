@@ -1,4 +1,10 @@
-import { Class, Keyword, Subtype, Type } from "@flesh-and-blood/types";
+import {
+  Class,
+  Keyword,
+  Shorthand,
+  Subtype,
+  Type,
+} from "@flesh-and-blood/types";
 
 export const shorthands: {
   description: string;
@@ -13,7 +19,7 @@ export const shorthands: {
     types?: Type[];
   };
   helper?: string;
-  shorthands: string[];
+  shorthands: Shorthand[];
 }[] = [
   // {
   //   description: "Attack actions",
@@ -57,7 +63,7 @@ export const shorthands: {
         "dagger you control that isn't on the active chain link deals 1 damage",
       ],
     },
-    shorthands: ["Flick"],
+    shorthands: [Shorthand.Flick],
   },
   // {
   //   description: "Gain life",
@@ -102,6 +108,7 @@ export const shorthands: {
     expanded: ["+ {p}"],
     filters: {
       functionalText: [
+        // https://regex101.com/
         "target .* get \\+.*\\{p\\}",
         "target .* gets \\+.*\\{p\\}",
         "target .* gain \\+.*\\{p\\}",
@@ -112,21 +119,21 @@ export const shorthands: {
         "next .* gains \\+.*\\{p\\}",
       ],
     },
-    shorthands: ["Buff"],
+    shorthands: [Shorthand.Buffs],
   },
-  // {
-  //   description: "Poppers",
-  //   expanded: ["!c:illusionist", "st:attack", "pwr:>=6", "def:>=0"],
-  //   filters: {
-  //     defenseGreaterThanOrEqualTo: 0,
-  //     notClass: [Class.Illusionist],
-  //     powerGreaterThanOrEqualTo: 6,
-  //     subtypes: [Subtype.Attack],
-  //   },
-  //   helper:
-  //     '6+ power non-Illusionist attacks that can "pop" phantasm attacks when defending',
-  //   shorthands: ["Poppers", "Popper"],
-  // },
+  {
+    description: "Poppers",
+    expanded: ["!c:illusionist", "st:attack", "pwr:>=6", "def:>=0"],
+    filters: {
+      defenseGreaterThanOrEqualTo: 0,
+      notClass: [Class.Illusionist],
+      powerGreaterThanOrEqualTo: 6,
+      subtypes: [Subtype.Attack],
+    },
+    helper:
+      '6+ power non-Illusionist attacks that can "pop" phantasm attacks when defending',
+    shorthands: [Shorthand.Poppers],
+  },
   // {
   //   description: "Spellvoid",
   //   expanded: ['k:"spellvoid"'],
@@ -141,7 +148,7 @@ export const shorthands: {
     filters: {
       functionalText: ["{t}"],
     },
-    shorthands: ["Tap"],
+    shorthands: [Shorthand.Tap],
   },
   {
     description: "Untap",
@@ -149,7 +156,7 @@ export const shorthands: {
     filters: {
       functionalText: ["{u}"],
     },
-    shorthands: ["Untap"],
+    shorthands: [Shorthand.Untap],
   },
 ];
 

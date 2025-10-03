@@ -13,7 +13,7 @@
     "test": "jest",
     "update:dependencies": "ncu -u latest-cards && npm i",
     "update:snapshots": "npm test -- -u",
-    "new": "ts-node tests/new-cards.ts",
+    "new": "ts-node tests/new-and-removed-cards.ts",
     "tts": "ts-node tts/index.ts",
     "sitemap": "ts-node sitemap/index.ts",
     "full": "npm run transform && npm run build && npm test && npm run new && npm run tts && npm run sitemap",

@@ -256,6 +256,10 @@ export const abbreviations: Abbreviation[] = [
     card: "Mask of Momentum",
   },
   {
+    abbreviations: ["MoPL"],
+    card: "Mask of the Pouncing Lynx",
+  },
+  {
     abbreviations: ["MnG"],
     card: "Meat and Greet",
   },

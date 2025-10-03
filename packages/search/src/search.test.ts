@@ -625,20 +625,6 @@ describe("Shorthands property works", () => {
     expect(throwCaution).toBeTruthy();
   });
 
-  it("Throw: flick knives", () => {
-    const { searchResults, appliedFilters, keywords } =
-      cardSearch.search("throw");
-    expect(searchResults).toBeTruthy();
-
-    console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
-    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
-
-    const flickKnives = searchResults.find(
-      ({ cardIdentifier }) => cardIdentifier === "flick-knives"
-    );
-    expect(flickKnives).toBeTruthy();
-  });
-
   it("Flick: flicker wisp", () => {
     const { searchResults } = cardSearch.search("flick");
     expect(searchResults).toBeTruthy();

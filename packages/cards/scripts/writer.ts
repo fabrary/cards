@@ -16,6 +16,7 @@ import {
   Rarity,
   Release,
   ReleaseEdition,
+  Shorthand,
   Subtype,
   Talent,
   Trait,
@@ -222,7 +223,11 @@ const generateCardTypeScript = (card: Card): String => {
     }
     ${
       card.shorthands && card.shorthands.length > 0
-        ? `shorthands: [${getStringValues(card.shorthands)}],`
+        ? `shorthands: [${getEnumValues(
+            card.shorthands,
+            "Shorthand",
+            Shorthand
+          )}],`
         : ``
     }
     ${card.shortName ? `shortName: "${card.shortName}",` : ``}
@@ -310,6 +315,7 @@ const generateTS = (cards: Card[]): string => {
     Rarity,
     Release,
     ReleaseEdition,
+    Shorthand,
     Subtype,
     Talent,
     Trait,

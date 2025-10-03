@@ -68,8 +68,9 @@ export type Filter =
   | "references"
   | "s"
   | "set"
-  // | "shortand"
-  // | "shortands"
+  | "short"
+  | "shortand"
+  | "shortands"
   | "sp"
   | "specialization"
   | "specializations"
@@ -236,12 +237,11 @@ const setFilter: FilterToPropertyMapping = {
   partialMatch: true,
 };
 
-// const shorthandsFilter: FilterToPropertyMapping = {
-//   property: "shorthands",
-//   isArray: true,
-//   partialMatch: true,
-//   optional: "#",
-// };
+const shorthandsFilter: FilterToPropertyMapping = {
+  property: "shorthands",
+  isArray: true,
+  partialMatch: true,
+};
 
 const specializationsFilter: FilterToPropertyMapping = {
   property: "specializations",
@@ -340,8 +340,9 @@ export const filtersToCardPropertyMappings = {
   rf: bannedFilter,
   s: setFilter,
   set: setFilter,
-  // short: shorthandsFilter,
-  // shorthand: shorthandsFilter,
+  short: shorthandsFilter,
+  shorthand: shorthandsFilter,
+  shorthands: shorthandsFilter,
   sp: specializationsFilter,
   spec: specializationsFilter,
   specialization: specializationsFilter,
@@ -603,7 +604,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
           }
         } else if (["art", "artist"].includes(filterKey)) {
           artists = values;
-        } else if (["is", "is", "meta"].includes(filterKey)) {
+        } else if (["is", "meta"].includes(filterKey)) {
           const metaValues = getMetaValuesFromText(values);
           values = metaValues.map((v) =>
             v.toLowerCase().replaceAll(PUNCTUATION, "")

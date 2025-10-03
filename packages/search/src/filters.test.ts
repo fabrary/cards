@@ -3,6 +3,7 @@ import {
   Meta,
   Rarity,
   Release,
+  Shorthand,
   Treatment,
 } from "@flesh-and-blood/types";
 import {
@@ -126,6 +127,35 @@ describe("Gets the right attribute filters", () => {
       for (const expected of expectedMetaValues) {
         expect(
           metaAppliedFilter.values.includes(expected.toLowerCase())
+        ).toBeTruthy();
+      }
+    }
+  );
+
+  const shorthandFilters = [
+    ["short:buffs", [Shorthand.Buffs]],
+    ["shorthand:tap,untap", [Shorthand.Tap, Shorthand.Untap]],
+  ];
+  it.each(shorthandFilters)(
+    "Gets matching shorthands for %s",
+    (search, expectedShorthands) => {
+      const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+        search as string,
+        cards
+      );
+
+      const shorthandAppliedFilter = appliedFilters.find(
+        (appliedFilter) =>
+          appliedFilter.filterToPropertyMapping.property === "shorthands"
+      );
+
+      expect(shorthandAppliedFilter.values.length).toEqual(
+        expectedShorthands.length
+      );
+
+      for (const expected of expectedShorthands) {
+        expect(
+          shorthandAppliedFilter.values.includes(expected.toLowerCase())
         ).toBeTruthy();
       }
     }

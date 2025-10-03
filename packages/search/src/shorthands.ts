@@ -52,15 +52,15 @@ export const shorthands: {
     isCardProperty: false,
     shorthands: ["DR"],
   },
-  {
-    description: "Flick daggers",
-    expanded: ["dagger you control deal 1 damage"],
-    filters: {
-      functionalText: "dagger you control deal 1 damage",
-    },
-    isCardProperty: true,
-    shorthands: ["Flick", "Hurl", "Throw"],
-  },
+  // {
+  //   description: "Flick daggers",
+  //   expanded: ["dagger you control deal 1 damage"],
+  //   filters: {
+  //     functionalText: "dagger you control deal 1 damage",
+  //   },
+  //   isCardProperty: true,
+  //   shorthands: ["Flick", "Hurl", "Throw"],
+  // },
   {
     description: "Gain life",
     expanded: ["gain {h}"],
@@ -103,46 +103,46 @@ export const shorthands: {
       "Buffs defense",
     ],
   },
-  {
-    description: "Plus power",
-    expanded: ["+ {p}"],
-    filters: {
-      functionalText: "+ {p}",
-    },
-    isCardProperty: false,
-    shorthands: [
-      "Pumps",
-      "Pump",
-      "Buff",
-      "Buffs",
-      "Pump attack",
-      "Pump attacks",
-      "Pumps attack",
-      "Pumps attacks",
-      "Buff attack",
-      "Buff attacks",
-      "Buffs attack",
-      "Buffs attacks",
-      "Pump power",
-      "Pumps power",
-      "Buff power",
-      "Buffs power",
-    ],
-  },
-  {
-    description: "Poppers",
-    expanded: ["!c:illusionist", "st:attack", "pwr:>=6", "def:>=0"],
-    filters: {
-      defenseGreaterThanOrEqualTo: 0,
-      notClass: [Class.Illusionist],
-      powerGreaterThanOrEqualTo: 6,
-      subtypes: [Subtype.Attack],
-    },
-    isCardProperty: false,
-    helper:
-      '6+ power non-Illusionist attacks that can "pop" phantasm attacks when defending',
-    shorthands: ["Poppers", "Popper"],
-  },
+  // {
+  //   description: "Plus power",
+  //   expanded: ["+ {p}"],
+  //   filters: {
+  //     functionalText: "+ {p}",
+  //   },
+  //   isCardProperty: false,
+  //   shorthands: [
+  //     "Pumps",
+  //     "Pump",
+  //     "Buff",
+  //     "Buffs",
+  //     "Pump attack",
+  //     "Pump attacks",
+  //     "Pumps attack",
+  //     "Pumps attacks",
+  //     "Buff attack",
+  //     "Buff attacks",
+  //     "Buffs attack",
+  //     "Buffs attacks",
+  //     "Pump power",
+  //     "Pumps power",
+  //     "Buff power",
+  //     "Buffs power",
+  //   ],
+  // },
+  // {
+  //   description: "Poppers",
+  //   expanded: ["!c:illusionist", "st:attack", "pwr:>=6", "def:>=0"],
+  //   filters: {
+  //     defenseGreaterThanOrEqualTo: 0,
+  //     notClass: [Class.Illusionist],
+  //     powerGreaterThanOrEqualTo: 6,
+  //     subtypes: [Subtype.Attack],
+  //   },
+  //   isCardProperty: false,
+  //   helper:
+  //     '6+ power non-Illusionist attacks that can "pop" phantasm attacks when defending',
+  //   shorthands: ["Poppers", "Popper"],
+  // },
   {
     description: "Spellvoid",
     expanded: ['k:"spellvoid"'],
@@ -152,24 +152,24 @@ export const shorthands: {
     isCardProperty: false,
     shorthands: ["SV"],
   },
-  {
-    description: "Tap",
-    expanded: ["{t}"],
-    filters: {
-      functionalText: "{t}",
-    },
-    isCardProperty: true,
-    shorthands: ["Tap"],
-  },
-  {
-    description: "Untap",
-    expanded: ["{u}"],
-    filters: {
-      functionalText: "{u}",
-    },
-    isCardProperty: true,
-    shorthands: ["Untap"],
-  },
+  // {
+  //   description: "Tap",
+  //   expanded: ["{t}"],
+  //   filters: {
+  //     functionalText: "{t}",
+  //   },
+  //   isCardProperty: true,
+  //   shorthands: ["Tap"],
+  // },
+  // {
+  //   description: "Untap",
+  //   expanded: ["{u}"],
+  //   filters: {
+  //     functionalText: "{u}",
+  //   },
+  //   isCardProperty: true,
+  //   shorthands: ["Untap"],
+  // },
 ];
 
 export const multiWordShorthands = shorthands

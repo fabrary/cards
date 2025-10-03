@@ -1,11 +1,11 @@
-import { Card } from "@flesh-and-blood/types";
+import { Card, Shorthand } from "@flesh-and-blood/types";
 import { shorthands as availableShorthands } from "./shorthands";
 
 const CARD_IDENTIFIER_TO_LOG = "";
 // const CARD_IDENTIFIER_TO_LOG = "zoom-in-blue";
 
-export const getShorthands = (card: Card): string[] | undefined => {
-  const cardShorthands: string[] = [];
+export const getShorthands = (card: Card): Shorthand[] | undefined => {
+  const cardShorthands: Shorthand[] = [];
 
   if (card.cardIdentifier === CARD_IDENTIFIER_TO_LOG) {
     console.log(JSON.stringify(card, null, 2));
