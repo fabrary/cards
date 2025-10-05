@@ -20774,7 +20774,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     pitch: 3,
     
-    restrictedFormats: [Format.ClassicConstructedLivingLegend],
+    
     
     
     
