@@ -1601,7 +1601,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Brute],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      // { url: "https://fabrary.net/decks/01K74RSFG9RTVPVN534DZPJJNQ" },
     ],
     heroes: [Hero.Rhinar],
     languages: ALL_LANGUAGES,
@@ -1616,7 +1616,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Assassin],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      // { url: "https://fabrary.net/decks/01K74RXDPRPJT9YWGFVAPHECDF" },
     ],
     heroes: [Hero.Slippy],
     languages: ALL_LANGUAGES,

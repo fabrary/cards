@@ -15,6 +15,7 @@ import {
 } from "@flesh-and-blood/types";
 import { clashBannedCards, clashLegalOverrides } from "./clash";
 import { projectBlueBannedCards } from "./project-blue";
+import { silverAgeBannedCards } from "./silver-age";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
 const limitedLegalOverrideCards = [
@@ -56,7 +57,7 @@ const YOUNG_HERO_FORMATS = [
 const LIMITED_SETS = Object.values(coreSetIdentifiers);
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
-  (format) => format !== Format.Open && format !== Format.SilverAge
+  (format) => format !== Format.Open && format !== Format.ProjectBlue
 );
 
 const CARDS_TO_LOG: string[] = [
@@ -153,6 +154,21 @@ export const getLegalFormats = (
     const isProjectBlueFormat = format === Format.ProjectBlue;
     if (isProjectBlueFormat) {
       const isBanned = projectBlueBannedCards.includes(card.name);
+      const isNotTooRare = rarities.some((rarity) =>
+        [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
+          rarity
+        )
+      );
+
+      const isAllowed = !isBanned && isNotTooRare;
+      if (!isAllowed) {
+        isLegalPerFormat = false;
+      }
+    }
+
+    const isSilverAgeFormat = format === Format.SilverAge;
+    if (isSilverAgeFormat) {
+      const isBanned = silverAgeBannedCards.includes(card.name);
       const isNotTooRare = rarities.some((rarity) =>
         [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
           rarity
