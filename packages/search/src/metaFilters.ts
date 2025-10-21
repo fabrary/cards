@@ -59,8 +59,8 @@ const nicknameFormatMappings: {
     ],
   },
   {
-    format: Format.ProjectBlue,
-    nicknames: ["pb"],
+    format: Format.SilverAge,
+    nicknames: ["sage"],
   },
   {
     format: Format.UltimatePitFight,
