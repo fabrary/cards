@@ -142,6 +142,7 @@ export enum Format {
   ClassicConstructedLivingLegend = "Classic Constructed (Living Legend)",
   Commoner = "Commoner",
   Draft = "Draft",
+  LivingLegend = "Living Legend",
   Open = "Open",
   Sealed = "Sealed",
   SilverAge = "Silver Age",

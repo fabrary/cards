@@ -15,7 +15,7 @@ import {
   getTypeSubtypeAndMetatype,
   sortPrintingsByReleaseOrder,
 } from "../Shared";
-import { overrides } from "../Shared/artist-overrides";
+import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import {
   Card,
   Class,
@@ -52,10 +52,9 @@ const getArtists = (card: ParsedCard): string[] => {
     .filter((artist) => !!artist)
     .sort() as string[];
   return Array.from(new Set(allArtists)).map((artist) => {
-    const matchingOverride = overrides.find(
-      ({ original }) => artist === original
-    );
-    return matchingOverride ? matchingOverride.override.trim() : artist.trim();
+    const correctedArtist = ARTIST_OVERRIDES[artist] || artist;
+
+    return correctedArtist.trim();
   });
 };
 

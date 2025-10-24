@@ -50,6 +50,9 @@ const RARITIES_ALLOWED_IN_CLASH = [
 const YOUNG_HERO_FORMATS = [
   Format.Blitz,
   Format.BlitzLivingLegend,
+  Format.Clash,
+  Format.Draft,
+  Format.Sealed,
   Format.UltimatePitFight,
 ];
 
@@ -60,7 +63,11 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
 );
 
 const CARDS_TO_LOG: string[] = [
-  // "Prism, Awakener of Sol"
+  // "Rhinar, Reckless Rampage"
+];
+
+const CONFIRMED_CARDS_TO_LOG: string[] = [
+  // "Rhinar, Reckless Rampage"
 ];
 
 export const getLegalFormats = (
@@ -106,6 +113,7 @@ export const getLegalFormats = (
     const isCCFormat = [
       Format.ClassicConstructed,
       Format.ClassicConstructedLivingLegend,
+      Format.LivingLegend,
     ].includes(format);
     if (isCCFormat && !classicConstructedLegal) {
       isLegalPerFormat = false;
@@ -183,7 +191,9 @@ export const getLegalFormats = (
           tokenOrBasicOrRare.includes(rarity)
         );
 
-        if (!isTokenOrBasicOrRare) {
+        const isLegalInLimited = isTokenOrBasicOrRare && isAYoungHero;
+
+        if (!isLegalInLimited) {
           isLegalPerFormat = false;
         }
       }
@@ -210,6 +220,7 @@ export const getLegalFormats = (
     const isLivingLegendFormat = [
       Format.BlitzLivingLegend,
       Format.ClassicConstructedLivingLegend,
+      Format.LivingLegend,
     ].includes(format);
     if (isLivingLegendFormat) {
       const isBanned = livingLegendBannedCards.includes(card.name);
@@ -223,10 +234,12 @@ export const getLegalFormats = (
       ? ![
           Format.ClassicConstructed,
           Format.ClassicConstructedLivingLegend,
+          Format.LivingLegend,
         ].includes(format)
       : [
           Format.ClassicConstructed,
           Format.ClassicConstructedLivingLegend,
+          Format.LivingLegend,
         ].includes(format);
     const isLegalPerHeroAge = !isHero || heroMatchesFormat;
 
@@ -248,6 +261,7 @@ export const getLegalFormats = (
             isHero,
             format,
             shouldAddToFormat,
+            types,
           },
           null,
           2
@@ -424,6 +438,23 @@ export const getConfirmedLegalFormats = ({
       if (!isAllowed) {
         isConfirmedLegal = false;
       }
+    }
+
+    if (CONFIRMED_CARDS_TO_LOG.includes(name)) {
+      console.log(
+        JSON.stringify(
+          {
+            name,
+            isConfirmedLegal,
+            isHero,
+            isYoung,
+            format,
+            types,
+          },
+          null,
+          2
+        )
+      );
     }
 
     return isConfirmedLegal;

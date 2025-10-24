@@ -1,3 +1,4 @@
-export const overrides: { original: string; override: string }[] = [
-  { original: "Mateusz Wisniewski", override: "Mateusz Wiśniewski" },
-];
+export const ARTIST_OVERRIDES: { [key: string]: string } = {
+  "Mateusz Wisniewski": "Mateusz Wiśniewski",
+  "Wírawan Pranoto": "Wirawan Pranoto",
+};

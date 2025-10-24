@@ -1136,6 +1136,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bare-destruction-red</loc>
+    <lastmod>2025-10-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bare-fangs-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -1148,6 +1153,16 @@
   <url>
     <loc>https://fabrary.net/cards/bare-fangs-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bare-swing-red</loc>
+    <lastmod>2025-10-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/bare-swing-yellow</loc>
+    <lastmod>2025-10-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -5493,6 +5508,11 @@
   <url>
     <loc>https://fabrary.net/cards/ebon-fold</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/echo-casque</loc>
+    <lastmod>2025-10-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -16591,6 +16611,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/smell-fear-yellow</loc>
+    <lastmod>2025-10-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/smell-fear-blue</loc>
+    <lastmod>2025-10-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/smelting-of-the-old-ones-red</loc>
     <lastmod>2025-04-21</lastmod>
     <priority>0.5</priority>
@@ -18951,6 +18981,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/torc-of-vim</loc>
+    <lastmod>2025-10-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/torque-tuned-red</loc>
     <lastmod>2023-09-24</lastmod>
     <priority>0.5</priority>
@@ -19088,6 +19123,11 @@
   <url>
     <loc>https://fabrary.net/cards/trailblazing-aether-blue</loc>
     <lastmod>2024-08-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/trampling-trackers</loc>
+    <lastmod>2025-10-24</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -646,4 +646,15 @@ describe("Shorthands property works", () => {
     );
     expect(flickKnives).toBeTruthy();
   });
+
+  it("l:sage", () => {
+    const { searchResults } = cardSearch.search("l:sage");
+    expect(searchResults).toBeTruthy();
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+
+    const legendaryCards = searchResults.filter(({ rarities }) =>
+      rarities.includes(Rarity.Legendary)
+    );
+    expect(legendaryCards.length).toEqual(0);
+  });
 });

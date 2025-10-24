@@ -34,7 +34,7 @@ import {
   IGNORE_OPPOSITE_SIDES,
   sortPrintingsByReleaseOrder,
 } from "../Shared";
-import { overrides } from "../Shared/artist-overrides";
+import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import { ParsedCard } from "./parser";
 import {
   getDefaultPrinting,
@@ -176,11 +176,15 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       treatments,
     });
 
+    const correctedArtists = artists.map(
+      (artist) => ARTIST_OVERRIDES[artist] || artist
+    );
+
     const isPrintExcluded = excludedPrintings.includes(print);
 
     if (!isPrintExcluded) {
       images.push({
-        artists,
+        artists: correctedArtists,
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
         identifier,
@@ -252,7 +256,11 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
 
   if (livingLegendBanned) {
     bannedFormats.push(
-      ...[Format.BlitzLivingLegend, Format.ClassicConstructedLivingLegend]
+      ...[
+        Format.BlitzLivingLegend,
+        Format.ClassicConstructedLivingLegend,
+        Format.LivingLegend,
+      ]
     );
   }
   if (blitzLivingLegend || blitzBanned || blitzSuspended) {
@@ -316,12 +324,9 @@ const getCardData = (card: ParsedCard): Card => {
   const artists = card.artists
     .sort()
     .flatMap((artist) => {
-      const matchingOverride = overrides.find(
-        ({ original }) => artist === original
-      );
-      return matchingOverride
-        ? matchingOverride.override.trim().split(" // ")
-        : artist.trim().split(" // ");
+      const correctedArtist = ARTIST_OVERRIDES[artist] || artist;
+
+      return correctedArtist.trim().split(" // ");
     })
     .sort();
 

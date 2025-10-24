@@ -59,6 +59,16 @@ const nicknameFormatMappings: {
     ],
   },
   {
+    format: Format.LivingLegend,
+    nicknames: [
+      "cc ll",
+      "classic constructed ll",
+      "ll cc",
+      "ll",
+      "living legend",
+    ],
+  },
+  {
     format: Format.SilverAge,
     nicknames: ["sage"],
   },

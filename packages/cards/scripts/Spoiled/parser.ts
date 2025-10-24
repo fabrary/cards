@@ -130,7 +130,7 @@ const transform = (value: any, field: string) => {
               .trim()
               .replaceAll("–", "-")
               .split(",")
-              .map((value) => value.trim())
+              .map((value: any) => value.trim())
           ),
         ]
       : [];
@@ -228,7 +228,7 @@ const headerMappings = {
   "TCGPlayer Url 6": "tcgplayerUrl6",
 };
 const transformHeader = (original: string, index: number) =>
-  headerMappings[original];
+  headerMappings[original as keyof typeof headerMappings];
 
 export const parseCSV = (file: string): ParsedCard[] => {
   const csv = readFileSync(file, "utf8");
