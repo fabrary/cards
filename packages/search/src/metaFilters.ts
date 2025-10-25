@@ -41,10 +41,6 @@ const nicknameFormatMappings: {
   nicknames?: string[];
 }[] = [
   {
-    format: Format.BlitzLivingLegend,
-    nicknames: ["blitz ll"],
-  },
-  {
     format: Format.ClassicConstructed,
     nicknames: ["cc", "classic"],
   },

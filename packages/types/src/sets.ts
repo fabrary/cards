@@ -1504,7 +1504,7 @@ export const releases: ReleaseInfo[] = [
     release: Release.MasteryPackGuardian,
     relatedReleases: [],
     releaseDate: "2025-08-08 12:00",
-    releaseType: ReleaseType.ExpansionBooster,
+    releaseType: ReleaseType.MasteryPack,
     setIdentifiers: ["mpg"],
     talents: [],
   },

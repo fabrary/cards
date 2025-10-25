@@ -49,7 +49,6 @@ const RARITIES_ALLOWED_IN_CLASH = [
 
 const YOUNG_HERO_FORMATS = [
   Format.Blitz,
-  Format.BlitzLivingLegend,
   Format.Clash,
   Format.Draft,
   Format.Sealed,
@@ -101,9 +100,7 @@ export const getLegalFormats = (
   for (const format of FORMATS_TO_CHECK) {
     let isLegalPerFormat = true;
 
-    const isBlitzFormat = [Format.Blitz, Format.BlitzLivingLegend].includes(
-      format
-    );
+    const isBlitzFormat = format === Format.Blitz;
     if (isBlitzFormat) {
       if (!blitzLegal || isAnAdultHero) {
         isLegalPerFormat = false;
@@ -218,7 +215,6 @@ export const getLegalFormats = (
     }
 
     const isLivingLegendFormat = [
-      Format.BlitzLivingLegend,
       Format.ClassicConstructedLivingLegend,
       Format.LivingLegend,
     ].includes(format);
