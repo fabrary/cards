@@ -260,7 +260,7 @@ export const getRestrictedFormats = ({
   const restrictedFormatsSet = new Set<Format>();
 
   if (livingLegendRestricted) {
-    restrictedFormatsSet.add(Format.ClassicConstructedLivingLegend);
+    restrictedFormatsSet.add(Format.LivingLegend);
   }
 
   const overrideRestrictedFormats =

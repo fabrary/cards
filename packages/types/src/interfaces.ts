@@ -138,7 +138,6 @@ export enum Format {
   Blitz = "Blitz",
   Clash = "Clash",
   ClassicConstructed = "Classic Constructed",
-  ClassicConstructedLivingLegend = "Classic Constructed (Living Legend)",
   Commoner = "Commoner",
   Draft = "Draft",
   LivingLegend = "Living Legend",

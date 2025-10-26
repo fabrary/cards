@@ -45,16 +45,6 @@ const nicknameFormatMappings: {
     nicknames: ["cc", "classic"],
   },
   {
-    format: Format.ClassicConstructedLivingLegend,
-    nicknames: [
-      "cc ll",
-      "classic constructed ll",
-      "ll cc",
-      "ll",
-      "living legend",
-    ],
-  },
-  {
     format: Format.LivingLegend,
     nicknames: [
       "cc ll",

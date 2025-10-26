@@ -109,7 +109,6 @@ export const getLegalFormats = (
 
     const isCCFormat = [
       Format.ClassicConstructed,
-      Format.ClassicConstructedLivingLegend,
       Format.LivingLegend,
     ].includes(format);
     if (isCCFormat && !classicConstructedLegal) {
@@ -214,10 +213,7 @@ export const getLegalFormats = (
       isLegalPerFormat = false;
     }
 
-    const isLivingLegendFormat = [
-      Format.ClassicConstructedLivingLegend,
-      Format.LivingLegend,
-    ].includes(format);
+    const isLivingLegendFormat = [Format.LivingLegend].includes(format);
     if (isLivingLegendFormat) {
       const isBanned = livingLegendBannedCards.includes(card.name);
 
@@ -227,16 +223,8 @@ export const getLegalFormats = (
     }
 
     const heroMatchesFormat = isAYoungHero
-      ? ![
-          Format.ClassicConstructed,
-          Format.ClassicConstructedLivingLegend,
-          Format.LivingLegend,
-        ].includes(format)
-      : [
-          Format.ClassicConstructed,
-          Format.ClassicConstructedLivingLegend,
-          Format.LivingLegend,
-        ].includes(format);
+      ? ![Format.ClassicConstructed, Format.LivingLegend].includes(format)
+      : [Format.ClassicConstructed, Format.LivingLegend].includes(format);
     const isLegalPerHeroAge = !isHero || heroMatchesFormat;
 
     const isNotBanned = !bannedFormats || !bannedFormats.includes(format);

@@ -255,9 +255,7 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
   const bannedFormats: Format[] = [];
 
   if (livingLegendBanned) {
-    bannedFormats.push(
-      ...[Format.ClassicConstructedLivingLegend, Format.LivingLegend]
-    );
+    bannedFormats.push(Format.LivingLegend);
   }
   if (blitzLivingLegend || blitzBanned || blitzSuspended) {
     bannedFormats.push(Format.Blitz);

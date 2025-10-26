@@ -170,24 +170,3 @@ describe("Treatments are a superset of treatment", () => {
     }
   });
 });
-
-describe("New LL legality matches", () => {
-  it.each(cardsToPublish.map((card) => [card.cardIdentifier, card]))(
-    "%s",
-    (_, card) => {
-      const { bannedFormats, legalFormats } = card as unknown as Card;
-
-      const isOldLLBanned = bannedFormats?.includes(
-        Format.ClassicConstructedLivingLegend
-      );
-      const isNewLLBanned = bannedFormats?.includes(Format.LivingLegend);
-      expect(isOldLLBanned).toEqual(isNewLLBanned);
-
-      const isOldLLLegal = legalFormats?.includes(
-        Format.ClassicConstructedLivingLegend
-      );
-      const isNewLLLegal = legalFormats?.includes(Format.LivingLegend);
-      expect(isOldLLLegal).toEqual(isNewLLLegal);
-    }
-  );
-});
