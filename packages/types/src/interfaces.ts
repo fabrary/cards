@@ -403,6 +403,7 @@ export enum Hero {
   Fai = "Fai",
   Fang = "Fang",
   Florian = "Florian",
+  Frankie = "Frankie",
   Genis = "Genis",
   GravyBones = "Gravy Bones",
   Ira = "Ira",

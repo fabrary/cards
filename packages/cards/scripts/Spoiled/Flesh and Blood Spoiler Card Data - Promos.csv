@@ -32,3 +32,11 @@ LGS427,LGS,Swing Big,Red,1,2,8,3,,,,"Brute, Action, Attack",,,,,,,,"When the com
 LGS361,LGS,Gesture of Goodwill,Blue,3,,,3,,,,"Generic, Block",,Protect,,,,,,"**Protect**
 
 When this **protects** another hero, they may give you a token they control.",Generic Block,,,,No,,P,R,EA,Tanapon Wachirakul,,,LGS361,/LGS361.png,,,,,,,,,,,,,,,,,,,
+LSS021,LSS,"Frankie, Make Ends Meat",,,,,,20,4,,"Necromancer, Hero, Young",,,,,,,,"Whenever an equipment you control would be put into a graveyard, instead banish it.
+
+**Action** - {r}{r}{r}, {t}: Equip an equipment from a graveyard. **Go again**",Necromancer Hero - Young,,No,No,No,No,P,C,FA,soyameii,,,LSS021,/LSS021.png,,,,,,,,,,,,,,,,,,,
+LSS022,LSS,Off Cuts,Blue,3,3,,3,,,,"Necromancer, Action",,"Frankie Specialization, Go again",,,,,,"**Frankie Specialization**
+
+Each hero destroys an equipment they control.
+
+**Go again**",Necromancer Action,,No,No,No,No,P,R,EA,寿多浩 (Hiro Suda),,,LSS022,/LSS022.png,,,,,,,,,,,,,,,,,,,

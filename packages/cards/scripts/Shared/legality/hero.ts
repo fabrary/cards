@@ -140,6 +140,10 @@ const florian: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Runeblade], EARTH),
 };
 
+const frankie: AppliedFilter = {
+  ...CLASSES_AND_TALENTS([Class.Necromancer]),
+};
+
 const genis: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Merchant]),
 };
@@ -254,6 +258,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Fai]: fai,
   [Hero.Fang]: fang,
   [Hero.Florian]: florian,
+  [Hero.Frankie]: frankie,
   [Hero.Genis]: genis,
   [Hero.GravyBones]: gravyBones,
   [Hero.Ira]: ira,
