@@ -6,6 +6,7 @@ import {
   ReleaseInfo,
   releases,
   ReleaseType,
+  Treatment,
 } from "@flesh-and-blood/types";
 import { writeFiles } from "./writer";
 import { spoiledCards } from "./Spoiled";
@@ -53,6 +54,23 @@ releasedCards.forEach((card) => {
       if (!printing.artists || printing.artists.length === 0) {
         if (card.artists.length === 1) {
           printing.artists = [...card.artists];
+        } else {
+          const standardArtArtistsSet = new Set<string>();
+          const standardArtPrintings = card.printings.filter(
+            ({ treatments }) =>
+              !treatments || !treatments.includes(Treatment.AA)
+          );
+
+          for (const { artists } of standardArtPrintings) {
+            for (const artist of artists) {
+              standardArtArtistsSet.add(artist);
+            }
+          }
+          const standardArtArtists = Array.from(standardArtArtistsSet);
+
+          if (standardArtArtists.length === 1) {
+            printing.artists = [standardArtArtists[0]];
+          }
         }
       }
       return { ...printing };

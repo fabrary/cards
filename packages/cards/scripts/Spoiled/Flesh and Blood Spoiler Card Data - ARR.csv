@@ -3,14 +3,14 @@ ARR001,ARR,"Rhinar, Reckless Rampage",,,,,,,,,,,,,,,,,Brute Hero,,No,,,,,,,,,,AR
 ARR002,ARR,Romping Club,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,ARR002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR002.png,,,,,,,,,,,,,,,,,,,
 ARR003,ARR,Echo Casque,,,,,1,,,,"Brute, Equipment, Head",Battleworn,,,,,Beat Chest,"Whenever you beat chest, you may {r} and destroy this. If you do, draw a card.
 
-**Battleworn**",Brute Equipment - Head,,,,No,,R,,,Nailsen Ivanderlie,,,ARR003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR003.png,,,,,,,,,,,,,,,,,,,
+**Battleworn**",Brute Equipment - Head,,,,No,,R,R,,Nailsen Ivanderlie,,,ARR003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR003.png,,,,,,,,,,,,,,,,,,,
 ARR004,ARR,Torc of Vim,,,,,1,,,,"Brute, Equipment, Chest",Battleworn,,,,,Beat Chest,"Whenever you beat chest, you may destroy this. If you do, the next Brute attack action card you play this turn costs {r}{r} less to play.
 
-**Battleworn**",Brute Equipment - Chest,,,,No,,M,,,Alief Rusdiatama,,,ARR004,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR004.png,,,,,,,,,,,,,,,,,,,
-ARR005,ARR,Goliath Gauntlet,,,,,,,,,,,,,,,,,,,,,,,R,,AA,Alief Rusdiatama,,,ARR005,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR005.png,,,,,,,,,,,,,,,,,,,
+**Battleworn**",Brute Equipment - Chest,,,,No,,M,R,,Alief Rusdiatama,,,ARR004,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR004.png,,,,,,,,,,,,,,,,,,,
+ARR005,ARR,Goliath Gauntlet,,,,,,,,,,,,,,,,,,,,,,,R,R,AA,Alief Rusdiatama,,,ARR005,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR005.png,,,,,,,,,,,,,,,,,,,
 ARR006,ARR,Trampling Trackers,,,,,2,,,,"Brute, Equipment, Legs",Temper,,,,,Beat Chest,"Whenever you beat chest, you may destroy this. If you do, create an Agility token.
 
-**Temper**",Brute Equipment - Legs,,,,No,,M,,,Nailsen Ivanderlie,,,ARR006,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR006.png,,,,,,,,,,,,,,,,,,,
+**Temper**",Brute Equipment - Legs,,,,No,,M,R,,Nailsen Ivanderlie,,,ARR006,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR006.png,,,,,,,,,,,,,,,,,,,
 ARR007,ARR,Assault and Battery,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR007,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR007.png,,,,,,,,,,,,,,,,,,,
 ARR008,ARR,Bare Destruction,Red,1,2,6,3,,,,"Brute, Action, Attack","Beat Chest, Go again",,,,,Beat Chest,"**Beat Chest**
 
@@ -20,17 +20,17 @@ ARR009,ARR,Bare Swing,Red,1,3,7,3,,,,"Brute, Action, Attack",Beat Chest,,,,,Beat
 When this attacks, if you've beaten chest this turn and you don't control a chest equipment, this gets +2{p}.",Brute Action - Attack,,,,No,,R,,,Ramza Ardyputra,,,ARR009,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR009.png,,,,,,,,,,,,,,,,,,,
 ARR010,ARR,Massacre,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR010,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR010.png,,,,,,,,,,,,,,,,,,,
 ARR011,ARR,Pound Town,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR011,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR011.png,,,,,,,,,,,,,,,,,,,
-ARR012,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR012.png,,,,,,,,,,,,,,,,,,,
+ARR012,ARR,Rawhide Rumble,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR012.png,,,,,,,,,,,,,,,,,,,
 ARR013,ARR,Show No Mercy,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR013,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR013.png,,,,,,,,,,,,,,,,,,,
 ARR014,ARR,Strongest Survive,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR014,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR014.png,,,,,,,,,,,,,,,,,,,
 ARR015,ARR,Bonebreaker Bellow,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR015,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR015.png,,,,,,,,,,,,,,,,,,,
-ARR016,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR016,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR016.png,,,,,,,,,,,,,,,,,,,
+ARR016,ARR,Assault and Battery,Yellow,2,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR016,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR016.png,,,,,,,,,,,,,,,,,,,
 ARR017,ARR,Bare Swing,Yellow,2,3,6,3,,,,"Brute, Action, Attack",Beat Chest,,,,,Beat Chest,"**Beat Chest**
 
 When this attacks, if you've beaten chest this turn and you don't control a chest equipment, this gets +2{p}.",Brute Action - Attack,,,,No,,R,,,Ramza Ardyputra,,,ARR017,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR017.png,,,,,,,,,,,,,,,,,,,
 ARR018,ARR,Beast Within,Yellow,2,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR018,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR018.png,,,,,,,,,,,,,,,,,,,
 ARR019,ARR,Buckwild,Yellow,2,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR019,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR019.png,,,,,,,,,,,,,,,,,,,
-ARR020,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR020,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR020.png,,,,,,,,,,,,,,,,,,,
+ARR020,ARR,Pound Town,Yellow,2,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR020,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR020.png,,,,,,,,,,,,,,,,,,,
 ARR021,ARR,Smell Fear,Yellow,2,0,,3,,,,"Brute, Action","Beat Chest, Intimidate, Go again",,,,,Beat Chest,"**Beat Chest**
 
 If you've beaten chest this turn, **intimidate**.
@@ -41,10 +41,10 @@ Your next Brute attack this turn gets ""If you've intimidated 2 or more times th
 ARR022,ARR,Alpha Instinct,Blue,3,3,6,0,,,,"Brute, Action, Attack",Rhinar Specialization,,,,,,"**Rhinar Specialization**
 
 When this is discard to beat chest, create a Might token.",Brute Action - Attack,,,,No,,M,,,Tomasz Jedruszek,,,ARR022,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR022.png,,,,,,,,,,,,,,,,,,,
-ARR023,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR023,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR023.png,,,,,,,,,,,,,,,,,,,
-ARR024,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR024.png,,,,,,,,,,,,,,,,,,,
+ARR023,ARR,Wrecker Romp,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR023,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR023.png,,,,,,,,,,,,,,,,,,,
+ARR024,ARR,Barraging Beatdown,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR024.png,,,,,,,,,,,,,,,,,,,
 ARR025,ARR,Bonebreaker Bellow,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR025,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR025.png,,,,,,,,,,,,,,,,,,,
-ARR026,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR026.png,,,,,,,,,,,,,,,,,,,
+ARR026,ARR,Clearing Bellow,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR026.png,,,,,,,,,,,,,,,,,,,
 ARR027,ARR,Smashback Alehorn,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR027.png,,,,,,,,,,,,,,,,,,,
 ARR028,ARR,Smell Fear,Blue,3,0,,3,,,,"Brute, Action","Beat Chest, Intimidate, Go again",,,,,Beat Chest,"**Beat Chest**
 
@@ -54,5 +54,5 @@ Your next Brute attack this turn gets ""If you've intimidated 2 or more times th
 
 **Go again**",Brute Action,,,,No,,R,,,João Guilherme,,,ARR028,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR028.png,,,,,,,,,,,,,,,,,,,
 ARR029,ARR,Agility,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR029,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR029.png,,,,,,,,,,,,,,,,,,,
-ARR030,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR030,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR030.png,,,,,,,,,,,,,,,,,,,
+ARR030,ARR,Might,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR030,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR030.png,,,,,,,,,,,,,,,,,,,
 ARR031,ARR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR031,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR031.png,,,,,,,,,,,,,,,,,,,
