@@ -1601,7 +1601,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Brute],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01K74RSFG9RTVPVN534DZPJJNQ" },
+      { url: "https://fabrary.net/decks/01K74RSFG9RTVPVN534DZPJJNQ" },
     ],
     heroes: [Hero.Rhinar],
     languages: ALL_LANGUAGES,

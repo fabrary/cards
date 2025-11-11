@@ -1,6 +1,6 @@
 Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
 ARR001,ARR,"Rhinar, Reckless Rampage",,,,,,,,,,,,,,,,,Brute Hero,,No,,,,,,,,,,ARR001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR001.png,,,,,,,,,,,,,,,,,,,
-ARR002,ARR,Romping Club,,,,,,,,,,,,,,,,,,,No,,,,,,,,,,ARR002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR002.png,,,,,,,,,,,,,,,,,,,
+ARR002,ARR,Romping Club,,,,,,,,,,,,,,,,,,,No,,,,R,,,,,,ARR002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR002.png,,,,,,,,,,,,,,,,,,,
 ARR003,ARR,Echo Casque,,,,,1,,,,"Brute, Equipment, Head",Battleworn,,,,,Beat Chest,"Whenever you beat chest, you may {r} and destroy this. If you do, draw a card.
 
 **Battleworn**",Brute Equipment - Head,,,,No,,R,R,,Nailsen Ivanderlie,,,ARR003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR003.png,,,,,,,,,,,,,,,,,,,
@@ -44,7 +44,7 @@ When this is discard to beat chest, create a Might token.",Brute Action - Attack
 ARR023,ARR,Wrecker Romp,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR023,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR023.png,,,,,,,,,,,,,,,,,,,
 ARR024,ARR,Barraging Beatdown,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR024.png,,,,,,,,,,,,,,,,,,,
 ARR025,ARR,Bonebreaker Bellow,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR025,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR025.png,,,,,,,,,,,,,,,,,,,
-ARR026,ARR,Clearing Bellow,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR026.png,,,,,,,,,,,,,,,,,,,
+ARR026,ARR,Clearing Bellow,Blue,3,,,,,,,,,,,,,,,,,,,,,C,,,,,,ARR026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR026.png,,,,,,,,,,,,,,,,,,,
 ARR027,ARR,Smashback Alehorn,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,ARR027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-ARR/EN/ARR027.png,,,,,,,,,,,,,,,,,,,
 ARR028,ARR,Smell Fear,Blue,3,0,,3,,,,"Brute, Action","Beat Chest, Intimidate, Go again",,,,,Beat Chest,"**Beat Chest**
 
