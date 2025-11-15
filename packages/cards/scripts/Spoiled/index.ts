@@ -9,6 +9,7 @@ import { getSpecialPrinting } from "@flesh-and-blood/types";
 
 const spoiledSetCardsFileAAC = `${__dirname}/Flesh and Blood Spoiler Card Data - AAC.csv`;
 const spoiledSetCardsFileAHA = `${__dirname}/Flesh and Blood Spoiler Card Data - AHA.csv`;
+const spoiledSetCardsFileANQ = `${__dirname}/Flesh and Blood Spoiler Card Data - ANQ.csv`;
 const spoiledSetCardsFileAPR = `${__dirname}/Flesh and Blood Spoiler Card Data - APR.csv`;
 const spoiledSetCardsFileAPS = `${__dirname}/Flesh and Blood Spoiler Card Data - APS.csv`;
 const spoiledSetCardsFileARR = `${__dirname}/Flesh and Blood Spoiler Card Data - ARR.csv`;
@@ -29,6 +30,7 @@ const overrideCards = mapCSV(parsedOverrideCards);
 const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAAC),
   ...parseCSV(spoiledSetCardsFileAHA),
+  ...parseCSV(spoiledSetCardsFileANQ),
   ...parseCSV(spoiledSetCardsFileAPR),
   ...parseCSV(spoiledSetCardsFileAPS),
   ...parseCSV(spoiledSetCardsFileARR),

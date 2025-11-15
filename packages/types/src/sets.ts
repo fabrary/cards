@@ -1787,6 +1787,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   gem: Release.GEM,
 
   // Promos
+  anq: Release.Promos,
   fab: Release.Promos,
   her: Release.Promos,
   jdg: Release.Promos,
