@@ -1627,6 +1627,62 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["aac"],
     talents: [Talent.Chaos],
   },
+  {
+    cards: 348,
+    classes: [
+      Class.Assassin,
+      Class.Brute,
+      Class.Generic,
+      Class.Guardian,
+      Class.Illusionist,
+      Class.Mechanologist,
+      Class.Necromancer,
+      Class.Ninja,
+      Class.NotClassed,
+      Class.Pirate,
+      Class.Ranger,
+      Class.Runeblade,
+      Class.Thief,
+      Class.Warrior,
+      Class.Wizard,
+    ],
+    deckLinks: [],
+    heroes: Object.values(Hero),
+    languages: ALL_LANGUAGES,
+    release: Release.CompendiumOfRathe,
+    relatedReleases: [],
+    releaseDate: "2026-02-13 12:00",
+    releaseType: ReleaseType.ExpansionBooster,
+    setIdentifiers: ["pen"],
+    talents: [
+      Talent.Chaos,
+      Talent.Draconic,
+      Talent.Earth,
+      Talent.Elemental,
+      Talent.Ice,
+      Talent.Light,
+      Talent.Lightning,
+      Talent.Mystic,
+      Talent.Revered,
+      Talent.Reviled,
+      Talent.Shadow,
+    ],
+  },
+  {
+    cards: 30,
+    classes: [Class.Warrior],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01K74RXDPRPJT9YWGFVAPHECDF" },
+    ],
+    heroes: [Hero.Hala],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckOriginsHala,
+    relatedReleases: [],
+    releaseDate: "2026-04-17 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["aha"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1648,8 +1704,9 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   ros: Release.Rosetta,
   hnt: Release.TheHunted,
   sea: Release.HighSeas,
-  sup: Release.SuperSlam,
   mpg: Release.MasteryPackGuardian,
+  sup: Release.SuperSlam,
+  pen: Release.CompendiumOfRathe,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {
@@ -1670,6 +1727,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   apr: Release.ArmoryDeckLegendsPrism,
   arr: Release.ArmoryDeckRhinar,
   avs: Release.ArmoryDeckLegendsViserai,
+  aha: Release.ArmoryDeckOriginsHala,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

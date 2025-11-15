@@ -175,6 +175,7 @@ export enum Release {
   // Full sets
   ArcaneRising = "Arcane Rising",
   BrightLights = "Bright Lights",
+  CompendiumOfRathe = "Compendium Of Rathe",
   CrucibleOfWar = "Crucible of War",
   DuskTillDawn = "Dusk till Dawn",
   Dynasty = "Dynasty",
@@ -206,6 +207,7 @@ export enum Release {
   ArmoryDeckRhinar = "Armory Deck: Rhinar",
 
   // Armory deck origins
+  ArmoryDeckOriginsHala = "Armory Deck Hala: Origins",
   ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
 
   // Armory deck legends
@@ -406,6 +408,7 @@ export enum Hero {
   Frankie = "Frankie",
   Genis = "Genis",
   GravyBones = "Gravy Bones",
+  Hala = "Hala",
   Ira = "Ira",
   Iyslander = "Iyslander",
   Jarl = "Jarl",
@@ -513,6 +516,7 @@ export enum Keyword {
   RuneGate = "Rune Gate",
   Rupture = "Rupture",
   Scrap = "Scrap",
+  Sharpen = "Sharpen",
   Solflare = "Solflare",
   Specialization = "Specialization",
   Spectra = "Spectra",

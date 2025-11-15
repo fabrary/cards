@@ -8,6 +8,7 @@ import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
 const spoiledSetCardsFileAAC = `${__dirname}/Flesh and Blood Spoiler Card Data - AAC.csv`;
+const spoiledSetCardsFileAHA = `${__dirname}/Flesh and Blood Spoiler Card Data - AHA.csv`;
 const spoiledSetCardsFileAPR = `${__dirname}/Flesh and Blood Spoiler Card Data - APR.csv`;
 const spoiledSetCardsFileAPS = `${__dirname}/Flesh and Blood Spoiler Card Data - APS.csv`;
 const spoiledSetCardsFileARR = `${__dirname}/Flesh and Blood Spoiler Card Data - ARR.csv`;
@@ -15,7 +16,7 @@ const spoiledSetCardsFileASR = `${__dirname}/Flesh and Blood Spoiler Card Data -
 const spoiledSetCardsFileAVS = `${__dirname}/Flesh and Blood Spoiler Card Data - AVS.csv`;
 const spoiledSetCardsFileBDD = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
 const spoiledSetCardsFileMPG = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
-const spoiledSetCardsFileSUP = `${__dirname}/Flesh and Blood Spoiler Card Data - SUP.csv`;
+const spoiledSetCardsFilePEN = `${__dirname}/Flesh and Blood Spoiler Card Data - PEN.csv`;
 const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
@@ -27,6 +28,7 @@ const overrideCards = mapCSV(parsedOverrideCards);
 
 const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAAC),
+  ...parseCSV(spoiledSetCardsFileAHA),
   ...parseCSV(spoiledSetCardsFileAPR),
   ...parseCSV(spoiledSetCardsFileAPS),
   ...parseCSV(spoiledSetCardsFileARR),
@@ -34,7 +36,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAVS),
   ...parseCSV(spoiledSetCardsFileBDD),
   ...parseCSV(spoiledSetCardsFileMPG),
-  // ...parseCSV(spoiledSetCardsFileSUP),
+  ...parseCSV(spoiledSetCardsFilePEN),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)

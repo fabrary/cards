@@ -261,6 +261,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Frankie]: frankie,
   [Hero.Genis]: genis,
   [Hero.GravyBones]: gravyBones,
+  [Hero.Hala]: CLASSES_AND_TALENTS([Class.Warrior]),
   [Hero.Ira]: ira,
   [Hero.Iyslander]: iyslander,
   [Hero.Jarl]: jarl,
