@@ -45,6 +45,7 @@ export const fabDictionary = [
   "autosave",
   "azuro",
   "azvolai",
+  "baiters",
   "bam",
   "barkskin",
   "bandana",

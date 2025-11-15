@@ -4171,6 +4171,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/creep-red</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cries-of-encore-red</loc>
     <lastmod>2025-09-11</lastmod>
     <priority>0.5</priority>
@@ -8941,6 +8946,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/horrors-of-the-past-yellow</loc>
+    <lastmod>2025-11-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/hostile-encroachment-red</loc>
     <lastmod>2025-07-24</lastmod>
     <priority>0.5</priority>
@@ -13553,6 +13563,11 @@
   <url>
     <loc>https://fabrary.net/cards/ragamuffins-hat</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rage-baiters</loc>
+    <lastmod>2025-11-15</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
