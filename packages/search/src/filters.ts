@@ -62,6 +62,7 @@ export type Filter =
   | "pwr"
   | "pow"
   | "power"
+  | "print"
   | "r"
   | "rarity"
   | "referencedby"
@@ -218,6 +219,12 @@ const powerFilter: FilterToPropertyMapping = {
   isNumber: true,
 };
 
+const setIdentifiersFilter: FilterToPropertyMapping = {
+  property: "setIdentifiers",
+  isArray: true,
+  partialMatch: true,
+};
+
 const rarityFilter: FilterToPropertyMapping = {
   property: "n/a",
   isMeta: true,
@@ -333,6 +340,7 @@ export const filtersToCardPropertyMappings = {
   pwr: powerFilter,
   pow: powerFilter,
   power: powerFilter,
+  print: setIdentifiersFilter,
   r: rarityFilter,
   rarity: rarityFilter,
   referencedby: referencedByFilter,

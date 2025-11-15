@@ -658,3 +658,22 @@ describe("Shorthands property works", () => {
     expect(legendaryCards.length).toEqual(0);
   });
 });
+
+describe("Minor sets", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it("Antiquity pack", () => {
+    const ABBREVIATION = "ANQ";
+    const { searchResults } = cardSearch.search(`print:${ABBREVIATION}`);
+
+    expect(searchResults).toBeTruthy();
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+
+    for (const result of searchResults) {
+      const matchingSetIdentifier = result.setIdentifiers.find(
+        (setIdentifier) => setIdentifier.startsWith(ABBREVIATION)
+      );
+      expect(matchingSetIdentifier).toBeTruthy();
+    }
+  });
+});
