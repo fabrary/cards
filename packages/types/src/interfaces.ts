@@ -207,7 +207,7 @@ export enum Release {
   ArmoryDeckRhinar = "Armory Deck: Rhinar",
 
   // Armory deck origins
-  ArmoryDeckOriginsHala = "Armory Deck Hala: Origins",
+  ArmoryDeckOriginsHala = "Armory Deck Origins: Hala",
   ArmoryDeckOriginsJarl = "Armory Deck Origins: Jarl",
 
   // Armory deck legends
