@@ -40,6 +40,7 @@ export interface SearchResults {
 
 class Search {
   private additionalHeroes: Hero[];
+  private additionalSets: Release[];
   private cards: DoubleSidedCard[];
   private debug: boolean;
   private fuse: Fuse<Card>;
@@ -47,6 +48,7 @@ class Search {
   constructor(
     cards: DoubleSidedCard[],
     additionalHeroes: Hero[] = [],
+    additionalSets: Release[] = [],
     debug: boolean = false
   ) {
     const searchOptions = {
@@ -78,6 +80,7 @@ class Search {
     };
 
     this.additionalHeroes = additionalHeroes;
+    this.additionalSets = additionalSets;
     this.cards = [...cards];
     this.debug = debug;
     this.fuse = new Fuse([...cards], searchOptions);
@@ -96,7 +99,8 @@ class Search {
       getKeywordsAndAppliedFiltersFromText(
         text,
         this.cards,
-        this.additionalHeroes
+        this.additionalHeroes,
+        this.additionalSets
       );
 
     const keyword = keywords.join(" ");

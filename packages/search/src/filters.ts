@@ -437,7 +437,8 @@ const specialConditionHeroes = [
 export const getKeywordsAndAppliedFiltersFromText = (
   text: string,
   cards: Card[],
-  additionalHeroes: Hero[] = []
+  additionalHeroes: Hero[] = [],
+  additionalSets: Release[] = []
 ): {
   appliedFilters: AppliedFilter[];
   attributes: {
@@ -629,7 +630,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
           treatments = getTreatmentValuesFromText(values);
           values = treatments.map((t) => t.toLowerCase());
         } else if (["set", "s"].includes(filterKey)) {
-          releases = getReleasesFromRawValues(values);
+          releases = getReleasesFromRawValues(values, additionalSets);
           values = releases.map((s) =>
             s.toLowerCase().replaceAll(PUNCTUATION, "")
           );
@@ -677,11 +678,17 @@ export const getKeywordsAndAppliedFiltersFromText = (
   };
 };
 
-const getReleasesFromRawValues = (rawValues: string[]): Release[] => {
+const getReleasesFromRawValues = (
+  rawValues: string[],
+  additionalSets: Release[] = []
+): Release[] => {
   const releases: Release[] = [];
   for (const rawValue of rawValues) {
     releases.push(...getMatchingReleasesFromRawValue(rawValue));
   }
+
+  // TODO use the dynamic set to search as well
+
   return releases;
 };
 
