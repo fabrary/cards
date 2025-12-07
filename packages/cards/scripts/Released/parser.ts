@@ -72,6 +72,8 @@ export interface ParsedCard {
   commonerSuspended: boolean;
   livingLegendBanned: boolean;
   livingLegendRestricted: boolean;
+  silverAgeBanned: boolean;
+  silverAgeLegal: boolean;
 }
 
 enum SourceAlternateArtVariation {
@@ -145,6 +147,8 @@ export interface SourceJSONCard {
   blitz_suspended: boolean;
   cc_suspended: boolean;
   commoner_suspended: boolean;
+  silver_age_banned: boolean;
+  silver_age_legal: boolean;
   printings: SourcePrinting[];
 }
 
@@ -174,7 +178,7 @@ const artVariationsToAdd = {
   "UPR042-C": ["AT"],
 };
 
-export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
+export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
   const jsonCards = JSON.parse(
     readFileSync(cardJSON, "utf-8")
   ) as SourceJSONCard[];
@@ -202,6 +206,8 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
       commoner_suspended,
       ll_banned,
       ll_restricted,
+      silver_age_banned,
+      silver_age_legal,
       defense,
       functional_text,
       granted_keywords,
@@ -375,6 +381,8 @@ export const parseJSON = (cardJSON, setJSON): ParsedCard[] => {
         commonerSuspended: commoner_suspended,
         livingLegendBanned: ll_banned,
         livingLegendRestricted: ll_restricted,
+        silverAgeBanned: silver_age_banned,
+        silverAgeLegal: silver_age_legal,
       };
     }
   );

@@ -51,6 +51,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   return cards.map((card) => {
     const oppositeSideCards = cards.filter((otherCard) => {
       const notTheSameCard = card.name !== otherCard.name;
+
       // LSS used the same RNR prefix for two different sets - Rhinar Blitz deck and Rhinar CC deck
       const notARNRCard =
         !otherCard.printings.some(
@@ -64,7 +65,18 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
           )
       );
 
-      return notARNRCard && notTheSameCard && cardHasSameSetIdentifier;
+      // LSS used the same HER prefix for two different sets - Kassai deck and Tuffnut
+
+      const notDuplicateHER =
+        card.name !== "Tuffnut, Bumbling Hulkster" &&
+        otherCard.name !== "Tuffnut, Bumbling Hulkster";
+
+      return (
+        notDuplicateHER &&
+        notARNRCard &&
+        notTheSameCard &&
+        cardHasSameSetIdentifier
+      );
     });
 
     const isOppositeSideCardFront = oppositeSideCards.some(

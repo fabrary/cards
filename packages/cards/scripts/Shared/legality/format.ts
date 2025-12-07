@@ -46,12 +46,19 @@ const RARITIES_ALLOWED_IN_CLASH = [
   Rarity.Common,
   Rarity.Rare,
 ];
+const RARITIES_ALLOWED_IN_SILVER_AGE = [
+  Rarity.Basic,
+  Rarity.Token,
+  Rarity.Common,
+  Rarity.Rare,
+];
 
 const YOUNG_HERO_FORMATS = [
   Format.Blitz,
   Format.Clash,
   Format.Draft,
   Format.Sealed,
+  Format.SilverAge,
   Format.UltimatePitFight,
 ];
 
@@ -75,6 +82,7 @@ export const getLegalFormats = (
     blitzLegal: boolean;
     classicConstructedLegal: boolean;
     commonerLegal: boolean;
+    silverAgeLegal: boolean;
     name: string;
   },
   classes: Class[],
@@ -86,7 +94,8 @@ export const getLegalFormats = (
 ): Format[] => {
   const legalFormats: Format[] = [Format.Open];
 
-  const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
+  const { blitzLegal, classicConstructedLegal, commonerLegal, silverAgeLegal } =
+    card;
 
   const isMacro = types.includes(Type.Macro);
   const isHero = types.includes(Type.Hero);
@@ -156,18 +165,23 @@ export const getLegalFormats = (
 
     const isSilverAgeFormat = format === Format.SilverAge;
     if (isSilverAgeFormat) {
-      const isBanned = silverAgeBannedCards.includes(card.name);
-      const isNotTooRare = rarities.some((rarity) =>
-        [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
-          rarity
-        )
-      );
-
-      const isAllowed = !isBanned && isNotTooRare;
-      if (!isAllowed) {
+      if (!silverAgeLegal || isAnAdultHero) {
         isLegalPerFormat = false;
       }
     }
+    // if (isSilverAgeFormat) {
+    //   const isBanned = silverAgeBannedCards.includes(card.name);
+    //   const isNotTooRare = rarities.some((rarity) =>
+    //     [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
+    //       rarity
+    //     )
+    //   );
+
+    //   const isAllowed = !isBanned && isNotTooRare;
+    //   if (!isAllowed) {
+    //     isLegalPerFormat = false;
+    //   }
+    // }
 
     const isCommonerFormat = format === Format.Commoner;
     const cardMatchesCommonerRarity = rarities.some((rarity) =>
@@ -392,6 +406,18 @@ export const getConfirmedLegalFormats = ({
     const isYoungHeroFormat = YOUNG_HERO_FORMATS.includes(format);
     if (isYoungHeroFormat) {
       if (isAnAdultHero) {
+        isConfirmedLegal = false;
+      }
+    }
+
+    const isSilverAgeFormat = format === Format.SilverAge;
+    if (isSilverAgeFormat) {
+      const isNotTooRare = rarities.some((rarity) =>
+        RARITIES_ALLOWED_IN_SILVER_AGE.includes(rarity)
+      );
+
+      const isAllowed = isNotTooRare;
+      if (!isAllowed) {
         isConfirmedLegal = false;
       }
     }

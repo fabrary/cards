@@ -23,6 +23,8 @@ export interface ParsedCard {
   blitzLegal: boolean;
   classicConstructedLegal: boolean;
   commonerLegal: boolean;
+  livingLegendLegal: boolean;
+  silverAgeLegal: boolean;
   // Printings
   artists: string[];
   expansionSlot?: boolean;
@@ -112,6 +114,8 @@ const fieldsWithDefaultTrueStringToBooleanValues = [
   "blitzLegal",
   "classicConstructedLegal",
   "commonerLegal",
+  "livingLegendLegal",
+  "silverAgeLegal",
 ];
 const fieldsWithDefaultFalseStringToBooleanValues = [
   "expansionSlot",
@@ -165,6 +169,8 @@ const headerMappings = {
   "Card Played Horizontally": "cardPlayedHorizontally",
   "Blitz Legal": "blitzLegal",
   "CC Legal": "classicConstructedLegal",
+  "Silver Age Legal": "silverAgeLegal",
+  "LL Legal": "livingLegendLegal",
   "Commoner Legal": "commonerLegal",
   // Printing
   Artists: "artists",

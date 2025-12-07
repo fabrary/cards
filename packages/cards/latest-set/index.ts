@@ -3043,6 +3043,21 @@ Deal 2 damage to target hero unless they discard a card.`,
             url: "https://www.tcgplayer.com/product/653947?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.R,
+      identifier: "SUP055",
+      image: "SUP055",
+      
+      
+      print: "SUP055-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653947",
+            url: "https://www.tcgplayer.com/product/653947?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -4418,6 +4433,21 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
       tcgplayer: {
             productId: "653950",
             url: "https://www.tcgplayer.com/product/653950?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.R,
+      identifier: "SUP061",
+      image: "SUP061",
+      
+      
+      print: "SUP061-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653950",
+            url: "https://www.tcgplayer.com/product/653950?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -8895,6 +8925,21 @@ This counts as a Gold.
             url: "https://www.tcgplayer.com/product/653948?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.R,
+      identifier: "SUP056",
+      image: "SUP056",
+      
+      
+      print: "SUP056-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653948",
+            url: "https://www.tcgplayer.com/product/653948?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -8960,6 +9005,21 @@ Create a Toughness token.
       tcgplayer: {
             productId: "652749",
             url: "https://www.tcgplayer.com/product/652749?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SUP057",
+      image: "SUP057",
+      
+      
+      print: "SUP057-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "652749",
+            url: "https://www.tcgplayer.com/product/652749?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -9029,6 +9089,21 @@ Create a Toughness token.
             url: "https://www.tcgplayer.com/product/652750?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SUP058",
+      image: "SUP058",
+      
+      
+      print: "SUP058-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "652750",
+            url: "https://www.tcgplayer.com/product/652750?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -9094,6 +9169,21 @@ Create a Toughness token.
       tcgplayer: {
             productId: "652751",
             url: "https://www.tcgplayer.com/product/652751?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.R,
+      identifier: "SUP059",
+      image: "SUP059",
+      
+      
+      print: "SUP059-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "652751",
+            url: "https://www.tcgplayer.com/product/652751?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -9635,6 +9725,21 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
       tcgplayer: {
             productId: "653949",
             url: "https://www.tcgplayer.com/product/653949?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.R,
+      identifier: "SUP060",
+      image: "SUP060",
+      
+      
+      print: "SUP060-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653949",
+            url: "https://www.tcgplayer.com/product/653949?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -12034,6 +12139,21 @@ When this defends, **clash** with the attacking hero. The winner may choose an a
             url: "https://www.tcgplayer.com/product/653951?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.R,
+      identifier: "SUP062",
+      image: "SUP062",
+      
+      
+      print: "SUP062-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653951",
+            url: "https://www.tcgplayer.com/product/653951?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -13541,7 +13661,22 @@ Whenever the crowd cheers you, create a Confidence token.`,
       set: Release.SuperSlam,
       tcgplayer: {
             productId: "654064",
-            url: "https://www.tcgplayer.com/product/654064?Language=English&Printing="
+            url: "https://www.tcgplayer.com/product/654064?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.R,
+      identifier: "SUP236",
+      image: "SUP236",
+      
+      
+      print: "SUP236-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "654064",
+            url: "https://www.tcgplayer.com/product/654064?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -13610,7 +13745,22 @@ Whenever the crowd cheers you, create a Confidence token.`,
       set: Release.SuperSlam,
       tcgplayer: {
             productId: "654065",
-            url: "https://www.tcgplayer.com/product/654065?Language=English&Printing="
+            url: "https://www.tcgplayer.com/product/654065?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.R,
+      identifier: "SUP237",
+      image: "SUP237",
+      
+      
+      print: "SUP237-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "654065",
+            url: "https://www.tcgplayer.com/product/654065?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -13679,7 +13829,22 @@ Whenever the crowd cheers you, create a Confidence token.`,
       set: Release.SuperSlam,
       tcgplayer: {
             productId: "654066",
-            url: "https://www.tcgplayer.com/product/654066?Language=English&Printing="
+            url: "https://www.tcgplayer.com/product/654066?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.R,
+      identifier: "SUP238",
+      image: "SUP238",
+      
+      
+      print: "SUP238-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "654066",
+            url: "https://www.tcgplayer.com/product/654066?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14517,7 +14682,22 @@ Create a Might token.
       set: Release.SuperSlam,
       tcgplayer: {
             productId: "654061",
-            url: "https://www.tcgplayer.com/product/654061?Language=English&Printing="
+            url: "https://www.tcgplayer.com/product/654061?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.R,
+      identifier: "SUP233",
+      image: "SUP233",
+      
+      
+      print: "SUP233-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "654061",
+            url: "https://www.tcgplayer.com/product/654061?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14580,7 +14760,22 @@ Create a Might token.
       set: Release.SuperSlam,
       tcgplayer: {
             productId: "654062",
-            url: "https://www.tcgplayer.com/product/654062?Language=English&Printing="
+            url: "https://www.tcgplayer.com/product/654062?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.R,
+      identifier: "SUP234",
+      image: "SUP234",
+      
+      
+      print: "SUP234-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "654062",
+            url: "https://www.tcgplayer.com/product/654062?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14643,7 +14838,22 @@ Create a Might token.
       set: Release.SuperSlam,
       tcgplayer: {
             productId: "654063",
-            url: "https://www.tcgplayer.com/product/654063?Language=English&Printing="
+            url: "https://www.tcgplayer.com/product/654063?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.R,
+      identifier: "SUP235",
+      image: "SUP235",
+      
+      
+      print: "SUP235-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "654063",
+            url: "https://www.tcgplayer.com/product/654063?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -18704,10 +18914,10 @@ Whenever the crowd cheers you, create a Toughness token.`,
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SUP001"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["HER146","SUP001"],
+    sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP001_V2",
     subtypes: [],
     types: [Type.Hero],
@@ -20128,7 +20338,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     typeText: "Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 3,
     defense: 3,
     
@@ -20206,7 +20416,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     typeText: "Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 3,
     defense: 3,
     
@@ -20284,7 +20494,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     typeText: "Brute Action - Attack",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     cost: 3,
     defense: 3,
     
@@ -21049,6 +21259,21 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
             url: "https://www.tcgplayer.com/product/653944?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "SUP052",
+      image: "SUP052",
+      
+      
+      print: "SUP052-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653944",
+            url: "https://www.tcgplayer.com/product/653944?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -21112,6 +21337,21 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
             url: "https://www.tcgplayer.com/product/653945?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "SUP053",
+      image: "SUP053",
+      
+      
+      print: "SUP053-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653945",
+            url: "https://www.tcgplayer.com/product/653945?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -21173,6 +21413,21 @@ When this leaves the arena, you may destroy an aura permanent that a Guardian he
       tcgplayer: {
             productId: "653946",
             url: "https://www.tcgplayer.com/product/653946?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.R,
+      identifier: "SUP054",
+      image: "SUP054",
+      
+      
+      print: "SUP054-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.SuperSlam,
+      tcgplayer: {
+            productId: "653946",
+            url: "https://www.tcgplayer.com/product/653946?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
