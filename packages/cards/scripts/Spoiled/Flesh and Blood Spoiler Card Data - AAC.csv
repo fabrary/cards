@@ -1,43 +1,49 @@
-Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Silver Age Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
-AAC001,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC001.png,,,,,,,,,,,,,,,,,,,
-AAC002,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC002.png,,,,,,,,,,,,,,,,,,,
-AAC003,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC003.png,,,,,,,,,,,,,,,,,,,
-AAC004,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC004,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC004.png,,,,,,,,,,,,,,,,,,,
-AAC005,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC005,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC005.png,,,,,,,,,,,,,,,,,,,
-AAC006,AAC,Rage Baiters,,,,,1,,,,"Assassin, Equipment, Arms",Blade Break,Attack Reaction,,Mark,,,"**Attack Reaction** - {r}, {t}: Target attack with stealth gets ""When this hits a hero, **mark** them.""
+Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Silver Age Legal,Commoner Legal,Silver Age Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
+AAC001,AAC,"Arakni, 5L!p3d 7hRu 7h3 cR4X",,,,,,,,,,,,,,,,,,,,,,,,,,M,R,,,,,AAC001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC001.png,,,,,,,,,,,,,,,,,,,
+AAC002,AAC,Hunter's Klaive,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC002.png,,,,,,,,,,,,,,,,,,,
+AAC003,AAC,Spider's Bite,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC003.png,,,,,,,,,,,,,,,,,,,
+AAC004,AAC,Prey Spotters,,,,,1,,,,"Assassin, Equipment, Head",,"Mark, Battleworn",,,,,,"**Attack Reaction** - Destroy this: **Mark** target opposing hero.
 
-**Blade Break**",Assassin Equipment - Arms,,,,No,No,,M,R,,Isuardi Therianto,,,AAC006,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC006.png,,,,,,,,,,,,,,,,,,,
-AAC007,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC007,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC007.png,,,,,,,,,,,,,,,,,,,
-AAC008,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC008,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC008.png,,,,,,,,,,,,,,,,,,,
-AAC009,AAC,Creep,Red,1,0,3,3,,,,"Assassin, Action, Attack",Stealth,,,Go again,,Stealth,"**Stealth**
+**Battleworn**",Assassin Equipment - Head,,,,,,,,R,R,,Isuardi Therianto,,,AAC004,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC004.png,,,,,,,,,,,,,,,,,,,
+AAC005,AAC,Inverter's Nightcowl,,,,,1,,,,"Assassin, Equipment, Chest",,"Go again, Battleworn",,,,,,"**Action** - Destroy this: Until end of turn, whenever you play an attack action card with stealth, gain {r}. **Go again**
 
-When this attacks, the next attack with stealth you play this combat chain gets **go again**.",Assassin Action - Attack,,,,,No,,R,S,,Henrique Lindner,,,AAC009,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC009.png,,,,,,,,,,,,,,,,,,,
-AAC010,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC010,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC010.png,,,,,,,,,,,,,,,,,,,
-AAC011,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC011,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC011.png,,,,,,,,,,,,,,,,,,,
-AAC012,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC012.png,,,,,,,,,,,,,,,,,,,
-AAC013,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC013,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC013.png,,,,,,,,,,,,,,,,,,,
-AAC014,AAC,Meet Madness,Red,1,0,3,3,,,,"Chaos, Assassin, Action, Attack",Stealth,,,,,,"**Stealth**
+**Battleworn**",Assassin Equipment - Chest,,,,No,No,,,M,R,,Isuardi Therianto,,,AAC005,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC005.png,,,,,,,,,,,,,,,,,,,
+AAC006,AAC,Rage Baiters,,,,,1,,,,"Assassin, Equipment, Arms",,Blade Break,Attack Reaction,,Mark,,,"**Attack Reaction** - {r}, {t}: Target attack with stealth gets ""When this hits a hero, **mark** them.""
+
+**Blade Break**",Assassin Equipment - Arms,,,,No,No,,,M,R,,Isuardi Therianto,,,AAC006,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC006.png,,,,,,,,,,,,,,,,,,,
+AAC007,AAC,Stalker's Steps,,,,,0,,,,"Assassin, Equipment, Legs",,Arcane Barrier 1,,,,,,"**Attack Reaction** - Destroy this: Target attack with stealth gets **go again**
+
+**Arcane Barrier 1**",Assassin Equipment - Legs,,,,,,,,R,R,,Isuardi Therianto,,,AAC007,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC007.png,,,,,,,,,,,,,,,,,,,
+AAC008,AAC,Art of Desire: Body,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC008,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC008.png,,,,,,,,,,,,,,,,,,,
+AAC009,AAC,Creep,Red,1,0,3,3,,,,"Assassin, Action, Attack",,Stealth,,,Go again,,Stealth,"**Stealth**
+
+When this attacks, the next attack with stealth you play this combat chain gets **go again**.",Assassin Action - Attack,,,,,No,,,R,S,,Henrique Lindner,,,AAC009,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC009.png,,,,,,,,,,,,,,,,,,,
+AAC010,AAC,Infect,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC010,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC010.png,,,,,,,,,,,,,,,,,,,
+AAC011,AAC,Infiltrate,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC011,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC011.png,,,,,,,,,,,,,,,,,,,
+AAC012,AAC,Mark of the Black Widow,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC012.png,,,,,,,,,,,,,,,,,,,
+AAC013,AAC,Mark of the Funnel Web,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC013,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC013.png,,,,,,,,,,,,,,,,,,,
+AAC014,AAC,Meet Madness,Red,1,0,3,3,,,,"Chaos, Assassin, Action, Attack",,Stealth,,,,,,"**Stealth**
 
 When this hits a hero, choose 1 at random;
 - They choose a card in their hand. Banish it.
 - They choose a card in their arsenal. Banish it.
-- Banish the top card of their deck.",Chaos Assassin Action - Attack,,,,No,No,,M,S,,Sebastian Giacobino,,`,AAC014,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC014.png,,,,,,,,,,,,,,,,,,,
-AAC015,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC015,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC015.png,,,,,,,,,,,,,,,,,,,
-AAC016,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC016,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC016.png,,,,,,,,,,,,,,,,,,,
-AAC017,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC017,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC017.png,,,,,,,,,,,,,,,,,,,
-AAC018,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC018,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC018.png,,,,,,,,,,,,,,,,,,,
-AAC019,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC019,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC019.png,,,,,,,,,,,,,,,,,,,
-AAC020,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC020,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC020.png,,,,,,,,,,,,,,,,,,,
-AAC021,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC021,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC021.png,,,,,,,,,,,,,,,,,,,
-AAC022,AAC,Horrors of the Past,Yellow,2,0,2,3,,,,"Assassin, Action, Attack",Stealth,,,,,Stealth,"**Stealth**
+- Banish the top card of their deck.",Chaos Assassin Action - Attack,,,,No,No,,,M,S,,Sebastian Giacobino,,`,AAC014,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC014.png,,,,,,,,,,,,,,,,,,,
+AAC015,AAC,Pick to Pieces,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC015,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC015.png,,,,,,,,,,,,,,,,,,,
+AAC016,AAC,Prowl,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC016,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC016.png,,,,,,,,,,,,,,,,,,,
+AAC017,AAC,Scuttle the Canal,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC017,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC017.png,,,,,,,,,,,,,,,,,,,
+AAC018,AAC,Undercover Acquisition,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC018,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC018.png,,,,,,,,,,,,,,,,,,,
+AAC019,AAC,Razor's Edge,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC019,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC019.png,,,,,,,,,,,,,,,,,,,
+AAC020,AAC,Spike with Bloodrot,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC020,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC020.png,,,,,,,,,,,,,,,,,,,
+AAC021,AAC,Stains of the Redback,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC021,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC021.png,,,,,,,,,,,,,,,,,,,
+AAC022,AAC,Horrors of the Past,Yellow,2,0,2,3,,,,"Assassin, Action, Attack",,Stealth,,,,,Stealth,"**Stealth**
 
-When this attacks, it gets the base abilities of the last attack action card with stealth you control on the combat chain.",Assassin Action - Attack,,,,No,No,,M,S,,Ausonia,,,AAC022,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC022.png,,,,,,,,,,,,,,,,,,,
-AAC023,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC023,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC023.png,,,,,,,,,,,,,,,,,,,
-AAC024,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC024.png,,,,,,,,,,,,,,,,,,,
-AAC025,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC025,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC025.png,,,,,,,,,,,,,,,,,,,
-AAC026,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC026.png,,,,,,,,,,,,,,,,,,,
-AAC027,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC027.png,,,,,,,,,,,,,,,,,,,
-AAC028,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC028,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC028.png,,,,,,,,,,,,,,,,,,,
-AAC029,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC029,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC029.png,,,,,,,,,,,,,,,,,,,
-AAC030,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC030,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC030.png,,,,,,,,,,,,,,,,,,,
-AAC031,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC031,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC031.png,,,,,,,,,,,,,,,,,,,
+When this attacks, it gets the base abilities of the last attack action card with stealth you control on the combat chain.",Assassin Action - Attack,,,,No,No,,,M,S,,Ausonia,,,AAC022,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC022.png,,,,,,,,,,,,,,,,,,,
+AAC023,AAC,Shred,Yellow,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC023,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC023.png,,,,,,,,,,,,,,,,,,,
+AAC024,AAC,Take Up the Mantle,Yellow,2,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC024.png,,,,,,,,,,,,,,,,,,,
+AAC025,AAC,Mark of the Black Widow,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC025,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC025.png,,,,,,,,,,,,,,,,,,,
+AAC026,AAC,Mark of the Funnel Web,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC026.png,,,,,,,,,,,,,,,,,,,
+AAC027,AAC,Reaper's Call,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC027.png,,,,,,,,,,,,,,,,,,,
+AAC028,AAC,Night's Embrace,Blue,3,,,,,,,"Assassin, Attack Reaction",,,,,,,,Your attacks with stealth get +1{p} this turn.,Assassin Attack Reaction,,,,,No,,,R,,,Muhammad Fajri,,,AAC028,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC028.png,,,,,,,,,,,,,,,,,,,
+AAC029,AAC,Shred,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC029,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC029.png,,,,,,,,,,,,,,,,,,,
+AAC030,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC030,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC030.png,,,,,,,,,,,,,,,,,,,
+AAC031,AAC,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AAC031,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AAC/EN/AAC031.png,,,,,,,,,,,,,,,,,,,

@@ -1616,7 +1616,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Assassin],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01K74RXDPRPJT9YWGFVAPHECDF" },
+      { url: "https://fabrary.net/decks/01K74RXDPRPJT9YWGFVAPHECDF" },
     ],
     heroes: [Hero.Slippy],
     languages: ALL_LANGUAGES,

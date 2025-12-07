@@ -299,6 +299,7 @@ export const fabDictionary = [
   "murkmire",
   "nasreth",
   "nekria",
+  "nightcowl",
   "nimblism",
   "nimby",
   "nitro",
