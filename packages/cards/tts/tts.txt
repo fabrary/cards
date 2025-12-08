@@ -455,6 +455,8 @@ OSCCardDB = {
   ["AAC027"] = { name = "Reaper's Call (3)", text = "**Stealth**\n\n**Instant** - Discard this: **Mark** target opposing hero.", keywords = "Mark,Stealth", types = "Action"},
   ["AAC028"] = { name = "Night's Embrace (3)", text = "Your attacks with stealth get +1{p} this turn.", keywords = "", types = "Attack Reaction"},
   ["AAC029"] = { name = "Shred (3)", text = "Target card defending an Assassin attack gets -2{d} this combat chain.", keywords = "", types = "Attack Reaction"},
+  ["AAC030"] = { name = "Bloodrot Pox", text = "At the beginning of your end phase, destroy Bloodrot Pox, then it deals 2 damage to you unless you pay {r}{r}{r}.", keywords = "", types = "Token"},
+  ["AAC031"] = { name = "Marked", text = "You are **marked** until an opponent hits you", keywords = "Mark", types = "Token"},
   ["AAZ001"] = { name = "Azalea, Ace in the Hole", text = "**Once per Turn Action** - 0: Put a card from your arsenal on the bottom of your deck. If you do, put the top card of your deck face up into your arsenal. If it's an arrow card, it gains **dominate** until end of turn. **Go again**", keywords = "Dominate,Go again", types = "Hero"},
   ["AAZ002"] = { name = "Death Dealer", text = "**Once per Turn Action** - {r}: If you have no cards in your arsenal, you may put an arrow card from your hand face up into your arsenal. If you do, draw a card. **Go again**", keywords = "Go again", types = "Weapon"},
   ["AAZ003"] = { name = "Crow's Nest", text = "**Azalea Specialization**\n\nWhenever an arrow is put face up into your arsenal from your deck, you may pay {r}. If you do, put an aim counter on it.", keywords = "Specialization", types = "Equipment"},
