@@ -62,6 +62,8 @@ const YOUNG_HERO_FORMATS = [
   Format.UltimatePitFight,
 ];
 
+const ADULT_HERO_FORMATS = [Format.ClassicConstructed, Format.LivingLegend];
+
 const LIMITED_SETS = Object.values(coreSetIdentifiers);
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
@@ -69,11 +71,11 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
 );
 
 const CARDS_TO_LOG: string[] = [
-  // "Rhinar, Reckless Rampage"
+  // "Groundbreaker Crix"
 ];
 
 const CONFIRMED_CARDS_TO_LOG: string[] = [
-  // "Rhinar, Reckless Rampage"
+  // "Groundbreaker Crix"
 ];
 
 export const getLegalFormats = (
@@ -120,8 +122,10 @@ export const getLegalFormats = (
       Format.ClassicConstructed,
       Format.LivingLegend,
     ].includes(format);
-    if (isCCFormat && !classicConstructedLegal) {
-      isLegalPerFormat = false;
+    if (isCCFormat) {
+      if (!classicConstructedLegal || isAYoungHero) {
+        isLegalPerFormat = false;
+      }
     }
 
     const isClashFormat = format === Format.Clash;
@@ -406,6 +410,13 @@ export const getConfirmedLegalFormats = ({
     const isYoungHeroFormat = YOUNG_HERO_FORMATS.includes(format);
     if (isYoungHeroFormat) {
       if (isAnAdultHero) {
+        isConfirmedLegal = false;
+      }
+    }
+
+    const isAdultHeroFormat = ADULT_HERO_FORMATS.includes(format);
+    if (isAdultHeroFormat) {
+      if (isAYoungHero) {
         isConfirmedLegal = false;
       }
     }

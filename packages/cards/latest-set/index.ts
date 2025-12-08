@@ -18928,9 +18928,9 @@ Whenever the crowd cheers you, create a Toughness token.`,
     
     
     
-    functionalText: `**Instant** - {t}: Pitch the top card of your deck. If it has 6 or more {p}, **the crowd cheers* you.
+    functionalText: `**Instant** - {t}: Pitch the top card of your deck. If it has 6 or more {p}, **the crowd cheers** you.
 
-Wheenver the crowd cheers you, create a Toughness token.`,
+Whenever the crowd cheers you, create a Toughness token.`,
     
     hero: Hero.Tuffnut,
     intellect: 3,
