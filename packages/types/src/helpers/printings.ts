@@ -69,14 +69,23 @@ const specialImagePrintingOverrides: {
   "cracked-bauble-yellow": {
     print: "LGS083-Cold",
   },
+  "dash-io": {
+    print: "HER089-Cold",
+  },
   "fate-foreseen-red": {
     print: "FAB024-Rainbow",
+  },
+  "florian-rotwood-harbinger": {
+    print: "ROS001-Cold-Full Art-Back",
   },
   "pleiades-superstar": {
     print: "SUP009-Cold-Full Art",
   },
   "pitfall-trap-yellow": {
     print: "LGS151-Rainbow",
+  },
+  "prism-sculptor-of-arc-light": {
+    print: "HER069-Cold-Full Art-Back",
   },
   quicken: {
     print: "EVO250",
