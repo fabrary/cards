@@ -1,7 +1,7 @@
 {
   "name": "@flesh-and-blood/types",
   "description": "TypeScript representations of Flesh and Blood card types",
-  "version": "3.6.166",
+  "version": "3.6.165",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "sideEffects": false,
@@ -47,5 +47,5 @@
     "FAB",
     "FABTCG"
   ],
-  "gitHead": "71162394e6b8ac0ef9a01cdaacc2661d4a34ae3e"
+  "gitHead": "621a4ccc12f40d351b1ca49bcc7ea8a83ca15310"
 }
