@@ -7489,7 +7489,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
   
     
     pitch: 2,
-    power: 7,
+    power: 6,
     
     shorthands: [Shorthand.Poppers],
     
@@ -7567,9 +7567,9 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
   
     
     pitch: 3,
-    power: 7,
+    power: 5,
     
-    shorthands: [Shorthand.Poppers],
+    
     
     
     
