@@ -260,9 +260,9 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
     bannedFormats.push(Format.LivingLegend);
   }
 
-  if (blitzLivingLegend || blitzBanned || blitzSuspended) {
-    bannedFormats.push(Format.Blitz);
-  }
+  // if (blitzLivingLegend || blitzBanned || blitzSuspended) {
+  //   bannedFormats.push(Format.Blitz);
+  // }
 
   if (
     classicConstructedLivingLegend ||

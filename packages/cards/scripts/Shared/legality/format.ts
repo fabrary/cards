@@ -15,6 +15,7 @@ import {
 } from "@flesh-and-blood/types";
 import { clashBannedCards, clashLegalOverrides } from "./clash";
 import { silverAgeBannedCards } from "./silver-age";
+import { SPECIAL_USE_PROMOS } from "./special-use-promos";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
 const limitedLegalOverrideCards = [
@@ -96,8 +97,7 @@ export const getLegalFormats = (
 ): Format[] => {
   const legalFormats: Format[] = [Format.Open];
 
-  const { blitzLegal, classicConstructedLegal, commonerLegal, silverAgeLegal } =
-    card;
+  const { classicConstructedLegal, commonerLegal, name, silverAgeLegal } = card;
 
   const isMacro = types.includes(Type.Macro);
   const isHero = types.includes(Type.Hero);
@@ -107,13 +107,16 @@ export const getLegalFormats = (
     subtypes.includes(Subtype.PitFighter);
   const isAnAdultHero = isHero && !isYoung;
   const isAYoungHero = isYoung && isHero;
+  const isPitFighter = subtypes.includes(Subtype.PitFighter);
+
+  const isASpecialUsePromo = SPECIAL_USE_PROMOS.includes(name);
 
   for (const format of FORMATS_TO_CHECK) {
     let isLegalPerFormat = true;
 
     const isBlitzFormat = format === Format.Blitz;
     if (isBlitzFormat) {
-      if (!blitzLegal || isAnAdultHero) {
+      if (isPitFighter || isASpecialUsePromo || isAnAdultHero) {
         isLegalPerFormat = false;
       }
     }
@@ -158,7 +161,6 @@ export const getLegalFormats = (
 
     const isPitFightFormat = format === Format.UltimatePitFight;
     if (isPitFightFormat) {
-      const isPitFighter = subtypes.includes(Subtype.PitFighter);
       if (isPitFighter) {
         isLegalPerFormat = true;
       }
@@ -344,6 +346,9 @@ export const getConfirmedLegalFormats = ({
     subtypes.includes(Subtype.PitFighter);
   const isAnAdultHero = isHero && !isYoung;
   const isAYoungHero = isYoung && isHero;
+  const isPitFighter = subtypes.includes(Subtype.PitFighter);
+
+  const isASpecialUsePromo = SPECIAL_USE_PROMOS.includes(name);
 
   const confirmedLegalFormats = legalFormats.filter((format) => {
     let isConfirmedLegal = true;
@@ -410,6 +415,13 @@ export const getConfirmedLegalFormats = ({
     const isYoungHeroFormat = YOUNG_HERO_FORMATS.includes(format);
     if (isYoungHeroFormat) {
       if (isAnAdultHero) {
+        isConfirmedLegal = false;
+      }
+    }
+
+    const isBlitzFormat = format === Format.Blitz;
+    if (isBlitzFormat) {
+      if (isPitFighter || isASpecialUsePromo || isAnAdultHero) {
         isConfirmedLegal = false;
       }
     }
