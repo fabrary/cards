@@ -166,26 +166,6 @@ describe("Card search", () => {
       },
     ],
     [
-      "l:commoner",
-      {
-        percent: 50,
-        searchTerms: ["legal:commoner", "l:commoner"],
-      },
-    ],
-    [
-      "!l:commoner",
-      {
-        percent: 50,
-        lessThan: true,
-        searchTerms: [
-          "!legal:commoner",
-          "-legal:commoner",
-          "!l:commoner",
-          "-l:commoner",
-        ],
-      },
-    ],
-    [
       "l:clash",
       {
         percent: 55,
@@ -307,10 +287,8 @@ describe("Card search", () => {
   const hasNoQuantity = [
     [
       "legal:ira,clash zephyr needle",
-      "legal:shiyana,commoner cnc",
       "legal:shiyana,clash figment",
       "legal:shiyana,clash cnc",
-      "legal:prism,commoner figment of erudition",
       "legal:prism,clash dread scythe",
       "legal:chane,clash rosetta thorn",
       "legal:shiyana,clash rosetta thorn",

@@ -67,9 +67,6 @@ export interface ParsedCard {
   classicConstructedLegal: boolean;
   classicConstructedLivingLegend: boolean;
   classicConstructedSuspended: boolean;
-  commonerBanned: boolean;
-  commonerLegal: boolean;
-  commonerSuspended: boolean;
   livingLegendBanned: boolean;
   livingLegendRestricted: boolean;
   silverAgeBanned: boolean;

@@ -84,7 +84,6 @@ export const getLegalFormats = (
   card: {
     blitzLegal: boolean;
     classicConstructedLegal: boolean;
-    commonerLegal: boolean;
     silverAgeLegal: boolean;
     name: string;
   },
@@ -97,7 +96,7 @@ export const getLegalFormats = (
 ): Format[] => {
   const legalFormats: Format[] = [Format.Open];
 
-  const { classicConstructedLegal, commonerLegal, name, silverAgeLegal } = card;
+  const { classicConstructedLegal, name, silverAgeLegal } = card;
 
   const isMacro = types.includes(Type.Macro);
   const isHero = types.includes(Type.Hero);
@@ -188,16 +187,6 @@ export const getLegalFormats = (
     //     isLegalPerFormat = false;
     //   }
     // }
-
-    const isCommonerFormat = format === Format.Commoner;
-    const cardMatchesCommonerRarity = rarities.some((rarity) =>
-      RARITIES_ALLOWED_IN_COMMONER.includes(rarity)
-    );
-    if (isCommonerFormat) {
-      if (!commonerLegal || !cardMatchesCommonerRarity) {
-        isLegalPerFormat = false;
-      }
-    }
 
     const isLimitedFormat = [Format.Draft, Format.Sealed].includes(format);
     if (isLimitedFormat) {

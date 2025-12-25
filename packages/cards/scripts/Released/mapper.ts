@@ -246,9 +246,6 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
     classicConstructedBanned,
     classicConstructedLivingLegend,
     classicConstructedSuspended,
-    commonerBanned,
-    commonerLegal,
-    commonerSuspended,
     livingLegendBanned,
     silverAgeBanned,
     silverAgeLegal,
@@ -274,10 +271,6 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
 
   if (silverAgeBanned) {
     bannedFormats.push(Format.SilverAge);
-  }
-
-  if (commonerBanned || commonerSuspended) {
-    bannedFormats.push(Format.Commoner);
   }
 
   bannedFormats.sort();
