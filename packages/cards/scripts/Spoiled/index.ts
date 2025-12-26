@@ -18,6 +18,7 @@ const spoiledSetCardsFileAVS = `${__dirname}/Flesh and Blood Spoiler Card Data -
 const spoiledSetCardsFileBDD = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
 const spoiledSetCardsFileMPG = `${__dirname}/Flesh and Blood Spoiler Card Data - MPG.csv`;
 const spoiledSetCardsFilePEN = `${__dirname}/Flesh and Blood Spoiler Card Data - PEN.csv`;
+const spoiledSetCardsFileSAGE = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
 const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
@@ -39,6 +40,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileBDD),
   ...parseCSV(spoiledSetCardsFileMPG),
   ...parseCSV(spoiledSetCardsFilePEN),
+  ...parseCSV(spoiledSetCardsFileSAGE),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
@@ -93,8 +95,8 @@ spoiledSetCards.forEach((card) => {
     });
     deduplicatedPrintings.sort(sortPrintingsByReleaseOrder);
 
-    const defaultImage = getDefaultPrinting(card, deduplicatedPrintings).image;
-    const specialImage = getSpecialPrinting(card, deduplicatedPrintings).image;
+    const defaultImage = getDefaultPrinting(card, deduplicatedPrintings)?.image;
+    const specialImage = getSpecialPrinting(card, deduplicatedPrintings)?.image;
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();

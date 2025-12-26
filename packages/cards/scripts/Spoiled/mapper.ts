@@ -239,7 +239,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
       parsedUrl.lastIndexOf(".")
     );
   } else {
-    image = identifier;
+    // image = identifier;
   }
 
   const print = getPrint({ identifier, image, foiling, set, treatment });
@@ -826,7 +826,7 @@ const getCardData = (card: ParsedCard): Card => {
     defaultImage: getDefaultPrinting(
       { name: card.name, cardIdentifier },
       printings
-    ).image,
+    )?.image,
     legalFormats: getLegalFormats(
       bannedFormats,
       card,
@@ -861,7 +861,7 @@ const getCardData = (card: ParsedCard): Card => {
     specialImage: getSpecialPrinting(
       { name: card.name, cardIdentifier },
       printings
-    ).image,
+    )?.image,
     subtypes,
     types,
     typeText: card.typeText,

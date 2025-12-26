@@ -257,6 +257,18 @@ export enum Release {
   KatsuHeroDeck = "Katsu Hero Deck",
   RhinarHeroDeck = "Rhinar Hero Deck",
 
+  // Silver age decks
+  ArakniSilverAgeDeck = "Arakni Silver Age Deck",
+  AzaleaSilverAgeDeck = "Azalea Silver Age Deck",
+  BravoSilverAgeDeck = "Bravo Silver Age Deck",
+  DashSilverAgeDeck = "Dash Silver Age Deck",
+  DorintheaSilverAgeDeck = "Dorinthea Silver Age Deck",
+  EnigmaSilverAgeDeck = "Enigma Silver Age Deck",
+  FaiSilverAgeDeck = "Fai Silver Age Deck",
+  IyslanderSilverAgeDeck = "Iyslander Silver Age Deck",
+  KayoSilverAgeDeck = "Kayo Silver Age Deck",
+  ViseraiSilverAgeDeck = "Viserai Silver Age Deck",
+
   // Other decks
   BravoDemoDeck = "Bravo Demo Deck",
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",

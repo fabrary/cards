@@ -95,8 +95,8 @@ releasedCards.forEach((card) => {
     );
     const flows = combinedFlows.length > 0 ? combinedFlows : undefined;
 
-    const defaultImage = getDefaultPrinting(card, deduplicatedPrintings).image;
-    const specialImage = getSpecialPrinting(card, deduplicatedPrintings).image;
+    const defaultImage = getDefaultPrinting(card, deduplicatedPrintings)?.image;
+    const specialImage = getSpecialPrinting(card, deduplicatedPrintings)?.image;
     const rarities = Array.from(
       new Set([...duplicate.rarities, ...card.rarities])
     ).sort();

@@ -13,6 +13,7 @@ export const combineAndAddMissingFields = (card: Card, duplicate: Card) => {
     "power",
     "rarity",
     "typeText",
+    "young",
   ];
   for (const field of valueFieldsToFillIfMissing) {
     const fieldIsMissingOnDuplicate = !duplicate[field];
