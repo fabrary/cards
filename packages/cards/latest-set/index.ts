@@ -20294,7 +20294,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     cardIdentifier: "vigorous-smashup-red",
     classes: [Class.Brute],
     defaultImage: "SUP164",
-    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Brutus,Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
     name: "Vigorous Smashup",
     printings: [{
@@ -20372,7 +20372,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     cardIdentifier: "vigorous-smashup-yellow",
     classes: [Class.Brute],
     defaultImage: "SUP165",
-    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Brutus,Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
     name: "Vigorous Smashup",
     printings: [{
@@ -20450,7 +20450,7 @@ If there is a card with 6 or more {p} in your pitch zone, create a Vigor token.
     cardIdentifier: "vigorous-smashup-blue",
     classes: [Class.Brute],
     defaultImage: "SUP166",
-    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Brutus,Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
     name: "Vigorous Smashup",
     printings: [{
