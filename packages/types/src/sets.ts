@@ -1349,7 +1349,12 @@ export const releases: ReleaseInfo[] = [
     languages: ALL_LANGUAGES_OLD,
     raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.TheHunted,
-    relatedReleases: [],
+    relatedReleases: [
+      Release.ArakniBlitzDeckARK,
+      Release.ArakniWebOfDeceitBlitzDeck,
+      Release.CindraBlitzDeck,
+      Release.FangBlitzDeck,
+    ],
     releaseDate: "2025-01-31 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["hnt"],
@@ -1409,9 +1414,7 @@ export const releases: ReleaseInfo[] = [
       Class.Ranger,
       Class.Thief,
     ],
-    deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
-    ],
+    deckLinks: [],
     draft: {
       heroIdentifiers: ["gravy-bones", "marlynn", "puffin", "scurv-stowaway"],
       picksPerPack: 14,
@@ -1430,7 +1433,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Ninja],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01JZ97KZ5TQV8E0FYMAM0XVNX7" },
     ],
     heroes: [Hero.Ira],
     languages: ALL_LANGUAGES,
@@ -1445,7 +1448,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Runeblade],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01K0ZQGQYJPH6B90VNT3GJ8C7Q" },
     ],
     heroes: [Hero.Viserai],
     languages: ALL_LANGUAGES,
@@ -1460,7 +1463,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Illusionist],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
+      { url: "https://fabrary.net/decks/01K0ZQ8FVR8DQB7YC9N7KAB7N8" },
     ],
     heroes: [Hero.Prism],
     languages: ALL_LANGUAGES,
@@ -1474,9 +1477,7 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 130,
     classes: [Class.Guardian],
-    deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
-    ],
+    deckLinks: [],
     heroes: [Hero.Valda],
     languages: ALL_LANGUAGES,
     release: Release.MasteryPackGuardian,
@@ -1505,25 +1506,15 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 107,
     classes: [Class.Guardian],
-    deckLinks: [
-      // {
-      //   name: "Brevant",
-      //   url: "https://fabrary.net/decks/01HAXKPFH7ZHPDEJZH967VNRW6",
-      // },
-      // {
-      //   name: "Ira",
-      //   url: "https://fabrary.net/decks/01HAXKZMTRN4FR7CFTQA11A70N",
-      // },
-      // {
-      //   name: "Melody",
-      //   url: "https://fabrary.net/decks/01HAXKSFPXGCEH99PDZJ32V4N9",
-      // },
-      // {
-      //   name: "Teklovossen",
-      //   url: "https://fabrary.net/decks/01HAXKZMTRN4FR7CFTQA11A70N",
-      // },
+    deckLinks: [],
+    heroes: [
+      Hero.Bolfar,
+      Hero.Bravo,
+      Hero.Kox,
+      Hero.Crix,
+      Hero.Reya,
+      Hero.Victor,
     ],
-    heroes: [Hero.Bravo],
     languages: [Language.English],
     release: Release.SmashPalace,
     relatedReleases: [],
@@ -1535,9 +1526,7 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 276,
     classes: [Class.Brute, Class.Guardian],
-    deckLinks: [
-      // { url: "https://fabrary.net/decks/01JCPPENK52DTRBJZMWQF8S0X2" },
-    ],
+    deckLinks: [],
     draft: {
       heroIdentifiers: [
         "tuffnut",
