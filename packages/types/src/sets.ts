@@ -54,43 +54,22 @@ const PRECONSTRUCTED_RELEASE_TYPES = [
   ReleaseType.ClassicBattles,
   ReleaseType.FirstStrike,
   ReleaseType.RoundTheTable,
+  ReleaseType.SilverAgeDeck,
   ReleaseType.WelcomeDeck,
 ];
 export const getIsPreconstructed = (releaseType: ReleaseType) =>
   PRECONSTRUCTED_RELEASE_TYPES.includes(releaseType);
 
-export const coreSetIdentifiers: { [key: string]: Release } = {
-  wtr: Release.WelcomeToRathe,
-  arc: Release.ArcaneRising,
-  mon: Release.Monarch,
-  ele: Release.TalesOfAria,
-  upr: Release.Uprising,
-  out: Release.Outsiders,
-  evo: Release.BrightLights,
-  hvy: Release.HeavyHitters,
-  mst: Release.PartTheMistveil,
-  ros: Release.Rosetta,
-};
-
-export const supplementalSetIdentifiers: { [key: string]: Release } = {
-  cru: Release.CrucibleOfWar,
-  evr: Release.Everfest,
-  "1hp": Release.HistoryPack1,
-  hp1: Release.HistoryPack1,
-  dyn: Release.Dynasty,
-  dtd: Release.DuskTillDawn,
-};
-
-export const promoSetIdentifiers = [
-  "fab",
-  "her",
-  "jdg",
-  "lgs",
-  "lss",
-  "oxo",
-  "xxx",
-  "win",
-];
+// export const promoSetIdentifiers = [
+//   "fab",
+//   "her",
+//   "jdg",
+//   "lgs",
+//   "lss",
+//   "oxo",
+//   "xxx",
+//   "win",
+// ];
 
 interface DeckLink {
   name?: string;
@@ -119,7 +98,6 @@ export interface ReleaseInfo {
   releaseType: ReleaseType;
   setIdentifiers: string[];
   talents: Talent[];
-  url?: string;
 }
 
 export const releases: ReleaseInfo[] = [
@@ -1376,7 +1354,6 @@ export const releases: ReleaseInfo[] = [
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["hnt"],
     talents: [Talent.Chaos, Talent.Draconic, Talent.Royal],
-    url: "https://fabtcg.com/en/articles/hnt/",
   },
   {
     cards: 28,
@@ -1671,7 +1648,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Assassin],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Arakni],
     languages: ALL_LANGUAGES,
     release: Release.ArakniSilverAgeDeck,
@@ -1684,7 +1663,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ranger],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Azalea],
     languages: ALL_LANGUAGES,
     release: Release.AzaleaSilverAgeDeck,
@@ -1697,7 +1678,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Guardian],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Bravo],
     languages: ALL_LANGUAGES,
     release: Release.BravoSilverAgeDeck,
@@ -1710,7 +1693,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Mechanologist],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Dash],
     languages: ALL_LANGUAGES,
     release: Release.DashSilverAgeDeck,
@@ -1723,7 +1708,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Warrior],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Dorinthea],
     languages: ALL_LANGUAGES,
     release: Release.DorintheaSilverAgeDeck,
@@ -1736,7 +1723,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Illusionist],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Enigma],
     languages: ALL_LANGUAGES,
     release: Release.EnigmaSilverAgeDeck,
@@ -1749,7 +1738,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Ninja],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Fai],
     languages: ALL_LANGUAGES,
     release: Release.FaiSilverAgeDeck,
@@ -1762,7 +1753,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Wizard],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Iyslander],
     languages: ALL_LANGUAGES,
     release: Release.IyslanderSilverAgeDeck,
@@ -1775,7 +1768,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Brute],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Kayo],
     languages: ALL_LANGUAGES,
     release: Release.KayoSilverAgeDeck,
@@ -1788,7 +1783,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Runeblade],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
     heroes: [Hero.Viserai],
     languages: ALL_LANGUAGES,
     release: Release.ViseraiSilverAgeDeck,
@@ -1802,7 +1799,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Warrior],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01K74RXDPRPJT9YWGFVAPHECDF" },
+      // { url: "https://fabrary.net/decks/TBD" },
     ],
     heroes: [Hero.Hala],
     languages: ALL_LANGUAGES,
@@ -1951,3 +1948,36 @@ for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
 }
 
 export const setToSetIdentifierMappings = tempSetToSetIdentifierMappings;
+
+export interface SilverAgeChapter {
+  chapter: number;
+  name: string;
+  relatedReleases: Release[];
+  releaseDate: string;
+}
+export const silverAgeChapters: SilverAgeChapter[] = [
+  {
+    chapter: 1,
+    name: "Silver Age Chapter 1",
+    relatedReleases: [
+      Release.BravoSilverAgeDeck,
+      Release.DashSilverAgeDeck,
+      Release.KayoSilverAgeDeck,
+      Release.IyslanderSilverAgeDeck,
+      Release.ViseraiSilverAgeDeck,
+    ],
+    releaseDate: "2026-02-13 12:00",
+  },
+  {
+    chapter: 2,
+    name: "Silver Age Chapter 2",
+    relatedReleases: [
+      Release.ArakniSilverAgeDeck,
+      Release.AzaleaSilverAgeDeck,
+      Release.DorintheaSilverAgeDeck,
+      Release.EnigmaSilverAgeDeck,
+      Release.FaiSilverAgeDeck,
+    ],
+    releaseDate: "2026-02-13 12:00",
+  },
+];

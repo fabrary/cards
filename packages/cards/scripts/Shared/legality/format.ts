@@ -1,7 +1,6 @@
 import {
   Card,
   Class,
-  coreSetIdentifiers,
   Format,
   Hero,
   Keyword,
@@ -64,8 +63,6 @@ const YOUNG_HERO_FORMATS = [
 ];
 
 const ADULT_HERO_FORMATS = [Format.ClassicConstructed, Format.LivingLegend];
-
-const LIMITED_SETS = Object.values(coreSetIdentifiers);
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open
