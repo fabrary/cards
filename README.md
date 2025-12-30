@@ -5,6 +5,12 @@
 - [Enums](#enums)
 - [Working with this project](#working-with-this-project)
 
+# Recent Updates
+
+- **#16** by theblang was closed on Mar 28, 2024 - Use json
+- **#14** by manwaring was merged on Mar 15, 2023 - Updated with fab-cube's card.csv on 2022/11/21  
+- **#13** by LoveGlitchCoffee was closed on Dec 30, 2022
+
 # @flesh-and-blood/\* breaking changes
 
 - Card data has it's own package (@flesh-and-blood/cards)
