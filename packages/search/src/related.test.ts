@@ -90,6 +90,7 @@ describe("Related cards", () => {
     [["Shitty Xmas Present"], ["Cracked Bauble"]],
     [["Pulverize"], ["Seismic Surge"]],
     [["Star Struck"], ["Seismic Surge"]],
+    // [["Golden Skywarden"], ["Golden Cog", "Gold"]],
   ];
 
   it.each(tokens)(

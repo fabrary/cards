@@ -113,6 +113,7 @@ export const getRelatedCards = (
         cardName !== initialName &&
         !initialReferences.some((card) => {
           const name = card.name; //getOverrideOrName(card);
+
           return name !== initialName && name?.includes(initialName);
         })
       ) {

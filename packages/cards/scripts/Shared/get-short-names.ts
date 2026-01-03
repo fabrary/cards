@@ -22,8 +22,24 @@ const heroShortNames: heroShortName[] = [
     shortName: "Arakni, Marionette",
   },
   {
+    heroIdentifiers: ["arakni-solitary-confinement"],
+    shortName: "Arakni, Solitary",
+  },
+  {
     heroIdentifiers: ["arakni-web-of-deceit"],
-    shortName: "Arakni, Web of Deceit",
+    shortName: "Arakni, Deceit",
+  },
+  {
+    heroIdentifiers: ["bravo-flattering-showman"],
+    shortName: "Bravo, Flattering",
+  },
+  {
+    heroIdentifiers: ["dash-inventor-extraordinaire"],
+    shortName: "Dash IE",
+  },
+  {
+    heroIdentifiers: ["dash-io"],
+    shortName: "Dash IO",
   },
   {
     heroIdentifiers: ["kayo-strong-arm"],
