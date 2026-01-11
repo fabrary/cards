@@ -35,7 +35,7 @@ describe("Gets the correct default and special printings", () => {
     const specialPrinting = getSpecialPrinting(card, printings);
 
     expect(defaultPrinting).toBeTruthy();
-    expect(defaultPrinting.identifier).toEqual("HNT260");
+    expect(defaultPrinting.identifier).toEqual("PEN319");
 
     expect(specialPrinting).toBeTruthy();
     expect(specialPrinting.identifier).toEqual("DYN000");
