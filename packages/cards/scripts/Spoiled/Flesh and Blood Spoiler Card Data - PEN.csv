@@ -66,8 +66,12 @@ PEN058,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN058,https://storage.googleapis.com/
 PEN059,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN059,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN059.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN060,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN060,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN061,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN061,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN062,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN062,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN063,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN063,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN063.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN062,PEN,Ghost Protocol: Architect,Red,1,0,1,3,,,,"Mechanologist, Action, Attack",,Evo Upgrade,,,,,,"If this was banished from boosting this turn, you may play this from your banished zone.
+
+**Evo Upgrade** - When this attacks, search your deck for an Evo with cost less than or equal to the number of Evos you have equipped, banish it, then shuffle.",Mechanologist Action - Attack,,,,No,No,,M,,,Jessada Sutthi,,,PEN062,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN062.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN063,PEN,Ghost Protocol: Mainframe,Blue,3,0,1,3,,,,"Mechanologist, Action, Attack",,Evo Upgrade,,,,,,"If this was banished from boosting this turn, you may play this from your banished zone.
+
+**Evo Upgrade** - This gets +1{p} for each Evo you have equipped.",Mechanologist Action - Attack,,,,No,No,,M,,,Mariusz Gandzel,,,PEN063,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN063.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN064,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN064,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN065,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN065,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN065.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN066,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN066,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN066.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
