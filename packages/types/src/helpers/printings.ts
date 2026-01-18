@@ -291,6 +291,9 @@ const defaultImagePrintingOverrides: {
   "command-and-conquer-red": {
     print: "HNT260",
   },
+  "fyendals-spring-tunic": {
+    print: "EVO249",
+  },
   might: {
     print: "TER028",
   },
