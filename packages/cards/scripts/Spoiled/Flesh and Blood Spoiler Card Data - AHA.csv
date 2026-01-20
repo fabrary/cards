@@ -1,6 +1,10 @@
 Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
 AHA001,AHA,"Hala, Bladesaint of the Vow",,,,,,40,4,,"Warrior, Hero",,Action,"Sharpen, Go again",,,,"**Action** - {r}{r}{r}, {t}: **Sharpen** target sword you control. **Go again**",Warrior Hero,,,,No,No,M,S,,Federico Musetti,,,AHA001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA001.png,,,,,,,,,,,,,,,,,,,
-AHA002,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA002.png,,,,,,,,,,,,,,,,,,,
+AHA002,AHA,Zenith Blade,,,,3,,,,,"Warrior, Weapon, Sword, 2H","Hala Specialization, Go again",,,,,,"**Hala Specialization**
+
+**Once per Turn Action** - {r}: **Attack**
+
+If this has been sharpened this turn, its first attack this turn gets **go again**.",Warrior Weapon - Sword (2H),,,,,,R,R,,Thomas Ressuge,,,AHA002,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA002.png,,,,,,,,,,,,,,,,,,,
 AHA003,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA003,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA003.png,,,,,,,,,,,,,,,,,,,
 AHA004,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA004,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA004.png,,,,,,,,,,,,,,,,,,,
 AHA005,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA005,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA005.png,,,,,,,,,,,,,,,,,,,
