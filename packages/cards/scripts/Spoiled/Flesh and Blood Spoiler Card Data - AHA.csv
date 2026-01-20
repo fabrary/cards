@@ -1,5 +1,5 @@
 Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Commoner Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
-AHA001,AHA,"Hala, Bladesaint of the Vow",,,,,,40,4,,"Warrior, Hero",,Action,"Sharpen, Go again",,,,"**Action** - {r}{r}{r}, {t}: **Sharpen** target sword you control. **Go again**",Warrior Hero,,,,No,No,M,S,,Federico Musetti,,,AHA001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA001.png,,,,,,,,,,,,,,,,,,,
+AHA001,AHA,"Hala, Bladesaint of the Vow",,,,,,40,4,,"Warrior, Hero",,Action,"Sharpen, Go again",,,,"**Action** - {r}{r}{r}, {t}: **Sharpen** target sword you control. **Go again**",Warrior Hero,,,,No,No,M,R,,Federico Musetti,,,AHA001,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA001.png,,,,,,,,,,,,,,,,,,,
 AHA002,AHA,Zenith Blade,,,,3,,,,,"Warrior, Weapon, Sword, 2H","Hala Specialization, Go again",,,,,,"**Hala Specialization**
 
 **Once per Turn Action** - {r}: **Attack**
@@ -14,7 +14,11 @@ AHA008,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA008,https://storage.googleapis.com/fa
 AHA009,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA009,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA009.png,,,,,,,,,,,,,,,,,,,
 AHA010,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA010,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA010.png,,,,,,,,,,,,,,,,,,,
 AHA011,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA011,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA011.png,,,,,,,,,,,,,,,,,,,
-AHA012,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA012.png,,,,,,,,,,,,,,,,,,,
+AHA012,AHA,Edict of Steel,Red,1,0,,3,,,,"Warrior, Action","Sharpen, Go again",,,,,,"**Sharpen** target sword you control.
+
+If it has 1 or more +1{p} counters, create a Flurry token.
+
+**Go again**",Warrior Action,,,,,,C,,,Bastien Jez,,,AHA012,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA012.png,,,,,,,,,,,,,,,,,,,
 AHA013,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA013,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA013.png,,,,,,,,,,,,,,,,,,,
 AHA014,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA014,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA014.png,,,,,,,,,,,,,,,,,,,
 AHA015,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA015,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA015.png,,,,,,,,,,,,,,,,,,,
@@ -29,7 +33,7 @@ AHA023,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA023,https://storage.googleapis.com/fa
 AHA024,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA024,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA024.png,,,,,,,,,,,,,,,,,,,
 AHA025,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA025,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA025.png,,,,,,,,,,,,,,,,,,,
 AHA026,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA026,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA026.png,,,,,,,,,,,,,,,,,,,
-AHA027,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA027.png,,,,,,,,,,,,,,,,,,,
+AHA027,AHA,Flurry,,,,,,,,,"Warrior, Token, Aura",,,,,,,"When you activate a weapon attack, destroy this and you may attack with the weapon twice this turn.",Warrior Token - Aura,,,,,,B,,,Faizal Fikri,,,AHA027,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA027.png,,,,,,,,,,,,,,,,,,,
 AHA028,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA028,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA028.png,,,,,,,,,,,,,,,,,,,
 AHA029,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA029,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA029.png,,,,,,,,,,,,,,,,,,,
 AHA030,AHA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AHA030,https://storage.googleapis.com/fabmaster/cardfaces/2025-ARMORY-AHA/EN/AHA030.png,,,,,,,,,,,,,,,,,,,
