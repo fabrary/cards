@@ -60,6 +60,7 @@ describe("Card identifiers", () => {
     (name, { expected: { number, string }, pitch }) => {
       const card = { name };
       if (pitch || pitch === 0) {
+        // @ts-ignore
         card["pitch"] = pitch;
       }
 
@@ -78,9 +79,7 @@ describe("Card identifiers", () => {
 });
 
 describe("Card types", () => {
-  const types = Object.values(Type).filter(
-    (type) => type !== Type.Hero && type !== Type.PitFighter
-  );
+  const types = Object.values(Type).filter((type) => type !== Type.Hero);
 
   it.each(types)("%s is an arena or deck card", (type) => {
     const isArenaCard = getIsArenaCard({ types: [type] });

@@ -241,6 +241,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/aetherstorm-wellingtons</loc>
+    <lastmod>2026-01-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/affirm-loyalty-red</loc>
     <lastmod>2025-01-14</lastmod>
     <priority>0.5</priority>
@@ -5081,6 +5086,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/double-cross-strap</loc>
+    <lastmod>2026-01-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/double-down-red</loc>
     <lastmod>2023-10-28</lastmod>
     <priority>0.5</priority>
@@ -5883,6 +5893,11 @@
   <url>
     <loc>https://fabrary.net/cards/energy-potion-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/enflame-the-firebrand-red</loc>
+    <lastmod>2026-01-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -6811,6 +6826,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fire-that-burns-within-red</loc>
+    <lastmod>2026-01-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/firebreathing-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -7383,6 +7403,11 @@
   <url>
     <loc>https://fabrary.net/cards/frost-lock-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/frost-spike-blue</loc>
+    <lastmod>2026-01-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10943,6 +10968,11 @@
   <url>
     <loc>https://fabrary.net/cards/mask-of-the-pouncing-lynx</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mask-of-the-swarming-claw</loc>
+    <lastmod>2026-01-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

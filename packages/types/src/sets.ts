@@ -1728,7 +1728,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Ninja],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWD89C2CQFA1TA331EJ1Q2K" },
     ],
     heroes: [Hero.Fai],
     languages: ALL_LANGUAGES,
@@ -1743,7 +1743,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Wizard],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWD9YWCRZ825T3AK8ZTG0G4" },
     ],
     heroes: [Hero.Iyslander],
     languages: ALL_LANGUAGES,

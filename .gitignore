@@ -108,3 +108,6 @@ dist
 
 # nx/lerna
 .nx/cache
+
+# spelling
+spelling-additions-local.ts
