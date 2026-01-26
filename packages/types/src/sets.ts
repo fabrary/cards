@@ -1638,7 +1638,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Assassin],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWFQYASKA6C1FGXXB0E8EGE" },
     ],
     heroes: [Hero.Arakni],
     languages: ALL_LANGUAGES,
@@ -1653,7 +1653,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Ranger],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWFSGRBJS7BK87T8YF24FYC" },
     ],
     heroes: [Hero.Azalea],
     languages: ALL_LANGUAGES,
@@ -1668,7 +1668,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Guardian],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWFTPVMBMZ9TT5GVT5QRRRM" },
     ],
     heroes: [Hero.Bravo],
     languages: ALL_LANGUAGES,
@@ -1683,7 +1683,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Mechanologist],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWFW6EAT7VX44MKN8GCVQSM" },
     ],
     heroes: [Hero.Dash],
     languages: ALL_LANGUAGES,
@@ -1698,7 +1698,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Warrior],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWFXK3QM2XEVA08D5Y1R3CF" },
     ],
     heroes: [Hero.Dorinthea],
     languages: ALL_LANGUAGES,
@@ -1713,7 +1713,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Illusionist],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWFYETE5DC1GK586XYXXFE6" },
     ],
     heroes: [Hero.Enigma],
     languages: ALL_LANGUAGES,
@@ -1758,7 +1758,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Brute],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWFZ9Z5W17F0NHKQ44811Q0" },
     ],
     heroes: [Hero.Kayo],
     languages: ALL_LANGUAGES,
@@ -1773,7 +1773,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Runeblade],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP" },
     ],
     heroes: [Hero.Viserai],
     languages: ALL_LANGUAGES,
