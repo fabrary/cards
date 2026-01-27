@@ -7626,6 +7626,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/gauntlets-of-unity</loc>
+    <lastmod>2026-01-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/gavel-of-natural-order</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -8598,6 +8603,11 @@
   <url>
     <loc>https://fabrary.net/cards/helm-of-the-arknight</loc>
     <lastmod>2025-05-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/helm-of-unity</loc>
+    <lastmod>2026-01-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18543,6 +18553,11 @@
   <url>
     <loc>https://fabrary.net/cards/teklo-pounder-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/teklo-trebuchet-2000-blue</loc>
+    <lastmod>2026-01-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
