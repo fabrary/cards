@@ -50,9 +50,13 @@ PEN040,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN040,https://storage.googleapis.com/f
 PEN041,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN041,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN041.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN042,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN042,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN043,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN043,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN043.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN044,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN044,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN044,PEN,Helm of Unity,,,,,1,,,,"Warrior, Equipment, Head",,"Unity, Temper",,,,,,"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
+
+**Temper**",Warrior Equipment - Head,,,,,,R,,,Brian Madya Narendra,,,PEN044,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN045,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN045,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN045.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN046,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN046,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN046.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN046,PEN,Gauntlets of Unity,,,,,1,,,,"Warrior, Equipment, Arms",,"Unity, Temper",,,,,,"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
+
+**Temper**",Warrior Equipment - Arms,,,,,,R,,,Galih M,,,PEN046,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN046.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN047,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN047,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN047.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN048,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN048,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN048.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN049,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN049,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -78,7 +82,9 @@ PEN063,PEN,Ghost Protocol: Mainframe,Blue,3,0,1,3,,,,"Mechanologist, Action, Att
 **Evo Upgrade** - This gets +1{p} for each Evo you have equipped.",Mechanologist Action - Attack,,,,No,,M,,,Mariusz Gandzel,,,PEN063,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN063.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN064,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN064,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN064.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN065,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN065,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN065.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN066,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN066,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN066.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN066,PEN,Teklo Trebuchet 2000,Blue,3,0,1,3,,,,"Mechanologist, Action, Attack",,Boost,,,,,,"When this attacks, the next attack you boost this combat chain gets +2{p}.
+
+**Boost**",Mechanologist Action - Attack,,,,,,R,,,Reinaldo Indrajaya,,,PEN066,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN066.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN067,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN067,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN067.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN068,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN068,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN068.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN069,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN069,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN069.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
