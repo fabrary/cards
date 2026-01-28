@@ -3,7 +3,9 @@ PEN001,PEN,Savage Claw,,,,3,,,,,"Brute, Weapon, Claw, 1H",,,Action,Attack,,,,"**
 
 If a card with 6 or more {p} was pitched to attack with this, the attack gets +1{p}.",Brute Weapon - Claw (1H),,,,No,,M,S,,João G. Santos,,,PEN001,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN001.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN002,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN002,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN002.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN003,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN003,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN003,PEN,Predatory Plating,,,,,2,,,,"Brute, Equipment, Chest",,Guardwell,,,,,,"**Instant** - Destroy this: Gain {r}. Activate this only if you control a card with 6 or more {p}.
+
+**Guardwell**",Brute Equipment - Chest,,,,,,R,,,Dzulfikar Aliy,,,PEN003,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN003.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN004,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN004,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN004.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN005,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN005,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN005.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN006,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN006,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -14,14 +16,16 @@ PEN010,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN010,https://storage.googleapis.com/f
 PEN011,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN011,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN012,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN012,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN013,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN013,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN014,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN014,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN014,PEN,Bear Hug,Blue,3,2,5,3,,,,"Brute, Action, Attack",,,,,,,,Play this only if you've pitched a card with 6 or more {p} this turn.,Brute Action - Attack,,,,,,C,,,Rio Sabda,,,PEN014,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN015,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN015,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN016,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN016,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN016,PEN,Enclosed Firemind,,,,,0,,,,"Guardian, Equipment, Head",,Arcane Barrier 1,,,,,,**Arcane Barrier 1**,Guardian Equipment - Head,,,,,,R,,,Federico Musetti,,,PEN016,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN017,PEN,Magmatic Carapace,,,,,2,,,,"Guardian, Equipment, Chest",,Guardwell,,,,,,"Whenever you play an aura, you may {t} this and pay {r}. If you do, create a Seismic Surge token.
 
 **Guardwell**",Guardian Equipment - Chest,,,,,,R,S,,Federico Musetti,,,PEN017,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN017.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN018,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN018,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN018.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN019,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN019,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN019,PEN,Basalt Boots,,,,,1,,,,"Guardian, Equipment, Legs",,Temper,,,,,,"If you control a Seismic Surge token, this gets +1{d}.
+
+**Temper**",Guardian Equipment - Legs,,,,,,R,,,Federico Musetti,,,PEN019,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN020,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN020,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN021,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN022,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN022,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
