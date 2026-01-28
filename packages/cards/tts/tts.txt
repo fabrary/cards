@@ -5879,6 +5879,8 @@ OSCCardDB = {
   ["OXO004"] = { name = "Ironrot Legs", text = "**Blade Break**", keywords = "Blade Break", types = "Equipment"},
   ["PEN001"] = { name = "Savage Claw", text = "**Action** - {r}{r}, {t}: **Attack**\n\nIf a card with 6 or more {p} was pitched to attack with this, the attack gets +1{p}.", keywords = "", types = "Weapon"},
   ["PEN003"] = { name = "Predatory Plating", text = "**Instant** - Destroy this: Gain {r}. Activate this only if you control a card with 6 or more {p}.\n\n**Guardwell**", keywords = "Guardwell", types = "Equipment"},
+  ["PEN012"] = { name = "Bear Hug (1)", text = "Play this only if you've pitched a card with 6 or more {p} this turn.", keywords = "", types = "Action"},
+  ["PEN013"] = { name = "Bear Hug (2)", text = "Play this only if you've pitched a card with 6 or more {p} this turn.", keywords = "", types = "Action"},
   ["PEN014"] = { name = "Bear Hug (3)", text = "Play this only if you've pitched a card with 6 or more {p} this turn.", keywords = "", types = "Action"},
   ["PEN016"] = { name = "Enclosed Firemind", text = "**Arcane Barrier 1**", keywords = "Arcane Barrier", types = "Equipment"},
   ["PEN017"] = { name = "Magmatic Carapace", text = "Whenever you play an aura, you may {t} this and pay {r}. If you do, create a Seismic Surge token.\n\n**Guardwell**", keywords = "Guardwell", types = "Equipment"},
