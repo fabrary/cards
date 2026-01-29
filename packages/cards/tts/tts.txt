@@ -5903,6 +5903,7 @@ OSCCardDB = {
   ["PEN102"] = { name = "Runic Fellingsong (3)", text = "When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.", keywords = "", types = "Action"},
   ["PEN110"] = { name = "Aetherstorm Wellingtons", text = "**Arcane Barrier 2**", keywords = "Arcane Barrier", types = "Equipment"},
   ["PEN168"] = { name = "Trench of Watery Depths", text = "When this defends, you may pitch a blue card from your graveyard.\n\n**Blade Break**", keywords = "Blade Break", types = "Equipment"},
+  ["PEN194"] = { name = "Engulfing Shadows (2)", text = "If this would be put into your graveyard from anywhere, instead banish it.\n\n**Blood Debt**", keywords = "Blood Debt", types = "Defense Reaction"},
   ["PEN205"] = { name = "Elemental Strike (1)", text = "As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets **go again**. Ice, this gets **dominate**. ", keywords = "Dominate,Go again", types = "Action"},
   ["PEN206"] = { name = "Colors of Aria (1)", text = "While this is face-up in any zone, it's Earth, Ice, and Lightning.", keywords = "", types = "Action"},
   ["PEN207"] = { name = "Frosthaven Sheath (1)", text = "**Ice Bond** - If an Ice card was pitched to play this, create a Frostbite token under the attacking hero's control.", keywords = "Bond", types = "Defense Reaction"},

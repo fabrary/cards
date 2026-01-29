@@ -131,7 +131,7 @@ PEN099,PEN,Sigil of Silphidae,Blue,3,0,,3,,,,"Runeblade, Action, Aura",,Go again
 
 When this enters or leaves the arena, you may banish another aura from your graveyard. If you do, deal 1 arcane damage to target hero.
 
-At the beginning of your action phase, destroy this.",Runeblade Action - Aura,,,,No,,R,,,Saad Irfan,,,PEN099,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN099.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+At the beginning of your action phase, destroy this.",Runeblade Action - Aura,,,,No,,R,,,Saad Irfan,,,PEN099,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN099.png,,,V,C,FA,Saad Irfan,,,PEN099,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN099_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN100,PEN,Runic Fellingsong,Red,1,3,7,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN100,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN101,PEN,Runic Fellingsong,Yellow,2,3,6,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN101,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN102,PEN,Runic Fellingsong,Blue,3,3,5,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN102,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -228,7 +228,9 @@ PEN190,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN190,https://storage.googleapis.com/f
 PEN191,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN191,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN191.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN192,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN192,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN193,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN193,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN194,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN194,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN194,PEN,Engulfing Shadows,Yellow,2,0,,4,,,,"Shadow, Defense Reaction",,Blood Debt,,,,,,"If this would be put into your graveyard from anywhere, instead banish it.
+
+**Blood Debt**",Shadow Defense Reaction,,,,,,R,,,Kimberly Pantoni,,,PEN194,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN195,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN195,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN195.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN196,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN196,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN196.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN197,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN197,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN197.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
