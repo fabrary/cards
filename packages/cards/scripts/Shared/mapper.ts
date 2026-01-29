@@ -42,6 +42,16 @@ export const IGNORE_OPPOSITE_SIDES = [
   "Snapdragon Scalers",
 ];
 
+const TRANSCEND_CARD_NAMES = [
+  "A Drop in the Ocean",
+  "Homage to Ancestors",
+  "Pass Over",
+  "Preserve Tradition",
+  "Rising Sun, Setting Moon",
+];
+
+const CARD_FRONTS_OVERRIDES = [...TRANSCEND_CARD_NAMES];
+
 export const CARD_BACKS_OVERRIDES = ["Inner Chi"];
 
 export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
@@ -77,18 +87,39 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
     });
 
     const isOppositeSideCardFront = oppositeSideCards.some(
-      ({ keywords, subtypes }) => {
+      ({ keywords, name, subtypes }) => {
         const isConstruct = subtypes.includes(Subtype.Construct);
         const isFigment = subtypes.includes(Subtype.Figment);
         const isInvocation = subtypes.includes(Subtype.Invocation);
-        const isTranscend = keywords?.includes(Keyword.Transcend);
+        const isTranscend =
+          keywords?.includes(Keyword.Transcend) ||
+          TRANSCEND_CARD_NAMES.includes(name);
 
         return isConstruct || isFigment || isInvocation || isTranscend;
       }
     );
 
+    const isCardFrontOverride = CARD_FRONTS_OVERRIDES.includes(card.name);
     const isCardBackOverride = CARD_BACKS_OVERRIDES.includes(card.name);
-    const isCardBack = isCardBackOverride || isOppositeSideCardFront;
+    const isCardBack =
+      !isCardFrontOverride && (isCardBackOverride || isOppositeSideCardFront);
+
+    if (TRANSCEND_CARD_NAMES.includes(card.name)) {
+      console.log(
+        JSON.stringify(
+          {
+            name: card.name,
+            oppositeSideCards: oppositeSideCards.map(({ name }) => name),
+            isOppositeSideCardFront,
+            isCardFrontOverride,
+            isCardBackOverride,
+            isCardBack,
+          },
+          null,
+          2
+        )
+      );
+    }
 
     if (oppositeSideCards.length > 0) {
       const printingsWithOppositeSide: Printing[] = card.printings.map(

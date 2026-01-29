@@ -389,6 +389,11 @@ const innerChiPrintings: {
   { identifier: "ZEN026", setString: "ZEN", properties: [{}] },
   { identifier: "ZEN027", setString: "ZEN", properties: [{}] },
   { identifier: "ZEN028", setString: "ZEN", properties: [{}] },
+  { identifier: "SEN031", setString: "SEN", properties: [{}] },
+  { identifier: "SEN032", setString: "SEN", properties: [{}] },
+  { identifier: "SEN033", setString: "SEN", properties: [{}] },
+  { identifier: "SEN034", setString: "SEN", properties: [{}] },
+  { identifier: "SEN035", setString: "SEN", properties: [{}] },
 ];
 
 const getPrintings = (card: ParsedCard): Printing[] => {
@@ -898,11 +903,17 @@ export const mapCSV = (parsedCards: ParsedCard[]): Card[] => {
   const cards = parsedCards.map((parsedCard) => {
     return getCardData(parsedCard);
   });
+
+  const CARDS_TO_SKIP = ["inner-chi-blue"];
+
   const isBackOverrides = ["Blasmophet, Levia Consumed", "Inner Chi"];
-  return addOppositeSideCardIdentifiers(cards).map((card) => {
-    if (isBackOverrides.includes(card.name)) {
-      card.isCardBack = true;
-    }
-    return card;
-  });
+  return addOppositeSideCardIdentifiers(cards)
+    .map((card) => {
+      if (isBackOverrides.includes(card.name)) {
+        card.isCardBack = true;
+      }
+
+      return card;
+    })
+    .filter(({ cardIdentifier }) => !CARDS_TO_SKIP.includes(cardIdentifier));
 };

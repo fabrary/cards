@@ -17,7 +17,12 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
-import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
+import {
+  addOppositeSideCardIdentifiers,
+  getMeta,
+  IGNORE_OPPOSITE_SIDES,
+  sortPrintingsByReleaseOrder,
+} from "./Shared";
 import {
   getConfirmedLegalFormats,
   getLegalFormats,
@@ -151,6 +156,20 @@ const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
     shortName,
   };
 });
+
+// const isBackOverrides = ["Blasmophet, Levia Consumed", "Inner Chi"];
+// const cardsWithBacks = addOppositeSideCardIdentifiers(
+//   cardsWithAdditionalProperties
+// ).map((card) => {
+//   if (isBackOverrides.includes(card.name)) {
+//     card.isCardBack = true;
+//   } else if (IGNORE_OPPOSITE_SIDES.includes(card.name)) {
+//     delete card.isCardBack;
+//     delete card.oppositeSideCardIdentifier;
+//     delete card.oppositeSideCardIdentifiers;
+//   }
+//   return card;
+// });
 
 writeFiles(cardsWithAdditionalProperties, outputDirectory);
 
