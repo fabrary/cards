@@ -1461,6 +1461,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/beckoning-haunt</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/beckoning-light-red</loc>
     <lastmod>2023-07-01</lastmod>
     <priority>0.5</priority>
@@ -7176,6 +7181,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fluid-motion-blue</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/flurry</loc>
     <lastmod>2026-01-20</lastmod>
     <priority>0.5</priority>
@@ -10873,6 +10883,11 @@
   <url>
     <loc>https://fabrary.net/cards/mangle-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/manifest-muscle-blue</loc>
+    <lastmod>2026-01-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -14996,6 +15011,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/runebleed-robe</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/runeblood-barrier-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -15038,6 +15058,21 @@
   <url>
     <loc>https://fabrary.net/cards/runerager-swarm-blue</loc>
     <lastmod>2024-08-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runic-fellingsong-red</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runic-fellingsong-yellow</loc>
+    <lastmod>2026-01-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runic-fellingsong-blue</loc>
+    <lastmod>2026-01-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -16263,6 +16298,11 @@
   <url>
     <loc>https://fabrary.net/cards/sigil-of-shelter-blue</loc>
     <lastmod>2024-08-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sigil-of-silphidae-blue</loc>
+    <lastmod>2026-01-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

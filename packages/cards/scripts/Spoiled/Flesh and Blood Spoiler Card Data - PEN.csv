@@ -118,15 +118,23 @@ PEN090,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN090,https://storage.googleapis.com/f
 PEN091,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN091,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN092,PEN,Grimoire of Fellingsong,,,,,,,,,"Runeblade, Equipment, Off-Hand",,,Instant,,,,,"**Instant** - {r}, destroy this: Create a Runechant token.",Runeblade Equipment - Off-Hand,,,,No,,M,S,,Carlos Cruchaga,,,PEN092,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN093,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN093,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN094,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN094,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN095,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN095,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN094,PEN,Runebleed Robe,,,,,0,,,,"Runeblade, Equipment, Chest",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this and a Runechant you control: Prevent the next 1 arcane damage that would be dealt to you this turn.
+
+**Arcane Barrier 1**",Runeblade Equipment - Chest,,,,,,R,,,Ismatulloh,,,PEN094,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN095,PEN,Beckoning Haunt,,,,,2,,,,"Runeblade, Equipment, Arms",,Guardwell,,,,,,"**Action** - {x}{x}{r}, destroy this: Return target aura with cost X from your graveyard to your hand.
+
+**Guardwell**",Runeblade Equipment - Arms,,,,,,R,,,Alifka Hammam,,,PEN095,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN095.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN096,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN096,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN097,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN097,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN098,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN098,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN099,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN099,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN099.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN100,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN100,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN101,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN101,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN102,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN102,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN099,PEN,Sigil of Silphidae,Blue,3,0,,3,,,,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
+
+When this enters or leaves the arena, you may banish another aura from your graveyard. If you do, deal 1 arcane damage to target hero.
+
+At the beginning of your action phase, destroy this.",Runeblade Action - Aura,,,,No,,R,,,Saad Irfan,,,PEN099,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN099.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN100,PEN,Runic Fellingsong,Red,1,3,7,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN100,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN101,PEN,Runic Fellingsong,Yellow,2,3,6,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN101,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN102,PEN,Runic Fellingsong,Blue,3,3,5,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN102,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN103,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN103,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN104,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN104,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN105,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN105,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -297,8 +305,8 @@ PEN265,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN265,https://storage.googleapis.com/f
 PEN266,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN266,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN266.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN267,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN267,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN267.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN268,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN268,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN268.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN269,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN269,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN269.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN270,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN270,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN270.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN269,PEN,Fluid Motion,Blue,3,0,2,3,,,,"Mystic, Action, Attack",,Go again,,,,,,"If you've created a card this turn, this gets **go again**.",Mystic Action - Attack,,,,,,C,,,Faizal Fikri,,,PEN269,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN269.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN270,PEN,Manifest Muscle,Blue,3,3,5,3,,,,"Mystic, Action, Attack",,,,,,,,"If you've created a card this turn, this gets +1{p}.",Mystic Action - Attack,,,,,,C,,,Faizal Fikri,,,PEN270,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN270.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN271,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN271,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN271.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN272,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN272,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN272.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN273,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN273,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN273.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
