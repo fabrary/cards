@@ -104,23 +104,6 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
     const isCardBack =
       !isCardFrontOverride && (isCardBackOverride || isOppositeSideCardFront);
 
-    if (TRANSCEND_CARD_NAMES.includes(card.name)) {
-      console.log(
-        JSON.stringify(
-          {
-            name: card.name,
-            oppositeSideCards: oppositeSideCards.map(({ name }) => name),
-            isOppositeSideCardFront,
-            isCardFrontOverride,
-            isCardBackOverride,
-            isCardBack,
-          },
-          null,
-          2
-        )
-      );
-    }
-
     if (oppositeSideCards.length > 0) {
       const printingsWithOppositeSide: Printing[] = card.printings.map(
         (printing) => {

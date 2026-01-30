@@ -906,7 +906,11 @@ export const mapCSV = (parsedCards: ParsedCard[]): Card[] => {
 
   const CARDS_TO_SKIP = ["inner-chi-blue"];
 
-  const isBackOverrides = ["Blasmophet, Levia Consumed", "Inner Chi"];
+  const isBackOverrides = [
+    "Blasmophet, Levia Consumed",
+    "Inner Chi",
+    "Nitro Mechanoid",
+  ];
   return addOppositeSideCardIdentifiers(cards)
     .map((card) => {
       if (isBackOverrides.includes(card.name)) {

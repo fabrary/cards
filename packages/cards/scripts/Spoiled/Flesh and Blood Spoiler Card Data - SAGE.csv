@@ -4,7 +4,7 @@ SAR002,SAR,Mark of the Huntsman,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAR002,https://stor
 SAR003,SAR,Prey Spotters,,,,,1,,,,"Assassin, Equipment, Head",,Battleworn,Attack Reaction,Mark,,,,"**Attack Reaction** - Destroy this: **Mark** target opposing hero.
 
 **Battleworn**",Assassin Equipment - Head,,,,,,R,R,,Isuardi Therianto,,,SAR003,https://storage.googleapis.com/fabmaster/cardfaces/SAR/SAR003.png,,,,,,,,,SAR003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SAR004,SAR,Topsy Turvy,,,,,0,,,,"Chaos, Equipment, Head",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this: Until end of turn, if one or more cards would be put on top of a deck, instead they're put on the bottom.
+SAR004,SAR,Topsy Turvy,,,,,0,,,,"Chaos, Equipment, Head",,Arcane Barrier 1,Instant,,,,,"**Instant** - Destroy this: Until end of turn, if one or more cards would be put on top of a deck, instead they're put on the bottom.
 
 **Arcane Barrier 1**",Chaos Equipment - Head,,,,,,R,,,Carlos Cruchaga,,,SAR004,https://storage.googleapis.com/fabmaster/cardfaces/SAR/SAR004.png,,,,,,,,,SAR004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SAR005,SAR,Blossom of Spring,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAR005,https://storage.googleapis.com/fabmaster/cardfaces/SAR/SAR005.png,,,,,,,,,SAR005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -57,7 +57,7 @@ SAZ008,SAZ,Bolt'n Boots,,,,,1,,,,"Ranger, Equipment, Legs",,Battleworn,Attack Re
 
 **Battleworn**",Ranger Equipment - Legs,,,,,,R,S,,Mariusz Gandzel,,,SAZ008,https://storage.googleapis.com/fabmaster/cardfaces/SAZ/SAZ008.png,,,,,,,,,SAZ008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SAZ009,SAZ,Quick Clicks,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAZ009,https://storage.googleapis.com/fabmaster/cardfaces/SAZ/SAZ009.png,,,,,,,,,SAZ009,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SAZ010,SAZ,Bolt'n Shot,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAZ010,https://storage.googleapis.com/fabmaster/cardfaces/SAZ/SAZ010.png,,,,,,,,,SAZ010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+SAZ010,SAZ,Bolt'n' Shot,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAZ010,https://storage.googleapis.com/fabmaster/cardfaces/SAZ/SAZ010.png,,,,,,,,,SAZ010,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SAZ011,SAZ,Drill Shot,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAZ011,https://storage.googleapis.com/fabmaster/cardfaces/SAZ/SAZ011.png,,,,,,,,,SAZ011,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SAZ012,SAZ,Dry Powder Shot,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAZ012,https://storage.googleapis.com/fabmaster/cardfaces/SAZ/SAZ012.png,,,,,,,,,SAZ012,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SAZ013,SAZ,Entangling Shot,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,,SAZ013,https://storage.googleapis.com/fabmaster/cardfaces/SAZ/SAZ013.png,,,,,,,,,SAZ013,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -359,10 +359,10 @@ SVI002,SVI,Reaping Blade,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SVI002,https://storage.goo
 SVI003,SVI,Blade Beckoner Helm,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SVI003,https://storage.googleapis.com/fabmaster/cardfaces/SVI/SVI003.png,,,,,,,,,SVI003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SVI004,SVI,Crown of Dichotomy,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SVI004,https://storage.googleapis.com/fabmaster/cardfaces/SVI/SVI004.png,,,,,,,,,SVI004,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SVI005,SVI,Blossom of Spring,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SVI005,https://storage.googleapis.com/fabmaster/cardfaces/SVI/SVI005.png,,,,,,,,,SVI005,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SVI006,SVI,Runebleed Robe,,,,,0,,,,"Runeblade, Equipment, Chest",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this and a Runechant you control: Prevent the next 1 arcane damage that would be dealt to you this turn.
+SVI006,SVI,Runebleed Robe,,,,,0,,,,"Runeblade, Equipment, Chest",,Arcane Barrier 1,Instant,,,,,"**Instant** - Destroy this and a Runechant you control: Prevent the next 1 arcane damage that would be dealt to you this turn.
 
 **Arcane Barrier 1**",Runeblade Equipment - Chest,,,,,,R,,,Ismatulloh,,,SVI006,https://storage.googleapis.com/fabmaster/cardfaces/SVI/SVI006.png,,,,,,Ismatulloh,,,SVI006,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-SVI007,SVI,Beckoning Haunt,,,,,2,,,,"Runeblade, Equipment, Arms",,Guardwell,,,,,,"**Action** - {x}{x}{r}, destroy this: Return target aura with cost X from your graveyard to your hand.
+SVI007,SVI,Beckoning Haunt,,,,,2,,,,"Runeblade, Equipment, Arms",,Guardwell,Action,,,,,"**Action** - {x}{x}{r}, destroy this: Return target aura with cost X from your graveyard to your hand.
 
 **Guardwell**",Runeblade Equipment - Arms,,,,,,R,,,Alifka Hammam,,,SVI007,https://storage.googleapis.com/fabmaster/cardfaces/SVI/SVI007.png,,,,,,,,,SVI007,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 SVI008,SVI,Nullrune Gloves,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SVI008,https://storage.googleapis.com/fabmaster/cardfaces/SVI/SVI008.png,,,,,,,,,SVI008,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

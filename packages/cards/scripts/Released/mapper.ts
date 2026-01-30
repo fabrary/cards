@@ -437,7 +437,7 @@ export const mapJSON = (parsedCards: ParsedCard[]): Card[] => {
     return getCardData(parsedCard);
   });
 
-  const isBackOverrides = ["Blasmophet, Levia Consumed"];
+  const isBackOverrides = ["Blasmophet, Levia Consumed", "Nitro Mechanoid"];
   return addOppositeSideCardIdentifiers(cards).map((card) => {
     if (isBackOverrides.includes(card.name)) {
       card.isCardBack = true;
