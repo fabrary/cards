@@ -370,6 +370,12 @@ export const getTraits = ({
     "HNT006",
     "HNT007",
     "HNT008",
+    "SAR034",
+    "SAR035",
+    "SAR036",
+    "SAR037",
+    "SAR038",
+    "SAR039",
   ];
   const isAgentOfChaos = setIdentifiers.some((setIdentifier) =>
     AGENTS_OF_CHAOS_SET_IDENTIFIERS.includes(setIdentifier)
