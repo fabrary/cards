@@ -495,7 +495,7 @@ export const getRarityFromRawString = (rawRarity: string): Rarity => {
   const rarityString = rawRarity.split(" - ")[0];
   const rarity = rarityStringMapping[rarityString];
   if (!rarity) {
-    console.error(`No rarity found for ${rarityString} (${rawRarity})`);
+    // console.error(`No rarity found for ${rarityString} (${rawRarity})`);
   }
   return rarity;
 };

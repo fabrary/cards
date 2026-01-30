@@ -42,10 +42,10 @@ releasedCards.forEach((card) => {
     ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier
   );
   if (duplicate) {
-    console.log(
-      `Found duplicate card (re-released in new set), combining data`,
-      card.cardIdentifier
-    );
+    // console.debug(
+    //   `Found duplicate card (re-released in new set), combining data`,
+    //   card.cardIdentifier
+    // );
 
     const arcane = duplicate.arcane || card.arcane || undefined;
 
