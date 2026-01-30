@@ -194,10 +194,10 @@ PEN078,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN078,https://storage.googleapis.com/f
 PEN079,PEN,Concealed Nerve Gas,,,,,,,,,"Ranger, Equipment, Chest, Trap",,Cloaked,,,,,,"**Cloaked**
 
 While this is equipped face-down, when an attack with go again hits you, destroy this and create a Frailty token under each opponent's control.",Ranger Equipment - Chest Trap,,,,,,R,,,Firaz M. Rasyid,,,PEN079,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN080,PEN,Concealed Nerve Gas,,,,,,,,,"Ranger, Equipment, Chest, Trap",,Cloaked,,,,,,"**Cloaked**
+PEN080,PEN,Concealed Pathogen,,,,,,,,,"Ranger, Equipment, Chest, Trap",,Cloaked,,,,,,"**Cloaked**
 
 While this is equipped face-down, when an attack hits you and its controller has played or activated an attack reaction this chain link, destroy this and create a Bloodrot Pox token under each opponent's control.",Ranger Equipment - Chest Trap,,,,,,R,,,Firaz M. Rasyid,,,PEN080,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN080.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN081,PEN,Concealed Nerve Gas,,,,,,,,,"Ranger, Equipment, Chest, Trap",,Cloaked,,,,,,"**Cloaked**
+PEN081,PEN,Concealed Sedative,,,,,,,,,"Ranger, Equipment, Chest, Trap",,Cloaked,,,,,,"**Cloaked**
 
 While this is equipped face-down, when an attack with {p} greater than its base hits you, destroy this and create an Inertia token under each opponent's control.",Ranger Equipment - Chest Trap,,,,,,R,,,Kelvin Jauwri,,,PEN081,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN081.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN082,PEN,Bolt'n Boots,,,,,1,,,,"Ranger, Equipment, Legs",,Battleworn,Attack Reaction,,Go again,,,"**Attack Reaction** - {r}, destroy this: Target arrow attack with {p} greater than its base gets **go again**.
