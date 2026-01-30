@@ -3906,6 +3906,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/concoct-disorder-yellow</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/concoct-disorder-blue</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/concuss-red</loc>
     <lastmod>2024-01-17</lastmod>
     <priority>0.5</priority>
@@ -9257,6 +9267,16 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/hyper-inflation-red</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hyper-inflation-yellow</loc>
+    <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hyper-inflation-blue</loc>
     <lastmod>2026-01-30</lastmod>
     <priority>0.5</priority>
   </url>
