@@ -3,6 +3,7 @@ import { cards as publishedCards } from "latest-cards";
 import {
   Card,
   Format,
+  getIsDeckCard,
   getPrint,
   Trait,
   Treatment,
