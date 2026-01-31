@@ -3036,6 +3036,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/by-the-book-blue</loc>
+    <lastmod>2026-01-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cadaverous-contraband-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -10926,6 +10931,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/leave-em-speechless-blue</loc>
+    <lastmod>2026-01-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/leave-a-dent-blue</loc>
     <lastmod>2025-07-25</lastmod>
     <priority>0.5</priority>
@@ -16751,6 +16761,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sense-weakness-blue</loc>
+    <lastmod>2026-01-31</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/ser-boltyn-breaker-of-dawn</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -16903,6 +16918,11 @@
   <url>
     <loc>https://fabrary.net/cards/shield-bash-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shield-beater</loc>
+    <lastmod>2026-01-31</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -20788,6 +20808,11 @@
   <url>
     <loc>https://fabrary.net/cards/two-steps-forward</loc>
     <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/two-faced</loc>
+    <lastmod>2026-01-31</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

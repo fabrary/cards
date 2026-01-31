@@ -15,13 +15,15 @@ PEN007,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN007,https://storage.googleapis.com/f
 PEN008,PEN,Rip Off the Top,Yellow,2,1,,2,,,,"Brute, Action",,Go again,,,,,,"Draw a card, then pitch a random card from your hand. If it has 6 or more {p}, your next attack this turn gets +3{p}.
 
 **Go again**",Brute Action,,,,,,R,,,Henrique Lindner,,,PEN008,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN008.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN009,PEN,Aggressive Pounce,Red,1,2,6,3,,,,"Brute, Action, Attack",,Go again,,,,,,"If you've intimidated an opponent this turn, this gets **go again**.",Brute Action - Attack,,,,,,C,,,Surya Prasetya,,,PEN009,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN010,PEN,Aggressive Pounce,Yellow,2,2,5,3,,,,"Brute, Action, Attack",,Go again,,,,,,"If you've intimidated an opponent this turn, this gets **go again**.",Brute Action - Attack,,,,,,C,,,Surya Prasetya,,,PEN010,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN011,PEN,Aggressive Pounce,Blue,3,2,4,3,,,,"Brute, Action, Attack",,Go again,,,,,,"If you've intimidated an opponent this turn, this gets **go again**.",Brute Action - Attack,,,,,,C,,,Surya Prasetya,,,PEN011,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN009,PEN,Aggressive Pounce,Red,1,2,6,3,,,,"Brute, Action, Attack",,Go again,,,,,Intimidate,"If you've intimidated an opponent this turn, this gets **go again**.",Brute Action - Attack,,,,,,C,,,Surya Prasetya,,,PEN009,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN009.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN010,PEN,Aggressive Pounce,Yellow,2,2,5,3,,,,"Brute, Action, Attack",,Go again,,,,,Intimidate,"If you've intimidated an opponent this turn, this gets **go again**.",Brute Action - Attack,,,,,,C,,,Surya Prasetya,,,PEN010,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN010.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN011,PEN,Aggressive Pounce,Blue,3,2,4,3,,,,"Brute, Action, Attack",,Go again,,,,,Intimidate,"If you've intimidated an opponent this turn, this gets **go again**.",Brute Action - Attack,,,,,,C,,,Surya Prasetya,,,PEN011,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN011.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN012,PEN,Bear Hug,Red,1,2,7,3,,,,"Brute, Action, Attack",,,,,,,,Play this only if you've pitched a card with 6 or more {p} this turn.,Brute Action - Attack,,,,,,C,,,Rio Sabda,,,PEN012,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN013,PEN,Bear Hug,Yellow,2,2,6,3,,,,"Brute, Action, Attack",,,,,,,,Play this only if you've pitched a card with 6 or more {p} this turn.,Brute Action - Attack,,,,,,C,,,Rio Sabda,,,PEN013,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN014,PEN,Bear Hug,Blue,3,2,5,3,,,,"Brute, Action, Attack",,,,,,,,Play this only if you've pitched a card with 6 or more {p} this turn.,Brute Action - Attack,,,,,,C,,,Rio Sabda,,,PEN014,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN015,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN015,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN015,PEN,Shield Beater,,,,5,,,,,"Guardian, Weapon, Hammer, 1H",,,,,,,,"**Action** - {r}{r}{r}{r}, {t}: **Attack**
+
+Cards you own named Visit Anvilheim get **go again**.",Guardian Weapon - Hammer (1H),,,,No,,M,,,Faizal Fikri,,,PEN015,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN016,PEN,Enclosed Firemind,,,,,0,,,,"Guardian, Equipment, Head",,Arcane Barrier 1,,,,,,**Arcane Barrier 1**,Guardian Equipment - Head,,,,,,R,,,Federico Musetti,,,PEN016,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN017,PEN,Magmatic Carapace,,,,,2,,,,"Guardian, Equipment, Chest",,Guardwell,,,,,,"Whenever you play an aura, you may {t} this and pay {r}. If you do, create a Seismic Surge token.
 
@@ -31,7 +33,9 @@ PEN019,PEN,Basalt Boots,,,,,1,,,,"Guardian, Equipment, Legs",,Temper,,,,,,"If yo
 
 **Temper**",Guardian Equipment - Legs,,,,,,R,,,Federico Musetti,,,PEN019,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN020,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN020,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN021,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN021,PEN,Sense Weakness,Blue,3,3,,3,,,,"Guardian, Action",,Go again,,,,,,"Your next Guardian attack this turn gets +1{p}, **dominate**, and ""When this hits a hero, deal damage to all allies they control equal to the damage dealt this way.""
+
+**Go again**",Guardian Action,,,,No,,M,,,Ausonia,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN022,PEN,Valahai Riven,Yellow,2,,,3,,,,"Guardian, Block",,,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Seismic Surge tokens.",Guardian Block,,,,,,R,,,Carlos Cruchaga,,,PEN022,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN023,PEN,Distant Rumbling,Red,1,0,,3,,,,"Guardian, Action, Aura",,,,,,,,"When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.
 
@@ -41,7 +45,7 @@ PEN024,PEN,Distant Rumbling,Yellow,2,0,,3,,,,"Guardian, Action, Aura",,,,,,,,"Wh
 At the start of your turn, destroy this, then create 2 Seismic Surge tokens.",Guardian Action - Aura,,,,,,C,,,Flora Silve,,,PEN024,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN024.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN025,PEN,Distant Rumbling,Blue,3,0,,3,,,,"Guardian, Action, Aura",,,,,,,,"When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.
 
-At the start of your turn, destroy this, then create 1 Seismic Surge token.",Guardian Action - Aura,,,,,,C,,,Flora Silve,,,PEN025,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+At the start of your turn, destroy this, then create a Seismic Surge token.",Guardian Action - Aura,,,,,,C,,,Flora Silve,,,PEN025,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN025.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN026,PEN,Rites of Earthlore,Red,1,0,,3,,,,"Guardian, Action, Aura",,,,,,,,"When this enters the arena, create a Seismic Surge token.
 
 At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +3{p}.",Guardian Action - Aura,,,,,,C,,,Christ Adiel Then,,,PEN026,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN026.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -58,10 +62,10 @@ PEN030,PEN,Mask of the Swarming Claw,,,,,0,,,,"Ninja, Equipment, Head",,"Arcane 
 PEN031,PEN,Double Cross Strap,,,,,0,,,,"Ninja, Equipment, Chest",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this: Gain {r}. Activate this only if you've hit 2 or more times this combat chain.
 
 **Arcane Barrier 1**",Ninja Equipment - Chest,,,,,,R,,,Tomasz Jedruszek,,,PEN031,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN031.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN032,PEN,Dyed Silk Sleeves,,,,,1,,,,"Ninja, Equipment, Arms",,Blade Break,,,,,,"**Attack Reaction** - {r}, {t}, destroy a dagger you control that's not on the active chain link: Target Ninja attack action card on the active chain link gets +1{p}. When the chain link resolves, if the attack didn't hit, destroy this.
+PEN032,PEN,Dyed Silk Sleeves,,,,,1,,,,"Ninja, Equipment, Arms",,Blade Break,Attack Reaction,,,,,"**Attack Reaction** - {r}, {t}, destroy a dagger you control that's not on the active chain link: Target Ninja attack action card on the active chain link gets +1{p}. When the chain link resolves, if the attack didn't hit, destroy this.
 
 **Blade Break**",Ninja Equipment - Arms,,,,,,R,,,Carlos Cruchaga,,,PEN032,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN032.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN033,PEN,Two Steps Forward,,,,,1,,,,"Ninja, Equipment, Legs",,Battleworn,,,,,,"**Instant** - Destroy this: Create an Agility token. Activate this only if you've hit 2 or more times this combat chain.
+PEN033,PEN,Two Steps Forward,,,,,1,,,,"Ninja, Equipment, Legs",,Battleworn,Instant,,,,,"**Instant** - Destroy this: Create an Agility token. Activate this only if you've hit 2 or more times this combat chain.
 
 **Battleworn**",Ninja Equipment - Legs,,,,,,R,,,Diana Tanamas,,,PEN033,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN034,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN034,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -105,20 +109,20 @@ PEN049,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN049,https://storage.googleapis.com/f
 PEN050,PEN,Rend Flesh,Blue,3,0,,3,,,,"Warrior, Action",,Go again,,,,,,"Until end of turn, whenever a sword you control hits a hero, you may remove a +1{p} counter from it. If you do, they lose 2{h}.
 
 **Go again**",Warrior Action,,,,,,R,,,Jefrey Yonathan,,,PEN050,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN051,PEN,Display of Craftsmanship,Red,1,2,,3,,,,"Warrior, Attack Reaction",,,,,,,,"Target weapon attack gets +4{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",Warrior Attack Reaction,,,,,,C,,,Samuel Perin,,,PEN051,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN052,PEN,Display of Craftsmanship,Yellow,2,2,,3,,,,"Warrior, Attack Reaction",,,,,,,,"Target weapon attack gets +3{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",Warrior Attack Reaction,,,,,,C,,,Samuel Perin,,,PEN052,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN053,PEN,Display of Craftsmanship,Blue,3,2,,3,,,,"Warrior, Attack Reaction",,,,,,,,"Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",Warrior Attack Reaction,,,,,,C,,,Samuel Perin,,,PEN053,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN053.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN054,PEN,Cut n' Carve,Red,1,0,,3,,,,"Warrior, Action",,"Sharpen, Dominate, Go again",,,,,,"**Sharpen** target sword you control.
+PEN051,PEN,Display of Craftsmanship,Red,1,2,,3,,,,"Warrior, Attack Reaction",,,,,,,Sharpen,"Target weapon attack gets +4{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",Warrior Attack Reaction,,,,,,C,,,Samuel Perin,,,PEN051,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN051.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN052,PEN,Display of Craftsmanship,Yellow,2,2,,3,,,,"Warrior, Attack Reaction",,,,,,,Sharpen,"Target weapon attack gets +3{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",Warrior Attack Reaction,,,,,,C,,,Samuel Perin,,,PEN052,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN052.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN053,PEN,Display of Craftsmanship,Blue,3,2,,3,,,,"Warrior, Attack Reaction",,,,,,,Sharpen,"Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, put a +1{p} counter on it.",Warrior Attack Reaction,,,,,,C,,,Samuel Perin,,,PEN053,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN053.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN054,PEN,Cut n' Carve,Red,1,0,,3,,,,"Warrior, Action",,"Sharpen, Go again",,,Dominate,,,"**Sharpen** target sword you control.
 
 If it has 1 or more +1{p} counters, its next attack this turn gets **dominate**.
 
 **Go again**",Warrior Action,,,,,,C,,,Mateusz Wiśniewski,,,PEN054,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN054.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN055,PEN,Cut n' Carve,Yellow,2,0,,3,,,,"Warrior, Action",,"Sharpen, Dominate, Go again",,,,,,"**Sharpen** target sword you control.
+PEN055,PEN,Cut n' Carve,Yellow,2,0,,3,,,,"Warrior, Action",,"Sharpen, Go again",,,Dominate,,,"**Sharpen** target sword you control.
 
 If it has 2 or more +1{p} counters, its next attack this turn gets **dominate**.
 
 **Go again**",Warrior Action,,,,,,C,,,Mateusz Wiśniewski,,,PEN055,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN055.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN056,PEN,Cut n' Carve,Blue,3,0,,3,,,,"Warrior, Action",,"Sharpen, Dominate, Go again",,,,,,"**Sharpen** target sword you control.
+PEN056,PEN,Cut n' Carve,Blue,3,0,,3,,,,"Warrior, Action",,"Sharpen, Go again",,,Dominate,,,"**Sharpen** target sword you control.
 
 If it has 3 or more +1{p} counters, its next attack this turn gets **dominate**.
 
@@ -132,7 +136,7 @@ PEN058,PEN,mBrio Base Vizier,,,,,0,,,,"Mechanologist, Equipment, Base, Head",,Ar
 PEN059,PEN,mBrio Base Cortex,,,,,0,,,,"Mechanologist, Equipment, Base, Chest",,Guardwell,,,,,,"If you control a Hyper Driver, this gets +2{d}.
 
 **Guardwell**",Mechanologist Equipment - Base Chest,,,,,,R,,,Dzulfikar Aliy,,,PEN059,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN059.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN060,PEN,mBrio Base Digits,,,,,1,,,,"Mechanologist, Equipment, Base, Arms",,Temper,,,,,,"**Instant** - {t} this and a cog you control: This gets +1{d} until end of turn.
+PEN060,PEN,mBrio Base Digits,,,,,1,,,,"Mechanologist, Equipment, Base, Arms",,Temper,Instant,,,,,"**Instant** - {t} this and a cog you control: This gets +1{d} until end of turn.
 
 **Temper**",Mechanologist Equipment - Base Arms,,,,,,R,,,Soffani Soffa,,,PEN060,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN060.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN061,PEN,mBrio Base Walkers,,,,,0,,,,"Mechanologist, Equipment, Base, Legs",,Quell 1,,,,,,**Quell 1**,Mechanologist Equipment - Base Legs,,,,,,R,,,Dzulfikar Aliy,,,PEN061,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN061.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -187,9 +191,9 @@ PEN073,PEN,Heavy Metal Hardcore,Yellow,2,0,2,3,,,,"Mechanologist, Action, Attack
 PEN074,PEN,Heavy Metal Hardcore,Blue,3,0,1,3,,,,"Mechanologist, Action, Attack",,Boost,,,,,,"If an Evo has been banished from boosting this turn, this gets +1{p}.
 
 **Boost**",Mechanologist Action - Attack,,,,,,C,,,Ilham Bahtiar,,,PEN074,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN074.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN075,PEN,Heart Wrencher,Red,1,0,3,3,,,,"Mechanologist, Action, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,,C,,,Vincent Taslim,,,PEN075,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN076,PEN,Heart Wrencher,Yellow,2,0,2,3,,,,"Mechanologist, Action, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,,C,,,Vincent Taslim,,,PEN076,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN076.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN077,PEN,Heart Wrencher,Blue,3,0,1,3,,,,"Mechanologist, Action, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Attack,,,,,,C,,,Vincent Taslim,,,PEN077,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN075,PEN,Heart Wrencher,Red,1,0,3,3,,,,"Mechanologist, Action, Wrench, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Wrench Attack,,,,,,C,,,Vincent Taslim,,,PEN075,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN076,PEN,Heart Wrencher,Yellow,2,0,2,3,,,,"Mechanologist, Action, Wrench, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Wrench Attack,,,,,,C,,,Vincent Taslim,,,PEN076,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN076.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN077,PEN,Heart Wrencher,Blue,3,0,1,3,,,,"Mechanologist, Action, Wrench, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Wrench Attack,,,,,,C,,,Vincent Taslim,,,PEN077,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN078,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN078,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN078.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN079,PEN,Concealed Nerve Gas,,,,,,,,,"Ranger, Equipment, Chest, Trap",,Cloaked,,,,,,"**Cloaked**
 
@@ -205,7 +209,7 @@ PEN082,PEN,Bolt'n Boots,,,,,1,,,,"Ranger, Equipment, Legs",,Battleworn,Attack Re
 **Battleworn**",Ranger Equipment - Legs,,,,,,R,S,,Mariusz Gandzel,,,PEN082,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN082.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN083,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN083,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN084,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN084,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN085,PEN,Rainbow Goo Trap,Red,1,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,,"When this defends an attack with {p} greater than its base, dominate, and go again, the attack gets -2{p} and loses and can't gain abilities.",Ranger Defense Reaction - Trap,,,,,,R,,,Marco Wulfr,,,PEN085,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN085,PEN,Rainbow Goo Trap,Red,1,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,"Dominate, Go again","When this defends an attack with {p} greater than its base, dominate, and go again, the attack gets -2{p} and loses and can't gain abilities.",Ranger Defense Reaction - Trap,,,,,,R,,,Marco Wulfr,,,PEN085,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN086,PEN,Courageous Crossing,Blue,3,0,,3,,,,"Ranger, Action, Trap",,Go again,,,,,,"Create a Courage token under target hero's control.
 
 **Go again**
@@ -216,7 +220,7 @@ PEN087,PEN,Frail Swingline,Blue,3,0,,3,,,,"Ranger, Action, Trap",,Go again,,,,,,
 **Go again**
 
 When this defends an attack with {p} less than its base, its controller discards a card.",Ranger Action - Trap,,,,,,C,,,Nikolay Moskvin,,,PEN087,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN087.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN088,PEN,Quickening Sand,Blue,3,0,,3,,,,"Ranger, Action, Trap",,Go again,,,,,,"Create a Quicken token under target hero's control.
+PEN088,PEN,Quickening Sand,Blue,3,0,,3,,,,"Ranger, Action, Trap",,Go again,,,,,Go again,"Create a Quicken token under target hero's control.
 
 **Go again**
 
@@ -225,22 +229,22 @@ PEN089,PEN,Spellbane Trap,Red,1,0,,2,,,,"Ranger, Action, Trap",,Go again,,,,,,"Y
 
 **Go again**
 
-When this defends and the attacking hero has dealt arcane damage this turn, create a Spellbane Aegis token.",Ranger Action - Trap,,,,,,C,,,Amban Tegar Prakoso,,,PEN089,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+When this defends and the attacking hero has dealt arcane damage this turn, create a Spellbane Aegis token.",Ranger Action - Trap,,,,,,C,,,Ambang Tegar Prakoso,,,PEN089,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN089.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN090,PEN,Spellbane Trap,Yellow,2,0,,2,,,,"Ranger, Action, Trap",,Go again,,,,,,"Your next arrow attack this turn gets +2{p}.
 
 **Go again**
 
-When this defends and the attacking hero has dealt arcane damage this turn, create a Spellbane Aegis token.",Ranger Action - Trap,,,,,,C,,,Amban Tegar Prakoso,,,PEN090,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+When this defends and the attacking hero has dealt arcane damage this turn, create a Spellbane Aegis token.",Ranger Action - Trap,,,,,,C,,,Ambang Tegar Prakoso,,,PEN090,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN090.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN091,PEN,Spellbane Trap,Blue,3,0,,2,,,,"Ranger, Action, Trap",,Go again,,,,,,"Your next arrow attack this turn gets +1{p}.
 
 **Go again**
 
-When this defends and the attacking hero has dealt arcane damage this turn, create a Spellbane Aegis token.",Ranger Action - Trap,,,,,,C,,,Amban Tegar Prakoso,,,PEN091,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+When this defends and the attacking hero has dealt arcane damage this turn, create a Spellbane Aegis token.",Ranger Action - Trap,,,,,,C,,,Ambang Tegar Prakoso,,,PEN091,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN091.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN092,PEN,Grimoire of Fellingsong,,,,,,,,,"Runeblade, Equipment, Off-Hand",,,Instant,,,,,"**Instant** - {r}, destroy this: Create a Runechant token.",Runeblade Equipment - Off-Hand,,,,No,,M,S,,Carlos Cruchaga,,,PEN092,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN092.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN093,PEN,Helm of Might and Magic,,,,,1,,,,"Runeblade, Equipment, Head",,"Blade Break, Spellvoid 1",,,,,,"**Blade Break**
 
 **Spellvoid 1**",Runeblade Equipment - Head,,,,,,R,,,Ambang Tegar Prakoso,,,PEN093,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN093.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN094,PEN,Runebleed Robe,,,,,0,,,,"Runeblade, Equipment, Chest",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this and a Runechant you control: Prevent the next 1 arcane damage that would be dealt to you this turn.
+PEN094,PEN,Runebleed Robe,,,,,0,,,,"Runeblade, Equipment, Chest",,Arcane Barrier 1,Instant,,,,,"**Instant** - Destroy this and a Runechant you control: Prevent the next 1 arcane damage that would be dealt to you this turn.
 
 **Arcane Barrier 1**",Runeblade Equipment - Chest,,,,,,R,,,Ismatulloh,,,PEN094,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN094.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN095,PEN,Beckoning Haunt,,,,,2,,,,"Runeblade, Equipment, Arms",,Guardwell,,,,,,"**Action** - {x}{x}{r}, destroy this: Return target aura with cost X from your graveyard to your hand.
@@ -251,17 +255,17 @@ PEN096,PEN,Blackstone Greaves,,,,,1,,,,"Runeblade, Equipment, Legs",,Temper,,,,,
 **Temper**",Runeblade Equipment - Legs,,,,,,R,,,Alif Zahrah,,,PEN096,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN097,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN097,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN098,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN098,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN099,PEN,Sigil of Silphidae,Blue,3,0,,3,,,,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
+PEN099,PEN,Sigil of Silphidae,Blue,3,0,,3,,,1,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
 
 When this enters or leaves the arena, you may banish another aura from your graveyard. If you do, deal 1 arcane damage to target hero.
 
 At the beginning of your action phase, destroy this.",Runeblade Action - Aura,,,,,,R,,,Saad Irfan,,,PEN099,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN099.png,,,V,C,FA,Saad Irfan,,,PEN099,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN099_V2.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN100,PEN,Runic Fellingsong,Red,1,3,7,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN100,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN101,PEN,Runic Fellingsong,Yellow,2,3,6,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN101,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN102,PEN,Runic Fellingsong,Blue,3,3,5,3,,,,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN102,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN103,PEN,Weeping Battleground,Red,1,0,,3,,,,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN103,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN104,PEN,Weeping Battleground,Yellow,2,0,,3,,,,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN104,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN105,PEN,Weeping Battleground,Blue,3,0,,3,,,,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN105,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN100,PEN,Runic Fellingsong,Red,1,3,7,3,,,1,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN100,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN100.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN101,PEN,Runic Fellingsong,Yellow,2,3,6,3,,,1,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN101,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN101.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN102,PEN,Runic Fellingsong,Blue,3,3,5,3,,,1,"Runeblade, Action, Attack",,,,,,,,"When this attacks, you may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Action - Attack,,,,,,C,,,Ramza Ardyputra,,,PEN102,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN102.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN103,PEN,Weeping Battleground,Red,1,0,,3,,,1,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN103,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN104,PEN,Weeping Battleground,Yellow,2,0,,3,,,1,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN104,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN105,PEN,Weeping Battleground,Blue,3,0,,3,,,1,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN105,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN106,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN106,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN107,PEN,Shroud of the Fate Watcher,,,,,0,,,,"Wizard, Equipment, Head",,Blade Break,,,,,,"When this leaves the arena, create a Sigil of Fate token.
 
@@ -720,7 +724,11 @@ PEN287,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN287,https://storage.googleapis.com/f
 PEN288,PEN,Comeback Kicks,,,,,1,,,,"Revered, Equipment, Legs",,Battleworn,,,,,The Crowd Cheers,"Whenever the crowd cheers you, if you have less {h} than each other hero, you may destroy this. If you do, gain 1 action point.
 
 **Battleworn**",Revered Equipment - Legs,,,,,,R,S,,Jackson Tjota,,,PEN288,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN288.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN289,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN289,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN289.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN289,PEN,By the Book,Blue,3,0,,2,,,,"Revered, Action, Aura",,,,,,,,"If you have less {h} than each other hero, you may play this as though it were an instant.
+
+Heroes can't draw cards during action phases.
+
+At the beginning of your action phase, destroy this.",Revered Action - Aura,,,,No,,M,,,Simon Dominic,,,PEN289,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN289.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN290,PEN,Emboldened by the Crowd,Yellow,2,3,,6,,,,"Revered, Defense Reaction",,,,,,,,"If you've been cheered this turn, this costs {r}{r}{r} less to play.",Revered Defense Reaction,,,,,,R,,,Wisnu Tan,,,PEN290,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN290.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN291,PEN,Hulk Up,Red,1,4,8,2,,,,"Revered, Action, Attack",,,,,,,,"If you have less {h} than each other hero, this costs {r} less to play.",Revered Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,PEN291,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN291.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN292,PEN,Hulk Up,Yellow,2,4,7,2,,,,"Revered, Action, Attack",,,,,,,,"If you have less {h} than each other hero, this costs {r} less to play.",Revered Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,PEN292,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN292.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -732,11 +740,15 @@ PEN297,PEN,Chain of Brutality,Red,1,0,2,3,,,,"Reviled, Brute, Action, Attack",,G
 PEN298,PEN,Walk in My Shoes,Yellow,2,0,3,3,,,,"Reviled, Guardian, Action, Attack",,Crush,,,,,,"If this has {p} greater than its base, it gets +1{p}.
 
 **Crush** - When this deals 4 or more damage to a hero, until the end of their next turn, the base {p} and {d} of attack action cards they control are halved, rounded up.",Reviled Guardian Action - Attack,,,,,,R,,,Widya Wang,,,PEN298,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN298.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN299,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN299,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN299.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN299,PEN,Two-Faced,,,,,1,,,,"Reviled, Equipment, Head",,Blade Break,,,,,,"When this defends, the attacking hero draws a card, then look at their hand and choose a card. They discard the chosen card.",Reviled Equipment - Head,,,,No,,M,,,János Brumár,,,PEN299,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN299.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN300,PEN,Line Crossers,,,,,1,,,,"Reviled, Equipment, Arms",,Blade Break,,,,,,"If you have the same {h} as a hero, it also counts as you having more {h} than them, and them having less {h} than you.
 
 **Blade Break**",Reviled Equipment - Arms,,,,,,R,,,Satriasa,,,PEN300,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN300.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN301,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN301,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN301.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN301,PEN,Leave 'Em Speechless,Blue,3,0,,2,,,,"Reviled, Action, Aura",,,,,,,,"If you have more {h} than each other hero, you may play this as though it were an instant.
+
+When this enters the arena, name a card. The named card can't be played from hand while this is in the arena.
+
+At the beginning of your action phase, destroy this.",Reviled Action - Aura,,,,No,,M,,,Arkoii,,,PEN301,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN301.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN302,PEN,Snarky Prick,Red,1,0,1,3,,,,"Reviled, Action, Attack",,,,,,,,"When this attacks a hero, look at the top card of their deck. If it's red, destroy it and this gets +4{p}.",Reviled Action - Attack,,,,,,R,,,Nathaniel Himawan,,,PEN302,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN302.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN303,PEN,Insult to Injury,Red,1,0,3,3,,,,"Reviled, Action, Attack",,Go again,,,,,,"When this attacks a hero, if you have more {h} than them, this gets **go again**.",Reviled Action - Attack,,,,,,C,,,João G. Santos,,,PEN303,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN303.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN304,PEN,Insult to Injury,Yellow,2,0,2,3,,,,"Reviled, Action, Attack",,Go again,,,,,,"When this attacks a hero, if you have more {h} than them, this gets **go again**.",Reviled Action - Attack,,,,,,C,,,João G. Santos,,,PEN304,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN304.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
