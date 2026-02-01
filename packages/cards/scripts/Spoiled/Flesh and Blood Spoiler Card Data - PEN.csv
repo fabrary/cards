@@ -23,7 +23,7 @@ PEN011,PEN,Aggressive Pounce,Blue,3,2,4,3,,,,"Brute, Action, Attack",,Go again,,
 PEN012,PEN,Bear Hug,Red,1,2,7,3,,,,"Brute, Action, Attack",,,,,,,,Play this only if you've pitched a card with 6 or more {p} this turn.,Brute Action - Attack,,,,,,C,,,Rio Sabda,,,PEN012,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN012.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN013,PEN,Bear Hug,Yellow,2,2,6,3,,,,"Brute, Action, Attack",,,,,,,,Play this only if you've pitched a card with 6 or more {p} this turn.,Brute Action - Attack,,,,,,C,,,Rio Sabda,,,PEN013,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN013.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN014,PEN,Bear Hug,Blue,3,2,5,3,,,,"Brute, Action, Attack",,,,,,,,Play this only if you've pitched a card with 6 or more {p} this turn.,Brute Action - Attack,,,,,,C,,,Rio Sabda,,,PEN014,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN014.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN015,PEN,Shield Beater,,,,5,,,,,"Guardian, Weapon, Hammer, 1H",,,,,,,,"**Action** - {r}{r}{r}{r}, {t}: **Attack**
+PEN015,PEN,Shield Beater,,,,5,,,,,"Guardian, Weapon, Hammer, 1H",,,Action,Attack,Go again,,,"**Action** - {r}{r}{r}{r}, {t}: **Attack**
 
 Cards you own named Visit Anvilheim get **go again**.",Guardian Weapon - Hammer (1H),,,,No,,M,,,Faizal Fikri,,,PEN015,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN015.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN016,PEN,Enclosed Firemind,,,,,0,,,,"Guardian, Equipment, Head",,Arcane Barrier 1,,,,,,**Arcane Barrier 1**,Guardian Equipment - Head,,,,,,R,,,Federico Musetti,,,PEN016,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN016.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -35,7 +35,7 @@ PEN019,PEN,Basalt Boots,,,,,1,,,,"Guardian, Equipment, Legs",,Temper,,,,,,"If yo
 
 **Temper**",Guardian Equipment - Legs,,,,,,R,,,Federico Musetti,,,PEN019,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN020,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN020,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN021,PEN,Sense Weakness,Blue,3,3,,3,,,,"Guardian, Action",,Go again,,,,,,"Your next Guardian attack this turn gets +1{p}, **dominate**, and ""When this hits a hero, deal damage to all allies they control equal to the damage dealt this way.""
+PEN021,PEN,Sense Weakness,Blue,3,3,,3,,,,"Guardian, Action",,Go again,,,Dominate,,,"Your next Guardian attack this turn gets +1{p}, **dominate**, and ""When this hits a hero, deal damage to all allies they control equal to the damage dealt this way.""
 
 **Go again**",Guardian Action,,,,No,,M,,,Ausonia,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN022,PEN,Valahai Riven,Yellow,2,,,3,,,,"Guardian, Block",,,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Seismic Surge tokens.",Guardian Block,,,,,,R,,,Carlos Cruchaga,,,PEN022,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -106,8 +106,10 @@ PEN046,PEN,Gauntlets of Unity,,,,,1,,,,"Warrior, Equipment, Arms",,"Unity, Tempe
 PEN047,PEN,Pillar of Unity,,,,,1,,,,"Warrior, Equipment, Legs",,"Unity, Temper",,,,,,"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
 
 **Temper**",Warrior Equipment - Legs,,,,,,R,,,Nino Setiawan,,,PEN047,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN047.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN048,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN048,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN048.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN049,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN049,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN048,PEN,Swordmaster's Shine,Red,1,3,,3,,,,"Warrior, Attack Reaction",,,,,,,,"This costs {r} less to play for each +1{p} counter on swords you control.
+
+Target weapon attack gets +5{p}.",Warrior Attack Reaction,,,,No,,M,,,Jessada Sutthi,,,PEN048,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN048.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN049,PEN,Blunten,Yellow,2,,,2,,,,"Warrior, Block",,,,,,,,"When this defends a weapon attack, the attacking hero discards a card.",Warrior Block,,,,No,,M,,,Sebastian Giacobino,,,PEN049,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN049.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN050,PEN,Rend Flesh,Blue,3,0,,3,,,,"Warrior, Action",,Go again,,,,,,"Until end of turn, whenever a sword you control hits a hero, you may remove a +1{p} counter from it. If you do, they lose 2{h}.
 
 **Go again**",Warrior Action,,,,,,R,,,Jefrey Yonathan,,,PEN050,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN050.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -435,11 +437,17 @@ PEN177,PEN,Herald of Victoria,Yellow,2,2,7,3,,,,"Light, Illusionist, Action, Att
 PEN178,PEN,Roaring Beam,Yellow,2,0,,3,,,,"Light, Warrior, Attack Reaction",,Charge,,,,,,"Create a Courage token.
 
 If there are no cards in your soul, return this to its owner's hand, then **charge** your soul.",Light Warrior Attack Reaction,,,,,,R,,,Marcellino Tan,,,PEN178,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN179,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN179,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN179,PEN,Solforge Gauntlet,,,,,1,,,,"Light, Equipment, Arms",,Arcane Barrier 1,,,,,,"When the combat chain closes, if this defended, put it into your soul.
+
+**Arcane Barrier 1**",Light Equipment - Arms,,,,No,,M,,,Raynor Maharsi,,,PEN179,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN180,PEN,Solray Plating,,,,,1,,,,"Light, Equipment, Chest",,Blade Break,,,,,,"If you would be dealt damage, you may banish a card from your soul to prevent 1 of that damage. If you do, destroy this at the beginning of the end phase.
 
 **Blade Break**",Light Equipment - Chest,,,,,,R,,,Raynor Maharsi,,,PEN180,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN180.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN181,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN181,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN181.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN181,PEN,Blessing of Bellona,Yellow,2,0,,3,,,,"Light, Action, Aura",,Go again,,,,,,"**Go again**
+
+Whenever a card is put into your soul, create a Courage token.
+
+At the start of your turn, put this into your soul.",Light Action - Aura,,,,No,,M,,,Bastien Jez,,,PEN181,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN181.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN182,PEN,Blessing of Themis,Yellow,2,0,,3,,,,"Light, Action, Aura",,Go again,,,,,,"**Go again**
 
 When this enters the arena, name a card. Turn all cards with that name in banished zones face-down. Whenever a card with that name is banished while this is in the arena, turn that card face-down.
@@ -465,13 +473,19 @@ PEN190,PEN,Deep Recesses of Existence,Blue,3,4,6,3,,,,"Shadow, Runeblade, Action
 When the combat chain closes, you may banish this face-down. If you do, for each hero who has lost {h} this turn, banish a card from their graveyard.
 
 **Blood Debt**",Shadow Runeblade Action - Attack,,,,,,R,,,Max Kostin,,,PEN190,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN190.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN191,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN191,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN191.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN191,PEN,Vestige of Flagellation,,,,,2,,,,"Shadow, Equipment, Chest",,Blade Break,,,,,,"The first time an opponent would gain {h} each turn, instead you lose that much and create that many Vigor tokens.
+
+**Blade Break**",Shadow Equipment - Chest,,,,No,,M,,,Arkoii,,,PEN191,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN191.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN192,PEN,Embraforged Gauntlet,,,,,2,,,,"Shadow, Equipment, Arms",,"Temper, Blood Debt",,,,,,"If this would be put into your graveyard from anywhere, instead banish it.
 
 **Temper**
 
 **Blood Debt**",Shadow Equipment - Arms,,,,,,R,,,Saad Irfan,,,PEN192,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN193,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN193,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN193,PEN,Embalm,Yellow,2,0,,3,,,,"Shadow, Action",,"Go again, Blood Debt",,,,,,"You may play this from your banished zone. If you do, it gets **go again**.
+
+Put an attack action card with blood debt from your graveyard on the bottom of your deck.
+
+**Blood Debt**",Shadow Action,,,,No,,M,,,Sebastian Giacobino,,,PEN193,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN193.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN194,PEN,Engulfing Shadows,Yellow,2,0,,4,,,,"Shadow, Defense Reaction",,Blood Debt,,,,,,"If this would be put into your graveyard from anywhere, instead banish it.
 
 **Blood Debt**",Shadow Defense Reaction,,,,,,R,,,Kimberly Pantoni,,,PEN194,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN194.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -706,7 +720,9 @@ PEN275,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN275,https://storage.googleapis.com/f
 PEN276,PEN,Topsy Turvy,,,,,0,,,,"Chaos, Equipment, Head",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this: Until end of turn, if one or more cards would be put on top of a deck, instead they're put on the bottom.
 
 **Arcane Barrier 1**",Chaos Equipment - Head,,,,,,R,,,Carlos Cruchaga,,,PEN276,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN276.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN277,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN277,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN277.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN277,PEN,Tome of Pandemonium,Yellow,2,1,,2,,,,"Chaos, Action",,Go again,,,,,,"Banish the top card of each hero's deck. You may play them this turn.
+
+**Go again**",Chaos Action,,,,No,,M,,,Muhammad Fajri,,,PEN277,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN277.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN278,PEN,Descend into Madness,Blue,3,0,,3,,,,"Chaos, Attack Reaction",,,,,,,,"Banish a random card from the defending hero's hand, then they draw a card.",Chaos Attack Reaction,,,,,,R,,,Arkoii,,,PEN278,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN278.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN279,PEN,Concoct Disorder,Red,1,1,4,3,,,,"Chaos, Action, Attack",,Go again,,,,,,"When this attacks, each hero puts the top card of their deck face-down into their arsenal. If 2 or more cards are put into arsenals this way, this gets **go again**.",Chaos Action - Attack,,,,,,C,,,Orson CaptainSass,,,PEN279,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN279.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN280,PEN,Concoct Disorder,Yellow,2,1,3,3,,,,"Chaos, Action, Attack",,Go again,,,,,,"When this attacks, each hero puts the top card of their deck face-down into their arsenal. If 2 or more cards are put into arsenals this way, this gets **go again**.",Chaos Action - Attack,,,,,,C,,,Orson CaptainSass,,,PEN280,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN280.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
