@@ -10811,6 +10811,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/lay-down-the-challenge-yellow</loc>
+    <lastmod>2026-02-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/lay-down-the-law-red</loc>
     <lastmod>2023-09-06</lastmod>
     <priority>0.5</priority>
@@ -14868,6 +14873,11 @@
   <url>
     <loc>https://fabrary.net/cards/recede-to-mistform-blue</loc>
     <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/reckless-arithmetic-blue</loc>
+    <lastmod>2026-02-01</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
