@@ -896,6 +896,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/astravolt-elemental-red</loc>
+    <lastmod>2026-02-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/attention-grabbers</loc>
     <lastmod>2025-09-12</lastmod>
     <priority>0.5</priority>
@@ -4501,6 +4506,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/crown-of-everbloom</loc>
+    <lastmod>2026-02-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/crown-of-providence</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -5373,6 +5383,11 @@
   <url>
     <loc>https://fabrary.net/cards/dominia</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/doomsaying-red</loc>
+    <lastmod>2026-02-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18933,6 +18948,11 @@
   <url>
     <loc>https://fabrary.net/cards/storm-striders</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stormweavers-aegis</loc>
+    <lastmod>2026-02-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

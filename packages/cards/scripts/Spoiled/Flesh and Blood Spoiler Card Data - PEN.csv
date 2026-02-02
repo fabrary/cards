@@ -13,7 +13,7 @@ PEN005,PEN,Shamanic Shinbones,,,,,0,,,,"Brute, Equipment, Legs",,Arcane Barrier 
 PEN006,PEN,Reckless Arithmetic,Blue,3,1,1,3,,,,"Brute, Action, Attack",,,,,,,,"When this attacks, roll a 6 sided die. This gets +X{p}, where X is the number rolled.",Brute Action - Attack,,,,No,,M,,,Tomasz Jedruszek,,,PEN006,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN006.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN007,PEN,Lay Down the Challenge,Yellow,2,0,,3,,,,"Brute, Action",,"Intimidate, Go again",,,,,,"**Intimidate** target hero, then if they have more cards in hand than you, draw a card.
 
-**Go again**",Brute Action,,,,No,,M,,,Pavel Rtishchev (Klaher),,,PEN007,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN007.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Brute Action,,,,No,,M,,,Pavel Rtishchev (Klaher),,,PEN007,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN007.png,,,M,R,EA,Pavel Rtishchev (Klaher),,,PEN007,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN007-RF.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN008,PEN,Rip Off the Top,Yellow,2,1,,2,,,,"Brute, Action",,Go again,,,,,,"Draw a card, then pitch a random card from your hand. If it has 6 or more {p}, your next attack this turn gets +3{p}.
 
 **Go again**",Brute Action,,,,,,R,,,Henrique Lindner,,,PEN008,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN008.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -37,7 +37,7 @@ PEN019,PEN,Basalt Boots,,,,,1,,,,"Guardian, Equipment, Legs",,Temper,,,,,,"If yo
 PEN020,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN020,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN021,PEN,Sense Weakness,Blue,3,3,,3,,,,"Guardian, Action",,Go again,,,Dominate,,,"Your next Guardian attack this turn gets +1{p}, **dominate**, and ""When this hits a hero, deal damage to all allies they control equal to the damage dealt this way.""
 
-**Go again**",Guardian Action,,,,No,,M,,,Ausonia,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+**Go again**",Guardian Action,,,,No,,M,,,Ausonia,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021.png,,,M,R,EA,Ausonia,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021-RF.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN022,PEN,Valahai Riven,Yellow,2,,,3,,,,"Guardian, Block",,,,,,,,"When this defends, you may pay up to {r}{r}{r}. Create that many Seismic Surge tokens.",Guardian Block,,,,,,R,,,Carlos Cruchaga,,,PEN022,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN022.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN023,PEN,Distant Rumbling,Red,1,0,,3,,,,"Guardian, Action, Aura",,,,,,,,"When this enters the arena, draw a card, then put a card from your hand into your deck fifth from the top.
 
@@ -257,7 +257,9 @@ PEN095,PEN,Beckoning Haunt,,,,,2,,,,"Runeblade, Equipment, Arms",,Guardwell,,,,,
 PEN096,PEN,Blackstone Greaves,,,,,1,,,,"Runeblade, Equipment, Legs",,Temper,,,,,,"If you've dealt arcane damage this turn, this gets +1{d}.
 
 **Temper**",Runeblade Equipment - Legs,,,,,,R,,,Alif Zahrah,,,PEN096,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN096.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN097,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN097,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN097,PEN,Doomsaying,Red,1,0,,3,,,,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
+
+At the beginning of your end phase, put a doom counter on this, then each hero destroys X auras they control, where X is the number of doom counters on this.",Runeblade Action - Aura,,,,No,,M,,,Nathaniel Himawan,,,PEN097,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN098,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN098,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN099,PEN,Sigil of Silphidae,Blue,3,0,,3,,,1,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
 
@@ -481,7 +483,7 @@ PEN192,PEN,Embraforged Gauntlet,,,,,2,,,,"Shadow, Equipment, Arms",,"Temper, Blo
 **Temper**
 
 **Blood Debt**",Shadow Equipment - Arms,,,,,,R,,,Saad Irfan,,,PEN192,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN192.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN193,PEN,Embalm,Yellow,2,0,,3,,,,"Shadow, Action",,"Go again, Blood Debt",,,,,,"You may play this from your banished zone. If you do, it gets **go again**.
+PEN193,PEN,Embalm,Yellow,2,0,,3,,,,"Shadow, Action",,"Go again, Blood Debt",,,,,Blood Debt,"You may play this from your banished zone. If you do, it gets **go again**.
 
 Put an attack action card with blood debt from your graveyard on the bottom of your deck.
 
@@ -553,7 +555,9 @@ Create 3 Runechant tokens.",Earth Runeblade Action,,,,,,R,,,Nikolay Moskvin,,,PE
 PEN214,PEN,Sowing Thorns,Red,1,0,,3,,,,"Earth, Wizard, Action",,Decompose,,,,,,"Gain 1{h}
 
 **Decompose** - You may banish 2 Earth cards and an action card from your graveyard. If you do, you may search your deck for an Earth aura with cost less than the {h} you've gained this turn, reveal it, then shuffle and put it on top.",Earth Wizard Action,,,,,,R,,,Bastien Jez,,,PEN214,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN214.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN215,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN215,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN215,PEN,Crown of Everbloom,,,,,0,,,,"Earth, Equipment, Head",,Arcane Barrier 2,,,,,,"**Instant** - Destroy this: Put a card from your arsenal on the bottom of your deck. If you do, draw a card and create a Spellbane Aegis token.
+
+**Arcane Barrier 2**",Earth Equipment - Head,,,,No,,M,,,soyameii,,,PEN215,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN216,PEN,Limbs of Lignum Vitae,,,,,1,,,,"Earth, Equipment, Arms",,Blade Break,,,,,,"If there are 4 or more Earth cards in your banished zone, this gets +1{d}.
 
 **Blade Break**",Earth Equipment - Arms,,,,,,R,,,Esty Swandana,,,PEN216,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN216.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -616,9 +620,11 @@ At the beginning of your action phase, destroy this.",Lightning Runeblade Instan
 PEN238,PEN,Strike Twice,Red,1,1,,3,,,3,"Lightning, Wizard, Action",,,,,,,,"Deal 3 arcane damage to any target.
 
 If you've dealt arcane damage to an opposing hero this turn, you may play this as though it were an instant.",Lightning Wizard Action,,,,,,R,,,Christ Adiel Then,,,PEN238,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN238.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN239,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN239,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN239.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN239,PEN,Stormweaver's Aegis,,,,,0,,,,"Lightning, Equipment, Chest",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this: Until end of turn, instant cards you own get ""**Instant** - Discard this: Prevent the next 2 damage that would be dealt to you this turn.""
+
+**Arcane Barrier 1**",Lightning Equipment - Chest,,,,No,,M,,,Ramza Ardyputra,,,PEN239,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN239.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN240,PEN,Voltic Vanguard,,,,,0,,,,"Lightning, Equipment, Head",,,Instant,,,,,**Instant** - Destroy this: Prevent the next 2 damage that would be dealt to you this turn. Activate this only if you've played an instant card this turn.,Lightning Equipment - Head,,,,,,R,,,Alexis Susani,,,PEN240,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN240.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN241,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN241,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN241.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN241,PEN,Astravolt Elemental,Red,1,0,3,3,,,,"Lightning, Action, Attack",,,,,,,,"When this attacks, you may discard an instant card. If you do, draw a card and create an Embodiment of Lightning token.",Lightning Action - Attack,,,,No,,M,,,Narendra B Adi,,,PEN241,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN241.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN242,PEN,Ion Charged,Yellow,2,0,,,,,,"Lightning, Instant",,,,,,,,"Until end of turn, Lightning and Elemental attacks get +1{p} while they have go again.",Lightning Instant,,,,,,R,,,SanSan,,,PEN242,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN242.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN243,PEN,Overcharge,Red,1,1,1,3,,,,"Lightning, Action, Attack",,Go again,,,,,,"If you've played an instant card this chain link, this gets +3{p}.
 
