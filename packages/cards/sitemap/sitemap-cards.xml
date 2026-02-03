@@ -3306,6 +3306,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/channel-iceloch-glaze-blue</loc>
+    <lastmod>2026-02-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/channel-lake-frigid-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -3333,6 +3338,11 @@
   <url>
     <loc>https://fabrary.net/cards/channel-the-millennium-tree-red</loc>
     <lastmod>2024-06-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/channel-the-skybreaker-yellow</loc>
+    <lastmod>2026-02-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -4508,6 +4518,11 @@
   <url>
     <loc>https://fabrary.net/cards/crown-of-everbloom</loc>
     <lastmod>2026-02-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/crown-of-frozen-thoughts</loc>
+    <lastmod>2026-02-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8303,6 +8318,11 @@
   <url>
     <loc>https://fabrary.net/cards/gloves-of-erasure</loc>
     <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/glyph-destruction-nodes-yellow</loc>
+    <lastmod>2026-02-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -283,7 +283,7 @@ PEN109,PEN,Gloves of Erasure,,,,,0,,,,"Wizard, Equipment, Arms",,Blade Break,,,,
 
 **Blade Break**",Wizard Equipment - Arms,,,,,,R,,,Saad Irfan,,,PEN109,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN110,PEN,Aetherstorm Wellingtons,,,,,0,,,,"Wizard, Equipment, Legs",,Arcane Barrier 2,,,,,,**Arcane Barrier 2**,Wizard Equipment - Legs,,,,,,R,,,Mateusz Wiśniewski,,,PEN110,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN111,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN111,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN111,PEN,Glyph Destruction Nodes,Yellow,2,0,,3,,,3,"Wizard, Action",,,,,,,,"Deal 3 arcane damage to up to X target heroes and/or allies, where X is the number of aura permanents you control with Sigil in their name.",Wizard Action,,,,No,,M,,,Faizal Fikri,,,PEN111,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN112,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN112,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN113,PEN,Glyph Power Spell,Red,1,2,,3,,,4,"Wizard, Action",,,,,,,,"Deal 4 arcane damage to any target. If you control a card with Sigil in its name, instead deal 6 arcane damage.",Wizard Action,,,,,,R,,,Olga Tereshenko,,,PEN113,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN114,PEN,Painful Premonition,Red,1,0,,3,,,3,"Wizard, Action",,,,,,,,"Deal 3 arcane damage to any target.
@@ -561,7 +561,11 @@ PEN215,PEN,Crown of Everbloom,,,,,0,,,,"Earth, Equipment, Head",,Arcane Barrier 
 PEN216,PEN,Limbs of Lignum Vitae,,,,,1,,,,"Earth, Equipment, Arms",,Blade Break,,,,,,"If there are 4 or more Earth cards in your banished zone, this gets +1{d}.
 
 **Blade Break**",Earth Equipment - Arms,,,,,,R,,,Esty Swandana,,,PEN216,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN216.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN217,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN217,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN217,PEN,Channel the Skybreaker,Yellow,2,2,,3,,,,"Earth, Action, Aura",,"Go again, Channel Earth",,,,,,"**Go again**
+
+When this enters the arena and at the beginning of your action phase, create 2 Might tokens.
+
+**Channel Earth** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Earth card from your pitch zone on the bottom of your deck for each flow counter on it.",Earth Action - Aura,,,,No,,M,,,Mark Poole,,,PEN217,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN217.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN218,PEN,Doubling Season,Red,1,3,0,3,,,,"Earth, Action, Attack",,,,,,,,"While this is face-up in any zone, if it would gain {p}, instead it gains that much plus 1.",Earth Action - Attack,,,,,,R,,,Rio Sabda,,,PEN218,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN218.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN219,PEN,Oath of Oak,Red,1,0,,2,,,,"Earth, Action",,,,,,,,Create 3 Embodiment of Earth tokens.,Earth Action,,,,,,C,,,Wiriwan Pranoto,,,PEN219,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN219.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN220,PEN,Oath of Oak,Yellow,2,0,,2,,,,"Earth, Action",,,,,,,,Create 2 Embodiment of Earth tokens.,Earth Action,,,,,,C,,,Wiriwan Pranoto,,,PEN220,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN220.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -588,11 +592,17 @@ PEN225,PEN,Monolith of Galcia,Blue,3,3,,2,,,,"Ice, Guardian, Action",,,,,,,,"Cho
 - Destroy target frozen equipment.
 - Destroy target frozen item.",Ice Guardian Action,,,,,,R,,,Federico Musetti,,,PEN225,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN225.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN226,PEN,Frost Spike,Blue,3,0,,,,,,"Ice, Wizard, Instant",,,,,,,,"Create a Frostbite token in an exposed head, chest, arms, or legs zone.",Ice Wizard Instant,,,,,,R,,,Orson CaptainSass,,,PEN226,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN226.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN227,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN227,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN227.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN227,PEN,Crown of Frozen Thoughts,,,,,2,,,,"Ice, Equipment, Head",,"Freeze, Blade Break",,,,,,"When this defends, **freeze** the attacking hero until the start of their next turn.
+
+**Blade Break**",Ice Equipment - Head,,,,No,,M,,,Mario Wibisono,,,PEN227,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN227.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN228,PEN,Shattering Grasp,,,,,1,,,,"Ice, Equipment, Arms",,Battleworn,Action,Go again,,,Frozen,"**Action** - Destroy this: Destroy target frozen ally. **Go again**
 
 **Battleworn**",Ice Equipment - Arms,,,,,,R,,,Andi Cahyo W,,,PEN228,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN228.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN229,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN229,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN229.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN229,PEN,Channel Iceloch Glaze,Blue,3,0,,3,,,,"Ice, Action, Aura",,"Go again, Frozen, Channel Ice",,,,,,"**Go again**
+
+Cards in opponents' arsenals are **frozen** while they control a Frostbite or a frozen permanent.
+
+**Channel Ice** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.",Ice Action - Aura,,,,No,,M,,,Carlos Cruchaga,,,PEN229,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN229.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN230,PEN,Channel Galcia's Cradle,Blue,3,0,,2,,,,"Ice, Action, Aura",,"Freeze, Channel Ice",,,,,,"When this enters the arena and at the start of your turn, **freeze** target ally, aura, item, or equipment while this is in the arena.
 
 **Channel Ice** - At the beginning of your end phase, put a flow counter on this, then destroy it unless you put an Ice card from your pitch zone on the bottom of your deck for each flow counter on it.",Ice Action - Aura,,,,,,R,,,Flora Silve,,,PEN230,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN230.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

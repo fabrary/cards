@@ -228,12 +228,15 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
 
   let image;
   if (imageUrl) {
-    const parsedUrl = imageUrl
+    let parsedUrl = imageUrl
       .replace(".format-webp", "")
       .replace(".width-450", "")
-      .replace("-RF", "")
-      .replace("-CF", "")
       .replace("_yajPa8R", "");
+
+    const shouldRemoveRFandCF = treatments.length === 0;
+    if (shouldRemoveRFandCF) {
+      parsedUrl = parsedUrl.replace("-RF", "").replace("-CF", "");
+    }
     image = parsedUrl.substring(
       parsedUrl.lastIndexOf("/") + 1,
       parsedUrl.lastIndexOf(".")
