@@ -211,7 +211,7 @@ While this is equipped face-down, when an attack with {p} greater than its base 
 PEN082,PEN,Bolt'n Boots,,,,,1,,,,"Ranger, Equipment, Legs",,Battleworn,Attack Reaction,,Go again,,,"**Attack Reaction** - {r}, destroy this: Target arrow attack with {p} greater than its base gets **go again**.
 
 **Battleworn**",Ranger Equipment - Legs,,,,,,R,S,,Mariusz Gandzel,,,PEN082,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN082.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN083,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN083,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN083,PEN,Tiger Trap,Red,1,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,,"When this defends and the attacking hero controls 3 or more attacks with {p} greater than their base, attacks they control can't gain {p} this turn.",Ranger Defense Reaction - Trap,,,,No,,M,,,Marco González,,,PEN083,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN084,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN084,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN085,PEN,Rainbow Goo Trap,Red,1,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,"Dominate, Go again","When this defends an attack with {p} greater than its base, dominate, and go again, the attack gets -2{p} and loses and can't gain abilities.",Ranger Defense Reaction - Trap,,,,,,R,,,Marco Wulfr,,,PEN085,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN086,PEN,Courageous Crossing,Blue,3,0,,3,,,,"Ranger, Action, Trap",,Go again,,,,,,"Create a Courage token under target hero's control.
@@ -272,7 +272,9 @@ PEN102,PEN,Runic Fellingsong,Blue,3,3,5,3,,,1,"Runeblade, Action, Attack",,,,,,,
 PEN103,PEN,Weeping Battleground,Red,1,0,,3,,,1,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN103,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN103.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN104,PEN,Weeping Battleground,Yellow,2,0,,3,,,1,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN104,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN104.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN105,PEN,Weeping Battleground,Blue,3,0,,3,,,1,"Runeblade, Defense Reaction",,,,,,,,"You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",Runeblade Defense Reaction,,,,,,C,,,Orson CaptainSass,,,PEN105,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN105.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN106,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN106,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN106,PEN,Tempest Dancers,,,,,0,,,,"Wizard, Equipment, Legs",,Blade Break,,,,,,"When this leaves the arena, you may play your next non-attack action card this turn as though it were an instant.
+
+**Blade Break**",Wizard Equipment - Legs,,,,No,,M,,,Diana Tanamas,,,PEN106,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN106.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN107,PEN,Shroud of the Fate Watcher,,,,,0,,,,"Wizard, Equipment, Head",,Blade Break,,,,,,"When this leaves the arena, create a Sigil of Fate token.
 
 **Blade Break**",Wizard Equipment - Head,,,,,,R,,,Thomas Ressuge,,,PEN107,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN107.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -363,7 +365,11 @@ PEN140,PEN,Graven Walkers,,,,,2,,,,"Assassin, Equipment, Legs",,Blade Break,,,,,
 When this is equipped from anywhere other than your graveyard, put a -1{d} counter on it.
 
 **Blade Break**",Assassin Equipment - Legs,,,,,,R,,,Ilham Bahtiar,,,PEN140,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN140.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN141,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN141,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN141,PEN,Lobotomy,Red,1,0,3,3,,,,"Assassin, Action, Attack",,Stealth,,,,,,"**Stealth**
+
+When this attacks, you may equip an Orbitoclast from your inventory.
+
+When this hits a hero, if you control an Orbitoclast, they lose all hero card abilities during their next action phase.",Assassin Action - Attack,,,,No,,M,,,Arkoii,,,PEN141,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN142,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN142,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN143,PEN,Mist Hunter,Red,1,0,4,3,,,,"Assassin, Action, Attack",,Contract,,,,,,"**Contract** - You are contracted to banish opponents' blue cards. Whenever you complete this contract, create a Silver token.
 
@@ -387,7 +393,9 @@ PEN149,PEN,Knife Through,Blue,3,0,1,3,,,,"Assassin, Action, Attack",,"Stealth, G
 
 If you've hit with a dagger this combat chain, this gets **go again**.",Assassin Action - Attack,,,,,,C,,,Tomasz Jedruszek,,,PEN149,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN149.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN150,PEN,Song of Larinkmorth White,Blue,3,0,,3,,,,"Bard, Action, Song",,,,,,,,Create a Frostbite token under each other hero's control.,Bard Action - Song,,,,,,R,,,Anthony Avon,,,PEN150,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN150.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN151,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN151,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN151,PEN,Bone Puppetry,,,,,2,,,,"Necromancer, Equipment, Arms",,Blade Break,,,,,,"When this defends, you may return an ally from your graveyard to the arena. If you do, at the beginning of the end phase, destroy it and discard your hand.
+
+**Blade Break**",Necromancer Equipment - Arms,,,,No,,M,,,João G. Santos,,,PEN151,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN152,PEN,Carrion Crown,,,,,2,,,,"Necromancer, Equipment, Head",,Blade Break,Action,Go again,,,,"**Action** - Discard an ally, destroy this: Draw a card. **Go again**
 
 **Blade Break**",Necromancer Equipment - Head,,,,,,R,,,Vincent Taslim,,,PEN152,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -400,8 +408,18 @@ PEN154,PEN,Reach Beyond the Grave,,,,,1,,,,"Necromancer, Equipment, Arms",,Battl
 PEN155,PEN,Scuttle Toes,,,,,0,,,,"Necromancer, Equipment, Legs",,Arcane Barrier 1,Instant,,,,,"**Instant** - {r}{r}, destroy this: {u} target ally you control. Destroy it at the beginning of the end phase.
 
 **Arcane Barrier 1**",Necromancer Equipment - Legs,,,,,,R,,,Elya Nur Sri Ayu,,,PEN155,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN156,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN156,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN157,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN157,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN156,PEN,"Boo, Resident Spook",Yellow,2,1,2,2,,,,"Pirate, Necromancer, Action, Ally",,"Spellvoid 2, Watery Grave",,,,,,"**Action** - {t}: **Attack**
+
+If this is untapped, it gets **spellvoid 2**.
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Carlos Cruchaga,,,PEN156,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN157,PEN,"Bubba-Lubba, Run Aground",Yellow,2,3,1,5,,,,"Pirate, Necromancer, Action, Ally",,"Go again, Watery Grave",,,,,,"This enters the arena with a +1{p} counter.
+
+**Action** - {r}, {t}: **Attack**
+
+**Action** - Remove a +1{p} counter from an ally you control: Destroy an aura token. **Go again**
+
+**Watery Grave**",Pirate Necromancer Action - Ally,,,,No,,M,,,Kevin Sidharta,,,PEN157,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN158,PEN,Beneath the Surface,Yellow,2,2,,5,,,,"Pirate, Necromancer, Defense Reaction",,Watery Grave,,,,,,"**Watery Grave**
 
 While this is defending, when it's put into your graveyard from the arena, turn it face-down.",Pirate Necromancer Defense Reaction,,,,,,R,,,Arkoii,,,PEN158,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN158.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -423,7 +441,11 @@ PEN167,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN167,https://storage.googleapis.com/f
 PEN168,PEN,Trench of Watery Depths,,,,,1,,,,"Pirate, Equipment, Chest",,Blade Break,,,,,,"When this defends, you may pitch a blue card from your graveyard.
 
 **Blade Break**",Pirate Equipment - Chest,,,,,,R,S,,Stormy Elia Fanggidae,,,PEN168,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN168.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN169,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN169,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN169.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN169,PEN,Cheating Scoundrel,Red,1,0,,3,,,,"Pirate, Action",,"Wagers, Go again",,,,,,"The next attack action card you play this turn gets +3{p} and **wagers** with the defending hero. The winner creates a Gold token.
+
+The next time you would lose a wager this turn, instead you may discard a card. If you do, you win the wager.
+
+**Go again**",Pirate Action,,,,No,,M,,,Tanapon Wachirakul,,,PEN169,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN169.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN170,PEN,Break Open the Chests!,Yellow,2,1,,3,,,,"Pirate, Action",,Go again,,,,,,"Turn all cards in all arsenals face-up. Then if there's a face-up yellow card in any arsenal, create 2 Gold tokens.
 
 **Go again**",Pirate Action,,,,,,R,,,Marcus Reyno,,,PEN170,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -555,7 +577,7 @@ Create 3 Runechant tokens.",Earth Runeblade Action,,,,,,R,,,Nikolay Moskvin,,,PE
 PEN214,PEN,Sowing Thorns,Red,1,0,,3,,,,"Earth, Wizard, Action",,Decompose,,,,,,"Gain 1{h}
 
 **Decompose** - You may banish 2 Earth cards and an action card from your graveyard. If you do, you may search your deck for an Earth aura with cost less than the {h} you've gained this turn, reveal it, then shuffle and put it on top.",Earth Wizard Action,,,,,,R,,,Bastien Jez,,,PEN214,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN214.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN215,PEN,Crown of Everbloom,,,,,0,,,,"Earth, Equipment, Head",,Arcane Barrier 2,,,,,,"**Instant** - Destroy this: Put a card from your arsenal on the bottom of your deck. If you do, draw a card and create a Spellbane Aegis token.
+PEN215,PEN,Crown of Everbloom,,,,,0,,,,"Earth, Equipment, Head",,Arcane Barrier 2,Instant,,,,,"**Instant** - Destroy this: Put a card from your arsenal on the bottom of your deck. If you do, draw a card and create a Spellbane Aegis token.
 
 **Arcane Barrier 2**",Earth Equipment - Head,,,,No,,M,,,soyameii,,,PEN215,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN215.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN216,PEN,Limbs of Lignum Vitae,,,,,1,,,,"Earth, Equipment, Arms",,Blade Break,,,,,,"If there are 4 or more Earth cards in your banished zone, this gets +1{d}.
@@ -595,10 +617,10 @@ PEN226,PEN,Frost Spike,Blue,3,0,,,,,,"Ice, Wizard, Instant",,,,,,,,"Create a Fro
 PEN227,PEN,Crown of Frozen Thoughts,,,,,2,,,,"Ice, Equipment, Head",,"Freeze, Blade Break",,,,,,"When this defends, **freeze** the attacking hero until the start of their next turn.
 
 **Blade Break**",Ice Equipment - Head,,,,No,,M,,,Mario Wibisono,,,PEN227,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN227.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN228,PEN,Shattering Grasp,,,,,1,,,,"Ice, Equipment, Arms",,Battleworn,Action,Go again,,,Frozen,"**Action** - Destroy this: Destroy target frozen ally. **Go again**
+PEN228,PEN,Shattering Grasp,,,,,1,,,,"Ice, Equipment, Arms",,Battleworn,Action,Go again,,,Freeze,"**Action** - Destroy this: Destroy target frozen ally. **Go again**
 
 **Battleworn**",Ice Equipment - Arms,,,,,,R,,,Andi Cahyo W,,,PEN228,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN228.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN229,PEN,Channel Iceloch Glaze,Blue,3,0,,3,,,,"Ice, Action, Aura",,"Go again, Frozen, Channel Ice",,,,,,"**Go again**
+PEN229,PEN,Channel Iceloch Glaze,Blue,3,0,,3,,,,"Ice, Action, Aura",,"Go again, Freeze, Channel Ice",,,,,Freeze,"**Go again**
 
 Cards in opponents' arsenals are **frozen** while they control a Frostbite or a frozen permanent.
 
@@ -826,7 +848,7 @@ PEN319,PEN,Command and Conquer,Red,1,,,,,,,,,,,,,,,,,,,,No,,L,S,AA,Jessada Sutth
 PEN320,PEN,Enlightened Strike,Red,1,,,,,,,,,,,,,,,,,,,,No,,L,S,AA,Wisnu Tan,,,PEN320,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN320.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN321,PEN,Shelter from the Storm,Red,1,,,,,,,,,,,,,,,,,,,,No,,L,S,AA,Nathaniel Himawan,,,PEN321,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN321.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN322,PEN,Rockyard Rodeo,Blue,3,3,*,2,,,,"Generic, Action, Attack",,,,,,,,This card's {p} is equal to the highest base {p} of weapons you control.,Generic Action - Attack,,,,No,,M,,,Jefrey Yonathan,,,PEN322,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN322.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN323,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN323,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN323.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN323,PEN,High Current Currency,Blue,3,0,,3,,,,"Generic, Action",,,,,,,,Remove all energy counters from target non-hero permanent an opponent controls. Create that many Gold tokens.,Generic Action,,,,No,,M,,,Kevin Sidharta,,,PEN323,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN323.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN324,PEN,Clearwater Elixir,Red,1,1,,3,,,,"Generic, Action",,Go again,,,,,,"Your next attack this turn gets +3{p}.
 
 You may destroy a Bloodrot Pox token you control. If you do, gain 1{h}.
