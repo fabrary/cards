@@ -57,7 +57,9 @@ At the start of your turn, destroy this, then the next Guardian attack action ca
 PEN028,PEN,Rites of Earthlore,Blue,3,0,,3,,,,"Guardian, Action, Aura",,,,,,,,"When this enters the arena, create a Seismic Surge token.
 
 At the start of your turn, destroy this, then the next Guardian attack action card you play this turn gets +1{p}.",Guardian Action - Aura,,,,,,C,,,Christ Adiel Then,,,PEN028,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN028.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN029,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN029,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN029,PEN,Wind Cutter,,,,,1,,,,"Ninja, Equipment, Arms",,Blade Break,,,,,,"**Attack Reaction** - {r}, {t}: Search your deck for a Shuriken item, put it into the arena, then shuffle. Activate this only if you've hit 2 or more times this combat chain.
+
+**Blade Break**",Ninja Equipment - Arms,,,,No,,M,,,Bo Setiaji,,,PEN029,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN029.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN030,PEN,Mask of the Swarming Claw,,,,,0,,,,"Ninja, Equipment, Head",,"Arcane Barrier 1, Spellvoid X",,,,,,"**Arcane Barrier 1**
 
 **Spellvoid X**, where X is the number of chain links you control.",Ninja Equipment - Head,,,,,,R,,,Widya Wang,,,PEN030,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN030.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -70,7 +72,9 @@ PEN032,PEN,Dyed Silk Sleeves,,,,,1,,,,"Ninja, Equipment, Arms",,Blade Break,Atta
 PEN033,PEN,Two Steps Forward,,,,,1,,,,"Ninja, Equipment, Legs",,Battleworn,Instant,,,,,"**Instant** - Destroy this: Create an Agility token. Activate this only if you've hit 2 or more times this combat chain.
 
 **Battleworn**",Ninja Equipment - Legs,,,,,,R,,,Diana Tanamas,,,PEN033,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN033.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN034,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN034,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN034,PEN,Gentle Breeze,Red,1,0,3,2,,,,"Ninja, Action, Attack",,Go again,,,,,,"Your other attacks have 1 base {p}.
+
+**Go again**",Ninja Action - Attack,,,,No,,M,,,Ismatulloh,,,PEN034,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN034.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN035,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN035,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN035.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN036,PEN,Feign Vengeance,Blue,3,0,0,3,,,,"Ninja, Action, Attack",,Go again,,,,,,"When this chain link resolves, if there is a card defending this, draw a card.
 
@@ -212,7 +216,11 @@ PEN082,PEN,Bolt'n Boots,,,,,1,,,,"Ranger, Equipment, Legs",,Battleworn,Attack Re
 
 **Battleworn**",Ranger Equipment - Legs,,,,,,R,S,,Mariusz Gandzel,,,PEN082,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN082.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN083,PEN,Tiger Trap,Red,1,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,,"When this defends and the attacking hero controls 3 or more attacks with {p} greater than their base, attacks they control can't gain {p} this turn.",Ranger Defense Reaction - Trap,,,,No,,M,,,Marco González,,,PEN083,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN083.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN084,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN084,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN084,PEN,Rune Snare,Red,1,0,,2,,,,"Ranger, Action, Trap",,Go again,,,,,,"Your next arrow attack this turn gets +3{p}.
+
+**Go again**
+
+When this defends and the attacking hero has played or created 2 or more auras this turn, destroy an aura they control.",Ranger Action - Trap,,,,No,,M,,,Alexis Susani,,,PEN084,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN084.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN085,PEN,Rainbow Goo Trap,Red,1,0,,3,,,,"Ranger, Defense Reaction, Trap",,,,,,,"Dominate, Go again","When this defends an attack with {p} greater than its base, dominate, and go again, the attack gets -2{p} and loses and can't gain abilities.",Ranger Defense Reaction - Trap,,,,,,R,,,Marco Wulfr,,,PEN085,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN085.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN086,PEN,Courageous Crossing,Blue,3,0,,3,,,,"Ranger, Action, Trap",,Go again,,,,,,"Create a Courage token under target hero's control.
 
@@ -306,7 +314,7 @@ At the beginning of your action phase, destroy this.",Wizard Token - Aura,,,,,,C
 PEN121,PEN,Embody Greatness,Yellow,2,0,,,,,,"Shapeshifter, Instant",,Shiyana Specialization,,,,,,"**Shiyana Specialization**
 
 Name a living legend hero. Become that hero until the start of your next turn, except your base {h} doesn't change.",Shapeshifter Instant,,,,,,R,,,Asur Misoa,,,PEN121,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN121.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN122,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN122,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN122,PEN,Touch of Reality,,,,,,,,,"Illusionist, Equipment, Arms",,Ward X,,,,,,"**Instant** - {x}, {t}: This gets **ward X** until end of turn. Destroy this at the beginning of the end phase.",Illusionist Equipment - Arms,,,,No,,M,,,Mario Wibisono,,,PEN122,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN122.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN123,PEN,Silken Shroud,,,,,,,,,"Illusionist, Equipment, Head",,Ward 1,,,,,,"When this is destroyed, create a Ponder token.
 
 **Ward 1**",Illusionist Equipment - Head,,,,,,R,,,Thomas Ressuge,,,PEN123,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN123.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -319,8 +327,14 @@ PEN125,PEN,Silken Symphony,,,,,,,,,"Illusionist, Equipment, Arms",,Ward 1,,,,,,"
 PEN126,PEN,Silken Slippers,,,,,,,,,"Illusionist, Equipment, Legs",,Ward 1,,,,,,"When this is destroyed, create an Agility token.
 
 **Ward 1**",Illusionist Equipment - Legs,,,,,,R,,,Amirul HHF,,,PEN126,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN126.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN127,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN127,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN127.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN128,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN128,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN127,PEN,Lunar Mirage,Red,1,0,3,3,,,,"Illusionist, Action, Attack",,"Go again, Mirage",,,,,,"When an attack action card with 6 or more {p} defends this, this becomes a copy of that card.
+
+**Go again**
+
+**Mirage**",Illusionist Action - Attack,,,,No,,M,,,Asur Misoa,,,PEN127,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN127.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN128,PEN,Mind Meets Might,Red,1,3,7,3,,,,"Illusionist, Action, Attack",,Mirage,,,,,,"When this hits a hero, they reveal their hand and discard all cards with 6 or more {p}, then they draw that many cards.
+
+**Mirage**",Illusionist Action - Attack,,,,No,,M,,,Edward Chee,,,PEN128,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN128.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN129,PEN,Shimmering Mirage,Blue,3,0,,2,,,,"Illusionist, Defense Reaction",,Mirage,,,,,,"While this is defending, when this chain link resolves, banish this. You may play it this combat chain.
 
 **Mirage**",Illusionist Defense Reaction,,,,,,R,,,Nailsen Ivanderlie,,,PEN129,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN129.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -370,7 +384,9 @@ PEN141,PEN,Lobotomy,Red,1,0,3,3,,,,"Assassin, Action, Attack",,Stealth,,,,,,"**S
 When this attacks, you may equip an Orbitoclast from your inventory.
 
 When this hits a hero, if you control an Orbitoclast, they lose all hero card abilities during their next action phase.",Assassin Action - Attack,,,,No,,M,,,Arkoii,,,PEN141,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN142,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN142,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN142,PEN,Seeker Kunai,Red,1,0,,,,,,"Assassin, Instant, Item",,,,,,,,"**Attack Reaction** - {r}, destroy this: Target Assassin attack action card gets +1{p}.
+
+While this is in your graveyard, at the start of your turn, you may destroy 2 Silver you control. If you do, return this to the arena.",Assassin Instant - Item,,,,No,,M,,,Alexis Susani,,,PEN142,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN143,PEN,Mist Hunter,Red,1,0,4,3,,,,"Assassin, Action, Attack",,Contract,,,,,,"**Contract** - You are contracted to banish opponents' blue cards. Whenever you complete this contract, create a Silver token.
 
 When this hits a Mystic hero, search their deck for any number of Inner Chi and banish them. Then shuffle.",Assassin Action - Attack,,,,,,R,,,SanSan,,,PEN143,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -679,11 +695,19 @@ PEN250,PEN,Enflame the Firebrand,Red,1,0,2,3,,,,"Draconic, Ninja, Action, Attack
 PEN251,PEN,Smoldering Steel,Red,1,0,,3,,,,"Draconic, Warrior, Attack Reaction",,,,,,,,"Target dagger attack gets +1{p} and ""When this hits a hero, deal 1 damage to them.""
 
 While this is in your graveyard, if 1 or more Frostbite tokens would be created under your control, instead you may banish this.",Draconic Warrior Attack Reaction,,,,,,R,,,Marcus Reyno,,,PEN251,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN251.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN252,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN252,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN252,PEN,Dynastic Diadem,,,,,1,,,,"Draconic, Equipment, Head",,Temper,,,,,,"Fealty tokens you control can't be destroyed by opponents' effects.
+
+If you control 3 or more Fealty tokens, this gets +1{d}.
+
+**Temper**",Draconic Equipment - Head,,,,No,,M,,,Mario Wibisono,,,PEN252,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN252.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN253,PEN,Smoldering Scales,,,,,2,,,,"Draconic, Equipment, Chest",,Guardwell,,,,,,"If one or more Frostbite tokens would be created under your control, instead you may destroy this.
 
 **Guardwell**",Draconic Equipment - Chest,,,,,,R,,,Thomas Ressuge,,,PEN253,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN253.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN254,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN254,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN254.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN254,PEN,Art of the Phoenix: War,Red,1,1,,,,,,"Draconic, Instant",,,,,,,,"As an additional cost to play this, discard a Phoenix Flame.
+
+Draconic attack action cards you control get +1{p} this turn.
+
+Draw 2 card.",Draconic Instant,,,,No,,M,,,Cacho Rubione,,,PEN254,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN254.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN255,PEN,Fire that Burns Within,Red,1,1,2,2,,,,"Draconic, Action, Attack",,Go again,,,,,,"When this attacks, you may discard a Phoenix Flame. If you do, draw a card and this gets +2{p}.
 
 **Go again**",Draconic Action - Attack,,,,,,R,,,Tomasz Jedruszek,,,PEN255,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN255.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -736,7 +760,7 @@ PEN266,PEN,Kimono of Layered Lessons,,,,,1,,,,"Mystic, Equipment, Chest",,Cloake
 **Instant** - {c}{c}{c}, turn this face-up: Put a +1{d} counter on this.
 
 At the start of your turn, destroy this.",Mystic Equipment - Chest,,,,,,R,,,Bramasta Aji,,,PEN266,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN266.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN267,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN267,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN267.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN267,PEN,Whispering Mist,Blue,3,0,,,,,,"Mystic, Instant",,,,,,,,"Until end of turn, blue attacks and attacks with ephemeral get +1{p}.",Mystic Instant,,,,No,,M,,,Tanapon Wachirakul,,,PEN267,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN267.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN268,PEN,Recede to Mistform,Blue,3,X,,,,,,"Mystic, Instant",,,,,,,Cloaked,Choose X equipment with cloaked you have equipped. Turn them face-down.,Mystic Instant,,,,,,R,,,Mario Wibisono,,,PEN268,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN268.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN269,PEN,Fluid Motion,Blue,3,0,2,3,,,,"Mystic, Action, Attack",,Go again,,,,,,"If you've created a card this turn, this gets **go again**.",Mystic Action - Attack,,,,,,C,,,Faizal Fikri,,,PEN269,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN269.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN270,PEN,Manifest Muscle,Blue,3,3,5,3,,,,"Mystic, Action, Attack",,,,,,,,"If you've created a card this turn, this gets +1{p}.",Mystic Action - Attack,,,,,,C,,,Faizal Fikri,,,PEN270,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN270.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
