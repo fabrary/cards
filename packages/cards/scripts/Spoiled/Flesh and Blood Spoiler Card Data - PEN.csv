@@ -780,7 +780,11 @@ PEN274,PEN,Spreading Mist,Blue,3,0,,2,,,,"Mystic, Action",,Go again,,,Go again,,
 The next time you would create a card with ephemeral this turn, instead create that many plus 1.
 
 **Go again**",Mystic Action,,,,,,C,,,Rio Sabda,,,PEN274,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN274.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN275,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN275,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN275.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN275,PEN,Havoc Wrap,,,,,1,,,,"Chaos, Equipment, Chest",,"Go again, Battleworn",,,,,,"**Action** - {t}: **Go again**
+
+If this is tapped, cards cost {r} less to play, this doesn't untap during the end phase, and this gets ""At the start of your turn, destroy this.""
+
+**Battleworn**",Chaos Equipment - Chest,,,,No,,M,,,Saad Irfan,,,PEN275,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN275.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN276,PEN,Topsy Turvy,,,,,0,,,,"Chaos, Equipment, Head",,Arcane Barrier 1,,,,,,"**Instant** - Destroy this: Until end of turn, if one or more cards would be put on top of a deck, instead they're put on the bottom.
 
 **Arcane Barrier 1**",Chaos Equipment - Head,,,,,,R,,,Carlos Cruchaga,,,PEN276,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN276.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
