@@ -34,7 +34,11 @@ PEN018,PEN,Volcanic Vice,,,,,0,,,,"Guardian, Equipment, Arms",,Spellvoid 3,,,,,,
 PEN019,PEN,Basalt Boots,,,,,1,,,,"Guardian, Equipment, Legs",,Temper,,,,,,"If you control a Seismic Surge token, this gets +1{d}.
 
 **Temper**",Guardian Equipment - Legs,,,,,,R,,,Federico Musetti,,,PEN019,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN019.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN020,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN020,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN020,PEN,Seismic Shift,Red,1,0,,3,,,,"Guardian, Action",,Go again,,,,,,"As an additional cost to play this, {t} X Seismic Surge tokens you control.
+
+Destroy X target aura tokens.
+
+**Go again**",Guardian Action,,,,No,,M,,,Pavel Rtishchev (Klaher),,,PEN020,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN020.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN021,PEN,Sense Weakness,Blue,3,3,,3,,,,"Guardian, Action",,Go again,,,Dominate,,,"Your next Guardian attack this turn gets +1{p}, **dominate**, and ""When this hits a hero, deal damage to all allies they control equal to the damage dealt this way.""
 
 **Go again**",Guardian Action,,,,No,,M,,,Ausonia,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021.png,,,M,R,EA,Ausonia,,,PEN021,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN021-RF.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -99,7 +103,9 @@ PEN041,PEN,Become the Cup,Yellow,2,0,2,2,,,,"Ninja, Action, Attack",,Go again,,,
 PEN042,PEN,Become the Cup,Blue,3,0,1,2,,,,"Ninja, Action, Attack",,Go again,,,,,,"As you play this, choose a color. This gets the chosen color.
 
 **Go again**",Ninja Action - Attack,,,,,,C,,,Stormy Elia Fanggidae,,,PEN042,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN042.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN043,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN043,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN043.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN043,PEN,Templar Spellbane,,,,,1,,,,"Warrior, Equipment, Head",,Battleworn,,,,,,"**Instant** - Destroy this: Prevent the next 1 arcane damage that would be dealt to you this turn. If you've activated a weapon this turn, instead prevent the next 2.
+
+**Battleworn**",Warrior Equipment - Head,,,,No,,M,,,Olga Tereshenko,,,PEN043,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN043.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN044,PEN,Helm of Unity,,,,,1,,,,"Warrior, Equipment, Head",,"Unity, Temper",,,,,,"**Unity** - When this defends together with a card from hand, this gets +1{d} until end of turn.
 
 **Temper**",Warrior Equipment - Head,,,,,,R,,,Brian Madya Narendra,,,PEN044,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN044.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -204,7 +210,9 @@ PEN074,PEN,Heavy Metal Hardcore,Blue,3,0,1,3,,,,"Mechanologist, Action, Attack",
 PEN075,PEN,Heart Wrencher,Red,1,0,3,3,,,,"Mechanologist, Action, Wrench, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Wrench Attack,,,,,,C,,,Vincent Taslim,,,PEN075,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN075.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN076,PEN,Heart Wrencher,Yellow,2,0,2,3,,,,"Mechanologist, Action, Wrench, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Wrench Attack,,,,,,C,,,Vincent Taslim,,,PEN076,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN076.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN077,PEN,Heart Wrencher,Blue,3,0,1,3,,,,"Mechanologist, Action, Wrench, Attack",,Boost,,,,,,**Boost**,Mechanologist Action - Wrench Attack,,,,,,C,,,Vincent Taslim,,,PEN077,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN077.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN078,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN078,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN078.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN078,PEN,Farflight Longbow,,,,,,,,,"Ranger, Weapon, Bow, 2H",,,,,,,,"**Instant** - {r}, {t}: Put an arrow from your hand face-up into your arsenal.
+
+Your arrow attacks may target any opposing hero or ally.",Ranger Weapon - Bow (2H),,,,No,,M,,,Carlos Cruchaga,,,PEN078,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN078.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN079,PEN,Concealed Nerve Gas,,,,,,,,,"Ranger, Equipment, Chest, Trap",,Cloaked,,,,,,"**Cloaked**
 
 While this is equipped face-down, when an attack with go again hits you, destroy this and create a Frailty token under each opponent's control.",Ranger Equipment - Chest Trap,,,,,,R,,,Firaz M. Rasyid,,,PEN079,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN079.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -270,7 +278,11 @@ PEN096,PEN,Blackstone Greaves,,,,,1,,,,"Runeblade, Equipment, Legs",,Temper,,,,,
 PEN097,PEN,Doomsaying,Red,1,0,,3,,,,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
 
 At the beginning of your end phase, put a doom counter on this, then each hero destroys X auras they control, where X is the number of doom counters on this.",Runeblade Action - Aura,,,,No,,M,,,Nathaniel Himawan,,,PEN097,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN097.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN098,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN098,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN098,PEN,Sigil of Gravespawning,Blue,3,1,,3,,,,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
+
+Whenever an aura leaves your graveyard, deal 1 arcane damage to target hero.
+
+At the beginning of your action phase, destroy this.",Runeblade Action - Aura,,,,No,,M,,,Saad Irfan,,,PEN098,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN098.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN099,PEN,Sigil of Silphidae,Blue,3,0,,3,,,1,"Runeblade, Action, Aura",,Go again,,,,,,"**Go again**
 
 When this enters or leaves the arena, you may banish another aura from your graveyard. If you do, deal 1 arcane damage to target hero.
@@ -296,7 +308,7 @@ PEN109,PEN,Gloves of Erasure,,,,,0,,,,"Wizard, Equipment, Arms",,Blade Break,,,,
 **Blade Break**",Wizard Equipment - Arms,,,,,,R,,,Saad Irfan,,,PEN109,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN109.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN110,PEN,Aetherstorm Wellingtons,,,,,0,,,,"Wizard, Equipment, Legs",,Arcane Barrier 2,,,,,,**Arcane Barrier 2**,Wizard Equipment - Legs,,,,,,R,,,Mateusz Wiśniewski,,,PEN110,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN110.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN111,PEN,Glyph Destruction Nodes,Yellow,2,0,,3,,,3,"Wizard, Action",,,,,,,,"Deal 3 arcane damage to up to X target heroes and/or allies, where X is the number of aura permanents you control with Sigil in their name.",Wizard Action,,,,No,,M,,,Faizal Fikri,,,PEN111,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN111.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN112,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN112,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN112,PEN,Temporal Wobble,Red,1,0,,,,,,"Wizard, Instant",,Negate,,,,,,**Negate** target non-attack action card with cost less than the number of aura permanents you control with Sigil in their name. Its controller gains 1 action point.,Wizard Instant,,,,No,,M,,,Narendra B Adi,,,PEN112,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN112.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN113,PEN,Glyph Power Spell,Red,1,2,,3,,,4,"Wizard, Action",,,,,,,,"Deal 4 arcane damage to any target. If you control a card with Sigil in its name, instead deal 6 arcane damage.",Wizard Action,,,,,,R,,,Olga Tereshenko,,,PEN113,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN113.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN114,PEN,Painful Premonition,Red,1,0,,3,,,3,"Wizard, Action",,,,,,,,"Deal 3 arcane damage to any target.
 
@@ -455,7 +467,9 @@ PEN164,PEN,Tentacular Toll,Blue,3,0,,3,,,,"Pirate, Necromancer, Action",,Go agai
 **Go again**",Pirate Necromancer Action,,,,,,C,,,Kyxarie Peralta,,,PEN164,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN165,PEN,Skywarden no.161803,Yellow,2,0,3,3,,,,"Pirate, Mechanologist, Action, Attack",,Galvanize,,,,,,"**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token.",Pirate Mechanologist Action - Attack,,,,,,R,,,寿多浩 (Hiro Suda),,,PEN165,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN166,PEN,Shallow Water Shark Harpoon,Yellow,2,2,5,3,,,,"Pirate, Ranger, Action, Arrow, Attack",,,,,,,,"If you've activated a cannon this turn, this gets ""When this hits a hero, destroy a card in their arsenal. If you do, create a Gold token.""",Pirate Ranger Action - Arrow Attack,,,,,,R,,,Andi Cahyo W,,,PEN166,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN166.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN167,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN167,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN167.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN167,PEN,Gloves of Azure Waves,,,,,0,,,,"Pirate, Equipment, Arms",,"Arcane Barrier 1, High Tide, Blade Break",,,,,,"**Arcane Barrier 1**
+
+**High Tide** - If there are 2 or more blue cards in your pitch zone, this gets +3{d} and **blade break**.",Pirate Equipment - Arms,,,,No,,M,,,Nadia Suryani,,,PEN167,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN167.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN168,PEN,Trench of Watery Depths,,,,,1,,,,"Pirate, Equipment, Chest",,Blade Break,,,,,,"When this defends, you may pitch a blue card from your graveyard.
 
 **Blade Break**",Pirate Equipment - Chest,,,,,,R,S,,Stormy Elia Fanggidae,,,PEN168,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN168.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -756,7 +770,12 @@ If you choose both, search your deck for an Inner Chi, reveal it, shuffle, then 
 PEN264,PEN,Shapeless Form,Blue,3,0,1,2,,,,"Mystic, Ninja, Action, Attack",,Go again,,,,,Ephemeral,"Whenever you play an attack action card with ephemeral, choose a name. It gets the chosen name.
 
 **Go again**",Mystic Ninja Action - Attack,,,,,,R,,,Carlos Cruchaga,,,PEN264,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN264.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN265,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN265,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN265.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN265,PEN,Rippling Wave,,,,,3,,,,"Mystic, Equipment, Arms",,"Cloaked, Blade Break",,,,,,"Choose 1 or both;
+
+- Put a +1{p} counter on target blue aura you control.
+- Put a +1{p} counter on target aura with ward you control.
+
+If you choose both, search your deck for an Inner Chi, reveal it, shuffle, then put it on top of your deck.",Mystic Equipment - Arms,,,,No,,M,,,soyameii,,,PEN265,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN265.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN266,PEN,Kimono of Layered Lessons,,,,,1,,,,"Mystic, Equipment, Chest",,Cloaked,Instant,,,,,"**Cloaked**
 
 **Instant** - {c}{c}{c}, turn this face-up: Put a +1{d} counter on this.
@@ -806,7 +825,9 @@ PEN284,PEN,Hyper Inflation,Blue,3,0,4,3,,,,"Chaos, Action, Attack",,Go again,,,,
 **Go again**",Chaos Action - Attack,,,,,,C,,,Grégory Nunkovics,,,PEN284,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN284.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN285,PEN,Tough as a Rok,Blue,3,3,*,3,,,,"Revered, Brute, Action, Attack",,,,,,,,"If you have less {h} than each other hero, this card's base {p} is 6, otherwise it's 0.",Revered Brute Action - Attack,,,,,,R,,,Henrique Lindner,,,PEN285,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN285.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN286,PEN,Energy of the Audience,Yellow,2,3,6,3,,,,"Revered, Guardian, Action, Attack",,,,,,,,"If you have less {h} than each other hero, this gets +1{p} for each aura of suspense you control.",Revered Guardian Action - Attack,,,,,,R,,,Brian Adriel,,,PEN286,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN286.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN287,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN287,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN287.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN287,PEN,Glory Plate,,,,,0,,,,"Revered, Equipment, Chest",,Guardwell,,,,,,"This gets +1{d} for each Toughness token that has left the arena this turn.
+
+**Guardwell**",Revered Equipment - Chest,,,,No,,M,,,Kimberly Pantoni,,,PEN287,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN287.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN288,PEN,Comeback Kicks,,,,,1,,,,"Revered, Equipment, Legs",,Battleworn,,,,,The Crowd Cheers,"Whenever the crowd cheers you, if you have less {h} than each other hero, you may destroy this. If you do, gain 1 action point.
 
 **Battleworn**",Revered Equipment - Legs,,,,,,R,S,,Jackson Tjota,,,PEN288,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN288.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -861,7 +882,9 @@ PEN310,PEN,Crown of Providence,,,,,,,,,,,,,,,,,,,,,,No,,L,S,AA,Dominik Mayer,,,P
 PEN311,PEN,Fyendal's Spring Tunic,,,,,,,,,,,,,,,,,,,,,,No,,L,S,AA,Lius Lasahido,,,PEN311,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN311.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN312,PEN,Stonewall Gauntlet,,,,,,,,,,,,,,,,,,,,,,No,,L,S,AA,Carlos Cruchaga,,,PEN312,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN312.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN313,PEN,Quickdodge Flexors,,,,,,,,,,,,,,,,,,,,,,No,,L,,AA,Fajareka Setiawan,,,PEN313,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN313.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN314,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN314,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN314.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN314,PEN,Helm of Safe Haven,,,,,2,,,,"Generic, Equipment, Head",,Blade Break,,,,,,"When this defends, reveal the top card of your deck. If it's an attack action card, add it to this chain link as a defending card and discard a card.
+
+**Blade Break**",Generic Equipment - Head,,,,No,,M,,,Henrique Lindner,,,PEN314,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN314.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN315,PEN,Myrkhellir Helm,,,,,1,,,,"Generic, Equipment, Head",,Temper,Action,Go again,,,,"If you control a Gold, this gets +1{d}.
 
 **Action** - {r}{r}, destroy this: The next time you would draw a card from a Gold token this turn, instead draw 2 cards. **Go again**
@@ -912,18 +935,18 @@ PEN330,PEN,Shatter Sorcery,Blue,3,0,,,,,,"Generic, Instant",,,,,,,,"Choose 1 or 
 PEN331,PEN,Drag Down,Red,1,0,,0,,,,"Generic, Defense Reaction",,,,,,,,"When this defends an attack, it gets -3{p}.",Generic Defense Reaction,,,,,,C,,,Jen Santos,,,PEN331,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN331.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN332,PEN,Drag Down,Yellow,2,0,,0,,,,"Generic, Defense Reaction",,,,,,,,"When this defends an attack, it gets -2{p}.",Generic Defense Reaction,,,,,,C,,,Jen Santos,,,PEN332,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN332.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 PEN333,PEN,Drag Down,Blue,3,0,,0,,,,"Generic, Defense Reaction",,,,,,,,"When this defends an attack, it gets -1{p}.",Generic Defense Reaction,,,,,,C,,,Jen Santos,,,PEN333,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN333.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN334,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN334,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN334.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN335,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN335,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN335.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN336,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN336,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN336.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN337,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN337,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN337.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN338,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN338,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN338.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN339,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN339,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN339.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN340,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN340,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN340.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN341,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN341,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN341.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN342,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN342,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN342.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN343,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN343,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN343.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN344,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN344,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN344.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN345,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN345,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN345.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN346,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN346,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN346.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN347,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN347,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN347.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-PEN348,PEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,PEN348,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN348.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN334,PEN,Rhinar,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN334,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN334.png,,,V,C,FA,,,,PEN334,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN334_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN335,PEN,"Benji, the Piercing Wind",,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN335,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN335.png,,,V,C,FA,,,,PEN335,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN335_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN336,PEN,"Kassai, Cintari Sellsword",,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN336,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN336.png,,,V,C,FA,,,,PEN336,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN336_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN337,PEN,"Dash, Database",,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN337,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN337.png,,,V,C,FA,,,,PEN337,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN337_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN338,PEN,Dash,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN338,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN338.png,,,V,C,FA,,,,PEN338,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN338_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN339,PEN,Teklovossen,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN339,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN339.png,,,V,C,FA,,,,PEN339,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN339_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN340,PEN,Azalea,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN340,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN340.png,,,V,C,FA,,,,PEN340,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN340_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN341,PEN,Riptide,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN341,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN341.png,,,V,C,FA,,,,PEN341,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN341_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN342,PEN,Kano,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN342,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN342.png,,,V,C,FA,,,,PEN342,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN342_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN343,PEN,Prism,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN343,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN343.png,,,V,C,FA,,,,PEN343,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN343_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN344,PEN,Chane,,,,,,,,,,,,,,,,,,,,,,No,,V,C,FA,,,,PEN344,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN344.png,,,V,C,FA,,,,PEN344,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN344_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN345,PEN,Oldhim,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN345,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN345.png,,,V,C,FA,,,,PEN345,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN345_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN346,PEN,Lexi,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN346,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN346.png,,,V,C,FA,,,,PEN346,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN346_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN347,PEN,Dromai,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN347,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN347.png,,,V,C,FA,,,,PEN347,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN347_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+PEN348,PEN,Fai,,,,,,,,,,,,,,,,,,,,,,,,V,C,FA,,,,PEN348,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN348.png,,,V,C,FA,,,,PEN348,https://storage.googleapis.com/fabmaster/cardfaces/2026-PEN/EN/PEN348_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

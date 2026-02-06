@@ -7031,6 +7031,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/farflight-longbow</loc>
+    <lastmod>2026-02-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/fast-and-furious-red</loc>
     <lastmod>2024-08-23</lastmod>
     <priority>0.5</priority>
@@ -8346,8 +8351,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/glory-plate</loc>
+    <lastmod>2026-02-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/glory-seeker</loc>
     <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/gloves-of-azure-waves</loc>
+    <lastmod>2026-02-05</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9208,6 +9223,11 @@
   <url>
     <loc>https://fabrary.net/cards/helm-of-might-and-magic</loc>
     <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/helm-of-safe-haven</loc>
+    <lastmod>2026-02-05</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -15546,6 +15566,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/rippling-wave</loc>
+    <lastmod>2026-02-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/riptide</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -16856,6 +16881,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/seismic-shift-red</loc>
+    <lastmod>2026-02-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/seismic-stir-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -17323,6 +17353,11 @@
   <url>
     <loc>https://fabrary.net/cards/sigil-of-fyendal-blue</loc>
     <lastmod>2024-08-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/sigil-of-gravespawning-blue</loc>
+    <lastmod>2026-02-05</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -19948,6 +19983,16 @@
   <url>
     <loc>https://fabrary.net/cards/tempest-palm-gustwave-yellow</loc>
     <lastmod>2025-09-11</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/templar-spellbane</loc>
+    <lastmod>2026-02-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/temporal-wobble-red</loc>
+    <lastmod>2026-02-05</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
