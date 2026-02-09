@@ -115,7 +115,7 @@ const getTCGplayerInfo = (
     treatmentStrings,
     tcgplayerProductId,
     tcgplayerUrl,
-  }: PrintingInput
+  }: PrintingInput,
 ): TCGplayer | undefined => {
   let tcgplayer: TCGplayer | undefined;
 
@@ -163,7 +163,7 @@ const getTCGplayerInfo = (
             sameTreatment &&
             tcgplayerInfoFormattedCorrectly
           );
-        }
+        },
       );
 
       if (
@@ -233,13 +233,13 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
       .replace(".width-450", "")
       .replace("_yajPa8R", "");
 
-    const shouldRemoveRFandCF = treatments.length === 0;
-    if (shouldRemoveRFandCF) {
-      parsedUrl = parsedUrl.replace("-RF", "").replace("-CF", "");
-    }
+    // const shouldRemoveRFandCF = treatments.length === 0;
+    // if (shouldRemoveRFandCF) {
+    //   parsedUrl = parsedUrl.replace("-RF", "").replace("-CF", "");
+    // }
     image = parsedUrl.substring(
       parsedUrl.lastIndexOf("/") + 1,
-      parsedUrl.lastIndexOf(".")
+      parsedUrl.lastIndexOf("."),
     );
   } else {
     // image = identifier;
@@ -493,7 +493,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     ].includes(rarity);
     const isEquipment = types.includes(Type.Equipment);
     const isNotReprint = !releasedCards.find(
-      (released) => released.cardIdentifier === cardIdentifier
+      (released) => released.cardIdentifier === cardIdentifier,
     );
 
     const shouldAddRainbowPrinting =
@@ -530,8 +530,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const identifierFor2 = identifier2
       ? identifier2
       : identifiers.length > 1
-      ? identifiers[1]
-      : identifiers[0];
+        ? identifiers[1]
+        : identifiers[0];
     const setIdentifier = identifierFor2.slice(0, 3);
     const printing2 = getPrinting(card, {
       artists: artists2,
@@ -556,8 +556,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const identifierFor3 = identifier3
       ? identifier3
       : identifiers.length > 2
-      ? identifiers[2]
-      : identifiers[0];
+        ? identifiers[2]
+        : identifiers[0];
     const setIdentifier = identifierFor3.slice(0, 3);
     const printing3 = getPrinting(card, {
       artists: artists3,
@@ -584,8 +584,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const identifierFor4 = identifier4
       ? identifier4
       : identifiers.length > 3
-      ? identifiers[3]
-      : identifiers[0];
+        ? identifiers[3]
+        : identifiers[0];
     const setIdentifier = identifierFor4.slice(0, 3);
     const printing4 = getPrinting(card, {
       artists: artists4,
@@ -611,8 +611,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const identifierFor5 = identifier5
       ? identifier5
       : identifiers.length > 4
-      ? identifiers[4]
-      : identifiers[0];
+        ? identifiers[4]
+        : identifiers[0];
     const setIdentifier = identifierFor5.slice(0, 3);
     const printing5 = getPrinting(card, {
       artists: artists5,
@@ -639,8 +639,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const identifierFor6 = identifier6
       ? identifier6
       : identifiers.length > 5
-      ? identifiers[5]
-      : identifiers[0];
+        ? identifiers[5]
+        : identifiers[0];
     const setIdentifier = identifierFor6.slice(0, 3);
     const printing6 = getPrinting(card, {
       artists: artists6,
@@ -721,7 +721,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
           }
         }
       }
-    }
+    },
   );
 
   keywords.sort();
@@ -729,7 +729,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
 };
 
 export const getParsedRarities = (
-  card: ParsedCard
+  card: ParsedCard,
 ): { rarities: Rarity[]; rarity: Rarity } => {
   const { rarity, rarity2, rarity3, rarity4 } = card;
 
@@ -754,7 +754,7 @@ const getBannedFormats = (card: ParsedCard): Format[] => {
 
 const getSets = (
   { setIdentifiers }: ParsedCard,
-  printings: Printing[]
+  printings: Printing[],
 ): Release[] => {
   const sets = new Set<Release>();
   for (const setIdentifier of setIdentifiers) {
@@ -833,7 +833,7 @@ const getCardData = (card: ParsedCard): Card => {
     classes,
     defaultImage: getDefaultPrinting(
       { name: card.name, cardIdentifier },
-      printings
+      printings,
     )?.image,
     legalFormats: getLegalFormats(
       bannedFormats,
@@ -843,7 +843,7 @@ const getCardData = (card: ParsedCard): Card => {
       rarities,
       sets,
       subtypes,
-      types
+      types,
     ),
     legalHeroes: [],
     // legalHeroes: getLegalHeroes({
@@ -868,7 +868,7 @@ const getCardData = (card: ParsedCard): Card => {
     sets,
     specialImage: getSpecialPrinting(
       { name: card.name, cardIdentifier },
-      printings
+      printings,
     )?.image,
     subtypes,
     types,

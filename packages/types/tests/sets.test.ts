@@ -16,19 +16,20 @@ describe("Check for set identifiers", () => {
 const RELEASES_TO_EXCLUDE = [
   Release.GEM,
   Release.Promos,
+  Release.TournamentPack,
   Release.BravoHeroDeck,
   Release.RhinarHeroDeck,
   Release.KatsuHeroDeck,
   Release.DorintheaHeroDeck,
 ];
 const RELEASES_WITH_INFO = Object.values(Release).filter(
-  (release) => !RELEASES_TO_EXCLUDE.includes(release)
+  (release) => !RELEASES_TO_EXCLUDE.includes(release),
 );
 
 describe("Completeness of set data", () => {
   it.each(RELEASES_WITH_INFO)("%s has complete set data", (release) => {
     const releaseInfo = releases.find(
-      (releaseInfo) => releaseInfo.release === release
+      (releaseInfo) => releaseInfo.release === release,
     );
     expect(releaseInfo).toBeTruthy();
 

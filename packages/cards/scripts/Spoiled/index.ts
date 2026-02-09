@@ -21,6 +21,7 @@ const spoiledSetCardsFilePEN = `${__dirname}/Flesh and Blood Spoiler Card Data -
 const spoiledSetCardsFileSAGE = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
 const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
+const spoiledTournamentPackCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - TNP.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
 const parsedOverrideCards = parseCSV(overrideCardsFile)
@@ -47,7 +48,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   .filter((card) => {
     const matchingOverride = parsedOverrideCards.some(
       (overrideCard) =>
-        card.name === overrideCard.name && card.pitch === overrideCard.pitch
+        card.name === overrideCard.name && card.pitch === overrideCard.pitch,
     );
     return !matchingOverride;
   });
@@ -56,13 +57,14 @@ const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 const parsedSpoiledPromoAndGemCards = [
   ...parseCSV(spoiledPromoCardsFile),
   ...parseCSV(spoiledGEMCardsFile),
+  ...parseCSV(spoiledTournamentPackCardsFile),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
   .filter((card) => {
     const matchingOverride = parsedOverrideCards.some(
       (overrideCard) =>
-        card.name === overrideCard.name && card.pitch === overrideCard.pitch
+        card.name === overrideCard.name && card.pitch === overrideCard.pitch,
     );
     return !matchingOverride;
   });
@@ -72,7 +74,7 @@ const deduplicatedCards: Card[] = [...overrideCards];
 
 spoiledSetCards.forEach((card) => {
   const duplicate = deduplicatedCards.find(
-    ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier
+    ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier,
   );
   if (duplicate) {
     // console.debug(
@@ -81,13 +83,13 @@ spoiledSetCards.forEach((card) => {
     // );
 
     const artists = Array.from(
-      new Set([...duplicate.artists, ...card.artists])
+      new Set([...duplicate.artists, ...card.artists]),
     ).sort();
     const deduplicatedPrintings = [...duplicate.printings];
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
         (deduplicatedPrinting) =>
-          getPrint(deduplicatedPrinting) === getPrint(printing)
+          getPrint(deduplicatedPrinting) === getPrint(printing),
       );
       if (!duplicate) {
         deduplicatedPrintings.push(printing);
@@ -98,11 +100,11 @@ spoiledSetCards.forEach((card) => {
     const defaultImage = getDefaultPrinting(card, deduplicatedPrintings)?.image;
     const specialImage = getSpecialPrinting(card, deduplicatedPrintings)?.image;
     const rarities = Array.from(
-      new Set([...duplicate.rarities, ...card.rarities])
+      new Set([...duplicate.rarities, ...card.rarities]),
     ).sort();
     const restrictedFormats = duplicate.restrictedFormats;
     const setIdentifiers = Array.from(
-      new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
+      new Set([...duplicate.setIdentifiers, ...card.setIdentifiers]),
     ).sort();
     const sets = Array.from(new Set([...duplicate.sets, ...card.sets])).sort();
 
@@ -125,7 +127,7 @@ spoiledSetCards.forEach((card) => {
 
 spoiledPromoCards.forEach((card) => {
   const duplicate = deduplicatedCards.find(
-    ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier
+    ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier,
   );
   if (duplicate) {
     // console.debug(
@@ -134,13 +136,13 @@ spoiledPromoCards.forEach((card) => {
     // );
 
     const artists = Array.from(
-      new Set([...duplicate.artists, ...card.artists])
+      new Set([...duplicate.artists, ...card.artists]),
     ).sort();
     const deduplicatedPrintings = [...duplicate.printings];
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
         (deduplicatedPrinting) =>
-          getPrint(deduplicatedPrinting) === getPrint(printing)
+          getPrint(deduplicatedPrinting) === getPrint(printing),
       );
       if (!duplicate) {
         deduplicatedPrintings.push(printing);
@@ -150,11 +152,11 @@ spoiledPromoCards.forEach((card) => {
     const defaultImage = getDefaultPrinting(card, deduplicatedPrintings).image;
     const specialImage = getSpecialPrinting(card, deduplicatedPrintings).image;
     const rarities = Array.from(
-      new Set([...duplicate.rarities, ...card.rarities])
+      new Set([...duplicate.rarities, ...card.rarities]),
     ).sort();
     const restrictedFormats = duplicate.restrictedFormats;
     const setIdentifiers = Array.from(
-      new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
+      new Set([...duplicate.setIdentifiers, ...card.setIdentifiers]),
     ).sort();
     const sets = Array.from(new Set([...duplicate.sets, ...card.sets])).sort();
 

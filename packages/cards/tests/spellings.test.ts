@@ -1,16 +1,13 @@
 import { cards } from "../dist/index";
 import { fabDictionary, fabDictionaryIgnore } from "./spelling-additions";
-import {
-  fabDictionary as fabDictionaryLocal,
-  fabDictionaryIgnore as fabDictionaryIgnoreLocal,
-} from "./spelling-additions-local";
+// import { fabDictionary, fabDictionaryIgnore } from "./spelling-additions-local";
 
 const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`|~]/g;
 
 const Typo = require("typo-js");
 
 const dictionary = new Typo("en_US");
-for (const word of fabDictionaryLocal) {
+for (const word of fabDictionary) {
   dictionary.dictionaryTable[word] = null;
 }
 
@@ -32,7 +29,7 @@ describe("Card names are spelled correctly", () => {
   }
   it.each(parts)("[$name] $part ($suggested)", ({ part }) => {
     const isSpelledCorrectly =
-      fabDictionaryIgnoreLocal.includes(part.toLowerCase()) ||
+      fabDictionaryIgnore.includes(part.toLowerCase()) ||
       dictionary.check(part);
 
     expect(isSpelledCorrectly).toEqual(true);

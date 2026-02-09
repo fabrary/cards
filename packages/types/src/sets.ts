@@ -1914,6 +1914,9 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   // GEM packs
   gem: Release.GEM,
 
+  // Tournament packs
+  tnp: Release.TournamentPack,
+
   // Promos
   anq: Release.Promos,
   fab: Release.Promos,

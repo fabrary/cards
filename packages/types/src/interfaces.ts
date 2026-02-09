@@ -280,6 +280,7 @@ export enum Release {
   // One-offs
   GEM = "GEM",
   Promos = "Promos",
+  TournamentPack = "Tournament Pack",
 }
 
 export enum ReleaseEdition {
