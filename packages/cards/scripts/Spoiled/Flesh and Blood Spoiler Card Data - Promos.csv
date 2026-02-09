@@ -46,7 +46,7 @@ LGS444,"LGS,PEN",Ghost Protocol: Architect,Red,1,0,1,3,,,,"Mechanologist, Action
 
 **Evo Upgrade** - When this attacks, search your deck for an Evo with cost less than or equal to the number of Evos you have equipped, banish it, then shuffle.",Mechanologist Action - Attack,,,,No,No,No,P,C,FA,Jessada Sutthi,,,LGS444,/LGS444.png,,,,,,,,,,,,,,,,,,,
 LGS445,LGS,Bittering Thorns,Red,1,,,,,,,,,,,,,,,,,,,,,,,P,R,EA,Maerel Hibadita,,,LGS445,/LGS445.png,,,,,,,,,,,,,,,,,,,
-LGS432,LGS,Groundbreaker Crix,,,,,,,,,,,,,,,,,,,,No,No,No,No,No,P,C,FA,,,,LGS432,/LGS432.png,,,,,,,,,,,,,,,,,,,
+HER155,HER,Groundbreaker Crix,,,,,,,,,,,,,,,,,,,,No,No,No,No,No,P,C,FA,,,,HER155,/HER155-MV.png,,,P,C,FA,,,,HER155,/HER155-MV_BACK.png,,,,,,,,,
 LGS433,LGS,Booze!,Blue,3,,,,,,,,,,,,,,,,,,,,,,,P,C,EA,,,,LGS433,/LGS433.png,,,,,,,,,,,,,,,,,,,
 LGS434,LGS,Cheers!,Blue,3,,,,,,,,,,,,,,,,,,,,,,,P,C,EA,,,,LGS434,/LGS434.png,,,,,,,,,,,,,,,,,,,
 LGS435,LGS,Act of Glory,Red,1,,,,,,,,,,,,,,,,,,,,,,,P,C,EA,,,,LGS435,/LGS435.png,,,,,,,,,,,,,,,,,,,
@@ -65,7 +65,7 @@ LGS431,LGS,In the Palm of Your Hand,Red,1,,,,,,,,,,,,,,,,,,,,,,,P,C,EA,,,,LGS431
 FAB393,FAB,Bait,,,,,,,,,,,,,,,,,,,,,,,,,P,C,FA,,,,FAB393,/FAB393.png,,,,,,,,,,,,,,,,,,,
 FAB394,FAB,Confidence,,,,,,,,,,,,,,,,,,,,,,,,,P,C,FA,,,,FAB394,/FAB394.png,,,,,,,,,,,,,,,,,,,
 FAB395,FAB,Toughness,,,,,,,,,,,,,,,,,,,,,,,,,P,C,FA,,,,FAB395,/FAB395.png,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,/.png,,,,,,,,,,,,,,,,,,,
+LGS432,LGS,Twin Drive,Red,1,,,,,,,,,,,,,,,,,,,,,,,P,R,"EA, AA",寿多 浩 (Hiro Suda),,,LGS432,/LGS432.png,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,/.png,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,/.png,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,/.png,,,,,,,,,,,,,,,,,,,
