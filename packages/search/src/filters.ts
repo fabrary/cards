@@ -375,7 +375,7 @@ const punctuationOverrides = [
     text: Release.ClassicBattlesRhinarDorinthea.toLowerCase(),
     override: Release.ClassicBattlesRhinarDorinthea.toLowerCase().replaceAll(
       PUNCTUATION,
-      ""
+      "",
     ),
   },
 ];
@@ -438,13 +438,14 @@ export const getKeywordsAndAppliedFiltersFromText = (
   text: string,
   cards: Card[],
   additionalHeroes: Hero[] = [],
-  additionalSets: Release[] = []
+  additionalSets: Release[] = [],
 ): {
   appliedFilters: AppliedFilter[];
   attributes: {
     artists: string[];
     foilings: Foiling[];
     isExpansionSlot: boolean;
+    prints: string[];
     rarities: Rarity[];
     releases: Release[];
     treatments: Treatment[];
@@ -464,7 +465,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   }
 
   for (const [set, setIdentifiers] of Object.entries(
-    setToSetIdentifierMappings
+    setToSetIdentifierMappings,
   )) {
     if (expandedText.includes(set.toLowerCase())) {
       expandedText = expandedText.replace(set.toLowerCase(), setIdentifiers[0]);
@@ -476,7 +477,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   const searchCriteria: string[] = [];
   for (const criteria of rawSearchCriteria) {
     const expanded = singleWordShorthands.find(({ shorthands }) =>
-      shorthands.includes(criteria)
+      shorthands.includes(criteria),
     );
     if (expanded && !expanded.isCardProperty) {
       // Don't do anything special if it's a card property because it will be handled by the fuzzy search
@@ -491,6 +492,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   let keywords: string[] = [];
   let foilings: Foiling[] = [];
   let isExpansionSlot: boolean = false;
+  let prints: string[] = [];
   let rarities: Rarity[] = [];
   let releases: Release[] = [];
   let treatments: Treatment[] = [];
@@ -541,8 +543,8 @@ export const getKeywordsAndAppliedFiltersFromText = (
             filterKey,
             values,
             modifier,
-            additionalHeroes
-          )
+            additionalHeroes,
+          ),
         );
       } else {
         if (["chain"].includes(filterKey)) {
@@ -577,7 +579,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
             }
             const { referencedBy, references } = getRelatedCardsByName(
               relatedCardName,
-              cards
+              cards,
             );
             references.forEach(addToSetAndRelated);
             if (counter === 0) {
@@ -595,28 +597,32 @@ export const getKeywordsAndAppliedFiltersFromText = (
           for (const relatedCardName of relatedCardNames) {
             const { referencedBy, references } = getRelatedCardsByName(
               relatedCardName,
-              cards
+              cards,
             );
             if (["referencedby"].includes(originalKey)) {
               values.push(
                 ...references.map(({ name }) =>
-                  name.toLowerCase().replaceAll(PUNCTUATION, "")
-                )
+                  name.toLowerCase().replaceAll(PUNCTUATION, ""),
+                ),
               );
             } else if (["references"].includes(originalKey)) {
               values.push(
                 ...referencedBy.map(({ name }) =>
-                  name.toLowerCase().replaceAll(PUNCTUATION, "")
-                )
+                  name.toLowerCase().replaceAll(PUNCTUATION, ""),
+                ),
               );
             }
           }
         } else if (["art", "artist"].includes(filterKey)) {
           artists = values;
+        } else if (
+          ["print", "prints", "printing", "printings"].includes(filterKey)
+        ) {
+          prints = values;
         } else if (["is", "meta"].includes(filterKey)) {
           const metaValues = getMetaValuesFromText(values);
           values = metaValues.map((v) =>
-            v.toLowerCase().replaceAll(PUNCTUATION, "")
+            v.toLowerCase().replaceAll(PUNCTUATION, ""),
           );
           if (metaValues.includes(Meta.Expansion) && !isExcluded) {
             isExpansionSlot = true;
@@ -632,7 +638,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
         } else if (["set", "s"].includes(filterKey)) {
           releases = getReleasesFromRawValues(values, additionalSets);
           values = releases.map((s) =>
-            s.toLowerCase().replaceAll(PUNCTUATION, "")
+            s.toLowerCase().replaceAll(PUNCTUATION, ""),
           );
         } else if (["pitch", "p", "color"].includes(filterKey)) {
           values = getPitchValuesFromText(values);
@@ -669,6 +675,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
       artists,
       foilings,
       isExpansionSlot,
+      prints,
       rarities,
       releases,
       treatments,
@@ -680,7 +687,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
 
 const getReleasesFromRawValues = (
   rawValues: string[],
-  additionalSets: Release[] = []
+  additionalSets: Release[] = [],
 ): Release[] => {
   const releases: Release[] = [];
   for (const rawValue of rawValues) {
@@ -696,7 +703,7 @@ const getMatchingReleasesFromRawValue = (rawValue: string) => {
   const releases: Release[] = [];
 
   const setFromValue = Object.values(Release).find(
-    (release) => release.toLowerCase().replaceAll(PUNCTUATION, "") === rawValue
+    (release) => release.toLowerCase().replaceAll(PUNCTUATION, "") === rawValue,
   );
 
   if (setFromValue) {
@@ -712,7 +719,7 @@ const getMatchingReleasesFromRawValue = (rawValue: string) => {
 
   if (releases.length === 0) {
     const setsFromPartialValue = Object.values(Release).filter((release) =>
-      release.toLowerCase().includes(rawValue)
+      release.toLowerCase().includes(rawValue),
     );
     if (setsFromPartialValue.length > 0) {
       releases.push(...setsFromPartialValue);
@@ -837,7 +844,7 @@ const getRarityValuesFromText = (rawValues: string[]) => {
 };
 
 const getFilterValuesAndModifier = (
-  unparsedFilterValue: string
+  unparsedFilterValue: string,
 ): {
   modifier: Modifier;
   values: string[];
@@ -847,7 +854,7 @@ const getFilterValuesAndModifier = (
   const values: string[] = [];
   let isAnd, isOr;
   const modifier = availableModifiers.find((modifier) =>
-    unparsedFilterValue.includes(modifier)
+    unparsedFilterValue.includes(modifier),
   ) as Modifier;
   if (modifier) {
     // if there's a modifier in the string, pull it out to get just the filter value
@@ -858,7 +865,7 @@ const getFilterValuesAndModifier = (
         ...rawValue
           .trim()
           .split("+")
-          .map((value) => value.replace(PUNCTUATION, ""))
+          .map((value) => value.replace(PUNCTUATION, "")),
       );
     } else if (filterIsOr(rawValue)) {
       isOr = true;
@@ -866,7 +873,7 @@ const getFilterValuesAndModifier = (
         ...rawValue
           .trim()
           .split(",")
-          .map((value) => value.replace(PUNCTUATION, ""))
+          .map((value) => value.replace(PUNCTUATION, "")),
       );
     } else {
       values.push(rawValue.trim().replace(PUNCTUATION, ""));
@@ -879,7 +886,7 @@ const getFilterValuesAndModifier = (
         ...unparsedFilterValue
           .trim()
           .split("+")
-          .map((value) => value.replace(PUNCTUATION, ""))
+          .map((value) => value.replace(PUNCTUATION, "")),
       );
     } else if (filterIsOr(unparsedFilterValue)) {
       isOr = true;
@@ -887,7 +894,7 @@ const getFilterValuesAndModifier = (
         ...unparsedFilterValue
           .trim()
           .split(",")
-          .map((value) => value.replace(PUNCTUATION, ""))
+          .map((value) => value.replace(PUNCTUATION, "")),
       );
     } else {
       if (
@@ -898,7 +905,7 @@ const getFilterValuesAndModifier = (
           unparsedFilterValue
             .trim()
             .replaceAll('"', "")
-            .replace(PUNCTUATION, "")
+            .replace(PUNCTUATION, ""),
         );
       } else {
         values.push(unparsedFilterValue.trim().replace(PUNCTUATION, ""));
@@ -910,7 +917,7 @@ const getFilterValuesAndModifier = (
 };
 
 const getFilterKeyAndExcludedOrOptional = (
-  unparsedFilterKey: string
+  unparsedFilterKey: string,
 ): {
   filterKey: string;
   isExcluded: boolean;

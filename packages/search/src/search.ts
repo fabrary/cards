@@ -32,6 +32,7 @@ export interface SearchResults {
   attributes: {
     artists: string[];
     foilings: Foiling[];
+    prints: string[];
     releases: Release[];
     treatments: Treatment[];
   };
@@ -49,7 +50,7 @@ class Search {
     cards: DoubleSidedCard[],
     additionalHeroes: Hero[] = [],
     additionalSets: Release[] = [],
-    debug: boolean = false
+    debug: boolean = false,
   ) {
     const searchOptions = {
       getFn: (obj: DoubleSidedCard, path) => {
@@ -59,7 +60,7 @@ class Search {
           return value;
         } else if (Array.isArray(value)) {
           return value.map((val) =>
-            getNormalizedText(val.replace(PUNCTUATION, ""))
+            getNormalizedText(val.replace(PUNCTUATION, "")),
           );
         } else {
           return getNormalizedText(value as string).replace(PUNCTUATION, "");
@@ -100,7 +101,7 @@ class Search {
         text,
         this.cards,
         this.additionalHeroes,
-        this.additionalSets
+        this.additionalSets,
       );
 
     const keyword = keywords.join(" ");
@@ -117,7 +118,7 @@ class Search {
     }
     if (appliedFilters.length) {
       results = results.filter(
-        (card) => card && filterCard(card, appliedFilters)
+        (card) => card && filterCard(card, appliedFilters),
       );
     }
 
@@ -150,7 +151,7 @@ class Search {
         results.sort((c1, c2) =>
           c1.name === c2.name
             ? `${c1.pitch}`.localeCompare(`${c2.pitch}`)
-            : c1.name.localeCompare(c2.name)
+            : c1.name.localeCompare(c2.name),
         );
       }
     } else {
@@ -177,6 +178,7 @@ class Search {
       artists,
       isExpansionSlot,
       foilings,
+      prints,
       rarities,
       releases,
       treatments,
@@ -186,6 +188,7 @@ class Search {
       artists.length > 0 ||
       isExpansionSlot ||
       foilings.length > 0 ||
+      prints.length > 0 ||
       rarities.length > 0 ||
       releases.length > 0 ||
       treatments.length > 0;
@@ -201,14 +204,17 @@ class Search {
                 artist
                   .replace(PUNCTUATION, "")
                   .toLowerCase()
-                  .includes(attributeArtist)
-              )
+                  .includes(attributeArtist),
+              ),
             );
           const matchesExpansionSlot =
             (isExpansionSlot || undefined) === printing.isExpansionSlot;
 
           const matchesFoiling =
             foilings.length === 0 || foilings.includes(printing.foiling);
+          const matchesPrint =
+            prints.length === 0 ||
+            prints.some((print) => printing.identifier.includes(print));
           const matchesRarity =
             rarities.length === 0 || rarities.includes(printing.rarity);
           const matchesReleases =
@@ -221,6 +227,7 @@ class Search {
             matchesArtist &&
             matchesExpansionSlot &&
             matchesFoiling &&
+            matchesPrint &&
             matchesRarity &&
             matchesReleases &&
             matchesTreatment;
@@ -253,7 +260,7 @@ export default Search;
 
 export const filterCard = (
   card: Card,
-  appliedFilters: AppliedFilter[]
+  appliedFilters: AppliedFilter[],
 ): boolean => {
   let doesCardMatchAllRequiredFilters = true;
   let doesCardMatchAnyOptionalFilters = false;
@@ -266,7 +273,7 @@ export const filterCard = (
     if (isNumber) {
       const cardMatchesNumericFilter = getDoesCardMatchNumericFilter(
         card,
-        appliedFilter
+        appliedFilter,
       );
       if (isOptional) {
         if (cardMatchesNumericFilter) {
@@ -279,7 +286,7 @@ export const filterCard = (
     } else if (isString) {
       const cardMatchesStringFilter = getDoesCardMatchStringFilter(
         card,
-        appliedFilter
+        appliedFilter,
       );
       if (isOptional) {
         if (cardMatchesStringFilter) {
@@ -293,7 +300,7 @@ export const filterCard = (
       const cardMatchesArrayFilter = getDoesCardMatchArrayFilter(
         card,
         appliedFilter,
-        appliedFilters
+        appliedFilters,
       );
       if (isOptional) {
         if (cardMatchesArrayFilter) {
@@ -306,7 +313,7 @@ export const filterCard = (
     } else if (isBoolean) {
       const cardMatchesBooleanFilter = getDoesCardMatchBooleanFilter(
         card,
-        appliedFilter
+        appliedFilter,
       );
       if (isOptional) {
         if (cardMatchesBooleanFilter) {
@@ -324,7 +331,7 @@ export const filterCard = (
 
 const getDoesCardMatchNumericFilter = (
   card: Card,
-  filter: AppliedFilter
+  filter: AppliedFilter,
 ): boolean => {
   if (!doesFilterMatchCardType(filter, card)) {
     return true;
@@ -342,24 +349,24 @@ const getDoesCardMatchNumericFilter = (
         switch (modifier) {
           case ">=":
             const isGreatherThanOrEqualTo = values?.some(
-              (filterValue) => cardValue >= parseInt(filterValue)
+              (filterValue) => cardValue >= parseInt(filterValue),
             );
             return excluded
               ? !isGreatherThanOrEqualTo
               : isGreatherThanOrEqualTo;
           case ">":
             const isGreatherThan = values?.some(
-              (filterValue) => cardValue > parseInt(filterValue)
+              (filterValue) => cardValue > parseInt(filterValue),
             );
             return excluded ? !isGreatherThan : isGreatherThan;
           case "<=":
             const isLessThanOrEqualTo = values?.some(
-              (filterValue) => cardValue <= parseInt(filterValue)
+              (filterValue) => cardValue <= parseInt(filterValue),
             );
             return excluded ? !isLessThanOrEqualTo : isLessThanOrEqualTo;
           case "<":
             const isLessThan = values?.some(
-              (filterValue) => cardValue < parseInt(filterValue)
+              (filterValue) => cardValue < parseInt(filterValue),
             );
             return excluded ? !isLessThan : isLessThan;
           default:
@@ -367,7 +374,7 @@ const getDoesCardMatchNumericFilter = (
         }
       } else {
         const isEqualTo = values?.some(
-          (filterValue) => cardValue === parseInt(filterValue)
+          (filterValue) => cardValue === parseInt(filterValue),
         );
         return excluded ? !isEqualTo : isEqualTo;
       }
@@ -383,7 +390,7 @@ const getDoesCardMatchNumericFilter = (
 
 const getDoesCardMatchStringFilter = (
   card: Card,
-  filter: AppliedFilter
+  filter: AppliedFilter,
 ): boolean => {
   if (!doesFilterMatchCardType(filter, card)) {
     return true;
@@ -396,24 +403,24 @@ const getDoesCardMatchStringFilter = (
     } = filter;
     const cardValue = (getCardValue(card, filter) as string)?.replaceAll(
       PUNCTUATION,
-      ""
+      "",
     );
     if (partialMatch) {
       const isPartialMatch = isAnd
         ? values?.every((filterValue) =>
-            cardValue?.toLowerCase().includes(filterValue)
+            cardValue?.toLowerCase().includes(filterValue),
           )
         : values?.some((filterValue) =>
-            cardValue?.toLowerCase().includes(filterValue)
+            cardValue?.toLowerCase().includes(filterValue),
           );
       return excluded ? !isPartialMatch : isPartialMatch;
     } else {
       const isFullMatch = isAnd
         ? values?.every(
-            (filterValue) => cardValue?.toLowerCase() === filterValue
+            (filterValue) => cardValue?.toLowerCase() === filterValue,
           )
         : values?.some(
-            (filterValue) => cardValue?.toLowerCase() === filterValue
+            (filterValue) => cardValue?.toLowerCase() === filterValue,
           );
       return excluded ? !isFullMatch : isFullMatch;
     }
@@ -423,7 +430,7 @@ const getDoesCardMatchStringFilter = (
 const getDoesCardMatchArrayFilter = (
   card: Card,
   filter: AppliedFilter,
-  filters: AppliedFilter[]
+  filters: AppliedFilter[],
 ): boolean => {
   if (!doesFilterMatchCardType(filter, card)) {
     return true;
@@ -435,20 +442,20 @@ const getDoesCardMatchArrayFilter = (
       filterToPropertyMapping: { partialMatch },
     } = filter;
     const cardValues = getCardValues(card, filter, filters).map((value) =>
-      value?.replaceAll(PUNCTUATION, "")
+      value?.replaceAll(PUNCTUATION, ""),
     );
 
     if (partialMatch) {
       const isPartialMatch = isAnd
         ? values.every((filterValue) =>
             cardValues?.some((cardValue) =>
-              cardValue?.toLowerCase().includes(filterValue)
-            )
+              cardValue?.toLowerCase().includes(filterValue),
+            ),
           )
         : values.some((filterValue) =>
             cardValues?.some((cardValue) =>
-              cardValue?.toLowerCase().includes(filterValue)
-            )
+              cardValue?.toLowerCase().includes(filterValue),
+            ),
           );
       const noValues = cardValues.length === 0;
       return isExcluded ? !isPartialMatch || noValues : isPartialMatch;
@@ -456,13 +463,13 @@ const getDoesCardMatchArrayFilter = (
       const isFullMatch = isAnd
         ? values.every((filterValue) =>
             cardValues?.some(
-              (cardValue) => cardValue?.toLowerCase() === filterValue
-            )
+              (cardValue) => cardValue?.toLowerCase() === filterValue,
+            ),
           )
         : values.some((filterValue) =>
             cardValues?.some(
-              (cardValue) => cardValue?.toLowerCase() === filterValue
-            )
+              (cardValue) => cardValue?.toLowerCase() === filterValue,
+            ),
           );
       return isExcluded ? !isFullMatch : isFullMatch;
     }
@@ -471,7 +478,7 @@ const getDoesCardMatchArrayFilter = (
 
 const getDoesCardMatchBooleanFilter = (
   card: Card,
-  filter: AppliedFilter
+  filter: AppliedFilter,
 ): boolean => {
   if (!doesFilterMatchCardType(filter, card)) {
     return true;
@@ -484,7 +491,7 @@ const getDoesCardMatchBooleanFilter = (
 
 const getCardValue = (
   card: Card,
-  appliedFilter: AppliedFilter
+  appliedFilter: AppliedFilter,
 ): string | number | string[] | boolean => {
   const { filterToPropertyMapping } = appliedFilter;
 
@@ -495,7 +502,7 @@ const getCardValue = (
 const getCardValues = (
   card: Card,
   filter: AppliedFilter,
-  filters: AppliedFilter[]
+  filters: AppliedFilter[],
 ): string[] => {
   const {
     filterToPropertyMapping: {
@@ -514,7 +521,7 @@ const getCardValues = (
     filter.filterToPropertyMapping.property === FilterProperty.LegalHeroes;
   const anotherFilterForLegalFormat = filters.find(
     ({ filterToPropertyMapping }) =>
-      filterToPropertyMapping.property === FilterProperty.LegalFormats
+      filterToPropertyMapping.property === FilterProperty.LegalFormats,
   );
   const shouldCheckForLegalOverrides =
     cardHasLegalOverrides &&
@@ -577,7 +584,7 @@ const getCardValues = (
 
 const getCardSpecialValue = (
   card: Card,
-  appliedFilter: AppliedFilter
+  appliedFilter: AppliedFilter,
 ): string => {
   const { filterToPropertyMapping } = appliedFilter;
   // @ts-ignore
@@ -586,7 +593,7 @@ const getCardSpecialValue = (
 
 const doesFilterMatchCardType = (
   { cardTypes }: AppliedFilter,
-  { types, subtypes }: Card
+  { types, subtypes }: Card,
 ): boolean =>
   !cardTypes ||
   cardTypes?.some(
@@ -596,5 +603,5 @@ const doesFilterMatchCardType = (
         .includes(cardType.toLowerCase()) ||
       subtypes
         .map((subtype) => subtype.toLowerCase())
-        .includes(cardType.toLowerCase())
+        .includes(cardType.toLowerCase()),
   );

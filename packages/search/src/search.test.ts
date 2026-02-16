@@ -15,7 +15,8 @@ import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 const doubleSidedCards: DoubleSidedCard[] = cards.map((card) => {
   if (card.oppositeSideCardIdentifier) {
     const oppositeSideCard = cards.find(
-      ({ cardIdentifier }) => cardIdentifier === card.oppositeSideCardIdentifier
+      ({ cardIdentifier }) =>
+        cardIdentifier === card.oppositeSideCardIdentifier,
     );
     if (oppositeSideCard) {
       (card as DoubleSidedCard).oppositeSideCard = oppositeSideCard;
@@ -110,13 +111,13 @@ describe("Card search", () => {
     (resultCount, ...searchTerms) => {
       for (const searchTerm of searchTerms) {
         const { searchResults } = cardSearch.search(
-          randomizeCapitalization(searchTerm as string)
+          randomizeCapitalization(searchTerm as string),
         );
         expect(searchResults.length).toBeGreaterThanOrEqual(
-          resultCount as number
+          resultCount as number,
         );
       }
-    }
+    },
   );
 
   interface Ratio {
@@ -195,10 +196,10 @@ describe("Card search", () => {
     const { percent, lessThan, searchTerms } = ratio as Ratio;
     for (const searchTerm of searchTerms) {
       const { searchResults } = cardSearch.search(
-        randomizeCapitalization(searchTerm as string)
+        randomizeCapitalization(searchTerm as string),
       );
       const percentOfCards = Math.round(
-        (100 * searchResults.length) / cards.length
+        (100 * searchResults.length) / cards.length,
       );
       if (lessThan) {
         expect(percentOfCards).toBeLessThan(percent);
@@ -269,17 +270,17 @@ describe("Card search", () => {
     .map(({ classes, hero }) => `l:"${hero}" c:"${classes[0]}"`);
   it.each(heroAndFirstClassFilters)("Gets cards for %s", (searchTerm) => {
     const { searchResults } = cardSearch.search(
-      randomizeCapitalization(searchTerm as string)
+      randomizeCapitalization(searchTerm as string),
     );
     expect(searchResults.length).toBeGreaterThan(0);
   });
 
   const artTreatmentFilters: string[] = Object.values(Treatment).map(
-    (treatment) => `treatment:"${treatment}"`
+    (treatment) => `treatment:"${treatment}"`,
   );
   it.each(artTreatmentFilters)("Gets cards for %s", (searchTerm) => {
     const { searchResults, appliedFilters } = cardSearch.search(
-      randomizeCapitalization(searchTerm as string)
+      randomizeCapitalization(searchTerm as string),
     );
     expect(searchResults.length).toBeGreaterThan(0);
   });
@@ -297,7 +298,7 @@ describe("Card search", () => {
   it.each(hasNoQuantity)("Gets zero cards for %s", (...searchTerms) => {
     for (const searchTerm of searchTerms) {
       const { searchResults } = cardSearch.search(
-        randomizeCapitalization(searchTerm as string)
+        randomizeCapitalization(searchTerm as string),
       );
       expect(searchResults.length).toEqual(0);
     }
@@ -310,7 +311,7 @@ describe("Card search", () => {
       const { searchResults } = cardSearch.search(criteria);
 
       expect(searchResults[0].cardIdentifier).toEqual(firstCardIdentifier);
-    }
+    },
   );
 
   it("Excludes rarities correctly", () => {
@@ -324,7 +325,7 @@ describe("Card search", () => {
 
   xit("Specific test", () => {
     const { searchResults, appliedFilters, keywords } = cardSearch.search(
-      randomizeCapitalization("s:ros l:draft")
+      randomizeCapitalization("s:ros l:draft"),
     );
 
     expect(searchResults.length).toBeGreaterThan(0);
@@ -333,7 +334,7 @@ describe("Card search", () => {
 
   it("Combines heroes correctly", () => {
     const { searchResults, appliedFilters } = cardSearch.search(
-      "l:zen,nuu s:mst r:t,c,r"
+      "l:zen,nuu s:mst r:t,c,r",
     );
 
     expect(searchResults.length).toEqual(148);
@@ -348,13 +349,13 @@ describe("Card search", () => {
 
       expect(searchResults.length).toBeGreaterThan(0);
       expect(searchResults.length).toBeLessThan(Math.round(cards.length / 2));
-    }
+    },
   );
 });
 
 const randomizeCapitalization = (str: string) =>
   str.replace(/./g, (char) =>
-    Math.random() < 0.5 ? char.toUpperCase() : char
+    Math.random() < 0.5 ? char.toUpperCase() : char,
   );
 
 describe("Returns artist when included", () => {
@@ -367,6 +368,28 @@ describe("Returns artist when included", () => {
     } = cardSearch.search(`art:"${artist}"`);
     expect(artists).toBeTruthy();
     expect(artists[0]).toEqual(artist.toLowerCase());
+  });
+
+  it("Othon Nikolaidis", () => {
+    const artist = "Othon";
+    const {
+      attributes: { artists },
+    } = cardSearch.search(`r:marvel artist:${artist}`);
+    expect(artists).toBeTruthy();
+    expect(artists[0]).toEqual(artist.toLowerCase());
+  });
+});
+
+describe("Returns prints when included", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it("ANQ", () => {
+    const print = "ANQ";
+    const {
+      attributes: { prints },
+    } = cardSearch.search(`print:"${print}"`);
+    expect(prints).toBeTruthy();
+    expect(prints[0]).toEqual(print.toLowerCase());
   });
 
   it("Othon Nikolaidis", () => {
@@ -396,7 +419,7 @@ describe("Additional heroes", () => {
     expect(appliedFilters.length).toBe(1);
     expect(appliedFilters[0].values).toEqual(["another"]);
     expect(appliedFilters[0].filterToPropertyMapping.property).toEqual(
-      "legalHeroes"
+      "legalHeroes",
     );
   });
 });
@@ -439,7 +462,7 @@ describe("Every set has results", () => {
         const { searchResults } = cardSearch.search(`s:${abbreviation}`);
         expect(searchResults.length).toBeGreaterThan(0);
       }
-    }
+    },
   );
 });
 
@@ -448,14 +471,14 @@ describe("Armory decks are distinct", () => {
 
   it.each(
     Object.values(Release).filter((release) =>
-      release.toUpperCase().includes("ARMORY DECK")
-    )
+      release.toUpperCase().includes("ARMORY DECK"),
+    ),
   )("%s has distinct results", (set: string) => {
     const { searchResults, keywords, appliedFilters } = cardSearch.search(
-      `s:"${set}"`
+      `s:"${set}"`,
     );
     const cardsNotInSet = searchResults.filter(
-      ({ sets }) => !sets.includes(set as Release)
+      ({ sets }) => !sets.includes(set as Release),
     );
     expect(cardsNotInSet.length).toBe(0);
   });
@@ -481,15 +504,15 @@ describe("Returns foiling when included", () => {
   });
 });
 
-describe("Returns matching prints when release or foiling included", () => {
+describe("Returns matching prints", () => {
   const cardSearch = new Search(doubleSidedCards);
 
   it("Matching printing from foil", () => {
     const { searchResults } = cardSearch.search("foil:g");
     const searchResultsWithGoldFoilImage = searchResults.filter((card) =>
       card.printings.find(
-        (printing) => printing.foiling === Foiling.G && !!printing.image
-      )
+        (printing) => printing.foiling === Foiling.G && !!printing.image,
+      ),
     );
     for (const card of searchResultsWithGoldFoilImage) {
       for (const printing of card.matchingPrintings) {
@@ -505,6 +528,16 @@ describe("Returns matching prints when release or foiling included", () => {
       for (const printing of card.matchingPrintings) {
         expect(printing).toBeTruthy();
         expect(printing.set).toEqual(Release.WelcomeToRathe);
+      }
+    }
+  });
+
+  it("Matching printing from prints", () => {
+    const { searchResults } = cardSearch.search("print:anq");
+    for (const card of searchResults) {
+      for (const printing of card.matchingPrintings) {
+        expect(printing).toBeTruthy();
+        expect(printing.identifier.includes("ANQ")).toBeTruthy();
       }
     }
   });
@@ -535,7 +568,7 @@ describe("Returns matching prints when release or foiling included", () => {
 
   it("Matching printing from card overlay limited filters", () => {
     const { searchResults } = cardSearch.search(
-      "s:hnt !r:legendary,fabled l:draft,sealed"
+      "s:hnt !r:legendary,fabled l:draft,sealed",
     );
     for (const card of searchResults) {
       expect(card.matchingPrintings).toBeTruthy();
@@ -558,7 +591,7 @@ describe("Shorthands property works", () => {
     expect(searchResults).toBeTruthy();
 
     const legTap = searchResults.find(
-      ({ cardIdentifier }) => cardIdentifier === "leg-tap-red"
+      ({ cardIdentifier }) => cardIdentifier === "leg-tap-red",
     );
     expect(legTap).toBeTruthy();
   });
@@ -568,7 +601,7 @@ describe("Shorthands property works", () => {
     expect(searchResults).toBeTruthy();
 
     const spitfire = searchResults.find(
-      ({ cardIdentifier }) => cardIdentifier === "spitfire"
+      ({ cardIdentifier }) => cardIdentifier === "spitfire",
     );
     expect(spitfire).toBeTruthy();
   });
@@ -578,12 +611,12 @@ describe("Shorthands property works", () => {
     expect(searchResults).toBeTruthy();
 
     const legTap = searchResults.find(
-      ({ cardIdentifier }) => cardIdentifier === "leg-tap-red"
+      ({ cardIdentifier }) => cardIdentifier === "leg-tap-red",
     );
     expect(legTap).toBeTruthy();
 
     const spitfire = searchResults.find(
-      ({ cardIdentifier }) => cardIdentifier === "spitfire"
+      ({ cardIdentifier }) => cardIdentifier === "spitfire",
     );
     expect(spitfire).toBeFalsy();
   });
@@ -598,7 +631,7 @@ describe("Shorthands property works", () => {
 
     const throwCaution = searchResults.find(
       ({ cardIdentifier }) =>
-        cardIdentifier === "throw-caution-to-the-wind-blue"
+        cardIdentifier === "throw-caution-to-the-wind-blue",
     );
     expect(throwCaution).toBeTruthy();
   });
@@ -609,7 +642,7 @@ describe("Shorthands property works", () => {
     expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
 
     const flickerWisp = searchResults.find(
-      ({ cardIdentifier }) => cardIdentifier === "flicker-wisp-yellow"
+      ({ cardIdentifier }) => cardIdentifier === "flicker-wisp-yellow",
     );
     expect(flickerWisp).toBeTruthy();
   });
@@ -620,7 +653,7 @@ describe("Shorthands property works", () => {
     expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
 
     const flickKnives = searchResults.find(
-      ({ cardIdentifier }) => cardIdentifier === "flick-knives"
+      ({ cardIdentifier }) => cardIdentifier === "flick-knives",
     );
     expect(flickKnives).toBeTruthy();
   });
@@ -631,7 +664,7 @@ describe("Shorthands property works", () => {
     expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
 
     const legendaryCards = searchResults.filter(({ rarities }) =>
-      rarities.includes(Rarity.Legendary)
+      rarities.includes(Rarity.Legendary),
     );
     expect(legendaryCards.length).toEqual(0);
   });
@@ -649,7 +682,7 @@ describe("Minor sets", () => {
 
     for (const result of searchResults) {
       const matchingSetIdentifier = result.setIdentifiers.find(
-        (setIdentifier) => setIdentifier.startsWith(ABBREVIATION)
+        (setIdentifier) => setIdentifier.startsWith(ABBREVIATION),
       );
       expect(matchingSetIdentifier).toBeTruthy();
     }
