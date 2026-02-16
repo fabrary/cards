@@ -146,7 +146,7 @@ class Search {
           const setToSort = attributes.prints[0];
           const matchingSetIdentifiers = setIdentifierToSetMappings[setToSort];
           if (matchingSetIdentifiers) {
-            setIdentifieToSortBy = setToSort[0].toUpperCase();
+            setIdentifieToSortBy = setToSort.toUpperCase();
           }
         } catch (e) {
           console.error(`Error getting set identifier from search`, e);
