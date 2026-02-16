@@ -7,6 +7,7 @@ import {
   Printing,
   Rarity,
   Release,
+  setIdentifierToSetMappings,
   setToSetIdentifierMappings,
   Treatment,
   Type,
@@ -126,7 +127,9 @@ class Search {
       // If filtering on set without any keywords then sort by set by default
       // If there's also no set filter then sort alphabetically
       let setIdentifieToSortBy = "";
-      if (attributes.releases.length === 1) {
+
+      const shouldSortByRelease = attributes.releases.length === 1;
+      if (shouldSortByRelease) {
         try {
           const setToSort = attributes.releases[0];
           const matchingSetIdentifiers = setToSetIdentifierMappings[setToSort];
@@ -135,6 +138,21 @@ class Search {
           console.error(`Error getting set identifier from search`, e);
         }
       }
+
+      const shouldSortByPrint =
+        !setIdentifieToSortBy && attributes.prints.length === 1;
+      if (shouldSortByPrint) {
+        try {
+          const setToSort = attributes.prints[0];
+          const matchingSetIdentifiers = setIdentifierToSetMappings[setToSort];
+          if (matchingSetIdentifiers) {
+            setIdentifieToSortBy = setToSort[0].toUpperCase();
+          }
+        } catch (e) {
+          console.error(`Error getting set identifier from search`, e);
+        }
+      }
+
       if (setIdentifieToSortBy) {
         results.sort((c1, c2) => {
           const c1SetNumber = c1.setIdentifiers
