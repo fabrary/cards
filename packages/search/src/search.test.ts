@@ -533,7 +533,7 @@ describe("Returns matching prints", () => {
   });
 
   it("Matching printing from prints", () => {
-    const { searchResults } = cardSearch.search("print:anq");
+    const { searchResults } = cardSearch.search("print:ANQ");
     for (const card of searchResults) {
       for (const printing of card.matchingPrintings) {
         expect(printing).toBeTruthy();

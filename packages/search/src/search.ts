@@ -214,7 +214,9 @@ class Search {
             foilings.length === 0 || foilings.includes(printing.foiling);
           const matchesPrint =
             prints.length === 0 ||
-            prints.some((print) => printing.identifier.includes(print));
+            prints.some((print) =>
+              printing.identifier.includes(print.toUpperCase()),
+            );
           const matchesRarity =
             rarities.length === 0 || rarities.includes(printing.rarity);
           const matchesReleases =
