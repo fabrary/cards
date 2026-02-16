@@ -32,7 +32,7 @@ const overrideCards = mapCSV(parsedOverrideCards);
 const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAAC),
   ...parseCSV(spoiledSetCardsFileAHA),
-  ...parseCSV(spoiledSetCardsFileANQ),
+  // ...parseCSV(spoiledSetCardsFileANQ),
   ...parseCSV(spoiledSetCardsFileAPR),
   ...parseCSV(spoiledSetCardsFileAPS),
   ...parseCSV(spoiledSetCardsFileARR),
@@ -40,8 +40,8 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAVS),
   ...parseCSV(spoiledSetCardsFileBDD),
   ...parseCSV(spoiledSetCardsFileMPG),
-  ...parseCSV(spoiledSetCardsFilePEN),
-  ...parseCSV(spoiledSetCardsFileSAGE),
+  // ...parseCSV(spoiledSetCardsFilePEN),
+  // ...parseCSV(spoiledSetCardsFileSAGE),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)

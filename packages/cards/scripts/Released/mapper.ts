@@ -156,7 +156,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       ? imageUrlClean
           .substring(
             imageUrlClean.lastIndexOf("/") + 1,
-            imageUrlClean.lastIndexOf(".")
+            imageUrlClean.lastIndexOf("."),
           )
           .replace(".format-webp", "")
       : undefined;
@@ -177,7 +177,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     });
 
     const correctedArtists = artists.map(
-      (artist) => ARTIST_OVERRIDES[artist] || artist
+      (artist) => ARTIST_OVERRIDES[artist] || artist,
     );
 
     const isPrintExcluded = excludedPrintings.includes(print);
@@ -229,7 +229,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
           }
         }
       }
-    }
+    },
   );
 
   keywords.sort();
@@ -337,11 +337,11 @@ const getCardData = (card: ParsedCard): Card => {
 
   const defaultPrinting = getDefaultPrinting(
     { name: card.name, cardIdentifier },
-    printings
+    printings,
   );
   const specialPrinting = getSpecialPrinting(
     { name: card.name, cardIdentifier },
-    printings
+    printings,
   );
 
   // if (!defaultPrinting) {
@@ -376,7 +376,7 @@ const getCardData = (card: ParsedCard): Card => {
       rarities,
       sets,
       subtypes,
-      types
+      types,
     ),
     legalHeroes: [],
     // legalHeroes: getLegalHeroes({

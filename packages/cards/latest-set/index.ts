@@ -1983,7 +1983,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
   
   
   },{
-    artists: ["Surya Prasetya","Surya Prasteya"],
+    artists: ["Surya P"],
     cardIdentifier: "boots-to-the-boards",
     classes: [Class.NotClassed],
     defaultImage: "SUP275",
@@ -1991,7 +1991,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
     legalHeroes: [Hero.Pleiades,Hero.Taylor,Hero.Tuffnut],
     name: "Boots to the Boards",
     printings: [{
-        artists: ["Surya Prasetya"],
+        artists: ["Surya P"],
       foiling: Foiling.C,
       identifier: "SUP275",
       image: "SUP275",
@@ -7631,7 +7631,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     
     
     cost: 3,
-    defense: 3,
+    
     
     functionalText: `**Action** - {r}, {t}: **Attack**
 
@@ -7644,7 +7644,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
     
     keywords: [Keyword.WateryGrave],
     
-    
+    life: 3,
     meta: [Meta.Expansion],
   
     

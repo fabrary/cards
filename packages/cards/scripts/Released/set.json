@@ -1,2025 +1,2298 @@
 [
-  {
-    "unique_id": "QpnqjpTwQfwKpmdtd8H6N",
-    "id": "1HP",
-    "name": "History Pack 1",
-    "printings": [
-      {
-        "unique_id": "rW8hnzQk9DFq89t6Gm9cH",
-        "edition": "N",
-        "start_card_id": "1HP001",
-        "end_card_id": "1HP427",
-        "initial_release_date": "2022-05-06T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/history-pack-1/",
-        "product_page": "https://fabtcg.com/products/booster-set/history-pack-1-en/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/history-pack-1-en-booster/",
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_stacked.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "GnCkQJBcdrfnddKT7NqFj",
-    "id": "AHA",
-    "name": "Armory Deck Origins - Hala",
-    "printings": [
-      {
-        "unique_id": "DJtrwcHHtBbDJH6Lb77PR",
-        "edition": "N",
-        "start_card_id": "AHA001",
-        "end_card_id": "AHA001",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "zWBwqgLbrnMCHq9rWGFhT",
-    "id": "AAC",
-    "name": "Armory Deck - Arakni",
-    "printings": [
-      {
-        "unique_id": "qcgTbrR8GHqQhRGTRTtNr",
-        "edition": "N",
-        "start_card_id": "AAC014",
-        "end_card_id": "AAC014",
-        "initial_release_date": "2025-12-12T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-arakni/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "zNF9Rtkg998WkCBCgfJQR",
-    "id": "AAZ",
-    "name": "Armory Deck - Azalea",
-    "printings": [
-      {
-        "unique_id": "NPjbffBKdhHdPcppbqbbL",
-        "edition": "N",
-        "start_card_id": "AAZ001",
-        "end_card_id": "AAZ032",
-        "initial_release_date": "2024-08-02T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/azalea-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/armory-deck-azalea/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/en_ad_azalea_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "TPTpTTGwGRcpmpjLhpMmH",
-    "id": "AGB",
-    "name": "Armory Deck - Gravy Bones",
-    "printings": [
-      {
-        "unique_id": "ggrNmGdbz8LcBRQKdFHnp",
-        "edition": "N",
-        "start_card_id": "AGB001",
-        "end_card_id": "AGB031",
-        "initial_release_date": "2025-05-30T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/armory-deck-gravy-bones/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-gravy-bones/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/gravybones_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "QPwGGk7Tnrtpj7RfD6BJP",
-    "id": "AIO",
-    "name": "Armory Deck - Dash I/O",
-    "printings": [
-      {
-        "unique_id": "FwqNRtTwNgC6Qz6krCwf7",
-        "edition": "N",
-        "start_card_id": "AIO001",
-        "end_card_id": "AIO027",
-        "initial_release_date": "2024-10-18T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/armory-deck-azalea-ace-in-the-hole/",
-        "product_page": "https://fabtcg.com/products/booster-set/armory-deck-dash/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/armory_deck_dash_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "NhqdzMMTrtNQdB6DphMGh",
-    "id": "AJV",
-    "name": "Armory Deck Origins - Jarl Vetreiði",
-    "printings": [
-      {
-        "unique_id": "cD8qW6NqpwjRqpNRrht6D",
-        "edition": "N",
-        "start_card_id": "AJV001",
-        "end_card_id": "AJV030",
-        "initial_release_date": "2024-11-29T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-origins-jarl-vetreidi/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/jarl_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "HJ8Dqhq7tCwKWFCwkjw86",
-    "id": "AKO",
-    "name": "Armory Deck - Kayo",
-    "printings": [
-      {
-        "unique_id": "q77LRn8kGwH9TM76kFWNp",
-        "edition": "N",
-        "start_card_id": "AKO001",
-        "end_card_id": "AKO028",
-        "initial_release_date": "2024-05-03T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/kayo-armory-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/armory-deck-kayo/",
-        "collectors_center": null,
-        "card_gallery": "https://fabtcg.com/en/resources/card-galleries/kayo-armory-deck/",
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/armory_deck_kayo_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "BrRjNCgcqCj7TrJPbrmKk",
-    "id": "AMX",
-    "name": "Amory Deck - Maxx",
-    "printings": [
-      {
-        "unique_id": "Jnr9G9CbTNdtFCc9JdJKG",
-        "edition": "N",
-        "start_card_id": "AMX001",
-        "end_card_id": "AMX028",
-        "initial_release_date": "2025-04-17T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/armory-deck-maxx-the-hype-nitro/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-maxx-nitro/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ad_maxx_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "7JCQ7LLWpwmJJ9JFLNgpF",
-    "id": "APR",
-    "name": "Armory Deck Legends - Prism",
-    "printings": [
-      {
-        "unique_id": "mp7fBK9pBCF7kmBrGRdLF",
-        "edition": "N",
-        "start_card_id": "APR001",
-        "end_card_id": "APR003",
-        "initial_release_date": "2025-07-24T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/amory-deck-legends-prism-sculptor-of-arc-light/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-legends/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "qRrM9fKHKgwWwzh9rcrGg",
-    "id": "APS",
-    "name": "Armory Deck - Pleiades",
-    "printings": [
-      {
-        "unique_id": "npPLBdtF6fRmmMgTjgP9j",
-        "edition": "N",
-        "start_card_id": "APS001",
-        "end_card_id": "APS032",
-        "initial_release_date": "2025-09-19T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/armory-deck-pleiades-superstar/",
-        "product_page": null,
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "7LbfKJbkWGGwFJDWJn8GB",
-    "id": "ARA",
-    "name": "Arakni Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "WcjfRJCbhGChDhr87thKC",
-        "edition": "N",
-        "start_card_id": "ARA001",
-        "end_card_id": "ARA029",
-        "initial_release_date": "2023-03-24T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/arakni-blitz-deck/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "F7brMw6wh6mW98Ln9Hh6f",
-    "id": "ARC",
-    "name": "Arcane Rising",
-    "printings": [
-      {
-        "unique_id": "fJhkbkJH6WPtr8ztNTcp9",
-        "edition": "F",
-        "start_card_id": "ARC000",
-        "end_card_id": "ARC218",
-        "initial_release_date": "2020-03-27T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/arcane-rising/",
-        "product_page": "https://fabtcg.com/products/booster-set/arcane-rising/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/arcane-rising/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/arcane-rising/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/arcane-rising/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ARC.original.png"
-      },
-      {
-        "unique_id": "CwPrBwgWTjRL9kPchD6G7",
-        "edition": "U",
-        "start_card_id": "ARC000",
-        "end_card_id": "ARC218",
-        "initial_release_date": "2020-11-20T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/arcane-rising-unlimited/",
-        "product_page": "https://fabtcg.com/products/booster-set/arcane-rising-unlimited/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/arcane-rising/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/arcane-rising-unlimited-booster/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/arcane-rising/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ARC.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "QhLgwK96z8KFMrnWHWD8G",
-    "id": "ARK",
-    "name": "Arakni Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "rjjNJ8JcpGzwbrzmWNTb9",
-        "edition": "N",
-        "start_card_id": "ARK001",
-        "end_card_id": "ARK027",
-        "initial_release_date": "2025-01-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "6wPzLbFHJRQCghFTMnwtJ",
-    "id": "ARR",
-    "name": "Armory Deck - Rhinar",
-    "printings": [
-      {
-        "unique_id": "wjTzRJWPcWRMdC9mKhRbB",
-        "edition": "N",
-        "start_card_id": "ARR022",
-        "end_card_id": "ARR022",
-        "initial_release_date": "2025-11-14T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-rhinar/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "gmPW6zdL8Fkcd7T6Fghdb",
-    "id": "ASB",
-    "name": "Armory Deck - Boltyn",
-    "printings": [
-      {
-        "unique_id": "hcwhwT87GNGLw8dzpzKWn",
-        "edition": "N",
-        "start_card_id": "ASB001",
-        "end_card_id": "ASB028",
-        "initial_release_date": "2024-07-12T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/armory-deck-ser-boltyn-breaker-of-dawn/",
-        "product_page": "https://fabtcg.com/products/booster-set/armory-deck-boltyn/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ad_boltyn_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "rDTjHH7pgRNCFrrWqpcmQ",
-    "id": "ASR",
-    "name": "Armory Deck - Ira",
-    "printings": [
-      {
-        "unique_id": "rB9MWz686BFgFq8nwtq9j",
-        "edition": "N",
-        "start_card_id": "ASR001",
-        "end_card_id": "ASR027",
-        "initial_release_date": "2025-07-11T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/amory-deck-ira-scarlet-revenger/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-ira/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/AD_Ira_Logo_Glow.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "gcgDfrrqpwPjzM9KJ6nhF",
-    "id": "AST",
-    "name": "Armory Deck - Aurora",
-    "printings": [
-      {
-        "unique_id": "RHCcdJ96gKmmT9jPCwTbP",
-        "edition": "N",
-        "start_card_id": "AST001",
-        "end_card_id": "AST028",
-        "initial_release_date": "2025-03-14T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/armory-deck-aurora-shooting-star/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-aurora/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1stk_aurora_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "kL8Njk8QtNN7dGchTQqQf",
-    "id": "AUA",
-    "name": "Aurora Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "KfNpJDJFqpJnzhPRBWqJr",
-        "edition": "N",
-        "start_card_id": "AUA001",
-        "end_card_id": "AUA029",
-        "initial_release_date": "2024-09-20T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-aurora/",
-        "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "8Ft6TJJCLmmfnFDnwddMR",
-    "id": "AUR",
-    "name": "First Strike - Aurora",
-    "printings": [
-      {
-        "unique_id": "mbwq7RbKjKhzPfr7PTCMg",
-        "edition": "N",
-        "start_card_id": "AUR001",
-        "end_card_id": "AUR029",
-        "initial_release_date": "2024-08-23T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/1st-strike-aurora/",
-        "product_page": "https://fabtcg.com/products/booster-set/1st-strike/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/rosetta-1st-strike/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1stk_aurora_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "mJpgFHnK99p6HDdWWhzML",
-    "id": "AVS",
-    "name": "Armory Deck Legends - Viserai",
-    "printings": [
-      {
-        "unique_id": "KrWcdgddCbgp9nqwKtGmf",
-        "edition": "N",
-        "start_card_id": "AVS001",
-        "end_card_id": "AVS003",
-        "initial_release_date": "2025-07-24T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/amory-deck-legends-viserai-rune-blood/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-legends/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "7DwGmMt7dfMKMwTKFQ6hB",
-    "id": "AZL",
-    "name": "Azalea Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "zjqQPB9QdmmthRGQ8KNjB",
-        "edition": "N",
-        "start_card_id": "AZL001",
-        "end_card_id": "AZL030",
-        "initial_release_date": "2023-03-24T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/azalea-blitz-deck/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "mGktWtqzRWGPg6F78RFqh",
-    "id": "BDD",
-    "name": "Bravo Demo Deck",
-    "printings": [
-      {
-        "unique_id": "gmN7PQHjkGMmpjBhDDDnN",
-        "edition": "N",
-        "start_card_id": "BDD001",
-        "end_card_id": "BDD018",
-        "initial_release_date": "2025-08-08T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/bravo-demo-deck/",
-        "product_page": "https://fabtcg.com/en/products/bravo-demo-deck/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "bppTqJLgqJpNMjBcRrcp7",
-    "id": "BEN",
-    "name": "Benji Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "tNfDb6TzCPmLhPd7H7qkF",
-        "edition": "N",
-        "start_card_id": "BEN001",
-        "end_card_id": "BEN026",
-        "initial_release_date": "2023-03-24T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/benji-blitz-deck/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "KP7GC9CdJBWjqNjcpbBDN",
-    "id": "BET",
-    "name": "Betsy Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "9qbkzGGLN6KNpgc6rfjmQ",
-        "edition": "N",
-        "start_card_id": "BET001",
-        "end_card_id": "BET030",
-        "initial_release_date": "2024-02-02T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/betsy-heavy-hitters-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "HPKkthwQKdFTDgK6WTQqR",
-    "id": "BOL",
-    "name": "Boltyn Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "n6wkdLnFDWKc8CHmdRWfP",
-        "edition": "N",
-        "start_card_id": "BOL001",
-        "end_card_id": "BOL030",
-        "initial_release_date": "2021-05-07T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
-        "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
-        "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/boltyn-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "h8mR6RdH6nnMFGTdF6ffF",
-    "id": "BRI",
-    "name": "Briar Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "bWRn6KwrjpdP6wqjtGFGW",
-        "edition": "N",
-        "start_card_id": "BRI001",
-        "end_card_id": "BRI031",
-        "initial_release_date": "2021-11-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/products/booster-set/tales-aria-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria/briar-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "6T9cpCjmwNtMRkD6c6pNC",
-    "id": "BVO",
-    "name": "Bravo Hero Deck",
-    "printings": [
-      {
-        "unique_id": "dm7Fg7BbmhtWN7TFPKb6f",
-        "edition": "N",
-        "start_card_id": "BVO001",
-        "end_card_id": "BVO029",
-        "initial_release_date": "2019-10-11T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/bravo-showstopper-hero-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/bravo-hero-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "t8PhhW96tJJTnN7f77C7b",
-    "id": "CHN",
-    "name": "Chane Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "CgFtfkdRwHbdCmKz8kmRC",
-        "edition": "N",
-        "start_card_id": "CHN001",
-        "end_card_id": "CHN030",
-        "initial_release_date": "2021-05-07T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
-        "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
-        "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/chane-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "DPzPjHGgBmc7mDjfjBk9P",
-    "id": "CIN",
-    "name": "Cindra Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "8GcbnHRjkMGphRrTRqwBk",
-        "edition": "N",
-        "start_card_id": "CIN001",
-        "end_card_id": "CIN029",
-        "initial_release_date": "2025-01-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted-blitz-deck-collection/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/the-hunted/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "K8MGfzFdqWGwrcJgpDqRR",
-    "id": "CRU",
-    "name": "Crucible of War",
-    "printings": [
-      {
-        "unique_id": "ntpBR6gq8FMwbrc7nD8Nz",
-        "edition": "F",
-        "start_card_id": "CRU000",
-        "end_card_id": "CRU197",
-        "initial_release_date": "2020-08-28T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/crucible-of-war/",
-        "product_page": "https://fabtcg.com/products/booster-set/crucible-war/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/crucible-of-war/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/crucible-war-booster/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/crucible-war/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cru_logo_stacked.original.png"
-      },
-      {
-        "unique_id": "7bHMKdmh9wJkpqH6Hk7rM",
-        "edition": "U",
-        "start_card_id": "CRU000",
-        "end_card_id": "CRU197",
-        "initial_release_date": "2021-06-30T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/crucible-of-war-unlimited/",
-        "product_page": "https://fabtcg.com/products/booster-set/crucible-war-unlimited/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/crucible-of-war/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/crucible-war-unlimited/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/crucible-war/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cru_logo_stacked.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "KhcHnWztNdGbLgJbtzbHC",
-    "id": "DRO",
-    "name": "Dromai Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "7WJDkL9JR77QmTdfPmt9w",
-        "edition": "N",
-        "start_card_id": "DRO001",
-        "end_card_id": "DRO028",
-        "initial_release_date": "2022-06-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/dromai-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/uprising/uprising-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/uprising/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/uprising/dromai-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "bJBqr7QFQcKcdNMbw9JMB",
-    "id": "DTD",
-    "name": "Dusk till Dawn",
-    "printings": [
-      {
-        "unique_id": "TtNrjrtMbCbMW8JqLNNzt",
-        "edition": "N",
-        "start_card_id": "DTD000",
-        "end_card_id": "DTD235",
-        "initial_release_date": "2023-07-23T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/dusk-till-dawn/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/dusk-till-dawn/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/dusk-till-dawn/",
-        "card_gallery": "https://fabtcg.com/en/resources/card-galleries/dusk-till-dawn/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/dusk-till-dawn/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/dusk_till_dawn_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "kqQtDHQ8pMgcGBRBRFT7c",
-    "id": "DVR",
-    "name": "Classic Battles: Rhinar vs Dorinthea – Dorinthea",
-    "printings": [
-      {
-        "unique_id": "L8TtnhCrGPchHjbJqNj86",
-        "edition": "N",
-        "start_card_id": "DVR001",
-        "end_card_id": "DVR028",
-        "initial_release_date": "2022-05-27T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/products/booster-set/classic-battles-rvd/",
-        "collectors_center": null,
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/classic-battles-rhinar-vs-dorinthea/",
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cb_logo_2.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "HWKQRtfbPPRGqh6dMdQFK",
-    "id": "DYN",
-    "name": "Dynasty",
-    "printings": [
-      {
-        "unique_id": "9Crgw7PnFN69zb9DKzFTb",
-        "edition": "N",
-        "start_card_id": "DYN000",
-        "end_card_id": "DYN246",
-        "initial_release_date": "2022-11-11T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/dynasty/",
-        "product_page": "https://fabtcg.com/products/booster-set/dynasty/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/dynasty/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/dynasty/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/dynasty/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/dynasty_logo_re.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "TWQdqjJfGzCjjCRJzM6PG",
-    "id": "ELE",
-    "name": "Tales of Aria",
-    "printings": [
-      {
-        "unique_id": "NhgmFkNBHjCqB6rBzFp8W",
-        "edition": "F",
-        "start_card_id": "ELE000",
-        "end_card_id": "ELE237",
-        "initial_release_date": "2021-09-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/tales-of-aria/",
-        "product_page": "https://fabtcg.com/products/booster-set/tales-first-ed/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria-booster/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/tales-aria-release-notes/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/toa_logo.original.png"
-      },
-      {
-        "unique_id": "LdhWCQdJmzHn9gChmWRPG",
-        "edition": "U",
-        "start_card_id": "ELE000",
-        "end_card_id": "ELE237",
-        "initial_release_date": "2021-11-12T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/tales-of-aria-unlimited/",
-        "product_page": "https://fabtcg.com/products/booster-set/tales-aria-unlimited/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria-unlimited/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/tales-aria-release-notes/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/toa_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "BjgNW9MLKq9TfgrDzqrCT",
-    "id": "ENG",
-    "name": "Enigma Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "jrFJT6DNmgwrBCNgDBqhJ",
-        "edition": "N",
-        "start_card_id": "ENG001",
-        "end_card_id": "ENG029",
-        "initial_release_date": "2024-05-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/enigma-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/part-the-mistveil-blitz-deck-collection-en/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/part-the-mistveil-collection-box/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "L8K8FRNNHFL9HJdLbJPdr",
-    "id": "EVO",
-    "name": "Bright Lights",
-    "printings": [
-      {
-        "unique_id": "FrDDbdr69bML776RTLjTW",
-        "edition": "N",
-        "start_card_id": "EVO000",
-        "end_card_id": "EVO250",
-        "initial_release_date": "2023-10-06T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/bright-lights/",
-        "product_page": "https://fabtcg.com/articles/evo/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/bright-lights/",
-        "card_gallery": "https://fabtcg.com/en/resources/card-galleries/bright-lights/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/bright-lights-round-the-table/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/bright_lights_logo_3TRCirLnKQgbe.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "pfLLLbcmBpfkqrR9fKGtj",
-    "id": "EVR",
-    "name": "Everfest",
-    "printings": [
-      {
-        "unique_id": "KQGqrFhCnDmkNFcbLBNhp",
-        "edition": "F",
-        "start_card_id": "EVR000",
-        "end_card_id": "EVR197",
-        "initial_release_date": "2022-02-04T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/everfest/",
-        "product_page": "https://fabtcg.com/products/booster-set/everfest/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/everfest/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/everfest-booster/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/everfest/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1ubILjMFFi7Junh.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "zpj7gQ6k67FP97MMMhFRr",
-    "id": "FAB",
-    "name": "Promos",
-    "printings": [
-      {
-        "unique_id": "j76qTFctqc8krqh9GKGmT",
-        "edition": "N",
-        "start_card_id": "FAB001",
-        "end_card_id": "FAB389",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "GN9B6QcH6BCdcJtNCNTwJ",
-    "id": "FAI",
-    "name": "Fai Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "gHqcKjPKKmFfjqMqWqDmW",
-        "edition": "N",
-        "start_card_id": "FAI001",
-        "end_card_id": "FAI027",
-        "initial_release_date": "2022-06-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/fai-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/uprising/uprising-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/uprising/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/uprising/fai-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "GLKrFtFbrPjmdFQBQdhCg",
-    "id": "FLR",
-    "name": "Florian Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "rnL6JdWNFJgfCwh9JF7Kq",
-        "edition": "N",
-        "start_card_id": "FLR001",
-        "end_card_id": "FLR029",
-        "initial_release_date": "2024-09-20T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-florian/",
-        "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "TwzRhRnKNBdWbmnt8JMBN",
-    "id": "FNG",
-    "name": "Fang Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "RPbcG8Ht9nwcTCd6FHwcj",
-        "edition": "N",
-        "start_card_id": "FNG001",
-        "end_card_id": "FNG029",
-        "initial_release_date": "2025-01-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted-blitz-deck-collection/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/the-hunted/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "mMCpM6zqkdb7wKmw6qP6n",
-    "id": "GEM",
-    "name": "GEM Pack Promos",
-    "printings": [
-      {
-        "unique_id": "cWmBzGKHW8GwtJddbDhLJ",
-        "edition": "N",
-        "start_card_id": "GEM001",
-        "end_card_id": "GEM104",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "zQFpFP9kJrcgWJmR8w6Nr",
-    "id": "HER",
-    "name": "Hero Card Promos",
-    "printings": [
-      {
-        "unique_id": "NrpJFBQQGpNM8D9w8BBfG",
-        "edition": "N",
-        "start_card_id": "HER000",
-        "end_card_id": "HER149",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "NHqKhjGQLWB6DqFwcDRWr",
-    "id": "HNT",
-    "name": "The Hunted",
-    "printings": [
-      {
-        "unique_id": "MNCKJJ98TkBTPbBFKL689",
-        "edition": "N",
-        "start_card_id": "HNT000",
-        "end_card_id": "HNT264",
-        "initial_release_date": "2025-01-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/the-hunted/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/the-hunted/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/the_hunted_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "9GGpwPrfzfDL7Pg9wdbFQ",
-    "id": "HVY",
-    "name": "Heavy Hitters",
-    "printings": [
-      {
-        "unique_id": "n8gpKL7pTMQ7zcTdj8fL6",
-        "edition": "N",
-        "start_card_id": "HVY000",
-        "end_card_id": "HVY254",
-        "initial_release_date": "2024-02-02T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/heavy-hitters/",
-        "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/heavy-hitters/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/heavy-hitters/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/heavy_hitters_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "NJH6TM8ThDgd6GKNbMbKm",
-    "id": "IRA",
-    "name": "Ira Welcome Deck",
-    "printings": [
-      {
-        "unique_id": "TntFbKJjRFwMWQpLGnQR8",
-        "edition": "N",
-        "start_card_id": "IRA001",
-        "end_card_id": "IRA012",
-        "initial_release_date": "2019-08-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/ira-welcome-deck-2018/",
-        "product_page": "https://fabtcg.com/products/learn-play/welcome-deck-2019/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/ira-welcome-deck/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/welcome-deck-2019/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "Q7kcdgCRNm6fWmNjgTbnF",
-    "id": "JDG",
-    "name": "Judge Unique Promos",
-    "printings": [
-      {
-        "unique_id": "hqBm7CnKjCWzKBQcph89t",
-        "edition": "N",
-        "start_card_id": "JDG000",
-        "end_card_id": "JDG044",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "MMLdCDCHzbczh9qc9bzGp",
-    "id": "KAT",
-    "name": "Katsu Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "Kw8MWFJtGCLg6hRRjbw9w",
-        "edition": "N",
-        "start_card_id": "KAT001",
-        "end_card_id": "KAT026",
-        "initial_release_date": "2023-03-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/katsu-blitz-deck/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "rgRWRm9GbMpPTt789kgHW",
-    "id": "KSI",
-    "name": "Kassai Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "C7KjLHKwBJhRH9qqdFjbg",
-        "edition": "N",
-        "start_card_id": "KSI001",
-        "end_card_id": "KSI030",
-        "initial_release_date": "2024-02-02T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/kassai-heavy-hitters-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "Wp8RnQbnhjM8dPR7CjJLj",
-    "id": "KSU",
-    "name": "Katsu Hero Deck",
-    "printings": [
-      {
-        "unique_id": "JGhkz7dKNtQd9czpFhhhr",
-        "edition": "N",
-        "start_card_id": "KSU001",
-        "end_card_id": "KSU030",
-        "initial_release_date": "2019-10-11T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/katsu-the-wanderer-hero-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/katsu-hero-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "DmbjR8R9B8jPfCgcn7dL8",
-    "id": "KYO",
-    "name": "Kayo Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "qdLrpf9jRrTRkpDGMgG7r",
-        "edition": "N",
-        "start_card_id": "KYO001",
-        "end_card_id": "KYO029",
-        "initial_release_date": "2024-02-02T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/kayo-heavy-hitters-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "Mm8n6LDWrjhRKmghDpH8F",
-    "id": "LEV",
-    "name": "Levia Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "K6wwtbnmnfkfBp9WfBjfN",
-        "edition": "N",
-        "start_card_id": "LEV001",
-        "end_card_id": "LEV029",
-        "initial_release_date": "2021-05-07T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
-        "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
-        "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/levia-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "Q7pWcKBwRPzjFthNTWWnR",
-    "id": "LGS",
-    "name": "Local Game Store Promos",
-    "printings": [
-      {
-        "unique_id": "Cbc6mFhKFNdqtCTJ9wwGJ",
-        "edition": "N",
-        "start_card_id": "LGS001",
-        "end_card_id": "LGS427",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "FbC6d7CCD9frkFTJ8BMLJ",
-    "id": "LSS",
-    "name": "LSS Promos",
-    "printings": [
-      {
-        "unique_id": "B8Nwc79RrDqgRrqPCczFb",
-        "edition": "N",
-        "start_card_id": "LSS001",
-        "end_card_id": "LSS019",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "NtFmMN7FrrD9T7wNmRfbP",
-    "id": "LXI",
-    "name": "Lexi Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "fmdGdJjn7hfBDHdqhPm8z",
-        "edition": "N",
-        "start_card_id": "LXI001",
-        "end_card_id": "LXI030",
-        "initial_release_date": "2021-11-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/products/booster-set/tales-aria-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria/lexi-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "RqqtdMH8fDBPCnjDcLNdT",
-    "id": "MON",
-    "name": "Monarch",
-    "printings": [
-      {
-        "unique_id": "dbdr7LtkJqHKPRthwCfhq",
-        "edition": "F",
-        "start_card_id": "MON000",
-        "end_card_id": "MON306",
-        "initial_release_date": "2021-05-07T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/monarch/",
-        "product_page": "https://fabtcg.com/products/booster-set/monarch/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/monarch-booster/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/monarch/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/0zIUv0bFVWaD.original.png"
-      },
-      {
-        "unique_id": "GbmNLthWjCHfML9thPbbt",
-        "edition": "U",
-        "start_card_id": "MON000",
-        "end_card_id": "MON306",
-        "initial_release_date": "2021-06-04T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/monarch-unlimited/",
-        "product_page": "https://fabtcg.com/products/booster-set/monarch-unlimited/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/monarch-booster-unlimited/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/monarch/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/0zIUv0bFVWaD.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "bLQtwmQ8wzKq7Q7WJGtTr",
-    "id": "MPG",
-    "name": "Mastery Pack Guardian",
-    "printings": [
-      {
-        "unique_id": "h8wHg96nBztBqFwNwh9wQ",
-        "edition": "N",
-        "start_card_id": "MPG001",
-        "end_card_id": "MPG129",
-        "initial_release_date": "2025-08-08T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/mastery-pack-guardian/",
-        "product_page": null,
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "CcM86B8czTkgchQFnGmkQ",
-    "id": "MST",
-    "name": "Part the Mistveil",
-    "printings": [
-      {
-        "unique_id": "pzpfGzzTRdLfqkQk9zRNw",
-        "edition": "N",
-        "start_card_id": "MST000",
-        "end_card_id": "MST238",
-        "initial_release_date": "2024-05-31T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/part-the-mistveil/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/part-the-mistveil/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
-        "card_gallery": "https://fabtcg.com/en/resources/card-galleries/part-the-mistveil-en/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/part-the-mistveil/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/logo_mst.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "W8669Tr9cwthfDthNjKP9",
-    "id": "NUU",
-    "name": "Nuu Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "DQzBtkPmtffbqTFtgDGKj",
-        "edition": "N",
-        "start_card_id": "NUU001",
-        "end_card_id": "NUU029",
-        "initial_release_date": "2024-05-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/nuu-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/part-the-mistveil-blitz-deck-collection-en/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/part-the-mistveil-collection-box/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "pRmKczPQQff9T6HTkqHkm",
-    "id": "OLA",
-    "name": "Olympia Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "8bcCwFdQGfdTMTKRFKPQ6",
-        "edition": "N",
-        "start_card_id": "OLA001",
-        "end_card_id": "OLA030",
-        "initial_release_date": "2024-02-02T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/olympia-heavy-hitters-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "jHCNJwm8Q6Gm7L8mLQ8Tg",
-    "id": "OLD",
-    "name": "Oldhim Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "mFC8QR7k8T9WM8HHm9PPm",
-        "edition": "N",
-        "start_card_id": "OLD001",
-        "end_card_id": "OLD032",
-        "initial_release_date": "2021-11-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/products/booster-set/tales-aria-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria/oldhim-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "cFBW9t8bwBJGHtjBFfHLK",
-    "id": "OSC",
-    "name": "Oscilio Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "9PtBdQJFckLF9fgWQNdMM",
-        "edition": "N",
-        "start_card_id": "OSC001",
-        "end_card_id": "OSC029",
-        "initial_release_date": "2024-09-20T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-oscilio/",
-        "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "rqprmGL98FMqcPzPBpKmQ",
-    "id": "OUT",
-    "name": "Outsiders",
-    "printings": [
-      {
-        "unique_id": "zd6wBL7zcQR7zrJhwCjrh",
-        "edition": "N",
-        "start_card_id": "OUT000",
-        "end_card_id": "OUT238",
-        "initial_release_date": "2023-03-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/outsiders/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/outsiders/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/outsiders/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/outsiders/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/outsiders23012.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "bNCWTDLLz6CHGDJzCMCjk",
-    "id": "OXO",
-    "name": "Slingshot Underground Promos",
-    "printings": [
-      {
-        "unique_id": "ktkCBtLJGWMPm9cWz77NK",
-        "edition": "N",
-        "start_card_id": "OXO001",
-        "end_card_id": "OXO004",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "NGqTPbzCC6QN6Nkwjrthj",
-    "id": "PSM",
-    "name": "Prism Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "hzWkt9H79fgkLqC6wqctH",
-        "edition": "N",
-        "start_card_id": "PSM001",
-        "end_card_id": "PSM030",
-        "initial_release_date": "2021-05-07T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
-        "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
-        "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/prism-blitz-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "kjKBztc6Jwkbjm8FfTgtL",
-    "id": "RIP",
-    "name": "Riptide Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "9kpCbmwz6ckdqc8B7kKkC",
-        "edition": "N",
-        "start_card_id": "RIP001",
-        "end_card_id": "RIP030",
-        "initial_release_date": "2023-03-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/riptide-blitz-deck/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "BqWfHnHgd8BtnF9FHBNHG",
-    "id": "RHI",
-    "name": "Rhinar Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "DnzncFjbdKCmJjgMJrrR6",
-        "edition": "N",
-        "start_card_id": "RHI001",
-        "end_card_id": "RHI029",
-        "initial_release_date": "2024-02-02T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/rhinar-heavy-hitters-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "PNQNFFcPRnMQMHmB6t9t6",
-    "id": "RNR",
-    "name": "Rhinar Hero Deck",
-    "printings": [
-      {
-        "unique_id": "ggnCrPfFT8F88mn9qK9pq",
-        "edition": "N",
-        "start_card_id": "RNR001",
-        "end_card_id": "RNR031",
-        "initial_release_date": "2019-10-11T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/rhinar-reckless-rampage-hero-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/rhinar-hero-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "NbL9J9Mqb9QHc9FRJGTwd",
-    "id": "ROS",
-    "name": "Rosetta",
-    "printings": [
-      {
-        "unique_id": "fH8hKWnpHw9MWq7jFhkKT",
-        "edition": "N",
-        "start_card_id": "ROS000",
-        "end_card_id": "ROS257",
-        "initial_release_date": "2024-09-20T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/rosetta/",
-        "product_page": "https://fabtcg.com/products/booster-set/rosetta/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
-        "card_gallery": null,
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/rosetta-1st-strike/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/logo_rosetta_full.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "fwzFkTTtW8gqwTCbLRNbP",
-    "id": "RVD",
-    "name": "Classic Battles: Rhinar vs Dorinthea – Rhinar",
-    "printings": [
-      {
-        "unique_id": "8hQ7rQjcwMTrHcBcjwdQL",
-        "edition": "N",
-        "start_card_id": "RVD001",
-        "end_card_id": "RVD027",
-        "initial_release_date": "2022-05-27T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/products/booster-set/classic-battles-rvd/",
-        "collectors_center": null,
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/classic-battles-rhinar-vs-dorinthea/",
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cb_logo_2.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "wgpfKBFMGm8WqjnkbBkcw",
-    "id": "SEA",
-    "name": "High Seas",
-    "printings": [
-      {
-        "unique_id": "7BqWG8Lr8FRNHwWtP8GN6",
-        "edition": "N",
-        "start_card_id": "SEA000",
-        "end_card_id": "SEA264",
-        "initial_release_date": "2025-06-06T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/high-seas/",
-        "product_page": null,
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/high_seas_logo_noglow.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "kbPrb6NpWfFwMJHzBb8kn",
-    "id": "SMP",
-    "name": "Smash Palace",
-    "printings": [
-      {
-        "unique_id": "GFtp6DWhdzP6M9n7tk6FH",
-        "edition": "N",
-        "start_card_id": "SMP001",
-        "end_card_id": "SMP034",
-        "initial_release_date": "2025-08-29T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/smash-palace/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/smash-palace/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "HwFzNL9HbGLbfB8TjDrBF",
-    "id": "SUP",
-    "name": "Super Slam",
-    "printings": [
-      {
-        "unique_id": "wJwjGbHjzbbFJdGdGJMMh",
-        "edition": "N",
-        "start_card_id": "SUP000",
-        "end_card_id": "SUP275",
-        "initial_release_date": "2025-09-26T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/super-slam/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/super-slam/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/super_slam_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "NnTrbw6jDGjwPJBMNqdd8",
-    "id": "TCC",
-    "name": "Round the Table: TCC X LSS",
-    "printings": [
-      {
-        "unique_id": "GwmtwKNQqTBHMMQt6hLMr",
-        "edition": "N",
-        "start_card_id": "TCC001",
-        "end_card_id": "TCC108",
-        "initial_release_date": "2023-09-29T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/articles/TCC/",
-        "collectors_center": null,
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/round-the-table-tcc-x-lss/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/bright-lights-round-the-table/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/round_the_table.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "dnrqf9WmFbQNHTkkk6htL",
-    "id": "TEA",
-    "name": "Dorinthea Hero Deck",
-    "printings": [
-      {
-        "unique_id": "rcrF8h6dTHwQd9qR6gRnD",
-        "edition": "N",
-        "start_card_id": "TEA001",
-        "end_card_id": "TEA030",
-        "initial_release_date": "2019-10-11T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/dorinthea-ironsong-hero-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/dorinthea-hero-deck/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "bPGJ6JwTbtmJHQQDbMhjg",
-    "id": "TER",
-    "name": "First Strike - Terra",
-    "printings": [
-      {
-        "unique_id": "RJJGtpc9hTmppLj8BCCwP",
-        "edition": "N",
-        "start_card_id": "TER001",
-        "end_card_id": "TER030",
-        "initial_release_date": "2024-08-23T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/1st-strike-terra/",
-        "product_page": "https://fabtcg.com/products/booster-set/1st-strike/",
-        "collectors_center": null,
-        "card_gallery": null,
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/rosetta-1st-strike/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1stk_terra_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "dBgRbDmcFzW9kGnPFrqQ8",
-    "id": "UPR",
-    "name": "Uprising",
-    "printings": [
-      {
-        "unique_id": "RFJzQMnLBzFNqjL7BdJgj",
-        "edition": "N",
-        "start_card_id": "UPR000",
-        "end_card_id": "UPR225",
-        "initial_release_date": "2022-06-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/uprising/",
-        "product_page": "https://fabtcg.com/products/booster-set/uprising/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/uprising/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/uprising/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/uprising/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/KS40Q76S1e5DuPQ.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "7tp6jGn6pHTfDJLhKTpFz",
-    "id": "UZU",
-    "name": "Uzuri Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "6NGWpLQ6bGfKLrghCJD9m",
-        "edition": "N",
-        "start_card_id": "UZU001",
-        "end_card_id": "UZU031",
-        "initial_release_date": "2023-03-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/uzuri-blitz-deck/",
-        "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "hgDchLgGMBd8gnntLfmnn",
-    "id": "VER",
-    "name": "Verdance Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "H6wgFMHLKRwmPDKTwNnPF",
-        "edition": "N",
-        "start_card_id": "VER001",
-        "end_card_id": "VER028",
-        "initial_release_date": "2024-09-20T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-verdance/",
-        "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "RJdbhzKTCkTW9HCbphgJn",
-    "id": "VIC",
-    "name": "Victor Goldmane Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "TfzGq9K9Ctg98wnHpBQDf",
-        "edition": "N",
-        "start_card_id": "VIC001",
-        "end_card_id": "VIC030",
-        "initial_release_date": "2024-02-02T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/victor-heavy-hitters-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "bKWKRDkTtWgGww6kjtfhR",
-    "id": "WIN",
-    "name": "Worlds / Pro Tour Prize Cards",
-    "printings": [
-      {
-        "unique_id": "LWc9gCNhcGWHCP6KcGzbj",
-        "edition": "N",
-        "start_card_id": "WIN001",
-        "end_card_id": "WIN045",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "z76hC7kM6jcNzPgqkTwqf",
-    "id": "WTR",
-    "name": "Welcome to Rathe",
-    "printings": [
-      {
-        "unique_id": "C9dGnhCMDWQdD7rC7QbHj",
-        "edition": "A",
-        "start_card_id": "WTR000",
-        "end_card_id": "WTR225",
-        "initial_release_date": "2019-10-11T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/welcome-to-rathe/",
-        "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/welcome-rathe-booster/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/welcome-rathe/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/wtr_logo.original.png"
-      },
-      {
-        "unique_id": "6CntKbGMhcBqqnHmgGM99",
-        "edition": "U",
-        "start_card_id": "WTR000",
-        "end_card_id": "WTR225",
-        "initial_release_date": "2020-11-06T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/welcome-to-rathe-unlimited/",
-        "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe-unlimited/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/welcome-rathe-unlimited-booster/",
-        "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/welcome-rathe/",
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/wtr_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "FcJD8jDhLNKKtBDhLnNLt",
-    "id": "WOD",
-    "name": "Arakni, Web of Deceit Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "wwRLKLgMjRWNfjtGBJzLC",
-        "edition": "N",
-        "start_card_id": "WOD001",
-        "end_card_id": "WOD034",
-        "initial_release_date": "2025-01-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted-blitz-deck-collection/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/the-hunted/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "CbWCHFq7RhQzDBjCtLcRj",
-    "id": "XXX",
-    "name": "OP Event Tokens",
-    "printings": [
-      {
-        "unique_id": "jFWLRtB7MjFFLbNFRCLcT",
-        "edition": "N",
-        "start_card_id": "XXX001",
-        "end_card_id": "XXX012",
-        "initial_release_date": null,
-        "out_of_print": false,
-        "card_database": null,
-        "product_page": null,
-        "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "qbQ7PPMpCBwbmdw7qPLLG",
-    "id": "ZEN",
-    "name": "Zen Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "9zcKjnfLGBJRGCCgGtJ8d",
-        "edition": "N",
-        "start_card_id": "ZEN001",
-        "end_card_id": "ZEN029",
-        "initial_release_date": "2024-05-31T00:00:00.000Z",
-        "out_of_print": false,
-        "card_database": "https://cards.fabtcg.com/products/zen-blitz-deck/",
-        "product_page": "https://fabtcg.com/products/booster-set/part-the-mistveil-blitz-deck-collection-en/",
-        "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
-        "card_gallery": "https://fabtcg.com/resources/card-galleries/part-the-mistveil-collection-box/",
-        "release_notes": null,
-        "set_logo": null
-      }
-    ]
-  },
-  {
-    "unique_id": "fRLqTzrtTt6mhdpGdcCWT",
-    "id": "1HB",
-    "name": "History Pack 1 - Bravo Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "BhkfQrRQJ7GnQfzztRnwP",
-        "edition": "N",
-        "start_card_id": "1HB001",
-        "end_card_id": "1HB027",
-        "initial_release_date": "2023-02-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/bravo-blitz-deck/",
-        "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "wD6NncrcKDRKnRNqJjPgq",
-    "id": "1HD",
-    "name": "History Pack 1 - Dash Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "q6kjR6mpPBzHjBzrtgNGM",
-        "edition": "N",
-        "start_card_id": "1HD001",
-        "end_card_id": "1HD028",
-        "initial_release_date": "2023-02-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/dash-blitz-deck/",
-        "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "JDFpMrdk8nnBqcRMcWd6q",
-    "id": "1HT",
-    "name": "History Pack 1 - Dorinthea Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "QhNfhKNmgM9FkGbkn6ngc",
-        "edition": "N",
-        "start_card_id": "1HT001",
-        "end_card_id": "1HT027",
-        "initial_release_date": "2023-02-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/dorinthea-blitz-deck/",
-        "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "zHtRgTHMPH7mM8q6p7CTb",
-    "id": "1HK",
-    "name": "History Pack 1 - Kano Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "MmdgD8MJHLztJ9LDGbkHC",
-        "edition": "N",
-        "start_card_id": "1HK001",
-        "end_card_id": "1HK027",
-        "initial_release_date": "2023-02-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/kano-blitz-deck/",
-        "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "rPLfPFcgRwjLRtWcw79bd",
-    "id": "1HR",
-    "name": "History Pack 1 - Rhinar Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "nBNJFJgBczMhcDCKhLcfp",
-        "edition": "N",
-        "start_card_id": "1HR001",
-        "end_card_id": "1HR026",
-        "initial_release_date": "2023-02-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/rhinar-blitz-deck/",
-        "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
-      }
-    ]
-  },
-  {
-    "unique_id": "HGDbNN6KpqzWbzWDMHt9G",
-    "id": "1HV",
-    "name": "History Pack 1 - Viserai Blitz Deck",
-    "printings": [
-      {
-        "unique_id": "L8dWrCWgChDrbcwLNKKpr",
-        "edition": "N",
-        "start_card_id": "1HV001",
-        "end_card_id": "1HV027",
-        "initial_release_date": "2023-02-24T00:00:00.000Z",
-        "out_of_print": true,
-        "card_database": "https://cards.fabtcg.com/products/viserai-blitz-deck/",
-        "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
-        "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
-        "card_gallery": null,
-        "release_notes": null,
-        "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
-      }
-    ]
-  }
+    {
+        "unique_id": "fRLqTzrtTt6mhdpGdcCWT",
+        "id": "1HB",
+        "name": "History Pack 1 - Bravo Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "BhkfQrRQJ7GnQfzztRnwP",
+                "edition": "N",
+                "start_card_id": "1HB001",
+                "end_card_id": "1HB027",
+                "initial_release_date": "2023-02-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/bravo-blitz-deck/",
+                "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "wD6NncrcKDRKnRNqJjPgq",
+        "id": "1HD",
+        "name": "History Pack 1 - Dash Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "q6kjR6mpPBzHjBzrtgNGM",
+                "edition": "N",
+                "start_card_id": "1HD001",
+                "end_card_id": "1HD028",
+                "initial_release_date": "2023-02-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/dash-blitz-deck/",
+                "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "zHtRgTHMPH7mM8q6p7CTb",
+        "id": "1HK",
+        "name": "History Pack 1 - Kano Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "MmdgD8MJHLztJ9LDGbkHC",
+                "edition": "N",
+                "start_card_id": "1HK001",
+                "end_card_id": "1HK027",
+                "initial_release_date": "2023-02-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/kano-blitz-deck/",
+                "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "QpnqjpTwQfwKpmdtd8H6N",
+        "id": "1HP",
+        "name": "History Pack 1",
+        "printings": [
+            {
+                "unique_id": "rW8hnzQk9DFq89t6Gm9cH",
+                "edition": "N",
+                "start_card_id": "1HP001",
+                "end_card_id": "1HP427",
+                "initial_release_date": "2022-05-06T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/history-pack-1/",
+                "product_page": "https://fabtcg.com/products/booster-set/history-pack-1-en/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/history-pack-1-en-booster/",
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_stacked.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "rPLfPFcgRwjLRtWcw79bd",
+        "id": "1HR",
+        "name": "History Pack 1 - Rhinar Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "nBNJFJgBczMhcDCKhLcfp",
+                "edition": "N",
+                "start_card_id": "1HR001",
+                "end_card_id": "1HR026",
+                "initial_release_date": "2023-02-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/rhinar-blitz-deck/",
+                "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "JDFpMrdk8nnBqcRMcWd6q",
+        "id": "1HT",
+        "name": "History Pack 1 - Dorinthea Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "QhNfhKNmgM9FkGbkn6ngc",
+                "edition": "N",
+                "start_card_id": "1HT001",
+                "end_card_id": "1HT027",
+                "initial_release_date": "2023-02-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/dorinthea-blitz-deck/",
+                "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "HGDbNN6KpqzWbzWDMHt9G",
+        "id": "1HV",
+        "name": "History Pack 1 - Viserai Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "L8dWrCWgChDrbcwLNKKpr",
+                "edition": "N",
+                "start_card_id": "1HV001",
+                "end_card_id": "1HV027",
+                "initial_release_date": "2023-02-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/viserai-blitz-deck/",
+                "product_page": "https://fabtcg.com/articles/history-pack-1-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/history-pack-1/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1hp_blitz_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "zWBwqgLbrnMCHq9rWGFhT",
+        "id": "AAC",
+        "name": "Armory Deck - Arakni",
+        "printings": [
+            {
+                "unique_id": "qcgTbrR8GHqQhRGTRTtNr",
+                "edition": "N",
+                "start_card_id": "AAC001",
+                "end_card_id": "AAC031",
+                "initial_release_date": "2025-12-12T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/armory-deck-arakni-5lp3d-7hru-7h3-cr4x/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-arakni/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "zNF9Rtkg998WkCBCgfJQR",
+        "id": "AAZ",
+        "name": "Armory Deck - Azalea",
+        "printings": [
+            {
+                "unique_id": "NPjbffBKdhHdPcppbqbbL",
+                "edition": "N",
+                "start_card_id": "AAZ001",
+                "end_card_id": "AAZ032",
+                "initial_release_date": "2024-08-02T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/azalea-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/armory-deck-azalea/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/en_ad_azalea_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "TPTpTTGwGRcpmpjLhpMmH",
+        "id": "AGB",
+        "name": "Armory Deck - Gravy Bones",
+        "printings": [
+            {
+                "unique_id": "ggrNmGdbz8LcBRQKdFHnp",
+                "edition": "N",
+                "start_card_id": "AGB001",
+                "end_card_id": "AGB031",
+                "initial_release_date": "2025-05-30T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/armory-deck-gravy-bones/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-gravy-bones/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/gravybones_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "GnCkQJBcdrfnddKT7NqFj",
+        "id": "AHA",
+        "name": "Armory Deck Origins - Hala",
+        "printings": [
+            {
+                "unique_id": "DJtrwcHHtBbDJH6Lb77PR",
+                "edition": "N",
+                "start_card_id": "AHA001",
+                "end_card_id": "AHA027",
+                "initial_release_date": "2026-04-17T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/armory-deck-hala-bladesaint-of-the-vow",
+                "product_page": "https://fabtcg.com/products/product/armory-deck-origins-hala/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "QPwGGk7Tnrtpj7RfD6BJP",
+        "id": "AIO",
+        "name": "Armory Deck - Dash I/O",
+        "printings": [
+            {
+                "unique_id": "FwqNRtTwNgC6Qz6krCwf7",
+                "edition": "N",
+                "start_card_id": "AIO001",
+                "end_card_id": "AIO027",
+                "initial_release_date": "2024-10-18T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/armory-deck-azalea-ace-in-the-hole/",
+                "product_page": "https://fabtcg.com/products/booster-set/armory-deck-dash/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/armory_deck_dash_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "NhqdzMMTrtNQdB6DphMGh",
+        "id": "AJV",
+        "name": "Armory Deck Origins - Jarl Vetreiði",
+        "printings": [
+            {
+                "unique_id": "cD8qW6NqpwjRqpNRrht6D",
+                "edition": "N",
+                "start_card_id": "AJV001",
+                "end_card_id": "AJV030",
+                "initial_release_date": "2024-11-29T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-origins-jarl-vetreidi/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/jarl_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "HJ8Dqhq7tCwKWFCwkjw86",
+        "id": "AKO",
+        "name": "Armory Deck - Kayo",
+        "printings": [
+            {
+                "unique_id": "q77LRn8kGwH9TM76kFWNp",
+                "edition": "N",
+                "start_card_id": "AKO001",
+                "end_card_id": "AKO028",
+                "initial_release_date": "2024-05-03T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/kayo-armory-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/armory-deck-kayo/",
+                "collectors_center": null,
+                "card_gallery": "https://fabtcg.com/en/resources/card-galleries/kayo-armory-deck/",
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/armory_deck_kayo_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "BrRjNCgcqCj7TrJPbrmKk",
+        "id": "AMX",
+        "name": "Amory Deck - Maxx",
+        "printings": [
+            {
+                "unique_id": "Jnr9G9CbTNdtFCc9JdJKG",
+                "edition": "N",
+                "start_card_id": "AMX001",
+                "end_card_id": "AMX028",
+                "initial_release_date": "2025-04-17T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/armory-deck-maxx-the-hype-nitro/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-maxx-nitro/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ad_maxx_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "Gc8MTgWpCN6wJKdQqftFq",
+        "id": "ANQ",
+        "name": "Compendium of Rathe - Antiquity Pack",
+        "printings": [
+            {
+                "unique_id": "nLHMCLWr6cnfBgpFjKLWW",
+                "edition": "N",
+                "start_card_id": "ANQ000",
+                "end_card_id": "ANQ037",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/compendium-of-rathe-antiquity-pack",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "7JCQ7LLWpwmJJ9JFLNgpF",
+        "id": "APR",
+        "name": "Armory Deck Legends - Prism",
+        "printings": [
+            {
+                "unique_id": "mp7fBK9pBCF7kmBrGRdLF",
+                "edition": "N",
+                "start_card_id": "APR001",
+                "end_card_id": "APR003",
+                "initial_release_date": "2025-07-24T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/amory-deck-legends-prism-sculptor-of-arc-light/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-legends/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "qRrM9fKHKgwWwzh9rcrGg",
+        "id": "APS",
+        "name": "Armory Deck - Pleiades",
+        "printings": [
+            {
+                "unique_id": "npPLBdtF6fRmmMgTjgP9j",
+                "edition": "N",
+                "start_card_id": "APS001",
+                "end_card_id": "APS032",
+                "initial_release_date": "2025-09-19T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/armory-deck-pleiades-superstar/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "7LbfKJbkWGGwFJDWJn8GB",
+        "id": "ARA",
+        "name": "Arakni Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "WcjfRJCbhGChDhr87thKC",
+                "edition": "N",
+                "start_card_id": "ARA001",
+                "end_card_id": "ARA029",
+                "initial_release_date": "2023-03-24T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/arakni-blitz-deck/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "F7brMw6wh6mW98Ln9Hh6f",
+        "id": "ARC",
+        "name": "Arcane Rising",
+        "printings": [
+            {
+                "unique_id": "fJhkbkJH6WPtr8ztNTcp9",
+                "edition": "F",
+                "start_card_id": "ARC000",
+                "end_card_id": "ARC218",
+                "initial_release_date": "2020-03-27T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/arcane-rising/",
+                "product_page": "https://fabtcg.com/products/booster-set/arcane-rising/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/arcane-rising/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/arcane-rising/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/arcane-rising/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ARC.original.png"
+            },
+            {
+                "unique_id": "CwPrBwgWTjRL9kPchD6G7",
+                "edition": "U",
+                "start_card_id": "ARC000",
+                "end_card_id": "ARC218",
+                "initial_release_date": "2020-11-20T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/arcane-rising-unlimited/",
+                "product_page": "https://fabtcg.com/products/booster-set/arcane-rising-unlimited/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/arcane-rising/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/arcane-rising-unlimited-booster/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/arcane-rising/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ARC.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "QhLgwK96z8KFMrnWHWD8G",
+        "id": "ARK",
+        "name": "Arakni Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "rjjNJ8JcpGzwbrzmWNTb9",
+                "edition": "N",
+                "start_card_id": "ARK001",
+                "end_card_id": "ARK027",
+                "initial_release_date": "2025-01-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "6wPzLbFHJRQCghFTMnwtJ",
+        "id": "ARR",
+        "name": "Armory Deck - Rhinar",
+        "printings": [
+            {
+                "unique_id": "wjTzRJWPcWRMdC9mKhRbB",
+                "edition": "N",
+                "start_card_id": "ARR001",
+                "end_card_id": "ARR029",
+                "initial_release_date": "2025-11-14T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/armory-deck-rhinar-reckless-rampage/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-rhinar/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "gmPW6zdL8Fkcd7T6Fghdb",
+        "id": "ASB",
+        "name": "Armory Deck - Boltyn",
+        "printings": [
+            {
+                "unique_id": "hcwhwT87GNGLw8dzpzKWn",
+                "edition": "N",
+                "start_card_id": "ASB001",
+                "end_card_id": "ASB028",
+                "initial_release_date": "2024-07-12T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/armory-deck-ser-boltyn-breaker-of-dawn/",
+                "product_page": "https://fabtcg.com/products/booster-set/armory-deck-boltyn/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/ad_boltyn_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "rDTjHH7pgRNCFrrWqpcmQ",
+        "id": "ASR",
+        "name": "Armory Deck - Ira",
+        "printings": [
+            {
+                "unique_id": "rB9MWz686BFgFq8nwtq9j",
+                "edition": "N",
+                "start_card_id": "ASR001",
+                "end_card_id": "ASR027",
+                "initial_release_date": "2025-07-11T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/amory-deck-ira-scarlet-revenger/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-ira/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/AD_Ira_Logo_Glow.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "gcgDfrrqpwPjzM9KJ6nhF",
+        "id": "AST",
+        "name": "Armory Deck - Aurora",
+        "printings": [
+            {
+                "unique_id": "RHCcdJ96gKmmT9jPCwTbP",
+                "edition": "N",
+                "start_card_id": "AST001",
+                "end_card_id": "AST028",
+                "initial_release_date": "2025-03-14T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/armory-deck-aurora-shooting-star/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-aurora/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1stk_aurora_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "kL8Njk8QtNN7dGchTQqQf",
+        "id": "AUA",
+        "name": "Aurora Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "KfNpJDJFqpJnzhPRBWqJr",
+                "edition": "N",
+                "start_card_id": "AUA001",
+                "end_card_id": "AUA029",
+                "initial_release_date": "2024-09-20T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-aurora/",
+                "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "8Ft6TJJCLmmfnFDnwddMR",
+        "id": "AUR",
+        "name": "First Strike - Aurora",
+        "printings": [
+            {
+                "unique_id": "mbwq7RbKjKhzPfr7PTCMg",
+                "edition": "N",
+                "start_card_id": "AUR001",
+                "end_card_id": "AUR029",
+                "initial_release_date": "2024-08-23T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/1st-strike-aurora/",
+                "product_page": "https://fabtcg.com/products/booster-set/1st-strike/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/rosetta-1st-strike/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1stk_aurora_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "mJpgFHnK99p6HDdWWhzML",
+        "id": "AVS",
+        "name": "Armory Deck Legends - Viserai",
+        "printings": [
+            {
+                "unique_id": "KrWcdgddCbgp9nqwKtGmf",
+                "edition": "N",
+                "start_card_id": "AVS001",
+                "end_card_id": "AVS003",
+                "initial_release_date": "2025-07-24T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/amory-deck-legends-viserai-rune-blood/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/armory-deck-legends/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "7DwGmMt7dfMKMwTKFQ6hB",
+        "id": "AZL",
+        "name": "Azalea Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "zjqQPB9QdmmthRGQ8KNjB",
+                "edition": "N",
+                "start_card_id": "AZL001",
+                "end_card_id": "AZL030",
+                "initial_release_date": "2023-03-24T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/azalea-blitz-deck/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "mGktWtqzRWGPg6F78RFqh",
+        "id": "BDD",
+        "name": "Bravo Demo Deck",
+        "printings": [
+            {
+                "unique_id": "gmN7PQHjkGMmpjBhDDDnN",
+                "edition": "N",
+                "start_card_id": "BDD001",
+                "end_card_id": "BDD018",
+                "initial_release_date": "2025-08-08T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/bravo-demo-deck/",
+                "product_page": "https://fabtcg.com/en/products/bravo-demo-deck/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "bppTqJLgqJpNMjBcRrcp7",
+        "id": "BEN",
+        "name": "Benji Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "tNfDb6TzCPmLhPd7H7qkF",
+                "edition": "N",
+                "start_card_id": "BEN001",
+                "end_card_id": "BEN026",
+                "initial_release_date": "2023-03-24T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/benji-blitz-deck/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "KP7GC9CdJBWjqNjcpbBDN",
+        "id": "BET",
+        "name": "Betsy Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "9qbkzGGLN6KNpgc6rfjmQ",
+                "edition": "N",
+                "start_card_id": "BET001",
+                "end_card_id": "BET030",
+                "initial_release_date": "2024-02-02T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/betsy-heavy-hitters-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "HPKkthwQKdFTDgK6WTQqR",
+        "id": "BOL",
+        "name": "Boltyn Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "n6wkdLnFDWKc8CHmdRWfP",
+                "edition": "N",
+                "start_card_id": "BOL001",
+                "end_card_id": "BOL030",
+                "initial_release_date": "2021-05-07T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
+                "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
+                "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/boltyn-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "h8mR6RdH6nnMFGTdF6ffF",
+        "id": "BRI",
+        "name": "Briar Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "bWRn6KwrjpdP6wqjtGFGW",
+                "edition": "N",
+                "start_card_id": "BRI001",
+                "end_card_id": "BRI031",
+                "initial_release_date": "2021-11-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/products/booster-set/tales-aria-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria/briar-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "6T9cpCjmwNtMRkD6c6pNC",
+        "id": "BVO",
+        "name": "Bravo Hero Deck",
+        "printings": [
+            {
+                "unique_id": "dm7Fg7BbmhtWN7TFPKb6f",
+                "edition": "N",
+                "start_card_id": "BVO001",
+                "end_card_id": "BVO029",
+                "initial_release_date": "2019-10-11T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/bravo-showstopper-hero-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/bravo-hero-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "t8PhhW96tJJTnN7f77C7b",
+        "id": "CHN",
+        "name": "Chane Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "CgFtfkdRwHbdCmKz8kmRC",
+                "edition": "N",
+                "start_card_id": "CHN001",
+                "end_card_id": "CHN030",
+                "initial_release_date": "2021-05-07T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
+                "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
+                "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/chane-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "DPzPjHGgBmc7mDjfjBk9P",
+        "id": "CIN",
+        "name": "Cindra Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "8GcbnHRjkMGphRrTRqwBk",
+                "edition": "N",
+                "start_card_id": "CIN001",
+                "end_card_id": "CIN029",
+                "initial_release_date": "2025-01-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted-blitz-deck-collection/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/the-hunted/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "K8MGfzFdqWGwrcJgpDqRR",
+        "id": "CRU",
+        "name": "Crucible of War",
+        "printings": [
+            {
+                "unique_id": "ntpBR6gq8FMwbrc7nD8Nz",
+                "edition": "F",
+                "start_card_id": "CRU000",
+                "end_card_id": "CRU197",
+                "initial_release_date": "2020-08-28T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/crucible-of-war/",
+                "product_page": "https://fabtcg.com/products/booster-set/crucible-war/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/crucible-of-war/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/crucible-war-booster/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/crucible-war/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cru_logo_stacked.original.png"
+            },
+            {
+                "unique_id": "7bHMKdmh9wJkpqH6Hk7rM",
+                "edition": "U",
+                "start_card_id": "CRU000",
+                "end_card_id": "CRU197",
+                "initial_release_date": "2021-06-30T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/crucible-of-war-unlimited/",
+                "product_page": "https://fabtcg.com/products/booster-set/crucible-war-unlimited/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/crucible-of-war/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/crucible-war-unlimited/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/crucible-war/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cru_logo_stacked.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "KhcHnWztNdGbLgJbtzbHC",
+        "id": "DRO",
+        "name": "Dromai Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "7WJDkL9JR77QmTdfPmt9w",
+                "edition": "N",
+                "start_card_id": "DRO001",
+                "end_card_id": "DRO028",
+                "initial_release_date": "2022-06-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/dromai-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/uprising/uprising-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/uprising/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/uprising/dromai-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "bJBqr7QFQcKcdNMbw9JMB",
+        "id": "DTD",
+        "name": "Dusk till Dawn",
+        "printings": [
+            {
+                "unique_id": "TtNrjrtMbCbMW8JqLNNzt",
+                "edition": "N",
+                "start_card_id": "DTD000",
+                "end_card_id": "DTD235",
+                "initial_release_date": "2023-07-23T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/dusk-till-dawn/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/dusk-till-dawn/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/dusk-till-dawn/",
+                "card_gallery": "https://fabtcg.com/en/resources/card-galleries/dusk-till-dawn/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/dusk-till-dawn/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/dusk_till_dawn_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "kqQtDHQ8pMgcGBRBRFT7c",
+        "id": "DVR",
+        "name": "Classic Battles: Rhinar vs Dorinthea – Dorinthea",
+        "printings": [
+            {
+                "unique_id": "L8TtnhCrGPchHjbJqNj86",
+                "edition": "N",
+                "start_card_id": "DVR001",
+                "end_card_id": "DVR028",
+                "initial_release_date": "2022-05-27T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/products/booster-set/classic-battles-rvd/",
+                "collectors_center": null,
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/classic-battles-rhinar-vs-dorinthea/",
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cb_logo_2.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "HWKQRtfbPPRGqh6dMdQFK",
+        "id": "DYN",
+        "name": "Dynasty",
+        "printings": [
+            {
+                "unique_id": "9Crgw7PnFN69zb9DKzFTb",
+                "edition": "N",
+                "start_card_id": "DYN000",
+                "end_card_id": "DYN246",
+                "initial_release_date": "2022-11-11T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/dynasty/",
+                "product_page": "https://fabtcg.com/products/booster-set/dynasty/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/dynasty/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/dynasty/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/dynasty/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/dynasty_logo_re.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "TWQdqjJfGzCjjCRJzM6PG",
+        "id": "ELE",
+        "name": "Tales of Aria",
+        "printings": [
+            {
+                "unique_id": "NhgmFkNBHjCqB6rBzFp8W",
+                "edition": "F",
+                "start_card_id": "ELE000",
+                "end_card_id": "ELE237",
+                "initial_release_date": "2021-09-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/tales-of-aria/",
+                "product_page": "https://fabtcg.com/products/booster-set/tales-first-ed/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria-booster/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/tales-aria-release-notes/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/toa_logo.original.png"
+            },
+            {
+                "unique_id": "LdhWCQdJmzHn9gChmWRPG",
+                "edition": "U",
+                "start_card_id": "ELE000",
+                "end_card_id": "ELE237",
+                "initial_release_date": "2021-11-12T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/tales-of-aria-unlimited/",
+                "product_page": "https://fabtcg.com/products/booster-set/tales-aria-unlimited/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria-unlimited/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/tales-aria-release-notes/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/toa_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "BjgNW9MLKq9TfgrDzqrCT",
+        "id": "ENG",
+        "name": "Enigma Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "jrFJT6DNmgwrBCNgDBqhJ",
+                "edition": "N",
+                "start_card_id": "ENG001",
+                "end_card_id": "ENG029",
+                "initial_release_date": "2024-05-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/enigma-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/part-the-mistveil-blitz-deck-collection-en/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/part-the-mistveil-collection-box/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "L8K8FRNNHFL9HJdLbJPdr",
+        "id": "EVO",
+        "name": "Bright Lights",
+        "printings": [
+            {
+                "unique_id": "FrDDbdr69bML776RTLjTW",
+                "edition": "N",
+                "start_card_id": "EVO000",
+                "end_card_id": "EVO250",
+                "initial_release_date": "2023-10-06T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/bright-lights/",
+                "product_page": "https://fabtcg.com/articles/evo/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/bright-lights/",
+                "card_gallery": "https://fabtcg.com/en/resources/card-galleries/bright-lights/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/bright-lights-round-the-table/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/bright_lights_logo_3TRCirLnKQgbe.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "pfLLLbcmBpfkqrR9fKGtj",
+        "id": "EVR",
+        "name": "Everfest",
+        "printings": [
+            {
+                "unique_id": "KQGqrFhCnDmkNFcbLBNhp",
+                "edition": "F",
+                "start_card_id": "EVR000",
+                "end_card_id": "EVR197",
+                "initial_release_date": "2022-02-04T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/everfest/",
+                "product_page": "https://fabtcg.com/products/booster-set/everfest/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/everfest/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/everfest-booster/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/everfest/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1ubILjMFFi7Junh.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "zpj7gQ6k67FP97MMMhFRr",
+        "id": "FAB",
+        "name": "Promos",
+        "printings": [
+            {
+                "unique_id": "j76qTFctqc8krqh9GKGmT",
+                "edition": "N",
+                "start_card_id": "FAB001",
+                "end_card_id": "FAB399",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "GN9B6QcH6BCdcJtNCNTwJ",
+        "id": "FAI",
+        "name": "Fai Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "gHqcKjPKKmFfjqMqWqDmW",
+                "edition": "N",
+                "start_card_id": "FAI001",
+                "end_card_id": "FAI027",
+                "initial_release_date": "2022-06-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/fai-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/uprising/uprising-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/uprising/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/uprising/fai-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "GLKrFtFbrPjmdFQBQdhCg",
+        "id": "FLR",
+        "name": "Florian Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "rnL6JdWNFJgfCwh9JF7Kq",
+                "edition": "N",
+                "start_card_id": "FLR001",
+                "end_card_id": "FLR029",
+                "initial_release_date": "2024-09-20T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-florian/",
+                "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "TwzRhRnKNBdWbmnt8JMBN",
+        "id": "FNG",
+        "name": "Fang Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "RPbcG8Ht9nwcTCd6FHwcj",
+                "edition": "N",
+                "start_card_id": "FNG001",
+                "end_card_id": "FNG029",
+                "initial_release_date": "2025-01-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted-blitz-deck-collection/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/the-hunted/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "mMCpM6zqkdb7wKmw6qP6n",
+        "id": "GEM",
+        "name": "GEM Pack Promos",
+        "printings": [
+            {
+                "unique_id": "cWmBzGKHW8GwtJddbDhLJ",
+                "edition": "N",
+                "start_card_id": "GEM001",
+                "end_card_id": "GEM140",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "zQFpFP9kJrcgWJmR8w6Nr",
+        "id": "HER",
+        "name": "Hero Card Promos",
+        "printings": [
+            {
+                "unique_id": "NrpJFBQQGpNM8D9w8BBfG",
+                "edition": "N",
+                "start_card_id": "HER000",
+                "end_card_id": "HER159",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "NHqKhjGQLWB6DqFwcDRWr",
+        "id": "HNT",
+        "name": "The Hunted",
+        "printings": [
+            {
+                "unique_id": "MNCKJJ98TkBTPbBFKL689",
+                "edition": "N",
+                "start_card_id": "HNT000",
+                "end_card_id": "HNT264",
+                "initial_release_date": "2025-01-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/the-hunted/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/the-hunted/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/the_hunted_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "9GGpwPrfzfDL7Pg9wdbFQ",
+        "id": "HVY",
+        "name": "Heavy Hitters",
+        "printings": [
+            {
+                "unique_id": "n8gpKL7pTMQ7zcTdj8fL6",
+                "edition": "N",
+                "start_card_id": "HVY000",
+                "end_card_id": "HVY254",
+                "initial_release_date": "2024-02-02T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/heavy-hitters/",
+                "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/heavy-hitters/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/heavy-hitters/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/heavy_hitters_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "NJH6TM8ThDgd6GKNbMbKm",
+        "id": "IRA",
+        "name": "Ira Welcome Deck",
+        "printings": [
+            {
+                "unique_id": "TntFbKJjRFwMWQpLGnQR8",
+                "edition": "N",
+                "start_card_id": "IRA001",
+                "end_card_id": "IRA012",
+                "initial_release_date": "2019-08-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/ira-welcome-deck-2018/",
+                "product_page": "https://fabtcg.com/products/learn-play/welcome-deck-2019/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/ira-welcome-deck/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/welcome-deck-2019/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "Q7kcdgCRNm6fWmNjgTbnF",
+        "id": "JDG",
+        "name": "Judge Unique Promos",
+        "printings": [
+            {
+                "unique_id": "hqBm7CnKjCWzKBQcph89t",
+                "edition": "N",
+                "start_card_id": "JDG000",
+                "end_card_id": "JDG044",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "MMLdCDCHzbczh9qc9bzGp",
+        "id": "KAT",
+        "name": "Katsu Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "Kw8MWFJtGCLg6hRRjbw9w",
+                "edition": "N",
+                "start_card_id": "KAT001",
+                "end_card_id": "KAT026",
+                "initial_release_date": "2023-03-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/katsu-blitz-deck/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "rgRWRm9GbMpPTt789kgHW",
+        "id": "KSI",
+        "name": "Kassai Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "C7KjLHKwBJhRH9qqdFjbg",
+                "edition": "N",
+                "start_card_id": "KSI001",
+                "end_card_id": "KSI030",
+                "initial_release_date": "2024-02-02T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/kassai-heavy-hitters-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "Wp8RnQbnhjM8dPR7CjJLj",
+        "id": "KSU",
+        "name": "Katsu Hero Deck",
+        "printings": [
+            {
+                "unique_id": "JGhkz7dKNtQd9czpFhhhr",
+                "edition": "N",
+                "start_card_id": "KSU001",
+                "end_card_id": "KSU030",
+                "initial_release_date": "2019-10-11T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/katsu-the-wanderer-hero-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/katsu-hero-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "DmbjR8R9B8jPfCgcn7dL8",
+        "id": "KYO",
+        "name": "Kayo Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "qdLrpf9jRrTRkpDGMgG7r",
+                "edition": "N",
+                "start_card_id": "KYO001",
+                "end_card_id": "KYO029",
+                "initial_release_date": "2024-02-02T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/kayo-heavy-hitters-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "Mm8n6LDWrjhRKmghDpH8F",
+        "id": "LEV",
+        "name": "Levia Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "K6wwtbnmnfkfBp9WfBjfN",
+                "edition": "N",
+                "start_card_id": "LEV001",
+                "end_card_id": "LEV029",
+                "initial_release_date": "2021-05-07T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
+                "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
+                "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/levia-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "Q7pWcKBwRPzjFthNTWWnR",
+        "id": "LGS",
+        "name": "Local Game Store Promos",
+        "printings": [
+            {
+                "unique_id": "Cbc6mFhKFNdqtCTJ9wwGJ",
+                "edition": "N",
+                "start_card_id": "LGS001",
+                "end_card_id": "LGS445",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "FbC6d7CCD9frkFTJ8BMLJ",
+        "id": "LSS",
+        "name": "LSS Promos",
+        "printings": [
+            {
+                "unique_id": "B8Nwc79RrDqgRrqPCczFb",
+                "edition": "N",
+                "start_card_id": "LSS001",
+                "end_card_id": "LSS022",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "NtFmMN7FrrD9T7wNmRfbP",
+        "id": "LXI",
+        "name": "Lexi Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "fmdGdJjn7hfBDHdqhPm8z",
+                "edition": "N",
+                "start_card_id": "LXI001",
+                "end_card_id": "LXI030",
+                "initial_release_date": "2021-11-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/products/booster-set/tales-aria-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria/lexi-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "RqqtdMH8fDBPCnjDcLNdT",
+        "id": "MON",
+        "name": "Monarch",
+        "printings": [
+            {
+                "unique_id": "dbdr7LtkJqHKPRthwCfhq",
+                "edition": "F",
+                "start_card_id": "MON000",
+                "end_card_id": "MON306",
+                "initial_release_date": "2021-05-07T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/monarch/",
+                "product_page": "https://fabtcg.com/products/booster-set/monarch/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/monarch-booster/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/monarch/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/0zIUv0bFVWaD.original.png"
+            },
+            {
+                "unique_id": "GbmNLthWjCHfML9thPbbt",
+                "edition": "U",
+                "start_card_id": "MON000",
+                "end_card_id": "MON306",
+                "initial_release_date": "2021-06-04T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/monarch-unlimited/",
+                "product_page": "https://fabtcg.com/products/booster-set/monarch-unlimited/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/monarch-booster-unlimited/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/monarch/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/0zIUv0bFVWaD.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "bLQtwmQ8wzKq7Q7WJGtTr",
+        "id": "MPG",
+        "name": "Mastery Pack Guardian",
+        "printings": [
+            {
+                "unique_id": "h8wHg96nBztBqFwNwh9wQ",
+                "edition": "N",
+                "start_card_id": "MPG000",
+                "end_card_id": "MPG129",
+                "initial_release_date": "2025-08-08T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/mastery-pack-guardian/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "CcM86B8czTkgchQFnGmkQ",
+        "id": "MST",
+        "name": "Part the Mistveil",
+        "printings": [
+            {
+                "unique_id": "pzpfGzzTRdLfqkQk9zRNw",
+                "edition": "N",
+                "start_card_id": "MST000",
+                "end_card_id": "MST238",
+                "initial_release_date": "2024-05-31T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/part-the-mistveil/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/part-the-mistveil/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
+                "card_gallery": "https://fabtcg.com/en/resources/card-galleries/part-the-mistveil-en/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/part-the-mistveil/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/logo_mst.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "W8669Tr9cwthfDthNjKP9",
+        "id": "NUU",
+        "name": "Nuu Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "DQzBtkPmtffbqTFtgDGKj",
+                "edition": "N",
+                "start_card_id": "NUU001",
+                "end_card_id": "NUU029",
+                "initial_release_date": "2024-05-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/nuu-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/part-the-mistveil-blitz-deck-collection-en/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/part-the-mistveil-collection-box/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "pRmKczPQQff9T6HTkqHkm",
+        "id": "OLA",
+        "name": "Olympia Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "8bcCwFdQGfdTMTKRFKPQ6",
+                "edition": "N",
+                "start_card_id": "OLA001",
+                "end_card_id": "OLA030",
+                "initial_release_date": "2024-02-02T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/olympia-heavy-hitters-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "jHCNJwm8Q6Gm7L8mLQ8Tg",
+        "id": "OLD",
+        "name": "Oldhim Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "mFC8QR7k8T9WM8HHm9PPm",
+                "edition": "N",
+                "start_card_id": "OLD001",
+                "end_card_id": "OLD032",
+                "initial_release_date": "2021-11-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/products/booster-set/tales-aria-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/tales-of-aria/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/tales-aria/oldhim-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "cFBW9t8bwBJGHtjBFfHLK",
+        "id": "OSC",
+        "name": "Oscilio Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "9PtBdQJFckLF9fgWQNdMM",
+                "edition": "N",
+                "start_card_id": "OSC001",
+                "end_card_id": "OSC029",
+                "initial_release_date": "2024-09-20T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-oscilio/",
+                "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "rqprmGL98FMqcPzPBpKmQ",
+        "id": "OUT",
+        "name": "Outsiders",
+        "printings": [
+            {
+                "unique_id": "zd6wBL7zcQR7zrJhwCjrh",
+                "edition": "N",
+                "start_card_id": "OUT000",
+                "end_card_id": "OUT238",
+                "initial_release_date": "2023-03-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/outsiders/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/outsiders/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/outsiders/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/outsiders/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/outsiders23012.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "bNCWTDLLz6CHGDJzCMCjk",
+        "id": "OXO",
+        "name": "Slingshot Underground Promos",
+        "printings": [
+            {
+                "unique_id": "ktkCBtLJGWMPm9cWz77NK",
+                "edition": "N",
+                "start_card_id": "OXO001",
+                "end_card_id": "OXO004",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "7KtM6HBqwGfTpGNmCQbt9",
+        "id": "PEN",
+        "name": "Compendium of Rathe",
+        "printings": [
+            {
+                "unique_id": "chrqPgpJpgRWztmTpTGFD",
+                "edition": "N",
+                "start_card_id": "PEN001",
+                "end_card_id": "PEN348",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/compendium-of-rathe/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "NGqTPbzCC6QN6Nkwjrthj",
+        "id": "PSM",
+        "name": "Prism Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "hzWkt9H79fgkLqC6wqctH",
+                "edition": "N",
+                "start_card_id": "PSM001",
+                "end_card_id": "PSM030",
+                "initial_release_date": "2021-05-07T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://fabtcg.com/en/products/booster-set/monarch/monarch-blitz-decks/",
+                "product_page": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/monarch/",
+                "card_gallery": "https://fabtcg.com/products/booster-set/monarch/monarch-blitz-decks/prism-blitz-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "BqWfHnHgd8BtnF9FHBNHG",
+        "id": "RHI",
+        "name": "Rhinar Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "DnzncFjbdKCmJjgMJrrR6",
+                "edition": "N",
+                "start_card_id": "RHI001",
+                "end_card_id": "RHI029",
+                "initial_release_date": "2024-02-02T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/rhinar-heavy-hitters-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "kjKBztc6Jwkbjm8FfTgtL",
+        "id": "RIP",
+        "name": "Riptide Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "9kpCbmwz6ckdqc8B7kKkC",
+                "edition": "N",
+                "start_card_id": "RIP001",
+                "end_card_id": "RIP030",
+                "initial_release_date": "2023-03-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/riptide-blitz-deck/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "PNQNFFcPRnMQMHmB6t9t6",
+        "id": "RNR",
+        "name": "Rhinar Hero Deck",
+        "printings": [
+            {
+                "unique_id": "ggnCrPfFT8F88mn9qK9pq",
+                "edition": "N",
+                "start_card_id": "RNR001",
+                "end_card_id": "RNR031",
+                "initial_release_date": "2019-10-11T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/rhinar-reckless-rampage-hero-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/rhinar-hero-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "NbL9J9Mqb9QHc9FRJGTwd",
+        "id": "ROS",
+        "name": "Rosetta",
+        "printings": [
+            {
+                "unique_id": "fH8hKWnpHw9MWq7jFhkKT",
+                "edition": "N",
+                "start_card_id": "ROS000",
+                "end_card_id": "ROS257",
+                "initial_release_date": "2024-09-20T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/rosetta/",
+                "product_page": "https://fabtcg.com/products/booster-set/rosetta/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
+                "card_gallery": null,
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/rosetta-1st-strike/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/logo_rosetta_full.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "fwzFkTTtW8gqwTCbLRNbP",
+        "id": "RVD",
+        "name": "Classic Battles: Rhinar vs Dorinthea – Rhinar",
+        "printings": [
+            {
+                "unique_id": "8hQ7rQjcwMTrHcBcjwdQL",
+                "edition": "N",
+                "start_card_id": "RVD001",
+                "end_card_id": "RVD027",
+                "initial_release_date": "2022-05-27T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/products/booster-set/classic-battles-rvd/",
+                "collectors_center": null,
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/classic-battles-rhinar-vs-dorinthea/",
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/cb_logo_2.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "Rjj6Bmh9qqzdJdd7ckQbg",
+        "id": "SAR",
+        "name": "Silver Age Chapter 2 - Arakni, Web of Deceit",
+        "printings": [
+            {
+                "unique_id": "8z8ghJpGPjjNkggqCCfN6",
+                "edition": "N",
+                "start_card_id": "SAR001",
+                "end_card_id": "SAR039",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-arakni-web-of-deceit/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "Q9J7zq9bG8ppKB8THHFMC",
+        "id": "SAZ",
+        "name": "Silver Age Chapter 2 - Azalea",
+        "printings": [
+            {
+                "unique_id": "RcFcBBH7DJCfNpmmKWkCM",
+                "edition": "N",
+                "start_card_id": "SAZ001",
+                "end_card_id": "SAZ036",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-azalea/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "9HNctTgFBzmpGMqfm9htF",
+        "id": "SBR",
+        "name": "Silver Age Chapter 1 - Bravo, Flattering Showman",
+        "printings": [
+            {
+                "unique_id": "PmGwtQCKnrHmhkLmnbCW8",
+                "edition": "N",
+                "start_card_id": "SBR001",
+                "end_card_id": "SBR036",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-bravo-flattering-showman/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "QGpqWbPMDWPn7RKMJFtjP",
+        "id": "SDA",
+        "name": "Silver Age Chapter 1 - Dash",
+        "printings": [
+            {
+                "unique_id": "6hTbnzjHTGKWMGNr7jWHq",
+                "edition": "N",
+                "start_card_id": "SDA001",
+                "end_card_id": "SDA034",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-dash/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "HfpzLjmDRw6qDGMGWc7N6",
+        "id": "SDO",
+        "name": "Silver Age Chapter 2 - Dorinthea",
+        "printings": [
+            {
+                "unique_id": "RMFGGLpCHGfDkFCfCPDTF",
+                "edition": "N",
+                "start_card_id": "SDO001",
+                "end_card_id": "SDO036",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-dorinthea/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "wgpfKBFMGm8WqjnkbBkcw",
+        "id": "SEA",
+        "name": "High Seas",
+        "printings": [
+            {
+                "unique_id": "7BqWG8Lr8FRNHwWtP8GN6",
+                "edition": "N",
+                "start_card_id": "SEA000",
+                "end_card_id": "SEA264",
+                "initial_release_date": "2025-06-06T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/high-seas/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/high_seas_logo_noglow.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "NJtgtNMRWjppPT9rFbcJp",
+        "id": "SEN",
+        "name": "Silver Age Chapter 2 - Enigma",
+        "printings": [
+            {
+                "unique_id": "chn7ptqRwMGHr6DLNKtkC",
+                "edition": "N",
+                "start_card_id": "SEN001",
+                "end_card_id": "SEN037",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-enigma/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "gcm9RnTbGttwffjFhTzFP",
+        "id": "SFA",
+        "name": "Silver Age Chapter 2 - Fai",
+        "printings": [
+            {
+                "unique_id": "6FgCqjRwr7TJg6jmJgdbj",
+                "edition": "N",
+                "start_card_id": "SFA001",
+                "end_card_id": "SFA037",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-fai/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "jzP8pqcCmfgWD7tmGNRcL",
+        "id": "SIY",
+        "name": "Silver Age Chapter 1 - Iyslander",
+        "printings": [
+            {
+                "unique_id": "RhNJ7wwHM9Pj68P66FtzQ",
+                "edition": "N",
+                "start_card_id": "SIY001",
+                "end_card_id": "SIY035",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-iyslander/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "TKgjzj6bqCdpBFtWdTDbB",
+        "id": "SKA",
+        "name": "Silver Age Chapter 1 - Kayo",
+        "printings": [
+            {
+                "unique_id": "jmgd6kK86ddBQbqpb8jL9",
+                "edition": "N",
+                "start_card_id": "SKA001",
+                "end_card_id": "SKA036",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-kayo/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "kbPrb6NpWfFwMJHzBb8kn",
+        "id": "SMP",
+        "name": "Smash Palace",
+        "printings": [
+            {
+                "unique_id": "GFtp6DWhdzP6M9n7tk6FH",
+                "edition": "N",
+                "start_card_id": "SMP001",
+                "end_card_id": "SMP034",
+                "initial_release_date": "2025-08-29T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/smash-palace/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/smash-palace/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "HwFzNL9HbGLbfB8TjDrBF",
+        "id": "SUP",
+        "name": "Super Slam",
+        "printings": [
+            {
+                "unique_id": "wJwjGbHjzbbFJdGdGJMMh",
+                "edition": "N",
+                "start_card_id": "SUP000",
+                "end_card_id": "SUP275",
+                "initial_release_date": "2025-09-26T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/super-slam/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/super-slam/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/super_slam_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "jc6DftRfhMjf9rP8g8wGH",
+        "id": "SVI",
+        "name": "Silver Age Chapter 1 - Viserai",
+        "printings": [
+            {
+                "unique_id": "rBDPnkJTCffg7dn9zwGbb",
+                "edition": "N",
+                "start_card_id": "SVI001",
+                "end_card_id": "SVI034",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-viserai/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "NnTrbw6jDGjwPJBMNqdd8",
+        "id": "TCC",
+        "name": "Round the Table: TCC X LSS",
+        "printings": [
+            {
+                "unique_id": "GwmtwKNQqTBHMMQt6hLMr",
+                "edition": "N",
+                "start_card_id": "TCC001",
+                "end_card_id": "TCC108",
+                "initial_release_date": "2023-09-29T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/articles/TCC/",
+                "collectors_center": null,
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/round-the-table-tcc-x-lss/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/bright-lights-round-the-table/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/round_the_table.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "dnrqf9WmFbQNHTkkk6htL",
+        "id": "TEA",
+        "name": "Dorinthea Hero Deck",
+        "printings": [
+            {
+                "unique_id": "rcrF8h6dTHwQd9qR6gRnD",
+                "edition": "N",
+                "start_card_id": "TEA001",
+                "end_card_id": "TEA030",
+                "initial_release_date": "2019-10-11T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/dorinthea-ironsong-hero-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/wtr-hero-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/dorinthea-hero-deck/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "bPGJ6JwTbtmJHQQDbMhjg",
+        "id": "TER",
+        "name": "First Strike - Terra",
+        "printings": [
+            {
+                "unique_id": "RJJGtpc9hTmppLj8BCCwP",
+                "edition": "N",
+                "start_card_id": "TER001",
+                "end_card_id": "TER030",
+                "initial_release_date": "2024-08-23T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/1st-strike-terra/",
+                "product_page": "https://fabtcg.com/products/booster-set/1st-strike/",
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/rosetta-1st-strike/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/1stk_terra_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "hPLgdFQPqGfn8GpJ8Rqg6",
+        "id": "TNP",
+        "name": "Tournament Pack",
+        "printings": [
+            {
+                "unique_id": "9qTTzdG9cWdHPjN86TWJ7",
+                "edition": "N",
+                "start_card_id": "TNP001",
+                "end_card_id": "TNP030",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "dBgRbDmcFzW9kGnPFrqQ8",
+        "id": "UPR",
+        "name": "Uprising",
+        "printings": [
+            {
+                "unique_id": "RFJzQMnLBzFNqjL7BdJgj",
+                "edition": "N",
+                "start_card_id": "UPR000",
+                "end_card_id": "UPR225",
+                "initial_release_date": "2022-06-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/uprising/",
+                "product_page": "https://fabtcg.com/products/booster-set/uprising/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/uprising/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/uprising/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/uprising/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/KS40Q76S1e5DuPQ.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "7tp6jGn6pHTfDJLhKTpFz",
+        "id": "UZU",
+        "name": "Uzuri Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "6NGWpLQ6bGfKLrghCJD9m",
+                "edition": "N",
+                "start_card_id": "UZU001",
+                "end_card_id": "UZU031",
+                "initial_release_date": "2023-03-24T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/uzuri-blitz-deck/",
+                "product_page": "https://fabtcg.com/en/products/booster-set/outsiders/outsiders-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/outsiders/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "hgDchLgGMBd8gnntLfmnn",
+        "id": "VER",
+        "name": "Verdance Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "H6wgFMHLKRwmPDKTwNnPF",
+                "edition": "N",
+                "start_card_id": "VER001",
+                "end_card_id": "VER028",
+                "initial_release_date": "2024-09-20T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/rosetta-blitz-deck-verdance/",
+                "product_page": "https://fabtcg.com/products/booster-set/rosetta-blitz-deck-collection/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/rosetta/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "RJdbhzKTCkTW9HCbphgJn",
+        "id": "VIC",
+        "name": "Victor Goldmane Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "TfzGq9K9Ctg98wnHpBQDf",
+                "edition": "N",
+                "start_card_id": "VIC001",
+                "end_card_id": "VIC030",
+                "initial_release_date": "2024-02-02T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/victor-heavy-hitters-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/heavy-hitters/heavy-hitters-blitz-decks/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/heavy-hitters/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "bKWKRDkTtWgGww6kjtfhR",
+        "id": "WIN",
+        "name": "Worlds / Pro Tour Prize Cards",
+        "printings": [
+            {
+                "unique_id": "LWc9gCNhcGWHCP6KcGzbj",
+                "edition": "N",
+                "start_card_id": "WIN001",
+                "end_card_id": "WIN045",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "FcJD8jDhLNKKtBDhLnNLt",
+        "id": "WOD",
+        "name": "Arakni, Web of Deceit Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "wwRLKLgMjRWNfjtGBJzLC",
+                "edition": "N",
+                "start_card_id": "WOD001",
+                "end_card_id": "WOD034",
+                "initial_release_date": "2025-01-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted-blitz-deck-collection/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/the-hunted/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "z76hC7kM6jcNzPgqkTwqf",
+        "id": "WTR",
+        "name": "Welcome to Rathe",
+        "printings": [
+            {
+                "unique_id": "C9dGnhCMDWQdD7rC7QbHj",
+                "edition": "A",
+                "start_card_id": "WTR000",
+                "end_card_id": "WTR225",
+                "initial_release_date": "2019-10-11T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/welcome-to-rathe/",
+                "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/welcome-rathe-booster/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/wtr_logo.original.png"
+            },
+            {
+                "unique_id": "6CntKbGMhcBqqnHmgGM99",
+                "edition": "U",
+                "start_card_id": "WTR000",
+                "end_card_id": "WTR225",
+                "initial_release_date": "2020-11-06T00:00:00.000Z",
+                "out_of_print": true,
+                "card_database": "https://cards.fabtcg.com/products/welcome-to-rathe-unlimited/",
+                "product_page": "https://fabtcg.com/products/booster-set/welcome-rathe-unlimited/",
+                "collectors_center": "https://fabtcg.com/collectors-centre/welcome-rathe/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/welcome-rathe-unlimited-booster/",
+                "release_notes": "https://fabtcg.com/en/resources/rules-and-policy-center/release-notes/welcome-rathe/",
+                "set_logo": "https://dhhim4ltzu1pj.cloudfront.net/media/images/wtr_logo.original.png"
+            }
+        ]
+    },
+    {
+        "unique_id": "CbWCHFq7RhQzDBjCtLcRj",
+        "id": "XXX",
+        "name": "OP Event Tokens",
+        "printings": [
+            {
+                "unique_id": "jFWLRtB7MjFFLbNFRCLcT",
+                "edition": "N",
+                "start_card_id": "XXX001",
+                "end_card_id": "XXX012",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": "https://fabtcg.com/collectors-centre/promos-and-extras/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "qbQ7PPMpCBwbmdw7qPLLG",
+        "id": "ZEN",
+        "name": "Zen Blitz Deck",
+        "printings": [
+            {
+                "unique_id": "9zcKjnfLGBJRGCCgGtJ8d",
+                "edition": "N",
+                "start_card_id": "ZEN001",
+                "end_card_id": "ZEN029",
+                "initial_release_date": "2024-05-31T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cards.fabtcg.com/products/zen-blitz-deck/",
+                "product_page": "https://fabtcg.com/products/booster-set/part-the-mistveil-blitz-deck-collection-en/",
+                "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
+                "card_gallery": "https://fabtcg.com/resources/card-galleries/part-the-mistveil-collection-box/",
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    }
 ]
