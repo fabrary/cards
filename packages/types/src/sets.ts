@@ -1799,6 +1799,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["aha"],
     talents: [],
   },
+  {
+    cards: 40,
+    classes: [Class.Wizard],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP" },
+    ],
+    heroes: [Hero.Blaze],
+    languages: ALL_LANGUAGES,
+    release: Release.BlazeSilverAgeDeck,
+    relatedReleases: [],
+    releaseDate: "2026-07-05 12:00",
+    releaseType: ReleaseType.SilverAgeDeck,
+    setIdentifiers: ["sbz"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1887,6 +1902,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   sar: Release.ArakniSilverAgeDeck,
   saz: Release.AzaleaSilverAgeDeck,
   sbr: Release.BravoSilverAgeDeck,
+  sbz: Release.BlazeSilverAgeDeck,
   sda: Release.DashSilverAgeDeck,
   sdo: Release.DorintheaSilverAgeDeck,
   sen: Release.EnigmaSilverAgeDeck,

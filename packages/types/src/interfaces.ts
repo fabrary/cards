@@ -260,6 +260,7 @@ export enum Release {
   // Silver age decks
   ArakniSilverAgeDeck = "Arakni Silver Age Deck",
   AzaleaSilverAgeDeck = "Azalea Silver Age Deck",
+  BlazeSilverAgeDeck = "Blaze Silver Age Deck",
   BravoSilverAgeDeck = "Bravo Silver Age Deck",
   DashSilverAgeDeck = "Dash Silver Age Deck",
   DorintheaSilverAgeDeck = "Dorinthea Silver Age Deck",
