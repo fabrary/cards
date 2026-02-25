@@ -27,6 +27,8 @@ const limitedLegalOverrideCards = [
   "Zen State",
 ];
 
+const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = ["Raydn, Duskbane"];
+
 const livingLegendBannedCards = ["Kraken's Aethervein"];
 const RARITIES_NOT_ALLOWED_IN_COMMONER = [
   Rarity.SuperRare,
@@ -65,7 +67,7 @@ const YOUNG_HERO_FORMATS = [
 const ADULT_HERO_FORMATS = [Format.ClassicConstructed, Format.LivingLegend];
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
-  (format) => format !== Format.Open
+  (format) => format !== Format.Open,
 );
 
 const CARDS_TO_LOG: string[] = [
@@ -89,7 +91,7 @@ export const getLegalFormats = (
   rarities: Rarity[],
   sets: Release[],
   subtypes: Subtype[],
-  types: Type[]
+  types: Type[],
 ): Format[] => {
   const legalFormats: Format[] = [Format.Open];
 
@@ -138,7 +140,7 @@ export const getLegalFormats = (
         keywords.includes(Keyword.Specialization) ||
         clashLegalOverrides.some(
           (override) =>
-            override.card === card.name && override.specializations.length > 0
+            override.card === card.name && override.specializations.length > 0,
         );
       const isWeapon = types.includes(Type.Weapon);
 
@@ -190,7 +192,7 @@ export const getLegalFormats = (
       if (isHero) {
         const tokenOrBasicOrRare = [Rarity.Basic, Rarity.Token, Rarity.Rare];
         const isTokenOrBasicOrRare = rarities.some((rarity) =>
-          tokenOrBasicOrRare.includes(rarity)
+          tokenOrBasicOrRare.includes(rarity),
         );
 
         const isLegalInLimited = isTokenOrBasicOrRare && isAYoungHero;
@@ -234,9 +236,12 @@ export const getLegalFormats = (
     const isLegalPerHeroAge = !isHero || heroMatchesFormat;
 
     const isNotBanned = !bannedFormats || !bannedFormats.includes(format);
+    const isAnException =
+      format === Format.SilverAge &&
+      SILVER_AGE_LEGAL_CARD_EXCEPTIONS.includes(card.name);
 
     const shouldAddToFormat =
-      isLegalPerFormat && isNotBanned && isLegalPerHeroAge;
+      isAnException || (isLegalPerFormat && isNotBanned && isLegalPerHeroAge);
 
     if (CARDS_TO_LOG.includes(card.name)) {
       console.log(
@@ -254,8 +259,8 @@ export const getLegalFormats = (
             types,
           },
           null,
-          2
-        )
+          2,
+        ),
       );
     }
 
@@ -275,10 +280,10 @@ export const getLegalOverrides = (
   }: {
     name: string;
   },
-  defaultLegalHeroes: Hero[]
+  defaultLegalHeroes: Hero[],
 ): LegalOverride[] | undefined => {
   const matchingClashOverride = clashLegalOverrides.find(
-    ({ card }) => card === name
+    ({ card }) => card === name,
   );
 
   if (matchingClashOverride) {
@@ -286,7 +291,7 @@ export const getLegalOverrides = (
       matchingClashOverride.specializations.length > 0
         ? matchingClashOverride.specializations
         : defaultLegalHeroes.filter(
-            (hero) => !matchingClashOverride.bans.includes(hero)
+            (hero) => !matchingClashOverride.bans.includes(hero),
           );
 
     const legalHeroesAreTheSame =
@@ -308,10 +313,10 @@ export const getLegalOverrides = (
 };
 
 const releaseInfoForLimitedFormat = releases.filter(
-  ({ releaseType }) => releaseType === ReleaseType.StandaloneBooster
+  ({ releaseType }) => releaseType === ReleaseType.StandaloneBooster,
 );
 const limitedFormatReleases = releaseInfoForLimitedFormat.map(
-  ({ release }) => release
+  ({ release }) => release,
 );
 
 export const getConfirmedLegalFormats = ({
@@ -342,7 +347,7 @@ export const getConfirmedLegalFormats = ({
     const isLimited = [Format.Draft, Format.Sealed].includes(format);
     if (isLimited) {
       const coreSetsCardIsIn = releaseInfoForLimitedFormat.filter(
-        ({ release }) => sets.includes(release)
+        ({ release }) => sets.includes(release),
       );
       const isInAtLeastOneLimitedSet = coreSetsCardIsIn.length > 0;
       isConfirmedLegal = isInAtLeastOneLimitedSet;
@@ -353,13 +358,13 @@ export const getConfirmedLegalFormats = ({
           const isCoreSet = limitedFormatReleases.includes(set);
 
           return isCoreSet ? isExpansionSlot : true;
-        }
+        },
       );
       isConfirmedLegal = !cardIsAnExpansionCardInEveryLimitedSet;
 
       if (isConfirmedLegal) {
         const rarityRestrictionsFromSets = coreSetsCardIsIn.map(
-          ({ raritiesExcludedInLimited }) => raritiesExcludedInLimited
+          ({ raritiesExcludedInLimited }) => raritiesExcludedInLimited,
         );
 
         if (rarityRestrictionsFromSets.length > 0) {
@@ -385,10 +390,10 @@ export const getConfirmedLegalFormats = ({
             // check that matches rarity restrictions
             const cardViolatesRarityRestrictions = rarities
               .filter(
-                (rarity) => ![Rarity.Promo, Rarity.Marvel].includes(rarity)
+                (rarity) => ![Rarity.Promo, Rarity.Marvel].includes(rarity),
               )
               .every((rarity) =>
-                rarityRestrictionsFromSets[0]?.includes(rarity)
+                rarityRestrictionsFromSets[0]?.includes(rarity),
               );
             if (cardViolatesRarityRestrictions) {
               isConfirmedLegal = false;
@@ -422,10 +427,12 @@ export const getConfirmedLegalFormats = ({
     const isSilverAgeFormat = format === Format.SilverAge;
     if (isSilverAgeFormat) {
       const isNotTooRare = rarities.some((rarity) =>
-        RARITIES_ALLOWED_IN_SILVER_AGE.includes(rarity)
+        RARITIES_ALLOWED_IN_SILVER_AGE.includes(rarity),
       );
 
-      const isAllowed = isNotTooRare;
+      const isAnException = SILVER_AGE_LEGAL_CARD_EXCEPTIONS.includes(name);
+
+      const isAllowed = isNotTooRare || isAnException;
       if (!isAllowed) {
         isConfirmedLegal = false;
       }
@@ -442,7 +449,7 @@ export const getConfirmedLegalFormats = ({
         keywords?.includes(Keyword.Specialization) ||
         clashLegalOverrides.some(
           (override) =>
-            override.card === name && override.specializations.length > 0
+            override.card === name && override.specializations.length > 0,
         );
       const isWeapon = types.includes(Type.Weapon);
 
@@ -471,8 +478,8 @@ export const getConfirmedLegalFormats = ({
             types,
           },
           null,
-          2
-        )
+          2,
+        ),
       );
     }
 

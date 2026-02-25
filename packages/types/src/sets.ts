@@ -1988,4 +1988,10 @@ export const silverAgeChapters: SilverAgeChapter[] = [
     ],
     releaseDate: "2026-02-13 12:00",
   },
+  {
+    chapter: 3,
+    name: "Silver Age Chapter 3",
+    relatedReleases: [Release.BlazeSilverAgeDeck],
+    releaseDate: "2026-07-05 12:00",
+  },
 ];
