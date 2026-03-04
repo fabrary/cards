@@ -626,7 +626,7 @@ describe("Shorthands property works", () => {
       cardSearch.search("throw");
     expect(searchResults).toBeTruthy();
 
-    console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
+    // console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
     expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
 
     const throwCaution = searchResults.find(

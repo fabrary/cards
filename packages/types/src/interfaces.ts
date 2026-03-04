@@ -183,7 +183,7 @@ export enum Release {
   HighSeas = "High Seas",
   HistoryPack1 = "History Pack 1",
   Monarch = "Monarch",
-  // OmensOfTheThirdAge = "Omens of the Third Age",
+  OmensOfTheThirdAge = "Omens of the Third Age",
   Outsiders = "Outsiders",
   PartTheMistveil = "Part the Mistveil",
   Rosetta = "Rosetta",
@@ -205,6 +205,7 @@ export enum Release {
   ArmoryDeckMaxx = "Armory Deck: Maxx",
   ArmoryDeckPleiades = "Armory Deck: Pleiades",
   ArmoryDeckRhinar = "Armory Deck: Rhinar",
+  ArmoryDeckZyggy = "Armory Deck: Zyggy",
 
   // Armory deck origins
   ArmoryDeckOriginsHala = "Armory Deck Origins: Hala",
@@ -400,6 +401,7 @@ export enum Subtype {
 export enum Hero {
   Arakni = "Arakni",
   Aurora = "Aurora",
+  Aurora2 = "Aurora2",
   Azalea = "Azalea",
   Benji = "Benji",
   Betsy = "Betsy",
@@ -446,6 +448,7 @@ export enum Hero {
   Oldhim = "Oldhim",
   Olympia = "Olympia",
   Oscilio = "Oscilio",
+  Broscilio = "Broscilio",
   Pleiades = "Pleiades",
   Prism = "Prism",
   Puffin = "Puffin",
@@ -474,6 +477,7 @@ export enum Hero {
   Yorick = "Yorick",
   Yoji = "Yoji",
   Zen = "Zen",
+  Zyggy = "Zyggy",
 }
 
 export enum Keyword {

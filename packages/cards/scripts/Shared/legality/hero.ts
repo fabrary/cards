@@ -235,6 +235,7 @@ const rhinar: AppliedFilter = {
 export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Arakni]: arakni,
   [Hero.Aurora]: aurora,
+  [Hero.Aurora2]: CLASSES_AND_TALENTS([Class.Runeblade], [Talent.Lightning]),
   [Hero.Azalea]: azalea,
   [Hero.Benji]: benji,
   [Hero.Betsy]: betsy,
@@ -281,6 +282,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Oldhim]: oldhim,
   [Hero.Olympia]: olympia,
   [Hero.Oscilio]: oscilio,
+  [Hero.Broscilio]: CLASSES_AND_TALENTS([Class.Wizard], [Talent.Lightning]),
   [Hero.Pleiades]: CLASSES_AND_TALENTS([Class.Guardian], [Talent.Revered]),
   [Hero.Prism]: prism,
   [Hero.Puffin]: puffin,
@@ -295,14 +297,14 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Squizzy]: CLASSES_AND_TALENTS([Class.Merchant]),
   [Hero.Starvo]: CLASSES_AND_TALENTS(
     [Class.Guardian],
-    EARTH_AND_ICE_AND_LIGHTNING
+    EARTH_AND_ICE_AND_LIGHTNING,
   ),
   [Hero.Taipanis]: CLASSES_AND_TALENTS([Class.Adjudicator], DRACONIC),
   [Hero.Taylor]: CLASSES_AND_TALENTS([]),
   [Hero.Teklovossen]: CLASSES_AND_TALENTS([Class.Mechanologist]),
   [Hero.Terra]: CLASSES_AND_TALENTS(
     [Class.Guardian],
-    [Talent.Elemental, Talent.Earth]
+    [Talent.Elemental, Talent.Earth],
   ),
   [Hero.Theryon]: CLASSES_AND_TALENTS([Class.Adjudicator], LIGHT),
   [Hero.Tuffnut]: CLASSES_AND_TALENTS([Class.Brute], [Talent.Revered]),
@@ -315,6 +317,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Yorick]: CLASSES_AND_TALENTS([Class.Bard]),
   [Hero.Yoji]: CLASSES_AND_TALENTS([Class.Guardian]),
   [Hero.Zen]: CLASSES_AND_TALENTS([Class.Ninja], MYSTIC),
+  [Hero.Zyggy]: CLASSES_AND_TALENTS([Class.Illusionist], [Talent.Lightning]),
 };
 
 const ALL_TOKEN_HEROES = [Hero.Shiyana, Hero.Yorick];
@@ -360,12 +363,12 @@ export const getLegalHeroes = (card: {
   const isCardMacro = card.types?.includes(Type.Macro);
   const macroSets =
     card.metatypes?.filter((metatype) =>
-      allReleases.includes(metatype as unknown as Release)
+      allReleases.includes(metatype as unknown as Release),
     ) || [];
   const cardMacroSet = macroSets.length > 0 ? macroSets[0] : undefined;
   const macroSetInfo = cardMacroSet
     ? releases.find(
-        ({ release }) => release === (cardMacroSet as unknown as Release)
+        ({ release }) => release === (cardMacroSet as unknown as Release),
       )
     : undefined;
   const draftHeroesAllowedInMacroSet = macroSetInfo
@@ -378,10 +381,10 @@ export const getLegalHeroes = (card: {
       const { classes, excludedPitches, excludedSubtypes, talents } = filters;
 
       const allClassesMatch = card.classes.every((cardClass) =>
-        classes.includes(cardClass)
+        classes.includes(cardClass),
       );
       const atLeastOneClassMatches = card.classes.some((cardClass) =>
-        classes.includes(cardClass)
+        classes.includes(cardClass),
       );
 
       const mustMatchAtLeastOneClass = card.typeText.includes("/");
@@ -404,28 +407,36 @@ export const getLegalHeroes = (card: {
 
       const matchesStarvoSpecialization =
         card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
+      const matchesAurora2Specialization =
+        card.specializations?.includes(Hero.Aurora) && hero === Hero.Aurora2;
+      const matchesBroscilioSpecialization =
+        card.specializations?.includes(Hero.Oscilio) && hero === Hero.Broscilio;
+      const matchesReprintSpecialization =
+        matchesStarvoSpecialization ||
+        matchesAurora2Specialization ||
+        matchesBroscilioSpecialization;
 
       const heroIsAnArakni = ALL_ARAKNIS.includes(hero);
       const heroIsAKayo = ALL_KAYOS.includes(hero);
 
       const isHeroMetatypeSpecialization = card.metatypes?.some((metatype) =>
-        ALL_HEROES.includes(metatype as unknown as Hero)
+        ALL_HEROES.includes(metatype as unknown as Hero),
       );
       let matchesHeroMetaTypeSpecialization = card.metatypes?.includes(
-        hero as unknown as Metatype
+        hero as unknown as Metatype,
       );
       let matchesHeroSpecialization = card.specializations?.includes(hero);
       if (heroIsAnArakni) {
         matchesHeroMetaTypeSpecialization = card.metatypes?.some((metatype) =>
-          ALL_ARAKNIS.includes(metatype as unknown as Hero)
+          ALL_ARAKNIS.includes(metatype as unknown as Hero),
         );
         matchesHeroSpecialization = card.specializations?.some((hero) =>
-          ALL_ARAKNIS.includes(hero)
+          ALL_ARAKNIS.includes(hero),
         );
       }
       if (heroIsAKayo) {
         matchesHeroSpecialization = card.specializations?.some((hero) =>
-          ALL_KAYOS.includes(hero)
+          ALL_KAYOS.includes(hero),
         );
       }
 
@@ -435,14 +446,14 @@ export const getLegalHeroes = (card: {
 
       const matchesSpecializations =
         !isASpecialization ||
-        matchesStarvoSpecialization ||
+        matchesReprintSpecialization ||
         matchesHeroMetaTypeSpecialization ||
         matchesHeroSpecialization;
 
       const matchesSubtypes =
         !excludedSubtypes ||
         !card.subtypes.some((cardSubtype) =>
-          excludedSubtypes.includes(cardSubtype)
+          excludedSubtypes.includes(cardSubtype),
         );
 
       const matchesTalents =
@@ -451,7 +462,7 @@ export const getLegalHeroes = (card: {
 
       const matchesMacroSet = isCardMacro
         ? draftHeroesAllowedInMacroSet.some((heroIdentifier) =>
-            heroIdentifier.includes(hero.toLowerCase().replaceAll(" ", "-"))
+            heroIdentifier.includes(hero.toLowerCase().replaceAll(" ", "-")),
           )
         : true;
 
@@ -541,8 +552,8 @@ export const getLegalHeroes = (card: {
               specializations: card.specializations,
             },
             null,
-            2
-          )
+            2,
+          ),
         );
       }
 
@@ -560,8 +571,8 @@ export const getLegalHeroes = (card: {
           legalHeroes,
         },
         null,
-        2
-      )
+        2,
+      ),
     );
     throw new Error("err");
   }

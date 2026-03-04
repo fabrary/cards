@@ -12,6 +12,8 @@ const identifierExtensionMapping: { [key: string]: string } = {
 };
 
 const suffixOverrides: { [key: string]: string } = {
+  "OMN203-MVB": "-V2",
+  "OMN203-MVC": "-V3",
   MPG112_V2: "-V2",
   MPG112_V3: "-V3",
   MST158_V3: "-V3",
@@ -39,8 +41,8 @@ export const getPrint = (printing: {
   const treatment = printing.treatments?.length
     ? `-${printing.treatments.sort().join("-")}`
     : printing.treatment
-    ? `-${printing.treatment}`
-    : ``;
+      ? `-${printing.treatment}`
+      : ``;
   // const treatment = printing.treatment ? `-${printing.treatment}` : ``;
 
   const back = printing.image?.toLowerCase().includes("back") ? `-Back` : ``;
@@ -51,7 +53,7 @@ export const getPrint = (printing: {
 };
 
 export const orderedFullSetBlackBorderIdentifiers = Object.keys(
-  fullSetIdentifiers
+  fullSetIdentifiers,
 )
   .filter((set) => !set.toLowerCase().includes("hp"))
   .reverse()
@@ -120,11 +122,11 @@ const printingsToIgnore: string[] = ["JDG044-Full Art-Back"];
 
 export const getSpecialPrinting = (
   card: { cardIdentifier: string; name?: string },
-  printings: Printing[]
+  printings: Printing[],
 ): Printing => {
   const { cardIdentifier } = card;
   const matchingOverride = Object.entries(specialImagePrintingOverrides).find(
-    ([identifier]) => identifier === cardIdentifier
+    ([identifier]) => identifier === cardIdentifier,
   );
 
   const printingsIncludeMatchingOverride =
@@ -138,7 +140,7 @@ export const getSpecialPrinting = (
   if (printingsIncludeMatchingOverride) {
     const [, { print }] = matchingOverride;
     const matchingPrint = printings.find(
-      (printing) => printing.print === print
+      (printing) => printing.print === print,
     );
     return matchingPrint || printings[0];
   } else {
@@ -325,11 +327,11 @@ const defaultImagePrintingOverrides: {
 
 export const getDefaultPrinting = (
   card: { cardIdentifier: string; name: string },
-  printings: Printing[]
+  printings: Printing[],
 ): Printing => {
   const { cardIdentifier } = card;
   const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
-    ([identifier]) => identifier === cardIdentifier
+    ([identifier]) => identifier === cardIdentifier,
   );
 
   const printingsIncludeMatchingOverride =
@@ -343,7 +345,7 @@ export const getDefaultPrinting = (
   if (printingsIncludeMatchingOverride) {
     const [, { print }] = matchingOverride;
     const matchingPrint = printings.find(
-      (printing) => printing.print === print
+      (printing) => printing.print === print,
     );
     return matchingPrint || printings[0];
   } else {

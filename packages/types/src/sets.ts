@@ -1799,19 +1799,36 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["aha"],
     talents: [],
   },
-  // {
-  //   cards: 348,
-  //   classes: [],
-  //   deckLinks: [],
-  //   heroes: [],
-  //   languages: ALL_LANGUAGES,
-  //   release: Release.OmensOfTheThirdAge,
-  //   relatedReleases: [],
-  //   releaseDate: "2026-06-05 12:00",
-  //   releaseType: ReleaseType.StandaloneBooster,
-  //   setIdentifiers: [""],
-  //   talents: [],
-  // },
+  {
+    cards: 251,
+    classes: [Class.Illusionist, Class.Runeblade, Class.Wizard],
+    deckLinks: [],
+    heroes: [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy],
+    heroOverrides: {
+      [Hero.Aurora2]: Hero.Aurora,
+      [Hero.Broscilio]: Hero.Oscilio,
+    },
+    languages: ALL_LANGUAGES,
+    release: Release.OmensOfTheThirdAge,
+    relatedReleases: [Release.ArmoryDeckZyggy],
+    releaseDate: "2026-06-05 12:00",
+    releaseType: ReleaseType.StandaloneBooster,
+    setIdentifiers: ["omn"],
+    talents: [Talent.Lightning],
+  },
+  {
+    cards: 40,
+    classes: [Class.Illusionist],
+    deckLinks: [],
+    heroes: [Hero.Zyggy],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckZyggy,
+    relatedReleases: [],
+    releaseDate: "2026-06-05 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["azs"],
+    talents: [Talent.Lightning],
+  },
   {
     cards: 40,
     classes: [Class.Wizard],
@@ -1911,6 +1928,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   mpg: Release.MasteryPackGuardian,
   sup: Release.SuperSlam,
   pen: Release.CompendiumOfRathe,
+  omn: Release.OmensOfTheThirdAge,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {
@@ -1932,6 +1950,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   arr: Release.ArmoryDeckRhinar,
   avs: Release.ArmoryDeckLegendsViserai,
   aha: Release.ArmoryDeckOriginsHala,
+  azs: Release.ArmoryDeckZyggy,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,
