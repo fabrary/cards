@@ -22751,11 +22751,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://fabrary.net/cards/ziggy</loc>
-    <lastmod>2026-03-04</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://fabrary.net/cards/zipper-hit-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -22783,6 +22778,11 @@
   <url>
     <loc>https://fabrary.net/cards/zoom-in-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/zyggy</loc>
+    <lastmod>2026-03-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -1,4 +1,4 @@
-export const fabDictionaryIgnore = [
+export const IGNORES = [
   "hyperx3",
   "íarathael",
   "jackbequick",
@@ -9,7 +9,13 @@ export const fabDictionaryIgnore = [
   "tbone",
 ];
 
-export const fabDictionary = [
+export const EXCLUSIONS = ["ziggy"];
+
+export const SUGGESTIONS: { [key: string]: string[] } = {
+  ziggy: ["zyggy"],
+};
+
+export const ADDITIONS = [
   "10000",
   "2000",
   "5Lp3d",

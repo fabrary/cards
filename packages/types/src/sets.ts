@@ -1807,7 +1807,7 @@ export const releases: ReleaseInfo[] = [
       heroIdentifiers: [
         "aurora-emissary-of-lightning",
         "oscilio-scion-of-the-third-age",
-        "ziggy",
+        "zyggy",
       ],
       picksPerPack: 14,
     },

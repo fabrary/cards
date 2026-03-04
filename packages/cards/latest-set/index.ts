@@ -1318,12 +1318,12 @@ When this hits, create a Lightning Flow token.`,
   
   },{
     artists: ["Jessada Sutthi"],
-    cardIdentifier: "ziggy",
+    cardIdentifier: "zyggy",
     classes: [Class.Illusionist],
     defaultImage: "OMN002",
     legalFormats: [Format.Blitz,Format.Clash,Format.Draft,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Zyggy],
-    name: "Ziggy",
+    name: "Zyggy",
     printings: [{
         artists: ["Jessada Sutthi"],
       
@@ -1377,7 +1377,7 @@ When this hits, create a Lightning Flow token.`,
     
     functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control, banish another Lightning aura permanent you control with no holo counters: Return the banished aura to the arena with a holo counter.`,
     
-    
+    hero: Hero.Zyggy,
     intellect: 4,
     
     
