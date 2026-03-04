@@ -1818,7 +1818,7 @@ export const releases: ReleaseInfo[] = [
     },
     languages: ALL_LANGUAGES,
     release: Release.OmensOfTheThirdAge,
-    relatedReleases: [Release.ArmoryDeckZyggy],
+    relatedReleases: [],
     releaseDate: "2026-06-05 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["omn"],

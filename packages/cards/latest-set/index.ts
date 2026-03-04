@@ -995,7 +995,7 @@ When this hits, create a Lightning Flow token.`,
     cardIdentifier: "oscilio-scion-of-the-third-age",
     classes: [Class.Wizard],
     defaultImage: "OMN095",
-    legalFormats: [Format.ClassicConstructed,Format.LivingLegend,Format.Open],
+    legalFormats: [Format.Blitz,Format.Clash,Format.Draft,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Broscilio],
     name: "Oscilio, Scion of the Third Age",
     printings: [{
@@ -1040,7 +1040,7 @@ When this hits, create a Lightning Flow token.`,
     setIdentifiers: ["OMN095"],
     sets: [Release.OmensOfTheThirdAge],
     specialImage: "OMN095-MV",
-    subtypes: [],
+    subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Lightning Wizard Hero - Young",
 
@@ -1073,7 +1073,7 @@ When this hits, create a Lightning Flow token.`,
     
     talents: [Talent.Lightning],
   
-  
+  young: true
   },{
     artists: ["Edward Chee"],
     cardIdentifier: "voltbound-duality-red",
