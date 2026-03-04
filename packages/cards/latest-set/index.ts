@@ -103,10 +103,10 @@
       
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["OMN145"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB469","OMN145"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN145",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -148,11 +148,95 @@
   
   },{
     artists: ["Asur Misoa"],
+    cardIdentifier: "aurora-emissary-of-lightning",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN048",
+    legalFormats: [Format.Blitz,Format.Clash,Format.Draft,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora2],
+    name: "Aurora, Emissary of Lightning",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "OMN048",
+      image: "OMN048",
+      
+      
+      print: "OMN048",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.C,
+      identifier: "OMN048",
+      image: "OMN048-MV",
+      
+      
+      print: "OMN048-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.C,
+      identifier: "OMN048",
+      image: "OMN048-MV_BACK",
+      
+      
+      print: "OMN048-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["OMN048"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN048-MV",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Lightning Runeblade Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.`,
+    
+    hero: Hero.Aurora2,
+    intellect: 4,
+    
+    
+    
+    life: 20,
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  young: true
+  },{
+    artists: ["Asur Misoa"],
     cardIdentifier: "aurora-legacy-of-tempest",
     classes: [Class.Runeblade],
     defaultImage: "OMN047",
     legalFormats: [Format.ClassicConstructed,Format.LivingLegend,Format.Open],
-    legalHeroes: [Hero.Aurora],
+    legalHeroes: [Hero.Aurora2],
     name: "Aurora, Legacy of Tempest",
     printings: [{
         artists: ["Asur Misoa"],
@@ -207,7 +291,7 @@
     
     functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.`,
     
-    hero: Hero.Aurora,
+    hero: Hero.Aurora2,
     intellect: 4,
     
     
@@ -251,10 +335,10 @@
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN015"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB464","OMN015"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN015",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -437,10 +521,10 @@
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OMN152"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB471","OMN152"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN152",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -595,10 +679,10 @@ When this hits, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OMN153"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB472","OMN153"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN153",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -657,10 +741,10 @@ When this hits, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN121"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB465","OMN121"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN121",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -828,7 +912,7 @@ When this hits, create a Lightning Flow token.`,
     classes: [Class.Wizard],
     defaultImage: "OMN094",
     legalFormats: [Format.ClassicConstructed,Format.LivingLegend,Format.Open],
-    legalHeroes: [Hero.Oscilio],
+    legalHeroes: [Hero.Broscilio],
     name: "Oscilio, Forked Continuum",
     printings: [{
         artists: ["Nathaniel Himawan"],
@@ -883,12 +967,96 @@ When this hits, create a Lightning Flow token.`,
     
     functionalText: `**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.`,
     
-    hero: Hero.Oscilio,
+    hero: Hero.Broscilio,
     intellect: 4,
     
     
     
     life: 38,
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nathaniel Himawan"],
+    cardIdentifier: "oscilio-scion-of-the-third-age",
+    classes: [Class.Wizard],
+    defaultImage: "OMN095",
+    legalFormats: [Format.ClassicConstructed,Format.LivingLegend,Format.Open],
+    legalHeroes: [Hero.Broscilio],
+    name: "Oscilio, Scion of the Third Age",
+    printings: [{
+        artists: ["Nathaniel Himawan"],
+      
+      identifier: "OMN095",
+      image: "OMN095",
+      
+      
+      print: "OMN095",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "OMN095",
+      image: "OMN095-MV",
+      
+      
+      print: "OMN095-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.C,
+      identifier: "OMN095",
+      image: "OMN095-MV_BACK",
+      
+      
+      print: "OMN095-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["OMN095"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN095-MV",
+    subtypes: [],
+    types: [Type.Hero],
+    typeText: "Lightning Wizard Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.`,
+    
+    hero: Hero.Broscilio,
+    intellect: 4,
+    
+    
+    
+    life: 19,
     
   
     
@@ -927,10 +1095,10 @@ When this hits, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN077"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB466","OMN077"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN077",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -1107,10 +1275,10 @@ When this hits, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OMN154"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB473","OMN154"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN154",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -1148,6 +1316,90 @@ When this hits, create a Lightning Flow token.`,
     talents: [Talent.Lightning],
   
   
+  },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "ziggy",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN002",
+    legalFormats: [Format.Blitz,Format.Clash,Format.Draft,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Ziggy",
+    printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "OMN002",
+      image: "OMN002",
+      
+      
+      print: "OMN002",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.C,
+      identifier: "OMN002",
+      image: "OMN002-MV",
+      
+      
+      print: "OMN002-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.C,
+      identifier: "OMN002",
+      image: "OMN002-MV_BACK",
+      
+      
+      print: "OMN002-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["OMN002"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN002-MV",
+    subtypes: [Subtype.Young],
+    types: [Type.Hero],
+    typeText: "Lightning Illusionist Hero - Young",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control, banish another Lightning aura permanent you control with no holo counters: Return the banished aura to the arena with a holo counter.`,
+    
+    
+    intellect: 4,
+    
+    
+    
+    life: 20,
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  young: true
   },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "zyggy-starlight",

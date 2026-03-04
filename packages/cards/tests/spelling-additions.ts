@@ -453,6 +453,7 @@ export const fabDictionary = [
   "steelhand",
   "stillwater",
   "stormbind",
+  "stormshard",
   "stormstrike",
   "stormweaver",
   "stormwind",

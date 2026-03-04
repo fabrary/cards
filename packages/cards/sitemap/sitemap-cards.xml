@@ -931,6 +931,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/aurora-emissary-of-lightning</loc>
+    <lastmod>2026-03-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/aurora-legacy-of-tempest</loc>
     <lastmod>2026-03-04</lastmod>
     <priority>0.5</priority>
@@ -12791,6 +12796,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/omens-of-arcana</loc>
+    <lastmod>2026-03-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/on-a-knife-edge-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -12912,6 +12922,11 @@
   </url>
   <url>
     <loc>https://fabrary.net/cards/oscilio-forked-continuum</loc>
+    <lastmod>2026-03-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/oscilio-scion-of-the-third-age</loc>
     <lastmod>2026-03-04</lastmod>
     <priority>0.5</priority>
   </url>
@@ -19146,6 +19161,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/stormshard-red</loc>
+    <lastmod>2026-03-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/stormweavers-aegis</loc>
     <lastmod>2026-02-02</lastmod>
     <priority>0.5</priority>
@@ -22728,6 +22748,11 @@
   <url>
     <loc>https://fabrary.net/cards/zero-to-sixty-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/ziggy</loc>
+    <lastmod>2026-03-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

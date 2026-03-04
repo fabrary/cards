@@ -318,6 +318,7 @@ export enum Trait {
 
 export enum Metatype {
   Arakni = "Arakni",
+  OmensOfTheThirdAge = "Omens of the Third Age",
   Scurv = "Scurv",
   HighSeas = "High Seas",
   Puffin = "Puffin",

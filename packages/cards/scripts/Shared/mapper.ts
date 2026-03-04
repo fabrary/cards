@@ -62,14 +62,14 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
       // LSS used the same RNR prefix for two different sets - Rhinar Blitz deck and Rhinar CC deck
       const notARNRCard =
         !otherCard.printings.some(
-          ({ set }) => set === Release.RhinarBlitzDeck
+          ({ set }) => set === Release.RhinarBlitzDeck,
         ) && !card.printings.some(({ set }) => set === Release.RhinarBlitzDeck);
 
       const cardHasSameSetIdentifier = otherCard.printings.some(
         (otherPrinting) =>
           card.printings.some(
-            ({ identifier }) => identifier === otherPrinting.identifier
-          )
+            ({ identifier }) => identifier === otherPrinting.identifier,
+          ),
       );
 
       // LSS used the same HER prefix for two different sets - Kassai deck and Tuffnut
@@ -96,7 +96,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
           TRANSCEND_CARD_NAMES.includes(name);
 
         return isConstruct || isFigment || isInvocation || isTranscend;
-      }
+      },
     );
 
     const isCardFrontOverride = CARD_FRONTS_OVERRIDES.includes(card.name);
@@ -127,7 +127,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
                     foilingsMatch &&
                     treatmentsMatch
                   );
-                }
+                },
               )?.image;
             }
 
@@ -147,7 +147,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
                       foilingsMatch &&
                       bothHaveTreatments
                     );
-                  }
+                  },
                 )?.image;
             }
 
@@ -159,7 +159,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
                   const foilingsMatch = foiling === printing.foiling;
 
                   return editionsMatch && identifiersMatch && foilingsMatch;
-                }
+                },
               )?.image;
             }
 
@@ -170,7 +170,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
                   const identifiersMatch = identifier === printing.identifier;
 
                   return editionsMatch && identifiersMatch;
-                }
+                },
               )?.image;
             }
           }
@@ -182,7 +182,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
             setIdentifierMatch;
 
           return { ...printing, oppositeImage };
-        }
+        },
       );
       card.printings = printingsWithOppositeSide;
     }
@@ -193,7 +193,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
         ? {
             oppositeSideCardIdentifier: oppositeSideCards[0].cardIdentifier,
             oppositeSideCardIdentifiers: oppositeSideCards.map(
-              ({ cardIdentifier }) => cardIdentifier
+              ({ cardIdentifier }) => cardIdentifier,
             ),
           }
         : {}),
@@ -206,7 +206,7 @@ const getPrintingReleaseOrder = ({ edition, set }: Printing): number => {
   const releasesNewestToOldest = releases.slice().reverse();
 
   const releaseIndex = releasesNewestToOldest.findIndex(
-    ({ release }) => release === set
+    ({ release }) => release === set,
   );
   let releaseOrder = releaseIndex >= 0 ? releaseIndex : 100000;
   if (edition === ReleaseEdition.Alpha) {
@@ -242,7 +242,20 @@ export const getHeroFromString = (name: string): Hero | undefined => {
     heroOnCard = Hero.Crackni;
   } else if (["Kayo, Strong-arm", "Kayo, Underhanded Cheat"].includes(name)) {
     heroOnCard = Hero.RKO;
+  } else if (
+    ["Oscilio, Forked Continuum", "Oscilio, Scion of the Third Age"].includes(
+      name,
+    )
+  ) {
+    heroOnCard = Hero.Broscilio;
+  } else if (
+    ["Aurora, Emissary of Lightning", "Aurora, Legacy of Tempest"].includes(
+      name,
+    )
+  ) {
+    heroOnCard = Hero.Aurora2;
   }
+
   return heroOnCard;
 };
 
@@ -361,7 +374,7 @@ export const getTraits = ({
     "SAR039",
   ];
   const isAgentOfChaos = setIdentifiers.some((setIdentifier) =>
-    AGENTS_OF_CHAOS_SET_IDENTIFIERS.includes(setIdentifier)
+    AGENTS_OF_CHAOS_SET_IDENTIFIERS.includes(setIdentifier),
   );
   if (isAgentOfChaos) {
     traits.push(Trait.AgentOfChaos);
@@ -437,7 +450,7 @@ export const getMeta = (card: Card, allCards: Card[]): Meta[] => {
   const hasPitch = [1, 2, 3].includes(card.pitch || 0);
   if (hasPitch) {
     const allCardsWithSameName = allCards.filter(
-      ({ name }) => name === card.name
+      ({ name }) => name === card.name,
     );
     const isRainbow = allCardsWithSameName.length === 3;
     if (isRainbow) {
@@ -538,7 +551,7 @@ export const getTypeSubtypeAndMetatype = (card: {
   const subtypes: Subtype[] = [];
   for (const subtypeEnum of [Subtype]) {
     for (const [subtypeEnumKey, subTypeEnumValue] of Object.entries(
-      subtypeEnum
+      subtypeEnum,
     ).reverse()) {
       if (rawTypes.includes(subTypeEnumValue as string)) {
         subtypes.push(subtypeEnum[subtypeEnumKey]);
@@ -549,7 +562,7 @@ export const getTypeSubtypeAndMetatype = (card: {
   const metatypes: Metatype[] = [];
   for (const metatypeEnum of [Metatype]) {
     for (const [metatypeEnumKey, metatypeEnumValue] of Object.entries(
-      metatypeEnum
+      metatypeEnum,
     ).reverse()) {
       if (rawTypes.includes(metatypeEnumValue as string)) {
         metatypes.push(metatypeEnum[metatypeEnumKey]);

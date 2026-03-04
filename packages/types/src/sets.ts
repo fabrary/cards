@@ -1803,6 +1803,14 @@ export const releases: ReleaseInfo[] = [
     cards: 251,
     classes: [Class.Illusionist, Class.Runeblade, Class.Wizard],
     deckLinks: [],
+    draft: {
+      heroIdentifiers: [
+        "aurora-emissary-of-lightning",
+        "oscilio-scion-of-the-third-age",
+        "ziggy",
+      ],
+      picksPerPack: 14,
+    },
     heroes: [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy],
     heroOverrides: {
       [Hero.Aurora2]: Hero.Aurora,
