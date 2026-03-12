@@ -514,8 +514,10 @@ describe("Returns matching prints", () => {
         (printing) => printing.foiling === Foiling.G && !!printing.image,
       ),
     );
-    for (const card of searchResultsWithGoldFoilImage) {
-      for (const printing of card.matchingPrintings) {
+    for (const { matchingPrintings } of searchResultsWithGoldFoilImage) {
+      expect(matchingPrintings.length).toBeGreaterThan(0);
+
+      for (const printing of matchingPrintings) {
         expect(printing).toBeTruthy();
         expect(printing.foiling).toEqual(Foiling.G);
       }
@@ -524,8 +526,10 @@ describe("Returns matching prints", () => {
 
   it("Matching printing from set", () => {
     const { searchResults } = cardSearch.search("set:wtr");
-    for (const card of searchResults) {
-      for (const printing of card.matchingPrintings) {
+    for (const { matchingPrintings } of searchResults) {
+      expect(matchingPrintings.length).toBeGreaterThan(0);
+
+      for (const printing of matchingPrintings) {
         expect(printing).toBeTruthy();
         expect(printing.set).toEqual(Release.WelcomeToRathe);
       }
@@ -534,8 +538,11 @@ describe("Returns matching prints", () => {
 
   it("Matching printing from prints", () => {
     const { searchResults } = cardSearch.search("print:ANQ");
-    for (const card of searchResults) {
-      for (const printing of card.matchingPrintings) {
+
+    for (const { matchingPrintings } of searchResults) {
+      expect(matchingPrintings.length).toBeGreaterThan(0);
+
+      for (const printing of matchingPrintings) {
         expect(printing).toBeTruthy();
         expect(printing.identifier.includes("ANQ")).toBeTruthy();
       }
@@ -543,23 +550,28 @@ describe("Returns matching prints", () => {
   });
 
   it("Matching printing from treatment", () => {
-    const { searchResults } = cardSearch.search("treat:aa");
-    const searchResultsWithAltArtImage = searchResults;
+    const { searchResults } = cardSearch.search("treat:AA");
 
-    for (const card of searchResultsWithAltArtImage) {
-      for (const printing of card.matchingPrintings) {
+    for (const { matchingPrintings } of searchResults) {
+      expect(matchingPrintings.length).toBeGreaterThan(0);
+
+      for (const printing of matchingPrintings) {
         expect(printing).toBeTruthy();
-        expect(printing.treatment).toEqual(Treatment.AA);
+
+        const matchingTreatment = printing.treatments?.find(
+          (treatment) => treatment === Treatment.AA,
+        );
+        expect(matchingTreatment).toEqual(Treatment.AA);
       }
     }
   });
 
   it("Matching printing from rarity", () => {
     const { searchResults } = cardSearch.search("r:v");
-    const searchResultsWithMarvelImages = searchResults;
 
-    for (const card of searchResultsWithMarvelImages) {
-      for (const printing of card.matchingPrintings) {
+    for (const { matchingPrintings } of searchResults) {
+      expect(matchingPrintings.length).toBeGreaterThan(0);
+      for (const printing of matchingPrintings) {
         expect(printing).toBeTruthy();
         expect(printing.rarity).toEqual(Rarity.Marvel);
       }
@@ -571,7 +583,7 @@ describe("Returns matching prints", () => {
       "s:hnt !r:legendary,fabled l:draft,sealed",
     );
     for (const card of searchResults) {
-      expect(card.matchingPrintings).toBeTruthy();
+      expect(card.matchingPrintings.length).toBeGreaterThan(0);
       if (!card.meta || !card.meta.includes(Meta.Expansion)) {
         expect(card.matchingPrintings.length).toBeGreaterThanOrEqual(1);
       }

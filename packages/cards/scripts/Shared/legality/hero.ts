@@ -342,6 +342,10 @@ const ALL_ARAKNIS = [Hero.Arakni, Hero.Crackni, Hero.Slippy];
 const ALL_KAYOS = [Hero.Kayo, Hero.RKO];
 const ALL_HEROES = Object.values(Hero);
 
+const TOKEN_OVERRIDES: { [key: string]: Hero[] } = {
+  "lightning-flow": [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy],
+};
+
 export const getLegalHeroes = (card: {
   cardIdentifier: string;
   classes: Class[];
@@ -517,6 +521,17 @@ export const getLegalHeroes = (card: {
         const isEphemeral = card.keywords?.includes(Keyword.Ephemeral);
 
         if (isAToken || isCrackedBauble || isEphemeral) {
+          matches = true;
+        }
+      }
+
+      const isCardATokenOverride = !!TOKEN_OVERRIDES[card.cardIdentifier];
+      if (!matches && isCardATokenOverride) {
+        const matchesTokenOverride = isCardATokenOverride
+          ? TOKEN_OVERRIDES[card.cardIdentifier].includes(hero)
+          : true;
+
+        if (matchesTokenOverride) {
           matches = true;
         }
       }

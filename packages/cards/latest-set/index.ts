@@ -568,7 +568,7 @@ When this hits, create a Lightning Flow token.`,
     classes: [Class.NotClassed],
     defaultImage: "OMN203",
     legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Aurora,Hero.Briar,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Verdance,Hero.Yorick],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Verdance,Hero.Yorick,Hero.Zyggy],
     name: "Lightning Flow",
     printings: [{
         artists: ["Alifka Hammam"],

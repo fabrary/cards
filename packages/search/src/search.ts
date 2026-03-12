@@ -215,6 +215,7 @@ class Search {
       searchResultsWithMatchingPrinting = results.map((card) => {
         const matchingPrintings = card.printings.filter((printing) => {
           const hasImage = !!printing.image;
+
           const matchesArtist =
             artists.length === 0 ||
             artists.some((attributeArtist) =>
@@ -225,22 +226,30 @@ class Search {
                   .includes(attributeArtist),
               ),
             );
+
           const matchesExpansionSlot =
-            (isExpansionSlot || undefined) === printing.isExpansionSlot;
+            !isExpansionSlot || isExpansionSlot === printing.isExpansionSlot;
 
           const matchesFoiling =
             foilings.length === 0 || foilings.includes(printing.foiling);
+
           const matchesPrint =
             prints.length === 0 ||
             prints.some((print) =>
               printing.identifier.includes(print.toUpperCase()),
             );
+
           const matchesRarity =
             rarities.length === 0 || rarities.includes(printing.rarity);
+
           const matchesReleases =
             releases.length === 0 || releases.includes(printing.set);
+
           const matchesTreatment =
-            treatments.length === 0 || treatments.includes(printing.treatment);
+            treatments.length === 0 ||
+            printing.treatments?.some((treatment) =>
+              treatments.includes(treatment),
+            );
 
           const printMatches =
             hasImage &&

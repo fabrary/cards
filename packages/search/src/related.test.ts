@@ -35,7 +35,7 @@ describe("Related cards", () => {
       const card = cards.find(({ name }) => name === cardName);
       const { otherPitches, referencedBy, references } = getRelatedCards(
         card,
-        cards
+        cards,
       );
 
       if ((referencedByCount as number) < referencedBy.length) {
@@ -48,12 +48,12 @@ describe("Related cards", () => {
 
       expect(otherPitches.length).toEqual(otherPitchesCount);
       expect(referencedBy.length).toBeGreaterThanOrEqual(
-        referencedByCount as number
+        referencedByCount as number,
       );
       expect(references.length).toBeGreaterThanOrEqual(
-        referencesCount as number
+        referencesCount as number,
       );
-    }
+    },
   );
 
   const tokens: string[][][] = [
@@ -91,24 +91,25 @@ describe("Related cards", () => {
     [["Pulverize"], ["Seismic Surge"]],
     [["Star Struck"], ["Seismic Surge"]],
     // [["Golden Skywarden"], ["Golden Cog", "Gold"]],
+    [["Cosmic Duality"], ["Lightning Flow"]],
   ];
 
   it.each(tokens)(
     "Gets referenced tokens",
     (referencingCardNames, expectedTokens) => {
       const referencingCards = cards.filter(({ name }) =>
-        (referencingCardNames as unknown as string[]).includes(name)
+        (referencingCardNames as unknown as string[]).includes(name),
       );
 
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
-        ALL_TOKENS
+        ALL_TOKENS,
       );
 
       expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
-        (expectedTokens as unknown as string[]).sort()
+        (expectedTokens as unknown as string[]).sort(),
       );
-    }
+    },
   );
 
   const shiyanaTokens = [
@@ -123,12 +124,12 @@ describe("Related cards", () => {
     const tokens = searchResults.filter(getCanCardBeTokenForDeck);
 
     const referencingCards = searchResults.filter(
-      ({ specializations }) => !!specializations && specializations.length > 0
+      ({ specializations }) => !!specializations && specializations.length > 0,
     );
 
     const referencedTokens = getTokensReferencedByCards(
       referencingCards,
-      tokens
+      tokens,
     );
 
     const referencedTokenNames = referencedTokens.map(({ name }) => name);
@@ -178,7 +179,7 @@ describe("Related cards", () => {
       const referencingCards = cards.filter(
         ({ hero, name }) =>
           (referencingCardNames as unknown as string[]).includes(name) ||
-          (!!hero && heroes.includes(hero))
+          (!!hero && heroes.includes(hero)),
       );
 
       const hero = heroes.length > 0 ? (heroes[0] as Hero) : undefined;
@@ -186,13 +187,13 @@ describe("Related cards", () => {
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
         ALL_TOKENS,
-        hero
+        hero,
       );
 
       expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
-        (expectedTokens as unknown as string[]).sort()
+        (expectedTokens as unknown as string[]).sort(),
       );
-    }
+    },
   );
 
   it("Gets the Agent of Chaos tokens for Arakni", () => {
@@ -205,7 +206,7 @@ describe("Related cards", () => {
 
     const referencedTokens = getTokensReferencedByCards(
       searchResults,
-      ALL_TOKENS
+      ALL_TOKENS,
     );
 
     const referencedTokenNames = referencedTokens.map(({ name }) => name);
@@ -221,11 +222,11 @@ describe("Related cards", () => {
   it("Gets Arakni heroes for Agents of Chaos", () => {
     const cardSearch = new Search(cards);
     const agentsOfChaos = cards.filter(
-      ({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos)
+      ({ traits }) => !!traits && traits.includes(Trait.AgentOfChaos),
     );
 
     const { searchResults: referencesAgentOfChaos } = cardSearch.search(
-      `text:"agent of chaos"`
+      `text:"agent of chaos"`,
     );
     const { searchResults: legalCards } =
       cardSearch.search(`l:crackni c:assassin`);
