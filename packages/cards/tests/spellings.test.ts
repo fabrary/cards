@@ -36,7 +36,7 @@ describe("Card names are spelled correctly", () => {
     }
   }
 
-  it.each(parts)("[$name] $part ($suggested)", ({ part }) => {
+  it.each(parts)("[$name ($part)]: $suggested", ({ part }) => {
     const isSpelledIncorrectly = SUGGESTIONS[part.toLowerCase()] !== undefined;
 
     const isSpelledCorrectly =

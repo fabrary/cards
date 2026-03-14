@@ -563,6 +563,66 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "flowstate-embodiment-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN146",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flowstate Embodiment",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "OMN146",
+      image: "OMN146",
+      
+      
+      print: "OMN146",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic,Rarity.Promo],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["FAB476","OMN146"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
+    specialImage: "OMN146",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever you play an instant card this chain link, create an Embodiment of Lightning or Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Alifka Hammam"],
     cardIdentifier: "lightning-flow",
     classes: [Class.NotClassed],
