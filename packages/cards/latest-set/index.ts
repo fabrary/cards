@@ -667,7 +667,7 @@ When this hits, create a Lightning Flow token.`,
       
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
-        artists: ["C"],
+        artists: ["Alifka Hammam"],
       foiling: Foiling.C,
       identifier: "OMN203",
       image: "OMN203-MVC",
