@@ -2039,6 +2039,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
 
   // Promos
   anq: Release.Promos,
+  con: Release.Promos,
   fab: Release.Promos,
   her: Release.Promos,
   jdg: Release.Promos,
