@@ -274,6 +274,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Kox]: CLASSES_AND_TALENTS([Class.Guardian]),
   [Hero.Levia]: levia,
   [Hero.Lexi]: lexi,
+  [Hero.Librarian]: CLASSES_AND_TALENTS([Class.Adjudicator], LIGHT),
   [Hero.Lyath]: CLASSES_AND_TALENTS([Class.Guardian], [Talent.Reviled]),
   [Hero.Marlynn]: marlynn,
   [Hero.Maxx]: maxx,
@@ -495,6 +496,15 @@ export const getLegalHeroes = (card: {
           !!card.specializations && card.specializations?.length > 0;
 
         if (isAClashCard && !isASpecializationCard) {
+          matches = true;
+        }
+      }
+
+      if (hero === Hero.Librarian && !matches) {
+        const name = card.name.toLowerCase();
+        const isATomeCard = name.includes("tome") && !name.includes("tomeltai");
+
+        if (isATomeCard) {
           matches = true;
         }
       }

@@ -103,5 +103,7 @@ CON002,CON,Phantasmal Footsteps,,,,,,,,,,,,,,,,,,,,,,,V,R,"FA, AA",Mario Wibison
 CON003,CON,Reaping Blade,,,,,,,,,,,,,,,,,,,,,,,V,R,"FA, AA",Alief Rusdiatama,,,CON003,/CON003-RF.png,,,,,,,,,,,,,,,,,,,
 CON004,CON,Spellbound Creepers,,,,,,,,,,,,,,,,,,,,,,,V,R,"FA, AA",Mario Wibisono,,,CON004,/CON004-RF.png,,,,,,,,,,,,,,,,,,,
 FAB489,FAB,Ponder,,,,,,,,,,,,,,,,,,,,,,,V,C,"FA, AA",Tomi Ong,,,FAB489,/FAB489-MV.png,,,V,C,"FA, AA",Tomi Ong,,,FAB489,/FAB489-MV_BACK.png,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,/.png,,,,,,,,,,,,,,,,,,,
+JDG062,JDG,"The Librarian, Magister of History",,,,,,20,4,,"Light, Adjudicator, Hero",,Go again,,,,,,"You may have cards with Tome in their name of any class or talent in your deck.
+
+**Action** - {t}, reveal a card with Tome in its name from your inventory: Put it into your hand. Another target hero gets +1{i} until the end of their next turn. **Go again**",Light Adjudicator Hero,,No,No,No,V,C,FA,Federico Musetti,,,JDG062,/JDG062-CF.png,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,/.png,,,,,,,,,,,,,,,,,,,

@@ -441,6 +441,7 @@ export enum Hero {
   Kox = "Kox",
   Levia = "Levia",
   Lexi = "Lexi",
+  Librarian = "Librarian",
   Lyath = "Lyath",
   Marlynn = "Marlynn",
   Maxx = "Maxx",
