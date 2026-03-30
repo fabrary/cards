@@ -331,9 +331,11 @@ export const getConfirmedLegalFormats = ({
   types,
 }: Card) => {
   const isHero = types.includes(Type.Hero);
+
+  const isAnAdjudicator = classes.includes(Class.Adjudicator);
   const isYoung =
+    isAnAdjudicator ||
     subtypes.includes(Subtype.Young) ||
-    classes.includes(Class.Adjudicator) ||
     subtypes.includes(Subtype.PitFighter);
   const isAnAdultHero = isHero && !isYoung;
   const isAYoungHero = isYoung && isHero;
@@ -412,7 +414,12 @@ export const getConfirmedLegalFormats = ({
 
     const isBlitzFormat = format === Format.Blitz;
     if (isBlitzFormat) {
-      if (isPitFighter || isASpecialUsePromo || isAnAdultHero) {
+      if (
+        isAnAdjudicator ||
+        isPitFighter ||
+        isASpecialUsePromo ||
+        isAnAdultHero
+      ) {
         isConfirmedLegal = false;
       }
     }
