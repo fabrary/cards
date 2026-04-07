@@ -78,7 +78,7 @@ FAB465,FAB,Nebula Duality,Red,1,0,,3,,,3,"Lightning, Wizard, Action",,,Instant,,
 
 **Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.",Lightning Wizard Action,,,,,V,C,FA,Yiian Kho,,,FAB465,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB465-MV.webp,,,,,,Yiian Kho,,,OMN121,,,,,,,Yiian Kho,,,OMN121
 FAB466,FAB,Voltbound Duality,Red,1,0,4,3,,,1,"Lightning, Runeblade, Action, Attack",,,Instant,,,,,"**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.",Lightning Runeblade Action - Attack,,,,,V,C,FA,Edward Chee,,,FAB466,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/FAB466-MV.webp,,,,,,Edward Chee,,,OMN077,,,,,,,Edward Chee,,,OMN077
-FAB467,FAB,Omens of Arcana,,,,,,,,,"Omens of the Third Age, Macro",,,,,Spellvoid 1,,,"Each hero starts the game with a Lightning Flow token.
+FAB467,"FAB,OMN",Omens of Arcana,,,,,,,,,"Omens of the Third Age, Macro",,,,,Spellvoid 1,,,"Each hero starts the game with a Lightning Flow token.
 
 Lightning Flow tokens get **spellvoid 1**.",Omens of the Third Age Macro,,,,,V,C,FA,Jessada Sutthi,,,FAB467,/FAB467.png,,,,,,,,,,,,,,,,,,,
 FAB469,"FAB,OMN",Astral Strike,Red,1,1,5,3,,,,"Lightning, Action, Attack",,Go again,,,,,,"When this attacks, if you've destroyed a Lightning Flow this turn, choose 1;

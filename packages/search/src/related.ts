@@ -1,4 +1,4 @@
-import { Card, Hero, Trait } from "@flesh-and-blood/types";
+import { Card, Flow, Hero, Trait } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants";
 import { Keyword } from "@flesh-and-blood/types";
 
@@ -13,11 +13,11 @@ const getFunctionalTextWithoutSelfReferences = (card: Card) =>
 
 export const getRelatedCardsByName = (name: string, cards: Card[]) => {
   let card = cards.find(
-    (card) => card.name.toLowerCase().replace(PUNCTUATION, "") === name
+    (card) => card.name.toLowerCase().replace(PUNCTUATION, "") === name,
   );
   if (!card) {
     card = cards.find((card) =>
-      card.name.toLowerCase().replace(PUNCTUATION, "").includes(name)
+      card.name.toLowerCase().replace(PUNCTUATION, "").includes(name),
     );
   }
   return getRelatedCards(card, cards);
@@ -25,11 +25,12 @@ export const getRelatedCardsByName = (name: string, cards: Card[]) => {
 
 export const getRelatedCards = (
   card: Card,
-  availableCards: Card[]
+  availableCards: Card[],
 ): { otherPitches: Card[]; referencedBy: Card[]; references: Card[] } => {
   const otherPitches: Card[] = [];
   const referencedBy: Card[] = [];
   const references: Card[] = [];
+
   if (card) {
     // We need an initial list of matches, but then we need to filter further to find nested matches
     // i.e. Ash would match when Aether Ashwing was the actual match
@@ -79,12 +80,31 @@ export const getRelatedCards = (
           initialReferencedBy.push(other);
         }
 
+        const functionalTextRegex = new RegExp(otherName, "g");
+        const functionalTextKeywordRegex = new RegExp(
+          `\\*\\*${otherName}\\*\\*`,
+          "g",
+        );
+        const functionalTextReferences =
+          functionalText?.match(functionalTextRegex) || [];
+        const functionalTextKeywordReferences =
+          functionalText?.match(functionalTextKeywordRegex) || [];
+
+        const referenceIsKeywordOrFlow =
+          functionalTextReferences.length ===
+          functionalTextKeywordReferences.length;
+
+        const otherCardIsInFunctionalText =
+          functionalText?.includes(otherName) && !referenceIsKeywordOrFlow;
+
         const otherCardTraits = other.traits || [];
+        const otherCardIsInTraits = otherCardTraits.some((otherCardTrait) =>
+          functionalText?.includes(otherCardTrait),
+        );
+
         const otherCardIsInFunctionalTextOrTraits =
-          functionalText?.includes(otherName) ||
-          otherCardTraits.some((otherCardTrait) =>
-            functionalText?.includes(otherCardTrait)
-          );
+          otherCardIsInFunctionalText || otherCardIsInTraits;
+
         const isOtherCardSeismicSurge = other.name === "Seismic Surge";
         const isCardHeaved = card.keywords?.includes(Keyword.Heave);
         const isCardHeaveOverride = isOtherCardSeismicSurge && isCardHeaved;
@@ -137,12 +157,12 @@ const heroReferences: {
 export const getTokensReferencedByCards = (
   cards: Card[],
   availableTokens: Card[],
-  hero?: Hero
+  hero?: Hero,
 ): Card[] => {
   const referencedTokens: Set<Card> = new Set<Card>();
 
   for (const card of cards.filter(
-    ({ cardIdentifier }) => !CARD_IDENTIFIERS_TO_SKIP.includes(cardIdentifier)
+    ({ cardIdentifier }) => !CARD_IDENTIFIERS_TO_SKIP.includes(cardIdentifier),
   )) {
     const { references } = getRelatedCards(card, availableTokens);
     for (const token of references.filter((token) => {

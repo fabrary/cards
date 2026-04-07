@@ -1788,7 +1788,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Warrior],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/TBD" },
+      { url: "https://fabrary.net/decks/01KNHHE1MY39BC4PXYXMTJVT1M" },
     ],
     heroes: [Hero.Hala],
     languages: ALL_LANGUAGES,

@@ -92,10 +92,11 @@ describe("Related cards", () => {
     [["Star Struck"], ["Seismic Surge"]],
     // [["Golden Skywarden"], ["Golden Cog", "Gold"]],
     [["Cosmic Duality"], ["Lightning Flow"]],
+    [["Static Shock"], []],
   ];
 
   it.each(tokens)(
-    "Gets referenced tokens",
+    "Gets referenced tokens for %s",
     (referencingCardNames, expectedTokens) => {
       const referencingCards = cards.filter(({ name }) =>
         (referencingCardNames as unknown as string[]).includes(name),
@@ -106,9 +107,14 @@ describe("Related cards", () => {
         ALL_TOKENS,
       );
 
-      expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
-        (expectedTokens as unknown as string[]).sort(),
-      );
+      const shouldExpectTokens = expectedTokens.length > 0;
+      if (shouldExpectTokens) {
+        expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
+          (expectedTokens as unknown as string[]).sort(),
+        );
+      } else {
+        expect(referencedTokens.length).toEqual(0);
+      }
     },
   );
 
