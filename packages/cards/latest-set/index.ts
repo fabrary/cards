@@ -147,6 +147,192 @@
   
   
   },{
+    artists: ["Flora Silve"],
+    cardIdentifier: "auric-shards-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN027",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Auric Shards",
+    printings: [{
+        artists: ["Flora Silve"],
+      
+      identifier: "OMN027",
+      image: "OMN027",
+      
+      
+      print: "OMN027",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN027"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN027",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +4{p}.
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Flora Silve"],
+    cardIdentifier: "auric-shards-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN028",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Auric Shards",
+    printings: [{
+        artists: ["Flora Silve"],
+      
+      identifier: "OMN028",
+      image: "OMN028",
+      
+      
+      print: "OMN028",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN028"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN028",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +3{p}.
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Flora Silve"],
+    cardIdentifier: "auric-shards-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN029",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Auric Shards",
+    printings: [{
+        artists: ["Flora Silve"],
+      
+      identifier: "OMN029",
+      image: "OMN029",
+      
+      
+      print: "OMN029",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN029"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN029",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +2{p}.
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "aurora-emissary-of-lightning",
     classes: [Class.Runeblade],
@@ -501,7 +687,255 @@
   
   
   },{
-    artists: ["Tomasz Jedruzek"],
+    artists: ["Arif Restu"],
+    cardIdentifier: "cosmic-suture-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN127",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Cosmic Suture",
+    printings: [{
+        artists: ["Arif Restu"],
+      
+      identifier: "OMN127",
+      image: "OMN127",
+      
+      
+      print: "OMN127",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN127"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN127",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `Prevent the next 4 damage that would be dealt to you this turn.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Arif Restu"],
+    cardIdentifier: "cosmic-suture-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN128",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Cosmic Suture",
+    printings: [{
+        artists: ["Arif Restu"],
+      
+      identifier: "OMN128",
+      image: "OMN128",
+      
+      
+      print: "OMN128",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN128"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN128",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `Prevent the next 3 damage that would be dealt to you this turn.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Arif Restu"],
+    cardIdentifier: "cosmic-suture-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN129",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Cosmic Suture",
+    printings: [{
+        artists: ["Arif Restu"],
+      
+      identifier: "OMN129",
+      image: "OMN129",
+      
+      
+      print: "OMN129",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN129"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN129",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `Prevent the next 2 damage that would be dealt to you this turn.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Vincent Taslim"],
+    cardIdentifier: "dashing-flashfoot-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN053",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Dashing Flashfoot",
+    printings: [{
+        artists: ["Vincent Taslim"],
+      
+      identifier: "OMN053",
+      image: "OMN053",
+      
+      
+      print: "OMN053",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN053"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN053",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p} and "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a hero, create an Embodiment of Lightning token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
     cardIdentifier: "flowing-stormstrike-red",
     classes: [Class.NotClassed],
     defaultImage: "OMN152",
@@ -509,7 +943,7 @@
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Flowing Stormstrike",
     printings: [{
-        artists: ["Tomasz Jedruzek"],
+        artists: ["Tomasz Jedruszek"],
       
       identifier: "OMN152",
       image: "OMN152",
@@ -719,7 +1153,7 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
-    artists: ["Tomasz Jedruzek"],
+    artists: ["Tomasz Jedruszek"],
     cardIdentifier: "meteoric-rise-red",
     classes: [Class.NotClassed],
     defaultImage: "OMN153",
@@ -727,7 +1161,7 @@ When this hits, create a Lightning Flow token.`,
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Meteoric Rise",
     printings: [{
-        artists: ["Tomasz Jedruzek"],
+        artists: ["Tomasz Jedruszek"],
       
       identifier: "OMN153",
       image: "OMN153",
@@ -1135,6 +1569,254 @@ When this hits, create a Lightning Flow token.`,
   
   young: true
   },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "pulsing-cardia-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN021",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Pulsing Cardia",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "OMN021",
+      image: "OMN021",
+      
+      
+      print: "OMN021",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN021"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN021",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, gain {r}.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "pulsing-cardia-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN022",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Pulsing Cardia",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "OMN022",
+      image: "OMN022",
+      
+      
+      print: "OMN022",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN022"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN022",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, gain {r}.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "pulsing-cardia-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN023",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Pulsing Cardia",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "OMN023",
+      image: "OMN023",
+      
+      
+      print: "OMN023",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN023"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN023",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, gain {r}.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "scorpio-comet-tail",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN049",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Scorpio, Comet Tail",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN049",
+      image: "OMN049",
+      
+      
+      print: "OMN049",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["OMN049"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN049",
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
+    types: [Type.Weapon],
+    typeText: "Lightning Runeblade Weapon - Sword (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {t}: **Attack**. Activate this only if you control a Lightning attack.
+
+When this hits a hero, deal 1 arcane damage to them.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    power: 1,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "voltbound-duality-red",
     classes: [Class.Runeblade],
@@ -1315,7 +1997,7 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
-    artists: ["Tomasz Jedruzek"],
+    artists: ["Tomasz Jedruszek"],
     cardIdentifier: "voltic-impact-red",
     classes: [Class.NotClassed],
     defaultImage: "OMN154",
@@ -1323,7 +2005,7 @@ When this hits, create a Lightning Flow token.`,
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Voltic Impact",
     printings: [{
-        artists: ["Tomasz Jedruzek"],
+        artists: ["Tomasz Jedruszek"],
       
       identifier: "OMN154",
       image: "OMN154",
@@ -1366,6 +2048,66 @@ When this hits, create a Lightning Flow token.`,
     power: 6,
     
     shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Satriasa"],
+    cardIdentifier: "volzar-meteor-storm",
+    classes: [Class.Wizard],
+    defaultImage: "OMN096",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Volzar, Meteor Storm",
+    printings: [{
+        artists: ["Satriasa"],
+      
+      identifier: "OMN096",
+      image: "OMN096",
+      
+      
+      print: "OMN096",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["OMN096"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN096",
+    subtypes: [Subtype.TwoHanded,Subtype.Staff],
+    types: [Type.Weapon],
+    typeText: "Lightning Wizard Weapon - Staff (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {t}: **Amp 1**. Activate this only if an instant card has been put into your graveyard this turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.Amp],
+    
+    
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
     
     
     

@@ -1785,7 +1785,7 @@ export const releases: ReleaseInfo[] = [
     talents: [],
   },
   {
-    cards: 30,
+    cards: 27,
     classes: [Class.Warrior],
     deckLinks: [
       { url: "https://fabrary.net/decks/01KNHHE1MY39BC4PXYXMTJVT1M" },
