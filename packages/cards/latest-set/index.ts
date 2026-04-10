@@ -586,7 +586,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
         artists: ["Amirul HHF"],
       foiling: Foiling.C,
       identifier: "OMN033",
-      image: "OMN033",
+      image: "OMN033-CF",
       
       
       print: "OMN033-Cold-Extended Art",
@@ -599,7 +599,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
     rarity: Rarity.Common,
     setIdentifiers: ["OMN033"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN033",
+    specialImage: "OMN033-CF",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
     typeText: "Lightning Illusionist Instant - Aura",

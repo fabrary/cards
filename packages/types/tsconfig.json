@@ -4,6 +4,7 @@
     "esModuleInterop": true,
     "declaration": true,
     "isolatedModules": true,
+    "lib": ["ES2021"],
     "outDir": "dist",
     "skipLibCheck": true,
     "target": "ES6"
