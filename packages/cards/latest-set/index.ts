@@ -83,6 +83,68 @@
   
   
   },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "arc-ramp-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN102",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Arc Ramp",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "OMN102",
+      image: "OMN102",
+      
+      
+      print: "OMN102",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN102"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN102",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Amp 1**
+
+You may destroy a Lightning Flow you control. If you do, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Amp,Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "astral-strike-red",
     classes: [Class.NotClassed],
@@ -490,6 +552,80 @@
     
     
     shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "circular-flowtide-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN033",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Circular Flowtide",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "OMN033",
+      image: "OMN033",
+      
+      
+      print: "OMN033",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.C,
+      identifier: "OMN033",
+      image: "OMN033",
+      
+      
+      print: "OMN033-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN033"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN033",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this leaves the arena, create a Lightning Flow token.
+
+**Ward 2**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
     
     
     
@@ -1744,6 +1880,66 @@ When this hits, create a Lightning Flow token.`,
     power: 5,
     
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "rift-breaker-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN155",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Rift Breaker",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "OMN155",
+      image: "OMN155",
+      
+      
+      print: "OMN155",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN155"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN155",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, destroy a Lightning Flow token they control.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
     
     
     

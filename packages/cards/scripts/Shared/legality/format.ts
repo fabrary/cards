@@ -27,7 +27,10 @@ const limitedLegalOverrideCards = [
   "Zen State",
 ];
 
-const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = ["Raydn, Duskbane"];
+const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = [
+  "Dawnblade, Resplendent",
+  "Raydn, Duskbane",
+];
 
 const livingLegendBannedCards = ["Kraken's Aethervein"];
 const RARITIES_NOT_ALLOWED_IN_COMMONER = [

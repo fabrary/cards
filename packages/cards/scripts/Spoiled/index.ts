@@ -13,6 +13,7 @@ const spoiledSetCardsFileARR = `${__dirname}/Flesh and Blood Spoiler Card Data -
 const spoiledSetCardsFileAVS = `${__dirname}/Flesh and Blood Spoiler Card Data - AVS.csv`;
 const spoiledSetCardsFileAZS = `${__dirname}/Flesh and Blood Spoiler Card Data - AZS.csv`;
 const spoiledSetCardsFileBDD = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
+const spoiledSetCardsFileMPW = `${__dirname}/Flesh and Blood Spoiler Card Data - MPW.csv`;
 const spoiledSetCardsFileOMN = `${__dirname}/Flesh and Blood Spoiler Card Data - OMN.csv`;
 const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
@@ -32,6 +33,7 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAZS),
   ...parseCSV(spoiledSetCardsFileAVS),
   ...parseCSV(spoiledSetCardsFileBDD),
+  ...parseCSV(spoiledSetCardsFileMPW),
   ...parseCSV(spoiledSetCardsFileOMN),
 ]
   .filter((card) => !!card.name)

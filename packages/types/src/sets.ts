@@ -1912,6 +1912,19 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["sly"],
     talents: [Talent.Reviled],
   },
+  {
+    cards: 156,
+    classes: [Class.Warrior],
+    deckLinks: [],
+    heroes: [Hero.Dorinthea],
+    languages: ALL_LANGUAGES,
+    release: Release.MasteryPackWarrior,
+    relatedReleases: [],
+    releaseDate: "2026-08-07 12:00",
+    releaseType: ReleaseType.MasteryPack,
+    setIdentifiers: ["mpw"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1937,6 +1950,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   sup: Release.SuperSlam,
   pen: Release.CompendiumOfRathe,
   omn: Release.OmensOfTheThirdAge,
+  mpw: Release.MasteryPackWarrior,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {

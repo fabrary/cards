@@ -276,10 +276,13 @@ export enum Release {
   LyathSilverAgeDeck = "Lyath Silver Age Deck",
   ViseraiSilverAgeDeck = "Viserai Silver Age Deck",
 
+  // Mastery packs
+  MasteryPackGuardian = "Mastery Pack: Guardian",
+  MasteryPackWarrior = "Mastery Pack: Warrior",
+
   // Other decks
   BravoDemoDeck = "Bravo Demo Deck",
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
-  MasteryPackGuardian = "Mastery Pack: Guardian",
   IraWelcomeDeck = "Ira Welcome Deck",
   RoundTheTable = "Round the Table: TCC x LSS",
   SmashPalace = "Smash Palace",
