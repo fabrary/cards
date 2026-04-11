@@ -84,6 +84,130 @@
   
   },{
     artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "arc-ramp-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN100",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Arc Ramp",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "OMN100",
+      image: "OMN100",
+      
+      
+      print: "OMN100",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN100"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN100",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Amp 3**
+
+You may destroy a Lightning Flow you control. If you do, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Amp,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "arc-ramp-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN101",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Arc Ramp",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "OMN101",
+      image: "OMN101",
+      
+      
+      print: "OMN101",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN101"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN101",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Amp 2**
+
+You may destroy a Lightning Flow you control. If you do, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Amp,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
     cardIdentifier: "arc-ramp-blue",
     classes: [Class.Wizard],
     defaultImage: "OMN102",
@@ -127,7 +251,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
     keywords: [Keyword.Amp,Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Rainbow],
   
     
     pitch: 3,
@@ -1933,13 +2057,133 @@ When this hits, create a Lightning Flow token.`,
     
     
     
-    
+    meta: [Meta.Rainbow],
   
     
     pitch: 1,
     power: 6,
     
     shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "rift-breaker-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN156",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Rift Breaker",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "OMN156",
+      image: "OMN156",
+      
+      
+      print: "OMN156",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN156"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN156",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, destroy a Lightning Flow token they control.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "rift-breaker-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN157",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Rift Breaker",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "OMN157",
+      image: "OMN157",
+      
+      
+      print: "OMN157",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN157"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN157",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this hits a hero, destroy a Lightning Flow token they control.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
     
     
     
