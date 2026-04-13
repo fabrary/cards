@@ -1925,6 +1925,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["mpw"],
     talents: [],
   },
+  {
+    cards: 30,
+    classes: [Class.Warrior],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01K74RXDPRPJT9YWGFVAPHECDF" },
+    ],
+    heroes: [Hero.Olympia],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckOlympia,
+    relatedReleases: [],
+    releaseDate: "2026-08-07 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["aol"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1973,6 +1988,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   avs: Release.ArmoryDeckLegendsViserai,
   aha: Release.ArmoryDeckOriginsHala,
   azs: Release.ArmoryDeckZyggy,
+  aol: Release.ArmoryDeckOlympia,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

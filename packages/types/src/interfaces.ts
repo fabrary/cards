@@ -203,6 +203,7 @@ export enum Release {
   ArmoryDeckIra = "Armory Deck: Ira",
   ArmoryDeckKayo = "Armory Deck: Kayo",
   ArmoryDeckMaxx = "Armory Deck: Maxx",
+  ArmoryDeckOlympia = "Armory Deck: Olympia",
   ArmoryDeckPleiades = "Armory Deck: Pleiades",
   ArmoryDeckRhinar = "Armory Deck: Rhinar",
   ArmoryDeckZyggy = "Armory Deck: Zyggy",
