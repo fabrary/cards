@@ -691,15 +691,16 @@ const getReleasesFromRawValues = (
 ): Release[] => {
   const releases: Release[] = [];
   for (const rawValue of rawValues) {
-    releases.push(...getMatchingReleasesFromRawValue(rawValue));
+    releases.push(...getMatchingReleasesFromRawValue(rawValue, additionalSets));
   }
-
-  // TODO use the dynamic set to search as well
 
   return releases;
 };
 
-const getMatchingReleasesFromRawValue = (rawValue: string) => {
+const getMatchingReleasesFromRawValue = (
+  rawValue: string,
+  additionalSets: Release[] = [],
+) => {
   const releases: Release[] = [];
 
   const setFromValue = Object.values(Release).find(
@@ -723,6 +724,17 @@ const getMatchingReleasesFromRawValue = (rawValue: string) => {
     );
     if (setsFromPartialValue.length > 0) {
       releases.push(...setsFromPartialValue);
+    }
+  }
+
+  if (releases.length === 0) {
+    const additionalSetFromValue = additionalSets.find(
+      (additionalSet) =>
+        additionalSet.toLowerCase().replaceAll(PUNCTUATION, "") === rawValue,
+    );
+
+    if (additionalSetFromValue) {
+      releases.push(additionalSetFromValue);
     }
   }
 

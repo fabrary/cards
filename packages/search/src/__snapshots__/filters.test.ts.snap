@@ -39,6 +39,18 @@ exports[`Gets the right attribute filters Gets matching foilings for treatment:e
 ]
 `;
 
+exports[`Gets the right attribute filters Gets matching sets for s:"Dorinthea Demo Deck" 1`] = `
+[
+  "Dorinthea Demo Deck",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching sets for s:"bravo demo deck" 1`] = `
+[
+  "Bravo Demo Deck",
+]
+`;
+
 exports[`Gets the right attribute filters Gets matching sets for s:ara 1`] = `
 [
   "Arakni Blitz Deck",
@@ -48,6 +60,12 @@ exports[`Gets the right attribute filters Gets matching sets for s:ara 1`] = `
 exports[`Gets the right attribute filters Gets matching sets for s:ara 2`] = `
 [
   "Arakni Blitz Deck",
+]
+`;
+
+exports[`Gets the right attribute filters Gets matching sets for s:ddd 1`] = `
+[
+  "Dorinthea Demo Deck",
 ]
 `;
 

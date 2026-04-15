@@ -25,7 +25,7 @@ describe("Gets the right attribute filters", () => {
       } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
       expect(foilings.length).toEqual(expectedFoilings.length);
       expect(expectedFoilings).toMatchSnapshot();
-    }
+    },
   );
 
   const setFilters = [
@@ -52,7 +52,7 @@ describe("Gets the right attribute filters", () => {
       } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
       expect(treatments.length).toEqual(expectedTreatments.length);
       expect(treatments).toMatchSnapshot();
-    }
+    },
   );
 });
 
@@ -69,12 +69,15 @@ describe("Gets the right attribute filters", () => {
       } = getKeywordsAndAppliedFiltersFromText(search as string, cards);
       expect(foilings.length).toEqual(expectedFoilings.length);
       expect(expectedFoilings).toMatchSnapshot();
-    }
+    },
   );
 
   const setFilters = [
     ["s:ara", [Release.ArakniBlitzDeck]],
     ["s:welcome", [Release.WelcomeToRathe, Release.IraWelcomeDeck]],
+    ['s:"bravo demo deck"', [Release.BravoDemoDeck]],
+    ['s:"Dorinthea Demo Deck"', [Release.DorintheaDemoDeck]],
+    ["s:ddd", [Release.DorintheaDemoDeck]],
   ];
   it.each(setFilters)("Gets matching sets for %s", (search, sets) => {
     const {
@@ -100,7 +103,7 @@ describe("Gets the right attribute filters", () => {
       for (const expected of expectedTreatments as Treatment[]) {
         expect(treatments.includes(expected)).toBeTruthy();
       }
-    }
+    },
   );
 
   const metaFilters = [
@@ -112,24 +115,24 @@ describe("Gets the right attribute filters", () => {
     (search, expectedMetaValues) => {
       const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
         search as string,
-        cards
+        cards,
       );
 
       const metaAppliedFilter = appliedFilters.find(
         (appliedFilter) =>
-          appliedFilter.filterToPropertyMapping.property === "meta"
+          appliedFilter.filterToPropertyMapping.property === "meta",
       );
 
       expect(metaAppliedFilter.values.length).toEqual(
-        expectedMetaValues.length
+        expectedMetaValues.length,
       );
 
       for (const expected of expectedMetaValues) {
         expect(
-          metaAppliedFilter.values.includes(expected.toLowerCase())
+          metaAppliedFilter.values.includes(expected.toLowerCase()),
         ).toBeTruthy();
       }
-    }
+    },
   );
 
   const shorthandFilters = [
@@ -141,24 +144,24 @@ describe("Gets the right attribute filters", () => {
     (search, expectedShorthands) => {
       const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
         search as string,
-        cards
+        cards,
       );
 
       const shorthandAppliedFilter = appliedFilters.find(
         (appliedFilter) =>
-          appliedFilter.filterToPropertyMapping.property === "shorthands"
+          appliedFilter.filterToPropertyMapping.property === "shorthands",
       );
 
       expect(shorthandAppliedFilter.values.length).toEqual(
-        expectedShorthands.length
+        expectedShorthands.length,
       );
 
       for (const expected of expectedShorthands) {
         expect(
-          shorthandAppliedFilter.values.includes(expected.toLowerCase())
+          shorthandAppliedFilter.values.includes(expected.toLowerCase()),
         ).toBeTruthy();
       }
-    }
+    },
   );
 });
 

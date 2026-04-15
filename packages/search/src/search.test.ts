@@ -466,6 +466,18 @@ describe("Every set has results", () => {
   );
 });
 
+describe("Dorinthea demo deck", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  const { searchResults } = cardSearch.search("s:ddd");
+  expect(searchResults.length).toEqual(16);
+
+  const { searchResults: results2 } = cardSearch.search(
+    's:"dorinthea demo deck"',
+  );
+  expect(results2.length).toEqual(16);
+});
+
 describe("Armory decks are distinct", () => {
   const cardSearch = new Search(doubleSidedCards);
 
