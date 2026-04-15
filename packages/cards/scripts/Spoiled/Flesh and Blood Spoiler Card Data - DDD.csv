@@ -1,0 +1,23 @@
+Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,CC Legal,Silver Age Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
+DDD001,DDD,"Dorinthea, Quicksilver Prodigy",,,,,,,,,,,,,,,,,,,,,,,,,,,,,DDD001,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD001.webp,,,,,,,,,,,,,,,,,,,
+DDD002,DDD,"Dawnblade, Resplendent",,,,,,,,,,,,,,,,,,,,,,,C,,,,,,DDD002,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD002.webp,,,,,,,,,,,,,,,,,,,
+DDD003,DDD,Ironrot Helm,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,DDD003,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD003.webp,,,,,,,,,,,,,,,,,,,
+DDD004,DDD,Blossom of Spring,,,,,,,,,,,,,,,,,,,,,,,C,,,,,,DDD004,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD004.webp,,,,,,,,,,,,,,,,,,,
+DDD005,DDD,Squire's Bracers,,,,,0,,,,"Warrior, Equipment, Arms",,,,,,,,"When your sword attack hits, you may destroy this. If you do, the sword's next attack this turn gets +2{p}.",Warrior Equipment - Arms,,,,,C,,,Marcus Reyno,,,DDD005,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD005.webp,,,,,,,,,,,,,,,,,,,
+DDD006,DDD,Cutting Couriers,,,,,0,,,,"Warrior, Equipment, Legs",,Go again,,,,,,"When your sword attack hits, you may destroy this. If you do, the attack gets **go again**.",Warrior Equipment - Legs,,,,,C,,,Kyxarie Peralta,,,DDD006,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD006.webp,,,,,,,,,,,,,,,,,,,
+DDD007,DDD,In the Swing,Red,1,,,,,,,,,,,,,,,,,,,,,,,,Bramasta Aji,,,DDD007,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD007.webp,,,,,,,,,,,,,,,,,,,
+DDD008,DDD,Run Through,Red,1,1,,3,,,,"Warrior, Attack Reaction",,Go again,,,,,,"Target sword attack gets **go again**.
+
+Your next sword attack this turn gets +3{p}.",Warrior Attack Reaction,,,,,R,,,Andy Aslamov,,,DDD008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD008.webp,,,,,,,,,,,,,,,,,,,
+DDD009,DDD,Thrust,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,DDD009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD009.webp,,,,,,,,,,,,,,,,,,,
+DDD010,DDD,Warrior's Valor,Red,1,,,,,,,,,,,,,,,,,,,,,,,,,,,DDD010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD010.webp,,,,,,,,,,,,,,,,,,,
+DDD011,DDD,Back for Seconds,Yellow,2,1,,2,,,,"Warrior, Attack Reaction",,,,,,,,"Target sword attack gets +2{p}. If it's your second attack this turn, instead it gets +3{p}.",Warrior Attack Reaction,,,,,C,,,Peyeyo,,,DDD011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD011.webp,,,,,,,,,,,,,,,,,,,
+DDD012,DDD,Blade Rush,Yellow,2,0,,2,,,,"Warrior, Action",,Go again,,,,,,"Your first sword attack this turn gets **go again**.
+
+Your second sword attack this turn gets +1{p}.
+
+**Go again**",Warrior Action,,,,,R,,,Pavel Rtishchev (Klaher),,,DDD012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD012.webp,,,,,,,,,,,,,,,,,,,
+DDD013,DDD,Blade Flash,Blue,3,1,,2,,,,"Generic, Attack Reaction",,Go again,,,,,,Target sword attack gets **go again**.,Generic Attack Reaction,,,,,C,,,Faizal Fikri,,,DDD013,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD013.webp,,,,,,,,,,,,,,,,,,,
+DDD014,DDD,Shove Off,Blue,3,1,,3,,,,"Warrior, Attack Reaction",,,,,,,,Choose a non-equipment card defending a sword attack you control. Return it to its owner's hand.,Warrior Attack Reaction,,,,,R,,,Tomasz Jedruszek,,,DDD014,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD014.webp,,,,,,,,,,,,,,,,,,,
+DDD015,DDD,Steel on Steel,Blue,3,0,,1,,,,"Warrior, Defense Reaction",,,,,,,,"While this is defending a weapon attack, this gets +1{d}.",Warrior Defense Reaction,,,,,C,,,Kevin Sidharta,,,DDD015,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD015.webp,,,,,,,,,,,,,,,,,,,
+DDD016,DDD,Trot Along,Blue,3,,,,,,,,,,,,,,,,,,,,,,,,,,,DDD016,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DDD016.webp,,,,,,,,,,,,,,,,,,,

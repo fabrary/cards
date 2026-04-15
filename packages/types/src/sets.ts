@@ -1502,7 +1502,6 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["bdd"],
     talents: [],
   },
-
   {
     cards: 107,
     classes: [Class.Guardian],
@@ -1841,7 +1840,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Wizard],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP" },
+      // { url: "https://fabrary.net/decks/01KP7ZQMB111K73XT88YV5YN7C" },
     ],
     heroes: [Hero.Blaze],
     languages: ALL_LANGUAGES,
@@ -1856,7 +1855,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Warrior],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP" },
+      // { url: "https://fabrary.net/decks/01KP7ZQ311EMGC2S97KC79AEX0" },
     ],
     heroes: [Hero.Boltyn],
     languages: ALL_LANGUAGES,
@@ -1871,7 +1870,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Runeblade],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP" },
+      // { url: "https://fabrary.net/decks/01KP7ZP4HXQTBZ2G37PMJ9W20N" },
     ],
     heroes: [Hero.Briar],
     languages: ALL_LANGUAGES,
@@ -1880,13 +1879,13 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2026-06-05 12:00",
     releaseType: ReleaseType.SilverAgeDeck,
     setIdentifiers: ["sba"],
-    talents: [],
+    talents: [Talent.Elemental, Talent.Earth, Talent.Lightning],
   },
   {
     cards: 40,
     classes: [Class.Pirate, Class.Necromancer],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP" },
+      // { url: "https://fabrary.net/decks/01KP7ZNJYM2QVMNRS4DQKFZHQ4" },
     ],
     heroes: [Hero.GravyBones],
     languages: ALL_LANGUAGES,
@@ -1901,7 +1900,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Guardian],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KFWG05XQJT0NRVNGBZ4EJSSP" },
+      // { url: "https://fabrary.net/decks/01KP7ZMZGHMACW17CRP12E7R45" },
     ],
     heroes: [Hero.Lyath],
     languages: ALL_LANGUAGES,
@@ -1929,7 +1928,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Warrior],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01K74RXDPRPJT9YWGFVAPHECDF" },
+      // { url: "https://fabrary.net/decks/01KP7ZJNFZZD8YNGP438FT8SFG" },
     ],
     heroes: [Hero.Olympia],
     languages: ALL_LANGUAGES,
@@ -1938,6 +1937,21 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2026-08-07 12:00",
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["aol"],
+    talents: [],
+  },
+  {
+    cards: 30,
+    classes: [Class.Warrior],
+    deckLinks: [
+      { url: "https://fabrary.net/decks/01KP7ZHK1HMQCVMFH6W62FTVZ2" },
+    ],
+    heroes: [Hero.Dorinthea],
+    languages: ALL_LANGUAGES,
+    release: Release.DorintheaDemoDeck,
+    relatedReleases: [],
+    releaseDate: "2026-08-07 12:00",
+    releaseType: ReleaseType.WelcomeDeck,
+    setIdentifiers: ["ddd"],
     talents: [],
   },
 ];
@@ -2047,6 +2061,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
 
   // Starter decks
   bdd: Release.BravoDemoDeck,
+  ddd: Release.DorintheaDemoDeck,
   dvr: Release.ClassicBattlesRhinarDorinthea,
   rvd: Release.ClassicBattlesRhinarDorinthea,
   ira: Release.IraWelcomeDeck,

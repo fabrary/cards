@@ -699,6 +699,8 @@ OSCCardDB = {
   ["ANQ035"] = { name = "Oasis Respite (1)", text = "Prevent the next 4 damage that would be dealt to target hero this turn by a source of your choice. If they have less life than each other hero, they may gain 1{h}.", keywords = "", types = "Instant"},
   ["ANQ036"] = { name = "Sigil of Solace (1)", text = "Gain 3{h}", keywords = "", types = "Instant"},
   ["ANQ037"] = { name = "Fiddler's Green (1)", text = "When this is put into your graveyard from anywhere, gain 3{h}.", keywords = "", types = "Block"},
+  ["AOL001"] = { name = "Olympia, Prized Fighter", text = "The first time each of your attacks wins a **wager**, create a Gold token.", keywords = "", types = "Hero"},
+  ["AOL002"] = { name = "Golden Grail", text = "**Once per Turn Action** - {r}{r} or destroy a Gold you control: **Attack**. If this attack has wagered, it gets +1{p}.", keywords = "", types = "Weapon"},
   ["AOL026"] = { name = "Odds on Favorite (3)", text = "Your next sword attack this turn gets \"When this attacks, **wager** with the defending hero. The winner searches their deck for a card, shuffles, then puts that card on top.\"\n\n**Go again**", keywords = "Go again,Wager", types = "Action"},
   ["APR001"] = { name = "Prism, Sculptor of Arc Light", text = "**Once per Turn Instant** - {r}{r}, banish a card from Prism's soul: Create a Spectral Shield token.", keywords = "", types = "Hero"},
   ["APR002"] = { name = "Luminaris", text = "During your action phase, Illusionist auras you control are weapons with 1 base {p} and \"**Once per Turn Action** - 0: **Attack**\"\n\nIf there is a yellow card in your pitch zone, your Illusionist attacks get **go again**.", keywords = "Go again", types = "Weapon"},

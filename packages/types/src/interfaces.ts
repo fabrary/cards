@@ -283,6 +283,7 @@ export enum Release {
 
   // Other decks
   BravoDemoDeck = "Bravo Demo Deck",
+  DorintheaDemoDeck = "Dorinthea Demo Deck",
   ClassicBattlesRhinarDorinthea = "Classic Battles: Rhinar vs Dorinthea",
   IraWelcomeDeck = "Ira Welcome Deck",
   RoundTheTable = "Round the Table: TCC x LSS",
