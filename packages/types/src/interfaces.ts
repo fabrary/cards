@@ -174,7 +174,7 @@ export enum Release {
   // Full sets
   ArcaneRising = "Arcane Rising",
   BrightLights = "Bright Lights",
-  CompendiumOfRathe = "Compendium Of Rathe",
+  CompendiumOfRathe = "Compendium of Rathe",
   CrucibleOfWar = "Crucible of War",
   DuskTillDawn = "Dusk till Dawn",
   Dynasty = "Dynasty",

@@ -16291,6 +16291,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/run-through-blue</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/runaways</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -19278,6 +19283,16 @@
   <url>
     <loc>https://fabrary.net/cards/steam-canister-blue</loc>
     <lastmod>2023-09-24</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/steel-on-steel-red</loc>
+    <lastmod>2026-04-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/steel-on-steel-yellow</loc>
+    <lastmod>2026-04-16</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

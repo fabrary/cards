@@ -5,9 +5,13 @@ import {
   getSpecialPrinting,
   getDefaultPrinting,
   getIsCardTokenForDeck,
+  getCardFromGEMCardIdentifier,
 } from "../src/helpers";
 import {
+  Card,
+  Class,
   Foiling,
+  Format,
   Keyword,
   Printing,
   Rarity,
@@ -23,7 +27,7 @@ describe("Card identifiers", () => {
     {
       expected: { number: string; string: string };
       pitch?: number;
-    }
+    },
   ][] = [
     [
       "Invoke Miragai",
@@ -74,7 +78,57 @@ describe("Card identifiers", () => {
       useNumber = true;
       const cardIdentiferNumber = getCardIdentifier(card, useNumber);
       expect(cardIdentiferNumber).toEqual(number);
-    }
+    },
+  );
+});
+
+const gemCards: {
+  cardIdentifier: string;
+  oppositeSideCardIdentifiers?: string[];
+}[] = [
+  // Standard
+  {
+    cardIdentifier: "gorganian-tome",
+  },
+  {
+    cardIdentifier: "maxx-the-hype-nitro",
+  },
+  // Double sided
+  {
+    cardIdentifier: "burn-up--shock-red",
+  },
+  {
+    cardIdentifier: "invoke-miragai-red",
+    oppositeSideCardIdentifiers: ["miragai"],
+  },
+  {
+    cardIdentifier: "singularity-red",
+    oppositeSideCardIdentifiers: ["teklovossen-the-mechropotent"],
+  },
+  {
+    cardIdentifier: "stir-the-pot-blue",
+    oppositeSideCardIdentifiers: ["inner-chi-blue"],
+  },
+];
+
+describe("GEM card identifiers", () => {
+  const identifiers: [string, string][] = [
+    // Standard
+    ["gorganian-tome", "gorganian-tome"],
+    ["maxx-the-hype-nitro", "maxx-the-hype-nitro"],
+    // Double sided
+    ["burn-up--shock-1", "burn-up--shock-red"],
+    ["invoke-miragai-1--miragai", "invoke-miragai-red"],
+    ["singularity-1--teklovossen-the-mechropotent", "singularity-red"],
+    ["stir-the-pot-3--inner-chi-3", "stir-the-pot-blue"],
+  ];
+
+  it.each(identifiers)(
+    "%s has set identifiers",
+    (gemIdentifier, expectedIdentifier) => {
+      const card = getCardFromGEMCardIdentifier(gemIdentifier, gemCards);
+      expect(card?.cardIdentifier).toEqual(expectedIdentifier);
+    },
   );
 });
 
@@ -161,13 +215,13 @@ describe("Printings", () => {
 
     const defaultPrinting = getDefaultPrinting(
       { cardIdentifier, name },
-      printings
+      printings,
     );
     expect(defaultPrinting.image).toEqual("HNT167");
 
     const specialPrinting = getSpecialPrinting(
       { cardIdentifier, name },
-      printings
+      printings,
     );
     expect(specialPrinting.image).toEqual("HNT167_V2");
   });
@@ -209,7 +263,7 @@ describe("Printings", () => {
 
     const specialPrinting = getSpecialPrinting(
       { cardIdentifier, name },
-      printings
+      printings,
     );
     expect(specialPrinting.image).toEqual("HNT260-EA");
   });

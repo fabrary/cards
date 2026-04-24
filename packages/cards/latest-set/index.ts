@@ -1661,6 +1661,68 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Jessada Sutthi"],
+    cardIdentifier: "omens-of-arcana",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN227",
+    legalFormats: [Format.Draft,Format.Open,Format.Sealed],
+    legalHeroes: [Hero.Aurora,Hero.Oscilio,Hero.Zyggy],
+    name: "Omens of Arcana",
+    printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "OMN227",
+      image: "OMN227",
+      
+      
+      print: "OMN227",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["FAB467","OMN227"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
+    specialImage: "OMN227",
+    subtypes: [],
+    types: [Type.Macro],
+    typeText: "Omens of the Third Age Macro",
+
+    
+    
+    
+    
+    
+    functionalText: `Each hero starts the game with a Lightning Flow token.
+
+Lightning Flow tokens get **spellvoid 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Spellvoid],
+    
+    
+    metatypes: [Metatype.OmensOfTheThirdAge],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "oscilio-forked-continuum",
     classes: [Class.Wizard],

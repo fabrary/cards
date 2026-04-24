@@ -5,7 +5,7 @@ export const getCardIdentifier = (
     name: string;
     pitch?: string | number;
   },
-  useNumber?: boolean
+  useNumber?: boolean,
 ): string => {
   const { name: unformattedName, pitch } = card;
   const name = unformattedName
@@ -39,10 +39,74 @@ export const getCardIdentifier = (
   return `${name}${suffix}`;
 };
 
+export const getCardFromGEMCardIdentifier = (
+  gemCardIdentifier: string,
+  cards: { cardIdentifier: string; oppositeSideCardIdentifiers?: string[] }[],
+): Card | undefined => {
+  let exactMatch: Card | undefined;
+  let fallbackMatch: Card | undefined;
+
+  const identifierParts = gemCardIdentifier.split("-");
+  const cardIdentifierGuess = identifierParts
+    .map((part, index) => {
+      const shouldReplaceNumberWithColor = ["1", "2", "3"].some(
+        (pitch) => pitch === part,
+      );
+
+      return shouldReplaceNumberWithColor
+        ? part.replace("1", "red").replace("2", "yellow").replace("3", "blue")
+        : part;
+    })
+    .join("-");
+
+  if (gemCardIdentifier === "singularity-1--teklovossen-the-mechropotent") {
+    console.log(
+      JSON.stringify({
+        gemCardIdentifier,
+        cardIdentifierGuess,
+        identifierParts,
+      }),
+    );
+  }
+
+  for (const card of cards) {
+    const { cardIdentifier, oppositeSideCardIdentifiers } = card;
+
+    const matchesExactly = cardIdentifier === cardIdentifierGuess;
+    if (matchesExactly) {
+      exactMatch = card as Card;
+      break;
+    }
+
+    const matchesDoubleSidedGuess = oppositeSideCardIdentifiers?.some(
+      (oppositeSideCardIdentifier) =>
+        `${cardIdentifier}--${oppositeSideCardIdentifier}` ===
+        cardIdentifierGuess,
+    );
+
+    if (gemCardIdentifier === "singularity-1--teklovossen-the-mechropotent") {
+      const doubleSidedGuess = oppositeSideCardIdentifiers?.map(
+        (oppositeSideCardIdentifier) =>
+          `${cardIdentifier}--${oppositeSideCardIdentifier}`,
+      );
+      console.log(JSON.stringify({ doubleSidedGuess }));
+    }
+    if (matchesDoubleSidedGuess) {
+      fallbackMatch = card as Card;
+    }
+  }
+
+  if (gemCardIdentifier === "singularity-1--teklovossen-the-mechropotent") {
+    console.log(JSON.stringify({ exactMatch, fallbackMatch }));
+  }
+
+  return exactMatch || fallbackMatch;
+};
+
 export const getFrontAndBackCardIdentifier = (
   card: { name: string; pitch?: string | number },
   cardBack?: { name: string; pitch?: string | number },
-  useNumber?: boolean
+  useNumber?: boolean,
 ) => {
   const cardFrontIdentifier = getCardIdentifier(card, useNumber);
   const cardBackIdentifier = cardBack
@@ -118,7 +182,7 @@ export const getIsCardTokenForDeck = ({
   const isAgentOfChaos = !!traits && traits?.includes(Trait.AgentOfChaos);
   const isEphemeral = !!keywords && keywords.includes(Keyword.Ephemeral);
   const isHeroMacroOrToken = [Type.Macro, Type.Token].some((type) =>
-    types.includes(type)
+    types.includes(type),
   );
 
   return isAgentOfChaos || isEphemeral || isHeroMacroOrToken;
@@ -159,7 +223,7 @@ export const getShouldRotateCardImage = (card: {
 
   const isMacro = card.types?.includes(Type.Macro);
   const isLandmarkThatShouldRotate =
-    !isMacro && card.subtypes?.includes(Subtype.Landmark);
+    (!isMacro && card.subtypes?.includes(Subtype.Landmark)) || false;
 
   return isMeld || isLandmarkThatShouldRotate;
 };
