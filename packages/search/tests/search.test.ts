@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import {
   DoubleSidedCard,
   Foiling,
@@ -9,7 +10,7 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import Search from "./search";
+import Search from "../src/search";
 import { setToSetIdentifierMappings } from "@flesh-and-blood/types";
 
 const doubleSidedCards: DoubleSidedCard[] = cards.map((card) => {
@@ -527,9 +528,9 @@ describe("Returns matching prints", () => {
       ),
     );
     for (const { matchingPrintings } of searchResultsWithGoldFoilImage) {
-      expect(matchingPrintings.length).toBeGreaterThan(0);
+      expect(matchingPrintings?.length).toBeGreaterThan(0);
 
-      for (const printing of matchingPrintings) {
+      for (const printing of matchingPrintings || []) {
         expect(printing).toBeTruthy();
         expect(printing.foiling).toEqual(Foiling.G);
       }
@@ -539,9 +540,9 @@ describe("Returns matching prints", () => {
   it("Matching printing from set", () => {
     const { searchResults } = cardSearch.search("set:wtr");
     for (const { matchingPrintings } of searchResults) {
-      expect(matchingPrintings.length).toBeGreaterThan(0);
+      expect(matchingPrintings?.length).toBeGreaterThan(0);
 
-      for (const printing of matchingPrintings) {
+      for (const printing of matchingPrintings || []) {
         expect(printing).toBeTruthy();
         expect(printing.set).toEqual(Release.WelcomeToRathe);
       }
@@ -552,9 +553,9 @@ describe("Returns matching prints", () => {
     const { searchResults } = cardSearch.search("print:ANQ");
 
     for (const { matchingPrintings } of searchResults) {
-      expect(matchingPrintings.length).toBeGreaterThan(0);
+      expect(matchingPrintings?.length).toBeGreaterThan(0);
 
-      for (const printing of matchingPrintings) {
+      for (const printing of matchingPrintings || []) {
         expect(printing).toBeTruthy();
         expect(printing.identifier.includes("ANQ")).toBeTruthy();
       }
@@ -565,9 +566,9 @@ describe("Returns matching prints", () => {
     const { searchResults } = cardSearch.search("treat:AA");
 
     for (const { matchingPrintings } of searchResults) {
-      expect(matchingPrintings.length).toBeGreaterThan(0);
+      expect(matchingPrintings?.length).toBeGreaterThan(0);
 
-      for (const printing of matchingPrintings) {
+      for (const printing of matchingPrintings || []) {
         expect(printing).toBeTruthy();
 
         const matchingTreatment = printing.treatments?.find(
@@ -582,8 +583,8 @@ describe("Returns matching prints", () => {
     const { searchResults } = cardSearch.search("r:v");
 
     for (const { matchingPrintings } of searchResults) {
-      expect(matchingPrintings.length).toBeGreaterThan(0);
-      for (const printing of matchingPrintings) {
+      expect(matchingPrintings?.length).toBeGreaterThan(0);
+      for (const printing of matchingPrintings || []) {
         expect(printing).toBeTruthy();
         expect(printing.rarity).toEqual(Rarity.Marvel);
       }
@@ -595,11 +596,11 @@ describe("Returns matching prints", () => {
       "s:hnt !r:legendary,fabled l:draft,sealed",
     );
     for (const card of searchResults) {
-      expect(card.matchingPrintings.length).toBeGreaterThan(0);
+      expect(card.matchingPrintings?.length).toBeGreaterThan(0);
       if (!card.meta || !card.meta.includes(Meta.Expansion)) {
-        expect(card.matchingPrintings.length).toBeGreaterThanOrEqual(1);
+        expect(card.matchingPrintings?.length).toBeGreaterThanOrEqual(1);
       }
-      for (const printing of card.matchingPrintings) {
+      for (const printing of card.matchingPrintings || []) {
         expect(printing).toBeTruthy();
         expect(printing.set).toEqual(Release.TheHunted);
       }

@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import {
   Foiling,
   Meta,
@@ -9,7 +10,7 @@ import {
 import {
   getKeywordsAndAppliedFiltersFromText,
   RARITY_VALUES_MAPPING,
-} from "./filters";
+} from "../src/filters";
 import { cards } from "@flesh-and-blood/cards";
 
 describe("Gets the right attribute filters", () => {
@@ -123,13 +124,13 @@ describe("Gets the right attribute filters", () => {
           appliedFilter.filterToPropertyMapping.property === "meta",
       );
 
-      expect(metaAppliedFilter.values.length).toEqual(
+      expect(metaAppliedFilter?.values.length).toEqual(
         expectedMetaValues.length,
       );
 
       for (const expected of expectedMetaValues) {
         expect(
-          metaAppliedFilter.values.includes(expected.toLowerCase()),
+          metaAppliedFilter?.values.includes(expected.toLowerCase()),
         ).toBeTruthy();
       }
     },
@@ -152,13 +153,13 @@ describe("Gets the right attribute filters", () => {
           appliedFilter.filterToPropertyMapping.property === "shorthands",
       );
 
-      expect(shorthandAppliedFilter.values.length).toEqual(
+      expect(shorthandAppliedFilter?.values.length).toEqual(
         expectedShorthands.length,
       );
 
       for (const expected of expectedShorthands) {
         expect(
-          shorthandAppliedFilter.values.includes(expected.toLowerCase()),
+          shorthandAppliedFilter?.values.includes(expected.toLowerCase()),
         ).toBeTruthy();
       }
     },

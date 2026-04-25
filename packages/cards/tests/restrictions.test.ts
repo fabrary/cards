@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { Card, Format, Rarity, Type } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
 
@@ -15,6 +16,6 @@ describe("Restrictions seem reasonable", () => {
         types,
         young,
       } = cards.find((card) => card.cardIdentifier === cardIdentifier) as Card;
-    }
+    },
   );
 });

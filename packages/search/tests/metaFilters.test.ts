@@ -1,6 +1,7 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { Hero } from "@flesh-and-blood/types";
-import { getMetaFilters } from "./metaFilters";
-import Search, { PUNCTUATION } from ".";
+import { getMetaFilters } from "../src/metaFilters";
+import Search, { PUNCTUATION } from "../src";
 import { cards } from "@flesh-and-blood/cards";
 
 describe("Every hero has a legal filter", () => {
@@ -22,7 +23,7 @@ describe("Edge case conditions are handled", () => {
     const { searchResults } = cardSearch.search("l:emperor");
 
     const gorganianTome = searchResults.find(
-      ({ name }) => name === "Gorganian Tome"
+      ({ name }) => name === "Gorganian Tome",
     );
     expect(gorganianTome).toBeUndefined();
   });

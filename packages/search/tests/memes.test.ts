@@ -1,6 +1,7 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { cards } from "@flesh-and-blood/cards";
-import Search from "./search";
-import { memes } from "./memes";
+import Search from "../src/search";
+import { memes } from "../src/memes";
 
 describe("Meme results", () => {
   const cardSearch = new Search(cards);
@@ -11,7 +12,7 @@ describe("Meme results", () => {
 
     const { searchResults: searchResults2 } = cardSearch.search(
       "fangs a lot",
-      true
+      true,
     );
     expect(searchResults2.length).toBeGreaterThanOrEqual(0);
   });

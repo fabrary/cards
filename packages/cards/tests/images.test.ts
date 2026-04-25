@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { cards } from "../dist/index";
 
 const imagesAndSets: { [key: string]: Set<string> } = {};
@@ -33,6 +34,6 @@ describe("All cards have default and special images", () => {
 
       expect(card?.defaultImage).not.toContain("HP");
       expect(card?.specialImage).not.toContain("HP");
-    }
+    },
   );
 });

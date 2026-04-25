@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import {
   getIsArenaCard,
   getIsDeckCard,
@@ -98,6 +99,10 @@ const gemCards: {
     cardIdentifier: "burn-up--shock-red",
   },
   {
+    cardIdentifier: "figment-of-erudition-yellow",
+    oppositeSideCardIdentifiers: ["suraya-archangel-of-erudition"],
+  },
+  {
     cardIdentifier: "invoke-miragai-red",
     oppositeSideCardIdentifiers: ["miragai"],
   },
@@ -118,6 +123,10 @@ describe("GEM card identifiers", () => {
     ["maxx-the-hype-nitro", "maxx-the-hype-nitro"],
     // Double sided
     ["burn-up--shock-1", "burn-up--shock-red"],
+    [
+      "figment-of-erudition-2--suraya-archangel-of-erudition",
+      "figment-of-erudition-yellow",
+    ],
     ["invoke-miragai-1--miragai", "invoke-miragai-red"],
     ["singularity-1--teklovossen-the-mechropotent", "singularity-red"],
     ["stir-the-pot-3--inner-chi-3", "stir-the-pot-blue"],

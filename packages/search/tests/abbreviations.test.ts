@@ -1,6 +1,7 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { cards } from "@flesh-and-blood/cards";
-import { abbreviations } from "./abbreviations";
-import Search from "./search";
+import { abbreviations } from "../src/abbreviations";
+import Search from "../src/search";
 
 describe("Abbreviations", () => {
   const cardSearch = new Search(cards);
@@ -12,7 +13,7 @@ describe("Abbreviations", () => {
   });
 
   it.each(
-    abbreviations.map(({ abbreviations, card }) => [abbreviations, card])
+    abbreviations.map(({ abbreviations, card }) => [abbreviations, card]),
   )("Gets matching cards for %s", (abbreviations, card) => {
     for (const abbreviation of abbreviations) {
       const { searchResults } = cardSearch.search(abbreviation);

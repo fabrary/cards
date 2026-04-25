@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import {
   Card,
   Printing,
@@ -7,11 +8,11 @@ import {
 import { cards } from "../dist/index";
 
 const riptide = cards.find(
-  ({ cardIdentifier }) => cardIdentifier === "riptide-lurker-of-the-deep"
+  ({ cardIdentifier }) => cardIdentifier === "riptide-lurker-of-the-deep",
 );
 
 const cnc = cards.find(
-  ({ cardIdentifier }) => cardIdentifier === "command-and-conquer-red"
+  ({ cardIdentifier }) => cardIdentifier === "command-and-conquer-red",
 );
 
 describe("Gets the correct default and special printings", () => {
@@ -51,17 +52,17 @@ describe("No white border cards for default or special images", () => {
 
       const defaultPrinting = getDefaultPrinting(
         card as Card,
-        (card as Card).printings
+        (card as Card).printings,
       );
       expect(card?.defaultImage).not.toContain("HP");
       expect(defaultPrinting.image).not.toContain("HP");
 
       const specialPrinting = getSpecialPrinting(
         card as Card,
-        (card as Card).printings
+        (card as Card).printings,
       );
       expect(card?.specialImage).not.toContain("HP");
       expect(specialPrinting.image).not.toContain("HP");
-    }
+    },
   );
 });

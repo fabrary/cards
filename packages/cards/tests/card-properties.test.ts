@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { cards as cardsToPublish } from "../dist/index";
 import { cards as publishedCards } from "latest-cards";
 import {
@@ -17,7 +18,7 @@ const updated: (string | UpdatedComparison)[][] = [];
 const removed: string[] = [];
 for (const published of publishedCards) {
   const match = cardsToPublish.find(
-    ({ cardIdentifier }) => published.cardIdentifier === cardIdentifier
+    ({ cardIdentifier }) => published.cardIdentifier === cardIdentifier,
   );
   if (match) {
     const identifier = `${published.name} (${published.cardIdentifier})`;
@@ -44,9 +45,9 @@ describe("No special characters in cardIdentifier", () => {
     "%s",
     (cardIdentifier) => {
       expect(
-        cardIdentifier.replace(/-/g, "").match(/^[a-z0-9]+$/)
+        cardIdentifier.replace(/-/g, "").match(/^[a-z0-9]+$/),
       ).toBeTruthy();
-    }
+    },
   );
 });
 
@@ -55,7 +56,7 @@ describe("All required fields present", () => {
     cardsToPublish.map((card) => [
       `${card.name} (${card.cardIdentifier}) ${card.setIdentifiers.join(",")}`,
       card,
-    ])
+    ]),
   )("%s", (_, card) => {
     const {
       defaultImage,
@@ -82,7 +83,7 @@ describe("All required fields present", () => {
 
   it("Agents of Chaos", () => {
     const agentsOfChaos = cardsToPublish.filter(({ traits }) =>
-      traits?.includes(Trait.AgentOfChaos)
+      traits?.includes(Trait.AgentOfChaos),
     );
     expect(agentsOfChaos.length).toBeGreaterThanOrEqual(2);
   });
@@ -159,7 +160,7 @@ describe("Treatments are a superset of treatment", () => {
     cardsToPublish.map((card) => [
       `${card.name} (${card.cardIdentifier}) ${card.setIdentifiers.join(",")}`,
       card,
-    ])
+    ]),
   )("%s", (_, card) => {
     const { printings } = card as unknown as Card;
     for (const { treatment, treatments } of printings) {

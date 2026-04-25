@@ -1,5 +1,6 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { cards } from "@flesh-and-blood/cards";
-import Search from "./search";
+import Search from "../src/search";
 
 describe("Handles special characters", () => {
   const cardSearch = new Search(cards);

@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { Card, Keyword } from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
 
@@ -6,7 +7,7 @@ describe("Meld keyword seem reasonable", () => {
     "%s meld keyword seem reasonable",
     (cardIdentifier) => {
       const { functionalText, keywords, name } = cards.find(
-        (card) => card.cardIdentifier === cardIdentifier
+        (card) => card.cardIdentifier === cardIdentifier,
       ) as Card;
 
       const hasDoubleSlash =
@@ -14,6 +15,6 @@ describe("Meld keyword seem reasonable", () => {
       const hasMeldKeyword = keywords?.includes(Keyword.Meld) || false;
 
       expect(hasDoubleSlash).toEqual(hasMeldKeyword);
-    }
+    },
   );
 });

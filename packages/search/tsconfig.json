@@ -10,5 +10,6 @@
     "outDir": "dist",
     "skipLibCheck": true,
     "target": "ES6"
-  }
+  },
+  "include": ["src"]
 }

@@ -1,6 +1,7 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import { cards } from "@flesh-and-blood/cards";
-import { multiWordShorthands, shorthands } from "./shorthands";
-import Search from "./search";
+import { multiWordShorthands, shorthands } from "../src/shorthands";
+import Search from "../src/search";
 
 describe("Shorthands", () => {
   const cardSearch = new Search(cards);
@@ -9,7 +10,7 @@ describe("Shorthands", () => {
     const { searchResults } = cardSearch.search("Pump defense");
     expect(searchResults.length).toBeGreaterThanOrEqual(1);
     const increaseTheTension = searchResults.find(
-      ({ name }) => name === "Increase the Tension"
+      ({ name }) => name === "Increase the Tension",
     );
     expect(increaseTheTension).toBeFalsy();
   });
@@ -18,7 +19,7 @@ describe("Shorthands", () => {
     const { searchResults } = cardSearch.search("Bluster Buff");
     expect(searchResults.length).toBeGreaterThanOrEqual(1);
     const blusterBuff = searchResults.find(
-      ({ name }) => name === "Bluster Buff"
+      ({ name }) => name === "Bluster Buff",
     );
     expect(blusterBuff).toBeTruthy();
   });
@@ -27,7 +28,7 @@ describe("Shorthands", () => {
     const { searchResults } = cardSearch.search("Buff");
     expect(searchResults.length).toBeGreaterThanOrEqual(1);
     const blusterBuff = searchResults.find(
-      ({ name }) => name === "Bluster Buff"
+      ({ name }) => name === "Bluster Buff",
     );
     expect(blusterBuff).toBeTruthy();
   });
@@ -39,6 +40,6 @@ describe("Shorthands", () => {
       const { searchResults } = cardSearch.search(shorthand);
       expect(searchResults.length).toBeGreaterThanOrEqual(1);
       // }
-    }
+    },
   );
 });

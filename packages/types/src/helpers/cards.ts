@@ -48,7 +48,7 @@ export const getCardFromGEMCardIdentifier = (
 
   const identifierParts = gemCardIdentifier.split("-");
   const cardIdentifierGuess = identifierParts
-    .map((part, index) => {
+    .map((part) => {
       const shouldReplaceNumberWithColor = ["1", "2", "3"].some(
         (pitch) => pitch === part,
       );
@@ -58,16 +58,6 @@ export const getCardFromGEMCardIdentifier = (
         : part;
     })
     .join("-");
-
-  if (gemCardIdentifier === "singularity-1--teklovossen-the-mechropotent") {
-    console.log(
-      JSON.stringify({
-        gemCardIdentifier,
-        cardIdentifierGuess,
-        identifierParts,
-      }),
-    );
-  }
 
   for (const card of cards) {
     const { cardIdentifier, oppositeSideCardIdentifiers } = card;
@@ -83,21 +73,9 @@ export const getCardFromGEMCardIdentifier = (
         `${cardIdentifier}--${oppositeSideCardIdentifier}` ===
         cardIdentifierGuess,
     );
-
-    if (gemCardIdentifier === "singularity-1--teklovossen-the-mechropotent") {
-      const doubleSidedGuess = oppositeSideCardIdentifiers?.map(
-        (oppositeSideCardIdentifier) =>
-          `${cardIdentifier}--${oppositeSideCardIdentifier}`,
-      );
-      console.log(JSON.stringify({ doubleSidedGuess }));
-    }
     if (matchesDoubleSidedGuess) {
       fallbackMatch = card as Card;
     }
-  }
-
-  if (gemCardIdentifier === "singularity-1--teklovossen-the-mechropotent") {
-    console.log(JSON.stringify({ exactMatch, fallbackMatch }));
   }
 
   return exactMatch || fallbackMatch;

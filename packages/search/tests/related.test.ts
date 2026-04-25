@@ -1,3 +1,4 @@
+import { describe, expect, it, xit } from "@jest/globals";
 import {
   Card,
   getCanCardBeTokenForDeck,
@@ -5,8 +6,8 @@ import {
   Trait,
 } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import { getRelatedCards, getTokensReferencedByCards } from "./related";
-import Search from "./search";
+import { getRelatedCards, getTokensReferencedByCards } from "../src/related";
+import Search from "../src/search";
 
 const ALL_TOKENS = cards.filter(getCanCardBeTokenForDeck);
 
@@ -32,7 +33,7 @@ describe("Related cards", () => {
   it.each(related)(
     "Gets related cards for %s: %i other pitches, %i referenced by, %i references",
     (cardName, otherPitchesCount, referencedByCount, referencesCount) => {
-      const card = cards.find(({ name }) => name === cardName);
+      const card = cards.find(({ name }) => name === cardName) as Card;
       const { otherPitches, referencedBy, references } = getRelatedCards(
         card,
         cards,
