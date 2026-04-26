@@ -696,12 +696,24 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
     name: "Boots of Omnis Ward",
     printings: [{
         artists: ["João G. Santos"],
-      
+      foiling: Foiling.R,
       identifier: "OMN204",
       image: "OMN204",
       
       
-      print: "OMN204",
+      print: "OMN204-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["João G. Santos"],
+      foiling: Foiling.C,
+      identifier: "OMN204",
+      image: "OMN204",
+      
+      
+      print: "OMN204-Cold",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
       
@@ -2370,6 +2382,66 @@ When this hits a hero, deal 1 arcane damage to them.`,
     power: 1,
     
     shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Amtepra"],
+    cardIdentifier: "static-shelter-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN147",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Static Shelter",
+    printings: [{
+        artists: ["Amtepra"],
+      
+      identifier: "OMN147",
+      image: "OMN147",
+      
+      
+      print: "OMN147",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN147"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN147",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Lightning Defense Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this defends, you may pay {r}. If you do, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
     
     
     
