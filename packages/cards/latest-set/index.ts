@@ -687,6 +687,68 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
   
   },{
+    artists: ["João G. Santos"],
+    cardIdentifier: "boots-of-omnis-ward",
+    classes: [Class.Generic],
+    defaultImage: "OMN204",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Boots of Omnis Ward",
+    printings: [{
+        artists: ["João G. Santos"],
+      
+      identifier: "OMN204",
+      image: "OMN204",
+      
+      
+      print: "OMN204",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OMN204"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN204",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `If you've been dealt arcane damage this turn, this gets +1{d}.
+
+**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.Temper],
+    
+    
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Amirul HHF"],
     cardIdentifier: "circular-flowtide-yellow",
     classes: [Class.Illusionist],

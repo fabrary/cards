@@ -347,6 +347,7 @@ export const ADDITIONS = [
   "oldhim",
   "olé",
   "ollin",
+  "omnis",
   "onetwo",
   "ophidia",
   "optekal",
