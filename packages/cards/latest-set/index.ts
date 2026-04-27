@@ -747,6 +747,68 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
   
   },{
+    artists: ["Amtepra"],
+    cardIdentifier: "blink-of-an-eye-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN006",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Blink of an Eye",
+    printings: [{
+        artists: ["Amtepra"],
+      
+      identifier: "OMN006",
+      image: "OMN006",
+      
+      
+      print: "OMN006",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN006"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN006",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, you may banish a Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["João G. Santos"],
     cardIdentifier: "boots-of-omnis-ward",
     classes: [Class.Generic],
