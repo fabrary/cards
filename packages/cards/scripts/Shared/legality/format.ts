@@ -15,6 +15,7 @@ import {
 import { clashBannedCards, clashLegalOverrides } from "./clash";
 import { silverAgeBannedCards } from "./silver-age";
 import { SPECIAL_USE_PROMOS } from "./special-use-promos";
+import { goldenAgeBannedCards } from "./golden-age";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
 const limitedLegalOverrideCards = [
@@ -67,7 +68,11 @@ const YOUNG_HERO_FORMATS = [
   Format.UltimatePitFight,
 ];
 
-const ADULT_HERO_FORMATS = [Format.ClassicConstructed, Format.LivingLegend];
+const ADULT_HERO_FORMATS = [
+  Format.ClassicConstructed,
+  Format.LivingLegend,
+  Format.GoldenAge,
+];
 
 const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open,
@@ -176,19 +181,15 @@ export const getLegalFormats = (
         isLegalPerFormat = false;
       }
     }
-    // if (isSilverAgeFormat) {
-    //   const isBanned = silverAgeBannedCards.includes(card.name);
-    //   const isNotTooRare = rarities.some((rarity) =>
-    //     [Rarity.Basic, Rarity.Token, Rarity.Common, Rarity.Rare].includes(
-    //       rarity
-    //     )
-    //   );
 
-    //   const isAllowed = !isBanned && isNotTooRare;
-    //   if (!isAllowed) {
-    //     isLegalPerFormat = false;
-    //   }
-    // }
+    const isGoldenAgeFormat = format === Format.GoldenAge;
+    if (isGoldenAgeFormat) {
+      const isBanned = goldenAgeBannedCards.includes(card.name);
+
+      if (isBanned) {
+        isLegalPerFormat = false;
+      }
+    }
 
     const isLimitedFormat = [Format.Draft, Format.Sealed].includes(format);
     if (isLimitedFormat) {
@@ -234,8 +235,8 @@ export const getLegalFormats = (
     }
 
     const heroMatchesFormat = isAYoungHero
-      ? ![Format.ClassicConstructed, Format.LivingLegend].includes(format)
-      : [Format.ClassicConstructed, Format.LivingLegend].includes(format);
+      ? !ADULT_HERO_FORMATS.includes(format)
+      : ADULT_HERO_FORMATS.includes(format);
     const isLegalPerHeroAge = !isHero || heroMatchesFormat;
 
     const isNotBanned = !bannedFormats || !bannedFormats.includes(format);

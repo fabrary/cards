@@ -139,6 +139,7 @@ export enum Format {
   Clash = "Clash",
   ClassicConstructed = "Classic Constructed",
   Draft = "Draft",
+  GoldenAge = "Golden Age",
   LivingLegend = "Living Legend",
   Open = "Open",
   Sealed = "Sealed",
