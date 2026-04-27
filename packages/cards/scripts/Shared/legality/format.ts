@@ -13,7 +13,6 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import { clashBannedCards, clashLegalOverrides } from "./clash";
-import { silverAgeBannedCards } from "./silver-age";
 import { SPECIAL_USE_PROMOS } from "./special-use-promos";
 import { goldenAgeBannedCards } from "./golden-age";
 
