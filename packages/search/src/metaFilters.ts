@@ -59,6 +59,10 @@ const nicknameFormatMappings: {
     nicknames: ["sage"],
   },
   {
+    format: Format.GoldenAge,
+    nicknames: ["gage"],
+  },
+  {
     format: Format.UltimatePitFight,
     nicknames: ["upf"],
   },
@@ -67,7 +71,7 @@ const nicknameFormatMappings: {
 const formatMappings: { format: string; nicknames?: string[] }[] =
   Object.values(Format).map((format) => {
     const withNicknames = nicknameFormatMappings.find(
-      ({ format: nicknameFormat }) => nicknameFormat === format
+      ({ format: nicknameFormat }) => nicknameFormat === format,
     );
     const cleanFormat = format.toLowerCase().replaceAll(PUNCTUATION, "");
 
@@ -100,10 +104,10 @@ const nicknameHeroMappings: { hero: Hero; nicknames: string[] }[] = [
 ];
 
 const heroMappings: { hero: string; nicknames?: string[] }[] = Object.values(
-  Hero
+  Hero,
 ).map((hero) => {
   const withNicknames = nicknameHeroMappings.find(
-    ({ hero: nicknameHero }) => nicknameHero === hero
+    ({ hero: nicknameHero }) => nicknameHero === hero,
   );
   const cleanHero = hero.toLowerCase().replaceAll(PUNCTUATION, "");
 
@@ -125,7 +129,7 @@ const getRarityFilter = (
   values: string[],
   modifier: string,
   isExcluded: boolean,
-  isOptional: boolean
+  isOptional: boolean,
 ): AppliedFilter => {
   const rarities: string[] = [];
   if (!modifier) {
@@ -198,7 +202,7 @@ const getLegalFilters = (
   values: string[],
   isExcluded: boolean,
   isOptional: boolean,
-  additionalHeroes: Hero[]
+  additionalHeroes: Hero[],
 ) => {
   const cleanAdditionalHeroes = additionalHeroes.map((hero) => ({
     hero: hero.toLowerCase().replaceAll(PUNCTUATION, ""),
@@ -265,13 +269,13 @@ export const getMetaFilters = (
   filterKey: string,
   values: string[],
   modifier: string,
-  additionalHeroes: Hero[]
+  additionalHeroes: Hero[],
 ): AppliedFilter[] => {
   const filters: AppliedFilter[] = [];
 
   if (isLegalFilter(filterKey)) {
     filters.push(
-      ...getLegalFilters(values, isExcluded, isOptional, additionalHeroes)
+      ...getLegalFilters(values, isExcluded, isOptional, additionalHeroes),
     );
   } else if (isRarityFilter(filterKey)) {
     filters.push(getRarityFilter(values, modifier, isExcluded, isOptional));
