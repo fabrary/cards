@@ -687,6 +687,66 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
   
   },{
+    artists: ["SanSan"],
+    cardIdentifier: "beckoning-brilliance-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN148",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Beckoning Brilliance",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "OMN148",
+      image: "OMN148",
+      
+      
+      print: "OMN148",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN148"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN148",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, the next instant card you play this chain link costs {r} less to play.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["João G. Santos"],
     cardIdentifier: "boots-of-omnis-ward",
     classes: [Class.Generic],
@@ -2412,12 +2472,24 @@ When this hits a hero, deal 1 arcane damage to them.`,
       set: Release.OmensOfTheThirdAge,
       
       
+    },{
+        artists: ["Amtepra"],
+      foiling: Foiling.C,
+      identifier: "OMN147",
+      image: "OMN147-CF",
+      
+      
+      print: "OMN147-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["OMN147"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN147",
+    specialImage: "OMN147-CF",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Lightning Defense Reaction",
