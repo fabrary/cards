@@ -1391,6 +1391,68 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
   
   
   },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "flicker-reality-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN005",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Flicker Reality",
+    printings: [{
+        artists: ["Athiwut B."],
+      
+      identifier: "OMN005",
+      image: "OMN005",
+      
+      
+      print: "OMN005",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN005"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN005",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this leaves the arena, you may banish another Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "flowing-stormstrike-red",
     classes: [Class.NotClassed],
