@@ -1571,6 +1571,68 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
   
   
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "echoflash-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN099",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Echoflash",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "OMN099",
+      image: "OMN099",
+      
+      
+      print: "OMN099",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN099"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN099",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `Deal 1 arcane damage to target hero.
+
+When this is put into your graveyard from anywhere, your hero deals 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Athiwut B."],
     cardIdentifier: "flicker-reality-blue",
     classes: [Class.Illusionist],

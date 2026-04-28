@@ -5796,6 +5796,7 @@ OSCCardDB = {
   ["OMN094"] = { name = "Oscilio, Forked Continuum", text = "**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.", keywords = "", types = "Hero"},
   ["OMN095"] = { name = "Oscilio, Scion of the Third Age", text = "**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discard this way, you may play it this turn.", keywords = "", types = "Hero"},
   ["OMN096"] = { name = "Volzar, Meteor Storm", text = "**Instant** - {t}: **Amp 1**. Activate this only if an instant card has been put into your graveyard this turn.", keywords = "Amp", types = "Weapon"},
+  ["OMN099"] = { name = "Echoflash (2)", text = "Deal 1 arcane damage to target hero.\n\nWhen this is put into your graveyard from anywhere, your hero deals 1 arcane damage to target hero.", keywords = "", types = "Instant"},
   ["OMN100"] = { name = "Arc Ramp (1)", text = "**Amp 3**\n\nYou may destroy a Lightning Flow you control. If you do, this gets **go again**.", keywords = "Amp,Go again", types = "Action"},
   ["OMN101"] = { name = "Arc Ramp (2)", text = "**Amp 2**\n\nYou may destroy a Lightning Flow you control. If you do, this gets **go again**.", keywords = "Amp,Go again", types = "Action"},
   ["OMN102"] = { name = "Arc Ramp (3)", text = "**Amp 1**\n\nYou may destroy a Lightning Flow you control. If you do, this gets **go again**.", keywords = "Amp,Go again", types = "Action"},
