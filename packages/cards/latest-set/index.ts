@@ -957,6 +957,186 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "core-reaction-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN103",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Core Reaction",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN103",
+      image: "OMN103",
+      
+      
+      print: "OMN103",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN103"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN103",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant - Aura",
+
+    arcane: 4,
+    
+    cost: 2,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this and deal 4 arcane damage to any target.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "core-reaction-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN104",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Core Reaction",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN104",
+      image: "OMN104",
+      
+      
+      print: "OMN104",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN104"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN104",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant - Aura",
+
+    arcane: 3,
+    
+    cost: 2,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this and deal 3 arcane damage to any target.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "core-reaction-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN105",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Core Reaction",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN105",
+      image: "OMN105",
+      
+      
+      print: "OMN105",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN105"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN105",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant - Aura",
+
+    arcane: 2,
+    
+    cost: 2,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this and deal 2 arcane damage to any target.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["YDZ"],
     cardIdentifier: "cosmic-duality-red",
     classes: [Class.Illusionist],

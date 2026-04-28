@@ -4371,6 +4371,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/core-reaction-red</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/core-reaction-yellow</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/core-reaction-blue</loc>
+    <lastmod>2026-04-28</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/coronet-peak</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
