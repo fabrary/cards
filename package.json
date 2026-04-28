@@ -10,6 +10,7 @@
     "full": "lerna run full",
     "ncu": "lerna exec ncu",
     "publish": "npm login && lerna publish",
+    "publish:legacy": "npm login --auth-type=legacy && lerna publish",
     "test": "lerna run test",
     "update:dependencies": "lerna run update:dependencies",
     "update:snapshots": "lerna run update:snapshots"
