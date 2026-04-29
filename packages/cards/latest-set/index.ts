@@ -2891,6 +2891,68 @@ When this hits a hero, deal 1 arcane damage to them.`,
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "tempestuous-kiss-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN051",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Tempestuous Kiss",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "OMN051",
+      image: "OMN051",
+      
+      
+      print: "OMN051",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN051"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN051",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p} and "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a hero, they discard a card.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "voltbound-duality-red",
     classes: [Class.Runeblade],

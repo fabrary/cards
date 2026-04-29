@@ -126,9 +126,8 @@ const artistFilter: FilterToPropertyMapping = {
 };
 
 const bannedFilter: FilterToPropertyMapping = {
-  property: "bannedFormats",
-  isArray: true,
-  partialMatch: true,
+  property: "n/a",
+  isMeta: true,
 };
 
 const bondFilter: FilterToPropertyMapping = {

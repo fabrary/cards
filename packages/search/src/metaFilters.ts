@@ -2,6 +2,7 @@ import { Format, Hero, Talent } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants";
 
 export enum FilterProperty {
+  BannedFormats = "bannedFormats",
   LegalFormats = "legalFormats",
   LegalHeroes = "legalHeroes",
 }
@@ -203,6 +204,7 @@ const getLegalFilters = (
   isExcluded: boolean,
   isOptional: boolean,
   additionalHeroes: Hero[],
+  filterPropertyOverride?: string,
 ) => {
   const cleanAdditionalHeroes = additionalHeroes.map((hero) => ({
     hero: hero.toLowerCase().replaceAll(PUNCTUATION, ""),
@@ -237,9 +239,11 @@ const getLegalFilters = (
     }
   }
 
+  const filterProperty = filterPropertyOverride || "legalFormats";
+
   if (formats.length > 0) {
     filters.push({
-      filterToPropertyMapping: { property: "legalFormats", isArray: true },
+      filterToPropertyMapping: { property: filterProperty, isArray: true },
       values: formats,
       isOr: true,
       isExcluded,
@@ -263,6 +267,21 @@ const getLegalFilters = (
   return filters;
 };
 
+const getBannedFilters = (
+  values: string[],
+  isExcluded: boolean,
+  isOptional: boolean,
+  additionalHeroes: Hero[],
+) => {
+  return getLegalFilters(
+    values,
+    isExcluded,
+    isOptional,
+    additionalHeroes,
+    "bannedFormats",
+  );
+};
+
 export const getMetaFilters = (
   isExcluded: boolean,
   isOptional: boolean,
@@ -276,6 +295,10 @@ export const getMetaFilters = (
   if (isLegalFilter(filterKey)) {
     filters.push(
       ...getLegalFilters(values, isExcluded, isOptional, additionalHeroes),
+    );
+  } else if (isBannedFilter(filterKey)) {
+    filters.push(
+      ...getBannedFilters(values, isExcluded, isOptional, additionalHeroes),
     );
   } else if (isRarityFilter(filterKey)) {
     filters.push(getRarityFilter(values, modifier, isExcluded, isOptional));
@@ -453,6 +476,9 @@ export const getExcludedMetaFilters = (filterKey: string) => {
 
 const legalFilters = ["l", "legal", "hero"];
 const isLegalFilter = (filterKey: string) => legalFilters.includes(filterKey);
+
+const bannedFilters = ["banned"];
+const isBannedFilter = (filterKey: string) => bannedFilters.includes(filterKey);
 
 const rarityFilters = ["r", "rarity"];
 const isRarityFilter = (filterKey: string) => rarityFilters.includes(filterKey);

@@ -684,14 +684,30 @@ describe("Shorthands property works", () => {
   });
 
   it("l:sage", () => {
-    const { searchResults } = cardSearch.search("l:sage");
+    const { searchResults, appliedFilters, attributes, keywords } =
+      cardSearch.search("l:sage");
+    // console.log(
+    //   JSON.stringify({ appliedFilters, attributes, keywords }, null, 2),
+    // );
     expect(searchResults).toBeTruthy();
     expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+    expect(searchResults.length).toBeGreaterThan(500);
 
     const legendaryCards = searchResults.filter(({ rarities }) =>
       rarities.includes(Rarity.Legendary),
     );
     expect(legendaryCards.length).toEqual(0);
+  });
+
+  it("banned:cc", () => {
+    const { searchResults, appliedFilters, attributes, keywords } =
+      cardSearch.search("banned:cc");
+    // console.log(
+    //   JSON.stringify({ appliedFilters, attributes, keywords }, null, 2),
+    // );
+    expect(searchResults).toBeTruthy();
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+    expect(searchResults.length).toBeGreaterThan(0);
   });
 });
 
