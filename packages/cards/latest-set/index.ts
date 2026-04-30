@@ -1913,6 +1913,192 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "mercurial-skies-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN059",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Mercurial Skies",
+    printings: [{
+        artists: ["Daria Khlebnikova"],
+      
+      identifier: "OMN059",
+      image: "OMN059",
+      
+      
+      print: "OMN059",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN059"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN059",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `The next Runeblade or Lightning attack action card you play this turn gets **go again** and "The first time this deals damage to a hero, you may destroy a Lightning Flow you control. If you do, deal 3 arcane damage to them."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "mercurial-skies-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN060",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Mercurial Skies",
+    printings: [{
+        artists: ["Daria Khlebnikova"],
+      
+      identifier: "OMN060",
+      image: "OMN060",
+      
+      
+      print: "OMN060",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN060"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN060",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `The next Runeblade or Lightning attack action card you play this turn gets **go again** and "The first time this deals damage to a hero, you may destroy a Lightning Flow you control. If you do, deal 2 arcane damage to them."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Daria Khlebnikova"],
+    cardIdentifier: "mercurial-skies-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN061",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Mercurial Skies",
+    printings: [{
+        artists: ["Daria Khlebnikova"],
+      
+      identifier: "OMN061",
+      image: "OMN061",
+      
+      
+      print: "OMN061",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN061"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN061",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `The next Runeblade or Lightning attack action card you play this turn gets **go again** and "The first time this deals damage to a hero, you may destroy a Lightning Flow you control. If you do, deal 1 arcane damage to them."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "meteoric-rise-red",
     classes: [Class.NotClassed],

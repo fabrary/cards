@@ -12216,6 +12216,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/mercurial-skies-red</loc>
+    <lastmod>2026-04-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mercurial-skies-yellow</loc>
+    <lastmod>2026-04-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/mercurial-skies-blue</loc>
+    <lastmod>2026-04-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/meridian-pathway</loc>
     <lastmod>2024-05-13</lastmod>
     <priority>0.5</priority>
