@@ -3218,12 +3218,24 @@ When this hits a hero, deal 1 arcane damage to them.`,
       set: Release.OmensOfTheThirdAge,
       
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.C,
+      identifier: "OMN051",
+      image: "OMN051-CF",
+      
+      
+      print: "OMN051-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["OMN051"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN051",
+    specialImage: "OMN051-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Lightning Runeblade Action - Attack",
