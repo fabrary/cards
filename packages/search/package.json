@@ -1,7 +1,7 @@
 {
   "name": "@flesh-and-blood/search",
   "description": "TypeScript search engine for Flesh and Blood cards",
-  "version": "3.7.8",
+  "version": "3.7.9",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -13,7 +13,7 @@
     "full": "npm i && npm run build && npm test"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "^3.7.0",
+    "@flesh-and-blood/types": "^3.7.9",
     "fuse.js": "^6.6.2"
   },
   "devDependencies": {
