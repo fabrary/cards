@@ -9,6 +9,7 @@
     "moduleResolution": "nodenext",
     "outDir": "dist",
     "resolveJsonModule": true,
+    "rootDir": "src",
     "skipLibCheck": true,
     "target": "ES6"
   },

@@ -1538,7 +1538,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
     types: [Type.Action],
     typeText: "Lightning Runeblade Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 1,
     defense: 3,
@@ -1600,7 +1600,7 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
     types: [Type.Instant],
     typeText: "Lightning Wizard Instant",
 
-    
+    arcane: 1,
     
     cost: 1,
     
@@ -1940,9 +1940,9 @@ When this hits, create a Lightning Flow token.`,
     specialImage: "OMN059",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
-    
+    arcane: 3,
     
     cost: 0,
     defense: 2,
@@ -2002,9 +2002,9 @@ When this hits, create a Lightning Flow token.`,
     specialImage: "OMN060",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
-    
+    arcane: 2,
     
     cost: 0,
     defense: 2,
@@ -2064,9 +2064,9 @@ When this hits, create a Lightning Flow token.`,
     specialImage: "OMN061",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
-    
+    arcane: 1,
     
     cost: 0,
     defense: 2,
@@ -2398,6 +2398,66 @@ Lightning Flow tokens get **spellvoid 1**`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ausonia"],
+    cardIdentifier: "ominous-aggression-red",
+    classes: [Class.Generic],
+    defaultImage: "OMN216",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Ominous Aggression",
+    printings: [{
+        artists: ["Ausonia"],
+      
+      identifier: "OMN216",
+      image: "OMN216",
+      
+      
+      print: "OMN216",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN216"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN216",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `Target attack action card gets +2{p}. If an aura you control was destroyed this turn, instead the card gets +4{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -3077,6 +3137,68 @@ When this hits a hero, deal 1 arcane damage to them.`,
   
   
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "step-between-red",
+    classes: [Class.Generic],
+    defaultImage: "OMN214",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Step Between",
+    printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "OMN214",
+      image: "OMN214",
+      
+      
+      print: "OMN214",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN214"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN214",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `While this is attacking or on the stack, opponents can't play or activate instants.
+
+**Instant** - {r}, {t} your hero: This gets +1{p} and {p} damage can't be prevented this combat chain.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "tempestuous-kiss-red",
     classes: [Class.Runeblade],
@@ -3106,7 +3228,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     types: [Type.Action],
     typeText: "Lightning Runeblade Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 2,
     defense: 3,

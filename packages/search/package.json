@@ -10,14 +10,14 @@
     "postbuild": "tsc --declaration && npm test",
     "test": "jest",
     "test:specific": "jest -t 'Matching printing from treatment'",
-    "full": "npm run build"
+    "full": "npm i && npm run build && npm test"
   },
   "dependencies": {
     "@flesh-and-blood/types": "^3.7.0",
     "fuse.js": "^6.6.2"
   },
   "devDependencies": {
-    "@flesh-and-blood/cards": "^3.7.8",
+    "@flesh-and-blood/cards": "file:../cards",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",
     "esbuild": "^0.19.10",

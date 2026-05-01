@@ -13031,6 +13031,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/ominous-aggression-red</loc>
+    <lastmod>2026-05-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/on-a-knife-edge-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -19408,6 +19413,11 @@
   <url>
     <loc>https://fabrary.net/cards/steelbraid-buckler</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/step-between-red</loc>
+    <lastmod>2026-05-01</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
