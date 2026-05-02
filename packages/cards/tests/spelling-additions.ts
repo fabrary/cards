@@ -291,6 +291,7 @@ export const ADDITIONS = [
   "leyline",
   "lightsail",
   "limpit",
+  "lionclaw",
   "liquidcooled",
   "livewire",
   "lockwave",

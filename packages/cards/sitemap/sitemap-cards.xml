@@ -7366,6 +7366,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/feral-instinct-yellow</loc>
+    <lastmod>2026-05-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/fertile-ground-red</loc>
     <lastmod>2024-08-28</lastmod>
     <priority>0.5</priority>
@@ -11543,6 +11548,11 @@
   <url>
     <loc>https://fabrary.net/cards/line-blue</loc>
     <lastmod>2025-05-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lionclaw-maul</loc>
+    <lastmod>2026-05-02</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

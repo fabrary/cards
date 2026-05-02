@@ -1633,6 +1633,78 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
   
   
   },{
+    artists: ["Phy Thieu"],
+    cardIdentifier: "feral-instinct-yellow",
+    classes: [Class.Brute],
+    defaultImage: "OMN229",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Feral Instinct",
+    printings: [{
+        artists: ["Phy Thieu"],
+      
+      identifier: "OMN229",
+      image: "OMN229",
+      isExpansionSlot: true,
+      
+      print: "OMN229",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Phy Thieu"],
+      foiling: Foiling.C,
+      identifier: "OMN229",
+      image: "OMN229-CF",
+      
+      
+      print: "OMN229-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN229"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN229-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `If you've intimidated an opponent this turn, this costs {r}{r}{r} less to play.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Athiwut B."],
     cardIdentifier: "flicker-reality-blue",
     classes: [Class.Illusionist],
@@ -1910,6 +1982,70 @@ When this hits, create a Lightning Flow token.`,
     
     
     talents: [Talent.Elemental],
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "lionclaw-maul",
+    classes: [Class.Guardian],
+    defaultImage: "OMN247",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Lyath],
+    name: "Lionclaw Maul",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "OMN247",
+      image: "OMN247",
+      isExpansionSlot: true,
+      
+      print: "OMN247",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN247"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN247",
+    subtypes: [Subtype.OneHanded,Subtype.Axe,Subtype.Hammer],
+    types: [Type.Weapon],
+    typeText: "Reviled Guardian Weapon - Hammer Axe (1H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {r}{r}, {t}: **Attack**
+
+If this has {p} greater than its base, it gets +1{p}.
+
+When this hits a hero, **the crowd boos** you.`,
+    
+    
+    
+    
+    keywords: [Keyword.TheCrowdBoos],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    
+    power: 1,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Reviled],
   
   
   },{
