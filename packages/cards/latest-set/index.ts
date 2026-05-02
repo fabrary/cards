@@ -3273,6 +3273,82 @@ The first time this deals damage to a hero, they discard a card.`,
   
   
   },{
+    artists: ["soyameii"],
+    cardIdentifier: "third-eye-of-the-sphinx",
+    classes: [Class.Illusionist,Class.Wizard],
+    defaultImage: "OMN140",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Prism,Hero.Taylor,Hero.Verdance,Hero.Zyggy],
+    name: "Third Eye of the Sphinx",
+    printings: [{
+        artists: ["soyameii"],
+      foiling: Foiling.R,
+      identifier: "OMN140",
+      image: "OMN140",
+      
+      
+      print: "OMN140-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.C,
+      identifier: "OMN140",
+      image: "OMN140",
+      
+      
+      print: "OMN140-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OMN140"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN140",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Illusionist / Wizard Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Instant** - {r}, {t}, destroy a Ponder token you control: Draw a card.
+
+**Spellvoid 1**
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.Spellvoid],
+    
+    
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "voltbound-duality-red",
     classes: [Class.Runeblade],
