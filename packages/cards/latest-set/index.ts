@@ -3485,6 +3485,140 @@ The first time this deals damage to a hero, they discard a card.`,
   
   
   },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "tome-of-quandaries-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN133",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Iyslander,Hero.Kano,Hero.Librarian,Hero.Oscilio,Hero.Verdance],
+    name: "Tome of Quandaries",
+    printings: [{
+        artists: ["Esty Swandana"],
+      
+      identifier: "OMN133",
+      image: "OMN133",
+      
+      
+      print: "OMN133",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.C,
+      identifier: "OMN133",
+      image: "OMN133-CF",
+      
+      
+      print: "OMN133-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN133"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN133-CF",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Wizard Instant",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Create 2 Ponder tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Khairul Sukmanudin"],
+    cardIdentifier: "turn-to-mindfire-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN136",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
+    name: "Turn to Mindfire",
+    printings: [{
+        artists: ["Khairul Sukmanudin"],
+      
+      identifier: "OMN136",
+      image: "OMN136",
+      
+      
+      print: "OMN136",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN136"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN136",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Wizard Action",
+
+    arcane: 5,
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Deal 5 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Firaz M. Rasyid"],
     cardIdentifier: "unmake-the-underlings-blue",
     classes: [Class.Assassin],

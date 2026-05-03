@@ -320,6 +320,7 @@ export const ADDITIONS = [
   "metis",
   "mightybone",
   "mindfield",
+  "mindfire",
   "mindstate",
   "minnowism",
   "miragai",

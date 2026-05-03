@@ -21016,6 +21016,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/tome-of-quandaries-blue</loc>
+    <lastmod>2026-05-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/tome-of-the-arknight-blue</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -21443,6 +21448,11 @@
   <url>
     <loc>https://fabrary.net/cards/turn-timber-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/turn-to-mindfire-red</loc>
+    <lastmod>2026-05-03</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
