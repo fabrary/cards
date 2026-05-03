@@ -3485,6 +3485,70 @@ The first time this deals damage to a hero, they discard a card.`,
   
   
   },{
+    artists: ["Firaz M. Rasyid"],
+    cardIdentifier: "unmake-the-underlings-blue",
+    classes: [Class.Assassin],
+    defaultImage: "OMN228",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Crackni,Hero.Nuu,Hero.Slippy,Hero.Uzuri],
+    name: "Unmake the Underlings",
+    printings: [{
+        artists: ["Firaz M. Rasyid"],
+      
+      identifier: "OMN228",
+      image: "OMN228",
+      isExpansionSlot: true,
+      
+      print: "OMN228",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN228"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN228",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Assassin Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Stealth**
+
+When this attacks a hero, turn an ally in their graveyard face-down.
+
+When this hits an ally, destroy that ally.`,
+    
+    
+    
+    
+    keywords: [Keyword.Stealth],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "voltbound-duality-red",
     classes: [Class.Runeblade],
