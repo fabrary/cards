@@ -3683,6 +3683,82 @@ When this hits an ally, destroy that ally.`,
   
   
   },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "unwinding-finality-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN004",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Unwinding Finality",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "OMN004",
+      image: "OMN004",
+      
+      
+      print: "OMN004",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.C,
+      identifier: "OMN004",
+      image: "OMN004-CF",
+      
+      
+      print: "OMN004-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN004"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN004-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this hits, draw a card.
+
+Whenever this fragments, you may put a Lightning instant card from your graveyard on top of your deck.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "voltbound-duality-red",
     classes: [Class.Runeblade],
