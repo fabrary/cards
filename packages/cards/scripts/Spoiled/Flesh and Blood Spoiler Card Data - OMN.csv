@@ -19,9 +19,15 @@ OMN008,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN008,https://legendstory-production-s3
 OMN009,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp,,,,,,,,,OMN009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp,,,,,,,,,OMN009,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN010,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN010.webp,,,,,,,,,OMN010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN010.webp,,,,,,,,,OMN010,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN011,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN011.webp,,,,,,,,,OMN011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN011.webp,,,,,,,,,OMN011,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN012,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN012.webp,,,,,,,,,OMN012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN012.webp,,,,,,,,,OMN012,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN013,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN013,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN013.webp,,,,,,,,,OMN013,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN013.webp,,,,,,,,,OMN013,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN014,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN014,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN014.webp,,,,,,,,,OMN014,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN014.webp,,,,,,,,,OMN014,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN012,OMN,Corrosive Space Dust,Red,1,1,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward X,,,,,,"When this leaves the arena, deal 1 arcane damage to target hero.
+
+**Ward X**, where X is 4 if this has a holo counter. Otherwise, X is 1.",Lightning Illusionist Instant - Aura,,,,,R,,,Mark Poole,,,OMN012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN012.webp,,,,,,Mark Poole,,,OMN012,,,,,,,Mark Poole,,,OMN012,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN013,OMN,Corrosive Space Dust,Yellow,2,1,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward X,,,,,,"When this leaves the arena, deal 1 arcane damage to target hero.
+
+**Ward X**, where X is 3 if this has a holo counter. Otherwise, X is 1.",Lightning Illusionist Instant - Aura,,,,,R,,,Mark Poole,,,OMN013,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN013.webp,,,,,,Mark Poole,,,OMN013,,,,,,,Mark Poole,,,OMN013,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN014,OMN,Corrosive Space Dust,Blue,3,1,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward X,,,,,,"When this leaves the arena, deal 1 arcane damage to target hero.
+
+**Ward X**, where X is 2 if this has a holo counter. Otherwise, X is 1.",Lightning Illusionist Instant - Aura,,,,,R,,,Mark Poole,,,OMN014,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN014.webp,,,,,,Mark Poole,,,OMN014,,,,,,,Mark Poole,,,OMN014,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN015,OMN,Cosmic Duality,Red,1,2,7,3,,,1,"Lightning, Illusionist, Action, Attack",,Fragment,Instant,,,,,"**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.
 
 **Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,YDZ,,,OMN015,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN015.webp,,,,,,YDZ,,,OMN015,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN015.webp,,,,,,YDZ,,,OMN015,,,,,,,,,,,,,,,,,,,,,,,,,

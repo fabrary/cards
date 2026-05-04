@@ -1137,6 +1137,192 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
   
   },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "corrosive-space-dust-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN012",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Corrosive Space Dust",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "OMN012",
+      image: "OMN012",
+      
+      
+      print: "OMN012",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN012"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN012",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this leaves the arena, deal 1 arcane damage to target hero.
+
+**Ward X**, where X is 4 if this has a holo counter. Otherwise, X is 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "corrosive-space-dust-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN013",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Corrosive Space Dust",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "OMN013",
+      image: "OMN013",
+      
+      
+      print: "OMN013",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN013"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN013",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this leaves the arena, deal 1 arcane damage to target hero.
+
+**Ward X**, where X is 3 if this has a holo counter. Otherwise, X is 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "corrosive-space-dust-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN014",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Corrosive Space Dust",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "OMN014",
+      image: "OMN014",
+      
+      
+      print: "OMN014",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN014"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN014",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this leaves the arena, deal 1 arcane damage to target hero.
+
+**Ward X**, where X is 2 if this has a holo counter. Otherwise, X is 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["YDZ"],
     cardIdentifier: "cosmic-duality-red",
     classes: [Class.Illusionist],
