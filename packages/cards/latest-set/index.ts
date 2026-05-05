@@ -269,6 +269,68 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
   
   },{
+    artists: ["Reinaldo Indrajaya"],
+    cardIdentifier: "arcanic-reproach-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN052",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Arcanic Reproach",
+    printings: [{
+        artists: ["Reinaldo Indrajaya"],
+      
+      identifier: "OMN052",
+      image: "OMN052",
+      
+      
+      print: "OMN052",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN052"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN052",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Runeblade Instant - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `The first time an opposing hero deals damage to you each turn, you may reveal a Lightning card from your hand. If you do, deal 1 arcane damage to them.
+
+At the start of your action phase, destroy an aura you control.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "astral-strike-red",
     classes: [Class.NotClassed],
@@ -2958,6 +3020,68 @@ Lightning Flow tokens get **spellvoid 1**`,
     talents: [Talent.Lightning],
   
   young: true
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "prophetic-quickstep-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN055",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Prophetic Quickstep",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "OMN055",
+      image: "OMN055",
+      
+      
+      print: "OMN055",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN055"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN055",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p} and "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a hero, create a Ponder token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
   },{
     artists: ["Esty Swandana"],
     cardIdentifier: "pulsing-cardia-red",

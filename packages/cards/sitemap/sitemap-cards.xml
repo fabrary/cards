@@ -741,6 +741,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/arcanic-reproach-blue</loc>
+    <lastmod>2026-05-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/arcanic-shockwave-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -14553,6 +14558,11 @@
   <url>
     <loc>https://fabrary.net/cards/promising-terrain-blue</loc>
     <lastmod>2025-05-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/prophetic-quickstep-yellow</loc>
+    <lastmod>2026-05-05</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
