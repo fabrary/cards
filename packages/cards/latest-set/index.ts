@@ -298,7 +298,7 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
     types: [Type.Instant],
     typeText: "Lightning Runeblade Instant - Aura",
 
-    
+    arcane: 1,
     
     cost: 0,
     defense: 3,
@@ -1228,7 +1228,7 @@ At the start of your action phase, destroy an aura you control.`,
     types: [Type.Instant],
     typeText: "Lightning Illusionist Instant - Aura",
 
-    
+    arcane: 1,
     
     cost: 1,
     
@@ -1290,7 +1290,7 @@ At the start of your action phase, destroy an aura you control.`,
     types: [Type.Instant],
     typeText: "Lightning Illusionist Instant - Aura",
 
-    
+    arcane: 1,
     
     cost: 1,
     
@@ -1352,7 +1352,7 @@ At the start of your action phase, destroy an aura you control.`,
     types: [Type.Instant],
     typeText: "Lightning Illusionist Instant - Aura",
 
-    
+    arcane: 1,
     
     cost: 1,
     
@@ -2134,6 +2134,78 @@ When this hits, create a Lightning Flow token.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "gear-turner-red",
+    classes: [Class.Mechanologist],
+    defaultImage: "OMN235",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Teklovossen],
+    name: "Gear Turner",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "OMN235",
+      image: "OMN235",
+      isExpansionSlot: true,
+      
+      print: "OMN235",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.C,
+      identifier: "OMN235",
+      image: "OMN235-CF",
+      isExpansionSlot: true,
+      
+      print: "OMN235-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN235"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN235-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Mechanologist Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this hits, you may search your deck for a cog, put it into the arena, then shuffle.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -3050,7 +3122,7 @@ Lightning Flow tokens get **spellvoid 1**`,
     types: [Type.Action],
     typeText: "Lightning Runeblade Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 1,
     defense: 3,

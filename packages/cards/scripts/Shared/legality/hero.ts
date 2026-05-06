@@ -344,6 +344,7 @@ const ALL_KAYOS = [Hero.Kayo, Hero.RKO];
 const ALL_HEROES = Object.values(Hero);
 
 const TOKEN_OVERRIDES: { [key: string]: Hero[] } = {
+  "embodiment-of-lightning": [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy],
   "lightning-flow": [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy],
 };
 
