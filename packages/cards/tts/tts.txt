@@ -5839,6 +5839,7 @@ OSCCardDB = {
   ["OMN227"] = { name = "Omens of Arcana", text = "Each hero starts the game with a Lightning Flow token.\n\nLightning Flow tokens get **spellvoid 1**", keywords = "Spellvoid", types = "Macro"},
   ["OMN228"] = { name = "Unmake the Underlings (3)", text = "**Stealth**\n\nWhen this attacks a hero, turn an ally in their graveyard face-down.\n\nWhen this hits an ally, destroy that ally.", keywords = "Stealth", types = "Action"},
   ["OMN229"] = { name = "Feral Instinct (2)", text = "If you've intimidated an opponent this turn, this costs {r}{r}{r} less to play.", keywords = "", types = "Action"},
+  ["OMN230"] = { name = "Pile Driver", text = "**Betsy Specialization**\n\n**Action** - {r}{r}{r}{r}, {t}: **Attack**\n\nWhen this attacks, you may **wager** a Gold token with the defending hero.", keywords = "Specialization,Wager", types = "Weapon"},
   ["OMN235"] = { name = "Gear Turner (1)", text = "When this hits, you may search your deck for a cog, put it into the arena, then shuffle.", keywords = "", types = "Action"},
   ["OMN247"] = { name = "Lionclaw Maul", text = "**Action** - {r}{r}, {t}: **Attack**\n\nIf this has {p} greater than its base, it gets +1{p}.\n\nWhen this hits a hero, **the crowd boos** you.", keywords = "The Crowd Boos", types = "Weapon"},
   ["OSC001"] = { name = "Oscilio", text = "**Once per Turn Instant** - Discard an instant: Draw a card.\n\n**Essence of Lightning**", keywords = "Essence", types = "Hero"},

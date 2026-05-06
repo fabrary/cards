@@ -3093,6 +3093,70 @@ Lightning Flow tokens get **spellvoid 1**`,
   
   young: true
   },{
+    artists: ["Henrique Lindner"],
+    cardIdentifier: "pile-driver",
+    classes: [Class.Guardian],
+    defaultImage: "OMN230",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Shiyana],
+    name: "Pile Driver",
+    printings: [{
+        artists: ["Henrique Lindner"],
+      
+      identifier: "OMN230",
+      image: "OMN230",
+      isExpansionSlot: true,
+      
+      print: "OMN230",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN230"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN230",
+    subtypes: [Subtype.TwoHanded,Subtype.Log],
+    types: [Type.Weapon],
+    typeText: "Guardian Weapon - Log (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Betsy Specialization**
+
+**Action** - {r}{r}{r}{r}, {t}: **Attack**
+
+When this attacks, you may **wager** a Gold token with the defending hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Specialization,Keyword.Wager],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    
+    power: 6,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Betsy],
+    
+  
+  
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "prophetic-quickstep-yellow",
     classes: [Class.Runeblade],

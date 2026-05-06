@@ -383,6 +383,7 @@ export enum Subtype {
   Invocation = "Invocation",
   Item = "Item",
   Landmark = "Landmark",
+  Log = "Log",
   Lute = "Lute",
   Legs = "Legs",
   NonAttack = "Non-Attack",
