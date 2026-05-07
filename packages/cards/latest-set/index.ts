@@ -874,7 +874,7 @@ At the start of your action phase, destroy an aura you control.`,
     artists: ["Reza Aswadananta"],
     cardIdentifier: "boots-of-astral-sanctuary",
     classes: [Class.Generic],
-    defaultImage: "OMN212",
+    defaultImage: "OMN212,LGS455",
     legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
     name: "Boots of Astral Sanctuary",
@@ -882,7 +882,7 @@ At the start of your action phase, destroy an aura you control.`,
         artists: ["Reza Aswadananta"],
       
       identifier: "OMN212",
-      image: "OMN212",
+      image: "OMN212,LGS455",
       
       
       print: "OMN212",
@@ -893,9 +893,9 @@ At the start of your action phase, destroy an aura you control.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN212"],
+    setIdentifiers: ["LGS455","OMN212"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
-    specialImage: "OMN212",
+    specialImage: "OMN212,LGS455",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Legs",
@@ -1817,6 +1817,80 @@ At the start of your action phase, destroy an aura you control.`,
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "crash-site-salvage-yellow",
+    classes: [Class.Mechanologist,Class.Pirate],
+    defaultImage: "OMN239",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Puffin],
+    name: "Crash Site Salvage",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "OMN239",
+      image: "OMN239",
+      isExpansionSlot: true,
+      
+      print: "OMN239",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.C,
+      identifier: "OMN239",
+      image: "OMN239-CF",
+      isExpansionSlot: true,
+      
+      print: "OMN239-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN239"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN239-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Mechanologist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Scrap**
+
+When this attacks, if it scrapped a card, this gets **go again**. If a cog was scrapped this way, create a Gold token.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Scrap],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Vincent Taslim"],
     cardIdentifier: "dashing-flashfoot-yellow",
     classes: [Class.Runeblade],
@@ -2272,7 +2346,7 @@ When this hits, create a Lightning Flow token.`,
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "glide-through-starlight-red",
     classes: [Class.NotClassed],
-    defaultImage: "OMN169",
+    defaultImage: "OMN169,LGS451",
     legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Glide Through Starlight",
@@ -2280,7 +2354,7 @@ When this hits, create a Lightning Flow token.`,
         artists: ["Ramza Ardyputra"],
       
       identifier: "OMN169",
-      image: "OMN169",
+      image: "OMN169,LGS451",
       
       
       print: "OMN169",
@@ -2291,9 +2365,9 @@ When this hits, create a Lightning Flow token.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN169"],
+    setIdentifiers: ["LGS451","OMN169"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
-    specialImage: "OMN169",
+    specialImage: "OMN169,LGS451",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Lightning Action - Attack",
@@ -2452,7 +2526,7 @@ When this hits, create a Lightning Flow token.`,
     artists: ["Yunior Susanto"],
     cardIdentifier: "gloves-of-astral-sanctuary",
     classes: [Class.Generic],
-    defaultImage: "OMN211",
+    defaultImage: "OMN211,LGS454",
     legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
     name: "Gloves of Astral Sanctuary",
@@ -2460,7 +2534,7 @@ When this hits, create a Lightning Flow token.`,
         artists: ["Yunior Susanto"],
       
       identifier: "OMN211",
-      image: "OMN211",
+      image: "OMN211,LGS454",
       
       
       print: "OMN211",
@@ -2471,9 +2545,9 @@ When this hits, create a Lightning Flow token.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN211"],
+    setIdentifiers: ["LGS454","OMN211"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
-    specialImage: "OMN211",
+    specialImage: "OMN211,LGS454",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Arms",
@@ -2512,7 +2586,7 @@ When this hits, create a Lightning Flow token.`,
     artists: ["M Fakhrur Rozzi"],
     cardIdentifier: "helm-of-astral-sanctuary",
     classes: [Class.Generic],
-    defaultImage: "OMN209",
+    defaultImage: "OMN209,LGS452",
     legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
     name: "Helm of Astral Sanctuary",
@@ -2520,7 +2594,7 @@ When this hits, create a Lightning Flow token.`,
         artists: ["M Fakhrur Rozzi"],
       
       identifier: "OMN209",
-      image: "OMN209",
+      image: "OMN209,LGS452",
       
       
       print: "OMN209",
@@ -2531,9 +2605,9 @@ When this hits, create a Lightning Flow token.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN209"],
+    setIdentifiers: ["LGS452","OMN209"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
-    specialImage: "OMN209",
+    specialImage: "OMN209,LGS452",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Head",
@@ -3948,7 +4022,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     artists: ["Widya Wang"],
     cardIdentifier: "robe-of-astral-sanctuary",
     classes: [Class.Generic],
-    defaultImage: "OMN210",
+    defaultImage: "OMN210,LGS453",
     legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
     name: "Robe of Astral Sanctuary",
@@ -3956,7 +4030,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
         artists: ["Widya Wang"],
       
       identifier: "OMN210",
-      image: "OMN210",
+      image: "OMN210,LGS453",
       
       
       print: "OMN210",
@@ -3967,9 +4041,9 @@ The first time this deals damage to a hero, create a Ponder token.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN210"],
+    setIdentifiers: ["LGS453","OMN210"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
-    specialImage: "OMN210",
+    specialImage: "OMN210,LGS453",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Chest",
