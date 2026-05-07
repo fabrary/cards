@@ -3839,6 +3839,66 @@ The first time this deals damage to a hero, create a Ponder token.`,
   
   
   },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "red-lure-harpoon-blue",
+    classes: [Class.Pirate,Class.Ranger],
+    defaultImage: "OMN241",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Marlynn],
+    name: "Red Lure Harpoon",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "OMN241",
+      image: "OMN241",
+      isExpansionSlot: true,
+      
+      print: "OMN241",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN241"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN241",
+    subtypes: [Subtype.Arrow,Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Pirate Ranger Action - Arrow Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `If you've activated a cannon this turn, this gets "When this hits a hero, banish a red action card from their graveyard. You may play it until the end of your next turn."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Alif Zahrah"],
     cardIdentifier: "rift-breaker-red",
     classes: [Class.NotClassed],

@@ -6,6 +6,7 @@ import {
   Format,
   getIsDeckCard,
   getPrint,
+  Printing,
   Trait,
   Treatment,
 } from "@flesh-and-blood/types";
@@ -49,6 +50,21 @@ describe("No special characters in cardIdentifier", () => {
       ).toBeTruthy();
     },
   );
+});
+
+describe("No commas in images", () => {
+  it.each(
+    cardsToPublish.map(({ cardIdentifier, printings }) => [
+      cardIdentifier,
+      printings,
+    ]),
+  )("%s", (_, printings) => {
+    for (const { image } of printings as unknown as Printing[]) {
+      if (image) {
+        expect(image.includes(",")).toBeFalsy();
+      }
+    }
+  });
 });
 
 describe("All required fields present", () => {
