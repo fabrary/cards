@@ -2646,6 +2646,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/boots-of-astral-sanctuary</loc>
+    <lastmod>2026-05-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/boots-of-omnis-ward</loc>
     <lastmod>2026-04-26</lastmod>
     <priority>0.5</priority>
@@ -8566,6 +8571,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/glide-through-starlight-red</loc>
+    <lastmod>2026-05-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/glide-through-starlight-yellow</loc>
+    <lastmod>2026-05-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/glide-through-starlight-blue</loc>
+    <lastmod>2026-05-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/glidewell-fins</loc>
     <lastmod>2025-05-23</lastmod>
     <priority>0.5</priority>
@@ -8603,6 +8623,11 @@
   <url>
     <loc>https://fabrary.net/cards/glory-seeker</loc>
     <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/gloves-of-astral-sanctuary</loc>
+    <lastmod>2026-05-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9468,6 +9493,11 @@
   <url>
     <loc>https://fabrary.net/cards/hell-hammer</loc>
     <lastmod>2023-07-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/helm-of-astral-sanctuary</loc>
+    <lastmod>2026-05-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -16188,6 +16218,11 @@
   <url>
     <loc>https://fabrary.net/cards/rob-the-rich-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/robe-of-astral-sanctuary</loc>
+    <lastmod>2026-05-07</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
