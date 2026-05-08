@@ -602,7 +602,7 @@ At the start of your action phase, destroy an aura you control.`,
       
     },{
         artists: ["Asur Misoa"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN048",
       image: "OMN048-MV",
       
@@ -614,7 +614,7 @@ At the start of your action phase, destroy an aura you control.`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN048",
       image: "OMN048-MV_BACK",
       
@@ -686,7 +686,7 @@ At the start of your action phase, destroy an aura you control.`,
       
     },{
         artists: ["Asur Misoa"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN047",
       image: "OMN047-MV",
       
@@ -698,7 +698,7 @@ At the start of your action phase, destroy an aura you control.`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN047",
       image: "OMN047-MV_BACK",
       
@@ -940,7 +940,7 @@ At the start of your action phase, destroy an aura you control.`,
     name: "Boots of Omnis Ward",
     printings: [{
         artists: ["João G. Santos"],
-      foiling: Foiling.R,
+      foiling: Foiling.Rainbow,
       identifier: "OMN204",
       image: "OMN204",
       
@@ -952,7 +952,7 @@ At the start of your action phase, destroy an aura you control.`,
       
     },{
         artists: ["João G. Santos"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN204",
       image: "OMN204",
       
@@ -1005,6 +1005,78 @@ At the start of your action phase, destroy an aura you control.`,
   
   
   },{
+    artists: ["Wilson Nugraha"],
+    cardIdentifier: "browbeat-blue",
+    classes: [Class.Generic],
+    defaultImage: "OMN213",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Browbeat",
+    printings: [{
+        artists: ["Wilson Nugraha"],
+      
+      identifier: "OMN213",
+      image: "OMN213",
+      
+      
+      print: "OMN213",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Wilson Nugraha"],
+      foiling: Foiling.Cold,
+      identifier: "OMN213",
+      image: "OMN213-CF",
+      
+      
+      print: "OMN213-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN213"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN213-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `This gets +1{p} for each card in your hand.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Amirul HHF"],
     cardIdentifier: "circular-flowtide-yellow",
     classes: [Class.Illusionist],
@@ -1026,7 +1098,7 @@ At the start of your action phase, destroy an aura you control.`,
       
     },{
         artists: ["Amirul HHF"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN033",
       image: "OMN033-CF",
       
@@ -1838,7 +1910,7 @@ At the start of your action phase, destroy an aura you control.`,
       
     },{
         artists: ["Mariusz Gandzel"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN239",
       image: "OMN239-CF",
       isExpansionSlot: true,
@@ -2036,7 +2108,7 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       
     },{
         artists: ["Phy Thieu"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN229",
       image: "OMN229-CF",
       
@@ -2292,7 +2364,7 @@ When this hits, create a Lightning Flow token.`,
       
     },{
         artists: ["Mariusz Gandzel"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN235",
       image: "OMN235-CF",
       isExpansionSlot: true,
@@ -2664,7 +2736,7 @@ When this hits, create a Lightning Flow token.`,
       
     },{
         artists: ["Alifka Hammam"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN203",
       image: "OMN203-MVA",
       
@@ -2676,7 +2748,7 @@ When this hits, create a Lightning Flow token.`,
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN203",
       image: "OMN203-MVB",
       
@@ -2688,7 +2760,7 @@ When this hits, create a Lightning Flow token.`,
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN203",
       image: "OMN203-MVC",
       
@@ -3380,7 +3452,7 @@ Lightning Flow tokens get **spellvoid 1**`,
       
     },{
         artists: ["Nathaniel Himawan"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN094",
       image: "OMN094-MV",
       
@@ -3392,7 +3464,7 @@ Lightning Flow tokens get **spellvoid 1**`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN094",
       image: "OMN094-MV_BACK",
       
@@ -3464,7 +3536,7 @@ Lightning Flow tokens get **spellvoid 1**`,
       
     },{
         artists: ["Nathaniel Himawan"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN095",
       image: "OMN095-MV",
       
@@ -3476,7 +3548,7 @@ Lightning Flow tokens get **spellvoid 1**`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN095",
       image: "OMN095-MV_BACK",
       
@@ -4222,7 +4294,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
       
     },{
         artists: ["Amtepra"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN147",
       image: "OMN147-CF",
       
@@ -4356,7 +4428,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
       
     },{
         artists: ["Tomasz Jedruszek"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN051",
       image: "OMN051-CF",
       
@@ -4418,7 +4490,7 @@ The first time this deals damage to a hero, they discard a card.`,
     name: "Third Eye of the Sphinx",
     printings: [{
         artists: ["soyameii"],
-      foiling: Foiling.R,
+      foiling: Foiling.Rainbow,
       identifier: "OMN140",
       image: "OMN140",
       
@@ -4430,7 +4502,7 @@ The first time this deals damage to a hero, they discard a card.`,
       
     },{
         artists: ["soyameii"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN140",
       image: "OMN140",
       
@@ -4506,7 +4578,7 @@ The first time this deals damage to a hero, they discard a card.`,
       
     },{
         artists: ["Esty Swandana"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN133",
       image: "OMN133-CF",
       
@@ -4704,7 +4776,7 @@ When this hits an ally, destroy that ally.`,
       
     },{
         artists: ["Stormy Elia Fanggidae"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN004",
       image: "OMN004-CF",
       
@@ -5082,7 +5154,7 @@ When this hits, create a Lightning Flow token.`,
       
     },{
         artists: ["Jessada Sutthi"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN002",
       image: "OMN002-MV",
       
@@ -5094,7 +5166,7 @@ When this hits, create a Lightning Flow token.`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN002",
       image: "OMN002-MV_BACK",
       
@@ -5166,7 +5238,7 @@ When this hits, create a Lightning Flow token.`,
       
     },{
         artists: ["Jessada Sutthi"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN001",
       image: "OMN001-MV",
       
@@ -5178,7 +5250,7 @@ When this hits, create a Lightning Flow token.`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
-      foiling: Foiling.C,
+      foiling: Foiling.Cold,
       identifier: "OMN001",
       image: "OMN001-MV_BACK",
       

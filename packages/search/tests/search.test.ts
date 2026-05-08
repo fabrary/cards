@@ -210,8 +210,9 @@ describe("Card search", () => {
     }
   });
 
-  const heroFilters = Object.values(Hero).map((hero) => [`l:"${hero}"`]);
-
+  const heroFilters: string[][] = Object.values(Hero).map((hero) => [
+    `l:"${hero}"`,
+  ]);
   const hasQuantity: string[][] = [
     ...heroFilters,
     ["Kasaya"],
@@ -505,7 +506,7 @@ describe("Returns foiling when included", () => {
       attributes: { foilings },
     } = cardSearch.search("foil:rainbow");
     expect(foilings).toBeTruthy();
-    expect(foilings[0]).toEqual(Foiling.R);
+    expect(foilings[0]).toEqual(Foiling.Rainbow);
   });
 
   it("Cold and gold foils", () => {
@@ -524,7 +525,7 @@ describe("Returns matching prints", () => {
     const { searchResults } = cardSearch.search("foil:g");
     const searchResultsWithGoldFoilImage = searchResults.filter((card) =>
       card.printings.find(
-        (printing) => printing.foiling === Foiling.G && !!printing.image,
+        (printing) => printing.foiling === Foiling.Gold && !!printing.image,
       ),
     );
     for (const { matchingPrintings } of searchResultsWithGoldFoilImage) {
@@ -532,7 +533,7 @@ describe("Returns matching prints", () => {
 
       for (const printing of matchingPrintings || []) {
         expect(printing).toBeTruthy();
-        expect(printing.foiling).toEqual(Foiling.G);
+        expect(printing.foiling).toEqual(Foiling.Gold);
       }
     }
   });

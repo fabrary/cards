@@ -18,6 +18,7 @@ import {
 } from "@flesh-and-blood/types";
 import {
   addOppositeSideCardIdentifiers,
+  FOILING_KEY_TO_ENUM_MAPPING,
   getBonds,
   getFlows,
   getFusions,
@@ -165,7 +166,8 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       image = identifier;
     }
 
-    const foiling = Foiling[rawFoiling as keyof typeof Foiling];
+    const foiling = FOILING_KEY_TO_ENUM_MAPPING[rawFoiling || ""];
+
     const print = getPrint({
       identifier,
       image,

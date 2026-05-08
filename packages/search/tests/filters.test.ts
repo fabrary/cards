@@ -15,8 +15,8 @@ import { cards } from "@flesh-and-blood/cards";
 
 describe("Gets the right attribute filters", () => {
   const foilFilters = [
-    ["foiling:r", [Foiling.R]],
-    ["foil:cf,g", [Foiling.C, Foiling.G]],
+    ["foiling:r", [Foiling.Rainbow]],
+    ["foil:cf,g", [Foiling.Cold, Foiling.Gold]],
   ];
   it.each(foilFilters)(
     "Gets matching foilings for %s",
@@ -59,8 +59,8 @@ describe("Gets the right attribute filters", () => {
 
 describe("Gets the right attribute filters", () => {
   const foilFilters = [
-    ["foiling:r", [Foiling.R]],
-    ["foil:cf,g", [Foiling.C, Foiling.G]],
+    ["foiling:r", [Foiling.Rainbow]],
+    ["foil:cf,g", [Foiling.Cold, Foiling.Gold]],
   ];
   it.each(foilFilters)(
     "Gets matching foilings for %s",

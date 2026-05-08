@@ -192,7 +192,7 @@ export const getSpecialPrinting = (
 
         if (treatments?.includes(Treatment.FA)) {
           firstFullArt = printing;
-          if (foiling === Foiling.C) {
+          if (foiling === Foiling.Cold) {
             coldFullArt = printing;
             if (upperCaseImage.includes("_V3")) {
               coldFullArt2 = printing;
@@ -209,7 +209,7 @@ export const getSpecialPrinting = (
 
         if (treatments?.includes(Treatment.EA)) {
           extendedArt = printing;
-          if (foiling === Foiling.C) {
+          if (foiling === Foiling.Cold) {
             coldExtendedArt = printing;
           }
           if (!foiling) {
@@ -246,12 +246,12 @@ export const getSpecialPrinting = (
           unlimitedEdition = printing;
         }
 
-        if (foiling === Foiling.C) {
+        if (foiling === Foiling.Cold) {
           coldFoil = printing;
           if (edition === ReleaseEdition.Promo) {
             promoColdFoil = printing;
           }
-        } else if (foiling === Foiling.G) {
+        } else if (foiling === Foiling.Gold) {
           goldFoil = printing;
         }
       }

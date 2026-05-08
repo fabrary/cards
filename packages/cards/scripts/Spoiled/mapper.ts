@@ -1,6 +1,7 @@
 import { releasedCards } from "../Released";
 import {
   addOppositeSideCardIdentifiers,
+  FOILING_KEY_TO_ENUM_MAPPING,
   getBonds,
   getFlows,
   getFusions,
@@ -210,9 +211,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
 
   const set = setIdentifierToSetMappings[setString.toLowerCase()];
 
-  const foiling = foilingString
-    ? Foiling[foilingString as keyof typeof Foiling]
-    : undefined;
+  const foiling = FOILING_KEY_TO_ENUM_MAPPING[foilingString || ""];
 
   let treatment: Treatment | undefined = undefined;
   let treatments: Treatment[] = [];

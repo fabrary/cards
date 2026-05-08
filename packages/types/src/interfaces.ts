@@ -82,9 +82,9 @@ export interface Printing {
 }
 
 export enum Foiling {
-  C = "Cold",
-  G = "Gold",
-  R = "Rainbow",
+  Cold = "Cold",
+  Gold = "Gold",
+  Rainbow = "Rainbow",
 }
 
 export enum Shorthand {

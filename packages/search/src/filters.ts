@@ -775,15 +775,15 @@ const getMetaValuesFromText = (rawValues: string[]) => {
 };
 
 const foilingValuesMapping: { [key: string]: Foiling } = {
-  r: Foiling.R,
-  rf: Foiling.R,
-  rainbow: Foiling.R,
-  c: Foiling.C,
-  cf: Foiling.C,
-  cold: Foiling.C,
-  g: Foiling.G,
-  gf: Foiling.G,
-  gold: Foiling.G,
+  r: Foiling.Rainbow,
+  rf: Foiling.Rainbow,
+  rainbow: Foiling.Rainbow,
+  c: Foiling.Cold,
+  cf: Foiling.Cold,
+  cold: Foiling.Cold,
+  g: Foiling.Gold,
+  gf: Foiling.Gold,
+  gold: Foiling.Gold,
 };
 const getFoilingValuesFromText = (rawValues: string[]) => {
   const values: Foiling[] = [];

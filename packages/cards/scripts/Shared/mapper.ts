@@ -2,6 +2,7 @@ import {
   Bond,
   Card,
   Flow,
+  Foiling,
   Format,
   Fusion,
   Hero,
@@ -18,6 +19,12 @@ import {
   releases,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
+
+export const FOILING_KEY_TO_ENUM_MAPPING: { [key: string]: Foiling } = {
+  C: Foiling.Cold,
+  G: Foiling.Gold,
+  R: Foiling.Rainbow,
+};
 
 export const getNumberOrUndefined = (value?: string): number | undefined => {
   if (value) {

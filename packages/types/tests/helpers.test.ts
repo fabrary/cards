@@ -200,7 +200,7 @@ describe("Printings", () => {
     const printings: Printing[] = [
       {
         artists: ["Mario Wibisono"],
-        foiling: Foiling.C,
+        foiling: Foiling.Cold,
         identifier: "HNT167",
         image: "HNT167_V2",
 
@@ -252,7 +252,7 @@ describe("Printings", () => {
       },
       {
         artists: ["Federico Musetti"],
-        foiling: Foiling.R,
+        foiling: Foiling.Rainbow,
         identifier: "HNT260",
         image: "HNT260-EA",
         isExpansionSlot: true,

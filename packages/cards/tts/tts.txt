@@ -5846,6 +5846,7 @@ OSCCardDB = {
   ["OMN210"] = { name = "Robe of Astral Sanctuary", text = "**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.", keywords = "", types = "Equipment"},
   ["OMN211"] = { name = "Gloves of Astral Sanctuary", text = "**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.", keywords = "", types = "Equipment"},
   ["OMN212"] = { name = "Boots of Astral Sanctuary", text = "**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.", keywords = "", types = "Equipment"},
+  ["OMN213"] = { name = "Browbeat (3)", text = "This gets +1{p} for each card in your hand.", keywords = "", types = "Action"},
   ["OMN214"] = { name = "Step Between (1)", text = "While this is attacking or on the stack, opponents can't play or activate instants.\n\n**Instant** - {r}, {t} your hero: This gets +1{p} and {p} damage can't be prevented this combat chain.", keywords = "", types = "Action"},
   ["OMN216"] = { name = "Ominous Aggression (1)", text = "Target attack action card gets +2{p}. If an aura you control was destroyed this turn, instead the card gets +4{p}.", keywords = "", types = "Instant"},
   ["OMN227"] = { name = "Omens of Arcana", text = "Each hero starts the game with a Lightning Flow token.\n\nLightning Flow tokens get **spellvoid 1**", keywords = "Spellvoid", types = "Macro"},
