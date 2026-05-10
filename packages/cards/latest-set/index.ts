@@ -2343,6 +2343,80 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "gauntlet-of-sword-and-sorcery",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN086-CF",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Taylor,Hero.Viserai,Hero.Vynnset],
+    name: "Gauntlet of Sword and Sorcery",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Cold,
+      identifier: "OMN086",
+      image: "OMN086-CF",
+      
+      
+      print: "OMN086-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN086",
+      image: "OMN086-RF",
+      
+      
+      print: "OMN086-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OMN086"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN086-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Runeblade Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Action** - {r}{r}, {t} this and your hero: The next attack action card you play this turn gets "When this attacks, deal 1 arcane damate to any opposing target. If damage is dealt this way, this gets +1{p}." **Go again**
+
+**Arcane Barrier 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
+    
+    
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Buffs,Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "gear-turner-red",
     classes: [Class.Mechanologist],

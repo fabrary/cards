@@ -27,9 +27,9 @@ export const getRelatedCards = (
   card: Card,
   availableCards: Card[],
 ): { otherPitches: Card[]; referencedBy: Card[]; references: Card[] } => {
-  const otherPitches: Card[] = [];
-  const referencedBy: Card[] = [];
-  const references: Card[] = [];
+  const otherPitchMapping: { [key: string]: Card } = {};
+  const referencedByMapping: { [key: string]: Card } = {};
+  const referencesMapping: { [key: string]: Card } = {};
 
   if (card) {
     // We need an initial list of matches, but then we need to filter further to find nested matches
@@ -47,7 +47,7 @@ export const getRelatedCards = (
       const differentPitch = card.pitch !== other.pitch;
 
       if (sameName && differentCard && differentPitch) {
-        otherPitches.push(other);
+        otherPitchMapping[other.cardIdentifier] = other;
       } else if (!sameName) {
         const isCardSeismicSurge = card.name === "Seismic Surge";
         const isOtherCardHeaved = other.keywords?.includes(Keyword.Heave);
@@ -124,7 +124,7 @@ export const getRelatedCards = (
     }
 
     for (const initialReference of initialReferencedBy) {
-      referencedBy.push(initialReference);
+      referencedByMapping[initialReference.cardIdentifier] = initialReference;
     }
 
     for (const initialReference of initialReferences) {
@@ -137,10 +137,14 @@ export const getRelatedCards = (
           return name !== initialName && name?.includes(initialName);
         })
       ) {
-        references.push(initialReference);
+        referencesMapping[initialReference.cardIdentifier] = initialReference;
       }
     }
   }
+
+  const otherPitches: Card[] = Object.values(otherPitchMapping);
+  const referencedBy: Card[] = Object.values(referencedByMapping);
+  const references: Card[] = Object.values(referencesMapping);
 
   return { otherPitches, referencedBy, references };
 };
