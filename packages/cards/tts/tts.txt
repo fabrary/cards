@@ -5838,6 +5838,7 @@ OSCCardDB = {
   ["OMN155"] = { name = "Rift Breaker (1)", text = "When this hits a hero, destroy a Lightning Flow token they control.", keywords = "", types = "Action"},
   ["OMN156"] = { name = "Rift Breaker (2)", text = "When this hits a hero, destroy a Lightning Flow token they control.", keywords = "", types = "Action"},
   ["OMN157"] = { name = "Rift Breaker (3)", text = "When this hits a hero, destroy a Lightning Flow token they control.", keywords = "", types = "Action"},
+  ["OMN159"] = { name = "Livewire Press (1)", text = "Target Lightning Attack action card gets \"When this hits a hero, deal 4 damage to them.\"", keywords = "", types = "Instant"},
   ["OMN169"] = { name = "Glide Through Starlight (1)", text = "**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.", keywords = "", types = "Action"},
   ["OMN170"] = { name = "Glide Through Starlight (2)", text = "**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.", keywords = "", types = "Action"},
   ["OMN171"] = { name = "Glide Through Starlight (3)", text = "**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.", keywords = "", types = "Action"},

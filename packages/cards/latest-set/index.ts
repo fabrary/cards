@@ -2949,6 +2949,66 @@ When this hits a hero, **the crowd boos** you.`,
   
   
   },{
+    artists: ["Bramasta Aji"],
+    cardIdentifier: "livewire-press-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN159",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Livewire Press",
+    printings: [{
+        artists: ["Bramasta Aji"],
+      
+      identifier: "OMN159",
+      image: "OMN159",
+      
+      
+      print: "OMN159",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN159"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN159",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `Target Lightning Attack action card gets "When this hits a hero, deal 4 damage to them."`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "mercurial-skies-red",
     classes: [Class.Runeblade],
