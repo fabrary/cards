@@ -2283,6 +2283,66 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "flowshard-elemental-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN149",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flowshard Elemental",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "OMN149",
+      image: "OMN149",
+      
+      
+      print: "OMN149",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN149"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN149",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may discard an instant card. If you do, create a Lightning Flow token and this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Olga Tereshenko"],
     cardIdentifier: "flowstate-embodiment-red",
     classes: [Class.NotClassed],

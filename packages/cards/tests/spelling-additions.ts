@@ -189,6 +189,7 @@ export const ADDITIONS = [
   "flic",
   "flittering",
   "floof",
+  "flowshard",
   "flowstate",
   "flowtide",
   "fluttersteps",
