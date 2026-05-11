@@ -1703,6 +1703,66 @@ At the start of your action phase, destroy an aura you control.`,
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "cosmic-flare-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN187",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Cosmic Flare",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN187",
+      image: "OMN187",
+      
+      
+      print: "OMN187",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN187"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN187",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Gain {r}{r}{r}`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Arif Restu"],
     cardIdentifier: "cosmic-suture-red",
     classes: [Class.Wizard],

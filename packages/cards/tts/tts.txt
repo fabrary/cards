@@ -5843,6 +5843,7 @@ OSCCardDB = {
   ["OMN169"] = { name = "Glide Through Starlight (1)", text = "**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.", keywords = "", types = "Action"},
   ["OMN170"] = { name = "Glide Through Starlight (2)", text = "**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.", keywords = "", types = "Action"},
   ["OMN171"] = { name = "Glide Through Starlight (3)", text = "**Instant** - {r}, discard this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.", keywords = "", types = "Action"},
+  ["OMN187"] = { name = "Cosmic Flare (1)", text = "Gain {r}{r}{r}", keywords = "", types = "Instant"},
   ["OMN203"] = { name = "Lightning Flow", text = "", keywords = "", types = "Token"},
   ["OMN204"] = { name = "Boots of Omnis Ward", text = "If you've been dealt arcane damage this turn, this gets +1{d}.\n\n**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.", keywords = "Temper", types = "Equipment"},
   ["OMN209"] = { name = "Helm of Astral Sanctuary", text = "**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.", keywords = "", types = "Equipment"},
