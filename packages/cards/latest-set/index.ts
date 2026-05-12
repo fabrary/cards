@@ -23,6 +23,80 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] = [{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "a-bit-off-the-side-red",
+    classes: [Class.Guardian,Class.Warrior],
+    defaultImage: "OMN243",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Jarl,Hero.Kassai,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Olympia,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "A Bit off the Side",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "OMN243",
+      image: "OMN243",
+      isExpansionSlot: true,
+      
+      print: "OMN243",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Cold,
+      identifier: "OMN243",
+      image: "OMN243-CF",
+      
+      
+      print: "OMN243-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN243"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN243-CF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Guardian / Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Until end of turn, axes you control get "When this hits a hero, they discard a card."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "aphrodias",
     classes: [Class.Illusionist],
@@ -806,6 +880,82 @@ At the start of your action phase, destroy an aura you control.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Ina Wong"],
+    cardIdentifier: "blessing-of-aegis-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN244",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Librarian,Hero.Prism,Hero.Theryon],
+    name: "Blessing of Aegis",
+    printings: [{
+        artists: ["Ina Wong"],
+      
+      identifier: "OMN244",
+      image: "OMN244",
+      isExpansionSlot: true,
+      
+      print: "OMN244",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Ina Wong"],
+      foiling: Foiling.Cold,
+      identifier: "OMN244",
+      image: "OMN244-CF",
+      
+      
+      print: "OMN244-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN244"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN244-CF",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Light Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Go again**
+
+Whenever a card is put into your soul, gain 1{h}.
+
+At the start of your turn, put this into your soul.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
   
   
   },{
@@ -2509,7 +2659,7 @@ When this hits, create a Lightning Flow token.`,
     
     defense: 0,
     
-    functionalText: `**Action** - {r}{r}, {t} this and your hero: The next attack action card you play this turn gets "When this attacks, deal 1 arcane damate to any opposing target. If damage is dealt this way, this gets +1{p}." **Go again**
+    functionalText: `**Action** - {r}{r}, {t} this and your hero: The next attack action card you play this turn gets "When this attacks, deal 1 arcane damage to any opposing target. If damage is dealt this way, this gets +1{p}." **Go again**
 
 **Arcane Barrier 1**`,
     
@@ -3103,7 +3253,7 @@ When this hits a hero, **the crowd boos** you.`,
     cost: 1,
     
     
-    functionalText: `Target Lightning Attack action card gets "When this hits a hero, deal 4 damage to them."`,
+    functionalText: `Target Lightning attack action card gets "When this hits a hero, deal 4 damage to them."`,
     
     
     
@@ -3733,6 +3883,66 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "ominous-respite-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OMN218",
+    legalFormats: [Format.Blitz,Format.Clash,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Ominous Respite",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "OMN218",
+      image: "OMN218",
+      
+      
+      print: "OMN218",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN218"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN218",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `Gain 2{h}. If an aura you control was destroyed this turn, instead gain 3{h}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
     
     
     
@@ -4586,6 +4796,68 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "settle-the-bill-red",
+    classes: [Class.Ranger],
+    defaultImage: "OMN237",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide],
+    name: "Settle the Bill",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "OMN237",
+      image: "OMN237",
+      isExpansionSlot: true,
+      
+      print: "OMN237",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN237"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN237",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Ranger Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `You may put an arrow from your hand face-up into your arsenal. If you do, until end of turn, it gets +3{p} and "When this hits a hero, destroy a card in their arsenal."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
