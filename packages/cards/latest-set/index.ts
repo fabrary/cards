@@ -2235,6 +2235,68 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
   
   
   },{
+    artists: ["Harry Wyatt"],
+    cardIdentifier: "draco-fire-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN245",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Cindra,Hero.Dromai,Hero.Emperor,Hero.Fai,Hero.Fang,Hero.Taipanis],
+    name: "Draco Fire",
+    printings: [{
+        artists: ["Harry Wyatt"],
+      
+      identifier: "OMN245",
+      image: "OMN245",
+      isExpansionSlot: true,
+      
+      print: "OMN245",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN245"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN245",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Draconic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Your next Draconic attack this turn gets +2{p} and costs {r} less to play or activate.
+
+While this is in your graveyard, at the start of your turn, you may banish 2 cards name Draco Fire from your graveyard. If you do, gain {r}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Draconic],
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "echoflash-yellow",
     classes: [Class.Wizard],
