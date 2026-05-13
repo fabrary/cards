@@ -335,9 +335,21 @@ OMN230,OMN,Pile Driver,,,,6,,,,,"Guardian, Weapon, Log, 2H",,"Betsy Specializati
 
 When this attacks, you may **wager** a Gold token with the defending hero.",Guardian Weapon - Log (2H),,,No,,M,,,Henrique Lindner,Yes,,OMN230,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN230.webp,,,,,,Henrique Lindner,,,OMN230,,,,,,,Henrique Lindner,,,OMN230,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN231,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN231,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN231.webp,,,,,,,,,OMN231,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN231.webp,,,,,,,,,OMN231,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN232,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN232,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232.webp,,,,,,,,,OMN232,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232.webp,,,,,,,,,OMN232,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN233,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN233,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233.webp,,,,,,,,,OMN233,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233.webp,,,,,,,,,OMN233,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN234,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN234,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN234.webp,,,,,,,,,OMN234,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN234.webp,,,,,,,,,OMN234,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN232,OMN,Evasive Nageboshi,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,"Legendary, Go again",,,,,,"**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+This can't be defended by equipment or reaction cards.",Ninja Instant - Shuriken Item,,,No,,M,,,Jessketchin,Yes,,OMN232,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232.webp,,,M,C,,Jessketchin,,,OMN232,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232-CF.webp,,,,,,Jessketchin,,,OMN232,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN233,OMN,Razor Ring,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,"Legendary, Go again",,,,,,"**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+When this hits a hero, the next action card they defend with this combat chain gets -1{d} until end of turn.",Ninja Instant - Shuriken Item,,,No,,M,,,Jessketchin,Yes,,OMN233,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233.webp,,,M,C,,Jessketchin,,,OMN233,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233-CF.webp,,,,,,Jessketchin,,,OMN233,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN234,OMN,Stun Star,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,"Legendary, Go again",,,,,,"**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+When this hits a hero, {t} them.",Ninja Instant - Shuriken Item,,,No,,M,,,Jessketchin,Yes,,OMN234,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN234.webp,,,M,C,,Jessketchin,,,OMN234,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN234-CF.webp,,,,,,Jessketchin,,,OMN234,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN235,OMN,Gear Turner,Red,1,1,5,3,,,,"Mechanologist, Action, Attack",,,,,,,,"When this hits, you may search your deck for a cog, put it into the arena, then shuffle.",Mechanologist Action - Attack,,,No,,M,,,Mariusz Gandzel,Yes,,OMN235,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN235.webp,,,M,C,EA,Mariusz Gandzel,Yes,,OMN235,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN235-CF.webp,,,,,,Mariusz Gandzel,,,OMN235,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN236,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN236,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN236.webp,,,,,,,,,OMN236,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN236.webp,,,,,,,,,OMN236,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN237,OMN,Settle the Bill,Red,1,1,,3,,,,"Ranger, Action",,Go again,,,,,,"You may put an arrow from your hand face-up into your arsenal. If you do, until end of turn, it gets +3{p} and ""When this hits a hero, destroy a card in their arsenal.""

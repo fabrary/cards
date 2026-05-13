@@ -1826,7 +1826,9 @@ export const releases: ReleaseInfo[] = [
   {
     cards: 40,
     classes: [Class.Illusionist],
-    deckLinks: [],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01KREWW7RJS0GZ2PCCD4BM47QY" },
+    ],
     heroes: [Hero.Zyggy],
     languages: ALL_LANGUAGES,
     release: Release.ArmoryDeckZyggy,

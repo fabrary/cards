@@ -2297,6 +2297,82 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
   
   
   },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "evasive-nageboshi-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OMN232",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Evasive Nageboshi",
+    printings: [{
+        artists: ["Jessketchin"],
+      
+      identifier: "OMN232",
+      image: "OMN232",
+      isExpansionSlot: true,
+      
+      print: "OMN232",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Cold,
+      identifier: "OMN232",
+      image: "OMN232-CF",
+      
+      
+      print: "OMN232-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN232"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN232-CF",
+    subtypes: [Subtype.Item,Subtype.Shuriken],
+    types: [Type.Instant],
+    typeText: "Ninja Instant - Shuriken Item",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+This can't be defended by equipment or reaction cards.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Phy Thieu"],
     cardIdentifier: "feral-instinct-yellow",
     classes: [Class.Brute],
@@ -4437,6 +4513,82 @@ The first time this deals damage to a hero, create a Ponder token.`,
   
   
   },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "razor-ring-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OMN233",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Razor Ring",
+    printings: [{
+        artists: ["Jessketchin"],
+      
+      identifier: "OMN233",
+      image: "OMN233",
+      isExpansionSlot: true,
+      
+      print: "OMN233",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Cold,
+      identifier: "OMN233",
+      image: "OMN233-CF",
+      
+      
+      print: "OMN233-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN233"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN233-CF",
+    subtypes: [Subtype.Item,Subtype.Shuriken],
+    types: [Type.Instant],
+    typeText: "Ninja Instant - Shuriken Item",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+When this hits a hero, the next action card they defend with this combat chain gets -1{d} until end of turn.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Andi Cahyo W"],
     cardIdentifier: "red-lure-harpoon-blue",
     classes: [Class.Pirate,Class.Ranger],
@@ -4982,6 +5134,82 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     pitch: 1,
     power: 4,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Jessketchin"],
+    cardIdentifier: "stun-star-blue",
+    classes: [Class.Ninja],
+    defaultImage: "OMN234",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Stun Star",
+    printings: [{
+        artists: ["Jessketchin"],
+      
+      identifier: "OMN234",
+      image: "OMN234",
+      isExpansionSlot: true,
+      
+      print: "OMN234",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Cold,
+      identifier: "OMN234",
+      image: "OMN234-CF",
+      
+      
+      print: "OMN234-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN234"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN234-CF",
+    subtypes: [Subtype.Item,Subtype.Shuriken],
+    types: [Type.Instant],
+    typeText: "Ninja Instant - Shuriken Item",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `**Legendary**
+
+**Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
+
+When this hits a hero, {t} them.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Legendary],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 1,
     
     shorthands: [Shorthand.Tap],
     

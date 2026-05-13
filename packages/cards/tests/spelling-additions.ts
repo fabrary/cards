@@ -335,6 +335,7 @@ export const ADDITIONS = [
   "mugenshi",
   "murkmire",
   "myrkhellir",
+  "nageboshi",
   "nasreth",
   "nekria",
   "nightcowl",
