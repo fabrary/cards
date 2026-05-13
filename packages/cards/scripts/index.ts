@@ -27,7 +27,6 @@ import {
   getConfirmedLegalFormats,
   getLegalFormats,
   getLegalHeroes,
-  getLegalOverrides,
 } from "./Shared/legality";
 import { getShorthands } from "./Shared/get-shorthands";
 import { getNicknames } from "./Shared/get-nicknames";
@@ -39,7 +38,7 @@ const deduplicatedCards: Card[] = [...spoiledCards];
 
 releasedCards.forEach((card) => {
   const duplicate = deduplicatedCards.find(
-    ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier
+    ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier,
   );
   if (duplicate) {
     // console.debug(
@@ -50,7 +49,7 @@ releasedCards.forEach((card) => {
     const arcane = duplicate.arcane || card.arcane || undefined;
 
     const artists = Array.from(
-      new Set([...duplicate.artists, ...card.artists])
+      new Set([...duplicate.artists, ...card.artists]),
     ).sort();
     const deduplicatedPrintings = duplicate.printings.map((printing) => {
       if (!printing.rarity) {
@@ -63,7 +62,7 @@ releasedCards.forEach((card) => {
           const standardArtArtistsSet = new Set<string>();
           const standardArtPrintings = card.printings.filter(
             ({ treatments }) =>
-              !treatments || !treatments.includes(Treatment.AA)
+              !treatments || !treatments.includes(Treatment.AA),
           );
 
           for (const { artists } of standardArtPrintings) {
@@ -83,7 +82,7 @@ releasedCards.forEach((card) => {
     card.printings.forEach((printing) => {
       const duplicate = deduplicatedPrintings.find(
         (deduplicatedPrinting) =>
-          getPrint(deduplicatedPrinting) === getPrint(printing)
+          getPrint(deduplicatedPrinting) === getPrint(printing),
       );
       if (!duplicate) {
         deduplicatedPrintings.push(printing);
@@ -91,28 +90,28 @@ releasedCards.forEach((card) => {
     });
     deduplicatedPrintings.sort(sortPrintingsByReleaseOrder);
     const combinedFusions = Array.from(
-      new Set([...(duplicate.fusions || []), ...(card.fusions || [])])
+      new Set([...(duplicate.fusions || []), ...(card.fusions || [])]),
     );
     const fusions = combinedFusions.length > 0 ? combinedFusions : undefined;
 
     const combinedFlows = Array.from(
-      new Set([...(duplicate.flows || []), ...(card.flows || [])])
+      new Set([...(duplicate.flows || []), ...(card.flows || [])]),
     );
     const flows = combinedFlows.length > 0 ? combinedFlows : undefined;
 
     const defaultImage = getDefaultPrinting(card, deduplicatedPrintings)?.image;
     const specialImage = getSpecialPrinting(card, deduplicatedPrintings)?.image;
     const rarities = Array.from(
-      new Set([...duplicate.rarities, ...card.rarities])
+      new Set([...duplicate.rarities, ...card.rarities]),
     ).sort();
     const restrictedFormats = card.restrictedFormats;
     const setIdentifiers = Array.from(
-      new Set([...duplicate.setIdentifiers, ...card.setIdentifiers])
+      new Set([...duplicate.setIdentifiers, ...card.setIdentifiers]),
     ).sort();
     const sets = Array.from(new Set([...duplicate.sets, ...card.sets])).sort();
 
     const legalFormats = Array.from(
-      new Set([...duplicate.legalFormats, ...card.legalFormats])
+      new Set([...duplicate.legalFormats, ...card.legalFormats]),
     ).sort();
     duplicate.legalFormats = legalFormats;
 
@@ -139,7 +138,6 @@ releasedCards.forEach((card) => {
 const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
   const legalFormats = getConfirmedLegalFormats(card);
   const legalHeroes = getLegalHeroes(card);
-  const legalOverrides = getLegalOverrides(card, legalHeroes);
   const meta = getMeta(card, deduplicatedCards);
   const nicknames = getNicknames(card);
   const shorthands = getShorthands(card);
@@ -149,7 +147,6 @@ const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
     ...card,
     legalFormats,
     legalHeroes,
-    legalOverrides,
     meta,
     nicknames,
     shorthands,
@@ -185,7 +182,7 @@ const latestSetCards = cardsWithAdditionalProperties.filter(
       printings.filter(({ set }) => set === latestSet).length > 0;
 
     return isInLatestSet && hasImagesFromLatestSet;
-  }
+  },
 );
 
 const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {

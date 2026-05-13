@@ -14,11 +14,7 @@ import {
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
 import { PUNCTUATION } from "./constants";
-import {
-  AppliedFilter,
-  getKeywordsAndAppliedFiltersFromText,
-  SpecialConditions,
-} from "./filters";
+import { AppliedFilter, getKeywordsAndAppliedFiltersFromText } from "./filters";
 import { memes } from "./memes";
 import { getNormalizedText } from "./helpers";
 import { FilterProperty } from "./metaFilters";

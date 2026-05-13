@@ -136,7 +136,6 @@ export enum Flow {
 
 export enum Format {
   Blitz = "Blitz",
-  Clash = "Clash",
   ClassicConstructed = "Classic Constructed",
   Draft = "Draft",
   GoldenAge = "Golden Age",

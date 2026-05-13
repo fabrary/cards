@@ -12,7 +12,6 @@ import {
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
-import { clashBannedCards, clashLegalOverrides } from "./clash";
 import { SPECIAL_USE_PROMOS } from "./special-use-promos";
 import { goldenAgeBannedCards } from "./golden-age";
 
@@ -33,24 +32,7 @@ const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = [
 ];
 
 const livingLegendBannedCards = ["Kraken's Aethervein"];
-const RARITIES_NOT_ALLOWED_IN_COMMONER = [
-  Rarity.SuperRare,
-  Rarity.Majestic,
-  Rarity.Legendary,
-  Rarity.Marvel,
-];
-const RARITIES_ALLOWED_IN_COMMONER = [
-  Rarity.Basic,
-  Rarity.Token,
-  Rarity.Common,
-  Rarity.Rare,
-];
-const RARITIES_ALLOWED_IN_CLASH = [
-  Rarity.Basic,
-  Rarity.Token,
-  Rarity.Common,
-  Rarity.Rare,
-];
+
 const RARITIES_ALLOWED_IN_SILVER_AGE = [
   Rarity.Basic,
   Rarity.Token,
@@ -60,7 +42,6 @@ const RARITIES_ALLOWED_IN_SILVER_AGE = [
 
 const YOUNG_HERO_FORMATS = [
   Format.Blitz,
-  Format.Clash,
   Format.Draft,
   Format.Sealed,
   Format.SilverAge,
@@ -132,34 +113,6 @@ export const getLegalFormats = (
     ].includes(format);
     if (isCCFormat) {
       if (!classicConstructedLegal || isAYoungHero) {
-        isLegalPerFormat = false;
-      }
-    }
-
-    const isClashFormat = format === Format.Clash;
-    if (isClashFormat) {
-      const isBanned = clashBannedCards.includes(card.name);
-      const isNotTooRare =
-        rarities.some((rarity) => RARITIES_ALLOWED_IN_CLASH.includes(rarity)) ||
-        rarities.every((rarity) => rarity === Rarity.Promo);
-      const isMentor = types.includes(Type.Mentor);
-      const isSpecialization =
-        keywords.includes(Keyword.Specialization) ||
-        clashLegalOverrides.some(
-          (override) =>
-            override.card === card.name && override.specializations.length > 0,
-        );
-      const isWeapon = types.includes(Type.Weapon);
-
-      const isAllowed =
-        !isBanned &&
-        (isNotTooRare ||
-          isMentor ||
-          isSpecialization ||
-          isWeapon ||
-          isAYoungHero);
-
-      if (!isAllowed) {
         isLegalPerFormat = false;
       }
     }
@@ -275,44 +228,6 @@ export const getLegalFormats = (
   legalFormats.sort();
 
   return legalFormats;
-};
-
-export const getLegalOverrides = (
-  {
-    name,
-  }: {
-    name: string;
-  },
-  defaultLegalHeroes: Hero[],
-): LegalOverride[] | undefined => {
-  const matchingClashOverride = clashLegalOverrides.find(
-    ({ card }) => card === name,
-  );
-
-  if (matchingClashOverride) {
-    const legalHeroes: Hero[] =
-      matchingClashOverride.specializations.length > 0
-        ? matchingClashOverride.specializations
-        : defaultLegalHeroes.filter(
-            (hero) => !matchingClashOverride.bans.includes(hero),
-          );
-
-    const legalHeroesAreTheSame =
-      defaultLegalHeroes.sort().join("-") === legalHeroes.sort().join("-");
-
-    if (legalHeroesAreTheSame) {
-      return undefined;
-    } else {
-      return [
-        {
-          format: Format.Clash,
-          heroes: legalHeroes,
-        },
-      ];
-    }
-  } else {
-    return undefined;
-  }
 };
 
 const releaseInfoForLimitedFormat = releases.filter(
@@ -443,34 +358,6 @@ export const getConfirmedLegalFormats = ({
       const isAnException = SILVER_AGE_LEGAL_CARD_EXCEPTIONS.includes(name);
 
       const isAllowed = isNotTooRare || isAnException;
-      if (!isAllowed) {
-        isConfirmedLegal = false;
-      }
-    }
-
-    const isClashFormat = format === Format.Clash;
-    if (isClashFormat) {
-      const isBanned = clashBannedCards.includes(name);
-      const isNotTooRare =
-        rarities.some((rarity) => RARITIES_ALLOWED_IN_CLASH.includes(rarity)) ||
-        rarities.every((rarity) => rarity === Rarity.Promo);
-      const isMentor = types.includes(Type.Mentor);
-      const isSpecialization =
-        keywords?.includes(Keyword.Specialization) ||
-        clashLegalOverrides.some(
-          (override) =>
-            override.card === name && override.specializations.length > 0,
-        );
-      const isWeapon = types.includes(Type.Weapon);
-
-      const isAllowed =
-        !isBanned &&
-        (isNotTooRare ||
-          isMentor ||
-          isSpecialization ||
-          isWeapon ||
-          isAYoungHero);
-
       if (!isAllowed) {
         isConfirmedLegal = false;
       }

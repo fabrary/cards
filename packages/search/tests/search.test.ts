@@ -167,21 +167,6 @@ describe("Card search", () => {
         searchTerms: ["!legal:cc", "-legal:cc", "!l:cc", "-l:cc"],
       },
     ],
-    [
-      "l:clash",
-      {
-        percent: 55,
-        searchTerms: ["legal:clash", "l:clash"],
-      },
-    ],
-    [
-      "!l:clash",
-      {
-        percent: 45,
-        lessThan: true,
-        searchTerms: ["!legal:clash", "-legal:clash", "!l:clash", "-l:clash"],
-      },
-    ],
 
     // Classes
     [
@@ -228,11 +213,8 @@ describe("Card search", () => {
     ['variation:"full art" foil:cold'],
     ["legal:blitz type:hero", "l:blitz t:hero"],
     ["legal:ira", "l:ira"],
-    ["legal:emperor,clash cnc"],
     ["legal:shiyana", "l:shiyana"],
     ["legal:shiyana keyword:specialization", "l:shiyana k:specialization"],
-    ["legal:shiyana,clash arknight ascendancy"],
-    ["legal:prism,clash figment"],
     ["legal:boltyn"],
     ["legal:emperor"],
     ["legal:emperor cnc"],
@@ -250,8 +232,6 @@ describe("Card search", () => {
       'legal:benji power:<=2 keyword:"go again"',
       'l:benji pow:<=2 k:"go again"',
     ],
-    ["legal:briar,clash rosetta thorn"],
-    ,
   ];
   it.each(hasQuantity)("Gets cards for %s", (...searchTerms) => {
     for (const searchTerm of searchTerms) {
@@ -285,25 +265,6 @@ describe("Card search", () => {
       randomizeCapitalization(searchTerm as string),
     );
     expect(searchResults.length).toBeGreaterThan(0);
-  });
-
-  const hasNoQuantity = [
-    [
-      "legal:ira,clash zephyr needle",
-      "legal:shiyana,clash figment",
-      "legal:shiyana,clash cnc",
-      "legal:prism,clash dread scythe",
-      "legal:chane,clash rosetta thorn",
-      "legal:shiyana,clash rosetta thorn",
-    ],
-  ];
-  it.each(hasNoQuantity)("Gets zero cards for %s", (...searchTerms) => {
-    for (const searchTerm of searchTerms) {
-      const { searchResults } = cardSearch.search(
-        randomizeCapitalization(searchTerm as string),
-      );
-      expect(searchResults.length).toEqual(0);
-    }
   });
 
   const firstCards = [["lightning press", "lightning-press-red"]];

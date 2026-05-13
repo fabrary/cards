@@ -418,21 +418,6 @@ const getSearchCriteria = (text: string): string[] => {
   return searchCriteria;
 };
 
-export interface SpecialConditions {
-  isClash: boolean;
-  // heroes: Hero[];
-}
-
-const specialConditionHeroes = [
-  Hero.Briar,
-  Hero.Brutus,
-  Hero.Emperor,
-  Hero.Prism,
-  Hero.Shiyana,
-  Hero.Taylor,
-  Hero.Yorick,
-];
-
 export const getKeywordsAndAppliedFiltersFromText = (
   text: string,
   cards: Card[],
@@ -450,7 +435,6 @@ export const getKeywordsAndAppliedFiltersFromText = (
     treatments: Treatment[];
   };
   keywords: string[];
-  specialConditions?: SpecialConditions;
 } => {
   let expandedText = text.trim().toLowerCase();
 
@@ -495,7 +479,6 @@ export const getKeywordsAndAppliedFiltersFromText = (
   let rarities: Rarity[] = [];
   let releases: Release[] = [];
   let treatments: Treatment[] = [];
-  let specialConditions: SpecialConditions = { isClash: false };
 
   for (const criteria of searchCriteria) {
     if (hasFilter(criteria)) {
@@ -531,9 +514,6 @@ export const getKeywordsAndAppliedFiltersFromText = (
           //   }
           // }
           // }
-          if (unparsedFilterValue.includes("clash")) {
-            specialConditions.isClash = true;
-          }
         }
         appliedFilters.push(
           ...getMetaFilters(
@@ -680,7 +660,6 @@ export const getKeywordsAndAppliedFiltersFromText = (
       treatments,
     },
     keywords,
-    specialConditions,
   };
 };
 
