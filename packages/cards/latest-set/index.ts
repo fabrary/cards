@@ -5461,6 +5461,68 @@ When this hits a hero, deal 1 arcane damage to them.`,
   
   
   },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "stormshard-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN190",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Stormshard",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "OMN190",
+      image: "OMN190",
+      
+      
+      print: "OMN190",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["FAB478","OMN190"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
+    specialImage: "OMN190",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `You may destroy a Lightning Flow you control rather than pay this card's {r} cost.
+
+Target Lightning attack gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Jessketchin"],
     cardIdentifier: "stun-star-blue",
     classes: [Class.Ninja],
