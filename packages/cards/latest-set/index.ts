@@ -1227,6 +1227,78 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "caress-of-the-reaper-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN087",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Caress of the Reaper",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "OMN087",
+      image: "OMN087",
+      
+      
+      print: "OMN087",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.Cold,
+      identifier: "OMN087",
+      image: "OMN087-CF",
+      
+      
+      print: "OMN087-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN087"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN087-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Whenever this deals damage to a hero, destroy target aura they control.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Amirul HHF"],
     cardIdentifier: "circular-flowtide-yellow",
     classes: [Class.Illusionist],
