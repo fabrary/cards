@@ -343,6 +343,186 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
   
   
   },{
+    artists: ["János Brumár"],
+    cardIdentifier: "arcanic-cunning-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN088",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Arcanic Cunning",
+    printings: [{
+        artists: ["János Brumár"],
+      
+      identifier: "OMN088",
+      image: "OMN088",
+      
+      
+      print: "OMN088",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN088"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN088",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `While this is attacking, defending, or on the stack, if you would be dealt arcane damage, prevent 1 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["János Brumár"],
+    cardIdentifier: "arcanic-cunning-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN089",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Arcanic Cunning",
+    printings: [{
+        artists: ["János Brumár"],
+      
+      identifier: "OMN089",
+      image: "OMN089",
+      
+      
+      print: "OMN089",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN089"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN089",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `While this is attacking, defending, or on the stack, if you would be dealt arcane damage, prevent 1 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["János Brumár"],
+    cardIdentifier: "arcanic-cunning-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN090",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Arcanic Cunning",
+    printings: [{
+        artists: ["János Brumár"],
+      
+      identifier: "OMN090",
+      image: "OMN090",
+      
+      
+      print: "OMN090",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN090"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN090",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `While this is attacking, defending, or on the stack, if you would be dealt arcane damage, prevent 1 of that damage.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Reinaldo Indrajaya"],
     cardIdentifier: "arcanic-reproach-blue",
     classes: [Class.Runeblade],

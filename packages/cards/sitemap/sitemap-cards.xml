@@ -746,6 +746,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/arcanic-cunning-red</loc>
+    <lastmod>2026-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/arcanic-cunning-yellow</loc>
+    <lastmod>2026-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/arcanic-cunning-blue</loc>
+    <lastmod>2026-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/arcanic-reproach-blue</loc>
     <lastmod>2026-05-05</lastmod>
     <priority>0.5</priority>
