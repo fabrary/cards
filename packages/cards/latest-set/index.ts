@@ -585,6 +585,80 @@ At the start of your action phase, destroy an aura you control.`,
   
   
   },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "astral-bridge-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN098",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Astral Bridge",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "OMN098",
+      image: "OMN098",
+      
+      
+      print: "OMN098",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Cold,
+      identifier: "OMN098",
+      image: "OMN098-CF",
+      
+      
+      print: "OMN098-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN098"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN098-CF",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Put the top card of your deck into your graveyard. If it's an instant, you may play it this turn.
+
+**Starfall** - If an instant has been put into your graveyard this turn, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Sariya Asavametha"],
     cardIdentifier: "astral-strike-red",
     classes: [Class.NotClassed],
