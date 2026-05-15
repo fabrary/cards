@@ -3003,6 +3003,80 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "fractal-creation-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN040",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Fractal Creation",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "OMN040",
+      image: "OMN040",
+      
+      
+      print: "OMN040",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Cold,
+      identifier: "OMN040",
+      image: "OMN040-CF",
+      
+      
+      print: "OMN040-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN040"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN040-CF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this hits, you may create a token copy of an aura you control.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "fraying-lifeforce-red",
     classes: [Class.Illusionist],

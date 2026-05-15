@@ -5796,6 +5796,7 @@ OSCCardDB = {
   ["OMN028"] = { name = "Auric Shards (2)", text = "When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +3{p}.\n\n**Ward 1**", keywords = "Ward", types = "Instant"},
   ["OMN029"] = { name = "Auric Shards (3)", text = "When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +2{p}.\n\n**Ward 1**", keywords = "Ward", types = "Instant"},
   ["OMN033"] = { name = "Circular Flowtide (2)", text = "When this leaves the arena, create a Lightning Flow token.\n\n**Ward 2**", keywords = "Ward", types = "Instant"},
+  ["OMN040"] = { name = "Fractal Creation (3)", text = "When this hits, you may create a token copy of an aura you control.\n\n**Fragment**", keywords = "", types = "Action"},
   ["OMN047"] = { name = "Aurora, Legacy of Tempest", text = "**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.", keywords = "", types = "Hero"},
   ["OMN048"] = { name = "Aurora, Emissary of Lightning", text = "**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.", keywords = "", types = "Hero"},
   ["OMN049"] = { name = "Scorpio, Comet Tail", text = "**Action** - {t}: **Attack**. Activate this only if you control a Lightning attack.\n\nWhen this hits a hero, deal 1 arcane damage to them.", keywords = "", types = "Weapon"},
