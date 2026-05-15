@@ -2523,7 +2523,7 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
     
     functionalText: `Your next Draconic attack this turn gets +2{p} and costs {r} less to play or activate.
 
-While this is in your graveyard, at the start of your turn, you may banish 2 cards name Draco Fire from your graveyard. If you do, gain {r}.`,
+While this is in your graveyard, at the start of your turn, you may banish 2 cards named Draco Fire from your graveyard. If you do, gain {r}.`,
     
     
     
@@ -2990,6 +2990,68 @@ When this hits, create a Lightning Flow token.`,
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "fraying-lifeforce-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN007",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Fraying Lifeforce",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN007",
+      image: "OMN007",
+      
+      
+      print: "OMN007",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN007"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN007",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, gain 1{h}.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 7,
     
     
     

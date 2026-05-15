@@ -14,7 +14,9 @@ OMN005,OMN,Flicker Reality,Blue,3,0,,,,,,"Lightning, Illusionist, Instant, Aura"
 OMN006,OMN,Blink of an Eye,Red,1,2,7,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, you may banish a Lightning aura permanent you control with no holo counters, then return it to the arena with a holo counter.
 
 **Fragment**",Lightning Illusionist Action - Attack,,,,,R,,,Amtepra,,,OMN006,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN006.webp,,,,,,Amtepra,,,OMN006,,,,,,,Amtepra,,,OMN006,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN007,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN007,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN007.webp,,,,,,,,,OMN007,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN007.webp,,,,,,,,,OMN007,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN007,OMN,Fraying Lifeforce,Red,1,2,7,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, gain 1{h}.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,R,,,Carlos Cruchaga,,,OMN007,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN007.webp,,,,,,Carlos Cruchaga,,,OMN007,,,,,,,Carlos Cruchaga,,,OMN007,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN008,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN008.webp,,,,,,,,,OMN008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN008.webp,,,,,,,,,OMN008,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN009,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp,,,,,,,,,OMN009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp,,,,,,,,,OMN009,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN010,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN010.webp,,,,,,,,,OMN010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN010.webp,,,,,,,,,OMN010,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -337,17 +339,17 @@ OMN230,OMN,Pile Driver,,,,6,,,,,"Guardian, Weapon, Log, 2H",,"Betsy Specializati
 
 When this attacks, you may **wager** a Gold token with the defending hero.",Guardian Weapon - Log (2H),,,No,,M,,,Henrique Lindner,Yes,,OMN230,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN230.webp,,,,,,Henrique Lindner,,,OMN230,,,,,,,Henrique Lindner,,,OMN230,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN231,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN231,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN231.webp,,,,,,,,,OMN231,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN231.webp,,,,,,,,,OMN231,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN232,OMN,Evasive Nageboshi,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,"Legendary, Go again",,,,,,"**Legendary**
+OMN232,OMN,Evasive Nageboshi,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,Legendary,Action,"Attack, Go again",,,,"**Legendary**
 
 **Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
 
 This can't be defended by equipment or reaction cards.",Ninja Instant - Shuriken Item,,,No,,M,,,Jessketchin,Yes,,OMN232,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232.webp,,,M,C,,Jessketchin,,,OMN232,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN232-CF.webp,,,,,,Jessketchin,,,OMN232,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN233,OMN,Razor Ring,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,"Legendary, Go again",,,,,,"**Legendary**
+OMN233,OMN,Razor Ring,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,Legendary,Action,"Attack, Go again",,,,"**Legendary**
 
 **Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
 
 When this hits a hero, the next action card they defend with this combat chain gets -1{d} until end of turn.",Ninja Instant - Shuriken Item,,,No,,M,,,Jessketchin,Yes,,OMN233,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233.webp,,,M,C,,Jessketchin,,,OMN233,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN233-CF.webp,,,,,,Jessketchin,,,OMN233,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN234,OMN,Stun Star,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,"Legendary, Go again",,,,,,"**Legendary**
+OMN234,OMN,Stun Star,Blue,3,0,1,2,,,,"Ninja, Instant, Shuriken, Item",,Legendary,Action,"Attack, Go again",,,,"**Legendary**
 
 **Action** - {r}, {t}, destroy this when the combat chain closes: **Attack**. **Go again**
 
@@ -374,7 +376,7 @@ Whenever a card is put into your soul, gain 1{h}.
 At the start of your turn, put this into your soul.",Light Action - Aura,,,No,,M,,,Ina Wong,Yes,,OMN244,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN244.webp,,,M,C,EA,Ina Wong,,,OMN244,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN244-CF.webp,,,,,,Ina Wong,,,OMN244,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN245,OMN,Draco Fire,Red,1,0,,,,,,"Draconic, Instant",,,,,,,,"Your next Draconic attack this turn gets +2{p} and costs {r} less to play or activate.
 
-While this is in your graveyard, at the start of your turn, you may banish 2 cards name Draco Fire from your graveyard. If you do, gain {r}.",Draconic Instant,,,No,,M,,,Harry Wyatt,Yes,,OMN245,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN245.webp,,,,,,Harry Wyatt,,,OMN245,,,,,,,Harry Wyatt,,,OMN245,,,,,,,,,,,,,,,,,,,,,,,,,
+While this is in your graveyard, at the start of your turn, you may banish 2 cards named Draco Fire from your graveyard. If you do, gain {r}.",Draconic Instant,,,No,,M,,,Harry Wyatt,Yes,,OMN245,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN245.webp,,,,,,Harry Wyatt,,,OMN245,,,,,,,Harry Wyatt,,,OMN245,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN246,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN246,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN246.webp,,,,,,,,,OMN246,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN246.webp,,,,,,,,,OMN246,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN247,OMN,Lionclaw Maul,,,,1,,,,,"Reviled, Guardian, Weapon, Hammer, Axe, 1H",,The Crowd Boos,Action,Attack,,,,"**Action** - {r}{r}, {t}: **Attack**
 

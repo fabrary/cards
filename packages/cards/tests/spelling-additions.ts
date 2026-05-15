@@ -290,6 +290,7 @@ export const ADDITIONS = [
   "levia",
   "ley",
   "leyline",
+  "lifeforce",
   "lightsail",
   "limpit",
   "lionclaw",
