@@ -1627,6 +1627,248 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "conflicting-thoughts-red",
+    classes: [Class.Generic],
+    defaultImage: "OMN219",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Conflicting Thoughts",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "OMN219",
+      image: "OMN219",
+      
+      
+      print: "OMN219",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM175","OMN219"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
+    specialImage: "OMN219",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "conflicting-thoughts-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OMN220",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Conflicting Thoughts",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "OMN220",
+      image: "OMN220",
+      
+      
+      print: "OMN220",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN220"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN220",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Pavel Rtishchev (Klaher)"],
+    cardIdentifier: "conflicting-thoughts-blue",
+    classes: [Class.Generic],
+    defaultImage: "OMN221",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Conflicting Thoughts",
+    printings: [{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "OMN221",
+      image: "OMN221",
+      
+      
+      print: "OMN221",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN221"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN221",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks, **opt 1**.`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "constella-uplift-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN132",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Constella Uplift",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "OMN132",
+      image: "OMN132",
+      
+      
+      print: "OMN132",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM158","OMN132"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
+    specialImage: "OMN132",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `{u} a staff you control.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Untap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "core-reaction-red",
     classes: [Class.Wizard],
@@ -4797,6 +5039,192 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
   young: true
   },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "path-of-same-ends-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN065",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Path of Same Ends",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "OMN065",
+      image: "OMN065",
+      
+      
+      print: "OMN065",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["GEM155","OMN065"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
+    specialImage: "OMN065",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks a hero, deal 1 arcane damage to them. If damage is dealt this way, this gets **go again**.
+
+**Instant** - {r}: This gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "path-of-same-ends-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN066",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Path of Same Ends",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "OMN066",
+      image: "OMN066",
+      
+      
+      print: "OMN066",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN066"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN066",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks a hero, deal 1 arcane damage to them. If damage is dealt this way, this gets **go again**.
+
+**Instant** - {r}: This gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "path-of-same-ends-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN067",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Path of Same Ends",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "OMN067",
+      image: "OMN067",
+      
+      
+      print: "OMN067",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN067"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN067",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks a hero, deal 1 arcane damage to them. If damage is dealt this way, this gets **go again**.
+
+**Instant** - {r}: This gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "pile-driver",
     classes: [Class.Guardian],
@@ -5870,6 +6298,68 @@ When this hits a hero, {t} them.`,
     power: 1,
     
     shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "swift-pickup-red",
+    classes: [Class.Ninja],
+    defaultImage: "OMN231",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
+    name: "Swift Pickup",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "OMN231",
+      image: "OMN231",
+      isExpansionSlot: true,
+      
+      print: "OMN231",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN231"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN231",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ninja Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may put a shuriken item from your graveyard on the bottom of your deck. If you do, this gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
     
     
     
