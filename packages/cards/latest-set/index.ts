@@ -3077,6 +3077,78 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Vito Febrianno"],
+    cardIdentifier: "fortitude-of-anvilheim",
+    classes: [Class.Guardian,Class.Warrior],
+    defaultImage: "OMN242-CF",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Jarl,Hero.Kassai,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Olympia,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Fortitude of Anvilheim",
+    printings: [{
+        artists: ["Vito Febrianno"],
+      foiling: Foiling.Cold,
+      identifier: "OMN242",
+      image: "OMN242-CF",
+      isExpansionSlot: true,
+      
+      print: "OMN242-Cold-Extended Art",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Vito Febrianno"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN242",
+      image: "OMN242-RF",
+      isExpansionSlot: true,
+      
+      print: "OMN242-Rainbow-Extended Art",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OMN242"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN242-CF",
+    subtypes: [Subtype.OffHand],
+    types: [Type.Equipment],
+    typeText: "Guardian / Warrior Equipment - Off-Hand",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `**Attack Reaction** - {r}{r}, {t} your hero, destroy this: Return an action card defending a weapon attack to its owner's hand. **Guardwell**`,
+    
+    
+    
+    
+    keywords: [Keyword.Guardwell],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "fractal-creation-blue",
     classes: [Class.Illusionist],
