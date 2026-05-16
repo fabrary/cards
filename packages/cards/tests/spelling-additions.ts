@@ -27,6 +27,7 @@ export const ADDITIONS = [
   "aesir",
   "aetherbloom",
   "aetherize",
+  "aethersling",
   "aetherstorm",
   "aethertide",
   "aethervein",

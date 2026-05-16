@@ -97,6 +97,68 @@
   
   
   },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "aethersling-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN134",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
+    name: "Aethersling",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "OMN134",
+      image: "OMN134",
+      
+      
+      print: "OMN134",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN134"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN134",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Wizard Action",
+
+    arcane: 4,
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Deal 4 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "aphrodias",
     classes: [Class.Illusionist],
@@ -5068,7 +5130,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     types: [Type.Action],
     typeText: "Lightning Runeblade Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 0,
     defense: 2,
@@ -5130,7 +5192,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     types: [Type.Action],
     typeText: "Lightning Runeblade Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 0,
     defense: 2,
@@ -5192,7 +5254,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     types: [Type.Action],
     typeText: "Lightning Runeblade Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 0,
     defense: 2,
