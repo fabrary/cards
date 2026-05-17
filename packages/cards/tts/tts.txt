@@ -5846,6 +5846,7 @@ OSCCardDB = {
   ["OMN134"] = { name = "Aethersling (1)", text = "Deal 4 arcane damage to any target.\n\nIf this deals damage, you may {t} your hero. If you do, this gets **go again**.", keywords = "Go again", types = "Action"},
   ["OMN136"] = { name = "Turn to Mindfire (1)", text = "Deal 5 arcane damage to any target.\n\nIf this deals damage, you may {t} your hero. If you do, create a Ponder token.", keywords = "", types = "Action"},
   ["OMN140"] = { name = "Third Eye of the Sphinx", text = "**Instant** - {r}, {t}, destroy a Ponder token you control: Draw a card.\n\n**Spellvoid 1**\n\n**Blade Break**", keywords = "Blade Break,Spellvoid", types = "Equipment"},
+  ["OMN141"] = { name = "Plutonic Starplate", text = "The first time you play a Lightning card during each of your opponent's turns, gain {r}.\n\n**Arcane Barrer 1**", keywords = "Arcane Barrier", types = "Equipment"},
   ["OMN145"] = { name = "Astral Strike (1)", text = "When this attacks, if you've destroyed a Lightning Flow this turn, choose 1;\n\n- Draw a card.\n- This gets +2{p}.\n- This gets **go again**.", keywords = "Go again", types = "Action"},
   ["OMN146"] = { name = "Flowstate Embodiment (1)", text = "Whenever you play an instant card this chain link, create an Embodiment of Lightning or Lightning Flow token.", keywords = "", types = "Action"},
   ["OMN147"] = { name = "Static Shelter (2)", text = "When this defends, you may pay {r}. If you do, create a Lightning Flow token.", keywords = "", types = "Defense Reaction"},

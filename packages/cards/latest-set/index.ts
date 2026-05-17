@@ -5351,6 +5351,80 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
   
   },{
+    artists: ["Mario Wibisono"],
+    cardIdentifier: "plutonic-starplate",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN141-CF",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Taylor,Hero.Zyggy],
+    name: "Plutonic Starplate",
+    printings: [{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Cold,
+      identifier: "OMN141",
+      image: "OMN141-CF",
+      
+      
+      print: "OMN141-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN141",
+      image: "OMN141-RF",
+      
+      
+      print: "OMN141-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["OMN141"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN141-CF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Lightning Equipment - Chest",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `The first time you play a Lightning card during each of your opponent's turns, gain {r}.
+
+**Arcane Barrer 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "prophetic-quickstep-yellow",
     classes: [Class.Runeblade],
