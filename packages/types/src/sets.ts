@@ -1816,6 +1816,7 @@ export const releases: ReleaseInfo[] = [
       [Hero.Broscilio]: Hero.Oscilio,
     },
     languages: ALL_LANGUAGES,
+    raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.OmensOfTheThirdAge,
     relatedReleases: [],
     releaseDate: "2026-06-05 12:00",
