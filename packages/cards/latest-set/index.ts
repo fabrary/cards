@@ -3266,34 +3266,10 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       set: Release.OmensOfTheThirdAge,
       
       
-    },{
-        artists: ["Carlos Cruchaga"],
-      
-      identifier: "OMN019",
-      image: "OMN019",
-      
-      
-      print: "OMN019",
-      rarity: Rarity.Common,
-      set: Release.OmensOfTheThirdAge,
-      
-      
-    },{
-        artists: ["Carlos Cruchaga"],
-      
-      identifier: "OMN020",
-      image: "OMN020",
-      
-      
-      print: "OMN020",
-      rarity: Rarity.Common,
-      set: Release.OmensOfTheThirdAge,
-      
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AZS008","OMN018","OMN019","OMN020"],
+    setIdentifiers: ["AZS008","OMN018"],
     sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
     specialImage: "OMN018",
     subtypes: [Subtype.Attack],
@@ -3315,11 +3291,135 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Rainbow],
   
     
     pitch: 1,
     power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "ebbing-arcstride-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN019",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Ebbing Arcstride",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN019",
+      image: "OMN019",
+      
+      
+      print: "OMN019",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN019"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN019",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, it gets **go again**.
+
+**Fragment**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "ebbing-arcstride-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN020",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Ebbing Arcstride",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN020",
+      image: "OMN020",
+      
+      
+      print: "OMN020",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS022","OMN020"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN020",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, it gets **go again**.
+
+**Fragment**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
     
     
     
