@@ -2975,6 +2975,66 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
+    artists: ["Alexandra Malygina","Sam Yang"],
+    cardIdentifier: "cracked-bauble-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OMN226",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Cracked Bauble",
+    printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "OMN226",
+      image: "OMN226",
+      
+      
+      print: "OMN226",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["ARC218","CRU195","ELE237","HNT245","HVY244","LGS083","LGS227","MON306","MST224","OMN226","OUT238","ROS238","SEA246","SUP243","UPR224","WTR224"],
+    sets: [Release.ArcaneRising,Release.CrucibleOfWar,Release.HeavyHitters,Release.HighSeas,Release.Monarch,Release.OmensOfTheThirdAge,Release.Outsiders,Release.PartTheMistveil,Release.Promos,Release.Rosetta,Release.SuperSlam,Release.TalesOfAria,Release.TheHunted,Release.Uprising,Release.WelcomeToRathe],
+    specialImage: "OMN226",
+    subtypes: [],
+    types: [Type.Resource],
+    typeText: "Generic Resource",
+
+    
+    
+    
+    
+    
+    functionalText: `*(A player may add any number of Cracked Baubles to their card-pool in sealed deck or booster draft formats.)*`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Brian Madya Narendra"],
     cardIdentifier: "crackle-from-afar-blue",
     classes: [Class.Illusionist],
@@ -3566,6 +3626,66 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "embodiment-of-lightning",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN202",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Florian,Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Oscilio,Hero.Shiyana,Hero.Starvo,Hero.Terra,Hero.Verdance,Hero.Yorick,Hero.Zyggy],
+    name: "Embodiment of Lightning",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "OMN202",
+      image: "OMN202",
+      
+      
+      print: "OMN202",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["AST028","AUA027","AUR027","AZS029","BRI002","DTD195","ELE110","FAB119","OMN202","OSC027","ROS026"],
+    sets: [Release.FirstStrikeAurora,Release.ArmoryDeckAurora,Release.ArmoryDeckZyggy,Release.AuroraBlitzDeck,Release.BriarBlitzDeck,Release.DuskTillDawn,Release.OmensOfTheThirdAge,Release.OscilioBlitzDeck,Release.Promos,Release.Rosetta,Release.TalesOfAria],
+    specialImage: "OMN202",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Elemental Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `When you play an attack action card, destroy this and the attack gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Elemental],
   
   
   },{
@@ -6170,7 +6290,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     types: [Type.Action],
     typeText: "Lightning Illusionist Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 2,
     defense: 3,
@@ -6232,7 +6352,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     types: [Type.Action],
     typeText: "Lightning Illusionist Action - Attack",
 
-    
+    arcane: 1,
     
     cost: 2,
     defense: 3,
@@ -6262,6 +6382,66 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Henrique Lindner","Tomi Ong"],
+    cardIdentifier: "ponder",
+    classes: [Class.Generic],
+    defaultImage: "OMN225",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Ponder",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "OMN225",
+      image: "OMN225",
+      
+      
+      print: "OMN225",
+      rarity: Rarity.Basic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["AZS031","DYN244","FAB489","LGS128","OMN225","OSC029","OUT237","ROS237","UZU031"],
+    sets: [Release.ArmoryDeckZyggy,Release.Dynasty,Release.OmensOfTheThirdAge,Release.OscilioBlitzDeck,Release.Outsiders,Release.Promos,Release.Rosetta,Release.UzuriBlitzDeck],
+    specialImage: "OMN225",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Generic Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `At the beginning of your end phase, destroy this and draw a card.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
