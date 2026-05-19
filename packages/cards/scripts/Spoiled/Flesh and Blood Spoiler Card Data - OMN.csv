@@ -17,10 +17,18 @@ OMN006,OMN,Blink of an Eye,Red,1,2,7,3,,,,"Lightning, Illusionist, Action, Attac
 OMN007,OMN,Fraying Lifeforce,Red,1,2,7,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, gain 1{h}.
 
 **Fragment**",Lightning Illusionist Action - Attack,,,,,R,,,Carlos Cruchaga,,,OMN007,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN007.webp,,,,,,Carlos Cruchaga,,,OMN007,,,,,,,Carlos Cruchaga,,,OMN007,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN008,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN008.webp,,,,,,,,,OMN008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN008.webp,,,,,,,,,OMN008,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN009,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp,,,,,,,,,OMN009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp,,,,,,,,,OMN009,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN010,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN010.webp,,,,,,,,,OMN010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN010.webp,,,,,,,,,OMN010,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN011,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN011.webp,,,,,,,,,OMN011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN011.webp,,,,,,,,,OMN011,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN008,OMN,Scattering Conflux,Red,1,2,7,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, create an Embodiment of Lightning token.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,R,,,Faizal Fikri,,,OMN008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN008.webp,,,,,,Faizal Fikri,,,OMN008,,,,,,,Faizal Fikri,,,OMN008,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN009,OMN,Polarus Pulse Ray,Red,1,2,7,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, deal 1 arcane damage to the defending hero.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,R,,,Tanapon Wachirakul,,,OMN009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN009.webp,,,,,,Tanapon Wachirakul,,,OMN009,,,,,,,Tanapon Wachirakul,,,OMN009,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN010,OMN,Polarus Pulse Ray,Yellow,2,2,6,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, deal 1 arcane damage to the defending hero.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,R,,,Tanapon Wachirakul,,,OMN010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN010.webp,,,,,,Tanapon Wachirakul,,,OMN010,,,,,,,Tanapon Wachirakul,,,OMN010,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN011,OMN,Polarus Pulse Ray,Blue,3,2,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, deal 1 arcane damage to the defending hero.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,R,,,Tanapon Wachirakul,,,OMN011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN011.webp,,,,,,Tanapon Wachirakul,,,OMN011,,,,,,,Tanapon Wachirakul,,,OMN011,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN012,OMN,Corrosive Space Dust,Red,1,1,,,,,1,"Lightning, Illusionist, Instant, Aura",,Ward X,,,,,,"When this leaves the arena, deal 1 arcane damage to target hero.
 
 **Ward X**, where X is 4 if this has a holo counter. Otherwise, X is 1.",Lightning Illusionist Instant - Aura,,,,,R,,,Mark Poole,,,OMN012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN012.webp,,,,,,Mark Poole,,,OMN012,,,,,,,Mark Poole,,,OMN012,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -39,9 +47,15 @@ OMN016,OMN,Cosmic Duality,Yellow,2,2,6,3,,,1,"Lightning, Illusionist, Action, At
 OMN017,OMN,Cosmic Duality,Blue,3,2,5,3,,,1,"Lightning, Illusionist, Action, Attack",,Fragment,Instant,,,,,"**Instant** - {r}, discard this: Deal 1 arcane damage to target hero. Create a Lightning Flow token.
 
 **Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,YDZ,,,OMN017,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN017.webp,,,,,,YDZ,,,OMN017,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN017.webp,,,,,,YDZ,,,OMN017,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN018,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN018,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN018.webp,,,,,,,,,OMN018,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN018.webp,,,,,,,,,OMN018,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN019,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN019,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN019.webp,,,,,,,,,OMN019,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN019.webp,,,,,,,,,OMN019,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN020,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN020,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN020.webp,,,,,,,,,OMN020,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN020.webp,,,,,,,,,OMN020,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN018,OMN,Ebbing Arcstride,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,"Go again, Fragment",,,,,,"Whenever this fragments, it gets **go again**.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Carlos Cruchaga,,,OMN018,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN018.webp,,,,,,Carlos Cruchaga,,,OMN018,,,,,,,Carlos Cruchaga,,,OMN018,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN019,OMN,Ebbing Arcstride,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,"Go again, Fragment",,,,,,"Whenever this fragments, it gets **go again**.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Carlos Cruchaga,,,OMN019,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN019.webp,,,,,,Carlos Cruchaga,,,OMN019,,,,,,,Carlos Cruchaga,,,OMN019,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN020,OMN,Ebbing Arcstride,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,"Go again, Fragment",,,,,,"Whenever this fragments, it gets **go again**.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Carlos Cruchaga,,,OMN020,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN020.webp,,,,,,Carlos Cruchaga,,,OMN020,,,,,,,Carlos Cruchaga,,,OMN020,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN021,OMN,Pulsing Cardia,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, gain {r}.
 
 **Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Esty Swandana,,,OMN021,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN021.webp,,,,,,Esty Swandana,,,OMN021,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN021.webp,,,,,,Esty Swandana,,,OMN021,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -51,9 +65,15 @@ OMN022,OMN,Pulsing Cardia,Yellow,2,0,5,3,,,,"Lightning, Illusionist, Action, Att
 OMN023,OMN,Pulsing Cardia,Blue,3,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, gain {r}.
 
 **Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Esty Swandana,,,OMN023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN023.webp,,,,,,Esty Swandana,,,OMN023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN023.webp,,,,,,Esty Swandana,,,OMN023,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN024,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN024,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN024.webp,,,,,,,,,OMN024,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN024.webp,,,,,,,,,OMN024,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN025,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN025,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN025.webp,,,,,,,,,OMN025,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN025.webp,,,,,,,,,OMN025,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN026,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN026.webp,,,,,,,,,OMN026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN026.webp,,,,,,,,,OMN026,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN024,OMN,Shattering Flowtide,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, create a Lightning Flow token.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Rio Sabda,,,OMN024,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN024.webp,,,,,,Rio Sabda,,,OMN024,,,,,,,Rio Sabda,,,OMN024,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN025,OMN,Shattering Flowtide,Yellow,2,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, create a Lightning Flow token.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Rio Sabda,,,OMN025,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN025.webp,,,,,,Rio Sabda,,,OMN025,,,,,,,Rio Sabda,,,OMN025,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN026,OMN,Shattering Flowtide,Blue,3,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, create a Lightning Flow token.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,C,,,Rio Sabda,,,OMN026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN026.webp,,,,,,Rio Sabda,,,OMN026,,,,,,,Rio Sabda,,,OMN026,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN027,OMN,Auric Shards,Red,1,1,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward 1,,,,,Fragment,"When this enters the arena, up to 1 target attack with fragment gets +1{p}. If this has a holo counter, instead the attack gets +4{p}.
 
 **Ward 1**",Lightning Illusionist Instant - Aura,,,,,C,,,Flora Silve,,,OMN027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN027.webp,,,,,,Flora Silve,,,OMN027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN027.webp,,,,,,Flora Silve,,,OMN027,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -69,18 +89,30 @@ OMN032,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN032,https://legendstory-production-s3
 OMN033,OMN,Circular Flowtide,Yellow,2,1,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward 2,,,,,,"When this leaves the arena, create a Lightning Flow token.
 
 **Ward 2**",Lightning Illusionist Instant - Aura,,,,,C,,,Amirul HHF,,,OMN033,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN033.webp,,,C,C,EA,Amirul HHF,,,OMN033,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN033-CF.webp,,,,,,Amirul HHF,,,OMN033,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN034,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN034,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034.webp,,,,,,,,,OMN034,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034.webp,,,,,,,,,OMN034,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN034,OMN,Elliptical Conflux,Yellow,2,1,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward 2,,,,,,"When this leaves the arena, create an Embodiment of Lightning token.
+
+**Ward 2**",Lightning Illusionist Instant - Aura,,,,,C,,,Surya Prasetya,,,OMN034,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034.webp,,,C,C,EA,Surya Prasetya,,,OMN034,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN034-CF.webp,,,,,,Surya Prasetya,,,OMN034,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN035,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN035,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN035.webp,,,,,,,,,OMN035,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN035.webp,,,,,,,,,OMN035,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN036,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN036,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036.webp,,,,,,,,,OMN036,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036.webp,,,,,,,,,OMN036,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN037,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN037,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037.webp,,,,,,,,,OMN037,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037.webp,,,,,,,,,OMN037,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN036,OMN,Crackle from Afar,Blue,3,0,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward 1,,,,,,"When this enters the arena, up to 1 target attack gets +1{p}.
+
+**Ward 1**",Lightning Illusionist Instant - Aura,,,,,C,,,Brian Madya Narendra,,,OMN036,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036.webp,,,C,C,EA,Brian Madya Narendra,,,OMN036,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN036-CF.webp,,,,,,Brian Madya Narendra,,,OMN036,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN037,OMN,Fleeing Starbreeze,Blue,3,0,,,,,,"Lightning, Illusionist, Instant, Aura",,Ward 1,,,,,,"When this enters the arena, up to 1 target attack gets **go again**.
+
+**Ward 1**",Lightning Illusionist Instant - Aura,,,,,C,,,Mark Poole,,,OMN037,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037.webp,,,C,C,EA,Mark Poole,,,OMN037,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN037-CF.webp,,,,,,Mark Poole,,,OMN037,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN038,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN038,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN038.webp,,,,,,,,,OMN038,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN038.webp,,,,,,,,,OMN038,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN039,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN039,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN039.webp,,,,,,,,,OMN039,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN039.webp,,,,,,,,,OMN039,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN040,OMN,Fractal Creation,Blue,3,3,6,3,,,,"Illusionist, Action, Attack",,Fragment,,,,,,"When this hits, you may create a token copy of an aura you control.
 
 **Fragment**",Illusionist Action - Attack,,,No,,M,,,Kevin Sidharta,,,OMN040,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN040.webp,,,M,C,EA,Kevin Sidharta,,,OMN040,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN040-CF.webp,,,,,,Kevin Sidharta,,,OMN040,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN041,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN041,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN041.webp,,,,,,,,,OMN041,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN041.webp,,,,,,,,,OMN041,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN042,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN042,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN042.webp,,,,,,,,,OMN042,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN042.webp,,,,,,,,,OMN042,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN043,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN043,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN043.webp,,,,,,,,,OMN043,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN043.webp,,,,,,,,,OMN043,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN041,OMN,Clear Conscience,Red,1,3,8,3,,,,"Illusionist, Action, Attack",,Fragment,,,,,,"When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
+
+**Fragment**",Illusionist Action - Attack,,,,,R,,,Nailsen Ivanderlie,,,OMN041,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN041.webp,,,,,,Nailsen Ivanderlie,,,OMN041,,,,,,,Nailsen Ivanderlie,,,OMN041,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN042,OMN,Clear Conscience,Yellow,2,3,7,3,,,,"Illusionist, Action, Attack",,Fragment,,,,,,"When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
+
+**Fragment**",Illusionist Action - Attack,,,,,R,,,Nailsen Ivanderlie,,,OMN042,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN042.webp,,,,,,Nailsen Ivanderlie,,,OMN042,,,,,,,Nailsen Ivanderlie,,,OMN042,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN043,OMN,Clear Conscience,Blue,3,3,6,3,,,,"Illusionist, Action, Attack",,Fragment,,,,,,"When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
+
+**Fragment**",Illusionist Action - Attack,,,,,R,,,Nailsen Ivanderlie,,,OMN043,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN043.webp,,,,,,Nailsen Ivanderlie,,,OMN043,,,,,,,Nailsen Ivanderlie,,,OMN043,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN044,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN044,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN044.webp,,,,,,,,,OMN044,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN044.webp,,,,,,,,,OMN044,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN045,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN045,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN045.webp,,,,,,,,,OMN045,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN045.webp,,,,,,,,,OMN045,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN046,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN046,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN046.webp,,,,,,,,,OMN046,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN046.webp,,,,,,,,,OMN046,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -306,7 +338,9 @@ OMN195,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN195,https://legendstory-production-s3
 OMN196,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN196,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN196.webp,,,,,,,,,OMN196,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN196.webp,,,,,,,,,OMN196,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN197,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN197,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN197.webp,,,,,,,,,OMN197,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN197.webp,,,,,,,,,OMN197,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN198,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN198,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN198.webp,,,,,,,,,OMN198,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN198.webp,,,,,,,,,OMN198,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN199,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN199,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199.webp,,,,,,,,,OMN199,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199.webp,,,,,,,,,OMN199,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN199,OMN,Sigil of Astral Flow,Blue,3,0,,,,,,"Lightning, Instant, Aura",,,,,,,,"At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create a Lightning Flow token.",Lightning Instant - Aura,,,,,C,,,Thomas Ressuge,,,OMN199,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199.webp,,,V,C,"AA,FA",Thomas Ressuge,,,OMN199,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN199-MV.webp,,,,,,Thomas Ressuge,,,OMN199,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN200,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN200,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN200.webp,,,,,,,,,OMN200,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN200.webp,,,,,,,,,OMN200,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN201,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN201,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN201.webp,,,,,,,,,OMN201,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN201.webp,,,,,,,,,OMN201,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN202,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN202,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN202.webp,,,,,,,,,OMN202,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN202.webp,,,,,,,,,OMN202,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -377,7 +411,7 @@ OMN236,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN236,https://legendstory-production-s3
 OMN237,OMN,Settle the Bill,Red,1,1,,3,,,,"Ranger, Action",,Go again,,,,,,"You may put an arrow from your hand face-up into your arsenal. If you do, until end of turn, it gets +3{p} and ""When this hits a hero, destroy a card in their arsenal.""
 
 **Go again**",Ranger Action,,,No,,M,,,Tomasz Jedruszek,Yes,,OMN237,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN237.webp,,,,,,Tomasz Jedruszek,,,OMN237,,,,,,,Tomasz Jedruszek,,,OMN237,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN238,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN238,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN238.webp,,,,,,,,,OMN238,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN238.webp,,,,,,,,,OMN238,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN238,OMN,Beckon Steel,Blue,3,0,,3,,,,"Warrior, Attack Reaction",,Sharpen,,,,,,"Target sword attack gets ""When this hits, **sharpen** this sword. Then if the sword has 3 or more +1{p} counters, **attack** with it.""",Warrior Attack Reaction,,,No,,M,,,Bastien Jez,Yes,,OMN238,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN238.webp,,,,,,Bastien Jez,,,OMN238,,,,,,,Bastien Jez,,,OMN238,,,,,,,,,,,,,,,,,,,,,,,,,
 OMN239,OMN,Crash Site Salvage,Yellow,2,0,3,3,,,,"Pirate, Mechanologist, Action, Attack",,"Scrap, Go again",,,,,,"**Scrap**
 
 When this attacks, if it scrapped a card, this gets **go again**. If a cog was scrapped this way, create a Gold token.",Pirate Mechanologist Action - Attack,,,No,,M,,,Mariusz Gandzel,Yes,,OMN239,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN239.webp,,,M,C,EA,Mariusz Gandzel,Yes,,OMN239,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN239-CF.webp,,,,,,Mariusz Gandzel,,,OMN239,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -401,6 +435,12 @@ OMN247,OMN,Lionclaw Maul,,,,1,,,,,"Reviled, Guardian, Weapon, Hammer, Axe, 1H",,
 If this has {p} greater than its base, it gets +1{p}.
 
 When this hits a hero, **the crowd boos** you.",Reviled Guardian Weapon - Hammer Axe (1H),,,No,,M,,,Galih M,Yes,,OMN247,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN247.webp,,,,,,Galih M,,,OMN247,,,,,,,Galih M,,,OMN247,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN248,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN248,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN248.webp,,,,,,,,,OMN248,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN248.webp,,,,,,,,,OMN248,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN249,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN249,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN249.webp,,,,,,,,,OMN249,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN249.webp,,,,,,,,,OMN249,,,,,,,,,,,,,,,,,,,,,,,,,
-OMN250,OMN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,OMN250,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN250.webp,,,,,,,,,OMN250,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN250.webp,,,,,,,,,OMN250,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN248,OMN,Starfield Veil,,,,2,,,,,"Lightning, Illusionist, Equipment, Head",,Guardwell,,,,,,"**Instant** - Destroy this: The next aura you play this turn enters the arena with a holo counter. Activate this only if an attack has fragmented this turn.
+
+**Guardwell**",Lightning Illusionist Equipment - Head,,,No,,M,C,,Amtepra,Yes,,OMN248,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN248-CF.webp,,,,,,Amtepra,,,OMN248,,,,,,,Amtepra,,,OMN248,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN249,OMN,Starfield Carapace,,,,1,,,,,"Lightning, Illusionist, Equipment, Chest",,Blade Break,,,,,,"**Instant** - Destroy this: Until end of turn, an Aphrodias you control costs {r} less to activate and gets ""Whenever this deals damage to an opposing hero, create a Lightning Flow token.""
+
+**Blade Break**",Lightning Illusionist Equipment - Chest,,,No,,M,C,,Esty Swandana,Yes,,OMN249,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN249-CF.webp,,,,,,Esty Swandana,,,OMN249,,,,,,,Esty Swandana,,,OMN249,,,,,,,,,,,,,,,,,,,,,,,,,
+OMN250,OMN,Starfield Touch,,,,1,,,,,"Lightning, Illusionist, Equipment, Arms",,Battleworn,,,,,,"**Instant** - {r}, destroy this: {u} an Aphrodias you control.
+
+**Battleworn**",Lightning Illusionist Equipment - Arms,,,No,,M,C,,Ismatulloh,Yes,,OMN250,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN250-CF.webp,,,,,,Ismatulloh,,,OMN250,,,,,,,Ismatulloh,,,OMN250,,,,,,,,,,,,,,,,,,,,,,,,,

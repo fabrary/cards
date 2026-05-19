@@ -1139,6 +1139,66 @@ At the start of your action phase, destroy an aura you control.`,
   
   
   },{
+    artists: ["Bastien Jez"],
+    cardIdentifier: "beckon-steel-blue",
+    classes: [Class.Warrior],
+    defaultImage: "OMN238",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Olympia],
+    name: "Beckon Steel",
+    printings: [{
+        artists: ["Bastien Jez"],
+      
+      identifier: "OMN238",
+      image: "OMN238",
+      isExpansionSlot: true,
+      
+      print: "OMN238",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN238"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN238",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target sword attack gets "When this hits, **sharpen** this sword. Then if the sword has 3 or more +1{p} counters, **attack** with it."`,
+    
+    
+    
+    
+    keywords: [Keyword.Sharpen],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["SanSan"],
     cardIdentifier: "beckoning-brilliance-red",
     classes: [Class.NotClassed],
@@ -1686,6 +1746,192 @@ At the start of your turn, put this into your soul.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "clear-conscience-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN041",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Clear Conscience",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "OMN041",
+      image: "OMN041",
+      
+      
+      print: "OMN041",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN041"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN041",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 8,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "clear-conscience-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN042",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Clear Conscience",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "OMN042",
+      image: "OMN042",
+      
+      
+      print: "OMN042",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN042"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN042",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "clear-conscience-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN043",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Clear Conscience",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "OMN043",
+      image: "OMN043",
+      
+      
+      print: "OMN043",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AZS020","OMN043"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN043",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, each hero puts a card from their hand on the bottom of their deck and creates a Ponder token.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -2729,6 +2975,80 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
+    artists: ["Brian Madya Narendra"],
+    cardIdentifier: "crackle-from-afar-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN036",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Crackle from Afar",
+    printings: [{
+        artists: ["Brian Madya Narendra"],
+      
+      identifier: "OMN036",
+      image: "OMN036",
+      
+      
+      print: "OMN036",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.Cold,
+      identifier: "OMN036",
+      image: "OMN036-CF",
+      
+      
+      print: "OMN036-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS026","OMN036"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN036-CF",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this enters the arena, up to 1 target attack gets +1{p}.
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "crash-site-salvage-yellow",
     classes: [Class.Mechanologist,Class.Pirate],
@@ -2927,6 +3247,92 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "ebbing-arcstride-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN018",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Ebbing Arcstride",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN018",
+      image: "OMN018",
+      
+      
+      print: "OMN018",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN019",
+      image: "OMN019",
+      
+      
+      print: "OMN019",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN020",
+      image: "OMN020",
+      
+      
+      print: "OMN020",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS008","OMN018","OMN019","OMN020"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN018",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, it gets **go again**.
+
+**Fragment**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "echoflash-yellow",
     classes: [Class.Wizard],
@@ -2969,6 +3375,80 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
     
     
     
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "elliptical-conflux-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN034",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Elliptical Conflux",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN034",
+      image: "OMN034",
+      
+      
+      print: "OMN034",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Cold,
+      identifier: "OMN034",
+      image: "OMN034-CF",
+      
+      
+      print: "OMN034-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS019","OMN034"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN034-CF",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this leaves the arena, create an Embodiment of Lightning token.
+
+**Ward 2**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
     
     
     
@@ -3134,6 +3614,80 @@ This can't be defended by equipment or reaction cards.`,
     
     
     
+  
+  
+  },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "fleeing-starbreeze-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN037",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Fleeing Starbreeze",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "OMN037",
+      image: "OMN037",
+      
+      
+      print: "OMN037",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Cold,
+      identifier: "OMN037",
+      image: "OMN037-CF",
+      
+      
+      print: "OMN037-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS027","OMN037"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN037-CF",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this enters the arena, up to 1 target attack gets **go again**.
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
   
   
   },{
@@ -5425,6 +5979,192 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
   
   },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "polarus-pulse-ray-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN009",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Polarus Pulse Ray",
+    printings: [{
+        artists: ["Tanapon Wachirakul"],
+      
+      identifier: "OMN009",
+      image: "OMN009",
+      
+      
+      print: "OMN009",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AZS011","OMN009"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN009",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    arcane: 1,
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, deal 1 arcane damage to the defending hero.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "polarus-pulse-ray-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN010",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Polarus Pulse Ray",
+    printings: [{
+        artists: ["Tanapon Wachirakul"],
+      
+      identifier: "OMN010",
+      image: "OMN010",
+      
+      
+      print: "OMN010",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN010"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN010",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, deal 1 arcane damage to the defending hero.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Tanapon Wachirakul"],
+    cardIdentifier: "polarus-pulse-ray-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN011",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Polarus Pulse Ray",
+    printings: [{
+        artists: ["Tanapon Wachirakul"],
+      
+      identifier: "OMN011",
+      image: "OMN011",
+      
+      
+      print: "OMN011",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN011"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN011",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, deal 1 arcane damage to the defending hero.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Jefrey Yonathan"],
     cardIdentifier: "prophetic-quickstep-yellow",
     classes: [Class.Runeblade],
@@ -6049,6 +6789,68 @@ When this hits a hero, the next action card they defend with this combat chain g
   
   
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "scattering-conflux-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN008",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Scattering Conflux",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "OMN008",
+      image: "OMN008",
+      
+      
+      print: "OMN008",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AZS012","OMN008"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN008",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, create an Embodiment of Lightning token.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "scorpio-comet-tail",
     classes: [Class.Runeblade],
@@ -6170,6 +6972,452 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     
     
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "shattering-flowtide-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN024",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Shattering Flowtide",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "OMN024",
+      image: "OMN024",
+      
+      
+      print: "OMN024",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS013","OMN024"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN024",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, create a Lightning Flow token.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "shattering-flowtide-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN025",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Shattering Flowtide",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "OMN025",
+      image: "OMN025",
+      
+      
+      print: "OMN025",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN025"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN025",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, create a Lightning Flow token.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "shattering-flowtide-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN026",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Shattering Flowtide",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "OMN026",
+      image: "OMN026",
+      
+      
+      print: "OMN026",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS023","OMN026"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN026",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Illusionist Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Whenever this fragments, create a Lightning Flow token.
+
+**Fragment**`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "sigil-of-astral-flow-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN199",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Sigil of Astral Flow",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "OMN199",
+      image: "OMN199",
+      
+      
+      print: "OMN199",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.Cold,
+      identifier: "OMN199",
+      image: "OMN199-MV",
+      
+      
+      print: "OMN199-Cold-Alternate Art",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AZS028","OMN199"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN199-MV",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "starfield-carapace",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN249-CF",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Taylor,Hero.Zyggy],
+    name: "Starfield Carapace",
+    printings: [{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.Cold,
+      identifier: "OMN249",
+      image: "OMN249-CF",
+      isExpansionSlot: true,
+      
+      print: "OMN249-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["AZS004","OMN249"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN249-CF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Lightning Illusionist Equipment - Chest",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - Destroy this: Until end of turn, an Aphrodias you control costs {r} less to activate and gets "Whenever this deals damage to an opposing hero, create a Lightning Flow token."
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "starfield-touch",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN250-CF",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Taylor,Hero.Zyggy],
+    name: "Starfield Touch",
+    printings: [{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.Cold,
+      identifier: "OMN250",
+      image: "OMN250-CF",
+      isExpansionSlot: true,
+      
+      print: "OMN250-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["AZS005","OMN250"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN250-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Lightning Illusionist Equipment - Arms",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}, destroy this: {u} an Aphrodias you control.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    
+    power: 1,
+    
+    shorthands: [Shorthand.Untap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Amtepra"],
+    cardIdentifier: "starfield-veil",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN248-CF",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Taylor,Hero.Zyggy],
+    name: "Starfield Veil",
+    printings: [{
+        artists: ["Amtepra"],
+      foiling: Foiling.Cold,
+      identifier: "OMN248",
+      image: "OMN248-CF",
+      isExpansionSlot: true,
+      
+      print: "OMN248-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["AZS003","OMN248"],
+    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    specialImage: "OMN248-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Lightning Illusionist Equipment - Head",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - Destroy this: The next aura you play this turn enters the arena with a holo counter. Activate this only if an attack has fragmented this turn.
+
+**Guardwell**`,
+    
+    
+    
+    
+    keywords: [Keyword.Guardwell],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
   
   
   },{

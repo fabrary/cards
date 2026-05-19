@@ -1611,6 +1611,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/beckon-steel-blue</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/beckoning-brilliance-red</loc>
     <lastmod>2026-04-27</lastmod>
     <priority>0.5</priority>
@@ -3883,6 +3888,16 @@
   <url>
     <loc>https://fabrary.net/cards/cleansing-light-blue</loc>
     <lastmod>2023-07-03</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clear-conscience-red</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/clear-conscience-yellow</loc>
+    <lastmod>2026-05-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -14381,6 +14396,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/polarus-pulse-ray-yellow</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/polarus-pulse-ray-blue</loc>
+    <lastmod>2026-05-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/polished-blade-red</loc>
     <lastmod>2026-04-06</lastmod>
     <priority>0.5</priority>
@@ -17728,6 +17753,11 @@
   <url>
     <loc>https://fabrary.net/cards/shattering-flowtide-red</loc>
     <lastmod>2026-05-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shattering-flowtide-yellow</loc>
+    <lastmod>2026-05-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
