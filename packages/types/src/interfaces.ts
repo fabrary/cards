@@ -516,6 +516,7 @@ export enum Keyword {
   Essence = "Essence",
   EvoUpgrade = "Evo Upgrade",
   Flow = "Flow",
+  Fragment = "Fragment",
   Freeze = "Freeze",
   Fusion = "Fusion",
   Galvanize = "Galvanize",

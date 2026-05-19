@@ -1376,7 +1376,7 @@ At the start of your turn, put this into your soul.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     
@@ -1790,7 +1790,7 @@ At the start of your turn, put this into your soul.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -1852,7 +1852,7 @@ At the start of your turn, put this into your soul.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -1914,7 +1914,7 @@ At the start of your turn, put this into your soul.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -2584,7 +2584,7 @@ At the start of your turn, put this into your soul.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -2646,7 +2646,7 @@ At the start of your turn, put this into your soul.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -2708,7 +2708,7 @@ At the start of your turn, put this into your soul.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -3288,7 +3288,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.Fragment,Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -3350,7 +3350,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.Fragment,Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -3412,7 +3412,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.Fragment,Keyword.GoAgain],
     
     
     meta: [Meta.Rainbow],
@@ -4160,7 +4160,7 @@ When this hits, create a Lightning Flow token.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     
@@ -4222,7 +4222,7 @@ When this hits, create a Lightning Flow token.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     
@@ -6120,7 +6120,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -6182,7 +6182,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -6244,7 +6244,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -6368,7 +6368,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -6430,7 +6430,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -6492,7 +6492,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -6930,7 +6930,7 @@ When this hits a hero, the next action card they defend with this combat chain g
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     
@@ -7116,7 +7116,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -7178,7 +7178,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -7240,7 +7240,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     meta: [Meta.Rainbow],
@@ -8258,7 +8258,7 @@ Whenever this fragments, you may put a Lightning instant card from your graveyar
     
     
     
-    
+    keywords: [Keyword.Fragment],
     
     
     
