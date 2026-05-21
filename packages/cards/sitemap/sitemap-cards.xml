@@ -7991,6 +7991,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/flittering-forcefield-red</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flittering-forcefield-yellow</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flittering-forcefield-blue</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/flock-of-the-feather-walkers-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -18776,6 +18791,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/snap-fingers</loc>
+    <lastmod>2026-05-20</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/snap-shot-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -20838,6 +20858,11 @@
   <url>
     <loc>https://fabrary.net/cards/temporal-wobble-red</loc>
     <lastmod>2026-02-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tempt-over-yellow</loc>
+    <lastmod>2026-05-20</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

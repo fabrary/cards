@@ -688,7 +688,7 @@ At the start of your action phase, destroy an aura you control.`,
     types: [Type.Instant],
     typeText: "Lightning Wizard Instant",
 
-    
+    arcane: 1,
     
     cost: 0,
     
@@ -1460,7 +1460,7 @@ At the start of your turn, put this into your soul.`,
     artists: ["João G. Santos"],
     cardIdentifier: "boots-of-omnis-ward",
     classes: [Class.Generic],
-    defaultImage: "OMN204",
+    defaultImage: "OMN204-RF",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
     name: "Boots of Omnis Ward",
@@ -1468,7 +1468,7 @@ At the start of your turn, put this into your soul.`,
         artists: ["João G. Santos"],
       foiling: Foiling.Rainbow,
       identifier: "OMN204",
-      image: "OMN204",
+      image: "OMN204-RF",
       
       
       print: "OMN204-Rainbow",
@@ -1480,7 +1480,7 @@ At the start of your turn, put this into your soul.`,
         artists: ["João G. Santos"],
       foiling: Foiling.Cold,
       identifier: "OMN204",
-      image: "OMN204",
+      image: "OMN204-CF",
       
       
       print: "OMN204-Cold",
@@ -1493,7 +1493,7 @@ At the start of your turn, put this into your soul.`,
     rarity: Rarity.Legendary,
     setIdentifiers: ["OMN204"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN204",
+    specialImage: "OMN204-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Legs",
@@ -2144,7 +2144,7 @@ At the start of your turn, put this into your soul.`,
     types: [Type.Instant],
     typeText: "Lightning Wizard Instant",
 
-    
+    arcane: 1,
     
     cost: 0,
     
@@ -2818,7 +2818,7 @@ At the start of your turn, put this into your soul.`,
     types: [Type.Instant],
     typeText: "Lightning Wizard Instant",
 
-    
+    arcane: 1,
     
     cost: 2,
     
@@ -2880,7 +2880,7 @@ At the start of your turn, put this into your soul.`,
     types: [Type.Instant],
     typeText: "Lightning Wizard Instant",
 
-    
+    arcane: 1,
     
     cost: 2,
     
@@ -2942,7 +2942,7 @@ At the start of your turn, put this into your soul.`,
     types: [Type.Instant],
     typeText: "Lightning Wizard Instant",
 
-    
+    arcane: 1,
     
     cost: 2,
     
@@ -3956,6 +3956,186 @@ This can't be defended by equipment or reaction cards.`,
     
     
     
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "flittering-forcefield-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN181",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flittering Forcefield",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "OMN181",
+      image: "OMN181",
+      
+      
+      print: "OMN181",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN181"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN181",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Lightning Defense Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `While this is defending, if you've played an instant card this chain link, this gets +1{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "flittering-forcefield-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN182",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flittering Forcefield",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "OMN182",
+      image: "OMN182",
+      
+      
+      print: "OMN182",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN182"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN182",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Lightning Defense Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `While this is defending, if you've played an instant card this chain link, this gets +1{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "flittering-forcefield-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN183",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flittering Forcefield",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "OMN183",
+      image: "OMN183",
+      
+      
+      print: "OMN183",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN183"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN183",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Lightning Defense Reaction",
+
+    
+    
+    cost: 0,
+    defense: 1,
+    
+    functionalText: `While this is defending, if you've played an instant card this chain link, this gets +1{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
   
     
     pitch: 3,
@@ -7160,7 +7340,7 @@ When this hits a hero, the next action card they defend with this combat chain g
     types: [Type.Weapon],
     typeText: "Lightning Runeblade Weapon - Sword (2H)",
 
-    
+    arcane: 1,
     
     
     
@@ -7501,6 +7681,78 @@ When this leaves the arena, create a Lightning Flow token.`,
   
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Ilham Bahtiar"],
+    cardIdentifier: "snap-fingers",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN050",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Taylor],
+    name: "Snap Fingers",
+    printings: [{
+        artists: ["Ilham Bahtiar"],
+      
+      identifier: "OMN050",
+      image: "OMN050",
+      
+      
+      print: "OMN050",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Ilham Bahtiar"],
+      foiling: Foiling.Cold,
+      identifier: "OMN050",
+      image: "OMN050-CF",
+      
+      
+      print: "OMN050-Cold",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN050"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN050-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Lightning Runeblade Equipment - Arms",
+
+    arcane: 1,
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - {r}, destroy this: Target Lightning attack action card you control on the active chain link deals 1 arcane damage to the defending hero.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
     
     
     
@@ -8106,6 +8358,66 @@ The first time this deals damage to a hero, they discard a card.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Mario Wibisono"],
+    cardIdentifier: "tempt-over-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OMN215",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Tempt Over",
+    printings: [{
+        artists: ["Mario Wibisono"],
+      
+      identifier: "OMN215",
+      image: "OMN215",
+      
+      
+      print: "OMN215",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN215"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN215",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Generic Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `When this attacks a hero, **steal** an aura token they control until end of turn.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
