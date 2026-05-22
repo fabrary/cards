@@ -1843,7 +1843,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Wizard],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KP7ZQMB111K73XT88YV5YN7C" },
+      { url: "https://fabrary.net/decks/01KP7ZQMB111K73XT88YV5YN7C" },
     ],
     heroes: [Hero.Blaze],
     languages: ALL_LANGUAGES,
@@ -1858,7 +1858,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Warrior],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KP7ZQ311EMGC2S97KC79AEX0" },
+      { url: "https://fabrary.net/decks/01KP7ZQ311EMGC2S97KC79AEX0" },
     ],
     heroes: [Hero.Boltyn],
     languages: ALL_LANGUAGES,
@@ -1873,7 +1873,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Runeblade],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KP7ZP4HXQTBZ2G37PMJ9W20N" },
+      { url: "https://fabrary.net/decks/01KP7ZP4HXQTBZ2G37PMJ9W20N" },
     ],
     heroes: [Hero.Briar],
     languages: ALL_LANGUAGES,
@@ -1888,7 +1888,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Pirate, Class.Necromancer],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KP7ZNJYM2QVMNRS4DQKFZHQ4" },
+      { url: "https://fabrary.net/decks/01KP7ZNJYM2QVMNRS4DQKFZHQ4" },
     ],
     heroes: [Hero.GravyBones],
     languages: ALL_LANGUAGES,
@@ -1903,7 +1903,7 @@ export const releases: ReleaseInfo[] = [
     cards: 40,
     classes: [Class.Guardian],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KP7ZMZGHMACW17CRP12E7R45" },
+      { url: "https://fabrary.net/decks/01KP7ZMZGHMACW17CRP12E7R45" },
     ],
     heroes: [Hero.Lyath],
     languages: ALL_LANGUAGES,
@@ -1957,6 +1957,21 @@ export const releases: ReleaseInfo[] = [
     setIdentifiers: ["ddd"],
     talents: [],
   },
+  {
+    cards: 250,
+    classes: [Class.Runeblade],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01KP7ZHK1HMQCVMFH6W62FTVZ2" },
+    ],
+    heroes: [Hero.Baalghor],
+    languages: ALL_LANGUAGES,
+    release: Release.IAR,
+    relatedReleases: [],
+    releaseDate: "2026-09-25 12:00",
+    releaseType: ReleaseType.ExpansionBooster,
+    setIdentifiers: ["iar"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -1983,6 +1998,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   pen: Release.CompendiumOfRathe,
   omn: Release.OmensOfTheThirdAge,
   mpw: Release.MasteryPackWarrior,
+  iar: Release.IAR,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {

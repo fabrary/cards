@@ -237,6 +237,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Aurora]: aurora,
   [Hero.Aurora2]: CLASSES_AND_TALENTS([Class.Runeblade], [Talent.Lightning]),
   [Hero.Azalea]: azalea,
+  [Hero.Baalghor]: CLASSES_AND_TALENTS([], [Talent.Shadow]),
   [Hero.Benji]: benji,
   [Hero.Betsy]: betsy,
   [Hero.Blaze]: blaze,

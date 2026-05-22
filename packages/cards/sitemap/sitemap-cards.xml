@@ -1116,6 +1116,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/baalghor-omen-of-the-end</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/back-alley-breakline-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -8763,6 +8768,11 @@
   <url>
     <loc>https://fabrary.net/cards/gas-up-blue</loc>
     <lastmod>2023-09-23</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/gate-to-iarathael</loc>
+    <lastmod>2026-05-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -17078,6 +17088,41 @@
   <url>
     <loc>https://fabrary.net/cards/runechant</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant-of-envy-yellow</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant-of-gluttony-yellow</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant-of-greed-yellow</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant-of-lust-yellow</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant-of-pride-yellow</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant-of-sloth-yellow</loc>
+    <lastmod>2026-05-22</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/runechant-of-wrath-yellow</loc>
+    <lastmod>2026-05-22</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
