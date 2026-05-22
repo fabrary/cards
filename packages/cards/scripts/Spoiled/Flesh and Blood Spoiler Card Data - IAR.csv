@@ -1,40 +1,40 @@
 Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,CC Legal,Silver Age Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Artists 3,Expansion Slot 3,Flavor Text 3,Identifier 3,Image URL 3,Rarity 4,Foiling 4,Art Variations 4,Artists 4,Expansion Slot 4,Flavor Text 4,Identifier 4,Image URL 4,Rarity 5,Foiling 5,Art Variations 5,Artists 5,Expansion Slot 5,Flavor Text 5,Identifier 5,Image URL 5,Rarity 6,Foiling 6,Art Variations 6,Artists 6,Expansion Slot 6,Flavor Text 6,Identifier 6,Image URL 6
-IAR145,OMN,Runechant of Greed,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, draw a card.
+IAR145,IAR,Runechant of Greed,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, draw a card.
 
 When this is destroyed, create a Runechant token.
 
 At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,V,C,FA,MJ Fetesio,,,IAR145,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR145-MV.webp,,,,,,,,,IAR145,,,,,,,,,,IAR145,,,,,,,,,,,,,,,,,,,,,,,,,
-IAR152,OMN,Runechant of Envy,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, gain 1{h}.
+IAR152,IAR,Runechant of Envy,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, gain 1{h}.
 
 When this is destroyed, create a Runechant token.
 
 At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,V,C,FA,MJ Fetesio,,,IAR152,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR152-MV.webp,,,,,,,,,IAR152,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001-MV.webp,,,,,,,,,IAR152,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001-MV_BACK.webp,,,,,,,,,,,,,,,,,,,,,,,,
-IAR153,OMN,Runechant of Gluttony,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, gain {r}.
+IAR153,IAR,Runechant of Gluttony,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, gain {r}.
 
 When this is destroyed, create a Runechant token.
 
 At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,V,C,FA,MJ Fetesio,,,IAR153,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR153-MV.webp,,,,,,,,,IAR153,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002-MV.webp,,,,,,,,,IAR153,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002-MV_BACK.webp,,,,,,,,,,,,,,,,,,,,,,,,
-IAR154,OMN,Runechant of Lust,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, create a Runechant token.
+IAR154,IAR,Runechant of Lust,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, create a Runechant token.
 
 When this is destroyed, create a Runechant token.
 
 At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,V,C,FA,MJ Fetesio,,,IAR154,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR154-MV.webp,,,,,,,,,IAR154,,,,,,,,,,IAR154,,,,,,,,,,,,,,,,,,,,,,,,,
-IAR155,OMN,Runechant of Pride,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, it gets +1{p}.
+IAR155,IAR,Runechant of Pride,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, it gets +1{p}.
 
 When this is destroyed, create a Runechant token.
 
 At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,V,C,FA,MJ Fetesio,,,IAR155,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR155-MV.webp,,,,,,,,,IAR155,,,,,,,,,,IAR155,,,,,,,,,,,,,,,,,,,,,,,,,
-IAR156,OMN,Runechant of Sloth,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, it gets **go again**.
+IAR156,IAR,Runechant of Sloth,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, it gets **go again**.
 
 When this is destroyed, create a Runechant token.
 
 At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,V,C,FA,MJ Fetesio,,,IAR156,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR156-MV.webp,,,,,,,,,IAR156,,,,,,,,,,IAR156,,,,,,,,,,,,,,,,,,,,,,,,,
-IAR157,OMN,Runechant of Wrath,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, it gets **overpower**.
+IAR157,IAR,Runechant of Wrath,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,,"This counts as a Runechant. When an attack usurps this, it gets **overpower**.
 
 When this is destroyed, create a Runechant token.
 
 At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,V,C,FA,MJ Fetesio,,,IAR157,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR157-MV.webp,,,,,,,,,IAR157,,,,,,,,,,IAR157,,,,,,,,,,,,,,,,,,,,,,,,,
-IAR159,OMN,"Baalghor, Omen of the End",,,,,,33,3,,"Shadow, Hero, Young, Demon",,,,,,,,"Whenever you pitch a card, banish it.
+IAR159,IAR,"Baalghor, Omen of the End",,,,,,33,3,,"Shadow, Hero, Young, Demon",,,,,,,,"Whenever you pitch a card, banish it.
 
 Attack action cards played from your banished zone get +3{p}.",Shadow Hero - Young Demon,,No,,No,V,C,FA,Lius Lasahido,,,IAR159,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR159-MV.webp,,,V,C,FA,Lius Lasahido,,,IAR159,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR159-MV_BACK.webp,,,,,,Lius Lasahido,,,IAR159,,,,,,,,,,,,,,,,,,,,,,,,,
-IAR222,OMN,Gate to íArathael,,,,,,,,,"Shadow, Token, Aura",,,,,,,,"**Instant** - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",Shadow Token - Aura,,,,,V,C,FA,Carlos Cruchaga,,,IAR222,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR222-MV.webp,,,V,C,FA,Carlos Cruchaga,,,IAR222,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR222-MV_BACK.webp,,,,,,Carlos Cruchaga,,,IAR222,,,,,,,,,,,,,,,,,,,,,,,,,
+IAR222,IAR,Gate to íArathael,,,,,,,,,"Shadow, Token, Aura",,,,,,,,"**Instant** - {r}, destroy this: You may play target action card with blood debt from your banished zone this turn.",Shadow Token - Aura,,,,,V,C,FA,Carlos Cruchaga,,,IAR222,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR222-MV.webp,,,V,C,FA,Carlos Cruchaga,,,IAR222,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR222-MV_BACK.webp,,,,,,Carlos Cruchaga,,,IAR222,,,,,,,,,,,,,,,,,,,,,,,,,
