@@ -12914,12 +12914,24 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       set: Release.OmensOfTheThirdAge,
       
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.Cold,
+      identifier: "OMN201",
+      image: "OMN201-MV",
+      
+      
+      print: "OMN201-Cold-Alternate Art",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
     setIdentifiers: ["OMN201"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN201",
+    specialImage: "OMN201-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
     typeText: "Lightning Instant - Aura",
