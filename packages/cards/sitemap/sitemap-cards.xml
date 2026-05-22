@@ -816,6 +816,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/arcbane-grasp-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/arctic-incarceration-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -943,6 +948,21 @@
   <url>
     <loc>https://fabrary.net/cards/assembly-module-blue</loc>
     <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/astral-assault-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/astral-assault-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/astral-assault-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -3311,6 +3331,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/calmveil-of-volthaven-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/calmveil-of-volthaven-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/calmveil-of-volthaven-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/canopy-shelter-blue</loc>
     <lastmod>2024-08-01</lastmod>
     <priority>0.5</priority>
@@ -3688,6 +3723,21 @@
   <url>
     <loc>https://fabrary.net/cards/chowder-hearty-cook-yellow</loc>
     <lastmod>2025-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/chromatic-refinement-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/chromatic-refinement-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/chromatic-refinement-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -4221,6 +4271,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/comet-collision-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/comet-collision-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/comet-collision-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/comet-storm--shock-red</loc>
     <lastmod>2024-07-25</lastmod>
     <priority>0.5</priority>
@@ -4401,8 +4466,28 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/constella-contemplation-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/constella-flowslide-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/constella-tiara</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/constella-uplift-yellow</loc>
     <lastmod>2026-05-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/constella-waves</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -5481,6 +5566,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/destructive-fleetfoot-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/destructive-fleetfoot-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/destructive-fleetfoot-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/destructive-tendencies-blue</loc>
     <lastmod>2026-01-30</lastmod>
     <priority>0.5</priority>
@@ -6391,6 +6491,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/electrolyze-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electrolyze-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electrolyze-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/electromagnetic-somersault-red</loc>
     <lastmod>2024-09-07</lastmod>
     <priority>0.5</priority>
@@ -6418,6 +6533,26 @@
   <url>
     <loc>https://fabrary.net/cards/electrostatic-discharge-blue</loc>
     <lastmod>2024-08-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electryn-joltstep-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electryn-joltstep-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electryn-joltstep-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/electryn-mindmeld-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -6776,6 +6911,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/enion-surge-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/enion-surge-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/enion-surge-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/enlightened-strike-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -6868,6 +7018,21 @@
   <url>
     <loc>https://fabrary.net/cards/erase-face-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/erode-authority-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/erode-authority-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/erode-authority-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -7671,6 +7836,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/fingers-of-fragmentation</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/fire-and-brimstone-red</loc>
     <lastmod>2025-01-16</lastmod>
     <priority>0.5</priority>
@@ -7788,6 +7958,21 @@
   <url>
     <loc>https://fabrary.net/cards/flamescale-furnace</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flash-bolt-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flash-bolt-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flash-bolt-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8006,6 +8191,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/flittering-spike-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flittering-spike-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flittering-spike-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/flock-of-the-feather-walkers-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -8043,6 +8243,11 @@
   <url>
     <loc>https://fabrary.net/cards/flourish-blue</loc>
     <lastmod>2024-08-01</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/flow-through-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -8951,6 +9156,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/golden-skull-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/golden-skywarden-yellow</loc>
     <lastmod>2025-03-20</lastmod>
     <priority>0.5</priority>
@@ -9428,6 +9638,21 @@
   <url>
     <loc>https://fabrary.net/cards/haunting-specter-blue</loc>
     <lastmod>2024-05-14</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/haven-veil-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/haven-veil-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/haven-veil-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10096,6 +10321,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/holo-shield-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/holo-shield-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/holo-shield-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/homage-to-ancestors-blue</loc>
     <lastmod>2024-04-08</lastmod>
     <priority>0.5</priority>
@@ -10618,6 +10858,11 @@
   <url>
     <loc>https://fabrary.net/cards/index-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/induce-panic-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -11366,6 +11611,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/laced-lightning</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/laden-with-earth-red</loc>
     <lastmod>2026-01-30</lastmod>
     <priority>0.5</priority>
@@ -11571,6 +11821,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/leech-memory-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/leech-renown-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/leech-vitality-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/leg-tap-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -11738,6 +12003,21 @@
   <url>
     <loc>https://fabrary.net/cards/lightning-greaves</loc>
     <lastmod>2024-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lightning-overload-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lightning-overload-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/lightning-overload-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -12501,6 +12781,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/meteoric-impact-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/meteoric-impact-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/meteoric-impact-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/meteoric-rise-red</loc>
     <lastmod>2026-03-04</lastmod>
     <priority>0.5</priority>
@@ -12931,6 +13226,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/nebulus-cycle-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/nekria</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -13093,6 +13393,16 @@
   <url>
     <loc>https://fabrary.net/cards/nourishing-emptiness-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/nourishing-glow-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/nucleus-aetherbolt-red</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -15196,6 +15506,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/quick-succession-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/quick-succession-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/quick-succession-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/quickdodge-flexors</loc>
     <lastmod>2025-01-17</lastmod>
     <priority>0.5</priority>
@@ -16821,6 +17146,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/rush-of-power-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rush-of-power-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/rush-of-power-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/rushing-river-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -18361,6 +18701,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/singeing-flowstride-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/singeing-flowstride-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/singeing-flowstride-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/singeing-steelblade-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -19246,6 +19601,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/spellbane-sigil-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/spellbane-trap-red</loc>
     <lastmod>2026-01-30</lastmod>
     <priority>0.5</priority>
@@ -19676,6 +20036,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/starflow-robes</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/starlight-road-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/starlight-striders</loc>
     <lastmod>2025-02-26</lastmod>
     <priority>0.5</priority>
@@ -19688,6 +20058,11 @@
   <url>
     <loc>https://fabrary.net/cards/starting-stake-yellow</loc>
     <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/starworld-warning-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -19801,6 +20176,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/stellar-glide-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stellar-glide-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stellar-glide-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/step-between-red</loc>
     <lastmod>2026-05-01</lastmod>
     <priority>0.5</priority>
@@ -19813,6 +20203,21 @@
   <url>
     <loc>https://fabrary.net/cards/sting-of-sorcery-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stinging-sprite-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stinging-sprite-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stinging-sprite-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -19916,8 +20321,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/stormshatter-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/stormweavers-aegis</loc>
     <lastmod>2026-02-02</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stormwhirl-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -20083,6 +20498,21 @@
   <url>
     <loc>https://fabrary.net/cards/stun-star-blue</loc>
     <lastmod>2026-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stunning-swipe-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stunning-swipe-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/stunning-swipe-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -20631,6 +21061,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/tap-lessons-past-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tap-lessons-past-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/tap-lessons-past-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/tarantula-toxin-red</loc>
     <lastmod>2024-11-02</lastmod>
     <priority>0.5</priority>
@@ -21138,6 +21583,21 @@
   <url>
     <loc>https://fabrary.net/cards/thunder-quake-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/thunderous-retort-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/thunderous-retort-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/thunderous-retort-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -22546,6 +23006,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/visionary-of-orbits-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/visit-anvilheim-blue</loc>
     <lastmod>2025-07-24</lastmod>
     <priority>0.5</priority>
@@ -22616,6 +23081,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/volatile-fluxor-red</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/volatile-fluxor-yellow</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/volatile-fluxor-blue</loc>
+    <lastmod>2026-05-21</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/volcanic-vice</loc>
     <lastmod>2026-01-30</lastmod>
     <priority>0.5</priority>
@@ -22623,6 +23103,11 @@
   <url>
     <loc>https://fabrary.net/cards/voltaire-strike-twice</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/voltaris-blue</loc>
+    <lastmod>2026-05-21</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

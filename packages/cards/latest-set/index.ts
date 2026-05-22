@@ -647,6 +647,250 @@ At the start of your action phase, destroy an aura you control.`,
   
   
   },{
+    artists: ["Bo Setiaji"],
+    cardIdentifier: "arcbane-grasp-blue",
+    classes: [Class.Mechanologist],
+    defaultImage: "OMN236",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dash,Hero.DataDoll,Hero.Maxx,Hero.Puffin,Hero.Taylor,Hero.Teklovossen],
+    name: "Arcbane Grasp",
+    printings: [{
+        artists: ["Bo Setiaji"],
+      
+      identifier: "OMN236",
+      image: "OMN236",
+      isExpansionSlot: true,
+      
+      print: "OMN236",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN236"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN236",
+    subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo],
+    types: [Type.Equipment,Type.Instant],
+    typeText: "Mechanologist Instant Equipment - Evo Base Arms",
+
+    
+    
+    cost: 0,
+    defense: 0,
+    
+    functionalText: `If you have a base arms equipped, **transform** it into this, then equip this.
+
+When this is equipped, create a Spellbane Aegis token.
+
+**Arcane Barrier 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.Transform],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "astral-assault-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN160",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Astral Assault",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "OMN160",
+      image: "OMN160",
+      
+      
+      print: "OMN160",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN160"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN160",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Lightning Flow you control. If you do, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "astral-assault-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN161",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Astral Assault",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "OMN161",
+      image: "OMN161",
+      
+      
+      print: "OMN161",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN161"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN161",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Lightning Flow you control. If you do, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "astral-assault-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN162",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Astral Assault",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "OMN162",
+      image: "OMN162",
+      
+      
+      print: "OMN162",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN162"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN162",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Lightning Flow you control. If you do, this gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Kevin Sidharta"],
     cardIdentifier: "astral-bridge-red",
     classes: [Class.Wizard],
@@ -1603,6 +1847,366 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "brush-off-red",
+    classes: [Class.Generic],
+    defaultImage: "OMN222",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Brush Off",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "OMN222",
+      image: "OMN222",
+      
+      
+      print: "OMN222",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN222","OUT228","ROS234"],
+    sets: [Release.OmensOfTheThirdAge,Release.Outsiders,Release.Rosetta],
+    specialImage: "OMN222",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `The next time you would be dealt 3 or less damage this turn, prevent it.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "brush-off-yellow",
+    classes: [Class.Generic],
+    defaultImage: "OMN223",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Brush Off",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "OMN223",
+      image: "OMN223",
+      
+      
+      print: "OMN223",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN223","OUT229","ROS235"],
+    sets: [Release.OmensOfTheThirdAge,Release.Outsiders,Release.Rosetta],
+    specialImage: "OMN223",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `The next time you would be dealt 2 or less damage this turn, prevent it.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
+    cardIdentifier: "brush-off-blue",
+    classes: [Class.Generic],
+    defaultImage: "OMN224",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Brush Off",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "OMN224",
+      image: "OMN224",
+      
+      
+      print: "OMN224",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN224","OUT230","ROS236"],
+    sets: [Release.OmensOfTheThirdAge,Release.Outsiders,Release.Rosetta],
+    specialImage: "OMN224",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Generic Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `The next time you would be dealt 1 damage this turn, prevent it.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "calmveil-of-volthaven-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN184",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Calmveil of Volthaven",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN184",
+      image: "OMN184",
+      
+      
+      print: "OMN184",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN184"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN184",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `Prevent the next 3 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "calmveil-of-volthaven-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN185",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Calmveil of Volthaven",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN185",
+      image: "OMN185",
+      
+      
+      print: "OMN185",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN185"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN185",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `Prevent the next 2 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "calmveil-of-volthaven-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN186",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Calmveil of Volthaven",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN186",
+      image: "OMN186",
+      
+      
+      print: "OMN186",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN186"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN186",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 2,
+    
+    
+    functionalText: `Prevent the next 1 damage that would be dealt to you this turn. The first time you prevent damage this way, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "caress-of-the-reaper-red",
     classes: [Class.Runeblade],
@@ -1672,6 +2276,186 @@ At the start of your turn, put this into your soul.`,
     
     
     
+  
+  
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "chromatic-refinement-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN193",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Chromatic Refinement",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "OMN193",
+      image: "OMN193",
+      
+      
+      print: "OMN193",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN193"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN193",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this, then the next red card you play this turn costs {r} less to play. The first time that card would deal damage this turn, instead it deals that much plus 1.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "chromatic-refinement-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN194",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Chromatic Refinement",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "OMN194",
+      image: "OMN194",
+      
+      
+      print: "OMN194",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN194"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN194",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this, then the next yellow card you play this turn costs {r} less to play. The first time that card would deal damage this turn, instead it deals that much plus 1.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Aluisio Cervelle"],
+    cardIdentifier: "chromatic-refinement-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN195",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Chromatic Refinement",
+    printings: [{
+        artists: ["Aluisio Cervelle"],
+      
+      identifier: "OMN195",
+      image: "OMN195",
+      
+      
+      print: "OMN195",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN195"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN195",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this, then the next blue card you play this turn costs {r} less to play. The first time that card would deal damage this turn, instead it deals that much plus 1.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
   
   
   },{
@@ -1935,6 +2719,192 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
+    artists: ["Dzulfikar Aliy"],
+    cardIdentifier: "comet-collision-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN109",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Comet Collision",
+    printings: [{
+        artists: ["Dzulfikar Aliy"],
+      
+      identifier: "OMN109",
+      image: "OMN109",
+      
+      
+      print: "OMN109",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN109"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN109",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 3,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Deal 3 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, instead deal 4 arcane damage.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Dzulfikar Aliy"],
+    cardIdentifier: "comet-collision-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN110",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Comet Collision",
+    printings: [{
+        artists: ["Dzulfikar Aliy"],
+      
+      identifier: "OMN110",
+      image: "OMN110",
+      
+      
+      print: "OMN110",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN110"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN110",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 2,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Deal 2 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, instead deal 3 arcane damage.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Dzulfikar Aliy"],
+    cardIdentifier: "comet-collision-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN111",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Comet Collision",
+    printings: [{
+        artists: ["Dzulfikar Aliy"],
+      
+      identifier: "OMN111",
+      image: "OMN111",
+      
+      
+      print: "OMN111",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN111"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN111",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Deal 1 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, instead deal 2 arcane damage.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Pavel Rtishchev (Klaher)"],
     cardIdentifier: "conflicting-thoughts-red",
     classes: [Class.Generic],
@@ -2115,6 +3085,190 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
+    artists: ["Olga Tereshenko"],
+    cardIdentifier: "constella-contemplation-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN130",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Constella Contemplation",
+    printings: [{
+        artists: ["Olga Tereshenko"],
+      
+      identifier: "OMN130",
+      image: "OMN130",
+      
+      
+      print: "OMN130",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN130"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN130",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 1,
+    
+    cost: 0,
+    
+    
+    functionalText: `Create a Ponder token.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "constella-flowslide-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN131",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Constella Flowslide",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN131",
+      image: "OMN131",
+      
+      
+      print: "OMN131",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN131"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN131",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 1,
+    
+    cost: 0,
+    
+    
+    functionalText: `Create a Lightning Flow token.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Surya Feby"],
+    cardIdentifier: "constella-tiara",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN142",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Taylor,Hero.Zyggy],
+    name: "Constella Tiara",
+    printings: [{
+        artists: ["Surya Feby"],
+      
+      identifier: "OMN142",
+      image: "OMN142",
+      
+      
+      print: "OMN142",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN142"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN142",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Lightning Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Ponder token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "constella-uplift-yellow",
     classes: [Class.Wizard],
@@ -2166,6 +3320,66 @@ At the start of your turn, put this into your soul.`,
     
     
     shorthands: [Shorthand.Untap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "constella-waves",
+    classes: [Class.Wizard],
+    defaultImage: "OMN097",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio,Hero.Taylor],
+    name: "Constella Waves",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "OMN097",
+      image: "OMN097",
+      
+      
+      print: "OMN097",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN097"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN097",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Lightning Wizard Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - {t} your hero, destroy this: **Amp 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Amp],
+    
+    
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -3245,6 +4459,192 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
   
   
   },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "destructive-fleetfoot-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN062",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Destructive Fleetfoot",
+    printings: [{
+        artists: ["Phu Thieu"],
+      
+      identifier: "OMN062",
+      image: "OMN062",
+      
+      
+      print: "OMN062",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN062"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN062",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p}.
+
+When this hits a hero, destroy an aura token they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "destructive-fleetfoot-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN063",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Destructive Fleetfoot",
+    printings: [{
+        artists: ["Phu Thieu"],
+      
+      identifier: "OMN063",
+      image: "OMN063",
+      
+      
+      print: "OMN063",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN063"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN063",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p}.
+
+When this hits a hero, destroy an aura token they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Phu Thieu"],
+    cardIdentifier: "destructive-fleetfoot-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN064",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Destructive Fleetfoot",
+    printings: [{
+        artists: ["Phu Thieu"],
+      
+      identifier: "OMN064",
+      image: "OMN064",
+      
+      
+      print: "OMN064",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN064"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN064",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p}.
+
+When this hits a hero, destroy an aura token they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Harry Wyatt"],
     cardIdentifier: "draco-fire-red",
     classes: [Class.NotClassed],
@@ -3555,6 +4955,440 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
   
   
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "electrolyze-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN163",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Electrolyze",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "OMN163",
+      image: "OMN163",
+      
+      
+      print: "OMN163",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN163"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN163",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 0,
+    
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "electrolyze-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN164",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Electrolyze",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "OMN164",
+      image: "OMN164",
+      
+      
+      print: "OMN164",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN164"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN164",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 0,
+    
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "electrolyze-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN165",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Electrolyze",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "OMN165",
+      image: "OMN165",
+      
+      
+      print: "OMN165",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN165"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN165",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 0,
+    
+    functionalText: `**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "electryn-joltstep-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN080",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Electryn Joltstep",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "OMN080",
+      image: "OMN080",
+      
+      
+      print: "OMN080",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN080"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN080",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next Runeblade or Lightning attack this turn gets +3{p}.
+
+Create a Lightning Flow token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "electryn-joltstep-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN081",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Electryn Joltstep",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "OMN081",
+      image: "OMN081",
+      
+      
+      print: "OMN081",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN081"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN081",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next Runeblade or Lightning attack this turn gets +2{p}.
+
+Create a Lightning Flow token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "electryn-joltstep-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN082",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Electryn Joltstep",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "OMN082",
+      image: "OMN082",
+      
+      
+      print: "OMN082",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN082"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN082",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next Runeblade or Lightning attack this turn gets +1{p}.
+
+Create a Lightning Flow token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nadia Suryani"],
+    cardIdentifier: "electryn-mindmeld-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN054",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Electryn Mindmeld",
+    printings: [{
+        artists: ["Nadia Suryani"],
+      
+      identifier: "OMN054",
+      image: "OMN054",
+      
+      
+      print: "OMN054",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN054"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN054",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p} and "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a hero, you may put an instant card from your graveyard on the bottom of your deck.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "elliptical-conflux-yellow",
     classes: [Class.Illusionist],
@@ -3686,6 +5520,378 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
     
     
     talents: [Talent.Elemental],
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "enion-surge-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN112",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Enion Surge",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "OMN112",
+      image: "OMN112",
+      
+      
+      print: "OMN112",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN112"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN112",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 3,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Deal 3 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "enion-surge-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN113",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Enion Surge",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "OMN113",
+      image: "OMN113",
+      
+      
+      print: "OMN113",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN113"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN113",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 2,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Deal 2 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Mateusz Wiśniewski"],
+    cardIdentifier: "enion-surge-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN114",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Enion Surge",
+    printings: [{
+        artists: ["Mateusz Wiśniewski"],
+      
+      identifier: "OMN114",
+      image: "OMN114",
+      
+      
+      print: "OMN114",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN114"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN114",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Deal 1 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Bramasta Aji"],
+    cardIdentifier: "erode-authority-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN044",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Erode Authority",
+    printings: [{
+        artists: ["Bramasta Aji"],
+      
+      identifier: "OMN044",
+      image: "OMN044",
+      
+      
+      print: "OMN044",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN044"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN044",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Dominate**
+
+**Fragment**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate,Keyword.Fragment],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Bramasta Aji"],
+    cardIdentifier: "erode-authority-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN045",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Erode Authority",
+    printings: [{
+        artists: ["Bramasta Aji"],
+      
+      identifier: "OMN045",
+      image: "OMN045",
+      
+      
+      print: "OMN045",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN045"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN045",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Dominate**
+
+**Fragment**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate,Keyword.Fragment],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Bramasta Aji"],
+    cardIdentifier: "erode-authority-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN046",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
+    name: "Erode Authority",
+    printings: [{
+        artists: ["Bramasta Aji"],
+      
+      identifier: "OMN046",
+      image: "OMN046",
+      
+      
+      print: "OMN046",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN046"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN046",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Illusionist Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Dominate**
+
+**Fragment**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate,Keyword.Fragment],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -3834,6 +6040,246 @@ This can't be defended by equipment or reaction cards.`,
     
     
     
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "fingers-of-fragmentation",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN039",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Taylor,Hero.Zyggy],
+    name: "Fingers of Fragmentation",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "OMN039",
+      image: "OMN039",
+      
+      
+      print: "OMN039",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN039"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN039",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Illusionist Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - {r}{r}, destroy this: Target attack action card that has fragmented gets +2{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "flash-bolt-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN106",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Flash Bolt",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN106",
+      image: "OMN106",
+      
+      
+      print: "OMN106",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN106"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN106",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 3,
+    
+    cost: 2,
+    
+    
+    functionalText: `Deal 3 arcane damage to target hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "flash-bolt-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN107",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Flash Bolt",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN107",
+      image: "OMN107",
+      
+      
+      print: "OMN107",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN107"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN107",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 2,
+    
+    cost: 2,
+    
+    
+    functionalText: `Deal 2 arcane damage to target hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "flash-bolt-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN108",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Flash Bolt",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "OMN108",
+      image: "OMN108",
+      
+      
+      print: "OMN108",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN108"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN108",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Wizard Instant",
+
+    arcane: 1,
+    
+    cost: 2,
+    
+    
+    functionalText: `Deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
   
   
   },{
@@ -4142,6 +6588,252 @@ This can't be defended by equipment or reaction cards.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "flittering-spike-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN166",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flittering Spike",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "OMN166",
+      image: "OMN166",
+      
+      
+      print: "OMN166",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN166"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN166",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If you've played an instant card this chain link, this gets +2{p}.
+
+When this hits, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "flittering-spike-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN167",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flittering Spike",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "OMN167",
+      image: "OMN167",
+      
+      
+      print: "OMN167",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN167"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN167",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If you've played an instant card this chain link, this gets +2{p}.
+
+When this hits, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "flittering-spike-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN168",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flittering Spike",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "OMN168",
+      image: "OMN168",
+      
+      
+      print: "OMN168",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN168"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN168",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `If you've played an instant card this chain link, this gets +2{p}.
+
+When this hits, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "flow-through-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN158",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Flow Through",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "OMN158",
+      image: "OMN158",
+      
+      
+      print: "OMN158",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN158"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN158",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Target Lightning attack gets +1{p} and "When this hits, create a Lightning Flow token."`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -4929,6 +7621,448 @@ When this hits, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Mark Poole"],
+    cardIdentifier: "golden-skull-yellow",
+    classes: [Class.Necromancer,Class.Pirate],
+    defaultImage: "OMN240",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.GravyBones],
+    name: "Golden Skull",
+    printings: [{
+        artists: ["Mark Poole"],
+      
+      identifier: "OMN240",
+      image: "OMN240",
+      isExpansionSlot: true,
+      
+      print: "OMN240",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Cold,
+      identifier: "OMN240",
+      image: "OMN240-MV",
+      
+      
+      print: "OMN240-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN240"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN240-MV",
+    subtypes: [Subtype.Item,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Pirate Necromancer Action - Item",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Go again**
+
+This counts as a Gold.
+
+**Watery Grave**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.WateryGrave],
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "haven-veil-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN137",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
+    name: "Haven Veil",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "OMN137",
+      image: "OMN137",
+      
+      
+      print: "OMN137",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN137"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN137",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Wizard Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this enters the arena, prevent the next 3 arcane damage that would be dealt to you this turn.
+
+At the beginning of your action phase, destroy this.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "haven-veil-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN138",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
+    name: "Haven Veil",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "OMN138",
+      image: "OMN138",
+      
+      
+      print: "OMN138",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN138"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN138",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Wizard Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this enters the arena, prevent the next 2 arcane damage that would be dealt to you this turn.
+
+At the beginning of your action phase, destroy this.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Amirul HHF"],
+    cardIdentifier: "haven-veil-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN139",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
+    name: "Haven Veil",
+    printings: [{
+        artists: ["Amirul HHF"],
+      
+      identifier: "OMN139",
+      image: "OMN139",
+      
+      
+      print: "OMN139",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN139"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN139",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Wizard Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this enters the arena, prevent the next 1 arcane damage that would be dealt to you this turn.
+
+At the beginning of your action phase, destroy this.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "heavens-claws-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN172",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Heaven's Claws",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "OMN172",
+      image: "OMN172",
+      
+      
+      print: "OMN172",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AUA010","AUR009","ELE192","LXI014","OMN172","ROS095"],
+    sets: [Release.FirstStrikeAurora,Release.AuroraBlitzDeck,Release.LexiBlitzDeck,Release.OmensOfTheThirdAge,Release.Rosetta,Release.TalesOfAria],
+    specialImage: "OMN172",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "heavens-claws-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN173",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Heaven's Claws",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "OMN173",
+      image: "OMN173",
+      
+      
+      print: "OMN173",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AUR017","ELE193","LXI019","OMN173","ROS096"],
+    sets: [Release.FirstStrikeAurora,Release.LexiBlitzDeck,Release.OmensOfTheThirdAge,Release.Rosetta,Release.TalesOfAria],
+    specialImage: "OMN173",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Isuardi Therianto"],
+    cardIdentifier: "heavens-claws-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN174",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Heaven's Claws",
+    printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "OMN174",
+      image: "OMN174",
+      
+      
+      print: "OMN174",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AST025","AUA020","ELE194","OMN174","ROS097"],
+    sets: [Release.ArmoryDeckAurora,Release.AuroraBlitzDeck,Release.OmensOfTheThirdAge,Release.Rosetta,Release.TalesOfAria],
+    specialImage: "OMN174",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["M Fakhrur Rozzi"],
     cardIdentifier: "helm-of-astral-sanctuary",
     classes: [Class.Generic],
@@ -4978,6 +8112,492 @@ When this hits, create a Lightning Flow token.`,
     
     
     shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "holo-shield-red",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN030",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Holo Shield",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "OMN030",
+      image: "OMN030",
+      
+      
+      print: "OMN030",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN030"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN030",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `**Ward X**, where X is 4 if this has a holo counter. Otherwise, X is 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "holo-shield-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN031",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Holo Shield",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "OMN031",
+      image: "OMN031",
+      
+      
+      print: "OMN031",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN031"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN031",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `**Ward X**, where X is 3 if this has a holo counter. Otherwise, X is 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Othon Nikolaidis"],
+    cardIdentifier: "holo-shield-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN032",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Holo Shield",
+    printings: [{
+        artists: ["Othon Nikolaidis"],
+      
+      identifier: "OMN032",
+      image: "OMN032",
+      
+      
+      print: "OMN032",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN032"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN032",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `**Ward X**, where X is 2 if this has a holo counter. Otherwise, X is 1.`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Saad Irfan"],
+    cardIdentifier: "induce-panic-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN246",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Crackni,Hero.Slippy],
+    name: "Induce Panic",
+    printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "OMN246",
+      image: "OMN246",
+      isExpansionSlot: true,
+      
+      print: "OMN246",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["OMN246"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN246",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Chaos Block",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, choose a color. Each hero reveals a random card from their hand. If it's the chosen color, they discard it.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Expansion],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Chaos],
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "laced-lightning",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN144",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Taylor,Hero.Zyggy],
+    name: "Laced Lightning",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "OMN144",
+      image: "OMN144",
+      
+      
+      print: "OMN144",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN144"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN144",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Lightning Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create an Embodiment of Lightning token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "leech-memory-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN091",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Leech Memory",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "OMN091",
+      image: "OMN091",
+      
+      
+      print: "OMN091",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN091"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN091",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `The next attack action card you play this turn gets +3{p} and "Whenever this deals damage to a hero, you may put an attack action card from your graveyard on the bottom of your deck."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "leech-renown-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN092",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Leech Renown",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "OMN092",
+      image: "OMN092",
+      
+      
+      print: "OMN092",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN092"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN092",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `The next attack action card you play this turn gets +3{p} and "Whenever this deals damage to a hero, destroy an aura token they control."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Marco González"],
+    cardIdentifier: "leech-vitality-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN093",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Vynnset],
+    name: "Leech Vitality",
+    printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "OMN093",
+      image: "OMN093",
+      
+      
+      print: "OMN093",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN093"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN093",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `The next attack action card you play this turn gets +3{p} and "Whenever this deals damage to a hero, gain 1{h}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -5082,6 +8702,252 @@ When this hits, create a Lightning Flow token.`,
     
     
     talents: [Talent.Elemental],
+  
+  
+  },{
+    artists: ["Edward Chee"],
+    cardIdentifier: "lightning-form-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN150",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Lightning Form",
+    printings: [{
+        artists: ["Edward Chee"],
+      
+      identifier: "OMN150",
+      image: "OMN150",
+      
+      
+      print: "OMN150",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AUA012","LGS308","OMN150","ROS082"],
+    sets: [Release.AuroraBlitzDeck,Release.OmensOfTheThirdAge,Release.Promos,Release.Rosetta],
+    specialImage: "OMN150",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `When this hits, create an Embodiment of Lightning token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "lightning-overload-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN115",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Lightning Overload",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "OMN115",
+      image: "OMN115",
+      
+      
+      print: "OMN115",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN115"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN115",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 4,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 4 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, create a Lightning Flow token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "lightning-overload-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN116",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Lightning Overload",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "OMN116",
+      image: "OMN116",
+      
+      
+      print: "OMN116",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN116"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN116",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 3,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 3 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, create a Lightning Flow token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Orson CaptainSass"],
+    cardIdentifier: "lightning-overload-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN117",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Lightning Overload",
+    printings: [{
+        artists: ["Orson CaptainSass"],
+      
+      identifier: "OMN117",
+      image: "OMN117",
+      
+      
+      print: "OMN117",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN117"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN117",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 2,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 2 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, create a Lightning Flow token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
   
   
   },{
@@ -5395,6 +9261,192 @@ When this hits a hero, **the crowd boos** you.`,
   
   
   },{
+    artists: ["Farhan Pratama"],
+    cardIdentifier: "meteoric-impact-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN118",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Meteoric Impact",
+    printings: [{
+        artists: ["Farhan Pratama"],
+      
+      identifier: "OMN118",
+      image: "OMN118",
+      
+      
+      print: "OMN118",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN118"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN118",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 3,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 3 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, instead deal 5 arcane damage.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Farhan Pratama"],
+    cardIdentifier: "meteoric-impact-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN119",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Meteoric Impact",
+    printings: [{
+        artists: ["Farhan Pratama"],
+      
+      identifier: "OMN119",
+      image: "OMN119",
+      
+      
+      print: "OMN119",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN119"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN119",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 2,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 2 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, instead deal 4 arcane damage.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Farhan Pratama"],
+    cardIdentifier: "meteoric-impact-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN120",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Meteoric Impact",
+    printings: [{
+        artists: ["Farhan Pratama"],
+      
+      identifier: "OMN120",
+      image: "OMN120",
+      
+      
+      print: "OMN120",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN120"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN120",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 1,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 1 arcane damage to any target.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, instead deal 3 arcane damage.`,
+    
+    
+    
+    
+    keywords: [Keyword.Starfall],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "meteoric-rise-red",
     classes: [Class.NotClassed],
@@ -5640,6 +9692,216 @@ When this hits, create a Lightning Flow token.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
+    cardIdentifier: "nebulus-cycle-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN035",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Nebulus Cycle",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "OMN035",
+      image: "OMN035",
+      
+      
+      print: "OMN035",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Cold,
+      identifier: "OMN035",
+      image: "OMN035-CF",
+      
+      
+      print: "OMN035-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN035"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN035-CF",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `When this leaves the arena, create a Ponder token.
+
+**Ward 2**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "nourishing-glow-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "OMN038",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zyggy],
+    name: "Nourishing Glow",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "OMN038",
+      image: "OMN038",
+      
+      
+      print: "OMN038",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Cold,
+      identifier: "OMN038",
+      image: "OMN038-CF",
+      
+      
+      print: "OMN038-Cold-Extended Art",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN038"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN038-CF",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Illusionist Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this enters the arena, gain 1{h}.
+
+**Ward 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Ward],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "nucleus-aetherbolt-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN135",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
+    name: "Nucleus Aetherbolt",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "OMN135",
+      image: "OMN135",
+      
+      
+      print: "OMN135",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN135"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN135",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Wizard Action",
+
+    arcane: 3,
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Deal 3 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, your hero deals 1 arcane damage to any target.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -6873,6 +11135,198 @@ The first time this deals damage to a hero, create a Ponder token.`,
   
   
   },{
+    artists: ["Jackson Tjota"],
+    cardIdentifier: "quick-succession-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN083",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Quick Succession",
+    printings: [{
+        artists: ["Jackson Tjota"],
+      
+      identifier: "OMN083",
+      image: "OMN083",
+      
+      
+      print: "OMN083",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN083"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN083",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `The next Runeblade or Lightning attack action card you play this turn gets **go again**.
+
+Your next 3 attacks this turn get +1{p} while they have go again.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Jackson Tjota"],
+    cardIdentifier: "quick-succession-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN084",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Quick Succession",
+    printings: [{
+        artists: ["Jackson Tjota"],
+      
+      identifier: "OMN084",
+      image: "OMN084",
+      
+      
+      print: "OMN084",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN084"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN084",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `The next Runeblade or Lightning attack action card you play this turn gets **go again**.
+
+Your next 2 attacks this turn get +1{p} while they have go again.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Jackson Tjota"],
+    cardIdentifier: "quick-succession-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN085",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Quick Succession",
+    printings: [{
+        artists: ["Jackson Tjota"],
+      
+      identifier: "OMN085",
+      image: "OMN085",
+      
+      
+      print: "OMN085",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN085"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN085",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Runelbade Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `The next Runeblade or Lightning attack action card you play this turn gets **go again**.
+
+Your next attack this turn get +1{p} while it has go again.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Jessketchin"],
     cardIdentifier: "razor-ring-blue",
     classes: [Class.Ninja],
@@ -7249,6 +11703,192 @@ When this hits a hero, the next action card they defend with this combat chain g
   
   
   },{
+    artists: ["João G. Santos"],
+    cardIdentifier: "rush-of-power-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN068",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Rush of Power",
+    printings: [{
+        artists: ["João G. Santos"],
+      
+      identifier: "OMN068",
+      image: "OMN068",
+      
+      
+      print: "OMN068",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN068"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN068",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p}.
+
+When this hits a hero, deal 1 arcane damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["João G. Santos"],
+    cardIdentifier: "rush-of-power-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN069",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Rush of Power",
+    printings: [{
+        artists: ["João G. Santos"],
+      
+      identifier: "OMN069",
+      image: "OMN069",
+      
+      
+      print: "OMN069",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN069"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN069",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p}.
+
+When this hits a hero, deal 1 arcane damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["João G. Santos"],
+    cardIdentifier: "rush-of-power-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN070",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Rush of Power",
+    printings: [{
+        artists: ["João G. Santos"],
+      
+      identifier: "OMN070",
+      image: "OMN070",
+      
+      
+      print: "OMN070",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN070"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN070",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets +1{p}.
+
+When this hits a hero, deal 1 arcane damage to them.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "scattering-conflux-red",
     classes: [Class.Illusionist],
@@ -7370,6 +12010,246 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     
     talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Immanuela Crovius"],
+    cardIdentifier: "seekers-gilet",
+    classes: [Class.Generic],
+    defaultImage: "OMN206",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Seeker's Gilet",
+    printings: [{
+        artists: ["Immanuela Crovius"],
+      
+      identifier: "OMN206",
+      image: "OMN206",
+      
+      
+      print: "OMN206",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN206","OUT176"],
+    sets: [Release.OmensOfTheThirdAge,Release.Outsiders],
+    specialImage: "OMN206",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Gilet: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "seekers-hood",
+    classes: [Class.Generic],
+    defaultImage: "OMN205",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Seeker's Hood",
+    printings: [{
+        artists: ["Lizhe Liang"],
+      
+      identifier: "OMN205",
+      image: "OMN205",
+      
+      
+      print: "OMN205",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN205","OUT175"],
+    sets: [Release.OmensOfTheThirdAge,Release.Outsiders],
+    specialImage: "OMN205",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Hood: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Amelia Tan"],
+    cardIdentifier: "seekers-leggings",
+    classes: [Class.Generic],
+    defaultImage: "OMN208",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Seeker's Leggings",
+    printings: [{
+        artists: ["Amelia Tan"],
+      
+      identifier: "OMN208",
+      image: "OMN208",
+      
+      
+      print: "OMN208",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN208","OUT178"],
+    sets: [Release.OmensOfTheThirdAge,Release.Outsiders],
+    specialImage: "OMN208",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Leggings: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Felicia Liang"],
+    cardIdentifier: "seekers-mitts",
+    classes: [Class.Generic],
+    defaultImage: "OMN207",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zen,Hero.Zyggy],
+    name: "Seeker's Mitts",
+    printings: [{
+        artists: ["Felicia Liang"],
+      
+      identifier: "OMN207",
+      image: "OMN207",
+      
+      
+      print: "OMN207",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN207","OUT177","SBZ006"],
+    sets: [Release.BlazeSilverAgeDeck,Release.OmensOfTheThirdAge,Release.Outsiders],
+    specialImage: "OMN207",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - {r}, destroy Seeker's Mitts: Prevent the next 1 damage that would be dealt to your hero this turn. **Opt 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.Opt],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -7695,6 +12575,254 @@ When this leaves the arena, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Daniel Jiménez","Simon Wong"],
+    cardIdentifier: "sigil-of-lightning-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN200",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Sigil of Lightning",
+    printings: [{
+        artists: ["Simon Wong"],
+      
+      identifier: "OMN200",
+      image: "OMN200",
+      
+      
+      print: "OMN200",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AUA026","LGS311","OMN200","OSC026","ROS113"],
+    sets: [Release.AuroraBlitzDeck,Release.OmensOfTheThirdAge,Release.OscilioBlitzDeck,Release.Promos,Release.Rosetta],
+    specialImage: "OMN200",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this.
+
+When this leaves the arena, create an Embodiment of Lightning token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Audy Ravindra"],
+    cardIdentifier: "singeing-flowstride-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN071",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Singeing Flowstride",
+    printings: [{
+        artists: ["Audy Ravindra"],
+      
+      identifier: "OMN071",
+      image: "OMN071",
+      
+      
+      print: "OMN071",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN071"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN071",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a hero, create a Lightning Flow token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Audy Ravindra"],
+    cardIdentifier: "singeing-flowstride-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN072",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Singeing Flowstride",
+    printings: [{
+        artists: ["Audy Ravindra"],
+      
+      identifier: "OMN072",
+      image: "OMN072",
+      
+      
+      print: "OMN072",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN072"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN072",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a hero, create a Lightning Flow token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Audy Ravindra"],
+    cardIdentifier: "singeing-flowstride-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN073",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Singeing Flowstride",
+    printings: [{
+        artists: ["Audy Ravindra"],
+      
+      identifier: "OMN073",
+      image: "OMN073",
+      
+      
+      print: "OMN073",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN073"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN073",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a hero, create a Lightning Flow token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Ilham Bahtiar"],
     cardIdentifier: "snap-fingers",
     classes: [Class.Runeblade],
@@ -7753,6 +12881,68 @@ When this leaves the arena, create a Lightning Flow token.`,
   
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "spellbane-sigil-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN201",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Spellbane Sigil",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "OMN201",
+      image: "OMN201",
+      
+      
+      print: "OMN201",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN201"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN201",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this.
+
+**Arcane Barrier X**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier],
+    
+    
+    
+  
+    
+    pitch: 3,
     
     
     
@@ -7953,6 +13143,186 @@ When this leaves the arena, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Galih M"],
+    cardIdentifier: "starflow-robes",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN143",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Taylor,Hero.Zyggy],
+    name: "Starflow Robes",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "OMN143",
+      image: "OMN143",
+      
+      
+      print: "OMN143",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN143"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN143",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Lightning Equipment - Chest",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - {r}{r}, destroy this: Prevent the next 1 damage that would be dealt to you this turn. If you prevent damage this way, create a Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "starlight-road-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN189",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Starlight Road",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "OMN189",
+      image: "OMN189",
+      
+      
+      print: "OMN189",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN189"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN189",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Create an Embodiemtn of Lightning or Lightning Flow token.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "starworld-warning-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN188",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Starworld Warning",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "OMN188",
+      image: "OMN188",
+      
+      
+      print: "OMN188",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN188"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN188",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `Create 2 Lightning Flow tokens.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Amtepra"],
     cardIdentifier: "static-shelter-yellow",
     classes: [Class.NotClassed],
@@ -8012,6 +13382,186 @@ When this leaves the arena, create a Lightning Flow token.`,
     
     pitch: 2,
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "stellar-glide-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN175",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Stellar Glide",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "OMN175",
+      image: "OMN175",
+      
+      
+      print: "OMN175",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN175"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN175",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Lightning Flow you control. If you do, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "stellar-glide-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN176",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Stellar Glide",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "OMN176",
+      image: "OMN176",
+      
+      
+      print: "OMN176",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN176"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN176",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Lightning Flow you control. If you do, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "stellar-glide-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN177",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Stellar Glide",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "OMN177",
+      image: "OMN177",
+      
+      
+      print: "OMN177",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN177"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN177",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `When this attacks, you may destroy a Lightning Flow you control. If you do, this gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
     
     
     
@@ -8087,6 +13637,186 @@ When this leaves the arena, create a Lightning Flow token.`,
   
   
   },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "stinging-sprite-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN056",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Stinging Sprite",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "OMN056",
+      image: "OMN056",
+      
+      
+      print: "OMN056",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN056"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN056",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks or defends, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "stinging-sprite-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN057",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Stinging Sprite",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "OMN057",
+      image: "OMN057",
+      
+      
+      print: "OMN057",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN057"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN057",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks or defends, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "stinging-sprite-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN058",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Stinging Sprite",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "OMN058",
+      image: "OMN058",
+      
+      
+      print: "OMN058",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN058"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN058",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this attacks or defends, deal 1 arcane damage to target hero.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "stormshard-red",
     classes: [Class.NotClassed],
@@ -8138,6 +13868,130 @@ Target Lightning attack gets +3{p}.`,
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "stormshatter-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN191",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Stormshatter",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "OMN191",
+      image: "OMN191",
+      
+      
+      print: "OMN191",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN191"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN191",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `You may destroy a Lightning Flow you control rather than pay this card's {r} cost.
+
+Target Lightning attack gets -3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "stormwhirl-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN192",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Stormwhirl",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "OMN192",
+      image: "OMN192",
+      
+      
+      print: "OMN192",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN192"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN192",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Lightning Instant",
+
+    
+    
+    cost: 1,
+    
+    
+    functionalText: `You may destroy a Lightning Flow you control rather than pay this card's {r} cost.
+
+Target Lightning attack gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
+    
+    
     
     
     
@@ -8225,6 +14079,192 @@ When this hits a hero, {t} them.`,
   
   
   },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "stunning-swipe-red",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN074",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Stunning Swipe",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "OMN074",
+      image: "OMN074",
+      
+      
+      print: "OMN074",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN074"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN074",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a Lightning hero, {t} them or a weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "stunning-swipe-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN075",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Stunning Swipe",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "OMN075",
+      image: "OMN075",
+      
+      
+      print: "OMN075",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN075"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN075",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a Lightning hero, {t} them or a weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "stunning-swipe-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "OMN076",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
+    name: "Stunning Swipe",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "OMN076",
+      image: "OMN076",
+      
+      
+      print: "OMN076",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN076"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN076",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Runeblade Action - Attack",
+
+    arcane: 1,
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Quickstrike** - If this has go again, it gets "When this attacks a hero, deal 1 arcane damage to them."
+
+The first time this deals damage to a Lightning hero, {t} them or a weapon they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Quickstrike],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "swift-pickup-red",
     classes: [Class.Ninja],
@@ -8284,6 +14324,192 @@ When this hits a hero, {t} them.`,
     
     
     
+  
+  
+  },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "tap-lessons-past-red",
+    classes: [Class.Wizard],
+    defaultImage: "OMN124",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Tap Lessons Past",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "OMN124",
+      image: "OMN124",
+      
+      
+      print: "OMN124",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN124"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN124",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 4,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 4 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, put an instant card from your graveyard on the bottom of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "tap-lessons-past-yellow",
+    classes: [Class.Wizard],
+    defaultImage: "OMN125",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Tap Lessons Past",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "OMN125",
+      image: "OMN125",
+      
+      
+      print: "OMN125",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN125"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN125",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 3,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 3 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, put an instant card from your graveyard on the bottom of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Yosi Saputra"],
+    cardIdentifier: "tap-lessons-past-blue",
+    classes: [Class.Wizard],
+    defaultImage: "OMN126",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Broscilio,Hero.Oscilio],
+    name: "Tap Lessons Past",
+    printings: [{
+        artists: ["Yosi Saputra"],
+      
+      identifier: "OMN126",
+      image: "OMN126",
+      
+      
+      print: "OMN126",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN126"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN126",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Lightning Wizard Action",
+
+    arcane: 2,
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Deal 2 arcane damage to any target.
+
+If this deals damage, you may {t} your hero. If you do, put an instant card from your graveyard on the bottom of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
   
   
   },{
@@ -8494,6 +14720,192 @@ The first time this deals damage to a hero, they discard a card.`,
     
     
     
+  
+  
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "thunderous-retort-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN196",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Thunderous Retort",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "OMN196",
+      image: "OMN196",
+      
+      
+      print: "OMN196",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN196"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN196",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this, then your next attack this turn gets **go again**.
+
+**Arcane Barrier 3**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "thunderous-retort-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN197",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Thunderous Retort",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "OMN197",
+      image: "OMN197",
+      
+      
+      print: "OMN197",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN197"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN197",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this, then your next attack this turn gets **go again**.
+
+**Arcane Barrier 2**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "thunderous-retort-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN198",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Thunderous Retort",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "OMN198",
+      image: "OMN198",
+      
+      
+      print: "OMN198",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN198"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN198",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Lightning Instant - Aura",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `At the beginning of your action phase, destroy this, then your next attack this turn gets **go again**.
+
+**Arcane Barrier 1**`,
+    
+    
+    
+    
+    keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
   
   
   },{
@@ -8758,6 +15170,332 @@ Whenever this fragments, you may put a Lightning instant card from your graveyar
     
     pitch: 1,
     power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "visionary-of-orbits-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN151",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Visionary of Orbits",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "OMN151",
+      image: "OMN151",
+      
+      
+      print: "OMN151",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["OMN151"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN151",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 2,
+    
+    functionalText: `When this hits, you may put an instant card from your graveyard on the bottom of your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "volatile-fluxor-red",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN178",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Volatile Fluxor",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "OMN178",
+      image: "OMN178",
+      
+      
+      print: "OMN178",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN178"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN178",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you've played an instant card this chain link, this gets +3{p}.
+
+When this hits, create a Lightning Flow token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "volatile-fluxor-yellow",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN179",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Volatile Fluxor",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "OMN179",
+      image: "OMN179",
+      
+      
+      print: "OMN179",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN179"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN179",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you've played an instant card this chain link, this gets +2{p}.
+
+When this hits, create a Lightning Flow token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Alexis Susani"],
+    cardIdentifier: "volatile-fluxor-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN180",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Volatile Fluxor",
+    printings: [{
+        artists: ["Alexis Susani"],
+      
+      identifier: "OMN180",
+      image: "OMN180",
+      
+      
+      print: "OMN180",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["OMN180"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN180",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Lightning Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `If you've played an instant card this chain link, this gets +1{p}.
+
+When this hits, create a Lightning Flow token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Lightning],
+  
+  
+  },{
+    artists: ["Fajareka Setiawan"],
+    cardIdentifier: "voltaris-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "OMN000-CF",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
+    name: "Voltaris",
+    printings: [{
+        artists: ["Fajareka Setiawan"],
+      foiling: Foiling.Cold,
+      identifier: "OMN000",
+      image: "OMN000-CF",
+      
+      
+      print: "OMN000-Cold",
+      rarity: Rarity.Fabled,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },{
+        artists: ["Fajareka Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN000",
+      image: "OMN000-RF",
+      
+      
+      print: "OMN000-Rainbow",
+      rarity: Rarity.Fabled,
+      set: Release.OmensOfTheThirdAge,
+      
+      
+    },],
+    rarities: [Rarity.Fabled],
+    rarity: Rarity.Fabled,
+    setIdentifiers: ["OMN000"],
+    sets: [Release.OmensOfTheThirdAge],
+    specialImage: "OMN000-CF",
+    subtypes: [Subtype.Gem],
+    types: [Type.Resource],
+    typeText: "Lightning Resource - Gem",
+
+    
+    
+    
+    
+    
+    functionalText: `**Legendary**
+
+When this is pitched, create a Lightning Flow token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Legendary],
+    
+    
+    
+  
+    
+    pitch: 3,
+    
     
     
     
