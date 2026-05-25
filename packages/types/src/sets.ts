@@ -1970,7 +1970,7 @@ export const releases: ReleaseInfo[] = [
     releaseDate: "2026-09-25 12:00",
     releaseType: ReleaseType.ExpansionBooster,
     setIdentifiers: ["iar"],
-    talents: [],
+    talents: [Talent.Shadow],
   },
 ];
 

@@ -179,10 +179,10 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
       
       
     },],
-    rarities: [Rarity.Basic,Rarity.Common],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AZS002","OMN003"],
-    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    setIdentifiers: ["AZS002","GEM142","OMN003"],
+    sets: [Release.ArmoryDeckZyggy,Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN003",
     subtypes: [Subtype.TwoHanded,Subtype.Orb],
     types: [Type.Weapon],
@@ -1463,10 +1463,10 @@ When this is equipped, create a Spellbane Aegis token.
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OMN148"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM170","OMN148"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN148",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -3105,10 +3105,10 @@ At the start of your turn, put this into your soul.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN130"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM156","OMN130"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN130",
     subtypes: [],
     types: [Type.Instant],
@@ -3167,10 +3167,10 @@ At the start of your turn, put this into your soul.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN131"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM157","OMN131"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN131",
     subtypes: [],
     types: [Type.Instant],
@@ -4727,10 +4727,10 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AZS008","OMN018"],
-    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    setIdentifiers: ["AZS008","GEM150","OMN018"],
+    sets: [Release.ArmoryDeckZyggy,Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN018",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -4975,10 +4975,10 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN163"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM171","OMN163"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN163",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -5155,14 +5155,14 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN080"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM154","OMN080"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN080",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
     
     
@@ -5226,7 +5226,7 @@ Create a Lightning Flow token.
     specialImage: "OMN081",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
     
     
@@ -5290,7 +5290,7 @@ Create a Lightning Flow token.
     specialImage: "OMN082",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
     
     
@@ -6439,10 +6439,10 @@ This can't be defended by equipment or reaction cards.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN181"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM173","OMN181"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN181",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -6927,10 +6927,10 @@ When this hits, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OMN149"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM172","OMN149"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN149",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -8971,10 +8971,10 @@ At the beginning of your action phase, destroy this.`,
       
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["OMN247"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM145","OMN247"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN247",
     subtypes: [Subtype.OneHanded,Subtype.Axe,Subtype.Hammer],
     types: [Type.Weapon],
@@ -10523,10 +10523,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       
       
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["OMN230"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM146","OMN230"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN230",
     subtypes: [Subtype.TwoHanded,Subtype.Log],
     types: [Type.Weapon],
@@ -10969,10 +10969,10 @@ The first time this deals damage to a hero, create a Ponder token.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN021"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM151","OMN021"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN021",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -11162,7 +11162,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     specialImage: "OMN083",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
     
     
@@ -11226,7 +11226,7 @@ Your next 3 attacks this turn get +1{p} while they have go again.
     specialImage: "OMN084",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
     
     
@@ -11290,7 +11290,7 @@ Your next 2 attacks this turn get +1{p} while they have go again.
     specialImage: "OMN085",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
-    typeText: "Lightning Runelbade Action",
+    typeText: "Lightning Runeblade Action",
 
     
     
@@ -11971,10 +11971,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       
       
     },],
-    rarities: [Rarity.Basic,Rarity.Common],
+    rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["OMN049","SBA002"],
-    sets: [Release.BriarSilverAgeDeck,Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM143","OMN049","SBA002"],
+    sets: [Release.BriarSilverAgeDeck,Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN049",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
@@ -12335,10 +12335,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AZS013","OMN024"],
-    sets: [Release.ArmoryDeckZyggy,Release.OmensOfTheThirdAge],
+    setIdentifiers: ["AZS013","GEM152","OMN024"],
+    sets: [Release.ArmoryDeckZyggy,Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN024",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -13235,10 +13235,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["OMN189"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM174","OMN189"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN189",
     subtypes: [],
     types: [Type.Instant],
@@ -13249,7 +13249,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
     cost: 0,
     
     
-    functionalText: `Create an Embodiemtn of Lightning or Lightning Flow token.`,
+    functionalText: `Create an Embodiment of Lightning or Lightning Flow token.`,
     
     
     
@@ -13669,10 +13669,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["OMN056"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM153","OMN056"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN056",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -14638,7 +14638,7 @@ The first time this deals damage to a hero, they discard a card.`,
     
     
     
-    
+    keywords: [Keyword.Steal],
     
     
     
@@ -15783,10 +15783,10 @@ When this hits, create a Lightning Flow token.`,
       
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["OMN096"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["GEM144","OMN096"],
+    sets: [Release.GEM,Release.OmensOfTheThirdAge],
     specialImage: "OMN096",
     subtypes: [Subtype.TwoHanded,Subtype.Staff],
     types: [Type.Weapon],

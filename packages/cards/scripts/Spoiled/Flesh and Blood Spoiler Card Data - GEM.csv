@@ -75,55 +75,107 @@ GEM137,GEM,Engulfing Shadows,Yellow,2,,,,,,,,,,,,,,,,,,,,,P,R,EA,Kimberly Panton
 GEM138,GEM,Hulk Up,Blue,3,,,,,,,,,,,,,,,,,,,,,P,R,EA,Tomasz Jedruszek,,,GEM138,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM138-RF.png,,,P,,EA,Tomasz Jedruszek,,,GEM138,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM138.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM139,GEM,Snarky Prick,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,Nathaniel Himawan,,,GEM139,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM139-RF.png,,,P,,EA,Nathaniel Himawan,,,GEM139,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM139.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM140,GEM,Reinforce the Line,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,"EA, AA",,,,GEM140,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM140-RF.png,,,P,,"EA, AA",,,,GEM140,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM140.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM141,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM141,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM141.png,,,,,,,,,GEM141,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM141.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM142,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM142,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM142.png,,,,,,,,,GEM142,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM143,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM143,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM143.png,,,,,,,,,GEM143,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM144,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM144,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM144.png,,,,,,,,,GEM144,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM144.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM145,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM145,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM145.png,,,,,,,,,GEM145,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM146,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM146,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM146.png,,,,,,,,,GEM146,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM146.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM141,GEM,Dash I/O,,,,,,,,,,,,,,,,,,,,,,,P,C,FA,,,,GEM141,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM141-MV.png,,,P,C,FA,,,,GEM141,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM141-MV_BACK.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM142,GEM,Aphrodias,,,,,,,,2,"Lightning, Illusionist, Weapon, Orb, 2H",,,Instant,,,,,"**Instant** - {r}, {t}: Deal 2 arcane damage to target hero. Activate this only if an aura with a holo counter has entered the arena under your control this turn.",Lightning Illusionist Weapon - Orb (2H),,,,,P,C,,Carlos Cruchaga,,,GEM142,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM142-CF.png,,,,,,Carlos Cruchaga,,,GEM142,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM142.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM143,GEM,"Scorpio, Comet Tail",,,,1,,,,1,"Lightning, Runeblade, Weapon, Sword, 2H",,,,,,,,"**Action** - {t}: **Attack**. Activate this only if you control a Lightning attack.
+
+When this hits a hero, deal 1 arcane damage to them.",Lightning Runeblade Weapon - Sword (2H),,,,,P,C,,Surya Prasetya,,,GEM143,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM143-CF.png,,,,,,Surya Prasetya,,,GEM143,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM143.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM144,GEM,"Volzar, Meteor Storm",,,,,,,,,"Lightning, Wizard, Weapon, Staff, 2H",,Amp 1,,,,,,**Instant** - {t}: **Amp 1**. Activate this only if an instant card has been put into your graveyard this turn.,Lightning Wizard Weapon - Staff (2H),,,,,P,C,,Satriasa,,,GEM144,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM144-CF.png,,,,,,Satriasa,,,GEM144,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM144.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM145,GEM,Lionclaw Maul,,,,1,,,,,"Reviled, Guardian, Weapon, Hammer, Axe, 1H",,The Crowd Boos,,,,,,"**Action** - {r}{r}, {t}: **Attack**
+
+If this has {p} greater than its base, it gets +1{p}.
+
+When this hits a hero, **the crowd boos** you.",Reviled Guardian Weapon - Hammer Axe (1H),,,No,,P,C,,Galih M,,,GEM145,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM145-CF.png,,,,,,Galih M,,,GEM145,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM145.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM146,GEM,Pile Driver,,,,6,,,,,"Guardian, Weapon, Log, 2H",,"Betsy Specialization, Wager",,,,,,"**Betsy Specialization**
+
+**Action** - {r}{r}{r}{r}, {t}: **Attack**
+
+When this attacks, you may **wager** a Gold token with the defending hero.",Guardian Weapon - Log (2H),,,No,,P,C,,Henrique Lindner,,,GEM146,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM146-CF.png,,,,,,Henrique Lindner,,,GEM146,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM146.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM147,GEM,Teklo Pounder,Blue,3,,,,,,,,,,,,,,,,,,,,,P,C,,,,,GEM147,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM147-CF.png,,,,,,,,,GEM147,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM147.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM148,GEM,Stardust Spike,Red,1,0,,,,,,"Lightning, Illusionist, Instant, Aura",,"Amp 1, Ward 2",,,,,,"When this leaves the arena, gain {r} and **amp 1**.
 
 **Ward 2**",Lightning Illusionist Instant - Aura,,,No,,P,C,EA,Reinaldo Indrajaya,,,GEM148,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM148-CF.png,,,,,,Reinaldo Indrajaya,,,GEM148,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM148.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM149,GEM,Dyadic Carapace,,,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM149,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM149-RF.png,,,,,,,,,GEM149,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM149.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM150,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM150,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM150.png,,,,,,,,,GEM150,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM150.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM151,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM151,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM151.png,,,,,,,,,GEM151,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM152,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM152,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM152.png,,,,,,,,,GEM152,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM153,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM153,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM153.png,,,,,,,,,GEM153,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM153.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM154,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM154,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM154.png,,,,,,,,,GEM154,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM154.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM150,GEM,Ebbing Arcstride,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,"Go again, Fragment",,,,,,"Whenever this fragments, it gets **go again**.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,P,R,EA,Carlos Cruchaga,,,GEM150,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM150-RF.png,,,P,,EA,Carlos Cruchaga,,,GEM150,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM150.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM151,GEM,Pulsing Cardia,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, gain {r}.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,P,R,EA,Esty Swandana,,,GEM151,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM151-RF.png,,,P,,EA,Esty Swandana,,,GEM151,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM151.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM152,GEM,Shattering Flowtide,Red,1,0,5,3,,,,"Lightning, Illusionist, Action, Attack",,Fragment,,,,,,"Whenever this fragments, create a Lightning Flow token.
+
+**Fragment**",Lightning Illusionist Action - Attack,,,,,P,R,EA,Rio Sabda,,,GEM152,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM152-RF.png,,,P,,EA,Rio Sabda,,,GEM152,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM152.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM153,GEM,Stinging Sprite,Red,1,0,3,2,,,1,"Lightning, Runeblade, Action, Attack",,,,,,,,"When this attacks or defends, deal 1 arcane damage to target hero.",Lightning Runeblade Action - Attack,,,,,P,R,EA,Faizal Fikri,,,GEM153,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM153-RF.png,,,P,,EA,Faizal Fikri,,,GEM153,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM153.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM154,GEM,Electryn Joltstep,Red,1,1,,3,,,,"Lightning, Runeblade, Action",,Go again,,,,,,"Your next Runeblade or Lightning attack this turn gets +3{p}.
+
+Create a Lightning Flow token.
+
+**Go again**",Lightning Runeblade Action,,,,,P,R,EA,Jefrey Yonathan,,,GEM154,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM154-RF.png,,,P,,EA,Jefrey Yonathan,,,GEM154,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM154.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM155,GEM,Path of Same Ends,Red,1,0,3,2,,,,"Lightning, Runeblade, Action, Attack",,Go again,,,,,,"When this attacks a hero, deal 1 arcane damage to them. If damage is dealt this way, this gets **go again**.
 
 **Instant** - {r}: This gets **go again**.",Lightning Runeblade Action - Attack,,,,,P,R,EA,Saad Irfan,,,GEM155,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM155-RF.png,,,P,,EA,Saad Irfan,,,GEM155,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM155.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM156,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM156,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM156.png,,,,,,,,,GEM156,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM157,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM157,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM157.png,,,,,,,,,GEM157,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM156,GEM,Constella Contemplation,Yellow,2,0,,,,,1,"Lightning, Wizard, Instant",,Starfall,,,,,,"Create a Ponder token.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.",Lightning Wizard Instant,,,,,P,R,EA,Olga Tereshenko,,,GEM156,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM156-RF.png,,,P,,EA,Olga Tereshenko,,,GEM156,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM156.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM157,GEM,Constella Flowslide,Yellow,2,0,,,,,1,"Lightning, Wizard, Instant",,Starfall,,,,,,"Create a Lightning Flow token.
+
+**Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.",Lightning Wizard Instant,,,,,P,R,EA,Carlos Cruchaga,,,GEM157,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM157-RF.png,,,P,,EA,Carlos Cruchaga,,,GEM157,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM157.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM158,GEM,Constella Uplift,Yellow,2,0,,,,,,"Lightning, Wizard, Instant",,Starfall,,,,,,"{u} a staff you control.
 
 **Starfall** - If an instant card has been put into your graveyard this turn, deal 1 arcane damage to target hero.",Lightning Wizard Instant,,,,,P,R,EA,Muhammad Fajri,,,GEM158,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM158-RF.png,,,P,,EA,Muhammad Fajri,,,GEM158,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM158.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM159,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM159,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM159.png,,,,,,,,,GEM159,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM159.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM160,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM160,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM160.png,,,,,,,,,GEM160,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM160.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM161,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM161,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM161.png,,,,,,,,,GEM161,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM161.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM162,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM162,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM162.png,,,,,,,,,GEM162,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM162.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM163,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM163,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM163.png,,,,,,,,,GEM163,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM163.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM164,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM164,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM164.png,,,,,,,,,GEM164,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM165,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM165,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM165.png,,,,,,,,,GEM165,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM166,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM166,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM166.png,,,,,,,,,GEM166,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM166.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM167,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM167,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM167.png,,,,,,,,,GEM167,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM167.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM168,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM168,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM168.png,,,,,,,,,GEM168,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM168.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM169,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM169,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM169.png,,,,,,,,,GEM169,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM169.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM170,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM170,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM170.png,,,,,,,,,GEM170,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM171,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM171,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM171.png,,,,,,,,,GEM171,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM171.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM172,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM172,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM172.png,,,,,,,,,GEM172,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM173,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM173,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM173.png,,,,,,,,,GEM173,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM173.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM174,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM174,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM174.png,,,,,,,,,GEM174,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM174.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM159,GEM,Energy of the Audience,Yellow,2,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM159,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM159-RF.png,,,P,,EA,,,,GEM159,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM159.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM160,GEM,Creep,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,Henrique Lindner,,,GEM160,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM160-RF.png,,,P,,EA,Henrique Lindner,,,GEM160,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM160.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM161,GEM,Alpha Instinct,Blue,3,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM161,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM161-RF.png,,,P,,EA,,,,GEM161,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM161.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM162,GEM,Run Roughshod,Blue,3,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM162,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM162-RF.png,,,P,,EA,,,,GEM162,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM162.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM163,GEM,Seek Vengeance,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM163,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM163-RF.png,,,P,,EA,,,,GEM163,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM163.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM164,GEM,Brimming Blade,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM164,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM164-RF.png,,,P,,EA,,,,GEM164,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM164.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM165,GEM,Toe the Line,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,Mario Wibisono,,,GEM165,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM165-RF.png,,,P,,EA,Mario Wibisono,,,GEM165,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM165.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM166,GEM,Speed Demon,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM166,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM166-RF.png,,,P,,EA,,,,GEM166,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM166.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM167,GEM,Beneath the Surface,Yellow,2,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM167,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM167-RF.png,,,P,,EA,,,,GEM167,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM167.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM168,GEM,Lighten the Load,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM168,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM168-RF.png,,,P,,EA,,,,GEM168,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM168.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM169,GEM,Flourish,Yellow,2,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM169,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM169-RF.png,,,P,,EA,,,,GEM169,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM169.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM170,GEM,Beckoning Brilliance,Red,1,,,,,,,,,,,,,,,,,,,,,P,R,EA,,,,GEM170,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM170-RF.png,,,P,,EA,,,,GEM170,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM170.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM171,GEM,Electrolyze,Red,1,1,4,0,,,,"Lightning, Action, Attack",,Go again,,,,,,**Go again**,Lightning Action - Attack,,,,,P,R,EA,Rio Sabda,,,GEM171,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM171-RF.png,,,P,,EA,Rio Sabda,,,GEM171,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM171.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM172,GEM,Flowshard Elemental,Red,1,0,4,2,,,,"Lightning, Action, Attack",,Go again,,,,,,"When this attacks, you may discard an instant card. If you do, create a Lightning Flow token and this gets **go again**.",Lightning Action - Attack,,,,,P,R,EA,Tomasz Jedruszek,,,GEM172,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM172-RF.png,,,P,,EA,Tomasz Jedruszek,,,GEM172,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM172.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM173,GEM,Flittering Forcefield,Red,1,0,,3,,,,"Lightning, Defense Reaction",,,,,,,,"While this is defending, if you've played an instant card this chain link, this gets +1{d}.",Lightning Defense Reaction,,,,,P,R,EA,Marco González,,,GEM173,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM173-RF.png,,,P,,EA,Marco González,,,GEM173,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM173.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM174,GEM,Starlight Road,Blue,3,0,,,,,,"Lightning, Instant",,,,,,,,Create an Embodiment of Lightning or Lightning Flow token.,Lightning Instant,,,,,P,R,EA,Carlos Cruchaga,,,GEM174,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM174-RF.png,,,P,,EA,Carlos Cruchaga,,,GEM174,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM174.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM175,GEM,Conflicting Thoughts,Red,1,0,4,3,,,,"Generic, Action, Attack",,Opt 1,,,,,,"When this attacks, **opt 1**.",Generic Action - Attack,,,,,P,R,EA,Pavel Rtishchev (Klaher),,,GEM175,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM175-RF.png,,,P,,EA,Pavel Rtishchev (Klaher),,,GEM175,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM175.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM176,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM176,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM176.png,,,,,,,,,GEM176,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM177,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM177,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM177.png,,,,,,,,,GEM177,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM177.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM178,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM178,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM178.png,,,,,,,,,GEM178,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM179,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM179,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM179.png,,,,,,,,,GEM179,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM180,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM180,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM180.png,,,,,,,,,GEM180,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM180.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM181,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM181,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM181.png,,,,,,,,,GEM181,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM181.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM182,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM182,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM182.png,,,,,,,,,GEM182,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM182.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-GEM183,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM183,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM183.png,,,,,,,,,GEM183,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM183.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM176,GEM,Toughen Up,Blue,3,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM176,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM176.png,,,P,,EA,,,,GEM176,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM176.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM177,GEM,Runechant of Greed,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,Usurp,"This counts as a Runechant. When an attack usurps this, draw a card.
+
+When this is destroyed, create a Runechant token.
+
+At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,P,R,EA,MJ Fetesio,,,GEM177,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM177-RF.png,,,,,,MJ Fetesio,,,GEM177,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM177.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM178,GEM,Runechant of Envy,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,Usurp,"This counts as a Runechant. When an attack usurps this, gain 1{h}.
+
+When this is destroyed, create a Runechant token.
+
+At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,P,R,EA,MJ Fetesio,,,GEM178,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM178-RF.png,,,,,,MJ Fetesio,,,GEM178,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM178.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM179,GEM,Runechant of Gluttony,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,Usurp,"This counts as a Runechant. When an attack usurps this, gain {r}.
+
+When this is destroyed, create a Runechant token.
+
+At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,P,R,EA,MJ Fetesio,,,GEM179,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM179-RF.png,,,,,,MJ Fetesio,,,GEM179,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM179.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM180,GEM,Runechant of Lust,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,Usurp,"This counts as a Runechant. When an attack usurps this, create a Runechant token.
+
+When this is destroyed, create a Runechant token.
+
+At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,P,R,EA,MJ Fetesio,,,GEM180,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM180-RF.png,,,,,,MJ Fetesio,,,GEM180,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM180.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM181,GEM,Runechant of Pride,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,,,Usurp,"This counts as a Runechant. When an attack usurps this, it gets +1{p}.
+
+When this is destroyed, create a Runechant token.
+
+At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,P,R,EA,MJ Fetesio,,,GEM181,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM181-RF.png,,,,,,MJ Fetesio,,,GEM181,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM181.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM182,GEM,Runechant of Sloth,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,Go again,,Usurp,"This counts as a Runechant. When an attack usurps this, it gets **go again**.
+
+When this is destroyed, create a Runechant token.
+
+At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,P,R,EA,MJ Fetesio,,,GEM182,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM182-RF.png,,,,,,MJ Fetesio,,,GEM182,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM182.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+GEM183,GEM,Runechant of Wrath,Yellow,2,0,,,,,,"Runeblade, Instant, Aura",,,,,Overpower,,Usurp,"This counts as a Runechant. When an attack usurps this, it gets **overpower**.
+
+When this is destroyed, create a Runechant token.
+
+At the beginning of your action phase or when you play an attack action card, destroy this.",Runeblade Instant - Aura,,,,,P,R,EA,MJ Fetesio,,,GEM183,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM183-RF.png,,,,,,MJ Fetesio,,,GEM183,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM183.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM184,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM184,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM184.png,,,,,,,,,GEM184,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM184.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM185,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM185,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM185.png,,,,,,,,,GEM185,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM185.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 GEM186,GEM,,,,,,,,,,,,,,,,,,,,,,,,P,,,,,,GEM186,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM186.png,,,,,,,,,GEM186,https://storage.googleapis.com/fabmaster/cardfaces/GEM/GEM186.png,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
