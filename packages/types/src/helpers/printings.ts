@@ -59,14 +59,14 @@ export const orderedFullSetBlackBorderIdentifiers = Object.keys(
   .reverse()
   .map((set) => set.toUpperCase());
 
-const specialImagePrintingOverrides: {
+const SPECIAL_IMAGE_PRINTING_OVERRIDES: {
   [key: string]: { print: string };
 } = {
   "adaptive-plating": {
     print: "EVO013-Cold",
   },
   "command-and-conquer-red": {
-    print: "DYN000-Cold-Alternate Art-Extended Art",
+    print: "ANQ009-Rainbow-Alternate Art-Alternate Border-Extended Art",
   },
   "cracked-bauble-yellow": {
     print: "LGS083-Cold",
@@ -125,9 +125,322 @@ export const getSpecialPrinting = (
   printings: Printing[],
 ): Printing => {
   const { cardIdentifier } = card;
-  const matchingOverride = Object.entries(specialImagePrintingOverrides).find(
+  const matchingOverride = Object.entries(
+    SPECIAL_IMAGE_PRINTING_OVERRIDES,
+  ).find(([identifier]) => identifier === cardIdentifier);
+
+  const printingsIncludeMatchingOverride =
+    !!matchingOverride &&
+    printings.some((printing) => {
+      const [, { print }] = matchingOverride;
+
+      return printing.print === print;
+    });
+
+  if (printingsIncludeMatchingOverride) {
+    const [, { print }] = matchingOverride;
+    const matchingPrint = printings.find(
+      (printing) => printing.print === print,
+    );
+    return matchingPrint || printings[0];
+  } else {
+    let firstImage: Printing | undefined;
+
+    let alternativeArt: Printing | undefined;
+    let alternateBorder: Printing | undefined;
+    let alternateText: Printing | undefined;
+    let coldExtendedArt: Printing | undefined;
+    let coldFullArt: Printing | undefined;
+    let coldFullArt2: Printing | undefined;
+    let extendedArt: Printing | undefined;
+    let backFullArt: Printing | undefined;
+    let frontFullArt: Printing | undefined;
+    let firstFullArt: Printing | undefined;
+    let nonFoilExtendedArt: Printing | undefined;
+    let promoExtendedArt: Printing | undefined;
+    let fullArtAlternateArt: Printing | undefined;
+
+    let marvel: Printing | undefined;
+
+    let alphaEdition: Printing | undefined;
+    let firstEdition: Printing | undefined;
+    let promoEdition: Printing | undefined;
+    let unlimitedEdition: Printing | undefined;
+
+    let coldFoil: Printing | undefined;
+    let promoColdFoil: Printing | undefined;
+
+    for (const printing of printings) {
+      const { edition, foiling, identifier, image, print, treatments } =
+        printing;
+
+      const upperCaseImage = image?.toUpperCase() || "";
+
+      // Don't include Pro Tour, etc. hero cards for special printings because they're missing functional text
+      const isMissingFunctionalText = identifier.toLowerCase().includes("win");
+      const hasImage = !!upperCaseImage;
+      const isGoldFoil = foiling === Foiling.Gold;
+      const isWhiteBorder = upperCaseImage.includes("HP");
+      const shouldIgnore = printingsToIgnore.includes(print);
+      const shouldConsiderPrinting =
+        hasImage &&
+        !isMissingFunctionalText &&
+        !isWhiteBorder &&
+        !shouldIgnore &&
+        !isGoldFoil;
+
+      if (shouldConsiderPrinting) {
+        if (!firstImage) {
+          firstImage = printing;
+        }
+
+        if (treatments?.includes(Treatment.FA)) {
+          firstFullArt = printing;
+          if (foiling === Foiling.Cold) {
+            coldFullArt = printing;
+            if (upperCaseImage.includes("_V3")) {
+              coldFullArt2 = printing;
+              break;
+            }
+          }
+
+          if (upperCaseImage.includes("BACK")) {
+            backFullArt = printing;
+          } else {
+            frontFullArt = printing;
+          }
+        }
+
+        if (treatments?.includes(Treatment.EA)) {
+          extendedArt = printing;
+          if (foiling === Foiling.Cold) {
+            coldExtendedArt = printing;
+          }
+          if (!foiling) {
+            nonFoilExtendedArt = printing;
+          }
+          if (edition === ReleaseEdition.Promo) {
+            promoExtendedArt = printing;
+          }
+        }
+        if (treatments?.includes(Treatment.AA)) {
+          alternativeArt = printing;
+        }
+        if (treatments?.includes(Treatment.AB)) {
+          alternateBorder = printing;
+        }
+        if (treatments?.includes(Treatment.AT)) {
+          alternateText = printing;
+        }
+
+        if (
+          (upperCaseImage.includes("_V2") || upperCaseImage.includes("-MV")) &&
+          treatments?.includes(Treatment.FA)
+        ) {
+          marvel = printing;
+        }
+
+        if (edition === ReleaseEdition.Alpha) {
+          alphaEdition = printing;
+        } else if (edition === ReleaseEdition.First) {
+          firstEdition = printing;
+        } else if (edition === ReleaseEdition.Promo) {
+          promoEdition = printing;
+        } else if (edition === ReleaseEdition.Unlimited) {
+          unlimitedEdition = printing;
+        }
+
+        if (foiling === Foiling.Cold) {
+          coldFoil = printing;
+          if (edition === ReleaseEdition.Promo) {
+            promoColdFoil = printing;
+          }
+        }
+      }
+    }
+
+    const finalFullArt =
+      fullArtAlternateArt ||
+      coldFullArt2 ||
+      frontFullArt ||
+      backFullArt ||
+      coldFullArt ||
+      firstFullArt;
+
+    return (
+      finalFullArt ||
+      coldExtendedArt ||
+      marvel ||
+      promoExtendedArt ||
+      nonFoilExtendedArt ||
+      extendedArt ||
+      alternateBorder ||
+      alternativeArt ||
+      alternateText ||
+      promoColdFoil ||
+      alphaEdition ||
+      firstEdition ||
+      promoEdition ||
+      unlimitedEdition ||
+      coldFoil ||
+      (firstImage as Printing)
+    );
+  }
+};
+
+const DEFAULT_IMAGE_PRINTING_OVERRIDES: {
+  [key: string]: { print: string };
+} = {
+  "command-and-conquer-red": {
+    print: "HNT260",
+  },
+  "fyendals-spring-tunic": {
+    print: "EVO249",
+  },
+  might: {
+    print: "TER028",
+  },
+  "pitfall-trap-yellow": {
+    print: "LGS151-Rainbow",
+  },
+  "portside-exchange-blue": {
+    print: "SEA145",
+  },
+  "rockslide-trap-blue": {
+    print: "LGS152-Rainbow",
+  },
+  "rosetta-thorn": {
+    print: "ELE222-First",
+  },
+  "spectral-shield": {
+    print: "MST158",
+  },
+  "tripwire-trap-red": {
+    print: "LGS150-Rainbow",
+  },
+  vigor: {
+    print: "HVY242",
+  },
+  "wreck-havoc-red": {
+    print: "OUT198",
+  },
+};
+
+export const getDefaultPrinting = (
+  card: { cardIdentifier: string; name: string },
+  printings: Printing[],
+): Printing => {
+  const { cardIdentifier } = card;
+  const matchingOverride = Object.entries(
+    DEFAULT_IMAGE_PRINTING_OVERRIDES,
+  ).find(([identifier]) => identifier === cardIdentifier);
+
+  const printingsIncludeMatchingOverride =
+    !!matchingOverride &&
+    printings.some((printing) => {
+      const [, { print }] = matchingOverride;
+
+      return printing.print === print;
+    });
+
+  if (printingsIncludeMatchingOverride) {
+    const [, { print }] = matchingOverride;
+    const matchingPrint = printings.find(
+      (printing) => printing.print === print,
+    );
+    return matchingPrint || printings[0];
+  } else {
+    let firstImage: Printing | undefined;
+    let nonPromoImage: Printing | undefined;
+
+    for (const printing of printings) {
+      const { edition, image, treatment } = printing;
+
+      const hasImage = !!image;
+      const isWhiteBorder = image?.includes("HP");
+      const shouldConsiderPrinting = hasImage && !isWhiteBorder;
+
+      if (shouldConsiderPrinting) {
+        if (!firstImage) {
+          firstImage = printing;
+        }
+
+        if (
+          !nonPromoImage &&
+          edition !== ReleaseEdition.Promo &&
+          treatment !== Treatment.FA
+        ) {
+          nonPromoImage = printing;
+        }
+      }
+
+      if (firstImage && nonPromoImage) {
+        break;
+      }
+    }
+
+    return nonPromoImage || firstImage || printings[0];
+  }
+};
+
+const BOOMER_IMAGE_PRINTING_OVERRIDES: {
+  [key: string]: { print: string };
+} = {};
+
+export const getBoomerPrinting = (
+  card: { cardIdentifier: string; name: string },
+  printings: Printing[],
+): Printing => {
+  const { cardIdentifier } = card;
+  const matchingOverride = Object.entries(BOOMER_IMAGE_PRINTING_OVERRIDES).find(
     ([identifier]) => identifier === cardIdentifier,
   );
+
+  const printingsIncludeMatchingOverride =
+    !!matchingOverride &&
+    printings.some((printing) => {
+      const [, { print }] = matchingOverride;
+
+      return printing.print === print;
+    });
+
+  if (printingsIncludeMatchingOverride) {
+    const [, { print }] = matchingOverride;
+    const matchingPrint = printings.find(
+      (printing) => printing.print === print,
+    );
+    return matchingPrint || printings[0];
+  } else {
+    let firstPrinting: Printing | undefined =
+      printings.length > 0 ? printings[0] : undefined;
+
+    for (const release of Object.values(fullSetIdentifiers)) {
+      const matchingPrinting = printings.find(
+        (printing) => printing.set === release,
+      );
+
+      if (matchingPrinting) {
+        firstPrinting = matchingPrinting;
+        break;
+      }
+    }
+
+    return firstPrinting as Printing;
+  }
+};
+
+const MAX_RARITY_IMAGE_PRINTING_OVERRIDES: {
+  [key: string]: { print: string };
+} = {};
+
+export const getMaxRarityPrinting = (
+  card: { cardIdentifier: string; name?: string },
+  printings: Printing[],
+): Printing => {
+  const { cardIdentifier } = card;
+  const matchingOverride = Object.entries(
+    MAX_RARITY_IMAGE_PRINTING_OVERRIDES,
+  ).find(([identifier]) => identifier === cardIdentifier);
 
   const printingsIncludeMatchingOverride =
     !!matchingOverride &&
@@ -266,124 +579,23 @@ export const getSpecialPrinting = (
       firstFullArt;
 
     return (
+      goldFoil ||
       finalFullArt ||
       coldExtendedArt ||
       marvel ||
+      promoColdFoil ||
       promoExtendedArt ||
+      coldFoil ||
       nonFoilExtendedArt ||
       extendedArt ||
       alternateBorder ||
       alternativeArt ||
       alternateText ||
-      promoColdFoil ||
       alphaEdition ||
-      firstEdition ||
       promoEdition ||
+      firstEdition ||
       unlimitedEdition ||
-      goldFoil ||
-      coldFoil ||
       (firstImage as Printing)
     );
-  }
-};
-
-const defaultImagePrintingOverrides: {
-  [key: string]: { print: string };
-} = {
-  "command-and-conquer-red": {
-    print: "HNT260",
-  },
-  "fyendals-spring-tunic": {
-    print: "EVO249",
-  },
-  might: {
-    print: "TER028",
-  },
-  "pitfall-trap-yellow": {
-    print: "LGS151-Rainbow",
-  },
-  "portside-exchange-blue": {
-    print: "SEA145",
-  },
-  "rockslide-trap-blue": {
-    print: "LGS152-Rainbow",
-  },
-  "rosetta-thorn": {
-    print: "ELE222-First",
-  },
-  "spectral-shield": {
-    print: "MST158",
-  },
-  "tripwire-trap-red": {
-    print: "LGS150-Rainbow",
-  },
-  vigor: {
-    print: "HVY242",
-  },
-  "wreck-havoc-red": {
-    print: "OUT198",
-  },
-};
-
-export const getDefaultPrinting = (
-  card: { cardIdentifier: string; name: string },
-  printings: Printing[],
-): Printing => {
-  const { cardIdentifier } = card;
-  const matchingOverride = Object.entries(defaultImagePrintingOverrides).find(
-    ([identifier]) => identifier === cardIdentifier,
-  );
-
-  const printingsIncludeMatchingOverride =
-    !!matchingOverride &&
-    printings.some((printing) => {
-      const [, { print }] = matchingOverride;
-
-      return printing.print === print;
-    });
-
-  if (printingsIncludeMatchingOverride) {
-    const [, { print }] = matchingOverride;
-    const matchingPrint = printings.find(
-      (printing) => printing.print === print,
-    );
-    return matchingPrint || printings[0];
-  } else {
-    let firstImage: Printing | undefined;
-    let nonPromoImage: Printing | undefined;
-
-    for (const printing of printings) {
-      const { edition, image, treatment } = printing;
-
-      const hasImage = !!image;
-      const isWhiteBorder = image?.includes("HP");
-      const shouldConsiderPrinting = hasImage && !isWhiteBorder;
-
-      if (shouldConsiderPrinting) {
-        if (!firstImage) {
-          firstImage = printing;
-        }
-
-        if (
-          !nonPromoImage &&
-          edition !== ReleaseEdition.Promo &&
-          treatment !== Treatment.FA
-        ) {
-          nonPromoImage = printing;
-        }
-      }
-
-      if (firstImage && nonPromoImage) {
-        break;
-      }
-    }
-
-    // if (card.name === "Wrecking Ball") {
-    //   console.log(firstImage, nonPromoImage);
-    // }
-    // if (card.name === "The Librarian") {
-    //   console.log(firstImage, nonPromoImage);
-    // }
-    return nonPromoImage || firstImage || printings[0];
   }
 };

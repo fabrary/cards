@@ -40,7 +40,7 @@ describe("Gets the correct default and special printings", () => {
     // expect(defaultPrinting.identifier).toEqual("HNT260");
 
     expect(specialPrinting).toBeTruthy();
-    expect(specialPrinting.identifier).toEqual("DYN000");
+    expect(specialPrinting.identifier).toEqual("ANQ009");
   });
 });
 

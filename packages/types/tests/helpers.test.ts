@@ -7,6 +7,8 @@ import {
   getDefaultPrinting,
   getIsCardTokenForDeck,
   getCardFromGEMCardIdentifier,
+  getBoomerPrinting,
+  getMaxRarityPrinting,
 } from "../src/helpers";
 import {
   Card,
@@ -17,6 +19,7 @@ import {
   Printing,
   Rarity,
   Release,
+  ReleaseEdition,
   Subtype,
   Treatment,
   Type,
@@ -275,5 +278,203 @@ describe("Printings", () => {
       printings,
     );
     expect(specialPrinting.image).toEqual("HNT260-EA");
+  });
+
+  it("Gets correct printings for CnC", () => {
+    const cardIdentifier = "command-and-conquer-red";
+    const name = "Command and Conquer";
+    const printings: Printing[] = [
+      {
+        artists: ["Jessada Sutthi"],
+
+        identifier: "PEN319",
+        image: "PEN319",
+
+        print: "PEN319-Alternate Art",
+        rarity: Rarity.Legendary,
+        set: Release.CompendiumOfRathe,
+        tcgplayer: {
+          productId: "675375",
+          url: "https://www.tcgplayer.com/product/675375?Language=English&Printing=Normal",
+        },
+        treatment: Treatment.AA,
+        treatments: [Treatment.AA],
+      },
+      {
+        artists: ["Federico Musetti"],
+
+        identifier: "HNT260",
+        image: "HNT260",
+        isExpansionSlot: true,
+
+        print: "HNT260-Alternate Art",
+        rarity: Rarity.Legendary,
+        set: Release.TheHunted,
+        tcgplayer: {
+          productId: "612718",
+          url: "https://www.tcgplayer.com/product/612718?Language=English&Printing=Normal",
+        },
+        treatment: Treatment.AA,
+        treatments: [Treatment.AA],
+      },
+      {
+        artists: ["Federico Musetti"],
+        foiling: Foiling.Rainbow,
+        identifier: "HNT260",
+        image: "HNT260-EA",
+        isExpansionSlot: true,
+
+        print: "HNT260-Rainbow-Alternate Art-Extended Art",
+        rarity: Rarity.Legendary,
+        set: Release.TheHunted,
+        tcgplayer: {
+          productId: "614533",
+          url: "https://www.tcgplayer.com/product/614533?Language=English&Printing=Rainbow+Foil",
+        },
+        treatment: Treatment.AA,
+        treatments: [Treatment.AA, Treatment.EA],
+      },
+      {
+        artists: ["Othon Nikolaidis"],
+        foiling: Foiling.Cold,
+        identifier: "DYN000",
+        image: "DYN000",
+
+        print: "DYN000-Cold-Alternate Art-Extended Art",
+        rarity: Rarity.Fabled,
+        set: Release.Dynasty,
+        tcgplayer: {
+          productId: "454212",
+          url: "https://www.tcgplayer.com/product/454212?Language=English&Printing=Cold+Foil",
+        },
+        treatment: Treatment.AA,
+        treatments: [Treatment.AA, Treatment.EA],
+      },
+      {
+        artists: ["Fajareka Setiawan"],
+
+        identifier: "1HP360",
+        image: "1HP360",
+
+        print: "1HP360",
+        rarity: Rarity.Majestic,
+        set: Release.HistoryPack1,
+        tcgplayer: {
+          productId: "270947",
+          url: "https://www.tcgplayer.com/product/270947?Language=English&Printing=Normal",
+        },
+      },
+      {
+        artists: ["Fajareka Setiawan"],
+        edition: ReleaseEdition.First,
+        identifier: "ARC159",
+        image: "ARC159",
+
+        print: "ARC159-First",
+        rarity: Rarity.Majestic,
+        set: Release.ArcaneRising,
+        tcgplayer: {
+          productId: "225899",
+          url: "https://www.tcgplayer.com/product/225899?Language=English&Printing=1st+Edition+Normal",
+        },
+      },
+      {
+        artists: ["Fajareka Setiawan"],
+        edition: ReleaseEdition.First,
+        foiling: Foiling.Rainbow,
+        identifier: "ARC159",
+        image: "ARC159",
+
+        print: "ARC159-First-Rainbow",
+        rarity: Rarity.Majestic,
+        set: Release.ArcaneRising,
+        tcgplayer: {
+          productId: "225899",
+          url: "https://www.tcgplayer.com/product/225899?Language=English&Printing=1st+Edition+Rainbow+Foil",
+        },
+      },
+      {
+        artists: ["Fajareka Setiawan"],
+        edition: ReleaseEdition.Unlimited,
+        identifier: "ARC159",
+        image: "U-ARC159",
+
+        print: "ARC159-Unlimited",
+        rarity: Rarity.Majestic,
+        set: Release.ArcaneRising,
+        tcgplayer: {
+          productId: "225899",
+          url: "https://www.tcgplayer.com/product/225899?Language=English&Printing=Unlimited+Edition+Normal",
+        },
+      },
+      {
+        artists: ["Fajareka Setiawan"],
+        edition: ReleaseEdition.Unlimited,
+        foiling: Foiling.Rainbow,
+        identifier: "ARC159",
+        image: "U-ARC159",
+
+        print: "ARC159-Unlimited-Rainbow",
+        rarity: Rarity.Majestic,
+        set: Release.ArcaneRising,
+        tcgplayer: {
+          productId: "225899",
+          url: "https://www.tcgplayer.com/product/225899?Language=English&Printing=Unlimited+Edition+Rainbow+Foil",
+        },
+      },
+      {
+        artists: ["Jessada Sutthi"],
+        foiling: Foiling.Rainbow,
+        identifier: "ANQ009",
+        image: "ANQ009",
+
+        print: "ANQ009-Rainbow-Alternate Art-Alternate Border-Extended Art",
+        rarity: Rarity.Legendary,
+        set: Release.Promos,
+        tcgplayer: {
+          productId: "675355",
+          url: "https://www.tcgplayer.com/product/675355?Language=English&Printing=Rainbow+Foil",
+        },
+        treatment: Treatment.AA,
+        treatments: [Treatment.AA, Treatment.AB, Treatment.EA],
+      },
+      {
+        artists: ["Joseph Qiu"],
+        foiling: Foiling.Rainbow,
+        identifier: "FAB278",
+        image: "FAB278",
+
+        print: "FAB278-Rainbow-Alternate Art",
+        rarity: Rarity.Promo,
+        set: Release.Promos,
+
+        treatment: Treatment.AA,
+        treatments: [Treatment.AA],
+      },
+    ];
+
+    const defaultPrinting = getDefaultPrinting(
+      { cardIdentifier, name },
+      printings,
+    );
+    expect(defaultPrinting.image).toEqual("PEN319");
+
+    const boomerPrinting = getBoomerPrinting(
+      { cardIdentifier, name },
+      printings,
+    );
+    expect(boomerPrinting.image).toEqual("ARC159");
+
+    const specialPrinting = getSpecialPrinting(
+      { cardIdentifier, name },
+      printings,
+    );
+    expect(specialPrinting.image).toEqual("ANQ009");
+
+    const maxRarityPrinting = getMaxRarityPrinting(
+      { cardIdentifier, name },
+      printings,
+    );
+    expect(maxRarityPrinting.image).toEqual("DYN000");
   });
 });
