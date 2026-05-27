@@ -1,11 +1,16 @@
 import {
   Card,
+  Foiling,
   Format,
+  fullSetIdentifiers,
+  getIsDeckCard,
+  Printing,
   Rarity,
   Release,
   ReleaseInfo,
   releases,
   ReleaseType,
+  setToSetIdentifierMappings,
   Treatment,
 } from "@flesh-and-blood/types";
 import { writeFiles } from "./writer";
@@ -154,36 +159,110 @@ const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
   };
 });
 
-// const isBackOverrides = ["Blasmophet, Levia Consumed", "Inner Chi"];
-// const cardsWithBacks = addOppositeSideCardIdentifiers(
-//   cardsWithAdditionalProperties
-// ).map((card) => {
-//   if (isBackOverrides.includes(card.name)) {
-//     card.isCardBack = true;
-//   } else if (IGNORE_OPPOSITE_SIDES.includes(card.name)) {
-//     delete card.isCardBack;
-//     delete card.oppositeSideCardIdentifier;
-//     delete card.oppositeSideCardIdentifiers;
-//   }
-//   return card;
-// });
-
-writeFiles(cardsWithAdditionalProperties, outputDirectory);
-
 const latestSet = releases
   .reverse()
   .find(({ releaseType }) => releaseType === ReleaseType.StandaloneBooster)
   ?.release as Release;
+const latestSetPrefix =
+  setToSetIdentifierMappings[latestSet]?.length > 0
+    ? setToSetIdentifierMappings[latestSet][0].toUpperCase()
+    : undefined;
 
-const latestSetCards = cardsWithAdditionalProperties.filter(
-  ({ printings, sets }) => {
-    const isInLatestSet = sets.includes(latestSet);
-    const hasImagesFromLatestSet =
-      printings.filter(({ set }) => set === latestSet).length > 0;
+const getLatestSetCards = ({ printings, sets }: Card) => {
+  const isInLatestSet = sets.includes(latestSet);
+  const hasImagesFromLatestSet =
+    printings.filter(({ set }) => set === latestSet).length > 0;
 
-    return isInLatestSet && hasImagesFromLatestSet;
-  },
-);
+  return isInLatestSet && hasImagesFromLatestSet;
+};
+
+const latestSetCards = cardsWithAdditionalProperties.filter(getLatestSetCards);
+
+let shouldAddRainbowFoilsToLatestSet = false;
+const shouldCheckLatestSetForRainbowFoils = !!latestSetPrefix;
+// every card from latest set is present
+// rainbow foils haven't already been added
+if (shouldCheckLatestSetForRainbowFoils) {
+  let latestSetCardIdentifiers: { [key: string]: number } = {};
+
+  for (const latestSetCard of latestSetCards) {
+    const latestSetIdentifier = latestSetCard.setIdentifiers.find(
+      (setIdentifier) => setIdentifier.startsWith(latestSetPrefix),
+    );
+
+    if (latestSetIdentifier) {
+      const setNumberString = latestSetIdentifier.replace(latestSetPrefix, "");
+      const setNumber = parseInt(setNumberString);
+
+      latestSetCardIdentifiers[latestSetIdentifier] = setNumber;
+    }
+  }
+
+  const setNumbers = Object.values(latestSetCardIdentifiers).sort(
+    (a, b) => a - b,
+  );
+
+  shouldAddRainbowFoilsToLatestSet = setNumbers.every(
+    (setNumber, index) => setNumber === index,
+  );
+}
+
+let cardsToWrite = cardsWithAdditionalProperties;
+
+if (shouldAddRainbowFoilsToLatestSet) {
+  cardsToWrite = cardsWithAdditionalProperties.map((card) => {
+    const printings = [...card.printings];
+
+    const isLatestSetCardOnly = card.sets.every(
+      (set) => set === latestSet || set === Release.Promos,
+    );
+    const latestSetPrintings = card.printings.filter(
+      ({ set }) => set === latestSet,
+    );
+    const isMissingRainbowFoilPrinting = !latestSetPrintings.some(
+      ({ foiling }) => foiling === Foiling.Rainbow,
+    );
+    const onlyHasNonFoilPrintings = latestSetPrintings.every(
+      ({ foiling }) => !foiling,
+    );
+    const isDeckCard = getIsDeckCard(card);
+
+    const shouldAddRainbowFoilPrinting =
+      isLatestSetCardOnly &&
+      isMissingRainbowFoilPrinting &&
+      latestSetPrintings.length > 0 &&
+      onlyHasNonFoilPrintings &&
+      isDeckCard;
+
+    if (shouldAddRainbowFoilPrinting) {
+      const latestSetPrinting = latestSetPrintings[0];
+
+      const artists = latestSetPrinting.artists;
+      const rarity = latestSetPrinting.rarity || card.rarity;
+      const identifier = latestSetPrinting.identifier;
+      const image = latestSetPrinting.image + "-RF";
+
+      const rainbowFoilPrinting: Printing = {
+        set: latestSet,
+        rarity,
+        artists,
+        identifier,
+        foiling: Foiling.Rainbow,
+        image,
+        print: "",
+      };
+
+      const print = getPrint(rainbowFoilPrinting);
+      rainbowFoilPrinting.print = print;
+
+      printings.push(rainbowFoilPrinting);
+    }
+
+    return { ...card, printings };
+  });
+}
+
+writeFiles(cardsToWrite, outputDirectory);
 
 const latestSetCardsWithOnlySetPrintings = latestSetCards.map((card) => {
   const printings = card.printings.filter(({ set }) => set === latestSet);
