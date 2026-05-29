@@ -154,7 +154,7 @@ export const getBannedAndLegalFormats = (
       const isBanned = goldenAgeBannedCards.includes(card.name);
       const isABannedHero = isBanned && isAnAdultHero;
 
-      if (isASpecialUsePromo || isABannedHero) {
+      if (isASpecialUsePromo || isABannedHero || isAMentor) {
         isLegalPerFormat = false;
       }
 
