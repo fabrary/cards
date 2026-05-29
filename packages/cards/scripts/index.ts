@@ -27,6 +27,7 @@ import {
 import { getShorthands } from "./Shared/get-shorthands";
 import { getNicknames } from "./Shared/get-nicknames";
 import { getShortName } from "./Shared/get-short-names";
+import { getTCGplayerInfoForAddedPrinting } from "./Shared/tcgplayer";
 
 const outputDirectory = "src";
 
@@ -234,6 +235,7 @@ if (shouldAddRainbowFoilsToLatestSet) {
       const identifier = latestSetPrinting.identifier;
       const image = latestSetPrinting.image + "-RF";
 
+      // TODO add TCGP info if available in card-with-tcgp.json
       const rainbowFoilPrinting: Printing = {
         set: latestSet,
         rarity,
@@ -245,7 +247,12 @@ if (shouldAddRainbowFoilsToLatestSet) {
       };
 
       const print = getPrint(rainbowFoilPrinting);
+      const tcgplayer = getTCGplayerInfoForAddedPrinting(
+        card,
+        rainbowFoilPrinting,
+      );
       rainbowFoilPrinting.print = print;
+      rainbowFoilPrinting.tcgplayer = tcgplayer;
 
       printings.push(rainbowFoilPrinting);
     }

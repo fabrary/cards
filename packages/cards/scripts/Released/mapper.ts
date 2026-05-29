@@ -238,48 +238,6 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   return keywords;
 };
 
-// const getBannedFormats = (card: ParsedCard): Format[] => {
-//   const {
-//     blitzLegal,
-//     blitzBanned,
-//     blitzLivingLegend,
-//     blitzSuspended,
-//     classicConstructedLegal,
-//     classicConstructedBanned,
-//     classicConstructedLivingLegend,
-//     classicConstructedSuspended,
-//     livingLegendBanned,
-//     silverAgeBanned,
-//     silverAgeLegal,
-//   } = card;
-
-//   const bannedFormats: Format[] = [];
-
-//   if (livingLegendBanned) {
-//     bannedFormats.push(Format.LivingLegend);
-//   }
-
-//   // if (blitzLivingLegend || blitzBanned || blitzSuspended) {
-//   //   bannedFormats.push(Format.Blitz);
-//   // }
-
-//   if (
-//     classicConstructedLivingLegend ||
-//     classicConstructedBanned ||
-//     classicConstructedSuspended
-//   ) {
-//     bannedFormats.push(Format.ClassicConstructed);
-//   }
-
-//   if (silverAgeBanned) {
-//     bannedFormats.push(Format.SilverAge);
-//   }
-
-//   bannedFormats.sort();
-
-//   return bannedFormats;
-// };
-
 const getSets = (printings: Printing[]): Release[] => {
   const printingSets = printings.map(({ set }) => set);
   const arr = Array.from(new Set(printingSets));
@@ -346,14 +304,6 @@ const getCardData = (card: ParsedCard): Card => {
     printings,
   );
 
-  // if (!defaultPrinting) {
-  //   console.error(`No default printing`, card);
-  // }
-  // if (!specialPrinting) {
-  //   console.error(`No special printing`, card);
-  // }
-
-  // const bannedFormats = getBannedFormats(card);
   const classes = getClasses(card);
   const hero = getHeroFromCard(card) as Hero;
   const keywords = getKeywords(card);
@@ -383,20 +333,6 @@ const getCardData = (card: ParsedCard): Card => {
     defaultImage: defaultPrinting?.image,
     legalFormats,
     legalHeroes: [],
-    // legalHeroes: getLegalHeroes({
-    //   cardIdentifier,
-    //   classes,
-    //   hero,
-    //   keywords,
-    //   metatypes,
-    //   name,
-    //   pitch,
-    //   specializations,
-    //   subtypes,
-    //   talents,
-    //   traits,
-    //   types,
-    // }),
     name,
     printings,
     rarities,

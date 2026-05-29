@@ -40,7 +40,7 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 
-import tcgplayerProductFile from "../Released/card.json";
+import tcgplayerProductFile from "../Released/card-with-tcgp.json";
 import { SourceJSONCard } from "../Released/parser";
 import { getBannedAndLegalFormats } from "../Shared/legality";
 
@@ -104,6 +104,12 @@ const getClasses = (card: ParsedCard): Class[] => {
 //   return heroOnCard;
 // };
 
+// const TCGP_SOURCE_FILE_FOILING_MAPPING: { [key: string]: string } = {
+//   R: Foiling.Rainbow,
+//   C: Foiling.Cold,
+//   G: Foiling.Gold,
+// };
+
 interface TCGplayer {
   productId: string;
   url: string;
@@ -123,15 +129,17 @@ const getTCGplayerInfo = (
   if (tcgplayerProductId && tcgplayerUrl) {
     tcgplayer = { productId: tcgplayerProductId, url: tcgplayerUrl };
   } else {
-    const matchingCard = tcgplayerProductInfo.find(({ name, pitch }) => {
-      const sameName = card.name === name;
-      const samePitch = (!card.pitch && !pitch) || card.pitch === pitch;
+    const matchingTCGPSourceCard = tcgplayerProductInfo.find(
+      ({ name, pitch }) => {
+        const sameName = card.name === name;
+        const samePitch = (!card.pitch && !pitch) || card.pitch === pitch;
 
-      return sameName && samePitch;
-    });
+        return sameName && samePitch;
+      },
+    );
 
-    if (matchingCard) {
-      const matchingPrinting = matchingCard.printings.find(
+    if (matchingTCGPSourceCard) {
+      const matchingPrinting = matchingTCGPSourceCard.printings.find(
         ({
           foiling,
           id,
@@ -139,7 +147,12 @@ const getTCGplayerInfo = (
           tcgplayer_product_id,
           tcgplayer_url,
         }) => {
+          // const foilingOverride = foiling
+          //   ? TCGP_SOURCE_FILE_FOILING_MAPPING[foiling]
+          //   : undefined;
           const foilingOverride = foiling === "S" ? undefined : foiling;
+
+          // const foilingOverride = foiling === "S" ? undefined : foiling;
           const sameFoiling =
             (!foilingString && !foilingOverride) ||
             foilingString === foilingOverride;
@@ -166,6 +179,20 @@ const getTCGplayerInfo = (
           );
         },
       );
+
+      // if (card.name === "Voltic Impact" && foilingString === "R") {
+      //   console.log(
+      //     JSON.stringify(
+      //       {
+      //         card,
+      //         matchingPrinting,
+      //       },
+      //       null,
+      //       2,
+      //     ),
+      //   );
+      //   throw new Error("Stop");
+      // }
 
       if (
         matchingPrinting &&
@@ -738,19 +765,6 @@ export const getParsedRarities = (
   return getRarities({ rarities });
 };
 
-// const getBannedFormats = (card: ParsedCard): Format[] => {
-//   const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
-
-//   const bannedFormats: Format[] = [];
-
-//   const { rarity } = getParsedRarities(card);
-
-//   const ILLEGAL_IN_FORMAT_FLAG = "No";
-
-//   bannedFormats.sort();
-//   return bannedFormats;
-// };
-
 const getSets = (
   { setIdentifiers }: ParsedCard,
   printings: Printing[],
@@ -889,20 +903,6 @@ const getCardData = (card: ParsedCard): Card => {
     )?.image,
     legalFormats,
     legalHeroes: [],
-    // legalHeroes: getLegalHeroes({
-    //   cardIdentifier,
-    //   classes,
-    //   hero,
-    //   keywords,
-    //   metatypes,
-    //   name,
-    //   pitch,
-    //   specializations,
-    //   subtypes,
-    //   talents,
-    //   traits,
-    //   types,
-    // }),
     name,
     printings,
     rarities,

@@ -53,9 +53,13 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open,
 );
 
-const CARDS_TO_LOG: string[] = ["Viserai, Rune Blood"];
+const CARDS_TO_LOG: string[] = [
+  //"Viserai, Rune Blood"
+];
 
-const CONFIRMED_CARDS_TO_LOG: string[] = ["Viserai, Rune Blood"];
+const CONFIRMED_CARDS_TO_LOG: string[] = [
+  // "Viserai, Rune Blood"
+];
 
 export const getBannedAndLegalFormats = (
   card: {

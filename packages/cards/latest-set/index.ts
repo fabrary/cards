@@ -40,7 +40,10 @@
       print: "OMN243",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695292",
+            url: "https://www.tcgplayer.com/product/695292?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -52,7 +55,10 @@
       print: "OMN243-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695302",
+            url: "https://www.tcgplayer.com/product/695302?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -114,7 +120,10 @@
       print: "OMN134",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695201",
+            url: "https://www.tcgplayer.com/product/695201?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -176,7 +185,10 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
       print: "OMN003",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682842",
+            url: "https://www.tcgplayer.com/product/682842?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
@@ -236,7 +248,10 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
       print: "OMN100",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692537",
+            url: "https://www.tcgplayer.com/product/692537?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -298,7 +313,10 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       print: "OMN101",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692536",
+            url: "https://www.tcgplayer.com/product/692536?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -360,7 +378,10 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       print: "OMN102",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692535",
+            url: "https://www.tcgplayer.com/product/692535?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -422,7 +443,10 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       print: "OMN088",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694945",
+            url: "https://www.tcgplayer.com/product/694945?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -482,7 +506,10 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       print: "OMN089",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694946",
+            url: "https://www.tcgplayer.com/product/694946?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -542,7 +569,10 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       print: "OMN090",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694947",
+            url: "https://www.tcgplayer.com/product/694947?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -602,7 +632,10 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       print: "OMN052",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694931",
+            url: "https://www.tcgplayer.com/product/694931?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -664,7 +697,10 @@ At the start of your action phase, destroy an aura you control.`,
       print: "OMN236",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695285",
+            url: "https://www.tcgplayer.com/product/695285?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -728,7 +764,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN160",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695214",
+            url: "https://www.tcgplayer.com/product/695214?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -788,7 +827,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN161",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695215",
+            url: "https://www.tcgplayer.com/product/695215?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -848,7 +890,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN162",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695216",
+            url: "https://www.tcgplayer.com/product/695216?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -908,7 +953,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN098",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694948",
+            url: "https://www.tcgplayer.com/product/694948?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Kevin Sidharta"],
@@ -920,7 +968,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN098-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694948",
+            url: "https://www.tcgplayer.com/product/694948?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -982,7 +1033,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN145",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682876",
+            url: "https://www.tcgplayer.com/product/682876?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -1046,7 +1100,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN027",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692531",
+            url: "https://www.tcgplayer.com/product/692531?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1108,7 +1165,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN028",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692532",
+            url: "https://www.tcgplayer.com/product/692532?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1170,7 +1230,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN029",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692533",
+            url: "https://www.tcgplayer.com/product/692533?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1232,7 +1295,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN048",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692538",
+            url: "https://www.tcgplayer.com/product/692538?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Asur Misoa"],
@@ -1244,7 +1310,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN048-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692539",
+            url: "https://www.tcgplayer.com/product/692539?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
@@ -1256,7 +1325,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN048-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692539",
+            url: "https://www.tcgplayer.com/product/692539?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -1316,7 +1388,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN047",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682849",
+            url: "https://www.tcgplayer.com/product/682849?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Asur Misoa"],
@@ -1328,7 +1403,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN047-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682852",
+            url: "https://www.tcgplayer.com/product/682852?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Asur Misoa"],
@@ -1340,7 +1418,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN047-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682852",
+            url: "https://www.tcgplayer.com/product/682852?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -1400,7 +1481,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN238",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695287",
+            url: "https://www.tcgplayer.com/product/695287?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -1460,7 +1544,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN148",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692520",
+            url: "https://www.tcgplayer.com/product/692520?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -1520,7 +1607,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN244",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695293",
+            url: "https://www.tcgplayer.com/product/695293?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ina Wong"],
@@ -1532,7 +1622,10 @@ When this is equipped, create a Spellbane Aegis token.
       print: "OMN244-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695303",
+            url: "https://www.tcgplayer.com/product/695303?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -1596,7 +1689,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN006",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692524",
+            url: "https://www.tcgplayer.com/product/692524?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -1658,7 +1754,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN212",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695266",
+            url: "https://www.tcgplayer.com/product/695266?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -1718,7 +1817,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN204-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692521",
+            url: "https://www.tcgplayer.com/product/692521?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["João G. Santos"],
@@ -1730,7 +1832,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN204-Cold",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692521",
+            url: "https://www.tcgplayer.com/product/692521?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary],
@@ -1792,7 +1897,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN213",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695267",
+            url: "https://www.tcgplayer.com/product/695267?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Wilson Nugraha"],
@@ -1804,7 +1912,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN213-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695301",
+            url: "https://www.tcgplayer.com/product/695301?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -1864,7 +1975,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN222",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695276",
+            url: "https://www.tcgplayer.com/product/695276?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1924,7 +2038,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN223",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695277",
+            url: "https://www.tcgplayer.com/product/695277?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -1984,7 +2101,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN224",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695278",
+            url: "https://www.tcgplayer.com/product/695278?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2044,7 +2164,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN184",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695238",
+            url: "https://www.tcgplayer.com/product/695238?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2104,7 +2227,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN185",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695239",
+            url: "https://www.tcgplayer.com/product/695239?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2164,7 +2290,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN186",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695240",
+            url: "https://www.tcgplayer.com/product/695240?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2224,7 +2353,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN087",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694944",
+            url: "https://www.tcgplayer.com/product/694944?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -2236,7 +2368,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN087-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694944",
+            url: "https://www.tcgplayer.com/product/694944?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -2296,7 +2431,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN193",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695247",
+            url: "https://www.tcgplayer.com/product/695247?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2356,7 +2494,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN194",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695248",
+            url: "https://www.tcgplayer.com/product/695248?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2416,7 +2557,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN195",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695249",
+            url: "https://www.tcgplayer.com/product/695249?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -2476,7 +2620,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN033",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692534",
+            url: "https://www.tcgplayer.com/product/692534?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Amirul HHF"],
@@ -2488,7 +2635,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN033-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692534",
+            url: "https://www.tcgplayer.com/product/692534?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -2550,7 +2700,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN041",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694928",
+            url: "https://www.tcgplayer.com/product/694928?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2612,7 +2765,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN042",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694929",
+            url: "https://www.tcgplayer.com/product/694929?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2674,7 +2830,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN043",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694930",
+            url: "https://www.tcgplayer.com/product/694930?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2736,7 +2895,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN109",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695183",
+            url: "https://www.tcgplayer.com/product/695183?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2798,7 +2960,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN110",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695184",
+            url: "https://www.tcgplayer.com/product/695184?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2860,7 +3025,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN111",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695185",
+            url: "https://www.tcgplayer.com/product/695185?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -2922,7 +3090,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN219",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695273",
+            url: "https://www.tcgplayer.com/product/695273?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -2982,7 +3153,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN220",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695274",
+            url: "https://www.tcgplayer.com/product/695274?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3042,7 +3216,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN221",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695275",
+            url: "https://www.tcgplayer.com/product/695275?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3102,7 +3279,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN130",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695198",
+            url: "https://www.tcgplayer.com/product/695198?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -3164,7 +3344,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN131",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695199",
+            url: "https://www.tcgplayer.com/product/695199?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -3226,7 +3409,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN142",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695206",
+            url: "https://www.tcgplayer.com/product/695206?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3286,7 +3472,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN132",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695200",
+            url: "https://www.tcgplayer.com/product/695200?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -3348,7 +3537,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN097",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695179",
+            url: "https://www.tcgplayer.com/product/695179?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3408,7 +3600,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN103",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692528",
+            url: "https://www.tcgplayer.com/product/692528?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3468,7 +3663,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN104",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692529",
+            url: "https://www.tcgplayer.com/product/692529?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3528,7 +3726,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN105",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692530",
+            url: "https://www.tcgplayer.com/product/692530?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3588,7 +3789,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN012",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693431",
+            url: "https://www.tcgplayer.com/product/693431?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3650,7 +3854,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN013",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693432",
+            url: "https://www.tcgplayer.com/product/693432?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3712,7 +3919,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN014",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693433",
+            url: "https://www.tcgplayer.com/product/693433?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -3774,7 +3984,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN015",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682847",
+            url: "https://www.tcgplayer.com/product/682847?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
@@ -3836,7 +4049,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN016",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682850",
+            url: "https://www.tcgplayer.com/product/682850?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3898,7 +4114,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN017",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682853",
+            url: "https://www.tcgplayer.com/product/682853?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -3960,7 +4179,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN187",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695241",
+            url: "https://www.tcgplayer.com/product/695241?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4020,7 +4242,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN127",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692515",
+            url: "https://www.tcgplayer.com/product/692515?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4082,7 +4307,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN128",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692516",
+            url: "https://www.tcgplayer.com/product/692516?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4144,7 +4372,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN129",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692517",
+            url: "https://www.tcgplayer.com/product/692517?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4206,7 +4437,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN226",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695280",
+            url: "https://www.tcgplayer.com/product/695280?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
@@ -4266,7 +4500,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN036",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694925",
+            url: "https://www.tcgplayer.com/product/694925?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Brian Madya Narendra"],
@@ -4278,7 +4515,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN036-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694925",
+            url: "https://www.tcgplayer.com/product/694925?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -4340,7 +4580,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN239",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693439",
+            url: "https://www.tcgplayer.com/product/693439?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -4352,7 +4595,10 @@ At the start of your turn, put this into your soul.`,
       print: "OMN239-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693440",
+            url: "https://www.tcgplayer.com/product/693440?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -4414,7 +4660,10 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
       print: "OMN053",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692548",
+            url: "https://www.tcgplayer.com/product/692548?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -4476,7 +4725,10 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
       print: "OMN062",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695156",
+            url: "https://www.tcgplayer.com/product/695156?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4538,7 +4790,10 @@ When this hits a hero, destroy an aura token they control.`,
       print: "OMN063",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695157",
+            url: "https://www.tcgplayer.com/product/695157?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4600,7 +4855,10 @@ When this hits a hero, destroy an aura token they control.`,
       print: "OMN064",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695158",
+            url: "https://www.tcgplayer.com/product/695158?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4662,7 +4920,10 @@ When this hits a hero, destroy an aura token they control.`,
       print: "OMN245",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695294",
+            url: "https://www.tcgplayer.com/product/695294?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4724,7 +4985,10 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       print: "OMN018",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694915",
+            url: "https://www.tcgplayer.com/product/694915?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -4786,7 +5050,10 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       print: "OMN019",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694917",
+            url: "https://www.tcgplayer.com/product/694917?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4848,7 +5115,10 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       print: "OMN020",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694919",
+            url: "https://www.tcgplayer.com/product/694919?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -4910,7 +5180,10 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       print: "OMN099",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692545",
+            url: "https://www.tcgplayer.com/product/692545?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -4972,7 +5245,10 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       print: "OMN163",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695217",
+            url: "https://www.tcgplayer.com/product/695217?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -5032,7 +5308,10 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       print: "OMN164",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695218",
+            url: "https://www.tcgplayer.com/product/695218?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5092,7 +5371,10 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       print: "OMN165",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695219",
+            url: "https://www.tcgplayer.com/product/695219?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5152,7 +5434,10 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       print: "OMN080",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695168",
+            url: "https://www.tcgplayer.com/product/695168?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -5216,7 +5501,10 @@ Create a Lightning Flow token.
       print: "OMN081",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695169",
+            url: "https://www.tcgplayer.com/product/695169?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5280,7 +5568,10 @@ Create a Lightning Flow token.
       print: "OMN082",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695170",
+            url: "https://www.tcgplayer.com/product/695170?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5344,7 +5635,10 @@ Create a Lightning Flow token.
       print: "OMN054",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695152",
+            url: "https://www.tcgplayer.com/product/695152?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -5406,7 +5700,10 @@ The first time this deals damage to a hero, you may put an instant card from you
       print: "OMN034",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694924",
+            url: "https://www.tcgplayer.com/product/694924?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Surya Prasetya"],
@@ -5418,7 +5715,10 @@ The first time this deals damage to a hero, you may put an instant card from you
       print: "OMN034-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694924",
+            url: "https://www.tcgplayer.com/product/694924?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -5480,7 +5780,10 @@ The first time this deals damage to a hero, you may put an instant card from you
       print: "OMN202",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695258",
+            url: "https://www.tcgplayer.com/product/695258?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
@@ -5540,7 +5843,10 @@ The first time this deals damage to a hero, you may put an instant card from you
       print: "OMN112",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695186",
+            url: "https://www.tcgplayer.com/product/695186?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5602,7 +5908,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       print: "OMN113",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695187",
+            url: "https://www.tcgplayer.com/product/695187?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5664,7 +5973,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       print: "OMN114",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695188",
+            url: "https://www.tcgplayer.com/product/695188?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -5726,7 +6038,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       print: "OMN044",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695148",
+            url: "https://www.tcgplayer.com/product/695148?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -5788,7 +6103,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       print: "OMN045",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695149",
+            url: "https://www.tcgplayer.com/product/695149?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -5850,7 +6168,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       print: "OMN046",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695150",
+            url: "https://www.tcgplayer.com/product/695150?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -5912,7 +6233,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       print: "OMN232",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695282",
+            url: "https://www.tcgplayer.com/product/695282?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessketchin"],
@@ -5924,7 +6248,10 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       print: "OMN232-Cold",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695282",
+            url: "https://www.tcgplayer.com/product/695282?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -5988,7 +6315,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN229",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693422",
+            url: "https://www.tcgplayer.com/product/693422?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Phy Thieu"],
@@ -6000,7 +6330,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN229-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693423",
+            url: "https://www.tcgplayer.com/product/693423?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -6060,7 +6393,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN039",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695147",
+            url: "https://www.tcgplayer.com/product/695147?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6120,7 +6456,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN106",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695180",
+            url: "https://www.tcgplayer.com/product/695180?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -6180,7 +6519,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN107",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695181",
+            url: "https://www.tcgplayer.com/product/695181?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -6240,7 +6582,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN108",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695182",
+            url: "https://www.tcgplayer.com/product/695182?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -6300,7 +6645,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN037",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694926",
+            url: "https://www.tcgplayer.com/product/694926?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mark Poole"],
@@ -6312,7 +6660,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN037-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694926",
+            url: "https://www.tcgplayer.com/product/694926?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -6374,7 +6725,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN005",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692522",
+            url: "https://www.tcgplayer.com/product/692522?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -6436,7 +6790,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN181",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695235",
+            url: "https://www.tcgplayer.com/product/695235?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -6496,7 +6853,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN182",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695236",
+            url: "https://www.tcgplayer.com/product/695236?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6556,7 +6916,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN183",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695237",
+            url: "https://www.tcgplayer.com/product/695237?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6616,7 +6979,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "OMN166",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695220",
+            url: "https://www.tcgplayer.com/product/695220?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6678,7 +7044,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN167",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695221",
+            url: "https://www.tcgplayer.com/product/695221?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6740,7 +7109,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN168",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695222",
+            url: "https://www.tcgplayer.com/product/695222?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -6802,7 +7174,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN158",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695212",
+            url: "https://www.tcgplayer.com/product/695212?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -6862,7 +7237,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN152",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682874",
+            url: "https://www.tcgplayer.com/product/682874?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -6924,7 +7302,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN149",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695209",
+            url: "https://www.tcgplayer.com/product/695209?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -6984,7 +7365,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN146",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "684316",
+            url: "https://www.tcgplayer.com/product/684316?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -7044,7 +7428,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN242-Cold-Extended Art",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695291",
+            url: "https://www.tcgplayer.com/product/695291?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
         artists: ["Vito Febrianno"],
@@ -7056,7 +7443,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN242-Rainbow-Extended Art",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695291",
+            url: "https://www.tcgplayer.com/product/695291?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary],
@@ -7116,7 +7506,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN040",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694927",
+            url: "https://www.tcgplayer.com/product/694927?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Kevin Sidharta"],
@@ -7190,7 +7583,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN007",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694906",
+            url: "https://www.tcgplayer.com/product/694906?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7252,7 +7648,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN086-Cold",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693442",
+            url: "https://www.tcgplayer.com/product/693442?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -7264,7 +7663,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN086-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693442",
+            url: "https://www.tcgplayer.com/product/693442?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary],
@@ -7326,7 +7728,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN235",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693437",
+            url: "https://www.tcgplayer.com/product/693437?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -7338,7 +7743,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN235-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693438",
+            url: "https://www.tcgplayer.com/product/693438?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -7398,7 +7806,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN169",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695223",
+            url: "https://www.tcgplayer.com/product/695223?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -7458,7 +7869,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN170",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695224",
+            url: "https://www.tcgplayer.com/product/695224?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7518,7 +7932,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN171",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695225",
+            url: "https://www.tcgplayer.com/product/695225?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7578,7 +7995,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN211",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695265",
+            url: "https://www.tcgplayer.com/product/695265?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -7638,7 +8058,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN240",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695288",
+            url: "https://www.tcgplayer.com/product/695288?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mark Poole"],
@@ -7650,7 +8073,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN240-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695289",
+            url: "https://www.tcgplayer.com/product/695289?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -7714,7 +8140,10 @@ This counts as a Gold.
       print: "OMN137",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695203",
+            url: "https://www.tcgplayer.com/product/695203?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7776,7 +8205,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN138",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695204",
+            url: "https://www.tcgplayer.com/product/695204?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7838,7 +8270,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN139",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695205",
+            url: "https://www.tcgplayer.com/product/695205?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7900,7 +8335,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN172",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695226",
+            url: "https://www.tcgplayer.com/product/695226?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -7960,7 +8398,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN173",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695227",
+            url: "https://www.tcgplayer.com/product/695227?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8020,7 +8461,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN174",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695228",
+            url: "https://www.tcgplayer.com/product/695228?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8080,7 +8524,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN209",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695263",
+            url: "https://www.tcgplayer.com/product/695263?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -8140,7 +8587,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN030",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695142",
+            url: "https://www.tcgplayer.com/product/695142?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8200,7 +8650,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN031",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695143",
+            url: "https://www.tcgplayer.com/product/695143?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8260,7 +8713,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN032",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695144",
+            url: "https://www.tcgplayer.com/product/695144?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8320,7 +8776,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN246",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695295",
+            url: "https://www.tcgplayer.com/product/695295?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -8380,7 +8839,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN144",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695208",
+            url: "https://www.tcgplayer.com/product/695208?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8440,7 +8902,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN091",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695174",
+            url: "https://www.tcgplayer.com/product/695174?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -8502,7 +8967,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN092",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695175",
+            url: "https://www.tcgplayer.com/product/695175?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -8564,7 +9032,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN093",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695176",
+            url: "https://www.tcgplayer.com/product/695176?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -8638,7 +9109,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN203-Cold-Alternate Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682884",
+            url: "https://www.tcgplayer.com/product/682884?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
@@ -8650,7 +9124,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN203-Cold-Alternate Art-V2",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682884",
+            url: "https://www.tcgplayer.com/product/682884?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
@@ -8662,7 +9139,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN203-Cold-Alternate Art-V3",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682884",
+            url: "https://www.tcgplayer.com/product/682884?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -8722,7 +9202,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN150",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695210",
+            url: "https://www.tcgplayer.com/product/695210?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -8782,7 +9265,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN115",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695189",
+            url: "https://www.tcgplayer.com/product/695189?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8844,7 +9330,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN116",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695190",
+            url: "https://www.tcgplayer.com/product/695190?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8906,7 +9395,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN117",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695191",
+            url: "https://www.tcgplayer.com/product/695191?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -8968,7 +9460,10 @@ At the beginning of your action phase, destroy this.`,
       print: "OMN247",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693421",
+            url: "https://www.tcgplayer.com/product/693421?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -9032,7 +9527,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN159",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695213",
+            url: "https://www.tcgplayer.com/product/695213?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9092,7 +9590,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN059",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692544",
+            url: "https://www.tcgplayer.com/product/692544?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9154,7 +9655,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN060",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692546",
+            url: "https://www.tcgplayer.com/product/692546?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9216,7 +9720,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN061",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692547",
+            url: "https://www.tcgplayer.com/product/692547?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9278,7 +9785,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN118",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695192",
+            url: "https://www.tcgplayer.com/product/695192?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9340,7 +9850,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN119",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695193",
+            url: "https://www.tcgplayer.com/product/695193?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9402,7 +9915,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN120",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695194",
+            url: "https://www.tcgplayer.com/product/695194?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9464,7 +9980,10 @@ When this hits a hero, **the crowd boos** you.`,
       print: "OMN153",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682871",
+            url: "https://www.tcgplayer.com/product/682871?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -9526,7 +10045,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN121",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682863",
+            url: "https://www.tcgplayer.com/product/682863?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
@@ -9588,7 +10110,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN122",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682865",
+            url: "https://www.tcgplayer.com/product/682865?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9650,7 +10175,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN123",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682878",
+            url: "https://www.tcgplayer.com/product/682878?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -9712,7 +10240,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN035",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695145",
+            url: "https://www.tcgplayer.com/product/695145?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Wirawan Pranoto"],
@@ -9724,7 +10255,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN035-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695299",
+            url: "https://www.tcgplayer.com/product/695299?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -9786,7 +10320,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN038",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695146",
+            url: "https://www.tcgplayer.com/product/695146?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -9798,7 +10335,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN038-Cold-Extended Art",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695300",
+            url: "https://www.tcgplayer.com/product/695300?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common],
@@ -9860,7 +10400,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN135",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695202",
+            url: "https://www.tcgplayer.com/product/695202?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -9922,7 +10465,10 @@ If this deals damage, you may {t} your hero. If you do, your hero deals 1 arcane
       print: "OMN227",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692523",
+            url: "https://www.tcgplayer.com/product/692523?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -9984,7 +10530,10 @@ Lightning Flow tokens get **spellvoid 1**`,
       print: "OMN216",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695270",
+            url: "https://www.tcgplayer.com/product/695270?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10044,7 +10593,10 @@ Lightning Flow tokens get **spellvoid 1**`,
       print: "OMN217",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695271",
+            url: "https://www.tcgplayer.com/product/695271?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10106,7 +10658,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN218",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695272",
+            url: "https://www.tcgplayer.com/product/695272?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10166,7 +10721,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN094",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682859",
+            url: "https://www.tcgplayer.com/product/682859?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -10178,7 +10736,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN094-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682861",
+            url: "https://www.tcgplayer.com/product/682861?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
@@ -10190,7 +10751,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN094-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682861",
+            url: "https://www.tcgplayer.com/product/682861?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -10250,7 +10814,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN095",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695177",
+            url: "https://www.tcgplayer.com/product/695177?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -10262,7 +10829,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN095-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695178",
+            url: "https://www.tcgplayer.com/product/695178?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
@@ -10274,7 +10844,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN095-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695178",
+            url: "https://www.tcgplayer.com/product/695178?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -10334,7 +10907,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN065",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694941",
+            url: "https://www.tcgplayer.com/product/694941?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -10396,7 +10972,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN066",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694942",
+            url: "https://www.tcgplayer.com/product/694942?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10458,7 +11037,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN067",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694943",
+            url: "https://www.tcgplayer.com/product/694943?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -10520,7 +11102,10 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       print: "OMN230",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693436",
+            url: "https://www.tcgplayer.com/product/693436?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -10584,7 +11169,10 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       print: "OMN141-Cold",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694949",
+            url: "https://www.tcgplayer.com/product/694949?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -10596,7 +11184,10 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       print: "OMN141-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694949",
+            url: "https://www.tcgplayer.com/product/694949?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary],
@@ -10658,7 +11249,10 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       print: "OMN009",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694911",
+            url: "https://www.tcgplayer.com/product/694911?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10720,7 +11314,10 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       print: "OMN010",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694913",
+            url: "https://www.tcgplayer.com/product/694913?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10782,7 +11379,10 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       print: "OMN011",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694914",
+            url: "https://www.tcgplayer.com/product/694914?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10844,7 +11444,10 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       print: "OMN225",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695279",
+            url: "https://www.tcgplayer.com/product/695279?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
@@ -10904,7 +11507,10 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       print: "OMN055",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693434",
+            url: "https://www.tcgplayer.com/product/693434?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -10966,7 +11572,10 @@ The first time this deals damage to a hero, create a Ponder token.`,
       print: "OMN021",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692525",
+            url: "https://www.tcgplayer.com/product/692525?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -11028,7 +11637,10 @@ The first time this deals damage to a hero, create a Ponder token.`,
       print: "OMN022",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692526",
+            url: "https://www.tcgplayer.com/product/692526?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11090,7 +11702,10 @@ The first time this deals damage to a hero, create a Ponder token.`,
       print: "OMN023",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692527",
+            url: "https://www.tcgplayer.com/product/692527?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11152,7 +11767,10 @@ The first time this deals damage to a hero, create a Ponder token.`,
       print: "OMN083",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695171",
+            url: "https://www.tcgplayer.com/product/695171?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11216,7 +11834,10 @@ Your next 3 attacks this turn get +1{p} while they have go again.
       print: "OMN084",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695172",
+            url: "https://www.tcgplayer.com/product/695172?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11280,7 +11901,10 @@ Your next 2 attacks this turn get +1{p} while they have go again.
       print: "OMN085",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695173",
+            url: "https://www.tcgplayer.com/product/695173?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11344,7 +11968,10 @@ Your next attack this turn get +1{p} while it has go again.
       print: "OMN233",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695283",
+            url: "https://www.tcgplayer.com/product/695283?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessketchin"],
@@ -11356,7 +11983,10 @@ Your next attack this turn get +1{p} while it has go again.
       print: "OMN233-Cold",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695283",
+            url: "https://www.tcgplayer.com/product/695283?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11420,7 +12050,10 @@ When this hits a hero, the next action card they defend with this combat chain g
       print: "OMN241",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695290",
+            url: "https://www.tcgplayer.com/product/695290?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -11480,7 +12113,10 @@ When this hits a hero, the next action card they defend with this combat chain g
       print: "OMN155",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692509",
+            url: "https://www.tcgplayer.com/product/692509?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11540,7 +12176,10 @@ When this hits a hero, the next action card they defend with this combat chain g
       print: "OMN156",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692511",
+            url: "https://www.tcgplayer.com/product/692511?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11600,7 +12239,10 @@ When this hits a hero, the next action card they defend with this combat chain g
       print: "OMN157",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692512",
+            url: "https://www.tcgplayer.com/product/692512?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11660,7 +12302,10 @@ When this hits a hero, the next action card they defend with this combat chain g
       print: "OMN210",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695264",
+            url: "https://www.tcgplayer.com/product/695264?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -11720,7 +12365,10 @@ When this hits a hero, the next action card they defend with this combat chain g
       print: "OMN068",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695159",
+            url: "https://www.tcgplayer.com/product/695159?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11782,7 +12430,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN069",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695160",
+            url: "https://www.tcgplayer.com/product/695160?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11844,7 +12495,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN070",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695161",
+            url: "https://www.tcgplayer.com/product/695161?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -11906,7 +12560,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN008",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694910",
+            url: "https://www.tcgplayer.com/product/694910?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -11968,7 +12625,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN049",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692540",
+            url: "https://www.tcgplayer.com/product/692540?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
@@ -12030,7 +12690,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN206",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695260",
+            url: "https://www.tcgplayer.com/product/695260?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12090,7 +12753,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN205",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695259",
+            url: "https://www.tcgplayer.com/product/695259?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12150,7 +12816,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN208",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695262",
+            url: "https://www.tcgplayer.com/product/695262?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12210,7 +12879,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN207",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695261",
+            url: "https://www.tcgplayer.com/product/695261?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12270,7 +12942,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN237",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695286",
+            url: "https://www.tcgplayer.com/product/695286?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -12332,7 +13007,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN024",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694921",
+            url: "https://www.tcgplayer.com/product/694921?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -12394,7 +13072,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN025",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694922",
+            url: "https://www.tcgplayer.com/product/694922?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12456,7 +13137,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN026",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694923",
+            url: "https://www.tcgplayer.com/product/694923?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12518,7 +13202,10 @@ When this hits a hero, deal 1 arcane damage to them.`,
       print: "OMN199",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695253",
+            url: "https://www.tcgplayer.com/product/695253?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Thomas Ressuge"],
@@ -12592,7 +13279,10 @@ When this leaves the arena, create a Lightning Flow token.`,
       print: "OMN200",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695255",
+            url: "https://www.tcgplayer.com/product/695255?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
@@ -12654,7 +13344,10 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
       print: "OMN071",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695162",
+            url: "https://www.tcgplayer.com/product/695162?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12716,7 +13409,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN072",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695163",
+            url: "https://www.tcgplayer.com/product/695163?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12778,7 +13474,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN073",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695164",
+            url: "https://www.tcgplayer.com/product/695164?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12840,7 +13539,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN050",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695151",
+            url: "https://www.tcgplayer.com/product/695151?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ilham Bahtiar"],
@@ -12852,7 +13554,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN050-Cold",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695151",
+            url: "https://www.tcgplayer.com/product/695151?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -12912,7 +13617,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN201",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695256",
+            url: "https://www.tcgplayer.com/product/695256?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Thomas Ressuge"],
@@ -12986,7 +13694,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN249-Cold",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695297",
+            url: "https://www.tcgplayer.com/product/695297?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -13048,7 +13759,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN250-Cold",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695298",
+            url: "https://www.tcgplayer.com/product/695298?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -13110,7 +13824,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN248-Cold",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695296",
+            url: "https://www.tcgplayer.com/product/695296?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -13172,7 +13889,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN143",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695207",
+            url: "https://www.tcgplayer.com/product/695207?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13232,7 +13952,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN189",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695243",
+            url: "https://www.tcgplayer.com/product/695243?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -13292,7 +14015,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN188",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695242",
+            url: "https://www.tcgplayer.com/product/695242?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13352,7 +14078,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN147",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692519",
+            url: "https://www.tcgplayer.com/product/692519?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Amtepra"],
@@ -13364,7 +14093,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN147-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692519",
+            url: "https://www.tcgplayer.com/product/692519?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -13424,7 +14156,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN175",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695229",
+            url: "https://www.tcgplayer.com/product/695229?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13484,7 +14219,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN176",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695230",
+            url: "https://www.tcgplayer.com/product/695230?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13544,7 +14282,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN177",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695231",
+            url: "https://www.tcgplayer.com/product/695231?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13604,7 +14345,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN214",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695268",
+            url: "https://www.tcgplayer.com/product/695268?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -13666,7 +14410,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN056",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695153",
+            url: "https://www.tcgplayer.com/product/695153?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -13726,7 +14473,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN057",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695154",
+            url: "https://www.tcgplayer.com/product/695154?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -13786,7 +14536,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN058",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695155",
+            url: "https://www.tcgplayer.com/product/695155?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -13846,7 +14599,10 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       print: "OMN190",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695244",
+            url: "https://www.tcgplayer.com/product/695244?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -13908,7 +14664,10 @@ Target Lightning attack gets +3{p}.`,
       print: "OMN191",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695245",
+            url: "https://www.tcgplayer.com/product/695245?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -13970,7 +14729,10 @@ Target Lightning attack gets -3{p}.`,
       print: "OMN192",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695246",
+            url: "https://www.tcgplayer.com/product/695246?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14032,7 +14794,10 @@ Target Lightning attack gets **go again**.`,
       print: "OMN234",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695284",
+            url: "https://www.tcgplayer.com/product/695284?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessketchin"],
@@ -14044,7 +14809,10 @@ Target Lightning attack gets **go again**.`,
       print: "OMN234-Cold",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695284",
+            url: "https://www.tcgplayer.com/product/695284?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -14108,7 +14876,10 @@ When this hits a hero, {t} them.`,
       print: "OMN074",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695165",
+            url: "https://www.tcgplayer.com/product/695165?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14170,7 +14941,10 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
       print: "OMN075",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695166",
+            url: "https://www.tcgplayer.com/product/695166?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14232,7 +15006,10 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
       print: "OMN076",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695167",
+            url: "https://www.tcgplayer.com/product/695167?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14294,7 +15071,10 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
       print: "OMN231",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695281",
+            url: "https://www.tcgplayer.com/product/695281?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -14356,7 +15136,10 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
       print: "OMN124",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695195",
+            url: "https://www.tcgplayer.com/product/695195?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14418,7 +15201,10 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       print: "OMN125",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695196",
+            url: "https://www.tcgplayer.com/product/695196?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14480,7 +15266,10 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       print: "OMN126",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695197",
+            url: "https://www.tcgplayer.com/product/695197?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14542,7 +15331,10 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       print: "OMN051",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692542",
+            url: "https://www.tcgplayer.com/product/692542?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -14554,7 +15346,10 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       print: "OMN051-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692542",
+            url: "https://www.tcgplayer.com/product/692542?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -14616,7 +15411,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN215",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695269",
+            url: "https://www.tcgplayer.com/product/695269?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -14676,7 +15474,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN140-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693051",
+            url: "https://www.tcgplayer.com/product/693051?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["soyameii"],
@@ -14688,7 +15489,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN140-Cold",
       rarity: Rarity.Legendary,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693051",
+            url: "https://www.tcgplayer.com/product/693051?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary],
@@ -14752,7 +15556,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN196",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695250",
+            url: "https://www.tcgplayer.com/product/695250?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14814,7 +15621,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN197",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695251",
+            url: "https://www.tcgplayer.com/product/695251?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14876,7 +15686,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN198",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695252",
+            url: "https://www.tcgplayer.com/product/695252?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -14938,7 +15751,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN133",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693426",
+            url: "https://www.tcgplayer.com/product/693426?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Esty Swandana"],
@@ -14950,7 +15766,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN133-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693428",
+            url: "https://www.tcgplayer.com/product/693428?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -15010,7 +15829,10 @@ The first time this deals damage to a hero, they discard a card.`,
       print: "OMN136",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693425",
+            url: "https://www.tcgplayer.com/product/693425?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -15072,7 +15894,10 @@ If this deals damage, you may {t} your hero. If you do, create a Ponder token.`,
       print: "OMN228",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693424",
+            url: "https://www.tcgplayer.com/product/693424?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -15136,7 +15961,10 @@ When this hits an ally, destroy that ally.`,
       print: "OMN004",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693429",
+            url: "https://www.tcgplayer.com/product/693429?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -15148,7 +15976,10 @@ When this hits an ally, destroy that ally.`,
       print: "OMN004-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "693430",
+            url: "https://www.tcgplayer.com/product/693430?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -15212,7 +16043,10 @@ Whenever this fragments, you may put a Lightning instant card from your graveyar
       print: "OMN151",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695211",
+            url: "https://www.tcgplayer.com/product/695211?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -15272,7 +16106,10 @@ Whenever this fragments, you may put a Lightning instant card from your graveyar
       print: "OMN178",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695232",
+            url: "https://www.tcgplayer.com/product/695232?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15336,7 +16173,10 @@ When this hits, create a Lightning Flow token.
       print: "OMN179",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695233",
+            url: "https://www.tcgplayer.com/product/695233?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15400,7 +16240,10 @@ When this hits, create a Lightning Flow token.
       print: "OMN180",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695234",
+            url: "https://www.tcgplayer.com/product/695234?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15464,7 +16307,10 @@ When this hits, create a Lightning Flow token.
       print: "OMN000-Cold",
       rarity: Rarity.Fabled,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695141",
+            url: "https://www.tcgplayer.com/product/695141?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Fajareka Setiawan"],
@@ -15476,7 +16322,10 @@ When this hits, create a Lightning Flow token.
       print: "OMN000-Rainbow",
       rarity: Rarity.Fabled,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "695141",
+            url: "https://www.tcgplayer.com/product/695141?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Fabled],
@@ -15538,7 +16387,10 @@ When this is pitched, create a Lightning Flow token.`,
       print: "OMN077",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682854",
+            url: "https://www.tcgplayer.com/product/682854?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
@@ -15598,7 +16450,10 @@ When this is pitched, create a Lightning Flow token.`,
       print: "OMN078",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682855",
+            url: "https://www.tcgplayer.com/product/682855?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15658,7 +16513,10 @@ When this is pitched, create a Lightning Flow token.`,
       print: "OMN079",
       rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682857",
+            url: "https://www.tcgplayer.com/product/682857?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -15718,7 +16576,10 @@ When this is pitched, create a Lightning Flow token.`,
       print: "OMN154",
       rarity: Rarity.Rare,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682866",
+            url: "https://www.tcgplayer.com/product/682866?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -15780,7 +16641,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN096",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "692543",
+            url: "https://www.tcgplayer.com/product/692543?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
@@ -15840,7 +16704,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN002",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694901",
+            url: "https://www.tcgplayer.com/product/694901?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -15852,7 +16719,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN002-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694909",
+            url: "https://www.tcgplayer.com/product/694909?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
@@ -15864,7 +16734,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN002-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "694909",
+            url: "https://www.tcgplayer.com/product/694909?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -15924,7 +16797,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN001",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682833",
+            url: "https://www.tcgplayer.com/product/682833?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -15936,7 +16812,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN001-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682839",
+            url: "https://www.tcgplayer.com/product/682839?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
@@ -15948,7 +16827,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN001-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "682839",
+            url: "https://www.tcgplayer.com/product/682839?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel],
