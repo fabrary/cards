@@ -1,13 +1,10 @@
 import {
   Card,
   Foiling,
-  Format,
-  fullSetIdentifiers,
   getIsDeckCard,
   Printing,
   Rarity,
   Release,
-  ReleaseInfo,
   releases,
   ReleaseType,
   setToSetIdentifierMappings,
@@ -22,15 +19,9 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields";
+import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
 import {
-  addOppositeSideCardIdentifiers,
-  getMeta,
-  IGNORE_OPPOSITE_SIDES,
-  sortPrintingsByReleaseOrder,
-} from "./Shared";
-import {
-  getConfirmedLegalFormats,
-  getLegalFormats,
+  getConfirmedBannedAndLegalFormats,
   getLegalHeroes,
 } from "./Shared/legality";
 import { getShorthands } from "./Shared/get-shorthands";
@@ -141,7 +132,8 @@ releasedCards.forEach((card) => {
 });
 
 const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
-  const legalFormats = getConfirmedLegalFormats(card);
+  const { bannedFormats, legalFormats } =
+    getConfirmedBannedAndLegalFormats(card);
   const legalHeroes = getLegalHeroes(card);
   const meta = getMeta(card, deduplicatedCards);
   const nicknames = getNicknames(card);

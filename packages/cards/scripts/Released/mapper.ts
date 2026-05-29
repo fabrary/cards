@@ -42,7 +42,7 @@ import {
   getPrint,
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
-import { getLegalFormats } from "../Shared/legality";
+import { getBannedAndLegalFormats } from "../Shared/legality";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -238,47 +238,47 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   return keywords;
 };
 
-const getBannedFormats = (card: ParsedCard): Format[] => {
-  const {
-    blitzLegal,
-    blitzBanned,
-    blitzLivingLegend,
-    blitzSuspended,
-    classicConstructedLegal,
-    classicConstructedBanned,
-    classicConstructedLivingLegend,
-    classicConstructedSuspended,
-    livingLegendBanned,
-    silverAgeBanned,
-    silverAgeLegal,
-  } = card;
+// const getBannedFormats = (card: ParsedCard): Format[] => {
+//   const {
+//     blitzLegal,
+//     blitzBanned,
+//     blitzLivingLegend,
+//     blitzSuspended,
+//     classicConstructedLegal,
+//     classicConstructedBanned,
+//     classicConstructedLivingLegend,
+//     classicConstructedSuspended,
+//     livingLegendBanned,
+//     silverAgeBanned,
+//     silverAgeLegal,
+//   } = card;
 
-  const bannedFormats: Format[] = [];
+//   const bannedFormats: Format[] = [];
 
-  if (livingLegendBanned) {
-    bannedFormats.push(Format.LivingLegend);
-  }
+//   if (livingLegendBanned) {
+//     bannedFormats.push(Format.LivingLegend);
+//   }
 
-  // if (blitzLivingLegend || blitzBanned || blitzSuspended) {
-  //   bannedFormats.push(Format.Blitz);
-  // }
+//   // if (blitzLivingLegend || blitzBanned || blitzSuspended) {
+//   //   bannedFormats.push(Format.Blitz);
+//   // }
 
-  if (
-    classicConstructedLivingLegend ||
-    classicConstructedBanned ||
-    classicConstructedSuspended
-  ) {
-    bannedFormats.push(Format.ClassicConstructed);
-  }
+//   if (
+//     classicConstructedLivingLegend ||
+//     classicConstructedBanned ||
+//     classicConstructedSuspended
+//   ) {
+//     bannedFormats.push(Format.ClassicConstructed);
+//   }
 
-  if (silverAgeBanned) {
-    bannedFormats.push(Format.SilverAge);
-  }
+//   if (silverAgeBanned) {
+//     bannedFormats.push(Format.SilverAge);
+//   }
 
-  bannedFormats.sort();
+//   bannedFormats.sort();
 
-  return bannedFormats;
-};
+//   return bannedFormats;
+// };
 
 const getSets = (printings: Printing[]): Release[] => {
   const printingSets = printings.map(({ set }) => set);
@@ -353,7 +353,7 @@ const getCardData = (card: ParsedCard): Card => {
   //   console.error(`No special printing`, card);
   // }
 
-  const bannedFormats = getBannedFormats(card);
+  // const bannedFormats = getBannedFormats(card);
   const classes = getClasses(card);
   const hero = getHeroFromCard(card) as Hero;
   const keywords = getKeywords(card);
@@ -365,21 +365,23 @@ const getCardData = (card: ParsedCard): Card => {
   const talents = getTalents(card);
   const traits = getTraits(card);
 
+  const { bannedFormats, legalFormats } = getBannedAndLegalFormats(
+    card,
+    classes,
+    keywords,
+    rarities,
+    setIdentifiers,
+    sets,
+    subtypes,
+    types,
+  );
+
   return {
     artists,
     cardIdentifier,
     classes,
     defaultImage: defaultPrinting?.image,
-    legalFormats: getLegalFormats(
-      bannedFormats,
-      card,
-      classes,
-      keywords,
-      rarities,
-      sets,
-      subtypes,
-      types,
-    ),
+    legalFormats,
     legalHeroes: [],
     // legalHeroes: getLegalHeroes({
     //   cardIdentifier,

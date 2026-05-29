@@ -1,5 +1,5 @@
-export const SPECIAL_USE_PROMOS: string[] = [
-  "Brush of Heavenly Rites",
+// https://fabtcg.com/rules-and-policy-center/special-use-promos/
+const SPECIAL_USE_PROMO_NAMES = [
   "Brutus, Summa Rudis",
   "Cracker Bauble",
   "Diamond Hands",
@@ -11,17 +11,16 @@ export const SPECIAL_USE_PROMOS: string[] = [
   "Frankie, Make Ends Meat",
   "Gavel of Natural Order",
   "Go Bananas",
-  "Good Deeds Don't Go Unnoticed",
+  "Good Deeds Don’t Go Unnoticed",
   "Hummingbird, Call of Adventure",
   "Magrar",
   "Off Cuts",
   "Pink Visor",
-  "Popped Collar Polo",
   "Proclamation of Abundance",
   "Proclamation of Combat",
   "Proclamation of Production",
   "Proclamation of Requisition",
-  "Ruu'di, Gem Keeper",
+  "Ruu’di, Gem Keeper",
   "Scarf for a Scarf",
   "Shitty Xmas Present",
   "Silversheen Needle",
@@ -34,3 +33,19 @@ export const SPECIAL_USE_PROMOS: string[] = [
   "Venomback Fabric",
   "Yorick, Weaver of Tales",
 ];
+
+const SPECIAL_USE_PROMO_PREFIXES = ["JDG", "LSS"];
+
+export const getIsASpecialUsePromo = (
+  name: string,
+  setIdentifiers: string[],
+) => {
+  const hasASpecialUseName = SPECIAL_USE_PROMO_NAMES.includes(name);
+  const isOnlySpecialUsePromoPrints = setIdentifiers.every((setIdentifier) =>
+    SPECIAL_USE_PROMO_PREFIXES.some((prefix) =>
+      setIdentifier.startsWith(prefix),
+    ),
+  );
+
+  return hasASpecialUseName || isOnlySpecialUsePromoPrints;
+};

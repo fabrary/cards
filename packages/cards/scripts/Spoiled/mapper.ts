@@ -42,7 +42,7 @@ import {
 
 import tcgplayerProductFile from "../Released/card.json";
 import { SourceJSONCard } from "../Released/parser";
-import { getLegalFormats } from "../Shared/legality";
+import { getBannedAndLegalFormats } from "../Shared/legality";
 
 const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
 
@@ -738,18 +738,18 @@ export const getParsedRarities = (
   return getRarities({ rarities });
 };
 
-const getBannedFormats = (card: ParsedCard): Format[] => {
-  const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
+// const getBannedFormats = (card: ParsedCard): Format[] => {
+//   const { blitzLegal, classicConstructedLegal, commonerLegal } = card;
 
-  const bannedFormats: Format[] = [];
+//   const bannedFormats: Format[] = [];
 
-  const { rarity } = getParsedRarities(card);
+//   const { rarity } = getParsedRarities(card);
 
-  const ILLEGAL_IN_FORMAT_FLAG = "No";
+//   const ILLEGAL_IN_FORMAT_FLAG = "No";
 
-  bannedFormats.sort();
-  return bannedFormats;
-};
+//   bannedFormats.sort();
+//   return bannedFormats;
+// };
 
 const getSets = (
   { setIdentifiers }: ParsedCard,
@@ -813,7 +813,7 @@ const getCardData = (card: ParsedCard): Card => {
 
   const { rarities, rarity } = getParsedRarities(card);
 
-  const bannedFormats = getBannedFormats(card);
+  // const bannedFormats = getBannedFormats(card);
   const cardIdentifier = getCardIdentifier(card);
   const classes = getClasses(card);
   const hero = getHeroFromCard(card) as Hero;
@@ -826,6 +826,59 @@ const getCardData = (card: ParsedCard): Card => {
   const talents = getTalents(card);
   const traits = getTraits({ ...card, setIdentifiers });
 
+  const isCardAlreadyReleased = releasedCards.some(
+    (releasedCard) => releasedCard.cardIdentifier === cardIdentifier,
+  );
+
+  let bannedFormats: Format[] = [];
+  let legalFormats: Format[] = [];
+
+  if (!isCardAlreadyReleased) {
+    ({ bannedFormats, legalFormats } = getBannedAndLegalFormats(
+      {
+        ...card,
+        // classicConstructedBanned:
+        //   card.classicConstructedLegal === false ? true : false,
+        // livingLegendBanned: card.livingLegendLegal === false ? true : false,
+        // silverAgeBanned: card.silverAgeLegal === false ? true : false,
+      },
+      classes,
+      keywords,
+      rarities,
+      setIdentifiers,
+      sets,
+      subtypes,
+      types,
+    ));
+  }
+
+  // if (card.name === "Wrecker Romp") {
+  //   console.log(`*
+  //     *
+  //     *
+  //     * *
+  //     * *`);
+  //   console.log(
+  //     JSON.stringify(
+  //       {
+  //         bannedFormats,
+  //         legalFormats,
+  //         card,
+  //         classes,
+  //         keywords,
+  //         rarities,
+  //         setIdentifiers,
+  //         sets,
+  //         subtypes,
+  //         types,
+  //       },
+  //       null,
+  //       2,
+  //     ),
+  //   );
+  //   throw new Error("Stop");
+  // }
+
   return {
     artists: getArtists(card),
     cardIdentifier,
@@ -834,16 +887,7 @@ const getCardData = (card: ParsedCard): Card => {
       { name: card.name, cardIdentifier },
       printings,
     )?.image,
-    legalFormats: getLegalFormats(
-      bannedFormats,
-      card,
-      classes,
-      keywords,
-      rarities,
-      sets,
-      subtypes,
-      types,
-    ),
+    legalFormats,
     legalHeroes: [],
     // legalHeroes: getLegalHeroes({
     //   cardIdentifier,

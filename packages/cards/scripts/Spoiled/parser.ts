@@ -134,7 +134,7 @@ const transform = (value: any, field: string) => {
               .trim()
               .replaceAll("–", "-")
               .split(",")
-              .map((value: any) => value.trim())
+              .map((value: any) => value.trim()),
           ),
         ]
       : [];
@@ -144,6 +144,7 @@ const transform = (value: any, field: string) => {
   } else if (fieldsWithDefaultFalseStringToBooleanValues.includes(field)) {
     value = value === "Yes" ? true : false;
   }
+
   return value;
 };
 

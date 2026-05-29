@@ -12,8 +12,8 @@ import {
   Subtype,
   Type,
 } from "@flesh-and-blood/types";
-import { SPECIAL_USE_PROMOS } from "./special-use-promos";
 import { goldenAgeBannedCards } from "./golden-age";
+import { getIsASpecialUsePromo } from "./special-use-promos";
 
 // Logic doesn't work well for duplicate cards from spreadsheets that might be missing some info or only have P rarity for e.g.
 const limitedLegalOverrideCards = [
@@ -26,12 +26,7 @@ const limitedLegalOverrideCards = [
   "Zen State",
 ];
 
-const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = [
-  "Dawnblade, Resplendent",
-  "Raydn, Duskbane",
-];
-
-const livingLegendBannedCards = ["Kraken's Aethervein"];
+const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = ["Dawnblade, Resplendent"];
 
 const RARITIES_ALLOWED_IN_SILVER_AGE = [
   Rarity.Basic,
@@ -58,32 +53,36 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
   (format) => format !== Format.Open,
 );
 
-const CARDS_TO_LOG: string[] = [
-  // "Groundbreaker Crix"
-];
+const CARDS_TO_LOG: string[] = ["Viserai, Rune Blood"];
 
-const CONFIRMED_CARDS_TO_LOG: string[] = [
-  // "Groundbreaker Crix"
-];
+const CONFIRMED_CARDS_TO_LOG: string[] = ["Viserai, Rune Blood"];
 
-export const getLegalFormats = (
-  bannedFormats: Format[],
+export const getBannedAndLegalFormats = (
   card: {
-    blitzLegal: boolean;
-    classicConstructedLegal: boolean;
-    silverAgeLegal: boolean;
+    classicConstructedBanned?: boolean;
+    classicConstructedLivingLegend?: boolean;
+    livingLegendBanned?: boolean;
     name: string;
+    silverAgeBanned?: boolean;
   },
   classes: Class[],
   keywords: Keyword[],
   rarities: Rarity[],
+  setIdentifiers: string[],
   sets: Release[],
   subtypes: Subtype[],
   types: Type[],
-): Format[] => {
+): { bannedFormats: Format[]; legalFormats: Format[] } => {
+  const bannedFormats: Format[] = [];
   const legalFormats: Format[] = [Format.Open];
 
-  const { classicConstructedLegal, name, silverAgeLegal } = card;
+  const {
+    classicConstructedBanned,
+    classicConstructedLivingLegend,
+    livingLegendBanned,
+    name,
+    silverAgeBanned,
+  } = card;
 
   const isMacro = types.includes(Type.Macro);
   const isHero = types.includes(Type.Hero);
@@ -93,33 +92,45 @@ export const getLegalFormats = (
     subtypes.includes(Subtype.PitFighter);
   const isAnAdultHero = isHero && !isYoung;
   const isAYoungHero = isYoung && isHero;
-  const isPitFighter = subtypes.includes(Subtype.PitFighter);
-
-  const isASpecialUsePromo = SPECIAL_USE_PROMOS.includes(name);
+  const isAMentor = types.includes(Type.Mentor);
+  const isAPitFighter = subtypes.includes(Subtype.PitFighter);
+  const isASpecialUsePromo = getIsASpecialUsePromo(name, setIdentifiers);
 
   for (const format of FORMATS_TO_CHECK) {
+    let isBannedInFormat = false;
     let isLegalPerFormat = true;
 
     const isBlitzFormat = format === Format.Blitz;
     if (isBlitzFormat) {
-      if (isPitFighter || isASpecialUsePromo || isAnAdultHero) {
+      if (isAPitFighter || isASpecialUsePromo || isAnAdultHero) {
         isLegalPerFormat = false;
       }
     }
 
-    const isCCFormat = [
-      Format.ClassicConstructed,
-      Format.LivingLegend,
-    ].includes(format);
+    const isCCFormat = format === Format.ClassicConstructed;
     if (isCCFormat) {
-      if (!classicConstructedLegal || isAYoungHero) {
+      const isALivingLegendHero = classicConstructedLivingLegend && isHero;
+      if (
+        isALivingLegendHero ||
+        isAYoungHero ||
+        isASpecialUsePromo ||
+        isAPitFighter ||
+        isAMentor
+      ) {
         isLegalPerFormat = false;
+      }
+
+      if (
+        isLegalPerFormat &&
+        (classicConstructedBanned || classicConstructedLivingLegend)
+      ) {
+        isBannedInFormat = true;
       }
     }
 
     const isPitFightFormat = format === Format.UltimatePitFight;
     if (isPitFightFormat) {
-      if (isPitFighter) {
+      if (isAPitFighter) {
         isLegalPerFormat = true;
       }
       if (isAnAdultHero) {
@@ -129,17 +140,26 @@ export const getLegalFormats = (
 
     const isSilverAgeFormat = format === Format.SilverAge;
     if (isSilverAgeFormat) {
-      if (!silverAgeLegal || isAnAdultHero) {
+      if (isAPitFighter || isASpecialUsePromo || isAnAdultHero) {
         isLegalPerFormat = false;
+      }
+
+      if (silverAgeBanned) {
+        isBannedInFormat = true;
       }
     }
 
     const isGoldenAgeFormat = format === Format.GoldenAge;
     if (isGoldenAgeFormat) {
       const isBanned = goldenAgeBannedCards.includes(card.name);
+      const isABannedHero = isBanned && isAnAdultHero;
 
-      if (isBanned) {
+      if (isASpecialUsePromo || isABannedHero) {
         isLegalPerFormat = false;
+      }
+
+      if (isLegalPerFormat && isBanned) {
+        isBannedInFormat = true;
       }
     }
 
@@ -179,10 +199,12 @@ export const getLegalFormats = (
 
     const isLivingLegendFormat = [Format.LivingLegend].includes(format);
     if (isLivingLegendFormat) {
-      const isBanned = livingLegendBannedCards.includes(card.name);
-
-      if (isBanned) {
+      if (isAYoungHero || isASpecialUsePromo || isAPitFighter || isAMentor) {
         isLegalPerFormat = false;
+      }
+
+      if (livingLegendBanned) {
+        isBannedInFormat = true;
       }
     }
 
@@ -196,7 +218,8 @@ export const getLegalFormats = (
       format === Format.SilverAge &&
       SILVER_AGE_LEGAL_CARD_EXCEPTIONS.includes(card.name);
 
-    const shouldAddToFormat =
+    const shouldAddToBannedFormats = isBannedInFormat;
+    const shouldAddToLegalFormats =
       isAnException || (isLegalPerFormat && isNotBanned && isLegalPerHeroAge);
 
     if (CARDS_TO_LOG.includes(card.name)) {
@@ -204,14 +227,13 @@ export const getLegalFormats = (
         JSON.stringify(
           {
             name: card.name,
-            classicConstructedLegal,
             heroMatchesFormat,
             isLegalPerHeroAge,
             isLegalPerFormat,
             isNotBanned,
             isHero,
             format,
-            shouldAddToFormat,
+            shouldAddToFormat: shouldAddToLegalFormats,
             types,
           },
           null,
@@ -220,14 +242,18 @@ export const getLegalFormats = (
       );
     }
 
-    if (shouldAddToFormat) {
+    if (shouldAddToBannedFormats) {
+      bannedFormats.push(format);
+    }
+    if (shouldAddToLegalFormats) {
       legalFormats.push(format);
     }
   }
 
+  bannedFormats.sort();
   legalFormats.sort();
 
-  return legalFormats;
+  return { bannedFormats, legalFormats };
 };
 
 const releaseInfoForLimitedFormat = releases.filter(
@@ -237,17 +263,19 @@ const limitedFormatReleases = releaseInfoForLimitedFormat.map(
   ({ release }) => release,
 );
 
-export const getConfirmedLegalFormats = ({
+export const getConfirmedBannedAndLegalFormats = ({
+  bannedFormats,
   classes,
   keywords,
   legalFormats,
   name,
   printings,
   rarities,
+  setIdentifiers,
   sets,
   subtypes,
   types,
-}: Card) => {
+}: Card): { bannedFormats?: Format[]; legalFormats: Format[] } => {
   const isHero = types.includes(Type.Hero);
 
   const isAnAdjudicator = classes.includes(Class.Adjudicator);
@@ -259,7 +287,13 @@ export const getConfirmedLegalFormats = ({
   const isAYoungHero = isYoung && isHero;
   const isPitFighter = subtypes.includes(Subtype.PitFighter);
 
-  const isASpecialUsePromo = SPECIAL_USE_PROMOS.includes(name);
+  const isASpecialUsePromo = getIsASpecialUsePromo(name, setIdentifiers);
+
+  const confirmedBannedFormats = bannedFormats?.filter((format) => {
+    let isConfirmedBanned = true;
+
+    return isConfirmedBanned;
+  });
 
   const confirmedLegalFormats = legalFormats.filter((format) => {
     let isConfirmedLegal = true;
@@ -383,5 +417,8 @@ export const getConfirmedLegalFormats = ({
     return isConfirmedLegal;
   });
 
-  return confirmedLegalFormats;
+  return {
+    bannedFormats: confirmedBannedFormats,
+    legalFormats: confirmedLegalFormats,
+  };
 };
