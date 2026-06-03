@@ -2893,7 +2893,7 @@ At the start of your turn, put this into your soul.`,
       
       
       print: "OMN109",
-      rarity: Rarity.Rare,
+      rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
             productId: "695183",
@@ -2901,8 +2901,8 @@ At the start of your turn, put this into your soul.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["OMN109"],
     sets: [Release.OmensOfTheThirdAge],
     specialImage: "OMN109",
@@ -2958,7 +2958,7 @@ At the start of your turn, put this into your soul.`,
       
       
       print: "OMN110",
-      rarity: Rarity.Rare,
+      rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
             productId: "695184",
@@ -2966,8 +2966,8 @@ At the start of your turn, put this into your soul.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["OMN110"],
     sets: [Release.OmensOfTheThirdAge],
     specialImage: "OMN110",
@@ -3023,7 +3023,7 @@ At the start of your turn, put this into your soul.`,
       
       
       print: "OMN111",
-      rarity: Rarity.Rare,
+      rarity: Rarity.Common,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
             productId: "695185",
@@ -3031,8 +3031,8 @@ At the start of your turn, put this into your soul.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
     setIdentifiers: ["OMN111"],
     sets: [Release.OmensOfTheThirdAge],
     specialImage: "OMN111",

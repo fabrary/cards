@@ -14,6 +14,8 @@ const identifierExtensionMapping: { [key: string]: string } = {
 const suffixOverrides: { [key: string]: string } = {
   "OMN203-MVB": "-V2",
   "OMN203-MVC": "-V3",
+  "MPG112-A": "-V2",
+  "MPG112-B": "-V3",
   MPG112_V2: "-V2",
   MPG112_V3: "-V3",
   MST158_V3: "-V3",
