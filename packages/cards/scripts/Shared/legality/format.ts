@@ -26,6 +26,10 @@ const limitedLegalOverrideCards = [
   "Zen State",
 ];
 
+const SILVER_AGE_BANNED_CARD_EXCEPTIONS = [
+  "Dawnblade, Resplendent",
+  "Dorinthea, Quicksilver Prodigy",
+];
 const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = ["Dawnblade, Resplendent"];
 
 const RARITIES_ALLOWED_IN_SILVER_AGE = [
@@ -148,7 +152,7 @@ export const getBannedAndLegalFormats = (
         isLegalPerFormat = false;
       }
 
-      if (silverAgeBanned) {
+      if (silverAgeBanned || SILVER_AGE_BANNED_CARD_EXCEPTIONS.includes(name)) {
         isBannedInFormat = true;
       }
     }

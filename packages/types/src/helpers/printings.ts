@@ -12,6 +12,8 @@ const identifierExtensionMapping: { [key: string]: string } = {
 };
 
 const suffixOverrides: { [key: string]: string } = {
+  "FAB470-RFB": "-V2",
+  "FAB470-RFC": "-V3",
   "OMN203-MVB": "-V2",
   "OMN203-MVC": "-V3",
   "MPG112-A": "-V2",
@@ -19,6 +21,7 @@ const suffixOverrides: { [key: string]: string } = {
   MPG112_V2: "-V2",
   MPG112_V3: "-V3",
   MST158_V3: "-V3",
+  "ROS162-B": "-V2",
   ROS162_V2: "-V2",
   "ROS008-MV_V2_BACK": "-V3",
   SUP009_V3: "-V3",
@@ -360,7 +363,8 @@ export const getDefaultPrinting = (
 
       const hasImage = !!image;
       const isWhiteBorder = image?.includes("HP");
-      const shouldConsiderPrinting = hasImage && !isWhiteBorder;
+      const isCardBack = image?.includes("BACK");
+      const shouldConsiderPrinting = hasImage && !isWhiteBorder && !isCardBack;
 
       if (shouldConsiderPrinting) {
         if (!firstImage) {

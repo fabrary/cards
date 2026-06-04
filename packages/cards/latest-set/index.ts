@@ -27,7 +27,7 @@
     cardIdentifier: "a-bit-off-the-side-red",
     classes: [Class.Guardian,Class.Warrior],
     defaultImage: "OMN243",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Jarl,Hero.Kassai,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Olympia,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
     name: "A Bit off the Side",
     printings: [{
@@ -50,7 +50,7 @@
       foiling: Foiling.Cold,
       identifier: "OMN243",
       image: "OMN243-CF",
-      
+      isExpansionSlot: true,
       
       print: "OMN243-Cold-Extended Art",
       rarity: Rarity.Majestic,
@@ -103,7 +103,7 @@
   
   
   },{
-    artists: ["Aluisio Cervelle"],
+    artists: ["Aluísio Cervelle"],
     cardIdentifier: "aethersling-red",
     classes: [Class.Wizard],
     defaultImage: "OMN134",
@@ -111,7 +111,7 @@
     legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Emperor,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Verdance],
     name: "Aethersling",
     printings: [{
-        artists: ["Aluisio Cervelle"],
+        artists: ["Aluísio Cervelle"],
       
       identifier: "OMN134",
       image: "OMN134",
@@ -123,6 +123,21 @@
       tcgplayer: {
             productId: "695201",
             url: "https://www.tcgplayer.com/product/695201?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN134",
+      image: "OMN134",
+      
+      
+      print: "OMN134-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695201",
+            url: "https://www.tcgplayer.com/product/695201?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -253,6 +268,21 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
             url: "https://www.tcgplayer.com/product/692537?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN100",
+      image: "OMN100",
+      
+      
+      print: "OMN100-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692537",
+            url: "https://www.tcgplayer.com/product/692537?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -316,6 +346,21 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       tcgplayer: {
             productId: "692536",
             url: "https://www.tcgplayer.com/product/692536?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN101",
+      image: "OMN101",
+      
+      
+      print: "OMN101-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692536",
+            url: "https://www.tcgplayer.com/product/692536?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -383,6 +428,21 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
             url: "https://www.tcgplayer.com/product/692535?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN102",
+      image: "OMN102",
+      
+      
+      print: "OMN102-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692535",
+            url: "https://www.tcgplayer.com/product/692535?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -448,6 +508,21 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
             url: "https://www.tcgplayer.com/product/694945?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["János Brumár"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN088",
+      image: "OMN088",
+      
+      
+      print: "OMN088-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694945",
+            url: "https://www.tcgplayer.com/product/694945?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -509,6 +584,21 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       tcgplayer: {
             productId: "694946",
             url: "https://www.tcgplayer.com/product/694946?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["János Brumár"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN089",
+      image: "OMN089",
+      
+      
+      print: "OMN089-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694946",
+            url: "https://www.tcgplayer.com/product/694946?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -574,6 +664,21 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
             url: "https://www.tcgplayer.com/product/694947?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["János Brumár"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN090",
+      image: "OMN090",
+      
+      
+      print: "OMN090-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694947",
+            url: "https://www.tcgplayer.com/product/694947?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -635,6 +740,21 @@ You may destroy a Lightning Flow you control. If you do, this gets **go again**.
       tcgplayer: {
             productId: "694931",
             url: "https://www.tcgplayer.com/product/694931?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Reinaldo Indrajaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN052",
+      image: "OMN052",
+      
+      
+      print: "OMN052-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694931",
+            url: "https://www.tcgplayer.com/product/694931?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -700,6 +820,21 @@ At the start of your action phase, destroy an aura you control.`,
       tcgplayer: {
             productId: "695285",
             url: "https://www.tcgplayer.com/product/695285?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Bo Setiaji"],
+      foiling: Foiling.Cold,
+      identifier: "OMN236",
+      image: "OMN236",
+      isExpansionSlot: true,
+      
+      print: "OMN236-Cold",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695285",
+            url: "https://www.tcgplayer.com/product/695285?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -769,6 +904,21 @@ When this is equipped, create a Spellbane Aegis token.
             url: "https://www.tcgplayer.com/product/695214?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN160",
+      image: "OMN160",
+      
+      
+      print: "OMN160-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695214",
+            url: "https://www.tcgplayer.com/product/695214?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -832,6 +982,21 @@ When this is equipped, create a Spellbane Aegis token.
             url: "https://www.tcgplayer.com/product/695215?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN161",
+      image: "OMN161",
+      
+      
+      print: "OMN161-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695215",
+            url: "https://www.tcgplayer.com/product/695215?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -893,6 +1058,21 @@ When this is equipped, create a Spellbane Aegis token.
       tcgplayer: {
             productId: "695216",
             url: "https://www.tcgplayer.com/product/695216?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN162",
+      image: "OMN162",
+      
+      
+      print: "OMN162-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695216",
+            url: "https://www.tcgplayer.com/product/695216?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -1038,8 +1218,23 @@ When this is equipped, create a Spellbane Aegis token.
             url: "https://www.tcgplayer.com/product/682876?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Sariya Asavametha"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN145",
+      image: "OMN145",
+      
+      
+      print: "OMN145-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682876",
+            url: "https://www.tcgplayer.com/product/682876?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
-    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
     setIdentifiers: ["FAB469","OMN145"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
@@ -1054,7 +1249,6 @@ When this is equipped, create a Spellbane Aegis token.
     defense: 3,
     
     functionalText: `When this attacks, if you've destroyed a Lightning Flow this turn, choose 1;
-
 - Draw a card.
 - This gets +2{p}.
 - This gets **go again**.`,
@@ -1103,6 +1297,21 @@ When this is equipped, create a Spellbane Aegis token.
       tcgplayer: {
             productId: "692531",
             url: "https://www.tcgplayer.com/product/692531?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Flora Silve"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN027",
+      image: "OMN027",
+      
+      
+      print: "OMN027-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692531",
+            url: "https://www.tcgplayer.com/product/692531?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -1170,6 +1379,21 @@ When this is equipped, create a Spellbane Aegis token.
             url: "https://www.tcgplayer.com/product/692532?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Flora Silve"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN028",
+      image: "OMN028",
+      
+      
+      print: "OMN028-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692532",
+            url: "https://www.tcgplayer.com/product/692532?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -1233,6 +1457,21 @@ When this is equipped, create a Spellbane Aegis token.
       tcgplayer: {
             productId: "692533",
             url: "https://www.tcgplayer.com/product/692533?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Flora Silve"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN029",
+      image: "OMN029",
+      
+      
+      print: "OMN029-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692533",
+            url: "https://www.tcgplayer.com/product/692533?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -1486,6 +1725,21 @@ When this is equipped, create a Spellbane Aegis token.
             url: "https://www.tcgplayer.com/product/695287?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN238",
+      image: "OMN238",
+      isExpansionSlot: true,
+      
+      print: "OMN238-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695287",
+            url: "https://www.tcgplayer.com/product/695287?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -1549,6 +1803,21 @@ When this is equipped, create a Spellbane Aegis token.
             url: "https://www.tcgplayer.com/product/692520?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN148",
+      image: "OMN148",
+      
+      
+      print: "OMN148-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692520",
+            url: "https://www.tcgplayer.com/product/692520?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -1594,7 +1863,7 @@ When this is equipped, create a Spellbane Aegis token.
     cardIdentifier: "blessing-of-aegis-yellow",
     classes: [Class.NotClassed],
     defaultImage: "OMN244",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Librarian,Hero.Prism,Hero.Theryon],
     name: "Blessing of Aegis",
     printings: [{
@@ -1617,7 +1886,7 @@ When this is equipped, create a Spellbane Aegis token.
       foiling: Foiling.Cold,
       identifier: "OMN244",
       image: "OMN244-CF",
-      
+      isExpansionSlot: true,
       
       print: "OMN244-Cold-Extended Art",
       rarity: Rarity.Majestic,
@@ -1692,6 +1961,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "692524",
             url: "https://www.tcgplayer.com/product/692524?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Amtepra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN006",
+      image: "OMN006",
+      
+      
+      print: "OMN006-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692524",
+            url: "https://www.tcgplayer.com/product/692524?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -1826,7 +2110,7 @@ At the start of your turn, put this into your soul.`,
         artists: ["João G. Santos"],
       foiling: Foiling.Cold,
       identifier: "OMN204",
-      image: "OMN204-CF",
+      image: "OMN204-RF",
       
       
       print: "OMN204-Cold",
@@ -1842,7 +2126,7 @@ At the start of your turn, put this into your soul.`,
     rarity: Rarity.Legendary,
     setIdentifiers: ["OMN204"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN204-CF",
+    specialImage: "OMN204-RF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Legs",
@@ -1854,7 +2138,9 @@ At the start of your turn, put this into your soul.`,
     
     functionalText: `If you've been dealt arcane damage this turn, this gets +1{d}.
 
-**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.`,
+**Instant** - {t} your hero, destroy this: Prevent the next 1 damage that would be dealt to you this turn.
+
+**Temper**`,
     
     
     
@@ -2169,6 +2455,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695238?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN184",
+      image: "OMN184",
+      
+      
+      print: "OMN184-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695238",
+            url: "https://www.tcgplayer.com/product/695238?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -2232,6 +2533,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695239?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN185",
+      image: "OMN185",
+      
+      
+      print: "OMN185-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695239",
+            url: "https://www.tcgplayer.com/product/695239?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -2293,6 +2609,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695240",
             url: "https://www.tcgplayer.com/product/695240?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN186",
+      image: "OMN186",
+      
+      
+      print: "OMN186-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695240",
+            url: "https://www.tcgplayer.com/product/695240?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -2414,7 +2745,7 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
-    artists: ["Aluisio Cervelle"],
+    artists: ["Aluísio Cervelle"],
     cardIdentifier: "chromatic-refinement-red",
     classes: [Class.NotClassed],
     defaultImage: "OMN193",
@@ -2422,7 +2753,7 @@ At the start of your turn, put this into your soul.`,
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Chromatic Refinement",
     printings: [{
-        artists: ["Aluisio Cervelle"],
+        artists: ["Aluísio Cervelle"],
       
       identifier: "OMN193",
       image: "OMN193",
@@ -2434,6 +2765,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695247",
             url: "https://www.tcgplayer.com/product/695247?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN193",
+      image: "OMN193",
+      
+      
+      print: "OMN193-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695247",
+            url: "https://www.tcgplayer.com/product/695247?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -2477,7 +2823,7 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
-    artists: ["Aluisio Cervelle"],
+    artists: ["Aluísio Cervelle"],
     cardIdentifier: "chromatic-refinement-yellow",
     classes: [Class.NotClassed],
     defaultImage: "OMN194",
@@ -2485,7 +2831,7 @@ At the start of your turn, put this into your soul.`,
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Chromatic Refinement",
     printings: [{
-        artists: ["Aluisio Cervelle"],
+        artists: ["Aluísio Cervelle"],
       
       identifier: "OMN194",
       image: "OMN194",
@@ -2497,6 +2843,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695248",
             url: "https://www.tcgplayer.com/product/695248?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN194",
+      image: "OMN194",
+      
+      
+      print: "OMN194-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695248",
+            url: "https://www.tcgplayer.com/product/695248?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -2540,7 +2901,7 @@ At the start of your turn, put this into your soul.`,
   
   
   },{
-    artists: ["Aluisio Cervelle"],
+    artists: ["Aluísio Cervelle"],
     cardIdentifier: "chromatic-refinement-blue",
     classes: [Class.NotClassed],
     defaultImage: "OMN195",
@@ -2548,7 +2909,7 @@ At the start of your turn, put this into your soul.`,
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Chromatic Refinement",
     printings: [{
-        artists: ["Aluisio Cervelle"],
+        artists: ["Aluísio Cervelle"],
       
       identifier: "OMN195",
       image: "OMN195",
@@ -2560,6 +2921,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695249",
             url: "https://www.tcgplayer.com/product/695249?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Aluísio Cervelle"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN195",
+      image: "OMN195",
+      
+      
+      print: "OMN195-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695249",
+            url: "https://www.tcgplayer.com/product/695249?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -2705,6 +3081,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/694928?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN041",
+      image: "OMN041",
+      
+      
+      print: "OMN041-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694928",
+            url: "https://www.tcgplayer.com/product/694928?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -2768,6 +3159,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "694929",
             url: "https://www.tcgplayer.com/product/694929?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN042",
+      image: "OMN042",
+      
+      
+      print: "OMN042-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694929",
+            url: "https://www.tcgplayer.com/product/694929?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -2835,6 +3241,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/694930?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN043",
+      image: "OMN043",
+      
+      
+      print: "OMN043-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694930",
+            url: "https://www.tcgplayer.com/product/694930?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -2898,6 +3319,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695183",
             url: "https://www.tcgplayer.com/product/695183?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Dzulfikar Aliy"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN109",
+      image: "OMN109",
+      
+      
+      print: "OMN109-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695183",
+            url: "https://www.tcgplayer.com/product/695183?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -2965,6 +3401,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695184?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Dzulfikar Aliy"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN110",
+      image: "OMN110",
+      
+      
+      print: "OMN110-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695184",
+            url: "https://www.tcgplayer.com/product/695184?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -3028,6 +3479,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695185",
             url: "https://www.tcgplayer.com/product/695185?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Dzulfikar Aliy"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN111",
+      image: "OMN111",
+      
+      
+      print: "OMN111-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695185",
+            url: "https://www.tcgplayer.com/product/695185?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -3095,6 +3561,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695273?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN219",
+      image: "OMN219",
+      
+      
+      print: "OMN219-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695273",
+            url: "https://www.tcgplayer.com/product/695273?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -3156,6 +3637,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695274",
             url: "https://www.tcgplayer.com/product/695274?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN220",
+      image: "OMN220",
+      
+      
+      print: "OMN220-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695274",
+            url: "https://www.tcgplayer.com/product/695274?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -3221,6 +3717,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695275?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN221",
+      image: "OMN221",
+      
+      
+      print: "OMN221-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695275",
+            url: "https://www.tcgplayer.com/product/695275?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -3282,6 +3793,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695198",
             url: "https://www.tcgplayer.com/product/695198?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Olga Tereshenko"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN130",
+      image: "OMN130",
+      
+      
+      print: "OMN130-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695198",
+            url: "https://www.tcgplayer.com/product/695198?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -3349,6 +3875,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695199?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN131",
+      image: "OMN131",
+      
+      
+      print: "OMN131-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695199",
+            url: "https://www.tcgplayer.com/product/695199?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -3414,6 +3955,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695206?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Surya Feby"],
+      foiling: Foiling.Cold,
+      identifier: "OMN142",
+      image: "OMN142",
+      
+      
+      print: "OMN142-Cold",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695206",
+            url: "https://www.tcgplayer.com/product/695206?Language=English&Printing=Cold+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -3475,6 +4031,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "695200",
             url: "https://www.tcgplayer.com/product/695200?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN132",
+      image: "OMN132",
+      
+      
+      print: "OMN132-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695200",
+            url: "https://www.tcgplayer.com/product/695200?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -3542,6 +4113,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695179?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Cold,
+      identifier: "OMN097",
+      image: "OMN097",
+      
+      
+      print: "OMN097-Cold",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695179",
+            url: "https://www.tcgplayer.com/product/695179?Language=English&Printing=Cold+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -3603,6 +4189,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "692528",
             url: "https://www.tcgplayer.com/product/692528?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN103",
+      image: "OMN103",
+      
+      
+      print: "OMN103-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692528",
+            url: "https://www.tcgplayer.com/product/692528?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -3668,6 +4269,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/692529?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN104",
+      image: "OMN104",
+      
+      
+      print: "OMN104-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692529",
+            url: "https://www.tcgplayer.com/product/692529?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -3731,6 +4347,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/692530?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN105",
+      image: "OMN105",
+      
+      
+      print: "OMN105-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692530",
+            url: "https://www.tcgplayer.com/product/692530?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -3792,6 +4423,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "693431",
             url: "https://www.tcgplayer.com/product/693431?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN012",
+      image: "OMN012",
+      
+      
+      print: "OMN012-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "693431",
+            url: "https://www.tcgplayer.com/product/693431?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -3859,6 +4505,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/693432?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN013",
+      image: "OMN013",
+      
+      
+      print: "OMN013-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "693432",
+            url: "https://www.tcgplayer.com/product/693432?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -3922,6 +4583,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "693433",
             url: "https://www.tcgplayer.com/product/693433?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Mark Poole"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN014",
+      image: "OMN014",
+      
+      
+      print: "OMN014-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "693433",
+            url: "https://www.tcgplayer.com/product/693433?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -3989,8 +4665,23 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/682847?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN015",
+      image: "OMN015",
+      
+      
+      print: "OMN015-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682847",
+            url: "https://www.tcgplayer.com/product/682847?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB464","OMN015"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
@@ -4052,6 +4743,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "682850",
             url: "https://www.tcgplayer.com/product/682850?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN016",
+      image: "OMN016",
+      
+      
+      print: "OMN016-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682850",
+            url: "https://www.tcgplayer.com/product/682850?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -4119,6 +4825,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/682853?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN017",
+      image: "OMN017",
+      
+      
+      print: "OMN017-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682853",
+            url: "https://www.tcgplayer.com/product/682853?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -4184,6 +4905,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/695241?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN187",
+      image: "OMN187",
+      
+      
+      print: "OMN187-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695241",
+            url: "https://www.tcgplayer.com/product/695241?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -4245,6 +4981,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "692515",
             url: "https://www.tcgplayer.com/product/692515?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Arif Restu"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN127",
+      image: "OMN127",
+      
+      
+      print: "OMN127-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692515",
+            url: "https://www.tcgplayer.com/product/692515?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -4312,6 +5063,21 @@ At the start of your turn, put this into your soul.`,
             url: "https://www.tcgplayer.com/product/692516?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Arif Restu"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN128",
+      image: "OMN128",
+      
+      
+      print: "OMN128-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692516",
+            url: "https://www.tcgplayer.com/product/692516?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -4375,6 +5141,21 @@ At the start of your turn, put this into your soul.`,
       tcgplayer: {
             productId: "692517",
             url: "https://www.tcgplayer.com/product/692517?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Arif Restu"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN129",
+      image: "OMN129",
+      
+      
+      print: "OMN129-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692517",
+            url: "https://www.tcgplayer.com/product/692517?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -4665,6 +5446,21 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
             url: "https://www.tcgplayer.com/product/692548?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Vincent Taslim"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN053",
+      image: "OMN053",
+      
+      
+      print: "OMN053-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692548",
+            url: "https://www.tcgplayer.com/product/692548?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -4728,6 +5524,21 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
       tcgplayer: {
             productId: "695156",
             url: "https://www.tcgplayer.com/product/695156?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Phu Thieu"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN062",
+      image: "OMN062",
+      
+      
+      print: "OMN062-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695156",
+            url: "https://www.tcgplayer.com/product/695156?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -4795,6 +5606,21 @@ When this hits a hero, destroy an aura token they control.`,
             url: "https://www.tcgplayer.com/product/695157?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Phu Thieu"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN063",
+      image: "OMN063",
+      
+      
+      print: "OMN063-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695157",
+            url: "https://www.tcgplayer.com/product/695157?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -4858,6 +5684,21 @@ When this hits a hero, destroy an aura token they control.`,
       tcgplayer: {
             productId: "695158",
             url: "https://www.tcgplayer.com/product/695158?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Phu Thieu"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN064",
+      image: "OMN064",
+      
+      
+      print: "OMN064-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695158",
+            url: "https://www.tcgplayer.com/product/695158?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -4925,6 +5766,21 @@ When this hits a hero, destroy an aura token they control.`,
             url: "https://www.tcgplayer.com/product/695294?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Harry Wyatt"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN245",
+      image: "OMN245",
+      isExpansionSlot: true,
+      
+      print: "OMN245-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695294",
+            url: "https://www.tcgplayer.com/product/695294?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -4988,6 +5844,21 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       tcgplayer: {
             productId: "694915",
             url: "https://www.tcgplayer.com/product/694915?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN018",
+      image: "OMN018",
+      
+      
+      print: "OMN018-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694915",
+            url: "https://www.tcgplayer.com/product/694915?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -5055,6 +5926,21 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
             url: "https://www.tcgplayer.com/product/694917?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN019",
+      image: "OMN019",
+      
+      
+      print: "OMN019-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694917",
+            url: "https://www.tcgplayer.com/product/694917?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5084,7 +5970,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
   
     
     pitch: 2,
-    power: 5,
+    power: 4,
     
     
     
@@ -5118,6 +6004,21 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       tcgplayer: {
             productId: "694919",
             url: "https://www.tcgplayer.com/product/694919?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN020",
+      image: "OMN020",
+      
+      
+      print: "OMN020-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694919",
+            url: "https://www.tcgplayer.com/product/694919?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -5185,6 +6086,21 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
             url: "https://www.tcgplayer.com/product/692545?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN099",
+      image: "OMN099",
+      
+      
+      print: "OMN099-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692545",
+            url: "https://www.tcgplayer.com/product/692545?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -5250,6 +6166,21 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
             url: "https://www.tcgplayer.com/product/695217?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN163",
+      image: "OMN163",
+      
+      
+      print: "OMN163-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695217",
+            url: "https://www.tcgplayer.com/product/695217?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -5311,6 +6242,21 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       tcgplayer: {
             productId: "695218",
             url: "https://www.tcgplayer.com/product/695218?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN164",
+      image: "OMN164",
+      
+      
+      print: "OMN164-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695218",
+            url: "https://www.tcgplayer.com/product/695218?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -5376,6 +6322,21 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
             url: "https://www.tcgplayer.com/product/695219?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN165",
+      image: "OMN165",
+      
+      
+      print: "OMN165-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695219",
+            url: "https://www.tcgplayer.com/product/695219?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5437,6 +6398,21 @@ When this is put into your graveyard from anywhere, your hero deals 1 arcane dam
       tcgplayer: {
             productId: "695168",
             url: "https://www.tcgplayer.com/product/695168?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN080",
+      image: "OMN080",
+      
+      
+      print: "OMN080-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695168",
+            url: "https://www.tcgplayer.com/product/695168?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -5506,6 +6482,21 @@ Create a Lightning Flow token.
             url: "https://www.tcgplayer.com/product/695169?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN081",
+      image: "OMN081",
+      
+      
+      print: "OMN081-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695169",
+            url: "https://www.tcgplayer.com/product/695169?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5573,6 +6564,21 @@ Create a Lightning Flow token.
             url: "https://www.tcgplayer.com/product/695170?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN082",
+      image: "OMN082",
+      
+      
+      print: "OMN082-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695170",
+            url: "https://www.tcgplayer.com/product/695170?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5638,6 +6644,21 @@ Create a Lightning Flow token.
       tcgplayer: {
             productId: "695152",
             url: "https://www.tcgplayer.com/product/695152?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nadia Suryani"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN054",
+      image: "OMN054",
+      
+      
+      print: "OMN054-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695152",
+            url: "https://www.tcgplayer.com/product/695152?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -5800,7 +6821,7 @@ The first time this deals damage to a hero, you may put an instant card from you
     
     
     
-    functionalText: `When you play an attack action card, destroy this and the attack gets **go again**.`,
+    functionalText: `When you play an attack action card, destroy this, then the attack gets **go again**.`,
     
     
     
@@ -5846,6 +6867,21 @@ The first time this deals damage to a hero, you may put an instant card from you
       tcgplayer: {
             productId: "695186",
             url: "https://www.tcgplayer.com/product/695186?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN112",
+      image: "OMN112",
+      
+      
+      print: "OMN112-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695186",
+            url: "https://www.tcgplayer.com/product/695186?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -5913,6 +6949,21 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
             url: "https://www.tcgplayer.com/product/695187?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN113",
+      image: "OMN113",
+      
+      
+      print: "OMN113-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695187",
+            url: "https://www.tcgplayer.com/product/695187?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -5976,6 +7027,21 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       tcgplayer: {
             productId: "695188",
             url: "https://www.tcgplayer.com/product/695188?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN114",
+      image: "OMN114",
+      
+      
+      print: "OMN114-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695188",
+            url: "https://www.tcgplayer.com/product/695188?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -6043,6 +7109,21 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
             url: "https://www.tcgplayer.com/product/695148?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN044",
+      image: "OMN044",
+      
+      
+      print: "OMN044-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695148",
+            url: "https://www.tcgplayer.com/product/695148?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -6106,6 +7187,21 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
       tcgplayer: {
             productId: "695149",
             url: "https://www.tcgplayer.com/product/695149?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN045",
+      image: "OMN045",
+      
+      
+      print: "OMN045-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695149",
+            url: "https://www.tcgplayer.com/product/695149?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -6173,6 +7269,21 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
             url: "https://www.tcgplayer.com/product/695150?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN046",
+      image: "OMN046",
+      
+      
+      print: "OMN046-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695150",
+            url: "https://www.tcgplayer.com/product/695150?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -6220,7 +7331,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
     cardIdentifier: "evasive-nageboshi-blue",
     classes: [Class.Ninja],
     defaultImage: "OMN232",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
     name: "Evasive Nageboshi",
     printings: [{
@@ -6242,8 +7353,8 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
         artists: ["Jessketchin"],
       foiling: Foiling.Cold,
       identifier: "OMN232",
-      image: "OMN232-CF",
-      
+      image: "OMN232",
+      isExpansionSlot: true,
       
       print: "OMN232-Cold",
       rarity: Rarity.Majestic,
@@ -6258,7 +7369,7 @@ If this deals damage, you may {t} your hero. If you do, create a Lightning Flow 
     rarity: Rarity.Majestic,
     setIdentifiers: ["OMN232"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN232-CF",
+    specialImage: "OMN232",
     subtypes: [Subtype.Item,Subtype.Shuriken],
     types: [Type.Instant],
     typeText: "Ninja Instant - Shuriken Item",
@@ -6298,15 +7409,15 @@ This can't be defended by equipment or reaction cards.`,
   
   
   },{
-    artists: ["Phy Thieu"],
+    artists: ["Phu Thieu"],
     cardIdentifier: "feral-instinct-yellow",
     classes: [Class.Brute],
     defaultImage: "OMN229",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
     name: "Feral Instinct",
     printings: [{
-        artists: ["Phy Thieu"],
+        artists: ["Phu Thieu"],
       
       identifier: "OMN229",
       image: "OMN229",
@@ -6321,11 +7432,11 @@ This can't be defended by equipment or reaction cards.`,
           },
       
     },{
-        artists: ["Phy Thieu"],
+        artists: ["Phu Thieu"],
       foiling: Foiling.Cold,
       identifier: "OMN229",
       image: "OMN229-CF",
-      
+      isExpansionSlot: true,
       
       print: "OMN229-Cold-Extended Art",
       rarity: Rarity.Majestic,
@@ -6398,6 +7509,21 @@ This can't be defended by equipment or reaction cards.`,
             url: "https://www.tcgplayer.com/product/695147?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN039",
+      image: "OMN039",
+      
+      
+      print: "OMN039-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695147",
+            url: "https://www.tcgplayer.com/product/695147?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -6459,6 +7585,21 @@ This can't be defended by equipment or reaction cards.`,
       tcgplayer: {
             productId: "695180",
             url: "https://www.tcgplayer.com/product/695180?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN106",
+      image: "OMN106",
+      
+      
+      print: "OMN106-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695180",
+            url: "https://www.tcgplayer.com/product/695180?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -6524,6 +7665,21 @@ This can't be defended by equipment or reaction cards.`,
             url: "https://www.tcgplayer.com/product/695181?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN107",
+      image: "OMN107",
+      
+      
+      print: "OMN107-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695181",
+            url: "https://www.tcgplayer.com/product/695181?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -6585,6 +7741,21 @@ This can't be defended by equipment or reaction cards.`,
       tcgplayer: {
             productId: "695182",
             url: "https://www.tcgplayer.com/product/695182?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN108",
+      image: "OMN108",
+      
+      
+      print: "OMN108-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695182",
+            url: "https://www.tcgplayer.com/product/695182?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -6730,6 +7901,21 @@ This can't be defended by equipment or reaction cards.`,
             url: "https://www.tcgplayer.com/product/692522?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Athiwut B."],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN005",
+      image: "OMN005",
+      
+      
+      print: "OMN005-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692522",
+            url: "https://www.tcgplayer.com/product/692522?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -6795,6 +7981,21 @@ This can't be defended by equipment or reaction cards.`,
             url: "https://www.tcgplayer.com/product/695235?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN181",
+      image: "OMN181",
+      
+      
+      print: "OMN181-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695235",
+            url: "https://www.tcgplayer.com/product/695235?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -6856,6 +8057,21 @@ This can't be defended by equipment or reaction cards.`,
       tcgplayer: {
             productId: "695236",
             url: "https://www.tcgplayer.com/product/695236?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN182",
+      image: "OMN182",
+      
+      
+      print: "OMN182-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695236",
+            url: "https://www.tcgplayer.com/product/695236?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -6921,6 +8137,21 @@ This can't be defended by equipment or reaction cards.`,
             url: "https://www.tcgplayer.com/product/695237?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN183",
+      image: "OMN183",
+      
+      
+      print: "OMN183-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695237",
+            url: "https://www.tcgplayer.com/product/695237?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -6982,6 +8213,21 @@ This can't be defended by equipment or reaction cards.`,
       tcgplayer: {
             productId: "695220",
             url: "https://www.tcgplayer.com/product/695220?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN166",
+      image: "OMN166",
+      
+      
+      print: "OMN166-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695220",
+            url: "https://www.tcgplayer.com/product/695220?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -7049,6 +8295,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695221?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN167",
+      image: "OMN167",
+      
+      
+      print: "OMN167-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695221",
+            url: "https://www.tcgplayer.com/product/695221?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7112,6 +8373,21 @@ When this hits, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695222",
             url: "https://www.tcgplayer.com/product/695222?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN168",
+      image: "OMN168",
+      
+      
+      print: "OMN168-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695222",
+            url: "https://www.tcgplayer.com/product/695222?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -7179,6 +8455,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695212?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN158",
+      image: "OMN158",
+      
+      
+      print: "OMN158-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695212",
+            url: "https://www.tcgplayer.com/product/695212?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -7240,6 +8531,21 @@ When this hits, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "682874",
             url: "https://www.tcgplayer.com/product/682874?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN152",
+      image: "OMN152",
+      
+      
+      print: "OMN152-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682874",
+            url: "https://www.tcgplayer.com/product/682874?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -7307,6 +8613,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695209?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN149",
+      image: "OMN149",
+      
+      
+      print: "OMN149-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695209",
+            url: "https://www.tcgplayer.com/product/695209?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -7370,6 +8691,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/684316?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Olga Tereshenko"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN146",
+      image: "OMN146",
+      
+      
+      print: "OMN146-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "684316",
+            url: "https://www.tcgplayer.com/product/684316?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -7414,26 +8750,11 @@ When this hits, create a Lightning Flow token.`,
     artists: ["Vito Febrianno"],
     cardIdentifier: "fortitude-of-anvilheim",
     classes: [Class.Guardian,Class.Warrior],
-    defaultImage: "OMN242-CF",
+    defaultImage: "OMN242-RF",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Jarl,Hero.Kassai,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Olympia,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
     name: "Fortitude of Anvilheim",
     printings: [{
-        artists: ["Vito Febrianno"],
-      foiling: Foiling.Cold,
-      identifier: "OMN242",
-      image: "OMN242-CF",
-      isExpansionSlot: true,
-      
-      print: "OMN242-Cold-Extended Art",
-      rarity: Rarity.Legendary,
-      set: Release.OmensOfTheThirdAge,
-      tcgplayer: {
-            productId: "695291",
-            url: "https://www.tcgplayer.com/product/695291?Language=English&Printing=Cold+Foil"
-          },
-      treatment: Treatment.EA,treatments: [Treatment.EA],
-    },{
         artists: ["Vito Febrianno"],
       foiling: Foiling.Rainbow,
       identifier: "OMN242",
@@ -7448,12 +8769,27 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695291?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Vito Febrianno"],
+      foiling: Foiling.Cold,
+      identifier: "OMN242",
+      image: "OMN242-RF",
+      isExpansionSlot: true,
+      
+      print: "OMN242-Cold-Extended Art",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695291",
+            url: "https://www.tcgplayer.com/product/695291?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["OMN242"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN242-CF",
+    specialImage: "OMN242-RF",
     subtypes: [Subtype.OffHand],
     types: [Type.Equipment],
     typeText: "Guardian / Warrior Equipment - Off-Hand",
@@ -7588,6 +8924,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/694906?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN007",
+      image: "OMN007",
+      
+      
+      print: "OMN007-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694906",
+            url: "https://www.tcgplayer.com/product/694906?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -7634,26 +8985,11 @@ When this hits, create a Lightning Flow token.`,
     artists: ["Stormy Elia Fanggidae"],
     cardIdentifier: "gauntlet-of-sword-and-sorcery",
     classes: [Class.Runeblade],
-    defaultImage: "OMN086-CF",
+    defaultImage: "OMN086-RF",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Taylor,Hero.Viserai,Hero.Vynnset],
     name: "Gauntlet of Sword and Sorcery",
     printings: [{
-        artists: ["Stormy Elia Fanggidae"],
-      foiling: Foiling.Cold,
-      identifier: "OMN086",
-      image: "OMN086-CF",
-      
-      
-      print: "OMN086-Cold",
-      rarity: Rarity.Legendary,
-      set: Release.OmensOfTheThirdAge,
-      tcgplayer: {
-            productId: "693442",
-            url: "https://www.tcgplayer.com/product/693442?Language=English&Printing=Cold+Foil"
-          },
-      
-    },{
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.Rainbow,
       identifier: "OMN086",
@@ -7668,17 +9004,32 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/693442?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Cold,
+      identifier: "OMN086",
+      image: "OMN086-RF",
+      
+      
+      print: "OMN086-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "693442",
+            url: "https://www.tcgplayer.com/product/693442?Language=English&Printing=Cold+Foil"
+          },
+      
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["OMN086"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN086-CF",
+    specialImage: "OMN086-RF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Runeblade Equipment - Arms",
 
-    
+    arcane: 1,
     
     
     defense: 0,
@@ -7811,6 +9162,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695223?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN169",
+      image: "OMN169",
+      
+      
+      print: "OMN169-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695223",
+            url: "https://www.tcgplayer.com/product/695223?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -7874,6 +9240,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695224?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN170",
+      image: "OMN170",
+      
+      
+      print: "OMN170-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695224",
+            url: "https://www.tcgplayer.com/product/695224?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -7935,6 +9316,21 @@ When this hits, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695225",
             url: "https://www.tcgplayer.com/product/695225?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN171",
+      image: "OMN171",
+      
+      
+      print: "OMN171-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695225",
+            url: "https://www.tcgplayer.com/product/695225?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -8045,7 +9441,7 @@ When this hits, create a Lightning Flow token.`,
     cardIdentifier: "golden-skull-yellow",
     classes: [Class.Necromancer,Class.Pirate],
     defaultImage: "OMN240",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.GravyBones],
     name: "Golden Skull",
     printings: [{
@@ -8068,7 +9464,7 @@ When this hits, create a Lightning Flow token.`,
       foiling: Foiling.Cold,
       identifier: "OMN240",
       image: "OMN240-MV",
-      
+      isExpansionSlot: true,
       
       print: "OMN240-Cold-Full Art",
       rarity: Rarity.Marvel,
@@ -8145,6 +9541,21 @@ This counts as a Gold.
             url: "https://www.tcgplayer.com/product/695203?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN137",
+      image: "OMN137",
+      
+      
+      print: "OMN137-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695203",
+            url: "https://www.tcgplayer.com/product/695203?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -8210,6 +9621,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695204?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN138",
+      image: "OMN138",
+      
+      
+      print: "OMN138-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695204",
+            url: "https://www.tcgplayer.com/product/695204?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -8273,6 +9699,21 @@ At the beginning of your action phase, destroy this.`,
       tcgplayer: {
             productId: "695205",
             url: "https://www.tcgplayer.com/product/695205?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Amirul HHF"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN139",
+      image: "OMN139",
+      
+      
+      print: "OMN139-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695205",
+            url: "https://www.tcgplayer.com/product/695205?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -8592,6 +10033,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695142?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN030",
+      image: "OMN030",
+      
+      
+      print: "OMN030-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695142",
+            url: "https://www.tcgplayer.com/product/695142?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -8653,6 +10109,21 @@ At the beginning of your action phase, destroy this.`,
       tcgplayer: {
             productId: "695143",
             url: "https://www.tcgplayer.com/product/695143?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN031",
+      image: "OMN031",
+      
+      
+      print: "OMN031-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695143",
+            url: "https://www.tcgplayer.com/product/695143?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -8718,6 +10189,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695144?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Othon Nikolaidis"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN032",
+      image: "OMN032",
+      
+      
+      print: "OMN032-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695144",
+            url: "https://www.tcgplayer.com/product/695144?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -8779,6 +10265,21 @@ At the beginning of your action phase, destroy this.`,
       tcgplayer: {
             productId: "695295",
             url: "https://www.tcgplayer.com/product/695295?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN246",
+      image: "OMN246",
+      isExpansionSlot: true,
+      
+      print: "OMN246-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695295",
+            url: "https://www.tcgplayer.com/product/695295?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -8844,6 +10345,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695208?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Cold,
+      identifier: "OMN144",
+      image: "OMN144",
+      
+      
+      print: "OMN144-Cold",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695208",
+            url: "https://www.tcgplayer.com/product/695208?Language=English&Printing=Cold+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -8905,6 +10421,21 @@ At the beginning of your action phase, destroy this.`,
       tcgplayer: {
             productId: "695174",
             url: "https://www.tcgplayer.com/product/695174?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN091",
+      image: "OMN091",
+      
+      
+      print: "OMN091-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695174",
+            url: "https://www.tcgplayer.com/product/695174?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -8972,6 +10503,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695175?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN092",
+      image: "OMN092",
+      
+      
+      print: "OMN092-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695175",
+            url: "https://www.tcgplayer.com/product/695175?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9037,6 +10583,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695176?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN093",
+      image: "OMN093",
+      
+      
+      print: "OMN093-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695176",
+            url: "https://www.tcgplayer.com/product/695176?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9094,11 +10655,14 @@ At the beginning of your action phase, destroy this.`,
       image: "OMN203",
       
       
-      print: "OMN203",
+      print: "OMN203-Extended Art",
       rarity: Rarity.Basic,
       set: Release.OmensOfTheThirdAge,
-      
-      
+      tcgplayer: {
+            productId: "682889",
+            url: "https://www.tcgplayer.com/product/682889?Language=English&Printing=Normal"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Cold,
@@ -9106,7 +10670,7 @@ At the beginning of your action phase, destroy this.`,
       image: "OMN203-MVA",
       
       
-      print: "OMN203-Cold-Alternate Art",
+      print: "OMN203-Cold-Alternate Art-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
@@ -9121,14 +10685,14 @@ At the beginning of your action phase, destroy this.`,
       image: "OMN203-MVB",
       
       
-      print: "OMN203-Cold-Alternate Art-V2",
+      print: "OMN203-Cold-Full Art-V2",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
-            productId: "682884",
-            url: "https://www.tcgplayer.com/product/682884?Language=English&Printing=Cold+Foil"
+            productId: "682883",
+            url: "https://www.tcgplayer.com/product/682883?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Alifka Hammam"],
       foiling: Foiling.Cold,
@@ -9136,19 +10700,19 @@ At the beginning of your action phase, destroy this.`,
       image: "OMN203-MVC",
       
       
-      print: "OMN203-Cold-Alternate Art-V3",
+      print: "OMN203-Cold-Alternate Art-Full Art-V3",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
-            productId: "682884",
-            url: "https://www.tcgplayer.com/product/682884?Language=English&Printing=Cold+Foil"
+            productId: "682858",
+            url: "https://www.tcgplayer.com/product/682858?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["OMN203"],
-    sets: [Release.OmensOfTheThirdAge],
+    setIdentifiers: ["FAB470","OMN203"],
+    sets: [Release.OmensOfTheThirdAge,Release.Promos],
     specialImage: "OMN203-MVC",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -9270,6 +10834,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695189?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN115",
+      image: "OMN115",
+      
+      
+      print: "OMN115-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695189",
+            url: "https://www.tcgplayer.com/product/695189?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -9335,6 +10914,21 @@ At the beginning of your action phase, destroy this.`,
             url: "https://www.tcgplayer.com/product/695190?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN116",
+      image: "OMN116",
+      
+      
+      print: "OMN116-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695190",
+            url: "https://www.tcgplayer.com/product/695190?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -9398,6 +10992,21 @@ At the beginning of your action phase, destroy this.`,
       tcgplayer: {
             productId: "695191",
             url: "https://www.tcgplayer.com/product/695191?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN117",
+      image: "OMN117",
+      
+      
+      print: "OMN117-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695191",
+            url: "https://www.tcgplayer.com/product/695191?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -9532,6 +11141,21 @@ When this hits a hero, **the crowd boos** you.`,
             url: "https://www.tcgplayer.com/product/695213?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN159",
+      image: "OMN159",
+      
+      
+      print: "OMN159-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695213",
+            url: "https://www.tcgplayer.com/product/695213?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9593,6 +11217,21 @@ When this hits a hero, **the crowd boos** you.`,
       tcgplayer: {
             productId: "692544",
             url: "https://www.tcgplayer.com/product/692544?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Daria Khlebnikova"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN059",
+      image: "OMN059",
+      
+      
+      print: "OMN059-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692544",
+            url: "https://www.tcgplayer.com/product/692544?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -9660,6 +11299,21 @@ When this hits a hero, **the crowd boos** you.`,
             url: "https://www.tcgplayer.com/product/692546?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Daria Khlebnikova"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN060",
+      image: "OMN060",
+      
+      
+      print: "OMN060-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692546",
+            url: "https://www.tcgplayer.com/product/692546?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -9723,6 +11377,21 @@ When this hits a hero, **the crowd boos** you.`,
       tcgplayer: {
             productId: "692547",
             url: "https://www.tcgplayer.com/product/692547?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Daria Khlebnikova"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN061",
+      image: "OMN061",
+      
+      
+      print: "OMN061-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692547",
+            url: "https://www.tcgplayer.com/product/692547?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -9790,6 +11459,21 @@ When this hits a hero, **the crowd boos** you.`,
             url: "https://www.tcgplayer.com/product/695192?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Farhan Pratama"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN118",
+      image: "OMN118",
+      
+      
+      print: "OMN118-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695192",
+            url: "https://www.tcgplayer.com/product/695192?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -9853,6 +11537,21 @@ When this hits a hero, **the crowd boos** you.`,
       tcgplayer: {
             productId: "695193",
             url: "https://www.tcgplayer.com/product/695193?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Farhan Pratama"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN119",
+      image: "OMN119",
+      
+      
+      print: "OMN119-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695193",
+            url: "https://www.tcgplayer.com/product/695193?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -9920,6 +11619,21 @@ When this hits a hero, **the crowd boos** you.`,
             url: "https://www.tcgplayer.com/product/695194?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Farhan Pratama"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN120",
+      image: "OMN120",
+      
+      
+      print: "OMN120-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695194",
+            url: "https://www.tcgplayer.com/product/695194?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -9983,6 +11697,21 @@ When this hits a hero, **the crowd boos** you.`,
       tcgplayer: {
             productId: "682871",
             url: "https://www.tcgplayer.com/product/682871?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN153",
+      image: "OMN153",
+      
+      
+      print: "OMN153-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682871",
+            url: "https://www.tcgplayer.com/product/682871?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -10050,8 +11779,23 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/682863?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN121",
+      image: "OMN121",
+      
+      
+      print: "OMN121-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682863",
+            url: "https://www.tcgplayer.com/product/682863?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB465","OMN121"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
@@ -10113,6 +11857,21 @@ When this hits, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "682865",
             url: "https://www.tcgplayer.com/product/682865?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN122",
+      image: "OMN122",
+      
+      
+      print: "OMN122-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682865",
+            url: "https://www.tcgplayer.com/product/682865?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -10178,6 +11937,21 @@ When this hits, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "682878",
             url: "https://www.tcgplayer.com/product/682878?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN123",
+      image: "OMN123",
+      
+      
+      print: "OMN123-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682878",
+            url: "https://www.tcgplayer.com/product/682878?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -10405,6 +12179,21 @@ When this hits, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695202?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN135",
+      image: "OMN135",
+      
+      
+      print: "OMN135-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695202",
+            url: "https://www.tcgplayer.com/product/695202?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -10471,7 +12260,7 @@ If this deals damage, you may {t} your hero. If you do, your hero deals 1 arcane
           },
       
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
     setIdentifiers: ["FAB467","OMN227"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
@@ -10487,7 +12276,7 @@ If this deals damage, you may {t} your hero. If you do, your hero deals 1 arcane
     
     functionalText: `Each hero starts the game with a Lightning Flow token.
 
-Lightning Flow tokens get **spellvoid 1**`,
+Lightning Flow tokens get **spellvoid 1**.`,
     
     
     
@@ -10533,6 +12322,21 @@ Lightning Flow tokens get **spellvoid 1**`,
       tcgplayer: {
             productId: "695270",
             url: "https://www.tcgplayer.com/product/695270?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Ausonia"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN216",
+      image: "OMN216",
+      
+      
+      print: "OMN216-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695270",
+            url: "https://www.tcgplayer.com/product/695270?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -10598,6 +12402,21 @@ Lightning Flow tokens get **spellvoid 1**`,
             url: "https://www.tcgplayer.com/product/695271?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN217",
+      image: "OMN217",
+      
+      
+      print: "OMN217-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695271",
+            url: "https://www.tcgplayer.com/product/695271?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -10661,6 +12480,21 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
       tcgplayer: {
             productId: "695272",
             url: "https://www.tcgplayer.com/product/695272?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN218",
+      image: "OMN218",
+      
+      
+      print: "OMN218-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695272",
+            url: "https://www.tcgplayer.com/product/695272?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -10912,6 +12746,21 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             url: "https://www.tcgplayer.com/product/694941?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN065",
+      image: "OMN065",
+      
+      
+      print: "OMN065-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694941",
+            url: "https://www.tcgplayer.com/product/694941?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -10977,6 +12826,21 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             url: "https://www.tcgplayer.com/product/694942?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN066",
+      image: "OMN066",
+      
+      
+      print: "OMN066-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694942",
+            url: "https://www.tcgplayer.com/product/694942?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11006,7 +12870,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 2,
-    power: 3,
+    power: 2,
     
     
     
@@ -11042,6 +12906,21 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
             url: "https://www.tcgplayer.com/product/694943?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Saad Irfan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN067",
+      image: "OMN067",
+      
+      
+      print: "OMN067-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694943",
+            url: "https://www.tcgplayer.com/product/694943?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11071,7 +12950,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
   
     
     pitch: 3,
-    power: 3,
+    power: 1,
     
     
     
@@ -11155,26 +13034,11 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     artists: ["Mario Wibisono"],
     cardIdentifier: "plutonic-starplate",
     classes: [Class.NotClassed],
-    defaultImage: "OMN141-CF",
+    defaultImage: "OMN141-RF",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Taylor,Hero.Zyggy],
     name: "Plutonic Starplate",
     printings: [{
-        artists: ["Mario Wibisono"],
-      foiling: Foiling.Cold,
-      identifier: "OMN141",
-      image: "OMN141-CF",
-      
-      
-      print: "OMN141-Cold",
-      rarity: Rarity.Legendary,
-      set: Release.OmensOfTheThirdAge,
-      tcgplayer: {
-            productId: "694949",
-            url: "https://www.tcgplayer.com/product/694949?Language=English&Printing=Cold+Foil"
-          },
-      
-    },{
         artists: ["Mario Wibisono"],
       foiling: Foiling.Rainbow,
       identifier: "OMN141",
@@ -11189,12 +13053,27 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             url: "https://www.tcgplayer.com/product/694949?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Cold,
+      identifier: "OMN141",
+      image: "OMN141-RF",
+      
+      
+      print: "OMN141-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694949",
+            url: "https://www.tcgplayer.com/product/694949?Language=English&Printing=Cold+Foil"
+          },
+      
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
     setIdentifiers: ["OMN141"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN141-CF",
+    specialImage: "OMN141-RF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Lightning Equipment - Chest",
@@ -11252,6 +13131,21 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       tcgplayer: {
             productId: "694911",
             url: "https://www.tcgplayer.com/product/694911?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN009",
+      image: "OMN009",
+      
+      
+      print: "OMN009-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694911",
+            url: "https://www.tcgplayer.com/product/694911?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -11319,6 +13213,21 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
             url: "https://www.tcgplayer.com/product/694913?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN010",
+      image: "OMN010",
+      
+      
+      print: "OMN010-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694913",
+            url: "https://www.tcgplayer.com/product/694913?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -11382,6 +13291,21 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       tcgplayer: {
             productId: "694914",
             url: "https://www.tcgplayer.com/product/694914?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Tanapon Wachirakul"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN011",
+      image: "OMN011",
+      
+      
+      print: "OMN011-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694914",
+            url: "https://www.tcgplayer.com/product/694914?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -11464,7 +13388,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     
     
     
-    functionalText: `At the beginning of your end phase, destroy this and draw a card.`,
+    functionalText: `At the beginning of your end phase, destroy Ponder and draw a card.`,
     
     
     
@@ -11510,6 +13434,21 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
       tcgplayer: {
             productId: "693434",
             url: "https://www.tcgplayer.com/product/693434?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN055",
+      image: "OMN055",
+      
+      
+      print: "OMN055-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "693434",
+            url: "https://www.tcgplayer.com/product/693434?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -11577,6 +13516,21 @@ The first time this deals damage to a hero, create a Ponder token.`,
             url: "https://www.tcgplayer.com/product/692525?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN021",
+      image: "OMN021",
+      
+      
+      print: "OMN021-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692525",
+            url: "https://www.tcgplayer.com/product/692525?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -11642,6 +13596,21 @@ The first time this deals damage to a hero, create a Ponder token.`,
             url: "https://www.tcgplayer.com/product/692526?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN022",
+      image: "OMN022",
+      
+      
+      print: "OMN022-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692526",
+            url: "https://www.tcgplayer.com/product/692526?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11671,7 +13640,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 4,
     
     
     
@@ -11707,6 +13676,21 @@ The first time this deals damage to a hero, create a Ponder token.`,
             url: "https://www.tcgplayer.com/product/692527?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN023",
+      image: "OMN023",
+      
+      
+      print: "OMN023-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692527",
+            url: "https://www.tcgplayer.com/product/692527?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11736,7 +13720,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
   
     
     pitch: 3,
-    power: 5,
+    power: 3,
     
     
     
@@ -11770,6 +13754,21 @@ The first time this deals damage to a hero, create a Ponder token.`,
       tcgplayer: {
             productId: "695171",
             url: "https://www.tcgplayer.com/product/695171?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN083",
+      image: "OMN083",
+      
+      
+      print: "OMN083-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695171",
+            url: "https://www.tcgplayer.com/product/695171?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -11839,6 +13838,21 @@ Your next 3 attacks this turn get +1{p} while they have go again.
             url: "https://www.tcgplayer.com/product/695172?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN084",
+      image: "OMN084",
+      
+      
+      print: "OMN084-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695172",
+            url: "https://www.tcgplayer.com/product/695172?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11906,6 +13920,21 @@ Your next 2 attacks this turn get +1{p} while they have go again.
             url: "https://www.tcgplayer.com/product/695173?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN085",
+      image: "OMN085",
+      
+      
+      print: "OMN085-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695173",
+            url: "https://www.tcgplayer.com/product/695173?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -11955,7 +13984,7 @@ Your next attack this turn get +1{p} while it has go again.
     cardIdentifier: "razor-ring-blue",
     classes: [Class.Ninja],
     defaultImage: "OMN233",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
     name: "Razor Ring",
     printings: [{
@@ -11977,8 +14006,8 @@ Your next attack this turn get +1{p} while it has go again.
         artists: ["Jessketchin"],
       foiling: Foiling.Cold,
       identifier: "OMN233",
-      image: "OMN233-CF",
-      
+      image: "OMN233",
+      isExpansionSlot: true,
       
       print: "OMN233-Cold",
       rarity: Rarity.Majestic,
@@ -11993,7 +14022,7 @@ Your next attack this turn get +1{p} while it has go again.
     rarity: Rarity.Majestic,
     setIdentifiers: ["OMN233"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN233-CF",
+    specialImage: "OMN233",
     subtypes: [Subtype.Item,Subtype.Shuriken],
     types: [Type.Instant],
     typeText: "Ninja Instant - Shuriken Item",
@@ -12053,6 +14082,21 @@ When this hits a hero, the next action card they defend with this combat chain g
       tcgplayer: {
             productId: "695290",
             url: "https://www.tcgplayer.com/product/695290?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN241",
+      image: "OMN241",
+      isExpansionSlot: true,
+      
+      print: "OMN241-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695290",
+            url: "https://www.tcgplayer.com/product/695290?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -12118,6 +14162,21 @@ When this hits a hero, the next action card they defend with this combat chain g
             url: "https://www.tcgplayer.com/product/692509?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN155",
+      image: "OMN155",
+      
+      
+      print: "OMN155-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692509",
+            url: "https://www.tcgplayer.com/product/692509?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -12181,6 +14240,21 @@ When this hits a hero, the next action card they defend with this combat chain g
             url: "https://www.tcgplayer.com/product/692511?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN156",
+      image: "OMN156",
+      
+      
+      print: "OMN156-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692511",
+            url: "https://www.tcgplayer.com/product/692511?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -12242,6 +14316,21 @@ When this hits a hero, the next action card they defend with this combat chain g
       tcgplayer: {
             productId: "692512",
             url: "https://www.tcgplayer.com/product/692512?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN157",
+      image: "OMN157",
+      
+      
+      print: "OMN157-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "692512",
+            url: "https://www.tcgplayer.com/product/692512?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -12370,6 +14459,21 @@ When this hits a hero, the next action card they defend with this combat chain g
             url: "https://www.tcgplayer.com/product/695159?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["João G. Santos"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN068",
+      image: "OMN068",
+      
+      
+      print: "OMN068-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695159",
+            url: "https://www.tcgplayer.com/product/695159?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -12433,6 +14537,21 @@ When this hits a hero, deal 1 arcane damage to them.`,
       tcgplayer: {
             productId: "695160",
             url: "https://www.tcgplayer.com/product/695160?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["João G. Santos"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN069",
+      image: "OMN069",
+      
+      
+      print: "OMN069-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695160",
+            url: "https://www.tcgplayer.com/product/695160?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -12500,6 +14619,21 @@ When this hits a hero, deal 1 arcane damage to them.`,
             url: "https://www.tcgplayer.com/product/695161?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["João G. Santos"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN070",
+      image: "OMN070",
+      
+      
+      print: "OMN070-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695161",
+            url: "https://www.tcgplayer.com/product/695161?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -12563,6 +14697,21 @@ When this hits a hero, deal 1 arcane damage to them.`,
       tcgplayer: {
             productId: "694910",
             url: "https://www.tcgplayer.com/product/694910?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN008",
+      image: "OMN008",
+      
+      
+      print: "OMN008-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694910",
+            url: "https://www.tcgplayer.com/product/694910?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -12947,6 +15096,21 @@ When this hits a hero, deal 1 arcane damage to them.`,
             url: "https://www.tcgplayer.com/product/695286?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN237",
+      image: "OMN237",
+      isExpansionSlot: true,
+      
+      print: "OMN237-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695286",
+            url: "https://www.tcgplayer.com/product/695286?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -13010,6 +15174,21 @@ When this hits a hero, deal 1 arcane damage to them.`,
       tcgplayer: {
             productId: "694921",
             url: "https://www.tcgplayer.com/product/694921?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN024",
+      image: "OMN024",
+      
+      
+      print: "OMN024-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694921",
+            url: "https://www.tcgplayer.com/product/694921?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -13077,6 +15256,21 @@ When this hits a hero, deal 1 arcane damage to them.`,
             url: "https://www.tcgplayer.com/product/694922?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN025",
+      image: "OMN025",
+      
+      
+      print: "OMN025-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694922",
+            url: "https://www.tcgplayer.com/product/694922?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -13106,7 +15300,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
   
     
     pitch: 2,
-    power: 5,
+    power: 4,
     
     
     
@@ -13140,6 +15334,21 @@ When this hits a hero, deal 1 arcane damage to them.`,
       tcgplayer: {
             productId: "694923",
             url: "https://www.tcgplayer.com/product/694923?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN026",
+      image: "OMN026",
+      
+      
+      print: "OMN026-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "694923",
+            url: "https://www.tcgplayer.com/product/694923?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -13214,11 +15423,14 @@ When this hits a hero, deal 1 arcane damage to them.`,
       image: "OMN199-MV",
       
       
-      print: "OMN199-Cold-Alternate Art",
+      print: "OMN199-Cold-Alternate Art-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      tcgplayer: {
+            productId: "695254",
+            url: "https://www.tcgplayer.com/product/695254?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -13349,6 +15561,21 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
             url: "https://www.tcgplayer.com/product/695162?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN071",
+      image: "OMN071",
+      
+      
+      print: "OMN071-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695162",
+            url: "https://www.tcgplayer.com/product/695162?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -13414,6 +15641,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695163?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN072",
+      image: "OMN072",
+      
+      
+      print: "OMN072-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695163",
+            url: "https://www.tcgplayer.com/product/695163?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -13477,6 +15719,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695164",
             url: "https://www.tcgplayer.com/product/695164?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Audy Ravindra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN073",
+      image: "OMN073",
+      
+      
+      print: "OMN073-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695164",
+            url: "https://www.tcgplayer.com/product/695164?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -13548,7 +15805,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
         artists: ["Ilham Bahtiar"],
       foiling: Foiling.Cold,
       identifier: "OMN050",
-      image: "OMN050-CF",
+      image: "OMN050",
       
       
       print: "OMN050-Cold",
@@ -13564,7 +15821,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
     rarity: Rarity.Common,
     setIdentifiers: ["OMN050"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN050-CF",
+    specialImage: "OMN050",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Lightning Runeblade Equipment - Arms",
@@ -13629,11 +15886,14 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       image: "OMN201-MV",
       
       
-      print: "OMN201-Cold-Alternate Art",
+      print: "OMN201-Cold-Alternate Art-Full Art",
       rarity: Rarity.Marvel,
       set: Release.OmensOfTheThirdAge,
-      
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+      tcgplayer: {
+            productId: "695257",
+            url: "https://www.tcgplayer.com/product/695257?Language=English&Printing=Cold+Foil"
+          },
+      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -13712,7 +15972,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
     
     
     
-    
+    defense: 1,
     
     functionalText: `**Instant** - Destroy this: Until end of turn, an Aphrodias you control costs {r} less to activate and gets "Whenever this deals damage to an opposing hero, create a Lightning Flow token."
 
@@ -13777,7 +16037,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
     
     
     
-    
+    defense: 1,
     
     functionalText: `**Instant** - {r}, destroy this: {u} an Aphrodias you control.
 
@@ -13842,7 +16102,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
     
     
     
-    
+    defense: 2,
     
     functionalText: `**Instant** - Destroy this: The next aura you play this turn enters the arena with a holo counter. Activate this only if an attack has fragmented this turn.
 
@@ -13892,6 +16152,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695207",
             url: "https://www.tcgplayer.com/product/695207?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.Cold,
+      identifier: "OMN143",
+      image: "OMN143",
+      
+      
+      print: "OMN143-Cold",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695207",
+            url: "https://www.tcgplayer.com/product/695207?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -13957,6 +16232,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695243?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN189",
+      image: "OMN189",
+      
+      
+      print: "OMN189-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695243",
+            url: "https://www.tcgplayer.com/product/695243?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
@@ -14018,6 +16308,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695242",
             url: "https://www.tcgplayer.com/product/695242?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN188",
+      image: "OMN188",
+      
+      
+      print: "OMN188-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695242",
+            url: "https://www.tcgplayer.com/product/695242?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14161,6 +16466,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695229?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN175",
+      image: "OMN175",
+      
+      
+      print: "OMN175-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695229",
+            url: "https://www.tcgplayer.com/product/695229?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -14222,6 +16542,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695230",
             url: "https://www.tcgplayer.com/product/695230?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN176",
+      image: "OMN176",
+      
+      
+      print: "OMN176-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695230",
+            url: "https://www.tcgplayer.com/product/695230?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14287,6 +16622,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695231?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN177",
+      image: "OMN177",
+      
+      
+      print: "OMN177-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695231",
+            url: "https://www.tcgplayer.com/product/695231?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -14348,6 +16698,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695268",
             url: "https://www.tcgplayer.com/product/695268?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Henrique Lindner"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN214",
+      image: "OMN214",
+      
+      
+      print: "OMN214-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695268",
+            url: "https://www.tcgplayer.com/product/695268?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14415,6 +16780,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695153?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN056",
+      image: "OMN056",
+      
+      
+      print: "OMN056-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695153",
+            url: "https://www.tcgplayer.com/product/695153?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -14476,6 +16856,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695154",
             url: "https://www.tcgplayer.com/product/695154?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN057",
+      image: "OMN057",
+      
+      
+      print: "OMN057-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695154",
+            url: "https://www.tcgplayer.com/product/695154?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14541,6 +16936,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/695155?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN058",
+      image: "OMN058",
+      
+      
+      print: "OMN058-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695155",
+            url: "https://www.tcgplayer.com/product/695155?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -14602,6 +17012,21 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "695244",
             url: "https://www.tcgplayer.com/product/695244?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN190",
+      image: "OMN190",
+      
+      
+      print: "OMN190-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695244",
+            url: "https://www.tcgplayer.com/product/695244?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14669,6 +17094,21 @@ Target Lightning attack gets +3{p}.`,
             url: "https://www.tcgplayer.com/product/695245?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN191",
+      image: "OMN191",
+      
+      
+      print: "OMN191-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695245",
+            url: "https://www.tcgplayer.com/product/695245?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -14734,6 +17174,21 @@ Target Lightning attack gets -3{p}.`,
             url: "https://www.tcgplayer.com/product/695246?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN192",
+      image: "OMN192",
+      
+      
+      print: "OMN192-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695246",
+            url: "https://www.tcgplayer.com/product/695246?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -14781,7 +17236,7 @@ Target Lightning attack gets **go again**.`,
     cardIdentifier: "stun-star-blue",
     classes: [Class.Ninja],
     defaultImage: "OMN234",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Benji,Hero.Cindra,Hero.Fai,Hero.Ira,Hero.Katsu,Hero.Zen],
     name: "Stun Star",
     printings: [{
@@ -14803,8 +17258,8 @@ Target Lightning attack gets **go again**.`,
         artists: ["Jessketchin"],
       foiling: Foiling.Cold,
       identifier: "OMN234",
-      image: "OMN234-CF",
-      
+      image: "OMN234",
+      isExpansionSlot: true,
       
       print: "OMN234-Cold",
       rarity: Rarity.Majestic,
@@ -14819,7 +17274,7 @@ Target Lightning attack gets **go again**.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["OMN234"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN234-CF",
+    specialImage: "OMN234",
     subtypes: [Subtype.Item,Subtype.Shuriken],
     types: [Type.Instant],
     typeText: "Ninja Instant - Shuriken Item",
@@ -14879,6 +17334,21 @@ When this hits a hero, {t} them.`,
       tcgplayer: {
             productId: "695165",
             url: "https://www.tcgplayer.com/product/695165?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN074",
+      image: "OMN074",
+      
+      
+      print: "OMN074-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695165",
+            url: "https://www.tcgplayer.com/product/695165?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -14946,6 +17416,21 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
             url: "https://www.tcgplayer.com/product/695166?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN075",
+      image: "OMN075",
+      
+      
+      print: "OMN075-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695166",
+            url: "https://www.tcgplayer.com/product/695166?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -15009,6 +17494,21 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
       tcgplayer: {
             productId: "695167",
             url: "https://www.tcgplayer.com/product/695167?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN076",
+      image: "OMN076",
+      
+      
+      print: "OMN076-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695167",
+            url: "https://www.tcgplayer.com/product/695167?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -15076,6 +17576,21 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
             url: "https://www.tcgplayer.com/product/695281?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN231",
+      image: "OMN231",
+      isExpansionSlot: true,
+      
+      print: "OMN231-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695281",
+            url: "https://www.tcgplayer.com/product/695281?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -15139,6 +17654,21 @@ The first time this deals damage to a Lightning hero, {t} them or a weapon they 
       tcgplayer: {
             productId: "695195",
             url: "https://www.tcgplayer.com/product/695195?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN124",
+      image: "OMN124",
+      
+      
+      print: "OMN124-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695195",
+            url: "https://www.tcgplayer.com/product/695195?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -15206,6 +17736,21 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
             url: "https://www.tcgplayer.com/product/695196?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN125",
+      image: "OMN125",
+      
+      
+      print: "OMN125-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695196",
+            url: "https://www.tcgplayer.com/product/695196?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -15269,6 +17814,21 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       tcgplayer: {
             productId: "695197",
             url: "https://www.tcgplayer.com/product/695197?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN126",
+      image: "OMN126",
+      
+      
+      print: "OMN126-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695197",
+            url: "https://www.tcgplayer.com/product/695197?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -15416,6 +17976,21 @@ The first time this deals damage to a hero, they discard a card.`,
             url: "https://www.tcgplayer.com/product/695269?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN215",
+      image: "OMN215",
+      
+      
+      print: "OMN215-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695269",
+            url: "https://www.tcgplayer.com/product/695269?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -15460,7 +18035,7 @@ The first time this deals damage to a hero, they discard a card.`,
     artists: ["soyameii"],
     cardIdentifier: "third-eye-of-the-sphinx",
     classes: [Class.Illusionist,Class.Wizard],
-    defaultImage: "OMN140",
+    defaultImage: "OMN140-RF",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Blaze,Hero.Broscilio,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Iyslander,Hero.Kano,Hero.Oscilio,Hero.Prism,Hero.Taylor,Hero.Verdance,Hero.Zyggy],
     name: "Third Eye of the Sphinx",
@@ -15468,7 +18043,7 @@ The first time this deals damage to a hero, they discard a card.`,
         artists: ["soyameii"],
       foiling: Foiling.Rainbow,
       identifier: "OMN140",
-      image: "OMN140",
+      image: "OMN140-RF",
       
       
       print: "OMN140-Rainbow",
@@ -15483,7 +18058,7 @@ The first time this deals damage to a hero, they discard a card.`,
         artists: ["soyameii"],
       foiling: Foiling.Cold,
       identifier: "OMN140",
-      image: "OMN140",
+      image: "OMN140-RF",
       
       
       print: "OMN140-Cold",
@@ -15499,7 +18074,7 @@ The first time this deals damage to a hero, they discard a card.`,
     rarity: Rarity.Legendary,
     setIdentifiers: ["OMN140"],
     sets: [Release.OmensOfTheThirdAge],
-    specialImage: "OMN140",
+    specialImage: "OMN140-RF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Illusionist / Wizard Equipment - Head",
@@ -15559,6 +18134,21 @@ The first time this deals damage to a hero, they discard a card.`,
       tcgplayer: {
             productId: "695250",
             url: "https://www.tcgplayer.com/product/695250?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN196",
+      image: "OMN196",
+      
+      
+      print: "OMN196-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695250",
+            url: "https://www.tcgplayer.com/product/695250?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -15626,6 +18216,21 @@ The first time this deals damage to a hero, they discard a card.`,
             url: "https://www.tcgplayer.com/product/695251?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN197",
+      image: "OMN197",
+      
+      
+      print: "OMN197-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695251",
+            url: "https://www.tcgplayer.com/product/695251?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -15689,6 +18294,21 @@ The first time this deals damage to a hero, they discard a card.`,
       tcgplayer: {
             productId: "695252",
             url: "https://www.tcgplayer.com/product/695252?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN198",
+      image: "OMN198",
+      
+      
+      print: "OMN198-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695252",
+            url: "https://www.tcgplayer.com/product/695252?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -15834,6 +18454,21 @@ The first time this deals damage to a hero, they discard a card.`,
             url: "https://www.tcgplayer.com/product/693425?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Khairul Sukmanudin"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN136",
+      image: "OMN136",
+      
+      
+      print: "OMN136-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "693425",
+            url: "https://www.tcgplayer.com/product/693425?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -15897,6 +18532,21 @@ If this deals damage, you may {t} your hero. If you do, create a Ponder token.`,
       tcgplayer: {
             productId: "693424",
             url: "https://www.tcgplayer.com/product/693424?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Firaz M. Rasyid"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN228",
+      image: "OMN228",
+      isExpansionSlot: true,
+      
+      print: "OMN228-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "693424",
+            url: "https://www.tcgplayer.com/product/693424?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -16048,6 +18698,21 @@ Whenever this fragments, you may put a Lightning instant card from your graveyar
             url: "https://www.tcgplayer.com/product/695211?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN151",
+      image: "OMN151",
+      
+      
+      print: "OMN151-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695211",
+            url: "https://www.tcgplayer.com/product/695211?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
@@ -16109,6 +18774,21 @@ Whenever this fragments, you may put a Lightning instant card from your graveyar
       tcgplayer: {
             productId: "695232",
             url: "https://www.tcgplayer.com/product/695232?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN178",
+      image: "OMN178",
+      
+      
+      print: "OMN178-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695232",
+            url: "https://www.tcgplayer.com/product/695232?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -16178,6 +18858,21 @@ When this hits, create a Lightning Flow token.
             url: "https://www.tcgplayer.com/product/695233?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN179",
+      image: "OMN179",
+      
+      
+      print: "OMN179-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695233",
+            url: "https://www.tcgplayer.com/product/695233?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -16245,6 +18940,21 @@ When this hits, create a Lightning Flow token.
             url: "https://www.tcgplayer.com/product/695234?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN180",
+      image: "OMN180",
+      
+      
+      print: "OMN180-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695234",
+            url: "https://www.tcgplayer.com/product/695234?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -16293,26 +19003,11 @@ When this hits, create a Lightning Flow token.
     artists: ["Fajareka Setiawan"],
     cardIdentifier: "voltaris-blue",
     classes: [Class.NotClassed],
-    defaultImage: "OMN000-CF",
+    defaultImage: "OMN000-RF",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Voltaris",
     printings: [{
-        artists: ["Fajareka Setiawan"],
-      foiling: Foiling.Cold,
-      identifier: "OMN000",
-      image: "OMN000-CF",
-      
-      
-      print: "OMN000-Cold",
-      rarity: Rarity.Fabled,
-      set: Release.OmensOfTheThirdAge,
-      tcgplayer: {
-            productId: "695141",
-            url: "https://www.tcgplayer.com/product/695141?Language=English&Printing=Cold+Foil"
-          },
-      
-    },{
         artists: ["Fajareka Setiawan"],
       foiling: Foiling.Rainbow,
       identifier: "OMN000",
@@ -16325,6 +19020,21 @@ When this hits, create a Lightning Flow token.
       tcgplayer: {
             productId: "695141",
             url: "https://www.tcgplayer.com/product/695141?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Fajareka Setiawan"],
+      foiling: Foiling.Cold,
+      identifier: "OMN000",
+      image: "OMN000-CF",
+      
+      
+      print: "OMN000-Cold",
+      rarity: Rarity.Fabled,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "695141",
+            url: "https://www.tcgplayer.com/product/695141?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -16392,8 +19102,23 @@ When this is pitched, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/682854?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Edward Chee"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN077",
+      image: "OMN077",
+      
+      
+      print: "OMN077-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682854",
+            url: "https://www.tcgplayer.com/product/682854?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
-    rarities: [Rarity.Common,Rarity.Marvel],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["FAB466","OMN077"],
     sets: [Release.OmensOfTheThirdAge,Release.Promos],
@@ -16453,6 +19178,21 @@ When this is pitched, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "682855",
             url: "https://www.tcgplayer.com/product/682855?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Edward Chee"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN078",
+      image: "OMN078",
+      
+      
+      print: "OMN078-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682855",
+            url: "https://www.tcgplayer.com/product/682855?Language=English&Printing=Rainbow+Foil"
           },
       
     },],
@@ -16518,6 +19258,21 @@ When this is pitched, create a Lightning Flow token.`,
             url: "https://www.tcgplayer.com/product/682857?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Edward Chee"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN079",
+      image: "OMN079",
+      
+      
+      print: "OMN079-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682857",
+            url: "https://www.tcgplayer.com/product/682857?Language=English&Printing=Rainbow+Foil"
+          },
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -16579,6 +19334,21 @@ When this is pitched, create a Lightning Flow token.`,
       tcgplayer: {
             productId: "682866",
             url: "https://www.tcgplayer.com/product/682866?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "OMN154",
+      image: "OMN154",
+      
+      
+      print: "OMN154-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.OmensOfTheThirdAge,
+      tcgplayer: {
+            productId: "682866",
+            url: "https://www.tcgplayer.com/product/682866?Language=English&Printing=Rainbow+Foil"
           },
       
     },],

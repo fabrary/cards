@@ -21,7 +21,6 @@ const spoiledSetCardsFileOMN = `${__dirname}/Flesh and Blood Spoiler Card Data -
 const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const spoiledSAGECardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
-const spoiledSAGE2CardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE2.csv`;
 const spoiledTournamentPackCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - TNP.csv`;
 const overrideCardsFile = `${__dirname}/overrides.csv`;
 
@@ -38,10 +37,10 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   ...parseCSV(spoiledSetCardsFileAZS),
   ...parseCSV(spoiledSetCardsFileAVS),
   ...parseCSV(spoiledSetCardsFileBDD),
-  ...parseCSV(spoiledSetCardsFileDDD),
+  // ...parseCSV(spoiledSetCardsFileDDD),
   ...parseCSV(spoiledSetCardsFileIAR),
   ...parseCSV(spoiledSetCardsFileMPW),
-  ...parseCSV(spoiledSetCardsFileOMN),
+  // ...parseCSV(spoiledSetCardsFileOMN),
 ]
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
@@ -56,9 +55,8 @@ const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
 const parsedSpoiledPromoAndGemCards = [
   ...parseCSV(spoiledPromoCardsFile),
-  ...parseCSV(spoiledGEMCardsFile),
+  // ...parseCSV(spoiledGEMCardsFile),
   ...parseCSV(spoiledSAGECardsFile),
-  ...parseCSV(spoiledSAGE2CardsFile),
   ...parseCSV(spoiledTournamentPackCardsFile),
 ]
   .filter((card) => !!card.name)
