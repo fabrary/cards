@@ -62,36 +62,59 @@ const CARD_FRONTS_OVERRIDES = [...TRANSCEND_CARD_NAMES];
 export const CARD_BACKS_OVERRIDES = ["Inner Chi"];
 
 export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
+  // Index cards by printing identifier so opposite-side candidates can be
+  // looked up directly. Previously this scanned every card against every other
+  // card (O(n^2 * printings^2)); now each card only inspects the handful of
+  // cards that actually share a printing identifier with it.
+  const cardOrder = new Map<Card, number>();
+  const cardsByPrintingIdentifier = new Map<string, Set<Card>>();
+  cards.forEach((card, index) => {
+    cardOrder.set(card, index);
+    for (const { identifier } of card.printings) {
+      let matches = cardsByPrintingIdentifier.get(identifier);
+      if (!matches) {
+        matches = new Set();
+        cardsByPrintingIdentifier.set(identifier, matches);
+      }
+      matches.add(card);
+    }
+  });
+
   return cards.map((card) => {
-    const oppositeSideCards = cards.filter((otherCard) => {
-      const notTheSameCard = card.name !== otherCard.name;
+    // LSS used the same RNR prefix for two different sets - Rhinar Blitz deck and Rhinar CC deck
+    const cardIsRNRCard = card.printings.some(
+      ({ set }) => set === Release.RhinarBlitzDeck,
+    );
 
-      // LSS used the same RNR prefix for two different sets - Rhinar Blitz deck and Rhinar CC deck
-      const notARNRCard =
-        !otherCard.printings.some(
-          ({ set }) => set === Release.RhinarBlitzDeck,
-        ) && !card.printings.some(({ set }) => set === Release.RhinarBlitzDeck);
+    const candidates = new Set<Card>();
+    for (const { identifier } of card.printings) {
+      const matches = cardsByPrintingIdentifier.get(identifier);
+      if (matches) {
+        for (const match of matches) {
+          candidates.add(match);
+        }
+      }
+    }
 
-      const cardHasSameSetIdentifier = otherCard.printings.some(
-        (otherPrinting) =>
-          card.printings.some(
-            ({ identifier }) => identifier === otherPrinting.identifier,
-          ),
-      );
+    const oppositeSideCards = Array.from(candidates)
+      .filter((otherCard) => {
+        const notTheSameCard = card.name !== otherCard.name;
 
-      // LSS used the same HER prefix for two different sets - Kassai deck and Tuffnut
+        const notARNRCard =
+          !otherCard.printings.some(
+            ({ set }) => set === Release.RhinarBlitzDeck,
+          ) && !cardIsRNRCard;
 
-      const notDuplicateHER =
-        card.name !== "Tuffnut, Bumbling Hulkster" &&
-        otherCard.name !== "Tuffnut, Bumbling Hulkster";
+        // LSS used the same HER prefix for two different sets - Kassai deck and Tuffnut
+        const notDuplicateHER =
+          card.name !== "Tuffnut, Bumbling Hulkster" &&
+          otherCard.name !== "Tuffnut, Bumbling Hulkster";
 
-      return (
-        notDuplicateHER &&
-        notARNRCard &&
-        notTheSameCard &&
-        cardHasSameSetIdentifier
-      );
-    });
+        return notDuplicateHER && notARNRCard && notTheSameCard;
+      })
+      // Restore the original `cards`-array order so first-match image
+      // resolution and oppositeSideCardIdentifiers stay identical.
+      .sort((a, b) => cardOrder.get(a)! - cardOrder.get(b)!);
 
     const isOppositeSideCardFront = oppositeSideCards.some(
       ({ keywords, name, subtypes }) => {
@@ -446,7 +469,10 @@ export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
   return arr;
 };
 
-export const getMeta = (card: Card, allCards: Card[]): Meta[] => {
+export const getMeta = (
+  card: Card,
+  cardCountsByName: Map<string, number>,
+): Meta[] => {
   const meta: Meta[] = [];
 
   const isMeta = card.printings.some(({ isExpansionSlot }) => isExpansionSlot);
@@ -456,10 +482,7 @@ export const getMeta = (card: Card, allCards: Card[]): Meta[] => {
 
   const hasPitch = [1, 2, 3].includes(card.pitch || 0);
   if (hasPitch) {
-    const allCardsWithSameName = allCards.filter(
-      ({ name }) => name === card.name,
-    );
-    const isRainbow = allCardsWithSameName.length === 3;
+    const isRainbow = cardCountsByName.get(card.name) === 3;
     if (isRainbow) {
       meta.push(Meta.Rainbow);
     }

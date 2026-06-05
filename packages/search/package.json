@@ -10,7 +10,7 @@
     "postbuild": "tsc --declaration && npm test",
     "test": "jest",
     "test:specific": "jest -t 'Matching printing from treatment'",
-    "full": "npm i && npm run build && npm test"
+    "full": "npm i && npm run build"
   },
   "dependencies": {
     "@flesh-and-blood/types": "^3.9.4",

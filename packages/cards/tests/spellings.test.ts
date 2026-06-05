@@ -18,7 +18,7 @@ for (const word of ADDITIONS) {
 }
 
 describe("Card names are spelled correctly", () => {
-  const parts: { name: string; part: string; suggested: string }[] = [];
+  const parts: { name: string; part: string }[] = [];
 
   for (const { name, setIdentifiers } of cards) {
     for (const dirtyPart of name.split(" ")) {
@@ -26,18 +26,11 @@ describe("Card names are spelled correctly", () => {
 
       const part = dirtyPart.replaceAll("'s", "").replaceAll(PUNCTUATION, "");
 
-      const suggestions =
-        SUGGESTIONS[part.toLowerCase()] ||
-        (dictionary.suggest(part) as string[]) ||
-        [];
-      const suggested =
-        suggestions.length > 0 ? suggestions.join(", ") : "No suggestions";
-
-      parts.push({ name: fullName, part, suggested });
+      parts.push({ name: fullName, part });
     }
   }
 
-  it.each(parts)("[$name ($part)]: $suggested", ({ part }) => {
+  it.each(parts)("[$name ($part)]", ({ part }) => {
     const isSpelledIncorrectly = SUGGESTIONS[part.toLowerCase()] !== undefined;
 
     const isSpelledCorrectly =
@@ -45,12 +38,19 @@ describe("Card names are spelled correctly", () => {
 
     const combined = isSpelledCorrectly && !isSpelledIncorrectly;
 
-    // if (part.toLowerCase() === "ziggy") {
-    //   console.log(
-    //     `Ziggy=${part}: isSpelledCorrectly=${isSpelledCorrectly} isSpelledIncorrectly=${isSpelledIncorrectly} combined=${combined}`,
-    //   );
-    //   throw new Error("Ziggy!");
-    // }
+    // Only run the expensive dictionary.suggest() when a word actually fails,
+    // to surface a useful suggestion. Computing it eagerly for every word (just
+    // to build the test title) was the bulk of this suite's runtime.
+    if (!combined) {
+      const suggestions =
+        SUGGESTIONS[part.toLowerCase()] ||
+        (dictionary.suggest(part) as string[]) ||
+        [];
+      const suggested =
+        suggestions.length > 0 ? suggestions.join(", ") : "No suggestions";
+
+      throw new Error(`"${part}" is misspelled. Suggestions: ${suggested}`);
+    }
 
     expect(combined).toEqual(true);
   });

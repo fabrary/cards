@@ -33,10 +33,18 @@ const outputDirectory = "src";
 
 const deduplicatedCards: Card[] = [...spoiledCards];
 
+// Index by cardIdentifier so each released card is matched in O(1) instead of
+// scanning the whole (growing) deduplicated list. First-write-wins mirrors the
+// previous Array.find, which returned the first match.
+const cardsByIdentifier = new Map<string, Card>();
+for (const card of deduplicatedCards) {
+  if (!cardsByIdentifier.has(card.cardIdentifier)) {
+    cardsByIdentifier.set(card.cardIdentifier, card);
+  }
+}
+
 releasedCards.forEach((card) => {
-  const duplicate = deduplicatedCards.find(
-    ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier,
-  );
+  const duplicate = cardsByIdentifier.get(card.cardIdentifier);
   if (duplicate) {
     // console.debug(
     //   `Found duplicate card (re-released in new set), combining data`,
@@ -129,14 +137,22 @@ releasedCards.forEach((card) => {
     combineAndAddMissingFields(card, duplicate);
   } else {
     deduplicatedCards.push(card);
+    cardsByIdentifier.set(card.cardIdentifier, card);
   }
 });
+
+// Precompute how many cards share each name (used to detect 3-pitch "rainbow"
+// cards) so getMeta doesn't filter the full list per card.
+const cardCountsByName = new Map<string, number>();
+for (const { name } of deduplicatedCards) {
+  cardCountsByName.set(name, (cardCountsByName.get(name) || 0) + 1);
+}
 
 const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
   const { bannedFormats, legalFormats } =
     getConfirmedBannedAndLegalFormats(card);
   const legalHeroes = getLegalHeroes(card);
-  const meta = getMeta(card, deduplicatedCards);
+  const meta = getMeta(card, cardCountsByName);
   const nicknames = getNicknames(card);
   const shorthands = getShorthands(card);
   const shortName = getShortName(card);

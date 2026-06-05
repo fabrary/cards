@@ -111,3 +111,6 @@ dist
 
 # spelling
 spelling-additions-local.ts
+
+.claude/
+CLAUDE.md

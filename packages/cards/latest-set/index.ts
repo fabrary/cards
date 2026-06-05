@@ -15430,7 +15430,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
             productId: "695254",
             url: "https://www.tcgplayer.com/product/695254?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -15893,7 +15893,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
             productId: "695257",
             url: "https://www.tcgplayer.com/product/695257?Language=English&Printing=Cold+Foil"
           },
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -15988,7 +15988,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
   
     
     
-    power: 1,
+    
     
     
     
@@ -16053,7 +16053,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
   
     
     
-    power: 1,
+    
     
     shorthands: [Shorthand.Untap],
     
@@ -16118,7 +16118,7 @@ The first time this deals damage to a hero, create a Lightning Flow token.`,
   
     
     
-    power: 2,
+    
     
     
     

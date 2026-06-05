@@ -38,14 +38,20 @@ const getStringValues = (values: any) => {
   return values.map((value: any) => `"${value}"`);
 };
 
+// Cache a value -> key reverse lookup per enum object. Built by iterating
+// Object.entries in order with last-write-wins, so the result matches the
+// original "keep the last matching key" loop exactly.
+const enumReverseLookups = new Map<any, Map<any, string>>();
 const getEnumValue = (value: any, enumName: string, enm: any) => {
-  let enumValue;
-  for (const [key, val] of Object.entries(enm)) {
-    if (value === val) {
-      enumValue = key;
+  let lookup = enumReverseLookups.get(enm);
+  if (!lookup) {
+    lookup = new Map();
+    for (const [key, val] of Object.entries(enm)) {
+      lookup.set(val, key);
     }
+    enumReverseLookups.set(enm, lookup);
   }
-  return `${enumName}.${enumValue}`;
+  return `${enumName}.${lookup.get(value)}`;
 };
 
 const getPrintings = (printings: Printing[]) => {

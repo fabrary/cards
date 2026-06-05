@@ -13,5 +13,8 @@
     "skipLibCheck": true,
     "target": "ES6"
   },
+  "ts-node": {
+    "transpileOnly": true
+  },
   "include": ["src"]
 }

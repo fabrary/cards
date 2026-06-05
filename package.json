@@ -6,6 +6,7 @@
   ],
   "scripts": {
     "build": "lerna run build",
+    "clean:csvs": "ts-node --project packages/cards/tsconfig.json scripts/check-redundancy.ts",
     "prefull": "npm run update:dependencies",
     "full": "lerna run full",
     "ncu": "lerna exec ncu",
