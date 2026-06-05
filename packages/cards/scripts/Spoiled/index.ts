@@ -25,15 +25,17 @@ const parsedOverrideCards = parseCSV(overrideCardsFile)
   .filter(filterOutUnwantedCards);
 const overrideCards = mapCSV(parsedOverrideCards);
 
-const parsedSpoiledSetCards: ParsedCard[] = [
-  ...parseCSV(spoiledSetCardsFileAOL),
-  ...parseCSV(spoiledSetCardsFileAPR),
-  ...parseCSV(spoiledSetCardsFileARR),
-  ...parseCSV(spoiledSetCardsFileAVS),
-  ...parseCSV(spoiledSetCardsFileBDD),
-  ...parseCSV(spoiledSetCardsFileIAR),
-  ...parseCSV(spoiledSetCardsFileMPW),
-]
+const parsedSpoiledSetCards: ParsedCard[] = (
+  [
+    // ...parseCSV(spoiledSetCardsFileAOL),
+    // ...parseCSV(spoiledSetCardsFileAPR),
+    // ...parseCSV(spoiledSetCardsFileARR),
+    // ...parseCSV(spoiledSetCardsFileAVS),
+    // ...parseCSV(spoiledSetCardsFileBDD),
+    // ...parseCSV(spoiledSetCardsFileIAR),
+    // ...parseCSV(spoiledSetCardsFileMPW),
+  ] as ParsedCard[]
+)
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
   .filter((card) => {
@@ -45,12 +47,14 @@ const parsedSpoiledSetCards: ParsedCard[] = [
   });
 const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
-const parsedSpoiledPromoAndGemCards = [
-  ...parseCSV(spoiledPromoCardsFile),
-  ...parseCSV(spoiledGEMCardsFile),
-  ...parseCSV(spoiledSAGECardsFile),
-  ...parseCSV(spoiledTournamentPackCardsFile),
-]
+const parsedSpoiledPromoAndGemCards = (
+  [
+    // ...parseCSV(spoiledPromoCardsFile),
+    // ...parseCSV(spoiledGEMCardsFile),
+    // ...parseCSV(spoiledSAGECardsFile),
+    // ...parseCSV(spoiledTournamentPackCardsFile),
+  ] as ParsedCard[]
+)
   .filter((card) => !!card.name)
   .filter(filterOutUnwantedCards)
   .filter((card) => {

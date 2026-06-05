@@ -40,11 +40,9 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 
-import tcgplayerProductFile from "../Released/card-with-tcgp.json";
 import { SourceJSONCard } from "../Released/parser";
 import { getBannedAndLegalFormats } from "../Shared/legality";
-
-const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
+import { getTCGPlayerInfoForRawSpoilerPrinting } from "../Shared/tcgplayer";
 
 const getArtists = (card: ParsedCard): string[] => {
   const { artists, artists2 } = card;
@@ -129,14 +127,7 @@ const getTCGplayerInfo = (
   if (tcgplayerProductId && tcgplayerUrl) {
     tcgplayer = { productId: tcgplayerProductId, url: tcgplayerUrl };
   } else {
-    const matchingTCGPSourceCard = tcgplayerProductInfo.find(
-      ({ name, pitch }) => {
-        const sameName = card.name === name;
-        const samePitch = (!card.pitch && !pitch) || card.pitch === pitch;
-
-        return sameName && samePitch;
-      },
-    );
+    const matchingTCGPSourceCard = getTCGPlayerInfoForRawSpoilerPrinting(card);
 
     if (matchingTCGPSourceCard) {
       const matchingPrinting = matchingTCGPSourceCard.printings.find(
@@ -249,6 +240,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
     }
     treatments.push(art);
   }
+  treatments.sort();
 
   const tcgplayer = getTCGplayerInfo(card, input);
 
@@ -271,7 +263,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
     // image = identifier;
   }
 
-  const print = getPrint({ identifier, image, foiling, set, treatment });
+  const print = getPrint({ identifier, image, foiling, set, treatments });
 
   return {
     artists,

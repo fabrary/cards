@@ -1,5 +1,5 @@
 import { Card, Foiling, Printing } from "@flesh-and-blood/types";
-import tcgplayerProductFile from "../Released/card-with-tcgp.json";
+import tcgplayerProductFile from "../Released/card.json";
 import { SourceJSONCard } from "../Released/parser";
 const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
 
@@ -99,4 +99,20 @@ export const getTCGplayerInfoForAddedPrinting = (
       }
     }
   }
+};
+
+export const getTCGPlayerInfoForRawSpoilerPrinting = (card: {
+  name: string;
+  pitch?: string;
+}) => {
+  const matchingTCGPSourceCard = tcgplayerProductInfo.find(
+    ({ name, pitch }) => {
+      const sameName = card.name === name;
+      const samePitch = (!card.pitch && !pitch) || card.pitch === pitch;
+
+      return sameName && samePitch;
+    },
+  );
+
+  return matchingTCGPSourceCard;
 };
