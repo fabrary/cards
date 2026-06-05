@@ -1,0 +1,1812 @@
+{
+  "agile-windup-red": {
+    "RNR008": {
+      "identifier": "RHI008",
+      "edition": "",
+      "face_id": "RHI008",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI008.webp"
+    }
+  },
+  "agile-windup-yellow": {
+    "RNR017": {
+      "identifier": "RHI017",
+      "edition": "",
+      "face_id": "RHI017",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI017.webp"
+    }
+  },
+  "agility": {
+    "RNR029": {
+      "identifier": "RHI029",
+      "edition": "",
+      "face_id": "RHI029",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI029.webp"
+    }
+  },
+  "angelic-wrath-blue": {
+    "23_07_armorykit_LGS163.width-10000": {
+      "identifier": "LGS163",
+      "edition": "",
+      "face_id": "LGS163-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS163-RF.webp"
+    }
+  },
+  "angelic-wrath-red": {
+    "23_07_armorykit_LGS161.width-10000": {
+      "identifier": "LGS161",
+      "edition": "",
+      "face_id": "LGS161-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS161-RF.webp"
+    }
+  },
+  "angelic-wrath-yellow": {
+    "23_07_armorykit_LGS162.width-10000": {
+      "identifier": "LGS162",
+      "edition": "",
+      "face_id": "LGS162-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS162-RF.webp"
+    }
+  },
+  "anothos": {
+    "BVO3": {
+      "identifier": "BVO003",
+      "edition": "",
+      "face_id": "BVO003",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO003.webp"
+    }
+  },
+  "assault-and-battery-blue": {
+    "RNR021": {
+      "identifier": "RHI021",
+      "edition": "",
+      "face_id": "RHI021",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI021.webp"
+    }
+  },
+  "assault-and-battery-red": {
+    "RNR009": {
+      "identifier": "RHI009",
+      "edition": "",
+      "face_id": "RHI009",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI009.webp"
+    }
+  },
+  "awakening-bellow-blue": {
+    "RNR24": {
+      "identifier": "RNR024",
+      "edition": "",
+      "face_id": "RNR024",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR024.webp"
+    }
+  },
+  "awakening-bellow-red": {
+    "RNR14": {
+      "identifier": "RNR014",
+      "edition": "",
+      "face_id": "RNR014",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR014.webp"
+    }
+  },
+  "ball-breaker": {
+    "RNR002": {
+      "identifier": "RHI002",
+      "edition": "",
+      "face_id": "RHI002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI002.webp"
+    }
+  },
+  "bare-fangs-red": {
+    "RNR010": {
+      "identifier": "RHI010",
+      "edition": "",
+      "face_id": "RHI010",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI010.webp"
+    }
+  },
+  "barkbone-strapping": {
+    "RNR5": {
+      "identifier": "RNR005",
+      "edition": "",
+      "face_id": "RNR005",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR005.webp"
+    }
+  },
+  "barraging-beatdown-blue": {
+    "RNR25": {
+      "identifier": "RNR025",
+      "edition": "",
+      "face_id": "RNR025",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR025.webp"
+    }
+  },
+  "barraging-beatdown-yellow": {
+    "RNR18": {
+      "identifier": "RNR018",
+      "edition": "",
+      "face_id": "RNR018",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR018.webp"
+    }
+  },
+  "barraging-brawnhide-blue": {
+    "BVO23": {
+      "identifier": "BVO023",
+      "edition": "",
+      "face_id": "BVO023",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO023.webp"
+    }
+  },
+  "barraging-brawnhide-yellow": {
+    "RNR19": {
+      "identifier": "RNR019",
+      "edition": "",
+      "face_id": "RNR019",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR019.webp"
+    }
+  },
+  "battlefield-blitz-red": {
+    "UMON036": {
+      "identifier": "MON036",
+      "edition": "Unlimited",
+      "face_id": "U-MON036",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON036.webp"
+    }
+  },
+  "beast-mode-red": {
+    "RNR011": {
+      "identifier": "RHI011",
+      "edition": "",
+      "face_id": "RHI011",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI011.webp"
+    }
+  },
+  "biting-blade-blue": {
+    "TEA20": {
+      "identifier": "TEA020",
+      "edition": "",
+      "face_id": "TEA020",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA020.webp"
+    }
+  },
+  "biting-blade-red": {
+    "TEA8": {
+      "identifier": "TEA008",
+      "edition": "",
+      "face_id": "TEA008",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA008.webp"
+    }
+  },
+  "blackout-kick-red": {
+    "KSU9": {
+      "identifier": "KSU009",
+      "edition": "",
+      "face_id": "KSU009",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU009.webp"
+    }
+  },
+  "blessing-of-deliverance-blue": {
+    "BVO21": {
+      "identifier": "BVO021",
+      "edition": "",
+      "face_id": "BVO021",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO021.webp"
+    }
+  },
+  "blossoming-spellblade-red": {
+    "ELE064_Blossoming_Spellblade.width-10000": {
+      "identifier": "ELE064",
+      "edition": "Unlimited",
+      "face_id": "U-ELE064",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE064.webp"
+    }
+  },
+  "bonebreaker-bellow-blue": {
+    "RNR024": {
+      "identifier": "RHI024",
+      "edition": "",
+      "face_id": "RHI024",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI024.webp"
+    }
+  },
+  "bonebreaker-bellow-red": {
+    "RNR016": {
+      "identifier": "RHI016",
+      "edition": "",
+      "face_id": "RHI016",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI016.webp"
+    }
+  },
+  "bonebreaker-bellow-yellow": {
+    "RNR020": {
+      "identifier": "RHI020",
+      "edition": "",
+      "face_id": "RHI020",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI020.webp"
+    }
+  },
+  "boneyard-marauder-yellow": {
+    "UMON136": {
+      "identifier": "MON136",
+      "edition": "Unlimited",
+      "face_id": "U-MON136",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON136.webp"
+    }
+  },
+  "bravo": {
+    "BVO2": {
+      "identifier": "BVO002",
+      "edition": "",
+      "face_id": "BVO002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO002.webp"
+    }
+  },
+  "bravo-showstopper": {
+    "BVO": {
+      "identifier": "BVO001",
+      "edition": "",
+      "face_id": "BVO001",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO001.webp"
+    }
+  },
+  "break-ground-yellow": {
+    "U.ELE132": {
+      "identifier": "ELE132",
+      "edition": "Unlimited",
+      "face_id": "U-ELE132",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE132.webp"
+    }
+  },
+  "breaking-scales": {
+    "KSU7": {
+      "identifier": "KSU007",
+      "edition": "",
+      "face_id": "KSU007",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU007.webp"
+    }
+  },
+  "breakneck-battery-red": {
+    "RNR8": {
+      "identifier": "RNR008",
+      "edition": "",
+      "face_id": "RNR008",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR008.webp"
+    }
+  },
+  "buckling-blow-blue": {
+    "BVO16": {
+      "identifier": "BVO016",
+      "edition": "",
+      "face_id": "BVO016",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO016.webp"
+    }
+  },
+  "buckling-blow-red": {
+    "BVO8": {
+      "identifier": "BVO008",
+      "edition": "",
+      "face_id": "BVO008",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO008.webp"
+    }
+  },
+  "cartilage-crush-blue": {
+    "BVO17": {
+      "identifier": "BVO017",
+      "edition": "",
+      "face_id": "BVO017",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO017.webp"
+    }
+  },
+  "cartilage-crush-red": {
+    "BVO9": {
+      "identifier": "BVO009",
+      "edition": "",
+      "face_id": "BVO009",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO009.webp"
+    }
+  },
+  "codex-of-bloodrot-yellow": {
+    "EN_OUT_marvels_v1.0_FINAL_noopw": {
+      "identifier": "OUT159",
+      "edition": "",
+      "face_id": "OUT159",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT159.webp"
+    }
+  },
+  "codex-of-frailty-yellow": {
+    "EN_OUT_marvels_v1.0_FINAL_noopw2": {
+      "identifier": "OUT160",
+      "edition": "",
+      "face_id": "OUT160",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT160.webp"
+    }
+  },
+  "codex-of-inertia-yellow": {
+    "EN_OUT_marvels_v1.0_FINAL_noopw3": {
+      "identifier": "OUT161",
+      "edition": "",
+      "face_id": "OUT161",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT161.webp"
+    }
+  },
+  "cognition-nodes-blue": {
+    "ARC018_Cognition_Nodes.width-10000": {
+      "identifier": "ARC018",
+      "edition": "Unlimited/First",
+      "face_id": "ARC018",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARC018.webp"
+    }
+  },
+  "collapsing-trap-blue": {
+    "OUT103.width-350": {
+      "identifier": "OUT103",
+      "edition": "",
+      "face_id": "OUT103",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT103.webp"
+    }
+  },
+  "crush-confidence-blue": {
+    "BVO18": {
+      "identifier": "BVO018",
+      "edition": "",
+      "face_id": "BVO018",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO018.webp"
+    }
+  },
+  "dawnblade": {
+    "TEA3": {
+      "identifier": "TEA003",
+      "edition": "",
+      "face_id": "TEA003",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA003.webp"
+    }
+  },
+  "debilitate-red": {
+    "BVO10": {
+      "identifier": "BVO010",
+      "edition": "",
+      "face_id": "BVO010",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO010.webp"
+    }
+  },
+  "debilitate-yellow": {
+    "BVO13": {
+      "identifier": "BVO013",
+      "edition": "",
+      "face_id": "BVO013",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO013.webp"
+    }
+  },
+  "disable-blue": {
+    "BVO19": {
+      "identifier": "BVO019",
+      "edition": "",
+      "face_id": "BVO019",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO019.webp"
+    }
+  },
+  "disable-red": {
+    "BVO11": {
+      "identifier": "BVO011",
+      "edition": "",
+      "face_id": "BVO011",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO011.webp"
+    }
+  },
+  "dishonor-blue": {
+    "OUT051_tyYCr6g": {
+      "identifier": "OUT051",
+      "edition": "",
+      "face_id": "OUT051",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT051.webp"
+    }
+  },
+  "dorinthea": {
+    "TEA2": {
+      "identifier": "TEA002",
+      "edition": "",
+      "face_id": "TEA002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA002.webp"
+    }
+  },
+  "dorinthea-ironsong": {
+    "TEA": {
+      "identifier": "TEA001",
+      "edition": "",
+      "face_id": "TEA001",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA001.webp"
+    }
+  },
+  "driving-blade-blue": {
+    "TEA22": {
+      "identifier": "TEA022",
+      "edition": "",
+      "face_id": "TEA022",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA022.webp"
+    }
+  },
+  "driving-blade-red": {
+    "TEA12": {
+      "identifier": "TEA012",
+      "edition": "",
+      "face_id": "TEA012",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA012.webp"
+    }
+  },
+  "drone-of-brutality-blue": {
+    "BVO25": {
+      "identifier": "BVO025",
+      "edition": "",
+      "face_id": "BVO025",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO025.webp"
+    }
+  },
+  "drone-of-brutality-red": {
+    "RNR15": {
+      "identifier": "RNR015",
+      "edition": "",
+      "face_id": "RNR015",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR015.webp"
+    }
+  },
+  "emerging-power-red": {
+    "BVO12": {
+      "identifier": "BVO012",
+      "edition": "",
+      "face_id": "BVO012",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO012.webp"
+    }
+  },
+  "emerging-power-yellow": {
+    "BVO14": {
+      "identifier": "BVO014",
+      "edition": "",
+      "face_id": "BVO014",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO014.webp"
+    }
+  },
+  "endless-maw-blue": {
+    "SAy5p6Yoa21bM89UuG8l4": {
+      "identifier": "MON128",
+      "edition": "First",
+      "face_id": "MON128",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON128.webp"
+    }
+  },
+  "endless-maw-red": {
+    "8Hvi6X0i746eD8UVlBjt": {
+      "identifier": "MON126",
+      "edition": "First",
+      "face_id": "MON126",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON126.webp"
+    },
+    "UMON126": {
+      "identifier": "MON126",
+      "edition": "Unlimited",
+      "face_id": "U-MON126",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON126.webp"
+    }
+  },
+  "endless-maw-yellow": {
+    "3HnONyYapgg32MEXbFXUB": {
+      "identifier": "MON127",
+      "edition": "First",
+      "face_id": "MON127",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON127.webp"
+    }
+  },
+  "endless-winter-red": {
+    "UELE004": {
+      "identifier": "ELE004",
+      "edition": "Unlimited",
+      "face_id": "U-ELE004",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE004.webp"
+    }
+  },
+  "energy-potion-blue": {
+    "KSU29": {
+      "identifier": "KSU029",
+      "edition": "",
+      "face_id": "KSU029",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU029.webp"
+    },
+    "TEA28": {
+      "identifier": "TEA028",
+      "edition": "",
+      "face_id": "TEA028",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA028.webp"
+    }
+  },
+  "evergreen-blue": {
+    "ELE121_Evergreen.width-10000": {
+      "identifier": "ELE121",
+      "edition": "Unlimited",
+      "face_id": "U-ELE121",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE121.webp"
+    }
+  },
+  "evergreen-red": {
+    "ELE119_Evergreen.width-10000": {
+      "identifier": "ELE119",
+      "edition": "Unlimited",
+      "face_id": "U-ELE119",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE119.webp"
+    }
+  },
+  "evergreen-yellow": {
+    "ELE120_Evergreen.width-10000": {
+      "identifier": "ELE120",
+      "edition": "Unlimited",
+      "face_id": "U-ELE120",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE120.webp"
+    }
+  },
+  "flat-trackers": {
+    "RNR007": {
+      "identifier": "RHI007",
+      "edition": "",
+      "face_id": "RHI007",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI007.webp"
+    }
+  },
+  "fletch-a-red-tail-red": {
+    "OUT109_MXRPsJl": {
+      "identifier": "OUT109",
+      "edition": "",
+      "face_id": "OUT109",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT109.webp"
+    }
+  },
+  "flic-flak-blue": {
+    "KSU25": {
+      "identifier": "KSU025",
+      "edition": "",
+      "face_id": "KSU025",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU025.webp"
+    }
+  },
+  "flock-of-the-feather-walkers-blue": {
+    "RNR27": {
+      "identifier": "RNR027",
+      "edition": "",
+      "face_id": "RNR027",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR027.webp"
+    },
+    "TEA26": {
+      "identifier": "TEA026",
+      "edition": "",
+      "face_id": "TEA026",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA026.webp"
+    }
+  },
+  "fluster-fist-blue": {
+    "KSU22": {
+      "identifier": "KSU022",
+      "edition": "",
+      "face_id": "KSU022",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU022.webp"
+    }
+  },
+  "fluster-fist-red": {
+    "KSU10": {
+      "identifier": "KSU010",
+      "edition": "",
+      "face_id": "KSU010",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU010.webp"
+    }
+  },
+  "forked-lightning-red": {
+    "ARC120_Forked_Lightning.width-10000": {
+      "identifier": "ARC120",
+      "edition": "Unlimited",
+      "face_id": "U-ARC120",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC120.webp"
+    }
+  },
+  "fractal-replication-red": {
+    "EVR138_Fractal_Replication.width-10000": {
+      "identifier": "EVR138",
+      "edition": "First",
+      "face_id": "EVR138",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR138.webp"
+    }
+  },
+  "gamblers-gloves": {
+    "CRU179_Gamblers_Gloves.width-10000": {
+      "identifier": "CRU179",
+      "edition": "Unlimited",
+      "face_id": "U-CRU179",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU179.webp"
+    }
+  },
+  "gauntlet-of-might": {
+    "RNR006": {
+      "identifier": "RHI006",
+      "edition": "",
+      "face_id": "RHI006",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI006.webp"
+    }
+  },
+  "goliath-gauntlet": {
+    "BVO6": {
+      "identifier": "BVO006",
+      "edition": "",
+      "face_id": "BVO006",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO006.webp"
+    }
+  },
+  "harmonized-kodachi": {
+    "CRU48": {
+      "identifier": "CRU048",
+      "edition": "First",
+      "face_id": "CRU048",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CRU048.webp"
+    },
+    "KSU3": {
+      "identifier": "KSU003",
+      "edition": "",
+      "face_id": "KSU003",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU003.webp"
+    },
+    "KSU4": {
+      "identifier": "KSU004",
+      "edition": "",
+      "face_id": "KSU004",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU004.webp"
+    }
+  },
+  "head-jab-blue": {
+    "KSU23": {
+      "identifier": "KSU023",
+      "edition": "",
+      "face_id": "KSU023",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU023.webp"
+    }
+  },
+  "head-jab-red": {
+    "KSU11": {
+      "identifier": "KSU011",
+      "edition": "",
+      "face_id": "KSU011",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU011.webp"
+    }
+  },
+  "heartened-cross-strap": {
+    "KSU6": {
+      "identifier": "KSU006",
+      "edition": "",
+      "face_id": "KSU006",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU006.webp"
+    }
+  },
+  "helm-of-isens-peak": {
+    "BVO4": {
+      "identifier": "BVO004",
+      "edition": "",
+      "face_id": "BVO004",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO004.webp"
+    }
+  },
+  "herald-of-ravages-blue": {
+    "456b443654yteb65764": {
+      "identifier": "MON019",
+      "edition": "First",
+      "face_id": "MON019",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON019.webp"
+    }
+  },
+  "herald-of-ravages-red": {
+    "9986165132..223435430": {
+      "identifier": "MON017",
+      "edition": "First",
+      "face_id": "MON017",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON017.webp"
+    }
+  },
+  "herald-of-ravages-yellow": {
+    "23fgw5465b464": {
+      "identifier": "MON018",
+      "edition": "First",
+      "face_id": "MON018",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON018.webp"
+    }
+  },
+  "herald-of-rebirth-red": {
+    "U_MON020": {
+      "identifier": "MON020",
+      "edition": "Unlimited",
+      "face_id": "U-MON020",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON020.webp"
+    }
+  },
+  "hope-merchants-hood": {
+    "TEA4": {
+      "identifier": "TEA004",
+      "edition": "",
+      "face_id": "TEA004",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA004.webp"
+    }
+  },
+  "ironrot-gauntlet": {
+    "IRONROT03": {
+      "identifier": "OXO003",
+      "edition": "",
+      "face_id": "OXO003",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO003.webp"
+    },
+    "RNR6": {
+      "identifier": "RNR006",
+      "edition": "",
+      "face_id": "RNR006",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR006.webp"
+    },
+    "TEA6": {
+      "identifier": "TEA006",
+      "edition": "",
+      "face_id": "TEA006",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA006.webp"
+    }
+  },
+  "ironrot-helm": {
+    "IRONROT01": {
+      "identifier": "OXO001",
+      "edition": "",
+      "face_id": "OXO001",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO001.webp"
+    },
+    "KSU5": {
+      "identifier": "KSU005",
+      "edition": "",
+      "face_id": "KSU005",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU005.webp"
+    },
+    "RNR4": {
+      "identifier": "RNR004",
+      "edition": "",
+      "face_id": "RNR004",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR004.webp"
+    }
+  },
+  "ironrot-legs": {
+    "BVO7": {
+      "identifier": "BVO007",
+      "edition": "",
+      "face_id": "BVO007",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO007.webp"
+    },
+    "IRONROT04": {
+      "identifier": "OXO004",
+      "edition": "",
+      "face_id": "OXO004",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO004.webp"
+    },
+    "KSU8": {
+      "identifier": "KSU008",
+      "edition": "",
+      "face_id": "KSU008",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU008.webp"
+    }
+  },
+  "ironrot-plate": {
+    "BVO5": {
+      "identifier": "BVO005",
+      "edition": "",
+      "face_id": "BVO005",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO005.webp"
+    },
+    "IRONROT02": {
+      "identifier": "OXO002",
+      "edition": "",
+      "face_id": "OXO002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO002.webp"
+    },
+    "TEA5": {
+      "identifier": "TEA005",
+      "edition": "",
+      "face_id": "TEA005",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA005.webp"
+    }
+  },
+  "ironsong-pride-red": {
+    "DYN072_Special": {
+      "identifier": "DYN072",
+      "edition": "",
+      "face_id": "DYN072",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN072.webp"
+    }
+  },
+  "ironsong-response-blue": {
+    "TEA21": {
+      "identifier": "TEA021",
+      "edition": "",
+      "face_id": "TEA021",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA021.webp"
+    }
+  },
+  "katsu": {
+    "KSU2": {
+      "identifier": "KSU002",
+      "edition": "",
+      "face_id": "KSU002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU002.webp"
+    }
+  },
+  "katsu-the-wanderer": {
+    "KSU": {
+      "identifier": "KSU001",
+      "edition": "",
+      "face_id": "KSU001",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU001.webp"
+    }
+  },
+  "korshem-crossroad-of-elements": {
+    "ELE000_vertical": {
+      "identifier": "ELE000",
+      "edition": "First",
+      "face_id": "U-ELE000-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE000-RF.webp"
+    }
+  },
+  "lady-barthimont": {
+    "LEV002_Lady_Barthimont.width-10000": {
+      "identifier": "LEV002",
+      "edition": "",
+      "face_id": "LEV002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LEV002.webp"
+    }
+  },
+  "lead-with-power-blue": {
+    "RNR025": {
+      "identifier": "RHI025",
+      "edition": "",
+      "face_id": "RHI025",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI025.webp"
+    }
+  },
+  "lead-with-speed-blue": {
+    "RNR026": {
+      "identifier": "RHI026",
+      "edition": "",
+      "face_id": "RHI026",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI026.webp"
+    }
+  },
+  "leg-tap-red": {
+    "KSU12": {
+      "identifier": "KSU012",
+      "edition": "",
+      "face_id": "KSU012",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU012.webp"
+    }
+  },
+  "leg-tap-yellow": {
+    "KSU18": {
+      "identifier": "KSU018",
+      "edition": "",
+      "face_id": "KSU018",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU018.webp"
+    }
+  },
+  "levia": {
+    "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv": {
+      "identifier": "MON120",
+      "edition": "First",
+      "face_id": "MON120",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON120.webp"
+    }
+  },
+  "levia-shadowborn-abomination": {
+    "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq": {
+      "identifier": "MON119",
+      "edition": "First",
+      "face_id": "MON119",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON119.webp"
+    }
+  },
+  "looming-doom-blue": {
+    "DYN175_Special": {
+      "identifier": "DYN175",
+      "edition": "",
+      "face_id": "DYN175",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN175.webp"
+    }
+  },
+  "lord-sutcliffe": {
+    "CHN002_Lord_Sutcliffe.width-10000": {
+      "identifier": "CHN002",
+      "edition": "",
+      "face_id": "CHN002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CHN002.webp"
+    }
+  },
+  "luminaris-celestial-fury": {
+    "23_07_armorykit_LGS160.width-10000": {
+      "identifier": "LGS160",
+      "edition": "",
+      "face_id": "LGS160-CF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS160-CF.webp"
+    }
+  },
+  "lunging-press-blue": {
+    "KSU28": {
+      "identifier": "KSU028",
+      "edition": "",
+      "face_id": "KSU028",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU028.webp"
+    }
+  },
+  "mandible-claw": {
+    "RNR003": {
+      "identifier": "RHI003",
+      "edition": "",
+      "face_id": "RHI003",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI003.webp"
+    }
+  },
+  "metacarpus-node": {
+    "CRU161_Metacarpus_Node.width-10000": {
+      "identifier": "CRU161",
+      "edition": "Unlimited",
+      "face_id": "U-CRU161",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU161.webp"
+    }
+  },
+  "might": {
+    "RNR028": {
+      "identifier": "RHI028",
+      "edition": "",
+      "face_id": "RHI028",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI028.webp"
+    }
+  },
+  "mighty-windup-red": {
+    "RNR012": {
+      "identifier": "RHI012",
+      "edition": "",
+      "face_id": "RHI012",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI012.webp"
+    }
+  },
+  "mighty-windup-yellow": {
+    "RNR018": {
+      "identifier": "RHI018",
+      "edition": "",
+      "face_id": "RHI018",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI018.webp"
+    }
+  },
+  "minerva-themis": {
+    "BOL002_Minerva_Themis.width-10000": {
+      "identifier": "BOL002",
+      "edition": "",
+      "face_id": "BOL002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BOL002.webp"
+    }
+  },
+  "monstrous-veil": {
+    "RNR004": {
+      "identifier": "RHI004",
+      "edition": "",
+      "face_id": "RHI004",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI004.webp"
+    }
+  },
+  "mordred-tide-red": {
+    "ARC081_Mordred_Tide.width-10000": {
+      "identifier": "ARC081",
+      "edition": "Unlimited",
+      "face_id": "U-ARC081",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC081.webp"
+    }
+  },
+  "natures-path-pilgrimage-blue": {
+    "TEA23": {
+      "identifier": "TEA023",
+      "edition": "",
+      "face_id": "TEA023",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA023.webp"
+    }
+  },
+  "natures-path-pilgrimage-red": {
+    "TEA13": {
+      "identifier": "TEA013",
+      "edition": "",
+      "face_id": "TEA013",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA013.webp"
+    }
+  },
+  "open-the-center-red": {
+    "KSU13": {
+      "identifier": "KSU013",
+      "edition": "",
+      "face_id": "KSU013",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU013.webp"
+    }
+  },
+  "over-loop-blue": {
+    "ARC022_Over_Loop.width-10000": {
+      "identifier": "ARC022",
+      "edition": "Unlimited",
+      "face_id": "U-ARC022",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC022.webp"
+    }
+  },
+  "over-loop-red": {
+    "ARC020_Over_Loop.width-10000": {
+      "identifier": "ARC020",
+      "edition": "Unlimited",
+      "face_id": "U-ARC020",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC020.webp"
+    }
+  },
+  "over-loop-yellow": {
+    "ARC021_Over_Loop.width-10000": {
+      "identifier": "ARC021",
+      "edition": "Unlimited",
+      "face_id": "U-ARC021",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC021.webp"
+    }
+  },
+  "overpower-red": {
+    "TEA10": {
+      "identifier": "TEA010",
+      "edition": "",
+      "face_id": "TEA010",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA010.webp"
+    }
+  },
+  "pack-call-yellow": {
+    "RNR019": {
+      "identifier": "RHI019",
+      "edition": "",
+      "face_id": "RHI019",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI019.webp"
+    }
+  },
+  "pack-hunt-blue": {
+    "RNR022": {
+      "identifier": "RHI022",
+      "edition": "",
+      "face_id": "RHI022",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI022.webp"
+    }
+  },
+  "pack-hunt-red": {
+    "RNR013": {
+      "identifier": "RHI013",
+      "edition": "",
+      "face_id": "RHI013",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI013.webp"
+    },
+    "RNR9": {
+      "identifier": "RNR009",
+      "edition": "",
+      "face_id": "RNR009",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR009.webp"
+    }
+  },
+  "parable-of-humility-yellow": {
+    "16984263482378r4623792": {
+      "identifier": "MON011",
+      "edition": "First",
+      "face_id": "MON011",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON011.webp"
+    }
+  },
+  "phantasmaclasm-red": {
+    "fy8w7r78545yit3787efygs8def": {
+      "identifier": "MON091",
+      "edition": "First",
+      "face_id": "MON091",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON091.webp"
+    }
+  },
+  "phantasmal-footsteps": {
+    "MON089_Phantasmal_Footsteps.width-10000": {
+      "identifier": "MON089",
+      "edition": "Unlimited",
+      "face_id": "U-MON089-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON089-RF.webp"
+    }
+  },
+  "pitfall-trap-yellow": {
+    "LGS151.width-10000": {
+      "identifier": "LGS151",
+      "edition": "",
+      "face_id": "LGS151-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS151-RF.webp"
+    }
+  },
+  "potion-of-strength-blue": {
+    "BVO28": {
+      "identifier": "BVO028",
+      "edition": "",
+      "face_id": "BVO028",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO028.webp"
+    }
+  },
+  "pound-town-blue": {
+    "RNR023": {
+      "identifier": "RHI023",
+      "edition": "",
+      "face_id": "RHI023",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI023.webp"
+    }
+  },
+  "pound-town-red": {
+    "RNR014": {
+      "identifier": "RHI014",
+      "edition": "",
+      "face_id": "RHI014",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI014.webp"
+    }
+  },
+  "primeval-bellow-blue": {
+    "RNR26": {
+      "identifier": "RNR026",
+      "edition": "",
+      "face_id": "RNR026",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR026.webp"
+    }
+  },
+  "pulping-blue": {
+    "h3ntlAv43eGM6Nq3R046zh": {
+      "identifier": "MON225",
+      "edition": "First",
+      "face_id": "MON225",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON225.webp"
+    }
+  },
+  "pulping-red": {
+    "83qQVRV7av7WVwN6jhg0d": {
+      "identifier": "MON223",
+      "edition": "First",
+      "face_id": "MON223",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON223.webp"
+    }
+  },
+  "pulping-yellow": {
+    "322d1Gx66IHv4QNM3gOjV7": {
+      "identifier": "MON224",
+      "edition": "First",
+      "face_id": "MON224",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON224.webp"
+    }
+  },
+  "pummel-blue": {
+    "BVO27": {
+      "identifier": "BVO027",
+      "edition": "",
+      "face_id": "BVO027",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO027.webp"
+    }
+  },
+  "quicken": {
+    "1HP427_Quicken.width-10000": {
+      "identifier": "1HP427",
+      "edition": "",
+      "face_id": "1HP427",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/1HP427.webp"
+    },
+    "RNR31": {
+      "identifier": "RNR031",
+      "edition": "",
+      "face_id": "RNR031",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR031.webp"
+    },
+    "TEA30": {
+      "identifier": "TEA030",
+      "edition": "",
+      "face_id": "TEA030",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA030.webp"
+    }
+  },
+  "raging-onslaught-blue": {
+    "BVO24": {
+      "identifier": "BVO024",
+      "edition": "",
+      "face_id": "BVO024",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO024.webp"
+    }
+  },
+  "raging-onslaught-yellow": {
+    "RNR20": {
+      "identifier": "RNR020",
+      "edition": "",
+      "face_id": "RNR020",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR020.webp"
+    }
+  },
+  "raw-meat": {
+    "RNR005": {
+      "identifier": "RHI005",
+      "edition": "",
+      "face_id": "RHI005",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI005.webp"
+    }
+  },
+  "rawhide-rumble-red": {
+    "RNR015": {
+      "identifier": "RHI015",
+      "edition": "",
+      "face_id": "RHI015",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI015.webp"
+    }
+  },
+  "razor-reflex-red": {
+    "TEA16": {
+      "identifier": "TEA016",
+      "edition": "",
+      "face_id": "TEA016",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA016.webp"
+    }
+  },
+  "refraction-bolters": {
+    "TEA7": {
+      "identifier": "TEA007",
+      "edition": "",
+      "face_id": "TEA007",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA007.webp"
+    }
+  },
+  "regicide-blue": {
+    "DYN121_Special": {
+      "identifier": "DYN121",
+      "edition": "",
+      "face_id": "DYN121",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN121.webp"
+    }
+  },
+  "rewind-blue": {
+    "UPR169_ALT": {
+      "identifier": "UPR169",
+      "edition": "",
+      "face_id": "UPR169",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/UPR169.webp"
+    }
+  },
+  "rhinar": {
+    "RNR001": {
+      "identifier": "RHI001",
+      "edition": "",
+      "face_id": "RHI001-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI001-RF.webp"
+    },
+    "RNR2": {
+      "identifier": "RNR002",
+      "edition": "",
+      "face_id": "RNR002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR002.webp"
+    }
+  },
+  "rhinar-reckless-rampage": {
+    "RNR": {
+      "identifier": "RNR001",
+      "edition": "",
+      "face_id": "RNR001",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR001.webp"
+    }
+  },
+  "rising-knee-thrust-red": {
+    "KSU14": {
+      "identifier": "KSU014",
+      "edition": "",
+      "face_id": "KSU014",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU014.webp"
+    }
+  },
+  "rising-knee-thrust-yellow": {
+    "KSU19": {
+      "identifier": "KSU019",
+      "edition": "",
+      "face_id": "KSU019",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU019.webp"
+    }
+  },
+  "rockslide-trap-blue": {
+    "LGS152.width-10000": {
+      "identifier": "LGS152",
+      "edition": "",
+      "face_id": "LGS152-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS152-RF.webp"
+    }
+  },
+  "romping-club": {
+    "RNR3": {
+      "identifier": "RNR003",
+      "edition": "",
+      "face_id": "RNR003",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR003.webp"
+    }
+  },
+  "runechant": {
+    "ARC112_Runechant.width-10000": {
+      "identifier": "ARC112",
+      "edition": "Unlimited",
+      "face_id": "U-ARC112",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC112.webp"
+    }
+  },
+  "rushing-river-red": {
+    "CRU60": {
+      "identifier": "CRU060",
+      "edition": "First",
+      "face_id": "CRU060",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CRU060.webp"
+    }
+  },
+  "salvage-shot-blue": {
+    "ARC068_Salvage_Shot.width-10000": {
+      "identifier": "ARC068",
+      "edition": "Unlimited",
+      "face_id": "U-ARC068",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC068.webp"
+    }
+  },
+  "salvage-shot-red": {
+    "ARC066_Salvage_Shot.width-10000": {
+      "identifier": "ARC066",
+      "edition": "Unlimited",
+      "face_id": "U-ARC066",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC066.webp"
+    }
+  },
+  "salvage-shot-yellow": {
+    "ARC067_Salvage_Shot.width-10000": {
+      "identifier": "ARC067",
+      "edition": "Unlimited",
+      "face_id": "U-ARC067",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC067.webp"
+    }
+  },
+  "savage-feast-red": {
+    "RNR10": {
+      "identifier": "RNR010",
+      "edition": "",
+      "face_id": "RNR010",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR010.webp"
+    }
+  },
+  "savage-swing-red": {
+    "RNR11": {
+      "identifier": "RNR011",
+      "edition": "",
+      "face_id": "RNR011",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR011.webp"
+    }
+  },
+  "savage-swing-yellow": {
+    "RNR16": {
+      "identifier": "RNR016",
+      "edition": "",
+      "face_id": "RNR016",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR016.webp"
+    }
+  },
+  "scar-for-a-scar-red": {
+    "KSU17": {
+      "identifier": "KSU017",
+      "edition": "",
+      "face_id": "KSU017",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU017.webp"
+    }
+  },
+  "scour-the-battlescape-blue": {
+    "KSU26": {
+      "identifier": "KSU026",
+      "edition": "",
+      "face_id": "KSU026",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU026.webp"
+    },
+    "RNR28": {
+      "identifier": "RNR028",
+      "edition": "",
+      "face_id": "RNR028",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR028.webp"
+    },
+    "TEA27": {
+      "identifier": "TEA027",
+      "edition": "",
+      "face_id": "TEA027",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA027.webp"
+    }
+  },
+  "seeds-of-agony-blue": {
+    "seeds3": {
+      "identifier": "MON185",
+      "edition": "Unlimited",
+      "face_id": "U-MON185",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON185.webp"
+    }
+  },
+  "seeds-of-agony-red": {
+    "MON183_up": {
+      "identifier": "MON183",
+      "edition": "First",
+      "face_id": "MON183",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON183.webp"
+    },
+    "seeds": {
+      "identifier": "MON183",
+      "edition": "Unlimited",
+      "face_id": "U-MON183",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON183.webp"
+    }
+  },
+  "seeds-of-agony-yellow": {
+    "seeds2": {
+      "identifier": "MON184",
+      "edition": "Unlimited",
+      "face_id": "U-MON184",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON184.webp"
+    }
+  },
+  "shadow-of-blasmophet-red": {
+    "KLUiCIJEFKdt8QM545A4g": {
+      "identifier": "MON125",
+      "edition": "First",
+      "face_id": "MON125",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON125.webp"
+    }
+  },
+  "sharpen-steel-blue": {
+    "TEA24": {
+      "identifier": "TEA024",
+      "edition": "",
+      "face_id": "TEA024",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA024.webp"
+    }
+  },
+  "sharpen-steel-red": {
+    "TEA14": {
+      "identifier": "TEA014",
+      "edition": "",
+      "face_id": "TEA014",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA014.webp"
+    }
+  },
+  "sigil-of-solace-blue": {
+    "KSU30": {
+      "identifier": "KSU030",
+      "edition": "",
+      "face_id": "KSU030",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU030.webp"
+    },
+    "RNR30": {
+      "identifier": "RNR030",
+      "edition": "",
+      "face_id": "RNR030",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR030.webp"
+    },
+    "TEA29": {
+      "identifier": "TEA029",
+      "edition": "",
+      "face_id": "TEA029",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA029.webp"
+    }
+  },
+  "sloggism-blue": {
+    "BVO29": {
+      "identifier": "BVO029",
+      "edition": "",
+      "face_id": "BVO029",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO029.webp"
+    }
+  },
+  "smash-instinct-red": {
+    "RNR12": {
+      "identifier": "RNR012",
+      "edition": "",
+      "face_id": "RNR012",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR012.webp"
+    }
+  },
+  "smash-instinct-yellow": {
+    "RNR17": {
+      "identifier": "RNR017",
+      "edition": "",
+      "face_id": "RNR017",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR017.webp"
+    }
+  },
+  "smashback-alehorn-blue": {
+    "RNR027": {
+      "identifier": "RHI027",
+      "edition": "",
+      "face_id": "RHI027",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI027.webp"
+    }
+  },
+  "snapdragon-scalers": {
+    "RNR7": {
+      "identifier": "RNR007",
+      "edition": "",
+      "face_id": "RNR007",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR007.webp"
+    }
+  },
+  "soup-up-blue": {
+    "LGS197.width-10000": {
+      "identifier": "LGS197",
+      "edition": "",
+      "face_id": "LGS197-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS197-RF.webp"
+    }
+  },
+  "soup-up-red": {
+    "LGS195.width-10000": {
+      "identifier": "LGS195",
+      "edition": "",
+      "face_id": "LGS195-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS195-RF.webp"
+    }
+  },
+  "soup-up-yellow": {
+    "LGS196.width-10000": {
+      "identifier": "LGS196",
+      "edition": "",
+      "face_id": "LGS196-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS196-RF.webp"
+    }
+  },
+  "springboard-somersault-yellow": {
+    "BVO15": {
+      "identifier": "BVO015",
+      "edition": "",
+      "face_id": "BVO015",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO015.webp"
+    },
+    "KSU21": {
+      "identifier": "KSU021",
+      "edition": "",
+      "face_id": "KSU021",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU021.webp"
+    },
+    "RNR22": {
+      "identifier": "RNR022",
+      "edition": "",
+      "face_id": "RNR022",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR022.webp"
+    },
+    "TEA19": {
+      "identifier": "TEA019",
+      "edition": "",
+      "face_id": "TEA019",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA019.webp"
+    }
+  },
+  "staunch-response-blue": {
+    "BVO20": {
+      "identifier": "BVO020",
+      "edition": "",
+      "face_id": "BVO020",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO020.webp"
+    }
+  },
+  "steelblade-shunt-red": {
+    "TEA11": {
+      "identifier": "TEA011",
+      "edition": "",
+      "face_id": "TEA011",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA011.webp"
+    }
+  },
+  "stonewall-confidence-blue": {
+    "BVO22": {
+      "identifier": "BVO022",
+      "edition": "",
+      "face_id": "BVO022",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO022.webp"
+    }
+  },
+  "stroke-of-foresight-red": {
+    "TEA9": {
+      "identifier": "TEA009",
+      "edition": "",
+      "face_id": "TEA009",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA009.webp"
+    }
+  },
+  "stroke-of-foresight-yellow": {
+    "TEA17": {
+      "identifier": "TEA017",
+      "edition": "",
+      "face_id": "TEA017",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA017.webp"
+    }
+  },
+  "surging-strike-red": {
+    "KSU15": {
+      "identifier": "KSU015",
+      "edition": "",
+      "face_id": "KSU015",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU015.webp"
+    }
+  },
+  "surging-strike-yellow": {
+    "KSU20": {
+      "identifier": "KSU020",
+      "edition": "",
+      "face_id": "KSU020",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU020.webp"
+    }
+  },
+  "symbiosis-shot": {
+    "LGS194.width-10000": {
+      "identifier": "LGS194",
+      "edition": "",
+      "face_id": "LGS194-CF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS194-CF.webp"
+    }
+  },
+  "the-librarian": {
+    "PSM002_The_Librarian.width-10000": {
+      "identifier": "PSM002",
+      "edition": "",
+      "face_id": "PSM002",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM002.webp"
+    }
+  },
+  "timekeepers-whim-blue": {
+    "MON136_Timekeepers_Whim.width-10000": {
+      "identifier": "EVR136",
+      "edition": "First",
+      "face_id": "EVR136",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR136.webp"
+    }
+  },
+  "timekeepers-whim-red": {
+    "MON134_Timekeepers_Whim.width-10000": {
+      "identifier": "EVR134",
+      "edition": "First",
+      "face_id": "EVR134",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR134.webp"
+    }
+  },
+  "timekeepers-whim-yellow": {
+    "MON135_Timekeepers_Whim.width-10000": {
+      "identifier": "EVR135",
+      "edition": "First",
+      "face_id": "EVR135",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR135.webp"
+    }
+  },
+  "timesnap-potion-blue": {
+    "RNR29": {
+      "identifier": "RNR029",
+      "edition": "",
+      "face_id": "RNR029",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR029.webp"
+    }
+  },
+  "tripwire-trap-red": {
+    "LGS150.width-10000": {
+      "identifier": "LGS150",
+      "edition": "",
+      "face_id": "LGS150-RF",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS150-RF.webp"
+    }
+  },
+  "warmongers-recital-blue": {
+    "MON301_Warmongers_Recital.width-10000": {
+      "identifier": "MON301",
+      "edition": "Unlimited",
+      "face_id": "U-MON301",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON301.webp"
+    }
+  },
+  "warmongers-recital-red": {
+    "MON299_Warmongers_Recital.width-10000": {
+      "identifier": "MON299",
+      "edition": "Unlimited",
+      "face_id": "U-MON299",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON299.webp"
+    }
+  },
+  "warmongers-recital-yellow": {
+    "MON300_Warmongers_Recital.width-10000": {
+      "identifier": "MON300",
+      "edition": "Unlimited",
+      "face_id": "U-MON300",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON300.webp"
+    }
+  },
+  "warriors-valor-blue": {
+    "TEA25": {
+      "identifier": "TEA025",
+      "edition": "",
+      "face_id": "TEA025",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA025.webp"
+    }
+  },
+  "warriors-valor-yellow": {
+    "TEA18": {
+      "identifier": "TEA018",
+      "edition": "",
+      "face_id": "TEA018",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA018.webp"
+    }
+  },
+  "whelming-gustwave-blue": {
+    "KSU24": {
+      "identifier": "KSU024",
+      "edition": "",
+      "face_id": "KSU024",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU024.webp"
+    }
+  },
+  "whelming-gustwave-red": {
+    "KSU16": {
+      "identifier": "KSU016",
+      "edition": "",
+      "face_id": "KSU016",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU016.webp"
+    }
+  },
+  "wounded-bull-blue": {
+    "BVO26": {
+      "identifier": "BVO026",
+      "edition": "",
+      "face_id": "BVO026",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO026.webp"
+    }
+  },
+  "wounded-bull-yellow": {
+    "RNR21": {
+      "identifier": "RNR021",
+      "edition": "",
+      "face_id": "RNR021",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR021.webp"
+    }
+  },
+  "wounding-blow-blue": {
+    "KSU27": {
+      "identifier": "KSU027",
+      "edition": "",
+      "face_id": "KSU027",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU027.webp"
+    }
+  },
+  "wounding-blow-red": {
+    "TEA15": {
+      "identifier": "TEA015",
+      "edition": "",
+      "face_id": "TEA015",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA015.webp"
+    }
+  },
+  "wrecker-romp-blue": {
+    "RNR23": {
+      "identifier": "RNR023",
+      "edition": "",
+      "face_id": "RNR023",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR023.webp"
+    }
+  },
+  "wrecker-romp-red": {
+    "RNR13": {
+      "identifier": "RNR013",
+      "edition": "",
+      "face_id": "RNR013",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR013.webp"
+    }
+  },
+  "zephyr-needle": {
+    "CRU051_Zephyr_Needle.width-10000": {
+      "identifier": "CRU051",
+      "edition": "Unlimited",
+      "face_id": "U-CRU051",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU051.webp"
+    },
+    "CRU052_Zephyr_Needle.width-10000": {
+      "identifier": "CRU052",
+      "edition": "Unlimited",
+      "face_id": "U-CRU052",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU052.webp"
+    },
+    "CRU51": {
+      "identifier": "CRU051",
+      "edition": "First",
+      "face_id": "CRU051",
+      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CRU051.webp"
+    }
+  }
+}

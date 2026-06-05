@@ -33,7 +33,6 @@ import {
   getTraits,
   getTypeSubtypeAndMetatype,
   IGNORE_OPPOSITE_SIDES,
-  sortPrintingsByReleaseOrder,
 } from "../Shared";
 import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import { ParsedCard } from "./parser";
@@ -191,7 +190,6 @@ const getPrintings = (card: ParsedCard): Printing[] => {
       });
     }
   }
-  images.sort(sortPrintingsByReleaseOrder);
 
   // if (card.name === "Seismic Surge") {
   //   console.log(JSON.stringify(images, null, 2));

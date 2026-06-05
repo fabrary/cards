@@ -136,6 +136,16 @@ releasedCards.forEach((card) => {
 
     combineAndAddMissingFields(card, duplicate);
   } else {
+    const printings = card.printings;
+    printings.sort(sortPrintingsByReleaseOrder);
+
+    const defaultImage = getDefaultPrinting(card, printings)?.image;
+    const specialImage = getSpecialPrinting(card, printings)?.image;
+
+    card.printings = printings;
+    card.defaultImage = defaultImage;
+    card.specialImage = specialImage;
+
     deduplicatedCards.push(card);
     cardsByIdentifier.set(card.cardIdentifier, card);
   }

@@ -232,27 +232,47 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
   });
 };
 
+const RELEASES = [...releases];
 const getPrintingReleaseOrder = ({ edition, set }: Printing): number => {
-  const releasesNewestToOldest = releases.slice().reverse();
+  let releaseIndex =
+    RELEASES.findIndex(({ release }) => release === set) || 100000;
 
-  const releaseIndex = releasesNewestToOldest.findIndex(
-    ({ release }) => release === set,
-  );
-  let releaseOrder = releaseIndex >= 0 ? releaseIndex : 100000;
   if (edition === ReleaseEdition.Alpha) {
-    releaseOrder -= 0.2;
+    releaseIndex -= 0.2;
   } else if (edition === ReleaseEdition.First) {
-    releaseOrder -= 0.1;
+    releaseIndex -= 0.1;
   }
 
-  return releaseOrder;
+  return releaseIndex + 2;
 };
 
 export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
   const p1Order = getPrintingReleaseOrder(p1);
   const p2Order = getPrintingReleaseOrder(p2);
 
-  return p1Order - p2Order;
+  if (p1Order === p2Order) {
+    // Same release, so do shorter image name first and then shorter print first, all to try and get default image first
+    const p1ImageLength = p1.image ? p1.image.length : 0;
+    const p2ImageLength = p2.image ? p2.image.length : 0;
+
+    if (p1ImageLength === p2ImageLength) {
+      const p1Print = p1.print;
+      const p2Print = p2.print;
+      const p1PrintLength = p1Print.length;
+      const p2PrintLength = p2Print.length;
+
+      if (p1PrintLength === p2PrintLength) {
+        return p1Print.localeCompare(p2Print);
+      } else {
+        return p1PrintLength - p2PrintLength;
+      }
+    } else {
+      return p1ImageLength - p2ImageLength;
+    }
+  } else {
+    // Different releases, so do newest first
+    return p2Order - p1Order;
+  }
 };
 
 export const getHeroFromString = (name: string): Hero | undefined => {
@@ -260,7 +280,7 @@ export const getHeroFromString = (name: string): Hero | undefined => {
 
   for (const [hero, value] of Object.entries(Hero)) {
     if (name.includes(value as string)) {
-      heroOnCard = Hero[hero];
+      heroOnCard = Hero[hero as keyof typeof Hero];
     }
   }
 
@@ -353,7 +373,9 @@ export const getSpecializations = (card: {
       const [oneOrMoreHeroes] = keyword.split(" Specialization");
       const heroes = oneOrMoreHeroes.split(" or ");
       for (const hero of heroes) {
-        specializations.push(Hero[hero.replace(" ", "").replace("'", "")]);
+        specializations.push(
+          Hero[hero.replace(" ", "").replace("'", "") as keyof typeof Hero],
+        );
       }
     }
   });
@@ -422,7 +444,7 @@ export const getBonds = (card: { cardKeywords: string[] }): Bond[] => {
     if (keyword.includes("Bond")) {
       for (const [bond, value] of Object.entries(Bond)) {
         if (keyword.includes(value as string)) {
-          bonds.add(Bond[bond]);
+          bonds.add(Bond[bond as keyof typeof Bond]);
         }
       }
     }
@@ -440,7 +462,7 @@ export const getFlows = (card: { cardKeywords: string[] }): Flow[] => {
     if (keyword.includes("Flow")) {
       for (const [flow, value] of Object.entries(Flow)) {
         if (keyword.includes(value as string)) {
-          flows.add(Flow[flow]);
+          flows.add(Flow[flow as keyof typeof Flow]);
         }
       }
     }
@@ -458,7 +480,7 @@ export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
     if (keyword.includes("Fusion")) {
       for (const [fusion, value] of Object.entries(Fusion)) {
         if (keyword.includes(value as string)) {
-          fusions.add(Fusion[fusion]);
+          fusions.add(Fusion[fusion as keyof typeof Fusion]);
         }
       }
     }
@@ -531,6 +553,7 @@ export const getRarity = (rarities: Rarity[]): Rarity => {
     rarity = Rarity.Marvel;
   }
 
+  // @ts-ignore
   return rarity;
 };
 
@@ -574,7 +597,7 @@ export const getTypeSubtypeAndMetatype = (card: {
   const types: Type[] = [];
   for (const [typeKey, typeValue] of Object.entries(Type)) {
     if (rawTypes.includes(typeValue as string)) {
-      types.push(Type[typeKey]);
+      types.push(Type[typeKey as keyof typeof Type]);
     }
   }
 
@@ -584,7 +607,7 @@ export const getTypeSubtypeAndMetatype = (card: {
       subtypeEnum,
     ).reverse()) {
       if (rawTypes.includes(subTypeEnumValue as string)) {
-        subtypes.push(subtypeEnum[subtypeEnumKey]);
+        subtypes.push(subtypeEnum[subtypeEnumKey as keyof typeof Subtype]);
       }
     }
   }
@@ -595,7 +618,7 @@ export const getTypeSubtypeAndMetatype = (card: {
       metatypeEnum,
     ).reverse()) {
       if (rawTypes.includes(metatypeEnumValue as string)) {
-        metatypes.push(metatypeEnum[metatypeEnumKey]);
+        metatypes.push(metatypeEnum[metatypeEnumKey as keyof typeof Metatype]);
       }
     }
   }

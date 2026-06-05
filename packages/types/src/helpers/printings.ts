@@ -364,7 +364,10 @@ export const getDefaultPrinting = (
       const hasImage = !!image;
       const isWhiteBorder = image?.includes("HP");
       const isCardBack = image?.includes("BACK");
-      const shouldConsiderPrinting = hasImage && !isWhiteBorder && !isCardBack;
+      const isAMessyImageName =
+        (image || "").length > 10 || image?.includes("width");
+      const shouldConsiderPrinting =
+        hasImage && !isWhiteBorder && !isCardBack && !isAMessyImageName;
 
       if (shouldConsiderPrinting) {
         if (!firstImage) {

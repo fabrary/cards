@@ -14,7 +14,6 @@ import {
   getStringIfNotNumber,
   getTraits,
   getTypeSubtypeAndMetatype,
-  sortPrintingsByReleaseOrder,
 } from "../Shared";
 import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import {
@@ -680,8 +679,6 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     });
     printings.push(printing6);
   }
-
-  printings.sort(sortPrintingsByReleaseOrder);
 
   const printingsOverride: Printing[] = [];
   if (card.name === "Inner Chi") {
