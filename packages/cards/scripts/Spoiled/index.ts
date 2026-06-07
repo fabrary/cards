@@ -52,7 +52,7 @@ const parsedSpoiledPromoAndGemCards = (
     // ...parseCSV(spoiledPromoCardsFile),
     // ...parseCSV(spoiledGEMCardsFile),
     // ...parseCSV(spoiledSAGECardsFile),
-    // ...parseCSV(spoiledTournamentPackCardsFile),
+    ...parseCSV(spoiledTournamentPackCardsFile),
   ] as ParsedCard[]
 )
   .filter((card) => !!card.name)
