@@ -3,22 +3,33 @@ import tcgplayerProductFile from "../Released/card.json";
 import { SourceJSONCard } from "../Released/parser";
 const tcgplayerProductInfo = tcgplayerProductFile as SourceJSONCard[];
 
+interface TCGplayer {
+  productId: string;
+  url: string;
+}
+
+import tcgplayerOverrideFile from "./printings-with-tcgplayer.json";
+const tcgplayerOverrides = tcgplayerOverrideFile as {
+  [key: string]: {
+    [key: string]: TCGplayer;
+  };
+};
+
 const FOILING_OVERRIDES: { [key: string]: string } = {
   C: Foiling.Cold,
   G: Foiling.Gold,
   R: Foiling.Rainbow,
 };
 
-interface TCGplayer {
-  productId: string;
-  url: string;
-}
 export const getTCGplayerInfoForAddedPrinting = (
+  cardIdentifier: string,
   card: Card,
   printing: Printing,
 ): TCGplayer | undefined => {
+  let tcgplayerData: TCGplayer | undefined;
+
   if (!!printing.tcgplayer?.productId && !!printing.tcgplayer?.url) {
-    return printing.tcgplayer as TCGplayer;
+    tcgplayerData = printing.tcgplayer as TCGplayer;
   } else {
     const matchingTCGPSourceCard = tcgplayerProductInfo.find(
       ({ name, pitch }) => {
@@ -92,13 +103,25 @@ export const getTCGplayerInfoForAddedPrinting = (
         matchingPrinting.tcgplayer_product_id &&
         matchingPrinting.tcgplayer_url
       ) {
-        return {
+        tcgplayerData = {
           productId: matchingPrinting.tcgplayer_product_id,
           url: matchingPrinting.tcgplayer_url,
         };
       }
     }
   }
+
+  if (!tcgplayerData) {
+    const overrideData = getTCGPlayerInfoFromOverrides(
+      cardIdentifier,
+      printing.print,
+    );
+    if (overrideData) {
+      tcgplayerData = overrideData;
+    }
+  }
+
+  return tcgplayerData;
 };
 
 export const getTCGPlayerInfoForRawSpoilerPrinting = (card: {
@@ -115,4 +138,17 @@ export const getTCGPlayerInfoForRawSpoilerPrinting = (card: {
   );
 
   return matchingTCGPSourceCard;
+};
+
+export const getTCGPlayerInfoFromOverrides = (
+  cardIdentifier: string,
+  print: string,
+): TCGplayer | undefined => {
+  const cardOverrides = tcgplayerOverrides[cardIdentifier];
+  if (cardOverrides) {
+    const printOverride = cardOverrides[print];
+    if (printOverride && !!printOverride.productId && !!printOverride.url) {
+      return printOverride;
+    }
+  }
 };

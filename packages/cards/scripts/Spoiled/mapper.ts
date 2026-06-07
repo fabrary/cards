@@ -41,7 +41,10 @@ import {
 
 import { SourceJSONCard } from "../Released/parser";
 import { getBannedAndLegalFormats } from "../Shared/legality";
-import { getTCGPlayerInfoForRawSpoilerPrinting } from "../Shared/tcgplayer";
+import {
+  getTCGPlayerInfoForRawSpoilerPrinting,
+  getTCGPlayerInfoFromOverrides,
+} from "../Shared/tcgplayer";
 
 const getArtists = (card: ParsedCard): string[] => {
   const { artists, artists2 } = card;
@@ -112,6 +115,7 @@ interface TCGplayer {
   url: string;
 }
 const getTCGplayerInfo = (
+  cardIdentifier: string,
   card: ParsedCard,
   {
     foilingString,
@@ -120,6 +124,7 @@ const getTCGplayerInfo = (
     tcgplayerProductId,
     tcgplayerUrl,
   }: PrintingInput,
+  print: string,
 ): TCGplayer | undefined => {
   let tcgplayer: TCGplayer | undefined;
 
@@ -197,6 +202,13 @@ const getTCGplayerInfo = (
     }
   }
 
+  if (!tcgplayer) {
+    const overrideData = getTCGPlayerInfoFromOverrides(cardIdentifier, print);
+    if (overrideData) {
+      tcgplayer = overrideData;
+    }
+  }
+
   return tcgplayer;
 };
 
@@ -212,7 +224,11 @@ interface PrintingInput {
   tcgplayerProductId?: string;
   tcgplayerUrl?: string;
 }
-const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
+const getPrinting = (
+  cardIdentifier: string,
+  card: ParsedCard,
+  input: PrintingInput,
+): Printing => {
   const {
     artists,
     isExpansionSlot,
@@ -241,8 +257,6 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
   }
   treatments.sort();
 
-  const tcgplayer = getTCGplayerInfo(card, input);
-
   let image;
   if (imageUrl) {
     let parsedUrl = imageUrl
@@ -263,6 +277,7 @@ const getPrinting = (card: ParsedCard, input: PrintingInput): Printing => {
   }
 
   const print = getPrint({ identifier, image, foiling, set, treatments });
+  const tcgplayer = getTCGplayerInfo(cardIdentifier, card, input, print);
 
   return {
     artists,
@@ -416,7 +431,7 @@ const innerChiPrintings: {
   { identifier: "SEN035", setString: "SEN", properties: [{}] },
 ];
 
-const getPrintings = (card: ParsedCard): Printing[] => {
+const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
   const printings: Printing[] = [];
 
   const {
@@ -478,7 +493,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     tcgplayerUrl6,
   } = card;
 
-  const printing1 = getPrinting(card, {
+  const printing1 = getPrinting(cardIdentifier, card, {
     artists,
     isExpansionSlot: expansionSlot,
     foilingString: foiling,
@@ -516,7 +531,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const shouldAddRainbowPrinting =
       isMST && isCommonRareOrMajestic && !isEquipment && isNotReprint;
     if (shouldAddRainbowPrinting) {
-      const rainbowPrinting = getPrinting(card, {
+      const rainbowPrinting = getPrinting(cardIdentifier, card, {
         artists,
         foilingString: "R",
         identifier: identifier || identifiers[0],
@@ -531,7 +546,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
     const shouldAddColdPrinting =
       isMST && isCommonRareOrMajestic && isEquipment && isNotReprint;
     if (shouldAddColdPrinting) {
-      const coldPrinting = getPrinting(card, {
+      const coldPrinting = getPrinting(cardIdentifier, card, {
         artists,
         foilingString: "C",
         identifier: identifier || identifiers[0],
@@ -550,7 +565,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         ? identifiers[1]
         : identifiers[0];
     const setIdentifier = identifierFor2.slice(0, 3);
-    const printing2 = getPrinting(card, {
+    const printing2 = getPrinting(cardIdentifier, card, {
       artists: artists2,
       foilingString: foiling2,
       identifier: identifierFor2,
@@ -576,7 +591,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         ? identifiers[2]
         : identifiers[0];
     const setIdentifier = identifierFor3.slice(0, 3);
-    const printing3 = getPrinting(card, {
+    const printing3 = getPrinting(cardIdentifier, card, {
       artists: artists3,
       foilingString: foiling3,
       identifier: identifierFor3,
@@ -604,7 +619,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         ? identifiers[3]
         : identifiers[0];
     const setIdentifier = identifierFor4.slice(0, 3);
-    const printing4 = getPrinting(card, {
+    const printing4 = getPrinting(cardIdentifier, card, {
       artists: artists4,
       foilingString: foiling4,
       identifier: identifierFor4,
@@ -631,7 +646,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         ? identifiers[4]
         : identifiers[0];
     const setIdentifier = identifierFor5.slice(0, 3);
-    const printing5 = getPrinting(card, {
+    const printing5 = getPrinting(cardIdentifier, card, {
       artists: artists5,
       foilingString: foiling5,
       identifier: identifierFor5,
@@ -659,7 +674,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         ? identifiers[5]
         : identifiers[0];
     const setIdentifier = identifierFor6.slice(0, 3);
-    const printing6 = getPrinting(card, {
+    const printing6 = getPrinting(cardIdentifier, card, {
       artists: artists6,
       foilingString: foiling6,
       identifier: identifierFor6,
@@ -695,7 +710,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         imageSuffix,
         treatmentString,
       } of properties) {
-        const printing: Printing = getPrinting(card, {
+        const printing: Printing = getPrinting(cardIdentifier, card, {
           ...basePrinting,
           imageUrl: `${identifier}_BACK${imageSuffix || ""}.png`,
           ...(foilingString ? { foilingString } : {}),
@@ -808,8 +823,10 @@ const getYoung = (card: ParsedCard): boolean | null => {
 };
 
 const getCardData = (card: ParsedCard): Card => {
+  const cardIdentifier = getCardIdentifier(card);
+
   const { metatypes, types, subtypes } = getTypeSubtypeAndMetatype(card);
-  const printings = getPrintings(card);
+  const printings = getPrintings(cardIdentifier, card);
 
   const setIdentifiers = [...card.identifiers];
   setIdentifiers.sort();
@@ -817,7 +834,6 @@ const getCardData = (card: ParsedCard): Card => {
   const { rarities, rarity } = getParsedRarities(card);
 
   // const bannedFormats = getBannedFormats(card);
-  const cardIdentifier = getCardIdentifier(card);
   const classes = getClasses(card);
   const hero = getHeroFromCard(card) as Hero;
   const keywords = getKeywords(card);

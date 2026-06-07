@@ -274,6 +274,7 @@ if (shouldAddRainbowFoilsToLatestSet) {
 
       const print = getPrint(rainbowFoilPrinting);
       const tcgplayer = getTCGplayerInfoForAddedPrinting(
+        card.cardIdentifier,
         card,
         rainbowFoilPrinting,
       );

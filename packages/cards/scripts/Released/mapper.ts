@@ -42,6 +42,7 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 import { getBannedAndLegalFormats } from "../Shared/legality";
+import { getTCGPlayerInfoFromOverrides } from "../Shared/tcgplayer";
 
 const getClasses = (card: ParsedCard): Class[] => {
   const classes: Class[] = [];
@@ -104,7 +105,7 @@ const setEditionMapping = {
   [SetEdition.F]: ReleaseEdition.First,
   [SetEdition.U]: ReleaseEdition.Unlimited,
 };
-const getPrintings = (card: ParsedCard): Printing[] => {
+const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
   const images: Printing[] = [];
   const { printings } = card;
   for (const {
@@ -173,6 +174,9 @@ const getPrintings = (card: ParsedCard): Printing[] => {
 
     const isPrintExcluded = excludedPrintings.includes(print);
 
+    const tcgplayerData =
+      tcgplayer || getTCGPlayerInfoFromOverrides(cardIdentifier, print);
+
     if (!isPrintExcluded) {
       images.push({
         artists: correctedArtists,
@@ -184,7 +188,7 @@ const getPrintings = (card: ParsedCard): Printing[] => {
         rarity,
         print,
         set,
-        ...(tcgplayer ? { tcgplayer } : {}),
+        ...(tcgplayerData ? { tcgplayer: tcgplayerData } : {}),
         ...(treatment ? { treatment } : {}),
         ...(treatments?.length ? { treatments } : {}),
       });
@@ -269,8 +273,10 @@ const getYoung = (card: ParsedCard): boolean | null => {
 };
 
 const getCardData = (card: ParsedCard): Card => {
+  const cardIdentifier = getCardIdentifier(card);
+
   const { metatypes, subtypes, types } = getTypeSubtypeAndMetatype(card);
-  const printings = getPrintings(card);
+  const printings = getPrintings(cardIdentifier, card);
 
   const artists = card.artists
     .sort()
@@ -285,8 +291,6 @@ const getCardData = (card: ParsedCard): Card => {
   setIdentifiers.sort();
 
   const { rarity, rarities } = getRarities(card);
-
-  const cardIdentifier = getCardIdentifier(card);
 
   const defaultPrinting = getDefaultPrinting(
     { name: card.name, cardIdentifier },

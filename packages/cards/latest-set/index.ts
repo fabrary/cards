@@ -8857,7 +8857,10 @@ When this hits, create a Lightning Flow token.`,
       print: "OMN040-Cold-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
-      
+      tcgplayer: {
+            productId: "696803",
+            url: "https://www.tcgplayer.com/product/696803?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
