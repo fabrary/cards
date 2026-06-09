@@ -405,6 +405,7 @@ export const ADDITIONS = [
   "rathe",
   "raydn",
   "razzle",
+  "reaving",
   "recharge",
   "redback",
   "redspine",

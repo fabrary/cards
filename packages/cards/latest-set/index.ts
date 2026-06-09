@@ -17910,8 +17910,8 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       rarity: Rarity.Majestic,
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
-            productId: "692542",
-            url: "https://www.tcgplayer.com/product/692542?Language=English&Printing=Cold+Foil"
+            productId: "696464",
+            url: "https://www.tcgplayer.com/product/696464?Language=English&Printing="
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],

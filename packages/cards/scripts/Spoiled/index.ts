@@ -49,7 +49,7 @@ const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
 const parsedSpoiledPromoAndGemCards = (
   [
-    // ...parseCSV(spoiledPromoCardsFile),
+    ...parseCSV(spoiledPromoCardsFile),
     // ...parseCSV(spoiledGEMCardsFile),
     // ...parseCSV(spoiledSAGECardsFile),
     ...parseCSV(spoiledTournamentPackCardsFile),
