@@ -188,3 +188,22 @@ describe("Treatments are a superset of treatment", () => {
     }
   });
 });
+
+describe("TCGplayer printings are complete", () => {
+  it.each(
+    cardsToPublish.map((card) => [
+      `${card.name} (${card.cardIdentifier}) ${card.printings.map(({ print }) => print).join(",")}`,
+      card,
+    ]),
+  )("%s", (_, card) => {
+    const { printings } = card as unknown as Card;
+    for (const { tcgplayer } of printings) {
+      if (!!tcgplayer) {
+        const printing = new URL(tcgplayer?.url || "").searchParams.get(
+          "Printing",
+        );
+        expect(printing).toBeTruthy();
+      }
+    }
+  });
+});
