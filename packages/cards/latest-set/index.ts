@@ -17911,7 +17911,7 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       set: Release.OmensOfTheThirdAge,
       tcgplayer: {
             productId: "696464",
-            url: "https://www.tcgplayer.com/product/696464?Language=English&Printing="
+            url: "https://www.tcgplayer.com/product/696464?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
