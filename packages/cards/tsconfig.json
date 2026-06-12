@@ -5,8 +5,8 @@
     "declaration": true,
     "isolatedModules": true,
     "lib": ["ES2021"],
-    "module": "NodeNext",
-    "moduleResolution": "nodenext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "outDir": "dist",
     "resolveJsonModule": true,
     "rootDir": "src",
@@ -14,7 +14,11 @@
     "target": "ES6"
   },
   "ts-node": {
-    "transpileOnly": true
+    "transpileOnly": true,
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "nodenext"
+    }
   },
   "include": ["src"]
 }

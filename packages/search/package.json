@@ -2,22 +2,49 @@
   "name": "@flesh-and-blood/search",
   "description": "TypeScript search engine for Flesh and Blood cards",
   "version": "3.9.13",
-  "main": "dist/index.js",
+  "type": "module",
+  "sideEffects": false,
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./abbreviations": {
+      "types": "./dist/abbreviations.d.ts",
+      "import": "./dist/abbreviations.js"
+    },
+    "./shorthands": {
+      "types": "./dist/shorthands.d.ts",
+      "import": "./dist/shorthands.js"
+    },
+    "./memes": {
+      "types": "./dist/memes.d.ts",
+      "import": "./dist/memes.js"
+    }
+  },
   "scripts": {
     "prebuild": "rm -rf dist",
-    "build": "esbuild src/index.ts --outdir=dist --external:*.test.ts --external:fab-cards --bundle --minify --platform=node --target=es6",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:esm": "esbuild src/*.ts --outdir=dist --format=esm --platform=neutral --target=es2020",
+    "build:cjs": "esbuild src/index.ts --outfile=dist/index.cjs --bundle --minify --format=cjs --platform=node --target=es2020 --external:@flesh-and-blood/types --external:fuse.js",
     "postbuild": "tsc --declaration && npm test",
     "test": "jest",
     "test:specific": "jest -t 'Matching printing from treatment'",
     "full": "npm i && npm run build"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "^3.9.7",
     "fuse.js": "^6.6.2"
+  },
+  "peerDependencies": {
+    "@flesh-and-blood/types": "^3.9.7"
   },
   "devDependencies": {
     "@flesh-and-blood/cards": "file:../cards",
+    "@flesh-and-blood/types": "^3.9.7",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",
     "esbuild": "^0.19.10",
