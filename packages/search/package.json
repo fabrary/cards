@@ -40,7 +40,7 @@
     "fuse.js": "^6.6.2"
   },
   "peerDependencies": {
-    "@flesh-and-blood/types": "^3.9.7"
+    "@flesh-and-blood/types": "^4.0.0"
   },
   "devDependencies": {
     "@flesh-and-blood/cards": "file:../cards",
