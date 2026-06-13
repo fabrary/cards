@@ -10,11 +10,12 @@ import {
   setIdentifierToSetMappings,
   setToSetIdentifierMappings,
 } from "@flesh-and-blood/types";
-import { getAbbreviation } from "./abbreviations";
-import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters";
-import { multiWordShorthands, singleWordShorthands } from "./shorthands";
-import { PUNCTUATION } from "./constants";
-import { getCardByName, getRelatedCardsByName } from ".";
+import { getAbbreviation } from "./abbreviations.js";
+import { getExcludedMetaFilters, getMetaFilters } from "./metaFilters.js";
+import { multiWordShorthands, singleWordShorthands } from "./shorthands.js";
+import { PUNCTUATION } from "./constants.js";
+import { getCardByName } from "./helpers.js";
+import { getRelatedCardsByName } from "./related.js";
 
 export interface AppliedFilter {
   filterToPropertyMapping: FilterToPropertyMapping;

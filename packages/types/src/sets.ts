@@ -1,4 +1,4 @@
-import { Class, Hero, Rarity, Release, Talent } from "./interfaces";
+import { Class, Hero, Rarity, Release, Talent } from "./interfaces.js";
 
 export enum Language {
   English = "English",

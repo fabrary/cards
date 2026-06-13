@@ -1,5 +1,5 @@
 import { Card } from "@flesh-and-blood/types";
-import { PUNCTUATION } from "./constants";
+import { PUNCTUATION } from "./constants.js";
 
 export const getCardByName = (name: string, cards: Card[]) => {
   let card = cards.find((card) => getCleanText(card.name) === name);

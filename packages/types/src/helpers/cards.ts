@@ -1,4 +1,4 @@
-import { Card, Type, Keyword, Subtype, Trait } from "../interfaces";
+import { Card, Type, Keyword, Subtype, Trait } from "../interfaces.js";
 
 export const getCardIdentifier = (
   card: {

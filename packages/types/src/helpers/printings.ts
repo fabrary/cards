@@ -4,8 +4,8 @@ import {
   Treatment,
   Foiling,
   ReleaseEdition,
-} from "../interfaces";
-import { fullSetIdentifiers } from "../sets";
+} from "../interfaces.js";
+import { fullSetIdentifiers } from "../sets.js";
 
 const identifierExtensionMapping: { [key: string]: string } = {
   // [Release.RhinarBlitzDeck]: "-Blitz",

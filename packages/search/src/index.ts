@@ -1,10 +1,10 @@
-export { default } from "./search";
+export { default } from "./search.js";
 
-export * from "./abbreviations";
-export * from "./constants";
-export * from "./filters";
-export * from "./helpers";
-export * from "./metaFilters";
-export * from "./related";
-export * from "./search";
-export * from "./shorthands";
+export * from "./abbreviations.js";
+export * from "./constants.js";
+export * from "./filters.js";
+export * from "./helpers.js";
+export * from "./metaFilters.js";
+export * from "./related.js";
+export * from "./search.js";
+export * from "./shorthands.js";

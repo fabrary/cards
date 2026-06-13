@@ -1,5 +1,5 @@
 import { Format, Hero, Talent } from "@flesh-and-blood/types";
-import { PUNCTUATION } from "./constants";
+import { PUNCTUATION } from "./constants.js";
 
 export enum FilterProperty {
   BannedFormats = "bannedFormats",

@@ -13,11 +13,11 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
-import { PUNCTUATION } from "./constants";
-import { AppliedFilter, getKeywordsAndAppliedFiltersFromText } from "./filters";
-import { memes } from "./memes";
-import { getNormalizedText } from "./helpers";
-import { FilterProperty } from "./metaFilters";
+import { PUNCTUATION } from "./constants.js";
+import { AppliedFilter, getKeywordsAndAppliedFiltersFromText } from "./filters.js";
+import { memes } from "./memes.js";
+import { getNormalizedText } from "./helpers.js";
+import { FilterProperty } from "./metaFilters.js";
 
 export interface SearchCard extends DoubleSidedCard {
   matchingPrintings?: Printing[];
