@@ -160,6 +160,7 @@ export const ADDITIONS = [
   "dreamstate",
   "dromai",
   "dunebreaker",
+  "durendal",
   "duskbane",
   "duskblade",
   "dustup",

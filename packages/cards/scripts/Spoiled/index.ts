@@ -8,10 +8,6 @@ import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
 const spoiledSetCardsFileAOL = `${__dirname}/Flesh and Blood Spoiler Card Data - AOL.csv`;
-const spoiledSetCardsFileAPR = `${__dirname}/Flesh and Blood Spoiler Card Data - APR.csv`;
-const spoiledSetCardsFileARR = `${__dirname}/Flesh and Blood Spoiler Card Data - ARR.csv`;
-const spoiledSetCardsFileAVS = `${__dirname}/Flesh and Blood Spoiler Card Data - AVS.csv`;
-const spoiledSetCardsFileBDD = `${__dirname}/Flesh and Blood Spoiler Card Data - BDD.csv`;
 const spoiledSetCardsFileIAR = `${__dirname}/Flesh and Blood Spoiler Card Data - IAR.csv`;
 const spoiledSetCardsFileMPW = `${__dirname}/Flesh and Blood Spoiler Card Data - MPW.csv`;
 const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
@@ -28,12 +24,8 @@ const overrideCards = mapCSV(parsedOverrideCards);
 const parsedSpoiledSetCards: ParsedCard[] = (
   [
     // ...parseCSV(spoiledSetCardsFileAOL),
-    // ...parseCSV(spoiledSetCardsFileAPR),
-    // ...parseCSV(spoiledSetCardsFileARR),
-    // ...parseCSV(spoiledSetCardsFileAVS),
-    // ...parseCSV(spoiledSetCardsFileBDD),
     // ...parseCSV(spoiledSetCardsFileIAR),
-    // ...parseCSV(spoiledSetCardsFileMPW),
+    ...parseCSV(spoiledSetCardsFileMPW),
   ] as ParsedCard[]
 )
   .filter((card) => !!card.name)
