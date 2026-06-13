@@ -1,184 +1,55 @@
-# Flesh and Blood cards
+# @flesh-and-blood/cards
 
-- [Overview & installation](#overview-and-installation)
-- [Card interfaces](#card-interfaces)
-- [Enums](#enums)
-- [Working with this project](#working-with-this-project)
+Every **Flesh and Blood** card as a single `cards: Card[]` export, generated from source data. Card
+objects are typed by [`@flesh-and-blood/types`](../types).
 
-# 8.0 breaking changes
+## Installation
 
-- `card.images` has been deprecated in favor of `card.printings`
-- `defaultImageName` has been renamed `defaultImage` for brevity
-- `specialImageName` has been renamed `specialImage` for brevity
+```bash
+npm i @flesh-and-blood/cards @flesh-and-blood/types
+```
 
-# 7.0 breaking changes
+Published as **dual ESM + CJS**. Note: the dataset is large (~12 MB) — many consumers load it at build
+or server time rather than shipping it to the browser.
 
-- `card.rarity` has been deprecated in favor of `card.rarities`
-
-## Overview and installation
-
-A library of all Flesh and Blood cards, available as a bundled TypeScript file with matching interfaces. Source data comes from the amazing [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards) repository maintained by [Tyler Luce](https://github.com/luceleaftea) - all credit goes to him, and all errors are probably added by me in this project 😅.
-
-To install run `npm i --save @flesh-and-blood/cards`.
-
-Access the card data in your project:
+## Usage
 
 ```ts
 import { cards } from "@flesh-and-blood/cards";
+import type { Card } from "@flesh-and-blood/types";
 
-cards.forEach((card) => {
+cards.forEach((card: Card) => {
   // do stuff with the card data
 });
 ```
 
-## Card interfaces
+Card data is sourced from the amazing
+[the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards) project by
+[Tyler Luce](https://github.com/luceleaftea) — all credit to him; any errors are probably mine 😅.
 
-**`Card`** contains all of the fields that could show up for any particular card. Required fields can be found on every card, while optional fields may or may not exist on any given card.
+## The data pipeline
 
-### Required
+`src/index.ts` is a **~12 MB generated file that is committed — never hand-edit it.** Regenerate
+everything with `npm run full`, which runs end to end.
 
-| Field          | Data type            | Examples                                   |
-| -------------- | -------------------- | ------------------------------------------ |
-| artists        | `string` array       | `[ "Riordan Delmiro" ]`                    |
-| cardIdentifier | `string`             | `"snatch-red"`, `"aether-wildfire-red"`    |
-| classes        | `Class` enum array   | `["Generic"]`, `["Warrior","Wizard"]`      |
-| defaultImage   | `string`             | `"1HP001.width-450"`                       |
-| printings      | `Printing` array     | see **`Printing`**                         |
-| name           | `string`             | `"Rain Razors"`, `"Pummel"`                |
-| rarities       | `Rarity` enum array  | `["Super Rare"]`, `["Token", "Majestic"]`  |
-| setIdentifiers | `string` array       | `[ "1HP009", "CRU006" ]`                   |
-| sets           | `Release` enum array | `[ "History Pack 1", "Crucible of War" ]`  |
-| specialImage   | `string`             | `"1HP001.width-450"`                       |
-| subtypes       | `Subtype` enum array | `["1H", "Dagger"]`, `["Aura"]`             |
-| types          | `Type` enum array    | `["Action"]`, `["Hero"]`                   |
-| typeText       | `string`             | `"Elemental Ranger Action – Arrow Attack"` |
+### transform — `scripts/index.ts`
 
-### Optional
+Reads the source data, computes derived fields, and writes the output:
 
-| Field                      | Data type            | Examples                             |
-| -------------------------- | -------------------- | ------------------------------------ |
-| cost                       | `number`             | `0`, `10`                            |
-| defense                    | `number`             | `3`, `4`                             |
-| functionalText             | `string`             | `"If Snatch hits, draw a card."`     |
-| fusions                    | `Fusion` enum array  | `[ "Earth", "Ice" ]`                 |
-| hero                       | `Hero` enum          | `"Rhinar"`, `"Dori"`                 |
-| intellect                  | `number`             | `3`, `4`                             |
-| isCardBack                 | `boolean`            | `true`                               |
-| keywords                   | `Keyword` enum array | `[ "Boost" ]`                        |
-| life                       | `number`             | `18`, `40`                           |
-| oppositeSideCardIdentifier | `string`             | `"invoke-kyloria-red"`, `"tomeltai"` |
-| pitch                      | `number`             | `1`, `2`, `3`                        |
-| power                      | `number`             | `3`, `14`                            |
-| restrictedFormats          | `Format` enum array  | `[ "Blitz" ]`                        |
-| specialCost                | `string`             | `"XX"`, `"3X"`                       |
-| specialDefense             | `string`             | `"*"`                                |
-| specialPower               | `string`             | `"*"`                                |
-| specializations            | `Hero` enum array    | `["Dromai","Fai"]`                   |
-| talents                    | `Talent` enum array  | `[ "Draconic" ]`                     |
-| young                      | `boolean`            | `true`                               |
+1. **Spoiled** cards from `scripts/Spoiled/*.csv` (Google Sheets exports, one per set), parsed/mapped by `scripts/Spoiled/{parser,mapper}.ts`.
+2. **Released** cards from `scripts/Released/card.json` + `set.json` (sourced from the-fab-cube/flesh-and-blood-cards), parsed/mapped by `scripts/Released/{parser,mapper}.ts`.
+3. **Combine & dedupe** — a card re-released in a new set merges its printings, sets, rarities, and legality — then compute derived fields (legality, meta, nicknames, shorthands, short name, TCGplayer info) via `scripts/Shared/*`.
+4. `scripts/writer.ts` writes `src/index.ts` and `latest-set/index.ts`.
 
-**`Printing`** contains information about the different printings a card has had (e.g. different sets, foilings)
+Fix data in the **source**, not the generated output. Overrides and edge cases live in
+`scripts/Spoiled/overrides.csv` and `scripts/Shared/` (artist overrides, excludes, legality, shorthands,
+TCGplayer data, cardvault image maps).
 
-| Field      | Data type                         | Examples                            |
-| ---------- | --------------------------------- | ----------------------------------- |
-| edition    | `string` of `ReleaseEdition` enum | `"Alpha"`, `"Unlimited"`            |
-| foiling    | `string` of `Foiling` enum        | `"Cold"`, `"Rainbow"`               |
-| identifier | `string`                          | `"1HP001"`                          |
-| image      | `string`                          | `"1HP001.width-450"`                |
-| set        | `string` of `Release` enum        | `"Dynasty"`, `"Uprising"`           |
-| treatment  | `string` of `Treatment` enum      | `"Alternate Art"`, `"Extended Art"` |
+### build / new / tts / sitemap
 
-## Enums
-
-**`Class`**
-
-```ts
-"NotClassed", "Generic", "Adjudicator", "Bard", "Brute", "Guardian", "Illusionist", "Mechanologist", "Merchant", "Ninja", "Ranger", "Runeblade", "Shapeshifter", "Warrior", "Wizard",
-```
-
-<br/>
-
-**`Format`**
-
-```ts
-"Blitz", "Clash", "Classic Constructed", "Commoner",
-```
-
-<br/>
-
-**`Fusion`**
-
-```ts
-"Earth", "Ice", "Lightning",
-```
-
-<br/>
-
-**`Rarity`**
-
-```ts
-"Token", "Common", "Rare", "Super Rare", "Majestic", "Legendary", "Fabled", "Promo",
-```
-
-<br/>
-
-**`Release`**
-
-```ts
-// Full sets
-"Arcane Rising", "Crucible of War", "Dynasty", "Everfest", "History Pack 1", "Monarch", "Tales of Aria", "Uprising", "Welcome to Rathe",
-
-// Hero/blitz decks
-"Boltyn Blitz Deck", "Briar Blitz Deck", "Bravo Blitz Deck", "Chane Blitz Deck", "Classic Battles: Rhinar vs Dorinthea", "Dorinthea Hero Deck", "Ira Welcome Deck", "Katsu Hero Deck", "LeviaBlitzDeck", "Lexi Blitz Deck", "Oldhim Blitz Deck", "Prism Blitz Deck", "Rhinar Hero Deck",
-
-// One-offs
-"Promos",
-```
-
-<br/>
-
-**`Talent`**
-
-```ts
-"Draconic", "Earth", "Elemental", "Ice", "Light", "Lightning", "Royal", "Shadow",
-```
-
-<br/>
-
-**`Type`**
-
-```ts
-"Action", "Attack Action", "Attack Reaction", "Defense Reaction", "Equipment", "Hero", "Instant", "Mentor", "Resource", "Token", "Weapon",
-```
-
-**`Hero`**
-
-```ts
-"Arakni", "Azalea", "Benji", "Boltyn", "Bravo", "Briar", "Chane", "Dash", "Data Doll", "Dorinthea", "Emperor", "Genis Wotchuneed", "Ira", "Iyslander", "Kano", "Kassai", "Katsu", "Kavdaen", "Kayo", "Levia", "Lexi", "Oldhim", "Prism", "Rhinar", "Ruu’di", "Shiyana", "Taylor", "Valda", "Viserai", "Yorick",
-```
-
-<br/>
-
-**`Keyword`**
-
-```ts
-"Arcane Barrier", "Battleworn", "Blade Break", "Blood Debt", "Boost", "Channel", "Charge", "Combo", "Crush", "Dominate", "Essence", "Freeze", "Fusion", "Go Again", "Heave", "Intimidate", "Legendary", "Mentor", "Negate", "Opt", "Phantasm", "Reload", "Reprise", "Specialization", "Spectra", "Spellvoid", "Temper", "Thaw", "Unfreeze",
-```
-
-## Working with this project
-
-### Card data
-
-- [src/cards.csv](src/cards.csv) is the source of truth for all generated data. The data is managed in Google Sheets and sourced from [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards).
-
-### Data transformations
-
-There are three steps involved in transforming the `.tsv` source data into typed `.ts` code - executed via `npm run transform`.
-
-1. [src/parser.ts](src/parser.ts) reads from the `.tsv` file and converts the data into JavaScript objects (performing basic steps like converting comma-delimited lists into arrays)
-1. [src/mapper.ts](src/mapper.ts) takes the parsed card data and transforms it to match the interfaces in [src/interfaces.ts](src/interfaces.ts)
-1. [src/writer.ts](src/writer.ts) creates `.ts` files containing the card information and all types
-
-### Bundling the library
-
-To generate the distributed package code run `npm run build` after transforming the data.
+| Step    | Command           | What it does                                                                               |
+| ------- | ----------------- | ------------------------------------------------------------------------------------------ |
+| build   | `npm run build`   | `build:cjs` (`dist/index.js`) + `build:esm` (`dist/index.mjs`) + `tsc` declarations + jest |
+| new     | `npm run new`     | Report new/removed cards vs the last published version                                     |
+| tts     | `npm run tts`     | Generate Tabletop Simulator card data (`tts/tts.txt`)                                      |
+| sitemap | `npm run sitemap` | Generate `sitemap/sitemap-cards.xml`                                                       |
