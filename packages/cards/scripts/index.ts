@@ -27,6 +27,7 @@ import {
 import { getShorthands } from "./Shared/get-shorthands";
 import { getNicknames } from "./Shared/get-nicknames";
 import { getShortName } from "./Shared/get-short-names";
+import { getFirstReleaseDate } from "./Shared/get-first-release-date";
 import { getTCGplayerInfoForAddedPrinting } from "./Shared/tcgplayer";
 
 const outputDirectory = "src";
@@ -169,6 +170,7 @@ const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
 
   return {
     ...card,
+    firstReleaseDate: getFirstReleaseDate(card),
     legalFormats,
     legalHeroes,
     meta,

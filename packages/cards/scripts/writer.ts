@@ -72,7 +72,7 @@ const getPrintings = (printings: Printing[]) => {
         image,
         isExpansionSlot,
         oppositeImage,
-      }
+      },
     ) =>
       (printings += `{
         artists: [${artists.map((artist) => `"${artist}"`)}],
@@ -81,7 +81,7 @@ const getPrintings = (printings: Printing[]) => {
           ? `edition: ${getEnumValue(
               edition,
               "ReleaseEdition",
-              ReleaseEdition
+              ReleaseEdition,
             )},`
           : ``
       }${
@@ -111,12 +111,12 @@ const getPrintings = (printings: Printing[]) => {
           ? `treatments: [${getEnumValues(
               treatments,
               "Treatment",
-              Treatment
+              Treatment,
             )}],`
           : ``
       }
     },`),
-    ``
+    ``,
   );
 };
 
@@ -127,7 +127,7 @@ const getLegalOverrides = (legalOverrides: LegalOverride[]): string => {
     format: ${getEnumValue(format, "Format", Format)},
     heroes: [${getEnumValues(heroes, "Hero", Hero)}],
     }`),
-    ``
+    ``,
   );
 };
 
@@ -137,6 +137,7 @@ const generateCardTypeScript = (card: Card): String => {
     cardIdentifier: "${card.cardIdentifier}",
     classes: [${getEnumValues(card.classes, "Class", Class)}],
     defaultImage: "${card.defaultImage}",
+    firstReleaseDate: "${card.firstReleaseDate}",
     legalFormats: [${getEnumValues(card.legalFormats, "Format", Format)}],
     legalHeroes: [${getEnumValues(card.legalHeroes, "Hero", Hero)}],
     name: "${card.name}",
@@ -156,14 +157,14 @@ const generateCardTypeScript = (card: Card): String => {
         ? `bannedFormats: [${getEnumValues(
             card.bannedFormats,
             "Format",
-            Format
+            Format,
           )}],`
         : ``
     }${
-    card.bonds && card.bonds.length > 0
-      ? `bonds: [${getEnumValues(card.bonds, "Bond", Bond)}],`
-      : ``
-  }
+      card.bonds && card.bonds.length > 0
+        ? `bonds: [${getEnumValues(card.bonds, "Bond", Bond)}],`
+        : ``
+    }
     ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
     ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${
@@ -196,10 +197,10 @@ const generateCardTypeScript = (card: Card): String => {
         ? `meta: [${getEnumValues(card.meta, "Meta", Meta)}],`
         : ``
     }${
-    card.metatypes && card.metatypes.length > 0
-      ? `metatypes: [${getEnumValues(card.metatypes, "Metatype", Metatype)}],`
-      : ``
-  }
+      card.metatypes && card.metatypes.length > 0
+        ? `metatypes: [${getEnumValues(card.metatypes, "Metatype", Metatype)}],`
+        : ``
+    }
   ${
     card.nicknames && card.nicknames.length > 0
       ? `nicknames: [${getStringValues(card.nicknames)}],`
@@ -210,12 +211,12 @@ const generateCardTypeScript = (card: Card): String => {
         ? `oppositeSideCardIdentifier: \`${card.oppositeSideCardIdentifier}\`,`
         : ``
     }${
-    card.oppositeSideCardIdentifiers?.length
-      ? `oppositeSideCardIdentifiers: [${card.oppositeSideCardIdentifiers.map(
-          (id) => `"${id}"`
-        )}],`
-      : ``
-  }
+      card.oppositeSideCardIdentifiers?.length
+        ? `oppositeSideCardIdentifiers: [${card.oppositeSideCardIdentifiers.map(
+            (id) => `"${id}"`,
+          )}],`
+        : ``
+    }
     ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
     ${card.power || card.power === 0 ? `power: ${card.power},` : ``}
     ${
@@ -223,7 +224,7 @@ const generateCardTypeScript = (card: Card): String => {
         ? `restrictedFormats: [${getEnumValues(
             card.restrictedFormats,
             "Format",
-            Format
+            Format,
           )}],`
         : ``
     }
@@ -232,7 +233,7 @@ const generateCardTypeScript = (card: Card): String => {
         ? `shorthands: [${getEnumValues(
             card.shorthands,
             "Shorthand",
-            Shorthand
+            Shorthand,
           )}],`
         : ``
     }
@@ -247,7 +248,7 @@ const generateCardTypeScript = (card: Card): String => {
         ? `specializations: [${getEnumValues(
             card.specializations,
             "Hero",
-            Hero
+            Hero,
           )}],`
         : ``
     }
@@ -332,7 +333,7 @@ const generateTS = (cards: Card[]): string => {
   ${cardChunks
     .map((cards, chunk) => {
       return `const cards${chunk + 1}: Card[] = [${cards.map(
-        generateCardTypeScript
+        generateCardTypeScript,
       )}];`;
     })
     .join("\n")}

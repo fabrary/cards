@@ -76,6 +76,7 @@ describe("All required fields present", () => {
   )("%s", (_, card) => {
     const {
       defaultImage,
+      firstReleaseDate,
       legalFormats,
       legalHeroes,
       printings,
@@ -87,6 +88,7 @@ describe("All required fields present", () => {
     expect(defaultImage).toBeTruthy();
     expect(defaultImage?.toLowerCase()).not.toEqual("undefined");
     expect(defaultImage?.toLowerCase()).not.toEqual("/");
+    expect(firstReleaseDate).toBeTruthy();
     expect(legalFormats.length).toBeGreaterThanOrEqual(1);
     expect(legalHeroes.length).toBeGreaterThanOrEqual(1);
     expect(specialImage).toBeTruthy();

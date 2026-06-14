@@ -102,6 +102,9 @@ const exactSearches = [
 
   // References
   [19, "references:copper"],
+
+  // First release date
+  [236, "year:2019"],
 ];
 
 describe("Card search", () => {

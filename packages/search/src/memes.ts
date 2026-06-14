@@ -20,6 +20,7 @@ const fangsALot: Card = {
   cardIdentifier: "fangs-a-lot-blue",
   classes: [Class.Generic],
   defaultImage: "FNG000",
+  firstReleaseDate: "2022-06-02",
   functionalText: `If Fangs A Lot is put into your banished zone from your graveyard, instead put it into your hand.`,
   legalFormats: [],
   legalHeroes: [Hero.Kayo, Hero.Levia, Hero.Rhinar],

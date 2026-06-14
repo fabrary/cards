@@ -296,6 +296,12 @@ const treatmentFilter: FilterToPropertyMapping = {
   isNestedPropertyArray: true,
 };
 
+const yearFilter: FilterToPropertyMapping = {
+  property: "firstReleaseDate",
+  isString: true,
+  partialMatch: true,
+};
+
 export const filtersToCardPropertyMappings = {
   arcane: arcaneFilter,
   a: artistFilter,
@@ -368,6 +374,7 @@ export const filtersToCardPropertyMappings = {
   var: treatmentFilter,
   variation: treatmentFilter,
   x: typeTextFilter,
+  year: yearFilter,
 };
 
 const punctuationOverrides = [
