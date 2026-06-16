@@ -5503,6 +5503,7 @@ OSCCardDB = {
   ["MPW012"] = { name = "Valiant Dynamo", text = "At the beginning of your end phase, if you've attacked 2 or more times with weapons this turn, you may remove a -1{d} counter from this.\n\n**Battleworn**", keywords = "Battleworn", types = "Equipment"},
   ["MPW026"] = { name = "Sharpening Sparks (1)", text = "Target sword attack gets +2{p} and \"When this hits, **sharpen** this sword.\"", keywords = "Sharpen", types = "Attack Reaction"},
   ["MPW028"] = { name = "And Again... (3)", text = "**Attack** with target sword that has been sharpened and you've attacked with this turn.", keywords = "", types = "Action"},
+  ["MPW032"] = { name = "Raise Blades (1)", text = "Draw a card. Put a card from your hand on top of your deck.\n\nYour next sword attack this turn gets +3{p}.\n\n**Go again**", keywords = "Go again", types = "Action"},
   ["MPW037"] = { name = "Stand Tall (2)", text = "While this is defending, whenever the attacking hero plays or activates a reaction this chain link, this gets +2{p}.", keywords = "", types = "Block"},
   ["MPW042"] = { name = "Donkey (3)", text = "Target sword attack gets +1{p} and **wagers** with the defending hero. The winner destroys a card in their own arsenal.", keywords = "Wager", types = "Attack Reaction"},
   ["MPW043"] = { name = "Downswing (1)", text = "Target sword attack gets +1{p} and **wagers** with the defending hero. The winner loses 1{h}.", keywords = "Wager", types = "Attack Reaction"},
