@@ -1,7 +1,7 @@
 {
   "name": "@flesh-and-blood/search",
   "description": "TypeScript search engine for Flesh and Blood cards",
-  "version": "4.0.5",
+  "version": "4.0.6",
   "type": "module",
   "sideEffects": false,
   "main": "dist/index.cjs",
