@@ -1965,7 +1965,7 @@ export const releases: ReleaseInfo[] = [
     ],
     heroes: [Hero.Baalghor],
     languages: ALL_LANGUAGES,
-    release: Release.IAR,
+    release: Release.UsurpTheShadowThrone,
     relatedReleases: [],
     releaseDate: "2026-09-25 12:00",
     releaseType: ReleaseType.ExpansionBooster,
@@ -1998,7 +1998,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   pen: Release.CompendiumOfRathe,
   omn: Release.OmensOfTheThirdAge,
   mpw: Release.MasteryPackWarrior,
-  iar: Release.IAR,
+  iar: Release.UsurpTheShadowThrone,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {

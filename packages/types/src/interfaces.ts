@@ -183,7 +183,6 @@ export enum Release {
   HeavyHitters = "Heavy Hitters",
   HighSeas = "High Seas",
   HistoryPack1 = "History Pack 1",
-  IAR = "IAR",
   Monarch = "Monarch",
   OmensOfTheThirdAge = "Omens of the Third Age",
   Outsiders = "Outsiders",
@@ -193,6 +192,7 @@ export enum Release {
   TalesOfAria = "Tales of Aria",
   TheHunted = "The Hunted",
   Uprising = "Uprising",
+  UsurpTheShadowThrone = "Usurp the Shadow Throne",
   WelcomeToRathe = "Welcome to Rathe",
 
   // Armory decks
