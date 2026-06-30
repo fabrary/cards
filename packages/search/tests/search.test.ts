@@ -694,3 +694,19 @@ describe("Minor sets", () => {
     }
   });
 });
+
+describe("Meta property searches", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it("Dual class", () => {
+    const { searchResults } = cardSearch.search(`is:dual`);
+
+    expect(searchResults).toBeTruthy();
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+    expect(searchResults.length).toBeGreaterThan(100);
+
+    for (const { classes } of searchResults) {
+      expect(classes.length).toEqual(2);
+    }
+  });
+});

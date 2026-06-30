@@ -746,6 +746,7 @@ const getPitchValuesFromText = (rawValues: string[]) => {
 };
 
 const metaValuesMapping: { [key: string]: Meta } = {
+  dual: Meta.DualClass,
   exp: Meta.Expansion,
   expansion: Meta.Expansion,
   expansionSlot: Meta.Expansion,
@@ -756,8 +757,11 @@ const getMetaValuesFromText = (rawValues: string[]) => {
   for (const rawValue of rawValues) {
     if (metaValuesMapping[rawValue]) {
       values.push(metaValuesMapping[rawValue]);
+    } else if (!!Meta[rawValue.toUpperCase() as keyof typeof Meta]) {
+      values.push(Meta[rawValue as keyof typeof Meta]);
     }
   }
+
   return values;
 };
 
@@ -779,6 +783,7 @@ const getFoilingValuesFromText = (rawValues: string[]) => {
       values.push(foilingValuesMapping[rawValue]);
     }
   }
+
   return values;
 };
 
