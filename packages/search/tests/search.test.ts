@@ -2,6 +2,7 @@ import { describe, expect, it, xit } from "@jest/globals";
 import {
   DoubleSidedCard,
   Foiling,
+  getIsArenaCard,
   Hero,
   Meta,
   Rarity,
@@ -707,6 +708,18 @@ describe("Meta property searches", () => {
 
     for (const { classes } of searchResults) {
       expect(classes.length).toEqual(2);
+    }
+  });
+
+  it("Arena", () => {
+    const { searchResults } = cardSearch.search(`is:arena`);
+
+    expect(searchResults).toBeTruthy();
+    expect(searchResults.length).toBeLessThan(doubleSidedCards.length);
+    expect(searchResults.length).toBeGreaterThan(100);
+
+    for (const card of searchResults) {
+      expect(getIsArenaCard(card)).toBeTruthy();
     }
   });
 });

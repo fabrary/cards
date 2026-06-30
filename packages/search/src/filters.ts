@@ -757,8 +757,19 @@ const getMetaValuesFromText = (rawValues: string[]) => {
   for (const rawValue of rawValues) {
     if (metaValuesMapping[rawValue]) {
       values.push(metaValuesMapping[rawValue]);
-    } else if (!!Meta[rawValue.toUpperCase() as keyof typeof Meta]) {
+    } else if (!!Meta[rawValue as keyof typeof Meta]) {
       values.push(Meta[rawValue as keyof typeof Meta]);
+    }
+  }
+
+  if (rawValues.length > 0 && values.length === 0) {
+    for (const meta of Object.values(Meta)) {
+      for (const rawValue of rawValues) {
+        if (meta.toLowerCase().includes(rawValue)) {
+          values.push(meta);
+          break;
+        }
+      }
     }
   }
 
