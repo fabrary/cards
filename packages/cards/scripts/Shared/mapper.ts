@@ -16,6 +16,8 @@ import {
   Subtype,
   Trait,
   Type,
+  getIsArenaCard,
+  getIsDeckCard,
   releases,
   setIdentifierToSetMappings,
 } from "@flesh-and-blood/types";
@@ -508,6 +510,21 @@ export const getMeta = (
     if (isRainbow) {
       meta.push(Meta.Rainbow);
     }
+  }
+
+  const isArenaCard = getIsArenaCard(card);
+  if (isArenaCard) {
+    meta.push(Meta.Arena);
+  }
+
+  const isDeckCard = getIsDeckCard(card);
+  if (isDeckCard) {
+    meta.push(Meta.Deck);
+  }
+
+  const isDualClass = card.classes.length > 1;
+  if (isDualClass) {
+    meta.push(Meta.DualClass);
   }
 
   meta.sort();

@@ -1968,7 +1968,7 @@ export const releases: ReleaseInfo[] = [
     release: Release.UsurpTheShadowThrone,
     relatedReleases: [],
     releaseDate: "2026-09-25 12:00",
-    releaseType: ReleaseType.ExpansionBooster,
+    releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["iar"],
     talents: [Talent.Shadow],
   },

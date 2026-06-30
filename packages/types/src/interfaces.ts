@@ -167,6 +167,9 @@ export enum Rarity {
 }
 
 export enum Meta {
+  Arena = "Arena",
+  Deck = "Deck",
+  DualClass = "Dual class",
   Expansion = "Expansion slot",
   Rainbow = "Rainbow",
 }
