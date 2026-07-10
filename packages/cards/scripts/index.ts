@@ -172,6 +172,7 @@ const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
   return {
     ...card,
     firstReleaseDate: getFirstReleaseDate(card),
+    bannedFormats,
     legalFormats,
     legalHeroes,
     meta,
@@ -205,7 +206,7 @@ const shouldCheckLatestSetForRainbowFoils = !!latestSetPrefix;
 // every card from latest set is present
 // rainbow foils haven't already been added
 if (shouldCheckLatestSetForRainbowFoils) {
-  let latestSetCardIdentifiers: { [key: string]: number } = {};
+  const latestSetCardIdentifiers: { [key: string]: number } = {};
 
   for (const latestSetCard of latestSetCards) {
     const latestSetIdentifier = latestSetCard.setIdentifiers.find(

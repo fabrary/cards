@@ -138,7 +138,7 @@ const getRarityFilter = (
   } else {
     for (const value of values) {
       switch (modifier) {
-        case ">=":
+        case ">=": {
           let start = false;
           for (const rarity of rankedRarity) {
             if (start) {
@@ -149,7 +149,8 @@ const getRarityFilter = (
             }
           }
           break;
-        case ">":
+        }
+        case ">": {
           let start2 = false;
           for (const rarity of rankedRarity) {
             if (start2) {
@@ -159,7 +160,8 @@ const getRarityFilter = (
             }
           }
           break;
-        case "<=":
+        }
+        case "<=": {
           let start3 = false;
           for (const rarity of rankedRarity.slice().reverse()) {
             if (start3) {
@@ -170,7 +172,8 @@ const getRarityFilter = (
             }
           }
           break;
-        case "<":
+        }
+        case "<": {
           let start4 = false;
           for (const rarity of rankedRarity.slice().reverse()) {
             if (start4) {
@@ -180,6 +183,7 @@ const getRarityFilter = (
             }
           }
           break;
+        }
         default:
           break;
       }

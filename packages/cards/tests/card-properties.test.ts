@@ -200,7 +200,7 @@ describe("TCGplayer printings are complete", () => {
   )("%s", (_, card) => {
     const { printings } = card as unknown as Card;
     for (const { tcgplayer } of printings) {
-      if (!!tcgplayer) {
+      if (tcgplayer) {
         const printing = new URL(tcgplayer?.url || "").searchParams.get(
           "Printing",
         );

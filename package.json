@@ -9,6 +9,7 @@
     "clean:csvs": "ts-node --project packages/cards/tsconfig.json scripts/check-redundancy.ts",
     "prefull": "npm run update:dependencies",
     "full": "lerna run full",
+    "lint": "eslint .",
     "ncu": "lerna exec ncu",
     "publish": "npm login && lerna publish",
     "publish:legacy": "npm login --auth-type=legacy && lerna publish",
@@ -18,7 +19,10 @@
     "update:snapshots": "lerna run update:snapshots"
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.4",
     "@types/jest": "^30.0.0",
-    "lerna": "^8.0.1"
+    "eslint": "^9.39.4",
+    "lerna": "^8.0.1",
+    "typescript-eslint": "^8.63.0"
   }
 }

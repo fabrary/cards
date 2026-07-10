@@ -2114,7 +2114,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   win: Release.Promos,
 };
 
-let tempSetToSetIdentifierMappings: { [key: string]: string[] } = {};
+const tempSetToSetIdentifierMappings: { [key: string]: string[] } = {};
 for (const [setIdentifier, set] of Object.entries(setIdentifierToSetMappings)) {
   const entry = tempSetToSetIdentifierMappings[set];
   if (entry) {

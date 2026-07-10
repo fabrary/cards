@@ -10,6 +10,7 @@ import {
 
 const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`|~]/g;
 
+// eslint-disable-next-line @typescript-eslint/no-require-imports -- typo-js ships no type declarations
 const Typo = require("typo-js");
 
 const dictionary = new Typo("en_US");

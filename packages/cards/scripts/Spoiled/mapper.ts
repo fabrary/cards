@@ -247,7 +247,7 @@ const getPrinting = (
   const foiling = FOILING_KEY_TO_ENUM_MAPPING[foilingString || ""];
 
   let treatment: Treatment | undefined = undefined;
-  let treatments: Treatment[] = [];
+  const treatments: Treatment[] = [];
   for (const treat of treatmentStrings || []) {
     const art = Treatment[treat as keyof typeof Treatment];
     if (!treatment) {
@@ -259,7 +259,7 @@ const getPrinting = (
 
   let image;
   if (imageUrl) {
-    let parsedUrl = imageUrl
+    const parsedUrl = imageUrl
       .replace(".format-webp", "")
       .replace(".width-450", "")
       .replace("_yajPa8R", "");
@@ -735,7 +735,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
     (keyword) => {
       const exactMatch = ALL_KEYWORDS.find(([_, value]) => value === keyword);
 
-      if (!!exactMatch) {
+      if (exactMatch) {
         const keywordEnum = Keyword[exactMatch[0] as keyof typeof Keyword];
         if (!!keywordEnum && !keywords.includes(keywordEnum)) {
           keywords.push(keywordEnum);

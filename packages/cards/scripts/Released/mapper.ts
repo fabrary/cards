@@ -127,7 +127,7 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     const rarity = getRarityFromRawString(rawRarity);
 
     let treatment: Treatment | undefined = undefined;
-    let treatments: Treatment[] = [];
+    const treatments: Treatment[] = [];
     for (const artVariation of artVariations) {
       const art = Treatment[artVariation as keyof typeof Treatment];
       if (!treatment) {
@@ -137,13 +137,13 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     }
     treatments.sort();
 
-    let imageUrlClean = imageUrl
+    const imageUrlClean = imageUrl
       ? imageUrl
           .replace(".width-450", "")
           .replace(".original.webp", ".webp")
           .replace(".original.png", ".png")
       : undefined;
-    let image = !!imageUrlClean
+    let image = imageUrlClean
       ? imageUrlClean
           .substring(
             imageUrlClean.lastIndexOf("/") + 1,
@@ -212,7 +212,7 @@ const getKeywords = (card: ParsedCard): Keyword[] => {
   [...cardKeywords, ...grantedKeywords, ...abilityAndEffectKeywords].forEach(
     (keyword) => {
       const exactMatch = ALL_KEYWORDS.find(([_, value]) => value === keyword);
-      if (!!exactMatch) {
+      if (exactMatch) {
         const keywordEnum = Keyword[exactMatch[0] as keyof typeof Keyword];
         if (!!keywordEnum && !keywords.includes(keywordEnum)) {
           keywords.push(keywordEnum);

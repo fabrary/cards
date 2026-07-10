@@ -131,7 +131,7 @@ const getLegalOverrides = (legalOverrides: LegalOverride[]): string => {
   );
 };
 
-const generateCardTypeScript = (card: Card): String => {
+const generateCardTypeScript = (card: Card): string => {
   return `{
     artists: [${card.artists.map((artist) => `"${artist}"`)}],
     cardIdentifier: "${card.cardIdentifier}",

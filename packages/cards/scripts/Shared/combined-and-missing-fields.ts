@@ -30,7 +30,6 @@ export const combineAndAddMissingFields = (card: PreliminaryCard, duplicate: Pre
     "flows",
     "keywords",
     "legalFormats",
-    "legalHeroes",
     "rarities",
     "specializations",
     "subtypes",

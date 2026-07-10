@@ -478,9 +478,9 @@ export const getKeywordsAndAppliedFiltersFromText = (
     }
   }
 
-  let appliedFilters: AppliedFilter[] = [];
+  const appliedFilters: AppliedFilter[] = [];
   let artists: string[] = [];
-  let keywords: string[] = [];
+  const keywords: string[] = [];
   let foilings: Foiling[] = [];
   let isExpansionSlot: boolean = false;
   let prints: string[] = [];
@@ -547,7 +547,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
 
           filterKey = "name";
           isOr = true;
-          let limit = 20;
+          const limit = 20;
           let counter = 0;
 
           const addToSetAndRelated = (card: Card) => {
@@ -757,7 +757,7 @@ const getMetaValuesFromText = (rawValues: string[]) => {
   for (const rawValue of rawValues) {
     if (metaValuesMapping[rawValue]) {
       values.push(metaValuesMapping[rawValue]);
-    } else if (!!Meta[rawValue as keyof typeof Meta]) {
+    } else if (Meta[rawValue as keyof typeof Meta]) {
       values.push(Meta[rawValue as keyof typeof Meta]);
     }
   }
@@ -826,7 +826,7 @@ const getTreatmentValuesFromText = (rawValues: string[]) => {
   for (const rawValue of rawValues) {
     if (treatmentValuesMapping[rawValue]) {
       values.push(treatmentValuesMapping[rawValue]);
-    } else if (!!Treatment[rawValue.toUpperCase()]) {
+    } else if (Treatment[rawValue.toUpperCase()]) {
       values.push(Treatment[rawValue.toUpperCase()]);
     }
   }

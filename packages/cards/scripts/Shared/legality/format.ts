@@ -297,11 +297,10 @@ export const getConfirmedBannedAndLegalFormats = ({
 
   const isASpecialUsePromo = getIsASpecialUsePromo(name, setIdentifiers);
 
-  const confirmedBannedFormats = bannedFormats?.filter((format) => {
-    let isConfirmedBanned = true;
-
-    return isConfirmedBanned;
-  });
+  // Banned formats currently pass through as-is (no confirmation logic yet, unlike
+  // legal formats below). Kept in the return so the completion pass applies it and
+  // any future banned-format narrowing takes effect instead of being dropped.
+  const confirmedBannedFormats = bannedFormats;
 
   const confirmedLegalFormats = legalFormats.filter((format) => {
     let isConfirmedLegal = true;

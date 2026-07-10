@@ -11,7 +11,7 @@ describe("Sets have accurate draft heroes", () => {
     );
 
     if (releaseInfo?.draft) {
-      for (const heroIdentifier of releaseInfo.draft?.heroIdentifiers) {
+      for (const heroIdentifier of releaseInfo.draft.heroIdentifiers) {
         const hero = heroes.find(
           ({ cardIdentifier }) => cardIdentifier === heroIdentifier,
         );

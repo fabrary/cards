@@ -372,28 +372,32 @@ const getDoesCardMatchNumericFilter = (
       cardValue = parseInt(cardValue as unknown as string) as number;
       if (modifier) {
         switch (modifier) {
-          case ">=":
+          case ">=": {
             const isGreatherThanOrEqualTo = values?.some(
               (filterValue) => cardValue >= parseInt(filterValue),
             );
             return excluded
               ? !isGreatherThanOrEqualTo
               : isGreatherThanOrEqualTo;
-          case ">":
+          }
+          case ">": {
             const isGreatherThan = values?.some(
               (filterValue) => cardValue > parseInt(filterValue),
             );
             return excluded ? !isGreatherThan : isGreatherThan;
-          case "<=":
+          }
+          case "<=": {
             const isLessThanOrEqualTo = values?.some(
               (filterValue) => cardValue <= parseInt(filterValue),
             );
             return excluded ? !isLessThanOrEqualTo : isLessThanOrEqualTo;
-          case "<":
+          }
+          case "<": {
             const isLessThan = values?.some(
               (filterValue) => cardValue < parseInt(filterValue),
             );
             return excluded ? !isLessThan : isLessThan;
+          }
           default:
             return false;
         }
