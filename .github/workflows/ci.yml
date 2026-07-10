@@ -1,0 +1,59 @@
+name: CI
+
+# The same gate as the local husky pre-commit, plus the heavier steps it skips
+# (build + full test suite + generated-data drift check). No secrets needed —
+# all card data is local. Publishing stays manual; this is the safety net for
+# bypassed hooks and other machines.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v7
+
+      - name: Setup node 🧰
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Install 🔧
+        run: npm ci
+
+      - name: Typecheck 🔎
+        run: npm run typecheck
+
+      - name: Lint 🧹
+        run: npm run lint
+
+      # Locally lint-staged formats on commit; this catches bypassed hooks.
+      - name: Format check 🪞
+        run: npx prettier --check .
+
+      # Builds types → cards → search (nx order); each postbuild runs tsc
+      # --declaration. search's tests import the built cards package, so this
+      # must precede the test step.
+      - name: Build 🏗️
+        run: npm run build
+
+      - name: Tests 🧪
+        run: npm test
+
+      # The committed src/index.ts + latest-set are generated from the source
+      # data (CSVs / card.json / overrides). Regenerate and fail if they drift —
+      # catches a hand-edit of the output or a source change committed without
+      # running the pipeline. The transform is deterministic (offline, no dates
+      # in output), so a clean tree means committed output matches source.
+      - name: Generated card data is in sync 🔁
+        run: |
+          npm run transform -w @flesh-and-blood/cards
+          git diff --exit-code packages/cards/src/index.ts packages/cards/latest-set/index.ts

@@ -2,4 +2,5 @@
 # Enable locally once:  git config blame.ignoreRevsFile .git-blame-ignore-revs
 # (GitHub applies this file automatically.)
 
-# Repo-wide Prettier sweep — paste the sweep commit's SHA below after committing it:
+# Repo-wide Prettier sweep + tooling ("cleanup")
+763898247131712888a76ab7a9979f29579e07ce
