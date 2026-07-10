@@ -325,15 +325,6 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
 const ALL_TOKEN_HEROES = [Hero.Shiyana, Hero.Yorick];
 
 const HEROES: Hero[] = Object.values(Hero);
-const TYPES_TO_CHECK_FOR_PITCH = [
-  Type.Action,
-  Type.AttackReaction,
-  Type.Block,
-  Type.DefenseReaction,
-  Type.Instant,
-  Type.Mentor,
-  Type.Resource,
-];
 
 const allReleases = Object.values(Release);
 

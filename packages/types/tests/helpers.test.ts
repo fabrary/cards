@@ -1,4 +1,4 @@
-import { describe, expect, it, xit } from "@jest/globals";
+import { describe, expect, it } from "@jest/globals";
 import {
   getIsArenaCard,
   getIsDeckCard,
@@ -11,10 +11,7 @@ import {
   getMaxRarityPrinting,
 } from "../src/helpers";
 import {
-  Card,
-  Class,
   Foiling,
-  Format,
   Keyword,
   Printing,
   Rarity,

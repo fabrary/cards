@@ -1,6 +1,6 @@
-import { describe, expect, it, xit } from "@jest/globals";
+import { describe, expect, it } from "@jest/globals";
 import { cards } from "@flesh-and-blood/cards";
-import { multiWordShorthands, shorthands } from "../src/shorthands";
+import { shorthands } from "../src/shorthands";
 import Search from "../src/search";
 
 describe("Shorthands", () => {

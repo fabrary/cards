@@ -234,7 +234,7 @@ const headerMappings = {
   "TCGPlayer Product Id 6": "tcgplayerProductId6",
   "TCGPlayer Url 6": "tcgplayerUrl6",
 };
-const transformHeader = (original: string, index: number) =>
+const transformHeader = (original: string, _index: number) =>
   headerMappings[original as keyof typeof headerMappings];
 
 export const parseCSV = (file: string): ParsedCard[] => {

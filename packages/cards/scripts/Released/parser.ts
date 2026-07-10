@@ -2,7 +2,6 @@ import {
   Release,
   setIdentifierToSetMappings,
   setToSetIdentifierMappings,
-  Treatment,
   Type,
 } from "@flesh-and-blood/types";
 import { readFileSync } from "fs";
@@ -73,28 +72,6 @@ export interface ParsedCard {
   silverAgeLegal: boolean;
 }
 
-enum SourceAlternateArtVariation {
-  AB = "Alternate Border",
-  AA = "Alternate Art",
-  AT = "Alternate Text",
-  EA = "Extended Art",
-  FA = "Full Art",
-}
-
-enum SourceEdition {
-  A = "Alpha",
-  F = "First",
-  U = "Unlimited",
-  N = "Normal",
-}
-
-enum SourceFoiling {
-  S = "Standard",
-  R = "Rainbow Foil",
-  C = "Cold Foil",
-  G = "Gold Cold Foil",
-}
-
 export interface SourcePrinting {
   unique_id: string;
   id: string;
@@ -158,23 +135,6 @@ interface SourceJSONSet {
   }[];
 }
 
-const artVariationsToExclude = {
-  DYN234: ["AB"],
-  EVR017: ["FA"],
-  FAB136: ["AA", "EA"],
-  FAB178: ["AA"],
-  FAB190: ["AA"],
-  FAB223: ["AA"],
-  FAB224: ["AA"],
-  FAB231: ["AA"],
-  ROS008: ["AA"],
-  UPR043: ["AB"],
-  // UPR103: ["AA"],
-};
-const artVariationsToAdd = {
-  "UPR042-C": ["AT"],
-};
-
 export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
   const jsonCards = JSON.parse(
     readFileSync(cardJSON, "utf-8"),
@@ -217,12 +177,6 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
       type_text,
       types,
     }) => {
-      const blitzBanned = blitz_banned ? new Date().toISOString() : "";
-      const classicConstructedBanned = cc_banned
-        ? new Date().toISOString()
-        : "";
-      const commonerBanned = commoner_banned ? new Date().toISOString() : "";
-
       const printings = rawPrintings
         .map(
           ({

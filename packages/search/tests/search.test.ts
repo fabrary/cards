@@ -239,8 +239,9 @@ describe("Card search", () => {
   ];
   it.each(hasQuantity)("Gets cards for %s", (...searchTerms) => {
     for (const searchTerm of searchTerms) {
-      const { keywords, searchResults, appliedFilters, attributes } =
-        cardSearch.search(randomizeCapitalization(searchTerm as string));
+      const { searchResults } = cardSearch.search(
+        randomizeCapitalization(searchTerm as string),
+      );
 
       // console.log(
       //   JSON.stringify({ keywords, appliedFilters, attributes }, null, 2)
@@ -265,7 +266,7 @@ describe("Card search", () => {
     (treatment) => `treatment:"${treatment}"`,
   );
   it.each(artTreatmentFilters)("Gets cards for %s", (searchTerm) => {
-    const { searchResults, appliedFilters } = cardSearch.search(
+    const { searchResults } = cardSearch.search(
       randomizeCapitalization(searchTerm as string),
     );
     expect(searchResults.length).toBeGreaterThan(0);
@@ -291,7 +292,7 @@ describe("Card search", () => {
   });
 
   xit("Specific test", () => {
-    const { searchResults, appliedFilters, keywords } = cardSearch.search(
+    const { searchResults } = cardSearch.search(
       randomizeCapitalization("s:ros l:draft"),
     );
 
@@ -300,9 +301,7 @@ describe("Card search", () => {
   });
 
   it("Combines heroes correctly", () => {
-    const { searchResults, appliedFilters } = cardSearch.search(
-      "l:zen,nuu s:mst r:t,c,r",
-    );
+    const { searchResults } = cardSearch.search("l:zen,nuu s:mst r:t,c,r");
 
     expect(searchResults.length).toEqual(148);
   });
@@ -453,9 +452,7 @@ describe("Armory decks are distinct", () => {
       release.toUpperCase().includes("ARMORY DECK"),
     ),
   )("%s has distinct results", (set: string) => {
-    const { searchResults, keywords, appliedFilters } = cardSearch.search(
-      `s:"${set}"`,
-    );
+    const { searchResults } = cardSearch.search(`s:"${set}"`);
     const cardsNotInSet = searchResults.filter(
       ({ sets }) => !sets.includes(set as Release),
     );
@@ -613,8 +610,7 @@ describe("Shorthands property works", () => {
   });
 
   it("Throw: throw caution to the wind", () => {
-    const { searchResults, appliedFilters, keywords } =
-      cardSearch.search("throw");
+    const { searchResults } = cardSearch.search("throw");
     expect(searchResults).toBeTruthy();
 
     // console.log(JSON.stringify({ appliedFilters, keywords }, null, 2));
@@ -650,8 +646,7 @@ describe("Shorthands property works", () => {
   });
 
   it("l:sage", () => {
-    const { searchResults, appliedFilters, attributes, keywords } =
-      cardSearch.search("l:sage");
+    const { searchResults } = cardSearch.search("l:sage");
     // console.log(
     //   JSON.stringify({ appliedFilters, attributes, keywords }, null, 2),
     // );
@@ -666,8 +661,7 @@ describe("Shorthands property works", () => {
   });
 
   it("banned:cc", () => {
-    const { searchResults, appliedFilters, attributes, keywords } =
-      cardSearch.search("banned:cc");
+    const { searchResults } = cardSearch.search("banned:cc");
     // console.log(
     //   JSON.stringify({ appliedFilters, attributes, keywords }, null, 2),
     // );

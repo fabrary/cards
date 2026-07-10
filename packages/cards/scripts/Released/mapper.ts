@@ -1,16 +1,11 @@
 import { PreliminaryCard } from "../Shared/preliminary-card";
 import {
   Class,
-  Foiling,
-  Format,
   Hero,
   Keyword,
-  Metatype,
   Printing,
-  Rarity,
   Release,
   ReleaseEdition,
-  Subtype,
   Talent,
   Treatment,
   Type,
@@ -23,7 +18,6 @@ import {
   getFlows,
   getFusions,
   getHeroFromCard,
-  getMeta,
   getNumberOrUndefined,
   getRarities,
   getRarityFromRawString,
@@ -205,8 +199,7 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
 
 const ALL_KEYWORDS = Object.entries(Keyword);
 const getKeywords = (card: ParsedCard): Keyword[] => {
-  const { abilityAndEffectKeywords, cardKeywords, grantedKeywords, name } =
-    card;
+  const { abilityAndEffectKeywords, cardKeywords, grantedKeywords } = card;
   const keywords: Keyword[] = [];
 
   [...cardKeywords, ...grantedKeywords, ...abilityAndEffectKeywords].forEach(

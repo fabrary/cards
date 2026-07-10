@@ -1,11 +1,6 @@
-import { describe, expect, it, xit } from "@jest/globals";
+import { describe, expect, it } from "@jest/globals";
 import { cards } from "../dist/index";
-import {
-  ADDITIONS,
-  EXCLUSIONS,
-  IGNORES,
-  SUGGESTIONS,
-} from "./spelling-additions";
+import { ADDITIONS, IGNORES, SUGGESTIONS } from "./spelling-additions";
 // import { fabDictionary, fabDictionaryIgnore } from "./spelling-additions-local";
 
 const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`|~]/g;

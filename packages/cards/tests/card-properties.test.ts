@@ -3,8 +3,6 @@ import { cards as cardsToPublish } from "../dist/index";
 import { cards as publishedCards } from "latest-cards";
 import {
   Card,
-  Format,
-  getIsDeckCard,
   getPrint,
   Printing,
   Trait,

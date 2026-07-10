@@ -1,5 +1,3 @@
-import { Card, Printing } from "@flesh-and-blood/types";
-
 const CARD_NAMES_TO_EXCLUDE = ["Dragons of Legend", "Intellect Penalty"].map(
   (card) => card.toLowerCase(),
 );

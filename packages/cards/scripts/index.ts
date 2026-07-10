@@ -53,8 +53,6 @@ releasedCards.forEach((card) => {
     //   card.cardIdentifier
     // );
 
-    const arcane = duplicate.arcane || card.arcane || undefined;
-
     const artists = Array.from(
       new Set([...duplicate.artists, ...card.artists]),
     ).sort();
@@ -100,11 +98,6 @@ releasedCards.forEach((card) => {
       new Set([...(duplicate.fusions || []), ...(card.fusions || [])]),
     );
     const fusions = combinedFusions.length > 0 ? combinedFusions : undefined;
-
-    const combinedFlows = Array.from(
-      new Set([...(duplicate.flows || []), ...(card.flows || [])]),
-    );
-    const flows = combinedFlows.length > 0 ? combinedFlows : undefined;
 
     const defaultImage = getDefaultPrinting(card, deduplicatedPrintings)?.image;
     const specialImage = getSpecialPrinting(card, deduplicatedPrintings)?.image;

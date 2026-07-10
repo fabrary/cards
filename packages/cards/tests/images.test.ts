@@ -1,4 +1,4 @@
-import { describe, expect, it, xit } from "@jest/globals";
+import { describe, expect, it } from "@jest/globals";
 import { cards } from "../dist/index";
 
 const imagesAndSets: { [key: string]: Set<string> } = {};

@@ -29,6 +29,13 @@ jobs:
       - name: Install 🔧
         run: npm ci
 
+      # Build FIRST: types → cards → search (nx order). The other packages
+      # resolve @flesh-and-blood/types via its `exports` → dist/*.d.ts, and the
+      # tests import the built `dist` directly — so on a clean install nothing
+      # downstream (typecheck / lint-of-types / tests) resolves until dist exists.
+      - name: Build 🏗️
+        run: npm run build
+
       - name: Typecheck 🔎
         run: npm run typecheck
 
@@ -38,12 +45,6 @@ jobs:
       # Locally lint-staged formats on commit; this catches bypassed hooks.
       - name: Format check 🪞
         run: npx prettier --check .
-
-      # Builds types → cards → search (nx order); each postbuild runs tsc
-      # --declaration. search's tests import the built cards package, so this
-      # must precede the test step.
-      - name: Build 🏗️
-        run: npm run build
 
       - name: Tests 🧪
         run: npm test

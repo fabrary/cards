@@ -19,7 +19,6 @@ import {
 import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import {
   Class,
-  Foiling,
   Format,
   Hero,
   Keyword,
@@ -39,7 +38,6 @@ import {
   getSpecialPrinting,
 } from "@flesh-and-blood/types";
 
-import { SourceJSONCard } from "../Released/parser";
 import { getBannedAndLegalFormats } from "../Shared/legality";
 import {
   getTCGPlayerInfoForRawSpoilerPrinting,
@@ -465,7 +463,6 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     tcgplayerProductId3,
     tcgplayerUrl3,
     artists4,
-    expansionSlot4,
     foiling4,
     identifier4,
     imageUrl4,
@@ -727,8 +724,7 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
 
 const ALL_KEYWORDS = Object.entries(Keyword);
 const getKeywords = (card: ParsedCard): Keyword[] => {
-  const { abilityAndEffectKeywords, cardKeywords, grantedKeywords, name } =
-    card;
+  const { abilityAndEffectKeywords, cardKeywords, grantedKeywords } = card;
   const keywords: Keyword[] = [];
 
   [...cardKeywords, ...grantedKeywords, ...abilityAndEffectKeywords].forEach(

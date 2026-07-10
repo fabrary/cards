@@ -2,9 +2,7 @@ import { PreliminaryCard } from "../preliminary-card";
 import {
   Class,
   Format,
-  Hero,
   Keyword,
-  LegalOverride,
   Rarity,
   Release,
   releases,
@@ -274,7 +272,6 @@ const limitedFormatReleases = releaseInfoForLimitedFormat.map(
 export const getConfirmedBannedAndLegalFormats = ({
   bannedFormats,
   classes,
-  keywords,
   legalFormats,
   name,
   printings,

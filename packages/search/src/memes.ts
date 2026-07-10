@@ -1,7 +1,6 @@
 import {
   Card,
   Class,
-  Format,
   Hero,
   Rarity,
   Release,

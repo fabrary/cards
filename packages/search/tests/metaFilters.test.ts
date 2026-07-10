@@ -1,4 +1,4 @@
-import { describe, expect, it, xit } from "@jest/globals";
+import { describe, expect, it } from "@jest/globals";
 import { Hero } from "@flesh-and-blood/types";
 import { getMetaFilters } from "../src/metaFilters";
 import Search, { PUNCTUATION } from "../src";

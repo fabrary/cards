@@ -1,6 +1,5 @@
-import { describe, expect, it, xit } from "@jest/globals";
-import { Card, Hero, Keyword } from "@flesh-and-blood/types";
-import { cards } from "../dist/index";
+import { describe, expect, it } from "@jest/globals";
+import { Hero } from "@flesh-and-blood/types";
 import { heroToFilterMapping } from "../scripts/Shared/legality";
 
 describe("Hero legality", () => {

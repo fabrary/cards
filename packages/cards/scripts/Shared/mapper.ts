@@ -406,7 +406,6 @@ export const getSets = ({
 };
 
 export const getTraits = ({
-  name,
   setIdentifiers,
 }: {
   name: string;

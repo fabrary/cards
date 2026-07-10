@@ -1,4 +1,4 @@
-import { Card, Flow, Hero, Trait } from "@flesh-and-blood/types";
+import { Card, Hero, Trait } from "@flesh-and-blood/types";
 import { PUNCTUATION } from "./constants.js";
 import { Keyword } from "@flesh-and-blood/types";
 

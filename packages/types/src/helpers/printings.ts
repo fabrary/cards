@@ -1,10 +1,4 @@
-import {
-  Release,
-  Printing,
-  Treatment,
-  Foiling,
-  ReleaseEdition,
-} from "../interfaces.js";
+import { Printing, Treatment, Foiling, ReleaseEdition } from "../interfaces.js";
 import { fullSetIdentifiers } from "../sets.js";
 
 const identifierExtensionMapping: { [key: string]: string } = {

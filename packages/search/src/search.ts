@@ -2,15 +2,12 @@ import {
   Card,
   DoubleSidedCard,
   Foiling,
-  Format,
   Hero,
   Printing,
-  Rarity,
   Release,
   setIdentifierToSetMappings,
   setToSetIdentifierMappings,
   Treatment,
-  Type,
 } from "@flesh-and-blood/types";
 import Fuse from "fuse.js";
 import { PUNCTUATION } from "./constants.js";
@@ -291,7 +288,7 @@ export const filterCard = (
   appliedFilters: AppliedFilter[],
 ): boolean => {
   let doesCardMatchAllRequiredFilters = true;
-  let doesCardMatchAnyOptionalFilters = false;
+  let _doesCardMatchAnyOptionalFilters = false;
 
   for (const appliedFilter of appliedFilters) {
     const isOptional = appliedFilter.isOptional;
@@ -305,7 +302,7 @@ export const filterCard = (
       );
       if (isOptional) {
         if (cardMatchesNumericFilter) {
-          doesCardMatchAnyOptionalFilters = true;
+          _doesCardMatchAnyOptionalFilters = true;
         }
       } else {
         doesCardMatchAllRequiredFilters =
@@ -318,7 +315,7 @@ export const filterCard = (
       );
       if (isOptional) {
         if (cardMatchesStringFilter) {
-          doesCardMatchAnyOptionalFilters = true;
+          _doesCardMatchAnyOptionalFilters = true;
         }
       } else {
         doesCardMatchAllRequiredFilters =
@@ -332,7 +329,7 @@ export const filterCard = (
       );
       if (isOptional) {
         if (cardMatchesArrayFilter) {
-          doesCardMatchAnyOptionalFilters = true;
+          _doesCardMatchAnyOptionalFilters = true;
         }
       } else {
         doesCardMatchAllRequiredFilters =
@@ -345,7 +342,7 @@ export const filterCard = (
       );
       if (isOptional) {
         if (cardMatchesBooleanFilter) {
-          doesCardMatchAnyOptionalFilters = true;
+          _doesCardMatchAnyOptionalFilters = true;
         }
       } else {
         doesCardMatchAllRequiredFilters =

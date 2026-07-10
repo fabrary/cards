@@ -1,6 +1,4 @@
 import { PreliminaryCard } from "./preliminary-card";
-import { Hero } from "@flesh-and-blood/types";
-import { shorthands as availableShorthands } from "./shorthands";
 
 const CARD_IDENTIFIER_TO_LOG = "";
 // const CARD_IDENTIFIER_TO_LOG = "zoom-in-blue";
