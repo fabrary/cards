@@ -1,5 +1,5 @@
+import { PreliminaryCard } from "../Shared/preliminary-card";
 import {
-  Card,
   Class,
   Foiling,
   Format,
@@ -272,7 +272,7 @@ const getYoung = (card: ParsedCard): boolean | null => {
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
 
-const getCardData = (card: ParsedCard): Card => {
+const getCardData = (card: ParsedCard): PreliminaryCard => {
   const cardIdentifier = getCardIdentifier(card);
 
   const { metatypes, subtypes, types } = getTypeSubtypeAndMetatype(card);
@@ -329,7 +329,6 @@ const getCardData = (card: ParsedCard): Card => {
     classes,
     defaultImage: defaultPrinting?.image,
     legalFormats,
-    legalHeroes: [],
     name,
     printings,
     rarities,
@@ -369,7 +368,7 @@ const getCardData = (card: ParsedCard): Card => {
   };
 };
 
-export const mapJSON = (parsedCards: ParsedCard[]): Card[] => {
+export const mapJSON = (parsedCards: ParsedCard[]): PreliminaryCard[] => {
   const cards = parsedCards.map((parsedCard) => {
     return getCardData(parsedCard);
   });

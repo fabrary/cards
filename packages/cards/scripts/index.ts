@@ -1,3 +1,4 @@
+import { PreliminaryCard } from "./Shared/preliminary-card";
 import {
   Card,
   Foiling,
@@ -32,12 +33,12 @@ import { getTCGplayerInfoForAddedPrinting } from "./Shared/tcgplayer";
 
 const outputDirectory = "src";
 
-const deduplicatedCards: Card[] = [...spoiledCards];
+const deduplicatedCards: PreliminaryCard[] = [...spoiledCards];
 
 // Index by cardIdentifier so each released card is matched in O(1) instead of
 // scanning the whole (growing) deduplicated list. First-write-wins mirrors the
 // previous Array.find, which returned the first match.
-const cardsByIdentifier = new Map<string, Card>();
+const cardsByIdentifier = new Map<string, PreliminaryCard>();
 for (const card of deduplicatedCards) {
   if (!cardsByIdentifier.has(card.cardIdentifier)) {
     cardsByIdentifier.set(card.cardIdentifier, card);

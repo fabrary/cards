@@ -1,7 +1,7 @@
-import { Card } from "@flesh-and-blood/types";
+import { PreliminaryCard } from "./preliminary-card";
 import { getRarity } from "./mapper";
 
-export const combineAndAddMissingFields = (card: Card, duplicate: Card) => {
+export const combineAndAddMissingFields = (card: PreliminaryCard, duplicate: PreliminaryCard) => {
   const valueFieldsToFillIfMissing = [
     "arcane",
     "cost",

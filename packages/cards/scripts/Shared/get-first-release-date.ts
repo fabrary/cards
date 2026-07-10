@@ -1,4 +1,5 @@
-import { Card, releases } from "@flesh-and-blood/types";
+import { PreliminaryCard } from "./preliminary-card";
+import { releases } from "@flesh-and-blood/types";
 import firstReleaseDateOverridesFile from "./first-release-date-overrides.json";
 
 // cardIdentifier -> "YYYY-MM-DD". Fills (or corrects) the first release date for
@@ -22,7 +23,7 @@ const releaseDatesByRelease = new Map(
 export const getFirstReleaseDate = ({
   cardIdentifier,
   sets,
-}: Card): string => {
+}: PreliminaryCard): string => {
   const override = firstReleaseDateOverrides[cardIdentifier];
   if (override) {
     return override;

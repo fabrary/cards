@@ -1,10 +1,11 @@
-import { Card, Shorthand } from "@flesh-and-blood/types";
+import { PreliminaryCard } from "./preliminary-card";
+import { Shorthand } from "@flesh-and-blood/types";
 import { shorthands as availableShorthands } from "./shorthands";
 
 const CARD_IDENTIFIER_TO_LOG = "";
 // const CARD_IDENTIFIER_TO_LOG = "zoom-in-blue";
 
-export const getShorthands = (card: Card): Shorthand[] | undefined => {
+export const getShorthands = (card: PreliminaryCard): Shorthand[] | undefined => {
   const cardShorthands: Shorthand[] = [];
 
   if (card.cardIdentifier === CARD_IDENTIFIER_TO_LOG) {

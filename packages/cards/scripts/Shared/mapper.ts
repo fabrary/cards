@@ -1,6 +1,6 @@
+import { PreliminaryCard } from "./preliminary-card";
 import {
   Bond,
-  Card,
   Flow,
   Foiling,
   Format,
@@ -63,13 +63,13 @@ const CARD_FRONTS_OVERRIDES = [...TRANSCEND_CARD_NAMES];
 
 export const CARD_BACKS_OVERRIDES = ["Inner Chi"];
 
-export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
+export const addOppositeSideCardIdentifiers = (cards: PreliminaryCard[]) => {
   // Index cards by printing identifier so opposite-side candidates can be
   // looked up directly. Previously this scanned every card against every other
   // card (O(n^2 * printings^2)); now each card only inspects the handful of
   // cards that actually share a printing identifier with it.
-  const cardOrder = new Map<Card, number>();
-  const cardsByPrintingIdentifier = new Map<string, Set<Card>>();
+  const cardOrder = new Map<PreliminaryCard, number>();
+  const cardsByPrintingIdentifier = new Map<string, Set<PreliminaryCard>>();
   cards.forEach((card, index) => {
     cardOrder.set(card, index);
     for (const { identifier } of card.printings) {
@@ -88,7 +88,7 @@ export const addOppositeSideCardIdentifiers = (cards: Card[]) => {
       ({ set }) => set === Release.RhinarBlitzDeck,
     );
 
-    const candidates = new Set<Card>();
+    const candidates = new Set<PreliminaryCard>();
     for (const { identifier } of card.printings) {
       const matches = cardsByPrintingIdentifier.get(identifier);
       if (matches) {
@@ -494,7 +494,7 @@ export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
 };
 
 export const getMeta = (
-  card: Card,
+  card: PreliminaryCard,
   cardCountsByName: Map<string, number>,
 ): Meta[] => {
   const meta: Meta[] = [];

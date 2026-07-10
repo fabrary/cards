@@ -1,7 +1,8 @@
+import { PreliminaryCard } from "../Shared/preliminary-card";
 import { mapCSV } from "./mapper";
 import { parseCSV, ParsedCard } from "./parser";
 import { filterOutUnwantedCards } from "../Shared";
-import { Card, Rarity } from "@flesh-and-blood/types";
+import { Rarity } from "@flesh-and-blood/types";
 import { getPrint } from "@flesh-and-blood/types";
 import { combineAndAddMissingFields } from "../Shared/combined-and-missing-fields";
 import { getDefaultPrinting } from "@flesh-and-blood/types";
@@ -56,9 +57,9 @@ const parsedSpoiledPromoAndGemCards = (
     );
     return !matchingOverride;
   });
-const spoiledPromoCards: Card[] = mapCSV(parsedSpoiledPromoAndGemCards);
+const spoiledPromoCards: PreliminaryCard[] = mapCSV(parsedSpoiledPromoAndGemCards);
 
-const deduplicatedCards: Card[] = [...overrideCards];
+const deduplicatedCards: PreliminaryCard[] = [...overrideCards];
 
 spoiledSetCards.forEach((card) => {
   const duplicate = deduplicatedCards.find(

@@ -1,5 +1,5 @@
+import { PreliminaryCard } from "../preliminary-card";
 import {
-  Card,
   Class,
   Format,
   Hero,
@@ -283,7 +283,7 @@ export const getConfirmedBannedAndLegalFormats = ({
   sets,
   subtypes,
   types,
-}: Card): { bannedFormats?: Format[]; legalFormats: Format[] } => {
+}: PreliminaryCard): { bannedFormats?: Format[]; legalFormats: Format[] } => {
   const isHero = types.includes(Type.Hero);
 
   const isAnAdjudicator = classes.includes(Class.Adjudicator);

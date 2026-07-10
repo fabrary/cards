@@ -1,4 +1,5 @@
-import { Card, Hero } from "@flesh-and-blood/types";
+import { PreliminaryCard } from "./preliminary-card";
+import { Hero } from "@flesh-and-blood/types";
 import { shorthands as availableShorthands } from "./shorthands";
 
 const CARD_IDENTIFIER_TO_LOG = "";
@@ -59,7 +60,7 @@ const heroShortNames: heroShortName[] = [
   },
 ];
 
-export const getShortName = (card: Card): string | undefined => {
+export const getShortName = (card: PreliminaryCard): string | undefined => {
   if (card.cardIdentifier === CARD_IDENTIFIER_TO_LOG) {
     console.log(JSON.stringify(card, null, 2));
   }

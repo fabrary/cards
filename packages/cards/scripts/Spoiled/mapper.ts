@@ -1,3 +1,4 @@
+import { PreliminaryCard } from "../Shared/preliminary-card";
 import { releasedCards } from "../Released";
 import {
   addOppositeSideCardIdentifiers,
@@ -17,7 +18,6 @@ import {
 } from "../Shared";
 import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import {
-  Card,
   Class,
   Foiling,
   Format,
@@ -822,7 +822,7 @@ const getYoung = (card: ParsedCard): boolean | null => {
   return types.includes("Hero") && types.includes("Young") ? true : null;
 };
 
-const getCardData = (card: ParsedCard): Card => {
+const getCardData = (card: ParsedCard): PreliminaryCard => {
   const cardIdentifier = getCardIdentifier(card);
 
   const { metatypes, types, subtypes } = getTypeSubtypeAndMetatype(card);
@@ -907,7 +907,6 @@ const getCardData = (card: ParsedCard): Card => {
       printings,
     )?.image,
     legalFormats,
-    legalHeroes: [],
     name,
     printings,
     rarities,
@@ -950,7 +949,7 @@ const getCardData = (card: ParsedCard): Card => {
   };
 };
 
-export const mapCSV = (parsedCards: ParsedCard[]): Card[] => {
+export const mapCSV = (parsedCards: ParsedCard[]): PreliminaryCard[] => {
   const cards = parsedCards.map((parsedCard) => {
     return getCardData(parsedCard);
   });
