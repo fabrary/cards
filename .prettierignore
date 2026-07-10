@@ -1,0 +1,26 @@
+# Build output
+**/dist/
+
+# Generated card data — machine output, never hand-formatted (see CLAUDE.md)
+packages/cards/src/
+packages/cards/latest-set/
+packages/cards/tts/tts.txt
+packages/cards/sitemap/sitemap-cards.xml
+
+# Source / generated data files, maintained in their own format
+# (incl. the 19 MB the-fab-cube card.json and the cardvault image maps)
+packages/cards/scripts/**/*.json
+packages/cards/scripts/**/*.csv
+
+# Jest snapshots (owned by jest -u, not prettier)
+**/__snapshots__/
+
+# Dependency lockfile
+package-lock.json
+
+# Personal, git-excluded
+CLAUDE.md
+
+# Tooling caches
+.nx/
+coverage/

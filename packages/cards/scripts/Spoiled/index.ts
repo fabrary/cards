@@ -57,7 +57,9 @@ const parsedSpoiledPromoAndGemCards = (
     );
     return !matchingOverride;
   });
-const spoiledPromoCards: PreliminaryCard[] = mapCSV(parsedSpoiledPromoAndGemCards);
+const spoiledPromoCards: PreliminaryCard[] = mapCSV(
+  parsedSpoiledPromoAndGemCards,
+);
 
 const deduplicatedCards: PreliminaryCard[] = [...overrideCards];
 

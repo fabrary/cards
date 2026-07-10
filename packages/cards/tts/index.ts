@@ -4,7 +4,7 @@ import { cards } from "../dist/index";
 const generateTTSCardNameAndDescriptions = () => {
   const ttsCards = cards
     .flatMap((card) =>
-      card.setIdentifiers.map((setIdentifier) => ({ setIdentifier, card }))
+      card.setIdentifiers.map((setIdentifier) => ({ setIdentifier, card })),
     )
     .sort((c1, c2) => c1.setIdentifier.localeCompare(c2.setIdentifier))
     .map(({ setIdentifier, card }) => {

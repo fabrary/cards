@@ -162,7 +162,7 @@ export const shorthands: {
 
 export const multiWordShorthands = shorthands
   .filter(({ shorthands }) =>
-    shorthands.some((shorthand) => shorthand.includes(" "))
+    shorthands.some((shorthand) => shorthand.includes(" ")),
   )
   .map((shorthand) => ({
     ...shorthand,
@@ -174,7 +174,7 @@ export const multiWordShorthands = shorthands
 
 export const singleWordShorthands = shorthands
   .filter(({ shorthands }) =>
-    shorthands.some((shorthand) => !shorthand.includes(" "))
+    shorthands.some((shorthand) => !shorthand.includes(" ")),
   )
   .map((shorthand) => ({
     ...shorthand,

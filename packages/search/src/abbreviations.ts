@@ -7,16 +7,16 @@ export interface Abbreviation {
 }
 
 export const getAbbreviation = (
-  abbreviation: string
+  abbreviation: string,
 ): Abbreviation | undefined => {
   return abbreviations.find(({ abbreviations }) =>
-    abbreviations.find((a) => a.toLowerCase() === abbreviation)
+    abbreviations.find((a) => a.toLowerCase() === abbreviation),
   );
 };
 
 export const getAbbreviationByCard = (c: Card): Abbreviation | undefined => {
   return abbreviations.find(
-    ({ card }) => card.toLowerCase() === c.name.toLowerCase()
+    ({ card }) => card.toLowerCase() === c.name.toLowerCase(),
   );
 };
 

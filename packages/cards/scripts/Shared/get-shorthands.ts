@@ -5,7 +5,9 @@ import { shorthands as availableShorthands } from "./shorthands";
 const CARD_IDENTIFIER_TO_LOG = "";
 // const CARD_IDENTIFIER_TO_LOG = "zoom-in-blue";
 
-export const getShorthands = (card: PreliminaryCard): Shorthand[] | undefined => {
+export const getShorthands = (
+  card: PreliminaryCard,
+): Shorthand[] | undefined => {
   const cardShorthands: Shorthand[] = [];
 
   if (card.cardIdentifier === CARD_IDENTIFIER_TO_LOG) {
@@ -45,7 +47,7 @@ export const getShorthands = (card: PreliminaryCard): Shorthand[] | undefined =>
 
     if (filters.keywords && filters.keywords.length > 0) {
       const matches = filters.keywords.every((keyword) =>
-        card.keywords?.includes(keyword)
+        card.keywords?.includes(keyword),
       );
       if (matches) {
         matchesAtLeastOneFilter = true;
@@ -55,7 +57,7 @@ export const getShorthands = (card: PreliminaryCard): Shorthand[] | undefined =>
 
     if (filters.notClass && filters.notClass.length > 0) {
       const matches = filters.notClass.every(
-        (notClass) => !card.classes.includes(notClass)
+        (notClass) => !card.classes.includes(notClass),
       );
       if (matches) {
         matchesAtLeastOneFilter = true;
@@ -81,7 +83,7 @@ export const getShorthands = (card: PreliminaryCard): Shorthand[] | undefined =>
 
     if (filters.subtypes && filters.subtypes.length > 0) {
       const matches = filters.subtypes.every((subtype) =>
-        card.subtypes?.includes(subtype)
+        card.subtypes?.includes(subtype),
       );
       if (matches) {
         matchesAtLeastOneFilter = true;
@@ -107,8 +109,8 @@ export const getShorthands = (card: PreliminaryCard): Shorthand[] | undefined =>
             matchesAtLeastOneFilter,
           },
           null,
-          2
-        )
+          2,
+        ),
       );
     }
     if (shouldAddShorthand) {

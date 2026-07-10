@@ -28,7 +28,9 @@ const files = readdirSync(spoiledDir)
   .sort();
 
 for (const file of files) {
-  const cards = mapCSV(parseCSV(`${spoiledDir}/${file}`).filter((c) => !!c.name));
+  const cards = mapCSV(
+    parseCSV(`${spoiledDir}/${file}`).filter((c) => !!c.name),
+  );
   if (!cards.length) continue;
 
   const removable: string[] = [];
@@ -50,9 +52,13 @@ for (const file of files) {
   if (!removable.length) continue;
 
   if (removable.length === cards.length) {
-    console.log(`\n${file} — ENTIRE FILE removable (${cards.length} cards already in card.json)`);
+    console.log(
+      `\n${file} — ENTIRE FILE removable (${cards.length} cards already in card.json)`,
+    );
   } else {
-    console.log(`\n${file} — ${removable.length}/${cards.length} rows removable:`);
+    console.log(
+      `\n${file} — ${removable.length}/${cards.length} rows removable:`,
+    );
     removable.sort().forEach((l) => console.log(l));
   }
 }

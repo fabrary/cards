@@ -16,13 +16,20 @@
     "test": "lerna run test",
     "typecheck": "lerna run typecheck",
     "update:dependencies": "lerna run update:dependencies",
-    "update:snapshots": "lerna run update:snapshots"
+    "update:snapshots": "lerna run update:snapshots",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{ts,js,mjs,cjs,json,md,yml,yaml}": "prettier --write"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@types/jest": "^30.0.0",
     "eslint": "^9.39.4",
+    "husky": "^9.1.7",
     "lerna": "^8.0.1",
+    "lint-staged": "^17.0.8",
+    "prettier": "^3.9.5",
     "typescript-eslint": "^8.63.0"
   }
 }

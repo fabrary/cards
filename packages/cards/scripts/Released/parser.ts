@@ -177,10 +177,10 @@ const artVariationsToAdd = {
 
 export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
   const jsonCards = JSON.parse(
-    readFileSync(cardJSON, "utf-8")
+    readFileSync(cardJSON, "utf-8"),
   ) as SourceJSONCard[];
   const jsonSets = JSON.parse(
-    readFileSync(setJSON, "utf-8")
+    readFileSync(setJSON, "utf-8"),
   ) as SourceJSONSet[];
 
   return jsonCards.map(
@@ -247,14 +247,14 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
 
             const matchingSet = jsonSets.find(({ printings }) =>
               printings.some(
-                ({ unique_id }) => unique_id === set_printing_unique_id
-              )
+                ({ unique_id }) => unique_id === set_printing_unique_id,
+              ),
             );
             let set: Release = Release.Promos;
 
             if (!matchingSet) {
               throw new Error(
-                `No set found for ${set_id} ${set_printing_unique_id}`
+                `No set found for ${set_id} ${set_printing_unique_id}`,
               );
             } else {
               const validSets = Object.keys(setToSetIdentifierMappings);
@@ -263,7 +263,7 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
                 matchingSet.name = Release.ArakniBlitzDeckARK;
               }
               const matchingValidSet = validSets.find(
-                (setName) => setName === matchingSet.name
+                (setName) => setName === matchingSet.name,
               );
               if (matchingValidSet) {
                 set = matchingValidSet as Release;
@@ -321,21 +321,21 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
               setIdentifier: id.trim(),
               tcgplayer,
             };
-          }
+          },
         )
         .filter(filterOutUnwantedPrintings);
 
       const artists: string[] = Array.from(
-        new Set(printings.flatMap(({ artists }) => artists))
+        new Set(printings.flatMap(({ artists }) => artists)),
       );
       const rarities: string[] = Array.from(
-        new Set(printings.map(({ rarity }) => rarity.trim()))
+        new Set(printings.map(({ rarity }) => rarity.trim())),
       );
       const setIdentifiers: string[] = Array.from(
-        new Set(printings.map(({ setIdentifier }) => setIdentifier))
+        new Set(printings.map(({ setIdentifier }) => setIdentifier)),
       ).filter((setIdentifier) => !!setIdentifier);
       const sets: string[] = Array.from(
-        new Set(printings.map(({ set }) => set))
+        new Set(printings.map(({ set }) => set)),
       );
 
       const typesToUse = name === "Marked" ? [Type.Token] : types;
@@ -381,6 +381,6 @@ export const parseJSON = (cardJSON: string, setJSON: string): ParsedCard[] => {
         silverAgeBanned: silver_age_banned,
         silverAgeLegal: silver_age_legal,
       };
-    }
+    },
   );
 };

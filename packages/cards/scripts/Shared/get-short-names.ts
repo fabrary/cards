@@ -66,7 +66,7 @@ export const getShortName = (card: PreliminaryCard): string | undefined => {
   }
 
   const matchingShortName = heroShortNames.find(({ heroIdentifiers }) =>
-    heroIdentifiers.includes(card.cardIdentifier)
+    heroIdentifiers.includes(card.cardIdentifier),
   )?.shortName;
 
   return matchingShortName;

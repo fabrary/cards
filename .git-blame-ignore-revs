@@ -1,0 +1,5 @@
+# git blame revisions to skip — bulk mechanical reformats with no logical authorship.
+# Enable locally once:  git config blame.ignoreRevsFile .git-blame-ignore-revs
+# (GitHub applies this file automatically.)
+
+# Repo-wide Prettier sweep — paste the sweep commit's SHA below after committing it:

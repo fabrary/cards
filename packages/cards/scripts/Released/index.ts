@@ -18,7 +18,7 @@ const parsedCards = parseJSON(releasedCardsFile, releasedSetsFile)
 
 export const releasedCards = mapJSON(parsedCards).filter(({ sets }) => {
   const isNotOnlyInReleasesToSkip = !sets.every((release) =>
-    releasesToSkip.includes(release)
+    releasesToSkip.includes(release),
   );
 
   return isNotOnlyInReleasesToSkip;

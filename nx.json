@@ -1,51 +1,31 @@
 {
   "targetDefaults": {
     "build": {
-      "dependsOn": [
-        "prebuild",
-        "^build"
-      ],
-      "outputs": [
-        "{projectRoot}/dist"
-      ],
+      "dependsOn": ["prebuild", "^build"],
+      "outputs": ["{projectRoot}/dist"],
       "cache": true
     },
     "full": {
-      "dependsOn": [
-        "^full"
-      ],
-      "outputs": [
-        "{projectRoot}/dist"
-      ],
+      "dependsOn": ["^full"],
+      "outputs": ["{projectRoot}/dist"],
       "cache": true
     },
     "test": {
-      "outputs": [
-        "{projectRoot}/coverage"
-      ],
+      "outputs": ["{projectRoot}/coverage"],
       "cache": true
     },
     "tts": {
-      "outputs": [
-        "{projectRoot}/tts"
-      ],
+      "outputs": ["{projectRoot}/tts"],
       "cache": true
     },
     "sitemap": {
-      "outputs": [
-        "{projectRoot}/sitemap"
-      ],
+      "outputs": ["{projectRoot}/sitemap"],
       "cache": true
     }
   },
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "sharedGlobals": [],
-    "production": [
-      "default"
-    ]
+    "production": ["default"]
   }
 }

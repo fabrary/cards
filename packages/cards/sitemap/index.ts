@@ -28,7 +28,7 @@ const createCardSitemap = (existingEntries: SitemapUrl[]) => {
   ${cards
     .map(({ cardIdentifier }) => {
       const matching = existingEntries.find(
-        (existing) => existing.loc.replace(CARD_URL, "") === cardIdentifier
+        (existing) => existing.loc.replace(CARD_URL, "") === cardIdentifier,
       );
       return `<url>
     <loc>${CARD_URL}${cardIdentifier}</loc>

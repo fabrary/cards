@@ -3,12 +3,12 @@ const { cards } = require("@flesh-and-blood/cards");
 const chalk = require("chalk");
 
 const wizardCards = cards.filter(({ classes }) =>
-  classes.includes(Clazz.Wizard)
+  classes.includes(Clazz.Wizard),
 );
 const firstWizardCard = wizardCards[0];
 
 const brightLightsCards = cards.filter(({ sets }) =>
-  sets.includes(Release.BrightLights)
+  sets.includes(Release.BrightLights),
 );
 const firstBrightLightsCard = brightLightsCards[0];
 
@@ -31,7 +31,7 @@ console.log(orange`${JSON.stringify(firstWizardCard, null, 2)}
 const green = chalk.green;
 console.log(green.bold`${brightLightsCards.length} Bright Lights cards found.`);
 console.log(
-  green`First Bright Lights card found: ${firstBrightLightsCard.name}`
+  green`First Bright Lights card found: ${firstBrightLightsCard.name}`,
 );
 console.log(green`${JSON.stringify(firstBrightLightsCard, null, 2)}
 `);
