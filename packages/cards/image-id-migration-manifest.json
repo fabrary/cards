@@ -1,6 +1,28 @@
 {
-  "fullyMigratedSets": ["ZEN", "WTR", "WIN", "VIC", "UPR"],
-  "setsToMigrate": ["ZEN", "WTR", "WIN", "VIC", "UPR"],
+  "fullyMigratedSets": [
+    "ZEN",
+    "WTR",
+    "WIN",
+    "VIC",
+    "UPR",
+    "TEA",
+    "TCC",
+    "SEA",
+    "RVD",
+    "ROS"
+  ],
+  "setsToMigrate": [
+    "ZEN",
+    "WTR",
+    "WIN",
+    "VIC",
+    "UPR",
+    "TEA",
+    "TCC",
+    "SEA",
+    "RVD",
+    "ROS"
+  ],
   "sets": [
     "1HP",
     "AAZ",

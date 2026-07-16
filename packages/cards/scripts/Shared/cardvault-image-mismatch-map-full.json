@@ -488,7 +488,7 @@
     },
     "ROS008-Cold-Alternate Art-Full Art-Back-V3": {
       "before": "ROS008-MV_V2_BACK",
-      "after": "ROS008-MV_BACK"
+      "after": "ROS008-MVA_BACK"
     }
   },
   "aurora-shooting-star": {
@@ -6824,7 +6824,7 @@
     },
     "ROS162-Alternate Art": {
       "before": "ROS162",
-      "after": "ROS162-B"
+      "after": "ROS162-A"
     },
     "CRU157-Unlimited-Rainbow": {
       "before": "U-CRU157",
