@@ -1,1812 +1,1550 @@
 {
   "agile-windup-red": {
-    "RNR008": {
-      "identifier": "RHI008",
-      "edition": "",
-      "face_id": "RHI008",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI008.webp"
+    "RHI008": {
+      "before": "RNR008",
+      "after": "RHI008"
     }
   },
   "agile-windup-yellow": {
-    "RNR017": {
-      "identifier": "RHI017",
-      "edition": "",
-      "face_id": "RHI017",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI017.webp"
+    "RHI017": {
+      "before": "RNR017",
+      "after": "RHI017"
     }
   },
   "agility": {
-    "RNR029": {
-      "identifier": "RHI029",
-      "edition": "",
-      "face_id": "RHI029",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI029.webp"
+    "RHI029": {
+      "before": "RNR029",
+      "after": "RHI029"
     }
   },
   "angelic-wrath-blue": {
-    "23_07_armorykit_LGS163.width-10000": {
-      "identifier": "LGS163",
-      "edition": "",
-      "face_id": "LGS163-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS163-RF.webp"
+    "LGS163-Rainbow-Extended Art": {
+      "before": "23_07_armorykit_LGS163.width-10000",
+      "after": "LGS163-RF"
     }
   },
   "angelic-wrath-red": {
-    "23_07_armorykit_LGS161.width-10000": {
-      "identifier": "LGS161",
-      "edition": "",
-      "face_id": "LGS161-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS161-RF.webp"
+    "LGS161-Rainbow-Extended Art": {
+      "before": "23_07_armorykit_LGS161.width-10000",
+      "after": "LGS161-RF"
     }
   },
   "angelic-wrath-yellow": {
-    "23_07_armorykit_LGS162.width-10000": {
-      "identifier": "LGS162",
-      "edition": "",
-      "face_id": "LGS162-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS162-RF.webp"
+    "LGS162-Rainbow-Extended Art": {
+      "before": "23_07_armorykit_LGS162.width-10000",
+      "after": "LGS162-RF"
     }
   },
   "anothos": {
-    "BVO3": {
-      "identifier": "BVO003",
-      "edition": "",
-      "face_id": "BVO003",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO003.webp"
+    "BVO003": {
+      "before": "BVO3",
+      "after": "BVO003"
     }
   },
   "assault-and-battery-blue": {
-    "RNR021": {
-      "identifier": "RHI021",
-      "edition": "",
-      "face_id": "RHI021",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI021.webp"
+    "RHI021": {
+      "before": "RNR021",
+      "after": "RHI021"
     }
   },
   "assault-and-battery-red": {
-    "RNR009": {
-      "identifier": "RHI009",
-      "edition": "",
-      "face_id": "RHI009",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI009.webp"
+    "RHI009": {
+      "before": "RNR009",
+      "after": "RHI009"
     }
   },
   "awakening-bellow-blue": {
-    "RNR24": {
-      "identifier": "RNR024",
-      "edition": "",
-      "face_id": "RNR024",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR024.webp"
+    "RNR024": {
+      "before": "RNR24",
+      "after": "RNR024"
     }
   },
   "awakening-bellow-red": {
-    "RNR14": {
-      "identifier": "RNR014",
-      "edition": "",
-      "face_id": "RNR014",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR014.webp"
+    "RNR014": {
+      "before": "RNR14",
+      "after": "RNR014"
     }
   },
   "ball-breaker": {
-    "RNR002": {
-      "identifier": "RHI002",
-      "edition": "",
-      "face_id": "RHI002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI002.webp"
+    "RHI002": {
+      "before": "RNR002",
+      "after": "RHI002"
     }
   },
   "bare-fangs-red": {
-    "RNR010": {
-      "identifier": "RHI010",
-      "edition": "",
-      "face_id": "RHI010",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI010.webp"
+    "RHI010": {
+      "before": "RNR010",
+      "after": "RHI010"
     }
   },
   "barkbone-strapping": {
-    "RNR5": {
-      "identifier": "RNR005",
-      "edition": "",
-      "face_id": "RNR005",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR005.webp"
+    "RNR005": {
+      "before": "RNR5",
+      "after": "RNR005"
     }
   },
   "barraging-beatdown-blue": {
-    "RNR25": {
-      "identifier": "RNR025",
-      "edition": "",
-      "face_id": "RNR025",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR025.webp"
+    "RNR025": {
+      "before": "RNR25",
+      "after": "RNR025"
     }
   },
   "barraging-beatdown-yellow": {
-    "RNR18": {
-      "identifier": "RNR018",
-      "edition": "",
-      "face_id": "RNR018",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR018.webp"
+    "RNR018": {
+      "before": "RNR18",
+      "after": "RNR018"
     }
   },
   "barraging-brawnhide-blue": {
-    "BVO23": {
-      "identifier": "BVO023",
-      "edition": "",
-      "face_id": "BVO023",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO023.webp"
+    "BVO023": {
+      "before": "BVO23",
+      "after": "BVO023"
     }
   },
   "barraging-brawnhide-yellow": {
-    "RNR19": {
-      "identifier": "RNR019",
-      "edition": "",
-      "face_id": "RNR019",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR019.webp"
+    "RNR019": {
+      "before": "RNR19",
+      "after": "RNR019"
     }
   },
   "battlefield-blitz-red": {
-    "UMON036": {
-      "identifier": "MON036",
-      "edition": "Unlimited",
-      "face_id": "U-MON036",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON036.webp"
+    "MON036-Unlimited": {
+      "before": "UMON036",
+      "after": "U-MON036"
+    },
+    "MON036-Unlimited-Rainbow": {
+      "before": "UMON036",
+      "after": "U-MON036-RF"
     }
   },
   "beast-mode-red": {
-    "RNR011": {
-      "identifier": "RHI011",
-      "edition": "",
-      "face_id": "RHI011",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI011.webp"
+    "RHI011": {
+      "before": "RNR011",
+      "after": "RHI011"
     }
   },
   "biting-blade-blue": {
-    "TEA20": {
-      "identifier": "TEA020",
-      "edition": "",
-      "face_id": "TEA020",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA020.webp"
+    "TEA020": {
+      "before": "TEA20",
+      "after": "TEA020"
     }
   },
   "biting-blade-red": {
-    "TEA8": {
-      "identifier": "TEA008",
-      "edition": "",
-      "face_id": "TEA008",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA008.webp"
+    "TEA008": {
+      "before": "TEA8",
+      "after": "TEA008"
     }
   },
   "blackout-kick-red": {
-    "KSU9": {
-      "identifier": "KSU009",
-      "edition": "",
-      "face_id": "KSU009",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU009.webp"
+    "KSU009": {
+      "before": "KSU9",
+      "after": "KSU009"
     }
   },
   "blessing-of-deliverance-blue": {
-    "BVO21": {
-      "identifier": "BVO021",
-      "edition": "",
-      "face_id": "BVO021",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO021.webp"
+    "BVO021": {
+      "before": "BVO21",
+      "after": "BVO021"
     }
   },
   "blossoming-spellblade-red": {
-    "ELE064_Blossoming_Spellblade.width-10000": {
-      "identifier": "ELE064",
-      "edition": "Unlimited",
-      "face_id": "U-ELE064",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE064.webp"
+    "ELE064-Unlimited": {
+      "before": "ELE064_Blossoming_Spellblade.width-10000",
+      "after": "U-ELE064"
+    },
+    "ELE064-Unlimited-Rainbow": {
+      "before": "ELE064_Blossoming_Spellblade.width-10000",
+      "after": "U-ELE064-RF"
     }
   },
   "bonebreaker-bellow-blue": {
-    "RNR024": {
-      "identifier": "RHI024",
-      "edition": "",
-      "face_id": "RHI024",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI024.webp"
+    "RHI024-Extended Art": {
+      "before": "RNR024",
+      "after": "RHI024"
     }
   },
   "bonebreaker-bellow-red": {
-    "RNR016": {
-      "identifier": "RHI016",
-      "edition": "",
-      "face_id": "RHI016",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI016.webp"
+    "RHI016-Extended Art": {
+      "before": "RNR016",
+      "after": "RHI016"
     }
   },
   "bonebreaker-bellow-yellow": {
-    "RNR020": {
-      "identifier": "RHI020",
-      "edition": "",
-      "face_id": "RHI020",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI020.webp"
+    "RHI020-Extended Art": {
+      "before": "RNR020",
+      "after": "RHI020"
     }
   },
   "boneyard-marauder-yellow": {
-    "UMON136": {
-      "identifier": "MON136",
-      "edition": "Unlimited",
-      "face_id": "U-MON136",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON136.webp"
+    "MON136-Unlimited": {
+      "before": "UMON136",
+      "after": "U-MON136"
+    },
+    "MON136-Unlimited-Rainbow": {
+      "before": "UMON136",
+      "after": "U-MON136-RF"
     }
   },
   "bravo": {
-    "BVO2": {
-      "identifier": "BVO002",
-      "edition": "",
-      "face_id": "BVO002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO002.webp"
+    "BVO002": {
+      "before": "BVO2",
+      "after": "BVO002"
     }
   },
   "bravo-showstopper": {
-    "BVO": {
-      "identifier": "BVO001",
-      "edition": "",
-      "face_id": "BVO001",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO001.webp"
+    "BVO001": {
+      "before": "BVO",
+      "after": "BVO001"
     }
   },
   "break-ground-yellow": {
-    "U.ELE132": {
-      "identifier": "ELE132",
-      "edition": "Unlimited",
-      "face_id": "U-ELE132",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE132.webp"
+    "ELE132-Unlimited": {
+      "before": "U.ELE132",
+      "after": "U-ELE132"
+    },
+    "ELE132-Unlimited-Rainbow": {
+      "before": "U.ELE132",
+      "after": "U-ELE132-RF"
     }
   },
   "breaking-scales": {
-    "KSU7": {
-      "identifier": "KSU007",
-      "edition": "",
-      "face_id": "KSU007",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU007.webp"
+    "KSU007": {
+      "before": "KSU7",
+      "after": "KSU007"
     }
   },
   "breakneck-battery-red": {
-    "RNR8": {
-      "identifier": "RNR008",
-      "edition": "",
-      "face_id": "RNR008",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR008.webp"
+    "RNR008": {
+      "before": "RNR8",
+      "after": "RNR008"
     }
   },
   "buckling-blow-blue": {
-    "BVO16": {
-      "identifier": "BVO016",
-      "edition": "",
-      "face_id": "BVO016",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO016.webp"
+    "BVO016": {
+      "before": "BVO16",
+      "after": "BVO016"
     }
   },
   "buckling-blow-red": {
-    "BVO8": {
-      "identifier": "BVO008",
-      "edition": "",
-      "face_id": "BVO008",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO008.webp"
+    "BVO008": {
+      "before": "BVO8",
+      "after": "BVO008"
     }
   },
   "cartilage-crush-blue": {
-    "BVO17": {
-      "identifier": "BVO017",
-      "edition": "",
-      "face_id": "BVO017",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO017.webp"
+    "BVO017": {
+      "before": "BVO17",
+      "after": "BVO017"
     }
   },
   "cartilage-crush-red": {
-    "BVO9": {
-      "identifier": "BVO009",
-      "edition": "",
-      "face_id": "BVO009",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO009.webp"
+    "BVO009": {
+      "before": "BVO9",
+      "after": "BVO009"
     }
   },
   "codex-of-bloodrot-yellow": {
-    "EN_OUT_marvels_v1.0_FINAL_noopw": {
-      "identifier": "OUT159",
-      "edition": "",
-      "face_id": "OUT159",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT159.webp"
+    "OUT159-Cold-Alternate Art-Full Art": {
+      "before": "EN_OUT_marvels_v1.0_FINAL_noopw",
+      "after": "OUT159-MV"
     }
   },
   "codex-of-frailty-yellow": {
-    "EN_OUT_marvels_v1.0_FINAL_noopw2": {
-      "identifier": "OUT160",
-      "edition": "",
-      "face_id": "OUT160",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT160.webp"
+    "OUT160-Cold-Alternate Art-Full Art": {
+      "before": "EN_OUT_marvels_v1.0_FINAL_noopw2",
+      "after": "OUT160-MV"
     }
   },
   "codex-of-inertia-yellow": {
-    "EN_OUT_marvels_v1.0_FINAL_noopw3": {
-      "identifier": "OUT161",
-      "edition": "",
-      "face_id": "OUT161",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT161.webp"
+    "OUT161-Cold-Alternate Art-Full Art": {
+      "before": "EN_OUT_marvels_v1.0_FINAL_noopw3",
+      "after": "OUT161-MV"
     }
   },
   "cognition-nodes-blue": {
-    "ARC018_Cognition_Nodes.width-10000": {
-      "identifier": "ARC018",
-      "edition": "Unlimited/First",
-      "face_id": "ARC018",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARC018.webp"
+    "ARC018-Unlimited-Rainbow": {
+      "before": "ARC018_Cognition_Nodes.width-10000",
+      "after": "U-ARC018-RF"
+    },
+    "ARC018-First-Rainbow": {
+      "before": "ARC018_Cognition_Nodes.width-10000",
+      "after": "ARC018-RF"
     }
   },
   "collapsing-trap-blue": {
-    "OUT103.width-350": {
-      "identifier": "OUT103",
-      "edition": "",
-      "face_id": "OUT103",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT103.webp"
+    "OUT103": {
+      "before": "OUT103.width-350",
+      "after": "OUT103"
+    },
+    "OUT103-Rainbow": {
+      "before": "OUT103.width-350",
+      "after": "OUT103-RF"
     }
   },
   "crush-confidence-blue": {
-    "BVO18": {
-      "identifier": "BVO018",
-      "edition": "",
-      "face_id": "BVO018",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO018.webp"
+    "BVO018": {
+      "before": "BVO18",
+      "after": "BVO018"
     }
   },
   "dawnblade": {
-    "TEA3": {
-      "identifier": "TEA003",
-      "edition": "",
-      "face_id": "TEA003",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA003.webp"
+    "TEA003": {
+      "before": "TEA3",
+      "after": "TEA003"
     }
   },
   "debilitate-red": {
-    "BVO10": {
-      "identifier": "BVO010",
-      "edition": "",
-      "face_id": "BVO010",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO010.webp"
+    "BVO010": {
+      "before": "BVO10",
+      "after": "BVO010"
     }
   },
   "debilitate-yellow": {
-    "BVO13": {
-      "identifier": "BVO013",
-      "edition": "",
-      "face_id": "BVO013",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO013.webp"
+    "BVO013": {
+      "before": "BVO13",
+      "after": "BVO013"
     }
   },
   "disable-blue": {
-    "BVO19": {
-      "identifier": "BVO019",
-      "edition": "",
-      "face_id": "BVO019",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO019.webp"
+    "BVO019": {
+      "before": "BVO19",
+      "after": "BVO019"
     }
   },
   "disable-red": {
-    "BVO11": {
-      "identifier": "BVO011",
-      "edition": "",
-      "face_id": "BVO011",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO011.webp"
+    "BVO011": {
+      "before": "BVO11",
+      "after": "BVO011"
     }
   },
   "dishonor-blue": {
-    "OUT051_tyYCr6g": {
-      "identifier": "OUT051",
-      "edition": "",
-      "face_id": "OUT051",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT051.webp"
+    "OUT051": {
+      "before": "OUT051_tyYCr6g",
+      "after": "OUT051"
+    },
+    "OUT051-Rainbow": {
+      "before": "OUT051_tyYCr6g",
+      "after": "OUT051-RF"
     }
   },
   "dorinthea": {
-    "TEA2": {
-      "identifier": "TEA002",
-      "edition": "",
-      "face_id": "TEA002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA002.webp"
+    "TEA002": {
+      "before": "TEA2",
+      "after": "TEA002"
     }
   },
   "dorinthea-ironsong": {
-    "TEA": {
-      "identifier": "TEA001",
-      "edition": "",
-      "face_id": "TEA001",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA001.webp"
+    "TEA001": {
+      "before": "TEA",
+      "after": "TEA001"
     }
   },
   "driving-blade-blue": {
-    "TEA22": {
-      "identifier": "TEA022",
-      "edition": "",
-      "face_id": "TEA022",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA022.webp"
+    "TEA022": {
+      "before": "TEA22",
+      "after": "TEA022"
     }
   },
   "driving-blade-red": {
-    "TEA12": {
-      "identifier": "TEA012",
-      "edition": "",
-      "face_id": "TEA012",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA012.webp"
+    "TEA012": {
+      "before": "TEA12",
+      "after": "TEA012"
     }
   },
   "drone-of-brutality-blue": {
-    "BVO25": {
-      "identifier": "BVO025",
-      "edition": "",
-      "face_id": "BVO025",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO025.webp"
+    "BVO025": {
+      "before": "BVO25",
+      "after": "BVO025"
     }
   },
   "drone-of-brutality-red": {
-    "RNR15": {
-      "identifier": "RNR015",
-      "edition": "",
-      "face_id": "RNR015",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR015.webp"
+    "RNR015": {
+      "before": "RNR15",
+      "after": "RNR015"
     }
   },
   "emerging-power-red": {
-    "BVO12": {
-      "identifier": "BVO012",
-      "edition": "",
-      "face_id": "BVO012",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO012.webp"
+    "BVO012": {
+      "before": "BVO12",
+      "after": "BVO012"
     }
   },
   "emerging-power-yellow": {
-    "BVO14": {
-      "identifier": "BVO014",
-      "edition": "",
-      "face_id": "BVO014",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO014.webp"
+    "BVO014": {
+      "before": "BVO14",
+      "after": "BVO014"
     }
   },
   "endless-maw-blue": {
-    "SAy5p6Yoa21bM89UuG8l4": {
-      "identifier": "MON128",
-      "edition": "First",
-      "face_id": "MON128",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON128.webp"
+    "MON128-First": {
+      "before": "SAy5p6Yoa21bM89UuG8l4",
+      "after": "MON128"
+    },
+    "MON128-First-Rainbow": {
+      "before": "SAy5p6Yoa21bM89UuG8l4",
+      "after": "MON128-RF"
     }
   },
   "endless-maw-red": {
-    "8Hvi6X0i746eD8UVlBjt": {
-      "identifier": "MON126",
-      "edition": "First",
-      "face_id": "MON126",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON126.webp"
+    "MON126-First": {
+      "before": "8Hvi6X0i746eD8UVlBjt",
+      "after": "MON126"
     },
-    "UMON126": {
-      "identifier": "MON126",
-      "edition": "Unlimited",
-      "face_id": "U-MON126",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON126.webp"
+    "MON126-First-Rainbow": {
+      "before": "8Hvi6X0i746eD8UVlBjt",
+      "after": "MON126-RF"
+    },
+    "MON126-Unlimited": {
+      "before": "UMON126",
+      "after": "U-MON126"
+    },
+    "MON126-Unlimited-Rainbow": {
+      "before": "UMON126",
+      "after": "U-MON126-RF"
     }
   },
   "endless-maw-yellow": {
-    "3HnONyYapgg32MEXbFXUB": {
-      "identifier": "MON127",
-      "edition": "First",
-      "face_id": "MON127",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON127.webp"
+    "MON127-First": {
+      "before": "3HnONyYapgg32MEXbFXUB",
+      "after": "MON127"
+    },
+    "MON127-First-Rainbow": {
+      "before": "3HnONyYapgg32MEXbFXUB",
+      "after": "MON127-RF"
     }
   },
   "endless-winter-red": {
-    "UELE004": {
-      "identifier": "ELE004",
-      "edition": "Unlimited",
-      "face_id": "U-ELE004",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE004.webp"
+    "ELE004-Unlimited": {
+      "before": "UELE004",
+      "after": "U-ELE004"
+    },
+    "ELE004-Unlimited-Rainbow": {
+      "before": "UELE004",
+      "after": "U-ELE004-RF"
     }
   },
   "energy-potion-blue": {
-    "KSU29": {
-      "identifier": "KSU029",
-      "edition": "",
-      "face_id": "KSU029",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU029.webp"
+    "KSU029": {
+      "before": "KSU29",
+      "after": "KSU029"
     },
-    "TEA28": {
-      "identifier": "TEA028",
-      "edition": "",
-      "face_id": "TEA028",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA028.webp"
+    "TEA028": {
+      "before": "TEA28",
+      "after": "TEA028"
     }
   },
   "evergreen-blue": {
-    "ELE121_Evergreen.width-10000": {
-      "identifier": "ELE121",
-      "edition": "Unlimited",
-      "face_id": "U-ELE121",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE121.webp"
+    "ELE121-Unlimited": {
+      "before": "ELE121_Evergreen.width-10000",
+      "after": "U-ELE121"
+    },
+    "ELE121-Unlimited-Rainbow": {
+      "before": "ELE121_Evergreen.width-10000",
+      "after": "U-ELE121-RF"
     }
   },
   "evergreen-red": {
-    "ELE119_Evergreen.width-10000": {
-      "identifier": "ELE119",
-      "edition": "Unlimited",
-      "face_id": "U-ELE119",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE119.webp"
+    "ELE119-Unlimited": {
+      "before": "ELE119_Evergreen.width-10000",
+      "after": "U-ELE119"
+    },
+    "ELE119-Unlimited-Rainbow": {
+      "before": "ELE119_Evergreen.width-10000",
+      "after": "U-ELE119-RF"
     }
   },
   "evergreen-yellow": {
-    "ELE120_Evergreen.width-10000": {
-      "identifier": "ELE120",
-      "edition": "Unlimited",
-      "face_id": "U-ELE120",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE120.webp"
+    "ELE120-Unlimited": {
+      "before": "ELE120_Evergreen.width-10000",
+      "after": "U-ELE120"
+    },
+    "ELE120-Unlimited-Rainbow": {
+      "before": "ELE120_Evergreen.width-10000",
+      "after": "U-ELE120-RF"
     }
   },
   "flat-trackers": {
-    "RNR007": {
-      "identifier": "RHI007",
-      "edition": "",
-      "face_id": "RHI007",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI007.webp"
+    "RHI007": {
+      "before": "RNR007",
+      "after": "RHI007"
     }
   },
   "fletch-a-red-tail-red": {
-    "OUT109_MXRPsJl": {
-      "identifier": "OUT109",
-      "edition": "",
-      "face_id": "OUT109",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT109.webp"
+    "OUT109": {
+      "before": "OUT109_MXRPsJl",
+      "after": "OUT109"
+    },
+    "OUT109-Rainbow": {
+      "before": "OUT109_MXRPsJl",
+      "after": "OUT109-RF"
     }
   },
   "flic-flak-blue": {
-    "KSU25": {
-      "identifier": "KSU025",
-      "edition": "",
-      "face_id": "KSU025",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU025.webp"
+    "KSU025": {
+      "before": "KSU25",
+      "after": "KSU025"
     }
   },
   "flock-of-the-feather-walkers-blue": {
-    "RNR27": {
-      "identifier": "RNR027",
-      "edition": "",
-      "face_id": "RNR027",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR027.webp"
+    "RNR027": {
+      "before": "RNR27",
+      "after": "RNR027"
     },
-    "TEA26": {
-      "identifier": "TEA026",
-      "edition": "",
-      "face_id": "TEA026",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA026.webp"
+    "TEA026": {
+      "before": "TEA26",
+      "after": "TEA026"
     }
   },
   "fluster-fist-blue": {
-    "KSU22": {
-      "identifier": "KSU022",
-      "edition": "",
-      "face_id": "KSU022",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU022.webp"
+    "KSU022": {
+      "before": "KSU22",
+      "after": "KSU022"
     }
   },
   "fluster-fist-red": {
-    "KSU10": {
-      "identifier": "KSU010",
-      "edition": "",
-      "face_id": "KSU010",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU010.webp"
+    "KSU010": {
+      "before": "KSU10",
+      "after": "KSU010"
     }
   },
   "forked-lightning-red": {
-    "ARC120_Forked_Lightning.width-10000": {
-      "identifier": "ARC120",
-      "edition": "Unlimited",
-      "face_id": "U-ARC120",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC120.webp"
+    "ARC120-Unlimited": {
+      "before": "ARC120_Forked_Lightning.width-10000",
+      "after": "U-ARC120"
+    },
+    "ARC120-Unlimited-Rainbow": {
+      "before": "ARC120_Forked_Lightning.width-10000",
+      "after": "U-ARC120-RF"
     }
   },
   "fractal-replication-red": {
-    "EVR138_Fractal_Replication.width-10000": {
-      "identifier": "EVR138",
-      "edition": "First",
-      "face_id": "EVR138",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR138.webp"
+    "EVR138-First": {
+      "before": "EVR138_Fractal_Replication.width-10000",
+      "after": "EVR138"
+    },
+    "EVR138-First-Rainbow": {
+      "before": "EVR138_Fractal_Replication.width-10000",
+      "after": "EVR138-RF"
     }
   },
   "gamblers-gloves": {
-    "CRU179_Gamblers_Gloves.width-10000": {
-      "identifier": "CRU179",
-      "edition": "Unlimited",
-      "face_id": "U-CRU179",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU179.webp"
+    "CRU179-Unlimited": {
+      "before": "CRU179_Gamblers_Gloves.width-10000",
+      "after": "U-CRU179"
+    },
+    "CRU179-Unlimited-Rainbow": {
+      "before": "CRU179_Gamblers_Gloves.width-10000",
+      "after": "U-CRU179-RF"
     }
   },
   "gauntlet-of-might": {
-    "RNR006": {
-      "identifier": "RHI006",
-      "edition": "",
-      "face_id": "RHI006",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI006.webp"
+    "RHI006": {
+      "before": "RNR006",
+      "after": "RHI006"
     }
   },
   "goliath-gauntlet": {
-    "BVO6": {
-      "identifier": "BVO006",
-      "edition": "",
-      "face_id": "BVO006",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO006.webp"
+    "BVO006": {
+      "before": "BVO6",
+      "after": "BVO006"
     }
   },
   "harmonized-kodachi": {
-    "CRU48": {
-      "identifier": "CRU048",
-      "edition": "First",
-      "face_id": "CRU048",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CRU048.webp"
+    "CRU048-First": {
+      "before": "CRU48",
+      "after": "CRU048"
     },
-    "KSU3": {
-      "identifier": "KSU003",
-      "edition": "",
-      "face_id": "KSU003",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU003.webp"
+    "KSU003": {
+      "before": "KSU3",
+      "after": "KSU003"
     },
-    "KSU4": {
-      "identifier": "KSU004",
-      "edition": "",
-      "face_id": "KSU004",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU004.webp"
+    "KSU004": {
+      "before": "KSU4",
+      "after": "KSU004"
     }
   },
   "head-jab-blue": {
-    "KSU23": {
-      "identifier": "KSU023",
-      "edition": "",
-      "face_id": "KSU023",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU023.webp"
+    "KSU023": {
+      "before": "KSU23",
+      "after": "KSU023"
     }
   },
   "head-jab-red": {
-    "KSU11": {
-      "identifier": "KSU011",
-      "edition": "",
-      "face_id": "KSU011",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU011.webp"
+    "KSU011": {
+      "before": "KSU11",
+      "after": "KSU011"
     }
   },
   "heartened-cross-strap": {
-    "KSU6": {
-      "identifier": "KSU006",
-      "edition": "",
-      "face_id": "KSU006",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU006.webp"
+    "KSU006": {
+      "before": "KSU6",
+      "after": "KSU006"
     }
   },
   "helm-of-isens-peak": {
-    "BVO4": {
-      "identifier": "BVO004",
-      "edition": "",
-      "face_id": "BVO004",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO004.webp"
+    "BVO004": {
+      "before": "BVO4",
+      "after": "BVO004"
     }
   },
   "herald-of-ravages-blue": {
-    "456b443654yteb65764": {
-      "identifier": "MON019",
-      "edition": "First",
-      "face_id": "MON019",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON019.webp"
+    "MON019-First": {
+      "before": "456b443654yteb65764",
+      "after": "MON019"
+    },
+    "MON019-First-Rainbow": {
+      "before": "456b443654yteb65764",
+      "after": "MON019-RF"
     }
   },
   "herald-of-ravages-red": {
-    "9986165132..223435430": {
-      "identifier": "MON017",
-      "edition": "First",
-      "face_id": "MON017",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON017.webp"
+    "MON017-First": {
+      "before": "9986165132..223435430",
+      "after": "MON017"
+    },
+    "MON017-First-Rainbow": {
+      "before": "9986165132..223435430",
+      "after": "MON017-RF"
     }
   },
   "herald-of-ravages-yellow": {
-    "23fgw5465b464": {
-      "identifier": "MON018",
-      "edition": "First",
-      "face_id": "MON018",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON018.webp"
+    "MON018-First": {
+      "before": "23fgw5465b464",
+      "after": "MON018"
+    },
+    "MON018-First-Rainbow": {
+      "before": "23fgw5465b464",
+      "after": "MON018-RF"
     }
   },
   "herald-of-rebirth-red": {
-    "U_MON020": {
-      "identifier": "MON020",
-      "edition": "Unlimited",
-      "face_id": "U-MON020",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON020.webp"
+    "MON020-Unlimited": {
+      "before": "U_MON020",
+      "after": "U-MON020"
+    },
+    "MON020-Unlimited-Rainbow": {
+      "before": "U_MON020",
+      "after": "U-MON020-RF"
     }
   },
   "hope-merchants-hood": {
-    "TEA4": {
-      "identifier": "TEA004",
-      "edition": "",
-      "face_id": "TEA004",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA004.webp"
+    "TEA004": {
+      "before": "TEA4",
+      "after": "TEA004"
     }
   },
   "ironrot-gauntlet": {
-    "IRONROT03": {
-      "identifier": "OXO003",
-      "edition": "",
-      "face_id": "OXO003",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO003.webp"
+    "OXO003": {
+      "before": "IRONROT03",
+      "after": "OXO003"
     },
-    "RNR6": {
-      "identifier": "RNR006",
-      "edition": "",
-      "face_id": "RNR006",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR006.webp"
+    "RNR006": {
+      "before": "RNR6",
+      "after": "RNR006"
     },
-    "TEA6": {
-      "identifier": "TEA006",
-      "edition": "",
-      "face_id": "TEA006",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA006.webp"
+    "TEA006": {
+      "before": "TEA6",
+      "after": "TEA006"
     }
   },
   "ironrot-helm": {
-    "IRONROT01": {
-      "identifier": "OXO001",
-      "edition": "",
-      "face_id": "OXO001",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO001.webp"
+    "OXO001": {
+      "before": "IRONROT01",
+      "after": "OXO001"
     },
-    "KSU5": {
-      "identifier": "KSU005",
-      "edition": "",
-      "face_id": "KSU005",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU005.webp"
+    "KSU005": {
+      "before": "KSU5",
+      "after": "KSU005"
     },
-    "RNR4": {
-      "identifier": "RNR004",
-      "edition": "",
-      "face_id": "RNR004",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR004.webp"
+    "RNR004": {
+      "before": "RNR4",
+      "after": "RNR004"
     }
   },
   "ironrot-legs": {
-    "BVO7": {
-      "identifier": "BVO007",
-      "edition": "",
-      "face_id": "BVO007",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO007.webp"
+    "BVO007": {
+      "before": "BVO7",
+      "after": "BVO007"
     },
-    "IRONROT04": {
-      "identifier": "OXO004",
-      "edition": "",
-      "face_id": "OXO004",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO004.webp"
+    "OXO004": {
+      "before": "IRONROT04",
+      "after": "OXO004"
     },
-    "KSU8": {
-      "identifier": "KSU008",
-      "edition": "",
-      "face_id": "KSU008",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU008.webp"
+    "KSU008": {
+      "before": "KSU8",
+      "after": "KSU008"
     }
   },
   "ironrot-plate": {
-    "BVO5": {
-      "identifier": "BVO005",
-      "edition": "",
-      "face_id": "BVO005",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO005.webp"
+    "BVO005": {
+      "before": "BVO5",
+      "after": "BVO005"
     },
-    "IRONROT02": {
-      "identifier": "OXO002",
-      "edition": "",
-      "face_id": "OXO002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OXO002.webp"
+    "OXO002": {
+      "before": "IRONROT02",
+      "after": "OXO002"
     },
-    "TEA5": {
-      "identifier": "TEA005",
-      "edition": "",
-      "face_id": "TEA005",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA005.webp"
+    "TEA005": {
+      "before": "TEA5",
+      "after": "TEA005"
     }
   },
   "ironsong-pride-red": {
-    "DYN072_Special": {
-      "identifier": "DYN072",
-      "edition": "",
-      "face_id": "DYN072",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN072.webp"
+    "DYN072-Rainbow-Extended Art": {
+      "before": "DYN072_Special",
+      "after": "DYN072-EA"
     }
   },
   "ironsong-response-blue": {
-    "TEA21": {
-      "identifier": "TEA021",
-      "edition": "",
-      "face_id": "TEA021",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA021.webp"
+    "TEA021": {
+      "before": "TEA21",
+      "after": "TEA021"
     }
   },
   "katsu": {
-    "KSU2": {
-      "identifier": "KSU002",
-      "edition": "",
-      "face_id": "KSU002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU002.webp"
+    "KSU002": {
+      "before": "KSU2",
+      "after": "KSU002"
     }
   },
   "katsu-the-wanderer": {
-    "KSU": {
-      "identifier": "KSU001",
-      "edition": "",
-      "face_id": "KSU001",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU001.webp"
+    "KSU001": {
+      "before": "KSU",
+      "after": "KSU001"
     }
   },
   "korshem-crossroad-of-elements": {
-    "ELE000_vertical": {
-      "identifier": "ELE000",
-      "edition": "First",
-      "face_id": "U-ELE000-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE000-RF.webp"
+    "ELE000-First-Cold": {
+      "before": "ELE000_vertical",
+      "after": "ELE000-CF"
     }
   },
   "lady-barthimont": {
-    "LEV002_Lady_Barthimont.width-10000": {
-      "identifier": "LEV002",
-      "edition": "",
-      "face_id": "LEV002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LEV002.webp"
+    "LEV002": {
+      "before": "LEV002_Lady_Barthimont.width-10000",
+      "after": "LEV002"
     }
   },
   "lead-with-power-blue": {
-    "RNR025": {
-      "identifier": "RHI025",
-      "edition": "",
-      "face_id": "RHI025",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI025.webp"
+    "RHI025": {
+      "before": "RNR025",
+      "after": "RHI025"
     }
   },
   "lead-with-speed-blue": {
-    "RNR026": {
-      "identifier": "RHI026",
-      "edition": "",
-      "face_id": "RHI026",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI026.webp"
+    "RHI026": {
+      "before": "RNR026",
+      "after": "RHI026"
     }
   },
   "leg-tap-red": {
-    "KSU12": {
-      "identifier": "KSU012",
-      "edition": "",
-      "face_id": "KSU012",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU012.webp"
+    "KSU012": {
+      "before": "KSU12",
+      "after": "KSU012"
     }
   },
   "leg-tap-yellow": {
-    "KSU18": {
-      "identifier": "KSU018",
-      "edition": "",
-      "face_id": "KSU018",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU018.webp"
+    "KSU018": {
+      "before": "KSU18",
+      "after": "KSU018"
     }
   },
   "levia": {
-    "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv": {
-      "identifier": "MON120",
-      "edition": "First",
-      "face_id": "MON120",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON120.webp"
+    "MON120-First": {
+      "before": "QB393QB0F93d2Hhhs5Cf_iMdCfa8qpl1J91FOlwlsYvSnv",
+      "after": "MON120"
     }
   },
   "levia-shadowborn-abomination": {
-    "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq": {
-      "identifier": "MON119",
-      "edition": "First",
-      "face_id": "MON119",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON119.webp"
+    "MON119-First": {
+      "before": "Mty2ZQtPLgqDHz9EjdOMHZOUJhISA3s8RIgr3lus4KTmVq",
+      "after": "MON119"
     }
   },
   "looming-doom-blue": {
-    "DYN175_Special": {
-      "identifier": "DYN175",
-      "edition": "",
-      "face_id": "DYN175",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN175.webp"
+    "DYN175-Rainbow-Extended Art": {
+      "before": "DYN175_Special",
+      "after": "DYN175-EA"
     }
   },
   "lord-sutcliffe": {
-    "CHN002_Lord_Sutcliffe.width-10000": {
-      "identifier": "CHN002",
-      "edition": "",
-      "face_id": "CHN002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CHN002.webp"
+    "CHN002": {
+      "before": "CHN002_Lord_Sutcliffe.width-10000",
+      "after": "CHN002"
     }
   },
   "luminaris-celestial-fury": {
-    "23_07_armorykit_LGS160.width-10000": {
-      "identifier": "LGS160",
-      "edition": "",
-      "face_id": "LGS160-CF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS160-CF.webp"
+    "LGS160-Cold": {
+      "before": "23_07_armorykit_LGS160.width-10000",
+      "after": "LGS160-CF"
     }
   },
   "lunging-press-blue": {
-    "KSU28": {
-      "identifier": "KSU028",
-      "edition": "",
-      "face_id": "KSU028",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU028.webp"
+    "KSU028": {
+      "before": "KSU28",
+      "after": "KSU028"
     }
   },
   "mandible-claw": {
-    "RNR003": {
-      "identifier": "RHI003",
-      "edition": "",
-      "face_id": "RHI003",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI003.webp"
+    "RHI003": {
+      "before": "RNR003",
+      "after": "RHI003"
     }
   },
   "metacarpus-node": {
-    "CRU161_Metacarpus_Node.width-10000": {
-      "identifier": "CRU161",
-      "edition": "Unlimited",
-      "face_id": "U-CRU161",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU161.webp"
+    "CRU161-Unlimited": {
+      "before": "CRU161_Metacarpus_Node.width-10000",
+      "after": "U-CRU161"
+    },
+    "CRU161-Unlimited-Rainbow": {
+      "before": "CRU161_Metacarpus_Node.width-10000",
+      "after": "U-CRU161-RF"
     }
   },
   "might": {
-    "RNR028": {
-      "identifier": "RHI028",
-      "edition": "",
-      "face_id": "RHI028",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI028.webp"
+    "RHI028": {
+      "before": "RNR028",
+      "after": "RHI028"
     }
   },
   "mighty-windup-red": {
-    "RNR012": {
-      "identifier": "RHI012",
-      "edition": "",
-      "face_id": "RHI012",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI012.webp"
+    "RHI012": {
+      "before": "RNR012",
+      "after": "RHI012"
     }
   },
   "mighty-windup-yellow": {
-    "RNR018": {
-      "identifier": "RHI018",
-      "edition": "",
-      "face_id": "RHI018",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI018.webp"
+    "RHI018": {
+      "before": "RNR018",
+      "after": "RHI018"
     }
   },
   "minerva-themis": {
-    "BOL002_Minerva_Themis.width-10000": {
-      "identifier": "BOL002",
-      "edition": "",
-      "face_id": "BOL002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BOL002.webp"
+    "BOL002": {
+      "before": "BOL002_Minerva_Themis.width-10000",
+      "after": "BOL002"
     }
   },
   "monstrous-veil": {
-    "RNR004": {
-      "identifier": "RHI004",
-      "edition": "",
-      "face_id": "RHI004",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI004.webp"
+    "RHI004": {
+      "before": "RNR004",
+      "after": "RHI004"
     }
   },
   "mordred-tide-red": {
-    "ARC081_Mordred_Tide.width-10000": {
-      "identifier": "ARC081",
-      "edition": "Unlimited",
-      "face_id": "U-ARC081",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC081.webp"
+    "ARC081-Unlimited": {
+      "before": "ARC081_Mordred_Tide.width-10000",
+      "after": "U-ARC081"
+    },
+    "ARC081-Unlimited-Rainbow": {
+      "before": "ARC081_Mordred_Tide.width-10000",
+      "after": "U-ARC081-RF"
     }
   },
   "natures-path-pilgrimage-blue": {
-    "TEA23": {
-      "identifier": "TEA023",
-      "edition": "",
-      "face_id": "TEA023",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA023.webp"
+    "TEA023": {
+      "before": "TEA23",
+      "after": "TEA023"
     }
   },
   "natures-path-pilgrimage-red": {
-    "TEA13": {
-      "identifier": "TEA013",
-      "edition": "",
-      "face_id": "TEA013",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA013.webp"
+    "TEA013": {
+      "before": "TEA13",
+      "after": "TEA013"
     }
   },
   "open-the-center-red": {
-    "KSU13": {
-      "identifier": "KSU013",
-      "edition": "",
-      "face_id": "KSU013",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU013.webp"
+    "KSU013": {
+      "before": "KSU13",
+      "after": "KSU013"
     }
   },
   "over-loop-blue": {
-    "ARC022_Over_Loop.width-10000": {
-      "identifier": "ARC022",
-      "edition": "Unlimited",
-      "face_id": "U-ARC022",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC022.webp"
+    "ARC022-Unlimited": {
+      "before": "ARC022_Over_Loop.width-10000",
+      "after": "U-ARC022"
+    },
+    "ARC022-Unlimited-Rainbow": {
+      "before": "ARC022_Over_Loop.width-10000",
+      "after": "U-ARC022-RF"
     }
   },
   "over-loop-red": {
-    "ARC020_Over_Loop.width-10000": {
-      "identifier": "ARC020",
-      "edition": "Unlimited",
-      "face_id": "U-ARC020",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC020.webp"
+    "ARC020-Unlimited": {
+      "before": "ARC020_Over_Loop.width-10000",
+      "after": "U-ARC020"
+    },
+    "ARC020-Unlimited-Rainbow": {
+      "before": "ARC020_Over_Loop.width-10000",
+      "after": "U-ARC020-RF"
     }
   },
   "over-loop-yellow": {
-    "ARC021_Over_Loop.width-10000": {
-      "identifier": "ARC021",
-      "edition": "Unlimited",
-      "face_id": "U-ARC021",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC021.webp"
+    "ARC021-Unlimited": {
+      "before": "ARC021_Over_Loop.width-10000",
+      "after": "U-ARC021"
+    },
+    "ARC021-Unlimited-Rainbow": {
+      "before": "ARC021_Over_Loop.width-10000",
+      "after": "U-ARC021-RF"
     }
   },
   "overpower-red": {
-    "TEA10": {
-      "identifier": "TEA010",
-      "edition": "",
-      "face_id": "TEA010",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA010.webp"
+    "TEA010": {
+      "before": "TEA10",
+      "after": "TEA010"
     }
   },
   "pack-call-yellow": {
-    "RNR019": {
-      "identifier": "RHI019",
-      "edition": "",
-      "face_id": "RHI019",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI019.webp"
+    "RHI019": {
+      "before": "RNR019",
+      "after": "RHI019"
     }
   },
   "pack-hunt-blue": {
-    "RNR022": {
-      "identifier": "RHI022",
-      "edition": "",
-      "face_id": "RHI022",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI022.webp"
+    "RHI022": {
+      "before": "RNR022",
+      "after": "RHI022"
     }
   },
   "pack-hunt-red": {
-    "RNR013": {
-      "identifier": "RHI013",
-      "edition": "",
-      "face_id": "RHI013",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI013.webp"
+    "RHI013": {
+      "before": "RNR013",
+      "after": "RHI013"
     },
-    "RNR9": {
-      "identifier": "RNR009",
-      "edition": "",
-      "face_id": "RNR009",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR009.webp"
+    "RNR009": {
+      "before": "RNR9",
+      "after": "RNR009"
     }
   },
   "parable-of-humility-yellow": {
-    "16984263482378r4623792": {
-      "identifier": "MON011",
-      "edition": "First",
-      "face_id": "MON011",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON011.webp"
+    "MON011-First": {
+      "before": "16984263482378r4623792",
+      "after": "MON011"
+    },
+    "MON011-First-Rainbow": {
+      "before": "16984263482378r4623792",
+      "after": "MON011-RF"
     }
   },
   "phantasmaclasm-red": {
-    "fy8w7r78545yit3787efygs8def": {
-      "identifier": "MON091",
-      "edition": "First",
-      "face_id": "MON091",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON091.webp"
+    "MON091-First": {
+      "before": "fy8w7r78545yit3787efygs8def",
+      "after": "MON091"
+    },
+    "MON091-First-Rainbow": {
+      "before": "fy8w7r78545yit3787efygs8def",
+      "after": "MON091-RF"
     }
   },
   "phantasmal-footsteps": {
-    "MON089_Phantasmal_Footsteps.width-10000": {
-      "identifier": "MON089",
-      "edition": "Unlimited",
-      "face_id": "U-MON089-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON089-RF.webp"
+    "MON089-Unlimited-Rainbow": {
+      "before": "MON089_Phantasmal_Footsteps.width-10000",
+      "after": "U-MON089-RF"
     }
   },
   "pitfall-trap-yellow": {
-    "LGS151.width-10000": {
-      "identifier": "LGS151",
-      "edition": "",
-      "face_id": "LGS151-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS151-RF.webp"
+    "LGS151-Rainbow": {
+      "before": "LGS151.width-10000",
+      "after": "LGS151-RF"
     }
   },
   "potion-of-strength-blue": {
-    "BVO28": {
-      "identifier": "BVO028",
-      "edition": "",
-      "face_id": "BVO028",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO028.webp"
+    "BVO028": {
+      "before": "BVO28",
+      "after": "BVO028"
     }
   },
   "pound-town-blue": {
-    "RNR023": {
-      "identifier": "RHI023",
-      "edition": "",
-      "face_id": "RHI023",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI023.webp"
+    "RHI023": {
+      "before": "RNR023",
+      "after": "RHI023"
     }
   },
   "pound-town-red": {
-    "RNR014": {
-      "identifier": "RHI014",
-      "edition": "",
-      "face_id": "RHI014",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI014.webp"
+    "RHI014": {
+      "before": "RNR014",
+      "after": "RHI014"
     }
   },
   "primeval-bellow-blue": {
-    "RNR26": {
-      "identifier": "RNR026",
-      "edition": "",
-      "face_id": "RNR026",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR026.webp"
+    "RNR026": {
+      "before": "RNR26",
+      "after": "RNR026"
     }
   },
   "pulping-blue": {
-    "h3ntlAv43eGM6Nq3R046zh": {
-      "identifier": "MON225",
-      "edition": "First",
-      "face_id": "MON225",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON225.webp"
+    "MON225-First": {
+      "before": "h3ntlAv43eGM6Nq3R046zh",
+      "after": "MON225"
+    },
+    "MON225-First-Rainbow": {
+      "before": "h3ntlAv43eGM6Nq3R046zh",
+      "after": "MON225-RF"
     }
   },
   "pulping-red": {
-    "83qQVRV7av7WVwN6jhg0d": {
-      "identifier": "MON223",
-      "edition": "First",
-      "face_id": "MON223",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON223.webp"
+    "MON223-First": {
+      "before": "83qQVRV7av7WVwN6jhg0d",
+      "after": "MON223"
+    },
+    "MON223-First-Rainbow": {
+      "before": "83qQVRV7av7WVwN6jhg0d",
+      "after": "MON223-RF"
     }
   },
   "pulping-yellow": {
-    "322d1Gx66IHv4QNM3gOjV7": {
-      "identifier": "MON224",
-      "edition": "First",
-      "face_id": "MON224",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON224.webp"
+    "MON224-First": {
+      "before": "322d1Gx66IHv4QNM3gOjV7",
+      "after": "MON224"
+    },
+    "MON224-First-Rainbow": {
+      "before": "322d1Gx66IHv4QNM3gOjV7",
+      "after": "MON224-RF"
     }
   },
   "pummel-blue": {
-    "BVO27": {
-      "identifier": "BVO027",
-      "edition": "",
-      "face_id": "BVO027",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO027.webp"
+    "BVO027": {
+      "before": "BVO27",
+      "after": "BVO027"
     }
   },
   "quicken": {
-    "1HP427_Quicken.width-10000": {
-      "identifier": "1HP427",
-      "edition": "",
-      "face_id": "1HP427",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/1HP427.webp"
+    "1HP427": {
+      "before": "1HP427_Quicken.width-10000",
+      "after": "1HP427"
     },
-    "RNR31": {
-      "identifier": "RNR031",
-      "edition": "",
-      "face_id": "RNR031",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR031.webp"
+    "RNR031": {
+      "before": "RNR31",
+      "after": "RNR031"
     },
-    "TEA30": {
-      "identifier": "TEA030",
-      "edition": "",
-      "face_id": "TEA030",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA030.webp"
+    "TEA030": {
+      "before": "TEA30",
+      "after": "TEA030"
     }
   },
   "raging-onslaught-blue": {
-    "BVO24": {
-      "identifier": "BVO024",
-      "edition": "",
-      "face_id": "BVO024",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO024.webp"
+    "BVO024": {
+      "before": "BVO24",
+      "after": "BVO024"
     }
   },
   "raging-onslaught-yellow": {
-    "RNR20": {
-      "identifier": "RNR020",
-      "edition": "",
-      "face_id": "RNR020",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR020.webp"
+    "RNR020": {
+      "before": "RNR20",
+      "after": "RNR020"
     }
   },
   "raw-meat": {
-    "RNR005": {
-      "identifier": "RHI005",
-      "edition": "",
-      "face_id": "RHI005",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI005.webp"
+    "RHI005": {
+      "before": "RNR005",
+      "after": "RHI005"
     }
   },
   "rawhide-rumble-red": {
-    "RNR015": {
-      "identifier": "RHI015",
-      "edition": "",
-      "face_id": "RHI015",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI015.webp"
+    "RHI015": {
+      "before": "RNR015",
+      "after": "RHI015"
     }
   },
   "razor-reflex-red": {
-    "TEA16": {
-      "identifier": "TEA016",
-      "edition": "",
-      "face_id": "TEA016",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA016.webp"
+    "TEA016": {
+      "before": "TEA16",
+      "after": "TEA016"
     }
   },
   "refraction-bolters": {
-    "TEA7": {
-      "identifier": "TEA007",
-      "edition": "",
-      "face_id": "TEA007",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA007.webp"
+    "TEA007": {
+      "before": "TEA7",
+      "after": "TEA007"
     }
   },
   "regicide-blue": {
-    "DYN121_Special": {
-      "identifier": "DYN121",
-      "edition": "",
-      "face_id": "DYN121",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN121.webp"
+    "DYN121-Rainbow-Extended Art": {
+      "before": "DYN121_Special",
+      "after": "DYN121-EA"
     }
   },
   "rewind-blue": {
-    "UPR169_ALT": {
-      "identifier": "UPR169",
-      "edition": "",
-      "face_id": "UPR169",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/UPR169.webp"
+    "UPR169-Rainbow-Alternate Art-Alternate Text": {
+      "before": "UPR169_ALT",
+      "after": "UPR169-AA"
     }
   },
   "rhinar": {
-    "RNR001": {
-      "identifier": "RHI001",
-      "edition": "",
-      "face_id": "RHI001-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI001-RF.webp"
+    "RHI001-Rainbow": {
+      "before": "RNR001",
+      "after": "RHI001-RF"
     },
-    "RNR2": {
-      "identifier": "RNR002",
-      "edition": "",
-      "face_id": "RNR002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR002.webp"
+    "RNR002": {
+      "before": "RNR2",
+      "after": "RNR002"
     }
   },
   "rhinar-reckless-rampage": {
-    "RNR": {
-      "identifier": "RNR001",
-      "edition": "",
-      "face_id": "RNR001",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR001.webp"
+    "RNR001": {
+      "before": "RNR",
+      "after": "RNR001"
     }
   },
   "rising-knee-thrust-red": {
-    "KSU14": {
-      "identifier": "KSU014",
-      "edition": "",
-      "face_id": "KSU014",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU014.webp"
+    "KSU014": {
+      "before": "KSU14",
+      "after": "KSU014"
     }
   },
   "rising-knee-thrust-yellow": {
-    "KSU19": {
-      "identifier": "KSU019",
-      "edition": "",
-      "face_id": "KSU019",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU019.webp"
+    "KSU019": {
+      "before": "KSU19",
+      "after": "KSU019"
     }
   },
   "rockslide-trap-blue": {
-    "LGS152.width-10000": {
-      "identifier": "LGS152",
-      "edition": "",
-      "face_id": "LGS152-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS152-RF.webp"
+    "LGS152-Rainbow": {
+      "before": "LGS152.width-10000",
+      "after": "LGS152-RF"
     }
   },
   "romping-club": {
-    "RNR3": {
-      "identifier": "RNR003",
-      "edition": "",
-      "face_id": "RNR003",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR003.webp"
+    "RNR003": {
+      "before": "RNR3",
+      "after": "RNR003"
     }
   },
   "runechant": {
-    "ARC112_Runechant.width-10000": {
-      "identifier": "ARC112",
-      "edition": "Unlimited",
-      "face_id": "U-ARC112",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC112.webp"
+    "ARC112-Unlimited": {
+      "before": "ARC112_Runechant.width-10000",
+      "after": "U-ARC112"
     }
   },
   "rushing-river-red": {
-    "CRU60": {
-      "identifier": "CRU060",
-      "edition": "First",
-      "face_id": "CRU060",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CRU060.webp"
+    "CRU060-First": {
+      "before": "CRU60",
+      "after": "CRU060"
+    },
+    "CRU060-First-Rainbow": {
+      "before": "CRU60",
+      "after": "CRU060-RF"
     }
   },
   "salvage-shot-blue": {
-    "ARC068_Salvage_Shot.width-10000": {
-      "identifier": "ARC068",
-      "edition": "Unlimited",
-      "face_id": "U-ARC068",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC068.webp"
+    "ARC068-Unlimited": {
+      "before": "ARC068_Salvage_Shot.width-10000",
+      "after": "U-ARC068"
+    },
+    "ARC068-Unlimited-Rainbow": {
+      "before": "ARC068_Salvage_Shot.width-10000",
+      "after": "U-ARC068-RF"
     }
   },
   "salvage-shot-red": {
-    "ARC066_Salvage_Shot.width-10000": {
-      "identifier": "ARC066",
-      "edition": "Unlimited",
-      "face_id": "U-ARC066",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC066.webp"
+    "ARC066-Unlimited": {
+      "before": "ARC066_Salvage_Shot.width-10000",
+      "after": "U-ARC066"
+    },
+    "ARC066-Unlimited-Rainbow": {
+      "before": "ARC066_Salvage_Shot.width-10000",
+      "after": "U-ARC066-RF"
     }
   },
   "salvage-shot-yellow": {
-    "ARC067_Salvage_Shot.width-10000": {
-      "identifier": "ARC067",
-      "edition": "Unlimited",
-      "face_id": "U-ARC067",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ARC067.webp"
+    "ARC067-Unlimited": {
+      "before": "ARC067_Salvage_Shot.width-10000",
+      "after": "U-ARC067"
+    },
+    "ARC067-Unlimited-Rainbow": {
+      "before": "ARC067_Salvage_Shot.width-10000",
+      "after": "U-ARC067-RF"
     }
   },
   "savage-feast-red": {
-    "RNR10": {
-      "identifier": "RNR010",
-      "edition": "",
-      "face_id": "RNR010",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR010.webp"
+    "RNR010": {
+      "before": "RNR10",
+      "after": "RNR010"
     }
   },
   "savage-swing-red": {
-    "RNR11": {
-      "identifier": "RNR011",
-      "edition": "",
-      "face_id": "RNR011",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR011.webp"
+    "RNR011": {
+      "before": "RNR11",
+      "after": "RNR011"
     }
   },
   "savage-swing-yellow": {
-    "RNR16": {
-      "identifier": "RNR016",
-      "edition": "",
-      "face_id": "RNR016",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR016.webp"
+    "RNR016": {
+      "before": "RNR16",
+      "after": "RNR016"
     }
   },
   "scar-for-a-scar-red": {
-    "KSU17": {
-      "identifier": "KSU017",
-      "edition": "",
-      "face_id": "KSU017",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU017.webp"
+    "KSU017": {
+      "before": "KSU17",
+      "after": "KSU017"
     }
   },
   "scour-the-battlescape-blue": {
-    "KSU26": {
-      "identifier": "KSU026",
-      "edition": "",
-      "face_id": "KSU026",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU026.webp"
+    "KSU026": {
+      "before": "KSU26",
+      "after": "KSU026"
     },
-    "RNR28": {
-      "identifier": "RNR028",
-      "edition": "",
-      "face_id": "RNR028",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR028.webp"
+    "RNR028": {
+      "before": "RNR28",
+      "after": "RNR028"
     },
-    "TEA27": {
-      "identifier": "TEA027",
-      "edition": "",
-      "face_id": "TEA027",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA027.webp"
+    "TEA027": {
+      "before": "TEA27",
+      "after": "TEA027"
     }
   },
   "seeds-of-agony-blue": {
-    "seeds3": {
-      "identifier": "MON185",
-      "edition": "Unlimited",
-      "face_id": "U-MON185",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON185.webp"
+    "MON185-Unlimited": {
+      "before": "seeds3",
+      "after": "U-MON185"
+    },
+    "MON185-Unlimited-Rainbow": {
+      "before": "seeds3",
+      "after": "U-MON185-RF"
     }
   },
   "seeds-of-agony-red": {
-    "MON183_up": {
-      "identifier": "MON183",
-      "edition": "First",
-      "face_id": "MON183",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON183.webp"
+    "MON183-First": {
+      "before": "MON183_up",
+      "after": "MON183"
     },
-    "seeds": {
-      "identifier": "MON183",
-      "edition": "Unlimited",
-      "face_id": "U-MON183",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON183.webp"
+    "MON183-First-Rainbow": {
+      "before": "MON183_up",
+      "after": "MON183-RF"
+    },
+    "MON183-Unlimited": {
+      "before": "seeds",
+      "after": "U-MON183"
+    },
+    "MON183-Unlimited-Rainbow": {
+      "before": "seeds",
+      "after": "U-MON183-RF"
     }
   },
   "seeds-of-agony-yellow": {
-    "seeds2": {
-      "identifier": "MON184",
-      "edition": "Unlimited",
-      "face_id": "U-MON184",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON184.webp"
+    "MON184-Unlimited": {
+      "before": "seeds2",
+      "after": "U-MON184"
+    },
+    "MON184-Unlimited-Rainbow": {
+      "before": "seeds2",
+      "after": "U-MON184-RF"
     }
   },
   "shadow-of-blasmophet-red": {
-    "KLUiCIJEFKdt8QM545A4g": {
-      "identifier": "MON125",
-      "edition": "First",
-      "face_id": "MON125",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MON125.webp"
+    "MON125-First": {
+      "before": "KLUiCIJEFKdt8QM545A4g",
+      "after": "MON125"
+    },
+    "MON125-First-Rainbow": {
+      "before": "KLUiCIJEFKdt8QM545A4g",
+      "after": "MON125-RF"
     }
   },
   "sharpen-steel-blue": {
-    "TEA24": {
-      "identifier": "TEA024",
-      "edition": "",
-      "face_id": "TEA024",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA024.webp"
+    "TEA024": {
+      "before": "TEA24",
+      "after": "TEA024"
     }
   },
   "sharpen-steel-red": {
-    "TEA14": {
-      "identifier": "TEA014",
-      "edition": "",
-      "face_id": "TEA014",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA014.webp"
+    "TEA014": {
+      "before": "TEA14",
+      "after": "TEA014"
     }
   },
   "sigil-of-solace-blue": {
-    "KSU30": {
-      "identifier": "KSU030",
-      "edition": "",
-      "face_id": "KSU030",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU030.webp"
+    "KSU030": {
+      "before": "KSU30",
+      "after": "KSU030"
     },
-    "RNR30": {
-      "identifier": "RNR030",
-      "edition": "",
-      "face_id": "RNR030",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR030.webp"
+    "RNR030": {
+      "before": "RNR30",
+      "after": "RNR030"
     },
-    "TEA29": {
-      "identifier": "TEA029",
-      "edition": "",
-      "face_id": "TEA029",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA029.webp"
+    "TEA029": {
+      "before": "TEA29",
+      "after": "TEA029"
     }
   },
   "sloggism-blue": {
-    "BVO29": {
-      "identifier": "BVO029",
-      "edition": "",
-      "face_id": "BVO029",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO029.webp"
+    "BVO029": {
+      "before": "BVO29",
+      "after": "BVO029"
     }
   },
   "smash-instinct-red": {
-    "RNR12": {
-      "identifier": "RNR012",
-      "edition": "",
-      "face_id": "RNR012",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR012.webp"
+    "RNR012": {
+      "before": "RNR12",
+      "after": "RNR012"
     }
   },
   "smash-instinct-yellow": {
-    "RNR17": {
-      "identifier": "RNR017",
-      "edition": "",
-      "face_id": "RNR017",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR017.webp"
+    "RNR017": {
+      "before": "RNR17",
+      "after": "RNR017"
     }
   },
   "smashback-alehorn-blue": {
-    "RNR027": {
-      "identifier": "RHI027",
-      "edition": "",
-      "face_id": "RHI027",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RHI027.webp"
+    "RHI027": {
+      "before": "RNR027",
+      "after": "RHI027"
     }
   },
   "snapdragon-scalers": {
-    "RNR7": {
-      "identifier": "RNR007",
-      "edition": "",
-      "face_id": "RNR007",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR007.webp"
+    "RNR007": {
+      "before": "RNR7",
+      "after": "RNR007"
     }
   },
   "soup-up-blue": {
-    "LGS197.width-10000": {
-      "identifier": "LGS197",
-      "edition": "",
-      "face_id": "LGS197-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS197-RF.webp"
+    "LGS197-Rainbow-Extended Art": {
+      "before": "LGS197.width-10000",
+      "after": "LGS197-RF"
     }
   },
   "soup-up-red": {
-    "LGS195.width-10000": {
-      "identifier": "LGS195",
-      "edition": "",
-      "face_id": "LGS195-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS195-RF.webp"
+    "LGS195-Rainbow-Extended Art": {
+      "before": "LGS195.width-10000",
+      "after": "LGS195-RF"
     }
   },
   "soup-up-yellow": {
-    "LGS196.width-10000": {
-      "identifier": "LGS196",
-      "edition": "",
-      "face_id": "LGS196-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS196-RF.webp"
+    "LGS196-Rainbow-Extended Art": {
+      "before": "LGS196.width-10000",
+      "after": "LGS196-RF"
     }
   },
   "springboard-somersault-yellow": {
-    "BVO15": {
-      "identifier": "BVO015",
-      "edition": "",
-      "face_id": "BVO015",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO015.webp"
+    "BVO015": {
+      "before": "BVO15",
+      "after": "BVO015"
     },
-    "KSU21": {
-      "identifier": "KSU021",
-      "edition": "",
-      "face_id": "KSU021",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU021.webp"
+    "KSU021": {
+      "before": "KSU21",
+      "after": "KSU021"
     },
-    "RNR22": {
-      "identifier": "RNR022",
-      "edition": "",
-      "face_id": "RNR022",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR022.webp"
+    "RNR022": {
+      "before": "RNR22",
+      "after": "RNR022"
     },
-    "TEA19": {
-      "identifier": "TEA019",
-      "edition": "",
-      "face_id": "TEA019",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA019.webp"
+    "TEA019": {
+      "before": "TEA19",
+      "after": "TEA019"
     }
   },
   "staunch-response-blue": {
-    "BVO20": {
-      "identifier": "BVO020",
-      "edition": "",
-      "face_id": "BVO020",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO020.webp"
+    "BVO020": {
+      "before": "BVO20",
+      "after": "BVO020"
     }
   },
   "steelblade-shunt-red": {
-    "TEA11": {
-      "identifier": "TEA011",
-      "edition": "",
-      "face_id": "TEA011",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA011.webp"
+    "TEA011": {
+      "before": "TEA11",
+      "after": "TEA011"
     }
   },
   "stonewall-confidence-blue": {
-    "BVO22": {
-      "identifier": "BVO022",
-      "edition": "",
-      "face_id": "BVO022",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO022.webp"
+    "BVO022": {
+      "before": "BVO22",
+      "after": "BVO022"
     }
   },
   "stroke-of-foresight-red": {
-    "TEA9": {
-      "identifier": "TEA009",
-      "edition": "",
-      "face_id": "TEA009",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA009.webp"
+    "TEA009": {
+      "before": "TEA9",
+      "after": "TEA009"
     }
   },
   "stroke-of-foresight-yellow": {
-    "TEA17": {
-      "identifier": "TEA017",
-      "edition": "",
-      "face_id": "TEA017",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA017.webp"
+    "TEA017": {
+      "before": "TEA17",
+      "after": "TEA017"
     }
   },
   "surging-strike-red": {
-    "KSU15": {
-      "identifier": "KSU015",
-      "edition": "",
-      "face_id": "KSU015",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU015.webp"
+    "KSU015": {
+      "before": "KSU15",
+      "after": "KSU015"
     }
   },
   "surging-strike-yellow": {
-    "KSU20": {
-      "identifier": "KSU020",
-      "edition": "",
-      "face_id": "KSU020",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU020.webp"
+    "KSU020": {
+      "before": "KSU20",
+      "after": "KSU020"
     }
   },
   "symbiosis-shot": {
-    "LGS194.width-10000": {
-      "identifier": "LGS194",
-      "edition": "",
-      "face_id": "LGS194-CF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS194-CF.webp"
+    "LGS194-Cold": {
+      "before": "LGS194.width-10000",
+      "after": "LGS194-CF"
     }
   },
   "the-librarian": {
-    "PSM002_The_Librarian.width-10000": {
-      "identifier": "PSM002",
-      "edition": "",
-      "face_id": "PSM002",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/PSM002.webp"
+    "PSM002": {
+      "before": "PSM002_The_Librarian.width-10000",
+      "after": "PSM002"
     }
   },
   "timekeepers-whim-blue": {
-    "MON136_Timekeepers_Whim.width-10000": {
-      "identifier": "EVR136",
-      "edition": "First",
-      "face_id": "EVR136",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR136.webp"
+    "EVR136-First": {
+      "before": "MON136_Timekeepers_Whim.width-10000",
+      "after": "EVR136"
+    },
+    "EVR136-First-Rainbow": {
+      "before": "MON136_Timekeepers_Whim.width-10000",
+      "after": "EVR136-RF"
     }
   },
   "timekeepers-whim-red": {
-    "MON134_Timekeepers_Whim.width-10000": {
-      "identifier": "EVR134",
-      "edition": "First",
-      "face_id": "EVR134",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR134.webp"
+    "EVR134-First": {
+      "before": "MON134_Timekeepers_Whim.width-10000",
+      "after": "EVR134"
+    },
+    "EVR134-First-Rainbow": {
+      "before": "MON134_Timekeepers_Whim.width-10000",
+      "after": "EVR134-RF"
     }
   },
   "timekeepers-whim-yellow": {
-    "MON135_Timekeepers_Whim.width-10000": {
-      "identifier": "EVR135",
-      "edition": "First",
-      "face_id": "EVR135",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR135.webp"
+    "EVR135-First": {
+      "before": "MON135_Timekeepers_Whim.width-10000",
+      "after": "EVR135"
+    },
+    "EVR135-First-Rainbow": {
+      "before": "MON135_Timekeepers_Whim.width-10000",
+      "after": "EVR135-RF"
     }
   },
   "timesnap-potion-blue": {
-    "RNR29": {
-      "identifier": "RNR029",
-      "edition": "",
-      "face_id": "RNR029",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR029.webp"
+    "RNR029": {
+      "before": "RNR29",
+      "after": "RNR029"
     }
   },
   "tripwire-trap-red": {
-    "LGS150.width-10000": {
-      "identifier": "LGS150",
-      "edition": "",
-      "face_id": "LGS150-RF",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LGS150-RF.webp"
+    "LGS150-Rainbow": {
+      "before": "LGS150.width-10000",
+      "after": "LGS150-RF"
     }
   },
   "warmongers-recital-blue": {
-    "MON301_Warmongers_Recital.width-10000": {
-      "identifier": "MON301",
-      "edition": "Unlimited",
-      "face_id": "U-MON301",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON301.webp"
+    "MON301-Unlimited": {
+      "before": "MON301_Warmongers_Recital.width-10000",
+      "after": "U-MON301"
+    },
+    "MON301-Unlimited-Rainbow": {
+      "before": "MON301_Warmongers_Recital.width-10000",
+      "after": "U-MON301-RF"
     }
   },
   "warmongers-recital-red": {
-    "MON299_Warmongers_Recital.width-10000": {
-      "identifier": "MON299",
-      "edition": "Unlimited",
-      "face_id": "U-MON299",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON299.webp"
+    "MON299-Unlimited": {
+      "before": "MON299_Warmongers_Recital.width-10000",
+      "after": "U-MON299"
+    },
+    "MON299-Unlimited-Rainbow": {
+      "before": "MON299_Warmongers_Recital.width-10000",
+      "after": "U-MON299-RF"
     }
   },
   "warmongers-recital-yellow": {
-    "MON300_Warmongers_Recital.width-10000": {
-      "identifier": "MON300",
-      "edition": "Unlimited",
-      "face_id": "U-MON300",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON300.webp"
+    "MON300-Unlimited": {
+      "before": "MON300_Warmongers_Recital.width-10000",
+      "after": "U-MON300"
+    },
+    "MON300-Unlimited-Rainbow": {
+      "before": "MON300_Warmongers_Recital.width-10000",
+      "after": "U-MON300-RF"
     }
   },
   "warriors-valor-blue": {
-    "TEA25": {
-      "identifier": "TEA025",
-      "edition": "",
-      "face_id": "TEA025",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA025.webp"
+    "TEA025": {
+      "before": "TEA25",
+      "after": "TEA025"
     }
   },
   "warriors-valor-yellow": {
-    "TEA18": {
-      "identifier": "TEA018",
-      "edition": "",
-      "face_id": "TEA018",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA018.webp"
+    "TEA018": {
+      "before": "TEA18",
+      "after": "TEA018"
     }
   },
   "whelming-gustwave-blue": {
-    "KSU24": {
-      "identifier": "KSU024",
-      "edition": "",
-      "face_id": "KSU024",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU024.webp"
+    "KSU024": {
+      "before": "KSU24",
+      "after": "KSU024"
     }
   },
   "whelming-gustwave-red": {
-    "KSU16": {
-      "identifier": "KSU016",
-      "edition": "",
-      "face_id": "KSU016",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU016.webp"
+    "KSU016": {
+      "before": "KSU16",
+      "after": "KSU016"
     }
   },
   "wounded-bull-blue": {
-    "BVO26": {
-      "identifier": "BVO026",
-      "edition": "",
-      "face_id": "BVO026",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BVO026.webp"
+    "BVO026": {
+      "before": "BVO26",
+      "after": "BVO026"
     }
   },
   "wounded-bull-yellow": {
-    "RNR21": {
-      "identifier": "RNR021",
-      "edition": "",
-      "face_id": "RNR021",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR021.webp"
+    "RNR021": {
+      "before": "RNR21",
+      "after": "RNR021"
     }
   },
   "wounding-blow-blue": {
-    "KSU27": {
-      "identifier": "KSU027",
-      "edition": "",
-      "face_id": "KSU027",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KSU027.webp"
+    "KSU027": {
+      "before": "KSU27",
+      "after": "KSU027"
     }
   },
   "wounding-blow-red": {
-    "TEA15": {
-      "identifier": "TEA015",
-      "edition": "",
-      "face_id": "TEA015",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TEA015.webp"
+    "TEA015": {
+      "before": "TEA15",
+      "after": "TEA015"
     }
   },
   "wrecker-romp-blue": {
-    "RNR23": {
-      "identifier": "RNR023",
-      "edition": "",
-      "face_id": "RNR023",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR023.webp"
+    "RNR023": {
+      "before": "RNR23",
+      "after": "RNR023"
     }
   },
   "wrecker-romp-red": {
-    "RNR13": {
-      "identifier": "RNR013",
-      "edition": "",
-      "face_id": "RNR013",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/RNR013.webp"
+    "RNR013": {
+      "before": "RNR13",
+      "after": "RNR013"
     }
   },
   "zephyr-needle": {
-    "CRU051_Zephyr_Needle.width-10000": {
-      "identifier": "CRU051",
-      "edition": "Unlimited",
-      "face_id": "U-CRU051",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU051.webp"
+    "CRU051-Unlimited": {
+      "before": "CRU051_Zephyr_Needle.width-10000",
+      "after": "U-CRU051"
     },
-    "CRU052_Zephyr_Needle.width-10000": {
-      "identifier": "CRU052",
-      "edition": "Unlimited",
-      "face_id": "U-CRU052",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU052.webp"
+    "CRU051-Unlimited-Rainbow": {
+      "before": "CRU051_Zephyr_Needle.width-10000",
+      "after": "U-CRU051-RF"
     },
-    "CRU51": {
-      "identifier": "CRU051",
-      "edition": "First",
-      "face_id": "CRU051",
-      "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/CRU051.webp"
+    "CRU052-Unlimited": {
+      "before": "CRU052_Zephyr_Needle.width-10000",
+      "after": "U-CRU052"
+    },
+    "CRU052-Unlimited-Rainbow": {
+      "before": "CRU052_Zephyr_Needle.width-10000",
+      "after": "U-CRU052-RF"
+    },
+    "CRU051-First": {
+      "before": "CRU51",
+      "after": "CRU051"
+    },
+    "CRU051-First-Cold": {
+      "before": "CRU51",
+      "after": "CRU051-CF"
     }
   }
 }
