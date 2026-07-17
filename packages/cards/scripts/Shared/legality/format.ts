@@ -22,6 +22,14 @@ const limitedLegalOverrideCards = [
   "Runechant",
   "Tiger Taming Khakkara",
   "Zen State",
+  "Gate to íArathael",
+  "Runechant of Greed",
+  "Runechant of Envy",
+  "Runechant of Gluttony",
+  "Runechant of Lust",
+  "Runechant of Pride",
+  "Runechant of Sloth",
+  "Runechant of Wrath",
 ];
 
 const SILVER_AGE_BANNED_CARD_EXCEPTIONS = [
@@ -56,11 +64,13 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
 );
 
 const CARDS_TO_LOG: string[] = [
-  //"Viserai, Rune Blood"
+  //
+  // "Gate to íArathael",
 ];
 
 const CONFIRMED_CARDS_TO_LOG: string[] = [
-  // "Viserai, Rune Blood"
+  //
+  // "Gate to íArathael",
 ];
 
 export const getBannedAndLegalFormats = (
@@ -303,7 +313,8 @@ export const getConfirmedBannedAndLegalFormats = ({
     let isConfirmedLegal = true;
 
     const isLimited = [Format.Draft, Format.Sealed].includes(format);
-    if (isLimited) {
+    const shouldCheckLimited = !limitedLegalOverrideCards.includes(name);
+    if (isLimited && shouldCheckLimited) {
       const coreSetsCardIsIn = releaseInfoForLimitedFormat.filter(
         ({ release }) => sets.includes(release),
       );

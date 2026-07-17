@@ -2041,6 +2041,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/blasmophet-the-insatiable-hunger</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/blasmophet-the-soul-harvester</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -2393,6 +2398,11 @@
   <url>
     <loc>https://fabrary.net/cards/blood-follows-blade-yellow</loc>
     <lastmod>2025-08-10</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/blood-harvest</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -4606,6 +4616,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/corrupt-and-conquer-red</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/corrupted-corpse</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/cosmic-awakening-blue</loc>
     <lastmod>2024-05-14</lastmod>
     <priority>0.5</priority>
@@ -5478,6 +5498,11 @@
   <url>
     <loc>https://fabrary.net/cards/demolition-protocol-red</loc>
     <lastmod>2023-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/demonbound-gloomblade-red</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -12421,6 +12446,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/malice</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/malice-domina-of-the-dead</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/malign-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -13708,6 +13743,11 @@
   <url>
     <loc>https://fabrary.net/cards/open-the-flood-gates-blue</loc>
     <lastmod>2024-09-07</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/open-the-gate-to-iarathael-red</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -15271,6 +15311,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/pull-from-beyond-red</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pull-from-beyond-yellow</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/pull-from-beyond-blue</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/pulping-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -16333,6 +16388,11 @@
   <url>
     <loc>https://fabrary.net/cards/restless-coalescence-yellow</loc>
     <lastmod>2024-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/restless-magister-red</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18116,8 +18176,23 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/shadowrealm-harrower-blue</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shadowrealm-harvester-red</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/shadowrealm-horror-red</loc>
     <lastmod>2024-04-27</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shadowrealm-reaper-yellow</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -18851,6 +18926,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/sinspeaker-gloomblade-red</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/sirens-call-red</loc>
     <lastmod>2024-05-11</lastmod>
     <priority>0.5</priority>
@@ -19478,6 +19558,11 @@
   <url>
     <loc>https://fabrary.net/cards/soul-harvest-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/soul-of-existence</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -22461,6 +22546,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/unbound-by-shadow-red</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/under-loop-red</loc>
     <lastmod>2023-09-22</lastmod>
     <priority>0.5</priority>
@@ -23076,8 +23166,23 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/viserai-between-worlds</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/viserai-rune-blood</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/viserai-the-forsaken</loc>
+    <lastmod>2026-07-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/viserai-usurper</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -23243,6 +23348,11 @@
   <url>
     <loc>https://fabrary.net/cards/vow-of-vengeance</loc>
     <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vox-necropolis</loc>
+    <lastmod>2026-07-17</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

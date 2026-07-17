@@ -1958,18 +1958,41 @@ export const releases: ReleaseInfo[] = [
     talents: [],
   },
   {
-    cards: 250,
-    classes: [Class.Runeblade],
+    cards: 263,
+    classes: [Class.Brute, Class.Necromancer, Class.Runeblade],
     deckLinks: [
       // { url: "https://fabrary.net/decks/01KP7ZHK1HMQCVMFH6W62FTVZ2" },
     ],
-    heroes: [Hero.Baalghor],
+    draft: {
+      heroIdentifiers: ["levia", "malice", "viserai-between-worlds"],
+      picksPerPack: 14,
+    },
+    heroes: [Hero.Baalghor, Hero.Levia, Hero.Malice, Hero.Viserai2],
+    heroOverrides: {
+      [Hero.Viserai2]: Hero.Viserai,
+    },
     languages: ALL_LANGUAGES,
+    raritiesExcludedInLimited: [Rarity.Legendary, Rarity.Fabled],
     release: Release.UsurpTheShadowThrone,
     relatedReleases: [],
     releaseDate: "2026-09-25 12:00",
     releaseType: ReleaseType.StandaloneBooster,
     setIdentifiers: ["iar"],
+    talents: [Talent.Shadow],
+  },
+  {
+    cards: 30,
+    classes: [Class.Necromancer],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01KP7ZHK1HMQCVMFH6W62FTVZ2" },
+    ],
+    heroes: [Hero.Malice],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckMalice,
+    relatedReleases: [],
+    releaseDate: "2026-09-25 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["ama"],
     talents: [Talent.Shadow],
   },
 ];
@@ -2022,6 +2045,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   aha: Release.ArmoryDeckOriginsHala,
   azs: Release.ArmoryDeckZyggy,
   aol: Release.ArmoryDeckOlympia,
+  ama: Release.ArmoryDeckMalice,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

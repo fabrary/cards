@@ -277,6 +277,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Lexi]: lexi,
   [Hero.Librarian]: CLASSES_AND_TALENTS([Class.Adjudicator], LIGHT),
   [Hero.Lyath]: CLASSES_AND_TALENTS([Class.Guardian], [Talent.Reviled]),
+  [Hero.Malice]: CLASSES_AND_TALENTS([Class.Necromancer], SHADOW),
   [Hero.Marlynn]: marlynn,
   [Hero.Maxx]: maxx,
   [Hero.Melody]: melody,
@@ -315,6 +316,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Verdance]: CLASSES_AND_TALENTS([Class.Wizard], EARTH),
   [Hero.Victor]: CLASSES_AND_TALENTS([Class.Guardian]),
   [Hero.Viserai]: CLASSES_AND_TALENTS([Class.Runeblade]),
+  [Hero.Viserai2]: CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
   [Hero.Vynnset]: CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
   [Hero.Yorick]: CLASSES_AND_TALENTS([Class.Bard]),
   [Hero.Yoji]: CLASSES_AND_TALENTS([Class.Guardian]),
@@ -409,10 +411,13 @@ export const getLegalHeroes = (card: {
         card.specializations?.includes(Hero.Aurora) && hero === Hero.Aurora2;
       const matchesBroscilioSpecialization =
         card.specializations?.includes(Hero.Oscilio) && hero === Hero.Broscilio;
+      const matchesViserai2Specialization =
+        card.specializations?.includes(Hero.Viserai) && hero === Hero.Viserai2;
       const matchesReprintSpecialization =
         matchesStarvoSpecialization ||
         matchesAurora2Specialization ||
-        matchesBroscilioSpecialization;
+        matchesBroscilioSpecialization ||
+        matchesViserai2Specialization;
 
       const heroIsAnArakni = ALL_ARAKNIS.includes(hero);
       const heroIsAKayo = ALL_KAYOS.includes(hero);

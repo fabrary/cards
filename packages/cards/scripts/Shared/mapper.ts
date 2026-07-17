@@ -306,6 +306,10 @@ export const getHeroFromString = (name: string): Hero | undefined => {
     )
   ) {
     heroOnCard = Hero.Aurora2;
+  } else if (
+    ["Visera, Between Worlds", "Viserai, the Forsaken"].includes(name)
+  ) {
+    heroOnCard = Hero.Viserai2;
   }
 
   return heroOnCard;
