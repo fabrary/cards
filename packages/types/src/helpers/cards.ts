@@ -170,8 +170,9 @@ export const getIsCardTokenForDeck = ({
   const isHeroMacroOrToken = [Type.Macro, Type.Token].some((type) =>
     types.includes(type),
   );
+  const isIncarnate = !!keywords && keywords.includes(Keyword.Incarnate);
 
-  return isAgentOfChaos || isEphemeral || isHeroMacroOrToken;
+  return isAgentOfChaos || isEphemeral || isHeroMacroOrToken || isIncarnate;
 };
 
 const TOKEN_CARD_OVERRIDES = ["cracked-bauble-yellow", "goldfin-harpoon"];

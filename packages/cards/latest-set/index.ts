@@ -455,7 +455,7 @@ This card's attacks get **go again**.
     keywords: [Keyword.BloodDebt,Keyword.GoAgain,Keyword.Incarnate],
     
     life: 3,
-    meta: [Meta.Deck],
+    
   
     
     
