@@ -2416,7 +2416,7 @@ At the beginning of each end phase, if you've created or activated a Gate to íA
     
     hero: Hero.Viserai,
     intellect: 4,
-    
+    isCardBack: true,
     keywords: [Keyword.Traverse],
     
     

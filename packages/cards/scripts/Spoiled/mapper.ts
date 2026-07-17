@@ -956,6 +956,7 @@ export const mapCSV = (parsedCards: ParsedCard[]): PreliminaryCard[] => {
     "Blasmophet, Levia Consumed",
     "Inner Chi",
     "Nitro Mechanoid",
+    "Viserai, Usurper",
   ];
   return addOppositeSideCardIdentifiers(cards)
     .map((card) => {

@@ -1,0 +1,46 @@
+Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,CC Legal,Silver Age Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
+AMA001,AMA,"Malice, Domina of the Dead",,,,,,40,4,,"Shadow, Necromancer, Hero",,,,,,,,"**Action** - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. **Go again**
+
+Whenever a zombie you control dies, banish it face-down and create a Corrupted Corpse in your banished Zone.",Shadow Necromancer Hero,,,No,,M,R,,João G. Santos,,,AMA001,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA001-RF.webp,,,,,,,,,,,,,,,,,,,
+AMA002,AMA,Vox Necropolis,,,,,,,,,"Shadow, Necromancer, Weapon, Staff, 2H",,,,,,,,"During your action phase, zombies you've played from a graveyard or banished zone enter the arena tapped and get ""When this enteres the arena, **attack** with it.""
+
+Zombies you control get ""**Action** - {r}, {t}: **Attack**""",Shadow Necromancer Weapon - Staff (2H),,,,,C,R,,Jessketchin,,,AMA002,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA002-RF.webp,,,,,,,,,,,,,,,,,,,
+AMA003,AMA,Corrupted Crown,,,,,1,,,,"Shadow, Equipment, Head",,Blade Break,,,,,,"When this defends, you may banish a card from your hand. If you do, this gets +1{d}.
+
+**Blade Break**",Shadow Equipment - Head,,,,,R,R,,Dzulfikar Aliy,,,AMA003,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA003-RF.webp,,,,,,,,,,,,,,,,,,,
+AMA004,AMA,Undead Grasp,,,,,1,,,,"Shadow, Necromancer, Equipment, Arms",,"Go again, Battleworn",,,,,,"**Action** - {r}, discard a zombie, destroy this: Your next zombie attack this turn gets +3{p} and ""When this hits, destroy this zombie."" **Go again**
+
+**Battleworn**",Shadow Necromancer Equipment - Arms,,,No,,M,R,,Brian Madya Narendra,,,AMA004,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA004-RF.webp,,,,,,,,,,,,,,,,,,,
+AMA005,AMA,Mage Master Boots,,,,,0,,,,"Generic, Equipment, Legs",,Go again,,,,,,"**Action** - {r}, destroy this: The next non-attack action card you play this turn gets **go again**. **Go again**",Generic Equipment - Legs,,,,,C,R,AA,Reza Aswadananta,,,AMA005,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA005-RF.webp,,,,,,,,,,,,,,,,,,,
+AMA006,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA006,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA006.webp,,,,,,,,,,,,,,,,,,,
+AMA007,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA007,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA007.webp,,,,,,,,,,,,,,,,,,,
+AMA008,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA008.webp,,,,,,,,,,,,,,,,,,,
+AMA009,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA009.webp,,,,,,,,,,,,,,,,,,,
+AMA010,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA010,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA010.webp,,,,,,,,,,,,,,,,,,,
+AMA011,AMA,Dig for Souls,Red,1,X,,3,,,,"Shadow, Necromancer, Action",,Go again,,,,,,"Look at the top X cards of your deck. You may put a zombie from among them into your graveyard, then put the rest on the bottom of your deck in any order.
+
+Your next zombie attack this turn gets +4{p} and ""When this hits, destroy this zombie.""
+
+**Go again**",Shadow Necromancer Action,,,No,,M,,,Diana Tanamas,,,AMA011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA011.webp,,,,,,,,,,,,,,,,,,,
+AMA012,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA012.webp,,,,,,,,,,,,,,,,,,,
+AMA013,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA013,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA013.webp,,,,,,,,,,,,,,,,,,,
+AMA014,AMA,Restless Commander,Red,1,0,3,,3,,,"Shadow, Necromancer, Action, Zombie, Ally",,Decay,,,,,,"Zombies you control get +1{p}.
+
+**Decay**",Shadow Necromancer Action - Zombie Ally,,,No,,M,,,Joseph Qiu,,,AMA014,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA014.webp,,,,,,,,,,,,,,,,,,,
+AMA015,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA015,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA015.webp,,,,,,,,,,,,,,,,,,,
+AMA016,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA016,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA016.webp,,,,,,,,,,,,,,,,,,,
+AMA017,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA017,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA017.webp,,,,,,,,,,,,,,,,,,,
+AMA018,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA018,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA018.webp,,,,,,,,,,,,,,,,,,,
+AMA019,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA019,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA019.webp,,,,,,,,,,,,,,,,,,,
+AMA020,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA020,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA020.webp,,,,,,,,,,,,,,,,,,,
+AMA021,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA021,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA021.webp,,,,,,,,,,,,,,,,,,,
+AMA022,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA022,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA022.webp,,,,,,,,,,,,,,,,,,,
+AMA023,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA023.webp,,,,,,,,,,,,,,,,,,,
+AMA024,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA024,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA024.webp,,,,,,,,,,,,,,,,,,,
+AMA025,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA025,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA025.webp,,,,,,,,,,,,,,,,,,,
+AMA026,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA026.webp,,,,,,,,,,,,,,,,,,,
+AMA027,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA027.webp,,,,,,,,,,,,,,,,,,,
+AMA028,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA028.webp,,,,,,,,,,,,,,,,,,,
+AMA029,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA029.webp,,,,,,,,,,,,,,,,,,,
+AMA030,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA030,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA030.webp,,,,,,,,,,,,,,,,,,,
+AMA031,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA031,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA031.webp,,,,,,,,,,,,,,,,,,,

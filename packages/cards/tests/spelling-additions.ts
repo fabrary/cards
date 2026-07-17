@@ -560,6 +560,7 @@ export const ADDITIONS = [
   "tuffnut",
   "twintek",
   "TwoFaced",
+  "undead",
   "unforgetting",
   "ursur",
   "uzuri",
