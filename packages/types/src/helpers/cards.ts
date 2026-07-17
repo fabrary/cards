@@ -53,7 +53,7 @@ export const getCardFromGEMCardIdentifier = (
   const identifierParts = gemCardIdentifier.split("-");
   const cardIdentifierGuess = identifierParts
     .map((part) => {
-      const shouldReplaceNumberWithColor = ["1", "2", "3"].some(
+      const shouldReplaceNumberWithColor = ["1", "2", "3", "4"].some(
         (pitch) => pitch === part,
       );
 

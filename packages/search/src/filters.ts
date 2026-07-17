@@ -728,6 +728,7 @@ const getMatchingReleasesFromRawValue = (
 };
 
 const pitchValuesMapping: { [key: string]: number } = {
+  purple: 4,
   blue: 3,
   yellow: 2,
   red: 1,

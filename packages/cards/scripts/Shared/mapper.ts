@@ -507,7 +507,7 @@ export const getMeta = (
     meta.push(Meta.Expansion);
   }
 
-  const hasPitch = [1, 2, 3].includes(card.pitch || 0);
+  const hasPitch = [1, 2, 3, 4].includes(card.pitch || 0);
   if (hasPitch) {
     const isRainbow = cardCountsByName.get(card.name) === 3;
     if (isRainbow) {

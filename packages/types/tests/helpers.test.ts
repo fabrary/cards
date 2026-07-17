@@ -41,6 +41,16 @@ describe("Card identifiers", () => {
       },
     ],
     [
+      "Invoke Miragai",
+      {
+        expected: {
+          number: "invoke-miragai-4",
+          string: "invoke-miragai-purple",
+        },
+        pitch: 4,
+      },
+    ],
+    [
       "Gorganian Tome",
       {
         expected: {
@@ -107,6 +117,10 @@ const gemCards: {
     oppositeSideCardIdentifiers: ["miragai"],
   },
   {
+    cardIdentifier: "invoke-miragai-purple",
+    oppositeSideCardIdentifiers: ["miragai"],
+  },
+  {
     cardIdentifier: "singularity-red",
     oppositeSideCardIdentifiers: ["teklovossen-the-mechropotent"],
   },
@@ -128,6 +142,7 @@ describe("GEM card identifiers", () => {
       "figment-of-erudition-yellow",
     ],
     ["invoke-miragai-1--miragai", "invoke-miragai-red"],
+    ["invoke-miragai-4--miragai", "invoke-miragai-purple"],
     ["singularity-1--teklovossen-the-mechropotent", "singularity-red"],
     ["stir-the-pot-3--inner-chi-3", "stir-the-pot-blue"],
   ];

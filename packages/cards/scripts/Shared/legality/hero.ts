@@ -121,7 +121,7 @@ const dromai: AppliedFilter = {
 
 const emperor: AppliedFilter = {
   ...CLASSES_AND_TALENTS([Class.Warrior, Class.Wizard], DRACONIC),
-  excludedPitches: [null, undefined, 2, 3],
+  excludedPitches: [null, undefined, 2, 3, 4],
 };
 
 const enigma: AppliedFilter = {
