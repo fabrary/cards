@@ -35,6 +35,10 @@ export const getCardIdentifier = (
     case 3:
       suffix = useNumber ? "-3" : "-blue";
       break;
+    case "4":
+    case 4:
+      suffix = useNumber ? "-4" : "-purple";
+      break;
   }
   return `${name}${suffix}`;
 };
@@ -54,7 +58,11 @@ export const getCardFromGEMCardIdentifier = (
       );
 
       return shouldReplaceNumberWithColor
-        ? part.replace("1", "red").replace("2", "yellow").replace("3", "blue")
+        ? part
+            .replace("1", "red")
+            .replace("2", "yellow")
+            .replace("3", "blue")
+            .replace("4", "purple")
         : part;
     })
     .join("-");

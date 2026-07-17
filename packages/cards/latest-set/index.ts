@@ -2044,7 +2044,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
   
   },{
     artists: ["Nathaniel HImawan"],
-    cardIdentifier: "soul-of-existence",
+    cardIdentifier: "soul-of-existence-purple",
     classes: [Class.NotClassed],
     defaultImage: "IAR000-RF",
     firstReleaseDate: "2026-09-25",
