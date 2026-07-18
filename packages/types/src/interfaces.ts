@@ -282,6 +282,8 @@ export enum Release {
   KayoSilverAgeDeck = "Kayo Silver Age Deck",
   LyathSilverAgeDeck = "Lyath Silver Age Deck",
   ViseraiSilverAgeDeck = "Viserai Silver Age Deck",
+  PrismSilverAgeDeck = "Prism Silver Age Deck",
+  ViseraiBetweenWorldsSilverAgeDeck = "Viserai Between Worlds Silver Age Deck",
 
   // Mastery packs
   MasteryPackGuardian = "Mastery Pack: Guardian",
@@ -294,6 +296,7 @@ export enum Release {
   IraWelcomeDeck = "Ira Welcome Deck",
   RoundTheTable = "Round the Table: TCC x LSS",
   SmashPalace = "Smash Palace",
+  SmashPalaceChorusOfSteel = "Smash Palace: Chorus of Steel",
 
   // One-offs
   GEM = "GEM",
@@ -452,6 +455,7 @@ export enum Hero {
   Katsu = "Katsu",
   Kavdaen = "Kavdaen",
   Kayo = "Kayo",
+  Killjoy = "Killjoy",
   Kox = "Kox",
   Levia = "Levia",
   Lexi = "Lexi",
@@ -494,6 +498,7 @@ export enum Hero {
   Viserai2 = "Viserai2",
   Yorick = "Yorick",
   Yoji = "Yoji",
+  Zane = "Zane",
   Zen = "Zen",
   Zyggy = "Zyggy",
 }

@@ -32,9 +32,11 @@ const limitedLegalOverrideCards = [
   "Runechant of Wrath",
 ];
 
+// These heroes need to be marked banned even though legal per card data - rarity downshift cards haven't been released yet
 const SILVER_AGE_BANNED_CARD_EXCEPTIONS = [
   "Dawnblade, Resplendent",
   "Dorinthea, Quicksilver Prodigy",
+  "Prism, Advent of Thrones",
 ];
 const SILVER_AGE_LEGAL_CARD_EXCEPTIONS = ["Dawnblade, Resplendent"];
 

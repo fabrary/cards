@@ -581,6 +581,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/appalling-bearers</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/aqua-laps</loc>
     <lastmod>2024-05-03</lastmod>
     <priority>0.5</priority>
@@ -1656,6 +1661,21 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/beckoning-hunger-red</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/beckoning-hunger-yellow</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/beckoning-hunger-blue</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/beckoning-light-red</loc>
     <lastmod>2023-07-01</lastmod>
     <priority>0.5</priority>
@@ -1698,6 +1718,11 @@
   <url>
     <loc>https://fabrary.net/cards/become-the-cup-blue</loc>
     <lastmod>2026-01-30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/become-the-shadow-lord-blue</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -3016,6 +3041,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bridge-of-damnation-blue</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/brimming-blade-red</loc>
     <lastmod>2026-04-06</lastmod>
     <priority>0.5</priority>
@@ -3808,6 +3838,11 @@
   <url>
     <loc>https://fabrary.net/cards/cintari-sellsword</loc>
     <lastmod>2023-11-16</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/circlet-of-eternal-end</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -7841,6 +7876,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/figment-of-hope-yellow</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/figment-of-judgment-yellow</loc>
     <lastmod>2023-07-01</lastmod>
     <priority>0.5</priority>
@@ -9346,6 +9386,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/grasp-of-the-darknight</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/gravekeeping-red</loc>
     <lastmod>2024-05-06</lastmod>
     <priority>0.5</priority>
@@ -9423,6 +9468,11 @@
   <url>
     <loc>https://fabrary.net/cards/great-library-of-solana</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/grille-of-repentance</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -10158,6 +10208,11 @@
   <url>
     <loc>https://fabrary.net/cards/herons-flight-red</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/hex-gauntlet</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -11548,6 +11603,11 @@
   <url>
     <loc>https://fabrary.net/cards/kick-the-hornets-nest-yellow</loc>
     <lastmod>2025-09-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/killjoy-the-crooked-blade</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -14173,6 +14233,11 @@
   <url>
     <loc>https://fabrary.net/cards/patch-the-hole</loc>
     <lastmod>2025-05-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/path-of-repentance</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -16918,6 +16983,11 @@
   <url>
     <loc>https://fabrary.net/cards/robe-of-rapture</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/robe-of-repentance</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -20811,6 +20881,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/suraya-archangel-of-endless-hope</loc>
+    <lastmod>2026-07-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/suraya-archangel-of-erudition</loc>
     <lastmod>2023-06-30</lastmod>
     <priority>0.5</priority>
@@ -24173,6 +24248,11 @@
   <url>
     <loc>https://fabrary.net/cards/yorick-weaver-of-tales</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/zane-broadly-beloved</loc>
+    <lastmod>2026-07-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>

@@ -1958,6 +1958,36 @@ export const releases: ReleaseInfo[] = [
     talents: [],
   },
   {
+    cards: 40,
+    classes: [Class.Illusionist],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
+    heroes: [Hero.Prism],
+    languages: ALL_LANGUAGES,
+    release: Release.PrismSilverAgeDeck,
+    relatedReleases: [],
+    releaseDate: "2026-09-18 12:00",
+    releaseType: ReleaseType.SilverAgeDeck,
+    setIdentifiers: ["sat"],
+    talents: [Talent.Light],
+  },
+  {
+    cards: 40,
+    classes: [Class.Runeblade],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/TBD" },
+    ],
+    heroes: [Hero.Viserai2],
+    languages: ALL_LANGUAGES,
+    release: Release.ViseraiBetweenWorldsSilverAgeDeck,
+    relatedReleases: [],
+    releaseDate: "2026-09-18 12:00",
+    releaseType: ReleaseType.SilverAgeDeck,
+    setIdentifiers: ["sbw"],
+    talents: [Talent.Shadow],
+  },
+  {
     cards: 263,
     classes: [Class.Brute, Class.Necromancer, Class.Runeblade],
     deckLinks: [
@@ -1994,6 +2024,19 @@ export const releases: ReleaseInfo[] = [
     releaseType: ReleaseType.ArmoryDeck,
     setIdentifiers: ["ama"],
     talents: [Talent.Shadow],
+  },
+  {
+    cards: 107,
+    classes: [Class.Warrior],
+    deckLinks: [],
+    heroes: [Hero.Killjoy, Hero.Zane],
+    languages: [Language.English],
+    release: Release.SmashPalaceChorusOfSteel,
+    relatedReleases: [],
+    releaseDate: "2026-10-30 12:00",
+    releaseType: ReleaseType.BoxSet,
+    talents: [],
+    setIdentifiers: ["spw"],
   },
 ];
 
@@ -2087,11 +2130,13 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
 
   // Silver Age decks
   sar: Release.ArakniSilverAgeDeck,
+  sat: Release.PrismSilverAgeDeck,
   saz: Release.AzaleaSilverAgeDeck,
   sba: Release.BriarSilverAgeDeck,
   sbl: Release.BoltynSilverAgeDeck,
   sbr: Release.BravoSilverAgeDeck,
   sbz: Release.BlazeSilverAgeDeck,
+  sbw: Release.ViseraiBetweenWorldsSilverAgeDeck,
   sda: Release.DashSilverAgeDeck,
   sdo: Release.DorintheaSilverAgeDeck,
   sen: Release.EnigmaSilverAgeDeck,
@@ -2112,6 +2157,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   // Other decks
   tcc: Release.RoundTheTable,
   smp: Release.SmashPalace,
+  spw: Release.SmashPalaceChorusOfSteel,
 
   // Hero decks
   bvo: Release.BravoHeroDeck,

@@ -272,6 +272,10 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Katsu]: katsu,
   [Hero.Kavdaen]: kavdaen,
   [Hero.Kayo]: kayo,
+  [Hero.Killjoy]: CLASSES_AND_TALENTS(
+    [Class.Warrior, Class.Thief],
+    [Talent.Reviled],
+  ),
   [Hero.Kox]: CLASSES_AND_TALENTS([Class.Guardian]),
   [Hero.Levia]: levia,
   [Hero.Lexi]: lexi,
@@ -320,6 +324,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Vynnset]: CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
   [Hero.Yorick]: CLASSES_AND_TALENTS([Class.Bard]),
   [Hero.Yoji]: CLASSES_AND_TALENTS([Class.Guardian]),
+  [Hero.Zane]: CLASSES_AND_TALENTS([Class.Warrior], [Talent.Revered]),
   [Hero.Zen]: CLASSES_AND_TALENTS([Class.Ninja], MYSTIC),
   [Hero.Zyggy]: CLASSES_AND_TALENTS([Class.Illusionist], [Talent.Lightning]),
 };

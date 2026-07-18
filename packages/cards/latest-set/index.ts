@@ -23,6 +23,79 @@
   } from '@flesh-and-blood/types';
 
   const cards1: Card[] = [{
+    artists: ["Nikolay Moskvin"],
+    cardIdentifier: "appalling-bearers",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR056",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice,Hero.Taylor],
+    name: "Appalling Bearers",
+    printings: [{
+        artists: ["Nikolay Moskvin"],
+      
+      identifier: "IAR056",
+      image: "IAR056",
+      
+      
+      print: "IAR056",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Cold,
+      identifier: "IAR056",
+      image: "IAR056-CF",
+      
+      
+      print: "IAR056-Cold-Extended Art",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["IAR056"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR056-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Shadow Necromancer Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Discard a zombie, destroy this: Prevent the next 2 damage that would be dealt to you this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Isuardi Therianto","Max Kostin"],
     cardIdentifier: "arknight-shard-blue",
     classes: [Class.Runeblade],
@@ -166,6 +239,312 @@ Attack action cards played from your banished zone get +3{p}.`,
     talents: [Talent.Shadow],
   
   young: true
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "beckoning-hunger-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR017",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Beckoning Hunger",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "IAR017",
+      image: "IAR017",
+      
+      
+      print: "IAR017",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR017",
+      image: "IAR017-RF",
+      
+      
+      print: "IAR017-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR017"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR017",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+When this hits, create a Blasmophet, the Insatiable Hunger token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "beckoning-hunger-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR018",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Beckoning Hunger",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "IAR018",
+      image: "IAR018",
+      
+      
+      print: "IAR018",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR018",
+      image: "IAR018-RF",
+      
+      
+      print: "IAR018-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR018"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR018",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+When this hits, create a Blasmophet, the Insatiable Hunger token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Faizal Fikri"],
+    cardIdentifier: "beckoning-hunger-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR019",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Beckoning Hunger",
+    printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "IAR019",
+      image: "IAR019",
+      
+      
+      print: "IAR019",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR019",
+      image: "IAR019-RF",
+      
+      
+      print: "IAR019-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR019"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR019",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck.
+
+When this hits, create a Blasmophet, the Insatiable Hunger token.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "become-the-shadow-lord-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR113",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Become the Shadow Lord",
+    printings: [{
+        artists: ["Athiwut B."],
+      
+      identifier: "IAR113",
+      image: "IAR113",
+      
+      
+      print: "IAR113",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Athiwut B."],
+      foiling: Foiling.Cold,
+      identifier: "IAR113",
+      image: "IAR113-MV",
+      
+      
+      print: "IAR113-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Majestic,Rarity.Marvel],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR113"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR113-MV",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, create a Gate to íArathael token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
   },{
     artists: ["Lius Lasahido"],
     cardIdentifier: "blasmophet-the-insatiable-hunger",
@@ -328,6 +707,156 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
     
     
     talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Arkoii"],
+    cardIdentifier: "bridge-of-damnation-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR058",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Bridge of Damnation",
+    printings: [{
+        artists: ["Arkoii"],
+      
+      identifier: "IAR058",
+      image: "IAR058",
+      
+      
+      print: "IAR058",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Arkoii"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR058",
+      image: "IAR058-RF",
+      
+      
+      print: "IAR058-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR058"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR058",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Go again**
+
+At the start of each turn, destroy this unless you put a zombie from your banished zone into your graveyard.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "circlet-of-eternal-end",
+    classes: [Class.Generic],
+    defaultImage: "IAR223-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Circlet of Eternal End",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR223",
+      image: "IAR223-RF",
+      
+      
+      print: "IAR223-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Cold,
+      identifier: "IAR223",
+      image: "IAR223-CF",
+      
+      
+      print: "IAR223-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Promo],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["FAB491","IAR223"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "IAR223-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends, turn a card in the attacking hero's banished zone face-down.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -629,6 +1158,292 @@ This card's attacks get **go again**.
   
   
   },{
+    artists: ["Tatiana Krstic"],
+    cardIdentifier: "grasp-of-the-darknight",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR109",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
+    name: "Grasp of the Darknight",
+    printings: [{
+        artists: ["Tatiana Krstic"],
+      
+      identifier: "IAR109",
+      image: "IAR109",
+      
+      
+      print: "IAR109",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tatiana Krstic"],
+      foiling: Foiling.Cold,
+      identifier: "IAR109",
+      image: "IAR109-CF",
+      
+      
+      print: "IAR109-Cold-Extended Art",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["IAR109"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR109-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Shadow Runeblade Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Action** - {r}, destroy this: **Opt 1**, then create a Runechant token. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Opt],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "grille-of-repentance",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR161",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
+    name: "Grille of Repentance",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "IAR161",
+      image: "IAR161",
+      
+      
+      print: "IAR161",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.Cold,
+      identifier: "IAR161",
+      image: "IAR161-CF",
+      
+      
+      print: "IAR161-Cold",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR161"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR161-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Shadow Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Destroy this: Turn a card with blood debt in your banished zone face-down.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Lizhe Liang"],
+    cardIdentifier: "hell-hammer",
+    classes: [Class.Brute],
+    defaultImage: "IAR003",
+    firstReleaseDate: "2023-07-14",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Hell Hammer",
+    printings: [{
+        artists: ["Lizhe Liang"],
+      
+      identifier: "IAR003",
+      image: "IAR003",
+      
+      
+      print: "IAR003",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Promo,Rarity.Rare],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["DTD105","IAR003","LGS164"],
+    sets: [Release.DuskTillDawn,Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "IAR003",
+    subtypes: [Subtype.TwoHanded,Subtype.Hammer],
+    types: [Type.Weapon],
+    typeText: "Shadow Brute Weapon - Hammer (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Once per Turn Action** - {r}{r}: **Attack**
+
+When the combat chain closes, if you've attacked with this, banish it.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tomi Ong"],
+    cardIdentifier: "hex-gauntlet",
+    classes: [Class.Brute],
+    defaultImage: "IAR004",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia,Hero.Taylor],
+    name: "Hex Gauntlet",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "IAR004",
+      image: "IAR004",
+      
+      
+      print: "IAR004",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Cold,
+      identifier: "IAR004",
+      image: "IAR004-CF",
+      
+      
+      print: "IAR004-Cold-Extended Art",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["IAR004"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR004-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Shadow Brute Equipment - Arms",
+
+    
+    
+    
+    
+    
+    functionalText: `**Instant** - Banish this: Turn a card with blood debt in your banished zone face-down.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["SanSan","Wisnu Tan"],
     cardIdentifier: "levia",
     classes: [Class.Brute],
@@ -780,7 +1595,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     hero: Hero.Malice,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     
     life: 20,
     
@@ -843,7 +1658,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     hero: Hero.Malice,
     intellect: 4,
     
-    
+    keywords: [Keyword.GoAgain],
     
     life: 40,
     
@@ -926,6 +1741,79 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     
     pitch: 1,
     power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "path-of-repentance",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR163",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
+    name: "Path of Repentance",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "IAR163",
+      image: "IAR163",
+      
+      
+      print: "IAR163",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.Cold,
+      identifier: "IAR163",
+      image: "IAR163-CF",
+      
+      
+      print: "IAR163-Cold",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR163"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR163-CF",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Shadow Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Destroy this: Turn a card with blood debt in your banished zone face-down.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
     
     
     
@@ -1238,6 +2126,79 @@ Banish the top card of your deck. If it's blue, create a Gate to íArathael toke
     
     pitch: 1,
     power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "robe-of-repentance",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR162",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Taylor,Hero.Viserai2,Hero.Vynnset],
+    name: "Robe of Repentance",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "IAR162",
+      image: "IAR162",
+      
+      
+      print: "IAR162",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.Cold,
+      identifier: "IAR162",
+      image: "IAR162-CF",
+      
+      
+      print: "IAR162-Cold",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR162"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR162-CF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Shadow Equipment - Chest",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Destroy this: Turn a card with blood debt in your banished zone face-down.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
     
     
     
@@ -2043,7 +3004,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
   
   
   },{
-    artists: ["Nathaniel HImawan"],
+    artists: ["Nathaniel Himawan"],
     cardIdentifier: "soul-of-existence-purple",
     classes: [Class.NotClassed],
     defaultImage: "IAR000-RF",
@@ -2052,7 +3013,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Soul of Existence",
     printings: [{
-        artists: ["Nathaniel HImawan"],
+        artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
       identifier: "IAR000",
       image: "IAR000-RF",
@@ -2064,7 +3025,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
       
       
     },{
-        artists: ["Nathaniel HImawan"],
+        artists: ["Nathaniel Himawan"],
       foiling: Foiling.Cold,
       identifier: "IAR666",
       image: "IAR666-MV",
@@ -2197,7 +3158,7 @@ When this is pitched, lose 1{h}.`,
     cardIdentifier: "viserai-between-worlds",
     classes: [Class.Runeblade],
     defaultImage: "IAR107",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.Draft,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Viserai],
     name: "Viserai, Between Worlds",
@@ -2226,10 +3187,10 @@ When this is pitched, lose 1{h}.`,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Basic,
-    setIdentifiers: ["IAR107"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR107","SBW001"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR107-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -2343,7 +3304,7 @@ When this is pitched, lose 1{h}.`,
     cardIdentifier: "viserai-usurper",
     classes: [Class.Runeblade],
     defaultImage: "IAR106_BACK",
-    firstReleaseDate: "2026-09-25",
+    firstReleaseDate: "2026-09-18",
     legalFormats: [Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open],
     legalHeroes: [Hero.Viserai],
     name: "Viserai, Usurper",
@@ -2396,10 +3357,10 @@ When this is pitched, lose 1{h}.`,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Basic,
-    setIdentifiers: ["IAR106","IAR107"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR106","IAR107","SBW001"],
+    sets: [Release.UsurpTheShadowThrone,Release.ViseraiBetweenWorldsSilverAgeDeck],
     specialImage: "IAR107-MV_BACK",
     subtypes: [Subtype.Demon],
     types: [Type.Hero],
@@ -2417,7 +3378,7 @@ At the beginning of each end phase, if you've created or activated a Gate to íA
     hero: Hero.Viserai,
     intellect: 4,
     isCardBack: true,
-    keywords: [Keyword.Traverse],
+    keywords: [Keyword.GoAgain,Keyword.Traverse],
     
     
     
