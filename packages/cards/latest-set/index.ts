@@ -3160,7 +3160,7 @@ When this is pitched, lose 1{h}.`,
     defaultImage: "IAR107",
     firstReleaseDate: "2026-09-18",
     legalFormats: [Format.Blitz,Format.Draft,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Viserai],
+    legalHeroes: [Hero.Viserai2],
     name: "Viserai, Between Worlds",
     printings: [{
         artists: ["Nathaniel Himawan"],
@@ -3203,7 +3203,7 @@ When this is pitched, lose 1{h}.`,
     
     functionalText: `Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, **traverse**.`,
     
-    hero: Hero.Viserai,
+    hero: Hero.Viserai2,
     intellect: 4,
     
     keywords: [Keyword.Traverse],
