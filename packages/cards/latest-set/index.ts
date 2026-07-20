@@ -162,12 +162,24 @@ When this is pitched, create a Runechant token.`,
     artists: ["Lius Lasahido"],
     cardIdentifier: "baalghor-omen-of-the-end",
     classes: [Class.NotClassed],
-    defaultImage: "IAR159-MV",
+    defaultImage: "IAR159-RF",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor],
     name: "Baalghor, Omen of the End",
     printings: [{
+        artists: ["Lius Lasahido"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR159",
+      image: "IAR159-RF",
+      
+      
+      print: "IAR159-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Lius Lasahido"],
       foiling: Foiling.Cold,
       identifier: "IAR159",
@@ -198,8 +210,8 @@ When this is pitched, create a Runechant token.`,
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Marvel],
-    rarity: Rarity.Marvel,
+    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarity: Rarity.Rare,
     setIdentifiers: ["IAR159"],
     sets: [Release.UsurpTheShadowThrone],
     specialImage: "IAR159-MV",
@@ -208,7 +220,7 @@ When this is pitched, create a Runechant token.`,
     typeText: "Shadow Hero - Young Demon",
 
     
-    
+    bannedFormats: [Format.SilverAge],
     
     
     
@@ -957,12 +969,24 @@ When this hits a hero, banish all cards in their arsenal.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR090",
+      image: "IAR090-RF",
+      
+      
+      print: "IAR090-Rainbow-Extended Art",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Basic],
     rarity: Rarity.Basic,
     setIdentifiers: ["IAR090"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR090",
+    specialImage: "IAR090-RF",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
     typeText: "Shadow Necromancer Action - Zombie Ally",

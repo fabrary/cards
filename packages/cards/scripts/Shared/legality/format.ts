@@ -34,6 +34,7 @@ const limitedLegalOverrideCards = [
 
 // These heroes need to be marked banned even though legal per card data - rarity downshift cards haven't been released yet
 const SILVER_AGE_BANNED_CARD_EXCEPTIONS = [
+  "Baalghor, Omen of the End",
   "Dawnblade, Resplendent",
   "Dorinthea, Quicksilver Prodigy",
   "Prism, Advent of Thrones",
