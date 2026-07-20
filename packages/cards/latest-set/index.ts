@@ -2688,6 +2688,69 @@ At the beginning of your action phase or when you play an attack action card, de
   
   
   },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "seven-sin-nebula",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR108",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Seven Sin Nebula",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "IAR108",
+      image: "IAR108",
+      
+      
+      print: "IAR108",
+      rarity: Rarity.Basic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Basic,Rarity.Promo],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["GEM185","IAR108"],
+    sets: [Release.GEM,Release.UsurpTheShadowThrone],
+    specialImage: "IAR108",
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
+    types: [Type.Weapon],
+    typeText: "Shadow Runeblade Weapon - Sword (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Action** - {r}, {t}: **Attack**. Activate this only if you've played a card from a banished zone this turn.
+
+When this hits a hero, create a Runechant token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    power: 3,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Stefano Moroni"],
     cardIdentifier: "shadowrealm-harrower-blue",
     classes: [Class.NotClassed],
