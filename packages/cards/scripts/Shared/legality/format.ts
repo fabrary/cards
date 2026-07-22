@@ -22,7 +22,7 @@ const limitedLegalOverrideCards = [
   "Runechant",
   "Tiger Taming Khakkara",
   "Zen State",
-  "Gate to íArathael",
+  "Gate to i'Arathael",
   "Runechant of Greed",
   "Runechant of Envy",
   "Runechant of Gluttony",
@@ -68,12 +68,12 @@ const FORMATS_TO_CHECK: Format[] = Object.values(Format).filter(
 
 const CARDS_TO_LOG: string[] = [
   //
-  // "Gate to íArathael",
+  // "Gate to i'Arathael",
 ];
 
 const CONFIRMED_CARDS_TO_LOG: string[] = [
   //
-  // "Gate to íArathael",
+  // "Gate to i'Arathael",
 ];
 
 export const getBannedAndLegalFormats = (

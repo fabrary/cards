@@ -1,6 +1,6 @@
 export const IGNORES = [
   "hyperx3",
-  "íarathael",
+  "i'Arathael",
   "jackbequick",
   "liquidcooled",
   "metex",
@@ -262,7 +262,8 @@ export const ADDITIONS = [
   "hulkster",
   "humperdinck",
   "hyperx3",
-  "íarathael",
+  "i'Arathael",
+  "iArathael",
   "icebind",
   "iceloch",
   "icevein",

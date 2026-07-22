@@ -530,7 +530,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
     cost: 0,
     defense: 3,
     
-    functionalText: `Banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, create a Gate to íArathael token.
+    functionalText: `Banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, create a Gate to i'Arathael token.
 
 **Go again**`,
     
@@ -1110,7 +1110,7 @@ This card's attacks get **go again**.
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
-    name: "Gate to íArathael",
+    name: "Gate to i'Arathael",
     printings: [{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
@@ -1710,7 +1710,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
-    name: "Open the Gate to íArathael",
+    name: "Open the Gate to i'Arathael",
     printings: [{
         artists: ["Jessada Sutthi"],
       
@@ -1750,7 +1750,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     cost: 0,
     defense: 3,
     
-    functionalText: `When this hits or is banished from hand or deck, create a Gate to íArathael token.
+    functionalText: `When this hits or is banished from hand or deck, create a Gate to i'Arathael token.
 
 **Blood Debt**`,
     
@@ -1900,7 +1900,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     
     functionalText: `**Opt 2**
 
-Banish the top card of your deck. If it's red, create a Gate to íArathael token. **Go again**`,
+Banish the top card of your deck. If it's red, create a Gate to i'Arathael token. **Go again**`,
     
     
     
@@ -1975,7 +1975,7 @@ Banish the top card of your deck. If it's red, create a Gate to íArathael token
     
     functionalText: `**Opt 2**
 
-Banish the top card of your deck. If it's yellow, create a Gate to íArathael token. **Go again**`,
+Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael token. **Go again**`,
     
     
     
@@ -2050,7 +2050,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to íArathael to
     
     functionalText: `**Opt 2**
 
-Banish the top card of your deck. If it's blue, create a Gate to íArathael token. **Go again**`,
+Banish the top card of your deck. If it's blue, create a Gate to i'Arathael token. **Go again**`,
     
     
     
@@ -3213,7 +3213,7 @@ When this is pitched, lose 1{h}.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `When this attacks, if it was played from your banished zone, create a Gate to íArathael token.
+    functionalText: `When this attacks, if it was played from your banished zone, create a Gate to i'Arathael token.
 
 **Blood Debt**`,
     
@@ -3460,7 +3460,7 @@ When this is pitched, lose 1{h}.`,
     
     functionalText: `The first attack action card with blood debt you play each turn gets **go again**.
 
-At the beginning of each end phase, if you've created or activated a Gate to íArathael this turn, you may **traverse**.`,
+At the beginning of each end phase, if you've created or activated a Gate to i'Arathael this turn, you may **traverse**.`,
     
     hero: Hero.Viserai,
     intellect: 4,
