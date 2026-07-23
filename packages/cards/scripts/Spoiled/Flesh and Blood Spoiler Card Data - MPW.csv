@@ -25,7 +25,9 @@ MPW019,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW019,https://legendstory-production-s3
 MPW020,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW020,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW020.webp,,,,,,,,,MPW020,,,,,,,,,,MPW020,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW021,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW021,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW021.webp,,,,,,,,,MPW021,,,,,,,,,,MPW021,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW022,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW022,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW022.webp,,,,,,,,,MPW022,,,,,,,,,,MPW022,,,,,,,,,,,,,,,,,,,,,,,,,
-MPW023,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW023.webp,,,,,,,,,MPW023,,,,,,,,,,MPW023,,,,,,,,,,,,,,,,,,,,,,,,,
+MPW023,MPW,Into the Muck,Red,1,0,,3,,,,"Warrior, Attack Reaction",,,,,,,,"Play this only if you've wagered this chain link.
+
+Banish a non-equipment defending card on the active chain link.",Warrior Attack Reaction,,,No,,M,,,Max Kostin,,,MPW023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW023.webp,,,M,R,,Max Kostin,,,MPW023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW023-RF.webp,,,,,,Max Kostin,,,MPW023,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW024,MPW,Overwhelming Swing,Yellow,2,0,,3,,,,"Warrior, Attack Reaction",,,,,,,,"This costs an additional {r} to play for each card defending on the active chain link.
 
 Target weapon attack gets +X{p}, where X is twice the number of cards defending it plus 1.",Warrior Attack Reaction,,,No,,M,,,Yosi Saputra,,,MPW024,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW024.webp,,,,,,Yosi Saputra,,,MPW024,,,,,,,Yosi Saputra,,,MPW024,,,,,,,,,,,,,,,,,,,,,,,,,
