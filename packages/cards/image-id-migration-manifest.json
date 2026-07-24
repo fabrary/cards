@@ -32,7 +32,9 @@
     "HNT",
     "GEM",
     "HER",
-    "FAB"
+    "FAB",
+    "EVR",
+    "DYN"
   ],
   "setsToMigrate": [
     "ZEN",
@@ -66,7 +68,9 @@
     "HNT",
     "GEM",
     "HER",
-    "FAB"
+    "FAB",
+    "EVR",
+    "DYN"
   ],
   "sets": [
     "1HP",
