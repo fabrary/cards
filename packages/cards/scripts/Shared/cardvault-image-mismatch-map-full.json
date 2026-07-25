@@ -3126,7 +3126,7 @@
     },
     "LSS021-Cold-Full Art": {
       "before": "LSS021",
-      "after": "LSS021-MV"
+      "after": "LSS021-MV_BACK"
     }
   },
   "frost-hex-blue": {
@@ -8130,7 +8130,7 @@
     },
     "LSS003-Cold-Full Art": {
       "before": "LSS003_B",
-      "after": "LSS003-CF"
+      "after": "LSS003-CF_BACK"
     }
   },
   "tectonic-crust": {
@@ -9230,7 +9230,7 @@
     },
     "LSS004-Cold-Full Art": {
       "before": "LSS004_B",
-      "after": "LSS004-CF"
+      "after": "LSS004-CF_BACK"
     }
   },
   "zealous-belting-red": {
