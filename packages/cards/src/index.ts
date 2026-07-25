@@ -196176,6 +196176,69 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
   
   
   },{
+    artists: ["Reinaldo Indrajaya"],
+    cardIdentifier: "heads-up-red",
+    classes: [Class.Warrior],
+    defaultImage: "AOL014",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Heads Up",
+    printings: [{
+        artists: ["Reinaldo Indrajaya"],
+      
+      identifier: "AOL014",
+      image: "AOL014",
+      
+      
+      print: "AOL014",
+      rarity: Rarity.Majestic,
+      set: Release.ArmoryDeckOlympia,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["AOL014"],
+    sets: [Release.ArmoryDeckOlympia],
+    specialImage: "AOL014",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, if it wagered, it gets **dominate**."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Dmitry Isakevitch"],
     cardIdentifier: "healing-balm-red",
     classes: [Class.Generic],
@@ -241477,7 +241540,8 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     talents: [Talent.Shadow],
   
   young: true
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Steve Argyle"],
     cardIdentifier: "levia-redeemed",
     classes: [Class.NotClassed],
@@ -241560,8 +241624,7 @@ Cards you own lose **blood debt**.`,
     talents: [Talent.Shadow],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "levia-shadowborn-abomination",
     classes: [Class.Brute],
@@ -307909,6 +307972,69 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
   
   },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "prizeworn-pathfinders",
+    classes: [Class.Guardian,Class.Warrior],
+    defaultImage: "AOL006",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Jarl,Hero.Kassai,Hero.Killjoy,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Olympia,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji,Hero.Zane],
+    name: "Prizeworn Pathfinders",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "AOL006",
+      image: "AOL006",
+      
+      
+      print: "AOL006-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckOlympia,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AOL006"],
+    sets: [Release.ArmoryDeckOlympia],
+    specialImage: "AOL006",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Guardian / Warrior Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `Whenever you win a wager, you may pay {r}. If you do, remove a -1{d} counter from this.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    meta: [Meta.Arena,Meta.DualClass],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "proclaim-vengeance-red",
     classes: [Class.NotClassed],
@@ -322929,7 +323055,8 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "ray-of-hope-yellow",
     classes: [Class.NotClassed],
@@ -323223,8 +323350,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     talents: [Talent.Light],
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Adolfo Navarro","Isuardi Therianto"],
     cardIdentifier: "razor-reflex-red",
     classes: [Class.Generic],
@@ -404315,7 +404441,8 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Le Vuong"],
     cardIdentifier: "spinning-wheel-kick-blue",
     classes: [Class.Ninja],
@@ -404505,8 +404632,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Muhammad Fajri"],
     cardIdentifier: "spire-sniping-yellow",
     classes: [Class.Ranger],
@@ -469319,6 +469445,71 @@ Equip X weapons and/or equipment from your inventory.`,
   
   
   },{
+    artists: ["Jen Santos"],
+    cardIdentifier: "visit-the-prize-room-blue",
+    classes: [Class.Warrior],
+    defaultImage: "AOL028",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Olympia,Hero.Shiyana],
+    name: "Visit the Prize Room",
+    printings: [{
+        artists: ["Jen Santos"],
+      
+      identifier: "AOL028",
+      image: "AOL028",
+      
+      
+      print: "AOL028",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckOlympia,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["AOL028"],
+    sets: [Release.ArmoryDeckOlympia],
+    specialImage: "AOL028",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `**Olympia Specialization**
+
+You may destroy a Gold you control. If you do, equip a Prized Galea from your inventory.
+
+Create a Vigor and a Courage token. **Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Specialization],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Olympia],
+    
+  
+  
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "viziertronic-model-i",
     classes: [Class.Mechanologist],
@@ -482331,7 +482522,8 @@ When the combat chain closes, each hero who has lost {h} this turn banishes the 
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "widow-web-crawler",
     classes: [Class.Assassin],
@@ -482604,8 +482796,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "widowmaker-blue",
     classes: [Class.Ranger],

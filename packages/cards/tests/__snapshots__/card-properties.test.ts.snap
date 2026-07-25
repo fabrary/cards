@@ -559727,6 +559727,96 @@ exports[`Check for unintentional updates Terminator Tank (terminator-tank-red) v
 }
 `;
 
+exports[`Check for unintentional updates Terms of Combat (terms-of-combat-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Amtepra",
+  ],
+  "cardIdentifier": "terms-of-combat-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 2,
+  "defaultImage": "MPW034",
+  "defense": 3,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Your next weapon attack this turn gets +4{p} and "Whenever a defense reaction is played or activated this chain link, draw a card."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Zane",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Terms of Combat",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Amtepra",
+      ],
+      "identifier": "MPW034",
+      "image": "MPW034",
+      "print": "MPW034",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Amtepra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW034",
+      "image": "MPW034-RF",
+      "print": "MPW034-Rainbow",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "MPW034",
+  ],
+  "sets": [
+    "Mastery Pack: Warrior",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "MPW034",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Terra (terra) vs snapshot 1`] = `
 {
   "artists": [

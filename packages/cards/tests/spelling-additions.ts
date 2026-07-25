@@ -400,6 +400,7 @@ export const ADDITIONS = [
   "polarus",
   "portside",
   "pounamu",
+  "prizeworn",
   "proto",
   "protos",
   "pulsewave",
