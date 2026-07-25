@@ -41699,7 +41699,7 @@ Your next weapon attack this turn gains +1{p}.`,
         artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Rainbow,
       identifier: "MPW063",
-      image: "MPW063",
+      image: "MPW063-RF",
       
       
       print: "MPW063-Rainbow",
@@ -118440,7 +118440,7 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
       identifier: "MPW042",
-      image: "MPW042",
+      image: "MPW042-RF",
       
       
       print: "MPW042-Rainbow",
@@ -120223,7 +120223,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
       identifier: "MPW043",
-      image: "MPW043",
+      image: "MPW043-RF",
       
       
       print: "MPW043-Rainbow",
@@ -121816,7 +121816,7 @@ Draw a card.
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
       identifier: "MPW044",
-      image: "MPW044",
+      image: "MPW044-RF",
       
       
       print: "MPW044-Rainbow",
@@ -184037,7 +184037,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
         artists: ["Saad Irfan"],
       foiling: Foiling.Rainbow,
       identifier: "MPW053",
-      image: "MPW053",
+      image: "MPW053-RF",
       
       
       print: "MPW053-Rainbow",
@@ -184128,7 +184128,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
         artists: ["Saad Irfan"],
       foiling: Foiling.Rainbow,
       identifier: "MPW054",
-      image: "MPW054",
+      image: "MPW054-RF",
       
       
       print: "MPW054-Rainbow",
@@ -184219,7 +184219,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
         artists: ["Saad Irfan"],
       foiling: Foiling.Rainbow,
       identifier: "MPW055",
-      image: "MPW055",
+      image: "MPW055-RF",
       
       
       print: "MPW055-Rainbow",
@@ -319124,6 +319124,18 @@ Create X Cintari Sellsword tokens.
       set: Release.MasteryPackWarrior,
       
       
+    },{
+        artists: ["Amtepra"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW032",
+      image: "MPW032-RF",
+      
+      
+      print: "MPW032-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -319185,6 +319197,18 @@ Your next sword attack this turn gets +3{p}.
       
       
       print: "MPW033",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Alifka Hammam"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW033",
+      image: "MPW033-RF",
+      
+      
+      print: "MPW033-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
       
@@ -347741,7 +347765,7 @@ Your next Brute attack this turn gains +2{p}.
         artists: ["Andy Aslamov"],
       foiling: Foiling.Rainbow,
       identifier: "MPW048",
-      image: "MPW048",
+      image: "MPW048-RF",
       
       
       print: "MPW048-Rainbow",
@@ -347933,7 +347957,7 @@ Your next sword attack this turn gets +2{p}.`,
         artists: ["Andy Aslamov"],
       foiling: Foiling.Rainbow,
       identifier: "MPW050",
-      image: "MPW050",
+      image: "MPW050-RF",
       
       
       print: "MPW050-Rainbow",
@@ -375179,7 +375203,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
         artists: ["Tomasz Jedruszek"],
       foiling: Foiling.Rainbow,
       identifier: "MPW052",
-      image: "MPW052",
+      image: "MPW052-RF",
       
       
       print: "MPW052-Rainbow",
@@ -411635,7 +411659,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
         artists: ["Kevin Sidharta"],
       foiling: Foiling.Rainbow,
       identifier: "MPW096",
-      image: "MPW096",
+      image: "MPW096-RF",
       
       
       print: "MPW096-Rainbow",
@@ -411714,7 +411738,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
         artists: ["Kevin Sidharta"],
       foiling: Foiling.Rainbow,
       identifier: "MPW097",
-      image: "MPW097",
+      image: "MPW097-RF",
       
       
       print: "MPW097-Rainbow",
@@ -411805,7 +411829,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
         artists: ["Kevin Sidharta"],
       foiling: Foiling.Rainbow,
       identifier: "MPW098",
-      image: "MPW098",
+      image: "MPW098-RF",
       
       
       print: "MPW098-Rainbow",
@@ -435888,6 +435912,81 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     power: 6,
     
     shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Amtepra"],
+    cardIdentifier: "terms-of-combat-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW034",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Terms of Combat",
+    printings: [{
+        artists: ["Amtepra"],
+      
+      identifier: "MPW034",
+      image: "MPW034",
+      
+      
+      print: "MPW034",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Amtepra"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW034",
+      image: "MPW034-RF",
+      
+      
+      print: "MPW034-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW034"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW034",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Your next weapon attack this turn gets +4{p} and "Whenever a defense reaction is played or activated this chain link, draw a card."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -482505,7 +482604,8 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Phu Thieu"],
     cardIdentifier: "widowmaker-blue",
     classes: [Class.Ranger],
@@ -482586,8 +482686,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Federico Musetti"],
     cardIdentifier: "wild-ride-red",
     classes: [Class.Brute],
