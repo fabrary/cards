@@ -51790,6 +51790,77 @@ exports[`Check for unintentional updates Blade Cuff (blade-cuff) vs snapshot 1`]
 }
 `;
 
+exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sariya Asavametha",
+  ],
+  "cardIdentifier": "blade-dance",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "MPW134",
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "When you activate a weapon attack, destroy this and the attack gets **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Shiyana",
+    "Yorick",
+    "Zane",
+  ],
+  "name": "Blade Dance",
+  "printings": [
+    {
+      "artists": [
+        "Sariya Asavametha",
+      ],
+      "identifier": "MPW134",
+      "image": "MPW134",
+      "print": "MPW134",
+      "rarity": "Basic",
+      "set": "Mastery Pack: Warrior",
+    },
+  ],
+  "rarities": [
+    "Basic",
+  ],
+  "rarity": "Basic",
+  "setIdentifiers": [
+    "MPW134",
+  ],
+  "sets": [
+    "Mastery Pack: Warrior",
+  ],
+  "specialImage": "MPW134",
+  "subtypes": [
+    "Aura",
+  ],
+  "typeText": "Warrior Token - Aura",
+  "types": [
+    "Token",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Blade Flash (blade-flash-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -479533,6 +479604,92 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   "typeText": "Mystic Ninja Action",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shimmer of the Blade (shimmer-of-the-blade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Asur Misoa",
+  ],
+  "cardIdentifier": "shimmer-of-the-blade-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "MPW051",
+  "defense": 2,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Target weapon attack gets +3{p}.
+
+**Instant** - Discard this: Create a Blade Dance token.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Zane",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Shimmer of the Blade",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "identifier": "MPW051",
+      "image": "MPW051",
+      "print": "MPW051",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW051",
+      "image": "MPW051-RF",
+      "print": "MPW051-Rainbow",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "MPW051",
+  ],
+  "sets": [
+    "Mastery Pack: Warrior",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "MPW051",
+  "subtypes": [],
+  "typeText": "Warrior Attack Reaction",
+  "types": [
+    "Attack Reaction",
   ],
 }
 `;

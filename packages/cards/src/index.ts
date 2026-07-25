@@ -121938,6 +121938,83 @@ Draw a card.
   
   
   },{
+    artists: ["Vito Vivodka"],
+    cardIdentifier: "drawn-to-the-blade-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW030",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Drawn to the Blade",
+    printings: [{
+        artists: ["Vito Vivodka"],
+      
+      identifier: "MPW030",
+      image: "MPW030",
+      
+      
+      print: "MPW030",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Vito Vivodka"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW030",
+      image: "MPW030-RF",
+      
+      
+      print: "MPW030-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW030"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW030",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Sharpen** target sword you control.
+
+If it has 2 or more +1{p} counters, the next time it hits this turn, draw a card.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Adolfo Navarro"],
     cardIdentifier: "drawn-to-the-dark-dimension-red",
     classes: [Class.Runeblade],
@@ -159603,7 +159680,8 @@ You may {u} a bow you control.
     talents: [Talent.Mystic],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Rio Sabda"],
     cardIdentifier: "first-tenet-of-chi-wind-blue",
     classes: [Class.NotClassed],
@@ -159699,8 +159777,7 @@ Go again`,
     talents: [Talent.Mystic],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Aluísio Cervelle"],
     cardIdentifier: "fish-fingers",
     classes: [Class.Pirate],
@@ -241344,7 +241421,8 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "levels-of-enlightenment-blue",
     classes: [Class.NotClassed],
@@ -241441,8 +241519,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     talents: [Talent.Mystic],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["SanSan","Wisnu Tan"],
     cardIdentifier: "levia",
     classes: [Class.Brute],
@@ -322954,7 +323031,8 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "rawhide-rumble-yellow",
     classes: [Class.Brute],
@@ -323035,8 +323113,7 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "rawhide-rumble-blue",
     classes: [Class.Brute],
@@ -404246,7 +404323,8 @@ When this defends and the attacking hero has played or activated a reaction this
     talents: [Talent.Mystic],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "spinal-crush-red",
     classes: [Class.Guardian],
@@ -404385,8 +404463,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "spinning-wheel-kick-red",
     classes: [Class.Ninja],
@@ -482415,7 +482492,8 @@ When the combat chain closes, each hero who has lost {h} this turn banishes the 
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "widow-back-abdomen",
     classes: [Class.Assassin],
@@ -482496,8 +482574,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes the 
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "widow-claw-tarsus",
     classes: [Class.Assassin],

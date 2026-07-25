@@ -36,7 +36,11 @@ MPW026,MPW,Sharpening Sparks,Red,1,0,,3,,,,"Warrior, Attack Reaction",,,,,Sharpe
 MPW027,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW027.webp,,,,,,,,,MPW027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW027.webp,,,,,,,,,MPW027,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW028,MPW,And Again...,Blue,3,1,,3,,,,"Warrior, Action",,Attack,,,,,Sharpen,**Attack** with target sword that has been sharpened and you've attacked with this turn.,Warrior Action,,,,,M,,,João G. Santos,,,MPW028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW028.webp,,,M,R,EA,João G. Santos,,,MPW028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW028-RF.webp,,,,,,João G. Santos,,,MPW028,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW029,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW029.webp,,,,,,,,,MPW029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW029.webp,,,,,,,,,MPW029,,,,,,,,,,,,,,,,,,,,,,,,,
-MPW030,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW030,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW030.webp,,,,,,,,,MPW030,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW030.webp,,,,,,,,,MPW030,,,,,,,,,,,,,,,,,,,,,,,,,
+MPW030,MPW,Drawn to the Blade,Yellow,2,0,,3,,,,"Warrior, Action",,"Sharpen, Go again",,,,,,"**Sharpen** target sword you control.
+
+If it has 2 or more +1{p} counters, the next time it hits this turn, draw a card.
+
+**Go again**",Warrior Action,,,No,,M,,,Vito Vivodka,,,MPW030,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW030.webp,,,M,R,,Vito Vivodka,,,MPW030,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW030-RF.webp,,,,,,Vito Vivodka,,,MPW030,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW031,MPW,Honed for Honor,Blue,3,0,,3,,,,"Warrior, Action",,"Sharpen, Go again",,,,,,"**Sharpen** target sword you control.
 
 If it has 3 or more +1{p} counters, you may put an attack reaction card from your graveyard on top of your deck.
