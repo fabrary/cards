@@ -41209,6 +41209,67 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
   
   
   },{
+    artists: ["Sariya Asavametha"],
+    cardIdentifier: "blade-dance",
+    classes: [Class.Warrior],
+    defaultImage: "MPW134",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Shiyana,Hero.Yorick,Hero.Zane],
+    name: "Blade Dance",
+    printings: [{
+        artists: ["Sariya Asavametha"],
+      
+      identifier: "MPW134",
+      image: "MPW134",
+      
+      
+      print: "MPW134",
+      rarity: Rarity.Basic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Basic],
+    rarity: Rarity.Basic,
+    setIdentifiers: ["MPW134"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW134",
+    subtypes: [Subtype.Aura],
+    types: [Type.Token],
+    typeText: "Warrior Token - Aura",
+
+    
+    
+    
+    
+    
+    functionalText: `When you activate a weapon attack, destroy this and the attack gets **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "blade-flash-blue",
     classes: [Class.Generic],
@@ -80907,7 +80968,8 @@ Destroy target blue aura.`,
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "clear-conscience-red",
     classes: [Class.Illusionist],
@@ -80988,8 +81050,7 @@ Destroy target blue aura.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "clear-conscience-yellow",
     classes: [Class.Illusionist],
@@ -159638,7 +159699,8 @@ Go again`,
     talents: [Talent.Mystic],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Aluísio Cervelle"],
     cardIdentifier: "fish-fingers",
     classes: [Class.Pirate],
@@ -159719,8 +159781,7 @@ Go again`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Soffani Soffa"],
     cardIdentifier: "fist-pump",
     classes: [Class.Mechanologist],
@@ -241380,7 +241441,8 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     talents: [Talent.Mystic],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["SanSan","Wisnu Tan"],
     cardIdentifier: "levia",
     classes: [Class.Brute],
@@ -241540,8 +241602,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     talents: [Talent.Shadow],
   
   young: true
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Steve Argyle"],
     cardIdentifier: "levia-redeemed",
     classes: [Class.NotClassed],
@@ -322974,7 +323035,8 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "rawhide-rumble-blue",
     classes: [Class.Brute],
@@ -323055,8 +323117,7 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "ray-of-hope-yellow",
     classes: [Class.NotClassed],
@@ -373347,6 +373408,81 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
   
   },{
+    artists: ["Asur Misoa"],
+    cardIdentifier: "shimmer-of-the-blade-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW051",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Shimmer of the Blade",
+    printings: [{
+        artists: ["Asur Misoa"],
+      
+      identifier: "MPW051",
+      image: "MPW051",
+      
+      
+      print: "MPW051",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW051",
+      image: "MPW051-RF",
+      
+      
+      print: "MPW051-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW051"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW051",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Target weapon attack gets +3{p}.
+
+**Instant** - Discard this: Create a Blade Dance token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "shimmering-mirage-blue",
     classes: [Class.Illusionist],
@@ -404249,7 +404385,8 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Le Vuong"],
     cardIdentifier: "spinning-wheel-kick-red",
     classes: [Class.Ninja],
@@ -404441,8 +404578,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Le Vuong"],
     cardIdentifier: "spinning-wheel-kick-blue",
     classes: [Class.Ninja],
@@ -482360,7 +482496,8 @@ When the combat chain closes, each hero who has lost {h} this turn banishes the 
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "widow-claw-tarsus",
     classes: [Class.Assassin],
@@ -482522,8 +482659,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes the 
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "widow-web-crawler",
     classes: [Class.Assassin],

@@ -252014,6 +252014,86 @@ exports[`Check for unintentional updates Headliner Helm (headliner-helm) vs snap
 }
 `;
 
+exports[`Check for unintentional updates Heads Up (heads-up-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Reinaldo Indrajaya",
+  ],
+  "cardIdentifier": "heads-up-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "AOL014",
+  "defense": 3,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, if it wagered, it gets **dominate**."
+
+**Go again**",
+  "keywords": [
+    "Dominate",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Zane",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Heads Up",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Reinaldo Indrajaya",
+      ],
+      "identifier": "AOL014",
+      "image": "AOL014",
+      "print": "AOL014",
+      "rarity": "Majestic",
+      "set": "Armory Deck: Olympia",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "AOL014",
+  ],
+  "sets": [
+    "Armory Deck: Olympia",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "AOL014",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Healing Balm (healing-balm-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -394857,6 +394937,101 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
     "Head",
   ],
   "typeText": "Warrior Equipment - Head",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfinders) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Prasetya",
+  ],
+  "cardIdentifier": "prizeworn-pathfinders",
+  "classes": [
+    "Guardian",
+    "Warrior",
+  ],
+  "defaultImage": "AOL006",
+  "defense": 1,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Whenever you win a wager, you may pay {r}. If you do, remove a -1{d} counter from this.
+
+**Battleworn**",
+  "keywords": [
+    "Battleworn",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Betsy",
+    "Bolfar",
+    "Boltyn",
+    "Bravo",
+    "Brevant",
+    "Crix",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Jarl",
+    "Kassai",
+    "Killjoy",
+    "Kox",
+    "Lyath",
+    "Oldhim",
+    "Olympia",
+    "Pleiades",
+    "Reya",
+    "Starvo",
+    "Taylor",
+    "Terra",
+    "Valda",
+    "Victor",
+    "Yoji",
+    "Zane",
+  ],
+  "meta": [
+    "Arena",
+    "Dual class",
+  ],
+  "name": "Prizeworn Pathfinders",
+  "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "AOL006",
+      "image": "AOL006",
+      "print": "AOL006-Rainbow",
+      "rarity": "Rare",
+      "set": "Armory Deck: Olympia",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "AOL006",
+  ],
+  "sets": [
+    "Armory Deck: Olympia",
+  ],
+  "specialImage": "AOL006",
+  "subtypes": [
+    "Legs",
+  ],
+  "typeText": "Guardian / Warrior Equipment - Legs",
   "types": [
     "Equipment",
   ],
@@ -602653,6 +602828,82 @@ exports[`Check for unintentional updates Visit the Imperial Forge (visit-the-imp
     "Dynasty",
   ],
   "specialImage": "DYN086",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Visit the Prize Room (visit-the-prize-room-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Jen Santos",
+  ],
+  "cardIdentifier": "visit-the-prize-room-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "AOL028",
+  "defense": 2,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "**Olympia Specialization**
+
+You may destroy a Gold you control. If you do, equip a Prized Galea from your inventory.
+
+Create a Vigor and a Courage token. **Go again**",
+  "keywords": [
+    "Go again",
+    "Specialization",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Olympia",
+    "Shiyana",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Visit the Prize Room",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Jen Santos",
+      ],
+      "identifier": "AOL028",
+      "image": "AOL028",
+      "print": "AOL028",
+      "rarity": "Rare",
+      "set": "Armory Deck: Olympia",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "AOL028",
+  ],
+  "sets": [
+    "Armory Deck: Olympia",
+  ],
+  "specialImage": "AOL028",
+  "specializations": [
+    "Olympia",
+  ],
   "subtypes": [
     "Non-Attack",
   ],
