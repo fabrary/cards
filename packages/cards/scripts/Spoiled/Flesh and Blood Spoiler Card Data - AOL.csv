@@ -1,10 +1,12 @@
-Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,Blitz Legal,CC Legal,Silver Age Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
+Identifiers,Set Identifiers,Name,Color,Pitch,Cost,Power,Defense,Life,Intelligence,Arcane,Types,Traits,Card Keywords,Abilities and Effects,Ability and Effect Keywords,Granted Keywords,Removed Keywords,Interacts with Keywords,Functional Text,Type Text,Card Played Horizontally,CC Legal,Silver Age Legal,LL Legal,Rarity,Foiling,Art Variations,Artists,Expansion Slot,Flavor Text,Identifier,Image URL,TCGPlayer Product Id,TCGPlayer Url,Rarity 2,Foiling 2,Art Variations 2,Artists 2,Expansion Slot 2,Flavor Text 2,Identifier 2,Image URL 2,TCGPlayer Product Id 2,TCGPlayer Url 2,Rarity 3,Foiling 3,Art Variations 3,Expansion Slot 3,Artists 3,Flavor Text 3,Image URL 3
 AOL001,AOL,"Olympia, Prized Fighter",,,,,,,,,,,,,,,,,,,,,No,,M,,,Joseph Qiu,,,AOL001,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL001.webp,,,,,,,,,,,,,,,,,,,
-AOL002,AOL,Golden Grail,,,,3,,,,,"Warrior, Weapon, Sword, 2H",,,,,,,"**Once per Turn Action** - {r}{r} or destroy a Gold you control: **Attack**. If this attack has wagered, it gets +1{p}.",Warrior Weapon - Sword (2H),,,,,,R,,,Tanapon Wachirakul,,,AOL002,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL002.webp,,,,,,,,,,,,,,,,,,,
+AOL002,AOL,Golden Grail,,,,3,,,,,"Warrior, Weapon, Sword, 2H",,,,,,,,"**Once per Turn Action** - {r}{r} or destroy a Gold you control: **Attack**. If this attack has wagered, it gets +1{p}.",Warrior Weapon - Sword (2H),,,,,R,,,Tanapon Wachirakul,,,AOL002,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL002.webp,,,,,,,,,,,,,,,,,,,
 AOL003,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL003,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL003.webp,,,,,,,,,,,,,,,,,,,
 AOL004,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL004,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL004.webp,,,,,,,,,,,,,,,,,,,
 AOL005,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL005,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL005.webp,,,,,,,,,,,,,,,,,,,
-AOL006,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL006,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL006.webp,,,,,,,,,,,,,,,,,,,
+AOL006,AOL,Prizeworn Pathfinders,,,,,1,,,,"Guardian, Warrior, Equipment, Legs",,Battleworn,,,,,,"Whenever you win a wager, you may pay {r}. If you do, remove a -1{d} counter from this.
+
+**Battleworn**",Guardian / Warrior Equipment - Legs,,,,,R,R,,Surya Prasetya,,,AOL006,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL006.webp,,,,,,,,,,,,,,,,,,,
 AOL007,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL007,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL007.webp,,,,,,,,,,,,,,,,,,,
 AOL008,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL008,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL008.webp,,,,,,,,,,,,,,,,,,,
 AOL009,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL009,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL009.webp,,,,,,,,,,,,,,,,,,,
@@ -12,7 +14,9 @@ AOL010,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL010,https://legendstory-production-s3
 AOL011,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL011.webp,,,,,,,,,,,,,,,,,,,
 AOL012,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL012.webp,,,,,,,,,,,,,,,,,,,
 AOL013,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL013,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL013.webp,,,,,,,,,,,,,,,,,,,
-AOL014,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL014,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL014.webp,,,,,,,,,,,,,,,,,,,
+AOL014,AOL,Heads Up,Red,1,1,,3,,,,"Warrior, Action",,"Dominate, Go again",,,,,,"Your next sword attack this turn gets +3{p} and ""When this attacks, if it wagered, it gets **dominate**.""
+
+**Go again**",Warrior Action,,,No,,M,,,Reinaldo Indrajaya,,,AOL014,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL014.webp,,,,,,,,,,,,,,,,,,,
 AOL015,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL015,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL015.webp,,,,,,,,,,,,,,,,,,,
 AOL016,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL016,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL016.webp,,,,,,,,,,,,,,,,,,,
 AOL017,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL017,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL017.webp,,,,,,,,,,,,,,,,,,,
@@ -24,11 +28,15 @@ AOL022,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL022,https://legendstory-production-s3
 AOL023,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL023.webp,,,,,,,,,,,,,,,,,,,
 AOL024,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL024,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL024.webp,,,,,,,,,,,,,,,,,,,
 AOL025,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL025,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL025.webp,,,,,,,,,,,,,,,,,,,
-AOL026,AOL,Odds on Favorite,Blue,3,0,,3,,,,"Warrior, Action","Wager, Go again",,,,,,"Your next sword attack this turn gets ""When this attacks, **wager** with the defending hero. The winner searches their deck for a card, shuffles, then puts that card on top.""
+AOL026,AOL,Odds on Favorite,Blue,3,0,,3,,,,"Warrior, Action",,Go again,,,Wager,,,"Your next sword attack this turn gets ""When this attacks, **wager** with the defending hero. The winner searches their deck for a card, shuffles, then puts that card on top.""
 
-**Go again**",Warrior Action,,,,No,,M,,,Tanapon Wachirakul,,,AOL026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL026.webp,,,,,,,,,,,,,,,,,,,
+**Go again**",Warrior Action,,,No,,M,,,Tanapon Wachirakul,,,AOL026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL026.webp,,,,,,,,,,,,,,,,,,,
 AOL027,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL027.webp,,,,,,,,,,,,,,,,,,,
-AOL028,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL028.webp,,,,,,,,,,,,,,,,,,,
+AOL028,AOL,Visit the Prize Room,Blue,3,1,,2,,,,"Warrior, Action",,"Olympia Specialization, Go again",,,,,,"**Olympia Specialization**
+
+You may destroy a Gold you control. If you do, equip a Prized Galea from your inventory.
+
+Create a Vigor and a Courage token. **Go again**",Warrior Action,,,,,R,,,Jen Santos,,,AOL028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL028.webp,,,,,,,,,,,,,,,,,,,
 AOL029,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL029.webp,,,,,,,,,,,,,,,,,,,
 AOL030,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL030,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL030.webp,,,,,,,,,,,,,,,,,,,
 AOL031,AOL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AOL031,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL031.webp,,,,,,,,,,,,,,,,,,,
