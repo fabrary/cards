@@ -6385,7 +6385,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
         artists: ["Federico Musetti"],
       
       identifier: "RHI008",
-      image: "RNR008",
+      image: "RHI008",
       
       
       print: "RHI008",
@@ -6494,7 +6494,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
         artists: ["Federico Musetti"],
       
       identifier: "RHI017",
-      image: "RNR017",
+      image: "RHI017",
       
       
       print: "RHI017",
@@ -6778,7 +6778,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
         artists: ["Tomasz Jedruszek"],
       
       identifier: "RHI029",
-      image: "RNR029",
+      image: "RHI029",
       
       
       print: "RHI029",
@@ -19331,7 +19331,7 @@ Draw 2 card.`,
         artists: ["Muhammad Fajri"],
       
       identifier: "RHI009",
-      image: "RNR009",
+      image: "RHI009",
       
       
       print: "RHI009",
@@ -19538,7 +19538,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
         artists: ["Muhammad Fajri"],
       
       identifier: "RHI021",
-      image: "RNR021",
+      image: "RHI021",
       
       
       print: "RHI021",
@@ -25516,7 +25516,7 @@ The next time an attack you control hits this turn, create a Might token.
         artists: ["Ismatulloh"],
       
       identifier: "RHI002",
-      image: "RNR002",
+      image: "RHI002",
       
       
       print: "RHI002",
@@ -27273,7 +27273,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
         artists: ["Yugin Maffioli"],
       
       identifier: "RHI010",
-      image: "RNR010",
+      image: "RHI010",
       
       
       print: "RHI010",
@@ -32929,7 +32929,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
         artists: ["Nikolay Moskvin"],
       
       identifier: "RHI011",
-      image: "RNR011",
+      image: "RHI011",
       
       
       print: "RHI011",
@@ -55070,7 +55070,7 @@ Whenever this banishes a card and this has banished another card with the same n
         artists: ["Anastasia Balakchina"],
       
       identifier: "RHI016",
-      image: "RNR016",
+      image: "RHI016",
       
       
       print: "RHI016-Extended Art",
@@ -55086,7 +55086,7 @@ Whenever this banishes a card and this has banished another card with the same n
     rarity: Rarity.Common,
     setIdentifiers: ["ARR015","HVY041","RHI016"],
     sets: [Release.ArmoryDeckRhinar,Release.HeavyHitters,Release.RhinarBlitzDeck],
-    specialImage: "RNR016",
+    specialImage: "RHI016",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
@@ -55168,7 +55168,7 @@ Your next Brute attack this turn gains +3{p}. If you've **beaten chest** this tu
         artists: ["Anastasia Balakchina"],
       
       identifier: "RHI020",
-      image: "RNR020",
+      image: "RHI020",
       
       
       print: "RHI020-Extended Art",
@@ -55184,7 +55184,7 @@ Your next Brute attack this turn gains +3{p}. If you've **beaten chest** this tu
     rarity: Rarity.Common,
     setIdentifiers: ["HVY042","RHI020"],
     sets: [Release.HeavyHitters,Release.RhinarBlitzDeck],
-    specialImage: "RNR020",
+    specialImage: "RHI020",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
@@ -55281,7 +55281,7 @@ Your next Brute attack this turn gains +2{p}. If you've **beaten chest** this tu
         artists: ["Anastasia Balakchina"],
       
       identifier: "RHI024",
-      image: "RNR024",
+      image: "RHI024",
       
       
       print: "RHI024-Extended Art",
@@ -55297,7 +55297,7 @@ Your next Brute attack this turn gains +2{p}. If you've **beaten chest** this tu
     rarity: Rarity.Common,
     setIdentifiers: ["ARR025","HVY043","RHI024"],
     sets: [Release.ArmoryDeckRhinar,Release.HeavyHitters,Release.RhinarBlitzDeck],
-    specialImage: "RNR024",
+    specialImage: "RHI024",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
@@ -161926,7 +161926,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
         artists: ["Alief Rusdiatama"],
       
       identifier: "RHI007",
-      image: "RNR007",
+      image: "RHI007",
       
       
       print: "RHI007",
@@ -177716,7 +177716,7 @@ You may put a Hyper Driver from your banished zone into the arena.
         artists: ["Alifka Hammam Nugroho"],
       
       identifier: "RHI006",
-      image: "RNR006",
+      image: "RHI006",
       
       
       print: "RHI006",
@@ -239401,7 +239401,7 @@ Create a Might token.
         artists: ["Erick Efata"],
       
       identifier: "RHI025",
-      image: "RNR025",
+      image: "RHI025",
       
       
       print: "RHI025",
@@ -239770,7 +239770,7 @@ Create an Agility token.
         artists: ["Faizal Fikri"],
       
       identifier: "RHI026",
-      image: "RNR026",
+      image: "RHI026",
       
       
       print: "RHI026",
@@ -253419,7 +253419,7 @@ Damage that would be dealt by Malign can't be prevented.`,
         artists: ["Jessada Sutthi"],
       
       identifier: "RHI003",
-      image: "RNR003",
+      image: "RHI003",
       
       
       print: "RHI003",
@@ -262144,7 +262144,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
         artists: ["Henrique Lindner"],
       
       identifier: "RHI028",
-      image: "RNR028",
+      image: "RHI028",
       
       
       print: "RHI028",
@@ -262328,7 +262328,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
         artists: ["Federico Musetti"],
       
       identifier: "RHI012",
-      image: "RNR012",
+      image: "RHI012",
       
       
       print: "RHI012",
@@ -262437,7 +262437,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
         artists: ["Federico Musetti"],
       
       identifier: "RHI018",
-      image: "RNR018",
+      image: "RHI018",
       
       
       print: "RHI018",
@@ -265821,7 +265821,7 @@ Draw a card.
         artists: ["Nailsen Ivanderlie"],
       
       identifier: "RHI004",
-      image: "RNR004",
+      image: "RHI004",
       
       
       print: "RHI004",
@@ -286251,7 +286251,7 @@ When this dies, create a Gold token.
         artists: ["Kevin Sidharta"],
       
       identifier: "RHI019",
-      image: "RNR019",
+      image: "RHI019",
       
       
       print: "RHI019",
@@ -286454,7 +286454,7 @@ When this dies, create a Gold token.
         artists: ["Olga Khariton"],
       
       identifier: "RHI013",
-      image: "RNR013",
+      image: "RHI013",
       
       
       print: "RHI013",
@@ -286777,7 +286777,7 @@ When this dies, create a Gold token.
         artists: ["Olga Khariton"],
       
       identifier: "RHI022",
-      image: "RNR022",
+      image: "RHI022",
       
       
       print: "RHI022",
@@ -303364,7 +303364,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
         artists: ["Joseph Qiu"],
       
       identifier: "RHI014",
-      image: "RNR014",
+      image: "RHI014",
       
       
       print: "RHI014",
@@ -303571,7 +303571,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
         artists: ["Joseph Qiu"],
       
       identifier: "RHI023",
-      image: "RNR023",
+      image: "RHI023",
       
       
       print: "RHI023",
@@ -322927,7 +322927,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
         artists: ["Ausonia"],
       
       identifier: "RHI005",
-      image: "RNR005",
+      image: "RHI005",
       
       
       print: "RHI005",
@@ -323056,7 +323056,7 @@ const cards5: Card[] = [{
         artists: ["Othon Nikolaidis"],
       
       identifier: "RHI015",
-      image: "RNR015",
+      image: "RHI015",
       
       
       print: "RHI015",
@@ -334755,7 +334755,7 @@ Whenever you protect another hero, create a Gold token.`,
         artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
       identifier: "RHI001",
-      image: "RNR001",
+      image: "RHI001-RF",
       
       
       print: "RHI001-Rainbow",
@@ -391070,7 +391070,7 @@ Target attack action card gets **go again**.`,
         artists: ["Carlos Cruchaga"],
       
       identifier: "RHI027",
-      image: "RNR027",
+      image: "RHI027",
       
       
       print: "RHI027",

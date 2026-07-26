@@ -1,5 +1,5 @@
 {
-  "deferredSets": ["RHI", "RNR"],
+  "deferredSets": ["RNR"],
   "fullyMigratedSets": [
     "ZEN",
     "WTR",
@@ -116,7 +116,8 @@
     "CHN",
     "1HP",
     "LSS",
-    "MST"
+    "MST",
+    "RHI"
   ],
   "sets": [
     "1HP",
