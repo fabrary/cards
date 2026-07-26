@@ -52069,6 +52069,83 @@ When this hits, deal 1 damage to any target.`,
   
   
   },{
+    artists: ["Simon Dominic"],
+    cardIdentifier: "bluff-catcher-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW029",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Bluff Catcher",
+    printings: [{
+        artists: ["Simon Dominic"],
+      
+      identifier: "MPW029",
+      image: "MPW029",
+      
+      
+      print: "MPW029",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW029",
+      image: "MPW029-RF",
+      
+      
+      print: "MPW029-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW029"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW029",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `You may destroy a Gold you control rather than pay this card's {r} cost.
+
+Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner gets +1{i} during their next end phase."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "blunten-yellow",
     classes: [Class.Warrior],
@@ -80887,7 +80964,8 @@ Destroy target yellow aura.`,
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-blue",
     classes: [Class.NotClassed],
@@ -80968,8 +81046,7 @@ Destroy target blue aura.`,
     talents: [Talent.Light],
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Nailsen Ivanderlie"],
     cardIdentifier: "clear-conscience-red",
     classes: [Class.Illusionist],
@@ -159584,7 +159661,8 @@ You may {u} a bow you control.
     talents: [Talent.Mystic],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "first-tenet-of-chi-tide-blue",
     classes: [Class.NotClassed],
@@ -159680,8 +159758,7 @@ You may {u} a bow you control.
     talents: [Talent.Mystic],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "first-tenet-of-chi-wind-blue",
     classes: [Class.NotClassed],
@@ -241293,7 +241370,8 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "lesson-in-lava-yellow",
     classes: [Class.Wizard],
@@ -241421,8 +241499,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "levels-of-enlightenment-blue",
     classes: [Class.NotClassed],
@@ -322920,7 +322997,8 @@ If you control a Might token, this gets +1{d}.
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "rawhide-rumble-red",
     classes: [Class.Brute],
@@ -323031,8 +323109,7 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "rawhide-rumble-yellow",
     classes: [Class.Brute],
@@ -404229,7 +404306,8 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Marcellino Tan"],
     cardIdentifier: "spillover-blue",
     classes: [Class.NotClassed],
@@ -404323,8 +404401,7 @@ When this defends and the attacking hero has played or activated a reaction this
     talents: [Talent.Mystic],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Sergey Gurskiy"],
     cardIdentifier: "spinal-crush-red",
     classes: [Class.Guardian],
@@ -482394,7 +482471,8 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-ruin-red",
     classes: [Class.Runeblade],
@@ -482492,8 +482570,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes the 
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "widow-back-abdomen",
     classes: [Class.Assassin],

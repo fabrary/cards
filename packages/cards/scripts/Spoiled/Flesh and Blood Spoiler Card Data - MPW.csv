@@ -35,7 +35,11 @@ MPW025,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW025,https://legendstory-production-s3
 MPW026,MPW,Sharpening Sparks,Red,1,0,,3,,,,"Warrior, Attack Reaction",,,,,Sharpen,,,"Target sword attack gets +2{p} and ""When this hits, **sharpen** this sword.""",Warrior Attack Reaction,,,No,,M,,,Kevin Sidharta,,,MPW026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW026.webp,,,M,R,EA,Kevin Sidharta,,,MPW026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW026-RF.webp,,,,,,Kevin Sidharta,,,MPW026,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW027,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW027.webp,,,,,,,,,MPW027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW027.webp,,,,,,,,,MPW027,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW028,MPW,And Again...,Blue,3,1,,3,,,,"Warrior, Action",,Attack,,,,,Sharpen,**Attack** with target sword that has been sharpened and you've attacked with this turn.,Warrior Action,,,,,M,,,João G. Santos,,,MPW028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW028.webp,,,M,R,EA,João G. Santos,,,MPW028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW028-RF.webp,,,,,,João G. Santos,,,MPW028,,,,,,,,,,,,,,,,,,,,,,,,,
-MPW029,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW029.webp,,,,,,,,,MPW029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW029.webp,,,,,,,,,MPW029,,,,,,,,,,,,,,,,,,,,,,,,,
+MPW029,MPW,Bluff Catcher,Yellow,2,2,,3,,,,"Warrior, Action",,Go again,,,,,,"You may destroy a Gold you control rather than pay this card's {r} cost.
+
+Your next sword attack this turn gets +3{p} and ""When this attacks, **wager** with the defending hero. The winner gets +1{i} during their next end phase.""
+
+**Go again**",Warrior Action,,,No,,M,,,Simon Dominic,,,MPW029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW029.webp,,,M,R,,Simon Dominic,,,MPW029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW029-RF.webp,,,,,,Simon Dominic,,,MPW029,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW030,MPW,Drawn to the Blade,Yellow,2,0,,3,,,,"Warrior, Action",,"Sharpen, Go again",,,,,,"**Sharpen** target sword you control.
 
 If it has 2 or more +1{p} counters, the next time it hits this turn, draw a card.
@@ -93,7 +97,7 @@ MPW059,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW059,https://legendstory-production-s3
 MPW060,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW060,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW060.webp,,,,,,,,,MPW060,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW060.webp,,,,,,,,,MPW060,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW061,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW061,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW061.webp,,,,,,,,,MPW061,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW061.webp,,,,,,,,,MPW061,,,,,,,,,,,,,,,,,,,,,,,,,
 MPW062,MPW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,MPW062,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW062.webp,,,,,,,,,MPW062,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW062.webp,,,,,,,,,MPW062,,,,,,,,,,,,,,,,,,,,,,,,,
-MPW063,MPW,Blade Rush,Yellow,2,0,,2,,,,"Warrior, Action",,Go again,,,,,,"Your first sword attack this turn gets **go again**.
+MPW063,MPW,Blade Rush,Yellow,2,0,,2,,,,"Warrior, Action",,Go again,,,Go again,,,"Your first sword attack this turn gets **go again**.
 
 Your second sword attack this turn gets +1{p}.
 

@@ -155400,6 +155400,95 @@ exports[`Check for unintentional updates Drawing Dead (drawing-dead-yellow) vs s
 }
 `;
 
+exports[`Check for unintentional updates Drawn to the Blade (drawn-to-the-blade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Vito Vivodka",
+  ],
+  "cardIdentifier": "drawn-to-the-blade-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 0,
+  "defaultImage": "MPW030",
+  "defense": 3,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "**Sharpen** target sword you control.
+
+If it has 2 or more +1{p} counters, the next time it hits this turn, draw a card.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+    "Sharpen",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Zane",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Drawn to the Blade",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Vito Vivodka",
+      ],
+      "identifier": "MPW030",
+      "image": "MPW030",
+      "print": "MPW030",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Vito Vivodka",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW030",
+      "image": "MPW030-RF",
+      "print": "MPW030-Rainbow",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "MPW030",
+  ],
+  "sets": [
+    "Mastery Pack: Warrior",
+  ],
+  "specialImage": "MPW030",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Drawn to the Dark Dimension (drawn-to-the-dark-dimension-blue) vs snapshot 1`] = `
 {
   "artists": [
