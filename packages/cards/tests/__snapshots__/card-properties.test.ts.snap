@@ -383498,6 +383498,92 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
 }
 `;
 
+exports[`Check for unintentional updates Point of Escalation (point-of-escalation-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Athiwut B.",
+  ],
+  "cardIdentifier": "point-of-escalation-yellow",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "MPW025",
+  "defense": 3,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Target sword attack gets +2{p} for each time you've attacked with the sword this turn.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Zane",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Point of Escalation",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Athiwut B.",
+      ],
+      "identifier": "MPW025",
+      "image": "MPW025",
+      "print": "MPW025",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Athiwut B.",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW025",
+      "image": "MPW025-RF",
+      "print": "MPW025-Rainbow-Extended Art",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "MPW025",
+  ],
+  "sets": [
+    "Mastery Pack: Warrior",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "MPW025-RF",
+  "subtypes": [],
+  "typeText": "Warrior Attack Reaction",
+  "types": [
+    "Attack Reaction",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Point the Tip (point-the-tip-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -395236,7 +395322,7 @@ exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfi
     "Guardian",
     "Warrior",
   ],
-  "defaultImage": "AOL006",
+  "defaultImage": "AOL006-RF",
   "defense": 1,
   "firstReleaseDate": "2026-08-07",
   "functionalText": "Whenever you win a wager, you may pay {r}. If you do, remove a -1{d} counter from this.
@@ -395294,7 +395380,7 @@ exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfi
       ],
       "foiling": "Rainbow",
       "identifier": "AOL006",
-      "image": "AOL006",
+      "image": "AOL006-RF",
       "print": "AOL006-Rainbow",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
@@ -395310,7 +395396,7 @@ exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfi
   "sets": [
     "Armory Deck: Olympia",
   ],
-  "specialImage": "AOL006",
+  "specialImage": "AOL006-RF",
   "subtypes": [
     "Legs",
   ],

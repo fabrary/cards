@@ -308287,7 +308287,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     artists: ["Surya Prasetya"],
     cardIdentifier: "prizeworn-pathfinders",
     classes: [Class.Guardian,Class.Warrior],
-    defaultImage: "AOL006",
+    defaultImage: "AOL006-RF",
     firstReleaseDate: "2026-08-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Jarl,Hero.Kassai,Hero.Killjoy,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Olympia,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Taylor,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji,Hero.Zane],
@@ -308296,7 +308296,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
         artists: ["Surya Prasetya"],
       foiling: Foiling.Rainbow,
       identifier: "AOL006",
-      image: "AOL006",
+      image: "AOL006-RF",
       
       
       print: "AOL006-Rainbow",
@@ -308309,7 +308309,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     rarity: Rarity.Rare,
     setIdentifiers: ["AOL006"],
     sets: [Release.ArmoryDeckOlympia],
-    specialImage: "AOL006",
+    specialImage: "AOL006-RF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Guardian / Warrior Equipment - Legs",
