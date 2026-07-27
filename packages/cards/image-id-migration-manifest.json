@@ -58,7 +58,8 @@
     "1HP",
     "LSS",
     "MST",
-    "RHI"
+    "RHI",
+    "RNR"
   ],
   "setsToMigrate": [
     "ZEN",

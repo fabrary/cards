@@ -51839,9 +51839,40 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
       "rarity": "Basic",
       "set": "Mastery Pack: Warrior",
     },
+    {
+      "artists": [
+        "Sariya Asavametha",
+      ],
+      "foiling": "Cold",
+      "identifier": "MPW134",
+      "image": "MPW134-MV",
+      "print": "MPW134-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Sariya Asavametha",
+      ],
+      "foiling": "Cold",
+      "identifier": "MPW134",
+      "image": "MPW134-MV_BACK",
+      "print": "MPW134-Cold-Full Art-Back",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Basic",
+    "Marvel",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
@@ -51850,7 +51881,7 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
   "sets": [
     "Mastery Pack: Warrior",
   ],
-  "specialImage": "MPW134",
+  "specialImage": "MPW134-MV",
   "subtypes": [
     "Aura",
   ],
@@ -65356,6 +65387,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
 **Go again**",
   "keywords": [
     "Go again",
+    "Wager",
   ],
   "legalFormats": [
     "Blitz",

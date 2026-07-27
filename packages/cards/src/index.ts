@@ -41229,12 +41229,36 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       set: Release.MasteryPackWarrior,
       
       
+    },{
+        artists: ["Sariya Asavametha"],
+      foiling: Foiling.Cold,
+      identifier: "MPW134",
+      image: "MPW134-MV",
+      
+      
+      print: "MPW134-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Sariya Asavametha"],
+      foiling: Foiling.Cold,
+      identifier: "MPW134",
+      image: "MPW134-MV_BACK",
+      
+      
+      print: "MPW134-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
     setIdentifiers: ["MPW134"],
     sets: [Release.MasteryPackWarrior],
-    specialImage: "MPW134",
+    specialImage: "MPW134-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Warrior Token - Aura",
@@ -52125,7 +52149,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
     meta: [Meta.Deck],
@@ -299338,6 +299362,79 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
   
   
   },{
+    artists: ["Athiwut B."],
+    cardIdentifier: "point-of-escalation-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW025",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Point of Escalation",
+    printings: [{
+        artists: ["Athiwut B."],
+      
+      identifier: "MPW025",
+      image: "MPW025",
+      
+      
+      print: "MPW025",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Athiwut B."],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW025",
+      image: "MPW025-RF",
+      
+      
+      print: "MPW025-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW025"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW025-RF",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Target sword attack gets +2{p} for each time you've attacked with the sword this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "point-the-tip-red",
     classes: [Class.Ranger],
@@ -322884,7 +322981,8 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Ausonia"],
     cardIdentifier: "raw-meat",
     classes: [Class.Brute],
@@ -322997,8 +323095,7 @@ If you control a Might token, this gets +1{d}.
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "rawhide-rumble-red",
     classes: [Class.Brute],
@@ -404195,7 +404292,8 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Phu Thieu"],
     cardIdentifier: "spill-blood-red",
     classes: [Class.Warrior],
@@ -404306,8 +404404,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Marcellino Tan"],
     cardIdentifier: "spillover-blue",
     classes: [Class.NotClassed],
@@ -482373,7 +482470,8 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-destruction-yellow",
     classes: [Class.Runeblade],
@@ -482471,8 +482569,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-ruin-red",
     classes: [Class.Runeblade],
