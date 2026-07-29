@@ -312142,18 +312142,6 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     name: "Prized Galea",
     printings: [{
         artists: ["Mariusz Gandzel"],
-      foiling: Foiling.Rainbow,
-      identifier: "AOL003",
-      
-      
-      
-      print: "AOL003-Rainbow-Alternate Art-Extended Art",
-      rarity: Rarity.Rare,
-      set: Release.ArmoryDeckOlympia,
-      
-      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
-    },{
-        artists: ["Mariusz Gandzel"],
       
       identifier: "AOL003",
       image: "AOL003",
@@ -312164,6 +312152,18 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       set: Release.ArmoryDeckOlympia,
       
       treatment: Treatment.AA,treatments: [Treatment.AA],
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Rainbow,
+      identifier: "AOL003",
+      image: "AOL003-RF",
+      
+      
+      print: "AOL003-Rainbow-Alternate Art-Extended Art",
+      rarity: Rarity.Rare,
+      set: Release.ArmoryDeckOlympia,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
       
@@ -312229,7 +312229,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     rarity: Rarity.Rare,
     setIdentifiers: ["AOL003","HVY098","LGS236","LGS254","OLA004"],
     sets: [Release.ArmoryDeckOlympia,Release.HeavyHitters,Release.OlympiaBlitzDeck,Release.Promos],
-    specialImage: "AOL003",
+    specialImage: "AOL003-RF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Warrior Equipment - Head",

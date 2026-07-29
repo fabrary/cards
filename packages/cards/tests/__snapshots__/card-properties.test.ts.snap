@@ -400330,21 +400330,6 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
       "artists": [
         "Mariusz Gandzel",
       ],
-      "foiling": "Rainbow",
-      "identifier": "AOL003",
-      "print": "AOL003-Rainbow-Alternate Art-Extended Art",
-      "rarity": "Rare",
-      "set": "Armory Deck: Olympia",
-      "treatment": "Alternate Art",
-      "treatments": [
-        "Alternate Art",
-        "Extended Art",
-      ],
-    },
-    {
-      "artists": [
-        "Mariusz Gandzel",
-      ],
       "identifier": "AOL003",
       "image": "AOL003",
       "print": "AOL003-Alternate Art",
@@ -400353,6 +400338,22 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
+      ],
+    },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "AOL003",
+      "image": "AOL003-RF",
+      "print": "AOL003-Rainbow-Alternate Art-Extended Art",
+      "rarity": "Rare",
+      "set": "Armory Deck: Olympia",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Extended Art",
       ],
     },
     {
@@ -400432,7 +400433,7 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
     "Olympia Blitz Deck",
     "Promos",
   ],
-  "specialImage": "AOL003",
+  "specialImage": "AOL003-RF",
   "specializations": [
     "Olympia",
   ],
