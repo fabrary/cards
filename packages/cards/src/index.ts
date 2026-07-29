@@ -312147,11 +312147,11 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
       
       
-      print: "AOL003-Rainbow-Extended Art",
+      print: "AOL003-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
       
-      treatment: Treatment.EA,treatments: [Treatment.EA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Mariusz Gandzel"],
       

@@ -1931,7 +1931,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Warrior],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KP7ZJNFZZD8YNGP438FT8SFG" },
+      { url: "https://fabrary.net/decks/01KP7ZJNFZZD8YNGP438FT8SFG" },
     ],
     heroes: [Hero.Olympia],
     languages: ALL_LANGUAGES,

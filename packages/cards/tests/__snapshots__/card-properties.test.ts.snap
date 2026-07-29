@@ -44899,6 +44899,167 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
 }
 `;
 
+exports[`Check for unintentional updates Belly Buster (belly-buster-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "belly-buster-blue",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "AOL023",
+  "defense": 3,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Your next Warrior attack this turn gets +1{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Courage token."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+    "Wager",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Zane",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Belly Buster",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "identifier": "AOL023",
+      "image": "AOL023",
+      "print": "AOL023",
+      "rarity": "Common",
+      "set": "Armory Deck: Olympia",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "AOL023",
+  ],
+  "sets": [
+    "Armory Deck: Olympia",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "AOL023",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Belly Buster (belly-buster-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Muhammad Fajri",
+  ],
+  "cardIdentifier": "belly-buster-red",
+  "classes": [
+    "Warrior",
+  ],
+  "cost": 1,
+  "defaultImage": "AOL010",
+  "defense": 3,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Your next Warrior attack this turn gets +3{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Courage token."
+
+**Go again**",
+  "keywords": [
+    "Go again",
+    "Wager",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Zane",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Belly Buster",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "identifier": "AOL010",
+      "image": "AOL010",
+      "print": "AOL010",
+      "rarity": "Common",
+      "set": "Armory Deck: Olympia",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "AOL010",
+  ],
+  "sets": [
+    "Armory Deck: Olympia",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "AOL010",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Warrior Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Below the Belt (below-the-belt-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -400171,11 +400332,12 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
       ],
       "foiling": "Rainbow",
       "identifier": "AOL003",
-      "print": "AOL003-Rainbow-Extended Art",
+      "print": "AOL003-Rainbow-Alternate Art-Extended Art",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
-      "treatment": "Extended Art",
+      "treatment": "Alternate Art",
       "treatments": [
+        "Alternate Art",
         "Extended Art",
       ],
     },
@@ -400284,6 +400446,85 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
 }
 `;
 
+exports[`Check for unintentional updates Prizeworn Gauntlet (prizeworn-gauntlet) vs snapshot 1`] = `
+{
+  "artists": [
+    "Amirul HHF",
+  ],
+  "cardIdentifier": "prizeworn-gauntlet",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "AOL005-RF",
+  "defense": 2,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Whenever you win a wager, you may {t} your hero and destroy this. If you do, create a Courage token.
+
+**Guardwell**",
+  "keywords": [
+    "Guardwell",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Taylor",
+    "Zane",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Prizeworn Gauntlet",
+  "printings": [
+    {
+      "artists": [
+        "Amirul HHF",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "AOL005",
+      "image": "AOL005-RF",
+      "print": "AOL005-Rainbow",
+      "rarity": "Majestic",
+      "set": "Armory Deck: Olympia",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "AOL005",
+  ],
+  "sets": [
+    "Armory Deck: Olympia",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "AOL005-RF",
+  "subtypes": [
+    "Arms",
+  ],
+  "typeText": "Warrior Equipment - Arms",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfinders) vs snapshot 1`] = `
 {
   "artists": [
@@ -400373,6 +400614,85 @@ exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfi
     "Legs",
   ],
   "typeText": "Guardian / Warrior Equipment - Legs",
+  "types": [
+    "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Prizeworn Plating (prizeworn-plating) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Prasetya",
+  ],
+  "cardIdentifier": "prizeworn-plating",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "AOL004-RF",
+  "defense": 2,
+  "firstReleaseDate": "2026-08-07",
+  "functionalText": "Whenever you win a wager, you may {t} your hero and destroy this. If you do, create a Vigor token.
+
+**Guardwell**",
+  "keywords": [
+    "Guardwell",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Boltyn",
+    "Dorinthea",
+    "Emperor",
+    "Fang",
+    "Hala",
+    "Kassai",
+    "Killjoy",
+    "Olympia",
+    "Taylor",
+    "Zane",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Prizeworn Plating",
+  "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "AOL004",
+      "image": "AOL004-RF",
+      "print": "AOL004-Rainbow",
+      "rarity": "Majestic",
+      "set": "Armory Deck: Olympia",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "AOL004",
+  ],
+  "sets": [
+    "Armory Deck: Olympia",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "AOL004-RF",
+  "subtypes": [
+    "Chest",
+  ],
+  "typeText": "Warrior Equipment - Chest",
   "types": [
     "Equipment",
   ],
