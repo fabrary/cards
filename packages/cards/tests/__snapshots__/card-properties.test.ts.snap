@@ -30483,7 +30483,7 @@ exports[`Check for unintentional updates Backside of the Blade (backside-of-the-
     "Warrior",
   ],
   "cost": 2,
-  "defaultImage": "AHA019",
+  "defaultImage": "MPW038",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Target weapon attack gets +1{p}. If it has go again, you may attack an additional time with the weapon this turn.",
@@ -30516,6 +30516,27 @@ exports[`Check for unintentional updates Backside of the Blade (backside-of-the-
       "artists": [
         "Faizal Fikri",
       ],
+      "identifier": "MPW038",
+      "image": "MPW038",
+      "print": "MPW038",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW038",
+      "image": "MPW038-RF",
+      "print": "MPW038-Rainbow",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
       "identifier": "AHA019",
       "image": "AHA019",
       "print": "AHA019",
@@ -30533,14 +30554,16 @@ exports[`Check for unintentional updates Backside of the Blade (backside-of-the-
   "rarity": "Rare",
   "setIdentifiers": [
     "AHA019",
+    "MPW038",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AHA019",
+  "specialImage": "MPW038",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -52084,7 +52107,7 @@ exports[`Check for unintentional updates Blade Flurry (blade-flurry-red) vs snap
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "HVY101",
+  "defaultImage": "MPW021",
   "defense": 3,
   "firstReleaseDate": "2024-02-02",
   "functionalText": "Target weapon attack gets +2{p}.
@@ -52121,6 +52144,16 @@ Your next weapon attack this turn gets +2{p}.",
       "artists": [
         "Faizal Fikri",
       ],
+      "identifier": "MPW021",
+      "image": "MPW021",
+      "print": "MPW021",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
       "identifier": "HVY101",
       "image": "HVY101",
       "print": "HVY101",
@@ -52153,14 +52186,16 @@ Your next weapon attack this turn gets +2{p}.",
   "rarity": "Majestic",
   "setIdentifiers": [
     "HVY101",
+    "MPW021",
   ],
   "sets": [
     "Heavy Hitters",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "HVY101",
+  "specialImage": "MPW021",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -136407,6 +136442,22 @@ At the beginning of your end phase, if this hasn't hit this turn, remove all +1{
       "foiling": "Cold",
       "identifier": "MPW156",
       "image": "MPW156-MV_BACK",
+      "print": "MPW156-Cold-Full Art-Back",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Adolfo Navarro",
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Cold",
+      "identifier": "MPW156",
+      "image": "MPW156-MV_BACK",
       "print": "MPW156-Cold-Alternate Art-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
@@ -137356,7 +137407,7 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-blue) vs
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "AHA020",
+  "defaultImage": "MPW082",
   "defense": 2,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Target weapon attack gets +1{p}. If the weapon has been sharpened this turn, the attack gets "When this hits a hero, create a Flurry token."",
@@ -137381,10 +137432,32 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-blue) vs
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Deadly Display",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Narendra B Adi",
+      ],
+      "identifier": "MPW082",
+      "image": "MPW082",
+      "print": "MPW082",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Narendra B Adi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW082",
+      "image": "MPW082-RF",
+      "print": "MPW082-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Narendra B Adi",
@@ -137406,14 +137479,16 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-blue) vs
   "rarity": "Common",
   "setIdentifiers": [
     "AHA020",
+    "MPW082",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AHA020",
+  "specialImage": "MPW082",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -137432,7 +137507,7 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-red) vs 
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "AHA007",
+  "defaultImage": "MPW080",
   "defense": 2,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Target weapon attack gets +3{p}. If the weapon has been sharpened this turn, the attack gets "When this hits a hero, create a Flurry token."",
@@ -137458,10 +137533,32 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-red) vs 
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Deadly Display",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Narendra B Adi",
+      ],
+      "identifier": "MPW080",
+      "image": "MPW080",
+      "print": "MPW080",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Narendra B Adi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW080",
+      "image": "MPW080-RF",
+      "print": "MPW080-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Narendra B Adi",
@@ -137483,14 +137580,16 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-red) vs 
   "rarity": "Common",
   "setIdentifiers": [
     "AHA007",
+    "MPW080",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AHA007",
+  "specialImage": "MPW080",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -140861,7 +140960,7 @@ exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] =
   "classes": [
     "Generic",
   ],
-  "defaultImage": "DRO006",
+  "defaultImage": "MPW137",
   "defense": 0,
   "firstReleaseDate": "2021-09-24",
   "functionalText": "**Action** - Put a card from your hand on the bottom of your deck, destroy Deep Blue: Gain {r}{r}{r}. **Go again**",
@@ -140975,6 +141074,16 @@ exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] =
       "artists": [
         "Olga Krivolapova",
       ],
+      "identifier": "MPW137",
+      "image": "MPW137",
+      "print": "MPW137",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Olga Krivolapova",
+      ],
       "identifier": "DRO006",
       "image": "DRO006",
       "print": "DRO006",
@@ -141070,10 +141179,12 @@ exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] =
     "DRO006",
     "ELE234",
     "LXI004",
+    "MPW137",
   ],
   "sets": [
     "Dromai Blitz Deck",
     "Lexi Blitz Deck",
+    "Mastery Pack: Warrior",
     "Tales of Aria",
   ],
   "specialImage": "ELE234",
@@ -151177,6 +151288,36 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
       "artists": [
         "Lius Lasahido",
       ],
+      "foiling": "Cold",
+      "identifier": "MPW155",
+      "image": "MPW155-MV",
+      "print": "MPW155-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Lius Lasahido",
+      ],
+      "foiling": "Cold",
+      "identifier": "MPW155",
+      "image": "MPW155-MV_BACK",
+      "print": "MPW155-Cold-Full Art-Back",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Lius Lasahido",
+      ],
       "identifier": "SDO001",
       "image": "SDO001",
       "print": "SDO001",
@@ -151292,6 +151433,7 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
   ],
   "rarities": [
     "Common",
+    "Marvel",
     "Promo",
     "Rare",
     "Token",
@@ -151301,6 +151443,7 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
     "1HP139",
     "HER008",
     "HER057",
+    "MPW155",
     "SDO001",
     "TEA002",
     "WTR114",
@@ -151310,10 +151453,11 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
     "Dorinthea Hero Deck",
     "Dorinthea Silver Age Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Promos",
     "Welcome to Rathe",
   ],
-  "specialImage": "WTR114",
+  "specialImage": "MPW155-MV",
   "subtypes": [
     "Young",
   ],
@@ -157912,7 +158056,7 @@ exports[`Check for unintentional updates Driving Blade (driving-blade-red) vs sn
     "Warrior",
   ],
   "cost": 2,
-  "defaultImage": "U-WTR144",
+  "defaultImage": "MPW102",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
   "functionalText": "Your next weapon attack this turn gains +3{p} and **go again**.
@@ -157950,6 +158094,16 @@ exports[`Check for unintentional updates Driving Blade (driving-blade-red) vs sn
   "name": "Driving Blade",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Adolfo Navarro",
+      ],
+      "identifier": "MPW102",
+      "image": "MPW102",
+      "print": "MPW102",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Adolfo Navarro",
@@ -158047,12 +158201,14 @@ exports[`Check for unintentional updates Driving Blade (driving-blade-red) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "1HP171",
+    "MPW102",
     "TEA012",
     "WTR144",
   ],
   "sets": [
     "Dorinthea Hero Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "shorthands": [
@@ -160983,10 +161139,10 @@ exports[`Check for unintentional updates Dusk Path Pilgrimage (dusk-path-pilgrim
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "U-MON110",
+  "defaultImage": "MPW065",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "Your next weapon attack this turn gains +3{p} and "If this hits, you may attack an additional time with this weapon this turn."
+  "functionalText": "Your next weapon attack this turn gets +3{p} and "When this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**",
   "keywords": [
@@ -161021,6 +161177,16 @@ exports[`Check for unintentional updates Dusk Path Pilgrimage (dusk-path-pilgrim
   "name": "Dusk Path Pilgrimage",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Reza Afshar",
+      ],
+      "identifier": "MPW065",
+      "image": "MPW065",
+      "print": "MPW065",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Reza Afshar",
@@ -161126,9 +161292,11 @@ exports[`Check for unintentional updates Dusk Path Pilgrimage (dusk-path-pilgrim
     "BOL029",
     "LGS060",
     "MON110",
+    "MPW065",
   ],
   "sets": [
     "Boltyn Blitz Deck",
+    "Mastery Pack: Warrior",
     "Monarch",
     "Promos",
   ],
@@ -166680,7 +166848,7 @@ exports[`Check for unintentional updates Edict of Steel (edict-of-steel-blue) vs
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "AHA022",
+  "defaultImage": "MPW105",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "**Sharpen** target sword you control.
@@ -166722,6 +166890,27 @@ If it has 3 or more +1{p} counters, create a Flurry token.
       "artists": [
         "Bastien Jez",
       ],
+      "identifier": "MPW105",
+      "image": "MPW105",
+      "print": "MPW105",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW105",
+      "image": "MPW105-RF",
+      "print": "MPW105-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
       "identifier": "AHA022",
       "image": "AHA022",
       "print": "AHA022",
@@ -166739,11 +166928,13 @@ If it has 3 or more +1{p} counters, create a Flurry token.
   "rarity": "Common",
   "setIdentifiers": [
     "AHA022",
+    "MPW105",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "AHA022",
+  "specialImage": "MPW105",
   "subtypes": [
     "Non-Attack",
   ],
@@ -166764,7 +166955,7 @@ exports[`Check for unintentional updates Edict of Steel (edict-of-steel-red) vs 
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "SBL020",
+  "defaultImage": "MPW103",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "**Sharpen** target sword you control.
@@ -166807,6 +166998,27 @@ If it has 1 or more +1{p} counters, create a Flurry token.
       "artists": [
         "Bastien Jez",
       ],
+      "identifier": "MPW103",
+      "image": "MPW103",
+      "print": "MPW103",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW103",
+      "image": "MPW103-RF",
+      "print": "MPW103-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
       "identifier": "SBL020",
       "image": "SBL020",
       "print": "SBL020",
@@ -166838,13 +167050,15 @@ If it has 1 or more +1{p} counters, create a Flurry token.
   "rarity": "Common",
   "setIdentifiers": [
     "AHA012",
+    "MPW103",
     "SBL020",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
     "Boltyn Silver Age Deck",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "SBL020",
+  "specialImage": "MPW103",
   "subtypes": [
     "Non-Attack",
   ],
@@ -166865,7 +167079,7 @@ exports[`Check for unintentional updates Edict of Steel (edict-of-steel-yellow) 
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "AHA017",
+  "defaultImage": "MPW104",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "**Sharpen** target sword you control.
@@ -166907,6 +167121,27 @@ If it has 2 or more +1{p} counters, create a Flurry token.
       "artists": [
         "Bastien Jez",
       ],
+      "identifier": "MPW104",
+      "image": "MPW104",
+      "print": "MPW104",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW104",
+      "image": "MPW104-RF",
+      "print": "MPW104-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
       "identifier": "AHA017",
       "image": "AHA017",
       "print": "AHA017",
@@ -166924,11 +167159,13 @@ If it has 2 or more +1{p} counters, create a Flurry token.
   "rarity": "Common",
   "setIdentifiers": [
     "AHA017",
+    "MPW104",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "AHA017",
+  "specialImage": "MPW104",
   "subtypes": [
     "Non-Attack",
   ],
@@ -177083,7 +177320,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "SFA035",
+  "defaultImage": "MPW146",
   "firstReleaseDate": "2019-10-11",
   "functionalText": "**Instant** - Destroy this: Gain {r}{r}",
   "legalFormats": [
@@ -177189,6 +177426,16 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
   "name": "Energy Potion",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "identifier": "MPW146",
+      "image": "MPW146",
+      "print": "MPW146",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Daniel Jiménez",
@@ -177396,6 +177643,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
     "FAB012",
     "FAB223",
     "KSU029",
+    "MPW146",
     "SDO030",
     "SFA035",
     "TCC071",
@@ -177409,6 +177657,7 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
     "Fai Silver Age Deck",
     "History Pack 1",
     "Katsu Hero Deck",
+    "Mastery Pack: Warrior",
     "Promos",
     "Round the Table: TCC x LSS",
     "Welcome to Rathe",
@@ -214168,6 +214417,36 @@ exports[`Check for unintentional updates Flurry (flurry) vs snapshot 1`] = `
       "artists": [
         "Faizal Fikri",
       ],
+      "foiling": "Cold",
+      "identifier": "MPW135",
+      "image": "MPW135-MV",
+      "print": "MPW135-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Cold",
+      "identifier": "MPW135",
+      "image": "MPW135-MV_BACK",
+      "print": "MPW135-Cold-Full Art-Back",
+      "rarity": "Marvel",
+      "set": "Mastery Pack: Warrior",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
       "identifier": "SBL036",
       "image": "SBL036",
       "print": "SBL036",
@@ -214195,17 +214474,20 @@ exports[`Check for unintentional updates Flurry (flurry) vs snapshot 1`] = `
   ],
   "rarities": [
     "Basic",
+    "Marvel",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
     "AHA027",
+    "MPW135",
     "SBL036",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
     "Boltyn Silver Age Deck",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "SBL036",
+  "specialImage": "MPW135-MV",
   "subtypes": [
     "Aura",
   ],
@@ -232891,7 +233173,7 @@ exports[`Check for unintentional updates Gleam of the Blade (gleam-of-the-blade-
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "AHA008",
+  "defaultImage": "MPW045",
   "defense": 2,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Target weapon attack gets +3{p}.
@@ -232927,6 +233209,27 @@ exports[`Check for unintentional updates Gleam of the Blade (gleam-of-the-blade-
       "artists": [
         "Vincent Taslim",
       ],
+      "identifier": "MPW045",
+      "image": "MPW045",
+      "print": "MPW045",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Vincent Taslim",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW045",
+      "image": "MPW045-RF",
+      "print": "MPW045-Rainbow",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Vincent Taslim",
+      ],
       "identifier": "AHA008",
       "image": "AHA008",
       "print": "AHA008",
@@ -232944,14 +233247,16 @@ exports[`Check for unintentional updates Gleam of the Blade (gleam-of-the-blade-
   "rarity": "Rare",
   "setIdentifiers": [
     "AHA008",
+    "MPW045",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AHA008",
+  "specialImage": "MPW045",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -233375,10 +233680,10 @@ exports[`Check for unintentional updates Glint the Quicksilver (glint-the-quicks
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "U-WTR118",
+  "defaultImage": "MPW022",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "Target weapon attack gains **go again**.
+  "functionalText": "Target weapon attack gets **go again**.
 
 **Reprise** - If the defending hero has defended with a card from their hand this chain link, draw a card.",
   "keywords": [
@@ -233411,6 +233716,16 @@ exports[`Check for unintentional updates Glint the Quicksilver (glint-the-quicks
   "name": "Glint the Quicksilver",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Alexander Mokhov",
+      ],
+      "identifier": "MPW022",
+      "image": "MPW022",
+      "print": "MPW022",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Alexander Mokhov",
@@ -233494,10 +233809,12 @@ exports[`Check for unintentional updates Glint the Quicksilver (glint-the-quicks
   "rarity": "Majestic",
   "setIdentifiers": [
     "1HP147",
+    "MPW022",
     "WTR118",
   ],
   "sets": [
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR118",
@@ -235424,7 +235741,7 @@ exports[`Check for unintentional updates Gold (gold) vs snapshot 1`] = `
   "classes": [
     "Generic",
   ],
-  "defaultImage": "SGB035",
+  "defaultImage": "MPW154",
   "firstReleaseDate": "2022-11-11",
   "functionalText": "**Action** - {r}{r}, destroy this: Draw a card. **Go again**",
   "keywords": [
@@ -235530,6 +235847,16 @@ exports[`Check for unintentional updates Gold (gold) vs snapshot 1`] = `
   ],
   "name": "Gold",
   "printings": [
+    {
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
+      "identifier": "MPW154",
+      "image": "MPW154",
+      "print": "MPW154",
+      "rarity": "Basic",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [],
       "identifier": "SGB035",
@@ -235807,6 +236134,7 @@ exports[`Check for unintentional updates Gold (gold) vs snapshot 1`] = `
     "HVY243",
     "KSI030",
     "LGS229",
+    "MPW154",
     "OLA030",
     "SEA244",
     "SEN036",
@@ -235823,6 +236151,7 @@ exports[`Check for unintentional updates Gold (gold) vs snapshot 1`] = `
     "Heavy Hitters",
     "High Seas",
     "Kassai Blitz Deck",
+    "Mastery Pack: Warrior",
     "Olympia Blitz Deck",
     "Promos",
     "Smash Palace",
@@ -265909,7 +266238,7 @@ exports[`Check for unintentional updates Hit and Run (hit-and-run-blue) vs snaps
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "SDO032",
+  "defaultImage": "MPW114",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
   "functionalText": "Your next weapon attack this turn gains **go again**.
@@ -265946,6 +266275,16 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
   "name": "Hit and Run",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "identifier": "MPW114",
+      "image": "MPW114",
+      "print": "MPW114",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Jessada Sutthi",
@@ -266059,6 +266398,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     "1HP176",
     "CRU093",
     "DVR021",
+    "MPW114",
     "SDO032",
   ],
   "sets": [
@@ -266066,6 +266406,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     "Crucible of War",
     "Dorinthea Silver Age Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
@@ -266091,7 +266432,7 @@ exports[`Check for unintentional updates Hit and Run (hit-and-run-red) vs snapsh
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "U-CRU091",
+  "defaultImage": "MPW112",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
   "functionalText": "Your next weapon attack this turn gains **go again**.
@@ -266129,6 +266470,16 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
   "name": "Hit and Run",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "identifier": "MPW112",
+      "image": "MPW112",
+      "print": "MPW112",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Jessada Sutthi",
@@ -266213,10 +266564,12 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
   "setIdentifiers": [
     "1HP174",
     "CRU091",
+    "MPW112",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
@@ -266242,7 +266595,7 @@ exports[`Check for unintentional updates Hit and Run (hit-and-run-yellow) vs sna
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "U-CRU092",
+  "defaultImage": "MPW113",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
   "functionalText": "Your next weapon attack this turn gains **go again**.
@@ -266279,6 +266632,16 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
   "name": "Hit and Run",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "identifier": "MPW113",
+      "image": "MPW113",
+      "print": "MPW113",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Jessada Sutthi",
@@ -266363,10 +266726,12 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
   "setIdentifiers": [
     "1HP175",
     "CRU092",
+    "MPW113",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
@@ -269363,7 +269728,7 @@ exports[`Check for unintentional updates Hope Merchant's Hood (hope-merchants-ho
   "classes": [
     "Generic",
   ],
-  "defaultImage": "SFA004",
+  "defaultImage": "MPW136",
   "defense": 0,
   "firstReleaseDate": "2019-10-11",
   "functionalText": "**Instant** - Destroy this: Shuffle any number of cards from your hand into your deck, then draw that many cards.",
@@ -269470,6 +269835,16 @@ exports[`Check for unintentional updates Hope Merchant's Hood (hope-merchants-ho
   ],
   "name": "Hope Merchant's Hood",
   "printings": [
+    {
+      "artists": [
+        "Anna Tanygina",
+      ],
+      "identifier": "MPW136",
+      "image": "MPW136",
+      "print": "MPW136",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Anna Tanygina",
@@ -269642,6 +270017,7 @@ exports[`Check for unintentional updates Hope Merchant's Hood (hope-merchants-ho
     "FAI003",
     "LSS012",
     "MPG118",
+    "MPW136",
     "SDA005",
     "SFA004",
     "TEA004",
@@ -269654,6 +270030,7 @@ exports[`Check for unintentional updates Hope Merchant's Hood (hope-merchants-ho
     "Fai Silver Age Deck",
     "History Pack 1",
     "Mastery Pack: Guardian",
+    "Mastery Pack: Warrior",
     "Promos",
     "Welcome to Rathe",
   ],
@@ -293425,10 +293802,10 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-re
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "SDO013",
+  "defaultImage": "MPW085",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +3{p}.",
+  "functionalText": "**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gets +3{p}.",
   "keywords": [
     "Reprise",
   ],
@@ -293461,6 +293838,16 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-re
   "name": "Ironsong Response",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Anastasiya Grintsova",
+      ],
+      "identifier": "MPW085",
+      "image": "MPW085",
+      "print": "MPW085",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Anastasiya Grintsova",
@@ -293613,6 +294000,7 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-re
     "DVR016",
     "LGS008",
     "LGS029",
+    "MPW085",
     "SDO013",
     "WTR132",
   ],
@@ -293620,6 +294008,7 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-re
     "Classic Battles: Rhinar vs Dorinthea",
     "Dorinthea Silver Age Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Promos",
     "Welcome to Rathe",
   ],
@@ -338219,7 +338608,7 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
     "Generic",
   ],
   "cost": 1,
-  "defaultImage": "HVY235",
+  "defaultImage": "MPW150",
   "defense": 2,
   "firstReleaseDate": "2024-02-02",
   "functionalText": "Your next attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Gold token with them."",
@@ -338336,6 +338725,16 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
       "artists": [
         "Athiwut B.",
       ],
+      "identifier": "MPW150",
+      "image": "MPW150",
+      "print": "MPW150",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Athiwut B.",
+      ],
       "identifier": "HVY235",
       "image": "HVY235",
       "print": "HVY235",
@@ -338387,10 +338786,12 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
   "setIdentifiers": [
     "BET017",
     "HVY235",
+    "MPW150",
   ],
   "sets": [
     "Betsy Blitz Deck",
     "Heavy Hitters",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
@@ -343641,7 +344042,7 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "U-WTR147",
+  "defaultImage": "MPW116",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
   "functionalText": "Your next weapon attack this turn gains +3{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
@@ -343679,6 +344080,16 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
   "name": "Nature's Path Pilgrimage",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Reza Afshar",
+      ],
+      "identifier": "MPW116",
+      "image": "MPW116",
+      "print": "MPW116",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Reza Afshar",
@@ -343776,12 +344187,14 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
   "rarity": "Common",
   "setIdentifiers": [
     "1HP177",
+    "MPW116",
     "TEA013",
     "WTR147",
   ],
   "sets": [
     "Dorinthea Hero Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "shorthands": [
@@ -347653,7 +348066,7 @@ exports[`Check for unintentional updates Nip at the Heels (nip-at-the-heels-blue
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "SFA034",
+  "defaultImage": "MPW148",
   "defense": 3,
   "firstReleaseDate": "2025-01-31",
   "functionalText": "Target attack with 3 or less base {p} gets +1{p}.",
@@ -347764,6 +348177,16 @@ exports[`Check for unintentional updates Nip at the Heels (nip-at-the-heels-blue
       "artists": [
         "Carlos Cruchaga",
       ],
+      "identifier": "MPW148",
+      "image": "MPW148",
+      "print": "MPW148",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
       "identifier": "SFA034",
       "image": "SFA034",
       "print": "SFA034",
@@ -347845,12 +348268,14 @@ exports[`Check for unintentional updates Nip at the Heels (nip-at-the-heels-blue
   "setIdentifiers": [
     "FAB326",
     "HNT239",
+    "MPW148",
     "SDO026",
     "SFA034",
   ],
   "sets": [
     "Dorinthea Silver Age Deck",
     "Fai Silver Age Deck",
+    "Mastery Pack: Warrior",
     "Promos",
     "The Hunted",
   ],
@@ -355477,7 +355902,7 @@ exports[`Check for unintentional updates Olé (ole-blue) vs snapshot 1`] = `
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "AHA021",
+  "defaultImage": "MPW046",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Remove a +1{p} counter from target attacking weapon. If you do, create a Flurry token and draw a card.",
@@ -355510,6 +355935,27 @@ exports[`Check for unintentional updates Olé (ole-blue) vs snapshot 1`] = `
       "artists": [
         "Muhammad Fajri",
       ],
+      "identifier": "MPW046",
+      "image": "MPW046",
+      "print": "MPW046",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW046",
+      "image": "MPW046-RF",
+      "print": "MPW046-Rainbow",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Muhammad Fajri",
+      ],
       "identifier": "AHA021",
       "image": "AHA021",
       "print": "AHA021",
@@ -355527,11 +355973,13 @@ exports[`Check for unintentional updates Olé (ole-blue) vs snapshot 1`] = `
   "rarity": "Rare",
   "setIdentifiers": [
     "AHA021",
+    "MPW046",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "AHA021",
+  "specialImage": "MPW046",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -366451,6 +366899,17 @@ Target weapon attack gets +X{p}, where X is twice the number of cards defending 
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
     },
+    {
+      "artists": [
+        "Yosi Saputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW024",
+      "image": "MPW024-RF",
+      "print": "MPW024-Rainbow",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
   ],
   "rarities": [
     "Majestic",
@@ -368647,7 +369106,7 @@ exports[`Check for unintentional updates Paragon Plate (paragon-plate) vs snapsh
   "classes": [
     "Warrior",
   ],
-  "defaultImage": "AHA004-RF",
+  "defaultImage": "MPW009-CF",
   "defense": 2,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "**Attack Reaction** - {t}, remove a +1{p} counter from an attacking sword you control: Gain {r}
@@ -368685,6 +369144,17 @@ exports[`Check for unintentional updates Paragon Plate (paragon-plate) vs snapsh
       "artists": [
         "Amtepra",
       ],
+      "foiling": "Cold",
+      "identifier": "MPW009",
+      "image": "MPW009-CF",
+      "print": "MPW009-Cold",
+      "rarity": "Legendary",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Amtepra",
+      ],
       "foiling": "Rainbow",
       "identifier": "AHA004",
       "image": "AHA004-RF",
@@ -368703,14 +369173,16 @@ exports[`Check for unintentional updates Paragon Plate (paragon-plate) vs snapsh
   "rarity": "Legendary",
   "setIdentifiers": [
     "AHA004",
+    "MPW009",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Tap",
   ],
-  "specialImage": "AHA004-RF",
+  "specialImage": "MPW009-CF",
   "subtypes": [
     "Chest",
   ],
@@ -403670,7 +404142,7 @@ exports[`Check for unintentional updates Push Forward (push-forward-red) vs snap
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "BOL030",
+  "defaultImage": "MPW117",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
   "functionalText": "Your next weapon attack this turn gains +3{p}.
@@ -403709,6 +404181,16 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
   "name": "Push Forward",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Camille Alquier",
+      ],
+      "identifier": "MPW117",
+      "image": "MPW117",
+      "print": "MPW117",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Camille Alquier",
@@ -403797,10 +404279,12 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
   "setIdentifiers": [
     "BOL030",
     "CRU094",
+    "MPW117",
   ],
   "sets": [
     "Boltyn Blitz Deck",
     "Crucible of War",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
@@ -404690,7 +405174,7 @@ exports[`Check for unintentional updates Put in Context (put-in-context-blue) vs
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "SEN029",
+  "defaultImage": "MPW149",
   "defense": 3,
   "firstReleaseDate": "2025-01-31",
   "functionalText": "This can only defend an attack with 3 or less base {p}.",
@@ -404801,6 +405285,16 @@ exports[`Check for unintentional updates Put in Context (put-in-context-blue) vs
       "artists": [
         "Maerel Hibadita",
       ],
+      "identifier": "MPW149",
+      "image": "MPW149",
+      "print": "MPW149",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Maerel Hibadita",
+      ],
       "identifier": "SEN029",
       "image": "SEN029",
       "print": "SEN029",
@@ -404897,6 +405391,7 @@ exports[`Check for unintentional updates Put in Context (put-in-context-blue) vs
     "CIN027",
     "FAB325",
     "HNT238",
+    "MPW149",
     "SDO029",
     "SEN029",
   ],
@@ -404904,6 +405399,7 @@ exports[`Check for unintentional updates Put in Context (put-in-context-blue) vs
     "Cindra Blitz Deck",
     "Dorinthea Silver Age Deck",
     "Enigma Silver Age Deck",
+    "Mastery Pack: Warrior",
     "Promos",
     "The Hunted",
   ],
@@ -423856,10 +424352,10 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
   "classes": [
     "Warrior",
   ],
-  "defaultImage": "SDO009",
+  "defaultImage": "MPW020",
   "defense": 1,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "When a weapon you control hits, you may destroy Refraction Bolters. If you do, the attack gains **go again**.
+  "functionalText": "When a weapon attack you control hits, you may destroy this. If you do, the attack gets **go again**.
 
 **Battleworn**",
   "keywords": [
@@ -423894,6 +424390,16 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
   ],
   "name": "Refraction Bolters",
   "printings": [
+    {
+      "artists": [
+        "Anna Tanygina",
+      ],
+      "identifier": "MPW020",
+      "image": "MPW020",
+      "print": "MPW020",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Anna Tanygina",
@@ -424005,6 +424511,7 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
   "rarity": "Common",
   "setIdentifiers": [
     "1HP145",
+    "MPW020",
     "SDO009",
     "TEA007",
     "WTR117",
@@ -424013,6 +424520,7 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
     "Dorinthea Hero Deck",
     "Dorinthea Silver Age Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR117",
@@ -467500,7 +468008,7 @@ exports[`Check for unintentional updates Second Swing (second-swing-red) vs snap
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "DVR010",
+  "defaultImage": "MPW118",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "If you have attacked with a weapon this turn, your next attack this turn gains +4{p}.
@@ -467538,6 +468046,16 @@ exports[`Check for unintentional updates Second Swing (second-swing-red) vs snap
   "name": "Second Swing",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Inkognit",
+      ],
+      "identifier": "MPW118",
+      "image": "MPW118",
+      "print": "MPW118",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Inkognit",
@@ -467622,9 +468140,11 @@ exports[`Check for unintentional updates Second Swing (second-swing-red) vs snap
   "setIdentifiers": [
     "DVR010",
     "MON116",
+    "MPW118",
   ],
   "sets": [
     "Classic Battles: Rhinar vs Dorinthea",
+    "Mastery Pack: Warrior",
     "Monarch",
   ],
   "shorthands": [
@@ -476693,7 +477213,7 @@ exports[`Check for unintentional updates Sharp Incline (sharp-incline-red) vs sn
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "AHA013",
+  "defaultImage": "MPW119",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "**Sharpen** target sword you control.
@@ -476727,10 +477247,32 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Sharp Incline",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "identifier": "MPW119",
+      "image": "MPW119",
+      "print": "MPW119",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW119",
+      "image": "MPW119-RF",
+      "print": "MPW119-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Tommy Suhartono",
@@ -476752,11 +477294,13 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
   "rarity": "Common",
   "setIdentifiers": [
     "AHA013",
+    "MPW119",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "AHA013",
+  "specialImage": "MPW119",
   "subtypes": [
     "Non-Attack",
   ],
@@ -476777,7 +477321,7 @@ exports[`Check for unintentional updates Sharp Incline (sharp-incline-yellow) vs
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "AHA018",
+  "defaultImage": "MPW120",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "**Sharpen** target sword you control.
@@ -476810,10 +477354,32 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Sharp Incline",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "identifier": "MPW120",
+      "image": "MPW120",
+      "print": "MPW120",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW120",
+      "image": "MPW120-RF",
+      "print": "MPW120-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Tommy Suhartono",
@@ -476835,11 +477401,13 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
   "rarity": "Common",
   "setIdentifiers": [
     "AHA018",
+    "MPW120",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "AHA018",
+  "specialImage": "MPW120",
   "subtypes": [
     "Non-Attack",
   ],
@@ -477104,7 +477672,7 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-red) vs sn
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "SDO019",
+  "defaultImage": "MPW122",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
   "functionalText": "Your next weapon attack this turn gains +3{p}.
@@ -477142,6 +477710,16 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-red) vs sn
   "name": "Sharpen Steel",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Anastasiya Grintsova",
+      ],
+      "identifier": "MPW122",
+      "image": "MPW122",
+      "print": "MPW122",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Anastasiya Grintsova",
@@ -477253,6 +477831,7 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-red) vs sn
   "rarity": "Common",
   "setIdentifiers": [
     "DVR012",
+    "MPW122",
     "SDO019",
     "TEA014",
     "WTR141",
@@ -477261,6 +477840,7 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-red) vs sn
     "Classic Battles: Rhinar vs Dorinthea",
     "Dorinthea Hero Deck",
     "Dorinthea Silver Age Deck",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "shorthands": [
@@ -483902,7 +484482,7 @@ exports[`Check for unintentional updates Shuck (shuck-blue) vs snapshot 1`] = `
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "AHA024",
+  "defaultImage": "MPW129",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Create a Flurry token.",
@@ -483935,6 +484515,27 @@ exports[`Check for unintentional updates Shuck (shuck-blue) vs snapshot 1`] = `
       "artists": [
         "Jessada Sutthi",
       ],
+      "identifier": "MPW129",
+      "image": "MPW129",
+      "print": "MPW129",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW129",
+      "image": "MPW129-RF",
+      "print": "MPW129-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
       "identifier": "AHA024",
       "image": "AHA024",
       "print": "AHA024",
@@ -483952,11 +484553,13 @@ exports[`Check for unintentional updates Shuck (shuck-blue) vs snapshot 1`] = `
   "rarity": "Common",
   "setIdentifiers": [
     "AHA024",
+    "MPW129",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "AHA024",
+  "specialImage": "MPW129",
   "subtypes": [
     "Non-Attack",
   ],
@@ -491935,7 +492538,7 @@ exports[`Check for unintentional updates Silverdrop Downpour (silverdrop-downpou
     "Warrior",
   ],
   "cost": 2,
-  "defaultImage": "AHA010",
+  "defaultImage": "MPW086",
   "defense": 2,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Target weapon attack gets +4{p}.
@@ -491963,10 +492566,32 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Silverdrop Downpour",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "identifier": "MPW086",
+      "image": "MPW086",
+      "print": "MPW086",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Tomi Ong",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW086",
+      "image": "MPW086-RF",
+      "print": "MPW086-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Tomi Ong",
@@ -491988,14 +492613,16 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
   "rarity": "Common",
   "setIdentifiers": [
     "AHA010",
+    "MPW086",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AHA010",
+  "specialImage": "MPW086",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -499750,13 +500377,12 @@ exports[`Check for unintentional updates Slice and Dice (slice-and-dice-red) vs 
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "EVR057",
+  "defaultImage": "MPW069",
   "defense": 3,
   "firstReleaseDate": "2022-02-04",
-  "functionalText": "Whenever you attack with a sword or dagger this turn;
+  "functionalText": "Your first sword or dagger attack this turn gets +1{p}.
 
-- If it's your first weapon attack this turn, it gains +1{p}.
-- If it's your second weapon attack this turn, it gains +3{p}.
+Your second sword or dagger attack this turn gets +3{p}.
 
 **Go again**",
   "keywords": [
@@ -499789,6 +500415,16 @@ exports[`Check for unintentional updates Slice and Dice (slice-and-dice-red) vs 
   "name": "Slice and Dice",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "identifier": "MPW069",
+      "image": "MPW069",
+      "print": "MPW069",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Federico Musetti",
@@ -499847,9 +500483,11 @@ exports[`Check for unintentional updates Slice and Dice (slice-and-dice-red) vs 
   "rarity": "Rare",
   "setIdentifiers": [
     "EVR057",
+    "MPW069",
   ],
   "sets": [
     "Everfest",
+    "Mastery Pack: Warrior",
   ],
   "specialImage": "EVR057-RF",
   "subtypes": [
@@ -527159,7 +527797,7 @@ exports[`Check for unintentional updates Starting Stake (starting-stake-yellow) 
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "HVY238",
+  "defaultImage": "MPW152",
   "defense": 3,
   "firstReleaseDate": "2024-02-02",
   "functionalText": "If you control no Gold tokens, create a Gold token.",
@@ -527270,6 +527908,16 @@ exports[`Check for unintentional updates Starting Stake (starting-stake-yellow) 
       "artists": [
         "Isuardi Therianto",
       ],
+      "identifier": "MPW152",
+      "image": "MPW152",
+      "print": "MPW152",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
       "identifier": "HVY238",
       "image": "HVY238",
       "print": "HVY238",
@@ -527319,9 +527967,11 @@ exports[`Check for unintentional updates Starting Stake (starting-stake-yellow) 
   "setIdentifiers": [
     "HVY238",
     "LGS228",
+    "MPW152",
   ],
   "sets": [
     "Heavy Hitters",
+    "Mastery Pack: Warrior",
     "Promos",
   ],
   "specialImage": "LGS228-CF",
@@ -529345,10 +529995,10 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-blue
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "U-WTR128",
+  "defaultImage": "MPW058",
   "defense": 4,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.",
+  "functionalText": "If this defends a weapon attack, deal 1 damage to the attacking hero.",
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
@@ -529377,6 +530027,16 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-blue
   "name": "Steelblade Shunt",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Cindy Handoyo",
+      ],
+      "identifier": "MPW058",
+      "image": "MPW058",
+      "print": "MPW058",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Cindy Handoyo",
@@ -529460,10 +530120,12 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-blue
   "rarity": "Rare",
   "setIdentifiers": [
     "1HP158",
+    "MPW058",
     "WTR128",
   ],
   "sets": [
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR128",
@@ -529485,10 +530147,10 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-red)
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "U-WTR126",
+  "defaultImage": "MPW056",
   "defense": 6,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.",
+  "functionalText": "If this defends a weapon attack, deal 1 damage to the attacking hero.",
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
@@ -529518,6 +530180,16 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-red)
   "name": "Steelblade Shunt",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Cindy Handoyo",
+      ],
+      "identifier": "MPW056",
+      "image": "MPW056",
+      "print": "MPW056",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Cindy Handoyo",
@@ -529615,12 +530287,14 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-red)
   "rarity": "Rare",
   "setIdentifiers": [
     "1HP156",
+    "MPW056",
     "TEA011",
     "WTR126",
   ],
   "sets": [
     "Dorinthea Hero Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR126",
@@ -529642,10 +530316,10 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-yell
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "U-WTR127",
+  "defaultImage": "MPW057",
   "defense": 5,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.",
+  "functionalText": "If this defends a weapon attack, deal 1 damage to the attacking hero.",
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
@@ -529674,6 +530348,16 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-yell
   "name": "Steelblade Shunt",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "Cindy Handoyo",
+      ],
+      "identifier": "MPW057",
+      "image": "MPW057",
+      "print": "MPW057",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Cindy Handoyo",
@@ -529757,10 +530441,12 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-yell
   "rarity": "Rare",
   "setIdentifiers": [
     "1HP157",
+    "MPW057",
     "WTR127",
   ],
   "sets": [
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR127",
@@ -547019,7 +547705,7 @@ exports[`Check for unintentional updates Swordmaster's Path (swordmasters-path-b
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "AHA025",
+  "defaultImage": "MPW132",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Your next sword attack this turn gets +1{p}.
@@ -547052,10 +547738,21 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Swordmaster's Path",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "MPW132",
+      "image": "MPW132",
+      "print": "MPW132",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Wirawan Pranoto",
@@ -547077,14 +547774,16 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
   "rarity": "Common",
   "setIdentifiers": [
     "AHA025",
+    "MPW132",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AHA025",
+  "specialImage": "MPW132",
   "subtypes": [
     "Non-Attack",
   ],
@@ -547105,7 +547804,7 @@ exports[`Check for unintentional updates Swordmaster's Path (swordmasters-path-r
     "Warrior",
   ],
   "cost": 1,
-  "defaultImage": "AHA014",
+  "defaultImage": "MPW130",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "Your next sword attack this turn gets +3{p}.
@@ -547139,10 +547838,21 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Swordmaster's Path",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "identifier": "MPW130",
+      "image": "MPW130",
+      "print": "MPW130",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Wirawan Pranoto",
@@ -547164,14 +547874,16 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
   "rarity": "Common",
   "setIdentifiers": [
     "AHA014",
+    "MPW130",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "AHA014",
+  "specialImage": "MPW130",
   "subtypes": [
     "Non-Attack",
   ],
@@ -551359,10 +552071,10 @@ exports[`Check for unintentional updates Take the Upper Hand (take-the-upper-han
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "HVY114",
+  "defaultImage": "MPW095",
   "defense": 3,
   "firstReleaseDate": "2024-02-02",
-  "functionalText": "Play this only if you've **wagered** this chain link.
+  "functionalText": "Play this only if you've wagered this chain link.
 
 Target attack gets +1{p}.",
   "legalFormats": [
@@ -551397,6 +552109,27 @@ Target attack gets +1{p}.",
       "artists": [
         "Faizal Fikri",
       ],
+      "identifier": "MPW095",
+      "image": "MPW095",
+      "print": "MPW095",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW095",
+      "image": "MPW095-RF",
+      "print": "MPW095-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
       "identifier": "HVY114",
       "image": "HVY114",
       "print": "HVY114",
@@ -551424,19 +552157,22 @@ Target attack gets +1{p}.",
     },
   ],
   "rarities": [
+    "Common",
     "Rare",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "HVY114",
+    "MPW095",
   ],
   "sets": [
     "Heavy Hitters",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "HVY114",
+  "specialImage": "MPW095",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -551455,10 +552191,10 @@ exports[`Check for unintentional updates Take the Upper Hand (take-the-upper-han
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "HVY112",
+  "defaultImage": "MPW093",
   "defense": 3,
   "firstReleaseDate": "2024-02-02",
-  "functionalText": "Play this only if you've **wagered** this chain link.
+  "functionalText": "Play this only if you've wagered this chain link.
 
 Target attack gets +3{p}.",
   "legalFormats": [
@@ -551490,6 +552226,27 @@ Target attack gets +3{p}.",
   "name": "Take the Upper Hand",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "identifier": "MPW093",
+      "image": "MPW093",
+      "print": "MPW093",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW093",
+      "image": "MPW093-RF",
+      "print": "MPW093-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Faizal Fikri",
@@ -551535,21 +552292,24 @@ Target attack gets +3{p}.",
     },
   ],
   "rarities": [
+    "Common",
     "Rare",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "HVY112",
+    "MPW093",
     "OLA014",
   ],
   "sets": [
     "Heavy Hitters",
+    "Mastery Pack: Warrior",
     "Olympia Blitz Deck",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "HVY112",
+  "specialImage": "MPW093",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -551568,10 +552328,10 @@ exports[`Check for unintentional updates Take the Upper Hand (take-the-upper-han
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "HVY113",
+  "defaultImage": "MPW094",
   "defense": 3,
   "firstReleaseDate": "2024-02-02",
-  "functionalText": "Play this only if you've **wagered** this chain link.
+  "functionalText": "Play this only if you've wagered this chain link.
 
 Target attack gets +2{p}.",
   "legalFormats": [
@@ -551606,6 +552366,27 @@ Target attack gets +2{p}.",
       "artists": [
         "Faizal Fikri",
       ],
+      "identifier": "MPW094",
+      "image": "MPW094",
+      "print": "MPW094",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW094",
+      "image": "MPW094-RF",
+      "print": "MPW094-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
       "identifier": "HVY113",
       "image": "HVY113",
       "print": "HVY113",
@@ -551633,19 +552414,22 @@ Target attack gets +2{p}.",
     },
   ],
   "rarities": [
+    "Common",
     "Rare",
   ],
-  "rarity": "Rare",
+  "rarity": "Common",
   "setIdentifiers": [
     "HVY113",
+    "MPW094",
   ],
   "sets": [
     "Heavy Hitters",
+    "Mastery Pack: Warrior",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "HVY113",
+  "specialImage": "MPW094",
   "subtypes": [],
   "typeText": "Warrior Attack Reaction",
   "types": [
@@ -569967,7 +570751,7 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "SGB032",
+  "defaultImage": "MPW147",
   "firstReleaseDate": "2019-10-11",
   "functionalText": "**Action** - Destroy this: Gain 2 action points.",
   "legalFormats": [
@@ -570073,6 +570857,16 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
   "name": "Timesnap Potion",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "identifier": "MPW147",
+      "image": "MPW147",
+      "print": "MPW147",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Daniel Jiménez",
@@ -570251,6 +571045,7 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
     "AGB030",
     "FAB014",
     "FAB224",
+    "MPW147",
     "RNR029",
     "SGB032",
     "TCC074",
@@ -570260,6 +571055,7 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
     "Armory Deck: Gravy Bones",
     "Gravy Bones Silver Age Deck",
     "History Pack 1",
+    "Mastery Pack: Warrior",
     "Promos",
     "Rhinar Hero Deck",
     "Round the Table: TCC x LSS",
@@ -572326,7 +573122,7 @@ exports[`Check for unintentional updates Toe the Line (toe-the-line-red) vs snap
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "SBL022",
+  "defaultImage": "MPW074",
   "firstReleaseDate": "2026-04-17",
   "functionalText": "The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Flurry token.",
   "legalFormats": [
@@ -572355,6 +573151,27 @@ exports[`Check for unintentional updates Toe the Line (toe-the-line-red) vs snap
   "name": "Toe the Line",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Mario Wibisono",
+      ],
+      "identifier": "MPW074",
+      "image": "MPW074",
+      "print": "MPW074",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Mario Wibisono",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW074",
+      "image": "MPW074-RF",
+      "print": "MPW074-Rainbow",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "Mario Wibisono",
@@ -572429,12 +573246,14 @@ exports[`Check for unintentional updates Toe the Line (toe-the-line-red) vs snap
   "setIdentifiers": [
     "AHA015",
     "GEM165",
+    "MPW074",
     "SBL022",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
     "Boltyn Silver Age Deck",
     "GEM",
+    "Mastery Pack: Warrior",
   ],
   "specialImage": "GEM165",
   "subtypes": [],
@@ -589083,10 +589902,10 @@ exports[`Check for unintentional updates Unsheathed (unsheathed-red) vs snapshot
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "ROS248",
+  "defaultImage": "MPW035",
   "defense": 3,
   "firstReleaseDate": "2024-09-20",
-  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**."
+  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**.
 
 **Go again**",
   "keywords": [
@@ -589118,6 +589937,16 @@ exports[`Check for unintentional updates Unsheathed (unsheathed-red) vs snapshot
   "name": "Unsheathed",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "soyameii",
+      ],
+      "identifier": "MPW035",
+      "image": "MPW035",
+      "print": "MPW035",
+      "rarity": "Majestic",
+      "set": "Mastery Pack: Warrior",
+    },
     {
       "artists": [
         "soyameii",
@@ -589155,15 +589984,17 @@ exports[`Check for unintentional updates Unsheathed (unsheathed-red) vs snapshot
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "MPW035",
     "ROS248",
   ],
   "sets": [
+    "Mastery Pack: Warrior",
     "Rosetta",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "ROS248",
+  "specialImage": "MPW035",
   "subtypes": [
     "Non-Attack",
   ],
@@ -602746,7 +603577,7 @@ exports[`Check for unintentional updates Visit the Dawnsmith (visit-the-dawnsmit
     "Warrior",
   ],
   "cost": 0,
-  "defaultImage": "AHA026",
+  "defaultImage": "MPW071",
   "defense": 3,
   "firstReleaseDate": "2026-04-17",
   "functionalText": "At the start of your turn, destroy this and **sharpen** all swords you control.",
@@ -602782,6 +603613,27 @@ exports[`Check for unintentional updates Visit the Dawnsmith (visit-the-dawnsmit
       "artists": [
         "Faizal Fikri",
       ],
+      "identifier": "MPW071",
+      "image": "MPW071",
+      "print": "MPW071",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW071",
+      "image": "MPW071-RF",
+      "print": "MPW071-Rainbow",
+      "rarity": "Rare",
+      "set": "Mastery Pack: Warrior",
+    },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
       "identifier": "AHA026",
       "image": "AHA026",
       "print": "AHA026",
@@ -602799,11 +603651,13 @@ exports[`Check for unintentional updates Visit the Dawnsmith (visit-the-dawnsmit
   "rarity": "Rare",
   "setIdentifiers": [
     "AHA026",
+    "MPW071",
   ],
   "sets": [
     "Armory Deck Origins: Hala",
+    "Mastery Pack: Warrior",
   ],
-  "specialImage": "AHA026",
+  "specialImage": "MPW071",
   "subtypes": [
     "Aura",
     "Non-Attack",

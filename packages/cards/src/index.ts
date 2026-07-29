@@ -422,6 +422,79 @@ If you've played another blue card this turn, **transcend**.`,
   
   
   },{
+    artists: ["Nino Setiawan"],
+    cardIdentifier: "a-moments-peace-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW075",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "A Moment's Peace",
+    printings: [{
+        artists: ["Nino Setiawan"],
+      
+      identifier: "MPW075",
+      image: "MPW075",
+      
+      
+      print: "MPW075",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Nino Setiawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW075",
+      image: "MPW075-RF",
+      
+      
+      print: "MPW075-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW075"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW075",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Warrior Block",
+
+    
+    
+    
+    defense: 2,
+    
+    functionalText: `When this defends a sword attack, you can't be attacked by the sword again this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Daria Cherkashina"],
     cardIdentifier: "absorb-in-aether-red",
     classes: [Class.Wizard],
@@ -6990,6 +7063,81 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["János Brumár"],
+    cardIdentifier: "all-in-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW027",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "All In",
+    printings: [{
+        artists: ["János Brumár"],
+      
+      identifier: "MPW027",
+      image: "MPW027",
+      
+      
+      print: "MPW027",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["János Brumár"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW027",
+      image: "MPW027-RF",
+      
+      
+      print: "MPW027-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW027"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW027",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `The next time a sword you control attacks this turn, destroy all Gold you control. The attack gets +2{p} for each Gold destroyed this way. When the chain link resolves, if the attack didn't hit, you lose the game.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -24342,12 +24490,36 @@ Defense reaction cards can't be played this chain link.`,
     artists: ["Faizal Fikri"],
     cardIdentifier: "backside-of-the-blade-blue",
     classes: [Class.Warrior],
-    defaultImage: "AHA019",
+    defaultImage: "MPW038",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Backside of the Blade",
     printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "MPW038",
+      image: "MPW038",
+      
+      
+      print: "MPW038",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW038",
+      image: "MPW038-RF",
+      
+      
+      print: "MPW038-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Faizal Fikri"],
       
       identifier: "AHA019",
@@ -24365,9 +24537,9 @@ Defense reaction cards can't be played this chain link.`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AHA019"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA019",
+    setIdentifiers: ["AHA019","MPW038"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW038",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -35551,6 +35723,81 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
   
   
   },{
+    artists: ["Yunior Susanto"],
+    cardIdentifier: "below-the-belt-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW059",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Below the Belt",
+    printings: [{
+        artists: ["Yunior Susanto"],
+      
+      identifier: "MPW059",
+      image: "MPW059",
+      
+      
+      print: "MPW059",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW059",
+      image: "MPW059-RF",
+      
+      
+      print: "MPW059-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW059"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW059",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +4{p} and "When this hits a Warrior hero, destroy a card in their arsenal."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Arkoii"],
     cardIdentifier: "beneath-the-surface-yellow",
     classes: [Class.Necromancer,Class.Pirate],
@@ -36854,6 +37101,225 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
   
   },{
+    artists: ["Galih M"],
+    cardIdentifier: "big-blinder-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW076",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Big Blinder",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "MPW076",
+      image: "MPW076",
+      
+      
+      print: "MPW076",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW076",
+      image: "MPW076-RF",
+      
+      
+      print: "MPW076-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW076"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW076",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target sword attack gets +4{p} and **wagers** with the defending hero. The winner creates a Flurry token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "big-blinder-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW077",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Big Blinder",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "MPW077",
+      image: "MPW077",
+      
+      
+      print: "MPW077",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW077",
+      image: "MPW077-RF",
+      
+      
+      print: "MPW077-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW077"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW077",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target sword attack gets +3{p} and **wagers** with the defending hero. The winner creates a Flurry token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Galih M"],
+    cardIdentifier: "big-blinder-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW078",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Big Blinder",
+    printings: [{
+        artists: ["Galih M"],
+      
+      identifier: "MPW078",
+      image: "MPW078",
+      
+      
+      print: "MPW078",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW078",
+      image: "MPW078-RF",
+      
+      
+      print: "MPW078-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW078"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW078",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target sword attack gets +2{p} and **wagers** with the defending hero. The winner creates a Flurry token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "big-blue-sky-blue",
     classes: [Class.NotClassed],
@@ -37492,6 +37958,231 @@ Draw a card, then discard a card.
     power: 6,
     
     shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "big-slick-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW060",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Big Slick",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "MPW060",
+      image: "MPW060",
+      
+      
+      print: "MPW060",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW060",
+      image: "MPW060-RF",
+      
+      
+      print: "MPW060-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW060"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW060",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +5{p} and "When this attacks, **wager** with the defending hero. The winner draws a card."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "big-slick-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW061",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Big Slick",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "MPW061",
+      image: "MPW061",
+      
+      
+      print: "MPW061",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW061",
+      image: "MPW061-RF",
+      
+      
+      print: "MPW061-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW061"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW061",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner draws a card."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "big-slick-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW062",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Big Slick",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "MPW062",
+      image: "MPW062",
+      
+      
+      print: "MPW062",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW062",
+      image: "MPW062-RF",
+      
+      
+      print: "MPW062-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW062"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW062",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner draws a card."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -41388,12 +42079,24 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     artists: ["Faizal Fikri"],
     cardIdentifier: "blade-flurry-red",
     classes: [Class.Warrior],
-    defaultImage: "HVY101",
+    defaultImage: "MPW021",
     firstReleaseDate: "2024-02-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Blade Flurry",
     printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "MPW021",
+      image: "MPW021",
+      
+      
+      print: "MPW021",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Faizal Fikri"],
       
       identifier: "HVY101",
@@ -41426,9 +42129,9 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["HVY101"],
-    sets: [Release.HeavyHitters],
-    specialImage: "HVY101",
+    setIdentifiers: ["HVY101","MPW021"],
+    sets: [Release.HeavyHitters,Release.MasteryPackWarrior],
+    specialImage: "MPW021",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -52159,6 +52862,81 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Brian M. Narendra"],
+    cardIdentifier: "blunt-retort",
+    classes: [Class.Warrior],
+    defaultImage: "MPW013",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
+    name: "Blunt Retort",
+    printings: [{
+        artists: ["Brian M. Narendra"],
+      
+      identifier: "MPW013",
+      image: "MPW013",
+      
+      
+      print: "MPW013",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Brian M. Narendra"],
+      foiling: Foiling.Cold,
+      identifier: "MPW013",
+      image: "MPW013-CF",
+      
+      
+      print: "MPW013-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW013"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW013-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When this defends a weapon attack, you may remove a +1{p} counter from the weapon.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
     
     
     
@@ -70455,6 +71233,79 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
   
   
   },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "carve-up-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW079",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Carve Up",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "MPW079",
+      image: "MPW079",
+      
+      
+      print: "MPW079",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW079",
+      image: "MPW079-RF",
+      
+      
+      print: "MPW079-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW079"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW079",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target weapon attack gets "When this hits a hero, you may remove a +1{p} counter from this weapon. If you do, destroy a card in their arsenal."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "cash-in-yellow",
     classes: [Class.Generic],
@@ -74621,6 +75472,231 @@ The next time you would lose a wager this turn, instead you may discard a card. 
   
     
     pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "check-raise-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW099",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Check-Raise",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "MPW099",
+      image: "MPW099",
+      
+      
+      print: "MPW099",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW099",
+      image: "MPW099-RF",
+      
+      
+      print: "MPW099-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW099"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW099",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `The next time an attack you control wagers this turn, it gets +4{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "check-raise-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW100",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Check-Raise",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "MPW100",
+      image: "MPW100",
+      
+      
+      print: "MPW100",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW100",
+      image: "MPW100-RF",
+      
+      
+      print: "MPW100-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW100"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW100",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `The next time an attack you control wagers this turn, it gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "check-raise-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW101",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Check-Raise",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "MPW101",
+      image: "MPW101",
+      
+      
+      print: "MPW101",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW101",
+      image: "MPW101-RF",
+      
+      
+      print: "MPW101-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW101"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW101",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `The next time an attack you control wagers this turn, it gets +2{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
     
     
     shorthands: [Shorthand.Buffs],
@@ -79786,7 +80862,8 @@ At the start of your turn, destroy this.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "clash-of-legs-yellow",
     classes: [Class.Guardian],
@@ -80988,8 +82065,7 @@ Destroy target yellow aura.`,
     talents: [Talent.Light],
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Mateusz Wiśniewski"],
     cardIdentifier: "cleansing-light-blue",
     classes: [Class.NotClassed],
@@ -81823,6 +82899,79 @@ You may destroy a Bloodrot Pox token you control. If you do, gain 1{h}.
     
     
     talents: [Talent.Reviled],
+  
+  
+  },{
+    artists: ["Nadia Suryani"],
+    cardIdentifier: "clip-flexor",
+    classes: [Class.Generic],
+    defaultImage: "MPW138",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Clip Flexor",
+    printings: [{
+        artists: ["Nadia Suryani"],
+      
+      identifier: "MPW138",
+      image: "MPW138",
+      
+      
+      print: "MPW138",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Nadia Suryani"],
+      foiling: Foiling.Cold,
+      identifier: "MPW138",
+      image: "MPW138-CF",
+      
+      
+      print: "MPW138-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW138"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW138-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Defense Reaction** - Destroy this: You may add an attack reaction card from your hand to the active chain link as a defending card.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -98768,6 +99917,83 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
   
   
   },{
+    artists: ["Yiian Kho"],
+    cardIdentifier: "crimson-waltz-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW064",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Crimson Waltz",
+    printings: [{
+        artists: ["Yiian Kho"],
+      
+      identifier: "MPW064",
+      image: "MPW064",
+      
+      
+      print: "MPW064",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW064",
+      image: "MPW064-RF",
+      
+      
+      print: "MPW064-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW064"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW064",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +4{p}.
+
+The next time you attack with a sword this turn, draw a card, then put a card from your hand on top of your deck.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Wisnu Tan"],
     cardIdentifier: "crippling-crush-red",
     classes: [Class.Guardian],
@@ -107163,6 +108389,18 @@ The next defense reaction card the defending hero plays this turn costs an addit
       image: "MPW156-MV_BACK",
       
       
+      print: "MPW156-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Adolfo Navarro","Carlos Cruchaga"],
+      foiling: Foiling.Cold,
+      identifier: "MPW156",
+      image: "MPW156-MV_BACK",
+      
+      
       print: "MPW156-Cold-Alternate Art-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
@@ -107989,12 +109227,36 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     artists: ["Narendra B Adi"],
     cardIdentifier: "deadly-display-red",
     classes: [Class.Warrior],
-    defaultImage: "AHA007",
+    defaultImage: "MPW080",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Deadly Display",
     printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "MPW080",
+      image: "MPW080",
+      
+      
+      print: "MPW080",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW080",
+      image: "MPW080-RF",
+      
+      
+      print: "MPW080-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Narendra B Adi"],
       
       identifier: "AHA007",
@@ -108012,9 +109274,9 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA007"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA007",
+    setIdentifiers: ["AHA007","MPW080"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW080",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -108032,7 +109294,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
@@ -108051,14 +109313,111 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
   
   },{
     artists: ["Narendra B Adi"],
+    cardIdentifier: "deadly-display-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW081",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Deadly Display",
+    printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "MPW081",
+      image: "MPW081",
+      
+      
+      print: "MPW081",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW081",
+      image: "MPW081-RF",
+      
+      
+      print: "MPW081-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW081"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW081",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, the attack gets "When this hits a hero, create a Flurry token."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Narendra B Adi"],
     cardIdentifier: "deadly-display-blue",
     classes: [Class.Warrior],
-    defaultImage: "AHA020",
+    defaultImage: "MPW082",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Deadly Display",
     printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "MPW082",
+      image: "MPW082",
+      
+      
+      print: "MPW082",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Narendra B Adi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW082",
+      image: "MPW082-RF",
+      
+      
+      print: "MPW082-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Narendra B Adi"],
       
       identifier: "AHA020",
@@ -108076,9 +109435,9 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA020"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA020",
+    setIdentifiers: ["AHA020","MPW082"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW082",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -108096,7 +109455,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 3,
@@ -109005,6 +110364,81 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Peyeyo"],
+    cardIdentifier: "dealers-grip",
+    classes: [Class.Warrior],
+    defaultImage: "MPW019",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
+    name: "Dealer's Grip",
+    printings: [{
+        artists: ["Peyeyo"],
+      
+      identifier: "MPW019",
+      image: "MPW019",
+      
+      
+      print: "MPW019",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Peyeyo"],
+      foiling: Foiling.Cold,
+      identifier: "MPW019",
+      image: "MPW019-CF",
+      
+      
+      print: "MPW019-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW019"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW019-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Attack Reaction** - {r}{r}, destroy this: Target attack that has wagered gets +1{p}.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -110846,12 +112280,24 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     artists: ["Olga Krivolapova"],
     cardIdentifier: "deep-blue",
     classes: [Class.Generic],
-    defaultImage: "DRO006",
+    defaultImage: "MPW137",
     firstReleaseDate: "2021-09-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Deep Blue",
     printings: [{
+        artists: ["Olga Krivolapova"],
+      
+      identifier: "MPW137",
+      image: "MPW137",
+      
+      
+      print: "MPW137",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Olga Krivolapova"],
       
       identifier: "DRO006",
@@ -110944,8 +112390,8 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DRO006","ELE234","LXI004"],
-    sets: [Release.DromaiBlitzDeck,Release.LexiBlitzDeck,Release.TalesOfAria],
+    setIdentifiers: ["DRO006","ELE234","LXI004","MPW137"],
+    sets: [Release.DromaiBlitzDeck,Release.LexiBlitzDeck,Release.MasteryPackWarrior,Release.TalesOfAria],
     specialImage: "ELE234",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -114616,6 +116062,79 @@ At the beginning of your end phase, if you have 4 or more cards in hand, create 
   
   
   },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "dice-up-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW083",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Dice Up",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "MPW083",
+      image: "MPW083",
+      
+      
+      print: "MPW083",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW083",
+      image: "MPW083-RF",
+      
+      
+      print: "MPW083-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW083"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW083",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target weapon attack gets "When this hits a hero, you may remove a +1{p} counter from this weapon. If you do, destroy an aura they control."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "diced-red",
     classes: [Class.Warrior],
@@ -116964,6 +118483,225 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
   
   
   },{
+    artists: ["SanSan"],
+    cardIdentifier: "display-of-artistry-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW039",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Display of Artistry",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "MPW039",
+      image: "MPW039",
+      
+      
+      print: "MPW039",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW039",
+      image: "MPW039-RF",
+      
+      
+      print: "MPW039-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW039"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW039",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Target weapon attack gets +3{p}. If the weapon has been sharpened this turn, the attack gets "Reaction cards get -1{d} while defending this."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "display-of-artistry-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW040",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Display of Artistry",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "MPW040",
+      image: "MPW040",
+      
+      
+      print: "MPW040",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW040",
+      image: "MPW040-RF",
+      
+      
+      print: "MPW040-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW040"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW040",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Target weapon attack gets +2{p}. If the weapon has been sharpened this turn, the attack gets "Reaction cards get -1{d} while defending this."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["SanSan"],
+    cardIdentifier: "display-of-artistry-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW041",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Display of Artistry",
+    printings: [{
+        artists: ["SanSan"],
+      
+      identifier: "MPW041",
+      image: "MPW041",
+      
+      
+      print: "MPW041",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW041",
+      image: "MPW041-RF",
+      
+      
+      print: "MPW041-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW041"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW041",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Target weapon attack gets +1{p}. If the weapon has been sharpened this turn, the attack gets "Reaction cards get -1{d} while defending this."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Samuel Perin"],
     cardIdentifier: "display-of-craftsmanship-red",
     classes: [Class.Warrior],
@@ -118837,6 +120575,30 @@ Create a Blasmophet, the Soul Harvester token.`,
     name: "Dorinthea",
     printings: [{
         artists: ["Lius Lasahido"],
+      foiling: Foiling.Cold,
+      identifier: "MPW155",
+      image: "MPW155-MV",
+      
+      
+      print: "MPW155-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Lius Lasahido"],
+      foiling: Foiling.Cold,
+      identifier: "MPW155",
+      image: "MPW155-MV_BACK",
+      
+      
+      print: "MPW155-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Lius Lasahido"],
       
       identifier: "SDO001",
       image: "SDO001",
@@ -118956,11 +120718,11 @@ Create a Blasmophet, the Soul Harvester token.`,
           },
       
     },],
-    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["1HP139","HER008","HER057","SDO001","TEA002","WTR114","XXX001"],
-    sets: [Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
-    specialImage: "WTR114",
+    setIdentifiers: ["1HP139","HER008","HER057","MPW155","SDO001","TEA002","WTR114","XXX001"],
+    sets: [Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.Promos,Release.WelcomeToRathe],
+    specialImage: "MPW155-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Warrior Hero - Young",
@@ -123888,12 +125650,24 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     artists: ["Adolfo Navarro"],
     cardIdentifier: "driving-blade-red",
     classes: [Class.Warrior],
-    defaultImage: "U-WTR144",
+    defaultImage: "MPW102",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Driving Blade",
     printings: [{
+        artists: ["Adolfo Navarro"],
+      
+      identifier: "MPW102",
+      image: "MPW102",
+      
+      
+      print: "MPW102",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Adolfo Navarro"],
       
       identifier: "1HP171",
@@ -123986,8 +125760,8 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP171","TEA012","WTR144"],
-    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP171","MPW102","TEA012","WTR144"],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR144",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -125637,6 +127411,81 @@ If you've attacked with an attack action card this turn, your next weapon attack
   
   
   },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "duelist-gauntlets",
+    classes: [Class.Warrior],
+    defaultImage: "MPW015",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
+    name: "Duelist Gauntlets",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "MPW015",
+      image: "MPW015",
+      
+      
+      print: "MPW015",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Cold,
+      identifier: "MPW015",
+      image: "MPW015-CF",
+      
+      
+      print: "MPW015-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW015"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW015-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Arms",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Attack Reaction** - {r}, destroy this: Target sword attack gets "Reaction cards get -1{d} while defending this."
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "dumpster-dive-red",
     classes: [Class.Mechanologist],
@@ -126234,12 +128083,24 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
     artists: ["Reza Afshar"],
     cardIdentifier: "dusk-path-pilgrimage-red",
     classes: [Class.Warrior],
-    defaultImage: "U-MON110",
+    defaultImage: "MPW065",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Dusk Path Pilgrimage",
     printings: [{
+        artists: ["Reza Afshar"],
+      
+      identifier: "MPW065",
+      image: "MPW065",
+      
+      
+      print: "MPW065",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Reza Afshar"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON110",
@@ -126332,8 +128193,8 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["BOL029","LGS060","MON110"],
-    sets: [Release.BoltynBlitzDeck,Release.Monarch,Release.Promos],
+    setIdentifiers: ["BOL029","LGS060","MON110","MPW065"],
+    sets: [Release.BoltynBlitzDeck,Release.MasteryPackWarrior,Release.Monarch,Release.Promos],
     specialImage: "LGS060-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -126344,7 +128205,7 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +3{p} and "If this hits, you may attack an additional time with this weapon this turn."
+    functionalText: `Your next weapon attack this turn gets +3{p} and "When this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**`,
     
@@ -130596,6 +132457,81 @@ Create an Ursur, the Soul Reaper token.`,
   
   
   },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "edge-laden-plate",
+    classes: [Class.Warrior],
+    defaultImage: "MPW014",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
+    name: "Edge Laden Plate",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "MPW014",
+      image: "MPW014",
+      
+      
+      print: "MPW014",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.Cold,
+      identifier: "MPW014",
+      image: "MPW014-CF",
+      
+      
+      print: "MPW014-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW014"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW014-CF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Instant** - Destroy this: Gain {r}. Activate this only if you've sharpened a sword this turn.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Fajareka Setiawan"],
     cardIdentifier: "edge-of-autumn",
     classes: [Class.Ninja],
@@ -131101,12 +133037,36 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     artists: ["Bastien Jez"],
     cardIdentifier: "edict-of-steel-red",
     classes: [Class.Warrior],
-    defaultImage: "SBL020",
+    defaultImage: "MPW103",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Edict of Steel",
     printings: [{
+        artists: ["Bastien Jez"],
+      
+      identifier: "MPW103",
+      image: "MPW103",
+      
+      
+      print: "MPW103",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW103",
+      image: "MPW103-RF",
+      
+      
+      print: "MPW103-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Bastien Jez"],
       
       identifier: "SBL020",
@@ -131139,9 +133099,9 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA012","SBL020"],
-    sets: [Release.ArmoryDeckOriginsHala,Release.BoltynSilverAgeDeck],
-    specialImage: "SBL020",
+    setIdentifiers: ["AHA012","MPW103","SBL020"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.BoltynSilverAgeDeck,Release.MasteryPackWarrior],
+    specialImage: "MPW103",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -131184,12 +133144,36 @@ If it has 1 or more +1{p} counters, create a Flurry token.
     artists: ["Bastien Jez"],
     cardIdentifier: "edict-of-steel-yellow",
     classes: [Class.Warrior],
-    defaultImage: "AHA017",
+    defaultImage: "MPW104",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Edict of Steel",
     printings: [{
+        artists: ["Bastien Jez"],
+      
+      identifier: "MPW104",
+      image: "MPW104",
+      
+      
+      print: "MPW104",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW104",
+      image: "MPW104-RF",
+      
+      
+      print: "MPW104-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Bastien Jez"],
       
       identifier: "AHA017",
@@ -131207,9 +133191,9 @@ If it has 1 or more +1{p} counters, create a Flurry token.
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA017"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA017",
+    setIdentifiers: ["AHA017","MPW104"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW104",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -131252,12 +133236,36 @@ If it has 2 or more +1{p} counters, create a Flurry token.
     artists: ["Bastien Jez"],
     cardIdentifier: "edict-of-steel-blue",
     classes: [Class.Warrior],
-    defaultImage: "AHA022",
+    defaultImage: "MPW105",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Edict of Steel",
     printings: [{
+        artists: ["Bastien Jez"],
+      
+      identifier: "MPW105",
+      image: "MPW105",
+      
+      
+      print: "MPW105",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW105",
+      image: "MPW105-RF",
+      
+      
+      print: "MPW105-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Bastien Jez"],
       
       identifier: "AHA022",
@@ -131275,9 +133283,9 @@ If it has 2 or more +1{p} counters, create a Flurry token.
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA022"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA022",
+    setIdentifiers: ["AHA022","MPW105"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW105",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -139145,12 +141153,24 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     artists: ["Alexis Susani","Daniel Jiménez"],
     cardIdentifier: "energy-potion-blue",
     classes: [Class.Generic],
-    defaultImage: "SFA035",
+    defaultImage: "MPW146",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Energy Potion",
     printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "MPW146",
+      image: "MPW146",
+      
+      
+      print: "MPW146",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Daniel Jiménez"],
       
       identifier: "SFA035",
@@ -139348,8 +141368,8 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP381","ASR027","FAB012","FAB223","KSU029","SDO030","SFA035","TCC071","TEA028","WTR170"],
-    sets: [Release.ArmoryDeckIra,Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.FaiSilverAgeDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP381","ASR027","FAB012","FAB223","KSU029","MPW146","SDO030","SFA035","TCC071","TEA028","WTR170"],
+    sets: [Release.ArmoryDeckIra,Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.FaiSilverAgeDeck,Release.HistoryPack1,Release.KatsuHeroDeck,Release.MasteryPackWarrior,Release.Promos,Release.RoundTheTable,Release.WelcomeToRathe],
     specialImage: "FAB223-CF",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -139477,6 +141497,231 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     
     
     talents: [Talent.Draconic],
+  
+  
+  },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "engage-steel-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW106",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Engage Steel",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "MPW106",
+      image: "MPW106",
+      
+      
+      print: "MPW106",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW106",
+      image: "MPW106-RF",
+      
+      
+      print: "MPW106-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW106"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW106",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "If this is defended by a Warrior card, this gets +1{p}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "engage-steel-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW107",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Engage Steel",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "MPW107",
+      image: "MPW107",
+      
+      
+      print: "MPW107",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW107",
+      image: "MPW107-RF",
+      
+      
+      print: "MPW107-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW107"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW107",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "If this is defended by a Warrior card, this gets +1{p}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Stormy Elia Fanggidae"],
+    cardIdentifier: "engage-steel-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW108",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Engage Steel",
+    printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "MPW108",
+      image: "MPW108",
+      
+      
+      print: "MPW108",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Stormy Elia Fanggidae"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW108",
+      image: "MPW108-RF",
+      
+      
+      print: "MPW108-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW108"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW108",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "If this is defended by a Warrior card, this gets +1{p}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -157341,7 +159586,8 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
     talents: [Talent.Revered],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Raphael Pinna"],
     cardIdentifier: "fight-from-behind-red",
     classes: [Class.NotClassed],
@@ -159685,8 +161931,7 @@ You may {u} a bow you control.
     talents: [Talent.Mystic],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "first-tenet-of-chi-tide-blue",
     classes: [Class.NotClassed],
@@ -167362,6 +169607,30 @@ When this hits, create a Lightning Flow token.`,
     name: "Flurry",
     printings: [{
         artists: ["Faizal Fikri"],
+      foiling: Foiling.Cold,
+      identifier: "MPW135",
+      image: "MPW135-MV",
+      
+      
+      print: "MPW135-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Cold,
+      identifier: "MPW135",
+      image: "MPW135-MV_BACK",
+      
+      
+      print: "MPW135-Cold-Full Art-Back",
+      rarity: Rarity.Marvel,
+      set: Release.MasteryPackWarrior,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Faizal Fikri"],
       
       identifier: "SBL036",
       image: "SBL036",
@@ -167391,11 +169660,11 @@ When this hits, create a Lightning Flow token.`,
           },
       
     },],
-    rarities: [Rarity.Basic],
+    rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AHA027","SBL036"],
-    sets: [Release.ArmoryDeckOriginsHala,Release.BoltynSilverAgeDeck],
-    specialImage: "SBL036",
+    setIdentifiers: ["AHA027","MPW135","SBL036"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.BoltynSilverAgeDeck,Release.MasteryPackWarrior],
+    specialImage: "MPW135-MV",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Warrior Token - Aura",
@@ -181299,12 +183568,36 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     artists: ["Vincent Taslim"],
     cardIdentifier: "gleam-of-the-blade-red",
     classes: [Class.Warrior],
-    defaultImage: "AHA008",
+    defaultImage: "MPW045",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Gleam of the Blade",
     printings: [{
+        artists: ["Vincent Taslim"],
+      
+      identifier: "MPW045",
+      image: "MPW045",
+      
+      
+      print: "MPW045",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Vincent Taslim"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW045",
+      image: "MPW045-RF",
+      
+      
+      print: "MPW045-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Vincent Taslim"],
       
       identifier: "AHA008",
@@ -181322,9 +183615,9 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AHA008"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA008",
+    setIdentifiers: ["AHA008","MPW045"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW045",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -181698,12 +183991,24 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     artists: ["Alexander Mokhov"],
     cardIdentifier: "glint-the-quicksilver-blue",
     classes: [Class.Warrior],
-    defaultImage: "U-WTR118",
+    defaultImage: "MPW022",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Glint the Quicksilver",
     printings: [{
+        artists: ["Alexander Mokhov"],
+      
+      identifier: "MPW022",
+      image: "MPW022",
+      
+      
+      print: "MPW022",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Alexander Mokhov"],
       
       identifier: "1HP147",
@@ -181781,8 +184086,8 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP147","WTR118"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP147","MPW022","WTR118"],
+    sets: [Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR118",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -181793,7 +184098,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Target weapon attack gains **go again**.
+    functionalText: `Target weapon attack gets **go again**.
 
 **Reprise** - If the defending hero has defended with a card from their hand this chain link, draw a card.`,
     
@@ -183279,12 +185584,24 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     artists: ["Nikolay Moskvin","Stormy Elia Fanggidae"],
     cardIdentifier: "gold",
     classes: [Class.Generic],
-    defaultImage: "SGB035",
+    defaultImage: "MPW154",
     firstReleaseDate: "2022-11-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Gold",
     printings: [{
+        artists: ["Stormy Elia Fanggidae"],
+      
+      identifier: "MPW154",
+      image: "MPW154",
+      
+      
+      print: "MPW154",
+      rarity: Rarity.Basic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: [],
       
       identifier: "SGB035",
@@ -183545,8 +185862,8 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB031","BET030","DYN243","FAB121","FAB279","FAB346","HVY243","KSI030","LGS229","OLA030","SEA244","SEN036","SGB035","SMP033","VIC030"],
-    sets: [Release.ArmoryDeckGravyBones,Release.BetsyBlitzDeck,Release.Dynasty,Release.EnigmaSilverAgeDeck,Release.GravyBonesSilverAgeDeck,Release.HeavyHitters,Release.HighSeas,Release.KassaiBlitzDeck,Release.OlympiaBlitzDeck,Release.Promos,Release.SmashPalace,Release.VictorBlitzDeck],
+    setIdentifiers: ["AGB031","BET030","DYN243","FAB121","FAB279","FAB346","HVY243","KSI030","LGS229","MPW154","OLA030","SEA244","SEN036","SGB035","SMP033","VIC030"],
+    sets: [Release.ArmoryDeckGravyBones,Release.BetsyBlitzDeck,Release.Dynasty,Release.EnigmaSilverAgeDeck,Release.GravyBonesSilverAgeDeck,Release.HeavyHitters,Release.HighSeas,Release.KassaiBlitzDeck,Release.MasteryPackWarrior,Release.OlympiaBlitzDeck,Release.Promos,Release.SmashPalace,Release.VictorBlitzDeck],
     specialImage: "SEA244-TP",
     subtypes: [Subtype.Item],
     types: [Type.Token],
@@ -191096,6 +193413,231 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
   
   
   },{
+    artists: ["Reza Aswadananta"],
+    cardIdentifier: "gutshot-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW109",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Gutshot",
+    printings: [{
+        artists: ["Reza Aswadananta"],
+      
+      identifier: "MPW109",
+      image: "MPW109",
+      
+      
+      print: "MPW109",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW109",
+      image: "MPW109-RF",
+      
+      
+      print: "MPW109-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW109"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW109",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Reza Aswadananta"],
+    cardIdentifier: "gutshot-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW110",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Gutshot",
+    printings: [{
+        artists: ["Reza Aswadananta"],
+      
+      identifier: "MPW110",
+      image: "MPW110",
+      
+      
+      print: "MPW110",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW110",
+      image: "MPW110-RF",
+      
+      
+      print: "MPW110-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW110"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW110",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Reza Aswadananta"],
+    cardIdentifier: "gutshot-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW111",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Gutshot",
+    printings: [{
+        artists: ["Reza Aswadananta"],
+      
+      identifier: "MPW111",
+      image: "MPW111",
+      
+      
+      print: "MPW111",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW111",
+      image: "MPW111-RF",
+      
+      
+      print: "MPW111-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW111"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW111",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Asur Misoa"],
     cardIdentifier: "haboob-red",
     classes: [Class.Illusionist],
@@ -196824,6 +199366,81 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
   
   
   },{
+    artists: ["Christ Adiel Then"],
+    cardIdentifier: "heart-of-bladehold",
+    classes: [Class.Warrior],
+    defaultImage: "MPW018",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
+    name: "Heart of Bladehold",
+    printings: [{
+        artists: ["Christ Adiel Then"],
+      
+      identifier: "MPW018",
+      image: "MPW018",
+      
+      
+      print: "MPW018",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Christ Adiel Then"],
+      foiling: Foiling.Cold,
+      identifier: "MPW018",
+      image: "MPW018-CF",
+      
+      
+      print: "MPW018-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW018"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW018-CF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Chest",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Action** - Destroy this: You may activate your second sword attack this turn without paying its {r} cost. **Go again**
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Adolfo Navarro","Nathaniel Himawan"],
     cardIdentifier: "heart-of-fyendal-blue",
     classes: [Class.Generic],
@@ -199452,6 +202069,79 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
     power: 1,
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Alif Zahrah"],
+    cardIdentifier: "heavy-swing-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW133",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Heavy Swing",
+    printings: [{
+        artists: ["Alif Zahrah"],
+      
+      identifier: "MPW133",
+      image: "MPW133",
+      
+      
+      print: "MPW133",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Alif Zahrah"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW133",
+      image: "MPW133-RF",
+      
+      
+      print: "MPW133-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW133"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW133",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `At the start of your turn, destroy this and your next sword attack this turn gets +3{p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -206934,12 +209624,24 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hit-and-run-red",
     classes: [Class.Warrior],
-    defaultImage: "U-CRU091",
+    defaultImage: "MPW112",
     firstReleaseDate: "2020-08-28",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Hit and Run",
     printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "MPW112",
+      image: "MPW112",
+      
+      
+      print: "MPW112",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Jessada Sutthi"],
       
       identifier: "1HP174",
@@ -207017,8 +209719,8 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP174","CRU091"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
+    setIdentifiers: ["1HP174","CRU091","MPW112"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.MasteryPackWarrior],
     specialImage: "CRU091",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -207062,12 +209764,24 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hit-and-run-yellow",
     classes: [Class.Warrior],
-    defaultImage: "U-CRU092",
+    defaultImage: "MPW113",
     firstReleaseDate: "2020-08-28",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Hit and Run",
     printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "MPW113",
+      image: "MPW113",
+      
+      
+      print: "MPW113",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Jessada Sutthi"],
       
       identifier: "1HP175",
@@ -207145,8 +209859,8 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP175","CRU092"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
+    setIdentifiers: ["1HP175","CRU092","MPW113"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.MasteryPackWarrior],
     specialImage: "CRU092",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -207190,12 +209904,24 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     artists: ["Jessada Sutthi"],
     cardIdentifier: "hit-and-run-blue",
     classes: [Class.Warrior],
-    defaultImage: "SDO032",
+    defaultImage: "MPW114",
     firstReleaseDate: "2020-08-28",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Hit and Run",
     printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "MPW114",
+      image: "MPW114",
+      
+      
+      print: "MPW114",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Jessada Sutthi"],
       
       identifier: "SDO032",
@@ -207303,8 +210029,8 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP176","CRU093","DVR021","SDO032"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaSilverAgeDeck,Release.HistoryPack1],
+    setIdentifiers: ["1HP176","CRU093","DVR021","MPW114","SDO032"],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.CrucibleOfWar,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackWarrior],
     specialImage: "CRU093",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -210023,12 +212749,24 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
     artists: ["Anna Tanygina"],
     cardIdentifier: "hope-merchants-hood",
     classes: [Class.Generic],
-    defaultImage: "SFA004",
+    defaultImage: "MPW136",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Hope Merchant's Hood",
     printings: [{
+        artists: ["Anna Tanygina"],
+      
+      identifier: "MPW136",
+      image: "MPW136",
+      
+      
+      print: "MPW136",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Anna Tanygina"],
       
       identifier: "SFA004",
@@ -210196,8 +212934,8 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP350","FAI003","LSS012","MPG118","SDA005","SFA004","TEA004","WTR151"],
-    sets: [Release.DashSilverAgeDeck,Release.DorintheaHeroDeck,Release.FaiBlitzDeck,Release.FaiSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackGuardian,Release.Promos,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP350","FAI003","LSS012","MPG118","MPW136","SDA005","SFA004","TEA004","WTR151"],
+    sets: [Release.DashSilverAgeDeck,Release.DorintheaHeroDeck,Release.FaiBlitzDeck,Release.FaiSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackGuardian,Release.MasteryPackWarrior,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR151",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -210780,6 +213518,81 @@ When this is defended by 1 or more attack action cards, Hot Streak's attacks get
     
     
     power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Muhammad Fajri"],
+    cardIdentifier: "hot-top",
+    classes: [Class.Warrior],
+    defaultImage: "MPW017",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
+    name: "Hot Top",
+    printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "MPW017",
+      image: "MPW017",
+      
+      
+      print: "MPW017",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Cold,
+      identifier: "MPW017",
+      image: "MPW017-CF",
+      
+      
+      print: "MPW017-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW017"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW017-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Head",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `When this defends a weapon attack, you may put an attack reaction card from your graveyard on top of your deck.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
     
     
     
@@ -228932,12 +231745,24 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "ironsong-response-red",
     classes: [Class.Warrior],
-    defaultImage: "SDO013",
+    defaultImage: "MPW085",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Ironsong Response",
     printings: [{
+        artists: ["Anastasiya Grintsova"],
+      
+      identifier: "MPW085",
+      image: "MPW085",
+      
+      
+      print: "MPW085",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Anastasiya Grintsova"],
       
       identifier: "SDO013",
@@ -229075,8 +231900,8 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP162","DVR016","LGS008","LGS029","SDO013","WTR132"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.Promos,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP162","DVR016","LGS008","LGS029","MPW085","SDO013","WTR132"],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.Promos,Release.WelcomeToRathe],
     specialImage: "LGS008",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -229087,7 +231912,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     cost: 0,
     defense: 3,
     
-    functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +3{p}.`,
+    functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gets +3{p}.`,
     
     
     
@@ -231378,6 +234203,79 @@ If you've been cheered this turn, this gets **go again**.`,
     
     pitch: 3,
     power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "jive-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW115",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Jive",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "MPW115",
+      image: "MPW115",
+      
+      
+      print: "MPW115",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW115",
+      image: "MPW115-RF",
+      
+      
+      print: "MPW115-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW115"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW115",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Create a Blade Dance token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
     
     
     
@@ -238133,7 +241031,8 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lay-to-rest-red",
     classes: [Class.NotClassed],
@@ -241394,8 +244293,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "lesson-in-lava-yellow",
     classes: [Class.Wizard],
@@ -241520,6 +244418,79 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     
     
     specializations: [Hero.Kano],
+    
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "lessons-learned-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW036",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Lessons Learned",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "MPW036",
+      image: "MPW036",
+      
+      
+      print: "MPW036",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW036",
+      image: "MPW036-RF",
+      
+      
+      print: "MPW036-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW036"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW036",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Warrior Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `Shuffle up to 3 attack reaction cards with different names from your graveyard into your deck.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
   
   
@@ -248014,6 +250985,81 @@ If you have **boosted** this turn, **opt 1**.
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nikko Wahyudi"],
+    cardIdentifier: "longsword-leggings",
+    classes: [Class.Warrior],
+    defaultImage: "MPW016",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
+    name: "Longsword Leggings",
+    printings: [{
+        artists: ["Nikko Wahyudi"],
+      
+      identifier: "MPW016",
+      image: "MPW016",
+      
+      
+      print: "MPW016",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.Cold,
+      identifier: "MPW016",
+      image: "MPW016-CF",
+      
+      
+      print: "MPW016-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW016"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW016-CF",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Warrior Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `**Action** - Destroy this: Create a Blade Dance or Flurry token.
+
+**Battleworn**`,
+    
+    
+    
+    
+    keywords: [Keyword.Battleworn],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
     
     
     
@@ -265372,12 +268418,24 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     artists: ["Athiwut B."],
     cardIdentifier: "money-where-ya-mouth-is-red",
     classes: [Class.Generic],
-    defaultImage: "HVY235",
+    defaultImage: "MPW150",
     firstReleaseDate: "2024-02-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Money Where Ya Mouth Is",
     printings: [{
+        artists: ["Athiwut B."],
+      
+      identifier: "MPW150",
+      image: "MPW150",
+      
+      
+      print: "MPW150",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Athiwut B."],
       
       identifier: "HVY235",
@@ -265425,8 +268483,8 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["BET017","HVY235"],
-    sets: [Release.BetsyBlitzDeck,Release.HeavyHitters],
+    setIdentifiers: ["BET017","HVY235","MPW150"],
+    sets: [Release.BetsyBlitzDeck,Release.HeavyHitters,Release.MasteryPackWarrior],
     specialImage: "BET017",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -268989,12 +272047,24 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     artists: ["Reza Afshar"],
     cardIdentifier: "natures-path-pilgrimage-red",
     classes: [Class.Warrior],
-    defaultImage: "U-WTR147",
+    defaultImage: "MPW116",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Nature's Path Pilgrimage",
     printings: [{
+        artists: ["Reza Afshar"],
+      
+      identifier: "MPW116",
+      image: "MPW116",
+      
+      
+      print: "MPW116",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Reza Afshar"],
       
       identifier: "1HP177",
@@ -269087,8 +272157,8 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP177","TEA013","WTR147"],
-    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP177","MPW116","TEA013","WTR147"],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR147",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -271961,12 +275031,24 @@ When this is destroyed, destroy all cards in your arsenal.
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "nip-at-the-heels-blue",
     classes: [Class.Generic],
-    defaultImage: "SFA034",
+    defaultImage: "MPW148",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Nip at the Heels",
     printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "MPW148",
+      image: "MPW148",
+      
+      
+      print: "MPW148",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Carlos Cruchaga"],
       
       identifier: "SFA034",
@@ -272044,8 +275126,8 @@ When this is destroyed, destroy all cards in your arsenal.
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB326","HNT239","SDO026","SFA034"],
-    sets: [Release.DorintheaSilverAgeDeck,Release.FaiSilverAgeDeck,Release.Promos,Release.TheHunted],
+    setIdentifiers: ["FAB326","HNT239","MPW148","SDO026","SFA034"],
+    sets: [Release.DorintheaSilverAgeDeck,Release.FaiSilverAgeDeck,Release.MasteryPackWarrior,Release.Promos,Release.TheHunted],
     specialImage: "FAB326-RF",
     subtypes: [],
     types: [Type.AttackReaction],
@@ -276945,6 +280027,81 @@ Illusionist attack action cards you control get **go again**.
   
   
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "off-beat-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW066",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Off Beat",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "MPW066",
+      image: "MPW066",
+      
+      
+      print: "MPW066",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW066",
+      image: "MPW066-RF",
+      
+      
+      print: "MPW066-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW066"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW066",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Destroy up to 1 Blade Dance and/or Flurry token. **Sharpen** target sword you control for each token destroyed this way.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["寿多浩 (Hiro Suda)"],
     cardIdentifier: "off-cuts-blue",
     classes: [Class.Necromancer],
@@ -277432,6 +280589,306 @@ When this hits a hero, create a Toughness and a Vigor token.`,
   
   
   },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "olde-leather-boots",
+    classes: [Class.Generic],
+    defaultImage: "MPW143",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Olde Leather Boots",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "MPW143",
+      image: "MPW143",
+      
+      
+      print: "MPW143",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Cold,
+      identifier: "MPW143",
+      image: "MPW143-CF",
+      
+      
+      print: "MPW143-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW143"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW143-CF",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `If you've been attacked 2 or more times this turn, this gets +2{d}.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "olde-leather-gloves",
+    classes: [Class.Generic],
+    defaultImage: "MPW142",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Olde Leather Gloves",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "MPW142",
+      image: "MPW142",
+      
+      
+      print: "MPW142",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Cold,
+      identifier: "MPW142",
+      image: "MPW142-CF",
+      
+      
+      print: "MPW142-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW142"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW142-CF",
+    subtypes: [Subtype.Arms],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Arms",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `If you've been attacked 2 or more times this turn, this gets +2{d}.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "olde-leather-helm",
+    classes: [Class.Generic],
+    defaultImage: "MPW140",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Olde Leather Helm",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "MPW140",
+      image: "MPW140",
+      
+      
+      print: "MPW140",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Cold,
+      identifier: "MPW140",
+      image: "MPW140-CF",
+      
+      
+      print: "MPW140-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW140"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW140-CF",
+    subtypes: [Subtype.Head],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Head",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `If you've been attacked 2 or more times this turn, this gets +2{d}.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "olde-leather-plate",
+    classes: [Class.Generic],
+    defaultImage: "MPW141",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Olde Leather Plate",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "MPW141",
+      image: "MPW141",
+      
+      
+      print: "MPW141",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Cold,
+      identifier: "MPW141",
+      image: "MPW141-CF",
+      
+      
+      print: "MPW141-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW141"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW141-CF",
+    subtypes: [Subtype.Chest],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Chest",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `If you've been attacked 2 or more times this turn, this gets +2{d}.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "oldhim",
     classes: [Class.Guardian],
@@ -277699,12 +281156,36 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     artists: ["Muhammad Fajri"],
     cardIdentifier: "ole-blue",
     classes: [Class.Warrior],
-    defaultImage: "AHA021",
+    defaultImage: "MPW046",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Olé",
     printings: [{
+        artists: ["Muhammad Fajri"],
+      
+      identifier: "MPW046",
+      image: "MPW046",
+      
+      
+      print: "MPW046",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Muhammad Fajri"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW046",
+      image: "MPW046-RF",
+      
+      
+      print: "MPW046-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Muhammad Fajri"],
       
       identifier: "AHA021",
@@ -277722,9 +281203,9 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AHA021"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA021",
+    setIdentifiers: ["AHA021","MPW046"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW046",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -283710,6 +287191,81 @@ When this hits, put it on the bottom of its owner's deck.`,
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "overbear-red",
+    classes: [Class.Generic],
+    defaultImage: "MPW151",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Overbear",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "MPW151",
+      image: "MPW151",
+      
+      
+      print: "MPW151",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW151",
+      image: "MPW151-RF",
+      
+      
+      print: "MPW151-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW151"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW151",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `Your next weapon attack this turn gets **dominate**.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.Dominate,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "overbearing-presence",
     classes: [Class.Brute],
@@ -286013,6 +289569,18 @@ If Overload hits, it gains **go again**.`,
       set: Release.MasteryPackWarrior,
       
       
+    },{
+        artists: ["Yosi Saputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW024",
+      image: "MPW024-RF",
+      
+      
+      print: "MPW024-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -287910,12 +291478,24 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     artists: ["Amtepra"],
     cardIdentifier: "paragon-plate",
     classes: [Class.Warrior],
-    defaultImage: "AHA004-RF",
+    defaultImage: "MPW009-CF",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
     name: "Paragon Plate",
     printings: [{
+        artists: ["Amtepra"],
+      foiling: Foiling.Cold,
+      identifier: "MPW009",
+      image: "MPW009-CF",
+      
+      
+      print: "MPW009-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Amtepra"],
       foiling: Foiling.Rainbow,
       identifier: "AHA004",
@@ -287933,9 +291513,9 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     },],
     rarities: [Rarity.Legendary],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["AHA004"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA004-RF",
+    setIdentifiers: ["AHA004","MPW009"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW009-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Warrior Equipment - Chest",
@@ -290023,6 +293603,81 @@ Create a Ponder token.`,
   
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Nailsen Ivanderlie"],
+    cardIdentifier: "peaceful-sanctuary-red",
+    classes: [Class.Generic],
+    defaultImage: "MPW144",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Peaceful Sanctuary",
+    printings: [{
+        artists: ["Nailsen Ivanderlie"],
+      
+      identifier: "MPW144",
+      image: "MPW144",
+      
+      
+      print: "MPW144",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW144",
+      image: "MPW144-RF",
+      
+      
+      print: "MPW144-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW144"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW144",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Generic Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Heroes can't create aura tokens.
+
+At the start of your action phase, destroy this.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
     
     
     
@@ -314193,12 +317848,24 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     artists: ["Camille Alquier"],
     cardIdentifier: "push-forward-red",
     classes: [Class.Warrior],
-    defaultImage: "BOL030",
+    defaultImage: "MPW117",
     firstReleaseDate: "2020-08-28",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Push Forward",
     printings: [{
+        artists: ["Camille Alquier"],
+      
+      identifier: "MPW117",
+      image: "MPW117",
+      
+      
+      print: "MPW117",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Camille Alquier"],
       
       identifier: "BOL030",
@@ -314276,8 +317943,8 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["BOL030","CRU094"],
-    sets: [Release.BoltynBlitzDeck,Release.CrucibleOfWar],
+    setIdentifiers: ["BOL030","CRU094","MPW117"],
+    sets: [Release.BoltynBlitzDeck,Release.CrucibleOfWar,Release.MasteryPackWarrior],
     specialImage: "CRU094-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -314970,12 +318637,24 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     artists: ["Maerel Hibadita"],
     cardIdentifier: "put-in-context-blue",
     classes: [Class.Generic],
-    defaultImage: "SEN029",
+    defaultImage: "MPW149",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Put in Context",
     printings: [{
+        artists: ["Maerel Hibadita"],
+      
+      identifier: "MPW149",
+      image: "MPW149",
+      
+      
+      print: "MPW149",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Maerel Hibadita"],
       
       identifier: "SEN029",
@@ -315068,8 +318747,8 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["CIN027","FAB325","HNT238","SDO029","SEN029"],
-    sets: [Release.CindraBlitzDeck,Release.DorintheaSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.Promos,Release.TheHunted],
+    setIdentifiers: ["CIN027","FAB325","HNT238","MPW149","SDO029","SEN029"],
+    sets: [Release.CindraBlitzDeck,Release.DorintheaSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.MasteryPackWarrior,Release.Promos,Release.TheHunted],
     specialImage: "FAB325-RF",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -317932,6 +321611,79 @@ If another weapon you control has gained **go again** this turn, this card's att
   
   
   },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "quicksilver-dance-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW047",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Quicksilver Dance",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "MPW047",
+      image: "MPW047",
+      
+      
+      print: "MPW047",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW047",
+      image: "MPW047-RF",
+      
+      
+      print: "MPW047-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW047"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW047",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Remove a +1{p} counter from target attacking weapon. If you do, create a Blade Dance token and draw a card.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "quickstep",
     classes: [Class.Bard],
@@ -318437,7 +322189,8 @@ When there are no cards in your hero's soul, destroy this.`,
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Eilene Cherie"],
     cardIdentifier: "radiant-touch",
     classes: [Class.NotClassed],
@@ -322981,8 +326734,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Ausonia"],
     cardIdentifier: "raw-meat",
     classes: [Class.Brute],
@@ -329685,12 +333437,24 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
     artists: ["Anna Tanygina"],
     cardIdentifier: "refraction-bolters",
     classes: [Class.Warrior],
-    defaultImage: "SDO009",
+    defaultImage: "MPW020",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Taylor,Hero.Zane],
     name: "Refraction Bolters",
     printings: [{
+        artists: ["Anna Tanygina"],
+      
+      identifier: "MPW020",
+      image: "MPW020",
+      
+      
+      print: "MPW020",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Anna Tanygina"],
       
       identifier: "SDO009",
@@ -329798,8 +333562,8 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP145","SDO009","TEA007","WTR117"],
-    sets: [Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP145","MPW020","SDO009","TEA007","WTR117"],
+    sets: [Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR117",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -329810,7 +333574,7 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
     
     defense: 1,
     
-    functionalText: `When a weapon you control hits, you may destroy Refraction Bolters. If you do, the attack gains **go again**.
+    functionalText: `When a weapon attack you control hits, you may destroy this. If you do, the attack gets **go again**.
 
 **Battleworn**`,
     
@@ -332976,6 +336740,81 @@ If you've **charged** this turn, create a Courage token.`,
     
     
     talents: [Talent.Light],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "rest-before-battle-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW067",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Rest Before Battle",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "MPW067",
+      image: "MPW067",
+      
+      
+      print: "MPW067",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW067",
+      image: "MPW067-RF",
+      
+      
+      print: "MPW067-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW067"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW067",
+    subtypes: [Subtype.Aura,Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action - Aura",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Play this only if you've attacked with a weapon this turn.
+
+At the start of your turn, destroy this and draw a card.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
   
   
   },{
@@ -363775,12 +367614,24 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     artists: ["Inkognit"],
     cardIdentifier: "second-swing-red",
     classes: [Class.Warrior],
-    defaultImage: "DVR010",
+    defaultImage: "MPW118",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Second Swing",
     printings: [{
+        artists: ["Inkognit"],
+      
+      identifier: "MPW118",
+      image: "MPW118",
+      
+      
+      print: "MPW118",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Inkognit"],
       
       identifier: "DVR010",
@@ -363858,8 +367709,8 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DVR010","MON116"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.Monarch],
+    setIdentifiers: ["DVR010","MON116","MPW118"],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.MasteryPackWarrior,Release.Monarch],
     specialImage: "MON116",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -371158,15 +375009,270 @@ If you've played or activated an attack reaction this chain link, Shake Down has
   
   
   },{
+    artists: ["Firaz M. Rasyid"],
+    cardIdentifier: "sharp-n-shine-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW123",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Sharp 'n Shine",
+    printings: [{
+        artists: ["Firaz M. Rasyid"],
+      
+      identifier: "MPW123",
+      image: "MPW123",
+      
+      
+      print: "MPW123",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Firaz M. Rasyid"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW123",
+      image: "MPW123-RF",
+      
+      
+      print: "MPW123-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW123"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW123",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Sharpen** target sword you control.
+
+If it has 1 or more +1{p} counters, create a Blade Dance token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Firaz M. Rasyid"],
+    cardIdentifier: "sharp-n-shine-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW124",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Sharp 'n Shine",
+    printings: [{
+        artists: ["Firaz M. Rasyid"],
+      
+      identifier: "MPW124",
+      image: "MPW124",
+      
+      
+      print: "MPW124",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Firaz M. Rasyid"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW124",
+      image: "MPW124-RF",
+      
+      
+      print: "MPW124-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW124"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW124",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Sharpen** target sword you control.
+
+If it has 2 or more +1{p} counters, create a Blade Dance token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Firaz M. Rasyid"],
+    cardIdentifier: "sharp-n-shine-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW125",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Sharp 'n Shine",
+    printings: [{
+        artists: ["Firaz M. Rasyid"],
+      
+      identifier: "MPW125",
+      image: "MPW125",
+      
+      
+      print: "MPW125",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Firaz M. Rasyid"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW125",
+      image: "MPW125-RF",
+      
+      
+      print: "MPW125-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW125"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW125",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Sharpen** target sword you control.
+
+If it has 3 or more +1{p} counters, create a Blade Dance token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Tommy Suhartono"],
     cardIdentifier: "sharp-incline-red",
     classes: [Class.Warrior],
-    defaultImage: "AHA013",
+    defaultImage: "MPW119",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Sharp Incline",
     printings: [{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "MPW119",
+      image: "MPW119",
+      
+      
+      print: "MPW119",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW119",
+      image: "MPW119-RF",
+      
+      
+      print: "MPW119-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Tommy Suhartono"],
       
       identifier: "AHA013",
@@ -371184,9 +375290,9 @@ If you've played or activated an attack reaction this chain link, Shake Down has
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA013"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA013",
+    setIdentifiers: ["AHA013","MPW119"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW119",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -371208,7 +375314,7 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
@@ -371229,12 +375335,36 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     artists: ["Tommy Suhartono"],
     cardIdentifier: "sharp-incline-yellow",
     classes: [Class.Warrior],
-    defaultImage: "AHA018",
+    defaultImage: "MPW120",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Sharp Incline",
     printings: [{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "MPW120",
+      image: "MPW120",
+      
+      
+      print: "MPW120",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW120",
+      image: "MPW120-RF",
+      
+      
+      print: "MPW120-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Tommy Suhartono"],
       
       identifier: "AHA018",
@@ -371252,9 +375382,9 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA018"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA018",
+    setIdentifiers: ["AHA018","MPW120"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW120",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -371276,10 +375406,87 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "sharp-incline-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW121",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Sharp Incline",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "MPW121",
+      image: "MPW121",
+      
+      
+      print: "MPW121",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW121",
+      image: "MPW121-RF",
+      
+      
+      print: "MPW121-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW121"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW121",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `**Sharpen** target sword you control.
+
+If it has 1 or more +1{p} counters, your next attack with it this turn costs {r} less to activate.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
     
     
     
@@ -371378,12 +375585,24 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "sharpen-steel-red",
     classes: [Class.Warrior],
-    defaultImage: "SDO019",
+    defaultImage: "MPW122",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Sharpen Steel",
     printings: [{
+        artists: ["Anastasiya Grintsova"],
+      
+      identifier: "MPW122",
+      image: "MPW122",
+      
+      
+      print: "MPW122",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Anastasiya Grintsova"],
       
       identifier: "SDO019",
@@ -371491,8 +375710,8 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["DVR012","SDO019","TEA014","WTR141"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.WelcomeToRathe],
+    setIdentifiers: ["DVR012","MPW122","SDO019","TEA014","WTR141"],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR141",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -372001,6 +376220,81 @@ At the beginning of your end phase, destroy this.`,
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Jefrey Yonathan"],
+    cardIdentifier: "shatter-the-weakpoint-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW068",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Shatter the Weakpoint",
+    printings: [{
+        artists: ["Jefrey Yonathan"],
+      
+      identifier: "MPW068",
+      image: "MPW068",
+      
+      
+      print: "MPW068",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW068",
+      image: "MPW068-RF",
+      
+      
+      print: "MPW068-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW068"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW068",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +4{p} and "When this hits a Warrior hero, destroy an equipment they control with 0{d}."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -376085,6 +380379,231 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
   
   
   },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "showdown-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW126",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Showdown",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "MPW126",
+      image: "MPW126",
+      
+      
+      print: "MPW126",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW126",
+      image: "MPW126-RF",
+      
+      
+      print: "MPW126-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW126"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW126",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "showdown-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW127",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Showdown",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "MPW127",
+      image: "MPW127",
+      
+      
+      print: "MPW127",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW127",
+      image: "MPW127-RF",
+      
+      
+      print: "MPW127-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW127"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW127",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["M Fakhrur Rozzi"],
+    cardIdentifier: "showdown-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW128",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Showdown",
+    printings: [{
+        artists: ["M Fakhrur Rozzi"],
+      
+      identifier: "MPW128",
+      image: "MPW128",
+      
+      
+      print: "MPW128",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["M Fakhrur Rozzi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW128",
+      image: "MPW128-RF",
+      
+      
+      print: "MPW128-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW128"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW128",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "shred-red",
     classes: [Class.Assassin],
@@ -376972,12 +381491,36 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     artists: ["Jessada Sutthi"],
     cardIdentifier: "shuck-blue",
     classes: [Class.Warrior],
-    defaultImage: "AHA024",
+    defaultImage: "MPW129",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Shuck",
     printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "MPW129",
+      image: "MPW129",
+      
+      
+      print: "MPW129",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW129",
+      image: "MPW129-RF",
+      
+      
+      print: "MPW129-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Jessada Sutthi"],
       
       identifier: "AHA024",
@@ -376995,9 +381538,9 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA024"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA024",
+    setIdentifiers: ["AHA024","MPW129"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW129",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -382885,12 +387428,36 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     artists: ["Tomi Ong"],
     cardIdentifier: "silverdrop-downpour-red",
     classes: [Class.Warrior],
-    defaultImage: "AHA010",
+    defaultImage: "MPW086",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Silverdrop Downpour",
     printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "MPW086",
+      image: "MPW086",
+      
+      
+      print: "MPW086",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW086",
+      image: "MPW086-RF",
+      
+      
+      print: "MPW086-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Tomi Ong"],
       
       identifier: "AHA010",
@@ -382908,9 +387475,9 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA010"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA010",
+    setIdentifiers: ["AHA010","MPW086"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW086",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -382930,10 +387497,160 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomi Ong"],
+    cardIdentifier: "silverdrop-downpour-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW087",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Silverdrop Downpour",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "MPW087",
+      image: "MPW087",
+      
+      
+      print: "MPW087",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW087",
+      image: "MPW087-RF",
+      
+      
+      print: "MPW087-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW087"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW087",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target weapon attack gets +3{p}.
+
+If the weapon has been sharpened this turn, this costs {r} less to play.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Tomi Ong"],
+    cardIdentifier: "silverdrop-downpour-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW088",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Silverdrop Downpour",
+    printings: [{
+        artists: ["Tomi Ong"],
+      
+      identifier: "MPW088",
+      image: "MPW088",
+      
+      
+      print: "MPW088",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Tomi Ong"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW088",
+      image: "MPW088-RF",
+      
+      
+      print: "MPW088-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW088"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW088",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target weapon attack gets +2{p}.
+
+If the weapon has been sharpened this turn, this costs {r} less to play.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
     
     
     shorthands: [Shorthand.Buffs],
@@ -388958,12 +393675,24 @@ When this hits a hero, banish the top card of their deck.`,
     artists: ["Federico Musetti"],
     cardIdentifier: "slice-and-dice-red",
     classes: [Class.Warrior],
-    defaultImage: "EVR057",
+    defaultImage: "MPW069",
     firstReleaseDate: "2022-02-04",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Slice and Dice",
     printings: [{
+        artists: ["Federico Musetti"],
+      
+      identifier: "MPW069",
+      image: "MPW069",
+      
+      
+      print: "MPW069",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Federico Musetti"],
       edition: ReleaseEdition.First,
       identifier: "EVR057",
@@ -389011,8 +393740,8 @@ When this hits a hero, banish the top card of their deck.`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["EVR057"],
-    sets: [Release.Everfest],
+    setIdentifiers: ["EVR057","MPW069"],
+    sets: [Release.Everfest,Release.MasteryPackWarrior],
     specialImage: "EVR057-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -389023,10 +393752,9 @@ When this hits a hero, banish the top card of their deck.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Whenever you attack with a sword or dagger this turn;
+    functionalText: `Your first sword or dagger attack this turn gets +1{p}.
 
-- If it's your first weapon attack this turn, it gains +1{p}.
-- If it's your second weapon attack this turn, it gains +3{p}.
+Your second sword or dagger attack this turn gets +3{p}.
 
 **Go again**`,
     
@@ -389253,6 +393981,79 @@ When this hits a hero, banish the top card of their deck.`,
   
     
     pitch: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Ismatulloh"],
+    cardIdentifier: "slice-up-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW089",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Slice Up",
+    printings: [{
+        artists: ["Ismatulloh"],
+      
+      identifier: "MPW089",
+      image: "MPW089",
+      
+      
+      print: "MPW089",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Ismatulloh"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW089",
+      image: "MPW089-RF",
+      
+      
+      print: "MPW089-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW089"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW089",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `Target weapon attack gets "When this hits a hero, you may remove a +1{p} counter from this weapon. If you do, they discard a card."`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
     
     
     
@@ -389947,6 +394748,225 @@ Target attack action card gets **go again**.`,
     power: 9,
     
     shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "small-blinder-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW090",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Small Blinder",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "MPW090",
+      image: "MPW090",
+      
+      
+      print: "MPW090",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW090",
+      image: "MPW090-RF",
+      
+      
+      print: "MPW090-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW090"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW090",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target sword attack gets +4{p} and **wagers** with the defending hero. The winner creates a Blade Dance token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "small-blinder-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW091",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Small Blinder",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "MPW091",
+      image: "MPW091",
+      
+      
+      print: "MPW091",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW091",
+      image: "MPW091-RF",
+      
+      
+      print: "MPW091-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW091"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW091",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target sword attack gets +3{p} and **wagers** with the defending hero. The winner creates a Blade Dance token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Petrinda Wiyugo"],
+    cardIdentifier: "small-blinder-blue",
+    classes: [Class.Warrior],
+    defaultImage: "MPW092",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Small Blinder",
+    printings: [{
+        artists: ["Petrinda Wiyugo"],
+      
+      identifier: "MPW092",
+      image: "MPW092",
+      
+      
+      print: "MPW092",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Petrinda Wiyugo"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW092",
+      image: "MPW092-RF",
+      
+      
+      print: "MPW092-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW092"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW092",
+    subtypes: [],
+    types: [Type.AttackReaction],
+    typeText: "Warrior Attack Reaction",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `Target sword attack gets +2{p} and **wagers** with the defending hero. The winner creates a Blade Dance token.`,
+    
+    
+    
+    
+    keywords: [Keyword.Wager],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -397730,7 +402750,8 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "soul-shackle",
     classes: [Class.Runeblade],
@@ -404292,8 +409313,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "spill-blood-red",
     classes: [Class.Warrior],
@@ -410776,12 +415796,24 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     artists: ["Isuardi Therianto"],
     cardIdentifier: "starting-stake-yellow",
     classes: [Class.Generic],
-    defaultImage: "HVY238",
+    defaultImage: "MPW152",
     firstReleaseDate: "2024-02-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Starting Stake",
     printings: [{
+        artists: ["Isuardi Therianto"],
+      
+      identifier: "MPW152",
+      image: "MPW152",
+      
+      
+      print: "MPW152",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Isuardi Therianto"],
       
       identifier: "HVY238",
@@ -410829,8 +415861,8 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HVY238","LGS228"],
-    sets: [Release.HeavyHitters,Release.Promos],
+    setIdentifiers: ["HVY238","LGS228","MPW152"],
+    sets: [Release.HeavyHitters,Release.MasteryPackWarrior,Release.Promos],
     specialImage: "LGS228-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -412556,15 +417588,102 @@ If an item you control has been destroyed this turn, this gets +2{p}.
   
   
   },{
+    artists: ["Reinaldo Indrajaya"],
+    cardIdentifier: "steel-to-the-dome-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW070",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Steel to the Dome",
+    printings: [{
+        artists: ["Reinaldo Indrajaya"],
+      
+      identifier: "MPW070",
+      image: "MPW070",
+      
+      
+      print: "MPW070",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Reinaldo Indrajaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW070",
+      image: "MPW070-RF",
+      
+      
+      print: "MPW070-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW070"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW070",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +4{p} and "When this hits a Warrior hero, they discard a card."
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-red",
     classes: [Class.Warrior],
-    defaultImage: "U-WTR126",
+    defaultImage: "MPW056",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Steelblade Shunt",
     printings: [{
+        artists: ["Cindy Handoyo"],
+      
+      identifier: "MPW056",
+      image: "MPW056",
+      
+      
+      print: "MPW056",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Cindy Handoyo"],
       
       identifier: "1HP156",
@@ -412657,8 +417776,8 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP156","TEA011","WTR126"],
-    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP156","MPW056","TEA011","WTR126"],
+    sets: [Release.DorintheaHeroDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR126",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -412669,7 +417788,7 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     cost: 1,
     defense: 6,
     
-    functionalText: `If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.`,
+    functionalText: `If this defends a weapon attack, deal 1 damage to the attacking hero.`,
     
     
     
@@ -412698,12 +417817,24 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-yellow",
     classes: [Class.Warrior],
-    defaultImage: "U-WTR127",
+    defaultImage: "MPW057",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Steelblade Shunt",
     printings: [{
+        artists: ["Cindy Handoyo"],
+      
+      identifier: "MPW057",
+      image: "MPW057",
+      
+      
+      print: "MPW057",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Cindy Handoyo"],
       
       identifier: "1HP157",
@@ -412781,8 +417912,8 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP157","WTR127"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP157","MPW057","WTR127"],
+    sets: [Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR127",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -412793,7 +417924,7 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     cost: 1,
     defense: 5,
     
-    functionalText: `If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.`,
+    functionalText: `If this defends a weapon attack, deal 1 damage to the attacking hero.`,
     
     
     
@@ -412822,12 +417953,24 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     artists: ["Cindy Handoyo"],
     cardIdentifier: "steelblade-shunt-blue",
     classes: [Class.Warrior],
-    defaultImage: "U-WTR128",
+    defaultImage: "MPW058",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Steelblade Shunt",
     printings: [{
+        artists: ["Cindy Handoyo"],
+      
+      identifier: "MPW058",
+      image: "MPW058",
+      
+      
+      print: "MPW058",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Cindy Handoyo"],
       
       identifier: "1HP158",
@@ -412905,8 +418048,8 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP158","WTR128"],
-    sets: [Release.HistoryPack1,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP158","MPW058","WTR128"],
+    sets: [Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
     specialImage: "WTR128",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -412917,7 +418060,7 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     cost: 1,
     defense: 4,
     
-    functionalText: `If Steelblade Shunt defends a weapon attack, deal 1 damage to the attacking hero.`,
+    functionalText: `If this defends a weapon attack, deal 1 damage to the attacking hero.`,
     
     
     
@@ -425927,12 +431070,24 @@ When this hits a hero, banish the top card of their deck, then look at their han
     artists: ["Wirawan Pranoto"],
     cardIdentifier: "swordmasters-path-red",
     classes: [Class.Warrior],
-    defaultImage: "AHA014",
+    defaultImage: "MPW130",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Swordmaster's Path",
     printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "MPW130",
+      image: "MPW130",
+      
+      
+      print: "MPW130",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Wirawan Pranoto"],
       
       identifier: "AHA014",
@@ -425950,9 +431105,9 @@ When this hits a hero, banish the top card of their deck, then look at their han
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA014"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA014",
+    setIdentifiers: ["AHA014","MPW130"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW130",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -425974,7 +431129,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
@@ -425993,14 +431148,103 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
   
   },{
     artists: ["Wirawan Pranoto"],
+    cardIdentifier: "swordmasters-path-yellow",
+    classes: [Class.Warrior],
+    defaultImage: "MPW131",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Swordmaster's Path",
+    printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "MPW131",
+      image: "MPW131",
+      
+      
+      print: "MPW131",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW131",
+      image: "MPW131-RF",
+      
+      
+      print: "MPW131-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW131"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW131",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Warrior Action",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `Your next sword attack this turn gets +2{p}.
+
+The next time you would sharpen a sword this turn, instead **sharpen** it an additional time.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain,Keyword.Sharpen],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Wirawan Pranoto"],
     cardIdentifier: "swordmasters-path-blue",
     classes: [Class.Warrior],
-    defaultImage: "AHA025",
+    defaultImage: "MPW132",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Swordmaster's Path",
     printings: [{
+        artists: ["Wirawan Pranoto"],
+      
+      identifier: "MPW132",
+      image: "MPW132",
+      
+      
+      print: "MPW132",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Wirawan Pranoto"],
       
       identifier: "AHA025",
@@ -426018,9 +431262,9 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["AHA025"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA025",
+    setIdentifiers: ["AHA025","MPW132"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW132",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -426042,7 +431286,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 3,
@@ -429412,6 +434656,79 @@ Create a Bait token under an opponent's control.
   
   
   },{
+    artists: ["Mario Wibisono"],
+    cardIdentifier: "take-the-lead-red",
+    classes: [Class.Warrior],
+    defaultImage: "MPW073",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
+    name: "Take the Lead",
+    printings: [{
+        artists: ["Mario Wibisono"],
+      
+      identifier: "MPW073",
+      image: "MPW073",
+      
+      
+      print: "MPW073",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW073",
+      image: "MPW073-RF",
+      
+      
+      print: "MPW073-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["MPW073"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW073",
+    subtypes: [],
+    types: [Type.Instant],
+    typeText: "Warrior Instant",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `The next time you would be dealt damage this turn, prevent 2 of that damage. If you prevent damage this way, create a Blade Dance token.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "take-the-tempo-red",
     classes: [Class.Ninja],
@@ -429494,12 +434811,36 @@ Create a Bait token under an opponent's control.
     artists: ["Faizal Fikri"],
     cardIdentifier: "take-the-upper-hand-red",
     classes: [Class.Warrior],
-    defaultImage: "HVY112",
+    defaultImage: "MPW093",
     firstReleaseDate: "2024-02-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Take the Upper Hand",
     printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "MPW093",
+      image: "MPW093",
+      
+      
+      print: "MPW093",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW093",
+      image: "MPW093-RF",
+      
+      
+      print: "MPW093-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Faizal Fikri"],
       
       identifier: "HVY112",
@@ -429545,11 +434886,11 @@ Create a Bait token under an opponent's control.
           },
       
     },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["HVY112","OLA014"],
-    sets: [Release.HeavyHitters,Release.OlympiaBlitzDeck],
-    specialImage: "HVY112",
+    rarities: [Rarity.Common,Rarity.Rare],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HVY112","MPW093","OLA014"],
+    sets: [Release.HeavyHitters,Release.MasteryPackWarrior,Release.OlympiaBlitzDeck],
+    specialImage: "MPW093",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -429559,7 +434900,7 @@ Create a Bait token under an opponent's control.
     cost: 0,
     defense: 3,
     
-    functionalText: `Play this only if you've **wagered** this chain link.
+    functionalText: `Play this only if you've wagered this chain link.
 
 Target attack gets +3{p}.`,
     
@@ -429590,12 +434931,36 @@ Target attack gets +3{p}.`,
     artists: ["Faizal Fikri"],
     cardIdentifier: "take-the-upper-hand-yellow",
     classes: [Class.Warrior],
-    defaultImage: "HVY113",
+    defaultImage: "MPW094",
     firstReleaseDate: "2024-02-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Take the Upper Hand",
     printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "MPW094",
+      image: "MPW094",
+      
+      
+      print: "MPW094",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW094",
+      image: "MPW094-RF",
+      
+      
+      print: "MPW094-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Faizal Fikri"],
       
       identifier: "HVY113",
@@ -429626,11 +434991,11 @@ Target attack gets +3{p}.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["HVY113"],
-    sets: [Release.HeavyHitters],
-    specialImage: "HVY113",
+    rarities: [Rarity.Common,Rarity.Rare],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HVY113","MPW094"],
+    sets: [Release.HeavyHitters,Release.MasteryPackWarrior],
+    specialImage: "MPW094",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -429640,7 +435005,7 @@ Target attack gets +3{p}.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Play this only if you've **wagered** this chain link.
+    functionalText: `Play this only if you've wagered this chain link.
 
 Target attack gets +2{p}.`,
     
@@ -429671,12 +435036,36 @@ Target attack gets +2{p}.`,
     artists: ["Faizal Fikri"],
     cardIdentifier: "take-the-upper-hand-blue",
     classes: [Class.Warrior],
-    defaultImage: "HVY114",
+    defaultImage: "MPW095",
     firstReleaseDate: "2024-02-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Take the Upper Hand",
     printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "MPW095",
+      image: "MPW095",
+      
+      
+      print: "MPW095",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW095",
+      image: "MPW095-RF",
+      
+      
+      print: "MPW095-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Faizal Fikri"],
       
       identifier: "HVY114",
@@ -429707,11 +435096,11 @@ Target attack gets +2{p}.`,
           },
       
     },],
-    rarities: [Rarity.Rare],
-    rarity: Rarity.Rare,
-    setIdentifiers: ["HVY114"],
-    sets: [Release.HeavyHitters],
-    specialImage: "HVY114",
+    rarities: [Rarity.Common,Rarity.Rare],
+    rarity: Rarity.Common,
+    setIdentifiers: ["HVY114","MPW095"],
+    sets: [Release.HeavyHitters,Release.MasteryPackWarrior],
+    specialImage: "MPW095",
     subtypes: [],
     types: [Type.AttackReaction],
     typeText: "Warrior Attack Reaction",
@@ -429721,7 +435110,7 @@ Target attack gets +2{p}.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Play this only if you've **wagered** this chain link.
+    functionalText: `Play this only if you've wagered this chain link.
 
 Target attack gets +1{p}.`,
     
@@ -441750,6 +447139,79 @@ Gain 1{h}`,
   
   
   },{
+    artists: ["Raynor Maharsi"],
+    cardIdentifier: "thwart-yellow",
+    classes: [Class.Generic],
+    defaultImage: "MPW145",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Thwart",
+    printings: [{
+        artists: ["Raynor Maharsi"],
+      
+      identifier: "MPW145",
+      image: "MPW145",
+      
+      
+      print: "MPW145",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Raynor Maharsi"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW145",
+      image: "MPW145-RF",
+      
+      
+      print: "MPW145-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["MPW145"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW145",
+    subtypes: [],
+    types: [Type.Block],
+    typeText: "Generic Block",
+
+    
+    
+    
+    defense: 3,
+    
+    functionalText: `When this defends, remove all +1{p} counters from the attacking card.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Amirul HHF"],
     cardIdentifier: "tiara-of-suspense",
     classes: [Class.Guardian],
@@ -443845,12 +449307,24 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     artists: ["Daniel Jiménez","MJ Fetesio"],
     cardIdentifier: "timesnap-potion-blue",
     classes: [Class.Generic],
-    defaultImage: "SGB032",
+    defaultImage: "MPW147",
     firstReleaseDate: "2019-10-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Timesnap Potion",
     printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "MPW147",
+      image: "MPW147",
+      
+      
+      print: "MPW147",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Daniel Jiménez"],
       
       identifier: "SGB032",
@@ -444018,8 +449492,8 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP383","AGB030","FAB014","FAB224","RNR029","SGB032","TCC074","WTR172"],
-    sets: [Release.ArmoryDeckGravyBones,Release.GravyBonesSilverAgeDeck,Release.HistoryPack1,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP383","AGB030","FAB014","FAB224","MPW147","RNR029","SGB032","TCC074","WTR172"],
+    sets: [Release.ArmoryDeckGravyBones,Release.GravyBonesSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.Promos,Release.RhinarHeroDeck,Release.RoundTheTable,Release.WelcomeToRathe],
     specialImage: "FAB224-CF",
     subtypes: [Subtype.Item,Subtype.NonAttack],
     types: [Type.Action],
@@ -445361,12 +450835,36 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
     artists: ["Mario Wibisono"],
     cardIdentifier: "toe-the-line-red",
     classes: [Class.Warrior],
-    defaultImage: "SBL022",
+    defaultImage: "MPW074",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Toe the Line",
     printings: [{
+        artists: ["Mario Wibisono"],
+      
+      identifier: "MPW074",
+      image: "MPW074",
+      
+      
+      print: "MPW074",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW074",
+      image: "MPW074-RF",
+      
+      
+      print: "MPW074-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Mario Wibisono"],
       
       identifier: "SBL022",
@@ -445429,8 +450927,8 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AHA015","GEM165","SBL022"],
-    sets: [Release.ArmoryDeckOriginsHala,Release.BoltynSilverAgeDeck,Release.GEM],
+    setIdentifiers: ["AHA015","GEM165","MPW074","SBL022"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.BoltynSilverAgeDeck,Release.GEM,Release.MasteryPackWarrior],
     specialImage: "GEM165",
     subtypes: [],
     types: [Type.Instant],
@@ -458550,12 +464048,24 @@ When this hits an ally, destroy that ally.`,
     artists: ["soyameii"],
     cardIdentifier: "unsheathed-red",
     classes: [Class.Warrior],
-    defaultImage: "ROS248",
+    defaultImage: "MPW035",
     firstReleaseDate: "2024-09-20",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Unsheathed",
     printings: [{
+        artists: ["soyameii"],
+      
+      identifier: "MPW035",
+      image: "MPW035",
+      
+      
+      print: "MPW035",
+      rarity: Rarity.Majestic,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["soyameii"],
       
       identifier: "ROS248",
@@ -458588,9 +464098,9 @@ When this hits an ally, destroy that ally.`,
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["ROS248"],
-    sets: [Release.Rosetta],
-    specialImage: "ROS248",
+    setIdentifiers: ["MPW035","ROS248"],
+    sets: [Release.MasteryPackWarrior,Release.Rosetta],
+    specialImage: "MPW035",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -458600,7 +464110,7 @@ When this hits an ally, destroy that ally.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**."
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**.
 
 **Go again**`,
     
@@ -465887,6 +471397,79 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
   
   
   },{
+    artists: ["Andi Cahyo W"],
+    cardIdentifier: "vigilant-dodgers",
+    classes: [Class.Generic],
+    defaultImage: "MPW139",
+    firstReleaseDate: "2026-08-07",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
+    name: "Vigilant Dodgers",
+    printings: [{
+        artists: ["Andi Cahyo W"],
+      
+      identifier: "MPW139",
+      image: "MPW139",
+      
+      
+      print: "MPW139",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.Cold,
+      identifier: "MPW139",
+      image: "MPW139-CF",
+      
+      
+      print: "MPW139-Cold",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["MPW139"],
+    sets: [Release.MasteryPackWarrior],
+    specialImage: "MPW139-CF",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Generic Equipment - Legs",
+
+    
+    
+    
+    defense: 0,
+    
+    functionalText: `**Instant** - Destroy this: Prevent the next 1 damage that would be dealt to you this turn. Activate this only if a weapon has attacked this turn.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "vigor",
     classes: [Class.Generic],
@@ -469364,12 +474947,36 @@ Create a Vigor token.`,
     artists: ["Faizal Fikri"],
     cardIdentifier: "visit-the-dawnsmith-blue",
     classes: [Class.Warrior],
-    defaultImage: "AHA026",
+    defaultImage: "MPW071",
     firstReleaseDate: "2026-04-17",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Visit the Dawnsmith",
     printings: [{
+        artists: ["Faizal Fikri"],
+      
+      identifier: "MPW071",
+      image: "MPW071",
+      
+      
+      print: "MPW071",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW071",
+      image: "MPW071-RF",
+      
+      
+      print: "MPW071-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.MasteryPackWarrior,
+      
+      
+    },{
         artists: ["Faizal Fikri"],
       
       identifier: "AHA026",
@@ -469387,9 +474994,9 @@ Create a Vigor token.`,
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AHA026"],
-    sets: [Release.ArmoryDeckOriginsHala],
-    specialImage: "AHA026",
+    setIdentifiers: ["AHA026","MPW071"],
+    sets: [Release.ArmoryDeckOriginsHala,Release.MasteryPackWarrior],
+    specialImage: "MPW071",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action - Aura",
@@ -475304,7 +480911,8 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "war-machine-red",
     classes: [Class.Mechanologist],
@@ -482470,8 +488078,7 @@ When the combat chain closes, each hero who has lost {h} this turn banishes a ca
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Reza Afshar"],
     cardIdentifier: "widespread-destruction-yellow",
     classes: [Class.Runeblade],
