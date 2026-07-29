@@ -1756,6 +1756,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/belly-buster-red</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/belly-buster-blue</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/below-the-belt-red</loc>
     <lastmod>2026-07-29</lastmod>
     <priority>0.5</priority>
@@ -15476,8 +15486,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/prizeworn-gauntlet</loc>
+    <lastmod>2026-07-29</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/prizeworn-pathfinders</loc>
     <lastmod>2026-07-25</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/prizeworn-plating</loc>
+    <lastmod>2026-07-29</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
