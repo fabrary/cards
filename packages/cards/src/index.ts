@@ -186942,7 +186942,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     cost: 2,
-    defense: 6,
+    defense: 5,
     
     functionalText: `You may destroy a Gold you control rather than pay this card's {r} cost.`,
     
@@ -187045,7 +187045,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     cost: 2,
-    defense: 6,
+    defense: 4,
     
     functionalText: `You may destroy a Gold you control rather than pay this card's {r} cost.`,
     

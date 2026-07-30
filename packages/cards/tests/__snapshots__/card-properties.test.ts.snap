@@ -239667,7 +239667,7 @@ exports[`Check for unintentional updates Golden Company (golden-company-blue) vs
   ],
   "cost": 2,
   "defaultImage": "AOL022",
-  "defense": 6,
+  "defense": 4,
   "firstReleaseDate": "2026-08-07",
   "functionalText": "You may destroy a Gold you control rather than pay this card's {r} cost.",
   "legalFormats": [
@@ -239894,7 +239894,7 @@ exports[`Check for unintentional updates Golden Company (golden-company-yellow) 
   ],
   "cost": 2,
   "defaultImage": "MPW054",
-  "defense": 6,
+  "defense": 5,
   "firstReleaseDate": "2026-08-07",
   "functionalText": "You may destroy a Gold you control rather than pay this card's {r} cost.",
   "legalFormats": [
