@@ -1,7 +1,7 @@
 name: CI
 
 # The same gate as the local husky pre-commit, plus the heavier steps it skips
-# (build + full test suite + generated-data drift check). No secrets needed —
+# (build + full test suite + generated-data drift check). No secrets needed:
 # all card data is local. Publishing stays manual; this is the safety net for
 # bypassed hooks and other machines.
 on:
@@ -31,7 +31,7 @@ jobs:
 
       # Build FIRST: types → cards → search (nx order). The other packages
       # resolve @flesh-and-blood/types via its `exports` → dist/*.d.ts, and the
-      # tests import the built `dist` directly — so on a clean install nothing
+      # tests import the built `dist` directly, so on a clean install nothing
       # downstream (typecheck / lint-of-types / tests) resolves until dist exists.
       - name: Build 🏗️
         run: npm run build
@@ -50,8 +50,8 @@ jobs:
         run: npm test
 
       # The committed src/index.ts + latest-set are generated from the source
-      # data (CSVs / card.json / overrides). Regenerate and fail if they drift —
-      # catches a hand-edit of the output or a source change committed without
+      # data (CSVs / card.json / overrides). Regenerate and fail if they drift,
+      # which catches a hand-edit of the output or a source change committed without
       # running the pipeline. The transform is deterministic (offline, no dates
       # in output), so a clean tree means committed output matches source.
       - name: Generated card data is in sync 🔁

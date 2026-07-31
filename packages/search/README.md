@@ -8,7 +8,7 @@ A [fuse.js](https://www.fusejs.io/)-based search engine for **Flesh and Blood** 
 npm i @flesh-and-blood/search @flesh-and-blood/types
 ```
 
-`@flesh-and-blood/types` is a **peer dependency** — install it alongside this package
+`@flesh-and-blood/types` is a **peer dependency**: install it alongside this package
 
 ## Usage
 
@@ -21,7 +21,7 @@ const { searchResults } = searcher.search("rhinar go again");
 ```
 
 - `new Searcher(cards, additionalHeroes?, additionalSets?, debug?)`
-- `.search(text)` → `SearchResults` — `{ searchResults: SearchCard[], appliedFilters, keywords, attributes }`
+- `.search(text)` → `SearchResults`: `{ searchResults: SearchCard[], appliedFilters, keywords, attributes }`
 
 Data-only modules are available as subpath imports (handy for lazy-loaded UI like a search-bar dropdown):
 
@@ -32,7 +32,7 @@ import { shorthands } from "@flesh-and-blood/search/shorthands";
 
 ## What's included
 
-- Default export: **`Searcher`** — the search engine
+- Default export: **`Searcher`**, the search engine
 - Types: `SearchResults`, `SearchCard`
 - Data modules (subpath imports): `abbreviations`, `shorthands`, `memes`
 - Filter / meta-filter / helper utilities (`filters`, `metaFilters`, `helpers`, `constants`, `related`)

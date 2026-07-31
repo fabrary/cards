@@ -37,7 +37,7 @@ for (const file of files) {
 
   for (const card of cards) {
     const released = releasedByIdentifier.get(card.cardIdentifier);
-    if (!released) continue; // new card — keep
+    if (!released) continue; // new card, keep
 
     const releasedPrints = new Set(released.printings.map((p) => p.print));
     const allPrintingsKnown = card.printings.every((p) =>
@@ -53,11 +53,11 @@ for (const file of files) {
 
   if (removable.length === cards.length) {
     console.log(
-      `\n${file} — ENTIRE FILE removable (${cards.length} cards already in card.json)`,
+      `\n${file} - ENTIRE FILE removable (${cards.length} cards already in card.json)`,
     );
   } else {
     console.log(
-      `\n${file} — ${removable.length}/${cards.length} rows removable:`,
+      `\n${file} - ${removable.length}/${cards.length} rows removable:`,
     );
     removable.sort().forEach((l) => console.log(l));
   }

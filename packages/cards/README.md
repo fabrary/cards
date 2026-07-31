@@ -9,7 +9,7 @@ objects are typed by [`@flesh-and-blood/types`](../types).
 npm i @flesh-and-blood/cards @flesh-and-blood/types
 ```
 
-Published as **dual ESM + CJS**. Note: the dataset is large (~12 MB) — many consumers load it at build
+Published as **dual ESM + CJS**. Note: the dataset is large (~12 MB), so many consumers load it at build
 or server time rather than shipping it to the browser.
 
 ## Usage
@@ -25,20 +25,20 @@ cards.forEach((card: Card) => {
 
 Card data is sourced from the amazing
 [the-fab-cube/flesh-and-blood-cards](https://github.com/the-fab-cube/flesh-and-blood-cards) project by
-[Tyler Luce](https://github.com/luceleaftea) — all credit to him; any errors are probably mine 😅.
+[Tyler Luce](https://github.com/luceleaftea): all credit to him; any errors are probably mine 😅.
 
 ## The data pipeline
 
-`src/index.ts` is a **~12 MB generated file that is committed — never hand-edit it.** Regenerate
+`src/index.ts` is a **~12 MB generated file that is committed, never hand-edit it.** Regenerate
 everything with `npm run full`, which runs end to end.
 
-### transform — `scripts/index.ts`
+### transform: `scripts/index.ts`
 
 Reads the source data, computes derived fields, and writes the output:
 
 1. **Spoiled** cards from `scripts/Spoiled/*.csv` (Google Sheets exports, one per set), parsed/mapped by `scripts/Spoiled/{parser,mapper}.ts`.
 2. **Released** cards from `scripts/Released/card.json` + `set.json` (sourced from the-fab-cube/flesh-and-blood-cards), parsed/mapped by `scripts/Released/{parser,mapper}.ts`.
-3. **Combine & dedupe** — a card re-released in a new set merges its printings, sets, rarities, and legality — then compute derived fields (legality, meta, nicknames, shorthands, short name, TCGplayer info) via `scripts/Shared/*`.
+3. **Combine & dedupe**: a card re-released in a new set merges its printings, sets, rarities, and legality, then compute derived fields (legality, meta, nicknames, shorthands, short name, TCGplayer info) via `scripts/Shared/*`.
 4. `scripts/writer.ts` writes `src/index.ts` and `latest-set/index.ts`.
 
 Fix data in the **source**, not the generated output. Overrides and edge cases live in

@@ -10,7 +10,7 @@ It has no runtime dependencies.
 npm i @flesh-and-blood/types
 ```
 
-Published as **dual ESM + CJS** — works in bundlers, native Node ESM, and CommonJS.
+Published as **dual ESM + CJS**: works in bundlers, native Node ESM, and CommonJS.
 
 ## Usage
 
@@ -28,7 +28,7 @@ import type { Card } from "@flesh-and-blood/types/interfaces";
 
 ## What's included
 
-The exported TypeScript types are the source of truth for exact values and fields — the lists below are
+The exported TypeScript types are the source of truth for exact values and fields; the lists below are
 an overview.
 
 ### Enums
@@ -42,7 +42,7 @@ an overview.
 `Card` (the main card shape), `DoubleSidedCard`, `Printing`, `LegalOverride`, `ReleaseInfo`,
 `SilverAgeChapter`.
 
-### Helpers — `@flesh-and-blood/types/helpers`
+### Helpers: `@flesh-and-blood/types/helpers`
 
 - **Printing pickers:** `getPrint`, `getDefaultPrinting`, `getSpecialPrinting`, `getBoomerPrinting`,
   `getMaxRarityPrinting`
@@ -50,7 +50,7 @@ an overview.
   `getCardFromGEMCardIdentifier`, `getIsArenaCard`, `getIsDeckCard`, `getIsCardTokenForDeck`,
   `getCanCardBeTokenForDeck`, `getCanAddToDeck`, `getShouldRotateCardImage`
 
-### Set data — `@flesh-and-blood/types/sets`
+### Set data: `@flesh-and-blood/types/sets`
 
 `releases`, `fullSetIdentifiers`, `setIdentifierToSetMappings`, `setToSetIdentifierMappings`,
 `silverAgeChapters`, plus `getIsBooster`, `getIsReprint`, `getIsDraftable`, `getIsPreconstructed`.

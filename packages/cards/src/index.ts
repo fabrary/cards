@@ -204521,6 +204521,195 @@ When the combat chain closes, if you've attacked with this, banish it.
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "herald-of-hope-red",
+    classes: [Class.Illusionist],
+    defaultImage: "SAT011",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Prism],
+    name: "Herald of Hope",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SAT011",
+      image: "SAT011",
+      
+      
+      print: "SAT011",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SAT011"],
+    sets: [Release.PrismSilverAgeDeck],
+    specialImage: "SAT011",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Illusionist Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this hits, put it into your soul and gain 1{h}.
+
+**Phantasm**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "herald-of-hope-yellow",
+    classes: [Class.Illusionist],
+    defaultImage: "SAT017",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Prism],
+    name: "Herald of Hope",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SAT017",
+      image: "SAT017",
+      
+      
+      print: "SAT017",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SAT017"],
+    sets: [Release.PrismSilverAgeDeck],
+    specialImage: "SAT017",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Illusionist Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this hits, put it into your soul and gain 1{h}.
+
+**Phantasm**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "herald-of-hope-blue",
+    classes: [Class.Illusionist],
+    defaultImage: "SAT024",
+    firstReleaseDate: "2026-09-18",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Prism],
+    name: "Herald of Hope",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "SAT024",
+      image: "SAT024",
+      
+      
+      print: "SAT024",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SAT024"],
+    sets: [Release.PrismSilverAgeDeck],
+    specialImage: "SAT024",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Light Illusionist Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this hits, put it into your soul and gain 1{h}.
+
+**Phantasm**`,
+    
+    
+    
+    
+    keywords: [Keyword.Phantasm],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Light],
+  
+  
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "herald-of-judgment-yellow",
     classes: [Class.Illusionist],
@@ -240884,7 +241073,8 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     talents: [Talent.Draconic],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "lava-vein-loyalty-yellow",
     classes: [Class.Ninja],
@@ -241138,8 +241328,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Marco Wulfr"],
     cardIdentifier: "lay-down-the-law-red",
     classes: [Class.Guardian],
@@ -322066,7 +322255,8 @@ If another weapon you control has gained **go again** this turn, this card's att
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Surya Prasetya"],
     cardIdentifier: "quicksilver-dance-blue",
     classes: [Class.Warrior],
@@ -322312,8 +322502,7 @@ If another weapon you control has gained **go again** this turn, this card's att
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Mark Poole"],
     cardIdentifier: "quiver-of-rustling-leaves",
     classes: [Class.Ranger],
@@ -402547,7 +402736,8 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Marcus Reyno"],
     cardIdentifier: "soul-cleaver-red",
     classes: [Class.NotClassed],
@@ -402790,8 +402980,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     talents: [Talent.Shadow],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Daria Khlebnikova"],
     cardIdentifier: "soul-food-yellow",
     classes: [Class.NotClassed],
@@ -480774,7 +480963,8 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "wander-with-purpose-yellow",
     classes: [Class.Ninja],
@@ -481047,8 +481237,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     talents: [Talent.Mystic],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Rio Sabda"],
     cardIdentifier: "waning-vengeance-yellow",
     classes: [Class.Illusionist],

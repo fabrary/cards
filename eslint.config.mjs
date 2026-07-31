@@ -1,13 +1,13 @@
 // Flat config for the whole monorepo (lint from the root with `npm run lint`).
 //
 // Non-type-aware on purpose: the hand-written code (the transform pipeline,
-// tts/sitemap generators, tests) is entirely synchronous — no async anywhere —
+// tts/sitemap generators, tests) is entirely synchronous (no async anywhere),
 // so api's type-aware promise rules (no-floating-promises et al.) would add the
 // projectService/tsconfig plumbing without catching anything. @eslint/js +
 // typescript-eslint `recommended` (both non-type-aware) is the right baseline.
 //
 // The 12 MB generated `packages/cards/src/index.ts` and `latest-set/` are never
-// linted — they're machine output (see CLAUDE.md).
+// linted: they're machine output.
 import js from "@eslint/js";
 import tseslint from "typescript-eslint";
 

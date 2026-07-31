@@ -1,7 +1,7 @@
 # Build output
 **/dist/
 
-# Generated card data — machine output, never hand-formatted (see CLAUDE.md)
+# Generated card data: machine output, never hand-formatted
 packages/cards/src/
 packages/cards/latest-set/
 packages/cards/tts/tts.txt
