@@ -12772,7 +12772,7 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs s
     "Illusionist",
   ],
   "cost": 0,
-  "defaultImage": "DTD037",
+  "defaultImage": "SAT032",
   "firstReleaseDate": "2023-07-14",
   "functionalText": "Target attack action card with Herald in its name gets +2{p}",
   "legalFormats": [
@@ -12794,6 +12794,16 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs s
   "name": "Angelic Wrath",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Lius Lasahido",
+      ],
+      "identifier": "SAT032",
+      "image": "SAT032",
+      "print": "SAT032",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Lius Lasahido",
@@ -12851,9 +12861,11 @@ exports[`Check for unintentional updates Angelic Wrath (angelic-wrath-blue) vs s
   "setIdentifiers": [
     "DTD037",
     "LGS163",
+    "SAT032",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "shorthands": [
@@ -51586,7 +51598,7 @@ exports[`Check for unintentional updates Blade Beckoner Boots (blade-beckoner-bo
   "classes": [
     "Generic",
   ],
-  "defaultImage": "SBA009",
+  "defaultImage": "SAT009",
   "defense": 1,
   "firstReleaseDate": "2025-01-31",
   "functionalText": "This gets +1{d} while defending a weapon attack.
@@ -51698,6 +51710,16 @@ exports[`Check for unintentional updates Blade Beckoner Boots (blade-beckoner-bo
   ],
   "name": "Blade Beckoner Boots",
   "printings": [
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "identifier": "SAT009",
+      "image": "SAT009",
+      "print": "SAT009",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Daniel Jiménez",
@@ -51833,6 +51855,7 @@ exports[`Check for unintentional updates Blade Beckoner Boots (blade-beckoner-bo
   "setIdentifiers": [
     "HNT219",
     "SAR008",
+    "SAT009",
     "SBA009",
     "SBZ008",
     "SDA011",
@@ -51847,6 +51870,7 @@ exports[`Check for unintentional updates Blade Beckoner Boots (blade-beckoner-bo
     "Dash Silver Age Deck",
     "Enigma Silver Age Deck",
     "Iyslander Silver Age Deck",
+    "Prism Silver Age Deck",
     "The Hunted",
     "Viserai Silver Age Deck",
   ],
@@ -65070,7 +65094,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
   "classes": [
     "Generic",
   ],
-  "defaultImage": "DDD004",
+  "defaultImage": "SAT005",
   "defense": 0,
   "firstReleaseDate": "2022-05-27",
   "functionalText": "**Action** - Destroy this: Gain {r}. **Go again**",
@@ -65178,6 +65202,16 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
   ],
   "name": "Blossom of Spring",
   "printings": [
+    {
+      "artists": [
+        "Andy Aslamov",
+      ],
+      "identifier": "SAT005",
+      "image": "SAT005",
+      "print": "SAT005",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Andy Aslamov",
@@ -65437,6 +65471,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     "LSS010",
     "RVD004",
     "SAR005",
+    "SAT005",
     "SAZ006",
     "SBA006",
     "SDA007",
@@ -65459,6 +65494,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     "Dorinthea Silver Age Deck",
     "Enigma Silver Age Deck",
     "Katsu Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
     "Viserai Silver Age Deck",
   ],
@@ -159225,7 +159261,7 @@ exports[`Check for unintentional updates Dream Weavers (dream-weavers) vs snapsh
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "U-MON090",
+  "defaultImage": "SAT006",
   "defense": 0,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "**Action** - Destroy Dream Weavers: The next Illusionist attack action card you play this turn loses and can't gain **phantasm**. **Go again**
@@ -159258,6 +159294,16 @@ exports[`Check for unintentional updates Dream Weavers (dream-weavers) vs snapsh
   ],
   "name": "Dream Weavers",
   "printings": [
+    {
+      "artists": [
+        "Pavel Chuvin",
+      ],
+      "identifier": "SAT006",
+      "image": "SAT006",
+      "print": "SAT006",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Pavel Chuvin",
@@ -159342,10 +159388,12 @@ exports[`Check for unintentional updates Dream Weavers (dream-weavers) vs snapsh
   "setIdentifiers": [
     "MON090",
     "PSM006",
+    "SAT006",
   ],
   "sets": [
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
   ],
   "specialImage": "MON090",
   "subtypes": [
@@ -249999,7 +250047,7 @@ exports[`Check for unintentional updates Halo of Illumination (halo-of-illuminat
   "classes": [
     "NotClassed",
   ],
-  "defaultImage": "SBL003",
+  "defaultImage": "SAT004",
   "defense": 0,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "**Instant** - {r}, destroy Halo of Illumination: Put a card from your hand into your hero's soul. If it's a Light card, draw a card.
@@ -250031,6 +250079,16 @@ exports[`Check for unintentional updates Halo of Illumination (halo-of-illuminat
   ],
   "name": "Halo of Illumination",
   "printings": [
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "identifier": "SAT004",
+      "image": "SAT004",
+      "print": "SAT004",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Sam Yang",
@@ -250161,6 +250219,7 @@ exports[`Check for unintentional updates Halo of Illumination (halo-of-illuminat
     "FAB103",
     "MON061",
     "PSM004",
+    "SAT004",
     "SBL003",
   ],
   "sets": [
@@ -250168,6 +250227,7 @@ exports[`Check for unintentional updates Halo of Illumination (halo-of-illuminat
     "Boltyn Silver Age Deck",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "MON061",
@@ -262742,6 +262802,228 @@ exports[`Check for unintentional updates Herald of Erudition (herald-of-eruditio
 }
 `;
 
+exports[`Check for unintentional updates Herald of Hope (herald-of-hope-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "herald-of-hope-blue",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 1,
+  "defaultImage": "SAT024",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-18",
+  "functionalText": "When this hits, put it into your soul and gain 1{h}.
+
+**Phantasm**",
+  "keywords": [
+    "Phantasm",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Prism",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Herald of Hope",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "SAT024",
+      "image": "SAT024",
+      "print": "SAT024",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "SAT024",
+  ],
+  "sets": [
+    "Prism Silver Age Deck",
+  ],
+  "specialImage": "SAT024",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Herald of Hope (herald-of-hope-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "herald-of-hope-red",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 1,
+  "defaultImage": "SAT011",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-18",
+  "functionalText": "When this hits, put it into your soul and gain 1{h}.
+
+**Phantasm**",
+  "keywords": [
+    "Phantasm",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Prism",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Herald of Hope",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "SAT011",
+      "image": "SAT011",
+      "print": "SAT011",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "SAT011",
+  ],
+  "sets": [
+    "Prism Silver Age Deck",
+  ],
+  "specialImage": "SAT011",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Herald of Hope (herald-of-hope-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tomasz Jedruszek",
+  ],
+  "cardIdentifier": "herald-of-hope-yellow",
+  "classes": [
+    "Illusionist",
+  ],
+  "cost": 1,
+  "defaultImage": "SAT017",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-18",
+  "functionalText": "When this hits, put it into your soul and gain 1{h}.
+
+**Phantasm**",
+  "keywords": [
+    "Phantasm",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Prism",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Herald of Hope",
+  "pitch": 2,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "identifier": "SAT017",
+      "image": "SAT017",
+      "print": "SAT017",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "SAT017",
+  ],
+  "sets": [
+    "Prism Silver Age Deck",
+  ],
+  "specialImage": "SAT017",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Light",
+  ],
+  "typeText": "Light Illusionist Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Herald of Judgment (herald-of-judgment-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -262752,7 +263034,7 @@ exports[`Check for unintentional updates Herald of Judgment (herald-of-judgment-
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "DTD013",
+  "defaultImage": "SAT018",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "**Prism Specialization**
@@ -262786,6 +263068,16 @@ When this hits, put it into your hero's soul and the defending hero can't play c
   "pitch": 2,
   "power": 6,
   "printings": [
+    {
+      "artists": [
+        "Alexander Mokhov",
+      ],
+      "identifier": "SAT018",
+      "image": "SAT018",
+      "print": "SAT018",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Alexander Mokhov",
@@ -262910,11 +263202,13 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     "FAB028",
     "MON007",
     "PSM008",
+    "SAT018",
   ],
   "sets": [
     "Dusk till Dawn",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD013",
@@ -262944,7 +263238,7 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "APR021",
+  "defaultImage": "SAT025",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your soul and create a Spectral Shield token.
@@ -262975,6 +263269,16 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
   "pitch": 3,
   "power": 5,
   "printings": [
+    {
+      "artists": [
+        "Simon Wong",
+      ],
+      "identifier": "SAT025",
+      "image": "SAT025",
+      "print": "SAT025",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Simon Wong",
@@ -263115,12 +263419,14 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     "FAB031",
     "MON016",
     "PSM016",
+    "SAT025",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Dusk till Dawn",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD016",
@@ -263147,7 +263453,7 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "APR007",
+  "defaultImage": "SAT012",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your soul and create a Spectral Shield token.
@@ -263178,6 +263484,16 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "artists": [
+        "Simon Wong",
+      ],
+      "identifier": "SAT012",
+      "image": "SAT012",
+      "print": "SAT012",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Simon Wong",
@@ -263318,12 +263634,14 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     "FAB029",
     "MON014",
     "PSM009",
+    "SAT012",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Dusk till Dawn",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD014",
@@ -263350,7 +263668,7 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "APR012",
+  "defaultImage": "SAT019",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your soul and create a Spectral Shield token.
@@ -263381,6 +263699,16 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
   "pitch": 2,
   "power": 6,
   "printings": [
+    {
+      "artists": [
+        "Simon Wong",
+      ],
+      "identifier": "SAT019",
+      "image": "SAT019",
+      "print": "SAT019",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Simon Wong",
@@ -263506,11 +263834,13 @@ exports[`Check for unintentional updates Herald of Protection (herald-of-protect
     "DTD015",
     "FAB030",
     "MON015",
+    "SAT019",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Dusk till Dawn",
     "Monarch",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD015",
@@ -263538,7 +263868,7 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-bl
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "DTD019",
+  "defaultImage": "SAT026",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your hero's soul and deal 1 arcane damage to target hero.
@@ -263569,6 +263899,16 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-bl
   "pitch": 3,
   "power": 5,
   "printings": [
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "identifier": "SAT026",
+      "image": "SAT026",
+      "print": "SAT026",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Jessada Sutthi",
@@ -263694,11 +264034,13 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-bl
     "LGS155",
     "MON019",
     "PSM017",
+    "SAT026",
   ],
   "sets": [
     "Dusk till Dawn",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD019",
@@ -263726,7 +264068,7 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-re
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "DTD017",
+  "defaultImage": "SAT013",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your hero's soul and deal 1 arcane damage to target hero.
@@ -263757,6 +264099,16 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-re
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "identifier": "SAT013",
+      "image": "SAT013",
+      "print": "SAT013",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Jessada Sutthi",
@@ -263882,11 +264234,13 @@ exports[`Check for unintentional updates Herald of Ravages (herald-of-ravages-re
     "LGS153",
     "MON017",
     "PSM010",
+    "SAT013",
   ],
   "sets": [
     "Dusk till Dawn",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD017",
@@ -265278,7 +265632,7 @@ exports[`Check for unintentional updates Herald of Triumph (herald-of-triumph-bl
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "APR022",
+  "defaultImage": "SAT027",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "Attack action cards get -1{p} while defending this.
@@ -265311,6 +265665,16 @@ When this hits, put it into your soul.
   "pitch": 3,
   "power": 5,
   "printings": [
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "identifier": "SAT027",
+      "image": "SAT027",
+      "print": "SAT027",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Sam Yang",
@@ -265435,11 +265799,13 @@ When this hits, put it into your soul.
     "DTD028",
     "FAB160",
     "MON010",
+    "SAT027",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Dusk till Dawn",
     "Monarch",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD028",
@@ -265466,7 +265832,7 @@ exports[`Check for unintentional updates Herald of Triumph (herald-of-triumph-re
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "DTD026",
+  "defaultImage": "SAT014",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "Attack action cards have -1{p} while defending this.
@@ -265499,6 +265865,16 @@ When this hits, put it into your hero's soul.
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "identifier": "SAT014",
+      "image": "SAT014",
+      "print": "SAT014",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Sam Yang",
@@ -265608,10 +265984,12 @@ When this hits, put it into your hero's soul.
     "DTD026",
     "FAB158",
     "MON008",
+    "SAT014",
   ],
   "sets": [
     "Dusk till Dawn",
     "Monarch",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD026",
@@ -265826,7 +266204,7 @@ exports[`Check for unintentional updates Herald of Victoria (herald-of-victoria-
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "PEN177",
+  "defaultImage": "SAT020",
   "defense": 3,
   "firstReleaseDate": "2026-02-13",
   "functionalText": "**Instant** - Discard this: Until end of turn, attack action cards your opponents control get -1{p} while attacking and defending.
@@ -265854,6 +266232,16 @@ exports[`Check for unintentional updates Herald of Victoria (herald-of-victoria-
   "pitch": 2,
   "power": 7,
   "printings": [
+    {
+      "artists": [
+        "Yiian Kho",
+      ],
+      "identifier": "SAT020",
+      "image": "SAT020",
+      "print": "SAT020",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Yiian Kho",
@@ -265890,11 +266278,13 @@ exports[`Check for unintentional updates Herald of Victoria (herald-of-victoria-
   "rarity": "Rare",
   "setIdentifiers": [
     "PEN177",
+    "SAT020",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Prism Silver Age Deck",
   ],
-  "specialImage": "PEN177",
+  "specialImage": "SAT020",
   "subtypes": [
     "Attack",
   ],
@@ -294071,7 +294461,7 @@ exports[`Check for unintentional updates Iris of Reality (iris-of-reality) vs sn
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "U-MON088",
+  "defaultImage": "SAT002",
   "firstReleaseDate": "2021-05-07",
   "functionalText": "During your action phase, Illusionist auras you control are weapons with 4{p} and **Once per Turn Action** - {r}{r}{r}: **Attack. Go again**",
   "keywords": [
@@ -294099,6 +294489,14 @@ exports[`Check for unintentional updates Iris of Reality (iris-of-reality) vs sn
   ],
   "name": "Iris of Reality",
   "printings": [
+    {
+      "artists": [],
+      "identifier": "SAT002",
+      "image": "SAT002",
+      "print": "SAT002",
+      "rarity": "Token",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Jessada Sutthi",
@@ -294201,10 +294599,12 @@ exports[`Check for unintentional updates Iris of Reality (iris-of-reality) vs sn
     "LGS048",
     "MON088",
     "PSM003",
+    "SAT002",
   ],
   "sets": [
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "MON088",
@@ -294410,7 +294810,7 @@ exports[`Check for unintentional updates Ironhide Gauntlet (ironhide-gauntlet) v
   "classes": [
     "Generic",
   ],
-  "defaultImage": "RVD005-RF",
+  "defaultImage": "SAT007",
   "defense": 0,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When you defend with Ironhide Gauntlet, you may pay {r}. If you do, it gains +2{d} and "When the combat chain closes, destroy Ironhide Gauntlet."",
@@ -294521,6 +294921,16 @@ exports[`Check for unintentional updates Ironhide Gauntlet (ironhide-gauntlet) v
       "artists": [
         "Daniil Goncharov",
       ],
+      "identifier": "SAT007",
+      "image": "SAT007",
+      "print": "SAT007",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Daniil Goncharov",
+      ],
       "foiling": "Rainbow",
       "identifier": "RVD005",
       "image": "RVD005-RF",
@@ -294619,10 +295029,12 @@ exports[`Check for unintentional updates Ironhide Gauntlet (ironhide-gauntlet) v
     "FAB150",
     "MON243",
     "RVD005",
+    "SAT007",
   ],
   "sets": [
     "Classic Battles: Rhinar vs Dorinthea",
     "Monarch",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "MON243",
@@ -308049,7 +308461,7 @@ exports[`Check for unintentional updates Lay Low (lay-low-yellow) vs snapshot 1`
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "HNT236",
+  "defaultImage": "SAT022",
   "defense": 3,
   "firstReleaseDate": "2025-01-31",
   "functionalText": "If you are **marked**, you can't play this.
@@ -308162,6 +308574,16 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.",
       "artists": [
         "Widya Wang",
       ],
+      "identifier": "SAT022",
+      "image": "SAT022",
+      "print": "SAT022",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
+    {
+      "artists": [
+        "Widya Wang",
+      ],
       "identifier": "HNT236",
       "image": "HNT236",
       "print": "HNT236",
@@ -308207,13 +308629,16 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.",
   "rarities": [
     "Common",
     "Promo",
+    "Rare",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "FAB513",
     "HNT236",
+    "SAT022",
   ],
   "sets": [
+    "Prism Silver Age Deck",
     "Promos",
     "The Hunted",
   ],
@@ -323667,7 +324092,7 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "DTD003",
+  "defaultImage": "SAT003",
   "firstReleaseDate": "2023-07-14",
   "functionalText": "**Once per Turn Instant** - {r}{r}: Target angel attack or attack action card with Herald in its name gets **go again**.",
   "keywords": [
@@ -323690,6 +324115,16 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
   ],
   "name": "Luminaris, Celestial Fury",
   "printings": [
+    {
+      "artists": [
+        "Jessketchin",
+      ],
+      "identifier": "SAT003",
+      "image": "SAT003",
+      "print": "SAT003",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Jessketchin",
@@ -323744,9 +324179,11 @@ exports[`Check for unintentional updates Luminaris, Celestial Fury (luminaris-ce
     "DTD003",
     "FAB166",
     "LGS160",
+    "SAT003",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "LGS160-CF",
@@ -374064,7 +374501,7 @@ exports[`Check for unintentional updates Passing Mirage (passing-mirage-blue) vs
     "Illusionist",
   ],
   "cost": 0,
-  "defaultImage": "APR025",
+  "defaultImage": "SAT030",
   "defense": 2,
   "firstReleaseDate": "2022-02-04",
   "functionalText": "Your first Illusionist attack each turn loses and can't get **phantasm**.
@@ -374094,6 +374531,16 @@ exports[`Check for unintentional updates Passing Mirage (passing-mirage-blue) vs
   "name": "Passing Mirage",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Saad Irfan",
+      ],
+      "identifier": "SAT030",
+      "image": "SAT030",
+      "print": "SAT030",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Saad Irfan",
@@ -374164,10 +374611,12 @@ exports[`Check for unintentional updates Passing Mirage (passing-mirage-blue) vs
     "APR025",
     "EVR142",
     "LGS094",
+    "SAT030",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Everfest",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "EVR142",
@@ -379227,7 +379676,7 @@ exports[`Check for unintentional updates Phantasmal Haze (phantasmal-haze-blue) 
     "Illusionist",
   ],
   "cost": 3,
-  "defaultImage": "SEN024",
+  "defaultImage": "SAT028",
   "defense": 3,
   "firstReleaseDate": "2022-02-04",
   "functionalText": "**Phantasm**
@@ -379259,6 +379708,16 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.",
   "pitch": 3,
   "power": 6,
   "printings": [
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "identifier": "SAT028",
+      "image": "SAT028",
+      "print": "SAT028",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Marco González",
@@ -379311,11 +379770,13 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.",
   "rarity": "Common",
   "setIdentifiers": [
     "EVR149",
+    "SAT028",
     "SEN024",
   ],
   "sets": [
     "Enigma Silver Age Deck",
     "Everfest",
+    "Prism Silver Age Deck",
   ],
   "specialImage": "EVR149",
   "subtypes": [
@@ -382663,7 +383124,7 @@ exports[`Check for unintentional updates Pierce Reality (pierce-reality-blue) vs
     "Illusionist",
   ],
   "cost": 0,
-  "defaultImage": "AZS024",
+  "defaultImage": "SAT031",
   "defense": 2,
   "firstReleaseDate": "2022-02-04",
   "functionalText": "Your first Illusionist attack action card you play each turn gets +2{p}.
@@ -382693,6 +383154,16 @@ exports[`Check for unintentional updates Pierce Reality (pierce-reality-blue) vs
   "name": "Pierce Reality",
   "pitch": 3,
   "printings": [
+    {
+      "artists": [
+        "Saad Irfan",
+      ],
+      "identifier": "SAT031",
+      "image": "SAT031",
+      "print": "SAT031",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Saad Irfan",
@@ -382778,11 +383249,13 @@ exports[`Check for unintentional updates Pierce Reality (pierce-reality-blue) vs
     "AZS024",
     "EVR143",
     "LGS095",
+    "SAT031",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Armory Deck: Zyggy",
     "Everfest",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "EVR143",
@@ -496449,7 +496922,7 @@ exports[`Check for unintentional updates Silent Stilettos (silent-stilettos) vs 
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "SEN009",
+  "defaultImage": "SAT010",
   "defense": 0,
   "firstReleaseDate": "2022-06-24",
   "functionalText": "Whenever an attacking ally you control dies or an attack action card you control is destroyed by **phantasm**, you may pay {r}{r}{r}. If you do, destroy Silent Stilettos and gain 1 action point.
@@ -496481,6 +496954,16 @@ exports[`Check for unintentional updates Silent Stilettos (silent-stilettos) vs 
   ],
   "name": "Silent Stilettos",
   "printings": [
+    {
+      "artists": [
+        "Andrey Savchuk",
+      ],
+      "identifier": "SAT010",
+      "image": "SAT010",
+      "print": "SAT010",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Andrey Savchuk",
@@ -496545,11 +497028,13 @@ exports[`Check for unintentional updates Silent Stilettos (silent-stilettos) vs 
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "SAT010",
     "SEN009",
     "UPR152",
   ],
   "sets": [
     "Enigma Silver Age Deck",
+    "Prism Silver Age Deck",
     "Uprising",
   ],
   "specialImage": "UPR152",
@@ -520612,7 +521097,7 @@ exports[`Check for unintentional updates Spectral Manifestations (spectral-manif
     "Illusionist",
   ],
   "cost": 2,
-  "defaultImage": "SEN014",
+  "defaultImage": "SAT016",
   "defense": 2,
   "firstReleaseDate": "2024-05-31",
   "functionalText": "Create a Spectral Shield token, then if you control no other Illusionist auras, put three +1{p} counters on it.
@@ -520645,6 +521130,16 @@ exports[`Check for unintentional updates Spectral Manifestations (spectral-manif
   "name": "Spectral Manifestations",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "SAT016",
+      "image": "SAT016",
+      "print": "SAT016",
+      "rarity": "Common",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Carlos Cruchaga",
@@ -520710,14 +521205,16 @@ exports[`Check for unintentional updates Spectral Manifestations (spectral-manif
   "setIdentifiers": [
     "ENG008",
     "MST152",
+    "SAT016",
     "SEN014",
   ],
   "sets": [
     "Enigma Blitz Deck",
     "Enigma Silver Age Deck",
     "Part the Mistveil",
+    "Prism Silver Age Deck",
   ],
-  "specialImage": "SEN014",
+  "specialImage": "SAT016",
   "subtypes": [
     "Non-Attack",
   ],
@@ -521532,6 +522029,16 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
   "printings": [
     {
       "artists": [
+        "Alexandra Malygina",
+      ],
+      "identifier": "SAT033",
+      "image": "SAT033",
+      "print": "SAT033",
+      "rarity": "Basic",
+      "set": "Prism Silver Age Deck",
+    },
+    {
+      "artists": [
         "Asur Misoa",
       ],
       "identifier": "SEN037",
@@ -521810,6 +522317,7 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
     "MON104",
     "MST158",
     "PSM030",
+    "SAT033",
     "SEN037",
   ],
   "sets": [
@@ -521822,6 +522330,7 @@ exports[`Check for unintentional updates Spectral Shield (spectral-shield) vs sn
     "Monarch",
     "Part the Mistveil",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "MST158-B",
@@ -620015,7 +620524,7 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-blue) vs
     "Illusionist",
   ],
   "cost": 1,
-  "defaultImage": "APR023",
+  "defaultImage": "SAT029",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your soul.
@@ -620046,6 +620555,16 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-blue) vs
   "pitch": 3,
   "power": 5,
   "printings": [
+    {
+      "artists": [
+        "Narendra B Adi",
+      ],
+      "identifier": "SAT029",
+      "image": "SAT029",
+      "print": "SAT029",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Narendra B Adi",
@@ -620186,12 +620705,14 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-blue) vs
     "FAB037",
     "MON028",
     "PSM020",
+    "SAT029",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Dusk till Dawn",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD031",
@@ -620218,7 +620739,7 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-red) vs 
     "Illusionist",
   ],
   "cost": 1,
-  "defaultImage": "APR008",
+  "defaultImage": "SAT015",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your soul.
@@ -620249,6 +620770,16 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-red) vs 
   "pitch": 1,
   "power": 7,
   "printings": [
+    {
+      "artists": [
+        "Narendra B Adi",
+      ],
+      "identifier": "SAT015",
+      "image": "SAT015",
+      "print": "SAT015",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Narendra B Adi",
@@ -620389,12 +620920,14 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-red) vs 
     "FAB035",
     "MON026",
     "PSM013",
+    "SAT015",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Dusk till Dawn",
     "Monarch",
     "Prism Blitz Deck",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD029",
@@ -620421,7 +620954,7 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-yellow) 
     "Illusionist",
   ],
   "cost": 1,
-  "defaultImage": "APR014",
+  "defaultImage": "SAT021",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
   "functionalText": "When this hits, put it into your soul.
@@ -620452,6 +620985,16 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-yellow) 
   "pitch": 2,
   "power": 6,
   "printings": [
+    {
+      "artists": [
+        "Narendra B Adi",
+      ],
+      "identifier": "SAT021",
+      "image": "SAT021",
+      "print": "SAT021",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Narendra B Adi",
@@ -620577,11 +621120,13 @@ exports[`Check for unintentional updates Wartune Herald (wartune-herald-yellow) 
     "DTD030",
     "FAB036",
     "MON027",
+    "SAT021",
   ],
   "sets": [
     "Armory Deck Legends: Prism",
     "Dusk till Dawn",
     "Monarch",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DTD030",
@@ -621646,7 +622191,7 @@ exports[`Check for unintentional updates Wave of Reality (wave-of-reality) vs sn
   "classes": [
     "Illusionist",
   ],
-  "defaultImage": "DYN214",
+  "defaultImage": "SAT008",
   "firstReleaseDate": "2022-11-11",
   "functionalText": "When Wave of Reality is destroyed, create a Spectral Shield token.
 
@@ -621675,6 +622220,16 @@ exports[`Check for unintentional updates Wave of Reality (wave-of-reality) vs sn
   ],
   "name": "Wave of Reality",
   "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "SAT008",
+      "image": "SAT008",
+      "print": "SAT008",
+      "rarity": "Rare",
+      "set": "Prism Silver Age Deck",
+    },
     {
       "artists": [
         "Carlos Cruchaga",
@@ -621743,9 +622298,11 @@ exports[`Check for unintentional updates Wave of Reality (wave-of-reality) vs sn
   "setIdentifiers": [
     "DYN214",
     "FAB259",
+    "SAT008",
   ],
   "sets": [
     "Dynasty",
+    "Prism Silver Age Deck",
     "Promos",
   ],
   "specialImage": "DYN214",

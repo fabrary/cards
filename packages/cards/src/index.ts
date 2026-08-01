@@ -10234,12 +10234,24 @@ Your next angel attack this turn gets +1{p}.`,
     artists: ["Lius Lasahido"],
     cardIdentifier: "angelic-wrath-blue",
     classes: [Class.Illusionist],
-    defaultImage: "DTD037",
+    defaultImage: "SAT032",
     firstReleaseDate: "2023-07-14",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Angelic Wrath",
     printings: [{
+        artists: ["Lius Lasahido"],
+      
+      identifier: "SAT032",
+      image: "SAT032",
+      
+      
+      print: "SAT032",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Lius Lasahido"],
       
       identifier: "DTD037",
@@ -10287,8 +10299,8 @@ Your next angel attack this turn gets +1{p}.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["DTD037","LGS163"],
-    sets: [Release.DuskTillDawn,Release.Promos],
+    setIdentifiers: ["DTD037","LGS163","SAT032"],
+    sets: [Release.DuskTillDawn,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "LGS163-RF",
     subtypes: [],
     types: [Type.Instant],
@@ -41246,12 +41258,24 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     artists: ["Daniel Jiménez"],
     cardIdentifier: "blade-beckoner-boots",
     classes: [Class.Generic],
-    defaultImage: "SBA009",
+    defaultImage: "SAT009",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Blade Beckoner Boots",
     printings: [{
+        artists: ["Daniel Jiménez"],
+      
+      identifier: "SAT009",
+      image: "SAT009",
+      
+      
+      print: "SAT009",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Daniel Jiménez"],
       
       identifier: "SBA009",
@@ -41389,8 +41413,8 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT219","SAR008","SBA009","SBZ008","SDA011","SEN008","SIY009","SVI009"],
-    sets: [Release.ArakniSilverAgeDeck,Release.BlazeSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.TheHunted,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["HNT219","SAR008","SAT009","SBA009","SBZ008","SDA011","SEN008","SIY009","SVI009"],
+    sets: [Release.ArakniSilverAgeDeck,Release.BlazeSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.PrismSilverAgeDeck,Release.TheHunted,Release.ViseraiSilverAgeDeck],
     specialImage: "HNT219",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -51970,12 +51994,24 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     artists: ["Andy Aslamov"],
     cardIdentifier: "blossom-of-spring",
     classes: [Class.Generic],
-    defaultImage: "DDD004",
+    defaultImage: "SAT005",
     firstReleaseDate: "2022-05-27",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Blossom of Spring",
     printings: [{
+        artists: ["Andy Aslamov"],
+      
+      identifier: "SAT005",
+      image: "SAT005",
+      
+      
+      print: "SAT005",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Andy Aslamov"],
       
       identifier: "DDD004",
@@ -52230,8 +52266,8 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["ARA004","AUR004","BDD004","DDD004","DVR004","KAT004","LGS100","LSS010","RVD004","SAR005","SAZ006","SBA006","SDA007","SDO005","SEN005","SVI005","TER005"],
-    sets: [Release.FirstStrikeAurora,Release.FirstStrikeTerra,Release.ArakniBlitzDeck,Release.ArakniSilverAgeDeck,Release.AzaleaSilverAgeDeck,Release.BravoDemoDeck,Release.BriarSilverAgeDeck,Release.ClassicBattlesRhinarDorinthea,Release.DashSilverAgeDeck,Release.DorintheaDemoDeck,Release.DorintheaSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.KatsuBlitzDeck,Release.Promos,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["ARA004","AUR004","BDD004","DDD004","DVR004","KAT004","LGS100","LSS010","RVD004","SAR005","SAT005","SAZ006","SBA006","SDA007","SDO005","SEN005","SVI005","TER005"],
+    sets: [Release.FirstStrikeAurora,Release.FirstStrikeTerra,Release.ArakniBlitzDeck,Release.ArakniSilverAgeDeck,Release.AzaleaSilverAgeDeck,Release.BravoDemoDeck,Release.BriarSilverAgeDeck,Release.ClassicBattlesRhinarDorinthea,Release.DashSilverAgeDeck,Release.DorintheaDemoDeck,Release.DorintheaSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.KatsuBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos,Release.ViseraiSilverAgeDeck],
     specialImage: "LGS100-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -125157,12 +125193,24 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     artists: ["Pavel Chuvin"],
     cardIdentifier: "dream-weavers",
     classes: [Class.Illusionist],
-    defaultImage: "U-MON090",
+    defaultImage: "SAT006",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Taylor,Hero.Zyggy],
     name: "Dream Weavers",
     printings: [{
+        artists: ["Pavel Chuvin"],
+      
+      identifier: "SAT006",
+      image: "SAT006",
+      
+      
+      print: "SAT006",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Pavel Chuvin"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON090",
@@ -125240,8 +125288,8 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["MON090","PSM006"],
-    sets: [Release.Monarch,Release.PrismBlitzDeck],
+    setIdentifiers: ["MON090","PSM006","SAT006"],
+    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck],
     specialImage: "MON090",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -194577,12 +194625,24 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     artists: ["Sam Yang"],
     cardIdentifier: "halo-of-illumination",
     classes: [Class.NotClassed],
-    defaultImage: "SBL003",
+    defaultImage: "SAT004",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Librarian,Hero.Prism,Hero.Taylor,Hero.Theryon],
     name: "Halo of Illumination",
     printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "SAT004",
+      image: "SAT004",
+      
+      
+      print: "SAT004",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Sam Yang"],
       
       identifier: "SBL003",
@@ -194705,8 +194765,8 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["BOL005","FAB103","MON061","PSM004","SBL003"],
-    sets: [Release.BoltynBlitzDeck,Release.BoltynSilverAgeDeck,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["BOL005","FAB103","MON061","PSM004","SAT004","SBL003"],
+    sets: [Release.BoltynBlitzDeck,Release.BoltynSilverAgeDeck,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "MON061",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -204713,12 +204773,24 @@ When the combat chain closes, if you've attacked with this, banish it.
     artists: ["Alexander Mokhov"],
     cardIdentifier: "herald-of-judgment-yellow",
     classes: [Class.Illusionist],
-    defaultImage: "DTD013",
+    defaultImage: "SAT018",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism,Hero.Shiyana],
     name: "Herald of Judgment",
     printings: [{
+        artists: ["Alexander Mokhov"],
+      
+      identifier: "SAT018",
+      image: "SAT018",
+      
+      
+      print: "SAT018",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Alexander Mokhov"],
       
       identifier: "DTD013",
@@ -204826,8 +204898,8 @@ When the combat chain closes, if you've attacked with this, banish it.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD013","FAB028","MON007","PSM008"],
-    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["DTD013","FAB028","MON007","PSM008","SAT018"],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD013",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -204871,12 +204943,24 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     artists: ["Simon Wong"],
     cardIdentifier: "herald-of-protection-red",
     classes: [Class.Illusionist],
-    defaultImage: "APR007",
+    defaultImage: "SAT012",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Protection",
     printings: [{
+        artists: ["Simon Wong"],
+      
+      identifier: "SAT012",
+      image: "SAT012",
+      
+      
+      print: "SAT012",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Simon Wong"],
       
       identifier: "APR007",
@@ -204999,8 +205083,8 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["APR007","DTD014","FAB029","MON014","PSM009"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["APR007","DTD014","FAB029","MON014","PSM009","SAT012"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD014",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -205042,12 +205126,24 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     artists: ["Simon Wong"],
     cardIdentifier: "herald-of-protection-yellow",
     classes: [Class.Illusionist],
-    defaultImage: "APR012",
+    defaultImage: "SAT019",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Protection",
     printings: [{
+        artists: ["Simon Wong"],
+      
+      identifier: "SAT019",
+      image: "SAT019",
+      
+      
+      print: "SAT019",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Simon Wong"],
       
       identifier: "APR012",
@@ -205155,8 +205251,8 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["APR012","DTD015","FAB030","MON015"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.Promos],
+    setIdentifiers: ["APR012","DTD015","FAB030","MON015","SAT019"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD015",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -205198,12 +205294,24 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     artists: ["Simon Wong"],
     cardIdentifier: "herald-of-protection-blue",
     classes: [Class.Illusionist],
-    defaultImage: "APR021",
+    defaultImage: "SAT025",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Protection",
     printings: [{
+        artists: ["Simon Wong"],
+      
+      identifier: "SAT025",
+      image: "SAT025",
+      
+      
+      print: "SAT025",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Simon Wong"],
       
       identifier: "APR021",
@@ -205326,8 +205434,8 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["APR021","DTD016","FAB031","MON016","PSM016"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["APR021","DTD016","FAB031","MON016","PSM016","SAT025"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD016",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -205369,12 +205477,24 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     artists: ["Jessada Sutthi"],
     cardIdentifier: "herald-of-ravages-red",
     classes: [Class.Illusionist],
-    defaultImage: "DTD017",
+    defaultImage: "SAT013",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Ravages",
     printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "SAT013",
+      image: "SAT013",
+      
+      
+      print: "SAT013",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Jessada Sutthi"],
       
       identifier: "DTD017",
@@ -205482,8 +205602,8 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["DTD017","LGS153","MON017","PSM010"],
-    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["DTD017","LGS153","MON017","PSM010","SAT013"],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -205666,12 +205786,24 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     artists: ["Jessada Sutthi"],
     cardIdentifier: "herald-of-ravages-blue",
     classes: [Class.Illusionist],
-    defaultImage: "DTD019",
+    defaultImage: "SAT026",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Ravages",
     printings: [{
+        artists: ["Jessada Sutthi"],
+      
+      identifier: "SAT026",
+      image: "SAT026",
+      
+      
+      print: "SAT026",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Jessada Sutthi"],
       
       identifier: "DTD019",
@@ -205779,8 +205911,8 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["DTD019","LGS155","MON019","PSM017"],
-    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["DTD019","LGS155","MON019","PSM017","SAT026"],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD019",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -206815,12 +206947,24 @@ When this hits, put it into your hero's soul.
     artists: ["Sam Yang"],
     cardIdentifier: "herald-of-triumph-red",
     classes: [Class.Illusionist],
-    defaultImage: "DTD026",
+    defaultImage: "SAT014",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Triumph",
     printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "SAT014",
+      image: "SAT014",
+      
+      
+      print: "SAT014",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Sam Yang"],
       
       identifier: "DTD026",
@@ -206913,8 +207057,8 @@ When this hits, put it into your hero's soul.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD026","FAB158","MON008"],
-    sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
+    setIdentifiers: ["DTD026","FAB158","MON008","SAT014"],
+    sets: [Release.DuskTillDawn,Release.Monarch,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD026",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -207116,12 +207260,24 @@ When this hits, put it into your soul.
     artists: ["Sam Yang"],
     cardIdentifier: "herald-of-triumph-blue",
     classes: [Class.Illusionist],
-    defaultImage: "APR022",
+    defaultImage: "SAT027",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Triumph",
     printings: [{
+        artists: ["Sam Yang"],
+      
+      identifier: "SAT027",
+      image: "SAT027",
+      
+      
+      print: "SAT027",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Sam Yang"],
       
       identifier: "APR022",
@@ -207229,8 +207385,8 @@ When this hits, put it into your soul.
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["APR022","DTD028","FAB160","MON010"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.Promos],
+    setIdentifiers: ["APR022","DTD028","FAB160","MON010","SAT027"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD028",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -207274,12 +207430,24 @@ When this hits, put it into your soul.
     artists: ["Yiian Kho"],
     cardIdentifier: "herald-of-victoria-yellow",
     classes: [Class.Illusionist],
-    defaultImage: "PEN177",
+    defaultImage: "SAT020",
     firstReleaseDate: "2026-02-13",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Herald of Victoria",
     printings: [{
+        artists: ["Yiian Kho"],
+      
+      identifier: "SAT020",
+      image: "SAT020",
+      
+      
+      print: "SAT020",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Yiian Kho"],
       
       identifier: "PEN177",
@@ -207312,9 +207480,9 @@ When this hits, put it into your soul.
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["PEN177"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN177",
+    setIdentifiers: ["PEN177","SAT020"],
+    sets: [Release.CompendiumOfRathe,Release.PrismSilverAgeDeck],
+    specialImage: "SAT020",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action - Attack",
@@ -230264,12 +230432,24 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     artists: ["Jessada Sutthi","Madeline Boni"],
     cardIdentifier: "iris-of-reality",
     classes: [Class.Illusionist],
-    defaultImage: "U-MON088",
+    defaultImage: "SAT002",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
     name: "Iris of Reality",
     printings: [{
+        artists: [],
+      
+      identifier: "SAT002",
+      image: "SAT002",
+      
+      
+      print: "SAT002",
+      rarity: Rarity.Token,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Jessada Sutthi"],
       edition: ReleaseEdition.Unlimited,
       identifier: "MON088",
@@ -230362,8 +230542,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["FAB098","FAB156","LGS048","MON088","PSM003"],
-    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["FAB098","FAB156","LGS048","MON088","PSM003","SAT002"],
+    sets: [Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "MON088",
     subtypes: [Subtype.TwoHanded,Subtype.Orb],
     types: [Type.Weapon],
@@ -230550,12 +230730,24 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     artists: ["Daniil Goncharov"],
     cardIdentifier: "ironhide-gauntlet",
     classes: [Class.Generic],
-    defaultImage: "RVD005-RF",
+    defaultImage: "SAT007",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Ironhide Gauntlet",
     printings: [{
+        artists: ["Daniil Goncharov"],
+      
+      identifier: "SAT007",
+      image: "SAT007",
+      
+      
+      print: "SAT007",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Daniil Goncharov"],
       foiling: Foiling.Rainbow,
       identifier: "RVD005",
@@ -230648,8 +230840,8 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB150","MON243","RVD005"],
-    sets: [Release.ClassicBattlesRhinarDorinthea,Release.Monarch,Release.Promos],
+    setIdentifiers: ["FAB150","MON243","RVD005","SAT007"],
+    sets: [Release.ClassicBattlesRhinarDorinthea,Release.Monarch,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "MON243",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -241426,12 +241618,24 @@ const cards4: Card[] = [{
     artists: ["Stefano Moroni","Widya Wang"],
     cardIdentifier: "lay-low-yellow",
     classes: [Class.Generic],
-    defaultImage: "HNT236",
+    defaultImage: "SAT022",
     firstReleaseDate: "2025-01-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Lay Low",
     printings: [{
+        artists: ["Widya Wang"],
+      
+      identifier: "SAT022",
+      image: "SAT022",
+      
+      
+      print: "SAT022",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Widya Wang"],
       
       identifier: "HNT236",
@@ -241474,10 +241678,10 @@ const cards4: Card[] = [{
       
       treatment: Treatment.EA,treatments: [Treatment.AA,Treatment.EA],
     },],
-    rarities: [Rarity.Common,Rarity.Promo],
+    rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["FAB513","HNT236"],
-    sets: [Release.Promos,Release.TheHunted],
+    setIdentifiers: ["FAB513","HNT236","SAT022"],
+    sets: [Release.PrismSilverAgeDeck,Release.Promos,Release.TheHunted],
     specialImage: "FAB513-RF",
     subtypes: [],
     types: [Type.DefenseReaction],
@@ -253504,12 +253708,24 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     artists: ["Jessketchin"],
     cardIdentifier: "luminaris-celestial-fury",
     classes: [Class.Illusionist],
-    defaultImage: "DTD003",
+    defaultImage: "SAT003",
     firstReleaseDate: "2023-07-14",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Luminaris, Celestial Fury",
     printings: [{
+        artists: ["Jessketchin"],
+      
+      identifier: "SAT003",
+      image: "SAT003",
+      
+      
+      print: "SAT003",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Jessketchin"],
       
       identifier: "DTD003",
@@ -253557,8 +253773,8 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD003","FAB166","LGS160"],
-    sets: [Release.DuskTillDawn,Release.Promos],
+    setIdentifiers: ["DTD003","FAB166","LGS160","SAT003"],
+    sets: [Release.DuskTillDawn,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "LGS160-CF",
     subtypes: [Subtype.TwoHanded,Subtype.Scepter],
     types: [Type.Weapon],
@@ -292373,12 +292589,24 @@ If you've played another blue card this turn, **transcend**.`,
     artists: ["Saad Irfan"],
     cardIdentifier: "passing-mirage-blue",
     classes: [Class.Illusionist],
-    defaultImage: "APR025",
+    defaultImage: "SAT030",
     firstReleaseDate: "2022-02-04",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
     name: "Passing Mirage",
     printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "SAT030",
+      image: "SAT030",
+      
+      
+      print: "SAT030",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Saad Irfan"],
       
       identifier: "APR025",
@@ -292441,8 +292669,8 @@ If you've played another blue card this turn, **transcend**.`,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["APR025","EVR142","LGS094"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.Everfest,Release.Promos],
+    setIdentifiers: ["APR025","EVR142","LGS094","SAT030"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.Everfest,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "EVR142",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -296319,12 +296547,24 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     artists: ["Marco González"],
     cardIdentifier: "phantasmal-haze-blue",
     classes: [Class.Illusionist],
-    defaultImage: "SEN024",
+    defaultImage: "SAT028",
     firstReleaseDate: "2022-02-04",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
     name: "Phantasmal Haze",
     printings: [{
+        artists: ["Marco González"],
+      
+      identifier: "SAT028",
+      image: "SAT028",
+      
+      
+      print: "SAT028",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Marco González"],
       
       identifier: "SEN024",
@@ -296372,8 +296612,8 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVR149","SEN024"],
-    sets: [Release.EnigmaSilverAgeDeck,Release.Everfest],
+    setIdentifiers: ["EVR149","SAT028","SEN024"],
+    sets: [Release.EnigmaSilverAgeDeck,Release.Everfest,Release.PrismSilverAgeDeck],
     specialImage: "EVR149",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -298818,12 +299058,24 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
     artists: ["Saad Irfan"],
     cardIdentifier: "pierce-reality-blue",
     classes: [Class.Illusionist],
-    defaultImage: "AZS024",
+    defaultImage: "SAT031",
     firstReleaseDate: "2022-02-04",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
     name: "Pierce Reality",
     printings: [{
+        artists: ["Saad Irfan"],
+      
+      identifier: "SAT031",
+      image: "SAT031",
+      
+      
+      print: "SAT031",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Saad Irfan"],
       
       identifier: "AZS024",
@@ -298901,8 +299153,8 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["APR026","AZS024","EVR143","LGS095"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.ArmoryDeckZyggy,Release.Everfest,Release.Promos],
+    setIdentifiers: ["APR026","AZS024","EVR143","LGS095","SAT031"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.ArmoryDeckZyggy,Release.Everfest,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "EVR143",
     subtypes: [Subtype.Aura,Subtype.NonAttack],
     types: [Type.Action],
@@ -386622,12 +386874,24 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     artists: ["Andrey Savchuk"],
     cardIdentifier: "silent-stilettos",
     classes: [Class.Illusionist],
-    defaultImage: "SEN009",
+    defaultImage: "SAT010",
     firstReleaseDate: "2022-06-24",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Taylor,Hero.Zyggy],
     name: "Silent Stilettos",
     printings: [{
+        artists: ["Andrey Savchuk"],
+      
+      identifier: "SAT010",
+      image: "SAT010",
+      
+      
+      print: "SAT010",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Andrey Savchuk"],
       
       identifier: "SEN009",
@@ -386690,8 +386954,8 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["SEN009","UPR152"],
-    sets: [Release.EnigmaSilverAgeDeck,Release.Uprising],
+    setIdentifiers: ["SAT010","SEN009","UPR152"],
+    sets: [Release.EnigmaSilverAgeDeck,Release.PrismSilverAgeDeck,Release.Uprising],
     specialImage: "UPR152",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -405732,12 +405996,24 @@ If you have **boosted** this turn, draw a card.`,
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "spectral-manifestations-red",
     classes: [Class.Illusionist],
-    defaultImage: "SEN014",
+    defaultImage: "SAT016",
     firstReleaseDate: "2024-05-31",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Zyggy],
     name: "Spectral Manifestations",
     printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SAT016",
+      image: "SAT016",
+      
+      
+      print: "SAT016",
+      rarity: Rarity.Common,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Carlos Cruchaga"],
       
       identifier: "SEN014",
@@ -405800,9 +406076,9 @@ If you have **boosted** this turn, draw a card.`,
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
-    setIdentifiers: ["ENG008","MST152","SEN014"],
-    sets: [Release.EnigmaBlitzDeck,Release.EnigmaSilverAgeDeck,Release.PartTheMistveil],
-    specialImage: "SEN014",
+    setIdentifiers: ["ENG008","MST152","SAT016","SEN014"],
+    sets: [Release.EnigmaBlitzDeck,Release.EnigmaSilverAgeDeck,Release.PartTheMistveil,Release.PrismSilverAgeDeck],
+    specialImage: "SAT016",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Illusionist Action",
@@ -406593,6 +406869,18 @@ If you have **boosted** this turn, draw a card.`,
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Shiyana,Hero.Yorick,Hero.Zyggy],
     name: "Spectral Shield",
     printings: [{
+        artists: ["Alexandra Malygina"],
+      
+      identifier: "SAT033",
+      image: "SAT033",
+      
+      
+      print: "SAT033",
+      rarity: Rarity.Basic,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Asur Misoa"],
       
       identifier: "SEN037",
@@ -406844,8 +407132,8 @@ If you have **boosted** this turn, draw a card.`,
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
-    setIdentifiers: ["APR028","DTD220","DYN233","ENG029","EVR153","FAB082","FAB285","FAB286","FAB287","MON104","MST158","PSM030","SEN037"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Dynasty,Release.EnigmaBlitzDeck,Release.EnigmaSilverAgeDeck,Release.Everfest,Release.Monarch,Release.PartTheMistveil,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["APR028","DTD220","DYN233","ENG029","EVR153","FAB082","FAB285","FAB286","FAB287","MON104","MST158","PSM030","SAT033","SEN037"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Dynasty,Release.EnigmaBlitzDeck,Release.EnigmaSilverAgeDeck,Release.Everfest,Release.Monarch,Release.PartTheMistveil,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "MST158-B",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
@@ -482888,12 +483176,24 @@ If they choose peace, the only actions they may play or activate during their ne
     artists: ["Narendra B Adi"],
     cardIdentifier: "wartune-herald-red",
     classes: [Class.Illusionist],
-    defaultImage: "APR008",
+    defaultImage: "SAT015",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Wartune Herald",
     printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SAT015",
+      image: "SAT015",
+      
+      
+      print: "SAT015",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Narendra B Adi"],
       
       identifier: "APR008",
@@ -483016,8 +483316,8 @@ If they choose peace, the only actions they may play or activate during their ne
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["APR008","DTD029","FAB035","MON026","PSM013"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["APR008","DTD029","FAB035","MON026","PSM013","SAT015"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD029",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -483059,12 +483359,24 @@ If they choose peace, the only actions they may play or activate during their ne
     artists: ["Narendra B Adi"],
     cardIdentifier: "wartune-herald-yellow",
     classes: [Class.Illusionist],
-    defaultImage: "APR014",
+    defaultImage: "SAT021",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Wartune Herald",
     printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SAT021",
+      image: "SAT021",
+      
+      
+      print: "SAT021",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Narendra B Adi"],
       
       identifier: "APR014",
@@ -483172,8 +483484,8 @@ If they choose peace, the only actions they may play or activate during their ne
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["APR014","DTD030","FAB036","MON027"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.Promos],
+    setIdentifiers: ["APR014","DTD030","FAB036","MON027","SAT021"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD030",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -483215,12 +483527,24 @@ If they choose peace, the only actions they may play or activate during their ne
     artists: ["Narendra B Adi"],
     cardIdentifier: "wartune-herald-blue",
     classes: [Class.Illusionist],
-    defaultImage: "APR023",
+    defaultImage: "SAT029",
     firstReleaseDate: "2021-05-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Prism],
     name: "Wartune Herald",
     printings: [{
+        artists: ["Narendra B Adi"],
+      
+      identifier: "SAT029",
+      image: "SAT029",
+      
+      
+      print: "SAT029",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Narendra B Adi"],
       
       identifier: "APR023",
@@ -483343,8 +483667,8 @@ If they choose peace, the only actions they may play or activate during their ne
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Common,
-    setIdentifiers: ["APR023","DTD031","FAB037","MON028","PSM020"],
-    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.Promos],
+    setIdentifiers: ["APR023","DTD031","FAB037","MON028","PSM020","SAT029"],
+    sets: [Release.ArmoryDeckLegendsPrism,Release.DuskTillDawn,Release.Monarch,Release.PrismBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DTD031",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
@@ -484077,12 +484401,24 @@ If they choose peace, the only actions they may play or activate during their ne
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "wave-of-reality",
     classes: [Class.Illusionist],
-    defaultImage: "DYN214",
+    defaultImage: "SAT008",
     firstReleaseDate: "2022-11-11",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Dromai,Hero.Enigma,Hero.Prism,Hero.Taylor,Hero.Zyggy],
     name: "Wave of Reality",
     printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "SAT008",
+      image: "SAT008",
+      
+      
+      print: "SAT008",
+      rarity: Rarity.Rare,
+      set: Release.PrismSilverAgeDeck,
+      
+      
+    },{
         artists: ["Carlos Cruchaga"],
       
       identifier: "DYN214",
@@ -484145,8 +484481,8 @@ If they choose peace, the only actions they may play or activate during their ne
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DYN214","FAB259"],
-    sets: [Release.Dynasty,Release.Promos],
+    setIdentifiers: ["DYN214","FAB259","SAT008"],
+    sets: [Release.Dynasty,Release.PrismSilverAgeDeck,Release.Promos],
     specialImage: "DYN214",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
