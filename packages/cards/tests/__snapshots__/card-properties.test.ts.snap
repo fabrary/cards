@@ -489405,7 +489405,7 @@ exports[`Check for unintentional updates Showdown (showdown-blue) vs snapshot 1`
   "defaultImage": "MPW128",
   "defense": 3,
   "firstReleaseDate": "2026-08-07",
-  "functionalText": "Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+  "functionalText": "Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
 
 **Go again**",
   "keywords": [
@@ -489497,7 +489497,7 @@ exports[`Check for unintentional updates Showdown (showdown-red) vs snapshot 1`]
   "defaultImage": "MPW126",
   "defense": 3,
   "firstReleaseDate": "2026-08-07",
-  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
 
 **Go again**",
   "keywords": [
@@ -489590,7 +489590,7 @@ exports[`Check for unintentional updates Showdown (showdown-yellow) vs snapshot 
   "defaultImage": "MPW127",
   "defense": 3,
   "firstReleaseDate": "2026-08-07",
-  "functionalText": "Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+  "functionalText": "Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
 
 **Go again**",
   "keywords": [

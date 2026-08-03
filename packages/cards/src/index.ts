@@ -381347,7 +381347,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
 
 **Go again**`,
     
@@ -381422,7 +381422,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+    functionalText: `Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
 
 **Go again**`,
     
@@ -381497,7 +381497,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token.
+    functionalText: `Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Flurry token."
 
 **Go again**`,
     
