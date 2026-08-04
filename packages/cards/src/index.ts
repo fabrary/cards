@@ -71867,6 +71867,69 @@ If a go fish effect would trigger this turn, instead it triggers twice.
   
   
   },{
+    artists: ["Thomas Ressuge"],
+    cardIdentifier: "celebrant-broadsword",
+    classes: [Class.Warrior],
+    defaultImage: "SPW004",
+    firstReleaseDate: "2026-10-30",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Zane],
+    name: "Celebrant Broadsword",
+    printings: [{
+        artists: ["Thomas Ressuge"],
+      
+      identifier: "SPW004",
+      image: "SPW004",
+      
+      
+      print: "SPW004",
+      rarity: Rarity.Rare,
+      set: Release.SmashPalaceChorusOfSteel,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SPW004"],
+    sets: [Release.SmashPalaceChorusOfSteel],
+    specialImage: "SPW004",
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
+    types: [Type.Weapon],
+    typeText: "Revered Warrior Weapon - Sword (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Once per Turn Action** - {r}: **Attack**
+
+If you've been cheered this turn, this card's attacks get **go again**.`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
     artists: ["Alexander Mokhov"],
     cardIdentifier: "celestial-cataclysm-yellow",
     classes: [Class.NotClassed],
@@ -80847,7 +80910,8 @@ At the start of your turn, destroy this.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Edward Chee"],
     cardIdentifier: "clash-of-bravado-yellow",
     classes: [Class.Guardian],
@@ -80926,8 +80990,7 @@ At the start of your turn, destroy this.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "clash-of-chests-yellow",
     classes: [Class.Guardian],
@@ -106073,6 +106136,69 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     
     
     shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Mariusz Gandzel"],
+    cardIdentifier: "cutpurse-rapier",
+    classes: [Class.Thief,Class.Warrior],
+    defaultImage: "SPW002",
+    firstReleaseDate: "2026-10-30",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Killjoy],
+    name: "Cutpurse Rapier",
+    printings: [{
+        artists: ["Mariusz Gandzel"],
+      
+      identifier: "SPW002",
+      image: "SPW002",
+      
+      
+      print: "SPW002",
+      rarity: Rarity.Rare,
+      set: Release.SmashPalaceChorusOfSteel,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["SPW002"],
+    sets: [Release.SmashPalaceChorusOfSteel],
+    specialImage: "SPW002",
+    subtypes: [Subtype.TwoHanded,Subtype.Sword],
+    types: [Type.Weapon],
+    typeText: "Warrior Thief Weapon - Sword (2H)",
+
+    
+    
+    
+    
+    
+    functionalText: `**Once per Turn Action** - {r}: **Attack**
+
+When this hits a hero, **steal** a Gold token they control.`,
+    
+    
+    
+    
+    keywords: [Keyword.Steal],
+    
+    
+    meta: [Meta.Arena,Meta.DualClass],
+  
+    
+    
+    power: 3,
+    
+    
     
     
     
@@ -159536,7 +159662,8 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "fiddlers-green-yellow",
     classes: [Class.Generic],
@@ -159694,8 +159821,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Andi Cahyo W"],
     cardIdentifier: "fight-dirty-red",
     classes: [Class.NotClassed],
@@ -241047,7 +241173,8 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     talents: [Talent.Reviled],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "lava-burst-red",
     classes: [Class.NotClassed],
@@ -241265,8 +241392,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     talents: [Talent.Draconic],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Maerel Hibadita"],
     cardIdentifier: "lava-vein-loyalty-yellow",
     classes: [Class.Ninja],
@@ -322283,7 +322409,8 @@ The next attack you **boost** this turn gets +3{p}.
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "quickfire-blue",
     classes: [Class.Mechanologist],
@@ -322507,8 +322634,7 @@ If another weapon you control has gained **go again** this turn, this card's att
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Surya Prasetya"],
     cardIdentifier: "quicksilver-dance-blue",
     classes: [Class.Warrior],
@@ -402838,7 +402964,8 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "soul-butcher-yellow",
     classes: [Class.NotClassed],
@@ -403000,8 +403127,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     talents: [Talent.Shadow],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Marcus Reyno"],
     cardIdentifier: "soul-cleaver-red",
     classes: [Class.NotClassed],
@@ -481063,7 +481189,8 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "wallop-yellow",
     classes: [Class.Guardian],
@@ -481251,8 +481378,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "wander-with-purpose-yellow",
     classes: [Class.Ninja],

@@ -3551,6 +3551,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/celebrant-broadsword</loc>
+    <lastmod>2026-08-04</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/celestial-cataclysm-yellow</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -5278,6 +5283,11 @@
   <url>
     <loc>https://fabrary.net/cards/cut-to-the-chase-blue</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/cutpurse-rapier</loc>
+    <lastmod>2026-08-04</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
