@@ -91285,6 +91285,77 @@ If a go fish effect would trigger this turn, instead it triggers twice.
 }
 `;
 
+exports[`Check for unintentional updates Celebrant Broadsword (celebrant-broadsword) vs snapshot 1`] = `
+{
+  "artists": [
+    "Thomas Ressuge",
+  ],
+  "cardIdentifier": "celebrant-broadsword",
+  "classes": [
+    "Warrior",
+  ],
+  "defaultImage": "SPW004",
+  "firstReleaseDate": "2026-10-30",
+  "functionalText": "**Once per Turn Action** - {r}: **Attack**
+
+If you've been cheered this turn, this card's attacks get **go again**.",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Zane",
+  ],
+  "meta": [
+    "Arena",
+  ],
+  "name": "Celebrant Broadsword",
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Thomas Ressuge",
+      ],
+      "identifier": "SPW004",
+      "image": "SPW004",
+      "print": "SPW004",
+      "rarity": "Rare",
+      "set": "Smash Palace: Chorus of Steel",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "SPW004",
+  ],
+  "sets": [
+    "Smash Palace: Chorus of Steel",
+  ],
+  "specialImage": "SPW004",
+  "subtypes": [
+    "2H",
+    "Sword",
+  ],
+  "talents": [
+    "Revered",
+  ],
+  "typeText": "Revered Warrior Weapon - Sword (2H)",
+  "types": [
+    "Weapon",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Celestial Cataclysm (celestial-cataclysm-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -135144,6 +135215,76 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
   "typeText": "Assassin Attack Reaction",
   "types": [
     "Attack Reaction",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Cutpurse Rapier (cutpurse-rapier) vs snapshot 1`] = `
+{
+  "artists": [
+    "Mariusz Gandzel",
+  ],
+  "cardIdentifier": "cutpurse-rapier",
+  "classes": [
+    "Thief",
+    "Warrior",
+  ],
+  "defaultImage": "SPW002",
+  "firstReleaseDate": "2026-10-30",
+  "functionalText": "**Once per Turn Action** - {r}: **Attack**
+
+When this hits a hero, **steal** a Gold token they control.",
+  "keywords": [
+    "Steal",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Killjoy",
+  ],
+  "meta": [
+    "Arena",
+    "Dual class",
+  ],
+  "name": "Cutpurse Rapier",
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "identifier": "SPW002",
+      "image": "SPW002",
+      "print": "SPW002",
+      "rarity": "Rare",
+      "set": "Smash Palace: Chorus of Steel",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "SPW002",
+  ],
+  "sets": [
+    "Smash Palace: Chorus of Steel",
+  ],
+  "specialImage": "SPW002",
+  "subtypes": [
+    "2H",
+    "Sword",
+  ],
+  "typeText": "Warrior Thief Weapon - Sword (2H)",
+  "types": [
+    "Weapon",
   ],
 }
 `;

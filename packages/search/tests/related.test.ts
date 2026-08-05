@@ -57,6 +57,22 @@ describe("Related cards", () => {
     },
   );
 
+  it.each(related)(
+    "Gets other pitches without the reference scan for %s",
+    (cardName, otherPitchesCount) => {
+      const card = cards.find(({ name }) => name === cardName) as Card;
+      const { otherPitches, referencedBy, references } = getRelatedCards(
+        card,
+        cards,
+        { shouldSkipReferences: true },
+      );
+
+      expect(otherPitches.length).toEqual(otherPitchesCount);
+      expect(referencedBy).toEqual([]);
+      expect(references).toEqual([]);
+    },
+  );
+
   const tokens: string[][][] = [
     [["Swing Big", "Civic Steps"], ["Quicken"]],
     [

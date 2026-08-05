@@ -26,6 +26,11 @@ export const getRelatedCardsByName = (name: string, cards: Card[]) => {
 export const getRelatedCards = (
   card: Card,
   availableCards: Card[],
+  // The reference matching dominates the loop's cost (regex construction and
+  // functional-text scans per candidate); the pitch-sibling match is a few
+  // string comparisons. Consumers that only need otherPitches can skip the
+  // scan and get empty reference lists.
+  options?: { shouldSkipReferences?: boolean },
 ): { otherPitches: Card[]; referencedBy: Card[]; references: Card[] } => {
   const otherPitchMapping: { [key: string]: Card } = {};
   const referencedByMapping: { [key: string]: Card } = {};
@@ -48,7 +53,7 @@ export const getRelatedCards = (
 
       if (sameName && differentCard && differentPitch) {
         otherPitchMapping[other.cardIdentifier] = other;
-      } else if (!sameName) {
+      } else if (!sameName && !options?.shouldSkipReferences) {
         const isCardSeismicSurge = card.name === "Seismic Surge";
         const isOtherCardHeaved = other.keywords?.includes(Keyword.Heave);
         const isOtherCardHeaveOverride =
