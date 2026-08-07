@@ -109025,7 +109025,7 @@ At the beginning of your end phase, if this hasn't hit this turn, remove all +1{
     typeText: "Warrior Weapon - Sword (2H)",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     
     
     
@@ -121411,7 +121411,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     typeText: "Warrior Hero - Young",
 
     
-    bannedFormats: [Format.SilverAge],
+    
     
     
     
