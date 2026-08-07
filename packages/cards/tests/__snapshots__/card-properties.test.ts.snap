@@ -138559,9 +138559,6 @@ exports[`Check for unintentional updates Dawnblade, Resplendent (dawnblade-respl
   "artists": [
     "Nikolay Moskvin",
   ],
-  "bannedFormats": [
-    "Silver Age",
-  ],
   "cardIdentifier": "dawnblade-resplendent",
   "classes": [
     "Warrior",
@@ -154096,9 +154093,6 @@ exports[`Check for unintentional updates Dorinthea, Quicksilver Prodigy (dorinth
 {
   "artists": [
     "Lius Lasahido",
-  ],
-  "bannedFormats": [
-    "Silver Age",
   ],
   "cardIdentifier": "dorinthea-quicksilver-prodigy",
   "classes": [

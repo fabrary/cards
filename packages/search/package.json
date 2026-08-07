@@ -44,7 +44,7 @@
     "@flesh-and-blood/types": "^4.0.0"
   },
   "devDependencies": {
-    "@flesh-and-blood/cards": "file:../cards",
+    "@flesh-and-blood/cards": "^4.0.52",
     "@flesh-and-blood/types": "^4.0.48",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",
@@ -75,5 +75,5 @@
     "FAB",
     "FABTCG"
   ],
-  "gitHead": "621a4ccc12f40d351b1ca49bcc7ea8a83ca15310"
+  "gitHead": "ac5c044b62bd3cf36b182913965c7a995f1e4f9a"
 }
