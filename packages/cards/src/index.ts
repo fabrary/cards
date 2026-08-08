@@ -295,7 +295,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -616,7 +616,7 @@ If you've played another blue card this turn, **transcend**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -1103,7 +1103,7 @@ When Absorption Dome has no steam counters on it, destroy it.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -1229,7 +1229,7 @@ When this leaves the arena, your next attack this turn gets +6{p}.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -1406,7 +1406,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -1796,7 +1796,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -1920,7 +1920,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -2044,7 +2044,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -2317,7 +2317,7 @@ Create a Ponder token for each hero dealt damage this way.`,
     keywords: [Keyword.ArcaneBarrier],
     
     life: 1,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -2537,7 +2537,7 @@ Create a Ponder token for each hero dealt damage this way.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -2979,7 +2979,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -3105,7 +3105,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -3231,7 +3231,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -3483,7 +3483,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -3579,7 +3579,7 @@ Deal 5 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -3675,7 +3675,7 @@ Deal 4 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -3771,7 +3771,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -3912,7 +3912,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -4053,7 +4053,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.GoAgain,Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -4164,7 +4164,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.GoAgain,Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -4290,7 +4290,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.GoAgain,Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -4418,7 +4418,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -4796,7 +4796,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -4922,7 +4922,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -5063,7 +5063,7 @@ Deal 3 arcane damage to any target. If Aether Icevein was **fused** and deals da
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -5458,7 +5458,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -5582,7 +5582,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -6210,7 +6210,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -6398,7 +6398,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -6507,7 +6507,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -6616,7 +6616,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -6740,7 +6740,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -6960,7 +6960,7 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -7536,7 +7536,7 @@ When you attack with Alpha Rampage, **intimidate**.`,
     keywords: [Keyword.Intimidate,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -8057,7 +8057,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -8181,7 +8181,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -8320,7 +8320,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -8621,7 +8621,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -8939,7 +8939,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -9242,7 +9242,7 @@ When this hits a hero, banish the top card of their deck and a defending card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -9543,7 +9543,7 @@ Draw a card.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -10319,7 +10319,7 @@ Your next angel attack this turn gets +1{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -10639,7 +10639,7 @@ Your next angel attack this turn gets +1{p}.`,
     keywords: [Keyword.WateryGrave],
     
     life: 3,
-    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 2,
@@ -11066,7 +11066,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -11243,7 +11243,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -11527,7 +11527,7 @@ While there are 2 or more cards with cost 3 or greater in your pitch zone, Anoth
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -11866,7 +11866,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -12231,7 +12231,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.Cloaked],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -12370,7 +12370,7 @@ At the start of your turn, destroy this.`,
     
     
     life: 20,
-    meta: [Meta.Expansion],
+    meta: [Meta.Expansion,Meta.Reprint],
   
     
     
@@ -12506,7 +12506,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.GoAgain],
     
     life: 38,
-    meta: [Meta.Expansion],
+    meta: [Meta.Expansion,Meta.Reprint],
   
     
     
@@ -12644,7 +12644,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -12782,7 +12782,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -12918,7 +12918,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     life: 40,
-    meta: [Meta.Expansion],
+    meta: [Meta.Expansion,Meta.Reprint],
   
     
     
@@ -13181,7 +13181,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -13319,7 +13319,7 @@ At the beginning of your end phase, **return to the brood**.`,
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -13458,7 +13458,7 @@ At the beginning of your end phase, **return to the brood**.`,
     keywords: [Keyword.GoAgain],
     
     life: 19,
-    meta: [Meta.Expansion],
+    meta: [Meta.Expansion,Meta.Reprint],
   
     
     
@@ -13598,7 +13598,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -13736,7 +13736,7 @@ At the beginning of your end phase, **return to the brood**.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -13862,7 +13862,7 @@ At the beginning of your end phase, if an opponent is **marked**, you become a r
     keywords: [Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -14086,7 +14086,7 @@ Opponents must choose this as the target of attacks if able.
     keywords: [Keyword.Specialization,Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -14201,7 +14201,7 @@ The next action card you play this turn gets **go again**.
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -14621,7 +14621,7 @@ When this leaves the arena during your turn, create 3 Runechant tokens.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -14719,7 +14719,7 @@ When this leaves the arena during your turn, create 2 Runechant tokens.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -14817,7 +14817,7 @@ When this leaves the arena during your turn, create a Runechant token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -14926,7 +14926,7 @@ When this leaves the arena during your turn, create a Runechant token.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -15064,7 +15064,7 @@ If you've been dealt arcane damage this turn, instead gain 4{h}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -15358,7 +15358,7 @@ Gain 1{h}`,
     keywords: [Keyword.GoAgain,Keyword.Meld],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -15454,7 +15454,7 @@ Gain 1{h}`,
     keywords: [Keyword.Amp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -15661,7 +15661,7 @@ Gain 1{h}`,
     keywords: [Keyword.Amp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -15785,7 +15785,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -16033,7 +16033,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -16507,7 +16507,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -17175,7 +17175,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
     keywords: [Keyword.ArcaneBarrier,Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -17751,7 +17751,7 @@ When this hits, create Runechant tokens equal to the damage dealt this way.
     keywords: [Keyword.Dominate,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -17844,7 +17844,7 @@ When this is pitched, create a Runechant token.`,
     keywords: [Keyword.Legendary,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -17955,7 +17955,7 @@ When this is pitched, create a Runechant token.`,
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -18162,7 +18162,7 @@ Whenever this banishes a red card, draw a card and gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -18260,7 +18260,7 @@ Whenever this banishes a blue card, draw a card and gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -18655,7 +18655,7 @@ Whenever this banishes a yellow card, draw a card and gain 1{h}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -18976,7 +18976,7 @@ Draw 2 card.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -19085,7 +19085,7 @@ Draw 2 card.`,
     keywords: [Keyword.Material,Keyword.Phantasm],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -19337,7 +19337,7 @@ Draw 2 card.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -19527,7 +19527,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
     keywords: [Keyword.BeatChest],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -19623,7 +19623,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
     keywords: [Keyword.BeatChest],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -19734,7 +19734,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
     keywords: [Keyword.BeatChest],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -20231,7 +20231,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -20408,7 +20408,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -20662,7 +20662,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -20837,7 +20837,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -21155,7 +21155,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
     keywords: [Keyword.Essence],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -21481,7 +21481,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
     keywords: [Keyword.Essence],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -21882,7 +21882,7 @@ Your Mechanologist attack action cards get "When this hits, put it on the bottom
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -22036,7 +22036,7 @@ Your Mechanologist attack action cards get "When this hits, put it on the bottom
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -22235,7 +22235,7 @@ Your Mechanologist attack action cards get "When this hits, put it on the bottom
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -22459,7 +22459,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 3,
@@ -22602,7 +22602,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
     keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -22843,7 +22843,7 @@ When Avalon attacks, you may banish a card from your hero's soul. If you do, put
     keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -23155,7 +23155,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -23351,7 +23351,7 @@ Search your deck for a Guardian attack action card with cost less than or equal 
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -23880,7 +23880,7 @@ Attack action cards played from your banished zone get +3{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -24035,7 +24035,7 @@ Attack action cards played from your banished zone get +3{p}.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -24129,7 +24129,7 @@ Attack action cards played from your banished zone get +3{p}.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -24319,7 +24319,7 @@ Defense reaction cards can't be played this chain link.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -24569,7 +24569,7 @@ Defense reaction cards can't be played this chain link.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -24746,7 +24746,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     keywords: [Keyword.Crank],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -24859,7 +24859,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     keywords: [Keyword.Crank],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -25640,7 +25640,7 @@ The next time an attack you control hits this turn, create a Might token.
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -25751,7 +25751,7 @@ If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -26423,7 +26423,7 @@ When this hits a hero, put a steam counter on an item you control with crank.`,
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -26814,7 +26814,7 @@ When this hits a hero, put a steam counter on an item you control with crank.`,
     keywords: [Keyword.Solflare],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -26923,7 +26923,7 @@ When this hits a hero, put a steam counter on an item you control with crank.`,
     keywords: [Keyword.Solflare],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -27032,7 +27032,7 @@ When this hits a hero, put a steam counter on an item you control with crank.`,
     keywords: [Keyword.Solflare],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -27222,7 +27222,7 @@ When this hits a hero, put a steam counter on an item you control with crank.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -27316,7 +27316,7 @@ When this hits a hero, put a steam counter on an item you control with crank.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -27551,7 +27551,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -27690,7 +27690,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -27784,7 +27784,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -28138,7 +28138,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -28360,7 +28360,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     keywords: [Keyword.WateryGrave],
     
     life: 3,
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 2,
@@ -28500,7 +28500,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -28670,7 +28670,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -28840,7 +28840,7 @@ When this attacks, if you've beaten chest this turn and you don't control a ches
     keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -29406,7 +29406,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -29530,7 +29530,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -29626,7 +29626,7 @@ While Barraging Big Horn is defended by less than 2 non-equipment cards, it has 
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -30439,7 +30439,7 @@ When this hits a Guardian hero, destroy an aura token they control.`,
     keywords: [Keyword.HighTide],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -31183,7 +31183,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -31307,7 +31307,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -31768,7 +31768,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -31877,7 +31877,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -31986,7 +31986,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -32082,7 +32082,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -32193,7 +32193,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -32304,7 +32304,7 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -32609,7 +32609,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -32720,7 +32720,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -33053,7 +33053,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -33177,7 +33177,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -33474,7 +33474,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -33764,7 +33764,7 @@ If a yellow card is **charged** this way, this gets +1{p}`,
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -33877,7 +33877,7 @@ If you control a Vigor token, this gets +1{d}.
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -34161,7 +34161,7 @@ If you control a Vigor token, this gets +1{d}.
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -34599,7 +34599,7 @@ When this hits, your next blue attack this turn gets +1{p} and **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -34740,7 +34740,7 @@ You may discard an action card. If you discard an attack action card this way, s
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -36230,7 +36230,7 @@ The first time an attack action card you control hits each turn, your next attac
     
     
     life: 17,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -36827,7 +36827,7 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
     keywords: [Keyword.Overpower],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -37221,7 +37221,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -37564,7 +37564,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -37658,7 +37658,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -37831,7 +37831,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -38176,7 +38176,7 @@ Draw a card, then discard a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -38420,7 +38420,7 @@ Draw a card, then discard a card.
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -38593,7 +38593,7 @@ Draw a card, then discard a card.
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -38689,7 +38689,7 @@ Draw a card, then discard a card.
     keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -39192,7 +39192,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -39480,7 +39480,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -39717,7 +39717,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -39813,7 +39813,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -39909,7 +39909,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -40005,7 +40005,7 @@ When this attacks a hero, you may have target dagger you control deal 1 damage t
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -40242,7 +40242,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -40449,7 +40449,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -40605,7 +40605,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -40810,7 +40810,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -40934,7 +40934,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -41058,7 +41058,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -41435,7 +41435,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -41621,7 +41621,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -41837,7 +41837,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -41948,7 +41948,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -42220,7 +42220,7 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -42313,7 +42313,7 @@ Your next weapon attack this turn gets +2{p}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -42687,7 +42687,7 @@ Your second sword attack this turn gets +1{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -43427,7 +43427,7 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -43739,7 +43739,7 @@ Whenever Blasmophet attacks, you may banish a Shadow card from your hand. If you
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -44042,7 +44042,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -44138,7 +44138,7 @@ Deal X arcane damage to target hero, where X is the amount of arcane damage you 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -44906,7 +44906,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -45049,7 +45049,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -45207,7 +45207,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -46264,7 +46264,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -46358,7 +46358,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -46467,7 +46467,7 @@ At the beginning of your action phase, destroy Blessing of Deliverance then reve
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -48441,7 +48441,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     keywords: [Keyword.Fragment],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -48881,7 +48881,7 @@ Target attacking or defending attack action card gets -1{p}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -49073,7 +49073,7 @@ If Blizzard Bolt was **fused**, whenever an attack deals damage to a hero this t
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -50357,7 +50357,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -50795,7 +50795,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -50891,7 +50891,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -51087,7 +51087,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -51196,7 +51196,7 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -51324,7 +51324,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -51465,7 +51465,7 @@ If the discarded card has 6 or more {p}, draw 2 cards and Bloodrush Bellow gains
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -51593,7 +51593,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -51721,7 +51721,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -51849,7 +51849,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -51973,7 +51973,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -52286,7 +52286,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -52380,7 +52380,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -52474,7 +52474,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -52568,7 +52568,7 @@ When your hero is dealt damage, destroy Bloodspill Invocation.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -53041,7 +53041,7 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -53748,7 +53748,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -53889,7 +53889,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -54015,7 +54015,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -54111,7 +54111,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -54280,7 +54280,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -54772,7 +54772,7 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
     keywords: [Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -54947,7 +54947,7 @@ If you've played or activated 3 or more attack reactions this chain link, this g
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -55369,7 +55369,7 @@ Whenever this banishes a card and this has banished another card with the same c
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -55467,7 +55467,7 @@ Whenever this banishes a card and this has banished another card with the same n
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -55648,7 +55648,7 @@ Whenever this banishes a card and this has banished another card with the same n
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -56096,7 +56096,7 @@ Your next Brute attack this turn gains +3{p}. If you've **beaten chest** this tu
     keywords: [Keyword.BeatChest,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -56194,7 +56194,7 @@ Your next Brute attack this turn gains +2{p}. If you've **beaten chest** this tu
     keywords: [Keyword.BeatChest,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -56307,7 +56307,7 @@ Your next Brute attack this turn gains +1{p}. If you've **beaten chest** this tu
     keywords: [Keyword.BeatChest,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -56448,7 +56448,7 @@ Your next Brute attack this turn gains +1{p}. If you've **beaten chest** this tu
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -56685,7 +56685,7 @@ Your next Brute attack this turn gains +1{p}. If you've **beaten chest** this tu
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -56896,7 +56896,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     keywords: [Keyword.Crank],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -56994,7 +56994,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     keywords: [Keyword.Crank],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -57320,7 +57320,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -57433,7 +57433,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.GoAgain,Keyword.TheCrowdBoos],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -57554,7 +57554,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -57736,7 +57736,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -57845,7 +57845,7 @@ At the start of your turn, destroy this.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -57971,7 +57971,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -58332,7 +58332,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -58784,7 +58784,7 @@ Target opponent reveals their hand. If Brain Freeze was **fused**, put an action
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -58993,7 +58993,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -59238,7 +59238,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -59349,7 +59349,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -59445,7 +59445,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -59541,7 +59541,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -59997,7 +59997,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -60181,7 +60181,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -60320,7 +60320,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -60501,7 +60501,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -60951,7 +60951,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -61788,7 +61788,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -61929,7 +61929,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -62055,7 +62055,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -62181,7 +62181,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -62610,7 +62610,7 @@ If the discarded card has 6 or more {p}, Breakneck Battery gains **go again**.`,
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -62879,7 +62879,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     keywords: [Keyword.Essence],
     
     life: 20,
-    meta: [Meta.Expansion],
+    meta: [Meta.Expansion,Meta.Reprint],
   
     
     
@@ -63064,7 +63064,7 @@ Whenever you play your second 'non-attack' action card each turn, create an Embo
     keywords: [Keyword.Essence],
     
     life: 40,
-    meta: [Meta.Expansion],
+    meta: [Meta.Expansion,Meta.Reprint],
   
     
     
@@ -63314,7 +63314,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -63408,7 +63408,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -63547,7 +63547,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -63816,7 +63816,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -63989,7 +63989,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -64098,7 +64098,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -64207,7 +64207,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -64331,7 +64331,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -64564,7 +64564,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -65142,7 +65142,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -65281,7 +65281,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -65435,7 +65435,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -65559,7 +65559,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -65653,7 +65653,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -65747,7 +65747,7 @@ Reveal cards from the top of your deck until you've revealed a red card. Banish 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -66146,7 +66146,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -66556,7 +66556,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -66819,7 +66819,7 @@ If there are 10 or more defense reaction cards in their graveyard, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -67540,7 +67540,7 @@ Deal 1 arcane damage to any target.`,
     keywords: [Keyword.GoAgain,Keyword.Meld],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -67634,7 +67634,7 @@ Deal 1 arcane damage to any target.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -67839,7 +67839,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -67965,7 +67965,7 @@ If Buzz Bolt was **fused**, whenever an attack hits a hero this turn, it deals 1
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -68742,7 +68742,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -68915,7 +68915,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -69175,7 +69175,7 @@ You may put an arrow from your hand face-up into your arsenal.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -69482,7 +69482,7 @@ You may put an arrow from your hand face-up into your arsenal.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -69768,7 +69768,7 @@ You may put an arrow from your hand face-up into your arsenal.
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -70587,7 +70587,7 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -70841,7 +70841,7 @@ The next attack action card with cost 0 you play this turn gains **go again**.
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -71108,7 +71108,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -71247,7 +71247,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -71401,7 +71401,7 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -72038,7 +72038,7 @@ If you've been cheered this turn, this card's attacks get **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -72941,7 +72941,7 @@ If you have played another Wizard 'non-attack' action card this turn, deal 3 arc
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -73532,7 +73532,7 @@ When this hits a Brute hero, they discard a card. If it has 6 or more {p}, you l
     keywords: [Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -75804,7 +75804,7 @@ The next time you would lose a wager this turn, instead you may discard a card. 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -75891,7 +75891,7 @@ The next time you would lose a wager this turn, instead you may discard a card. 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -75978,7 +75978,7 @@ The next time you would lose a wager this turn, instead you may discard a card. 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -76473,7 +76473,7 @@ While Ruk'utan is face up in arsenal, whenever you play a card with 6 or more {p
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -76821,7 +76821,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -77180,7 +77180,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -77334,7 +77334,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -77503,7 +77503,7 @@ If Chilling Icevein was **fused**, whenever an attack deals damage to a hero thi
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -77925,7 +77925,7 @@ Create 3 Runechant tokens.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -78513,7 +78513,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -78668,7 +78668,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -78823,7 +78823,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -78932,7 +78932,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -79120,7 +79120,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -79231,7 +79231,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -79642,7 +79642,7 @@ Whenever Cintari Saber is defended by 1 or more attack action cards, it gains +1
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -79933,7 +79933,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -80656,7 +80656,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -81304,7 +81304,7 @@ const cards2: Card[] = [{
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -81398,7 +81398,7 @@ const cards2: Card[] = [{
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -81492,7 +81492,7 @@ const cards2: Card[] = [{
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -81744,7 +81744,7 @@ const cards2: Card[] = [{
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -82090,7 +82090,7 @@ const cards2: Card[] = [{
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -82672,7 +82672,7 @@ Destroy target blue aura.`,
     keywords: [Keyword.Fragment],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -82768,7 +82768,7 @@ Destroy target blue aura.`,
     keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -83660,7 +83660,7 @@ You may destroy a Bloodrot Pox token you control. If you do, gain 1{h}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -83754,7 +83754,7 @@ You may destroy a Bloodrot Pox token you control. If you do, gain 1{h}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -84437,7 +84437,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -84576,7 +84576,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -84719,7 +84719,7 @@ When Coalescence Mirage is destroyed, you may put an Illusionist aura card with 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -84945,7 +84945,7 @@ Create a Ponder token under your control and a Frailty token under each opponent
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 2,
@@ -85570,7 +85570,7 @@ You may {t} a cog you control. If you do, put this on the bottom of its owner's 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -86755,7 +86755,7 @@ If Cold Snap is played from arsenal, draw a card.
     keywords: [Keyword.Freeze,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -87357,7 +87357,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     keywords: [Keyword.Tower],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -87483,7 +87483,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -87609,7 +87609,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -87735,7 +87735,7 @@ When this defends an attack with **go again**, the attacking hero discards their
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -87957,7 +87957,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -88098,7 +88098,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -88254,7 +88254,7 @@ You may banish a non-equipment defending card with {d} less than the number of D
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -88638,7 +88638,7 @@ If you've been cheered this turn, this gets +1{p}.`,
     keywords: [Keyword.TheCrowdCheers],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -88996,7 +88996,7 @@ Deal 1 arcane damage to any target.`,
     keywords: [Keyword.Meld],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -89210,7 +89210,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Expansion],
+    meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 1,
@@ -89319,7 +89319,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -89507,7 +89507,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -89686,7 +89686,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -89971,7 +89971,7 @@ The first card with watery grave you play from your graveyard each turn gets **g
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -90323,7 +90323,7 @@ At the beginning of your end phase, destroy this.`,
     keywords: [Keyword.TheCrowdBoos],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -90579,7 +90579,7 @@ While this is equipped face-down, when an attack with {p} greater than its base 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -90861,7 +90861,7 @@ While this is equipped face-down, when an attack with {p} greater than its base 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -91064,7 +91064,7 @@ While this is equipped face-down, when an attack with {p} greater than its base 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -91177,7 +91177,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -91373,7 +91373,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -91575,7 +91575,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -93178,7 +93178,7 @@ Deal 1 arcane damage to any target.`,
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -93535,7 +93535,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -93659,7 +93659,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -93783,7 +93783,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -94005,7 +94005,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -94359,7 +94359,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -94543,7 +94543,7 @@ If a card with 6 or more {p} is banished this way, the next attack action card y
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -95070,7 +95070,7 @@ This enters the arena with 2 steam counters. At the start of your turn, destroy 
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -95814,7 +95814,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
     keywords: [Keyword.Fragment],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -96262,7 +96262,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -96653,7 +96653,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -96794,7 +96794,7 @@ Your aura attacks with one or more +1{p} counters get **go again**.`,
     keywords: [Keyword.GoAgain,Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -97031,7 +97031,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -97155,7 +97155,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -97628,7 +97628,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -97810,7 +97810,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -97906,7 +97906,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -98158,7 +98158,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -98282,7 +98282,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -98406,7 +98406,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -98530,7 +98530,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -98656,7 +98656,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -98767,7 +98767,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -98893,7 +98893,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -98987,7 +98987,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -99160,7 +99160,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -99482,7 +99482,7 @@ When this hits a hero, destroy the top card of their deck.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -99768,7 +99768,7 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
     keywords: [Keyword.GoAgain,Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -100007,7 +100007,7 @@ When this attacks, if it scrapped a card, this gets **go again**. If a cog was s
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -100387,7 +100387,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
     keywords: [Keyword.Crush,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -100481,7 +100481,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -100842,7 +100842,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -100966,7 +100966,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -101225,7 +101225,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
     keywords: [Keyword.Ephemeral,Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -101351,7 +101351,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -101793,7 +101793,7 @@ Whenever an arrow is put face up into your arsenal from your deck, you may pay {
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -102237,7 +102237,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -102596,7 +102596,7 @@ When you equip Crown of Dominion, create a Gold token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -102929,7 +102929,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -103068,7 +103068,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -103222,7 +103222,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -103346,7 +103346,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -103470,7 +103470,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -103609,7 +103609,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -104191,7 +104191,7 @@ Each hero banishes a card from their hand.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -104285,7 +104285,7 @@ Each hero banishes a card from their hand.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -104787,7 +104787,7 @@ If it has 1 or more +1{p} counters, its next attack this turn gets **dominate**.
     keywords: [Keyword.Dominate,Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -105128,7 +105128,7 @@ If it has 3 or more +1{p} counters, its next attack this turn gets **dominate**.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -105301,7 +105301,7 @@ If it has 3 or more +1{p} counters, its next attack this turn gets **dominate**.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -105883,7 +105883,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -106006,7 +106006,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -106129,7 +106129,7 @@ Look at the top card of the defending hero's deck. You may put it on the bottom.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -106445,7 +106445,7 @@ When this hits a hero, **steal** a Gold token they control.`,
     keywords: [Keyword.GoAgain,Keyword.WateryGrave],
     
     life: 4,
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 2,
@@ -107149,7 +107149,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -107397,7 +107397,7 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -107562,7 +107562,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     life: 36,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -107688,7 +107688,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     life: 18,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -107854,7 +107854,7 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -108074,7 +108074,7 @@ The first time this deals damage to a hero, create an Embodiment of Lightning to
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -108185,7 +108185,7 @@ When this hits, **opt 1**.`,
     keywords: [Keyword.Boost,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -108362,7 +108362,7 @@ When this hits, **opt 1**.`,
     keywords: [Keyword.Boost,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -108946,7 +108946,7 @@ At the beginning of your end phase, if this hasn't hit this turn, remove all +1{
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -109039,7 +109039,7 @@ The second time you attack with this each turn, it gets +1{p} until end of turn.
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -109165,7 +109165,7 @@ If Dazzling Crescendo was **fused**, it gains **go again**.`,
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -109654,7 +109654,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -109815,7 +109815,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -110184,7 +110184,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -110472,7 +110472,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -110709,7 +110709,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -110968,7 +110968,7 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -111079,7 +111079,7 @@ When this hits a hero, create a Frailty, Inertia, or Bloodrot Pox token under th
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -112230,7 +112230,7 @@ When a hero deals lethal damage to another hero, they create Gold tokens equal t
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -112384,7 +112384,7 @@ When a hero deals lethal damage to another hero, they create Gold tokens equal t
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -112538,7 +112538,7 @@ When a hero deals lethal damage to another hero, they create Gold tokens equal t
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -112770,7 +112770,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -112879,7 +112879,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -113517,7 +113517,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -114143,7 +114143,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -114723,7 +114723,7 @@ If a Chi was pitched to play this, effects don't trigger if an attack hits you t
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -114819,7 +114819,7 @@ If a Chi was pitched to play this, effects don't trigger if an attack hits you t
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -114998,7 +114998,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -115179,7 +115179,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -115354,7 +115354,7 @@ Whenever this banishes an attack action card, gain 1{h}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -117834,7 +117834,7 @@ Each hero banishes a card from their arsenal.
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -117988,7 +117988,7 @@ Each hero banishes a card from their arsenal.
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -118187,7 +118187,7 @@ Each hero banishes a card from their arsenal.
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -118825,7 +118825,7 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -119409,7 +119409,7 @@ At the beginning of your action phase, destroy Dissipation Shield unless you rem
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -119671,7 +119671,7 @@ This enters the arena with 3 steam counters. At the start of your turn, destroy 
     keywords: [Keyword.Crank],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -120257,7 +120257,7 @@ When this hits, **opt 1**.`,
     keywords: [Keyword.Boost,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -120755,7 +120755,7 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -121112,7 +121112,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -121308,7 +121308,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -121423,7 +121423,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -121519,7 +121519,7 @@ Create a Blasmophet, the Soul Harvester token.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -121796,7 +121796,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -122319,7 +122319,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
     keywords: [Keyword.Overpower],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -122816,7 +122816,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -123241,7 +123241,7 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -123874,7 +123874,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -123972,7 +123972,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -124070,7 +124070,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -124167,7 +124167,7 @@ Draw a card.
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -124370,7 +124370,7 @@ When this attacks, draw a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -124720,7 +124720,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -124961,7 +124961,7 @@ If a card with 6 or more {p} is banished this way, Dread Screamer gains **go aga
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -125217,7 +125217,7 @@ If Dread Triptych hits, create a Runechant token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -125436,7 +125436,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     keywords: [Keyword.GoAgain,Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -125532,7 +125532,7 @@ Arrows you control have "Defense reactions can't be played from hand this chain 
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -125643,7 +125643,7 @@ When this hits a hero, put a -1{d} counter on an equipment they control.`,
     keywords: [Keyword.Piercing],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -126178,7 +126178,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -126319,7 +126319,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -126460,7 +126460,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -126586,7 +126586,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     keywords: [Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -126833,7 +126833,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -127066,7 +127066,7 @@ If you've played a red card this turn, dragons you control have **go again** whi
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -127260,7 +127260,7 @@ Gain {r}. Draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -127706,7 +127706,7 @@ When Drowning Dire hits, you may put a 'non-attack' action card from your gravey
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -128205,7 +128205,7 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -128611,7 +128611,7 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -129574,7 +129574,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -129747,7 +129747,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -129841,7 +129841,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     keywords: [Keyword.Transform],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -130125,7 +130125,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -130221,7 +130221,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -130590,7 +130590,7 @@ Target dagger attack gets +3{p}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -130782,7 +130782,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -130955,7 +130955,7 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -131401,7 +131401,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -131653,7 +131653,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -131779,7 +131779,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
     keywords: [Keyword.Fragment,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -131956,7 +131956,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
     keywords: [Keyword.Fragment,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -132112,7 +132112,7 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
     keywords: [Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -132643,7 +132643,7 @@ Create an Ursur, the Soul Reaper token.`,
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -132739,7 +132739,7 @@ Create an Ursur, the Soul Reaper token.`,
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -132835,7 +132835,7 @@ Create an Ursur, the Soul Reaper token.`,
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -133079,7 +133079,7 @@ Create an Ursur, the Soul Reaper token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -133205,7 +133205,7 @@ When this leaves the arena, your next attack this turn gets +5{p}.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -133412,7 +133412,7 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -133519,7 +133519,7 @@ If it has 1 or more +1{p} counters, create a Flurry token.
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -133611,7 +133611,7 @@ If it has 2 or more +1{p} counters, create a Flurry token.
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -133703,7 +133703,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -133827,7 +133827,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -133951,7 +133951,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -134075,7 +134075,7 @@ If it has 3 or more +1{p} counters, create a Flurry token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -134203,7 +134203,7 @@ If Electrify is played from arsenal, draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -134331,7 +134331,7 @@ If Electrify is played from arsenal, draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -134474,7 +134474,7 @@ If Electrify is played from arsenal, draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -134835,7 +134835,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -135132,7 +135132,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -135335,7 +135335,7 @@ If Electrify is played from arsenal, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -135885,7 +135885,7 @@ The first time this deals damage to a hero, you may put an instant card from you
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -136226,7 +136226,7 @@ When Embermaw Cenipai is destroyed, create an Ash token.`,
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -136586,7 +136586,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -136830,7 +136830,7 @@ At the beginning of your action phase, destroy Embodiment of Earth.`,
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -137054,7 +137054,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -137182,7 +137182,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -137310,7 +137310,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -137994,7 +137994,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -138118,7 +138118,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -138242,7 +138242,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -138366,7 +138366,7 @@ At the beginning of your action phase, destroy Emerging Avalanche then the next 
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -138507,7 +138507,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -138648,7 +138648,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -138774,7 +138774,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -138898,7 +138898,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -139022,7 +139022,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -139161,7 +139161,7 @@ At the beginning of your action phase, destroy this, then the next Guardian atta
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -140177,7 +140177,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -140305,7 +140305,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -140433,7 +140433,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -140527,7 +140527,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -140717,7 +140717,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -140841,7 +140841,7 @@ At the beginning of your end phase, destroy Enchanting Melody unless you have pl
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -140969,7 +140969,7 @@ If a card with 6 or more {p} is banished this way, Endless maw gains +3{p}.
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -141784,7 +141784,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -141878,7 +141878,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -142199,7 +142199,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -142295,7 +142295,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -142406,7 +142406,7 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -142805,7 +142805,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -142931,7 +142931,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -143057,7 +143057,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -143294,7 +143294,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -143445,7 +143445,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -143581,7 +143581,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -143732,7 +143732,7 @@ If you've **charged** this turn, Engulfing Light gains "If this hits, put it int
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -144368,7 +144368,7 @@ Choose 1;
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -144716,7 +144716,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -144840,7 +144840,7 @@ If Entangle was **fused**, it gains "If this hits a hero, their first attack dur
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -144966,7 +144966,7 @@ If Entwine Earth was **fused**, it gains +2{p}.`,
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -145692,7 +145692,7 @@ If Entwine Lightning was **fused**, it gains **go again**.`,
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -146999,7 +146999,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -147176,7 +147176,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -147272,7 +147272,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -147368,7 +147368,7 @@ At the beginning of each hero's end phase, if a weapon did not attack this turn,
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -148283,7 +148283,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -148516,7 +148516,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -149604,7 +149604,7 @@ Your Teklo Blaster costs {r} less to activate for each opposing hero.
     keywords: [Keyword.Battleworn,Keyword.Transform],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -150098,7 +150098,7 @@ Your Teklo Blaster attacks get **go again**.
     keywords: [Keyword.Battleworn,Keyword.GoAgain,Keyword.Transform],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -150264,7 +150264,7 @@ Your Teklo Blaster gets +1{p} for each opposing hero.
     keywords: [Keyword.Battleworn,Keyword.Transform],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -151252,7 +151252,7 @@ Your Teklo Blaster attacks can target any opposing hero.
     keywords: [Keyword.Battleworn,Keyword.Transform],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -151917,7 +151917,7 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -152094,7 +152094,7 @@ When this hits, you may put an item with cost 0 or 1 from your hand into the are
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -152647,7 +152647,7 @@ If a card with 6 or more {p} is banished this way, you may play it from your ban
     keywords: [Keyword.Amp,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -152937,7 +152937,7 @@ When you attack with Explosive Growth, deal 1 arcane damage to target hero.`,
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -153291,7 +153291,7 @@ If Exposed to the Elements was **fused** with an Ice card, destroy an equipment 
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -153513,7 +153513,7 @@ Target attack gets +1{p}.
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -153637,7 +153637,7 @@ Target attack gets +1{p}.
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -154995,7 +154995,7 @@ Equip Crown of Providence. If you don't, **negate** this.`,
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -155214,7 +155214,7 @@ Equip Crown of Providence. If you don't, **negate** this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -155310,7 +155310,7 @@ Equip Crown of Providence. If you don't, **negate** this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -155406,7 +155406,7 @@ Equip Crown of Providence. If you don't, **negate** this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -155675,7 +155675,7 @@ If you control 3 or more Fealty tokens, dagger attacks cost you {r} less to acti
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -155783,7 +155783,7 @@ Target attack action card gets +1{p}.`,
     keywords: [Keyword.Ephemeral],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -156430,7 +156430,7 @@ Target attack gets +5{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -156526,7 +156526,7 @@ Target attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -156788,7 +156788,7 @@ Target attack gets +3{p}.`,
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -156912,7 +156912,7 @@ Target attack gets +3{p}.`,
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -157036,7 +157036,7 @@ Target attack gets +3{p}.`,
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -157396,7 +157396,7 @@ Target attack gets +3{p}.`,
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -157532,7 +157532,7 @@ Target attack gets +3{p}.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -157737,7 +157737,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -157957,7 +157957,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -158051,7 +158051,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -158145,7 +158145,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -158256,7 +158256,7 @@ The next time your hero would be dealt damage this turn, prevent it.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Expansion],
+    meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 1,
@@ -158595,7 +158595,7 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -158932,7 +158932,7 @@ If there are 4 or more Earth cards in your banished zone, instead gain 5{h}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -159645,7 +159645,7 @@ If Fervent Forerunner is played from arsenal, it gains **go again**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -161164,7 +161164,7 @@ When this enters the arena, create a Courage token.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -161356,7 +161356,7 @@ Daggers you control get +1{p} and you may attack with each of them an additional
     keywords: [Keyword.Legendary],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -161550,7 +161550,7 @@ You may {u} a bow you control.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -161838,7 +161838,7 @@ You may {u} a bow you control.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -162011,7 +162011,7 @@ You may {u} a bow you control.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -162105,7 +162105,7 @@ You may {u} a bow you control.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -162199,7 +162199,7 @@ You may {u} a bow you control.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -162310,7 +162310,7 @@ You may {u} a bow you control.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -162788,7 +162788,7 @@ Go again`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -163408,7 +163408,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -163534,7 +163534,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -163993,7 +163993,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -164134,7 +164134,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -164275,7 +164275,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -164401,7 +164401,7 @@ If Flake Out was **fused**, it gains **dominate**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -164672,7 +164672,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -164939,7 +164939,7 @@ If Flashfreeze was **fused** with a Lightning card, attacks you control this tur
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -165035,7 +165035,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -165293,7 +165293,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -165402,7 +165402,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -165583,7 +165583,7 @@ If it has an aim counter, it gains "Red cards have -1{d} while defending this."
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -165792,7 +165792,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -165903,7 +165903,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -166014,7 +166014,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -166612,7 +166612,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -166939,7 +166939,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -167078,7 +167078,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -167232,7 +167232,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -167358,7 +167358,7 @@ If it has an aim counter, it gains "Yellow cards have -1{d} while defending this
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass,Meta.Expansion],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -167838,7 +167838,7 @@ Deal 1 arcane damage to target hero.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -168677,7 +168677,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -168803,7 +168803,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -168959,7 +168959,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -169083,7 +169083,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -169194,7 +169194,7 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
     keywords: [Keyword.Essence],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -169681,7 +169681,7 @@ When this hits, create a Lightning Flow token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -169975,7 +169975,7 @@ When this hits, create a Lightning Flow token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -170078,7 +170078,7 @@ When this hits, create a Lightning Flow token.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -170377,7 +170377,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -170610,7 +170610,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -171009,7 +171009,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -171163,7 +171163,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -171411,7 +171411,7 @@ At the start of your turn, destroy this, then you may attack with each dagger yo
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -171692,7 +171692,7 @@ At the beginning of your action phase, destroy Fog Down.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -172906,7 +172906,7 @@ At the beginning of your action phase, destroy Forged for War.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -173588,7 +173588,7 @@ At the beginning of your end phase destroy Frailty.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -173697,7 +173697,7 @@ At the beginning of your end phase destroy Frailty.`,
     
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -173979,7 +173979,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -174105,7 +174105,7 @@ If Frazzle was **fused**, whenever an attack would deal damage this turn, instea
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -175396,7 +175396,7 @@ If Frontline Scout is played from arsenal, it gains **go again**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -175947,7 +175947,7 @@ If Frost Lock was **fused**, it gains +1{p} and "If this hits a hero, until the 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -176142,7 +176142,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -176488,7 +176488,7 @@ At the beginning of your end phase or when you play a card or activate an abilit
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -176695,7 +176695,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -176913,7 +176913,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -177067,7 +177067,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -177161,7 +177161,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -177571,7 +177571,7 @@ You may create a Frostbite token in an exposed head, chest, arms, or legs zone.`
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -178429,7 +178429,7 @@ Create a Runechant token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -178523,7 +178523,7 @@ Create a Runechant token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -178632,7 +178632,7 @@ Create a Runechant token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -178850,7 +178850,7 @@ Create a Runechant token.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -178978,7 +178978,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -179119,7 +179119,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -179452,7 +179452,7 @@ If Galaxxi Black hits a hero, deal 1 arcane damage to that hero.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -179627,7 +179627,7 @@ If you control 3 or more auras, this gets +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -180471,7 +180471,7 @@ You may put a Hyper Driver from your banished zone into the arena.
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -180906,7 +180906,7 @@ You may put a Hyper Driver from your banished zone into the arena.
     keywords: [Keyword.Temper,Keyword.Unity],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -181305,7 +181305,7 @@ If you've played another Wizard non-attack action card this turn, put this into 
     keywords: [Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -182319,7 +182319,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -183147,7 +183147,7 @@ At the beginning of your end phase, remove an energy counter from this and creat
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -183354,7 +183354,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -183606,7 +183606,7 @@ If Glacial Footsteps was **fused**, it gains **dominate**.`,
     keywords: [Keyword.Dominate,Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -184033,7 +184033,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -184504,7 +184504,7 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
     keywords: [Keyword.GoAgain,Keyword.Reprise],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -184630,7 +184630,7 @@ At the beginning of your end phase, remove all +1{p} counters from weapons you c
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -185528,7 +185528,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -185959,7 +185959,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -186278,7 +186278,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -187229,7 +187229,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -187591,7 +187591,7 @@ When this defends together with 2 or more yellow cards, create a Gold token.
     keywords: [Keyword.BladeBreak,Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -187709,7 +187709,7 @@ When this defends together with 2 or more yellow cards, create a Gold token.
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -188080,7 +188080,7 @@ This counts as a Gold.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -188191,7 +188191,7 @@ This counts as a Gold.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -188317,7 +188317,7 @@ This counts as a Gold.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -188989,7 +188989,7 @@ Create a Golden Cog token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -189341,7 +189341,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
     keywords: [Keyword.GoAgain,Keyword.Specialization,Keyword.Temper,Keyword.Wager],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -189514,7 +189514,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
     keywords: [Keyword.TheCrowdBoos],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -189608,7 +189608,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -189845,7 +189845,7 @@ Draw X cards, where X is 1 plus the number of Gorganian Tomes in all graveyards.
     keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     
@@ -190034,7 +190034,7 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -190306,7 +190306,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     keywords: [Keyword.GoAgain,Keyword.Stealth],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -190498,7 +190498,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -190838,7 +190838,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -190964,7 +190964,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -191874,7 +191874,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     life: 20,
-    meta: [Meta.DualClass],
+    meta: [Meta.DualClass,Meta.Reprint],
   
     
     
@@ -191985,7 +191985,7 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
     
     
     life: 40,
-    meta: [Meta.DualClass],
+    meta: [Meta.DualClass,Meta.Reprint],
   
     
     
@@ -192804,7 +192804,7 @@ Gain 1{h}
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -193079,7 +193079,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -193493,7 +193493,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -194730,7 +194730,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -194913,7 +194913,7 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
     keywords: [Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -196154,7 +196154,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -196250,7 +196250,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -196427,7 +196427,7 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -196666,7 +196666,7 @@ At the beginning of your action phase, destroy this, then gain 3{h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -196843,7 +196843,7 @@ At the beginning of your action phase, destroy this, then gain 1{h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -196954,7 +196954,7 @@ Whenever you attack with Hatchet of Body, if Hatchet of Mind was the last attack
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -197065,7 +197065,7 @@ Whenever you attack with Hatchet of Mind, if Hatchet of Body was the last attack
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -197824,7 +197824,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     keywords: [Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -197918,7 +197918,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -198260,7 +198260,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -198429,7 +198429,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -198628,7 +198628,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -198848,7 +198848,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -198987,7 +198987,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -199126,7 +199126,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -199528,7 +199528,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -199780,7 +199780,7 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -200758,7 +200758,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -201042,7 +201042,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
     keywords: [Keyword.Quell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -201337,7 +201337,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -201506,7 +201506,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -201675,7 +201675,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -202665,7 +202665,7 @@ While this is equipped face-down, at the start of your turn, if you have exactly
     keywords: [Keyword.Cloaked,Keyword.Ward],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -202846,7 +202846,7 @@ While this is equipped face-down, at the start of your turn, if you have exactly
     keywords: [Keyword.BladeBreak,Keyword.Cloaked],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -202942,7 +202942,7 @@ When this hits a hero, you may put an item with cost 0 or 1 from any banished zo
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -203133,7 +203133,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -203543,7 +203543,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -203654,7 +203654,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -204168,7 +204168,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     keywords: [Keyword.Temper,Keyword.Unity],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -204358,7 +204358,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -204689,7 +204689,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     keywords: [Keyword.Dominate,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -205048,7 +205048,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -205231,7 +205231,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -205399,7 +205399,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -205582,7 +205582,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -205750,7 +205750,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -205891,7 +205891,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -206059,7 +206059,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -206215,7 +206215,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -206356,7 +206356,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -206512,7 +206512,7 @@ When this hits, put it into your hero's soul and the defending hero can't play c
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -206751,7 +206751,7 @@ When this hits, put it into your hero's soul.
     keywords: [Keyword.Dominate,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -206894,7 +206894,7 @@ When this hits, put it into your hero's soul.
     keywords: [Keyword.Dominate,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -207052,7 +207052,7 @@ When this hits, put it into your hero's soul.
     keywords: [Keyword.Dominate,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -207207,7 +207207,7 @@ When this hits, put it into your hero's soul.
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -207365,7 +207365,7 @@ When this hits, put it into your soul.
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -207535,7 +207535,7 @@ When this hits, put it into your soul.
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -207628,7 +207628,7 @@ When this hits, put it into your soul.
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -208117,7 +208117,7 @@ Create a Toughness token.
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -208672,7 +208672,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -208766,7 +208766,7 @@ Draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -209050,7 +209050,7 @@ If you've drawn a card this turn, this gets +1{p}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -209425,7 +209425,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     keywords: [Keyword.Boost,Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -209551,7 +209551,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     keywords: [Keyword.Boost,Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -209677,7 +209677,7 @@ If you have rolled a 6 on a die this turn, instead **intimidate** twice.
     keywords: [Keyword.Boost,Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -210140,7 +210140,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -210236,7 +210236,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -210332,7 +210332,7 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -210472,7 +210472,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -210612,7 +210612,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -210782,7 +210782,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -210972,7 +210972,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -211066,7 +211066,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -211160,7 +211160,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -211623,7 +211623,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -211796,7 +211796,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -211998,7 +211998,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -212187,7 +212187,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -212392,7 +212392,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
     keywords: [Keyword.Amp,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -212866,7 +212866,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -213067,7 +213067,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -213180,7 +213180,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
     keywords: [Keyword.Battleworn,Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -213481,7 +213481,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -213707,7 +213707,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -214155,7 +214155,7 @@ When this attacks, it gets the base abilities of the last attack action card wit
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -214266,7 +214266,7 @@ When this is defended by 1 or more attack action cards, Hot Streak's attacks get
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -214471,7 +214471,7 @@ The next attack action card you play this turn gains +3{p}.
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -215188,7 +215188,7 @@ The next attack action card you play this turn gains +1{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -216136,7 +216136,7 @@ When this hits a hero, banish a card from their soul.
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -216262,7 +216262,7 @@ When this hits a hero, banish a card from their soul.
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -216727,7 +216727,7 @@ When this leaves the arena, gain 3{h}.`,
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -216979,7 +216979,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -217169,7 +217169,7 @@ Target dagger attack gets +4{p}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -217363,7 +217363,7 @@ When this hits a hero, **mark** them.
     keywords: [Keyword.GoAgain,Keyword.Mark,Keyword.Piercing],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -217459,7 +217459,7 @@ When this hits a hero, **mark** them.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -218069,7 +218069,7 @@ Once per turn, when you boost a card, remove a steam counter from this and gain 
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -218270,7 +218270,7 @@ Once per turn, when you boost a card, remove a steam counter from this and gain 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -218381,7 +218381,7 @@ Once per turn, when you boost a card, remove a steam counter from this and gain 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -218492,7 +218492,7 @@ Once per turn, when you boost a card, remove a steam counter from this and gain 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -218618,7 +218618,7 @@ Once per turn, when you boost a card, remove a steam counter from this and gain 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -219134,7 +219134,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -219307,7 +219307,7 @@ At the beginning of your end phase, destroy Hypothermia.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -219420,7 +219420,7 @@ Create X Frostbite tokens under target hero's control. Then, if Ice Eternal was 
     keywords: [Keyword.Fusion,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -220241,7 +220241,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -220694,7 +220694,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -220942,7 +220942,7 @@ Deal 1 arcane damage to any target. If Icebind was **fused** and deals damage to
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -221989,7 +221989,7 @@ Whenever this banishes a reaction or instant card, gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -222170,7 +222170,7 @@ Whenever this banishes a reaction or instant card, gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -222404,7 +222404,7 @@ Target weapon attack gains +3{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -222705,7 +222705,7 @@ Target weapon attack gains +1{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -222878,7 +222878,7 @@ Target weapon attack gains +1{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -223004,7 +223004,7 @@ Target weapon attack gains +1{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -223824,7 +223824,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -224005,7 +224005,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -224114,7 +224114,7 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
     
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -224255,7 +224255,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -224366,7 +224366,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -224477,7 +224477,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -224618,7 +224618,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -224744,7 +224744,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -224855,7 +224855,7 @@ When this hits a hero, create a Bloodrot Pox token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -225188,7 +225188,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -225299,7 +225299,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -225882,7 +225882,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -226681,7 +226681,7 @@ When this hits a hero, banish the top card of their deck. You may play it until 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `a-drop-in-the-ocean-blue`,oppositeSideCardIdentifiers: ["a-drop-in-the-ocean-blue","homage-to-ancestors-blue","mistcloak-gully","pass-over-blue","path-well-traveled-blue","preserve-tradition-blue","rising-sun-setting-moon-blue","sacred-art-immortal-lunar-shrine-blue","sacred-art-jade-tiger-domain-blue","sacred-art-undercurrent-desires-blue","stir-the-pot-blue","the-grain-that-tips-the-scale-blue"],
     pitch: 3,
@@ -228091,7 +228091,7 @@ Banish a non-equipment defending card on the active chain link.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -228853,7 +228853,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -230401,7 +230401,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -230688,7 +230688,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -230986,7 +230986,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -231110,7 +231110,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -231279,7 +231279,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -231584,7 +231584,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -231837,7 +231837,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -232123,7 +232123,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -232304,7 +232304,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -232721,7 +232721,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -232860,7 +232860,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -233029,7 +233029,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -233479,7 +233479,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     keywords: [Keyword.Dominate,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -233575,7 +233575,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     keywords: [Keyword.Dominate,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -233671,7 +233671,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     keywords: [Keyword.Dominate,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -233829,7 +233829,7 @@ Whenever you play an Ice card during an opponents turn, create a Frostbite token
     keywords: [Keyword.Essence],
     
     life: 18,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -234116,7 +234116,7 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     keywords: [Keyword.GoAgain,Keyword.Steal],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -234525,7 +234525,7 @@ When this hits a hero, {u} an ally they control, then steal it until the end of 
     keywords: [Keyword.Essence],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -234811,7 +234811,7 @@ If you've been cheered this turn, this gets **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -234999,7 +234999,7 @@ If you've been cheered this turn, this gets **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -235458,7 +235458,7 @@ If this has an aim counter, it gets "When this hits a hero, they discard all but
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -235569,7 +235569,7 @@ If this has an aim counter, it gets "When this hits a hero, they discard all but
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -235680,7 +235680,7 @@ If this has an aim counter, it gets "When this hits a hero, they discard all but
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -236254,7 +236254,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
     
     life: 15,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -236420,7 +236420,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     
     
     life: 30,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -236531,7 +236531,7 @@ When this attacks, if it **scrapped** a card, this gets +1{p}.`,
     keywords: [Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -236840,7 +236840,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -237024,7 +237024,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -237220,7 +237220,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -237359,7 +237359,7 @@ At the beginning of your end phase, if you have attacked 2 or more times with we
     keywords: [Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -237487,7 +237487,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -237627,7 +237627,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -237770,7 +237770,7 @@ The first time you discard a card with 6 or more {p} during each of your action 
     
     
     life: 19,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -239545,7 +239545,7 @@ Action - Destroy this: Roll a 6-sided die. Until end of turn, your base {i} is t
     keywords: [Keyword.Specialization,Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -239658,7 +239658,7 @@ When this is turned face-up, destroy it. Search your deck for an Inner Chi, reve
     keywords: [Keyword.Cloaked],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -239946,7 +239946,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -240151,7 +240151,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -240277,7 +240277,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -240403,7 +240403,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from a card 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -240936,7 +240936,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -241075,7 +241075,7 @@ While Barthimont is face up in arsenal, whenever you play an attack action card,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -241266,7 +241266,7 @@ const cards4: Card[] = [{
     keywords: [Keyword.Rupture],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -241375,7 +241375,7 @@ const cards4: Card[] = [{
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -241548,7 +241548,7 @@ const cards4: Card[] = [{
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -241723,7 +241723,7 @@ const cards4: Card[] = [{
     keywords: [Keyword.Tower],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -241828,7 +241828,7 @@ If the defending hero is **marked**, their next attack this turn gets -1{p}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -242994,7 +242994,7 @@ Create a Might token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -243190,7 +243190,7 @@ Create a Might token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -243333,7 +243333,7 @@ Create an Agility token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -243446,7 +243446,7 @@ Create an Agility token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -243559,7 +243559,7 @@ Create an Agility token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -243736,7 +243736,7 @@ Create an Agility token.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -243832,7 +243832,7 @@ Create an Agility token.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -243928,7 +243928,7 @@ Create an Agility token.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -244747,7 +244747,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -244901,7 +244901,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -245025,7 +245025,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -245217,7 +245217,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -245547,7 +245547,7 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -245766,7 +245766,7 @@ Cards you own lose **blood debt**.`,
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -245907,7 +245907,7 @@ Cards you own lose **blood debt**.`,
     keywords: [Keyword.Essence,Keyword.GoAgain],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -246349,7 +246349,7 @@ When this hits, gain 1{h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -246475,7 +246475,7 @@ When this hits, gain 1{h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -246601,7 +246601,7 @@ When this hits, gain 1{h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -246714,7 +246714,7 @@ When this hits, gain 1{h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -247298,7 +247298,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     keywords: [Keyword.Charge,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -247394,7 +247394,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     keywords: [Keyword.Charge,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -248092,7 +248092,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -248760,7 +248760,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -248993,7 +248993,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -249192,7 +249192,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -249346,7 +249346,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -249470,7 +249470,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -249677,7 +249677,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     keywords: [Keyword.GoAgain,Keyword.WateryGrave],
     
     life: 1,
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 2,
@@ -249773,7 +249773,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -250208,7 +250208,7 @@ When this hits a hero, **the crowd boos** you.`,
     keywords: [Keyword.EvoUpgrade],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -250411,7 +250411,7 @@ When this hits a hero, **the crowd boos** you.`,
     keywords: [Keyword.EvoUpgrade],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -251990,7 +251990,7 @@ If you have **boosted** this turn, **opt 1**.
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -252545,7 +252545,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 3,
@@ -252656,7 +252656,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 3,
@@ -252782,7 +252782,7 @@ At the beginning of your end phase, remove a doom counter from Looming Doom. If 
     keywords: [Keyword.Combo,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -253495,7 +253495,7 @@ If you've **charged** this turn, you may attack an additional time with each wea
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -253734,7 +253734,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -253919,7 +253919,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -254250,7 +254250,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -254558,7 +254558,7 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -254671,7 +254671,7 @@ Whenever the crowd boos you, create a Might token.`,
     keywords: [Keyword.TheCrowdBoos],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -254989,7 +254989,7 @@ Whenever the crowd boos you, create a Might token.`,
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -255113,7 +255113,7 @@ Whenever the crowd boos you, create a Might token.`,
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -255282,7 +255282,7 @@ Whenever the crowd boos you, create a Might token.`,
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -256030,7 +256030,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -256126,7 +256126,7 @@ When this hits a Runeblade or Wizard hero, you may destroy an aura they control.
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -256335,7 +256335,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -256448,7 +256448,7 @@ Once per turn, when you play an attack action card, remove a verse counter from 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -256717,7 +256717,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     keywords: [Keyword.GoAgain],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -256813,7 +256813,7 @@ Damage that would be dealt by Malign can't be prevented.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -257500,7 +257500,7 @@ If you have discarded a card with 6 or more {p} this turn, this card's attacks *
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -257636,7 +257636,7 @@ If you have discarded a card with 6 or more {p} this turn, this card's attacks *
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -257730,7 +257730,7 @@ If you have discarded a card with 6 or more {p} this turn, this card's attacks *
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -258059,7 +258059,7 @@ If you have discarded a card with 6 or more {p} this turn, this card's attacks *
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -258341,7 +258341,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -258548,7 +258548,7 @@ When this hits a **marked** hero, they banish a card from their hand.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -258704,7 +258704,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -258896,7 +258896,7 @@ When this hits a **marked** hero, banish a card in their arsenal.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -259039,7 +259039,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -259165,7 +259165,7 @@ When this hits a hero, **mark** them.`,
     keywords: [Keyword.Mark,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -259421,7 +259421,7 @@ When this hits a hero, **mark** them.`,
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -259560,7 +259560,7 @@ When this hits a hero, **mark** them.`,
     keywords: [Keyword.Mark],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -259976,7 +259976,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -260087,7 +260087,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -260198,7 +260198,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -260311,7 +260311,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -260516,7 +260516,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -260708,7 +260708,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     keywords: [Keyword.ArcaneBarrier,Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -260898,7 +260898,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -261039,7 +261039,7 @@ If Massacre is discarded to pay the cost of a Brute attack action card, **intimi
     keywords: [Keyword.Intimidate],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -261421,7 +261421,7 @@ When this is pitched, you may put a steam counter on an item you control with **
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -261562,7 +261562,7 @@ When this is pitched, you may put a steam counter on an item you control with **
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -261733,7 +261733,7 @@ When this is pitched, you may put a steam counter on an item you control with **
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -261872,7 +261872,7 @@ When this is pitched, you may put a steam counter on an item you control with **
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -262025,7 +262025,7 @@ Hyper Drivers you control get **crank**.`,
     keywords: [Keyword.Crank],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -262599,7 +262599,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -262740,7 +262740,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -262881,7 +262881,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -262990,7 +262990,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     keywords: [Keyword.EvoUpgrade],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -263193,7 +263193,7 @@ If you've dealt arcane damage to an opposing hero this turn, this gets **go agai
     keywords: [Keyword.EvoUpgrade],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -264050,7 +264050,7 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -264394,7 +264394,7 @@ If it has an aim counter, it gains "When this hits a hero, destroy a 1H weapon t
     keywords: [Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -264955,7 +264955,7 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -266163,7 +266163,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -266257,7 +266257,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -266366,7 +266366,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -266490,7 +266490,7 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -266682,7 +266682,7 @@ When this hits a hero, **clash** with them. If you win, destroy the top card of 
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -266942,7 +266942,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -267123,7 +267123,7 @@ Whenever this banishes a non-attack action card, gain 1{h}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -267643,7 +267643,7 @@ When this attacks, draw a card then discard a random card.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -268151,7 +268151,7 @@ When Miraging Metamorph is destroyed, create a token that's a copy of an aura yo
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -268667,7 +268667,7 @@ If you've been booed this turn, this gets +4{p}.`,
     keywords: [Keyword.TheCrowdBoos],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -268778,7 +268778,7 @@ If you've been booed this turn, this gets +3{p}.`,
     keywords: [Keyword.TheCrowdBoos],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -268889,7 +268889,7 @@ If you've been booed this turn, this gets +2{p}.`,
     keywords: [Keyword.TheCrowdBoos],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -269340,7 +269340,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -269434,7 +269434,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -269528,7 +269528,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -269808,7 +269808,7 @@ Draw a card.
     keywords: [Keyword.Battleworn,Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -270075,7 +270075,7 @@ Draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -270730,7 +270730,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -270905,7 +270905,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -271163,7 +271163,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -271289,7 +271289,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
     keywords: [Keyword.Combo,Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -271637,7 +271637,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -271763,7 +271763,7 @@ If Mulch was **fused**, it gains "If this hits a hero, put a card from their ars
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -271889,7 +271889,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -271985,7 +271985,7 @@ Damage that would be dealt by Murkmire Grapnel can't be prevented.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -273016,7 +273016,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -273142,7 +273142,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -273283,7 +273283,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -273441,7 +273441,7 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -274255,7 +274255,7 @@ When your hero is dealt damage, destroy Nerves of Steel.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -274462,7 +274462,7 @@ When this is destroyed, destroy all cards in your arsenal.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -274541,7 +274541,7 @@ When this is destroyed, destroy all cards in your arsenal.
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -274665,7 +274665,7 @@ When this is destroyed, destroy all cards in your arsenal.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -274789,7 +274789,7 @@ When this is destroyed, destroy all cards in your arsenal.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -274913,7 +274913,7 @@ When this is destroyed, destroy all cards in your arsenal.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -275129,7 +275129,7 @@ When this is destroyed, destroy all cards in your arsenal.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -275300,7 +275300,7 @@ When this is destroyed, destroy all cards in your arsenal.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -275456,7 +275456,7 @@ When this is destroyed, destroy all cards in your arsenal.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -275847,7 +275847,7 @@ When this is destroyed, destroy all cards in your arsenal.
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -275983,7 +275983,7 @@ When this is destroyed, destroy all cards in your arsenal.
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -276192,7 +276192,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -276369,7 +276369,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -276757,7 +276757,7 @@ Search your deck for an arrow card, reveal it, then shuffle your deck and put it
     keywords: [Keyword.GoAgain,Keyword.Reload,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -277856,7 +277856,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -278130,7 +278130,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -278389,7 +278389,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -278678,7 +278678,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -278965,7 +278965,7 @@ When this enters the arena, name a card. The named card can't be pitched or play
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -279398,7 +279398,7 @@ If Oaken Old was **fused**, it gains +2{p}, **dominate**, and "If this hits a he
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -280132,7 +280132,7 @@ Create a Runechant token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -280275,7 +280275,7 @@ Create a Runechant token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -280418,7 +280418,7 @@ Create a Runechant token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -280625,7 +280625,7 @@ Create a Nasreth, the Soul Harrower token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -280846,7 +280846,7 @@ Illusionist attack action cards you control get **go again**.
     keywords: [Keyword.GoAgain,Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -281849,7 +281849,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     keywords: [Keyword.Essence],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -282060,7 +282060,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -282250,7 +282250,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -282395,7 +282395,7 @@ When this hits a hero, create a Toughness and a Vigor token.`,
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -282929,7 +282929,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -283275,7 +283275,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -283384,7 +283384,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -283685,7 +283685,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     keywords: [Keyword.Combo,Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -284161,7 +284161,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -284374,7 +284374,7 @@ If an aura you control was destroyed this turn, create a Ponder token.`,
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -284502,7 +284502,7 @@ Your next attack with **stealth** this turn gets +3{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -285097,7 +285097,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     keywords: [Keyword.Essence],
     
     life: 18,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -285549,7 +285549,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -285690,7 +285690,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -285816,7 +285816,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -286239,7 +286239,7 @@ This can't be defended by equipment.`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -287019,7 +287019,7 @@ The next time a weapon hits this turn, create a Copper token.
     keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -287431,7 +287431,7 @@ When this hits, put it on the bottom of its owner's deck.`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -287587,7 +287587,7 @@ When this hits, put it on the bottom of its owner's deck.`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -287743,7 +287743,7 @@ When this hits, put it on the bottom of its owner's deck.`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -287837,7 +287837,7 @@ When this hits, put it on the bottom of its owner's deck.`,
     keywords: [Keyword.Overpower],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -288010,7 +288010,7 @@ When this hits, put it on the bottom of its owner's deck.`,
     keywords: [Keyword.Overpower],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -288290,7 +288290,7 @@ When this hits, put it on the bottom of its owner's deck.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -289743,7 +289743,7 @@ If Overload hits, it gains **go again**.`,
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -289869,7 +289869,7 @@ If Overload hits, it gains **go again**.`,
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -290010,7 +290010,7 @@ If Overload hits, it gains **go again**.`,
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -290541,7 +290541,7 @@ When this dies, create a Gold token.
     keywords: [Keyword.WateryGrave],
     
     life: 1,
-    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 2,
@@ -290744,7 +290744,7 @@ When this dies, create a Gold token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -290838,7 +290838,7 @@ When this dies, create a Gold token.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -291022,7 +291022,7 @@ When this dies, create a Gold token.
     keywords: [Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -291161,7 +291161,7 @@ When this dies, create a Gold token.
     keywords: [Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -291315,7 +291315,7 @@ When this dies, create a Gold token.
     keywords: [Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -291424,7 +291424,7 @@ When this dies, create a Gold token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -292294,7 +292294,7 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     keywords: [Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -292372,7 +292372,7 @@ This gets +X{p}, where X is the number of equipment defending it.`,
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -292566,7 +292566,7 @@ This gets +2{d} while defending a weapon attack.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -292694,7 +292694,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -292817,7 +292817,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -293095,7 +293095,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -293451,7 +293451,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.GoAgain,Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -294286,7 +294286,7 @@ Create a Ponder token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -294809,7 +294809,7 @@ At the start of your action phase, destroy this.`,
     keywords: [Keyword.Boost,Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -294935,7 +294935,7 @@ At the start of your action phase, destroy this.`,
     keywords: [Keyword.Boost,Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -295061,7 +295061,7 @@ At the start of your action phase, destroy this.`,
     keywords: [Keyword.Boost,Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -295251,7 +295251,7 @@ At the start of your action phase, destroy this.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -295460,7 +295460,7 @@ Your Mechanologist attack action cards get +1{p}.`,
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -295556,7 +295556,7 @@ Your Mechanologist attack action cards get +1{p}.`,
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -295909,7 +295909,7 @@ If this was played from arsenal, it gets **Go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -296005,7 +296005,7 @@ If this was played from arsenal, it gets **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -296100,7 +296100,7 @@ If this was played from arsenal, it gets **Go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -296760,7 +296760,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -296982,7 +296982,7 @@ When Phantasmal Haze is destroyed, create a Spectral Shield token.`,
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -297798,7 +297798,7 @@ Create an Agility token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -297971,7 +297971,7 @@ Create an Agility token.
     keywords: [Keyword.Flow,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -298131,7 +298131,7 @@ Create an Agility token.
     keywords: [Keyword.Amp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -298323,7 +298323,7 @@ Create an Agility token.
     keywords: [Keyword.Amp],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -298713,7 +298713,7 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -299001,7 +299001,7 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -299301,7 +299301,7 @@ If you've played or activated an attack reaction this chain link, this gets +1{p
     keywords: [Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -299429,7 +299429,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -299670,7 +299670,7 @@ If you have dealt arcane damage to an opposing hero this turn, Piercing Shadow V
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -300484,7 +300484,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -300625,7 +300625,7 @@ When this defends, deal 2 damage to the attacking hero unless they pay {r}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -300930,7 +300930,7 @@ X is equal to 1 plus the number of times you have **boosted** this combat chain.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -301152,7 +301152,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -301504,7 +301504,7 @@ When a Mechanologist item with cost 2 or less enters the arena under your contro
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -301615,7 +301615,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -301771,7 +301771,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -302200,7 +302200,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Expansion],
+    meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 2,
@@ -302339,7 +302339,7 @@ Whenever the crowd cheers you, create a Confidence token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -302467,7 +302467,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -302595,7 +302595,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -302723,7 +302723,7 @@ If Plunder Run is played from arsenal, the next attack action card you play this
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -302819,7 +302819,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -302996,7 +302996,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -303446,7 +303446,7 @@ If this is attacking a **marked** hero, this gets +1{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -303872,7 +303872,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -304041,7 +304041,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -304506,7 +304506,7 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -304939,7 +304939,7 @@ If Polar Blast is played from arsenal, draw a card.
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -305082,7 +305082,7 @@ If Polar Blast is played from arsenal, draw a card.
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -305178,7 +305178,7 @@ Deal 4 arcane damage to any target. If Polar Cap was **fused** and deals damage 
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -305519,7 +305519,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.Fragment],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -306054,7 +306054,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -306312,7 +306312,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -306532,7 +306532,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -307017,7 +307017,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -307179,7 +307179,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -307303,7 +307303,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -307397,7 +307397,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -307506,7 +307506,7 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -308025,7 +308025,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
     keywords: [Keyword.BeatChest],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -308121,7 +308121,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
     keywords: [Keyword.BeatChest],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -308232,7 +308232,7 @@ When this attacks, if you've **beaten chest** this turn, create a Might token.`,
     keywords: [Keyword.BeatChest],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -309299,7 +309299,7 @@ If you have **boosted** this turn, put a steam counter on it.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -310225,7 +310225,7 @@ Hero abilities can't create cards.`,
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -310432,7 +310432,7 @@ Hero abilities can't create cards.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -310543,7 +310543,7 @@ Hero abilities can't create cards.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -310799,7 +310799,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -310880,7 +310880,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Battleworn,Keyword.Mark],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -310980,7 +310980,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.GoAgain,Keyword.TheCrowdBoos,Keyword.TheCrowdCheers],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -311359,7 +311359,7 @@ Your next Brute attack this turn gains +5{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -311487,7 +311487,7 @@ Your next Brute attack this turn gains +4{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -311630,7 +311630,7 @@ Your next Brute attack this turn gains +3{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -311769,7 +311769,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -311862,7 +311862,7 @@ Your next Brute attack this turn gains +3{p}.
     keywords: [Keyword.Awaken],
     
     life: 16,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -312175,7 +312175,7 @@ Your next Brute attack this turn gains +3{p}.
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -312463,7 +312463,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -312818,7 +312818,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     keywords: [Keyword.Specialization,Keyword.Temper,Keyword.Wager],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -314332,7 +314332,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -314426,7 +314426,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -314520,7 +314520,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -314614,7 +314614,7 @@ The first time this deals damage to a hero, create a Ponder token.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -314900,7 +314900,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -314996,7 +314996,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -315107,7 +315107,7 @@ The next attack with **stealth** you play this combat chain gains +1{p}.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -316274,7 +316274,7 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -317151,7 +317151,7 @@ Gain 1{h}`,
     keywords: [Keyword.Meld],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -317706,7 +317706,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -317832,7 +317832,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -317973,7 +317973,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -318395,7 +318395,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     keywords: [Keyword.Piercing],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -318568,7 +318568,7 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     keywords: [Keyword.Piercing],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -318990,7 +318990,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -319790,7 +319790,7 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -320552,7 +320552,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -320676,7 +320676,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -320770,7 +320770,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -320864,7 +320864,7 @@ At the beginning of your action phase, destroy Pyroglyphic Protection.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -321137,7 +321137,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     keywords: [Keyword.Quell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -321355,7 +321355,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     keywords: [Keyword.Quell],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -321464,7 +321464,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -321854,7 +321854,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -322143,7 +322143,7 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -323290,7 +323290,7 @@ When there are no cards in your hero's soul, destroy this.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -323888,7 +323888,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -324012,7 +324012,7 @@ During your turn, this has **ward 6**. Otherwise, this has **ward 1**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -324466,7 +324466,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
     keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -324671,7 +324671,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
     keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -325085,7 +325085,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -325269,7 +325269,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -325423,7 +325423,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -325577,7 +325577,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -327194,7 +327194,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -327470,7 +327470,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -327611,7 +327611,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -327752,7 +327752,7 @@ Whenever you attack with Ravenous Meataxe, draw a card then discard a random car
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -327865,7 +327865,7 @@ If you control a Might token, this gets +1{d}.
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -327976,7 +327976,7 @@ When this attacks a hero, if you've **beaten chest** this turn, **intimidate** t
     keywords: [Keyword.BeatChest,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -328432,7 +328432,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -328645,7 +328645,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -328771,7 +328771,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -328912,7 +328912,7 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -329134,7 +329134,7 @@ When this hits a hero, the next action card they defend with this combat chain g
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -329322,7 +329322,7 @@ When this hits a hero, the next action card they defend with this combat chain g
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -329657,7 +329657,7 @@ The next attack you **boost** this turn gets +4{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -330017,7 +330017,7 @@ The next attack you **boost** this turn gets +2{p}.
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -330115,7 +330115,7 @@ The next attack you **boost** this turn gets +2{p}.
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -330616,7 +330616,7 @@ The next attack you **boost** this turn gets +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -330752,7 +330752,7 @@ The next attack you **boost** this turn gets +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -330888,7 +330888,7 @@ The next attack you **boost** this turn gets +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -331146,7 +331146,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     keywords: [Keyword.Mark,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -331242,7 +331242,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     keywords: [Keyword.Mark,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -331368,7 +331368,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     keywords: [Keyword.Mark,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -331524,7 +331524,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -331618,7 +331618,7 @@ If a hero has more {h} than any other hero, they can't gain {h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -332222,7 +332222,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -332474,7 +332474,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     keywords: [Keyword.Combo],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -332570,7 +332570,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -332747,7 +332747,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -333048,7 +333048,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
     keywords: [Keyword.Rupture,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -333189,7 +333189,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -333313,7 +333313,7 @@ If Red in the Ledger hits a hero, they can't play or activate more than 1 action
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -333770,7 +333770,7 @@ Create a Runechant token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -333911,7 +333911,7 @@ Create a Runechant token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -334052,7 +334052,7 @@ Create a Runechant token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -334619,7 +334619,7 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -335509,7 +335509,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -335900,7 +335900,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -336024,7 +336024,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -336163,7 +336163,7 @@ Deal 1 arcane damage to any target.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -336607,7 +336607,7 @@ If you've **fused** this turn, you may play Rejuvenate as though it were an inst
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -337164,7 +337164,7 @@ If Remorseless hits a hero, until the end of their next turn, whenever they play
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -337598,7 +337598,7 @@ If you've **charged** this turn, create a Courage token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -337929,7 +337929,7 @@ At the start of your turn, destroy this and draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -338132,7 +338132,7 @@ At the start of your turn, destroy this and draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -338704,7 +338704,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -338964,7 +338964,7 @@ At the beginning of your end phase, destroy all Runechants you control.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -339090,7 +339090,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -339216,7 +339216,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -339342,7 +339342,7 @@ If Reverberate deals damage, you may banish a Wizard 'non-attack' action card fr
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -339880,7 +339880,7 @@ Whenever you protect another hero, create a Gold token.`,
     keywords: [Keyword.Intimidate],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -340121,7 +340121,7 @@ Whenever you protect another hero, create a Gold token.`,
     keywords: [Keyword.Intimidate],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -340746,7 +340746,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -340870,7 +340870,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -340994,7 +340994,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -341120,7 +341120,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -341357,7 +341357,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -341969,7 +341969,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -342206,7 +342206,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -342659,7 +342659,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.WateryGrave],
     
     life: 1,
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 2,
@@ -343020,7 +343020,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -343144,7 +343144,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -343268,7 +343268,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -343407,7 +343407,7 @@ At the beginning of each hero's end phase, they lose X{h}, where X is the number
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -343697,7 +343697,7 @@ If you have dealt arcane damage to an opposing hero this turn, Rip Through Reali
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -344335,7 +344335,7 @@ Whenever a trap you control triggers, deal 1 damage to the attacking hero.`,
     
     
     life: 19,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -344898,7 +344898,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -345175,7 +345175,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.Dominate,Keyword.Rupture,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -345284,7 +345284,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -345581,7 +345581,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -345720,7 +345720,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -345844,7 +345844,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -345938,7 +345938,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -346032,7 +346032,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -346207,7 +346207,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -346493,7 +346493,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -346632,7 +346632,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -346850,7 +346850,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -347151,7 +347151,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -347245,7 +347245,7 @@ If you've played another blue card this turn, **transcend**.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -347616,7 +347616,7 @@ If you have dealt arcane damage this turn, Rites of Lightning gains **go again**
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -347970,7 +347970,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -348211,7 +348211,7 @@ When you attack with Rites of Replenishment, if it was **fused**, you may put an
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -348420,7 +348420,7 @@ If there are no cards in your soul, return this to its owner's hand, then **char
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -348934,7 +348934,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -349784,7 +349784,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -349923,7 +349923,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -350096,7 +350096,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -350286,7 +350286,7 @@ Damage that would be dealt by Rok can't be prevented.`,
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -350630,7 +350630,7 @@ Whenever you attack with Rosetta Thorn, if you've played an attack action card a
     
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -351033,7 +351033,7 @@ If you have **boosted** this turn, put Rotary Ram on the bottom of your deck.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -351223,7 +351223,7 @@ If you've played or created an aura this turn, this gets +2{p}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -351317,7 +351317,7 @@ If you've played or created an aura this turn, this gets +2{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -352058,7 +352058,7 @@ The next card you play this turn with an effect that deals arcane damage, instea
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -352896,7 +352896,7 @@ Your next Brute attack this turn gains +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -353020,7 +353020,7 @@ Your next Brute attack this turn gains +2{p}.
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -353113,7 +353113,7 @@ Your next sword attack this turn gets +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -353224,7 +353224,7 @@ Your next sword attack this turn gets +2{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -353444,7 +353444,7 @@ Your next sword attack this turn gets +1{p}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -353600,7 +353600,7 @@ Your next sword attack this turn gets +1{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -353726,7 +353726,7 @@ Your next sword attack this turn gets +1{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -353867,7 +353867,7 @@ Your next sword attack this turn gets +1{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -354046,7 +354046,7 @@ When this defends and the attacking hero has played or created 2 or more auras t
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -354174,7 +354174,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -354829,7 +354829,7 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -355534,7 +355534,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -355688,7 +355688,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -355782,7 +355782,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -355876,7 +355876,7 @@ At the beginning of your action phase or when you play an attack action card, de
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -355970,7 +355970,7 @@ At the beginning of your action phase or when you play an attack action card, de
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -356792,7 +356792,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     keywords: [Keyword.Quickstrike],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -357078,7 +357078,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -357202,7 +357202,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -357326,7 +357326,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -357817,7 +357817,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -358374,7 +358374,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     keywords: [Keyword.GoAgain,Keyword.Intimidate],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -358558,7 +358558,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -358669,7 +358669,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -358876,7 +358876,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -359045,7 +359045,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -359184,7 +359184,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -359323,7 +359323,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -359459,7 +359459,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
     
     
     
-    metatypes: [Metatype.Rosetta],
+    meta: [Meta.Reprint],metatypes: [Metatype.Rosetta],
   
     
     
@@ -359839,7 +359839,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -360496,7 +360496,7 @@ You may destroy a Frailty token you control. If you do, gain 1{h}.
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -360594,7 +360594,7 @@ If the discarded card has 6 or more {p}, this gets +6{p}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -360831,7 +360831,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -360957,7 +360957,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -361083,7 +361083,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -361318,7 +361318,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -361457,7 +361457,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -361581,7 +361581,7 @@ When you attack with Savage Feast, if a card with 6 or more {p} was discarded as
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -362071,7 +362071,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     keywords: [Keyword.WateryGrave],
     
     life: 2,
-    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 2,
@@ -362197,7 +362197,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -362400,7 +362400,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -362524,7 +362524,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -362648,7 +362648,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -363095,7 +363095,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -363234,7 +363234,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -363373,7 +363373,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -363527,7 +363527,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -363845,7 +363845,7 @@ When this hits a hero, the next time they defend with 1 or more equipment this t
     keywords: [Keyword.Fragment],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -364201,7 +364201,7 @@ When this hits a hero, deal 1 arcane damage to them.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -364579,7 +364579,7 @@ If Scour the Battlescape is played from arsenal, it gains **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -364801,7 +364801,7 @@ The next attack action card you play from arsenal this turn gains +3{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -364899,7 +364899,7 @@ The next attack action card you play from arsenal this turn gains +2{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -364997,7 +364997,7 @@ The next attack action card you play from arsenal this turn gains +1{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -366788,7 +366788,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     keywords: [Keyword.GoAgain,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -367046,7 +367046,7 @@ When this attacks a **marked** hero, this gets **go again**.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -367455,7 +367455,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -367549,7 +367549,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -367940,7 +367940,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -368064,7 +368064,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -368188,7 +368188,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -368470,7 +368470,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -368766,7 +368766,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -369191,7 +369191,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -369300,7 +369300,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -369494,7 +369494,7 @@ When this hits a hero, create an Inertia token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -369590,7 +369590,7 @@ When this hits a hero, create an Inertia token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -369701,7 +369701,7 @@ When this hits a hero, create an Inertia token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -369827,7 +369827,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -369923,7 +369923,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -370019,7 +370019,7 @@ When this hits a hero, create an Inertia token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -370260,7 +370260,7 @@ The next attack action card with cost 2 or less you play this turn gains "When y
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -370390,7 +370390,7 @@ The next attack action card with cost 1 or less you play this turn gains "When y
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -371036,7 +371036,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -371273,7 +371273,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -371412,7 +371412,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -371536,7 +371536,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -371660,7 +371660,7 @@ Prevent the next 5 damage that would be dealt to you this turn.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -372023,7 +372023,7 @@ While this is in your graveyard, at the start of your turn, you may destroy 2 Si
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -372132,7 +372132,7 @@ While this is in your graveyard, at the start of your turn, you may destroy 2 Si
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -372241,7 +372241,7 @@ While this is in your graveyard, at the start of your turn, you may destroy 2 Si
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -372365,7 +372365,7 @@ While this is in your graveyard, at the start of your turn, you may destroy 2 Si
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -372610,7 +372610,7 @@ The next attack action card with cost 1 or less you play this turns gains +1{p} 
     keywords: [Keyword.BloodDebt,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -373175,7 +373175,7 @@ Destroy X target aura tokens.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -373271,7 +373271,7 @@ Destroy X target aura tokens.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -373367,7 +373367,7 @@ Destroy X target aura tokens.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -373686,7 +373686,7 @@ Destroy X target aura tokens.
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -374185,7 +374185,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
     keywords: [Keyword.GoAgain],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -376349,7 +376349,7 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -376441,7 +376441,7 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -376767,7 +376767,7 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -377004,7 +377004,7 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -377528,7 +377528,7 @@ At the beginning of your end phase, destroy this.`,
     keywords: [Keyword.Fragment],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -377705,7 +377705,7 @@ At the beginning of your end phase, destroy this.`,
     keywords: [Keyword.Fragment],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -378076,7 +378076,7 @@ When this hits a hero, you may banish a lightning aura permanent you control wit
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -379510,7 +379510,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
     keywords: [Keyword.Spectra],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -379797,7 +379797,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -380164,7 +380164,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -380730,7 +380730,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -380988,7 +380988,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -381103,7 +381103,7 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -381201,7 +381201,7 @@ If the defending hero has no cards in hand, this gets +3{p}.`,
     keywords: [Keyword.Intimidate,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -381408,7 +381408,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -381836,7 +381836,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -381975,7 +381975,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -382167,7 +382167,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -382261,7 +382261,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -382355,7 +382355,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -382605,7 +382605,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -382774,7 +382774,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -382928,7 +382928,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -383082,7 +383082,7 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -383517,7 +383517,7 @@ When this leaves the arena, create a Lightning Flow token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -383726,7 +383726,7 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
     keywords: [Keyword.ArcaneShelter],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -383937,7 +383937,7 @@ When this leaves the arena, create a Runechant token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -384050,7 +384050,7 @@ When this leaves the arena, create an Embodiment of Earth token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -384239,7 +384239,7 @@ When this leaves the arena, create a Ponder token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -384352,7 +384352,7 @@ When this leaves the arena, gain 1{h}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -384576,7 +384576,7 @@ When this leaves the arena, create an Embodiment of Lightning token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -385252,7 +385252,7 @@ When this leaves the arena, create an Embodiment of Earth token.`,
     keywords: [Keyword.ArcaneShelter],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -385478,7 +385478,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -385692,7 +385692,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -385816,7 +385816,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -386000,7 +386000,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -386384,7 +386384,7 @@ If you have dealt arcane damage this turn, Sigil of Suffering gains +1{d}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -386815,7 +386815,7 @@ When this leaves the arena, reveal the top card of your deck. If it's an attack 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -387102,7 +387102,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -387228,7 +387228,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     keywords: [Keyword.Quell,Keyword.Transform],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -387337,7 +387337,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -387785,7 +387785,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     keywords: [Keyword.GoAgain],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -387960,7 +387960,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -388133,7 +388133,7 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -388556,7 +388556,7 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -389865,7 +389865,7 @@ Target weapon attack gains +1{p}.
     keywords: [Keyword.Reprise,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -390123,7 +390123,7 @@ Target weapon attack gains +1{p}.
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -390445,7 +390445,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -390569,7 +390569,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -390693,7 +390693,7 @@ Target weapon attack gains +1{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -391470,7 +391470,7 @@ Target dagger attack gets +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -391790,7 +391790,7 @@ Target dagger attack gets +3{p}.`,
     keywords: [Keyword.GoAgain,Keyword.Transform],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -392227,7 +392227,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     keywords: [Keyword.ArcaneBarrier,Keyword.BladeBreak,Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -392353,7 +392353,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -393053,7 +393053,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -393514,7 +393514,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
     keywords: [Keyword.Cloaked],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -393946,7 +393946,7 @@ When this hits a hero, banish the top card of their deck.`,
     keywords: [Keyword.Contract],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -394326,7 +394326,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -394465,7 +394465,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -394589,7 +394589,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -394713,7 +394713,7 @@ When this hits a hero, banish the top card of their deck.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -394823,7 +394823,7 @@ Your second sword or dagger attack this turn gets +3{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -394937,7 +394937,7 @@ Your second sword or dagger attack this turn gets +3{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -395217,7 +395217,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.Ephemeral],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -395424,7 +395424,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -395550,7 +395550,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -395691,7 +395691,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -395800,7 +395800,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.Tower],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -396318,7 +396318,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -396472,7 +396472,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -396626,7 +396626,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.Intimidate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -396923,7 +396923,7 @@ Target attack action card gets **go again**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -397062,7 +397062,7 @@ Target attack action card gets **go again**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -397297,7 +397297,7 @@ Target attack action card gets **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -398109,7 +398109,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -398395,7 +398395,7 @@ While this is in your graveyard, if 1 or more Frostbite tokens would be created 
     
     
     
-    meta: [Meta.Deck,Meta.Expansion],
+    meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 3,
@@ -398600,7 +398600,7 @@ If Snap Shot was **fused**, you may activate abilities of bows you control an ad
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -398963,7 +398963,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -399089,7 +399089,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -399215,7 +399215,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -399444,7 +399444,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -399797,7 +399797,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -399921,7 +399921,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -400045,7 +400045,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -400139,7 +400139,7 @@ If you have played another Wizard 'non-attack' action card this turn, you may pl
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -400438,7 +400438,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -400675,7 +400675,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -401494,7 +401494,7 @@ If Snow Under was **fused**, it gains "If this hits a hero, create a Frostbite t
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -401703,7 +401703,7 @@ For each non-attack action card revealed this way, put an attack action card rev
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -402629,7 +402629,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -403590,7 +403590,7 @@ If Soul Harvest hits a hero, they banish all cards in their soul and lose {h} eq
     keywords: [Keyword.Legendary,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -403793,7 +403793,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     keywords: [Keyword.GoAgain,Keyword.Legendary,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -403902,7 +403902,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -404026,7 +404026,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -404165,7 +404165,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -404289,7 +404289,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -404443,7 +404443,7 @@ While Soul Reaping is attacking a hero with 1 or more cards in their soul, it ha
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -405036,7 +405036,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -405277,7 +405277,7 @@ If Sow Tomorrow is played from arsenal, draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -405486,7 +405486,7 @@ If you have **boosted** this turn, draw a card.`,
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -405819,7 +405819,7 @@ If you have **boosted** this turn, draw a card.`,
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -406101,7 +406101,7 @@ If you have **boosted** this turn, draw a card.`,
     keywords: [Keyword.GoAgain,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -406224,7 +406224,7 @@ If you have **boosted** this turn, draw a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -406968,7 +406968,7 @@ If you have **boosted** this turn, draw a card.`,
     keywords: [Keyword.Overpower,Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -407278,7 +407278,7 @@ If you have **boosted** this turn, draw a card.`,
     keywords: [Keyword.Ward],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -407515,7 +407515,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
     keywords: [Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -407624,7 +407624,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
     keywords: [Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -407763,7 +407763,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
     keywords: [Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -407887,7 +407887,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
     keywords: [Keyword.Spellvoid],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -407996,7 +407996,7 @@ When this attacks, if it scrapped a Hyper Driver, create a Hyper Driver token wi
     keywords: [Keyword.Spellvoid],
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -408465,7 +408465,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -408589,7 +408589,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -408728,7 +408728,7 @@ When this defends and the attacking hero has dealt arcane damage this turn, crea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -409294,7 +409294,7 @@ At the beginning of your end phase, destroy Spellbound Creepers unless you have 
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -409627,7 +409627,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -409956,7 +409956,7 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     keywords: [Keyword.GoAgain,Keyword.Piercing],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -410191,7 +410191,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -410584,7 +410584,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -410723,7 +410723,7 @@ When this defends and the attacking hero has played or activated a reaction this
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -411105,7 +411105,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -411229,7 +411229,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -411338,7 +411338,7 @@ When this defends and the attacking hero has played or activated a reaction this
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -411995,7 +411995,7 @@ When this attacks, you may {t} a cog you control. If you do, the attack gets +1{
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -412206,7 +412206,7 @@ Whenever a weapon you control hits this turn, create 2 Copper tokens.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -412801,7 +412801,7 @@ When this hits a hero, remove all steam counters from an equipment, item, or wea
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -413286,7 +413286,7 @@ When Spring Tidings hits, draw a card for each other attack action card with 2 o
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -413382,7 +413382,7 @@ If an item or equipment was banished from boosting this, this gets +1{p}.`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -413644,7 +413644,7 @@ Your next attack this turn gets +1{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -414202,7 +414202,7 @@ Your next attack this turn gets +1{p}.
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -414466,7 +414466,7 @@ At the start of your turn, destroy this, draw a card, then put a card from your 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -414895,7 +414895,7 @@ When one or more Earth cards are pitched this way, the next time you deal arcane
     keywords: [Keyword.Amp,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -415021,7 +415021,7 @@ Target attack with **stealth** gets +3{p} and **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -415198,7 +415198,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -415358,7 +415358,7 @@ Target attack with **stealth** gets +1{p} and **go again**.`,
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -415584,7 +415584,7 @@ If you control a Vigor token, this gets +1{d}.
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -415680,7 +415680,7 @@ If you control a Vigor token, this gets +1{d}.
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -416088,7 +416088,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -416333,7 +416333,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -416414,7 +416414,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -416495,7 +416495,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -416858,7 +416858,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -416964,7 +416964,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -417297,7 +417297,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     keywords: [Keyword.Flow],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -417515,7 +417515,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -417651,7 +417651,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -417802,7 +417802,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -418242,7 +418242,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -418491,7 +418491,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -418879,7 +418879,7 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -419015,7 +419015,7 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -419151,7 +419151,7 @@ If an item you control has been destroyed this turn, this gets +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -419279,7 +419279,7 @@ Until end of turn, target weapon gains +2{p} and "Whenever this weapon hits, dra
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -419418,7 +419418,7 @@ Until end of turn, target weapon gains +2{p} and "Whenever this weapon hits, dra
     keywords: [Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -420320,7 +420320,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -420444,7 +420444,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -420583,7 +420583,7 @@ At the beginning of your end phase, destroy Sting of Sorcery.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -420696,7 +420696,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -420839,7 +420839,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -420967,7 +420967,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -421189,7 +421189,7 @@ If Stir the Wildwood was **fused**, it gains +2{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -421411,7 +421411,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -421554,7 +421554,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -421712,7 +421712,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -421838,7 +421838,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -421949,7 +421949,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.Clash,Keyword.Temper],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -422370,7 +422370,7 @@ At the beginning of your action phase, destroy this.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -422481,7 +422481,7 @@ At the beginning of your action phase, destroy this.`,
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -423773,7 +423773,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -424033,7 +424033,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     keywords: [Keyword.Fusion,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -424223,7 +424223,7 @@ At the beginning of your action phase, destroy Strength of Sequoia then the next
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -424727,7 +424727,7 @@ If you've dealt arcane damage to an opposing hero this turn, you may play this a
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -424868,7 +424868,7 @@ If you've dealt arcane damage to an opposing hero this turn, you may play this a
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -424994,7 +424994,7 @@ If you've dealt arcane damage to an opposing hero this turn, you may play this a
     keywords: [Keyword.Reprise],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -425299,7 +425299,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -425473,7 +425473,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -425582,7 +425582,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -425676,7 +425676,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -425770,7 +425770,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -427050,7 +427050,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
     keywords: [Keyword.Decompose],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -427283,7 +427283,7 @@ Deal 3 arcane damage to any target. If Succumb to Winter was **fused** and targe
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -429404,7 +429404,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -429585,7 +429585,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -429751,7 +429751,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -429877,7 +429877,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -430003,7 +430003,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -430129,7 +430129,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -430268,7 +430268,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -430379,7 +430379,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.WateryGrave],
     
     life: 3,
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 2,
@@ -430554,7 +430554,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -430731,7 +430731,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -431017,7 +431017,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -431111,7 +431111,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -431220,7 +431220,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.HighTide],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -431423,7 +431423,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
     keywords: [Keyword.HighTide],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -432212,7 +432212,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -432369,7 +432369,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
     keywords: [Keyword.GoAgain,Keyword.Sharpen],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -432558,7 +432558,7 @@ Target weapon attack gets +5{p}.`,
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -432654,7 +432654,7 @@ Target weapon attack gets +5{p}.`,
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -432750,7 +432750,7 @@ Target weapon attack gets +5{p}.`,
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -432848,7 +432848,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -433195,7 +433195,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -433477,7 +433477,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -433573,7 +433573,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -433669,7 +433669,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.GoAgain,Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -434015,7 +434015,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -434185,7 +434185,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -434325,7 +434325,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -434465,7 +434465,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.GoAgain,Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -434589,7 +434589,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -434713,7 +434713,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -434837,7 +434837,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     keywords: [Keyword.Reload],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -434993,7 +434993,7 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -435149,7 +435149,7 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     keywords: [Keyword.Charge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -435369,7 +435369,7 @@ If you've **charged** this turn, Take Flight gains **go again**.`,
     
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -436005,7 +436005,7 @@ Target attack gets +3{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -436110,7 +436110,7 @@ Target attack gets +2{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -436215,7 +436215,7 @@ Target attack gets +1{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -436309,7 +436309,7 @@ Target attack gets +1{p}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -436518,7 +436518,7 @@ At the beginning of your end phase, if Talishar, the Lost Prince has 3 or more r
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -437284,7 +437284,7 @@ When a source you control deals exactly 2 damage to an opposing hero, destroy Ta
     keywords: [Keyword.Opt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -437989,7 +437989,7 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -438190,7 +438190,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -438751,7 +438751,7 @@ When this hits a Revered hero, they discard a card.`,
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -439011,7 +439011,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -439852,7 +439852,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     keywords: [Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -439978,7 +439978,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     keywords: [Keyword.Battleworn,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -440217,7 +440217,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -440439,7 +440439,7 @@ Once per turn, when you boost an attack action card, remove a steam counter from
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -440802,7 +440802,7 @@ Once per turn, when you boost an attack action card, remove a steam counter from
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -442384,7 +442384,7 @@ When this leaves the arena, your next attack this turn gets +4{p}.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -442561,7 +442561,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -443449,7 +443449,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -443573,7 +443573,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -443682,7 +443682,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
     keywords: [Keyword.Clash],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 1,
@@ -444166,7 +444166,7 @@ If you've played another blue card this turn, **transcend**.`,
     keywords: [Keyword.Legendary,Keyword.Transcend],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     oppositeSideCardIdentifier: `inner-chi-blue`,oppositeSideCardIdentifiers: ["inner-chi-blue"],
     pitch: 3,
@@ -444595,7 +444595,7 @@ Your first attack each turn gets +1{p}.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -445054,7 +445054,7 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
     keywords: [Keyword.TheCrowdCheers],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -445677,7 +445677,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -445803,7 +445803,7 @@ Gain 1{h}`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -446132,7 +446132,7 @@ Gain 1{h}`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -446271,7 +446271,7 @@ Gain 1{h}`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -446425,7 +446425,7 @@ Gain 1{h}`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -446534,7 +446534,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -446932,7 +446932,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -447071,7 +447071,7 @@ Gain 1{h}`,
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -447195,7 +447195,7 @@ Gain 1{h}`,
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -447334,7 +447334,7 @@ Gain 1{h}`,
     keywords: [Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -447458,7 +447458,7 @@ Gain 1{h}`,
     keywords: [Keyword.Heave],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -447567,7 +447567,7 @@ Gain 1{h}`,
     keywords: [Keyword.Heave],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -447691,7 +447691,7 @@ Gain 1{h}`,
     keywords: [Keyword.Heave],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -448028,7 +448028,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -448122,7 +448122,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -448216,7 +448216,7 @@ Gain 1{h}`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -448370,7 +448370,7 @@ Gain 1{h}`,
     keywords: [Keyword.Guardwell],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -448880,7 +448880,7 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -449206,7 +449206,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -449304,7 +449304,7 @@ If you've pitched a blue card this turn, create a Crouching Tiger in your hand.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -449673,7 +449673,7 @@ When this attacks, the next Crouching Tiger you play this combat chain gets +1{p
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -450138,7 +450138,7 @@ If this was played from arsenal, the next attack action card you play this turn 
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -450607,7 +450607,7 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -451036,7 +451036,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -451416,7 +451416,7 @@ If there is a card with cost 3 or greater in your pitch zone, Titan's Fist has +
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -451591,7 +451591,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -452042,7 +452042,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -452250,7 +452250,7 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -452647,7 +452647,7 @@ If Tome of Fyendal is played from arsenal, gain 1{h} for each card in your hand.
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -453129,7 +453129,7 @@ You may pitch 2 red cards. If you don't, banish your hand.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -453603,7 +453603,7 @@ Draw a card.
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -453699,7 +453699,7 @@ Draw a card.
     keywords: [Keyword.ArcaneBarrier],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -454162,7 +454162,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -454286,7 +454286,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -454425,7 +454425,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -455323,7 +455323,7 @@ Draw a card.
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -455447,7 +455447,7 @@ Draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -455571,7 +455571,7 @@ Draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -455695,7 +455695,7 @@ Draw a card.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -455821,7 +455821,7 @@ Draw a card.
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -456124,7 +456124,7 @@ Draw a card.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -456265,7 +456265,7 @@ If this was played from arsenal, it gains **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -456391,7 +456391,7 @@ If this was played from arsenal, it gains **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -456502,7 +456502,7 @@ If this was played from arsenal, it gains **go again**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -456598,7 +456598,7 @@ If this was played from arsenal, it gains **go again**.`,
     keywords: [Keyword.Surge],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -459309,7 +459309,7 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -459588,7 +459588,7 @@ When this defends, effects don't trigger when an attack hits this chain link unl
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -459989,7 +459989,7 @@ When you or a card you control is the target of an attack they control, destroy 
     keywords: [Keyword.Cloaked,Keyword.Ward],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -460889,7 +460889,7 @@ If Turn Timber was **fused**, it gains +2{d}.`,
     keywords: [Keyword.Fusion],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -461207,7 +461207,7 @@ If this deals damage, you may {t} your hero. If you do, create a Ponder token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -461333,7 +461333,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     keywords: [Keyword.TheCrowdCheers],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -461626,7 +461626,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -461740,7 +461740,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -461839,7 +461839,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -461948,7 +461948,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -462087,7 +462087,7 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -462428,7 +462428,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -462539,7 +462539,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
     keywords: [Keyword.Mark],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -463039,7 +463039,7 @@ When this hits, put it on the bottom of its owner's deck.`,
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -463378,7 +463378,7 @@ When this hits a hero, steal an item they control.`,
     keywords: [Keyword.Steal,Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Expansion],
+    meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 1,
@@ -463489,7 +463489,7 @@ When this hits a hero, steal an item they control.`,
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -463741,7 +463741,7 @@ When this hits a hero, steal an item they control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -464031,7 +464031,7 @@ You may put a 'non-attack' action card with blood debt from your graveyard on th
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -464765,7 +464765,7 @@ When this hits an ally, destroy that ally.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -464889,7 +464889,7 @@ When this hits an ally, destroy that ally.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -465043,7 +465043,7 @@ When this hits an ally, destroy that ally.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -465215,7 +465215,7 @@ When this hits an ally, destroy that ally.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Expansion],
+    meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 1,
@@ -465311,7 +465311,7 @@ When this hits an ally, destroy that ally.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -465488,7 +465488,7 @@ When this hits an ally, destroy that ally.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -465780,7 +465780,7 @@ The next Brute or Shadow attack action card you play this turn gains +4{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -466021,7 +466021,7 @@ The next Brute or Shadow attack action card you play this turn gains +2{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -466213,7 +466213,7 @@ When this enters or leaves the arena, you may put a Revered or Guardian attack a
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -466311,7 +466311,7 @@ Your next dagger attack this turn gets +4{p}.
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -466507,7 +466507,7 @@ Your next dagger attack this turn gets +2{p}.
     keywords: [Keyword.GoAgain,Keyword.Retrieve],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -466720,7 +466720,7 @@ Choose X+1;
     keywords: [Keyword.Cloaked,Keyword.Ward],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -466831,7 +466831,7 @@ When this hits a hero, create a Confidence and a Toughness token.`,
     
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -467369,7 +467369,7 @@ While Ursur is attacking a hero with 1 or more cards in their soul, the attack h
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -467885,7 +467885,7 @@ Attacks on this combat chain gain +1{p} for each Light card charged this way.`,
     keywords: [Keyword.Charge,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -468135,7 +468135,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     keywords: [Keyword.Dominate],
     
     life: 21,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -468357,7 +468357,7 @@ At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards 
     keywords: [Keyword.Battleworn],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -468481,7 +468481,7 @@ At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -468620,7 +468620,7 @@ At the start of your turn, if you control 3 or more Siesmic Surge tokens, cards 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -468919,7 +468919,7 @@ When this defends, you may pay {r}. If you do, it gains +1{d} and **blade break*
     keywords: [Keyword.Overpower],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -470606,7 +470606,7 @@ If Vela Flash was **fused**, you may play your next 'non-attack' action card thi
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -470768,7 +470768,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -471041,7 +471041,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
     keywords: [Keyword.Essence],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -471386,7 +471386,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -471702,7 +471702,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -471965,7 +471965,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -472076,7 +472076,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -472187,7 +472187,7 @@ The first time each turn you would fail to win a **clash**, instead you may dest
     keywords: [Keyword.Clash],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -472791,7 +472791,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -472932,7 +472932,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     keywords: [Keyword.BladeBreak,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -473353,7 +473353,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -473526,7 +473526,7 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -474460,7 +474460,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
     keywords: [Keyword.GoAgain,Keyword.TheCrowdBoos],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -474786,7 +474786,7 @@ Target hero banishes the top card of their deck. If it's blue, they lose 1{h}.
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.Expansion],
+    meta: [Meta.Arena,Meta.Expansion,Meta.Reprint],
   
     
     
@@ -474882,7 +474882,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -475168,7 +475168,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -475253,7 +475253,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     keywords: [Keyword.Traverse],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     oppositeSideCardIdentifier: `viserai-usurper`,oppositeSideCardIdentifiers: ["viserai-usurper"],
     
@@ -475449,7 +475449,7 @@ When this chain link resolves, if Virulent Touch is defended by a card from hand
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -475633,7 +475633,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
     keywords: [Keyword.GoAgain,Keyword.Traverse],
     
     
-    
+    meta: [Meta.Reprint],
   
     oppositeSideCardIdentifier: `viserai-the-forsaken`,oppositeSideCardIdentifiers: ["viserai-the-forsaken","viserai-between-worlds"],
     
@@ -476109,7 +476109,7 @@ Create a Vigor token.`,
     keywords: [Keyword.Sharpen],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -476707,7 +476707,7 @@ Create a Vigor and a Courage token. **Go again**`,
     keywords: [Keyword.ArcaneBarrier,Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -477994,7 +477994,7 @@ When this is pitched, create a Lightning Flow token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -478133,7 +478133,7 @@ When this is pitched, create a Lightning Flow token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -478302,7 +478302,7 @@ When this is pitched, create a Lightning Flow token.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -478745,7 +478745,7 @@ When this hits, create a Lightning Flow token.`,
     keywords: [Keyword.Amp],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -478856,7 +478856,7 @@ When this hits, create a Lightning Flow token.`,
     keywords: [Keyword.BladeBreak,Keyword.Mark],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -478931,7 +478931,7 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -479317,7 +479317,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -479490,7 +479490,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -479601,7 +479601,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     keywords: [Keyword.Universal,Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -479887,7 +479887,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -480154,7 +480154,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -480327,7 +480327,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     keywords: [Keyword.Wager],
     
     
-    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -480519,7 +480519,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -481267,7 +481267,7 @@ const cards7: Card[] = [{
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -481361,7 +481361,7 @@ const cards7: Card[] = [{
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -481634,7 +481634,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -481730,7 +481730,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -481826,7 +481826,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -482297,7 +482297,7 @@ If they choose peace, the only actions they may play or activate during their ne
     
     
     
-    meta: [Meta.Deck,Meta.Expansion],
+    meta: [Meta.Deck,Meta.Expansion,Meta.Reprint],
   
     
     pitch: 3,
@@ -482423,7 +482423,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -482549,7 +482549,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -482939,7 +482939,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -483110,7 +483110,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -483281,7 +483281,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -483464,7 +483464,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -483632,7 +483632,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -483815,7 +483815,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.Phantasm],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -484005,7 +484005,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena,Meta.DualClass],
+    meta: [Meta.Arena,Meta.DualClass,Meta.Reprint],
   
     
     
@@ -484344,7 +484344,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -484629,7 +484629,7 @@ If they choose peace, the only actions they may play or activate during their ne
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -484742,7 +484742,7 @@ At the start of your turn, destroy this.`,
     keywords: [Keyword.Cloaked],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -484998,7 +484998,7 @@ If you choose both, search your deck for an Inner Chi, reveal it, shuffle, then 
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -485267,7 +485267,7 @@ If you choose both, search your deck for an Inner Chi, reveal it, shuffle, then 
     keywords: [Keyword.Ward],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -485540,7 +485540,7 @@ If you choose both, search your deck for an Inner Chi, reveal it, shuffle, then 
     keywords: [Keyword.BladeBreak],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -485668,7 +485668,7 @@ If it's **fused**, instead it gains +4{p}.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -486022,7 +486022,7 @@ If it's **fused**, it gains **dominate**.
     keywords: [Keyword.Dominate,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -486404,7 +486404,7 @@ If it's **fused**, it gains **dominate**.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -486752,7 +486752,7 @@ If it's **fused**, it gains **dominate**.
     keywords: [Keyword.Crush],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -487143,7 +487143,7 @@ If it's **fused**, it gains **dominate**.
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -487239,7 +487239,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
     keywords: [Keyword.Suspense],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -487438,7 +487438,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -487577,7 +487577,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -487746,7 +487746,7 @@ The first card with cost 1 or more you play each turn costs {r} less to play.`,
     keywords: [Keyword.Combo,Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -487904,7 +487904,7 @@ When this hits and it's the second or higher chain link in a row to hit, draw 2 
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 2,
@@ -488045,7 +488045,7 @@ When this hits and it's the second or higher chain link in a row to hit, draw 2 
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -488186,7 +488186,7 @@ When this hits and it's the second or higher chain link in a row to hit, draw 2 
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -488327,7 +488327,7 @@ When this hits and it's the second or higher chain link in a row to hit, draw 2 
     keywords: [Keyword.GoAgain,Keyword.Opt],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -488694,7 +488694,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -489820,7 +489820,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -489916,7 +489916,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -490166,7 +490166,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -490305,7 +490305,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -490414,7 +490414,7 @@ If Widowmaker is defended by fewer than 2 cards, it has +3{p}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -490685,7 +490685,7 @@ When this is pitched, **amp 1**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -491368,7 +491368,7 @@ When this is pitched, **amp 1**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -491524,7 +491524,7 @@ When this is pitched, **amp 1**.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -491881,7 +491881,7 @@ When this is pitched, **amp 1**.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -492088,7 +492088,7 @@ When this hits a hero, create a Frailty token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -492184,7 +492184,7 @@ When this hits a hero, create a Frailty token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -492295,7 +492295,7 @@ When this hits a hero, create a Frailty token under their control.`,
     keywords: [Keyword.Stealth],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -492406,7 +492406,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -492959,7 +492959,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -493098,7 +493098,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -493222,7 +493222,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -493376,7 +493376,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -493500,7 +493500,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -493651,7 +493651,7 @@ When this hits a hero, create a Frailty token under their control.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -493766,7 +493766,7 @@ When this attacks, daggers you control get +1{p} and cost {r} less to activate t
     keywords: [Keyword.GoAgain,Keyword.Legendary],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -493877,7 +493877,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -494193,7 +494193,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -494332,7 +494332,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -494561,7 +494561,7 @@ When this hits a hero, you may turn a card in their arsenal face up, then destro
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -494768,7 +494768,7 @@ If a card with 6 or more {p} is banished this way, Writhing Beast Hulk gains **d
     keywords: [Keyword.BloodDebt,Keyword.Dominate],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -495724,7 +495724,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.DualClass],
+    meta: [Meta.Deck,Meta.DualClass,Meta.Reprint],
   
     
     pitch: 3,
@@ -496152,7 +496152,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -496276,7 +496276,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -496400,7 +496400,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
     
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -496539,7 +496539,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -496866,7 +496866,7 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -497052,7 +497052,7 @@ If you would be dealt damage, prevent 1 of that damage.`,
     
     
     
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -497286,7 +497286,7 @@ If this has been sharpened this turn, its first attack this turn gets **go again
     keywords: [Keyword.GoAgain,Keyword.Specialization],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -497487,7 +497487,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -497581,7 +497581,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -497938,7 +497938,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -498107,7 +498107,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -498261,7 +498261,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -498460,7 +498460,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 1,
@@ -498644,7 +498644,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 2,
@@ -498813,7 +498813,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     keywords: [Keyword.Boost],
     
     
-    meta: [Meta.Deck,Meta.Rainbow],
+    meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
   
     
     pitch: 3,
@@ -499259,7 +499259,7 @@ When this is defended by a card with {d} greater than this weapon attack's {p}, 
     
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     

@@ -172,6 +172,7 @@ export enum Meta {
   DualClass = "Dual class",
   Expansion = "Expansion slot",
   Rainbow = "Rainbow",
+  Reprint = "Reprint",
 }
 
 export enum Release {

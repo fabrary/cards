@@ -141,7 +141,7 @@ When this is pitched, create a Runechant token.`,
     keywords: [Keyword.Legendary,Keyword.Specialization],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 3,
@@ -1375,7 +1375,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     keywords: [Keyword.BloodDebt],
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     
@@ -1535,7 +1535,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -1685,7 +1685,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     keywords: [Keyword.GoAgain],
     
     life: 40,
-    
+    meta: [Meta.Reprint],
   
     
     
@@ -3284,7 +3284,7 @@ When this is pitched, lose 1{h}.`,
     keywords: [Keyword.Traverse],
     
     life: 20,
-    
+    meta: [Meta.Reprint],
   
     oppositeSideCardIdentifier: `viserai-usurper`,oppositeSideCardIdentifiers: ["viserai-usurper"],
     
@@ -3456,7 +3456,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
     keywords: [Keyword.GoAgain,Keyword.Traverse],
     
     
-    
+    meta: [Meta.Reprint],
   
     oppositeSideCardIdentifier: `viserai-the-forsaken`,oppositeSideCardIdentifiers: ["viserai-the-forsaken","viserai-between-worlds"],
     
@@ -3519,7 +3519,7 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
     
     
     
-    meta: [Meta.Arena],
+    meta: [Meta.Arena,Meta.Reprint],
   
     
     

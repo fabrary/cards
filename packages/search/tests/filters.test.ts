@@ -110,6 +110,8 @@ describe("Gets the right attribute filters", () => {
   const metaFilters = [
     ["s:ros meta:rainbow", [Meta.Rainbow]],
     ["meta:rainbow,expansion", [Meta.Rainbow, Meta.Expansion]],
+    ["is:reprint", [Meta.Reprint]],
+    ["meta:reprint,dual", [Meta.Reprint, Meta.DualClass]],
   ];
   it.each(metaFilters)(
     "Gets matching meta values for %s",
@@ -133,6 +135,32 @@ describe("Gets the right attribute filters", () => {
           metaAppliedFilter?.values.includes(expected.toLowerCase()),
         ).toBeTruthy();
       }
+    },
+  );
+
+  const uniqueFilters = [
+    ["is:unique", true],
+    ["!is:unique", false],
+    ["is:reprint", false],
+  ];
+  it.each(uniqueFilters)(
+    "Matches on the reprint meta value for %s",
+    (search, expectedIsExcluded) => {
+      const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+        search as string,
+        cards,
+      );
+
+      const metaAppliedFilters = appliedFilters.filter(
+        (appliedFilter) =>
+          appliedFilter.filterToPropertyMapping.property === "meta",
+      );
+
+      expect(metaAppliedFilters.length).toEqual(1);
+      expect(metaAppliedFilters[0].values).toEqual([
+        Meta.Reprint.toLowerCase(),
+      ]);
+      expect(!!metaAppliedFilters[0].isExcluded).toEqual(expectedIsExcluded);
     },
   );
 

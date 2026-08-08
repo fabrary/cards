@@ -497,6 +497,10 @@ export const getKeywordsAndAppliedFiltersFromText = (
       let { filterKey, isExcluded, isOptional, isMeta } =
         getFilterKeyAndExcludedOrOptional(unparsedFilterKey);
 
+      // Set when every value produced its own applied filter, so the shared
+      // mapping below has nothing left to match on.
+      let areValuesAlreadyApplied = false;
+
       if (isMeta) {
         if (["rarity", "r"].includes(filterKey)) {
           const rarityValues = getRarityValuesFromText(values);
@@ -607,7 +611,31 @@ export const getKeywordsAndAppliedFiltersFromText = (
         ) {
           prints = values;
         } else if (["is", "meta"].includes(filterKey)) {
-          const metaValues = getMetaValuesFromText(values);
+          // Unique is the inverse of Meta.Reprint, so it gets its own filter
+          // with the exclusion flipped rather than a meta value to match.
+          const uniqueValues: string[] = [];
+          const metaRawValues: string[] = [];
+          for (const value of values) {
+            if (UNIQUE_VALUES.includes(value)) {
+              uniqueValues.push(value);
+            } else {
+              metaRawValues.push(value);
+            }
+          }
+
+          if (uniqueValues.length > 0) {
+            appliedFilters.push({
+              filterToPropertyMapping: metaFilter,
+              values: [Meta.Reprint.toLowerCase().replaceAll(PUNCTUATION, "")],
+              isAnd,
+              isOr,
+              isExcluded: !isExcluded,
+              isOptional,
+            });
+            areValuesAlreadyApplied = metaRawValues.length === 0;
+          }
+
+          const metaValues = getMetaValuesFromText(metaRawValues);
           values = metaValues.map((v) =>
             v.toLowerCase().replaceAll(PUNCTUATION, ""),
           );
@@ -630,7 +658,10 @@ export const getKeywordsAndAppliedFiltersFromText = (
         } else if (["pitch", "p", "color"].includes(filterKey)) {
           values = getPitchValuesFromText(values);
         }
-        if (filtersToCardPropertyMappings[filterKey as Filter]) {
+        if (
+          filtersToCardPropertyMappings[filterKey as Filter] &&
+          !areValuesAlreadyApplied
+        ) {
           appliedFilters.push({
             filterToPropertyMapping:
               filtersToCardPropertyMappings[filterKey as Filter],
@@ -746,12 +777,16 @@ const getPitchValuesFromText = (rawValues: string[]) => {
   return values;
 };
 
+const UNIQUE_VALUES = ["unique"];
+
 const metaValuesMapping: { [key: string]: Meta } = {
   dual: Meta.DualClass,
   exp: Meta.Expansion,
   expansion: Meta.Expansion,
   expansionSlot: Meta.Expansion,
   rainbow: Meta.Rainbow,
+  reprint: Meta.Reprint,
+  reprints: Meta.Reprint,
 };
 const getMetaValuesFromText = (rawValues: string[]) => {
   const values: Meta[] = [];

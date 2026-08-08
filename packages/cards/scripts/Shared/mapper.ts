@@ -496,6 +496,10 @@ export const getFusions = (card: { cardKeywords: string[] }): Fusion[] => {
   return arr;
 };
 
+// Promo sets reprint cards that belong to another release, so they never count
+// towards the releases a card is printed in.
+const PROMO_SETS = [Release.GEM, Release.Promos, Release.TournamentPack];
+
 export const getMeta = (
   card: PreliminaryCard,
   cardCountsByName: Map<string, number>,
@@ -528,6 +532,18 @@ export const getMeta = (
   const isDualClass = card.classes.length > 1;
   if (isDualClass) {
     meta.push(Meta.DualClass);
+  }
+
+  const nonPromoSets = new Set<Release>();
+  for (const { set } of card.printings) {
+    const isPromoSet = PROMO_SETS.includes(set);
+    if (!isPromoSet) {
+      nonPromoSets.add(set);
+    }
+  }
+  const isReprint = nonPromoSets.size > 1;
+  if (isReprint) {
+    meta.push(Meta.Reprint);
   }
 
   meta.sort();
