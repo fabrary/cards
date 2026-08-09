@@ -34211,12 +34211,24 @@ If you control a Vigor token, this gets +1{d}.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Faizal Fikri"],
+      foiling: Foiling.Cold,
+      identifier: "JDG088",
+      image: "JDG088-CF",
+      
+      
+      print: "JDG088-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR017"],
-    sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR017",
+    setIdentifiers: ["IAR017","JDG088"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "JDG088-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -285426,6 +285438,71 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
   
   young: true
   },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "otherworldly-sins-red",
+    classes: [Class.Runeblade],
+    defaultImage: "JDG090-CF",
+    firstReleaseDate: "",
+    legalFormats: [Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Otherworldly Sins",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Cold,
+      identifier: "JDG090",
+      image: "JDG090-CF",
+      
+      
+      print: "JDG090-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG090"],
+    sets: [Release.Promos],
+    specialImage: "JDG090-CF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Runeblade or Shadow attack this turn gets +3{p}.
+
+Create a Runechant token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "out-for-blood-red",
     classes: [Class.Warrior],
@@ -322326,7 +322403,8 @@ The next attack you **boost** this turn gets +4{p}.
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "quickfire-yellow",
     classes: [Class.Mechanologist],
@@ -322409,8 +322487,7 @@ The next attack you **boost** this turn gets +3{p}.
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "quickfire-blue",
     classes: [Class.Mechanologist],
@@ -338253,12 +338330,24 @@ At the start of your turn, destroy this and draw a card.`,
       set: Release.ArmoryDeckMalice,
       
       
+    },{
+        artists: ["Joseph Qiu"],
+      foiling: Foiling.Cold,
+      identifier: "JDG086",
+      image: "JDG086-MV",
+      
+      
+      print: "JDG086-Cold-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AMA014"],
-    sets: [Release.ArmoryDeckMalice],
-    specialImage: "AMA014",
+    setIdentifiers: ["AMA014","JDG086"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos],
+    specialImage: "JDG086-MV",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
     typeText: "Shadow Necromancer Action - Zombie Ally",
@@ -375694,6 +375783,69 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
   
   
   },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "shadowrealm-strength-red",
+    classes: [Class.Necromancer],
+    defaultImage: "JDG089-CF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Shadowrealm Strength",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Cold,
+      identifier: "JDG089",
+      image: "JDG089-CF",
+      
+      
+      print: "JDG089-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },],
+    rarities: [Rarity.Promo],
+    rarity: Rarity.Promo,
+    setIdentifiers: ["JDG089"],
+    sets: [Release.Promos],
+    specialImage: "JDG089-CF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "shake-down-red",
     classes: [Class.Assassin],
@@ -402804,7 +402956,8 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Leo Avero"],
     cardIdentifier: "soul-bond-belief-blue",
     classes: [Class.NotClassed],
@@ -402964,8 +403117,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     talents: [Talent.Shadow],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "soul-butcher-yellow",
     classes: [Class.NotClassed],
@@ -478987,12 +479139,36 @@ Zombies you control get "**Action** - {r}, {t}: **Attack**"`,
             url: "https://www.tcgplayer.com/product/503311?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Cold,
+      identifier: "JDG085",
+      image: "JDG085-MV",
+      
+      
+      print: "JDG085-Cold-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Cold,
+      identifier: "JDG085",
+      image: "JDG085-MV_BACK",
+      
+      
+      print: "JDG085-Cold-Full Art-Back",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["DTD134","HER085"],
+    setIdentifiers: ["DTD134","HER085","JDG085"],
     sets: [Release.DuskTillDawn,Release.Promos],
-    specialImage: "HER085-CF",
+    specialImage: "JDG085-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Shadow Runeblade Hero - Young",
@@ -481016,7 +481192,8 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "wall-of-meat-and-muscle-red",
     classes: [Class.Brute,Class.Guardian],
@@ -481189,8 +481366,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "wallop-yellow",
     classes: [Class.Guardian],

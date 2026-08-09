@@ -285,10 +285,10 @@ Attack action cards played from your banished zone get +3{p}.`,
       
       
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["IAR017"],
-    sets: [Release.UsurpTheShadowThrone],
+    setIdentifiers: ["IAR017","JDG088"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "IAR017",
     subtypes: [Subtype.Attack],
     types: [Type.Action],

@@ -43156,21 +43156,35 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
+    {
+      "artists": [
+        "Faizal Fikri",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG088",
+      "image": "JDG088-CF",
+      "print": "JDG088-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "IAR017",
+    "JDG088",
   ],
   "sets": [
+    "Promos",
     "Usurp the Shadow Throne",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR017",
+  "specialImage": "JDG088-CF",
   "subtypes": [
     "Attack",
   ],
@@ -436363,18 +436377,36 @@ exports[`Check for unintentional updates Restless Commander (restless-commander-
       "rarity": "Majestic",
       "set": "Armory Deck: Malice",
     },
+    {
+      "artists": [
+        "Joseph Qiu",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG086",
+      "image": "JDG086-MV",
+      "print": "JDG086-Cold-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AMA014",
+    "JDG086",
   ],
   "sets": [
     "Armory Deck: Malice",
+    "Promos",
   ],
-  "specialImage": "AMA014",
+  "specialImage": "JDG086-MV",
   "subtypes": [
     "Ally",
     "Non-Attack",
@@ -616411,6 +616443,36 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
         "url": "https://www.tcgplayer.com/product/503311?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG085",
+      "image": "JDG085-MV",
+      "print": "JDG085-Cold-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG085",
+      "image": "JDG085-MV_BACK",
+      "print": "JDG085-Cold-Full Art-Back",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Promo",
@@ -616420,12 +616482,13 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
   "setIdentifiers": [
     "DTD134",
     "HER085",
+    "JDG085",
   ],
   "sets": [
     "Dusk till Dawn",
     "Promos",
   ],
-  "specialImage": "HER085-CF",
+  "specialImage": "JDG085-MV",
   "subtypes": [
     "Young",
   ],
