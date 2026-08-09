@@ -366317,6 +366317,82 @@ exports[`Check for unintentional updates Oscilio, Scion of the Third Age (oscili
 }
 `;
 
+exports[`Check for unintentional updates Otherworldly Sins (otherworldly-sins-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Tommy Suhartono",
+  ],
+  "cardIdentifier": "otherworldly-sins-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "JDG090-CF",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next Runeblade or Shadow attack this turn gets +3{p}.
+
+Create a Runechant token.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Otherworldly Sins",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG090",
+      "image": "JDG090-CF",
+      "print": "JDG090-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "JDG090",
+  ],
+  "sets": [
+    "Promos",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "JDG090-CF",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Out Muscle (out-muscle-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -483901,6 +483977,78 @@ exports[`Check for unintentional updates Shadowrealm Reaper (shadowrealm-reaper-
     "Shadow",
   ],
   "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-strength-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Prasetya",
+  ],
+  "cardIdentifier": "shadowrealm-strength-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "JDG089-CF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +3{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Shadowrealm Strength",
+  "pitch": 1,
+  "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG089",
+      "image": "JDG089-CF",
+      "print": "JDG089-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+  ],
+  "rarities": [
+    "Promo",
+  ],
+  "rarity": "Promo",
+  "setIdentifiers": [
+    "JDG089",
+  ],
+  "sets": [
+    "Promos",
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "JDG089-CF",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
   "types": [
     "Action",
   ],
