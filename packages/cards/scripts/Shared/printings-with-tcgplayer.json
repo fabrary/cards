@@ -15,6 +15,16 @@
       "url": "https://www.tcgplayer.com/product/654169?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "a-moments-peace-blue": {
+    "MPW075": {
+      "productId": "708925",
+      "url": "https://www.tcgplayer.com/product/708925?Language=English&Printing=Normal"
+    },
+    "MPW075-Rainbow": {
+      "productId": "708925",
+      "url": "https://www.tcgplayer.com/product/708925?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "absorb-in-aether-red": {
     "SBZ012": {
       "productId": "695803",
@@ -121,6 +131,16 @@
       "url": "https://www.tcgplayer.com/product/618307?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "all-in-red": {
+    "MPW027": {
+      "productId": "708896",
+      "url": "https://www.tcgplayer.com/product/708896?Language=English&Printing=Normal"
+    },
+    "MPW027-Rainbow": {
+      "productId": "708896",
+      "url": "https://www.tcgplayer.com/product/708896?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "alpha-instinct-blue": {
     "ARR022": {
       "productId": "663043",
@@ -157,12 +177,12 @@
   },
   "and-again-blue": {
     "MPW028": {
-      "productId": "",
-      "url": ""
+      "productId": "703886",
+      "url": "https://www.tcgplayer.com/product/703886?Language=English&Printing=Normal"
     },
     "MPW028-Rainbow-Extended Art": {
-      "productId": "",
-      "url": ""
+      "productId": "703887",
+      "url": "https://www.tcgplayer.com/product/703887?Language=English&Printing=Rainbow+Foil"
     }
   },
   "anticipating-gaze": {
@@ -501,6 +521,14 @@
     "AHA019": {
       "productId": "688758",
       "url": "https://www.tcgplayer.com/product/688758?Language=English&Printing=Normal"
+    },
+    "MPW038": {
+      "productId": "708899",
+      "url": "https://www.tcgplayer.com/product/708899?Language=English&Printing=Normal"
+    },
+    "MPW038-Rainbow": {
+      "productId": "708899",
+      "url": "https://www.tcgplayer.com/product/708899?Language=English&Printing=Rainbow+Foil"
     }
   },
   "backup-protocol-blu-blue": {
@@ -693,6 +721,28 @@
       "url": "https://www.tcgplayer.com/product/648233?Language=English&Printing=Normal"
     }
   },
+  "belly-buster-red": {
+    "AOL010": {
+      "productId": "709338",
+      "url": "https://www.tcgplayer.com/product/709338?Language=English&Printing=Normal"
+    }
+  },
+  "belly-buster-blue": {
+    "AOL023": {
+      "productId": "709350",
+      "url": "https://www.tcgplayer.com/product/709350?Language=English&Printing=Normal"
+    }
+  },
+  "below-the-belt-red": {
+    "MPW059": {
+      "productId": "708911",
+      "url": "https://www.tcgplayer.com/product/708911?Language=English&Printing=Normal"
+    },
+    "MPW059-Rainbow": {
+      "productId": "708911",
+      "url": "https://www.tcgplayer.com/product/708911?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "beneath-the-surface-yellow": {
     "GEM167-Extended Art": {
       "productId": "696208",
@@ -715,6 +765,36 @@
       "url": "https://www.tcgplayer.com/product/628135?Language=English&Printing=Normal"
     }
   },
+  "big-blinder-red": {
+    "MPW076": {
+      "productId": "708926",
+      "url": "https://www.tcgplayer.com/product/708926?Language=English&Printing=Normal"
+    },
+    "MPW076-Rainbow": {
+      "productId": "708926",
+      "url": "https://www.tcgplayer.com/product/708926?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "big-blinder-yellow": {
+    "MPW077": {
+      "productId": "708927",
+      "url": "https://www.tcgplayer.com/product/708927?Language=English&Printing=Normal"
+    },
+    "MPW077-Rainbow": {
+      "productId": "708927",
+      "url": "https://www.tcgplayer.com/product/708927?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "big-blinder-blue": {
+    "MPW078": {
+      "productId": "708928",
+      "url": "https://www.tcgplayer.com/product/708928?Language=English&Printing=Normal"
+    },
+    "MPW078-Rainbow": {
+      "productId": "708928",
+      "url": "https://www.tcgplayer.com/product/708928?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "big-blue-sky-blue": {
     "FAB238-Rainbow-Extended Art": {
       "productId": "555755",
@@ -725,6 +805,40 @@
     "FAB345-Rainbow-Extended Art": {
       "productId": "637486",
       "url": "https://www.tcgplayer.com/product/637486?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "big-slick-red": {
+    "AOL011": {
+      "productId": "709339",
+      "url": "https://www.tcgplayer.com/product/709339?Language=English&Printing=Normal"
+    },
+    "MPW060": {
+      "productId": "708912",
+      "url": "https://www.tcgplayer.com/product/708912?Language=English&Printing=Normal"
+    },
+    "MPW060-Rainbow": {
+      "productId": "708912",
+      "url": "https://www.tcgplayer.com/product/708912?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "big-slick-yellow": {
+    "MPW061": {
+      "productId": "708913",
+      "url": "https://www.tcgplayer.com/product/708913?Language=English&Printing=Normal"
+    },
+    "MPW061-Rainbow": {
+      "productId": "708913",
+      "url": "https://www.tcgplayer.com/product/708913?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "big-slick-blue": {
+    "MPW062": {
+      "productId": "708914",
+      "url": "https://www.tcgplayer.com/product/708914?Language=English&Printing=Normal"
+    },
+    "MPW062-Rainbow": {
+      "productId": "708914",
+      "url": "https://www.tcgplayer.com/product/708914?Language=English&Printing=Rainbow+Foil"
     }
   },
   "bittering-thorns-red": {
@@ -779,10 +893,26 @@
       "url": "https://www.tcgplayer.com/product/695831?Language=English&Printing=Normal"
     }
   },
+  "blade-dance": {
+    "MPW134-Cold-Full Art": {
+      "productId": "708478",
+      "url": "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil"
+    },
+    "MPW134-Cold-Full Art-Back": {
+      "productId": "708478",
+      "url": "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil"
+    }
+  },
   "blade-flash-blue": {
     "DDD013": {
       "productId": "",
       "url": ""
+    }
+  },
+  "blade-flurry-red": {
+    "MPW021": {
+      "productId": "708894",
+      "url": "https://www.tcgplayer.com/product/708894?Language=English&Printing=Normal"
     }
   },
   "blade-runner-red": {
@@ -899,6 +1029,30 @@
       "url": "https://www.tcgplayer.com/product/636246?Language=English&Printing=Cold+Foil"
     }
   },
+  "bluff-catcher-yellow": {
+    "AOL018": {
+      "productId": "709345",
+      "url": "https://www.tcgplayer.com/product/709345?Language=English&Printing=Normal"
+    },
+    "MPW029": {
+      "productId": "708467",
+      "url": "https://www.tcgplayer.com/product/708467?Language=English&Printing=Normal"
+    },
+    "MPW029-Rainbow": {
+      "productId": "708467",
+      "url": "https://www.tcgplayer.com/product/708467?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "blunt-retort": {
+    "MPW013": {
+      "productId": "708886",
+      "url": "https://www.tcgplayer.com/product/708886?Language=English&Printing=Normal"
+    },
+    "MPW013-Cold": {
+      "productId": "708886",
+      "url": "https://www.tcgplayer.com/product/708886?Language=English&Printing=Cold+Foil"
+    }
+  },
   "blur-reality-blue": {
     "AZS025": {
       "productId": "694866",
@@ -1013,6 +1167,12 @@
     "TNP039-Cold-Full Art": {
       "productId": "",
       "url": ""
+    }
+  },
+  "braveforge-bracers": {
+    "MPW011-Rainbow-Alternate Art": {
+      "productId": "708885",
+      "url": "https://www.tcgplayer.com/product/708885?Language=English&Printing=Rainbow+Foil"
     }
   },
   "bravo-flattering-showman": {
@@ -1179,6 +1339,16 @@
       "url": "https://www.tcgplayer.com/product/695953?Language=English&Printing=Normal"
     }
   },
+  "carve-up-yellow": {
+    "MPW079": {
+      "productId": "708929",
+      "url": "https://www.tcgplayer.com/product/708929?Language=English&Printing=Normal"
+    },
+    "MPW079-Rainbow": {
+      "productId": "708929",
+      "url": "https://www.tcgplayer.com/product/708929?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "celestial-cataclysm-yellow": {
     "APR010": {
       "productId": "648245",
@@ -1245,6 +1415,48 @@
     "FAB372-Cold-Full Art": {
       "productId": "661913",
       "url": "https://www.tcgplayer.com/product/661913?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "check-raise-red": {
+    "AOL012": {
+      "productId": "709340",
+      "url": "https://www.tcgplayer.com/product/709340?Language=English&Printing=Normal"
+    },
+    "MPW099": {
+      "productId": "708945",
+      "url": "https://www.tcgplayer.com/product/708945?Language=English&Printing=Normal"
+    },
+    "MPW099-Rainbow": {
+      "productId": "708945",
+      "url": "https://www.tcgplayer.com/product/708945?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "check-raise-yellow": {
+    "AOL019": {
+      "productId": "709346",
+      "url": "https://www.tcgplayer.com/product/709346?Language=English&Printing=Normal"
+    },
+    "MPW100": {
+      "productId": "708946",
+      "url": "https://www.tcgplayer.com/product/708946?Language=English&Printing=Normal"
+    },
+    "MPW100-Rainbow": {
+      "productId": "708946",
+      "url": "https://www.tcgplayer.com/product/708946?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "check-raise-blue": {
+    "AOL024": {
+      "productId": "709351",
+      "url": "https://www.tcgplayer.com/product/709351?Language=English&Printing=Normal"
+    },
+    "MPW101": {
+      "productId": "708947",
+      "url": "https://www.tcgplayer.com/product/708947?Language=English&Printing=Normal"
+    },
+    "MPW101-Rainbow": {
+      "productId": "708947",
+      "url": "https://www.tcgplayer.com/product/708947?Language=English&Printing=Rainbow+Foil"
     }
   },
   "cheers-blue": {
@@ -1397,6 +1609,16 @@
     "ARR026": {
       "productId": "663047",
       "url": "https://www.tcgplayer.com/product/663047?Language=English&Printing=Normal"
+    }
+  },
+  "clip-flexor": {
+    "MPW138": {
+      "productId": "708983",
+      "url": "https://www.tcgplayer.com/product/708983?Language=English&Printing=Normal"
+    },
+    "MPW138-Cold": {
+      "productId": "708983",
+      "url": "https://www.tcgplayer.com/product/708983?Language=English&Printing=Cold+Foil"
     }
   },
   "cloud-cover-red": {
@@ -1711,6 +1933,16 @@
       "url": "https://www.tcgplayer.com/product/696201?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "crimson-waltz-yellow": {
+    "MPW064": {
+      "productId": "708915",
+      "url": "https://www.tcgplayer.com/product/708915?Language=English&Printing=Normal"
+    },
+    "MPW064-Rainbow": {
+      "productId": "708915",
+      "url": "https://www.tcgplayer.com/product/708915?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "crouching-tiger": {
     "SFA036": {
       "productId": "",
@@ -1769,6 +2001,12 @@
     "AJV018-Rainbow": {
       "productId": "587215",
       "url": "https://www.tcgplayer.com/product/587215?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "cut-n-carve-red": {
+    "AOL013": {
+      "productId": "709341",
+      "url": "https://www.tcgplayer.com/product/709341?Language=English&Printing=Normal"
     }
   },
   "cut-through-the-facade-red": {
@@ -1863,6 +2101,10 @@
     "MPW156-Cold-Alternate Art-Full Art-Back": {
       "productId": "690461",
       "url": "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil"
+    },
+    "MPW156-Cold-Full Art-Back": {
+      "productId": "690461",
+      "url": "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil"
     }
   },
   "dawnblade-resplendent": {
@@ -1885,12 +2127,38 @@
     "AHA007": {
       "productId": "688747",
       "url": "https://www.tcgplayer.com/product/688747?Language=English&Printing=Normal"
+    },
+    "MPW080": {
+      "productId": "708930",
+      "url": "https://www.tcgplayer.com/product/708930?Language=English&Printing=Normal"
+    },
+    "MPW080-Rainbow": {
+      "productId": "708930",
+      "url": "https://www.tcgplayer.com/product/708930?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "deadly-display-yellow": {
+    "MPW081": {
+      "productId": "708931",
+      "url": "https://www.tcgplayer.com/product/708931?Language=English&Printing=Normal"
+    },
+    "MPW081-Rainbow": {
+      "productId": "708931",
+      "url": "https://www.tcgplayer.com/product/708931?Language=English&Printing=Rainbow+Foil"
     }
   },
   "deadly-display-blue": {
     "AHA020": {
       "productId": "688759",
       "url": "https://www.tcgplayer.com/product/688759?Language=English&Printing=Normal"
+    },
+    "MPW082": {
+      "productId": "708932",
+      "url": "https://www.tcgplayer.com/product/708932?Language=English&Printing=Normal"
+    },
+    "MPW082-Rainbow": {
+      "productId": "708932",
+      "url": "https://www.tcgplayer.com/product/708932?Language=English&Printing=Rainbow+Foil"
     }
   },
   "deadwood-dirge-red": {
@@ -1903,10 +2171,26 @@
       "url": "https://www.tcgplayer.com/product/584696?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "dealers-grip": {
+    "MPW019": {
+      "productId": "708892",
+      "url": "https://www.tcgplayer.com/product/708892?Language=English&Printing=Normal"
+    },
+    "MPW019-Cold": {
+      "productId": "708892",
+      "url": "https://www.tcgplayer.com/product/708892?Language=English&Printing=Cold+Foil"
+    }
+  },
   "debilitate-red": {
     "BDD007": {
       "productId": "646833",
       "url": "https://www.tcgplayer.com/product/646833?Language=English&Printing=Normal"
+    }
+  },
+  "deep-blue": {
+    "MPW137": {
+      "productId": "708982",
+      "url": "https://www.tcgplayer.com/product/708982?Language=English&Printing=Normal"
     }
   },
   "den-of-the-spider-red": {
@@ -1925,6 +2209,16 @@
     "LSS008-Cold": {
       "productId": "580650",
       "url": "https://www.tcgplayer.com/product/580650?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "dice-up-blue": {
+    "MPW083": {
+      "productId": "708933",
+      "url": "https://www.tcgplayer.com/product/708933?Language=English&Printing=Normal"
+    },
+    "MPW083-Rainbow": {
+      "productId": "708933",
+      "url": "https://www.tcgplayer.com/product/708933?Language=English&Printing=Rainbow+Foil"
     }
   },
   "dig-in-red": {
@@ -1951,6 +2245,36 @@
       "url": "https://www.tcgplayer.com/product/646841?Language=English&Printing=Normal"
     }
   },
+  "display-of-artistry-red": {
+    "MPW039": {
+      "productId": "708900",
+      "url": "https://www.tcgplayer.com/product/708900?Language=English&Printing=Normal"
+    },
+    "MPW039-Rainbow": {
+      "productId": "708900",
+      "url": "https://www.tcgplayer.com/product/708900?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "display-of-artistry-yellow": {
+    "MPW040": {
+      "productId": "708901",
+      "url": "https://www.tcgplayer.com/product/708901?Language=English&Printing=Normal"
+    },
+    "MPW040-Rainbow": {
+      "productId": "708901",
+      "url": "https://www.tcgplayer.com/product/708901?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "display-of-artistry-blue": {
+    "MPW041": {
+      "productId": "708902",
+      "url": "https://www.tcgplayer.com/product/708902?Language=English&Printing=Normal"
+    },
+    "MPW041-Rainbow": {
+      "productId": "708902",
+      "url": "https://www.tcgplayer.com/product/708902?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "dissolving-shield-red": {
     "AIO017": {
       "productId": "586578",
@@ -1965,22 +2289,34 @@
   },
   "donkey-blue": {
     "MPW042": {
-      "productId": "",
-      "url": ""
+      "productId": "708903",
+      "url": "https://www.tcgplayer.com/product/708903?Language=English&Printing=Normal"
     },
     "MPW042-Rainbow": {
-      "productId": "",
-      "url": ""
+      "productId": "708903",
+      "url": "https://www.tcgplayer.com/product/708903?Language=English&Printing=Rainbow+Foil"
     },
     "FAB484-Rainbow-Extended Art": {
       "productId": "",
       "url": ""
+    },
+    "AOL020": {
+      "productId": "709347",
+      "url": "https://www.tcgplayer.com/product/709347?Language=English&Printing=Normal"
     }
   },
   "dorinthea": {
     "SDO001": {
       "productId": "664852",
       "url": "https://www.tcgplayer.com/product/664852?Language=English&Printing=Normal"
+    },
+    "MPW155-Cold-Full Art": {
+      "productId": "708999",
+      "url": "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil"
+    },
+    "MPW155-Cold-Full Art-Back": {
+      "productId": "708999",
+      "url": "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil"
     }
   },
   "dorinthea-ironsong": {
@@ -2023,12 +2359,12 @@
   },
   "downswing-red": {
     "MPW043": {
-      "productId": "",
-      "url": ""
+      "productId": "708904",
+      "url": "https://www.tcgplayer.com/product/708904?Language=English&Printing=Normal"
     },
     "MPW043-Rainbow": {
-      "productId": "",
-      "url": ""
+      "productId": "708904",
+      "url": "https://www.tcgplayer.com/product/708904?Language=English&Printing=Rainbow+Foil"
     },
     "FAB485-Rainbow-Extended Art": {
       "productId": "",
@@ -2067,16 +2403,30 @@
   },
   "drawing-dead-yellow": {
     "MPW044": {
-      "productId": "",
-      "url": ""
+      "productId": "708905",
+      "url": "https://www.tcgplayer.com/product/708905?Language=English&Printing=Normal"
     },
     "MPW044-Rainbow": {
-      "productId": "",
-      "url": ""
+      "productId": "708905",
+      "url": "https://www.tcgplayer.com/product/708905?Language=English&Printing=Rainbow+Foil"
     },
     "FAB486-Rainbow-Extended Art": {
       "productId": "",
       "url": ""
+    },
+    "AOL017": {
+      "productId": "709344",
+      "url": "https://www.tcgplayer.com/product/709344?Language=English&Printing=Normal"
+    }
+  },
+  "drawn-to-the-blade-yellow": {
+    "MPW030": {
+      "productId": "708468",
+      "url": "https://www.tcgplayer.com/product/708468?Language=English&Printing=Normal"
+    },
+    "MPW030-Rainbow": {
+      "productId": "708468",
+      "url": "https://www.tcgplayer.com/product/708468?Language=English&Printing=Rainbow+Foil"
     }
   },
   "drawn-to-the-dark-dimension-red": {
@@ -2103,10 +2453,46 @@
       "url": "https://www.tcgplayer.com/product/628095?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "driving-blade-red": {
+    "MPW102": {
+      "productId": "708948",
+      "url": "https://www.tcgplayer.com/product/708948?Language=English&Printing=Normal"
+    }
+  },
   "dromai-ash-artist": {
     "WIN018-Cold": {
       "productId": "",
       "url": ""
+    }
+  },
+  "duelist-gauntlets": {
+    "MPW015": {
+      "productId": "708888",
+      "url": "https://www.tcgplayer.com/product/708888?Language=English&Printing=Normal"
+    },
+    "MPW015-Cold": {
+      "productId": "708888",
+      "url": "https://www.tcgplayer.com/product/708888?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "durendal": {
+    "MPW008": {
+      "productId": "703884",
+      "url": "https://www.tcgplayer.com/product/703884?Language=English&Printing=Normal"
+    },
+    "MPW008-Cold-Full Art": {
+      "productId": "703885",
+      "url": "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil"
+    },
+    "MPW008-Cold-Full Art-Back": {
+      "productId": "703885",
+      "url": "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "dusk-path-pilgrimage-red": {
+    "MPW065": {
+      "productId": "708916",
+      "url": "https://www.tcgplayer.com/product/708916?Language=English&Printing=Normal"
     }
   },
   "duty-bound-blitz-red": {
@@ -2171,6 +2557,16 @@
       "url": "https://www.tcgplayer.com/product/663016?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "edge-laden-plate": {
+    "MPW014": {
+      "productId": "708887",
+      "url": "https://www.tcgplayer.com/product/708887?Language=English&Printing=Normal"
+    },
+    "MPW014-Cold": {
+      "productId": "708887",
+      "url": "https://www.tcgplayer.com/product/708887?Language=English&Printing=Cold+Foil"
+    }
+  },
   "edge-of-autumn": {
     "ASR002": {
       "productId": "641628",
@@ -2201,18 +2597,30 @@
     "AHA012": {
       "productId": "677333",
       "url": "https://www.tcgplayer.com/product/677333?Language=English&Printing=Normal"
+    },
+    "MPW103": {
+      "productId": "708949",
+      "url": "https://www.tcgplayer.com/product/708949?Language=English&Printing=Normal"
     }
   },
   "edict-of-steel-yellow": {
     "AHA017": {
       "productId": "688756",
       "url": "https://www.tcgplayer.com/product/688756?Language=English&Printing=Normal"
+    },
+    "MPW104": {
+      "productId": "708950",
+      "url": "https://www.tcgplayer.com/product/708950?Language=English&Printing=Normal"
     }
   },
   "edict-of-steel-blue": {
     "AHA022": {
       "productId": "688761",
       "url": "https://www.tcgplayer.com/product/688761?Language=English&Printing=Normal"
+    },
+    "MPW105": {
+      "productId": "708951",
+      "url": "https://www.tcgplayer.com/product/708951?Language=English&Printing=Normal"
     }
   },
   "electrolyze-red": {
@@ -2377,6 +2785,40 @@
     "ASR027": {
       "productId": "641656",
       "url": "https://www.tcgplayer.com/product/641656?Language=English&Printing=Normal"
+    },
+    "MPW146": {
+      "productId": "708991",
+      "url": "https://www.tcgplayer.com/product/708991?Language=English&Printing=Normal"
+    }
+  },
+  "engage-steel-red": {
+    "MPW106": {
+      "productId": "708952",
+      "url": "https://www.tcgplayer.com/product/708952?Language=English&Printing=Normal"
+    },
+    "MPW106-Rainbow": {
+      "productId": "708952",
+      "url": "https://www.tcgplayer.com/product/708952?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "engage-steel-yellow": {
+    "MPW107": {
+      "productId": "708953",
+      "url": "https://www.tcgplayer.com/product/708953?Language=English&Printing=Normal"
+    },
+    "MPW107-Rainbow": {
+      "productId": "708953",
+      "url": "https://www.tcgplayer.com/product/708953?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "engage-steel-blue": {
+    "MPW108": {
+      "productId": "708954",
+      "url": "https://www.tcgplayer.com/product/708954?Language=English&Printing=Normal"
+    },
+    "MPW108-Rainbow": {
+      "productId": "708954",
+      "url": "https://www.tcgplayer.com/product/708954?Language=English&Printing=Rainbow+Foil"
     }
   },
   "engulfing-light-red": {
@@ -2739,6 +3181,14 @@
     "AHA027": {
       "productId": "677334",
       "url": "https://www.tcgplayer.com/product/677334?Language=English&Printing=Normal"
+    },
+    "MPW135-Cold-Full Art": {
+      "productId": "708980",
+      "url": "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil"
+    },
+    "MPW135-Cold-Full Art-Back": {
+      "productId": "708980",
+      "url": "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil"
     }
   },
   "flurry-foot-dance-yellow": {
@@ -3025,12 +3475,26 @@
     "AHA008": {
       "productId": "688748",
       "url": "https://www.tcgplayer.com/product/688748?Language=English&Printing=Normal"
+    },
+    "MPW045": {
+      "productId": "708906",
+      "url": "https://www.tcgplayer.com/product/708906?Language=English&Printing=Normal"
+    },
+    "MPW045-Rainbow": {
+      "productId": "708906",
+      "url": "https://www.tcgplayer.com/product/708906?Language=English&Printing=Rainbow+Foil"
     }
   },
   "glide-through-starlight-red": {
     "LGS451-Cold-Full Art": {
       "productId": "696109",
       "url": "https://www.tcgplayer.com/product/696109?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "glint-the-quicksilver-blue": {
+    "MPW022": {
+      "productId": "708895",
+      "url": "https://www.tcgplayer.com/product/708895?Language=English&Printing=Normal"
     }
   },
   "glisten-red": {
@@ -3089,6 +3553,10 @@
     "FAB346-Cold-Alternate Art-Extended Art": {
       "productId": "637487",
       "url": "https://www.tcgplayer.com/product/637487?Language=English&Printing=Cold+Foil"
+    },
+    "MPW154": {
+      "productId": "708998",
+      "url": "https://www.tcgplayer.com/product/708998?Language=English&Printing=Normal"
     }
   },
   "gold-baited-hook": {
@@ -3143,6 +3611,10 @@
     "FAB483-Rainbow-Extended Art": {
       "productId": "",
       "url": ""
+    },
+    "AOL022": {
+      "productId": "709349",
+      "url": "https://www.tcgplayer.com/product/709349?Language=English&Printing=Normal"
     }
   },
   "golden-grail": {
@@ -3161,6 +3633,10 @@
     "MPW007-Cold-Full Art-Back": {
       "productId": "690442",
       "url": "https://www.tcgplayer.com/product/690442?Language=English&Printing=Cold+Foil"
+    },
+    "AOL002-Rainbow": {
+      "productId": "709832",
+      "url": "https://www.tcgplayer.com/product/709832?Language=English&Printing=Rainbow+Foil"
     }
   },
   "golden-skywarden-yellow": {
@@ -3225,6 +3701,10 @@
     "FAB182-Gold": {
       "productId": "580612",
       "url": "https://www.tcgplayer.com/product/580612?Language=English&Printing=Cold+Foil"
+    },
+    "MPW010-Rainbow-Alternate Art": {
+      "productId": "708884",
+      "url": "https://www.tcgplayer.com/product/708884?Language=English&Printing=Rainbow+Foil"
     }
   },
   "graphene-chelicera": {
@@ -3273,6 +3753,36 @@
       "url": "https://www.tcgplayer.com/product/666542?Language=English&Printing=Cold+Foil"
     }
   },
+  "gutshot-red": {
+    "MPW109": {
+      "productId": "708955",
+      "url": "https://www.tcgplayer.com/product/708955?Language=English&Printing=Normal"
+    },
+    "MPW109-Rainbow": {
+      "productId": "708955",
+      "url": "https://www.tcgplayer.com/product/708955?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "gutshot-yellow": {
+    "MPW110": {
+      "productId": "708956",
+      "url": "https://www.tcgplayer.com/product/708956?Language=English&Printing=Normal"
+    },
+    "MPW110-Rainbow": {
+      "productId": "708956",
+      "url": "https://www.tcgplayer.com/product/708956?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "gutshot-blue": {
+    "MPW111": {
+      "productId": "708957",
+      "url": "https://www.tcgplayer.com/product/708957?Language=English&Printing=Normal"
+    },
+    "MPW111-Rainbow": {
+      "productId": "708957",
+      "url": "https://www.tcgplayer.com/product/708957?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "hala": {
     "MPW004": {
       "productId": "690436",
@@ -3291,6 +3801,18 @@
     "AHA001-Rainbow": {
       "productId": "677331",
       "url": "https://www.tcgplayer.com/product/677331?Language=English&Printing=Rainbow+Foil"
+    },
+    "MPW003": {
+      "productId": "708882",
+      "url": "https://www.tcgplayer.com/product/708882?Language=English&Printing=Normal"
+    },
+    "MPW003-Cold-Full Art": {
+      "productId": "709106",
+      "url": "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil"
+    },
+    "MPW003-Cold-Full Art-Back": {
+      "productId": "709106",
+      "url": "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil"
     }
   },
   "halo-of-illumination": {
@@ -3345,6 +3867,22 @@
       "url": "https://www.tcgplayer.com/product/648260?Language=English&Printing=Normal"
     }
   },
+  "heads-up-red": {
+    "AOL014": {
+      "productId": "708193",
+      "url": "https://www.tcgplayer.com/product/708193?Language=English&Printing=Normal"
+    }
+  },
+  "heart-of-bladehold": {
+    "MPW018": {
+      "productId": "708891",
+      "url": "https://www.tcgplayer.com/product/708891?Language=English&Printing=Normal"
+    },
+    "MPW018-Cold": {
+      "productId": "708891",
+      "url": "https://www.tcgplayer.com/product/708891?Language=English&Printing=Cold+Foil"
+    }
+  },
   "heartbeat-of-candlehold-blue": {
     "FAB269-Rainbow-Extended Art": {
       "productId": "578147",
@@ -3393,6 +3931,16 @@
     "AIO003-Rainbow": {
       "productId": "586564",
       "url": "https://www.tcgplayer.com/product/586564?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "heavy-swing-red": {
+    "MPW133": {
+      "productId": "708979",
+      "url": "https://www.tcgplayer.com/product/708979?Language=English&Printing=Normal"
+    },
+    "MPW133-Rainbow": {
+      "productId": "708979",
+      "url": "https://www.tcgplayer.com/product/708979?Language=English&Printing=Rainbow+Foil"
     }
   },
   "heirloom-of-rabbit-hide": {
@@ -3493,6 +4041,24 @@
       "url": "https://www.tcgplayer.com/product/654173?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "hit-and-run-red": {
+    "MPW112": {
+      "productId": "708958",
+      "url": "https://www.tcgplayer.com/product/708958?Language=English&Printing=Normal"
+    }
+  },
+  "hit-and-run-yellow": {
+    "MPW113": {
+      "productId": "708959",
+      "url": "https://www.tcgplayer.com/product/708959?Language=English&Printing=Normal"
+    }
+  },
+  "hit-and-run-blue": {
+    "MPW114": {
+      "productId": "708960",
+      "url": "https://www.tcgplayer.com/product/708960?Language=English&Printing=Normal"
+    }
+  },
   "hocus-pocus-red": {
     "AVS010": {
       "productId": "648211",
@@ -3503,6 +4069,18 @@
     "FAB349-Rainbow-Extended Art": {
       "productId": "637483",
       "url": "https://www.tcgplayer.com/product/637483?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "hold-em-red": {
+    "AOL015": {
+      "productId": "709342",
+      "url": "https://www.tcgplayer.com/product/709342?Language=English&Printing=Normal"
+    }
+  },
+  "hold-em-blue": {
+    "AOL025": {
+      "productId": "709352",
+      "url": "https://www.tcgplayer.com/product/709352?Language=English&Printing=Normal"
     }
   },
   "hold-focus": {
@@ -3517,6 +4095,16 @@
       "url": "https://www.tcgplayer.com/product/678570?Language=English&Printing=Cold+Foil"
     }
   },
+  "honed-for-honor-blue": {
+    "MPW031": {
+      "productId": "708190",
+      "url": "https://www.tcgplayer.com/product/708190?Language=English&Printing=Normal"
+    },
+    "MPW031-Rainbow": {
+      "productId": "708190",
+      "url": "https://www.tcgplayer.com/product/708190?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "hood-of-second-thoughts": {
     "LGS320-Rainbow": {
       "productId": "584745",
@@ -3527,6 +4115,10 @@
     "LSS012-Back": {
       "productId": "601121",
       "url": "https://www.tcgplayer.com/product/601121?Language=English&Printing=Normal"
+    },
+    "MPW136": {
+      "productId": "708981",
+      "url": "https://www.tcgplayer.com/product/708981?Language=English&Printing=Normal"
     }
   },
   "horrors-of-the-past-yellow": {
@@ -3539,6 +4131,16 @@
     "FAB329-Rainbow-Extended Art": {
       "productId": "648076",
       "url": "https://www.tcgplayer.com/product/648076?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "hot-top": {
+    "MPW017": {
+      "productId": "708890",
+      "url": "https://www.tcgplayer.com/product/708890?Language=English&Printing=Normal"
+    },
+    "MPW017-Cold": {
+      "productId": "708890",
+      "url": "https://www.tcgplayer.com/product/708890?Language=English&Printing=Cold+Foil"
     }
   },
   "hulk-up-blue": {
@@ -3713,6 +4315,20 @@
       "url": "https://www.tcgplayer.com/product/555732?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "into-the-muck-red": {
+    "AOL007": {
+      "productId": "709335",
+      "url": "https://www.tcgplayer.com/product/709335?Language=English&Printing=Normal"
+    },
+    "MPW023": {
+      "productId": "708189",
+      "url": "https://www.tcgplayer.com/product/708189?Language=English&Printing=Normal"
+    },
+    "MPW023-Rainbow": {
+      "productId": "708189",
+      "url": "https://www.tcgplayer.com/product/708189?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "inverters-nightcowl": {
     "AAC005-Rainbow": {
       "productId": "668376",
@@ -3803,6 +4419,16 @@
       "url": ""
     }
   },
+  "ironsong-response-red": {
+    "AOL008": {
+      "productId": "709336",
+      "url": "https://www.tcgplayer.com/product/709336?Language=English&Printing=Normal"
+    },
+    "MPW085": {
+      "productId": "708934",
+      "url": "https://www.tcgplayer.com/product/708934?Language=English&Printing=Normal"
+    }
+  },
   "iyslander-stormbind": {
     "WIN019-Cold": {
       "productId": "",
@@ -3839,6 +4465,16 @@
     "SGB023": {
       "productId": "695973",
       "url": "https://www.tcgplayer.com/product/695973?Language=English&Printing=Normal"
+    }
+  },
+  "jive-blue": {
+    "MPW115": {
+      "productId": "708961",
+      "url": "https://www.tcgplayer.com/product/708961?Language=English&Printing=Normal"
+    },
+    "MPW115-Rainbow": {
+      "productId": "708961",
+      "url": "https://www.tcgplayer.com/product/708961?Language=English&Printing=Rainbow+Foil"
     }
   },
   "jump-start-red": {
@@ -3937,6 +4573,16 @@
     "ASR026": {
       "productId": "641624",
       "url": "https://www.tcgplayer.com/product/641624?Language=English&Printing=Normal"
+    }
+  },
+  "lessons-learned-blue": {
+    "MPW036": {
+      "productId": "708898",
+      "url": "https://www.tcgplayer.com/product/708898?Language=English&Printing=Normal"
+    },
+    "MPW036-Rainbow": {
+      "productId": "708898",
+      "url": "https://www.tcgplayer.com/product/708898?Language=English&Printing=Rainbow+Foil"
     }
   },
   "levia-shadowborn-abomination": {
@@ -4065,6 +4711,16 @@
     "FAB317-Rainbow-Extended Art": {
       "productId": "618304",
       "url": "https://www.tcgplayer.com/product/618304?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "longsword-leggings": {
+    "MPW016": {
+      "productId": "708889",
+      "url": "https://www.tcgplayer.com/product/708889?Language=English&Printing=Normal"
+    },
+    "MPW016-Cold": {
+      "productId": "708889",
+      "url": "https://www.tcgplayer.com/product/708889?Language=English&Printing=Cold+Foil"
     }
   },
   "look-tuff-red": {
@@ -4415,6 +5071,12 @@
       "url": "https://www.tcgplayer.com/product/654116?Language=English&Printing=Cold+Foil"
     }
   },
+  "money-where-ya-mouth-is-red": {
+    "AOL016": {
+      "productId": "709343",
+      "url": "https://www.tcgplayer.com/product/709343?Language=English&Printing=Normal"
+    }
+  },
   "monstrous-veil": {
     "LGS253-Cold": {
       "productId": "605066",
@@ -4437,6 +5099,12 @@
     "SGB024": {
       "productId": "695974",
       "url": "https://www.tcgplayer.com/product/695974?Language=English&Printing=Normal"
+    }
+  },
+  "natures-path-pilgrimage-red": {
+    "MPW116": {
+      "productId": "708962",
+      "url": "https://www.tcgplayer.com/product/708962?Language=English&Printing=Normal"
     }
   },
   "nebula-blade": {
@@ -4483,6 +5151,10 @@
     "FAB326-Rainbow-Extended Art": {
       "productId": "638141",
       "url": "https://www.tcgplayer.com/product/638141?Language=English&Printing=Rainbow+Foil"
+    },
+    "MPW148": {
+      "productId": "708993",
+      "url": "https://www.tcgplayer.com/product/708993?Language=English&Printing=Normal"
     }
   },
   "nitro-mechanoid": {
@@ -4609,14 +5281,24 @@
   },
   "odds-on-favorite-blue": {
     "AOL026": {
-      "productId": "",
-      "url": ""
+      "productId": "709834",
+      "url": "https://www.tcgplayer.com/product/709834?Language=English&Printing=Normal"
     }
   },
   "ode-to-wrath-yellow": {
     "APR019": {
       "productId": "648256",
       "url": "https://www.tcgplayer.com/product/648256?Language=English&Printing=Normal"
+    }
+  },
+  "off-beat-blue": {
+    "MPW066": {
+      "productId": "708917",
+      "url": "https://www.tcgplayer.com/product/708917?Language=English&Printing=Normal"
+    },
+    "MPW066-Rainbow": {
+      "productId": "708917",
+      "url": "https://www.tcgplayer.com/product/708917?Language=English&Printing=Rainbow+Foil"
     }
   },
   "off-cuts-blue": {
@@ -4643,6 +5325,46 @@
       "url": "https://www.tcgplayer.com/product/655919?Language=English&Printing=Cold+Foil"
     }
   },
+  "olde-leather-boots": {
+    "MPW143": {
+      "productId": "708988",
+      "url": "https://www.tcgplayer.com/product/708988?Language=English&Printing=Normal"
+    },
+    "MPW143-Cold": {
+      "productId": "708988",
+      "url": "https://www.tcgplayer.com/product/708988?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "olde-leather-gloves": {
+    "MPW142": {
+      "productId": "708987",
+      "url": "https://www.tcgplayer.com/product/708987?Language=English&Printing=Normal"
+    },
+    "MPW142-Cold": {
+      "productId": "708987",
+      "url": "https://www.tcgplayer.com/product/708987?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "olde-leather-helm": {
+    "MPW140": {
+      "productId": "708985",
+      "url": "https://www.tcgplayer.com/product/708985?Language=English&Printing=Normal"
+    },
+    "MPW140-Cold": {
+      "productId": "708985",
+      "url": "https://www.tcgplayer.com/product/708985?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "olde-leather-plate": {
+    "MPW141": {
+      "productId": "708986",
+      "url": "https://www.tcgplayer.com/product/708986?Language=English&Printing=Normal"
+    },
+    "MPW141-Cold": {
+      "productId": "708986",
+      "url": "https://www.tcgplayer.com/product/708986?Language=English&Printing=Cold+Foil"
+    }
+  },
   "oldhim-grandfather-of-eternity": {
     "WIN013-Cold": {
       "productId": "",
@@ -4653,6 +5375,14 @@
     "AHA021": {
       "productId": "688760",
       "url": "https://www.tcgplayer.com/product/688760?Language=English&Printing=Normal"
+    },
+    "MPW046": {
+      "productId": "708907",
+      "url": "https://www.tcgplayer.com/product/708907?Language=English&Printing=Normal"
+    },
+    "MPW046-Rainbow": {
+      "productId": "708907",
+      "url": "https://www.tcgplayer.com/product/708907?Language=English&Printing=Rainbow+Foil"
     }
   },
   "ollin-ice-cap": {
@@ -4669,8 +5399,8 @@
   },
   "olympia-prized-fighter": {
     "AOL001": {
-      "productId": "",
-      "url": ""
+      "productId": "709831",
+      "url": "https://www.tcgplayer.com/product/709831?Language=English&Printing=Normal"
     },
     "WIN032-Cold": {
       "productId": "",
@@ -4713,6 +5443,16 @@
       "url": "https://www.tcgplayer.com/product/584694?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "overbear-red": {
+    "MPW151": {
+      "productId": "708996",
+      "url": "https://www.tcgplayer.com/product/708996?Language=English&Printing=Normal"
+    },
+    "MPW151-Rainbow": {
+      "productId": "708996",
+      "url": "https://www.tcgplayer.com/product/708996?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "overcrowded-blue": {
     "LGS426-Cold-Extended Art": {
       "productId": "665030",
@@ -4727,6 +5467,16 @@
     "GEM094-Rainbow-Extended Art": {
       "productId": "654182",
       "url": "https://www.tcgplayer.com/product/654182?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "overwhelming-swing-yellow": {
+    "MPW024": {
+      "productId": "703800",
+      "url": "https://www.tcgplayer.com/product/703800?Language=English&Printing=Normal"
+    },
+    "MPW024-Rainbow": {
+      "productId": "703800",
+      "url": "https://www.tcgplayer.com/product/703800?Language=English&Printing=Rainbow+Foil"
     }
   },
   "oysten-heart-of-gold-yellow": {
@@ -4751,6 +5501,10 @@
     "AHA004-Rainbow": {
       "productId": "688744",
       "url": "https://www.tcgplayer.com/product/688744?Language=English&Printing=Rainbow+Foil"
+    },
+    "MPW009-Cold": {
+      "productId": "708883",
+      "url": "https://www.tcgplayer.com/product/708883?Language=English&Printing=Cold+Foil"
     }
   },
   "pass-over-blue": {
@@ -4777,6 +5531,16 @@
     "GEM155-Rainbow-Extended Art": {
       "productId": "696196",
       "url": "https://www.tcgplayer.com/product/696196?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "peaceful-sanctuary-red": {
+    "MPW144": {
+      "productId": "708989",
+      "url": "https://www.tcgplayer.com/product/708989?Language=English&Printing=Normal"
+    },
+    "MPW144-Rainbow": {
+      "productId": "708989",
+      "url": "https://www.tcgplayer.com/product/708989?Language=English&Printing=Rainbow+Foil"
     }
   },
   "peg-leg": {
@@ -4865,6 +5629,16 @@
     "FAB257-Gold": {
       "productId": "618762",
       "url": "https://www.tcgplayer.com/product/618762?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "point-of-escalation-yellow": {
+    "MPW025": {
+      "productId": "708464",
+      "url": "https://www.tcgplayer.com/product/708464?Language=English&Printing=Normal"
+    },
+    "MPW025-Rainbow-Extended Art": {
+      "productId": "708465",
+      "url": "https://www.tcgplayer.com/product/708465?Language=English&Printing=Rainbow+Foil"
     }
   },
   "poison-the-well-blue": {
@@ -5033,6 +5807,34 @@
       "url": ""
     }
   },
+  "prized-galea": {
+    "AOL003-Alternate Art": {
+      "productId": "709331",
+      "url": "https://www.tcgplayer.com/product/709331?Language=English&Printing=Normal"
+    },
+    "AOL003-Rainbow-Alternate Art-Extended Art": {
+      "productId": "709332",
+      "url": "https://www.tcgplayer.com/product/709332?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "prizeworn-gauntlet": {
+    "AOL005-Rainbow": {
+      "productId": "709334",
+      "url": "https://www.tcgplayer.com/product/709334?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "prizeworn-pathfinders": {
+    "AOL006-Rainbow": {
+      "productId": "708191",
+      "url": "https://www.tcgplayer.com/product/708191?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "prizeworn-plating": {
+    "AOL004-Rainbow": {
+      "productId": "709333",
+      "url": "https://www.tcgplayer.com/product/709333?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "proclamation-of-abundance": {
     "JDG009-Cold": {
       "productId": "524400",
@@ -5103,10 +5905,20 @@
       "url": "https://www.tcgplayer.com/product/678765?Language=English&Printing=Cold+Foil"
     }
   },
+  "push-forward-red": {
+    "MPW117": {
+      "productId": "708963",
+      "url": "https://www.tcgplayer.com/product/708963?Language=English&Printing=Normal"
+    }
+  },
   "put-in-context-blue": {
     "FAB325-Rainbow-Extended Art": {
       "productId": "638140",
       "url": "https://www.tcgplayer.com/product/638140?Language=English&Printing=Rainbow+Foil"
+    },
+    "MPW149": {
+      "productId": "708994",
+      "url": "https://www.tcgplayer.com/product/708994?Language=English&Printing=Normal"
     }
   },
   "qi-unleashed-red": {
@@ -5141,6 +5953,16 @@
       "url": "https://www.tcgplayer.com/product/618261?Language=English&Printing=Cold+Foil"
     }
   },
+  "quicksilver-dance-blue": {
+    "MPW047": {
+      "productId": "709022",
+      "url": "https://www.tcgplayer.com/product/709022?Language=English&Printing=Normal"
+    },
+    "MPW047-Rainbow": {
+      "productId": "709022",
+      "url": "https://www.tcgplayer.com/product/709022?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "radiant-touch": {
     "SBL008": {
       "productId": "695922",
@@ -5167,6 +5989,30 @@
     "GEM122-Rainbow-Extended Art": {
       "productId": "680623",
       "url": "https://www.tcgplayer.com/product/680623?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "raise-blades-red": {
+    "MPW032": {
+      "productId": "703803",
+      "url": "https://www.tcgplayer.com/product/703803?Language=English&Printing=Normal"
+    },
+    "MPW032-Rainbow": {
+      "productId": "703803",
+      "url": "https://www.tcgplayer.com/product/703803?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "rake-back-blue": {
+    "AOL027": {
+      "productId": "709353",
+      "url": "https://www.tcgplayer.com/product/709353?Language=English&Printing=Normal"
+    },
+    "MPW033": {
+      "productId": "703883",
+      "url": "https://www.tcgplayer.com/product/703883?Language=English&Printing=Normal"
+    },
+    "MPW033-Rainbow": {
+      "productId": "703883",
+      "url": "https://www.tcgplayer.com/product/703883?Language=English&Printing=Rainbow+Foil"
     }
   },
   "rampant-growth--life-yellow": {
@@ -5271,6 +6117,12 @@
       "url": "https://www.tcgplayer.com/product/605068?Language=English&Printing=Cold+Foil"
     }
   },
+  "refraction-bolters": {
+    "MPW020": {
+      "productId": "708893",
+      "url": "https://www.tcgplayer.com/product/708893?Language=English&Printing=Normal"
+    }
+  },
   "regrowth--shock-blue": {
     "LGS356-Cold": {
       "productId": "604714",
@@ -5309,6 +6161,16 @@
     "FAB330-Rainbow-Extended Art": {
       "productId": "",
       "url": ""
+    }
+  },
+  "rest-before-battle-yellow": {
+    "MPW067": {
+      "productId": "708918",
+      "url": "https://www.tcgplayer.com/product/708918?Language=English&Printing=Normal"
+    },
+    "MPW067-Rainbow": {
+      "productId": "708918",
+      "url": "https://www.tcgplayer.com/product/708918?Language=English&Printing=Rainbow+Foil"
     }
   },
   "revel-in-runeblood-red": {
@@ -5721,7 +6583,8 @@
     "HER143-Cold-Full Art": {
       "productId": "665040",
       "url": "https://www.tcgplayer.com/product/665040?Language=English&Printing=Cold+Foil"
-    },"HER143-Cold-Full Art-Back": {
+    },
+    "HER143-Cold-Full Art-Back": {
       "productId": "665040",
       "url": "https://www.tcgplayer.com/product/665040?Language=English&Printing=Cold+Foil"
     }
@@ -5754,6 +6617,12 @@
     "SBA020": {
       "productId": "695900",
       "url": "https://www.tcgplayer.com/product/695900?Language=English&Printing=Normal"
+    }
+  },
+  "second-swing-red": {
+    "MPW118": {
+      "productId": "708964",
+      "url": "https://www.tcgplayer.com/product/708964?Language=English&Printing=Normal"
     }
   },
   "seduce-secrets-yellow": {
@@ -5836,18 +6705,80 @@
     "AHA013": {
       "productId": "688752",
       "url": "https://www.tcgplayer.com/product/688752?Language=English&Printing=Normal"
+    },
+    "MPW119": {
+      "productId": "708965",
+      "url": "https://www.tcgplayer.com/product/708965?Language=English&Printing=Normal"
+    },
+    "MPW119-Rainbow": {
+      "productId": "708965",
+      "url": "https://www.tcgplayer.com/product/708965?Language=English&Printing=Rainbow+Foil"
     }
   },
   "sharp-incline-yellow": {
     "AHA018": {
       "productId": "688757",
       "url": "https://www.tcgplayer.com/product/688757?Language=English&Printing=Normal"
+    },
+    "MPW120": {
+      "productId": "708966",
+      "url": "https://www.tcgplayer.com/product/708966?Language=English&Printing=Normal"
+    },
+    "MPW120-Rainbow": {
+      "productId": "708966",
+      "url": "https://www.tcgplayer.com/product/708966?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "sharp-n-shine-red": {
+    "MPW123": {
+      "productId": "708969",
+      "url": "https://www.tcgplayer.com/product/708969?Language=English&Printing=Normal"
+    },
+    "MPW123-Rainbow": {
+      "productId": "708969",
+      "url": "https://www.tcgplayer.com/product/708969?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "sharp-n-shine-yellow": {
+    "MPW124": {
+      "productId": "708970",
+      "url": "https://www.tcgplayer.com/product/708970?Language=English&Printing=Normal"
+    },
+    "MPW124-Rainbow": {
+      "productId": "708970",
+      "url": "https://www.tcgplayer.com/product/708970?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "sharp-n-shine-blue": {
+    "MPW125": {
+      "productId": "708971",
+      "url": "https://www.tcgplayer.com/product/708971?Language=English&Printing=Normal"
+    },
+    "MPW125-Rainbow": {
+      "productId": "708971",
+      "url": "https://www.tcgplayer.com/product/708971?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "sharp-incline-blue": {
+    "MPW121": {
+      "productId": "708967",
+      "url": "https://www.tcgplayer.com/product/708967?Language=English&Printing=Normal"
+    },
+    "MPW121-Rainbow": {
+      "productId": "708967",
+      "url": "https://www.tcgplayer.com/product/708967?Language=English&Printing=Rainbow+Foil"
     }
   },
   "sharp-shooters": {
     "JDG033-Cold": {
       "productId": "584677",
       "url": "https://www.tcgplayer.com/product/584677?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "sharpen-steel-red": {
+    "MPW122": {
+      "productId": "708968",
+      "url": "https://www.tcgplayer.com/product/708968?Language=English&Printing=Normal"
     }
   },
   "sharpening-sparks-red": {
@@ -5858,6 +6789,16 @@
     "MPW026-Rainbow-Extended Art": {
       "productId": "690444",
       "url": "https://www.tcgplayer.com/product/690444?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "shatter-the-weakpoint-red": {
+    "MPW068": {
+      "productId": "708919",
+      "url": "https://www.tcgplayer.com/product/708919?Language=English&Printing=Normal"
+    },
+    "MPW068-Rainbow": {
+      "productId": "708919",
+      "url": "https://www.tcgplayer.com/product/708919?Language=English&Printing=Rainbow+Foil"
     }
   },
   "shattering-flowtide-red": {
@@ -5896,6 +6837,16 @@
     "GEM108-Cold": {
       "productId": "680616",
       "url": "https://www.tcgplayer.com/product/680616?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "shimmer-of-the-blade-red": {
+    "MPW051": {
+      "productId": "708477",
+      "url": "https://www.tcgplayer.com/product/708477?Language=English&Printing=Normal"
+    },
+    "MPW051-Rainbow": {
+      "productId": "708477",
+      "url": "https://www.tcgplayer.com/product/708477?Language=English&Printing=Rainbow+Foil"
     }
   },
   "shimmering-mirage-blue": {
@@ -5952,12 +6903,46 @@
     "LGS457-Cold-Extended Art": {
       "productId": "",
       "url": ""
+    },
+    "AOL021": {
+      "productId": "709348",
+      "url": "https://www.tcgplayer.com/product/709348?Language=English&Printing=Normal"
     }
   },
   "show-no-mercy-red": {
     "ARR013": {
       "productId": "663032",
       "url": "https://www.tcgplayer.com/product/663032?Language=English&Printing=Normal"
+    }
+  },
+  "showdown-red": {
+    "MPW126": {
+      "productId": "708972",
+      "url": "https://www.tcgplayer.com/product/708972?Language=English&Printing=Normal"
+    },
+    "MPW126-Rainbow": {
+      "productId": "708972",
+      "url": "https://www.tcgplayer.com/product/708972?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "showdown-yellow": {
+    "MPW127": {
+      "productId": "708973",
+      "url": "https://www.tcgplayer.com/product/708973?Language=English&Printing=Normal"
+    },
+    "MPW127-Rainbow": {
+      "productId": "708973",
+      "url": "https://www.tcgplayer.com/product/708973?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "showdown-blue": {
+    "MPW128": {
+      "productId": "708974",
+      "url": "https://www.tcgplayer.com/product/708974?Language=English&Printing=Normal"
+    },
+    "MPW128-Rainbow": {
+      "productId": "708974",
+      "url": "https://www.tcgplayer.com/product/708974?Language=English&Printing=Rainbow+Foil"
     }
   },
   "shred-red": {
@@ -5996,6 +6981,14 @@
     "AHA024": {
       "productId": "688763",
       "url": "https://www.tcgplayer.com/product/688763?Language=English&Printing=Normal"
+    },
+    "MPW129": {
+      "productId": "708975",
+      "url": "https://www.tcgplayer.com/product/708975?Language=English&Printing=Normal"
+    },
+    "MPW129-Rainbow": {
+      "productId": "708975",
+      "url": "https://www.tcgplayer.com/product/708975?Language=English&Printing=Rainbow+Foil"
     }
   },
   "sigil-of-aether-blue": {
@@ -6110,6 +7103,34 @@
     "AHA010": {
       "productId": "688750",
       "url": "https://www.tcgplayer.com/product/688750?Language=English&Printing=Normal"
+    },
+    "MPW086": {
+      "productId": "708935",
+      "url": "https://www.tcgplayer.com/product/708935?Language=English&Printing=Normal"
+    },
+    "MPW086-Rainbow": {
+      "productId": "708935",
+      "url": "https://www.tcgplayer.com/product/708935?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "silverdrop-downpour-yellow": {
+    "MPW087": {
+      "productId": "708936",
+      "url": "https://www.tcgplayer.com/product/708936?Language=English&Printing=Normal"
+    },
+    "MPW087-Rainbow": {
+      "productId": "708936",
+      "url": "https://www.tcgplayer.com/product/708936?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "silverdrop-downpour-blue": {
+    "MPW088": {
+      "productId": "708937",
+      "url": "https://www.tcgplayer.com/product/708937?Language=English&Printing=Normal"
+    },
+    "MPW088-Rainbow": {
+      "productId": "708937",
+      "url": "https://www.tcgplayer.com/product/708937?Language=English&Printing=Rainbow+Foil"
     }
   },
   "silverstride-dodgers": {
@@ -6166,10 +7187,56 @@
       "url": "https://www.tcgplayer.com/product/620657?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "slice-and-dice-red": {
+    "MPW069": {
+      "productId": "708920",
+      "url": "https://www.tcgplayer.com/product/708920?Language=English&Printing=Normal"
+    }
+  },
+  "slice-up-red": {
+    "MPW089": {
+      "productId": "708938",
+      "url": "https://www.tcgplayer.com/product/708938?Language=English&Printing=Normal"
+    },
+    "MPW089-Rainbow": {
+      "productId": "708938",
+      "url": "https://www.tcgplayer.com/product/708938?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "slither": {
     "NUU029": {
       "productId": "",
       "url": ""
+    }
+  },
+  "small-blinder-red": {
+    "MPW090": {
+      "productId": "708939",
+      "url": "https://www.tcgplayer.com/product/708939?Language=English&Printing=Normal"
+    },
+    "MPW090-Rainbow": {
+      "productId": "708939",
+      "url": "https://www.tcgplayer.com/product/708939?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "small-blinder-yellow": {
+    "MPW091": {
+      "productId": "708940",
+      "url": "https://www.tcgplayer.com/product/708940?Language=English&Printing=Normal"
+    },
+    "MPW091-Rainbow": {
+      "productId": "708940",
+      "url": "https://www.tcgplayer.com/product/708940?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "small-blinder-blue": {
+    "MPW092": {
+      "productId": "708941",
+      "url": "https://www.tcgplayer.com/product/708941?Language=English&Printing=Normal"
+    },
+    "MPW092-Rainbow": {
+      "productId": "708941",
+      "url": "https://www.tcgplayer.com/product/708941?Language=English&Printing=Rainbow+Foil"
     }
   },
   "smash-up-red": {
@@ -6530,6 +7597,10 @@
     "LGS228-Cold": {
       "productId": "536258",
       "url": "https://www.tcgplayer.com/product/536258?Language=English&Printing=Cold+Foil"
+    },
+    "MPW152": {
+      "productId": "708997",
+      "url": "https://www.tcgplayer.com/product/708997?Language=English&Printing=Normal"
     }
   },
   "static-shock-red": {
@@ -6608,6 +7679,34 @@
     "MPW098-Rainbow": {
       "productId": "690458",
       "url": "https://www.tcgplayer.com/product/690458?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "steel-to-the-dome-red": {
+    "MPW070": {
+      "productId": "708921",
+      "url": "https://www.tcgplayer.com/product/708921?Language=English&Printing=Normal"
+    },
+    "MPW070-Rainbow": {
+      "productId": "708921",
+      "url": "https://www.tcgplayer.com/product/708921?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "steelblade-shunt-red": {
+    "MPW056": {
+      "productId": "708908",
+      "url": "https://www.tcgplayer.com/product/708908?Language=English&Printing=Normal"
+    }
+  },
+  "steelblade-shunt-yellow": {
+    "MPW057": {
+      "productId": "708909",
+      "url": "https://www.tcgplayer.com/product/708909?Language=English&Printing=Normal"
+    }
+  },
+  "steelblade-shunt-blue": {
+    "MPW058": {
+      "productId": "708910",
+      "url": "https://www.tcgplayer.com/product/708910?Language=English&Printing=Normal"
     }
   },
   "steelbraid-buckler": {
@@ -6756,12 +7855,30 @@
     "AHA014": {
       "productId": "688753",
       "url": "https://www.tcgplayer.com/product/688753?Language=English&Printing=Normal"
+    },
+    "MPW130": {
+      "productId": "708976",
+      "url": "https://www.tcgplayer.com/product/708976?Language=English&Printing=Normal"
+    }
+  },
+  "swordmasters-path-yellow": {
+    "MPW131": {
+      "productId": "708977",
+      "url": "https://www.tcgplayer.com/product/708977?Language=English&Printing=Normal"
+    },
+    "MPW131-Rainbow": {
+      "productId": "708977",
+      "url": "https://www.tcgplayer.com/product/708977?Language=English&Printing=Rainbow+Foil"
     }
   },
   "swordmasters-path-blue": {
     "AHA025": {
       "productId": "688764",
       "url": "https://www.tcgplayer.com/product/688764?Language=English&Printing=Normal"
+    },
+    "MPW132": {
+      "productId": "708978",
+      "url": "https://www.tcgplayer.com/product/708978?Language=English&Printing=Normal"
     }
   },
   "symbiosis-shot": {
@@ -6830,6 +7947,38 @@
     "GEM095-Rainbow-Extended Art": {
       "productId": "654190",
       "url": "https://www.tcgplayer.com/product/654190?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "take-the-lead-red": {
+    "MPW073": {
+      "productId": "708923",
+      "url": "https://www.tcgplayer.com/product/708923?Language=English&Printing=Normal"
+    },
+    "MPW073-Rainbow": {
+      "productId": "708923",
+      "url": "https://www.tcgplayer.com/product/708923?Language=English&Printing=Rainbow+Foil"
+    }
+  },
+  "take-the-upper-hand-red": {
+    "AOL009": {
+      "productId": "709337",
+      "url": "https://www.tcgplayer.com/product/709337?Language=English&Printing=Normal"
+    },
+    "MPW093": {
+      "productId": "708942",
+      "url": "https://www.tcgplayer.com/product/708942?Language=English&Printing=Normal"
+    }
+  },
+  "take-the-upper-hand-yellow": {
+    "MPW094": {
+      "productId": "708943",
+      "url": "https://www.tcgplayer.com/product/708943?Language=English&Printing=Normal"
+    }
+  },
+  "take-the-upper-hand-blue": {
+    "MPW095": {
+      "productId": "708944",
+      "url": "https://www.tcgplayer.com/product/708944?Language=English&Printing=Normal"
     }
   },
   "take-up-the-mantle-yellow": {
@@ -6914,6 +8063,16 @@
     "LGS440-Cold-Extended Art": {
       "productId": "666550",
       "url": "https://www.tcgplayer.com/product/666550?Language=English&Printing=Cold+Foil"
+    }
+  },
+  "terms-of-combat-red": {
+    "MPW034": {
+      "productId": "708473",
+      "url": "https://www.tcgplayer.com/product/708473?Language=English&Printing=Normal"
+    },
+    "MPW034-Rainbow": {
+      "productId": "708473",
+      "url": "https://www.tcgplayer.com/product/708473?Language=English&Printing=Rainbow+Foil"
     }
   },
   "terra": {
@@ -7008,6 +8167,16 @@
       "url": "https://www.tcgplayer.com/product/646837?Language=English&Printing=Normal"
     }
   },
+  "thwart-yellow": {
+    "MPW145": {
+      "productId": "708990",
+      "url": "https://www.tcgplayer.com/product/708990?Language=English&Printing=Normal"
+    },
+    "MPW145-Rainbow": {
+      "productId": "708990",
+      "url": "https://www.tcgplayer.com/product/708990?Language=English&Printing=Rainbow+Foil"
+    }
+  },
   "time-skippers": {
     "FAB256-Gold": {
       "productId": "618761",
@@ -7018,6 +8187,10 @@
     "SGB032": {
       "productId": "695982",
       "url": "https://www.tcgplayer.com/product/695982?Language=English&Printing=Normal"
+    },
+    "MPW147": {
+      "productId": "708992",
+      "url": "https://www.tcgplayer.com/product/708992?Language=English&Printing=Normal"
     }
   },
   "titans-fist": {
@@ -7048,6 +8221,14 @@
     "GEM165-Rainbow-Extended Art": {
       "productId": "696206",
       "url": "https://www.tcgplayer.com/product/696206?Language=English&Printing=Rainbow+Foil"
+    },
+    "MPW074": {
+      "productId": "708924",
+      "url": "https://www.tcgplayer.com/product/708924?Language=English&Printing=Normal"
+    },
+    "MPW074-Rainbow": {
+      "productId": "708924",
+      "url": "https://www.tcgplayer.com/product/708924?Language=English&Printing=Rainbow+Foil"
     }
   },
   "tome-of-the-arknight-blue": {
@@ -7228,6 +8409,12 @@
       "url": "https://www.tcgplayer.com/product/618267?Language=English&Printing=Rainbow+Foil"
     }
   },
+  "unsheathed-red": {
+    "MPW035": {
+      "productId": "708897",
+      "url": "https://www.tcgplayer.com/product/708897?Language=English&Printing=Normal"
+    }
+  },
   "up-on-a-pedestal-blue": {
     "LGS441-Cold-Extended Art": {
       "productId": "666551",
@@ -7314,6 +8501,16 @@
       "url": ""
     }
   },
+  "vigilant-dodgers": {
+    "MPW139": {
+      "productId": "708984",
+      "url": "https://www.tcgplayer.com/product/708984?Language=English&Printing=Normal"
+    },
+    "MPW139-Cold": {
+      "productId": "708984",
+      "url": "https://www.tcgplayer.com/product/708984?Language=English&Printing=Cold+Foil"
+    }
+  },
   "vigor": {
     "SKA036": {
       "productId": "",
@@ -7372,6 +8569,16 @@
     "AHA026": {
       "productId": "688765",
       "url": "https://www.tcgplayer.com/product/688765?Language=English&Printing=Normal"
+    },
+    "MPW071": {
+      "productId": "708922",
+      "url": "https://www.tcgplayer.com/product/708922?Language=English&Printing=Normal"
+    }
+  },
+  "visit-the-prize-room-blue": {
+    "AOL028": {
+      "productId": "708192",
+      "url": "https://www.tcgplayer.com/product/708192?Language=English&Printing=Normal"
     }
   },
   "voltbound-duality-red": {

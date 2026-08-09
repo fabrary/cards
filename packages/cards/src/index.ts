@@ -440,7 +440,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "MPW075",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708925",
+            url: "https://www.tcgplayer.com/product/708925?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nino Setiawan"],
@@ -452,7 +455,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "MPW075-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708925",
+            url: "https://www.tcgplayer.com/product/708925?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -7092,7 +7098,10 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       print: "MPW027",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708896",
+            url: "https://www.tcgplayer.com/product/708896?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["János Brumár"],
@@ -7104,7 +7113,10 @@ At the start of your turn, destroy this, then your dagger attacks get **go again
       print: "MPW027-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708896",
+            url: "https://www.tcgplayer.com/product/708896?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -9662,7 +9674,10 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
       print: "MPW028",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703886",
+            url: "https://www.tcgplayer.com/product/703886?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["João G. Santos"],
@@ -9674,7 +9689,10 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
       print: "MPW028-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703887",
+            url: "https://www.tcgplayer.com/product/703887?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -24517,7 +24535,10 @@ Defense reaction cards can't be played this chain link.`,
       print: "MPW038",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708899",
+            url: "https://www.tcgplayer.com/product/708899?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -24529,7 +24550,10 @@ Defense reaction cards can't be played this chain link.`,
       print: "MPW038-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708899",
+            url: "https://www.tcgplayer.com/product/708899?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -35765,7 +35789,10 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
       print: "AOL010",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709338",
+            url: "https://www.tcgplayer.com/product/709338?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -35828,7 +35855,10 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
       print: "AOL023",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709350",
+            url: "https://www.tcgplayer.com/product/709350?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -35891,7 +35921,10 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
       print: "MPW059",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708911",
+            url: "https://www.tcgplayer.com/product/708911?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Yunior Susanto"],
@@ -35903,7 +35936,10 @@ When Bellona attacks, you may banish a card from your hero's soul. If you do, pu
       print: "MPW059-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708911",
+            url: "https://www.tcgplayer.com/product/708911?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -37269,7 +37305,10 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
       print: "MPW076",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708926",
+            url: "https://www.tcgplayer.com/product/708926?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Galih M"],
@@ -37281,7 +37320,10 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
       print: "MPW076-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708926",
+            url: "https://www.tcgplayer.com/product/708926?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -37342,7 +37384,10 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
       print: "MPW077",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708927",
+            url: "https://www.tcgplayer.com/product/708927?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Galih M"],
@@ -37354,7 +37399,10 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
       print: "MPW077-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708927",
+            url: "https://www.tcgplayer.com/product/708927?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -37415,7 +37463,10 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
       print: "MPW078",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708928",
+            url: "https://www.tcgplayer.com/product/708928?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Galih M"],
@@ -37427,7 +37478,10 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
       print: "MPW078-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708928",
+            url: "https://www.tcgplayer.com/product/708928?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -38137,7 +38191,10 @@ Draw a card, then discard a card.
       print: "AOL011",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709339",
+            url: "https://www.tcgplayer.com/product/709339?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -38149,7 +38206,10 @@ Draw a card, then discard a card.
       print: "MPW060",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708912",
+            url: "https://www.tcgplayer.com/product/708912?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -38161,7 +38221,10 @@ Draw a card, then discard a card.
       print: "MPW060-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708912",
+            url: "https://www.tcgplayer.com/product/708912?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -38224,7 +38287,10 @@ Draw a card, then discard a card.
       print: "MPW061",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708913",
+            url: "https://www.tcgplayer.com/product/708913?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -38236,7 +38302,10 @@ Draw a card, then discard a card.
       print: "MPW061-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708913",
+            url: "https://www.tcgplayer.com/product/708913?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -38299,7 +38368,10 @@ Draw a card, then discard a card.
       print: "MPW062",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708914",
+            url: "https://www.tcgplayer.com/product/708914?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -38311,7 +38383,10 @@ Draw a card, then discard a card.
       print: "MPW062-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708914",
+            url: "https://www.tcgplayer.com/product/708914?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -42104,7 +42179,10 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       print: "MPW134-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708478",
+            url: "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Sariya Asavametha"],
@@ -42116,7 +42194,10 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       print: "MPW134-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708478",
+            url: "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
@@ -42268,7 +42349,10 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
       print: "MPW021",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708894",
+            url: "https://www.tcgplayer.com/product/708894?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -53000,7 +53084,10 @@ When this hits, deal 1 damage to any target.`,
       print: "AOL018",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709345",
+            url: "https://www.tcgplayer.com/product/709345?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Dominic"],
@@ -53012,7 +53099,10 @@ When this hits, deal 1 damage to any target.`,
       print: "MPW029",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708467",
+            url: "https://www.tcgplayer.com/product/708467?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Simon Dominic"],
@@ -53024,7 +53114,10 @@ When this hits, deal 1 damage to any target.`,
       print: "MPW029-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708467",
+            url: "https://www.tcgplayer.com/product/708467?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -53089,7 +53182,10 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
       print: "MPW013",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708886",
+            url: "https://www.tcgplayer.com/product/708886?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Brian M. Narendra"],
@@ -53101,7 +53197,10 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
       print: "MPW013-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708886",
+            url: "https://www.tcgplayer.com/product/708886?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -59922,7 +60021,10 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
       print: "MPW011-Rainbow-Alternate Art",
       rarity: Rarity.Legendary,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708885",
+            url: "https://www.tcgplayer.com/product/708885?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA],
     },{
         artists: ["Adolfo Navarro"],
@@ -71449,7 +71551,10 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
       print: "MPW079",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708929",
+            url: "https://www.tcgplayer.com/product/708929?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ismatulloh"],
@@ -71461,7 +71566,10 @@ At the start of your turn, if you have 13 or less {h}, banish Carrion Husk.
       print: "MPW079-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708929",
+            url: "https://www.tcgplayer.com/product/708929?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -75765,7 +75873,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "AOL012",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709340",
+            url: "https://www.tcgplayer.com/product/709340?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -75777,7 +75888,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "MPW099",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708945",
+            url: "https://www.tcgplayer.com/product/708945?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -75789,7 +75903,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "MPW099-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708945",
+            url: "https://www.tcgplayer.com/product/708945?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -75852,7 +75969,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "AOL019",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709346",
+            url: "https://www.tcgplayer.com/product/709346?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -75864,7 +75984,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "MPW100",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708946",
+            url: "https://www.tcgplayer.com/product/708946?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -75876,7 +75999,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "MPW100-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708946",
+            url: "https://www.tcgplayer.com/product/708946?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -75939,7 +76065,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "AOL024",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709351",
+            url: "https://www.tcgplayer.com/product/709351?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -75951,7 +76080,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "MPW101",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708947",
+            url: "https://www.tcgplayer.com/product/708947?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -75963,7 +76095,10 @@ The next time you would lose a wager this turn, instead you may discard a card. 
       print: "MPW101-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708947",
+            url: "https://www.tcgplayer.com/product/708947?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -83217,7 +83352,10 @@ You may destroy a Bloodrot Pox token you control. If you do, gain 1{h}.
       print: "MPW138",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708983",
+            url: "https://www.tcgplayer.com/product/708983?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nadia Suryani"],
@@ -83229,7 +83367,10 @@ You may destroy a Bloodrot Pox token you control. If you do, gain 1{h}.
       print: "MPW138-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708983",
+            url: "https://www.tcgplayer.com/product/708983?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -100232,7 +100373,10 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
       print: "MPW064",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708915",
+            url: "https://www.tcgplayer.com/product/708915?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Yiian Kho"],
@@ -100244,7 +100388,10 @@ If you've been cheered this turn, this gets "When this hits a hero, you may plan
       print: "MPW064-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708915",
+            url: "https://www.tcgplayer.com/product/708915?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -104740,7 +104887,10 @@ Your next dagger attack this turn gets +2{p}.
       print: "AOL013",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709341",
+            url: "https://www.tcgplayer.com/product/709341?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mateusz Wiśniewski"],
@@ -108764,7 +108914,10 @@ The next defense reaction card the defending hero plays this turn costs an addit
       print: "MPW156-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "690461",
+            url: "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Adolfo Navarro","Carlos Cruchaga"],
@@ -109614,7 +109767,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW080",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708930",
+            url: "https://www.tcgplayer.com/product/708930?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -109626,7 +109782,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW080-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708930",
+            url: "https://www.tcgplayer.com/product/708930?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -109702,7 +109861,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW081",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708931",
+            url: "https://www.tcgplayer.com/product/708931?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -109714,7 +109876,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW081-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708931",
+            url: "https://www.tcgplayer.com/product/708931?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -109775,7 +109940,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW082",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708932",
+            url: "https://www.tcgplayer.com/product/708932?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -109787,7 +109955,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW082-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708932",
+            url: "https://www.tcgplayer.com/product/708932?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Narendra B Adi"],
@@ -110757,7 +110928,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW019",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708892",
+            url: "https://www.tcgplayer.com/product/708892?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Peyeyo"],
@@ -110769,7 +110943,10 @@ If it has an aim counter, it gains "When this hits a hero, look at their hand an
       print: "MPW019-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708892",
+            url: "https://www.tcgplayer.com/product/708892?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -112667,7 +112844,10 @@ The first time this is defended by a non-equipment card each turn, halve the bas
       print: "MPW137",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708982",
+            url: "https://www.tcgplayer.com/product/708982?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Olga Krivolapova"],
@@ -116452,7 +116632,10 @@ At the beginning of your end phase, if you have 4 or more cards in hand, create 
       print: "MPW083",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708933",
+            url: "https://www.tcgplayer.com/product/708933?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ismatulloh"],
@@ -116464,7 +116647,10 @@ At the beginning of your end phase, if you have 4 or more cards in hand, create 
       print: "MPW083-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708933",
+            url: "https://www.tcgplayer.com/product/708933?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -118873,7 +119059,10 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
       print: "MPW039",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708900",
+            url: "https://www.tcgplayer.com/product/708900?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["SanSan"],
@@ -118885,7 +119074,10 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
       print: "MPW039-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708900",
+            url: "https://www.tcgplayer.com/product/708900?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -118946,7 +119138,10 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
       print: "MPW040",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708901",
+            url: "https://www.tcgplayer.com/product/708901?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["SanSan"],
@@ -118958,7 +119153,10 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
       print: "MPW040-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708901",
+            url: "https://www.tcgplayer.com/product/708901?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -119019,7 +119217,10 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
       print: "MPW041",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708902",
+            url: "https://www.tcgplayer.com/product/708902?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["SanSan"],
@@ -119031,7 +119232,10 @@ When this defends, if it has 6 or more {d}, the attacking hero puts a card from 
       print: "MPW041-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708902",
+            url: "https://www.tcgplayer.com/product/708902?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -120706,7 +120910,10 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
       print: "AOL020",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709347",
+            url: "https://www.tcgplayer.com/product/709347?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -120718,7 +120925,10 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
       print: "MPW042",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708903",
+            url: "https://www.tcgplayer.com/product/708903?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -120730,7 +120940,10 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
       print: "MPW042-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708903",
+            url: "https://www.tcgplayer.com/product/708903?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -120967,7 +121180,10 @@ Create a Blasmophet, the Soul Harvester token.`,
       print: "MPW155-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708999",
+            url: "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
@@ -120979,7 +121195,10 @@ Create a Blasmophet, the Soul Harvester token.`,
       print: "MPW155-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708999",
+            url: "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
@@ -122525,7 +122744,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "MPW043",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708904",
+            url: "https://www.tcgplayer.com/product/708904?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -122537,7 +122759,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "MPW043-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708904",
+            url: "https://www.tcgplayer.com/product/708904?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -124118,7 +124343,10 @@ Draw a card.
       print: "AOL017",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709344",
+            url: "https://www.tcgplayer.com/product/709344?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -124130,7 +124358,10 @@ Draw a card.
       print: "MPW044",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708905",
+            url: "https://www.tcgplayer.com/product/708905?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -124142,7 +124373,10 @@ Draw a card.
       print: "MPW044-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708905",
+            url: "https://www.tcgplayer.com/product/708905?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -124215,7 +124449,10 @@ Draw a card.
       print: "MPW030",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708468",
+            url: "https://www.tcgplayer.com/product/708468?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Vito Vivodka"],
@@ -124227,7 +124464,10 @@ Draw a card.
       print: "MPW030-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708468",
+            url: "https://www.tcgplayer.com/product/708468?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -126073,7 +126313,10 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
       print: "MPW102",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708948",
+            url: "https://www.tcgplayer.com/product/708948?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Adolfo Navarro"],
@@ -127837,7 +128080,10 @@ If you've attacked with an attack action card this turn, your next weapon attack
       print: "MPW015",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708888",
+            url: "https://www.tcgplayer.com/product/708888?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nailsen Ivanderlie"],
@@ -127849,7 +128095,10 @@ If you've attacked with an attack action card this turn, your next weapon attack
       print: "MPW015-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708888",
+            url: "https://www.tcgplayer.com/product/708888?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -128419,7 +128668,10 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       print: "MPW008",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703884",
+            url: "https://www.tcgplayer.com/product/703884?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nathaniel Himawan"],
@@ -128431,7 +128683,10 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       print: "MPW008-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703885",
+            url: "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
@@ -128443,7 +128698,10 @@ When Dunebreaker Cenipai is destroyed, create an Ash token.
       print: "MPW008-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703885",
+            url: "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel],
@@ -128506,7 +128764,10 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
       print: "MPW065",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708916",
+            url: "https://www.tcgplayer.com/product/708916?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reza Afshar"],
@@ -132883,7 +133144,10 @@ Create an Ursur, the Soul Reaper token.`,
       print: "MPW014",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708887",
+            url: "https://www.tcgplayer.com/product/708887?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nikko Wahyudi"],
@@ -132895,7 +133159,10 @@ Create an Ursur, the Soul Reaper token.`,
       print: "MPW014-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708887",
+            url: "https://www.tcgplayer.com/product/708887?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -133460,7 +133727,10 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
       print: "MPW103",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708949",
+            url: "https://www.tcgplayer.com/product/708949?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -133567,7 +133837,10 @@ If it has 1 or more +1{p} counters, create a Flurry token.
       print: "MPW104",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708950",
+            url: "https://www.tcgplayer.com/product/708950?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -133659,7 +133932,10 @@ If it has 2 or more +1{p} counters, create a Flurry token.
       print: "MPW105",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708951",
+            url: "https://www.tcgplayer.com/product/708951?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -141576,7 +141852,10 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       print: "MPW146",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708991",
+            url: "https://www.tcgplayer.com/product/708991?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Daniel Jiménez"],
@@ -141926,7 +142205,10 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       print: "MPW106",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708952",
+            url: "https://www.tcgplayer.com/product/708952?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -141938,7 +142220,10 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       print: "MPW106-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708952",
+            url: "https://www.tcgplayer.com/product/708952?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -142001,7 +142286,10 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       print: "MPW107",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708953",
+            url: "https://www.tcgplayer.com/product/708953?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -142013,7 +142301,10 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       print: "MPW107-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708953",
+            url: "https://www.tcgplayer.com/product/708953?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -142076,7 +142367,10 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       print: "MPW108",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708954",
+            url: "https://www.tcgplayer.com/product/708954?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -142088,7 +142382,10 @@ If Endless Winter hits a hero, until the end of their next turn, whenever they a
       print: "MPW108-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708954",
+            url: "https://www.tcgplayer.com/product/708954?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -170023,7 +170320,10 @@ When this hits, create a Lightning Flow token.`,
       print: "MPW135-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708980",
+            url: "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Faizal Fikri"],
@@ -170035,7 +170335,10 @@ When this hits, create a Lightning Flow token.`,
       print: "MPW135-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708980",
+            url: "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Faizal Fikri"],
@@ -183991,7 +184294,10 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
       print: "MPW045",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708906",
+            url: "https://www.tcgplayer.com/product/708906?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Vincent Taslim"],
@@ -184003,7 +184309,10 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
       print: "MPW045-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708906",
+            url: "https://www.tcgplayer.com/product/708906?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Vincent Taslim"],
@@ -184414,7 +184723,10 @@ If a yellow card is **charged** this way, this gets **overpower**.`,
       print: "MPW022",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708895",
+            url: "https://www.tcgplayer.com/product/708895?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alexander Mokhov"],
@@ -186007,7 +186319,10 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       print: "MPW154",
       rarity: Rarity.Basic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708998",
+            url: "https://www.tcgplayer.com/product/708998?Language=English&Printing=Normal"
+          },
       
     },{
         artists: [],
@@ -187174,7 +187489,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "AOL022",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709349",
+            url: "https://www.tcgplayer.com/product/709349?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Saad Irfan"],
@@ -187651,7 +187969,10 @@ When this defends together with 2 or more yellow cards, create a Gold token.
       print: "AOL002-Rainbow",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709832",
+            url: "https://www.tcgplayer.com/product/709832?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tanapon Wachirakul"],
@@ -189974,7 +190295,10 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
       print: "MPW010-Rainbow-Alternate Art",
       rarity: Rarity.Legendary,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708884",
+            url: "https://www.tcgplayer.com/product/708884?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA],
     },{
         artists: ["Isuardi Therianto"],
@@ -193863,7 +194187,10 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
       print: "MPW109",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708955",
+            url: "https://www.tcgplayer.com/product/708955?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reza Aswadananta"],
@@ -193875,7 +194202,10 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
       print: "MPW109-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708955",
+            url: "https://www.tcgplayer.com/product/708955?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -193938,7 +194268,10 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
       print: "MPW110",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708956",
+            url: "https://www.tcgplayer.com/product/708956?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reza Aswadananta"],
@@ -193950,7 +194283,10 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
       print: "MPW110-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708956",
+            url: "https://www.tcgplayer.com/product/708956?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -194013,7 +194349,10 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
       print: "MPW111",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708957",
+            url: "https://www.tcgplayer.com/product/708957?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reza Aswadananta"],
@@ -194025,7 +194364,10 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
       print: "MPW111-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708957",
+            url: "https://www.tcgplayer.com/product/708957?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -194678,7 +195020,10 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
       print: "MPW003",
       rarity: Rarity.Basic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708882",
+            url: "https://www.tcgplayer.com/product/708882?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Federico Musetti"],
@@ -194690,7 +195035,10 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
       print: "MPW003-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "709106",
+            url: "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
@@ -194702,7 +195050,10 @@ While Hala is face up in arsenal, whenever a sword attack you control hits, it g
       print: "MPW003-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "709106",
+            url: "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Federico Musetti"],
@@ -199419,7 +199770,10 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       print: "AOL014",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "708193",
+            url: "https://www.tcgplayer.com/product/708193?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -199828,7 +200182,10 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       print: "MPW018",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708891",
+            url: "https://www.tcgplayer.com/product/708891?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Christ Adiel Then"],
@@ -199840,7 +200197,10 @@ If you have a head equipped and the defending hero doesn't, this gets +1{p}.
       print: "MPW018-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708891",
+            url: "https://www.tcgplayer.com/product/708891?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -202542,7 +202902,10 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
       print: "MPW133",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708979",
+            url: "https://www.tcgplayer.com/product/708979?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alif Zahrah"],
@@ -202554,7 +202917,10 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
       print: "MPW133-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708979",
+            url: "https://www.tcgplayer.com/product/708979?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -210380,7 +210746,10 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
       print: "MPW112",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708958",
+            url: "https://www.tcgplayer.com/product/708958?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -210520,7 +210889,10 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       print: "MPW113",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708959",
+            url: "https://www.tcgplayer.com/product/708959?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -210660,7 +211032,10 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       print: "MPW114",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708960",
+            url: "https://www.tcgplayer.com/product/708960?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -211938,7 +212313,10 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
       print: "AOL015",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709342",
+            url: "https://www.tcgplayer.com/product/709342?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -212127,7 +212505,10 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
       print: "AOL025",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709352",
+            url: "https://www.tcgplayer.com/product/709352?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -212914,7 +213295,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "MPW031",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708190",
+            url: "https://www.tcgplayer.com/product/708190?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["soyameii"],
@@ -212926,7 +213310,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "MPW031-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708190",
+            url: "https://www.tcgplayer.com/product/708190?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -213529,7 +213916,10 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       print: "MPW136",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708981",
+            url: "https://www.tcgplayer.com/product/708981?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Anna Tanygina"],
@@ -214314,7 +214704,10 @@ When this is defended by 1 or more attack action cards, Hot Streak's attacks get
       print: "MPW017",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708890",
+            url: "https://www.tcgplayer.com/product/708890?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Muhammad Fajri"],
@@ -214326,7 +214719,10 @@ When this is defended by 1 or more attack action cards, Hot Streak's attacks get
       print: "MPW017-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708890",
+            url: "https://www.tcgplayer.com/product/708890?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -228052,7 +228448,10 @@ Look at the top 2 cards of the defending hero's deck and choose a card. If it's 
       print: "AOL007",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709335",
+            url: "https://www.tcgplayer.com/product/709335?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -228064,7 +228463,10 @@ Look at the top 2 cards of the defending hero's deck and choose a card. If it's 
       print: "MPW023",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708189",
+            url: "https://www.tcgplayer.com/product/708189?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Max Kostin"],
@@ -228076,7 +228478,10 @@ Look at the top 2 cards of the defending hero's deck and choose a card. If it's 
       print: "MPW023-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708189",
+            url: "https://www.tcgplayer.com/product/708189?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -232561,7 +232966,10 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
       print: "AOL008",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709336",
+            url: "https://www.tcgplayer.com/product/709336?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Anastasiya Grintsova"],
@@ -232573,7 +232981,10 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
       print: "MPW085",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708934",
+            url: "https://www.tcgplayer.com/product/708934?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Anastasiya Grintsova"],
@@ -235047,7 +235458,10 @@ If you've been cheered this turn, this gets **go again**.`,
       print: "MPW115",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708961",
+            url: "https://www.tcgplayer.com/product/708961?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -235059,7 +235473,10 @@ If you've been cheered this turn, this gets **go again**.`,
       print: "MPW115-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708961",
+            url: "https://www.tcgplayer.com/product/708961?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -245265,7 +245682,10 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       print: "MPW036",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708898",
+            url: "https://www.tcgplayer.com/product/708898?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -245277,7 +245697,10 @@ If Lesson in Lava deals damage, you may search your deck for a Wizard card with 
       print: "MPW036-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708898",
+            url: "https://www.tcgplayer.com/product/708898?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -251839,7 +252262,10 @@ If you have **boosted** this turn, **opt 1**.
       print: "MPW016",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708889",
+            url: "https://www.tcgplayer.com/product/708889?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nikko Wahyudi"],
@@ -251851,7 +252277,10 @@ If you have **boosted** this turn, **opt 1**.
       print: "MPW016-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708889",
+            url: "https://www.tcgplayer.com/product/708889?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -269270,7 +269699,10 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
       print: "AOL016",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709343",
+            url: "https://www.tcgplayer.com/product/709343?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Athiwut B."],
@@ -272911,7 +273343,10 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
       print: "MPW116",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708962",
+            url: "https://www.tcgplayer.com/product/708962?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reza Afshar"],
@@ -275895,7 +276330,10 @@ When this is destroyed, destroy all cards in your arsenal.
       print: "MPW148",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708993",
+            url: "https://www.tcgplayer.com/product/708993?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Carlos Cruchaga"],
@@ -280673,7 +281111,10 @@ Create a Nasreth, the Soul Harrower token.`,
       print: "AOL026",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709834",
+            url: "https://www.tcgplayer.com/product/709834?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -280894,7 +281335,10 @@ Illusionist attack action cards you control get **go again**.
       print: "MPW066",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708917",
+            url: "https://www.tcgplayer.com/product/708917?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -280906,7 +281350,10 @@ Illusionist attack action cards you control get **go again**.
       print: "MPW066-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708917",
+            url: "https://www.tcgplayer.com/product/708917?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -281456,7 +281903,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW143",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708988",
+            url: "https://www.tcgplayer.com/product/708988?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -281468,7 +281918,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW143-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708988",
+            url: "https://www.tcgplayer.com/product/708988?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -281531,7 +281984,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW142",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708987",
+            url: "https://www.tcgplayer.com/product/708987?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -281543,7 +281999,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW142-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708987",
+            url: "https://www.tcgplayer.com/product/708987?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -281606,7 +282065,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW140",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708985",
+            url: "https://www.tcgplayer.com/product/708985?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -281618,7 +282080,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW140-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708985",
+            url: "https://www.tcgplayer.com/product/708985?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -281681,7 +282146,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW141",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708986",
+            url: "https://www.tcgplayer.com/product/708986?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mariusz Gandzel"],
@@ -281693,7 +282161,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW141-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708986",
+            url: "https://www.tcgplayer.com/product/708986?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -282020,7 +282491,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW046",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708907",
+            url: "https://www.tcgplayer.com/product/708907?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Muhammad Fajri"],
@@ -282032,7 +282506,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "MPW046-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708907",
+            url: "https://www.tcgplayer.com/product/708907?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Muhammad Fajri"],
@@ -282298,7 +282775,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "AOL001",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709831",
+            url: "https://www.tcgplayer.com/product/709831?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Joseph Qiu"],
@@ -288123,7 +288603,10 @@ When this hits, put it on the bottom of its owner's deck.`,
       print: "MPW151",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708996",
+            url: "https://www.tcgplayer.com/product/708996?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -288135,7 +288618,10 @@ When this hits, put it on the bottom of its owner's deck.`,
       print: "MPW151-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708996",
+            url: "https://www.tcgplayer.com/product/708996?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -290481,7 +290967,10 @@ If Overload hits, it gains **go again**.`,
       print: "MPW024",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703800",
+            url: "https://www.tcgplayer.com/product/703800?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Yosi Saputra"],
@@ -290493,7 +290982,10 @@ If Overload hits, it gains **go again**.`,
       print: "MPW024-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703800",
+            url: "https://www.tcgplayer.com/product/703800?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -292407,7 +292899,10 @@ This gets +X{p}, where X is the number of equipment defending it.`,
       print: "MPW009-Cold",
       rarity: Rarity.Legendary,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708883",
+            url: "https://www.tcgplayer.com/product/708883?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Amtepra"],
@@ -294561,7 +295056,10 @@ Create a Ponder token.`,
       print: "MPW144",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708989",
+            url: "https://www.tcgplayer.com/product/708989?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Nailsen Ivanderlie"],
@@ -294573,7 +295071,10 @@ Create a Ponder token.`,
       print: "MPW144-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708989",
+            url: "https://www.tcgplayer.com/product/708989?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -303985,7 +304486,10 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       print: "MPW025",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708464",
+            url: "https://www.tcgplayer.com/product/708464?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Athiwut B."],
@@ -303997,7 +304501,10 @@ Until end of turn, your attacks get +1{p} while attacking a **marked** hero.
       print: "MPW025-Rainbow-Extended Art",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708465",
+            url: "https://www.tcgplayer.com/product/708465?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
@@ -312794,7 +313301,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "AOL003-Alternate Art",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709331",
+            url: "https://www.tcgplayer.com/product/709331?Language=English&Printing=Normal"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA],
     },{
         artists: ["Mariusz Gandzel"],
@@ -312806,7 +313316,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "AOL003-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709332",
+            url: "https://www.tcgplayer.com/product/709332?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Carlos Cruchaga"],
@@ -312931,7 +313444,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "AOL005-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709334",
+            url: "https://www.tcgplayer.com/product/709334?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -312994,7 +313510,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "AOL006-Rainbow",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "708191",
+            url: "https://www.tcgplayer.com/product/708191?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -313057,7 +313576,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "AOL004-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709333",
+            url: "https://www.tcgplayer.com/product/709333?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -318963,7 +319485,10 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
       print: "MPW117",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708963",
+            url: "https://www.tcgplayer.com/product/708963?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Camille Alquier"],
@@ -319752,7 +320277,10 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
       print: "MPW149",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708994",
+            url: "https://www.tcgplayer.com/product/708994?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Maerel Hibadita"],
@@ -322730,7 +323258,10 @@ If another weapon you control has gained **go again** this turn, this card's att
       print: "MPW047",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "709022",
+            url: "https://www.tcgplayer.com/product/709022?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Surya Prasetya"],
@@ -322742,7 +323273,10 @@ If another weapon you control has gained **go again** this turn, this card's att
       print: "MPW047-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "709022",
+            url: "https://www.tcgplayer.com/product/709022?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -324413,7 +324947,10 @@ Create X Cintari Sellsword tokens.
       print: "MPW032",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703803",
+            url: "https://www.tcgplayer.com/product/703803?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Amtepra"],
@@ -324425,7 +324962,10 @@ Create X Cintari Sellsword tokens.
       print: "MPW032-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703803",
+            url: "https://www.tcgplayer.com/product/703803?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -324490,7 +325030,10 @@ Your next sword attack this turn gets +3{p}.
       print: "AOL027",
       rarity: Rarity.Majestic,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709353",
+            url: "https://www.tcgplayer.com/product/709353?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alifka Hammam"],
@@ -324502,7 +325045,10 @@ Your next sword attack this turn gets +3{p}.
       print: "MPW033",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703883",
+            url: "https://www.tcgplayer.com/product/703883?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Alifka Hammam"],
@@ -324514,7 +325060,10 @@ Your next sword attack this turn gets +3{p}.
       print: "MPW033-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "703883",
+            url: "https://www.tcgplayer.com/product/703883?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -334564,7 +335113,10 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
       print: "MPW020",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708893",
+            url: "https://www.tcgplayer.com/product/708893?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Anna Tanygina"],
@@ -337873,7 +338425,10 @@ If you've **charged** this turn, create a Courage token.`,
       print: "MPW067",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708918",
+            url: "https://www.tcgplayer.com/product/708918?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -337885,7 +338440,10 @@ If you've **charged** this turn, create a Courage token.`,
       print: "MPW067-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708918",
+            url: "https://www.tcgplayer.com/product/708918?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -338334,7 +338892,7 @@ At the start of your turn, destroy this and draw a card.`,
         artists: ["Joseph Qiu"],
       foiling: Foiling.Cold,
       identifier: "JDG086",
-      image: "JDG086-MV",
+      image: "JDG086-CF",
       
       
       print: "JDG086-Cold-Full Art",
@@ -338347,7 +338905,7 @@ At the start of your turn, destroy this and draw a card.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["AMA014","JDG086"],
     sets: [Release.ArmoryDeckMalice,Release.Promos],
-    specialImage: "JDG086-MV",
+    specialImage: "JDG086-CF",
     subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
     types: [Type.Action],
     typeText: "Shadow Necromancer Action - Zombie Ally",
@@ -368753,7 +369311,10 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
       print: "MPW118",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708964",
+            url: "https://www.tcgplayer.com/product/708964?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Inkognit"],
@@ -376214,7 +376775,10 @@ If you've played or activated an attack reaction this chain link, Shake Down has
       print: "MPW123",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708969",
+            url: "https://www.tcgplayer.com/product/708969?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Firaz M. Rasyid"],
@@ -376226,7 +376790,10 @@ If you've played or activated an attack reaction this chain link, Shake Down has
       print: "MPW123-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708969",
+            url: "https://www.tcgplayer.com/product/708969?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -376291,7 +376858,10 @@ If it has 1 or more +1{p} counters, create a Blade Dance token.
       print: "MPW124",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708970",
+            url: "https://www.tcgplayer.com/product/708970?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Firaz M. Rasyid"],
@@ -376303,7 +376873,10 @@ If it has 1 or more +1{p} counters, create a Blade Dance token.
       print: "MPW124-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708970",
+            url: "https://www.tcgplayer.com/product/708970?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -376368,7 +376941,10 @@ If it has 2 or more +1{p} counters, create a Blade Dance token.
       print: "MPW125",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708971",
+            url: "https://www.tcgplayer.com/product/708971?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Firaz M. Rasyid"],
@@ -376380,7 +376956,10 @@ If it has 2 or more +1{p} counters, create a Blade Dance token.
       print: "MPW125-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708971",
+            url: "https://www.tcgplayer.com/product/708971?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -376445,7 +377024,10 @@ If it has 3 or more +1{p} counters, create a Blade Dance token.
       print: "MPW119",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708965",
+            url: "https://www.tcgplayer.com/product/708965?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -376457,7 +377039,10 @@ If it has 3 or more +1{p} counters, create a Blade Dance token.
       print: "MPW119-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708965",
+            url: "https://www.tcgplayer.com/product/708965?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -376537,7 +377122,10 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
       print: "MPW120",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708966",
+            url: "https://www.tcgplayer.com/product/708966?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -376549,7 +377137,10 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
       print: "MPW120-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708966",
+            url: "https://www.tcgplayer.com/product/708966?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -376629,7 +377220,10 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
       print: "MPW121",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708967",
+            url: "https://www.tcgplayer.com/product/708967?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tommy Suhartono"],
@@ -376641,7 +377235,10 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
       print: "MPW121-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708967",
+            url: "https://www.tcgplayer.com/product/708967?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -376787,7 +377384,10 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
       print: "MPW122",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708968",
+            url: "https://www.tcgplayer.com/product/708968?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Anastasiya Grintsova"],
@@ -377436,7 +378036,10 @@ At the beginning of your end phase, destroy this.`,
       print: "MPW068",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708919",
+            url: "https://www.tcgplayer.com/product/708919?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jefrey Yonathan"],
@@ -377448,7 +378051,10 @@ At the beginning of your end phase, destroy this.`,
       print: "MPW068-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708919",
+            url: "https://www.tcgplayer.com/product/708919?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -379158,7 +379764,10 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
       print: "MPW051",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708477",
+            url: "https://www.tcgplayer.com/product/708477?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Asur Misoa"],
@@ -379170,7 +379779,10 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
       print: "MPW051-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708477",
+            url: "https://www.tcgplayer.com/product/708477?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -381188,7 +381800,10 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
       print: "AOL021",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709348",
+            url: "https://www.tcgplayer.com/product/709348?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -381596,7 +382211,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW126",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708972",
+            url: "https://www.tcgplayer.com/product/708972?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["M Fakhrur Rozzi"],
@@ -381608,7 +382226,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW126-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708972",
+            url: "https://www.tcgplayer.com/product/708972?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -381671,7 +382292,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW127",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708973",
+            url: "https://www.tcgplayer.com/product/708973?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["M Fakhrur Rozzi"],
@@ -381683,7 +382307,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW127-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708973",
+            url: "https://www.tcgplayer.com/product/708973?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -381746,7 +382373,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW128",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708974",
+            url: "https://www.tcgplayer.com/product/708974?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["M Fakhrur Rozzi"],
@@ -381758,7 +382388,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW128-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708974",
+            url: "https://www.tcgplayer.com/product/708974?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -382705,7 +383338,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW129",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708975",
+            url: "https://www.tcgplayer.com/product/708975?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -382717,7 +383353,10 @@ At the beginning of your action phase, destroy Show Time! then draw a card.`,
       print: "MPW129-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708975",
+            url: "https://www.tcgplayer.com/product/708975?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Jessada Sutthi"],
@@ -388654,7 +389293,10 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       print: "MPW086",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708935",
+            url: "https://www.tcgplayer.com/product/708935?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomi Ong"],
@@ -388666,7 +389308,10 @@ Each hero can't play more than 1 'non-attack' action card each turn.`,
       print: "MPW086-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708935",
+            url: "https://www.tcgplayer.com/product/708935?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Tomi Ong"],
@@ -388744,7 +389389,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
       print: "MPW087",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708936",
+            url: "https://www.tcgplayer.com/product/708936?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomi Ong"],
@@ -388756,7 +389404,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
       print: "MPW087-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708936",
+            url: "https://www.tcgplayer.com/product/708936?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -388819,7 +389470,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
       print: "MPW088",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708937",
+            url: "https://www.tcgplayer.com/product/708937?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomi Ong"],
@@ -388831,7 +389485,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.`,
       print: "MPW088-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708937",
+            url: "https://www.tcgplayer.com/product/708937?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -394901,7 +395558,10 @@ When this hits a hero, banish the top card of their deck.`,
       print: "MPW069",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708920",
+            url: "https://www.tcgplayer.com/product/708920?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Federico Musetti"],
@@ -395224,7 +395884,10 @@ Your second sword or dagger attack this turn gets +3{p}.
       print: "MPW089",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708938",
+            url: "https://www.tcgplayer.com/product/708938?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Ismatulloh"],
@@ -395236,7 +395899,10 @@ Your second sword or dagger attack this turn gets +3{p}.
       print: "MPW089-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708938",
+            url: "https://www.tcgplayer.com/product/708938?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -395988,7 +396654,10 @@ Target attack action card gets **go again**.`,
       print: "MPW090",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708939",
+            url: "https://www.tcgplayer.com/product/708939?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Petrinda Wiyugo"],
@@ -396000,7 +396669,10 @@ Target attack action card gets **go again**.`,
       print: "MPW090-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708939",
+            url: "https://www.tcgplayer.com/product/708939?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -396061,7 +396733,10 @@ Target attack action card gets **go again**.`,
       print: "MPW091",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708940",
+            url: "https://www.tcgplayer.com/product/708940?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Petrinda Wiyugo"],
@@ -396073,7 +396748,10 @@ Target attack action card gets **go again**.`,
       print: "MPW091-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708940",
+            url: "https://www.tcgplayer.com/product/708940?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -396134,7 +396812,10 @@ Target attack action card gets **go again**.`,
       print: "MPW092",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708941",
+            url: "https://www.tcgplayer.com/product/708941?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Petrinda Wiyugo"],
@@ -396146,7 +396827,10 @@ Target attack action card gets **go again**.`,
       print: "MPW092-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708941",
+            url: "https://www.tcgplayer.com/product/708941?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -417046,7 +417730,10 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
       print: "MPW152",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708997",
+            url: "https://www.tcgplayer.com/product/708997?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -418841,7 +419528,10 @@ If an item you control has been destroyed this turn, this gets +2{p}.
       print: "MPW070",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708921",
+            url: "https://www.tcgplayer.com/product/708921?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Reinaldo Indrajaya"],
@@ -418853,7 +419543,10 @@ If an item you control has been destroyed this turn, this gets +2{p}.
       print: "MPW070-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708921",
+            url: "https://www.tcgplayer.com/product/708921?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -418916,7 +419609,10 @@ If an item you control has been destroyed this turn, this gets +2{p}.
       print: "MPW056",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708908",
+            url: "https://www.tcgplayer.com/product/708908?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Cindy Handoyo"],
@@ -419067,7 +419763,10 @@ If an item you control has been destroyed this turn, this gets +2{p}.
       print: "MPW057",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708909",
+            url: "https://www.tcgplayer.com/product/708909?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Cindy Handoyo"],
@@ -419203,7 +419902,10 @@ If an item you control has been destroyed this turn, this gets +2{p}.
       print: "MPW058",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708910",
+            url: "https://www.tcgplayer.com/product/708910?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Cindy Handoyo"],
@@ -432320,7 +433022,10 @@ When this hits a hero, banish the top card of their deck, then look at their han
       print: "MPW130",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708976",
+            url: "https://www.tcgplayer.com/product/708976?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Wirawan Pranoto"],
@@ -432400,7 +433105,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       print: "MPW131",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708977",
+            url: "https://www.tcgplayer.com/product/708977?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Wirawan Pranoto"],
@@ -432412,7 +433120,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       print: "MPW131-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708977",
+            url: "https://www.tcgplayer.com/product/708977?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -432477,7 +433188,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       print: "MPW132",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708978",
+            url: "https://www.tcgplayer.com/product/708978?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Wirawan Pranoto"],
@@ -435909,7 +436623,10 @@ Create a Bait token under an opponent's control.
       print: "MPW073",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708923",
+            url: "https://www.tcgplayer.com/product/708923?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -435921,7 +436638,10 @@ Create a Bait token under an opponent's control.
       print: "MPW073-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708923",
+            url: "https://www.tcgplayer.com/product/708923?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Rare],
@@ -436061,7 +436781,10 @@ Create a Bait token under an opponent's control.
       print: "AOL009",
       rarity: Rarity.Common,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "709337",
+            url: "https://www.tcgplayer.com/product/709337?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -436073,7 +436796,10 @@ Create a Bait token under an opponent's control.
       print: "MPW093",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708942",
+            url: "https://www.tcgplayer.com/product/708942?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -436193,7 +436919,10 @@ Target attack gets +3{p}.`,
       print: "MPW094",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708943",
+            url: "https://www.tcgplayer.com/product/708943?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -436298,7 +437027,10 @@ Target attack gets +2{p}.`,
       print: "MPW095",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708944",
+            url: "https://www.tcgplayer.com/product/708944?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -443090,7 +443822,10 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
       print: "MPW034",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708473",
+            url: "https://www.tcgplayer.com/product/708473?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Amtepra"],
@@ -443102,7 +443837,10 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
       print: "MPW034-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708473",
+            url: "https://www.tcgplayer.com/product/708473?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -448404,7 +449142,10 @@ Gain 1{h}`,
       print: "MPW145",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708990",
+            url: "https://www.tcgplayer.com/product/708990?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Raynor Maharsi"],
@@ -448416,7 +449157,10 @@ Gain 1{h}`,
       print: "MPW145-Rainbow",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708990",
+            url: "https://www.tcgplayer.com/product/708990?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic],
@@ -450569,7 +451313,10 @@ If Timekeeper's Whim is played during an opponent's turn, put it on the bottom o
       print: "MPW147",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708992",
+            url: "https://www.tcgplayer.com/product/708992?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Daniel Jiménez"],
@@ -452097,7 +452844,10 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
       print: "MPW074",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708924",
+            url: "https://www.tcgplayer.com/product/708924?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -452109,7 +452859,10 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
       print: "MPW074-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708924",
+            url: "https://www.tcgplayer.com/product/708924?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Mario Wibisono"],
@@ -465310,7 +466063,10 @@ When this hits an ally, destroy that ally.`,
       print: "MPW035",
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708897",
+            url: "https://www.tcgplayer.com/product/708897?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["soyameii"],
@@ -472662,7 +473418,10 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
       print: "MPW139",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708984",
+            url: "https://www.tcgplayer.com/product/708984?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Andi Cahyo W"],
@@ -472674,7 +473433,10 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
       print: "MPW139-Cold",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708984",
+            url: "https://www.tcgplayer.com/product/708984?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common],
@@ -476209,7 +476971,10 @@ Create a Vigor token.`,
       print: "MPW071",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708922",
+            url: "https://www.tcgplayer.com/product/708922?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -476704,7 +477469,10 @@ Equip X weapons and/or equipment from your inventory.`,
       print: "AOL028",
       rarity: Rarity.Rare,
       set: Release.ArmoryDeckOlympia,
-      
+      tcgplayer: {
+            productId: "708192",
+            url: "https://www.tcgplayer.com/product/708192?Language=English&Printing=Normal"
+          },
       
     },],
     rarities: [Rarity.Rare],

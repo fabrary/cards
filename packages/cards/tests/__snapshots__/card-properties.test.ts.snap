@@ -557,6 +557,10 @@ exports[`Check for unintentional updates A Moment's Peace (a-moments-peace-blue)
       "print": "MPW075",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708925",
+        "url": "https://www.tcgplayer.com/product/708925?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -568,6 +572,10 @@ exports[`Check for unintentional updates A Moment's Peace (a-moments-peace-blue)
       "print": "MPW075-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708925",
+        "url": "https://www.tcgplayer.com/product/708925?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -8757,6 +8765,10 @@ exports[`Check for unintentional updates All In (all-in-red) vs snapshot 1`] = `
       "print": "MPW027",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708896",
+        "url": "https://www.tcgplayer.com/product/708896?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -8768,6 +8780,10 @@ exports[`Check for unintentional updates All In (all-in-red) vs snapshot 1`] = `
       "print": "MPW027-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708896",
+        "url": "https://www.tcgplayer.com/product/708896?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -12393,6 +12409,10 @@ exports[`Check for unintentional updates And Again... (and-again-blue) vs snapsh
       "print": "MPW028",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703886",
+        "url": "https://www.tcgplayer.com/product/703886?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -12404,6 +12424,10 @@ exports[`Check for unintentional updates And Again... (and-again-blue) vs snapsh
       "print": "MPW028-Rainbow-Extended Art",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703887",
+        "url": "https://www.tcgplayer.com/product/703887?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -30834,6 +30858,10 @@ exports[`Check for unintentional updates Backside of the Blade (backside-of-the-
       "print": "MPW038",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708899",
+        "url": "https://www.tcgplayer.com/product/708899?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -30845,6 +30873,10 @@ exports[`Check for unintentional updates Backside of the Blade (backside-of-the-
       "print": "MPW038-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708899",
+        "url": "https://www.tcgplayer.com/product/708899?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -45151,6 +45183,10 @@ exports[`Check for unintentional updates Belly Buster (belly-buster-blue) vs sna
       "print": "AOL023",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709350",
+        "url": "https://www.tcgplayer.com/product/709350?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -45232,6 +45268,10 @@ exports[`Check for unintentional updates Belly Buster (belly-buster-red) vs snap
       "print": "AOL010",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709338",
+        "url": "https://www.tcgplayer.com/product/709338?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -45312,6 +45352,10 @@ exports[`Check for unintentional updates Below the Belt (below-the-belt-red) vs 
       "print": "MPW059",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708911",
+        "url": "https://www.tcgplayer.com/product/708911?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -45323,6 +45367,10 @@ exports[`Check for unintentional updates Below the Belt (below-the-belt-red) vs 
       "print": "MPW059-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708911",
+        "url": "https://www.tcgplayer.com/product/708911?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -46918,6 +46966,10 @@ exports[`Check for unintentional updates Big Blinder (big-blinder-blue) vs snaps
       "print": "MPW078",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708928",
+        "url": "https://www.tcgplayer.com/product/708928?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -46929,6 +46981,10 @@ exports[`Check for unintentional updates Big Blinder (big-blinder-blue) vs snaps
       "print": "MPW078-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708928",
+        "url": "https://www.tcgplayer.com/product/708928?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -47006,6 +47062,10 @@ exports[`Check for unintentional updates Big Blinder (big-blinder-red) vs snapsh
       "print": "MPW076",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708926",
+        "url": "https://www.tcgplayer.com/product/708926?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -47017,6 +47077,10 @@ exports[`Check for unintentional updates Big Blinder (big-blinder-red) vs snapsh
       "print": "MPW076-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708926",
+        "url": "https://www.tcgplayer.com/product/708926?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -47093,6 +47157,10 @@ exports[`Check for unintentional updates Big Blinder (big-blinder-yellow) vs sna
       "print": "MPW077",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708927",
+        "url": "https://www.tcgplayer.com/product/708927?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -47104,6 +47172,10 @@ exports[`Check for unintentional updates Big Blinder (big-blinder-yellow) vs sna
       "print": "MPW077-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708927",
+        "url": "https://www.tcgplayer.com/product/708927?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -47987,6 +48059,10 @@ exports[`Check for unintentional updates Big Slick (big-slick-blue) vs snapshot 
       "print": "MPW062",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708914",
+        "url": "https://www.tcgplayer.com/product/708914?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -47998,6 +48074,10 @@ exports[`Check for unintentional updates Big Slick (big-slick-blue) vs snapshot 
       "print": "MPW062-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708914",
+        "url": "https://www.tcgplayer.com/product/708914?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -48080,6 +48160,10 @@ exports[`Check for unintentional updates Big Slick (big-slick-red) vs snapshot 1
       "print": "AOL011",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709339",
+        "url": "https://www.tcgplayer.com/product/709339?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -48090,6 +48174,10 @@ exports[`Check for unintentional updates Big Slick (big-slick-red) vs snapshot 1
       "print": "MPW060",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708912",
+        "url": "https://www.tcgplayer.com/product/708912?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -48101,6 +48189,10 @@ exports[`Check for unintentional updates Big Slick (big-slick-red) vs snapshot 1
       "print": "MPW060-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708912",
+        "url": "https://www.tcgplayer.com/product/708912?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -48183,6 +48275,10 @@ exports[`Check for unintentional updates Big Slick (big-slick-yellow) vs snapsho
       "print": "MPW061",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708913",
+        "url": "https://www.tcgplayer.com/product/708913?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -48194,6 +48290,10 @@ exports[`Check for unintentional updates Big Slick (big-slick-yellow) vs snapsho
       "print": "MPW061-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708913",
+        "url": "https://www.tcgplayer.com/product/708913?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -53081,6 +53181,10 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
       "print": "MPW134-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708478",
+        "url": "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -53096,6 +53200,10 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
       "print": "MPW134-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708478",
+        "url": "https://www.tcgplayer.com/product/708478?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -53360,6 +53468,10 @@ Your next weapon attack this turn gets +2{p}.",
       "print": "MPW021",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708894",
+        "url": "https://www.tcgplayer.com/product/708894?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -66712,6 +66824,10 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
       "print": "AOL018",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709345",
+        "url": "https://www.tcgplayer.com/product/709345?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -66722,6 +66838,10 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
       "print": "MPW029",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708467",
+        "url": "https://www.tcgplayer.com/product/708467?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -66733,6 +66853,10 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
       "print": "MPW029-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708467",
+        "url": "https://www.tcgplayer.com/product/708467?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -66814,6 +66938,10 @@ exports[`Check for unintentional updates Blunt Retort (blunt-retort) vs snapshot
       "print": "MPW013",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708886",
+        "url": "https://www.tcgplayer.com/product/708886?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -66825,6 +66953,10 @@ exports[`Check for unintentional updates Blunt Retort (blunt-retort) vs snapshot
       "print": "MPW013-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708886",
+        "url": "https://www.tcgplayer.com/product/708886?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -75502,6 +75634,10 @@ exports[`Check for unintentional updates Braveforge Bracers (braveforge-bracers)
       "print": "MPW011-Rainbow-Alternate Art",
       "rarity": "Legendary",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708885",
+        "url": "https://www.tcgplayer.com/product/708885?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -90996,6 +91132,10 @@ exports[`Check for unintentional updates Carve Up (carve-up-yellow) vs snapshot 
       "print": "MPW079",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708929",
+        "url": "https://www.tcgplayer.com/product/708929?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -91007,6 +91147,10 @@ exports[`Check for unintentional updates Carve Up (carve-up-yellow) vs snapshot 
       "print": "MPW079-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708929",
+        "url": "https://www.tcgplayer.com/product/708929?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -96359,6 +96503,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-blue) vs snaps
       "print": "AOL024",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709351",
+        "url": "https://www.tcgplayer.com/product/709351?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -96369,6 +96517,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-blue) vs snaps
       "print": "MPW101",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708947",
+        "url": "https://www.tcgplayer.com/product/708947?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -96380,6 +96532,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-blue) vs snaps
       "print": "MPW101-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708947",
+        "url": "https://www.tcgplayer.com/product/708947?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -96464,6 +96620,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-red) vs snapsh
       "print": "AOL012",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709340",
+        "url": "https://www.tcgplayer.com/product/709340?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -96474,6 +96634,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-red) vs snapsh
       "print": "MPW099",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708945",
+        "url": "https://www.tcgplayer.com/product/708945?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -96485,6 +96649,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-red) vs snapsh
       "print": "MPW099-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708945",
+        "url": "https://www.tcgplayer.com/product/708945?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -96568,6 +96736,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-yellow) vs sna
       "print": "AOL019",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709346",
+        "url": "https://www.tcgplayer.com/product/709346?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -96578,6 +96750,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-yellow) vs sna
       "print": "MPW100",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708946",
+        "url": "https://www.tcgplayer.com/product/708946?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -96589,6 +96765,10 @@ exports[`Check for unintentional updates Check-Raise (check-raise-yellow) vs sna
       "print": "MPW100-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708946",
+        "url": "https://www.tcgplayer.com/product/708946?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -105904,6 +106084,10 @@ exports[`Check for unintentional updates Clip Flexor (clip-flexor) vs snapshot 1
       "print": "MPW138",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708983",
+        "url": "https://www.tcgplayer.com/product/708983?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -105915,6 +106099,10 @@ exports[`Check for unintentional updates Clip Flexor (clip-flexor) vs snapshot 1
       "print": "MPW138-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708983",
+        "url": "https://www.tcgplayer.com/product/708983?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -127844,6 +128032,10 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
       "print": "MPW064",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708915",
+        "url": "https://www.tcgplayer.com/product/708915?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -127855,6 +128047,10 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
       "print": "MPW064-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708915",
+        "url": "https://www.tcgplayer.com/product/708915?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -134643,6 +134839,10 @@ If it has 1 or more +1{p} counters, its next attack this turn gets **dominate**.
       "print": "AOL013",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709341",
+        "url": "https://www.tcgplayer.com/product/709341?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -138814,6 +139014,10 @@ At the beginning of your end phase, if this hasn't hit this turn, remove all +1{
       "print": "MPW156-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "690461",
+        "url": "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -139815,6 +140019,10 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-blue) vs
       "print": "MPW082",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708932",
+        "url": "https://www.tcgplayer.com/product/708932?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -139826,6 +140034,10 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-blue) vs
       "print": "MPW082-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708932",
+        "url": "https://www.tcgplayer.com/product/708932?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -139917,6 +140129,10 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-red) vs 
       "print": "MPW080",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708930",
+        "url": "https://www.tcgplayer.com/product/708930?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -139928,6 +140144,10 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-red) vs 
       "print": "MPW080-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708930",
+        "url": "https://www.tcgplayer.com/product/708930?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -140017,6 +140237,10 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-yellow) 
       "print": "MPW081",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708931",
+        "url": "https://www.tcgplayer.com/product/708931?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -140028,6 +140252,10 @@ exports[`Check for unintentional updates Deadly Display (deadly-display-yellow) 
       "print": "MPW081-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708931",
+        "url": "https://www.tcgplayer.com/product/708931?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -141187,6 +141415,10 @@ exports[`Check for unintentional updates Dealer's Grip (dealers-grip) vs snapsho
       "print": "MPW019",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708892",
+        "url": "https://www.tcgplayer.com/product/708892?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -141198,6 +141430,10 @@ exports[`Check for unintentional updates Dealer's Grip (dealers-grip) vs snapsho
       "print": "MPW019-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708892",
+        "url": "https://www.tcgplayer.com/product/708892?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -143632,6 +143868,10 @@ exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] =
       "print": "MPW137",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708982",
+        "url": "https://www.tcgplayer.com/product/708982?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -148791,6 +149031,10 @@ exports[`Check for unintentional updates Dice Up (dice-up-blue) vs snapshot 1`] 
       "print": "MPW083",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708933",
+        "url": "https://www.tcgplayer.com/product/708933?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -148802,6 +149046,10 @@ exports[`Check for unintentional updates Dice Up (dice-up-blue) vs snapshot 1`] 
       "print": "MPW083-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708933",
+        "url": "https://www.tcgplayer.com/product/708933?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -151683,6 +151931,10 @@ exports[`Check for unintentional updates Display of Artistry (display-of-artistr
       "print": "MPW041",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708902",
+        "url": "https://www.tcgplayer.com/product/708902?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -151694,6 +151946,10 @@ exports[`Check for unintentional updates Display of Artistry (display-of-artistr
       "print": "MPW041-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708902",
+        "url": "https://www.tcgplayer.com/product/708902?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -151768,6 +152024,10 @@ exports[`Check for unintentional updates Display of Artistry (display-of-artistr
       "print": "MPW039",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708900",
+        "url": "https://www.tcgplayer.com/product/708900?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -151779,6 +152039,10 @@ exports[`Check for unintentional updates Display of Artistry (display-of-artistr
       "print": "MPW039-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708900",
+        "url": "https://www.tcgplayer.com/product/708900?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -151852,6 +152116,10 @@ exports[`Check for unintentional updates Display of Artistry (display-of-artistr
       "print": "MPW040",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708901",
+        "url": "https://www.tcgplayer.com/product/708901?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -151863,6 +152131,10 @@ exports[`Check for unintentional updates Display of Artistry (display-of-artistr
       "print": "MPW040-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708901",
+        "url": "https://www.tcgplayer.com/product/708901?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -153911,6 +154183,10 @@ exports[`Check for unintentional updates Donkey (donkey-blue) vs snapshot 1`] = 
       "print": "AOL020",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709347",
+        "url": "https://www.tcgplayer.com/product/709347?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -153921,6 +154197,10 @@ exports[`Check for unintentional updates Donkey (donkey-blue) vs snapshot 1`] = 
       "print": "MPW042",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708903",
+        "url": "https://www.tcgplayer.com/product/708903?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -153932,6 +154212,10 @@ exports[`Check for unintentional updates Donkey (donkey-blue) vs snapshot 1`] = 
       "print": "MPW042-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708903",
+        "url": "https://www.tcgplayer.com/product/708903?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -154211,6 +154495,10 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
       "print": "MPW155-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708999",
+        "url": "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -154226,6 +154514,10 @@ exports[`Check for unintentional updates Dorinthea (dorinthea) vs snapshot 1`] =
       "print": "MPW155-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708999",
+        "url": "https://www.tcgplayer.com/product/708999?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -156371,6 +156663,10 @@ exports[`Check for unintentional updates Downswing (downswing-red) vs snapshot 1
       "print": "MPW043",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708904",
+        "url": "https://www.tcgplayer.com/product/708904?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -156382,6 +156678,10 @@ exports[`Check for unintentional updates Downswing (downswing-red) vs snapshot 1
       "print": "MPW043-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708904",
+        "url": "https://www.tcgplayer.com/product/708904?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -158543,6 +158843,10 @@ exports[`Check for unintentional updates Drawing Dead (drawing-dead-yellow) vs s
       "print": "AOL017",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709344",
+        "url": "https://www.tcgplayer.com/product/709344?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -158553,6 +158857,10 @@ exports[`Check for unintentional updates Drawing Dead (drawing-dead-yellow) vs s
       "print": "MPW044",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708905",
+        "url": "https://www.tcgplayer.com/product/708905?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -158564,6 +158872,10 @@ exports[`Check for unintentional updates Drawing Dead (drawing-dead-yellow) vs s
       "print": "MPW044-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708905",
+        "url": "https://www.tcgplayer.com/product/708905?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -158663,6 +158975,10 @@ If it has 2 or more +1{p} counters, the next time it hits this turn, draw a card
       "print": "MPW030",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708468",
+        "url": "https://www.tcgplayer.com/product/708468?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -158674,6 +158990,10 @@ If it has 2 or more +1{p} counters, the next time it hits this turn, draw a card
       "print": "MPW030-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708468",
+        "url": "https://www.tcgplayer.com/product/708468?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -161065,6 +161385,10 @@ exports[`Check for unintentional updates Driving Blade (driving-blade-red) vs sn
       "print": "MPW102",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708948",
+        "url": "https://www.tcgplayer.com/product/708948?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -163295,6 +163619,10 @@ exports[`Check for unintentional updates Duelist Gauntlets (duelist-gauntlets) v
       "print": "MPW015",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708888",
+        "url": "https://www.tcgplayer.com/product/708888?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -163306,6 +163634,10 @@ exports[`Check for unintentional updates Duelist Gauntlets (duelist-gauntlets) v
       "print": "MPW015-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708888",
+        "url": "https://www.tcgplayer.com/product/708888?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -163976,6 +164308,10 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.",
       "print": "MPW008",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703884",
+        "url": "https://www.tcgplayer.com/product/703884?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -163987,6 +164323,10 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.",
       "print": "MPW008-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703885",
+        "url": "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -164002,6 +164342,10 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.",
       "print": "MPW008-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703885",
+        "url": "https://www.tcgplayer.com/product/703885?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -164245,6 +164589,10 @@ exports[`Check for unintentional updates Dusk Path Pilgrimage (dusk-path-pilgrim
       "print": "MPW065",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708916",
+        "url": "https://www.tcgplayer.com/product/708916?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -169348,6 +169696,10 @@ exports[`Check for unintentional updates Edge Laden Plate (edge-laden-plate) vs 
       "print": "MPW014",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708887",
+        "url": "https://www.tcgplayer.com/product/708887?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -169359,6 +169711,10 @@ exports[`Check for unintentional updates Edge Laden Plate (edge-laden-plate) vs 
       "print": "MPW014-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708887",
+        "url": "https://www.tcgplayer.com/product/708887?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -170061,6 +170417,10 @@ If it has 3 or more +1{p} counters, create a Flurry token.
       "print": "MPW105",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708951",
+        "url": "https://www.tcgplayer.com/product/708951?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -170170,6 +170530,10 @@ If it has 1 or more +1{p} counters, create a Flurry token.
       "print": "MPW103",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708949",
+        "url": "https://www.tcgplayer.com/product/708949?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -170294,6 +170658,10 @@ If it has 2 or more +1{p} counters, create a Flurry token.
       "print": "MPW104",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708950",
+        "url": "https://www.tcgplayer.com/product/708950?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -180641,6 +181009,10 @@ exports[`Check for unintentional updates Energy Potion (energy-potion-blue) vs s
       "print": "MPW146",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708991",
+        "url": "https://www.tcgplayer.com/product/708991?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -181172,6 +181544,10 @@ exports[`Check for unintentional updates Engage Steel (engage-steel-blue) vs sna
       "print": "MPW108",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708954",
+        "url": "https://www.tcgplayer.com/product/708954?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -181183,6 +181559,10 @@ exports[`Check for unintentional updates Engage Steel (engage-steel-blue) vs sna
       "print": "MPW108-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708954",
+        "url": "https://www.tcgplayer.com/product/708954?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -181264,6 +181644,10 @@ exports[`Check for unintentional updates Engage Steel (engage-steel-red) vs snap
       "print": "MPW106",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708952",
+        "url": "https://www.tcgplayer.com/product/708952?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -181275,6 +181659,10 @@ exports[`Check for unintentional updates Engage Steel (engage-steel-red) vs snap
       "print": "MPW106-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708952",
+        "url": "https://www.tcgplayer.com/product/708952?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -181355,6 +181743,10 @@ exports[`Check for unintentional updates Engage Steel (engage-steel-yellow) vs s
       "print": "MPW107",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708953",
+        "url": "https://www.tcgplayer.com/product/708953?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -181366,6 +181758,10 @@ exports[`Check for unintentional updates Engage Steel (engage-steel-yellow) vs s
       "print": "MPW107-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708953",
+        "url": "https://www.tcgplayer.com/product/708953?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -218009,6 +218405,10 @@ exports[`Check for unintentional updates Flurry (flurry) vs snapshot 1`] = `
       "print": "MPW135-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708980",
+        "url": "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -218024,6 +218424,10 @@ exports[`Check for unintentional updates Flurry (flurry) vs snapshot 1`] = `
       "print": "MPW135-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708980",
+        "url": "https://www.tcgplayer.com/product/708980?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -236840,6 +237244,10 @@ exports[`Check for unintentional updates Gleam of the Blade (gleam-of-the-blade-
       "print": "MPW045",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708906",
+        "url": "https://www.tcgplayer.com/product/708906?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -236851,6 +237259,10 @@ exports[`Check for unintentional updates Gleam of the Blade (gleam-of-the-blade-
       "print": "MPW045-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708906",
+        "url": "https://www.tcgplayer.com/product/708906?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -237352,6 +237764,10 @@ exports[`Check for unintentional updates Glint the Quicksilver (glint-the-quicks
       "print": "MPW022",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708895",
+        "url": "https://www.tcgplayer.com/product/708895?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -239489,6 +239905,10 @@ exports[`Check for unintentional updates Gold (gold) vs snapshot 1`] = `
       "print": "MPW154",
       "rarity": "Basic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708998",
+        "url": "https://www.tcgplayer.com/product/708998?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [],
@@ -240641,6 +241061,10 @@ exports[`Check for unintentional updates Golden Company (golden-company-blue) vs
       "print": "AOL022",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709349",
+        "url": "https://www.tcgplayer.com/product/709349?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -241423,6 +241847,10 @@ exports[`Check for unintentional updates Golden Grail (golden-grail) vs snapshot
       "print": "AOL002-Rainbow",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709832",
+        "url": "https://www.tcgplayer.com/product/709832?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -244575,6 +245003,10 @@ exports[`Check for unintentional updates Grains of Bloodspill (grains-of-bloodsp
       "print": "MPW010-Rainbow-Alternate Art",
       "rarity": "Legendary",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708884",
+        "url": "https://www.tcgplayer.com/product/708884?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -249501,6 +249933,10 @@ exports[`Check for unintentional updates Gutshot (gutshot-blue) vs snapshot 1`] 
       "print": "MPW111",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708957",
+        "url": "https://www.tcgplayer.com/product/708957?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -249512,6 +249948,10 @@ exports[`Check for unintentional updates Gutshot (gutshot-blue) vs snapshot 1`] 
       "print": "MPW111-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708957",
+        "url": "https://www.tcgplayer.com/product/708957?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -249594,6 +250034,10 @@ exports[`Check for unintentional updates Gutshot (gutshot-red) vs snapshot 1`] =
       "print": "MPW109",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708955",
+        "url": "https://www.tcgplayer.com/product/708955?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -249605,6 +250049,10 @@ exports[`Check for unintentional updates Gutshot (gutshot-red) vs snapshot 1`] =
       "print": "MPW109-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708955",
+        "url": "https://www.tcgplayer.com/product/708955?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -249686,6 +250134,10 @@ exports[`Check for unintentional updates Gutshot (gutshot-yellow) vs snapshot 1`
       "print": "MPW110",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708956",
+        "url": "https://www.tcgplayer.com/product/708956?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -249697,6 +250149,10 @@ exports[`Check for unintentional updates Gutshot (gutshot-yellow) vs snapshot 1`
       "print": "MPW110-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708956",
+        "url": "https://www.tcgplayer.com/product/708956?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -250878,6 +251334,10 @@ exports[`Check for unintentional updates Hala, Bladesaint of the Vow (hala-blade
       "print": "MPW003",
       "rarity": "Basic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708882",
+        "url": "https://www.tcgplayer.com/product/708882?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -250889,6 +251349,10 @@ exports[`Check for unintentional updates Hala, Bladesaint of the Vow (hala-blade
       "print": "MPW003-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "709106",
+        "url": "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -250904,6 +251368,10 @@ exports[`Check for unintentional updates Hala, Bladesaint of the Vow (hala-blade
       "print": "MPW003-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "709106",
+        "url": "https://www.tcgplayer.com/product/709106?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -256667,6 +257135,10 @@ exports[`Check for unintentional updates Heads Up (heads-up-red) vs snapshot 1`]
       "print": "AOL014",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "708193",
+        "url": "https://www.tcgplayer.com/product/708193?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -257739,6 +258211,10 @@ exports[`Check for unintentional updates Heart of Bladehold (heart-of-bladehold)
       "print": "MPW018",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708891",
+        "url": "https://www.tcgplayer.com/product/708891?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -257750,6 +258226,10 @@ exports[`Check for unintentional updates Heart of Bladehold (heart-of-bladehold)
       "print": "MPW018-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708891",
+        "url": "https://www.tcgplayer.com/product/708891?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -260822,6 +261302,10 @@ exports[`Check for unintentional updates Heavy Swing (heavy-swing-red) vs snapsh
       "print": "MPW133",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708979",
+        "url": "https://www.tcgplayer.com/product/708979?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -260833,6 +261317,10 @@ exports[`Check for unintentional updates Heavy Swing (heavy-swing-red) vs snapsh
       "print": "MPW133-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708979",
+        "url": "https://www.tcgplayer.com/product/708979?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -270820,6 +271308,10 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       "print": "MPW114",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708960",
+        "url": "https://www.tcgplayer.com/product/708960?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -271016,6 +271508,10 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       "print": "MPW112",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708958",
+        "url": "https://www.tcgplayer.com/product/708958?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -271179,6 +271675,10 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
       "print": "MPW113",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708959",
+        "url": "https://www.tcgplayer.com/product/708959?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -272325,6 +272825,10 @@ exports[`Check for unintentional updates Hold 'em (hold-em-blue) vs snapshot 1`]
       "print": "AOL025",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709352",
+        "url": "https://www.tcgplayer.com/product/709352?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -272457,6 +272961,10 @@ exports[`Check for unintentional updates Hold 'em (hold-em-red) vs snapshot 1`] 
       "print": "AOL015",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709342",
+        "url": "https://www.tcgplayer.com/product/709342?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -273566,6 +274074,10 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       "print": "MPW031",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708190",
+        "url": "https://www.tcgplayer.com/product/708190?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -273577,6 +274089,10 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
       "print": "MPW031-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708190",
+        "url": "https://www.tcgplayer.com/product/708190?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -274419,6 +274935,10 @@ exports[`Check for unintentional updates Hope Merchant's Hood (hope-merchants-ho
       "print": "MPW136",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708981",
+        "url": "https://www.tcgplayer.com/product/708981?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -275215,6 +275735,10 @@ exports[`Check for unintentional updates Hot Top (hot-top) vs snapshot 1`] = `
       "print": "MPW017",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708890",
+        "url": "https://www.tcgplayer.com/product/708890?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -275226,6 +275750,10 @@ exports[`Check for unintentional updates Hot Top (hot-top) vs snapshot 1`] = `
       "print": "MPW017-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708890",
+        "url": "https://www.tcgplayer.com/product/708890?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -292414,6 +292942,10 @@ Banish a non-equipment defending card on the active chain link.",
       "print": "AOL007",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709335",
+        "url": "https://www.tcgplayer.com/product/709335?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -292424,6 +292956,10 @@ Banish a non-equipment defending card on the active chain link.",
       "print": "MPW023",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708189",
+        "url": "https://www.tcgplayer.com/product/708189?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -292435,6 +292971,10 @@ Banish a non-equipment defending card on the active chain link.",
       "print": "MPW023-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708189",
+        "url": "https://www.tcgplayer.com/product/708189?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -298603,6 +299143,10 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-re
       "print": "AOL008",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709336",
+        "url": "https://www.tcgplayer.com/product/709336?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -298613,6 +299157,10 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-re
       "print": "MPW085",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708934",
+        "url": "https://www.tcgplayer.com/product/708934?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -301503,6 +302051,10 @@ exports[`Check for unintentional updates Jive (jive-blue) vs snapshot 1`] = `
       "print": "MPW115",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708961",
+        "url": "https://www.tcgplayer.com/product/708961?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -301514,6 +302066,10 @@ exports[`Check for unintentional updates Jive (jive-blue) vs snapshot 1`] = `
       "print": "MPW115-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708961",
+        "url": "https://www.tcgplayer.com/product/708961?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -314213,6 +314769,10 @@ exports[`Check for unintentional updates Lessons Learned (lessons-learned-blue) 
       "print": "MPW036",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708898",
+        "url": "https://www.tcgplayer.com/product/708898?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -314224,6 +314784,10 @@ exports[`Check for unintentional updates Lessons Learned (lessons-learned-blue) 
       "print": "MPW036-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708898",
+        "url": "https://www.tcgplayer.com/product/708898?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -322603,6 +323167,10 @@ exports[`Check for unintentional updates Longsword Leggings (longsword-leggings)
       "print": "MPW016",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708889",
+        "url": "https://www.tcgplayer.com/product/708889?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -322614,6 +323182,10 @@ exports[`Check for unintentional updates Longsword Leggings (longsword-leggings)
       "print": "MPW016-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708889",
+        "url": "https://www.tcgplayer.com/product/708889?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -343942,6 +344514,10 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
       "print": "AOL016",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709343",
+        "url": "https://www.tcgplayer.com/product/709343?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -349326,6 +349902,10 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
       "print": "MPW116",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708962",
+        "url": "https://www.tcgplayer.com/product/708962?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -353432,6 +354012,10 @@ exports[`Check for unintentional updates Nip at the Heels (nip-at-the-heels-blue
       "print": "MPW148",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708993",
+        "url": "https://www.tcgplayer.com/product/708993?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -359629,6 +360213,10 @@ exports[`Check for unintentional updates Odds on Favorite (odds-on-favorite-blue
       "print": "AOL026",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709834",
+        "url": "https://www.tcgplayer.com/product/709834?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
@@ -359885,6 +360473,10 @@ exports[`Check for unintentional updates Off Beat (off-beat-blue) vs snapshot 1`
       "print": "MPW066",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708917",
+        "url": "https://www.tcgplayer.com/product/708917?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -359896,6 +360488,10 @@ exports[`Check for unintentional updates Off Beat (off-beat-blue) vs snapshot 1`
       "print": "MPW066-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708917",
+        "url": "https://www.tcgplayer.com/product/708917?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -360708,6 +361304,10 @@ exports[`Check for unintentional updates Olde Leather Boots (olde-leather-boots)
       "print": "MPW143",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708988",
+        "url": "https://www.tcgplayer.com/product/708988?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -360719,6 +361319,10 @@ exports[`Check for unintentional updates Olde Leather Boots (olde-leather-boots)
       "print": "MPW143-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708988",
+        "url": "https://www.tcgplayer.com/product/708988?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -360870,6 +361474,10 @@ exports[`Check for unintentional updates Olde Leather Gloves (olde-leather-glove
       "print": "MPW142",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708987",
+        "url": "https://www.tcgplayer.com/product/708987?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -360881,6 +361489,10 @@ exports[`Check for unintentional updates Olde Leather Gloves (olde-leather-glove
       "print": "MPW142-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708987",
+        "url": "https://www.tcgplayer.com/product/708987?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -361032,6 +361644,10 @@ exports[`Check for unintentional updates Olde Leather Helm (olde-leather-helm) v
       "print": "MPW140",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708985",
+        "url": "https://www.tcgplayer.com/product/708985?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -361043,6 +361659,10 @@ exports[`Check for unintentional updates Olde Leather Helm (olde-leather-helm) v
       "print": "MPW140-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708985",
+        "url": "https://www.tcgplayer.com/product/708985?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -361194,6 +361814,10 @@ exports[`Check for unintentional updates Olde Leather Plate (olde-leather-plate)
       "print": "MPW141",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708986",
+        "url": "https://www.tcgplayer.com/product/708986?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -361205,6 +361829,10 @@ exports[`Check for unintentional updates Olde Leather Plate (olde-leather-plate)
       "print": "MPW141-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708986",
+        "url": "https://www.tcgplayer.com/product/708986?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -361784,6 +362412,10 @@ exports[`Check for unintentional updates Olympia, Prized Fighter (olympia-prized
       "print": "AOL001",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709831",
+        "url": "https://www.tcgplayer.com/product/709831?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -361952,6 +362584,10 @@ exports[`Check for unintentional updates Olé (ole-blue) vs snapshot 1`] = `
       "print": "MPW046",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708907",
+        "url": "https://www.tcgplayer.com/product/708907?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -361963,6 +362599,10 @@ exports[`Check for unintentional updates Olé (ole-blue) vs snapshot 1`] = `
       "print": "MPW046-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708907",
+        "url": "https://www.tcgplayer.com/product/708907?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -369971,6 +370611,10 @@ exports[`Check for unintentional updates Overbear (overbear-red) vs snapshot 1`]
       "print": "MPW151",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708996",
+        "url": "https://www.tcgplayer.com/product/708996?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -369982,6 +370626,10 @@ exports[`Check for unintentional updates Overbear (overbear-red) vs snapshot 1`]
       "print": "MPW151-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708996",
+        "url": "https://www.tcgplayer.com/product/708996?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -373175,6 +373823,10 @@ Target weapon attack gets +X{p}, where X is twice the number of cards defending 
       "print": "MPW024",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703800",
+        "url": "https://www.tcgplayer.com/product/703800?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -373186,6 +373838,10 @@ Target weapon attack gets +X{p}, where X is twice the number of cards defending 
       "print": "MPW024-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703800",
+        "url": "https://www.tcgplayer.com/product/703800?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -375436,6 +376092,10 @@ exports[`Check for unintentional updates Paragon Plate (paragon-plate) vs snapsh
       "print": "MPW009-Cold",
       "rarity": "Legendary",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708883",
+        "url": "https://www.tcgplayer.com/product/708883?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -378368,6 +379028,10 @@ At the start of your action phase, destroy this.",
       "print": "MPW144",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708989",
+        "url": "https://www.tcgplayer.com/product/708989?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -378379,6 +379043,10 @@ At the start of your action phase, destroy this.",
       "print": "MPW144-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708989",
+        "url": "https://www.tcgplayer.com/product/708989?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -390546,6 +391214,10 @@ exports[`Check for unintentional updates Point of Escalation (point-of-escalatio
       "print": "MPW025",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708464",
+        "url": "https://www.tcgplayer.com/product/708464?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -390557,6 +391229,10 @@ exports[`Check for unintentional updates Point of Escalation (point-of-escalatio
       "print": "MPW025-Rainbow-Extended Art",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708465",
+        "url": "https://www.tcgplayer.com/product/708465?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -402275,6 +402951,10 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
       "print": "AOL003-Alternate Art",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709331",
+        "url": "https://www.tcgplayer.com/product/709331?Language=English&Printing=Normal",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -402290,6 +402970,10 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
       "print": "AOL003-Rainbow-Alternate Art-Extended Art",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709332",
+        "url": "https://www.tcgplayer.com/product/709332?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -402440,6 +403124,10 @@ exports[`Check for unintentional updates Prizeworn Gauntlet (prizeworn-gauntlet)
       "print": "AOL005-Rainbow",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709334",
+        "url": "https://www.tcgplayer.com/product/709334?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -402538,6 +403226,10 @@ exports[`Check for unintentional updates Prizeworn Pathfinders (prizeworn-pathfi
       "print": "AOL006-Rainbow",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "708191",
+        "url": "https://www.tcgplayer.com/product/708191?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -402614,6 +403306,10 @@ exports[`Check for unintentional updates Prizeworn Plating (prizeworn-plating) v
       "print": "AOL004-Rainbow",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709333",
+        "url": "https://www.tcgplayer.com/product/709333?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -410966,6 +411662,10 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
       "print": "MPW117",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708963",
+        "url": "https://www.tcgplayer.com/product/708963?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -412067,6 +412767,10 @@ exports[`Check for unintentional updates Put in Context (put-in-context-blue) vs
       "print": "MPW149",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708994",
+        "url": "https://www.tcgplayer.com/product/708994?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -416101,6 +416805,10 @@ exports[`Check for unintentional updates Quicksilver Dance (quicksilver-dance-bl
       "print": "MPW047",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "709022",
+        "url": "https://www.tcgplayer.com/product/709022?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -416112,6 +416820,10 @@ exports[`Check for unintentional updates Quicksilver Dance (quicksilver-dance-bl
       "print": "MPW047-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "709022",
+        "url": "https://www.tcgplayer.com/product/709022?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -418202,6 +418914,10 @@ Your next sword attack this turn gets +3{p}.
       "print": "MPW032",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703803",
+        "url": "https://www.tcgplayer.com/product/703803?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -418213,6 +418929,10 @@ Your next sword attack this turn gets +3{p}.
       "print": "MPW032-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703803",
+        "url": "https://www.tcgplayer.com/product/703803?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -418415,6 +419135,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       "print": "AOL027",
       "rarity": "Majestic",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709353",
+        "url": "https://www.tcgplayer.com/product/709353?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -418425,6 +419149,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       "print": "MPW033",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703883",
+        "url": "https://www.tcgplayer.com/product/703883?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -418436,6 +419164,10 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
       "print": "MPW033-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "703883",
+        "url": "https://www.tcgplayer.com/product/703883?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -431322,6 +432054,10 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
       "print": "MPW020",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708893",
+        "url": "https://www.tcgplayer.com/product/708893?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -435925,6 +436661,10 @@ At the start of your turn, destroy this and draw a card.",
       "print": "MPW067",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708918",
+        "url": "https://www.tcgplayer.com/product/708918?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -435936,6 +436676,10 @@ At the start of your turn, destroy this and draw a card.",
       "print": "MPW067-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708918",
+        "url": "https://www.tcgplayer.com/product/708918?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -436459,7 +437203,7 @@ exports[`Check for unintentional updates Restless Commander (restless-commander-
       ],
       "foiling": "Cold",
       "identifier": "JDG086",
-      "image": "JDG086-MV",
+      "image": "JDG086-CF",
       "print": "JDG086-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
@@ -436482,7 +437226,7 @@ exports[`Check for unintentional updates Restless Commander (restless-commander-
     "Armory Deck: Malice",
     "Promos",
   ],
-  "specialImage": "JDG086-MV",
+  "specialImage": "JDG086-CF",
   "subtypes": [
     "Ally",
     "Non-Attack",
@@ -475211,6 +475955,10 @@ exports[`Check for unintentional updates Second Swing (second-swing-red) vs snap
       "print": "MPW118",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708964",
+        "url": "https://www.tcgplayer.com/product/708964?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484517,6 +485265,10 @@ If it has 3 or more +1{p} counters, create a Blade Dance token.
       "print": "MPW125",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708971",
+        "url": "https://www.tcgplayer.com/product/708971?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484528,6 +485280,10 @@ If it has 3 or more +1{p} counters, create a Blade Dance token.
       "print": "MPW125-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708971",
+        "url": "https://www.tcgplayer.com/product/708971?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -484609,6 +485365,10 @@ If it has 1 or more +1{p} counters, create a Blade Dance token.
       "print": "MPW123",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708969",
+        "url": "https://www.tcgplayer.com/product/708969?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484620,6 +485380,10 @@ If it has 1 or more +1{p} counters, create a Blade Dance token.
       "print": "MPW123-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708969",
+        "url": "https://www.tcgplayer.com/product/708969?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -484700,6 +485464,10 @@ If it has 2 or more +1{p} counters, create a Blade Dance token.
       "print": "MPW124",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708970",
+        "url": "https://www.tcgplayer.com/product/708970?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484711,6 +485479,10 @@ If it has 2 or more +1{p} counters, create a Blade Dance token.
       "print": "MPW124-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708970",
+        "url": "https://www.tcgplayer.com/product/708970?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -484791,6 +485563,10 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
       "print": "MPW121",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708967",
+        "url": "https://www.tcgplayer.com/product/708967?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484802,6 +485578,10 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
       "print": "MPW121-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708967",
+        "url": "https://www.tcgplayer.com/product/708967?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -484884,6 +485664,10 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
       "print": "MPW119",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708965",
+        "url": "https://www.tcgplayer.com/product/708965?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -484895,6 +485679,10 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
       "print": "MPW119-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708965",
+        "url": "https://www.tcgplayer.com/product/708965?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -484992,6 +485780,10 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
       "print": "MPW120",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708966",
+        "url": "https://www.tcgplayer.com/product/708966?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -485003,6 +485795,10 @@ If it has 2 or more +1{p} counters, your next attack with it this turn costs {r}
       "print": "MPW120-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708966",
+        "url": "https://www.tcgplayer.com/product/708966?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -485345,6 +486141,10 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-red) vs sn
       "print": "MPW122",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708968",
+        "url": "https://www.tcgplayer.com/product/708968?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -486123,6 +486923,10 @@ exports[`Check for unintentional updates Shatter the Weakpoint (shatter-the-weak
       "print": "MPW068",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708919",
+        "url": "https://www.tcgplayer.com/product/708919?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -486134,6 +486938,10 @@ exports[`Check for unintentional updates Shatter the Weakpoint (shatter-the-weak
       "print": "MPW068-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708919",
+        "url": "https://www.tcgplayer.com/product/708919?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -488257,6 +489065,10 @@ exports[`Check for unintentional updates Shimmer of the Blade (shimmer-of-the-bl
       "print": "MPW051",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708477",
+        "url": "https://www.tcgplayer.com/product/708477?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -488268,6 +489080,10 @@ exports[`Check for unintentional updates Shimmer of the Blade (shimmer-of-the-bl
       "print": "MPW051-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708477",
+        "url": "https://www.tcgplayer.com/product/708477?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -490760,6 +491576,10 @@ exports[`Check for unintentional updates Shove Off (shove-off-blue) vs snapshot 
       "print": "AOL021",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709348",
+        "url": "https://www.tcgplayer.com/product/709348?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -491248,6 +492068,10 @@ exports[`Check for unintentional updates Showdown (showdown-blue) vs snapshot 1`
       "print": "MPW128",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708974",
+        "url": "https://www.tcgplayer.com/product/708974?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -491259,6 +492083,10 @@ exports[`Check for unintentional updates Showdown (showdown-blue) vs snapshot 1`
       "print": "MPW128-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708974",
+        "url": "https://www.tcgplayer.com/product/708974?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -491341,6 +492169,10 @@ exports[`Check for unintentional updates Showdown (showdown-red) vs snapshot 1`]
       "print": "MPW126",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708972",
+        "url": "https://www.tcgplayer.com/product/708972?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -491352,6 +492184,10 @@ exports[`Check for unintentional updates Showdown (showdown-red) vs snapshot 1`]
       "print": "MPW126-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708972",
+        "url": "https://www.tcgplayer.com/product/708972?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -491433,6 +492269,10 @@ exports[`Check for unintentional updates Showdown (showdown-yellow) vs snapshot 
       "print": "MPW127",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708973",
+        "url": "https://www.tcgplayer.com/product/708973?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -491444,6 +492284,10 @@ exports[`Check for unintentional updates Showdown (showdown-yellow) vs snapshot 
       "print": "MPW127-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708973",
+        "url": "https://www.tcgplayer.com/product/708973?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -492543,6 +493387,10 @@ exports[`Check for unintentional updates Shuck (shuck-blue) vs snapshot 1`] = `
       "print": "MPW129",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708975",
+        "url": "https://www.tcgplayer.com/product/708975?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -492554,6 +493402,10 @@ exports[`Check for unintentional updates Shuck (shuck-blue) vs snapshot 1`] = `
       "print": "MPW129-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708975",
+        "url": "https://www.tcgplayer.com/product/708975?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -500639,6 +501491,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
       "print": "MPW088",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708937",
+        "url": "https://www.tcgplayer.com/product/708937?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -500650,6 +501506,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
       "print": "MPW088-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708937",
+        "url": "https://www.tcgplayer.com/product/708937?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -500727,6 +501587,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
       "print": "MPW086",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708935",
+        "url": "https://www.tcgplayer.com/product/708935?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -500738,6 +501602,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
       "print": "MPW086-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708935",
+        "url": "https://www.tcgplayer.com/product/708935?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -500829,6 +501697,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
       "print": "MPW087",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708936",
+        "url": "https://www.tcgplayer.com/product/708936?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -500840,6 +501712,10 @@ If the weapon has been sharpened this turn, this costs {r} less to play.",
       "print": "MPW087-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708936",
+        "url": "https://www.tcgplayer.com/product/708936?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -508544,6 +509420,10 @@ exports[`Check for unintentional updates Slice Up (slice-up-red) vs snapshot 1`]
       "print": "MPW089",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708938",
+        "url": "https://www.tcgplayer.com/product/708938?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -508555,6 +509435,10 @@ exports[`Check for unintentional updates Slice Up (slice-up-red) vs snapshot 1`]
       "print": "MPW089-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708938",
+        "url": "https://www.tcgplayer.com/product/708938?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -508755,6 +509639,10 @@ Your second sword or dagger attack this turn gets +3{p}.
       "print": "MPW069",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708920",
+        "url": "https://www.tcgplayer.com/product/708920?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -510079,6 +510967,10 @@ exports[`Check for unintentional updates Small Blinder (small-blinder-blue) vs s
       "print": "MPW092",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708941",
+        "url": "https://www.tcgplayer.com/product/708941?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -510090,6 +510982,10 @@ exports[`Check for unintentional updates Small Blinder (small-blinder-blue) vs s
       "print": "MPW092-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708941",
+        "url": "https://www.tcgplayer.com/product/708941?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -510167,6 +511063,10 @@ exports[`Check for unintentional updates Small Blinder (small-blinder-red) vs sn
       "print": "MPW090",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708939",
+        "url": "https://www.tcgplayer.com/product/708939?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -510178,6 +511078,10 @@ exports[`Check for unintentional updates Small Blinder (small-blinder-red) vs sn
       "print": "MPW090-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708939",
+        "url": "https://www.tcgplayer.com/product/708939?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -510254,6 +511158,10 @@ exports[`Check for unintentional updates Small Blinder (small-blinder-yellow) vs
       "print": "MPW091",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708940",
+        "url": "https://www.tcgplayer.com/product/708940?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -510265,6 +511173,10 @@ exports[`Check for unintentional updates Small Blinder (small-blinder-yellow) vs
       "print": "MPW091-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708940",
+        "url": "https://www.tcgplayer.com/product/708940?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -536618,6 +537530,10 @@ exports[`Check for unintentional updates Starting Stake (starting-stake-yellow) 
       "print": "MPW152",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708997",
+        "url": "https://www.tcgplayer.com/product/708997?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -538750,6 +539666,10 @@ exports[`Check for unintentional updates Steel to the Dome (steel-to-the-dome-re
       "print": "MPW070",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708921",
+        "url": "https://www.tcgplayer.com/product/708921?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -538761,6 +539681,10 @@ exports[`Check for unintentional updates Steel to the Dome (steel-to-the-dome-re
       "print": "MPW070-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708921",
+        "url": "https://www.tcgplayer.com/product/708921?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -538839,6 +539763,10 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-blue
       "print": "MPW058",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708910",
+        "url": "https://www.tcgplayer.com/product/708910?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -538993,6 +539921,10 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-red)
       "print": "MPW056",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708908",
+        "url": "https://www.tcgplayer.com/product/708908?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -539162,6 +540094,10 @@ exports[`Check for unintentional updates Steelblade Shunt (steelblade-shunt-yell
       "print": "MPW057",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708909",
+        "url": "https://www.tcgplayer.com/product/708909?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -556601,6 +557537,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       "print": "MPW132",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708978",
+        "url": "https://www.tcgplayer.com/product/708978?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -556702,6 +557642,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       "print": "MPW130",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708976",
+        "url": "https://www.tcgplayer.com/product/708976?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -556801,6 +557745,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       "print": "MPW131",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708977",
+        "url": "https://www.tcgplayer.com/product/708977?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -556812,6 +557760,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       "print": "MPW131-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708977",
+        "url": "https://www.tcgplayer.com/product/708977?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -560982,6 +561934,10 @@ exports[`Check for unintentional updates Take the Lead (take-the-lead-red) vs sn
       "print": "MPW073",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708923",
+        "url": "https://www.tcgplayer.com/product/708923?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -560993,6 +561949,10 @@ exports[`Check for unintentional updates Take the Lead (take-the-lead-red) vs sn
       "print": "MPW073-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708923",
+        "url": "https://www.tcgplayer.com/product/708923?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -561158,6 +562118,10 @@ Target attack gets +1{p}.",
       "print": "MPW095",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708944",
+        "url": "https://www.tcgplayer.com/product/708944?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -561280,6 +562244,10 @@ Target attack gets +3{p}.",
       "print": "AOL009",
       "rarity": "Common",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "709337",
+        "url": "https://www.tcgplayer.com/product/709337?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -561290,6 +562258,10 @@ Target attack gets +3{p}.",
       "print": "MPW093",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708942",
+        "url": "https://www.tcgplayer.com/product/708942?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -561429,6 +562401,10 @@ Target attack gets +2{p}.",
       "print": "MPW094",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708943",
+        "url": "https://www.tcgplayer.com/product/708943?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -570267,6 +571243,10 @@ exports[`Check for unintentional updates Terms of Combat (terms-of-combat-red) v
       "print": "MPW034",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708473",
+        "url": "https://www.tcgplayer.com/product/708473?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -570278,6 +571258,10 @@ exports[`Check for unintentional updates Terms of Combat (terms-of-combat-red) v
       "print": "MPW034-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708473",
+        "url": "https://www.tcgplayer.com/product/708473?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -577295,6 +578279,10 @@ exports[`Check for unintentional updates Thwart (thwart-yellow) vs snapshot 1`] 
       "print": "MPW145",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708990",
+        "url": "https://www.tcgplayer.com/product/708990?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -577306,6 +578294,10 @@ exports[`Check for unintentional updates Thwart (thwart-yellow) vs snapshot 1`] 
       "print": "MPW145-Rainbow",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708990",
+        "url": "https://www.tcgplayer.com/product/708990?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -580122,6 +581114,10 @@ exports[`Check for unintentional updates Timesnap Potion (timesnap-potion-blue) 
       "print": "MPW147",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708992",
+        "url": "https://www.tcgplayer.com/product/708992?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -582420,6 +583416,10 @@ exports[`Check for unintentional updates Toe the Line (toe-the-line-red) vs snap
       "print": "MPW074",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708924",
+        "url": "https://www.tcgplayer.com/product/708924?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -582431,6 +583431,10 @@ exports[`Check for unintentional updates Toe the Line (toe-the-line-red) vs snap
       "print": "MPW074-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708924",
+        "url": "https://www.tcgplayer.com/product/708924?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -599248,6 +600252,10 @@ exports[`Check for unintentional updates Unsheathed (unsheathed-red) vs snapshot
       "print": "MPW035",
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708897",
+        "url": "https://www.tcgplayer.com/product/708897?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -608383,6 +609391,10 @@ exports[`Check for unintentional updates Vigilant Dodgers (vigilant-dodgers) vs 
       "print": "MPW139",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708984",
+        "url": "https://www.tcgplayer.com/product/708984?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -608394,6 +609406,10 @@ exports[`Check for unintentional updates Vigilant Dodgers (vigilant-dodgers) vs 
       "print": "MPW139-Cold",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708984",
+        "url": "https://www.tcgplayer.com/product/708984?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -613131,6 +614147,10 @@ exports[`Check for unintentional updates Visit the Dawnsmith (visit-the-dawnsmit
       "print": "MPW071",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708922",
+        "url": "https://www.tcgplayer.com/product/708922?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -613710,6 +614730,10 @@ Create a Vigor and a Courage token. **Go again**",
       "print": "AOL028",
       "rarity": "Rare",
       "set": "Armory Deck: Olympia",
+      "tcgplayer": {
+        "productId": "708192",
+        "url": "https://www.tcgplayer.com/product/708192?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
