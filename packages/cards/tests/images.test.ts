@@ -26,6 +26,40 @@ describe("All images are unique", () => {
   });
 });
 
+// The check above is cross-card only: two printings of ONE card sharing an image still map to a
+// single cardIdentifier, so a printing collapsed onto its sibling's art passes it. Cardvault serves
+// a distinct face per printing, so within a card an image belongs to exactly one printing, and a
+// shared one means a printing lost its own art (a foil showing the base image for example).
+const collapsedPrintsByCard: { [cardIdentifier: string]: string[] } = {};
+for (const { cardIdentifier, printings } of cards) {
+  const printsByImage: { [image: string]: string[] } = {};
+  for (const { image, print } of printings) {
+    if (image) {
+      const matching = printsByImage[image];
+
+      if (matching) {
+        matching.push(print);
+      } else {
+        printsByImage[image] = [print];
+      }
+    }
+  }
+
+  const collapsed: string[] = [];
+  for (const [image, prints] of Object.entries(printsByImage)) {
+    if (prints.length > 1) {
+      collapsed.push(`${image} shared by ${prints.join(", ")}`);
+    }
+  }
+  collapsedPrintsByCard[cardIdentifier] = collapsed;
+}
+
+describe("No two printings of a card share an image", () => {
+  it.each(Object.keys(collapsedPrintsByCard))("%s", (cardIdentifier) => {
+    expect(collapsedPrintsByCard[cardIdentifier]).toEqual([]);
+  });
+});
+
 describe("All cards have default and special images", () => {
   it.each(cards.map(({ cardIdentifier }) => cardIdentifier))(
     "%s",

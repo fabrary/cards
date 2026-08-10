@@ -16,7 +16,6 @@ import {
   getTraits,
   getTypeSubtypeAndMetatype,
 } from "../Shared";
-import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import {
   Class,
   Format,
@@ -50,11 +49,7 @@ const getArtists = (card: ParsedCard): string[] => {
   const allArtists = [...artists, ...(artists2 || [])]
     .filter((artist) => !!artist)
     .sort() as string[];
-  return Array.from(new Set(allArtists)).map((artist) => {
-    const correctedArtist = ARTIST_OVERRIDES[artist] || artist;
-
-    return correctedArtist.trim();
-  });
+  return Array.from(new Set(allArtists)).map((artist) => artist.trim());
 };
 
 const getClasses = (card: ParsedCard): Class[] => {

@@ -28,7 +28,6 @@ import {
   getTypeSubtypeAndMetatype,
   IGNORE_OPPOSITE_SIDES,
 } from "../Shared";
-import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
 import { ParsedCard } from "./parser";
 import {
   getDefaultPrinting,
@@ -162,10 +161,6 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
       treatments,
     });
 
-    const correctedArtists = artists.map(
-      (artist) => ARTIST_OVERRIDES[artist] || artist,
-    );
-
     const isPrintExcluded = excludedPrintings.includes(print);
 
     const tcgplayerData =
@@ -173,7 +168,7 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
 
     if (!isPrintExcluded) {
       images.push({
-        artists: correctedArtists,
+        artists,
         ...(edition ? { edition } : {}),
         ...(foiling ? { foiling } : {}),
         identifier,
@@ -273,11 +268,7 @@ const getCardData = (card: ParsedCard): PreliminaryCard => {
 
   const artists = card.artists
     .sort()
-    .flatMap((artist) => {
-      const correctedArtist = ARTIST_OVERRIDES[artist] || artist;
-
-      return correctedArtist.trim().split(" // ");
-    })
+    .flatMap((artist) => artist.trim().split(" // "))
     .sort();
 
   const setIdentifiers = [...card.setIdentifiers];
