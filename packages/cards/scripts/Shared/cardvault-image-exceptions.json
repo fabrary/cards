@@ -1,30 +1,23 @@
 {
-  "moment-maker": {
-    "GEM071": {
-      "image": "GEM071-CF",
-      "faces": ["GEM071-CF"],
-      "reason": "cardvault hosts no regular face for GEM071, only the cold-foil one; bare GEM071 403s. The plain printing correctly shares the Cold printing's image."
+  "art-of-the-dragon-blood-red": {
+    "FAB307-Cold-Extended Art": {
+      "image": "FAB307-RF",
+      "faces": [
+        "FAB307-RF"
+      ],
+      "reason": "the promo is genuinely cold foil and FAB307-RF is its image; cardvault catalogues that face rainbow-foil, which is wrong on their side. Print key stays Cold/Extended Art."
     }
   },
-  "hummingbird-call-of-adventure": {
-    "FAB094-Cold-Alternate Text": {
-      "image": "FAB094-CF",
-      "faces": ["FAB094-CF", "FAB094-CF_BACK"],
-      "reason": "both printings are Cold and cardvault has no Alternate Text face; FAB094, FAB094-AT and FAB094-AA all 403."
-    }
-  },
-  "dawnblade": {
-    "MPW156-Cold-Alternate Art-Full Art-Back": {
-      "image": "MPW156-MV_BACK",
-      "faces": ["MPW156-MV", "MPW156-MV_BACK"],
-      "reason": "cardvault has one back for MPW156, so there is no alternate-art back to point the second Full Art Back printing at."
-    }
-  },
-  "batter-to-a-pulp-red": {
-    "LGS387-Rainbow": {
-      "image": "LGS387",
-      "faces": ["LGS387", "LGS388-RF"],
-      "reason": "the only rainbow-foil face belongs to this card's other printing (LGS388-Rainbow-Extended Art); LGS387-RF 403s."
+  "inner-chi-blue": {
+    "MST000-Rainbow-Back": {
+      "image": "MST000-RF_BACK",
+      "faces": [
+        "MST000-RF",
+        "MST000-RF_BACK",
+        "MST000-CF",
+        "MST000-CF_BACK"
+      ],
+      "reason": "each of the four printings is on its own face; cardvault types this one MST000-RF_BACK regular while its own front MST000-RF is rainbow-foil and the cold back MST000-CF_BACK is cold-foil, so the finish check can never pass it. Wrong on their side."
     }
   }
 }

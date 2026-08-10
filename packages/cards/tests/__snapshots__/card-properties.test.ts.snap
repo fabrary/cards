@@ -33075,21 +33075,6 @@ exports[`Check for unintentional updates Bandana of the Blue Beyond (bandana-of-
         "url": "https://www.tcgplayer.com/product/633670?Language=English&Printing=Cold+Foil",
       },
     },
-    {
-      "artists": [
-        "Asur Misoa",
-      ],
-      "foiling": "Rainbow",
-      "identifier": "SEA179",
-      "image": "SEA179",
-      "print": "SEA179-Rainbow",
-      "rarity": "Common",
-      "set": "High Seas",
-      "tcgplayer": {
-        "productId": "633316",
-        "url": "https://www.tcgplayer.com/product/633316?Language=English&Printing=Rainbow+Foil",
-      },
-    },
   ],
   "rarities": [
     "Common",
@@ -38656,21 +38641,6 @@ exports[`Check for unintentional updates Batter to a Pulp (batter-to-a-pulp-red)
       "tcgplayer": {
         "productId": "647576",
         "url": "https://www.tcgplayer.com/product/647576?Language=English&Printing=Normal",
-      },
-    },
-    {
-      "artists": [
-        "Ausonia",
-      ],
-      "foiling": "Rainbow",
-      "identifier": "LGS387",
-      "image": "LGS387",
-      "print": "LGS387-Rainbow",
-      "rarity": "Promo",
-      "set": "Promos",
-      "tcgplayer": {
-        "productId": "647576",
-        "url": "https://www.tcgplayer.com/product/647576?Language=English&Printing=Rainbow+Foil",
       },
     },
     {
@@ -48038,6 +48008,7 @@ exports[`Check for unintentional updates Big Slick (big-slick-blue) vs snapshot 
 **Go again**",
   "keywords": [
     "Go again",
+    "Wager",
   ],
   "legalFormats": [
     "Blitz",
@@ -48137,6 +48108,7 @@ exports[`Check for unintentional updates Big Slick (big-slick-red) vs snapshot 1
 **Go again**",
   "keywords": [
     "Go again",
+    "Wager",
   ],
   "legalFormats": [
     "Blitz",
@@ -48249,11 +48221,12 @@ exports[`Check for unintentional updates Big Slick (big-slick-yellow) vs snapsho
   "defaultImage": "MPW061",
   "defense": 3,
   "firstReleaseDate": "2026-08-07",
-  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner draws a card."
+  "functionalText": "Your next sword attack this turn gets +4{p} and "When this attacks, **wager** with the defending hero. The winner draws a card."
 
 **Go again**",
   "keywords": [
     "Go again",
+    "Wager",
   ],
   "legalFormats": [
     "Blitz",
@@ -53146,7 +53119,7 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
   "classes": [
     "Warrior",
   ],
-  "defaultImage": "MPW134",
+  "defaultImage": "MPW134-MV",
   "firstReleaseDate": "2026-08-07",
   "functionalText": "When you activate a weapon attack, destroy this and the attack gets **go again**.",
   "keywords": [
@@ -53158,7 +53131,6 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
     "Golden Age",
     "Living Legend",
     "Open",
-    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -53176,16 +53148,6 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
   ],
   "name": "Blade Dance",
   "printings": [
-    {
-      "artists": [
-        "Sariya Asavametha",
-      ],
-      "identifier": "MPW134",
-      "image": "MPW134",
-      "print": "MPW134",
-      "rarity": "Basic",
-      "set": "Mastery Pack: Warrior",
-    },
     {
       "artists": [
         "Sariya Asavametha",
@@ -53226,10 +53188,9 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
     },
   ],
   "rarities": [
-    "Basic",
     "Marvel",
   ],
-  "rarity": "Basic",
+  "rarity": "Marvel",
   "setIdentifiers": [
     "MPW134",
   ],
@@ -139045,26 +139006,6 @@ At the beginning of your end phase, if this hasn't hit this turn, remove all +1{
       "foiling": "Cold",
       "identifier": "MPW156",
       "image": "MPW156-MV_BACK",
-      "print": "MPW156-Cold-Full Art-Back",
-      "rarity": "Marvel",
-      "set": "Mastery Pack: Warrior",
-      "tcgplayer": {
-        "productId": "690461",
-        "url": "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil",
-      },
-      "treatment": "Full Art",
-      "treatments": [
-        "Full Art",
-      ],
-    },
-    {
-      "artists": [
-        "Adolfo Navarro",
-        "Carlos Cruchaga",
-      ],
-      "foiling": "Cold",
-      "identifier": "MPW156",
-      "image": "MPW156-MV_BACK",
       "print": "MPW156-Cold-Alternate Art-Full Art-Back",
       "rarity": "Marvel",
       "set": "Mastery Pack: Warrior",
@@ -164446,7 +164387,7 @@ exports[`Check for unintentional updates Dusk Path Pilgrimage (dusk-path-pilgrim
   "defaultImage": "U-MON112",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "Your next weapon attack this turn gains +1{p} and "If this hits, you may attack an additional time with this weapon this turn."
+  "functionalText": "Your next weapon attack this turn gets +1{p} and "When this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**",
   "keywords": [
@@ -164792,7 +164733,7 @@ exports[`Check for unintentional updates Dusk Path Pilgrimage (dusk-path-pilgrim
   "defaultImage": "U-MON111",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "Your next weapon attack this turn gains +2{p} and "If this hits, you may attack an additional time with this weapon this turn."
+  "functionalText": "Your next weapon attack this turn gets +2{p} and "When this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**",
   "keywords": [
@@ -167573,22 +167514,6 @@ exports[`Check for unintentional updates Earthlore Bounty (earthlore-bounty) vs 
       "tcgplayer": {
         "productId": "261330",
         "url": "https://www.tcgplayer.com/product/261330?Language=English&Printing=1st+Edition+Normal",
-      },
-    },
-    {
-      "artists": [
-        "Alexander Mokhov",
-      ],
-      "edition": "First",
-      "foiling": "Cold",
-      "identifier": "EVR020",
-      "image": "EVR020",
-      "print": "EVR020-First-Cold",
-      "rarity": "Majestic",
-      "set": "Everfest",
-      "tcgplayer": {
-        "productId": "261330",
-        "url": "https://www.tcgplayer.com/product/261330?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
     {
@@ -170490,6 +170415,10 @@ If it has 3 or more +1{p} counters, create a Flurry token.
       "print": "MPW105-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708951",
+        "url": "https://www.tcgplayer.com/product/708951?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -170603,6 +170532,10 @@ If it has 1 or more +1{p} counters, create a Flurry token.
       "print": "MPW103-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708949",
+        "url": "https://www.tcgplayer.com/product/708949?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -170731,6 +170664,10 @@ If it has 2 or more +1{p} counters, create a Flurry token.
       "print": "MPW104-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708950",
+        "url": "https://www.tcgplayer.com/product/708950?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -223674,11 +223611,16 @@ exports[`Check for unintentional updates Frankie, Make Ends Meat (frankie-make-e
       "artists": [
         "soyameii",
       ],
+      "foiling": "Cold",
       "identifier": "LSS021",
       "image": "LSS021-MV",
-      "print": "LSS021",
+      "print": "LSS021-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
     },
     {
       "artists": [
@@ -223709,7 +223651,7 @@ exports[`Check for unintentional updates Frankie, Make Ends Meat (frankie-make-e
   "shorthands": [
     "Tap",
   ],
-  "specialImage": "LSS021-MV_BACK",
+  "specialImage": "LSS021-MV",
   "subtypes": [
     "Young",
   ],
@@ -249961,7 +249903,7 @@ exports[`Check for unintentional updates Gutshot (gutshot-blue) vs snapshot 1`] 
   "defaultImage": "MPW111",
   "defense": 3,
   "firstReleaseDate": "2026-08-07",
-  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
+  "functionalText": "Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
 
 **Go again**",
   "keywords": [
@@ -250162,7 +250104,7 @@ exports[`Check for unintentional updates Gutshot (gutshot-yellow) vs snapshot 1`
   "defaultImage": "MPW110",
   "defense": 3,
   "firstReleaseDate": "2026-08-07",
-  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
+  "functionalText": "Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
 
 **Go again**",
   "keywords": [
@@ -268644,7 +268586,7 @@ exports[`Check for unintentional updates Hidden Agenda (hidden-agenda) vs snapsh
   "classes": [
     "Ranger",
   ],
-  "defaultImage": "AAZ005-AA",
+  "defaultImage": "AAZ005-RF",
   "firstReleaseDate": "2024-08-02",
   "functionalText": "**Instant** - Turn a face-down arrow in your arsenal face-up: Gain {r}. At the beginning of the end phase, destroy this.
 
@@ -268678,7 +268620,7 @@ exports[`Check for unintentional updates Hidden Agenda (hidden-agenda) vs snapsh
       ],
       "foiling": "Rainbow",
       "identifier": "AAZ005",
-      "image": "AAZ005-AA",
+      "image": "AAZ005-RF",
       "print": "AAZ005-Rainbow",
       "rarity": "Majestic",
       "set": "Armory Deck: Azalea",
@@ -277461,8 +277403,8 @@ exports[`Check for unintentional updates Hummingbird, Call of Adventure (humming
       ],
       "foiling": "Cold",
       "identifier": "FAB094",
-      "image": "FAB094-CF",
-      "print": "FAB094-Cold-Alternate Text",
+      "image": "FAB094-CF_BACK",
+      "print": "FAB094-Cold-Alternate Text-Back",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
@@ -277485,7 +277427,7 @@ exports[`Check for unintentional updates Hummingbird, Call of Adventure (humming
   "sets": [
     "Promos",
   ],
-  "specialImage": "FAB094-CF",
+  "specialImage": "FAB094-CF_BACK",
   "subtypes": [
     "2H",
     "Lute",
@@ -298969,7 +298911,7 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-bl
   "defaultImage": "SDO025",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +1{p}.",
+  "functionalText": "**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gets +1{p}.",
   "keywords": [
     "Reprise",
   ],
@@ -299423,7 +299365,7 @@ exports[`Check for unintentional updates Ironsong Response (ironsong-response-ye
   "defaultImage": "U-WTR133",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +2{p}.",
+  "functionalText": "**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gets +2{p}.",
   "keywords": [
     "Reprise",
   ],
@@ -344221,20 +344163,6 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
       "artists": [
         "Jessketchin",
       ],
-      "identifier": "GEM071",
-      "image": "GEM071-CF",
-      "print": "GEM071",
-      "rarity": "Promo",
-      "set": "GEM",
-      "tcgplayer": {
-        "productId": "654116",
-        "url": "https://www.tcgplayer.com/product/654116?Language=English&Printing=Normal",
-      },
-    },
-    {
-      "artists": [
-        "Jessketchin",
-      ],
       "foiling": "Cold",
       "identifier": "GEM071",
       "image": "GEM071-CF",
@@ -379985,16 +379913,12 @@ exports[`Check for unintentional updates Peg Leg (peg-leg) vs snapshot 1`] = `
       "artists": [
         "Nailsen Ivanderlie",
       ],
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "LGS395",
       "image": "LGS395-CF",
-      "print": "LGS395-Rainbow",
+      "print": "LGS395-Cold",
       "rarity": "Promo",
       "set": "Promos",
-      "tcgplayer": {
-        "productId": "636249",
-        "url": "https://www.tcgplayer.com/product/636249?Language=English&Printing=Rainbow+Foil",
-      },
     },
   ],
   "rarities": [
@@ -380010,7 +379934,7 @@ exports[`Check for unintentional updates Peg Leg (peg-leg) vs snapshot 1`] = `
     "High Seas",
     "Promos",
   ],
-  "specialImage": "SEA129",
+  "specialImage": "LGS395-CF",
   "subtypes": [
     "Legs",
   ],
@@ -393937,21 +393861,6 @@ exports[`Check for unintentional updates Ponder (ponder) vs snapshot 1`] = `
       "tcgplayer": {
         "productId": "453352",
         "url": "https://www.tcgplayer.com/product/453352?Language=English&Printing=Normal",
-      },
-    },
-    {
-      "artists": [
-        "Henrique Lindner",
-      ],
-      "foiling": "Rainbow",
-      "identifier": "DYN244",
-      "image": "DYN244",
-      "print": "DYN244-Rainbow",
-      "rarity": "Common",
-      "set": "Dynasty",
-      "tcgplayer": {
-        "productId": "453352",
-        "url": "https://www.tcgplayer.com/product/453352?Language=English&Printing=Rainbow+Foil",
       },
     },
     {
@@ -458375,42 +458284,6 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
       "artists": [
         "Jessketchin",
       ],
-      "identifier": "FAB265",
-      "image": "FAB265-RF",
-      "print": "FAB265-Alternate Art",
-      "rarity": "Promo",
-      "set": "Promos",
-      "tcgplayer": {
-        "productId": "578826",
-        "url": "https://www.tcgplayer.com/product/578826?Language=English&Printing=Normal",
-      },
-      "treatment": "Alternate Art",
-      "treatments": [
-        "Alternate Art",
-      ],
-    },
-    {
-      "artists": [
-        "Jessketchin",
-      ],
-      "identifier": "FAB266",
-      "image": "FAB266-RF",
-      "print": "FAB266-Alternate Art",
-      "rarity": "Promo",
-      "set": "Promos",
-      "tcgplayer": {
-        "productId": "578827",
-        "url": "https://www.tcgplayer.com/product/578827?Language=English&Printing=Normal",
-      },
-      "treatment": "Alternate Art",
-      "treatments": [
-        "Alternate Art",
-      ],
-    },
-    {
-      "artists": [
-        "Jessketchin",
-      ],
       "foiling": "Cold",
       "identifier": "FAB283",
       "image": "FAB283-CF",
@@ -458439,6 +458312,44 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
       "tcgplayer": {
         "productId": "584727",
         "url": "https://www.tcgplayer.com/product/584727?Language=English&Printing=Cold+Foil",
+      },
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+      ],
+    },
+    {
+      "artists": [
+        "Jessketchin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB265",
+      "image": "FAB265-RF",
+      "print": "FAB265-Rainbow-Alternate Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "tcgplayer": {
+        "productId": "578826",
+        "url": "https://www.tcgplayer.com/product/578826?Language=English&Printing=Rainbow+Foil",
+      },
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+      ],
+    },
+    {
+      "artists": [
+        "Jessketchin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB266",
+      "image": "FAB266-RF",
+      "print": "FAB266-Rainbow-Alternate Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "tcgplayer": {
+        "productId": "578827",
+        "url": "https://www.tcgplayer.com/product/578827?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -458487,7 +458398,7 @@ exports[`Check for unintentional updates Runechant (runechant) vs snapshot 1`] =
     "Rosetta",
     "Viserai Silver Age Deck",
   ],
-  "specialImage": "FAB284-CF",
+  "specialImage": "FAB266-RF",
   "subtypes": [
     "Aura",
   ],
@@ -498277,14 +498188,15 @@ exports[`Check for unintentional updates Sigil of Solace (sigil-of-solace-red) v
       "artists": [
         "Asur Misoa",
       ],
+      "foiling": "Rainbow",
       "identifier": "FAB136",
       "image": "FAB136-RF",
-      "print": "FAB136-Alternate Art-Extended Art",
+      "print": "FAB136-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
         "productId": "512824",
-        "url": "https://www.tcgplayer.com/product/512824?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/512824?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Alternate Art",
       "treatments": [
@@ -557668,7 +557580,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       ],
       "foiling": "Rainbow",
       "identifier": "MPW132",
-      "image": "MPW132",
+      "image": "MPW132-RF",
       "print": "MPW132-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
@@ -557788,7 +557700,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       ],
       "foiling": "Rainbow",
       "identifier": "MPW130",
-      "image": "MPW130",
+      "image": "MPW130-RF",
       "print": "MPW130-Rainbow",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
@@ -562277,17 +562189,6 @@ Target attack gets +1{p}.",
       "artists": [
         "Faizal Fikri",
       ],
-      "foiling": "Rainbow",
-      "identifier": "MPW095",
-      "image": "MPW095-RF",
-      "print": "MPW095-Rainbow",
-      "rarity": "Common",
-      "set": "Mastery Pack: Warrior",
-    },
-    {
-      "artists": [
-        "Faizal Fikri",
-      ],
       "identifier": "HVY114",
       "image": "HVY114",
       "print": "HVY114",
@@ -562412,17 +562313,6 @@ Target attack gets +3{p}.",
         "productId": "708942",
         "url": "https://www.tcgplayer.com/product/708942?Language=English&Printing=Normal",
       },
-    },
-    {
-      "artists": [
-        "Faizal Fikri",
-      ],
-      "foiling": "Rainbow",
-      "identifier": "MPW093",
-      "image": "MPW093-RF",
-      "print": "MPW093-Rainbow",
-      "rarity": "Common",
-      "set": "Mastery Pack: Warrior",
     },
     {
       "artists": [
@@ -562555,17 +562445,6 @@ Target attack gets +2{p}.",
         "productId": "708943",
         "url": "https://www.tcgplayer.com/product/708943?Language=English&Printing=Normal",
       },
-    },
-    {
-      "artists": [
-        "Faizal Fikri",
-      ],
-      "foiling": "Rainbow",
-      "identifier": "MPW094",
-      "image": "MPW094-RF",
-      "print": "MPW094-Rainbow",
-      "rarity": "Common",
-      "set": "Mastery Pack: Warrior",
     },
     {
       "artists": [
@@ -572204,14 +572083,15 @@ exports[`Check for unintentional updates Test of Strength (test-of-strength-red)
       "artists": [
         "Carlos Cruchaga",
       ],
+      "foiling": "Rainbow",
       "identifier": "FAB199",
       "image": "FAB199-RF",
-      "print": "FAB199-Extended Art",
+      "print": "FAB199-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
         "productId": "531872",
-        "url": "https://www.tcgplayer.com/product/531872?Language=English&Printing=Normal",
+        "url": "https://www.tcgplayer.com/product/531872?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -600387,7 +600267,7 @@ exports[`Check for unintentional updates Unsheathed (unsheathed-red) vs snapshot
   "defaultImage": "MPW035",
   "defense": 3,
   "firstReleaseDate": "2024-09-20",
-  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**.
+  "functionalText": "Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**."
 
 **Go again**",
   "keywords": [
@@ -614343,6 +614223,10 @@ exports[`Check for unintentional updates Visit the Dawnsmith (visit-the-dawnsmit
       "print": "MPW071-Rainbow",
       "rarity": "Rare",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708922",
+        "url": "https://www.tcgplayer.com/product/708922?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -628282,7 +628166,7 @@ exports[`Check for unintentional updates Weeping Battleground (weeping-battlegro
   ],
   "cost": 0,
   "defaultImage": "PEN105",
-  "defense": 3,
+  "defense": 1,
   "firstReleaseDate": "2026-02-13",
   "functionalText": "You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",
   "legalFormats": [
@@ -628502,7 +628386,7 @@ exports[`Check for unintentional updates Weeping Battleground (weeping-battlegro
   ],
   "cost": 0,
   "defaultImage": "PEN104",
-  "defense": 3,
+  "defense": 2,
   "firstReleaseDate": "2026-02-13",
   "functionalText": "You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.",
   "legalFormats": [

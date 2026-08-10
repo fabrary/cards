@@ -9,9 +9,7 @@ import { getDefaultPrinting } from "@flesh-and-blood/types";
 import { getSpecialPrinting } from "@flesh-and-blood/types";
 
 const spoiledSetCardsFileAMA = `${__dirname}/Flesh and Blood Spoiler Card Data - AMA.csv`;
-const spoiledSetCardsFileAOL = `${__dirname}/Flesh and Blood Spoiler Card Data - AOL.csv`;
 const spoiledSetCardsFileIAR = `${__dirname}/Flesh and Blood Spoiler Card Data - IAR.csv`;
-const spoiledSetCardsFileMPW = `${__dirname}/Flesh and Blood Spoiler Card Data - MPW.csv`;
 const spoiledSetCardsFileSPW = `${__dirname}/Flesh and Blood Spoiler Card Data - SPW.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const spoiledSAGECardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
@@ -26,9 +24,9 @@ const overrideCards = mapCSV(parsedOverrideCards);
 const parsedSpoiledSetCards: ParsedCard[] = (
   [
     ...parseCSV(spoiledSetCardsFileAMA),
-    ...parseCSV(spoiledSetCardsFileAOL),
+    // ...parseCSV(spoiledSetCardsFileAOL),
     ...parseCSV(spoiledSetCardsFileIAR),
-    ...parseCSV(spoiledSetCardsFileMPW),
+    // ...parseCSV(spoiledSetCardsFileMPW),
     ...parseCSV(spoiledSetCardsFileSPW),
   ] as ParsedCard[]
 )

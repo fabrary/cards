@@ -26254,21 +26254,6 @@ If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.`,
             url: "https://www.tcgplayer.com/product/633670?Language=English&Printing=Cold+Foil"
           },
       
-    },{
-        artists: ["Asur Misoa"],
-      foiling: Foiling.Rainbow,
-      identifier: "SEA179",
-      image: "SEA179",
-      
-      
-      print: "SEA179-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.HighSeas,
-      tcgplayer: {
-            productId: "633316",
-            url: "https://www.tcgplayer.com/product/633316?Language=English&Printing=Rainbow+Foil"
-          },
-      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
@@ -30699,21 +30684,6 @@ When this hits a Guardian hero, destroy an aura token they control.`,
       tcgplayer: {
             productId: "647576",
             url: "https://www.tcgplayer.com/product/647576?Language=English&Printing=Normal"
-          },
-      
-    },{
-        artists: ["Ausonia"],
-      foiling: Foiling.Rainbow,
-      identifier: "LGS387",
-      image: "LGS387",
-      
-      
-      print: "LGS387-Rainbow",
-      rarity: Rarity.Promo,
-      set: Release.Promos,
-      tcgplayer: {
-            productId: "647576",
-            url: "https://www.tcgplayer.com/product/647576?Language=English&Printing=Rainbow+Foil"
           },
       
     },{
@@ -38257,7 +38227,7 @@ Draw a card, then discard a card.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
     meta: [Meta.Deck,Meta.Rainbow,Meta.Reprint],
@@ -38331,14 +38301,14 @@ Draw a card, then discard a card.
     cost: 3,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner draws a card."
+    functionalText: `Your next sword attack this turn gets +4{p} and "When this attacks, **wager** with the defending hero. The winner draws a card."
 
 **Go again**`,
     
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
     meta: [Meta.Deck,Meta.Rainbow],
@@ -38419,7 +38389,7 @@ Draw a card, then discard a card.
     
     
     
-    keywords: [Keyword.GoAgain],
+    keywords: [Keyword.GoAgain,Keyword.Wager],
     
     
     meta: [Meta.Deck,Meta.Rainbow],
@@ -42161,24 +42131,12 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
     artists: ["Sariya Asavametha"],
     cardIdentifier: "blade-dance",
     classes: [Class.Warrior],
-    defaultImage: "MPW134",
+    defaultImage: "MPW134-MV",
     firstReleaseDate: "2026-08-07",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Shiyana,Hero.Yorick,Hero.Zane],
     name: "Blade Dance",
     printings: [{
-        artists: ["Sariya Asavametha"],
-      
-      identifier: "MPW134",
-      image: "MPW134",
-      
-      
-      print: "MPW134",
-      rarity: Rarity.Basic,
-      set: Release.MasteryPackWarrior,
-      
-      
-    },{
         artists: ["Sariya Asavametha"],
       foiling: Foiling.Cold,
       identifier: "MPW134",
@@ -42209,8 +42167,8 @@ If Biting Gale was **fused**, the attacking hero discards a card unless they pay
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
-    rarity: Rarity.Basic,
+    rarities: [Rarity.Marvel],
+    rarity: Rarity.Marvel,
     setIdentifiers: ["MPW134"],
     sets: [Release.MasteryPackWarrior],
     specialImage: "MPW134-MV",
@@ -108932,21 +108890,6 @@ The next defense reaction card the defending hero plays this turn costs an addit
       image: "MPW156-MV_BACK",
       
       
-      print: "MPW156-Cold-Full Art-Back",
-      rarity: Rarity.Marvel,
-      set: Release.MasteryPackWarrior,
-      tcgplayer: {
-            productId: "690461",
-            url: "https://www.tcgplayer.com/product/690461?Language=English&Printing=Cold+Foil"
-          },
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Adolfo Navarro","Carlos Cruchaga"],
-      foiling: Foiling.Cold,
-      identifier: "MPW156",
-      image: "MPW156-MV_BACK",
-      
-      
       print: "MPW156-Cold-Alternate Art-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.MasteryPackWarrior,
@@ -129039,7 +128982,7 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +2{p} and "If this hits, you may attack an additional time with this weapon this turn."
+    functionalText: `Your next weapon attack this turn gets +2{p} and "When this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**`,
     
@@ -129165,7 +129108,7 @@ If this has a +1{p} counter, reaction cards get -1{d} while defending it.`,
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +1{p} and "If this hits, you may attack an additional time with this weapon this turn."
+    functionalText: `Your next weapon attack this turn gets +1{p} and "When this hits, you may attack an additional time with this weapon this turn."
 
 **Go again**`,
     
@@ -131387,21 +131330,6 @@ At the beginning of your end phase, create an Embodiment of Earth token. Then, i
       tcgplayer: {
             productId: "261330",
             url: "https://www.tcgplayer.com/product/261330?Language=English&Printing=1st+Edition+Normal"
-          },
-      
-    },{
-        artists: ["Alexander Mokhov"],
-      edition: ReleaseEdition.First,foiling: Foiling.Cold,
-      identifier: "EVR020",
-      image: "EVR020",
-      
-      
-      print: "EVR020-First-Cold",
-      rarity: Rarity.Majestic,
-      set: Release.Everfest,
-      tcgplayer: {
-            productId: "261330",
-            url: "https://www.tcgplayer.com/product/261330?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
     },{
@@ -133781,7 +133709,10 @@ When this leaves the arena, your next attack this turn gets +3{p}.`,
       print: "MPW103-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708949",
+            url: "https://www.tcgplayer.com/product/708949?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -133891,7 +133822,10 @@ If it has 1 or more +1{p} counters, create a Flurry token.
       print: "MPW104-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708950",
+            url: "https://www.tcgplayer.com/product/708950?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -133986,7 +133920,10 @@ If it has 2 or more +1{p} counters, create a Flurry token.
       print: "MPW105-Rainbow",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708951",
+            url: "https://www.tcgplayer.com/product/708951?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Bastien Jez"],
@@ -174088,16 +174025,16 @@ At the beginning of your end phase destroy Frailty.`,
     name: "Frankie, Make Ends Meat",
     printings: [{
         artists: ["soyameii"],
-      
+      foiling: Foiling.Cold,
       identifier: "LSS021",
       image: "LSS021-MV",
       
       
-      print: "LSS021",
+      print: "LSS021-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["soyameii"],
       foiling: Foiling.Cold,
@@ -174115,7 +174052,7 @@ At the beginning of your end phase destroy Frailty.`,
     rarity: Rarity.Promo,
     setIdentifiers: ["LSS021"],
     sets: [Release.Promos],
-    specialImage: "LSS021-MV_BACK",
+    specialImage: "LSS021-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Necromancer Hero - Young",
@@ -194345,7 +194282,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
+    functionalText: `Your next sword attack this turn gets +2{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
 
 **Go again**`,
     
@@ -194426,7 +194363,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
+    functionalText: `Your next sword attack this turn gets +1{p} and "When this attacks, **wager** with the defending hero. The winner creates a Blade Dance token."
 
 **Go again**`,
     
@@ -208759,7 +208696,7 @@ Whenever you attack with Hexagore, it deals damage to you equal to 6 minus the n
     artists: ["Mario Wibisono"],
     cardIdentifier: "hidden-agenda",
     classes: [Class.Ranger],
-    defaultImage: "AAZ005-AA",
+    defaultImage: "AAZ005-RF",
     firstReleaseDate: "2024-08-02",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Azalea,Hero.Lexi,Hero.Marlynn,Hero.Riptide,Hero.Taylor],
@@ -208768,7 +208705,7 @@ Whenever you attack with Hexagore, it deals damage to you equal to 6 minus the n
         artists: ["Mario Wibisono"],
       foiling: Foiling.Rainbow,
       identifier: "AAZ005",
-      image: "AAZ005-AA",
+      image: "AAZ005-RF",
       
       
       print: "AAZ005-Rainbow",
@@ -215841,10 +215778,10 @@ The next attack action card you play this turn gains +1{p}.
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
       identifier: "FAB094",
-      image: "FAB094-CF",
+      image: "FAB094-CF_BACK",
       
       
-      print: "FAB094-Cold-Alternate Text",
+      print: "FAB094-Cold-Alternate Text-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
@@ -215857,7 +215794,7 @@ The next attack action card you play this turn gains +1{p}.
     rarity: Rarity.Promo,
     setIdentifiers: ["FAB094"],
     sets: [Release.Promos],
-    specialImage: "FAB094-CF",
+    specialImage: "FAB094-CF_BACK",
     subtypes: [Subtype.TwoHanded,Subtype.Lute],
     types: [Type.Weapon],
     typeText: "Bard Weapon - Lute (2H)",
@@ -233317,7 +233254,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     cost: 0,
     defense: 3,
     
-    functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +2{p}.`,
+    functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gets +2{p}.`,
     
     
     
@@ -233486,7 +233423,7 @@ At the beginning of your end phase, if a sword has not hit this turn, destroy th
     cost: 0,
     defense: 3,
     
-    functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gains +1{p}.`,
+    functionalText: `**Reprise** - If the defending hero has defended with a card from their hand this chain link, target weapon attack gets +1{p}.`,
     
     
     
@@ -269430,21 +269367,6 @@ If you've been booed this turn, this gets +2{p}.`,
       
     },{
         artists: ["Jessketchin"],
-      
-      identifier: "GEM071",
-      image: "GEM071-CF",
-      
-      
-      print: "GEM071",
-      rarity: Rarity.Promo,
-      set: Release.GEM,
-      tcgplayer: {
-            productId: "654116",
-            url: "https://www.tcgplayer.com/product/654116?Language=English&Printing=Normal"
-          },
-      
-    },{
-        artists: ["Jessketchin"],
       foiling: Foiling.Cold,
       identifier: "GEM071",
       image: "GEM071-CF",
@@ -295757,25 +295679,22 @@ At the start of your action phase, destroy this.`,
       
     },{
         artists: ["Nailsen Ivanderlie"],
-      foiling: Foiling.Rainbow,
+      foiling: Foiling.Cold,
       identifier: "LGS395",
       image: "LGS395-CF",
       
       
-      print: "LGS395-Rainbow",
+      print: "LGS395-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      tcgplayer: {
-            productId: "636249",
-            url: "https://www.tcgplayer.com/product/636249?Language=English&Printing=Rainbow+Foil"
-          },
+      
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["LGS395","SEA129"],
     sets: [Release.HighSeas,Release.Promos],
-    specialImage: "SEA129",
+    specialImage: "LGS395-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Pirate Equipment - Legs",
@@ -306634,21 +306553,6 @@ Action cards get -1{d} while defending your Mechanologist attack action cards.`,
       tcgplayer: {
             productId: "453352",
             url: "https://www.tcgplayer.com/product/453352?Language=English&Printing=Normal"
-          },
-      
-    },{
-        artists: ["Henrique Lindner"],
-      foiling: Foiling.Rainbow,
-      identifier: "DYN244",
-      image: "DYN244",
-      
-      
-      print: "DYN244-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.Dynasty,
-      tcgplayer: {
-            productId: "453352",
-            url: "https://www.tcgplayer.com/product/453352?Language=English&Printing=Rainbow+Foil"
           },
       
     },{
@@ -355473,36 +355377,6 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
       
     },{
         artists: ["Jessketchin"],
-      
-      identifier: "FAB265",
-      image: "FAB265-RF",
-      
-      
-      print: "FAB265-Alternate Art",
-      rarity: Rarity.Promo,
-      set: Release.Promos,
-      tcgplayer: {
-            productId: "578826",
-            url: "https://www.tcgplayer.com/product/578826?Language=English&Printing=Normal"
-          },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
-    },{
-        artists: ["Jessketchin"],
-      
-      identifier: "FAB266",
-      image: "FAB266-RF",
-      
-      
-      print: "FAB266-Alternate Art",
-      rarity: Rarity.Promo,
-      set: Release.Promos,
-      tcgplayer: {
-            productId: "578827",
-            url: "https://www.tcgplayer.com/product/578827?Language=English&Printing=Normal"
-          },
-      treatment: Treatment.AA,treatments: [Treatment.AA],
-    },{
-        artists: ["Jessketchin"],
       foiling: Foiling.Cold,
       identifier: "FAB283",
       image: "FAB283-CF",
@@ -355531,12 +355405,42 @@ At the beginning of your action phase, remove a verse counter from Runeblood Inc
             url: "https://www.tcgplayer.com/product/584727?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA],
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB265",
+      image: "FAB265-RF",
+      
+      
+      print: "FAB265-Rainbow-Alternate Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      tcgplayer: {
+            productId: "578826",
+            url: "https://www.tcgplayer.com/product/578826?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.AA,treatments: [Treatment.AA],
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB266",
+      image: "FAB266-RF",
+      
+      
+      print: "FAB266-Rainbow-Alternate Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      tcgplayer: {
+            productId: "578827",
+            url: "https://www.tcgplayer.com/product/578827?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.AA,treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Basic,
     setIdentifiers: ["1HP300","ARC112","AUA028","AVS030","CRU157","DTD214","DYN191","EVR119","FAB152","FAB265","FAB266","FAB283","FAB284","FLR028","ROS162","SBA036","SVI034"],
     sets: [Release.ArcaneRising,Release.ArmoryDeckLegendsViserai,Release.AuroraBlitzDeck,Release.BriarSilverAgeDeck,Release.CrucibleOfWar,Release.DuskTillDawn,Release.Dynasty,Release.Everfest,Release.FlorianBlitzDeck,Release.HistoryPack1,Release.Promos,Release.Rosetta,Release.ViseraiSilverAgeDeck],
-    specialImage: "FAB284-CF",
+    specialImage: "FAB266-RF",
     subtypes: [Subtype.Aura],
     types: [Type.Token],
     typeText: "Runeblade Token - Aura",
@@ -386513,17 +386417,17 @@ At the beginning of your action phase, destroy this.`,
       treatment: Treatment.AB,treatments: [Treatment.AB],
     },{
         artists: ["Asur Misoa"],
-      
+      foiling: Foiling.Rainbow,
       identifier: "FAB136",
       image: "FAB136-RF",
       
       
-      print: "FAB136-Alternate Art-Extended Art",
+      print: "FAB136-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
             productId: "512824",
-            url: "https://www.tcgplayer.com/product/512824?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/512824?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },{
@@ -433110,7 +433014,7 @@ When this hits a hero, banish the top card of their deck, then look at their han
         artists: ["Wirawan Pranoto"],
       foiling: Foiling.Rainbow,
       identifier: "MPW130",
-      image: "MPW130",
+      image: "MPW130-RF",
       
       
       print: "MPW130-Rainbow",
@@ -433291,7 +433195,7 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
         artists: ["Wirawan Pranoto"],
       foiling: Foiling.Rainbow,
       identifier: "MPW132",
-      image: "MPW132",
+      image: "MPW132-RF",
       
       
       print: "MPW132-Rainbow",
@@ -436912,18 +436816,6 @@ Create a Bait token under an opponent's control.
       
     },{
         artists: ["Faizal Fikri"],
-      foiling: Foiling.Rainbow,
-      identifier: "MPW093",
-      image: "MPW093-RF",
-      
-      
-      print: "MPW093-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.MasteryPackWarrior,
-      
-      
-    },{
-        artists: ["Faizal Fikri"],
       
       identifier: "HVY112",
       image: "HVY112",
@@ -437035,18 +436927,6 @@ Target attack gets +3{p}.`,
       
     },{
         artists: ["Faizal Fikri"],
-      foiling: Foiling.Rainbow,
-      identifier: "MPW094",
-      image: "MPW094-RF",
-      
-      
-      print: "MPW094-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.MasteryPackWarrior,
-      
-      
-    },{
-        artists: ["Faizal Fikri"],
       
       identifier: "HVY113",
       image: "HVY113",
@@ -437140,18 +437020,6 @@ Target attack gets +2{p}.`,
             productId: "708944",
             url: "https://www.tcgplayer.com/product/708944?Language=English&Printing=Normal"
           },
-      
-    },{
-        artists: ["Faizal Fikri"],
-      foiling: Foiling.Rainbow,
-      identifier: "MPW095",
-      image: "MPW095-RF",
-      
-      
-      print: "MPW095-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.MasteryPackWarrior,
-      
       
     },{
         artists: ["Faizal Fikri"],
@@ -444539,17 +444407,17 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
       
     },{
         artists: ["Carlos Cruchaga"],
-      
+      foiling: Foiling.Rainbow,
       identifier: "FAB199",
       image: "FAB199-RF",
       
       
-      print: "FAB199-Extended Art",
+      print: "FAB199-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
             productId: "531872",
-            url: "https://www.tcgplayer.com/product/531872?Language=English&Printing=Normal"
+            url: "https://www.tcgplayer.com/product/531872?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -466246,7 +466114,7 @@ When this hits an ally, destroy that ally.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**.
+    functionalText: `Your next sword attack this turn gets +3{p} and "When this attacks, if its {p} is greater than twice its base, it gets **go again**."
 
 **Go again**`,
     
@@ -477122,7 +476990,10 @@ Create a Vigor token.`,
       print: "MPW071-Rainbow",
       rarity: Rarity.Rare,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708922",
+            url: "https://www.tcgplayer.com/product/708922?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Faizal Fikri"],
@@ -488016,7 +487887,7 @@ If it's **fused**, it gains **dominate**.
     arcane: 1,
     
     cost: 0,
-    defense: 3,
+    defense: 2,
     
     functionalText: `You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.`,
     
@@ -488095,7 +487966,7 @@ If it's **fused**, it gains **dominate**.
     arcane: 1,
     
     cost: 0,
-    defense: 3,
+    defense: 1,
     
     functionalText: `You may banish an aura from your graveyard. If you do, deal 1 arcane damage to target hero.`,
     

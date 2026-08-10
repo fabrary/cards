@@ -3119,16 +3119,6 @@
       "after": "LGS126-CF"
     }
   },
-  "frankie-make-ends-meat": {
-    "LSS021": {
-      "before": "LSS021",
-      "after": "LSS021-MV"
-    },
-    "LSS021-Cold-Full Art": {
-      "before": "LSS021",
-      "after": "LSS021-MV_BACK"
-    }
-  },
   "frost-hex-blue": {
     "UPR126-Cold-Alternate Text": {
       "before": "UPR126_CF",
@@ -3940,7 +3930,7 @@
   "hidden-agenda": {
     "AAZ005-Rainbow": {
       "before": "AAZ005",
-      "after": "AAZ005-AA"
+      "after": "AAZ005-RF"
     }
   },
   "hide-tanner": {
@@ -4020,10 +4010,6 @@
   "hummingbird-call-of-adventure": {
     "FAB094-Cold": {
       "before": "FAB094_A",
-      "after": "FAB094-CF"
-    },
-    "FAB094-Cold-Alternate Text": {
-      "before": "FAB094_B",
       "after": "FAB094-CF"
     }
   },
@@ -4309,10 +4295,6 @@
     "HER124-Rainbow-Alternate Art": {
       "before": "HER124",
       "after": "JA_HER124-RF"
-    },
-    "HER125-Cold-Alternate Art-Full Art": {
-      "before": "HER125",
-      "after": "JA_HER125-CF_BACK"
     },
     "HER125-Cold-Alternate Art": {
       "before": "HER125_V2",
@@ -5833,12 +5815,6 @@
       "after": "SEA193-TP"
     }
   },
-  "peg-leg": {
-    "LGS395-Rainbow": {
-      "before": "LGS395",
-      "after": "LGS395-CF"
-    }
-  },
   "pendulum-trap-yellow": {
     "LGS139-Rainbow-Extended Art": {
       "before": "LGS139",
@@ -6806,14 +6782,6 @@
       "before": "FAB152",
       "after": "FAB152-CF"
     },
-    "FAB265-Alternate Art": {
-      "before": "FAB265",
-      "after": "FAB265-RF"
-    },
-    "FAB266-Alternate Art": {
-      "before": "FAB266",
-      "after": "FAB266-RF"
-    },
     "FAB283-Cold-Alternate Art": {
       "before": "FAB283",
       "after": "FAB283-CF"
@@ -7408,10 +7376,6 @@
     }
   },
   "sigil-of-solace-red": {
-    "FAB136-Alternate Art-Extended Art": {
-      "before": "FAB136",
-      "after": "FAB136-RF"
-    },
     "FAB178-Rainbow-Alternate Art-Extended Art": {
       "before": "FAB178",
       "after": "FAB178-RF"
@@ -8127,10 +8091,6 @@
     "LSS003-Cold": {
       "before": "LSS003_A",
       "after": "LSS003-CF"
-    },
-    "LSS003-Cold-Full Art": {
-      "before": "LSS003_B",
-      "after": "LSS003-CF_BACK"
     }
   },
   "tectonic-crust": {
@@ -8281,12 +8241,6 @@
     "LGS260-Rainbow-Extended Art": {
       "before": "LGS260",
       "after": "LGS260-RF"
-    }
-  },
-  "test-of-strength-red": {
-    "FAB199-Extended Art": {
-      "before": "FAB199",
-      "after": "FAB199-RF"
     }
   },
   "test-of-vigor-red": {
@@ -9227,10 +9181,6 @@
     "LSS004-Cold": {
       "before": "LSS004_A",
       "after": "LSS004-CF"
-    },
-    "LSS004-Cold-Full Art": {
-      "before": "LSS004_B",
-      "after": "LSS004-CF_BACK"
     }
   },
   "zealous-belting-red": {

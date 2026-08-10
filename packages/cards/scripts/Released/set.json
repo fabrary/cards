@@ -315,6 +315,27 @@
         ]
     },
     {
+        "unique_id": "Gc8MTgWpCN6wJKdQqftFq",
+        "id": "ANQ",
+        "name": "Compendium of Rathe - Antiquity Pack",
+        "printings": [
+            {
+                "unique_id": "nLHMCLWr6cnfBgpFjKLWW",
+                "edition": "N",
+                "start_card_id": "ANQ000",
+                "end_card_id": "ANQ037",
+                "initial_release_date": "2026-02-13T00:00:00.000Z",
+                "out_of_print": false,
+                "card_database": "https://cardvault.fabtcg.com/products/compendium-of-rathe-antiquity-pack",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
         "unique_id": "MhBtKrkKHNK7qzhDTHBj7",
         "id": "AOL",
         "name": "Armory Deck - Olympia",
@@ -805,6 +826,27 @@
                 "card_database": null,
                 "product_page": "https://fabtcg.com/en/products/booster-set/the-hunted-blitz-deck-collection/",
                 "collectors_center": "https://fabtcg.com/en/collectors-centre/the-hunted/",
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "RWNBtLDFGTfQcPNpfGfrj",
+        "id": "CON",
+        "name": "Convention Promos",
+        "printings": [
+            {
+                "unique_id": "QcdhjPdnQr9HdMrt7fg7k",
+                "edition": "N",
+                "start_card_id": "CON001",
+                "end_card_id": "CON004",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": null,
                 "card_gallery": null,
                 "release_notes": null,
                 "set_logo": null
@@ -1415,7 +1457,7 @@
                 "unique_id": "B8Nwc79RrDqgRrqPCczFb",
                 "edition": "N",
                 "start_card_id": "LSS001",
-                "end_card_id": "LSS023",
+                "end_card_id": "LSS024",
                 "initial_release_date": null,
                 "out_of_print": false,
                 "card_database": null,
@@ -1883,6 +1925,48 @@
         ]
     },
     {
+        "unique_id": "kd7Wk96zd6Kz66nWhBwJJ",
+        "id": "SBA",
+        "name": "Silver Age Chapter 3 - Briar",
+        "printings": [
+            {
+                "unique_id": "gmnnWKnNPkbzpKMpDQFTq",
+                "edition": "N",
+                "start_card_id": "SBA001",
+                "end_card_id": "SBA036",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "PWfChPBFJPrP8mwBKctN8",
+        "id": "SBL",
+        "name": "Silver Age Chapter 3 - Boltyn",
+        "printings": [
+            {
+                "unique_id": "HG7WFD9WnQ8QTGLqNQ7p8",
+                "edition": "N",
+                "start_card_id": "SBL001",
+                "end_card_id": "SBL036",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
         "unique_id": "9HNctTgFBzmpGMqfm9htF",
         "id": "SBR",
         "name": "Silver Age Chapter 1 - Bravo, Flattering Showman",
@@ -1895,6 +1979,27 @@
                 "initial_release_date": "2026-02-13T00:00:00.000Z",
                 "out_of_print": false,
                 "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-bravo-flattering-showman/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "cGzCRBm9nbNfLJjjDrHHT",
+        "id": "SBZ",
+        "name": "Silver Age Chapter 3 - Blaze, Firemind",
+        "printings": [
+            {
+                "unique_id": "HDwnmrzzm87wNgMkgbMp8",
+                "edition": "N",
+                "start_card_id": "SBZ001",
+                "end_card_id": "SBZ033",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
                 "product_page": null,
                 "collectors_center": null,
                 "card_gallery": null,
@@ -2009,6 +2114,27 @@
         ]
     },
     {
+        "unique_id": "bwPNhzGJBHmdTFTmHdqjc",
+        "id": "SGB",
+        "name": "Silver Age Chapter 3 - Gravy Bones",
+        "printings": [
+            {
+                "unique_id": "dNbpTLTdR78TB6WMw6WgB",
+                "edition": "N",
+                "start_card_id": "SGB001",
+                "end_card_id": "SGB035",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
         "unique_id": "jzP8pqcCmfgWD7tmGNRcL",
         "id": "SIY",
         "name": "Silver Age Chapter 1 - Iyslander",
@@ -2042,6 +2168,27 @@
                 "initial_release_date": "2026-02-13T00:00:00.000Z",
                 "out_of_print": false,
                 "card_database": "https://cardvault.fabtcg.com/products/silver-age-chapter-1-kayo/",
+                "product_page": null,
+                "collectors_center": null,
+                "card_gallery": null,
+                "release_notes": null,
+                "set_logo": null
+            }
+        ]
+    },
+    {
+        "unique_id": "pkHkHrrTm66K9BCRKDfGp",
+        "id": "SLY",
+        "name": "Silver Age Chapter 3 - Lyath Goldmane",
+        "printings": [
+            {
+                "unique_id": "r7pHJ9Bw6KCtRR77rhFCL",
+                "edition": "N",
+                "start_card_id": "SLY001",
+                "end_card_id": "SLY035",
+                "initial_release_date": null,
+                "out_of_print": false,
+                "card_database": null,
                 "product_page": null,
                 "collectors_center": null,
                 "card_gallery": null,
@@ -2395,153 +2542,6 @@
                 "product_page": "https://fabtcg.com/products/booster-set/part-the-mistveil-blitz-deck-collection-en/",
                 "collectors_center": "https://fabtcg.com/en/collectors-centre/part-the-mistveil/",
                 "card_gallery": "https://fabtcg.com/resources/card-galleries/part-the-mistveil-collection-box/",
-                "release_notes": null,
-                "set_logo": null
-            }
-        ]
-    },
-    {
-        "unique_id": "kd7Wk96zd6Kz66nWhBwJJ",
-        "id": "SBA",
-        "name": "Silver Age Chapter 3 - Briar",
-        "printings": [
-            {
-                "unique_id": "gmnnWKnNPkbzpKMpDQFTq",
-                "edition": "N",
-                "start_card_id": "SBA001",
-                "end_card_id": "SBA036",
-                "initial_release_date": null,
-                "out_of_print": false,
-                "card_database": null,
-                "product_page": null,
-                "collectors_center": null,
-                "card_gallery": null,
-                "release_notes": null,
-                "set_logo": null
-            }
-        ]
-    },
-    {
-        "unique_id": "PWfChPBFJPrP8mwBKctN8",
-        "id": "SBL",
-        "name": "Silver Age Chapter 3 - Boltyn",
-        "printings": [
-            {
-                "unique_id": "HG7WFD9WnQ8QTGLqNQ7p8",
-                "edition": "N",
-                "start_card_id": "SBL001",
-                "end_card_id": "SBL036",
-                "initial_release_date": null,
-                "out_of_print": false,
-                "card_database": null,
-                "product_page": null,
-                "collectors_center": null,
-                "card_gallery": null,
-                "release_notes": null,
-                "set_logo": null
-            }
-        ]
-    },
-    {
-        "unique_id": "pkHkHrrTm66K9BCRKDfGp",
-        "id": "SLY",
-        "name": "Silver Age Chapter 3 - Lyath Goldmane",
-        "printings": [
-            {
-                "unique_id": "r7pHJ9Bw6KCtRR77rhFCL",
-                "edition": "N",
-                "start_card_id": "SLY001",
-                "end_card_id": "SLY035",
-                "initial_release_date": null,
-                "out_of_print": false,
-                "card_database": null,
-                "product_page": null,
-                "collectors_center": null,
-                "card_gallery": null,
-                "release_notes": null,
-                "set_logo": null
-            }
-        ]
-    },
-    {
-        "unique_id": "bwPNhzGJBHmdTFTmHdqjc",
-        "id": "SGB",
-        "name": "Silver Age Chapter 3 - Gravy Bones",
-        "printings": [
-            {
-                "unique_id": "dNbpTLTdR78TB6WMw6WgB",
-                "edition": "N",
-                "start_card_id": "SGB001",
-                "end_card_id": "SGB035",
-                "initial_release_date": null,
-                "out_of_print": false,
-                "card_database": null,
-                "product_page": null,
-                "collectors_center": null,
-                "card_gallery": null,
-                "release_notes": null,
-                "set_logo": null
-            }
-        ]
-    },
-    {
-        "unique_id": "cGzCRBm9nbNfLJjjDrHHT",
-        "id": "SBZ",
-        "name": "Silver Age Chapter 3 - Blaze, Firemind",
-        "printings": [
-            {
-                "unique_id": "HDwnmrzzm87wNgMkgbMp8",
-                "edition": "N",
-                "start_card_id": "SBZ001",
-                "end_card_id": "SBZ033",
-                "initial_release_date": null,
-                "out_of_print": false,
-                "card_database": null,
-                "product_page": null,
-                "collectors_center": null,
-                "card_gallery": null,
-                "release_notes": null,
-                "set_logo": null
-            }
-        ]
-    },
-    {
-        "unique_id": "RWNBtLDFGTfQcPNpfGfrj",
-        "id": "CON",
-        "name": "Convention Promos",
-        "printings": [
-            {
-                "unique_id": "QcdhjPdnQr9HdMrt7fg7k",
-                "edition": "N",
-                "start_card_id": "CON001",
-                "end_card_id": "CON004",
-                "initial_release_date": null,
-                "out_of_print": false,
-                "card_database": null,
-                "product_page": null,
-                "collectors_center": null,
-                "card_gallery": null,
-                "release_notes": null,
-                "set_logo": null
-            }
-        ]
-    },
-    {
-        "unique_id": "Gc8MTgWpCN6wJKdQqftFq",
-        "id": "ANQ",
-        "name": "Compendium of Rathe - Antiquity Pack",
-        "printings": [
-            {
-                "unique_id": "nLHMCLWr6cnfBgpFjKLWW",
-                "edition": "N",
-                "start_card_id": "ANQ000",
-                "end_card_id": "ANQ037",
-                "initial_release_date": "2026-02-13T00:00:00.000Z",
-                "out_of_print": false,
-                "card_database": "https://cardvault.fabtcg.com/products/compendium-of-rathe-antiquity-pack",
-                "product_page": null,
-                "collectors_center": null,
-                "card_gallery": null,
                 "release_notes": null,
                 "set_logo": null
             }

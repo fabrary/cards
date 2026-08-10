@@ -58,7 +58,8 @@
     "LSS",
     "MST",
     "RHI",
-    "RNR"
+    "RNR",
+    "ANQ"
   ],
   "setsToMigrate": [
     "ZEN",

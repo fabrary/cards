@@ -527,12 +527,6 @@
       "after": "EVR138-RF"
     }
   },
-  "frankie-make-ends-meat": {
-    "LSS021-Cold-Full Art": {
-      "before": "LSS021",
-      "after": "LSS021-MV_BACK"
-    }
-  },
   "gamblers-gloves": {
     "CRU179-Unlimited": {
       "before": "CRU179_Gamblers_Gloves.width-10000",
@@ -1389,12 +1383,6 @@
       "after": "LGS194-CF"
     }
   },
-  "taylor": {
-    "LSS003-Cold-Full Art": {
-      "before": "LSS003_B",
-      "after": "LSS003-CF_BACK"
-    }
-  },
   "the-librarian": {
     "PSM002": {
       "before": "PSM002_The_Librarian.width-10000",
@@ -1531,12 +1519,6 @@
     "RNR013": {
       "before": "RNR13",
       "after": "RNR013"
-    }
-  },
-  "yorick-weaver-of-tales": {
-    "LSS004-Cold-Full Art": {
-      "before": "LSS004_B",
-      "after": "LSS004-CF_BACK"
     }
   },
   "zephyr-needle": {
