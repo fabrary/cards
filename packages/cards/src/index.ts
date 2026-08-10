@@ -285918,12 +285918,36 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
     artists: ["Tommy Suhartono"],
     cardIdentifier: "otherworldly-sins-red",
     classes: [Class.Runeblade],
-    defaultImage: "JDG090-CF",
+    defaultImage: "IAR141-RF",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Otherworldly Sins",
     printings: [{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR141",
+      image: "IAR141-RF",
+      
+      
+      print: "IAR141-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "IAR141",
+      image: "IAR141",
+      
+      
+      print: "IAR141",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Tommy Suhartono"],
       foiling: Foiling.Cold,
       identifier: "JDG090",
@@ -285936,9 +285960,9 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
       
       
     },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["JDG090"],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR141","JDG090"],
     sets: [Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "JDG090-CF",
     subtypes: [Subtype.NonAttack],
@@ -285962,10 +285986,164 @@ Create a Runechant token.
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "otherworldly-sins-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR142-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Otherworldly Sins",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR142",
+      image: "IAR142-RF",
+      
+      
+      print: "IAR142-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "IAR142",
+      image: "IAR142",
+      
+      
+      print: "IAR142",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR142"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR142-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Runeblade or Shadow attack this turn gets +2{p}.
+
+Create a Runechant token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "otherworldly-sins-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR143-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Otherworldly Sins",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR143",
+      image: "IAR143-RF",
+      
+      
+      print: "IAR143-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "IAR143",
+      image: "IAR143",
+      
+      
+      print: "IAR143",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR143"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR143-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Runeblade or Shadow attack this turn gets +1{p}.
+
+Create a Runechant token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
     
     
     shorthands: [Shorthand.Buffs],
@@ -322744,7 +322922,8 @@ At the beginning of the end phase, if this defendend this turn, destroy it.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Esty Swandana"],
     cardIdentifier: "quickening-sand-blue",
     classes: [Class.Ranger],
@@ -322910,8 +323089,7 @@ The next attack you **boost** this turn gets +4{p}.
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Alief Rusdiatama"],
     cardIdentifier: "quickfire-yellow",
     classes: [Class.Mechanologist],
@@ -376317,12 +376495,48 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
     artists: ["Surya Prasetya"],
     cardIdentifier: "shadowrealm-strength-red",
     classes: [Class.Necromancer],
-    defaultImage: "JDG089-CF",
+    defaultImage: "AMA012",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Shadowrealm Strength",
     printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "AMA012",
+      image: "AMA012",
+      
+      
+      print: "AMA012",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR082",
+      image: "IAR082-RF",
+      
+      
+      print: "IAR082-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR082",
+      image: "IAR082",
+      
+      
+      print: "IAR082",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Surya Prasetya"],
       foiling: Foiling.Cold,
       identifier: "JDG089",
@@ -376335,10 +376549,10 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
       
       
     },],
-    rarities: [Rarity.Promo],
-    rarity: Rarity.Promo,
-    setIdentifiers: ["JDG089"],
-    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AMA012","IAR082","JDG089"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone],
     specialImage: "JDG089-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
@@ -376359,7 +376573,7 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
     keywords: [Keyword.GoAgain],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Reprint],
   
     
     pitch: 1,
@@ -403453,7 +403667,8 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Leo Avero"],
     cardIdentifier: "soul-bond-belief-red",
     classes: [Class.NotClassed],
@@ -403611,8 +403826,7 @@ If Sonic Boom deals damage, look at the top card of your deck. If it's a Wizard 
     talents: [Talent.Light],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Leo Avero"],
     cardIdentifier: "soul-bond-belief-blue",
     classes: [Class.NotClassed],
@@ -481799,7 +482013,8 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     talents: [Talent.Shadow],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Shen Fei"],
     cardIdentifier: "wall-breaker-yellow",
     classes: [Class.Brute],
@@ -481961,8 +482176,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     talents: [Talent.Shadow],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Sebastian Giacobino"],
     cardIdentifier: "wall-of-meat-and-muscle-red",
     classes: [Class.Brute,Class.Guardian],

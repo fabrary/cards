@@ -367009,7 +367009,7 @@ exports[`Check for unintentional updates Otherworldly Sins (otherworldly-sins-re
     "Runeblade",
   ],
   "cost": 1,
-  "defaultImage": "JDG090-CF",
+  "defaultImage": "IAR141-RF",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Your next Runeblade or Shadow attack this turn gets +3{p}.
@@ -367021,7 +367021,14 @@ Create a Runechant token.
     "Go again",
   ],
   "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -367031,10 +367038,32 @@ Create a Runechant token.
   ],
   "meta": [
     "Deck",
+    "Rainbow",
   ],
   "name": "Otherworldly Sins",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR141",
+      "image": "IAR141-RF",
+      "print": "IAR141-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Tommy Suhartono",
+      ],
+      "identifier": "IAR141",
+      "image": "IAR141",
+      "print": "IAR141",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Tommy Suhartono",
@@ -367048,10 +367077,12 @@ Create a Runechant token.
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
+    "IAR141",
     "JDG090",
   ],
   "sets": [
@@ -484755,7 +484786,7 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
     "Necromancer",
   ],
   "cost": 0,
-  "defaultImage": "JDG089-CF",
+  "defaultImage": "AMA012",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +3{p}.
@@ -484765,7 +484796,14 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
     "Go again",
   ],
   "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
     "Open",
+    "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -484773,10 +484811,42 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
   ],
   "meta": [
     "Deck",
+    "Reprint",
   ],
   "name": "Shadowrealm Strength",
   "pitch": 1,
   "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "AMA012",
+      "image": "AMA012",
+      "print": "AMA012",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR082",
+      "image": "IAR082-RF",
+      "print": "IAR082-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "IAR082",
+      "image": "IAR082",
+      "print": "IAR082",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "Surya Prasetya",
@@ -484790,13 +484860,17 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
     },
   ],
   "rarities": [
+    "Common",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
+    "AMA012",
+    "IAR082",
     "JDG089",
   ],
   "sets": [
+    "Armory Deck: Malice",
     "Promos",
     "Usurp the Shadow Throne",
   ],

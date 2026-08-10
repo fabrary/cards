@@ -1778,6 +1778,237 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
   
   },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "otherworldly-sins-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR141-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Otherworldly Sins",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR141",
+      image: "IAR141-RF",
+      
+      
+      print: "IAR141-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "IAR141",
+      image: "IAR141",
+      
+      
+      print: "IAR141",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR141","JDG090"],
+    sets: [Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "IAR141-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Runeblade or Shadow attack this turn gets +3{p}.
+
+Create a Runechant token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "otherworldly-sins-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR142-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Otherworldly Sins",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR142",
+      image: "IAR142-RF",
+      
+      
+      print: "IAR142-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "IAR142",
+      image: "IAR142",
+      
+      
+      print: "IAR142",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR142"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR142-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Runeblade or Shadow attack this turn gets +2{p}.
+
+Create a Runechant token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Tommy Suhartono"],
+    cardIdentifier: "otherworldly-sins-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR143-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Otherworldly Sins",
+    printings: [{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR143",
+      image: "IAR143-RF",
+      
+      
+      print: "IAR143-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tommy Suhartono"],
+      
+      identifier: "IAR143",
+      image: "IAR143",
+      
+      
+      print: "IAR143",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR143"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR143-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next Runeblade or Shadow attack this turn gets +1{p}.
+
+Create a Runechant token.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Thomas Ressuge"],
     cardIdentifier: "path-of-repentance",
     classes: [Class.NotClassed],
@@ -2977,6 +3208,81 @@ When this hits a hero, create a Runechant token.`,
     power: 5,
     
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "shadowrealm-strength-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR082-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Shadowrealm Strength",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR082",
+      image: "IAR082-RF",
+      
+      
+      print: "IAR082-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "IAR082",
+      image: "IAR082",
+      
+      
+      print: "IAR082",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Promo],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AMA012","IAR082","JDG089"],
+    sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone],
+    specialImage: "IAR082-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +3{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck,Meta.Reprint],
+  
+    
+    pitch: 1,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     

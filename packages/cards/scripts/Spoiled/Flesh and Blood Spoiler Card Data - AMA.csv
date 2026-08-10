@@ -22,7 +22,9 @@ AMA011,AMA,Dig for Souls,Red,1,X,,3,,,,"Shadow, Necromancer, Action",,Go again,,
 Your next zombie attack this turn gets +4{p} and ""When this hits, destroy this zombie.""
 
 **Go again**",Shadow Necromancer Action,,,No,,M,,,Diana Tanamas,,,AMA011,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA011.webp,,,,,,,,,,,,,,,,,,,
-AMA012,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA012.webp,,,,,,,,,,,,,,,,,,,
+AMA012,AMA,Shadowrealm Strength,Red,1,0,,3,,,,"Shadow, Necromancer, Action",,Go again,,,,,,"You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +3{p}.
+
+**Go again**",Shadow Necromancer Action,,,,,C,,,Surya Prasetya,,,AMA012,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA012.webp,,,,,,,,,,,,,,,,,,,
 AMA013,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA013,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA013.webp,,,,,,,,,,,,,,,,,,,
 AMA014,AMA,Restless Commander,Red,1,0,3,,3,,,"Shadow, Necromancer, Action, Zombie, Ally",,Decay,,,,,,"Zombies you control get +1{p}.
 
