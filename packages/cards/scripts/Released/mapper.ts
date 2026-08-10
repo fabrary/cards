@@ -29,7 +29,6 @@ import {
   IGNORE_OPPOSITE_SIDES,
 } from "../Shared";
 import { ARTIST_OVERRIDES } from "../Shared/artist-overrides";
-import { getCardvaultImage } from "../Shared/get-cardvault-image";
 import { ParsedCard } from "./parser";
 import {
   getDefaultPrinting,
@@ -162,8 +161,6 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
       treatment,
       treatments,
     });
-
-    image = getCardvaultImage(cardIdentifier, print, image);
 
     const correctedArtists = artists.map(
       (artist) => ARTIST_OVERRIDES[artist] || artist,

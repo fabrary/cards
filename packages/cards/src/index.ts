@@ -60648,7 +60648,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
         artists: ["Marco Wulfr"],
       edition: ReleaseEdition.First,foiling: Foiling.Cold,
       identifier: "EVR017",
-      image: "EVR017-BACK",
+      image: "EVR017-CF_BACK",
       
       
       print: "EVR017-First-Cold-Full Art-Back",
@@ -60676,7 +60676,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
     rarity: Rarity.Majestic,
     setIdentifiers: ["EVR017","WIN016"],
     sets: [Release.Everfest,Release.Promos],
-    specialImage: "EVR017-BACK",
+    specialImage: "EVR017-CF_BACK",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Elemental Guardian Hero",
@@ -186385,7 +186385,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
         artists: ["Stormy Elia Fanggidae"],
       foiling: Foiling.Rainbow,
       identifier: "SEA244",
-      image: "SEA244_V2_BACK",
+      image: "SEA244-TP_BACK",
       
       
       print: "SEA244-Rainbow-Full Art-Back",
@@ -187211,7 +187211,7 @@ If there is a yellow arrow face-up in your arsenal, create a Gold token.
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Rainbow,
       identifier: "SEA042",
-      image: "SEA042_V2_BACK",
+      image: "SEA042-TP_BACK",
       
       
       print: "SEA042-Rainbow-Full Art-Back",
@@ -260049,7 +260049,7 @@ When this hits a hero, **mark** them.`,
         artists: ["Sam Yang"],
       foiling: Foiling.Cold,
       identifier: "SEA083",
-      image: "SEA083_V2_BACK",
+      image: "SEA083-MV_BACK",
       
       
       print: "SEA083-Cold-Full Art-Back",
