@@ -34,6 +34,16 @@ const cardvaultFoilImageMap = cardvaultFoilImageMapFile as CardvaultImageMap;
 const setsToMigrate = new Set<string>(migrationManifest.setsToMigrate);
 const foilSetsToMigrate = new Set<string>(foilMigrationManifest.setsToMigrate);
 
+// Face_ids we can't serve yet, so no printing may point at one: cardvault holds art genuinely
+// different from the printing's current image (a treatment or Unlimited face), which means the S3
+// pass can't copy the bytes across and has to source them. Excluding the target rather than closing
+// the whole set lets the rest of that set migrate while these are worked through one at a time. An
+// entry leaves when its image is hosted, and the printing corrects on the next transform.
+const excludedImages = new Set<string>(migrationManifest.excludedImages);
+const foilExcludedImages = new Set<string>(
+  foilMigrationManifest.excludedImages,
+);
+
 // Set code of a face_id: drop a language (`XX_`) or edition (`U-`/`I-`/`R-`) prefix, then take the
 // set token (letters, or a digit-led token like `1HP`) before the card number.
 const getSetCode = (faceId: string): string => {
@@ -45,9 +55,9 @@ const getSetCode = (faceId: string): string => {
 };
 
 // Returns the cardvault-correct image for a printing, or the image unchanged when no map has an
-// entry for its print or its set isn't being migrated yet. The id migration wins over a foil
-// correction for the same print: its maps are audited, and each is gated by its own manifest, so a
-// correction only applies while its own migration has that set open.
+// entry for its print, its set isn't being migrated yet, or its target is excluded. The id
+// migration wins over a foil correction for the same print: its maps are audited, and each is gated
+// by its own manifest, so a correction only applies while its own migration has that set open.
 export const getCardvaultImage = (
   cardIdentifier: string,
   print: string,
@@ -60,12 +70,18 @@ export const getCardvaultImage = (
     cardvaultImageMismatchMap[cardIdentifier]?.[print];
   const foilCorrection = cardvaultFoilImageMap[cardIdentifier]?.[print];
 
-  if (correction && setsToMigrate.has(getSetCode(correction.after))) {
+  const isCorrectionApplicable =
+    !!correction &&
+    setsToMigrate.has(getSetCode(correction.after)) &&
+    !excludedImages.has(correction.after);
+  const isFoilCorrectionApplicable =
+    !!foilCorrection &&
+    foilSetsToMigrate.has(getSetCode(foilCorrection.after)) &&
+    !foilExcludedImages.has(foilCorrection.after);
+
+  if (isCorrectionApplicable) {
     correctedImage = correction.after;
-  } else if (
-    foilCorrection &&
-    foilSetsToMigrate.has(getSetCode(foilCorrection.after))
-  ) {
+  } else if (isFoilCorrectionApplicable) {
     correctedImage = foilCorrection.after;
   }
 

@@ -2108,18 +2108,6 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
       set: Release.UsurpTheShadowThrone,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Isuardi Therianto"],
-      foiling: Foiling.Cold,
-      identifier: "IAR064",
-      image: "IAR064-MV_BACK",
-      
-      
-      print: "IAR064-Cold-Full Art-Back",
-      rarity: Rarity.Marvel,
-      set: Release.UsurpTheShadowThrone,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Marvel,Rarity.Rare],
     rarity: Rarity.Rare,

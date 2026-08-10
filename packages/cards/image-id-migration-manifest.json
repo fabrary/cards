@@ -1,5 +1,6 @@
 {
   "deferredSets": [],
+  "excludedImages": [],
   "fullyMigratedSets": [
     "ZEN",
     "WTR",
