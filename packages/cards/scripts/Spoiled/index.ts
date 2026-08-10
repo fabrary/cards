@@ -13,56 +13,36 @@ const spoiledSetCardsFileIAR = `${__dirname}/Flesh and Blood Spoiler Card Data -
 const spoiledSetCardsFileSPW = `${__dirname}/Flesh and Blood Spoiler Card Data - SPW.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const spoiledSAGECardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
-const spoiledTournamentPackCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - TNP.csv`;
-const overrideCardsFile = `${__dirname}/overrides.csv`;
 
-const parsedOverrideCards = parseCSV(overrideCardsFile)
-  .filter((card) => !!card.name)
-  .filter(filterOutUnwantedCards);
-const overrideCards = mapCSV(parsedOverrideCards);
+const spoiledGEMCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - GEM.csv`;
+const spoiledTournamentPackCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - TNP.csv`;
 
 const parsedSpoiledSetCards: ParsedCard[] = (
   [
     ...parseCSV(spoiledSetCardsFileAMA),
-    // ...parseCSV(spoiledSetCardsFileAOL),
     ...parseCSV(spoiledSetCardsFileIAR),
-    // ...parseCSV(spoiledSetCardsFileMPW),
     ...parseCSV(spoiledSetCardsFileSPW),
   ] as ParsedCard[]
 )
   .filter((card) => !!card.name)
-  .filter(filterOutUnwantedCards)
-  .filter((card) => {
-    const matchingOverride = parsedOverrideCards.some(
-      (overrideCard) =>
-        card.name === overrideCard.name && card.pitch === overrideCard.pitch,
-    );
-    return !matchingOverride;
-  });
+  .filter(filterOutUnwantedCards);
 const spoiledSetCards = mapCSV(parsedSpoiledSetCards);
 
 const parsedSpoiledPromoAndGemCards = (
   [
     ...parseCSV(spoiledPromoCardsFile),
-    // ...parseCSV(spoiledGEMCardsFile),
+    ...parseCSV(spoiledGEMCardsFile),
     ...parseCSV(spoiledSAGECardsFile),
     ...parseCSV(spoiledTournamentPackCardsFile),
   ] as ParsedCard[]
 )
   .filter((card) => !!card.name)
-  .filter(filterOutUnwantedCards)
-  .filter((card) => {
-    const matchingOverride = parsedOverrideCards.some(
-      (overrideCard) =>
-        card.name === overrideCard.name && card.pitch === overrideCard.pitch,
-    );
-    return !matchingOverride;
-  });
+  .filter(filterOutUnwantedCards);
 const spoiledPromoCards: PreliminaryCard[] = mapCSV(
   parsedSpoiledPromoAndGemCards,
 );
 
-const deduplicatedCards: PreliminaryCard[] = [...overrideCards];
+const deduplicatedCards: PreliminaryCard[] = [];
 
 spoiledSetCards.forEach((card) => {
   const duplicate = deduplicatedCards.find(
