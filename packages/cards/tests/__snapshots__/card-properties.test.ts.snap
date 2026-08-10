@@ -19458,7 +19458,10 @@ Gain 1{h}",
   "pitch": 1,
   "printings": [
     {
-      "artists": [],
+      "artists": [
+        "Mark Poole",
+        "Olga Tereshenko",
+      ],
       "identifier": "SBA024",
       "image": "SBA024",
       "print": "SBA024",
@@ -21845,7 +21848,7 @@ exports[`Check for unintentional updates Arcanite Skullcap (arcanite-skullcap) v
       "set": "Promos",
       "tcgplayer": {
         "productId": "225506",
-        "url": "https://www.tcgplayer.com/product/225506?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225506?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -75701,7 +75704,7 @@ exports[`Check for unintentional updates Braveforge Bracers (braveforge-bracers)
       "set": "Promos",
       "tcgplayer": {
         "productId": "225505",
-        "url": "https://www.tcgplayer.com/product/225505?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225505?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -85454,7 +85457,10 @@ Deal 1 arcane damage to any target.",
   "pitch": 1,
   "printings": [
     {
-      "artists": [],
+      "artists": [
+        "Faizal Fikri",
+        "Olga Tereshenko",
+      ],
       "identifier": "SBA025",
       "image": "SBA025",
       "print": "SBA025",
@@ -143751,7 +143757,7 @@ exports[`Check for unintentional updates Deep Blue (deep-blue) vs snapshot 1`] =
   "defaultImage": "MPW137",
   "defense": 0,
   "firstReleaseDate": "2021-09-24",
-  "functionalText": "**Action** - Put a card from your hand on the bottom of your deck, destroy Deep Blue: Gain {r}{r}{r}. **Go again**",
+  "functionalText": "**Action** - Put a card from your hand on the bottom of your deck, destroy this: Gain {r}{r}{r}. **Go again**",
   "keywords": [
     "Go again",
   ],
@@ -160923,7 +160929,7 @@ exports[`Check for unintentional updates Drinking Buddy (drinking-buddy-red) vs 
     "Generic",
   ],
   "cost": 2,
-  "defaultImage": "LSS023-RF",
+  "defaultImage": "LSS024-CF",
   "defense": 3,
   "firstReleaseDate": "2026-06-05",
   "functionalText": "When this attacks, each hero may search their deck for an item with Potion or Brew in its name and put it into the arena. Each hero that does, shuffles their deck. If two or more heroes put a card into the arena this way, this gets **go again**.",
@@ -161032,10 +161038,10 @@ exports[`Check for unintentional updates Drinking Buddy (drinking-buddy-red) vs 
       "artists": [
         "Ismatulloh",
       ],
-      "foiling": "Rainbow",
-      "identifier": "LSS023",
-      "image": "LSS023-RF",
-      "print": "LSS023-Rainbow-Extended Art",
+      "foiling": "Cold",
+      "identifier": "LSS024",
+      "image": "LSS024-CF",
+      "print": "LSS024-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Extended Art",
@@ -161048,9 +161054,9 @@ exports[`Check for unintentional updates Drinking Buddy (drinking-buddy-red) vs 
         "Ismatulloh",
       ],
       "foiling": "Rainbow",
-      "identifier": "LSS024",
-      "image": "LSS024-CF",
-      "print": "LSS024-Rainbow-Extended Art",
+      "identifier": "LSS023",
+      "image": "LSS023-RF",
+      "print": "LSS023-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Extended Art",
@@ -173387,7 +173393,7 @@ exports[`Check for unintentional updates Elemental Strike (elemental-strike-red)
   "defaultImage": "PEN205",
   "defense": 3,
   "firstReleaseDate": "2026-02-13",
-  "functionalText": "As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets **go again**. Ice, this gets **dominate**. ",
+  "functionalText": "As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets **go again**. Ice, this gets **dominate**.",
   "keywords": [
     "Dominate",
     "Go again",
@@ -223617,7 +223623,7 @@ exports[`Check for unintentional updates Frankie, Make Ends Meat (frankie-make-e
       "foiling": "Cold",
       "identifier": "LSS021",
       "image": "LSS021-MV_BACK",
-      "print": "LSS021-Cold-Full Art",
+      "print": "LSS021-Cold-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Full Art",
@@ -230674,7 +230680,7 @@ exports[`Check for unintentional updates Fyendal's Spring Tunic (fyendals-spring
       "set": "Promos",
       "tcgplayer": {
         "productId": "225501",
-        "url": "https://www.tcgplayer.com/product/225501?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225501?Language=English&Printing=Cold+Foil",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -239911,7 +239917,9 @@ exports[`Check for unintentional updates Gold (gold) vs snapshot 1`] = `
       },
     },
     {
-      "artists": [],
+      "artists": [
+        "Stormy Elia Fanggidae",
+      ],
       "identifier": "SGB035",
       "image": "SGB035",
       "print": "SGB035",
@@ -241797,7 +241805,7 @@ exports[`Check for unintentional updates Golden Grail (golden-grail) vs snapshot
   "classes": [
     "Warrior",
   ],
-  "defaultImage": "AOL002",
+  "defaultImage": "AOL002-RF",
   "firstReleaseDate": "2026-08-07",
   "functionalText": "**Once per Turn Action** - {r}{r} or destroy a Gold you control: **Attack**. If this attack has wagered, it gets +1{p}.",
   "legalFormats": [
@@ -241827,16 +241835,6 @@ exports[`Check for unintentional updates Golden Grail (golden-grail) vs snapshot
   "name": "Golden Grail",
   "power": 3,
   "printings": [
-    {
-      "artists": [
-        "Tanapon Wachirakul",
-      ],
-      "identifier": "AOL002",
-      "image": "AOL002",
-      "print": "AOL002",
-      "rarity": "Rare",
-      "set": "Armory Deck: Olympia",
-    },
     {
       "artists": [
         "Tanapon Wachirakul",
@@ -245689,7 +245687,7 @@ exports[`Check for unintentional updates Grasp of the Arknight (grasp-of-the-ark
       "set": "Promos",
       "tcgplayer": {
         "productId": "225509",
-        "url": "https://www.tcgplayer.com/product/225509?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225509?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -271264,9 +271262,9 @@ exports[`Check for unintentional updates Hit and Run (hit-and-run-blue) vs snaps
   "defaultImage": "MPW114",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
-  "functionalText": "Your next weapon attack this turn gains **go again**.
+  "functionalText": "Your next weapon attack this turn gets **go again**.
 
-If you have attacked with a weapon this turn, your next attack this turn gains +1{p}.
+If you've attacked with a weapon this turn, your next attack this turn gets +1{p}.
 
 **Go again**",
   "keywords": [
@@ -271463,9 +271461,9 @@ exports[`Check for unintentional updates Hit and Run (hit-and-run-red) vs snapsh
   "defaultImage": "MPW112",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
-  "functionalText": "Your next weapon attack this turn gains **go again**.
+  "functionalText": "Your next weapon attack this turn gets **go again**.
 
-If you have attacked with a weapon this turn, your next attack this turn gains +3{p}.
+If you've attacked with a weapon this turn, your next attack this turn gets +3{p}.
 
 **Go again**",
   "keywords": [
@@ -271631,9 +271629,9 @@ exports[`Check for unintentional updates Hit and Run (hit-and-run-yellow) vs sna
   "defaultImage": "MPW113",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
-  "functionalText": "Your next weapon attack this turn gains **go again**.
+  "functionalText": "Your next weapon attack this turn gets **go again**.
 
-If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.
+If you've attacked with a weapon this turn, your next attack this turn gets +2{p}.
 
 **Go again**",
   "keywords": [
@@ -285876,7 +285874,7 @@ exports[`Check for unintentional updates In the Swing (in-the-swing-blue) vs sna
   "firstReleaseDate": "2022-02-04",
   "functionalText": "Play this only if you've attacked 2 or more times with weapons this turn.
 
-Target weapon attack gains +1{p}.",
+Target weapon attack gets +1{p}.",
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
@@ -285973,7 +285971,7 @@ exports[`Check for unintentional updates In the Swing (in-the-swing-red) vs snap
   "firstReleaseDate": "2022-02-04",
   "functionalText": "Play this only if you've attacked 2 or more times with weapons this turn.
 
-Target weapon attack gains +3{p}.",
+Target weapon attack gets +3{p}.",
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
@@ -286133,7 +286131,7 @@ exports[`Check for unintentional updates In the Swing (in-the-swing-yellow) vs s
   "firstReleaseDate": "2022-02-04",
   "functionalText": "Play this only if you've attacked 2 or more times with weapons this turn.
 
-Target weapon attack gains +2{p}.",
+Target weapon attack gets +2{p}.",
   "legalFormats": [
     "Blitz",
     "Classic Constructed",
@@ -295990,7 +295988,7 @@ exports[`Check for unintentional updates Ira, Scarlet Revenger (ira-scarlet-reve
       "foiling": "Cold",
       "identifier": "HER125",
       "image": "JA_HER125-CF_BACK",
-      "print": "HER125-Cold-Alternate Art-Full Art",
+      "print": "HER125-Cold-Alternate Art-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
@@ -319479,7 +319477,9 @@ exports[`Check for unintentional updates Lightning Press (lightning-press-red) v
   "pitch": 1,
   "printings": [
     {
-      "artists": [],
+      "artists": [
+        "Ekaterina Revazashvili",
+      ],
       "identifier": "SBA032",
       "image": "SBA032",
       "print": "SBA032",
@@ -333628,7 +333628,7 @@ exports[`Check for unintentional updates Mask of Momentum (mask-of-momentum) vs 
       "set": "Promos",
       "tcgplayer": {
         "productId": "225504",
-        "url": "https://www.tcgplayer.com/product/225504?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225504?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -344197,7 +344197,9 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
   "defaultImage": "HVY237",
   "defense": 2,
   "firstReleaseDate": "2024-02-02",
-  "functionalText": "Your next attack this turn gets +1{p} and "When this attacks a hero, you may **wager** a Gold token with them."",
+  "functionalText": "Your next attack this turn gets +1{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Gold token."
+
+**Go again**",
   "keywords": [
     "Go again",
     "Wager",
@@ -344394,7 +344396,9 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
   "defaultImage": "AOL016",
   "defense": 2,
   "firstReleaseDate": "2024-02-02",
-  "functionalText": "Your next attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Gold token with them."",
+  "functionalText": "Your next attack this turn gets +3{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Gold token."
+
+**Go again**",
   "keywords": [
     "Go again",
     "Wager",
@@ -344528,6 +344532,10 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
       "print": "MPW150",
       "rarity": "Common",
       "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708995",
+        "url": "https://www.tcgplayer.com/product/708995?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -344620,7 +344628,9 @@ exports[`Check for unintentional updates Money Where Ya Mouth Is (money-where-ya
   "defaultImage": "HVY236",
   "defense": 2,
   "firstReleaseDate": "2024-02-02",
-  "functionalText": "Your next attack this turn gets +2{p} and "When this attacks a hero, you may **wager** a Gold token with them."",
+  "functionalText": "Your next attack this turn gets +2{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Gold token."
+
+**Go again**",
   "keywords": [
     "Go again",
     "Wager",
@@ -349690,7 +349700,7 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
   "defaultImage": "U-WTR149",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "Your next weapon attack this turn gains +1{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
+  "functionalText": "Your next weapon attack this turn gets +1{p} and "When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**",
   "keywords": [
@@ -349857,7 +349867,7 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
   "defaultImage": "MPW116",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "Your next weapon attack this turn gains +3{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
+  "functionalText": "Your next weapon attack this turn gets +3{p} and "When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**",
   "keywords": [
@@ -350041,7 +350051,7 @@ exports[`Check for unintentional updates Nature's Path Pilgrimage (natures-path-
   "defaultImage": "U-WTR148",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "Your next weapon attack this turn gains +2{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
+  "functionalText": "Your next weapon attack this turn gets +2{p} and "When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**",
   "keywords": [
@@ -411477,9 +411487,9 @@ exports[`Check for unintentional updates Push Forward (push-forward-blue) vs sna
   "defaultImage": "U-CRU096",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
-  "functionalText": "Your next weapon attack this turn gains +1{p}.
+  "functionalText": "Your next weapon attack this turn gets +1{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
+If you've attacked with a weapon this turn, your next attack this turn gets **dominate**.
 
 **Go again**",
   "keywords": [
@@ -411616,9 +411626,9 @@ exports[`Check for unintentional updates Push Forward (push-forward-red) vs snap
   "defaultImage": "MPW117",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
-  "functionalText": "Your next weapon attack this turn gains +3{p}.
+  "functionalText": "Your next weapon attack this turn gets +3{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
+If you've attacked with a weapon this turn, your next attack this turn gets **dominate**.
 
 **Go again**",
   "keywords": [
@@ -411789,9 +411799,9 @@ exports[`Check for unintentional updates Push Forward (push-forward-yellow) vs s
   "defaultImage": "U-CRU095",
   "defense": 3,
   "firstReleaseDate": "2020-08-28",
-  "functionalText": "Your next weapon attack this turn gains +2{p}.
+  "functionalText": "Your next weapon attack this turn gets +2{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
+If you've attacked with a weapon this turn, your next attack this turn gets **dominate**.
 
 **Go again**",
   "keywords": [
@@ -467276,7 +467286,7 @@ exports[`Check for unintentional updates Scabskin Leathers (scabskin-leathers) v
       "set": "Promos",
       "tcgplayer": {
         "productId": "225502",
-        "url": "https://www.tcgplayer.com/product/225502?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225502?Language=English&Printing=Cold+Foil",
       },
     },
     {
@@ -475776,7 +475786,7 @@ exports[`Check for unintentional updates Second Swing (second-swing-blue) vs sna
   "defaultImage": "U-MON118",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.
+  "functionalText": "If you've attacked with a weapon this turn, your next attack this turn gets +2{p}.
 
 **Go again**",
   "keywords": [
@@ -475910,7 +475920,7 @@ exports[`Check for unintentional updates Second Swing (second-swing-red) vs snap
   "defaultImage": "MPW118",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "If you have attacked with a weapon this turn, your next attack this turn gains +4{p}.
+  "functionalText": "If you've attacked with a weapon this turn, your next attack this turn gets +4{p}.
 
 **Go again**",
   "keywords": [
@@ -476078,7 +476088,7 @@ exports[`Check for unintentional updates Second Swing (second-swing-yellow) vs s
   "defaultImage": "U-MON117",
   "defense": 3,
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "If you have attacked with a weapon this turn, your next attack this turn gains +3{p}.
+  "functionalText": "If you've attacked with a weapon this turn, your next attack this turn gets +3{p}.
 
 **Go again**",
   "keywords": [
@@ -485945,7 +485955,7 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-blue) vs s
   "defaultImage": "U-WTR143",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "Your next weapon attack this turn gains +1{p}.
+  "functionalText": "Your next weapon attack this turn gets +1{p}.
 
 **Go again**",
   "keywords": [
@@ -486096,7 +486106,7 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-red) vs sn
   "defaultImage": "MPW122",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "Your next weapon attack this turn gains +3{p}.
+  "functionalText": "Your next weapon attack this turn gets +3{p}.
 
 **Go again**",
   "keywords": [
@@ -486296,7 +486306,7 @@ exports[`Check for unintentional updates Sharpen Steel (sharpen-steel-yellow) vs
   "defaultImage": "U-WTR142",
   "defense": 3,
   "firstReleaseDate": "2019-10-11",
-  "functionalText": "Your next weapon attack this turn gains +2{p}.
+  "functionalText": "Your next weapon attack this turn gets +2{p}.
 
 **Go again**",
   "keywords": [
@@ -486568,8 +486578,8 @@ exports[`Check for unintentional updates Sharpening Sparks (sharpening-sparks-re
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
       "tcgplayer": {
-        "productId": "690444",
-        "url": "https://www.tcgplayer.com/product/690444?Language=English&Printing=Normal",
+        "productId": "710569",
+        "url": "https://www.tcgplayer.com/product/710569?Language=English&Printing=Normal",
       },
     },
     {
@@ -506419,7 +506429,7 @@ exports[`Check for unintentional updates Skullbone Crosswrap (skullbone-crosswra
       "set": "Promos",
       "tcgplayer": {
         "productId": "225508",
-        "url": "https://www.tcgplayer.com/product/225508?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225508?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -509473,10 +509483,9 @@ exports[`Check for unintentional updates Slice and Dice (slice-and-dice-blue) vs
   "defaultImage": "EVR059",
   "defense": 3,
   "firstReleaseDate": "2022-02-04",
-  "functionalText": "Whenever you attack with a sword or dagger this turn;
+  "functionalText": "Your first sword or dagger attack this turn gets +1{p}.
 
-- If it's your first weapon attack this turn, it gains +1{p}.
-- If it's your second weapon attack this turn, it gains +1{p}.
+Your second sword or dagger attack this turn gets +1{p}.
 
 **Go again**",
   "keywords": [
@@ -509732,10 +509741,9 @@ exports[`Check for unintentional updates Slice and Dice (slice-and-dice-yellow) 
   "defaultImage": "DVR018",
   "defense": 3,
   "firstReleaseDate": "2022-02-04",
-  "functionalText": "Whenever you attack with a sword or dagger this turn;
+  "functionalText": "Your first sword or dagger attack this turn gets +1{p}.
 
-- If it's your first weapon attack this turn, it gains +1{p}.
-- If it's your second weapon attack this turn, it gains +2{p}.
+Your second sword or dagger attack this turn gets +2{p}.
 
 **Go again**",
   "keywords": [
@@ -535986,8 +535994,8 @@ exports[`Check for unintentional updates Stand Tall (stand-tall-yellow) vs snaps
       "rarity": "Majestic",
       "set": "Mastery Pack: Warrior",
       "tcgplayer": {
-        "productId": "690445",
-        "url": "https://www.tcgplayer.com/product/690445?Language=English&Printing=Rainbow+Foil",
+        "productId": "710573",
+        "url": "https://www.tcgplayer.com/product/710573?Language=English&Printing=Rainbow+Foil",
       },
       "treatment": "Extended Art",
       "treatments": [
@@ -544439,7 +544447,7 @@ exports[`Check for unintentional updates Storm Striders (storm-striders) vs snap
       "set": "Promos",
       "tcgplayer": {
         "productId": "225510",
-        "url": "https://www.tcgplayer.com/product/225510?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225510?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -557546,6 +557554,21 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       "artists": [
         "Wirawan Pranoto",
       ],
+      "foiling": "Rainbow",
+      "identifier": "MPW132",
+      "image": "MPW132",
+      "print": "MPW132-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708978",
+        "url": "https://www.tcgplayer.com/product/708978?Language=English&Printing=Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
       "identifier": "AHA025",
       "image": "AHA025",
       "print": "AHA025",
@@ -557645,6 +557668,21 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       "tcgplayer": {
         "productId": "708976",
         "url": "https://www.tcgplayer.com/product/708976?Language=English&Printing=Normal",
+      },
+    },
+    {
+      "artists": [
+        "Wirawan Pranoto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "MPW130",
+      "image": "MPW130",
+      "print": "MPW130-Rainbow",
+      "rarity": "Common",
+      "set": "Mastery Pack: Warrior",
+      "tcgplayer": {
+        "productId": "708976",
+        "url": "https://www.tcgplayer.com/product/708976?Language=English&Printing=Rainbow+Foil",
       },
     },
     {
@@ -565195,7 +565233,7 @@ At the start of your turn, you may banish an equipment you control. If you do, e
       "foiling": "Cold",
       "identifier": "LSS003",
       "image": "LSS003-CF_BACK",
-      "print": "LSS003-Cold-Full Art",
+      "print": "LSS003-Cold-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
       "treatment": "Full Art",
@@ -566338,7 +566376,7 @@ exports[`Check for unintentional updates Tectonic Plating (tectonic-plating) vs 
       "set": "Promos",
       "tcgplayer": {
         "productId": "225503",
-        "url": "https://www.tcgplayer.com/product/225503?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225503?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -567489,7 +567527,7 @@ exports[`Check for unintentional updates Teklo Foundry Heart (teklo-foundry-hear
       "set": "Promos",
       "tcgplayer": {
         "productId": "225507",
-        "url": "https://www.tcgplayer.com/product/225507?Language=English&Printing=1st+Edition+Cold+Foil",
+        "url": "https://www.tcgplayer.com/product/225507?Language=English&Printing=Cold+Foil",
       },
     },
   ],
@@ -585436,6 +585474,21 @@ exports[`Check for unintentional updates Tooth of the Dragon (tooth-of-the-drago
       "tcgplayer": {
         "productId": "612647",
         "url": "https://www.tcgplayer.com/product/612647?Language=English&Printing=Normal",
+      },
+    },
+    {
+      "artists": [
+        "YDZ",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HNT166",
+      "image": "HNT166",
+      "print": "HNT166-Rainbow",
+      "rarity": "Common",
+      "set": "The Hunted",
+      "tcgplayer": {
+        "productId": "612647",
+        "url": "https://www.tcgplayer.com/product/612647?Language=English&Printing=Rainbow+Foil",
       },
     },
     {
@@ -639921,7 +639974,7 @@ exports[`Check for unintentional updates Yorick, Weaver of Tales (yorick-weaver-
       "foiling": "Cold",
       "identifier": "LSS004",
       "image": "LSS004-CF_BACK",
-      "print": "LSS004-Cold-Full Art",
+      "print": "LSS004-Cold-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {

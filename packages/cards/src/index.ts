@@ -15271,7 +15271,7 @@ If you've been dealt arcane damage this turn, instead gain 2{h}.`,
     legalHeroes: [Hero.Briar,Hero.Florian],
     name: "Arcane Seeds // Life",
     printings: [{
-        artists: [],
+        artists: ["Mark Poole","Olga Tereshenko"],
       
       identifier: "SBA024",
       image: "SBA024",
@@ -17165,7 +17165,7 @@ When you attack with Arcanic Shockwave, if it was **fused**, deal 1 arcane damag
       set: Release.Promos,
       tcgplayer: {
             productId: "225506",
-            url: "https://www.tcgplayer.com/product/225506?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225506?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -60083,7 +60083,7 @@ If Bramble Spark was **fused**, the next attack action card you play this turn g
       set: Release.Promos,
       tcgplayer: {
             productId: "225505",
-            url: "https://www.tcgplayer.com/product/225505?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225505?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -67534,7 +67534,7 @@ At the beginning of your end phase, put a raze counter on Burn Them All then des
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar],
     name: "Burn Up // Shock",
     printings: [{
-        artists: [],
+        artists: ["Faizal Fikri","Olga Tereshenko"],
       
       identifier: "SBA025",
       image: "SBA025",
@@ -112954,7 +112954,7 @@ The first time this is defended by a non-equipment card each turn, halve the bas
     
     defense: 0,
     
-    functionalText: `**Action** - Put a card from your hand on the bottom of your deck, destroy Deep Blue: Gain {r}{r}{r}. **Go again**`,
+    functionalText: `**Action** - Put a card from your hand on the bottom of your deck, destroy this: Gain {r}{r}{r}. **Go again**`,
     
     
     
@@ -126159,19 +126159,19 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     artists: ["Ismatulloh"],
     cardIdentifier: "drinking-buddy-red",
     classes: [Class.Generic],
-    defaultImage: "LSS023-RF",
+    defaultImage: "LSS024-CF",
     firstReleaseDate: "2026-06-05",
     legalFormats: [Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Drinking Buddy",
     printings: [{
         artists: ["Ismatulloh"],
-      foiling: Foiling.Rainbow,
-      identifier: "LSS023",
-      image: "LSS023-RF",
+      foiling: Foiling.Cold,
+      identifier: "LSS024",
+      image: "LSS024-CF",
       
       
-      print: "LSS023-Rainbow-Extended Art",
+      print: "LSS024-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
@@ -126179,11 +126179,11 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     },{
         artists: ["Ismatulloh"],
       foiling: Foiling.Rainbow,
-      identifier: "LSS024",
-      image: "LSS024-CF",
+      identifier: "LSS023",
+      image: "LSS023-RF",
       
       
-      print: "LSS024-Rainbow-Extended Art",
+      print: "LSS023-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
@@ -136069,7 +136069,7 @@ The first time this deals damage to a hero, you may put an instant card from you
     cost: 0,
     defense: 3,
     
-    functionalText: `As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets **go again**. Ice, this gets **dominate**. `,
+    functionalText: `As an additional cost to play this, banish a card from your hand. If it's Earth, this gets +2{p}. Lightning, this gets **go again**. Ice, this gets **dominate**.`,
     
     
     
@@ -174057,7 +174057,7 @@ At the beginning of your end phase destroy Frailty.`,
       image: "LSS021-MV_BACK",
       
       
-      print: "LSS021-Cold-Full Art",
+      print: "LSS021-Cold-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
@@ -179090,7 +179090,7 @@ Create a Runechant token.
       set: Release.Promos,
       tcgplayer: {
             productId: "225501",
-            url: "https://www.tcgplayer.com/product/225501?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225501?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
@@ -186325,7 +186325,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
           },
       
     },{
-        artists: [],
+        artists: ["Stormy Elia Fanggidae"],
       
       identifier: "SGB035",
       image: "SGB035",
@@ -187942,24 +187942,12 @@ When this defends together with 2 or more yellow cards, create a Gold token.
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "golden-grail",
     classes: [Class.Warrior],
-    defaultImage: "AOL002",
+    defaultImage: "AOL002-RF",
     firstReleaseDate: "2026-08-07",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Zane],
     name: "Golden Grail",
     printings: [{
-        artists: ["Tanapon Wachirakul"],
-      
-      identifier: "AOL002",
-      image: "AOL002",
-      
-      
-      print: "AOL002",
-      rarity: Rarity.Rare,
-      set: Release.ArmoryDeckOlympia,
-      
-      
-    },{
         artists: ["Tanapon Wachirakul"],
       foiling: Foiling.Rainbow,
       identifier: "AOL002",
@@ -190806,7 +190794,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225509",
-            url: "https://www.tcgplayer.com/product/225509?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225509?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -210841,9 +210829,9 @@ If you've pitched a blue card this turn, create a Slither in your hand.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains **go again**.
+    functionalText: `Your next weapon attack this turn gets **go again**.
 
-If you have attacked with a weapon this turn, your next attack this turn gains +3{p}.
+If you've attacked with a weapon this turn, your next attack this turn gets +3{p}.
 
 **Go again**`,
     
@@ -210984,9 +210972,9 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains **go again**.
+    functionalText: `Your next weapon attack this turn gets **go again**.
 
-If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.
+If you've attacked with a weapon this turn, your next attack this turn gets +2{p}.
 
 **Go again**`,
     
@@ -211157,9 +211145,9 @@ If you have attacked with a weapon this turn, your next attack this turn gains +
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains **go again**.
+    functionalText: `Your next weapon attack this turn gets **go again**.
 
-If you have attacked with a weapon this turn, your next attack this turn gains +1{p}.
+If you've attacked with a weapon this turn, your next attack this turn gets +1{p}.
 
 **Go again**`,
     
@@ -222804,7 +222792,7 @@ When this enters or leaves the arena, draw a card.`,
     
     functionalText: `Play this only if you've attacked 2 or more times with weapons this turn.
 
-Target weapon attack gains +3{p}.`,
+Target weapon attack gets +3{p}.`,
     
     
     
@@ -222885,7 +222873,7 @@ Target weapon attack gains +3{p}.`,
     
     functionalText: `Play this only if you've attacked 2 or more times with weapons this turn.
 
-Target weapon attack gains +2{p}.`,
+Target weapon attack gets +2{p}.`,
     
     
     
@@ -222966,7 +222954,7 @@ Target weapon attack gains +2{p}.`,
     
     functionalText: `Play this only if you've attacked 2 or more times with weapons this turn.
 
-Target weapon attack gains +1{p}.`,
+Target weapon attack gets +1{p}.`,
     
     
     
@@ -230923,7 +230911,7 @@ Banish up to 2 cards in an opposing hero's graveyard. If an attack action card a
       image: "JA_HER125-CF_BACK",
       
       
-      print: "HER125-Cold-Alternate Art-Full Art",
+      print: "HER125-Cold-Alternate Art-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
@@ -249053,7 +249041,7 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Broscilio,Hero.Lexi,Hero.Oscilio,Hero.Starvo,Hero.Zyggy],
     name: "Lightning Press",
     printings: [{
-        artists: [],
+        artists: ["Ekaterina Revazashvili"],
       
       identifier: "SBA032",
       image: "SBA032",
@@ -260611,7 +260599,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       set: Release.Promos,
       tcgplayer: {
             productId: "225504",
-            url: "https://www.tcgplayer.com/product/225504?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225504?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -269714,7 +269702,10 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
       print: "MPW150",
       rarity: Rarity.Common,
       set: Release.MasteryPackWarrior,
-      
+      tcgplayer: {
+            productId: "708995",
+            url: "https://www.tcgplayer.com/product/708995?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Athiwut B."],
@@ -269776,7 +269767,9 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     cost: 1,
     defense: 2,
     
-    functionalText: `Your next attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Gold token with them."`,
+    functionalText: `Your next attack this turn gets +3{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Gold token."
+
+**Go again**`,
     
     
     
@@ -269870,7 +269863,9 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     cost: 1,
     defense: 2,
     
-    functionalText: `Your next attack this turn gets +2{p} and "When this attacks a hero, you may **wager** a Gold token with them."`,
+    functionalText: `Your next attack this turn gets +2{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Gold token."
+
+**Go again**`,
     
     
     
@@ -269964,7 +269959,9 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
     cost: 1,
     defense: 2,
     
-    functionalText: `Your next attack this turn gets +1{p} and "When this attacks a hero, you may **wager** a Gold token with them."`,
+    functionalText: `Your next attack this turn gets +1{p} and "When this attacks a hero, you may **wager** with them. The winner creates a Gold token."
+
+**Go again**`,
     
     
     
@@ -273453,7 +273450,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +3{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
+    functionalText: `Your next weapon attack this turn gets +3{p} and "When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**`,
     
@@ -273579,7 +273576,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +2{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
+    functionalText: `Your next weapon attack this turn gets +2{p} and "When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**`,
     
@@ -273720,7 +273717,7 @@ When Nasreth hits a hero, banish a card from their soul. If a Light card is bani
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +1{p} and "If this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
+    functionalText: `Your next weapon attack this turn gets +1{p} and "When this hits and you have no cards in your arsenal, reveal the top card of your deck. If it's an action card, put it face down into your arsenal."
 
 **Go again**`,
     
@@ -319580,9 +319577,9 @@ If Pulverize hits a hero, their first attack during their next turn has -4{p}.`,
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +3{p}.
+    functionalText: `Your next weapon attack this turn gets +3{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
+If you've attacked with a weapon this turn, your next attack this turn gets **dominate**.
 
 **Go again**`,
     
@@ -319693,9 +319690,9 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +2{p}.
+    functionalText: `Your next weapon attack this turn gets +2{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
+If you've attacked with a weapon this turn, your next attack this turn gets **dominate**.
 
 **Go again**`,
     
@@ -319806,9 +319803,9 @@ If you have attacked with a weapon this turn, your next attack this turn gains *
     cost: 1,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +1{p}.
+    functionalText: `Your next weapon attack this turn gets +1{p}.
 
-If you have attacked with a weapon this turn, your next attack this turn gains **dominate**.
+If you've attacked with a weapon this turn, your next attack this turn gets **dominate**.
 
 **Go again**`,
     
@@ -362801,7 +362798,7 @@ The next time you hit a **marked** hero with a dagger this turn, draw a card.
       set: Release.Promos,
       tcgplayer: {
             productId: "225502",
-            url: "https://www.tcgplayer.com/product/225502?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225502?Language=English&Printing=Cold+Foil"
           },
       
     },{
@@ -369406,7 +369403,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     cost: 1,
     defense: 3,
     
-    functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +4{p}.
+    functionalText: `If you've attacked with a weapon this turn, your next attack this turn gets +4{p}.
 
 **Go again**`,
     
@@ -369517,7 +369514,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     cost: 1,
     defense: 3,
     
-    functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +3{p}.
+    functionalText: `If you've attacked with a weapon this turn, your next attack this turn gets +3{p}.
 
 **Go again**`,
     
@@ -369628,7 +369625,7 @@ If you control 2 or more Draconic chain links, this card's attacks get **go agai
     cost: 1,
     defense: 3,
     
-    functionalText: `If you have attacked with a weapon this turn, your next attack this turn gains +2{p}.
+    functionalText: `If you've attacked with a weapon this turn, your next attack this turn gets +2{p}.
 
 **Go again**`,
     
@@ -377509,7 +377506,7 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +3{p}.
+    functionalText: `Your next weapon attack this turn gets +3{p}.
 
 **Go again**`,
     
@@ -377620,7 +377617,7 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +2{p}.
+    functionalText: `Your next weapon attack this turn gets +2{p}.
 
 **Go again**`,
     
@@ -377746,7 +377743,7 @@ If it has 1 or more +1{p} counters, your next attack with it this turn costs {r}
     cost: 0,
     defense: 3,
     
-    functionalText: `Your next weapon attack this turn gains +1{p}.
+    functionalText: `Your next weapon attack this turn gets +1{p}.
 
 **Go again**`,
     
@@ -377876,8 +377873,8 @@ At the beginning of your end phase, destroy this.`,
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
       tcgplayer: {
-            productId: "690444",
-            url: "https://www.tcgplayer.com/product/690444?Language=English&Printing=Normal"
+            productId: "710569",
+            url: "https://www.tcgplayer.com/product/710569?Language=English&Printing=Normal"
           },
       
     },{
@@ -393006,7 +393003,7 @@ Whenever you roll a 1 on a die, destroy Skull Crushers.
       set: Release.Promos,
       tcgplayer: {
             productId: "225508",
-            url: "https://www.tcgplayer.com/product/225508?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225508?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -395736,10 +395733,9 @@ Your second sword or dagger attack this turn gets +3{p}.
     cost: 0,
     defense: 3,
     
-    functionalText: `Whenever you attack with a sword or dagger this turn;
+    functionalText: `Your first sword or dagger attack this turn gets +1{p}.
 
-- If it's your first weapon attack this turn, it gains +1{p}.
-- If it's your second weapon attack this turn, it gains +2{p}.
+Your second sword or dagger attack this turn gets +2{p}.
 
 **Go again**`,
     
@@ -395835,10 +395831,9 @@ Your second sword or dagger attack this turn gets +3{p}.
     cost: 0,
     defense: 3,
     
-    functionalText: `Whenever you attack with a sword or dagger this turn;
+    functionalText: `Your first sword or dagger attack this turn gets +1{p}.
 
-- If it's your first weapon attack this turn, it gains +1{p}.
-- If it's your second weapon attack this turn, it gains +1{p}.
+Your second sword or dagger attack this turn gets +1{p}.
 
 **Go again**`,
     
@@ -416568,8 +416563,8 @@ If you control a Vigor token, this gets +1{d}.
       rarity: Rarity.Majestic,
       set: Release.MasteryPackWarrior,
       tcgplayer: {
-            productId: "690445",
-            url: "https://www.tcgplayer.com/product/690445?Language=English&Printing=Rainbow+Foil"
+            productId: "710573",
+            url: "https://www.tcgplayer.com/product/710573?Language=English&Printing=Rainbow+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
@@ -423307,7 +423302,7 @@ At the beginning of your action phase, destroy this.`,
       set: Release.Promos,
       tcgplayer: {
             productId: "225510",
-            url: "https://www.tcgplayer.com/product/225510?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225510?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -433029,6 +433024,21 @@ When this hits a hero, banish the top card of their deck, then look at their han
       
     },{
         artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW130",
+      image: "MPW130",
+      
+      
+      print: "MPW130-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      tcgplayer: {
+            productId: "708976",
+            url: "https://www.tcgplayer.com/product/708976?Language=English&Printing=Rainbow+Foil"
+          },
+      
+    },{
+        artists: ["Wirawan Pranoto"],
       
       identifier: "AHA014",
       image: "AHA014",
@@ -433191,6 +433201,21 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       tcgplayer: {
             productId: "708978",
             url: "https://www.tcgplayer.com/product/708978?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["Wirawan Pranoto"],
+      foiling: Foiling.Rainbow,
+      identifier: "MPW132",
+      image: "MPW132",
+      
+      
+      print: "MPW132-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.MasteryPackWarrior,
+      tcgplayer: {
+            productId: "708978",
+            url: "https://www.tcgplayer.com/product/708978?Language=English&Printing=Rainbow+Foil"
           },
       
     },{
@@ -438918,7 +438943,7 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       image: "LSS003-CF_BACK",
       
       
-      print: "LSS003-Cold-Full Art",
+      print: "LSS003-Cold-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
       
@@ -439867,7 +439892,7 @@ Create Seismic Surge tokens equal to the number of cards drawn this way.
       set: Release.Promos,
       tcgplayer: {
             productId: "225503",
-            url: "https://www.tcgplayer.com/product/225503?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225503?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -440834,7 +440859,7 @@ At the beginning of your action phase, remove a steam counter from Teklo Core an
       set: Release.Promos,
       tcgplayer: {
             productId: "225507",
-            url: "https://www.tcgplayer.com/product/225507?Language=English&Printing=1st+Edition+Cold+Foil"
+            url: "https://www.tcgplayer.com/product/225507?Language=English&Printing=Cold+Foil"
           },
       
     },],
@@ -454438,6 +454463,21 @@ Draw a card.
       tcgplayer: {
             productId: "612647",
             url: "https://www.tcgplayer.com/product/612647?Language=English&Printing=Normal"
+          },
+      
+    },{
+        artists: ["YDZ"],
+      foiling: Foiling.Rainbow,
+      identifier: "HNT166",
+      image: "HNT166",
+      
+      
+      print: "HNT166-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.TheHunted,
+      tcgplayer: {
+            productId: "612647",
+            url: "https://www.tcgplayer.com/product/612647?Language=English&Printing=Rainbow+Foil"
           },
       
     },{
@@ -496810,7 +496850,7 @@ While Yinti Yanti is defending and you control an aura, it has +1{d}.`,
       image: "LSS004-CF_BACK",
       
       
-      print: "LSS004-Cold-Full Art",
+      print: "LSS004-Cold-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
