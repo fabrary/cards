@@ -8460,6 +8460,10 @@ exports[`Check for unintentional updates Agility (agility) vs snapshot 1`] = `
       "print": "HVY240",
       "rarity": "Token",
       "set": "Heavy Hitters",
+      "tcgplayer": {
+        "productId": "563015",
+        "url": "https://www.tcgplayer.com/product/563015?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -19205,6 +19209,10 @@ If you've been dealt arcane damage this turn, instead gain 4{h}.",
       "print": "LGS458-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705722",
+        "url": "https://www.tcgplayer.com/product/705722?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -25828,6 +25836,10 @@ exports[`Check for unintentional updates Astral Strike (astral-strike-red) vs sn
       "print": "FAB469-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701609",
+        "url": "https://www.tcgplayer.com/product/701609?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -68920,6 +68932,10 @@ exports[`Check for unintentional updates Boltyn (boltyn) vs snapshot 1`] = `
       "print": "HER160-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "693414",
+        "url": "https://www.tcgplayer.com/product/693414?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -68935,6 +68951,10 @@ exports[`Check for unintentional updates Boltyn (boltyn) vs snapshot 1`] = `
       "print": "HER160-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "693414",
+        "url": "https://www.tcgplayer.com/product/693414?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -121849,6 +121869,10 @@ exports[`Check for unintentional updates Cosmic Duality (cosmic-duality-red) vs 
       "print": "FAB464-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705057",
+        "url": "https://www.tcgplayer.com/product/705057?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -137579,6 +137603,10 @@ Once per turn, you may play a Mechanologist item with cost 0 or 1 from the top o
       "print": "HER156-Rainbow-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "664534",
+        "url": "https://www.tcgplayer.com/product/664534?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -149674,6 +149702,10 @@ exports[`Check for unintentional updates Dig In (dig-in-yellow) vs snapshot 1`] 
       "print": "FAB385-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "657467",
+        "url": "https://www.tcgplayer.com/product/657467?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -154233,6 +154265,10 @@ exports[`Check for unintentional updates Donkey (donkey-blue) vs snapshot 1`] = 
       "print": "FAB484-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705415",
+        "url": "https://www.tcgplayer.com/product/705415?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -154973,6 +155009,10 @@ exports[`Check for unintentional updates Dorinthea, Quicksilver Prodigy (dorinth
       "print": "HER167-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705724",
+        "url": "https://www.tcgplayer.com/product/705724?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -154988,6 +155028,10 @@ exports[`Check for unintentional updates Dorinthea, Quicksilver Prodigy (dorinth
       "print": "HER167-Cold-Full Art-Back",
       "rarity": "Marvel",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705724",
+        "url": "https://www.tcgplayer.com/product/705724?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -156699,6 +156743,10 @@ exports[`Check for unintentional updates Downswing (downswing-red) vs snapshot 1
       "print": "FAB485-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705416",
+        "url": "https://www.tcgplayer.com/product/705416?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -158893,6 +158941,10 @@ exports[`Check for unintentional updates Drawing Dead (drawing-dead-yellow) vs s
       "print": "FAB486-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705417",
+        "url": "https://www.tcgplayer.com/product/705417?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -201212,6 +201264,10 @@ exports[`Check for unintentional updates Fate Foreseen (fate-foreseen-red) vs sn
       "print": "FAB487-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "709268",
+        "url": "https://www.tcgplayer.com/product/709268?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -217966,6 +218022,10 @@ When this hits, create a Lightning Flow token.",
       "print": "FAB471-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701605",
+        "url": "https://www.tcgplayer.com/product/701605?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -218220,6 +218280,10 @@ exports[`Check for unintentional updates Flowstate Embodiment (flowstate-embodim
       "print": "FAB476-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "684315",
+        "url": "https://www.tcgplayer.com/product/684315?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -234747,6 +234811,10 @@ exports[`Check for unintentional updates Ghost Protocol: Architect (ghost-protoc
       "print": "LGS444-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701471",
+        "url": "https://www.tcgplayer.com/product/701471?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -240021,6 +240089,10 @@ exports[`Check for unintentional updates Gold (gold) vs snapshot 1`] = `
       "print": "HVY243",
       "rarity": "Token",
       "set": "Heavy Hitters",
+      "tcgplayer": {
+        "productId": "563015",
+        "url": "https://www.tcgplayer.com/product/563015?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -318463,6 +318535,10 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "print": "FAB470-Rainbow-Alternate Border-Extended Art-V3",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701608",
+        "url": "https://www.tcgplayer.com/product/701608?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Border",
       "treatments": [
         "Alternate Border",
@@ -318479,6 +318555,10 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "print": "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701606",
+        "url": "https://www.tcgplayer.com/product/701606?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -318496,6 +318576,10 @@ exports[`Check for unintentional updates Lightning Flow (lightning-flow) vs snap
       "print": "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-V2",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701607",
+        "url": "https://www.tcgplayer.com/product/701607?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -339686,6 +339770,10 @@ When this hits, create a Lightning Flow token.",
       "print": "FAB472-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701604",
+        "url": "https://www.tcgplayer.com/product/701604?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -340335,6 +340423,10 @@ exports[`Check for unintentional updates Might (might) vs snapshot 1`] = `
       "print": "HVY241",
       "rarity": "Token",
       "set": "Heavy Hitters",
+      "tcgplayer": {
+        "productId": "555896",
+        "url": "https://www.tcgplayer.com/product/555896?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -350544,6 +350636,10 @@ exports[`Check for unintentional updates Nebula Duality (nebula-duality-red) vs 
       "print": "FAB465-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705060",
+        "url": "https://www.tcgplayer.com/product/705060?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -362706,6 +362802,10 @@ Lightning Flow tokens get **spellvoid 1**.",
       "print": "FAB467-Cold-Full Art",
       "rarity": "Marvel",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705056",
+        "url": "https://www.tcgplayer.com/product/705056?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -362721,6 +362821,10 @@ Lightning Flow tokens get **spellvoid 1**.",
       "print": "FAB467-Cold-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705056",
+        "url": "https://www.tcgplayer.com/product/705056?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -425166,6 +425270,10 @@ exports[`Check for unintentional updates Razor Reflex (razor-reflex-red) vs snap
       "print": "FAB475-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701602",
+        "url": "https://www.tcgplayer.com/product/701602?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -491630,6 +491738,10 @@ exports[`Check for unintentional updates Shove Off (shove-off-blue) vs snapshot 
       "print": "LGS457-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705723",
+        "url": "https://www.tcgplayer.com/product/705723?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -565225,6 +565337,10 @@ At the start of your turn, you may banish an equipment you control. If you do, e
       "print": "LSS003-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "562481",
+        "url": "https://www.tcgplayer.com/product/562481?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -573033,6 +573149,10 @@ At the beginning of your end phase, destroy a Silver you control. If you don't, 
       "print": "LGS391-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "618317",
+        "url": "https://www.tcgplayer.com/product/618317?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -574043,6 +574163,10 @@ exports[`Check for unintentional updates Thespian Charm (thespian-charm-yellow) 
       "print": "LGS423-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "657794",
+        "url": "https://www.tcgplayer.com/product/657794?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -609649,6 +609773,10 @@ exports[`Check for unintentional updates Vigor (vigor) vs snapshot 1`] = `
       "print": "HVY242",
       "rarity": "Token",
       "set": "Heavy Hitters",
+      "tcgplayer": {
+        "productId": "555896",
+        "url": "https://www.tcgplayer.com/product/555896?Language=English&Printing=Normal",
+      },
     },
     {
       "artists": [
@@ -616177,6 +616305,10 @@ exports[`Check for unintentional updates Voltbound Duality (voltbound-duality-re
       "print": "FAB466-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705058",
+        "url": "https://www.tcgplayer.com/product/705058?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -616946,6 +617078,10 @@ When this hits, create a Lightning Flow token.",
       "print": "FAB473-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "701603",
+        "url": "https://www.tcgplayer.com/product/701603?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",

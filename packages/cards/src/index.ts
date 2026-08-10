@@ -6851,7 +6851,10 @@ If this deals damage, you may {t} your hero. If you do, this gets **go again**.`
       print: "HVY240",
       rarity: Rarity.Token,
       set: Release.HeavyHitters,
-      
+      tcgplayer: {
+            productId: "563015",
+            url: "https://www.tcgplayer.com/product/563015?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Tomasz Jedruszek"],
@@ -15055,7 +15058,10 @@ When this leaves the arena during your turn, create a Runechant token.`,
       print: "LGS458-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705722",
+            url: "https://www.tcgplayer.com/product/705722?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -20492,7 +20498,10 @@ If you control a Spectral Shield, you may play this as though it were an instant
       print: "FAB469-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701609",
+            url: "https://www.tcgplayer.com/product/701609?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -54844,7 +54853,10 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       print: "HER160-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "693414",
+            url: "https://www.tcgplayer.com/product/693414?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nikolay Moskvin"],
@@ -54856,7 +54868,10 @@ If you've **charged** this turn, Bolt of Courage gains "If this hits, draw a car
       print: "HER160-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "693414",
+            url: "https://www.tcgplayer.com/product/693414?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo,Rarity.Rare,Rarity.Token],
@@ -95763,7 +95778,10 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
       print: "FAB464-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705057",
+            url: "https://www.tcgplayer.com/product/705057?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -107682,7 +107700,10 @@ Prevent the next X arcane damage that would be dealt to your hero this turn, whe
       print: "HER156-Rainbow-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "664534",
+            url: "https://www.tcgplayer.com/product/664534?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Sam Yang"],
@@ -117143,7 +117164,10 @@ Your next zombie attack this turn gets +4{p} and "When this hits, destroy this z
       print: "FAB385-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "657467",
+            url: "https://www.tcgplayer.com/product/657467?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -120955,7 +120979,10 @@ Create Gold tokens equal to the number of gold counters removed this way.`,
       print: "FAB484-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705415",
+            url: "https://www.tcgplayer.com/product/705415?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -121617,7 +121644,10 @@ Create a Blasmophet, the Soul Harvester token.`,
       print: "HER167-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705724",
+            url: "https://www.tcgplayer.com/product/705724?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Lius Lasahido"],
@@ -121629,7 +121659,10 @@ Create a Blasmophet, the Soul Harvester token.`,
       print: "HER167-Cold-Full Art-Back",
       rarity: Rarity.Marvel,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705724",
+            url: "https://www.tcgplayer.com/product/705724?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Rare],
@@ -122774,7 +122807,10 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       print: "FAB485-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705416",
+            url: "https://www.tcgplayer.com/product/705416?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -124388,7 +124424,10 @@ Draw a card.
       print: "FAB486-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705417",
+            url: "https://www.tcgplayer.com/product/705417?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -157057,7 +157096,10 @@ Target attack gets +3{p}.`,
       print: "FAB487-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "709268",
+            url: "https://www.tcgplayer.com/product/709268?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },{
         artists: ["Alexandra Malygina"],
@@ -169963,7 +170005,10 @@ When you attack with Flock of the Feather Walkers, create a Quicken token.`,
       print: "FAB471-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701605",
+            url: "https://www.tcgplayer.com/product/701605?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -170165,7 +170210,10 @@ When this hits, create a Lightning Flow token.`,
       print: "FAB476-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "684315",
+            url: "https://www.tcgplayer.com/product/684315?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -182274,7 +182322,10 @@ At the beginning of your end phase, remove an energy counter from this and creat
       print: "LGS444-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701471",
+            url: "https://www.tcgplayer.com/product/701471?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -186430,7 +186481,10 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
       print: "HVY243",
       rarity: Rarity.Token,
       set: Release.HeavyHitters,
-      
+      tcgplayer: {
+            productId: "563015",
+            url: "https://www.tcgplayer.com/product/563015?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Stormy Elia Fanggidae"],
@@ -248342,7 +248396,10 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       print: "FAB470-Rainbow-Alternate Border-Extended Art-V3",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701608",
+            url: "https://www.tcgplayer.com/product/701608?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AB,treatments: [Treatment.AB,Treatment.EA],
     },{
         artists: ["Alifka Hammam"],
@@ -248354,7 +248411,10 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       print: "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701606",
+            url: "https://www.tcgplayer.com/product/701606?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },{
         artists: ["Alifka Hammam"],
@@ -248366,7 +248426,10 @@ When this hits, if a yellow card was **charged** this way, this gets **go again*
       print: "FAB470-Rainbow-Alternate Art-Alternate Border-Extended Art-V2",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701607",
+            url: "https://www.tcgplayer.com/product/701607?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.EA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
@@ -265693,7 +265756,10 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.`,
       print: "FAB472-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701604",
+            url: "https://www.tcgplayer.com/product/701604?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -266447,7 +266513,10 @@ The first time you activate Micro-processor each turn, gain 1 action point.`,
       print: "HVY241",
       rarity: Rarity.Token,
       set: Release.HeavyHitters,
-      
+      tcgplayer: {
+            productId: "555896",
+            url: "https://www.tcgplayer.com/product/555896?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Henrique Lindner"],
@@ -273951,7 +274020,10 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
       print: "FAB465-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705060",
+            url: "https://www.tcgplayer.com/product/705060?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -282935,7 +283007,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "FAB467-Cold-Full Art",
       rarity: Rarity.Marvel,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705056",
+            url: "https://www.tcgplayer.com/product/705056?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
@@ -282947,7 +283022,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "FAB467-Cold-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705056",
+            url: "https://www.tcgplayer.com/product/705056?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
@@ -329241,7 +329319,10 @@ If you've **charged** this turn, Raydn gains +3{p}.`,
       print: "FAB475-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701602",
+            url: "https://www.tcgplayer.com/product/701602?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare],
@@ -381842,7 +381923,10 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
       print: "LGS457-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705723",
+            url: "https://www.tcgplayer.com/product/705723?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -438934,7 +439018,10 @@ If this deals damage, you may {t} your hero. If you do, put an instant card from
       print: "LSS003-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "562481",
+            url: "https://www.tcgplayer.com/product/562481?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Andy Aslamov"],
@@ -445132,7 +445219,10 @@ If you've played another blue card this turn, **transcend**.`,
       print: "LGS391-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "618317",
+            url: "https://www.tcgplayer.com/product/618317?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -445941,7 +446031,10 @@ When Themis attacks, you may banish a card from your hero's soul. If you do, tur
       print: "LGS423-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "657794",
+            url: "https://www.tcgplayer.com/product/657794?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.SuperRare],
@@ -473585,7 +473678,10 @@ When Victoria attacks, you may banish a card from your hero's soul. If you do, a
       print: "HVY242",
       rarity: Rarity.Token,
       set: Release.HeavyHitters,
-      
+      tcgplayer: {
+            productId: "555896",
+            url: "https://www.tcgplayer.com/product/555896?Language=English&Printing=Normal"
+          },
       
     },{
         artists: ["Rio Sabda"],
@@ -478602,7 +478698,10 @@ When this is pitched, create a Lightning Flow token.`,
       print: "FAB466-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705058",
+            url: "https://www.tcgplayer.com/product/705058?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -479328,7 +479427,10 @@ When this is pitched, create a Lightning Flow token.`,
       print: "FAB473-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "701603",
+            url: "https://www.tcgplayer.com/product/701603?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
