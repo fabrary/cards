@@ -135,6 +135,7 @@ export const ADDITIONS = [
   "crix",
   "cromai",
   "crosswrap",
+  "cutpurse",
   "cutty",
   "darknight",
   "dawnblade",

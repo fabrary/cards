@@ -1,9 +1,19 @@
+import { existsSync } from "fs";
+import { join } from "path";
 import { describe, expect, it } from "@jest/globals";
 import { cards } from "../dist/index";
-// import { ADDITIONS, IGNORES, SUGGESTIONS } from "./spelling-additions";
-import { ADDITIONS, IGNORES, SUGGESTIONS } from "./spelling-additions-local";
+import * as committedSpellings from "./spelling-additions";
 
 const PUNCTUATION = /[!"#$%&'’()*+,-./:;<=>?@[\]^_`|~]/g;
+
+// The gitignored local list is a superset of the committed one, carrying words
+// that can't be published yet. Clean checkouts (CI) fall back to the committed list.
+const LOCAL_SPELLINGS_PATH = join(__dirname, "spelling-additions-local.ts");
+const { ADDITIONS, IGNORES, SUGGESTIONS }: typeof committedSpellings =
+  existsSync(LOCAL_SPELLINGS_PATH)
+    ? // eslint-disable-next-line @typescript-eslint/no-require-imports -- optional file, resolved at runtime
+      require("./spelling-additions-local")
+    : committedSpellings;
 
 // eslint-disable-next-line @typescript-eslint/no-require-imports -- typo-js ships no type declarations
 const Typo = require("typo-js");
