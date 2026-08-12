@@ -214,6 +214,7 @@ export enum Release {
   ArmoryDeckPleiades = "Armory Deck: Pleiades",
   ArmoryDeckRhinar = "Armory Deck: Rhinar",
   ArmoryDeckZyggy = "Armory Deck: Zyggy",
+  ArmoryDeckDrMortimer = "Armory Deck: Dr. Mortimer",
 
   // Armory deck origins
   ArmoryDeckOriginsHala = "Armory Deck Origins: Hala",
@@ -289,6 +290,7 @@ export enum Release {
   // Mastery packs
   MasteryPackGuardian = "Mastery Pack: Guardian",
   MasteryPackWarrior = "Mastery Pack: Warrior",
+  MasteryPackAssassin = "Mastery Pack: Assassin",
 
   // Other decks
   BravoDemoDeck = "Bravo Demo Deck",
@@ -380,6 +382,7 @@ export enum Subtype {
   Construct = "Construct",
   Dagger = "Dagger",
   Demon = "Demon",
+  Disease = "Disease",
   Dragon = "Dragon",
   Evo = "Evo",
   Fiddle = "Fiddle",
@@ -466,6 +469,7 @@ export enum Hero {
   Marlynn = "Marlynn",
   Maxx = "Maxx",
   Melody = "Melody",
+  Mortimer = "Mortimer",
   Nuu = "Nuu",
   Oldhim = "Oldhim",
   Olympia = "Olympia",
@@ -526,6 +530,7 @@ export enum Keyword {
   TheCrowdBoos = "The Crowd Boos",
   TheCrowdCheers = "The Crowd Cheers",
   Crush = "Crush",
+  Cure = "Cure",
   Decay = "Decay",
   Decompose = "Decompose",
   Dominate = "Dominate",

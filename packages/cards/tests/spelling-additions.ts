@@ -264,6 +264,7 @@ export const ADDITIONS = [
   "hoons",
   "hopalong",
   "hulkster",
+  "humour",
   "humperdinck",
   "hyperx3",
   "i'Arathael",

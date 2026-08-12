@@ -11,6 +11,8 @@ import { getSpecialPrinting } from "@flesh-and-blood/types";
 const spoiledSetCardsFileAMA = `${__dirname}/Flesh and Blood Spoiler Card Data - AMA.csv`;
 const spoiledSetCardsFileIAR = `${__dirname}/Flesh and Blood Spoiler Card Data - IAR.csv`;
 const spoiledSetCardsFileSPW = `${__dirname}/Flesh and Blood Spoiler Card Data - SPW.csv`;
+const spoiledSetCardsFileAMO = `${__dirname}/Flesh and Blood Spoiler Card Data - AMO.csv`;
+const spoiledSetCardsFileMPA = `${__dirname}/Flesh and Blood Spoiler Card Data - MPA.csv`;
 const spoiledPromoCardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - Promos.csv`;
 const spoiledSAGECardsFile = `${__dirname}/Flesh and Blood Spoiler Card Data - SAGE.csv`;
 
@@ -22,6 +24,8 @@ const parsedSpoiledSetCards: ParsedCard[] = (
     ...parseCSV(spoiledSetCardsFileAMA),
     ...parseCSV(spoiledSetCardsFileIAR),
     ...parseCSV(spoiledSetCardsFileSPW),
+    ...parseCSV(spoiledSetCardsFileAMO),
+    ...parseCSV(spoiledSetCardsFileMPA),
   ] as ParsedCard[]
 )
   .filter((card) => !!card.name)

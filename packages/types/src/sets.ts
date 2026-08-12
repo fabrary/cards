@@ -1918,7 +1918,7 @@ export const releases: ReleaseInfo[] = [
     cards: 156,
     classes: [Class.Warrior],
     deckLinks: [],
-    heroes: [Hero.Dorinthea],
+    heroes: [Hero.Dorinthea, Hero.Hala, Hero.Olympia],
     languages: ALL_LANGUAGES,
     release: Release.MasteryPackWarrior,
     relatedReleases: [],
@@ -2038,6 +2038,34 @@ export const releases: ReleaseInfo[] = [
     talents: [],
     setIdentifiers: ["spw"],
   },
+  {
+    cards: 156,
+    classes: [Class.Assassin],
+    deckLinks: [],
+    heroes: [Hero.Arakni, Hero.Mortimer, Hero.Uzuri],
+    languages: ALL_LANGUAGES,
+    release: Release.MasteryPackAssassin,
+    relatedReleases: [],
+    releaseDate: "2026-11-13 12:00",
+    releaseType: ReleaseType.MasteryPack,
+    setIdentifiers: ["mpa"],
+    talents: [],
+  },
+  {
+    cards: 30,
+    classes: [Class.Assassin],
+    deckLinks: [
+      // { url: "https://fabrary.net/decks/01KXQF1YZHCHP2KAMDBS5WC5Q9" },
+    ],
+    heroes: [Hero.Malice],
+    languages: ALL_LANGUAGES,
+    release: Release.ArmoryDeckDrMortimer,
+    relatedReleases: [],
+    releaseDate: "2026-11-13 12:00",
+    releaseType: ReleaseType.ArmoryDeck,
+    setIdentifiers: ["amo"],
+    talents: [],
+  },
 ];
 
 export const fullSetIdentifiers: { [key: string]: Release } = {
@@ -2065,6 +2093,7 @@ export const fullSetIdentifiers: { [key: string]: Release } = {
   omn: Release.OmensOfTheThirdAge,
   mpw: Release.MasteryPackWarrior,
   iar: Release.UsurpTheShadowThrone,
+  mpa: Release.MasteryPackAssassin,
 };
 
 export const setIdentifierToSetMappings: { [key: string]: Release } = {
@@ -2089,6 +2118,7 @@ export const setIdentifierToSetMappings: { [key: string]: Release } = {
   azs: Release.ArmoryDeckZyggy,
   aol: Release.ArmoryDeckOlympia,
   ama: Release.ArmoryDeckMalice,
+  amo: Release.ArmoryDeckDrMortimer,
 
   // Blitz decks
   ara: Release.ArakniBlitzDeck,

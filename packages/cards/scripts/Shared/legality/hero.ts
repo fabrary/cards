@@ -285,6 +285,7 @@ export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
   [Hero.Marlynn]: marlynn,
   [Hero.Maxx]: maxx,
   [Hero.Melody]: melody,
+  [Hero.Mortimer]: CLASSES_AND_TALENTS([Class.Assassin]),
   [Hero.Nuu]: nuu,
   [Hero.Oldhim]: oldhim,
   [Hero.Olympia]: olympia,
