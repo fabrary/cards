@@ -459538,7 +459538,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     cost: 1,
     defense: 2,
     
-    functionalText: `If a card has been put into your banished zone this turn, Tremor of i'Arathael gains +2{p}.`,
+    functionalText: `If a card has been put into your banished zone this turn, this gets +2{p}.`,
     
     
     
@@ -459647,7 +459647,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     cost: 1,
     defense: 2,
     
-    functionalText: `If a card has been put into your banished zone this turn, Tremor of i'Arathael gains +2{p}.`,
+    functionalText: `If a card has been put into your banished zone this turn, this gets +2{p}.`,
     
     
     
@@ -459756,7 +459756,7 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
     cost: 1,
     defense: 2,
     
-    functionalText: `If a card has been put into your banished zone this turn, Tremor of i'Arathael gains +2{p}.`,
+    functionalText: `If a card has been put into your banished zone this turn, this gets +2{p}.`,
     
     
     
