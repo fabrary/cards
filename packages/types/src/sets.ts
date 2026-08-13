@@ -2057,7 +2057,7 @@ export const releases: ReleaseInfo[] = [
     deckLinks: [
       // { url: "https://fabrary.net/decks/01KXQF1YZHCHP2KAMDBS5WC5Q9" },
     ],
-    heroes: [Hero.Malice],
+    heroes: [Hero.Mortimer],
     languages: ALL_LANGUAGES,
     release: Release.ArmoryDeckDrMortimer,
     relatedReleases: [],
