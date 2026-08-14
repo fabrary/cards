@@ -469009,6 +469009,85 @@ If Ursur is attacking a hero with 1 or more cards in their soul, the attack gets
   
   
   },{
+    artists: ["Esty Swandana"],
+    cardIdentifier: "usurp-the-shadow-throne-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR110",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Shiyana,Hero.Viserai2],
+    name: "Usurp the Shadow Throne",
+    printings: [{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.Cold,
+      identifier: "IAR110",
+      image: "IAR110-MV",
+      
+      
+      print: "IAR110-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Esty Swandana"],
+      
+      identifier: "IAR110",
+      image: "IAR110",
+      
+      
+      print: "IAR110",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Legendary,Rarity.Marvel],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["IAR110"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR110-MV",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 13,
+    defense: 3,
+    
+    functionalText: `**Viserai Specialization**
+
+If you've usurped this turn, this costs 6{r} less to play and you may play it from your banished zone.
+
+When this hits a hero, turn all cards in their banished zone face-down. They lose X{h} and you gain X{h}, where X is the number of cards turned face-down this way.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Specialization],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    power: 13,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    specializations: [Hero.Viserai],
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["soyameii"],
     cardIdentifier: "uzuri",
     classes: [Class.Assassin],
@@ -482056,7 +482135,8 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "wage-vigor-yellow",
     classes: [Class.Guardian,Class.Warrior],
@@ -482135,8 +482215,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "wage-vigor-blue",
     classes: [Class.Guardian,Class.Warrior],

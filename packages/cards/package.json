@@ -20,7 +20,7 @@
     "build": "npm run build:cjs && npm run build:esm",
     "build:cjs": "esbuild ./src/index.ts --outdir=dist --bundle --minify --platform=node --target=es6",
     "build:esm": "esbuild ./src/index.ts --outfile=dist/index.mjs --bundle --minify --format=esm --platform=neutral --target=es2020 --external:@flesh-and-blood/types",
-    "postbuild": "tsc --declaration && npm test",
+    "postbuild": "tsc --declaration --noCheck && npm test",
     "test": "jest",
     "typecheck": "tsc -p tsconfig.typecheck.json",
     "update:dependencies": "npx ncu -u latest-cards && npm i",
@@ -29,7 +29,8 @@
     "tts": "ts-node tts/index.ts",
     "sitemap": "ts-node sitemap/index.ts",
     "full": "npm i && npm run transform && npm run build && npm run new && npm run tts && npm run sitemap",
-    "prepublish": "npm run full"
+    "prepublish": "npm run full",
+    "prepublishOnly": "npm run typecheck"
   },
   "dependencies": {
     "@flesh-and-blood/types": "^4.0.63"
@@ -43,11 +44,11 @@
     "esbuild-jest": "^0.5.0",
     "fast-xml-parser": "4.3.2",
     "jest": "^29.7.0",
-    "latest-cards": "npm:@flesh-and-blood/cards@^4.0.63",
+    "latest-cards": "npm:@flesh-and-blood/cards@^4.0.64",
     "npm-check-updates": "^20.0.1",
     "papaparse": "^5.3.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3",
+    "typescript": "^5.7.3",
     "typo-js": "^1.2.3"
   },
   "files": [
