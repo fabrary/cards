@@ -4399,6 +4399,7 @@ OSCCardDB = {
   ["IAR058"] = { name = "Bridge of Damnation (3)", text = "**Go again**\n\nAt the start of each turn, destroy this unless you put a zombie from your banished zone into your graveyard.", keywords = "Go again", types = "Action"},
   ["IAR064"] = { name = "Restless Magister (1)", text = "When this hits a hero, they banish a card from their hand.\n\n**Decay**", keywords = "Decay", types = "Action"},
   ["IAR082"] = { name = "Shadowrealm Strength (1)", text = "You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +3{p}.\n\n**Go again**", keywords = "Go again", types = "Action"},
+  ["IAR084"] = { name = "Restless Cleric (1)", text = "**Action** - {t}: Gain 1{h}. **Go again**\n\n**Decay**", keywords = "Decay", types = "Action"},
   ["IAR090"] = { name = "Corrupted Corpse", text = "**Incarnate**\n\nThis card's attacks get **go again**.\n\n**Blood Debt**", keywords = "Blood Debt,Go again,Incarnate", types = "Action"},
   ["IAR106"] = { name = "Viserai, the Forsaken", text = "Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, **traverse**.", keywords = "Traverse", types = "Hero"},
   ["IAR106-BACK"] = { name = "Viserai, Usurper", text = "The first attack action card with blood debt you play each turn gets **go again**.\n\nAt the beginning of each end phase, if you've created or activated a Gate to i'Arathael this turn, you may **traverse**.", keywords = "Go again,Traverse", types = "Hero"},

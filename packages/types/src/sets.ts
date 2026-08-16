@@ -2055,7 +2055,7 @@ export const releases: ReleaseInfo[] = [
     cards: 30,
     classes: [Class.Assassin],
     deckLinks: [
-      // { url: "https://fabrary.net/decks/01KXQF1YZHCHP2KAMDBS5WC5Q9" },
+      // { url: "https://fabrary.net/decks/01M01B0MCJRZHMDRFZNBCT1B1J" },
     ],
     heroes: [Hero.Mortimer],
     languages: ALL_LANGUAGES,

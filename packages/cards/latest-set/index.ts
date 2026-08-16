@@ -2307,6 +2307,81 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   
   
   },{
+    artists: ["Yiian Kho"],
+    cardIdentifier: "restless-cleric-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR084",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Cleric",
+    printings: [{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.Cold,
+      identifier: "IAR084",
+      image: "IAR084-MV",
+      
+      
+      print: "IAR084-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Yiian Kho"],
+      
+      identifier: "IAR084",
+      image: "IAR084",
+      
+      
+      print: "IAR084",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common,Rarity.Marvel],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR084"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR084-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `**Action** - {t}: Gain 1{h}. **Go again**
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    shorthands: [Shorthand.Tap],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Isuardi Therianto"],
     cardIdentifier: "restless-magister-red",
     classes: [Class.Necromancer],

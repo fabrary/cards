@@ -604789,6 +604789,106 @@ If Ursur is attacking a hero with 1 or more cards in their soul, the attack gets
 }
 `;
 
+exports[`Check for unintentional updates Usurp the Shadow Throne (usurp-the-shadow-throne-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Esty Swandana",
+  ],
+  "cardIdentifier": "usurp-the-shadow-throne-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 13,
+  "defaultImage": "IAR110",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Viserai Specialization**
+
+If you've usurped this turn, this costs 6{r} less to play and you may play it from your banished zone.
+
+When this hits a hero, turn all cards in their banished zone face-down. They lose X{h} and you gain X{h}, where X is the number of cards turned face-down this way.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Specialization",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Shiyana",
+    "Viserai2",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Usurp the Shadow Throne",
+  "pitch": 3,
+  "power": 13,
+  "printings": [
+    {
+      "artists": [
+        "Esty Swandana",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR110",
+      "image": "IAR110-MV",
+      "print": "IAR110-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Esty Swandana",
+      ],
+      "identifier": "IAR110",
+      "image": "IAR110",
+      "print": "IAR110",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Legendary",
+    "Marvel",
+  ],
+  "rarity": "Legendary",
+  "setIdentifiers": [
+    "IAR110",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR110-MV",
+  "specializations": [
+    "Viserai",
+  ],
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Uzuri (uzuri) vs snapshot 1`] = `
 {
   "artists": [
