@@ -31010,6 +31010,81 @@ If you control 3 or more auras, this gets +3{p} and "When this hits a hero, dest
   
   
   },{
+    artists: ["Dzulfikar Aliy"],
+    cardIdentifier: "battle-clearing-bellow-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR040-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Battle Clearing Bellow",
+    printings: [{
+        artists: ["Dzulfikar Aliy"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR040",
+      image: "IAR040-RF",
+      
+      
+      print: "IAR040-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Dzulfikar Aliy"],
+      
+      identifier: "IAR040",
+      image: "IAR040",
+      
+      
+      print: "IAR040",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR040"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR040-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Brute Action",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `Your next attack with 6 or more base {p} this turn gets +6{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Othon Nikolaidis"],
     cardIdentifier: "battlefield-beacon-yellow",
     classes: [Class.Warrior],
@@ -55755,6 +55830,79 @@ Whenever this banishes a card and this has banished another card with the same n
     
     pitch: 3,
     power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Khairul Sukmanudin"],
+    cardIdentifier: "bone-barrier-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR093-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
+    name: "Bone Barrier",
+    printings: [{
+        artists: ["Khairul Sukmanudin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR093",
+      image: "IAR093-RF",
+      
+      
+      print: "IAR093-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Khairul Sukmanudin"],
+      
+      identifier: "IAR093",
+      image: "IAR093",
+      
+      
+      print: "IAR093",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR093"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR093-RF",
+    subtypes: [],
+    types: [Type.DefenseReaction],
+    typeText: "Necromancer Defence Reaction",
+
+    
+    
+    cost: 0,
+    defense: 2,
+    
+    functionalText: `When this defends, you may destroy an ally you control or discard an ally. If you do, this gets +2{d}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
     
     
     
@@ -80898,7 +81046,8 @@ At the start of your turn, destroy this.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "clash-of-agility-blue",
     classes: [Class.Brute,Class.Warrior],
@@ -81056,8 +81205,7 @@ At the start of your turn, destroy this.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Edward Chee"],
     cardIdentifier: "clash-of-bravado-yellow",
     classes: [Class.Guardian],
@@ -159719,7 +159867,8 @@ If this was played from arsenal, it gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-yellow",
     classes: [Class.Generic],
@@ -159941,8 +160090,7 @@ If this was played from arsenal, it gets **go again**.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Shen Fei"],
     cardIdentifier: "fiddle-dee",
     classes: [Class.Bard],
@@ -241366,7 +241514,8 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
     talents: [Talent.Elemental],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "laden-with-lightning-red",
     classes: [Class.NotClassed],
@@ -241530,8 +241679,7 @@ While Barthimont is face-up in arsenal, whenever you play an attack action card,
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Saad Irfan"],
     cardIdentifier: "lair-of-the-spider-red",
     classes: [Class.Assassin,Class.Ninja],
@@ -322496,7 +322644,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "quelling-slippers",
     classes: [Class.Generic],
@@ -322729,8 +322878,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Jackson Tjota"],
     cardIdentifier: "quick-succession-red",
     classes: [Class.Runeblade],
@@ -339793,6 +339941,81 @@ At the start of your turn, destroy this and draw a card.`,
     
     
     functionalText: `When this hits a hero, they banish a card from their hand.
+
+**Decay**`,
+    
+    
+    
+    
+    keywords: [Keyword.Decay],
+    
+    life: 3,
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Sebastian Giacobino"],
+    cardIdentifier: "restless-quartermaster-red",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR065",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Restless Quartermaster",
+    printings: [{
+        artists: ["Sebastian Giacobino"],
+      
+      identifier: "IAR065",
+      image: "IAR065",
+      
+      
+      print: "IAR065",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Sebastian Giacobino"],
+      foiling: Foiling.Cold,
+      identifier: "IAR065",
+      image: "IAR065-MV",
+      
+      
+      print: "IAR065-Cold-Full Art",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },],
+    rarities: [Rarity.Common,Rarity.Rare],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR065"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR065-MV",
+    subtypes: [Subtype.Ally,Subtype.NonAttack,Subtype.Zombie],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action - Zombie Ally",
+
+    
+    
+    cost: 0,
+    
+    
+    functionalText: `When this hits a hero, they banish a card in their arsenal.
 
 **Decay**`,
     
@@ -403501,7 +403724,8 @@ If X is 6 or greater, target hero discards 3 random cards.`,
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Olga Tereshenko"],
     cardIdentifier: "sonata-galaxia-red",
     classes: [Class.Runeblade],
@@ -403742,8 +403966,7 @@ If X is 2 or more, this gets **go again**.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Ramza Ardyputra"],
     cardIdentifier: "song-of-sinew-yellow",
     classes: [Class.Brute],
@@ -481849,7 +482072,8 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "wage-might-red",
     classes: [Class.Brute,Class.Guardian],
@@ -482101,8 +482325,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "wage-vigor-red",
     classes: [Class.Guardian,Class.Warrior],

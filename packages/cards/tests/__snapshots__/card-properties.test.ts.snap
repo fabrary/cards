@@ -438588,6 +438588,102 @@ exports[`Check for unintentional updates Restless Bones (restless-bones-yellow) 
 }
 `;
 
+exports[`Check for unintentional updates Restless Cleric (restless-cleric-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yiian Kho",
+  ],
+  "cardIdentifier": "restless-cleric-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR084",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Action** - {t}: Gain 1{h}. **Go again**
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Cleric",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Yiian Kho",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR084",
+      "image": "IAR084-MV",
+      "print": "IAR084-Cold-Full Art",
+      "rarity": "Marvel",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Yiian Kho",
+      ],
+      "identifier": "IAR084",
+      "image": "IAR084",
+      "print": "IAR084",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Marvel",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR084",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Tap",
+  ],
+  "specialImage": "IAR084-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Restless Coalescence (restless-coalescence-yellow) vs snapshot 1`] = `
 {
   "artists": [
