@@ -1,7 +1,7 @@
 {
   "name": "@flesh-and-blood/cards",
   "description": "TypeScript representations of Flesh and Blood cards",
-  "version": "4.0.65",
+  "version": "4.0.66",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -33,7 +33,7 @@
     "prepublishOnly": "npm run typecheck"
   },
   "dependencies": {
-    "@flesh-and-blood/types": "^4.0.65"
+    "@flesh-and-blood/types": "^4.0.66"
   },
   "devDependencies": {
     "@types/jest": "^29.5.11",
