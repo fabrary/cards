@@ -39064,6 +39064,94 @@ exports[`Check for unintentional updates Battering Bolt (battering-bolt-red) vs 
 }
 `;
 
+exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing-bellow-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Dzulfikar Aliy",
+  ],
+  "cardIdentifier": "battle-clearing-bellow-blue",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR040-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next attack with 6 or more base {p} this turn gets +6{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Kayo",
+    "Levia",
+    "RKO",
+    "Rhinar",
+    "Tuffnut",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Battle Clearing Bellow",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Dzulfikar Aliy",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR040",
+      "image": "IAR040-RF",
+      "print": "IAR040-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Dzulfikar Aliy",
+      ],
+      "identifier": "IAR040",
+      "image": "IAR040",
+      "print": "IAR040",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR040",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR040-RF",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "typeText": "Brute Action",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Battlefield Beacon (battlefield-beacon-yellow) vs snapshot 1`] = `
 {
   "artists": [
@@ -70125,6 +70213,82 @@ Whenever this banishes a card and this has banished another card with the same n
   "typeText": "Assassin Action - Attack",
   "types": [
     "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Khairul Sukmanudin",
+  ],
+  "cardIdentifier": "bone-barrier-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR093-RF",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this defends, you may destroy an ally you control or discard an ally. If you do, this gets +2{d}.",
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Frankie",
+    "Gravy Bones",
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Bone Barrier",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Khairul Sukmanudin",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR093",
+      "image": "IAR093-RF",
+      "print": "IAR093-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Khairul Sukmanudin",
+      ],
+      "identifier": "IAR093",
+      "image": "IAR093",
+      "print": "IAR093",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR093",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR093-RF",
+  "subtypes": [],
+  "typeText": "Necromancer Defence Reaction",
+  "types": [
+    "Defense Reaction",
   ],
 }
 `;
@@ -438947,6 +439111,99 @@ exports[`Check for unintentional updates Restless Magister (restless-magister-re
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR064-MV",
+  "subtypes": [
+    "Ally",
+    "Non-Attack",
+    "Zombie",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action - Zombie Ally",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Restless Quartermaster (restless-quartermaster-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Sebastian Giacobino",
+  ],
+  "cardIdentifier": "restless-quartermaster-red",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR065",
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, they banish a card in their arsenal.
+
+**Decay**",
+  "keywords": [
+    "Decay",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "life": 3,
+  "meta": [
+    "Deck",
+  ],
+  "name": "Restless Quartermaster",
+  "pitch": 1,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "identifier": "IAR065",
+      "image": "IAR065",
+      "print": "IAR065",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Sebastian Giacobino",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR065",
+      "image": "IAR065-MV",
+      "print": "IAR065-Cold-Full Art",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+  ],
+  "rarities": [
+    "Common",
+    "Rare",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR065",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR065-MV",
   "subtypes": [
     "Ally",
     "Non-Attack",

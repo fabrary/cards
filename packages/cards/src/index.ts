@@ -93714,6 +93714,160 @@ Deal 1 arcane damage to any target.`,
   
   
   },{
+    artists: ["SanSan"],
+    cardIdentifier: "consuming-lash-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR009-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Consuming Lash",
+    printings: [{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR009",
+      image: "IAR009-RF",
+      
+      
+      print: "IAR009-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["SanSan"],
+      
+      identifier: "IAR009",
+      image: "IAR009",
+      
+      
+      print: "IAR009",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR009"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR009-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Play this only if you control a Blasmophet.
+
+**Instant** - {r}, banish this from your hand: Your next attack this turn gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "consuming-strength-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR010-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Consuming Strength",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR010",
+      image: "IAR010-RF",
+      
+      
+      print: "IAR010-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "IAR010",
+      image: "IAR010",
+      
+      
+      print: "IAR010",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR010"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR010-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Play this only if you control a Blasmophet.
+
+**Instant** - {r}, banish this from your hand: Your next attack this turn gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Buffs,Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Stanislav Sherbakov"],
     cardIdentifier: "consuming-volition-red",
     classes: [Class.Runeblade],
@@ -159675,7 +159829,8 @@ If there are 4 or more Earth cards in your banished zone, instead gain 4{h}.`,
     talents: [Talent.Earth],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Marco González"],
     cardIdentifier: "fertile-ground-blue",
     classes: [Class.NotClassed],
@@ -159867,8 +160022,7 @@ If this was played from arsenal, it gets **go again**.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Fedor Barkhatov"],
     cardIdentifier: "fervent-forerunner-yellow",
     classes: [Class.Generic],
@@ -241348,7 +241502,8 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
     talents: [Talent.Lightning],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "laden-with-earth-red",
     classes: [Class.NotClassed],
@@ -241514,8 +241669,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
     talents: [Talent.Elemental],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "laden-with-lightning-red",
     classes: [Class.NotClassed],
@@ -322441,7 +322595,8 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Alexander Staronosov"],
     cardIdentifier: "quelling-robe",
     classes: [Class.Generic],
@@ -322644,8 +322799,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Pavel Chuvin"],
     cardIdentifier: "quelling-slippers",
     classes: [Class.Generic],
@@ -403513,7 +403667,8 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Saad Irfan"],
     cardIdentifier: "sonata-arcanix-red",
     classes: [Class.Runeblade],
@@ -403724,8 +403879,7 @@ If X is 6 or greater, target hero discards 3 random cards.`,
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Olga Tereshenko"],
     cardIdentifier: "sonata-galaxia-red",
     classes: [Class.Runeblade],
@@ -481880,7 +482034,8 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Tanapon Wachirakul"],
     cardIdentifier: "wage-gold-yellow",
     classes: [Class.Generic],
@@ -482072,8 +482227,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
     
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Septimius Ferdian"],
     cardIdentifier: "wage-might-red",
     classes: [Class.Brute,Class.Guardian],

@@ -1020,6 +1020,160 @@ At the start of each turn, destroy this unless you put a zombie from your banish
   
   
   },{
+    artists: ["SanSan"],
+    cardIdentifier: "consuming-lash-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR009-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Consuming Lash",
+    printings: [{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR009",
+      image: "IAR009-RF",
+      
+      
+      print: "IAR009-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["SanSan"],
+      
+      identifier: "IAR009",
+      image: "IAR009",
+      
+      
+      print: "IAR009",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR009"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR009-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Play this only if you control a Blasmophet.
+
+**Instant** - {r}, banish this from your hand: Your next attack this turn gets **go again**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "consuming-strength-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR010-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Consuming Strength",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR010",
+      image: "IAR010-RF",
+      
+      
+      print: "IAR010-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "IAR010",
+      image: "IAR010",
+      
+      
+      print: "IAR010",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR010"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR010-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `Play this only if you control a Blasmophet.
+
+**Instant** - {r}, banish this from your hand: Your next attack this turn gets +2{p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Buffs,Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Jessada Sutthi"],
     cardIdentifier: "corrupt-and-conquer-red",
     classes: [Class.NotClassed],
