@@ -1387,13 +1387,244 @@ This card's attacks get **go again**.
     keywords: [Keyword.BloodDebt,Keyword.Usurp],
     
     
-    meta: [Meta.Deck],
+    meta: [Meta.Deck,Meta.Rainbow],
   
     
     pitch: 1,
     power: 3,
     
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "demonbound-gloomblade-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR127-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Demonbound Gloomblade",
+    printings: [{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR127",
+      image: "IAR127-RF",
+      
+      
+      print: "IAR127-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Rio Sabda"],
+      
+      identifier: "IAR127",
+      image: "IAR127",
+      
+      
+      print: "IAR127",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR127"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR127-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "demonbound-gloomblade-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR128-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Demonbound Gloomblade",
+    printings: [{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR128",
+      image: "IAR128-RF",
+      
+      
+      print: "IAR128-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Rio Sabda"],
+      
+      identifier: "IAR128",
+      image: "IAR128",
+      
+      
+      print: "IAR128",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["IAR128"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR128-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 1,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Alifka Hammam"],
+    cardIdentifier: "embrace-sin-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR120-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Embrace Sin",
+    printings: [{
+        artists: ["Alifka Hammam"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR120",
+      image: "IAR120-RF",
+      
+      
+      print: "IAR120-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Alifka Hammam"],
+      
+      identifier: "IAR120",
+      image: "IAR120",
+      
+      
+      print: "IAR120",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR120"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR120-RF",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action",
+
+    
+    
+    cost: 1,
+    defense: 2,
+    
+    functionalText: `Your next attack this turn gets +2{p}.
+
+You may play an aura with Runechant in its name from your banished zone this turn.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    
+    
+    shorthands: [Shorthand.Buffs],
     
     
     
@@ -1619,6 +1850,81 @@ This card's attacks get **go again**.
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "harbinger-of-destruction-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR170-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Harbinger of Destruction",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR170",
+      image: "IAR170-RF",
+      
+      
+      print: "IAR170-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "IAR170",
+      image: "IAR170",
+      
+      
+      print: "IAR170",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR170"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR170-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 8,
+    defense: 3,
+    
+    functionalText: `As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
+
+**Blood Debt""`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 13,
+    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -3984,6 +4290,81 @@ When this is pitched, lose 1{h}.`,
   
   
   },{
+    artists: ["Galih M"],
+    cardIdentifier: "tribute-to-greater-power-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR177-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
+    name: "Tribute to Greater Power",
+    printings: [{
+        artists: ["Galih M"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR177",
+      image: "IAR177-RF",
+      
+      
+      print: "IAR177-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Galih M"],
+      
+      identifier: "IAR177",
+      image: "IAR177",
+      
+      
+      print: "IAR177",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR177"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR177-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 2,
+    
+    functionalText: `**Instant** - Banish this from your hand: Your next attack this turn gets **overpower**.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Overpower],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Amtepra"],
     cardIdentifier: "unbound-by-shadow-red",
     classes: [Class.NotClassed],
@@ -4134,6 +4515,243 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
     
     
     specializations: [Hero.Viserai],
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Yunior Susanto"],
+    cardIdentifier: "vexing-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR117-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Vexing Gloomblade",
+    printings: [{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR117",
+      image: "IAR117-RF",
+      
+      
+      print: "IAR117-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Yunior Susanto"],
+      
+      identifier: "IAR117",
+      image: "IAR117",
+      
+      
+      print: "IAR117",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR117"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR117-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, deal 2 arcane damage to any target.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Yunior Susanto"],
+    cardIdentifier: "vexing-gloomblade-yellow",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR118-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Vexing Gloomblade",
+    printings: [{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR118",
+      image: "IAR118-RF",
+      
+      
+      print: "IAR118-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Yunior Susanto"],
+      
+      identifier: "IAR118",
+      image: "IAR118",
+      
+      
+      print: "IAR118",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR118"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR118-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, deal 2 arcane damage to any target.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Yunior Susanto"],
+    cardIdentifier: "vexing-gloomblade-blue",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR119-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Vexing Gloomblade",
+    printings: [{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR119",
+      image: "IAR119-RF",
+      
+      
+      print: "IAR119-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Yunior Susanto"],
+      
+      identifier: "IAR119",
+      image: "IAR119",
+      
+      
+      print: "IAR119",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR119"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR119-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, deal 2 arcane damage to any target.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 3,
+    
+    
+    
+    
+    
+    
+    
+    
+    
     talents: [Talent.Shadow],
   
   

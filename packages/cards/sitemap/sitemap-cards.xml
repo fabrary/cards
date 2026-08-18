@@ -5686,6 +5686,16 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/demonbound-gloomblade-yellow</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/demonbound-gloomblade-blue</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/demonstrate-devotion-red</loc>
     <lastmod>2025-01-17</lastmod>
     <priority>0.5</priority>
@@ -6908,6 +6918,11 @@
   <url>
     <loc>https://fabrary.net/cards/embrace-adversity</loc>
     <lastmod>2024-01-15</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/embrace-sin-yellow</loc>
+    <lastmod>2026-08-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -9878,6 +9893,11 @@
   <url>
     <loc>https://fabrary.net/cards/hand-of-vengeance</loc>
     <lastmod>2025-01-17</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/harbinger-of-destruction-red</loc>
+    <lastmod>2026-08-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
@@ -22921,6 +22941,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/tribute-to-greater-power-red</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/tribute-to-the-legions-of-doom-red</loc>
     <lastmod>2023-07-02</lastmod>
     <priority>0.5</priority>
@@ -23583,6 +23608,21 @@
   <url>
     <loc>https://fabrary.net/cards/vestige-of-sol</loc>
     <lastmod>2023-05-13</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vexing-gloomblade-red</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vexing-gloomblade-yellow</loc>
+    <lastmod>2026-08-18</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/vexing-gloomblade-blue</loc>
+    <lastmod>2026-08-18</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
