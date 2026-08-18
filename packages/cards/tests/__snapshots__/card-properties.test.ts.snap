@@ -119392,6 +119392,190 @@ exports[`Check for unintentional updates Consuming Aftermath (consuming-aftermat
 }
 `;
 
+exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "SanSan",
+  ],
+  "cardIdentifier": "consuming-lash-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR009-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Play this only if you control a Blasmophet.
+
+**Instant** - {r}, banish this from your hand: Your next attack this turn gets **go again**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Consuming Lash",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "SanSan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR009",
+      "image": "IAR009-RF",
+      "print": "IAR009-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "SanSan",
+      ],
+      "identifier": "IAR009",
+      "image": "IAR009",
+      "print": "IAR009",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR009",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR009-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Consuming Strength (consuming-strength-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kevin Sidharta",
+  ],
+  "cardIdentifier": "consuming-strength-yellow",
+  "classes": [
+    "Brute",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR010-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Play this only if you control a Blasmophet.
+
+**Instant** - {r}, banish this from your hand: Your next attack this turn gets +2{p}.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Levia",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Consuming Strength",
+  "pitch": 2,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR010",
+      "image": "IAR010-RF",
+      "print": "IAR010-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "identifier": "IAR010",
+      "image": "IAR010",
+      "print": "IAR010",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR010",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+    "Poppers",
+  ],
+  "specialImage": "IAR010-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Brute Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Consuming Volition (consuming-volition-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -460297,7 +460481,7 @@ exports[`Check for unintentional updates Runechant of Envy (runechant-of-envy-ye
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "GEM178-RF",
+  "defaultImage": "IAR152",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "This counts as a Runechant. When an attack usurps this, gain 1{h}.
 
@@ -460312,6 +460496,7 @@ At the beginning of your action phase or when you play an attack action card, de
     "Living Legend",
     "Open",
     "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -460330,6 +460515,16 @@ At the beginning of your action phase or when you play an attack action card, de
   "name": "Runechant of Envy",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR152",
+      "image": "IAR152",
+      "print": "IAR152",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "MJ Fetesio",
@@ -460370,10 +460565,11 @@ At the beginning of your action phase or when you play an attack action card, de
     },
   ],
   "rarities": [
+    "Common",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM178",
     "IAR152",
@@ -460403,7 +460599,7 @@ exports[`Check for unintentional updates Runechant of Gluttony (runechant-of-glu
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "GEM179-RF",
+  "defaultImage": "IAR153",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "This counts as a Runechant. When an attack usurps this, gain {r}.
 
@@ -460418,6 +460614,7 @@ At the beginning of your action phase or when you play an attack action card, de
     "Living Legend",
     "Open",
     "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -460436,6 +460633,16 @@ At the beginning of your action phase or when you play an attack action card, de
   "name": "Runechant of Gluttony",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR153",
+      "image": "IAR153",
+      "print": "IAR153",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "MJ Fetesio",
@@ -460476,10 +460683,11 @@ At the beginning of your action phase or when you play an attack action card, de
     },
   ],
   "rarities": [
+    "Common",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM179",
     "IAR153",
@@ -460509,7 +460717,7 @@ exports[`Check for unintentional updates Runechant of Greed (runechant-of-greed-
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "GEM177-RF",
+  "defaultImage": "IAR145",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "This counts as a Runechant. When an attack usurps this, draw a card.
 
@@ -460542,6 +460750,16 @@ At the beginning of your action phase or when you play an attack action card, de
   "name": "Runechant of Greed",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR145",
+      "image": "IAR145",
+      "print": "IAR145",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "MJ Fetesio",
@@ -460582,10 +460800,11 @@ At the beginning of your action phase or when you play an attack action card, de
     },
   ],
   "rarities": [
+    "Majestic",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Majestic",
   "setIdentifiers": [
     "GEM177",
     "IAR145",
@@ -460615,7 +460834,7 @@ exports[`Check for unintentional updates Runechant of Lust (runechant-of-lust-ye
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "GEM180-RF",
+  "defaultImage": "IAR154",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "This counts as a Runechant. When an attack usurps this, create a Runechant token.
 
@@ -460630,6 +460849,7 @@ At the beginning of your action phase or when you play an attack action card, de
     "Living Legend",
     "Open",
     "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -460648,6 +460868,16 @@ At the beginning of your action phase or when you play an attack action card, de
   "name": "Runechant of Lust",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR154",
+      "image": "IAR154",
+      "print": "IAR154",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "MJ Fetesio",
@@ -460688,10 +460918,11 @@ At the beginning of your action phase or when you play an attack action card, de
     },
   ],
   "rarities": [
+    "Common",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM180",
     "IAR154",
@@ -460721,7 +460952,7 @@ exports[`Check for unintentional updates Runechant of Pride (runechant-of-pride-
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "GEM181-RF",
+  "defaultImage": "IAR155",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "This counts as a Runechant. When an attack usurps this, it gets +1{p}.
 
@@ -460736,6 +460967,7 @@ At the beginning of your action phase or when you play an attack action card, de
     "Living Legend",
     "Open",
     "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -460754,6 +460986,16 @@ At the beginning of your action phase or when you play an attack action card, de
   "name": "Runechant of Pride",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR155",
+      "image": "IAR155",
+      "print": "IAR155",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "MJ Fetesio",
@@ -460794,10 +461036,11 @@ At the beginning of your action phase or when you play an attack action card, de
     },
   ],
   "rarities": [
+    "Common",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM181",
     "IAR155",
@@ -460827,7 +461070,7 @@ exports[`Check for unintentional updates Runechant of Sloth (runechant-of-sloth-
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "GEM182-RF",
+  "defaultImage": "IAR156",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "This counts as a Runechant. When an attack usurps this, it gets **go again**.
 
@@ -460845,6 +461088,7 @@ At the beginning of your action phase or when you play an attack action card, de
     "Living Legend",
     "Open",
     "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -460863,6 +461107,16 @@ At the beginning of your action phase or when you play an attack action card, de
   "name": "Runechant of Sloth",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR156",
+      "image": "IAR156",
+      "print": "IAR156",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "MJ Fetesio",
@@ -460903,10 +461157,11 @@ At the beginning of your action phase or when you play an attack action card, de
     },
   ],
   "rarities": [
+    "Common",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM182",
     "IAR156",
@@ -460936,7 +461191,7 @@ exports[`Check for unintentional updates Runechant of Wrath (runechant-of-wrath-
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "GEM183-RF",
+  "defaultImage": "IAR157",
   "firstReleaseDate": "2026-09-25",
   "functionalText": "This counts as a Runechant. When an attack usurps this, it gets **overpower**.
 
@@ -460954,6 +461209,7 @@ At the beginning of your action phase or when you play an attack action card, de
     "Living Legend",
     "Open",
     "Sealed",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -460972,6 +461228,16 @@ At the beginning of your action phase or when you play an attack action card, de
   "name": "Runechant of Wrath",
   "pitch": 2,
   "printings": [
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "identifier": "IAR157",
+      "image": "IAR157",
+      "print": "IAR157",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
     {
       "artists": [
         "MJ Fetesio",
@@ -461012,10 +461278,11 @@ At the beginning of your action phase or when you play an attack action card, de
     },
   ],
   "rarities": [
+    "Common",
     "Marvel",
     "Promo",
   ],
-  "rarity": "Promo",
+  "rarity": "Common",
   "setIdentifiers": [
     "GEM183",
     "IAR157",

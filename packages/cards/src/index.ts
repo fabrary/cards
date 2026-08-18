@@ -356678,12 +356678,24 @@ At the beginning of your action phase, remove a verse counter from this. If you 
     artists: ["MJ Fetesio"],
     cardIdentifier: "runechant-of-envy-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "GEM178-RF",
+    defaultImage: "IAR152",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Envy",
     printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR152",
+      image: "IAR152",
+      
+      
+      print: "IAR152",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
       identifier: "IAR152",
@@ -356714,8 +356726,8 @@ At the beginning of your action phase, remove a verse counter from this. If you 
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Common,
     setIdentifiers: ["GEM178","IAR152"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR152-MV",
@@ -356761,12 +356773,24 @@ At the beginning of your action phase or when you play an attack action card, de
     artists: ["MJ Fetesio"],
     cardIdentifier: "runechant-of-gluttony-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "GEM179-RF",
+    defaultImage: "IAR153",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Gluttony",
     printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR153",
+      image: "IAR153",
+      
+      
+      print: "IAR153",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
       identifier: "IAR153",
@@ -356797,8 +356821,8 @@ At the beginning of your action phase or when you play an attack action card, de
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Common,
     setIdentifiers: ["GEM179","IAR153"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR153-MV",
@@ -356844,12 +356868,24 @@ At the beginning of your action phase or when you play an attack action card, de
     artists: ["MJ Fetesio"],
     cardIdentifier: "runechant-of-greed-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "GEM177-RF",
+    defaultImage: "IAR145",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Greed",
     printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR145",
+      image: "IAR145",
+      
+      
+      print: "IAR145",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
       identifier: "IAR145",
@@ -356880,8 +356916,8 @@ At the beginning of your action phase or when you play an attack action card, de
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Majestic,
     setIdentifiers: ["GEM177","IAR145"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR145-MV",
@@ -356927,12 +356963,24 @@ At the beginning of your action phase or when you play an attack action card, de
     artists: ["MJ Fetesio"],
     cardIdentifier: "runechant-of-lust-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "GEM180-RF",
+    defaultImage: "IAR154",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Lust",
     printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR154",
+      image: "IAR154",
+      
+      
+      print: "IAR154",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
       identifier: "IAR154",
@@ -356963,8 +357011,8 @@ At the beginning of your action phase or when you play an attack action card, de
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Common,
     setIdentifiers: ["GEM180","IAR154"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR154-MV",
@@ -357010,12 +357058,24 @@ At the beginning of your action phase or when you play an attack action card, de
     artists: ["MJ Fetesio"],
     cardIdentifier: "runechant-of-pride-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "GEM181-RF",
+    defaultImage: "IAR155",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Pride",
     printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR155",
+      image: "IAR155",
+      
+      
+      print: "IAR155",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
       identifier: "IAR155",
@@ -357046,8 +357106,8 @@ At the beginning of your action phase or when you play an attack action card, de
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Common,
     setIdentifiers: ["GEM181","IAR155"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR155-MV",
@@ -357093,12 +357153,24 @@ At the beginning of your action phase or when you play an attack action card, de
     artists: ["MJ Fetesio"],
     cardIdentifier: "runechant-of-sloth-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "GEM182-RF",
+    defaultImage: "IAR156",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Sloth",
     printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR156",
+      image: "IAR156",
+      
+      
+      print: "IAR156",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
       identifier: "IAR156",
@@ -357129,8 +357201,8 @@ At the beginning of your action phase or when you play an attack action card, de
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Common,
     setIdentifiers: ["GEM182","IAR156"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR156-MV",
@@ -357176,12 +357248,24 @@ At the beginning of your action phase or when you play an attack action card, de
     artists: ["MJ Fetesio"],
     cardIdentifier: "runechant-of-wrath-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "GEM183-RF",
+    defaultImage: "IAR157",
     firstReleaseDate: "2026-09-25",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Aurora,Hero.Aurora2,Hero.Briar,Hero.Chane,Hero.Florian,Hero.Viserai,Hero.Viserai2,Hero.Vynnset],
     name: "Runechant of Wrath",
     printings: [{
+        artists: ["MJ Fetesio"],
+      
+      identifier: "IAR157",
+      image: "IAR157",
+      
+      
+      print: "IAR157",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["MJ Fetesio"],
       foiling: Foiling.Cold,
       identifier: "IAR157",
@@ -357212,8 +357296,8 @@ At the beginning of your action phase or when you play an attack action card, de
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Promo],
-    rarity: Rarity.Promo,
+    rarities: [Rarity.Common,Rarity.Marvel,Rarity.Promo],
+    rarity: Rarity.Common,
     setIdentifiers: ["GEM183","IAR157"],
     sets: [Release.GEM,Release.UsurpTheShadowThrone],
     specialImage: "IAR157-MV",
