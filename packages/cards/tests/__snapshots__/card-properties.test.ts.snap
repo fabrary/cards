@@ -30169,7 +30169,7 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-blue) vs
   "defaultImage": "OUT067",
   "defense": 3,
   "firstReleaseDate": "2023-03-24",
-  "functionalText": "**Combo** – If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.",
+  "functionalText": "**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.",
   "keywords": [
     "Combo",
   ],
@@ -30264,7 +30264,7 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-red) vs 
   "defaultImage": "OUT065",
   "defense": 3,
   "firstReleaseDate": "2023-03-24",
-  "functionalText": "**Combo** – If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.",
+  "functionalText": "**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.",
   "keywords": [
     "Combo",
   ],
@@ -30376,7 +30376,7 @@ exports[`Check for unintentional updates Back Heel Kick (back-heel-kick-yellow) 
   "defaultImage": "OUT066",
   "defense": 3,
   "firstReleaseDate": "2023-03-24",
-  "functionalText": "**Combo** – If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.",
+  "functionalText": "**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.",
   "keywords": [
     "Combo",
   ],
@@ -33150,6 +33150,7 @@ exports[`Check for unintentional updates Bandana of the Blue Beyond (bandana-of-
 exports[`Check for unintentional updates Bank Breaker (bank-breaker) vs snapshot 1`] = `
 {
   "artists": [
+    "Brian Madya Narendra",
     "M Fakhrur Rozzi",
   ],
   "cardIdentifier": "bank-breaker",
@@ -33206,18 +33207,37 @@ When this attacks, you may banish a card under this. If you do, the attack gets 
         "url": "https://www.tcgplayer.com/product/628100?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Brian Madya Narendra",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG052",
+      "image": "JDG052-MV_BACK",
+      "oppositeImage": "JDG052-MV",
+      "print": "JDG052-Cold-Full Art-Back",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AMX022",
+    "JDG052",
   ],
   "sets": [
     "Armory Deck: Maxx",
+    "Promos",
   ],
-  "specialImage": "AMX022_BACK",
+  "specialImage": "JDG052-MV_BACK",
   "subtypes": [
     "2H",
     "Wrench",
@@ -37495,16 +37515,30 @@ This card's {d} is equal to the number of action cards defending on the active c
         "url": "https://www.tcgplayer.com/product/646478?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB406",
+      "image": "FAB406-GF",
+      "print": "FAB406-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB406",
     "MPG113",
   ],
   "sets": [
     "Mastery Pack: Guardian",
+    "Promos",
   ],
   "specialDefense": "*",
   "specialImage": "MPG113-CF",
@@ -42674,20 +42708,34 @@ exports[`Check for unintentional updates Beaten Trackers (beaten-trackers) vs sn
         "url": "https://www.tcgplayer.com/product/453190?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Kimberly Pantoni",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB366",
+      "image": "FAB366-GF",
+      "print": "FAB366-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "AKO006",
     "DYN006",
+    "FAB366",
     "SKA009",
   ],
   "sets": [
     "Armory Deck: Kayo",
     "Dynasty",
     "Kayo Silver Age Deck",
+    "Promos",
   ],
   "specialImage": "DYN006-CF",
   "subtypes": [
@@ -52318,12 +52366,25 @@ exports[`Check for unintentional updates Blade Beckoner Boots (blade-beckoner-bo
         "url": "https://www.tcgplayer.com/product/612698?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB423",
+      "image": "FAB423-GF",
+      "print": "FAB423-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB423",
     "HNT219",
     "SAR008",
     "SAT009",
@@ -52342,6 +52403,7 @@ exports[`Check for unintentional updates Blade Beckoner Boots (blade-beckoner-bo
     "Enigma Silver Age Deck",
     "Iyslander Silver Age Deck",
     "Prism Silver Age Deck",
+    "Promos",
     "The Hunted",
     "Viserai Silver Age Deck",
   ],
@@ -52606,12 +52668,25 @@ exports[`Check for unintentional updates Blade Beckoner Gauntlets (blade-beckone
         "url": "https://www.tcgplayer.com/product/617901?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB422",
+      "image": "FAB422-GF",
+      "print": "FAB422-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB422",
     "FNG005",
     "HNT218",
     "SBA007",
@@ -52629,6 +52704,7 @@ exports[`Check for unintentional updates Blade Beckoner Gauntlets (blade-beckone
     "Fang Blitz Deck",
     "Iyslander Silver Age Deck",
     "Kayo Silver Age Deck",
+    "Promos",
     "The Hunted",
   ],
   "specialImage": "HNT218-CF",
@@ -52920,12 +52996,25 @@ exports[`Check for unintentional updates Blade Beckoner Helm (blade-beckoner-hel
         "url": "https://www.tcgplayer.com/product/612695?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB420",
+      "image": "FAB420-GF",
+      "print": "FAB420-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB420",
     "HNT216",
     "SAZ004",
     "SBA004",
@@ -52946,6 +53035,7 @@ exports[`Check for unintentional updates Blade Beckoner Helm (blade-beckoner-hel
     "Fai Silver Age Deck",
     "Iyslander Silver Age Deck",
     "Lyath Silver Age Deck",
+    "Promos",
     "The Hunted",
     "Viserai Silver Age Deck",
   ],
@@ -53140,19 +53230,33 @@ exports[`Check for unintentional updates Blade Beckoner Plating (blade-beckoner-
         "url": "https://www.tcgplayer.com/product/617975?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Daniel Jiménez",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB421",
+      "image": "FAB421-GF",
+      "print": "FAB421-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "CIN004",
+    "FAB421",
     "HNT217",
     "SLY007",
   ],
   "sets": [
     "Cindra Blitz Deck",
     "Lyath Silver Age Deck",
+    "Promos",
     "The Hunted",
   ],
   "specialImage": "HNT217-CF",
@@ -54314,6 +54418,7 @@ exports[`Check for unintentional updates Blanch (blanch-blue) vs snapshot 1`] = 
 exports[`Check for unintentional updates Blanch (blanch-red) vs snapshot 1`] = `
 {
   "artists": [
+    "Daniel Correia",
     "Mark Poole",
   ],
   "cardIdentifier": "blanch-red",
@@ -54461,21 +54566,39 @@ exports[`Check for unintentional updates Blanch (blanch-red) vs snapshot 1`] = `
         "url": "https://www.tcgplayer.com/product/552014?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Daniel Correia",
+      ],
+      "identifier": "FAB400",
+      "image": "FAB400",
+      "print": "FAB400-Alternate Art-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB400",
     "MST194",
   ],
   "sets": [
     "Part the Mistveil",
+    "Promos",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "MST194",
+  "specialImage": "FAB400",
   "subtypes": [
     "Attack",
   ],
@@ -55703,6 +55826,17 @@ exports[`Check for unintentional updates Blaze, Firemind (blaze-firemind) vs sna
       "artists": [
         "Isuardi Therianto",
       ],
+      "foiling": "Cold",
+      "identifier": "HER118",
+      "image": "HER118-CF",
+      "print": "HER118-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER117",
       "image": "HER117-RF",
@@ -55722,13 +55856,14 @@ exports[`Check for unintentional updates Blaze, Firemind (blaze-firemind) vs sna
   "rarity": "Rare",
   "setIdentifiers": [
     "HER117",
+    "HER118",
     "SBZ001",
   ],
   "sets": [
     "Blaze Silver Age Deck",
     "Promos",
   ],
-  "specialImage": "SBZ001",
+  "specialImage": "HER118-CF",
   "subtypes": [
     "Young",
   ],
@@ -64549,8 +64684,9 @@ exports[`Check for unintentional updates Bloodrot Pox (bloodrot-pox) vs snapshot
   "specialImage": "FAB133-RF",
   "subtypes": [
     "Aura",
+    "Disease",
   ],
-  "typeText": "Generic Token - Aura",
+  "typeText": "Generic Token - Disease Aura",
   "types": [
     "Token",
   ],
@@ -65945,6 +66081,17 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
       "artists": [
         "Andy Aslamov",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB418",
+      "image": "FAB418-GF",
+      "print": "FAB418-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Andy Aslamov",
+      ],
       "foiling": "Cold",
       "identifier": "LGS100",
       "image": "LGS100-CF",
@@ -65987,6 +66134,7 @@ exports[`Check for unintentional updates Blossom of Spring (blossom-of-spring) v
     "BDD004",
     "DDD004",
     "DVR004",
+    "FAB418",
     "KAT004",
     "LGS100",
     "LSS010",
@@ -67451,21 +67599,39 @@ exports[`Check for unintentional updates Bluster Buff (bluster-buff-red) vs snap
         "url": "https://www.tcgplayer.com/product/654049?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB396",
+      "image": "FAB396-RF",
+      "print": "FAB396-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB396",
     "SUP221",
   ],
   "sets": [
+    "Promos",
     "Super Slam",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "SUP221",
+  "specialImage": "FAB396-RF",
   "subtypes": [
     "Attack",
   ],
@@ -68346,18 +68512,32 @@ exports[`Check for unintentional updates Bolt'n Boots (boltn-boots) vs snapshot 
         "url": "https://www.tcgplayer.com/product/664619?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Mariusz Gandzel",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB417",
+      "image": "FAB417-GF",
+      "print": "FAB417-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB417",
     "PEN082",
     "SAZ008",
   ],
   "sets": [
     "Azalea Silver Age Deck",
     "Compendium of Rathe",
+    "Promos",
   ],
   "specialImage": "PEN082-CF",
   "subtypes": [
@@ -77774,18 +77954,32 @@ exports[`Check for unintentional updates Breaker Helm Protos (breaker-helm-proto
         "url": "https://www.tcgplayer.com/product/628093?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Galih M",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG046",
+      "image": "JDG046-CF",
+      "print": "JDG046-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AMX003",
+    "JDG046",
   ],
   "sets": [
     "Armory Deck: Maxx",
+    "Promos",
   ],
-  "specialImage": "AMX003-RF",
+  "specialImage": "JDG046-CF",
   "subtypes": [
     "Base",
     "Head",
@@ -78607,18 +78801,32 @@ exports[`Check for unintentional updates Breakwater Undertow (breakwater-underto
         "url": "https://www.tcgplayer.com/product/633693?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Thomas Ressuge",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG066",
+      "image": "JDG066-CF",
+      "print": "JDG066-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AGB007",
+    "JDG066",
   ],
   "sets": [
     "Armory Deck: Gravy Bones",
+    "Promos",
   ],
-  "specialImage": "AGB007-RF",
+  "specialImage": "JDG066-CF",
   "subtypes": [
     "Legs",
   ],
@@ -84311,15 +84519,29 @@ exports[`Check for unintentional updates Bunker Beard (bunker-beard) vs snapshot
         "url": "https://www.tcgplayer.com/product/612699?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB369",
+      "image": "FAB369-GF",
+      "print": "FAB369-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB369",
     "HNT220",
   ],
   "sets": [
+    "Promos",
     "The Hunted",
   ],
   "specialImage": "HNT220-CF",
@@ -97369,21 +97591,39 @@ exports[`Check for unintentional updates Chest Puff (chest-puff-red) vs snapshot
         "url": "https://www.tcgplayer.com/product/654050?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Jackson Tjota",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB397",
+      "image": "FAB397-RF",
+      "print": "FAB397-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB397",
     "SUP222",
   ],
   "sets": [
+    "Promos",
     "Super Slam",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "SUP222",
+  "specialImage": "FAB397-RF",
   "subtypes": [
     "Attack",
   ],
@@ -105860,21 +106100,35 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
         "url": "https://www.tcgplayer.com/product/676490?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Orson CaptainSass",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB434",
+      "image": "FAB434-CF",
+      "print": "FAB434-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB434",
     "PEN324",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "PEN324",
+  "specialImage": "FAB434-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -114822,6 +115076,17 @@ The first card with watery grave you play from your graveyard each turn gets **g
       "artists": [
         "Nikko Wahyudi",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB364",
+      "image": "FAB364-GF",
+      "print": "FAB364-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Nikko Wahyudi",
+      ],
       "foiling": "Cold",
       "identifier": "GEM037",
       "image": "GEM037-CF",
@@ -114857,6 +115122,7 @@ The first card with watery grave you play from your graveyard each turn gets **g
   "rarity": "Basic",
   "setIdentifiers": [
     "AGB003",
+    "FAB364",
     "GEM037",
     "LGS398",
     "SEA045",
@@ -118069,6 +118335,7 @@ exports[`Check for unintentional updates Consign to Cosmos // Shock (consign-to-
 {
   "artists": [
     "MJ Fetesio",
+    "Olga Tereshenko",
   ],
   "cardIdentifier": "consign-to-cosmos--shock-yellow",
   "classes": [
@@ -118138,18 +118405,33 @@ Deal 1 arcane damage to any target.",
         "url": "https://www.tcgplayer.com/product/633378?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "MJ Fetesio",
+        "Olga Tereshenko",
+      ],
+      "foiling": "Cold",
+      "identifier": "LGS429",
+      "image": "LGS429-CF",
+      "print": "LGS429-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "LGS429",
     "SEA259",
   ],
   "sets": [
     "High Seas",
+    "Promos",
   ],
-  "specialImage": "SEA259",
+  "specialImage": "LGS429-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -118811,18 +119093,37 @@ exports[`Check for unintentional updates Construct Bank Breaker (construct-bank-
         "url": "https://www.tcgplayer.com/product/628100?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Andi Cahyo W",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG052",
+      "image": "JDG052-MV",
+      "oppositeImage": "JDG052-MV_BACK",
+      "print": "JDG052-Cold-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AMX022",
+    "JDG052",
   ],
   "sets": [
     "Armory Deck: Maxx",
+    "Promos",
   ],
-  "specialImage": "AMX022",
+  "specialImage": "JDG052-MV",
   "subtypes": [
     "Construct",
     "Non-Attack",
@@ -122130,18 +122431,32 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.",
         "url": "https://www.tcgplayer.com/product/551656?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Olga Tereshenko",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB230",
+      "image": "FAB230-CF",
+      "print": "FAB230-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "FAB230",
     "MST076",
   ],
   "sets": [
     "Part the Mistveil",
+    "Promos",
   ],
-  "specialImage": "MST076",
+  "specialImage": "FAB230-CF",
   "specialPower": "*",
   "subtypes": [
     "Attack",
@@ -146023,6 +146338,98 @@ exports[`Check for unintentional updates Demolition Protocol (demolition-protoco
 }
 `;
 
+exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloomblade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "demonbound-gloomblade-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR128-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Demonbound Gloomblade",
+  "pitch": 3,
+  "power": 1,
+  "printings": [
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR128",
+      "image": "IAR128-RF",
+      "print": "IAR128-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "identifier": "IAR128",
+      "image": "IAR128",
+      "print": "IAR128",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR128",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR128-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloomblade-red) vs snapshot 1`] = `
 {
   "artists": [
@@ -146102,6 +146509,98 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
     "Usurp the Shadow Throne",
   ],
   "specialImage": "IAR126",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloomblade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "cardIdentifier": "demonbound-gloomblade-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR127-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Demonbound Gloomblade",
+  "pitch": 2,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR127",
+      "image": "IAR127-RF",
+      "print": "IAR127-Rainbow",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "identifier": "IAR127",
+      "image": "IAR127",
+      "print": "IAR127",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "IAR127",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR127-RF",
   "subtypes": [
     "Attack",
   ],
@@ -158020,20 +158519,38 @@ exports[`Check for unintentional updates Drag Down (drag-down-red) vs snapshot 1
         "url": "https://www.tcgplayer.com/product/676497?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Jen Santos",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB442",
+      "image": "FAB442-RF",
+      "print": "FAB442-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB442",
     "PEN331",
     "SLY012",
   ],
   "sets": [
     "Compendium of Rathe",
     "Lyath Silver Age Deck",
+    "Promos",
   ],
-  "specialImage": "SLY012",
+  "specialImage": "FAB442-RF",
   "subtypes": [],
   "typeText": "Generic Defense Reaction",
   "types": [
@@ -161924,18 +162441,32 @@ exports[`Check for unintentional updates Drive Brake (drive-brake) vs snapshot 1
         "url": "https://www.tcgplayer.com/product/628095?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Firaz M. Rasyid",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG056",
+      "image": "JDG056-CF",
+      "print": "JDG056-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AMX006",
+    "JDG056",
   ],
   "sets": [
     "Armory Deck: Maxx",
+    "Promos",
   ],
-  "specialImage": "AMX006-RF",
+  "specialImage": "JDG056-CF",
   "subtypes": [
     "Legs",
   ],
@@ -167768,16 +168299,34 @@ If you control 3 or more Fealty tokens, this gets +1{d}.
         "url": "https://www.tcgplayer.com/product/677656?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Mario Wibisono",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB412",
+      "image": "FAB412-GF",
+      "print": "FAB412-Gold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "FAB412",
     "PEN252",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "specialImage": "PEN252-CF",
   "subtypes": [
@@ -170670,6 +171219,17 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
         "url": "https://www.tcgplayer.com/product/225950?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Fajareka Setiawan",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB362",
+      "image": "FAB362-GF",
+      "print": "FAB362-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Promo",
@@ -170680,6 +171240,7 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
     "1HP090",
     "ASR002",
     "CRU050",
+    "FAB362",
     "IRA002",
     "TCC078",
   ],
@@ -170688,6 +171249,7 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
     "Crucible of War",
     "History Pack 1",
     "Ira Welcome Deck",
+    "Promos",
     "Round the Table: TCC x LSS",
   ],
   "specialImage": "CRU050-CF",
@@ -176524,6 +177086,98 @@ exports[`Check for unintentional updates Embrace Adversity (embrace-adversity) v
   "typeText": "Generic Equipment - Arms",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Embrace Sin (embrace-sin-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Alifka Hammam",
+  ],
+  "cardIdentifier": "embrace-sin-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR120-RF",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "Your next attack this turn gets +2{p}.
+
+You may play an aura with Runechant in its name from your banished zone this turn.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Embrace Sin",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Alifka Hammam",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR120",
+      "image": "IAR120-RF",
+      "print": "IAR120-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Alifka Hammam",
+      ],
+      "identifier": "IAR120",
+      "image": "IAR120",
+      "print": "IAR120",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR120",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "IAR120-RF",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -190367,6 +191021,7 @@ exports[`Check for unintentional updates Everbloom // Life (everbloom--life-blue
 {
   "artists": [
     "MJ Fetesio",
+    "Olga Tereshenko",
   ],
   "cardIdentifier": "everbloom--life-blue",
   "classes": [
@@ -190444,18 +191099,33 @@ Gain 1{h}",
         "url": "https://www.tcgplayer.com/product/633377?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "MJ Fetesio",
+        "Olga Tereshenko",
+      ],
+      "foiling": "Cold",
+      "identifier": "LGS428",
+      "image": "LGS428-CF",
+      "print": "LGS428-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "LGS428",
     "SEA258",
   ],
   "sets": [
     "High Seas",
+    "Promos",
   ],
-  "specialImage": "SEA258",
+  "specialImage": "LGS428-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -191074,16 +191744,30 @@ exports[`Check for unintentional updates Evo Battery Pack (evo-battery-pack-yell
         "url": "https://www.tcgplayer.com/product/517866?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB216",
+      "image": "FAB216-RF",
+      "print": "FAB216-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO047",
+    "FAB216",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO047-CF",
   "subtypes": [
@@ -191592,16 +192276,30 @@ When this is equipped, gain {r}.",
         "url": "https://www.tcgplayer.com/product/517881?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB220",
+      "image": "FAB220-RF",
+      "print": "FAB220-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO051",
+    "FAB220",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO051-CF",
   "subtypes": [
@@ -191692,16 +192390,30 @@ exports[`Check for unintentional updates Evo Charging Rods (evo-charging-rods-ye
         "url": "https://www.tcgplayer.com/product/517873?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB218",
+      "image": "FAB218-RF",
+      "print": "FAB218-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO049",
+    "FAB218",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO049-CF",
   "subtypes": [
@@ -191894,16 +192606,30 @@ exports[`Check for unintentional updates Evo Cogspitter (evo-cogspitter-yellow) 
         "url": "https://www.tcgplayer.com/product/517870?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB217",
+      "image": "FAB217-RF",
+      "print": "FAB217-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO048",
+    "FAB217",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO048-CF",
   "subtypes": [
@@ -192114,16 +192840,30 @@ exports[`Check for unintentional updates Evo Data Mine (evo-data-mine-yellow) vs
         "url": "https://www.tcgplayer.com/product/517865?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB215",
+      "image": "FAB215-RF",
+      "print": "FAB215-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO046",
+    "FAB215",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO046-CF",
   "subtypes": [
@@ -192319,16 +193059,30 @@ exports[`Check for unintentional updates Evo Engine Room (evo-engine-room-yellow
         "url": "https://www.tcgplayer.com/product/517842?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB208",
+      "image": "FAB208-RF",
+      "print": "FAB208-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "EVO035",
+    "FAB208",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO035-CF",
   "subtypes": [
@@ -193127,16 +193881,30 @@ exports[`Check for unintentional updates Evo Sentry Base Arms (evo-sentry-base-a
         "url": "https://www.tcgplayer.com/product/517854?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB213",
+      "image": "FAB213-RF",
+      "print": "FAB213-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO044",
+    "FAB213",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO044-CF",
   "subtypes": [
@@ -193227,16 +193995,30 @@ exports[`Check for unintentional updates Evo Sentry Base Chest (evo-sentry-base-
         "url": "https://www.tcgplayer.com/product/517849?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB212",
+      "image": "FAB212-RF",
+      "print": "FAB212-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO043",
+    "FAB212",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO043-CF",
   "subtypes": [
@@ -193327,16 +194109,30 @@ exports[`Check for unintentional updates Evo Sentry Base Head (evo-sentry-base-h
         "url": "https://www.tcgplayer.com/product/517848?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB211",
+      "image": "FAB211-RF",
+      "print": "FAB211-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO042",
+    "FAB211",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO042-CF",
   "subtypes": [
@@ -193427,16 +194223,30 @@ exports[`Check for unintentional updates Evo Sentry Base Legs (evo-sentry-base-l
         "url": "https://www.tcgplayer.com/product/517855?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB214",
+      "image": "FAB214-RF",
+      "print": "FAB214-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO045",
+    "FAB214",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO045-CF",
   "subtypes": [
@@ -193628,16 +194438,30 @@ exports[`Check for unintentional updates Evo Smoothbore (evo-smoothbore-yellow) 
         "url": "https://www.tcgplayer.com/product/517844?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB209",
+      "image": "FAB209-RF",
+      "print": "FAB209-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "EVO036",
+    "FAB209",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "shorthands": [
     "Buffs",
@@ -194360,16 +195184,30 @@ exports[`Check for unintentional updates Evo Thruster (evo-thruster-yellow) vs s
         "url": "https://www.tcgplayer.com/product/517846?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Marco González",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB210",
+      "image": "FAB210-RF",
+      "print": "FAB210-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "EVO037",
+    "FAB210",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO037-CF",
   "subtypes": [
@@ -194458,16 +195296,30 @@ When this is equipped, up to 1 target attack gets +1{p}.",
         "url": "https://www.tcgplayer.com/product/517883?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB221",
+      "image": "FAB221-RF",
+      "print": "FAB221-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO052",
+    "FAB221",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "shorthands": [
     "Buffs",
@@ -194559,16 +195411,30 @@ When this is equipped, up to 1 target attack gets **go again**.",
         "url": "https://www.tcgplayer.com/product/517884?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB222",
+      "image": "FAB222-RF",
+      "print": "FAB222-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO053",
+    "FAB222",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO053-CF",
   "subtypes": [
@@ -194656,16 +195522,30 @@ When this is equipped, you may banish a card from your hand. If you do, draw a c
         "url": "https://www.tcgplayer.com/product/517879?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB219",
+      "image": "FAB219-RF",
+      "print": "FAB219-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "EVO050",
+    "FAB219",
   ],
   "sets": [
     "Bright Lights",
+    "Promos",
   ],
   "specialImage": "EVO050-CF",
   "subtypes": [
@@ -210267,7 +211147,7 @@ When this hits, create a Runechant token.",
       "print": "CON008-Rainbow-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
-      "treatment": "Full Art",
+      "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
         "Full Art",
@@ -224313,8 +225193,9 @@ At the beginning of your end phase, destroy this.",
   "specialImage": "FAB134-RF",
   "subtypes": [
     "Aura",
+    "Disease",
   ],
-  "typeText": "Generic Token - Aura",
+  "typeText": "Generic Token - Disease Aura",
   "types": [
     "Token",
   ],
@@ -234082,15 +234963,29 @@ exports[`Check for unintentional updates Gauntlets of Tyrannical Rex (gauntlets-
         "url": "https://www.tcgplayer.com/product/653292?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Junaidi Lim",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB360",
+      "image": "FAB360-GF",
+      "print": "FAB360-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB360",
     "SUP125",
   ],
   "sets": [
+    "Promos",
     "Super Slam",
   ],
   "shorthands": [
@@ -234291,16 +235186,30 @@ exports[`Check for unintentional updates Gauntlets of the Boreal Domain (gauntle
         "url": "https://www.tcgplayer.com/product/593961?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB289",
+      "image": "FAB289-GF",
+      "print": "FAB289-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
     "AJV006",
+    "FAB289",
   ],
   "sets": [
     "Armory Deck Origins: Jarl",
+    "Promos",
   ],
   "specialImage": "AJV006-RF",
   "subtypes": [
@@ -239331,16 +240240,34 @@ exports[`Check for unintentional updates Glory Plate (glory-plate) vs snapshot 1
         "url": "https://www.tcgplayer.com/product/677663?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Kimberly Pantoni",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB413",
+      "image": "FAB413-GF",
+      "print": "FAB413-Gold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "FAB413",
     "PEN287",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "specialImage": "PEN287-CF",
   "subtypes": [
@@ -244975,6 +245902,17 @@ exports[`Check for unintentional updates Good Time Chapeau (good-time-chapeau) v
       "artists": [
         "Nikko Wahyudi",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB304",
+      "image": "FAB304-GF",
+      "print": "FAB304-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Nikko Wahyudi",
+      ],
       "foiling": "Cold",
       "identifier": "LGS248",
       "image": "LGS248-CF",
@@ -245009,6 +245947,7 @@ exports[`Check for unintentional updates Good Time Chapeau (good-time-chapeau) v
   "rarity": "Rare",
   "setIdentifiers": [
     "BET004",
+    "FAB304",
     "HVY055",
     "LGS234",
     "LGS248",
@@ -248575,20 +249514,46 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
         "url": "https://www.tcgplayer.com/product/630341?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Nathaniel Himawan",
+      ],
+      "foiling": "Cold",
+      "identifier": "WIN048",
+      "image": "WIN048-CF",
+      "print": "WIN048-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Nathaniel Himawan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER138",
+      "image": "HER138-RF",
+      "print": "HER138-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Majestic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
     "AGB001",
+    "HER138",
     "SEA043",
+    "WIN048",
   ],
   "sets": [
     "Armory Deck: Gravy Bones",
     "High Seas",
+    "Promos",
   ],
   "shorthands": [
     "Tap",
@@ -253654,6 +254619,100 @@ exports[`Check for unintentional updates Hand of Vengeance (hand-of-vengeance) v
 }
 `;
 
+exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-destruction-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Carlos Cruchaga",
+  ],
+  "cardIdentifier": "harbinger-of-destruction-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 8,
+  "defaultImage": "IAR170-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
+
+**Blood Debt""",
+  "keywords": [
+    "Blood Debt",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Harbinger of Destruction",
+  "pitch": 1,
+  "power": 13,
+  "printings": [
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR170",
+      "image": "IAR170-RF",
+      "print": "IAR170-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "identifier": "IAR170",
+      "image": "IAR170",
+      "print": "IAR170",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR170",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR170-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Hard Knuckle (hard-knuckle) vs snapshot 1`] = `
 {
   "artists": [
@@ -254105,6 +255164,28 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
       "artists": [
         "Leo Avero",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB300",
+      "image": "FAB300-GF",
+      "print": "FAB300-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Leo Avero",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB301",
+      "image": "FAB301-GF",
+      "print": "FAB301-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Leo Avero",
+      ],
       "foiling": "Cold",
       "identifier": "LGS003",
       "image": "LGS003-CF",
@@ -254130,6 +255211,8 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
     "BEN002",
     "CRU048",
     "CRU049",
+    "FAB300",
+    "FAB301",
     "KAT002",
     "KSU003",
     "KSU004",
@@ -261621,18 +262704,32 @@ exports[`Check for unintentional updates Heavy Industry Gear Shift (heavy-indust
         "url": "https://www.tcgplayer.com/product/586567?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Simon Dominic",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG049",
+      "image": "JDG049-CF",
+      "print": "JDG049-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AIO006",
+    "JDG049",
   ],
   "sets": [
     "Armory Deck: Dash",
+    "Promos",
   ],
-  "specialImage": "AIO006-RF",
+  "specialImage": "JDG049-CF",
   "subtypes": [
     "Legs",
   ],
@@ -264136,16 +265233,30 @@ exports[`Check for unintentional updates Helm of Sharp Eye (helm-of-sharp-eye) v
         "url": "https://www.tcgplayer.com/product/261369?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Federico Musetti",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB303",
+      "image": "FAB303-GF",
+      "print": "FAB303-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "EVR053",
+    "FAB303",
   ],
   "sets": [
     "Everfest",
+    "Promos",
   ],
   "specialImage": "EVR053-CF",
   "subtypes": [
@@ -267429,18 +268540,36 @@ exports[`Check for unintentional updates Herald of Sekem (herald-of-sekem-red) v
         "url": "https://www.tcgplayer.com/product/632655?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Bastien Jez",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "LGS430",
+      "image": "LGS430-RF",
+      "print": "LGS430-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "LGS430",
     "SEA260",
   ],
   "sets": [
     "High Seas",
+    "Promos",
   ],
-  "specialImage": "SEA260",
+  "specialImage": "LGS430-RF",
   "subtypes": [
     "Attack",
   ],
@@ -269822,18 +270951,36 @@ exports[`Check for unintentional updates High Current Currency (high-current-cur
         "url": "https://www.tcgplayer.com/product/677669?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB424",
+      "image": "FAB424-CF",
+      "print": "FAB424-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "FAB424",
     "PEN323",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
-  "specialImage": "PEN323",
+  "specialImage": "FAB424-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -281652,6 +282799,20 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
       "artists": [
         "Alexander Mokhov",
       ],
+      "identifier": "JDG051",
+      "image": "JDG051",
+      "print": "JDG051-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Alexander Mokhov",
+      ],
       "foiling": "Cold",
       "identifier": "FAB176",
       "image": "FAB176-CF",
@@ -281663,6 +282824,20 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
         "url": "https://www.tcgplayer.com/product/528479?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Alexander Mokhov",
+      ],
+      "identifier": "JDG051",
+      "image": "JDG051_BACK",
+      "print": "JDG051-Full Art-Back",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Promo",
@@ -281673,13 +282848,14 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
     "AMX028",
     "EVO234",
     "FAB176",
+    "JDG051",
   ],
   "sets": [
     "Armory Deck: Maxx",
     "Bright Lights",
     "Promos",
   ],
-  "specialImage": "FAB176-CF",
+  "specialImage": "JDG051_BACK",
   "subtypes": [
     "Item",
   ],
@@ -289025,8 +290201,9 @@ exports[`Check for unintentional updates Inertia (inertia) vs snapshot 1`] = `
   "specialImage": "FAB135-RF",
   "subtypes": [
     "Aura",
+    "Disease",
   ],
-  "typeText": "Generic Token - Aura",
+  "typeText": "Generic Token - Disease Aura",
   "types": [
     "Token",
   ],
@@ -294343,18 +295520,32 @@ exports[`Check for unintentional updates Inverter's Nightcowl (inverters-nightco
         "url": "https://www.tcgplayer.com/product/668376?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG064",
+      "image": "JDG064-CF",
+      "print": "JDG064-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AAC005",
+    "JDG064",
   ],
   "sets": [
     "Armory Deck: Arakni",
+    "Promos",
   ],
-  "specialImage": "AAC005-RF",
+  "specialImage": "JDG064-CF",
   "subtypes": [
     "Chest",
   ],
@@ -296997,6 +298188,17 @@ exports[`Check for unintentional updates Ira, Scarlet Revenger (ira-scarlet-reve
       "artists": [
         "soyameii",
       ],
+      "foiling": "Cold",
+      "identifier": "HER136",
+      "image": "HER136-CF",
+      "print": "HER136-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "soyameii",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER123",
       "image": "HER123-RF",
@@ -297081,6 +298283,7 @@ exports[`Check for unintentional updates Ira, Scarlet Revenger (ira-scarlet-reve
     "HER123",
     "HER124",
     "HER125",
+    "HER136",
     "WIN040",
   ],
   "sets": [
@@ -297320,21 +298523,35 @@ exports[`Check for unintentional updates Iris of the Blossom (iris-of-the-blosso
         "url": "https://www.tcgplayer.com/product/641616?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Andrew Chou",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG063",
+      "image": "JDG063-CF",
+      "print": "JDG063-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "ASR003",
+    "JDG063",
   ],
   "sets": [
     "Armory Deck: Ira",
+    "Promos",
   ],
   "shorthands": [
     "Tap",
   ],
-  "specialImage": "ASR003-RF",
+  "specialImage": "JDG063-CF",
   "subtypes": [
     "Head",
   ],
@@ -297425,15 +298642,29 @@ exports[`Check for unintentional updates Ironfist Revelation (ironfist-revelatio
         "url": "https://www.tcgplayer.com/product/653415?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Athiwut B.",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB361",
+      "image": "FAB361-GF",
+      "print": "FAB361-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB361",
     "SUP168",
   ],
   "sets": [
+    "Promos",
     "Super Slam",
   ],
   "specialImage": "SUP168-CF",
@@ -306292,16 +307523,30 @@ Whenever the crowd boos you, create a Vigor token.",
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER151",
+      "image": "HER151-RF",
+      "print": "HER151-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "HER151",
     "SUP064",
   ],
   "sets": [
+    "Promos",
     "Super Slam",
   ],
   "shortName": "Kayo, RKO",
@@ -306409,6 +307654,17 @@ Whenever the crowd boos you, create a Vigor token.",
       "artists": [
         "Jessada Sutthi",
       ],
+      "foiling": "Cold",
+      "identifier": "WIN052",
+      "image": "WIN052-CF",
+      "print": "WIN052-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER148",
       "image": "HER148-RF",
@@ -306430,6 +307686,7 @@ Whenever the crowd boos you, create a Vigor token.",
   "setIdentifiers": [
     "HER148",
     "SUP063",
+    "WIN052",
   ],
   "sets": [
     "Promos",
@@ -308908,6 +310165,28 @@ exports[`Check for unintentional updates Kunai of Retribution (kunai-of-retribut
       "artists": [
         "Widya Wang",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB415",
+      "image": "FAB415-GF",
+      "print": "FAB415-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Widya Wang",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB416",
+      "image": "FAB416-GF",
+      "print": "FAB416-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Widya Wang",
+      ],
       "foiling": "Cold",
       "identifier": "GEM002",
       "image": "GEM002-CF",
@@ -308958,6 +310237,8 @@ exports[`Check for unintentional updates Kunai of Retribution (kunai-of-retribut
   "rarity": "Token",
   "setIdentifiers": [
     "CIN002",
+    "FAB415",
+    "FAB416",
     "GEM002",
     "GEM003",
     "HNT056",
@@ -324534,12 +325815,29 @@ exports[`Check for unintentional updates Look Tuff (look-tuff-red) vs snapshot 1
         "url": "https://www.tcgplayer.com/product/654051?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "FAB398",
+      "image": "FAB398-RF",
+      "print": "FAB398-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB398",
     "SBZ010",
     "SEN011",
     "SIY011",
@@ -324549,12 +325847,13 @@ exports[`Check for unintentional updates Look Tuff (look-tuff-red) vs snapshot 1
     "Blaze Silver Age Deck",
     "Enigma Silver Age Deck",
     "Iyslander Silver Age Deck",
+    "Promos",
     "Super Slam",
   ],
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "SBZ010",
+  "specialImage": "FAB398-RF",
   "subtypes": [
     "Attack",
   ],
@@ -327991,18 +329290,32 @@ Whenever the crowd boos you, create a Might token.",
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Nathaniel Himawan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER152",
+      "image": "HER152-RF",
+      "print": "HER152-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "HER152",
     "SLY001",
     "SUP072",
   ],
   "sets": [
     "Lyath Silver Age Deck",
+    "Promos",
     "Super Slam",
   ],
   "shorthands": [
@@ -328112,6 +329425,17 @@ Whenever the crowd boos you, create a Might token.",
       "artists": [
         "Nathaniel Himawan",
       ],
+      "foiling": "Cold",
+      "identifier": "WIN053",
+      "image": "WIN053-CF",
+      "print": "WIN053-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Nathaniel Himawan",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER149",
       "image": "HER149-RF",
@@ -328133,6 +329457,7 @@ Whenever the crowd boos you, create a Might token.",
   "setIdentifiers": [
     "HER149",
     "SUP071",
+    "WIN053",
   ],
   "sets": [
     "Promos",
@@ -334158,17 +335483,31 @@ Whenever you draw a card during your action phase, you may put an arrow from you
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER141",
+      "image": "HER141-RF",
+      "print": "HER141-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "HER141",
     "SEA083",
   ],
   "sets": [
     "High Seas",
+    "Promos",
   ],
   "shorthands": [
     "Tap",
@@ -334272,17 +335611,43 @@ Whenever you draw a card during your action phase, you may put an arrow from you
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "foiling": "Cold",
+      "identifier": "WIN049",
+      "image": "WIN049-CF",
+      "print": "WIN049-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER139",
+      "image": "HER139-RF",
+      "print": "HER139-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "HER139",
     "SEA082",
+    "WIN049",
   ],
   "sets": [
     "High Seas",
+    "Promos",
   ],
   "shorthands": [
     "Tap",
@@ -335013,16 +336378,30 @@ exports[`Check for unintentional updates Mask of Recurring Nightmares (mask-of-r
         "Extended Art",
       ],
     },
+    {
+      "artists": [
+        "Isuardi Therianto",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB225",
+      "image": "FAB225-GF",
+      "print": "FAB225-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB225",
     "MST004",
   ],
   "sets": [
     "Part the Mistveil",
+    "Promos",
   ],
   "specialImage": "MST004-CF",
   "subtypes": [
@@ -340010,16 +341389,30 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.",
         "url": "https://www.tcgplayer.com/product/551641?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Mario Wibisono",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB226",
+      "image": "FAB226-GF",
+      "print": "FAB226-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB226",
     "MST027",
   ],
   "sets": [
     "Part the Mistveil",
+    "Promos",
   ],
   "specialImage": "MST027-CF",
   "subtypes": [
@@ -344459,18 +345852,32 @@ exports[`Check for unintentional updates Mischievous Meeps (mischievous-meeps-re
         "url": "https://www.tcgplayer.com/product/503284?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG057",
+      "image": "JDG057-CF",
+      "print": "JDG057-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "DTD227",
+    "JDG057",
   ],
   "sets": [
     "Dusk till Dawn",
+    "Promos",
   ],
-  "specialImage": "DTD227",
+  "specialImage": "JDG057-CF",
   "subtypes": [
     "Attack",
   ],
@@ -362084,22 +363491,36 @@ Whenever an attack you control with Vengeance in its name hits, you may equip an
         "url": "https://www.tcgplayer.com/product/641619?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Andrew Chou",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG055",
+      "image": "JDG055-CF",
+      "print": "JDG055-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "ASR005",
+    "JDG055",
   ],
   "sets": [
     "Armory Deck: Ira",
+    "Promos",
   ],
   "shorthands": [
     "Buffs",
     "Tap",
   ],
-  "specialImage": "ASR005-RF",
+  "specialImage": "JDG055-CF",
   "subtypes": [
     "Arms",
   ],
@@ -384371,18 +385792,36 @@ Create a Might token.
         "url": "https://www.tcgplayer.com/product/676446?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Reza Aswadananta",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB432",
+      "image": "FAB432-CF",
+      "print": "FAB432-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB432",
     "PEN259",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
-  "specialImage": "PEN259",
+  "specialImage": "FAB432-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -384472,18 +385911,36 @@ Create a Vigor token.
         "url": "https://www.tcgplayer.com/product/676445?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Reza Aswadananta",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB431",
+      "image": "FAB431-CF",
+      "print": "FAB431-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB431",
     "PEN258",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
-  "specialImage": "PEN258",
+  "specialImage": "FAB431-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -384573,18 +386030,36 @@ Create a Ponder token.
         "url": "https://www.tcgplayer.com/product/676444?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Reza Aswadananta",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB430",
+      "image": "FAB430-CF",
+      "print": "FAB430-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB430",
     "PEN257",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
-  "specialImage": "PEN257",
+  "specialImage": "FAB430-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -384674,18 +386149,36 @@ Create an Agility token.
         "url": "https://www.tcgplayer.com/product/676447?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Reza Aswadananta",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB433",
+      "image": "FAB433-CF",
+      "print": "FAB433-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB433",
     "PEN260",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
-  "specialImage": "PEN260",
+  "specialImage": "FAB433-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -389930,6 +391423,17 @@ Whenever the crowd cheers you, create a Confidence token.",
       "artists": [
         "Livia Prima",
       ],
+      "foiling": "Cold",
+      "identifier": "WIN051",
+      "image": "WIN051-CF",
+      "print": "WIN051-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Livia Prima",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER147",
       "image": "HER147-RF",
@@ -389940,6 +391444,23 @@ Whenever the crowd cheers you, create a Confidence token.",
         "productId": "657481",
         "url": "https://www.tcgplayer.com/product/657481?Language=English&Printing=Rainbow+Foil",
       },
+    },
+    {
+      "artists": [
+        "MJ Fetesio",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER153",
+      "image": "HER153-RF",
+      "print": "HER153-Rainbow-Alternate Art-Alternate Border-Alternate Text",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+        "Alternate Border",
+        "Alternate Text",
+      ],
     },
   ],
   "rarities": [
@@ -389952,7 +391473,9 @@ Whenever the crowd cheers you, create a Confidence token.",
   "setIdentifiers": [
     "APS001",
     "HER147",
+    "HER153",
     "SUP009",
+    "WIN051",
   ],
   "sets": [
     "Armory Deck: Pleiades",
@@ -396013,12 +397536,44 @@ exports[`Check for unintentional updates Popped Collar Polo (popped-collar-polo)
         "url": "https://www.tcgplayer.com/product/601117?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Jessketchin",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG060",
+      "image": "JDG060-CF",
+      "print": "JDG060-Cold-Alternate Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+      ],
+    },
+    {
+      "artists": [
+        "Jessketchin",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG061",
+      "image": "JDG061-CF",
+      "print": "JDG061-Cold-Alternate Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+      ],
+    },
   ],
   "rarities": [
     "Promo",
   ],
   "rarity": "Promo",
   "setIdentifiers": [
+    "JDG060",
+    "JDG061",
     "LSS014",
     "LSS015",
     "LSS016",
@@ -396026,7 +397581,7 @@ exports[`Check for unintentional updates Popped Collar Polo (popped-collar-polo)
   "sets": [
     "Promos",
   ],
-  "specialImage": "LSS016-CF",
+  "specialImage": "JDG061-CF",
   "subtypes": [
     "Chest",
   ],
@@ -397384,17 +398939,31 @@ exports[`Check for unintentional updates Pouncing Paws (pouncing-paws) vs snapsh
         "url": "https://www.tcgplayer.com/product/517471?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Kimberly Pantoni",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB367",
+      "image": "FAB367-GF",
+      "print": "FAB367-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB367",
     "SFA009",
     "TCC082",
   ],
   "sets": [
     "Fai Silver Age Deck",
+    "Promos",
     "Round the Table: TCC x LSS",
   ],
   "specialImage": "SFA009",
@@ -404732,6 +406301,17 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
       "artists": [
         "Carlos Cruchaga",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB368",
+      "image": "FAB368-GF",
+      "print": "FAB368-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Carlos Cruchaga",
+      ],
       "foiling": "Cold",
       "identifier": "LGS254",
       "image": "LGS254-CF",
@@ -404766,6 +406346,7 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
   "rarity": "Rare",
   "setIdentifiers": [
     "AOL003",
+    "FAB368",
     "HVY098",
     "LGS236",
     "LGS254",
@@ -408702,17 +410283,31 @@ The second time you crank each turn, draw a card.",
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER140",
+      "image": "HER140-RF",
+      "print": "HER140-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "HER140",
     "SEA002",
   ],
   "sets": [
     "High Seas",
+    "Promos",
   ],
   "shorthands": [
     "Tap",
@@ -408813,17 +410408,43 @@ The second time you crank each turn, draw a card.",
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "foiling": "Cold",
+      "identifier": "WIN047",
+      "image": "WIN047-CF",
+      "print": "WIN047-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER137",
+      "image": "HER137-RF",
+      "print": "HER137-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "HER137",
     "SEA001",
+    "WIN047",
   ],
   "sets": [
     "High Seas",
+    "Promos",
   ],
   "shorthands": [
     "Tap",
@@ -426349,7 +427970,7 @@ If you've **charged** this turn, this gets +3{p}.",
       "print": "CON006-Rainbow-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
-      "treatment": "Full Art",
+      "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
         "Full Art",
@@ -430259,6 +431880,17 @@ If a hero has more {h} than each other hero, they can't gain {h}.",
     },
     {
       "artists": [
+        "Alexandra Malygina",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB407",
+      "image": "FAB407-GF",
+      "print": "FAB407-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
         "Alief Rusdiatama",
       ],
       "foiling": "Rainbow",
@@ -430280,6 +431912,7 @@ If a hero has more {h} than each other hero, they can't gain {h}.",
   ],
   "rarities": [
     "Marvel",
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
@@ -430287,6 +431920,7 @@ If a hero has more {h} than each other hero, they can't gain {h}.",
     "1HP261",
     "CON003",
     "CRU140",
+    "FAB407",
     "SVI002",
   ],
   "sets": [
@@ -433946,13 +435580,26 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
         "url": "https://www.tcgplayer.com/product/225323?Language=English&Printing=Normal",
       },
     },
+    {
+      "artists": [
+        "Anna Tanygina",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB365",
+      "image": "FAB365-GF",
+      "print": "FAB365-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "1HP145",
+    "FAB365",
     "MPW020",
     "SDO009",
     "TEA007",
@@ -433963,6 +435610,7 @@ exports[`Check for unintentional updates Refraction Bolters (refraction-bolters)
     "Dorinthea Silver Age Deck",
     "History Pack 1",
     "Mastery Pack: Warrior",
+    "Promos",
     "Welcome to Rathe",
   ],
   "specialImage": "WTR117-CF",
@@ -439557,21 +441205,35 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
         "url": "https://www.tcgplayer.com/product/676491?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Dzulfikar Aliy",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB435",
+      "image": "FAB435-CF",
+      "print": "FAB435-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB435",
     "PEN325",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "PEN325",
+  "specialImage": "FAB435-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -446936,16 +448598,34 @@ exports[`Check for unintentional updates Rippling Wave (rippling-wave) vs snapsh
         "url": "https://www.tcgplayer.com/product/677658?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "soyameii",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB411",
+      "image": "FAB411-GF",
+      "print": "FAB411-Gold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "FAB411",
     "PEN265",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "specialImage": "PEN265-CF",
   "subtypes": [
@@ -453475,18 +455155,36 @@ exports[`Check for unintentional updates Rockyard Rodeo (rockyard-rodeo-blue) vs
         "url": "https://www.tcgplayer.com/product/677668?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Jefrey Yonathan",
+      ],
+      "foiling": "Cold",
+      "identifier": "LGS448",
+      "image": "LGS448-CF",
+      "print": "LGS448-Cold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "LGS448",
     "PEN322",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
-  "specialImage": "PEN322",
+  "specialImage": "LGS448-CF",
   "specialPower": "*",
   "subtypes": [
     "Attack",
@@ -467387,21 +469085,35 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
         "url": "https://www.tcgplayer.com/product/676492?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Alexis Susani",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB436",
+      "image": "FAB436-CF",
+      "print": "FAB436-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB436",
     "PEN326",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "PEN326",
+  "specialImage": "FAB436-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -475488,6 +477200,17 @@ Whenever you activate a Goldkiss Rum, gain {r}.",
       "artists": [
         "Sam Yang",
       ],
+      "foiling": "Rainbow",
+      "identifier": "HER142",
+      "image": "HER142-RF",
+      "print": "HER142-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Sam Yang",
+      ],
       "foiling": "Cold",
       "identifier": "HER143",
       "image": "HER143-MV",
@@ -475529,6 +477252,7 @@ Whenever you activate a Goldkiss Rum, gain {r}.",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "HER142",
     "HER143",
     "SEA123",
   ],
@@ -485127,7 +486851,7 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
       "print": "CON005-Cold-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
-      "treatment": "Full Art",
+      "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
         "Full Art",
@@ -485143,7 +486867,7 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
       "print": "CON005-Cold-Alternate Art-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
-      "treatment": "Full Art",
+      "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
         "Full Art",
@@ -492581,18 +494305,32 @@ exports[`Check for unintentional updates Shock Frock (shock-frock) vs snapshot 1
         "url": "https://www.tcgplayer.com/product/620608?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Nailsen Ivanderlie",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG054",
+      "image": "JDG054-CF",
+      "print": "JDG054-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AST004",
+    "JDG054",
   ],
   "sets": [
     "Armory Deck: Aurora",
+    "Promos",
   ],
-  "specialImage": "AST004-RF",
+  "specialImage": "JDG054-CF",
   "subtypes": [
     "Chest",
   ],
@@ -496444,18 +498182,32 @@ exports[`Check for unintentional updates Sift (sift-blue) vs snapshot 1`] = `
         "url": "https://www.tcgplayer.com/product/275613?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Nikolay Moskvin",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG050",
+      "image": "JDG050-CF",
+      "print": "JDG050-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "JDG050",
     "UPR199",
   ],
   "sets": [
+    "Promos",
     "Uprising",
   ],
-  "specialImage": "UPR199",
+  "specialImage": "JDG050-CF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -508884,18 +510636,32 @@ exports[`Check for unintentional updates Skullhorn (skullhorn) vs snapshot 1`] =
         "url": "https://www.tcgplayer.com/product/225906?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Yolanda Felicia",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB409",
+      "image": "FAB409-GF",
+      "print": "FAB409-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "1HP009",
     "CRU006",
+    "FAB409",
   ],
   "sets": [
     "Crucible of War",
     "History Pack 1",
+    "Promos",
   ],
   "specialImage": "CRU006-CF",
   "subtypes": [
@@ -511220,20 +512986,34 @@ exports[`Check for unintentional updates Sledge of Anvilheim (sledge-of-anvilhei
         "url": "https://www.tcgplayer.com/product/225924?Language=English&Printing=1st+Edition+Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "bimawithpencil",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB408",
+      "image": "FAB408-GF",
+      "print": "FAB408-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
     "1HP046",
     "CRU024",
+    "FAB408",
     "SBR002",
   ],
   "sets": [
     "Bravo Silver Age Deck",
     "Crucible of War",
     "History Pack 1",
+    "Promos",
   ],
   "specialImage": "CRU024-CF",
   "subtypes": [
@@ -520117,18 +521897,32 @@ exports[`Check for unintentional updates Solar Plexus (solar-plexus) vs snapshot
         "url": "https://www.tcgplayer.com/product/557933?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Kimberly Pantoni",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG047",
+      "image": "JDG047-CF",
+      "print": "JDG047-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "ASB004",
+    "JDG047",
   ],
   "sets": [
     "Armory Deck: Boltyn",
+    "Promos",
   ],
-  "specialImage": "ASB004-RF",
+  "specialImage": "JDG047-CF",
   "subtypes": [
     "Chest",
   ],
@@ -530970,6 +532764,28 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       "artists": [
         "Marcus Reyno",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB296",
+      "image": "FAB296-GF",
+      "print": "FAB296-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Marcus Reyno",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB297",
+      "image": "FAB297-GF",
+      "print": "FAB297-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Marcus Reyno",
+      ],
       "foiling": "Cold",
       "identifier": "LGS111",
       "image": "LGS111-CF",
@@ -530995,6 +532811,8 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
     "ARK002",
     "DYN115",
     "DYN116",
+    "FAB296",
+    "FAB297",
     "LGS111",
     "OUT004",
     "UZU002",
@@ -538793,6 +540611,17 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
       "artists": [
         "Ramza Ardyputra",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB302",
+      "image": "FAB302-GF",
+      "print": "FAB302-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Ramza Ardyputra",
+      ],
       "foiling": "Rainbow",
       "identifier": "LGS332",
       "image": "LGS332-RF",
@@ -538816,6 +540645,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
     "AST002",
     "AUA002",
     "AUR002",
+    "FAB302",
     "LGS332",
     "ROS009",
     "SBA003",
@@ -553491,6 +555321,17 @@ When this hits a hero, create a Frostbite token in their exposed head, chest, ar
       "artists": [
         "Alief Rusdiatama",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB295",
+      "image": "FAB295-GF",
+      "print": "FAB295-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
       "foiling": "Cold",
       "identifier": "GEM070",
       "image": "GEM070-CF",
@@ -553510,11 +555351,13 @@ When this hits a hero, create a Frostbite token in their exposed head, chest, ar
   "rarity": "Majestic",
   "setIdentifiers": [
     "AJV002",
+    "FAB295",
     "GEM070",
   ],
   "sets": [
     "Armory Deck Origins: Jarl",
     "GEM",
+    "Promos",
   ],
   "specialImage": "GEM070-CF",
   "subtypes": [
@@ -560880,16 +562723,34 @@ exports[`Check for unintentional updates Synapse Sparkcap (synapse-sparkcap) vs 
         "url": "https://www.tcgplayer.com/product/664618?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Nikko Wahyudi",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB410",
+      "image": "FAB410-GF",
+      "print": "FAB410-Gold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "FAB410",
     "PEN057",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "shorthands": [
     "Tap",
@@ -574764,17 +576625,35 @@ exports[`Check for unintentional updates Testament of Valahai (testament-of-vala
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB405",
+      "image": "FAB405-GF",
+      "print": "FAB405-Gold-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Legendary",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB405",
     "MPG004",
   ],
   "sets": [
     "Mastery Pack: Guardian",
+    "Promos",
   ],
   "specialImage": "MPG004-MV",
   "subtypes": [
@@ -581599,15 +583478,29 @@ exports[`Check for unintentional updates Tide Flippers (tide-flippers) vs snapsh
         "url": "https://www.tcgplayer.com/product/275720?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Enmoire",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB298",
+      "image": "FAB298-GF",
+      "print": "FAB298-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB298",
     "UPR159",
   ],
   "sets": [
+    "Promos",
     "Uprising",
   ],
   "specialImage": "UPR159-CF",
@@ -584993,6 +586886,17 @@ If there is a card with cost 3 or more in your pitch zone, this gets +1{p}.",
       "artists": [
         "Kanadekana",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB363",
+      "image": "FAB363-GF",
+      "print": "FAB363-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Kanadekana",
+      ],
       "foiling": "Cold",
       "identifier": "LGS066",
       "image": "LGS066-CF",
@@ -585013,6 +586917,7 @@ If there is a card with cost 3 or more in your pitch zone, this gets +1{p}.",
   "rarity": "Token",
   "setIdentifiers": [
     "ELE202",
+    "FAB363",
     "LGS066",
     "OLD002",
     "SBR003",
@@ -586318,16 +588223,30 @@ If a card has been put into your soul this turn, instead draw 3 cards.",
         "url": "https://www.tcgplayer.com/product/237801?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Alexander Gering",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG067",
+      "image": "JDG067-CF",
+      "print": "JDG067-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
+    "JDG067",
     "MON065",
   ],
   "sets": [
     "Monarch",
+    "Promos",
   ],
   "specialImage": "MON065-RF",
   "subtypes": [],
@@ -588146,18 +590065,32 @@ exports[`Check for unintentional updates Torc of Vim (torc-of-vim) vs snapshot 1
         "url": "https://www.tcgplayer.com/product/663017?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Alief Rusdiatama",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG065",
+      "image": "JDG065-CF",
+      "print": "JDG065-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "ARR004",
+    "JDG065",
   ],
   "sets": [
     "Armory Deck: Rhinar",
+    "Promos",
   ],
-  "specialImage": "ARR004-RF",
+  "specialImage": "JDG065-CF",
   "subtypes": [
     "Chest",
   ],
@@ -593146,16 +595079,30 @@ exports[`Check for unintentional updates Traverse the Universe (traverse-the-uni
         "Extended Art",
       ],
     },
+    {
+      "artists": [
+        "Olga Tereshenko",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB228",
+      "image": "FAB228-GF",
+      "print": "FAB228-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB228",
     "MST066",
   ],
   "sets": [
     "Part the Mistveil",
+    "Promos",
   ],
   "specialImage": "MST066-CF",
   "subtypes": [
@@ -593225,6 +595172,21 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
         "productId": "648471",
         "url": "https://www.tcgplayer.com/product/648471?Language=English&Printing=Cold+Foil",
       },
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Jessada Sutthi",
+      ],
+      "foiling": "Cold",
+      "identifier": "FAB340",
+      "image": "FAB340-CF_BACK",
+      "print": "FAB340-Cold-Full Art-Back",
+      "rarity": "Promo",
+      "set": "Promos",
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -594676,6 +596638,101 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
 }
 `;
 
+exports[`Check for unintentional updates Tribute to Greater Power (tribute-to-greater-power-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Galih M",
+  ],
+  "cardIdentifier": "tribute-to-greater-power-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 2,
+  "defaultImage": "IAR177-RF",
+  "defense": 2,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Instant** - Banish this from your hand: Your next attack this turn gets **overpower**.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Overpower",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Baalghor",
+    "Chane",
+    "Levia",
+    "Malice",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Tribute to Greater Power",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Galih M",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR177",
+      "image": "IAR177-RF",
+      "print": "IAR177-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Galih M",
+      ],
+      "identifier": "IAR177",
+      "image": "IAR177",
+      "print": "IAR177",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR177",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR177-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Tribute to the Legions of Doom (tribute-to-the-legions-of-doom-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -595019,18 +597076,32 @@ exports[`Check for unintentional updates Tricorn of Saltwater Death (tricorn-of-
         "url": "https://www.tcgplayer.com/product/633690?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Thomas Ressuge",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG053",
+      "image": "JDG053-CF",
+      "print": "JDG053-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AGB004",
+    "JDG053",
   ],
   "sets": [
     "Armory Deck: Gravy Bones",
+    "Promos",
   ],
-  "specialImage": "AGB004-RF",
+  "specialImage": "JDG053-CF",
   "subtypes": [
     "Head",
   ],
@@ -596402,16 +598473,30 @@ Whenever the crowd cheers you, create a Toughness token.",
         "Full Art",
       ],
     },
+    {
+      "artists": [
+        "Wisnu Tan",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "HER150",
+      "image": "HER150-RF",
+      "print": "HER150-Rainbow",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Basic",
     "Marvel",
+    "Promo",
   ],
   "rarity": "Basic",
   "setIdentifiers": [
+    "HER150",
     "SUP002",
   ],
   "sets": [
+    "Promos",
     "Super Slam",
   ],
   "shorthands": [
@@ -596519,6 +598604,17 @@ Whenever the crowd cheers you, create a Toughness token.",
       "artists": [
         "Wisnu Tan",
       ],
+      "foiling": "Cold",
+      "identifier": "WIN050",
+      "image": "WIN050-CF",
+      "print": "WIN050-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Wisnu Tan",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER146",
       "image": "HER146-ARF",
@@ -596540,6 +598636,7 @@ Whenever the crowd cheers you, create a Toughness token.",
   "setIdentifiers": [
     "HER146",
     "SUP001",
+    "WIN050",
   ],
   "sets": [
     "Promos",
@@ -597997,16 +600094,30 @@ exports[`Check for unintentional updates Twelve Petal Kāṣāya (twelve-petal-k
         "Extended Art",
       ],
     },
+    {
+      "artists": [
+        "Billy Christian",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB227",
+      "image": "FAB227-GF",
+      "print": "FAB227-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Legendary",
+    "Promo",
   ],
   "rarity": "Legendary",
   "setIdentifiers": [
+    "FAB227",
     "MST048",
   ],
   "sets": [
     "Part the Mistveil",
+    "Promos",
   ],
   "specialImage": "MST048-CF",
   "subtypes": [
@@ -600935,16 +603046,30 @@ exports[`Check for unintentional updates Unflinching Foothold (unflinching-footh
         "url": "https://www.tcgplayer.com/product/676489?Language=English&Printing=Cold+Foil",
       },
     },
+    {
+      "artists": [
+        "Tomasz Jedruszek",
+      ],
+      "foiling": "Gold",
+      "identifier": "FAB419",
+      "image": "FAB419-GF",
+      "print": "FAB419-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
+    "Promo",
     "Rare",
   ],
   "rarity": "Rare",
   "setIdentifiers": [
+    "FAB419",
     "PEN318",
   ],
   "sets": [
     "Compendium of Rathe",
+    "Promos",
   ],
   "specialImage": "PEN318-CF",
   "subtypes": [
@@ -606640,6 +608765,17 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
       "artists": [
         "Wisnu Tan",
       ],
+      "foiling": "Cold",
+      "identifier": "WIN046",
+      "image": "WIN046-CF",
+      "print": "WIN046-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Wisnu Tan",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER135",
       "image": "HER135-RF",
@@ -606661,6 +608797,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
   "setIdentifiers": [
     "HER135",
     "MPG001",
+    "WIN046",
   ],
   "sets": [
     "Mastery Pack: Guardian",
@@ -610848,6 +612985,288 @@ exports[`Check for unintentional updates Vestige of Sol (vestige-of-sol) vs snap
   "typeText": "Light Equipment - Chest",
   "types": [
     "Equipment",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vexing Gloomblade (vexing-gloomblade-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yunior Susanto",
+  ],
+  "cardIdentifier": "vexing-gloomblade-blue",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR119-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, deal 2 arcane damage to any target.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Vexing Gloomblade",
+  "pitch": 3,
+  "power": 3,
+  "printings": [
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR119",
+      "image": "IAR119-RF",
+      "print": "IAR119-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "identifier": "IAR119",
+      "image": "IAR119",
+      "print": "IAR119",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR119",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR119-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vexing Gloomblade (vexing-gloomblade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yunior Susanto",
+  ],
+  "cardIdentifier": "vexing-gloomblade-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR117-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, deal 2 arcane damage to any target.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Vexing Gloomblade",
+  "pitch": 1,
+  "power": 5,
+  "printings": [
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR117",
+      "image": "IAR117-RF",
+      "print": "IAR117-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "identifier": "IAR117",
+      "image": "IAR117",
+      "print": "IAR117",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR117",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR117-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Vexing Gloomblade (vexing-gloomblade-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yunior Susanto",
+  ],
+  "cardIdentifier": "vexing-gloomblade-yellow",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR118-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, deal 2 arcane damage to any target.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+    "Rainbow",
+  ],
+  "name": "Vexing Gloomblade",
+  "pitch": 2,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR118",
+      "image": "IAR118-RF",
+      "print": "IAR118-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "identifier": "IAR118",
+      "image": "IAR118",
+      "print": "IAR118",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR118",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR118-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
   ],
 }
 `;
@@ -615709,6 +618128,17 @@ exports[`Check for unintentional updates Viserai (viserai) vs snapshot 1`] = `
       "artists": [
         "Wisnu Tan",
       ],
+      "foiling": "Cold",
+      "identifier": "HER068",
+      "image": "HER068-CF",
+      "print": "HER068-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Wisnu Tan",
+      ],
       "foiling": "Rainbow",
       "identifier": "HER015",
       "image": "HER015-RF",
@@ -615732,6 +618162,7 @@ exports[`Check for unintentional updates Viserai (viserai) vs snapshot 1`] = `
     "1HP259",
     "ARC076",
     "HER015",
+    "HER068",
     "SVI001",
   ],
   "sets": [
@@ -620517,7 +622948,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       "print": "CON007-Cold-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
-      "treatment": "Full Art",
+      "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
         "Full Art",
@@ -620533,7 +622964,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       "print": "CON007-Cold-Alternate Art-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
-      "treatment": "Full Art",
+      "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
         "Full Art",
@@ -631255,6 +633686,17 @@ exports[`Check for unintentional updates Well Grounded (well-grounded) vs snapsh
       "artists": [
         "Vito Febrianno",
       ],
+      "foiling": "Gold",
+      "identifier": "FAB299",
+      "image": "FAB299-GF",
+      "print": "FAB299-Gold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
+    {
+      "artists": [
+        "Vito Febrianno",
+      ],
       "foiling": "Rainbow",
       "identifier": "LGS313",
       "image": "LGS313-RF",
@@ -631273,6 +633715,7 @@ exports[`Check for unintentional updates Well Grounded (well-grounded) vs snapsh
   ],
   "rarity": "Common",
   "setIdentifiers": [
+    "FAB299",
     "FLR006",
     "LGS313",
     "ROS030",
@@ -643290,18 +645733,32 @@ exports[`Check for unintentional updates Zap Clappers (zap-clappers) vs snapshot
         "url": "https://www.tcgplayer.com/product/620609?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Asur Misoa",
+      ],
+      "foiling": "Cold",
+      "identifier": "JDG048",
+      "image": "JDG048-CF",
+      "print": "JDG048-Cold",
+      "rarity": "Promo",
+      "set": "Promos",
+    },
   ],
   "rarities": [
     "Majestic",
+    "Promo",
   ],
   "rarity": "Majestic",
   "setIdentifiers": [
     "AST005",
+    "JDG048",
   ],
   "sets": [
     "Armory Deck: Aurora",
+    "Promos",
   ],
-  "specialImage": "AST005-RF",
+  "specialImage": "JDG048-CF",
   "subtypes": [
     "Arms",
   ],

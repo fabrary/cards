@@ -52,6 +52,15 @@ export const shorthands: {
     isCardProperty: false,
     shorthands: ["DR"],
   },
+  {
+    description: "Disease",
+    expanded: ['st:"disease"'],
+    filters: {
+      subtypes: [Subtype.Disease],
+    },
+    isCardProperty: false,
+    shorthands: ["Disease"],
+  },
   // {
   //   description: "Flick daggers",
   //   expanded: ["dagger you control deal 1 damage"],

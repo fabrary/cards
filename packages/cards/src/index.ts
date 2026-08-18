@@ -24066,7 +24066,7 @@ Attack action cards played from your banished zone get +3{p}.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `**Combo** – If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
+    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
     
     
     
@@ -24160,7 +24160,7 @@ Attack action cards played from your banished zone get +3{p}.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `**Combo** – If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
+    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
     
     
     
@@ -24239,7 +24239,7 @@ Attack action cards played from your banished zone get +3{p}.`,
     cost: 0,
     defense: 3,
     
-    functionalText: `**Combo** – If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
+    functionalText: `**Combo** - If Twin Twisters was the last attack this combat chain, while this is face-up in any zone and would gain {p}, instead it gains that much plus 1.`,
     
     
     
@@ -26307,7 +26307,7 @@ If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.`,
   
   
   },{
-    artists: ["M Fakhrur Rozzi"],
+    artists: ["Brian Madya Narendra","M Fakhrur Rozzi"],
     cardIdentifier: "bank-breaker",
     classes: [Class.Mechanologist],
     defaultImage: "AMX022_BACK",
@@ -26330,12 +26330,24 @@ If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.`,
             url: "https://www.tcgplayer.com/product/628100?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Brian Madya Narendra"],
+      foiling: Foiling.Cold,
+      identifier: "JDG052",
+      image: "JDG052-MV_BACK",
+      
+      oppositeImage: "JDG052-MV",
+      print: "JDG052-Cold-Full Art-Back",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AMX022"],
-    sets: [Release.ArmoryDeckMaxx],
-    specialImage: "AMX022_BACK",
+    setIdentifiers: ["AMX022","JDG052"],
+    sets: [Release.ArmoryDeckMaxx,Release.Promos],
+    specialImage: "JDG052-MV_BACK",
     subtypes: [Subtype.TwoHanded,Subtype.Wrench],
     types: [Type.Weapon],
     typeText: "Mechanologist Weapon - Wrench (2H)",
@@ -29712,11 +29724,23 @@ If this is defended by fewer than 2 non-equipment cards, it gets **go again**.`,
             url: "https://www.tcgplayer.com/product/646478?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.Gold,
+      identifier: "FAB406",
+      image: "FAB406-GF",
+      
+      
+      print: "FAB406-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["MPG113"],
-    sets: [Release.MasteryPackGuardian],
+    setIdentifiers: ["FAB406","MPG113"],
+    sets: [Release.MasteryPackGuardian,Release.Promos],
     specialImage: "MPG113-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -33829,11 +33853,23 @@ If a yellow card is **charged** this way, this gets +1{p}.`,
             url: "https://www.tcgplayer.com/product/453190?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.Gold,
+      identifier: "FAB366",
+      image: "FAB366-GF",
+      
+      
+      print: "FAB366-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AKO006","DYN006","SKA009"],
-    sets: [Release.ArmoryDeckKayo,Release.Dynasty,Release.KayoSilverAgeDeck],
+    setIdentifiers: ["AKO006","DYN006","FAB366","SKA009"],
+    sets: [Release.ArmoryDeckKayo,Release.Dynasty,Release.KayoSilverAgeDeck,Release.Promos],
     specialImage: "DYN006-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -41569,11 +41605,23 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
             url: "https://www.tcgplayer.com/product/612698?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.Gold,
+      identifier: "FAB423",
+      image: "FAB423-GF",
+      
+      
+      print: "FAB423-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT219","SAR008","SAT009","SBA009","SBZ008","SDA011","SEN008","SIY009","SVI009"],
-    sets: [Release.ArakniSilverAgeDeck,Release.BlazeSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.PrismSilverAgeDeck,Release.TheHunted,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["FAB423","HNT219","SAR008","SAT009","SBA009","SBZ008","SDA011","SEN008","SIY009","SVI009"],
+    sets: [Release.ArakniSilverAgeDeck,Release.BlazeSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.PrismSilverAgeDeck,Release.Promos,Release.TheHunted,Release.ViseraiSilverAgeDeck],
     specialImage: "HNT219-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -41755,11 +41803,23 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
             url: "https://www.tcgplayer.com/product/617901?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.Gold,
+      identifier: "FAB422",
+      image: "FAB422-GF",
+      
+      
+      print: "FAB422-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["FNG005","HNT218","SBA007","SBR009","SBZ005","SDA008","SIY006","SKA007"],
-    sets: [Release.BlazeSilverAgeDeck,Release.BravoSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.FangBlitzDeck,Release.IyslanderSilverAgeDeck,Release.KayoSilverAgeDeck,Release.TheHunted],
+    setIdentifiers: ["FAB422","FNG005","HNT218","SBA007","SBR009","SBZ005","SDA008","SIY006","SKA007"],
+    sets: [Release.BlazeSilverAgeDeck,Release.BravoSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.FangBlitzDeck,Release.IyslanderSilverAgeDeck,Release.KayoSilverAgeDeck,Release.Promos,Release.TheHunted],
     specialImage: "HNT218-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -41971,11 +42031,23 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
             url: "https://www.tcgplayer.com/product/612695?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.Gold,
+      identifier: "FAB420",
+      image: "FAB420-GF",
+      
+      
+      print: "FAB420-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HNT216","SAZ004","SBA004","SBR005","SDA004","SEN003","SFA003","SIY003","SLY005","SVI003"],
-    sets: [Release.AzaleaSilverAgeDeck,Release.BravoSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.FaiSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.LyathSilverAgeDeck,Release.TheHunted,Release.ViseraiSilverAgeDeck],
+    setIdentifiers: ["FAB420","HNT216","SAZ004","SBA004","SBR005","SDA004","SEN003","SFA003","SIY003","SLY005","SVI003"],
+    sets: [Release.AzaleaSilverAgeDeck,Release.BravoSilverAgeDeck,Release.BriarSilverAgeDeck,Release.DashSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.FaiSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.LyathSilverAgeDeck,Release.Promos,Release.TheHunted,Release.ViseraiSilverAgeDeck],
     specialImage: "HNT216-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -42082,11 +42154,23 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
             url: "https://www.tcgplayer.com/product/617975?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Daniel Jiménez"],
+      foiling: Foiling.Gold,
+      identifier: "FAB421",
+      image: "FAB421-GF",
+      
+      
+      print: "FAB421-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["CIN004","HNT217","SLY007"],
-    sets: [Release.CindraBlitzDeck,Release.LyathSilverAgeDeck,Release.TheHunted],
+    setIdentifiers: ["CIN004","FAB421","HNT217","SLY007"],
+    sets: [Release.CindraBlitzDeck,Release.LyathSilverAgeDeck,Release.Promos,Release.TheHunted],
     specialImage: "HNT217-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -42861,7 +42945,7 @@ Your second sword attack this turn gets +1{p}.
   
   
   },{
-    artists: ["Mark Poole"],
+    artists: ["Daniel Correia","Mark Poole"],
     cardIdentifier: "blanch-red",
     classes: [Class.Generic],
     defaultImage: "MST194",
@@ -42899,12 +42983,24 @@ Your second sword attack this turn gets +1{p}.
             url: "https://www.tcgplayer.com/product/552014?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Daniel Correia"],
+      
+      identifier: "FAB400",
+      image: "FAB400",
+      
+      
+      print: "FAB400-Alternate Art-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["MST194"],
-    sets: [Release.PartTheMistveil],
-    specialImage: "MST194",
+    setIdentifiers: ["FAB400","MST194"],
+    sets: [Release.PartTheMistveil,Release.Promos],
+    specialImage: "FAB400",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
@@ -43936,6 +44032,18 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
       
     },{
         artists: ["Isuardi Therianto"],
+      foiling: Foiling.Cold,
+      identifier: "HER118",
+      image: "HER118-CF",
+      
+      
+      print: "HER118-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Isuardi Therianto"],
       foiling: Foiling.Rainbow,
       identifier: "HER117",
       image: "HER117-RF",
@@ -43952,9 +44060,9 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HER117","SBZ001"],
+    setIdentifiers: ["HER117","HER118","SBZ001"],
     sets: [Release.BlazeSilverAgeDeck,Release.Promos],
-    specialImage: "SBZ001",
+    specialImage: "HER118-CF",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
     typeText: "Wizard Hero - Young",
@@ -51226,9 +51334,9 @@ When this attacks a hero, each dagger you control deals 1 damage to them. If dam
     setIdentifiers: ["AAC030","AAZ030","ARA027","AZL028","FAB133","LGS125","OUT234","RIP028","SAZ034","UZU028"],
     sets: [Release.ArakniBlitzDeck,Release.ArmoryDeckArakni,Release.ArmoryDeckAzalea,Release.AzaleaBlitzDeck,Release.AzaleaSilverAgeDeck,Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "FAB133-RF",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.Disease],
     types: [Type.Token],
-    typeText: "Generic Token - Aura",
+    typeText: "Generic Token - Disease Aura",
 
     
     
@@ -52391,6 +52499,18 @@ When you are dealt damage, destroy this.`,
       
     },{
         artists: ["Andy Aslamov"],
+      foiling: Foiling.Gold,
+      identifier: "FAB418",
+      image: "FAB418-GF",
+      
+      
+      print: "FAB418-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Andy Aslamov"],
       foiling: Foiling.Cold,
       identifier: "LGS100",
       image: "LGS100-CF",
@@ -52422,7 +52542,7 @@ When you are dealt damage, destroy this.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["ARA004","AUR004","BDD004","DDD004","DVR004","KAT004","LGS100","LSS010","RVD004","SAR005","SAT005","SAZ006","SBA006","SDA007","SDO005","SEN005","SVI005","TER005"],
+    setIdentifiers: ["ARA004","AUR004","BDD004","DDD004","DVR004","FAB418","KAT004","LGS100","LSS010","RVD004","SAR005","SAT005","SAZ006","SBA006","SDA007","SDO005","SEN005","SVI005","TER005"],
     sets: [Release.FirstStrikeAurora,Release.FirstStrikeTerra,Release.ArakniBlitzDeck,Release.ArakniSilverAgeDeck,Release.AzaleaSilverAgeDeck,Release.BravoDemoDeck,Release.BriarSilverAgeDeck,Release.ClassicBattlesRhinarDorinthea,Release.DashSilverAgeDeck,Release.DorintheaDemoDeck,Release.DorintheaSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.KatsuBlitzDeck,Release.PrismSilverAgeDeck,Release.Promos,Release.ViseraiSilverAgeDeck],
     specialImage: "LGS100-CF",
     subtypes: [Subtype.Chest],
@@ -53486,12 +53606,24 @@ Your next sword attack this turn gets +3{p} and "When this attacks, **wager** wi
             url: "https://www.tcgplayer.com/product/654049?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB396",
+      image: "FAB396-RF",
+      
+      
+      print: "FAB396-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SUP221"],
-    sets: [Release.SuperSlam],
-    specialImage: "SUP221",
+    setIdentifiers: ["FAB396","SUP221"],
+    sets: [Release.Promos,Release.SuperSlam],
+    specialImage: "FAB396-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
@@ -54257,11 +54389,23 @@ If you've **charged** this turn, this gets "When this hits, draw a card."`,
             url: "https://www.tcgplayer.com/product/664619?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Mariusz Gandzel"],
+      foiling: Foiling.Gold,
+      identifier: "FAB417",
+      image: "FAB417-GF",
+      
+      
+      print: "FAB417-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["PEN082","SAZ008"],
-    sets: [Release.AzaleaSilverAgeDeck,Release.CompendiumOfRathe],
+    setIdentifiers: ["FAB417","PEN082","SAZ008"],
+    sets: [Release.AzaleaSilverAgeDeck,Release.CompendiumOfRathe,Release.Promos],
     specialImage: "PEN082-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -61772,12 +61916,24 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
             url: "https://www.tcgplayer.com/product/628093?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.Cold,
+      identifier: "JDG046",
+      image: "JDG046-CF",
+      
+      
+      print: "JDG046-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AMX003"],
-    sets: [Release.ArmoryDeckMaxx],
-    specialImage: "AMX003-RF",
+    setIdentifiers: ["AMX003","JDG046"],
+    sets: [Release.ArmoryDeckMaxx,Release.Promos],
+    specialImage: "JDG046-CF",
     subtypes: [Subtype.Base,Subtype.Head],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Base Head",
@@ -62481,12 +62637,24 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
             url: "https://www.tcgplayer.com/product/633693?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.Cold,
+      identifier: "JDG066",
+      image: "JDG066-CF",
+      
+      
+      print: "JDG066-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AGB007"],
-    sets: [Release.ArmoryDeckGravyBones],
-    specialImage: "AGB007-RF",
+    setIdentifiers: ["AGB007","JDG066"],
+    sets: [Release.ArmoryDeckGravyBones,Release.Promos],
+    specialImage: "JDG066-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Pirate Necromancer Equipment - Legs",
@@ -66555,11 +66723,23 @@ If you control a Hyper Driver, this gets **overpower**.`,
             url: "https://www.tcgplayer.com/product/612699?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Gold,
+      identifier: "FAB369",
+      image: "FAB369-GF",
+      
+      
+      print: "FAB369-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["HNT220"],
-    sets: [Release.TheHunted],
+    setIdentifiers: ["FAB369","HNT220"],
+    sets: [Release.Promos,Release.TheHunted],
     specialImage: "HNT220-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -76426,12 +76606,24 @@ At the start of your turn, destroy this.`,
             url: "https://www.tcgplayer.com/product/654050?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Jackson Tjota"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB397",
+      image: "FAB397-RF",
+      
+      
+      print: "FAB397-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SUP222"],
-    sets: [Release.SuperSlam],
-    specialImage: "SUP222",
+    setIdentifiers: ["FAB397","SUP222"],
+    sets: [Release.Promos,Release.SuperSlam],
+    specialImage: "FAB397-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
@@ -83118,12 +83310,24 @@ Destroy target blue aura.`,
             url: "https://www.tcgplayer.com/product/676490?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Orson CaptainSass"],
+      foiling: Foiling.Cold,
+      identifier: "FAB434",
+      image: "FAB434-CF",
+      
+      
+      print: "FAB434-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["PEN324"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN324",
+    setIdentifiers: ["FAB434","PEN324"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB434-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -90218,6 +90422,18 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       
     },{
         artists: ["Nikko Wahyudi"],
+      foiling: Foiling.Gold,
+      identifier: "FAB364",
+      image: "FAB364-GF",
+      
+      
+      print: "FAB364-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Nikko Wahyudi"],
       foiling: Foiling.Cold,
       identifier: "GEM037",
       image: "GEM037-CF",
@@ -90249,7 +90465,7 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
     },],
     rarities: [Rarity.Basic,Rarity.Common,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB003","GEM037","LGS398","SEA045","SGB002"],
+    setIdentifiers: ["AGB003","FAB364","GEM037","LGS398","SEA045","SGB002"],
     sets: [Release.ArmoryDeckGravyBones,Release.GEM,Release.GravyBonesSilverAgeDeck,Release.HighSeas,Release.Promos],
     specialImage: "GEM037-CF",
     subtypes: [Subtype.OffHand],
@@ -92619,7 +92835,7 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
   
   
   },{
-    artists: ["MJ Fetesio"],
+    artists: ["MJ Fetesio","Olga Tereshenko"],
     cardIdentifier: "consign-to-cosmos--shock-yellow",
     classes: [Class.Wizard],
     defaultImage: "SEA259",
@@ -92657,12 +92873,24 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
             url: "https://www.tcgplayer.com/product/633378?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["MJ Fetesio","Olga Tereshenko"],
+      foiling: Foiling.Cold,
+      identifier: "LGS429",
+      image: "LGS429-CF",
+      
+      
+      print: "LGS429-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA259"],
-    sets: [Release.HighSeas],
-    specialImage: "SEA259",
+    setIdentifiers: ["LGS429","SEA259"],
+    sets: [Release.HighSeas,Release.Promos],
+    specialImage: "LGS429-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action,Type.Instant],
     typeText: "Lightning Wizard Action // Lightning Instant",
@@ -93218,12 +93446,24 @@ Deal 1 arcane damage to any target.`,
             url: "https://www.tcgplayer.com/product/628100?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Andi Cahyo W"],
+      foiling: Foiling.Cold,
+      identifier: "JDG052",
+      image: "JDG052-MV",
+      
+      oppositeImage: "JDG052-MV_BACK",
+      print: "JDG052-Cold-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AMX022"],
-    sets: [Release.ArmoryDeckMaxx],
-    specialImage: "AMX022",
+    setIdentifiers: ["AMX022","JDG052"],
+    sets: [Release.ArmoryDeckMaxx,Release.Promos],
+    specialImage: "JDG052-MV",
     subtypes: [Subtype.Construct,Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Mechanologist Action - Construct",
@@ -95971,12 +96211,24 @@ This card's attacks get **go again**.
             url: "https://www.tcgplayer.com/product/551656?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Olga Tereshenko"],
+      foiling: Foiling.Cold,
+      identifier: "FAB230",
+      image: "FAB230-CF",
+      
+      
+      print: "FAB230-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["MST076"],
-    sets: [Release.PartTheMistveil],
-    specialImage: "MST076",
+    setIdentifiers: ["FAB230","MST076"],
+    sets: [Release.PartTheMistveil,Release.Promos],
+    specialImage: "FAB230-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Mystic Action - Attack",
@@ -123667,12 +123919,24 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
             url: "https://www.tcgplayer.com/product/676497?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Jen Santos"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB442",
+      image: "FAB442-RF",
+      
+      
+      print: "FAB442-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["PEN331","SLY012"],
-    sets: [Release.CompendiumOfRathe,Release.LyathSilverAgeDeck],
-    specialImage: "SLY012",
+    setIdentifiers: ["FAB442","PEN331","SLY012"],
+    sets: [Release.CompendiumOfRathe,Release.LyathSilverAgeDeck,Release.Promos],
+    specialImage: "FAB442-RF",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Generic Defense Reaction",
@@ -126892,12 +127156,24 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
             url: "https://www.tcgplayer.com/product/628095?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Firaz M. Rasyid"],
+      foiling: Foiling.Cold,
+      identifier: "JDG056",
+      image: "JDG056-CF",
+      
+      
+      print: "JDG056-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AMX006"],
-    sets: [Release.ArmoryDeckMaxx],
-    specialImage: "AMX006-RF",
+    setIdentifiers: ["AMX006","JDG056"],
+    sets: [Release.ArmoryDeckMaxx,Release.Promos],
+    specialImage: "JDG056-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Legs",
@@ -131559,11 +131835,23 @@ Target dagger attack gets +3{p}.`,
             url: "https://www.tcgplayer.com/product/677656?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Gold,
+      identifier: "FAB412",
+      image: "FAB412-GF",
+      
+      
+      print: "FAB412-Gold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["PEN252"],
-    sets: [Release.CompendiumOfRathe],
+    setIdentifiers: ["FAB412","PEN252"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
     specialImage: "PEN252-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -133960,11 +134248,23 @@ Create an Ursur, the Soul Reaper token.`,
             url: "https://www.tcgplayer.com/product/225950?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
+    },{
+        artists: ["Fajareka Setiawan"],
+      foiling: Foiling.Gold,
+      identifier: "FAB362",
+      image: "FAB362-GF",
+      
+      
+      print: "FAB362-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP090","ASR002","CRU050","IRA002","TCC078"],
-    sets: [Release.ArmoryDeckIra,Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.RoundTheTable],
+    setIdentifiers: ["1HP090","ASR002","CRU050","FAB362","IRA002","TCC078"],
+    sets: [Release.ArmoryDeckIra,Release.CrucibleOfWar,Release.HistoryPack1,Release.IraWelcomeDeck,Release.Promos,Release.RoundTheTable],
     specialImage: "CRU050-CF",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
     types: [Type.Weapon],
@@ -149113,7 +149413,7 @@ This can't be defended by equipment or reaction cards.`,
   
   
   },{
-    artists: ["MJ Fetesio"],
+    artists: ["MJ Fetesio","Olga Tereshenko"],
     cardIdentifier: "everbloom--life-blue",
     classes: [Class.NotClassed],
     defaultImage: "SEA258",
@@ -149151,12 +149451,24 @@ This can't be defended by equipment or reaction cards.`,
             url: "https://www.tcgplayer.com/product/633377?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["MJ Fetesio","Olga Tereshenko"],
+      foiling: Foiling.Cold,
+      identifier: "LGS428",
+      image: "LGS428-CF",
+      
+      
+      print: "LGS428-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA258"],
-    sets: [Release.HighSeas],
-    specialImage: "SEA258",
+    setIdentifiers: ["LGS428","SEA258"],
+    sets: [Release.HighSeas,Release.Promos],
+    specialImage: "LGS428-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action,Type.Instant],
     typeText: "Earth Action // Instant",
@@ -149676,11 +149988,23 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
             url: "https://www.tcgplayer.com/product/517866?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB216",
+      image: "FAB216-RF",
+      
+      
+      print: "FAB216-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO047"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO047","FAB216"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO047-CF",
     subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -150091,11 +150415,23 @@ Evo legs cost you {r} less to play.
             url: "https://www.tcgplayer.com/product/517881?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB220",
+      image: "FAB220-RF",
+      
+      
+      print: "FAB220-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO051"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO051","FAB220"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO051-CF",
     subtypes: [Subtype.Chest,Subtype.Evo],
     types: [Type.Equipment,Type.Instant],
@@ -150172,11 +150508,23 @@ When this is equipped, gain {r}.`,
             url: "https://www.tcgplayer.com/product/517873?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB218",
+      image: "FAB218-RF",
+      
+      
+      print: "FAB218-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO049"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO049","FAB218"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO049-CF",
     subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -150336,11 +150684,23 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
             url: "https://www.tcgplayer.com/product/517870?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB217",
+      image: "FAB217-RF",
+      
+      
+      print: "FAB217-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO048"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO048","FAB217"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO048-CF",
     subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -150517,11 +150877,23 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
             url: "https://www.tcgplayer.com/product/517865?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB215",
+      image: "FAB215-RF",
+      
+      
+      print: "FAB215-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO046"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO046","FAB215"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO046-CF",
     subtypes: [Subtype.Evo,Subtype.Head,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -150683,11 +151055,23 @@ Your Teklo Blaster costs {r} less to activate for each opponent.
             url: "https://www.tcgplayer.com/product/517842?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB208",
+      image: "FAB208-RF",
+      
+      
+      print: "FAB208-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["EVO035"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO035","FAB208"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO035-CF",
     subtypes: [Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -151343,11 +151727,23 @@ Your Teklo Blaster gets +1{p} for each opponent.
             url: "https://www.tcgplayer.com/product/517854?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB213",
+      image: "FAB213-RF",
+      
+      
+      print: "FAB213-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO044"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO044","FAB213"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO044-CF",
     subtypes: [Subtype.Arms,Subtype.Base,Subtype.Evo,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -151424,11 +151820,23 @@ Your Teklo Blaster gets +1{p} for each opponent.
             url: "https://www.tcgplayer.com/product/517849?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB212",
+      image: "FAB212-RF",
+      
+      
+      print: "FAB212-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO043"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO043","FAB212"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO043-CF",
     subtypes: [Subtype.Base,Subtype.Chest,Subtype.Evo,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -151505,11 +151913,23 @@ Your Teklo Blaster gets +1{p} for each opponent.
             url: "https://www.tcgplayer.com/product/517848?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB211",
+      image: "FAB211-RF",
+      
+      
+      print: "FAB211-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO042"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO042","FAB211"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO042-CF",
     subtypes: [Subtype.Base,Subtype.Evo,Subtype.Head,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -151586,11 +152006,23 @@ Your Teklo Blaster gets +1{p} for each opponent.
             url: "https://www.tcgplayer.com/product/517855?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB214",
+      image: "FAB214-RF",
+      
+      
+      print: "FAB214-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO045"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO045","FAB214"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO045-CF",
     subtypes: [Subtype.Base,Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -151750,11 +152182,23 @@ When this is equipped, deal 1 damage to any target.
             url: "https://www.tcgplayer.com/product/517844?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB209",
+      image: "FAB209-RF",
+      
+      
+      print: "FAB209-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["EVO036"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO036","FAB209"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO036-CF",
     subtypes: [Subtype.Arms,Subtype.Evo,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -152331,11 +152775,23 @@ Your Teklo Blaster attacks can target any opponent.
             url: "https://www.tcgplayer.com/product/517846?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Marco González"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB210",
+      image: "FAB210-RF",
+      
+      
+      print: "FAB210-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["EVO037"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO037","FAB210"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO037-CF",
     subtypes: [Subtype.Evo,Subtype.Legs,Subtype.NonAttack],
     types: [Type.Action,Type.Equipment],
@@ -152414,11 +152870,23 @@ Your Teklo Blaster attacks can target any opponent.
             url: "https://www.tcgplayer.com/product/517883?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB221",
+      image: "FAB221-RF",
+      
+      
+      print: "FAB221-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO052"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO052","FAB221"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO052-CF",
     subtypes: [Subtype.Arms,Subtype.Evo],
     types: [Type.Equipment,Type.Instant],
@@ -152495,11 +152963,23 @@ When this is equipped, up to 1 target attack gets +1{p}.`,
             url: "https://www.tcgplayer.com/product/517884?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB222",
+      image: "FAB222-RF",
+      
+      
+      print: "FAB222-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO053"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO053","FAB222"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO053-CF",
     subtypes: [Subtype.Evo,Subtype.Legs],
     types: [Type.Equipment,Type.Instant],
@@ -152576,11 +153056,23 @@ When this is equipped, up to 1 target attack gets **go again**.`,
             url: "https://www.tcgplayer.com/product/517879?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB219",
+      image: "FAB219-RF",
+      
+      
+      print: "FAB219-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["EVO050"],
-    sets: [Release.BrightLights],
+    setIdentifiers: ["EVO050","FAB219"],
+    sets: [Release.BrightLights,Release.Promos],
     specialImage: "EVO050-CF",
     subtypes: [Subtype.Evo,Subtype.Head],
     types: [Type.Equipment,Type.Instant],
@@ -163981,7 +164473,7 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -174611,9 +175103,9 @@ When this defends an attack with {p} less than its base, its controller discards
     setIdentifiers: ["AAZ031","ARA028","AZL029","FAB134","LGS126","OUT235","RIP029","SAZ035","UZU029"],
     sets: [Release.ArakniBlitzDeck,Release.ArmoryDeckAzalea,Release.AzaleaBlitzDeck,Release.AzaleaSilverAgeDeck,Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "FAB134-RF",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.Disease],
     types: [Type.Token],
-    typeText: "Generic Token - Aura",
+    typeText: "Generic Token - Disease Aura",
 
     
     
@@ -181733,11 +182225,23 @@ You may put a Hyper Driver from your banished zone into the arena.
             url: "https://www.tcgplayer.com/product/593961?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Gold,
+      identifier: "FAB289",
+      image: "FAB289-GF",
+      
+      
+      print: "FAB289-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["AJV006"],
-    sets: [Release.ArmoryDeckOriginsJarl],
+    setIdentifiers: ["AJV006","FAB289"],
+    sets: [Release.ArmoryDeckOriginsJarl,Release.Promos],
     specialImage: "AJV006-RF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -181814,11 +182318,23 @@ You may put a Hyper Driver from your banished zone into the arena.
             url: "https://www.tcgplayer.com/product/653292?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Junaidi Lim"],
+      foiling: Foiling.Gold,
+      identifier: "FAB360",
+      image: "FAB360-GF",
+      
+      
+      print: "FAB360-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["SUP125"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["FAB360","SUP125"],
+    sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP125-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -186049,11 +186565,23 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
             url: "https://www.tcgplayer.com/product/677663?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.Gold,
+      identifier: "FAB413",
+      image: "FAB413-GF",
+      
+      
+      print: "FAB413-Gold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["PEN287"],
-    sets: [Release.CompendiumOfRathe],
+    setIdentifiers: ["FAB413","PEN287"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
     specialImage: "PEN287-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -190342,6 +190870,18 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
       
     },{
         artists: ["Nikko Wahyudi"],
+      foiling: Foiling.Gold,
+      identifier: "FAB304",
+      image: "FAB304-GF",
+      
+      
+      print: "FAB304-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Nikko Wahyudi"],
       foiling: Foiling.Cold,
       identifier: "LGS248",
       image: "LGS248-CF",
@@ -190373,7 +190913,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["BET004","HVY055","LGS234","LGS248"],
+    setIdentifiers: ["BET004","FAB304","HVY055","LGS234","LGS248"],
     sets: [Release.BetsyBlitzDeck,Release.HeavyHitters,Release.Promos],
     specialImage: "LGS248-CF",
     subtypes: [Subtype.Head],
@@ -193019,11 +193559,35 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
             url: "https://www.tcgplayer.com/product/630341?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.Cold,
+      identifier: "WIN048",
+      image: "WIN048-CF",
+      
+      
+      print: "WIN048-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER138",
+      image: "HER138-RF",
+      
+      
+      print: "HER138-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["AGB001","SEA043"],
-    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas],
+    setIdentifiers: ["AGB001","HER138","SEA043","WIN048"],
+    sets: [Release.ArmoryDeckGravyBones,Release.HighSeas,Release.Promos],
     specialImage: "SEA043-MV",
     subtypes: [],
     types: [Type.Hero],
@@ -197283,6 +197847,30 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       
     },{
         artists: ["Leo Avero"],
+      foiling: Foiling.Gold,
+      identifier: "FAB300",
+      image: "FAB300-GF",
+      
+      
+      print: "FAB300-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Leo Avero"],
+      foiling: Foiling.Gold,
+      identifier: "FAB301",
+      image: "FAB301-GF",
+      
+      
+      print: "FAB301-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Leo Avero"],
       foiling: Foiling.Cold,
       identifier: "LGS003",
       image: "LGS003-CF",
@@ -197299,7 +197887,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["1HP091","1HP092","BEN002","CRU048","CRU049","KAT002","KSU003","KSU004","LGS003","OUT048","WTR078","XXX008"],
+    setIdentifiers: ["1HP091","1HP092","BEN002","CRU048","CRU049","FAB300","FAB301","KAT002","KSU003","KSU004","LGS003","OUT048","WTR078","XXX008"],
     sets: [Release.BenjiBlitzDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.KatsuBlitzDeck,Release.KatsuHeroDeck,Release.Outsiders,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR078",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
@@ -203174,12 +203762,24 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
             url: "https://www.tcgplayer.com/product/586567?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Simon Dominic"],
+      foiling: Foiling.Cold,
+      identifier: "JDG049",
+      image: "JDG049-CF",
+      
+      
+      print: "JDG049-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AIO006"],
-    sets: [Release.ArmoryDeckDash],
-    specialImage: "AIO006-RF",
+    setIdentifiers: ["AIO006","JDG049"],
+    sets: [Release.ArmoryDeckDash,Release.Promos],
+    specialImage: "JDG049-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
     typeText: "Mechanologist Equipment - Legs",
@@ -205052,11 +205652,23 @@ When the combat chain closes, if you've attacked with this, banish it.
             url: "https://www.tcgplayer.com/product/261369?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
+    },{
+        artists: ["Federico Musetti"],
+      foiling: Foiling.Gold,
+      identifier: "FAB303",
+      image: "FAB303-GF",
+      
+      
+      print: "FAB303-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["EVR053"],
-    sets: [Release.Everfest],
+    setIdentifiers: ["EVR053","FAB303"],
+    sets: [Release.Everfest,Release.Promos],
     specialImage: "EVR053-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -207748,12 +208360,24 @@ When this hits, put it into your soul and the defending hero can't play cards fr
             url: "https://www.tcgplayer.com/product/632655?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Bastien Jez"],
+      foiling: Foiling.Rainbow,
+      identifier: "LGS430",
+      image: "LGS430-RF",
+      
+      
+      print: "LGS430-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["SEA260"],
-    sets: [Release.HighSeas],
-    specialImage: "SEA260",
+    setIdentifiers: ["LGS430","SEA260"],
+    sets: [Release.HighSeas,Release.Promos],
+    specialImage: "LGS430-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Light Illusionist Action - Attack",
@@ -209702,12 +210326,24 @@ Whenever this attacks, it deals damage to you equal to 6 minus the number of car
             url: "https://www.tcgplayer.com/product/677669?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Cold,
+      identifier: "FAB424",
+      image: "FAB424-CF",
+      
+      
+      print: "FAB424-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["PEN323"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN323",
+    setIdentifiers: ["FAB424","PEN323"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB424-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -219313,6 +219949,18 @@ When this attacks, if it **scrapped** a card, this gets **overpower**.`,
       
     },{
         artists: ["Alexander Mokhov"],
+      
+      identifier: "JDG051",
+      image: "JDG051",
+      
+      
+      print: "JDG051-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Alexander Mokhov"],
       foiling: Foiling.Cold,
       identifier: "FAB176",
       image: "FAB176-CF",
@@ -219326,12 +219974,24 @@ When this attacks, if it **scrapped** a card, this gets **overpower**.`,
             url: "https://www.tcgplayer.com/product/528479?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Alexander Mokhov"],
+      
+      identifier: "JDG051",
+      image: "JDG051_BACK",
+      
+      
+      print: "JDG051-Full Art-Back",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["AMX028","EVO234","FAB176"],
+    setIdentifiers: ["AMX028","EVO234","FAB176","JDG051"],
     sets: [Release.ArmoryDeckMaxx,Release.BrightLights,Release.Promos],
-    specialImage: "FAB176-CF",
+    specialImage: "JDG051_BACK",
     subtypes: [Subtype.Item],
     types: [Type.Token],
     typeText: "Mechanologist Token - Item",
@@ -225270,9 +225930,9 @@ If it has 3 or more +1{p} counters, your next attack with it this turn gets "Whe
     setIdentifiers: ["AAZ032","ARA029","AZL030","FAB135","LGS127","OUT236","RIP030","SAZ036","UZU030"],
     sets: [Release.ArakniBlitzDeck,Release.ArmoryDeckAzalea,Release.AzaleaBlitzDeck,Release.AzaleaSilverAgeDeck,Release.Outsiders,Release.Promos,Release.RiptideBlitzDeck,Release.UzuriBlitzDeck],
     specialImage: "FAB135-RF",
-    subtypes: [Subtype.Aura],
+    subtypes: [Subtype.Aura,Subtype.Disease],
     types: [Type.Token],
-    typeText: "Generic Token - Aura",
+    typeText: "Generic Token - Disease Aura",
 
     
     
@@ -229617,12 +230277,24 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
             url: "https://www.tcgplayer.com/product/668376?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.Cold,
+      identifier: "JDG064",
+      image: "JDG064-CF",
+      
+      
+      print: "JDG064-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AAC005"],
-    sets: [Release.ArmoryDeckArakni],
-    specialImage: "AAC005-RF",
+    setIdentifiers: ["AAC005","JDG064"],
+    sets: [Release.ArmoryDeckArakni,Release.Promos],
+    specialImage: "JDG064-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Assassin Equipment - Chest",
@@ -231747,6 +232419,18 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
       
     },{
         artists: ["soyameii"],
+      foiling: Foiling.Cold,
+      identifier: "HER136",
+      image: "HER136-CF",
+      
+      
+      print: "HER136-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["soyameii"],
       foiling: Foiling.Rainbow,
       identifier: "HER123",
       image: "HER123-RF",
@@ -231808,7 +232492,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["ASR001","HER123","HER124","HER125","WIN040"],
+    setIdentifiers: ["ASR001","HER123","HER124","HER125","HER136","WIN040"],
     sets: [Release.ArmoryDeckIra,Release.Promos],
     specialImage: "JA_HER125-CF_BACK",
     subtypes: [],
@@ -232020,12 +232704,24 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
             url: "https://www.tcgplayer.com/product/641616?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.Cold,
+      identifier: "JDG063",
+      image: "JDG063-CF",
+      
+      
+      print: "JDG063-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["ASR003"],
-    sets: [Release.ArmoryDeckIra],
-    specialImage: "ASR003-RF",
+    setIdentifiers: ["ASR003","JDG063"],
+    sets: [Release.ArmoryDeckIra,Release.Promos],
+    specialImage: "JDG063-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Ninja Equipment - Head",
@@ -232101,11 +232797,23 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
             url: "https://www.tcgplayer.com/product/653415?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Athiwut B."],
+      foiling: Foiling.Gold,
+      identifier: "FAB361",
+      image: "FAB361-GF",
+      
+      
+      print: "FAB361-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["SUP168"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["FAB361","SUP168"],
+    sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP168-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -239150,11 +239858,23 @@ The first time you discard a card with 6 or more {p} during each of your action 
             url: "https://www.tcgplayer.com/product/653952?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER151",
+      image: "HER151-RF",
+      
+      
+      print: "HER151-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SUP064"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["HER151","SUP064"],
+    sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP064-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -239250,6 +239970,18 @@ Whenever the crowd boos you, create a Vigor token.`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Jessada Sutthi"],
+      foiling: Foiling.Cold,
+      identifier: "WIN052",
+      image: "WIN052-CF",
+      
+      
+      print: "WIN052-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Jessada Sutthi"],
       foiling: Foiling.Rainbow,
       identifier: "HER148",
       image: "HER148-RF",
@@ -239266,7 +239998,7 @@ Whenever the crowd boos you, create a Vigor token.`,
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["HER148","SUP063"],
+    setIdentifiers: ["HER148","SUP063","WIN052"],
     sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP063-MV",
     subtypes: [],
@@ -241189,6 +241921,30 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
       
     },{
         artists: ["Widya Wang"],
+      foiling: Foiling.Gold,
+      identifier: "FAB415",
+      image: "FAB415-GF",
+      
+      
+      print: "FAB415-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Widya Wang"],
+      foiling: Foiling.Gold,
+      identifier: "FAB416",
+      image: "FAB416-GF",
+      
+      
+      print: "FAB416-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Widya Wang"],
       foiling: Foiling.Cold,
       identifier: "GEM002",
       image: "GEM002-CF",
@@ -241235,7 +241991,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["CIN002","GEM002","GEM003","HNT056","LGS373"],
+    setIdentifiers: ["CIN002","FAB415","FAB416","GEM002","GEM003","HNT056","LGS373"],
     sets: [Release.CindraBlitzDeck,Release.GEM,Release.Promos,Release.TheHunted],
     specialImage: "GEM003-CF",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
@@ -253303,12 +254059,24 @@ If you've **boosted** this turn, **opt 1**.
             url: "https://www.tcgplayer.com/product/654051?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "FAB398",
+      image: "FAB398-RF",
+      
+      
+      print: "FAB398-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SBZ010","SEN011","SIY011","SUP223"],
-    sets: [Release.BlazeSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.SuperSlam],
-    specialImage: "SBZ010",
+    setIdentifiers: ["FAB398","SBZ010","SEN011","SIY011","SUP223"],
+    sets: [Release.BlazeSilverAgeDeck,Release.EnigmaSilverAgeDeck,Release.IyslanderSilverAgeDeck,Release.Promos,Release.SuperSlam],
+    specialImage: "FAB398-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
@@ -255984,11 +256752,23 @@ If there is a yellow card in your pitch zone, your Illusionist attacks get **go 
             url: "https://www.tcgplayer.com/product/653954?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Nathaniel Himawan"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER152",
+      image: "HER152-RF",
+      
+      
+      print: "HER152-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SLY001","SUP072"],
-    sets: [Release.LyathSilverAgeDeck,Release.SuperSlam],
+    setIdentifiers: ["HER152","SLY001","SUP072"],
+    sets: [Release.LyathSilverAgeDeck,Release.Promos,Release.SuperSlam],
     specialImage: "SUP072-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -256084,6 +256864,18 @@ Whenever the crowd boos you, create a Might token.`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Nathaniel Himawan"],
+      foiling: Foiling.Cold,
+      identifier: "WIN053",
+      image: "WIN053-CF",
+      
+      
+      print: "WIN053-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Nathaniel Himawan"],
       foiling: Foiling.Rainbow,
       identifier: "HER149",
       image: "HER149-RF",
@@ -256100,7 +256892,7 @@ Whenever the crowd boos you, create a Might token.`,
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["HER149","SUP071"],
+    setIdentifiers: ["HER149","SUP071","WIN053"],
     sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP071-MV",
     subtypes: [],
@@ -260971,11 +261763,23 @@ When this hits a hero, **mark** them.`,
             url: "https://www.tcgplayer.com/product/634589?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Sam Yang"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER141",
+      image: "HER141-RF",
+      
+      
+      print: "HER141-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA083"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["HER141","SEA083"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA083-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -261067,11 +261871,35 @@ Whenever you draw a card during your action phase, you may put an arrow from you
             url: "https://www.tcgplayer.com/product/624359?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Sam Yang"],
+      foiling: Foiling.Cold,
+      identifier: "WIN049",
+      image: "WIN049-CF",
+      
+      
+      print: "WIN049-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Sam Yang"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER139",
+      image: "HER139-RF",
+      
+      
+      print: "HER139-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA082"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["HER139","SEA082","WIN049"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA082-MV",
     subtypes: [],
     types: [Type.Hero],
@@ -261707,11 +262535,23 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
             url: "https://www.tcgplayer.com/product/551607?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Isuardi Therianto"],
+      foiling: Foiling.Gold,
+      identifier: "FAB225",
+      image: "FAB225-GF",
+      
+      
+      print: "FAB225-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["MST004"],
-    sets: [Release.PartTheMistveil],
+    setIdentifiers: ["FAB225","MST004"],
+    sets: [Release.PartTheMistveil,Release.Promos],
     specialImage: "MST004-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -266131,11 +266971,23 @@ When this attacks, if it's {p} is greater than twice its base, the attack gets *
             url: "https://www.tcgplayer.com/product/551641?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Mario Wibisono"],
+      foiling: Foiling.Gold,
+      identifier: "FAB226",
+      image: "FAB226-GF",
+      
+      
+      print: "FAB226-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["MST027"],
-    sets: [Release.PartTheMistveil],
+    setIdentifiers: ["FAB226","MST027"],
+    sets: [Release.PartTheMistveil,Release.Promos],
     specialImage: "MST027-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -269555,12 +270407,24 @@ When this is destroyed, create a token copy of an aura you control.`,
             url: "https://www.tcgplayer.com/product/503284?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Cold,
+      identifier: "JDG057",
+      image: "JDG057-CF",
+      
+      
+      print: "JDG057-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["DTD227"],
-    sets: [Release.DuskTillDawn],
-    specialImage: "DTD227",
+    setIdentifiers: ["DTD227","JDG057"],
+    sets: [Release.DuskTillDawn,Release.Promos],
+    specialImage: "JDG057-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
@@ -282576,12 +283440,24 @@ When this hits a hero, create a Might and a Vigor token.`,
             url: "https://www.tcgplayer.com/product/641619?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Andrew Chou"],
+      foiling: Foiling.Cold,
+      identifier: "JDG055",
+      image: "JDG055-CF",
+      
+      
+      print: "JDG055-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["ASR005"],
-    sets: [Release.ArmoryDeckIra],
-    specialImage: "ASR005-RF",
+    setIdentifiers: ["ASR005","JDG055"],
+    sets: [Release.ArmoryDeckIra,Release.Promos],
+    specialImage: "JDG055-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Ninja Equipment - Arms",
@@ -299126,12 +300002,24 @@ When this is destroyed, create a Spectral Shield token.`,
             url: "https://www.tcgplayer.com/product/676446?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Cold,
+      identifier: "FAB432",
+      image: "FAB432-CF",
+      
+      
+      print: "FAB432-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["PEN259"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN259",
+    setIdentifiers: ["FAB432","PEN259"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB432-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Action",
@@ -299211,12 +300099,24 @@ Create a Might token.
             url: "https://www.tcgplayer.com/product/676445?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Cold,
+      identifier: "FAB431",
+      image: "FAB431-CF",
+      
+      
+      print: "FAB431-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["PEN258"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN258",
+    setIdentifiers: ["FAB431","PEN258"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB431-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Action",
@@ -299296,12 +300196,24 @@ Create a Vigor token.
             url: "https://www.tcgplayer.com/product/676444?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Cold,
+      identifier: "FAB430",
+      image: "FAB430-CF",
+      
+      
+      print: "FAB430-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["PEN257"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN257",
+    setIdentifiers: ["FAB430","PEN257"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB430-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Action",
@@ -299381,12 +300293,24 @@ Create a Ponder token.
             url: "https://www.tcgplayer.com/product/676447?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Reza Aswadananta"],
+      foiling: Foiling.Cold,
+      identifier: "FAB433",
+      image: "FAB433-CF",
+      
+      
+      print: "FAB433-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["PEN260"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN260",
+    setIdentifiers: ["FAB433","PEN260"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB433-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Draconic Action",
@@ -303486,6 +304410,18 @@ Whenever the crowd cheers you, create a Confidence token.`,
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Livia Prima"],
+      foiling: Foiling.Cold,
+      identifier: "WIN051",
+      image: "WIN051-CF",
+      
+      
+      print: "WIN051-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Livia Prima"],
       foiling: Foiling.Rainbow,
       identifier: "HER147",
       image: "HER147-RF",
@@ -303499,10 +304435,22 @@ Whenever the crowd cheers you, create a Confidence token.`,
             url: "https://www.tcgplayer.com/product/657481?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["MJ Fetesio"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER153",
+      image: "HER153-RF",
+      
+      
+      print: "HER153-Rainbow-Alternate Art-Alternate Border-Alternate Text",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.AB,Treatment.AT],
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["APS001","HER147","SUP009"],
+    setIdentifiers: ["APS001","HER147","HER153","SUP009","WIN051"],
     sets: [Release.ArmoryDeckPleiades,Release.Promos,Release.SuperSlam],
     specialImage: "SUP009-MV",
     subtypes: [],
@@ -308143,12 +309091,36 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
             url: "https://www.tcgplayer.com/product/601117?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Cold,
+      identifier: "JDG060",
+      image: "JDG060-CF",
+      
+      
+      print: "JDG060-Cold-Alternate Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA],
+    },{
+        artists: ["Jessketchin"],
+      foiling: Foiling.Cold,
+      identifier: "JDG061",
+      image: "JDG061-CF",
+      
+      
+      print: "JDG061-Cold-Alternate Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.AA,treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Promo],
     rarity: Rarity.Promo,
-    setIdentifiers: ["LSS014","LSS015","LSS016"],
+    setIdentifiers: ["JDG060","JDG061","LSS014","LSS015","LSS016"],
     sets: [Release.Promos],
-    specialImage: "LSS016-CF",
+    specialImage: "JDG061-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Generic Equipment - Chest",
@@ -308914,11 +309886,23 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
             url: "https://www.tcgplayer.com/product/517471?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.Gold,
+      identifier: "FAB367",
+      image: "FAB367-GF",
+      
+      
+      print: "FAB367-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["SFA009","TCC082"],
-    sets: [Release.FaiSilverAgeDeck,Release.RoundTheTable],
+    setIdentifiers: ["FAB367","SFA009","TCC082"],
+    sets: [Release.FaiSilverAgeDeck,Release.Promos,Release.RoundTheTable],
     specialImage: "SFA009",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -314604,6 +315588,18 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       
     },{
         artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Gold,
+      identifier: "FAB368",
+      image: "FAB368-GF",
+      
+      
+      print: "FAB368-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
       identifier: "LGS254",
       image: "LGS254-CF",
@@ -314635,7 +315631,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["AOL003","HVY098","LGS236","LGS254","OLA004"],
+    setIdentifiers: ["AOL003","FAB368","HVY098","LGS236","LGS254","OLA004"],
     sets: [Release.ArmoryDeckOlympia,Release.HeavyHitters,Release.OlympiaBlitzDeck,Release.Promos],
     specialImage: "AOL003-RF",
     subtypes: [Subtype.Head],
@@ -317586,11 +318582,23 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
             url: "https://www.tcgplayer.com/product/634586?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER140",
+      image: "HER140-RF",
+      
+      
+      print: "HER140-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA002"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["HER140","SEA002"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA002-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -317682,11 +318690,35 @@ The second time you crank each turn, draw a card.`,
             url: "https://www.tcgplayer.com/product/624356?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.Cold,
+      identifier: "WIN047",
+      image: "WIN047-CF",
+      
+      
+      print: "WIN047-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Arif Wijaya"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER137",
+      image: "HER137-RF",
+      
+      
+      print: "HER137-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SEA001"],
-    sets: [Release.HighSeas],
+    setIdentifiers: ["HER137","SEA001","WIN047"],
+    sets: [Release.HighSeas,Release.Promos],
     specialImage: "SEA001-MV",
     subtypes: [],
     types: [Type.Hero],
@@ -330283,7 +331315,7 @@ If you have less {h} than an opposing Shadow hero, put this into your soul.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
@@ -333365,6 +334397,18 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
           },
       
     },{
+        artists: ["Alexandra Malygina"],
+      foiling: Foiling.Gold,
+      identifier: "FAB407",
+      image: "FAB407-GF",
+      
+      
+      print: "FAB407-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
         artists: ["Alief Rusdiatama"],
       foiling: Foiling.Rainbow,
       identifier: "CON003",
@@ -333380,9 +334424,9 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
-    rarities: [Rarity.Marvel,Rarity.Rare],
+    rarities: [Rarity.Marvel,Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP261","CON003","CRU140","SVI002"],
+    setIdentifiers: ["1HP261","CON003","CRU140","FAB407","SVI002"],
     sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos,Release.ViseraiSilverAgeDeck],
     specialImage: "CON003-RF",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
@@ -336477,11 +337521,23 @@ If an Earth card was pitched to attack with this, the attack gets +1{p}.`,
             url: "https://www.tcgplayer.com/product/225323?Language=English&Printing=Normal"
           },
       
+    },{
+        artists: ["Anna Tanygina"],
+      foiling: Foiling.Gold,
+      identifier: "FAB365",
+      image: "FAB365-GF",
+      
+      
+      print: "FAB365-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["1HP145","MPW020","SDO009","TEA007","WTR117"],
-    sets: [Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.WelcomeToRathe],
+    setIdentifiers: ["1HP145","FAB365","MPW020","SDO009","TEA007","WTR117"],
+    sets: [Release.DorintheaHeroDeck,Release.DorintheaSilverAgeDeck,Release.HistoryPack1,Release.MasteryPackWarrior,Release.Promos,Release.WelcomeToRathe],
     specialImage: "WTR117-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -340541,12 +341597,24 @@ At the start of your turn, destroy this and draw a card.`,
             url: "https://www.tcgplayer.com/product/676491?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Dzulfikar Aliy"],
+      foiling: Foiling.Cold,
+      identifier: "FAB435",
+      image: "FAB435-CF",
+      
+      
+      print: "FAB435-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["PEN325"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN325",
+    setIdentifiers: ["FAB435","PEN325"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB435-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -346299,11 +347367,23 @@ If you've dealt arcane damage to an opponent this turn, this gets **go again**.
             url: "https://www.tcgplayer.com/product/677658?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["soyameii"],
+      foiling: Foiling.Gold,
+      identifier: "FAB411",
+      image: "FAB411-GF",
+      
+      
+      print: "FAB411-Gold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["PEN265"],
-    sets: [Release.CompendiumOfRathe],
+    setIdentifiers: ["FAB411","PEN265"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
     specialImage: "PEN265-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
@@ -351402,12 +352482,24 @@ When this defends, target attack gets -2{p} unless the attacking hero pays {r}.`
             url: "https://www.tcgplayer.com/product/677668?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Jefrey Yonathan"],
+      foiling: Foiling.Cold,
+      identifier: "LGS448",
+      image: "LGS448-CF",
+      
+      
+      print: "LGS448-Cold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["PEN322"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN322",
+    setIdentifiers: ["LGS448","PEN322"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "LGS448-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Generic Action - Attack",
@@ -362578,12 +363670,24 @@ Whenever an arrow is put face-up in arsenal from your deck, put an aim counter o
             url: "https://www.tcgplayer.com/product/676492?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Alexis Susani"],
+      foiling: Foiling.Cold,
+      identifier: "FAB436",
+      image: "FAB436-CF",
+      
+      
+      print: "FAB436-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["PEN326"],
-    sets: [Release.CompendiumOfRathe],
-    specialImage: "PEN326",
+    setIdentifiers: ["FAB436","PEN326"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "FAB436-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -368827,6 +369931,18 @@ Gain {r}{r} for each card this **scrapped**.`,
       
     },{
         artists: ["Sam Yang"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER142",
+      image: "HER142-RF",
+      
+      
+      print: "HER142-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Sam Yang"],
       foiling: Foiling.Cold,
       identifier: "HER143",
       image: "HER143-MV",
@@ -368858,7 +369974,7 @@ Gain {r}{r} for each card this **scrapped**.`,
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["HER143","SEA123"],
+    setIdentifiers: ["HER142","HER143","SEA123"],
     sets: [Release.HighSeas,Release.Promos],
     specialImage: "HER143-MV",
     subtypes: [Subtype.Young],
@@ -376376,7 +377492,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
       foiling: Foiling.Cold,
@@ -376388,7 +377504,7 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
@@ -382397,12 +383513,24 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
             url: "https://www.tcgplayer.com/product/620608?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Nailsen Ivanderlie"],
+      foiling: Foiling.Cold,
+      identifier: "JDG054",
+      image: "JDG054-CF",
+      
+      
+      print: "JDG054-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AST004"],
-    sets: [Release.ArmoryDeckAurora],
-    specialImage: "AST004-RF",
+    setIdentifiers: ["AST004","JDG054"],
+    sets: [Release.ArmoryDeckAurora,Release.Promos],
+    specialImage: "JDG054-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Lightning Equipment - Chest",
@@ -385712,12 +386840,24 @@ At the beginning of your action phase, destroy this then draw a card.`,
             url: "https://www.tcgplayer.com/product/275613?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Nikolay Moskvin"],
+      foiling: Foiling.Cold,
+      identifier: "JDG050",
+      image: "JDG050-CF",
+      
+      
+      print: "JDG050-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["UPR199"],
-    sets: [Release.Uprising],
-    specialImage: "UPR199",
+    setIdentifiers: ["JDG050","UPR199"],
+    sets: [Release.Promos,Release.Uprising],
+    specialImage: "JDG050-CF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -394768,11 +395908,23 @@ Whenever you roll a 1 on a die, destroy this.
             url: "https://www.tcgplayer.com/product/225906?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
+    },{
+        artists: ["Yolanda Felicia"],
+      foiling: Foiling.Gold,
+      identifier: "FAB409",
+      image: "FAB409-GF",
+      
+      
+      print: "FAB409-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["1HP009","CRU006"],
-    sets: [Release.CrucibleOfWar,Release.HistoryPack1],
+    setIdentifiers: ["1HP009","CRU006","FAB409"],
+    sets: [Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU006-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -396743,11 +397895,23 @@ When this hits a hero, banish the top card of their deck.`,
             url: "https://www.tcgplayer.com/product/225924?Language=English&Printing=1st+Edition+Cold+Foil"
           },
       
+    },{
+        artists: ["bimawithpencil"],
+      foiling: Foiling.Gold,
+      identifier: "FAB408",
+      image: "FAB408-GF",
+      
+      
+      print: "FAB408-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["1HP046","CRU024","SBR002"],
-    sets: [Release.BravoSilverAgeDeck,Release.CrucibleOfWar,Release.HistoryPack1],
+    setIdentifiers: ["1HP046","CRU024","FAB408","SBR002"],
+    sets: [Release.BravoSilverAgeDeck,Release.CrucibleOfWar,Release.HistoryPack1,Release.Promos],
     specialImage: "CRU024-CF",
     subtypes: [Subtype.TwoHanded,Subtype.Hammer],
     types: [Type.Weapon],
@@ -403503,12 +404667,24 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
             url: "https://www.tcgplayer.com/product/557933?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Kimberly Pantoni"],
+      foiling: Foiling.Cold,
+      identifier: "JDG047",
+      image: "JDG047-CF",
+      
+      
+      print: "JDG047-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["ASB004"],
-    sets: [Release.ArmoryDeckBoltyn],
-    specialImage: "ASB004-RF",
+    setIdentifiers: ["ASB004","JDG047"],
+    sets: [Release.ArmoryDeckBoltyn,Release.Promos],
+    specialImage: "JDG047-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Light Equipment - Chest",
@@ -412385,6 +413561,30 @@ When this hits a hero, create a Confidence and a Might token.`,
       
     },{
         artists: ["Marcus Reyno"],
+      foiling: Foiling.Gold,
+      identifier: "FAB296",
+      image: "FAB296-GF",
+      
+      
+      print: "FAB296-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Marcus Reyno"],
+      foiling: Foiling.Gold,
+      identifier: "FAB297",
+      image: "FAB297-GF",
+      
+      
+      print: "FAB297-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Marcus Reyno"],
       foiling: Foiling.Cold,
       identifier: "LGS111",
       image: "LGS111-CF",
@@ -412401,7 +413601,7 @@ When this hits a hero, create a Confidence and a Might token.`,
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["AAC003","ARA002","ARK002","DYN115","DYN116","LGS111","OUT004","UZU002"],
+    setIdentifiers: ["AAC003","ARA002","ARK002","DYN115","DYN116","FAB296","FAB297","LGS111","OUT004","UZU002"],
     sets: [Release.ArakniBlitzDeck,Release.ArakniBlitzDeckARK,Release.ArmoryDeckArakni,Release.Dynasty,Release.Outsiders,Release.Promos,Release.UzuriBlitzDeck],
     specialImage: "LGS111-CF",
     subtypes: [Subtype.OneHanded,Subtype.Dagger],
@@ -418521,6 +419721,18 @@ If you control a Vigor token, this gets +1{d}.
       
     },{
         artists: ["Ramza Ardyputra"],
+      foiling: Foiling.Gold,
+      identifier: "FAB302",
+      image: "FAB302-GF",
+      
+      
+      print: "FAB302-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Ramza Ardyputra"],
       foiling: Foiling.Rainbow,
       identifier: "LGS332",
       image: "LGS332-RF",
@@ -418537,7 +419749,7 @@ If you control a Vigor token, this gets +1{d}.
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["AST002","AUA002","AUR002","LGS332","ROS009","SBA003"],
+    setIdentifiers: ["AST002","AUA002","AUR002","FAB302","LGS332","ROS009","SBA003"],
     sets: [Release.FirstStrikeAurora,Release.ArmoryDeckAurora,Release.AuroraBlitzDeck,Release.BriarSilverAgeDeck,Release.Promos,Release.Rosetta],
     specialImage: "ROS009-CF",
     subtypes: [Subtype.TwoHanded,Subtype.Sword],
@@ -429930,6 +431142,18 @@ Deal 3 arcane damage to any target. If this was **fused** and targets a hero, de
       
     },{
         artists: ["Alief Rusdiatama"],
+      foiling: Foiling.Gold,
+      identifier: "FAB295",
+      image: "FAB295-GF",
+      
+      
+      print: "FAB295-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Alief Rusdiatama"],
       foiling: Foiling.Cold,
       identifier: "GEM070",
       image: "GEM070-CF",
@@ -429946,8 +431170,8 @@ Deal 3 arcane damage to any target. If this was **fused** and targets a hero, de
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AJV002","GEM070"],
-    sets: [Release.ArmoryDeckOriginsJarl,Release.GEM],
+    setIdentifiers: ["AJV002","FAB295","GEM070"],
+    sets: [Release.ArmoryDeckOriginsJarl,Release.GEM,Release.Promos],
     specialImage: "GEM070-CF",
     subtypes: [Subtype.OneHanded,Subtype.Polearm],
     types: [Type.Weapon],
@@ -435441,11 +436665,23 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
             url: "https://www.tcgplayer.com/product/664618?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Nikko Wahyudi"],
+      foiling: Foiling.Gold,
+      identifier: "FAB410",
+      image: "FAB410-GF",
+      
+      
+      print: "FAB410-Gold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["PEN057"],
-    sets: [Release.CompendiumOfRathe],
+    setIdentifiers: ["FAB410","PEN057"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
     specialImage: "PEN057-CF",
     subtypes: [Subtype.Base,Subtype.Head],
     types: [Type.Equipment],
@@ -446281,11 +447517,23 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
             url: "https://www.tcgplayer.com/product/646281?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.Gold,
+      identifier: "FAB405",
+      image: "FAB405-GF",
+      
+      
+      print: "FAB405-Gold-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Legendary,Rarity.Marvel],
+    rarities: [Rarity.Legendary,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["MPG004"],
-    sets: [Release.MasteryPackGuardian],
+    setIdentifiers: ["FAB405","MPG004"],
+    sets: [Release.MasteryPackGuardian,Release.Promos],
     specialImage: "MPG004-MV",
     subtypes: [Subtype.OffHand],
     types: [Type.Equipment],
@@ -451491,11 +452739,23 @@ When a Mechanologist attack action card you control hits a hero, destroy this an
             url: "https://www.tcgplayer.com/product/275720?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Enmoire"],
+      foiling: Foiling.Gold,
+      identifier: "FAB298",
+      image: "FAB298-GF",
+      
+      
+      print: "FAB298-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["UPR159"],
-    sets: [Release.Uprising],
+    setIdentifiers: ["FAB298","UPR159"],
+    sets: [Release.Promos,Release.Uprising],
     specialImage: "UPR159-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -453921,6 +455181,18 @@ You may give a Gold token you control to another hero. If you do, put this on th
       
     },{
         artists: ["Kanadekana"],
+      foiling: Foiling.Gold,
+      identifier: "FAB363",
+      image: "FAB363-GF",
+      
+      
+      print: "FAB363-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Kanadekana"],
       foiling: Foiling.Cold,
       identifier: "LGS066",
       image: "LGS066-CF",
@@ -453937,7 +455209,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["ELE202","LGS066","OLD002","SBR003","SLY002"],
+    setIdentifiers: ["ELE202","FAB363","LGS066","OLD002","SBR003","SLY002"],
     sets: [Release.BravoSilverAgeDeck,Release.LyathSilverAgeDeck,Release.OldhimBlitzDeck,Release.Promos,Release.TalesOfAria],
     specialImage: "ELE202",
     subtypes: [Subtype.OneHanded,Subtype.Hammer],
@@ -454886,11 +456158,23 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
             url: "https://www.tcgplayer.com/product/237801?Language=English&Printing=1st+Edition+Rainbow+Foil"
           },
       
+    },{
+        artists: ["Alexander Gering"],
+      foiling: Foiling.Cold,
+      identifier: "JDG067",
+      image: "JDG067-CF",
+      
+      
+      print: "JDG067-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["MON065"],
-    sets: [Release.Monarch],
+    setIdentifiers: ["JDG067","MON065"],
+    sets: [Release.Monarch,Release.Promos],
     specialImage: "MON065-RF",
     subtypes: [],
     types: [Type.Instant],
@@ -456305,12 +457589,24 @@ Draw a card.
             url: "https://www.tcgplayer.com/product/663017?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Alief Rusdiatama"],
+      foiling: Foiling.Cold,
+      identifier: "JDG065",
+      image: "JDG065-CF",
+      
+      
+      print: "JDG065-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["ARR004"],
-    sets: [Release.ArmoryDeckRhinar],
-    specialImage: "ARR004-RF",
+    setIdentifiers: ["ARR004","JDG065"],
+    sets: [Release.ArmoryDeckRhinar,Release.Promos],
+    specialImage: "JDG065-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
     typeText: "Brute Equipment - Chest",
@@ -460176,11 +461472,23 @@ If this was played from arsenal, it gets **go again**.`,
             url: "https://www.tcgplayer.com/product/551931?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Olga Tereshenko"],
+      foiling: Foiling.Gold,
+      identifier: "FAB228",
+      image: "FAB228-GF",
+      
+      
+      print: "FAB228-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["MST066"],
-    sets: [Release.PartTheMistveil],
+    setIdentifiers: ["FAB228","MST066"],
+    sets: [Release.PartTheMistveil,Release.Promos],
     specialImage: "MST066-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
@@ -460253,6 +461561,18 @@ If this was played from arsenal, it gets **go again**.`,
             productId: "648471",
             url: "https://www.tcgplayer.com/product/648471?Language=English&Printing=Cold+Foil"
           },
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Jessada Sutthi"],
+      foiling: Foiling.Cold,
+      identifier: "FAB340",
+      image: "FAB340-CF_BACK",
+      
+      
+      print: "FAB340-Cold-Full Art-Back",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
@@ -461657,12 +462977,24 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
             url: "https://www.tcgplayer.com/product/633690?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Thomas Ressuge"],
+      foiling: Foiling.Cold,
+      identifier: "JDG053",
+      image: "JDG053-CF",
+      
+      
+      print: "JDG053-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AGB004"],
-    sets: [Release.ArmoryDeckGravyBones],
-    specialImage: "AGB004-RF",
+    setIdentifiers: ["AGB004","JDG053"],
+    sets: [Release.ArmoryDeckGravyBones,Release.Promos],
+    specialImage: "JDG053-CF",
     subtypes: [Subtype.Head],
     types: [Type.Equipment],
     typeText: "Pirate Necromancer Equipment - Head",
@@ -462700,11 +464032,23 @@ When you or a card you control is the target of an attack they control, destroy 
             url: "https://www.tcgplayer.com/product/653920?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.Rainbow,
+      identifier: "HER150",
+      image: "HER150-RF",
+      
+      
+      print: "HER150-Rainbow",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Basic,Rarity.Marvel],
+    rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["SUP002"],
-    sets: [Release.SuperSlam],
+    setIdentifiers: ["HER150","SUP002"],
+    sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP002-MV",
     subtypes: [Subtype.Young],
     types: [Type.Hero],
@@ -462798,6 +464142,18 @@ Whenever the crowd cheers you, create a Toughness token.`,
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
+      foiling: Foiling.Cold,
+      identifier: "WIN050",
+      image: "WIN050-CF",
+      
+      
+      print: "WIN050-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
       identifier: "HER146",
       image: "HER146-ARF",
@@ -462814,7 +464170,7 @@ Whenever the crowd cheers you, create a Toughness token.`,
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Basic,
-    setIdentifiers: ["HER146","SUP001"],
+    setIdentifiers: ["HER146","SUP001","WIN050"],
     sets: [Release.Promos,Release.SuperSlam],
     specialImage: "SUP001-MV",
     subtypes: [],
@@ -464029,11 +465385,23 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
             url: "https://www.tcgplayer.com/product/551647?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
+        artists: ["Billy Christian"],
+      foiling: Foiling.Gold,
+      identifier: "FAB227",
+      image: "FAB227-GF",
+      
+      
+      print: "FAB227-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Legendary],
+    rarities: [Rarity.Legendary,Rarity.Promo],
     rarity: Rarity.Legendary,
-    setIdentifiers: ["MST048"],
-    sets: [Release.PartTheMistveil],
+    setIdentifiers: ["FAB227","MST048"],
+    sets: [Release.PartTheMistveil,Release.Promos],
     specialImage: "MST048-CF",
     subtypes: [Subtype.Chest],
     types: [Type.Equipment],
@@ -466442,11 +467810,23 @@ When this hits a hero, **steal** an item they control.`,
             url: "https://www.tcgplayer.com/product/676489?Language=English&Printing=Cold+Foil"
           },
       
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Gold,
+      identifier: "FAB419",
+      image: "FAB419-GF",
+      
+      
+      print: "FAB419-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Rare],
+    rarities: [Rarity.Promo,Rarity.Rare],
     rarity: Rarity.Rare,
-    setIdentifiers: ["PEN318"],
-    sets: [Release.CompendiumOfRathe],
+    setIdentifiers: ["FAB419","PEN318"],
+    sets: [Release.CompendiumOfRathe,Release.Promos],
     specialImage: "PEN318-CF",
     subtypes: [Subtype.Legs],
     types: [Type.Equipment],
@@ -470971,6 +472351,18 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },{
         artists: ["Wisnu Tan"],
+      foiling: Foiling.Cold,
+      identifier: "WIN046",
+      image: "WIN046-CF",
+      
+      
+      print: "WIN046-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
       identifier: "HER135",
       image: "HER135-RF",
@@ -470987,7 +472379,7 @@ At the start of your turn, if you control 3 or more Seismic Surge tokens, cards 
     },],
     rarities: [Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["HER135","MPG001"],
+    setIdentifiers: ["HER135","MPG001","WIN046"],
     sets: [Release.MasteryPackGuardian,Release.Promos],
     specialImage: "MPG001-MV_BACK",
     subtypes: [],
@@ -478210,6 +479602,18 @@ When this chain link resolves, if this is defended by a card from hand, create a
       
     },{
         artists: ["Wisnu Tan"],
+      foiling: Foiling.Cold,
+      identifier: "HER068",
+      image: "HER068-CF",
+      
+      
+      print: "HER068-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Wisnu Tan"],
       foiling: Foiling.Rainbow,
       identifier: "HER015",
       image: "HER015-RF",
@@ -478226,7 +479630,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["1HP259","ARC076","HER015","SVI001"],
+    setIdentifiers: ["1HP259","ARC076","HER015","HER068","SVI001"],
     sets: [Release.ArcaneRising,Release.HistoryPack1,Release.Promos,Release.ViseraiSilverAgeDeck],
     specialImage: "ARC076",
     subtypes: [Subtype.Young],
@@ -482225,7 +483629,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
       foiling: Foiling.Cold,
@@ -482237,7 +483641,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       rarity: Rarity.Promo,
       set: Release.Promos,
       
-      treatment: Treatment.FA,treatments: [Treatment.AA,Treatment.FA],
+      treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
@@ -490227,6 +491631,18 @@ If it's **fused**, it gets **dominate**.
       
     },{
         artists: ["Vito Febrianno"],
+      foiling: Foiling.Gold,
+      identifier: "FAB299",
+      image: "FAB299-GF",
+      
+      
+      print: "FAB299-Gold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
+    },{
+        artists: ["Vito Febrianno"],
       foiling: Foiling.Rainbow,
       identifier: "LGS313",
       image: "LGS313-RF",
@@ -490243,7 +491659,7 @@ If it's **fused**, it gets **dominate**.
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["FLR006","LGS313","ROS030","VER006"],
+    setIdentifiers: ["FAB299","FLR006","LGS313","ROS030","VER006"],
     sets: [Release.FlorianBlitzDeck,Release.Promos,Release.Rosetta,Release.VerdanceBlitzDeck],
     specialImage: "ROS030-CF",
     subtypes: [Subtype.Legs],
@@ -499123,12 +500539,24 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
             url: "https://www.tcgplayer.com/product/620609?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Asur Misoa"],
+      foiling: Foiling.Cold,
+      identifier: "JDG048",
+      image: "JDG048-CF",
+      
+      
+      print: "JDG048-Cold",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      
     },],
-    rarities: [Rarity.Majestic],
+    rarities: [Rarity.Majestic,Rarity.Promo],
     rarity: Rarity.Majestic,
-    setIdentifiers: ["AST005"],
-    sets: [Release.ArmoryDeckAurora],
-    specialImage: "AST005-RF",
+    setIdentifiers: ["AST005","JDG048"],
+    sets: [Release.ArmoryDeckAurora,Release.Promos],
+    specialImage: "JDG048-CF",
     subtypes: [Subtype.Arms],
     types: [Type.Equipment],
     typeText: "Lightning Runeblade Equipment - Arms",
