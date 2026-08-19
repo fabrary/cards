@@ -65143,6 +65143,99 @@ exports[`Check for unintentional updates Bloodsheath Skeleta (bloodsheath-skelet
 }
 `;
 
+exports[`Check for unintentional updates Bloodsong Gloomblade (bloodsong-gloomblade-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Maerel Hibadita",
+  ],
+  "cardIdentifier": "bloodsong-gloomblade-red",
+  "classes": [
+    "Runeblade",
+  ],
+  "cost": 0,
+  "defaultImage": "IAR114-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, you may banish target aura permanent they control.
+
+**Blood Debt**",
+  "keywords": [
+    "Blood Debt",
+    "Usurp",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Draft",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Sealed",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Chane",
+    "Viserai2",
+    "Vynnset",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Bloodsong Gloomblade",
+  "pitch": 1,
+  "power": 2,
+  "printings": [
+    {
+      "artists": [
+        "Maerel Hibadita",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR114",
+      "image": "IAR114-RF",
+      "print": "IAR114-Rainbow",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Maerel Hibadita",
+      ],
+      "identifier": "IAR114",
+      "image": "IAR114",
+      "print": "IAR114",
+      "rarity": "Rare",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Rare",
+  ],
+  "rarity": "Rare",
+  "setIdentifiers": [
+    "IAR114",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR114-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Runeblade Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Bloodspill Invocation (bloodspill-invocation-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -71713,7 +71806,6 @@ exports[`Check for unintentional updates Boo, Resident Spook (boo-resident-spook
   ],
   "cost": 1,
   "defaultImage": "PEN156",
-  "defense": 2,
   "firstReleaseDate": "2026-02-13",
   "functionalText": "**Action** - {t}: **Attack**
 
@@ -71735,6 +71827,7 @@ If this is untapped, it gets **spellvoid 2**.
   "legalHeroes": [
     "Gravy Bones",
   ],
+  "life": 2,
   "meta": [
     "Deck",
     "Dual class",
@@ -82457,7 +82550,6 @@ exports[`Check for unintentional updates Bubba-Lubba, Run Aground (bubba-lubba-r
   ],
   "cost": 3,
   "defaultImage": "PEN157",
-  "defense": 5,
   "firstReleaseDate": "2026-02-13",
   "functionalText": "This enters the arena with a +1{p} counter.
 
@@ -82481,6 +82573,7 @@ exports[`Check for unintentional updates Bubba-Lubba, Run Aground (bubba-lubba-r
   "legalHeroes": [
     "Gravy Bones",
   ],
+  "life": 5,
   "meta": [
     "Deck",
     "Dual class",
@@ -157877,6 +157970,16 @@ exports[`Check for unintentional updates Dr. Mortimer (dr-mortimer) vs snapshot 
       "artists": [
         "Pavel Rtishchev (Klaher)",
       ],
+      "identifier": "MPA003",
+      "image": "MPA003",
+      "print": "MPA003",
+      "rarity": "Basic",
+      "set": "Mastery Pack: Assassin",
+    },
+    {
+      "artists": [
+        "Pavel Rtishchev (Klaher)",
+      ],
       "foiling": "Cold",
       "identifier": "MPA003",
       "image": "MPA003-MV",
@@ -157902,16 +158005,6 @@ exports[`Check for unintentional updates Dr. Mortimer (dr-mortimer) vs snapshot 
       "treatments": [
         "Full Art",
       ],
-    },
-    {
-      "artists": [
-        "Pavel Rtishchev (Klaher)",
-      ],
-      "identifier": "MPA003",
-      "image": "MPA003",
-      "print": "MPA003",
-      "rarity": "Basic",
-      "set": "Mastery Pack: Assassin",
     },
   ],
   "rarities": [
@@ -488893,6 +488986,81 @@ exports[`Check for unintentional updates Shadowrealm Reaper (shadowrealm-reaper-
     "Shadow",
   ],
   "typeText": "Shadow Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-strength-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Surya Prasetya",
+  ],
+  "cardIdentifier": "shadowrealm-strength-blue",
+  "classes": [
+    "Necromancer",
+  ],
+  "cost": 0,
+  "defaultImage": "AMA026",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +1{p}.
+
+**Go again**",
+  "keywords": [
+    "Go again",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Silver Age",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Malice",
+  ],
+  "meta": [
+    "Deck",
+  ],
+  "name": "Shadowrealm Strength",
+  "pitch": 3,
+  "printings": [
+    {
+      "artists": [
+        "Surya Prasetya",
+      ],
+      "identifier": "AMA026",
+      "image": "AMA026",
+      "print": "AMA026",
+      "rarity": "Common",
+      "set": "Armory Deck: Malice",
+    },
+  ],
+  "rarities": [
+    "Common",
+  ],
+  "rarity": "Common",
+  "setIdentifiers": [
+    "AMA026",
+  ],
+  "sets": [
+    "Armory Deck: Malice",
+  ],
+  "shorthands": [
+    "Buffs",
+  ],
+  "specialImage": "AMA026",
+  "subtypes": [
+    "Non-Attack",
+  ],
+  "talents": [
+    "Shadow",
+  ],
+  "typeText": "Shadow Necromancer Action",
   "types": [
     "Action",
   ],

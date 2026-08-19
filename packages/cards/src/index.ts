@@ -57236,7 +57236,7 @@ Your next Brute attack this turn gets +1{p}. If you've **beaten chest** this tur
     
     
     cost: 1,
-    defense: 2,
+    
     
     functionalText: `**Action** - {t}: **Attack**
 
@@ -57249,7 +57249,7 @@ If this is untapped, it gets **spellvoid 2**.
     
     keywords: [Keyword.Spellvoid,Keyword.WateryGrave],
     
-    
+    life: 2,
     meta: [Meta.Deck,Meta.DualClass],
   
     
@@ -65220,7 +65220,7 @@ If all heroes in a **clash** would fail to win, instead choose which hero wins t
     
     
     cost: 3,
-    defense: 5,
+    
     
     functionalText: `This enters the arena with a +1{p} counter.
 
@@ -65235,7 +65235,7 @@ If all heroes in a **clash** would fail to win, instead choose which hero wins t
     
     keywords: [Keyword.GoAgain,Keyword.WateryGrave],
     
-    
+    life: 5,
     meta: [Meta.Deck,Meta.DualClass],
   
     
@@ -123651,6 +123651,18 @@ If you've played or activated 2 or more attack reactions this chain link, this g
     name: "Dr. Mortimer",
     printings: [{
         artists: ["Pavel Rtishchev (Klaher)"],
+      
+      identifier: "MPA003",
+      image: "MPA003",
+      
+      
+      print: "MPA003",
+      rarity: Rarity.Basic,
+      set: Release.MasteryPackAssassin,
+      
+      
+    },{
+        artists: ["Pavel Rtishchev (Klaher)"],
       foiling: Foiling.Cold,
       identifier: "MPA003",
       image: "MPA003-MV",
@@ -123673,18 +123685,6 @@ If you've played or activated 2 or more attack reactions this chain link, this g
       set: Release.MasteryPackAssassin,
       
       treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Pavel Rtishchev (Klaher)"],
-      
-      identifier: "MPA003",
-      image: "MPA003",
-      
-      
-      print: "MPA003",
-      rarity: Rarity.Basic,
-      set: Release.MasteryPackAssassin,
-      
-      
     },],
     rarities: [Rarity.Basic,Rarity.Marvel],
     rarity: Rarity.Basic,
