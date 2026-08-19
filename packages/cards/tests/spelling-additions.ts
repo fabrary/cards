@@ -87,6 +87,7 @@ export const ADDITIONS = [
   "bloodrun",
   "bloodrush",
   "bloodsheath",
+  "bloodsong",
   "bloodspill",
   "bloodtorn",
   "blu",
