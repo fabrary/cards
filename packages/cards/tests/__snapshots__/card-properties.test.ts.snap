@@ -135862,20 +135862,42 @@ If it has 1 or more +1{p} counters, its next attack this turn gets **dominate**.
         "url": "https://www.tcgplayer.com/product/676289?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Mateusz Wiśniewski",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "LGS447",
+      "image": "LGS447-RF",
+      "print": "LGS447-Rainbow-Extended Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "tcgplayer": {
+        "productId": "690686",
+        "url": "https://www.tcgplayer.com/product/690686?Language=English&Printing=Rainbow+Foil",
+      },
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
+    "Promo",
   ],
   "rarity": "Common",
   "setIdentifiers": [
     "AOL013",
+    "LGS447",
     "PEN054",
   ],
   "sets": [
     "Armory Deck: Olympia",
     "Compendium of Rathe",
+    "Promos",
   ],
-  "specialImage": "AOL013",
+  "specialImage": "LGS447-RF",
   "subtypes": [
     "Non-Attack",
   ],
@@ -243136,6 +243158,10 @@ exports[`Check for unintentional updates Golden Company (golden-company-blue) vs
       "print": "FAB483-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710772",
+        "url": "https://www.tcgplayer.com/product/710772?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -243246,6 +243272,10 @@ exports[`Check for unintentional updates Golden Company (golden-company-red) vs 
       "print": "FAB481-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710773",
+        "url": "https://www.tcgplayer.com/product/710773?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -243353,6 +243383,10 @@ exports[`Check for unintentional updates Golden Company (golden-company-yellow) 
       "print": "FAB482-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710774",
+        "url": "https://www.tcgplayer.com/product/710774?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -353492,8 +353526,8 @@ exports[`Check for unintentional updates Nebula Duality (nebula-duality-red) vs 
       "rarity": "Promo",
       "set": "Promos",
       "tcgplayer": {
-        "productId": "705060",
-        "url": "https://www.tcgplayer.com/product/705060?Language=English&Printing=Cold+Foil",
+        "productId": "705053",
+        "url": "https://www.tcgplayer.com/product/705053?Language=English&Printing=Cold+Foil",
       },
       "treatment": "Full Art",
       "treatments": [
@@ -365482,6 +365516,10 @@ exports[`Check for unintentional updates Olympia, Prized Fighter (olympia-prized
       "print": "HER170-Rainbow-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "709156",
+        "url": "https://www.tcgplayer.com/product/709156?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -383141,6 +383179,10 @@ exports[`Check for unintentional updates Peg Leg (peg-leg) vs snapshot 1`] = `
       "print": "LGS395-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "636249",
+        "url": "https://www.tcgplayer.com/product/636249?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [

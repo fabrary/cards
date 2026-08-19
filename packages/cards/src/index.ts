@@ -105589,12 +105589,27 @@ Your next dagger attack this turn gets +2{p}.
             url: "https://www.tcgplayer.com/product/676289?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Mateusz Wiśniewski"],
+      foiling: Foiling.Rainbow,
+      identifier: "LGS447",
+      image: "LGS447-RF",
+      
+      
+      print: "LGS447-Rainbow-Extended Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      tcgplayer: {
+            productId: "690686",
+            url: "https://www.tcgplayer.com/product/690686?Language=English&Printing=Rainbow+Foil"
+          },
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
-    rarities: [Rarity.Common],
+    rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
-    setIdentifiers: ["AOL013","PEN054"],
-    sets: [Release.ArmoryDeckOlympia,Release.CompendiumOfRathe],
-    specialImage: "AOL013",
+    setIdentifiers: ["AOL013","LGS447","PEN054"],
+    sets: [Release.ArmoryDeckOlympia,Release.CompendiumOfRathe,Release.Promos],
+    specialImage: "LGS447-RF",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Warrior Action",
@@ -188748,7 +188763,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "FAB481-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710773",
+            url: "https://www.tcgplayer.com/product/710773?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -188839,7 +188857,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "FAB482-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710774",
+            url: "https://www.tcgplayer.com/product/710774?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -188945,7 +188966,10 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
       print: "FAB483-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710772",
+            url: "https://www.tcgplayer.com/product/710772?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -276009,8 +276033,8 @@ If you've played a non-attack action card this turn, this gets +3{p}.`,
       rarity: Rarity.Promo,
       set: Release.Promos,
       tcgplayer: {
-            productId: "705060",
-            url: "https://www.tcgplayer.com/product/705060?Language=English&Printing=Cold+Foil"
+            productId: "705053",
+            url: "https://www.tcgplayer.com/product/705053?Language=English&Printing=Cold+Foil"
           },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
@@ -284907,7 +284931,10 @@ When this hits a hero, create a Toughness and a Vigor token.`,
       print: "HER170-Rainbow-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "709156",
+            url: "https://www.tcgplayer.com/product/709156?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Joseph Qiu"],
@@ -297946,7 +297973,10 @@ At the start of your action phase, destroy this.`,
       print: "LGS395-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "636249",
+            url: "https://www.tcgplayer.com/product/636249?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
