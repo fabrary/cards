@@ -26340,7 +26340,10 @@ If you've discarded a card with 6 or more {p} this turn, this gets +1{p}.`,
       print: "JDG052-Cold-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "656464",
+            url: "https://www.tcgplayer.com/product/656464?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -42985,15 +42988,18 @@ Your second sword attack this turn gets +1{p}.
       
     },{
         artists: ["Daniel Correia"],
-      
+      foiling: Foiling.Rainbow,
       identifier: "FAB400",
       image: "FAB400",
       
       
-      print: "FAB400-Alternate Art-Extended Art",
+      print: "FAB400-Rainbow-Alternate Art-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "683211",
+            url: "https://www.tcgplayer.com/product/683211?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.EA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -44040,7 +44046,10 @@ When Blasmophet attacks, you may banish a Shadow card from your hand. If you do,
       print: "HER118-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "565595",
+            url: "https://www.tcgplayer.com/product/565595?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Isuardi Therianto"],
@@ -61926,7 +61935,10 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
       print: "JDG046-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648472",
+            url: "https://www.tcgplayer.com/product/648472?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -62647,7 +62659,10 @@ If the discarded card has 6 or more {p}, this gets **go again**.`,
       print: "JDG066-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "711434",
+            url: "https://www.tcgplayer.com/product/711434?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -83320,7 +83335,10 @@ Destroy target blue aura.`,
       print: "FAB434-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "704965",
+            url: "https://www.tcgplayer.com/product/704965?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -90430,7 +90448,10 @@ Until end of turn, your Warrior attacks get "When this is defended by 1 or more 
       print: "FAB364-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662287",
+            url: "https://www.tcgplayer.com/product/662287?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Nikko Wahyudi"],
@@ -92883,7 +92904,10 @@ You may destroy an aura you control. If you do, each opponent destroys an aura p
       print: "LGS429-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "670725",
+            url: "https://www.tcgplayer.com/product/670725?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -93456,7 +93480,10 @@ Deal 1 arcane damage to any target.`,
       print: "JDG052-Cold-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "656464",
+            url: "https://www.tcgplayer.com/product/656464?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -96221,7 +96248,10 @@ This card's attacks get **go again**.
       print: "FAB230-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "555752",
+            url: "https://www.tcgplayer.com/product/555752?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -123929,7 +123959,10 @@ While this is in your graveyard, at the start of your turn, you may banish 2 car
       print: "FAB442-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "681241",
+            url: "https://www.tcgplayer.com/product/681241?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -127166,7 +127199,10 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
       print: "JDG056-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "656465",
+            url: "https://www.tcgplayer.com/product/656465?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -134258,7 +134294,10 @@ Create an Ursur, the Soul Reaper token.`,
       print: "FAB362-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "659973",
+            url: "https://www.tcgplayer.com/product/659973?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -149461,7 +149500,10 @@ This can't be defended by equipment or reaction cards.`,
       print: "LGS428-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "670724",
+            url: "https://www.tcgplayer.com/product/670724?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -150425,7 +150467,10 @@ Evo legs cost you {r} less to play.
       print: "FAB220-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "663158",
+            url: "https://www.tcgplayer.com/product/663158?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -151065,7 +151110,10 @@ Your Teklo Blaster costs {r} less to activate for each opponent.
       print: "FAB208-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "543030",
+            url: "https://www.tcgplayer.com/product/543030?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -152192,7 +152240,10 @@ When this is equipped, deal 1 damage to any target.
       print: "FAB209-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "543031",
+            url: "https://www.tcgplayer.com/product/543031?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -152785,7 +152836,10 @@ Your Teklo Blaster attacks can target any opponent.
       print: "FAB210-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "543032",
+            url: "https://www.tcgplayer.com/product/543032?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -152880,7 +152934,10 @@ Your Teklo Blaster attacks can target any opponent.
       print: "FAB221-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "663156",
+            url: "https://www.tcgplayer.com/product/663156?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -152973,7 +153030,10 @@ When this is equipped, up to 1 target attack gets +1{p}.`,
       print: "FAB222-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "663155",
+            url: "https://www.tcgplayer.com/product/663155?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -153066,7 +153126,10 @@ When this is equipped, up to 1 target attack gets **go again**.`,
       print: "FAB219-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "663157",
+            url: "https://www.tcgplayer.com/product/663157?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -164472,7 +164535,10 @@ Whenever a card defends this, **clash** with the defending hero. The winner crea
       print: "CON008-Rainbow-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "706934",
+            url: "https://www.tcgplayer.com/product/706934?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -182235,7 +182301,10 @@ You may put a Hyper Driver from your banished zone into the arena.
       print: "FAB289-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662248",
+            url: "https://www.tcgplayer.com/product/662248?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
@@ -190878,7 +190947,10 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
       print: "FAB304-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662255",
+            url: "https://www.tcgplayer.com/product/662255?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Nikko Wahyudi"],
@@ -193581,7 +193653,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       print: "HER138-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "637479",
+            url: "https://www.tcgplayer.com/product/637479?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Majestic,Rarity.Marvel,Rarity.Promo],
@@ -197855,7 +197930,10 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       print: "FAB300-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662259",
+            url: "https://www.tcgplayer.com/product/662259?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Leo Avero"],
@@ -197867,7 +197945,10 @@ The third time you play a card with **boost** each turn, put a steam counter on 
       print: "FAB301-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662260",
+            url: "https://www.tcgplayer.com/product/662260?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Leo Avero"],
@@ -203772,7 +203853,10 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
       print: "JDG049-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648465",
+            url: "https://www.tcgplayer.com/product/648465?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -205662,7 +205746,10 @@ When the combat chain closes, if you've attacked with this, banish it.
       print: "FAB303-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "659613",
+            url: "https://www.tcgplayer.com/product/659613?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -208370,7 +208457,10 @@ When this hits, put it into your soul and the defending hero can't play cards fr
       print: "LGS430-Rainbow-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "670727",
+            url: "https://www.tcgplayer.com/product/670727?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -219957,7 +220047,10 @@ When this attacks, if it **scrapped** a card, this gets **overpower**.`,
       print: "JDG051-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648464",
+            url: "https://www.tcgplayer.com/product/648464?Language=English&Printing=Normal"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },{
         artists: ["Alexander Mokhov"],
@@ -219984,7 +220077,10 @@ When this attacks, if it **scrapped** a card, this gets **overpower**.`,
       print: "JDG051-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648464",
+            url: "https://www.tcgplayer.com/product/648464?Language=English&Printing=Normal"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Promo,Rarity.Token],
@@ -230287,7 +230383,10 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
       print: "JDG064-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "693166",
+            url: "https://www.tcgplayer.com/product/693166?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -232427,7 +232526,10 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
       print: "HER136-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "624617",
+            url: "https://www.tcgplayer.com/product/624617?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["soyameii"],
@@ -232714,7 +232816,10 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
       print: "JDG063-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "693167",
+            url: "https://www.tcgplayer.com/product/693167?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -261773,7 +261878,10 @@ When this hits a hero, **mark** them.`,
       print: "HER141-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "651129",
+            url: "https://www.tcgplayer.com/product/651129?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
@@ -261893,7 +262001,10 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       print: "HER139-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "637480",
+            url: "https://www.tcgplayer.com/product/637480?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
@@ -262545,7 +262656,10 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
       print: "FAB225-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "618753",
+            url: "https://www.tcgplayer.com/product/618753?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
@@ -266981,7 +267095,10 @@ When this attacks, if it's {p} is greater than twice its base, the attack gets *
       print: "FAB226-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "618754",
+            url: "https://www.tcgplayer.com/product/618754?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
@@ -270417,7 +270534,10 @@ When this is destroyed, create a token copy of an aura you control.`,
       print: "JDG057-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "656466",
+            url: "https://www.tcgplayer.com/product/656466?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -283450,7 +283570,10 @@ When this hits a hero, create a Might and a Vigor token.`,
       print: "JDG055-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "659610",
+            url: "https://www.tcgplayer.com/product/659610?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -300012,7 +300135,10 @@ When this is destroyed, create a Spectral Shield token.`,
       print: "FAB432-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710770",
+            url: "https://www.tcgplayer.com/product/710770?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -300109,7 +300235,10 @@ Create a Might token.
       print: "FAB431-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710769",
+            url: "https://www.tcgplayer.com/product/710769?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -300206,7 +300335,10 @@ Create a Vigor token.
       print: "FAB430-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710768",
+            url: "https://www.tcgplayer.com/product/710768?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -300303,7 +300435,10 @@ Create a Ponder token.
       print: "FAB433-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "710771",
+            url: "https://www.tcgplayer.com/product/710771?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Common,Rarity.Promo],
@@ -309101,7 +309236,10 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
       print: "JDG060-Cold-Alternate Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "664537",
+            url: "https://www.tcgplayer.com/product/664537?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA],
     },{
         artists: ["Jessketchin"],
@@ -309113,7 +309251,10 @@ Action cards get -1{d} while defending Mechanologist attack action cards you con
       print: "JDG061-Cold-Alternate Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "664538",
+            url: "https://www.tcgplayer.com/product/664538?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA],
     },],
     rarities: [Rarity.Promo],
@@ -318592,7 +318733,10 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
       print: "HER140-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "656470",
+            url: "https://www.tcgplayer.com/product/656470?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
@@ -318712,7 +318856,10 @@ The second time you crank each turn, draw a card.`,
       print: "HER137-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "637478",
+            url: "https://www.tcgplayer.com/product/637478?Language=English&Printing=Rainbow+Foil"
+          },
       
     },],
     rarities: [Rarity.Basic,Rarity.Marvel,Rarity.Promo],
@@ -331314,7 +331461,10 @@ If you have less {h} than an opposing Shadow hero, put this into your soul.`,
       print: "CON006-Rainbow-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "706932",
+            url: "https://www.tcgplayer.com/product/706932?Language=English&Printing=Rainbow+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo,Rarity.Rare],
@@ -341607,7 +341757,10 @@ At the start of your turn, destroy this and draw a card.`,
       print: "FAB435-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "704964",
+            url: "https://www.tcgplayer.com/product/704964?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -363680,7 +363833,10 @@ Whenever an arrow is put face-up in arsenal from your deck, put an aim counter o
       print: "FAB436-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "705049",
+            url: "https://www.tcgplayer.com/product/705049?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -369939,7 +370095,10 @@ Gain {r}{r} for each card this **scrapped**.`,
       print: "HER142-Rainbow",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "647575",
+            url: "https://www.tcgplayer.com/product/647575?Language=English&Printing=Rainbow+Foil"
+          },
       
     },{
         artists: ["Sam Yang"],
@@ -377491,7 +377650,10 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
       print: "CON005-Cold-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707174",
+            url: "https://www.tcgplayer.com/product/707174?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
@@ -377503,7 +377665,10 @@ When Sekem attacks, you may banish a card from your hero's soul. If you do, deal
       print: "CON005-Cold-Alternate Art-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "707174",
+            url: "https://www.tcgplayer.com/product/707174?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Rare,Rarity.Token],
@@ -383523,7 +383688,10 @@ At the beginning of your action phase, Shiyana becomes a copy of target hero unt
       print: "JDG054-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "656468",
+            url: "https://www.tcgplayer.com/product/656468?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -386850,7 +387018,10 @@ At the beginning of your action phase, destroy this then draw a card.`,
       print: "JDG050-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "651055",
+            url: "https://www.tcgplayer.com/product/651055?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Promo,Rarity.Rare],
@@ -404677,7 +404848,10 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
       print: "JDG047-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648473",
+            url: "https://www.tcgplayer.com/product/648473?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -413569,7 +413743,10 @@ When this hits a hero, create a Confidence and a Might token.`,
       print: "FAB296-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662257",
+            url: "https://www.tcgplayer.com/product/662257?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Marcus Reyno"],
@@ -413581,7 +413758,10 @@ When this hits a hero, create a Confidence and a Might token.`,
       print: "FAB297-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662258",
+            url: "https://www.tcgplayer.com/product/662258?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Marcus Reyno"],
@@ -419729,7 +419909,10 @@ If you control a Vigor token, this gets +1{d}.
       print: "FAB302-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "659611",
+            url: "https://www.tcgplayer.com/product/659611?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Ramza Ardyputra"],
@@ -431150,7 +431333,10 @@ Deal 3 arcane damage to any target. If this was **fused** and targets a hero, de
       print: "FAB295-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "662254",
+            url: "https://www.tcgplayer.com/product/662254?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Alief Rusdiatama"],
@@ -436196,7 +436382,10 @@ The next time you would sharpen a sword this turn, instead **sharpen** it an add
       print: "LGS446-Cold-Extended Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "690687",
+            url: "https://www.tcgplayer.com/product/690687?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -456168,7 +456357,10 @@ The first time you would be dealt damage each turn, prevent 1 of that damage.`,
       print: "JDG067-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "692549",
+            url: "https://www.tcgplayer.com/product/692549?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -457599,7 +457791,10 @@ Draw a card.
       print: "JDG065-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "700811",
+            url: "https://www.tcgplayer.com/product/700811?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -461482,7 +461677,10 @@ If this was played from arsenal, it gets **go again**.`,
       print: "FAB228-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "618756",
+            url: "https://www.tcgplayer.com/product/618756?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
@@ -461572,7 +461770,10 @@ If this was played from arsenal, it gets **go again**.`,
       print: "FAB340-Cold-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "648471",
+            url: "https://www.tcgplayer.com/product/648471?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Basic,Rarity.Promo],
@@ -462987,7 +463188,10 @@ If a card with 6 or more {p} is banished this way, this gets +2{p}.
       print: "JDG053-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "659608",
+            url: "https://www.tcgplayer.com/product/659608?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -465395,7 +465599,10 @@ While this is defending, if you've been cheered this turn, it gets +3{d}.`,
       print: "FAB227-Gold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "618755",
+            url: "https://www.tcgplayer.com/product/618755?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Legendary,Rarity.Promo],
@@ -479610,7 +479817,10 @@ When this chain link resolves, if this is defended by a card from hand, create a
       print: "HER068-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "605496",
+            url: "https://www.tcgplayer.com/product/605496?Language=English&Printing=Cold+Foil"
+          },
       
     },{
         artists: ["Wisnu Tan"],
@@ -483628,7 +483838,10 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       print: "CON007-Cold-Alternate Art-Full Art",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "706933",
+            url: "https://www.tcgplayer.com/product/706933?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },{
         artists: ["Dominik Mayer"],
@@ -483640,7 +483853,10 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       print: "CON007-Cold-Alternate Art-Full Art-Back",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "706933",
+            url: "https://www.tcgplayer.com/product/706933?Language=English&Printing=Cold+Foil"
+          },
       treatment: Treatment.AA,treatments: [Treatment.AA,Treatment.FA],
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],
@@ -500549,7 +500765,10 @@ The first time the crowd cheers you each turn, each hero draws a card.`,
       print: "JDG048-Cold",
       rarity: Rarity.Promo,
       set: Release.Promos,
-      
+      tcgplayer: {
+            productId: "656469",
+            url: "https://www.tcgplayer.com/product/656469?Language=English&Printing=Cold+Foil"
+          },
       
     },],
     rarities: [Rarity.Majestic,Rarity.Promo],

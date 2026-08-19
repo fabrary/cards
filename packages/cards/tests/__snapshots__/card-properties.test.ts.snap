@@ -33218,6 +33218,10 @@ When this attacks, you may banish a card under this. If you do, the attack gets 
       "print": "JDG052-Cold-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "656464",
+        "url": "https://www.tcgplayer.com/product/656464?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -54570,11 +54574,16 @@ exports[`Check for unintentional updates Blanch (blanch-red) vs snapshot 1`] = `
       "artists": [
         "Daniel Correia",
       ],
+      "foiling": "Rainbow",
       "identifier": "FAB400",
       "image": "FAB400",
-      "print": "FAB400-Alternate Art-Extended Art",
+      "print": "FAB400-Rainbow-Alternate Art-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "683211",
+        "url": "https://www.tcgplayer.com/product/683211?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -55832,6 +55841,10 @@ exports[`Check for unintentional updates Blaze, Firemind (blaze-firemind) vs sna
       "print": "HER118-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "565595",
+        "url": "https://www.tcgplayer.com/product/565595?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -77964,6 +77977,10 @@ exports[`Check for unintentional updates Breaker Helm Protos (breaker-helm-proto
       "print": "JDG046-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648472",
+        "url": "https://www.tcgplayer.com/product/648472?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -78811,6 +78828,10 @@ exports[`Check for unintentional updates Breakwater Undertow (breakwater-underto
       "print": "JDG066-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "711434",
+        "url": "https://www.tcgplayer.com/product/711434?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -106110,6 +106131,10 @@ You may destroy a Bloodrot Pox token you control. If you do gain 1{h}.
       "print": "FAB434-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "704965",
+        "url": "https://www.tcgplayer.com/product/704965?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -115082,6 +115107,10 @@ The first card with watery grave you play from your graveyard each turn gets **g
       "print": "FAB364-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662287",
+        "url": "https://www.tcgplayer.com/product/662287?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -118416,6 +118445,10 @@ Deal 1 arcane damage to any target.",
       "print": "LGS429-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "670725",
+        "url": "https://www.tcgplayer.com/product/670725?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -119104,6 +119137,10 @@ exports[`Check for unintentional updates Construct Bank Breaker (construct-bank-
       "print": "JDG052-Cold-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "656464",
+        "url": "https://www.tcgplayer.com/product/656464?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -122441,6 +122478,10 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.",
       "print": "FAB230-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "555752",
+        "url": "https://www.tcgplayer.com/product/555752?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -158529,6 +158570,10 @@ exports[`Check for unintentional updates Drag Down (drag-down-red) vs snapshot 1
       "print": "FAB442-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "681241",
+        "url": "https://www.tcgplayer.com/product/681241?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -162451,6 +162496,10 @@ exports[`Check for unintentional updates Drive Brake (drive-brake) vs snapshot 1
       "print": "JDG056-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "656465",
+        "url": "https://www.tcgplayer.com/product/656465?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -171229,6 +171278,10 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
       "print": "FAB362-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "659973",
+        "url": "https://www.tcgplayer.com/product/659973?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -191110,6 +191163,10 @@ Gain 1{h}",
       "print": "LGS428-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "670724",
+        "url": "https://www.tcgplayer.com/product/670724?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -192286,6 +192343,10 @@ When this is equipped, gain {r}.",
       "print": "FAB220-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "663158",
+        "url": "https://www.tcgplayer.com/product/663158?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -193069,6 +193130,10 @@ exports[`Check for unintentional updates Evo Engine Room (evo-engine-room-yellow
       "print": "FAB208-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "543030",
+        "url": "https://www.tcgplayer.com/product/543030?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -194448,6 +194513,10 @@ exports[`Check for unintentional updates Evo Smoothbore (evo-smoothbore-yellow) 
       "print": "FAB209-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "543031",
+        "url": "https://www.tcgplayer.com/product/543031?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -195194,6 +195263,10 @@ exports[`Check for unintentional updates Evo Thruster (evo-thruster-yellow) vs s
       "print": "FAB210-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "543032",
+        "url": "https://www.tcgplayer.com/product/543032?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -195306,6 +195379,10 @@ When this is equipped, up to 1 target attack gets +1{p}.",
       "print": "FAB221-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "663156",
+        "url": "https://www.tcgplayer.com/product/663156?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -195421,6 +195498,10 @@ When this is equipped, up to 1 target attack gets **go again**.",
       "print": "FAB222-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "663155",
+        "url": "https://www.tcgplayer.com/product/663155?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -195532,6 +195613,10 @@ When this is equipped, you may banish a card from your hand. If you do, draw a c
       "print": "FAB219-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "663157",
+        "url": "https://www.tcgplayer.com/product/663157?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -211147,6 +211232,10 @@ When this hits, create a Runechant token.",
       "print": "CON008-Rainbow-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "706934",
+        "url": "https://www.tcgplayer.com/product/706934?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -235196,6 +235285,10 @@ exports[`Check for unintentional updates Gauntlets of the Boreal Domain (gauntle
       "print": "FAB289-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662248",
+        "url": "https://www.tcgplayer.com/product/662248?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -245908,6 +246001,10 @@ exports[`Check for unintentional updates Good Time Chapeau (good-time-chapeau) v
       "print": "FAB304-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662255",
+        "url": "https://www.tcgplayer.com/product/662255?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -249535,6 +249632,10 @@ If a blue card has been put into your graveyard this turn, you may play cards wi
       "print": "HER138-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "637479",
+        "url": "https://www.tcgplayer.com/product/637479?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -255170,6 +255271,10 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
       "print": "FAB300-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662259",
+        "url": "https://www.tcgplayer.com/product/662259?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -255181,6 +255286,10 @@ If you have a card in your pitch zone with cost 0, this card's attacks get **go 
       "print": "FAB301-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662260",
+        "url": "https://www.tcgplayer.com/product/662260?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -262714,6 +262823,10 @@ exports[`Check for unintentional updates Heavy Industry Gear Shift (heavy-indust
       "print": "JDG049-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648465",
+        "url": "https://www.tcgplayer.com/product/648465?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -265243,6 +265356,10 @@ exports[`Check for unintentional updates Helm of Sharp Eye (helm-of-sharp-eye) v
       "print": "FAB303-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "659613",
+        "url": "https://www.tcgplayer.com/product/659613?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -268550,6 +268667,10 @@ exports[`Check for unintentional updates Herald of Sekem (herald-of-sekem-red) v
       "print": "LGS430-Rainbow-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "670727",
+        "url": "https://www.tcgplayer.com/product/670727?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -282804,6 +282925,10 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
       "print": "JDG051-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648464",
+        "url": "https://www.tcgplayer.com/product/648464?Language=English&Printing=Normal",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -282833,6 +282958,10 @@ Once per turn, when you **boost** a card, remove a steam counter from this and g
       "print": "JDG051-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648464",
+        "url": "https://www.tcgplayer.com/product/648464?Language=English&Printing=Normal",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -295530,6 +295659,10 @@ exports[`Check for unintentional updates Inverter's Nightcowl (inverters-nightco
       "print": "JDG064-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "693166",
+        "url": "https://www.tcgplayer.com/product/693166?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -298194,6 +298327,10 @@ exports[`Check for unintentional updates Ira, Scarlet Revenger (ira-scarlet-reve
       "print": "HER136-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "624617",
+        "url": "https://www.tcgplayer.com/product/624617?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -298533,6 +298670,10 @@ exports[`Check for unintentional updates Iris of the Blossom (iris-of-the-blosso
       "print": "JDG063-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "693167",
+        "url": "https://www.tcgplayer.com/product/693167?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -335493,6 +335634,10 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       "print": "HER141-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "651129",
+        "url": "https://www.tcgplayer.com/product/651129?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -335632,6 +335777,10 @@ Whenever you draw a card during your action phase, you may put an arrow from you
       "print": "HER139-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "637480",
+        "url": "https://www.tcgplayer.com/product/637480?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -336388,6 +336537,10 @@ exports[`Check for unintentional updates Mask of Recurring Nightmares (mask-of-r
       "print": "FAB225-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "618753",
+        "url": "https://www.tcgplayer.com/product/618753?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -341399,6 +341552,10 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.",
       "print": "FAB226-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "618754",
+        "url": "https://www.tcgplayer.com/product/618754?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -345862,6 +346019,10 @@ exports[`Check for unintentional updates Mischievous Meeps (mischievous-meeps-re
       "print": "JDG057-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "656466",
+        "url": "https://www.tcgplayer.com/product/656466?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -363501,6 +363662,10 @@ Whenever an attack you control with Vengeance in its name hits, you may equip an
       "print": "JDG055-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "659610",
+        "url": "https://www.tcgplayer.com/product/659610?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -385802,6 +385967,10 @@ Create a Might token.
       "print": "FAB432-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710770",
+        "url": "https://www.tcgplayer.com/product/710770?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -385921,6 +386090,10 @@ Create a Vigor token.
       "print": "FAB431-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710769",
+        "url": "https://www.tcgplayer.com/product/710769?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -386040,6 +386213,10 @@ Create a Ponder token.
       "print": "FAB430-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710768",
+        "url": "https://www.tcgplayer.com/product/710768?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -386159,6 +386336,10 @@ Create an Agility token.
       "print": "FAB433-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "710771",
+        "url": "https://www.tcgplayer.com/product/710771?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -397546,6 +397727,10 @@ exports[`Check for unintentional updates Popped Collar Polo (popped-collar-polo)
       "print": "JDG060-Cold-Alternate Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "664537",
+        "url": "https://www.tcgplayer.com/product/664537?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -397561,6 +397746,10 @@ exports[`Check for unintentional updates Popped Collar Polo (popped-collar-polo)
       "print": "JDG061-Cold-Alternate Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "664538",
+        "url": "https://www.tcgplayer.com/product/664538?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -410293,6 +410482,10 @@ The second time you crank each turn, draw a card.",
       "print": "HER140-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "656470",
+        "url": "https://www.tcgplayer.com/product/656470?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -410429,6 +410622,10 @@ The second time you crank each turn, draw a card.",
       "print": "HER137-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "637478",
+        "url": "https://www.tcgplayer.com/product/637478?Language=English&Printing=Rainbow+Foil",
+      },
     },
   ],
   "rarities": [
@@ -427970,6 +428167,10 @@ If you've **charged** this turn, this gets +3{p}.",
       "print": "CON006-Rainbow-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "706932",
+        "url": "https://www.tcgplayer.com/product/706932?Language=English&Printing=Rainbow+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -441215,6 +441416,10 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
       "print": "FAB435-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "704964",
+        "url": "https://www.tcgplayer.com/product/704964?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -469095,6 +469300,10 @@ You may destroy a Frailty token you control. If you do, gain 1 {h}.
       "print": "FAB436-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "705049",
+        "url": "https://www.tcgplayer.com/product/705049?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -477206,6 +477415,10 @@ Whenever you activate a Goldkiss Rum, gain {r}.",
       "print": "HER142-Rainbow",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "647575",
+        "url": "https://www.tcgplayer.com/product/647575?Language=English&Printing=Rainbow+Foil",
+      },
     },
     {
       "artists": [
@@ -486851,6 +487064,10 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
       "print": "CON005-Cold-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707174",
+        "url": "https://www.tcgplayer.com/product/707174?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -486867,6 +487084,10 @@ exports[`Check for unintentional updates Ser Boltyn, Breaker of Dawn (ser-boltyn
       "print": "CON005-Cold-Alternate Art-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "707174",
+        "url": "https://www.tcgplayer.com/product/707174?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -494315,6 +494536,10 @@ exports[`Check for unintentional updates Shock Frock (shock-frock) vs snapshot 1
       "print": "JDG054-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "656468",
+        "url": "https://www.tcgplayer.com/product/656468?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -498192,6 +498417,10 @@ exports[`Check for unintentional updates Sift (sift-blue) vs snapshot 1`] = `
       "print": "JDG050-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "651055",
+        "url": "https://www.tcgplayer.com/product/651055?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -521907,6 +522136,10 @@ exports[`Check for unintentional updates Solar Plexus (solar-plexus) vs snapshot
       "print": "JDG047-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648473",
+        "url": "https://www.tcgplayer.com/product/648473?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -532770,6 +533003,10 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       "print": "FAB296-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662257",
+        "url": "https://www.tcgplayer.com/product/662257?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -532781,6 +533018,10 @@ When this hits a hero, the next time they defend with 1 or more attack action ca
       "print": "FAB297-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662258",
+        "url": "https://www.tcgplayer.com/product/662258?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -540617,6 +540858,10 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
       "print": "FAB302-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "659611",
+        "url": "https://www.tcgplayer.com/product/659611?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -555327,6 +555572,10 @@ When this hits a hero, create a Frostbite token in their exposed head, chest, ar
       "print": "FAB295-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "662254",
+        "url": "https://www.tcgplayer.com/product/662254?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -562138,6 +562387,10 @@ Target weapon attack gets +5{p}.",
       "print": "LGS446-Cold-Extended Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "690687",
+        "url": "https://www.tcgplayer.com/product/690687?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Extended Art",
       "treatments": [
         "Extended Art",
@@ -588233,6 +588486,10 @@ If a card has been put into your soul this turn, instead draw 3 cards.",
       "print": "JDG067-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "692549",
+        "url": "https://www.tcgplayer.com/product/692549?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -590075,6 +590332,10 @@ exports[`Check for unintentional updates Torc of Vim (torc-of-vim) vs snapshot 1
       "print": "JDG065-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "700811",
+        "url": "https://www.tcgplayer.com/product/700811?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -595089,6 +595350,10 @@ exports[`Check for unintentional updates Traverse the Universe (traverse-the-uni
       "print": "FAB228-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "618756",
+        "url": "https://www.tcgplayer.com/product/618756?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -595187,6 +595452,10 @@ Whenever you or an ally you control deals damage to an opposing hero, you remove
       "print": "FAB340-Cold-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "648471",
+        "url": "https://www.tcgplayer.com/product/648471?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Full Art",
       "treatments": [
         "Full Art",
@@ -597086,6 +597355,10 @@ exports[`Check for unintentional updates Tricorn of Saltwater Death (tricorn-of-
       "print": "JDG053-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "659608",
+        "url": "https://www.tcgplayer.com/product/659608?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -600104,6 +600377,10 @@ exports[`Check for unintentional updates Twelve Petal Kāṣāya (twelve-petal-k
       "print": "FAB227-Gold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "618755",
+        "url": "https://www.tcgplayer.com/product/618755?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
@@ -618134,6 +618411,10 @@ exports[`Check for unintentional updates Viserai (viserai) vs snapshot 1`] = `
       "print": "HER068-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "605496",
+        "url": "https://www.tcgplayer.com/product/605496?Language=English&Printing=Cold+Foil",
+      },
     },
     {
       "artists": [
@@ -622948,6 +623229,10 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       "print": "CON007-Cold-Alternate Art-Full Art",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "706933",
+        "url": "https://www.tcgplayer.com/product/706933?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -622964,6 +623249,10 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
       "print": "CON007-Cold-Alternate Art-Full Art-Back",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "706933",
+        "url": "https://www.tcgplayer.com/product/706933?Language=English&Printing=Cold+Foil",
+      },
       "treatment": "Alternate Art",
       "treatments": [
         "Alternate Art",
@@ -645743,6 +646032,10 @@ exports[`Check for unintentional updates Zap Clappers (zap-clappers) vs snapshot
       "print": "JDG048-Cold",
       "rarity": "Promo",
       "set": "Promos",
+      "tcgplayer": {
+        "productId": "656469",
+        "url": "https://www.tcgplayer.com/product/656469?Language=English&Printing=Cold+Foil",
+      },
     },
   ],
   "rarities": [
