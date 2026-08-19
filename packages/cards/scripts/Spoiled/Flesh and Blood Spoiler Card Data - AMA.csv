@@ -9,7 +9,7 @@ AMA003,AMA,Corrupted Crown,,,,,1,,,,"Shadow, Equipment, Head",,Blade Break,,,,,,
 
 **Blade Break**",Shadow Equipment - Head,,,,,R,R,,Dzulfikar Aliy,,,AMA003,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA003-RF.webp,,,,,,,,,,,,,,,,,,,
 AMA004,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA004,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA004.webp,,,,,,,,,,,,,,,,,,,
-AMA005,AMA,Undead Grasp,,,,,1,,,,"Shadow, Necromancer, Equipment, Arms",,"Go again, Battleworn",,,,,,"**Action** - {r}, discard a zombie, destroy this: Your next zombie attack this turn gets +3{p} and ""When this hits, destroy this zombie."" **Go again**
+AMA005,AMA,Undead Grasp,,,,,1,,,,"Shadow, Necromancer, Equipment, Arms",,Battleworn,Action,Go again,,,,"**Action** - {r}, discard a zombie, destroy this: Your next zombie attack this turn gets +3{p} and ""When this hits, destroy this zombie."" **Go again**
 
 **Battleworn**",Shadow Necromancer Equipment - Arms,,,No,,M,R,,Brian Madya Narendra,,,AMA005,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA005-RF.webp,,,,,,,,,,,,,,,,,,,
 AMA006,AMA,Mage Master Boots,,,,,0,,,,"Generic, Equipment, Legs",,Go again,,,,,,"**Action** - {r}, destroy this: The next non-attack action card you play this turn gets **go again**. **Go again**",Generic Equipment - Legs,,,,,C,R,AA,Reza Aswadananta,,,AMA006,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA006-RF.webp,,,,,,,,,,,,,,,,,,,
@@ -40,7 +40,9 @@ AMA022,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA022,https://legendstory-production-s3
 AMA023,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA023,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA023.webp,,,,,,,,,,,,,,,,,,,
 AMA024,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA024,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA024.webp,,,,,,,,,,,,,,,,,,,
 AMA025,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA025,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA025.webp,,,,,,,,,,,,,,,,,,,
-AMA026,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA026.webp,,,,,,,,,,,,,,,,,,,
+AMA026,AMA,Shadowrealm Strength,Blue,3,0,,3,,,,"Shadow, Necromancer, Action",,Go again,,,,,,"You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +1{p}.
+
+**Go again**",Shadow Necromancer Action,,,,,C,,,Surya Prasetya,,,AMA026,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA026.webp,,,,,,,,,,,,,,,,,,,
 AMA027,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA027,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA027.webp,,,,,,,,,,,,,,,,,,,
 AMA028,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA028,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA028.webp,,,,,,,,,,,,,,,,,,,
 AMA029,AMA,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,AMA029,https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMA029.webp,,,,,,,,,,,,,,,,,,,

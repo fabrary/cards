@@ -51756,6 +51756,85 @@ If the discarded card has 6 or more {p}, draw 2 cards and this gets **go again**
   
   
   },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "bloodsong-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR114-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodsong Gloomblade",
+    printings: [{
+        artists: ["Maerel Hibadita"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR114",
+      image: "IAR114-RF",
+      
+      
+      print: "IAR114-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Maerel Hibadita"],
+      
+      identifier: "IAR114",
+      image: "IAR114",
+      
+      
+      print: "IAR114",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR114"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR114-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, you may banish target aura permanent they control.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Wirawan Pranoto"],
     cardIdentifier: "bloodspill-invocation-red",
     classes: [Class.Runeblade],
@@ -81174,7 +81253,8 @@ At the start of your turn, destroy this.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Faizal Fikri"],
     cardIdentifier: "clash-of-agility-yellow",
     classes: [Class.Brute,Class.Warrior],
@@ -81253,8 +81333,7 @@ At the start of your turn, destroy this.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Faizal Fikri"],
     cardIdentifier: "clash-of-agility-blue",
     classes: [Class.Brute,Class.Warrior],
@@ -160278,7 +160357,8 @@ This gets +1{p} for each equipment defending it.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "fender-bender-blue",
     classes: [Class.Mechanologist],
@@ -160359,8 +160439,7 @@ This gets +1{p} for each equipment defending it.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "feral-instinct-yellow",
     classes: [Class.Brute],
@@ -197567,7 +197646,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
     
     functionalText: `As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
 
-**Blood Debt""`,
+**Blood Debt**`,
     
     
     
@@ -242133,7 +242212,8 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
     talents: [Talent.Draconic],
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Steve Argyle"],
     cardIdentifier: "kyloria",
     classes: [Class.Illusionist],
@@ -242212,8 +242292,7 @@ At the beginning of the end phase, if no hero has gained {r} or {h} from an effe
     talents: [Talent.Draconic],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Phu Thieu"],
     cardIdentifier: "lace-with-bloodrot-red",
     classes: [Class.Ranger],
@@ -323604,7 +323683,8 @@ At the beginning of your action phase, destroy this.`,
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Narendra B Adi"],
     cardIdentifier: "qi-unleashed-red",
     classes: [Class.Ninja],
@@ -323728,8 +323808,7 @@ At the beginning of your action phase, destroy this.`,
     
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "qi-unleashed-yellow",
     classes: [Class.Ninja],
@@ -341380,7 +341459,7 @@ At the start of your turn, destroy this and draw a card.`,
     
     
     
-    keywords: [Keyword.Decay],
+    keywords: [Keyword.Decay,Keyword.GoAgain],
     
     life: 3,
     meta: [Meta.Deck],
@@ -379305,6 +379384,69 @@ If 1 or more cards with 6 or more {p} are banished this way, this gets +1{p}. 2 
   
   
   },{
+    artists: ["Surya Prasetya"],
+    cardIdentifier: "shadowrealm-strength-blue",
+    classes: [Class.Necromancer],
+    defaultImage: "AMA026",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Malice],
+    name: "Shadowrealm Strength",
+    printings: [{
+        artists: ["Surya Prasetya"],
+      
+      identifier: "AMA026",
+      image: "AMA026",
+      
+      
+      print: "AMA026",
+      rarity: Rarity.Common,
+      set: Release.ArmoryDeckMalice,
+      
+      
+    },],
+    rarities: [Rarity.Common],
+    rarity: Rarity.Common,
+    setIdentifiers: ["AMA026"],
+    sets: [Release.ArmoryDeckMalice],
+    specialImage: "AMA026",
+    subtypes: [Subtype.NonAttack],
+    types: [Type.Action],
+    typeText: "Shadow Necromancer Action",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may put a card from your banished zone into your graveyard. If it's a zombie, your next attack this turn gets +1{p}.
+
+**Go again**`,
+    
+    
+    
+    
+    keywords: [Keyword.GoAgain],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 3,
+    
+    
+    shorthands: [Shorthand.Buffs],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Tomasz Jedruszek"],
     cardIdentifier: "shake-down-red",
     classes: [Class.Assassin],
@@ -404893,7 +405035,8 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
     talents: [Talent.Light],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Raynor Maharsi"],
     cardIdentifier: "solforge-gauntlet",
     classes: [Class.NotClassed],
@@ -405068,8 +405211,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
     
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Narendra B Adi"],
     cardIdentifier: "solitary-companion-red",
     classes: [Class.Illusionist],
@@ -483359,7 +483501,8 @@ When this hits, create a Lightning Flow token.`,
     talents: [Talent.Lightning],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "volzar-the-lightning-rod",
     classes: [Class.Wizard],
@@ -483581,8 +483724,7 @@ When this hits, create a Lightning Flow token.`,
     talents: [Talent.Draconic],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Jessketchin"],
     cardIdentifier: "vox-necropolis",
     classes: [Class.Necromancer],

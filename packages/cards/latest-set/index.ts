@@ -797,6 +797,85 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
   
   
   },{
+    artists: ["Maerel Hibadita"],
+    cardIdentifier: "bloodsong-gloomblade-red",
+    classes: [Class.Runeblade],
+    defaultImage: "IAR114-RF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
+    name: "Bloodsong Gloomblade",
+    printings: [{
+        artists: ["Maerel Hibadita"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR114",
+      image: "IAR114-RF",
+      
+      
+      print: "IAR114-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Maerel Hibadita"],
+      
+      identifier: "IAR114",
+      image: "IAR114",
+      
+      
+      print: "IAR114",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR114"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR114-RF",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Runeblade Action - Attack",
+
+    
+    
+    cost: 0,
+    defense: 3,
+    
+    functionalText: `You may play this from your banished zone.
+
+**Usurp**
+
+When this hits a hero, you may banish target aura permanent they control.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt,Keyword.Usurp],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 1,
+    power: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Khairul Sukmanudin"],
     cardIdentifier: "bone-barrier-blue",
     classes: [Class.Necromancer],
@@ -1910,7 +1989,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     
     functionalText: `As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
 
-**Blood Debt""`,
+**Blood Debt**`,
     
     
     
@@ -2969,7 +3048,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     
     
     
-    keywords: [Keyword.Decay],
+    keywords: [Keyword.Decay,Keyword.GoAgain],
     
     life: 3,
     meta: [Meta.Deck],

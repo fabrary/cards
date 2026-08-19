@@ -254735,7 +254735,7 @@ exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-
   "firstReleaseDate": "2026-09-25",
   "functionalText": "As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
 
-**Blood Debt""",
+**Blood Debt**",
   "keywords": [
     "Blood Debt",
   ],
@@ -440803,6 +440803,7 @@ exports[`Check for unintentional updates Restless Cleric (restless-cleric-red) v
 **Decay**",
   "keywords": [
     "Decay",
+    "Go again",
   ],
   "legalFormats": [
     "Blitz",

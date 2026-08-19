@@ -2571,6 +2571,11 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://fabrary.net/cards/bloodsong-gloomblade-red</loc>
+    <lastmod>2026-08-19</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://fabrary.net/cards/bloodspill-invocation-red</loc>
     <lastmod>2023-05-13</lastmod>
     <priority>0.5</priority>
@@ -18693,6 +18698,11 @@
   <url>
     <loc>https://fabrary.net/cards/shadowrealm-strength-red</loc>
     <lastmod>2026-08-09</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://fabrary.net/cards/shadowrealm-strength-blue</loc>
+    <lastmod>2026-08-19</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
