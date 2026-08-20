@@ -92,6 +92,7 @@ export enum Shorthand {
   Buffs = "Buffs",
   Flick = "Flick",
   Poppers = "Poppers",
+  Sin = "Sin",
   Tap = "Tap",
   Untap = "Untap",
 }

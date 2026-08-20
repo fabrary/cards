@@ -3591,7 +3591,7 @@ At the beginning of your action phase or when you play an attack action card, de
     pitch: 2,
     
     
-    
+    shorthands: [Shorthand.Sin],
     
     
     
@@ -3671,7 +3671,7 @@ At the beginning of your action phase or when you play an attack action card, de
     pitch: 2,
     
     
-    
+    shorthands: [Shorthand.Sin],
     
     
     
@@ -3751,7 +3751,7 @@ At the beginning of your action phase or when you play an attack action card, de
     pitch: 2,
     
     
-    
+    shorthands: [Shorthand.Sin],
     
     
     
@@ -3831,7 +3831,7 @@ At the beginning of your action phase or when you play an attack action card, de
     pitch: 2,
     
     
-    
+    shorthands: [Shorthand.Sin],
     
     
     
@@ -3911,7 +3911,7 @@ At the beginning of your action phase or when you play an attack action card, de
     pitch: 2,
     
     
-    
+    shorthands: [Shorthand.Sin],
     
     
     
@@ -3991,7 +3991,7 @@ At the beginning of your action phase or when you play an attack action card, de
     pitch: 2,
     
     
-    
+    shorthands: [Shorthand.Sin],
     
     
     
@@ -4071,7 +4071,7 @@ At the beginning of your action phase or when you play an attack action card, de
     pitch: 2,
     
     
-    
+    shorthands: [Shorthand.Sin],
     
     
     

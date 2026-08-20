@@ -777,3 +777,31 @@ describe("Preview searches", () => {
     );
   });
 });
+
+describe("Nicknames etc", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  it("Disease tokens", () => {
+    const { searchResults } = cardSearch.search(`disease`);
+
+    expect(searchResults).toBeTruthy();
+    const diseaseTokens = ["Bloodrot Pox", "Inertia", "Frailty"];
+
+    for (const token of diseaseTokens) {
+      const matchingResult = searchResults.find(({ name }) => name === token);
+      expect(matchingResult).toBeTruthy();
+    }
+  });
+
+  it("Sin", () => {
+    const { searchResults } = cardSearch.search(`disease`);
+
+    expect(searchResults).toBeTruthy();
+    const diseaseTokens = ["Bloodrot Pox", "Inertia", "Frailty"];
+
+    for (const token of diseaseTokens) {
+      const matchingResult = searchResults.find(({ name }) => name === token);
+      expect(matchingResult).toBeTruthy();
+    }
+  });
+});

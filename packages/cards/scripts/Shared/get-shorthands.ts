@@ -55,6 +55,14 @@ export const getShorthands = (
       matchesAllFilters = matches && matchesAllFilters;
     }
 
+    if (filters.name) {
+      const matches = card.name.includes(filters.name);
+      if (matches) {
+        matchesAtLeastOneFilter = true;
+      }
+      matchesAllFilters = matches && matchesAllFilters;
+    }
+
     if (filters.notClass && filters.notClass.length > 0) {
       const matches = filters.notClass.every(
         (notClass) => !card.classes.includes(notClass),

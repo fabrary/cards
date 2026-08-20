@@ -13,6 +13,7 @@ export const shorthands: {
     defenseGreaterThanOrEqualTo?: number;
     functionalText?: string[];
     keywords?: Keyword[];
+    name?: string;
     notClass?: Class[];
     powerGreaterThanOrEqualTo?: number;
     subtypes?: Subtype[];
@@ -134,14 +135,16 @@ export const shorthands: {
       '6+ power non-Illusionist attacks that can "pop" phantasm attacks when defending',
     shorthands: [Shorthand.Poppers],
   },
-  // {
-  //   description: "Spellvoid",
-  //   expanded: ['k:"spellvoid"'],
-  //   filters: {
-  //     keywords: [Keyword.Spellvoid],
-  //   },
-  //   shorthands: ["SV"],
-  // },
+  {
+    description: "Sin",
+    expanded: ['k:"spellvoid"'],
+    filters: {
+      name: "Runechant of",
+      subtypes: [Subtype.Aura],
+      types: [Type.Instant],
+    },
+    shorthands: [Shorthand.Sin],
+  },
   {
     description: "Tap",
     expanded: ["{t}"],
