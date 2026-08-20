@@ -292,7 +292,7 @@ export const filterCard = (
 
   for (const appliedFilter of appliedFilters) {
     const isOptional = appliedFilter.isOptional;
-    const { isNumber, isString, isArray, isBoolean } =
+    const { isNumber, isString, isArray, isBoolean, isDate } =
       appliedFilter.filterToPropertyMapping;
 
     if (isNumber) {
@@ -347,6 +347,19 @@ export const filterCard = (
       } else {
         doesCardMatchAllRequiredFilters =
           doesCardMatchAllRequiredFilters && cardMatchesBooleanFilter;
+      }
+    } else if (isDate) {
+      const cardMatchesDateFilter = getDoesCardMatchDateFilter(
+        card,
+        appliedFilter,
+      );
+      if (isOptional) {
+        if (cardMatchesDateFilter) {
+          _doesCardMatchAnyOptionalFilters = true;
+        }
+      } else {
+        doesCardMatchAllRequiredFilters =
+          doesCardMatchAllRequiredFilters && cardMatchesDateFilter;
       }
     }
   }
@@ -515,6 +528,25 @@ const getDoesCardMatchBooleanFilter = (
     const { isExcluded } = filter;
     const cardValue = getCardValue(card, filter) as boolean;
     return isExcluded ? !cardValue : cardValue;
+  }
+};
+
+// Whether the card's date sits after the one the filter carries. Both are
+// YYYY-MM-DD, so they order correctly as strings with no parsing. The
+// comparison is strict, making release day itself count as released, and an
+// undated card sorts below every real date and so reads as released too.
+const getDoesCardMatchDateFilter = (
+  card: Card,
+  filter: AppliedFilter,
+): boolean => {
+  if (!doesFilterMatchCardType(filter, card)) {
+    return true;
+  } else {
+    const { values, isExcluded } = filter;
+    const cardValue = getCardValue(card, filter) as string;
+    const isAfter = values?.some((filterValue) => cardValue > filterValue);
+
+    return isExcluded ? !isAfter : isAfter;
   }
 };
 

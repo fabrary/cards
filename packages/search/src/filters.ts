@@ -106,6 +106,7 @@ export interface FilterToPropertyMapping {
   isNumber?: boolean;
   isString?: boolean;
   isBoolean?: boolean;
+  isDate?: boolean;
   isMeta?: boolean;
   // optional?: Optional;
   modifier?: Modifier;
@@ -211,6 +212,11 @@ const nameFilter: FilterToPropertyMapping = {
 const pitchFilter: FilterToPropertyMapping = {
   property: "pitch",
   isNumber: true,
+};
+
+const previewFilter: FilterToPropertyMapping = {
+  property: "firstReleaseDate",
+  isDate: true,
 };
 
 const powerFilter: FilterToPropertyMapping = {
@@ -431,6 +437,7 @@ export const getKeywordsAndAppliedFiltersFromText = (
   cards: Card[],
   additionalHeroes: Hero[] = [],
   additionalSets: Release[] = [],
+  today: string = getTodayAsReleaseDate(),
 ): {
   appliedFilters: AppliedFilter[];
   attributes: {
@@ -611,13 +618,20 @@ export const getKeywordsAndAppliedFiltersFromText = (
         ) {
           prints = values;
         } else if (["is", "meta"].includes(filterKey)) {
-          // Unique is the inverse of Meta.Reprint, so it gets its own filter
-          // with the exclusion flipped rather than a meta value to match.
+          // Unique is the inverse of Meta.Reprint, and preview compares against
+          // today rather than matching a value the card carries, so both get
+          // their own filter rather than a meta value to match.
           const uniqueValues: string[] = [];
+          const previewValues: string[] = [];
+          const releasedValues: string[] = [];
           const metaRawValues: string[] = [];
           for (const value of values) {
             if (UNIQUE_VALUES.includes(value)) {
               uniqueValues.push(value);
+            } else if (PREVIEW_VALUES.includes(value)) {
+              previewValues.push(value);
+            } else if (RELEASED_VALUES.includes(value)) {
+              releasedValues.push(value);
             } else {
               metaRawValues.push(value);
             }
@@ -632,6 +646,37 @@ export const getKeywordsAndAppliedFiltersFromText = (
               isExcluded: !isExcluded,
               isOptional,
             });
+            areValuesAlreadyApplied = metaRawValues.length === 0;
+          }
+
+          const hasPreviewValues = previewValues.length > 0;
+          if (hasPreviewValues) {
+            appliedFilters.push({
+              filterToPropertyMapping: previewFilter,
+              values: [today],
+              isAnd,
+              isOr,
+              isExcluded,
+              isOptional,
+            });
+          }
+
+          // Released is the same comparison with the exclusion flipped, so it
+          // agrees with -is:preview, and -is:released lands back on preview.
+          // Asking for both at once contradicts and matches nothing.
+          const hasReleasedValues = releasedValues.length > 0;
+          if (hasReleasedValues) {
+            appliedFilters.push({
+              filterToPropertyMapping: previewFilter,
+              values: [today],
+              isAnd,
+              isOr,
+              isExcluded: !isExcluded,
+              isOptional,
+            });
+          }
+
+          if (hasPreviewValues || hasReleasedValues) {
             areValuesAlreadyApplied = metaRawValues.length === 0;
           }
 
@@ -778,6 +823,22 @@ const getPitchValuesFromText = (rawValues: string[]) => {
 };
 
 const UNIQUE_VALUES = ["unique"];
+
+// Spoiler is accepted here in the sense of "not out yet", which is narrower
+// than a spoiler reveal. See the Preview entry in the shared glossary.
+const PREVIEW_VALUES = ["preview", "spoiler", "unreleased"];
+const RELEASED_VALUES = ["released"];
+
+// Today in the viewer's timezone, formatted the way firstReleaseDate is stored
+// so the two order correctly as plain strings. Deliberately not the UTC date,
+// which would read as tomorrow for anyone far enough east.
+const getTodayAsReleaseDate = (): string => {
+  const now = new Date();
+  const month = `${now.getMonth() + 1}`.padStart(2, "0");
+  const dayOfMonth = `${now.getDate()}`.padStart(2, "0");
+
+  return `${now.getFullYear()}-${month}-${dayOfMonth}`;
+};
 
 const metaValuesMapping: { [key: string]: Meta } = {
   dual: Meta.DualClass,

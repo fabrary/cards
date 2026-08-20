@@ -717,3 +717,63 @@ describe("Meta property searches", () => {
     }
   });
 });
+
+describe("Preview searches", () => {
+  const cardSearch = new Search(doubleSidedCards);
+
+  const { searchResults: previewResults } = cardSearch.search(`is:preview`);
+  const { searchResults: releasedResults } = cardSearch.search(`is:released`);
+
+  // Asserted as invariants rather than counts: the number of unreleased cards
+  // falls every time a product comes out, so a count would go stale on its own.
+  it("Splits the card pool in two", () => {
+    expect(previewResults.length).toBeGreaterThan(0);
+    expect(releasedResults.length).toBeGreaterThan(0);
+    expect(previewResults.length + releasedResults.length).toEqual(
+      doubleSidedCards.length,
+    );
+
+    const previewIdentifiers = new Set(
+      previewResults.map(({ cardIdentifier }) => cardIdentifier),
+    );
+    const overlapping = releasedResults.filter(({ cardIdentifier }) =>
+      previewIdentifiers.has(cardIdentifier),
+    );
+
+    expect(overlapping).toEqual([]);
+  });
+
+  it("Puts every preview card after every released card", () => {
+    let earliestPreviewDate = previewResults[0].firstReleaseDate;
+    for (const { firstReleaseDate } of previewResults) {
+      if (firstReleaseDate < earliestPreviewDate) {
+        earliestPreviewDate = firstReleaseDate;
+      }
+    }
+
+    let latestReleasedDate = releasedResults[0].firstReleaseDate;
+    for (const { firstReleaseDate } of releasedResults) {
+      if (firstReleaseDate > latestReleasedDate) {
+        latestReleasedDate = firstReleaseDate;
+      }
+    }
+
+    expect(earliestPreviewDate > latestReleasedDate).toBeTruthy();
+  });
+
+  const equivalentSearches = [
+    ["is:preview", "is:spoiler"],
+    ["is:preview", "is:unreleased"],
+    ["is:preview", "-is:released"],
+    ["is:released", "!is:preview"],
+  ];
+  it.each(equivalentSearches)("Matches %s with %s", (search, equivalent) => {
+    const { searchResults } = cardSearch.search(search);
+    const { searchResults: equivalentResults } = cardSearch.search(equivalent);
+
+    expect(searchResults.length).toEqual(equivalentResults.length);
+    expect(searchResults.map(({ cardIdentifier }) => cardIdentifier)).toEqual(
+      equivalentResults.map(({ cardIdentifier }) => cardIdentifier),
+    );
+  });
+});

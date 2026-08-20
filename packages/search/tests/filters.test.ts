@@ -13,6 +13,10 @@ import {
 } from "../src/filters";
 import { cards } from "@flesh-and-blood/cards";
 
+// Any fixed day works; the point is that the token resolves to a comparison
+// against the date it was given rather than to whatever today happens to be.
+const PINNED_TODAY = "2026-09-24";
+
 describe("Gets the right attribute filters", () => {
   const foilFilters = [
     ["foiling:r", [Foiling.Rainbow]],
@@ -163,6 +167,77 @@ describe("Gets the right attribute filters", () => {
       expect(!!metaAppliedFilters[0].isExcluded).toEqual(expectedIsExcluded);
     },
   );
+
+  const previewFilters = [
+    ["is:preview", false],
+    ["is:spoiler", false],
+    ["is:unreleased", false],
+    ["!is:preview", true],
+    ["is:released", true],
+    ["-is:released", false],
+  ];
+  it.each(previewFilters)(
+    "Compares against the given date for %s",
+    (search, expectedIsExcluded) => {
+      const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+        search as string,
+        cards,
+        [],
+        [],
+        PINNED_TODAY,
+      );
+
+      const dateAppliedFilters = appliedFilters.filter(
+        ({ filterToPropertyMapping }) => filterToPropertyMapping.isDate,
+      );
+
+      expect(dateAppliedFilters.length).toEqual(1);
+      expect(dateAppliedFilters[0].values).toEqual([PINNED_TODAY]);
+      expect(!!dateAppliedFilters[0].isExcluded).toEqual(expectedIsExcluded);
+    },
+  );
+
+  it("Keeps the remaining meta values alongside preview", () => {
+    const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+      "is:preview,arena",
+      cards,
+      [],
+      [],
+      PINNED_TODAY,
+    );
+
+    const dateAppliedFilters = appliedFilters.filter(
+      ({ filterToPropertyMapping }) => filterToPropertyMapping.isDate,
+    );
+    const metaAppliedFilters = appliedFilters.filter(
+      ({ filterToPropertyMapping }) =>
+        filterToPropertyMapping.property === "meta",
+    );
+
+    expect(dateAppliedFilters.length).toEqual(1);
+    expect(metaAppliedFilters.length).toEqual(1);
+    expect(metaAppliedFilters[0].values).toEqual([Meta.Arena.toLowerCase()]);
+  });
+
+  it("Contradicts itself when asked for preview and released at once", () => {
+    const { appliedFilters } = getKeywordsAndAppliedFiltersFromText(
+      "is:preview,released",
+      cards,
+      [],
+      [],
+      PINNED_TODAY,
+    );
+
+    const dateAppliedFilters = appliedFilters.filter(
+      ({ filterToPropertyMapping }) => filterToPropertyMapping.isDate,
+    );
+
+    expect(dateAppliedFilters.length).toEqual(2);
+    expect(dateAppliedFilters.map(({ isExcluded }) => !!isExcluded)).toEqual([
+      false,
+      true,
+    ]);
+  });
 
   const shorthandFilters = [
     ["short:buffs", [Shorthand.Buffs]],
