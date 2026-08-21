@@ -9659,6 +9659,69 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
   
   
   },{
+    artists: ["Rio Sabda"],
+    cardIdentifier: "ancient-earth-oak-red",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR261",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Starvo],
+    name: "Ancient Earth Oak",
+    printings: [{
+        artists: ["Rio Sabda"],
+      
+      identifier: "IAR261",
+      image: "IAR261",
+      isExpansionSlot: true,
+      
+      print: "IAR261",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR261"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR261",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Ice Action - Attack",
+
+    
+    bonds: [Bond.Earth],
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, create a Frostbite token under their control.
+
+**Earth Bond** - If an Earth card was pitched to play this, this gets +2{p} and "When this hits a hero, put this on the bottom of its owner's deck."`,
+    
+    
+    
+    
+    keywords: [Keyword.Bond],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Ice],
+  
+  
+  },{
     artists: ["João G. Santos"],
     cardIdentifier: "and-again-blue",
     classes: [Class.Warrior],
@@ -81100,7 +81163,8 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "clamp-press-blue",
     classes: [Class.Mechanologist],
@@ -81213,8 +81277,7 @@ Wrenches you control get +2{p}.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Nikolay Moskvin"],
     cardIdentifier: "clap-em-in-irons-blue",
     classes: [Class.Generic],
@@ -104673,6 +104736,67 @@ At the beginning of your action phase, destroy this, then your next attack this 
     power: 5,
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Yunior Susanto"],
+    cardIdentifier: "crushing-headache-red",
+    classes: [Class.Guardian],
+    defaultImage: "IAR244",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
+    name: "Crushing Headache",
+    printings: [{
+        artists: ["Yunior Susanto"],
+      
+      identifier: "IAR244",
+      image: "IAR244",
+      isExpansionSlot: true,
+      
+      print: "IAR244",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR244"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR244",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Guardian Action - Attack",
+
+    
+    
+    cost: 6,
+    defense: 3,
+    
+    functionalText: `**Crush** - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal, and they discard all non-attack action cards in their hand revealed this way.`,
+    
+    
+    
+    
+    keywords: [Keyword.Crush],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 1,
+    power: 10,
+    
+    shorthands: [Shorthand.Poppers],
     
     
     
@@ -160183,7 +160307,8 @@ The next time you would be dealt damage this turn, prevent it.`,
     talents: [Talent.Earth],
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "felling-swing-red",
     classes: [Class.Warrior],
@@ -160345,8 +160470,7 @@ The next time you would be dealt damage this turn, prevent it.`,
     
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "felling-swing-blue",
     classes: [Class.Warrior],
@@ -200264,6 +200388,69 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
   
   
   },{
+    artists: ["Bramasta Aji"],
+    cardIdentifier: "head-banging-chorus-yellow",
+    classes: [Class.Guardian],
+    defaultImage: "IAR256",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Pleiades],
+    name: "Head Banging Chorus",
+    printings: [{
+        artists: ["Bramasta Aji"],
+      
+      identifier: "IAR256",
+      image: "IAR256",
+      isExpansionSlot: true,
+      
+      print: "IAR256",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR256"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR256",
+    subtypes: [Subtype.Aura],
+    types: [Type.Instant],
+    typeText: "Revered Guardian Instant - Aura",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `**Suspense**
+
+The first Guardian or Revered attack action card you play each turn gets "When this hits a hero, if you have no cards in hand, draw a card."`,
+    
+    
+    
+    
+    keywords: [Keyword.Suspense],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 2,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Revered],
+  
+  
+  },{
     artists: ["Max Kostin","Sam Yang"],
     cardIdentifier: "head-jab-red",
     classes: [Class.Ninja],
@@ -221430,6 +221617,69 @@ At the beginning of your end phase, destroy this.`,
   
   
   },{
+    artists: ["Kevin Sidharta"],
+    cardIdentifier: "ice-aged-oak-blue",
+    classes: [Class.NotClassed],
+    defaultImage: "IAR260",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Briar,Hero.Florian,Hero.Jarl,Hero.Oldhim,Hero.Starvo,Hero.Terra,Hero.Verdance],
+    name: "Ice Aged Oak",
+    printings: [{
+        artists: ["Kevin Sidharta"],
+      
+      identifier: "IAR260",
+      image: "IAR260",
+      isExpansionSlot: true,
+      
+      print: "IAR260",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR260"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR260",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Earth Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `When this hits a hero, create an Embodiment of Earth token.
+
+**Ice Bond** - If an Ice card was pitched to play this, this gets **dominate** and "When this hits a hero, create a Frostbite token in each of their exposed head, chest, arms, and legs zones."`,
+    
+    
+    
+    
+    keywords: [Keyword.Bond,Keyword.Dominate],
+    
+    
+    meta: [Meta.Deck,Meta.Expansion],
+  
+    
+    pitch: 3,
+    power: 4,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Earth],
+  
+  
+  },{
     artists: ["Sam Yang"],
     cardIdentifier: "ice-bolt-red",
     classes: [Class.Wizard],
@@ -241756,7 +242006,8 @@ If you've hit with a dagger this combat chain, this gets **go again**.`,
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Henrique Lindner"],
     cardIdentifier: "knives-out-blue",
     classes: [Class.Assassin,Class.Ninja],
@@ -242155,8 +242406,7 @@ When this is turned face-up, destroy it. Search your deck for an Inner Chi, reve
     talents: [Talent.Mystic],
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "korshem-crossroad-of-elements",
     classes: [Class.NotClassed],
@@ -323348,7 +323598,8 @@ If this was played from arsenal, draw a card.
     talents: [Talent.Ice],
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Ismatulloh"],
     cardIdentifier: "put-on-ice-blue",
     classes: [Class.NotClassed],
@@ -323686,8 +323937,7 @@ The next attack action card you **rune gate** this turn gets +3{p}.
     talents: [Talent.Shadow],
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Marco González"],
     cardIdentifier: "pyroglyphic-protection-red",
     classes: [Class.Wizard],
@@ -404658,7 +404908,8 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
     talents: [Talent.Elemental],
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-yellow",
     classes: [Class.Guardian],
@@ -405055,8 +405306,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
     talents: [Talent.Draconic],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Simon Wong"],
     cardIdentifier: "soaring-strike-yellow",
     classes: [Class.Ninja],
@@ -482950,7 +483200,8 @@ When this is pitched, create a Lightning Flow token.`,
     talents: [Talent.Lightning],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-red",
     classes: [Class.Wizard],
@@ -483523,8 +483774,7 @@ When this hits, create a Lightning Flow token.`,
     talents: [Talent.Lightning],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Alexis Susani"],
     cardIdentifier: "voltic-vanguard",
     classes: [Class.NotClassed],
