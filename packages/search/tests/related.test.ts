@@ -110,6 +110,7 @@ describe("Related cards", () => {
     // [["Golden Skywarden"], ["Golden Cog", "Gold"]],
     [["Cosmic Duality"], ["Lightning Flow"]],
     [["Static Shock"], []],
+    [["Shimmer of the Blade"], ["Blade Dance"]],
   ];
 
   it.each(tokens)(

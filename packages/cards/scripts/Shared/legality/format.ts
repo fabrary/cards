@@ -37,7 +37,7 @@ const SILVER_AGE_BANNED_CARD_EXCEPTIONS: string[] = [
   "Baalghor, Omen of the End",
   "Prism, Advent of Thrones",
 ];
-const SILVER_AGE_LEGAL_CARD_EXCEPTIONS: string[] = [];
+const SILVER_AGE_LEGAL_CARD_EXCEPTIONS: string[] = ["Blade Dance"];
 
 const RARITIES_ALLOWED_IN_SILVER_AGE = [
   Rarity.Basic,

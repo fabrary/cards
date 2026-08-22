@@ -26,12 +26,24 @@
     artists: ["Rio Sabda"],
     cardIdentifier: "ancient-earth-oak-red",
     classes: [Class.NotClassed],
-    defaultImage: "IAR261",
+    defaultImage: "IAR261-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Starvo],
     name: "Ancient Earth Oak",
     printings: [{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR261",
+      image: "IAR261-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR261-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Rio Sabda"],
       
       identifier: "IAR261",
@@ -48,7 +60,7 @@
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR261"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR261",
+    specialImage: "IAR261-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ice Action - Attack",
@@ -1704,12 +1716,24 @@ This card's attacks get **go again**.
     artists: ["Yunior Susanto"],
     cardIdentifier: "crushing-headache-red",
     classes: [Class.Guardian],
-    defaultImage: "IAR244",
+    defaultImage: "IAR244-CF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
     name: "Crushing Headache",
     printings: [{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Cold,
+      identifier: "IAR244",
+      image: "IAR244-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR244-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
         artists: ["Yunior Susanto"],
       
       identifier: "IAR244",
@@ -1726,7 +1750,7 @@ This card's attacks get **go again**.
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR244"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR244",
+    specialImage: "IAR244-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Guardian Action - Attack",
@@ -2373,12 +2397,24 @@ You may play an aura with Runechant in its name from your banished zone this tur
     artists: ["Bramasta Aji"],
     cardIdentifier: "head-banging-chorus-yellow",
     classes: [Class.Guardian],
-    defaultImage: "IAR256",
+    defaultImage: "IAR256-CF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Pleiades],
     name: "Head Banging Chorus",
     printings: [{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Cold,
+      identifier: "IAR256",
+      image: "IAR256-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR256-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
         artists: ["Bramasta Aji"],
       
       identifier: "IAR256",
@@ -2395,7 +2431,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR256"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR256",
+    specialImage: "IAR256-CF",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
     typeText: "Revered Guardian Instant - Aura",
@@ -2576,12 +2612,24 @@ When the combat chain closes, if you've attacked with this, banish it.
     artists: ["Kevin Sidharta"],
     cardIdentifier: "ice-aged-oak-blue",
     classes: [Class.NotClassed],
-    defaultImage: "IAR260",
+    defaultImage: "IAR260-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Briar,Hero.Florian,Hero.Jarl,Hero.Oldhim,Hero.Starvo,Hero.Terra,Hero.Verdance],
     name: "Ice Aged Oak",
     printings: [{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR260",
+      image: "IAR260-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR260-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Kevin Sidharta"],
       
       identifier: "IAR260",
@@ -2598,7 +2646,7 @@ When the combat chain closes, if you've attacked with this, banish it.
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR260"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR260",
+    specialImage: "IAR260-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Earth Action - Attack",

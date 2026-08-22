@@ -9662,12 +9662,24 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
     artists: ["Rio Sabda"],
     cardIdentifier: "ancient-earth-oak-red",
     classes: [Class.NotClassed],
-    defaultImage: "IAR261",
+    defaultImage: "IAR261-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Starvo],
     name: "Ancient Earth Oak",
     printings: [{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR261",
+      image: "IAR261-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR261-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Rio Sabda"],
       
       identifier: "IAR261",
@@ -9684,7 +9696,7 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR261"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR261",
+    specialImage: "IAR261-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ice Action - Attack",
@@ -42607,7 +42619,7 @@ If this was **fused**, the attacking hero discards a card unless they pay {r}{r}
     classes: [Class.Warrior],
     defaultImage: "MPW134-MV",
     firstReleaseDate: "2026-08-07",
-    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Boltyn,Hero.Dorinthea,Hero.Emperor,Hero.Fang,Hero.Hala,Hero.Kassai,Hero.Killjoy,Hero.Olympia,Hero.Shiyana,Hero.Yorick,Hero.Zane],
     name: "Blade Dance",
     printings: [{
@@ -104750,12 +104762,24 @@ At the beginning of your action phase, destroy this, then your next attack this 
     artists: ["Yunior Susanto"],
     cardIdentifier: "crushing-headache-red",
     classes: [Class.Guardian],
-    defaultImage: "IAR244",
+    defaultImage: "IAR244-CF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
     name: "Crushing Headache",
     printings: [{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Cold,
+      identifier: "IAR244",
+      image: "IAR244-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR244-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
         artists: ["Yunior Susanto"],
       
       identifier: "IAR244",
@@ -104772,7 +104796,7 @@ At the beginning of your action phase, destroy this, then your next attack this 
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR244"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR244",
+    specialImage: "IAR244-CF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Guardian Action - Attack",
@@ -200391,12 +200415,24 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     artists: ["Bramasta Aji"],
     cardIdentifier: "head-banging-chorus-yellow",
     classes: [Class.Guardian],
-    defaultImage: "IAR256",
+    defaultImage: "IAR256-CF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Pleiades],
     name: "Head Banging Chorus",
     printings: [{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Cold,
+      identifier: "IAR256",
+      image: "IAR256-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR256-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
+    },{
         artists: ["Bramasta Aji"],
       
       identifier: "IAR256",
@@ -200413,7 +200449,7 @@ If this is tapped, cards cost {r} less to play, this doesn't untap during the en
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR256"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR256",
+    specialImage: "IAR256-CF",
     subtypes: [Subtype.Aura],
     types: [Type.Instant],
     typeText: "Revered Guardian Instant - Aura",
@@ -221620,12 +221656,24 @@ At the beginning of your end phase, destroy this.`,
     artists: ["Kevin Sidharta"],
     cardIdentifier: "ice-aged-oak-blue",
     classes: [Class.NotClassed],
-    defaultImage: "IAR260",
+    defaultImage: "IAR260-RF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Briar,Hero.Florian,Hero.Jarl,Hero.Oldhim,Hero.Starvo,Hero.Terra,Hero.Verdance],
     name: "Ice Aged Oak",
     printings: [{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR260",
+      image: "IAR260-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR260-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
         artists: ["Kevin Sidharta"],
       
       identifier: "IAR260",
@@ -221642,7 +221690,7 @@ At the beginning of your end phase, destroy this.`,
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR260"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR260",
+    specialImage: "IAR260-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Earth Action - Attack",
@@ -248503,12 +248551,36 @@ Cards you own lose **blood debt**.`,
             url: "https://www.tcgplayer.com/product/242132?Language=English&Printing=Rainbow+Foil"
           },
       
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.Cold,
+      identifier: "HER175",
+      image: "HER175-MV",
+      
+      
+      print: "HER175-Cold-Full Art",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
+    },{
+        artists: ["Wisnu Tan"],
+      foiling: Foiling.Cold,
+      identifier: "HER175",
+      image: "HER175-MV_BACK",
+      
+      
+      print: "HER175-Cold-Full Art-Back",
+      rarity: Rarity.Promo,
+      set: Release.Promos,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Promo,Rarity.Token],
     rarity: Rarity.Token,
-    setIdentifiers: ["DTD103","HER032","HER040","MON119","WIN011"],
+    setIdentifiers: ["DTD103","HER032","HER040","HER175","MON119","WIN011"],
     sets: [Release.DuskTillDawn,Release.Monarch,Release.Promos],
-    specialImage: "MON119",
+    specialImage: "HER175-MV",
     subtypes: [],
     types: [Type.Hero],
     typeText: "Shadow Brute Hero",
@@ -248518,7 +248590,7 @@ Cards you own lose **blood debt**.`,
     
     
     
-    functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.`,
+    functionalText: `If a card with 6 or more {p} has been put into your banished zone this turn, you don't lost {h} from blood debt during the end phase.`,
     
     hero: Hero.Levia,
     intellect: 4,

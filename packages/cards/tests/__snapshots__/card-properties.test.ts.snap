@@ -12380,6 +12380,102 @@ Banish the top card of your deck. If it has **combo**, you may play it this turn
 }
 `;
 
+exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Rio Sabda",
+  ],
+  "bonds": [
+    "Earth",
+  ],
+  "cardIdentifier": "ancient-earth-oak-red",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR261-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, create a Frostbite token under their control.
+
+**Earth Bond** - If an Earth card was pitched to play this, this gets +2{p} and "When this hits a hero, put this on the bottom of its owner's deck."",
+  "keywords": [
+    "Bond",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Iyslander",
+    "Jarl",
+    "Lexi",
+    "Oldhim",
+    "Starvo",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Ancient Earth Oak",
+  "pitch": 1,
+  "power": 6,
+  "printings": [
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR261",
+      "image": "IAR261-RF",
+      "isExpansionSlot": true,
+      "print": "IAR261-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Rio Sabda",
+      ],
+      "identifier": "IAR261",
+      "image": "IAR261",
+      "isExpansionSlot": true,
+      "print": "IAR261",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR261",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR261-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Ice",
+  ],
+  "typeText": "Ice Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates And Again... (and-again-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -53933,6 +54029,7 @@ exports[`Check for unintentional updates Blade Dance (blade-dance) vs snapshot 1
     "Golden Age",
     "Living Legend",
     "Open",
+    "Silver Age",
     "Ultimate Pit Fight",
   ],
   "legalHeroes": [
@@ -133920,6 +134017,109 @@ exports[`Check for unintentional updates Crush the Weak (crush-the-weak-yellow) 
     "Poppers",
   ],
   "specialImage": "CRU033-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "typeText": "Guardian Action - Attack",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Crushing Headache (crushing-headache-red) vs snapshot 1`] = `
+{
+  "artists": [
+    "Yunior Susanto",
+  ],
+  "cardIdentifier": "crushing-headache-red",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 6,
+  "defaultImage": "IAR244-CF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Crush** - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal, and they discard all non-attack action cards in their hand revealed this way.",
+  "keywords": [
+    "Crush",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Betsy",
+    "Bolfar",
+    "Bravo",
+    "Brevant",
+    "Crix",
+    "Jarl",
+    "Kox",
+    "Lyath",
+    "Oldhim",
+    "Pleiades",
+    "Reya",
+    "Starvo",
+    "Terra",
+    "Valda",
+    "Victor",
+    "Yoji",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Crushing Headache",
+  "pitch": 1,
+  "power": 10,
+  "printings": [
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR244",
+      "image": "IAR244-CF",
+      "isExpansionSlot": true,
+      "print": "IAR244-Cold-Extended Art",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "identifier": "IAR244",
+      "image": "IAR244",
+      "isExpansionSlot": true,
+      "print": "IAR244",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR244",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "shorthands": [
+    "Poppers",
+  ],
+  "specialImage": "IAR244-CF",
   "subtypes": [
     "Attack",
   ],
@@ -258264,6 +258464,95 @@ exports[`Check for unintentional updates Haze Shelter (haze-shelter-yellow) vs s
 }
 `;
 
+exports[`Check for unintentional updates Head Banging Chorus (head-banging-chorus-yellow) vs snapshot 1`] = `
+{
+  "artists": [
+    "Bramasta Aji",
+  ],
+  "cardIdentifier": "head-banging-chorus-yellow",
+  "classes": [
+    "Guardian",
+  ],
+  "cost": 1,
+  "defaultImage": "IAR256-CF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "**Suspense**
+
+The first Guardian or Revered attack action card you play each turn gets "When this hits a hero, if you have no cards in hand, draw a card."",
+  "keywords": [
+    "Suspense",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Pleiades",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Head Banging Chorus",
+  "pitch": 2,
+  "printings": [
+    {
+      "artists": [
+        "Bramasta Aji",
+      ],
+      "foiling": "Cold",
+      "identifier": "IAR256",
+      "image": "IAR256-CF",
+      "isExpansionSlot": true,
+      "print": "IAR256-Cold-Extended Art",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
+    },
+    {
+      "artists": [
+        "Bramasta Aji",
+      ],
+      "identifier": "IAR256",
+      "image": "IAR256",
+      "isExpansionSlot": true,
+      "print": "IAR256",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR256",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR256-CF",
+  "subtypes": [
+    "Aura",
+  ],
+  "talents": [
+    "Revered",
+  ],
+  "typeText": "Revered Guardian Instant - Aura",
+  "types": [
+    "Instant",
+  ],
+}
+`;
+
 exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`] = `
 {
   "artists": [
@@ -284738,6 +285027,99 @@ At the beginning of your end phase, destroy this.",
     "Ice",
   ],
   "typeText": "Ice Action - Affliction Aura",
+  "types": [
+    "Action",
+  ],
+}
+`;
+
+exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs snapshot 1`] = `
+{
+  "artists": [
+    "Kevin Sidharta",
+  ],
+  "cardIdentifier": "ice-aged-oak-blue",
+  "classes": [
+    "NotClassed",
+  ],
+  "cost": 3,
+  "defaultImage": "IAR260-RF",
+  "defense": 3,
+  "firstReleaseDate": "2026-09-25",
+  "functionalText": "When this hits a hero, create an Embodiment of Earth token.
+
+**Ice Bond** - If an Ice card was pitched to play this, this gets **dominate** and "When this hits a hero, create a Frostbite token in each of their exposed head, chest, arms, and legs zones."",
+  "keywords": [
+    "Bond",
+    "Dominate",
+  ],
+  "legalFormats": [
+    "Blitz",
+    "Classic Constructed",
+    "Golden Age",
+    "Living Legend",
+    "Open",
+    "Ultimate Pit Fight",
+  ],
+  "legalHeroes": [
+    "Briar",
+    "Florian",
+    "Jarl",
+    "Oldhim",
+    "Starvo",
+    "Terra",
+    "Verdance",
+  ],
+  "meta": [
+    "Deck",
+    "Expansion slot",
+  ],
+  "name": "Ice Aged Oak",
+  "pitch": 3,
+  "power": 4,
+  "printings": [
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR260",
+      "image": "IAR260-RF",
+      "isExpansionSlot": true,
+      "print": "IAR260-Rainbow",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "identifier": "IAR260",
+      "image": "IAR260",
+      "isExpansionSlot": true,
+      "print": "IAR260",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+  ],
+  "rarities": [
+    "Majestic",
+  ],
+  "rarity": "Majestic",
+  "setIdentifiers": [
+    "IAR260",
+  ],
+  "sets": [
+    "Usurp the Shadow Throne",
+  ],
+  "specialImage": "IAR260-RF",
+  "subtypes": [
+    "Attack",
+  ],
+  "talents": [
+    "Earth",
+  ],
+  "typeText": "Earth Action - Attack",
   "types": [
     "Action",
   ],
@@ -318400,7 +318782,7 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
   ],
   "defaultImage": "DTD103",
   "firstReleaseDate": "2021-05-07",
-  "functionalText": "If a card with 6 or more {p} has been put into your banished zone this turn, cards you own lose **blood debt** during the end phase.",
+  "functionalText": "If a card with 6 or more {p} has been put into your banished zone this turn, you don't lost {h} from blood debt during the end phase.",
   "hero": "Levia",
   "intellect": 4,
   "legalFormats": [
@@ -318503,6 +318885,36 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
         "url": "https://www.tcgplayer.com/product/242132?Language=English&Printing=Rainbow+Foil",
       },
     },
+    {
+      "artists": [
+        "Wisnu Tan",
+      ],
+      "foiling": "Cold",
+      "identifier": "HER175",
+      "image": "HER175-MV",
+      "print": "HER175-Cold-Full Art",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
+    {
+      "artists": [
+        "Wisnu Tan",
+      ],
+      "foiling": "Cold",
+      "identifier": "HER175",
+      "image": "HER175-MV_BACK",
+      "print": "HER175-Cold-Full Art-Back",
+      "rarity": "Promo",
+      "set": "Promos",
+      "treatment": "Full Art",
+      "treatments": [
+        "Full Art",
+      ],
+    },
   ],
   "rarities": [
     "Common",
@@ -318514,6 +318926,7 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
     "DTD103",
     "HER032",
     "HER040",
+    "HER175",
     "MON119",
     "WIN011",
   ],
@@ -318522,7 +318935,7 @@ exports[`Check for unintentional updates Levia, Shadowborn Abomination (levia-sh
     "Monarch",
     "Promos",
   ],
-  "specialImage": "MON119",
+  "specialImage": "HER175-MV",
   "subtypes": [],
   "talents": [
     "Shadow",
