@@ -1,7 +1,7 @@
 {
   "name": "@flesh-and-blood/search",
   "description": "TypeScript search engine for Flesh and Blood cards",
-  "version": "4.0.76",
+  "version": "4.0.77",
   "type": "module",
   "sideEffects": false,
   "main": "dist/index.cjs",
@@ -46,7 +46,7 @@
     "@flesh-and-blood/types": "^4.0.0"
   },
   "devDependencies": {
-    "@flesh-and-blood/cards": "^4.0.76",
+    "@flesh-and-blood/cards": "^4.0.77",
     "@flesh-and-blood/types": "^4.0.75",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",
