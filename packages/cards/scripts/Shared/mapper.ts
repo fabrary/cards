@@ -235,9 +235,10 @@ export const addOppositeSideCardIdentifiers = (cards: PreliminaryCard[]) => {
 };
 
 const RELEASES = [...releases];
+// A set with no entry in releases (promos) has no place in the release timeline, so
+// its -1 keeps it behind every listed release.
 const getPrintingReleaseOrder = ({ edition, set }: Printing): number => {
-  let releaseIndex =
-    RELEASES.findIndex(({ release }) => release === set) || 100000;
+  let releaseIndex = RELEASES.findIndex(({ release }) => release === set);
 
   if (edition === ReleaseEdition.Alpha) {
     releaseIndex -= 0.2;
@@ -248,9 +249,41 @@ const getPrintingReleaseOrder = ({ edition, set }: Printing): number => {
   return releaseIndex + 2;
 };
 
+// Every field that distinguishes one printing of a card from another, so printings
+// that agree on release, image length and print still get a stable order instead of
+// inheriting the order they happen to appear in the source data.
+const getPrintingIdentity = ({
+  artists,
+  edition,
+  foiling,
+  identifier,
+  image,
+  isExpansionSlot,
+  oppositeImage,
+  rarity,
+  set,
+  treatment,
+  treatments,
+}: Printing): string =>
+  [
+    image || "",
+    identifier,
+    set,
+    edition || "",
+    foiling || "",
+    rarity || "",
+    treatment || "",
+    [...(treatments || [])].sort().join("+"),
+    oppositeImage || "",
+    isExpansionSlot ? "expansion-slot" : "",
+    [...(artists || [])].sort().join("+"),
+  ].join("|");
+
 export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
   const p1Order = getPrintingReleaseOrder(p1);
   const p2Order = getPrintingReleaseOrder(p2);
+
+  let comparison: number;
 
   if (p1Order === p2Order) {
     // Same release, so do shorter image name first and then shorter print first, all to try and get default image first
@@ -264,17 +297,26 @@ export const sortPrintingsByReleaseOrder = (p1: Printing, p2: Printing) => {
       const p2PrintLength = p2Print.length;
 
       if (p1PrintLength === p2PrintLength) {
-        return p1Print.localeCompare(p2Print);
+        comparison = p1Print.localeCompare(p2Print);
       } else {
-        return p1PrintLength - p2PrintLength;
+        comparison = p1PrintLength - p2PrintLength;
       }
     } else {
-      return p1ImageLength - p2ImageLength;
+      comparison = p1ImageLength - p2ImageLength;
+    }
+
+    if (comparison === 0) {
+      const p1Identity = getPrintingIdentity(p1);
+      const p2Identity = getPrintingIdentity(p2);
+
+      comparison = p1Identity.localeCompare(p2Identity);
     }
   } else {
     // Different releases, so do newest first
-    return p2Order - p1Order;
+    comparison = p2Order - p1Order;
   }
+
+  return comparison;
 };
 
 export const getHeroFromString = (name: string): Hero | undefined => {

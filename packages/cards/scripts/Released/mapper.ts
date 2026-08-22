@@ -27,6 +27,7 @@ import {
   getTraits,
   getTypeSubtypeAndMetatype,
   IGNORE_OPPOSITE_SIDES,
+  sortPrintingsByReleaseOrder,
 } from "../Shared";
 import { ParsedCard } from "./parser";
 import {
@@ -188,6 +189,8 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
   //   console.log(JSON.stringify(images, null, 2));
   //   throw new Error("Stop");
   // }
+
+  images.sort(sortPrintingsByReleaseOrder);
 
   return images;
 };

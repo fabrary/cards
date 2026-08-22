@@ -26,24 +26,12 @@
     artists: ["Rio Sabda"],
     cardIdentifier: "ancient-earth-oak-red",
     classes: [Class.NotClassed],
-    defaultImage: "IAR261-RF",
+    defaultImage: "IAR261",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Iyslander,Hero.Jarl,Hero.Lexi,Hero.Oldhim,Hero.Starvo],
     name: "Ancient Earth Oak",
     printings: [{
-        artists: ["Rio Sabda"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR261",
-      image: "IAR261-RF",
-      isExpansionSlot: true,
-      
-      print: "IAR261-Rainbow",
-      rarity: Rarity.Majestic,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Rio Sabda"],
       
       identifier: "IAR261",
@@ -55,12 +43,24 @@
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR261",
+      image: "IAR261-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR261-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR261"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR261-RF",
+    specialImage: "IAR261",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Ice Action - Attack",
@@ -330,24 +330,12 @@ Attack action cards played from your banished zone get +3{p}.`,
     artists: ["Dzulfikar Aliy"],
     cardIdentifier: "battle-clearing-bellow-blue",
     classes: [Class.Brute],
-    defaultImage: "IAR040-RF",
+    defaultImage: "IAR040",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
     name: "Battle Clearing Bellow",
     printings: [{
-        artists: ["Dzulfikar Aliy"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR040",
-      image: "IAR040-RF",
-      
-      
-      print: "IAR040-Rainbow",
-      rarity: Rarity.Majestic,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Dzulfikar Aliy"],
       
       identifier: "IAR040",
@@ -359,12 +347,24 @@ Attack action cards played from your banished zone get +3{p}.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Dzulfikar Aliy"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR040",
+      image: "IAR040-RF",
+      
+      
+      print: "IAR040-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR040"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR040-RF",
+    specialImage: "IAR040",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Brute Action",
@@ -405,24 +405,12 @@ Attack action cards played from your banished zone get +3{p}.`,
     artists: ["Surya Prasetya"],
     cardIdentifier: "battle-prep-red",
     classes: [Class.Generic],
-    defaultImage: "IAR233-RF",
+    defaultImage: "IAR233",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Battle Prep",
     printings: [{
-        artists: ["Surya Prasetya"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR233",
-      image: "IAR233-RF",
-      
-      
-      print: "IAR233-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Surya Prasetya"],
       
       identifier: "IAR233",
@@ -434,12 +422,24 @@ Attack action cards played from your banished zone get +3{p}.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR233",
+      image: "IAR233-RF",
+      
+      
+      print: "IAR233-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR233"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR233-RF",
+    specialImage: "IAR233",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -482,24 +482,12 @@ If this was played from arsenal, your next attack this turn gets +3{p}.
     artists: ["Surya Prasetya"],
     cardIdentifier: "battle-prep-yellow",
     classes: [Class.Generic],
-    defaultImage: "IAR234-RF",
+    defaultImage: "IAR234",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Battle Prep",
     printings: [{
-        artists: ["Surya Prasetya"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR234",
-      image: "IAR234-RF",
-      
-      
-      print: "IAR234-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Surya Prasetya"],
       
       identifier: "IAR234",
@@ -511,12 +499,24 @@ If this was played from arsenal, your next attack this turn gets +3{p}.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR234",
+      image: "IAR234-RF",
+      
+      
+      print: "IAR234-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR234"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR234-RF",
+    specialImage: "IAR234",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -559,24 +559,12 @@ If this was played from arsenal, your next attack this turn gets +2{p}.
     artists: ["Surya Prasetya"],
     cardIdentifier: "battle-prep-blue",
     classes: [Class.Generic],
-    defaultImage: "IAR235-RF",
+    defaultImage: "IAR235",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Battle Prep",
     printings: [{
-        artists: ["Surya Prasetya"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR235",
-      image: "IAR235-RF",
-      
-      
-      print: "IAR235-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Surya Prasetya"],
       
       identifier: "IAR235",
@@ -588,12 +576,24 @@ If this was played from arsenal, your next attack this turn gets +2{p}.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR235",
+      image: "IAR235-RF",
+      
+      
+      print: "IAR235-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR235"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR235-RF",
+    specialImage: "IAR235",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Generic Action",
@@ -1031,24 +1031,12 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
     artists: ["Khairul Sukmanudin"],
     cardIdentifier: "blood-harvest",
     classes: [Class.Brute],
-    defaultImage: "IAR005-RF",
+    defaultImage: "IAR005",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Levia],
     name: "Blood Harvest",
     printings: [{
-        artists: ["Khairul Sukmanudin"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR005",
-      image: "IAR005-RF",
-      
-      
-      print: "IAR005-Rainbow",
-      rarity: Rarity.Majestic,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Khairul Sukmanudin"],
       
       identifier: "IAR005",
@@ -1060,12 +1048,24 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Khairul Sukmanudin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR005",
+      image: "IAR005-RF",
+      
+      
+      print: "IAR005-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR005"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR005-RF",
+    specialImage: "IAR005",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -1106,24 +1106,12 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
     artists: ["Maerel Hibadita"],
     cardIdentifier: "bloodsong-gloomblade-red",
     classes: [Class.Runeblade],
-    defaultImage: "IAR114-RF",
+    defaultImage: "IAR114",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Bloodsong Gloomblade",
     printings: [{
-        artists: ["Maerel Hibadita"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR114",
-      image: "IAR114-RF",
-      
-      
-      print: "IAR114-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Maerel Hibadita"],
       
       identifier: "IAR114",
@@ -1135,12 +1123,24 @@ At the beginning of each end phase, you may banish a card from your hand. Then i
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Maerel Hibadita"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR114",
+      image: "IAR114-RF",
+      
+      
+      print: "IAR114-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR114"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR114-RF",
+    specialImage: "IAR114",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -1185,24 +1185,12 @@ When this hits a hero, you may banish target aura permanent they control.
     artists: ["Khairul Sukmanudin"],
     cardIdentifier: "bone-barrier-blue",
     classes: [Class.Necromancer],
-    defaultImage: "IAR093-RF",
+    defaultImage: "IAR093",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
     legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice],
     name: "Bone Barrier",
     printings: [{
-        artists: ["Khairul Sukmanudin"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR093",
-      image: "IAR093-RF",
-      
-      
-      print: "IAR093-Rainbow",
-      rarity: Rarity.Majestic,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Khairul Sukmanudin"],
       
       identifier: "IAR093",
@@ -1214,12 +1202,24 @@ When this hits a hero, you may banish target aura permanent they control.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Khairul Sukmanudin"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR093",
+      image: "IAR093-RF",
+      
+      
+      print: "IAR093-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR093"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR093-RF",
+    specialImage: "IAR093",
     subtypes: [],
     types: [Type.DefenseReaction],
     typeText: "Necromancer Defence Reaction",
@@ -1333,24 +1333,12 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "circlet-of-eternal-end",
     classes: [Class.Generic],
-    defaultImage: "IAR223-RF",
+    defaultImage: "IAR223-CF",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Arakni,Hero.Aurora,Hero.Aurora2,Hero.Azalea,Hero.Baalghor,Hero.Benji,Hero.Betsy,Hero.Blaze,Hero.Bolfar,Hero.Boltyn,Hero.Bravo,Hero.Brevant,Hero.Briar,Hero.Broscilio,Hero.Brutus,Hero.Chane,Hero.Cindra,Hero.Crackni,Hero.Crix,Hero.Dash,Hero.DataDoll,Hero.Dorinthea,Hero.Dromai,Hero.Emperor,Hero.Enigma,Hero.Fai,Hero.Fang,Hero.Florian,Hero.Frankie,Hero.Genis,Hero.GravyBones,Hero.Hala,Hero.Ira,Hero.Iyslander,Hero.Jarl,Hero.Kano,Hero.Kassai,Hero.Katsu,Hero.Kavdaen,Hero.Kayo,Hero.Killjoy,Hero.Kox,Hero.Levia,Hero.Lexi,Hero.Librarian,Hero.Lyath,Hero.Malice,Hero.Marlynn,Hero.Maxx,Hero.Melody,Hero.Mortimer,Hero.Nuu,Hero.Oldhim,Hero.Olympia,Hero.Oscilio,Hero.Pleiades,Hero.Prism,Hero.Puffin,Hero.RKO,Hero.Reya,Hero.Rhinar,Hero.Riptide,Hero.Ruudi,Hero.Scurv,Hero.Shiyana,Hero.Slippy,Hero.Squizzy,Hero.Starvo,Hero.Taipanis,Hero.Taylor,Hero.Teklovossen,Hero.Terra,Hero.Theryon,Hero.Tuffnut,Hero.Uzuri,Hero.Valda,Hero.Verdance,Hero.Victor,Hero.Viserai,Hero.Viserai2,Hero.Vynnset,Hero.Yoji,Hero.Yorick,Hero.Zane,Hero.Zen,Hero.Zyggy],
     name: "Circlet of Eternal End",
     printings: [{
-        artists: ["Carlos Cruchaga"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR223",
-      image: "IAR223-RF",
-      
-      
-      print: "IAR223-Rainbow",
-      rarity: Rarity.Legendary,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Carlos Cruchaga"],
       foiling: Foiling.Cold,
       identifier: "IAR223",
@@ -1358,6 +1346,18 @@ At the start of each turn, destroy this unless you put a zombie from your banish
       
       
       print: "IAR223-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR223",
+      image: "IAR223-RF",
+      
+      
+      print: "IAR223-Rainbow",
       rarity: Rarity.Legendary,
       set: Release.UsurpTheShadowThrone,
       
@@ -1408,24 +1408,12 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     artists: ["SanSan"],
     cardIdentifier: "consuming-lash-yellow",
     classes: [Class.Brute],
-    defaultImage: "IAR009-RF",
+    defaultImage: "IAR009",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Levia],
     name: "Consuming Lash",
     printings: [{
-        artists: ["SanSan"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR009",
-      image: "IAR009-RF",
-      
-      
-      print: "IAR009-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["SanSan"],
       
       identifier: "IAR009",
@@ -1437,12 +1425,24 @@ At the start of each turn, destroy this unless you put a zombie from your banish
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["SanSan"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR009",
+      image: "IAR009-RF",
+      
+      
+      print: "IAR009-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR009"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR009-RF",
+    specialImage: "IAR009",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -1485,24 +1485,12 @@ At the start of each turn, destroy this unless you put a zombie from your banish
     artists: ["Kevin Sidharta"],
     cardIdentifier: "consuming-strength-yellow",
     classes: [Class.Brute],
-    defaultImage: "IAR010-RF",
+    defaultImage: "IAR010",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Levia],
     name: "Consuming Strength",
     printings: [{
-        artists: ["Kevin Sidharta"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR010",
-      image: "IAR010-RF",
-      
-      
-      print: "IAR010-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Kevin Sidharta"],
       
       identifier: "IAR010",
@@ -1514,12 +1502,24 @@ At the start of each turn, destroy this unless you put a zombie from your banish
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR010",
+      image: "IAR010-RF",
+      
+      
+      print: "IAR010-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR010"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR010-RF",
+    specialImage: "IAR010",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Brute Action - Attack",
@@ -1716,24 +1716,12 @@ This card's attacks get **go again**.
     artists: ["Yunior Susanto"],
     cardIdentifier: "crushing-headache-red",
     classes: [Class.Guardian],
-    defaultImage: "IAR244-CF",
+    defaultImage: "IAR244",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Betsy,Hero.Bolfar,Hero.Bravo,Hero.Brevant,Hero.Crix,Hero.Jarl,Hero.Kox,Hero.Lyath,Hero.Oldhim,Hero.Pleiades,Hero.Reya,Hero.Starvo,Hero.Terra,Hero.Valda,Hero.Victor,Hero.Yoji],
     name: "Crushing Headache",
     printings: [{
-        artists: ["Yunior Susanto"],
-      foiling: Foiling.Cold,
-      identifier: "IAR244",
-      image: "IAR244-CF",
-      isExpansionSlot: true,
-      
-      print: "IAR244-Cold-Extended Art",
-      rarity: Rarity.Majestic,
-      set: Release.UsurpTheShadowThrone,
-      
-      treatment: Treatment.EA,treatments: [Treatment.EA],
-    },{
         artists: ["Yunior Susanto"],
       
       identifier: "IAR244",
@@ -1745,12 +1733,24 @@ This card's attacks get **go again**.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR244",
+      image: "IAR244-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR244-Rainbow-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR244"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR244-CF",
+    specialImage: "IAR244-RF",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Guardian Action - Attack",
@@ -1866,24 +1866,12 @@ This card's attacks get **go again**.
     artists: ["Rio Sabda"],
     cardIdentifier: "demonbound-gloomblade-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "IAR127-RF",
+    defaultImage: "IAR127",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Demonbound Gloomblade",
     printings: [{
-        artists: ["Rio Sabda"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR127",
-      image: "IAR127-RF",
-      
-      
-      print: "IAR127-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Rio Sabda"],
       
       identifier: "IAR127",
@@ -1895,12 +1883,24 @@ This card's attacks get **go again**.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR127",
+      image: "IAR127-RF",
+      
+      
+      print: "IAR127-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IAR127"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR127-RF",
+    specialImage: "IAR127",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -1943,24 +1943,12 @@ This card's attacks get **go again**.
     artists: ["Rio Sabda"],
     cardIdentifier: "demonbound-gloomblade-blue",
     classes: [Class.Runeblade],
-    defaultImage: "IAR128-RF",
+    defaultImage: "IAR128",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Demonbound Gloomblade",
     printings: [{
-        artists: ["Rio Sabda"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR128",
-      image: "IAR128-RF",
-      
-      
-      print: "IAR128-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Rio Sabda"],
       
       identifier: "IAR128",
@@ -1972,12 +1960,24 @@ This card's attacks get **go again**.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Rio Sabda"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR128",
+      image: "IAR128-RF",
+      
+      
+      print: "IAR128-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IAR128"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR128-RF",
+    specialImage: "IAR128",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -2020,24 +2020,12 @@ This card's attacks get **go again**.
     artists: ["Alifka Hammam"],
     cardIdentifier: "embrace-sin-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "IAR120-RF",
+    defaultImage: "IAR120",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Embrace Sin",
     printings: [{
-        artists: ["Alifka Hammam"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR120",
-      image: "IAR120-RF",
-      
-      
-      print: "IAR120-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Alifka Hammam"],
       
       identifier: "IAR120",
@@ -2049,12 +2037,24 @@ This card's attacks get **go again**.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Alifka Hammam"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR120",
+      image: "IAR120-RF",
+      
+      
+      print: "IAR120-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR120"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR120-RF",
+    specialImage: "IAR120",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
@@ -2322,24 +2322,12 @@ You may play an aura with Runechant in its name from your banished zone this tur
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "harbinger-of-destruction-red",
     classes: [Class.NotClassed],
-    defaultImage: "IAR170-RF",
+    defaultImage: "IAR170",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Harbinger of Destruction",
     printings: [{
-        artists: ["Carlos Cruchaga"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR170",
-      image: "IAR170-RF",
-      
-      
-      print: "IAR170-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Carlos Cruchaga"],
       
       identifier: "IAR170",
@@ -2351,12 +2339,24 @@ You may play an aura with Runechant in its name from your banished zone this tur
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR170",
+      image: "IAR170-RF",
+      
+      
+      print: "IAR170-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR170"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR170-RF",
+    specialImage: "IAR170",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",
@@ -2397,24 +2397,12 @@ You may play an aura with Runechant in its name from your banished zone this tur
     artists: ["Bramasta Aji"],
     cardIdentifier: "head-banging-chorus-yellow",
     classes: [Class.Guardian],
-    defaultImage: "IAR256-CF",
+    defaultImage: "IAR256",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Pleiades],
     name: "Head Banging Chorus",
     printings: [{
-        artists: ["Bramasta Aji"],
-      foiling: Foiling.Cold,
-      identifier: "IAR256",
-      image: "IAR256-CF",
-      isExpansionSlot: true,
-      
-      print: "IAR256-Cold-Extended Art",
-      rarity: Rarity.Majestic,
-      set: Release.UsurpTheShadowThrone,
-      
-      treatment: Treatment.EA,treatments: [Treatment.EA],
-    },{
         artists: ["Bramasta Aji"],
       
       identifier: "IAR256",
@@ -2426,6 +2414,18 @@ You may play an aura with Runechant in its name from your banished zone this tur
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Bramasta Aji"],
+      foiling: Foiling.Cold,
+      identifier: "IAR256",
+      image: "IAR256-CF",
+      isExpansionSlot: true,
+      
+      print: "IAR256-Cold-Extended Art",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.EA,treatments: [Treatment.EA],
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
@@ -2612,24 +2612,12 @@ When the combat chain closes, if you've attacked with this, banish it.
     artists: ["Kevin Sidharta"],
     cardIdentifier: "ice-aged-oak-blue",
     classes: [Class.NotClassed],
-    defaultImage: "IAR260-RF",
+    defaultImage: "IAR260",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
     legalHeroes: [Hero.Briar,Hero.Florian,Hero.Jarl,Hero.Oldhim,Hero.Starvo,Hero.Terra,Hero.Verdance],
     name: "Ice Aged Oak",
     printings: [{
-        artists: ["Kevin Sidharta"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR260",
-      image: "IAR260-RF",
-      isExpansionSlot: true,
-      
-      print: "IAR260-Rainbow",
-      rarity: Rarity.Majestic,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Kevin Sidharta"],
       
       identifier: "IAR260",
@@ -2641,12 +2629,24 @@ When the combat chain closes, if you've attacked with this, banish it.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Kevin Sidharta"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR260",
+      image: "IAR260-RF",
+      isExpansionSlot: true,
+      
+      print: "IAR260-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Majestic],
     rarity: Rarity.Majestic,
     setIdentifiers: ["IAR260"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR260-RF",
+    specialImage: "IAR260",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Earth Action - Attack",
@@ -2997,24 +2997,12 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
     artists: ["Tommy Suhartono"],
     cardIdentifier: "otherworldly-sins-red",
     classes: [Class.Runeblade],
-    defaultImage: "IAR141-RF",
+    defaultImage: "IAR141",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Otherworldly Sins",
     printings: [{
-        artists: ["Tommy Suhartono"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR141",
-      image: "IAR141-RF",
-      
-      
-      print: "IAR141-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Tommy Suhartono"],
       
       identifier: "IAR141",
@@ -3026,12 +3014,24 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR141",
+      image: "IAR141-RF",
+      
+      
+      print: "IAR141-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["IAR141","JDG090"],
     sets: [Release.Promos,Release.UsurpTheShadowThrone],
-    specialImage: "IAR141-RF",
+    specialImage: "IAR141",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
@@ -3074,24 +3074,12 @@ Create a Runechant token.
     artists: ["Tommy Suhartono"],
     cardIdentifier: "otherworldly-sins-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "IAR142-RF",
+    defaultImage: "IAR142",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Otherworldly Sins",
     printings: [{
-        artists: ["Tommy Suhartono"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR142",
-      image: "IAR142-RF",
-      
-      
-      print: "IAR142-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Tommy Suhartono"],
       
       identifier: "IAR142",
@@ -3103,12 +3091,24 @@ Create a Runechant token.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR142",
+      image: "IAR142-RF",
+      
+      
+      print: "IAR142-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IAR142"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR142-RF",
+    specialImage: "IAR142",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
@@ -3151,24 +3151,12 @@ Create a Runechant token.
     artists: ["Tommy Suhartono"],
     cardIdentifier: "otherworldly-sins-blue",
     classes: [Class.Runeblade],
-    defaultImage: "IAR143-RF",
+    defaultImage: "IAR143",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Otherworldly Sins",
     printings: [{
-        artists: ["Tommy Suhartono"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR143",
-      image: "IAR143-RF",
-      
-      
-      print: "IAR143-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Tommy Suhartono"],
       
       identifier: "IAR143",
@@ -3180,12 +3168,24 @@ Create a Runechant token.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Tommy Suhartono"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR143",
+      image: "IAR143-RF",
+      
+      
+      print: "IAR143-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Common],
     rarity: Rarity.Common,
     setIdentifiers: ["IAR143"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR143-RF",
+    specialImage: "IAR143",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action",
@@ -3533,18 +3533,6 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
     name: "Restless Cleric",
     printings: [{
         artists: ["Yiian Kho"],
-      foiling: Foiling.Cold,
-      identifier: "IAR084",
-      image: "IAR084-MV",
-      
-      
-      print: "IAR084-Cold-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.UsurpTheShadowThrone,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Yiian Kho"],
       
       identifier: "IAR084",
       image: "IAR084",
@@ -3555,6 +3543,18 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Yiian Kho"],
+      foiling: Foiling.Cold,
+      identifier: "IAR084",
+      image: "IAR084-MV",
+      
+      
+      print: "IAR084-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Common,Rarity.Marvel],
     rarity: Rarity.Common,
@@ -4672,24 +4672,12 @@ When this hits a hero, create a Runechant token.`,
     artists: ["Surya Prasetya"],
     cardIdentifier: "shadowrealm-strength-red",
     classes: [Class.Necromancer],
-    defaultImage: "IAR082-RF",
+    defaultImage: "IAR082",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Malice],
     name: "Shadowrealm Strength",
     printings: [{
-        artists: ["Surya Prasetya"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR082",
-      image: "IAR082-RF",
-      
-      
-      print: "IAR082-Rainbow",
-      rarity: Rarity.Common,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Surya Prasetya"],
       
       identifier: "IAR082",
@@ -4701,12 +4689,24 @@ When this hits a hero, create a Runechant token.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Surya Prasetya"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR082",
+      image: "IAR082-RF",
+      
+      
+      print: "IAR082-Rainbow",
+      rarity: Rarity.Common,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Common,Rarity.Promo],
     rarity: Rarity.Common,
     setIdentifiers: ["AMA012","IAR082","JDG089"],
     sets: [Release.ArmoryDeckMalice,Release.Promos,Release.UsurpTheShadowThrone],
-    specialImage: "IAR082-RF",
+    specialImage: "IAR082",
     subtypes: [Subtype.NonAttack],
     types: [Type.Action],
     typeText: "Shadow Necromancer Action",
@@ -4901,24 +4901,12 @@ When this is pitched, lose 1{h}.`,
     artists: ["Galih M"],
     cardIdentifier: "tribute-to-greater-power-red",
     classes: [Class.NotClassed],
-    defaultImage: "IAR177-RF",
+    defaultImage: "IAR177",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Tribute to Greater Power",
     printings: [{
-        artists: ["Galih M"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR177",
-      image: "IAR177-RF",
-      
-      
-      print: "IAR177-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Galih M"],
       
       identifier: "IAR177",
@@ -4930,12 +4918,24 @@ When this is pitched, lose 1{h}.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Galih M"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR177",
+      image: "IAR177-RF",
+      
+      
+      print: "IAR177-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR177"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR177-RF",
+    specialImage: "IAR177",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Action - Attack",
@@ -5058,18 +5058,6 @@ When this is pitched, lose 1{h}.`,
     name: "Usurp the Shadow Throne",
     printings: [{
         artists: ["Esty Swandana"],
-      foiling: Foiling.Cold,
-      identifier: "IAR110",
-      image: "IAR110-MV",
-      
-      
-      print: "IAR110-Cold-Full Art",
-      rarity: Rarity.Marvel,
-      set: Release.UsurpTheShadowThrone,
-      
-      treatment: Treatment.FA,treatments: [Treatment.FA],
-    },{
-        artists: ["Esty Swandana"],
       
       identifier: "IAR110",
       image: "IAR110",
@@ -5080,6 +5068,18 @@ When this is pitched, lose 1{h}.`,
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Esty Swandana"],
+      foiling: Foiling.Cold,
+      identifier: "IAR110",
+      image: "IAR110-MV",
+      
+      
+      print: "IAR110-Cold-Full Art",
+      rarity: Rarity.Marvel,
+      set: Release.UsurpTheShadowThrone,
+      
+      treatment: Treatment.FA,treatments: [Treatment.FA],
     },],
     rarities: [Rarity.Legendary,Rarity.Marvel],
     rarity: Rarity.Legendary,
@@ -5130,24 +5130,12 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
     artists: ["Yunior Susanto"],
     cardIdentifier: "vexing-gloomblade-red",
     classes: [Class.Runeblade],
-    defaultImage: "IAR117-RF",
+    defaultImage: "IAR117",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Vexing Gloomblade",
     printings: [{
-        artists: ["Yunior Susanto"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR117",
-      image: "IAR117-RF",
-      
-      
-      print: "IAR117-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Yunior Susanto"],
       
       identifier: "IAR117",
@@ -5159,12 +5147,24 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR117",
+      image: "IAR117-RF",
+      
+      
+      print: "IAR117-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR117"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR117-RF",
+    specialImage: "IAR117",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -5209,24 +5209,12 @@ When this hits a hero, deal 2 arcane damage to any target.
     artists: ["Yunior Susanto"],
     cardIdentifier: "vexing-gloomblade-yellow",
     classes: [Class.Runeblade],
-    defaultImage: "IAR118-RF",
+    defaultImage: "IAR118",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Vexing Gloomblade",
     printings: [{
-        artists: ["Yunior Susanto"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR118",
-      image: "IAR118-RF",
-      
-      
-      print: "IAR118-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Yunior Susanto"],
       
       identifier: "IAR118",
@@ -5238,12 +5226,24 @@ When this hits a hero, deal 2 arcane damage to any target.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR118",
+      image: "IAR118-RF",
+      
+      
+      print: "IAR118-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR118"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR118-RF",
+    specialImage: "IAR118",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",
@@ -5288,24 +5288,12 @@ When this hits a hero, deal 2 arcane damage to any target.
     artists: ["Yunior Susanto"],
     cardIdentifier: "vexing-gloomblade-blue",
     classes: [Class.Runeblade],
-    defaultImage: "IAR119-RF",
+    defaultImage: "IAR119",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
     legalHeroes: [Hero.Chane,Hero.Viserai2,Hero.Vynnset],
     name: "Vexing Gloomblade",
     printings: [{
-        artists: ["Yunior Susanto"],
-      foiling: Foiling.Rainbow,
-      identifier: "IAR119",
-      image: "IAR119-RF",
-      
-      
-      print: "IAR119-Rainbow",
-      rarity: Rarity.Rare,
-      set: Release.UsurpTheShadowThrone,
-      
-      
-    },{
         artists: ["Yunior Susanto"],
       
       identifier: "IAR119",
@@ -5317,12 +5305,24 @@ When this hits a hero, deal 2 arcane damage to any target.
       set: Release.UsurpTheShadowThrone,
       
       
+    },{
+        artists: ["Yunior Susanto"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR119",
+      image: "IAR119-RF",
+      
+      
+      print: "IAR119-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
     },],
     rarities: [Rarity.Rare],
     rarity: Rarity.Rare,
     setIdentifiers: ["IAR119"],
     sets: [Release.UsurpTheShadowThrone],
-    specialImage: "IAR119-RF",
+    specialImage: "IAR119",
     subtypes: [Subtype.Attack],
     types: [Type.Action],
     typeText: "Shadow Runeblade Action - Attack",

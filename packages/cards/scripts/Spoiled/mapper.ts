@@ -15,6 +15,7 @@ import {
   getStringIfNotNumber,
   getTraits,
   getTypeSubtypeAndMetatype,
+  sortPrintingsByReleaseOrder,
 } from "../Shared";
 import {
   Class,
@@ -714,7 +715,12 @@ const getPrintings = (cardIdentifier: string, card: ParsedCard): Printing[] => {
     }
   }
 
-  return printingsOverride.length ? printingsOverride : printings;
+  const cardPrintings = printingsOverride.length
+    ? printingsOverride
+    : printings;
+  cardPrintings.sort(sortPrintingsByReleaseOrder);
+
+  return cardPrintings;
 };
 
 const ALL_KEYWORDS = Object.entries(Keyword);

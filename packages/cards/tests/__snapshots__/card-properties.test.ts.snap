@@ -12393,7 +12393,7 @@ exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-re
     "NotClassed",
   ],
   "cost": 3,
-  "defaultImage": "IAR261-RF",
+  "defaultImage": "IAR261",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this hits a hero, create a Frostbite token under their control.
@@ -12429,11 +12429,10 @@ exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-re
       "artists": [
         "Rio Sabda",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR261",
-      "image": "IAR261-RF",
+      "image": "IAR261",
       "isExpansionSlot": true,
-      "print": "IAR261-Rainbow",
+      "print": "IAR261",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -12441,10 +12440,11 @@ exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-re
       "artists": [
         "Rio Sabda",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR261",
-      "image": "IAR261",
+      "image": "IAR261-RF",
       "isExpansionSlot": true,
-      "print": "IAR261",
+      "print": "IAR261-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -12462,7 +12462,7 @@ exports[`Check for unintentional updates Ancient Earth Oak (ancient-earth-oak-re
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR261-RF",
+  "specialImage": "IAR261",
   "subtypes": [
     "Attack",
   ],
@@ -39208,7 +39208,7 @@ exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing
     "Brute",
   ],
   "cost": 3,
-  "defaultImage": "IAR040-RF",
+  "defaultImage": "IAR040",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Your next attack with 6 or more base {p} this turn gets +6{p}.
@@ -39244,10 +39244,9 @@ exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing
       "artists": [
         "Dzulfikar Aliy",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR040",
-      "image": "IAR040-RF",
-      "print": "IAR040-Rainbow",
+      "image": "IAR040",
+      "print": "IAR040",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -39255,9 +39254,10 @@ exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing
       "artists": [
         "Dzulfikar Aliy",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR040",
-      "image": "IAR040",
-      "print": "IAR040",
+      "image": "IAR040-RF",
+      "print": "IAR040-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -39275,7 +39275,7 @@ exports[`Check for unintentional updates Battle Clearing Bellow (battle-clearing
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR040-RF",
+  "specialImage": "IAR040",
   "subtypes": [
     "Non-Attack",
   ],
@@ -39296,7 +39296,7 @@ exports[`Check for unintentional updates Battle Prep (battle-prep-blue) vs snaps
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "IAR235-RF",
+  "defaultImage": "IAR235",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Opt 2**
@@ -39417,10 +39417,9 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
       "artists": [
         "Surya Prasetya",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR235",
-      "image": "IAR235-RF",
-      "print": "IAR235-Rainbow",
+      "image": "IAR235",
+      "print": "IAR235",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -39428,9 +39427,10 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
       "artists": [
         "Surya Prasetya",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR235",
-      "image": "IAR235",
-      "print": "IAR235",
+      "image": "IAR235-RF",
+      "print": "IAR235-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -39448,7 +39448,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR235-RF",
+  "specialImage": "IAR235",
   "subtypes": [
     "Non-Attack",
   ],
@@ -39469,7 +39469,7 @@ exports[`Check for unintentional updates Battle Prep (battle-prep-red) vs snapsh
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "IAR233-RF",
+  "defaultImage": "IAR233",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Opt 2**
@@ -39591,10 +39591,9 @@ If this was played from arsenal, your next attack this turn gets +3{p}.
       "artists": [
         "Surya Prasetya",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR233",
-      "image": "IAR233-RF",
-      "print": "IAR233-Rainbow",
+      "image": "IAR233",
+      "print": "IAR233",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -39602,9 +39601,10 @@ If this was played from arsenal, your next attack this turn gets +3{p}.
       "artists": [
         "Surya Prasetya",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR233",
-      "image": "IAR233",
-      "print": "IAR233",
+      "image": "IAR233-RF",
+      "print": "IAR233-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -39622,7 +39622,7 @@ If this was played from arsenal, your next attack this turn gets +3{p}.
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR233-RF",
+  "specialImage": "IAR233",
   "subtypes": [
     "Non-Attack",
   ],
@@ -39643,7 +39643,7 @@ exports[`Check for unintentional updates Battle Prep (battle-prep-yellow) vs sna
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "IAR234-RF",
+  "defaultImage": "IAR234",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Opt 2**
@@ -39764,10 +39764,9 @@ If this was played from arsenal, your next attack this turn gets +2{p}.
       "artists": [
         "Surya Prasetya",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR234",
-      "image": "IAR234-RF",
-      "print": "IAR234-Rainbow",
+      "image": "IAR234",
+      "print": "IAR234",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -39775,9 +39774,10 @@ If this was played from arsenal, your next attack this turn gets +2{p}.
       "artists": [
         "Surya Prasetya",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR234",
-      "image": "IAR234",
-      "print": "IAR234",
+      "image": "IAR234-RF",
+      "print": "IAR234-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -39795,7 +39795,7 @@ If this was played from arsenal, your next attack this turn gets +2{p}.
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR234-RF",
+  "specialImage": "IAR234",
   "subtypes": [
     "Non-Attack",
   ],
@@ -51897,7 +51897,7 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
     "Ninja",
   ],
   "cost": 1,
-  "defaultImage": "IRA005",
+  "defaultImage": "TCC092",
   "defense": 2,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "When this hits, your next attack this turn gets +1{p}.
@@ -51932,20 +51932,6 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
   "pitch": 2,
   "power": 3,
   "printings": [
-    {
-      "artists": [
-        "Maerel Hibadita",
-      ],
-      "identifier": "IRA005",
-      "image": "IRA005",
-      "print": "IRA005",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224951",
-        "url": "https://www.tcgplayer.com/product/224951?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Maerel Hibadita",
@@ -52034,6 +52020,20 @@ exports[`Check for unintentional updates Bittering Thorns (bittering-thorns-yell
       "tcgplayer": {
         "productId": "225969",
         "url": "https://www.tcgplayer.com/product/225969?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Maerel Hibadita",
+      ],
+      "identifier": "IRA005",
+      "image": "IRA005",
+      "print": "IRA005",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224951",
+        "url": "https://www.tcgplayer.com/product/224951?Language=English&Printing=Normal",
       },
     },
   ],
@@ -63625,7 +63625,7 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
     "Brute",
   ],
   "cost": 3,
-  "defaultImage": "IAR005-RF",
+  "defaultImage": "IAR005",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - Banish this from your hand: Gain {r}{r}{r}
@@ -63657,10 +63657,9 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
       "artists": [
         "Khairul Sukmanudin",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR005",
-      "image": "IAR005-RF",
-      "print": "IAR005-Rainbow",
+      "image": "IAR005",
+      "print": "IAR005",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -63668,9 +63667,10 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
       "artists": [
         "Khairul Sukmanudin",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR005",
-      "image": "IAR005",
-      "print": "IAR005",
+      "image": "IAR005-RF",
+      "print": "IAR005-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -63688,7 +63688,7 @@ exports[`Check for unintentional updates Blood Harvest (blood-harvest) vs snapsh
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR005-RF",
+  "specialImage": "IAR005",
   "subtypes": [
     "Attack",
   ],
@@ -65770,7 +65770,7 @@ exports[`Check for unintentional updates Bloodsong Gloomblade (bloodsong-gloombl
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "IAR114-RF",
+  "defaultImage": "IAR114",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may play this from your banished zone.
@@ -65811,10 +65811,9 @@ When this hits a hero, you may banish target aura permanent they control.
       "artists": [
         "Maerel Hibadita",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR114",
-      "image": "IAR114-RF",
-      "print": "IAR114-Rainbow",
+      "image": "IAR114",
+      "print": "IAR114",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -65822,9 +65821,10 @@ When this hits a hero, you may banish target aura permanent they control.
       "artists": [
         "Maerel Hibadita",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR114",
-      "image": "IAR114",
-      "print": "IAR114",
+      "image": "IAR114-RF",
+      "print": "IAR114-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -65839,7 +65839,7 @@ When this hits a hero, you may banish target aura permanent they control.
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR114-RF",
+  "specialImage": "IAR114",
   "subtypes": [
     "Attack",
   ],
@@ -71130,7 +71130,7 @@ exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs sna
     "Necromancer",
   ],
   "cost": 0,
-  "defaultImage": "IAR093-RF",
+  "defaultImage": "IAR093",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this defends, you may destroy an ally you control or discard an ally. If you do, this gets +2{d}.",
@@ -71159,10 +71159,9 @@ exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs sna
       "artists": [
         "Khairul Sukmanudin",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR093",
-      "image": "IAR093-RF",
-      "print": "IAR093-Rainbow",
+      "image": "IAR093",
+      "print": "IAR093",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -71170,9 +71169,10 @@ exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs sna
       "artists": [
         "Khairul Sukmanudin",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR093",
-      "image": "IAR093",
-      "print": "IAR093",
+      "image": "IAR093-RF",
+      "print": "IAR093-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -71187,7 +71187,7 @@ exports[`Check for unintentional updates Bone Barrier (bone-barrier-blue) vs sna
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR093-RF",
+  "specialImage": "IAR093",
   "subtypes": [],
   "typeText": "Necromancer Defence Reaction",
   "types": [
@@ -82462,7 +82462,7 @@ exports[`Check for unintentional updates Brutal Assault (brutal-assault-blue) vs
     "Generic",
   ],
   "cost": 2,
-  "defaultImage": "IRA010",
+  "defaultImage": "U-CRU194",
   "defense": 3,
   "firstReleaseDate": "2019-08-31",
   "legalFormats": [
@@ -82574,20 +82574,6 @@ exports[`Check for unintentional updates Brutal Assault (brutal-assault-blue) vs
       "artists": [
         "Wisnu Tan",
       ],
-      "identifier": "IRA010",
-      "image": "IRA010",
-      "print": "IRA010",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224956",
-        "url": "https://www.tcgplayer.com/product/224956?Language=English&Printing=Normal",
-      },
-    },
-    {
-      "artists": [
-        "Wisnu Tan",
-      ],
       "edition": "Unlimited",
       "identifier": "CRU194",
       "image": "U-CRU194",
@@ -82644,6 +82630,20 @@ exports[`Check for unintentional updates Brutal Assault (brutal-assault-blue) vs
       "tcgplayer": {
         "productId": "226048",
         "url": "https://www.tcgplayer.com/product/226048?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Wisnu Tan",
+      ],
+      "identifier": "IRA010",
+      "image": "IRA010",
+      "print": "IRA010",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224956",
+        "url": "https://www.tcgplayer.com/product/224956?Language=English&Printing=Normal",
       },
     },
   ],
@@ -102605,7 +102605,7 @@ exports[`Check for unintentional updates Circlet of Eternal End (circlet-of-eter
   "classes": [
     "Generic",
   ],
-  "defaultImage": "IAR223-RF",
+  "defaultImage": "IAR223-CF",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this defends, turn a card in the attacking hero's banished zone face-down.
@@ -102719,10 +102719,10 @@ exports[`Check for unintentional updates Circlet of Eternal End (circlet-of-eter
       "artists": [
         "Carlos Cruchaga",
       ],
-      "foiling": "Rainbow",
+      "foiling": "Cold",
       "identifier": "IAR223",
-      "image": "IAR223-RF",
-      "print": "IAR223-Rainbow",
+      "image": "IAR223-CF",
+      "print": "IAR223-Cold",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
     },
@@ -102730,10 +102730,10 @@ exports[`Check for unintentional updates Circlet of Eternal End (circlet-of-eter
       "artists": [
         "Carlos Cruchaga",
       ],
-      "foiling": "Cold",
+      "foiling": "Rainbow",
       "identifier": "IAR223",
-      "image": "IAR223-CF",
-      "print": "IAR223-Cold",
+      "image": "IAR223-RF",
+      "print": "IAR223-Rainbow",
       "rarity": "Legendary",
       "set": "Usurp the Shadow Throne",
     },
@@ -120450,7 +120450,7 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
     "Brute",
   ],
   "cost": 2,
-  "defaultImage": "IAR009-RF",
+  "defaultImage": "IAR009",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Play this only if you control a Blasmophet.
@@ -120487,10 +120487,9 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
       "artists": [
         "SanSan",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR009",
-      "image": "IAR009-RF",
-      "print": "IAR009-Rainbow",
+      "image": "IAR009",
+      "print": "IAR009",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -120498,9 +120497,10 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
       "artists": [
         "SanSan",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR009",
-      "image": "IAR009",
-      "print": "IAR009",
+      "image": "IAR009-RF",
+      "print": "IAR009-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -120518,7 +120518,7 @@ exports[`Check for unintentional updates Consuming Lash (consuming-lash-yellow) 
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR009-RF",
+  "specialImage": "IAR009",
   "subtypes": [
     "Attack",
   ],
@@ -120542,7 +120542,7 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
     "Brute",
   ],
   "cost": 2,
-  "defaultImage": "IAR010-RF",
+  "defaultImage": "IAR010",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Play this only if you control a Blasmophet.
@@ -120578,10 +120578,9 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
       "artists": [
         "Kevin Sidharta",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR010",
-      "image": "IAR010-RF",
-      "print": "IAR010-Rainbow",
+      "image": "IAR010",
+      "print": "IAR010",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -120589,9 +120588,10 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
       "artists": [
         "Kevin Sidharta",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR010",
-      "image": "IAR010",
-      "print": "IAR010",
+      "image": "IAR010-RF",
+      "print": "IAR010-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -120610,7 +120610,7 @@ exports[`Check for unintentional updates Consuming Strength (consuming-strength-
     "Buffs",
     "Poppers",
   ],
-  "specialImage": "IAR010-RF",
+  "specialImage": "IAR010",
   "subtypes": [
     "Attack",
   ],
@@ -134037,7 +134037,7 @@ exports[`Check for unintentional updates Crushing Headache (crushing-headache-re
     "Guardian",
   ],
   "cost": 6,
-  "defaultImage": "IAR244-CF",
+  "defaultImage": "IAR244",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Crush** - When this deals 4 or more damage to a hero, they reveal their arsenal and hand. Destroy all non-attack action cards in their arsenal, and they discard all non-attack action cards in their hand revealed this way.",
@@ -134082,28 +134082,28 @@ exports[`Check for unintentional updates Crushing Headache (crushing-headache-re
       "artists": [
         "Yunior Susanto",
       ],
-      "foiling": "Cold",
-      "identifier": "IAR244",
-      "image": "IAR244-CF",
-      "isExpansionSlot": true,
-      "print": "IAR244-Cold-Extended Art",
-      "rarity": "Majestic",
-      "set": "Usurp the Shadow Throne",
-      "treatment": "Extended Art",
-      "treatments": [
-        "Extended Art",
-      ],
-    },
-    {
-      "artists": [
-        "Yunior Susanto",
-      ],
       "identifier": "IAR244",
       "image": "IAR244",
       "isExpansionSlot": true,
       "print": "IAR244",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yunior Susanto",
+      ],
+      "foiling": "Rainbow",
+      "identifier": "IAR244",
+      "image": "IAR244-RF",
+      "isExpansionSlot": true,
+      "print": "IAR244-Rainbow-Extended Art",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+      "treatment": "Extended Art",
+      "treatments": [
+        "Extended Art",
+      ],
     },
   ],
   "rarities": [
@@ -134119,7 +134119,7 @@ exports[`Check for unintentional updates Crushing Headache (crushing-headache-re
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR244-CF",
+  "specialImage": "IAR244-RF",
   "subtypes": [
     "Attack",
   ],
@@ -147224,7 +147224,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "IAR128-RF",
+  "defaultImage": "IAR128",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may play this from your banished zone.
@@ -147264,10 +147264,9 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "artists": [
         "Rio Sabda",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR128",
-      "image": "IAR128-RF",
-      "print": "IAR128-Rainbow",
+      "image": "IAR128",
+      "print": "IAR128",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -147275,9 +147274,10 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "artists": [
         "Rio Sabda",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR128",
-      "image": "IAR128",
-      "print": "IAR128",
+      "image": "IAR128-RF",
+      "print": "IAR128-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -147292,7 +147292,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR128-RF",
+  "specialImage": "IAR128",
   "subtypes": [
     "Attack",
   ],
@@ -147408,7 +147408,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
     "Runeblade",
   ],
   "cost": 0,
-  "defaultImage": "IAR127-RF",
+  "defaultImage": "IAR127",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may play this from your banished zone.
@@ -147448,10 +147448,9 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "artists": [
         "Rio Sabda",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR127",
-      "image": "IAR127-RF",
-      "print": "IAR127-Rainbow",
+      "image": "IAR127",
+      "print": "IAR127",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -147459,9 +147458,10 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
       "artists": [
         "Rio Sabda",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR127",
-      "image": "IAR127",
-      "print": "IAR127",
+      "image": "IAR127-RF",
+      "print": "IAR127-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -147476,7 +147476,7 @@ exports[`Check for unintentional updates Demonbound Gloomblade (demonbound-gloom
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR127-RF",
+  "specialImage": "IAR127",
   "subtypes": [
     "Attack",
   ],
@@ -171954,7 +171954,7 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
   "classes": [
     "Ninja",
   ],
-  "defaultImage": "IRA002",
+  "defaultImage": "ASR002",
   "firstReleaseDate": "2019-08-31",
   "functionalText": "**Once per Turn Action** - {r}: **Attack**. **Go again**",
   "keywords": [
@@ -171984,20 +171984,6 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
   "name": "Edge of Autumn",
   "power": 1,
   "printings": [
-    {
-      "artists": [
-        "Fajareka Setiawan",
-      ],
-      "identifier": "IRA002",
-      "image": "IRA002",
-      "print": "IRA002",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224948",
-        "url": "https://www.tcgplayer.com/product/224948?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Fajareka Setiawan",
@@ -172101,6 +172087,20 @@ exports[`Check for unintentional updates Edge of Autumn (edge-of-autumn) vs snap
       "tcgplayer": {
         "productId": "225950",
         "url": "https://www.tcgplayer.com/product/225950?Language=English&Printing=1st+Edition+Cold+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Fajareka Setiawan",
+      ],
+      "identifier": "IRA002",
+      "image": "IRA002",
+      "print": "IRA002",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224948",
+        "url": "https://www.tcgplayer.com/product/224948?Language=English&Printing=Normal",
       },
     },
     {
@@ -177988,7 +177988,7 @@ exports[`Check for unintentional updates Embrace Sin (embrace-sin-yellow) vs sna
     "Runeblade",
   ],
   "cost": 1,
-  "defaultImage": "IAR120-RF",
+  "defaultImage": "IAR120",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Your next attack this turn gets +2{p}.
@@ -178025,10 +178025,9 @@ You may play an aura with Runechant in its name from your banished zone this tur
       "artists": [
         "Alifka Hammam",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR120",
-      "image": "IAR120-RF",
-      "print": "IAR120-Rainbow",
+      "image": "IAR120",
+      "print": "IAR120",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -178036,9 +178035,10 @@ You may play an aura with Runechant in its name from your banished zone this tur
       "artists": [
         "Alifka Hammam",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR120",
-      "image": "IAR120",
-      "print": "IAR120",
+      "image": "IAR120-RF",
+      "print": "IAR120-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -178056,7 +178056,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR120-RF",
+  "specialImage": "IAR120",
   "subtypes": [
     "Non-Attack",
   ],
@@ -222679,7 +222679,7 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
     "Ninja",
   ],
   "cost": 2,
-  "defaultImage": "IRA007",
+  "defaultImage": "ASR009",
   "defense": 3,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "If this was played as chain link 3 or higher, it gets +2{p}.",
@@ -222709,20 +222709,6 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
   "pitch": 1,
   "power": 5,
   "printings": [
-    {
-      "artists": [
-        "Kevin Sidharta",
-      ],
-      "identifier": "IRA007",
-      "image": "IRA007",
-      "print": "IRA007",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224953",
-        "url": "https://www.tcgplayer.com/product/224953?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Kevin Sidharta",
@@ -222811,6 +222797,20 @@ exports[`Check for unintentional updates Flying Kick (flying-kick-red) vs snapsh
       "tcgplayer": {
         "productId": "225963",
         "url": "https://www.tcgplayer.com/product/225963?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Kevin Sidharta",
+      ],
+      "identifier": "IRA007",
+      "image": "IRA007",
+      "print": "IRA007",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224953",
+        "url": "https://www.tcgplayer.com/product/224953?Language=English&Printing=Normal",
       },
     },
   ],
@@ -255577,7 +255577,7 @@ exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-
     "NotClassed",
   ],
   "cost": 8,
-  "defaultImage": "IAR170-RF",
+  "defaultImage": "IAR170",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
@@ -255616,10 +255616,9 @@ exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-
       "artists": [
         "Carlos Cruchaga",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR170",
-      "image": "IAR170-RF",
-      "print": "IAR170-Rainbow",
+      "image": "IAR170",
+      "print": "IAR170",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -255627,9 +255626,10 @@ exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-
       "artists": [
         "Carlos Cruchaga",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR170",
-      "image": "IAR170",
-      "print": "IAR170",
+      "image": "IAR170-RF",
+      "print": "IAR170-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -255647,7 +255647,7 @@ exports[`Check for unintentional updates Harbinger of Destruction (harbinger-of-
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR170-RF",
+  "specialImage": "IAR170",
   "subtypes": [
     "Attack",
   ],
@@ -258474,7 +258474,7 @@ exports[`Check for unintentional updates Head Banging Chorus (head-banging-choru
     "Guardian",
   ],
   "cost": 1,
-  "defaultImage": "IAR256-CF",
+  "defaultImage": "IAR256",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Suspense**
@@ -258505,6 +258505,17 @@ The first Guardian or Revered attack action card you play each turn gets "When t
       "artists": [
         "Bramasta Aji",
       ],
+      "identifier": "IAR256",
+      "image": "IAR256",
+      "isExpansionSlot": true,
+      "print": "IAR256",
+      "rarity": "Majestic",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Bramasta Aji",
+      ],
       "foiling": "Cold",
       "identifier": "IAR256",
       "image": "IAR256-CF",
@@ -258516,17 +258527,6 @@ The first Guardian or Revered attack action card you play each turn gets "When t
       "treatments": [
         "Extended Art",
       ],
-    },
-    {
-      "artists": [
-        "Bramasta Aji",
-      ],
-      "identifier": "IAR256",
-      "image": "IAR256",
-      "isExpansionSlot": true,
-      "print": "IAR256",
-      "rarity": "Majestic",
-      "set": "Usurp the Shadow Throne",
     },
   ],
   "rarities": [
@@ -258564,7 +258564,7 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
     "Ninja",
   ],
   "cost": 0,
-  "defaultImage": "IRA008",
+  "defaultImage": "OUT079",
   "defense": 2,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "**Go again**",
@@ -258599,24 +258599,6 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
   "pitch": 3,
   "power": 1,
   "printings": [
-    {
-      "artists": [
-        "Sam Yang",
-      ],
-      "identifier": "IRA008",
-      "image": "IRA008",
-      "print": "IRA008-Alternate Art",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224954",
-        "url": "https://www.tcgplayer.com/product/224954?Language=English&Printing=Normal",
-      },
-      "treatment": "Alternate Art",
-      "treatments": [
-        "Alternate Art",
-      ],
-    },
     {
       "artists": [
         "Max Kostin",
@@ -258720,6 +258702,24 @@ exports[`Check for unintentional updates Head Jab (head-jab-blue) vs snapshot 1`
         "productId": "225145",
         "url": "https://www.tcgplayer.com/product/225145?Language=English&Printing=1st+Edition+Rainbow+Foil",
       },
+    },
+    {
+      "artists": [
+        "Sam Yang",
+      ],
+      "identifier": "IRA008",
+      "image": "IRA008",
+      "print": "IRA008-Alternate Art",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224954",
+        "url": "https://www.tcgplayer.com/product/224954?Language=English&Printing=Normal",
+      },
+      "treatment": "Alternate Art",
+      "treatments": [
+        "Alternate Art",
+      ],
     },
     {
       "artists": [
@@ -285043,7 +285043,7 @@ exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs sna
     "NotClassed",
   ],
   "cost": 3,
-  "defaultImage": "IAR260-RF",
+  "defaultImage": "IAR260",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "When this hits a hero, create an Embodiment of Earth token.
@@ -285082,11 +285082,10 @@ exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs sna
       "artists": [
         "Kevin Sidharta",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR260",
-      "image": "IAR260-RF",
+      "image": "IAR260",
       "isExpansionSlot": true,
-      "print": "IAR260-Rainbow",
+      "print": "IAR260",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -285094,10 +285093,11 @@ exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs sna
       "artists": [
         "Kevin Sidharta",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR260",
-      "image": "IAR260",
+      "image": "IAR260-RF",
       "isExpansionSlot": true,
-      "print": "IAR260",
+      "print": "IAR260-Rainbow",
       "rarity": "Majestic",
       "set": "Usurp the Shadow Throne",
     },
@@ -285112,7 +285112,7 @@ exports[`Check for unintentional updates Ice Aged Oak (ice-aged-oak-blue) vs sna
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR260-RF",
+  "specialImage": "IAR260",
   "subtypes": [
     "Attack",
   ],
@@ -299121,7 +299121,7 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
   "classes": [
     "Ninja",
   ],
-  "defaultImage": "IRA001",
+  "defaultImage": "TCC077-RF",
   "firstReleaseDate": "2019-08-31",
   "functionalText": "Your second attack each turn gets +1{p}.",
   "hero": "Ira",
@@ -299141,20 +299141,6 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
   ],
   "name": "Ira, Crimson Haze",
   "printings": [
-    {
-      "artists": [
-        "Le Vuong",
-      ],
-      "identifier": "IRA001",
-      "image": "IRA001",
-      "print": "IRA001",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224947",
-        "url": "https://www.tcgplayer.com/product/224947?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Le Vuong",
@@ -299244,6 +299230,20 @@ exports[`Check for unintentional updates Ira, Crimson Haze (ira-crimson-haze) vs
       "tcgplayer": {
         "productId": "225946",
         "url": "https://www.tcgplayer.com/product/225946?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Le Vuong",
+      ],
+      "identifier": "IRA001",
+      "image": "IRA001",
+      "print": "IRA001",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224947",
+        "url": "https://www.tcgplayer.com/product/224947?Language=English&Printing=Normal",
       },
     },
     {
@@ -330095,7 +330095,7 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "IRA011",
+  "defaultImage": "HVY234",
   "defense": 2,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "Target attack action card gets +1{p}.",
@@ -330204,20 +330204,6 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
   "name": "Lunging Press",
   "pitch": 3,
   "printings": [
-    {
-      "artists": [
-        "Sergey Gurskiy",
-      ],
-      "identifier": "IRA011",
-      "image": "IRA011",
-      "print": "IRA011",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224957",
-        "url": "https://www.tcgplayer.com/product/224957?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Sergey Gurskiy",
@@ -330334,6 +330320,20 @@ exports[`Check for unintentional updates Lunging Press (lunging-press-blue) vs s
       "tcgplayer": {
         "productId": "226061",
         "url": "https://www.tcgplayer.com/product/226061?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Sergey Gurskiy",
+      ],
+      "identifier": "IRA011",
+      "image": "IRA011",
+      "print": "IRA011",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224957",
+        "url": "https://www.tcgplayer.com/product/224957?Language=English&Printing=Normal",
       },
     },
     {
@@ -370967,7 +370967,7 @@ exports[`Check for unintentional updates Otherworldly Sins (otherworldly-sins-bl
     "Runeblade",
   ],
   "cost": 1,
-  "defaultImage": "IAR143-RF",
+  "defaultImage": "IAR143",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Your next Runeblade or Shadow attack this turn gets +1{p}.
@@ -371005,10 +371005,9 @@ Create a Runechant token.
       "artists": [
         "Tommy Suhartono",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR143",
-      "image": "IAR143-RF",
-      "print": "IAR143-Rainbow",
+      "image": "IAR143",
+      "print": "IAR143",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -371016,9 +371015,10 @@ Create a Runechant token.
       "artists": [
         "Tommy Suhartono",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR143",
-      "image": "IAR143",
-      "print": "IAR143",
+      "image": "IAR143-RF",
+      "print": "IAR143-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -371036,7 +371036,7 @@ Create a Runechant token.
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR143-RF",
+  "specialImage": "IAR143",
   "subtypes": [
     "Non-Attack",
   ],
@@ -371060,7 +371060,7 @@ exports[`Check for unintentional updates Otherworldly Sins (otherworldly-sins-re
     "Runeblade",
   ],
   "cost": 1,
-  "defaultImage": "IAR141-RF",
+  "defaultImage": "IAR141",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Your next Runeblade or Shadow attack this turn gets +3{p}.
@@ -371098,10 +371098,9 @@ Create a Runechant token.
       "artists": [
         "Tommy Suhartono",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR141",
-      "image": "IAR141-RF",
-      "print": "IAR141-Rainbow",
+      "image": "IAR141",
+      "print": "IAR141",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -371109,9 +371108,10 @@ Create a Runechant token.
       "artists": [
         "Tommy Suhartono",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR141",
-      "image": "IAR141",
-      "print": "IAR141",
+      "image": "IAR141-RF",
+      "print": "IAR141-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -371167,7 +371167,7 @@ exports[`Check for unintentional updates Otherworldly Sins (otherworldly-sins-ye
     "Runeblade",
   ],
   "cost": 1,
-  "defaultImage": "IAR142-RF",
+  "defaultImage": "IAR142",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "Your next Runeblade or Shadow attack this turn gets +2{p}.
@@ -371205,10 +371205,9 @@ Create a Runechant token.
       "artists": [
         "Tommy Suhartono",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR142",
-      "image": "IAR142-RF",
-      "print": "IAR142-Rainbow",
+      "image": "IAR142",
+      "print": "IAR142",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -371216,9 +371215,10 @@ Create a Runechant token.
       "artists": [
         "Tommy Suhartono",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR142",
-      "image": "IAR142",
-      "print": "IAR142",
+      "image": "IAR142-RF",
+      "print": "IAR142-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -371236,7 +371236,7 @@ Create a Runechant token.
   "shorthands": [
     "Buffs",
   ],
-  "specialImage": "IAR142-RF",
+  "specialImage": "IAR142",
   "subtypes": [
     "Non-Attack",
   ],
@@ -441899,6 +441899,16 @@ exports[`Check for unintentional updates Restless Cleric (restless-cleric-red) v
       "artists": [
         "Yiian Kho",
       ],
+      "identifier": "IAR084",
+      "image": "IAR084",
+      "print": "IAR084",
+      "rarity": "Common",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Yiian Kho",
+      ],
       "foiling": "Cold",
       "identifier": "IAR084",
       "image": "IAR084-MV",
@@ -441909,16 +441919,6 @@ exports[`Check for unintentional updates Restless Cleric (restless-cleric-red) v
       "treatments": [
         "Full Art",
       ],
-    },
-    {
-      "artists": [
-        "Yiian Kho",
-      ],
-      "identifier": "IAR084",
-      "image": "IAR084",
-      "print": "IAR084",
-      "rarity": "Common",
-      "set": "Usurp the Shadow Throne",
     },
   ],
   "rarities": [
@@ -467942,7 +467942,7 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
     "Ninja",
   ],
   "cost": 0,
-  "defaultImage": "IRA004",
+  "defaultImage": "SFA030",
   "defense": 3,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "This gets +1{p} for each attack that has hit this combat chain.",
@@ -467971,20 +467971,6 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
   "pitch": 2,
   "power": 2,
   "printings": [
-    {
-      "artists": [
-        "Yulia Litvinova",
-      ],
-      "identifier": "IRA004",
-      "image": "IRA004",
-      "print": "IRA004",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224950",
-        "url": "https://www.tcgplayer.com/product/224950?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Yulia Litvinova",
@@ -468101,6 +468087,20 @@ exports[`Check for unintentional updates Salt the Wound (salt-the-wound-yellow) 
       "tcgplayer": {
         "productId": "225973",
         "url": "https://www.tcgplayer.com/product/225973?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Yulia Litvinova",
+      ],
+      "identifier": "IRA004",
+      "image": "IRA004",
+      "print": "IRA004",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224950",
+        "url": "https://www.tcgplayer.com/product/224950?Language=English&Printing=Normal",
       },
     },
   ],
@@ -473845,7 +473845,7 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "IRA009",
+  "defaultImage": "SBA019",
   "defense": 2,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "When this is played, if you have less {h} than an opposing hero, it gets **go again**.",
@@ -473960,20 +473960,6 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
   "pitch": 1,
   "power": 4,
   "printings": [
-    {
-      "artists": [
-        "Arif Wijaya",
-      ],
-      "identifier": "IRA009",
-      "image": "IRA009",
-      "print": "IRA009",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224955",
-        "url": "https://www.tcgplayer.com/product/224955?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Arif Wijaya",
@@ -474160,6 +474146,20 @@ exports[`Check for unintentional updates Scar for a Scar (scar-for-a-scar-red) v
       "tcgplayer": {
         "productId": "225274",
         "url": "https://www.tcgplayer.com/product/225274?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Arif Wijaya",
+      ],
+      "identifier": "IRA009",
+      "image": "IRA009",
+      "print": "IRA009",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224955",
+        "url": "https://www.tcgplayer.com/product/224955?Language=English&Printing=Normal",
       },
     },
     {
@@ -490117,10 +490117,9 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
       "artists": [
         "Surya Prasetya",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR082",
-      "image": "IAR082-RF",
-      "print": "IAR082-Rainbow",
+      "image": "IAR082",
+      "print": "IAR082",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -490128,9 +490127,10 @@ exports[`Check for unintentional updates Shadowrealm Strength (shadowrealm-stren
       "artists": [
         "Surya Prasetya",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR082",
-      "image": "IAR082",
-      "print": "IAR082",
+      "image": "IAR082-RF",
+      "print": "IAR082-Rainbow",
       "rarity": "Common",
       "set": "Usurp the Shadow Throne",
     },
@@ -538206,7 +538206,7 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
     "Generic",
   ],
   "cost": 0,
-  "defaultImage": "IRA012",
+  "defaultImage": "SBL033",
   "defense": 2,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "If this was played from arsenal, it gets +2{d}.",
@@ -538313,20 +538313,6 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
   "name": "Springboard Somersault",
   "pitch": 2,
   "printings": [
-    {
-      "artists": [
-        "Alexander Mokhov",
-      ],
-      "identifier": "IRA012",
-      "image": "IRA012",
-      "print": "IRA012",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224958",
-        "url": "https://www.tcgplayer.com/product/224958?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Alexander Mokhov",
@@ -538443,6 +538429,20 @@ exports[`Check for unintentional updates Springboard Somersault (springboard-som
       "tcgplayer": {
         "productId": "226058",
         "url": "https://www.tcgplayer.com/product/226058?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Alexander Mokhov",
+      ],
+      "identifier": "IRA012",
+      "image": "IRA012",
+      "print": "IRA012",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224958",
+        "url": "https://www.tcgplayer.com/product/224958?Language=English&Printing=Normal",
       },
     },
     {
@@ -591990,7 +591990,7 @@ exports[`Check for unintentional updates Torrent of Tempo (torrent-of-tempo-red)
     "Ninja",
   ],
   "cost": 1,
-  "defaultImage": "IRA006",
+  "defaultImage": "ASR015",
   "defense": 3,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "When this hits, it gets **go again**.",
@@ -592023,20 +592023,6 @@ exports[`Check for unintentional updates Torrent of Tempo (torrent-of-tempo-red)
   "pitch": 1,
   "power": 5,
   "printings": [
-    {
-      "artists": [
-        "Asep Ariyanto",
-      ],
-      "identifier": "IRA006",
-      "image": "IRA006",
-      "print": "IRA006",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224952",
-        "url": "https://www.tcgplayer.com/product/224952?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Asep Ariyanto",
@@ -592125,6 +592111,20 @@ exports[`Check for unintentional updates Torrent of Tempo (torrent-of-tempo-red)
       "tcgplayer": {
         "productId": "225970",
         "url": "https://www.tcgplayer.com/product/225970?Language=English&Printing=1st+Edition+Rainbow+Foil",
+      },
+    },
+    {
+      "artists": [
+        "Asep Ariyanto",
+      ],
+      "identifier": "IRA006",
+      "image": "IRA006",
+      "print": "IRA006",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224952",
+        "url": "https://www.tcgplayer.com/product/224952?Language=English&Printing=Normal",
       },
     },
   ],
@@ -598082,7 +598082,7 @@ exports[`Check for unintentional updates Tribute to Greater Power (tribute-to-gr
     "NotClassed",
   ],
   "cost": 2,
-  "defaultImage": "IAR177-RF",
+  "defaultImage": "IAR177",
   "defense": 2,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "**Instant** - Banish this from your hand: Your next attack this turn gets **overpower**.
@@ -598122,10 +598122,9 @@ exports[`Check for unintentional updates Tribute to Greater Power (tribute-to-gr
       "artists": [
         "Galih M",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR177",
-      "image": "IAR177-RF",
-      "print": "IAR177-Rainbow",
+      "image": "IAR177",
+      "print": "IAR177",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -598133,9 +598132,10 @@ exports[`Check for unintentional updates Tribute to Greater Power (tribute-to-gr
       "artists": [
         "Galih M",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR177",
-      "image": "IAR177",
-      "print": "IAR177",
+      "image": "IAR177-RF",
+      "print": "IAR177-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -598153,7 +598153,7 @@ exports[`Check for unintentional updates Tribute to Greater Power (tribute-to-gr
   "shorthands": [
     "Poppers",
   ],
-  "specialImage": "IAR177-RF",
+  "specialImage": "IAR177",
   "subtypes": [
     "Attack",
   ],
@@ -609024,6 +609024,16 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       "artists": [
         "Esty Swandana",
       ],
+      "identifier": "IAR110",
+      "image": "IAR110",
+      "print": "IAR110",
+      "rarity": "Legendary",
+      "set": "Usurp the Shadow Throne",
+    },
+    {
+      "artists": [
+        "Esty Swandana",
+      ],
       "foiling": "Cold",
       "identifier": "IAR110",
       "image": "IAR110-MV",
@@ -609034,16 +609044,6 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
       "treatments": [
         "Full Art",
       ],
-    },
-    {
-      "artists": [
-        "Esty Swandana",
-      ],
-      "identifier": "IAR110",
-      "image": "IAR110",
-      "print": "IAR110",
-      "rarity": "Legendary",
-      "set": "Usurp the Shadow Throne",
     },
   ],
   "rarities": [
@@ -614441,7 +614441,7 @@ exports[`Check for unintentional updates Vexing Gloomblade (vexing-gloomblade-bl
     "Runeblade",
   ],
   "cost": 3,
-  "defaultImage": "IAR119-RF",
+  "defaultImage": "IAR119",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may play this from your banished zone.
@@ -614483,10 +614483,9 @@ When this hits a hero, deal 2 arcane damage to any target.
       "artists": [
         "Yunior Susanto",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR119",
-      "image": "IAR119-RF",
-      "print": "IAR119-Rainbow",
+      "image": "IAR119",
+      "print": "IAR119",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -614494,9 +614493,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "artists": [
         "Yunior Susanto",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR119",
-      "image": "IAR119",
-      "print": "IAR119",
+      "image": "IAR119-RF",
+      "print": "IAR119-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -614511,7 +614511,7 @@ When this hits a hero, deal 2 arcane damage to any target.
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR119-RF",
+  "specialImage": "IAR119",
   "subtypes": [
     "Attack",
   ],
@@ -614535,7 +614535,7 @@ exports[`Check for unintentional updates Vexing Gloomblade (vexing-gloomblade-re
     "Runeblade",
   ],
   "cost": 3,
-  "defaultImage": "IAR117-RF",
+  "defaultImage": "IAR117",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may play this from your banished zone.
@@ -614577,10 +614577,9 @@ When this hits a hero, deal 2 arcane damage to any target.
       "artists": [
         "Yunior Susanto",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR117",
-      "image": "IAR117-RF",
-      "print": "IAR117-Rainbow",
+      "image": "IAR117",
+      "print": "IAR117",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -614588,9 +614587,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "artists": [
         "Yunior Susanto",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR117",
-      "image": "IAR117",
-      "print": "IAR117",
+      "image": "IAR117-RF",
+      "print": "IAR117-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -614605,7 +614605,7 @@ When this hits a hero, deal 2 arcane damage to any target.
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR117-RF",
+  "specialImage": "IAR117",
   "subtypes": [
     "Attack",
   ],
@@ -614629,7 +614629,7 @@ exports[`Check for unintentional updates Vexing Gloomblade (vexing-gloomblade-ye
     "Runeblade",
   ],
   "cost": 3,
-  "defaultImage": "IAR118-RF",
+  "defaultImage": "IAR118",
   "defense": 3,
   "firstReleaseDate": "2026-09-25",
   "functionalText": "You may play this from your banished zone.
@@ -614671,10 +614671,9 @@ When this hits a hero, deal 2 arcane damage to any target.
       "artists": [
         "Yunior Susanto",
       ],
-      "foiling": "Rainbow",
       "identifier": "IAR118",
-      "image": "IAR118-RF",
-      "print": "IAR118-Rainbow",
+      "image": "IAR118",
+      "print": "IAR118",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -614682,9 +614681,10 @@ When this hits a hero, deal 2 arcane damage to any target.
       "artists": [
         "Yunior Susanto",
       ],
+      "foiling": "Rainbow",
       "identifier": "IAR118",
-      "image": "IAR118",
-      "print": "IAR118",
+      "image": "IAR118-RF",
+      "print": "IAR118-Rainbow",
       "rarity": "Rare",
       "set": "Usurp the Shadow Throne",
     },
@@ -614699,7 +614699,7 @@ When this hits a hero, deal 2 arcane damage to any target.
   "sets": [
     "Usurp the Shadow Throne",
   ],
-  "specialImage": "IAR118-RF",
+  "specialImage": "IAR118",
   "subtypes": [
     "Attack",
   ],
@@ -635939,7 +635939,7 @@ exports[`Check for unintentional updates Whirling Mist Blossom (whirling-mist-bl
     "Ninja",
   ],
   "cost": 1,
-  "defaultImage": "IRA003",
+  "defaultImage": "ASR019",
   "defense": 2,
   "firstReleaseDate": "2019-08-31",
   "functionalText": "**Ira Specialization**
@@ -635972,20 +635972,6 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
   "pitch": 2,
   "power": 2,
   "printings": [
-    {
-      "artists": [
-        "Agri Karuniawan",
-      ],
-      "identifier": "IRA003",
-      "image": "IRA003",
-      "print": "IRA003",
-      "rarity": "Promo",
-      "set": "Ira Welcome Deck",
-      "tcgplayer": {
-        "productId": "224949",
-        "url": "https://www.tcgplayer.com/product/224949?Language=English&Printing=Normal",
-      },
-    },
     {
       "artists": [
         "Agri Karuniawan",
@@ -636079,6 +636065,20 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
       "treatments": [
         "Alternate Text",
       ],
+    },
+    {
+      "artists": [
+        "Agri Karuniawan",
+      ],
+      "identifier": "IRA003",
+      "image": "IRA003",
+      "print": "IRA003",
+      "rarity": "Promo",
+      "set": "Ira Welcome Deck",
+      "tcgplayer": {
+        "productId": "224949",
+        "url": "https://www.tcgplayer.com/product/224949?Language=English&Printing=Normal",
+      },
     },
   ],
   "rarities": [
