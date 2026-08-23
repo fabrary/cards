@@ -130,6 +130,8 @@ describe("Referenced cards", () => {
     ["dr-mortimer-blight-of-the-pits", "frailty"],
     ["gorgons-gaze-yellow", "inner-chi-blue"],
     ["invoke-azvolai-red", "dust-from-the-red-desert-red"],
+    // Names the group through the Agent of Chaos trait, not by hero name.
+    ["mask-of-deceit", "arakni-orb-weaver"],
     ["haboob-red", "dust-from-the-red-desert-red"],
     // A card whose own name starts with an extra's still names that extra;
     // only a hero prefix is older templating.
@@ -168,6 +170,10 @@ describe("Referenced cards", () => {
     ["hyper-scrapper-blue", "hyper-driver"],
     // Older templating naming itself by its hero's name.
     ["hala-goldenhelm", "hala"],
+    // The specialization line names the hero the card already specializes in,
+    // demi-heroes included.
+    ["coercive-tendency-blue", "arakni-black-widow"],
+    ["regicide-blue", "arakni-trap-door"],
     // A gold counter is a counter type, not the Gold token.
     ["chart-a-course-red", "gold"],
     ["expedition-to-azuro-keys-red", "gold"],

@@ -144,7 +144,7 @@ const DECK_CARD_TYPES = [
 
 /**
  * An extra a card puts into play: tokens and ephemeral cards. What a deck has
- * to bring follows from which of these its cards can provision.
+ * to bring follows from which of these its cards create.
  */
 export const getIsCreatedExtra = ({ keywords, types }: CardShape) => {
   const isEphemeral = (keywords || []).includes(Keyword.Ephemeral);
@@ -158,7 +158,7 @@ export const getIsCreatedExtra = ({ keywords, types }: CardShape) => {
  * Whether a deck brings this card as a created extra. Wider than what the card
  * *is*: the Cracked Bauble and the Goldfin Harpoon are ordinary deck cards by
  * type, and still come to the table as extras, so the zone questions above keep
- * counting them as deck cards while provisioning counts them as extras.
+ * counting them as deck cards while creation counts them as extras.
  */
 export const getCanBeCreatedExtra = (
   card: { cardIdentifier: string } & CardShape,
@@ -168,7 +168,8 @@ export const getCanBeCreatedExtra = (
 
 /**
  * An extra chosen at deckbuilding or set up by the format rather than put into
- * play by a card: demi-heroes and macros. Nothing provisions one.
+ * play by a card: macros, and the demi-heroes an Agent of Chaos hero picks.
+ * Nothing creates one.
  */
 export const getIsChosenExtra = ({ traits, types }: CardShape) => {
   // Only Arakni's demi-heroes are chosen: they carry the trait, while an

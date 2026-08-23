@@ -43573,7 +43573,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
   
     oppositeSideCardIdentifier: `levia-redeemed`,oppositeSideCardIdentifiers: ["levia-redeemed"],
     
-    referencedCards: ["levia-redeemed"],
+    
     
     
     
@@ -86037,7 +86037,7 @@ If you complete a **contract** this way, your Assassin attacks get **go again** 
   
     
     pitch: 3,
-    referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
+    
     
     
     
@@ -122357,7 +122357,7 @@ Create a Blasmophet, the Soul Harvester token.`,
   
     
     pitch: 3,
-    referencedCards: ["blasmophet-the-soul-harvester","levia-redeemed"],
+    referencedCards: ["blasmophet-the-soul-harvester"],
     
     
     
@@ -338570,7 +338570,7 @@ This can't be defended by cards with the same name as cards in the defending her
   
     
     pitch: 3,
-    power: 3,referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
+    power: 3,
     
     
     
@@ -394684,7 +394684,7 @@ Target weapon attack gets +1{p}.
   
     oppositeSideCardIdentifier: `teklovossen-the-mechropotent`,oppositeSideCardIdentifiers: ["teklovossen-the-mechropotent"],
     pitch: 1,
-    referencedCards: ["teklovossen-the-mechropotent"],
+    
     
     
     
@@ -408136,7 +408136,7 @@ When this hits a hero, banish all cards in their soul. They lose {h} equal to th
   
     
     pitch: 3,
-    power: 6,referencedCards: ["levia-redeemed"],
+    power: 6,
     
     shorthands: [Shorthand.Poppers],
     

@@ -8973,7 +8973,6 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
   "rarity": "Majestic",
   "referencedCards": [
     "eloquence",
-    "shiyana-diamond-gemini",
   ],
   "setIdentifiers": [
     "DTD215",
@@ -9192,8 +9191,6 @@ When this is discarded to beat chest, create a Might token.",
   "rarity": "Majestic",
   "referencedCards": [
     "might",
-    "rhinar",
-    "rhinar-reckless-rampage",
   ],
   "setIdentifiers": [
     "ARR022",
@@ -9359,10 +9356,6 @@ When this attacks, **intimidate**.",
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "rhinar",
-    "rhinar-reckless-rampage",
-  ],
   "setIdentifiers": [
     "1HP010",
     "RVD008",
@@ -14973,8 +14966,6 @@ The next attack action card you play this turn gets +1{p}. **Go again**
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "briar",
-    "briar-warden-of-thorns",
     "embodiment-of-earth",
   ],
   "setIdentifiers": [
@@ -17952,12 +17943,6 @@ If an opponent declares an attack, they must choose this as the target of that a
     "Promo",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "prism",
-    "prism-advent-of-thrones",
-    "prism-awakener-of-sol",
-    "prism-sculptor-of-arc-light",
-  ],
   "setIdentifiers": [
     "APR016",
     "JDG011",
@@ -18100,12 +18085,6 @@ The next action card you play this turn gets **go again**.
     "Promo",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "aurora",
-    "aurora-emissary-of-lightning",
-    "aurora-legacy-of-tempest",
-    "aurora-shooting-star",
-  ],
   "setIdentifiers": [
     "AST022",
     "FAB268",
@@ -22927,11 +22906,6 @@ When this hits, create X Runechant tokens, where X is the damage dealt this way.
   "rarity": "Majestic",
   "referencedCards": [
     "runechant",
-    "viserai",
-    "viserai-between-worlds",
-    "viserai-rune-blood",
-    "viserai-the-forsaken",
-    "viserai-usurper",
   ],
   "setIdentifiers": [
     "1HP265",
@@ -23052,11 +23026,6 @@ When this is pitched, create a Runechant token.",
   "rarity": "Fabled",
   "referencedCards": [
     "runechant",
-    "viserai",
-    "viserai-between-worlds",
-    "viserai-rune-blood",
-    "viserai-the-forsaken",
-    "viserai-usurper",
   ],
   "setIdentifiers": [
     "CRU000",
@@ -45080,13 +45049,6 @@ You may discard an action card. If you discard an attack action card this way, s
     "Super Rare",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "viserai",
-    "viserai-between-worlds",
-    "viserai-rune-blood",
-    "viserai-the-forsaken",
-    "viserai-usurper",
-  ],
   "setIdentifiers": [
     "1HP267",
     "ARC083",
@@ -47261,11 +47223,6 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
   "rarity": "Majestic",
   "referencedCards": [
     "runechant",
-    "viserai",
-    "viserai-between-worlds",
-    "viserai-rune-blood",
-    "viserai-the-forsaken",
-    "viserai-usurper",
   ],
   "setIdentifiers": [
     "DTD212",
@@ -47754,8 +47711,6 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "betsy",
-    "betsy-skin-in-the-game",
     "gold",
     "might",
     "vigor",
@@ -56270,11 +56225,6 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
     "Marvel",
   ],
   "rarity": "Legendary",
-  "referencedCards": [
-    "levia",
-    "levia-redeemed",
-    "levia-shadowborn-abomination",
-  ],
   "setIdentifiers": [
     "DTD164",
   ],
@@ -57510,10 +57460,6 @@ Deal X arcane damage to target hero, where X is the total arcane damage you've d
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "kano",
-    "kano-dracai-of-aether",
-  ],
   "setIdentifiers": [
     "1HP308",
     "ARC118",
@@ -64480,8 +64426,6 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
   "rarity": "Majestic",
   "referencedCards": [
     "cintari-sellsword",
-    "kassai",
-    "kassai-cintari-sellsword",
   ],
   "setIdentifiers": [
     "SUP252",
@@ -65700,8 +65644,6 @@ As an additional cost to play this, destroy any number of Copper you control. Fo
   "rarity": "Majestic",
   "referencedCards": [
     "copper",
-    "kassai",
-    "kassai-cintari-sellsword",
   ],
   "setIdentifiers": [
     "EVR055",
@@ -88720,10 +88662,6 @@ When this defends an attack with {p} greater than its base, the attack can't gai
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "riptide",
-    "riptide-lurker-of-the-deep",
-  ],
   "setIdentifiers": [
     "OUT102",
   ],
@@ -89866,8 +89804,6 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
   "rarity": "Majestic",
   "referencedCards": [
     "embodiment-of-lightning",
-    "lexi",
-    "lexi-livewire",
   ],
   "setIdentifiers": [
     "DTD198",
@@ -101220,8 +101156,6 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
     "courage",
     "dawnblade",
     "dawnblade-resplendent",
-    "dorinthea",
-    "dorinthea-quicksilver-prodigy",
   ],
   "setIdentifiers": [
     "DTD208",
@@ -111074,20 +111008,6 @@ If you complete a **contract** this way, your Assassin attacks get **go again** 
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "arakni",
-    "arakni-5lp3d-7hru-7h3-cr4x",
-    "arakni-black-widow",
-    "arakni-funnel-web",
-    "arakni-huntsman",
-    "arakni-marionette",
-    "arakni-orb-weaver",
-    "arakni-redback",
-    "arakni-solitary-confinement",
-    "arakni-tarantula",
-    "arakni-trap-door",
-    "arakni-web-of-deceit",
-  ],
   "setIdentifiers": [
     "HVY246",
   ],
@@ -113509,10 +113429,6 @@ When this defends an attack with **go again**, the attacking hero discards their
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "riptide",
-    "riptide-lurker-of-the-deep",
-  ],
   "setIdentifiers": [
     "OUT103",
   ],
@@ -131281,12 +131197,6 @@ exports[`Check for unintentional updates Crippling Crush (crippling-crush-red) v
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "bravo",
-    "bravo-flattering-showman",
-    "bravo-showstopper",
-    "bravo-star-of-the-show",
-  ],
   "restrictedFormats": [
     "Living Legend",
   ],
@@ -132642,10 +132552,6 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
     "Token",
   ],
   "rarity": "Token",
-  "referencedCards": [
-    "azalea",
-    "azalea-ace-in-the-hole",
-  ],
   "setIdentifiers": [
     "AAZ003",
     "AZL003",
@@ -152523,7 +152429,6 @@ At the beginning of your end phase, if you have 4 or more cards in hand, create 
   "rarity": "Promo",
   "referencedCards": [
     "diamond",
-    "ruudi-gem-keeper",
   ],
   "setIdentifiers": [
     "LSS008",
@@ -158099,9 +158004,6 @@ Create a Blasmophet, the Soul Harvester token.",
   "rarity": "Legendary",
   "referencedCards": [
     "blasmophet-the-soul-harvester",
-    "levia",
-    "levia-redeemed",
-    "levia-shadowborn-abomination",
   ],
   "setIdentifiers": [
     "MON189",
@@ -164469,10 +164371,6 @@ exports[`Check for unintentional updates Driftwood Quiver (driftwood-quiver) vs 
     "Token",
   ],
   "rarity": "Token",
-  "referencedCards": [
-    "riptide",
-    "riptide-lurker-of-the-deep",
-  ],
   "setIdentifiers": [
     "LGS137",
     "OUT098",
@@ -164888,10 +164786,6 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "betsy",
-    "betsy-skin-in-the-game",
-  ],
   "setIdentifiers": [
     "ROS244",
   ],
@@ -173250,8 +173144,6 @@ Create an Ursur, the Soul Reaper token.",
   ],
   "rarity": "Legendary",
   "referencedCards": [
-    "chane",
-    "chane-bound-by-shadow",
     "ursur-the-soul-reaper",
   ],
   "setIdentifiers": [
@@ -179039,9 +178931,6 @@ Name a living legend hero. You become that hero until the start of your next tur
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "shiyana-diamond-gemini",
-  ],
   "setIdentifiers": [
     "PEN121",
   ],
@@ -185053,8 +184942,6 @@ When this hits a hero, until the end of their next turn, whenever they activate 
   "rarity": "Majestic",
   "referencedCards": [
     "frostbite",
-    "oldhim",
-    "oldhim-grandfather-of-eternity",
   ],
   "setIdentifiers": [
     "ELE004",
@@ -214344,8 +214231,6 @@ When this hits, create a Runechant token.",
   "rarity": "Rare",
   "referencedCards": [
     "runechant",
-    "vynnset",
-    "vynnset-iron-maiden",
   ],
   "setIdentifiers": [
     "CON008",
@@ -226888,10 +226773,6 @@ If this was **fused**, your next attack this turn gets +1{p}.
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "briar",
-    "briar-warden-of-thorns",
-  ],
   "setIdentifiers": [
     "ELE066",
   ],
@@ -231824,8 +231705,6 @@ Frostbites you control get "At the beginning of your end phase, this deals 1 arc
   "rarity": "Majestic",
   "referencedCards": [
     "frostbite",
-    "iyslander",
-    "iyslander-stormbind",
   ],
   "setIdentifiers": [
     "UPR126",
@@ -239451,8 +239330,6 @@ Gain X+1{h}.",
   "rarity": "Majestic",
   "referencedCards": [
     "embodiment-of-earth",
-    "florian",
-    "florian-rotwood-harbinger",
     "runechant",
   ],
   "setIdentifiers": [
@@ -243702,8 +243579,6 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   "referencedCards": [
     "dawnblade",
     "dawnblade-resplendent",
-    "dorinthea",
-    "dorinthea-quicksilver-prodigy",
   ],
   "setIdentifiers": [
     "DVR008",
@@ -246887,8 +246762,6 @@ This counts as a Gold.
   "rarity": "Majestic",
   "referencedCards": [
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
   ],
   "setIdentifiers": [
     "SUP250",
@@ -246994,8 +246867,6 @@ This counts as a Gold.
   "rarity": "Majestic",
   "referencedCards": [
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
   ],
   "setIdentifiers": [
     "SUP247",
@@ -247101,8 +246972,6 @@ This counts as a Gold.
   "rarity": "Majestic",
   "referencedCards": [
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
   ],
   "setIdentifiers": [
     "SUP249",
@@ -247482,8 +247351,6 @@ This counts as a Gold.
   "rarity": "Majestic",
   "referencedCards": [
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
   ],
   "setIdentifiers": [
     "SUP248",
@@ -249636,8 +249503,6 @@ exports[`Check for unintentional updates Good Time Chapeau (good-time-chapeau) v
   ],
   "rarity": "Rare",
   "referencedCards": [
-    "betsy",
-    "betsy-skin-in-the-game",
     "gold",
     "might",
     "vigor",
@@ -264880,10 +264745,6 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
     "Promo",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "verdance",
-    "verdance-thorn-of-the-rose",
-  ],
   "setIdentifiers": [
     "FAB269",
     "ROS016",
@@ -270716,12 +270577,6 @@ When this hits, put it into your soul and the defending hero can't play cards fr
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "prism",
-    "prism-advent-of-thrones",
-    "prism-awakener-of-sol",
-    "prism-sculptor-of-arc-light",
-  ],
   "setIdentifiers": [
     "DTD013",
     "FAB028",
@@ -280643,10 +280498,6 @@ exports[`Check for unintentional updates Hood of Red Sand (hood-of-red-sand) vs 
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "kassai",
-    "kassai-cintari-sellsword",
-  ],
   "setIdentifiers": [
     "HVY099",
     "KSI004",
@@ -288775,8 +288626,6 @@ Create X Frostbite tokens under target hero's control. Then if this was fused, d
   "rarity": "Rare",
   "referencedCards": [
     "frostbite",
-    "iyslander",
-    "iyslander-stormbind",
   ],
   "setIdentifiers": [
     "LGS110",
@@ -299858,8 +299707,6 @@ When this hits a hero, they create a Courage and Quicken token.",
   "referencedCards": [
     "courage",
     "quicken",
-    "riptide",
-    "riptide-lurker-of-the-deep",
   ],
   "setIdentifiers": [
     "EVO241",
@@ -309471,10 +309318,6 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "azalea",
-    "azalea-ace-in-the-hole",
-  ],
   "setIdentifiers": [
     "HVY249",
   ],
@@ -314639,13 +314482,6 @@ exports[`Check for unintentional updates Knucklehead (knucklehead) vs snapshot 1
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "kayo",
-    "kayo-armed-and-dangerous",
-    "kayo-berserker-runt",
-    "kayo-strong-arm",
-    "kayo-underhanded-cheat",
-  ],
   "setIdentifiers": [
     "AKO003",
     "HVY009",
@@ -322130,10 +321966,6 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
     "Super Rare",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "kano",
-    "kano-dracai-of-aether",
-  ],
   "setIdentifiers": [
     "1HP311",
     "ARC121",
@@ -325086,10 +324918,6 @@ Whenever this deals damage to a hero equal to or greater than the number of equi
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "lexi",
-    "lexi-livewire",
-  ],
   "setIdentifiers": [
     "ELE036",
   ],
@@ -332295,8 +332123,6 @@ When the additional cost is paid, shuffle X target cards named Surging Strike, W
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "katsu",
-    "katsu-the-wanderer",
     "mugenshi-release-yellow",
     "surging-strike-blue",
     "surging-strike-red",
@@ -333052,9 +332878,6 @@ If you've **charged** this turn, you may attack with each weapon you control an 
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "boltyn",
-  ],
   "setIdentifiers": [
     "ASB026",
     "MON034",
@@ -341079,18 +340902,12 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
   ],
   "rarity": "Legendary",
   "referencedCards": [
-    "arakni",
-    "arakni-5lp3d-7hru-7h3-cr4x",
     "arakni-black-widow",
     "arakni-funnel-web",
-    "arakni-huntsman",
-    "arakni-marionette",
     "arakni-orb-weaver",
     "arakni-redback",
-    "arakni-solitary-confinement",
     "arakni-tarantula",
     "arakni-trap-door",
-    "arakni-web-of-deceit",
   ],
   "setIdentifiers": [
     "FAB291",
@@ -353740,10 +353557,6 @@ exports[`Check for unintentional updates Monstrous Veil (monstrous-veil) vs snap
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "rhinar",
-    "rhinar-reckless-rampage",
-  ],
   "setIdentifiers": [
     "HVY010",
     "LGS232",
@@ -355719,8 +355532,6 @@ exports[`Check for unintentional updates Mugenshi: RELEASE (mugenshi-release-yel
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "katsu",
-    "katsu-the-wanderer",
     "lord-of-wind-blue",
     "whelming-gustwave-blue",
     "whelming-gustwave-red",
@@ -356745,10 +356556,6 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "riptide",
-    "riptide-lurker-of-the-deep",
-  ],
   "setIdentifiers": [
     "MST233",
   ],
@@ -363421,10 +363228,6 @@ Search your deck for an arrow card, reveal it, then shuffle and put it on top of
     "Super Rare",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "azalea",
-    "azalea-ace-in-the-hole",
-  ],
   "setIdentifiers": [
     "1HP231",
     "AAZ029",
@@ -363617,8 +363420,6 @@ For each hero, **freeze** up to 1 equipment, item, and ally they control until t
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "oldhim",
-    "oldhim-grandfather-of-eternity",
     "spellbane-aegis",
   ],
   "setIdentifiers": [
@@ -363739,7 +363540,6 @@ The next time an opponent would draw a card from the effect of a Gold token this
   "rarity": "Rare",
   "referencedCards": [
     "gold",
-    "scurv-stowaway",
   ],
   "setIdentifiers": [
     "SEA149",
@@ -368476,8 +368276,6 @@ Create a Nasreth, the Soul Harrower token.",
   "referencedCards": [
     "nasreth-the-soul-harrower",
     "runechant",
-    "vynnset",
-    "vynnset-iron-maiden",
   ],
   "setIdentifiers": [
     "DTD142",
@@ -369060,9 +368858,6 @@ Each hero destroys an equipment they control.
     "Promo",
   ],
   "rarity": "Promo",
-  "referencedCards": [
-    "frankie-make-ends-meat",
-  ],
   "setIdentifiers": [
     "LSS022",
   ],
@@ -395085,8 +394880,6 @@ When this attacks, you may **wager** a Gold token with the defending hero.",
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "betsy",
-    "betsy-skin-in-the-game",
     "gold",
   ],
   "setIdentifiers": [
@@ -395915,9 +395708,6 @@ exports[`Check for unintentional updates Pink Visor (pink-visor) vs snapshot 1`]
     "Promo",
   ],
   "rarity": "Promo",
-  "referencedCards": [
-    "ruudi-gem-keeper",
-  ],
   "setIdentifiers": [
     "LSS007",
   ],
@@ -412716,8 +412506,6 @@ exports[`Check for unintentional updates Prized Galea (prized-galea) vs snapshot
   "rarity": "Rare",
   "referencedCards": [
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
   ],
   "setIdentifiers": [
     "AOL003",
@@ -422478,9 +422266,6 @@ exports[`Check for unintentional updates Put 'Em In Their Place (put-em-in-their
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "valda-seismic-impact",
-  ],
   "setIdentifiers": [
     "MPG018",
   ],
@@ -428993,8 +428778,6 @@ Create X Cintari Sellsword tokens.
   "referencedCards": [
     "cintari-sellsword",
     "gold",
-    "kassai",
-    "kassai-cintari-sellsword",
   ],
   "setIdentifiers": [
     "FAB192",
@@ -437884,13 +437667,6 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "kayo",
-    "kayo-armed-and-dangerous",
-    "kayo-berserker-runt",
-    "kayo-strong-arm",
-    "kayo-underhanded-cheat",
-  ],
   "setIdentifiers": [
     "EVR003",
   ],
@@ -439150,13 +438926,6 @@ If you've rolled a 6 on a die this turn, draw a card.",
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "kayo",
-    "kayo-armed-and-dangerous",
-    "kayo-berserker-runt",
-    "kayo-strong-arm",
-    "kayo-underhanded-cheat",
-  ],
   "setIdentifiers": [
     "HVY015",
   ],
@@ -440433,12 +440202,6 @@ exports[`Check for unintentional updates Red Hot (red-hot-red) vs snapshot 1`] =
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "dromai",
-    "dromai-ash-artist",
-    "fai",
-    "fai-rising-rebellion",
-  ],
   "setIdentifiers": [
     "DRO009",
     "LGS108",
@@ -440833,10 +440596,6 @@ When this hits a hero, they can't play or activate more than 1 action during the
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "azalea",
-    "azalea-ace-in-the-hole",
-  ],
   "setIdentifiers": [
     "1HP229",
     "AAZ013",
@@ -442642,20 +442401,6 @@ This can't be defended by cards with the same name as cards in the defending her
     "Promo",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "arakni",
-    "arakni-5lp3d-7hru-7h3-cr4x",
-    "arakni-black-widow",
-    "arakni-funnel-web",
-    "arakni-huntsman",
-    "arakni-marionette",
-    "arakni-orb-weaver",
-    "arakni-redback",
-    "arakni-solitary-confinement",
-    "arakni-tarantula",
-    "arakni-trap-door",
-    "arakni-web-of-deceit",
-  ],
   "setIdentifiers": [
     "DYN121",
     "FAB122",
@@ -448121,10 +447866,6 @@ exports[`Check for unintentional updates Retrace the Past (retrace-the-past-blue
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "katsu",
-    "katsu-the-wanderer",
-  ],
   "setIdentifiers": [
     "HNT249",
   ],
@@ -454562,10 +454303,6 @@ The first time you deal arcane damage each turn, gain 1{h}.",
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "verdance",
-    "verdance-thorn-of-the-rose",
-  ],
   "setIdentifiers": [
     "HNT256",
   ],
@@ -456522,10 +456259,6 @@ exports[`Check for unintentional updates Rise Up (rise-up-red) vs snapshot 1`] =
   ],
   "rarity": "Rare",
   "referencedCards": [
-    "dromai",
-    "dromai-ash-artist",
-    "fai",
-    "fai-rising-rebellion",
     "phoenix-flame-red",
   ],
   "setIdentifiers": [
@@ -475490,10 +475223,6 @@ If the discarded card has 6 or more {p}, gain 2 action points.",
     "Super Rare",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "rhinar",
-    "rhinar-reckless-rampage",
-  ],
   "setIdentifiers": [
     "1HP015",
     "WTR009",
@@ -496392,10 +496121,6 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "uzuri",
-    "uzuri-switchblade",
-  ],
   "setIdentifiers": [
     "OUT013",
   ],
@@ -503399,10 +503124,6 @@ If the defending hero has no cards in hand, this gets +3{p}.",
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "rhinar",
-    "rhinar-reckless-rampage",
-  ],
   "setIdentifiers": [
     "ARR013",
     "HVY013",
@@ -503553,12 +503274,6 @@ At the beginning of your action phase, destroy this then draw a card.",
     "Super Rare",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "bravo",
-    "bravo-flattering-showman",
-    "bravo-showstopper",
-    "bravo-star-of-the-show",
-  ],
   "setIdentifiers": [
     "1HP054",
     "WTR047",
@@ -506607,12 +506322,6 @@ When this leaves the arena, draw a card.",
     "Promo",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "oscilio",
-    "oscilio-constella-intelligence",
-    "oscilio-forked-continuum",
-    "oscilio-scion-of-the-third-age",
-  ],
   "setIdentifiers": [
     "FAB270",
     "ROS022",
@@ -515036,10 +514745,6 @@ Target weapon attack gets +1{p}.
     "Super Rare",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "dorinthea",
-    "dorinthea-quicksilver-prodigy",
-  ],
   "setIdentifiers": [
     "1HP149",
     "WTR121",
@@ -515449,9 +515154,6 @@ exports[`Check for unintentional updates Singularity (singularity-red) vs snapsh
     "Marvel",
   ],
   "rarity": "Legendary",
-  "referencedCards": [
-    "teklovossen-the-mechropotent",
-  ],
   "setIdentifiers": [
     "EVO010",
   ],
@@ -530774,11 +530476,6 @@ If X is 6 or greater, target hero discards 3 random cards.",
   "rarity": "Majestic",
   "referencedCards": [
     "runechant",
-    "viserai",
-    "viserai-between-worlds",
-    "viserai-rune-blood",
-    "viserai-the-forsaken",
-    "viserai-usurper",
   ],
   "setIdentifiers": [
     "EVO242",
@@ -532899,11 +532596,6 @@ When this hits a hero, banish all cards in their soul. They lose {h} equal to th
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "levia",
-    "levia-redeemed",
-    "levia-shadowborn-abomination",
-  ],
   "setIdentifiers": [
     "LEV008",
     "MON198",
@@ -533061,10 +532753,6 @@ If this is attacking a hero with 1 or more cards in their soul, it gets **go aga
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "chane",
-    "chane-bound-by-shadow",
-  ],
   "setIdentifiers": [
     "CHN008",
     "MON199",
@@ -535458,11 +535146,6 @@ If you've **boosted** this turn, draw a card.",
     "Super Rare",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "dash",
-    "dash-database",
-    "dash-inventor-extraordinaire",
-  ],
   "setIdentifiers": [
     "1HP191",
     "ARC009",
@@ -541031,10 +540714,6 @@ When this defends and the attacking hero has played or activated a reaction this
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "riptide",
-    "riptide-lurker-of-the-deep",
-  ],
   "setIdentifiers": [
     "OUT104",
   ],
@@ -544689,9 +544368,6 @@ When this hits, draw a card for each other attack action card with 2 or less bas
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "benji-the-piercing-wind",
-  ],
   "setIdentifiers": [
     "EVR039",
   ],
@@ -549013,10 +548689,6 @@ exports[`Check for unintentional updates Star Struck (star-struck-yellow) vs sna
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "bravo",
-    "bravo-flattering-showman",
-    "bravo-showstopper",
-    "bravo-star-of-the-show",
     "seismic-surge",
   ],
   "setIdentifiers": [
@@ -552841,10 +552513,6 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "dorinthea",
-    "dorinthea-quicksilver-prodigy",
-  ],
   "setIdentifiers": [
     "1HP152",
     "WTR119",
@@ -571173,11 +570841,6 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
     "Token",
   ],
   "rarity": "Token",
-  "referencedCards": [
-    "dash",
-    "dash-database",
-    "dash-inventor-extraordinaire",
-  ],
   "setIdentifiers": [
     "AIO002",
     "EVO003",
@@ -574757,8 +574420,6 @@ Create a Bait token under an opponent's control.
   "rarity": "Majestic",
   "referencedCards": [
     "bait",
-    "riptide",
-    "riptide-lurker-of-the-deep",
   ],
   "setIdentifiers": [
     "SUP258",
@@ -575426,7 +575087,6 @@ You create a Copper, Silver, and Gold.",
     "silver",
     "soul-shackle",
     "spectral-shield",
-    "yorick-weaver-of-tales",
     "zen-state",
   ],
   "setIdentifiers": [
@@ -580312,11 +579972,6 @@ At the beginning of your action phase, remove a steam counter from this and gain
     "Promo",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "dash",
-    "dash-database",
-    "dash-inventor-extraordinaire",
-  ],
   "setIdentifiers": [
     "1HP192",
     "ARC007",
@@ -615882,8 +615537,6 @@ Choose X+1;
   "referencedCards": [
     "agility",
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
     "vigor",
   ],
   "setIdentifiers": [
@@ -616766,13 +616419,6 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
     "Marvel",
   ],
   "rarity": "Legendary",
-  "referencedCards": [
-    "viserai",
-    "viserai-between-worlds",
-    "viserai-rune-blood",
-    "viserai-the-forsaken",
-    "viserai-usurper",
-  ],
   "setIdentifiers": [
     "IAR110",
   ],
@@ -617524,9 +617170,6 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.",
     "Rare",
   ],
   "rarity": "Rare",
-  "referencedCards": [
-    "boltyn",
-  ],
   "setIdentifiers": [
     "ASB023",
     "BOL009",
@@ -628829,8 +628472,6 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
   ],
   "rarity": "Majestic",
   "referencedCards": [
-    "katsu",
-    "katsu-the-wanderer",
     "surging-strike-blue",
     "surging-strike-red",
     "surging-strike-yellow",
@@ -628931,8 +628572,6 @@ Equip X weapons and/or equipment from your inventory.",
   "rarity": "Majestic",
   "referencedCards": [
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
   ],
   "setIdentifiers": [
     "MST226",
@@ -629313,8 +628952,6 @@ Create a Vigor and a Courage token. **Go again**",
   "referencedCards": [
     "courage",
     "gold",
-    "olympia",
-    "olympia-prized-fighter",
     "prized-galea",
     "vigor",
   ],
@@ -636011,9 +635648,6 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
     "Majestic",
   ],
   "rarity": "Majestic",
-  "referencedCards": [
-    "benji-the-piercing-wind",
-  ],
   "setIdentifiers": [
     "OUT053",
   ],
@@ -644303,10 +643937,6 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
     "Promo",
   ],
   "rarity": "Common",
-  "referencedCards": [
-    "ira-crimson-haze",
-    "ira-scarlet-revenger",
-  ],
   "setIdentifiers": [
     "1HP136",
     "ASR019",
@@ -656814,10 +656444,6 @@ If this has been sharpened this turn, its first attack this turn gets **go again
     "Rare",
   ],
   "rarity": "Basic",
-  "referencedCards": [
-    "hala",
-    "hala-bladesaint-of-the-vow",
-  ],
   "setIdentifiers": [
     "AHA002",
     "MPW005",

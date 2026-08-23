@@ -309,18 +309,28 @@ export const getCardRelations = (
       const isNamed =
         !isTokenWithPitchedSiblings ||
         createdExtraIdentifiers.has(referenced.cardIdentifier);
+
+      if (isNamed && referenced.cardIdentifier !== cardIdentifier) {
+        referencedCardIdentifiers.add(referenced.cardIdentifier);
+      }
+    };
+
+    // The specialization line names the hero the card belongs to, which the
+    // card's own specializations already say. Only by name: Mask of Deceit
+    // reaches the same demi-heroes through "become a random Agent of Chaos",
+    // which is a trait naming its group and stays.
+    const addNamedReference = (referenced: PreliminaryCard) => {
+      const isHeroCard = [Type.DemiHero, Type.Hero].some((type) =>
+        referenced.types.includes(type),
+      );
       const isSpecializedHero =
-        referenced.types.includes(Type.Hero) &&
+        isHeroCard &&
         [referenced.hero, getFamilyName(referenced.name)].some(
           (heroName) => !!heroName && specializedHeroNames.has(heroName),
         );
 
-      if (
-        isNamed &&
-        !isSpecializedHero &&
-        referenced.cardIdentifier !== cardIdentifier
-      ) {
-        referencedCardIdentifiers.add(referenced.cardIdentifier);
+      if (!isSpecializedHero) {
+        addReference(referenced);
       }
     };
 
@@ -335,7 +345,7 @@ export const getCardRelations = (
 
       if (!isNestedInLongerMatch) {
         for (const referenced of cardsByMatchName.get(matchName) || []) {
-          addReference(referenced);
+          addNamedReference(referenced);
         }
       }
     }
@@ -378,7 +388,7 @@ export const getCardRelations = (
     for (const pattern of referencedNamePatterns[cardIdentifier] || []) {
       for (const other of matchingTexts) {
         if (other.card.name.includes(pattern)) {
-          addReference(other.card);
+          addNamedReference(other.card);
         }
       }
     }
