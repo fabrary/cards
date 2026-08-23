@@ -1,10 +1,14 @@
 import { describe, expect, it } from "@jest/globals";
-import { Card, getIsChosenExtra, Hero } from "@flesh-and-blood/types";
+import {
+  Card,
+  getIsChosenExtra,
+  getCanBeCreatedExtra,
+  Hero,
+} from "@flesh-and-blood/types";
 import { cards } from "../dist/index";
 import {
-  explain,
-  getIsCreatedExtraCard,
   getLegalHeroesByCard,
+  getCardCreationChain,
 } from "../scripts/Shared/legality";
 
 const legalHeroesByCardIdentifier = getLegalHeroesByCard(cards);
@@ -47,7 +51,7 @@ describe("Hero pools", () => {
   });
 });
 
-describe("Created extras follow provisioning", () => {
+describe("Created extras follow what a hero's pool creates", () => {
   it.each([
     // Yorick's specialization Tales of Adventure names the Ashwing, and Shiyana
     // may run any hero's specialization cards.
@@ -87,11 +91,11 @@ describe("Created extras follow provisioning", () => {
   });
 
   // Tales of Adventure is the only card in a Bard pool that names an Ashwing.
-  it("explains the one card that provisions an extra", () => {
-    expect(explain(Hero.Yorick, "aether-ashwing")).toEqual([
+  it("Gives the chain for the one card that creates an extra", () => {
+    expect(getCardCreationChain(Hero.Yorick, "aether-ashwing")).toEqual([
       {
         createdExtraCardIdentifier: "aether-ashwing",
-        provisioningCardIdentifier: "tales-of-adventure-blue",
+        creatingCardIdentifier: "tales-of-adventure-blue",
       },
     ]);
   });
@@ -100,56 +104,54 @@ describe("Created extras follow provisioning", () => {
     ["ash", Hero.Dromai],
     ["seismic-surge", Hero.Brutus],
     ["zen-state", Hero.Taylor],
-  ])("explains %s for %s", (extraCardIdentifier, hero) => {
-    const [{ createdExtraCardIdentifier, provisioningCardIdentifier }] =
-      explain(hero, extraCardIdentifier);
+  ])("Gives the steps for %s for %s", (extraCardIdentifier, hero) => {
+    const [{ createdExtraCardIdentifier, creatingCardIdentifier }] =
+      getCardCreationChain(hero, extraCardIdentifier);
 
     expect(createdExtraCardIdentifier).toEqual(extraCardIdentifier);
-    expect(getCard(provisioningCardIdentifier).createdExtras).toContain(
+    expect(getCard(creatingCardIdentifier).createdExtras).toContain(
       extraCardIdentifier,
     );
-    expect(getLegalHeroes(provisioningCardIdentifier)).toContain(hero);
+    expect(getLegalHeroes(creatingCardIdentifier)).toContain(hero);
   });
 
-  it("explains nothing for a hero the extra is illegal for", () => {
-    expect(explain(Hero.Bravo, "diamond")).toEqual([]);
+  it("Gives the steps for nothing for a hero the extra is illegal for", () => {
+    expect(getCardCreationChain(Hero.Bravo, "diamond")).toEqual([]);
   });
 
-  // Provisioning is the whole rule for created extras, so the published pools
+  // Creation is the whole rule for created extras, so the published pools
   // and the extras have to agree in both directions: a new set's templating
   // cannot quietly hand a hero a token nothing in their pool makes, nor drop
   // one their pool does.
-  it("Every created extra is legal for the heroes whose pool provisions it", () => {
+  it("Every created extra is legal for the heroes whose pool creates it", () => {
     const mismatches: string[] = [];
     // A chosen extra is picked at deckbuilding rather than put into play, so it
-    // provisions nothing; every other card in a pool does.
-    const provisioningCards = cards.filter((card) => !getIsChosenExtra(card));
+    // creates nothing; every other card in a pool does.
+    const creatingCards = cards.filter((card) => !getIsChosenExtra(card));
 
     for (const card of cards) {
-      if (getIsCreatedExtraCard(card)) {
-        const provisionedHeroes = new Set<Hero>();
+      if (getCanBeCreatedExtra(card)) {
+        const heroesCreatingExtra = new Set<Hero>();
 
-        for (const provisioningCard of provisioningCards) {
-          const provisionsExtra = (
-            provisioningCard.createdExtras || []
-          ).includes(card.cardIdentifier);
+        for (const creatingCard of creatingCards) {
+          const createsExtra = (creatingCard.createdExtras || []).includes(
+            card.cardIdentifier,
+          );
 
-          if (provisionsExtra) {
-            for (const hero of getLegalHeroes(
-              provisioningCard.cardIdentifier,
-            )) {
-              provisionedHeroes.add(hero);
+          if (createsExtra) {
+            for (const hero of getLegalHeroes(creatingCard.cardIdentifier)) {
+              heroesCreatingExtra.add(hero);
             }
           }
         }
 
         const legalHeroes = getLegalHeroes(card.cardIdentifier);
         for (const hero of legalHeroes) {
-          if (!provisionedHeroes.has(hero)) {
+          if (!heroesCreatingExtra.has(hero)) {
             mismatches.push(`${card.cardIdentifier} is legal for ${hero}`);
           }
         }
-        for (const hero of provisionedHeroes) {
+        for (const hero of heroesCreatingExtra) {
           if (!legalHeroes.includes(hero)) {
             mismatches.push(`${card.cardIdentifier} is missing ${hero}`);
           }
@@ -162,7 +164,7 @@ describe("Created extras follow provisioning", () => {
 });
 
 describe("Chosen extras follow class and talent", () => {
-  // Nothing puts a demi-hero into play, so provisioning is silent about them
+  // Nothing puts a demi-hero into play, so creation is silent about them
   // and Arakni keeps the ones she picks at deckbuilding.
   it.each([
     "arakni-black-widow",

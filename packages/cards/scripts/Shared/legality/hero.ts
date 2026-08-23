@@ -1,7 +1,7 @@
 import {
   Class,
   getIsChosenExtra,
-  getIsCreatedExtra,
+  getCanBeCreatedExtra,
   getIsDeckCard,
   Hero,
   Keyword,
@@ -36,10 +36,13 @@ export interface PoolCard {
   typeText: string;
 }
 
-/** Which card put a created extra into a hero's pool. */
-export interface ProvisioningStep {
+/**
+ * One link back toward a hero's pool: a created extra, and the card that puts
+ * it into play, so a chain of them is why an extra is legal for a hero.
+ */
+export interface ExtraCreatedByCard {
   createdExtraCardIdentifier: string;
-  provisioningCardIdentifier: string;
+  creatingCardIdentifier: string;
 }
 
 /**
@@ -233,24 +236,14 @@ const HEROES: Hero[] = Object.values(Hero);
 const ALL_RELEASES = Object.values(Release);
 
 // The two cards whose role the type line does not give away.
-const CREATED_EXTRA_CARD_IDENTIFIERS = [
-  "cracked-bauble-yellow",
-  "goldfin-harpoon",
-];
-
 // "Tome" as a whole word: Tomeltai is a dragon.
 const TOME_NAME = /\bTomes?\b/i;
 
 /**
- * An extra a card puts into play, which is the whole of what a deck provisions.
+ * An extra a card puts into play, which is the whole of what a deck brings.
  * A demi-hero carries the Agent of Chaos trait, which reads as created, so the
  * chosen half has to be answered first: nothing puts a demi-hero into play.
  */
-export const getIsCreatedExtraCard = (card: PoolCard) =>
-  !getIsChosenExtra(card) &&
-  (getIsCreatedExtra(card) ||
-    CREATED_EXTRA_CARD_IDENTIFIERS.includes(card.cardIdentifier));
-
 const getIsSpecializationCard = (card: PoolCard) =>
   (card.specializations || []).length > 0 ||
   (card.metatypes || []).some((metatype) =>
@@ -378,34 +371,34 @@ const getPoolHeroes = (card: PoolCard): Hero[] => {
   return legalHeroes;
 };
 
-// How each hero-extra pair was reached, for explain(). The map the pass returns
+// How each hero-extra pair was reached, for the steps below. The map the pass returns
 // answers which heroes, never which card put the extra there.
-const provisioningStepsByHero = new Map<Hero, Map<string, ProvisioningStep>>();
+const creationChainByHero = new Map<Hero, Map<string, ExtraCreatedByCard>>();
 
-const addProvisionedExtra = (
-  provisionedExtrasByHero: Map<Hero, Set<string>>,
+const addCreatedExtra = (
+  extrasCreatedByHero: Map<Hero, Set<string>>,
   hero: Hero,
   createdExtraCardIdentifier: string,
-  provisioningCardIdentifier: string,
+  creatingCardIdentifier: string,
 ) => {
-  let provisionedExtras = provisionedExtrasByHero.get(hero);
-  if (!provisionedExtras) {
-    provisionedExtras = new Set<string>();
-    provisionedExtrasByHero.set(hero, provisionedExtras);
+  let extrasCreated = extrasCreatedByHero.get(hero);
+  if (!extrasCreated) {
+    extrasCreated = new Set<string>();
+    extrasCreatedByHero.set(hero, extrasCreated);
   }
 
-  const isProvisioned = provisionedExtras.has(createdExtraCardIdentifier);
-  if (!isProvisioned) {
-    provisionedExtras.add(createdExtraCardIdentifier);
+  const isAlreadyCreated = extrasCreated.has(createdExtraCardIdentifier);
+  if (!isAlreadyCreated) {
+    extrasCreated.add(createdExtraCardIdentifier);
 
-    let provisioningSteps = provisioningStepsByHero.get(hero);
-    if (!provisioningSteps) {
-      provisioningSteps = new Map<string, ProvisioningStep>();
-      provisioningStepsByHero.set(hero, provisioningSteps);
+    let creationChain = creationChainByHero.get(hero);
+    if (!creationChain) {
+      creationChain = new Map<string, ExtraCreatedByCard>();
+      creationChainByHero.set(hero, creationChain);
     }
-    provisioningSteps.set(createdExtraCardIdentifier, {
+    creationChain.set(createdExtraCardIdentifier, {
       createdExtraCardIdentifier,
-      provisioningCardIdentifier,
+      creatingCardIdentifier,
     });
   }
 };
@@ -418,34 +411,34 @@ const addProvisionedExtra = (
  * two hands each created extra to the heroes whose pool puts it into play,
  * reading the pools pass one produced. The order is what keeps the rule from
  * being circular: a hero's pool is decided by ordinary legality and never by
- * what it provisions, so the passes must not be merged.
+ * what its cards create, so the passes must not be merged.
  */
 export const getLegalHeroesByCard = (
   cards: PoolCard[],
 ): Map<string, Hero[]> => {
   const legalHeroesByCardIdentifier = new Map<string, Hero[]>();
   const createdExtraCards: PoolCard[] = [];
-  const provisionedExtrasByHero = new Map<Hero, Set<string>>();
+  const extrasCreatedByHero = new Map<Hero, Set<string>>();
 
-  provisioningStepsByHero.clear();
+  creationChainByHero.clear();
 
   for (const card of cards) {
-    if (getIsCreatedExtraCard(card)) {
+    if (getCanBeCreatedExtra(card)) {
       createdExtraCards.push(card);
     } else {
       const legalHeroes = getPoolHeroes(card);
       legalHeroesByCardIdentifier.set(card.cardIdentifier, legalHeroes);
 
       // A chosen extra is picked at deckbuilding rather than put into play, so
-      // it provisions nothing.
-      const provisionsExtras =
+      // it creates nothing.
+      const createsExtras =
         !getIsChosenExtra(card) && (card.createdExtras || []).length > 0;
 
-      if (provisionsExtras) {
+      if (createsExtras) {
         for (const hero of legalHeroes) {
           for (const createdExtraCardIdentifier of card.createdExtras || []) {
-            addProvisionedExtra(
-              provisionedExtrasByHero,
+            addCreatedExtra(
+              extrasCreatedByHero,
               hero,
               createdExtraCardIdentifier,
               card.cardIdentifier,
@@ -465,23 +458,23 @@ export const getLegalHeroesByCard = (
   }
 
   // An extra that makes another extra brings it along, however long the chain.
-  for (const [hero, provisionedExtras] of provisionedExtrasByHero) {
-    const chain = [...provisionedExtras];
+  for (const [hero, extrasCreated] of extrasCreatedByHero) {
+    const chain = [...extrasCreated];
 
     while (chain.length > 0) {
-      const provisioningCardIdentifier = chain.pop() as string;
+      const creatingCardIdentifier = chain.pop() as string;
       const chainedCardIdentifiers =
-        createdExtrasByCardIdentifier.get(provisioningCardIdentifier) || [];
+        createdExtrasByCardIdentifier.get(creatingCardIdentifier) || [];
 
       for (const chainedCardIdentifier of chainedCardIdentifiers) {
-        const isProvisioned = provisionedExtras.has(chainedCardIdentifier);
+        const isAlreadyCreated = extrasCreated.has(chainedCardIdentifier);
 
-        if (!isProvisioned) {
-          addProvisionedExtra(
-            provisionedExtrasByHero,
+        if (!isAlreadyCreated) {
+          addCreatedExtra(
+            extrasCreatedByHero,
             hero,
             chainedCardIdentifier,
-            provisioningCardIdentifier,
+            creatingCardIdentifier,
           );
           chain.push(chainedCardIdentifier);
         }
@@ -492,8 +485,8 @@ export const getLegalHeroesByCard = (
   for (const card of createdExtraCards) {
     const legalHeroes: Hero[] = [];
 
-    for (const [hero, provisionedExtras] of provisionedExtrasByHero) {
-      if (provisionedExtras.has(card.cardIdentifier)) {
+    for (const [hero, extrasCreated] of extrasCreatedByHero) {
+      if (extrasCreated.has(card.cardIdentifier)) {
         legalHeroes.push(hero);
       }
     }
@@ -506,22 +499,22 @@ export const getLegalHeroesByCard = (
 };
 
 /**
- * The path by which a hero's pool provisions a created extra, from the pool
- * card to the extra, empty when the extra is illegal for that hero. Reads the
- * most recent `getLegalHeroesByCard` pass.
+ * The creations by which a hero's pool reaches an extra, from the pool card
+ * through any extras that create further extras, empty when the extra is
+ * illegal for that hero. Reads the most recent `getLegalHeroesByCard` pass.
  */
-export const explain = (
+export const getCardCreationChain = (
   hero: Hero,
   createdExtraCardIdentifier: string,
-): ProvisioningStep[] => {
-  const path: ProvisioningStep[] = [];
-  const provisioningSteps = provisioningStepsByHero.get(hero);
+): ExtraCreatedByCard[] => {
+  const chain: ExtraCreatedByCard[] = [];
+  const creationChain = creationChainByHero.get(hero);
 
-  let step = provisioningSteps?.get(createdExtraCardIdentifier);
+  let step = creationChain?.get(createdExtraCardIdentifier);
   while (step) {
-    path.unshift(step);
-    step = provisioningSteps?.get(step.provisioningCardIdentifier);
+    chain.unshift(step);
+    step = creationChain?.get(step.creatingCardIdentifier);
   }
 
-  return path;
+  return chain;
 };

@@ -345,6 +345,16 @@ export enum Metatype {
   Rosetta = "Rosetta",
 }
 
+/** What a card is for: exactly one answer per card. */
+export enum CardRole {
+  CardBack = "Card back",
+  ChosenExtra = "Chosen extra",
+  CreatedExtra = "Created extra",
+  Deck = "Deck",
+  Hero = "Hero",
+  Inventory = "Inventory",
+}
+
 export enum Type {
   Action = "Action",
   AttackReaction = "Attack Reaction",

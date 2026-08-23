@@ -1,15 +1,10 @@
 import { describe, expect, it } from "@jest/globals";
-import {
-  Card,
-  getCanCardBeTokenForDeck,
-  Hero,
-  Trait,
-} from "@flesh-and-blood/types";
+import { Card, getCanBeExtra, Hero, Trait } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import { getRelatedCards, getTokensReferencedByCards } from "../src/related";
 import Search from "../src/search";
 
-const ALL_TOKENS = cards.filter(getCanCardBeTokenForDeck);
+const ALL_TOKENS = cards.filter(getCanBeExtra);
 
 describe("Related cards", () => {
   // Name, otherPitches, referencedBy, references
@@ -145,7 +140,7 @@ describe("Related cards", () => {
     const cardSearch = new Search(cards);
 
     const { searchResults } = cardSearch.search(`l:shiyana`);
-    const tokens = searchResults.filter(getCanCardBeTokenForDeck);
+    const tokens = searchResults.filter(getCanBeExtra);
 
     const referencingCards = searchResults.filter(
       ({ specializations }) => !!specializations && specializations.length > 0,
@@ -179,7 +174,7 @@ describe("Related cards", () => {
     const cardSearch = new Search(cards);
 
     const { searchResults } = cardSearch.search(`l:yorick`);
-    const tokens = searchResults.filter(getCanCardBeTokenForDeck);
+    const tokens = searchResults.filter(getCanBeExtra);
 
     const referencedTokens = getTokensReferencedByCards(searchResults, tokens);
 

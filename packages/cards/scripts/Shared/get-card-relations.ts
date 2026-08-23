@@ -1,5 +1,5 @@
 import {
-  getIsCardTokenForDeck,
+  getCanBeCreatedExtra,
   Keyword,
   Subtype,
   Type,
@@ -19,11 +19,6 @@ export interface CardRelations {
   createdExtras?: string[];
   referencedCards?: string[];
 }
-
-const CREATED_EXTRA_CARD_IDENTIFIERS = [
-  "cracked-bauble-yellow",
-  "goldfin-harpoon",
-];
 
 // Extras a keyword puts into play without the card text ever naming them, so no
 // amount of text matching can see the edge.
@@ -58,17 +53,6 @@ const getExtraNameRegExp = (name: string) =>
     `\\b${name.replace(REGEXP_SPECIAL_CHARACTERS, "\\$&")}(?:'s|es|s)?\\b`,
     "i",
   );
-
-const getIsCreatedExtra = (card: PreliminaryCard) => {
-  const isChosenExtra = [Type.DemiHero, Type.Macro].some((type) =>
-    card.types.includes(type),
-  );
-  const isExtra =
-    getIsCardTokenForDeck(card) ||
-    CREATED_EXTRA_CARD_IDENTIFIERS.includes(card.cardIdentifier);
-
-  return isExtra && !isChosenExtra;
-};
 
 // A sentence creates the named extra when the name follows a creation verb, so
 // that the verb's object is what gets made: "destroy a Lightning Flow you
@@ -179,7 +163,7 @@ export const getCardRelations = (
       ]);
     }
 
-    if (getIsCreatedExtra(card)) {
+    if (getCanBeCreatedExtra(card)) {
       createdExtras.push(card);
       extraNameRegExps.set(card.cardIdentifier, getExtraNameRegExp(name));
       createdExtrasByName.set(name, [
@@ -194,7 +178,7 @@ export const getCardRelations = (
   // name can only mean the pitched ones.
   for (const card of createdExtras) {
     const hasPitchedSibling = (cardsByMatchName.get(card.name) || []).some(
-      (other) => !getIsCreatedExtra(other),
+      (other) => !getCanBeCreatedExtra(other),
     );
     if (hasPitchedSibling) {
       cardsWithPitchedSiblings.add(card.cardIdentifier);
