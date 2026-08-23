@@ -22,6 +22,7 @@ export interface Card {
   bannedFormats?: Format[];
   bonds?: Bond[];
   cost?: number;
+  createdExtras?: string[];
   defense?: number;
   flows?: Flow[];
   functionalText?: string;
@@ -39,6 +40,7 @@ export interface Card {
   oppositeSideCardIdentifiers?: string[];
   pitch?: number;
   power?: number;
+  referencedCards?: string[];
   restrictedFormats?: Format[];
   shorthands?: Shorthand[];
   shortName?: string;

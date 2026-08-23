@@ -67,7 +67,7 @@
 
     
     bonds: [Bond.Earth],
-    cost: 3,
+    cost: 3,createdExtras: ["frostbite"],
     defense: 3,
     
     functionalText: `When this hits a hero, create a Frostbite token under their control.
@@ -84,7 +84,7 @@
   
     
     pitch: 1,
-    power: 6,
+    power: 6,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -203,7 +203,7 @@
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Legendary Viserai Specialization**
@@ -220,7 +220,7 @@ When this is pitched, create a Runechant token.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant","viserai"],
     
     
     
@@ -677,7 +677,7 @@ If this was played from arsenal, your next attack this turn gets +1{p}.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["blasmophet-the-insatiable-hunger"],
     defense: 3,
     
     functionalText: `When this attacks, banish the top card of your deck.
@@ -696,7 +696,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   
     
     pitch: 1,
-    power: 7,
+    power: 7,referencedCards: ["blasmophet-the-insatiable-hunger"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -754,7 +754,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["blasmophet-the-insatiable-hunger"],
     defense: 3,
     
     functionalText: `When this attacks, banish the top card of your deck.
@@ -773,7 +773,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-the-insatiable-hunger"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -831,7 +831,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["blasmophet-the-insatiable-hunger"],
     defense: 3,
     
     functionalText: `When this attacks, banish the top card of your deck.
@@ -850,7 +850,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   
     
     pitch: 3,
-    power: 5,
+    power: 5,referencedCards: ["blasmophet-the-insatiable-hunger"],
     
     
     
@@ -908,7 +908,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael","runechant"],
     defense: 3,
     
     functionalText: `Banish a card from your hand. If it's Runeblade, create a Runechant token. If it's Shadow, create a Gate to i'Arathael token.
@@ -925,7 +925,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
   
     
     pitch: 3,
-    
+    referencedCards: ["gate-to-iarathael","runechant"],
     
     
     
@@ -2080,7 +2080,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -2217,7 +2217,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
 
     
     
-    
+    createdExtras: ["runechant"],
     defense: 0,
     
     functionalText: `**Action** - {r}, destroy this: **Opt 1**, then create a Runechant token. **Go again**`,
@@ -2232,7 +2232,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
     
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -2363,7 +2363,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
 
     
     
-    cost: 8,
+    cost: 8,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `As an additional cost to play this, banish a card from your hand. If a Shadow card was banished this way, this gets "When this hits, create 2 Gate to i'Arathael tokens."
@@ -2380,7 +2380,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
   
     
     pitch: 1,
-    power: 13,
+    power: 13,referencedCards: ["gate-to-iarathael"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -2653,7 +2653,7 @@ When the combat chain closes, if you've attacked with this, banish it.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["embodiment-of-earth","frostbite"],
     defense: 3,
     
     functionalText: `When this hits a hero, create an Embodiment of Earth token.
@@ -2670,7 +2670,7 @@ When the combat chain closes, if you've attacked with this, banish it.
   
     
     pitch: 3,
-    power: 4,
+    power: 4,referencedCards: ["embodiment-of-earth","frostbite"],
     
     
     
@@ -2825,7 +2825,7 @@ When the combat chain closes, if you've attacked with this, banish it.
 
     
     
-    
+    createdExtras: ["corrupted-corpse"],
     
     
     functionalText: `**Action** - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. **Go again**
@@ -2842,7 +2842,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
     
     
-    
+    referencedCards: ["corrupted-corpse"],
     
     shorthands: [Shorthand.Tap],
     
@@ -2888,7 +2888,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
 
     
     
-    
+    createdExtras: ["corrupted-corpse"],
     
     
     functionalText: `**Action** - {r}, {t}: Until end of turn, you may play target zombie from your graveyard. **Go again**
@@ -2905,7 +2905,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
     
     
-    
+    referencedCards: ["corrupted-corpse"],
     
     shorthands: [Shorthand.Tap],
     
@@ -2963,7 +2963,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `When this hits or is banished from hand or deck, create a Gate to i'Arathael token.
@@ -2980,7 +2980,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -3038,7 +3038,7 @@ Whenever a zombie you control dies, banish it face-down and create a Corrupted C
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Your next Runeblade or Shadow attack this turn gets +3{p}.
@@ -3057,7 +3057,7 @@ Create a Runechant token.
   
     
     pitch: 1,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -3115,7 +3115,7 @@ Create a Runechant token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Your next Runeblade or Shadow attack this turn gets +2{p}.
@@ -3134,7 +3134,7 @@ Create a Runechant token.
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -3192,7 +3192,7 @@ Create a Runechant token.
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["runechant"],
     defense: 2,
     
     functionalText: `Your next Runeblade or Shadow attack this turn gets +1{p}.
@@ -3211,7 +3211,7 @@ Create a Runechant token.
   
     
     pitch: 3,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -3342,7 +3342,7 @@ Create a Runechant token.
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `**Opt 2**
@@ -3359,7 +3359,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
   
     
     pitch: 1,
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -3417,7 +3417,7 @@ Banish the top card of your deck. If it's red, create a Gate to i'Arathael token
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `**Opt 2**
@@ -3434,7 +3434,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
   
     
     pitch: 2,
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -3492,7 +3492,7 @@ Banish the top card of your deck. If it's yellow, create a Gate to i'Arathael to
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `**Opt 2**
@@ -3509,7 +3509,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
   
     
     pitch: 3,
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -3868,7 +3868,7 @@ Banish the top card of your deck. If it's blue, create a Gate to i'Arathael toke
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, gain 1{h}.
@@ -3887,7 +3887,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -3948,7 +3948,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, gain {r}.
@@ -3967,7 +3967,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -4028,7 +4028,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, draw a card.
@@ -4047,7 +4047,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -4108,7 +4108,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, create a Runechant token.
@@ -4127,7 +4127,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -4188,7 +4188,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, it gets +1{p}.
@@ -4207,7 +4207,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -4268,7 +4268,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, it gets **go again**.
@@ -4287,7 +4287,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -4348,7 +4348,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     
     
     functionalText: `This counts as a Runechant. When an attack usurps this, it gets **overpower**.
@@ -4367,7 +4367,7 @@ At the beginning of your action phase or when you play an attack action card, de
   
     
     pitch: 2,
-    
+    referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Sin],
     
@@ -4413,7 +4413,7 @@ At the beginning of your action phase or when you play an attack action card, de
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `**Action** - {r}, {t}: **Attack**. Activate this only if you've played a card from a banished zone this turn.
@@ -4430,7 +4430,7 @@ When this hits a hero, create a Runechant token.`,
   
     
     
-    power: 3,
+    power: 3,referencedCards: ["runechant"],
     
     shorthands: [Shorthand.Tap],
     
@@ -4788,7 +4788,7 @@ When this hits a hero, create a Runechant token.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["runechant"],
     defense: 3,
     
     functionalText: `You may play this from your banished zone.
@@ -4809,7 +4809,7 @@ If this was played from your banished zone, it gets "When this attacks, you may 
   
     
     pitch: 1,
-    power: 2,
+    power: 2,referencedCards: ["runechant"],
     
     
     
@@ -5017,7 +5017,7 @@ When this is pitched, lose 1{h}.`,
 
     
     
-    cost: 0,
+    cost: 0,createdExtras: ["gate-to-iarathael"],
     defense: 3,
     
     functionalText: `When this attacks, if it was played from your banished zone, create a Gate to i'Arathael token.
@@ -5034,7 +5034,7 @@ When this is pitched, lose 1{h}.`,
   
     
     pitch: 1,
-    power: 4,
+    power: 4,referencedCards: ["gate-to-iarathael"],
     
     
     
@@ -5113,7 +5113,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
   
     
     pitch: 3,
-    power: 13,
+    power: 13,referencedCards: ["viserai"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -5408,7 +5408,7 @@ When this hits a hero, deal 2 arcane damage to any target.
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, **traverse**.`,
@@ -5423,7 +5423,7 @@ When this hits a hero, deal 2 arcane damage to any target.
   
     oppositeSideCardIdentifier: `viserai-usurper`,oppositeSideCardIdentifiers: ["viserai-usurper"],
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -5481,7 +5481,7 @@ When this hits a hero, deal 2 arcane damage to any target.
 
     
     
-    
+    createdExtras: ["runechant"],
     
     
     functionalText: `Whenever you create 1 or more Runechants, banish the top card of your deck. Then if you've created 3 or more Runechants this turn, **traverse**.`,
@@ -5496,7 +5496,7 @@ When this hits a hero, deal 2 arcane damage to any target.
   
     oppositeSideCardIdentifier: `viserai-usurper`,oppositeSideCardIdentifiers: ["viserai-usurper"],
     
-    
+    referencedCards: ["runechant"],
     
     
     
@@ -5578,7 +5578,7 @@ When this hits a hero, deal 2 arcane damage to any target.
 
     
     
-    
+    createdExtras: ["gate-to-iarathael"],
     
     
     functionalText: `The first attack action card with blood debt you play each turn gets **go again**.
@@ -5595,7 +5595,7 @@ At the beginning of each end phase, if you've created or activated a Gate to i'A
   
     oppositeSideCardIdentifier: `viserai-the-forsaken`,oppositeSideCardIdentifiers: ["viserai-the-forsaken","viserai-between-worlds"],
     
-    
+    referencedCards: ["gate-to-iarathael"],
     
     
     

@@ -165,7 +165,11 @@ const generateCardTypeScript = (card: Card): string => {
         ? `bonds: [${getEnumValues(card.bonds, "Bond", Bond)}],`
         : ``
     }
-    ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}
+    ${card.cost || card.cost === 0 ? `cost: ${card.cost},` : ``}${
+      card.createdExtras && card.createdExtras.length > 0
+        ? `createdExtras: [${getStringValues(card.createdExtras)}],`
+        : ``
+    }
     ${card.defense || card.defense === 0 ? `defense: ${card.defense},` : ``}
     ${
       card.flows && card.flows.length > 0
@@ -218,7 +222,11 @@ const generateCardTypeScript = (card: Card): string => {
         : ``
     }
     ${card.pitch || card.pitch === 0 ? `pitch: ${card.pitch},` : ``}
-    ${card.power || card.power === 0 ? `power: ${card.power},` : ``}
+    ${card.power || card.power === 0 ? `power: ${card.power},` : ``}${
+      card.referencedCards && card.referencedCards.length > 0
+        ? `referencedCards: [${getStringValues(card.referencedCards)}],`
+        : ``
+    }
     ${
       card.restrictedFormats && card.restrictedFormats.length > 0
         ? `restrictedFormats: [${getEnumValues(

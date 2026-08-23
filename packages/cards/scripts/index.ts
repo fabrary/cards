@@ -25,6 +25,7 @@ import {
   getConfirmedBannedAndLegalFormats,
   getLegalHeroes,
 } from "./Shared/legality";
+import { CardRelations, getCardRelations } from "./Shared/get-card-relations";
 import { getShorthands } from "./Shared/get-shorthands";
 import { getNicknames } from "./Shared/get-nicknames";
 import { getShortName } from "./Shared/get-short-names";
@@ -153,9 +154,16 @@ for (const { name } of deduplicatedCards) {
   cardCountsByName.set(name, (cardCountsByName.get(name) || 0) + 1);
 }
 
+// Both relations read the whole card list, so they are computed once up front
+// rather than per card.
+const relationsByCardIdentifier = getCardRelations(deduplicatedCards);
+
 const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
   const { bannedFormats, legalFormats } =
     getConfirmedBannedAndLegalFormats(card);
+  const { createdExtras, referencedCards } = relationsByCardIdentifier.get(
+    card.cardIdentifier,
+  ) as CardRelations;
   const legalHeroes = getLegalHeroes(card);
   const meta = getMeta(card, cardCountsByName);
   const nicknames = getNicknames(card);
@@ -166,10 +174,12 @@ const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
     ...card,
     firstReleaseDate: getFirstReleaseDate(card),
     bannedFormats,
+    createdExtras,
     legalFormats,
     legalHeroes,
     meta,
     nicknames,
+    referencedCards,
     shorthands,
     shortName,
   };

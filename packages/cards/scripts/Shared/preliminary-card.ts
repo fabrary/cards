@@ -7,10 +7,12 @@ import { Card } from "@flesh-and-blood/types";
 // published data.
 export type PreliminaryCard = Omit<
   Card,
+  | "createdExtras"
   | "firstReleaseDate"
   | "legalHeroes"
   | "meta"
   | "nicknames"
+  | "referencedCards"
   | "shorthands"
   | "shortName"
 >;
