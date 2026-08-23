@@ -3,6 +3,7 @@ import {
   Card,
   Foiling,
   getIsDeckCard,
+  Hero,
   Printing,
   Rarity,
   Release,
@@ -23,7 +24,7 @@ import { combineAndAddMissingFields } from "./Shared/combined-and-missing-fields
 import { getMeta, sortPrintingsByReleaseOrder } from "./Shared";
 import {
   getConfirmedBannedAndLegalFormats,
-  getLegalHeroes,
+  getLegalHeroesByCard,
 } from "./Shared/legality";
 import { CardRelations, getCardRelations } from "./Shared/get-card-relations";
 import { getShorthands } from "./Shared/get-shorthands";
@@ -157,14 +158,21 @@ for (const { name } of deduplicatedCards) {
 // Both relations read the whole card list, so they are computed once up front
 // rather than per card.
 const relationsByCardIdentifier = getCardRelations(deduplicatedCards);
+const cardsWithRelations = deduplicatedCards.map((card) => ({
+  ...card,
+  ...(relationsByCardIdentifier.get(card.cardIdentifier) as CardRelations),
+}));
 
-const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
+// Which heroes may run a created extra follows from what the rest of their pool
+// puts into play, so hero legality reads the whole card list at once.
+const legalHeroesByCardIdentifier = getLegalHeroesByCard(cardsWithRelations);
+
+const cardsWithAdditionalProperties = cardsWithRelations.map((card) => {
   const { bannedFormats, legalFormats } =
     getConfirmedBannedAndLegalFormats(card);
-  const { createdExtras, referencedCards } = relationsByCardIdentifier.get(
+  const legalHeroes = legalHeroesByCardIdentifier.get(
     card.cardIdentifier,
-  ) as CardRelations;
-  const legalHeroes = getLegalHeroes(card);
+  ) as Hero[];
   const meta = getMeta(card, cardCountsByName);
   const nicknames = getNicknames(card);
   const shorthands = getShorthands(card);
@@ -174,12 +182,10 @@ const cardsWithAdditionalProperties = deduplicatedCards.map((card) => {
     ...card,
     firstReleaseDate: getFirstReleaseDate(card),
     bannedFormats,
-    createdExtras,
     legalFormats,
     legalHeroes,
     meta,
     nicknames,
-    referencedCards,
     shorthands,
     shortName,
   };

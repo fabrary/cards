@@ -945,7 +945,7 @@ When this hits, create a Blasmophet, the Insatiable Hunger token.
     defaultImage: "IAR221",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
-    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Levia],
     name: "Blasmophet, the Insatiable Hunger",
     printings: [{
         artists: ["Lius Lasahido"],
@@ -2100,7 +2100,7 @@ You may play an aura with Runechant in its name from your banished zone this tur
     defaultImage: "IAR222-MV",
     firstReleaseDate: "2026-09-25",
     legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
-    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Shiyana,Hero.Viserai2,Hero.Vynnset,Hero.Yorick],
+    legalHeroes: [Hero.Baalghor,Hero.Chane,Hero.Levia,Hero.Malice,Hero.Viserai2,Hero.Vynnset],
     name: "Gate to i'Arathael",
     printings: [{
         artists: ["Carlos Cruchaga"],

@@ -1,9 +1,10 @@
 import {
   Class,
+  getIsChosenExtra,
+  getIsCreatedExtra,
   getIsDeckCard,
   Hero,
   Keyword,
-  Meta,
   Metatype,
   Release,
   releases,
@@ -13,14 +14,64 @@ import {
   Type,
 } from "@flesh-and-blood/types";
 
-const CLASSES_AND_TALENTS = (classes: Class[], talents: Talent[] = []) => {
-  const allClasses = [...classes, Class.Generic];
+/**
+ * What a hero's pool is decided from, plus the extras the card puts into play.
+ * `createdExtras` arrives as a field rather than being read out of card text
+ * here: the relations pass owns the text, legality owns who may run the card.
+ */
+export interface PoolCard {
+  cardIdentifier: string;
+  classes: Class[];
+  createdExtras?: string[];
+  hero?: Hero;
+  keywords?: Keyword[];
+  metatypes?: Metatype[];
+  name: string;
+  pitch?: number;
+  specializations?: Hero[];
+  subtypes: Subtype[];
+  talents?: Talent[];
+  traits?: Trait[];
+  types: Type[];
+  typeText: string;
+}
+
+/** Which card put a created extra into a hero's pool. */
+export interface ProvisioningStep {
+  createdExtraCardIdentifier: string;
+  provisioningCardIdentifier: string;
+}
+
+/**
+ * A clause on a hero card widening what they may include beyond their class and
+ * talent, named after the clause rather than spelled out: The Librarian reads
+ * "You may have cards with Tome in their name of any class or talent in your
+ * deck". A predicate is the escape hatch for the first clause with no name.
+ */
+type DeckbuildingExemption =
+  | "agentOfChaos"
+  | "anyClassClash"
+  | "anyClassEquipment"
+  | "anyClassSpecializations"
+  | "anyClassTomes"
+  | ((card: PoolCard) => boolean);
+
+interface HeroPool {
+  classes: Class[];
+  excludedPitches?: (number | null | undefined)[];
+  excludedSubtypes?: Subtype[];
+  exemption?: DeckbuildingExemption;
+  talents: Talent[];
+}
+
+const getClassesAndTalents = (classes: Class[], talents: Talent[] = []) => {
+  const poolClasses = [...classes, Class.Generic];
   if (talents.length > 0) {
-    allClasses.push(Class.NotClassed);
+    poolClasses.push(Class.NotClassed);
   }
 
   return {
-    classes: allClasses,
+    classes: poolClasses,
     talents,
   };
 };
@@ -43,421 +94,249 @@ const LIGHT = [Talent.Light];
 const MYSTIC = [Talent.Mystic];
 const SHADOW = [Talent.Shadow];
 
-interface AppliedFilter {
-  classes: Class[];
-  excludedPitches?: any[];
-  excludedSubtypes?: Subtype[];
-  talents: Talent[];
-}
-
-const arakni: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Assassin]),
-};
-
-const aurora: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Runeblade], LIGHTNING),
-};
-
-const azalea: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ranger]),
-};
-
-const benji: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ninja]),
-};
-
-const betsy: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-};
-
-const blaze: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Wizard]),
-};
-
-const boltyn: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Warrior], LIGHT),
-  excludedSubtypes: [Subtype.Angel],
-};
-
-const bravo: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-};
-
-const brevant: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Guardian]),
-};
-
-const briar: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Runeblade], EARTH_AND_LIGHTNING),
-};
-
-const brutus: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Adjudicator]),
-};
-
-const chane: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
-};
-
-const cindra: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ninja], ROYAL_DRACONIC),
-};
-
-const dash: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-};
-
-const dataDoll: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-};
-
-const dorinthea: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Warrior]),
-};
-
-const dromai: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Illusionist], DRACONIC),
-};
-
-const emperor: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Warrior, Class.Wizard], DRACONIC),
-  excludedPitches: [null, undefined, 2, 3, 4],
-};
-
-const enigma: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Illusionist], MYSTIC),
-};
-
-const fai: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ninja], DRACONIC),
-};
-
-const fang: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Warrior], ROYAL_DRACONIC),
-};
-
-const florian: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Runeblade], EARTH),
-};
-
-const frankie: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Necromancer]),
-};
-
-const genis: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Merchant]),
-};
-
-const gravyBones: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Necromancer, Class.Pirate]),
-};
-
-const ira: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ninja]),
-};
-
-const iyslander: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Wizard], ICE),
-};
-
-const jarl: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Guardian], EARTH_AND_ICE),
-};
-
-const kano: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Wizard]),
-};
-
-const kassai: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Warrior]),
-};
-
-const katsu: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ninja]),
-};
-
-const kavdaen: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Merchant]),
-};
-
-const kayo: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Brute]),
-};
-
-const levia: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Brute], SHADOW),
-};
-
-const lexi: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Ranger], ICE_AND_LIGHTNING),
-};
-
-const marlynn: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Pirate, Class.Ranger]),
-};
-
-const maxx: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Mechanologist]),
-};
-
-const melody: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Bard]),
-};
-
-const nuu: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Assassin], MYSTIC),
-};
-
-const oldhim: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Guardian], EARTH_AND_ICE),
-};
-
-const olympia: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Warrior]),
-};
-
-const oscilio: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Wizard], LIGHTNING),
-};
-
-const puffin: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Mechanologist, Class.Pirate]),
-};
-
-const prism: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Illusionist], LIGHT),
-};
-
-const rhinar: AppliedFilter = {
-  ...CLASSES_AND_TALENTS([Class.Brute]),
-};
-
-export const heroToFilterMapping: { [key: string]: AppliedFilter } = {
-  [Hero.Arakni]: arakni,
-  [Hero.Aurora]: aurora,
-  [Hero.Aurora2]: CLASSES_AND_TALENTS([Class.Runeblade], [Talent.Lightning]),
-  [Hero.Azalea]: azalea,
-  [Hero.Baalghor]: CLASSES_AND_TALENTS([], [Talent.Shadow]),
-  [Hero.Benji]: benji,
-  [Hero.Betsy]: betsy,
-  [Hero.Blaze]: blaze,
-  [Hero.Bolfar]: CLASSES_AND_TALENTS([Class.Guardian]),
-  [Hero.Boltyn]: boltyn,
-  [Hero.Bravo]: bravo,
-  [Hero.Brevant]: brevant,
-  [Hero.Briar]: briar,
-  [Hero.Brutus]: brutus,
-  [Hero.Chane]: chane,
-  [Hero.Cindra]: cindra,
-  [Hero.Crackni]: CLASSES_AND_TALENTS([Class.Assassin], [Talent.Chaos]),
-  [Hero.Crix]: CLASSES_AND_TALENTS([Class.Guardian]),
-  [Hero.Dash]: dash,
-  [Hero.DataDoll]: dataDoll,
-  [Hero.Dorinthea]: dorinthea,
-  [Hero.Dromai]: dromai,
-  [Hero.Emperor]: emperor,
-  [Hero.Enigma]: enigma,
-  [Hero.Fai]: fai,
-  [Hero.Fang]: fang,
-  [Hero.Florian]: florian,
-  [Hero.Frankie]: frankie,
-  [Hero.Genis]: genis,
-  [Hero.GravyBones]: gravyBones,
-  [Hero.Hala]: CLASSES_AND_TALENTS([Class.Warrior]),
-  [Hero.Ira]: ira,
-  [Hero.Iyslander]: iyslander,
-  [Hero.Jarl]: jarl,
-  [Hero.Kano]: kano,
-  [Hero.Kassai]: kassai,
-  [Hero.Katsu]: katsu,
-  [Hero.Kavdaen]: kavdaen,
-  [Hero.Kayo]: kayo,
-  [Hero.Killjoy]: CLASSES_AND_TALENTS(
+const heroPools: { [key: string]: HeroPool } = {
+  [Hero.Arakni]: {
+    ...getClassesAndTalents([Class.Assassin]),
+    exemption: "agentOfChaos",
+  },
+  [Hero.Aurora]: getClassesAndTalents([Class.Runeblade], LIGHTNING),
+  [Hero.Aurora2]: getClassesAndTalents([Class.Runeblade], [Talent.Lightning]),
+  [Hero.Azalea]: getClassesAndTalents([Class.Ranger]),
+  [Hero.Baalghor]: getClassesAndTalents([], SHADOW),
+  [Hero.Benji]: getClassesAndTalents([Class.Ninja]),
+  [Hero.Betsy]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Blaze]: getClassesAndTalents([Class.Wizard]),
+  [Hero.Bolfar]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Boltyn]: {
+    ...getClassesAndTalents([Class.Warrior], LIGHT),
+    excludedSubtypes: [Subtype.Angel],
+  },
+  [Hero.Bravo]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Brevant]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Briar]: getClassesAndTalents([Class.Runeblade], EARTH_AND_LIGHTNING),
+  [Hero.Broscilio]: getClassesAndTalents([Class.Wizard], [Talent.Lightning]),
+  [Hero.Brutus]: {
+    ...getClassesAndTalents([Class.Adjudicator]),
+    exemption: "anyClassClash",
+  },
+  [Hero.Chane]: getClassesAndTalents([Class.Runeblade], SHADOW),
+  [Hero.Cindra]: getClassesAndTalents([Class.Ninja], ROYAL_DRACONIC),
+  [Hero.Crackni]: getClassesAndTalents([Class.Assassin], [Talent.Chaos]),
+  [Hero.Crix]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Dash]: getClassesAndTalents([Class.Mechanologist]),
+  [Hero.DataDoll]: getClassesAndTalents([Class.Mechanologist]),
+  [Hero.Dorinthea]: getClassesAndTalents([Class.Warrior]),
+  [Hero.Dromai]: getClassesAndTalents([Class.Illusionist], DRACONIC),
+  [Hero.Emperor]: {
+    ...getClassesAndTalents([Class.Warrior, Class.Wizard], DRACONIC),
+    excludedPitches: [null, undefined, 2, 3, 4],
+  },
+  [Hero.Enigma]: getClassesAndTalents([Class.Illusionist], MYSTIC),
+  [Hero.Fai]: getClassesAndTalents([Class.Ninja], DRACONIC),
+  [Hero.Fang]: getClassesAndTalents([Class.Warrior], ROYAL_DRACONIC),
+  [Hero.Florian]: getClassesAndTalents([Class.Runeblade], EARTH),
+  [Hero.Frankie]: getClassesAndTalents([Class.Necromancer]),
+  [Hero.Genis]: getClassesAndTalents([Class.Merchant]),
+  [Hero.GravyBones]: getClassesAndTalents([Class.Necromancer, Class.Pirate]),
+  [Hero.Hala]: getClassesAndTalents([Class.Warrior]),
+  [Hero.Ira]: getClassesAndTalents([Class.Ninja]),
+  [Hero.Iyslander]: getClassesAndTalents([Class.Wizard], ICE),
+  [Hero.Jarl]: getClassesAndTalents([Class.Guardian], EARTH_AND_ICE),
+  [Hero.Kano]: getClassesAndTalents([Class.Wizard]),
+  [Hero.Kassai]: getClassesAndTalents([Class.Warrior]),
+  [Hero.Katsu]: getClassesAndTalents([Class.Ninja]),
+  [Hero.Kavdaen]: getClassesAndTalents([Class.Merchant]),
+  [Hero.Kayo]: getClassesAndTalents([Class.Brute]),
+  [Hero.Killjoy]: getClassesAndTalents(
     [Class.Warrior, Class.Thief],
     [Talent.Reviled],
   ),
-  [Hero.Kox]: CLASSES_AND_TALENTS([Class.Guardian]),
-  [Hero.Levia]: levia,
-  [Hero.Lexi]: lexi,
-  [Hero.Librarian]: CLASSES_AND_TALENTS([Class.Adjudicator], LIGHT),
-  [Hero.Lyath]: CLASSES_AND_TALENTS([Class.Guardian], [Talent.Reviled]),
-  [Hero.Malice]: CLASSES_AND_TALENTS([Class.Necromancer], SHADOW),
-  [Hero.Marlynn]: marlynn,
-  [Hero.Maxx]: maxx,
-  [Hero.Melody]: melody,
-  [Hero.Mortimer]: CLASSES_AND_TALENTS([Class.Assassin]),
-  [Hero.Nuu]: nuu,
-  [Hero.Oldhim]: oldhim,
-  [Hero.Olympia]: olympia,
-  [Hero.Oscilio]: oscilio,
-  [Hero.Broscilio]: CLASSES_AND_TALENTS([Class.Wizard], [Talent.Lightning]),
-  [Hero.Pleiades]: CLASSES_AND_TALENTS([Class.Guardian], [Talent.Revered]),
-  [Hero.Prism]: prism,
-  [Hero.Puffin]: puffin,
-  [Hero.Reya]: CLASSES_AND_TALENTS([Class.Guardian]),
-  [Hero.Rhinar]: rhinar,
-  [Hero.Riptide]: CLASSES_AND_TALENTS([Class.Ranger]),
-  [Hero.RKO]: CLASSES_AND_TALENTS([Class.Brute], [Talent.Reviled]),
-  [Hero.Ruudi]: CLASSES_AND_TALENTS([Class.Merchant]),
-  [Hero.Scurv]: CLASSES_AND_TALENTS([Class.Pirate, Class.Thief]),
-  [Hero.Shiyana]: CLASSES_AND_TALENTS([]),
-  [Hero.Slippy]: CLASSES_AND_TALENTS([Class.Assassin], [Talent.Chaos]),
-  [Hero.Squizzy]: CLASSES_AND_TALENTS([Class.Merchant]),
-  [Hero.Starvo]: CLASSES_AND_TALENTS(
+  [Hero.Kox]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Levia]: getClassesAndTalents([Class.Brute], SHADOW),
+  [Hero.Lexi]: getClassesAndTalents([Class.Ranger], ICE_AND_LIGHTNING),
+  [Hero.Librarian]: {
+    ...getClassesAndTalents([Class.Adjudicator], LIGHT),
+    exemption: "anyClassTomes",
+  },
+  [Hero.Lyath]: getClassesAndTalents([Class.Guardian], [Talent.Reviled]),
+  [Hero.Malice]: getClassesAndTalents([Class.Necromancer], SHADOW),
+  [Hero.Marlynn]: getClassesAndTalents([Class.Pirate, Class.Ranger]),
+  [Hero.Maxx]: getClassesAndTalents([Class.Mechanologist]),
+  [Hero.Melody]: getClassesAndTalents([Class.Bard]),
+  [Hero.Mortimer]: getClassesAndTalents([Class.Assassin]),
+  [Hero.Nuu]: getClassesAndTalents([Class.Assassin], MYSTIC),
+  [Hero.Oldhim]: getClassesAndTalents([Class.Guardian], EARTH_AND_ICE),
+  [Hero.Olympia]: getClassesAndTalents([Class.Warrior]),
+  [Hero.Oscilio]: getClassesAndTalents([Class.Wizard], LIGHTNING),
+  [Hero.Pleiades]: getClassesAndTalents([Class.Guardian], [Talent.Revered]),
+  [Hero.Prism]: getClassesAndTalents([Class.Illusionist], LIGHT),
+  [Hero.Puffin]: getClassesAndTalents([Class.Mechanologist, Class.Pirate]),
+  [Hero.Reya]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Rhinar]: getClassesAndTalents([Class.Brute]),
+  [Hero.Riptide]: getClassesAndTalents([Class.Ranger]),
+  [Hero.RKO]: getClassesAndTalents([Class.Brute], [Talent.Reviled]),
+  [Hero.Ruudi]: getClassesAndTalents([Class.Merchant]),
+  [Hero.Scurv]: getClassesAndTalents([Class.Pirate, Class.Thief]),
+  [Hero.Shiyana]: {
+    ...getClassesAndTalents([]),
+    exemption: "anyClassSpecializations",
+  },
+  [Hero.Slippy]: getClassesAndTalents([Class.Assassin], [Talent.Chaos]),
+  [Hero.Squizzy]: getClassesAndTalents([Class.Merchant]),
+  [Hero.Starvo]: getClassesAndTalents(
     [Class.Guardian],
     EARTH_AND_ICE_AND_LIGHTNING,
   ),
-  [Hero.Taipanis]: CLASSES_AND_TALENTS([Class.Adjudicator], DRACONIC),
-  [Hero.Taylor]: CLASSES_AND_TALENTS([]),
-  [Hero.Teklovossen]: CLASSES_AND_TALENTS([Class.Mechanologist]),
-  [Hero.Terra]: CLASSES_AND_TALENTS(
-    [Class.Guardian],
-    [Talent.Elemental, Talent.Earth],
-  ),
-  [Hero.Theryon]: CLASSES_AND_TALENTS([Class.Adjudicator], LIGHT),
-  [Hero.Tuffnut]: CLASSES_AND_TALENTS([Class.Brute], [Talent.Revered]),
-  [Hero.Uzuri]: CLASSES_AND_TALENTS([Class.Assassin]),
-  [Hero.Valda]: CLASSES_AND_TALENTS([Class.Guardian]),
-  [Hero.Verdance]: CLASSES_AND_TALENTS([Class.Wizard], EARTH),
-  [Hero.Victor]: CLASSES_AND_TALENTS([Class.Guardian]),
-  [Hero.Viserai]: CLASSES_AND_TALENTS([Class.Runeblade]),
-  [Hero.Viserai2]: CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
-  [Hero.Vynnset]: CLASSES_AND_TALENTS([Class.Runeblade], SHADOW),
-  [Hero.Yorick]: CLASSES_AND_TALENTS([Class.Bard]),
-  [Hero.Yoji]: CLASSES_AND_TALENTS([Class.Guardian]),
-  [Hero.Zane]: CLASSES_AND_TALENTS([Class.Warrior], [Talent.Revered]),
-  [Hero.Zen]: CLASSES_AND_TALENTS([Class.Ninja], MYSTIC),
-  [Hero.Zyggy]: CLASSES_AND_TALENTS([Class.Illusionist], [Talent.Lightning]),
+  [Hero.Taipanis]: getClassesAndTalents([Class.Adjudicator], DRACONIC),
+  [Hero.Taylor]: {
+    ...getClassesAndTalents([]),
+    exemption: "anyClassEquipment",
+  },
+  [Hero.Teklovossen]: getClassesAndTalents([Class.Mechanologist]),
+  [Hero.Terra]: getClassesAndTalents([Class.Guardian], EARTH),
+  [Hero.Theryon]: getClassesAndTalents([Class.Adjudicator], LIGHT),
+  [Hero.Tuffnut]: getClassesAndTalents([Class.Brute], [Talent.Revered]),
+  [Hero.Uzuri]: getClassesAndTalents([Class.Assassin]),
+  [Hero.Valda]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Verdance]: getClassesAndTalents([Class.Wizard], EARTH),
+  [Hero.Victor]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Viserai]: getClassesAndTalents([Class.Runeblade]),
+  [Hero.Viserai2]: getClassesAndTalents([Class.Runeblade], SHADOW),
+  [Hero.Vynnset]: getClassesAndTalents([Class.Runeblade], SHADOW),
+  [Hero.Yoji]: getClassesAndTalents([Class.Guardian]),
+  [Hero.Yorick]: getClassesAndTalents([Class.Bard]),
+  [Hero.Zane]: getClassesAndTalents([Class.Warrior], [Talent.Revered]),
+  [Hero.Zen]: getClassesAndTalents([Class.Ninja], MYSTIC),
+  [Hero.Zyggy]: getClassesAndTalents([Class.Illusionist], [Talent.Lightning]),
 };
 
-const ALL_TOKEN_HEROES = [Hero.Shiyana, Hero.Yorick];
+const ARAKNIS = [Hero.Arakni, Hero.Crackni, Hero.Slippy];
+const KAYOS = [Hero.Kayo, Hero.RKO];
+
+// The heroes a hero answers to when a card names one: the same character under
+// another name, whether a family or a reprint. A specialization card written
+// for the first printing belongs to the reprint too, and never the other way
+// round, so each hero lists the names their own cards may carry.
+const heroIdentities: { [key: string]: Hero[] } = {
+  [Hero.Arakni]: ARAKNIS,
+  [Hero.Aurora2]: [Hero.Aurora2, Hero.Aurora],
+  [Hero.Broscilio]: [Hero.Broscilio, Hero.Oscilio],
+  [Hero.Crackni]: ARAKNIS,
+  [Hero.Kayo]: KAYOS,
+  [Hero.RKO]: KAYOS,
+  [Hero.Slippy]: ARAKNIS,
+  [Hero.Starvo]: [Hero.Starvo, Hero.Bravo],
+  [Hero.Viserai2]: [Hero.Viserai2, Hero.Viserai],
+};
 
 const HEROES: Hero[] = Object.values(Hero);
+const ALL_RELEASES = Object.values(Release);
 
-const allReleases = Object.values(Release);
+// The two cards whose role the type line does not give away.
+const CREATED_EXTRA_CARD_IDENTIFIERS = [
+  "cracked-bauble-yellow",
+  "goldfin-harpoon",
+];
 
-const CARD_TO_LOG = "";
-const HERO_TO_LOG = "";
+// "Tome" as a whole word: Tomeltai is a dragon.
+const TOME_NAME = /\bTomes?\b/i;
 
-const ALL_ARAKNIS = [Hero.Arakni, Hero.Crackni, Hero.Slippy];
-const ALL_KAYOS = [Hero.Kayo, Hero.RKO];
-const ALL_HEROES = Object.values(Hero);
+/**
+ * An extra a card puts into play, which is the whole of what a deck provisions.
+ * A demi-hero carries the Agent of Chaos trait, which reads as created, so the
+ * chosen half has to be answered first: nothing puts a demi-hero into play.
+ */
+export const getIsCreatedExtraCard = (card: PoolCard) =>
+  !getIsChosenExtra(card) &&
+  (getIsCreatedExtra(card) ||
+    CREATED_EXTRA_CARD_IDENTIFIERS.includes(card.cardIdentifier));
 
-const TOKEN_OVERRIDES: { [key: string]: Hero[] } = {
-  "embodiment-of-lightning": [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy],
-  "lightning-flow": [Hero.Aurora2, Hero.Broscilio, Hero.Zyggy],
+const getIsSpecializationCard = (card: PoolCard) =>
+  (card.specializations || []).length > 0 ||
+  (card.metatypes || []).some((metatype) =>
+    HEROES.includes(metatype as unknown as Hero),
+  );
+
+const getIsExempt = (exemption: DeckbuildingExemption, card: PoolCard) => {
+  let isExempt = false;
+
+  if (typeof exemption === "function") {
+    isExempt = exemption(card);
+  } else if (exemption === "agentOfChaos") {
+    isExempt = (card.traits || []).includes(Trait.AgentOfChaos);
+  } else if (exemption === "anyClassClash") {
+    // A specialization card is written for one hero, whatever else it does.
+    isExempt =
+      (card.keywords || []).includes(Keyword.Clash) &&
+      !getIsSpecializationCard(card);
+  } else if (exemption === "anyClassEquipment") {
+    isExempt = card.types.includes(Type.Equipment);
+  } else if (exemption === "anyClassSpecializations") {
+    isExempt = (card.specializations || []).length > 0;
+  } else if (exemption === "anyClassTomes") {
+    isExempt = TOME_NAME.test(card.name);
+  }
+
+  return isExempt;
 };
 
-export const getLegalHeroes = (card: {
-  cardIdentifier: string;
-  classes: Class[];
-  hero?: Hero;
-  keywords?: Keyword[];
-  meta?: Meta[];
-  metatypes?: Metatype[];
-  name: string;
-  pitch?: number;
-  specializations?: Hero[];
-  subtypes: Subtype[];
-  talents?: Talent[];
-  traits?: Trait[];
-  types: Type[];
-  typeText: string;
-}): Hero[] => {
-  const legalHeroes: Hero[] = [];
-
-  const isCardMacro = card.types?.includes(Type.Macro);
-  const macroSets =
-    card.metatypes?.filter((metatype) =>
-      allReleases.includes(metatype as unknown as Release),
-    ) || [];
-  const cardMacroSet = macroSets.length > 0 ? macroSets[0] : undefined;
-  const macroSetInfo = cardMacroSet
+// A macro carries the release it is drafted in as a metatype, and that release
+// names the heroes drafting it.
+const getDraftHeroIdentifiers = (card: PoolCard) => {
+  const macroRelease = (card.metatypes || []).find((metatype) =>
+    ALL_RELEASES.includes(metatype as unknown as Release),
+  );
+  const draftRelease = macroRelease
     ? releases.find(
-        ({ release }) => release === (cardMacroSet as unknown as Release),
+        ({ release }) => release === (macroRelease as unknown as Release),
       )
     : undefined;
-  const draftHeroesAllowedInMacroSet = macroSetInfo
-    ? macroSetInfo.draft?.heroIdentifiers || []
-    : [];
+
+  return draftRelease?.draft?.heroIdentifiers || [];
+};
+
+const getHeroIdentifier = (hero: Hero) =>
+  hero.toLowerCase().replaceAll(" ", "-");
+
+/** The heroes a card's class, talent and printing let it be run by. */
+const getPoolHeroes = (card: PoolCard): Hero[] => {
+  const legalHeroes: Hero[] = [];
+
+  const isMacro = card.types.includes(Type.Macro);
+  const draftHeroIdentifiers = isMacro ? getDraftHeroIdentifiers(card) : [];
+  const isSpecializationCard = getIsSpecializationCard(card);
+  // A hybrid card's type line names two classes and asks for either.
+  const mustMatchAtLeastOneClass = card.typeText.includes("/");
 
   for (const hero of HEROES) {
-    const filters = heroToFilterMapping[hero];
-    if (filters) {
-      const { classes, excludedPitches, excludedSubtypes, talents } = filters;
+    const pool = heroPools[hero];
 
-      const allClassesMatch = card.classes.every((cardClass) =>
-        classes.includes(cardClass),
-      );
-      const atLeastOneClassMatches = card.classes.some((cardClass) =>
-        classes.includes(cardClass),
-      );
+    if (pool) {
+      const { classes, excludedPitches, excludedSubtypes, exemption, talents } =
+        pool;
 
-      const mustMatchAtLeastOneClass = card.typeText.includes("/");
       const matchesClasses = mustMatchAtLeastOneClass
-        ? atLeastOneClassMatches
-        : allClassesMatch;
-
+        ? card.classes.some((cardClass) => classes.includes(cardClass))
+        : card.classes.every((cardClass) => classes.includes(cardClass));
       const matchesClass =
-        !card.classes ||
-        card.classes.length === 0 ||
-        matchesClasses ||
-        isCardMacro;
+        card.classes.length === 0 || matchesClasses || isMacro;
 
       const matchesHero = !card.hero || card.hero === hero;
 
-      let matchesPitches = true;
-      if (excludedPitches && hero === Hero.Emperor && getIsDeckCard(card)) {
-        matchesPitches = !excludedPitches.includes(card.pitch);
-      }
+      const matchesPitch =
+        !excludedPitches ||
+        !getIsDeckCard(card) ||
+        !excludedPitches.includes(card.pitch);
 
-      const matchesStarvoSpecialization =
-        card.specializations?.includes(Hero.Bravo) && hero === Hero.Starvo;
-      const matchesAurora2Specialization =
-        card.specializations?.includes(Hero.Aurora) && hero === Hero.Aurora2;
-      const matchesBroscilioSpecialization =
-        card.specializations?.includes(Hero.Oscilio) && hero === Hero.Broscilio;
-      const matchesViserai2Specialization =
-        card.specializations?.includes(Hero.Viserai) && hero === Hero.Viserai2;
-      const matchesReprintSpecialization =
-        matchesStarvoSpecialization ||
-        matchesAurora2Specialization ||
-        matchesBroscilioSpecialization ||
-        matchesViserai2Specialization;
-
-      const heroIsAnArakni = ALL_ARAKNIS.includes(hero);
-      const heroIsAKayo = ALL_KAYOS.includes(hero);
-
-      const isHeroMetatypeSpecialization = card.metatypes?.some((metatype) =>
-        ALL_HEROES.includes(metatype as unknown as Hero),
-      );
-      let matchesHeroMetaTypeSpecialization = card.metatypes?.includes(
-        hero as unknown as Metatype,
-      );
-      let matchesHeroSpecialization = card.specializations?.includes(hero);
-      if (heroIsAnArakni) {
-        matchesHeroMetaTypeSpecialization = card.metatypes?.some((metatype) =>
-          ALL_ARAKNIS.includes(metatype as unknown as Hero),
-        );
-        matchesHeroSpecialization = card.specializations?.some((hero) =>
-          ALL_ARAKNIS.includes(hero),
-        );
-      }
-      if (heroIsAKayo) {
-        matchesHeroSpecialization = card.specializations?.some((hero) =>
-          ALL_KAYOS.includes(hero),
-        );
-      }
-
-      const isASpecialization =
-        (card.specializations && card.specializations.length > 0) ||
-        isHeroMetatypeSpecialization;
-
+      const identities = heroIdentities[hero] || [hero];
       const matchesSpecializations =
-        !isASpecialization ||
-        matchesReprintSpecialization ||
-        matchesHeroMetaTypeSpecialization ||
-        matchesHeroSpecialization;
+        !isSpecializationCard ||
+        (card.specializations || []).some((specialization) =>
+          identities.includes(specialization),
+        ) ||
+        (card.metatypes || []).some((metatype) =>
+          identities.includes(metatype as unknown as Hero),
+        );
 
       const matchesSubtypes =
         !excludedSubtypes ||
@@ -469,144 +348,180 @@ export const getLegalHeroes = (card: {
         !card.talents ||
         card.talents.every((cardTalent) => talents.includes(cardTalent));
 
-      const matchesMacroSet = isCardMacro
-        ? draftHeroesAllowedInMacroSet.some((heroIdentifier) =>
-            heroIdentifier.includes(hero.toLowerCase().replaceAll(" ", "-")),
-          )
-        : true;
+      const matchesDraftSet =
+        !isMacro ||
+        draftHeroIdentifiers.some((heroIdentifier) =>
+          heroIdentifier.includes(getHeroIdentifier(hero)),
+        );
 
-      let matches =
+      const matchesPool =
         matchesClass &&
         matchesHero &&
-        matchesPitches &&
+        matchesPitch &&
         matchesSpecializations &&
         matchesSubtypes &&
         matchesTalents &&
-        matchesMacroSet;
+        matchesDraftSet;
+      const isExempt = !!exemption && getIsExempt(exemption, card);
+      // A hero's own card is theirs whatever its class line reads: Taylor's
+      // reads Shapeshifter.
+      const isOwnHeroCard = card.hero === hero;
 
-      if (hero === Hero.Shiyana && !matches) {
-        const isASpecializationCard =
-          !!card.specializations && card.specializations?.length > 0;
-
-        if (isASpecializationCard) {
-          matches = true;
-        }
-      }
-
-      if (hero === Hero.Brutus && !matches) {
-        const isAClashCard =
-          !!card.keywords && card.keywords.includes(Keyword.Clash);
-        const isASpecializationCard =
-          !!card.specializations && card.specializations?.length > 0;
-
-        if (isAClashCard && !isASpecializationCard) {
-          matches = true;
-        }
-      }
-
-      if (hero === Hero.Librarian && !matches) {
-        const name = card.name.toLowerCase();
-        const isATomeCard = name.includes("tome") && !name.includes("tomeltai");
-
-        if (isATomeCard) {
-          matches = true;
-        }
-      }
-
-      if (hero === Hero.Taylor && !matches) {
-        const isEquipment = card.types.includes(Type.Equipment);
-
-        if (isEquipment) {
-          matches = true;
-        }
-      }
-
-      if (hero === Hero.Arakni && !matches) {
-        const isAgentOfChaos = card.traits?.includes(Trait.AgentOfChaos);
-
-        if (isAgentOfChaos) {
-          matches = true;
-        }
-      }
-
-      if (!matches && ALL_TOKEN_HEROES.includes(hero)) {
-        const isAToken = card.types.includes(Type.Token);
-        const isCrackedBauble = card.cardIdentifier === "cracked-bauble-yellow";
-        const isEphemeral = card.keywords?.includes(Keyword.Ephemeral);
-
-        if (isAToken || isCrackedBauble || isEphemeral) {
-          matches = true;
-        }
-      }
-
-      const isCardATokenOverride = !!TOKEN_OVERRIDES[card.cardIdentifier];
-      if (!matches && isCardATokenOverride) {
-        const matchesTokenOverride = isCardATokenOverride
-          ? TOKEN_OVERRIDES[card.cardIdentifier].includes(hero)
-          : true;
-
-        if (matchesTokenOverride) {
-          matches = true;
-        }
-      }
-
-      if (!matches && card.hero === hero) {
-        matches = true;
-      }
-
-      const matchesCardToLog = card.name === CARD_TO_LOG;
-      const matchesHeroToLog = !HERO_TO_LOG || hero === HERO_TO_LOG;
-      const shouldLog = matchesCardToLog && matchesHeroToLog;
-      if (shouldLog) {
-        console.log(
-          JSON.stringify(
-            {
-              // card,
-              filters,
-              hero,
-              hybrid: matchesClass,
-              isHeroMetatypeSpecialization,
-              matches,
-              matchesClass,
-              matchesPitches,
-              matchesSpecializations,
-              matchesHeroMetaTypeSpecialization,
-              matchesSubtypes,
-              matchesTalents,
-              macro: {
-                matchesMacroSet,
-                isCardMacro,
-                draftHeroesAllowedInMacroSet,
-              },
-              specializations: card.specializations,
-            },
-            null,
-            2,
-          ),
-        );
-      }
-
-      if (matches) {
+      if (matchesPool || isExempt || isOwnHeroCard) {
         legalHeroes.push(hero);
       }
     }
   }
 
-  if (card.name === CARD_TO_LOG) {
-    console.log(
-      JSON.stringify(
-        {
-          // card,
-          legalHeroes,
-        },
-        null,
-        2,
-      ),
-    );
-    throw new Error("err");
-  }
-
   legalHeroes.sort();
 
   return legalHeroes;
+};
+
+// How each hero-extra pair was reached, for explain(). The map the pass returns
+// answers which heroes, never which card put the extra there.
+const provisioningStepsByHero = new Map<Hero, Map<string, ProvisioningStep>>();
+
+const addProvisionedExtra = (
+  provisionedExtrasByHero: Map<Hero, Set<string>>,
+  hero: Hero,
+  createdExtraCardIdentifier: string,
+  provisioningCardIdentifier: string,
+) => {
+  let provisionedExtras = provisionedExtrasByHero.get(hero);
+  if (!provisionedExtras) {
+    provisionedExtras = new Set<string>();
+    provisionedExtrasByHero.set(hero, provisionedExtras);
+  }
+
+  const isProvisioned = provisionedExtras.has(createdExtraCardIdentifier);
+  if (!isProvisioned) {
+    provisionedExtras.add(createdExtraCardIdentifier);
+
+    let provisioningSteps = provisioningStepsByHero.get(hero);
+    if (!provisioningSteps) {
+      provisioningSteps = new Map<string, ProvisioningStep>();
+      provisioningStepsByHero.set(hero, provisioningSteps);
+    }
+    provisioningSteps.set(createdExtraCardIdentifier, {
+      createdExtraCardIdentifier,
+      provisioningCardIdentifier,
+    });
+  }
+};
+
+/**
+ * The heroes each card is legal for, in two passes over the whole card list.
+ *
+ * Pass one settles class, talent and deckbuilding exemptions, which is the
+ * whole rule for everything a deck is built from and for chosen extras. Pass
+ * two hands each created extra to the heroes whose pool puts it into play,
+ * reading the pools pass one produced. The order is what keeps the rule from
+ * being circular: a hero's pool is decided by ordinary legality and never by
+ * what it provisions, so the passes must not be merged.
+ */
+export const getLegalHeroesByCard = (
+  cards: PoolCard[],
+): Map<string, Hero[]> => {
+  const legalHeroesByCardIdentifier = new Map<string, Hero[]>();
+  const createdExtraCards: PoolCard[] = [];
+  const provisionedExtrasByHero = new Map<Hero, Set<string>>();
+
+  provisioningStepsByHero.clear();
+
+  for (const card of cards) {
+    if (getIsCreatedExtraCard(card)) {
+      createdExtraCards.push(card);
+    } else {
+      const legalHeroes = getPoolHeroes(card);
+      legalHeroesByCardIdentifier.set(card.cardIdentifier, legalHeroes);
+
+      // A chosen extra is picked at deckbuilding rather than put into play, so
+      // it provisions nothing.
+      const provisionsExtras =
+        !getIsChosenExtra(card) && (card.createdExtras || []).length > 0;
+
+      if (provisionsExtras) {
+        for (const hero of legalHeroes) {
+          for (const createdExtraCardIdentifier of card.createdExtras || []) {
+            addProvisionedExtra(
+              provisionedExtrasByHero,
+              hero,
+              createdExtraCardIdentifier,
+              card.cardIdentifier,
+            );
+          }
+        }
+      }
+    }
+  }
+
+  const createdExtrasByCardIdentifier = new Map<string, string[]>();
+  for (const card of createdExtraCards) {
+    createdExtrasByCardIdentifier.set(
+      card.cardIdentifier,
+      card.createdExtras || [],
+    );
+  }
+
+  // An extra that makes another extra brings it along, however long the chain.
+  for (const [hero, provisionedExtras] of provisionedExtrasByHero) {
+    const chain = [...provisionedExtras];
+
+    while (chain.length > 0) {
+      const provisioningCardIdentifier = chain.pop() as string;
+      const chainedCardIdentifiers =
+        createdExtrasByCardIdentifier.get(provisioningCardIdentifier) || [];
+
+      for (const chainedCardIdentifier of chainedCardIdentifiers) {
+        const isProvisioned = provisionedExtras.has(chainedCardIdentifier);
+
+        if (!isProvisioned) {
+          addProvisionedExtra(
+            provisionedExtrasByHero,
+            hero,
+            chainedCardIdentifier,
+            provisioningCardIdentifier,
+          );
+          chain.push(chainedCardIdentifier);
+        }
+      }
+    }
+  }
+
+  for (const card of createdExtraCards) {
+    const legalHeroes: Hero[] = [];
+
+    for (const [hero, provisionedExtras] of provisionedExtrasByHero) {
+      if (provisionedExtras.has(card.cardIdentifier)) {
+        legalHeroes.push(hero);
+      }
+    }
+
+    legalHeroes.sort();
+    legalHeroesByCardIdentifier.set(card.cardIdentifier, legalHeroes);
+  }
+
+  return legalHeroesByCardIdentifier;
+};
+
+/**
+ * The path by which a hero's pool provisions a created extra, from the pool
+ * card to the extra, empty when the extra is illegal for that hero. Reads the
+ * most recent `getLegalHeroesByCard` pass.
+ */
+export const explain = (
+  hero: Hero,
+  createdExtraCardIdentifier: string,
+): ProvisioningStep[] => {
+  const path: ProvisioningStep[] = [];
+  const provisioningSteps = provisioningStepsByHero.get(hero);
+
+  let step = provisioningSteps?.get(createdExtraCardIdentifier);
+  while (step) {
+    path.unshift(step);
+    step = provisioningSteps?.get(step.provisioningCardIdentifier);
+  }
+
+  return path;
 };
