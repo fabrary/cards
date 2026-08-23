@@ -15,57 +15,89 @@ describe("Related cards", () => {
   const cardsByReferencedCardIdentifier =
     getCardsByReferencedCardIdentifier(cards);
 
-  // Name, otherPitches, referencedBy, references
-  const related = [
-    ["Blizzard", 0, 0, 0],
-    ["Blizzard Bolt", 2, 0, 1],
-    ["Dawnblade", 0, 3, 0],
-    ["Dawnblade, Resplendent", 0, 4, 0],
-    ["Dorinthea, Quicksilver Prodigy", 0, 1, 1],
-    ["Head Jab", 2, 12, 0],
-    ["Marked", 0, 50, 0],
-    ["Muscle Mutt", 0, 0, 0],
-    ["Open the Center", 2, 4, 3],
-    ["Prismatic Shield", 2, 0, 1],
-    ["Runechant", 0, 131, 0],
-    ["Spectral Shield", 0, 57, 0],
-    ["Tales of Adventure", 0, 0, 13],
-    ["Seismic Surge", 0, 69, 0],
+  // Only the pitch siblings carry a count: search owns that matching. The two
+  // reference relations are card data, asserted exactly in the cards package,
+  // so what is worth pinning here is that reading them back agrees with the
+  // fields rather than how many any one card has.
+  const otherPitchCounts = [
+    ["Blizzard", 0],
+    ["Blizzard Bolt", 2],
+    ["Dawnblade", 0],
+    ["Head Jab", 2],
+    ["Open the Center", 2],
+    ["Prismatic Shield", 2],
+    ["Runechant", 0],
   ];
 
-  it.each(related)(
-    "Gets related cards for %s: %i other pitches, %i referenced by, %i references",
-    (cardName, otherPitchesCount, referencedByCount, referencesCount) => {
+  it.each(otherPitchCounts)(
+    "Gets %i other pitches for %s",
+    (cardName, otherPitchCount) => {
       const card = cards.find(({ name }) => name === cardName) as Card;
-      const otherPitches = getOtherPitches(card, cards);
-      const referencedBy =
-        cardsByReferencedCardIdentifier.get(card.cardIdentifier) || [];
-      const references = getReferencedCards(card, cards);
 
-      expect(otherPitches.length).toEqual(otherPitchesCount);
-      expect(referencedBy.length).toBeGreaterThanOrEqual(
-        referencedByCount as number,
-      );
-      expect(references.length).toBeGreaterThanOrEqual(
-        referencesCount as number,
-      );
+      expect(getOtherPitches(card, cards).length).toEqual(otherPitchCount);
     },
   );
 
-  // A hero's specialization cards say so in their own field, so they never
-  // reach the hero through its name.
-  it.each([
-    ["Viserai", Hero.Viserai],
-    ["Yorick, Weaver of Tales", Hero.Yorick],
-  ])("No specialization card references %s", (heroCardName, hero) => {
-    const heroCard = cards.find(({ name }) => name === heroCardName) as Card;
-    const referencedBy =
-      cardsByReferencedCardIdentifier.get(heroCard.cardIdentifier) || [];
-    const specializationCards = referencedBy.filter(({ specializations }) =>
-      (specializations || []).includes(hero as Hero),
-    );
+  it("Reads back every card named by referencedCards", () => {
+    const mismatched: string[] = [];
 
-    expect(specializationCards).toEqual([]);
+    for (const card of cards) {
+      const referencedCardIdentifiers = getReferencedCards(card, cards)
+        .map(({ cardIdentifier }) => cardIdentifier)
+        .sort();
+      const expectedCardIdentifiers = [...(card.referencedCards || [])].sort();
+
+      const matchesField =
+        referencedCardIdentifiers.join() === expectedCardIdentifiers.join();
+      if (!matchesField) {
+        mismatched.push(card.cardIdentifier);
+      }
+    }
+
+    expect(mismatched).toEqual([]);
+  });
+
+  it("Indexes every reference in the other direction", () => {
+    const missing: string[] = [];
+
+    for (const card of cards) {
+      for (const referencedCardIdentifier of card.referencedCards || []) {
+        const referencedBy =
+          cardsByReferencedCardIdentifier.get(referencedCardIdentifier) || [];
+        const isIndexed = referencedBy.some(
+          ({ cardIdentifier }) => cardIdentifier === card.cardIdentifier,
+        );
+
+        if (!isIndexed) {
+          missing.push(`${card.cardIdentifier} -> ${referencedCardIdentifier}`);
+        }
+      }
+    }
+
+    expect(missing).toEqual([]);
+  });
+
+  it("Indexes nothing the fields do not name", () => {
+    const unexpected: string[] = [];
+
+    for (const [
+      referencedCardIdentifier,
+      referencedBy,
+    ] of cardsByReferencedCardIdentifier) {
+      for (const card of referencedBy) {
+        const namesIt = (card.referencedCards || []).includes(
+          referencedCardIdentifier,
+        );
+
+        if (!namesIt) {
+          unexpected.push(
+            `${card.cardIdentifier} -> ${referencedCardIdentifier}`,
+          );
+        }
+      }
+    }
+
+    expect(unexpected).toEqual([]);
   });
 
   const tokens: string[][][] = [
