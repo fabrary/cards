@@ -1,208 +1,107 @@
 import { Card, Hero, Trait } from "@flesh-and-blood/types";
-import { PUNCTUATION } from "./constants.js";
-import { Keyword } from "@flesh-and-blood/types";
 
-const nameOverrides: { [key: string]: string } = {
-  "Dawnblade, Resplendent": "Dawnblade",
-};
-
-const getOverrideOrName = (card: Card) => nameOverrides[card.name] || card.name;
-
-const getFunctionalTextWithoutSelfReferences = (card: Card) =>
-  card.functionalText?.replaceAll(card.name, "");
-
-export const getRelatedCardsByName = (name: string, cards: Card[]) => {
-  let card = cards.find(
-    (card) => card.name.toLowerCase().replace(PUNCTUATION, "") === name,
-  );
-  if (!card) {
-    card = cards.find((card) =>
-      card.name.toLowerCase().replace(PUNCTUATION, "").includes(name),
-    );
-  }
-  return getRelatedCards(card, cards);
-};
-
-export const getRelatedCards = (
-  card: Card,
-  availableCards: Card[],
-  // The reference matching dominates the loop's cost (regex construction and
-  // functional-text scans per candidate); the pitch-sibling match is a few
-  // string comparisons. Consumers that only need otherPitches can skip the
-  // scan and get empty reference lists.
-  options?: { shouldSkipReferences?: boolean },
-): { otherPitches: Card[]; referencedBy: Card[]; references: Card[] } => {
-  const otherPitchMapping: { [key: string]: Card } = {};
-  const referencedByMapping: { [key: string]: Card } = {};
-  const referencesMapping: { [key: string]: Card } = {};
+/** The same card printed at another pitch value. */
+export const getOtherPitches = (
+  card: Card | undefined,
+  cards: Card[],
+): Card[] => {
+  const otherPitches: Card[] = [];
 
   if (card) {
-    // We need an initial list of matches, but then we need to filter further to find nested matches
-    // i.e. Ash would match when Aether Ashwing was the actual match
-    const initialReferencedBy: Card[] = [];
-    const initialReferences: Card[] = [];
+    for (const other of cards) {
+      const isSameName = other.name === card.name;
+      const isAnotherCard = other.cardIdentifier !== card.cardIdentifier;
+      const isAnotherPitch = other.pitch !== card.pitch;
 
-    const cardName = getOverrideOrName(card);
-
-    for (const other of availableCards) {
-      const otherName = getOverrideOrName(other);
-
-      const sameName = cardName === otherName;
-      const differentCard = card.cardIdentifier !== other.cardIdentifier;
-      const differentPitch = card.pitch !== other.pitch;
-
-      if (sameName && differentCard && differentPitch) {
-        otherPitchMapping[other.cardIdentifier] = other;
-      } else if (!sameName && !options?.shouldSkipReferences) {
-        const isCardSeismicSurge = card.name === "Seismic Surge";
-        const isOtherCardHeaved = other.keywords?.includes(Keyword.Heave);
-        const isOtherCardHeaveOverride =
-          isCardSeismicSurge && isOtherCardHeaved;
-
-        const isCardMarked = card.name === "Marked";
-        const isOtherCardMarking = other.keywords?.includes(Keyword.Mark);
-        const isOtherCardMarkOverride = isCardMarked && isOtherCardMarking;
-
-        const otherFunctionalText =
-          getFunctionalTextWithoutSelfReferences(other);
-        const cardIsInOtherFunctionalTextOrTraits =
-          otherFunctionalText?.includes(cardName) ||
-          card.traits?.some((trait) => otherFunctionalText?.includes(trait));
-        const functionalText = getFunctionalTextWithoutSelfReferences(card);
-
-        // const isHeroNameSubset =
-        //   card.types.includes(Type.Hero) &&
-        //   other.types.includes(Type.Hero) &&
-        //   (card.name.includes(other.name) || other.name.includes(card.name));
-        if (
-          cardIsInOtherFunctionalTextOrTraits ||
-          isOtherCardHeaveOverride ||
-          isOtherCardMarkOverride
-          // && !isHeroNameSubset
-          // && !other.types.includes(Type.Hero)
-          // && !other.keywords?.includes(card.name as Keyword)
-        ) {
-          initialReferencedBy.push(other);
-        }
-
-        const functionalTextRegex = new RegExp(otherName, "g");
-        const functionalTextKeywordRegex = new RegExp(
-          `\\*\\*${otherName}\\*\\*`,
-          "g",
-        );
-        const functionalTextReferences =
-          functionalText?.match(functionalTextRegex) || [];
-        const functionalTextKeywordReferences =
-          functionalText?.match(functionalTextKeywordRegex) || [];
-
-        const referenceIsKeywordOrFlow =
-          functionalTextReferences.length ===
-          functionalTextKeywordReferences.length;
-
-        const otherCardIsInFunctionalText =
-          functionalText?.includes(otherName) && !referenceIsKeywordOrFlow;
-
-        const otherCardTraits = other.traits || [];
-        const otherCardIsInTraits = otherCardTraits.some((otherCardTrait) =>
-          functionalText?.includes(otherCardTrait),
-        );
-
-        const otherCardIsInFunctionalTextOrTraits =
-          otherCardIsInFunctionalText || otherCardIsInTraits;
-
-        const isOtherCardSeismicSurge = other.name === "Seismic Surge";
-        const isCardHeaved = card.keywords?.includes(Keyword.Heave);
-        const isCardHeaveOverride = isOtherCardSeismicSurge && isCardHeaved;
-
-        const isOtherCardMarked = other.name === "Marked";
-        const isCardMarking = card.keywords?.includes(Keyword.Mark);
-        const isCardMarkOverride = isOtherCardMarked && isCardMarking;
-
-        if (
-          otherCardIsInFunctionalTextOrTraits ||
-          isCardHeaveOverride ||
-          isCardMarkOverride
-        ) {
-          initialReferences.push(other);
-        }
-      }
-    }
-
-    for (const initialReference of initialReferencedBy) {
-      referencedByMapping[initialReference.cardIdentifier] = initialReference;
-    }
-
-    for (const initialReference of initialReferences) {
-      const initialName = initialReference.name; //getOverrideOrName(initialReference);
-      if (
-        cardName !== initialName &&
-        !initialReferences.some((card) => {
-          const name = card.name; //getOverrideOrName(card);
-
-          return name !== initialName && name?.includes(initialName);
-        })
-      ) {
-        referencesMapping[initialReference.cardIdentifier] = initialReference;
+      if (isSameName && isAnotherCard && isAnotherPitch) {
+        otherPitches.push(other);
       }
     }
   }
 
-  const otherPitches: Card[] = Object.values(otherPitchMapping);
-  const referencedBy: Card[] = Object.values(referencedByMapping);
-  const references: Card[] = Object.values(referencesMapping);
-
-  return { otherPitches, referencedBy, references };
+  return otherPitches;
 };
 
-const CARD_IDENTIFIERS_TO_SKIP: string[] = ["cash-in-yellow"];
+/** The cards a card names, in the order the corpus holds them. */
+export const getReferencedCards = (
+  card: Card | undefined,
+  cards: Card[],
+): Card[] => {
+  const referencedCardIdentifiers = new Set<string>(card?.referencedCards);
+  const referencedCards: Card[] = [];
 
-const heroReferences: {
-  [key: string]: { cards?: string[]; tokens?: string[]; traits?: Trait[] };
-} = {
-  [Hero.Crackni]: { traits: [Trait.AgentOfChaos] },
-  [Hero.Maxx]: { tokens: ["hyper-driver"] },
+  for (const other of cards) {
+    if (referencedCardIdentifiers.has(other.cardIdentifier)) {
+      referencedCards.push(other);
+    }
+  }
+
+  return referencedCards;
 };
 
+/**
+ * The cards naming each card, keyed by the named card's identifier. One pass
+ * answers the reverse relation for every card in the corpus, so a page or a
+ * filter asking about several of them builds this once.
+ */
+export const getCardsByReferencedCardIdentifier = (
+  cards: Card[],
+): Map<string, Card[]> => {
+  const cardsByReferencedCardIdentifier = new Map<string, Card[]>();
+
+  for (const card of cards) {
+    for (const referencedCardIdentifier of card.referencedCards || []) {
+      const referencingCards = cardsByReferencedCardIdentifier.get(
+        referencedCardIdentifier,
+      );
+
+      if (referencingCards) {
+        referencingCards.push(card);
+      } else {
+        cardsByReferencedCardIdentifier.set(referencedCardIdentifier, [card]);
+      }
+    }
+  }
+
+  return cardsByReferencedCardIdentifier;
+};
+
+// A demi-hero is chosen at deckbuilding rather than put into play, so no card
+// creates one and the hero is the only thing that answers for it.
+const CHOSEN_EXTRA_TRAITS_BY_HERO: { [key: string]: Trait[] } = {
+  [Hero.Crackni]: [Trait.AgentOfChaos],
+};
+
+/**
+ * The extras a set of cards brings, out of the ones available to them. A card
+ * carries what it creates, so the hero's own card has to be among the cards for
+ * what the hero creates to count.
+ */
 export const getTokensReferencedByCards = (
   cards: Card[],
   availableTokens: Card[],
   hero?: Hero,
 ): Card[] => {
-  const referencedTokens: Set<Card> = new Set<Card>();
-
-  for (const card of cards.filter(
-    ({ cardIdentifier }) => !CARD_IDENTIFIERS_TO_SKIP.includes(cardIdentifier),
-  )) {
-    const { references } = getRelatedCards(card, availableTokens);
-    for (const token of references.filter((token) => {
-      const isHyperDriver = token.name === "Hyper Driver";
-      const isMaxx = hero === Hero.Maxx;
-
-      return !isHyperDriver || isMaxx;
-    })) {
-      referencedTokens.add(token);
+  const createdExtraIdentifiers = new Set<string>();
+  for (const card of cards) {
+    for (const createdExtraIdentifier of card.createdExtras || []) {
+      createdExtraIdentifiers.add(createdExtraIdentifier);
     }
   }
 
-  if (hero) {
-    const heroCards = heroReferences[hero];
-    if (heroCards) {
-      if (heroCards.cards) {
-        for (const card of cards) {
-          if (heroCards.cards?.includes(card.cardIdentifier)) {
-            referencedTokens.add(card);
-          }
-        }
-      }
-      if (heroCards.tokens) {
-        for (const token of availableTokens) {
-          if (heroCards.tokens?.includes(token.cardIdentifier)) {
-            referencedTokens.add(token);
-          }
-        }
-      }
+  const chosenExtraTraits = (hero && CHOSEN_EXTRA_TRAITS_BY_HERO[hero]) || [];
+
+  const referencedTokens: Card[] = [];
+  for (const token of availableTokens) {
+    const isCreated = createdExtraIdentifiers.has(token.cardIdentifier);
+    const isChosenByHero = (token.traits || []).some((trait) =>
+      chosenExtraTraits.includes(trait),
+    );
+
+    if (isCreated || isChosenByHero) {
+      referencedTokens.push(token);
     }
   }
 
-  return Array.from(referencedTokens);
+  return referencedTokens;
 };

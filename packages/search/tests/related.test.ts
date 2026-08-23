@@ -1,46 +1,46 @@
 import { describe, expect, it } from "@jest/globals";
 import { Card, getCanBeExtra, Hero, Trait } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
-import { getRelatedCards, getTokensReferencedByCards } from "../src/related";
+import {
+  getCardsByReferencedCardIdentifier,
+  getOtherPitches,
+  getReferencedCards,
+  getTokensReferencedByCards,
+} from "../src/related";
 import Search from "../src/search";
 
 const ALL_TOKENS = cards.filter(getCanBeExtra);
 
 describe("Related cards", () => {
+  const cardsByReferencedCardIdentifier =
+    getCardsByReferencedCardIdentifier(cards);
+
   // Name, otherPitches, referencedBy, references
   const related = [
     ["Blizzard", 0, 0, 0],
     ["Blizzard Bolt", 2, 0, 1],
     ["Dawnblade", 0, 3, 0],
-    ["Dawnblade, Resplendent", 0, 3, 0],
-    ["Dorinthea, Quicksilver Prodigy", 0, 0, 1],
+    ["Dawnblade, Resplendent", 0, 4, 0],
+    ["Dorinthea, Quicksilver Prodigy", 0, 1, 1],
     ["Head Jab", 2, 12, 0],
-    ["Marked", 0, 18, 0],
+    ["Marked", 0, 50, 0],
     ["Muscle Mutt", 0, 0, 0],
     ["Open the Center", 2, 4, 3],
     ["Prismatic Shield", 2, 0, 1],
-    ["Runechant", 0, 97, 0],
-    ["Spectral Shield", 0, 53, 0],
+    ["Runechant", 0, 131, 0],
+    ["Spectral Shield", 0, 57, 0],
     ["Tales of Adventure", 0, 0, 13],
-    ["Seismic Surge", 0, 19, 0],
+    ["Seismic Surge", 0, 69, 0],
   ];
 
   it.each(related)(
     "Gets related cards for %s: %i other pitches, %i referenced by, %i references",
     (cardName, otherPitchesCount, referencedByCount, referencesCount) => {
       const card = cards.find(({ name }) => name === cardName) as Card;
-      const { otherPitches, referencedBy, references } = getRelatedCards(
-        card,
-        cards,
-      );
-
-      if ((referencedByCount as number) < referencedBy.length) {
-        // console.log(referencedBy.map(toCardIdentifier));
-      }
-
-      if ((referencesCount as number) < references.length) {
-        // console.log(references.map(toCardIdentifier));
-      }
+      const otherPitches = getOtherPitches(card, cards);
+      const referencedBy =
+        cardsByReferencedCardIdentifier.get(card.cardIdentifier) || [];
+      const references = getReferencedCards(card, cards);
 
       expect(otherPitches.length).toEqual(otherPitchesCount);
       expect(referencedBy.length).toBeGreaterThanOrEqual(
@@ -52,21 +52,21 @@ describe("Related cards", () => {
     },
   );
 
-  it.each(related)(
-    "Gets other pitches without the reference scan for %s",
-    (cardName, otherPitchesCount) => {
-      const card = cards.find(({ name }) => name === cardName) as Card;
-      const { otherPitches, referencedBy, references } = getRelatedCards(
-        card,
-        cards,
-        { shouldSkipReferences: true },
-      );
+  // A hero's specialization cards say so in their own field, so they never
+  // reach the hero through its name.
+  it.each([
+    ["Viserai", Hero.Viserai],
+    ["Yorick, Weaver of Tales", Hero.Yorick],
+  ])("No specialization card references %s", (heroCardName, hero) => {
+    const heroCard = cards.find(({ name }) => name === heroCardName) as Card;
+    const referencedBy =
+      cardsByReferencedCardIdentifier.get(heroCard.cardIdentifier) || [];
+    const specializationCards = referencedBy.filter(({ specializations }) =>
+      (specializations || []).includes(hero as Hero),
+    );
 
-      expect(otherPitches.length).toEqual(otherPitchesCount);
-      expect(referencedBy).toEqual([]);
-      expect(references).toEqual([]);
-    },
-  );
+    expect(specializationCards).toEqual([]);
+  });
 
   const tokens: string[][][] = [
     [["Swing Big", "Civic Steps"], ["Quicken"]],
@@ -102,7 +102,7 @@ describe("Related cards", () => {
     [["Shitty Xmas Present"], ["Cracked Bauble"]],
     [["Pulverize"], ["Seismic Surge"]],
     [["Star Struck"], ["Seismic Surge"]],
-    // [["Golden Skywarden"], ["Golden Cog", "Gold"]],
+    [["Golden Skywarden"], ["Gold"]],
     [["Cosmic Duality"], ["Lightning Flow"]],
     [["Static Shock"], []],
     [["Shimmer of the Blade"], ["Blade Dance"]],
@@ -226,6 +226,7 @@ describe("Related cards", () => {
     const referencedTokens = getTokensReferencedByCards(
       searchResults,
       ALL_TOKENS,
+      Hero.Crackni,
     );
 
     const referencedTokenNames = referencedTokens.map(({ name }) => name);
@@ -249,10 +250,20 @@ describe("Related cards", () => {
     );
     const { searchResults: legalCards } =
       cardSearch.search(`l:crackni c:assassin`);
+    const legalCardsByReferencedCardIdentifier =
+      getCardsByReferencedCardIdentifier(legalCards);
 
+    // Naming the group names every card in it.
     for (const agent of agentsOfChaos) {
-      const { referencedBy } = getRelatedCards(agent, legalCards);
-      expect(referencedBy.length).toEqual(referencesAgentOfChaos.length);
+      const referencedBy =
+        legalCardsByReferencedCardIdentifier.get(agent.cardIdentifier) || [];
+      const referencedByIdentifiers = referencedBy.map(
+        ({ cardIdentifier }) => cardIdentifier,
+      );
+
+      for (const { cardIdentifier } of referencesAgentOfChaos) {
+        expect(referencedByIdentifiers).toContain(cardIdentifier);
+      }
     }
   });
 });

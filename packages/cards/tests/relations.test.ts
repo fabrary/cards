@@ -143,6 +143,10 @@ describe("Referenced cards", () => {
     ["dustup-red", "ash"],
     ["haboob-red", "ash"],
     ["invoke-azvolai-red", "ash"],
+    // Only the hero a specialization card is written for drops out of its
+    // references.
+    ["arknight-shard-blue", "runechant"],
+    ["tales-of-adventure-blue", "aether-ashwing"],
   ])("%s references %s", (cardIdentifier, referencedCardIdentifier) => {
     expect(getCard(cardIdentifier).referencedCards).toContain(
       referencedCardIdentifier,
@@ -178,6 +182,16 @@ describe("Referenced cards", () => {
     // The comma in "10,000 Year Reunion" separates thousands, not a title, so
     // there is no family called "10".
     ["burdens-of-the-past-blue", "10000-year-reunion-red"],
+    // A specialization card names its hero in its own field, reaching every
+    // card of that hero rather than the ones titled with the bare name.
+    ["arknight-shard-blue", "viserai"],
+    ["arknight-shard-blue", "viserai-rune-blood"],
+    // The reprint answers to the name its first printing's cards carry.
+    ["arknight-shard-blue", "viserai-between-worlds"],
+    ["crippling-crush-red", "bravo-star-of-the-show"],
+    ["knucklehead", "kayo-strong-arm"],
+    ["mask-of-deceit", "arakni-marionette"],
+    ["tales-of-adventure-blue", "yorick-weaver-of-tales"],
   ])("%s does not reference %s", (cardIdentifier, referencedCardIdentifier) => {
     expect(getCard(cardIdentifier).referencedCards || []).not.toContain(
       referencedCardIdentifier,

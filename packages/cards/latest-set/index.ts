@@ -220,7 +220,7 @@ When this is pitched, create a Runechant token.`,
   
     
     pitch: 3,
-    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    referencedCards: ["runechant"],
     
     
     
@@ -5113,7 +5113,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
   
     
     pitch: 3,
-    power: 13,referencedCards: ["viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    power: 13,
     
     shorthands: [Shorthand.Poppers],
     

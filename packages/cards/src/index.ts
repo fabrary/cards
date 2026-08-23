@@ -7233,7 +7233,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
   
     
     pitch: 2,
-    power: 2,referencedCards: ["eloquence","shiyana-diamond-gemini"],
+    power: 2,referencedCards: ["eloquence"],
     
     
     
@@ -7412,7 +7412,7 @@ When this is discarded to beat chest, create a Might token.`,
   
     
     pitch: 3,
-    power: 6,referencedCards: ["might","rhinar","rhinar-reckless-rampage"],
+    power: 6,referencedCards: ["might"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -7555,7 +7555,7 @@ When this attacks, **intimidate**.`,
   
     
     pitch: 1,
-    power: 9,referencedCards: ["rhinar","rhinar-reckless-rampage"],
+    power: 9,
     
     shorthands: [Shorthand.Poppers],
     
@@ -11710,7 +11710,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
   
     
     pitch: 3,
-    referencedCards: ["briar","briar-warden-of-thorns","embodiment-of-earth"],
+    referencedCards: ["embodiment-of-earth"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -14198,7 +14198,7 @@ If an opponent declares an attack, they must choose this as the target of that a
   
     
     pitch: 2,
-    referencedCards: ["prism","prism-advent-of-thrones","prism-awakener-of-sol","prism-sculptor-of-arc-light"],
+    
     
     
     
@@ -14313,7 +14313,7 @@ The next action card you play this turn gets **go again**.
   
     
     pitch: 2,
-    referencedCards: ["aurora","aurora-emissary-of-lightning","aurora-legacy-of-tempest","aurora-shooting-star"],
+    
     
     
     
@@ -17866,7 +17866,7 @@ When this hits, create X Runechant tokens, where X is the damage dealt this way.
   
     
     pitch: 1,
-    power: 5,referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    power: 5,referencedCards: ["runechant"],
     
     
     
@@ -17959,7 +17959,7 @@ When this is pitched, create a Runechant token.`,
   
     
     pitch: 3,
-    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    referencedCards: ["runechant"],
     
     
     
@@ -35191,7 +35191,7 @@ You may discard an action card. If you discard an attack action card this way, s
   
     
     pitch: 3,
-    referencedCards: ["viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    
     
     
     
@@ -36782,7 +36782,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
   
     
     pitch: 1,
-    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    referencedCards: ["runechant"],
     
     
     
@@ -37187,7 +37187,7 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
   
     
     pitch: 1,
-    power: 8,referencedCards: ["betsy","betsy-skin-in-the-game","gold","might","vigor"],
+    power: 8,referencedCards: ["gold","might","vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -43573,7 +43573,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
   
     oppositeSideCardIdentifier: `levia-redeemed`,oppositeSideCardIdentifiers: ["levia-redeemed"],
     
-    referencedCards: ["levia","levia-redeemed","levia-shadowborn-abomination"],
+    referencedCards: ["levia-redeemed"],
     
     
     
@@ -44623,7 +44623,7 @@ Deal X arcane damage to target hero, where X is the total arcane damage you've d
   
     
     pitch: 1,
-    referencedCards: ["kano","kano-dracai-of-aether"],
+    
     
     
     
@@ -50341,7 +50341,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
   
     
     pitch: 2,
-    referencedCards: ["cintari-sellsword","kassai","kassai-cintari-sellsword"],
+    referencedCards: ["cintari-sellsword"],
     
     
     
@@ -50746,7 +50746,7 @@ As an additional cost to play this, destroy any number of Copper you control. Fo
   
     
     pitch: 2,
-    referencedCards: ["copper","kassai","kassai-cintari-sellsword"],
+    referencedCards: ["copper"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -69083,7 +69083,7 @@ When this defends an attack with {p} greater than its base, the attack can't gai
   
     
     pitch: 3,
-    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
+    
     
     
     
@@ -69843,7 +69843,7 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
   
     
     pitch: 2,
-    referencedCards: ["embodiment-of-lightning","lexi","lexi-livewire"],
+    referencedCards: ["embodiment-of-lightning"],
     
     
     
@@ -78476,7 +78476,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
   
     
     pitch: 2,
-    referencedCards: ["courage","dawnblade","dawnblade-resplendent","dorinthea","dorinthea-quicksilver-prodigy"],
+    referencedCards: ["courage","dawnblade","dawnblade-resplendent"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -86037,7 +86037,7 @@ If you complete a **contract** this way, your Assassin attacks get **go again** 
   
     
     pitch: 3,
-    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
+    referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     
@@ -88080,7 +88080,7 @@ When this defends an attack with **go again**, the attacking hero discards their
   
     
     pitch: 3,
-    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
+    
     
     
     
@@ -101523,7 +101523,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
   
     
     pitch: 1,
-    power: 11,referencedCards: ["bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show"],
+    power: 11,
     restrictedFormats: [Format.LivingLegend],
     shorthands: [Shorthand.Poppers],
     
@@ -102487,7 +102487,7 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
   
     
     
-    referencedCards: ["azalea","azalea-ace-in-the-hole"],
+    
     
     
     
@@ -117803,7 +117803,7 @@ At the beginning of your end phase, if you have 4 or more cards in hand, create 
   
     
     
-    referencedCards: ["diamond","ruudi-gem-keeper"],
+    referencedCards: ["diamond"],
     
     
     
@@ -122357,7 +122357,7 @@ Create a Blasmophet, the Soul Harvester token.`,
   
     
     pitch: 3,
-    referencedCards: ["blasmophet-the-soul-harvester","levia","levia-redeemed","levia-shadowborn-abomination"],
+    referencedCards: ["blasmophet-the-soul-harvester","levia-redeemed"],
     
     
     
@@ -127198,7 +127198,7 @@ Arrows you control get "Defense reactions can't be played from hand this chain l
   
     
     
-    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
+    
     
     
     
@@ -127552,7 +127552,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
   
     
     pitch: 1,
-    power: 8,referencedCards: ["betsy","betsy-skin-in-the-game"],
+    power: 8,
     
     shorthands: [Shorthand.Poppers],
     
@@ -134246,7 +134246,7 @@ Create an Ursur, the Soul Reaper token.`,
   
     
     pitch: 3,
-    referencedCards: ["chane","chane-bound-by-shadow","ursur-the-soul-reaper"],
+    referencedCards: ["ursur-the-soul-reaper"],
     
     
     
@@ -138649,7 +138649,7 @@ Name a living legend hero. You become that hero until the start of your next tur
   
     
     pitch: 2,
-    referencedCards: ["shiyana-diamond-gemini"],
+    
     
     
     
@@ -143125,7 +143125,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
   
     
     pitch: 1,
-    power: 8,referencedCards: ["frostbite","oldhim","oldhim-grandfather-of-eternity"],
+    power: 8,referencedCards: ["frostbite"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -165044,7 +165044,7 @@ When this hits, create a Runechant token.`,
   
     
     
-    power: 1,referencedCards: ["runechant","vynnset","vynnset-iron-maiden"],
+    power: 1,referencedCards: ["runechant"],
     
     
     
@@ -174074,7 +174074,7 @@ If this was **fused**, your next attack this turn gets +1{p}.
   
     
     pitch: 3,
-    referencedCards: ["briar","briar-warden-of-thorns"],
+    
     
     shorthands: [Shorthand.Buffs],
     
@@ -177787,7 +177787,7 @@ Frostbites you control get "At the beginning of your end phase, this deals 1 arc
   
     
     pitch: 3,
-    referencedCards: ["frostbite","iyslander","iyslander-stormbind"],
+    referencedCards: ["frostbite"],
     
     
     
@@ -183684,7 +183684,7 @@ Gain X+1{h}.`,
   
     
     pitch: 3,
-    referencedCards: ["embodiment-of-earth","florian","florian-rotwood-harbinger","runechant"],
+    referencedCards: ["embodiment-of-earth","runechant"],
     
     
     
@@ -187055,7 +187055,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 2,
-    referencedCards: ["dawnblade","dawnblade-resplendent","dorinthea","dorinthea-quicksilver-prodigy"],
+    referencedCards: ["dawnblade","dawnblade-resplendent"],
     
     
     
@@ -189460,7 +189460,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia","olympia-prized-fighter"],
+    referencedCards: ["gold"],
     
     
     
@@ -189543,7 +189543,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia","olympia-prized-fighter"],
+    referencedCards: ["gold"],
     
     
     
@@ -189626,7 +189626,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia","olympia-prized-fighter"],
+    referencedCards: ["gold"],
     
     
     
@@ -189931,7 +189931,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia","olympia-prized-fighter"],
+    referencedCards: ["gold"],
     
     
     
@@ -191495,7 +191495,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
   
     
     
-    referencedCards: ["betsy","betsy-skin-in-the-game","gold","might","vigor"],
+    referencedCards: ["gold","might","vigor"],
     
     
     
@@ -202950,7 +202950,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
   
     
     pitch: 3,
-    referencedCards: ["verdance","verdance-thorn-of-the-rose"],
+    
     
     
     
@@ -207488,7 +207488,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
   
     
     pitch: 2,
-    power: 6,referencedCards: ["prism","prism-advent-of-thrones","prism-awakener-of-sol","prism-sculptor-of-arc-light"],
+    power: 6,
     
     
     
@@ -215669,7 +215669,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
   
     
     
-    referencedCards: ["kassai","kassai-cintari-sellsword"],
+    
     
     
     
@@ -222094,7 +222094,7 @@ Create X Frostbite tokens under target hero's control. Then if this was fused, d
   
     
     pitch: 3,
-    referencedCards: ["frostbite","iyslander","iyslander-stormbind"],
+    referencedCards: ["frostbite"],
     
     
     
@@ -230855,7 +230855,7 @@ When this hits a hero, they create a Courage and Quicken token.`,
   
     
     pitch: 3,
-    power: 4,referencedCards: ["courage","quicken","riptide","riptide-lurker-of-the-deep"],
+    power: 4,referencedCards: ["courage","quicken"],
     
     
     
@@ -238090,7 +238090,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 1,
-    power: 5,referencedCards: ["azalea","azalea-ace-in-the-hole"],
+    power: 5,
     
     
     
@@ -242328,7 +242328,7 @@ const cards4: Card[] = [{
   
     
     
-    referencedCards: ["kayo","kayo-armed-and-dangerous","kayo-berserker-runt","kayo-strong-arm","kayo-underhanded-cheat"],
+    
     
     
     
@@ -248023,7 +248023,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
   
     
     pitch: 2,
-    referencedCards: ["kano","kano-dracai-of-aether"],
+    
     
     
     
@@ -249948,7 +249948,7 @@ Whenever this deals damage to a hero equal to or greater than the number of equi
   
     
     pitch: 2,
-    power: 4,referencedCards: ["lexi","lexi-livewire"],
+    power: 4,
     
     
     
@@ -255653,7 +255653,7 @@ When the additional cost is paid, shuffle X target cards named Surging Strike, W
   
     
     pitch: 3,
-    power: 2,referencedCards: ["katsu","katsu-the-wanderer","mugenshi-release-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
+    power: 2,referencedCards: ["mugenshi-release-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -256368,7 +256368,7 @@ If you've **charged** this turn, you may attack with each weapon you control an 
   
     
     pitch: 2,
-    referencedCards: ["boltyn"],
+    
     
     
     
@@ -262789,7 +262789,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
   
     
     
-    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
+    referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     
@@ -272812,7 +272812,7 @@ Draw a card.
   
     
     
-    referencedCards: ["rhinar","rhinar-reckless-rampage"],
+    
     
     
     
@@ -274293,7 +274293,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
   
     
     pitch: 2,
-    power: 4,referencedCards: ["katsu","katsu-the-wanderer","lord-of-wind-blue","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
+    power: 4,referencedCards: ["lord-of-wind-blue","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
     
     
     
@@ -275153,7 +275153,7 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
   
     
     pitch: 1,
-    power: 6,referencedCards: ["riptide","riptide-lurker-of-the-deep"],
+    power: 6,
     
     shorthands: [Shorthand.Poppers],
     
@@ -279845,7 +279845,7 @@ Search your deck for an arrow card, reveal it, then shuffle and put it on top of
   
     
     pitch: 3,
-    referencedCards: ["azalea","azalea-ace-in-the-hole"],
+    
     
     
     
@@ -280007,7 +280007,7 @@ For each hero, **freeze** up to 1 equipment, item, and ally they control until t
   
     
     pitch: 3,
-    referencedCards: ["oldhim","oldhim-grandfather-of-eternity","spellbane-aegis"],
+    referencedCards: ["spellbane-aegis"],
     
     
     
@@ -280103,7 +280103,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
   
     
     pitch: 2,
-    referencedCards: ["gold","scurv-stowaway"],
+    referencedCards: ["gold"],
     
     
     
@@ -283589,7 +283589,7 @@ Create a Nasreth, the Soul Harrower token.`,
   
     
     pitch: 3,
-    referencedCards: ["nasreth-the-soul-harrower","runechant","vynnset","vynnset-iron-maiden"],
+    referencedCards: ["nasreth-the-soul-harrower","runechant"],
     
     
     
@@ -284083,7 +284083,7 @@ Each hero destroys an equipment they control.
   
     
     pitch: 3,
-    referencedCards: ["frankie-make-ends-meat"],
+    
     
     
     
@@ -303231,7 +303231,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     
-    power: 6,referencedCards: ["betsy","betsy-skin-in-the-game","gold"],
+    power: 6,referencedCards: ["gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -303851,7 +303851,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     
-    referencedCards: ["ruudi-gem-keeper"],
+    
     
     
     
@@ -316462,7 +316462,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     
-    referencedCards: ["gold","olympia","olympia-prized-fighter"],
+    referencedCards: ["gold"],
     
     
     
@@ -323337,7 +323337,7 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
   
     
     pitch: 1,
-    power: 10,referencedCards: ["valda-seismic-impact"],
+    power: 10,
     
     shorthands: [Shorthand.Poppers],
     
@@ -328007,7 +328007,7 @@ Create X Cintari Sellsword tokens.
   
     
     pitch: 2,
-    referencedCards: ["cintari-sellsword","gold","kassai","kassai-cintari-sellsword"],
+    referencedCards: ["cintari-sellsword","gold"],
     
     
     
@@ -334699,7 +334699,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
   
     
     pitch: 3,
-    referencedCards: ["kayo","kayo-armed-and-dangerous","kayo-berserker-runt","kayo-strong-arm","kayo-underhanded-cheat"],
+    
     
     
     
@@ -335757,7 +335757,7 @@ If you've rolled a 6 on a die this turn, draw a card.`,
   
     
     pitch: 3,
-    referencedCards: ["kayo","kayo-armed-and-dangerous","kayo-berserker-runt","kayo-strong-arm","kayo-underhanded-cheat"],
+    
     
     
     
@@ -336788,7 +336788,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
   
     
     pitch: 1,
-    power: 4,referencedCards: ["dromai","dromai-ash-artist","fai","fai-rising-rebellion"],
+    power: 4,
     
     
     
@@ -336929,7 +336929,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
   
     
     pitch: 1,
-    power: 5,referencedCards: ["azalea","azalea-ace-in-the-hole"],
+    power: 5,
     
     
     
@@ -338570,7 +338570,7 @@ This can't be defended by cards with the same name as cards in the defending her
   
     
     pitch: 3,
-    power: 3,referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
+    power: 3,referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
     
     
     
@@ -342536,7 +342536,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 3,
-    power: 2,referencedCards: ["katsu","katsu-the-wanderer"],
+    power: 2,
     
     
     
@@ -347507,7 +347507,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
   
     
     pitch: 2,
-    referencedCards: ["verdance","verdance-thorn-of-the-rose"],
+    
     
     
     
@@ -349206,7 +349206,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 1,
-    power: 3,referencedCards: ["dromai","dromai-ash-artist","fai","fai-rising-rebellion","phoenix-flame-red"],
+    power: 3,referencedCards: ["phoenix-flame-red"],
     
     
     
@@ -363968,7 +363968,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
   
     
     pitch: 3,
-    referencedCards: ["rhinar","rhinar-reckless-rampage"],
+    
     
     
     
@@ -380097,7 +380097,7 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
   
     
     pitch: 1,
-    power: 6,referencedCards: ["uzuri","uzuri-switchblade"],
+    power: 6,
     
     shorthands: [Shorthand.Poppers],
     
@@ -385614,7 +385614,7 @@ If the defending hero has no cards in hand, this gets +3{p}.`,
   
     
     pitch: 1,
-    power: 6,referencedCards: ["rhinar","rhinar-reckless-rampage"],
+    power: 6,
     
     shorthands: [Shorthand.Poppers],
     
@@ -385821,7 +385821,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     pitch: 3,
-    referencedCards: ["bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show"],
+    
     
     
     
@@ -388067,7 +388067,7 @@ When this leaves the arena, draw a card.`,
   
     
     pitch: 2,
-    referencedCards: ["oscilio","oscilio-constella-intelligence","oscilio-forked-continuum","oscilio-scion-of-the-third-age"],
+    
     
     
     
@@ -394345,7 +394345,7 @@ Target weapon attack gets +1{p}.
   
     
     pitch: 2,
-    referencedCards: ["dorinthea","dorinthea-quicksilver-prodigy"],
+    
     
     shorthands: [Shorthand.Buffs],
     
@@ -406331,7 +406331,7 @@ If X is 6 or greater, target hero discards 3 random cards.`,
   
     
     pitch: 3,
-    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    referencedCards: ["runechant"],
     
     
     
@@ -408136,7 +408136,7 @@ When this hits a hero, banish all cards in their soul. They lose {h} equal to th
   
     
     pitch: 3,
-    power: 6,referencedCards: ["levia","levia-redeemed","levia-shadowborn-abomination"],
+    power: 6,referencedCards: ["levia-redeemed"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -408341,7 +408341,7 @@ If this is attacking a hero with 1 or more cards in their soul, it gets **go aga
   
     
     pitch: 1,
-    power: 6,referencedCards: ["chane","chane-bound-by-shadow"],
+    power: 6,
     
     shorthands: [Shorthand.Poppers],
     
@@ -410034,7 +410034,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 2,
-    referencedCards: ["dash","dash-database","dash-inventor-extraordinaire"],
+    
     
     
     
@@ -414615,7 +414615,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 3,
-    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
+    
     
     
     
@@ -417620,7 +417620,7 @@ When this hits, draw a card for each other attack action card with 2 or less bas
   
     
     pitch: 2,
-    power: 2,referencedCards: ["benji-the-piercing-wind"],
+    power: 2,
     
     
     
@@ -420766,7 +420766,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     pitch: 2,
-    power: 10,referencedCards: ["bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show","seismic-surge"],
+    power: 10,referencedCards: ["seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -423898,7 +423898,7 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
   
     
     pitch: 1,
-    referencedCards: ["dorinthea","dorinthea-quicksilver-prodigy"],
+    
     
     shorthands: [Shorthand.Buffs],
     
@@ -437527,7 +437527,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
   
     
     
-    power: 2,referencedCards: ["dash","dash-database","dash-inventor-extraordinaire"],
+    power: 2,
     
     
     
@@ -440412,7 +440412,7 @@ Create a Bait token under an opponent's control.
   
     
     pitch: 1,
-    referencedCards: ["bait","riptide","riptide-lurker-of-the-deep"],
+    referencedCards: ["bait"],
     
     
     
@@ -441050,7 +441050,7 @@ You create a Copper, Silver, and Gold.`,
   
     
     pitch: 3,
-    referencedCards: ["aether-ashwing","copper","embodiment-of-earth","embodiment-of-lightning","gold","ponder","quicken","runechant","seismic-surge","silver","soul-shackle","spectral-shield","yorick-weaver-of-tales","zen-state"],
+    referencedCards: ["aether-ashwing","copper","embodiment-of-earth","embodiment-of-lightning","gold","ponder","quicken","runechant","seismic-surge","silver","soul-shackle","spectral-shield","zen-state"],
     
     
     
@@ -444528,7 +444528,7 @@ At the beginning of your action phase, remove a steam counter from this and gain
   
     
     pitch: 3,
-    referencedCards: ["dash","dash-database","dash-inventor-extraordinaire"],
+    
     
     
     
@@ -471556,7 +471556,7 @@ Choose X+1;
   
     
     pitch: 3,
-    referencedCards: ["agility","gold","olympia","olympia-prized-fighter","vigor"],
+    referencedCards: ["agility","gold","vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -472303,7 +472303,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
   
     
     pitch: 3,
-    power: 13,referencedCards: ["viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
+    power: 13,
     
     shorthands: [Shorthand.Poppers],
     
@@ -472964,7 +472964,7 @@ Your attacks this combat chain get +1{p} for each Light card charged this way.`,
   
     
     pitch: 2,
-    power: 3,referencedCards: ["boltyn"],
+    power: 3,
     
     
     
@@ -481617,7 +481617,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
   
     
     pitch: 3,
-    referencedCards: ["katsu","katsu-the-wanderer","surging-strike-blue","surging-strike-red","surging-strike-yellow"],
+    referencedCards: ["surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -481700,7 +481700,7 @@ Equip X weapons and/or equipment from your inventory.`,
   
     
     pitch: 3,
-    referencedCards: ["gold","olympia","olympia-prized-fighter"],
+    referencedCards: ["gold"],
     
     
     
@@ -482011,7 +482011,7 @@ Create a Vigor and a Courage token. **Go again**`,
   
     
     pitch: 3,
-    referencedCards: ["courage","gold","olympia","olympia-prized-fighter","prized-galea","vigor"],
+    referencedCards: ["courage","gold","prized-galea","vigor"],
     
     
     
@@ -486911,7 +486911,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   
     
     pitch: 2,
-    power: 2,referencedCards: ["benji-the-piercing-wind"],
+    power: 2,
     
     
     
@@ -493385,7 +493385,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
   
     
     pitch: 2,
-    power: 2,referencedCards: ["ira-crimson-haze","ira-scarlet-revenger"],
+    power: 2,
     
     
     
@@ -502782,7 +502782,7 @@ If this has been sharpened this turn, its first attack this turn gets **go again
   
     
     
-    power: 3,referencedCards: ["hala","hala-bladesaint-of-the-vow"],
+    power: 3,
     
     
     

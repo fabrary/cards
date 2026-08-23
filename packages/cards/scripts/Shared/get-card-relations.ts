@@ -295,6 +295,12 @@ export const getCardRelations = (
       }
     }
 
+    // A card written for one hero names that hero, and its `specializations`
+    // field says which one. Reading the name out of the text as well would
+    // reach whichever of the hero's cards happens to be titled with the bare
+    // name and none of the others.
+    const specializedHeroNames = new Set<string>(card.specializations || []);
+
     const referencedCardIdentifiers = new Set<string>();
     const addReference = (referenced: PreliminaryCard) => {
       const isTokenWithPitchedSiblings = cardsWithPitchedSiblings.has(
@@ -303,8 +309,17 @@ export const getCardRelations = (
       const isNamed =
         !isTokenWithPitchedSiblings ||
         createdExtraIdentifiers.has(referenced.cardIdentifier);
+      const isSpecializedHero =
+        referenced.types.includes(Type.Hero) &&
+        [referenced.hero, getFamilyName(referenced.name)].some(
+          (heroName) => !!heroName && specializedHeroNames.has(heroName),
+        );
 
-      if (isNamed && referenced.cardIdentifier !== cardIdentifier) {
+      if (
+        isNamed &&
+        !isSpecializedHero &&
+        referenced.cardIdentifier !== cardIdentifier
+      ) {
         referencedCardIdentifiers.add(referenced.cardIdentifier);
       }
     };
