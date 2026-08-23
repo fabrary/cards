@@ -220,7 +220,7 @@ When this is pitched, create a Runechant token.`,
   
     
     pitch: 3,
-    referencedCards: ["runechant","viserai"],
+    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     
     
@@ -1468,7 +1468,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -1545,7 +1545,7 @@ At the start of each turn, destroy this unless you put a zombie from your banish
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
     
     shorthands: [Shorthand.Buffs,Shorthand.Poppers],
     
@@ -4788,7 +4788,7 @@ When this hits a hero, create a Runechant token.`,
 
     
     
-    cost: 0,createdExtras: ["runechant"],
+    cost: 0,
     defense: 3,
     
     functionalText: `You may play this from your banished zone.
@@ -5113,7 +5113,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
   
     
     pitch: 3,
-    power: 13,referencedCards: ["viserai"],
+    power: 13,referencedCards: ["viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -5578,7 +5578,7 @@ When this hits a hero, deal 2 arcane damage to any target.
 
     
     
-    createdExtras: ["gate-to-iarathael"],
+    
     
     
     functionalText: `The first attack action card with blood debt you play each turn gets **go again**.

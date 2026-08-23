@@ -7233,7 +7233,7 @@ When this attacks, the defending hero reveals their hand. You may choose an atta
   
     
     pitch: 2,
-    power: 2,referencedCards: ["eloquence"],
+    power: 2,referencedCards: ["eloquence","shiyana-diamond-gemini"],
     
     
     
@@ -7412,7 +7412,7 @@ When this is discarded to beat chest, create a Might token.`,
   
     
     pitch: 3,
-    power: 6,referencedCards: ["might","rhinar"],
+    power: 6,referencedCards: ["might","rhinar","rhinar-reckless-rampage"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -7555,7 +7555,7 @@ When this attacks, **intimidate**.`,
   
     
     pitch: 1,
-    power: 9,referencedCards: ["rhinar"],
+    power: 9,referencedCards: ["rhinar","rhinar-reckless-rampage"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -11710,7 +11710,7 @@ The next attack action card you play this turn gets +1{p}. **Go again**
   
     
     pitch: 3,
-    referencedCards: ["briar","embodiment-of-earth"],
+    referencedCards: ["briar","briar-warden-of-thorns","embodiment-of-earth"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -14198,7 +14198,7 @@ If an opponent declares an attack, they must choose this as the target of that a
   
     
     pitch: 2,
-    referencedCards: ["prism"],
+    referencedCards: ["prism","prism-advent-of-thrones","prism-awakener-of-sol","prism-sculptor-of-arc-light"],
     
     
     
@@ -14313,7 +14313,7 @@ The next action card you play this turn gets **go again**.
   
     
     pitch: 2,
-    referencedCards: ["aurora"],
+    referencedCards: ["aurora","aurora-emissary-of-lightning","aurora-legacy-of-tempest","aurora-shooting-star"],
     
     
     
@@ -17866,7 +17866,7 @@ When this hits, create X Runechant tokens, where X is the damage dealt this way.
   
     
     pitch: 1,
-    power: 5,referencedCards: ["runechant","viserai"],
+    power: 5,referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     
     
@@ -17959,7 +17959,7 @@ When this is pitched, create a Runechant token.`,
   
     
     pitch: 3,
-    referencedCards: ["runechant","viserai"],
+    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     
     
@@ -19913,7 +19913,7 @@ When this attacks, if you've **beaten chest** this turn, create an Agility token
 
     
     
-    cost: 0,createdExtras: ["hyper-driver"],
+    cost: 0,
     
     
     functionalText: `**Crank**
@@ -19932,7 +19932,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 3,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Tap],
     
@@ -21352,7 +21352,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
     
     
-    createdExtras: ["embodiment-of-lightning","lightning-flow"],
+    createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.`,
@@ -21446,7 +21446,7 @@ If you control a Spectral Shield, you may play this as though it were an instant
 
     
     
-    createdExtras: ["embodiment-of-lightning","lightning-flow"],
+    createdExtras: ["embodiment-of-lightning"],
     
     
     functionalText: `**Instant** - {r}{r}, {t}, destroy a Lightning Flow you control: Create an Embodiment of Lightning token.`,
@@ -33984,7 +33984,7 @@ If a yellow card is **charged** this way, this gets +1{p}.`,
   
     
     pitch: 3,
-    referencedCards: ["dawnblade-resplendent"],
+    referencedCards: ["dawnblade","dawnblade-resplendent"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -35191,7 +35191,7 @@ You may discard an action card. If you discard an attack action card this way, s
   
     
     pitch: 3,
-    referencedCards: ["viserai"],
+    referencedCards: ["viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     
     
@@ -36782,7 +36782,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
   
     
     pitch: 1,
-    referencedCards: ["runechant","viserai"],
+    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     
     
@@ -37170,7 +37170,7 @@ The next Runeblade attack action card you play this turn costs {r} less to play 
 
     
     
-    cost: 4,
+    cost: 4,createdExtras: ["gold","might","vigor"],
     defense: 3,
     
     functionalText: `**Betsy Specialization**
@@ -37187,7 +37187,7 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
   
     
     pitch: 1,
-    power: 8,referencedCards: ["betsy","gold","might","vigor"],
+    power: 8,referencedCards: ["betsy","betsy-skin-in-the-game","gold","might","vigor"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -37481,7 +37481,7 @@ When this attacks a hero, you may **wager** a Gold, Might, and Vigor token with 
 
     
     
-    cost: 3,createdExtras: ["hyper-driver"],
+    cost: 3,
     defense: 3,
     
     functionalText: `**Boost**
@@ -37498,7 +37498,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 1,
-    power: 6,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 6,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -37562,7 +37562,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,createdExtras: ["hyper-driver"],
+    cost: 3,
     defense: 3,
     
     functionalText: `**Boost**
@@ -37579,7 +37579,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 2,
-    power: 5,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -37673,7 +37673,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,createdExtras: ["hyper-driver"],
+    cost: 3,
     defense: 3,
     
     functionalText: `**Boost**
@@ -37690,7 +37690,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 3,
-    power: 4,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -38130,7 +38130,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and "When this attacks a hero, you may **wager** a Vigor token with them."`,
@@ -38209,7 +38209,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +4{p} and "When this attacks a hero, you may **wager** a Vigor token with them."`,
@@ -38303,7 +38303,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Vigor token with them."`,
@@ -38913,7 +38913,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +5{p} and "When this attacks a hero, you may **wager** a Might token with them."`,
@@ -38992,7 +38992,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +4{p} and "When this attacks a hero, you may **wager** a Might token with them."`,
@@ -39086,7 +39086,7 @@ Draw a card, then discard a card.
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `At the start of your turn, destroy this, then your next Guardian attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Might token with them."`,
@@ -39197,7 +39197,7 @@ Draw a card, then discard a card.
   
     
     pitch: 1,
-    power: 3,referencedCards: ["aether-ashwing"],
+    power: 3,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -39278,7 +39278,7 @@ Draw a card, then discard a card.
   
     
     pitch: 2,
-    power: 2,referencedCards: ["aether-ashwing"],
+    power: 2,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -39359,7 +39359,7 @@ Draw a card, then discard a card.
   
     
     pitch: 3,
-    power: 1,referencedCards: ["aether-ashwing"],
+    power: 1,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -43573,7 +43573,7 @@ Once each turn, you may play a card with **blood debt** from your banished zone.
   
     oppositeSideCardIdentifier: `levia-redeemed`,oppositeSideCardIdentifiers: ["levia-redeemed"],
     
-    referencedCards: ["levia"],
+    referencedCards: ["levia","levia-redeemed","levia-shadowborn-abomination"],
     
     
     
@@ -44623,7 +44623,7 @@ Deal X arcane damage to target hero, where X is the total arcane damage you've d
   
     
     pitch: 1,
-    referencedCards: ["kano"],
+    referencedCards: ["kano","kano-dracai-of-aether"],
     
     
     
@@ -46089,7 +46089,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this then put up to 3 Hyper Drivers from your graveyard and/or banished zone into the arena.`,
@@ -46104,7 +46104,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -46168,7 +46168,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this then put up to 2 Hyper Drivers from your graveyard and/or banished zone into the arena.`,
@@ -46183,7 +46183,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 2,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -46247,7 +46247,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 3,
     
     functionalText: `At the start of your turn, destroy this then put up to 1 Hyper Driver from your graveyard or banished zone into the arena.`,
@@ -46262,7 +46262,7 @@ At the beginning of your action phase, destroy this then reveal the top card of 
   
     
     pitch: 3,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -50341,7 +50341,7 @@ Target sword attack gets **go again** and "When this hits, create a Cintari Sell
   
     
     pitch: 2,
-    referencedCards: ["cintari-sellsword","kassai"],
+    referencedCards: ["cintari-sellsword","kassai","kassai-cintari-sellsword"],
     
     
     
@@ -50746,7 +50746,7 @@ As an additional cost to play this, destroy any number of Copper you control. Fo
   
     
     pitch: 2,
-    referencedCards: ["copper","kassai"],
+    referencedCards: ["copper","kassai","kassai-cintari-sellsword"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -62354,7 +62354,7 @@ At the start of your turn, you may reveal an Earth, an Ice, and a Lightning card
   
     
     
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -66659,7 +66659,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
   
     
     pitch: 1,
-    power: 5,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -66740,7 +66740,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
   
     
     pitch: 2,
-    power: 4,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -66821,7 +66821,7 @@ If you control a Hyper Driver, this gets **overpower**.`,
   
     
     pitch: 3,
-    power: 3,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -69083,7 +69083,7 @@ When this defends an attack with {p} greater than its base, the attack can't gai
   
     
     pitch: 3,
-    referencedCards: ["riptide"],
+    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
     
     
     
@@ -69843,7 +69843,7 @@ Your attacks this turn get "Whenever the defending hero adds 1 or more defending
   
     
     pitch: 2,
-    referencedCards: ["embodiment-of-lightning","lexi"],
+    referencedCards: ["embodiment-of-lightning","lexi","lexi-livewire"],
     
     
     
@@ -75915,7 +75915,7 @@ Whenever you play an action card, you may pay {r}. If you do, it gets **go again
 
     
     
-    cost: 0,createdExtras: ["gold"],
+    cost: 0,
     defense: 2,
     
     functionalText: `Your first attack this turn gets +3{p}.
@@ -76013,7 +76013,7 @@ You may put a gold counter on Treasure Island.
 
     
     
-    cost: 0,createdExtras: ["gold"],
+    cost: 0,
     defense: 2,
     
     functionalText: `Your second attack this turn gets +3{p}.
@@ -76111,7 +76111,7 @@ You may put a gold counter on Treasure Island.
 
     
     
-    cost: 0,createdExtras: ["gold"],
+    cost: 0,
     defense: 2,
     
     functionalText: `Your third attack this turn gets +3{p}.
@@ -78476,7 +78476,7 @@ Until end of turn, target Dawnblade gets +1{p} and "Damage this would deal can't
   
     
     pitch: 2,
-    referencedCards: ["courage","dawnblade-resplendent","dorinthea"],
+    referencedCards: ["courage","dawnblade","dawnblade-resplendent","dorinthea","dorinthea-quicksilver-prodigy"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -80104,7 +80104,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
 
     
     
-    createdExtras: ["fealty","marked"],
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -80242,7 +80242,7 @@ The next card you play this turn with an arcane damage effect, instead deals tha
 
     
     
-    createdExtras: ["fealty","marked"],
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -86037,7 +86037,7 @@ If you complete a **contract** this way, your Assassin attacks get **go again** 
   
     
     pitch: 3,
-    referencedCards: ["arakni"],
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     
     
@@ -88080,7 +88080,7 @@ When this defends an attack with **go again**, the attacking hero discards their
   
     
     pitch: 3,
-    referencedCards: ["riptide"],
+    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
     
     
     
@@ -93882,7 +93882,7 @@ Deal 1 arcane damage to any target.`,
 
     
     
-    cost: 0,createdExtras: ["hyper-driver"],
+    cost: 0,
     defense: 3,
     
     functionalText: `If you have a wrench weapon equipped, **transform** it and 3 Hyper Drivers you control into Bank Breaker, then equip Bank Breaker.
@@ -93899,7 +93899,7 @@ Deal 1 arcane damage to any target.`,
   
     oppositeSideCardIdentifier: `bank-breaker`,oppositeSideCardIdentifiers: ["bank-breaker"],
     pitch: 2,
-    referencedCards: ["bank-breaker","hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["bank-breaker","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -94010,7 +94010,7 @@ Deal 1 arcane damage to any target.`,
   
     oppositeSideCardIdentifier: `nitro-mechanoid`,oppositeSideCardIdentifiers: ["nitro-mechanoid"],
     pitch: 2,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow","nitro-mechanoid"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow","nitro-mechanoid"],
     
     
     
@@ -94429,7 +94429,7 @@ Deal 1 arcane damage to any target.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -94506,7 +94506,7 @@ Deal 1 arcane damage to any target.`,
   
     
     pitch: 2,
-    power: 6,
+    power: 6,referencedCards: ["blasmophet-levia-consumed","blasmophet-the-insatiable-hunger","blasmophet-the-soul-harvester"],
     
     shorthands: [Shorthand.Buffs,Shorthand.Poppers],
     
@@ -96669,7 +96669,7 @@ If 3 or more Chi were pitched to play this, Cosmic Awakening's {p} is 20.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -99767,7 +99767,7 @@ When this defends an attack with {p} greater than its base, remove a +1{p} count
 
     
     
-    cost: 2,createdExtras: ["hyper-driver"],
+    cost: 2,
     defense: 3,
     
     functionalText: `**Boost**
@@ -99784,7 +99784,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 1,
-    power: 5,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -99878,7 +99878,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 2,createdExtras: ["hyper-driver"],
+    cost: 2,
     defense: 3,
     
     functionalText: `**Boost**
@@ -99895,7 +99895,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 2,
-    power: 4,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -100004,7 +100004,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
 
     
     
-    cost: 2,createdExtras: ["hyper-driver"],
+    cost: 2,
     defense: 3,
     
     functionalText: `**Boost**
@@ -100021,7 +100021,7 @@ When this is banished from boosting, put a steam counter on a Hyper Driver you c
   
     
     pitch: 3,
-    power: 3,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -101523,7 +101523,7 @@ The next time you attack with a sword this turn, draw a card, then put a card fr
   
     
     pitch: 1,
-    power: 11,referencedCards: ["bravo"],
+    power: 11,referencedCards: ["bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show"],
     restrictedFormats: [Format.LivingLegend],
     shorthands: [Shorthand.Poppers],
     
@@ -102487,7 +102487,7 @@ Whenever an arrow is put face-up into your arsenal from your deck, you may pay {
   
     
     
-    referencedCards: ["azalea"],
+    referencedCards: ["azalea","azalea-ace-in-the-hole"],
     
     
     
@@ -114399,7 +114399,7 @@ When the combat chain closes, you may banish this face-down. If you do, for each
   
     
     pitch: 1,
-    power: 3,referencedCards: ["fang"],
+    power: 3,referencedCards: ["fang","fang-dracai-of-blades"],
     
     
     
@@ -115623,7 +115623,7 @@ If a Chi was pitched to play this, effects don't trigger if an attack hits you t
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -117803,7 +117803,7 @@ At the beginning of your end phase, if you have 4 or more cards in hand, create 
   
     
     
-    referencedCards: ["diamond"],
+    referencedCards: ["diamond","ruudi-gem-keeper"],
     
     
     
@@ -122357,7 +122357,7 @@ Create a Blasmophet, the Soul Harvester token.`,
   
     
     pitch: 3,
-    referencedCards: ["blasmophet-the-soul-harvester","levia"],
+    referencedCards: ["blasmophet-the-soul-harvester","levia","levia-redeemed","levia-shadowborn-abomination"],
     
     
     
@@ -124108,7 +124108,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     
-    referencedCards: ["silver"],
+    referencedCards: ["bloodrot-pox","frailty","inertia","silver"],
     
     shorthands: [Shorthand.Tap],
     
@@ -124195,7 +124195,7 @@ If you've played or activated 2 or more attack reactions this chain link, this g
   
     
     
-    referencedCards: ["silver"],
+    referencedCards: ["bloodrot-pox","frailty","inertia","silver"],
     
     shorthands: [Shorthand.Tap],
     
@@ -127198,7 +127198,7 @@ Arrows you control get "Defense reactions can't be played from hand this chain l
   
     
     
-    referencedCards: ["riptide"],
+    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
     
     
     
@@ -127552,7 +127552,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
   
     
     pitch: 1,
-    power: 8,referencedCards: ["betsy"],
+    power: 8,referencedCards: ["betsy","betsy-skin-in-the-game"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -127706,7 +127706,7 @@ When this attacks a hero, you may **wager** with them. The winner draws a card, 
   
     
     
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -131543,7 +131543,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 1,
-    power: 4,referencedCards: ["aether-ashwing"],
+    power: 4,referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -131622,7 +131622,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 2,
-    power: 3,referencedCards: ["aether-ashwing"],
+    power: 3,referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -131701,7 +131701,7 @@ At the beginning of your end phase, if you haven't played an attack action card 
   
     
     pitch: 3,
-    power: 2,referencedCards: ["aether-ashwing"],
+    power: 2,referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -134246,7 +134246,7 @@ Create an Ursur, the Soul Reaper token.`,
   
     
     pitch: 3,
-    referencedCards: ["chane","ursur-the-soul-reaper"],
+    referencedCards: ["chane","chane-bound-by-shadow","ursur-the-soul-reaper"],
     
     
     
@@ -134325,7 +134325,7 @@ Create an Ursur, the Soul Reaper token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +3{p} and "When this attacks a hero, you may **wager** an Agility token with them."
@@ -134421,7 +134421,7 @@ Create an Ursur, the Soul Reaper token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +2{p} and "When this attacks a hero, you may **wager** an Agility token with them."
@@ -134517,7 +134517,7 @@ Create an Ursur, the Soul Reaper token.`,
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["agility"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +1{p} and "When this attacks a hero, you may **wager** an Agility token with them."
@@ -138649,7 +138649,7 @@ Name a living legend hero. You become that hero until the start of your next tur
   
     
     pitch: 2,
-    
+    referencedCards: ["shiyana-diamond-gemini"],
     
     
     
@@ -143125,7 +143125,7 @@ When this hits a hero, until the end of their next turn, whenever they activate 
   
     
     pitch: 1,
-    power: 8,referencedCards: ["frostbite","oldhim"],
+    power: 8,referencedCards: ["frostbite","oldhim","oldhim-grandfather-of-eternity"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -150434,7 +150434,7 @@ Gain 1{h}`,
 
     
     
-    cost: 0,createdExtras: ["hyper-driver"],
+    cost: 0,
     defense: 0,
     
     functionalText: `If you have a base chest equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
@@ -150451,7 +150451,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, gain {r}{r
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -151133,7 +151133,7 @@ When this is equipped, gain {r}.`,
 
     
     
-    cost: 0,createdExtras: ["hyper-driver"],
+    cost: 0,
     defense: 0,
     
     functionalText: `If you have a base head equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
@@ -151150,7 +151150,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, shuffle 2 
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -151683,7 +151683,7 @@ Your Teklo Blaster costs {r} less to activate for each opponent.
 
     
     
-    cost: 0,createdExtras: ["hyper-driver"],
+    cost: 0,
     defense: 0,
     
     functionalText: `If you have a base arms equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
@@ -151700,7 +151700,7 @@ Whenever you **boost** an attack action card, you may destroy a card under this.
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -151847,7 +151847,7 @@ When this is equipped, the next attack action card you play this turn costs {r} 
 
     
     
-    cost: 0,createdExtras: ["hyper-driver","quicken"],
+    cost: 0,createdExtras: ["quicken"],
     defense: 0,
     
     functionalText: `If you have a base legs equipped, **transform** it and X Hyper Drivers you control into this, then equip this. If you do, the next time you would be dealt damage this turn, prevent twice X of that damage.
@@ -151864,7 +151864,7 @@ Whenever you **boost**, you may destroy a card under this. If you do, create a Q
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow","quicken"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow","quicken"],
     
     
     
@@ -154228,7 +154228,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
 
     
     
-    cost: 0,createdExtras: ["gold"],
+    cost: 0,
     defense: 2,
     
     functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
@@ -154322,7 +154322,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
 
     
     
-    cost: 1,createdExtras: ["gold"],
+    cost: 1,
     defense: 2,
     
     functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
@@ -154416,7 +154416,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
 
     
     
-    cost: 2,createdExtras: ["gold"],
+    cost: 2,
     defense: 2,
     
     functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
@@ -154510,7 +154510,7 @@ When this hits, you may put an item with cost 1 or less from your hand into the 
 
     
     
-    cost: 3,createdExtras: ["gold"],
+    cost: 3,
     defense: 2,
     
     functionalText: `When this attacks, you may put a gold counter on Treasure Island.`,
@@ -157715,7 +157715,7 @@ Equip Fyendal's Spring Tunic. If you don't, **negate** this.`,
 
     
     
-    createdExtras: ["fealty","marked"],
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -157946,7 +157946,7 @@ Target attack action card gets +1{p}.`,
 
     
     
-    createdExtras: ["fealty","marked"],
+    createdExtras: ["fealty"],
     
     
     functionalText: `Whenever you hit a **marked** hero, create a Fealty token.
@@ -162314,7 +162314,7 @@ When this hits a Reviled hero, put this on the bottom of its owner's deck.`,
 
     
     
-    createdExtras: ["gold"],
+    
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Look at the top 3 cards of the event deck, then put them back in any order. **Go again**`,
@@ -164711,7 +164711,7 @@ You may {u} a bow you control.
   
     
     
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -165044,7 +165044,7 @@ When this hits, create a Runechant token.`,
   
     
     
-    power: 1,referencedCards: ["runechant","vynnset"],
+    power: 1,referencedCards: ["runechant","vynnset","vynnset-iron-maiden"],
     
     
     
@@ -171397,7 +171397,7 @@ When this attacks, create a Quicken token.`,
   
     
     
-    referencedCards: ["florian"],
+    
     
     
     
@@ -173754,7 +173754,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 0,createdExtras: ["fealty","marked"],
+    cost: 0,createdExtras: ["fealty"],
     defense: 3,
     
     functionalText: `When this attacks a **marked** hero, create a Fealty token.`,
@@ -173848,7 +173848,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 1,createdExtras: ["fealty","marked"],
+    cost: 1,createdExtras: ["fealty"],
     defense: 3,
     
     functionalText: `When this attacks a **marked** hero, create a Fealty token.`,
@@ -173942,7 +173942,7 @@ At the beginning of your action phase, destroy this.`,
 
     
     
-    cost: 2,createdExtras: ["fealty","marked"],
+    cost: 2,createdExtras: ["fealty"],
     defense: 3,
     
     functionalText: `When this attacks a **marked** hero, create a Fealty token.`,
@@ -174074,7 +174074,7 @@ If this was **fused**, your next attack this turn gets +1{p}.
   
     
     pitch: 3,
-    referencedCards: ["briar"],
+    referencedCards: ["briar","briar-warden-of-thorns"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -177787,7 +177787,7 @@ Frostbites you control get "At the beginning of your end phase, this deals 1 arc
   
     
     pitch: 3,
-    referencedCards: ["frostbite","iyslander"],
+    referencedCards: ["frostbite","iyslander","iyslander-stormbind"],
     
     
     
@@ -182022,7 +182022,7 @@ If you control 3 or more auras, this gets +3{p}.`,
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 2,
     
     functionalText: `The next attack you **boost** this turn gets +4{p}.
@@ -182041,7 +182041,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -182120,7 +182120,7 @@ You may put a Hyper Driver from your banished zone into the arena.
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 2,
     
     functionalText: `The next attack you **boost** this turn gets +3{p}.
@@ -182139,7 +182139,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     pitch: 2,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -182218,7 +182218,7 @@ You may put a Hyper Driver from your banished zone into the arena.
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 2,
     
     functionalText: `The next attack you **boost** this turn gets +2{p}.
@@ -182237,7 +182237,7 @@ You may put a Hyper Driver from your banished zone into the arena.
   
     
     pitch: 3,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -183684,7 +183684,7 @@ Gain X+1{h}.`,
   
     
     pitch: 3,
-    referencedCards: ["embodiment-of-earth","florian","runechant"],
+    referencedCards: ["embodiment-of-earth","florian","florian-rotwood-harbinger","runechant"],
     
     
     
@@ -187055,7 +187055,7 @@ Whenever Dawnblade hits a hero this turn, put a +1{p} counter on it.
   
     
     pitch: 2,
-    referencedCards: ["dawnblade-resplendent","dorinthea"],
+    referencedCards: ["dawnblade","dawnblade-resplendent","dorinthea","dorinthea-quicksilver-prodigy"],
     
     
     
@@ -189460,7 +189460,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia"],
+    referencedCards: ["gold","olympia","olympia-prized-fighter"],
     
     
     
@@ -189543,7 +189543,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia"],
+    referencedCards: ["gold","olympia","olympia-prized-fighter"],
     
     
     
@@ -189626,7 +189626,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia"],
+    referencedCards: ["gold","olympia","olympia-prized-fighter"],
     
     
     
@@ -189931,7 +189931,7 @@ This counts as a Gold.
   
     
     
-    referencedCards: ["gold","olympia"],
+    referencedCards: ["gold","olympia","olympia-prized-fighter"],
     
     
     
@@ -190093,7 +190093,7 @@ This counts as a Gold.
 
     
     
-    cost: 4,createdExtras: ["gold","golden-cog"],
+    cost: 4,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token and repeat this process.`,
@@ -190108,7 +190108,7 @@ This counts as a Gold.
   
     
     pitch: 2,
-    power: 7,referencedCards: ["golden-cog"],
+    power: 7,referencedCards: ["gold","golden-cog"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -191476,7 +191476,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
 
     
     
-    
+    createdExtras: ["might","vigor"],
     defense: 2,
     
     functionalText: `**Betsy Specialization**
@@ -191495,7 +191495,7 @@ At the start of your turn, destroy this. If another hero drew a card from this, 
   
     
     
-    referencedCards: ["betsy","gold","might","vigor"],
+    referencedCards: ["betsy","betsy-skin-in-the-game","gold","might","vigor"],
     
     
     
@@ -192080,7 +192080,7 @@ Banish all defending attack action cards on the combat chain. If a Chi was pitch
   
     
     pitch: 2,
-    referencedCards: ["slither"],
+    referencedCards: ["inner-chi-blue","slither"],
     
     
     
@@ -193407,7 +193407,7 @@ When this attacks a **marked** hero, the attack gets **go again**.`,
 
     
     
-    createdExtras: ["silver"],
+    
     
     
     functionalText: `**Once per Turn Action** - {r}{r}: **Attack**. **Go again**
@@ -193573,7 +193573,7 @@ When this is equipped from anywhere other than your graveyard, put a -1{d} count
 
     
     
-    createdExtras: ["silver"],
+    
     
     
     functionalText: `**Instant** - Destroy 2 Silver you control: Equip this. Activate this only while this is in your graveyard.
@@ -196312,7 +196312,7 @@ Whenever you attack a Guardian hero, **clash** with them. The winner creates a S
 
     
     
-    cost: 0,createdExtras: ["ash"],
+    cost: 0,
     defense: 3,
     
     functionalText: `**Go again**
@@ -196331,7 +196331,7 @@ Attack action cards get -1{p} while attacking or defending.`,
   
     
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -196838,7 +196838,7 @@ While Hala is face-up in arsenal, whenever a sword attack you control hits, it g
   
     
     
-    referencedCards: ["glistening-steelblade-yellow","hala"],
+    referencedCards: ["glistening-steelblade-yellow"],
     
     
     
@@ -197986,7 +197986,7 @@ The third time you play a card with **boost** each turn, put a steam counter on 
   
     
     
-    referencedCards: ["arakni"],
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -202536,7 +202536,7 @@ When this is pitched, if you have less {h} than an opposing hero, gain 1{h}.`,
   
     
     
-    referencedCards: ["arakni"],
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     
     
@@ -202950,7 +202950,7 @@ Gain 1{h}. Gain 1{h}. Gain 1{h}.
   
     
     pitch: 3,
-    referencedCards: ["verdance"],
+    referencedCards: ["verdance","verdance-thorn-of-the-rose"],
     
     
     
@@ -207488,7 +207488,7 @@ When this hits, put it into your soul and the defending hero can't play cards fr
   
     
     pitch: 2,
-    power: 6,referencedCards: ["prism"],
+    power: 6,referencedCards: ["prism","prism-advent-of-thrones","prism-awakener-of-sol","prism-sculptor-of-arc-light"],
     
     
     
@@ -213340,7 +213340,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
   
     
     pitch: 3,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -214461,7 +214461,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Vigor token with them."
@@ -214542,7 +214542,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +2{p} and "When this attacks a hero, you may **wager** a Vigor token with them."
@@ -214653,7 +214653,7 @@ Turn any number of Hyper Drivers in your banished zone face-down and gain that m
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["vigor"],
     defense: 3,
     
     functionalText: `Your next Warrior attack this turn gets +1{p} and "When this attacks a hero, you may **wager** a Vigor token with them."
@@ -215669,7 +215669,7 @@ If it has 3 or more +1{p} counters, you may put an attack reaction card from you
   
     
     
-    referencedCards: ["kassai"],
+    referencedCards: ["kassai","kassai-cintari-sellsword"],
     
     
     
@@ -219542,7 +219542,7 @@ If this is attacking a **marked** hero, this gets +2{p}.
   
     
     pitch: 1,
-    power: 2,referencedCards: ["arakni","marked"],
+    power: 2,referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit","marked"],
     
     
     
@@ -221460,7 +221460,7 @@ When this attacks, it gets +X{p}. If 3 or more Hyper Drivers were banished to pl
   
     
     pitch: 3,
-    power: 2,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 2,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -221539,7 +221539,7 @@ When this attacks, it gets +X{p}. If 3 or more Hyper Drivers were banished to pl
 
     
     
-    createdExtras: ["hyper-driver"],
+    
     defense: 1,
     
     functionalText: `Whenever you banish a Hyper Driver to pay a **boost** cost, put it under this.
@@ -221558,7 +221558,7 @@ Once per turn, when a Hyper Driver is put under this, if there are 3 or more Hyp
   
     
     
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -222094,7 +222094,7 @@ Create X Frostbite tokens under target hero's control. Then if this was fused, d
   
     
     pitch: 3,
-    referencedCards: ["frostbite","iyslander"],
+    referencedCards: ["frostbite","iyslander","iyslander-stormbind"],
     
     
     
@@ -230855,7 +230855,7 @@ When this hits a hero, they create a Courage and Quicken token.`,
   
     
     pitch: 3,
-    power: 4,referencedCards: ["courage","quicken","riptide"],
+    power: 4,referencedCards: ["courage","quicken","riptide","riptide-lurker-of-the-deep"],
     
     
     
@@ -231848,7 +231848,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `azvolai`,oppositeSideCardIdentifiers: ["azvolai"],
     pitch: 1,
-    referencedCards: ["azvolai"],
+    referencedCards: ["ash","azvolai","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -231927,7 +231927,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `cromai`,oppositeSideCardIdentifiers: ["cromai"],
     pitch: 1,
-    referencedCards: ["cromai"],
+    referencedCards: ["ash","cromai","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -232008,7 +232008,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `dominia`,oppositeSideCardIdentifiers: ["dominia"],
     pitch: 1,
-    referencedCards: ["dominia"],
+    referencedCards: ["ash","dominia","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -232089,7 +232089,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `dracona-optimai`,oppositeSideCardIdentifiers: ["dracona-optimai"],
     pitch: 1,
-    referencedCards: ["dracona-optimai"],
+    referencedCards: ["ash","dracona-optimai","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -232168,7 +232168,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `kyloria`,oppositeSideCardIdentifiers: ["kyloria"],
     pitch: 1,
-    referencedCards: ["kyloria"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","kyloria"],
     
     
     
@@ -232247,7 +232247,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `miragai`,oppositeSideCardIdentifiers: ["miragai"],
     pitch: 1,
-    referencedCards: ["miragai"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","miragai"],
     
     
     
@@ -232326,7 +232326,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `nekria`,oppositeSideCardIdentifiers: ["nekria"],
     pitch: 1,
-    referencedCards: ["nekria"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","nekria"],
     
     
     
@@ -232405,7 +232405,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `ouvia`,oppositeSideCardIdentifiers: ["ouvia"],
     pitch: 1,
-    referencedCards: ["ouvia"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","ouvia"],
     
     
     
@@ -232582,7 +232582,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `themai`,oppositeSideCardIdentifiers: ["themai"],
     pitch: 1,
-    referencedCards: ["themai"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","themai"],
     
     
     
@@ -232663,7 +232663,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `tomeltai`,oppositeSideCardIdentifiers: ["tomeltai"],
     pitch: 1,
-    referencedCards: ["tomeltai"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","tomeltai"],
     
     
     
@@ -232742,7 +232742,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `vynserakai`,oppositeSideCardIdentifiers: ["vynserakai"],
     pitch: 1,
-    referencedCards: ["vynserakai"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","vynserakai"],
     
     
     
@@ -232821,7 +232821,7 @@ Banish up to 2 cards in an opponent's graveyard. If an attack action card and a 
   
     oppositeSideCardIdentifier: `yendurai`,oppositeSideCardIdentifiers: ["yendurai"],
     pitch: 1,
-    referencedCards: ["yendurai"],
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red","yendurai"],
     
     
     
@@ -238090,7 +238090,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 1,
-    power: 5,referencedCards: ["azalea"],
+    power: 5,referencedCards: ["azalea","azalea-ace-in-the-hole"],
     
     
     
@@ -238216,7 +238216,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 1,
-    power: 5,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -238327,7 +238327,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 2,
-    power: 4,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -238438,7 +238438,7 @@ When this attacks, if it has an aim counter, it gets "When this hits a hero, the
   
     
     pitch: 3,
-    power: 3,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -241519,7 +241519,7 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
   
     
     pitch: 1,
-    referencedCards: ["copper","gold","silver"],
+    referencedCards: ["amethyst-amulet-blue","amulet-of-assertiveness-yellow","amulet-of-earth-blue","amulet-of-echoes-blue","amulet-of-havencall-blue","amulet-of-ice-blue","amulet-of-ignition-yellow","amulet-of-intervention-blue","amulet-of-lightning-blue","amulet-of-oblation-blue","clarity-potion-blue","copper","diamond-amulet-blue","energy-potion-blue","gold","healing-potion-blue","onyx-amulet-blue","opal-amulet-blue","pearl-amulet-blue","platinum-amulet-blue","potion-of-deja-vu-blue","potion-of-ironhide-blue","potion-of-luck-blue","potion-of-seeing-blue","potion-of-strength-blue","pounamu-amulet-blue","ruby-amulet-blue","sapphire-amulet-blue","silver","talisman-of-balance-blue","talisman-of-cremation-blue","talisman-of-dousing-yellow","talisman-of-featherfoot-yellow","talisman-of-recompense-yellow","talisman-of-tithes-blue","talisman-of-warfare-yellow","talismanic-lens","timesnap-potion-blue"],
     
     
     
@@ -242328,7 +242328,7 @@ const cards4: Card[] = [{
   
     
     
-    referencedCards: ["kayo"],
+    referencedCards: ["kayo","kayo-armed-and-dangerous","kayo-berserker-runt","kayo-strong-arm","kayo-underhanded-cheat"],
     
     
     
@@ -248023,7 +248023,7 @@ If this deals damage, you may search your deck for a Wizard card with cost less 
   
     
     pitch: 2,
-    referencedCards: ["kano"],
+    referencedCards: ["kano","kano-dracai-of-aether"],
     
     
     
@@ -248442,7 +248442,7 @@ Cards you own lose **blood debt**.`,
   
     oppositeSideCardIdentifier: `blasmophet-levia-consumed`,oppositeSideCardIdentifiers: ["blasmophet-levia-consumed"],
     
-    referencedCards: ["levia"],
+    
     
     
     
@@ -249948,7 +249948,7 @@ Whenever this deals damage to a hero equal to or greater than the number of equi
   
     
     pitch: 2,
-    power: 4,referencedCards: ["lexi"],
+    power: 4,referencedCards: ["lexi","lexi-livewire"],
     
     
     
@@ -254940,7 +254940,7 @@ If you've **boosted** this turn, **opt 1**.
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -255286,7 +255286,7 @@ If you've **boosted** this turn, **opt 1**.
 
     arcane: 2,
     
-    cost: 3,createdExtras: ["runechant"],
+    cost: 3,
     defense: 3,
     
     functionalText: `When this enters the arena, destroy all Runechants you control and put that many doom counters on this.
@@ -255653,7 +255653,7 @@ When the additional cost is paid, shuffle X target cards named Surging Strike, W
   
     
     pitch: 3,
-    power: 2,referencedCards: ["katsu","mugenshi-release-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
+    power: 2,referencedCards: ["katsu","katsu-the-wanderer","mugenshi-release-yellow","surging-strike-blue","surging-strike-red","surging-strike-yellow","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -260723,7 +260723,7 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -260817,7 +260817,7 @@ If you've discarded a card with 6 or more {p} this turn, this card's attacks get
 
     
     
-    cost: 0,createdExtras: ["fealty"],
+    cost: 0,
     defense: 3,
     
     functionalText: `If you've created a Fealty token this turn, this gets **go again**.`,
@@ -262551,7 +262551,7 @@ When this hits a hero, **mark** them.`,
 
     
     
-    createdExtras: ["gold","goldfin-harpoon"],
+    createdExtras: ["goldfin-harpoon"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
@@ -262568,7 +262568,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
     
     
-    referencedCards: ["goldfin-harpoon"],
+    referencedCards: ["gold","goldfin-harpoon"],
     
     shorthands: [Shorthand.Tap],
     
@@ -262674,7 +262674,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
 
     
     
-    createdExtras: ["gold","goldfin-harpoon"],
+    createdExtras: ["goldfin-harpoon"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Goldfin Harpoon in your hand. **Go again**
@@ -262691,7 +262691,7 @@ Whenever you draw a card during your action phase, you may put an arrow from you
   
     
     
-    referencedCards: ["goldfin-harpoon"],
+    referencedCards: ["gold","goldfin-harpoon"],
     
     shorthands: [Shorthand.Tap],
     
@@ -262789,7 +262789,7 @@ When this defends, become a random Agent of Chaos. If the attacking hero is **ma
   
     
     
-    referencedCards: ["arakni-black-widow","arakni-funnel-web","arakni-orb-weaver","arakni-redback","arakni-tarantula","arakni-trap-door"],
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     
     
@@ -265158,7 +265158,7 @@ Hyper Drivers you control get **crank**.`,
   
     
     
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -265320,7 +265320,7 @@ Hyper Drivers you control get **crank**.`,
   
     
     
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -267785,7 +267785,7 @@ Whenever you pitch a Chi, you may have this get **ward 3** until end of turn.`,
   
     
     
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -272323,7 +272323,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +3{p} and "When this attacks a hero, you may **wager** a Gold token with them."
@@ -272419,7 +272419,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +2{p} and "When this attacks a hero, you may **wager** a Gold token with them."
@@ -272515,7 +272515,7 @@ If you control 3 or more auras of suspense, this gets +2{p} and "When this hits 
 
     
     
-    cost: 1,
+    cost: 1,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `Your next attack this turn gets +1{p} and "When this attacks a hero, you may **wager** a Gold token with them."
@@ -272812,7 +272812,7 @@ Draw a card.
   
     
     
-    referencedCards: ["rhinar"],
+    referencedCards: ["rhinar","rhinar-reckless-rampage"],
     
     
     
@@ -273495,7 +273495,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
   
     
     pitch: 2,
-    power: 3,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 3,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -274293,7 +274293,7 @@ If this has 10 or more {p}, it gets **overpower**.`,
   
     
     pitch: 2,
-    power: 4,referencedCards: ["katsu","lord-of-wind-blue","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
+    power: 4,referencedCards: ["katsu","katsu-the-wanderer","lord-of-wind-blue","whelming-gustwave-blue","whelming-gustwave-red","whelming-gustwave-yellow"],
     
     
     
@@ -275153,7 +275153,7 @@ When this hits, you may banish 3 traps with cost 0 or more from your graveyard f
   
     
     pitch: 1,
-    power: 6,referencedCards: ["riptide"],
+    power: 6,referencedCards: ["riptide","riptide-lurker-of-the-deep"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -279845,7 +279845,7 @@ Search your deck for an arrow card, reveal it, then shuffle and put it on top of
   
     
     pitch: 3,
-    referencedCards: ["azalea"],
+    referencedCards: ["azalea","azalea-ace-in-the-hole"],
     
     
     
@@ -280007,7 +280007,7 @@ For each hero, **freeze** up to 1 equipment, item, and ally they control until t
   
     
     pitch: 3,
-    referencedCards: ["oldhim","spellbane-aegis"],
+    referencedCards: ["oldhim","oldhim-grandfather-of-eternity","spellbane-aegis"],
     
     
     
@@ -280103,7 +280103,7 @@ The next time an opponent would draw a card from the effect of a Gold token this
   
     
     pitch: 2,
-    referencedCards: ["gold"],
+    referencedCards: ["gold","scurv-stowaway"],
     
     
     
@@ -283589,7 +283589,7 @@ Create a Nasreth, the Soul Harrower token.`,
   
     
     pitch: 3,
-    referencedCards: ["nasreth-the-soul-harrower","runechant","vynnset"],
+    referencedCards: ["nasreth-the-soul-harrower","runechant","vynnset","vynnset-iron-maiden"],
     
     
     
@@ -284083,7 +284083,7 @@ Each hero destroys an equipment they control.
   
     
     pitch: 3,
-    
+    referencedCards: ["frankie-make-ends-meat"],
     
     
     
@@ -288046,7 +288046,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -288453,7 +288453,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
 
     
     
-    createdExtras: ["lightning-flow","ponder"],
+    createdExtras: ["ponder"],
     
     
     functionalText: `**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discarded this way, you may play it this turn.`,
@@ -288547,7 +288547,7 @@ Draw 2 cards. If a Chi was pitched to play this, instead draw 3 cards.`,
 
     
     
-    createdExtras: ["lightning-flow","ponder"],
+    createdExtras: ["ponder"],
     
     
     functionalText: `**Instant** - {r}, {t}, destroy a Lightning Flow you control: Discard a card and create a Ponder token. If an instant is discarded this way, you may play it this turn.`,
@@ -290288,7 +290288,7 @@ The next time a weapon hits this turn, create a Copper token.
   
     oppositeSideCardIdentifier: `invoke-ouvia-red`,oppositeSideCardIdentifiers: ["invoke-ouvia-red"],
     
-    power: 1,referencedCards: ["aether-ashwing"],
+    power: 1,referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -296750,7 +296750,7 @@ If you've played another blue card this turn, **transcend**.`,
   
     
     
-    referencedCards: ["arakni"],
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     
     
@@ -303212,7 +303212,7 @@ If you've dealt arcane damage to an opponent this turn, this gets +2{p}.
 
     
     
-    
+    createdExtras: ["gold"],
     
     
     functionalText: `**Betsy Specialization**
@@ -303231,7 +303231,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     
-    power: 6,referencedCards: ["betsy","gold"],
+    power: 6,referencedCards: ["betsy","betsy-skin-in-the-game","gold"],
     
     shorthands: [Shorthand.Tap],
     
@@ -303851,7 +303851,7 @@ When this attacks, you may **wager** a Gold token with the defending hero.`,
   
     
     
-    
+    referencedCards: ["ruudi-gem-keeper"],
     
     
     
@@ -304167,7 +304167,7 @@ When this defends, deal 2 damage to the attacking hero unless they pay {r}.`,
 
     
     
-    createdExtras: ["bloodrot-pox","frailty","inertia"],
+    
     
     
     functionalText: `**Legendary**
@@ -315488,7 +315488,7 @@ Your next Brute attack this turn gets +3{p}.
   
     
     
-    referencedCards: ["prism"],
+    
     
     
     shortName: "Prism, AoT",
@@ -316443,7 +316443,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
 
     
     
-    
+    createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Olympia Specialization**
@@ -316462,7 +316462,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     
-    referencedCards: ["gold","olympia"],
+    referencedCards: ["gold","olympia","olympia-prized-fighter"],
     
     
     
@@ -316769,7 +316769,7 @@ This enters the arena with a steam counter. At the start of your turn, destroy t
   
     
     pitch: 1,
-    referencedCards: ["arakni","marked"],
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit","marked"],
     
     
     
@@ -319318,7 +319318,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
   
     
     
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -319412,7 +319412,7 @@ The next time you attack a **marked** hero this turn, the attack gets +1{p}.
 
     
     
-    createdExtras: ["gold","golden-cog"],
+    createdExtras: ["golden-cog"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Golden Cog token.
@@ -319429,7 +319429,7 @@ The second time you crank each turn, draw a card.`,
   
     
     
-    referencedCards: ["golden-cog"],
+    referencedCards: ["gold","golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -319535,7 +319535,7 @@ The second time you crank each turn, draw a card.`,
 
     
     
-    createdExtras: ["gold","golden-cog"],
+    createdExtras: ["golden-cog"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Golden Cog token.
@@ -319552,7 +319552,7 @@ The second time you crank each turn, draw a card.`,
   
     
     
-    referencedCards: ["golden-cog"],
+    referencedCards: ["gold","golden-cog"],
     
     shorthands: [Shorthand.Tap],
     
@@ -323337,7 +323337,7 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
   
     
     pitch: 1,
-    power: 10,
+    power: 10,referencedCards: ["valda-seismic-impact"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -326011,7 +326011,7 @@ The next attack you **boost** this turn gets +4{p}.
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -326094,7 +326094,7 @@ The next attack you **boost** this turn gets +3{p}.
   
     
     pitch: 2,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -326177,7 +326177,7 @@ The next attack you **boost** this turn gets +2{p}.
   
     
     pitch: 3,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -328007,7 +328007,7 @@ Create X Cintari Sellsword tokens.
   
     
     pitch: 2,
-    referencedCards: ["cintari-sellsword","gold","kassai"],
+    referencedCards: ["cintari-sellsword","gold","kassai","kassai-cintari-sellsword"],
     
     
     
@@ -328393,7 +328393,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
   
     
     pitch: 1,
-    referencedCards: ["aether-ashwing"],
+    referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -328474,7 +328474,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
   
     
     pitch: 2,
-    referencedCards: ["aether-ashwing"],
+    referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -328555,7 +328555,7 @@ Your next sword attack this turn gets +2{p} and "When this attacks, **wager** wi
   
     
     pitch: 3,
-    referencedCards: ["aether-ashwing"],
+    referencedCards: ["aether-ashwing","ash"],
     
     
     
@@ -333366,7 +333366,7 @@ When this hits a hero, the next action card they defend with this combat chain g
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 2,
     
     functionalText: `Put a steam counter on a Hyper Driver you control.
@@ -333385,7 +333385,7 @@ The next attack you **boost** this turn gets +4{p}.
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -333449,7 +333449,7 @@ The next attack you **boost** this turn gets +4{p}.
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 2,
     
     functionalText: `Put a steam counter on a Hyper Driver you control.
@@ -333468,7 +333468,7 @@ The next attack you **boost** this turn gets +3{p}.
   
     
     pitch: 2,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -333532,7 +333532,7 @@ The next attack you **boost** this turn gets +3{p}.
 
     
     
-    cost: 1,createdExtras: ["hyper-driver"],
+    cost: 1,
     defense: 2,
     
     functionalText: `Put a steam counter on a Hyper Driver you control.
@@ -333551,7 +333551,7 @@ The next attack you **boost** this turn gets +2{p}.
   
     
     pitch: 3,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -334699,7 +334699,7 @@ If you would roll 1 or more dice this turn, instead roll that many dice plus 1 a
   
     
     pitch: 3,
-    referencedCards: ["kayo"],
+    referencedCards: ["kayo","kayo-armed-and-dangerous","kayo-berserker-runt","kayo-strong-arm","kayo-underhanded-cheat"],
     
     
     
@@ -335757,7 +335757,7 @@ If you've rolled a 6 on a die this turn, draw a card.`,
   
     
     pitch: 3,
-    referencedCards: ["kayo"],
+    referencedCards: ["kayo","kayo-armed-and-dangerous","kayo-berserker-runt","kayo-strong-arm","kayo-underhanded-cheat"],
     
     
     
@@ -336788,7 +336788,7 @@ If the discarded card has 6 or more {p}, deal 2 damage to the attacking hero.`,
   
     
     pitch: 1,
-    power: 4,referencedCards: ["dromai","fai"],
+    power: 4,referencedCards: ["dromai","dromai-ash-artist","fai","fai-rising-rebellion"],
     
     
     
@@ -336929,7 +336929,7 @@ When this hits a hero, they can't play or activate more than 1 action during the
   
     
     pitch: 1,
-    power: 5,referencedCards: ["azalea"],
+    power: 5,referencedCards: ["azalea","azalea-ace-in-the-hole"],
     
     
     
@@ -338570,7 +338570,7 @@ This can't be defended by cards with the same name as cards in the defending her
   
     
     pitch: 3,
-    power: 3,referencedCards: ["arakni"],
+    power: 3,referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit"],
     
     
     
@@ -342536,7 +342536,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 3,
-    power: 2,referencedCards: ["katsu"],
+    power: 2,referencedCards: ["katsu","katsu-the-wanderer"],
     
     
     
@@ -342711,7 +342711,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 1,
-    power: 6,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 6,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -342792,7 +342792,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 2,
-    power: 5,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 5,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -342873,7 +342873,7 @@ You may destroy an Inertia token you control. If you do, gain 1{h}.
   
     
     pitch: 3,
-    power: 4,referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    power: 4,referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     
     
@@ -347507,7 +347507,7 @@ The first time you deal arcane damage each turn, gain 1{h}.`,
   
     
     pitch: 2,
-    referencedCards: ["verdance"],
+    referencedCards: ["verdance","verdance-thorn-of-the-rose"],
     
     
     
@@ -349206,7 +349206,7 @@ You may return a Phoenix Flame from your graveyard to your hand.
   
     
     pitch: 1,
-    power: 3,referencedCards: ["dromai","fai","phoenix-flame-red"],
+    power: 3,referencedCards: ["dromai","dromai-ash-artist","fai","fai-rising-rebellion","phoenix-flame-red"],
     
     
     
@@ -363682,7 +363682,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     
     pitch: 1,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -363761,7 +363761,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     
     pitch: 2,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -363840,7 +363840,7 @@ If you've played another blue card this turn, choose 3. Otherwise, choose 1;
   
     
     pitch: 3,
-    
+    referencedCards: ["ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -363968,7 +363968,7 @@ If the discarded card has 6 or more {p}, gain 2 action points.`,
   
     
     pitch: 3,
-    referencedCards: ["rhinar"],
+    referencedCards: ["rhinar","rhinar-reckless-rampage"],
     
     
     
@@ -370804,7 +370804,7 @@ Gain {r}{r} for each card this **scrapped**.`,
 
     
     
-    createdExtras: ["gold","goldkiss-rum"],
+    createdExtras: ["goldkiss-rum"],
     
     
     functionalText: `**Action** - {t}, destroy a Gold you control: Create a Goldkiss Rum token. **Go again**
@@ -370821,7 +370821,7 @@ Whenever you activate a Goldkiss Rum, gain {r}.`,
   
     
     
-    referencedCards: ["goldkiss-rum"],
+    referencedCards: ["gold","goldkiss-rum"],
     
     shorthands: [Shorthand.Tap],
     
@@ -380097,7 +380097,7 @@ If you've played or activated an attack reaction this chain link, this gets "Whe
   
     
     pitch: 1,
-    power: 6,referencedCards: ["uzuri"],
+    power: 6,referencedCards: ["uzuri","uzuri-switchblade"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -383355,7 +383355,7 @@ If a Chi was pitched to play this, create 2 Crouching Tigers in your hand.
   
     
     pitch: 3,
-    referencedCards: ["crouching-tiger"],
+    referencedCards: ["crouching-tiger","inner-chi-blue"],
     
     
     
@@ -385614,7 +385614,7 @@ If the defending hero has no cards in hand, this gets +3{p}.`,
   
     
     pitch: 1,
-    power: 6,referencedCards: ["rhinar"],
+    power: 6,referencedCards: ["rhinar","rhinar-reckless-rampage"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -385821,7 +385821,7 @@ At the beginning of your action phase, destroy this then draw a card.`,
   
     
     pitch: 3,
-    referencedCards: ["bravo"],
+    referencedCards: ["bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show"],
     
     
     
@@ -388067,7 +388067,7 @@ When this leaves the arena, draw a card.`,
   
     
     pitch: 2,
-    referencedCards: ["oscilio"],
+    referencedCards: ["oscilio","oscilio-constella-intelligence","oscilio-forked-continuum","oscilio-scion-of-the-third-age"],
     
     
     
@@ -391678,7 +391678,7 @@ At the beginning of your action phase, destroy this unless you remove a steam co
   
     
     
-    referencedCards: ["aether-ashwing"],
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     
     
@@ -394345,7 +394345,7 @@ Target weapon attack gets +1{p}.
   
     
     pitch: 2,
-    referencedCards: ["dorinthea"],
+    referencedCards: ["dorinthea","dorinthea-quicksilver-prodigy"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -395312,7 +395312,7 @@ Target weapon attack gets +1{p}.
 
     
     
-    cost: 0,createdExtras: ["runechant"],
+    cost: 0,
     defense: 3,
     
     functionalText: `You may play this from your banished zone.
@@ -396270,7 +396270,7 @@ Target dagger attack gets +3{p}.`,
   
     
     pitch: 1,
-    referencedCards: ["aether-ashwing"],
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -396351,7 +396351,7 @@ Target dagger attack gets +3{p}.`,
   
     
     pitch: 2,
-    referencedCards: ["aether-ashwing"],
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -396432,7 +396432,7 @@ Target dagger attack gets +3{p}.`,
   
     
     pitch: 3,
-    referencedCards: ["aether-ashwing"],
+    referencedCards: ["aether-ashwing","ash","dust-from-stillwater-shrine-red","dust-from-the-chrome-caverns-red","dust-from-the-fertile-fields-red","dust-from-the-golden-plains-red","dust-from-the-red-desert-red","dust-from-the-shadow-crypts-red"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -398154,7 +398154,7 @@ Whenever you roll a 1 on a die, destroy this.
 
     
     
-    cost: 0,createdExtras: ["gold","golden-cog"],
+    cost: 0,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Galvanize** - When this defends, you may destroy an item you control. If you do, this gets +1{d}. If a Golden Cog is destroyed this way, create a Gold token.`,
@@ -398169,7 +398169,7 @@ Whenever you roll a 1 on a die, destroy this.
   
     
     pitch: 2,
-    power: 3,referencedCards: ["golden-cog"],
+    power: 3,referencedCards: ["gold","golden-cog"],
     
     
     
@@ -402702,7 +402702,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
 
     
     
-    createdExtras: ["frostbite"],
+    
     defense: 2,
     
     functionalText: `If one or more Frostbite tokens would be created under your control, instead you may destroy this.
@@ -402783,7 +402783,7 @@ Your next Brute attack this turn gets "If you've intimidated 2 or more times thi
 
     
     
-    cost: 0,createdExtras: ["frostbite"],
+    cost: 0,
     defense: 3,
     
     functionalText: `Target dagger attack gets +1{p} and "When this hits a hero, deal 1 damage to them."
@@ -406331,7 +406331,7 @@ If X is 6 or greater, target hero discards 3 random cards.`,
   
     
     pitch: 3,
-    referencedCards: ["runechant","viserai"],
+    referencedCards: ["runechant","viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     
     
@@ -408136,7 +408136,7 @@ When this hits a hero, banish all cards in their soul. They lose {h} equal to th
   
     
     pitch: 3,
-    power: 6,referencedCards: ["levia"],
+    power: 6,referencedCards: ["levia","levia-redeemed","levia-shadowborn-abomination"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -408341,7 +408341,7 @@ If this is attacking a hero with 1 or more cards in their soul, it gets **go aga
   
     
     pitch: 1,
-    power: 6,referencedCards: ["chane"],
+    power: 6,referencedCards: ["chane","chane-bound-by-shadow"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -410034,7 +410034,7 @@ If you've **boosted** this turn, draw a card.`,
   
     
     pitch: 2,
-    referencedCards: ["dash"],
+    referencedCards: ["dash","dash-database","dash-inventor-extraordinaire"],
     
     
     
@@ -414615,7 +414615,7 @@ When this defends and the attacking hero has played or activated a reaction this
   
     
     pitch: 3,
-    referencedCards: ["riptide"],
+    referencedCards: ["riptide","riptide-lurker-of-the-deep"],
     
     
     
@@ -417620,7 +417620,7 @@ When this hits, draw a card for each other attack action card with 2 or less bas
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["benji-the-piercing-wind"],
     
     
     
@@ -420766,7 +420766,7 @@ If you've played a Lightning card this turn, this card's attacks get +1{p} and *
   
     
     pitch: 2,
-    power: 10,referencedCards: ["bravo","seismic-surge"],
+    power: 10,referencedCards: ["bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show","seismic-surge"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -423898,7 +423898,7 @@ Until end of turn, target weapon you control gets +2{p} and "Whenever this hits,
   
     
     pitch: 1,
-    referencedCards: ["dorinthea"],
+    referencedCards: ["dorinthea","dorinthea-quicksilver-prodigy"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -437527,7 +437527,7 @@ Whenever a Mechanologist item enters the arena under your control, if this has f
   
     
     
-    power: 2,referencedCards: ["dash"],
+    power: 2,referencedCards: ["dash","dash-database","dash-inventor-extraordinaire"],
     
     
     
@@ -440412,7 +440412,7 @@ Create a Bait token under an opponent's control.
   
     
     pitch: 1,
-    referencedCards: ["bait","riptide"],
+    referencedCards: ["bait","riptide","riptide-lurker-of-the-deep"],
     
     
     
@@ -441050,7 +441050,7 @@ You create a Copper, Silver, and Gold.`,
   
     
     pitch: 3,
-    referencedCards: ["aether-ashwing","copper","embodiment-of-earth","embodiment-of-lightning","gold","ponder","quicken","runechant","seismic-surge","silver","soul-shackle","spectral-shield","zen-state"],
+    referencedCards: ["aether-ashwing","copper","embodiment-of-earth","embodiment-of-lightning","gold","ponder","quicken","runechant","seismic-surge","silver","soul-shackle","spectral-shield","yorick-weaver-of-tales","zen-state"],
     
     
     
@@ -444528,7 +444528,7 @@ At the beginning of your action phase, remove a steam counter from this and gain
   
     
     pitch: 3,
-    referencedCards: ["dash"],
+    referencedCards: ["dash","dash-database","dash-inventor-extraordinaire"],
     
     
     
@@ -447804,7 +447804,7 @@ When this leaves the arena, your next attack this turn gets +2{p}.`,
 
     
     
-    cost: 0,createdExtras: ["crouching-tiger"],
+    cost: 0,
     defense: 2,
     
     functionalText: `While this is defending, if you've created a Crouching Tiger this turn, this gets +3{d}.`,
@@ -455663,7 +455663,7 @@ You may give a Gold token you control to another hero. If you do, put this on th
   
     
     pitch: 3,
-    referencedCards: ["goldkiss-rum"],
+    referencedCards: ["gold","goldkiss-rum"],
     
     
     
@@ -467117,7 +467117,7 @@ You may shuffle a Hyper Driver from your graveyard into your deck. If you do, ga
   
     
     pitch: 1,
-    referencedCards: ["hyper-driver","hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
+    referencedCards: ["hyper-driver-blue","hyper-driver-red","hyper-driver-yellow"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -469489,7 +469489,7 @@ You may put a non-attack action card with **blood debt** from your graveyard on 
   
     
     pitch: 2,
-    power: 6,referencedCards: ["boltyn","bravo","briar","courage","dorinthea","eloquence","embodiment-of-earth","embodiment-of-lightning","lexi","oldhim","prism","seismic-surge","spectral-shield","spellbane-aegis"],
+    power: 6,referencedCards: ["boltyn","bravo","bravo-flattering-showman","bravo-showstopper","bravo-star-of-the-show","briar","briar-warden-of-thorns","courage","dorinthea","dorinthea-quicksilver-prodigy","eloquence","embodiment-of-earth","embodiment-of-lightning","lexi","lexi-livewire","oldhim","oldhim-grandfather-of-eternity","prism","prism-advent-of-thrones","prism-awakener-of-sol","prism-sculptor-of-arc-light","seismic-surge","shiyana-diamond-gemini","spectral-shield","spellbane-aegis"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -470083,7 +470083,7 @@ When this hits an ally, destroy that ally.`,
   
     
     pitch: 3,
-    
+    referencedCards: ["inner-chi-blue"],
     
     
     
@@ -471535,7 +471535,7 @@ Your next dagger attack this turn gets +2{p}.
 
     
     
-    
+    createdExtras: ["agility","gold","vigor"],
     defense: 3,
     
     functionalText: `**Olympia Specialization**
@@ -471556,7 +471556,7 @@ Choose X+1;
   
     
     pitch: 3,
-    referencedCards: ["agility","gold","olympia","vigor"],
+    referencedCards: ["agility","gold","olympia","olympia-prized-fighter","vigor"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -472303,7 +472303,7 @@ When this hits a hero, turn all cards in their banished zone face-down. They los
   
     
     pitch: 3,
-    power: 13,referencedCards: ["viserai"],
+    power: 13,referencedCards: ["viserai","viserai-between-worlds","viserai-rune-blood","viserai-the-forsaken","viserai-usurper"],
     
     shorthands: [Shorthand.Poppers],
     
@@ -476255,7 +476255,7 @@ If you've pitched a blue card this turn, create a Fang Strike in your hand.`,
   
     
     
-    referencedCards: ["verdance"],
+    
     
     
     
@@ -481037,7 +481037,7 @@ When this chain link resolves, if this is defended by a card from hand, create a
 
     
     
-    createdExtras: ["gate-to-iarathael"],
+    
     
     
     functionalText: `The first attack action card with blood debt you play each turn gets **go again**.
@@ -481617,7 +481617,7 @@ Put a Surging Strike and a card with **combo** from your graveyard on the top an
   
     
     pitch: 3,
-    referencedCards: ["katsu","surging-strike-blue","surging-strike-red","surging-strike-yellow"],
+    referencedCards: ["katsu","katsu-the-wanderer","surging-strike-blue","surging-strike-red","surging-strike-yellow"],
     
     
     
@@ -481700,7 +481700,7 @@ Equip X weapons and/or equipment from your inventory.`,
   
     
     pitch: 3,
-    referencedCards: ["gold","olympia"],
+    referencedCards: ["gold","olympia","olympia-prized-fighter"],
     
     
     
@@ -482011,7 +482011,7 @@ Create a Vigor and a Courage token. **Go again**`,
   
     
     pitch: 3,
-    referencedCards: ["courage","gold","olympia","prized-galea","vigor"],
+    referencedCards: ["courage","gold","olympia","olympia-prized-fighter","prized-galea","vigor"],
     
     
     
@@ -482783,7 +482783,7 @@ When this hits, create a Lightning Flow token.
 
     
     
-    createdExtras: ["seismic-surge"],
+    
     defense: 0,
     
     functionalText: `If you've created a Seismic Surge this turn, this gets **spellvoid 3**.`,
@@ -484294,7 +484294,7 @@ When this hits, create a Lightning Flow token.`,
   
     
     
-    referencedCards: ["arakni","marked"],
+    referencedCards: ["arakni","arakni-5lp3d-7hru-7h3-cr4x","arakni-black-widow","arakni-funnel-web","arakni-huntsman","arakni-marionette","arakni-orb-weaver","arakni-redback","arakni-solitary-confinement","arakni-tarantula","arakni-trap-door","arakni-web-of-deceit","marked"],
     
     
     
@@ -484770,7 +484770,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** an Agility token with them.`,
@@ -484849,7 +484849,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** an Agility token with them.`,
@@ -484943,7 +484943,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["agility"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** an Agility token with them.`,
@@ -485052,7 +485052,7 @@ Whenever you play a Shadow non-attack action card, you may pay {h}. If you do, t
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Universal**
@@ -485148,7 +485148,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Universal**
@@ -485244,7 +485244,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["gold"],
     defense: 2,
     
     functionalText: `**Universal**
@@ -485340,7 +485340,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Might token with them.`,
@@ -485419,7 +485419,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Might token with them.`,
@@ -485498,7 +485498,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["might"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Might token with them.`,
@@ -485607,7 +485607,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Vigor token with them.`,
@@ -485686,7 +485686,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Vigor token with them.`,
@@ -485780,7 +485780,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    cost: 3,
+    cost: 3,createdExtras: ["vigor"],
     defense: 2,
     
     functionalText: `When this attacks a hero, you may **wager** a Vigor token with them.`,
@@ -486546,7 +486546,7 @@ When this attacks a hero, you may **wager** a Gold token with them.`,
 
     
     
-    createdExtras: ["might"],
+    
     defense: 3,
     
     functionalText: `When this defends, if you control a Might token, you may put an attack action card from your graveyard on top of your deck.`,
@@ -486911,7 +486911,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["benji-the-piercing-wind"],
     
     
     
@@ -487374,7 +487374,7 @@ When this hits, you may discard a card with cost 0. If you do, search your deck 
   
     
     pitch: 2,
-    
+    referencedCards: ["raydn-duskbane"],
     
     shorthands: [Shorthand.Buffs],
     
@@ -493385,7 +493385,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
   
     
     pitch: 2,
-    power: 2,
+    power: 2,referencedCards: ["ira-crimson-haze","ira-scarlet-revenger"],
     
     
     
@@ -493981,7 +493981,7 @@ When this hits, and it's the second or higher chain link in a row to hit, draw 2
 
     
     
-    cost: 0,createdExtras: ["graphene-chelicera","marked"],
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -494062,7 +494062,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
 
     
     
-    cost: 0,createdExtras: ["graphene-chelicera","marked"],
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -494158,7 +494158,7 @@ When this attacks a **marked** hero, equip a Graphene Chelicera token.`,
 
     
     
-    cost: 0,createdExtras: ["graphene-chelicera","marked"],
+    cost: 0,createdExtras: ["graphene-chelicera"],
     defense: 3,
     
     functionalText: `**Stealth**
@@ -502782,7 +502782,7 @@ If this has been sharpened this turn, its first attack this turn gets **go again
   
     
     
-    power: 3,referencedCards: ["hala"],
+    power: 3,referencedCards: ["hala","hala-bladesaint-of-the-vow"],
     
     
     
