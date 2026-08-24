@@ -217,28 +217,26 @@ describe("Related cards", () => {
     }
   });
 
-  const heroSpecificTokens: string[][][] = [
-    [["Maxx Nitro"], [Hero.Maxx], ["Hyper Driver"]],
-    [["Jump Start"], [Hero.Maxx], ["Hyper Driver"]],
-    [["Jump Start"], [Hero.Dash], []],
-    [["Jump Start"], [], []],
+  // A hero brings what its own card creates, so the hero card has to be among
+  // the cards: naming Maxx is what makes a Hyper Driver hers, and Jump Start
+  // only interacts with one.
+  const heroCardTokens: string[][][] = [
+    [["Maxx Nitro"], ["Hyper Driver"]],
+    [["Maxx Nitro", "Jump Start"], ["Hyper Driver"]],
+    [["Dash", "Jump Start"], []],
+    [["Jump Start"], []],
   ];
 
-  it.each(heroSpecificTokens)(
-    "Gets referenced tokens when there are hero limits",
-    (referencingCardNames, heroes, expectedTokens) => {
-      const referencingCards = cards.filter(
-        ({ hero, name }) =>
-          (referencingCardNames as unknown as string[]).includes(name) ||
-          (!!hero && heroes.includes(hero)),
+  it.each(heroCardTokens)(
+    "Gets %s tokens from the cards themselves",
+    (referencingCardNames, expectedTokens) => {
+      const referencingCards = cards.filter(({ name }) =>
+        (referencingCardNames as unknown as string[]).includes(name),
       );
-
-      const hero = heroes.length > 0 ? (heroes[0] as Hero) : undefined;
 
       const referencedTokens = getTokensReferencedByCards(
         referencingCards,
         ALL_TOKENS,
-        hero,
       );
 
       expect(referencedTokens.map(({ name }) => name).sort()).toEqual(
@@ -258,7 +256,6 @@ describe("Related cards", () => {
     const referencedTokens = getTokensReferencedByCards(
       searchResults,
       ALL_TOKENS,
-      Hero.Crackni,
     );
 
     const referencedTokenNames = referencedTokens.map(({ name }) => name);

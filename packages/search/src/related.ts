@@ -1,4 +1,4 @@
-import { Card, Hero, Trait } from "@flesh-and-blood/types";
+import { Card } from "@flesh-and-blood/types";
 
 /** The same card printed at another pitch value. */
 export const getOtherPitches = (
@@ -66,12 +66,6 @@ export const getCardsByReferencedCardIdentifier = (
   return cardsByReferencedCardIdentifier;
 };
 
-// A demi-hero is chosen at deckbuilding rather than put into play, so no card
-// creates one and the hero is the only thing that answers for it.
-const CHOSEN_EXTRA_TRAITS_BY_HERO: { [key: string]: Trait[] } = {
-  [Hero.Crackni]: [Trait.AgentOfChaos],
-};
-
 /**
  * The extras a set of cards brings, out of the ones available to them. A card
  * carries what it creates, so the hero's own card has to be among the cards for
@@ -80,7 +74,6 @@ const CHOSEN_EXTRA_TRAITS_BY_HERO: { [key: string]: Trait[] } = {
 export const getTokensReferencedByCards = (
   cards: Card[],
   availableTokens: Card[],
-  hero?: Hero,
 ): Card[] => {
   const createdExtraIdentifiers = new Set<string>();
   for (const card of cards) {
@@ -89,16 +82,9 @@ export const getTokensReferencedByCards = (
     }
   }
 
-  const chosenExtraTraits = (hero && CHOSEN_EXTRA_TRAITS_BY_HERO[hero]) || [];
-
   const referencedTokens: Card[] = [];
   for (const token of availableTokens) {
-    const isCreated = createdExtraIdentifiers.has(token.cardIdentifier);
-    const isChosenByHero = (token.traits || []).some((trait) =>
-      chosenExtraTraits.includes(trait),
-    );
-
-    if (isCreated || isChosenByHero) {
+    if (createdExtraIdentifiers.has(token.cardIdentifier)) {
       referencedTokens.push(token);
     }
   }
