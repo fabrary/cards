@@ -11886,6 +11886,79 @@ The next attack action card you play this turn gets +1{p}. **Go again**
   
   
   },{
+    artists: ["Surya Feby"],
+    cardIdentifier: "apex-buster-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR039",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Kayo,Hero.Levia,Hero.RKO,Hero.Rhinar,Hero.Tuffnut],
+    name: "Apex Buster",
+    printings: [{
+        artists: ["Surya Feby"],
+      
+      identifier: "IAR039",
+      image: "IAR039",
+      
+      
+      print: "IAR039",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Surya Feby"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR039",
+      image: "IAR039-RF",
+      
+      
+      print: "IAR039-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR039"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR039",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Brute Action - Attack",
+
+    
+    
+    cost: 3,
+    defense: 3,
+    
+    functionalText: `**Instant** - {r}{r}, discard this: Destroy target card that is defending an attack you control with 6 or more base {p}.`,
+    
+    
+    
+    
+    
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
     artists: ["Carlos Cruchaga"],
     cardIdentifier: "aphrodias",
     classes: [Class.Illusionist],
@@ -81079,7 +81152,8 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  },{
+  }];
+const cards2: Card[] = [{
     artists: ["Eilene Cherie"],
     cardIdentifier: "civic-steps",
     classes: [Class.Guardian],
@@ -81175,8 +81249,7 @@ Cintari Sellsword can only attack if you've attacked with a weapon this turn.`,
     
   
   
-  }];
-const cards2: Card[] = [{
+  },{
     artists: ["Mariusz Gandzel"],
     cardIdentifier: "clamp-press-blue",
     classes: [Class.Mechanologist],
@@ -108379,6 +108452,81 @@ Prevent the next X arcane damage that would be dealt to you this turn, where X i
     
     
     shorthands: [Shorthand.Flick],
+    
+    
+    
+    
+    
+    
+    
+    
+  
+  
+  },{
+    artists: ["Amtepra"],
+    cardIdentifier: "danse-macabre",
+    classes: [Class.Necromancer],
+    defaultImage: "IAR091-CF",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.UltimatePitFight],
+    legalHeroes: [Hero.Frankie,Hero.GravyBones,Hero.Malice,Hero.Taylor],
+    name: "Danse Macabre",
+    printings: [{
+        artists: ["Amtepra"],
+      foiling: Foiling.Cold,
+      identifier: "IAR091",
+      image: "IAR091-CF",
+      
+      
+      print: "IAR091-Cold",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Amtepra"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR091",
+      image: "IAR091-RF",
+      
+      
+      print: "IAR091-Rainbow",
+      rarity: Rarity.Legendary,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Legendary],
+    rarity: Rarity.Legendary,
+    setIdentifiers: ["IAR091"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR091-CF",
+    subtypes: [Subtype.Legs],
+    types: [Type.Equipment],
+    typeText: "Necromancer Equipment - Legs",
+
+    
+    
+    
+    defense: 1,
+    
+    functionalText: `Whenever an ally you control enters the arena, you may pay {r}{r} and {t} this. If you do, that ally's first attack this turn gets **go again** and destroy that ally at the beginning of the end phase.
+
+**Blade Break**`,
+    
+    
+    
+    
+    keywords: [Keyword.BladeBreak,Keyword.GoAgain],
+    
+    
+    meta: [Meta.Arena],
+  
+    
+    
+    
+    
+    shorthands: [Shorthand.Tap],
     
     
     
@@ -160126,7 +160274,8 @@ The next time you would be dealt damage this turn, prevent it.`,
     
   
   
-  },{
+  }];
+const cards3: Card[] = [{
     artists: ["Hilary Purnamasari"],
     cardIdentifier: "feisty-locals-blue",
     classes: [Class.Generic],
@@ -160331,8 +160480,7 @@ The next time you would be dealt damage this turn, prevent it.`,
     talents: [Talent.Earth],
   
   
-  }];
-const cards3: Card[] = [{
+  },{
     artists: ["Angelina Tyshchik"],
     cardIdentifier: "felling-swing-red",
     classes: [Class.Warrior],
@@ -205572,6 +205720,231 @@ When the combat chain closes, if you've attacked with this, banish it.
   
   
   },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "hellbound-assault-red",
+    classes: [Class.Brute],
+    defaultImage: "IAR011",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Hellbound Assault",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "IAR011",
+      image: "IAR011",
+      
+      
+      print: "IAR011",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR011",
+      image: "IAR011-RF",
+      
+      
+      print: "IAR011-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR011"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR011",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this hits, banish it.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 1,
+    power: 7,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "hellbound-assault-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR012",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Hellbound Assault",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "IAR012",
+      image: "IAR012",
+      
+      
+      print: "IAR012",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR012",
+      image: "IAR012-RF",
+      
+      
+      print: "IAR012-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR012"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR012",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this hits, banish it.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 2,
+    power: 6,
+    
+    shorthands: [Shorthand.Poppers],
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
+    artists: ["Carlos Cruchaga"],
+    cardIdentifier: "hellbound-assault-blue",
+    classes: [Class.Brute],
+    defaultImage: "IAR013",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.SilverAge,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Hellbound Assault",
+    printings: [{
+        artists: ["Carlos Cruchaga"],
+      
+      identifier: "IAR013",
+      image: "IAR013",
+      
+      
+      print: "IAR013",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Carlos Cruchaga"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR013",
+      image: "IAR013-RF",
+      
+      
+      print: "IAR013-Rainbow",
+      rarity: Rarity.Rare,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Rare],
+    rarity: Rarity.Rare,
+    setIdentifiers: ["IAR013"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR013",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 2,
+    defense: 3,
+    
+    functionalText: `When this hits, banish it.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck,Meta.Rainbow],
+  
+    
+    pitch: 3,
+    power: 5,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["M Fakhrur Rozzi"],
     cardIdentifier: "helm-of-astral-sanctuary",
     classes: [Class.Generic],
@@ -228461,6 +228834,81 @@ When this hits a hero, banish the top card of their deck. You may play it until 
   
   
   },{
+    artists: ["Tomasz Jedruszek"],
+    cardIdentifier: "ingest-the-unknown-yellow",
+    classes: [Class.Brute],
+    defaultImage: "IAR007",
+    firstReleaseDate: "2026-09-25",
+    legalFormats: [Format.Blitz,Format.ClassicConstructed,Format.Draft,Format.GoldenAge,Format.LivingLegend,Format.Open,Format.Sealed,Format.UltimatePitFight],
+    legalHeroes: [Hero.Levia],
+    name: "Ingest the Unknown",
+    printings: [{
+        artists: ["Tomasz Jedruszek"],
+      
+      identifier: "IAR007",
+      image: "IAR007",
+      
+      
+      print: "IAR007",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },{
+        artists: ["Tomasz Jedruszek"],
+      foiling: Foiling.Rainbow,
+      identifier: "IAR007",
+      image: "IAR007-RF",
+      
+      
+      print: "IAR007-Rainbow",
+      rarity: Rarity.Majestic,
+      set: Release.UsurpTheShadowThrone,
+      
+      
+    },],
+    rarities: [Rarity.Majestic],
+    rarity: Rarity.Majestic,
+    setIdentifiers: ["IAR007"],
+    sets: [Release.UsurpTheShadowThrone],
+    specialImage: "IAR007",
+    subtypes: [Subtype.Attack],
+    types: [Type.Action],
+    typeText: "Shadow Brute Action - Attack",
+
+    
+    
+    cost: 1,
+    defense: 3,
+    
+    functionalText: `When this attacks, banish the top card of your deck. This gets +X{p}, where X is the banished card's base {p}.
+
+**Blood Debt**`,
+    
+    
+    
+    
+    keywords: [Keyword.BloodDebt],
+    
+    
+    meta: [Meta.Deck],
+  
+    
+    pitch: 2,
+    power: 0,
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    talents: [Talent.Shadow],
+  
+  
+  },{
     artists: ["Arghawana Rim"],
     cardIdentifier: "ink-lined-cloak",
     classes: [Class.Wizard],
@@ -241532,7 +241980,8 @@ Search your deck for a card with Amulet, Potion, or Talisman in its name, put it
     
   
   
-  },{
+  }];
+const cards4: Card[] = [{
     artists: ["Max Kostin"],
     cardIdentifier: "knife-through-butter-red",
     classes: [Class.Warrior],
@@ -242054,8 +242503,7 @@ If you've hit with a dagger this combat chain, this gets **go again**.`,
     
   
   
-  }];
-const cards4: Card[] = [{
+  },{
     artists: ["Henrique Lindner"],
     cardIdentifier: "knives-out-blue",
     classes: [Class.Assassin,Class.Ninja],
@@ -323036,7 +323484,8 @@ If you've attacked with a weapon this turn, your next attack this turn gets **do
     
   
   
-  },{
+  }];
+const cards5: Card[] = [{
     artists: ["Anastasiya Grintsova"],
     cardIdentifier: "push-the-point-yellow",
     classes: [Class.Generic],
@@ -323670,8 +324119,7 @@ If this was played from arsenal, draw a card.
     talents: [Talent.Ice],
   
   
-  }];
-const cards5: Card[] = [{
+  },{
     artists: ["Ismatulloh"],
     cardIdentifier: "put-on-ice-blue",
     classes: [Class.NotClassed],
@@ -404339,7 +404787,8 @@ If you've played another Wizard non-attack action card this turn, you may play t
     
   
   
-  },{
+  }];
+const cards6: Card[] = [{
     artists: ["Yulia Litvinova"],
     cardIdentifier: "snatch-yellow",
     classes: [Class.Generic],
@@ -404980,8 +405429,7 @@ If this was **fused**, it gets "When this hits a hero, create a Frostbite token 
     talents: [Talent.Elemental],
   
   
-  }];
-const cards6: Card[] = [{
+  },{
     artists: ["Arif Wijaya"],
     cardIdentifier: "snow-under-yellow",
     classes: [Class.Guardian],
@@ -482732,7 +483180,8 @@ When this hits, create a Lightning Flow token.
     talents: [Talent.Lightning],
   
   
-  },{
+  }];
+const cards7: Card[] = [{
     artists: ["Federico Musetti"],
     cardIdentifier: "volcanic-vice",
     classes: [Class.Guardian],
@@ -483272,8 +483721,7 @@ When this is pitched, create a Lightning Flow token.`,
     talents: [Talent.Lightning],
   
   
-  }];
-const cards7: Card[] = [{
+  },{
     artists: ["Nathaniel Himawan"],
     cardIdentifier: "voltic-bolt-red",
     classes: [Class.Wizard],
