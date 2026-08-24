@@ -1,5 +1,5 @@
 import { describe, expect, it } from "@jest/globals";
-import { Card, getCanBeExtra, Hero, Trait } from "@flesh-and-blood/types";
+import { Card, getCanBeExtra, Trait } from "@flesh-and-blood/types";
 import { cards } from "@flesh-and-blood/cards";
 import {
   getCardsByReferencedCardIdentifier,
